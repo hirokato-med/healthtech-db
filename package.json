@@ -1,0 +1,29 @@
+{
+  "name": "healthtech-db",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Healthtech DB — 国内ヘルスケアビジネスデータベース（復刻版）",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "lint": "next lint",
+    "import:companies": "python3 -I scripts/import_companies.py",
+    "news:fetch": "node pipeline/news.mjs",
+    "search:index": "node scripts/build-search-index.mjs",
+    "prebuild": "node scripts/build-search-index.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.28",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "gray-matter": "4.0.3",
+    "marked": "18.1.1"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6"
+  }
+}
