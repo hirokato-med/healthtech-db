@@ -13,7 +13,7 @@ export function ArticleCard({ a }: { a: ArticleMeta }) {
         <Link href={`/articles/${a.slug}/`} className="title ink">{a.title}</Link>
         <div className="meta"><span>{a.author}</span><span>{fmtDate(a.date)}</span></div>
       </div>
-      <Tile text={categoryName(a.category)} group={getCategory(a.category)?.group} size="lg" />
+      <Tile text={categoryName(a.category)} color={getCategory(a.category)?.color} size="lg" />
     </article>
   );
 }
@@ -23,7 +23,7 @@ export function FeatureArticle({ a }: { a: ArticleMeta }) {
   return (
     <article className="feature">
       <Link href={`/articles/${a.slug}/`} aria-hidden="true" tabIndex={-1}>
-        <Tile text={categoryName(a.category)} group={getCategory(a.category)?.group} size="wide" kicker="FEATURE" />
+        <Tile text={categoryName(a.category)} color={getCategory(a.category)?.color} size="wide" kicker="FEATURE" />
       </Link>
       {a.category && <CategoryChip slug={a.category} />}
       <Link href={`/articles/${a.slug}/`} className="title">{a.title}</Link>

@@ -3,6 +3,8 @@ export type Category = {
   name: string;
   group: 'disease' | 'solution' | 'domain';
   groupLabel: string;
+  /** 表示色（data.ts で割り当て） */
+  color: string;
 };
 
 export type Company = {

@@ -36,7 +36,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
     <>
       <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link>›<Link href="/companies/">企業</Link>›<span>{c.name}</span></nav>
       <div className="page-head" style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
-        <Tile text={initialOf(c.name)} group={getCategory(c.categories[0] ?? '')?.group} />
+        <Tile text={initialOf(c.name)} color={getCategory(c.categories[0] ?? '')?.color} />
         <div style={{ flex: 1, minWidth: 0 }}>
           <Chips slugs={c.categories} />
           <h1>{c.name}</h1>
@@ -83,7 +83,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                 {services.map((s) => (
                   <article className="item" key={s.id}>
                     <div className="body">
-                      <Link href={`/categories/${s.category}/`} className={`label ${getCategory(s.category)?.group ?? ''}`}>{categoryName(s.category)}</Link>
+                      <Link href={`/categories/${s.category}/`} className="label" style={{ color: getCategory(s.category)?.color }}>{categoryName(s.category)}</Link>
                       <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
                       <p className="desc">{s.description}</p>
                       <div className="meta">{s.startedYear && <span className="tag">{s.startedYear}年開始</span>}<span className="tag">{s.status}</span></div>

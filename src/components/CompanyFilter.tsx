@@ -47,12 +47,12 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
       <p className="count-text" style={{ margin: '0 0 4px' }}><b>{hit.length}</b> 社が該当</p>
       <div className="rows">
         {hit.slice(0, shown).map((c) => {
-          const g = catOf[c.categories[0]]?.group ?? '';
+          const color = catOf[c.categories[0]]?.color ?? '#1E6FE8';
           return (
             <article className="item" key={c.id}>
               <div className="body">
                 <span className="labels">
-                  {c.categories.map((s) => <Link key={s} href={`/categories/${s}/`} className={`label ${catOf[s]?.group ?? ''}`}>{catOf[s]?.name ?? s}</Link>)}
+                  {c.categories.map((s) => <Link key={s} href={`/categories/${s}/`} className="label" style={{ color: catOf[s]?.color }}>{catOf[s]?.name ?? s}</Link>)}
                 </span>
                 <Link href={`/companies/${c.id}/`} className="title">{c.name}</Link>
                 {c.description && <p className="desc">{c.description}</p>}
@@ -62,7 +62,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
                   <span className={`tag ${c.exit === '上場' ? 'listed' : ''}`}>{c.exit}</span>
                 </div>
               </div>
-              <span className={`tile ${g}`} aria-hidden="true">{initialOf(c.name)}</span>
+              <span className="tile" style={{ background: color }} aria-hidden="true">{initialOf(c.name)}</span>
             </article>
           );
         })}

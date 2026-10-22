@@ -6,7 +6,7 @@ import { Tile, initialOf } from './Tile';
 
 /** 企業の一覧行（罫線区切り・青い見出しリンク・右に代替タイル） */
 export function CompanyCard({ c }: { c: Company }) {
-  const g = getCategory(c.categories[0] ?? '')?.group;
+  const color = getCategory(c.categories[0] ?? '')?.color;
   return (
     <article className="item">
       <div className="body">
@@ -19,7 +19,7 @@ export function CompanyCard({ c }: { c: Company }) {
           <span className={`tag ${c.exit === '上場' ? 'listed' : ''}`}>{c.exit}</span>
         </div>
       </div>
-      <Tile text={initialOf(c.name)} group={g} />
+      <Tile text={initialOf(c.name)} color={color} />
     </article>
   );
 }

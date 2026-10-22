@@ -26,8 +26,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     <div className="narrow">
       <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link>›<Link href="/categories/">カテゴリ</Link>›<span>{c.name}</span></nav>
       <div className="page-head">
-        <span className={`label ${c.group}`}>{c.groupLabel}</span>
-        <h1>{c.name}</h1>
+        <span className="label" style={{ color: c.color }}>{c.groupLabel}</span>
+        <h1 style={{ display: 'flex', alignItems: 'center', gap: 10 }}><span className="tile" style={{ background: c.color, width: 40, height: 40, fontSize: 18 }} aria-hidden="true">{c.name.slice(0, 1)}</span>{c.name}</h1>
         <p className="lead">企業 {companies.length} 社 / サービス {services.length} 件 / 記事 {articles.length} 本 / ニュース {news.length} 本</p>
       </div>
       {articles.length > 0 && (

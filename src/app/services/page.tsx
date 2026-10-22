@@ -18,7 +18,7 @@ export default function ServicesPage() {
         {services.map((s) => (
           <article className="item" key={s.id}>
             <div className="body">
-              <Link href={`/categories/${s.category}/`} className={`label ${getCategory(s.category)?.group ?? ''}`}>{categoryName(s.category)}</Link>
+              <Link href={`/categories/${s.category}/`} className="label" style={{ color: getCategory(s.category)?.color }}>{categoryName(s.category)}</Link>
               <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
               <p className="desc">{s.description}</p>
               <div className="meta">
