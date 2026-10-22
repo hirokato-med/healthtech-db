@@ -83,7 +83,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                 {services.map((s) => (
                   <article className="item" key={s.id}>
                     <div className="body">
-                      <Link href={`/categories/${s.category}/`} className="label" style={{ color: getCategory(s.category)?.color }}>{categoryName(s.category)}</Link>
+                      <Link href={`/categories/${s.category}/`} className="label">{categoryName(s.category)}</Link>
                       <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
                       <p className="desc">{s.description}</p>
                       <div className="meta">{s.startedYear && <span className="tag">{s.startedYear}年開始</span>}<span className="tag">{s.status}</span></div>

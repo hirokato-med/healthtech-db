@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://healthtech-db.com'),
   openGraph: { type: 'website', siteName: 'Healthtech DB', locale: 'ja_JP' },
 };
-export const viewport: Viewport = { themeColor: '#ffffff', width: 'device-width', initialScale: 1, viewportFit: 'cover' };
+export const viewport: Viewport = { themeColor: '#14254a', width: 'device-width', initialScale: 1, viewportFit: 'cover' };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const news = getNews();

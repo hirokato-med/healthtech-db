@@ -22,7 +22,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
     <>
       <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link>›<Link href="/services/">サービス</Link>›<span>{s.name}</span></nav>
       <div className="page-head">
-        <Link href={`/categories/${s.category}/`} className="label" style={{ color: getCategory(s.category)?.color }}>{categoryName(s.category)}</Link>
+        <Link href={`/categories/${s.category}/`} className="label">{categoryName(s.category)}</Link>
         <h1>{s.name}</h1>
         <p className="lead">{s.description}</p>
       </div>

@@ -6,7 +6,7 @@ export function CategoryChip({ slug }: { slug: string }) {
   const c = getCategory(slug);
   if (!c) return <span className="label">{slug}</span>;
   return (
-    <Link href={`/categories/${c.slug}/`} className="label" style={{ color: c.color }}>
+    <Link href={`/categories/${c.slug}/`} className="label">
       {c.name}
     </Link>
   );

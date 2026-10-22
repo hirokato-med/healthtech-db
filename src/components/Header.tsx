@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { BASE_PATH } from '@/lib/base';
-import { SEARCH_COLOR, TABS, tabFor } from '@/lib/colors';
+import { TABS, tabFor } from '@/lib/colors';
 
 const WD = ['日', '月', '火', '水', '木', '金', '土'];
 
@@ -18,20 +18,16 @@ export function useActive() {
 export function Header({ stats, updated }: { stats: { companies: number; services: number; people: number; news: number }; updated: string }) {
   const path = useCurrentPath();
   const active = tabFor(path);
-  const page = active ?? SEARCH_COLOR;
   const d = new Date(updated || Date.now());
   const today = `${d.getMonth() + 1}月${d.getDate()}日（${WD[d.getDay()]}）`;
   return (
     <>
-      {/* 選択中のタブの色をページ全体（見出しの縦棒など）に渡す */}
-      <style>{`:root{--page:${page.color};--page-ink:${page.ink};--page-text:${page.color === '#F5B700' ? '#A87400' : page.color}}`}</style>
+      
       <header className="site-header">
         <div className="container">
           <div className="masthead">
             <Link href="/" className="brand" aria-label="Healthtech DB トップ">
-              <span className="brand-name">
-                <span style={{ color: '#E8384F' }}>H</span><span style={{ color: '#F2711C' }}>e</span><span style={{ color: '#F5B700' }}>a</span><span style={{ color: '#2DB34A' }}>l</span><span style={{ color: '#00A3C4' }}>t</span><span style={{ color: '#1E6FE8' }}>h</span><span style={{ color: '#6C4AD8' }}>t</span><span style={{ color: '#D63AA8' }}>e</span><span style={{ color: '#E8384F' }}>c</span><span style={{ color: '#F2711C' }}>h</span> DB
-              </span>
+              <span className="brand-name">Healthtech DB</span>
               <span className="brand-sub">国内ヘルスケアビジネスデータベース</span>
             </Link>
             <div className="mast-right">
@@ -40,22 +36,15 @@ export function Header({ stats, updated }: { stats: { companies: number; service
             </div>
           </div>
         </div>
-        <nav className="ctabs" aria-label="メイン">
-          <div className="container ctabs-in">
+        <div className="container">
+          <nav className="tabs" aria-label="メイン">
             {TABS.map((t) => (
-              <Link
-                key={t.href}
-                href={t.href}
-                className="ctab"
-                aria-current={active?.href === t.href ? 'page' : undefined}
-                style={{ ['--c' as string]: t.color, ['--ci' as string]: t.ink }}
-              >
+              <Link key={t.href} href={t.href} className="tab" aria-current={active?.href === t.href ? 'page' : undefined}>
                 {t.label}
               </Link>
             ))}
-          </div>
-        </nav>
-        <div className="cband" />
+          </nav>
+        </div>
         <div className="ticker">
           <div className="container ticker-in">
             <span>

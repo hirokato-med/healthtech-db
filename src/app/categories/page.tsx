@@ -23,7 +23,7 @@ export default function CategoriesPage() {
               const nC = companies.filter((x) => x.categories.includes(c.slug)).length;
               const nS = services.filter((x) => x.category === c.slug).length;
               return (
-                <Link key={c.slug} href={`/categories/${c.slug}/`} className="cat-link" style={{ color: c.color }}>
+                <Link key={c.slug} href={`/categories/${c.slug}/`} className="cat-link">
                   {c.name}<span className="n">企業 {nC} ・ サービス {nS}</span>
                 </Link>
               );

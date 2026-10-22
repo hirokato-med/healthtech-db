@@ -23,7 +23,7 @@ export default async function TalentPage({ params }: { params: Promise<{ id: str
     <div className="narrow">
       <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link>›<Link href="/talents/">人物</Link>›<span>{p.name}</span></nav>
       <div className="page-head" style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-        <span className="tile" style={{ borderRadius: '50%', background: '#2DB34A' }} aria-hidden="true">{p.name.slice(0, 1)}</span>
+        <span className="tile" style={{ borderRadius: '50%' }} aria-hidden="true">{p.name.slice(0, 1)}</span>
         <div>
           <h1>{p.name}</h1>
           <p className="lead" style={{ marginTop: 2 }}>{p.roles.map((r) => `${r.companyName} ${r.title}`).join(' / ')}</p>

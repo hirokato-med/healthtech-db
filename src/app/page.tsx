@@ -52,7 +52,7 @@ export default function Home() {
                 .sort((a, b) => b.n - a.n)
                 .slice(0, 8)
                 .map(({ c, n }) => (
-                  <Link key={c.slug} href={`/categories/${c.slug}/`} className="cat-link" style={{ color: c.color }}>
+                  <Link key={c.slug} href={`/categories/${c.slug}/`} className="cat-link">
                     {c.name}<span className="n">{n}社</span>
                   </Link>
                 ))}

@@ -1,7 +1,7 @@
-/** ロゴ・画像が無いときの代替タイル。分類色で塗り、白文字で頭文字や分類名を出す */
-export function Tile({ text, color = '#1E6FE8', size = 'md', kicker }: { text: string; color?: string; size?: 'md' | 'lg' | 'wide'; kicker?: string }) {
+/** ロゴが無いときの代替タイル（Indeed の企業ロゴ枠のようなグレーの四角に頭文字） */
+export function Tile({ text, size = 'md', kicker }: { text: string; color?: string; size?: 'md' | 'lg' | 'wide'; kicker?: string }) {
   return (
-    <span className={`tile ${size === 'md' ? '' : size}`} style={{ background: color }} aria-hidden="true">
+    <span className={`tile ${size === 'md' ? '' : size}`} aria-hidden="true">
       {kicker && <small>{kicker}</small>}
       {text}
     </span>
