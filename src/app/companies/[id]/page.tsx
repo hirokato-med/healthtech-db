@@ -4,10 +4,8 @@ import { notFound } from 'next/navigation';
 import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
-import { SectionHead } from '@/components/SectionHead';
-import { Tile, initialOf } from '@/components/Tile';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { categoryName, findCompanyByName, getArticles, getCategory, getCompanies, getCompany, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { categoryName, findCompanyByName, getArticles, getCompanies, getCompany, newsOf, peopleOf, servicesOf } from '@/lib/data';
 
 export function generateStaticParams() {
   return getCompanies().map((c) => ({ id: c.id }));
@@ -24,102 +22,94 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const services = servicesOf(c.id);
   const people = peopleOf(c.id);
   const news = newsOf(c).slice(0, 10);
-  const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 5);
+  const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 6);
   const parent = c.parentCompany ? findCompanyByName(c.parentCompany) : undefined;
   const articles = getArticles().filter((a) => a.companies?.some((n) => findCompanyByName(n)?.id === c.id));
-  const personLink = (n: string, i: number) => {
-    const p = people.find((x) => x.name === n);
-    return <span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>;
-  };
 
   return (
     <>
-      <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link>›<Link href="/companies/">企業</Link>›<span>{c.name}</span></nav>
-      <div className="page-head" style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
-        <Tile text={initialOf(c.name)} color={getCategory(c.categories[0] ?? '')?.color} />
-        <div style={{ flex: 1, minWidth: 0 }}>
+      <nav className="breadcrumb" aria-label="パンくず">
+        <Link href="/">トップ</Link> / <Link href="/companies/">企業</Link> / <span>{c.name}</span>
+      </nav>
+      <div className="page-head">
+        <div className="kicker">Company</div>
+        <h1>{c.name}</h1>
+        <div style={{ marginTop: 10 }}>
           <Chips slugs={c.categories} />
-          <h1>{c.name}</h1>
-          {c.description && <p className="lead">{c.description}</p>}
-          <div className="item" style={{ padding: '10px 0 0', border: 0 }}>
-            <div className="meta" style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-              <span className={`tag ${c.exit === '上場' ? 'listed' : ''}`}>{c.exit}</span>
-              {c.foundedYear && <span className="tag">{c.foundedYear}年創業</span>}
-              {c.prefecture && <span className="tag">{c.prefecture}</span>}
-              {c.employees && <span className="tag">従業員 {c.employees}人</span>}
-            </div>
-          </div>
         </div>
+        {c.description && <p className="lead">{c.description}</p>}
       </div>
 
-      <div className="two-col" style={{ marginTop: 20 }}>
-        <div style={{ display: 'grid', gap: 12 }}>
-          <section className="side-box">
-            <h3>企業情報</h3>
-            <dl className="kv">
-              {c.hp && (<><dt>Webサイト</dt><dd><a href={c.hp} target="_blank" rel="noreferrer">{c.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
-              <dt>上場区分</dt><dd>{c.exit}</dd>
-              {c.foundedYear && (<><dt>創業</dt><dd>{c.foundedYear}年</dd></>)}
-              {c.address && (<><dt>本社</dt><dd>{c.address}</dd></>)}
-              {c.employees && (<><dt>従業員数</dt><dd>{c.employees}人</dd></>)}
-              {c.founders.length > 0 && (<><dt>創業者</dt><dd>{c.founders.map(personLink)}</dd></>)}
-              {c.representatives.length > 0 && (<><dt>代表者</dt><dd>{c.representatives.map(personLink)}</dd></>)}
-              {c.parentCompany && (<><dt>親会社</dt><dd>{parent ? <Link href={`/companies/${parent.id}/`}>{c.parentCompany}</Link> : c.parentCompany}</dd></>)}
-              {c.relatedCompanies.length > 0 && (<><dt>関連会社</dt><dd>{c.relatedCompanies.map((n, i) => { const r = findCompanyByName(n); return <span key={n}>{i > 0 && '、'}{r && r.id !== c.id ? <Link href={`/companies/${r.id}/`}>{n}</Link> : n}</span>; })}</dd></>)}
-              {c.corporateNumber && (<><dt>法人番号</dt><dd className="mono"><a href={c.corporateNumberUrl || `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=${c.corporateNumber}`} target="_blank" rel="noreferrer">{c.corporateNumber}</a></dd></>)}
-            </dl>
-          </section>
-          {c.hp && <a className="btn primary lg block" href={c.hp} target="_blank" rel="noreferrer">公式サイトを見る ↗</a>}
-          <p className="notice" style={{ margin: 0 }}>
-            掲載情報の誤りや更新は<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正を依頼する</a>からお知らせください。
-            <span className="small" style={{ display: 'block', marginTop: 4 }}>出典: {c.source}</span>
-          </p>
-        </div>
-        <div>
-          <section className="section">
-            <SectionHead title="提供サービス・事業" count={`${services.length}件`} />
+      <div className="two-col">
+        <div style={{ display: 'grid', gap: 20 }}>
+          <section className="panel">
+            <h3>提供サービス・事業</h3>
             {services.length ? (
-              <div className="rows">
+              <div className="grid">
                 {services.map((s) => (
-                  <article className="item" key={s.id}>
-                    <div className="body">
-                      <Link href={`/categories/${s.category}/`} className="label">{categoryName(s.category)}</Link>
-                      <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
-                      <p className="desc">{s.description}</p>
-                      <div className="meta">{s.startedYear && <span className="tag">{s.startedYear}年開始</span>}<span className="tag">{s.status}</span></div>
-                    </div>
+                  <article className="card" key={s.id}>
+                    <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
+                    <div className="chips"><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
+                    <p className="desc">{s.description}</p>
+                    <div className="meta">{s.startedYear && <span>{s.startedYear}年開始</span>}<span className="badge">{s.status}</span></div>
                   </article>
                 ))}
               </div>
             ) : (
-              <p className="notice">サービス情報は未登録です。<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報提供フォーム</a>からお知らせください。</p>
+              <p className="muted small">サービス情報は未登録です。<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報提供フォーム</a>からお知らせください。</p>
             )}
           </section>
 
-          <section className="section">
-            <SectionHead title="関連ニュース" count={`${news.length}本`} />
+          <section className="panel">
+            <h3>関連ニュース</h3>
             <NewsList items={news} empty="この企業に紐づくニュースはまだありません。" />
           </section>
 
           {articles.length > 0 && (
-            <section className="section">
-              <SectionHead title="この企業を紹介している記事" />
-              <div className="rows">
+            <section className="panel">
+              <h3>この企業を紹介している記事</h3>
+              <ul style={{ margin: 0, paddingLeft: '1.2em' }}>
                 {articles.map((a) => (
-                  <article className="item" key={a.slug}><div className="body"><Link href={`/articles/${a.slug}/`} className="title ink">{a.title}</Link></div></article>
+                  <li key={a.slug}><Link href={`/articles/${a.slug}/`}>{a.title}</Link></li>
                 ))}
-              </div>
+              </ul>
             </section>
           )}
 
           {related.length > 0 && (
-            <section className="section">
-              <SectionHead title="同じカテゴリの企業" href={`/categories/${c.categories[0]}/`} more="カテゴリを見る" />
-              <div className="rows">{related.map((x) => <CompanyCard key={x.id} c={x} />)}</div>
+            <section>
+              <h2 style={{ marginBottom: 12 }}>同じカテゴリの企業</h2>
+              <div className="grid">
+                {related.map((x) => (
+                  <CompanyCard key={x.id} c={x} />
+                ))}
+              </div>
             </section>
           )}
         </div>
 
+        <aside style={{ display: 'grid', gap: 16 }}>
+          <section className="panel">
+            <h3>企業情報</h3>
+            <dl className="kv">
+              {c.hp && (<><dt>Webサイト</dt><dd><a href={c.hp} target="_blank" rel="noreferrer">{c.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
+              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : ''}`}>{c.exit}</span></dd>
+              {c.foundedYear && (<><dt>創業</dt><dd>{c.foundedYear}年</dd></>)}
+              {c.prefecture && (<><dt>所在地</dt><dd>{c.prefecture}</dd></>)}
+              {c.address && (<><dt>本社住所</dt><dd>{c.address}</dd></>)}
+              {c.employees && (<><dt>従業員数</dt><dd>{c.employees}人</dd></>)}
+              {c.founders.length > 0 && (<><dt>創業者</dt><dd>{c.founders.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
+              {c.representatives.length > 0 && (<><dt>代表者</dt><dd>{c.representatives.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
+              {c.parentCompany && (<><dt>親会社</dt><dd>{parent ? <Link href={`/companies/${parent.id}/`}>{c.parentCompany}</Link> : c.parentCompany}</dd></>)}
+              {c.relatedCompanies.length > 0 && (<><dt>関連会社</dt><dd>{c.relatedCompanies.map((n, i) => { const r = findCompanyByName(n); return (<span key={n}>{i > 0 && '、'}{r && r.id !== c.id ? <Link href={`/companies/${r.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
+              {c.corporateNumber && (<><dt>法人番号</dt><dd className="mono"><a href={c.corporateNumberUrl || `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=${c.corporateNumber}`} target="_blank" rel="noreferrer">{c.corporateNumber}</a></dd></>)}
+            </dl>
+          </section>
+          <section className="notice">
+            掲載情報に誤りや更新がある場合は、<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正を依頼する</a>からお知らせください。
+            <div className="muted small" style={{ marginTop: 6 }}>出典: {c.source}</div>
+          </section>
+        </aside>
       </div>
     </>
   );

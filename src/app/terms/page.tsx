@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = { title: '利用規約（草案）' };
 export default function TermsPage() {
   return (
-    <div className="narrow">
-      <div className="page-head"><div className="kicker">規約</div><h1>利用規約（草案）</h1><p className="lead">2021年8月6日制定の旧規約を基にした草案です。再開時に運営者名・準拠条項を確定します。</p></div>
+    <>
+      <div className="page-head"><div className="kicker">Terms</div><h1>利用規約（草案）</h1><p className="lead">2021年8月6日制定の旧規約を基にした草案です。再開時に運営者名・準拠条項を確定します。</p></div>
       <article className="prose">
         <p>この利用規約（以下「本規約」）は、Healthtech DB（以下「本サービス」）の利用条件を定めるものです。本規約は、本サービスを利用するすべてのユーザーに適用されます。</p>
         <h2>本規約への同意</h2><p>ユーザーは、本サービスを利用することによって、本規約に有効かつ取り消し不能な同意をしたものとみなされます。</p>
@@ -16,6 +16,6 @@ export default function TermsPage() {
         <h2>準拠法・裁判管轄</h2><p>本規約の解釈には日本法を準拠法とし、紛争が生じた場合は運営者の所在地を管轄する地方裁判所を専属的合意管轄とします。</p>
         <p className="muted">2021年8月6日 制定（アイリス株式会社）／ 2026年10月 復刻版草案</p>
       </article>
-    </div>
+    </>
   );
 }

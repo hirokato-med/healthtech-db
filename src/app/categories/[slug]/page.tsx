@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 import { ArticleCard } from '@/components/ArticleCard';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
-import { SectionHead } from '@/components/SectionHead';
 import { articlesIn, companiesIn, getCategories, getCategory, getNews, servicesIn } from '@/lib/data';
 
 export function generateStaticParams() {
@@ -23,42 +22,44 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const articles = articlesIn(c.slug);
   const news = getNews().filter((n) => n.category === c.slug).slice(0, 10);
   return (
-    <div className="narrow">
-      <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link>›<Link href="/categories/">カテゴリ</Link>›<span>{c.name}</span></nav>
+    <>
+      <nav className="breadcrumb" aria-label="パンくず">
+        <Link href="/">トップ</Link> / <Link href="/categories/">カテゴリ</Link> / <span>{c.name}</span>
+      </nav>
       <div className="page-head">
-        <span className="label">{c.groupLabel}</span>
-        <h1 style={{ display: 'flex', alignItems: 'center', gap: 10 }}><span className="tile" style={{ width: 40, height: 40, fontSize: 18 }} aria-hidden="true">{c.name.slice(0, 1)}</span>{c.name}</h1>
-        <p className="lead">企業 {companies.length} 社 / サービス {services.length} 件 / 記事 {articles.length} 本 / ニュース {news.length} 本</p>
+        <div className="kicker">{c.groupLabel}</div>
+        <h1><span className={`chip ${c.group}`} style={{ fontSize: '1rem', padding: '4px 14px' }}>{c.name}</span></h1>
+        <p className="lead">企業 {companies.length} 社 / サービス {services.length} 件 / 記事 {articles.length} 本</p>
       </div>
       {articles.length > 0 && (
-        <section className="section" style={{ marginTop: 20 }}>
-          <SectionHead title="記事" count={`${articles.length}本`} />
-          <div className="rows">{articles.map((a) => <ArticleCard key={a.slug} a={a} />)}</div>
+        <section className="section">
+          <div className="section-head"><h2>記事</h2></div>
+          <div className="grid wide">{articles.map((a) => <ArticleCard key={a.slug} a={a} />)}</div>
         </section>
       )}
-      <section className="section" style={{ marginTop: 20 }}>
-        <SectionHead title="企業" count={`${companies.length}社`} />
-        {companies.length ? <div className="rows">{companies.map((x) => <CompanyCard key={x.id} c={x} />)}</div> : <p className="muted small">このカテゴリに登録された企業はまだありません。</p>}
+      <section className="section">
+        <div className="section-head"><h2>企業</h2></div>
+        {companies.length ? <div className="grid">{companies.map((x) => <CompanyCard key={x.id} c={x} />)}</div> : <p className="muted">このカテゴリに登録された企業はまだありません。</p>}
       </section>
       {services.length > 0 && (
         <section className="section">
-          <SectionHead title="サービス・事業" count={`${services.length}件`} />
-          <div className="rows">
+          <div className="section-head"><h2>サービス・事業</h2></div>
+          <div className="list">
             {services.map((s) => (
-              <article className="item" key={s.id}>
-                <div className="body">
-                  <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
-                  <div className="meta">{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : <span>{s.company}</span>}{s.startedYear && <span>{s.startedYear}年開始</span>}</div>
+              <div className="row" key={s.id} style={{ gridTemplateColumns: '1fr' }}>
+                <div>
+                  <Link href={`/services/${s.id}/`}>{s.name}</Link>
+                  <div className="sub">{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : <span>{s.company}</span>}{s.startedYear && <span>{s.startedYear}年開始</span>}</div>
                 </div>
-              </article>
+              </div>
             ))}
           </div>
         </section>
       )}
       <section className="section">
-        <SectionHead title="ニュース" href="/news/" more="すべてのニュース" />
+        <div className="section-head"><h2>ニュース</h2><Link className="more" href="/news/">すべてのニュース →</Link></div>
         <NewsList items={news} empty="このカテゴリのニュースはまだありません。" />
       </section>
-    </div>
+    </>
   );
 }

@@ -1,12 +1,11 @@
 import Link from 'next/link';
 import { getCategory } from '@/lib/data';
 
-/** 分類ラベル。カテゴリごとの色の文字で出す */
 export function CategoryChip({ slug }: { slug: string }) {
   const c = getCategory(slug);
-  if (!c) return <span className="label">{slug}</span>;
+  if (!c) return <span className="chip ghost">{slug}</span>;
   return (
-    <Link href={`/categories/${c.slug}/`} className="label">
+    <Link href={`/categories/${c.slug}/`} className={`chip ${c.group}`}>
       {c.name}
     </Link>
   );
@@ -14,10 +13,10 @@ export function CategoryChip({ slug }: { slug: string }) {
 
 export function Chips({ slugs }: { slugs: string[] }) {
   return (
-    <span className="labels">
+    <div className="chips">
       {slugs.map((s) => (
         <CategoryChip key={s} slug={s} />
       ))}
-    </span>
+    </div>
   );
 }

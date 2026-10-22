@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
-export function SectionHead({ title, href, more = 'もっと見る', count }: { title: string; href?: string; more?: string; count?: string }) {
+export function SectionHead({ title, href, more = 'もっと見る' }: { title: string; href?: string; more?: string }) {
   return (
     <div className="section-head">
       <h2>{title}</h2>
-      {href ? (
-        <Link className="more" href={href}>{more} →</Link>
-      ) : (
-        count && <span className="count">{count}</span>
+      {href && (
+        <Link className="more" href={href}>
+          {more} →
+        </Link>
       )}
     </div>
   );

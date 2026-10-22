@@ -6,14 +6,15 @@ export const metadata: Metadata = { title: '検索' };
 
 export default function SearchPage() {
   return (
-    <div className="narrow">
-      <div className="page-head" style={{ borderBottom: 0, paddingBottom: 4 }}>
-        <div className="kicker">検索</div>
-        <h1>企業・サービス・人物を探す</h1>
+    <>
+      <div className="page-head">
+        <div className="kicker">Search</div>
+        <h1>検索</h1>
+        <p className="lead">企業・サービス・人物・カテゴリ・海外企業・記事を横断して探します。</p>
       </div>
-      <Suspense fallback={<p className="muted small">読み込み中…</p>}>
+      <Suspense fallback={<p className="muted">読み込み中…</p>}>
         <SearchClient />
       </Suspense>
-    </div>
+    </>
   );
 }

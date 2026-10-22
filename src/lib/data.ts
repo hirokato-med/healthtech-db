@@ -2,7 +2,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { renderMarkdown } from './markdown';
-import { CATEGORY_PALETTE } from './colors';
 import type {
   Article, ArticleMeta, ArchiveArticle, Category, Company, NewsItem, Overseas, Person, Service, Webinar,
 } from './types';
@@ -15,9 +14,7 @@ const memo = <T,>(key: string, fn: () => T): T => {
   return cache.get(key) as T;
 };
 
-export const getCategories = () =>
-  memo('categories', () => read<Omit<Category, 'color'>[]>('categories.json').map((c, i) => ({ ...c, color: CATEGORY_PALETTE[i % CATEGORY_PALETTE.length] })));
-export const categoryColor = (slug: string) => getCategory(slug)?.color ?? '#1E6FE8';
+export const getCategories = () => memo('categories', () => read<Category[]>('categories.json'));
 export const getCategory = (slug: string) => getCategories().find((c) => c.slug === slug);
 export const categoryName = (slug: string) => getCategory(slug)?.name ?? slug;
 
