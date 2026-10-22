@@ -1,7 +1,9 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { TabBar } from '@/components/TabBar';
+import { getCompanies, getNews, getPeople, getServices } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: { default: 'Healthtech DB — 国内ヘルスケアビジネスデータベース', template: '%s | Healthtech DB' },
@@ -9,18 +11,18 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://healthtech-db.com'),
   openGraph: { type: 'website', siteName: 'Healthtech DB', locale: 'ja_JP' },
 };
+export const viewport: Viewport = { themeColor: '#ffffff', width: 'device-width', initialScale: 1, viewportFit: 'cover' };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const news = getNews();
+  const stats = { companies: getCompanies().length, services: getServices().length, people: getPeople().length, news: news.length };
   return (
     <html lang="ja">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet" />
-      </head>
       <body>
-        <Header />
+        <Header stats={stats} updated={news[0]?.publishedAt ?? ''} />
         <main className="container">{children}</main>
         <Footer />
+        <TabBar />
       </body>
     </html>
   );

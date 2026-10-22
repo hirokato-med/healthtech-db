@@ -6,15 +6,15 @@ export const metadata: Metadata = { title: 'ニュース', description: '国内�
 
 export default function NewsPage() {
   const news = getNews();
-  const last = news[0]?.publishedAt;
   return (
-    <>
+    <div className="narrow">
       <div className="page-head">
-        <div className="kicker">News</div>
-        <h1>ニュース</h1>
-        <p className="lead">PR TIMES に出たヘルスケア関連リリースを収集し、企業DBに紐付けています。{last ? `最終更新 ${last.slice(0, 10)}。` : ''}{news.length} 件。</p>
+        <div className="kicker">ニュース</div>
+        <h1>ヘルスケアニュース</h1>
+        <p className="lead">PR TIMES に出たヘルスケア関連リリースを毎朝収集し、企業DBに載っている会社は企業ページにつないでいます。加藤浩晃のコメント付きのニュースは HealthBiz News で読めます。</p>
       </div>
+      <p className="count-text" style={{ margin: '12px 0 4px' }}><b>{news.length}</b> 本{news[0] ? `・${news[0].publishedAt.slice(0, 10)} 更新` : ''}</p>
       <NewsList items={news} empty="ニュースは `node pipeline/news.mjs` を実行すると取り込まれます。" />
-    </>
+    </div>
   );
 }

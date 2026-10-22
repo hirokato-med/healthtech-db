@@ -6,9 +6,9 @@ export const metadata: Metadata = { title: 'Healthtech DB について', descrip
 
 export default function AboutPage() {
   return (
-    <>
+    <div className="narrow">
       <div className="page-head">
-        <div className="kicker">About</div>
+        <div className="kicker">Healthtech DB について</div>
         <h1>Healthtech DB について</h1>
         <p className="lead">「日本のヘルスケア産業を加速させる！ もう車輪の再発明はいらない！」</p>
       </div>
@@ -44,6 +44,6 @@ export default function AboutPage() {
           <Link href="/articles/healthtech-db-relaunch/">復刻版についての詳しいお知らせ</Link>
         </p>
       </article>
-    </>
+    </div>
   );
 }

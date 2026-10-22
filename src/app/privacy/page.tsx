@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = { title: 'プライバシーポリシー（草案）' };
 export default function PrivacyPage() {
   return (
-    <>
-      <div className="page-head"><div className="kicker">Privacy</div><h1>プライバシーポリシー（草案）</h1><p className="lead">2021年8月10日制定の旧ポリシーを基にした草案です。再開時に事業者名・連絡先を確定します。</p></div>
+    <div className="narrow">
+      <div className="page-head"><div className="kicker">ポリシー</div><h1>プライバシーポリシー（草案）</h1><p className="lead">2021年8月10日制定の旧ポリシーを基にした草案です。再開時に事業者名・連絡先を確定します。</p></div>
       <article className="prose">
         <h2>取得する情報</h2><p>氏名、メールアドレス、職業・所属、本サイトにおける閲覧・入力履歴。</p>
         <h2>利用目的</h2><ul><li>登録受付・本人確認・お問い合わせ対応のため</li><li>利用状況の分析とサービス改善のため</li><li>サービスに関するご案内（メルマガ・イベント）をお送りするため</li><li>規約違反への対応、規約変更等の通知のため</li></ul>
@@ -12,6 +12,6 @@ export default function PrivacyPage() {
         <h2>開示・訂正・削除</h2><p>ご本人からの開示・訂正・利用停止・削除のご請求は、情報修正依頼フォームまたは運営者の連絡先までお寄せください。</p>
         <p className="muted">2021年8月10日 制定（アイリス株式会社）／ 2026年10月 復刻版草案</p>
       </article>
-    </>
+    </div>
   );
 }
