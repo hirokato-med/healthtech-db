@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ja">
       <body>
         <Header stats={stats} updated={news[0]?.publishedAt ?? ''} />
-        <main className="container">{children}</main>
+        <main className="container narrow">{children}</main>
         <Footer />
         <TabBar />
       </body>

@@ -27,6 +27,19 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
         <p className="lead">{s.description}</p>
       </div>
       <div className="two-col" style={{ marginTop: 20 }}>
+        <div style={{ display: 'grid', gap: 12 }}>
+          <section className="side-box">
+            <h3>サービス情報</h3>
+            <dl className="kv">
+              <dt>提供企業</dt><dd>{company ? <Link href={`/companies/${company.id}/`}>{company.name}</Link> : s.company}</dd>
+              {s.hp && (<><dt>Webサイト</dt><dd><a href={s.hp} target="_blank" rel="noreferrer">{s.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
+              {s.startedYear && (<><dt>開始年</dt><dd>{s.startedYear}年</dd></>)}
+              <dt>状態</dt><dd>{s.status}</dd>
+            </dl>
+          </section>
+          {s.hp && <a className="btn primary lg block" href={s.hp} target="_blank" rel="noreferrer">サービスサイトを見る ↗</a>}
+          <p className="notice" style={{ margin: 0 }}>情報の修正は<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正依頼フォーム</a>から。</p>
+        </div>
         <section className="section">
           <SectionHead title="同じカテゴリのサービス" count={`${siblings.length}件`} />
           {siblings.length ? (
@@ -42,18 +55,6 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
             </div>
           ) : <p className="muted small">同じカテゴリのサービスはまだ登録されていません。</p>}
         </section>
-        <aside style={{ display: 'grid', gap: 12 }}>
-          <section className="side-box">
-            <h3>サービス情報</h3>
-            <dl className="kv">
-              <dt>提供企業</dt><dd>{company ? <Link href={`/companies/${company.id}/`}>{company.name}</Link> : s.company}</dd>
-              {s.hp && (<><dt>Webサイト</dt><dd><a href={s.hp} target="_blank" rel="noreferrer">{s.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
-              {s.startedYear && (<><dt>開始年</dt><dd>{s.startedYear}年</dd></>)}
-              <dt>状態</dt><dd>{s.status}</dd>
-            </dl>
-          </section>
-          <p className="notice" style={{ margin: 0 }}>情報の修正は<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正依頼フォーム</a>から。</p>
-        </aside>
       </div>
     </>
   );
