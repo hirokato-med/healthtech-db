@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
+import { withBase } from '@/lib/base';
 
 type Hit = { t: string; id: string; title: string; sub: string; url: string };
 const LABEL: Record<string, string> = { company: '企業', service: 'サービス', person: '人物', category: 'カテゴリ', overseas: '海外企業', article: '記事' };
@@ -12,7 +13,7 @@ export function SearchClient() {
   const [q, setQ] = useState(initial);
   const [index, setIndex] = useState<Hit[] | null>(null);
   useEffect(() => {
-    fetch('/search-index.json')
+    fetch(withBase('/search-index.json'))
       .then((r) => r.json())
       .then(setIndex)
       .catch(() => setIndex([]));
@@ -37,7 +38,7 @@ export function SearchClient() {
 
   return (
     <>
-      <form className="filterbar" action="/search/" method="get" onSubmit={(e) => e.preventDefault()}>
+      <form className="filterbar" action={withBase('/search/')} method="get" onSubmit={(e) => e.preventDefault()}>
         <input type="search" name="q" value={q} onChange={(e) => setQ(e.target.value)} placeholder="企業名・サービス名・人物名・カテゴリ" aria-label="検索語" autoFocus />
         <span className="count">{index ? `${hits.length} 件` : '読み込み中…'}</span>
       </form>

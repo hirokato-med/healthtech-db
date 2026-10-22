@@ -1,0 +1,52 @@
+name: Deploy to GitHub Pages
+
+# main への push、毎朝 9:13 JST（ニュースの取り込み直し）、手動実行で公開する
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '13 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: ニュースを取り込む（失敗しても公開は続ける）
+        run: node pipeline/news.mjs
+        continue-on-error: true
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: ビルド
+        run: npm run build
+        env:
+          # 独自ドメインを設定したら空にする（Settings → Pages → Custom domain）
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
