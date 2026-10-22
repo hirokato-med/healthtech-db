@@ -311,31 +311,4 @@ body { font-size: 15px; }
 .tabbar a[aria-current='page'] { color: var(--brand); }
 @media (max-width: 560px) { .prose { padding: 16px; } }
 
-/* 「明るすぎる」への対応: STARTUP DB のような紺のヘッダーと、少し沈んだ地 */
-:root {
-  --navy: #14254a;
-  --navy-2: #0e1b38;
-  --bg: #e9ecf1;
-  --line: #cfd4dc;
-  --surface: #eef0f4;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) { --navy: #0f1a33; --navy-2: #0a1226; --bg: #15171b; --surface: #2a2d33; --line: #3a3f48; }
-}
-:root[data-theme='dark'] { --navy: #0f1a33; --navy-2: #0a1226; --bg: #15171b; --surface: #2a2d33; --line: #3a3f48; }
-.site-header { background: var(--navy); border-bottom: 0; }
-.brand-name { color: #ffffff; }
-.brand-sub, .mast-date { color: rgba(255, 255, 255, 0.65); }
-.search-pill { background: rgba(255, 255, 255, 0.12); color: #ffffff; }
-.search-pill:hover { background: rgba(255, 255, 255, 0.2); }
-.tab { color: rgba(255, 255, 255, 0.7); }
-.tab:hover { color: #ffffff; }
-.tab[aria-current='page'] { color: #ffffff; }
-.tab[aria-current='page']::after { background: #6f9cff; }
-.ticker { background: var(--navy-2); border-top: 1px solid rgba(255, 255, 255, 0.08); }
-.ticker-in, .ticker-in span { color: rgba(255, 255, 255, 0.6); }
-.ticker-in b { color: #ffffff; }
-.site-footer { background: var(--navy); color: rgba(255, 255, 255, 0.6); border-top: 0; }
-.site-footer h4 { color: #ffffff; }
-.site-footer a:hover { color: #ffffff; }
 .tile.wide { aspect-ratio: 5 / 1; }
