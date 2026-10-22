@@ -74,8 +74,6 @@ const toIso = (when, now = new Date()) => {
   return now.toISOString();
 };
 const clampFuture = (iso, now = new Date()) => (new Date(iso) > now ? now.toISOString() : iso);
-const _legacy = () => {
-};
 
 let added = 0;
 for (const word of words) {
