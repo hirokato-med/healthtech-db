@@ -1,14 +1,3038 @@
 [
-  {"from":"塩野義製薬株式会社","to":"Akili Interactive","type":"partnership","kind":"ライセンス","label":"小児ADHDの治療用アプリ","area":"精神・神経","date":"2019","status":"継続","note":"2025年2月に国内で製造販売承認、2026年6月に発売","sources":[]},
-  {"from":"住友ファーマ株式会社","to":"Save Medical","type":"partnership","kind":"共同開発","label":"2型糖尿病の治療用アプリ","area":"糖尿病・代謝","date":"2020-08","status":"終了","note":"臨床試験で主要評価項目（HbA1c変化）に有意差が出なかった","sources":[]},
-  {"from":"第一三共株式会社","to":"CureApp","type":"partnership","kind":"共同開発","label":"乳がん関連症状の治療用アプリ","area":"がん","date":"2020-11","status":"継続","sources":[]},
-  {"from":"塩野義製薬株式会社","to":"サスメド株式会社","type":"partnership","kind":"販売提携","label":"不眠障害の治療用アプリ","area":"睡眠","date":"2021-12","status":"終了","endedAt":"2026-08","note":"2023年2月承認、2026年6月保険適用。2026年8月に契約終了で合意","sources":[]},
-  {"from":"エーザイ株式会社","to":"Arteryex株式会社","type":"parent","kind":"買収・子会社化","label":"PHR「パシャっとカルテ」","area":"医療DX・データ","date":"2022-03","status":"継続","sources":[]},
-  {"from":"沢井製薬株式会社","to":"CureApp","type":"partnership","kind":"ライセンス","label":"NASHの治療用アプリ","area":"糖尿病・代謝","date":"2022-08","status":"継続","sources":[]},
-  {"from":"武田薬品工業株式会社","to":"MICIN","type":"partnership","kind":"共同開発","label":"がん患者の治療生活支援アプリ","area":"がん","date":"2023-04","status":"継続","sources":[]},
-  {"from":"あすか製薬株式会社","to":"サスメド株式会社","type":"partnership","kind":"共同開発","label":"産婦人科領域の治療用アプリ","area":"女性の健康","date":"2023-09","status":"継続","sources":[]},
-  {"from":"帝人ファーマ株式会社","to":"CureApp","type":"partnership","kind":"販売提携","label":"高血圧治療補助アプリの共同販促","area":"循環器","date":"2024-04","status":"継続","sources":[]},
-  {"from":"沢井製薬株式会社","to":"CureApp","type":"partnership","kind":"販売提携","label":"減酒治療アプリ「HAUDY」","area":"精神・神経","date":"2024-08","status":"継続","note":"2025年2月承認、同年9月に販売開始","sources":[]},
-  {"from":"エーザイ株式会社","to":"エコナビスタ","type":"parent","kind":"買収・子会社化","label":"高齢者見守り・睡眠解析","area":"介護・高齢者","date":"2025-05","status":"継続","sources":[]},
-  {"from":"あすか製薬株式会社","to":"MICIN","type":"partnership","kind":"共同開発","label":"過敏性腸症候群の治療用アプリ","area":"消化器","date":"2025-08","status":"継続","sources":[]}
+ {
+  "from": "塩野義製薬株式会社",
+  "to": "Akili Interactive",
+  "type": "partnership",
+  "kind": "ライセンス",
+  "label": "小児ADHDの治療用アプリ",
+  "area": "精神・神経",
+  "date": "2019",
+  "status": "継続",
+  "note": "2025年2月に国内で製造販売承認、2026年6月に発売",
+  "sources": []
+ },
+ {
+  "from": "住友ファーマ株式会社",
+  "to": "Save Medical",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "2型糖尿病管理アプリの共同開発",
+  "area": "糖尿病・代謝",
+  "date": "2020-08",
+  "status": "不明",
+  "note": "当時の大日本住友製薬と共同開発契約を結び治験を開始。2024年公表の臨床試験論文では主要評価項目（12週後のHbA1c変化）で対照群との有意差が出なかった。",
+  "sources": [
+   "https://kyodonewsprwire.jp/release/202008032733",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11429663/"
+  ]
+ },
+ {
+  "from": "第一三共株式会社",
+  "to": "CureApp",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "乳がん関連症状の治療用アプリ",
+  "area": "がん",
+  "date": "2020-11",
+  "status": "不明",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000048.000015777.html"
+  ],
+  "note": "CureAppのパイプラインとして、がん患者支援の治療用アプリの共同開発を開始。"
+ },
+ {
+  "from": "塩野義製薬株式会社",
+  "to": "サスメド株式会社",
+  "type": "partnership",
+  "kind": "販売提携",
+  "label": "不眠症治療用アプリの国内販売",
+  "area": "睡眠",
+  "date": "2021-12",
+  "status": "終了",
+  "endedAt": "2026-08",
+  "note": "一時金・マイルストン総額最大47億円の国内独占販売契約。アプリは2023年2月承認、2026年6月保険適用。2026年8月26日に両社で契約終了に合意。",
+  "sources": [
+   "https://www2.jpx.co.jp/disc/45070/140120211227561844.pdf",
+   "https://www.shionogi.com/jp/ja/news/2026/08/20260826_1.html"
+  ]
+ },
+ {
+  "from": "エーザイ株式会社",
+  "to": "Arteryex株式会社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "PHRアプリ企業を子会社化",
+  "area": "医療DX・データ",
+  "date": "2022-04",
+  "status": "継続",
+  "sources": [
+   "https://www.eisai.co.jp/news/2022/news202225.html",
+   "https://prtimes.jp/main/html/rd/p/000000014.000044584.html"
+  ],
+  "note": "株式買取と第三者割当増資の引受けで過半数を取得し、「パシャっとカルテ」のArteryexを子会社化。"
+ },
+ {
+  "from": "沢井製薬株式会社",
+  "to": "CureApp",
+  "type": "partnership",
+  "kind": "ライセンス",
+  "label": "NASHの治療用アプリ",
+  "area": "糖尿病・代謝",
+  "date": "2022-08",
+  "status": "継続",
+  "sources": []
+ },
+ {
+  "from": "武田薬品工業株式会社",
+  "to": "MICIN",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "治験の事前スクリーニングにeConsent",
+  "area": "治験・研究",
+  "date": "2024-10",
+  "status": "不明",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000107.000017806.html",
+   "https://prtimes.jp/main/html/rd/p/000000131.000017806.html"
+  ],
+  "note": "東北大学病院・愛知県がんセンターと、eConsentを使った治験のプレスクリーニングを開始。"
+ },
+ {
+  "from": "あすか製薬株式会社",
+  "to": "サスメド株式会社",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "産婦人科領域の治療用アプリ",
+  "area": "女性の健康",
+  "date": "2023-09",
+  "status": "継続",
+  "sources": [
+   "https://www2.jpx.co.jp/disc/42630/140120230925557823.pdf"
+  ],
+  "note": "共同研究開発と承認・保険償還を目指す契約で、あすか製薬が国内独占販売権を獲得。"
+ },
+ {
+  "from": "帝人ファーマ株式会社",
+  "to": "CureApp",
+  "type": "partnership",
+  "kind": "販売提携",
+  "label": "高血圧治療補助アプリの共同販促",
+  "area": "循環器",
+  "date": "2024-04",
+  "status": "継続",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000181.000015777.html",
+   "https://www.teijin.co.jp/news/2024/04/23/20240423_01.pdf"
+  ],
+  "note": "「CureApp HT 高血圧治療補助アプリ」の共同マーケティングと販売委託の契約。"
+ },
+ {
+  "from": "沢井製薬株式会社",
+  "to": "CureApp",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "片頭痛向け機器の流通基盤",
+  "area": "精神・神経",
+  "date": "2024-04",
+  "status": "不明",
+  "note": "片頭痛向け医療機器の流通プラットフォームとしてCureAppの「APS」を採用。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000176.000015777.html"
+  ]
+ },
+ {
+  "from": "エーザイ株式会社",
+  "to": "エコナビスタ株式会社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "高齢者見守り企業を公開買付け",
+  "area": "介護・高齢者",
+  "date": "2025-03",
+  "status": "継続",
+  "sources": [
+   "https://www2.jpx.co.jp/disc/45230/140120250314594530.pdf",
+   "https://www2.jpx.co.jp/disc/45230/140120250508534105.pdf"
+  ],
+  "note": "睡眠解析を使う見守りサービス「ライフリズムナビ」のエコナビスタに公開買付けを実施し、所有割合97.09%で2025年5月14日に連結子会社化。"
+ },
+ {
+  "from": "あすか製薬株式会社",
+  "to": "MICIN",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "過敏性腸症候群の治療用アプリ",
+  "area": "消化器",
+  "date": "2025-08",
+  "status": "継続",
+  "sources": [
+   "https://micin.jp/news/14572/"
+  ],
+  "note": "IBS治療用アプリの共同開発と販売に関する契約に合意。"
+ },
+ {
+  "from": "第一生命ホールディングス株式会社",
+  "to": "株式会社ベネフィット・ワン",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "福利厚生・健診支援のベネワン買収",
+  "area": "生活習慣・予防",
+  "date": "2023-12",
+  "status": "継続",
+  "note": "エムスリーのTOBに対抗して2024年2〜3月にTOBを実施し、発行済株式の48.74%の応募を得て成立。2024年3月に持分法適用会社とし、完全子会社化の手続きに進んだ。",
+  "sources": [
+   "https://www2.jpx.co.jp/disc/24120/140120240312552160.pdf",
+   "https://www.nihon-ma.co.jp/news/20240312_8750-16/"
+  ]
+ },
+ {
+  "from": "第一生命保険株式会社",
+  "to": "CureApp",
+  "type": "investment",
+  "kind": "出資",
+  "label": "治療用アプリ開発企業への出資",
+  "area": "生活習慣・予防",
+  "date": "2019-07",
+  "status": "不明",
+  "note": "CureAppが実施した総額22億円の第三者割当増資の引受先の1社（森トラスト、コシダカHD、インテージHDなどと並ぶ）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000027.000015777.html"
+  ]
+ },
+ {
+  "from": "第一生命保険株式会社",
+  "to": "株式会社メンタルヘルステクノロジーズ",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "企業向けメンタルヘルス支援の協働",
+  "area": "精神・神経",
+  "date": "2023-04",
+  "status": "継続",
+  "note": "2023年4月から企業従業員のメンタルヘルスケアで協働し、2025年3月に提携深化に向けた新たな業務提携契約を締結した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000104.000027306.html"
+  ]
+ },
+ {
+  "from": "第一生命保険株式会社",
+  "to": "株式会社 OUI",
+  "type": "partnership",
+  "kind": "販売提携",
+  "label": "企業訪問型眼科検診の法人販売",
+  "area": "眼科",
+  "date": "2026-04",
+  "status": "継続",
+  "note": "第一生命の法人営業チャネルを通じ、OUIの企業訪問型眼科検診「Mobile Eye Scan」を全国の企業に提供する業務提携を2026年4月1日に開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000067.000064389.html"
+  ]
+ },
+ {
+  "from": "第一生命保険株式会社",
+  "to": "Well Body株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "従業員の健康経営支援で提携",
+  "area": "生活習慣・予防",
+  "date": "2026-04",
+  "status": "継続",
+  "note": "プレゼンティーイズム（体調不良による生産性低下）の解消に向け、企業の健康経営サポートで2026年4月1日から業務提携。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000051.000132303.html"
+  ]
+ },
+ {
+  "from": "第一生命ホールディングス株式会社",
+  "to": "ラフール",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "健康アプリでの組織メンタル調査連携",
+  "area": "精神・神経",
+  "date": "2024-04",
+  "status": "継続",
+  "note": "第一生命グループの株式会社QOLeadが提供する健康増進アプリ「QOLism」と、ラフールの組織診断「ラフールサーベイ」をサービス連携。第一生命保険とラフールは睡眠・健康経営セミナーも共催している。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000262.000042113.html",
+   "https://prtimes.jp/main/html/rd/p/000000311.000042113.html"
+  ]
+ },
+ {
+  "from": "日本生命保険相互会社",
+  "to": "株式会社ニチイホールディングス",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "介護・保育大手ニチイの買収",
+  "area": "介護・高齢者",
+  "date": "2023-11",
+  "status": "継続",
+  "note": "2023年11月にニチイHDのほぼ全株式を約2,100億円で取得することで合意し、2024年6月3日にニチイHDの全株式を持つBCJ-43株式の99.6%の譲渡を受けてグループ会社化した。",
+  "sources": [
+   "https://nichii-carepalace.co.jp/wp/wp-content/uploads/2024/11/ncp-press-release_20231129001.pdf",
+   "https://nichii-carepalace.co.jp/wp/wp-content/uploads/2024/11/ncp-press-release_20240603.pdf"
+  ]
+ },
+ {
+  "from": "日本生命保険相互会社",
+  "to": "株式会社Rehab for JAPAN",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "介護リハビリ支援ソフトへの出資",
+  "area": "介護・高齢者",
+  "date": "2026-04",
+  "status": "継続",
+  "note": "資本提携契約を締結し、ニチイHDを傘下に持つ日本生命グループとして介護テクノロジーの普及と介護事業者の経営支援で事業共創を進める。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000135.000027102.html"
+  ]
+ },
+ {
+  "from": "日本生命保険相互会社",
+  "to": "株式会社サリバテック",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "唾液がんリスク検査の職域展開",
+  "area": "がん",
+  "date": "2019",
+  "status": "継続",
+  "note": "2019年から資本・業務提携（開始月はリリースに記載なし）。2026年4月、検体の常温送付対応に合わせて日本生命と職域でのがん検診について座談会を実施した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000041.000085491.html"
+  ]
+ },
+ {
+  "from": "日本生命保険相互会社",
+  "to": "MICIN",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "オンライン診療のMICINと資本提携",
+  "area": "医療DX・データ",
+  "date": "2021-01",
+  "status": "不明",
+  "note": "MICINがH.U.グループHD、SBIインベストメント、Sony Innovation Fund、富国生命、明治安田生命などと同時に発表した資本・業務提携の1社。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000055.000017806.html"
+  ]
+ },
+ {
+  "from": "明治安田生命保険相互会社",
+  "to": "MICIN",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "オンライン診療のMICINと資本提携",
+  "area": "医療DX・データ",
+  "date": "2021-01",
+  "status": "不明",
+  "note": "MICINが日本生命、富国生命、H.U.グループHDなど複数の事業会社と同時に発表した資本・業務提携の1社。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000055.000017806.html"
+  ]
+ },
+ {
+  "from": "明治安田生命保険相互会社",
+  "to": "エムネス",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "医用画像クラウドとPHRで資本提携",
+  "area": "医療DX・データ",
+  "date": "2023-07",
+  "status": "継続",
+  "note": "医用画像の管理・共有クラウド「LOOKREC」を持つエムネスと資本業務提携し、生活者の健康・医療データ活用（PHR）による QOL 向上をめざす。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000013.000046248.html"
+  ]
+ },
+ {
+  "from": "住友生命保険相互会社",
+  "to": "ヘルスケアテクノロジーズ株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "健康医療相談アプリHELPOと資本提携",
+  "area": "生活習慣・予防",
+  "date": "2023-10",
+  "status": "継続",
+  "note": "ソフトバンク子会社のヘルスケアテクノロジーズと、ウェルビーイング領域の新事業・新サービス創出を目的に資本・業務提携。住友生命の「WaaS」エコシステムの一環。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000067.000004795.html",
+   "https://prtimes.jp/main/html/rd/p/000000058.000054466.html"
+  ]
+ },
+ {
+  "from": "住友生命保険相互会社",
+  "to": "株式会社PREVENT",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "重症化予防のPREVENTを完全子会社化",
+  "area": "生活習慣・予防",
+  "date": "2023-12",
+  "status": "継続",
+  "note": "2021年のCVC出資・業務提携を経て、2023年12月8日付でPREVENTの株式を100%取得しグループ入りさせた。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000068.000004795.html"
+  ]
+ },
+ {
+  "from": "住友生命保険相互会社",
+  "to": "株式会社ファミワン",
+  "type": "investment",
+  "kind": "出資",
+  "label": "妊活・不妊相談サービスへのCVC出資",
+  "area": "女性の健康",
+  "date": "2024-09",
+  "status": "継続",
+  "note": "CVCファンド「SUMISEI INNOVATION FUND」があすか製薬のCVCとともに第三者割当増資を引き受けた。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000464.000014333.html"
+  ]
+ },
+ {
+  "from": "住友生命保険相互会社",
+  "to": "株式会社ACCELStars",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "アプリ「シアフル」への睡眠チェック提供",
+  "area": "睡眠",
+  "date": "2025-09",
+  "status": "継続",
+  "note": "住友生命が2025年9月30日に提供を始めたウェルビーイングアプリ「シアフル」に、ACCELStarsの睡眠チェックサービスを提供。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000047.000082124.html"
+  ]
+ },
+ {
+  "from": "帝人株式会社",
+  "to": "株式会社PREVENT",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "生活習慣病の重症化予防事業の拡大",
+  "area": "生活習慣・予防",
+  "date": "2020-05",
+  "status": "終了",
+  "endedAt": "2023-12",
+  "note": "帝人からの出資で資本業務提携したが、2023年12月に住友生命がPREVENTの株式を100%取得し、同社グループに入った。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000006.000036875.html",
+   "https://prtimes.jp/main/html/rd/p/000000068.000004795.html"
+  ]
+ },
+ {
+  "from": "SOMPOホールディングス株式会社",
+  "to": "ワタミの介護株式会社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "有料老人ホーム事業の買収",
+  "area": "介護・高齢者",
+  "date": "2015-10",
+  "status": "継続",
+  "note": "当時の損保ジャパン日本興亜HDがワタミから全株式を取得（取得価額211億円）し、2015年12月に完全子会社化してSOMPOケアネクストに改称した（報道。当事者の発表原文は未確認）。",
+  "sources": [
+   "https://the-shashi.com/tse/8630/decisions/nursing-care-entry-2015/",
+   "https://toyokeizai.net/articles/-/97826"
+  ]
+ },
+ {
+  "from": "SOMPOホールディングス株式会社",
+  "to": "株式会社メッセージ",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "介護大手メッセージをTOBで子会社化",
+  "area": "介護・高齢者",
+  "date": "2015-12",
+  "status": "継続",
+  "note": "2段階のTOBで2016年3月までに議決権の94.6%を取得し連結子会社化、のちSOMPOケアメッセージに改称（報道。当事者の発表原文は未確認）。",
+  "sources": [
+   "https://the-shashi.com/tse/8630/decisions/nursing-care-entry-2015/",
+   "https://toyokeizai.net/articles/-/97826"
+  ]
+ },
+ {
+  "from": "SOMPOホールディングス株式会社",
+  "to": "RIZAPグループ株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "認知機能低下予防プログラムの共同開発",
+  "area": "認知症",
+  "date": "2018-11",
+  "status": "不明",
+  "note": "健康寿命の延伸に資する商品開発や研究を共同で行う業務提携を締結し、第一弾として認知機能低下予防プログラムの開発を検討するとした。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000101.000030866.html"
+  ]
+ },
+ {
+  "from": "SOMPOホールディングス株式会社",
+  "to": "株式会社エクサウィザーズ",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "介護・認知症領域のAI活用",
+  "area": "介護・高齢者",
+  "date": "2018-03",
+  "status": "不明",
+  "note": "超高齢社会の介護・認知症の課題解決に共同で取り組むことを目的とした資本業務提携。エクサウィザーズは認知症ケア技法ユマニチュードの普及などに取り組んでいた。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000009.000030192.html"
+  ]
+ },
+ {
+  "from": "損害保険ジャパン株式会社",
+  "to": "ブティックス株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "介護事業者のM&A・事業承継支援",
+  "area": "介護・高齢者",
+  "date": "2023-01",
+  "status": "不明",
+  "note": "介護事業者などの経営支援・事業承継支援の強化を目的に業務提携。損保ジャパンはグループ内に介護事業者SOMPOケアを持つ。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000257.000078307.html"
+  ]
+ },
+ {
+  "from": "SOMPOひまわり生命保険株式会社",
+  "to": "株式会社オクタウェル",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "中小企業向け健康経営支援",
+  "area": "生活習慣・予防",
+  "date": "2025-04",
+  "status": "継続",
+  "note": "中小規模法人向けの健康経営サポート事業で業務提携し、共同で展開する。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000028.000038293.html"
+  ]
+ },
+ {
+  "from": "東京海上ホールディングス株式会社",
+  "to": "メディカルノート",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "医療情報プラットフォームと資本提携",
+  "area": "医療DX・データ",
+  "date": "2019-06",
+  "status": "不明",
+  "note": "ヘルスケア領域で資本業務提携。2020年4月には新型コロナ拡大を受けたオンライン医療相談サービスを共同で発表した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000043.000025869.html",
+   "https://prtimes.jp/main/html/rd/p/000000049.000025869.html"
+  ]
+ },
+ {
+  "from": "東京海上ホールディングス株式会社",
+  "to": "株式会社ウェルモ",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "ケアマネ支援などの介護プラットフォーム",
+  "area": "介護・高齢者",
+  "date": "2021-11",
+  "status": "不明",
+  "note": "ウェルモの20.4億円のシリーズC（東京海上日動、Aflac Ventures などが引受）にあわせ、東京海上HD・凸版印刷と資本業務提携を締結した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000063.000018462.html"
+  ]
+ },
+ {
+  "from": "東京海上ホールディングス株式会社",
+  "to": "ホワイトヘルスケア株式会社",
+  "type": "investment",
+  "kind": "出資",
+  "label": "健保向けセルフメディケーション支援",
+  "area": "生活習慣・予防",
+  "date": "2020-07",
+  "status": "不明",
+  "note": "三菱商事と東京海上HDの共同出資で2020年7月に設立されたとされる（取引先企業のリリース・求人情報で確認。当事者の設立発表は未確認）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000065.000045379.html",
+   "https://www.green-japan.com/company/9145"
+  ]
+ },
+ {
+  "from": "アフラック生命保険株式会社",
+  "to": "メディカルノート",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "健康増進・ヘルスケア領域の業務提携",
+  "area": "医療DX・データ",
+  "date": "2017-05",
+  "status": "不明",
+  "note": "健康増進・ヘルスケア領域で業務提携契約を締結した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000005.000025869.html"
+  ]
+ },
+ {
+  "from": "アフラック生命保険株式会社",
+  "to": "株式会社メンタルヘルステクノロジーズ",
+  "type": "investment",
+  "kind": "出資",
+  "label": "企業向けメンタルヘルスSaaSへ出資",
+  "area": "精神・神経",
+  "date": "2020-04",
+  "status": "不明",
+  "note": "アフラック・イノベーション・パートナーズが運営するCVC（Aflac Ventures）を通じて出資。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000011.000046468.html"
+  ]
+ },
+ {
+  "from": "アフラック生命保険株式会社",
+  "to": "株式会社Rehab for JAPAN",
+  "type": "investment",
+  "kind": "出資",
+  "label": "介護リハビリ支援ソフトへ出資",
+  "area": "介護・高齢者",
+  "date": "2023-02",
+  "status": "不明",
+  "note": "Aflac Ventures Japanの支援のもと、Aflac Ventures LLCが通所介護向けリハビリ支援ソフト「リハプラン」のRehab for JAPANに出資（約11.3億円の調達の一部）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000029.000046468.html",
+   "https://prtimes.jp/main/html/rd/p/000000081.000027102.html"
+  ]
+ },
+ {
+  "from": "アフラック生命保険株式会社",
+  "to": "株式会社ウェルモ",
+  "type": "investment",
+  "kind": "出資",
+  "label": "介護プラットフォームへのCVC出資",
+  "area": "介護・高齢者",
+  "date": "2021-11",
+  "status": "不明",
+  "note": "ウェルモのシリーズC（20.4億円）の引受先にAflac Ventures LLCが入った。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000063.000018462.html"
+  ]
+ },
+ {
+  "from": "アフラック生命保険株式会社",
+  "to": "カケハシ",
+  "type": "investment",
+  "kind": "出資",
+  "label": "薬局向け電子薬歴への出資",
+  "area": "医療DX・データ",
+  "date": "2019-10",
+  "status": "不明",
+  "note": "カケハシのシリーズB（約26億円）で、アフラック・イノベーション・パートナーズがAflac Ventures LLCを通じて新規に出資した（伊藤忠商事なども同時に出資）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000012.000033983.html"
+  ]
+ },
+ {
+  "from": "アフラック生命保険株式会社",
+  "to": "セルスペクト株式会社",
+  "type": "investment",
+  "kind": "出資",
+  "label": "健康管理プロダクトの岩手発企業へ出資",
+  "area": "生活習慣・予防",
+  "date": "2019-09",
+  "status": "不明",
+  "note": "アフラック・イノベーション・パートナーズがAflac Venturesを通じて出資した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000006.000046468.html"
+  ]
+ },
+ {
+  "from": "三井住友海上あいおい生命保険株式会社",
+  "to": "株式会社メディカルフューチャー",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "契約者向け郵送血液検査の提供",
+  "area": "生活習慣・予防",
+  "date": "2022-10",
+  "status": "不明",
+  "note": "保険契約者向けに郵送型血液検査「ketsuken」を提供する業務提携。メディカルフューチャーは2023年2月を最後にプレスリリースがなく、サービスサイトも閲覧できない。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000014.000024660.html"
+  ]
+ },
+ {
+  "from": "株式会社NTTドコモ",
+  "to": "株式会社メドレー",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "オンライン診療CLINICSの共同運営",
+  "area": "医療DX・データ",
+  "date": "2021-04",
+  "status": "終了",
+  "endedAt": "2024-12",
+  "note": "2024年2月に資本・業務提携の見直しで合意し、CLINICSの共同運営を2024年12月末で終了した。dアカウント認証・dポイントでの連携は続ける。",
+  "sources": [
+   "https://www.docomo.ne.jp/info/news_release/2021/04/26_00.html",
+   "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html"
+  ]
+ },
+ {
+  "from": "株式会社NTTドコモ",
+  "to": "株式会社ミナカラ",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "オンライン薬局ミナカラの取得",
+  "area": "医療DX・データ",
+  "date": "2021-10",
+  "status": "終了",
+  "endedAt": "2026-10",
+  "note": "2021年10月にメドレーと共同で全株式を取得し、2024年2月にメドレー保有分を追加取得して完全子会社化。2026年10月の吸収分割でdヘルスケア事業とともにNTTプレシジョンメディシンへ移した（NTTグループ内の再編）。",
+  "sources": [
+   "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html",
+   "https://www.docomo.ne.jp/info/news_release/2026/07/30_00.html"
+  ]
+ },
+ {
+  "from": "株式会社NTTドコモ",
+  "to": "Ubie株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "症状検索ユビーとdアカウント連携",
+  "area": "医療DX・データ",
+  "date": "2025-03",
+  "status": "継続",
+  "note": "2025年3月14日に資本業務提携契約を締結し、同27日に出資を完了（金額は非公表）。第一弾としてユビーへのdアカウントでのログインを可能にする。",
+  "sources": [
+   "https://www.docomo.ne.jp/info/news_release/2025/03/27_01.html"
+  ]
+ },
+ {
+  "from": "株式会社NTTドコモ",
+  "to": "Holoeyes株式会社",
+  "type": "partnership",
+  "kind": "販売提携",
+  "label": "医療用3D画像表示とXR機器の販売",
+  "area": "医療DX・データ",
+  "date": "2020-09",
+  "status": "不明",
+  "note": "医療用画像3D空間表示サービス「Holoeyes MD」とドコモが扱うXRデバイス「Magic Leap 1」を医療機関向けに販売する業務提携に合意。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000022.000026916.html"
+  ]
+ },
+ {
+  "from": "株式会社NTTドコモ",
+  "to": "株式会社Mediplat",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "dヘルスケアで医師相談first call提供",
+  "area": "医療DX・データ",
+  "date": "2018-05",
+  "status": "不明",
+  "note": "メドピアグループのオンライン医療相談「first call」をドコモの「dヘルスケア」と連携（2019年に月額プラン、2020年にdアカウント向けキャンペーン）。first call事業は2024年9月にARMグループへ譲渡され、Mediplatは2025年4月に清算結了した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000136.000010134.html",
+   "https://prtimes.jp/main/html/rd/p/000000176.000010134.html",
+   "https://www2.jpx.co.jp/disc/60950/140120240802561155.pdf"
+  ]
+ },
+ {
+  "from": "株式会社NTTドコモ",
+  "to": "株式会社SOXAI",
+  "type": "partnership",
+  "kind": "販売提携",
+  "label": "健康管理スマートリングの店頭販売",
+  "area": "生活習慣・予防",
+  "date": "2025-04",
+  "status": "継続",
+  "note": "NTTドコモ・ベンチャーズが出資するSOXAIのスマートリングをドコモショップ等で取り扱い、2026年2月には新モデルも発売した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000471.000118641.html",
+   "https://prtimes.jp/main/html/rd/p/000000755.000118641.html"
+  ]
+ },
+ {
+  "from": "NTTプレシジョンメディシン株式会社",
+  "to": "株式会社インテグリティ・ヘルスケア",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "電子カルテとPHR・オンライン診療の連携",
+  "area": "医療DX・データ",
+  "date": "2024-12",
+  "status": "継続",
+  "note": "NTTグループのメディカル・ヘルスケア統合会社として初の資本提携で、インテグリティ・ヘルスケアを持分法適用関連会社とする方針。2025年9月には健保向け健康支援で連携を強化した。",
+  "sources": [
+   "https://group.ntt/jp/newsrelease/2024/12/23/241223a.html",
+   "https://prtimes.jp/main/html/rd/p/000000043.000064327.html"
+  ]
+ },
+ {
+  "from": "株式会社日立システムズ",
+  "to": "株式会社インテグリティ・ヘルスケア",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "クラウド基盤でのオンライン診療・PHR提供",
+  "area": "医療DX・データ",
+  "date": "2021-04",
+  "status": "不明",
+  "note": "自治体・健保・企業向けに、セキュアなクラウド基盤上でオンライン診療や服薬指導、PHRサービスを提供する提携。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000065.000042324.html",
+   "https://prtimes.jp/main/html/rd/p/000000008.000064327.html"
+  ]
+ },
+ {
+  "from": "KDDI株式会社",
+  "to": "株式会社医用工学研究所",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "電子カルテ由来の医療データ利活用",
+  "area": "医療DX・データ",
+  "date": "2023-04",
+  "status": "継続",
+  "note": "医用工学研究所（MEI）が持つ電子カルテ由来データの利活用を進める資本業務提携（M&A情報サイトの記事で確認）。",
+  "sources": [
+   "https://www.ma-cp.com/news/9317/"
+  ]
+ },
+ {
+  "from": "KDDI株式会社",
+  "to": "ファストドクター株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "社員向けオンライン二次健診の実証",
+  "area": "生活習慣・予防",
+  "date": "2024-01",
+  "status": "不明",
+  "note": "生活習慣病の重症化ハイリスク者向け法人サービス「オンライン二次健診」の導入実証をKDDI社内で2024年1月に開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000089.000031533.html"
+  ]
+ },
+ {
+  "from": "ソフトバンク株式会社",
+  "to": "ヘルスケアテクノロジーズ株式会社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "健康医療相談アプリHELPOの子会社設立",
+  "area": "生活習慣・予防",
+  "date": "2018-10",
+  "status": "継続",
+  "note": "ヘルスケア領域を推進するためソフトバンクが2018年10月に設立した子会社。2023年10月に住友生命と資本・業務提携した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000067.000004795.html"
+  ]
+ },
+ {
+  "from": "LINEヤフー株式会社",
+  "to": "LINEヘルスケア株式会社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "エムスリーとの合弁でオンライン診療",
+  "area": "医療DX・データ",
+  "date": "2019-01",
+  "status": "終了",
+  "endedAt": "2025-06",
+  "note": "当時のLINEが51%、エムスリーが49%を出資して設立（報道）。オンライン診療「LINEドクター」は2025年6月10日に全機能を停止し、LINEヘルスケアは2026年9月にLINEヤフーへ吸収合併された。",
+  "sources": [
+   "https://www.lycorp.co.jp/ja/news/release/016530/",
+   "https://www.businessinsider.jp/article/182898/"
+  ]
+ },
+ {
+  "from": "楽天グループ株式会社",
+  "to": "ジェイフロンティア株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "オンライン診療・服薬指導の普及で連携",
+  "area": "医療DX・データ",
+  "date": "2026-08",
+  "status": "継続",
+  "note": "包括的業務提携に向けた基本合意書を締結。楽天の薬局予約・お薬手帳アプリ「楽天ヘルスケア ヨヤクスリ」とジェイフロンティアの「SOKUYAKU」を連携させる。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000535.000021228.html",
+   "https://prtimes.jp/main/html/rd/p/000000327.000005491.html"
+  ]
+ },
+ {
+  "from": "株式会社ディー・エヌ・エー",
+  "to": "株式会社アルム",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "医療関係者アプリJoinのアルム買収",
+  "area": "医療DX・データ",
+  "date": "2022-05",
+  "status": "継続",
+  "note": "2022年7月に第三者割当増資を引き受けて持分法適用会社とし、同年10月に簡易株式交付で連結子会社化した（取得価額は約292億円と報道）。",
+  "sources": [
+   "https://www.nihon-ma.co.jp/news/20220525_2432-11/",
+   "https://gamebiz.jp/news/357498",
+   "https://gamebiz.jp/news/349806"
+  ]
+ },
+ {
+  "from": "株式会社デジタルガレージ",
+  "to": "株式会社Welby",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "個人の健康・医療情報（PHR）基盤",
+  "area": "医療DX・データ",
+  "date": "2018-08",
+  "status": "不明",
+  "note": "資本業務提携し、PHRのアグリゲーション事業を開始すると発表。Welbyは2019年3月に東証マザーズへ上場した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000111.000023393.html",
+   "https://prtimes.jp/main/html/rd/p/000000143.000023393.html"
+  ]
+ },
+ {
+  "from": "株式会社MIXI",
+  "to": "ユニファ",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "保育ICT「ルクミー」との協業",
+  "area": "小児",
+  "date": "2024-08",
+  "status": "継続",
+  "note": "ユニファのシリーズEラウンドにあわせて資本業務提携を締結した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000113.000031858.html",
+   "https://prtimes.jp/main/html/rd/p/000000112.000031858.html"
+  ]
+ },
+ {
+  "from": "NECネクサソリューションズ株式会社",
+  "to": "アガサ株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "製薬・治験向け文書管理クラウド",
+  "area": "治験・研究",
+  "date": "2020-11",
+  "status": "不明",
+  "note": "医療分野向け文書管理クラウド「Agatha」について、製薬企業向けシステムを提供するNECネクサソリューションズと業務提携を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000006.000052277.html"
+  ]
+ },
+ {
+  "from": "キヤノンITソリューションズ株式会社",
+  "to": "ドクターズ株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "医療機関向けDXサービスの事業化支援",
+  "area": "医療DX・データ",
+  "date": "2023-12",
+  "status": "継続",
+  "note": "キヤノンITSが2024年に提供を始める医療機関向けサービス「CONASAS」の事業展開を、戦略・企画段階から支援。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000063.000051229.html",
+   "https://prtimes.jp/main/html/rd/p/000000803.000001375.html"
+  ]
+ },
+ {
+  "from": "三井物産株式会社",
+  "to": "株式会社保健同人社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "健康相談の保健同人社をウェルネス中核傘下に",
+  "area": "生活習慣・予防",
+  "date": "2022-04",
+  "status": "継続",
+  "note": "親会社の三井物産へ全株式が譲渡され、三井物産100%子会社のMBK Wellness Holdingsのグループ会社となった（三井物産が最初に傘下に入れた時期はリリースに記載なし）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000024.000071351.html"
+  ]
+ },
+ {
+  "from": "三井物産株式会社",
+  "to": "ドクターズモバイル株式会社",
+  "type": "investment",
+  "kind": "出資",
+  "label": "看護業務支援の医療ICTへ出資",
+  "area": "医療DX・データ",
+  "date": "2022-01",
+  "status": "継続",
+  "note": "三井物産子会社のイノシア（2021年11月設立）が出資した（報道）。ドクターズモバイルは2025年4月にイノシアへ吸収合併された。",
+  "sources": [
+   "https://newswitch.jp/p/30738"
+  ]
+ },
+ {
+  "from": "三菱商事株式会社",
+  "to": "株式会社メディパルホールディングス",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "病院向け事業会社の共同運営と包括協業",
+  "area": "その他",
+  "date": "2026-08",
+  "status": "継続",
+  "note": "ヘルスケア・食・日用品領域の包括的協業で業務提携し、80対20で出資していたエム・シー・ヘルスケアホールディングスの出資比率を50%ずつに移す。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000057.000160226.html",
+   "https://www.mitsubishicorp.com/jp/ja/news/release/2026/20260807001.html"
+  ]
+ },
+ {
+  "from": "三菱商事株式会社",
+  "to": "ホワイトヘルスケア株式会社",
+  "type": "investment",
+  "kind": "出資",
+  "label": "健保向けセルフメディケーション支援",
+  "area": "生活習慣・予防",
+  "date": "2020-07",
+  "status": "不明",
+  "note": "三菱商事と東京海上HDの共同出資で2020年7月に設立されたとされる（取引先企業のリリース・求人情報で確認。当事者の設立発表は未確認）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000065.000045379.html",
+   "https://www.green-japan.com/company/9145"
+  ]
+ },
+ {
+  "from": "伊藤忠商事株式会社",
+  "to": "エムネス",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "医用画像クラウドLOOKRECの事業推進",
+  "area": "医療DX・データ",
+  "date": "2022-03",
+  "status": "継続",
+  "note": "医療支援クラウド事業の推進に関する資本業務提携で、医療・健診機関のデジタル化を進める。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000009.000046248.html"
+  ]
+ },
+ {
+  "from": "伊藤忠商事株式会社",
+  "to": "MRT",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "医師紹介・医療事業の国内外協業",
+  "area": "その他",
+  "date": "2024-11",
+  "status": "継続",
+  "note": "伊藤忠商事を割当先とする第三者割当増資を行い、国内外の医療・ヘルスケア関連事業で協業する資本業務提携。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000044.000058805.html"
+  ]
+ },
+ {
+  "from": "伊藤忠商事株式会社",
+  "to": "株式会社MOLCURE",
+  "type": "investment",
+  "kind": "出資",
+  "label": "AI抗体創薬の医薬品開発支援",
+  "area": "治験・研究",
+  "date": "2026-10",
+  "status": "継続",
+  "note": "資本提携契約を締結し、伊藤忠商事から出資を受けて医薬品開発支援体制を強化する。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000022.000083912.html"
+  ]
+ },
+ {
+  "from": "伊藤忠商事株式会社",
+  "to": "カケハシ",
+  "type": "investment",
+  "kind": "出資",
+  "label": "薬局向け電子薬歴Musubiへの出資",
+  "area": "医療DX・データ",
+  "date": "2019-10",
+  "status": "不明",
+  "note": "カケハシのシリーズB（約26億円）で新規の引受先として出資した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000012.000033983.html"
+  ]
+ },
+ {
+  "from": "住友商事株式会社",
+  "to": "サスメド株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "治療用アプリの開発・開発基盤",
+  "area": "睡眠",
+  "date": "2020-08",
+  "status": "不明",
+  "note": "医療用アプリの開発および開発基盤の提供を行うサスメドとの資本業務提携に合意。サスメドは不眠症治療用アプリなどを開発している。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000729.000000726.html"
+  ]
+ },
+ {
+  "from": "住友商事株式会社",
+  "to": "株式会社メディカルユアーズ",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "ロボット薬局の自動調剤技術",
+  "area": "医療DX・データ",
+  "date": "2024-07",
+  "status": "継続",
+  "note": "日本初のロボット薬局を開発・導入したメディカルユアーズと資本業務提携を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000009.000100428.html",
+   "https://prtimes.jp/main/html/rd/p/000000313.000051639.html"
+  ]
+ },
+ {
+  "from": "住友商事株式会社",
+  "to": "株式会社Buzzreach",
+  "type": "investment",
+  "kind": "出資",
+  "label": "治験の患者募集プラットフォーム",
+  "area": "治験・研究",
+  "date": "2024-05",
+  "status": "継続",
+  "note": "住友商事のCVC、住商ベンチャー・パートナーズが出資した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000058.000036622.html"
+  ]
+ },
+ {
+  "from": "住友商事株式会社",
+  "to": "エクイタスメディカル株式会社",
+  "type": "investment",
+  "kind": "出資",
+  "label": "クリニック承継・経営支援",
+  "area": "その他",
+  "date": "2026-08",
+  "status": "継続",
+  "note": "住友商事のCVC、住商ベンチャー・パートナーズが、みらい創造インベストメンツ、メドレーなどとともに出資した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000033.000108815.html",
+   "https://prtimes.jp/main/html/rd/p/000000004.000185818.html"
+  ]
+ },
+ {
+  "from": "丸紅株式会社",
+  "to": "株式会社LIFEM",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "働く女性の健康支援の合弁会社",
+  "area": "女性の健康",
+  "date": "2022-06",
+  "status": "不明",
+  "note": "カラダメディカ、丸紅、エムティーアイの3社で、働く女性の健康課題の改善をめざす新会社LIFEMを2022年7月1日に設立した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000027.000017725.html"
+  ]
+ },
+ {
+  "from": "オムロン株式会社",
+  "to": "株式会社JMDC",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "医療ビッグデータJMDCを子会社化",
+  "area": "医療DX・データ",
+  "date": "2023-09",
+  "status": "継続",
+  "note": "2022年2月にノーリツ鋼機からJMDC株33.0%を約1,118億円で取得して資本業務提携。2023年9月にTOBを発表して連結子会社化し、協業範囲をヘルスケア以外にも広げた（上場は維持）。",
+  "sources": [
+   "https://www.omron.com/jp/ja/ir/irlib/pdfs/20230908j.pdf",
+   "https://www.nihon-ma.co.jp/news/20230908_6645-6/",
+   "https://www2.jpx.co.jp/disc/66450/140120220224595519.pdf"
+  ]
+ },
+ {
+  "from": "オムロン株式会社",
+  "to": "株式会社iCARE",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "産業保健クラウドCarelyと資本提携",
+  "area": "生活習慣・予防",
+  "date": "2024-07",
+  "status": "継続",
+  "note": "2024年7月2日にiCAREの既存株主のベンチャーキャピタルから株式を取得し、働く人の健康づくりで資本業務提携を開始した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000086.000120244.html",
+   "https://prtimes.jp/main/html/rd/p/000000198.000022826.html"
+  ]
+ },
+ {
+  "from": "オムロン ヘルスケア株式会社",
+  "to": "ライフログテクノロジー株式会社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "食事管理アプリ「カロミル」の買収",
+  "area": "生活習慣・予防",
+  "date": "2026-07",
+  "status": "継続",
+  "note": "2023年4月の業務提携を経て、2026年7月にM&Aでライフログテクノロジーをグループに迎えると発表された（出資者DGDVの発表）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000150.000018894.html",
+   "https://prtimes.jp/main/html/rd/p/000000123.000076641.html"
+  ]
+ },
+ {
+  "from": "パナソニック株式会社",
+  "to": "株式会社Neautech",
+  "type": "investment",
+  "kind": "出資",
+  "label": "オンライン美肌治療サービスへの出資",
+  "area": "その他",
+  "date": "2024-02",
+  "status": "継続",
+  "note": "SBIインベストメントと共同運営するCVC「パナソニックくらしビジョナリーファンド」から出資し、2025年10月にも追加出資した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000016.000100322.html",
+   "https://prtimes.jp/main/html/rd/p/000006448.000003442.html"
+  ]
+ },
+ {
+  "from": "パナソニック株式会社",
+  "to": "株式会社KINS",
+  "type": "investment",
+  "kind": "出資",
+  "label": "菌ケアの化粧品・サービスへの出資",
+  "area": "生活習慣・予防",
+  "date": "2024-07",
+  "status": "継続",
+  "note": "パナソニックくらしビジョナリーファンドから出資を決定した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000005784.000003442.html"
+  ]
+ },
+ {
+  "from": "パナソニック株式会社",
+  "to": "株式会社Zene",
+  "type": "investment",
+  "kind": "出資",
+  "label": "ゲノム解析サービスへの出資",
+  "area": "生活習慣・予防",
+  "date": "2024-03",
+  "status": "継続",
+  "note": "パナソニックくらしビジョナリーファンドから出資を決定した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000005608.000003442.html"
+  ]
+ },
+ {
+  "from": "ソニー・ライフケア株式会社",
+  "to": "エコナビスタ株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "高齢者施設の見守りSaaS導入",
+  "area": "介護・高齢者",
+  "date": "2024-08",
+  "status": "継続",
+  "note": "介護業務の効率化とサービス品質の向上を目的に、事業提携に関する合意書を締結。ソニー・ライフケアはソニーグループで介護付き有料老人ホームなどを運営する。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000042.000075697.html"
+  ]
+ },
+ {
+  "from": "ソニーグループ株式会社",
+  "to": "MICIN",
+  "type": "investment",
+  "kind": "出資",
+  "label": "オンライン診療のMICINへのCVC出資",
+  "area": "医療DX・データ",
+  "date": "2021-01",
+  "status": "不明",
+  "note": "Sony Innovation Fund by IGVが、日本生命・明治安田生命などとともにMICINの資本・業務提携先となった。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000055.000017806.html"
+  ]
+ },
+ {
+  "from": "キヤノン株式会社",
+  "to": "東芝メディカルシステムズ株式会社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "東芝の医療機器子会社の買収",
+  "area": "その他",
+  "date": "2016-03",
+  "status": "継続",
+  "note": "2016年3月に約6,655億円で株式等譲渡契約を結び、競争法当局の承認を得て2016年12月19日に子会社化した（のちキヤノンメディカルシステムズに改称）。",
+  "sources": [
+   "https://global.canon/ja/news/2016/p2016mar17j.html",
+   "https://global.canon/ja/news/2016/20161219.html"
+  ]
+ },
+ {
+  "from": "富士フイルムホールディングス株式会社",
+  "to": "富士フイルムヘルスケア株式会社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "日立の画像診断事業（CT・MRI等）の買収",
+  "area": "その他",
+  "date": "2019-12",
+  "status": "継続",
+  "note": "日立製作所の画像診断関連事業を新会社に承継させて全株式を取得する方式で、コロナ禍の延期を経て2021年3月31日に完了した（事業価値1,790億円で合意と報道）。",
+  "sources": [
+   "https://www2.jpx.co.jp/disc/49010/140120210218466271.pdf",
+   "https://www2.jpx.co.jp/disc/49010/140120200528427588.pdf"
+  ]
+ },
+ {
+  "from": "富士フイルム和光純薬株式会社",
+  "to": "株式会社理研ジェネシス",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "高感度プロテオーム解析の受託",
+  "area": "治験・研究",
+  "date": "2025-02",
+  "status": "継続",
+  "note": "Olinkの高感度プロテオーム解析をワンストップで提供するための業務提携。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000006.000145210.html"
+  ]
+ },
+ {
+  "from": "キヤノンマーケティングジャパン株式会社",
+  "to": "株式会社Z‐Works",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "介護施設の居室見守りシステム開発",
+  "area": "介護・高齢者",
+  "date": "2017-06",
+  "status": "不明",
+  "note": "資本業務提携し、非接触センサーで入居者の状態を検知する「居室見守り介護支援システム」を共同開発した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000258.000013943.html"
+  ]
+ },
+ {
+  "from": "キヤノンシステムアンドサポート株式会社",
+  "to": "株式会社ケアコネクトジャパン",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "介護記録システム企業の株式取得",
+  "area": "介護・高齢者",
+  "date": "2023-06",
+  "status": "継続",
+  "note": "キヤノンMJグループのキヤノンS&Sが株式取得に合意し資本業務提携。介護・福祉業のICT化をワンストップで支援する。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000066.000014865.html"
+  ]
+ },
+ {
+  "from": "キヤノンシステムアンドサポート株式会社",
+  "to": "ジーコム株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "介護施設向け無線ナースコール",
+  "area": "介護・高齢者",
+  "date": "2026-01",
+  "status": "継続",
+  "note": "映像ソリューションと無線ナースコールを組み合わせ、介護現場のDXを進める資本業務提携。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000100.000014865.html"
+  ]
+ },
+ {
+  "from": "日清紡ホールディングス株式会社",
+  "to": "AMI株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "遠隔聴診器「超聴診器」の開発",
+  "area": "循環器",
+  "date": "2022-02",
+  "status": "不明",
+  "note": "心疾患診断アシスト機能付きの遠隔医療対応聴診器などを開発するAMIと資本業務提携を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000042.000036655.html"
+  ]
+ },
+ {
+  "from": "味の素株式会社",
+  "to": "株式会社おいしい健康",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "食と健康DXのレシピ・栄養サービス",
+  "area": "生活習慣・予防",
+  "date": "2022-01",
+  "status": "継続",
+  "note": "味の素を引受先とする第三者割当増資を実施し、食のパーソナライズによる健康・医療の最適化で資本業務提携した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000055.000043855.html"
+  ]
+ },
+ {
+  "from": "キリンホールディングス株式会社",
+  "to": "株式会社ファンケル",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "サプリ・化粧品のファンケル買収",
+  "area": "生活習慣・予防",
+  "date": "2024-06",
+  "status": "継続",
+  "note": "2019年に約33%を取得して資本業務提携。2024年6月に完全子会社化を目的としたTOBを発表し、9月に成立して75.24%を持つ連結子会社とした。",
+  "sources": [
+   "https://www.kirinholdings.com/jp/newsroom/release/2024/0614_01.pdf",
+   "https://kirinholdings.com/jp/newsroom/release/2024/0912_02.pdf"
+  ]
+ },
+ {
+  "from": "アサヒグループジャパン株式会社",
+  "to": "アイリス株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "AIによる口腔・摂食嚥下ケアの共同開発",
+  "area": "介護・高齢者",
+  "date": "2023-12",
+  "status": "継続",
+  "note": "口腔ケア領域の新規ソリューションに向けAIを使った共同開発を始め、2024年11月から介護・看護事業者向け口腔状態評価アプリ「クチミル」の実証実験を行った。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000159.000058947.html",
+   "https://prtimes.jp/main/html/rd/p/000000190.000058947.html"
+  ]
+ },
+ {
+  "from": "ハウス食品グループ本社株式会社",
+  "to": "ライフログテクノロジー株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "食事管理アプリと「食で健康」",
+  "area": "生活習慣・予防",
+  "date": "2023-03",
+  "status": "不明",
+  "note": "食事管理アプリ「カロミル」のライフログテクノロジーと資本業務提携。同社は2026年7月にオムロン ヘルスケアのグループに入ると発表された。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000148.000018894.html",
+   "https://prtimes.jp/main/html/rd/p/000000123.000076641.html"
+  ]
+ },
+ {
+  "from": "株式会社セブン-イレブン・ジャパン",
+  "to": "Ubie株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "症状検索Ubieと店舗の健康協業",
+  "area": "医療DX・データ",
+  "date": "2025-03",
+  "status": "継続",
+  "note": "ヘルスケア分野での協業に向けた業務提携に合意し、セブン-イレブンを引受先とする第三者割当増資を実施した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000139.000048083.html"
+  ]
+ },
+ {
+  "from": "ウエルシア薬局株式会社",
+  "to": "ジェイフロンティア株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "オンライン診療SOKUYAKUの共同キャンペーン",
+  "area": "医療DX・データ",
+  "date": "2025-10",
+  "status": "継続",
+  "note": "オンライン診療・服薬指導・処方薬配送サービス「SOKUYAKU」の利用手数料無料キャンペーンを共同で実施。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000284.000005491.html"
+  ]
+ },
+ {
+  "from": "スギホールディングス株式会社",
+  "to": "メドピア",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "医師コミュニティ大手との業務資本提携",
+  "area": "医療DX・データ",
+  "date": "2018-03",
+  "status": "不明",
+  "note": "業務資本提携契約を締結し、メドピアがスギHDに、メドピア子会社Mediplatがスギ薬局にそれぞれ第三者割当で新株を発行した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000129.000010134.html",
+   "https://prtimes.jp/main/html/rd/p/000000042.000019011.html"
+  ]
+ },
+ {
+  "from": "株式会社スギ薬局",
+  "to": "株式会社Mediplat",
+  "type": "investment",
+  "kind": "出資",
+  "label": "オンライン医療相談first callへの出資",
+  "area": "医療DX・データ",
+  "date": "2018-03",
+  "status": "終了",
+  "endedAt": "2024-09",
+  "note": "スギ薬局がMediplatの第三者割当増資を引き受け49%を保有。Mediplatの全事業（first call）は2024年9月にアドバンテッジリスクマネジメントの子会社へ承継され、Mediplatは2025年4月に清算結了した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000129.000010134.html",
+   "https://www2.jpx.co.jp/disc/60950/140120240802561155.pdf",
+   "https://www.firstcall.md/Home/About"
+  ]
+ },
+ {
+  "from": "株式会社スギ薬局",
+  "to": "株式会社M-aid",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "予防医療アプリの共同開発",
+  "area": "生活習慣・予防",
+  "date": "2018-03",
+  "status": "不明",
+  "note": "医療法人尚仁会の理事長が設立したM-aidの第三者割当増資をスギ薬局が引き受け、業務提携した。2020年12月には小学校でのアプリ共同開発と予防医療の実証研究を始めた。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000046.000019011.html",
+   "https://prtimes.jp/main/html/rd/p/000000003.000067642.html"
+  ]
+ },
+ {
+  "from": "イオン株式会社",
+  "to": "株式会社ツルハホールディングス",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "ドラッグストア大手ツルハの子会社化",
+  "area": "その他",
+  "date": "2024-02",
+  "status": "継続",
+  "note": "2024年2月にイオン・ツルハHD・ウエルシアHDの3社で資本業務提携と経営統合協議に合意。2026年1月のTOBで議決権比率を50.11%に高め、ツルハHDを連結子会社化した（報道）。",
+  "sources": [
+   "https://www.nihon-ma.co.jp/news/20240228_8267-22/",
+   "https://www.oanda.jp/lab-education/market_news/kn_2026010701001585/"
+  ]
+ },
+ {
+  "from": "株式会社ツルハホールディングス",
+  "to": "ウエルシアホールディングス株式会社",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "ウエルシアとの経営統合",
+  "area": "その他",
+  "date": "2025-04",
+  "status": "継続",
+  "note": "2025年4月に株式交換契約を締結し、当初予定から2年前倒しの2025年12月1日にウエルシアHDをツルハHDの完全子会社とした。",
+  "sources": [
+   "https://www.nihon-ma.co.jp/news/20250411_8267-28/",
+   "https://www.lnews.jp/2025/04/r0414501.html"
+  ]
+ },
+ {
+  "from": "エムスリー株式会社",
+  "to": "株式会社ベネフィット・ワン",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "ベネワンへのTOB（不成立）",
+  "area": "生活習慣・予防",
+  "date": "2023-11",
+  "status": "終了",
+  "endedAt": "2024-02",
+  "note": "2023年11月15日からTOBを実施したが、第一生命HDの対抗TOBを受け、応募が買付予定数の下限に届かず2024年2月29日に不成立で終了した。",
+  "sources": [
+   "https://www2.jpx.co.jp/disc/24130/140120240229545908.pdf",
+   "https://www.nihon-ma.co.jp/news/20240301_2413-31/"
+  ]
+ },
+ {
+  "from": "エムスリー株式会社",
+  "to": "LINEヘルスケア株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "LINEとの合弁でオンライン医療",
+  "area": "医療DX・データ",
+  "date": "2019-01",
+  "status": "終了",
+  "endedAt": "2025-06",
+  "note": "LINE51%・エムスリー49%の合弁として設立（報道）。LINEドクターは2025年6月10日に終了し、LINEヘルスケアは2026年9月にLINEヤフーへ吸収合併された。",
+  "sources": [
+   "https://www.businessinsider.jp/article/182898/",
+   "https://www.lycorp.co.jp/ja/news/release/016530/"
+  ]
+ },
+ {
+  "from": "エムスリー株式会社",
+  "to": "株式会社当直連携基盤",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "在宅医療の夜間休日往診支援",
+  "area": "介護・高齢者",
+  "date": "2024-04",
+  "status": "継続",
+  "note": "かかりつけ医の夜間休日対応を支える「バディ往診」を提供する当直連携基盤がエムスリーグループ入りした。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000003.000130026.html"
+  ]
+ },
+ {
+  "from": "エムスリー株式会社",
+  "to": "株式会社ロジック",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "介護・看護記録のスマホ・NFCシステム",
+  "area": "介護・高齢者",
+  "date": "2022-03",
+  "status": "継続",
+  "note": "介護・看護事業所向けにスマートフォンとNFCを使った記録システムを提供するロジックの子会社化を決定（出資者グローバル・ブレインの発表）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000159.000047342.html"
+  ]
+ },
+ {
+  "from": "エムスリー株式会社",
+  "to": "株式会社エピグノ",
+  "type": "investment",
+  "kind": "出資",
+  "label": "医療・介護の人材マネジメントSaaS",
+  "area": "医療DX・データ",
+  "date": "2021-07",
+  "status": "継続",
+  "note": "エムスリーとエムスリーキャリアを引受先とする第三者割当増資で2億5,000万円を調達した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000010.000054745.html"
+  ]
+ },
+ {
+  "from": "エムスリー株式会社",
+  "to": "株式会社ゼスト",
+  "type": "investment",
+  "kind": "出資",
+  "label": "在宅医療・介護の訪問最適化SaaS",
+  "area": "介護・高齢者",
+  "date": "2025-01",
+  "status": "継続",
+  "note": "シリーズBエクステンションラウンドでエムスリーから1億円の投資を受けた（累計調達16億円）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000049.000056654.html"
+  ]
+ },
+ {
+  "from": "エムスリー株式会社",
+  "to": "株式会社カイゴメディア",
+  "type": "investment",
+  "kind": "出資",
+  "label": "介護職向け動画・SNSメディア",
+  "area": "介護・高齢者",
+  "date": "2023-05",
+  "status": "継続",
+  "note": "プレシリーズBラウンドでエムスリーがリード投資家となった（調達額は非公表）。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000040.000050096.html"
+  ]
+ },
+ {
+  "from": "株式会社メドレー",
+  "to": "株式会社ミナカラ",
+  "type": "investment",
+  "kind": "出資",
+  "label": "オンライン薬局の共同運営",
+  "area": "医療DX・データ",
+  "date": "2021-10",
+  "status": "終了",
+  "endedAt": "2024-02",
+  "note": "ドコモと共同でミナカラの全株式を取得したが、2024年2月にドコモとの資本・業務提携の見直しで保有株式をドコモに譲渡した。",
+  "sources": [
+   "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html",
+   "https://prtimes.jp/main/html/rd/p/000000045.000052928.html"
+  ]
+ },
+ {
+  "from": "株式会社メドレー",
+  "to": "三栄メディシス株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "地域医療支援で資本業務提携",
+  "area": "医療DX・データ",
+  "date": "2025-11",
+  "status": "継続",
+  "note": "三栄メディシスが長年培った地域医療支援のノウハウとメドレーの医療プラットフォームを組み合わせる資本業務提携。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000016.000009177.html"
+  ]
+ },
+ {
+  "from": "株式会社メドレー",
+  "to": "株式会社RMキャリア",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "医師・薬剤師の採用支援事業の承継",
+  "area": "その他",
+  "date": "2026-03",
+  "status": "継続",
+  "note": "リクルートメディカルキャリアが新設した会社に全事業を移したうえで株式を取得し、2026年8月にRMキャリア（旧リクルートメディカルキャリア）としてメドレーグループに参画した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000151.000013108.html",
+   "https://prtimes.jp/main/html/rd/p/000000157.000013108.html"
+  ]
+ },
+ {
+  "from": "株式会社メドレー",
+  "to": "エクイタスメディカル株式会社",
+  "type": "investment",
+  "kind": "出資",
+  "label": "クリニック承継・経営支援",
+  "area": "その他",
+  "date": "2026-08",
+  "status": "継続",
+  "note": "みらい創造インベストメンツ、住商ベンチャー・パートナーズなどとともに戦略的資金調達の引受先となった。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000004.000185818.html"
+  ]
+ },
+ {
+  "from": "メドピア株式会社",
+  "to": "株式会社4DIN",
+  "type": "investment",
+  "kind": "出資",
+  "label": "病院電子カルテ由来のRWD事業",
+  "area": "医療DX・データ",
+  "date": "2022-09",
+  "status": "継続",
+  "note": "リアルワールドデータ利活用事業を共同展開する4DINの第三者割当増資（2022年10月28日付）に応じることを決議。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000426.000010134.html"
+  ]
+ },
+ {
+  "from": "メドピア株式会社",
+  "to": "クリニカル・プラットフォーム株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "クラウド型診療プラットフォームとの提携",
+  "area": "医療DX・データ",
+  "date": "2015-10",
+  "status": "不明",
+  "note": "100%クラウド型の診療プラットフォームを展開するクリニカル・プラットフォームと業務資本提携した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000046.000010134.html"
+  ]
+ },
+ {
+  "from": "メドピア株式会社",
+  "to": "株式会社Mediplat",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "オンライン医療相談first callの子会社化",
+  "area": "医療DX・データ",
+  "date": "2016-05",
+  "status": "終了",
+  "endedAt": "2024-09",
+  "note": "2016年5月に株式交換でMediplatを完全子会社化（報道で確認）。2024年8月に予防医療プラットフォーム事業からの撤退を決め、Mediplat（first call）とフィッツプラスの全事業を同年9月にARMの新設子会社へ承継させた。Mediplatは2025年4月に清算結了。",
+  "sources": [
+   "https://www.nihon-ma.co.jp/news/20160513_6095/",
+   "https://www2.jpx.co.jp/disc/60950/140120240802561155.pdf"
+  ]
+ },
+ {
+  "from": "株式会社JMDC",
+  "to": "クリンタル",
+  "type": "parent",
+  "kind": "買収・子会社化",
+  "label": "専門医紹介サービスclintalの買収",
+  "area": "医療DX・データ",
+  "date": "2018",
+  "status": "終了",
+  "endedAt": "2026-03",
+  "note": "2018年にJMDCが買収し、2019年4月に吸収合併。会員制医師紹介・看護師相談「clintal」は2026年3月31日でサービスを終了した。",
+  "sources": [
+   "https://www.jmdc.co.jp/clintal-notice/"
+  ]
+ },
+ {
+  "from": "株式会社JMDC",
+  "to": "RIZAPグループ株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "法人向けプログラムの健康効果を可視化",
+  "area": "生活習慣・予防",
+  "date": "2019-12",
+  "status": "不明",
+  "note": "RIZAPの法人向け「ウェルネスプログラム」の前後で健康数値の変動を可視化する取り組みでJMDCと提携した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000162.000030866.html"
+  ]
+ },
+ {
+  "from": "大塚製薬株式会社",
+  "to": "日本アイ・ビー・エム株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "精神科データ分析の合弁会社設立",
+  "area": "精神・神経",
+  "date": "2016-06",
+  "status": "不明",
+  "note": "合弁会社「大塚デジタルヘルス」を設立し、IBMのWatsonを使って精神科の電子カルテの記述を分析する「MENTAT」を販売する計画を発表。",
+  "sources": [
+   "https://www.otsuka.co.jp/company/newsreleases/assets/pdf/20160613_1.pdf"
+  ]
+ },
+ {
+  "from": "大塚製薬株式会社",
+  "to": "Proteus Digital Health, Inc.",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "服薬を記録するデジタルメディスン",
+  "area": "精神・神経",
+  "date": "2018-10",
+  "status": "不明",
+  "note": "センサー入りの「エビリファイ マイサイト」が2017年11月に米国FDAの承認を取得。2018年10月に大塚が8,800万米ドルを支払う契約拡大を発表。その後プロテウス社は2020年に経営破綻したと報道されている。",
+  "sources": [
+   "https://www.otsuka.co.jp/company/newsreleases/2018/20181011_1.html",
+   "https://www.otsuka.co.jp/company/newsreleases/2017/20171114_1.html"
+  ]
+ },
+ {
+  "from": "大塚製薬株式会社",
+  "to": "Click Therapeutics, Inc.",
+  "type": "partnership",
+  "kind": "ライセンス",
+  "label": "大うつ病のデジタル治療アプリ導入",
+  "area": "精神・神経",
+  "date": "2019-01",
+  "status": "継続",
+  "note": "開発と商業化のグローバルライセンス契約。「Rejoyn」が2024年3月に米国FDAの認可を受け、同年8月に米国で、2025年6月に英国で発売。",
+  "sources": [
+   "https://www.otsuka.co.jp/company/newsreleases/2019/20190104_1.html",
+   "https://www.otsuka.co.jp/company/newsreleases/2024/20240814_1.html",
+   "https://www.otsuka.co.jp/company/newsreleases/2025/20250617_1.html"
+  ]
+ },
+ {
+  "from": "塩野義製薬株式会社",
+  "to": "Akili Interactive Labs, Inc.",
+  "type": "partnership",
+  "kind": "ライセンス",
+  "label": "小児ADHD治療用アプリの導入",
+  "area": "精神・神経",
+  "date": "2019-03",
+  "status": "継続",
+  "note": "日本・台湾での開発・販売権を取得。2025年2月に国内で製造販売承認、2026年6月に「ENDEAVORRIDE」として発売。",
+  "sources": [
+   "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2019/1903072.pdf",
+   "https://www.shionogi.com/jp/ja/news/2025/02/20250218.html",
+   "https://www.shionogi.com/jp/ja/news/2026/06/20260605.html"
+  ]
+ },
+ {
+  "from": "塩野義製薬株式会社",
+  "to": "アイリス株式会社",
+  "type": "investment",
+  "kind": "資本業務提携",
+  "label": "AIインフル診断機器へ出資",
+  "area": "感染症",
+  "date": "2019-04",
+  "status": "継続",
+  "note": "12億円を出資して株式約14%を取得し、開発中のインフルエンザ診断支援AI医療機器の将来のライセンスの優先交渉権を得た。",
+  "sources": [
+   "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2019/1905072.pdf"
+  ]
+ },
+ {
+  "from": "第一三共株式会社",
+  "to": "株式会社エクサウィザーズ",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "ウェアラブルで乳がん観察研究",
+  "area": "がん",
+  "date": "2024-06",
+  "status": "不明",
+  "note": "エクサウィザーズは2023年1月に第一三共のトータルケアエコシステム構想のコアパートナーとして参画。2024年6月にグループのExaMDがウェアラブル端末を用いた乳がん観察研究を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000024.000030192.html",
+   "https://prtimes.jp/main/html/rd/p/000000146.000030192.html",
+   "https://prtimes.jp/main/html/rd/p/000000264.000030192.html"
+  ]
+ },
+ {
+  "from": "日医工株式会社",
+  "to": "メドピア",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "かかりつけ薬局支援の共同拡販",
+  "area": "医療DX・データ",
+  "date": "2019-11",
+  "status": "不明",
+  "note": "かかりつけ薬局化支援サービス「kakari」の共同拡販で業務提携。2020年9月にクリニック向け「kakari for Clinic」を共同事業として開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000218.000010134.html",
+   "https://prtimes.jp/main/html/rd/p/000000298.000010134.html"
+  ]
+ },
+ {
+  "from": "武田薬品工業株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "ライセンス",
+  "label": "創薬支援AIシステムの導入",
+  "area": "治験・研究",
+  "date": "2020-03",
+  "status": "不明",
+  "note": "FRONTEOの創薬支援AIシステムのライセンス契約を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000304.000006776.html"
+  ]
+ },
+ {
+  "from": "グラクソ・スミスクライン株式会社",
+  "to": "MICIN",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "喘息のオンライン診療の検証",
+  "area": "呼吸器",
+  "date": "2020-04",
+  "status": "不明",
+  "note": "喘息患者を対象に、オンライン診療・オンライン服薬指導の活用に向けた共同検証を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000035.000017806.html"
+  ]
+ },
+ {
+  "from": "中外製薬株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "ライセンス",
+  "label": "創薬支援AIシステムの導入",
+  "area": "治験・研究",
+  "date": "2020-05",
+  "status": "不明",
+  "note": "創薬支援AIシステムのライセンス契約。2025年5月に標的探索の共創プロジェクトも開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000316.000006776.html",
+   "https://prtimes.jp/main/html/rd/p/000000632.000006776.html"
+  ]
+ },
+ {
+  "from": "アストラゼネカ株式会社",
+  "to": "株式会社Welby",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "PHRを軸にした戦略的提携",
+  "area": "医療DX・データ",
+  "date": "2020-06",
+  "status": "不明",
+  "note": "PHRをベースにしたデジタル活用を推進する戦略的パートナーシップ契約を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000203.000024308.html"
+  ]
+ },
+ {
+  "from": "アムジェン株式会社",
+  "to": "MICIN",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "皮膚疾患のオンライン診療検証",
+  "area": "その他",
+  "date": "2020-06",
+  "status": "不明",
+  "note": "慢性皮膚疾患の患者を対象に、オンライン診療・服薬指導を使った検証プログラムを開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000040.000017806.html"
+  ]
+ },
+ {
+  "from": "共和薬品工業株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "認知症診断支援AIの開発・販売",
+  "area": "認知症",
+  "date": "2020-06",
+  "status": "不明",
+  "note": "2020年3月の基本合意を経て開発・販売の提携契約を締結。FRONTEOはその後、同じ会話型認知症診断支援AIでスズケン（2022年2月）、塩野義製薬（2024年2月）と提携した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000299.000006776.html",
+   "https://prtimes.jp/main/html/rd/p/000000317.000006776.html",
+   "https://prtimes.jp/main/html/rd/p/000000442.000006776.html"
+  ]
+ },
+ {
+  "from": "アストラゼネカ株式会社",
+  "to": "MICIN",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "肺がん周術期ケアアプリの活用",
+  "area": "がん",
+  "date": "2021-11",
+  "status": "不明",
+  "note": "周術期ケアアプリ「MedBridge」を使った肺がん領域のソリューション開発のパートナーシップ契約。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000220.000024308.html",
+   "https://prtimes.jp/main/html/rd/p/000000082.000017806.html"
+  ]
+ },
+ {
+  "from": "アステラス製薬株式会社",
+  "to": "株式会社Elix",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "AIを活用した創薬共同研究",
+  "area": "治験・研究",
+  "date": "2020-08",
+  "status": "不明",
+  "note": "AIを活用した共同研究を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000005.000027687.html"
+  ]
+ },
+ {
+  "from": "アストラゼネカ株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "COPD・心不全をAI問診で早期発見",
+  "area": "呼吸器",
+  "date": "2020-12",
+  "status": "不明",
+  "note": "慢性閉塞性肺疾患と慢性心不全の早期発見・早期治療の支援で協業。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000262.000024308.html"
+  ]
+ },
+ {
+  "from": "日本ベーリンガーインゲルハイム株式会社",
+  "to": "エムスリー",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "肺疾患のAI診断支援",
+  "area": "呼吸器",
+  "date": "2020-12",
+  "status": "不明",
+  "note": "間質性肺疾患を含む肺疾患でAIなどを活用した診断支援の業務提携。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000208.000002981.html"
+  ]
+ },
+ {
+  "from": "田辺三菱製薬株式会社",
+  "to": "株式会社おいしい健康",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "ALS患者向けレシピ企画",
+  "area": "精神・神経",
+  "date": "2020-12",
+  "status": "不明",
+  "note": "ALS患者さん向けのコンテンツ「世界を旅するALSレストラン」を共同で公開。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000032.000043855.html"
+  ]
+ },
+ {
+  "from": "アステラス製薬株式会社",
+  "to": "メディカルノート",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "排尿障害の啓発特集サイト",
+  "area": "その他",
+  "date": "2021-02",
+  "status": "不明",
+  "note": "患者向け医療情報メディアで、排尿障害を啓発する特集サイトを共同で公開。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000073.000025869.html"
+  ]
+ },
+ {
+  "from": "ノバルティス ファーマ株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "心不全の早期受診をAIで支援",
+  "area": "循環器",
+  "date": "2021-03",
+  "status": "不明",
+  "note": "ノバルティスと大塚製薬が提供する心不全の情報提供サービス「ハーティーサポート」とAI受診相談ユビーがLINE経由で連携。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000016.000048083.html"
+  ]
+ },
+ {
+  "from": "田辺三菱製薬株式会社",
+  "to": "DTアクシス株式会社",
+  "type": "partnership",
+  "kind": "ライセンス",
+  "label": "うつ病の認知行動療法アプリ導出",
+  "area": "精神・神経",
+  "date": "2021-03",
+  "status": "不明",
+  "note": "田辺三菱が開発準備を進めていた認知行動療法アプリ「MTD-810」のライセンス契約（日刊薬業の報道で確認）。DTアクシスは2025年8月にうつ病治療補助プログラム「リフトンD」の承認を取得したが、両者の関係は発表で確認できていない。",
+  "sources": [
+   "https://nk.jiho.jp/index.php/article/159359",
+   "https://prtimes.jp/main/html/rd/p/000000004.000168748.html"
+  ]
+ },
+ {
+  "from": "帝人ファーマ株式会社",
+  "to": "株式会社ジョリーグッド",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "うつ病向けデジタル治療VR",
+  "area": "精神・神経",
+  "date": "2021-04",
+  "status": "不明",
+  "note": "業務提携し、うつ病向けデジタル治療VRを共同開発すると発表。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000120.000020924.html"
+  ]
+ },
+ {
+  "from": "武田薬品工業株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "希少・消化器疾患の受診DX",
+  "area": "消化器",
+  "date": "2023-04",
+  "status": "不明",
+  "note": "希少疾患・消化器系疾患で適切な医療への案内を目指すDX推進の包括連携協定を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000019.000048083.html",
+   "https://prtimes.jp/main/html/rd/p/000000052.000048083.html"
+  ]
+ },
+ {
+  "from": "田辺三菱製薬株式会社",
+  "to": "HACARUS",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "AIで薬物スクリーニング解析",
+  "area": "治験・研究",
+  "date": "2021-05",
+  "status": "不明",
+  "note": "スパースモデリングを使い、薬物スクリーニングの解析を高速化する特徴抽出に成功したと発表。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000032.000026090.html"
+  ]
+ },
+ {
+  "from": "武田薬品工業株式会社",
+  "to": "株式会社Kids Public",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "希少疾患サイトで小児科医相談",
+  "area": "小児",
+  "date": "2021-06",
+  "status": "不明",
+  "note": "ゴーシェ病情報サイト「ゴーシェテラス」に「小児科オンライン」を提供。2022年2月にファブリー病情報サイトにも提供。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000095.000019477.html",
+   "https://prtimes.jp/main/html/rd/p/000000124.000019477.html"
+  ]
+ },
+ {
+  "from": "アステラス製薬株式会社",
+  "to": "株式会社エクサウィザーズ",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "歩行機能評価アプリの共同開発",
+  "area": "介護・高齢者",
+  "date": "2021-08",
+  "status": "不明",
+  "note": "順天堂大学、国立長寿医療研究センター理事長と共同で、医療従事者向けの歩行機能評価アプリを開発。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000089.000030192.html"
+  ]
+ },
+ {
+  "from": "住友ファーマ株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "統合失調症の診断支援AI",
+  "area": "精神・神経",
+  "date": "2021-08",
+  "status": "不明",
+  "note": "当時の大日本住友製薬が統合失調症診断支援AIプログラムの独占的交渉契約を締結。2022年6月に試験計画書作成の業務委託契約を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000394.000006776.html",
+   "https://prtimes.jp/main/html/rd/p/000000469.000006776.html"
+  ]
+ },
+ {
+  "from": "参天製薬株式会社",
+  "to": "Airdoc",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "中国でAI眼疾患診断",
+  "area": "眼科",
+  "date": "2021-08",
+  "status": "不明",
+  "note": "中国の医療AI企業Airdocと、AIを使った眼疾患の診断率向上に向けて提携。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000020.000074428.html"
+  ]
+ },
+ {
+  "from": "日本ベーリンガーインゲルハイム株式会社",
+  "to": "MICIN",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "肺線維症のオンライン服薬指導",
+  "area": "呼吸器",
+  "date": "2021-09",
+  "status": "不明",
+  "note": "肺線維症患者向けサポートプログラムと「curonお薬サポート」が連携する医薬連携の取り組みを開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000076.000017806.html"
+  ]
+ },
+ {
+  "from": "ファイザー株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "過活動膀胱の受診支援",
+  "area": "その他",
+  "date": "2021-10",
+  "status": "不明",
+  "note": "過活動膀胱の患者支援で協業を開始。2023年3月、「ユビー」と「UUI相談室」の連携で約17,000人の受診につながったと発表。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000024.000048083.html",
+   "https://prtimes.jp/main/html/rd/p/000000050.000048083.html"
+  ]
+ },
+ {
+  "from": "バイエル薬品株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "子宮内膜症など婦人科疾患",
+  "area": "女性の健康",
+  "date": "2021-11",
+  "status": "不明",
+  "note": "子宮内膜症など婦人科疾患での協業を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000026.000048083.html"
+  ]
+ },
+ {
+  "from": "ユーシービージャパン株式会社",
+  "to": "株式会社Mediplat",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "歩数アプリでてんかん啓発",
+  "area": "精神・神経",
+  "date": "2021-12",
+  "status": "不明",
+  "note": "てんかんの疾患啓発の一環として歩数記録アプリ「スギサポwalk」を採用。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000385.000010134.html"
+  ]
+ },
+ {
+  "from": "大塚製薬株式会社",
+  "to": "株式会社ジョリーグッド",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "精神科VRソーシャルスキル訓練",
+  "area": "精神・神経",
+  "date": "2022-01",
+  "status": "継続",
+  "note": "共同開発・販売契約。2022年10月に統合失調症向けVR「FACEDUO」の提供を開始し、2024年に感情認知トレーニングVR、認知症ケア支援VRへ広げた。",
+  "sources": [
+   "https://www.otsuka.co.jp/company/newsreleases/2022/20220127_1.html",
+   "https://www.otsuka.co.jp/company/newsreleases/2022/20221010_1.html",
+   "https://prtimes.jp/main/html/rd/p/000000147.000020924.html"
+  ]
+ },
+ {
+  "from": "塩野義製薬株式会社",
+  "to": "株式会社Elix",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "AIによる逆合成解析の共同研究",
+  "area": "治験・研究",
+  "date": "2022-02",
+  "status": "不明",
+  "note": "AI創薬モジュール「Elix Synthesize」を使った実用的な逆合成解析の検証で共同研究を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000008.000027687.html"
+  ]
+ },
+ {
+  "from": "日本ベーリンガーインゲルハイム株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "肺線維症の早期受診支援",
+  "area": "呼吸器",
+  "date": "2022-02",
+  "status": "不明",
+  "note": "肺線維症領域での協業を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000031.000048083.html"
+  ]
+ },
+ {
+  "from": "日本ベーリンガーインゲルハイム株式会社",
+  "to": "株式会社Medii",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "専門医へのオンライン相談",
+  "area": "その他",
+  "date": "2022-03",
+  "status": "継続",
+  "note": "専門医の知見を活かす取り組みで提携。2023年4月に連携を強化し、2024年1月に膿疱性乾癬で協業を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000007.000060898.html",
+   "https://prtimes.jp/main/html/rd/p/000000052.000060898.html"
+  ]
+ },
+ {
+  "from": "Meiji Seika ファルマ株式会社",
+  "to": "株式会社BiPSEE",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "うつ病治療VRの事業化",
+  "area": "精神・神経",
+  "date": "2022-04",
+  "status": "不明",
+  "note": "VRデジタル治療のBiPSEEと「うつ病治療VR製品」の事業化推進で業務提携契約。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000014.000033812.html"
+  ]
+ },
+ {
+  "from": "大塚製薬株式会社",
+  "to": "株式会社アイ・ブレインサイエンス",
+  "type": "partnership",
+  "kind": "販売提携",
+  "label": "視線で測る認知機能評価アプリの販売",
+  "area": "認知症",
+  "date": "2022-04",
+  "status": "不明",
+  "note": "視線追跡技術で約3分で認知機能を評価するアプリ（AiBS-01）の国内独占販売契約。",
+  "sources": [
+   "https://www.otsuka.co.jp/company/newsreleases/assets/pdf/20220426_1_01.pdf"
+  ]
+ },
+ {
+  "from": "武田薬品工業株式会社",
+  "to": "株式会社エムティーアイ",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "ルナルナで希少疾患の啓発",
+  "area": "女性の健康",
+  "date": "2022-04",
+  "status": "不明",
+  "note": "女性の健康情報アプリ「ルナルナ」で希少疾患の疾患啓発の連携を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000001069.000002943.html"
+  ]
+ },
+ {
+  "from": "アストラゼネカ株式会社",
+  "to": "株式会社Mediplat",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "歩数アプリでCOPD受診促進",
+  "area": "呼吸器",
+  "date": "2022-05",
+  "status": "不明",
+  "note": "COPDの受診行動変容の検証に歩数記録アプリ「スギサポwalk」を採用。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000402.000010134.html"
+  ]
+ },
+ {
+  "from": "アキュリスファーマ株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "睡眠エコシステムの構築",
+  "area": "睡眠",
+  "date": "2022-06",
+  "status": "不明",
+  "note": "「睡眠エコシステム」の構築を目指す協業を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000037.000048083.html"
+  ]
+ },
+ {
+  "from": "塩野義製薬株式会社",
+  "to": "ピクシーダストテクノロジーズ株式会社",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "ガンマ波サウンドで認知機能ケア",
+  "area": "認知症",
+  "date": "2022-06",
+  "status": "継続",
+  "note": "音刺激による脳活性化の共同研究で基本合意。2022年9月にシオノギヘルスケアを加えた3社で業務提携契約を結び、「ガンマ波サウンド」を共同開発。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000051.000044679.html",
+   "https://prtimes.jp/main/html/rd/p/000000060.000044679.html"
+  ]
+ },
+ {
+  "from": "アキュリスファーマ株式会社",
+  "to": "ノックオンザドア株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "てんかん発作の課題解決",
+  "area": "精神・神経",
+  "date": "2022-07",
+  "status": "不明",
+  "note": "てんかん患者向けプラットフォーム「nanacara」のノックオンザドアと包括的協業に合意。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000026.000046488.html"
+  ]
+ },
+ {
+  "from": "サノフィ株式会社",
+  "to": "メディカルノート",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "アトピー支援LINEへの記事提供",
+  "area": "その他",
+  "date": "2022-08",
+  "status": "不明",
+  "note": "サノフィのLINE公式アカウント「myアトピー」へのコンテンツ提供を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000124.000025869.html"
+  ]
+ },
+ {
+  "from": "サワイグループホールディングス株式会社",
+  "to": "CureApp",
+  "type": "partnership",
+  "kind": "ライセンス",
+  "label": "減酒治療アプリの国内販売",
+  "area": "精神・神経",
+  "date": "2024-08",
+  "status": "継続",
+  "note": "ライセンス対価とマイルストン総額最大48億円の国内独占販売契約。2025年2月承認、販売権は沢井製薬が承継し「HAUDY」として販売。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000095.000015777.html",
+   "https://cureapp.co.jp/overview.html",
+   "https://prtimes.jp/main/html/rd/p/000000203.000015777.html",
+   "https://digitalpr.jp/r/116666"
+  ]
+ },
+ {
+  "from": "アレクシオンファーマ合同会社",
+  "to": "株式会社Medii",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "希少疾患の情報を医師に提供",
+  "area": "その他",
+  "date": "2022-09",
+  "status": "不明",
+  "note": "専門医相談サービス「E-コンサル」で、希少疾患の医療情報をより広く早く提供する取り組みを開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000016.000060898.html"
+  ]
+ },
+ {
+  "from": "中外製薬株式会社",
+  "to": "株式会社Mediplat",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "歩数アプリでNMOSDの疾患啓発",
+  "area": "精神・神経",
+  "date": "2022-09",
+  "status": "不明",
+  "note": "視神経脊髄炎スペクトラム障害の疾患啓発に、歩数記録アプリ「スギサポwalk」などを採用。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000422.000010134.html"
+  ]
+ },
+ {
+  "from": "アストラゼネカ株式会社",
+  "to": "株式会社エクサウィザーズ",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "カリウム管理の食事記録アプリ",
+  "area": "その他",
+  "date": "2022-11",
+  "status": "不明",
+  "note": "高カリウム血症など、カリウム値が気になる人の食事・栄養管理を可視化するアプリを開発。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000136.000030192.html"
+  ]
+ },
+ {
+  "from": "アストラゼネカ株式会社",
+  "to": "母子モ株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "母子手帳アプリで早産児情報",
+  "area": "小児",
+  "date": "2022-11",
+  "status": "不明",
+  "note": "母子手帳アプリ「母子モ」で早産児やRSウイルス感染症の情報提供を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000436.000024308.html"
+  ]
+ },
+ {
+  "from": "杏林製薬株式会社",
+  "to": "サスメド株式会社",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "耳鳴の治療用アプリ共同開発",
+  "area": "その他",
+  "date": "2022-11",
+  "status": "継続",
+  "note": "契約一時金1億円とマイルストン（判明分6億円）の共同研究開発・販売契約。2023年11月に開発マイルストン達成、2026年5月に検証的試験（治験）を開始。",
+  "sources": [
+   "https://www.kyorin-pharm.co.jp/news/0791cbd6f559240aad8da764ed6455971d2a3043.pdf",
+   "https://www2.jpx.co.jp/disc/42630/140120231102578661.pdf",
+   "https://www.kyorin-pharm.co.jp/news/2026/001901.shtml"
+  ]
+ },
+ {
+  "from": "協和キリン株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "低リン血症性くる病の早期発見",
+  "area": "その他",
+  "date": "2023-02",
+  "status": "不明",
+  "note": "FGF23関連低リン血症性くる病・骨軟化症の早期発見を目指す協業を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000049.000048083.html"
+  ]
+ },
+ {
+  "from": "大塚製薬株式会社",
+  "to": "株式会社Kids Public",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "アトピー情報サイトで小児科医相談",
+  "area": "小児",
+  "date": "2023-02",
+  "status": "不明",
+  "note": "大塚製薬のアトピー性皮膚炎情報サイト「アトピース」に「小児科オンライン」を提供。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000173.000019477.html"
+  ]
+ },
+ {
+  "from": "ファイザー株式会社",
+  "to": "株式会社Medii",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "心不全診療の専門医紹介",
+  "area": "循環器",
+  "date": "2023-03",
+  "status": "不明",
+  "note": "医師の心不全診療をサポートし、専門医への紹介の早期化・最適化に取り組む連携を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000026.000060898.html"
+  ]
+ },
+ {
+  "from": "小野薬品工業株式会社",
+  "to": "株式会社MOLCURE",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "AIで抗体医薬品を創製",
+  "area": "治験・研究",
+  "date": "2023-03",
+  "status": "不明",
+  "note": "AI創薬プラットフォームを使った複数標的の抗体医薬品創製の創薬提携契約。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000007.000083912.html"
+  ]
+ },
+ {
+  "from": "バイエル薬品株式会社",
+  "to": "HACARUS",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "肝病変のAI画像解析ソフト",
+  "area": "消化器",
+  "date": "2023-04",
+  "status": "継続",
+  "note": "共同開発したオンプレミス型の画像解析ソフトウェア「Cal.Liver.Lesion」の発売を発表。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000080.000026090.html"
+  ]
+ },
+ {
+  "from": "塩野義製薬株式会社",
+  "to": "株式会社アルム",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "感染症トータルケアの構築",
+  "area": "感染症",
+  "date": "2023-06",
+  "status": "不明",
+  "note": "医療ICTのアルムと感染症のトータルケア構築を目指す業務提携契約を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000075.000044577.html"
+  ]
+ },
+ {
+  "from": "旭化成ファーマ株式会社",
+  "to": "株式会社Mediplat",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "骨粗鬆症の啓発と行動変容検証",
+  "area": "疼痛・運動器",
+  "date": "2023-07",
+  "status": "終了",
+  "endedAt": "2023-07",
+  "note": "「骨検」の一環として歩数記録アプリ「スギサポwalk」を使った骨粗鬆症の疾患啓発の行動変容検証プログラムを完了。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000459.000010134.html"
+  ]
+ },
+ {
+  "from": "Meiji Seika ファルマ株式会社",
+  "to": "メディカルノート",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "ワクチン接種の疾患啓発",
+  "area": "感染症",
+  "date": "2023-10",
+  "status": "継続",
+  "note": "子どものインフルエンザ予防の啓発を開始。2025年9月に新型コロナのワクチン接種の啓発で連携を強化。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000145.000025869.html",
+   "https://prtimes.jp/main/html/rd/p/000000226.000025869.html"
+  ]
+ },
+ {
+  "from": "塩野義製薬株式会社",
+  "to": "アイリス株式会社",
+  "type": "partnership",
+  "kind": "販売提携",
+  "label": "AI医療機器nodocaの販促協力",
+  "area": "感染症",
+  "date": "2023-11",
+  "status": "不明",
+  "note": "咽頭画像を使うAI医療機器「nodoca」のプロモーション協力契約。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000038.000035813.html"
+  ]
+ },
+ {
+  "from": "小野薬品工業株式会社",
+  "to": "株式会社Medii",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "がんサポーティブケアの促進",
+  "area": "がん",
+  "date": "2024-01",
+  "status": "不明",
+  "note": "がんサポーティブケアの促進を目的に協業を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000051.000060898.html"
+  ]
+ },
+ {
+  "from": "塩野義製薬株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "認知症・うつ病の診断支援AI",
+  "area": "認知症",
+  "date": "2024-02",
+  "status": "継続",
+  "note": "塩野義が日本での独占販売権を取得。会話型認知機能検査AI（SDS-881）は2025年6月に臨床試験を開始し、同年9月に一般向けWebアプリ「トークラボKIBIT」を提供開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000566.000006776.html",
+   "https://prtimes.jp/main/html/rd/p/000000638.000006776.html",
+   "https://prtimes.jp/main/html/rd/p/000000664.000006776.html"
+  ]
+ },
+ {
+  "from": "バイエル薬品株式会社",
+  "to": "TXP Medical 株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "リアルワールドデータ研究支援",
+  "area": "医療DX・データ",
+  "date": "2024-05",
+  "status": "不明",
+  "note": "バイエル薬品が実施するリアルワールドデータ研究の支援を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000083.000031630.html"
+  ]
+ },
+ {
+  "from": "中外製薬株式会社",
+  "to": "MICIN",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "分散型治験で第I相試験",
+  "area": "治験・研究",
+  "date": "2024-05",
+  "status": "不明",
+  "note": "2022年11月にeSourceを使った臨床試験データ管理を共同で実施。2024年5月に国立がん研究センター中央病院などとの4者連携による分散型治験（DCT）体制で、がんの第I相試験を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000097.000017806.html",
+   "https://prtimes.jp/main/html/rd/p/000000124.000017806.html"
+  ]
+ },
+ {
+  "from": "エーザイ株式会社",
+  "to": "エコナビスタ株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "認知症エコシステムの構築",
+  "area": "認知症",
+  "date": "2024-07",
+  "status": "継続",
+  "note": "業務提携契約を締結して協業を開始。2025年に公開買付けで子会社化した。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000041.000075697.html"
+  ]
+ },
+ {
+  "from": "大塚製薬株式会社",
+  "to": "TXP Medical 株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "救急領域のRWD研究支援",
+  "area": "医療DX・データ",
+  "date": "2024-07",
+  "status": "不明",
+  "note": "TXP Medicalが大塚製薬の急性期領域リアルワールドデータ研究の支援を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000088.000031630.html"
+  ]
+ },
+ {
+  "from": "協和キリン株式会社",
+  "to": "株式会社Medii",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "低リン血症性くる病の専門医相談",
+  "area": "その他",
+  "date": "2024-08",
+  "status": "不明",
+  "note": "医師同士の専門医相談サービス「E-コンサル」を使った協業を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000066.000060898.html"
+  ]
+ },
+ {
+  "from": "あすか製薬株式会社",
+  "to": "株式会社テックドクター",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "月経症状のウェアラブル研究",
+  "area": "女性の健康",
+  "date": "2024-09",
+  "status": "不明",
+  "note": "ヘルスケアアプリ『4MOON』の協力で、月経に伴う症状の共同研究を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000043.000071267.html"
+  ]
+ },
+ {
+  "from": "あすか製薬株式会社",
+  "to": "株式会社ファミワン",
+  "type": "investment",
+  "kind": "出資",
+  "label": "妊活・女性の健康支援へ出資",
+  "area": "女性の健康",
+  "date": "2024-09",
+  "status": "継続",
+  "note": "住友生命とあすか製薬から資金調達を実施し、ヘルスケアサポート「ファミワン」の連携と提供を強化。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000464.000014333.html"
+  ]
+ },
+ {
+  "from": "アストラゼネカ株式会社",
+  "to": "TXP Medical 株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "急性期領域のRWD研究",
+  "area": "医療DX・データ",
+  "date": "2024-09",
+  "status": "不明",
+  "note": "救急外来向けシステム「NEXT Stage ER」をアストラゼネカのリアルワールドデータ研究で活用。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000094.000031630.html"
+  ]
+ },
+ {
+  "from": "日本ベーリンガーインゲルハイム株式会社",
+  "to": "株式会社PREVENT",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "心不全発見プロジェクト",
+  "area": "循環器",
+  "date": "2024-09",
+  "status": "不明",
+  "note": "いわき市医師会と共同で、心機能検査が必要な人への検査促進に取り組む「いわき市心不全発見プロジェクト」。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000035.000036875.html"
+  ]
+ },
+ {
+  "from": "第一三共株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "AIで毒性情報を解析",
+  "area": "治験・研究",
+  "date": "2024-11",
+  "status": "継続",
+  "note": "創薬支援AIを使った毒性情報の最適化・解析業務の契約。2025年8月に第2フェーズの契約を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000597.000006776.html",
+   "https://prtimes.jp/main/html/rd/p/000000657.000006776.html"
+  ]
+ },
+ {
+  "from": "大塚製薬株式会社",
+  "to": "株式会社エムティーアイ",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "ルナルナで片頭痛の疾患啓発",
+  "area": "精神・神経",
+  "date": "2024-12",
+  "status": "不明",
+  "note": "女性の健康情報アプリ「ルナルナ」で片頭痛の疾患啓発を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000001158.000002943.html"
+  ]
+ },
+ {
+  "from": "第一三共株式会社",
+  "to": "株式会社エムティーアイ",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "ルナルナで乳がんの疾患啓発",
+  "area": "がん",
+  "date": "2024-12",
+  "status": "不明",
+  "note": "女性の健康情報アプリ「ルナルナ」で乳がんの疾患啓発コンテンツの提供を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000001159.000002943.html"
+  ]
+ },
+ {
+  "from": "エーザイ株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "AIによる創薬標的探索",
+  "area": "治験・研究",
+  "date": "2025-01",
+  "status": "不明",
+  "note": "創薬支援AIを使った標的探索の共創プロジェクトを開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000610.000006776.html"
+  ]
+ },
+ {
+  "from": "帝人ファーマ株式会社",
+  "to": "株式会社MOLCURE",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "AIで抗体医薬品を創製",
+  "area": "治験・研究",
+  "date": "2025-01",
+  "status": "継続",
+  "note": "AI創薬プラットフォームを使った抗体医薬品創製の共同研究。2025年9月と2026年1月に継続契約を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000009.000083912.html",
+   "https://prtimes.jp/main/html/rd/p/000000017.000083912.html"
+  ]
+ },
+ {
+  "from": "杏林製薬株式会社",
+  "to": "Hyfe Inc.",
+  "type": "partnership",
+  "kind": "共同開発",
+  "label": "慢性咳嗽の治療用アプリ開発",
+  "area": "呼吸器",
+  "date": "2025-02",
+  "status": "継続",
+  "note": "米Hyfe社と開発・商業化契約を締結し国内開発。2026年6月に「KRP-DC125」の検証的試験を開始。",
+  "sources": [
+   "https://www.kyorin-pharm.co.jp/news/2025/001810.shtml",
+   "https://www.kyorin-pharm.co.jp/news/2026/001924.shtml"
+  ]
+ },
+ {
+  "from": "サノフィ株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "COPDの疾患啓発",
+  "area": "呼吸器",
+  "date": "2025-04",
+  "status": "不明",
+  "note": "COPDの啓発施策を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000140.000048083.html"
+  ]
+ },
+ {
+  "from": "ブリストル・マイヤーズ スクイブ株式会社",
+  "to": "株式会社Medii",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "治験の被験者リクルート",
+  "area": "治験・研究",
+  "date": "2025-04",
+  "status": "不明",
+  "note": "治験の被験者リクルーティングで協業。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000082.000060898.html"
+  ]
+ },
+ {
+  "from": "大塚製薬株式会社",
+  "to": "株式会社eMind",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "てんかん支援アプリの共同研究",
+  "area": "精神・神経",
+  "date": "2025-07",
+  "status": "継続",
+  "note": "東北大学との「てんかんスマート医療共同研究講座（第Ⅱ期）」に大塚製薬が参画し、アプリ「eMind for Medical Research」を使った共同研究を開始。",
+  "sources": [
+   "https://www.otsuka.co.jp/company/newsreleases/2025/20250703_1.html"
+  ]
+ },
+ {
+  "from": "エーザイ株式会社",
+  "to": "株式会社Rehab for JAPAN",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "高齢者の低栄養・認知機能低下対策",
+  "area": "介護・高齢者",
+  "date": "2025-08",
+  "status": "不明",
+  "note": "日清医療食品を含む3社で、高齢者の低栄養と認知機能低下リスクの軽減を目指す連携を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000121.000027102.html"
+  ]
+ },
+ {
+  "from": "日本ベーリンガーインゲルハイム株式会社",
+  "to": "株式会社Buzzreach",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "治験情報の一般向け公開",
+  "area": "治験・研究",
+  "date": "2025-08",
+  "status": "継続",
+  "note": "Buzzreachが運用する「smt」を使って治験情報の公開を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000072.000036622.html"
+  ]
+ },
+ {
+  "from": "杏林製薬株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "過活動膀胱の受診支援",
+  "area": "その他",
+  "date": "2025-09",
+  "status": "不明",
+  "note": "キッセイ薬品工業を含む3社で、過活動膀胱の早期の気づきと受診支援のプロジェクトを開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000170.000048083.html"
+  ]
+ },
+ {
+  "from": "Meiji Seika ファルマ株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "AIでドラッグリポジショニング",
+  "area": "治験・研究",
+  "date": "2025-10",
+  "status": "不明",
+  "note": "創薬支援AIを使ったドラッグリポジショニングのプロジェクトを開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000674.000006776.html"
+  ]
+ },
+ {
+  "from": "富士製薬工業株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "女性医療の受診支援",
+  "area": "女性の健康",
+  "date": "2025-10",
+  "status": "継続",
+  "note": "「医療迷子レスキュープロジェクト」に初の賛同企業として参画。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000186.000048083.html"
+  ]
+ },
+ {
+  "from": "日本イーライリリー株式会社",
+  "to": "ミナケア",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "健保加入者の肥満症の啓発",
+  "area": "糖尿病・代謝",
+  "date": "2025-11",
+  "status": "不明",
+  "note": "田辺三菱製薬を含む3者で、健康保険組合の加入者を対象にした肥満症の疾患啓発プログラムを開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000039.000060435.html"
+  ]
+ },
+ {
+  "from": "田辺三菱製薬株式会社",
+  "to": "ミナケア",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "健保加入者の肥満症の啓発",
+  "area": "糖尿病・代謝",
+  "date": "2025-11",
+  "status": "不明",
+  "note": "日本イーライリリーを含む3者で、健康保険組合の加入者を対象にした肥満症の疾患啓発プログラムを開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000039.000060435.html"
+  ]
+ },
+ {
+  "from": "参天製薬株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "眼科の標的探索・薬剤転用",
+  "area": "眼科",
+  "date": "2025-12",
+  "status": "継続",
+  "note": "眼科領域の新規標的分子探索とドラッグリポジショニングの共創プロジェクト。2026年7月に第2弾を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000686.000006776.html",
+   "https://prtimes.jp/main/html/rd/p/000000743.000006776.html"
+  ]
+ },
+ {
+  "from": "アステラス製薬株式会社",
+  "to": "株式会社FRONTEO",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "AIによる標的分子探索",
+  "area": "治験・研究",
+  "date": "2026-04",
+  "status": "継続",
+  "note": "創薬支援AIを使った標的分子探索の契約を締結。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000720.000006776.html"
+  ]
+ },
+ {
+  "from": "ヴィアトリス製薬株式会社",
+  "to": "Ubie株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "全般不安症の疾患啓発",
+  "area": "精神・神経",
+  "date": "2026-05",
+  "status": "継続",
+  "note": "症状入力から関連疾患と相談先の医療機関の情報につなぐ疾患啓発プロジェクトを開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000215.000048083.html"
+  ]
+ },
+ {
+  "from": "小野薬品工業株式会社",
+  "to": "株式会社Rehab for JAPAN",
+  "type": "investment",
+  "kind": "出資",
+  "label": "がん患者の運動支援事業へ出資",
+  "area": "がん",
+  "date": "2026-05",
+  "status": "継続",
+  "note": "CVCの小野デジタルヘルス投資が第三者割当増資を引受け。運動腫瘍学を起点にしたがん患者向けサービス基盤の事業開発を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000138.000027102.html"
+  ]
+ },
+ {
+  "from": "帝人ファーマ株式会社",
+  "to": "株式会社Medii",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "副甲状腺機能低下症の専門医相談",
+  "area": "その他",
+  "date": "2026-06",
+  "status": "継続",
+  "note": "副甲状腺機能低下症の領域で協業を開始。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000101.000060898.html"
+  ]
+ },
+ {
+  "from": "田辺ファーマ株式会社",
+  "to": "TXP Medical 株式会社",
+  "type": "partnership",
+  "kind": "業務提携",
+  "label": "IgG4関連疾患の観察研究支援",
+  "area": "治験・研究",
+  "date": "2026-06",
+  "status": "継続",
+  "note": "旧・田辺三菱製薬。イネビリズマブの前向き観察研究「4SigHT研究」をTXP Medicalが支援。",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000171.000031630.html"
+  ]
+ }
 ]

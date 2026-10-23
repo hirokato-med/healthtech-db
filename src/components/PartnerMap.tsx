@@ -14,8 +14,20 @@ export function PartnerMap({ items, linkOf }: { items: Partnership[]; linkOf: Re
   let y = 0;
   const bands = areas.map((area) => {
     const ps = items.filter((p) => p.area === area).sort((a, b) => a.from.localeCompare(b.from, 'ja') || (a.date ?? '').localeCompare(b.date ?? ''));
-    const left = [...new Set(ps.map((p) => p.from))];
-    const right = [...new Set(ps.map((p) => p.to))];
+    // 線の交差を減らすため、相手側の並び順の平均（重心）で左右を交互に並べ替える
+    let left = [...new Set(ps.map((p) => p.from))];
+    let right = [...new Set(ps.map((p) => p.to))];
+    const bary = (names: string[], other: string[], side: 'from' | 'to') => {
+      const pos = (n: string) => {
+        const xs = ps.filter((p) => p[side] === n).map((p) => other.indexOf(side === 'from' ? p.to : p.from) / Math.max(1, other.length - 1));
+        return xs.reduce((a, b) => a + b, 0) / xs.length;
+      };
+      return [...names].sort((a, b) => pos(a) - pos(b) || a.localeCompare(b, 'ja'));
+    };
+    for (let i = 0; i < 6; i++) {
+      right = bary(right, left, 'to');
+      left = bary(left, right, 'from');
+    }
     const rows = Math.max(left.length, right.length);
     const h = rows * ROW + 24;
     const top = y;
@@ -50,7 +62,11 @@ export function PartnerMap({ items, linkOf }: { items: Partnership[]; linkOf: Re
               const y1 = b.ly(p.from), y2 = b.ry(p.to);
               const x1 = X_L + W_L, x2 = X_R;
               const ended = p.status === '終了';
-              const mx = x1 + (x2 - x1) * 0.62, my = y1 + (y2 - y1) * 0.62;
+              // 線が集まる側を避けてラベルを置く（右の会社に線が集まるなら左寄り、左の会社から線が広がるなら右寄り）
+              const fanIn = b.ps.filter((q) => q.to === p.to).length, fanOut = b.ps.filter((q) => q.from === p.from).length;
+              const t = fanIn > fanOut ? 0.3 : fanOut > fanIn ? 0.72 : 0.5;
+              const ease = t * t * (3 - 2 * t);
+              const mx = x1 + (x2 - x1) * t, my = y1 + (y2 - y1) * ease;
               return (
                 <g key={j} className={`pm-link ${p.type} ${ended ? 'ended' : ''}`}>
                   <path d={`M${x1},${y1} C${x1 + 120},${y1} ${x2 - 120},${y2} ${x2},${y2}`} />

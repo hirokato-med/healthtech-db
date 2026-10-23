@@ -59,22 +59,127 @@
   {
     "id": "ubie-ai-monshin",
     "name": "ユビーAI問診",
-    "company": "Ubie",
+    "company": "Ubie株式会社",
     "category": "medical-dx",
-    "description": "患者がタブレットで回答した症状をAIが整理し、医師のカルテ記載を支援する医療機関向け問診サービス。",
-    "hp": "https://ubie.app/",
+    "description": "患者が来院前や待合室でタブレット・スマホに症状を入力すると、AIが回答に応じて次の質問を選び、結果を医師向けの表現に変換して電子カルテに渡す医療機関向けAI問診。病院・クリニックが利用料を払う。現在は「ユビーメディカルナビ」の名称でも展開。",
+    "hp": "",
     "startedYear": 2018,
-    "status": "提供中"
+    "status": "提供中",
+    "companyId": "7010701034132",
+    "startedAt": "2018",
+    "milestones": [
+      {
+        "date": "2017-05",
+        "text": "医師の阿部吉倫とエンジニアの久保恒太がUbieを設立"
+      },
+      {
+        "date": "2018",
+        "text": "医療機関向けAI問診の提供を開始"
+      },
+      {
+        "date": "2020-04",
+        "text": "41都道府県の約200医療機関で導入（報道）"
+      },
+      {
+        "date": "2021-01",
+        "text": "新型コロナを受け、クリニック向け「AI問診ユビー for クリニック」を利用料1年分無償で提供（端末・連携費用は医療機関負担）"
+      },
+      {
+        "date": "2021-05",
+        "text": "全47都道府県での導入を達成し、導入医療機関は400以上"
+      },
+      {
+        "date": "2023-10",
+        "text": "「ユビーメディカルナビ」でLLMによる問診要約機能を提供開始。導入は47都道府県・1,500以上の医療機関"
+      },
+      {
+        "date": "2024-04",
+        "text": "導入医療機関が1,700以上に"
+      },
+      {
+        "date": "2025-09",
+        "text": "医療機関向けで1,800以上の医療機関と連携"
+      }
+    ],
+    "sources": [
+      "https://thebridge.jp/2024/04/ubie-jpy3-5b-round-funding",
+      "https://www.businessinsider.jp/post-211971",
+      "https://prtimes.jp/main/html/rd/p/000000013.000048083.html",
+      "https://aismiley.co.jp/ai_news/ubie-medical-ai-47-area-400-clinic/",
+      "https://prtimes.jp/main/html/rd/p/000000063.000048083.html",
+      "https://kepple.co.jp/articles/68xjhj40e9w"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
   },
   {
     "id": "ubie-symptom",
     "name": "症状検索エンジン ユビー",
-    "company": "Ubie",
+    "company": "Ubie株式会社",
     "category": "health-consulting",
-    "description": "生活者が症状から関連する病気や受診先の目安を調べられるWebサービス。",
-    "hp": "https://ubie.app/",
+    "description": "生活者が症状に関する20問ほどの質問に答えると、関連する病気や受診先の目安を示す無料の受診相談AI。利用は無料で、製薬企業向けの疾患啓発・受診支援などで収益を得る。2025年に対話型の「医療AIパートナー」へ拡張。",
+    "hp": "",
     "startedYear": 2020,
-    "status": "提供中"
+    "status": "提供中",
+    "companyId": "7010701034132",
+    "startedAt": "2020-04",
+    "milestones": [
+      {
+        "date": "2020-04",
+        "text": "設立準備中の一般社団法人日本医療受診支援研究機構の有志が「AI受診相談ユビー 新型コロナウイルス版」を4月28日から無償で緊急提供（医療機関向けAI問診の技術を転用）"
+      },
+      {
+        "date": "2020-05",
+        "text": "一般向けの「AI受診相談ユビー」を無償で提供開始"
+      },
+      {
+        "date": "2021-03",
+        "text": "ノバルティスファーマと大塚製薬の心不全啓発LINEアカウント「ハーティーサポート」と提携"
+      },
+      {
+        "date": "2021-05",
+        "text": "月間利用者数が100万人を突破"
+      },
+      {
+        "date": "2021-11",
+        "text": "月間利用者数が300万人を突破（同年7月にアプリ版を公開）"
+      },
+      {
+        "date": "2022-04",
+        "text": "米国で英語版の症状チェッカーを提供開始と報道"
+      },
+      {
+        "date": "2024-04",
+        "text": "デットを含め約35億円を調達。資金使途に製薬企業向け事業の開発を挙げる。「ユビー」と「ユビー病気のQ&A」の月間利用者は合計1,000万人"
+      },
+      {
+        "date": "2025-09",
+        "text": "症状検索エンジン（月間1,300万人）を土台に、会話で受診前後を支える「医療AIパートナー ユビー」を提供開始。マイナポータル連携も"
+      },
+      {
+        "date": "2026-05",
+        "text": "ヴィアトリス製薬と全般不安症の早期発見・受診を支援する疾患啓発プロジェクトを開始"
+      }
+    ],
+    "lessons": "生活者からは料金を取らず、製薬企業の疾患啓発予算を払い手にすることで規模を出した。同じ症状チェックでも、払い手を誰にするかで続き方が変わることを示す例とみられる。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000057275.html",
+      "https://www.businessinsider.jp/post-211971",
+      "https://prtimes.jp/main/html/rd/p/000000021.000048083.html",
+      "https://prtimes.jp/main/html/rd/p/000000025.000048083.html",
+      "https://prtimes.jp/main/html/rd/p/000000016.000048083.html",
+      "https://www.biospectrumasia.com/news/50/20161/ubie-japanese-healthtech-startup-launches-ai-powered-symptom-checker-in-the-us-.html",
+      "https://thebridge.jp/2024/04/ubie-jpy3-5b-round-funding",
+      "https://prtimes.jp/main/html/rd/p/000000178.000048083.html",
+      "https://prtimes.jp/main/html/rd/p/000000016.000016151.html",
+      "https://ubie.life/about_ubie"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
   },
   {
     "id": "musubi",
@@ -1824,113 +1929,49 @@
     "company": "株式会社Mediplat",
     "companyId": "3010001171984",
     "category": "health-consulting",
-    "description": "医師にチャットやテレビ電話で健康・医療相談できるサービス。当初は個人向け（15分1,980円）で始まり、その後は企業の産業保健・健康管理向けクラウドサービスとして、通信会社や企業経由で提供。",
+    "description": "医師にチャットやテレビ電話で健康・医療相談できるサービス。当初は個人向け（テレビ電話15分1,980円）で始まり、その後は通信会社の会員特典や、企業の産業保健・健康管理向けクラウドサービスとして提供。",
     "hp": "",
     "startedYear": 2016,
     "status": "譲渡",
     "startedAt": "2016-02",
     "endedAt": "2024-09",
-    "successor": "アドバンテッジリスクマネジメント（ARM）が新設した完全子会社が承継。現在の公式サイトの運営会社表示は株式会社Mediplat（ARM 100%）",
+    "successor": "アドバンテッジリスクマネジメント（ARM）が承継。公式サイトの運営会社表示は株式会社Mediplat（ARM 100%）",
     "milestones": [
       {
         "date": "2015-11",
         "text": "株式会社Mediplat設立"
       },
       {
-        "date": "2015-11",
-        "text": "株式会社Mediplat設立。遠隔医療相談サービスを展開"
-      },
-      {
-        "date": "2016",
-        "text": "オンライン医療相談「first call」を開始"
-      },
-      {
-        "date": "2016",
-        "text": "サービス開始（法人向けを中心に展開）"
-      },
-      {
         "date": "2016-02",
         "text": "α版を開始（当初は花粉症に特化、テレビ電話相談15分1,980円）"
       },
       {
-        "date": "2016-05",
-        "text": "医師コミュニティ「MedPeer」のメドピアが株式交換でMediplatを完全子会社化。予防医療領域への展開が目的"
-      },
-      {
         "date": "2016-06",
-        "text": "メドピアの完全子会社となり、同社の医師会員ネットワーク（10万人超）を医師獲得に活用"
+        "text": "メドピアの完全子会社となり、同社の医師会員ネットワークを医師獲得に活用。無料のテキスト相談も開始予定と報道"
       },
       {
         "date": "2018-05",
-        "text": "NTTドコモ「dヘルスケア」有料会員向けにfirst callの医師相談を提供開始"
-      },
-      {
-        "date": "2018-06",
-        "text": "法人向けに「オンライン産業医」を開始"
-      },
-      {
-        "date": "2018-11",
-        "text": "スギ薬局とMediplatの共同事業としてセルフケアアプリ「スギサポ」を提供"
-      },
-      {
-        "date": "2019-04",
-        "text": "NTTドコモ「dヘルスケア」で24時間チャット医療相談を提供"
+        "text": "NTTドコモ「dヘルスケア」有料会員向けに医師相談を提供開始"
       },
       {
         "date": "2020-03",
-        "text": "経済産業省の新型コロナ対策「健康相談窓口」に選定され、医師相談を無料提供"
-      },
-      {
-        "date": "2020-03",
-        "text": "新型コロナ対応で経済産業省の健康相談窓口に選定され、損保ジャパン契約者などにも提供"
-      },
-      {
-        "date": "2020-03",
-        "text": "経済産業省の新型コロナ関連の健康相談窓口に選ばれる（報道）"
+        "text": "経済産業省の新型コロナ対策「遠隔健康医療相談窓口」に選定され、3月末まで無料提供"
       },
       {
         "date": "2021-04",
-        "text": "ドコモの「dヘルスケア（500円）」終了に伴い、dヘルスケア経由のテレビ電話相談が終了"
-      },
-      {
-        "date": "2023-09",
-        "text": "2023年9月期のMediplat売上高12.16億円、営業利益0.63億円"
+        "text": "ドコモの「dヘルスケア（500円）」終了に伴い、同経由のテレビ電話相談が終了"
       },
       {
         "date": "2024-08",
         "text": "メドピアが予防医療プラットフォーム事業からの撤退を発表。Mediplatとフィッツプラスの全事業をARMの新設子会社へ吸収分割で承継（効力発生 2024年9月30日予定）"
       },
       {
-        "date": "2024-08",
-        "text": "メドピアが予防医療プラットフォーム事業から撤退し、全事業をアドバンテッジリスクマネジメントの新設子会社へ吸収分割すると発表（対価13.5億円、2023年9月期売上高12.2億円・営業利益0.6億円）"
-      },
-      {
-        "date": "2024-08",
-        "text": "メドピアがMediplatとフィッツプラスの全事業をARMの新設子会社2社へ吸収分割で承継させると発表。対価はMediplat分13億5,000万円。メドピアは予防医療プラットフォーム事業から撤退"
-      },
-      {
-        "date": "2024-08",
-        "text": "メドピアがMediplatの全事業をARMの新設子会社へ吸収分割で承継させると決定（対価13.5億円）。同時に特定保健指導のフィッツプラスも譲渡し、予防医療プラットフォーム事業から撤退"
-      },
-      {
-        "date": "2024-09",
-        "text": "吸収分割の効力発生。分割会社は2025年4月に清算結了"
-      },
-      {
-        "date": "2024-09",
-        "text": "吸収分割の効力発生（2024年9月30日予定）"
-      },
-      {
         "date": "2025-04",
         "text": "旧Mediplat（法人番号3010001171984）が清算結了"
       },
       {
-        "date": "2025-04",
-        "text": "旧Mediplat法人が清算結了"
-      },
-      {
-        "date": "2025-04",
-        "text": "旧Mediplat法人の清算が結了（法人番号公表サイト）。first callのサイトは株主をARM100%と表示"
+        "date": "2026-10",
+        "text": "公式サイトは産業保健支援サービスとして提供中。チャット型医療相談の運営方針（医師免許の確認、回答の定期チェック、改善がない医師の退会、5段階評価）を掲示"
       }
     ],
     "endReasons": [
@@ -1938,100 +1979,7 @@
       "acquisition"
     ],
     "endReasonNote": "メドピアは2027年9月期までを「プラットフォーム強化期」とし、医師・医療機関支援プラットフォームに投資を集中する方針。そのうえで「メドピアグループ内では、両社の事業が持つ成長可能性を短期的に最大限発揮させることが困難」として、健康経営の顧客基盤を持つARMへ承継させた。サービス自体は継続。",
-    "lessons": [
-      "個",
-      "人",
-      "課",
-      "金",
-      "の",
-      "遠",
-      "隔",
-      "相",
-      "談",
-      "か",
-      "ら",
-      "始",
-      "ま",
-      "り",
-      "、",
-      "通",
-      "信",
-      "キ",
-      "ャ",
-      "リ",
-      "ア",
-      "会",
-      "員",
-      "特",
-      "典",
-      "企",
-      "業",
-      "産",
-      "保",
-      "健",
-      "へ",
-      "と",
-      "払",
-      "い",
-      "手",
-      "を",
-      "変",
-      "え",
-      "な",
-      "が",
-      "続",
-      "た",
-      "。",
-      "最",
-      "終",
-      "的",
-      "に",
-      "康",
-      "経",
-      "営",
-      "顧",
-      "客",
-      "持",
-      "つ",
-      "社",
-      "移",
-      "っ",
-      "て",
-      "お",
-      "見",
-      "け",
-      "先",
-      "事",
-      "例",
-      "み",
-      "れ",
-      "る",
-      "自",
-      "体",
-      "は",
-      "黒",
-      "字",
-      "で",
-      "成",
-      "長",
-      "し",
-      "親",
-      "選",
-      "択",
-      "集",
-      "中",
-      "外",
-      "出",
-      "さ",
-      "・",
-      "E",
-      "A",
-      "P",
-      "既",
-      "存",
-      "大",
-      "約"
-    ],
+    "lessons": "個人課金の遠隔相談から始まり、通信キャリアの会員特典、企業の産業保健へと払い手を変えながら続いた。最終的に健康経営の顧客を持つ会社に移っており、払い手を見つけた先に事業が移った例とみられる。",
     "sources": [
       "https://thebridge.jp/2016/06/first-call",
       "https://k-tai.watch.impress.co.jp/docs/news/1121741.html",
@@ -2049,14 +1997,17 @@
       "https://maonline.jp/news/20240802c",
       "https://www.platinumpartners.jp/manews-20240802-advantage-risk-mediplat-fitsplus.html",
       "https://companydata.tsujigawa.com/?cdb_edinet_doc=S100WMHJ",
-      "https://www.nihon-ma.co.jp/news/20160513_6095/"
+      "https://www.nihon-ma.co.jp/news/20160513_6095/",
+      "https://www.watch.impress.co.jp/docs/news/1240193.html",
+      "https://www.firstcall.md/Home/SubscriptionNotice"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "online-consultation",
       "mental-chat",
       "phr-employer",
-      "occupational-physician"
+      "occupational-physician",
+      "doctor-qa"
     ]
   },
   {
@@ -2074,7 +2025,7 @@
     "milestones": [
       {
         "date": "2018-05",
-        "text": "first callの提供を5月1日に開始。無料版dヘルスケアアプリは5月15日開始"
+        "text": "first callの提供を5月1日に開始"
       },
       {
         "date": "2020-04",
@@ -2101,7 +2052,8 @@
     ],
     "updatedAt": "2026-10",
     "themes": [
-      "online-consultation"
+      "online-consultation",
+      "doctor-qa"
     ]
   },
   {
@@ -2508,45 +2460,37 @@
     "company": "LINEヘルスケア株式会社",
     "companyId": "8011101086498",
     "category": "health-consulting",
-    "description": "LINE上で医師にチャットで健康相談できるサービス。即時相談30分2,000円、後日回答1,000円。LINEの利用者基盤とエムスリーの医師会員を組み合わせる合弁会社が運営した。",
+    "description": "LINE上で医師にチャットで健康相談できるサービス。即時相談30分2,000円、後日回答1,000円。LINEの利用者基盤とエムスリーの医師会員を組み合わせる合弁会社が運営した。診断・処方は行わない遠隔健康医療相談の範囲。",
     "hp": "",
     "startedYear": 2019,
     "status": "終了",
     "startedAt": "2019-12",
     "endedAt": "2023-02",
-    "successor": "同社のオンライン診療「LINEドクター」に注力",
+    "successor": "同社のオンライン診療「LINEドクター」に注力（LINEドクターも2025年6月に終了し、HELPOドクターへ案内）",
     "milestones": [
       {
         "date": "2019-01",
-        "text": "LINEとエムスリーがオンライン医療事業の合弁会社「LINEヘルスケア」を設立（LINE 51%、エムスリー 49%）。医療Q&A、遠隔健康医療相談、オンライン診療を計画"
+        "text": "LINEとエムスリーがオンライン医療事業の合弁会社「LINEヘルスケア」を設立（LINE 51%、エムスリー 49%）"
       },
       {
         "date": "2019-12",
         "text": "「LINE ヘルスケア（β版）」を開始（Android先行、内科・小児科・産婦人科・整形外科・皮膚科）"
       },
       {
-        "date": "2019-12",
-        "text": "β版の提供を開始"
-      },
-      {
-        "date": "2020-02",
-        "text": "新型コロナ流行で相談件数が急増し、月10万件ペースに（4割強がコロナ関連）"
-      },
-      {
         "date": "2020-03",
-        "text": "経済産業省の新型コロナ対策「健康相談窓口」事業として、3月11〜31日に無料提供"
+        "text": "経済産業省の新型コロナ対策「遠隔健康医療相談窓口」として3月11〜31日に無料提供（first callと2社）"
       },
       {
-        "date": "2020-03",
-        "text": "経済産業省の健康相談窓口に選定され、無料提供を延長"
+        "date": "2020-04",
+        "text": "新型コロナを受け、4月以降も無償提供を延長。全国の自治体LINE公式アカウントとの連携も開始"
+      },
+      {
+        "date": "2020-08",
+        "text": "登録医師が相談者に不適切なコメントをしたとして謝罪。当該医師の利用を停止し、モニタリング体制を強化すると発表"
       },
       {
         "date": "2022-12",
-        "text": "オンライン健康相談の終了を発表"
-      },
-      {
-        "date": "2022-12",
-        "text": "2023年2月2日での終了を発表。今後はLINEドクターに注力"
+        "text": "オンライン健康相談の終了を発表。利用者にはソフトバンク系の「HELPO」を案内"
       },
       {
         "date": "2023-01",
@@ -2557,96 +2501,19 @@
         "text": "2月2日にサービス終了"
       },
       {
-        "date": "2023-02",
-        "text": "サービス終了"
+        "date": "2025-06",
+        "text": "LINEドクターも、LINEヤフーがグループ内の重複事業を一本化する方針で6月10日に全機能を終了"
+      },
+      {
+        "date": "2026-09",
+        "text": "LINEヘルスケア株式会社がLINEヤフーに吸収合併され解散"
       }
     ],
     "endReasons": [
       "parent-strategy"
     ],
     "endReasonNote": "同社は「今後は、オンライン診療サービス『LINEドクター』に集中し、強化していく」と説明。相談件数などの実績は公表していない。",
-    "lessons": [
-      "医",
-      "師",
-      "相",
-      "談",
-      "を",
-      "入",
-      "口",
-      "に",
-      "オ",
-      "ン",
-      "ラ",
-      "イ",
-      "診",
-      "療",
-      "へ",
-      "つ",
-      "な",
-      "げ",
-      "る",
-      "設",
-      "計",
-      "だ",
-      "っ",
-      "た",
-      "が",
-      "、",
-      "そ",
-      "の",
-      "も",
-      "有",
-      "料",
-      "利",
-      "用",
-      "は",
-      "事",
-      "業",
-      "柱",
-      "ら",
-      "ず",
-      "側",
-      "資",
-      "源",
-      "寄",
-      "せ",
-      "と",
-      "み",
-      "れ",
-      "。",
-      "行",
-      "為",
-      "伴",
-      "わ",
-      "い",
-      "無",
-      "中",
-      "心",
-      "健",
-      "康",
-      "コ",
-      "ロ",
-      "ナ",
-      "期",
-      "急",
-      "増",
-      "し",
-      "て",
-      "収",
-      "益",
-      "化",
-      "道",
-      "筋",
-      "見",
-      "え",
-      "く",
-      "軸",
-      "足",
-      "移",
-      "す",
-      "判",
-      "断"
-    ],
+    "lessons": "無料提供で利用が増えたコロナ期を経ても、有料の医師相談は事業の柱にならず、診療側に資源を寄せたとみられる。その診療側も2年あまりでグループ再編により終了した。",
     "sources": [
       "https://www.watch.impress.co.jp/docs/news/1163592.html",
       "https://www.watch.impress.co.jp/docs/news/1225581.html",
@@ -2654,11 +2521,17 @@
       "https://www.watch.impress.co.jp/docs/news/1462390.html",
       "https://corporate.m3.com/press_release/2019/20191219_001525.html",
       "https://www.itmedia.co.jp/news/article/1912/19/1191219130/",
-      "https://business.nikkei.com/atcl/gen/19/00110/040900015/"
+      "https://business.nikkei.com/atcl/gen/19/00110/040900015/",
+      "https://www.watch.impress.co.jp/docs/news/1240193.html",
+      "https://www.lycorp.co.jp/news/archive/L/ja/ja20200401_A.pdf",
+      "https://k-tai.watch.impress.co.jp/docs/news/1268962.html",
+      "https://www.watch.impress.co.jp/docs/news/1646464.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101086498"
     ],
     "updatedAt": "2026-10",
     "themes": [
-      "online-consultation"
+      "online-consultation",
+      "doctor-qa"
     ]
   },
   {
@@ -2893,39 +2766,47 @@
     "company": "ヘルスケアテクノロジーズ株式会社",
     "companyId": "6010001195683",
     "category": "health-consulting",
-    "description": "医師・看護師・薬剤師に24時間チャットで健康相談でき、必要に応じて提携医療機関のオンライン診療、病院検索、ECにつなぐアプリ。企業・健保・自治体向けに導入し、個人向けにも月額550円で提供。",
+    "description": "医師・看護師・薬剤師に24時間チャットで健康相談でき、必要に応じて提携医療機関のオンライン診療、病院検索、市販薬ECにつなぐアプリ。企業・健保・自治体向けに導入し、個人向けにも月額550円で提供。",
     "hp": "",
     "startedYear": 2020,
     "status": "提供中",
     "startedAt": "2020-07",
     "milestones": [
       {
-        "date": "2019",
-        "text": "ソフトバンクの子会社として設立"
+        "date": "2018-10",
+        "text": "ソフトバンクがヘルスケアテクノロジーズを設立（2023年の同社リリース。別のリリースでは創業日を2019年5月1日と記載）"
       },
       {
         "date": "2020-07",
-        "text": "HELPO提供開始（24時間チャット相談・病院検索・EC）"
-      },
-      {
-        "date": "2021-02",
-        "text": "唾液PCR検査の支援を追加"
+        "text": "HELPOを法人・自治体向けに提供開始（24時間チャット健康医療相談・病院検索・EC）"
       },
       {
         "date": "2021-06",
-        "text": "オンライン診療を追加。企業の職域接種支援も"
+        "text": "オンライン診療機能を追加"
       },
       {
-        "date": "2021-09",
-        "text": "ユーザー数が当初計画を約4割上回ると社長が説明"
+        "date": "2021-11",
+        "text": "遠隔特定保健指導を追加"
       },
       {
         "date": "2022-12",
-        "text": "個人向け提供を開始（月額550円、ワイモバイル）"
+        "text": "個人向け提供を開始（月額550円、ソフトバンク・ワイモバイル・LINEMO利用者は初月無料）。同月、LINEヘルスケアが健康相談終了に伴う移行先としてHELPOを案内"
+      },
+      {
+        "date": "2023-07",
+        "text": "女性の健康支援「HELPO actio+」を法人向けに追加"
+      },
+      {
+        "date": "2024-11",
+        "text": "ワイモバイル「らくらくスマートフォン a」に「かんたんHELPO」を搭載（追加費用なしでチャット相談）"
       },
       {
         "date": "2024-12",
         "text": "LINEドクター終了に伴い、利用者の移行先として「HELPOドクター」のLINE公式アカウントが指定される"
+      },
+      {
+        "date": "2025-08",
+        "text": "FWD生命の個人契約者向けにHELPOの提供を開始"
       }
     ],
     "sources": [
@@ -2933,19 +2814,26 @@
       "https://www.softbank.jp/recruit/career/positions/detail/004805/",
       "https://www.ymobile.jp/info/press/2022/22112901.html",
       "https://healthcare-tech.co.jp/news/20240902.html",
-      "https://www.lycorp.co.jp/ja/news/release/016530/"
+      "https://www.lycorp.co.jp/ja/news/release/016530/",
+      "https://healthcare-tech.co.jp/news/20230731_2.html",
+      "https://healthcare-tech.co.jp/news/20241031.html",
+      "https://healthcare-tech.co.jp/news/20250801",
+      "https://www.watch.impress.co.jp/docs/news/1462390.html",
+      "https://www.watch.impress.co.jp/docs/news/1646464.html"
     ],
     "updatedAt": "2026-10",
     "themes": [
-      "online-consultation"
-    ]
+      "online-consultation",
+      "doctor-qa"
+    ],
+    "lessons": "法人・自治体・保険会社・通信回線契約者など、利用者本人以外が払う経路を重ねて伸ばしている。撤退したLINEの健康相談・オンライン診療の受け皿にもなった。"
   },
   {
     "id": "b-498b4d7b",
     "name": "Yahoo!ヘルスケア「かんたん医療相談」",
     "company": "ヤフー株式会社（現 LINEヤフー）（エムスリー「AskDoctors」と連携）",
     "category": "health-consulting",
-    "description": "Yahoo!ヘルスケア上で、エムスリーの医療Q&A「AskDoctors」に登録する4,500人以上の医師に24時間匿名で相談できる月額300円（税別）の会員制サービス。",
+    "description": "Yahoo!ヘルスケア上で、エムスリーの医療Q&A「AskDoctors」に登録する4,500人以上の医師に24時間匿名で相談できる月額300円（税別）の会員制サービス。前身は2007年の「からだ相談」。",
     "hp": "",
     "startedYear": 2016,
     "status": "不明",
@@ -2953,25 +2841,25 @@
     "milestones": [
       {
         "date": "2007-03",
-        "text": "AskDoctorsと連携した「からだ相談」をYahoo!ヘルスケアで開始（前身）"
+        "text": "前身の「からだ相談」をAskDoctorsと連携して開始（初回登録料1,050円・月額315円、月3件まで質問）"
       },
       {
         "date": "2016-10",
-        "text": "「かんたん医療相談」開始（月額300円、月3問まで、2カ月無料キャンペーン）"
+        "text": "「かんたん医療相談」を開始（月額300円・税別、月3回まで質問、Yahoo!プレミアム新規入会者は2カ月無料）。Yahoo!検索・Yahoo!知恵袋との連携を予定と発表"
       },
       {
         "date": "2018-06",
         "text": "Yahoo!検索がメディカルノートと連携し、疾病情報を検索結果に表示"
       },
       {
-        "date": "2020-05",
-        "text": "Yahoo!検索・Yahoo!MAPでオンライン診療対応医療機関を探せるようにする"
+        "date": "2026-10",
+        "text": "サービスのURL（medical.yahoo.co.jp/soudan/）のドメインが名前解決できない状態（当方確認）"
       }
     ],
     "endReasons": [
       "unknown"
     ],
-    "endReasonNote": "終了の告知は見つからず、現在の提供状況は確認できない。理由は公表されていない。",
+    "endReasonNote": "終了の告知は見つからず、終了時期・理由は公表されていない。",
     "sources": [
       "https://www.lycorp.co.jp/news/archive/Y/ja/ja20161012_A.pdf",
       "https://www.lycorp.co.jp/news/archive/Y/ja/ja20070329_A.pdf",
@@ -2980,7 +2868,8 @@
     ],
     "updatedAt": "2026-10",
     "themes": [
-      "online-consultation"
+      "online-consultation",
+      "doctor-qa"
     ]
   },
   {
@@ -2989,34 +2878,49 @@
     "company": "株式会社Kids Public",
     "companyId": "6011501021222",
     "category": "health-consulting",
-    "description": "LINEや電話で小児科医・産婦人科医・助産師に相談できる遠隔健康医療相談。自治体や企業が費用を負担し、住民・従業員に無料で提供するモデルで広がった。",
+    "description": "LINEや電話で小児科医・産婦人科医・助産師に相談できる遠隔健康医療相談。診断・処方はしない。自治体や企業が費用を負担し、住民・従業員に無料で提供するモデルで広がった。",
     "hp": "",
     "startedYear": 2016,
     "status": "提供中",
     "startedAt": "2016-05",
     "milestones": [
       {
+        "date": "2015",
+        "text": "小児科医の橋本直也が株式会社Kids Publicを設立"
+      },
+      {
         "date": "2016-05",
         "text": "遠隔健康医療相談事業として「小児科オンライン」を開始"
+      },
+      {
+        "date": "2018",
+        "text": "「産婦人科オンライン」を開始"
       },
       {
         "date": "2018-04",
         "text": "小児科医のいない鹿児島県錦江町と埼玉県横瀬町で実証として提供開始"
       },
       {
+        "date": "2020-09",
+        "text": "和歌山県海南市が住民向けサービスとして導入するなど、自治体導入が広がる"
+      },
+      {
         "date": "2026-04",
-        "text": "「産婦人科・小児科オンライン」として導入自治体230以上。三重県いなべ市などが新たに導入"
+        "text": "「産婦人科・小児科オンライン」として登録者約15万人、導入自治体230以上、累計相談30万件以上。三重県いなべ市などが新たに導入"
       }
     ],
     "sources": [
       "https://weekly.ascii.jp/elem/000/001/832/1832461/",
       "https://resemom.jp/release/prtimes/20180426/42708.html",
-      "https://resemom.jp/release/prtimes/20260401/176748.html"
+      "https://resemom.jp/release/prtimes/20260401/176748.html",
+      "https://resemom.jp/release/prtimes/20200901/64939.html"
     ],
     "updatedAt": "2026-10",
     "themes": [
-      "online-consultation"
-    ]
+      "online-consultation",
+      "doctor-qa"
+    ],
+    "lessons": "個人課金ではなく、自治体の母子保健事業や企業の福利厚生として費用を払ってもらう形で定着した例とみられる。"
   },
   {
     "id": "b-0d360811",
@@ -3024,23 +2928,31 @@
     "company": "株式会社リーバー",
     "companyId": "2050001042316",
     "category": "health-consulting",
-    "description": "スマホで24時間医師にチャット相談できる医療相談アプリ（月額350円）。自治体が住民向けに導入する「いつでもドクター」、学校・企業向けも展開し、2023年にオンライン診療を追加。",
+    "description": "チャットボットの問診に答えたあと、スマホで医師に24時間相談できる医療相談アプリ。受診の要否や診療科、市販薬を助言する。個人向け月額制のほか、自治体が住民向けに導入する「いつでもドクター」、学校・企業向けも展開。",
     "hp": "",
-    "startedYear": 2017,
+    "startedYear": 2018,
     "status": "提供中",
-    "startedAt": "2017",
+    "startedAt": "2018-01",
     "milestones": [
       {
         "date": "2017-02",
-        "text": "遠隔医療サービスを目的に茨城県つくば市で設立"
+        "text": "茨城県つくば市で設立（筑波大学発）"
+      },
+      {
+        "date": "2018-01",
+        "text": "医師のすきま時間と相談者をつなぐ「ドクターシェアリング」アプリとしてLEBERをリリース"
+      },
+      {
+        "date": "2020-02",
+        "text": "みらかホールディングス、凸版印刷などから約4.3億円を調達。利用者約8,000人、累計相談3,500件超と発表（運営会社AGREEは、のちに社名をリーバーに変更）"
       },
       {
         "date": "2020-04",
-        "text": "茨城県石岡市が0〜3歳児のいる世帯に無料提供。茨城県の県民向け無料提供（4〜9月）では約6,700件の相談"
+        "text": "茨城県が県民向けに無料提供（4〜9月で約6,700件の相談）。石岡市が0〜3歳児のいる世帯に無料提供"
       },
       {
         "date": "2021-07",
-        "text": "凸版印刷と自治体向け販売で提携（2022年度までに10自治体を目標）"
+        "text": "凸版印刷と自治体向け販売で提携"
       },
       {
         "date": "2023",
@@ -3060,11 +2972,14 @@
       "https://newswitch.jp/p/24571",
       "https://www.sbbit.jp/article/refers/65470",
       "https://resemom.jp/release/prtimes/20260625/191644.html",
-      "https://resemom.jp/release/prtimes/20260805/202412.html"
+      "https://resemom.jp/release/prtimes/20260805/202412.html",
+      "https://thebridge.jp/2020/02/doctor-consulting-app-leber-fundraised",
+      "https://www.leber.jp/"
     ],
     "updatedAt": "2026-10",
     "themes": [
-      "online-consultation"
+      "online-consultation",
+      "doctor-qa"
     ]
   },
   {
@@ -7988,6 +7903,14 @@
         "text": "内科医の吉永和貴氏が設立"
       },
       {
+        "date": "2016",
+        "text": "医師の吉永和貴がflixyを設立し、メルプWEB問診を開発"
+      },
+      {
+        "date": "2020-03",
+        "text": "JMDCがflixyの株式を取得しグループ化。当時は200以上の施設で利用"
+      },
+      {
         "date": "2020-04",
         "text": "JMDC子会社として新型コロナに特化したWEB問診を提供"
       },
@@ -8000,12 +7923,36 @@
         "text": "導入が通算1,000施設を突破"
       },
       {
+        "date": "2022-06",
+        "text": "導入医療機関が1,200を超える"
+      },
+      {
         "date": "2023-04",
         "text": "JMDCグループのHERO innovationによる吸収合併を発表"
       },
       {
+        "date": "2023-06",
+        "text": "患者向けアプリ「メルプ」が累計100万ダウンロードを突破。WEB問診は1,500施設超"
+      },
+      {
         "date": "2023-07",
         "text": "HERO innovationに吸収合併（7月3日）。メルプ事業は同社が継続し、導入は1,500施設超に"
+      },
+      {
+        "date": "2023-07",
+        "text": "flixyが同じJMDCグループのHERO innovationに吸収合併され解散。サービスはHERO innovationが継続"
+      },
+      {
+        "date": "2024-04",
+        "text": "患者向けアプリに「メルプAI受診相談」を搭載（報道）"
+      },
+      {
+        "date": "2025-11",
+        "text": "HERO innovationが集患・予約・問診・会計をまとめたクリニック向けブランド「MEDISMA」を発表（WEB予約・WEB問診事業の統合を経たと説明）"
+      },
+      {
+        "date": "2026-10",
+        "text": "メルプWEB問診の公式サイトは「2,000件超の医療機関に導入」として提供を継続"
       }
     ],
     "endReasons": [
@@ -8020,9 +7967,74 @@
       "https://prtimes.jp/main/html/rd/p/000000008.000062237.html",
       "https://www.marr.jp/mainfo/news/entry/43769",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010601050338",
-      "https://monshin.melp.life/"
+      "https://monshin.melp.life/",
+      "https://voix.jp/biz/?p=2691",
+      "https://ascii.jp/elem/000/004/101/4101878/",
+      "https://prtimes.jp/main/html/rd/p/000000009.000062237.html",
+      "https://aismiley.co.jp/ai_news/ai-proposes-hospital-and-consultation-timing/",
+      "https://prtimes.jp/main/html/rd/p/000000024.000062237.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ],
+    "lessons": [
+      "単",
+      "体",
+      "の",
+      "問",
+      "診",
+      "ツ",
+      "ー",
+      "ル",
+      "と",
+      "し",
+      "て",
+      "始",
+      "ま",
+      "り",
+      "、",
+      "デ",
+      "タ",
+      "企",
+      "業",
+      "グ",
+      "プ",
+      "内",
+      "で",
+      "予",
+      "約",
+      "・",
+      "会",
+      "計",
+      "束",
+      "ね",
+      "た",
+      "ブ",
+      "ラ",
+      "ン",
+      "ド",
+      "に",
+      "組",
+      "み",
+      "込",
+      "れ",
+      "い",
+      "っ",
+      "。",
+      "は",
+      "価",
+      "を",
+      "上",
+      "げ",
+      "く",
+      "こ",
+      "示",
+      "す",
+      "例",
+      "ら",
+      "る"
+    ]
   },
   {
     "id": "b-4f0f7dfa",
@@ -15352,6 +15364,778 @@
     "updatedAt": "2026-10",
     "themes": [
       "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-b7f27b4e",
+    "name": "ユビー「ホームページAI相談窓口」",
+    "company": "Ubie株式会社",
+    "companyId": "7010701034132",
+    "category": "medical-dx",
+    "description": "病院・クリニックのホームページに置くAI相談窓口。患者が症状に応じた20問程度の質問に答えると、医師向けに翻訳された問診結果が受診前に医療機関へ届く。新型コロナ第6波を受けて無償で提供を始めた。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "不明",
+    "startedAt": "2022-01",
+    "milestones": [
+      {
+        "date": "2022-01",
+        "text": "1月25日、全国の病院・クリニックへ導入・設置費用無料で提供開始（第6波対応の緊急提供）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "その後の提供状況・導入数は公表情報で確認できない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000028.000048083.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
+  },
+  {
+    "id": "b-0fd7c672",
+    "name": "ハーティーサポート（心不全啓発LINE）でのAI受診相談",
+    "company": "ノバルティスファーマ株式会社・大塚製薬株式会社（Ubieと提携）",
+    "category": "pharma-marketing-support",
+    "description": "製薬2社が運営する心不全の疾患啓発LINEアカウントで、利用者がAI受診相談ユビーを使って症状を調べられるようにした提携。心不全に関連する回答があると外部の循環器専門医リストを表示する。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "不明",
+    "startedAt": "2021-03",
+    "milestones": [
+      {
+        "date": "2021-03",
+        "text": "Ubieが「ハーティーサポート」との提携を発表。LINEで友だち登録した利用者が症状を調べられ、心不全関連の回答なら循環器専門医リストを表示"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "その後の提供状況は公表情報で確認できない。",
+    "lessons": "製薬企業が疾患の早期受診を促す目的で症状チェックの費用を負担する形。生活者向けの症状チェックの主要な払い手が製薬企業であることを示す初期の事例とみられる。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000016.000048083.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
+  },
+  {
+    "id": "b-239feaa6",
+    "name": "Symview（シムビュー）WEB問診",
+    "company": "株式会社レイヤード",
+    "companyId": "2290001018911",
+    "category": "medical-dx",
+    "description": "患者が来院前にスマホやPCから問診を入力するクリニック向けWEB問診。電子同意書・オンライン診療機能もあり、予約・患者管理・電話自動応答と組み合わせて売る。問診画面の一部は製薬企業の疾患啓発広告の媒体にもなる。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-01",
+    "milestones": [
+      {
+        "date": "1998-07",
+        "text": "医療機関向けデジタルサイネージの会社として福岡で設立"
+      },
+      {
+        "date": "2018-01",
+        "text": "WEB問診「Symview」を提供開始"
+      },
+      {
+        "date": "2021-07",
+        "text": "電話自動応答「Iver」を提供開始"
+      },
+      {
+        "date": "2022-12",
+        "text": "メディカル・データ・ビジョンと資本業務提携"
+      },
+      {
+        "date": "2023-07",
+        "text": "予約システム「Wakumy」を提供開始"
+      },
+      {
+        "date": "2024-04",
+        "text": "患者管理「Kakarite」を提供開始"
+      },
+      {
+        "date": "2026-06",
+        "text": "累計問診回答数6,000万超、月間200万件以上。AI電話エージェント「Capai」を提供開始"
+      },
+      {
+        "date": "2026-09",
+        "text": "レイヤードが東証スタンダード市場に上場"
+      }
+    ],
+    "lessons": "問診を入口に予約・患者管理・電話を積み上げ、さらに問診画面を広告媒体にすることで、問診単体の低い単価を補っている。",
+    "sources": [
+      "https://www.jpx.co.jp/listing/stocks/new/t13vrt000001uq4s-att/09LAYERED-1s.pdf",
+      "https://www.jpx.co.jp/listing/stocks/new/t13vrt000001uq4s-att/09LAYERED-Outline.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
+  },
+  {
+    "id": "b-eb107649",
+    "name": "今日の問診票",
+    "company": "株式会社プレシジョン",
+    "companyId": "1011001113499",
+    "category": "medical-dx",
+    "description": "医師2,000名が作成・更新する医学情報データベースと組み合わせたAI問診票。患者の回答から鑑別疾患を示し、初診カルテ作成時間を1/3にするとうたう医療機関向けWEB問診。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2016-11",
+        "text": "現役医師の佐藤寿彦が代表を務めるプレシジョンを設立"
+      },
+      {
+        "date": "2024-12",
+        "text": "比較サイトの製品情報が更新され、「3,000疾患700病状の所見、全処方薬情報に対応」などと紹介"
+      },
+      {
+        "date": "2025-07",
+        "text": "同社は診察室の会話を音声認識してカルテ記載を支援する「今日のAI音声認識」をリリース（企業DBによる）。生成AIによるカルテ下書きの開発も進める"
+      },
+      {
+        "date": "2026-10",
+        "text": "同社公式サイトはセキュリティ対応のため一時停止中で、今日の問診票の現状は確認できない"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知は見つからない。現在の提供状況は確認できない。",
+    "sources": [
+      "https://www.itreview.jp/products/konnichi-no-monshinhyo/profile",
+      "https://prtimes.jp/main/html/rd/p/000000027.000080023.html",
+      "https://www.premedi.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
+  },
+  {
+    "id": "b-9cf6c087",
+    "name": "MEDLEY 症状チェッカー／症状チェッカーbot",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "health-consulting",
+    "description": "医師がつくるオンライン医療事典「MEDLEY」で、症状を選ぶと関連する病気の候補を示す症状チェッカー。2016年にはFacebook Messenger上のチャットbot版も出した。現在は患者アプリ「melmo」と連携し、受診先の提案や診療予約につなぐ。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015-10",
+    "milestones": [
+      {
+        "date": "2015-10",
+        "text": "「症状からの病気検索」を公開。医師の知見（頻度・重症度・随伴症状）を独自の計算システムで使い、1,300以上の病気から候補を並べる。校閲には専門医270名が参加"
+      },
+      {
+        "date": "2016-06",
+        "text": "Facebook Messenger上で自然文の症状から病気を絞り込む「症状チェッカーbot」を公開"
+      },
+      {
+        "date": "2026-10",
+        "text": "MEDLEYのサイトで症状チェッカーを提供中。患者アプリ「melmo」でも使え、対面・オンライン診療の予約までつなぐと案内"
+      }
+    ],
+    "lessons": "症状チェックを単体の事業にせず、自社のオンライン診療・予約（患者アプリ）への入口として位置づけている。",
+    "sources": [
+      "https://thebridge.jp/2015/10/medley-symptoms",
+      "https://thebridge.jp/2016/06/medley-release-symptoms-checker-bot",
+      "https://medley.life/symptoms/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
+  },
+  {
+    "id": "b-894f712d",
+    "name": "アクサのAI症状チェッカー",
+    "company": "アクサ生命保険株式会社（技術：TECKEL MEDICAL S.L.「Mediktor」、監修：ティーペック）",
+    "category": "insuarance",
+    "description": "生命保険の契約者向けウェブサービス「Emma by アクサ」で、アバターの質問に沿って自覚症状や持病を入力すると、AIが可能性のある病名と緊急度、次に取るべき行動を示す。海外製の症状チェッカーを国内の電話健康相談会社が監修した。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "不明",
+    "startedAt": "2023-02",
+    "milestones": [
+      {
+        "date": "2023-02",
+        "text": "2月21日に提供開始（2月16日発表）。Mediktorの技術をティーペックが監修。医療機器や医療行為の代わりにはならないと明記"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "その後の提供状況は公表情報で確認できない。",
+    "lessons": "保険会社が契約者サービスとして費用を負担する形で、症状チェックの払い手が保険会社になる例。",
+    "sources": [
+      "https://digitalpr.jp/r/68033"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
+  },
+  {
+    "id": "b-b09c10a6",
+    "name": "LINEドクター「花粉症 重症度チェッカー」",
+    "company": "LINEヘルスケア株式会社",
+    "companyId": "8011101086498",
+    "category": "telemedicine",
+    "description": "LINEのオンライン診療サービス「LINEドクター」上で、くしゃみの回数や睡眠の質など8つの質問に答えると花粉症のタイプと重症度を無料で示し、対応するクリニックの検索・予約・ビデオ診療・決済につなげた機能。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "終了",
+    "startedAt": "2022-02",
+    "endedAt": "2025-06",
+    "milestones": [
+      {
+        "date": "2022-02",
+        "text": "2月9日に提供開始"
+      },
+      {
+        "date": "2025-03",
+        "text": "LINEドクターの新規診療予約の受付を3月10日に停止"
+      },
+      {
+        "date": "2025-06",
+        "text": "LINEドクターが6月10日に全機能を終了。移行先としてソフトバンク系の「HELPOドクター」を案内"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "チェッカー単体の終了告知はなく、親サービスのLINEドクター終了とともに終わった。LINEヤフーはLINEドクター終了の理由を、グループ内で重複している事業領域を一本化する取り組みと説明している。",
+    "sources": [
+      "https://webtan.impress.co.jp/n/2022/02/10/42338",
+      "https://www.watch.impress.co.jp/docs/news/1646464.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
+  },
+  {
+    "id": "b-496e1ab4",
+    "name": "NOMOCa AI chat",
+    "company": "株式会社GENOVA",
+    "companyId": "6011001046711",
+    "category": "medical-dx",
+    "description": "クリニックのホームページなどで患者の問い合わせにAIチャットが自動で答える、クリニック向け自動応答システム。自動精算機「NOMOCa」やAI電話応答と並ぶ同社のスマートクリニック事業の一つ。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-07",
+    "milestones": [
+      {
+        "date": "2015-05",
+        "text": "病院ポータルアプリ「NOMOCa ver.1」を提供開始"
+      },
+      {
+        "date": "2022-12",
+        "text": "GENOVAが東証グロース市場に上場（企業DBによる）"
+      },
+      {
+        "date": "2023-07",
+        "text": "「NOMOCa AI chat」の販売を開始"
+      },
+      {
+        "date": "2024-11",
+        "text": "AI電話自動応答「NOMOCa AI call」を提供開始"
+      }
+    ],
+    "sources": [
+      "http://www.genova.co.jp/company/history.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "ai-symptom"
+    ]
+  },
+  {
+    "id": "b-9a8253da",
+    "name": "AskDoctors（アスクドクターズ）",
+    "company": "エムスリー",
+    "companyId": "1010401063016",
+    "category": "health-consulting",
+    "description": "m3.comに登録する医師が、匿名の生活者からの健康・医療相談にネット上で回答する医療Q&Aサービス。月額制の会員が質問を投稿し、蓄積された相談事例も検索できる。Yahoo!など他社サイトの医師相談の回答基盤にもなった。",
+    "hp": "",
+    "startedYear": 2005,
+    "status": "提供中",
+    "startedAt": "2005-12",
+    "milestones": [
+      {
+        "date": "2005-06",
+        "text": "ソネット・エムスリーが「AskDoctorsβ」を公開（報道）"
+      },
+      {
+        "date": "2005-12",
+        "text": "m3.com登録医師の協力で正式に開始"
+      },
+      {
+        "date": "2007-03",
+        "text": "Yahoo!ヘルスケア「からだ相談」と連携。約1,500人の医師が回答、月額315円で月3件まで質問できる形でYahoo! JAPAN IDの利用者に提供"
+      },
+      {
+        "date": "2016-10",
+        "text": "Yahoo!ヘルスケア「かんたん医療相談」（月額300円・税別）に回答基盤を提供。回答医師は4,500名以上と発表"
+      },
+      {
+        "date": "2019-01",
+        "text": "エムスリーがLINEとの合弁会社LINEヘルスケアに49%出資（医療Q&A・遠隔健康医療相談を計画）"
+      },
+      {
+        "date": "2026-07",
+        "text": "公式サイトでお知らせを更新しており、提供が続いている"
+      }
+    ],
+    "lessons": "自社の医師会員基盤を回答者として使い、他社の集客基盤（ポータル、メッセージアプリ）に相談機能を卸す形で20年続いている。医師ネットワークを持つ会社が相談事業を長く続けやすいことを示す例とみられる。",
+    "sources": [
+      "https://internet.watch.impress.co.jp/cda/news/2005/06/21/8096.html",
+      "https://www.lycorp.co.jp/news/archive/Y/ja/ja20070329_A.pdf",
+      "https://www.lycorp.co.jp/news/archive/Y/ja/ja20161012_A.pdf",
+      "https://www.watch.impress.co.jp/docs/news/1163592.html",
+      "https://www.askdoctors.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-1d4ef2dd",
+    "name": "Doctors Me（ドクターズミー）健康相談",
+    "company": "株式会社ケアネット",
+    "companyId": "4010001075490",
+    "category": "health-consulting",
+    "description": "医師をはじめ歯科医師・薬剤師・栄養士・獣医師・カウンセラーなどの専門家に、ネット上で匿名で健康の悩みを相談できるQ&Aサービス。月額300円前後の相談し放題で、保険会社やクラウドソーシング会社の会員特典にもなった。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "終了",
+    "startedAt": "2013-08",
+    "endedAt": "2023",
+    "successor": "サイトはケアネットが医師監修の病気・症状情報とコラム、過去のQ&Aを載せるメディアとして運営",
+    "milestones": [
+      {
+        "date": "2013-08",
+        "text": "サイバー・バズが開始。医師登録時に医師免許の提示を求める"
+      },
+      {
+        "date": "2013-12",
+        "text": "料金を改定し、月額315円で医師に「相談し放題」に。相談件数は約1,500件と発表"
+      },
+      {
+        "date": "2014-05",
+        "text": "ライフネット生命の契約者に無料提供を開始（生命保険業界で初めてと発表）"
+      },
+      {
+        "date": "2014-11",
+        "text": "全国約17万件の病院検索を追加。医師・歯科医師・薬剤師・介護福祉士・栄養士・獣医師・心理カウンセラーが回答し、平均回答時間は30分と発表"
+      },
+      {
+        "date": "2014-12",
+        "text": "クラウドワークスが25万人超の会員の福利厚生として提供開始"
+      },
+      {
+        "date": "2023-05",
+        "text": "公式サイトに「運営会社変更のお知らせ」（5月1日付）を掲示"
+      },
+      {
+        "date": "2023-07",
+        "text": "公式サイトに「健康相談サービス終了のお知らせ」（7月14日付）を掲示。公開されている相談で最も新しいものは2023年10月3日付"
+      },
+      {
+        "date": "2026-10",
+        "text": "利用規約上の運営会社は株式会社ケアネット。過去のQ&Aとコラムの閲覧が続いている"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "サイトに終了のお知らせの見出しは残っているが、本文を確認できず、終了の理由は公表情報からは分からない。",
+    "lessons": "個人課金の相談し放題（月額300円程度）から始まり、保険会社や会員制サービスの特典として広げたが、最終的に相談をやめ、医師監修の情報メディアとして残った。相談機能より広告型メディアの方が続けやすかったとみられる。",
+    "sources": [
+      "https://www.value-press.com/pressrelease/119945",
+      "https://www.value-press.com/pressrelease/125859",
+      "https://www.value-press.com/pressrelease/134228",
+      "https://thebridge.jp/2014/12/crowdworks-provide-doctors-me-for-crowdworker",
+      "https://doctors-me.com/top/question",
+      "https://doctors-me.com/qa/index",
+      "https://doctors-me.com/top/agreement"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-6a630052",
+    "name": "CARADA 健康相談（旧 カラダメディカ）",
+    "company": "株式会社カラダメディカ（エムティーアイ子会社、のちメディパルHDとの合弁）",
+    "category": "health-consulting",
+    "description": "医師・看護師・薬剤師などの専門家が、利用者の健康や心の悩みに24時間回答する健康Q&A・相談サービス。携帯コンテンツ大手エムティーアイが始め、のちに子会社化してメディパルと合弁にした。",
+    "hp": "",
+    "startedYear": 2010,
+    "status": "不明",
+    "startedAt": "2010-12",
+    "milestones": [
+      {
+        "date": "2010-12",
+        "text": "エムティーアイが24時間回答の健康Q&Aサイト「カラダメディカ」を開始"
+      },
+      {
+        "date": "2015-07",
+        "text": "健康相談サービスの株式会社カラダメディカを設立"
+      },
+      {
+        "date": "2016-06",
+        "text": "エムティーアイとメディパルホールディングスが資本業務提携"
+      },
+      {
+        "date": "2018-11",
+        "text": "メディパルHDがカラダメディカに34.4%出資し合弁会社化。両社の協業をカラダメディカに集約すると説明"
+      },
+      {
+        "date": "2021-02",
+        "text": "カラダメディカがエムティーアイとメディパルHDを割当先とする株主割当増資を実施すると発表"
+      },
+      {
+        "date": "2026-10",
+        "text": "CARADAの公式サイトに健康相談の案内は見当たらない（当方確認）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知は見つからず、現在の提供状況・理由は確認できない。",
+    "sources": [
+      "https://www.mti.co.jp/?page_id=101",
+      "https://www.mti.co.jp/?p=23076",
+      "https://www.mti.co.jp/?p=27982",
+      "https://www.carada.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-851169bb",
+    "name": "clintal（クリンタル）",
+    "company": "クリンタル",
+    "companyId": "6010401118228",
+    "category": "health-consulting",
+    "description": "病気や症状に応じて専門医を紹介し、看護師にも相談できる会員制の医師紹介・看護師相談サービス。2018年にデータ企業のJMDCが買収し、同社の事業として続けた。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "終了",
+    "startedAt": "2015",
+    "endedAt": "2026-03",
+    "milestones": [
+      {
+        "date": "2015",
+        "text": "株式会社クリンタル設立（サービス開始時期は確認できず）"
+      },
+      {
+        "date": "2018-12",
+        "text": "JMDCがクリンタルの全株式を取得し子会社化"
+      },
+      {
+        "date": "2019-04",
+        "text": "JMDCがクリンタルを吸収合併"
+      },
+      {
+        "date": "2026-03",
+        "text": "3月31日にサービス提供を終了。旧サイトはJMDCの終了告知ページへ転送"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了告知は「長年にわたりご愛顧いただきました」と感謝を述べるのみで、理由・引き継ぎ先は書かれていない。",
+    "sources": [
+      "https://www.jmdc.co.jp/clintal-notice/",
+      "https://www.jmdc.co.jp/history/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-a93243dd",
+    "name": "Medical Note 医療相談",
+    "company": "メディカルノート",
+    "companyId": "7011001102645",
+    "category": "health-consulting",
+    "description": "医療情報サイト「Medical Note」の利用者が、テキストで症状などを相談すると、各科の専門医を中心とする医療チームが匿名で回答するオンライン医療相談。保険会社の契約者向けにも提供した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2014-10",
+        "text": "株式会社メディカルノート設立"
+      },
+      {
+        "date": "2018-06",
+        "text": "Yahoo!検索との連携発表の中で、「メディカルノート医療相談」を提供中と紹介される"
+      },
+      {
+        "date": "2021-01",
+        "text": "東京海上日動・あんしん生命の契約者向けに、新型コロナ関連で期間限定の無料医療相談を提供（2月28日まで）"
+      },
+      {
+        "date": "2026-10",
+        "text": "Medical Noteのサイトに「Medical Note 医療相談」が掲載されている"
+      }
+    ],
+    "sources": [
+      "https://www.lycorp.co.jp/news/archive/Y/ja/ja20180604_B.pdf",
+      "https://medicalnote.jp/features/marine_covid19",
+      "https://medicalnote.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-7c0da576",
+    "name": "病院なび医療相談サービス／病院QAなび",
+    "company": "株式会社eヘルスケア",
+    "companyId": "4011101055432",
+    "category": "health-consulting",
+    "description": "医療機関検索サイト「病院なび」の利用者が、ボランティアで参加する医師に無料でネット相談できるサービス。相談内容を再編集して公開する「病院QAなび」と組み合わせ、検索サイトの集客と広告・医療機関向けサービスで収益を得る。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2014",
+        "text": "東邦ホールディングスが資本参加し共創未来グループ入り（企業DBによる）"
+      },
+      {
+        "date": "2022-10",
+        "text": "医療相談サービスに独自AIによるサポートを導入"
+      },
+      {
+        "date": "2026-10",
+        "text": "公式サイトで「いつでも無料で医師に相談できる」サービスとして提供中"
+      }
+    ],
+    "sources": [
+      "https://www.ehealthcare.jp/service/search/",
+      "https://www.ehealthcare.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-cc227a29",
+    "name": "おうち病院（チャット医療相談からオンライン診療へ）",
+    "company": "アナムネ",
+    "companyId": "8010401114167",
+    "category": "health-consulting",
+    "description": "チャットで医師に日々の健康の悩みを相談できるサービスとして始まり、のちにビデオ通話の診察と処方を行うオンライン診療を加えた。現在は特化型外来、健診後の医師相談、疾患コミュニティ、製薬企業向け支援も手がける。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "提供中",
+    "startedAt": "2014",
+    "milestones": [
+      {
+        "date": "2014-09",
+        "text": "株式会社アナムネ設立。チャットで医師に相談できるサービスとして開始（企業DBによる）"
+      },
+      {
+        "date": "2020-04",
+        "text": "ビデオ通話による診察と処方ができるオンライン診療を追加（企業DBによる）"
+      },
+      {
+        "date": "2026-10",
+        "text": "公式サイトでは「診療も相談も健康管理も」とし、特化型外来、医療用サプリ相談、健診サポート、疾患コミュニティ（β）を提供。取引先に生命保険会社や調剤薬局チェーンを掲げる"
+      }
+    ],
+    "lessons": "相談単体から始めた事業が、2020年の時限的措置を機に診療へ軸足を移した例。相談だけでは収益化しにくいことを示すとみられる。",
+    "sources": [
+      "https://anamne.com/",
+      "https://corp.anamne.com/company/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-747adedd",
+    "name": "ポケットドクター「予約相談」（専門医への遠隔健康相談）",
+    "company": "株式会社オプティム",
+    "companyId": "4300001001392",
+    "category": "health-consulting",
+    "description": "遠隔診療アプリ「ポケットドクター」上で、相談者が時間を予約し、全国の専門医にビデオで健康相談できる機能。開始時は約60科目・150名の専門医が参加し、10分2,000円（税別）から。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "不明",
+    "startedAt": "2016-07",
+    "milestones": [
+      {
+        "date": "2016-04",
+        "text": "ポケットドクター提供開始。熊本地震の被災者向けに医師による遠隔健康相談を無償提供"
+      },
+      {
+        "date": "2016-07",
+        "text": "「予約相談」を開始（約60科目・150名の専門医、記念価格10分2,000円・税別から）"
+      },
+      {
+        "date": "2018-10",
+        "text": "名称を「オンライン診療ポケットドクター」に変更"
+      },
+      {
+        "date": "2026-10",
+        "text": "公式サイトは導入医療機関でのオンライン診療のみを案内しており、予約相談の記載はない（当方確認）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "予約相談の終了告知は見つからず、終了時期・理由は不明。現在の公式サイトにはオンライン診療の機能のみが記載されている。",
+    "sources": [
+      "https://www.optim.co.jp/wp-content/uploads/2016/06/20160705_pocketdoctor.pdf",
+      "https://www.optim.co.jp/wp-content/uploads/2016/04/20160419_pocketdoctor.pdf",
+      "https://www.pocketdoctor.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-eb8bf216",
+    "name": "ハロー健康相談24",
+    "company": "ティーペック株式会社",
+    "companyId": "2010001023468",
+    "category": "health-consulting",
+    "description": "医師・看護師らが24時間対応する電話健康相談。保険会社の付帯サービス、健保・共済、自治体、企業向けに提供し、利用者本人は無料で使う形が中心。電話からテレビ電話、メール、チャットボットへと窓口を広げてきた。",
+    "hp": "",
+    "startedYear": 1989,
+    "status": "提供中",
+    "startedAt": "1989-10",
+    "milestones": [
+      {
+        "date": "1989-06",
+        "text": "ティーペック設立"
+      },
+      {
+        "date": "1989-10",
+        "text": "「ハロー健康相談24」を開始"
+      },
+      {
+        "date": "1997-02",
+        "text": "「テレビ電話健康相談」を開始"
+      },
+      {
+        "date": "2001-04",
+        "text": "「Eメール健康相談」を開始"
+      },
+      {
+        "date": "2020-06",
+        "text": "「チャットボット健康相談」を開始"
+      },
+      {
+        "date": "2023-02",
+        "text": "アクサ生命の「AI症状チェッカー」（Mediktor）を監修"
+      },
+      {
+        "date": "2024-04",
+        "text": "名医紹介の「ドクターオブドクターズネットワーク」をリニューアルし専門医電話相談サービスを追加"
+      }
+    ],
+    "lessons": "1989年から、保険会社・健保・企業が費用を払い加入者が無料で使うB2B2Cの形で続く。2010年代以降のネット医師相談の多くが最終的にたどり着いた払い手の構造を、最初から取っていた例とみられる。",
+    "sources": [
+      "https://www.t-pec.co.jp/about/t-ayumi/",
+      "https://www.t-pec.co.jp/",
+      "https://digitalpr.jp/r/68033"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-9939e5f8",
+    "name": "Wellness Membership（パーソナルドクター）",
+    "company": "株式会社ウェルネス",
+    "companyId": "3011001122911",
+    "category": "health-consulting",
+    "description": "会員ごとに名前と経歴を持つ医師が継続して担当し、チャットでの健康相談や受診判断、オーダーメイドの人間ドック設計、検査データの蓄積・分析を一体で提供する個人向けの会員制サービス。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018",
+    "milestones": [
+      {
+        "date": "2018-06",
+        "text": "総合診療医の中田航太郎が設立"
+      },
+      {
+        "date": "2025-12",
+        "text": "約50名の医師組織、アクティブ会員約1,200名、契約更新率92.4%（2025年6〜12月、企業DBによる）"
+      },
+      {
+        "date": "2026-10",
+        "text": "公式サイトで「担当するのは、匿名の医師ではありません」とし、チャットで何でも相談できると案内"
+      }
+    ],
+    "lessons": "匿名・低価格の医師Q&Aとは逆に、担当医を固定し高単価の個人会員を少数持つ形をとっている。",
+    "sources": [
+      "https://company.wellness.jp/",
+      "https://www.wellness.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
+    ]
+  },
+  {
+    "id": "b-012d7764",
+    "name": "ファミワン（妊活・女性の健康のLINE相談）",
+    "company": "株式会社ファミワン",
+    "companyId": "4011001105758",
+    "category": "health-consulting",
+    "description": "看護師・臨床心理士など有資格の専門家が、LINEなどで妊活・不妊治療、女性の健康、仕事との両立の相談に応じるサービス。個人向けから始め、企業の福利厚生と自治体の妊活相談事業を主力にしている。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015",
+    "milestones": [
+      {
+        "date": "2015-06",
+        "text": "株式会社ファミワン設立"
+      },
+      {
+        "date": "2026-10",
+        "text": "公式サイトでは「個人向け妊活相談・活動で培ってきた知見を活かし、企業・自治体をサポートする福利厚生サービスを展開」と説明"
+      }
+    ],
+    "lessons": "個人向けの相談から企業・自治体向けへ払い手を移した点は、小児科オンラインやLEBERと共通する。",
+    "sources": [
+      "https://famione.com/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "doctor-qa"
     ]
   }
 ]
