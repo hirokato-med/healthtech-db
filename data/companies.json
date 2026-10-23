@@ -14408,7 +14408,7 @@
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "overview": "2013年4月に福岡で創業。在宅介護の現場向けに、訪問時の会話から記録を自動作成する「ミルモ レコーダー」、帳票作成を効率化する「ミルモ AI」、ケアプラン作成支援AI「ミルモ プラン」、RPAで転記を自動化する「ミルモ オートメーション」、DX人材研修「ミルモ ラーニング」を展開。地域の介護資源情報を集約する「ミルモ ネット」は26,100事業所のユーザーを抱える。累計調達額は43億円。福岡本店のほか東京・札幌・横浜・大阪に拠点を置く。",
     "highlight": "2026年9月に大阪の「Nakanoshima Qross」に拠点を開設し、10月に福岡本社を天神ビジネスセンターⅡへ移転",
-    "totalFunding": "累計43億円（2026年10月時点の公式サイト記載）",
+    "totalFunding": "累計約55.6億円（2026年6月の会社発表）",
     "products": [
       "ミルモ ネット",
       "ミルモ プラン",
@@ -19366,8 +19366,8 @@
     "representatives": [
       "加藤大典"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "帝人株式会社",
     "relatedCompanies": [],
     "corporateNumber": "3040001093012",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3040001093012",
@@ -19376,7 +19376,8 @@
     "sources": [
       "https://www.3sunny.net/company/",
       "https://www.3sunny.net/",
-      "https://prtimes.jp/main/html/rd/p/000000010.000052727.html"
+      "https://prtimes.jp/main/html/rd/p/000000010.000052727.html",
+      "https://prtimes.jp/main/html/rd/p/000000005.000052727.html"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -19394,6 +19395,11 @@
         "date": "2021-03",
         "text": "メディカルノートが医療・介護施設向けSaaSの3Sunnyと資本業務提携",
         "source": "https://medicalnote.co.jp/posts/_sHNmHgW"
+      },
+      {
+        "date": "2022-10",
+        "text": "帝人が全株式を取得し完全子会社化する株式譲渡契約を締結",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000052727.html"
       }
     ],
     "profile": {
@@ -19432,7 +19438,8 @@
         "https://prtimes.jp/companyrdf.php?company_id=52727"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2022年10月に帝人が全株式を取得"
   },
   {
     "id": "5011001136208",
@@ -20577,8 +20584,8 @@
     "representatives": [
       "木村芳朗"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [],
     "corporateNumber": "5011101073020",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101073020",
@@ -20599,13 +20606,19 @@
     ],
     "sources": [
       "https://www.medcare.jp/",
-      "https://prtimes.jp/main/html/rd/p/000000024.000028313.html"
+      "https://prtimes.jp/main/html/rd/p/000000024.000028313.html",
+      "https://www.medcare.jp/topics/ab4UR7Bx"
     ],
     "updatedAt": "2026-10",
     "history": [
       {
         "date": "2024-04",
         "text": "エムスリーが特定保健指導・禁煙外来のメドケアを子会社化",
+        "source": "https://www.medcare.jp/topics/ab4UR7Bx"
+      },
+      {
+        "date": "2024-04",
+        "text": "エムスリーの子会社となりグループ入り",
         "source": "https://www.medcare.jp/topics/ab4UR7Bx"
       }
     ],
@@ -20649,7 +20662,8 @@
         "https://www.medcare.jp/topics/sms-succession"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2024年4月にエムスリーの子会社に"
   },
   {
     "id": "3010001171984",

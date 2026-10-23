@@ -777,8 +777,12 @@
    "id": "3040001093012",
    "name": "株式会社3Sunny",
    "companyId": "3040001093012",
-   "exit": "未上場",
+   "exit": "バイアウト",
    "category": "medical-dx"
+  },
+  {
+   "id": "ext:帝人",
+   "name": "帝人"
   },
   {
    "id": "5011001136208",
@@ -834,7 +838,7 @@
    "id": "5011101073020",
    "name": "メドケア",
    "companyId": "5011101073020",
-   "exit": "未上場",
+   "exit": "バイアウト",
    "category": "telemedicine"
   },
   {
@@ -1647,10 +1651,6 @@
    "companyId": "8011001110151",
    "exit": "バイアウト",
    "category": "home-visit-nursing"
-  },
-  {
-   "id": "ext:帝人",
-   "name": "帝人"
   },
   {
    "id": "5120001103529",
@@ -3175,6 +3175,12 @@
    "date": ""
   },
   {
+   "from": "ext:帝人",
+   "to": "3040001093012",
+   "type": "parent",
+   "date": "2022-10"
+  },
+  {
    "from": "ext:normal",
    "to": "5011001136208",
    "type": "parent",
@@ -3203,6 +3209,12 @@
    "to": "6010401118228",
    "type": "merger",
    "date": "2019-04"
+  },
+  {
+   "from": "1010401063016",
+   "to": "5011101073020",
+   "type": "parent",
+   "date": "2024-04"
   },
   {
    "from": "8011001073431",
@@ -7798,17 +7810,6 @@
    "note": "テックドクターとIQVIAジャパンがウェアラブルを使う臨床研究ソリューションを提供開始",
    "sources": [
     "https://www.iqvia.com/locations/japan/newsroom/2024/04/clinical-research-solution-using-wearable-devices"
-   ]
-  },
-  {
-   "from": "1010401063016",
-   "to": "5011101073020",
-   "type": "parent",
-   "date": "2024-04",
-   "note": "エムスリーが特定保健指導・禁煙外来のメドケアを子会社化",
-   "sources": [
-    "https://www.medcare.jp/topics/ab4UR7Bx",
-    "https://www.nihon-ma.co.jp/news/20240426_2413-32/"
    ]
   },
   {
