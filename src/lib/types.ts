@@ -109,4 +109,5 @@ export type ArticleMeta = {
 };
 export type Article = ArticleMeta & { html: string };
 
-export type ArchiveArticle = { title: string; category: string; author: string; status: string };
+/** 2021〜2023年の旧記事の題名。rewrittenAs は同じ題材で書き直した2026年版の記事の slug */
+export type ArchiveArticle = { title: string; category: string; author: string; rewrittenAs?: string; note?: string; link?: string };

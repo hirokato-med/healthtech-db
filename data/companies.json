@@ -2099,8 +2099,8 @@
     "representatives": [
       "中村正樹"
     ],
-    "exit": "上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "日本生命保険相互会社",
     "relatedCompanies": [],
     "corporateNumber": "7010001087640",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001087640",
@@ -2109,7 +2109,9 @@
     "sources": [
       "https://www.mdv.co.jp/company/outline/",
       "https://www.mdv.co.jp/",
-      "https://www.mdv.co.jp/about/advantage.html"
+      "https://www.mdv.co.jp/about/advantage.html",
+      "https://www.mdv.co.jp/ir/library/pdf/disclosure/disclosure_251215_05.pdf",
+      "https://www.mdv.co.jp/ir/library/pdf/disclosure/disclosure_260204_01.pdf"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -2125,7 +2127,18 @@
       "MDV analyzer",
       "MDV KENSHIN CLOUD",
       "CADA2"
-    ]
+    ],
+    "history": [
+      {
+        "date": "2025-12",
+        "text": "日本生命保険相互会社が完全子会社化を目的とする公開買付け（1株1,693円）を発表"
+      },
+      {
+        "date": "2026-04",
+        "text": "2026年4月24日 上場廃止。日本生命の子会社に"
+      }
+    ],
+    "highlight": "2026年4月、日本生命の公開買付けを経て上場廃止し同社の子会社に。病院由来の医療データベースは5,000万人超"
   },
   {
     "id": "2010001134117",
@@ -2845,18 +2858,22 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001046711",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "listedMarket": "東証グロース",
     "history": [
       {
         "date": "2022-12",
         "text": "2022年12月23日 東証グロース上場（証券コード9341）"
+      },
+      {
+        "date": "2024-09",
+        "text": "東証グロース市場からプライム市場へ市場区分を変更"
       }
     ],
     "sources": [
       "https://www.jpx.co.jp/listing/stocks/new/co3pgt0000001wpw-att/12GENOVA-Outlinet.pdf",
       "http://www.genova.co.jp/company/company.html",
       "http://www.genova.co.jp/company/history.html",
-      "https://finance.yahoo.co.jp/quote/9341.T/profile"
+      "https://finance.yahoo.co.jp/quote/9341.T/profile",
+      "https://finboard.jp/companies/JP:9341/history"
     ],
     "updatedAt": "2026-10",
     "overview": "医療情報メディア「Medical DOC」や医療機関のWebサイト制作・集患支援を行うメディカルプラットフォーム事業、自動受付精算機「NOMOCa」、AIチャット・AI電話応答、診療予約システム「SMART One」などのスマートクリニック事業、歯科器材の流通事業を3本柱とする。2026年3月期の売上構成はメディカルプラットフォーム44%、スマートクリニック29%、歯科流通21%。全国に支店・営業所を展開。2022年12月に東証グロース上場、2024年にプライム市場へ移行。",
@@ -18399,7 +18416,10 @@
     "sources": [
       "https://startup-db.com/companies/2lO6prvU4jnpg5wB"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerNames": [
+      "nanoni"
+    ]
   },
   {
     "id": "5011101089933",
@@ -20394,18 +20414,30 @@
     "representatives": [
       "郷田泰宏"
     ],
-    "exit": "上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "株式会社CHCP-HN",
     "relatedCompanies": [],
     "corporateNumber": "5120001103529",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5120001103529",
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
-    "highlight": "精神科訪問看護の上場企業",
+    "highlight": "2021年6月にCHCP-HNの公開買付けを経て上場廃止。精神科訪問看護の大手",
     "sources": [
-      "https://initial.inc/companies/A-12328"
+      "https://initial.inc/companies/A-12328",
+      "https://www.jpx.co.jp/news/1023/20210601-11.html",
+      "https://www2.jpx.co.jp/disc/60770/140120210205456452.pdf"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "history": [
+      {
+        "date": "2021-02",
+        "text": "株式会社CHCP-HN による公開買付け（1株1,200円）に賛同を表明"
+      },
+      {
+        "date": "2021-06",
+        "text": "2021年6月18日 東証で上場廃止（株式併合による非公開化）"
+      }
+    ]
   },
   {
     "id": "jp-095",
@@ -20473,9 +20505,16 @@
     ],
     "highlight": "東証プライム上場（9229）。パーキンソン病特化の住まいを全国展開",
     "sources": [
-      "https://sunwels.jp/company/profile/"
+      "https://sunwels.jp/company/profile/",
+      "https://finboard.jp/companies/JP:9229/history"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "history": [
+      {
+        "date": "2024-07",
+        "text": "東証グロース市場からプライム市場へ市場区分を変更"
+      }
+    ]
   },
   {
     "id": "5290001092557",
@@ -21748,9 +21787,17 @@
     "sources": [
       "https://www.harmo.biz/",
       "https://www.cmicgroup.com/news/files/pdf/20260818.pdf",
-      "https://spaceshipearth.jp/harmo/"
+      "https://spaceshipearth.jp/harmo/",
+      "https://prtimes.jp/main/html/rd/p/000000037.000049119.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "history": [
+      {
+        "date": "2026-09",
+        "text": "電子お薬手帳「harmo」の事業をファルモへ譲渡し、2026年9月末でサービスを終了。利用者は「N-Bridge（eお薬手帳3.0）」へ移行"
+      }
+    ],
+    "scopeNote": "電子お薬手帳「harmo」は2026年9月末で終了し、事業はファルモが引き継いだ"
   },
   {
     "id": "jp-115",

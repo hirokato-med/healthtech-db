@@ -1,25 +1,144 @@
 [
-  {"title":"医薬品卸大手4社のベンチャー出資事例を調べてみた","category":"VC・CVC","author":"岩見","status":"公開済み（本文復元中）"},
-  {"title":"美容整形市場の主要プレイヤーとビジネスモデルを調べてみた","category":"美容整形","author":"岩見","status":"初稿チェック"},
-  {"title":"フェムテック市場ってどんな市場？主要プレイヤーと期待値","category":"フェムテック","author":"福島大喜","status":"公開済み（本文復元中）"},
-  {"title":"コロナで爆増・問診サービス一覧","category":"医療機関DX","author":"福島大喜","status":"公開済み（本文復元中）"},
-  {"title":"Apple Watchを活用した臨床研究リサーチ","category":"医療機器","author":"中西","status":"公開済み（本文復元中）"},
-  {"title":"ウェアラブルデバイスの現在地","category":"医療機器","author":"中西","status":"公開済み（本文復元中）"},
-  {"title":"コロナワクチンの管理サービス比較","category":"PHR","author":"中西","status":"公開済み（本文復元中）"},
-  {"title":"エムスリーの直近5年の買収先リストを一気見！","category":"VC・CVC","author":"岩見","status":"公開済み（本文復元中）"},
-  {"title":"医療機関向けSaaS市場展望","category":"医療機関DX","author":"福島大喜","status":"公開済み（本文復元中）"},
-  {"title":"ソフトバンクビジョンのヘルスケアセクター投資先一覧","category":"VCポートフォリオ","author":"中西","status":"公開済み（本文復元中）"},
-  {"title":"治験の患者リクルーティングに係る企業とビジネスモデル","category":"治験支援","author":"福島大喜","status":"公開済み（本文復元中）"},
-  {"title":"商社が取り組むヘルスケアビジネス: 4大商社のヘルスケア事業まとめ","category":"企業研究","author":"岩見","status":"公開済み（本文復元中）"},
-  {"title":"世界のメンタルヘルススタートアップ特集","category":"メンタルヘルス","author":"福島大喜","status":"公開済み（本文復元中）"},
-  {"title":"製薬企業とデジタルヘルス企業の連携事例を調べる","category":"製薬企業","author":"中西","status":"公開済み（本文復元中）"},
-  {"title":"治験の次の形: 分散型治験やバーチャル治験について解説","category":"治験領域","author":"岩見","status":"公開済み（本文復元中）"},
-  {"title":"製薬企業向けデータビジネス(JMDC, MDV)について","category":"製薬企業","author":"中西","status":"公開済み（本文復元中）"},
-  {"title":"治験患者の集患ビジネス","category":"治験支援","author":"福島大喜","status":"公開済み（本文復元中）"},
-  {"title":"Raise the Flag. 中村猛氏インタビュー","category":"インタビュー","author":"有村琢磨","status":"公開済み（本文復元中）"},
-  {"title":"日本のヘルスケア関連の上場企業一覧（2004年以降上場リスト）","category":"企業研究","author":"Healthtech DB 編集部","status":"公開済み（本文復元中）"},
-  {"title":"2022年12月の国内注目ヘルスケアニュースをおさらいしよう！","category":"マンスリーレビュー","author":"Healthtech DB 編集部","status":"公開済み（本文復元中）"},
-  {"title":"2023年1月の国内注目ヘルスケアニュースをおさらいしよう！","category":"マンスリーレビュー","author":"Healthtech DB 編集部","status":"公開済み（本文復元中）"},
-  {"title":"2023年2月の国内注目ヘルスケアニュースをおさらいしよう！","category":"マンスリーレビュー","author":"Healthtech DB 編集部","status":"公開済み（本文復元中）"},
-  {"title":"2023年3月の国内注目ヘルスケアニュースをおさらいしよう！","category":"マンスリーレビュー","author":"Healthtech DB 編集部","status":"公開済み（本文復元中）"}
+  {
+    "title": "医薬品卸大手4社のベンチャー出資事例を調べてみた",
+    "category": "VC・CVC",
+    "author": "岩見",
+    "rewrittenAs": "drug-wholesalers-venture-investment"
+  },
+  {
+    "title": "美容整形市場の主要プレイヤーとビジネスモデルを調べてみた",
+    "category": "美容整形",
+    "author": "岩見",
+    "rewrittenAs": "aesthetic-medicine-market"
+  },
+  {
+    "title": "フェムテック市場ってどんな市場？主要プレイヤーと期待値",
+    "category": "フェムテック",
+    "author": "福島大喜",
+    "rewrittenAs": "femtech-market-2026"
+  },
+  {
+    "title": "コロナで爆増・問診サービス一覧",
+    "category": "医療機関DX",
+    "author": "福島大喜",
+    "rewrittenAs": "web-monshin-ai-services"
+  },
+  {
+    "title": "Apple Watchを活用した臨床研究リサーチ",
+    "category": "医療機器",
+    "author": "中西",
+    "rewrittenAs": "smartwatch-clinical-research"
+  },
+  {
+    "title": "ウェアラブルデバイスの現在地",
+    "category": "医療機器",
+    "author": "中西",
+    "rewrittenAs": "wearable-devices-2026"
+  },
+  {
+    "title": "コロナワクチンの管理サービス比較",
+    "category": "PHR",
+    "author": "中西",
+    "rewrittenAs": "phr-services-comparison"
+  },
+  {
+    "title": "エムスリーの直近5年の買収先リストを一気見！",
+    "category": "VC・CVC",
+    "author": "岩見",
+    "rewrittenAs": "m3-acquisitions"
+  },
+  {
+    "title": "医療機関向けSaaS市場展望",
+    "category": "医療機関DX",
+    "author": "福島大喜",
+    "rewrittenAs": "medical-saas-market-2026"
+  },
+  {
+    "title": "ソフトバンクビジョンのヘルスケアセクター投資先一覧",
+    "category": "VCポートフォリオ",
+    "author": "中西",
+    "rewrittenAs": "softbank-vision-fund-healthcare"
+  },
+  {
+    "title": "治験の患者リクルーティングに係る企業とビジネスモデル",
+    "category": "治験支援",
+    "author": "福島大喜",
+    "rewrittenAs": "clinical-trial-patient-recruitment"
+  },
+  {
+    "title": "商社が取り組むヘルスケアビジネス: 4大商社のヘルスケア事業まとめ",
+    "category": "企業研究",
+    "author": "岩見",
+    "rewrittenAs": "trading-companies-healthcare"
+  },
+  {
+    "title": "世界のメンタルヘルススタートアップ特集",
+    "category": "メンタルヘルス",
+    "author": "福島大喜",
+    "rewrittenAs": "global-mental-health-startups"
+  },
+  {
+    "title": "製薬企業とデジタルヘルス企業の連携事例を調べる",
+    "category": "製薬企業",
+    "author": "中西",
+    "rewrittenAs": "pharma-digital-health-partnerships"
+  },
+  {
+    "title": "治験の次の形: 分散型治験やバーチャル治験について解説",
+    "category": "治験領域",
+    "author": "岩見",
+    "rewrittenAs": "decentralized-clinical-trials-japan"
+  },
+  {
+    "title": "製薬企業向けデータビジネス(JMDC, MDV)について",
+    "category": "製薬企業",
+    "author": "中西",
+    "rewrittenAs": "pharma-data-business-jmdc-mdv"
+  },
+  {
+    "title": "治験患者の集患ビジネス",
+    "category": "治験支援",
+    "author": "福島大喜",
+    "rewrittenAs": "clinical-trial-patient-recruitment"
+  },
+  {
+    "title": "Raise the Flag. 中村猛氏インタビュー",
+    "category": "インタビュー",
+    "author": "有村琢磨",
+    "note": "インタビュー記事のため、2026年版はありません"
+  },
+  {
+    "title": "日本のヘルスケア関連の上場企業一覧（2004年以降上場リスト）",
+    "category": "企業研究",
+    "author": "Healthtech DB 編集部",
+    "rewrittenAs": "healthcare-ipo-list-japan"
+  },
+  {
+    "title": "2022年12月の国内注目ヘルスケアニュースをおさらいしよう！",
+    "category": "マンスリーレビュー",
+    "author": "Healthtech DB 編集部",
+    "note": "毎月のニュースの振り返りは YouTube「#月刊ヘルステック」に移行",
+    "link": "/monthly/"
+  },
+  {
+    "title": "2023年1月の国内注目ヘルスケアニュースをおさらいしよう！",
+    "category": "マンスリーレビュー",
+    "author": "Healthtech DB 編集部",
+    "note": "毎月のニュースの振り返りは YouTube「#月刊ヘルステック」に移行",
+    "link": "/monthly/"
+  },
+  {
+    "title": "2023年2月の国内注目ヘルスケアニュースをおさらいしよう！",
+    "category": "マンスリーレビュー",
+    "author": "Healthtech DB 編集部",
+    "note": "毎月のニュースの振り返りは YouTube「#月刊ヘルステック」に移行",
+    "link": "/monthly/"
+  },
+  {
+    "title": "2023年3月の国内注目ヘルスケアニュースをおさらいしよう！",
+    "category": "マンスリーレビュー",
+    "author": "Healthtech DB 編集部",
+    "note": "毎月のニュースの振り返りは YouTube「#月刊ヘルステック」に移行",
+    "link": "/monthly/"
+  }
 ]

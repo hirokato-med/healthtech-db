@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import {
-  categoryName, fmtDate, getArchiveArticles, getArticles, getCategories, getCompanies, getFeaturedCompanies, getNews, getOverseas, getPeople, getServices,
+  categoryName, fmtDate, getArticles, getCategories, getCompanies, getFeaturedCompanies, getNews, getOverseas, getPeople, getServices,
   episodeHeadline, getMonthly, monthLabel, ytThumb, YT_SUBSCRIBE,
 } from '@/lib/data';
 import { withBase } from '@/lib/base';
@@ -53,10 +53,8 @@ export default function Home() {
     .filter((x) => x.n > 0)
     .sort((a, b) => b.n - a.n);
   const maxN = catStats[0]?.n ?? 1;
-  const archive = getArchiveArticles();
   const gridItems = [
-    ...articles.map((a) => ({ key: a.slug, href: `/articles/${a.slug}/`, title: a.title, tags: [categoryName(a.category), ...(a.tags ?? []).slice(0, 1)], date: `${fmtDate(a.date)} 更新`, navy: true, thumb: categoryName(a.category) })),
-    ...archive.slice(0, 6 - articles.length).map((a, i) => ({ key: `ar${i}`, href: '/articles/archive/', title: a.title, tags: [a.category, '本文復元中'], date: '2021〜2023 公開', navy: false, thumb: a.category })),
+    ...articles.filter((a) => a.slug !== feature?.slug).slice(0, 6).map((a) => ({ key: a.slug, href: `/articles/${a.slug}/`, title: a.title, tags: [categoryName(a.category), ...(a.tags ?? []).slice(0, 1)], date: `${fmtDate(a.date)} 更新`, navy: true, thumb: categoryName(a.category) })),
   ];
 
   return (
@@ -109,7 +107,7 @@ export default function Home() {
               <Link href={`/articles/${promo.slug}/`} className="promo2">
                 <span className="t1">DATA FEATURE</span>
                 <span className="t2">国内のAI医療機器<br />承認一覧</span>
-                <span className="t3">EndoBRAIN から nodoca まで、製造販売承認を取得した23件を承認日・モダリティ別に整理しました。</span>
+                <span className="t3">PMDA の承認品目一覧で「AI活用」とされた67品目を、承認年・企業・対象別にすべて表にしました（2026年版）。</span>
                 <span className="t4">一覧を見る →</span>
               </Link>
             )}
@@ -290,7 +288,7 @@ export default function Home() {
       {/* ---------- 記事 ---------- */}
       <section className="band gray bleed">
         <div className="container">
-          <div className="sec-title"><h2>新着記事・アーカイブ</h2></div>
+          <div className="sec-title"><h2>新着記事</h2></div>
           <div className="agrid">
             {gridItems.map((g) => (
               <Link key={g.key} href={g.href} className="acard">
@@ -301,7 +299,7 @@ export default function Home() {
               </Link>
             ))}
           </div>
-          <div className="center"><Link href="/articles/" className="btn-outline arrow">すべての記事を見る（全{articles.length + archive.length}本）</Link></div>
+          <div className="center"><Link href="/articles/" className="btn-outline arrow">すべての記事を見る（全{articles.length}本）</Link></div>
         </div>
       </section>
     </div>
