@@ -823,3 +823,18 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 .sub-h { font-size: 14px; font-weight: 900; margin: 16px 0 6px; }
 @media (max-width: 760px) { .disc-list li { grid-template-columns: 1fr; gap: 2px; } }
 .earn-table td.ecomp { min-width: 12em; } .earn-table td.ecomp small { white-space: nowrap; }
+/* 企業ページ: ヒト・モノ・カネ */
+.hmk { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 0 0 22px; }
+.hmk-col { padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); border-top: 3px solid var(--navy); }
+.hmk-col:nth-child(2) { border-top-color: var(--teal); }
+.hmk-col:nth-child(3) { border-top-color: #d08a2c; }
+.hmk-col h3 { display: flex; align-items: baseline; gap: 8px; margin: 0 0 8px; font-size: 13px; color: var(--muted); font-weight: 700; }
+.hmk-col h3 span { font-size: 18px; font-weight: 900; color: var(--ink); }
+.hmk-col dl { display: grid; grid-template-columns: 5.5em 1fr; gap: 6px 10px; margin: 0; font-size: 13.5px; }
+.hmk-col dt { color: var(--muted); font-size: 12px; padding-top: 1px; }
+.hmk-col dd { margin: 0; font-weight: 700; line-height: 1.55; min-width: 0; }
+.hmk-col dd small { display: block; font-weight: 400; font-size: 11.5px; color: var(--muted); }
+.hmk-biz { display: block; }
+.hmk-biz small { display: inline !important; margin-left: 6px; }
+.hmk-fund { font-weight: 500; font-size: 12.5px; }
+@media (max-width: 900px) { .hmk { grid-template-columns: 1fr; } }

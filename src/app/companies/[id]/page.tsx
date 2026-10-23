@@ -5,7 +5,7 @@ import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { STOPPED, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
 import { forecastLabel, forecastOf, money, pct, yoy } from '@/lib/earnings';
 
 export function generateStaticParams() {
@@ -24,6 +24,13 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const people = peopleOf(c.id);
   const news = newsOf(c).slice(0, 10);
   const reports = getEarnings()[c.id] ?? [];
+  // ヒト・モノ・カネの要約に使う
+  const nm = (x: string) => x.normalize('NFKC').replace(/株式会社|ホールディングス|\s/g, '');
+  const myNames = [c.name, ...(c.aliases ?? []), ...(c.formerNames ?? [])].map(nm);
+  const deals = getPartnerships().filter((p) => myNames.includes(nm(p.from)) || myNames.includes(nm(p.to)));
+  const stoppedCount = services.filter((s) => STOPPED.includes(s.status)).length;
+  const latestRep = reports[0];
+  const funding = c.totalFunding || (c.history ?? []).filter((h) => /資金調達|第三者割当|億円を調達|調達を実施|出資を受け/.test(h.text)).slice(-1).map((h) => `${h.date?.slice(0, 7).replace('-', '年')}月 ${h.text}`)[0];
   const discl = c.securitiesCode ? getDisclosures().filter((d) => d.companyId === c.id).slice(0, 8) : [];
   const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 6);
   const empAsOf = c.employeesAsOf ? c.employeesAsOf.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`) : c.source.includes('2021-09') ? '2021年' : '';
@@ -54,6 +61,38 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
         {c.ended && <p className="co-scope ended"><b>{c.exit === '対象外' ? '掲載対象外' : c.exit === '活動停止' ? '活動停止（確認できず）' : '事業終了'}{c.ended.date ? `（${ym(c.ended.date)}）` : ''}</b>{c.ended.note}{c.ended.lastActiveAt ? ` 最後に確認できた活動は${ym(c.ended.lastActiveAt)}。` : ''}{c.ended.successor ? ` 事業の引き継ぎ先: ${c.ended.successor}。` : ''}</p>}
         {!c.ended && c.statusNote && <p className="co-scope warn"><b>現状</b>{c.statusNote}</p>}
       </div>
+
+      <section className="hmk" aria-label="ヒト・モノ・カネ">
+        <div className="hmk-col">
+          <h3><span>ヒト</span>経営と組織</h3>
+          <dl>
+            <dt>代表者</dt><dd>{c.representatives.join('、') || '—'}{c.formerRepresentatives?.length ? <small>歴代 {c.formerRepresentatives.length + c.representatives.length}人目まで記録</small> : null}</dd>
+            {c.founders?.length ? <><dt>創業者</dt><dd>{c.founders.join('、')}</dd></> : null}
+            <dt>経営陣</dt><dd>{c.profile?.management?.count ? `${c.profile.management.count}名` : '—'}</dd>
+            <dt>従業員数</dt><dd>{c.employees ? `${c.employees}${/名|人/.test(c.employees) ? '' : '名'}` : '—'}{c.employees && empAsOf ? <small>{empAsOf}時点</small> : null}</dd>
+          </dl>
+        </div>
+        <div className="hmk-col">
+          <h3><span>モノ</span>事業</h3>
+          <dl>
+            <dt>主な事業</dt>
+            <dd>{(c.profile?.businesses ?? []).slice(0, 3).map((b) => <span key={b.name} className="hmk-biz">{b.name.replace(/（.*?）/g, '')}{b.since ? <small>{b.since.slice(0, 4)}年〜</small> : null}</span>)}{!c.profile?.businesses?.length && (c.products?.slice(0, 3).join('、') || '—')}</dd>
+            <dt>事業DB</dt><dd>{services.length ? `${services.length}件` : '—'}{stoppedCount ? <small>うち止まった事業 {stoppedCount}件</small> : null}</dd>
+            <dt>提携・M&amp;A</dt><dd>{deals.length ? <a href="#deals">{deals.length}件</a> : '—'}</dd>
+          </dl>
+        </div>
+        <div className="hmk-col">
+          <h3><span>カネ</span>資本と業績</h3>
+          <dl>
+            <dt>資本</dt><dd>{c.exit === '上場' ? `上場（${c.listedMarket ?? ''}${c.securitiesCode ? `・${c.securitiesCode}` : ''}）` : c.exit}{c.parentCompany ? <small>親会社：{c.parentCompany}</small> : null}</dd>
+            {latestRep ? (
+              <><dt>業績</dt><dd>売上高 {money(latestRep.current?.revenue)}／営業利益 {money(latestRep.current?.operatingIncome)}<small>{latestRep.label.replace(/（中間期）/, '')}</small></dd></>
+            ) : (
+              <><dt>資金調達</dt><dd>{funding ? <span className="hmk-fund">{funding}</span> : '—'}</dd></>
+            )}
+          </dl>
+        </div>
+      </section>
 
       <div className="two-col">
         <div style={{ display: 'grid', gap: 20 }}>
@@ -170,6 +209,26 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               </ul>
             </section>
           ) : null}
+
+          {deals.length > 0 && (
+            <section className="panel" id="deals">
+              <h3>提携・M&amp;A</h3>
+              <ul className="co-history">
+                {[...deals].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '')).map((p, i) => {
+                  const other = myNames.includes(nm(p.from)) ? p.to : p.from;
+                  const o = findCompanyByName(other);
+                  return (
+                    <li key={i}>
+                      <span>{p.date ? p.date.replace(/^(\d{4})-(\d{2}).*/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年') : ''}</span>
+                      {o ? <Link href={`/companies/${o.id}/`}>{other}</Link> : other}：{p.kind}「{p.label}」{p.status === '終了' ? '（終了）' : ''}
+                      {p.sources?.[0] && <a href={p.sources[0]} target="_blank" rel="noreferrer" className="h-src">出典</a>}
+                    </li>
+                  );
+                })}
+              </ul>
+              <p className="muted small" style={{ marginTop: 6 }}><Link href="/ma/" className="arrow">M&amp;A・提携マップ</Link></p>
+            </section>
+          )}
 
           <section className="panel">
             <h3>関連ニュース</h3>
