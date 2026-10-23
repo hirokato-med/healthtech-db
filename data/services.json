@@ -1,15 +1,5 @@
 [
   {
-    "id": "job-medley",
-    "name": "ジョブメドレー",
-    "company": "メドレー",
-    "category": "recruting-solutions",
-    "description": "医療・介護・保育などの職種に特化した求人サイト。成功報酬型で事業所が求人を掲載する。",
-    "hp": "https://job-medley.com/",
-    "startedYear": 2009,
-    "status": "提供中"
-  },
-  {
     "id": "curon",
     "name": "curon（クロン）",
     "company": "MICIN",
@@ -1847,6 +1837,10 @@
         "text": "株式会社Mediplat設立"
       },
       {
+        "date": "2015-11",
+        "text": "株式会社Mediplat設立。遠隔医療相談サービスを展開"
+      },
+      {
         "date": "2016",
         "text": "オンライン医療相談「first call」を開始"
       },
@@ -1857,6 +1851,10 @@
       {
         "date": "2016-02",
         "text": "α版を開始（当初は花粉症に特化、テレビ電話相談15分1,980円）"
+      },
+      {
+        "date": "2016-05",
+        "text": "医師コミュニティ「MedPeer」のメドピアが株式交換でMediplatを完全子会社化。予防医療領域への展開が目的"
       },
       {
         "date": "2016-06",
@@ -1895,6 +1893,10 @@
         "text": "ドコモの「dヘルスケア（500円）」終了に伴い、dヘルスケア経由のテレビ電話相談が終了"
       },
       {
+        "date": "2023-09",
+        "text": "2023年9月期のMediplat売上高12.16億円、営業利益0.63億円"
+      },
+      {
         "date": "2024-08",
         "text": "メドピアが予防医療プラットフォーム事業からの撤退を発表。Mediplatとフィッツプラスの全事業をARMの新設子会社へ吸収分割で承継（効力発生 2024年9月30日予定）"
       },
@@ -1907,8 +1909,16 @@
         "text": "メドピアがMediplatとフィッツプラスの全事業をARMの新設子会社2社へ吸収分割で承継させると発表。対価はMediplat分13億5,000万円。メドピアは予防医療プラットフォーム事業から撤退"
       },
       {
+        "date": "2024-08",
+        "text": "メドピアがMediplatの全事業をARMの新設子会社へ吸収分割で承継させると決定（対価13.5億円）。同時に特定保健指導のフィッツプラスも譲渡し、予防医療プラットフォーム事業から撤退"
+      },
+      {
         "date": "2024-09",
         "text": "吸収分割の効力発生。分割会社は2025年4月に清算結了"
+      },
+      {
+        "date": "2024-09",
+        "text": "吸収分割の効力発生（2024年9月30日予定）"
       },
       {
         "date": "2025-04",
@@ -1917,6 +1927,10 @@
       {
         "date": "2025-04",
         "text": "旧Mediplat法人が清算結了"
+      },
+      {
+        "date": "2025-04",
+        "text": "旧Mediplat法人の清算が結了（法人番号公表サイト）。first callのサイトは株主をARM100%と表示"
       }
     ],
     "endReasons": [
@@ -1924,7 +1938,100 @@
       "acquisition"
     ],
     "endReasonNote": "メドピアは2027年9月期までを「プラットフォーム強化期」とし、医師・医療機関支援プラットフォームに投資を集中する方針。そのうえで「メドピアグループ内では、両社の事業が持つ成長可能性を短期的に最大限発揮させることが困難」として、健康経営の顧客基盤を持つARMへ承継させた。サービス自体は継続。",
-    "lessons": "個人課金の遠隔相談から始まり、通信キャリアの会員特典、企業の産業保健へと払い手を変えながら続いた。最終的に健康経営の顧客を持つ会社に移っており、払い手を見つけた先に事業が移った例とみられる。",
+    "lessons": [
+      "個",
+      "人",
+      "課",
+      "金",
+      "の",
+      "遠",
+      "隔",
+      "相",
+      "談",
+      "か",
+      "ら",
+      "始",
+      "ま",
+      "り",
+      "、",
+      "通",
+      "信",
+      "キ",
+      "ャ",
+      "リ",
+      "ア",
+      "会",
+      "員",
+      "特",
+      "典",
+      "企",
+      "業",
+      "産",
+      "保",
+      "健",
+      "へ",
+      "と",
+      "払",
+      "い",
+      "手",
+      "を",
+      "変",
+      "え",
+      "な",
+      "が",
+      "続",
+      "た",
+      "。",
+      "最",
+      "終",
+      "的",
+      "に",
+      "康",
+      "経",
+      "営",
+      "顧",
+      "客",
+      "持",
+      "つ",
+      "社",
+      "移",
+      "っ",
+      "て",
+      "お",
+      "見",
+      "け",
+      "先",
+      "事",
+      "例",
+      "み",
+      "れ",
+      "る",
+      "自",
+      "体",
+      "は",
+      "黒",
+      "字",
+      "で",
+      "成",
+      "長",
+      "し",
+      "親",
+      "選",
+      "択",
+      "集",
+      "中",
+      "外",
+      "出",
+      "さ",
+      "・",
+      "E",
+      "A",
+      "P",
+      "既",
+      "存",
+      "大",
+      "約"
+    ],
     "sources": [
       "https://thebridge.jp/2016/06/first-call",
       "https://k-tai.watch.impress.co.jp/docs/news/1121741.html",
@@ -1941,13 +2048,15 @@
       "https://japan.cnet.com/article/35135478/",
       "https://maonline.jp/news/20240802c",
       "https://www.platinumpartners.jp/manews-20240802-advantage-risk-mediplat-fitsplus.html",
-      "https://companydata.tsujigawa.com/?cdb_edinet_doc=S100WMHJ"
+      "https://companydata.tsujigawa.com/?cdb_edinet_doc=S100WMHJ",
+      "https://www.nihon-ma.co.jp/news/20160513_6095/"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "online-consultation",
       "mental-chat",
-      "phr-employer"
+      "phr-employer",
+      "occupational-physician"
     ]
   },
   {
@@ -2112,8 +2221,16 @@
         "text": "クラウド型電子カルテ「CLINICSカルテ」提供開始"
       },
       {
+        "date": "2020-05",
+        "text": "ライフサイエンスコンピューティングから電子カルテ資産と顧客を譲受"
+      },
+      {
         "date": "2020-09",
         "text": "調剤薬局窓口支援システム「Pharms」提供開始"
+      },
+      {
+        "date": "2020-12",
+        "text": "パシフィックシステムを子会社化し病院向けに参入"
       },
       {
         "date": "2021-04",
@@ -2138,6 +2255,10 @@
       {
         "date": "2025-11",
         "text": "患者向けアプリ「CLINICS」を「melmo」にリニューアル"
+      },
+      {
+        "date": "2025-12",
+        "text": "オンライン診療と電子カルテの合計導入数を公式サイトで訴求（2025年12月末時点）"
       }
     ],
     "sources": [
@@ -2146,11 +2267,14 @@
       "https://www.medley.jp/.assets/20190913_WIRED_PDF.pdf",
       "https://www.docomo.ne.jp/info/news_release/2021/04/26_00.html",
       "https://www.docomo.ne.jp/info/news_release/2022/08/01_00.html",
-      "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html"
+      "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html",
+      "https://clinics-cloud.com/",
+      "https://www2.jpx.co.jp/disc/44800/140120201216435890.pdf"
     ],
     "updatedAt": "2026-10",
     "themes": [
-      "online-consultation"
+      "online-consultation",
+      "cloud-emr"
     ]
   },
   {
@@ -2560,16 +2684,32 @@
         "text": "首都圏の一部医療機関で先行提供を開始"
       },
       {
+        "date": "2020-12",
+        "text": "コロナ禍のオンライン診療需要を受け、予定を前倒ししてプレ版を提供開始"
+      },
+      {
         "date": "2022-12",
         "text": "処方薬の配送サービスを全国で開始"
+      },
+      {
+        "date": "2022-12",
+        "text": "処方薬の配送サービスを開始"
       },
       {
         "date": "2023-01",
         "text": "エムスリーとの合弁を解消し、LINEの100%子会社に。オンライン服薬指導で日本調剤と連携"
       },
       {
+        "date": "2023-01",
+        "text": "エムスリーとの合弁を解消し、LINEヘルスケアがLINE（現LINEヤフー）の完全子会社に"
+      },
+      {
         "date": "2023-02",
         "text": "オンライン健康相談「LINEヘルスケア」を終了し、LINEドクターに集中"
+      },
+      {
+        "date": "2023-10",
+        "text": "登録外の薬局での受け取りに対応。2023年度の診療件数は前年度の約2倍と報道"
       },
       {
         "date": "2024-01",
@@ -2584,8 +2724,16 @@
         "text": "2025年6月での終了を発表。疾患啓発アカウントも順次終了"
       },
       {
+        "date": "2024-12",
+        "text": "LINEヤフーとLINEヘルスケアが終了を発表"
+      },
+      {
         "date": "2025-03",
         "text": "3月10日に新規診療・服薬指導予約の受付を停止"
+      },
+      {
+        "date": "2025-03",
+        "text": "新規の診療・服薬指導予約の受付を停止"
       },
       {
         "date": "2025-06",
@@ -2594,6 +2742,10 @@
       {
         "date": "2025-06",
         "text": "6月10日に全機能を停止。LINEヘルスケアは全事業が終了し、2026年9月にLINEヤフーへ吸収合併"
+      },
+      {
+        "date": "2025-06",
+        "text": "2025年6月10日に全機能を終了。LINEヘルスケアの全事業が終了"
       },
       {
         "date": "2026-09",
@@ -2705,7 +2857,15 @@
       "医",
       "切",
       "り",
-      "離"
+      "離",
+      "親",
+      "会",
+      "社",
+      "似",
+      "約",
+      "対",
+      "象",
+      "や"
     ],
     "sources": [
       "https://appllio.com/news/20201217-14299-line-doctor",
@@ -2723,7 +2883,8 @@
     ],
     "updatedAt": "2026-10",
     "themes": [
-      "online-consultation"
+      "online-consultation",
+      "clinic-booking"
     ]
   },
   {
@@ -5914,65 +6075,6 @@
     ]
   },
   {
-    "id": "b-fe54f28e",
-    "name": "病院向け電子カルテ「MALL」シリーズ",
-    "company": "パシフィックシステム",
-    "companyId": "2490001009840",
-    "category": "electronic-health-record",
-    "description": "高知県宿毛市の同社が開発・販売・導入・保守まで内製で手がけた中小病院向けオンプレミス型電子カルテ。精神科・重心・透析向けの派生版もあり、導入は約200施設。",
-    "hp": "",
-    "startedYear": null,
-    "status": "統合",
-    "endedAt": "2025-09",
-    "successor": "株式会社メドレー（「MALL」「MALLクラウド」として継続）",
-    "milestones": [
-      {
-        "date": "1997-04",
-        "text": "株式会社パシフィックシステム設立"
-      },
-      {
-        "date": "2020-12",
-        "text": "メドレーが株式の80%を取得し子会社化すると発表（取得価額7.92億円、売上高6.15億円）"
-      },
-      {
-        "date": "2021-04",
-        "text": "株式会社パシフィックメディカルに商号変更"
-      },
-      {
-        "date": "2023-03",
-        "text": "20年以上にわたり中小病院・有床診療所向けにMALLを開発し、約200施設が利用と紹介される"
-      },
-      {
-        "date": "2023-10",
-        "text": "MALL・MALL精神科・MALL重心・MALL透析がIT導入補助金2023の対象ツールに。導入約200施設、約20年の運用で継続率99%と公表"
-      },
-      {
-        "date": "2025-02",
-        "text": "メドレーが子会社パシフィックメディカルの吸収合併を発表"
-      },
-      {
-        "date": "2025-09",
-        "text": "メドレーに吸収合併。MALLはメドレーが提供を継続し、クラウド版「MALLクラウド」を展開"
-      }
-    ],
-    "endReasons": [
-      "acquisition"
-    ],
-    "endReasonNote": "メドレーが病院向け電子カルテ市場への参入を目的に2020年に子会社化し、2025年9月1日に親会社メドレーへ吸収合併された。製品は終了しておらず、メドレーのもとで継続している。",
-    "lessons": "地方の独立系ベンダーが長年かけて築いた中小病院の顧客基盤が、上場企業の病院向け参入の足がかりとして取り込まれた例とみられる。",
-    "sources": [
-      "https://www2.jpx.co.jp/disc/44800/140120201216435890.pdf",
-      "https://maonline.jp/news/20201217b",
-      "https://prtimes.jp/main/html/rd/p/000000003.000076432.html",
-      "https://www.medley.jp/release/20231030.html",
-      "https://www.nihon-ma.co.jp/news/20250220_4480-13/",
-      "https://note.com/medley/n/n819de9aac00e",
-      "https://pcmed.jp/",
-      "https://note.com/medley/n/n82c51b3cdfc2"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-b4ee48c3",
     "name": "地域医療情報連携ネットワーク「はたまるねっと」システム開発・運用支援",
     "company": "パシフィックシステム",
@@ -6222,8 +6324,16 @@
         "text": "アイチケット株式会社設立"
       },
       {
+        "date": "2008-05",
+        "text": "ソネット・エムスリー（現エムスリー）が持株比率を12.3%から62.1%に引き上げ子会社化を決議（取得価額2億200万円、取得予定日2008年6月10日）。当時「iTICKET plus」は全国700超の診療所に導入、売上高1億3200万円・営業損失2億円と報道"
+      },
+      {
         "date": "2020-05",
         "text": "エムスリーが株式交換で完全子会社化を決議（効力発生2020年8月）。エムスリーデジカルの電子カルテとの連携強化が狙い"
+      },
+      {
+        "date": "2021-10",
+        "text": "エムスリーグループは予約・問診・決済を集約した「エムスリーデジカルスマート診療」（のちのデジスマ診療）の提供を開始し、グループ内に予約系サービスが並立"
       },
       {
         "date": "2023-03",
@@ -6232,6 +6342,10 @@
       {
         "date": "2023-04",
         "text": "エムスリーソリューションズに吸収合併。予約システム、待合室サイネージ広告、小児向けプレパレーション支援は同社が継続"
+      },
+      {
+        "date": "2023-04",
+        "text": "アイチケット株式会社がエムスリーソリューションズ株式会社と合併し法人としては消滅。予約・受付サイト、クラウド版診療予約システム、待合室サイネージ広告、小児向けプレパレーション支援は合併後の会社で継続"
       }
     ],
     "endReasons": [
@@ -6242,9 +6356,69 @@
       "https://corporate.m3.com/ir/release/2020/pdf/200527_iticket.pdf",
       "https://m3sol.co.jp/news/20230317",
       "https://corporate.iticket.co.jp/",
-      "https://m3sol.co.jp/company/history"
+      "https://m3sol.co.jp/company/history",
+      "https://maonline.jp/news/20080520e",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401078275",
+      "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/7rEjw7236Ha5rcIEL3DWHx/0ce982df930f71601dde7eed9d20f805/20211026_Public_J.pdf"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ],
+    "lessons": [
+      "順",
+      "番",
+      "受",
+      "付",
+      "と",
+      "い",
+      "う",
+      "単",
+      "機",
+      "能",
+      "の",
+      "予",
+      "約",
+      "シ",
+      "ス",
+      "テ",
+      "ム",
+      "は",
+      "、",
+      "電",
+      "子",
+      "カ",
+      "ル",
+      "や",
+      "決",
+      "済",
+      "を",
+      "持",
+      "つ",
+      "グ",
+      "ー",
+      "プ",
+      "一",
+      "部",
+      "品",
+      "し",
+      "て",
+      "吸",
+      "収",
+      "さ",
+      "れ",
+      "る",
+      "形",
+      "で",
+      "残",
+      "っ",
+      "た",
+      "事",
+      "例",
+      "み",
+      "ら",
+      "。"
+    ]
   },
   {
     "id": "b-15e69284",
@@ -12281,6 +12455,2903 @@
     "updatedAt": "2026-10",
     "themes": [
       "health-points"
+    ]
+  },
+  {
+    "id": "b-13f255a4",
+    "name": "@link（アットリンク）／アットリンクアプリ",
+    "company": "株式会社オフショア → 株式会社メドレー（2024年10月に子会社化）",
+    "category": "medical-dx",
+    "description": "有床病院・診療所（特に産婦人科）向けの予約・業務支援システムと、患者向けの統合アプリ。医療機関が利用料を払い、患者はアプリやWebで予約・問診・決済などを行う。",
+    "hp": "",
+    "startedYear": null,
+    "status": "休止",
+    "endedAt": "2026-10",
+    "successor": "（2026年10月時点で一時停止中。院内向け機能は別環境の「@link クラウド β版」で段階再開予定と報道）",
+    "milestones": [
+      {
+        "date": "2024-09",
+        "text": "メドレーが株式会社オフショア（神戸市）の全株式取得を決議・契約。取得価額は普通株式約25.8億円、アドバイザリー費用等を含め概算27億円。株式譲渡は2024年10月1日予定"
+      },
+      {
+        "date": "2026-10",
+        "text": "メドレーが第三者による不正アクセスを確認し、10月14日深夜から@link・アットリンクアプリ・周辺サービスを一時停止。利用医療機関787施設すべてが影響を受ける可能性があると公表。調査で9月下旬〜10月中旬に不正プログラム経由でデータベースから情報が取得されたことを確認したと10月23日に更新"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "停止は事業判断ではなく不正アクセスへの対応。メドレーは原因・影響範囲の調査と被害拡大防止のため一時停止したと説明しており、2026年10月23日時点で再開時期は未定。患者向けアプリ・Web予約は停止継続と報じられている。",
+    "lessons": "予約システムは患者の個人情報を大量に抱えるため、一度の侵害で多数の医療機関の受付業務が同時に止まり、電話受付に逆戻りするリスクを示した事例とみられる。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20240930_4480-9/",
+      "https://www.medley.jp/notice/20261015.html",
+      "https://internet.watch.impress.co.jp/docs/news/2148459.html",
+      "https://www.sinailc.com/information/%E5%A4%96%E9%83%A8%E8%A8%BA%E5%AF%9F%E4%BA%88%E7%B4%84%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8C%E3%82%A2%E3%83%83%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF%E3%80%8D%E3%81%AE%E4%B8%80%E6%99%82%E5%81%9C/",
+      "https://rocket-boys.co.jp/security-measures-lab/medley_atlink_privacy_investigation_delay_beta_restart_2026102/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-8e6af65c",
+    "name": "EPARKクリニック・病院",
+    "company": "株式会社EPARKメディカル（EPARKグループ）",
+    "category": "medical-dx",
+    "description": "生活者向けの医院検索・Web予約サイトと、医療機関向けの事前予約・当日順番待ち・LINE予約・電話自動応答システムを組み合わせたサービス。EPARK会員基盤からの送客と予約システム利用料で収益化する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2020-09",
+        "text": "厚労省の発熱患者受診体制に関する事務連絡（2020年9月4日）を受け、医院ページに発熱患者向け注意事項を掲載できる機能を追加（運営：株式会社EPARKメディカル）"
+      },
+      {
+        "date": "2024-11",
+        "text": "医療機関向け資料でEPARK会員約5,400万人、EPARKクリニック・病院の年間PV1.5億以上と説明"
+      },
+      {
+        "date": "2026-07",
+        "text": "一部のクリニックがEPARK経由のWeb予約受付を終了し自院サイトの予約へ切り替えたと告知（個別医院の判断）"
+      }
+    ],
+    "sources": [
+      "https://www.dreamnews.jp/press/0000223186/",
+      "https://fdoc.jp/docs/lp/basic/index.html",
+      "https://www.irakoclinic.com/archives/23899"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-b7a4cf08",
+    "name": "EPARK歯科",
+    "company": "エンパワーヘルスケア株式会社",
+    "companyId": "5010401081856",
+    "category": "dental",
+    "description": "歯科医院の検索・Web予約メディアと、歯科医院向けの予約台帳・LINE活用・MEO等の集患支援を提供。医院からの掲載料・システム利用料で収益化する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2024-03",
+        "text": "グループ会社の株式会社EH（2024年1月に商号変更）を吸収合併"
+      }
+    ],
+    "sources": [
+      "https://haisha-yoyaku.jp/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401148037"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-70d71ad9",
+    "name": "3Bees（スリービーズ）診療予約・順番管理",
+    "company": "株式会社メディ・ウェブ",
+    "companyId": "7010401095730",
+    "category": "medical-dx",
+    "description": "開業医が創業したメディ・ウェブによるクリニック向けクラウドの順番管理・診察予約・自動受付・問診・LINE予約。医療機関が月額料金を払うSaaS型。",
+    "hp": "",
+    "startedYear": 2012,
+    "status": "提供中",
+    "startedAt": "2012-11",
+    "milestones": [
+      {
+        "date": "2012-11",
+        "text": "診療業務支援ウェブサービス「3Bees」をリリース"
+      },
+      {
+        "date": "2014-07",
+        "text": "リクルートホールディングスが投資子会社RSPファンド5号を通じ第三者割当増資を引き受け。2014年6月時点で約2,600の医療機関ユーザー。リクルートは医療IT領域の知見獲得が目的と説明"
+      },
+      {
+        "date": "2021-07",
+        "text": "全サービス（患者側含む）で画面にアクセスできない障害が発生"
+      },
+      {
+        "date": "2025-06",
+        "text": "集患対策ウェビナーを開催するなど提供を継続"
+      }
+    ],
+    "sources": [
+      "https://kyodonewsprwire.jp/release/201211238514",
+      "https://digitalpr.jp/r/8353",
+      "https://www.3bees.com/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-21c5a4ad",
+    "name": "Caloo（カルー）病院口コミ検索／アポクル予約",
+    "company": "カルー株式会社",
+    "category": "marketing-support",
+    "description": "全国約17万件の病院・クリニック・歯科医院の情報と患者の口コミを掲載する検索サイト。医療機関向けに予約システム「アポクル予約」やWeb問診も提供する。",
+    "hp": "",
+    "startedYear": 2010,
+    "status": "提供中",
+    "startedAt": "2010",
+    "milestones": [
+      {
+        "date": "2010",
+        "text": "サービス開始"
+      },
+      {
+        "date": "2026",
+        "text": "サイト上で1日約27万人・月800万人の利用、口コミ約26万件と表示。医療機関向けに「アポクル予約」「アポクル問診」を案内"
+      }
+    ],
+    "sources": [
+      "https://caloo.jp/help/guide"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-fc3e62ae",
+    "name": "病院なび",
+    "company": "株式会社eヘルスケア",
+    "companyId": "4011101055432",
+    "category": "marketing-support",
+    "description": "全国の病院・医院を検索できる生活者向けサイト。院内感染対策の情報掲載から始まり、医療機関向けホームページ制作や医療相談などを併設する。",
+    "hp": "",
+    "startedYear": 2009,
+    "status": "提供中",
+    "startedAt": "2009-05",
+    "milestones": [
+      {
+        "date": "2009-05",
+        "text": "新型インフルエンザ流行を背景に、院内感染対策をしている医療機関も確認できる病院検索サイトとして開設"
+      },
+      {
+        "date": "2009-10",
+        "text": "auのEZweb公式サイトとして提供開始"
+      }
+    ],
+    "sources": [
+      "https://www.atpress.ne.jp/news/12597"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-9ac76a5b",
+    "name": "医者どこネット（病院検索サイト）",
+    "company": "トスメディカル株式会社",
+    "category": "marketing-support",
+    "description": "医療機関情報を検索できる生活者向けの病院検索サイト。運営会社は医療機関向けの診療予約システム「医者どこ予約」や地域医療連携システムも手がける。",
+    "hp": "",
+    "startedYear": 2001,
+    "status": "終了",
+    "startedAt": "2001",
+    "endedAt": "2026-03",
+    "successor": "診療予約システム「医者どこ予約」は継続",
+    "milestones": [
+      {
+        "date": "2001",
+        "text": "サービス開始"
+      },
+      {
+        "date": "2025-12",
+        "text": "医療機関データベースを更新（最後の更新告知）"
+      },
+      {
+        "date": "2026-03",
+        "text": "2026年3月31日でサービス終了（2026年4月1日告知）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "告知では「医療機関を取り巻く情報環境の変化を踏まえ」終了したと説明しており、それ以上の具体的な理由は公表されていない。予約システム事業は継続している。",
+    "lessons": "病院検索という情報提供だけの事業は、予約システムのような医療機関の業務に組み込まれた事業より先に役割を終えやすいとみられる。",
+    "sources": [
+      "https://toss-medical.co.jp/4262"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-2d239327",
+    "name": "デジスマ診療（旧エムスリーデジカルスマート診療）",
+    "company": "エムスリーデジカル株式会社",
+    "companyId": "6010401119795",
+    "category": "medical-dx",
+    "description": "予約・自動受付・問診・キャッシュレス決済・CRMをまとめたクリニック向けクラウドサービスと患者向けアプリ。クラウド電子カルテ「エムスリーデジカル」と連携して受付から会計までをつなぐ。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-10",
+    "milestones": [
+      {
+        "date": "2021-04",
+        "text": "前身の「エムスリーデジカルスマート支払い」を発表"
+      },
+      {
+        "date": "2021-10",
+        "text": "予約・問診・決済を集約した「エムスリーデジカルスマート診療」の提供を開始"
+      },
+      {
+        "date": "2024-04",
+        "text": "エムスリーはクリニックDX支援の柱として「エムスリーデジカル」と「デジスマ診療」を挙げる"
+      }
+    ],
+    "sources": [
+      "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/7rEjw7236Ha5rcIEL3DWHx/0ce982df930f71601dde7eed9d20f805/20211026_Public_J.pdf",
+      "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/3AUqsLxQqr8i8Y5nl2YNPc/22d6c0e9e449333fab27bd89f233a5eb/20240401_Public.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-103682ea",
+    "name": "GMOクリニック・マップ",
+    "company": "GMOヘルスケア株式会社",
+    "companyId": "8120001099797",
+    "category": "medical-dx",
+    "description": "生活者向けのクリニック検索・予約サイト。GMOのクリニック向けシステム（AIチャート、のちのヘルステックONE）の導入医院では予約・Web問診・オンライン診療・処方薬配送まで連携する。医療機関は無料、決済手数料のみ負担。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-09",
+    "milestones": [
+      {
+        "date": "2024-09",
+        "text": "GMOヘルスケアで「AIチャート」「GMOクリニック・マップ」「薬局24」の無料医療プラットフォームとして提供開始。予約等はAIチャート導入クリニックのみ対象"
+      },
+      {
+        "date": "2025-03",
+        "text": "運営主体がGMOヘルスケアからGMOヘルステックに変更（分割承継）"
+      },
+      {
+        "date": "2025-08",
+        "text": "GMOヘルステックがGMOヘルスケアとハヤレジを吸収合併"
+      },
+      {
+        "date": "2025-12",
+        "text": "医療機関向けプラットフォームを「ヘルステックONE」にブランド変更"
+      }
+    ],
+    "sources": [
+      "https://group.gmo/pdf/news/gmo_news_9154.pdf",
+      "https://gmo-healthtech.com/news/2001/",
+      "https://gmo-healthtech.com/company/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-9907c3c9",
+    "name": "キレイパス（美容医療チケット・予約サイト）",
+    "company": "GMOビューティー株式会社（GMOインターネットグループ）",
+    "category": "medical-cosmetic",
+    "description": "クーポン共同購入サイト「くまポン」のノウハウを使い、美容医療の施術チケットを販売・予約できる生活者向けサイト。クリニックからの手数料で収益化する。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-11",
+    "milestones": [
+      {
+        "date": "2018-11",
+        "text": "美容医療に特化したチケット購入サイト「キレイパス」の運営を開始"
+      },
+      {
+        "date": "2022-03",
+        "text": "自由診療クリニック向けSaaS「キレイパスコネクト」を開始し、予約・カルテ・会計まで医療機関側に展開"
+      }
+    ],
+    "sources": [
+      "https://group.gmo/pdf/news/gmo_news_8864.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-c2d451fe",
+    "name": "トリビュー（TRIBEAU）美容医療口コミ予約アプリ",
+    "company": "トリビュー",
+    "companyId": "7010401132946",
+    "category": "medical-cosmetic",
+    "description": "美容医療の症例写真・体験談を投稿・検索でき、クリニックのカウンセリングをチャットで予約できる生活者向けアプリ。日本・韓国のクリニックを掲載する。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017-10",
+    "milestones": [
+      {
+        "date": "2017-10",
+        "text": "サービス開始"
+      },
+      {
+        "date": "2019-08",
+        "text": "W ventures、ニッセイ・キャピタル、三菱UFJキャピタル等から融資含め約3.5億円を調達（累計約4.5億円）。累計15万DL、日韓100以上のクリニックで予約可能。2020年末に会員100万人・契約1,000院を目標"
+      },
+      {
+        "date": "2026-10",
+        "text": "主要エリアごとに数百件のクリニックを掲載して提供継続"
+      }
+    ],
+    "sources": [
+      "https://thebridge.jp/2019/08/tribeau-fundraising",
+      "https://tribeau.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-e7decef3",
+    "name": "Meily（メイリー）美容医療SNS",
+    "company": "株式会社Meily",
+    "companyId": "5010401135298",
+    "category": "medical-cosmetic",
+    "description": "美容医療の体験談やQ&Aを会員同士で共有し、クリニック選びに役立てる美容医療SNS。創業者自身の美容整形経験から生まれた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2023",
+    "milestones": [
+      {
+        "date": "2017-11",
+        "text": "会社創業（代表 川井優恵乃氏）。アクセラレーターCode Republicから資金を得る"
+      },
+      {
+        "date": "2019-01",
+        "text": "NOW、YJキャピタル、East Ventures、個人投資家から数千万円規模を調達。用途はプロモーションと開発体制強化"
+      },
+      {
+        "date": "2023-05",
+        "text": "会社サイトのWayback Machine最終保存。以降の活動は確認できない"
+      },
+      {
+        "date": "2026-03",
+        "text": "厚生年金の適用事業所が全喪。解散・清算の登記はない"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "サービス終了の告知は確認できず、終了時期は活動が最後に確認できる2023年とした。日本のApp Storeでも見つからない。理由は公表されていない。",
+    "sources": [
+      "https://thebridge.jp/2019/01/meily-fundraising",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010401135298"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-5269898c",
+    "name": "ルクモ（LUCMO）美容整形の写真口コミ・予約アプリ",
+    "company": "株式会社ティンク",
+    "companyId": "3011001111641",
+    "category": "medical-cosmetic",
+    "description": "美容整形の症例写真と口コミを見て、クリニックの施術をお得に予約できる生活者向けアプリ。クリニックからの送客手数料型。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "統合",
+    "startedAt": "2017",
+    "endedAt": "2021-12",
+    "successor": "Healingpaperの美容医療情報アプリ「カンナムオンニ」",
+    "milestones": [
+      {
+        "date": "2017",
+        "text": "サービス開始（アプリ説明による）"
+      },
+      {
+        "date": "2020-08",
+        "text": "韓国の美容医療アプリ「カンナムオンニ（江南お姉さん）」を運営するHealingpaperが、ティンクからルクモ事業を取得"
+      },
+      {
+        "date": "2021-03",
+        "text": "カンナムオンニは日本展開から4カ月で350クリニックと契約したと報道"
+      },
+      {
+        "date": "2021-12",
+        "text": "ルクモをカンナムオンニに統合し、データ統合を実施（最終版1.6.7）"
+      },
+      {
+        "date": "2023-11",
+        "text": "株式会社ティンクが清算結了"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "事業は2020年8月に韓国Healingpaperへ譲渡され、2021年12月に同社のカンナムオンニへ統合された。ティンク側が譲渡した理由は公表されていない。",
+    "lessons": "国内の美容医療予約アプリが、本国で規模を持つ海外勢の日本参入時に受け皿として買われた事例とみられる。",
+    "sources": [
+      "https://apps.apple.com/jp/app/id1273629997",
+      "https://thebridge.jp/2021/03/gangnam-sister-attracts-350-clinics-after-japan-expansion-pickupnews",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011001111641"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-85113763",
+    "name": "カンナムオンニ（日本版）美容医療比較・予約アプリ",
+    "company": "Healingpaper（韓国）および日本法人",
+    "category": "medical-cosmetic",
+    "description": "韓国No.1をうたう美容医療の見積もり比較・口コミ・予約アプリの日本版。クリニックからの広告・送客費で収益化する。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "不明",
+    "startedAt": "2020",
+    "milestones": [
+      {
+        "date": "2019-11",
+        "text": "Healingpaperが外国人患者の送客サービスを開始し、その後日本法人を設立"
+      },
+      {
+        "date": "2020-04",
+        "text": "本国でLegend Capitalから185億ウォン（約17.8億円）を調達"
+      },
+      {
+        "date": "2020-08",
+        "text": "日本の美容整形アプリ「ルクモ」事業を取得"
+      },
+      {
+        "date": "2021-03",
+        "text": "日本展開から4カ月で350クリニックと契約。韓国では同じ数に約3年かかったと報道"
+      },
+      {
+        "date": "2021-12",
+        "text": "ルクモの利用者データを統合"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "sources": [
+      "https://thebridge.jp/2021/03/gangnam-sister-attracts-350-clinics-after-japan-expansion-pickupnews",
+      "https://apps.apple.com/jp/app/id1273629997"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-a44d2267",
+    "name": "Apotool & Box（歯科予約・患者管理システム）",
+    "company": "株式会社ストランザ",
+    "companyId": "4010401105780",
+    "category": "dental",
+    "description": "歯科医院向けのクラウド予約管理を起点に、患者アプリ「私の歯医者さん」、問診、会計などを一元管理するシステム。医院が月額料金を払うSaaS型。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "提供中",
+    "startedAt": "2013",
+    "milestones": [
+      {
+        "date": "2013",
+        "text": "リリース（2026年時点の公式サイトで「リリースから13年」と表記）"
+      },
+      {
+        "date": "2026-10",
+        "text": "IT導入補助金（デジタル化・AI導入補助金）対象として案内し提供継続"
+      }
+    ],
+    "sources": [
+      "https://apotool.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-e474faa9",
+    "name": "人間ドックのマーソ（MRSO）",
+    "company": "マーソ株式会社",
+    "companyId": "9010401116526",
+    "category": "medical-dx",
+    "description": "人間ドック・健診の検索・予約サイト。健診施設からの送客手数料で収益化し、法人向け・自治体向けにも展開する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2026-10",
+        "text": "サイト上で2,048施設の予約を受け付けると表示。「年間予約数No.1」は2022年11〜12月の調査会社ヒアリングによると注記"
+      }
+    ],
+    "sources": [
+      "https://www.mrso.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "clinic-booking"
+    ]
+  },
+  {
+    "id": "b-36740cd8",
+    "name": "きりんカルテ（完全無料クラウド型電子カルテ「カルテZERO」）",
+    "company": "アポロテクノロジーズ株式会社",
+    "companyId": "9290001064750",
+    "category": "electronic-health-record",
+    "description": "福岡のスタートアップが開発した診療所向けクラウド電子カルテ。日医標準レセプトソフト（日レセクラウド）と連携し、基本機能を無料で提供。製薬企業向け情報サービスや診療報酬の早期資金化サービスで収益を得るモデルだった。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "譲渡",
+    "startedAt": "2016",
+    "endedAt": "2021-04",
+    "successor": "PHC株式会社メディコム事業部（2023年4月からウィーメックス株式会社）",
+    "milestones": [
+      {
+        "date": "2013",
+        "text": "きりんカルテシステム株式会社設立（福岡市）"
+      },
+      {
+        "date": "2016",
+        "text": "クラウド型電子カルテを国内で発売"
+      },
+      {
+        "date": "2018-02",
+        "text": "画像をカルテにアップロードするスマホアプリ「カルテZERO」を公開"
+      },
+      {
+        "date": "2019",
+        "text": "日レセ連携のクラウド型電子カルテで導入数トップとPHCが説明（2019年の第1回ORCAカンファレンス資料、2018年7月〜2019年6月の集計）"
+      },
+      {
+        "date": "2020-07",
+        "text": "「完全無料」をうたい、製薬企業から情報提供料を得る「カルテMR」や、保険請求分を当月に前払いする有料の「カルテFRM」で収益化すると紹介される（スポンサー記事）"
+      },
+      {
+        "date": "2021-02",
+        "text": "PHCとクラウド型電子カルテ事業の譲渡契約を締結。PHCはオンプレミス中心の製品群にクラウド型を加える狙いと説明"
+      },
+      {
+        "date": "2021-04",
+        "text": "譲渡完了。販売はPHCメディコム事業部が継続"
+      },
+      {
+        "date": "2022-01",
+        "text": "旧きりんカルテシステムはクアッガテクノロジーズを経てアポロテクノロジーズに商号変更し、病院経営可視化ツールへ転じる"
+      },
+      {
+        "date": "2023-04",
+        "text": "PHCメディコム事業部とPHCメディコムが統合し、ウィーメックス株式会社として事業開始"
+      },
+      {
+        "date": "2023-05",
+        "text": "ウィーメックス名義の「カルテZERO」アプリの最終更新（説明文は既存の「きりんカルテ」利用者のみ利用可）"
+      },
+      {
+        "date": "2024-09",
+        "text": "ウィーメックスが自社開発の完全クラウド型「Medicom クラウドカルテ」の先行受注を発表。2026年10月時点の同社製品一覧に「きりんカルテ」の名前はない"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "事業はPHCへ譲渡された。PHCは理由として、医療情報のデジタル化で医療ICT市場の拡大が見込まれること、オンプレミス中心の製品群にクラウド型を加えることを挙げている。売り手側が譲渡を選んだ理由や、その後の「きりんカルテ」の提供終了時期は公表情報で確認できなかった（第三者サイトは「サービス終了」と表示）。",
+    "lessons": "電子カルテを無料にして周辺サービスで回収するモデルは、大手の製品群に吸収される形で出口を迎えた。電子カルテ単体の無料化だけでは独立事業として続けにくいことを示す事例とみられる。",
+    "sources": [
+      "https://www.phchd.com/jp/phc/news/2021/0222_2",
+      "https://www.phchd.com/jp/phc/news/2021/0401",
+      "https://boxil.jp/mag/a3589/",
+      "https://apps.apple.com/jp/app/id1335518774",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9290001064750",
+      "https://www.phchd.com/jp/medicom/about",
+      "https://kigyolog.com/tool.php?id=2264"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-acfafcce",
+    "name": "CLIPLA（クリプラ）クラウド電子カルテ",
+    "company": "株式会社クリプラ",
+    "companyId": "8011101068199",
+    "category": "electronic-health-record",
+    "description": "病院経営出身の創業者による診療所向けクラウド電子カルテ。ORCA連携から始め、眼科・産婦人科・耳鼻咽喉科など診療科特化版とレセコン一体型を展開。医療機関の月額利用料で収益化する。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-01",
+    "milestones": [
+      {
+        "date": "2013-10",
+        "text": "株式会社クオリズム設立"
+      },
+      {
+        "date": "2015-04",
+        "text": "クリニカル・プラットフォーム株式会社に社名変更。5月α版、10月β版を公開。同月メドピアと業務資本提携"
+      },
+      {
+        "date": "2016-01",
+        "text": "ORCAと連動するクラウド電子カルテ「Clipla」を正式リリース"
+      },
+      {
+        "date": "2016-07",
+        "text": "モバイル・インターネットキャピタルから約2億円を調達"
+      },
+      {
+        "date": "2017-05",
+        "text": "エムティーアイから総額約1億円を調達"
+      },
+      {
+        "date": "2017-08",
+        "text": "眼科向け「CLIPLA Eye」を提供開始"
+      },
+      {
+        "date": "2018-03",
+        "text": "エムティーアイおよびメディパルホールディングスと資本業務提携"
+      },
+      {
+        "date": "2019-03",
+        "text": "株式会社クリプラに社名変更。12月に産婦人科向け「CLIPLA Luna」（ルナルナ連携）を提供開始"
+      },
+      {
+        "date": "2021-05",
+        "text": "耳鼻咽喉科向け「CLIPLA ENT」を販売開始。この時点でエムティーアイの連結子会社"
+      },
+      {
+        "date": "2021-11",
+        "text": "複数診療科向け「CLIPLA Plus」を販売開始"
+      },
+      {
+        "date": "2026-02",
+        "text": "デジタル化・AI導入補助金2026の対象製品として案内"
+      }
+    ],
+    "lessons": "汎用型で大手と競うのではなく、眼科・産婦人科など診療科に特化し、親会社（エムティーアイ）の消費者向けアプリと連携することで続いている事例とみられる。",
+    "sources": [
+      "https://clipla.jp/company/",
+      "https://clipla.jp/news/",
+      "https://initial.inc/companies/A-16896",
+      "https://ascii.jp/elem/000/004/056/4056352/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-590962c0",
+    "name": "エムスリーデジカル（クラウド電子カルテ）",
+    "company": "エムスリーデジカル株式会社",
+    "companyId": "6010401119795",
+    "category": "electronic-health-record",
+    "description": "AIによる自動学習やiPadでの手書き入力を特徴とする診療所向けのクラウド電子カルテ。医師会員基盤を持つエムスリーグループが提供し、安価な月額料金で普及した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2021-10",
+        "text": "導入件数が3,000件を突破、のべ7,000万人分の診療で利用されたと発表。予約・問診・決済を集約した「エムスリーデジカルスマート診療」（のちのデジスマ診療）を開始"
+      },
+      {
+        "date": "2022-07",
+        "text": "グループのエムスリーソリューションズがキヤノンメディカルシステムズの診療所向け電子カルテ・医事会計事業を譲受。グループでクラウド型とオンプレミス型の両方を扱う体制に"
+      },
+      {
+        "date": "2024-04",
+        "text": "エムスリーはクリニックDX支援の主力として「AI搭載クラウド電子カルテ エムスリーデジカル」を挙げる"
+      }
+    ],
+    "sources": [
+      "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/7rEjw7236Ha5rcIEL3DWHx/0ce982df930f71601dde7eed9d20f805/20211026_Public_J.pdf",
+      "https://monoist.itmedia.co.jp/mn/articles/2205/18/news055.html",
+      "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/3AUqsLxQqr8i8Y5nl2YNPc/22d6c0e9e449333fab27bd89f233a5eb/20240401_Public.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-b50973eb",
+    "name": "キヤノンメディカルシステムズ 診療所向け電子カルテ・医事会計システム事業",
+    "company": "キヤノンメディカルシステムズ株式会社 → エムスリーソリューションズ株式会社",
+    "category": "electronic-health-record",
+    "description": "1970年代から続いた診療所向けの電子カルテ・医事会計（レセコン）事業。画像診断機器メーカーの周辺事業として提供されていた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2022-07",
+    "successor": "エムスリーソリューションズ株式会社（エムスリーグループ）",
+    "milestones": [
+      {
+        "date": "2022-04",
+        "text": "キヤノンメディカルシステムズが事業譲渡を発表"
+      },
+      {
+        "date": "2022-07",
+        "text": "2022年7月1日付でエムスリーソリューションズへ譲渡。両社はAI技術開発での協業も検討と報道"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "報道によれば、エムスリーソリューションズがクリニック向け電子カルテのDX化とAI活用を進めており、譲渡によりDX志向のクリニックに選択肢が広がることが理由として示された。キヤノン側が手放した理由の詳細は公表されていない。",
+    "lessons": "画像機器メーカーにとって診療所向けレセコン・電子カルテは周辺事業であり、クラウド化・AI化の投資局面で専業グループへ移った事例とみられる。",
+    "sources": [
+      "https://monoist.itmedia.co.jp/mn/articles/2205/18/news055.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-9d0ac8e2",
+    "name": "富士フイルムヘルスケアシステムズ 電子カルテ・レセプト関連事業",
+    "company": "富士フイルムヘルスケアシステムズ株式会社 → ウィーメックスヘルスケアシステムズ株式会社（PHCグループ）",
+    "category": "electronic-health-record",
+    "description": "診療所・薬局・歯科向けの電子カルテ、医事コンピュータ（レセコン）、電子薬歴、レセプト点検サービス。会社分割で新会社に移し、PHC傘下のウィーメックスが全株式を取得した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2023-10",
+    "successor": "ウィーメックスヘルスケアシステムズ株式会社（ウィーメックスの子会社）",
+    "milestones": [
+      {
+        "date": "2023-03",
+        "text": "ウィーメックスによる事業取得の合意を発表"
+      },
+      {
+        "date": "2023-10",
+        "text": "富士フイルムヘルスケアが新設子会社に吸収分割で事業を承継させ、ウィーメックスが全株式を取得。ウィーメックスヘルスケアシステムズとして発足"
+      },
+      {
+        "date": "2026-10",
+        "text": "ウィーメックスの製品一覧にORCA連動型クラウド電子カルテ「Hi-SEED Cloud」、有床診療所・中規模病院向け「Open-Karte Cloud」などが並ぶ"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "PHCは、4万超のユーザーを持つ自社の診療所向け電子カルテ・薬局向けレセコンとレセプト点検事業を組み合わせ、医療DXに対応した品揃えを拡充することを理由に挙げている。富士フイルム側が手放した理由は公表情報で確認できなかった。",
+    "lessons": "大手電機・機器メーカー系の診療所向け電子カルテが、専業大手（PHC・エムスリー）へ集約されていく流れの一部とみられる。",
+    "sources": [
+      "https://phchd.com/jp/news/2023/1002",
+      "https://www.phchd.com/jp/medicom/about",
+      "https://www.phchd.com/jp/medicom/clinics/hi-seed-cloud"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-79889d9c",
+    "name": "Medicom クラウドカルテ",
+    "company": "ウィーメックス株式会社（PHCホールディングス傘下）",
+    "category": "electronic-health-record",
+    "description": "診療所シェア首位の電子カルテメーカーが新たに出した完全クラウド型・医事一体型の電子カルテ。従来のオンプレミス型・ハイブリッド型より低価格とし、Web予約・問診などをオプションで用意する。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025",
+    "milestones": [
+      {
+        "date": "2021-04",
+        "text": "PHCがきりんカルテシステムからクラウド型電子カルテ事業を譲受"
+      },
+      {
+        "date": "2023-04",
+        "text": "PHCメディコム事業部とPHCメディコムが統合し、ウィーメックスとして事業開始"
+      },
+      {
+        "date": "2024-09",
+        "text": "完全クラウド型「Medicom クラウドカルテ」を発表し、2024年10月1日から先行受注、翌春の提供開始予定とした。政府の「電子カルテ普及率2030年100%」目標と、令和2年度の一般診療所普及率49.9%を背景に挙げる"
+      }
+    ],
+    "lessons": "スタートアップのクラウド電子カルテを買収した大手が、数年後に自社開発の完全クラウド型へ切り替えた流れの一部とみられる。",
+    "sources": [
+      "https://www.wemex.com/news/20240926_127.html",
+      "https://www.phchd.com/jp/medicom/about"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-5089b7d2",
+    "name": "Biz ひかりクラウド Future Clinic 21 ワープ（FC21ワープ）",
+    "company": "東日本電信電話株式会社（NTT東日本）",
+    "category": "electronic-health-record",
+    "description": "ペンによるアイコン操作と手書き入力が特徴の診療所向け電子カルテサービス。データをNTTのデータセンターにバックアップし、ソフトとサーバーを買わずに月額1万9,000円（端末1台）から使える。2028年3月での提供終了を案内している。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "終了",
+    "startedAt": "2013-07",
+    "endedAt": "2028-03",
+    "successor": "（代替サービスや他社サービスへの移行を利用者に打診していると報道）",
+    "milestones": [
+      {
+        "date": "2013-05",
+        "text": "提供開始を発表。診療所の電子カルテ普及率23.8%（大規模病院69.6%）で「操作性」と「導入コスト」が障壁と説明。アプリは根東義明教授（日本大学）の発案をNTT東日本が製品化"
+      },
+      {
+        "date": "2013-07",
+        "text": "東日本エリアで提供開始（西日本エリアは8月以降）。初期費用は9月末まで無料"
+      },
+      {
+        "date": "2025-06",
+        "text": "NTT東日本が2028年3月での提供終了をホームページや文書で通知したことを受け、大阪府保険医協会が緊急アンケートを実施。電子カルテ利用者169人中10人が提供終了の話を受けていた"
+      }
+    ],
+    "endReasons": [
+      "regulation"
+    ],
+    "endReasonNote": "報道によれば、NTT東日本は医療DXへの投資が多大なことを理由に2028年3月で終了すると案内した。国の医療DX施策（電子処方箋、電子カルテ情報共有サービス等）に追従する投資負担を理由とする説明で、endReasonsは制度対応の負担としてregulationに分類した（終了は2028年3月の予定）。",
+    "lessons": "通信会社が回線販売の延長で始めた電子カルテは、国の医療DX仕様への追従投資が続く局面で撤退を選んだ。電子カルテは売り切りではなく制度対応の継続投資が前提になる事業とみられる。",
+    "sources": [
+      "https://www.ntt-east.co.jp/release/detail/__icsFiles/afieldfile/2013/05/16/20130516_01.pdf",
+      "https://www.jmedj.co.jp/blogs/product/product_26615"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-eb350293",
+    "name": "E-EGG（診療所向け電子カルテ）",
+    "company": "GMOヘルスケア株式会社",
+    "companyId": "8120001099797",
+    "category": "electronic-health-record",
+    "description": "大阪のアイソルが開発・販売・保守していた診療所向け電子カルテ。アイソルはGMOグループ入りしてGMOヘルスケアとなり、その後GMOヘルステックに吸収合併された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "successor": "（GMOヘルステックは無料のレセコン一体型クラウド電子カルテ「AIチャート byGMO」を提供）",
+    "milestones": [
+      {
+        "date": "2024-06",
+        "text": "株式会社アイソルがGMOヘルスケア株式会社に商号変更"
+      },
+      {
+        "date": "2025-06",
+        "text": "大阪府保険医協会の緊急アンケートで、E-EGG利用者に提供終了の話があり、代替サービスや他社への移行を打診されたとの回答"
+      },
+      {
+        "date": "2025-08",
+        "text": "GMOヘルスケアがGMOヘルステックに吸収合併され解散"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "提供終了の話が利用者にあったことは医師団体のアンケートで報じられたが、E-EGGの正式な終了告知・終了時期・理由は公表情報で確認できなかった。",
+    "sources": [
+      "https://www.jmedj.co.jp/blogs/product/product_26615",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120001099797",
+      "https://gmo-healthtech.com/company/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-b225a841",
+    "name": "AIチャート byGMO／ヘルステックONE byGMO",
+    "company": "GMOヘルステック株式会社（GMOフィナンシャルホールディングス等の共同出資）",
+    "category": "electronic-health-record",
+    "description": "予約・受付・問診・診療・決済をまとめたクリニック向けプラットフォームと、AI搭載のレセコン一体型クラウド電子カルテ。初期費用・月額利用料を無料とし、オンライン決済手数料などで収益を得る。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-09",
+    "milestones": [
+      {
+        "date": "2024-01",
+        "text": "GMOヘルステック株式会社設立"
+      },
+      {
+        "date": "2024-09",
+        "text": "クリニック向けシステム「AIチャート」と患者向け「GMOクリニック・マップ」、薬局「薬局24」を無料プラットフォームとして提供開始。AI搭載電子カルテの無料提供を2025年4月に予定と発表"
+      },
+      {
+        "date": "2025-03",
+        "text": "GMOヘルスケア（旧アイソル）から医療プラットフォーム事業を分割承継"
+      },
+      {
+        "date": "2025-10",
+        "text": "レセコン一体型クラウド電子カルテ「AIチャート byGMO」の無料提供を2025年12月4日から始めると発表（当初予定から延期）"
+      },
+      {
+        "date": "2025-12",
+        "text": "プラットフォームを「ヘルステックONE byGMO」に改称し、電子カルテ機能「AIチャート byGMO」の申込受付を開始"
+      }
+    ],
+    "lessons": "2010年代の「カルテZERO」と同じく電子カルテを無料にして周辺の決済・薬局で回収する設計で、無料モデルが再び試されている事例とみられる。",
+    "sources": [
+      "https://group.gmo/pdf/news/gmo_news_9154.pdf",
+      "https://gmo-healthtech.com/news/2178/",
+      "https://gmo-healthtech.com/news/2164/",
+      "https://gmo-healthtech.com/company/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-2324637c",
+    "name": "OpenDolphinクラウド（ライフサイエンスコンピューティングのクラウド型電子カルテ）",
+    "company": "ライフサイエンスコンピューティング株式会社 → 株式会社メドレー（資産・顧客を譲受）",
+    "category": "electronic-health-record",
+    "description": "経産省の地域医療連携プロジェクトで生まれた電子カルテを2004年にオープンソース化した「OpenDolphin」を基に、診療所・中小病院へクラウド型・オンプレミス型の電子カルテとPACSを低価格で提供していた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2020-05",
+    "successor": "株式会社メドレー（電子カルテ資産と顧客アカウントを譲受、PACS技術はライセンス）",
+    "milestones": [
+      {
+        "date": "2015-07",
+        "text": "福島県の医療福祉情報ネットワークで10医療機関に「OpenDolphinクラウド」を導入と紹介される"
+      },
+      {
+        "date": "2020-05",
+        "text": "メドレーが電子カルテ資産と顧客アカウントの譲受、PACS関連技術のライセンス契約を5月1日に締結。LSCは全国約200の医科診療所・中小病院に電子カルテを提供し、クラウド型では国内有数の顧客基盤と説明"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "メドレーは譲受を発表したが、LSCが事業を手放した理由は公表されていない。",
+    "lessons": "オープンソース電子カルテは導入費を下げたが、約200施設規模では単独で制度対応・保守を続けにくく、上場企業に顧客ごと移った事例とみられる。",
+    "sources": [
+      "https://www.medley.jp/notice/post-137.html",
+      "https://atmarkit.itmedia.co.jp/ait/articles/1507/16/news019.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-9beb9909",
+    "name": "MALL（病院・有床診療所向け電子カルテ、旧パシフィックシステム）とMALLクラウド",
+    "company": "パシフィックメディカル",
+    "companyId": "2490001009840",
+    "category": "electronic-health-record",
+    "description": "高知の会社が約20年提供してきた中小病院・有床診療所向けの低価格電子カルテ。メドレーが買収して病院向け市場に参入し、国の標準仕様に準拠したクラウドネイティブ版を開発中。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2020-12",
+    "successor": "株式会社メドレー（「MALL」として提供継続）",
+    "milestones": [
+      {
+        "date": "1997-04",
+        "text": "株式会社パシフィックシステム設立"
+      },
+      {
+        "date": "2020-12",
+        "text": "メドレーがパシフィックシステムの株式取得（子会社化）を決議。17年間中小病院向けに電子カルテを提供し利用継続率98%、純資産1.12億円（2020年3月期）。目的は病院向け電子カルテ市場への参入"
+      },
+      {
+        "date": "2020-12",
+        "text": "メドレーが株式の80%を取得し子会社化すると発表（取得価額7.92億円、売上高6.15億円）"
+      },
+      {
+        "date": "2021-04",
+        "text": "株式会社パシフィックメディカルに商号変更"
+      },
+      {
+        "date": "2023-03",
+        "text": "20年以上にわたり中小病院・有床診療所向けにMALLを開発し、約200施設が利用と紹介される"
+      },
+      {
+        "date": "2023-10",
+        "text": "MALL・MALL精神科・MALL重心・MALL透析がIT導入補助金2023の対象ツールに。導入約200施設、約20年の運用で継続率99%と公表"
+      },
+      {
+        "date": "2025-02",
+        "text": "メドレーが子会社パシフィックメディカルの吸収合併を発表"
+      },
+      {
+        "date": "2025-09",
+        "text": "メドレーに吸収合併。MALLはメドレーが提供を継続し、クラウド版「MALLクラウド」を展開"
+      },
+      {
+        "date": "2025-10",
+        "text": "1997年設立の旧パシフィックシステム（のちパシフィックメディカル）が閉鎖登記"
+      },
+      {
+        "date": "2026-03",
+        "text": "「MALL」導入医療施設は約250件、約20年の運用で利用継続率98%"
+      },
+      {
+        "date": "2026-08",
+        "text": "厚労省の標準仕様に準拠したクラウドネイティブ電子カルテ「MALLクラウド」を開発中と発表。2027年1月以降に段階提供予定。デジタル庁・厚労省の「病院情報システム等の刷新に向けた協議会」に参画"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "メドレーは低コスト・高機能な中小病院向け電子カルテの普及が持続可能な地域医療に重要として買収した。売り手側の理由は公表されていない。製品は継続している。",
+    "lessons": [
+      "地",
+      "方",
+      "の",
+      "中",
+      "小",
+      "ベ",
+      "ン",
+      "ダ",
+      "ー",
+      "電",
+      "子",
+      "カ",
+      "ル",
+      "テ",
+      "が",
+      "、",
+      "国",
+      "ク",
+      "ラ",
+      "ウ",
+      "ド",
+      "移",
+      "行",
+      "針",
+      "を",
+      "前",
+      "に",
+      "資",
+      "本",
+      "力",
+      "あ",
+      "る",
+      "企",
+      "業",
+      "へ",
+      "り",
+      "版",
+      "作",
+      "直",
+      "し",
+      "進",
+      "む",
+      "流",
+      "れ",
+      "一",
+      "例",
+      "と",
+      "み",
+      "ら",
+      "。",
+      "独",
+      "立",
+      "系",
+      "長",
+      "年",
+      "か",
+      "け",
+      "て",
+      "築",
+      "い",
+      "た",
+      "病",
+      "院",
+      "顧",
+      "客",
+      "基",
+      "盤",
+      "上",
+      "場",
+      "向",
+      "参",
+      "入",
+      "足",
+      "取",
+      "込",
+      "ま"
+    ],
+    "sources": [
+      "https://www2.jpx.co.jp/disc/44800/140120201216435890.pdf",
+      "https://www.medley.jp/release/20260813.html",
+      "https://houjin.jp/c/2490001009840",
+      "https://maonline.jp/news/20201217b",
+      "https://prtimes.jp/main/html/rd/p/000000003.000076432.html",
+      "https://www.medley.jp/release/20231030.html",
+      "https://www.nihon-ma.co.jp/news/20250220_4480-13/",
+      "https://note.com/medley/n/n819de9aac00e",
+      "https://pcmed.jp/",
+      "https://note.com/medley/n/n82c51b3cdfc2"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-07c67bdb",
+    "name": "Henry（病院向けクラウド電子カルテ・レセコン一体型基幹システム）",
+    "company": "株式会社ヘンリー",
+    "companyId": "9011001122229",
+    "category": "electronic-health-record",
+    "description": "電子カルテ・オーダリング・レセコンを一体化したクラウドネイティブの病院基幹システム。200床未満の中小病院を主対象に、院内サーバー不要の月額型で提供する。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-02",
+    "milestones": [
+      {
+        "date": "2018-05",
+        "text": "株式会社ヘンリー設立"
+      },
+      {
+        "date": "2023-02",
+        "text": "病院向けクラウド型電子カルテ・レセコン「Henry」の提供開始"
+      },
+      {
+        "date": "2026-06",
+        "text": "従業員150人。200床未満の中小病院から300床規模へ対象を広げていると採用ページで説明"
+      }
+    ],
+    "sources": [
+      "https://www.aspicjapan.org/asu/service/16638",
+      "https://hrmos.co/pages/henry/jobs/Biz00002_3"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-0abe6035",
+    "name": "モバカルネット（movacal.net）在宅医療対応クラウド型電子カルテ",
+    "company": "NTTプレシジョンメディシン株式会社",
+    "companyId": "jp-136",
+    "category": "home-medical",
+    "description": "訪問診療に特化したクラウド型電子カルテ。スマホ・タブレットから入力でき、多職種での情報共有、医事文書作成、医療・介護の一括請求管理を備える。外来向けの姉妹製品「モバカルクリニック」もある。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2025-06",
+        "text": "セイコーソリューションズの長期署名サービスと連携した「書類BOX電子署名オプション」を提供開始"
+      }
+    ],
+    "sources": [
+      "https://kyodonewsprwire.jp/release/202506230978",
+      "https://movacal.net/",
+      "https://it-trend.jp/emr/22766"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-c8425063",
+    "name": "HOPE Cloud Chart（富士通のクラウド型電子カルテ）",
+    "company": "株式会社富士通マーケティング → 富士通Japan株式会社",
+    "category": "electronic-health-record",
+    "description": "中小規模病院・診療所向けに電子カルテと医事会計をパッケージにしたクラウドサービス。大手ITベンダーによる早い時期のクラウド型電子カルテ。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2014-09",
+        "text": "旭川市の愛生会病院が採用し、オーダリング運用を開始（11月に電子カルテへ移行予定）"
+      },
+      {
+        "date": "2022-08",
+        "text": "富士通Japanが大中規模病院（500床規模）向けの「HOPE LifeMark-HX Cloud」を提供開始"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "sources": [
+      "https://cloud.watch.impress.co.jp/docs/news/20140904_665197.html",
+      "https://www.sbbit.jp/article/refers/92924"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-dcc1e2b2",
+    "name": "キレイパスコネクト byGMO（自由診療クリニック向け予約・カルテ・会計一体型）",
+    "company": "GMOビューティー株式会社（GMOインターネットグループ）",
+    "category": "medical-cosmetic",
+    "description": "美容・自由診療クリニック向けに予約管理・電子カルテ・会計・経営分析・CRMを一体化したSaaS。美容医療チケット販売サイト「キレイパス」から医療機関側の業務システムへ広げた。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-03",
+    "milestones": [
+      {
+        "date": "2022-03",
+        "text": "自由診療クリニック向けSaaS「キレイパスコネクト」の運営を開始（2022年4月提供開始とも記載）"
+      },
+      {
+        "date": "2023-08",
+        "text": "QRコードで来院処理ができる「デジタル診察券」を提供開始"
+      },
+      {
+        "date": "2024-03",
+        "text": "契約院数が555院を突破"
+      }
+    ],
+    "sources": [
+      "https://group.gmo/pdf/news/gmo_news_8520.pdf",
+      "https://group.gmo/pdf/news/gmo_news_8864.pdf",
+      "https://connect.kireipass.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-9d0981af",
+    "name": "B4A（美容・自由診療クリニック向け予約システム・電子カルテ）",
+    "company": "株式会社B4A",
+    "companyId": "jp-002",
+    "category": "medical-cosmetic",
+    "description": "自由診療クリニックに特化したWeb予約・電子カルテ・会計などのクラウドツール。保険診療のレセコン連携を前提としない美容医療向けの領域で展開する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2026-10",
+        "text": "公式サイトで「自由診療向け電子カルテ 導入院数No.1」と訴求"
+      }
+    ],
+    "sources": [
+      "https://www.b4a.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-f67dc7b3",
+    "name": "iBow（訪問看護ステーション向けクラウド型電子カルテ）",
+    "company": "株式会社eWeLL",
+    "companyId": "1120001171257",
+    "category": "home-visit-nursing",
+    "description": "訪問看護に特化したクラウド型電子カルテを軸に、BPOや経営支援、医療データ事業を展開する。ステーションが月額利用料を払う。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2026-10",
+        "text": "iBowの記録を経営改善に生かすAI機能「iBowボード Pro」を提供開始"
+      }
+    ],
+    "sources": [
+      "https://ewell.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "cloud-emr"
+    ]
+  },
+  {
+    "id": "b-0ad7a57f",
+    "name": "看護師人材紹介「ナースフル」／求人広告「フルル日勤JOB」",
+    "company": "株式会社リクルートメディカルキャリア（旧 リクルートドクターズキャリア、リクルートグループ）",
+    "category": "recruting-solutions",
+    "description": "リクルートグループの医療人材会社が展開した看護師向けの人材紹介（成功報酬）と、日勤の看護師求人に絞った求人広告サービス。医療機関から手数料・掲載料を受け取るモデル。",
+    "hp": "",
+    "startedYear": 2009,
+    "status": "終了",
+    "startedAt": "2009-05",
+    "endedAt": "2020-03",
+    "milestones": [
+      {
+        "date": "2009-05",
+        "text": "看護師転職支援サービス「リクルートナースバンク」を開始（のちにブランド名を「ナースフル」に変更）"
+      },
+      {
+        "date": "2020-02",
+        "text": "2020年3月31日での人材紹介・求人広告サービスの提供終了を告知"
+      },
+      {
+        "date": "2020-03",
+        "text": "3月13日に新規求人・求職の受付を終了し、3月31日に「ナースフル」「フルル日勤JOB」を終了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "終了告知では具体的な理由は述べず、「引き続き医師・薬剤師向けの人材紹介サービスへ注力」するとしている。看護師領域から撤退し、医師・薬剤師に事業を絞った形。",
+    "lessons": "看護師紹介は大手専業（SMS、レバレジーズ、マイナビなど）がひしめく領域で、グループ内でも医師・薬剤師に資源を寄せる判断になったとみられる。",
+    "sources": [
+      "https://www.rm-career.co.jp/press_release/200227.html",
+      "https://hrog.net/news/hrservice/83430/",
+      "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%88%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-c03fce61",
+    "name": "医師転職支援「リクルートドクターズキャリア」",
+    "company": "株式会社リクルートメディカルキャリア → 株式会社RMキャリア（メドレー子会社）",
+    "category": "recruting-solutions",
+    "description": "1979年創業の日本医療情報センターに始まる医師向け人材紹介。キャリアアドバイザーが病院・クリニックと医師を仲介し、採用代行も行う。2026年にメドレーへ譲渡された。",
+    "hp": "",
+    "startedYear": 1980,
+    "status": "譲渡",
+    "startedAt": "1980-11",
+    "endedAt": "2026-08",
+    "successor": "株式会社メドレー（子会社RMキャリア）「ジョブメドレーエージェント 医師」",
+    "milestones": [
+      {
+        "date": "1980-11",
+        "text": "日本医療情報センター（JAMIC）が有料職業紹介の許可を得て医師紹介を開始"
+      },
+      {
+        "date": "2006-07",
+        "text": "リクルートの100%子会社となる。2007年10月に社名をリクルートドクターズキャリアに変更"
+      },
+      {
+        "date": "2014-10",
+        "text": "社名をリクルートメディカルキャリアに変更"
+      },
+      {
+        "date": "2020-03",
+        "text": "看護師事業（ナースフル）を終了し、医師・薬剤師に集中"
+      },
+      {
+        "date": "2026-03",
+        "text": "メドレーが同社の全事業を新設会社RMキャリア経由で譲り受けると決定（インディードリクルートパートナーズも発表）"
+      },
+      {
+        "date": "2026-08",
+        "text": "メドレーがRMキャリアの全株式を取得。医師6万件以上・薬剤師7万件以上の登録者基盤と約1万件の顧客基盤、700以上の病院・クリニックへの採用代行実績を引き継ぎ、サービス名を「ジョブメドレーエージェント 医師」に変更"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "メドレーは、ジョブメドレーの集客基盤とRMキャリアのアドバイザー型支援を組み合わせて病院領域の採用支援を強化するためと説明。リクルート側が手放した理由は、確認した資料では公表されていない。",
+    "lessons": "求人サイト型（安価な成果報酬）とアドバイザー型（高単価の紹介）が一つのグループに集約される動きの一例とみられる。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000157.000013108.html",
+      "https://www.nihon-ma.co.jp/news/20260327_4480-39/",
+      "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%88%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-e4f53388",
+    "name": "薬剤師転職支援「リクナビ薬剤師」",
+    "company": "株式会社リクルートメディカルキャリア → 株式会社RMキャリア（メドレー子会社）",
+    "category": "recruting-solutions",
+    "description": "リクルートグループの薬剤師向け人材紹介。調剤薬局・病院と薬剤師をアドバイザーが仲介する成功報酬型。2026年にメドレーへ譲渡され、ジョブメドレーのブランドに変わった。",
+    "hp": "",
+    "startedYear": 2011,
+    "status": "譲渡",
+    "startedAt": "2011-02",
+    "endedAt": "2026-08",
+    "successor": "株式会社メドレー（子会社RMキャリア）「ジョブメドレーエージェント 薬剤師」",
+    "milestones": [
+      {
+        "date": "2011-02",
+        "text": "薬剤師転職支援サービス「薬剤師求人バンク」を開始（のちに「リクナビ薬剤師」）"
+      },
+      {
+        "date": "2023-02",
+        "text": "運営会社が薬剤師向け業務支援アプリ「ヤクチエ」シリーズを事業譲渡"
+      },
+      {
+        "date": "2026-08",
+        "text": "メドレーがRMキャリアを子会社化し、サービス名を「ジョブメドレーエージェント 薬剤師」に変更"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "医師紹介と同時にメドレーへ譲渡。メドレーは病院領域の採用支援強化を目的に挙げている。リクルート側の理由は確認した資料では公表されていない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000157.000013108.html",
+      "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%88%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-b96c399c",
+    "name": "介護・看護スポットワーク「Ucare（ユーケア）」",
+    "company": "株式会社USEN WORKING（USEN-NEXT GROUP）→ 株式会社メドレー",
+    "category": "nursing",
+    "description": "介護施設・医療機関と介護職・看護師を、面接なしで数時間〜1日単位でマッチングするアプリ。施設側の手数料で収益を得る。飲食向けの単発バイト事業のノウハウを介護に転用した。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "譲渡",
+    "startedAt": "2021-04",
+    "endedAt": "2026-12",
+    "successor": "株式会社メドレー（吸収分割で承継、2026年12月1日効力発生予定）",
+    "milestones": [
+      {
+        "date": "2021-04",
+        "text": "USEN WORKINGが介護領域特化型ワークシェアリングサービスとして提供開始。グループ初の介護領域の人材サービス"
+      },
+      {
+        "date": "2021-09",
+        "text": "登録ワーカー8,000人超。求人広告のクリエイトと販売代理店契約"
+      },
+      {
+        "date": "2023-03",
+        "text": "利用ワーカー5万人突破。医療機関向けの看護師マッチングを本格開始"
+      },
+      {
+        "date": "2025-08",
+        "text": "事業の売上高5億8,400万円（2025年8月期、報道）"
+      },
+      {
+        "date": "2026-09",
+        "text": "メドレーが吸収分割で事業を承継すると決定（取得価額3億3,000万円と報道）。効力発生は2026年12月1日予定"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "メドレーは、自社の人材プラットフォーム事業の顧客基盤にスポットワークのマッチング機会を提供し、単発から長期雇用まで対応するためと説明。USEN WORKING側が手放す理由は、確認した報道・資料では公表されていない。",
+    "lessons": "介護・看護のスポットワークが、単独事業から大手求人プラットフォームの一機能へ組み込まれていく流れを示す事例とみられる。",
+    "sources": [
+      "https://unext-hd.co.jp/newsrelease/images/20210412_usenworking_ucare.pdf",
+      "https://unext-hd.co.jp/newsrelease/images/20210909_usenworking_ucare_kaigo.pdf",
+      "https://unext-hd.co.jp/newsrelease/images/20230323_usenworking_ucare_nurse%20.pdf",
+      "https://www.nihon-ma.co.jp/news/20260917_4480-43/",
+      "https://maonline.jp/news/20260917d"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-f62ed081",
+    "name": "医療・介護・福祉の求人サイト「グッピー」",
+    "company": "株式会社グッピーズ",
+    "companyId": "5011101043683",
+    "category": "recruting-solutions",
+    "description": "歯科・医療・介護・福祉職の求人・転職サイト。運営会社グッピーズは健康管理アプリのヘルスケア事業も持つ上場企業だったが、メドレーのTOBで子会社化され、のちに吸収合併された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2025-04",
+    "successor": "株式会社メドレー（「グッピー」はメドレー運営で継続）",
+    "milestones": [
+      {
+        "date": "2024-01",
+        "text": "メドレーがグッピーズ株式の公開買付け（1株3,250円）を決議。グッピーズは賛同を表明"
+      },
+      {
+        "date": "2024-04",
+        "text": "グッピーズがメドレーの連結子会社となる"
+      },
+      {
+        "date": "2025-03",
+        "text": "メドレーがグッピーズのヘルスケア事業を売却"
+      },
+      {
+        "date": "2025-04",
+        "text": "グッピーズがメドレーに吸収合併され解散。求人サイト「グッピー」はメドレーが運営を継続"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "サイト自体は終了しておらず、運営会社が買収・合併で消滅した。TOBの発表では、両社のノウハウ・アセットを相互活用するため、上場を維持すると情報共有や迅速な意思決定に制約が出るとして完全子会社化を目指すと説明。グッピーズは賛同を表明した。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/44800/140120240118516557.pdf",
+      "https://www.nihon-ma.co.jp/news/20240119_4480-8/",
+      "https://edinetdb.jp/company/E33586/history",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101043683"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "job-medley",
+    "name": "医療介護求人サイト「ジョブメドレー」",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "recruting-solutions",
+    "description": "医療・介護・福祉の事業所と求職者をつなぐ求人サイト。オンラインサポートによる安価な成果報酬型のダイレクトリクルーティング。買収で紹介・スポットワークまで広げている。",
+    "hp": "https://job-medley.com/",
+    "startedYear": 2009,
+    "status": "提供中",
+    "startedAt": "2009-11",
+    "milestones": [
+      {
+        "date": "2009-11",
+        "text": "メドレー設立（2009年6月）後、人材採用システム「ジョブメドレー」を提供開始"
+      },
+      {
+        "date": "2016-06",
+        "text": "日経BPと共同運営の医師向け「日経メディカル ワークス」を開始"
+      },
+      {
+        "date": "2019-12",
+        "text": "東証マザーズ上場"
+      },
+      {
+        "date": "2024-04",
+        "text": "求人サイト「グッピー」のグッピーズを子会社化（2025年4月吸収合併）"
+      },
+      {
+        "date": "2026-03",
+        "text": "顧客事業所数45万以上・登録会員数319万人以上"
+      },
+      {
+        "date": "2026-08",
+        "text": "リクルートメディカルキャリアの事業（医師・薬剤師紹介）を取得し「ジョブメドレーエージェント」に"
+      },
+      {
+        "date": "2026-09",
+        "text": "介護・看護スポットワーク「Ucare」の承継を決定（2026年12月予定）"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "lessons": "求人広告・成果報酬型を起点に、他社の紹介事業やスポットワーク事業を買い集めて品ぞろえを広げる「集約者」になっているとみられる。",
+    "sources": [
+      "https://edinetdb.jp/company/E33586/history",
+      "https://prtimes.jp/main/html/rd/p/000000157.000013108.html",
+      "https://www.nihon-ma.co.jp/news/20260917_4480-43/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-aaaf5f85",
+    "name": "医師向け求人「日経メディカル ワークス」",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "recruting-solutions",
+    "description": "医学メディアの日経BPと求人サイトのメドレーが共同運営した医師向けの求人サービス。メディアの医師読者とメドレーの求人基盤を組み合わせる協業モデル。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "不明",
+    "startedAt": "2016-06",
+    "milestones": [
+      {
+        "date": "2016-06",
+        "text": "メドレーと日経BP社の共同運営で開始（メドレーの有価証券報告書の沿革に記載）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "開始の記載は有価証券報告書にあるが、その後の経過や終了の告知は確認できなかった。2026年10月時点の提供状況は不明。",
+    "sources": [
+      "https://edinetdb.jp/company/E33586/history"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-714f17d4",
+    "name": "エムスリーキャリア（医師・薬剤師の転職支援、旧 SMS「ドクターキャリアエージェント」等）",
+    "company": "エムスリー",
+    "companyId": "1010401063016",
+    "category": "recruting-solutions",
+    "description": "医師会員サイトm3.comの会員基盤を使い、医師・薬剤師の常勤・非常勤の転職を支援する人材紹介。企業向け産業医紹介も手がける。SMSの医師・薬剤師紹介事業を持ち寄って設立された。",
+    "hp": "",
+    "startedYear": 2009,
+    "status": "提供中",
+    "startedAt": "2009-12",
+    "milestones": [
+      {
+        "date": "2007",
+        "text": "エス・エム・エスが薬剤師向け人材紹介「ファーマ人材バンク」を開始"
+      },
+      {
+        "date": "2009-12",
+        "text": "エムスリーとエス・エム・エスが共同新設分割でエムスリーキャリアを設立。SMSの医師向け「ドクターキャリアエージェント」と薬剤師向け「ファーマ人材バンク」を移管（現 M3 Career Agent、薬キャリエージェント）"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://www.bm-sms.co.jp/company/history/",
+      "https://www.m3career.com/",
+      "https://www.aspicjapan.org/asu/article/39446"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-a802bedc",
+    "name": "エス・エム・エスのキャリア事業（「ナース人材バンク」→「ナース専科 転職」、「カイゴジョブ」）",
+    "company": "株式会社エス・エム・エス",
+    "companyId": "2010001134117",
+    "category": "recruting-solutions",
+    "description": "看護師・介護職など医療介護従事者向けの人材紹介と求人広告。看護師紹介「ナース人材バンク」（現「ナース専科 転職」）と介護求人「カイゴジョブ」が柱で、職種を広げてきた。",
+    "hp": "",
+    "startedYear": 2004,
+    "status": "提供中",
+    "startedAt": "2004",
+    "milestones": [
+      {
+        "date": "2004",
+        "text": "介護職向け求人情報「カイゴジョブ」を開始"
+      },
+      {
+        "date": "2005",
+        "text": "看護師向け人材紹介「ナース人材バンク」を開始（現サービス名「ナース専科 転職」）"
+      },
+      {
+        "date": "2009",
+        "text": "医師・薬剤師紹介をエムスリーとの共同新設会社エムスリーキャリアへ移管"
+      },
+      {
+        "date": "2014",
+        "text": "介護職向け人材紹介「カイゴジョブエージェント」を開始"
+      },
+      {
+        "date": "2017",
+        "text": "マレーシアの看護師人材紹介会社を子会社化（2018年フィリピン、2019年アイルランドの紹介会社も子会社化）"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://www.bm-sms.co.jp/company/history/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-6bcf244f",
+    "name": "非常勤医師紹介（Gaikin）／医局向け「ネット医局」／アプリ「MRT WORK」",
+    "company": "MRT",
+    "companyId": "3011101059533",
+    "category": "recruting-solutions",
+    "description": "東大病院の医師の互助組織から生まれた医師紹介会社。代診・非常勤（スポット）の医師紹介を中心に、医局業務のグループウェアや常勤紹介、アプリでのマッチングを提供する。",
+    "hp": "",
+    "startedYear": 2000,
+    "status": "提供中",
+    "startedAt": "2000-05",
+    "milestones": [
+      {
+        "date": "2000-05",
+        "text": "有料職業紹介事業の許可を取得（2000年1月設立）"
+      },
+      {
+        "date": "2012-03",
+        "text": "医局業務サポート用グループウェア「ネット医局」を提供開始"
+      },
+      {
+        "date": "2014-12",
+        "text": "東証マザーズ上場"
+      },
+      {
+        "date": "2017-01",
+        "text": "株式会社NOSWEAT（現 MRTスタッフィング）を取得。2017年12月に医師のとも、2018年3月にCBキャリアも取得"
+      },
+      {
+        "date": "2017-11",
+        "text": "医師紹介実績が累計100万件を超える"
+      },
+      {
+        "date": "2022-04",
+        "text": "医療人材紹介サービス用アプリ「MRT WORK」を提供開始"
+      },
+      {
+        "date": "2023-05",
+        "text": "医師紹介実績が累計200万件を超える"
+      },
+      {
+        "date": "2025-12",
+        "text": "2025年12月期の売上収益約41.9億円。自治体BPO業務の終了・縮小で減少したが常勤医師紹介が伸長"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://edinetdb.jp/company/E31071/text"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-5e864e51",
+    "name": "医師転職支援サイト「医師転職.jp」（IQVIA）",
+    "company": "IQVIAジャパングループ",
+    "category": "recruting-solutions",
+    "description": "製薬企業向けサービスの世界大手IQVIAの日本法人グループが始めた医師向け人材紹介と転職サイト。臨床以外の求人も含めて紹介するとしていた。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "不明",
+    "startedAt": "2018-12",
+    "milestones": [
+      {
+        "date": "2018-12",
+        "text": "IQVIAジャパングループが医師に特化した人材紹介サービスを開始"
+      },
+      {
+        "date": "2019-03",
+        "text": "医師向け転職支援サイト「医師転職.jp」を公開"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "開設の発表は確認できたが、その後の経過や終了の告知は見つからなかった。発表で案内されたサイト（mp.careers.iqvia.com）は2026年10月の確認時に応答しなかった。",
+    "sources": [
+      "https://www.iqvia.com/locations/japan/newsroom/2019/03/iqvia-japan-launched-a-career-change-support-site-for-doctors"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-64340671",
+    "name": "救急当直医マッチング「Dr.'s Prime Work」",
+    "company": "ドクターズプライム",
+    "companyId": "7010001183010",
+    "category": "recruting-solutions",
+    "description": "救急車を断らない当直医と病院をつなぐ医師紹介。独自の医師評価で救急受け入れ数に応じた報酬を設計し、病院の収益改善につなげる。医師が2017年に創業した。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017",
+    "milestones": [
+      {
+        "date": "2017",
+        "text": "創業。医師紹介事業「Dr.'s Prime Work」を展開"
+      },
+      {
+        "date": "2025-01",
+        "text": "初の株式による資金調達（シリーズA）で3.9億円。それまでは紹介事業のキャッシュで運営。紹介医師による救急受入は年間67,000人超"
+      },
+      {
+        "date": "2025-05",
+        "text": "2025年1〜5月に秋田赤十字病院、相模原赤十字病院、麻生総合病院、茨城県西部メディカルセンター、東京衛生アドベンチスト病院の導入を相次いで発表"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000020.000104550.html",
+      "https://prtimes.jp/main/html/rd/p/000000022.000104550.html",
+      "https://prtimes.jp/main/html/rd/p/000000028.000104550.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-a971a387",
+    "name": "介護・看護スポットワーク「カイテク」（旧「カイスケ」）",
+    "company": "カイテク株式会社",
+    "companyId": "9011101083206",
+    "category": "nursing",
+    "description": "介護福祉士・看護師などの有資格者が面接なしで数時間から近隣施設で働ける単発バイトアプリ。施設が給与に応じた手数料を払う。薬剤師版・医師版にも広げている。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-12",
+    "milestones": [
+      {
+        "date": "2019-04",
+        "text": "介護事業所向けのバーチャル施設見学、介護求人サイト「CaiTas」などを手がける"
+      },
+      {
+        "date": "2019-12",
+        "text": "介護ワークシェアリングサービス「カイスケ」α版をリリース（2019年10月に予告）"
+      },
+      {
+        "date": "2020-09",
+        "text": "総額約1億円の資金調達"
+      },
+      {
+        "date": "2022-04",
+        "text": "3.7億円の資金調達"
+      },
+      {
+        "date": "2024-02",
+        "text": "このころには介護・看護単発バイトアプリ「カイテク」の名称で発表"
+      },
+      {
+        "date": "2026-04",
+        "text": "介護・看護版の累計登録ワーカー約113万人、導入事業所2.4万カ所超"
+      },
+      {
+        "date": "2026-05",
+        "text": "医師向けスポットワーク採用「カイテクドクター」を開始。システム利用料は給与＋交通費の20%で、常勤・定期非常勤への切替は紹介手数料0円"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "lessons": "医師版の開始告知で、日本医師会・四病院団体協議会の報告書が指摘した紹介手数料の高額化を背景に挙げており、高額な人材紹介の代替としてスポットワークを打ち出しているとみられる。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000043426.html",
+      "https://prtimes.jp/main/html/rd/p/000000014.000043426.html",
+      "https://prtimes.jp/main/html/rd/p/000000016.000043426.html",
+      "https://prtimes.jp/main/html/rd/p/000000040.000043426.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-bad0bb61",
+    "name": "介護の有償ボランティアマッチング「スケッター」",
+    "company": "株式会社プラスロボ",
+    "companyId": "7011403002039",
+    "category": "nursing",
+    "description": "介護施設の身体介助以外の仕事（配膳、話し相手、レクなど）を切り出し、資格のない地域住民や学生とつなぐ有償ボランティアのマッチング。自治体や社協の事業として広がっている。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019",
+    "milestones": [
+      {
+        "date": "2019",
+        "text": "介護系スキルシェアサービスとして運営開始。若い世代が介護施設に関わる入口として報道"
+      },
+      {
+        "date": "2025",
+        "text": "長野県が令和7年度に補助（施設の無料利用）を実施（同年度で終了）"
+      },
+      {
+        "date": "2026-09",
+        "text": "川崎市が周辺業務を切り出してスケッターとマッチングするモデル事業を予定"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://www.itmedia.co.jp/business/spv/1911/21/news025.html",
+      "https://www.pref.nagano.lg.jp/kaigo-shien/jinzai/kaigomatching.html",
+      "https://www.city.meguro.tokyo.jp/koureifukushi/kusei/jinjisaiyou/yuushovolunteer.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-3d9ba6ca",
+    "name": "介護・福祉スポットワーク「ケアリンク」",
+    "company": "株式会社ケアリンク",
+    "companyId": "6040001119185",
+    "category": "nursing",
+    "description": "人手が足りない介護・福祉施設と、すき間時間に働きたい人を結ぶ単発バイトアプリ。デイサービス管理者だった代表が2021年に設立し、有料職業紹介の許可を持つ。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-07",
+    "milestones": [
+      {
+        "date": "2021-07",
+        "text": "会社設立"
+      },
+      {
+        "date": "2026-06",
+        "text": "1億1,500万円を調達し累計2.3億円。2026年内に大阪府・愛知県へ広げる計画"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://sogyotecho.jp/news/20260612care-link/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-db5dbbd0",
+    "name": "看護師スポット・お試し就業「KANTAN!」",
+    "company": "株式会社カンタン",
+    "companyId": "jp-036",
+    "category": "recruting-solutions",
+    "description": "関西を中心に、看護師など医療・介護人材と施設を短期のスポット勤務でつなぐ。一定期間働いて相互理解を深める「ナラシワーク」を経て本採用に進む段階的な採用を掲げる。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-12",
+    "milestones": [
+      {
+        "date": "2023-12",
+        "text": "大阪で会社設立"
+      },
+      {
+        "date": "2026-08",
+        "text": "介護職の求人掲載も開始"
+      },
+      {
+        "date": "2026-10",
+        "text": "関西圏の施設への営業記録200件を公表。看護師スポットを初めて導入した病院が週1回の定期利用に移った例などを紹介"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000181025.html",
+      "https://kan-tan.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-3ec66f72",
+    "name": "看護師スポットワーク「メリー」",
+    "company": "株式会社メリー（旧 株式会社Plusbase）",
+    "category": "recruting-solutions",
+    "description": "看護師・看護補助者を数時間〜1日単位で採用できるスポットワーク。現役看護師チームが受け入れ体制づくりに伴走し、お試し勤務から直接雇用への移行を促す。",
+    "hp": "",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-03",
+    "milestones": [
+      {
+        "date": "2026-03",
+        "text": "β版をリリース"
+      },
+      {
+        "date": "2026-08",
+        "text": "正式リリースと社名変更。約4カ月で20法人・320事業所、登録看護師約2,500名"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "lessons": "リリースで「スポットワークは看護に向かない」という見方に触れており、看護領域は介護に比べて単発就労の受け入れが遅れていたとみられる。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000014.000097455.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-ffb1baf3",
+    "name": "看護補助者の人材サービス（メディカルワークシフト事業）",
+    "company": "株式会社メンタルヘルステクノロジーズ",
+    "companyId": "2010701026514",
+    "category": "recruting-solutions",
+    "description": "大規模病院向けに看護補助者を中心とした人材サービスを提供（愛知県で高いシェア）。2024年に産業医サービスのメンタルヘルステクノロジーズが買収した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2024-01",
+        "text": "メンタルヘルステクノロジーズがタスクフォースの株式取得を決議（譲渡実行は2024年2月29日）"
+      },
+      {
+        "date": "2024-03",
+        "text": "メディカルワークシフト事業として連結開始"
+      },
+      {
+        "date": "2025-12",
+        "text": "2025年12月期のメディカルワークシフト事業の売上は約32.7億円、約1,400名の社員・スタッフを雇用"
+      }
+    ],
+    "endReasonNote": "提供中（親会社が変わった）。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20240117_9218-1/",
+      "https://edinetdb.jp/company/E37508/text"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-65c3eb76",
+    "name": "医師の転職支援「Avenirドクターズキャリア」（メディカルキャリア支援事業）",
+    "company": "Avenir",
+    "companyId": "8010601041269",
+    "category": "recruting-solutions",
+    "description": "産業医サービスの会社が医師を医療機関に紹介する有料職業紹介。医学会向けサービスで蓄積した医師データベースを活用し、産業医候補の獲得にもつなげる位置づけ。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-04",
+    "milestones": [
+      {
+        "date": "2016-04",
+        "text": "Avenirで医師のキャリア支援（メディカルキャリア支援）事業を開始"
+      },
+      {
+        "date": "2023-12",
+        "text": "2023年12月期の売上構成比はメディカルキャリア支援事業14.2%"
+      },
+      {
+        "date": "2025-12",
+        "text": "報告セグメントを「その他事業」に統合。会社は「医師転職市場の環境変化により規模の拡大が見込みにくい中、産業保健事業との連携に力を入れた」と説明"
+      }
+    ],
+    "endReasonNote": "提供中だが、2025年12月期に独立したセグメントではなくなった。会社は医師転職市場の環境変化で規模拡大が見込みにくいと記載している。",
+    "lessons": "医師紹介を単独で伸ばすのではなく、本業（産業医）の医師確保の手段として位置づけ直した例とみられる。",
+    "sources": [
+      "https://edinetdb.jp/company/E37508/text?fy=2023",
+      "https://edinetdb.jp/company/E37508/text"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-a12660f2",
+    "name": "医療人材紹介会社向けマッチング支援（Rakusai）",
+    "company": "エムステージ",
+    "companyId": "9011101042830",
+    "category": "recruting-solutions",
+    "description": "医療機関の採用支援と、医師紹介会社どうしで求人データを共有するマッチング支援を行っていたグループ会社。2024年に同じグループのエムステージに吸収合併された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2024-10",
+    "successor": "株式会社エムステージ（医師紹介会社向け求人データ共有サービスとして継続）",
+    "milestones": [
+      {
+        "date": "2022-10",
+        "text": "エムステージHDが採用代行等を持つMHAを子会社化し、医療機関の採用手法の多様化を図る"
+      },
+      {
+        "date": "2024-07",
+        "text": "エムステージグループがエムステージとRakusaiの合併を決議"
+      },
+      {
+        "date": "2024-10",
+        "text": "エムステージを存続会社とする吸収合併が効力発生。Rakusaiは消滅"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "エムステージグループは「医療人材を取り巻く課題への対応を加速させるため」と説明。グループ内再編で、事業は存続会社が引き継いだ。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20240930_1-1383/",
+      "https://www.nihon-ma.co.jp/news/20220926_1-656/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-8b60f2cc",
+    "name": "訪問看護特化の人材紹介・求人「NsPace Career」",
+    "company": "在宅医療支援機構株式会社",
+    "companyId": "8011001110151",
+    "category": "home-visit-nursing",
+    "description": "訪問看護に特化した看護師の人材紹介と、掲載料無料・成功報酬型の訪問看護専門求人メディア。教育・定着支援や採用代行も行い、2024年に帝人グループに入った。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-03",
+    "milestones": [
+      {
+        "date": "2016-03",
+        "text": "会社設立"
+      },
+      {
+        "date": "2024-10",
+        "text": "帝人のグループ会社となる"
+      },
+      {
+        "date": "2025-03",
+        "text": "東京大学グローバルナーシングリサーチセンターと訪問看護転職者向け教育支援で連携"
+      }
+    ],
+    "endReasonNote": "提供中（親会社が変わった）。",
+    "sources": [
+      "https://hcso-inc.com/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-639bed35",
+    "name": "看護師求人「看護師ワーカー」ほか医療福祉の人材紹介・派遣",
+    "company": "株式会社トライトキャリア",
+    "companyId": "9120001182305",
+    "category": "recruting-solutions",
+    "description": "看護師・介護職など医療福祉分野の人材紹介・派遣と求人サイトを運営する。2026年に新設会社が旧会社を吸収合併し、社名と事業はそのままで法人が入れ替わった。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2025-05",
+        "text": "新会社TCG2505株式会社が設立される"
+      },
+      {
+        "date": "2026-01",
+        "text": "TCG2505がトライトキャリアに商号変更"
+      },
+      {
+        "date": "2026-04",
+        "text": "新会社が旧トライトキャリアを吸収合併。社名と事業は継続"
+      }
+    ],
+    "endReasonNote": "提供中。法人の入れ替えの背景は確認できなかった。",
+    "sources": [
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9120001182305",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010001254982"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-4caf02cf",
+    "name": "在宅医療特化の医師紹介「シェアレジ」",
+    "company": "株式会社on call",
+    "companyId": "jp-005",
+    "category": "home-medical",
+    "description": "在宅医療機関の夜間・休日オンコールと往診を代行する会社が、在宅医療に特化し紹介手数料を抑えた医師紹介も行う。オンコール代行で接点を持つ医師と診療所をつなぐ。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-04",
+    "milestones": [
+      {
+        "date": "2021-04",
+        "text": "会社設立。オンコール代行「ON CALL」を展開"
+      },
+      {
+        "date": "2025-04",
+        "text": "東京都内の6医師会と連携し、2024年1月〜2025年4月に129件の往診を代行"
+      },
+      {
+        "date": "2026-02",
+        "text": "大阪拠点を開設"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://oncall-japan.com/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-94456b44",
+    "name": "薬剤師のフリーランス・副業案件紹介「きょうりょく薬剤師」",
+    "company": "株式会社MEDIKLECT",
+    "companyId": "jp-034",
+    "category": "pharmacy-dx",
+    "description": "薬剤師業界特化の人材会社が、フリーランス・副業の薬剤師と薬局をつなぐ案件紹介。転職支援「メディクレクト転職」やWebスキルのスクールと組み合わせる。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2019-07",
+        "text": "会社設立"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://mediklect.co.jp/service/",
+      "https://mediklect.co.jp/profile/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medical-jobs"
+    ]
+  },
+  {
+    "id": "b-9dbc777a",
+    "name": "日立「従業員健康管理クラウドサービス／ストレスチェック」",
+    "company": "株式会社日立製作所",
+    "category": "health-corporate-management",
+    "description": "2015年12月のストレスチェック義務化に合わせ、検査の実施、面接指導、結果の集計・分析までを一括で支援するクラウドサービスとして企業に販売した。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "終了",
+    "startedAt": "2015-10",
+    "endedAt": "2025-03",
+    "milestones": [
+      {
+        "date": "2015-10",
+        "text": "「従業員健康管理クラウドサービス／ストレスチェック」の販売開始を発表（10月15日販売、12月1日サービス開始）"
+      },
+      {
+        "date": "2025-03",
+        "text": "ストレスチェックサービスの提供を終了（製品ページに告知）。産業医・保健師向けの「従業員健康管理クラウドサービス」のページは残る"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "製品ページに「2025年3月をもってご提供を終了しました」とあるのみで、理由は公表されていない。",
+    "lessons": "義務化のタイミングで大手ITが一斉に参入した領域で、約10年で撤退した例。義務化直後から価格競争が指摘され、厚労省の無料実施プログラムもあったことから、単体では採算を取りにくい市場だったとみられる。",
+    "sources": [
+      "https://www.hitachi.co.jp/New/cnews/month/2015/10/1014.html",
+      "https://www.hitachi.co.jp/Prod/comp/app/stresscheck/index.html",
+      "https://www.hitachi.co.jp/Prod/comp/app/ehealthcare/index.html",
+      "https://it.impress.co.jp/articles/-/12902",
+      "https://www.sbbit.jp/article/cont1/32479",
+      "https://www.rodo.co.jp/news/2380/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-4055f1c6",
+    "name": "産業医サービス関連事業（明照会労働衛生コンサルタント事務所）",
+    "company": "株式会社明照会労働衛生コンサルタント事務所 → メンタルヘルステクノロジーズ子会社",
+    "category": "health-corporate-management",
+    "description": "医療法人社団明照会グループの労働衛生コンサルタント事務所が手がけていた嘱託産業医・ストレスチェック事業。新設分割で切り出し、産業医クラウドの会社に売却した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2022-12",
+    "successor": "株式会社メンタルヘルステクノロジーズ（新設の子会社・明照会労働衛生コンサルタント事務所）",
+    "milestones": [
+      {
+        "date": "2022-10",
+        "text": "メンタルヘルステクノロジーズが新設分割会社の全株式を取得して事業を譲り受けると発表"
+      },
+      {
+        "date": "2022-12",
+        "text": "株式取得（12月6日）。のちに東海地方の「産業医クラウド」提供拠点となり、ELPISの提供も開始"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "買い手は産業医関連サービスの事業拡大と、明照会グループとの協働による新サービス開発を目的に挙げる。売り手側の理由は公表されていない。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20221031_9218/",
+      "https://edinetdb.jp/company/E37508/text?fy=2023"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-208b7fec",
+    "name": "嘱託産業医サービス（みらい産業医事務所）",
+    "company": "株式会社みらい産業医事務所（福岡市）→ メンタルヘルステクノロジーズ子会社",
+    "category": "health-corporate-management",
+    "description": "九州エリアを中心に嘱託産業医サービスを提供していた地域の産業医事務所。2024年に全国展開の産業医クラウドの会社に買収された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2024-12",
+        "text": "メンタルヘルステクノロジーズが全株式を取得し子会社化を決定。医療法人相生会との業務協力とあわせ、九州の産業保健体制を強化するとした"
+      }
+    ],
+    "endReasonNote": "提供中（親会社が変わった）。売り手側の理由は公表されていない。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20241213_9218-2/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-95b12d75",
+    "name": "産業医クラウド（産業医紹介センター＋ELPIS）",
+    "company": "株式会社メンタルヘルステクノロジーズ",
+    "companyId": "2010701026514",
+    "category": "health-corporate-management",
+    "description": "厳選した産業医・産業保健師の役務提供と、クラウド型メンタルヘルスケア「ELPIS」をパッケージにした企業向けサービス。月額のストック型で、地域の産業医事務所の買収でも拠点を広げる。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-05",
+    "milestones": [
+      {
+        "date": "2014-01",
+        "text": "前身のMiewがキズケアネットを子会社化（のちのAvenir）"
+      },
+      {
+        "date": "2016-05",
+        "text": "Avenirで産業医サービス「産業医紹介センター」をリリース"
+      },
+      {
+        "date": "2018-08",
+        "text": "親会社がメンタルヘルステクノロジーズに社名変更"
+      },
+      {
+        "date": "2022-03",
+        "text": "東証マザーズ上場"
+      },
+      {
+        "date": "2022-12",
+        "text": "明照会労働衛生コンサルタント事務所の産業医事業を取得"
+      },
+      {
+        "date": "2024-12",
+        "text": "みらい産業医事務所（福岡）を子会社化"
+      },
+      {
+        "date": "2025-12",
+        "text": "2025年12月期のメンタルヘルスソリューション事業の売上約30.5億円。1,000人以上の顧客企業は総契約件数の9.8%（223グループ）"
+      },
+      {
+        "date": "2026-02",
+        "text": "就労移行支援のインクルードを子会社化し、産業保健からリワークまでの一体提供をめざす"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "lessons": "産業医の役務を全国の地域事務所の買収で積み上げる「ロールアップ」型で伸びているとみられる。",
+    "sources": [
+      "https://edinetdb.jp/company/E37508/text?fy=2023",
+      "https://edinetdb.jp/company/E37508/text",
+      "https://www.nihon-ma.co.jp/news/20260213_9218-15/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-b6a6eeb3",
+    "name": "健康管理クラウド「Carely」／産業医紹介「Carely産業医」",
+    "company": "株式会社iCARE",
+    "companyId": "2010401094225",
+    "category": "health-corporate-management",
+    "description": "健診・ストレスチェック・面談記録など従業員の健康データを一元管理するクラウドと、産業医・産業保健師の紹介を組み合わせた企業向けサービス。産業医の代表が創業した。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-03",
+    "milestones": [
+      {
+        "date": "2011-06",
+        "text": "創業。2013年に健康管理システム「Catchball」をリリース"
+      },
+      {
+        "date": "2016-03",
+        "text": "企業向けヘルスケアプラットフォーム「carely」をリリースし、インキュベイトファンドから1億円を調達"
+      },
+      {
+        "date": "2017-10",
+        "text": "IT企業に特化した産業医紹介「Carely産業医」を開始"
+      },
+      {
+        "date": "2022-02",
+        "text": "シリーズEで19億円を調達し、累計調達額43.8億円"
+      },
+      {
+        "date": "2024-07",
+        "text": "オムロンがVCから株式30%を取得し資本業務提携"
+      },
+      {
+        "date": "2025-09",
+        "text": "オムロンが全株主と株式譲渡契約を締結し100%取得を発表（2025年10月1日完了予定）。経営・事業運営の独立性は維持するとした"
+      }
+    ],
+    "endReasonNote": "提供中（親会社が変わった）。",
+    "lessons": "VC資金で伸びた産業保健SaaSの出口が、ヘルスケア機器大手による買収になった例とみられる。",
+    "sources": [
+      "https://thebridge.jp/2016/03/icare-funding-100m-yen",
+      "https://thebridge.jp/2017/10/icare-release-carelysangyoi",
+      "https://thebridge.jp/2022/02/icare-series-e-round-funding",
+      "https://prtimes.jp/main/html/rd/p/000000207.000022826.html",
+      "https://www.nihon-ma.co.jp/news/20250918_6645-10/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-37c2df44",
+    "name": "産業医業務提供「WORKERS DOCTORS」",
+    "company": "株式会社WORKERS DOCTORS → 株式会社メディカルリソース（日本調剤グループ）",
+    "category": "health-corporate-management",
+    "description": "企業に産業医・産業保健師を紹介し、体制構築から運用まで支援する産業医業務提供サービス。2020年に調剤薬局大手・日本調剤の人材子会社が買収し全国展開した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2020-10",
+        "text": "日本調剤の子会社メディカルリソースが全株式取得を決定。医師紹介の実績と全国の営業体制を生かして全国展開を図るとした"
+      },
+      {
+        "date": "2020-11",
+        "text": "持分譲渡を実行"
+      },
+      {
+        "date": "2026-10",
+        "text": "日本調剤グループのメディカルリソースが運営する産業医紹介として、2,000事業場以上の選任実績を掲げる（比較記事）"
+      }
+    ],
+    "endReasonNote": "提供中（運営会社が変わった）。売り手側の理由は公表されていない。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20201022_3341-5/",
+      "https://www.aspicjapan.org/asu/article/39446"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-385efe38",
+    "name": "産業保健ソリューション「リモート産業保健」",
+    "company": "株式会社エス・エム・エス",
+    "companyId": "2010001134117",
+    "category": "health-corporate-management",
+    "description": "看護師人材大手が、訪問とリモートを組み合わせ、産業医と産業看護職の2名体制で企業の産業保健を支援するサービス。看護師会員コミュニティを産業看護職の供給源にする。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-04",
+    "milestones": [
+      {
+        "date": "2019-04",
+        "text": "働き方改革関連法の「産業医・産業保健機能の強化」に対応する企業向けサービスとして提供開始。60万超のナースコミュニティを活用"
+      },
+      {
+        "date": "2022-09",
+        "text": "従業員の心身の状態を把握する「コンディションサーベイ」を開始"
+      },
+      {
+        "date": "2024-04",
+        "text": "健康診断クラウド管理システム「健診DXサポート」を開始"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://jinjibu.jp/kenko/news/detl/16396/",
+      "https://www.bm-sms.co.jp/company/history/",
+      "https://www.bm-sms.co.jp/wp-content/uploads/2022/09/prs_20220901_condition-survey.pdf",
+      "https://www.bm-sms.co.jp/wp-content/uploads/2024/04/prs_20240409_kenshindx-support.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-d8c99a0f",
+    "name": "産業医紹介・産業保健支援（エムステージ）",
+    "company": "エムステージ",
+    "companyId": "9011101042830",
+    "category": "health-corporate-management",
+    "description": "医師紹介会社が登録医師ネットワークを生かして企業に産業医をマッチングし、衛生委員会運営、健診、メンタル対策まで専任スタッフが支援する。情報共有クラウド「M Connect」も提供。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2022-10",
+        "text": "持株会社エムステージHDが産業保健支援・医療人材・医療経営支援の各事業を傘下に置く体制で、MHAを子会社化"
+      },
+      {
+        "date": "2024-10",
+        "text": "グループ内でRakusaiをエムステージに吸収合併"
+      },
+      {
+        "date": "2026-04",
+        "text": "「健康経営トータルサポート」の導入数が延べ約2,450社・約7,200事業場（2026年4月時点）"
+      },
+      {
+        "date": "2026-10",
+        "text": "産業医・産業保健師の登録数が1万人を突破と発表"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20220926_1-656/",
+      "https://www.nihon-ma.co.jp/news/20240930_1-1383/",
+      "https://www.aspicjapan.org/asu/article/39446",
+      "https://mstage-corp.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-eabeea0c",
+    "name": "産業医紹介（エムスリーキャリア「産業医トータルサポート」等）",
+    "company": "エムスリー",
+    "companyId": "1010401063016",
+    "category": "health-corporate-management",
+    "description": "医師会員サイトm3.comのデータベースを使い、企業に専属・嘱託・スポットの産業医を紹介する。月3万円からの顧問型サービスや、面談調整システム「産業医EXPRESS」も提供。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2009-12",
+        "text": "エムスリーとエス・エム・エスの共同新設分割でエムスリーキャリア設立"
+      },
+      {
+        "date": "2026-10",
+        "text": "企業向けに産業医の専門科目を指定できる紹介、面談システム「産業医EXPRESS」などを案内"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://www.m3career.com/",
+      "https://www.aspicjapan.org/asu/article/39446",
+      "https://www.bm-sms.co.jp/company/history/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-338913d5",
+    "name": "EAP・ストレスチェック（ピースマインド）",
+    "company": "ピースマインド株式会社",
+    "companyId": "3010001090400",
+    "category": "mental-health",
+    "description": "カウンセリング中心の従業員支援プログラム（EAP）を軸に、ストレスチェックの実施から組織分析・改善コンサルまでを企業に提供する。1998年創業。",
+    "hp": "",
+    "startedYear": 1998,
+    "status": "提供中",
+    "startedAt": "1998",
+    "milestones": [
+      {
+        "date": "2025-05",
+        "text": "タナベコンサルティンググループが既存株主からの譲受と第三者割当増資の引受けで過半数（54.9%見込み）を取得し子会社化、資本業務提携"
+      }
+    ],
+    "endReasonNote": "提供中（親会社が変わった）。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20250526_9644-6/",
+      "https://www.peacemind.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-05b5e5f4",
+    "name": "産業医×健康管理クラウド「Dr.CHECK」（MRTと協業）",
+    "company": "株式会社リバランス（協業：MRT株式会社）",
+    "category": "health-corporate-management",
+    "description": "産業医と判定アルゴリズムで従業員の健康リスクを判定し解決策を示す健康経営クラウド。産業医の選任義務がない小規模事業所も含めて月額で支援し、MRTの医師網で産業医配置も行う。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-02",
+    "milestones": [
+      {
+        "date": "2017",
+        "text": "産業医の池井佑丞氏がリバランスを設立"
+      },
+      {
+        "date": "2021-02",
+        "text": "「医師による健康経営クラウドサービス」の提供開始を発表（月額550円から）"
+      },
+      {
+        "date": "2022-10",
+        "text": "MRTのドメインで協業サイトを公開し、MRTの医師ネットワークによる産業医配置と組み合わせる（導入事例は2022年10月時点）"
+      },
+      {
+        "date": "2024-12",
+        "text": "協業サイトのお知らせの最終更新（新規契約キャッシュバックキャンペーン）"
+      }
+    ],
+    "endReasonNote": "協業サイトは2026年10月時点で閲覧できるが、お知らせの更新は2024年12月が最後。",
+    "sources": [
+      "https://ascii.jp/elem/000/004/042/4042752/",
+      "https://drcheck-sangyoi.medrt.com/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-c6635f8d",
+    "name": "産業医紹介・健康経営支援「ToHands」",
+    "company": "株式会社Appdate",
+    "companyId": "6010401125232",
+    "category": "health-corporate-management",
+    "description": "被災地医療を経験した医師らが仙台で設立した会社の産業医サービス。専門チームが企業に合う産業医を選任・紹介し、ストレスチェックや健康データのAI解析など健康経営向けITも組み合わせる。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2016-06",
+        "text": "会社設立（仙台）。産業医による企業の労働衛生指導業務を展開"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://www.appdate.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-d6b6e758",
+    "name": "中小企業向け社外健康管理室「さんぽテラス」（旧 こころめいと／セイルズ産業医事務所）・「OHMEクラウド」",
+    "company": "株式会社さんぽテラス",
+    "companyId": "4180001127102",
+    "category": "health-corporate-management",
+    "description": "産業医の選任義務がない50人未満の事業所を中心に、産業医・保健師の健康相談、健診の就労判定、ストレスチェック、休職・復職対応を会員制で提供。産業保健職向けシステムも開発。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "提供中",
+    "startedAt": "2014",
+    "milestones": [
+      {
+        "date": "2014",
+        "text": "社外健康管理室「こころめいと」設立"
+      },
+      {
+        "date": "2017",
+        "text": "株式会社セイルズとセイルズ産業医事務所を設立"
+      },
+      {
+        "date": "2022-12",
+        "text": "産業医・産業保健師支援システム「OHMEチャート」をテスト公開（のちOHMEクラウド）"
+      },
+      {
+        "date": "2024-01",
+        "text": "社名をさんぽテラスに変更し、サービスを統合"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://company.sanpoterasu.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000106392.html",
+      "https://prtimes.jp/main/html/rd/p/000000003.000106392.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-20140909",
+    "name": "ストレスチェック「ファースト・ストレスチェック」・スポット産業医",
+    "company": "株式会社マイシェルパ",
+    "companyId": "jp-116",
+    "category": "mental-health",
+    "description": "精神科専門医が設立したオンラインカウンセリングの会社が、法人向けにWeb受検無料のストレスチェック、スポット産業医、研修、休職予防・復職支援をまとめて提供する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2016-07",
+        "text": "会社設立"
+      },
+      {
+        "date": "2026-10",
+        "text": "三井住友海上あいおい生命の法人向けヘルスケアサービスにファースト・ストレスチェックが採用"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://my-sherpa.co.jp/",
+      "https://it-trend.jp/mental_health/24347",
+      "https://prtimes.jp/main/html/rd/p/000000072.000073210.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-12d4c0bc",
+    "name": "精神科特化の産業医サービス「スマート産業医」",
+    "company": "株式会社INTERMIND",
+    "category": "mental-health",
+    "description": "平時は職場巡視・衛生委員会・健診判定・ストレスチェックなど法定業務を最小コストで担い、メンタル不調時に精神科専門医・心理士・保健師のチームで早期復職と再休職防止を支援する。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-01",
+    "milestones": [
+      {
+        "date": "2023-01",
+        "text": "創業"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://intermind.jp/",
+      "https://www.aspicjapan.org/asu/article/39446"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-e5c750cd",
+    "name": "法人向けオンライン健康支援「アンドエルワーク」",
+    "company": "アンドエル株式会社",
+    "companyId": "1010401177963",
+    "category": "health-corporate-management",
+    "description": "オンライン診療、チャット健康相談、カウンセリング、ストレスチェック、パルスサーベイ、低価格の産業医紹介を一つのパッケージで企業に提供し、従業員の家族も使える。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-10",
+    "milestones": [
+      {
+        "date": "2023-10",
+        "text": "SaaS企業の創業経験者が会社設立"
+      },
+      {
+        "date": "2026-10",
+        "text": "組織づくり支援の事業人と業務提携"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000070.000134238.html",
+      "https://prtimes.jp/main/html/rd/p/000000026.000111622.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-f9674a6e",
+    "name": "クラウド型健康管理システム「mediment」",
+    "company": "メディフォン株式会社",
+    "companyId": "6010401133086",
+    "category": "health-corporate-management",
+    "description": "医療通訳サービスの会社が、コロナ禍を機に立ち上げた企業向けの健康管理クラウド。健診結果やストレスチェック、面談記録の管理など産業保健業務をまとめる。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2026-10",
+        "text": "2026年度グッドデザイン賞を受賞。アサヒグループジャパンのヘルスパルスサーベイ実証事業を支援"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://mediphone.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-b60ac1a7",
+    "name": "ALSOK「ストレスチェックサービス」",
+    "company": "綜合警備保障株式会社（ALSOK）",
+    "category": "health-corporate-management",
+    "description": "警備大手が、ストレスチェック義務化に対応して実施準備から組織分析・結果報告までを請け負い、実施者となる専門医も標準で提供する企業向けサービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2015-12",
+        "text": "ストレスチェック制度の施行（50人以上の事業場に年1回義務）に対応するサービスとして案内"
+      }
+    ],
+    "endReasonNote": "提供中。開始時期は確認できなかった。",
+    "sources": [
+      "https://www.alsok.co.jp/corporate/stresscheck-service/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
+    ]
+  },
+  {
+    "id": "b-081e26d9",
+    "name": "小規模事業場向けストレスチェック「ストレスみまもり」",
+    "company": "株式会社よろづや（よろづソリューションズ）",
+    "category": "mental-health",
+    "description": "日本医師会認定産業医が開発したクラウド型ストレスチェック。受検から産業医面談までブラウザで完結し、50人未満の事業場向けに1回1,000円のプランを用意した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2026-10",
+        "text": "2028年4月施行の50人未満事業場へのストレスチェック義務化に向け、小規模事業場向けプランを発表"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000193182.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "occupational-physician"
     ]
   }
 ]

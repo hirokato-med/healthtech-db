@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { END_REASONS, STOPPED, getServices } from '@/lib/data';
+import { ym } from '@/lib/ym';
 
 export const metadata: Metadata = { title: '止まった事業を理由別に見る', description: 'ヘルスケアの事業がどのような理由で止まったのか。規制、保険償還、お金を払う人、現場への定着、効果の実証、資金などの理由別に、過去の事業を一覧する。' };
 
-const ym = (s?: string) => (s ? s.replace(/^(\d{4})-(\d{2}).*$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年') : '');
 
 export default function StoppedPage() {
   const stopped = getServices().filter((s) => STOPPED.includes(s.status));

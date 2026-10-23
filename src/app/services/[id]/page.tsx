@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
 import { END_REASONS, categoryName, getCompany, getService, getServices, servicesIn } from '@/lib/data';
+import { ym } from '@/lib/ym';
 
 export function generateStaticParams() {
   return getServices().map((s) => ({ id: s.id }));
@@ -12,7 +13,6 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return { title: s ? `${s.name}（${s.company}）` : 'サービス', description: s?.description };
 }
 
-const ym = (s?: string) => (s ? s.replace(/^(\d{4})-(\d{2}).*$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年') : '');
 
 export default async function ServicePage({ params }: { params: Promise<{ id: string }> }) {
   const s = getService((await params).id);

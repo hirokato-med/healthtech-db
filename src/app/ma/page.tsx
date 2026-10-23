@@ -5,6 +5,7 @@ import path from 'node:path';
 import { PartnerMap } from '@/components/PartnerMap';
 import { RelationGraph, type REdge, type RNode } from '@/components/RelationGraph';
 import { findCompanyByName, getPartnerships } from '@/lib/data';
+import { ym } from '@/lib/ym';
 
 export const metadata: Metadata = {
   title: 'M&A・提携マップ',
@@ -12,7 +13,6 @@ export const metadata: Metadata = {
 };
 
 const PHARMA = /製薬|ファーマ|薬品|Pharma|リリー|ノバルティス|ファイザー|アストラゼネカ|MSD|バイエル|ヤンセン|サノフィ|ベーリンガー|ノボ|参天|エーザイ|塩野義|第一三共|中外|協和キリン|アステラス|小野薬品|杏林|持田|Meiji|ツムラ|久光|大正製薬|ロート|あすか/;
-const ym = (s?: string) => (s ? s.replace(/^(\d{4})-(\d{2}).*$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年') : '');
 
 export default function MaPage() {
   const ps = getPartnerships();

@@ -2,10 +2,10 @@
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import type { Category, Service } from '@/lib/types';
+import { ym } from '@/lib/ym';
 
 type Lite = Pick<Service, 'id' | 'name' | 'company' | 'companyId' | 'category' | 'description' | 'status' | 'startedAt' | 'startedYear' | 'endedAt' | 'endReasons'>;
 const STATUSES = ['提供中', '終了', '譲渡', '統合', '休止', '不明'] as const;
-const ym = (s?: string) => (s ? s.replace(/^(\d{4})-(\d{2}).*$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年') : '');
 
 export function BusinessFilter({ items, categories, reasons, initialStatus = '' }: { items: Lite[]; categories: Category[]; reasons: Record<string, { label: string }>; initialStatus?: string }) {
   const [q, setQ] = useState('');

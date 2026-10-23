@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { END_REASONS, STOPPED, getArticles, getThemes, servicesInTheme } from '@/lib/data';
+import { ym } from '@/lib/ym';
 
 export function generateStaticParams() {
   return getThemes().map((t) => ({ slug: t.slug }));
@@ -18,14 +19,13 @@ const toY = (s?: string | null) => {
   const m = String(s).match(/^(\d{4})(?:-(\d{2}))?/);
   return m ? Number(m[1]) + (m[2] ? (Number(m[2]) - 1) / 12 : 0) : null;
 };
-const ym = (s?: string) => (s ? s.replace(/^(\d{4})-(\d{2}).*$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年') : '');
 
 export default async function ThemePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const t = getThemes().find((x) => x.slug === slug);
   if (!t) notFound();
   const items = servicesInTheme(slug)
-    .map((s) => ({ s, a: toY(s.startedAt) ?? (s.startedYear ?? null), b: STOPPED.includes(s.status) ? toY(s.endedAt) : NOW }))
+    .map((s) => ({ s, a: toY(s.startedAt) ?? (s.startedYear ?? null), b: STOPPED.includes(s.status) ? ((e) => (e === null ? null : Math.min(NOW, e)))(toY(s.endedAt)) : NOW }))
     .sort((x, y) => (x.a ?? 9999) - (y.a ?? 9999));
   const dated = items.filter((x) => x.a !== null);
   const min = dated.length ? Math.floor(Math.min(...dated.map((x) => x.a as number))) : 2016;
