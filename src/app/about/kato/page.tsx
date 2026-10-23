@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { withBase } from '@/lib/base';
-import { PROFILE_600, PROFILE_TIMELINE, PROFILE_TITLE } from '@/content/profile';
+import { PROFILE_600, PROFILE_SECTIONS, PROFILE_TIMELINE, PROFILE_TITLE } from '@/content/profile';
 
 export const metadata: Metadata = {
   title: '加藤浩晃について',
@@ -43,7 +43,17 @@ export default function KatoPage() {
           {PROFILE_600.map((t) => <p key={t.slice(0, 12)}>{t}</p>)}
         </div>
 
-        <h2>略歴</h2>
+        <h2>主な役職・実績</h2>
+        <dl className="kato-sections">
+          {PROFILE_SECTIONS.map((sec) => (
+            <div key={sec.label}>
+              <dt>{sec.label}</dt>
+              <dd><ul>{sec.items.map((t) => <li key={t}>{t}</li>)}</ul></dd>
+            </div>
+          ))}
+        </dl>
+
+        <h2>略歴（年表）</h2>
         <ol className="kato-career">
           {PROFILE_TIMELINE.map(([y, t], i) => <li key={i}><span>{y}</span>{t}</li>)}
         </ol>
