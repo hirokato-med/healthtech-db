@@ -1908,9 +1908,10 @@
     "name": "3Hメディソリューション株式会社",
     "hp": "https://3h-ms.co.jp/",
     "categories": [
-      "medical-dx"
+      "medical-dx",
+      "clinical-trial-support"
     ],
-    "categoryLabel": "医療機関DX",
+    "categoryLabel": "医療機関DX・治験支援",
     "description": "医療現場における被験者に関して、主に重複登録防止システム「ReGuSYS（レガシス）」の開発",
     "prefecture": "東京都",
     "foundedYear": 2005,
@@ -8417,9 +8418,10 @@
     "name": "株式会社Buzzreach",
     "hp": "https://www.buzzreach.co.jp/#company",
     "categories": [
-      "personal-health-record"
+      "personal-health-record",
+      "clinical-trial-support"
     ],
-    "categoryLabel": "PHR",
+    "categoryLabel": "PHR・治験支援",
     "description": "治験プラットフォーム",
     "prefecture": "東京都",
     "foundedYear": 2017,
@@ -9711,9 +9713,10 @@
     "name": "SmarTrial株式会社",
     "hp": "https://activaid.me/company",
     "categories": [
-      "personal-health-record"
+      "personal-health-record",
+      "clinical-trial-support"
     ],
-    "categoryLabel": "PHR",
+    "categoryLabel": "PHR・治験支援",
     "description": "炎症性腸疾患（IBD）の患者向けに、臨床試験（治験）をマッチングする機能の提供",
     "prefecture": "東京都",
     "foundedYear": 2018,
@@ -10453,9 +10456,10 @@
     "name": "アガサ株式会社",
     "hp": "https://www.agathalife.com/",
     "categories": [
-      "medical-dx"
+      "medical-dx",
+      "clinical-trial-support"
     ],
-    "categoryLabel": "医療機関DX",
+    "categoryLabel": "医療機関DX・治験支援",
     "description": "規制対象文書の管理システム",
     "prefecture": "東京都",
     "foundedYear": 2015,
@@ -18440,6 +18444,390 @@
     "sources": [
       "https://pixeom.jp/",
       "https://initial.inc/companies/A-SPSQV"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "jp-126",
+    "name": "株式会社CLINIAL",
+    "hp": "https://clinial.co.jp/",
+    "categories": [
+      "clinical-trial-support",
+      "medical-data-analytics",
+      "medical-dx"
+    ],
+    "categoryLabel": "治験支援・医療データ分析・医療機関DX",
+    "description": "院内の電子カルテとがん遺伝子検査データを統合する「CliniCONNECT」で治験候補患者の検索・リクルートを支援",
+    "prefecture": "東京都",
+    "foundedYear": 2023,
+    "address": "東京都渋谷区代々木5-59-5",
+    "employees": "",
+    "founders": [
+      "水野孝昭"
+    ],
+    "representatives": [
+      "水野孝昭"
+    ],
+    "exit": "未上場",
+    "parentCompany": "",
+    "relatedCompanies": [],
+    "corporateNumber": "",
+    "corporateNumberUrl": "",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "CliniCONNECT"
+    ],
+    "highlight": "腫瘍内科医が2023年創業。国立がん研究センター中央病院で第I相治験の組み入れ増に貢献。2026年 X-HUB TOKYO 英国コース採択",
+    "sources": [
+      "https://clinial.co.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000002.000167569.html",
+      "https://researchmap.jp/takaaki.mizuno"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "jp-127",
+    "name": "株式会社Vitalive",
+    "hp": "https://www.vitalive.co.jp/",
+    "categories": [
+      "clinical-trial-support"
+    ],
+    "categoryLabel": "治験支援",
+    "description": "CRCが電話で行っていた治験の生存確認（OS確認）をSMS配信で自動化する「VitaliveOS」を開発・提供",
+    "prefecture": "東京都",
+    "foundedYear": 2024,
+    "address": "東京都港区芝5-36-4 札の辻スクエア9階",
+    "employees": "",
+    "founders": [
+      "井上忠"
+    ],
+    "representatives": [
+      "井上忠"
+    ],
+    "exit": "未上場",
+    "parentCompany": "",
+    "relatedCompanies": [],
+    "corporateNumber": "",
+    "corporateNumberUrl": "",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "VitaliveOS"
+    ],
+    "highlight": "2024年7月設立の治験DXスタートアップ。資本金6,639万円（準備金含む）。2025年5月 エイツーヘルスケアと生存調査効率化で協業",
+    "sources": [
+      "https://www.vitalive.co.jp/company",
+      "https://www.vitalive.co.jp/products",
+      "https://sg.wantedly.com/projects/2007706"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "jp-128",
+    "name": "ハッシュピーク株式会社",
+    "hp": "https://hashpeak.com/",
+    "categories": [
+      "clinical-trial-support",
+      "medical-data-analytics"
+    ],
+    "categoryLabel": "治験支援・医療データ分析",
+    "description": "生成AIとブロックチェーンで臨床研究を効率化。治験関連文書の生成AIアプリやブロックチェーン型EDC/CTMSを提供",
+    "prefecture": "東京都",
+    "foundedYear": 2019,
+    "address": "東京都中央区日本橋本町",
+    "employees": "",
+    "founders": [
+      "前田琢磨"
+    ],
+    "representatives": [
+      "前田琢磨"
+    ],
+    "exit": "未上場",
+    "parentCompany": "",
+    "relatedCompanies": [],
+    "corporateNumber": "",
+    "corporateNumberUrl": "",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "hashPeak 治験関連文書生成AIアプリ",
+      "hashPeak AIプラットフォーム"
+    ],
+    "highlight": "2025年4月 治験関連文書生成AIアプリをリリース。2022年 順天堂大学の臨床研究向けにブロックチェーン型EDC/CTMSをリリース。日本臨床試験学会2026でIRB事前レビューのマルチエージェントAIを発表",
+    "sources": [
+      "https://hashpeak.com/",
+      "https://hashpeak.com/team/",
+      "https://hashpeak.com/english/",
+      "https://jsctr17kobe.umin.jp/program/files/jsctr17_program_rev4.pdf"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "jp-129",
+    "name": "株式会社4DIN",
+    "hp": "https://4din.com/",
+    "categories": [
+      "clinical-trial-support",
+      "real-world-data",
+      "medical-data-analytics"
+    ],
+    "categoryLabel": "治験支援・RWD・医療データ分析",
+    "description": "病院の電子カルテ等を分析できる「SIMPRESEARCH」で、治験のフィージビリティ調査や候補患者探索を支援",
+    "prefecture": "東京都",
+    "foundedYear": 2003,
+    "address": "東京都港区新橋2-20-15 新橋駅前ビル1号館 805",
+    "employees": "",
+    "founders": [],
+    "representatives": [
+      "高橋精彦"
+    ],
+    "exit": "未上場",
+    "parentCompany": "",
+    "relatedCompanies": [],
+    "corporateNumber": "",
+    "corporateNumberUrl": "",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "SIMPRESEARCH",
+      "CoNaxs",
+      "4DIN Research Network"
+    ],
+    "highlight": "2026年2月 Biz Architectsから資金調達（額非公開）。SIMPRESEARCHは全国25以上の大学・研究機関で採用。2022年 メドピアと資本業務提携。日本CRO協会 賛助会員",
+    "sources": [
+      "https://4din.com/company",
+      "https://www.4din.com/",
+      "https://thebridge.jp/2026/02/4din-raises-funding-for-simpresearch-medical-data-platform",
+      "https://kyodonewsprwire.jp/release/202607222967",
+      "https://www.jcroa.or.jp/outline/member/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "jp-130",
+    "name": "株式会社beyondS",
+    "hp": "https://beyonds.ai/",
+    "categories": [
+      "clinical-trial-support"
+    ],
+    "categoryLabel": "治験支援",
+    "description": "ePRO・eConsent・遠隔モニタリングを備えた臨床試験デジタル化基盤「ZenDo eTrial」を開発・提供",
+    "prefecture": "東京都",
+    "foundedYear": 2017,
+    "address": "",
+    "employees": "",
+    "founders": [
+      "高橋翼"
+    ],
+    "representatives": [
+      "高橋翼"
+    ],
+    "exit": "未上場",
+    "parentCompany": "",
+    "relatedCompanies": [],
+    "corporateNumber": "",
+    "corporateNumberUrl": "",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "ZenDo eTrial",
+      "モニコム"
+    ],
+    "highlight": "2017年に合同会社として創業（現在は株式会社表記）。DCT向けeConsent/ePRO基盤を自社開発。2023年 被験者募集支援「モニコム」事業を譲受",
+    "sources": [
+      "https://beyonds.ai/",
+      "https://beyonds.ai/products/products",
+      "https://startupclass.co.jp/online/companies/1694/",
+      "https://jsctr17kobe.umin.jp/program/files/jsctr17_program_rev4.pdf"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "jp-131",
+    "name": "株式会社アクセライト",
+    "hp": "https://accelight.co.jp/",
+    "categories": [
+      "clinical-trial-support",
+      "cro"
+    ],
+    "categoryLabel": "治験支援・CRO",
+    "description": "医学系の調査研究・臨床試験を支援。自社開発のePRO「ヒビログ」やEDCで研究データ収集と解析・事務局運営を担う",
+    "prefecture": "東京都",
+    "foundedYear": 2010,
+    "address": "東京都文京区本郷3-5-4 朝日中山ビル5F",
+    "employees": "",
+    "founders": [],
+    "representatives": [
+      "板垣貴志"
+    ],
+    "exit": "未上場",
+    "parentCompany": "",
+    "relatedCompanies": [],
+    "corporateNumber": "",
+    "corporateNumberUrl": "",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "ヒビログ（ePRO）",
+      "EDCシステム"
+    ],
+    "highlight": "大学・研究機関・製薬・CRO向けにePRO/EDCを自社開発。日本臨床試験学会2026でランチョンセミナー共催",
+    "sources": [
+      "https://accelight.co.jp/",
+      "https://accelight.co.jp/company/",
+      "https://accelight.co.jp/system/product-epro/",
+      "https://jsctr17kobe.umin.jp/program/files/jsctr17_program_rev4.pdf"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "jp-132",
+    "name": "AICRO株式会社",
+    "hp": "https://www.aicro.jp/",
+    "categories": [
+      "clinical-trial-support",
+      "medical-dx"
+    ],
+    "categoryLabel": "治験支援・医療機関DX",
+    "description": "生成AIで治験実施計画書から患者ごとの治験タスク・日程を作る「AIprt」等を医療機関に提供",
+    "prefecture": "東京都",
+    "foundedYear": 2021,
+    "address": "東京都千代田区一番町6番地 相模屋本社ビル7F",
+    "employees": "",
+    "founders": [
+      "山口太一",
+      "西畑俊樹"
+    ],
+    "representatives": [
+      "山口太一",
+      "西畑俊樹"
+    ],
+    "exit": "未上場",
+    "parentCompany": "",
+    "relatedCompanies": [],
+    "corporateNumber": "",
+    "corporateNumberUrl": "",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "AIprt（アイプロト）",
+      "AIdoc（アイドック）"
+    ],
+    "highlight": "クラウド電子カルテ「きりんカルテ」をPHCに譲渡した創業者が2021年設立。CROモニタリング業務のDXを掲げ、2025年12月に治験タスク作成AI「AIprt」をリリース",
+    "sources": [
+      "https://www.aicro.jp/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "jp-133",
+    "name": "クリンクラウド株式会社",
+    "hp": "https://clin-cloud.com/",
+    "categories": [
+      "clinical-trial-support",
+      "cro"
+    ],
+    "categoryLabel": "治験支援・CRO",
+    "description": "治験・臨床研究向けクラウドEDCを提供。PMS向け「JPMS」の自社開発と米Fountaynの国内代理店",
+    "prefecture": "東京都",
+    "foundedYear": 2014,
+    "address": "東京都中央区日本橋小伝馬町1-5 PMO日本橋江戸通2F",
+    "employees": "",
+    "founders": [],
+    "representatives": [
+      "小坂次郎",
+      "小山佳克"
+    ],
+    "exit": "バイアウト",
+    "parentCompany": "アポプラスステーション株式会社",
+    "relatedCompanies": [],
+    "corporateNumber": "",
+    "corporateNumberUrl": "",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "JPMS",
+      "Fountayn",
+      "TrialKit"
+    ],
+    "highlight": "JAFCO等から調達。2025年11月 アポプラスステーション（クオールHD子会社）が全株式を取得し子会社化。日本CRO協会 賛助会員",
+    "sources": [
+      "https://initial.inc/companies/A-28500",
+      "https://www.qol-net.co.jp/news/20251029_1",
+      "https://www.yakuji.co.jp/entry129163.html",
+      "https://www.jcroa.or.jp/outline/member/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "2010501044006",
+    "name": "株式会社CTSC",
+    "hp": "https://ctsc.co.jp/",
+    "categories": [
+      "clinical-trial-support"
+    ],
+    "categoryLabel": "治験支援",
+    "description": "製薬企業と患者を直接つなぐ治験情報インフラ「CTM」を軸に、Web広告を使った治験の被験者募集や医師マッチングを行う",
+    "prefecture": "東京都",
+    "foundedYear": 2019,
+    "address": "東京都豊島区東池袋1-18-1 ハレザタワー19F",
+    "employees": "",
+    "founders": [],
+    "representatives": [
+      "福本毅"
+    ],
+    "exit": "未上場",
+    "parentCompany": "",
+    "relatedCompanies": [],
+    "corporateNumber": "2010501044006",
+    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010501044006",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "CTM（Clinical Trial Manager）",
+      "ドクターコール"
+    ],
+    "highlight": "2019年設立（旧商号 株式会社臨床試験支援センター、2020年に商号変更）。被験者募集を中心に将来は治験全体を担うCRO化を目指す",
+    "sources": [
+      "https://ctsc.co.jp/about/",
+      "https://www.wantedly.com/projects/1132917",
+      "https://houjin.jp/c/2010501044006"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "jp-134",
+    "name": "株式会社エディハス",
+    "hp": "https://edihas.co.jp/",
+    "categories": [
+      "clinical-trial-support"
+    ],
+    "categoryLabel": "治験支援",
+    "description": "治験・臨床試験の被験者募集を担うPRO。治験モニター募集サイト「ぺいるーと」とWeb広告・コールセンターで候補者を集める",
+    "prefecture": "北海道",
+    "foundedYear": 2014,
+    "address": "北海道札幌市中央区南一条東5丁目7-10 日伊文化会館3階",
+    "employees": "",
+    "founders": [],
+    "representatives": [
+      "川辺徹明"
+    ],
+    "exit": "未上場",
+    "parentCompany": "",
+    "relatedCompanies": [],
+    "corporateNumber": "",
+    "corporateNumberUrl": "",
+    "region": "JP",
+    "source": "Healthtech DB 編集部調べ（2026-10）",
+    "products": [
+      "ぺいるーと"
+    ],
+    "highlight": "札幌発の被験者募集会社。全国の治験募集情報を検索できる「ぺいるーと」を運営し、Web広告の制作・運用まで自社で完結",
+    "sources": [
+      "https://edihas.co.jp/company/outline/",
+      "https://pa-ruit.jp/",
+      "https://edihas.co.jp/recruitment/"
     ],
     "updatedAt": "2026-10"
   }
