@@ -50,7 +50,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
         {c.highlight && <p className="co-highlight"><b>注目</b>{c.highlight}</p>}
         {c.scopeNote && <p className="co-scope"><b>現在の事業</b>{c.scopeNote}</p>}
         {c.ended && <p className="co-scope ended"><b>{c.exit === '対象外' ? '掲載対象外' : '事業終了'}{c.ended.date ? `（${ym(c.ended.date)}）` : ''}</b>{c.ended.note}{c.ended.successor ? ` 事業の引き継ぎ先: ${c.ended.successor}。` : ''}</p>}
-        {!c.ended && c.statusNote && <p className="co-scope warn"><b>注意</b>{c.statusNote}</p>}
+        {!c.ended && c.statusNote && <p className="co-scope warn"><b>現状</b>{c.statusNote}</p>}
       </div>
 
       <div className="two-col">
