@@ -288,5 +288,1574 @@
     "hp": "https://www.optim.co.jp/",
     "startedYear": 2016,
     "status": "終了"
+  },
+  {
+    "id": "b-304b933b",
+    "name": "不眠症治療用アプリ 販売提携（サスメド「Medcle」の国内販売権）",
+    "company": "サスメド株式会社",
+    "companyId": "7010003022232",
+    "category": "sleep",
+    "description": "サスメドが開発した不眠障害向け治療用アプリについて、塩野義製薬が日本での独占販売権を取得し、医療機関向けに販売する提携。サスメドはマイルストン収入を受け取るモデルだった。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "終了",
+    "startedAt": "2021-12",
+    "endedAt": "2026-08",
+    "successor": "アプリ自体はサスメドが「Medcle（メドクル）」として販売継続",
+    "milestones": [
+      {
+        "date": "2021-12",
+        "text": "塩野義製薬とサスメドが不眠症治療用アプリの販売提携契約を締結。塩野義が国内独占販売権を取得し、サスメドはマイルストン総額最大47億円などを受け取る内容"
+      },
+      {
+        "date": "2026-06",
+        "text": "サスメドの不眠障害用アプリ「Medcle」が保険適用され、販売開始（報道）"
+      },
+      {
+        "date": "2026-08",
+        "text": "両社が販売提携契約の終了に合意し、合意書を締結"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "塩野義製薬は「両社で協議を重ねた結果」契約終了に合意したと説明し、具体的な理由は公表していない。睡眠領域への取り組みの重要性に変わりはないとしている。",
+    "lessons": "保険適用の直後に販売提携が解消されており、製薬企業の販売網に治療用アプリを載せるモデルの難しさを示す事例とみられる。",
+    "sources": [
+      "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2026/8月/J_20260826.pdf",
+      "https://nk.jiho.jp/article/304749"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-58ad6705",
+    "name": "2型糖尿病管理指導用モバイルアプリ「SMC-01」共同開発",
+    "company": "住友ファーマ株式会社（旧 大日本住友製薬）／Save Medical株式会社",
+    "category": "disease-management-program",
+    "description": "2型糖尿病患者の自己管理（食事・運動・服薬・血糖記録）を医師の指導のもとで支援するスマホアプリを、プログラム医療機器としての承認取得を目指して共同開発した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-08",
+    "milestones": [
+      {
+        "date": "2020-08",
+        "text": "大日本住友製薬とSave Medicalが共同開発契約を締結し、国内治験を開始。2022年度中の承認取得を目指すと報道"
+      },
+      {
+        "date": "2024-09",
+        "text": "治験結果がJMIRに掲載。主要評価項目（12週時点のHbA1c変化量の群間差）は-0.11%（P=.11）で、統計的有意差を示せなかった"
+      }
+    ],
+    "endReasons": [
+      "evidence"
+    ],
+    "endReasonNote": "国内治験で主要評価項目のHbA1c改善に統計的有意差が出なかったことが論文で公表されている。論文の著者は、行動変容が不十分だったこと、アプリが有効に使われた割合が低かったことを可能性として挙げている。承認申請や開発中止の正式な告知は確認できなかった。",
+    "lessons": "治療用アプリの効果はアプリの継続利用（エンゲージメント）に大きく左右され、それが臨床指標の差に表れにくいことを示した事例とみられる。",
+    "sources": [
+      "https://kyodonewsprwire.jp/release/202008032733",
+      "https://nk.jiho.jp/article/153807",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11429663/",
+      "https://jrct.mhlw.go.jp/latest-detail/jRCT2032200033"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-56bd6ecb",
+    "name": "電子お薬手帳「harmo」",
+    "company": "harmo株式会社",
+    "companyId": "jp-114",
+    "category": "pharmacy-dx",
+    "description": "ICカードとスマホアプリで調剤履歴を管理する電子お薬手帳。薬局にシステムを導入し、患者はカードかアプリで服薬情報を持ち歩く。ソニーが開発し、のちにシミックグループに承継された。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "終了",
+    "startedAt": "2016",
+    "endedAt": "2026-09",
+    "successor": "株式会社ファルモ「N-Bridge（eお薬手帳3.0）」へ利用者・薬局を移行",
+    "milestones": [
+      {
+        "date": "2011",
+        "text": "ソニーが川崎市などで試験サービスを開始（約5年間）"
+      },
+      {
+        "date": "2016",
+        "text": "商用サービス化"
+      },
+      {
+        "date": "2019-03",
+        "text": "ソニーがシミックヘルスケアへの吸収分割による事業譲渡で合意（譲渡額100万円と報道）。約850薬局・80医療機関に導入、利用者約30万人"
+      },
+      {
+        "date": "2019-06",
+        "text": "シミックヘルスケアが事業を承継し運営開始"
+      },
+      {
+        "date": "2021-10",
+        "text": "シミックHDが設立したharmo株式会社が営業開始し、事業を担う"
+      },
+      {
+        "date": "2026-03",
+        "text": "harmoおくすり手帳のサービス終了（2026年9月30日）を告知。運営はファルモへ事業譲渡"
+      },
+      {
+        "date": "2026-07",
+        "text": "ファルモがharmo事業の譲受と、N-Bridge（eお薬手帳3.0）への移行を発表。過半数の300店舗以上が移行を申込"
+      },
+      {
+        "date": "2026-09",
+        "text": "harmoおくすり手帳とharmoカードのサービス終了"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "ソニーからの譲渡時は「医療・ヘルスケア業界や利用者により近いサービスとして社会課題解決型のビジネスを実現するため」と説明された。2026年の終了はファルモへの事業譲渡に伴うもので、harmo側は「より安定したサービスを皆さまに継続してお届けするため」としている。それ以上の理由は公表されていない。",
+    "lessons": "電子お薬手帳は薬局システムとの連携が前提で、運営主体が何度変わっても単独で採算を取るのが難しかった分野とみられる。",
+    "sources": [
+      "https://www.watch.impress.co.jp/docs/news/1176401.html",
+      "https://www.cmicgroup.com/files/user/NewsRelease/Japanese/20190603-2.pdf",
+      "https://kyodonewsprwire.jp/release/202107308374",
+      "https://support.harmo.biz/info/p1725",
+      "https://prtimes.jp/main/html/rd/p/000000037.000049119.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-62e398e9",
+    "name": "オンライン診療「LINEドクター」",
+    "company": "LINEヘルスケア株式会社",
+    "companyId": "8011101086498",
+    "category": "telemedicine",
+    "description": "LINEアプリ上で予約・ビデオ診療・決済・処方薬配送までを完結できるオンライン診療サービス。医療機関に診療システムを提供し、患者はLINEから受診する。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-12",
+    "endedAt": "2025-06",
+    "successor": "ヘルスケアテクノロジーズ「HELPOドクター」LINE公式アカウントを利用者に案内",
+    "milestones": [
+      {
+        "date": "2019",
+        "text": "LINE（51%）とエムスリー（49%）がLINEヘルスケアを共同出資で設立"
+      },
+      {
+        "date": "2020-12",
+        "text": "LINEドクターを先行提供開始（コロナ禍で前倒し）"
+      },
+      {
+        "date": "2022-12",
+        "text": "処方薬の配送機能を追加"
+      },
+      {
+        "date": "2023-01",
+        "text": "LINEの100%子会社となり、エムスリーとの資本関係が解消"
+      },
+      {
+        "date": "2023-10",
+        "text": "登録薬局での処方薬の対面受け取り機能を追加。2023年度の診療件数は前年比2倍と報道"
+      },
+      {
+        "date": "2024-12",
+        "text": "サービス終了を発表。疾患啓発アカウントも順次終了"
+      },
+      {
+        "date": "2025-03",
+        "text": "新規の診療・服薬指導予約を停止"
+      },
+      {
+        "date": "2025-06",
+        "text": "全機能を停止し、LINEヘルスケアの全事業が終了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "LINEヤフーは「グループ内での重複事業の一本化、および中核事業へのリソースの選択と集中を進める中での決定」と説明。広報はソフトバンクグループの別のオンライン診療事業との関係が理由ではないとしている。",
+    "lessons": "利用は伸びていたなかでの終了で、プラットフォーム企業の新規事業がグループ再編の影響を強く受けることを示す例とみられる。",
+    "sources": [
+      "https://www.lycorp.co.jp/ja/news/release/016530/",
+      "https://www.businessinsider.jp/article/298312/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6256ff19",
+    "name": "健康サポートサービス「からだの時計 WM」",
+    "company": "株式会社NTTドコモ／ドコモ・ヘルスケア株式会社",
+    "category": "personal-health-record",
+    "description": "食事・睡眠・運動のタイミングを通知し、管理栄養士の食事アドバイスや専門家への電話相談も付いた月額300円の個人向け健康サポートサービス。活動量計「ムーヴバンド」と連携した。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "統合",
+    "startedAt": "2016-04",
+    "endedAt": "2021-04",
+    "successor": "dヘルスケア（300円）",
+    "milestones": [
+      {
+        "date": "2016-04",
+        "text": "月額500円の「dヘルスケアパック」の一つとして提供開始（単体は月額300円）"
+      },
+      {
+        "date": "2020-08",
+        "text": "dヘルスケア（500円）などとあわせて提供終了を発表。新規受付は2020年8月末で終了"
+      },
+      {
+        "date": "2021-04",
+        "text": "2021年4月30日に提供終了。dヘルスケア（300円）への移行キャンペーンを実施"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "ドコモは、ヘルスケア領域を強化するため有料サービスを「dヘルスケア（300円）」に統合すると説明した。それ以上の理由は公表されていない。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2020/08/04_02.html",
+      "https://www.docomo.ne.jp/info/news_release/2016/03/31_00.html",
+      "https://www.docomo.ne.jp/info/notice/pages/200804_00.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0f01d81d",
+    "name": "女性の健康管理サービス「カラダのキモチ」",
+    "company": "株式会社NTTドコモ",
+    "category": "femtech",
+    "description": "基礎体温や月経周期を記録し、体調予測やアドバイスを届ける月額300円の女性向け健康管理サービス。妊娠・育児期向けの「カラダのキモチbaby」も提供した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2021-04",
+    "successor": "エイチーム「ラルーン」へのデータ引き継ぎを案内",
+    "milestones": [
+      {
+        "date": "2016-04",
+        "text": "「dヘルスケアパック」の構成サービスの一つとして提供"
+      },
+      {
+        "date": "2020-08",
+        "text": "dヘルスケア（500円）などとあわせて提供終了を発表"
+      },
+      {
+        "date": "2021-04",
+        "text": "2021年4月30日に提供終了。利用者はエイチームの「ラルーン」にデータを移して同様のサービスを続けられると案内"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "ドコモはヘルスケアの有料サービスを「dヘルスケア（300円）」に統合する再編の一環として終了を発表した。個別の理由は公表されていない。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2020/08/04_02.html",
+      "https://www.docomo.ne.jp/info/news_release/2016/03/31_00.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-601cc2f5",
+    "name": "日本薬剤師会「eお薬手帳」（ドコモ開発・運営版）",
+    "company": "株式会社NTTドコモ（日本薬剤師会の運営事業者）",
+    "category": "pharmacy-dx",
+    "description": "日本薬剤師会が推進する電子お薬手帳アプリ。NTTドコモが開発・運営事業者として、患者向けアプリと薬局側システムを提供していた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2024-06",
+    "successor": "株式会社ファルモ開発の「eお薬手帳3.0」",
+    "milestones": [
+      {
+        "date": "2021-01",
+        "text": "旧アプリからのデータ移行受付を終了"
+      },
+      {
+        "date": "2022-06",
+        "text": "ドコモが日本薬剤師会にサービス終了（2023年9月30日予定）を通知。薬剤師会は8月に都道府県薬剤師会あて文書で強い不満を表明"
+      },
+      {
+        "date": "2023-07",
+        "text": "日本薬剤師会が新たな運営事業者にファルモを選定し、「eお薬手帳3.0」を公開。ドコモ版と約1年並行運用"
+      },
+      {
+        "date": "2024-06",
+        "text": "ドコモ版の全サービス提供・サポートを終了し、eお薬手帳3.0へ移行"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "competition"
+    ],
+    "endReasonNote": "日本薬剤師会は「開発元であるNTTドコモ社の撤退に伴い」移行したと説明している。日経クロステックによると、ドコモは2022年6月に薬剤師会へ終了を伝え、「経営上の判断」として患者向けアプリを運営に加わったCLINICSに統合し経営資源を一本化すると説明した。薬剤師会によれば、ドコモは競合との差異化を図れなかったことも理由に挙げたという（薬剤師会側は改善提案への対応が鈍かったとして、この説明に納得できないとした）。",
+    "sources": [
+      "https://www.nichiyaku.or.jp/e-okusuri/",
+      "https://macfan.book.mynavi.jp/article/m142811/",
+      "https://xtech.nikkei.com/atcl/nxt/column/18/01157/111600074/",
+      "https://nichiyaku.or.jp/static/uploads/pr-activity/press/20240229_02-02.pdf"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-804776ad",
+    "name": "患者向けアプリ「おくすり手帳Link」",
+    "company": "株式会社NTTドコモ",
+    "category": "pharmacy-dx",
+    "description": "薬局から調剤情報を受け取り、服薬スケジュールや体調メモを管理できる患者向け電子お薬手帳アプリ。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2023-09",
+    "successor": "メドレーとドコモが共同運営する「CLINICS」アプリ",
+    "milestones": [
+      {
+        "date": "2021-12",
+        "text": "ドコモとメドレーがオンライン診療アプリ「CLINICS」の共同運営を発表"
+      },
+      {
+        "date": "2022-08",
+        "text": "「おくすり手帳Link」を「CLINICS」アプリへ統合すると告知。薬局向けにはメドレーの「Pharms」導入を推奨"
+      },
+      {
+        "date": "2023-09",
+        "text": "2023年9月30日にCLINICSへ統合し、サービス提供を終了。体調メモや服薬スケジューラは引き継ぎ対象外"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "competition"
+    ],
+    "endReasonNote": "ドコモは、診療から服薬管理までを1つのアプリで使えるようにし利便性を高めるため、CLINICS共同運営の取り組みの一環として統合すると説明した。日経クロステックの報道では、ドコモは「経営上の判断」で経営資源を一本化したと説明し、日本薬剤師会によれば競合との差異化を図れなかったことも理由に挙げたという。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/notice/page/220802_00.html",
+      "https://xtech.nikkei.com/atcl/nxt/column/18/01157/111600074/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c4aa9f84",
+    "name": "電子お薬手帳アプリ「アインおくすり手帳」",
+    "company": "株式会社アインファーマシーズ（アインホールディングス）",
+    "category": "pharmacy-dx",
+    "description": "アイン薬局の利用者向けに提供していた電子お薬手帳アプリ。処方箋送信や服薬記録の管理ができた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2025-11",
+    "successor": "「いつでもアイン薬局」アプリのお薬手帳機能",
+    "milestones": [
+      {
+        "date": "2025-11",
+        "text": "サービス提供を終了し、「いつでもアイン薬局」アプリへの移行を案内"
+      },
+      {
+        "date": "2026-02",
+        "text": "データ移行の問い合わせ対応期間の終了予定"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "アプリの統合・移行の案内のみで、終了の理由は公表されていない。",
+    "sources": [
+      "https://www.ainj.co.jp/app/faq/detail/003426.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f95a8aa5",
+    "name": "東芝メディカルシステムズ（画像診断装置事業）",
+    "company": "株式会社東芝 → キヤノン株式会社",
+    "category": "medical-device",
+    "description": "CT・MRI・超音波・X線などの画像診断装置を国内外の医療機関に販売・保守する東芝のヘルスケア中核事業。2016年にキヤノンへ売却された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2016-12",
+    "successor": "キヤノンメディカルシステムズ株式会社",
+    "milestones": [
+      {
+        "date": "2015-12",
+        "text": "東芝が「新生東芝アクションプラン」でヘルスケア事業の売却方針を示す"
+      },
+      {
+        "date": "2016-03",
+        "text": "東芝がキヤノンとの株式譲渡契約を締結（譲渡額約6655億円、売却益約5900億円の見込み）。独立した第三者MSホールディングを介するスキーム"
+      },
+      {
+        "date": "2016-12",
+        "text": "独占禁止法の審査を経てキヤノンが子会社化"
+      },
+      {
+        "date": "2018-01",
+        "text": "キヤノンメディカルシステムズに社名変更"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "東芝は、ヘルスケア事業の潜在力を引き出すには外部の大株主の支援が必要であり、あわせて財務体質を強化する必要があると説明した。不正会計問題で自己資本比率が大きく低下するなか、2015年度に唯一黒字が見込まれた部門を売却し、売却益を財務改善に充てた。",
+    "lessons": "親会社の財務事情によって、収益を上げている医療機器事業でも売却の対象になった例とみられる。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/65020/140120160316436941.pdf",
+      "https://eetimes.itmedia.co.jp/ee/articles/1603/09/news130.html",
+      "https://monoist.itmedia.co.jp/mn/spv/1603/22/news040.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-bb6c379c",
+    "name": "日立 画像診断関連事業（CT・MRI・超音波等）",
+    "company": "株式会社日立製作所 → 富士フイルム株式会社",
+    "category": "medical-device",
+    "description": "日立製作所（旧日立メディコ等）が手がけていたCT・MRI・X線・超音波診断装置や電子カルテなどの画像診断関連事業。富士フイルムに譲渡された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2021-03",
+    "successor": "富士フイルムヘルスケア株式会社（現 富士フイルムに統合）",
+    "milestones": [
+      {
+        "date": "2019-12",
+        "text": "日立が画像診断関連事業を新会社に承継させ、全株式を富士フイルムに譲渡する契約を締結。事業価値は1790億円で合意。当初の実行予定は2020年7月"
+      },
+      {
+        "date": "2020-05",
+        "text": "新型コロナの影響で準備が遅れ、実行日を未定に変更"
+      },
+      {
+        "date": "2021-03",
+        "text": "2021年3月31日に譲渡を完了予定として実行"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "日立は会見で事業の選択と集中をさらに進め、デジタルソリューション分野に力を入れる方針を説明した（同時期に日立化成の売却も発表）。富士フイルム側はメディカルシステム事業の拡大を狙いとした。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/65010/140120191218438339.pdf",
+      "https://monoist.itmedia.co.jp/mn/spv/1912/19/news064_2.html",
+      "https://www2.jpx.co.jp/disc/65010/140120210218466198.pdf",
+      "https://www.hitachi.com/ja-jp/press/articles/2021/01/0106a/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6efbe606",
+    "name": "パナソニック ヘルスケア（医療機器・血糖測定器・電子カルテ等）",
+    "company": "パナソニック株式会社 → PHCホールディングス（KKR傘下）",
+    "category": "medical-device",
+    "description": "血糖測定システム、医療用コンピューター（電子カルテ・レセコン）、バイオメディカル機器などを手がけたパナソニックの医療機器子会社。KKR系ファンドに売却された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2014-03",
+    "successor": "PHCホールディングス株式会社",
+    "milestones": [
+      {
+        "date": "2013-09",
+        "text": "パナソニックがパナソニックヘルスケアの全株式をKKR系のPHCホールディングスに譲渡すると決議（譲渡価額約1650億円）。パナソニックは第三者割当増資を引き受け議決権20%を保有"
+      },
+      {
+        "date": "2014-03",
+        "text": "譲渡を実行"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "funding"
+    ],
+    "endReasonNote": "パナソニックヘルスケアは収益向上のため追加投資と医療業界の専門知識を必要としていたが、パナソニック単独では経営資源の投入が難しく、医療機器事業のノウハウと資金力を持つKKRグループへの譲渡で企業価値向上を図ると説明された。",
+    "sources": [
+      "https://maonline.jp/news/20130927i",
+      "https://www.nihon-ma.co.jp/news/20130927_6752-6/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-73c66cd4",
+    "name": "武田コンシューマーヘルスケア（大衆薬事業：アリナミン・ベンザ等）",
+    "company": "武田薬品工業株式会社 → ブラックストーン",
+    "category": "pharma",
+    "description": "「アリナミン」「ベンザブロック」などの一般用医薬品（OTC）をドラッグストア等で販売する武田薬品の大衆薬子会社。米ブラックストーンに売却された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2021-03",
+    "successor": "アリナミン製薬株式会社",
+    "milestones": [
+      {
+        "date": "2019-01",
+        "text": "武田薬品がShire買収を完了し、有利子負債が膨らむ"
+      },
+      {
+        "date": "2020-08",
+        "text": "武田薬品が同社をブラックストーンのファンドに企業価値2420億円で売却すると発表"
+      },
+      {
+        "date": "2021-03",
+        "text": "譲渡完了。その後アリナミン製薬に社名変更"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "Shire買収で膨らんだ有利子負債の圧縮を進めるなか、大衆薬は非中核事業と位置づけられ、重点疾患の処方薬に経営資源を集中する方針の一環で売却されたと報じられている。",
+    "sources": [
+      "https://www.blackstone.com/jp/insights/article/blackstone-signs-definitive-agreement-to-acquire-takeda-consumer-health-company/",
+      "https://nk.jiho.jp/article/154477",
+      "https://the-shashi.com/tse/4502/decisions/otc-divestiture-2020/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e270ee8b",
+    "name": "JT 医薬事業（医療用医薬品の研究開発・販売、鳥居薬品）",
+    "company": "日本たばこ産業株式会社（JT）→ 塩野義製薬株式会社",
+    "category": "pharma",
+    "description": "JTの医薬総合研究所による新薬の研究開発と、子会社・鳥居薬品による医療用医薬品の販売（免疫・炎症、皮膚、アレルギー、腎臓領域など）。塩野義製薬へ承継された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2025",
+    "successor": "塩野義製薬（鳥居薬品は塩野義の完全子会社化）",
+    "milestones": [
+      {
+        "date": "2025-05",
+        "text": "塩野義製薬とJTが、JT医薬事業の吸収分割と鳥居薬品株式の公開買付けに関する合意書を締結。買収総額は約1600億円の見通しと報道"
+      },
+      {
+        "date": "2025-06",
+        "text": "塩野義による鳥居薬品株式の公開買付けが成立。JTは保有する約55%の鳥居薬品株を塩野義に売却"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "JTは医薬事業から撤退し、本業のたばこ事業に集中する方針と報じられている。新薬開発に長期間と多額の費用がかかり研究開発費の負担が重かったとの分析もある。塩野義側は国内事業の強化、海外展開の加速、領域・販路の拡充を目的に挙げた。",
+    "sources": [
+      "https://www.shionogi.com/content/dam/shionogi/jp/investors/ir-library/presentation-materials/fy2024/20250507_記者会見説明資料_final２_.pdf",
+      "https://www.nihon-ma.co.jp/news/20250507_4507-8/",
+      "https://www.nihon-ma.co.jp/news/20250619_4507-10/",
+      "https://www.yakuji.co.jp/?p=117897"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ef2ca1ae",
+    "name": "田辺三菱製薬（医薬品事業）の保有",
+    "company": "三菱ケミカルグループ株式会社 → ベインキャピタル",
+    "category": "pharma",
+    "description": "三菱ケミカルグループが完全子会社として保有していた医療用医薬品メーカー・田辺三菱製薬。ベインキャピタルに約5100億円で売却され、社名を田辺ファーマに変更した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "譲渡",
+    "startedAt": "2020",
+    "endedAt": "2025",
+    "successor": "田辺ファーマ株式会社（ベインキャピタル傘下）",
+    "milestones": [
+      {
+        "date": "2020",
+        "text": "三菱ケミカルホールディングスが約5000億円を投じて田辺三菱製薬を完全子会社化"
+      },
+      {
+        "date": "2025-02",
+        "text": "三菱ケミカルグループが田辺三菱製薬をベインキャピタルに約5100億円で譲渡すると発表"
+      },
+      {
+        "date": "2025-07",
+        "text": "田辺ファーマに社名変更（報道）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "筑本学社長は売却の目的を「お互いの成長のためだ」と説明。新薬開発の主流が低分子からバイオに移るなかで化学と医薬のシナジーが薄れ、創薬に必要な多額の投資を担えるパートナーが必要と判断したと報じられている。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/41880/140120250327502159.pdf",
+      "https://newswitch.jp/p/44646",
+      "https://nk.jiho.jp/article/196549"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f73c494e",
+    "name": "プレシジョンメディシン事業（Ambry Genetics・コニカミノルタREALM・Invicro）",
+    "company": "コニカミノルタ株式会社",
+    "category": "simple-inspection",
+    "description": "米Ambry Geneticsのがん・遺伝性疾患の遺伝子検査、創薬支援のInvicro、国内のコニカミノルタREALMを束ね、個別化医療向けの検査・創薬支援を提供した事業。2024〜25年に順次売却した。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "譲渡",
+    "startedAt": "2017",
+    "endedAt": "2025-10",
+    "successor": "Ambry GeneticsはTempus AI、国内事業はSB TEMPUSが取得",
+    "milestones": [
+      {
+        "date": "2017",
+        "text": "Ambry Geneticsを買収し、プレシジョンメディシン事業に本格参入"
+      },
+      {
+        "date": "2018",
+        "text": "Konica Minolta Precision Medicine（現 REALM IDx）を設立し、Ambry・コニカミノルタREALM・Invicroを傘下に統合"
+      },
+      {
+        "date": "2024-04",
+        "text": "Invicroの全持分の譲渡を完了"
+      },
+      {
+        "date": "2024-11",
+        "text": "Ambry Geneticsの全株式をTempus AIに譲渡することを決定（対価総額6億ドル、うち一部はTempus株式）"
+      },
+      {
+        "date": "2025-01",
+        "text": "国内のコニカミノルタREALMをSB TEMPUSに譲渡する契約を締結（2025年10月完了と報道）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "funding"
+    ],
+    "endReasonNote": "コニカミノルタは、コロナ禍で病院での遺伝子検査需要の伸びが想定を大きく下回った時期があったうえ、今後も継続的な研究開発投資が必要なことを考え、「ベストオーナー視点」で第三者資本の活用を進めた結果、譲渡が最善と判断したと説明している。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/49020/140120241105510439.pdf",
+      "https://www.nihon-ma.co.jp/news/20250114_4902-19/",
+      "https://www2.jpx.co.jp/disc/49020/140120260629582805.pdf"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f7645db2",
+    "name": "ワタミの介護（介護付き有料老人ホーム事業）",
+    "company": "ワタミ株式会社 → 損保ジャパン日本興亜ホールディングス",
+    "category": "nursing",
+    "description": "外食大手ワタミが展開した介護付き有料老人ホーム「レストヴィラ」などの介護事業。損保ジャパン日本興亜HDに売却された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2015-12",
+    "successor": "SOMPOケアネクスト（のちSOMPOケアに統合）",
+    "milestones": [
+      {
+        "date": "2015-09",
+        "text": "介護事業売却の報道を受け、ワタミが事業再構築の一環として譲渡協議中と発表"
+      },
+      {
+        "date": "2015-10",
+        "text": "損保ジャパン日本興亜HDが取締役会でワタミの介護の全株式取得を決議（取得価額211億円）"
+      },
+      {
+        "date": "2015-12",
+        "text": "譲渡を実行。のちにSOMPOケアネクストに社名変更"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "funding"
+    ],
+    "endReasonNote": "主力の外食事業の不振で2015年3月期に赤字となり、事業再構築の一環として売却したと報じられている。社長は第1四半期の外食・宅食が計画を下回り「これ以上は難しいと判断した」と述べたとされる。",
+    "sources": [
+      "https://www.j-cast.com/2015/09/21245681.html",
+      "https://toyokeizai.net/articles/-/84127?display=b",
+      "https://the-shashi.com/tse/8630/decisions/nursing-care-entry-2015/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-40765a8a",
+    "name": "医療用モニター事業（医用画像表示モニター・サージカルモニター）",
+    "company": "株式会社JVCケンウッド",
+    "category": "medical-device",
+    "description": "読影用の医用画像表示モニターや手術室向けサージカルモニター、タッチパネル液晶モニターを医療機器メーカー等に供給した事業。2026年に撤退を決めた。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "終了",
+    "startedAt": "2013",
+    "endedAt": "2026-12",
+    "milestones": [
+      {
+        "date": "2013",
+        "text": "医用市場に参入"
+      },
+      {
+        "date": "2023-04",
+        "text": "別の「新医療事業」の事業譲渡の検討を開始"
+      },
+      {
+        "date": "2026-02",
+        "text": "ヘルスケア事業からの撤退と、ドイツRein Medical社の株式譲渡を発表"
+      },
+      {
+        "date": "2026-09",
+        "text": "生産終了（予定）"
+      },
+      {
+        "date": "2026-12",
+        "text": "販売終了（予定）。保守サポートは2031年12月末まで"
+      }
+    ],
+    "endReasons": [
+      "competition",
+      "no-payer"
+    ],
+    "endReasonNote": "主要取引先の撤退による売上減少、競合の台頭、原材料価格の高騰で業績が厳しい状況が続き、中期経営計画「VISION2025」で再構築を進めたものの、収益性の改善と将来の成長の見通しが立たないと判断したと説明している。",
+    "sources": [
+      "https://www.jvckenwood.com/content/dam/jvckenwood/jp/pdf/jvckenwood-press-20260220-01-ja.pdf"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-93a7e965",
+    "name": "食事・歩数のヘルスケアアプリ「ROUTY」",
+    "company": "イオンフィナンシャルサービス株式会社（イオンクレジットサービス）",
+    "category": "personal-health-record",
+    "description": "食事写真からの栄養解析、レシピ提案、ウォーキングなどのチャレンジ達成でWAON POINTがもらえる個人向けの無料ヘルスケアアプリ。イオンカード会員から提供を始めた。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "終了",
+    "startedAt": "2021-07",
+    "endedAt": "2025-03",
+    "milestones": [
+      {
+        "date": "2021-07",
+        "text": "イオンカード会員向けに先行配信"
+      },
+      {
+        "date": "2022-01",
+        "text": "画像解析の精度向上などを加え、誰でも使える形で本格リリース"
+      },
+      {
+        "date": "2024-12",
+        "text": "サービス終了を発表。アプリ配信は2024年12月25日に終了"
+      },
+      {
+        "date": "2025-03",
+        "text": "2025年3月31日にサービス提供を終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知のみで、理由は公表されていない。",
+    "sources": [
+      "https://www.aeon.co.jp/information/2024/1216_01/",
+      "https://www.watch.impress.co.jp/docs/news/1379054.html",
+      "https://paymentnavi.com/?p=114138"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-090a7c20",
+    "name": "脈拍計測リストバンド「PULSENSE」と健康管理サービス「PULSENSE View」",
+    "company": "セイコーエプソン株式会社",
+    "category": "personal-health-record",
+    "description": "光学式センサーで脈拍を常時計測する腕時計型の活動量計と、そのデータで運動強度・消費カロリー・睡眠などを管理するWeb・アプリサービス。ランニング用GPSウォッチ向けのサービスとあわせて提供した。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "終了",
+    "startedAt": "2014-10",
+    "endedAt": "2025-03",
+    "milestones": [
+      {
+        "date": "2014-01",
+        "text": "米CESで参考展示"
+      },
+      {
+        "date": "2014-06",
+        "text": "社長がウエアラブル事業を戦略事業と位置づけ。年間5万台の販売目標と報道"
+      },
+      {
+        "date": "2014-10",
+        "text": "国内で「PULSENSE」「WristableGPS」などウエアラブル3機種を発表"
+      },
+      {
+        "date": "2025-03",
+        "text": "Epson View／NeoRun／PULSENSE Viewのサービスを2025年3月31日に終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "サービス終了の告知のみで、理由は公表されていない。海外サイトでは端末が販売終了（Discontinued）と表示されている。",
+    "sources": [
+      "https://go-wellness.epson.com/",
+      "https://www.itmedia.co.jp/mobile/articles/1410/02/news169.html",
+      "https://newswitch.jp/p/1108",
+      "https://www.epson.co.uk/products/wearable-technology/pulsense/pulsense-ps-100b-%28s-m%29/p/13771"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9cc82bd9",
+    "name": "第一三共ヘルスケア（OTC医薬品・スキンケア等のセルフケア事業）",
+    "company": "第一三共株式会社 → サントリーホールディングス株式会社",
+    "category": "pharma",
+    "description": "「ロキソニンS」などのOTC医薬品に加え、機能性スキンケア・オーラルケア・食品を薬局・ドラッグストアや通販で販売する第一三共の子会社。サントリーHDへの段階的な売却が決まった。",
+    "hp": "",
+    "startedYear": 2005,
+    "status": "譲渡",
+    "startedAt": "2005-12",
+    "endedAt": "2026-06",
+    "successor": "サントリーホールディングス（2029年6月までに全株式を段階的に譲渡する計画）",
+    "milestones": [
+      {
+        "date": "2005-12",
+        "text": "第一三共ヘルスケア設立"
+      },
+      {
+        "date": "2025-03",
+        "text": "2025年3月期の売上高760億円、営業利益129億円"
+      },
+      {
+        "date": "2026-04",
+        "text": "第一三共がサントリーHDと株式譲渡契約を締結（譲渡価額合計2465億円の予定）"
+      },
+      {
+        "date": "2026-06",
+        "text": "発行済株式の30%をサントリーHDに譲渡（予定）。2029年6月までに段階的に全株を譲渡する計画"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "第一三共は、飲料・食品・健康食品で強い事業基盤を持つサントリーHDのもとで事業を進めることが成長に最適と判断したと説明。自社は経営資源をイノベーティブ医薬品、特にオンコロジー事業に集中するとしている。",
+    "sources": [
+      "https://www.daiichisankyo.co.jp/files/news/pressrelease/pdf/202604/20260415_J.pdf"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0c07688d",
+    "name": "健康管理アプリ「dヘルスケア」の運営（ドコモから移管）",
+    "company": "株式会社NTTドコモ → NTTプレシジョンメディシン株式会社",
+    "category": "personal-health-record",
+    "description": "歩数や健康記録に応じてdポイントがたまる個人向け健康管理アプリ。ドコモが運営してきたが、NTTグループ内のNTTプレシジョンメディシンに運営会社を変更する。NTTグループ向けの「NTT限定機能」は別途終了した。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "譲渡",
+    "startedAt": "2016-04",
+    "endedAt": "2026-10",
+    "successor": "NTTプレシジョンメディシン株式会社（企業DB id: jp-136）",
+    "milestones": [
+      {
+        "date": "2016-04",
+        "text": "「dヘルスケアパック」の提供開始"
+      },
+      {
+        "date": "2021-04",
+        "text": "有料サービスを「dヘルスケア（300円）」に統合"
+      },
+      {
+        "date": "2025-11",
+        "text": "NTTグループ向けの「dヘルスケア（NTT限定機能）」を2026年3月末で終了し、NTTデータの新アプリへ移行すると告知"
+      },
+      {
+        "date": "2026-07",
+        "text": "運営会社をNTTプレシジョンメディシンに変更すると告知"
+      },
+      {
+        "date": "2026-10",
+        "text": "2026年10月1日付で運営会社を変更（予定）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "ドコモは「NTTグループとして健康・医療領域におけるサービス展開をさらに強化し、お客さまへより一層の価値提供を行うこと」を目的とした運営会社変更と説明している。",
+    "sources": [
+      "https://health.docomo.ne.jp/info/information/announce_20260730",
+      "https://health.docomo.ne.jp/corp/hdcm0006/info/info-20251128",
+      "https://health.docomo.ne.jp/info/information/announce_20200804"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-35510ce0",
+    "name": "健診結果改善サポートアプリ「Neoコーチ」",
+    "company": "ネオファースト生命保険株式会社（第一生命グループ）",
+    "category": "insuarance",
+    "description": "健康診断の結果改善を支援する生命保険会社の無料アプリ。健康行動に応じたプレゼント抽選などで利用継続を促した。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "終了",
+    "startedAt": "2022-07",
+    "endedAt": "2024-10",
+    "milestones": [
+      {
+        "date": "2022-07",
+        "text": "サービス提供開始"
+      },
+      {
+        "date": "2024-08",
+        "text": "サービス終了を告知し、新規ユーザー登録を停止"
+      },
+      {
+        "date": "2024-09",
+        "text": "プレゼント抽選サービスを終了"
+      },
+      {
+        "date": "2024-10",
+        "text": "2024年10月31日にサービス終了。データの移行・書き出しには対応しない"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知のみで、理由は公表されていない。",
+    "sources": [
+      "https://neofirst.co.jp/information/info/20240821.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a04c34f6",
+    "name": "健康増進アプリ「健康第一」の健康増進機能",
+    "company": "第一生命保険株式会社",
+    "category": "insuarance",
+    "description": "歩数記録、疾病リスクチェック、食事のカロリーチェック、タニタ監修レシピなどを、契約者以外も無料で使える生命保険会社の健康増進アプリ。保険手続き中心の「第一生命アプリ」に改められた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2025-05",
+    "successor": "第一生命アプリ",
+    "milestones": [
+      {
+        "date": "2025-05",
+        "text": "2025年5月21日に「第一生命アプリ」へ名称変更・リニューアル。疾病リスクチェック、Myコラム、Myカロリーチェック、Myレシピ TANITA、生活改善レシピの各機能を収束"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "同社は「お客さまの声やご利用状況をもとに」健康増進コンテンツを見直したと説明しているが、個別機能を終えた理由は公表されていない。",
+    "sources": [
+      "https://www.dai-ichi-life.co.jp/information/daiichi_app.html",
+      "https://www.dai-ichi-life.co.jp/information/nfl.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-89dd3e87",
+    "name": "健康応援アプリ「リンククロス 健康トライ」",
+    "company": "SOMPOひまわり生命保険株式会社",
+    "category": "insuarance",
+    "description": "生命保険の契約者などに向けて、健康行動に応じた特典を提供した健康増進アプリ。保険手続きアプリ「MYひまわり」に一部機能を統合した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2025-03",
+    "successor": "MYひまわり",
+    "milestones": [
+      {
+        "date": "2024-10",
+        "text": "「リンククロス 健康トライ」の2025年3月での終了と、MYひまわりへの一部機能統合が案内される"
+      },
+      {
+        "date": "2025-03",
+        "text": "サービス終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "アプリの統合・リニューアルの案内のみで、理由は公表されていない。",
+    "sources": [
+      "https://progress-hd.com/news/%EF%BD%8D%EF%BD%99%E3%81%B2%E3%81%BE%E3%82%8F%E3%82%8A%EF%BD%9E%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E3%81%A8%E5%81%A5%E5%BA%B7%E3%82%92%E3%81%A4%E3%81%AA%E3%81%90%E3%82%A2%E3%83%97%E3%83%AA%EF%BD%9E/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5eb9fa2e",
+    "name": "不随意運動様症状検出アプリ「Piclog」",
+    "company": "田辺三菱製薬株式会社（現 田辺ファーマ株式会社）",
+    "category": "diagnostic-support",
+    "description": "患者が自分で撮影した顔の動画からAIが不随意運動らしい場面を抜き出し、診察時に主治医へ見せられる無料アプリ。問診機能も持ち、医師と患者のコミュニケーション支援を目的とした。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2026-06",
+    "milestones": [
+      {
+        "date": "2026-03",
+        "text": "医療関係者向けにサービス終了を告知"
+      },
+      {
+        "date": "2026-06",
+        "text": "2026年6月30日にサービス終了。データはすべて削除"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "同社は「アプリ運用ベンダーおよび当社を取り巻く環境の変化により、サービスの継続が困難であると判断」したと説明している。それ以上の具体的な理由は公表されていない。",
+    "sources": [
+      "https://medical.tanabe-pharma.com/top/pdf/piclog-introduction-close.pdf",
+      "https://medical.tanabe-pharma.com/info-history.shtml",
+      "https://apps.apple.com/jp/app/%E4%B8%8D%E9%9A%8F%E6%84%8F%E9%81%8B%E5%8B%95%E6%A7%98%E7%97%87%E7%8A%B6%E6%A4%9C%E5%87%BA%E3%82%A2%E3%83%97%E3%83%AApiclog/id6462405170"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-8413e1b0",
+    "name": "公式ヘルスケアアプリ「タヨリス」（ネイティブアプリ版）",
+    "company": "総合メディカル株式会社",
+    "category": "pharmacy-dx",
+    "description": "そうごう薬局などの利用者向けに、お薬手帳、来店予約、オンライン服薬指導などを提供した公式ヘルスケアアプリ。LINEミニアプリ版に移行した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2026-06",
+    "successor": "LINEミニアプリ「タヨリス」",
+    "milestones": [
+      {
+        "date": "2026-02",
+        "text": "ネイティブアプリの段階的終了とLINEミニアプリへの移行を発表。データ引き継ぎ機能を提供"
+      },
+      {
+        "date": "2026-03",
+        "text": "お薬手帳の自動連携を停止"
+      },
+      {
+        "date": "2026-04",
+        "text": "来店予約とオンライン服薬指導の新規予約を停止"
+      },
+      {
+        "date": "2026-06",
+        "text": "2026年6月30日に全サービス終了"
+      }
+    ],
+    "endReasons": [
+      "workflow"
+    ],
+    "endReasonNote": "同社は、地域の医療体制の維持と地域包括ケアの実現を目指すなかで、日常的に使われているLINEミニアプリを活用し、よりスムーズで質の高いヘルスケア体験を提供するためと説明している。",
+    "lessons": "専用アプリをダウンロードして使い続けてもらう難しさから、利用者が普段使うLINE上へ移す判断とみられる。",
+    "sources": [
+      "https://www.sogo-medical.co.jp/ja/news/20260227_01.html",
+      "https://pnb.jiho.jp/article/247687"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-37314f91",
+    "name": "遠隔特定保健指導などのデータヘルス事業",
+    "company": "株式会社エス・エム・エス",
+    "companyId": "2010001134117",
+    "category": "health-insuarance-market",
+    "description": "健康保険組合、協会けんぽ、自治体向けに、ICTを使った遠隔での特定保健指導などを受託提供した事業。2026年3月期の売上高は5億9000万円。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2026-12",
+    "successor": "メドケア株式会社（エムスリー子会社、企業DB id: 5011101073020）",
+    "milestones": [
+      {
+        "date": "2026-03",
+        "text": "2026年3月期の事業売上高5億9000万円（連結売上高の0.9%）"
+      },
+      {
+        "date": "2026-10",
+        "text": "簡易吸収分割によりメドケアへ承継させる契約を締結（対価は現金1円）"
+      },
+      {
+        "date": "2026-12",
+        "text": "2026年12月1日に承継の効力発生（予定）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "エス・エム・エスは「事業ポートフォリオの見直し」の一環で、注力領域へ経営資源を集中するためと説明している。",
+    "sources": [
+      "https://maonline.jp/news/20261021b",
+      "https://zaikei.co.jp/article/20261022/874440.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-082d6257",
+    "name": "医療機関・介護事業所向けストレスチェック代行サービス",
+    "company": "株式会社エス・エム・エス",
+    "companyId": "2010001134117",
+    "category": "health-corporate-management",
+    "description": "医療機関や介護事業所向けに、ストレスチェックの実施、オンライン受検、結果の集計・分析を代行したサービス。2026年3月期の売上高は1億7900万円。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2026-12",
+    "successor": "ウェルネス・コミュニケーションズ株式会社",
+    "milestones": [
+      {
+        "date": "2026-10",
+        "text": "新設分割で設立する株式会社ストレスチェックの全株式をウェルネス・コミュニケーションズに譲渡する契約を締結（価額非公表）"
+      },
+      {
+        "date": "2026-12",
+        "text": "2026年12月1日に効力発生（予定）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "エス・エム・エスは「事業ポートフォリオの見直し」を行い、注力領域へ経営資源を集中させるためと説明している。",
+    "sources": [
+      "https://zaikei.co.jp/article/20261022/874440.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2346c156",
+    "name": "予防医療プラットフォーム事業（Mediplat・フィッツプラス）",
+    "company": "メドピア",
+    "companyId": "8011001073431",
+    "category": "health-corporate-management",
+    "description": "子会社Mediplat（オンライン医療相談・産業保健支援）とフィッツプラス（特定保健指導・食事指導）を通じ、企業・健保向けに予防医療・健康経営サービスを提供した事業。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2024-09",
+    "successor": "アドバンテッジリスクマネジメント（ARM）の新設子会社2社",
+    "milestones": [
+      {
+        "date": "2024-06",
+        "text": "Mediplatのライフログプラットフォーム事業をメドピア本体へ吸収分割で承継する契約を締結"
+      },
+      {
+        "date": "2024-08",
+        "text": "Mediplatとフィッツプラスの全事業をARMの新設子会社2社へ吸収分割で承継させ、予防医療プラットフォーム事業から撤退すると発表"
+      },
+      {
+        "date": "2024-09",
+        "text": "2024年9月30日に効力発生（予定）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "メドピアは2027年9月期までを「プラットフォーム強化期」とし、医師プラットフォーム事業と医療機関支援プラットフォーム事業に投資を集中すると決定。グループ内では両社の事業の成長可能性を短期的に最大限発揮させることが難しいとして、健康経営分野に顧客基盤を持つARMへの譲渡を決めたと説明した。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20240802_6095-10/",
+      "https://www.nihon-ma.co.jp/news/20240613_6095-7/",
+      "https://www2.jpx.co.jp/disc/60950/140120241113520989.pdf"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-26e3a9f8",
+    "name": "在宅医療事務アウトソーシング（クラウドクリニック）",
+    "company": "メドピア",
+    "companyId": "8011001073431",
+    "category": "home-medical",
+    "description": "在宅医療を行う医療機関向けに、レセプト業務などの事務を遠隔で代行する子会社クラウドクリニックの事業。ファストドクターに売却した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2024-07",
+    "successor": "ファストドクター株式会社（企業DB id: 9010901038716）",
+    "milestones": [
+      {
+        "date": "2024-06",
+        "text": "クラウドクリニックの全株式をファストドクターへ譲渡する契約を締結（価額非公表）"
+      },
+      {
+        "date": "2024-07",
+        "text": "2024年7月1日に株式譲渡を実行（予定）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "メドピアは医師プラットフォーム事業と医療機関支援プラットフォーム事業に投資を集中する方針のもと事業ポートフォリオを見直し、クラウドクリニックと親和性の高い事業から撤退するのに伴い、成長を見込めるファストドクターに譲渡すると説明した。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20240628_6095-8/",
+      "https://prtimes.jp/main/html/rd/p/000000094.000031533.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-583f01cf",
+    "name": "生理予測・体調管理アプリ「ラルーン（Lalune）」",
+    "company": "株式会社エイチーム（エイチームウェルネス）→ 株式会社メドレー",
+    "category": "femtech",
+    "description": "生理日や排卵日の予測、体調記録ができる女性向けの無料アプリ。広告などで収益化し、累計利用者は867万人を超えていた。メドレーに売却された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2024-02",
+    "successor": "株式会社メドレー（企業DB id: 4010401082351）",
+    "milestones": [
+      {
+        "date": "2021-04",
+        "text": "ドコモの「カラダのキモチ」終了に伴い、同サービスのデータ引き継ぎ先として案内される"
+      },
+      {
+        "date": "2023-09",
+        "text": "累計利用者867万人超"
+      },
+      {
+        "date": "2023-10",
+        "text": "メドレーが会社分割により事業を取得することを発表（取得価額5億円、直近売上高2億7700万円）"
+      },
+      {
+        "date": "2024-02",
+        "text": "2024年2月1日に取得（予定）"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "買い手のメドレーは、医療ヘルスケア領域での事業機会の拡大と、オンライン診療アプリ「CLINICS」との相乗効果を狙いとして挙げた。売り手のエイチームが手放した理由は今回確認した資料では公表されていない。",
+    "sources": [
+      "https://maonline.jp/news/20231024f",
+      "https://www.nihon-ma.co.jp/news/20231024_4480-7/",
+      "https://www.docomo.ne.jp/info/news_release/2020/08/04_02.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9dad43c9",
+    "name": "在宅医療機関・介護事業者向け経営サポート事業（メディパス）",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "medical-management-support",
+    "description": "在宅医療機関や介護事業者向けに経営サポートを提供する子会社メディパスの事業。メドレーはオンライン研修システム事業の取得を目的に子会社化したが、経営サポート事業はMBOで手放した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2025-01",
+    "successor": "株式会社メディパスホールディングス（メディパス代表によるMBO）",
+    "milestones": [
+      {
+        "date": "2021-03",
+        "text": "メドレーがメディパスを子会社化（主目的はオンライン研修システム事業）"
+      },
+      {
+        "date": "2024-11",
+        "text": "メディパス全株式をメディパスホールディングスへ譲渡することを決議（譲渡価額9億2800万円）"
+      },
+      {
+        "date": "2025-01",
+        "text": "2025年1月6日に株式譲渡を実行（予定）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "メドレーは、オンライン研修システム事業は自社に移管して成長している一方、メディパスの経営サポート事業は子会社化後3年間追加投資をしておらず「ノンコア」と位置づけ、MBO方式が双方にとって最善と判断したと説明した。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20241120_4480-11/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c10a83ea",
+    "name": "整形外科用インプラント合弁「帝人ナカシマメディカル」",
+    "company": "帝人株式会社（ナカシマホールディングスとの合弁）",
+    "category": "medical-device",
+    "description": "人工関節などの整形外科用インプラントを開発・製造・販売する、帝人とナカシマHDの折半出資の合弁会社。帝人が持分を手放し、ナカシマHDの完全子会社となった。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "譲渡",
+    "startedAt": "2015-04",
+    "endedAt": "2025-06",
+    "successor": "ナカシマヘルスフォース株式会社（ナカシマHDの完全子会社）",
+    "milestones": [
+      {
+        "date": "2015-04",
+        "text": "帝人とナカシマHDが合弁会社として設立"
+      },
+      {
+        "date": "2025-04",
+        "text": "帝人が保有株式の全てをナカシマHDと帝人ナカシマメディカルに譲渡する契約を締結"
+      },
+      {
+        "date": "2025-06",
+        "text": "株式譲渡完了（予定）。ナカシマヘルスフォースへ社名変更予定"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "帝人は、進めている事業ポートフォリオ変革と事業戦略の見直しに伴いナカシマと協議した結果、合弁を解消し、ナカシマの完全子会社として成長を目指すことが最善と判断したと説明している。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20250508_3401-18/",
+      "https://nk.jiho.jp/article/198760"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1d827013",
+    "name": "帝人ファーマの長期収載品7製品（フェブリク等）",
+    "company": "帝人ファーマ株式会社（帝人グループ）",
+    "category": "pharma",
+    "description": "高尿酸血症治療薬「フェブリク」など、帝人ファーマが国内外で販売してきた医療用医薬品の長期収載品7製品。製造販売承認と販売をLTLファーマへ移した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2026",
+    "successor": "LTLファーマ株式会社",
+    "milestones": [
+      {
+        "date": "2021",
+        "text": "武田薬品から糖尿病治療薬4製品を1330億円で譲受（今回の7製品とは別）"
+      },
+      {
+        "date": "2026-06",
+        "text": "長期収載品7製品の製造販売承認の承継と販売移管でLTLファーマと合意。7製品の国内外売上規模は計124億円、譲渡額は非開示。フェブリクは海外事業も移管"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "competition"
+    ],
+    "endReasonNote": "帝人は中期経営計画（2028年度まで）で医薬品事業を希少疾患・難病領域に絞り込み、その他の医薬品は外部の承継先を探す方針を示している。糖尿病治療薬や痛風治療薬は後発品参入などの影響で低迷していたと報じられている。",
+    "sources": [
+      "https://www.yakuji.co.jp/?p=135606"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-019540e1",
+    "name": "法人向け健康経営サービス（健康サポートLink、my sleep、特定保健指導、オンライン禁煙）",
+    "company": "株式会社NTTドコモ",
+    "category": "health-corporate-management",
+    "description": "企業・健保向けに、従業員の健康管理サービス（健康サポートLink）、睡眠改善、特定保健指導、オンライン禁煙プログラムを提供した4つの法人向けサービス。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "統合",
+    "startedAt": "2017-04",
+    "endedAt": "2022-03",
+    "successor": "dヘルスケア for Biz（一部機能を統合）",
+    "milestones": [
+      {
+        "date": "2017-04",
+        "text": "法人向けヘルスケアサービス「健康サポートLink」の運営開始"
+      },
+      {
+        "date": "2021-03",
+        "text": "4つの法人向け健康経営サービスの提供終了と、「dヘルスケア for Biz」への一部機能統合を発表"
+      },
+      {
+        "date": "2021-03",
+        "text": "健康サポートLinkと特定保健指導（カロリーマネジメントプラン）を2021年3月末に終了"
+      },
+      {
+        "date": "2022-03",
+        "text": "特定保健指導（タイムマネジメントプラン）を2022年3月末に終了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "no-payer"
+    ],
+    "endReasonNote": "ドコモは「現在の利用状況を鑑み、ドコモの今後の事業戦略として4つの法人向け健康経営サービスの提供を終了し、一部機能を『dヘルスケア for Biz』に統合」すると説明した。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2021/03/08_02.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-26649a0e",
+    "name": "健康プラットフォーム「WM（わたしムーヴ）」",
+    "company": "株式会社NTTドコモ（旧 ドコモ・ヘルスケア）",
+    "category": "personal-health-record",
+    "description": "オムロンヘルスケアの血圧計・体組成計・活動量計やドコモの「ムーヴバンド」から測定データを集め、スマホアプリで健康管理できる個人向け健康プラットフォーム。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2022-03",
+    "successor": "dヘルスケア（データ移行先）",
+    "milestones": [
+      {
+        "date": "2021-03",
+        "text": "ドコモが法人向け健康経営サービスの再編とあわせ、WMを2022年3月31日に終了すると発表"
+      },
+      {
+        "date": "2021-10",
+        "text": "データ移行先のdヘルスケアアプリへの移行準備（予定）"
+      },
+      {
+        "date": "2022-03",
+        "text": "2022年3月31日に終了。オムロン製の血圧計・体組成計など25機種がWM経由では使えなくなり、OMRON connect対応の代替機種の割引販売を案内"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "ドコモは「dヘルスケア」「dヘルスケア for Biz」を中心にサービスを提供する方針の一環として終了を発表した。WM単独の終了理由は詳しく公表されていない。",
+    "lessons": "機器メーカーと通信会社が組んだデータ基盤が終わると、利用者の手元の計測機器が使えなくなる例となった。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2021/03/08_02.html",
+      "https://internet.watch.impress.co.jp/docs/yajiuma/1319711.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2ffa1251",
+    "name": "放射性医薬品の日本メジフィジックス（合弁持分）",
+    "company": "住友化学株式会社 → GEヘルスケア",
+    "category": "pharma",
+    "description": "核医学検査に使う放射性診断薬（PET・SPECT用医薬品）を製造・販売する日本メジフィジックス。住友化学とGEヘルスケアが50%ずつ保有していたが、住友化学が全持分をGE側に譲渡した。",
+    "hp": "",
+    "startedYear": 1972,
+    "status": "譲渡",
+    "startedAt": "1972",
+    "endedAt": "2025-03",
+    "successor": "GEヘルスケア（GE HealthCare）",
+    "milestones": [
+      {
+        "date": "1972",
+        "text": "日本メジフィジックス設立。住友化学が経営に参画"
+      },
+      {
+        "date": "2004",
+        "text": "GEヘルスケアが株式50%を取得し、両社が対等なパートナーとなる"
+      },
+      {
+        "date": "2024-12",
+        "text": "住友化学が保有株式すべてをGEヘルスケア・リミテッドに譲渡すると発表"
+      },
+      {
+        "date": "2025-03",
+        "text": "2025年3月31日に株式譲渡を実施（予定）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "住友化学は、日本メジフィジックスが今後も成長を続けるには、幅広い診断用医薬品と医療機器を持ちグローバルに展開するGEヘルスケアを最適な所有者とすることが最善と判断したと説明している。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20241202_4005-16/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5a979470",
+    "name": "再生医療CDMO事業（Minaris Regenerative Medicine）",
+    "company": "株式会社レゾナック（旧 日立化成）",
+    "category": "pharma",
+    "description": "再生医療等製品・細胞治療製品の製法開発、治験薬製造、商用製造を、日本・米国・欧州の拠点で製薬企業やバイオベンチャーから受託した事業。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2024",
+    "successor": "米Altarisが運営するファンド",
+    "milestones": [
+      {
+        "date": "2024-09",
+        "text": "Minaris Regenerative Medicineの米・独・日の3社の全株式を米Altarisのファンドに譲渡する契約を発表（価額非公表）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "レゾナックは、経営資源の配分と事業ポートフォリオの見直しを進めるなかで再生医療CDMO事業のあり方について選択肢を検討した結果、譲渡を決定したと説明している。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20240924_4004-8/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e45a1258",
+    "name": "グローバル皮膚科事業（プロトピック海外販売など）",
+    "company": "アステラス製薬株式会社 → LEO Pharma",
+    "category": "pharma",
+    "description": "アトピー性皮膚炎治療薬「プロトピック」の日本以外での販売と、主に欧州・中東・アフリカで販売していたにきび・皮膚感染症向け製品からなる皮膚科事業。デンマークのLEO Pharmaに譲渡した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2016-04",
+    "successor": "LEO Pharma",
+    "milestones": [
+      {
+        "date": "2014-04",
+        "text": "日本国内のプロトピックはマルホに移管"
+      },
+      {
+        "date": "2015-11",
+        "text": "LEO Pharmaと事業譲渡契約を締結（対価6億7500万ユーロ）"
+      },
+      {
+        "date": "2016-04",
+        "text": "2016年4月1日に事業を譲渡"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "アステラスは、環境変化に柔軟に対応できる組織づくりとオペレーションの効率化を進めるなかで譲渡に合意し、競争優位の源泉となる機能へ再投資して新薬創出力を強化すると説明した。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/45030/140120151111444287.pdf",
+      "https://www2.jpx.co.jp/disc/45030/140120160401448367.pdf",
+      "https://maonline.jp/news/20151111c"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fd2a860b",
+    "name": "ヘルスケアアプリ「ココカラダイアリー」",
+    "company": "あいおいニッセイ同和損害保険株式会社（MS&ADグループ）",
+    "category": "insuarance",
+    "description": "運動・食事・睡眠など10項目の健康データ記録とストレスのセルフチェックができる損害保険グループの無料ヘルスケアアプリ。食事写真をAIで分析しカロリーを表示する機能もあった。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "終了",
+    "startedAt": "2021-11",
+    "endedAt": "2025-03",
+    "milestones": [
+      {
+        "date": "2021-11",
+        "text": "あいおいニッセイ同和損保でも提供を開始（MS&ADグループ内の共同展開）。食事記録のAI分析機能を追加"
+      },
+      {
+        "date": "2024-01",
+        "text": "商品ごとのアプリを統合した「あいおいニッセイ同和損保アプリ」の提供を開始"
+      },
+      {
+        "date": "2025-01",
+        "text": "サービス終了を告知"
+      },
+      {
+        "date": "2025-03",
+        "text": "2025年3月31日にサービス提供を終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知のみで、理由は公表されていない。",
+    "sources": [
+      "https://aioinissaydowa.co.jp/corporate/about/news/pdf/2025/info_2025012700483.pdf",
+      "https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2021/news_2021102800920.pdf",
+      "https://apps.apple.com/jp/app/1530496970"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9d9b9904",
+    "name": "スポーツ・運動現場向けITサービス「CLIMB Factory」",
+    "company": "株式会社エムティーアイ",
+    "companyId": "4140001030292",
+    "category": "fitness",
+    "description": "スポーツチームや運動の現場向けに提供していたITサービス事業（CLIMB Factory）。ルナルナなどを持つエムティーアイが手がけていたが、会社分割で外部に承継させた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2024-11",
+    "successor": "クライムファクトリー株式会社",
+    "milestones": [
+      {
+        "date": "2024-09",
+        "text": "簡易吸収分割によりCLIMB Factory事業をクライムファクトリーに承継させる契約を締結（対価非公表）"
+      },
+      {
+        "date": "2024-11",
+        "text": "2024年11月1日に承継の効力発生（予定）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "エムティーアイは、ヘルスケア事業と学校DX事業に注力するなかで、グループの経営資源の選択と集中の観点から承継させると説明している。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20240919_9438-10/"
+    ],
+    "updatedAt": "2026-10"
   }
 ]
