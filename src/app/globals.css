@@ -422,14 +422,14 @@ h1, h2, h3, .sec-title h2, .section-head h2, .page-head h1, .box > h2, .panel h3
 .btn-cta svg { width: 16px; height: 16px; }
 
 /* ---------- ヒーロー（検索中心） ---------- */
-.hx { padding: 56px 0 48px; background: linear-gradient(160deg, var(--hero-top) 0%, var(--bg) 60%); border-bottom: 1px solid var(--line); }
+.hx { padding: 30px 0 36px; background: linear-gradient(160deg, var(--hero-top) 0%, var(--bg) 60%); border-bottom: 1px solid var(--line); }
 .hx-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 48px; align-items: center; }
 @media (max-width: 960px) { .hx-grid { grid-template-columns: 1fr; gap: 28px; } }
 .hx .eyebrow2 { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 800; letter-spacing: 0.16em; color: var(--teal); }
 .hx .eyebrow2::before { content: ''; width: 18px; height: 3px; border-radius: 2px; background: var(--teal); }
-.hx h1 { font-size: 46px; line-height: 1.25; font-weight: 900; margin: 12px 0 14px; }
+.hx h1 { font-size: 46px; line-height: 1.22; font-weight: 900; margin: 10px 0 12px; }
 .hx h1 span { color: var(--navy); }
-.hx .lead { font-size: 16px; color: var(--muted); margin-bottom: 24px; }
+.hx .lead { font-size: 16px; color: var(--muted); margin-bottom: 14px; }
 @media (max-width: 760px) { .hx h1 { font-size: 30px; } }
 .hx .hero-search { margin: 0 0 14px; }
 .hx .hot { margin-bottom: 0; }
@@ -723,7 +723,7 @@ a .pm-box:hover { stroke-width: 2; }
 .ma-sector > summary span { font-size: 12px; color: var(--muted); font-weight: 700; }
 .ma-sector .pmap { margin: 0 12px 12px; }
 /* 自己紹介・想い */
-.hx-by { margin-top: 10px; font-size: 13px; font-weight: 700; color: var(--muted); }
+.hx-by { margin: 0 0 14px; font-size: 13px; font-weight: 700; color: var(--muted); }
 .hx-by a { color: var(--navy); text-decoration: underline; }
 .kato-head { display: grid; grid-template-columns: 96px 1fr; gap: 22px; align-items: center; }
 .kato-mark { width: 96px; height: 96px; border-radius: 50%; display: grid; place-items: center; background: var(--navy); color: #fff; font-family: var(--serif); font-size: 44px; font-weight: 900; }
@@ -766,7 +766,7 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 
 
 /* トップ: 統計カードの下の「想い」カード */
-.hx-side { display: grid; gap: 14px; align-content: center; }
+.hx-side { display: grid; gap: 12px; align-content: start; }
 .why-card { display: flex; align-items: center; gap: 14px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); }
 .why-card:hover { border-color: var(--teal); text-decoration: none; }
 .why-card img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex: none; }
