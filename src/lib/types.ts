@@ -96,7 +96,11 @@ export type Service = {
   lessons?: string;
   sources?: string[];
   updatedAt?: string;
+  /** テーマ（歴代事業の調査単位）の slug */
+  themes?: string[];
 };
+
+export type Theme = { slug: string; name: string; lead: string };
 
 export type NewsItem = {
   id: string;

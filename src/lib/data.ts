@@ -3,7 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import { renderMarkdown } from './markdown';
 import type {
-  Article, ArticleMeta, ArchiveArticle, Category, Company, MonthlyEpisode, NewsItem, Overseas, Person, Service,
+  Article, ArticleMeta, ArchiveArticle, Category, Company, MonthlyEpisode, NewsItem, Overseas, Person, Service, Theme,
 } from './types';
 
 const ROOT = process.cwd();
@@ -84,6 +84,8 @@ export const END_REASONS: Record<string, { label: string; note: string }> = {
   unknown: { label: '理由は非公表', note: '止まった理由は公表されていない' },
 };
 export const STOPPED = ['終了', '譲渡', '統合', '休止'];
+export const getThemes = () => memo('themes', () => read<Theme[]>('themes.json'));
+export const servicesInTheme = (slug: string) => getServices().filter((s) => s.themes?.includes(slug));
 
 export const getService = (id: string) => getServices().find((s) => s.id === id);
 export const servicesOf = (companyId: string) => getServices().filter((s) => s.companyId === companyId);

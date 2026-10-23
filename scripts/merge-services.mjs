@@ -3,6 +3,7 @@
  * 調べた事業・サービスの記録を data/services.json（事業データベース）に取り込む。
  *
  *   node scripts/merge-services.mjs --as-of 2026-10 out-ended.json out-stopped.json
+ *   node scripts/merge-services.mjs --theme cloud-emr out-theme-cloud-emr.json   # テーマを付けて取り込む（data/themes.json の slug）
  *
  * 入力（JSON 配列）: { name, companyId, companyName, category, summary, startedAt, status, endedAt, successor,
  *   milestones, endReasons, endReasonNote, lessons, sources, hp }
@@ -19,7 +20,8 @@ const P = (f) => path.join(ROOT, 'data', f);
 const args = process.argv.slice(2);
 let asOf = new Date().toISOString().slice(0, 7);
 const files = [];
-for (let i = 0; i < args.length; i++) (args[i] === '--as-of' ? (asOf = args[++i]) : files.push(args[i]));
+let theme = '';
+for (let i = 0; i < args.length; i++) (args[i] === '--as-of' ? (asOf = args[++i]) : args[i] === '--theme' ? (theme = args[++i]) : files.push(args[i]));
 
 const services = JSON.parse(fs.readFileSync(P('services.json'), 'utf8'));
 const companies = JSON.parse(fs.readFileSync(P('companies.json'), 'utf8'));
@@ -59,12 +61,13 @@ for (const f of files) {
       sources: x.sources ?? [],
       updatedAt: asOf,
     };
+    const themes = theme ? [theme] : [];
     if (rec.endReasons && !rec.endReasons.length) rec.endReasons = ['unknown'];
     const k = key(company, rec.name);
     const prev = byKey.get(k);
-    if (prev) { Object.assign(prev, rec, { sources: [...new Set([...(prev.sources ?? []), ...rec.sources])] }); updated++; continue; }
+    if (prev) { Object.assign(prev, rec, { sources: [...new Set([...(prev.sources ?? []), ...rec.sources])], themes: [...new Set([...(prev.themes ?? []), ...themes])] }); updated++; continue; }
     const id = 'b-' + crypto.createHash('sha1').update(k).digest('hex').slice(0, 8);
-    const s = { id, ...rec };
+    const s = { id, ...rec, ...(themes.length ? { themes } : {}) };
     services.push(s);
     byKey.set(k, s);
     added++;
