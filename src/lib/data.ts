@@ -3,7 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import { renderMarkdown } from './markdown';
 import type {
-  Article, ArticleMeta, ArchiveArticle, Category, Company, NewsItem, Overseas, Person, Service, Webinar,
+  Article, ArticleMeta, ArchiveArticle, Category, Company, MonthlyEpisode, NewsItem, Overseas, Person, Service,
 } from './types';
 
 const ROOT = process.cwd();
@@ -23,7 +23,22 @@ export const getCompany = (id: string) => getCompanies().find((c) => c.id === id
 export const getOverseas = () => memo('overseas', () => read<Overseas[]>('overseas.json'));
 export const getPeople = () => memo('people', () => read<Person[]>('people.json'));
 export const getPerson = (id: string) => getPeople().find((p) => p.id === id);
-export const getWebinars = () => memo('webinars', () => read<Webinar[]>('webinars.json'));
+/** 月刊ヘルステック（新しい順） */
+export const getMonthly = () =>
+  memo('monthly', () => {
+    const file = path.join(ROOT, 'data', 'monthly.json');
+    if (!fs.existsSync(file)) return [] as MonthlyEpisode[];
+    return (JSON.parse(fs.readFileSync(file, 'utf8')) as MonthlyEpisode[]).sort((a, b) => b.month.localeCompare(a.month));
+  });
+export const monthLabel = (m: string) => {
+  const [y, mo] = m.split('-');
+  return `${y}年${Number(mo)}月`;
+};
+/** 番組名の飾りを外した、その回の見出し */
+export const episodeHeadline = (e: MonthlyEpisode) => e.theme || `${Number(e.month.slice(5))}月のヘルステックニュース振り返り`;
+export const ytThumb = (id: string, q: 'hq' | 'mq' | 'maxres' = 'hq') => `https://i.ytimg.com/vi/${id}/${q}default.jpg`;
+export const YT_CHANNEL = 'https://www.youtube.com/@digitalhealthch';
+export const YT_SUBSCRIBE = 'https://www.youtube.com/@digitalhealthch?sub_confirmation=1';
 export const getArchiveArticles = () => memo('archive', () => read<ArchiveArticle[]>('archive-articles.json'));
 
 /** 社名のゆらぎ（株式会社・空白・大文字小文字）を潰して比較する */

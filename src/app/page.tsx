@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { NEWSLETTER_URL } from '@/components/Footer';
 import {
-  categoryName, fmtDate, getArchiveArticles, getArticles, getCategories, getCompanies, getFeaturedCompanies, getNews, getOverseas, getPeople, getServices, getWebinars,
+  categoryName, fmtDate, getArchiveArticles, getArticles, getCategories, getCompanies, getFeaturedCompanies, getNews, getOverseas, getPeople, getServices,
+  episodeHeadline, getMonthly, monthLabel, ytThumb, YT_SUBSCRIBE,
 } from '@/lib/data';
 import { withBase } from '@/lib/base';
 import { SITE_NAME } from '@/lib/site';
@@ -35,8 +35,8 @@ export default function Home() {
   const people = getPeople();
   const news = getNews();
   const cats = getCategories();
-  const webinars = getWebinars();
-  const lastW = webinars.at(-1);
+  const episodes = getMonthly();
+  const latest = episodes[0];
   const featured = getFeaturedCompanies().slice(0, 6);
   const listed = companies.filter((c) => c.exit === '上場').length;
   const catStats = cats
@@ -205,31 +205,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ---------- マンスリーレビュー ---------- */}
-      <section className="band wave bleed" style={{ padding: '72px 0' }}>
-        <div className="container mr">
-          <div>
-            <span className="k">MONTHLY REVIEW</span>
-            <h2>Healthtech DB<br />マンスリーレビュー</h2>
-            <p>その月のヘルスケアビジネスのニュースから注目の動きを選び、専門家2人が背景と事業への影響をランチタイムに解説する月例ウェビナーです。</p>
-            <div className="chips3">
-              <span>開催<b>毎月・正午</b></span>
-              <span>参加費<b>無料</b></span>
-              <span>実績<b>全{lastW?.vol ?? 17}回</b></span>
+      {/* ---------- 月刊ヘルステック（YouTube） ---------- */}
+      {latest && (
+        <section className="band wave bleed" style={{ padding: '72px 0' }}>
+          <div className="container mr">
+            <div>
+              <span className="k">YOUTUBE LIVE</span>
+              <h2>#月刊ヘルステック</h2>
+              <p>1か月分のヘルステックニュースを、医師の加藤浩晃と、ヘルスケア新規事業を支援する有村琢磨がライブで読み解く番組です。資金調達・提携・薬事承認・制度改定のなかから事業に効く話題を選び、「なぜ今それが起きたのか」「次に何が動くのか」まで話します。</p>
+              <div className="chips3">
+                <span>配信<b>毎月1回</b></span>
+                <span>場所<b>医療ビジネスチャンネル</b></span>
+                <span>アーカイブ<b>全{episodes.length}回</b></span>
+              </div>
+              <a href={latest.url} target="_blank" rel="noreferrer" className="btn-w">最新回を見る ▶</a>
+              <a href={YT_SUBSCRIBE} target="_blank" rel="noreferrer" className="btn-wo">チャンネル登録</a>
             </div>
-            <a href={NEWSLETTER_URL} target="_blank" rel="noreferrer" className="btn-w">再開のお知らせを受け取る →</a>
-            <Link href="/webinars/" className="btn-wo">開催履歴</Link>
+            <div>
+              <a href={latest.url} target="_blank" rel="noreferrer" className="yt-latest">
+                <span className="th"><img src={ytThumb(latest.videoId, 'mq')} alt="" loading="lazy" /><i aria-hidden="true" /></span>
+                <span className="cap"><b>最新回 {monthLabel(latest.month)}</b>{episodeHeadline(latest)}</span>
+              </a>
+              <ol className="timeline">
+                {episodes.slice(1, 5).map((e) => (
+                  <li key={e.videoId}>
+                    <div className="d"><b>{monthLabel(e.month)}</b></div>
+                    <a className="t" href={e.url} target="_blank" rel="noreferrer">{episodeHeadline(e)}</a>
+                  </li>
+                ))}
+              </ol>
+              <Link href="/monthly/" className="mr-more">すべての回を見る →</Link>
+            </div>
           </div>
-          <ol className="timeline">
-            {[...webinars].reverse().slice(0, 5).map((w) => (
-              <li key={w.date}>
-                <div className="d"><b>{w.vol ? `第${w.vol}回` : '特別回'}</b>{w.date}</div>
-                <div className="t">{w.title.replace(/^Healthtech DB マンスリーレビュー vol\.\d+/, '').replace(/[（）()]/g, '') || w.title}</div>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* ---------- 3軸から探す ---------- */}
       <section className="band bleed">

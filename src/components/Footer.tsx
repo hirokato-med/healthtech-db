@@ -13,7 +13,7 @@ export function Footer() {
           <div>
             <div className="flogo"><b>{SITE_NAME}</b><span>{SITE_NAME_EN}</span></div>
             <p>ヘルスケアビジネスの専門データベース。国内ヘルステック企業の事業・サービス・人物・ニュース・解説記事を、新規事業の実務で使いやすい形でまとめて提供します。</p>
-            <p className="small" style={{ color: '#9aa1ad' }}>2021年に DX Healthcare として開始、2023年6月に一時閉鎖。本サイトは当時のデータと設計をもとにした復刻版です。</p>
+            <p className="small" style={{ color: '#9aa1ad' }}>毎月のニュースの振り返りは、YouTube「医療ビジネスチャンネル」の #月刊ヘルステック で配信しています。</p>
           </div>
           <div>
             <h4>コンテンツ</h4>
@@ -25,7 +25,7 @@ export function Footer() {
               <li><Link href="/global/">海外企業</Link></li>
               <li><Link href="/news/">ニュース</Link></li>
               <li><Link href="/categories/">カテゴリ</Link></li>
-              <li><Link href="/webinars/">マンスリーレビュー</Link></li>
+              <li><Link href="/monthly/">月刊ヘルステック（YouTube）</Link></li>
               <li><a href={NEWSLETTER_URL} target="_blank" rel="noreferrer">メルマガ</a></li>
             </ul>
           </div>

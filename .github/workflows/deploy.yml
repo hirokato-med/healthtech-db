@@ -30,6 +30,9 @@ jobs:
       - name: ニュースを取り込む（失敗しても公開は続ける）
         run: node pipeline/news.mjs
         continue-on-error: true
+      - name: 月刊ヘルステックの新しい回を取り込む（失敗しても公開は続ける）
+        run: node pipeline/youtube.mjs
+        continue-on-error: true
       - id: pages
         uses: actions/configure-pages@v5
       - name: ビルド

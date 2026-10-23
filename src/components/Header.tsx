@@ -24,7 +24,7 @@ export function Header() {
           </div>
           <Link href="/news/">ニュース</Link>
           <Link href="/categories/">カテゴリ</Link>
-          <Link href="/webinars/">マンスリーレビュー</Link>
+          <Link href="/monthly/">月刊ヘルステック</Link>
         </nav>
         <div className="head-right">
           <span className="divider" />

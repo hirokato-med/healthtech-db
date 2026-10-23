@@ -67,7 +67,8 @@ export type NewsItem = {
   source: 'prtimes' | 'manual';
 };
 
-export type Webinar = { vol: number | null; date: string; title: string; note?: string; url?: string };
+/** YouTube「#月刊ヘルステック」の1回分（pipeline/youtube.mjs が data/monthly.json に書く） */
+export type MonthlyEpisode = { videoId: string; title: string; month: string; theme: string; url: string };
 
 export type ArticleMeta = {
   slug: string;

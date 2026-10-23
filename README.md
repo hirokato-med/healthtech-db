@@ -20,12 +20,13 @@
 | `data/services.json` | サービス・事業（手入力。`company` 名で企業に自動紐付け） |
 | `data/categories.json` | カテゴリ体系（疾患／ソリューション／事業領域、42カテゴリ） |
 | `data/news.json` | ニュース（`pipeline/news.mjs` が追記） |
-| `data/webinars.json` | マンスリーレビューの開催履歴 |
+| `data/monthly.json` | YouTube「#月刊ヘルステック」の配信回（`pipeline/youtube.mjs` が毎朝更新） |
 | `data/archive-articles.json` | 旧サイトの記事題名一覧（本文復元中） |
 | `content/articles/*.md` | 記事（frontmatter: slug, title, date, category, author, summary, featured, tags, companies） |
-| `src/app/` | ページ。トップ／企業／サービス／人物／カテゴリ／記事／ニュース／海外／マンスリーレビュー／検索／About |
+| `src/app/` | ページ。トップ／企業／サービス／人物／カテゴリ／記事／ニュース／海外／月刊ヘルステック／検索／About |
 | `src/lib/data.ts` | データ読み込みと紐付け（社名のゆらぎ吸収、企業↔サービス↔人物↔ニュース） |
 | `pipeline/news.mjs` | PR TIMES からヘルスケア関連リリースを収集し、企業DBに紐付けて `data/news.json` に追記 |
+| `pipeline/youtube.mjs` | YouTube「医療ビジネスチャンネル」から #月刊ヘルステック の配信回を集めて `data/monthly.json` を更新 |
 | `scripts/import_companies.py` | 旧「企業DB投入データ.xlsx」を JSON に変換 |
 | `scripts/build-search-index.mjs` | 検索インデックス `public/search-index.json` を生成（`prebuild` で自動実行） |
 
@@ -43,6 +44,7 @@ npx serve out          # 書き出し結果の確認
 ```bash
 node pipeline/news.mjs                         # 医療 / ヘルスケア / ヘルステック で収集
 node pipeline/news.mjs 医療DX オンライン診療     # 検索語を指定
+node pipeline/youtube.mjs                      # #月刊ヘルステック の新しい回を取り込む
 python3 -I scripts/import_companies.py data/raw/companies.xlsx   # xlsx を更新したとき
 ```
 
