@@ -12,12 +12,28 @@ export const metadata: Metadata = {
   description: '製薬会社とデジタルヘルス企業の提携、大手によるヘルスケア企業の買収・出資を、線でつないだマップ。終わった提携も記録している。',
 };
 
-const PHARMA = /製薬|ファーマ|薬品|Pharma|リリー|ノバルティス|ファイザー|アストラゼネカ|MSD|バイエル|ヤンセン|サノフィ|ベーリンガー|ノボ|参天|エーザイ|塩野義|第一三共|中外|協和キリン|アステラス|小野薬品|杏林|持田|Meiji|ツムラ|久光|大正製薬|ロート|あすか/;
+const PHARMA = /製薬|ファーマ|ファルマ|田辺|薬品|Pharma|リリー|ノバルティス|ファイザー|アストラゼネカ|MSD|バイエル|ヤンセン|サノフィ|ベーリンガー|ノボ|参天|エーザイ|塩野義|第一三共|中外|協和キリン|アステラス|小野薬品|杏林|持田|Meiji|ツムラ|久光|大正製薬|ロート|あすか|グラクソ|アムジェン|ユーシービー|ブリストル|日医工|サワイ|沢井|ギリアド|アッヴィ|ノーベルファーマ/;
+
+// 製薬以外の大手は業種ごとに分けて描く（1枚にまとめると線が多すぎて読めないため）
+const SECTORS: [string, RegExp][] = [
+  ['医療プラットフォーム（エムスリー・JMDC・メドレーなど）', /エムスリー|JMDC|メドレー|メドピア|ケアネット|メディカル・データ・ビジョン|MDV|エス・エム・エス|PHC|ウィーメックス|ファストドクター|Ubie/],
+  ['CRO・製薬支援', /シミック|リニカル|新日本科学|イーピーエス|EPS|インテージ|アイロム|EPファーマライン/],
+  ['保険会社', /生命|損保|損害保険|海上|SOMPO|アフラック|保険|あいおい|MS&AD|ニッセイ/],
+  ['通信・IT', /ドコモ|NTT|KDDI|ソフトバンク|LINE|楽天|DeNA|ディー・エヌ・エー|ヤフー|日立|NEC|富士通|MIXI|デジタルガレージ|サイバーエージェント|リクルート|凸版|TOPPAN|大日本印刷|電通|博報堂|CCC/],
+  ['医薬品卸・商社・小売', /スズケン|アルフレッサ|メディパル|東邦|商事|物産|丸紅|双日|豊田通商|伊藤忠|ウエルシア|スギ|ツルハ|イオン|セブン|ファミリーマート|ローソン|薬局|調剤|総合メディカル/],
+  ['電機・医療機器・素材', /オムロン|パナソニック|ソニー|キヤノン|富士フイルム|テルモ|オリンパス|シスメックス|島津|日清紡|帝人|旭化成|フィリップス|シーメンス|コニカ|ニプロ|東芝|京セラ|日本光電|朝日インテック|東レ|BML|味の素|キリン|アサヒ|ハウス食品/],
+];
+const STARTUPS = 'ヘルステック企業どうし';
+const OTHER = 'その他（ファンド・事業会社など）';
+const sectorOf = (from: string) => SECTORS.find(([, re]) => re.test(from))?.[0] ?? (findCompanyByName(from) ? STARTUPS : OTHER);
 
 export default function MaPage() {
   const ps = getPartnerships();
   const pharma = ps.filter((p) => PHARMA.test(p.from));
   const others = ps.filter((p) => !PHARMA.test(p.from));
+  const sectors = [...SECTORS.map(([n]) => n), STARTUPS, OTHER]
+    .map((n) => ({ n, items: others.filter((p) => sectorOf(p.from) === n) }))
+    .filter((x) => x.items.length);
   const names = [...new Set(ps.flatMap((p) => [p.from, p.to]))];
   const linkOf = Object.fromEntries(names.map((n) => { const c = findCompanyByName(n); return [n, c ? `/companies/${c.id}/` : undefined]; }));
   const rel = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'relations.json'), 'utf8')) as { nodes: RNode[]; edges: REdge[] };
@@ -57,7 +73,13 @@ export default function MaPage() {
       {others.length > 0 && (
         <section id="others" className="ma-sec">
           <h2>保険・通信・商社ほか × ヘルスケア 提携マップ</h2>
-          <PartnerMap items={others} linkOf={linkOf} />
+          <p className="muted small">左の大手を業種ごとに分けています。見出しをクリックすると開きます。</p>
+          {sectors.map((x, i) => (
+            <details key={x.n} className="ma-sector" open={i === 0}>
+              <summary>{x.n}<span>{x.items.length}件</span></summary>
+              <PartnerMap items={x.items} linkOf={linkOf} />
+            </details>
+          ))}
         </section>
       )}
 
