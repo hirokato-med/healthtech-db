@@ -133,7 +133,7 @@
     "representatives": [
       "髙橋一巳"
     ],
-    "exit": "未上場",
+    "exit": "バイアウト",
     "parentCompany": "株式会社メディパルホールディングス",
     "relatedCompanies": [],
     "corporateNumber": "2010001005697",
@@ -151,7 +151,9 @@
     "sources": [
       "https://www.mm-corp.co.jp/index.html",
       "https://www.mm-corp.co.jp/core_competence.html",
-      "https://job.mynavi.jp/27/pc/search/corp216939/outline.html"
+      "https://job.mynavi.jp/27/pc/search/corp216939/outline.html",
+      "https://www.mm-corp.co.jp/company_05.html",
+      "https://www.medipal.co.jp/company/history/"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -205,7 +207,25 @@
         "https://www.mm-corp.co.jp/company_05.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2004年5月にメディセオ（現メディパルホールディングス）が前身の中川誠光堂を完全子会社化。株主はメディパルホールディングス100%",
+    "history": [
+      {
+        "date": "2004-05",
+        "text": "メディセオ（現メディパルホールディングス）が中川誠光堂（現MMコーポレーション）を完全子会社化し、メディセオグループ入り",
+        "source": "https://www.medipal.co.jp/company/history/"
+      },
+      {
+        "date": "2005-07",
+        "text": "株式会社メディセオメディカルに商号変更",
+        "source": "https://www.mm-corp.co.jp/company_05.html"
+      },
+      {
+        "date": "2009-10",
+        "text": "株式会社MMコーポレーションに商号変更",
+        "source": "https://www.mm-corp.co.jp/company_05.html"
+      }
+    ]
   },
   {
     "id": "4290001002582",
@@ -348,16 +368,28 @@
         "text": "エムスリーの連結子会社（エムスリー会社概要の主な連結子会社に掲載）。DBは親会社欄が空"
       },
       {
+        "date": "2013",
+        "text": "NTTドコモと資本提携しドコモグループへ参画。同年CRO事業をシミックPMSへ譲渡",
+        "source": "https://www.ultmarc.co.jp/about_ultmarc/company/history/"
+      },
+      {
         "date": "2019-02",
         "text": "エムスリーがNTTドコモ傘下だった日本アルトマークの全株式を取得し子会社化",
         "source": "https://maonline.jp/news/20190228d"
+      },
+      {
+        "date": "2019-04",
+        "text": "ドコモ・エムスリーの資本業務提携に伴い、ドコモが保有する全株式（100%）をエムスリーへ譲渡",
+        "source": "https://www.docomo.ne.jp/info/news_release/2019/02/28_00.html"
       }
     ],
     "sources": [
       "https://corporate.m3.com/corporate",
       "https://www.ultmarc.co.jp/",
       "https://www.ultmarc.co.jp/about_ultmarc/company/",
-      "https://www.ultmarc.co.jp/solution/corporate_services/mdb/"
+      "https://www.ultmarc.co.jp/solution/corporate_services/mdb/",
+      "https://www.docomo.ne.jp/info/news_release/2019/02/28_00.html",
+      "https://www.ultmarc.co.jp/about_ultmarc/company/history/"
     ],
     "updatedAt": "2026-10",
     "overview": "1962年創立の医療データベース企業で、エムスリーの連結子会社。全国の医師・医療施設情報を網羅し業界標準コード（DCF）を持つメディカルデータベース「MDB」を会員制で製薬企業等に提供し、医療施設の診療・手術実績や病院グループ情報を収録した「MDBα」、名寄せ、外来表情報、分析支援、医薬情報ダイレクトメール発送などのソリューションを展開。医療関係者向け共通ID「medパス」も運営。2024年4月に本社を日本橋箱崎町へ移転。",
@@ -424,7 +456,8 @@
         "https://www.ultmarc.co.jp/notice/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2019年4月1日にNTTドコモ保有の全株式（100%）をエムスリーが取得し完全子会社化"
   },
   {
     "id": "8120001053779",
@@ -619,6 +652,11 @@
         "source": "https://dena.com/jp/news/4870/"
       },
       {
+        "date": "2022-08",
+        "text": "DeNAの連結子会社となる（東証グロース上場を維持）",
+        "source": "https://www.dhorizon.co.jp/company/history.html"
+      },
+      {
         "date": "2022-10",
         "text": "データホライゾンがDeNAからDeSCヘルスケア株式を取得し子会社化",
         "source": "https://www.dhorizon.co.jp/ir/performance.html"
@@ -629,7 +667,9 @@
       "https://www2.jpx.co.jp/disc/36280/140120220629591725.pdf",
       "https://gamebiz.jp/news/352137",
       "https://kabutan.jp/stock/?code=3628",
-      "https://www.nikkei.com/nkd/company/gaiyo/?scode=3628"
+      "https://www.nikkei.com/nkd/company/gaiyo/?scode=3628",
+      "https://www.dhorizon.co.jp/company/history.html",
+      "https://dena.com/jp/news/4870/"
     ],
     "updatedAt": "2026-10",
     "overview": "1982年設立の広島の医療情報サービス会社で東証グロース上場（3628）。レセプトデータの分析を基盤に、保険者（自治体・健康保険組合）向けのジェネリック医薬品差額通知や服薬通知、データヘルス計画策定などの保健事業支援を展開。2022年にDeNAがTOBと第三者割当で連結子会社化し、同時にDeNAからDeSCヘルスケアを取得してグループ化。",
@@ -729,7 +769,8 @@
     },
     "securitiesCode": "3628",
     "listedMarket": "東証グロース",
-    "industry33": "情報・通信業"
+    "industry33": "情報・通信業",
+    "parentNote": "2022年8月にDeNAの公開買付け・第三者割当により連結子会社化（議決権約51%）。東証グロース上場は維持"
   },
   {
     "id": "4010901019431",
@@ -952,7 +993,15 @@
         "https://www.tais.co.jp/topics/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2012年に株式会社AWS（現Ubicomホールディングス）が100%出資し完全子会社化",
+    "history": [
+      {
+        "date": "2012",
+        "text": "株式会社AWS（現Ubicomホールディングス）が100%出資",
+        "source": "https://www.tais.co.jp/company/history/"
+      }
+    ]
   },
   {
     "id": "9013301028403",
@@ -1797,7 +1846,8 @@
     "sources": [
       "https://dr-net.co.jp/company/",
       "https://www.jmdc.co.jp/profile/",
-      "https://dr-net.co.jp/"
+      "https://dr-net.co.jp/",
+      "https://www.jmdc.co.jp/history/"
     ],
     "updatedAt": "2026-10",
     "overview": "1995年に宇都宮で創業した遠隔画像診断（遠隔読影）サービス企業。全国の放射線診断専門医と医療機関をつなぐ「Tele-RAD」を主力に、健診向けの診療科専門医読影「Tele-DOC」、遠隔読影インフラ「Virtual-RAD」、複数の画像診断AIを使える「AI-RAD」を展開。PACSなど医用システム導入保守、医師向け人材紹介、中国（上海）での海外事業も手がける。2010年ノーリツ鋼機グループ入りし、現在はJMDCが株主。",
@@ -1810,6 +1860,16 @@
       "ドクターネットエージェント"
     ],
     "history": [
+      {
+        "date": "2010-06",
+        "text": "ノーリツ鋼機グループに参画",
+        "source": "https://dr-net.co.jp/company/"
+      },
+      {
+        "date": "2018-04",
+        "text": "JMDC（当時の日本医療データセンター）が全株式を取得し子会社化",
+        "source": "https://www.jmdc.co.jp/history/"
+      },
       {
         "date": "2021-12",
         "text": "JMDC子会社ドクターネットの胸部X線肺炎検出AIが薬事承認",
@@ -1884,7 +1944,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/43643"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2018年4月にJMDCが全株式を取得し完全子会社化（それ以前は2010年からノーリツ鋼機グループ）"
   },
   {
     "id": "4140001030292",
@@ -2079,7 +2140,7 @@
       "羽生和之"
     ],
     "exit": "バイアウト",
-    "parentCompany": "第一生命ホールディングス",
+    "parentCompany": "株式会社第一ライフグループ",
     "relatedCompanies": [],
     "corporateNumber": "8011001045281",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001045281",
@@ -2104,13 +2165,31 @@
         "date": "2024-03",
         "text": "第一生命HDがベネフィット・ワンへのTOBを成立させ子会社化（エムスリーのTOBと競合）",
         "source": "https://www.daiichilife-group.com/investor/news/assets/pdf/2024_index_008.pdf"
+      },
+      {
+        "date": "2024-03",
+        "text": "第一生命ホールディングスによる公開買付けが成立",
+        "source": "https://www.daiichilife-group.com/investor/news/assets/pdf/2024_index_008.pdf"
+      },
+      {
+        "date": "2024-05",
+        "text": "5月20日に東証プライム上場廃止、5月23日に第一生命ホールディングスの完全子会社に",
+        "source": "https://www.daiichilife-group.com/investor/news/assets/pdf/2024_index_008.pdf"
+      },
+      {
+        "date": "2026-04",
+        "text": "親会社の第一生命ホールディングスが第一ライフグループへ商号変更",
+        "source": "https://www.daiichilife-group.com/about/brand/"
       }
     ],
     "sources": [
       "https://www.nihon-ma.co.jp/news/20240312_8750-16/",
       "https://www.nihon-ma.co.jp/news/20240522_8750-18/",
       "https://corp.benefit-one.co.jp/company/outline/about/",
-      "https://corp.benefit-one.co.jp/"
+      "https://corp.benefit-one.co.jp/",
+      "https://www.daiichilife-group.com/investor/news/assets/pdf/2024_index_008.pdf",
+      "https://corp.benefit-one.co.jp/ir/library/2024/5/202403282.pdf",
+      "https://www.daiichilife-group.com/about/brand/"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -2205,7 +2284,8 @@
         "https://corp.benefit-one.co.jp/company/news/pressrelease/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2024年3月に第一生命ホールディングス（2026年4月に第一ライフグループへ商号変更）の公開買付けが成立。2024年5月20日に上場廃止、5月23日に完全子会社化"
   },
   {
     "id": "4010001075490",
@@ -2526,13 +2606,20 @@
     "sources": [
       "https://www.peacemind.co.jp/",
       "https://www.peacemind.co.jp/company/info",
-      "https://www.peacemind.co.jp/company/history"
+      "https://www.peacemind.co.jp/company/history",
+      "https://www.peacemind.co.jp/newsrelease/release/20250526",
+      "https://www.nikkei.com/nkd/disclosure/tdnr/20250526565088/"
     ],
     "updatedAt": "2026-10",
     "history": [
       {
         "date": "2025-05",
         "text": "2025年5月 タナベコンサルティンググループと資本業務提携し、同グループの一員に"
+      },
+      {
+        "date": "2025-05",
+        "text": "タナベコンサルティンググループと資本業務提携。株式譲渡と第三者割当増資によりTCGの所有割合は54.9%となり同社の子会社に",
+        "source": "https://www.peacemind.co.jp/newsrelease/release/20250526"
       }
     ],
     "aliases": [
@@ -2596,7 +2683,8 @@
         "https://www.peacemind.co.jp/newsrelease"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2025年5月にタナベコンサルティンググループ（東証プライム9644）が既存株主からの株式譲受と第三者割当増資の引受で株式の54.9%を取得し子会社化"
   },
   {
     "id": "6430001025872",
@@ -3924,7 +4012,8 @@
     "sources": [
       "https://www.nmed-center.co.jp/index-51.html",
       "https://www.nmed-center.co.jp/",
-      "https://www.nmed-center.co.jp/index-52.html"
+      "https://www.nmed-center.co.jp/index-52.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5290001020542"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -3939,7 +4028,7 @@
       "遠隔画像診断ASPサービス",
       "院内情報システムコンサルティング"
     ],
-    "parentNote": "旧九電工",
+    "parentNote": "2000年に九電工（現クラフティア）が九州大学との共同研究の事業主体として設立。資本金1億円はクラフティア100%出資",
     "profile": {
       "businesses": [
         {
@@ -3982,7 +4071,15 @@
         "https://www.nmed-center.co.jp/index-5.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトにお知らせ欄はなく、沿革の最終記載は2011年。会社概要は2026年7月時点の役員・従業員数に更新されており、事業は継続している",
+    "history": [
+      {
+        "date": "2000-06",
+        "text": "九電工（現クラフティア）と九州大学医学部放射線科の共同研究による遠隔画像診断支援事業の事業主体として設立",
+        "source": "https://www.nmed-center.co.jp/index-52.html"
+      }
+    ]
   },
   {
     "id": "8120001099797",
@@ -5083,7 +5180,8 @@
     "sources": [
       "https://www.sophiamedi.co.jp/company/",
       "https://www.sophiamedi.co.jp/",
-      "https://www.sophiamedi.co.jp/company/history/"
+      "https://www.sophiamedi.co.jp/company/history/",
+      "https://corporate.m3.com/corporate"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -5154,7 +5252,15 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/22105"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2018年にシーユーシー（現エムスリーグループ、東証グロース上場）のグループに参画",
+    "history": [
+      {
+        "date": "2018",
+        "text": "経営体制を変更し、CUC（シーユーシー）グループに参画",
+        "source": "https://www.sophiamedi.co.jp/company/history/"
+      }
+    ]
   },
   {
     "id": "4010401078275",
@@ -5438,7 +5544,10 @@
       "https://www.mdv.co.jp/",
       "https://www.mdv.co.jp/about/advantage.html",
       "https://www.mdv.co.jp/ir/library/pdf/disclosure/disclosure_251215_05.pdf",
-      "https://www.mdv.co.jp/ir/library/pdf/disclosure/disclosure_260204_01.pdf"
+      "https://www.mdv.co.jp/ir/library/pdf/disclosure/disclosure_260204_01.pdf",
+      "https://www.jpx.co.jp/news/1023/20260324-12.html",
+      "https://www.mdv.co.jp/news/uploadfile/docs/ce0b1a98a6bcf9a5eff5e9843b4136c7bd81d0a3.pdf",
+      "https://www.mdv.co.jp/company/history.html"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -5516,8 +5625,18 @@
         "text": "日本生命保険相互会社が完全子会社化を目的とする公開買付け（1株1,693円）を発表"
       },
       {
+        "date": "2026-02",
+        "text": "日本生命による公開買付けが2月3日に終了し、2月9日付で日本生命が親会社に（議決権52.34%）",
+        "source": "https://www.mdv.co.jp/ir/library/pdf/disclosure/disclosure_260204_01.pdf"
+      },
+      {
         "date": "2026-04",
         "text": "2026年4月24日 上場廃止。日本生命の子会社に"
+      },
+      {
+        "date": "2026-04",
+        "text": "株式併合を経て4月24日に東証プライム上場廃止",
+        "source": "https://www.mdv.co.jp/news/uploadfile/docs/ce0b1a98a6bcf9a5eff5e9843b4136c7bd81d0a3.pdf"
       }
     ],
     "highlight": "2026年4月、日本生命の公開買付けを経て上場廃止し同社の子会社に。病院由来の医療データベースは5,000万人超",
@@ -5591,7 +5710,8 @@
         "https://www.mdv.co.jp/news/2025/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2026年2月に日本生命保険相互会社の公開買付けが成立し親会社に（議決権52.34%）。株式併合を経て2026年4月24日に東証プライム上場廃止"
   },
   {
     "id": "2010001134117",
@@ -6041,8 +6161,8 @@
     "representatives": [
       "石川明彦"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "日清紡ホールディングス株式会社",
     "relatedCompanies": [],
     "corporateNumber": "1020001121908",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1020001121908",
@@ -6058,7 +6178,8 @@
     ],
     "sources": [
       "https://d-clue.com/",
-      "https://d-clue.com/company/outline/"
+      "https://d-clue.com/company/outline/",
+      "https://ircms.irstreet.com/contents/data_file.php?template=1815&brand=&folder_contents=22475&src_data=327802&filename=pdf_file.pdf"
     ],
     "updatedAt": "2026-10",
     "scopeNote": "日清紡グループの半導体設計会社。ヘルスケアは一部の事業",
@@ -6120,7 +6241,15 @@
         "https://d-clue.com/news/2025.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2022年2月に日清紡ホールディングスがエレコムから全株式（100%）を取得し完全子会社化",
+    "history": [
+      {
+        "date": "2022-02",
+        "text": "エレコムが保有する全株式（100%）を日清紡ホールディングスへ譲渡し、日清紡グループ入り",
+        "source": "https://ircms.irstreet.com/contents/data_file.php?template=1815&brand=&folder_contents=22475&src_data=327802&filename=pdf_file.pdf"
+      }
+    ]
   },
   {
     "id": "8013201010701",
@@ -6676,8 +6805,8 @@
     "representatives": [
       "井上修"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "東邦ホールディングス株式会社",
     "relatedCompanies": [],
     "corporateNumber": "4011101055432",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011101055432",
@@ -6686,7 +6815,9 @@
     "sources": [
       "https://www.ehealthcare.jp/",
       "https://www.ehealthcare.jp/about/",
-      "https://www.ehealthcare.jp/service/search/"
+      "https://www.ehealthcare.jp/service/search/",
+      "https://www.tohohd.co.jp/business/other/",
+      "https://www.nikkan.co.jp/articles/view/303921"
     ],
     "updatedAt": "2026-10",
     "overview": "全国23万件超の医療機関・薬局を検索できる「病院なび」（月間のべ1000万人以上が利用）を中核に、患者向けの無料医療相談サービス（2022年10月から独自AIによる支援も導入）や相談事例を公開する「病院QAなび」を展開。医療機関向けにはホームページ制作・運営や医師インタビュー「病院なびドクタビュー」を提供し、医療機関向け調査事業も行う。2004年設立、2009年に現社名へ変更。2014年に東邦ホールディングスが資本参加し共創未来グループ入り。",
@@ -6786,7 +6917,15 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/56020"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2014年6月30日付で東邦ホールディングスが発行済株式の70%を取得し子会社化（共創未来グループ）",
+    "history": [
+      {
+        "date": "2014-06",
+        "text": "東邦ホールディングスの資本参加を受け共創未来グループ入り（発行済株式の70%を取得し子会社化）",
+        "source": "https://www.ehealthcare.jp/about/"
+      }
+    ]
   },
   {
     "id": "4011001044411",
@@ -6819,7 +6958,9 @@
       "https://www.goodcycle.net/news-list/",
       "https://www.goodcycle.net/overview/profile/",
       "https://www.goodcycle.net/overview/greeting/",
-      "https://www.goodcycle.net/"
+      "https://www.goodcycle.net/",
+      "https://www.emsystems.co.jp/ir/irnews/2026/261016_01.pdf",
+      "https://www.nihon-ma.co.jp/news/20261016_4820-29/"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -6844,6 +6985,16 @@
       {
         "date": "2023",
         "text": "2023年 EMシステムズグループに参画"
+      },
+      {
+        "date": "2023-02",
+        "text": "持分法適用関連会社だったところ、EMシステムズが第三者割当増資の引受と株式追加取得により連結子会社化",
+        "source": "https://www.nihon-ma.co.jp/news/20261016_4820-29/"
+      },
+      {
+        "date": "2026-10",
+        "text": "EMシステムズが2027年1月1日付でグッドサイクルシステムを吸収合併することを決議（グッドサイクルシステムは消滅会社）",
+        "source": "https://www.emsystems.co.jp/ir/irnews/2026/261016_01.pdf"
       }
     ],
     "profile": {
@@ -6912,7 +7063,9 @@
         "https://prtimes.jp/main/html/rd/p/000000039.000081158.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2023年2月にEMシステムズ（東証プライム4820）が第三者割当増資の引受と株式追加取得で連結子会社化。2026年9月時点でEMシステムズ100%",
+    "statusNote": "親会社EMシステムズが2026年10月16日、2027年1月1日付で当社を吸収合併すると発表。合併後は法人として消滅し、事業はEMシステムズに引き継がれる予定"
   },
   {
     "id": "6120001113618",
@@ -7183,9 +7336,19 @@
         "text": "エムスリーの連結子会社（エムスリー会社概要の主な連結子会社に掲載）。代表取締役は滝澤宏隆。2024年7月 3Hクリニカルトライアルを吸収合併"
       },
       {
+        "date": "2019-04",
+        "text": "株式会社クロエから3Hメディソリューション株式会社に商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4013301027145"
+      },
+      {
         "date": "2022-01",
         "text": "エムスリーが被験者募集等の3Hグループ4社を子会社化",
         "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/5tk9fb5g9KpFbx80rEgzUf/975ba96895c5c70de743ab1c4e216f8c/20220125_Public_J_vF.pdf"
+      },
+      {
+        "date": "2022-02",
+        "text": "エムスリーグループに参画",
+        "source": "https://3h-ms.co.jp/company/company_history"
       },
       {
         "date": "2023-02",
@@ -7196,6 +7359,11 @@
         "date": "2023-09",
         "text": "3Hとジーンクエストが炎症性腸疾患の患者レジストリを構築し解析開始",
         "source": "https://3h-ms.co.jp/archives/news/18871"
+      },
+      {
+        "date": "2024-07",
+        "text": "3Hクリニカルトライアル株式会社を吸収合併",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4013301027145"
       }
     ],
     "sources": [
@@ -7282,7 +7450,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/13827"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2022年2月にエムスリーが3Hグループ（クロエ等）を子会社化しエムスリーグループに参画"
   },
   {
     "id": "6011001046711",
@@ -7453,6 +7622,11 @@
       {
         "date": "2026-02",
         "text": "2026年2月 グループ再編で介護事業をアリエ祐起元株式会社へ移管"
+      },
+      {
+        "date": "2026-02",
+        "text": "複数事業を会社分割で新会社へ移し、GCホールディングスを親会社とするグループ経営体制へ移行。介護事業はグループのアリエ祐起元株式会社が担う",
+        "source": "https://gchdgroup.com/news/569/"
       }
     ],
     "sources": [
@@ -7521,7 +7695,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/96566"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2026年2月、会社分割と持株会社体制への移行により、創業者の西坂勇人・岩波直樹が代表を務めるGCホールディングスの子会社に（外部による買収ではない）"
   },
   {
     "id": "1010901019228",
@@ -7553,6 +7728,11 @@
       {
         "date": "",
         "text": "株主はエムスリー（2016年1月エムスリーグループ参加、DBのエス・エム・エスは旧情報）"
+      },
+      {
+        "date": "2016-01",
+        "text": "エムスリーグループに参加（それ以前はエス・エム・エスと資本・業務提携）",
+        "source": "https://www.qlife.co.jp/company"
       }
     ],
     "sources": [
@@ -7626,7 +7806,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/347"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2016年1月にエムスリーグループに参加。株主はエムスリー株式会社"
   },
   {
     "id": "2011101054824",
@@ -7768,7 +7949,7 @@
       "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=4010401091113"
     ],
     "updatedAt": "2026-10",
-    "statusNote": "公式サイトは今も公開され、代表取締役は安河内正文で、遺伝性がん検査「Color」のレポートサービスを掲げている。ただし、サイトのお知らせは2022年12月の「Fabric Enterprise」サービス終了が最後で、それ以降の事業の動きは確認できない。",
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、お知らせの最終は2022年12月の『Fabric Enterprise』サービス終了。登記上の最終変更は2022年6月の本店移転で、閉鎖・清算の登記はない",
     "profile": {
       "businesses": [
         {
@@ -7992,7 +8173,9 @@
     ],
     "sources": [
       "http://medithink.co.jp/company/",
-      "http://medithink.co.jp/"
+      "http://medithink.co.jp/",
+      "http://medithink.co.jp/news/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010401083881"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -8049,7 +8232,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/39092"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、お知らせの最終は2023年1月、コラムの最終は2023年3月。登記上の最終変更は2021年2月の本店移転で、閉鎖・清算の登記はない"
   },
   {
     "id": "5080001010894",
@@ -8161,8 +8345,8 @@
     "representatives": [
       "富山慎二"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "ファーマライズホールディングス株式会社",
     "relatedCompanies": [],
     "corporateNumber": "1120001117458",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1120001117458",
@@ -8180,7 +8364,8 @@
     "sources": [
       "https://www.mythos-jp.com/company-profile/",
       "https://www.mythos-jp.com/202606-1/",
-      "https://www.mythos-jp.com/"
+      "https://www.mythos-jp.com/",
+      "https://www.nihon-ma.co.jp/news/20170608_2796-6/"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -8241,7 +8426,15 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/49259"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2017年6月にファーマライズホールディングスが全株式を取得し完全子会社化（取得価額約3億円）",
+    "history": [
+      {
+        "date": "2017-06",
+        "text": "ファーマライズホールディングスが全株式を取得し親会社に",
+        "source": "https://www.mythos-jp.com/company-profile/"
+      }
+    ]
   },
   {
     "id": "2011101047134",
@@ -8388,6 +8581,11 @@
     ],
     "history": [
       {
+        "date": "2007-08",
+        "text": "テクマトリックスが連結子会社として合同会社医知悟を設立",
+        "source": "https://www.techmatrix.co.jp/ir/upload_file/m007-m007_16/kojin_FY202103_3Q.pdf"
+      },
+      {
         "date": "2022-04",
         "text": "親会社NOBORIが2022年4月にPSPへ吸収合併（医知悟の所在地もPSP本社と同じ港南1-2-70へ移転）"
       }
@@ -8397,7 +8595,9 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401024698",
       "https://www.ichigo-llc.co.jp/",
       "https://www.ichigo-llc.co.jp/company/",
-      "https://www.ichigo-llc.co.jp/service/"
+      "https://www.ichigo-llc.co.jp/service/",
+      "https://www.techmatrix.co.jp/company/group.html",
+      "https://www.techmatrix.co.jp/ir/upload_file/m007-m007_16/kojin_FY202103_3Q.pdf"
     ],
     "updatedAt": "2026-10",
     "overview": "放射線・病理・生理検査画像の遠隔診断に特化したITインフラを提供する。依頼施設と診断拠点に置く小型機器「iCOMBOX」とデータセンターを介し、画像を匿名化して送るため通信速度に左右されず読影できる。医師と病院の契約には関与せずインフラ提供に徹する独立した立場が特徴で、グループ読影・多重読影、過去画像の自動添付、チャットでの疑義照会、AI診断支援にも対応。2019年度は国内で月25万件、全体の約半分の診断に使われた。代表社員はPSP株式会社。",
@@ -8472,7 +8672,8 @@
         "https://www.ichigo-llc.co.jp/news/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2007年8月にテクマトリックスが連結子会社として設立。2018年の医療事業分社後はNOBORI経由の子会社となり、NOBORIを2022年に合併したPSP株式会社が代表社員"
   },
   {
     "id": "6010001110840",
@@ -8836,7 +9037,9 @@
     ],
     "sources": [
       "https://mediweb.jp/company",
-      "https://mediweb.jp/"
+      "https://mediweb.jp/",
+      "https://mediweb.jp/news/20260101.html",
+      "https://contents.xj-storage.jp/xcontents/AS05219/835509a8/7dbc/4d2b/a051/5e7a4339d6a6/140120251205515135.pdf"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -8856,8 +9059,18 @@
     ],
     "history": [
       {
+        "date": "2025-12",
+        "text": "くすりの窓口が株式交換による完全子会社化を決定",
+        "source": "https://www.nihon-ma.co.jp/news/20251205_5592-35/"
+      },
+      {
         "date": "2026",
         "text": "2026年 株式交換でくすりの窓口の完全子会社に"
+      },
+      {
+        "date": "2026-01",
+        "text": "株式交換によりくすりの窓口の完全子会社に",
+        "source": "https://mediweb.jp/news/20260101.html"
       }
     ],
     "profile": {
@@ -8914,7 +9127,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/91012"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2026年1月1日付の株式交換でくすりの窓口（東証グロース5592）の完全子会社に"
   },
   {
     "id": "1010001112445",
@@ -8935,8 +9149,8 @@
     "representatives": [
       "千田壮修"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "Omnicom Group Inc.",
     "relatedCompanies": [],
     "corporateNumber": "1010001112445",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001112445",
@@ -9016,7 +9230,15 @@
         "https://www.medical-ci.co.jp/topics/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2012年3月にOmnicom Group（米国の広告持株会社）に参画",
+    "history": [
+      {
+        "date": "2012-03",
+        "text": "Omnicom Groupに参画",
+        "source": "https://www.medical-ci.co.jp/company/history/"
+      }
+    ]
   },
   {
     "id": "6011001062543",
@@ -10955,15 +11177,26 @@
         "source": "https://www.icare-carely.co.jp/news/20230310"
       },
       {
+        "date": "2024-07",
+        "text": "オムロンと資本業務提携",
+        "source": "https://www.icare-carely.co.jp/news/20250918"
+      },
+      {
         "date": "2025-09",
         "text": "2025年9月 オムロンが全株式を取得し、10月からオムロングループに"
+      },
+      {
+        "date": "2025-10",
+        "text": "オムロンへグループイン（100%子会社）",
+        "source": "https://www.icare-carely.co.jp/company/"
       }
     ],
     "sources": [
       "https://www.icare-carely.co.jp/",
       "https://prtimes.jp/main/html/rd/p/000000211.000022826.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/22826",
-      "https://www.icare-carely.co.jp/company/"
+      "https://www.icare-carely.co.jp/company/",
+      "https://www.icare-carely.co.jp/news/20250918"
     ],
     "updatedAt": "2026-10",
     "overview": "産業医の山田洋太氏が創業。企業の健康診断結果やストレスチェック、面談記録などを一元管理する健康管理クラウド「Carely」を中心に、保健師など専門職による産業保健支援、健診の予約代行から精算・結果データ化までを担う健診業務支援、健康経営施策の代行サービスを提供する。Carely導入企業のうち180社超が「健康経営優良法人2026」に認定された。2024年7月にオムロンと資本業務提携し、2025年9月にオムロンが全株式を取得、同年10月からオムロングループ。",
@@ -11033,7 +11266,8 @@
         "https://prtimes.jp/companyrdf.php?company_id=22826"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2024年7月の資本業務提携を経て、2025年10月にオムロンが全株主から全株式を取得し完全子会社化"
   },
   {
     "id": "8010601041269",
@@ -11054,7 +11288,7 @@
     "representatives": [
       "刀禰真之介"
     ],
-    "exit": "未上場",
+    "exit": "バイアウト",
     "parentCompany": "株式会社メンタルヘルステクノロジーズ",
     "relatedCompanies": [],
     "corporateNumber": "8010601041269",
@@ -11069,7 +11303,8 @@
     ],
     "sources": [
       "https://www.avenir-executive.co.jp/",
-      "https://www.avenir-executive.co.jp/outline/"
+      "https://www.avenir-executive.co.jp/outline/",
+      "https://www.mh-tec.co.jp/company"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -11120,7 +11355,20 @@
         "https://prtimes.jp/companyrdf.php?company_id=23354"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2017年1月にMiew（現メンタルヘルステクノロジーズ、東証グロース9218）が全株式を取得し100%子会社化",
+    "history": [
+      {
+        "date": "2016-02",
+        "text": "Miew System Service株式会社から株式会社Avenirに商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010601041269"
+      },
+      {
+        "date": "2017-01",
+        "text": "Miew（現メンタルヘルステクノロジーズ）が全株式を取得し100%子会社化",
+        "source": "https://www.mh-tec.co.jp/company"
+      }
+    ]
   },
   {
     "id": "9040001064791",
@@ -11979,10 +12227,12 @@
       "https://www.theport.jp/",
       "https://www.theport.jp/about",
       "https://www.theport.jp/service",
-      "https://finance.yahoo.co.jp/quote/7047.T/profile"
+      "https://finance.yahoo.co.jp/quote/7047.T/profile",
+      "https://kitaishihon.com/company/7047/story",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t262/201609/548206.html"
     ],
     "updatedAt": "2026-10",
-    "scopeNote": "現在は就活メディアとエネルギー事業が中心で、医療関連のサービスは確認できない",
+    "scopeNote": "現在の主力は就活メディア『キャリアパーク！』などの人材領域と、電力・ガスの成約支援などのエネルギー領域で、医療関連のサービスは提供していない",
     "profile": {
       "businesses": [
         {
@@ -12064,7 +12314,19 @@
     },
     "securitiesCode": "7047",
     "listedMarket": "東証グロース",
-    "industry33": "サービス業"
+    "industry33": "サービス業",
+    "history": [
+      {
+        "date": "2015-11",
+        "text": "遠隔診療サービス『ポートメディカル』を運用開始（α版は2015年末に運用終了）",
+        "source": "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t262/201609/548206.html"
+      },
+      {
+        "date": "2019-12",
+        "text": "『オンラインクリニック』『ドクターズダイエット』のサービスを終了するなど複数の非注力事業を清算",
+        "source": "https://kitaishihon.com/company/7047/story"
+      }
+    ]
   },
   {
     "id": "5011001097367",
@@ -13634,6 +13896,11 @@
         "source": "https://www.medley.jp/release/20211022.html"
       },
       {
+        "date": "2026-07",
+        "text": "ドコモとNTTプレシジョンメディシンが、ミナカラ全株式を対象とする吸収分割契約を締結",
+        "source": "https://www.docomo.ne.jp/info/news_release/2026/07/30_00.html"
+      },
+      {
         "date": "2026-10",
         "text": "2024年2月 NTTドコモの完全子会社に。2026年10月 NTTプレシジョンメディシンの完全子会社へ移管"
       }
@@ -13641,7 +13908,9 @@
     "sources": [
       "https://www.minacolor.jp/",
       "https://www.minacolor.jp/about/company",
-      "https://www.minacolor.jp/service"
+      "https://www.minacolor.jp/service",
+      "https://www.docomo.ne.jp/info/news_release/2026/07/30_00.html",
+      "https://www.ntt-precisionmedicine.co.jp/news/single/?id=20260730"
     ],
     "updatedAt": "2026-10",
     "overview": "2013年11月にヘルスケアスタイルラボラトリーとして設立し、2015年に現社名へ変更。オンライン・対面の診療を受けた患者に、オンライン服薬指導、決済、自宅への医薬品配送、服薬中の相談までを一貫して提供するオンライン薬局「ミナカラ薬局」と、医療機関と提携したオンライン診療、薬剤師によるヘルスケアコンテンツを運営する。2021年に石川県白山市にセントラル調剤薬局を開設。2024年2月にNTTドコモの完全子会社となり、2026年10月にNTTプレシジョンメディシンの完全子会社へ移った。",
@@ -13720,7 +13989,8 @@
         "https://www.minacolor.jp/about/news"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2021年10月にNTTドコモとメドレーのJVとしてグループ参画、2024年2月にドコモの完全子会社、2026年10月1日の吸収分割でNTTプレシジョンメディシンの完全子会社に"
   },
   {
     "id": "9290001064395",
@@ -13913,7 +14183,7 @@
       "岩田修"
     ],
     "exit": "バイアウト",
-    "parentCompany": "株式会社ユーグレナ",
+    "parentCompany": "Blue Industries株式会社",
     "relatedCompanies": [],
     "corporateNumber": "4010401106424",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401106424",
@@ -13934,7 +14204,10 @@
     ],
     "sources": [
       "https://genequest.jp/",
-      "https://genequest.jp/about/"
+      "https://genequest.jp/about/",
+      "https://genequest.jp/topics/news/0/782",
+      "https://www.euglena.jp/news/20260803-1-2/",
+      "https://www.blueindustries.co.jp/news/799/"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -13942,6 +14215,11 @@
         "date": "2023-09",
         "text": "3Hとジーンクエストが炎症性腸疾患の患者レジストリを構築し解析開始",
         "source": "https://3h-ms.co.jp/archives/news/18871"
+      },
+      {
+        "date": "2026-08",
+        "text": "ユーグレナ保有の全株式がBlue Industriesに譲渡され、同社の完全子会社に",
+        "source": "https://genequest.jp/topics/news/0/782"
       }
     ],
     "profile": {
@@ -14013,7 +14291,8 @@
         "https://genequest.jp/topics/news/0/782"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2026年8月1日付でユーグレナが保有する全株式をBlue Industriesが取得し完全子会社化（それ以前はユーグレナの子会社）"
   },
   {
     "id": "1010001156780",
@@ -14049,7 +14328,8 @@
     ],
     "sources": [
       "https://genomedia.jp/company",
-      "https://genomedia.jp/service"
+      "https://genomedia.jp/service",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001156780"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -14097,7 +14377,8 @@
         "https://prtimes.jp/companyrdf.php?company_id=11333"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開され、ゲノム解析サービス・QA Commons Lite・Genomedia Frontを掲載しているが、お知らせ欄はなく、PR TIMESの最終配信は2020年10月。登記上の最終変更は2022年4月の本店移転で、閉鎖・清算の登記はない"
   },
   {
     "id": "8290001062747",
@@ -15230,7 +15511,7 @@
     "representatives": [
       "今泉英明"
     ],
-    "exit": "未上場",
+    "exit": "バイアウト",
     "parentCompany": "株式会社マイナビ",
     "relatedCompanies": [],
     "corporateNumber": "5490001007866",
@@ -15244,10 +15525,16 @@
     "sources": [
       "https://www.mynavi.jp/company/group/",
       "https://sanamedi.jp/company",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5490001007866"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5490001007866",
+      "https://prtimes.jp/main/html/rd/p/000000023.000015530.html"
     ],
     "updatedAt": "2026-10",
     "history": [
+      {
+        "date": "2019-04",
+        "text": "マイナビが株式の一部を取得し子会社化",
+        "source": "https://prtimes.jp/main/html/rd/p/000000023.000015530.html"
+      },
       {
         "date": "2020-03",
         "text": "エクスメディオとアルフレッサHDが資本業務提携",
@@ -15310,7 +15597,8 @@
         "https://prtimes.jp/main/html/rd/p/000000066.000015530.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2019年4月1日にマイナビが株式の一部を取得し子会社化（2018年4月から業務提携）"
   },
   {
     "id": "1010401101898",
@@ -15345,7 +15633,9 @@
     ],
     "sources": [
       "https://glomouth.co.jp/company/",
-      "https://glomouth.co.jp/services/"
+      "https://glomouth.co.jp/services/",
+      "https://glomouth.co.jp/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401101898"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -15387,7 +15677,8 @@
         "https://glomouth.co.jp/feed/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開（2026年6月に更新）。会社概要の事業内容は『グループ企業の経営管理および経営指導』で、歯科医院向け勤怠管理・給与計算システムはグループ企業のサービスとして掲載。お知らせの最終投稿は2021年8月"
   },
   {
     "id": "7011001102645",
@@ -15693,7 +15984,8 @@
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
       "https://akarie.co.jp/company",
-      "https://akarie.co.jp/"
+      "https://akarie.co.jp/",
+      "https://corp.tsukui.net/release/filedownload.php?name=acabd3026deae9f379b99723fe1c16a9.pdf"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -15712,8 +16004,18 @@
     ],
     "history": [
       {
+        "date": "2021-08",
+        "text": "アカリエヘルスケアカンパニー株式会社から株式会社アカリエに商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3020001105859"
+      },
+      {
         "date": "2022-04",
         "text": "2022年4月 ツクイの100%子会社に"
+      },
+      {
+        "date": "2022-04",
+        "text": "ツクイホールディングス（現ツクイ）が全株式を取得し完全子会社化",
+        "source": "https://corp.tsukui.net/release/filedownload.php?name=acabd3026deae9f379b99723fe1c16a9.pdf"
       }
     ],
     "profile": {
@@ -15772,7 +16074,8 @@
         "https://akarie.co.jp/news"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2022年4月28日に株式会社ツクイホールディングス（現ツクイ）が全株式を取得し完全子会社化"
   },
   {
     "id": "5011101071602",
@@ -15793,7 +16096,7 @@
     "representatives": [
       "豊原稔"
     ],
-    "exit": "未上場",
+    "exit": "バイアウト",
     "parentCompany": "株式会社Welby",
     "relatedCompanies": [],
     "corporateNumber": "5011101071602",
@@ -15804,12 +16107,19 @@
       {
         "date": "",
         "text": "Welbyグループ会社（主要株主 Welby・スズケン・中部電力、本社もWelbyと同所）"
+      },
+      {
+        "date": "2024-04",
+        "text": "中部電力が保有株式の過半数をWelbyへ売却し、Welbyの子会社に（それ以前は中部電力の子会社）",
+        "source": "https://www.chuden.co.jp/publicity/press/1213622_3273.html"
       }
     ],
     "sources": [
       "https://www.medaca.co.jp/company",
       "https://welby.jp/company/about/",
-      "https://www.medaca.co.jp/"
+      "https://www.medaca.co.jp/",
+      "https://www.chuden.co.jp/publicity/press/1213622_3273.html",
+      "https://www.medaca.co.jp/news/pr_20240410.html"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -15867,7 +16177,8 @@
         "https://prtimes.jp/companyrdf.php?company_id=26380"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2024年4月に親会社の中部電力が株式の過半数をWelby（東証グロース4438）へ売却し、Welbyの子会社に。スズケン・中部電力も株主"
   },
   {
     "id": "7010901034790",
@@ -16752,7 +17063,8 @@
     ],
     "sources": [
       "https://lifemeal.jp/",
-      "https://lifemeal.jp/company"
+      "https://lifemeal.jp/company",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001099524"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -16796,7 +17108,8 @@
         "https://lifemeal.jp/feed"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "運営メディア『Lifemeal』のサイトは2026年10月時点で公開されているが、運営会社からのお知らせの最終は2016年11月、記事の日付も2017年が最新。登記上は2025年4月に本店を移転しており、閉鎖・清算の登記はない"
   },
   {
     "id": "1010001159494",
@@ -17175,10 +17488,11 @@
     ],
     "sources": [
       "https://hacarus.com/ja/",
-      "https://hacarus.com/company/"
+      "https://hacarus.com/company/",
+      "https://hacarus.com/ja/category/press-release/medical-press-release/"
     ],
     "updatedAt": "2026-10",
-    "scopeNote": "現在は製造業の外観検査・建設現場の安全管理が中心で、医療関連の事業は確認できない",
+    "scopeNote": "現在は製造業向けのAI外観検査、製造・建設現場の労災防止AI・KY活動アプリが中心。医療AI（診断支援・創薬支援）は2023年を最後に発信がない",
     "profile": {
       "businesses": [
         {
@@ -17418,13 +17732,30 @@
     ],
     "sources": [
       "https://www.m3dc.co.jp/",
-      "https://www.m3dc.co.jp/company/about/"
+      "https://www.m3dc.co.jp/company/about/",
+      "https://corporate.m3.com/ir/release/2016/pdf/20161024_02.pdf",
+      "https://jp.vcube.com/news/release/20161024_1700.html"
     ],
     "updatedAt": "2026-10",
     "aliases": [
       "エムスリーデジタルコミュニケーションズ(旧: M-CUBE)"
     ],
     "history": [
+      {
+        "date": "2014-03",
+        "text": "エムスリーとブイキューブの合弁会社エムキューブとして設立",
+        "source": "https://www.m3dc.co.jp/company/about/"
+      },
+      {
+        "date": "2016-10",
+        "text": "合弁解消に伴い、ブイキューブが保有する全株式（49%）をエムスリーへ譲渡し、エムスリーの完全子会社に",
+        "source": "https://jp.vcube.com/news/release/20161024_1700.html"
+      },
+      {
+        "date": "2018-04",
+        "text": "エムキューブ株式会社からエムスリーデジタルコミュニケーションズ株式会社に商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401110577"
+      },
       {
         "date": "2023-02",
         "text": "エムスリーが医師向け講演会情報を集約した検索サービス「MEP」を開始",
@@ -17500,7 +17831,8 @@
         "https://prtimes.jp/companyrdf.php?company_id=116534"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2014年3月にエムスリー51%・ブイキューブ49%の合弁『エムキューブ』として設立。2016年の合弁解消でブイキューブ保有分を取得しエムスリー100%に"
   },
   {
     "id": "9120001182305",
@@ -17750,7 +18082,8 @@
     ],
     "sources": [
       "https://mealthy.co.jp/",
-      "https://mealthy.co.jp/about/"
+      "https://mealthy.co.jp/about/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401115219"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -17808,7 +18141,8 @@
         "https://mealthy.co.jp/news/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、ニュースの最終は2024年1月（メディカルノートとの資本提携）。登記上は2023年3月に本店を埼玉県東松山市へ移転しており、閉鎖・清算の登記はない"
   },
   {
     "id": "9011001098766",
@@ -17842,7 +18176,8 @@
     ],
     "sources": [
       "https://www.travoss.com/",
-      "https://www.travoss.com/overview/"
+      "https://www.travoss.com/overview/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9011001098766"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -17880,7 +18215,8 @@
         "https://prtimes.jp/companyrdf.php?company_id=13033"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開され、LINEで介護予防・疼痛ケア・マインドフルネスのエクササイズを案内するサービスを掲げているが、お知らせの最終は2021年3月（ホームページリニューアル）。閉鎖・清算の登記はない"
   },
   {
     "id": "2010401115113",
@@ -18011,7 +18347,7 @@
       "https://whois.jprs.jp/?key=trainy.jp&type=DOM"
     ],
     "updatedAt": "2026-10",
-    "statusNote": "公式サイト（trainy.co.jp）は2018年9月から更新されていない。掲げているサービス「Trainy.jp」と「BookFitMagazine」のドメインはどちらも今は表示されない。会社の動きとして確認できたのは2021年7月の本店移転の登記が最後で、事業の現状は分からない。",
+    "statusNote": "公式サイト（trainy.co.jp）は2018年9月から更新されておらず、ヘルスケアサービスは『開発中』のまま。掲載サービスのドメインは表示されない。登記上の最終変更は2021年7月の本店移転で、閉鎖・清算の登記はない",
     "profile": {
       "businesses": [
         {
@@ -18326,7 +18662,8 @@
       "https://kakaritsuke.co.jp/",
       "https://ndlsearch.ndl.go.jp/en/books/R100000002-I034639998",
       "https://kouseikyoku.mhlw.go.jp/tokaihokuriku/r2shiryou6.pdf",
-      "https://i.ansinkaigo.jp/shokai/home-care/visit-nursing/100716"
+      "https://i.ansinkaigo.jp/shokai/home-care/visit-nursing/100716",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7180001115491"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -18344,7 +18681,8 @@
         "https://kakaritsuke.co.jp/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で『サーバーのセキュリティ対応のため一時停止』のメンテナンス表示（一時停止中）"
   },
   {
     "id": "6011501021222",
@@ -19317,11 +19655,13 @@
       "https://fcheck.famione.com/",
       "https://famione.com/",
       "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=4010401121407",
-      "https://initial.inc/companies/A-27890"
+      "https://initial.inc/companies/A-27890",
+      "https://famione.co.jp/2022/07/08/famione_infographics/",
+      "https://prtimes.jp/main/html/rd/p/000000148.000014333.html"
     ],
     "updatedAt": "2026-10",
     "overview": "2015年設立。卵巣年齢チェックキット「F check」や不妊治療情報サイト「不妊治療net」を展開していたが、2022年10月にRA株式会社へ商号変更し本店を和歌山市へ移転。旧公式サイト（f-treatment.co.jp）は応答がない。「F check」と「不妊治療net」は2026年10月時点で株式会社ファミワンが運営しており、RA株式会社の現在の事業は確認できない。",
-    "statusNote": "旧社名F Treatment。卵巣年齢チェックキット「F check」と情報サイト「不妊治療net」は2022年7月に株式会社ファミワンへ事業譲渡され（INITIAL掲載）、現在はファミワンが運営する。2022年10月にRA株式会社へ商号変更、2025年4月に本店を和歌山市へ移し、同年7月に厚生年金の適用事業所が全喪となった。RA株式会社としての事業は確認できない。（最後に確認できた活動: 2022年7月）",
+    "statusNote": "旧社名F Treatment。2022年7月に卵巣年齢チェックキット『F check』と情報サイト『不妊治療net』をファミワンへ事業譲渡し、同年10月にRA株式会社へ商号変更、2025年4月に本店を和歌山市へ移した。旧公式サイト（f-treatment.co.jp）は接続できず、RA株式会社としての事業は確認できない。閉鎖・清算の登記はない",
     "scopeNote": "卵巣年齢チェックキット「F check」と情報サイト「不妊治療net」は2022年7月にファミワンへ譲渡",
     "profile": {
       "businesses": [],
@@ -19713,7 +20053,8 @@
         "https://prtimes.jp/companyrdf.php?company_id=38603"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2025年10月15日付でアトムメディカルが全株式を取得し完全子会社化"
   },
   {
     "id": "6010401120729",
@@ -19751,7 +20092,8 @@
     "sources": [
       "https://miup.jp/",
       "https://miup.jp/aboutus",
-      "https://miup.jp/service"
+      "https://miup.jp/service",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401120729"
     ],
     "updatedAt": "2026-10",
     "aliases": [
@@ -19807,7 +20149,8 @@
         "https://prtimes.jp/companyrdf.php?company_id=58309"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、NEWSの最終は2023年6月（バングラデシュでのAI見守りサービス『Omusubi』リリースなど）。登記上は2025年7月に本店を移転しており、閉鎖・清算の登記はない"
   },
   {
     "id": "8010701030873",
@@ -19943,7 +20286,7 @@
     "aliases": [
       "株式会社ピスケス（旧医科歯科ドットコム株式会社）"
     ],
-    "statusNote": "2015年12月にMRTとアイフラッグの合弁「MRT NEO」として設立され、医科・歯科クリニックの予約サイト「医科歯科.com」を運営していた。2018年9月にMRTが支配から外れ、運営主体はアイフラッグの子会社エンパワーヘルスケア（EPARK）へ移った。その後、医科歯科ドットコム（2018年12月）、ピスケス（2021年7月）と社名を変え、本店を豊島区西池袋1-4-10へ移した。現在、icashica.com は名前解決できず、事業の現状は確認できない。",
+    "statusNote": "登録の公式サイト（icashica.com）は2026年10月時点で接続できない。旧社名はMRT NEO→医科歯科ドットコム（2018年12月）→ピスケス（2021年7月）で、登記上の最終変更は2021年7月の本店移転。閉鎖・清算の登記はなく、現在の事業は確認できない",
     "profile": {
       "businesses": [],
       "newsroom": {
@@ -21409,6 +21752,11 @@
         "source": "https://www.jmdc.co.jp/news/news20210831-2/"
       },
       {
+        "date": "2021-08",
+        "text": "JMDCが全株式を取得し、JMDCグループに参画",
+        "source": "https://www.jmdc.co.jp/news/news20210831-2/"
+      },
+      {
         "date": "2023-07",
         "text": "アンター（Antaa）がイシヤク運営のflixyを吸収合併",
         "source": "https://corp.antaa.jp/news/20230728"
@@ -21418,7 +21766,8 @@
       "https://www.jmdc.co.jp/profile/",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001111461",
       "https://prtimes.jp/main/html/rd/p/000000016.000025535.html",
-      "https://prtimes.jp/main/html/rd/p/000000012.000025535.html"
+      "https://prtimes.jp/main/html/rd/p/000000012.000025535.html",
+      "https://www.jmdc.co.jp/news/news20210831-2/"
     ],
     "updatedAt": "2026-10",
     "overview": "2016年6月、整形外科医の中山俊が設立。医師同士が疑問を質問・解決するQ&Aサービスから始まり、現在は臨床に役立つスライドを医師間で共有する「Antaa Slide」を中心とする医師向けプラットフォームを運営し、若手医師・病院勤務医の当直中の学習などに使われている。日本臨床腫瘍学会、西日本がん研究機構、日本循環器学会などの学会と提携して教育コンテンツを展開し、製薬企業などヘルスケア産業向けの事業も行う。主要株主はJMDCで、本社もJMDCと同じ芝大門に置く。2023年に同じJMDC系のflixyを吸収合併。",
@@ -21494,7 +21843,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/25535"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2021年8月31日にJMDCが全株式を取得し完全子会社化"
   },
   {
     "id": "1010001178619",
@@ -21636,7 +21986,7 @@
       "乾文良"
     ],
     "exit": "バイアウト",
-    "parentCompany": "ユカリア株式会社",
+    "parentCompany": "株式会社ユカリア",
     "relatedCompanies": [],
     "corporateNumber": "8020001117775",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8020001117775",
@@ -21651,7 +22001,9 @@
     "sources": [
       "https://epigno.jp/",
       "https://epigno.jp/company/",
-      "https://prtimes.jp/main/html/rd/p/000000166.000022624.html"
+      "https://prtimes.jp/main/html/rd/p/000000166.000022624.html",
+      "https://eucalia.jp/news/202506052pr/",
+      "https://spicon.co.jp/news/ma-news/fvfvbvijj/"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -21663,6 +22015,11 @@
       {
         "date": "2025-06",
         "text": "2025年6月 ユカリアが子会社化を決議"
+      },
+      {
+        "date": "2025-06",
+        "text": "ユカリアが株式取得による子会社化を決議（取得後の議決権所有割合62.3%、株式譲渡は7月1日予定）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000166.000022624.html"
       }
     ],
     "profile": {
@@ -21705,7 +22062,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/54745"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2025年7月1日にユカリア（東証グロース286A）が株式を取得し子会社化（議決権所有割合62.3%）"
   },
   {
     "id": "6130001057252",
@@ -21829,6 +22187,11 @@
       {
         "date": "2026-04",
         "text": "2026年4月 株式会社オーからFAZOMに商号変更し、AI営業支援へ事業転換"
+      },
+      {
+        "date": "2026-04",
+        "text": "株式会社オー（O:）から株式会社FAZOMに商号変更し、『Sales Science Company』としてブランドを刷新",
+        "source": "https://prtimes.jp/main/html/rd/p/000000066.000024852.html"
       }
     ],
     "sources": [
@@ -21844,7 +22207,7 @@
       "コチーム（Co:TEAM）",
       "メトリクスマネジメント"
     ],
-    "scopeNote": "2026年4月に社名を「オー」から変更し、睡眠の O:SLEEP から AI営業支援へ事業を移している",
+    "scopeNote": "2026年4月に株式会社オーから商号変更。現在はAI営業支援プラットフォーム『FAZOM』と組織マネジメント支援『コチーム』が主力で、睡眠改善『O:SLEEP』などヘルスケア事業は事業内容にない",
     "profile": {
       "businesses": [
         {
@@ -21923,7 +22286,8 @@
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
       "https://www.appdate.co.jp/",
-      "https://tohands-handy.com/"
+      "https://tohands-handy.com/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401125232"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -21980,7 +22344,8 @@
         "https://tohands-handy.com/category/news/index.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されている（お知らせ欄なし）。登記上は2024年4月に本店を仙台市へ移転しており、閉鎖・清算の登記はない"
   },
   {
     "id": "4011001111351",
@@ -22094,7 +22459,8 @@
     "sources": [
       "https://sensecare.co.jp/",
       "https://sensecare.co.jp/company/",
-      "https://prtimes.jp/main/html/rd/p/000000001.000023720.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000023720.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401124226"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -22146,7 +22512,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/23720"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開され、地域医療DX・AI実装支援を掲げている（お知らせ欄なし）。閉鎖・清算の登記はない"
   },
   {
     "id": "4010001175588",
@@ -22181,7 +22548,8 @@
     "sources": [
       "https://www.lilymedtech.com/",
       "https://www.lilymedtech.com/company/",
-      "https://www.lilymedtech.com/news/"
+      "https://www.lilymedtech.com/news/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010001175588"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -22222,7 +22590,8 @@
         "https://www.lilymedtech.com/news/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、お知らせの最終は2024年9月（Tech for Impact Summit登壇）。乳房用リング型超音波画像診断装置『COCOLY』は2021年4月に認証取得・販売開始。閉鎖・清算の登記はない"
   },
   {
     "id": "5380001025788",
@@ -22517,7 +22886,8 @@
         "https://prtimes.jp/main/html/rd/p/000000076.000033988.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイト（www.vitaars.co.jp）は2026年10月時点で接続できない。PR TIMESの最終配信は2024年3月（大阪・関西万博の展示）。閉鎖・清算の登記はない（最終変更は2023年4月のT-ICUからの商号変更）"
   },
   {
     "id": "1011001113499",
@@ -22555,7 +22925,8 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000025.000080023.html",
       "https://prtimes.jp/main/html/rd/p/000000026.000080023.html",
-      "https://prtimes.jp/main/html/rd/p/000000023.000080023.html"
+      "https://prtimes.jp/main/html/rd/p/000000023.000080023.html",
+      "https://www.premedi.co.jp/"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -22616,7 +22987,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/80023"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で、PHPの脆弱性への対応のため『サービス一時停止』を表示（再開時期未定、一時停止中）"
   },
   {
     "id": "6010401125397",
@@ -22993,7 +23365,8 @@
     "sources": [
       "https://www.hikarilab.co.jp/",
       "https://www.hikarilab.co.jp/company",
-      "https://www.hikarilab.co.jp/news"
+      "https://www.hikarilab.co.jp/news",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2011101074005"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -23042,7 +23415,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/19383"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、ニュースの最終は2022年2月。閉鎖・清算の登記はない（最終変更は2018年1月の本店移転）"
   },
   {
     "id": "5120001198841",
@@ -23196,7 +23570,8 @@
     "sources": [
       "https://prevent.co.jp/",
       "https://prevent.co.jp/company/",
-      "https://prtimes.jp/main/html/rd/p/000000068.000004795.html"
+      "https://prtimes.jp/main/html/rd/p/000000068.000004795.html",
+      "https://prevent.co.jp/news/p262/"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -23291,7 +23666,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/36875"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2023年12月に住友生命保険相互会社が株式を取得し子会社化。会社概要の株主は住友生命100%"
   },
   {
     "id": "2011001111725",
@@ -23433,7 +23809,9 @@
     ],
     "sources": [
       "https://calomeal.com/",
-      "https://calomeal.com/company.html"
+      "https://calomeal.com/company.html",
+      "https://www.healthcare.omron.co.jp/corp/news/2026/0616-02.html",
+      "https://www.nihon-ma.co.jp/news/20260616_6645-93/"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -23455,6 +23833,11 @@
       {
         "date": "2026-06",
         "text": "2026年6月 オムロン ヘルスケアのグループに参画"
+      },
+      {
+        "date": "2026-06",
+        "text": "オムロン ヘルスケアが全株式を取得し完全子会社化",
+        "source": "https://www.healthcare.omron.co.jp/corp/news/2026/0616-02.html"
       }
     ],
     "profile": {
@@ -23545,7 +23928,8 @@
         "https://prtimes.jp/main/html/rd/p/000000123.000076641.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2026年6月にオムロン ヘルスケアが全株式を取得し完全子会社化"
   },
   {
     "id": "2010001173536",
@@ -23817,7 +24201,7 @@
       "福眞総一郎"
     ],
     "exit": "バイアウト",
-    "parentCompany": "",
+    "parentCompany": "GMOペイメントゲートウェイ株式会社",
     "relatedCompanies": [
       "ＧＭＯペイメントゲートウェイ株式会社",
       "ＧＭＯインターネット株式会社"
@@ -23831,15 +24215,38 @@
     ],
     "history": [
       {
+        "date": "2016-04",
+        "text": "株式会社リザーブリンクを親会社として株式会社医療予約技術研究所を設立",
+        "source": "https://gmo-reserve.plus/company/history.html"
+      },
+      {
+        "date": "2017-04",
+        "text": "MBOを実施し完全独立",
+        "source": "https://gmo-reserve.plus/company/history.html"
+      },
+      {
+        "date": "2018-08",
+        "text": "GMOイプシロンと資本提携しGMOインターネットグループ入り、GMO医療予約技術研究所に商号変更",
+        "source": "https://gmo-reserve.plus/company/history.html"
+      },
+      {
         "date": "2025-02",
         "text": "2025年2月 GMOリザーブプラスに商号変更"
+      },
+      {
+        "date": "2025-10",
+        "text": "GMOペイメントゲートウェイが株式を取得し連結対象会社に。あわせて増資で資本金・資本準備金を8億46百万円に",
+        "source": "https://www.gmo-pg.com/news/news/info/2025/1001.html"
       }
     ],
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401124298",
       "https://medical-reserve.co.jp/",
       "https://gmo-reserve.plus/company/overview.html",
-      "https://medical-reserve.co.jp/news/over_3000_clinics/"
+      "https://medical-reserve.co.jp/news/over_3000_clinics/",
+      "https://www.gmo-pg.com/news/news/info/2025/1001.html",
+      "https://gmo-reserve.plus/news/info/20251001info.html",
+      "https://gmo-reserve.plus/company/history.html"
     ],
     "updatedAt": "2026-10",
     "overview": "医療機関に特化した予約管理SaaSの開発・運営会社。医科向け「メディカル革命 byGMO」はWEB・LINE・電話予約、WEB問診、順番待ち、スマートチェックイン、キャッシュレス決済、電子カルテ連携、経営分析などを備え、歯科向け「Dentry byGMO」、動物病院向け「Animary byGMO」、MEO対策ツールも展開。GMOペイメントゲートウェイを主要株主とするGMOインターネットグループの一員で、2025年2月に現商号へ変更。従業員67名（2025年10月）。",
@@ -23935,7 +24342,8 @@
         "https://gmo-reserve.plus/news.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2018年8月にGMOイプシロンと資本提携しGMOインターネットグループ入り。2025年10月1日にGMOペイメントゲートウェイが株式を取得し、同社の連結対象会社に"
   },
   {
     "id": "2010401128239",
@@ -24396,8 +24804,8 @@
     "representatives": [
       "須藤大輔"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "DM三井製糖株式会社",
     "relatedCompanies": [],
     "corporateNumber": "7011001113849",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001113849",
@@ -24408,15 +24816,32 @@
     ],
     "history": [
       {
+        "date": "2023-07",
+        "text": "DM三井製糖が株式を取得し連結子会社化",
+        "source": "https://muscledeli.jp/shop/information/md_dm"
+      },
+      {
         "date": "2024-01",
         "text": "2024年1月 YOUR MEALに商号変更"
+      },
+      {
+        "date": "2024-01",
+        "text": "株式会社Muscle Deliから株式会社YOUR MEALに商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001113849"
+      },
+      {
+        "date": "2025-02",
+        "text": "DM三井製糖が全株式を追加取得し完全子会社化",
+        "source": "https://prtimes.jp/main/html/rd/p/000000073.000051248.html"
       }
     ],
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001113849",
       "https://your-meal.co.jp/",
       "https://your-meal.co.jp/company/",
-      "https://muscledeli.jp/"
+      "https://muscledeli.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000073.000051248.html",
+      "https://muscledeli.jp/shop/information/md_dm"
     ],
     "updatedAt": "2026-10",
     "overview": "目的や体質に合わせた食事を届けるカスタムミール事業を中心とする食品会社。主力の宅配弁当「Muscle Deli（マッスルデリ）」は女性ダイエット用・男性ダイエット用・増量用・低糖質の4プランで、カロリーとPFCを設計した冷凍弁当を届ける。ほかにケータリング「Muscle Catering」、高たんぱくのロングライフパン「YOUR BREAD」、プロテインコーヒー「YOUR COFFEE」などライフスタイル領域にも展開。2016年11月設立、2024年1月に現商号へ変更。",
@@ -24512,7 +24937,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/25162"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2023年7月にDM三井製糖（DM三井製糖ホールディングスの子会社）が株式を取得し連結子会社化、2025年2月28日に全株式を追加取得し完全子会社化"
   },
   {
     "id": "7010401127095",
@@ -24685,7 +25111,8 @@
         "https://prtimes.jp/main/html/rd/p/000000012.000034840.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "運営会社のページ（corp.carecle.com）は2026年10月時点で503、carecle.comは403で開けないが、主力サービス『リピクル』のサイト（ripicle.carecle.com）は公開されている。登記上は2025年6月に本店を移転しており、閉鎖・清算の登記はない"
   },
   {
     "id": "7010901037496",
@@ -24721,7 +25148,8 @@
     ],
     "sources": [
       "https://tabekata.jp/",
-      "https://tabekata.jp/about/"
+      "https://tabekata.jp/about/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010901037496"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -24768,7 +25196,8 @@
         "https://tabekata.jp/news/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開され、『DELIFAS!』などのサービスを掲載しているが、NEWSの最終は2022年6月（サイトリニューアル）。登記上は2023年4月に本店を移転しており、閉鎖・清算の登記はない"
   },
   {
     "id": "7010401132946",
@@ -24930,7 +25359,7 @@
     "aliases": [
       "リテラスメディカ"
     ],
-    "statusNote": "公式サイトは公開されており、リラクゼーション用の「Billy's care system」と経絡経穴の3Dアプリ「3D Acupoint」を掲げている。ただし、サイトのお知らせは2024年10月の「BillyHands取扱説明書」が最後で、それ以降の活動は確認できない。",
+    "statusNote": "公式サイトは2026年10月時点で公開され、『Billy's care system』『3D Acupoint』を掲げているが、ブログ（お知らせ）の最終は2024年10月。閉鎖・清算の登記はない（最終変更は2019年5月の本店移転）",
     "profile": {
       "businesses": [
         {
@@ -26841,13 +27270,19 @@
     "sources": [
       "https://www.remohab.com/",
       "https://www.remohab.com/about",
-      "https://www.remohab.com/news"
+      "https://www.remohab.com/news",
+      "https://www.awi.co.jp/ja/business/news/news-60884957930039632831.html"
     ],
     "updatedAt": "2026-10",
     "history": [
       {
         "date": "2022-03",
         "text": "2022年3月 エア・ウォーターグループに参画"
+      },
+      {
+        "date": "2022-03",
+        "text": "エア・ウォーターが発行済株式の63.2%を取得し子会社化（エア・ウォーターグループへ参画）",
+        "source": "https://www.awi.co.jp/ja/business/news/news-60884957930039632831.html"
       }
     ],
     "profile": {
@@ -26895,7 +27330,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/36290"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2022年3月11日にエア・ウォーターが発行済株式の63.2%を取得し子会社化"
   },
   {
     "id": "4010001170358",
@@ -26938,7 +27374,10 @@
     ],
     "sources": [
       "https://entouch.jp/",
-      "https://entouch.jp/company/"
+      "https://entouch.jp/company/",
+      "https://www.tohohd.co.jp/business/other/",
+      "https://www.tohoyk.co.jp/cate-others/14555/",
+      "https://prtimes.jp/main/html/rd/p/000000003.000062660.html"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -26991,7 +27430,20 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/62660"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2020年8月に東邦ホールディングスが出資比率を14%から33%に引き上げ資本提携。その後同社の子会社（非連結）となり、会社概要の親会社は東邦ホールディングス",
+    "history": [
+      {
+        "date": "2020-08",
+        "text": "東邦ホールディングスと資本提携（出資比率14%→33%）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000062660.html"
+      },
+      {
+        "date": "2026-10",
+        "text": "ランサムウェアによる不正アクセスでリモートディテーリング事業のデータが外部に流出したと東邦ホールディングスが公表",
+        "source": "https://www.tohoyk.co.jp/cate-others/14555/"
+      }
+    ]
   },
   {
     "id": "2010401129641",
@@ -27596,7 +28048,7 @@
       "METRICA Arc",
       "METRICA crew"
     ],
-    "scopeNote": "業種横断の AI 開発・研修が中心。医療は腹膜透析の遠隔管理「PD Doctor's Eye」のみ",
+    "scopeNote": "業種横断のIT・AI開発支援とAI・DX教育が主力。自社AIプロダクトは建築図面AI『METRICA Arc』と腹膜透析の遠隔管理『PD Doctor's Eye』で、医療はその1製品",
     "profile": {
       "businesses": [
         {
@@ -27777,7 +28229,7 @@
       "鴻池大介"
     ],
     "exit": "未上場",
-    "parentCompany": "",
+    "parentCompany": "ソフトバンク株式会社",
     "relatedCompanies": [],
     "corporateNumber": "6010001195683",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010001195683",
@@ -27787,7 +28239,9 @@
     "sources": [
       "https://healthcare-tech.co.jp/about",
       "https://healthcare-tech.co.jp/",
-      "https://healthcare-tech.co.jp/about/"
+      "https://healthcare-tech.co.jp/about/",
+      "https://www.sumitomolife.co.jp/about/newsrelease/pdf/2023/231005.pdf",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010001195683"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -27805,9 +28259,19 @@
     ],
     "history": [
       {
+        "date": "2018-10",
+        "text": "ソフトバンクと平安健康医療科技の合弁で設立（日比谷1号株式会社、2019年5月に現社名へ商号変更）",
+        "source": "https://business.nikkei.com/atcl/NBD/19/depth/00449/"
+      },
+      {
         "date": "2021-06",
         "text": "ソフトバンク系ヘルスケアテクノロジーズがMICINと協業しHELPOにオンライン診療機能を追加",
         "source": "https://micin.jp/news/4803/"
+      },
+      {
+        "date": "2023-10",
+        "text": "住友生命と資本・業務提携契約を締結",
+        "source": "https://www.sumitomolife.co.jp/about/newsrelease/pdf/2023/231005.pdf"
       },
       {
         "date": "2023-12",
@@ -27890,7 +28354,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/54466"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2018年10月にソフトバンクと平安健康医療科技の合弁として設立されたソフトバンクの子会社（買収ではない）。2023年10月に住友生命が資本・業務提携で出資"
   },
   {
     "id": "7010601052795",
@@ -28332,7 +28797,11 @@
     ],
     "sources": [
       "https://inazma.co.jp/",
-      "https://inazma.co.jp/project"
+      "https://inazma.co.jp/project",
+      "https://inazma.co.jp",
+      "https://inazma.co.jp/news/20231101-site-renewal",
+      "https://zeromachi.clinic/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3290001086726"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -28381,7 +28850,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/76508"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、お知らせは2023年11月のサイトリニューアルのみで、PR TIMESの最終配信は2022年2月。マネジメントを担う『ゼロマチクリニック天神』のサイトは公開中。閉鎖・清算の登記はない"
   },
   {
     "id": "3010401136240",
@@ -28475,7 +28945,9 @@
     "sources": [
       "https://medmain.com/",
       "https://medmain.com/aboutus",
-      "https://medmain.com/news"
+      "https://medmain.com/news",
+      "https://medmain.com/news/63907/",
+      "https://www.psp.co.jp/news/20260217_news_release.html"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -28483,6 +28955,16 @@
         "date": "2024-04",
         "text": "病理AIのメドメインがシリーズA2で資金調達（8.5億円）",
         "source": "https://medmain.com/news/39033/"
+      },
+      {
+        "date": "2026-02",
+        "text": "テクマトリックス・PSPによる株式取得の基本合意を公表",
+        "source": "https://www.psp.co.jp/news/20260217_news_release.html"
+      },
+      {
+        "date": "2026-04",
+        "text": "株式取得が完了し、テクマトリックスグループの連結子会社に",
+        "source": "https://medmain.com/news/63907/"
       },
       {
         "date": "2026-05",
@@ -28548,7 +29030,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/34505"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2026年4月30日にテクマトリックスと子会社PSPが株式を取得し、テクマトリックスグループの連結子会社に"
   },
   {
     "id": "4010501041629",
@@ -28755,7 +29238,8 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
-      "https://telemedease.org/"
+      "https://telemedease.org/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010005028548"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -28815,7 +29299,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/51929"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、ニュースの最終は2021年4月。高血圧オンライン診療パッケージ『テレメディーズBP』の個人向けサービスは2021年11月にイーメディカルジャパンの『高血圧e-メディカル』へ移行し、法人向けサービス紹介サイトは『準備中』のまま。閉鎖・清算の登記はない"
   },
   {
     "id": "7010001191789",
@@ -28895,7 +29380,9 @@
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
       "https://tricot-inc.com/",
-      "https://prtimes.jp/main/html/rd/p/000000084.000041495.html"
+      "https://prtimes.jp/main/html/rd/p/000000084.000041495.html",
+      "https://ir.po-holdings.co.jp/news/news/news4191915065228109712.html",
+      "https://www.nihon-ma.co.jp/news/20210212_4927-3/"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -28957,7 +29444,15 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/41495"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2021年2月にポーラ・オルビスホールディングスが全株式を取得し完全子会社化",
+    "history": [
+      {
+        "date": "2021-02",
+        "text": "ポーラ・オルビスホールディングスが全株式を取得し子会社化",
+        "source": "https://ir.po-holdings.co.jp/news/news/news4191915065228109712.html"
+      }
+    ]
   },
   {
     "id": "6011001120152",
@@ -30339,7 +30834,8 @@
     "sources": [
       "https://www.mg-dx.co.jp/",
       "https://prtimes.jp/main/html/rd/p/000000060.000093498.html",
-      "https://prtimes.jp/main/html/rd/p/000000059.000093498.html"
+      "https://prtimes.jp/main/html/rd/p/000000059.000093498.html",
+      "https://cyberagent.ai/news/press/12952/"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -30387,7 +30883,15 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/93498"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2020年5月1日にサイバーエージェントの100%出資で設立",
+    "history": [
+      {
+        "date": "2020-05",
+        "text": "サイバーエージェントの100%出資で設立",
+        "source": "https://cyberagent.ai/news/press/12952/"
+      }
+    ]
   },
   {
     "id": "3011401022356",
@@ -30897,7 +31401,9 @@
       "Minin（体外受精データ管理アプリ）"
     ],
     "sources": [
-      "https://minin.jp/"
+      "https://minin.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000002.000039614.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010901042115"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -30940,7 +31446,8 @@
         "https://prtimes.jp/companyrdf.php?company_id=39614"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "体外受精サポートアプリ『Minin』の紹介サイト（minin.jp）は2026年10月時点で公開されているが、著作権表記は2018-2019年のままで、運営会社のサイト（korero.jp）は接続できない。PR TIMESの配信は2018年12月のアプリリリースのみ。閉鎖・清算の登記はない（最終変更は2021年6月の本店移転）"
   },
   {
     "id": "4040001102829",
@@ -31074,15 +31581,28 @@
     ],
     "history": [
       {
+        "date": "2023-05",
+        "text": "MRT（東証グロース6034）が第三者割当増資を引き受け株式の約21%を取得し、持分法適用会社に",
+        "source": "https://prtimes.jp/main/html/rd/p/000000014.000058805.html"
+      },
+      {
         "date": "2025-05",
         "text": "2025年5月 MedGlobalに商号変更"
+      },
+      {
+        "date": "2025-05",
+        "text": "メドリング株式会社からMedGlobal株式会社に商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010001199148"
       }
     ],
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010001199148",
       "https://medring.co.jp/",
       "https://initial.inc/companies/A-37994",
-      "https://ascii.jp/elem/000/004/221/4221717/"
+      "https://ascii.jp/elem/000/004/221/4221717/",
+      "https://prtimes.jp/main/html/rd/p/000000014.000058805.html",
+      "https://medrt.co.jp/about/history.html",
+      "https://www.medring.co.jp/"
     ],
     "updatedAt": "2026-10",
     "overview": "2019年3月設立、旧社名はメドリング。ASEANの中小クリニック向けに電子カルテを核とする管理ソフト「MEDi」を開発し、ベトナムのクリニックと日本の医療系企業のM&Aを仲介する「MEDi Deals」、人材紹介「MEDi Works」を展開。現在は、日本で学んだ外国人介護人材の試験対策アプリ「MEDRiNG Study」、介護DX「MEDRiNG Care」、アジアの直営の日本式介護施設を組み合わせた「MEDRiNG KAIGO Academy」に注力する。MRTグループ。",
@@ -31518,7 +32038,8 @@
     "sources": [
       "https://laview.jp/",
       "https://laview.jp/pg820362.html",
-      "https://laview.jp/pg824638.html"
+      "https://laview.jp/pg824638.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8180001134350"
     ],
     "updatedAt": "2026-10",
     "profile": {
@@ -31554,7 +32075,8 @@
         "https://laview.jp/pg820362.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開され、脈波測定装置の製品紹介を掲載しているが、お知らせの最終は2021年6月。登記上は2023年9月に本店を名古屋医工連携インキュベータへ移転しており、閉鎖・清算の登記はない"
   },
   {
     "id": "7011101090575",
@@ -31828,6 +32350,11 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000050.000056624.html"
       },
       {
+        "date": "2025-06",
+        "text": "救急医療支援システム『Smart119』事業をアンクスへ譲渡する契約を締結（導入自治体の同意を得たものから順次移管）",
+        "source": "https://smart119.biz/pr/000727.html"
+      },
+      {
         "date": "2026-04",
         "text": "2025年6月 事業をアンクスへ譲渡する契約を締結、2026年4月 同社の子会社に"
       },
@@ -31872,7 +32399,8 @@
         "https://prtimes.jp/main/html/rd/p/000000002.000165552.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2026年4月に株式会社アンクス（鹿児島市）の子会社に。Smart119事業は2025年6月の事業譲渡契約に基づき導入自治体ごとに順次アンクスへ移管"
   },
   {
     "id": "5010001200758",
@@ -32119,6 +32647,11 @@
         "source": "https://www.jmdc.co.jp/news/news2022/news20220712/"
       },
       {
+        "date": "2022-07",
+        "text": "JMDCが株式を取得し子会社化",
+        "source": "https://www.jmdc.co.jp/news/news2022/news20220712/"
+      },
+      {
         "date": "2023-05",
         "text": "JMDCが子会社RWD社を会社分割・吸収合併で再編",
         "source": "https://www.jmdc.co.jp/news/news2023/news20230522/"
@@ -32132,6 +32665,11 @@
         "text": "旧リアルワールドデータ株式会社（京都）がJMDCに吸収合併され解散し、医療データベース構築事業をJMDCへ移管。新会社が「リアルワールドデータ株式会社」の社名を引き継ぎ、事業を続ける"
       },
       {
+        "date": "2023-08",
+        "text": "旧リアルワールドデータ株式会社（法人番号4130001055704）がJMDCに吸収合併され解散（登記上の合併日は2023年7月3日）",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130001055704"
+      },
+      {
         "date": "2025-08",
         "text": "本店を京都から東京へ移転（2026年5月に港区芝大門、JMDC本社と同じビルへ）"
       }
@@ -32142,7 +32680,9 @@
       "https://www.jmdc.co.jp/profile/",
       "https://rwdata.co.jp/",
       "https://rwdata.co.jp/news/",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130001074662"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130001074662",
+      "https://www.jmdc.co.jp/news/news2022/news20220712/",
+      "https://www.jmdc.co.jp/news/news2023/news20230522/"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -32221,7 +32761,8 @@
         "https://rwdata.co.jp/news/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2022年7月にJMDCが株式を取得し子会社化（その後追加取得で完全子会社）。2023年の再編で旧法人（本IDの法人番号）はJMDCに吸収合併され解散し、事業は同名の新会社（法人番号4130001074662）が承継"
   },
   {
     "id": "2011201020908",
@@ -32626,7 +33167,8 @@
         "https://healthcaregate.co.jp/news"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "scopeNote": "現在の主力は地域薬局向けのAI検索最適化サービス『AI薬局ナビ』とヘルスケア企業の新規事業支援。オンライン薬剤師やブロックチェーン服薬記録アプリ『DrugN』は過去の自社プロダクトとして紹介"
   },
   {
     "id": "8010001145166",
@@ -32870,7 +33412,7 @@
       "林泰臣"
     ],
     "exit": "バイアウト",
-    "parentCompany": "株式会社スギ薬局",
+    "parentCompany": "スギホールディングス株式会社",
     "relatedCompanies": [],
     "corporateNumber": "1010001193535",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001193535",
@@ -32888,7 +33430,9 @@
     "sources": [
       "https://knockonthedoor.jp/",
       "https://knockonthedoor.jp/company/outline/",
-      "https://knockonthedoor.jp/service/"
+      "https://knockonthedoor.jp/service/",
+      "https://digitalpr.jp/r/117070",
+      "https://www.cmicgroup.com/news/20250901/"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -32900,6 +33444,11 @@
       {
         "date": "2025-09",
         "text": "2025年9月 スギ薬局グループ入りを発表"
+      },
+      {
+        "date": "2025-09",
+        "text": "シミックホールディングスが保有する全株式をスギホールディングスに譲渡し、スギ薬局グループ入り（議決権100%）",
+        "source": "https://digitalpr.jp/r/117070"
       }
     ],
     "profile": {
@@ -32952,7 +33501,8 @@
         "https://knockonthedoor.jp/news/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2025年9月1日にスギホールディングスがシミックホールディングスから全株式を取得し完全子会社化（2022年10月からはシミックの子会社）"
   },
   {
     "id": "1010901040290",
@@ -33377,7 +33927,9 @@
       "https://ascii.jp/elem/000/004/102/4102757/",
       "https://atomic-software.co.jp/company",
       "https://atomic-software.co.jp/",
-      "https://service.medical-force.com/"
+      "https://service.medical-force.com/",
+      "https://atomic-software.co.jp/blog/2026/02/06/news-20260206/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001137168"
     ],
     "updatedAt": "2026-10",
     "overview": "2020年11月にメディカルフォースとして設立し、2026年2月に現社名へ変更。美容・自由診療クリニック向けに、予約、電子カルテ、決済、経営分析、広告効果測定、LINE自動配信を一元化したオールインワンSaaS「medicalforce」を提供し、AI音声カルテなどのAI機能群「medicalforce intelligence」や経営コンサルティングも展開する。導入は約800院（2026年9月）。警備業向けSaaS「警備フォース」も手がけ、マルチバーティカルSaaSを掲げる。",
@@ -33440,7 +33992,14 @@
         "https://prtimes.jp/main/html/rd/p/000000001.000176667.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "history": [
+      {
+        "date": "2026-02",
+        "text": "株式会社メディカルフォースからアトミックソフトウェア株式会社に商号変更",
+        "source": "https://atomic-software.co.jp/blog/2026/02/06/news-20260206/"
+      }
+    ]
   },
   {
     "id": "jp-002",
@@ -33578,7 +34137,9 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000018.000124331.html",
       "https://www.tv-tokyo.co.jp/plus/external-pr/entry/21114.html",
-      "https://ascii.jp/elem/000/004/373/4373394/"
+      "https://ascii.jp/elem/000/004/373/4373394/",
+      "https://corp.medimo.ai/suzuken",
+      "https://www.platinumpartners.jp/manews-20260212-suzuken-medimo.html"
     ],
     "updatedAt": "2026-10",
     "overview": "医学部生だった創業者らが2022年に株式会社Pleapとして設立し、2025年2月にプロダクト名と同じ現社名へ変更。診察中の医師と患者の会話を音声認識し、生成AIでカルテ（SOAP）や薬歴を数秒で自動作成する医療文書作成AI「medimo」を開発・提供する。2024年3月のサービス開始から2年弱で全国1,000件超の医療機関に導入され、利用は累計100万診察を超えた。2026年2月に医薬品卸大手スズケンのグループに参画し、同グループの顧客基盤を通じて診療所・病院・薬局への展開を進める。",
@@ -33625,7 +34186,15 @@
         "https://corp.medimo.ai/suzuken"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2026年2月12日にスズケンが全株式を取得し完全子会社化",
+    "history": [
+      {
+        "date": "2026-02",
+        "text": "スズケンが全株式を取得し完全子会社化（スズケングループに参画）",
+        "source": "https://corp.medimo.ai/suzuken"
+      }
+    ]
   },
   {
     "id": "jp-004",
@@ -33655,7 +34224,6 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "products": [
-      "HITOTSU Asset",
       "HITOTSU Link",
       "ResiLIA"
     ],
@@ -33664,7 +34232,9 @@
       "https://prtimes.jp/main/html/rd/p/000000016.000102400.html",
       "https://prtimes.jp/main/html/rd/p/000000007.000102400.html",
       "https://prtimes.jp/main/html/rd/p/000000023.000102400.html",
-      "https://prtimes.jp/main/html/rd/p/000000021.000102400.html"
+      "https://prtimes.jp/main/html/rd/p/000000021.000102400.html",
+      "https://www.hitotsu.co.jp/699/",
+      "https://www.nihon-ma.co.jp/news/20251208_3183-15/"
     ],
     "updatedAt": "2026-10",
     "overview": "臨床工学技士が2020年3月に創業し、「日本の医療を黒字化する」を掲げて医療業界横断のDXを進める。病院の医療機器管理SaaS「HITOTSU Asset」に続き、2024年3月に院内外の医療者・企業が安全にやりとりできる医療DXチャット「Link」を投入し、利用は400医療機関・150企業に広がった。2026年10月には生成AIとチャットを組み合わせた医療安全・インシデントレポートシステム「ResiLIA」を発売。Beyond Next Ventures、メドレーなどが出資する。",
@@ -33712,7 +34282,8 @@
         "https://prtimes.jp/main/html/rd/p/000000023.000102400.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で『メンテナンス中』（HTTP 503）の表示で一時停止中。2026年7月にも新プロダクトを発表しており事業は継続"
   },
   {
     "id": "jp-005",
@@ -34469,7 +35040,8 @@
       "https://prtimes.jp/main/html/rd/p/000000025.000081158.html",
       "https://thebridge.jp/2024/12/precal-a-pharmacy-dx-company-raises-230-million-yen-to-accelerate-the-expansion-of-its-cloud-based-claims-management-system",
       "https://about.precal.jp/companyprofile",
-      "https://about.precal.jp/"
+      "https://about.precal.jp/",
+      "https://emsystems.co.jp/ir/irnews/2025/250911_01.pdf"
     ],
     "updatedAt": "2026-10",
     "overview": "薬剤師として薬局経営に携わった大須賀善揮が2019年7月に創業し、薬局100店舗へのヒアリングと度重なるピボットを経て現事業に至った。調剤薬局向けに処方箋の入力業務を代行するサービスと、利用料無料のクラウド型レセコン「プレカルレセコン」を提供する。2024年12月に2.3億円を調達した後、2025年9月に薬局システム大手のEMシステムズが全株式を取得して子会社化し、同年10月に同社出身の小林大悟が代表取締役に就任。処方箋入力ゼロ化の実証も進める。",
@@ -34520,7 +35092,15 @@
         "https://about.precal.jp/news"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2025年9月30日にEMシステムズ（東証プライム4820）が全株式（議決権100%）を取得し完全子会社化",
+    "history": [
+      {
+        "date": "2025-09",
+        "text": "EMシステムズが全株式を取得し完全子会社化（9月11日決議、9月30日譲渡実行予定）",
+        "source": "https://emsystems.co.jp/ir/irnews/2025/250911_01.pdf"
+      }
+    ]
   },
   {
     "id": "jp-014",
@@ -37368,7 +37948,8 @@
     "highlight": "2026年にクリニック向けYouTube/SNS集患導線診断・チェックリストを無料提供",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000017.000032905.html",
-      "https://behealthy.co.jp/company/"
+      "https://behealthy.co.jp/company/",
+      "https://behealthy.co.jp/"
     ],
     "updatedAt": "2026-10",
     "overview": "2017年設立のコンサル型SNS運用会社。企業やクリニックのYouTube・Instagram・TikTokなどの運用を、戦略設計、検索ニーズ・競合調査、企画制作、分析改善から問い合わせ・予約導線の設計まで一貫して支援する。クリニック向けには予約前の患者の不安解消を起点とした発信と導線づくりを手がけ、集患導線チェックリストも無料公開している。累計SNS運用支援200社以上、制作動画1万本以上の実績を掲げる。",
@@ -37427,7 +38008,25 @@
         "https://behealthy.co.jp/news/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "scopeNote": "現在の主力は法人向けのSNS・YouTube運用代行とコンサルティング。医療・美容クリニックは支援対象業種の一つ",
+    "history": [
+      {
+        "date": "2017-08",
+        "text": "フィットネス動画メディア『slim』をリリース",
+        "source": "https://behealthy.co.jp/company/"
+      },
+      {
+        "date": "2018-05",
+        "text": "SNS運用代行サービスをリリース",
+        "source": "https://behealthy.co.jp/company/"
+      },
+      {
+        "date": "2020-04",
+        "text": "株式会社ケイブへ『slim』を事業譲渡",
+        "source": "https://behealthy.co.jp/company/"
+      }
+    ]
   },
   {
     "id": "jp-046",
@@ -38803,7 +39402,7 @@
     ],
     "updatedAt": "2026-10",
     "overview": "テレビ局技術者出身の上路健介が2014年に創業したVR・AI企業。360度の実写映像とAIで医療や産業の現場を記録・教材化し、学びや判断に生かす。医療分野では手術・看護・救急などの専門教育VRを大学や医療機関に提供し、帝人ファーマとうつ病向けデジタル治療VRの研究開発も進めてきた。近年は建設・製造・電気工事向けの安全教育VR「現場360」を軸に、現場改善やロボット導入準備（JG Robot Ready）、教育機関向けパッケージ、リスキリング事業へ領域を広げている。",
-    "scopeNote": "現在の主力は産業向けの安全教育VR「現場360」。医療VRは教育事業の一部門",
+    "scopeNote": "公式サイトで『現在の注力領域』を産業現場（安全教育VR『現場360』・ロボット導入支援などフィジカルAI）とし、医療・看護・介護の専門教育VRは並ぶもう一つの領域として継続",
     "profile": {
       "businesses": [
         {
@@ -39064,7 +39663,7 @@
   {
     "id": "jp-064",
     "name": "朝日サージカルロボティクス株式会社",
-    "hp": "",
+    "hp": "https://asahi-surgrob.com/",
     "categories": [
       "surgical-support",
       "medical-device"
@@ -39095,7 +39694,11 @@
     "highlight": "2021年 朝日インテックが完全子会社化。2023年2月 ANSUR 承認",
     "sources": [
       "https://www.ncc.go.jp/jp/information/pr_release/2023/0323/index.html",
-      "https://www.meti.go.jp/shingikai/mono_info_service/medical_device/kento_wg/pdf/002_07_00.pdf"
+      "https://www.meti.go.jp/shingikai/mono_info_service/medical_device/kento_wg/pdf/002_07_00.pdf",
+      "http://www.asahi-intecc.co.jp/r/2782",
+      "https://ir.asahi-intecc.co.jp/ja/ir/pressrelease/PressRelease-9104508761573818398/main/0/teaserItems1/0/linkList/0/link/20210311232.pdf",
+      "https://asahi-surgrob.com/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001169733"
     ],
     "updatedAt": "2026-10",
     "overview": "安藤岳洋・伊藤雅昭らが2015年に設立した株式会社A-Tractionが前身の、国立がん研究センター発ベンチャー。執刀医が鉗子と内視鏡カメラを一人で直感的に操作できる腹腔鏡手術支援ロボット「ANSURサージカルユニット」を同センター東病院と共同開発し、2023年2月に医療機器承認を取得した。通常は助手とスコピストの2人が担う作業を1台で代替し、外科医の負担軽減と手術時間の短縮を狙う。2021年に朝日インテックの完全子会社となり、現社名で事業を行う。",
@@ -39138,7 +39741,20 @@
         "https://asahi-surgrob.com/news/index.php"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2021年7月1日に朝日インテックが全株式を取得し100%連結子会社化、同日A-Tractionから現社名に変更",
+    "history": [
+      {
+        "date": "2021-03",
+        "text": "朝日インテックがA-Tractionの全株式取得（100%子会社化）を決議",
+        "source": "https://ir.asahi-intecc.co.jp/ja/ir/pressrelease/PressRelease-9104508761573818398/main/0/teaserItems1/0/linkList/0/link/20210311232.pdf"
+      },
+      {
+        "date": "2021-07",
+        "text": "株式取得が完了し朝日インテックの100%子会社に。株式会社A-Tractionから朝日サージカルロボティクス株式会社に商号変更",
+        "source": "http://www.asahi-intecc.co.jp/r/2782"
+      }
+    ]
   },
   {
     "id": "jp-065",
@@ -39813,7 +40429,9 @@
     "highlight": "2023年7月 三洋貿易の子会社に",
     "sources": [
       "https://initial.inc/companies/A-27260",
-      "https://maonline.jp/news/summary20230805"
+      "https://maonline.jp/news/summary20230805",
+      "https://www.kotai-bio.com/jp/news/post-1358/",
+      "https://www.nihon-ma.co.jp/news/20230731_3176-12/"
     ],
     "updatedAt": "2026-10",
     "overview": "大阪大学の研究成果を事業化するため2016年に設立されたバイオインフォマティクス企業。免疫AIプラットフォームを用いて、抗体やワクチン抗原の設計など治療法のない疾患に対する創薬研究を支援し、塩野義製薬とは新型コロナウイルス感染症ワクチンの抗原デザインで共同研究を行った。遺伝子解析の受託サービスも手がけ、2026年には空間解析サービスを強化した。2023年7月に三洋貿易が株式の95.8%を取得し、同社の連結子会社となった。",
@@ -39855,7 +40473,15 @@
         "https://prtimes.jp/main/html/rd/p/000000082.000080925.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2023年7月に三洋貿易（東証プライム3176）が株式の95.8%を取得し子会社化",
+    "history": [
+      {
+        "date": "2023-07",
+        "text": "三洋貿易が株式の95.8%を取得し子会社化",
+        "source": "https://www.kotai-bio.com/jp/news/post-1358/"
+      }
+    ]
   },
   {
     "id": "5010001248335",
@@ -41371,7 +41997,8 @@
     "highlight": "心臓シミュレーションによる創薬・医療機器のin silico評価",
     "sources": [
       "https://www.ut-heart.com/corporate_profile.html",
-      "https://www.ut-heart.com/"
+      "https://www.ut-heart.com/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010901033048"
     ],
     "updatedAt": "2026-10",
     "overview": "東京大学新領域創成科学研究科で開発されたマルチスケール・マルチフィジックス心臓シミュレータ「UT-Heart」の成果を活用するため、2013年10月に設立された東京大学発ベンチャー。患者ごとの心臓を再現して最適な治療を検討するシミュレーション、薬剤の心毒性をin silicoで評価する心毒性ハザードマップ、新しい医療機器の仮想ベンチテストなどを提供する。スーパーコンピュータ「富岳」の文部科学省プログラムにも参画。研究開発拠点は千葉県柏市。",
@@ -41420,7 +42047,8 @@
         "https://www.ut-heart.com/selected_papers.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、お知らせ欄はなく、トップページの最終更新は2024年4月。閉鎖・清算の登記はない（法人番号9010901033048、公表以来変更なし）"
   },
   {
     "id": "jp-088",
@@ -41561,7 +42189,10 @@
       "https://hrmos.co/pages/genmine-labs/jobs/0000039",
       "https://www.genmine-labs.jp/jp/company/index.html",
       "https://www.genmine-labs.jp/jp/news/index.html",
-      "https://genmine-labs.jp/jp/news/item/Announcement_of_CompanyNameChange.pdf.pdf"
+      "https://genmine-labs.jp/jp/news/item/Announcement_of_CompanyNameChange.pdf.pdf",
+      "https://www.konicaminolta.com/jp-ja/newsroom/2025/1001-01-01.html",
+      "https://www.sbtempus.com/event-news/25110501/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401139882"
     ],
     "updatedAt": "2026-10",
     "overview": "2018年7月にコニカミノルタグループの遺伝子検査会社（コニカミノルタREALM）として設立。がん組織と正常組織をペアで解析するがんゲノムプロファイリング検査「GenMineTOP」の受託解析を主力とし、東京都日野市に登録衛生検査所「日野ラボラトリー」を構える。検査室は米国病理学会（CAP）の認定を取得。2025年10月、ソフトバンクグループと米Tempus AIの合弁会社SB TEMPUSの傘下に入り、現社名に変更した。",
@@ -41605,7 +42236,20 @@
         "https://www.konicaminolta.com/jp-ja/newsroom/2025/1001-01-01.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2025年9月30日にSB TEMPUSがコニカミノルタから全株式を取得し子会社化（10月にコニカミノルタREALMから社名変更）",
+    "history": [
+      {
+        "date": "2025-09",
+        "text": "SB TEMPUSがコニカミノルタREALMの全株式を取得し子会社化",
+        "source": "https://www.konicaminolta.com/jp-ja/newsroom/2025/1001-01-01.html"
+      },
+      {
+        "date": "2025-10",
+        "text": "コニカミノルタREALM株式会社から株式会社GenMine Labsに商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401139882"
+      }
+    ]
   },
   {
     "id": "jp-090",
@@ -42309,8 +42953,8 @@
     "representatives": [
       "張聖"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "株式会社アイスタイル",
     "relatedCompanies": [],
     "corporateNumber": "6010401152706",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401152706",
@@ -42326,7 +42970,9 @@
       "https://startup-db.com/companies/2lO6prvU4jnpg5wB",
       "https://xxnanoni.com/",
       "https://xxnanoni.com/about",
-      "https://xxnanoni.com/service"
+      "https://xxnanoni.com/service",
+      "https://prtimes.jp/main/html/rd/p/000000019.000091427.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401152706"
     ],
     "updatedAt": "2026-10",
     "formerNames": [
@@ -42374,7 +43020,20 @@
         "https://prtimes.jp/main/html/rd/p/000000019.000091427.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2025年9月にアイスタイル（東証プライム3660）のグループに参画。出資比率は非公表",
+    "history": [
+      {
+        "date": "2025-01",
+        "text": "株式会社nanoniからCarefull株式会社に商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401152706"
+      },
+      {
+        "date": "2025-09",
+        "text": "アイスタイルのグループに参画",
+        "source": "https://prtimes.jp/main/html/rd/p/000000019.000091427.html"
+      }
+    ]
   },
   {
     "id": "5011101089933",
@@ -42413,7 +43072,8 @@
       "https://startup-db.com/companies/Ao31G8nU1lnZkwyX",
       "https://cradle.care/",
       "https://cradle.care/corporate",
-      "https://cradle.care/news/45"
+      "https://cradle.care/news/45",
+      "https://www.nihon-ma.co.jp/news/20260812_4071-5/"
     ],
     "updatedAt": "2026-10",
     "overview": "アーティストSputniko!として知られる尾嵜優美が2019年12月に創業。2022年に始めた法人向けウェルビーイング支援サービス「Cradle」で、DE&I・健康経営の学習動画やセミナー、専門家へのオンライン相談、従業員データの分析レポート、全国130以上の提携医療機関によるヘルスケアサポートを一括提供する。大企業中心に80社以上・対象従業員約90万人に導入され、ARRは2.6億円超（2026年7月）。2026年8月、プラスアルファ・コンサルティングが株式の85%を取得した。",
@@ -42465,7 +43125,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/111102"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2026年8月にプラスアルファ・コンサルティング（東証プライム4071）が発行済株式の85%を取得することを決定（取得予定日2026年10月1日）"
   },
   {
     "id": "4010401161048",
@@ -43641,8 +44302,7 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "products": [
-      "ミーア / Mia（方言を話すネコ型ロボット）",
-      "EarBrain（脳波計測イヤホン、開発）"
+      "ミーア / Mia（方言を話すネコ型ロボット）"
     ],
     "highlight": "代表は医師（CEO/MD）",
     "sources": [
@@ -43696,7 +44356,24 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/145069"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "history": [
+      {
+        "date": "2022-03",
+        "text": "脳波を検知するイヤホン『EarBrain』の開発を開始",
+        "source": "https://mia-cat.com/company/"
+      },
+      {
+        "date": "2023-01",
+        "text": "技術的課題によりEarBrainの開発を中止",
+        "source": "https://mia-cat.com/company/"
+      },
+      {
+        "date": "2023-04",
+        "text": "方言を話すおしゃべり猫型ロボット『ミーア』の開発を開始",
+        "source": "https://mia-cat.com/company/"
+      }
+    ]
   },
   {
     "id": "9020001147499",
@@ -44457,7 +45134,9 @@
       "https://squiz.co.jp/",
       "https://squiz.co.jp/company",
       "https://squiz.co.jp/news",
-      "https://oops-jp.com/"
+      "https://oops-jp.com/",
+      "https://ceres-inc.jp/news/detail/20260401-5/",
+      "https://www.nihon-ma.co.jp/news/20260401_3696-44/"
     ],
     "updatedAt": "2026-10",
     "overview": "2020年11月設立。クリエイティブディレクターの平野巴章が率い、デザイン性を重視したオンライン診療ブランド「Oops」を企画・運営する。提携医療機関と連携し、AGAの「Oops HAIR」、ピルの「Oops WOMB」、EDの「Oops LOVE」、メンタルの「Oops HEART」などを展開する。妊娠期支援「SUNME」なども手がけ、iF Design Award金賞などを受賞。2026年4月に東証プライム上場のセレスのグループに入った。従業員33名（正社員22名）。",
@@ -44518,7 +45197,15 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/78914"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2022年からの少数出資を経て、2026年4月1日にセレス（東証プライム3696）が発行済株式の90%を取得し連結子会社化",
+    "history": [
+      {
+        "date": "2026-04",
+        "text": "セレスが株式を取得し連結子会社化（発行済株式の90%）",
+        "source": "https://ceres-inc.jp/news/detail/20260401-5/"
+      }
+    ]
   },
   {
     "id": "1170001016300",
@@ -44717,7 +45404,7 @@
   {
     "id": "4130001074695",
     "name": "株式会社portera",
-    "hp": "https://raku-shin.net/",
+    "hp": "https://portera.jp/",
     "categories": [
       "telemedicine",
       "health-corporate-management"
@@ -44739,25 +45426,35 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130001074695",
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
-    "products": [
-      "らく診（福利厚生専用オンライン診療、2025年8月にfonfunへ移管）"
-    ],
+    "products": [],
     "sources": [
       "https://startup-db.com/companies/PmW5plqUR27Zrdaq",
       "https://portera.jp/",
       "https://houjin.jp/c/4130001074695",
       "https://raku-shin.net/",
       "https://raku-shin.net/enterprise/",
-      "https://raku-shin.net/1101-2/"
+      "https://raku-shin.net/1101-2/",
+      "https://www.nihon-ma.co.jp/news/20250805_2323-14/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130001074695"
     ],
     "updatedAt": "2026-10",
     "overview": "企業の福利厚生専用オンライン診療サービス「らく診」を立ち上げ・運営してきた企業。らく診は、従業員がスマートフォンやPCからビデオ通話で受診し、保険診療にも対応して薬を自宅配送または薬局で受け取れる仕組みで、企業は簡単に導入して従業員の健康管理に役立てられる。2024年11月に本社を京都府福知山市から大阪市へ移転。2025年8月5日付で、らく診の運営会社は東証スタンダード上場の株式会社fonfunに変更された。",
     "highlight": "2025年8月、「らく診」の運営会社がporteraから東証スタンダード上場のfonfunに変更",
-    "scopeNote": "オンライン診療サービス「らく診」の運営は2025年8月に東証スタンダード上場の fonfun へ移った",
+    "scopeNote": "オンライン診療『らく診』を2025年8月にfonfunへ事業譲渡し、現在は訪問型の労災二次健診サービスと医療機関向けの人材教育・経営支援が主力",
     "history": [
+      {
+        "date": "2025-07",
+        "text": "SHANEPORT株式会社から株式会社porteraに商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130001074695"
+      },
       {
         "date": "2025-08",
         "text": "「らく診」の運営会社が fonfun に変わる"
+      },
+      {
+        "date": "2025-08",
+        "text": "オンライン診療『らく診』事業をfonfunへ事業譲渡",
+        "source": "https://www.nihon-ma.co.jp/news/20250805_2323-14/"
       }
     ],
     "profile": {
@@ -46272,8 +46969,8 @@
     "representatives": [
       "中尾亮太"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [],
     "corporateNumber": "7040001104178",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7040001104178",
@@ -46284,7 +46981,9 @@
       "https://tochoku.com/",
       "https://initial.inc/companies/A-PWJGA",
       "https://tochoku.com/company/profile",
-      "https://tochoku.com/company/news/2azt_j51r0"
+      "https://tochoku.com/company/news/2azt_j51r0",
+      "https://tochoku.com/company/news/l9g9v5e4w",
+      "https://corporate.m3.com/corporate"
     ],
     "updatedAt": "2026-10",
     "overview": "2018年4月設立。在宅医療を行う医療機関に代わり、夜間・休日のかかりつけ患者への往診を当直医と同行スタッフ「メディカルバディ」がチームで担う「バディ往診」を提供する。夜間の電話一次受けを行う「バディコールセンター」、クリニック向けの電話再診代行「電話再診君」も展開し、2024年11月に「バディレセ®」、2026年8月に夜間・休日の連携基盤「Tochoku BATON」を始めた。エムスリーのグループ会社で、社員数は120名（2025年7月、アルバイト除く）。",
@@ -46300,6 +46999,11 @@
       {
         "date": "2024-04",
         "text": "エムスリーが在宅医療の夜間休日対応「バディ往診」の当直連携基盤を子会社化",
+        "source": "https://tochoku.com/company/news/l9g9v5e4w"
+      },
+      {
+        "date": "2024-04",
+        "text": "エムスリーグループの一員に",
         "source": "https://tochoku.com/company/news/l9g9v5e4w"
       }
     ],
@@ -46353,7 +47057,8 @@
         "https://tochoku.com/company/news"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2024年4月1日にエムスリーグループの一員に（経営陣は続投）"
   },
   {
     "id": "4010401122116",
@@ -46388,7 +47093,8 @@
       "https://cloudclinic.jp/",
       "https://initial.inc/companies/A-17275",
       "https://cloudclinic.jp/company/profile/",
-      "https://cloudclinic.jp/company/history/"
+      "https://cloudclinic.jp/company/history/",
+      "https://fastdoctor.jp/corporate/news/20240628/"
     ],
     "updatedAt": "2026-10",
     "overview": "2015年12月設立。訪問診療を行うクリニック向けに、診療報酬・介護報酬の算定とレセプト請求、連携先や患者からの電話対応、訪問看護指示書などの書類作成を代行する在宅医療事務のアウトソーシングを提供する。自社開発の算定AIエージェントと経験者のダブルチェックを組み合わせ、レセプト返戻率0.22%、累計サポート数73万人をうたう。福岡にオペレーションセンターを持つ。現在はファストドクターの100%子会社。",
@@ -46397,6 +47103,16 @@
         "date": "2022-05",
         "text": "メドピアが在宅医療事務支援のクラウドクリニックを完全子会社化",
         "source": "https://www.nikkei.com/article/DGXZRSP632128_S2A510C2000000/"
+      },
+      {
+        "date": "2022-07",
+        "text": "メドピアグループの一員に",
+        "source": "https://cloudclinic.jp/company/history/"
+      },
+      {
+        "date": "2024-06",
+        "text": "メドピアが保有株式をファストドクターへ譲渡し、ファストドクターの100%子会社に",
+        "source": "https://fastdoctor.jp/corporate/news/20240628/"
       }
     ],
     "profile": {
@@ -46467,7 +47183,8 @@
         "https://prtimes.jp/main/html/rd/p/000000094.000031533.html"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2022年にメドピアの完全子会社となり、2024年6月にメドピアが全株式をファストドクターに譲渡。会社概要の株主構成はファストドクター100%"
   },
   {
     "id": "8011101060949",
@@ -46503,7 +47220,8 @@
     "sources": [
       "https://mics.tokyo/company",
       "https://initial.inc/companies/A-16195",
-      "https://mics.tokyo/"
+      "https://mics.tokyo/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101060949"
     ],
     "updatedAt": "2026-10",
     "overview": "2002年設立。医療法人社団悠翔会の経営・診療支援部門を母体とし、在宅医療の経営支援に長く取り組む。訪問診療クリニック向けのコンサルティング、クラウド型電子カルテ「homis」や訪問看護記録「homis Nursee」、夜間当番医やコールセンターなどのアウトソーシング、在宅医療専門の医師求人サイト「在宅専科」を展開し、インドやインドネシアでも事業を持つ。2023年にヒューマンライフ・マネジメントから社名変更。Social Impact Solutionsの100%子会社。",
@@ -46588,7 +47306,14 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/74761"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "history": [
+      {
+        "date": "2023-02",
+        "text": "株式会社ヒューマンライフ・マネジメントが旧メディカルインフォマティクス株式会社を吸収合併し、メディカルインフォマティクス株式会社に商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101060949"
+      }
+    ]
   },
   {
     "id": "9010001183603",
@@ -47642,11 +48367,12 @@
     "highlight": "2024年10月 帝人グループ入り",
     "sources": [
       "https://hcso-inc.com/",
-      "https://initial.inc/companies/A-26244"
+      "https://initial.inc/companies/A-26244",
+      "https://bio.nikkeibp.co.jp/atcl/release/24/10/02/21869/"
     ],
     "updatedAt": "2026-10",
     "overview": "2016年3月設立。訪問看護に特化した人材紹介と、掲載料無料・成功報酬型の訪問看護専門の求人メディアを運営し、訪問看護を知るキャリアアドバイザーが転職を支える。訪問看護師の教育・定着支援も行う。訪問看護ステーション向けには採用代行、ホームページ制作、運営コンサルティングを提供し、行政や業界団体、学術機関との研修企画も手がける。2024年10月に帝人グループの一員となった。本社は東京都渋谷区、大阪にも拠点を置く。",
-    "parentNote": "帝人グループ",
+    "parentNote": "2024年10月2日に帝人が全株式を取得し完全子会社化",
     "profile": {
       "businesses": [
         {
@@ -47705,7 +48431,15 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/21077"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "statusNote": "公式サイトは2026年10月時点で公開されている。お知らせの最終は2025年3月",
+    "history": [
+      {
+        "date": "2024-10",
+        "text": "帝人が全株式を取得し、帝人グループの一員に",
+        "source": "https://hcso-inc.com/"
+      }
+    ]
   },
   {
     "id": "5120001103529",
@@ -48833,7 +49567,10 @@
     "sources": [
       "https://eeful-hd.com/",
       "https://initial.inc/companies/A-YGNVR",
-      "https://sogyotecho.jp/news/20260406eeful-hd/"
+      "https://sogyotecho.jp/news/20260406eeful-hd/",
+      "https://prtimes.jp/main/html/rd/p/000000024.000121171.html",
+      "https://eeful-hd.com/news/auEy7DQy",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401174126"
     ],
     "updatedAt": "2026-10",
     "overview": "2023年4月設立。介護事業所の運営とテクノロジーを組み合わせる介護グループの持株会社。東京で定期巡回・随時対応型訪問介護看護などの在宅介護を担うイーフルケア、大阪で介護・障がい・QOL事業を営むハートフルサンクを傘下に持ち、事業承継ニーズのある介護事業所の買収と買収後のPMIを進める。システムを内製し、介護事業所向けクラウド「EEFUL DB」シリーズも展開。2026年9月にICC KYOTO 2026カタパルト・グランプリで優勝。",
@@ -48891,7 +49628,14 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/121171"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "history": [
+      {
+        "date": "2025-11",
+        "text": "株式会社emomeから株式会社EEFULホールディングスに社名変更（11月11日付）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000024.000121171.html"
+      }
+    ]
   },
   {
     "id": "8010401168634",
@@ -50817,7 +51561,9 @@
     "sources": [
       "https://corp.smart-sou.co.jp/news/20261021",
       "https://prtimes.jp/main/html/rd/p/000000092.000089158.html",
-      "https://corp.smart-sou.co.jp/"
+      "https://corp.smart-sou.co.jp/",
+      "https://smarthr.co.jp/service/group/",
+      "https://smart-sou.co.jp/news/20240626"
     ],
     "updatedAt": "2026-10",
     "overview": "2021年2月設立。メンタルヘルス、キャリア、ハラスメント、プライベートの悩みまで、従業員がオンラインで外部の専門家に匿名で相談できる法人向け社外相談窓口・EAP「Smart相談室」と、オンラインコーチング「Smartマイコーチ」を運営する。国家資格キャリアコンサルタントなど多様な専門家が在籍し、土日・夜間にも対応。正式版の提供開始から5年でユーザー数30万人、累計相談件数5万件を超えた（2026年10月）。相談データを使った共同研究も進めるSmartHRのグループ会社。",
@@ -50863,7 +51609,8 @@
         "https://prtimes.jp/main/html/searchrlp/company_id/89158"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "会社概要の株主構成はSmartHR 100%。SmartHRのグループ会社（2024年6月の告知でも『SmartHRのグループ会社』）"
   },
   {
     "id": "jp-113",
@@ -51649,11 +52396,18 @@
       "https://www.jpx.co.jp/listing/stocks/new/t13vrt000001uq4s-att/09LAYERED-Outline.pdf",
       "https://initial.inc/companies/A-25004",
       "https://traders.co.jp/ipo/634A",
-      "https://www.ipokiso.com/company/2026/layered.html"
+      "https://www.ipokiso.com/company/2026/layered.html",
+      "https://layered.inc/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2290001018911"
     ],
     "updatedAt": "2026-10",
     "overview": "1998年7月設立の福岡の医療ITベンダー。「医療をもっと、わかりやすく。」を掲げ、予約・受付から問診、会計まで患者と医療機関の接点を効率化するDX支援プロダクト事業と広告配信事業を営む。WEB問診「Symview」、予約システム「Wakumy」、患者管理「Kakarite」、電話自動応答「Iver」を単独でも組み合わせても導入できる月額制で提供し、IT人材の乏しい医療機関の導入支援も行う。2026年9月25日に東証スタンダード市場へ上場（634A）。",
     "history": [
+      {
+        "date": "2022-07",
+        "text": "株式会社メディアコンテンツファクトリーから株式会社レイヤードに商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2290001018911"
+      },
       {
         "date": "2023-01",
         "text": "Web問診のレイヤードがMDV、メディパル、FFGVBPと資本提携",
@@ -51706,7 +52460,8 @@
     },
     "securitiesCode": "634A",
     "listedMarket": "東証スタンダード",
-    "industry33": "情報・通信業"
+    "industry33": "情報・通信業",
+    "statusNote": "公式サイトは2026年10月22日から、PHPの脆弱性への予防措置として公開を一時停止中（顧客医療機関のサイトも同様にメンテナンスモード）"
   },
   {
     "id": "jp-118",
@@ -52038,7 +52793,16 @@
         "https://cro.co.jp/post-3808/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2024年6月21日にPSP（テクマトリックスの子会社）が全株式を取得し完全子会社化",
+    "statusNote": "公式サイトは2026年10月時点で公開されているが、お知らせの最終は2024年7月（PSPとの資本業務提携）",
+    "history": [
+      {
+        "date": "2024-06",
+        "text": "PSPとの資本業務提携によりPSPが全株式を取得し完全子会社化",
+        "source": "https://www.psp.co.jp/news/20240724_news_regulus.html"
+      }
+    ]
   },
   {
     "id": "5140001138779",
@@ -52531,7 +53295,9 @@
     "sources": [
       "https://www.apoplus.co.jp/company/",
       "https://www.apoplus.co.jp/company/outline/",
-      "https://www.apoplus.co.jp/"
+      "https://www.apoplus.co.jp/",
+      "https://www.apoplus.co.jp/company/history/",
+      "https://maonline.jp/news/20121015a"
     ],
     "updatedAt": "2026-10",
     "overview": "1993年10月設立。クオールホールディングス傘下で、製薬企業向けにコントラクトMRの育成・派遣やMR業務の受託、専門領域MRや医療IT・医療機器の営業人材の提供を行うCSO事業と、食品等のヒト臨床試験、医薬品の臨床試験、データ分析、派遣CRAを担うCRO事業の2本柱で展開する。MR認定センターの認定企業で、MR転職サイト「MRプラスドットコム」も運営。2025年11月にクラウドEDCのクリンクラウドを子会社化し、CRO事業を強化している。",
@@ -52599,7 +53365,15 @@
         "https://www.apoplus.co.jp/topics/"
       ],
       "checkedAt": "2026-10"
-    }
+    },
+    "parentNote": "2012年11月にクオール（現クオールホールディングス）が全株式を取得し子会社化",
+    "history": [
+      {
+        "date": "2012-11",
+        "text": "クオールグループに参画（クオールが全株式を取得し子会社化）",
+        "source": "https://www.apoplus.co.jp/company/history/"
+      }
+    ]
   },
   {
     "id": "jp-125",

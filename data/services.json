@@ -7617,7 +7617,8 @@
       "https://newscast.jp/news/488737",
       "https://www.nihon-ma.co.jp/news/20220706_1-470/",
       "https://famione.co.jp/2022/07/08/famione_infographics/",
-      "https://fcheck.famione.com/"
+      "https://fcheck.famione.com/",
+      "https://prtimes.jp/main/html/rd/p/000000148.000014333.html"
     ],
     "updatedAt": "2026-10"
   },
@@ -16137,5 +16138,135 @@
     "themes": [
       "doctor-qa"
     ]
+  },
+  {
+    "id": "b-c1f22b30",
+    "name": "介護事業（入浴特化型デイサービス・居宅介護支援・介護情報ポータル）",
+    "company": "GCストーリー株式会社",
+    "companyId": "2010601041464",
+    "category": "nursing",
+    "description": "入浴特化型デイ「ほっとスマイルSPA木場」や居宅介護支援「ほっとスマイルCare木場」など、江東区を中心とする介護事業",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2026-02",
+    "successor": "アリエ祐起元株式会社（GCグループ）",
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "持株会社体制への移行に伴うグループ内の事業再編（会社分割）",
+    "sources": [
+      "https://gchdgroup.com/news/569/",
+      "https://gchdgroup.com/service/care/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e2bf0c76",
+    "name": "オンラインクリニック",
+    "company": "ポート株式会社",
+    "companyId": "8011001069074",
+    "category": "medical-dx",
+    "description": "病気の知識を提供する医療情報サイト",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-01",
+    "endedAt": "2019-12",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "『複数の非注力事業の清算』の一環として終了（理由の詳細は公表されていない）",
+    "sources": [
+      "https://kitaishihon.com/company/7047/story"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d8a9e853",
+    "name": "HITOTSU Asset",
+    "company": "HITOTSU株式会社",
+    "companyId": "jp-004",
+    "category": "medical-saas",
+    "description": "病院内の医療機器・資産をクラウドで一括管理する祖業のシステム",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2026-04",
+    "successor": "株式会社ウイン・インターナショナル（ウイン・パートナーズの子会社）",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "理由は公表されていない（譲受側は医療現場のデジタル支援強化を目的と説明）",
+    "sources": [
+      "https://www.hitotsu.co.jp/699/",
+      "https://www.nihon-ma.co.jp/news/20251208_3183-15/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5bffae67",
+    "name": "slim",
+    "company": "株式会社ビーヘルシー",
+    "companyId": "jp-045",
+    "category": "fitness",
+    "description": "フィットネス動画メディア",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "譲渡",
+    "startedAt": "2017-08",
+    "endedAt": "2020-04",
+    "successor": "株式会社ケイブ",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "理由は公表されていない",
+    "sources": [
+      "https://behealthy.co.jp/company/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fec998e6",
+    "name": "EarBrain",
+    "company": "株式会社EarBrain",
+    "companyId": "4010601060685",
+    "category": "sleep",
+    "description": "脳波を検知して集中力を高めたり睡眠の質を向上させたりするイヤホン（開発段階で中止）",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "終了",
+    "startedAt": "2022-03",
+    "endedAt": "2023-01",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "技術的課題により開発を中止（公式沿革）",
+    "sources": [
+      "https://mia-cat.com/company/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6601d526",
+    "name": "らく診",
+    "company": "株式会社portera",
+    "companyId": "4130001074695",
+    "category": "telemedicine",
+    "description": "福利厚生向けのオンライン診療サービス",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2025-08",
+    "successor": "株式会社fonfun（東証スタンダード2323）",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "理由は公表されていない",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20250805_2323-14/",
+      "https://raku-shin.net/"
+    ],
+    "updatedAt": "2026-10"
   }
 ]
