@@ -35,6 +35,8 @@ export type Company = {
   products?: string[];
   /** 事業概要（150〜250字）。description は一覧カード用の短い説明 */
   overview?: string;
+  /** 事業転換などでヘルスケアとの関係が薄くなった会社の注記 */
+  scopeNote?: string;
   employeesAsOf?: string;
   totalFunding?: string;
   highlight?: string;
