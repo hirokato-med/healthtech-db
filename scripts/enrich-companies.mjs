@@ -58,7 +58,7 @@ for (const f of files) {
       c.employees = str(x.employees);
       c.employeesAsOf = str(x.employeesAsOf) || asOf;
     }
-    if (Number.isInteger(x.foundedYear) && !c.foundedYear) c.foundedYear = x.foundedYear;
+    if (Number.isInteger(x.foundedYear)) c.foundedYear = x.foundedYear; // 公式サイトで確かめた設立年を優先
     if (list(x.products).length) c.products = [...new Set(list(x.products))];
     if (list(x.founders).length && !c.founders.length) { c.founders = list(x.founders); c.founders.forEach((n) => addRole(n, c, '創業者')); }
     if (list(x.representatives).length) { c.representatives = list(x.representatives); c.representatives.forEach((n) => addRole(n, c, '代表者')); }
