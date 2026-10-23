@@ -5,7 +5,7 @@ import { getCategories, getCompanies } from '@/lib/data';
 export const metadata: Metadata = { title: '企業一覧', description: '国内ヘルスケア・ヘルステック企業の一覧。カテゴリ・上場区分・所在地で絞り込めます。' };
 
 export default function CompaniesPage() {
-  const companies = getCompanies().map(({ id, name, categories, description, prefecture, foundedYear, exit }) => ({ id, name, categories, description, prefecture, foundedYear, exit }));
+  const companies = getCompanies().map(({ id, name, categories, description, prefecture, foundedYear, exit, source }) => ({ id, name, categories, description, prefecture, foundedYear, exit, isNew: source.startsWith('Healthtech DB 編集部調べ') }));
   return (
     <>
       <div className="page-head">

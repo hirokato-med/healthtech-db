@@ -38,6 +38,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           <Chips slugs={c.categories} />
         </div>
         {c.description && <p className="lead">{c.description}</p>}
+        {c.highlight && <p className="co-highlight"><b>注目</b>{c.highlight}</p>}
       </div>
 
       <div className="two-col">
@@ -55,10 +56,23 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                   </article>
                 ))}
               </div>
+            ) : c.products?.length ? (
+              <div className="chips">{c.products.map((n) => <span key={n} className="chip">{n}</span>)}</div>
             ) : (
               <p className="muted small">サービス情報は未登録です。<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報提供フォーム</a>からお知らせください。</p>
             )}
           </section>
+
+          {c.history?.length ? (
+            <section className="panel">
+              <h3>近況</h3>
+              <ul className="co-history">
+                {[...c.history].reverse().map((h) => (
+                  <li key={h.text}><span>{h.date ? h.date.replace(/^(\d{4})-(\d{2}).*/, (_, y, m) => `${y}年${Number(m)}月`) : ''}</span>{h.text}</li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
 
           <section className="panel">
             <h3>関連ニュース</h3>
@@ -93,13 +107,15 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             <h3>企業情報</h3>
             <dl className="kv">
               {c.hp && (<><dt>Webサイト</dt><dd><a href={c.hp} target="_blank" rel="noreferrer">{c.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
-              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : ''}`}>{c.exit}</span></dd>
+              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : ''}`}>{c.exit}</span>{c.listedMarket && <span className="small muted"> {c.listedMarket}</span>}</dd>
+              {c.formerNames?.length ? (<><dt>旧社名</dt><dd>{c.formerNames.join('、')}</dd></>) : null}
               {c.foundedYear && (<><dt>創業</dt><dd>{c.foundedYear}年</dd></>)}
               {c.prefecture && (<><dt>所在地</dt><dd>{c.prefecture}</dd></>)}
               {c.address && (<><dt>本社住所</dt><dd>{c.address}</dd></>)}
               {c.employees && (<><dt>従業員数</dt><dd>{c.employees}人</dd></>)}
               {c.founders.length > 0 && (<><dt>創業者</dt><dd>{c.founders.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.representatives.length > 0 && (<><dt>代表者</dt><dd>{c.representatives.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
+              {c.origin && (<><dt>成り立ち</dt><dd>{c.origin}</dd></>)}
               {c.parentCompany && (<><dt>親会社</dt><dd>{parent ? <Link href={`/companies/${parent.id}/`}>{c.parentCompany}</Link> : c.parentCompany}</dd></>)}
               {c.relatedCompanies.length > 0 && (<><dt>関連会社</dt><dd>{c.relatedCompanies.map((n, i) => { const r = findCompanyByName(n); return (<span key={n}>{i > 0 && '、'}{r && r.id !== c.id ? <Link href={`/companies/${r.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.corporateNumber && (<><dt>法人番号</dt><dd className="mono"><a href={c.corporateNumberUrl || `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=${c.corporateNumber}`} target="_blank" rel="noreferrer">{c.corporateNumber}</a></dd></>)}
@@ -107,7 +123,14 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           </section>
           <section className="notice">
             掲載情報に誤りや更新がある場合は、<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正を依頼する</a>からお知らせください。
-            <div className="muted small" style={{ marginTop: 6 }}>出典: {c.source}</div>
+            <div className="muted small" style={{ marginTop: 6 }}>
+              出典: {c.source}{c.updatedAt && c.source.indexOf(c.updatedAt) < 0 ? `／${c.updatedAt.replace('-', '年')}月 編集部確認` : ''}
+              {c.sources?.length ? (
+                <ul className="co-src">
+                  {c.sources.slice(0, 5).map((u) => <li key={u}><a href={u} target="_blank" rel="noreferrer">{u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 48)}</a></li>)}
+                </ul>
+              ) : null}
+            </div>
           </section>
         </aside>
       </div>

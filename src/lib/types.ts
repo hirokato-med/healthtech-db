@@ -25,6 +25,16 @@ export type Company = {
   corporateNumberUrl: string;
   region: 'JP';
   source: string;
+  /** 2026年以降に編集部が追加・確認した項目 */
+  listedMarket?: string;
+  /** 合弁・子会社として生まれた会社の成り立ち（例: DeNAと住友商事のJV） */
+  origin?: string;
+  formerNames?: string[];
+  products?: string[];
+  highlight?: string;
+  history?: { date: string; text: string }[];
+  sources?: string[];
+  updatedAt?: string;
 };
 
 export type Overseas = {

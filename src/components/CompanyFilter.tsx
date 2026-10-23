@@ -3,25 +3,29 @@ import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import type { Category, Company } from '@/lib/types';
 
-type Lite = Pick<Company, 'id' | 'name' | 'categories' | 'description' | 'prefecture' | 'foundedYear' | 'exit'>;
+type Lite = Pick<Company, 'id' | 'name' | 'categories' | 'description' | 'prefecture' | 'foundedYear' | 'exit'> & { isNew?: boolean };
 
 export function CompanyFilter({ companies, categories, initialCategory = '' }: { companies: Lite[]; categories: Category[]; initialCategory?: string }) {
   const [q, setQ] = useState('');
   const [cat, setCat] = useState(initialCategory);
   const [exit, setExit] = useState('');
   const [pref, setPref] = useState('');
+  const [sort, setSort] = useState('');
   const prefs = useMemo(() => [...new Set(companies.map((c) => c.prefecture).filter(Boolean))].sort(), [companies]);
   const catName = useMemo(() => Object.fromEntries(categories.map((c) => [c.slug, c])), [categories]);
   const hit = useMemo(() => {
     const n = q.trim().toLowerCase();
-    return companies.filter(
+    const list = companies.filter(
       (c) =>
         (!cat || c.categories.includes(cat)) &&
         (!exit || c.exit === exit) &&
         (!pref || c.prefecture === pref) &&
         (!n || c.name.toLowerCase().includes(n) || c.description.toLowerCase().includes(n)),
     );
-  }, [companies, q, cat, exit, pref]);
+    if (sort === 'founded') return [...list].sort((a, b) => (b.foundedYear ?? 0) - (a.foundedYear ?? 0));
+    if (sort === 'new') return [...list].sort((a, b) => Number(!!b.isNew) - Number(!!a.isNew));
+    return list;
+  }, [companies, q, cat, exit, pref, sort]);
 
   return (
     <>
@@ -51,6 +55,11 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
             <option key={p}>{p}</option>
           ))}
         </select>
+        <select value={sort} onChange={(e) => setSort(e.target.value)} aria-label="並び順">
+          <option value="">掲載順</option>
+          <option value="new">新しく追加した企業</option>
+          <option value="founded">創業が新しい順</option>
+        </select>
         <span className="count">{hit.length} 社</span>
       </div>
       <div className="grid">
@@ -59,6 +68,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
             <Link href={`/companies/${c.id}/`} className="title">
               {c.name}
             </Link>
+            {c.isNew && <span className="badge new">NEW</span>}
             <div className="chips">
               {c.categories.map((s) => (
                 <Link key={s} href={`/categories/${s}/`} className={`chip ${catName[s]?.group ?? ''}`}>

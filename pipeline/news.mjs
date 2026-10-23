@@ -16,7 +16,7 @@ import { fetchText } from './lib/fetch-text.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FILE = path.join(ROOT, 'data', 'news.json');
-const words = process.argv.slice(2).length ? process.argv.slice(2) : ['医療', 'ヘルスケア', 'ヘルステック'];
+const words = process.argv.slice(2).length ? process.argv.slice(2) : ['医療', 'ヘルスケア', 'ヘルステック', '医療 資金調達', 'ヘルスケア 資金調達', '医療 スタートアップ'];
 const companies = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'companies.json'), 'utf8'));
 const existing = fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE, 'utf8')) : [];
 const byUrl = new Map(existing.map((n) => [n.url, n]));
