@@ -81,6 +81,7 @@ export const END_REASONS: Record<string, { label: string; note: string }> = {
   acquisition: { label: '買収・統合', note: '他社に買収・統合され、事業は別の形で続いている' },
   competition: { label: '競合・大手の参入', note: '競合や大手の参入で、事業が成り立たなくなった' },
   team: { label: '体制の問題', note: '創業者の離脱など、体制の問題（本人が公表したもの）' },
+  infrastructure: { label: '通信・部品の終了', note: '3G停波やセンサー・部品の生産終了など、事業が依存していた基盤がなくなった' },
   unknown: { label: '理由は非公表', note: '止まった理由は公表されていない' },
 };
 export const STOPPED = ['終了', '譲渡', '統合', '休止'];

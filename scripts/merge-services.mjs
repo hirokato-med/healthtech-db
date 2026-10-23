@@ -26,7 +26,7 @@ for (let i = 0; i < args.length; i++) (args[i] === '--as-of' ? (asOf = args[++i]
 const services = JSON.parse(fs.readFileSync(P('services.json'), 'utf8'));
 const companies = JSON.parse(fs.readFileSync(P('companies.json'), 'utf8'));
 const cats = new Set(JSON.parse(fs.readFileSync(P('categories.json'), 'utf8')).map((c) => c.slug));
-const REASONS = new Set(['regulation', 'reimbursement', 'no-payer', 'workflow', 'evidence', 'funding', 'parent-strategy', 'acquisition', 'competition', 'team', 'unknown']);
+const REASONS = new Set(['regulation', 'reimbursement', 'no-payer', 'workflow', 'evidence', 'funding', 'parent-strategy', 'acquisition', 'competition', 'team', 'infrastructure', 'unknown']);
 const STATUS = new Set(['提供中', '終了', '譲渡', '統合', '休止', '不明']);
 const norm = (s = '') => s.normalize('NFKC').replace(/株式会社|合同会社|[\s「」『』（）()・]/g, '').toLowerCase();
 const key = (company, name) => `${norm(company)}|${norm(name)}`;

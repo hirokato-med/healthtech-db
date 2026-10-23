@@ -24,10 +24,57 @@
     "name": "curon（クロン）",
     "company": "MICIN",
     "category": "telemedicine",
-    "description": "オンライン診療・オンライン服薬指導サービス。2016年にサービス開始。薬局向けの「curon お薬サポート」も展開。",
-    "hp": "https://curon.co/",
+    "description": "医療機関から初期費用・月額費用をとらず、患者が1回ごとにシステム利用料を払うモデルのオンライン診療サービス。予約・問診・ビデオ診察・決済・処方箋送付を扱い、通信会社やケーブルテレビ、保険会社のサービスの基盤にもなっている。",
+    "hp": "",
     "startedYear": 2016,
-    "status": "提供中"
+    "status": "提供中",
+    "companyId": "1490001008208",
+    "startedAt": "2016",
+    "milestones": [
+      {
+        "date": "2015",
+        "text": "前身の株式会社情報医療を創業"
+      },
+      {
+        "date": "2016",
+        "text": "オンライン診療サービス「curon」を開始"
+      },
+      {
+        "date": "2018-07",
+        "text": "社名をMICINに変更"
+      },
+      {
+        "date": "2021-06",
+        "text": "KDDI「auウェルネス」のオンライン診療（curon for KDDI）の基盤に"
+      },
+      {
+        "date": "2021-07",
+        "text": "J:COMのテレビ向け「J:COM オンライン診療」の基盤に"
+      },
+      {
+        "date": "2023-01",
+        "text": "「curonお薬サポート」がJ:COMのおくすり受け取りサービスと連携（トモズ168店舗が参加）"
+      },
+      {
+        "date": "2024-03",
+        "text": "導入医療機関は全国約6,000カ所（取材記事）"
+      },
+      {
+        "date": "2026-03",
+        "text": "日本生命の「治療サポート保険“ぴたほ”」の付帯サービスに採用"
+      }
+    ],
+    "sources": [
+      "https://sogyotecho.jp/micin-hara-interview/",
+      "https://www.businessinsider.jp/article/251358/",
+      "https://www.watch.impress.co.jp/docs/news/1334731.html",
+      "https://av.watch.impress.co.jp/docs/news/1328179.html",
+      "https://tomods.jp/news_release/2023_01_10_2408"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
   },
   {
     "id": "ubie-ai-monshin",
@@ -132,12 +179,41 @@
   {
     "id": "smaluna",
     "name": "スマルナ",
-    "company": "ネクイノ",
-    "category": "telemedicine",
-    "description": "オンライン診療でピルを処方・配送するアプリ。2018年にサービス開始。",
-    "hp": "https://smaluna.com/",
+    "company": "株式会社ネクイノ",
+    "category": "femtech",
+    "description": "低用量ピルなど婦人科領域のオンライン診察アプリ。提携医療機関の医師が診察し薬を配送する。薬剤師・助産師の相談室、企業向け福利厚生版「スマルナ for Biz」も展開。",
+    "hp": "",
     "startedYear": 2018,
-    "status": "提供中"
+    "status": "提供中",
+    "companyId": "5120001198841",
+    "startedAt": "2018-06",
+    "milestones": [
+      {
+        "date": "2018-06",
+        "text": "リリース"
+      },
+      {
+        "date": "2019-09",
+        "text": "ジャフコ系ファンドをリードとする第三者割当増資"
+      },
+      {
+        "date": "2020-12",
+        "text": "新型コロナ下でジャフコなどから大型の資金調達（約20億円と報道）"
+      },
+      {
+        "date": "2020-12",
+        "text": "リリースから約2年半で累計39万ダウンロード超"
+      }
+    ],
+    "sources": [
+      "https://newswitch.jp/p/21824",
+      "https://thebridge.jp/2020/12/next-innovation-raised-2b-yen-from-jafco",
+      "https://www.kansai.meti.go.jp/3-3shinki/Startup/asset2025/files/startup-kansai-report/50nexinno.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
   },
   {
     "id": "oh-my-teeth",
@@ -1857,5 +1933,3745 @@
       "https://www.nihon-ma.co.jp/news/20240919_9438-10/"
     ],
     "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fbffb5aa",
+    "name": "ポートメディカル",
+    "company": "ポート株式会社",
+    "companyId": "8011001069074",
+    "category": "telemedicine",
+    "description": "高血圧・高尿酸血症・脂質異常症など慢性疾患を対象に、選考した提携医療機関の医師がスマホで遠隔診療し、薬を自宅へ届ける患者向けオンライン診療プラットフォーム。就活メディア運営のポートが新規事業として運営。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "不明",
+    "startedAt": "2015-11",
+    "milestones": [
+      {
+        "date": "2015-11",
+        "text": "α版を公開。約10カテゴリーの慢性疾患から開始し、CEOは「遠隔で実際に診察するサービスは国内初」とし2016年3月中に利用者10万人を目指すと発言"
+      },
+      {
+        "date": "2016-02",
+        "text": "Eight Roads Ventures Japan、三菱UFJキャピタル、グローバル・ブレインから総額9億円を調達（α版で約200人の診療実績、4月の正式オープンを予定）"
+      },
+      {
+        "date": "2016-06",
+        "text": "宮崎県日南市と、無医地区での遠隔診療の有効性を検証する協定を締結（市立中央病院にシステム提供）"
+      },
+      {
+        "date": "2016-09",
+        "text": "東京女子医科大学と、ネットワーク血圧計を使う都市型の高血圧遠隔診療の実証研究を開始（〜2019年3月）"
+      },
+      {
+        "date": "2018-12",
+        "text": "ポートが東証マザーズに上場。有価証券報告書では「新規事業」としてオンライン診療プラットフォーム「ポートメディカル」を記載し続ける"
+      },
+      {
+        "date": "2019-05",
+        "text": "オムロン ヘルスケア、一般社団法人テレメディーズと業務提携。高血圧オンライン診療支援「テレメディーズBP」でオンライン診療基盤の提供と集客を担当"
+      },
+      {
+        "date": "2019-12",
+        "text": "医療情報サイト「オンラインクリニック」と遠隔健康支援「ドクターズダイエット」を非注力事業として終了（ポートメディカル自体の終了は記載なし）"
+      },
+      {
+        "date": "2024-06",
+        "text": "2024年3月期の有価証券報告書まで「オンライン診療プラットフォーム『ポートメディカル』」の記載が続く。2025年3月期の有報本文（edinetdb掲載分）では記載が見当たらない"
+      },
+      {
+        "date": "2026-10",
+        "text": "サービスドメイン（port-medical.jp）は名前解決できない状態。Wayback Machineの最終保存は2026年2月（旧ドメインportmedical.jpは2017年9月が最終）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "サービス終了・休止の告知は見つからない。確認できるのは、有価証券報告書の記載が2024年3月期まで続き2025年3月期の本文から消えていること、ドメインが2026年10月時点で解決できないことのみ。理由は公表されていない。",
+    "lessons": "2015年の事務連絡の3カ月後に患者向けで参入した最初期の事例。2019年以降は大手機器メーカーとの共同事業で基盤役に回っており、単独の患者集客型事業としては規模が出なかったとみられる。",
+    "sources": [
+      "https://thebridge.jp/2015/11/port-medical",
+      "https://thebridge.jp/2016/02/port-fund-raising",
+      "https://thebridge.jp/2016/06/port-medical-alliance-with-city-in-miyazaki-prefecture",
+      "https://monoist.itmedia.co.jp/mn/articles/1609/07/news043.html",
+      "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100J2W0.pdf",
+      "https://edinetdb.jp/company/E34537/history",
+      "https://edinetdb.jp/company/E34537/text?fy=2024",
+      "https://edinetdb.jp/company/E34537/text?fy=2025",
+      "https://monoist.itmedia.co.jp/mn/articles/1905/31/news046.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-0fb08b44",
+    "name": "first call",
+    "company": "株式会社Mediplat",
+    "companyId": "3010001171984",
+    "category": "health-consulting",
+    "description": "医師にチャットやテレビ電話で健康・医療相談できるサービス。当初は個人向け（15分1,980円）で始まり、その後は企業の産業保健・健康管理向けクラウドサービスとして、通信会社や企業経由で提供。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "譲渡",
+    "startedAt": "2016-02",
+    "endedAt": "2024-09",
+    "successor": "アドバンテッジリスクマネジメント（ARM）が新設した完全子会社が承継。現在の公式サイトの運営会社表示は株式会社Mediplat（ARM 100%）",
+    "milestones": [
+      {
+        "date": "2015-11",
+        "text": "株式会社Mediplat設立"
+      },
+      {
+        "date": "2016-02",
+        "text": "α版を開始（当初は花粉症に特化、テレビ電話相談15分1,980円）"
+      },
+      {
+        "date": "2016-06",
+        "text": "メドピアの完全子会社となり、同社の医師会員ネットワーク（10万人超）を医師獲得に活用"
+      },
+      {
+        "date": "2018-05",
+        "text": "NTTドコモ「dヘルスケア」有料会員向けにfirst callの医師相談を提供開始"
+      },
+      {
+        "date": "2018-11",
+        "text": "スギ薬局とMediplatの共同事業としてセルフケアアプリ「スギサポ」を提供"
+      },
+      {
+        "date": "2020-03",
+        "text": "経済産業省の新型コロナ対策「健康相談窓口」に選定され、医師相談を無料提供"
+      },
+      {
+        "date": "2021-04",
+        "text": "ドコモの「dヘルスケア（500円）」終了に伴い、dヘルスケア経由のテレビ電話相談が終了"
+      },
+      {
+        "date": "2024-08",
+        "text": "メドピアが予防医療プラットフォーム事業からの撤退を発表。Mediplatとフィッツプラスの全事業をARMの新設子会社へ吸収分割で承継（効力発生 2024年9月30日予定）"
+      },
+      {
+        "date": "2025-04",
+        "text": "旧Mediplat（法人番号3010001171984）が清算結了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "acquisition"
+    ],
+    "endReasonNote": "メドピアは2027年9月期までを「プラットフォーム強化期」とし、医師・医療機関支援プラットフォームに投資を集中する方針。そのうえで「メドピアグループ内では、両社の事業が持つ成長可能性を短期的に最大限発揮させることが困難」として、健康経営の顧客基盤を持つARMへ承継させた。サービス自体は継続。",
+    "lessons": "個人課金の遠隔相談から始まり、通信キャリアの会員特典、企業の産業保健へと払い手を変えながら続いた。最終的に健康経営の顧客を持つ会社に移っており、払い手を見つけた先に事業が移った例とみられる。",
+    "sources": [
+      "https://thebridge.jp/2016/06/first-call",
+      "https://k-tai.watch.impress.co.jp/docs/news/1121741.html",
+      "https://www.yakuji.co.jp/?p=68592",
+      "https://thebridge.jp/2020/03/first-call-line-healthcare-selected-by-meti-as-offering-health-consultatoin-desk",
+      "https://www.docomo.ne.jp/info/news_release/2020/08/04_02.html",
+      "https://www.nihon-ma.co.jp/news/20240802_6095-10/",
+      "https://www.firstcall.md/Home/About",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001171984"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-cc9ae84b",
+    "name": "dヘルスケア 有料会員向け医師相談（first call連携）",
+    "company": "NTTドコモ（Mediplatと提携）",
+    "category": "health-consulting",
+    "description": "ドコモの健康アプリ「dヘルスケア」の月額500円（税別）有料会員に、Mediplatの「first call」で内科・小児科など12科目の医師へのチャット・テレビ電話相談を付けた、通信キャリアとベンチャーの提携。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "統合",
+    "startedAt": "2018-05",
+    "endedAt": "2021-04",
+    "successor": "dヘルスケア（300円）に統合（チャット相談のみ継続、テレビ電話相談は対象外）",
+    "milestones": [
+      {
+        "date": "2018-05",
+        "text": "first callの提供を5月1日に開始。無料版dヘルスケアアプリは5月15日開始"
+      },
+      {
+        "date": "2020-04",
+        "text": "新型コロナ対応で、有料会員向けのオンライン健康相談を期間限定で無償化"
+      },
+      {
+        "date": "2020-08",
+        "text": "「dヘルスケア（500円）」を「dヘルスケア（300円）」に統合すると発表。新規受付は8月31日で停止"
+      },
+      {
+        "date": "2021-04",
+        "text": "4月30日に「dヘルスケア（500円）」を終了。医師・管理栄養士へのテレビ電話相談は利用できなくなった"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "ドコモは統合の目的を「ひとつのアプリで健康状態を管理でき、アドバイスや健康相談が受けられるようヘルスケアのサービスを強化」と説明。500円プランやテレビ電話相談をやめる理由そのものは公表されていない。",
+    "lessons": "通信キャリアの有料会員特典として医師相談を載せても、料金プランの整理で真っ先に削られる位置にあったとみられる。",
+    "sources": [
+      "https://k-tai.watch.impress.co.jp/docs/news/1121741.html",
+      "https://www.watch.impress.co.jp/docs/news/1248905.html",
+      "https://www.docomo.ne.jp/info/news_release/2020/08/04_02.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-eba6ef21",
+    "name": "MediTel（メディテル）",
+    "company": "NTTドコモ（新規事業創出プログラム「39works」）／テックファーム株式会社",
+    "category": "telemedicine",
+    "description": "ドコモが複数病院での実証をもとに開発し、テックファームが医療機関向けに販売・運用したオンライン診療システム。患者アプリで予約・ビデオ診察・カード決済・健康データ記録、医師はブラウザで診察。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-11",
+    "endedAt": "2020-03",
+    "milestones": [
+      {
+        "date": "2017-01",
+        "text": "ドコモが複数の病院で8カ月間の実証実験を開始"
+      },
+      {
+        "date": "2017-10",
+        "text": "39worksの枠組みで、テックファームから2017年11月下旬に医療機関向け提供開始と発表。2018年4月からの診療報酬上の評価に期待を示す"
+      },
+      {
+        "date": "2018-04",
+        "text": "オンライン診療料が新設されるが、算定には対面診療の継続など厳しい要件が付く"
+      },
+      {
+        "date": "2018-11",
+        "text": "ドコモがシステム導入費・月額利用費を無料にすると発表"
+      },
+      {
+        "date": "2020-03",
+        "text": "3月31日、ドコモがオンライン診療のシステムサービスから撤退（日本経済新聞 2020年6月10日）"
+      }
+    ],
+    "endReasons": [
+      "regulation",
+      "reimbursement",
+      "no-payer"
+    ],
+    "endReasonNote": "日本経済新聞は、ドコモが2018年に参入したオンライン診療のシステムサービスから2020年3月31日に撤退したと報じた。公的保険の適用対象になった一方で厚生労働省が対面診療の維持など厳しい条件をつけ、医師の利用が広がらず、ドコモは「採算にあわないと判断した」とされる。記事の閲覧範囲にサービス名の明記はなく、MediTelを指すと判断した。",
+    "lessons": "保険点数の新設を当て込んで医療機関向けに有償で売り出し、要件が厳しく使われないまま無料化、撤退した。撤退の10日後に0410対応（初診を含む電話・オンライン診療の時限的容認）が始まっており、制度の変化と事業の継続期間がかみ合わなかった例とみられる。",
+    "sources": [
+      "https://www.atpress.ne.jp/news/141799",
+      "https://cas.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+      "https://cas.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
+      "https://www.nikkei.com/article/DGKKZO60169590Z00C20A6MM8000/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-27c2b649",
+    "name": "ポケットドクター（オンライン診療ポケットドクター）",
+    "company": "株式会社オプティム",
+    "companyId": "4300001001392",
+    "category": "telemedicine",
+    "description": "スマホ・タブレットやPCで予約、ビデオ診察、オンライン決済、薬・処方箋の配送支援を行う医療機関向けオンライン診療サービス。血圧計など機器の健康データ連携が特徴。MRTの医師ネットワークとオプティムの技術を組み合わせた。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-04",
+    "milestones": [
+      {
+        "date": "2016-02",
+        "text": "両社が「国内初」のスマホ・タブレット遠隔診療サービスとして発表。全国1,340医療機関の賛同を得て4月開始と告知"
+      },
+      {
+        "date": "2016-04",
+        "text": "熊本地震を受け「ポケットドクター for 震災支援版」で医師による遠隔健康相談を無償提供"
+      },
+      {
+        "date": "2017-04",
+        "text": "「かかりつけ医診療」を刷新し「遠隔診療ポケットドクター」として医療機関向けに有償提供。予約・決済・配送支援・管理画面を追加"
+      },
+      {
+        "date": "2018-10",
+        "text": "PCでのビデオ通話（β）を追加し、名称を「オンライン診療ポケットドクター」に変更"
+      },
+      {
+        "date": "2026-10",
+        "text": "公式サイトは提供中の表示（導入医療機関のみで利用可能）"
+      }
+    ],
+    "sources": [
+      "https://www.optim.co.jp/wp-content/uploads/2016/02/20160204_pocketdoctor.pdf",
+      "https://www.optim.co.jp/wp-content/uploads/2016/04/20160419_pocketdoctor.pdf",
+      "https://www.optim.co.jp/wp-content/uploads/20170427_pocketdoctor.pdf",
+      "https://www.optim.co.jp/wp-content/uploads/20181003_pocketdoctor.pdf",
+      "https://www.pocketdoctor.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-f3787557",
+    "name": "CLINICS（CLINICSオンライン診療／患者アプリはmelmoに改称）",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "telemedicine",
+    "description": "医療機関向けオンライン診療システムと患者アプリ。予約・問診・ビデオ診察・決済から処方箋・薬の受け取りまでを扱い、のちに同社の電子カルテや薬局向けシステムと連携する医療プラットフォームの一部になった。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-02",
+    "milestones": [
+      {
+        "date": "2016-02",
+        "text": "「CLINICSオンライン診療」提供開始（2015年8月の事務連絡を受けて設計に着手したと同社が説明）"
+      },
+      {
+        "date": "2018-04",
+        "text": "クラウド型電子カルテ「CLINICSカルテ」提供開始"
+      },
+      {
+        "date": "2020-09",
+        "text": "調剤薬局窓口支援システム「Pharms」提供開始"
+      },
+      {
+        "date": "2021-04",
+        "text": "NTTドコモと資本業務提携（ドコモがメドレー株93万3100株を取得）"
+      },
+      {
+        "date": "2021-10",
+        "text": "ドコモと共同でオンライン薬局のミナカラを買収（ドコモ85.1%、メドレー14.9%）"
+      },
+      {
+        "date": "2021-12",
+        "text": "患者アプリ「CLINICS」をドコモと共同運営開始（dアカウント連携）"
+      },
+      {
+        "date": "2023-09",
+        "text": "ドコモの電子お薬手帳「おくすり手帳Link」が終了し、患者向け機能はCLINICSアプリに統合"
+      },
+      {
+        "date": "2024-02",
+        "text": "ドコモとの提携見直しに合意。共同運営は2024年12月末で終了、ミナカラ株式はドコモへ譲渡"
+      },
+      {
+        "date": "2025-11",
+        "text": "患者向けアプリ「CLINICS」を「melmo」にリニューアル"
+      }
+    ],
+    "sources": [
+      "https://edinetdb.jp/company/E33586/history",
+      "https://digitalpr.jp/r/72978",
+      "https://www.medley.jp/.assets/20190913_WIRED_PDF.pdf",
+      "https://www.docomo.ne.jp/info/news_release/2021/04/26_00.html",
+      "https://www.docomo.ne.jp/info/news_release/2022/08/01_00.html",
+      "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-a2207026",
+    "name": "CLINICS（NTTドコモ・メドレー共同運営）",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "telemedicine",
+    "description": "メドレーのオンライン診療・服薬指導アプリ「CLINICS」を、資本業務提携したドコモと共同運営。dアカウントでの登録・ログインやdポイントを使い、通信キャリアの顧客基盤から患者を呼び込む狙いだった。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "終了",
+    "startedAt": "2021-12",
+    "endedAt": "2024-12",
+    "successor": "メドレーの単独運営に戻る（dアカウント認証・dポイント連携は継続）",
+    "milestones": [
+      {
+        "date": "2021-04",
+        "text": "ドコモとメドレーが資本業務提携。目的は「オンライン診療の適切な普及の加速、ユーザー向け新サービスの展開」"
+      },
+      {
+        "date": "2021-10",
+        "text": "両社でミナカラの全株式を取得"
+      },
+      {
+        "date": "2021-12",
+        "text": "CLINICSアプリの共同運営を開始、dアカウント連携に対応"
+      },
+      {
+        "date": "2022-04",
+        "text": "表示灯の「オンライン診療検索ナビ」に、両社共同運営のCLINICSを使える医療機関の情報が掲載される"
+      },
+      {
+        "date": "2022-08",
+        "text": "ドコモの電子お薬手帳「おくすり手帳Link」をCLINICSに統合すると発表（2023年9月30日終了）"
+      },
+      {
+        "date": "2024-02",
+        "text": "資本・業務提携の見直しに合意。CLINICSの共同運営を2024年12月末日に終了、ドコモはミナカラをメドレーから追加取得して完全子会社化"
+      },
+      {
+        "date": "2024-12",
+        "text": "共同運営終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "共同運営を終える理由は公表されていない。ドコモはミナカラ完全子会社化の理由を「『dヘルスケア』『健康マイレージ』などの健康増進アプリとの一体運用を強化させるため」と説明している。",
+    "lessons": "通信キャリアは2018年（自社システム）、2021年（共同運営）と形を変えて参入し、最後は自社グループの薬局・健康アプリ側に寄せた。キャリアの会員基盤だけではオンライン診療の利用は広がりにくかったとみられる。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2021/04/26_00.html",
+      "https://www.docomo.ne.jp/info/news_release/2021/10/22_00.html",
+      "https://www.sbbit.jp/article/refers/76258",
+      "https://kyodonewsprwire.jp/prwfile/release/M102185/202204089764/_prw_PR1fl_RNgADtu7.pdf",
+      "https://www.docomo.ne.jp/info/news_release/2022/08/01_00.html",
+      "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-db7cf733",
+    "name": "ミナカラ オンライン診療（ミナカラe-クリニック）",
+    "company": "株式会社ミナカラ",
+    "companyId": "1011101068461",
+    "category": "telemedicine",
+    "description": "オンライン薬局「ミナカラ薬局」を運営するミナカラが、予約・診療・服薬指導・支払い・薬の配送までを同じプラットフォームで手配するオンライン診療サービス。ドコモの健康アプリやd払いと連携。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-12",
+    "milestones": [
+      {
+        "date": "2021-10",
+        "text": "ドコモ（85.1%）とメドレー（14.9%）が全株式を取得"
+      },
+      {
+        "date": "2024-02",
+        "text": "ドコモがメドレー保有分を取得し完全子会社化（dヘルスケア等との一体運用強化）"
+      },
+      {
+        "date": "2024-12",
+        "text": "オンライン診療から薬の配送まで一貫して手配する「ミナカラe-クリニック」が本格始動"
+      },
+      {
+        "date": "2025-12",
+        "text": "「ミナカラ オンライン診療」等でd払いが利用可能に"
+      },
+      {
+        "date": "2026-07",
+        "text": "ドコモとNTTプレシジョンメディシンが吸収分割契約を締結。dヘルスケア事業とミナカラ株式を移管し、2026年10月1日付でミナカラはNTTプレシジョンメディシンの完全子会社に（予定）"
+      }
+    ],
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2021/10/22_00.html",
+      "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html",
+      "https://www.logi-today.com/695930",
+      "https://dxmagazine.jp/?p=216059"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-118920b7",
+    "name": "curon for KDDI（auウェルネスのオンライン診療）",
+    "company": "KDDI株式会社（MICINと協業）",
+    "category": "telemedicine",
+    "description": "KDDIのヘルスケアアプリ「auウェルネス」の機能として、MICINのcuronを使ったオンライン診療と、薬局のオンライン服薬指導を提供。診療1回330円のシステム利用料。プレミアム会員向けに健康電話相談も。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-06",
+    "milestones": [
+      {
+        "date": "2021-06",
+        "text": "auウェルネスでオンライン診療を開始（システム利用料1回330円、診察代は別）"
+      },
+      {
+        "date": "2021-09",
+        "text": "ホワイトヘルスケア・MICINのシステムを導入した薬局によるオンライン服薬指導を追加"
+      },
+      {
+        "date": "2024-04",
+        "text": "auウェルネスの会員が100万人を突破。オンライン診療は「curon for KDDI」で提供と説明"
+      }
+    ],
+    "sources": [
+      "https://www.watch.impress.co.jp/docs/news/1334731.html",
+      "https://www.au.com/information/topic/content/2024-005/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-8ad0dfe4",
+    "name": "J:COM オンライン診療",
+    "company": "JCOM株式会社（ジュピターテレコム）（MICINのcuronを利用）",
+    "category": "telemedicine",
+    "description": "ケーブルテレビのセットトップボックスとWebカメラで、テレビ画面からcuron経由のオンライン診療を受けられるシニア向けサービス。設置や操作はJ:COMスタッフが訪問・電話で支援。のちにスマホにも対応。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-07",
+    "milestones": [
+      {
+        "date": "2021-05",
+        "text": "発表。診療・服薬指導1回300円、J:COM TV未加入者は端末月額480円、Webカメラ6,980円"
+      },
+      {
+        "date": "2021-07",
+        "text": "東京都杉並区・練馬区など、埼玉・千葉の一部エリアで提供開始"
+      },
+      {
+        "date": "2023-01",
+        "text": "MICIN「curonお薬サポート」と連携した「おくすり受け取りサービス」開始（トモズ168店舗）"
+      },
+      {
+        "date": "2023-11",
+        "text": "スマホアプリ「MY J:COM」でも利用可能に"
+      },
+      {
+        "date": "2026-02",
+        "text": "日本調剤の全国店舗との連携を開始"
+      },
+      {
+        "date": "2026-06",
+        "text": "テレビでの利用に必要なWebカメラの提供と「オンライン診療立会いサポート」の新規受付を2026年6月30日で終了すると告知（スマホでの利用は継続）"
+      }
+    ],
+    "endReasonNote": "テレビ利用向けのWebカメラ提供・立会いサポートの新規受付終了について、理由は公表されていない。",
+    "sources": [
+      "https://av.watch.impress.co.jp/docs/news/1328179.html",
+      "https://tomods.jp/news_release/2023_01_10_2408",
+      "https://notices.jcom.co.jp/notice/95097.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-953f857f",
+    "name": "YaDoc（ヤードック）",
+    "company": "株式会社インテグリティ・ヘルスケア",
+    "companyId": "3010001128547",
+    "category": "telemedicine",
+    "description": "かかりつけ医向けのオンライン診療・疾患管理システム。オンライン問診、自宅での血圧などのモニタリング、ビデオ診察を組み合わせ、診察の合間の患者の状態把握を支援する。医療機関が利用料を払う。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-01",
+    "milestones": [
+      {
+        "date": "2018-01",
+        "text": "提供開始（福岡市とのワーキンググループで試行運用を経て）"
+      },
+      {
+        "date": "2018-04",
+        "text": "日医標準レセプトソフト クラウド版との連携を発表"
+      },
+      {
+        "date": "2018-04",
+        "text": "住友商事（5億円）を含む事業会社3社から総額7.5億円を調達"
+      },
+      {
+        "date": "2026",
+        "text": "公式サイトで「4,000を超える臨床現場・研究機関で活用」と表示。簡易版「YaDoc Quick」も提供"
+      }
+    ],
+    "sources": [
+      "https://www.sumitomocorp.com/ja/jp/news/release/2018/group/10080",
+      "https://www.value-press.com/pressrelease/195361",
+      "https://www.value-press.com/pressrelease/199252",
+      "https://www.yadoc.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-dddd350f",
+    "name": "LINEヘルスケア（オンライン健康相談）",
+    "company": "LINEヘルスケア株式会社",
+    "companyId": "8011101086498",
+    "category": "health-consulting",
+    "description": "LINE上で医師にチャットで健康相談できるサービス。即時相談30分2,000円、後日回答1,000円。LINEの利用者基盤とエムスリーの医師会員を組み合わせる合弁会社が運営した。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "終了",
+    "startedAt": "2019-12",
+    "endedAt": "2023-02",
+    "successor": "同社のオンライン診療「LINEドクター」に注力",
+    "milestones": [
+      {
+        "date": "2019-01",
+        "text": "LINEとエムスリーがオンライン医療事業の合弁会社「LINEヘルスケア」を設立（LINE 51%、エムスリー 49%）。医療Q&A、遠隔健康医療相談、オンライン診療を計画"
+      },
+      {
+        "date": "2019-12",
+        "text": "「LINE ヘルスケア（β版）」を開始（Android先行、内科・小児科・産婦人科・整形外科・皮膚科）"
+      },
+      {
+        "date": "2020-03",
+        "text": "経済産業省の新型コロナ対策「健康相談窓口」事業として、3月11〜31日に無料提供"
+      },
+      {
+        "date": "2022-12",
+        "text": "オンライン健康相談の終了を発表"
+      },
+      {
+        "date": "2023-01",
+        "text": "1月19日に新規相談の受付を停止"
+      },
+      {
+        "date": "2023-02",
+        "text": "2月2日にサービス終了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "同社は「今後は、オンライン診療サービス『LINEドクター』に集中し、強化していく」と説明。相談件数などの実績は公表していない。",
+    "lessons": "医師相談を入口にオンライン診療へつなげる設計だったが、相談そのものの有料利用は事業の柱にならず、診療側に資源を寄せたとみられる。",
+    "sources": [
+      "https://www.watch.impress.co.jp/docs/news/1163592.html",
+      "https://www.watch.impress.co.jp/docs/news/1225581.html",
+      "https://thebridge.jp/2020/03/first-call-line-healthcare-selected-by-meti-as-offering-health-consultatoin-desk",
+      "https://www.watch.impress.co.jp/docs/news/1462390.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-9499a8e9",
+    "name": "LINEドクター",
+    "company": "LINEヘルスケア株式会社",
+    "companyId": "8011101086498",
+    "category": "telemedicine",
+    "description": "LINEアプリ上でクリニックの検索・予約から問診、ビデオ診察、決済まで完結するオンライン診療サービス。医療機関に導入してもらい、患者は普段使いのLINEのまま受診できる。疾患啓発アカウントも運営した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-12",
+    "endedAt": "2025-06",
+    "successor": "利用者はソフトバンクグループのヘルスケアテクノロジーズ「HELPOドクター」のLINE公式アカウントへ案内",
+    "milestones": [
+      {
+        "date": "2020-12",
+        "text": "首都圏の一部医療機関で先行提供を開始"
+      },
+      {
+        "date": "2023-02",
+        "text": "オンライン健康相談「LINEヘルスケア」を終了し、LINEドクターに集中"
+      },
+      {
+        "date": "2024-12",
+        "text": "LINEヤフーとLINEヘルスケアがLINEドクターと疾患啓発アカウント（11アカウント）の終了を発表"
+      },
+      {
+        "date": "2025-03",
+        "text": "3月10日に新規診療・服薬指導予約の受付を停止"
+      },
+      {
+        "date": "2025-06",
+        "text": "6月10日に全機能を停止"
+      },
+      {
+        "date": "2026-09",
+        "text": "LINEヘルスケア株式会社がLINEヤフーに吸収合併され解散"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "LINEヤフーは「グループシナジーの拡大に向け、グループ内で重複している事業領域を一本化するなど、中核事業へのリソース投下を目的とした選択と集中を進めております」と説明。今後は医療機関・薬局向けのマーケティングソリューションを拡充するとした。",
+    "lessons": "国内最大級のメッセージアプリという集客力があっても、オンライン診療は中核事業にならず、グループ再編で同じグループのHELPOに一本化された。大手の参入が必ずしも定着を意味しないことを示す例とみられる。",
+    "sources": [
+      "https://appllio.com/news/20201217-14299-line-doctor",
+      "https://www.watch.impress.co.jp/docs/news/1462390.html",
+      "https://www.lycorp.co.jp/ja/news/release/016530/",
+      "https://www.businessinsider.jp/article/298312/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101086498"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-baab46c5",
+    "name": "HELPO（ヘルポ）／HELPOドクター",
+    "company": "ヘルスケアテクノロジーズ株式会社",
+    "companyId": "6010001195683",
+    "category": "health-consulting",
+    "description": "医師・看護師・薬剤師に24時間チャットで健康相談でき、必要に応じて提携医療機関のオンライン診療、病院検索、ECにつなぐアプリ。企業・健保・自治体向けに導入し、個人向けにも月額550円で提供。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-07",
+    "milestones": [
+      {
+        "date": "2019",
+        "text": "ソフトバンクの子会社として設立"
+      },
+      {
+        "date": "2020-07",
+        "text": "HELPO提供開始（24時間チャット相談・病院検索・EC）"
+      },
+      {
+        "date": "2021-02",
+        "text": "唾液PCR検査の支援を追加"
+      },
+      {
+        "date": "2021-06",
+        "text": "オンライン診療を追加。企業の職域接種支援も"
+      },
+      {
+        "date": "2021-09",
+        "text": "ユーザー数が当初計画を約4割上回ると社長が説明"
+      },
+      {
+        "date": "2022-12",
+        "text": "個人向け提供を開始（月額550円、ワイモバイル）"
+      },
+      {
+        "date": "2024-12",
+        "text": "LINEドクター終了に伴い、利用者の移行先として「HELPOドクター」のLINE公式アカウントが指定される"
+      }
+    ],
+    "sources": [
+      "https://dempa-digital.com/?p=230452",
+      "https://www.softbank.jp/recruit/career/positions/detail/004805/",
+      "https://www.ymobile.jp/info/press/2022/22112901.html",
+      "https://healthcare-tech.co.jp/news/20240902.html",
+      "https://www.lycorp.co.jp/ja/news/release/016530/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-498b4d7b",
+    "name": "Yahoo!ヘルスケア「かんたん医療相談」",
+    "company": "ヤフー株式会社（現 LINEヤフー）（エムスリー「AskDoctors」と連携）",
+    "category": "health-consulting",
+    "description": "Yahoo!ヘルスケア上で、エムスリーの医療Q&A「AskDoctors」に登録する4,500人以上の医師に24時間匿名で相談できる月額300円（税別）の会員制サービス。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "不明",
+    "startedAt": "2016-10",
+    "milestones": [
+      {
+        "date": "2007-03",
+        "text": "AskDoctorsと連携した「からだ相談」をYahoo!ヘルスケアで開始（前身）"
+      },
+      {
+        "date": "2016-10",
+        "text": "「かんたん医療相談」開始（月額300円、月3問まで、2カ月無料キャンペーン）"
+      },
+      {
+        "date": "2018-06",
+        "text": "Yahoo!検索がメディカルノートと連携し、疾病情報を検索結果に表示"
+      },
+      {
+        "date": "2020-05",
+        "text": "Yahoo!検索・Yahoo!MAPでオンライン診療対応医療機関を探せるようにする"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知は見つからず、現在の提供状況は確認できない。理由は公表されていない。",
+    "sources": [
+      "https://www.lycorp.co.jp/news/archive/Y/ja/ja20161012_A.pdf",
+      "https://www.lycorp.co.jp/news/archive/Y/ja/ja20070329_A.pdf",
+      "https://www.lycorp.co.jp/news/archive/Y/ja/ja20180604_B.pdf",
+      "https://www.watch.impress.co.jp/docs/news/1252060.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-116647d6",
+    "name": "小児科オンライン（産婦人科・小児科オンライン）",
+    "company": "株式会社Kids Public",
+    "companyId": "6011501021222",
+    "category": "health-consulting",
+    "description": "LINEや電話で小児科医・産婦人科医・助産師に相談できる遠隔健康医療相談。自治体や企業が費用を負担し、住民・従業員に無料で提供するモデルで広がった。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-05",
+    "milestones": [
+      {
+        "date": "2016-05",
+        "text": "遠隔健康医療相談事業として「小児科オンライン」を開始"
+      },
+      {
+        "date": "2018-04",
+        "text": "小児科医のいない鹿児島県錦江町と埼玉県横瀬町で実証として提供開始"
+      },
+      {
+        "date": "2026-04",
+        "text": "「産婦人科・小児科オンライン」として導入自治体230以上。三重県いなべ市などが新たに導入"
+      }
+    ],
+    "sources": [
+      "https://weekly.ascii.jp/elem/000/001/832/1832461/",
+      "https://resemom.jp/release/prtimes/20180426/42708.html",
+      "https://resemom.jp/release/prtimes/20260401/176748.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-0d360811",
+    "name": "LEBER（リーバー）／いつでもドクター",
+    "company": "株式会社リーバー",
+    "companyId": "2050001042316",
+    "category": "health-consulting",
+    "description": "スマホで24時間医師にチャット相談できる医療相談アプリ（月額350円）。自治体が住民向けに導入する「いつでもドクター」、学校・企業向けも展開し、2023年にオンライン診療を追加。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017",
+    "milestones": [
+      {
+        "date": "2017-02",
+        "text": "遠隔医療サービスを目的に茨城県つくば市で設立"
+      },
+      {
+        "date": "2020-04",
+        "text": "茨城県石岡市が0〜3歳児のいる世帯に無料提供。茨城県の県民向け無料提供（4〜9月）では約6,700件の相談"
+      },
+      {
+        "date": "2021-07",
+        "text": "凸版印刷と自治体向け販売で提携（2022年度までに10自治体を目標）"
+      },
+      {
+        "date": "2023",
+        "text": "オンライン診療を追加"
+      },
+      {
+        "date": "2026-06",
+        "text": "全国57市町村で住民向けに提供"
+      },
+      {
+        "date": "2026-08",
+        "text": "登録医師が450人を超える"
+      }
+    ],
+    "sources": [
+      "https://resemom.jp/release/prtimes/20200413/61667.html",
+      "https://newswitch.jp/p/24571",
+      "https://www.sbbit.jp/article/refers/65470",
+      "https://resemom.jp/release/prtimes/20260625/191644.html",
+      "https://resemom.jp/release/prtimes/20260805/202412.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-b1b4c044",
+    "name": "med. powered by Rakuten",
+    "company": "株式会社アイメッド",
+    "companyId": "3011001118380",
+    "category": "direct-to-consumer",
+    "description": "楽天IDと連携した、自由診療のみのオンライン診療・薬のD2Cサービス。提携医療機関の医師が23時まで診療し、処方薬を配送。RIZAP会員向けの福利厚生版も提供。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-05",
+    "milestones": [
+      {
+        "date": "2023-05",
+        "text": "β版の提供開始と同時に楽天ID連携を開始"
+      },
+      {
+        "date": "2023-09",
+        "text": "グランドオープン。楽天ペイ（オンライン決済）に対応"
+      },
+      {
+        "date": "2024-03",
+        "text": "RIZAP・chocoZAP会員向けの「med. for Biz」を発表"
+      }
+    ],
+    "sources": [
+      "https://corp.rakuten.co.jp/news/update/2023/0517_03.html",
+      "https://paymentnavi.com/paymentnews/135100.html",
+      "https://www.commercepick.com/?p=35188",
+      "https://ir.sse.or.jp/data/pdf/140120240304548044.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-d4b3a934",
+    "name": "DMMオンラインクリニック",
+    "company": "合同会社DMM.com（診療は医療法人社団DMH）",
+    "category": "direct-to-consumer",
+    "description": "DMM.comが提供する自由診療中心のオンライン診療プラットフォーム。AGA、花粉症、メディカルスキンケアなど十数科目を扱い、医療法人社団DMHが診療して処方薬を配送する。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-12",
+    "milestones": [
+      {
+        "date": "2021-12",
+        "text": "サービス開始"
+      },
+      {
+        "date": "2023",
+        "text": "年間診療件数が前年の約6倍に（求人情報）"
+      },
+      {
+        "date": "2023",
+        "text": "求人情報では累計診療件数200万件超とも記載（掲載時期は不明）"
+      }
+    ],
+    "sources": [
+      "https://hrmos.co/pages/dmh-medical/jobs/0000009",
+      "https://hrmos.co/pages/dmh-medical/jobs/1882976668392816705"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-f68506a3",
+    "name": "Oops（ウープス）",
+    "company": "株式会社SQUIZ",
+    "companyId": "8011001137153",
+    "category": "direct-to-consumer",
+    "description": "ED・AGA・低用量ピル・メンタルヘルスなど領域別ブランドで展開する自由診療中心のオンライン診療サービス。提携医師の診療と薬の配送につなぐ。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "統合",
+    "startedAt": "2021-04",
+    "endedAt": "2026-04",
+    "successor": "株式会社セレス（SQUIZ株式の90.0%を取得し子会社化。サービスは継続）",
+    "milestones": [
+      {
+        "date": "2021-04",
+        "text": "ED領域の「Oops LOVE」から開始、続いてAGA領域の「Oops HAIR」"
+      },
+      {
+        "date": "2026-04",
+        "text": "セレスがSQUIZの発行済株式の90.0%を約36億円で取得し連結子会社化（会員10万人超）。セレスは2022年5月に参入したオンライン診療事業をAGA・ED・メンタルヘルスへ広げる狙い"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "事業は継続しており、株式取得による子会社化。セレスは目的を「2022年5月に参入したオンライン診療事業の拡大」と説明している。",
+    "sources": [
+      "https://ascii.jp/elem/000/004/147/4147819/",
+      "https://www.nihon-ma.co.jp/news/20260401_3696-44/",
+      "https://media.ceres-inc.jp/news/2026/04/20260401_002_v2.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-16150b0a",
+    "name": "クラウドドクター",
+    "company": "株式会社クラウドドクター",
+    "companyId": "4120001265543",
+    "category": "telemedicine",
+    "description": "問診内容から医師を即時にマッチングし、24時間365日保険診療のオンライン診療を受けられる患者向けプラットフォーム。処方薬は自宅配送や近くの薬局で受け取り。AI通訳で多言語対応。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024",
+    "milestones": [
+      {
+        "date": "2024-05",
+        "text": "医師の赤松敬之氏が大阪市で設立"
+      },
+      {
+        "date": "2026",
+        "text": "AI自動翻訳の対応言語を38から86に拡大。アンビション・ベンチャーズを引受先とする第三者割当増資、不動産会社の入居者アプリと連携"
+      },
+      {
+        "date": "2026-08",
+        "text": "佐渡島で、唯一の皮膚科開業医の閉院を受け地域の医療機関・薬局と「来院型オンライン診療」を開始"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000019.000164410.html",
+      "https://prtimes.jp/main/html/rd/p/000000021.000164410.html",
+      "https://prtimes.jp/main/html/rd/p/000000015.000164410.html",
+      "https://webtan.impress.co.jp/r/prtimes/items/000000153.000007782"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-938fe6c2",
+    "name": "イシャチョク",
+    "company": "株式会社オンラインドクター.com",
+    "companyId": "1170001016300",
+    "category": "telemedicine",
+    "description": "小児科医が開設したオンライン診療プラットフォーム。予約なしで受診できる仕組みや、新型コロナの自宅療養者向け診療、修学旅行生向けの健康相談などを展開。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020",
+    "milestones": [
+      {
+        "date": "2020-10",
+        "text": "運営会社を設立"
+      },
+      {
+        "date": "2021-01",
+        "text": "予約なしでオンライン診療を受診できる新サービスを開始"
+      },
+      {
+        "date": "2021-09",
+        "text": "新型コロナの自宅療養者向け診療を開始"
+      }
+    ],
+    "sources": [
+      "https://gentosha-go.com/articles/-/40655",
+      "https://www.dreamnews.jp/press/0000252536/",
+      "https://ishachoku.com/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-b7d3efdf",
+    "name": "ファストドクター",
+    "company": "ファストドクター株式会社",
+    "companyId": "9010901038716",
+    "category": "telemedicine",
+    "description": "夜間・休日の救急相談、救急往診、オンライン診療を提携医療機関につなぐ時間外医療のプラットフォーム。自治体・企業・薬局などと提携して拡大。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-07",
+    "milestones": [
+      {
+        "date": "2016-07",
+        "text": "整形外科医の菊池亮氏が創業し、時間外救急プラットフォーム事業を開始"
+      },
+      {
+        "date": "2021-11",
+        "text": "シリーズBの資金調達（外部データベース）"
+      },
+      {
+        "date": "2025-02",
+        "text": "くすりの窓口と業務提携"
+      }
+    ],
+    "sources": [
+      "https://herp.careers/careers/companies/fastdoctor",
+      "https://initial.inc/companies/A-33203",
+      "https://www.carenet.com/news/general/carenet/57210"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-1a9bf422",
+    "name": "テレメディーズBP",
+    "company": "一般社団法人テレメディーズ",
+    "companyId": "9010005028548",
+    "category": "telemedicine",
+    "description": "通信機能付き血圧計で測った家庭血圧を医療機関と共有し、高血圧のオンライン診療・降圧薬の郵送処方・オンライン相談を月額定額で受けられるパッケージ。オムロンが機器、ポートが診療基盤と集客を担った。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "譲渡",
+    "startedAt": "2019-05",
+    "endedAt": "2021-11",
+    "successor": "個人向けサービスは「高血圧e-メディカル」（イーメディカルジャパン株式会社）に移行。テレメディーズは事業パートナーとして関与",
+    "milestones": [
+      {
+        "date": "2016",
+        "text": "代表理事によれば、高血圧オンライン診療の臨床試験として取り組みを始める"
+      },
+      {
+        "date": "2019",
+        "text": "グッドデザイン賞を受賞"
+      },
+      {
+        "date": "2019-05",
+        "text": "オムロン ヘルスケア、テレメディーズ、ポートが業務提携を発表。月額4,600円から"
+      },
+      {
+        "date": "2020-04",
+        "text": "新型コロナ対応で一部機能を4月8日〜5月6日に無料化。その後オムロン血圧計購入者向けに3カ月無料キャンペーン"
+      },
+      {
+        "date": "2021-11",
+        "text": "11月17日付で個人向けサービスを高血圧e-メディカル（イーメディカルジャパン）に移行"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "個人向けサービスの移行理由は公表されていない。",
+    "lessons": "大手機器メーカー、医師団体、ネット企業の3者で組んだが、2年半で個人向けは別会社に移った。家庭血圧のデータがあっても、定額で払い続ける患者を集めることは難しかったとみられる。",
+    "sources": [
+      "https://monoist.itmedia.co.jp/mn/articles/1905/31/news046.html",
+      "https://markezine.jp/news/detail/31076",
+      "https://kyodonewsprwire.jp/release/202004068843",
+      "https://kyodonewsprwire.jp/release/202006020452",
+      "https://newscast.jp/news/257666",
+      "https://telemedease.org/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-254f0115",
+    "name": "期間限定オンライン外来代行",
+    "company": "株式会社ケアネット",
+    "companyId": "4010001075490",
+    "category": "telemedicine",
+    "description": "新型コロナ下で自院でオンライン診療ができないクリニックの患者を、キャピタルメディカの提携病院の医師がWeb会議で一時的に代わりに診療し、処方箋も発行する無償サービス。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "不明",
+    "startedAt": "2020-04",
+    "milestones": [
+      {
+        "date": "2020-04",
+        "text": "厚労省が新型コロナ収束までの期間限定でオンライン・電話診療を認める方針を示したことを受け、4月20日から医療機関へ無償提供開始。感染が落ち着く3カ月後をめどに元のかかりつけ医へ戻す想定"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "「期間限定」として始まったが、終了の告知や利用実績は見つからない。サービスサイト（egairai.jp）は2026年10月時点で接続できず、Wayback Machineにも保存がない。",
+    "lessons": "コロナ特例に合わせて立ち上がった時限型の支援で、特例とともに役目を終えたとみられる。",
+    "sources": [
+      "https://carenet.co.jp/.assets/IR_20200417-4.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-ddfd15d5",
+    "name": "CARADA オンライン診療／ルナルナ オンライン診療",
+    "company": "株式会社エムティーアイ",
+    "companyId": "4140001030292",
+    "category": "telemedicine",
+    "description": "エムティーアイ系のカラダメディカが提供する医療機関向けオンライン診療システム。産婦人科向けは女性向けアプリ「ルナルナ」と連携し、患者がルナルナから医療機関を探して予約・受診・決済できる。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "不明",
+    "startedAt": "2020",
+    "milestones": [
+      {
+        "date": "2017-05",
+        "text": "エムティーアイが、ルナルナの記録を医師用タブレットで見られる「ルナルナ メディコ」を提供開始"
+      },
+      {
+        "date": "2020-03",
+        "text": "新型コロナを受け、3月3日から「CARADA オンライン診療」を無料提供"
+      },
+      {
+        "date": "2020-04",
+        "text": "産婦人科向け「ルナルナ オンライン診療」を4月10日〜9月末まで医療機関・患者に無料提供"
+      },
+      {
+        "date": "2021-04",
+        "text": "製品紹介ページで累計契約施設1,000件以上と表示"
+      },
+      {
+        "date": "2022-07",
+        "text": "ピル処方の「ルナルナ おくすり便」を本格開始"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "提供終了の告知は見つからず、現在の提供状況は確認できない。",
+    "sources": [
+      "https://www.watch.impress.co.jp/docs/news/1246371.html",
+      "https://resemom.jp/release/prtimes/20170531/31872.html",
+      "https://2ndlabo.com/ps1361/",
+      "https://www.excite.co.jp/news/article/Prtimes_2022-07-14-2943-1085/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-5dc75a4b",
+    "name": "ketsuken オンライン診療",
+    "company": "株式会社メディカルフューチャー",
+    "companyId": "2010502020121",
+    "category": "simple-inspection",
+    "description": "指先1滴の血液で調べる郵送型血液検査「ketsuken」で異常値が出た人が、そのままオンラインで医師の診療を受けられるサービス。検査から受診へつなぐD2C型の試み。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "不明",
+    "startedAt": "2023-02",
+    "milestones": [
+      {
+        "date": "2021",
+        "text": "自宅完結のPCR検査セットと陽性者向けのオンライン診療を提供"
+      },
+      {
+        "date": "2022-10",
+        "text": "三井住友海上あいおい生命と提携し、保険契約者に血液検査を提供"
+      },
+      {
+        "date": "2023-02",
+        "text": "「ketsuken オンライン診療」を開始（同社の最後の発信）"
+      },
+      {
+        "date": "2025-07",
+        "text": "厚生年金の適用事業所が全喪。ketsuken.jpは無関係のサイトへ転送（Wayback最終保存は2024年7月）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知はなく、理由は公表されていない。2023年2月以降の活動は確認できない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000015.000024660.html",
+      "https://prtimes.jp/main/html/rd/p/000000014.000024660.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010502020121"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-3e9c7c44",
+    "name": "kakari for Clinic（現 やくばと for Clinic）",
+    "company": "メドピア",
+    "companyId": "8011001073431",
+    "category": "medical-dx",
+    "description": "クリニックの「かかりつけ化」を支援するサービス。患者アプリでの医院紹介・予約・双方向チャットに、オンライン診療（ビデオ通話・決済）を無料プランで加え、薬局向け「kakari」と処方箋画像を連携した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-09",
+    "milestones": [
+      {
+        "date": "2020-09",
+        "text": "日医工とメドピアが合弁会社ニチメッドを設立し、共同事業として開始"
+      },
+      {
+        "date": "2020-12",
+        "text": "オンライン診療のビデオ通話機能を追加（無料プランで提供）"
+      },
+      {
+        "date": "2021-02",
+        "text": "オンライン診療後の決済機能を追加"
+      },
+      {
+        "date": "2021-04",
+        "text": "薬局向け「kakari」との処方箋画像共有を開始"
+      },
+      {
+        "date": "2026-10",
+        "text": "旧ドメインは「やくばと for Clinic（診療予約システム）」に転送される。名称変更の時期とオンライン診療機能の扱いは確認できない"
+      }
+    ],
+    "endReasonNote": "名称変更・機能の変更について、理由は確認できない。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/60950/140120200512409629.pdf",
+      "https://press.medpeer.co.jp/press/wp-content/uploads/2020/11/20222405/MedPeer_kakari-for-Clinic_20201124.pdf",
+      "https://press.medpeer.co.jp/press/wp-content/uploads/2021/03/31165733/MedPeer_kakari_20210401.pdf",
+      "https://nk.jiho.jp/article/158424",
+      "https://yakubato.jp/clinic/index.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation"
+    ]
+  },
+  {
+    "id": "b-14a406f3",
+    "name": "みまもりナースステーション",
+    "company": "遠隔みまもり看護株式会社",
+    "companyId": "5290001092557",
+    "category": "home-visit-nursing",
+    "description": "見守りセンサーや対話ロボットのデータをもとに、看護師が24時間遠隔で高齢者などを見守るサービス。自治体と防災協定も結んだ。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "startedAt": "2021",
+    "milestones": [
+      {
+        "date": "2021",
+        "text": "会社設立"
+      },
+      {
+        "date": "2025-05",
+        "text": "横須賀市と、大規模災害時に避難所の住民の健康状態をオンラインで看護師が把握する防災協定を締結（全国初とされる）"
+      },
+      {
+        "date": "2025-07",
+        "text": "公式ブログの更新はこの月が最後"
+      },
+      {
+        "date": "2026-05",
+        "text": "厚生年金の適用事業所でなくなった（企業DBの調査）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "解散・休止の告知はなく、理由は公表されていない。2025年夏より後の活動を確認できない。",
+    "sources": [
+      "https://m-kango.co.jp/",
+      "https://initial.inc/companies/A-KQGMA",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5290001092557",
+      "https://www.city.yokosuka.kanagawa.jp/0525/nagekomi/2025_0501.html",
+      "https://m-kango.co.jp/blog/detail/20250725153033/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "online-consultation",
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-74ac63d9",
+    "name": "harmo（ハルモ）おくすり手帳",
+    "company": "harmo株式会社",
+    "companyId": "jp-114",
+    "category": "pharmacy-dx",
+    "description": "FeliCaカードとスマホアプリで調剤履歴をクラウドに保存する電子お薬手帳。氏名などの個人情報はカードに、薬歴はクラウドに分けて置く仕組みで、薬局に導入してもらい、処方箋送信・オンライン服薬指導の機能も載せていた。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "終了",
+    "startedAt": "2013-08",
+    "endedAt": "2026-09",
+    "successor": "株式会社ファルモ（eお薬手帳3.0／薬局DX基盤N-Bridge）",
+    "milestones": [
+      {
+        "date": "2013-08",
+        "text": "ソニーが個人情報と薬歴を分けて保存する電子お薬手帳を発表し、川崎市で試験サービスを始めると公表"
+      },
+      {
+        "date": "2015-03",
+        "text": "川崎市・川崎市薬剤師会とharmoの試験サービスで協定を結ぶ"
+      },
+      {
+        "date": "2016-07",
+        "text": "商用サービスを開始"
+      },
+      {
+        "date": "2018-06",
+        "text": "処方箋の累計登録数が300万枚を超える。アプリ利用者は10万人超"
+      },
+      {
+        "date": "2019-06",
+        "text": "ソニーから事業を吸収分割で承継し、シミックヘルスケアが運営開始（譲渡額100万円と報道）"
+      },
+      {
+        "date": "2020-07",
+        "text": "電子お薬手帳「ポケットファーマシー」と協業。2020年4月時点で利用者は約40万人、利用実績のある薬局は1.2万軒超"
+      },
+      {
+        "date": "2021-10",
+        "text": "シミックHDが新会社harmo株式会社を設立し、事業を移す"
+      },
+      {
+        "date": "2025-02",
+        "text": "新アプリを公開。旧アプリは2025年12月に提供終了"
+      },
+      {
+        "date": "2025-10",
+        "text": "ネットにつながっていない電子カルテへ薬剤情報を送る「オフライン転送」機能を実装"
+      },
+      {
+        "date": "2026-03",
+        "text": "株式会社ファルモへの事業譲渡と、2026年9月30日でのサービス終了を告知"
+      },
+      {
+        "date": "2026-07",
+        "text": "ファルモが、300店舗以上の薬局のN-Bridge（eお薬手帳3.0）への移行が決まったと発表"
+      },
+      {
+        "date": "2026-09",
+        "text": "処方箋送信とオンライン服薬指導の新規受付を9月17日に終了。9月30日にサービスを終了"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "harmo株式会社の告知は「より安定したサービスを皆さまに継続してお届けするため、同じくお薬手帳事業を手がける株式会社ファルモへ事業を譲渡いたしました」と説明している。収益など、それ以上の理由は公表されていない。",
+    "lessons": "ソニー、シミック、ファルモと運営会社が2回替わり、最後は日薬系の基盤に吸収された。単独の電子お薬手帳事業は、規模があっても運営会社が定まりにくいとみられる。",
+    "sources": [
+      "https://k-tai.watch.impress.co.jp/docs/news/611698.html",
+      "https://www.yakuji.co.jp/?p=65737",
+      "https://www.nihon-ma.co.jp/news/20190325_2309-9/",
+      "https://kyodonewsprwire.jp/release/202107308374",
+      "https://kyodonewsprwire.jp/release/202007071755",
+      "https://www.cmicgroup.com/news/files/pdf/2025100904.pdf",
+      "https://support.harmo.biz/migrate_to_newapp/p1479",
+      "https://support.harmo.biz/info/p1725",
+      "https://prtimes.jp/main/html/rd/p/000000037.000049119.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-2006a682",
+    "name": "おくすり手帳Link",
+    "company": "NTTドコモ",
+    "category": "pharmacy-dx",
+    "description": "薬局がカスタマイズなしで導入できる汎用の電子お薬手帳。薬局向けシステムと患者向けアプリで構成し、処方箋画像の事前送信も受けられた。チェーン向けのカスタマイズ版も提供していた。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "統合",
+    "startedAt": "2016-03",
+    "endedAt": "2023-09",
+    "successor": "CLINICS（メドレー×ドコモ共同運営のオンライン診療・服薬指導アプリ）",
+    "milestones": [
+      {
+        "date": "2016-01",
+        "text": "2016年3月から提供すると発表"
+      },
+      {
+        "date": "2019-03",
+        "text": "日本薬剤師会・STNetと、日薬eお薬手帳への統合に向けた基本合意を結ぶ。チェーン向けと合わせて約5,500施設に導入済み"
+      },
+      {
+        "date": "2022-06",
+        "text": "ドコモが日本薬剤師会にサービス終了を伝える"
+      },
+      {
+        "date": "2022-08",
+        "text": "患者向けアプリをCLINICSへ統合すると発表。薬局向けの新規受付は9月9日に終了"
+      },
+      {
+        "date": "2023-09",
+        "text": "9月30日に提供を終了"
+      },
+      {
+        "date": "2024-02",
+        "text": "ドコモとメドレーが資本・業務提携の見直しで合意。CLINICSの共同運営を2024年12月末で終えると発表"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "competition"
+    ],
+    "endReasonNote": "ドコモは「経営上の判断」と説明した。ユーザーが増えても他社との差別化ができなかったこと、CLINICSに統合して診療から服薬管理までを1つのアプリにまとめ、経営資源を集めることを理由に挙げた（日経クロステック報道とドコモ発表）。",
+    "lessons": "通信大手がプラットフォームとして参入したが、日薬の手帳の運営も担っていたため、撤退が業界インフラの空白になった。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2016/01/15_01.html",
+      "https://www.docomo.ne.jp/info/news_release/2019/03/26_01.html",
+      "https://xtech.nikkei.com/atcl/nxt/column/18/01157/111600074/",
+      "https://www.docomo.ne.jp/info/news_release/2022/08/01_00.html",
+      "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-9ad0e60f",
+    "name": "日薬eお薬手帳（ドコモ運営版）",
+    "company": "日本薬剤師会（開発・運営：NTTドコモ）",
+    "category": "pharmacy-dx",
+    "description": "日本薬剤師会が会員薬局に提供した電子お薬手帳。大阪e-お薬手帳、STNetの健康の庫、ドコモのおくすり手帳Linkを一本化して業界標準を目指し、薬局から利用料を受け取っていた。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "統合",
+    "startedAt": "2019-12",
+    "endedAt": "2024-06",
+    "successor": "eお薬手帳3.0（株式会社ファルモのシステム）",
+    "milestones": [
+      {
+        "date": "2015-02",
+        "text": "日薬が大阪府薬剤師会と連携し、日薬版の電子お薬手帳の開発を本格化"
+      },
+      {
+        "date": "2019-03",
+        "text": "日薬・STNet・ドコモがサービス統合で基本合意"
+      },
+      {
+        "date": "2019-12",
+        "text": "ドコモの開発・運営で統合版の提供を開始。統合前の利用は2サービスで約4,000施設"
+      },
+      {
+        "date": "2022-06",
+        "text": "ドコモから終了を告げられる。日薬は8月30日付の文書で、この判断に異議を示した"
+      },
+      {
+        "date": "2022-12",
+        "text": "運営事業者をドコモからファルモに替えると決定"
+      },
+      {
+        "date": "2023-07",
+        "text": "ファルモのシステムでeお薬手帳3.0を公開し、約1年間並行して運用"
+      },
+      {
+        "date": "2024-06",
+        "text": "旧サービスを6月末で終了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "開発・運営を担っていたNTTドコモが、経営上の判断でおくすり手帳LinkをCLINICSに統合し、撤退した。日本薬剤師会は複数の事業者と面談したうえで、運営事業者をファルモに替えた。",
+    "lessons": "職能団体の公式手帳でも、運営を一社に任せると、その会社の戦略で続けられなくなる。",
+    "sources": [
+      "https://www.yakuji.co.jp/?p=41942",
+      "https://www.yakuji.co.jp/?p=71108",
+      "https://xtech.nikkei.com/atcl/nxt/column/18/01157/111600074/",
+      "https://www.nichiyaku.or.jp/static/uploads/pr-activity/20221222_05.pdf",
+      "https://nichiyaku.or.jp/static/uploads/pr-activity/press/20230705_04.pdf",
+      "https://www.nichiyaku.or.jp/e-okusuri/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-219002f2",
+    "name": "大阪e-お薬手帳",
+    "company": "大阪府薬剤師会",
+    "category": "pharmacy-dx",
+    "description": "東日本大震災で避難者の服薬情報が分からなかったことをきっかけに、府薬剤師会が開発した電子お薬手帳。参加を希望する都道府県薬剤師会には無償でアプリを提供した。",
+    "hp": "",
+    "startedYear": 2012,
+    "status": "統合",
+    "startedAt": "2012-09",
+    "endedAt": "2021-01",
+    "successor": "日薬eお薬手帳（2019年統合版）→ eお薬手帳3.0",
+    "milestones": [
+      {
+        "date": "2012-09",
+        "text": "大阪e-お薬手帳事業を本格的に開始"
+      },
+      {
+        "date": "2013-10",
+        "text": "都道府県薬剤師会に参加を呼びかけ、アプリを無償で提供"
+      },
+      {
+        "date": "2014-03",
+        "text": "京都府薬剤師会が府の補助金で導入。200薬局以上が参加を表明"
+      },
+      {
+        "date": "2015-02",
+        "text": "全国20の薬剤師会が採用し、利用者は約6万人。日薬版の開発へ"
+      },
+      {
+        "date": "2019-12",
+        "text": "日薬eお薬手帳（ドコモ運営）に統合"
+      },
+      {
+        "date": "2021-01",
+        "text": "旧アプリから新アプリへのデータ移行を1月31日で終了"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "日本薬剤師会・STNet・ドコモによる電子お薬手帳サービスの統合（2019年合意）で、日薬eお薬手帳に一本化された。",
+    "sources": [
+      "https://www.yakuji.co.jp/?p=28193",
+      "https://www.yakuji.co.jp/?p=33341",
+      "https://www.yakuji.co.jp/?p=35113",
+      "https://www.yakuji.co.jp/?p=41942",
+      "https://www.nichiyaku.or.jp/e-okusuri/e-okusuri-04.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-bfbca629",
+    "name": "健康の庫（けんこうのくら）",
+    "company": "STNet",
+    "category": "pharmacy-dx",
+    "description": "大阪e-お薬手帳・日薬eお薬手帳と連動し、患者向けにお薬手帳情報をバックアップし、薬局・医療機関にその情報を参照させるサービス。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "統合",
+    "startedAt": "2015-06",
+    "endedAt": "2019",
+    "successor": "日薬eお薬手帳（ドコモの電子お薬手帳Linkと統合）",
+    "milestones": [
+      {
+        "date": "2015-06",
+        "text": "提供を開始"
+      },
+      {
+        "date": "2019-03",
+        "text": "全国約4,000施設に導入済みの段階で、日薬・ドコモとの統合に基本合意"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "3者のサービスを統合して業界標準化と普及を目指すと発表された。STNet単独での継続をやめた理由は公表されていない。",
+    "sources": [
+      "https://kyodonewsprwire.jp/release/201903264665",
+      "https://www.docomo.ne.jp/info/news_release/2019/03/26_01.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-8f5902bf",
+    "name": "eお薬手帳3.0／N-Bridge",
+    "company": "ファルモ",
+    "companyId": "2010901030365",
+    "category": "pharmacy-dx",
+    "description": "ファルモのシステムで日本薬剤師会が提供する電子お薬手帳。服薬アラームと薬局への処方箋送信の機能がある。2025年からは、お薬手帳・処方箋受付・医薬品情報共有・発注を統合した薬局DX基盤N-Bridgeとして展開している。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-07",
+    "milestones": [
+      {
+        "date": "2016-03",
+        "text": "ファルモが自社のアプリ「ファルモお薬手帳」をApp Storeで公開"
+      },
+      {
+        "date": "2022-12",
+        "text": "日本薬剤師会がeお薬手帳の運営事業者に選ぶ"
+      },
+      {
+        "date": "2023-07",
+        "text": "eお薬手帳3.0を公開"
+      },
+      {
+        "date": "2025-06",
+        "text": "エムティーアイが保有するファルモ株の一部を、東邦HDとエムティーアイ・ヘルスケアHDに計9億円で譲渡"
+      },
+      {
+        "date": "2025-10",
+        "text": "日本薬剤師会が、N-Bridgeと処方箋情報送信端末NB Stationの開発でファルモと連携し、監修すると発表"
+      },
+      {
+        "date": "2026-07",
+        "text": "harmoを譲り受け、加盟薬局のN-Bridgeへの移行を進める"
+      }
+    ],
+    "lessons": "ドコモ版とharmoの受け皿になり、薬剤師会系の基盤に集約が進んでいる。",
+    "sources": [
+      "https://www.nichiyaku.or.jp/static/uploads/pr-activity/20221222_05.pdf",
+      "https://nichiyaku.or.jp/static/uploads/pr-activity/press/20230705_04.pdf",
+      "https://www.nihon-ma.co.jp/news/20250523_9438-14/",
+      "https://www.nichiyaku.or.jp/files/co/pr-activity/press/20251008_summary.pdf",
+      "https://prtimes.jp/main/html/rd/p/000000037.000049119.html",
+      "https://itunes.apple.com/lookup?id=1087753407&country=jp",
+      "https://itunes.apple.com/lookup?id=1673612580&country=jp"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-a6d8b409",
+    "name": "CARADA お薬手帳（アプリ版）",
+    "company": "株式会社エムティーアイ",
+    "companyId": "4140001030292",
+    "category": "pharmacy-dx",
+    "description": "薬局が導入する電子お薬手帳アプリ。調剤予約、服薬記録、リマインダー、薬局からの服薬フォローの機能があり、エムティーアイのクラウド薬歴Solamichiなどと合わせて薬局に販売していた。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "統合",
+    "startedAt": "2020-09",
+    "endedAt": "2026-09",
+    "successor": "CARADAお薬手帳 LINE版（株式会社ソラミチシステム）",
+    "milestones": [
+      {
+        "date": "2020-09",
+        "text": "iOS版アプリを公開"
+      },
+      {
+        "date": "2020-12",
+        "text": "ナカジマ薬局がアプリを使った服薬フォローを開始"
+      },
+      {
+        "date": "2022-10",
+        "text": "LINEミニアプリ版を開始。薬局のLINE公式アカウントを友だち追加するだけで使え、アプリからデータを引き継げる"
+      },
+      {
+        "date": "2026-09",
+        "text": "アプリ版の提供を終了。LINE版はソラミチシステムが提供を続ける"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "公式ページは2026年9月でアプリ版の提供を終えたことだけを告知しており、理由は公表されていない。",
+    "lessons": "専用アプリから、薬局のLINE公式アカウントを入口にする方式へ切り替えた例とみられる。",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1498906397&country=jp",
+      "https://www.yakuji.co.jp/?p=83446",
+      "https://www.yakuji.co.jp/?p=99377",
+      "https://www.carada.jp/pharmacy/customer/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-8b5ed491",
+    "name": "アインおくすり手帳",
+    "company": "アインファーマシーズ（アインホールディングス）",
+    "category": "pharmacy-dx",
+    "description": "調剤薬局最大手のアイン薬局が提供していた電子お薬手帳アプリ。処方箋送信もできる公式アプリ「いつでもアイン薬局」に機能を統合した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2025-11",
+    "successor": "公式アプリ「いつでもアイン薬局」のお薬手帳機能",
+    "milestones": [
+      {
+        "date": "2021-11",
+        "text": "公式アプリ「いつでもアイン薬局」を公開（iOS）"
+      },
+      {
+        "date": "2025-08",
+        "text": "他のアプリからデータを取り込むと特典があるお薬手帳キャンペーンを実施（対象にアインおくすり手帳を含む）"
+      },
+      {
+        "date": "2025-11",
+        "text": "アインおくすり手帳の提供を終了。データ移行の問い合わせには2026年2月末まで対応"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "FAQは終了と移行の方法だけを案内しており、理由は公表されていない。",
+    "sources": [
+      "https://www.ainj.co.jp/app/faq/detail/003426.html",
+      "https://www.ainj.co.jp/app/how-to-use/data-migration.html",
+      "https://itunes.apple.com/lookup?id=1592211969&country=jp",
+      "https://resemom.jp/release/prtimes/20250815/154044.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-2207773c",
+    "name": "クオール「処方せん送信」アプリ／処方せん送信＆お薬手帳アプリ",
+    "company": "クオール（クオールホールディングス）",
+    "category": "pharmacy-dx",
+    "description": "処方箋を撮影して選んだ薬局に事前送信し、待ち時間を減らすアプリ。のちにお薬手帳機能を加えた。現在はLINEミニアプリに移っている。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "統合",
+    "startedAt": "2013-11",
+    "endedAt": "2022-10",
+    "successor": "LINEミニアプリ（クオールおくすり便）",
+    "milestones": [
+      {
+        "date": "2013-11",
+        "text": "一部店舗で処方せん送信アプリのサービスを開始"
+      },
+      {
+        "date": "2022",
+        "text": "LINEミニアプリ「クオールおくすり便」を開始"
+      },
+      {
+        "date": "2022-10",
+        "text": "アプリのリニューアルに伴い、10月31日に処方せん送信＆お薬手帳アプリを終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "公式ページは「アプリのリニューアルに伴い」終了したとしており、それ以上の理由は公表されていない。",
+    "sources": [
+      "https://www.yakuji.co.jp/?p=33441",
+      "https://www.qol-net.co.jp/pharmacy/qolokusuriapp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-2f211f78",
+    "name": "タヨリス",
+    "company": "総合メディカル（総合メディカルグループ）",
+    "category": "pharmacy-dx",
+    "description": "総合メディカルグループ（そうごう薬局）の公式ヘルスケアアプリ。お薬手帳、処方箋の事前送信、OPTiMの基盤を使ったオンライン服薬指導、調剤予約、バイタル管理、服薬アラーム、ECを1つにまとめていた。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "終了",
+    "startedAt": "2022",
+    "endedAt": "2026-06",
+    "successor": "LINEミニアプリ",
+    "milestones": [
+      {
+        "date": "2022",
+        "text": "公式ヘルスケアアプリとして公開（App Storeのアプリ番号から2022年後半と推定）"
+      },
+      {
+        "date": "2026-02",
+        "text": "全サービスを6月末に終え、LINEミニアプリに移すと発表"
+      },
+      {
+        "date": "2026-06",
+        "text": "サービスを終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "報道（PHARMACY NEWSBREAK、2026年2月27日）は終了と移行先を伝えているが、閲覧できた範囲に理由の記載はなかった。",
+    "sources": [
+      "https://pnb.jiho.jp/article/247687",
+      "https://www.optim.co.jp/wp-content/uploads/blazLZLycW5L.pdf",
+      "https://www.advertimes.com/?p=501535"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-69b9931f",
+    "name": "Hanaサポート（ハナサポ）",
+    "company": "東和薬品（開発協力：バンダイナムコ研究所）",
+    "category": "pharmacy-dx",
+    "description": "ジェネリック大手の東和薬品が提供した服薬支援ツール。服薬時刻の通知と記録、名所を巡るツアーなどのゲーミフィケーション、薬局とのやり取りの機能を持つ患者向けアプリと、薬局向けの管理Webで構成していた。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "終了",
+    "startedAt": "2022-09",
+    "endedAt": "2026-01",
+    "successor": "ゲーミフィケーション機能は電子お薬手帳アプリ「ポケットファーマシー」に提供（一部薬局）",
+    "milestones": [
+      {
+        "date": "2020-01",
+        "text": "バンダイナムコ研究所と服薬支援ツールの共同開発で基本合意"
+      },
+      {
+        "date": "2021-02",
+        "text": "実証実験用のプロトタイプが完成"
+      },
+      {
+        "date": "2022-09",
+        "text": "関西エリアからサービスを開始し、段階的に全国展開する計画"
+      },
+      {
+        "date": "2026-01",
+        "text": "1月30日にサービスを終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "公式ページは終了日と機能の移管先だけを告知しており、理由は公表されていない。",
+    "lessons": "製薬企業が残薬対策として薬局経由で配った服薬支援アプリは、4年弱で終わった。薬局が対価を払い続ける仕組みが見えにくかったとみられる。",
+    "sources": [
+      "https://kyodonewsprwire.jp/release/202001205847",
+      "https://kyodonewsprwire.jp/release/202102151045",
+      "https://kyodonewsprwire.jp/release/202208305696",
+      "https://www.towayakuhin.co.jp/healthcare/hanasupport/user.php"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-cb3f3d4b",
+    "name": "お薬手帳プラス",
+    "company": "日本調剤",
+    "category": "pharmacy-dx",
+    "description": "調剤薬局大手の日本調剤が提供する電子お薬手帳。処方箋の事前送信、家族の管理、オンライン服薬指導との連携の機能がある。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "休止",
+    "startedAt": "2014-10",
+    "endedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2014-10",
+        "text": "Android版の運用を開始"
+      },
+      {
+        "date": "2016-03",
+        "text": "登録会員が6万人を突破。2016年4月の改定で、紙と同等の機能があれば電子版でも保険点数を算定できるようになった"
+      },
+      {
+        "date": "2017-01",
+        "text": "登録会員が13万人を突破"
+      },
+      {
+        "date": "2024-07",
+        "text": "登録会員が200万人を突破"
+      },
+      {
+        "date": "2025-01",
+        "text": "オンライン診療サービスSOKUYAKUとの連携を開始"
+      },
+      {
+        "date": "2026-10",
+        "text": "10月21日夜から、アプリとWebの全機能（処方箋送信を含む）を一時停止"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "事業の終了ではない。2026年10月22日の告知で、PHPに関するセキュリティ上の注意喚起を受けた「予防的な措置」としてサービス全体を一時停止したと説明しており、再開の時期は示されていない。",
+    "sources": [
+      "https://digitalpr.jp/r/9341",
+      "https://www.yakuji.co.jp/?p=50218",
+      "https://resemom.jp/release/prtimes/20170206/28007.html",
+      "https://www.logi-today.com/708391",
+      "https://portal.okusuriplus.com/2026/10/22/8104",
+      "https://itunes.apple.com/lookup?id=947740067&country=jp"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-a4365e57",
+    "name": "EPARKお薬手帳",
+    "company": "株式会社くすりの窓口",
+    "companyId": "7420001005379",
+    "category": "pharmacy-dx",
+    "description": "薬局検索・予約サイト「EPARKくすりの窓口」と連動した電子お薬手帳アプリ。処方箋のネット受付や、ポイントがたまる仕組みがある。薬局からの手数料や利用料で運営している。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015-03",
+    "milestones": [
+      {
+        "date": "2015-03",
+        "text": "アプリを公開（iOS）"
+      },
+      {
+        "date": "2026-03",
+        "text": "自社調べで累計740万ダウンロード（媒体資料）"
+      }
+    ],
+    "sources": [
+      "https://itunes.apple.com/lookup?id=952969231&country=jp",
+      "https://media-radar.jp/detail34656.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-e3499d0f",
+    "name": "kakari",
+    "company": "メドピア",
+    "companyId": "8011001073431",
+    "category": "pharmacy-dx",
+    "description": "かかりつけ薬局化を支援するサービス。患者向けアプリで処方箋送信、お薬手帳、薬剤師とのチャット、服薬フォローができ、薬局はWebの「kakari薬局システム」で受け付ける。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-06",
+    "milestones": [
+      {
+        "date": "2019-06",
+        "text": "サービスを開始"
+      },
+      {
+        "date": "2024-05",
+        "text": "kakari調剤報酬事典をリニューアル"
+      },
+      {
+        "date": "2024-10",
+        "text": "アプリが100万ダウンロードを突破"
+      }
+    ],
+    "sources": [
+      "https://press.medpeer.co.jp/press/wp-content/uploads/2024/10/09155343/MedPeerNews_kakari20241010.pdf",
+      "https://press.medpeer.co.jp/press/wp-content/uploads/2024/05/27143932/MedPeerNews_kakari_20240530.pdf",
+      "https://itunes.apple.com/lookup?id=1453830040&country=jp"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-493dc901",
+    "name": "Pocket Musubi（おくすり連絡帳）",
+    "company": "カケハシ",
+    "companyId": "5011001110204",
+    "category": "pharmacy-dx",
+    "description": "薬局向け電子薬歴「Musubi」と連動する患者向けのおくすり連絡帳。LINEで処方箋送信、事前質問、服薬期間中のフォロー質問の自動送信ができる。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-11",
+    "milestones": [
+      {
+        "date": "2017-08",
+        "text": "薬局向け電子薬歴Musubiをリリース"
+      },
+      {
+        "date": "2020-11",
+        "text": "LINE版を開始（同社の採用情報による）"
+      },
+      {
+        "date": "2021-06",
+        "text": "処方箋送信機能を追加"
+      },
+      {
+        "date": "2022-07",
+        "text": "ネイティブアプリ「おくすり連絡帳」を公開（iOS）"
+      },
+      {
+        "date": "2025",
+        "text": "患者ユーザーが直近3年で約50万人から約400万人に増えたと採用情報で説明"
+      }
+    ],
+    "sources": [
+      "https://ascii.jp/elem/000/004/059/4059178/",
+      "https://herp.careers/v1/kakehashiinc/4WOuALuHDocE",
+      "https://itunes.apple.com/lookup?id=1594523400&country=jp"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-70b4a655",
+    "name": "ポケットファーマシー",
+    "company": "ポケットファーマシー販売（App Store上の提供者はMedical Front）",
+    "category": "pharmacy-dx",
+    "description": "クラウド型の電子お薬手帳。薬局に導入してもらい、患者アプリと連動する。行政の実証事業にも使われた。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "提供中",
+    "startedAt": "2013-12",
+    "milestones": [
+      {
+        "date": "2013-12",
+        "text": "アプリを公開（iOS）"
+      },
+      {
+        "date": "2014-08",
+        "text": "栃木県薬剤師会の厚労省予算の実証事業で、県内50薬局に導入"
+      },
+      {
+        "date": "2020-07",
+        "text": "シミックのharmoと協業し、情報配信やアンケートを共同で行う"
+      },
+      {
+        "date": "2026-01",
+        "text": "東和薬品のHanaサポート終了に伴い、ゲーミフィケーション機能の提供を受ける"
+      }
+    ],
+    "sources": [
+      "https://itunes.apple.com/lookup?id=784332002&country=jp",
+      "https://www.yakuji.co.jp/?p=37658",
+      "https://kyodonewsprwire.jp/release/202007071755",
+      "https://www.towayakuhin.co.jp/healthcare/hanasupport/user.php"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-ce53c98b",
+    "name": "ヘルスケア手帳",
+    "company": "パナソニックヘルスケア → PHC → ウィーメックス",
+    "category": "pharmacy-dx",
+    "description": "調剤レセコン「メディコム」のメーカーが薬局向けに提供する電子お薬手帳。処方箋の事前送信の機能がある。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "提供中",
+    "startedAt": "2014-07",
+    "milestones": [
+      {
+        "date": "2014-07",
+        "text": "アプリを公開（iOS）"
+      },
+      {
+        "date": "2023-04",
+        "text": "PHCのメディコム事業部とPHCメディコムが統合し、ウィーメックスとして事業を開始。提供元もウィーメックスに"
+      }
+    ],
+    "sources": [
+      "https://itunes.apple.com/lookup?id=886561237&country=jp",
+      "https://www.phchd.com/jp/medicom/park/tech/medicinenote"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-1b54b60f",
+    "name": "からだメモリ",
+    "company": "イオンリテール",
+    "category": "pharmacy-dx",
+    "description": "電子マネーWAONを使い、イオン薬局の利用者が携帯電話やPCで服薬と健康の記録を管理できる電子版お薬手帳。GMS（総合スーパー）で初めての電子お薬手帳とされた。",
+    "hp": "",
+    "startedYear": 2012,
+    "status": "不明",
+    "startedAt": "2012-11",
+    "milestones": [
+      {
+        "date": "2012-11",
+        "text": "約200店舗のイオン薬局で開始。2013年度中に全国へ広げる計画"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "その後の状況は、公開情報で確認できなかった。",
+    "sources": [
+      "https://www.yakuji.co.jp/?p=29419"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-122304bb",
+    "name": "服薬支援ロボ",
+    "company": "ケアボット（セントケア×クラリオン合弁）／クラリオン → 日立オムロンターミナルソリューションズ → 日立チャネルソリューションズ",
+    "category": "pharmacy-dx",
+    "description": "決められた時刻に、決められた薬だけを取り出せるようにする服薬支援装置。音声と画面で知らせる。介護施設や調剤薬局を通じて高齢者に提供している。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "譲渡",
+    "startedAt": "2015-02",
+    "endedAt": "2020-09",
+    "successor": "日立オムロンターミナルソリューションズ（現・日立チャネルソリューションズ）",
+    "milestones": [
+      {
+        "date": "2014-10",
+        "text": "セントケアとクラリオンが合弁会社ケアボットを設立。2015年2月から介護施設・調剤薬局向けに発売する計画"
+      },
+      {
+        "date": "2015-10",
+        "text": "日立システムズが服薬支援ロボを使った服薬支援クラウドサービスの販売を開始"
+      },
+      {
+        "date": "2020-09",
+        "text": "日立オムロンがクラリオンから開発・製造の資産を譲り受けて販売を開始。約70施設と300薬局を通じ、2,600人以上が利用"
+      },
+      {
+        "date": "2023-05",
+        "text": "日立チャネルソリューションズが、Wi-Fiを搭載できる新型を発売"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "クラリオンから日立オムロンへ資産が譲渡された。クラリオン側が手放した理由は公表されていない。",
+    "sources": [
+      "https://www.yakuji.co.jp/?p=39334",
+      "https://www.yakuji.co.jp/?p=81581",
+      "https://monoist.itmedia.co.jp/mn/articles/2305/25/news057.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-970561be",
+    "name": "eお薬さん",
+    "company": "エーザイ",
+    "category": "medical-device",
+    "description": "1日最大4回の服薬時刻に薬の小箱を押し出し、取り出すと家族や医師に最大5人までメールで知らせる服薬支援機器。薬局と施設だけで扱い、価格は8万5,000円（税抜き）。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "不明",
+    "startedAt": "2017-01",
+    "milestones": [
+      {
+        "date": "2017-01",
+        "text": "医療機関・薬局・介護施設向けに発売"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "発売後の販売状況や終了は、公開情報で確認できなかった。",
+    "sources": [
+      "https://www.yakuji.co.jp/?p=55666",
+      "https://business.nikkei.com/atcl/report/16/031000124/031500004/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-3448290d",
+    "name": "プレタールアシストシステム",
+    "company": "大塚製薬・NEC",
+    "category": "medical-device",
+    "description": "抗血小板薬プレタールOD錠の専用容器に、別売りの服薬アシストモジュールを付ける仕組み。LEDで服薬時刻を知らせ、取り出した記録をスマホに送り、薬剤師が残薬管理に使える。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "不明",
+    "startedAt": "2017-10",
+    "milestones": [
+      {
+        "date": "2016-09",
+        "text": "大塚製薬とNECが共同開発で合意"
+      },
+      {
+        "date": "2017-02",
+        "text": "専用容器を加える包装の一部変更を申請"
+      },
+      {
+        "date": "2017-07",
+        "text": "承認を取得。10月に発売する予定と報道"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "発売後の普及状況や販売終了の有無は、公開情報で確認できなかった。",
+    "sources": [
+      "https://jpn.nec.com/press/201609/20160907_02.html",
+      "https://www.yakuji.co.jp/?p=53346",
+      "https://www.yakuji.co.jp/?p=56054",
+      "https://nk.jiho.jp/article/p-1226586341869"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-d950ad35",
+    "name": "IoT薬箱「お薬飲んだ？」",
+    "company": "MEDIOTOLOGY（デンソーウェーブと共同）",
+    "category": "medical-device",
+    "description": "RFIDタグを付けた薬包の出し入れを検知し、iPhoneやApple Watchのアプリに自動で記録する薬箱。薬剤師や離れて暮らす家族も服薬状況を確認できる。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "不明",
+    "startedAt": "2022-03",
+    "milestones": [
+      {
+        "date": "2021-11",
+        "text": "デンソーウェーブと共同で発表。12月に実証実験を開始"
+      },
+      {
+        "date": "2022-03",
+        "text": "サービス提供を開始する予定と報道"
+      },
+      {
+        "date": "2023",
+        "text": "第56回日本薬剤師会学術大会に出展（同社サイト）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "会社サイトは公開されているが、商用提供の規模や状況は確認できなかった。",
+    "sources": [
+      "https://monoist.itmedia.co.jp/mn/articles/2112/15/news021.html",
+      "https://mediotology.com/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-38f804a6",
+    "name": "めでぃさぽ",
+    "company": "三菱電機ITソリューションズ → 三菱電機デジタルイノベーション",
+    "category": "nursing",
+    "description": "介護施設の服薬介助で、AI-OCRで読んだ薬包の名前とAI顔認証で確認した本人が一致したときだけ渡す仕組みにし、誤薬を防いで記録も残すツール。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-08",
+    "milestones": [
+      {
+        "date": "2024-08",
+        "text": "三菱電機ITソリューションズが提供を開始"
+      },
+      {
+        "date": "2025-04",
+        "text": "三菱電機デジタルイノベーションの設立に伴い、同社の事業になる"
+      }
+    ],
+    "sources": [
+      "https://www.mitsubishielectric.co.jp/medigital/news/2024/0828/",
+      "https://itunes.apple.com/lookup?id=6444246002&country=jp"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-b08ea295",
+    "name": "クロンお薬サポート（curonお薬サポート）",
+    "company": "MICIN",
+    "companyId": "1490001008208",
+    "category": "telemedicine",
+    "description": "薬局向けのオンライン服薬指導サービス。ビデオ通話で服薬指導し、決済して薬を配送する。他社のオンライン診療や電話診療で受診した患者にも対応する。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-07",
+    "milestones": [
+      {
+        "date": "2020-07",
+        "text": "ビデオ通話機能の提供を始め、オンライン服薬指導ができるようになる"
+      },
+      {
+        "date": "2020-11",
+        "text": "ココカラファインが全店に導入すると発表（2021年1月から）"
+      },
+      {
+        "date": "2023-06",
+        "text": "イオン薬局が全店に順次導入"
+      }
+    ],
+    "sources": [
+      "https://www.sbbit.jp/article/refers/47789",
+      "https://paymentnavi.com/paymentnews/131179.html",
+      "https://pha-support.curon.co/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-9e5e1c13",
+    "name": "SOKUYAKU",
+    "company": "メディカルジェイフロンティア",
+    "category": "telemedicine",
+    "description": "オンライン診療、オンライン服薬指導、処方薬の配送を1つのアプリで提供する患者向けサービス。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-02",
+    "milestones": [
+      {
+        "date": "2021-02",
+        "text": "アプリを公開（iOS）"
+      },
+      {
+        "date": "2025-01",
+        "text": "日本調剤のお薬手帳プラスと連携を開始"
+      }
+    ],
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1550447276&country=jp",
+      "https://www.logi-today.com/708391",
+      "https://sokuyaku.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-139b10ac",
+    "name": "ミナカラ（オンライン薬局）",
+    "company": "株式会社ミナカラ",
+    "companyId": "1011101068461",
+    "category": "pharmacy-dx",
+    "description": "オンライン服薬指導から処方薬・市販薬の配送までを担うオンライン薬局。2024年からはミナカラe-クリニックとして、予約・診療・服薬指導・会計・配送を一体で提供している。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2021-08",
+        "text": "ファミリーマートと共同で、店頭の受取BOXで処方薬を受け渡す実証「ファミマシー」を開始"
+      },
+      {
+        "date": "2021-10",
+        "text": "メドレーとドコモが全株式を共同取得（約1.9億円と報道）"
+      },
+      {
+        "date": "2024-02",
+        "text": "ドコモがメドレー保有分を取得し、完全子会社化を決定"
+      },
+      {
+        "date": "2024-12",
+        "text": "ミナカラe-クリニックを本格始動"
+      }
+    ],
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20211022_4480-3/",
+      "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html",
+      "https://www.family.co.jp/company/news_releases/2021/20210803_02.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-463a7da3",
+    "name": "ファミマシー（コンビニでの処方薬受け取り実証）",
+    "company": "ファミリーマート・ミナカラ（物流：セイノーグループ）",
+    "category": "pharmacy-dx",
+    "description": "ミナカラ薬局のオンライン服薬指導を受けて買った処方薬・市販薬を、都内のファミリーマート8店舗にある受取BOX「KEY STATION」で最短当日に受け取れるようにした実証。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "不明",
+    "startedAt": "2021-08",
+    "milestones": [
+      {
+        "date": "2021-07",
+        "text": "日本調剤も横浜市内のファミリーマート3店舗で、処方薬の受け渡し実証を開始"
+      },
+      {
+        "date": "2021-08",
+        "text": "都内8店舗で実証を開始"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "実証の終了時期と本格展開の有無は、公開情報で確認できなかった。",
+    "sources": [
+      "https://www.family.co.jp/company/news_releases/2021/20210803_02.html",
+      "https://www.yakuji.co.jp/?p=88324"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-363fa70f",
+    "name": "楽天ヘルスケア ヨヤクスリ",
+    "company": "楽天グループ",
+    "category": "pharmacy-dx",
+    "description": "調剤薬局を予約し、薬を受け取るか自宅配送にするかを選べるアプリ。2024年にお薬手帳を加え、2025年には薬局向けのオンライン服薬指導・配送の受付機能も加えた。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-04",
+    "milestones": [
+      {
+        "date": "2024-04",
+        "text": "アプリを公開（iOS）"
+      },
+      {
+        "date": "2024-12",
+        "text": "お薬手帳機能を追加"
+      },
+      {
+        "date": "2025-05",
+        "text": "オンライン服薬指導と配送受付の機能を追加と報道"
+      }
+    ],
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1664323607&country=jp",
+      "https://www.logi-today.com/702593"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-3dfa44f1",
+    "name": "スギスマホでお薬",
+    "company": "スギ薬局",
+    "category": "pharmacy-dx",
+    "description": "ドラッグストア大手スギ薬局の処方箋送信・お薬手帳アプリ。家族の登録、処方箋の写真送信、薬剤師とのチャット相談ができる。一部店舗でのトライアルとして展開している。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-05",
+    "milestones": [
+      {
+        "date": "2022-05",
+        "text": "アプリを公開（iOS）。一部店舗でトライアル"
+      }
+    ],
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1608268812&country=jp"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-2d02bfed",
+    "name": "健康おくすり手帳",
+    "company": "クラフト（さくら薬局）",
+    "category": "pharmacy-dx",
+    "description": "さくら薬局の公式お薬手帳アプリ。飲み合わせのチェック、服薬カレンダー・アラーム、薬剤師への相談、食事記録の機能がある。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-07",
+    "milestones": [
+      {
+        "date": "2022-07",
+        "text": "アプリを公開（iOS）"
+      },
+      {
+        "date": "2023-03",
+        "text": "全店舗で使えるようになったと報道"
+      }
+    ],
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1616449055&country=jp",
+      "https://www.yakuji.co.jp/?p=101655"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-3ff2acc1",
+    "name": "ホッペ（hoppe）",
+    "company": "ホッペ株式会社",
+    "category": "pharmacy-dx",
+    "description": "加盟薬局「ホッペクラブ」で調剤された薬を自動で登録する電子お薬手帳。処方箋の事前送信や、オンライン診療・服薬指導から配送までの機能がある。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "不明",
+    "startedAt": "2014-09",
+    "milestones": [
+      {
+        "date": "2014-09",
+        "text": "アプリを公開（iOS）"
+      },
+      {
+        "date": "2020-12",
+        "text": "新型コロナ下の時限的特例を受け、ホッペオンライン診療・服薬指導を展開"
+      },
+      {
+        "date": "2025-08",
+        "text": "App Storeでの最終更新"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "アプリは配信中だが、会社サイトに接続できず、現在の運営状況は確認できなかった。",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=909988242&country=jp",
+      "https://www.yakuji.co.jp/?p=83395"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-f123329f",
+    "name": "お薬ノート",
+    "company": "カラダノート",
+    "category": "personal-health-record",
+    "description": "個人向けの服薬・薬歴管理アプリ。飲み忘れ防止のアラームと服薬記録の機能があり、薬局は介さない。",
+    "hp": "",
+    "startedYear": 2012,
+    "status": "提供中",
+    "startedAt": "2012-03",
+    "milestones": [
+      {
+        "date": "2012-03",
+        "text": "アプリを公開（iOS）"
+      },
+      {
+        "date": "2025-09",
+        "text": "App Storeでの最終更新"
+      }
+    ],
+    "sources": [
+      "https://itunes.apple.com/lookup?id=508677361&country=jp"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ]
+  },
+  {
+    "id": "b-aee0bd1c",
+    "name": "TEPCOスマートホーム「遠くても安心プラン」",
+    "company": "東京電力エナジーパートナー株式会社（共同開発：ソニー）",
+    "category": "nursing",
+    "description": "分電盤に取り付けたエネルギーセンサーで家電ごとの使用状況を推定し、離れて暮らす家族にスマホアプリで知らせる見守りサービス。電力会社の契約先を問わず全国で月額課金した。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-08",
+    "endedAt": "2022-07",
+    "milestones": [
+      {
+        "date": "2017-08",
+        "text": "ソニーと共同開発した「TEPCOスマートホーム」の第1弾として「おうちの安心プラン」（月額3,280円）と「遠くても安心プラン」（月額2,980円）の受付を開始"
+      },
+      {
+        "date": "2018-01",
+        "text": "Google Home に対応した機能を追加し、キャンペーンで月額料金5か月無料などを実施"
+      },
+      {
+        "date": "2019-07",
+        "text": "センサーを買い取る形にして月額980円から使える新料金プランを追加し、1万円値引きキャンペーンを実施"
+      },
+      {
+        "date": "2022-07",
+        "text": "2022年7月31日でサービス終了（比較サイトの記載。東京電力の終了告知そのものは確認できなかった）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "理由は公表されていない。終了日は第三者の比較サイトの記載によるもので、東京電力エナジーパートナーの告知文は確認できなかった。",
+    "lessons": "値下げとキャンペーンを繰り返した後に終了しており、家族が月額を払い続ける見守りは単価を下げても広がりにくかったとみられる。分電盤の電力センサーで家電の使用を推定する見守りは、その後エナジーゲートウェイが自治体や事業者と組む形（家族の個人課金ではなく）で続けている。",
+    "sources": [
+      "https://kaden.watch.impress.co.jp/docs/news/1074684.html",
+      "https://www.tepco.co.jp/ep/notice/news/2018/1473222_8906.html",
+      "https://k-tai.watch.impress.co.jp/docs/news/1194740.html",
+      "https://homesecurity.jp/kaden-mimamori/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-44f1c03c",
+    "name": "見守りお手伝いサービス（カテエネ）",
+    "company": "中部電力ミライズ株式会社（旧 中部電力）",
+    "category": "nursing",
+    "description": "中部電力の会員サイト「カテエネ」の利用者向けに、電気の使用状況から離れて暮らす家族の様子を知らせた見守りサービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2023-03",
+    "successor": "中部電力ミライズコネクト「テラシテ」（有料見守りアプリ）",
+    "milestones": [
+      {
+        "date": "2022-07",
+        "text": "グループ会社の中部電力ミライズコネクトが有料見守りアプリ「テラシテ」を開始。これに伴い本サービスの終了を告知"
+      },
+      {
+        "date": "2023-03",
+        "text": "2023年3月31日で提供終了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "中部電力ミライズは、グループ会社による「テラシテ」の提供開始に伴って本サービスを終了すると告知した。グループ内での後継サービスへの切り替えで、それ以上の理由は公表されていない。",
+    "sources": [
+      "https://it.katene.chuden.jp/app/miraiz_app/noticeMng?key=202206_0321",
+      "https://miraiz.chuden.co.jp/info/press/1208620_1938.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-5da21fae",
+    "name": "くらしの近況お届けサービス「テラシテ」",
+    "company": "中部電力ミライズコネクト株式会社",
+    "category": "nursing",
+    "description": "スマートメーターの30分ごとの電力データから起床・就寝などの生活の様子を推定し、離れて暮らす家族のアプリに届ける見守りサービス。月額550円。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-07",
+    "milestones": [
+      {
+        "date": "2022-07",
+        "text": "名古屋市南区、各務原市、ツクイなどとの共同実証を経て提供開始。中部電力ミライズと契約する中部エリアの世帯が対象、月額550円（税込）"
+      },
+      {
+        "date": "2026-01",
+        "text": "UR都市機構が、UR賃貸住宅の高齢者向け見守りサービスの事業者に中部電力ミライズコネクトを選定（2026年4月から提供）"
+      }
+    ],
+    "sources": [
+      "https://miraiz.chuden.co.jp/info/press/1208620_1938.html",
+      "https://www.terashite.jp/",
+      "https://www.ur-net.go.jp/news/rquj5t000000ds9i-att/ur2026_press_0107_honsya.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-7baf16a9",
+    "name": "九電あんしんサポート「みまもりサポート」",
+    "company": "九州電力株式会社",
+    "category": "nursing",
+    "description": "電気の使用状況がいつもと違うときに家族へ連絡する見守りサービス。生活支援パッケージ「九電あんしんサポート」の第2弾として、九州電力と契約する家庭向けに有料で提供した。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "終了",
+    "startedAt": "2016-10",
+    "endedAt": "2025-10",
+    "milestones": [
+      {
+        "date": "2016-10",
+        "text": "「九電あんしんサポート」の第2弾として「みまもりサポート」を開始"
+      },
+      {
+        "date": "2025-03",
+        "text": "同シリーズの「親孝行サポート（定期訪問・定期電話）」などを終了。みまもりサポートは「サービス内容の改善に向けた準備のため」新規申込を停止"
+      },
+      {
+        "date": "2025-09",
+        "text": "2025年10月31日での提供終了を告知。リニューアルを検討中と説明"
+      },
+      {
+        "date": "2025-10",
+        "text": "提供終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "九州電力は「サービス品質向上を目的として」内容を一部変えたリニューアルを検討しているとしているが、終了の具体的な理由は公表していない。",
+    "sources": [
+      "https://www.kyuden.co.jp/press/2016/h161018-1.html",
+      "https://customer.kyuden.co.jp/ja/info/20250326-1.html",
+      "https://customer.kyuden.co.jp/ja/info/20250905-1.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-a7fa3acc",
+    "name": "はぴeまもるくん",
+    "company": "関西電力株式会社",
+    "category": "nursing",
+    "description": "会員サービス「はぴeみる電」の利用者向けに、スマートメーターの30分ごとの電力データから生活リズムを推定し、離れて暮らす家族に知らせる見守りサービス。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017-06",
+    "milestones": [
+      {
+        "date": "2017-01",
+        "text": "「はぴeみる電」のデータで生活リズムを知らせる新サービスを発表"
+      },
+      {
+        "date": "2017-06",
+        "text": "「はぴeまもるくん」の提供を開始（報道）。現在はスマート家電の使用状況を知らせる「IoT見守り」も同じブランドで案内している"
+      }
+    ],
+    "sources": [
+      "https://xtrend.nikkei.com/atcl/case/bdt/18/061500255/",
+      "https://kepco.jp/miruden/servicetop/useful/mamoru",
+      "https://www.kepco.co.jp/corporate/pr/2017/0126_1j.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-737cf63f",
+    "name": "家電情報によるくらし見守りサポート＋（まえばし暮らしテック推進事業）",
+    "company": "株式会社エナジーゲートウェイ（協業：ミライト・エックス、前橋市）",
+    "category": "nursing",
+    "description": "分電盤に設置した電力センサーで家電ごとの利用状況を推定し、一人暮らしの高齢者の様子を家族にアプリで知らせる。熱中症アラートや防災情報も配信。前橋市のデジタル田園都市交付金事業で構築した。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "終了",
+    "startedAt": "2023-04",
+    "endedAt": "2026-03",
+    "milestones": [
+      {
+        "date": "2023-04",
+        "text": "前橋市「まえばし暮らしテック推進事業」（デジタル田園都市国家構想推進交付金TYPE3）の一環として提供開始。センサー設置はミライト・エックス、データ分析はエナジーゲートウェイ"
+      },
+      {
+        "date": "2026-03",
+        "text": "2026年3月31日で提供終了（前橋市が告知）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "前橋市とエナジーゲートウェイは終了日のみを告知しており、理由は公表されていない。",
+    "lessons": "交付金で立ち上げた自治体の見守りサービスが3年で終わっており、交付金後の費用負担者を決めきれなかった可能性がある（推測）。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000018.000049578.html",
+      "https://www.city.maebashi.gunma.jp/soshiki/seisaku/seisakusuishin/gyomu/5/36564.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-912ed83b",
+    "name": "電気で見守りサービス",
+    "company": "株式会社ダスキン／株式会社エナジーゲートウェイ／東京電力パワーグリッド株式会社",
+    "category": "nursing",
+    "description": "高齢者宅の分電盤に設置した電力センサーの電力データから家電ごとの利用状況を推定し、日常生活の変化のサインを見える化する。ダスキンの家事代行・介護関連サービスとあわせて提供。",
+    "hp": "",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-09",
+    "milestones": [
+      {
+        "date": "2026-09",
+        "text": "3社が共同で企画・開発し、ダスキンライフケア東京地域で提供開始"
+      }
+    ],
+    "sources": [
+      "https://www.energy-gateway.co.jp/news/2026/09/duskin.html",
+      "https://www.jiji.com/jc/article?k=000001153.000005720&g=prt"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-ca6848a6",
+    "name": "見守りサービス「みまもメール」",
+    "company": "大阪ガスセキュリティサービス株式会社（Daigasグループ）",
+    "category": "nursing",
+    "description": "Daigasグループの警備会社が個人向けに提供した見守りサービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2025-04",
+    "milestones": [
+      {
+        "date": "2025-04",
+        "text": "2025年4月30日で新規販売を終了。契約中の顧客へのアフターサービスは継続"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "「諸般の事情により」新規販売を終了したとしており、具体的な理由は公表されていない。",
+    "sources": [
+      "https://www.oss-og.co.jp/news/information/post-13.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-850eae8c",
+    "name": "HOME ALSOK みまもりパック",
+    "company": "ALSOK（綜合警備保障株式会社）",
+    "category": "nursing",
+    "description": "高齢者が持つ「みまもりタグ」と自宅の感知器で外出・帰宅を家族に通知し、在宅時の異常にはガードマンが駆けつける見守りサービス。機器はレンタルで月額制。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-05",
+    "endedAt": "2026-03",
+    "successor": "ALSOKの別機種（継続希望者に提案）",
+    "milestones": [
+      {
+        "date": "2013-09",
+        "text": "高齢者向け見守りサービス「HOME ALSOKみまもりサポート」を発売（別商品）"
+      },
+      {
+        "date": "2017-05",
+        "text": "認知症高齢者の徘徊対策として、みまもりタグと感知器で外出・帰宅をメール・プッシュ通知する商品を発表"
+      },
+      {
+        "date": "2026-03",
+        "text": "利用に必要な3G回線の提供停止に伴い、2026年3月末で終了予定と案内"
+      }
+    ],
+    "endReasons": [
+      "infrastructure"
+    ],
+    "endReasonNote": "ALSOKは、サービスに必要な3G回線の提供停止に伴って終了すると説明している。",
+    "lessons": "見守り機器はLTE・3Gなどの回線を内蔵するものが多く、携帯各社の3G停波（2022〜2026年）が機器を入れ替えるか、やめるかを迫るきっかけになったとみられる。",
+    "sources": [
+      "https://www.alsok.co.jp/person/mimamoripack/",
+      "https://www.alsok.co.jp/company/news/news_details.htm?cat=2&id2=857",
+      "https://www.alsok.co.jp/company/news/news_details.htm?cat=2&id2=629"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-ca9229bb",
+    "name": "つながりほっとサポート",
+    "company": "株式会社NTTドコモ",
+    "category": "nursing",
+    "description": "らくらくホンなどの利用状況（歩数、電池残量など）や本人の体調情報を、あらかじめ指定した家族にメールで知らせる高齢者向けのあんしんサービス。",
+    "hp": "",
+    "startedYear": 2011,
+    "status": "終了",
+    "startedAt": "2011-04",
+    "endedAt": "2023-03",
+    "milestones": [
+      {
+        "date": "2011-04",
+        "text": "「らくらくホン ベーシック3」の発売とあわせて提供開始"
+      },
+      {
+        "date": "2022-11",
+        "text": "2023年3月31日での提供終了を発表。iモード版の新規申込は2023年2月21日まで"
+      },
+      {
+        "date": "2023-03",
+        "text": "提供終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "ドコモの発表は終了日と対象を示すのみで、理由は公表されていない。",
+    "lessons": "フィーチャーフォン（iモード）の縮小と時期が重なっており、端末の世代交代が機能を終える区切りになったとみられる。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2011/04/15_00.html",
+      "https://www.docomo.ne.jp/info/news_release/2022/11/09_00.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-b2056b79",
+    "name": "デジタル近居サービス「ちかく」",
+    "company": "株式会社NTTドコモ（開発：株式会社チカク）",
+    "category": "nursing",
+    "description": "親の家のテレビにつなぐ専用端末で在室状況を子のスマホに知らせ、そのままテレビ越しに話しかけられるサービス。専用料金プランは月額1,980円。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-03",
+    "milestones": [
+      {
+        "date": "2024-03",
+        "text": "ドコモが提供開始を発表"
+      },
+      {
+        "date": "2024-05",
+        "text": "全国のドコモショップで販売開始"
+      }
+    ],
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2024/03/08_01.html",
+      "https://www.chikaku.co.jp/press/20240507",
+      "https://chikaku.docomo.ne.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-78da2ce4",
+    "name": "まごチャンネル／まごチャンネル with SECOM",
+    "company": "株式会社チカク（協業：セコム）",
+    "category": "nursing",
+    "description": "スマホで撮った孫の動画や写真を、ネット環境のない実家のテレビに直接届ける専用端末と月額サービス。セコムのセンサーと組み合わせた見守り版もある。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-06",
+    "milestones": [
+      {
+        "date": "2016-06",
+        "text": "正式販売を開始（2016年4月下旬から順次出荷）"
+      },
+      {
+        "date": "2017-12",
+        "text": "シードとして1.5億円を調達（累計3億円超）。野村證券と協業"
+      },
+      {
+        "date": "2019-10",
+        "text": "シリーズBを終え累計調達額約10億円"
+      },
+      {
+        "date": "2019-12",
+        "text": "セコムの環境センサー「みまもりアンテナ」と接続した「まごチャンネル with SECOM」をセコムと発表（2020年1月販売開始）"
+      },
+      {
+        "date": "2021-04",
+        "text": "5億円を調達し累計約15億円"
+      },
+      {
+        "date": "2024-03",
+        "text": "NTTドコモと「ちかく」を開始"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000015422.html",
+      "https://www.mago-ch.com/news/2017-12-12",
+      "https://prtimes.jp/main/html/rd/p/000000022.000015422.html",
+      "https://www.secom.co.jp/corporate/release/2019/nr_20191210_2.html",
+      "https://www.chikaku.co.jp/press/vQ9s6Y2N"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-4937dca0",
+    "name": "みまもりほっとライン（iポット）",
+    "company": "象印マホービン株式会社",
+    "category": "nursing",
+    "description": "無線通信機を内蔵した電気ポット「iポット」の使用状況を、離れて暮らす家族にメールで知らせる見守りサービス。ネット回線不要、月額課金。",
+    "hp": "",
+    "startedYear": 2001,
+    "status": "提供中",
+    "startedAt": "2001-03",
+    "milestones": [
+      {
+        "date": "2001-03",
+        "text": "サービス開始。国内のIoT見守りの先駆けとされる"
+      },
+      {
+        "date": "2023-03",
+        "text": "象印独自のIoTプラットフォームでの運用へ移行するリニューアルを発表。賃貸管理会社向けの管理システムも追加"
+      }
+    ],
+    "sources": [
+      "https://www.zojirushi.co.jp/corp/history/2001.html",
+      "https://www.zojirushi.co.jp/corp/news/2023/230314/mimamori.html",
+      "https://www.zojirushi.co.jp/corp/sustainable-action/mimamori.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-a864996d",
+    "name": "郵便局のみまもりサービス（みまもり訪問サービス・みまもりでんわサービス）",
+    "company": "日本郵便株式会社",
+    "category": "nursing",
+    "description": "郵便局社員が月1回高齢者宅を訪問して約30分会話し、生活状況を家族に報告する訪問サービスと、自動音声電話で毎日体調を確認する電話サービス。家族などが月額料金を払う。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017-10",
+    "milestones": [
+      {
+        "date": "2017-10",
+        "text": "「みまもり訪問サービス」などの提供を開始"
+      },
+      {
+        "date": "2019-09",
+        "text": "かんぽ生命の不適切販売問題を受け、みまもりサービスの販売目標（ノルマ）を一時中止。局員が自ら契約する「自爆営業」が報じられた"
+      },
+      {
+        "date": "2023-07",
+        "text": "みまもり訪問サービス利用者1,331人（平均83.2歳）へのアンケート結果を公表"
+      }
+    ],
+    "sources": [
+      "https://www.post.japanpost.jp/life/mimamori/",
+      "https://www.post.japanpost.jp/notification/productinformation/2023/0724_01.html",
+      "https://www.asahi.com/articles/ASM9F7G56M9FOIPE02V.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-68ccafaf",
+    "name": "クロネコ見守りサービス ハローライト訪問プラン",
+    "company": "ヤマト運輸株式会社（協業：ハローライト株式会社）",
+    "category": "nursing",
+    "description": "通信機能付きのIoT電球「HelloLight」をトイレなどに付け、点灯・消灯がないと家族に通知し、依頼があればヤマト運輸の社員が代理で訪問する見守りサービス。個人・自治体向け。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-02",
+    "milestones": [
+      {
+        "date": "2020-06",
+        "text": "東京都多摩市で実証を開始"
+      },
+      {
+        "date": "2021-02",
+        "text": "全国（一部離島を除く）で利用者の募集を開始。日野市が設置費用の一部補助を開始"
+      },
+      {
+        "date": "2025-04",
+        "text": "月額料金を1,078円から1,738円（税込）に改定"
+      }
+    ],
+    "sources": [
+      "https://www.yamato-hd.co.jp/news/2020/news_210205.html",
+      "https://www.kuronekoyamato.co.jp/ytc/info/info_250110.html",
+      "https://nekosapo-order2.kuronekoyamato.co.jp/mimamori.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-95b51b19",
+    "name": "TTVみまもり",
+    "company": "多摩テレビ株式会社",
+    "category": "nursing",
+    "description": "ケーブルテレビ局が、自社のインターネット回線の利用者向けに提供したオプション。人感センサーやカメラの検知履歴をアプリで家族に知らせた。みまもりセンサーコースは月額1,155円。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "終了",
+    "startedAt": "2024-05",
+    "endedAt": "2026-09",
+    "milestones": [
+      {
+        "date": "2024-05",
+        "text": "インターネットサービスの新オプションとして提供開始"
+      },
+      {
+        "date": "2026-09",
+        "text": "2026年9月30日で終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知に理由は書かれていない。",
+    "lessons": "地域ケーブル局の見守りオプションは、蕨ケーブルビジョンの「わらび見守りサービス」（専用ICタグの生産終了と基地局の老朽化で2024年3月に終了）など、ほかにも終了例がある。",
+    "sources": [
+      "https://www.ttv.co.jp/info/120",
+      "https://www.ttv.co.jp/info/6874",
+      "https://www.catvwink.co.jp/info/1152"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-bd964810",
+    "name": "独居ケアアシスタント",
+    "company": "合同会社ネコリコ（中部電力とインターネットイニシアティブの合弁）",
+    "category": "nursing",
+    "description": "冷蔵庫の開閉などをセンサーで捉え、一人暮らしの高齢者の異常を自治体や賃貸住宅管理会社などに知らせる法人向け見守りサービス。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-04",
+    "endedAt": "2027-01",
+    "milestones": [
+      {
+        "date": "2020-04",
+        "text": "法人向けに提供開始。主に自治体の見守り事業で採用"
+      },
+      {
+        "date": "2025-07",
+        "text": "法人が1週間で見守り業務を始められるよう全面リニューアルし、ヘルプデスクを設置"
+      },
+      {
+        "date": "2026-07",
+        "text": "2027年1月13日での提供終了を告知"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "告知に理由は書かれていない。同じ時期にネコリコは個人向け「まもりこ」の直販サイトでの機器販売も終えている。",
+    "lessons": "全面リニューアルの1年後に終了を告知しており、自治体向けの見守り事業が規模を拡大しにくかったとみられる。",
+    "sources": [
+      "https://iotnews.jp/connected-home/151302/",
+      "https://www.necolico.co.jp/news/2025/07/24/release/dokkyo_renewal/",
+      "https://www.necolico.co.jp/news/2026/07/15/dokkyo/dokkyo_eol/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-12582d7b",
+    "name": "高齢者みまもりサービス「まもりこ」",
+    "company": "合同会社ネコリコ（中部電力とインターネットイニシアティブの合弁）",
+    "category": "nursing",
+    "description": "冷蔵庫に貼った振動センサーで開閉を検知し、離れて暮らす家族のアプリに様子を届ける個人向け見守りサービス。LTE内蔵でネット環境不要、月額制。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-08",
+    "milestones": [
+      {
+        "date": "2021-08",
+        "text": "第1世代の振動センサーを出荷し、サービス開始"
+      },
+      {
+        "date": "2023-06",
+        "text": "判定を1日2回から3回にした第2世代センサーを発売"
+      },
+      {
+        "date": "2026-06",
+        "text": "人感センサーを発売。従来アプリを新アプリ「まもりこ2」に切り替え"
+      },
+      {
+        "date": "2026-07",
+        "text": "対応センサーの累計出荷台数が1万台を突破"
+      },
+      {
+        "date": "2026-09",
+        "text": "直販サイトとYahoo!ショッピングでの機器販売を終了し、Amazonのみの販売に"
+      }
+    ],
+    "sources": [
+      "https://www.necolico.co.jp/news/2021/08/30/release/mamolico/",
+      "https://ascii.jp/elem/000/004/419/4419924/",
+      "https://www.necolico.co.jp/news/2026/09/30/mamolico/storeclose/",
+      "https://dempa-digital.com/article/227333"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-6d27bcac",
+    "name": "見守りKibiro（コミュニケーションロボット Kibiro 一般消費者向けモデル）",
+    "company": "株式会社FRONTEO",
+    "category": "nursing",
+    "description": "AI企業のFRONTEOが販売した家庭用コミュニケーションロボット。「離れて過ごす、家族をつなぐ見守り支援ロボット」として、家族とのメッセージ連携などを月額のサービス契約で提供した。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-02",
+    "endedAt": "2020-08",
+    "milestones": [
+      {
+        "date": "2017-02",
+        "text": "Kibiro を発売"
+      },
+      {
+        "date": "2017-12",
+        "text": "「見守りKibiro」として見守り支援用途で提供"
+      },
+      {
+        "date": "2019-08",
+        "text": "新規機体販売とサービス契約の新規・更新受付を終了"
+      },
+      {
+        "date": "2020-08",
+        "text": "サービス提供終了。法人向けの受付・接客ロボット「Kibiro for Biz」は継続"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "「諸般の事情を勘案し」終了するとしており、具体的な理由は公表されていない。",
+    "sources": [
+      "https://www.fronteo.com/hubfs/fronteo_assets/PDF/20190730.pdf",
+      "https://robotstart.info/article/2019/07/30/163211.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-2d271e72",
+    "name": "みまもりパペロ（PaPeRo i）",
+    "company": "日本電気株式会社（NEC）／NECプラットフォームズ株式会社",
+    "category": "nursing",
+    "description": "NECプラットフォームズのロボット「PaPeRo i」を一人暮らしの高齢者宅に置き、顔検知・音声認識・クラウドで声かけや家族への写真送信を行う見守りサービス。主に自治体向け。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "終了",
+    "startedAt": "2019-01",
+    "endedAt": "2022",
+    "milestones": [
+      {
+        "date": "2016-07",
+        "text": "NECプラットフォームズがロボット型オープンプラットフォーム「PaPeRo i」の出荷を開始"
+      },
+      {
+        "date": "2018-04",
+        "text": "愛媛県西条市で高齢者見守りの実証"
+      },
+      {
+        "date": "2019-01",
+        "text": "「みまもりパペロ」の提供を開始（報道）"
+      },
+      {
+        "date": "2020-08",
+        "text": "福井県坂井市へ提供（COVID-19対策として）。同年、静岡県藤枝市、滋賀県長浜市でも導入・実証"
+      },
+      {
+        "date": "2022-01",
+        "text": "パートナー企業の「いまイルモ PaPeRo i」が、NECプラットフォームズとのパートナー契約終了に伴い2022年3月末でレンタル終了と告知。別のパートナー企業ソフィアプランニングも「PaPeRo i はサービスの提供を終了」と案内（時期の記載なし）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "NEC・NECプラットフォームズによる終了告知は確認できなかった。パートナー企業の告知に「パートナー契約終了」とあるのみで、理由は公表されていない。終了時期も2022年3月前後という以上は特定できていない。",
+    "lessons": "2020年の報道ではロボット各社が「バブルは終わった」と話しており、自治体の実証から先の継続課金にはつながらなかったとみられる。",
+    "sources": [
+      "https://jpn.nec.com/press/201811/20181108_01.html",
+      "https://jpn.nec.com/press/202008/20200804_01.html",
+      "https://robotstart.info/article/2020/06/26/209774.html",
+      "https://jpn.nec.com/press/202009/20200909_02.html",
+      "https://xtech.nikkei.com/atcl/nxt/column/18/00001/04748/",
+      "https://www.imairumo.com/711/",
+      "http://www.sophia-i.co.jp/?page_id=1481"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-5f599d25",
+    "name": "コミュニケーションロボット「PALRO」高齢者福祉施設向けモデル",
+    "company": "富士ソフト株式会社",
+    "category": "nursing",
+    "description": "介護施設でレクリエーションの進行や会話、体操の指導を行う人型コミュニケーションロボット。施設向けモデルと家庭向けギフトパッケージを販売し、クラウドサービスと修理受付も提供した。",
+    "hp": "",
+    "startedYear": 2012,
+    "status": "終了",
+    "startedAt": "2012-06",
+    "endedAt": "2026-03",
+    "milestones": [
+      {
+        "date": "2010",
+        "text": "PALRO を発売"
+      },
+      {
+        "date": "2012-06",
+        "text": "高齢者福祉施設向けモデルを発売"
+      },
+      {
+        "date": "2018-04",
+        "text": "約1,000施設に導入。家庭向けに展開（報道）"
+      },
+      {
+        "date": "2019",
+        "text": "全国1,200か所以上に導入（かながわ福祉サービス振興会の掲載情報）"
+      },
+      {
+        "date": "2025-12",
+        "text": "販売終了を発表。ギフトパッケージは2025年12月末、施設向けモデルは2026年3月末で販売終了"
+      },
+      {
+        "date": "2027-03",
+        "text": "施設向けモデルのクラウドサービス・修理受付を終了予定（ギフトパッケージは2027年12月）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "富士ソフトは「事業環境の変化および市場ニーズの変動を踏まえ」販売を終了すると説明している。具体的な数字は示しておらず、今後は培った技術を新しいソリューション開発に生かすとしている。",
+    "lessons": "10年以上続き1,000施設超に入った製品でも終了しており、施設向けロボットはハード更新と保守の負担が重かった可能性がある（推測）。",
+    "sources": [
+      "https://www.fsi.co.jp/company/news/20251219.html",
+      "https://palro.jp/ja/info/2026/04/5751.html",
+      "https://www.fsi.co.jp/blog/2423/",
+      "https://xtech.nikkei.com/atcl/nxt/column/18/00001/00282/",
+      "https://carerobot.kanafuku.jp/search/robot020.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-a8ea910b",
+    "name": "HitomeQ（ひとめく）ケアサポート",
+    "company": "コニカミノルタQOLソリューションズ株式会社（コニカミノルタ子会社。2022〜2026年は丸紅が49%出資）",
+    "category": "nursing",
+    "description": "居室の天井に付けた行動分析センサー（カメラ）で起床・離床・転倒などを検知し、映像つきで介護スタッフのスマホに通知する介護施設向け見守りシステム。ナースコール・記録とも連携する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2018-12",
+        "text": "介護事業を担うコニカミノルタQOLソリューションズを設立"
+      },
+      {
+        "date": "2021-07",
+        "text": "「介護業界の働き方改革をDXで支援する」サービスとしてHitomeQ ケアサポートのニュースリリースを発表"
+      },
+      {
+        "date": "2022-03",
+        "text": "丸紅がコニカミノルタQOLソリューションズに49%出資し、データビジネスを含む介護DXで協業"
+      },
+      {
+        "date": "2026-02",
+        "text": "コニカミノルタが丸紅保有の49%を買い戻して完全子会社化。「一定の成果」があったうえで出資形態を「発展的に見直す」と説明"
+      }
+    ],
+    "sources": [
+      "https://www.konicaminolta.com/jp-ja/newsroom/2022/0328-01-01.html",
+      "https://www.projectdesign.jp/articles/news/916db6c5-000e-4a66-9d68-a109ae78d78d",
+      "https://www.konicaminolta.com/jp-ja/newsroom/2021/0701-02-01.html",
+      "https://www.konicaminolta.com/jp-ja/care-support/company/about/index.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-a90563e8",
+    "name": "ライフレンズ",
+    "company": "パナソニック ホールディングス株式会社（協業：Vieureka株式会社）",
+    "category": "nursing",
+    "description": "ベッドのシート型センサーとAIカメラで、介護施設の入居者の睡眠・離床などの状態をリアルタイムに可視化し、夜間巡視の負担を減らす介護施設向けサービス。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-07",
+    "milestones": [
+      {
+        "date": "2016",
+        "text": "前身として介護施設向け「みまもり安心サービス」を提供開始"
+      },
+      {
+        "date": "2020-07",
+        "text": "「ライフレンズ」の提供を開始"
+      },
+      {
+        "date": "2023-03",
+        "text": "排泄センサーとの連携オプションを開始"
+      },
+      {
+        "date": "2026-03",
+        "text": "Vieurekaと、AIカメラでトイレ入退室を検知する新機能を提供開始"
+      }
+    ],
+    "sources": [
+      "https://news.panasonic.com/jp/press/jn200713-1",
+      "https://news.panasonic.com/jp/press/jn230119-1",
+      "https://news.panasonic.com/jp/press/jn260327-1"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-cfe27d8e",
+    "name": "眠りSCAN",
+    "company": "パラマウントベッド株式会社",
+    "category": "nursing",
+    "description": "マットレスの下に敷くシート型センサーで、睡眠・覚醒・起き上がり・離床や呼吸・心拍に相当する体動を測り、介護施設・病院のスタッフに知らせる見守り機器。",
+    "hp": "",
+    "startedYear": 2009,
+    "status": "提供中",
+    "startedAt": "2009-05",
+    "milestones": [
+      {
+        "date": "2009-05",
+        "text": "発売"
+      },
+      {
+        "date": "2023-08",
+        "text": "累計約16万台を納入"
+      },
+      {
+        "date": "2023-09",
+        "text": "クラウド管理できる見守り製品を発表"
+      }
+    ],
+    "sources": [
+      "https://www.paramount.co.jp/news/727/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-8d56d8cd",
+    "name": "ライブコネクト",
+    "company": "株式会社Z-Works",
+    "category": "nursing",
+    "description": "居室に置いた複数のセンサーで睡眠・心拍・呼吸・離床・トイレ回数などを検知し、介護スタッフに知らせる介護施設・在宅向けの見守りシステム。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2017-06",
+        "text": "総額4億円を調達（報道）"
+      },
+      {
+        "date": "2022-02",
+        "text": "見守り機能を強化する新サービスを発表"
+      },
+      {
+        "date": "2025-10",
+        "text": "第三者割当増資とベンチャーデットで総額7億円を調達。直近3年で導入施設の総床数が約4倍、2026年3月末までに1万2,000台稼働の見込みと報道"
+      }
+    ],
+    "sources": [
+      "https://japan.cnet.com/article/35102540/",
+      "https://www.nikkan.co.jp/releases/view/134230",
+      "https://kepple.co.jp/articles/fmx08cfss",
+      "https://www.nikkei.com/article/DGXZQOUC033NY0T01C25A0000000/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-3a080ed7",
+    "name": "A.I.Viewlife（看護・介護見守りロボット）",
+    "company": "エイアイビューライフ株式会社",
+    "companyId": "8010001182713",
+    "category": "nursing",
+    "description": "広角の赤外線センサーで居室の入居者の姿勢や動きを捉え、生体センサーとも連動して転倒・離床などを職員に知らせる介護施設・病院向けの見守り機器。プライバシーに配慮した映像処理が特徴。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2017-04",
+        "text": "設立"
+      },
+      {
+        "date": "2018-02",
+        "text": "資金調達を実施し、ATRとの共同開発に着手"
+      },
+      {
+        "date": "2020",
+        "text": "厚生労働省「介護ロボット導入活用事例集2020」に掲載"
+      },
+      {
+        "date": "2024-12",
+        "text": "シリーズBの資金調達"
+      }
+    ],
+    "sources": [
+      "https://initial.inc/companies/A-29693",
+      "https://aiview.life/",
+      "https://www.mhlw.go.jp/content/12300000/000765226.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-8e89edf6",
+    "name": "OwlCare（介護施設向け見守り統合システム）",
+    "company": "EMC Healthcare",
+    "companyId": "1010401129782",
+    "category": "nursing",
+    "description": "ナースコール、カメラ、各種見守りセンサーを1つのアプリに統合し、行動検知AIで介護スタッフに必要な情報を届ける介護施設向けサービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2026-05",
+        "text": "有料老人ホームのスーパー・コートが計25施設への導入を発表"
+      }
+    ],
+    "sources": [
+      "https://www.owlcare.app/",
+      "https://prtimes.jp/main/html/rd/p/000000021.000024862.html",
+      "https://www.supercourt.jp/news/news-12648/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-d47323f2",
+    "name": "非接触見守りセンサー（Tellus／POM）",
+    "company": "Tellus You Care合同会社",
+    "companyId": "5011003010897",
+    "category": "nursing",
+    "description": "ミリ波レーダーで睡眠・心拍・呼吸などを非接触で測る米国発の見守りデバイス。日本では介護施設での実証と、個人向けデバイス「POM」の販売を手がけた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "endedAt": "2024-07",
+    "milestones": [
+      {
+        "date": "2021-12",
+        "text": "神戸市・NTTドコモなどと、介護施設での非接触センサーによる科学的介護の実証を開始"
+      },
+      {
+        "date": "2023-08",
+        "text": "ソースネクストと個人向け見守りデバイス「POM」の国内販売で協業し、Makuakeで販売開始"
+      },
+      {
+        "date": "2024-07",
+        "text": "日本法人（Tellus You Care合同会社）の清算が結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "日本法人の清算結了は登記で確認できるが、日本での事業をやめた理由は公表されていない。POMの販売が続いているかは確認できなかった。",
+    "sources": [
+      "https://www.jetro.go.jp/invest/investment_environment/success_stories/tellusyoucare.html",
+      "https://project.nikkeibp.co.jp/atclppp/PPP/news/122202253/",
+      "https://prtimes.jp/main/html/rd/p/000000006.000061603.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011003010897"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-b97e8195",
+    "name": "あんしんサポートの見守りサービス（センサー＋コールセンター）",
+    "company": "株式会社あんしんサポート（提携：株式会社ヤモリ）",
+    "category": "nursing",
+    "description": "看護師などが24時間常駐するコールセンターと、居室に置いたセンサーを組み合わせ、賃貸住宅に住む高齢者の安否確認を行う見守りサービス。主に不動産オーナー・管理会社向け。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2025-08",
+        "text": "従来使っていた加速度センサーの販売中止でサービス継続が難しくなったため、ヤモリのSigfox対応人感センサー「みまもりヤモリ」に切り替える提携を発表"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000017.000033136.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-f71edf49",
+    "name": "TOKAI見守りサービス",
+    "company": "株式会社TOKAI／TOKAIセキュリティ（TOKAIグループ）",
+    "category": "nursing",
+    "description": "LPガス・都市ガス事業のTOKAIグループが、家の中の見守りセンサーが捉えた動きの回数や万歩計の歩数を家族にメールで知らせた見守りサービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2025-03",
+    "milestones": [
+      {
+        "date": "2024-03",
+        "text": "2025年3月31日での終了を告知（TOKAIセキュリティのお知らせ。検索エンジンに残る告知文で確認。告知ページは確認時にメンテナンス中で開けなかった）"
+      },
+      {
+        "date": "2025-03",
+        "text": "提供終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "告知は「誠に勝手ながら」終了するとしており、理由は公表されていない。",
+    "sources": [
+      "https://www.tokai-security.jp/news_topics/news.php?id=4",
+      "https://www.lpg.tokai.jp/service/mimamori/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-2c5a9ad6",
+    "name": "ここココ for シニア（個人向けGPS見守り）",
+    "company": "ビット・パーク株式会社",
+    "category": "nursing",
+    "description": "GPS端末を高齢者に持たせ、家族がパソコンやスマホで位置を検索できる個人向けの見守りサービス。子ども向けの「ここココ for キッズ」とともに提供した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2019-06",
+    "successor": "高齢者向けはパートナー企業ケアミックスの「認知症徘徊GPSセンター」を案内。法人・自治体向けの「ここココ」は継続",
+    "milestones": [
+      {
+        "date": "2019-06",
+        "text": "個人向け見守りサービス（キッズ・シニア）の新規取り扱いを終了。法人・自治体向けに絞る"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "理由は公表されていない。個人向けをやめ、法人・自治体向けに絞った。",
+    "sources": [
+      "https://co4.bitpark.co.jp/mimamori/",
+      "https://www.techno-tais.jp/PDFFile/02140000001_1.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "elderly-monitoring"
+    ]
   }
 ]
