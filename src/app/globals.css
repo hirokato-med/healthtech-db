@@ -598,3 +598,4 @@ h1, h2, h3, .sec-title h2, .section-head h2, .page-head h1, .box > h2, .panel h3
 .co-scope { margin: 8px 0 0; font-size: 13.5px; line-height: 1.7; color: var(--muted); }
 .co-scope b { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 4px; background: var(--bg-2); color: var(--muted); font-size: 12px; }
 .co-scope.warn b { background: #fdf0e6; color: #b45309; }
+.former-corp { line-height: 1.6; } .former-corp .small { display: block; }

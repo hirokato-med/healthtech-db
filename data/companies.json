@@ -296,8 +296,8 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [],
-    "corporateNumber": "4010901019431",
-    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010901019431",
+    "corporateNumber": "6010401014716",
+    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401014716",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "formerNames": [
@@ -306,7 +306,7 @@
     "history": [
       {
         "date": "2025-04",
-        "text": "DB登録の法人番号は持株会社スヴェンソンホールディングスで、2025年4月1日に事業会社の株式会社スヴェンソン（6010401014716）へ吸収合併"
+        "text": "2025年4月1日、事業会社の株式会社スヴェンソンが持株会社の株式会社スヴェンソンホールディングスを吸収合併"
       }
     ],
     "sources": [
@@ -324,6 +324,13 @@
       "レディス スヴェンソン（医療用ウィッグ含む）",
       "レフィーネ",
       "フラガール"
+    ],
+    "formerCorporateNumbers": [
+      {
+        "number": "4010901019431",
+        "until": "2025-04",
+        "note": "持株会社スヴェンソンホールディングス。事業会社への吸収合併で消滅"
+      }
     ]
   },
   {
@@ -869,7 +876,7 @@
       "藤井勝博"
     ],
     "exit": "バイアウト",
-    "parentCompany": "EQT（Curie1株式会社）",
+    "parentCompany": "EQT（Curie1株式会社として買収）",
     "relatedCompanies": [],
     "corporateNumber": "7010401191983",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401191983",
@@ -877,8 +884,20 @@
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "history": [
       {
+        "date": "2025-07",
+        "text": "EQT傘下の Curie1株式会社 を設立（本店は東京・麻布台）"
+      },
+      {
         "date": "2025-09",
-        "text": "2025年9月 EQT傘下Curie1株式会社のTOB成立、2025年12月 東証プライム上場廃止。2026年4月1日にCurie1（同日ケアネットに商号変更、法人番号7010401191983）へ吸収合併"
+        "text": "投資ファンドEQT傘下の Curie1株式会社 による株式の公開買付け（TOB）が成立"
+      },
+      {
+        "date": "2025-12",
+        "text": "東証プライム市場で上場廃止"
+      },
+      {
+        "date": "2026-04",
+        "text": "2026年4月1日、Curie1株式会社がケアネットを吸収合併し、同日に Curie1 自身が「株式会社ケアネット」に商号変更。社名と事業はそのままで、法人が入れ替わった（旧法人は同日に厚生年金の適用事業所も全喪）"
       }
     ],
     "sources": [
@@ -887,7 +906,8 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010001075490",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401191983",
       "https://carenet.co.jp/company/",
-      "https://carenet.co.jp/"
+      "https://carenet.co.jp/",
+      "https://www.nenkin.go.jp/do/search_section/"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -904,6 +924,13 @@
       "MRPlus",
       "医師の人材紹介",
       "CRO・CSO"
+    ],
+    "formerCorporateNumbers": [
+      {
+        "number": "4010001075490",
+        "until": "2026-04",
+        "note": "Curie1株式会社への吸収合併で消滅"
+      }
     ]
   },
   {
@@ -7307,8 +7334,8 @@
     "exit": "未上場",
     "parentCompany": "トライトグループ",
     "relatedCompanies": [],
-    "corporateNumber": "9120001182305",
-    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9120001182305",
+    "corporateNumber": "8010001254982",
+    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010001254982",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "origin": "トライトグループ（旧TSグループ）子会社",
@@ -7317,8 +7344,16 @@
     ],
     "history": [
       {
+        "date": "2025-05",
+        "text": "新会社「TCG2505株式会社」を設立（本店は東京・丸の内）"
+      },
+      {
+        "date": "2026-01",
+        "text": "TCG2505株式会社が「株式会社トライトキャリア」に商号変更し、本店を大阪へ移す"
+      },
+      {
         "date": "2026-04",
-        "text": "DB登録の法人（9120001182305）は2026年4月1日 TCG2505株式会社（同年1月にトライトキャリアへ商号変更、法人番号8010001254982）に吸収合併。社名は同じ"
+        "text": "2026年4月1日、新会社が旧トライトキャリアを吸収合併。社名と事業はそのままで、法人が入れ替わった"
       }
     ],
     "sources": [
@@ -7338,6 +7373,13 @@
     "formerRepresentatives": [
       {
         "name": "笹井英孝"
+      }
+    ],
+    "formerCorporateNumbers": [
+      {
+        "number": "9120001182305",
+        "until": "2026-04",
+        "note": "新会社への吸収合併で消滅"
       }
     ]
   },
@@ -12704,8 +12746,12 @@
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "history": [
       {
+        "date": "2024-02",
+        "text": "ジャフコ グループが受け皿会社「株式会社ジャフコグループSID-5」を設立（本店はジャフコグループ内）"
+      },
+      {
         "date": "2025-01",
-        "text": "2025年1月1日 ジャフコ グループの買収SPC「株式会社ジャフコグループSID-5」（同日Oh my teethに商号変更、法人番号4010401180337）に吸収合併"
+        "text": "2025年1月1日、ジャフコ グループが買収のために設立した受け皿会社「株式会社ジャフコグループSID-5」が Oh my teeth を吸収合併し、同日に「株式会社Oh my teeth」へ商号変更。社名と事業はそのままで、法人が入れ替わった（旧法人は同日に厚生年金の適用事業所も全喪）"
       }
     ],
     "sources": [
@@ -12713,7 +12759,8 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401180337",
       "https://www.oh-my-teeth.com/company",
       "https://www.oh-my-teeth.com/news",
-      "https://prtimes.jp/main/html/rd/p/000000127.000048884.html"
+      "https://prtimes.jp/main/html/rd/p/000000127.000048884.html",
+      "https://www.nenkin.go.jp/do/search_section/"
     ],
     "updatedAt": "2026-10",
     "overview": "2019年10月設立。歯科技工所を営み、提携医療機関の矯正歯科医が診断・治療を行うマウスピース矯正「Oh my teeth」を企画・運営する。初診で歯型をスキャンした後は、自宅に届くマウスピースで矯正を進め、週1回の写真診察とLINEでのサポートを受ける仕組み。予約・問診・決済・診療管理の基盤も自社で開発している。2025年1月にジャフコ グループの買収SPCと合併した。2026年5月には米国の矯正歯科学会「AAO 2026」に出展するなど、海外展開の準備を進める。",
@@ -12722,6 +12769,13 @@
       "Oh my teeth（マウスピース矯正）",
       "Basicプラン",
       "Liteプラン"
+    ],
+    "formerCorporateNumbers": [
+      {
+        "number": "7010701038372",
+        "until": "2025-01",
+        "note": "株式会社ジャフコグループSID-5への吸収合併で消滅"
+      }
     ]
   },
   {
@@ -14063,16 +14117,28 @@
       "浅倉宏至"
     ],
     "exit": "バイアウト",
-    "parentCompany": "JMDC",
+    "parentCompany": "株式会社JMDC",
     "relatedCompanies": [],
-    "corporateNumber": "4130001055704",
-    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130001055704",
+    "corporateNumber": "4130001074662",
+    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130001074662",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "history": [
       {
         "date": "2022-07",
-        "text": "2022年7月 JMDCグループに参画。DB登録の法人（4130001055704）は2023年7月JMDCに吸収合併（医療DB構築事業をJMDCへ移管）。同名社がJMDCグループとして事業継続（代表取締役 浅倉宏至、尾板靖子は会長）"
+        "text": "JMDCグループに参画"
+      },
+      {
+        "date": "2023-07",
+        "text": "新会社「株式会社リアルワールドデータ」を設立"
+      },
+      {
+        "date": "2023-08",
+        "text": "旧リアルワールドデータ株式会社（京都）がJMDCに吸収合併され解散し、医療データベース構築事業をJMDCへ移管。新会社が「リアルワールドデータ株式会社」の社名を引き継ぎ、事業を続ける"
+      },
+      {
+        "date": "2025-08",
+        "text": "本店を京都から東京へ移転（2026年5月に港区芝大門、JMDC本社と同じビルへ）"
       }
     ],
     "sources": [
@@ -14080,7 +14146,8 @@
       "https://rwdata.co.jp/company/",
       "https://www.jmdc.co.jp/profile/",
       "https://rwdata.co.jp/",
-      "https://rwdata.co.jp/news/"
+      "https://rwdata.co.jp/news/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130001074662"
     ],
     "updatedAt": "2026-10",
     "formerRepresentatives": [
@@ -14093,6 +14160,13 @@
     "products": [
       "TidyMed",
       "HYBPMS（追加データ収集型製造販売後DB調査）"
+    ],
+    "formerCorporateNumbers": [
+      {
+        "number": "4130001055704",
+        "until": "2023-08",
+        "note": "JMDCへの吸収合併で解散"
+      }
     ]
   },
   {
@@ -14294,14 +14368,18 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [],
-    "corporateNumber": "8010001145166",
-    "corporateNumberUrl": "https://www.houjin.info/detail/8010001145166/",
+    "corporateNumber": "7020001138756",
+    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7020001138756",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "history": [
       {
+        "date": "2020-11",
+        "text": "新会社「IAM株式会社」を設立"
+      },
+      {
         "date": "2022-04",
-        "text": "DB登録の法人（8010001145166）は2022年4月1日 IAM株式会社（同日PSTに商号変更、横浜市、法人番号7020001138756）に吸収合併。社名は同じ"
+        "text": "2022年4月1日、IAM株式会社が「PST株式会社」に商号変更し、旧PST株式会社を吸収合併。社名と事業はそのままで、法人が入れ替わった"
       }
     ],
     "sources": [
@@ -14316,6 +14394,13 @@
     "products": [
       "MIMOSYS",
       "VOISLOG"
+    ],
+    "formerCorporateNumbers": [
+      {
+        "number": "8010001145166",
+        "until": "2022-04",
+        "note": "新会社への吸収合併で消滅"
+      }
     ]
   },
   {

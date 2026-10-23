@@ -25,6 +25,12 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 6);
   const parent = c.parentCompany ? findCompanyByName(c.parentCompany) : undefined;
   const empAsOf = c.employeesAsOf ? c.employeesAsOf.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`) : c.source.includes('2021-09') ? '2021年' : '';
+  const srcLabel = (u: string) => {
+    const corp = u.match(/houjin-bangou\.nta\.go\.jp.*selHouzinNo=(\d{13})/)?.[1];
+    if (corp) return `国税庁 法人番号公表サイト（${corp}）`;
+    if (u.includes('nenkin.go.jp/do/search_section')) return '日本年金機構 適用事業所検索';
+    return u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 48);
+  };
   const ym = (s: string) => s.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年');
   const personLink = (n: string) => { const p = people.find((x) => x.name === n); return p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n; };
   const articles = getArticles().filter((a) => a.companies?.some((n) => findCompanyByName(n)?.id === c.id));
@@ -140,6 +146,10 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               {c.parentCompany && (<><dt>親会社</dt><dd>{parent ? <Link href={`/companies/${parent.id}/`}>{c.parentCompany}</Link> : c.parentCompany}</dd></>)}
               {c.relatedCompanies.length > 0 && (<><dt>関連会社</dt><dd>{c.relatedCompanies.map((n, i) => { const r = findCompanyByName(n); return (<span key={n}>{i > 0 && '、'}{r && r.id !== c.id ? <Link href={`/companies/${r.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.corporateNumber && (<><dt>法人番号</dt><dd className="mono"><a href={c.corporateNumberUrl || `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=${c.corporateNumber}`} target="_blank" rel="noreferrer">{c.corporateNumber}</a></dd></>)}
+              {c.formerCorporateNumbers?.length ? (<><dt>旧法人番号</dt><dd>{c.formerCorporateNumbers.map((f) => (
+                <div key={f.number} className="former-corp"><a className="mono" href={`https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=${f.number}`} target="_blank" rel="noreferrer">{f.number}</a>
+                  <span className="small muted">{f.until ? `${ym(f.until)}まで` : ''}{f.note ? `（${f.note}）` : ''}</span></div>
+              ))}</dd></>) : null}
             </dl>
           </section>
           <section className="notice">
@@ -148,7 +158,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               出典: {c.source}{c.updatedAt && c.source.indexOf(c.updatedAt) < 0 ? `／${c.updatedAt.replace('-', '年')}月 編集部確認` : ''}
               {c.sources?.length ? (
                 <ul className="co-src">
-                  {c.sources.slice(0, 5).map((u) => <li key={u}><a href={u} target="_blank" rel="noreferrer">{u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 48)}</a></li>)}
+                  {c.sources.slice(0, 5).map((u) => <li key={u}><a href={u} target="_blank" rel="noreferrer">{srcLabel(u)}</a></li>)}
                 </ul>
               ) : null}
             </div>
