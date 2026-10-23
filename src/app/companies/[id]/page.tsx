@@ -5,7 +5,8 @@ import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { categoryName, findCompanyByName, getArticles, getCompanies, getCompany, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { forecastLabel, forecastOf, money, pct, yoy } from '@/lib/earnings';
 
 export function generateStaticParams() {
   return getCompanies().map((c) => ({ id: c.id }));
@@ -22,6 +23,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const services = servicesOf(c.id);
   const people = peopleOf(c.id);
   const news = newsOf(c).slice(0, 10);
+  const reports = getEarnings()[c.id] ?? [];
+  const discl = c.securitiesCode ? getDisclosures().filter((d) => d.companyId === c.id).slice(0, 8) : [];
   const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 6);
   const empAsOf = c.employeesAsOf ? c.employeesAsOf.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`) : c.source.includes('2021-09') ? '2021年' : '';
   const srcLabel = (u: string) => {
@@ -93,6 +96,47 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                 )}
               </dl>
               <p className="muted small" style={{ marginTop: 8 }}>公式サイトの事業内容・お知らせとプレスリリースから編集部がまとめました（{ym(c.profile.checkedAt)}確認）。</p>
+            </section>
+          )}
+
+          {c.securitiesCode && (
+            <section className="panel">
+              <h3>決算<small className="muted" style={{ marginLeft: 8, fontWeight: 400 }}>{c.listedMarket}・{c.securitiesCode}</small></h3>
+              {reports.length ? (
+                <div className="earn-wrap">
+                  <table className="earn-table compact">
+                    <thead><tr><th>決算期</th><th>売上高</th><th>前年比</th><th>営業利益</th><th>純利益</th><th>会社予想（売上高／営業利益）</th></tr></thead>
+                    <tbody>
+                      {reports.map((r) => {
+                        const g = yoy(r.current?.revenue, r.prior?.revenue), f = forecastOf(r);
+                        return (
+                          <tr key={r.date + r.label}>
+                            <td className="nw">{r.pdf ? <a href={r.pdf} target="_blank" rel="noreferrer">{r.label.replace(/（中間期）/, '')}</a> : r.label}<small>{r.date.replace(/-/g, '/')} 発表</small></td>
+                            <td className="num">{money(r.current?.revenue)}</td>
+                            <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{pct(g)}</td>
+                            <td className={`num ${(r.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.operatingIncome)}</td>
+                            <td className={`num ${(r.current?.netIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.netIncome)}</td>
+                            <td className="num fc">{f ? <>{money(f.revenue)}／{money(f.operatingIncome)}<small>{forecastLabel(r)}</small></> : '—'}</td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              ) : (
+                <p className="muted small">決算の数字は集計中です（次の決算発表から自動で入ります）。</p>
+              )}
+              {discl.length > 0 && (
+                <>
+                  <h4 className="sub-h">適時開示</h4>
+                  <ul className="disc-list compact">
+                    {discl.map((d) => (
+                      <li key={d.pdf}><span className="d">{d.date.replace(/-/g, '/')}</span><span className={`badge k-${d.kind}`}>{d.kind}</span><a href={d.pdf} target="_blank" rel="noreferrer" className="t">{d.title}</a></li>
+                    ))}
+                  </ul>
+                </>
+              )}
+              <p className="muted small" style={{ marginTop: 8 }}><Link href="/earnings/" className="arrow">上場ヘルスケア企業の決算一覧</Link></p>
             </section>
           )}
 

@@ -4,6 +4,8 @@ import matter from 'gray-matter';
 import { renderMarkdown } from './markdown';
 import { withBase } from './base';
 import type {
+  Disclosure,
+  EarningsReport,
   Article, ArticleMeta, ArchiveArticle, Category, Company, MonthlyEpisode, NewsItem, Overseas, Partnership, Person, Service, Theme,
 } from './types';
 
@@ -92,6 +94,16 @@ export const servicesInTheme = (slug: string) => getServices().filter((s) => s.t
 
 export const getService = (id: string) => getServices().find((s) => s.id === id);
 export const servicesOf = (companyId: string) => getServices().filter((s) => s.companyId === companyId);
+
+/** 上場企業の決算（企業ID → 決算の一覧、新しい順） */
+export const getEarnings = () =>
+  memo('earnings', () => {
+    const raw = fs.existsSync(path.join(ROOT, 'data', 'earnings.json')) ? read<Record<string, { code: string; reports: EarningsReport[] }>>('earnings.json') : {};
+    return Object.fromEntries(Object.entries(raw).map(([id, v]) => [id, [...v.reports].sort((a, b) => b.date.localeCompare(a.date))]));
+  });
+/** 適時開示（新しい順） */
+export const getDisclosures = () =>
+  memo('disclosures', () => (fs.existsSync(path.join(ROOT, 'data', 'disclosures.json')) ? read<Disclosure[]>('disclosures.json') : []));
 
 export const getNews = () =>
   memo('news', () => {

@@ -170,3 +170,26 @@ export type CompanyProfile = {
   sources?: string[];
   checkedAt: string;
 };
+
+/** 決算の数字（百万円） */
+export type Figures = { revenue?: number; operatingIncome?: number; ordinaryIncome?: number; netIncome?: number };
+/** 1回分の決算（決算短信のサマリーから） */
+export type EarningsReport = {
+  fiscalYear: string;
+  quarter: 'FY' | 'Q1' | 'Q2' | 'Q3';
+  label: string;
+  date: string;
+  title: string;
+  consolidated?: boolean;
+  current?: Figures;
+  prior?: Figures;
+  /** 四半期決算のときの当期通期予想 */
+  forecast?: Figures;
+  /** 通期決算のときの次期予想 */
+  nextForecast?: Figures;
+  pdf?: string;
+  source?: string;
+  note?: string;
+};
+/** 適時開示（TDnet） */
+export type Disclosure = { date: string; time: string; companyId: string; company: string; code: string; title: string; kind: string; pdf: string; xbrl?: string };

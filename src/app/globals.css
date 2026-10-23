@@ -781,3 +781,45 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 .book-shelf a:hover img { transform: translateY(-2px); }
 .book-shelf figcaption { margin-top: 6px; font-size: 11px; line-height: 1.45; font-weight: 700; color: var(--ink); }
 .book-shelf figcaption small { display: block; font-weight: 400; color: var(--muted); }
+/* 決算 */
+.earn-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+.earn-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.earn-table th { position: sticky; top: 0; background: var(--navy-soft); color: var(--navy); font-size: 12px; font-weight: 800; text-align: left; padding: 10px 12px; white-space: nowrap; border-bottom: 2px solid var(--navy); }
+.earn-table th.sortable { cursor: pointer; user-select: none; }
+.earn-table th.sortable.on { background: var(--navy); color: #fff; }
+.earn-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.earn-table tbody tr:hover td { background: var(--bg-2); }
+.earn-table td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.earn-table td.nw { white-space: nowrap; }
+.earn-table td small { display: block; font-size: 11px; color: var(--muted); margin-top: 2px; }
+.earn-table td.ecomp a { display: block; font-weight: 800; color: var(--ink); }
+.earn-table td.fc small { text-align: right; }
+.earn-table .up { color: #0e7c4a; font-weight: 700; }
+.earn-table .down { color: #c0392b; font-weight: 700; }
+.earn-table.compact { font-size: 13px; }
+.earn-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.earn-card { padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+.earn-card .h { display: flex; justify-content: space-between; gap: 8px; font-weight: 800; }
+.earn-card .h a { color: var(--ink); }
+.earn-card .h span { font-size: 12px; color: var(--muted); font-weight: 400; }
+.earn-card .p { font-size: 12px; color: var(--muted); margin: 2px 0 8px; }
+.earn-card dl { margin: 0 0 8px; display: grid; gap: 4px; }
+.earn-card dl div { display: flex; justify-content: space-between; align-items: baseline; }
+.earn-card dt { font-size: 12px; color: var(--muted); }
+.earn-card dd { margin: 0; font-weight: 800; font-variant-numeric: tabular-nums; }
+.earn-card dd small { margin-left: 6px; font-size: 11px; font-weight: 700; color: var(--muted); }
+.earn-card .up { color: #0e7c4a !important; }
+.earn-card .down { color: #c0392b !important; }
+.disc-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.disc-list li { display: grid; grid-template-columns: 9em 7.5em 12em 1fr; gap: 10px; align-items: baseline; padding: 9px 4px; border-bottom: 1px solid var(--line); font-size: 13.5px; }
+.disc-list.compact li { grid-template-columns: 6.5em 7.5em 1fr; font-size: 13px; }
+.disc-list .d { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.disc-list .c { font-weight: 800; color: var(--ink); }
+.disc-list .t { color: var(--navy); }
+.disc-list .badge { font-size: 11px; text-align: center; }
+.badge.k-決算短信 { background: var(--navy); color: #fff; }
+.badge.k-業績予想・配当 { background: #f6e3c8; color: #8a5a12; }
+.badge.k-M\&A・提携 { background: #dff1ee; color: var(--teal); }
+.sub-h { font-size: 14px; font-weight: 900; margin: 16px 0 6px; }
+@media (max-width: 760px) { .disc-list li { grid-template-columns: 1fr; gap: 2px; } }
+.earn-table td.ecomp { min-width: 12em; } .earn-table td.ecomp small { white-space: nowrap; }

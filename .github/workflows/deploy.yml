@@ -7,6 +7,8 @@ on:
     branches: [main]
   schedule:
     - cron: '13 0 * * *'
+    # 決算発表（15時台に集中）をその日のうちに取り込むため、夜にも実行する（日本時間 19:43）
+    - cron: '43 10 * * *'
   workflow_dispatch:
 
 permissions:
@@ -34,6 +36,9 @@ jobs:
       - name: 月刊ヘルステックの新しい回を取り込む（失敗しても公開は続ける）
         run: node pipeline/youtube.mjs
         continue-on-error: true
+      - name: 上場企業の適時開示と決算短信の数字を取り込む（TDnet。失敗しても公開は続ける）
+        run: node pipeline/tdnet.mjs --days 3
+        continue-on-error: true
       - name: 企業の追加候補をまとめる
         run: node pipeline/candidates.mjs
         continue-on-error: true
@@ -42,9 +47,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/monthly.json data/candidates.json
+          git add data/news.json data/monthly.json data/candidates.json data/disclosures.json data/earnings.json
           if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
-          git commit -m "データ更新: ニュース・月刊ヘルステック・企業の追加候補（自動）"
+          git commit -m "データ更新: ニュース・月刊ヘルステック・適時開示と決算・企業の追加候補（自動）"
           git pull --rebase origin main && git push origin HEAD:main
         continue-on-error: true
       - id: pages
