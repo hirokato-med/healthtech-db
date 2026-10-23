@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { withBase } from '@/lib/base';
-import { PROFILE_600, PROFILE_SECTIONS, PROFILE_TIMELINE, PROFILE_TITLE } from '@/content/profile';
+import { BOOKS, PROFILE_600, PROFILE_SECTIONS, PROFILE_TIMELINE, PROFILE_TITLE } from '@/content/profile';
 
 export const metadata: Metadata = {
   title: '加藤浩晃について',
@@ -48,7 +48,22 @@ export default function KatoPage() {
           {PROFILE_SECTIONS.map((sec) => (
             <div key={sec.label}>
               <dt>{sec.label}</dt>
-              <dd><ul>{sec.items.map((t) => <li key={t}>{t}</li>)}</ul></dd>
+              <dd>
+                <ul>{sec.items.map((t) => <li key={t}>{t}</li>)}</ul>
+                {sec.label === '受賞・著書' && (
+                  <div className="book-shelf" aria-label="主な著書">
+                    {BOOKS.map((b) => {
+                      const cover = <img src={withBase(`/images/books/${b.image}.jpg`)} alt={`${b.title}（${b.publisher}、${b.year}年）`} loading="lazy" />;
+                      return (
+                        <figure key={b.image} title={`${b.title}（${b.publisher}、${b.year}年）`}>
+                          {b.url ? <a href={b.url} target="_blank" rel="noreferrer">{cover}</a> : cover}
+                          <figcaption>{b.title}<small>{b.year}</small></figcaption>
+                        </figure>
+                      );
+                    })}
+                  </div>
+                )}
+              </dd>
             </div>
           ))}
         </dl>

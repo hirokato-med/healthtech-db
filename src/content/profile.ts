@@ -53,3 +53,18 @@ export const PROFILE_TIMELINE: [string, string][] = [
   ['2025', '東京大学 応用資本市場研究センター フェロー。日本ヘルスケアイノベーション学会を設立し、理事長に就任'],
   ['2026', '一橋大学大学院 博士後期課程（イノベーション、経営学）。国立病院機構 水戸医療センター 医療DX推進参与。Healthtech DB を再開'],
 ];
+
+/** 主な著書（書影は本人のオフィシャルサイトと各出版社の書籍ページから） */
+export const BOOKS: { title: string; publisher: string; year: string; image: string; url?: string }[] = [
+  { title: '0次予防から始まる健康国家戦略', publisher: 'メディカルレビュー社', year: '2026', image: 'zero', url: 'https://med.m-review.co.jp/merebo/products/detail/978-4-7792-2969-5' },
+  { title: '疲労回復学BEST100', publisher: '総合法令出版', year: '2026', image: 'hirou', url: 'http://www.horei.com/book_978-486838-049-8.html' },
+  { title: '医療4.0', publisher: '日経BP', year: '2018', image: 'iryo40' },
+  { title: '医療4.0 実践編', publisher: '日経BP', year: '2022', image: 'iryo40jissen' },
+  { title: '医療と算盤', publisher: 'メディカ出版', year: '2025', image: 'soroban' },
+  { title: '休養ベスト100', publisher: '日経BP', year: '2025', image: 'kyuyo' },
+  { title: '医療×起業', publisher: 'メディカ出版', year: '2024', image: 'kigyo' },
+  { title: 'デジタルヘルストレンド2021', publisher: 'メディカ出版', year: '2021', image: 'dht2021' },
+  { title: 'デジタルヘルストレンド2022', publisher: 'メディカ出版', year: '2022', image: 'dht2022' },
+  { title: 'デジタルヘルストレンド2023', publisher: 'メディカ出版', year: '2023', image: 'dht2023' },
+  { title: '眼科点眼薬Note 改訂7版', publisher: 'メディカ出版', year: '2026', image: 'tenganote', url: 'https://store.medica.co.jp/item/302100156' },
+];

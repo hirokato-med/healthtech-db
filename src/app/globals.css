@@ -422,7 +422,7 @@ h1, h2, h3, .sec-title h2, .section-head h2, .page-head h1, .box > h2, .panel h3
 .btn-cta svg { width: 16px; height: 16px; }
 
 /* ---------- ヒーロー（検索中心） ---------- */
-.hx { padding: 30px 0 36px; background: linear-gradient(160deg, var(--hero-top) 0%, var(--bg) 60%); border-bottom: 1px solid var(--line); }
+.hx { padding: 36px 0 36px; background: linear-gradient(160deg, var(--hero-top) 0%, var(--bg) 60%); border-bottom: 1px solid var(--line); }
 .hx-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 48px; align-items: center; }
 @media (max-width: 960px) { .hx-grid { grid-template-columns: 1fr; gap: 28px; } }
 .hx .eyebrow2 { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 800; letter-spacing: 0.16em; color: var(--teal); }
@@ -757,9 +757,9 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 .profile-600 .pf-name { font-weight: 900; font-size: 17px; }
 .profile-600 .pf-name span { margin-left: 10px; font-size: 13px; color: var(--muted); font-weight: 700; }
 .kato-sections { margin: 0; }
-.kato-sections > div { display: grid; grid-template-columns: 9em 1fr; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.kato-sections > div { display: grid; grid-template-columns: 9em minmax(0, 1fr); gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
 .kato-sections dt { font-weight: 900; color: var(--navy); font-size: 14px; }
-.kato-sections dd { margin: 0; }
+.kato-sections dd { margin: 0; min-width: 0; }
 .kato-sections ul { margin: 0; padding-left: 1.1em; }
 .kato-sections li { font-size: 14.5px; line-height: 1.8; }
 @media (max-width: 760px) { .kato-sections > div { grid-template-columns: 1fr; gap: 4px; } }
@@ -774,3 +774,10 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 .why-card b { display: block; font-size: 15px; font-weight: 900; }
 .why-card small { display: block; font-size: 12px; color: var(--muted); margin-top: 2px; }
 .why-card .go { font-size: 13px; font-weight: 800; color: var(--navy); white-space: nowrap; }
+/* 自己紹介: 著書の書影 */
+.book-shelf { display: flex; gap: 12px; margin-top: 12px; padding: 12px; overflow-x: auto; background: var(--bg-2); border-radius: var(--radius); }
+.book-shelf figure { margin: 0; flex: none; width: 92px; }
+.book-shelf img { display: block; width: 92px; height: 132px; object-fit: cover; border-radius: 3px; box-shadow: 0 2px 6px rgba(0,0,0,.18); background: #fff; }
+.book-shelf a:hover img { transform: translateY(-2px); }
+.book-shelf figcaption { margin-top: 6px; font-size: 11px; line-height: 1.45; font-weight: 700; color: var(--ink); }
+.book-shelf figcaption small { display: block; font-weight: 400; color: var(--muted); }
