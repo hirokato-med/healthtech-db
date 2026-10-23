@@ -46298,7 +46298,76 @@
         "text": "メドピアが在宅医療事務支援のクラウドクリニックを完全子会社化",
         "source": "https://www.nikkei.com/article/DGXZRSP632128_S2A510C2000000/"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "在宅医療事務BPO（算定・レセプト代行）",
+          "since": "2015-12",
+          "note": "創業事業。累計73万人以上の算定代行（公式）",
+          "url": "https://cloudclinic.jp/service/receipt/"
+        },
+        {
+          "name": "コンタクトセンター（電話対応代行）",
+          "note": "開始時期は公表なし",
+          "url": "https://cloudclinic.jp/service/contact_center/"
+        },
+        {
+          "name": "書類作成代行",
+          "note": "開始時期は公表なし",
+          "url": "https://cloudclinic.jp/service/document/"
+        },
+        {
+          "name": "AI BPOサービス（算定）",
+          "since": "2026-08",
+          "note": "独自AIで算定作業時間を75%効率化した低価格版",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000187280.html"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役社長1名・取締役CTO1名・取締役1名・非常勤取締役1名。ほかに監査役1名、顧問/ファウンダー1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "佐藤慶太",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "陳鈞",
+            "role": "取締役CTO"
+          },
+          {
+            "name": "谷田祐太",
+            "role": "取締役"
+          },
+          {
+            "name": "森田大夢",
+            "role": "取締役（非常勤）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://cloudclinic.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/187280"
+      },
+      "latestNews": {
+        "date": "2026-08",
+        "title": "【メディア掲載】コメディカルドットコムに取材記事掲載",
+        "url": "https://cloudclinic.jp/news/"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://cloudclinic.jp/",
+        "https://cloudclinic.jp/company/profile",
+        "https://cloudclinic.jp/company/history",
+        "https://cloudclinic.jp/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/187280",
+        "https://prtimes.jp/main/html/rd/p/000000002.000187280.html",
+        "https://prtimes.jp/main/html/rd/p/000000094.000031533.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8011101060949",
@@ -46338,7 +46407,88 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2002年設立。医療法人社団悠翔会の経営・診療支援部門を母体とし、在宅医療の経営支援に長く取り組む。訪問診療クリニック向けのコンサルティング、クラウド型電子カルテ「homis」や訪問看護記録「homis Nursee」、夜間当番医やコールセンターなどのアウトソーシング、在宅医療専門の医師求人サイト「在宅専科」を展開し、インドやインドネシアでも事業を持つ。2023年にヒューマンライフ・マネジメントから社名変更。Social Impact Solutionsの100%子会社。",
-    "employeesAsOf": "2025-09"
+    "employeesAsOf": "2025-09",
+    "profile": {
+      "businesses": [
+        {
+          "name": "在宅医療クリニック向け経営・診療支援コンサルティング",
+          "since": "2010",
+          "note": "2010年に医療法人社団悠翔会の経営・診療支援部門を分離（沿革）",
+          "url": "https://mics.tokyo/service/consulting"
+        },
+        {
+          "name": "homis（在宅医療用クラウド型カルテ）",
+          "since": "2011",
+          "note": "沿革に提供開始の記載",
+          "url": "https://mics.tokyo/service/digital"
+        },
+        {
+          "name": "在宅医療コールセンター・夜間当番医サービス",
+          "since": "2013",
+          "note": "子会社Okitell365で展開（沿革）",
+          "url": "https://mics.tokyo/service/outsourcing"
+        },
+        {
+          "name": "homis Nursee（クラウド型訪問看護記録）",
+          "since": "2021",
+          "note": "沿革に提供開始の記載",
+          "url": "https://mics.tokyo/service/digital"
+        },
+        {
+          "name": "在宅専科（在宅医療専門の医師求人）・在宅医療カレッジ",
+          "note": "在宅医療カレッジは2023年11月開設（2周年リリースより）",
+          "url": "https://mics.tokyo/service/career"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "代表取締役1名・取締役5名。ほかに監査役1名。親会社Social Impact Solutions株式会社100%",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "佐々木美樹",
+            "role": "代表取締役"
+          },
+          {
+            "name": "齋藤正敬",
+            "role": "取締役"
+          },
+          {
+            "name": "土田真吾",
+            "role": "取締役"
+          },
+          {
+            "name": "宮武晋治",
+            "role": "取締役"
+          },
+          {
+            "name": "嶺井泰輝",
+            "role": "取締役"
+          },
+          {
+            "name": "石井宏二",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://mics.tokyo/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/74761"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "医師求人サイト『在宅専科』を大幅リニューアル",
+        "url": "https://prtimes.jp/main/html/rd/p/000000047.000074761.html"
+      },
+      "newsPerYear": 11,
+      "sources": [
+        "https://mics.tokyo/",
+        "https://mics.tokyo/company",
+        "https://mics.tokyo/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/74761"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9010001183603",
@@ -46375,7 +46525,75 @@
       "https://chcp.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2017年5月設立。在宅医療の鉄祐会を創業した医師の武藤真祐（会長）と、地域経済活性化支援機構などを経た国沢勉（社長）が率いる。病院、調剤薬局、訪問看護などの在宅サービス、歯科医院といった地域の医療・ヘルスケア事業者をM&Aでグループに迎え、経営支援を通じて互いをつなぐプラットフォームをつくる。CHCPホスピタルパートナーズ、CHCPファーマシー、CHCPホームナーシング、CHCPデンタルなどのグループ会社を持つ。"
+    "overview": "2017年5月設立。在宅医療の鉄祐会を創業した医師の武藤真祐（会長）と、地域経済活性化支援機構などを経た国沢勉（社長）が率いる。病院、調剤薬局、訪問看護などの在宅サービス、歯科医院といった地域の医療・ヘルスケア事業者をM&Aでグループに迎え、経営支援を通じて互いをつなぐプラットフォームをつくる。CHCPホスピタルパートナーズ、CHCPファーマシー、CHCPホームナーシング、CHCPデンタルなどのグループ会社を持つ。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "病院の経営支援（M&A・グループ化）",
+          "since": "2018-09",
+          "note": "子会社CHCPホスピタルパートナーズ設立年月",
+          "url": "https://www.chcp.jp/about/"
+        },
+        {
+          "name": "調剤薬局の経営支援",
+          "since": "2017-07",
+          "note": "子会社CHCPファーマシー設立年月",
+          "url": "https://www.chcp.jp/about/"
+        },
+        {
+          "name": "在宅サービス（訪問看護等）の経営支援",
+          "since": "2020-12",
+          "note": "子会社CHCPホームナーシング設立年月",
+          "url": "https://www.chcp.jp/about/"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "代表取締役会長1名・代表取締役社長1名・常務取締役2名・取締役2名。ほかに監査役1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "武藤真祐",
+            "role": "代表取締役会長"
+          },
+          {
+            "name": "国沢勉",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "松田剛",
+            "role": "常務取締役"
+          },
+          {
+            "name": "小嶋秀卓",
+            "role": "常務取締役"
+          },
+          {
+            "name": "大草隆次",
+            "role": "取締役"
+          },
+          {
+            "name": "大野幸成",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.chcp.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "医療AI推進機構による次世代医療基盤法に基づく認定取得",
+        "url": "https://www.chcp.jp/news/news-5137/"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://chcp.jp/",
+        "https://www.chcp.jp/about/",
+        "https://www.chcp.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-092",
@@ -46419,7 +46637,93 @@
         "text": "エムスリー傘下のシーユーシーが米国で足病クリニックを運営するAlbaron Podiatryを子会社化",
         "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/70ho0VpbMkI3NfePhAmzvU/a094631379754e847212892662b20bfd/20231222_Public_J.pdf"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療機関事業（在宅医療・病院・透析等の経営支援）",
+          "since": "2014-08",
+          "note": "創業時に在宅医療機関支援を開始。病院向け2015年4月、透析2016年11月",
+          "url": "https://www.cuc-jpn.com/business/support/"
+        },
+        {
+          "name": "ホスピス事業（ホスピス型住宅）",
+          "since": "2017-03",
+          "note": "エムスリーナースサポート（現シーユーシー・ホスピス）設立年月",
+          "url": "https://www.cuc-jpn.com/business/hospice/"
+        },
+        {
+          "name": "居宅訪問看護事業",
+          "since": "2018-01",
+          "note": "ソフィアメディを連結子会社化した年月",
+          "url": "https://www.cuc-jpn.com/business/homenursing/"
+        },
+        {
+          "name": "メディカルケアレジデンス事業（住宅型有料老人ホーム等）",
+          "since": "2024-10",
+          "note": "ノアコンツェル連結子会社化の年月",
+          "url": "https://www.cuc-jpn.com/business/medicalcareresidence/"
+        },
+        {
+          "name": "創薬支援（在宅治験）",
+          "since": "2021-12",
+          "note": "沿革に開始の記載",
+          "url": "https://www.cuc-jpn.com/company/history/"
+        }
+      ],
+      "management": {
+        "count": 7,
+        "note": "取締役7名（代表取締役1・取締役2・非常勤取締役1・監査等委員である取締役3（うち社外2））。ほかに執行役員6名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "濵口慶太",
+            "role": "代表取締役（創業者）"
+          },
+          {
+            "name": "田邉隆通",
+            "role": "取締役"
+          },
+          {
+            "name": "松浦俊雄",
+            "role": "取締役"
+          },
+          {
+            "name": "大場啓史",
+            "role": "取締役（非常勤）"
+          },
+          {
+            "name": "桶谷主税",
+            "role": "取締役（監査等委員長）"
+          },
+          {
+            "name": "芦澤千尋",
+            "role": "社外取締役（監査等委員）"
+          },
+          {
+            "name": "加藤佑子",
+            "role": "社外取締役（監査等委員）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.cuc-jpn.com/news/",
+        "ir": "https://www.cuc-jpn.com/ir/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "地域医療未来創造ネットワークの活動レポート「We are NRHA」公開",
+        "url": "https://www.cuc-jpn.com/news/"
+      },
+      "newsPerYear": 86,
+      "sources": [
+        "https://www.cuc-jpn.com/",
+        "https://www.cuc-jpn.com/company/directorsandcorporateofficers/",
+        "https://www.cuc-jpn.com/company/history/",
+        "https://www.cuc-jpn.com/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7011001129903",
@@ -46468,7 +46772,63 @@
         "text": "訪問看護・介護向けクラウドのCareMakerが資金調達",
         "source": "https://prtimes.jp/main/html/rd/p/000000010.000106150.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "CareMaker（訪問看護・介護スケジュール管理クラウド）",
+          "since": "2022-09",
+          "note": "2022年9月に正式リリースを告知。AIによるスケジュール自動作成",
+          "url": "https://caremaker.jp/"
+        },
+        {
+          "name": "CareMaker BPO（スケジュール調整代行）",
+          "since": "2023-02",
+          "note": "公式お知らせで提供開始",
+          "url": "https://caremaker.jp/279/"
+        },
+        {
+          "name": "勤務シフト自動作成機能（β版）",
+          "since": "2024-05",
+          "note": "CareMakerの機能拡張",
+          "url": "https://prtimes.jp/main/html/rd/p/000000021.000106150.html"
+        },
+        {
+          "name": "くるむ訪問看護ステーション",
+          "note": "開始時期は公表なし（2025年2月の資金調達リリースで「くるむ」を核とした実業モデルと記載）",
+          "url": "https://kurumu.life/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "山村真稔",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://caremaker.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/106150"
+      },
+      "latestNews": {
+        "date": "2026-01",
+        "title": "『ケアコネクトジャパン』のケアカルテとAPI連携を開始",
+        "url": "https://caremaker.jp/news"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://caremaker.jp/",
+        "https://caremaker.jp/company",
+        "https://caremaker.jp/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/106150",
+        "https://caremaker.jp/33/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7011001106274",
@@ -46510,7 +46870,69 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2015年7月設立。自宅を病室に見立てた「仮想病院」の構築を掲げ、訪問看護事業所「おうちのカンゴ」と居宅介護支援事業所「おうちのケアプラン」を運営する。民間救急・介護タクシー「おうちのケアタクシー」、訪問看護向け電子カルテの開発・販売、ほかの訪問看護ステーションの運営支援も手がける。東京都内で拠点を広げ、2023年に港区、2024年に品川区で訪問看護ステーションを開いた。社員数は307名（うち常勤281名）。",
-    "employeesAsOf": "2026-10"
+    "employeesAsOf": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "おうちのカンゴ（訪問看護）",
+          "note": "開始時期は公表なし。2023年12月港区、2024年6月品川区に新規開設",
+          "url": "https://medistep.jp/service-msp/ouchinokango/"
+        },
+        {
+          "name": "おうちのケアプラン（居宅介護支援）",
+          "note": "開始時期は公表なし",
+          "url": "https://medistep.jp/service-msp/ouchinocareplan/"
+        },
+        {
+          "name": "おうちのケアタクシー（民間救急・介護タクシー）",
+          "note": "開始時期は公表なし",
+          "url": "https://medistep.jp/company/profile/"
+        },
+        {
+          "name": "訪問看護向け電子カルテ・訪問看護業務支援",
+          "note": "開始時期は公表なし",
+          "url": "https://medistep.jp/service-msp/houkansupport/"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役1名・取締役3名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "中村達也",
+            "role": "代表取締役"
+          },
+          {
+            "name": "桐生将人",
+            "role": "取締役"
+          },
+          {
+            "name": "大澤裕一",
+            "role": "取締役"
+          },
+          {
+            "name": "森田秀俊",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://medistep.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "「訪問看護医療情報連携加算」算定について",
+        "url": "https://medistep.jp/news/"
+      },
+      "newsPerYear": 2,
+      "sources": [
+        "https://medistep.jp/",
+        "https://medistep.jp/company/profile/",
+        "https://medistep.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5011101089693",
@@ -46547,7 +46969,61 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2019年11月、看護師の横山佳野が設立。医療的ケア児や障がい児のいる家庭に看護師が訪問する「ソイナース（Soi Nurse）」を運営し、医療保険の訪問看護、自治体の在宅レスパイト、保育園・学校への訪問、都立特別支援学校の医療的ケア児専用バスへの同乗、自費サービスを提供する。東京23区のほか西東京・府中と群馬にも拠点がある。看護師の人材紹介も行う。従業員は67名（パート含む、2023年9月時点）。",
-    "employeesAsOf": "2023-09"
+    "employeesAsOf": "2023-09",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ソイナース（小児・医療的ケア児の訪問看護、23区）",
+          "note": "開始時期は公表なし。在宅レスパイト・通学支援・自費サービスも提供",
+          "url": "https://medi-blanca.co.jp/service-list/"
+        },
+        {
+          "name": "ソイナース西東京Ship（三鷹市）／府中Port",
+          "since": "2024-11",
+          "note": "初の支店。府中Portは2025年8月開業",
+          "url": "https://prtimes.jp/main/html/rd/p/000000006.000115118.html"
+        },
+        {
+          "name": "ソイナース訪問看護ステーションぐんまShip",
+          "since": "2025-05",
+          "note": "群馬県で開業",
+          "url": "https://prtimes.jp/main/html/rd/p/000000008.000115118.html"
+        },
+        {
+          "name": "看護師の人材紹介（有料職業紹介）",
+          "note": "開始時期は公表なし",
+          "url": "https://medi-blanca.co.jp/company/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "横山佳野",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://medi-blanca.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/115118"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "【FM GUNMA掲載】ぐんまShip管理者のインタビュー",
+        "url": "https://medi-blanca.co.jp/news/"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://medi-blanca.co.jp/",
+        "https://medi-blanca.co.jp/company/",
+        "https://medi-blanca.co.jp/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/115118"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4240003004375",
@@ -46585,7 +47061,60 @@
       "https://nurseandcraft.io/company/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2019年8月に合同会社として設立し、2023年9月に株式会社化。広島県呉市の大崎下島を拠点に2020年1月に訪問看護ステーション「うらにわ」を開き、過疎・離島地域の在宅ケアを担う。データにもとづく健康管理と未病段階の見守りを行う「STARTWELL」、地域のコミュニティランチ、ヘルスツーリズム（リトリートツアー）も手がける。2024年にアジア健康長寿イノベーション賞の大賞を受け、ASEANの会合にも登壇した。"
+    "overview": "2019年8月に合同会社として設立し、2023年9月に株式会社化。広島県呉市の大崎下島を拠点に2020年1月に訪問看護ステーション「うらにわ」を開き、過疎・離島地域の在宅ケアを担う。データにもとづく健康管理と未病段階の見守りを行う「STARTWELL」、地域のコミュニティランチ、ヘルスツーリズム（リトリートツアー）も手がける。2024年にアジア健康長寿イノベーション賞の大賞を受け、ASEANの会合にも登壇した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "訪問看護ステーションうらにわ（呉市・大崎下島）",
+          "since": "2020-01",
+          "note": "沿革に開設の記載",
+          "url": "https://nurseandcraft.io/"
+        },
+        {
+          "name": "STARTWELL（健康管理・未病段階の見守り）",
+          "note": "開始時期は公表なし。2026年9月秋田県大館市で実装検証開始",
+          "url": "https://nurseandcraft.io/news/20260907/"
+        },
+        {
+          "name": "ヘルスツーリズム（リトリートツアー・スタディツアー）",
+          "note": "開始時期は公表なし",
+          "url": "https://nurseandcraft.io/"
+        },
+        {
+          "name": "コミュニティランチ",
+          "note": "開始時期は公表なし（リビング事業部）",
+          "url": "https://nurseandcraft.io/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "深澤裕之",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://nurseandcraft.io/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/69521"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "ブランドムービーを公開",
+        "url": "https://nurseandcraft.io/news/20261016/"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://nurseandcraft.io/",
+        "https://nurseandcraft.io/company/",
+        "https://nurseandcraft.io/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/69521"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7011301026528",
@@ -46624,7 +47153,58 @@
       "https://sogyotecho.jp/news/20260408kakemichi/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2020年12月設立。児童精神科医の岡琢哉が創業し、「子どものこころ、家族のこころ」を支える精神科訪問看護ステーション「ナンナル」を2021年4月に東京都杉並区で開いた。病院での診察と投薬だけでは届きにくい「生きづらさ、育てづらさ」への支援を目的に、悩みを抱える子どもや大人、その家族や支援者に寄り添う。孤立させないこと、家族のかたちを尊重することなどを行動指針に掲げる。食料品販売も事業内容に含む。"
+    "overview": "2020年12月設立。児童精神科医の岡琢哉が創業し、「子どものこころ、家族のこころ」を支える精神科訪問看護ステーション「ナンナル」を2021年4月に東京都杉並区で開いた。病院での診察と投薬だけでは届きにくい「生きづらさ、育てづらさ」への支援を目的に、悩みを抱える子どもや大人、その家族や支援者に寄り添う。孤立させないこと、家族のかたちを尊重することなどを行動指針に掲げる。食料品販売も事業内容に含む。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ナンナル（児童精神科領域の訪問看護、杉並区）",
+          "since": "2021-04",
+          "note": "代表メッセージに2021年4月杉並区で開設と記載",
+          "url": "https://nannaru-houkan.com/"
+        },
+        {
+          "name": "小麦の奴隷 土岐店（フランチャイズのパン屋）",
+          "note": "開始時期は公表なし。就労支援を見据えた食料品販売事業",
+          "url": "https://prtimes.jp/main/html/rd/p/000000004.000095105.html"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役1名・取締役1名・社外取締役1名。ほかに顧問税理士・顧問社労士",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "岡琢哉",
+            "role": "代表取締役（児童精神科医）"
+          },
+          {
+            "name": "塩見耕平",
+            "role": "取締役"
+          },
+          {
+            "name": "森暁郎",
+            "role": "社外取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://nannaru-houkan.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/95105"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "カスタマーハラスメントに対する基本方針（ナンナル）",
+        "url": "https://nannaru-houkan.com/news/672/"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://kakemichi.com/",
+        "https://nannaru-houkan.com/",
+        "https://nannaru-houkan.com/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/95105"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-093",
@@ -46664,7 +47244,69 @@
       "https://wyl.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2016年設立。在宅看護専門看護師の岩本大希が代表を務め、24時間365日、新生児から看取りまで全年齢・全疾患に対応する「ウィル訪問看護ステーション」を直営とフランチャイズで展開する。重度訪問介護、相談支援、居宅介護支援、重度障害者向けの医療介護シェアハウス「ウィルの家」も運営し、事業所は東北から沖縄まで40以上。訪問看護向け記録システム「ウィルクラウド」も開発した。2026年にグループ会社のゆいんちゅとkukuruを吸収合併。"
+    "overview": "2016年設立。在宅看護専門看護師の岩本大希が代表を務め、24時間365日、新生児から看取りまで全年齢・全疾患に対応する「ウィル訪問看護ステーション」を直営とフランチャイズで展開する。重度訪問介護、相談支援、居宅介護支援、重度障害者向けの医療介護シェアハウス「ウィルの家」も運営し、事業所は東北から沖縄まで40以上。訪問看護向け記録システム「ウィルクラウド」も開発した。2026年にグループ会社のゆいんちゅとkukuruを吸収合併。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ウィル訪問看護ステーション（直営・FC）",
+          "since": "2016",
+          "note": "2016年に江戸川（直営）とFC1号店（豊見城）を開設（沿革）",
+          "url": "https://wyl.co.jp/station-i"
+        },
+        {
+          "name": "ウィルクラウド（訪問看護向けクラウド型記録システム）",
+          "since": "2019",
+          "note": "沿革に2019年提供開始の記載",
+          "url": "https://wyl.co.jp/what"
+        },
+        {
+          "name": "ウィル相談支援センター（相談支援）",
+          "since": "2023",
+          "note": "江戸川江東（直営）開設",
+          "url": "https://wyl.co.jp/what"
+        },
+        {
+          "name": "ウィルの重度訪問介護",
+          "note": "開始時期は公表なし",
+          "url": "https://wyl.co.jp/"
+        },
+        {
+          "name": "ウィルの家（医療ケア対応型シェアハウス）",
+          "note": "開始時期は公表なし。2026年10月に「ウィルの家みずえ」開所",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000192987.html"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "メンバー紹介に代表取締役と取締役（訪問看護部部長）各1名。取締役の氏名はテキストで確認できず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "岩本大希",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://wyl.co.jp/info",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/192987"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "医療ケア対応型シェアハウス「ウィルの家みずえ」を江戸川区に開所",
+        "url": "https://prtimes.jp/main/html/rd/p/000000001.000192987.html"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://wyl.co.jp/",
+        "https://wyl.co.jp/what",
+        "https://wyl.co.jp/member",
+        "https://wyl.co.jp/info",
+        "https://prtimes.jp/main/html/searchrlp/company_id/192987",
+        "https://prtimes.jp/main/html/searchrlp/company_id/148926"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-094",
@@ -46703,7 +47345,62 @@
       "https://kurumi.makecare.co.jp/about/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2022年7月設立。大阪市東住吉区を拠点に、精神科に特化した「訪問看護ステーションくるみ」を運営する。大阪市、寝屋川市、守口市、門真市、大東市、枚方市、吹田市、茨木市、尼崎市を対象に、症状や服薬の管理、日常生活や対人関係の助言、主治医や就労支援・グループホームなどとの連携を担う。重症心身障害児・医療的ケア児の訪問にも対応する。代表はCEOの石森寛隆と社長の中野誠子。主要株主は訪問看護大手のBridge。"
+    "overview": "2022年7月設立。大阪市東住吉区を拠点に、精神科に特化した「訪問看護ステーションくるみ」を運営する。大阪市、寝屋川市、守口市、門真市、大東市、枚方市、吹田市、茨木市、尼崎市を対象に、症状や服薬の管理、日常生活や対人関係の助言、主治医や就労支援・グループホームなどとの連携を担う。重症心身障害児・医療的ケア児の訪問にも対応する。代表はCEOの石森寛隆と社長の中野誠子。主要株主は訪問看護大手のBridge。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "訪問看護ステーションくるみ（精神科特化型、大阪）",
+          "since": "2022-11",
+          "note": "2023年11月に開業1周年のリリース。月間訪問750件超（2023年11月時点）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000133569.html"
+        },
+        {
+          "name": "重症心身障害児・医療的ケア児の訪問看護",
+          "since": "2025-04",
+          "note": "くるみで開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000004.000133569.html"
+        },
+        {
+          "name": "福祉事業所（就労移行・放デイ・GH）への医療連携",
+          "note": "開始時期は公表なし",
+          "url": "https://makecare.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役CEO・代表取締役社長・専務取締役COO（2026年4月リリースより）。ほかに顧問・アドバイザー各1名",
+        "asOf": "2026-04",
+        "members": [
+          {
+            "name": "石森寛隆",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "中野誠子",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "濱脇直行",
+            "role": "専務取締役COO"
+          }
+        ]
+      },
+      "newsroom": {
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/133569"
+      },
+      "latestNews": {
+        "date": "2026-05",
+        "title": "訪問看護ステーションいしずえと業務連携契約を締結",
+        "url": "https://prtimes.jp/main/html/rd/p/000000007.000133569.html"
+      },
+      "newsPerYear": 2,
+      "sources": [
+        "https://makecare.co.jp/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/133569",
+        "https://prtimes.jp/main/html/rd/p/000000006.000133569.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6430001093746",
@@ -46748,7 +47445,68 @@
       "https://sogyotecho.jp/news/20260224ktek/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2025年2月設立。制度に縛られた産業のAIインフラを掲げ、レセプト処理、計画書・報告書の下書き、シフト作成、受電対応などを担う業界特化型AIエージェント「SHISHI」シリーズを提供する。訪問看護向けの「SHISHIホウカン」に加え、2026年8月に居宅介護支援、訪問介護、在宅医療、病院、デイケア、特別養護老人ホーム向けを一斉に投入した。社内の専門家が確認するヒューマンインザループ運用が特徴で、取引実績は200社以上。"
+    "overview": "2025年2月設立。制度に縛られた産業のAIインフラを掲げ、レセプト処理、計画書・報告書の下書き、シフト作成、受電対応などを担う業界特化型AIエージェント「SHISHI」シリーズを提供する。訪問看護向けの「SHISHIホウカン」に加え、2026年8月に居宅介護支援、訪問介護、在宅医療、病院、デイケア、特別養護老人ホーム向けを一斉に投入した。社内の専門家が確認するヒューマンインザループ運用が特徴で、取引実績は200社以上。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "SHISHIホウカン（訪問看護向けAIエージェント・事務BPO）",
+          "since": "2025-04",
+          "note": "「HOUKANエージェント」によるBPO事業として開始、旧称ホウカンAIオペ。SHISHIシリーズ取引200社以上（公式）",
+          "url": "https://kteku.com/"
+        },
+        {
+          "name": "SHISHIザイタクイリョウ（在宅医療向け）",
+          "since": "2026-06",
+          "note": "2026年6月「在宅医療AIオペ」として提供開始、8月に改称・正式提供",
+          "url": "https://kteku.com/shishi/zaitakuiryo/"
+        },
+        {
+          "name": "SHISHIキョタク／ホウモンカイゴ／デイケア／トクヨウ（介護向け）",
+          "since": "2026-08",
+          "note": "2026年8月6日に各サービスの提供開始・発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000024.000160988.html"
+        },
+        {
+          "name": "SHISHIビョウイン（病院向け）",
+          "since": "2026-08",
+          "note": "初期費用・固定費ゼロの従量課金",
+          "url": "https://kteku.com/news/shishi-byoin-launch"
+        },
+        {
+          "name": "フクシAIオペ（障害福祉向け事務代行）",
+          "since": "2026-05",
+          "note": "利用者1名あたりの従量課金",
+          "url": "https://prtimes.jp/main/html/rd/p/000000013.000160988.html"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "一岡亮大",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://kteku.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/160988"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "ケアネット主催「病院DXサミット 2026 夏」に登壇",
+        "url": "https://prtimes.jp/main/html/rd/p/000000038.000160988.html"
+      },
+      "newsPerYear": 25,
+      "sources": [
+        "https://kteku.com/",
+        "https://kteku.com/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/160988"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8011001110151",
@@ -46785,7 +47543,66 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2016年3月設立。訪問看護に特化した人材紹介と、掲載料無料・成功報酬型の訪問看護専門の求人メディアを運営し、訪問看護を知るキャリアアドバイザーが転職を支える。訪問看護師の教育・定着支援も行う。訪問看護ステーション向けには採用代行、ホームページ制作、運営コンサルティングを提供し、行政や業界団体、学術機関との研修企画も手がける。2024年10月に帝人グループの一員となった。本社は東京都渋谷区、大阪にも拠点を置く。",
-    "parentNote": "帝人グループ"
+    "parentNote": "帝人グループ",
+    "profile": {
+      "businesses": [
+        {
+          "name": "訪問看護特化の人材紹介",
+          "note": "開始時期は公表なし。訪問看護経験者のキャリアアドバイザーが支援",
+          "url": "https://hcso-inc.com/"
+        },
+        {
+          "name": "NsPace Career（訪問看護特化の転職サイト）",
+          "note": "開始時期は公表なし。2024年10月にダイレクトリクルーティング開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000008.000021077.html"
+        },
+        {
+          "name": "訪問看護事業所向けコンサルティング・HP制作・採用媒体運用代行",
+          "note": "開始時期は公表なし",
+          "url": "https://hcso-inc.com/"
+        },
+        {
+          "name": "行政・業界団体・学術団体との共創支援（研修企画等）",
+          "note": "開始時期は公表なし",
+          "url": "https://hcso-inc.com/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役1名・取締役2名。ほかに監査役1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "佐藤暢彦",
+            "role": "代表取締役"
+          },
+          {
+            "name": "一和多義隆",
+            "role": "取締役"
+          },
+          {
+            "name": "綱嶋俊介",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://hcso-inc.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/21077"
+      },
+      "latestNews": {
+        "date": "2025-05",
+        "title": "株式会社UPDATEとの業務提携のお知らせ",
+        "url": "https://prtimes.jp/main/html/rd/p/000000013.000021077.html"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://hcso-inc.com/",
+        "https://hcso-inc.com/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/21077"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5120001103529",
@@ -46832,7 +47649,44 @@
       }
     ],
     "overview": "2003年2月設立、大阪市北区に本社。訪問看護ステーション「デューン」を北海道から沖縄まで全国に約230か所展開し、医療・介護保険で在宅療養を支える。障害者総合支援法・児童福祉法にもとづく相談支援事業所「D&Life」や、住まい探しを支える住宅支援部・不動産賃貸仲介も運営し、複数の道府県で居住支援法人の指定を受ける。2021年に地域ヘルスケア連携基盤（CHCP）グループの公開買付けを受けて上場廃止となった。",
-    "parentNote": "CHCPグループ"
+    "parentNote": "CHCPグループ",
+    "profile": {
+      "businesses": [
+        {
+          "name": "訪問看護ステーション デューン（精神科訪問看護中心）",
+          "note": "開始時期は公表なし。会社概要PDF（2026年10月1日時点）で236事業所",
+          "url": "https://www.nfield.co.jp/pdf/company-profile_2026-10-01.pdf"
+        },
+        {
+          "name": "指定特定・障害児相談支援事業",
+          "note": "開始時期は公表なし",
+          "url": "https://www.nfield.co.jp/pdf/company-profile_2026-10-01.pdf"
+        },
+        {
+          "name": "不動産賃貸・仲介（居住支援法人）",
+          "note": "開始時期は公表なし。8都道府県で居住支援法人の指定",
+          "url": "https://www.nfield.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（会社概要PDF。サイトはメンテナンス中で役員一覧を確認できず）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "郷田泰宏",
+            "role": "代表取締役社長"
+          }
+        ]
+      },
+      "newsroom": {},
+      "sources": [
+        "https://www.nfield.co.jp/",
+        "https://www.nfield.co.jp/pdf/company-profile_2026-10-01.pdf",
+        "https://kabutan.jp/stock/?code=6077"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-095",
@@ -46872,7 +47726,75 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2013年に三重県桑名市で設立した訪問看護・介護のアンビスを中核に、2016年10月に持株会社として発足。末期がんや神経難病など医療依存度の高い人向けの医療施設型ホスピス「医心館」を全国展開し、施設内で訪問看護・訪問介護を一体で提供する。2025年9月末で130施設・定員6,706名。医療機関や介護事業者を支える地域医療再生事業も行う。2019年上場、2023年に東証プライムへ移行。2025年9月期の売上高は491.7億円。",
-    "employeesAsOf": "2025-09"
+    "employeesAsOf": "2025-09",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ホスピス事業（医心館：慢性期・終末期の医療対応型有料老人ホーム＋訪問看護・介護）",
+          "since": "2014-05",
+          "note": "医心館名張で在宅型病床モデル開始。2025年9月期末で全130施設6,706名",
+          "url": "https://www.amvis.com/business/"
+        },
+        {
+          "name": "地域医療再生事業（明日の医療：病院・介護事業者の経営支援）",
+          "since": "2020-03",
+          "note": "子会社「明日の医療」設立年月。2021年4月に他社介護施設との連携事業開始",
+          "url": "https://www.amvis.com/business/medical/"
+        }
+      ],
+      "management": {
+        "count": 7,
+        "note": "取締役7名（代表取締役CEO1・取締役2・社外取締役4）。ほかに監査役3名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "柴原慶一",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "税田紘輔",
+            "role": "取締役"
+          },
+          {
+            "name": "山口真吾",
+            "role": "取締役"
+          },
+          {
+            "name": "牛込伸隆",
+            "role": "社外取締役"
+          },
+          {
+            "name": "山田剛史",
+            "role": "社外取締役"
+          },
+          {
+            "name": "本多則惠",
+            "role": "社外取締役"
+          },
+          {
+            "name": "西山正徳",
+            "role": "社外取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.amvis.com/oshirase/",
+        "ir": "https://ir.amvis.com/ja/ir/news.html"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "有料老人ホーム「医心館 成田」をオープン",
+        "url": "https://www.amvis.com/oshirase/"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://www.amvis.com/",
+        "https://www.amvis.com/company/profile/",
+        "https://www.amvis.com/oshirase/",
+        "https://www.amvis.com/business/medical/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-096",
@@ -46916,7 +47838,84 @@
       }
     ],
     "overview": "2006年9月、金沢市でデイサービスの運営会社として創業。パーキンソン病専門の住宅型有料老人ホーム「PDハウス」を北海道から九州まで全国に開設してきたほか、医療特化型住宅、認知症グループホーム、デイサービス、居宅介護支援、福祉用具、加圧トレーニングスタジオも運営する。2022年6月に東証グロースへ上場し、2024年7月にプライム市場へ移った。金沢と東京・浜松町に本社を置く。従業員は3,570名（2026年3月末）。",
-    "employeesAsOf": "2026-03"
+    "employeesAsOf": "2026-03",
+    "profile": {
+      "businesses": [
+        {
+          "name": "PDハウス（パーキンソン病専門の有料老人ホーム）",
+          "since": "2018-12",
+          "note": "PDハウス小坂開設（沿革）",
+          "url": "https://sunwels.jp/service/"
+        },
+        {
+          "name": "在宅訪問看護・医療特化型住宅",
+          "note": "開始時期は公表なし",
+          "url": "https://sunwels.jp/service/"
+        },
+        {
+          "name": "北陸事業（デイサービス・グループホーム・居宅介護支援）",
+          "since": "2006-11",
+          "note": "創業事業。和の家デイサービス開設（沿革）",
+          "url": "https://sunwels.jp/reg/"
+        },
+        {
+          "name": "福祉用具事業・SUN加圧スタジオ",
+          "note": "開始時期は公表なし",
+          "url": "https://sunwels.jp/reg/service/sun-kaatsu-studio/"
+        }
+      ],
+      "management": {
+        "count": 7,
+        "note": "取締役7名（代表取締役社長1・取締役2・監査等委員である社外取締役4）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "新俊彦",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "上野英一",
+            "role": "取締役"
+          },
+          {
+            "name": "苗代亮達",
+            "role": "取締役"
+          },
+          {
+            "name": "山本英博",
+            "role": "社外取締役（常勤監査等委員）"
+          },
+          {
+            "name": "畠善昭",
+            "role": "社外取締役（監査等委員）"
+          },
+          {
+            "name": "中西祐一",
+            "role": "社外取締役（監査等委員）"
+          },
+          {
+            "name": "中島恵子",
+            "role": "社外取締役（監査等委員）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://sunwels.jp/news/",
+        "ir": "https://sunwels.jp/ir/ir-news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "PDハウス 全国パーキンソン病友の会福岡県支部を訪問",
+        "url": "https://sunwels.jp/news/p-85916/"
+      },
+      "newsPerYear": 27,
+      "sources": [
+        "https://sunwels.jp/",
+        "https://sunwels.jp/company/profile/",
+        "https://sunwels.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5290001092557",
@@ -46998,7 +47997,53 @@
       "https://aiview.life/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2017年4月設立。カメラセンサーで各ベッドのリアルタイム映像を、生体センサーで呼吸状態を把握する看護・介護向け見守りシステム「A.I.Viewlife」を開発・販売する。ナースコール、モバイル通話・インカム、防犯カメラも一つのアプリで扱え、ベッド上の安静表示で不要な訪室を減らせることや、業界初とする自動声かけ機能が特徴。機器から得たデータの分析をもとに健康ソリューション企業をめざす。本社は東京都千代田区、福岡に西日本支社。"
+    "overview": "2017年4月設立。カメラセンサーで各ベッドのリアルタイム映像を、生体センサーで呼吸状態を把握する看護・介護向け見守りシステム「A.I.Viewlife」を開発・販売する。ナースコール、モバイル通話・インカム、防犯カメラも一つのアプリで扱え、ベッド上の安静表示で不要な訪室を減らせることや、業界初とする自動声かけ機能が特徴。機器から得たデータの分析をもとに健康ソリューション企業をめざす。本社は東京都千代田区、福岡に西日本支社。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "A.I.Viewlife 見守りシステム（カメラ・生体センサー）",
+          "note": "開始時期は公表なし。介護施設向け見守りロボット",
+          "url": "https://aiview.life/"
+        },
+        {
+          "name": "ナースコール・モバイル通話/インカム",
+          "note": "開始時期は公表なし。自動声かけ機能を搭載",
+          "url": "https://aiview.life/"
+        },
+        {
+          "name": "防犯・防災（共用部の出入り検知）",
+          "note": "開始時期は公表なし",
+          "url": "https://aiview.life/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "安川徹",
+            "role": "代表取締役社長"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://aiview.life/topics/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "PHPの脆弱性報道に伴う見守りシステムの影響調査と対策方針",
+        "url": "https://aiview.life/topics/"
+      },
+      "newsPerYear": 16,
+      "sources": [
+        "https://aiview.life/",
+        "https://aiview.life/company/profile/",
+        "https://aiview.life/company/greeting/",
+        "https://aiview.life/topics/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7200001032569",
@@ -47084,7 +48129,64 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2020年10月に沖縄県南城市で事業を始めた介護テック企業。スマホに話した内容から記録や書類の下書きを作り、介護ソフト「カイポケ」へ転記できるAIアプリ「神マナ（介護のマナ）」を開発・提供する。訪問看護、訪問介護、居宅介護支援、施設・通所、福祉用具、勤怠管理の各業務向けに機能をそろえ、料金は記録を作る職員の人数で決まる。介護テクノロジー導入補助金の申請支援や制度データベースの構築も行う。従業員は役員を含め3名。",
-    "employeesAsOf": "2026-07"
+    "employeesAsOf": "2026-07",
+    "profile": {
+      "businesses": [
+        {
+          "name": "神マナ（介護のマナ）：カイポケ連携の介護記録AI",
+          "since": "2024-03",
+          "note": "2024年3月に「介護のマナ」を正式リリース（居宅ケアマネ向けから開始）",
+          "url": "https://lifeshift-inc.com/service/kamimana/"
+        },
+        {
+          "name": "訪問看護マナ・訪問介護マナ・施設/通所マナ・福祉用具マナ・勤怠マナ",
+          "note": "業務別の展開。各開始時期は公表なし",
+          "url": "https://lifeshift-inc.com/service/"
+        },
+        {
+          "name": "介護AXの窓口（補助金・加算ナビ、補助金申請サポート）",
+          "note": "開始時期は公表なし。加算993件・補助金476件のDBを無料公開",
+          "url": "https://lifeshift-inc.com/service_category/dx-support/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "取締役は代表取締役1名のみ。執行体制は代表・執行役員副社長CSO・CMOの3名。従業員3名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "嶺井政哉",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "嶺井美幸",
+            "role": "執行役員副社長CSO"
+          },
+          {
+            "name": "與那城愛理",
+            "role": "カスタマーサクセスオフィサー（CMO）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://lifeshift-inc.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/119162"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "お知らせ（居宅加算関連・割引案内）",
+        "url": "https://lifeshift-inc.com/news/kyotaku-kasan-discount/"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://lifeshift-inc.com/",
+        "https://lifeshift-inc.com/company/",
+        "https://lifeshift-inc.com/news/",
+        "https://lifeshift-inc.com/news/first_release/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/119162"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4011101087995",
@@ -47122,7 +48224,58 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2019年6月創業。24時間型の定期巡回・随時対応型訪問介護看護に特化し、自社で介護事業所「アウケアホーム」を運営しながら、その運用経験をもとにした事業所向けソフトウェア「PORTALL」を開発・販売する。介護サービスとテクノロジーの両面から、高齢者が施設ではなく在宅で暮らし続ける選択肢をつくることをめざす。2026年に江東大島で定期巡回事業所、江東と板橋で居宅介護支援事業所を開いた。代表の千田桂太郎はエムスリー出身。社員数70名。",
-    "employeesAsOf": "2026-10"
+    "employeesAsOf": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "アウケアホーム（定期巡回・随時対応型訪問介護看護）",
+          "note": "開始時期は公表なし。2024年2月板橋北、2026年2月江東大島を新規開設",
+          "url": "https://3s.care/"
+        },
+        {
+          "name": "PORTALL（定期巡回マネジメント向けSaaS）",
+          "since": "2023-10",
+          "note": "PR TIMESで提供開始を発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000057299.html"
+        },
+        {
+          "name": "アウケアプランセンター（居宅介護支援）",
+          "since": "2025-04",
+          "note": "2026年に江東大島・板橋大山を新規開設",
+          "url": "https://prtimes.jp/main/html/rd/p/000000004.000057299.html"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役1名・取締役CTO1名（経営チーム掲載）。社員数70名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "千田桂太郎",
+            "role": "代表取締役／創業者"
+          },
+          {
+            "name": "川崎暑士",
+            "role": "取締役CTO／共同創業者"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://3s.care/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/57299"
+      },
+      "latestNews": {
+        "date": "2026-07",
+        "title": "学生インターンの募集を開始",
+        "url": "https://3s.care/"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://3s.care/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/57299"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4011001161818",
@@ -47160,7 +48313,49 @@
       "https://zyoshu.co.jp/aboutus/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2024年5月設立。医療・介護の事業所間で郵送・FAX・手渡し・メールでやり取りされる書類を、取り込むだけでAIが仕分けて管理し、宛先や送付手段も判別してFAX・メール・郵送で送れる「連携ジョシュ」を開発する。受け手側はシステム導入不要。利用者150名規模の事業所で書類業務を月約60時間から約2時間に減らせると試算する。TAISコードを取得し補助金の対象にもなる。代表は山﨑康平、共同創業者は作業療法士の永島匡。"
+    "overview": "2024年5月設立。医療・介護の事業所間で郵送・FAX・手渡し・メールでやり取りされる書類を、取り込むだけでAIが仕分けて管理し、宛先や送付手段も判別してFAX・メール・郵送で送れる「連携ジョシュ」を開発する。受け手側はシステム導入不要。利用者150名規模の事業所で書類業務を月約60時間から約2時間に減らせると試算する。TAISコードを取得し補助金の対象にもなる。代表は山﨑康平、共同創業者は作業療法士の永島匡。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "連携ジョシュ（医療介護の書類を受取・管理・送付までAIで一元化）",
+          "since": "2025-03",
+          "note": "2025年3月にシード調達完了とプロダクトリリースを発表。2026年5月TAISコード取得",
+          "url": "https://zyoshu.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "役員として公表されているのは代表取締役のみ。メンバー欄に創業者（作業療法士）1名も掲載",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "山﨑康平",
+            "role": "代表取締役"
+          },
+          {
+            "name": "永島匡",
+            "role": "創業者"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://zyoshu.co.jp/%e3%83%96%e3%83%ad%e3%82%b0/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/150090"
+      },
+      "latestNews": {
+        "date": "2026-05",
+        "title": "「連携ジョシュ」が福祉用具情報システム（TAIS）コードを取得",
+        "url": "https://prtimes.jp/main/html/rd/p/000000006.000150090.html"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://zyoshu.co.jp/",
+        "https://zyoshu.co.jp/aboutus/",
+        "https://zyoshu.co.jp/%e3%83%96%e3%83%ad%e3%82%b0/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/150090"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7013101007402",
@@ -47197,7 +48392,66 @@
       "https://www.crowdcare.jp/aboutus/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2016年8月、介護福祉士の小嶋潤一と桐山典悦が共同で創業。介護保険では対応しにくい通院付き添い、見守り、家事・生活支援、旅行の付き添いなどを、登録ヘルパーとマッチングして提供する自費訪問介護サービス「CrowdCare」を運営する。ヘルパーのスキルや得意分野を細かく把握し、面接を経て登録する。料金は時間単位で、定期利用なら1時間2,500円（税抜）から。介護専門メディア「けあむすび」も運営し、大阪にもオフィスを持つ。"
+    "overview": "2016年8月、介護福祉士の小嶋潤一と桐山典悦が共同で創業。介護保険では対応しにくい通院付き添い、見守り、家事・生活支援、旅行の付き添いなどを、登録ヘルパーとマッチングして提供する自費訪問介護サービス「CrowdCare」を運営する。ヘルパーのスキルや得意分野を細かく把握し、面接を経て登録する。料金は時間単位で、定期利用なら1時間2,500円（税抜）から。介護専門メディア「けあむすび」も運営し、大阪にもオフィスを持つ。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Crowd Care（自費訪問介護・家事・生活支援のマッチング）",
+          "note": "開始時期は公表なし。2026年3月に関西エリアで提供開始",
+          "url": "https://www.crowdcare.jp/services/"
+        },
+        {
+          "name": "保険外（自費）訪問リハビリ",
+          "since": "2024-12",
+          "note": "2025年2月に正式開始。フリーランス・副業リハ職とマッチング",
+          "url": "https://www.crowdcare.jp/services/rehabilitation/"
+        },
+        {
+          "name": "訪問音楽サービス",
+          "since": "2022-07",
+          "note": "PR TIMESで提供開始を発表",
+          "url": "https://www.crowdcare.jp/services/music-facilitation/"
+        },
+        {
+          "name": "けあむすび（介護専門メディア）",
+          "since": "2024-08",
+          "note": "PR TIMESで開設を発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000024.000057040.html"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役CEO1名・取締役COO1名（いずれも共同創業者）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "小嶋潤一",
+            "role": "代表取締役CEO（共同創業者）"
+          },
+          {
+            "name": "桐山典悦",
+            "role": "取締役COO（共同創業者）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.crowdcare.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/57040"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "『日本経済新聞』『介護新聞』に介護拒否調査が掲載",
+        "url": "https://www.crowdcare.jp/news/media/"
+      },
+      "newsPerYear": 6,
+      "sources": [
+        "https://www.crowdcare.jp/",
+        "https://www.crowdcare.jp/aboutus/",
+        "https://www.crowdcare.jp/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/57040"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6040001119185",
@@ -47237,7 +48491,44 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2021年7月設立。デイサービスの管理者を務めた根本雅文が代表。人手が足りない介護・福祉施設と、すき間時間に働きたい人を結ぶ介護・福祉特化の単発バイト（スポットワーク）アプリ「ケアリンク」を開発・運営し、有料職業紹介事業の許可も持つ。2026年6月に1億1,500万円を調達して累計調達額は2.3億円になり、首都圏に加えて2026年内に大阪府と愛知県へサービスを広げる計画。本社は千葉県船橋市。",
-    "totalFunding": "累計約2.3億円（2026年6月時点）"
+    "totalFunding": "累計約2.3億円（2026年6月時点）",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ケアリンク（介護・福祉特化のスポットワーク／単発バイトアプリ）",
+          "since": "2023-11",
+          "note": "2023年11月に千葉版の事前登録開始、2024年2月首都圏版提供開始、2026年7月関西で提供開始",
+          "url": "https://care-link.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "根本雅文",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://care-link.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/130623"
+      },
+      "latestNews": {
+        "date": "2026-07",
+        "title": "【関西初進出】ケアリンク、関西エリアでサービス提供開始",
+        "url": "https://prtimes.jp/main/html/rd/p/000000007.000130623.html"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://care-link.co.jp/",
+        "https://care-link.co.jp/company",
+        "https://prtimes.jp/main/html/searchrlp/company_id/130623"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7011403002039",
@@ -47273,7 +48564,43 @@
       "https://www.plusrobo.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2017年2月設立。介護・福祉の事業所と、資格や経験がなくても空き時間に手伝いたい地域住民をつなぐ互助のプラットフォーム「スケッター」を2019年から運営する。身体介助以外の仕事を切り出して掲載し、未経験者が介護の現場に関わる入口をつくる。神奈川県横須賀市、福島県、川崎市福祉人材バンク、長野県社会福祉協議会、広島県東広島市、静岡県西伊豆町、茨城県大子町など多くの自治体や社協と連携している。"
+    "overview": "2017年2月設立。介護・福祉の事業所と、資格や経験がなくても空き時間に手伝いたい地域住民をつなぐ互助のプラットフォーム「スケッター」を2019年から運営する。身体介助以外の仕事を切り出して掲載し、未経験者が介護の現場に関わる入口をつくる。神奈川県横須賀市、福島県、川崎市福祉人材バンク、長野県社会福祉協議会、広島県東広島市、静岡県西伊豆町、茨城県大子町など多くの自治体や社協と連携している。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "スケッター（介護福祉特化の互助・お手伝いマッチング）",
+          "since": "2019",
+          "note": "代表挨拶に2019年サービスリリースと記載。連携自治体は30ヶ所超",
+          "url": "https://www.plusrobo.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "役員として公表されているのは代表取締役CEOのみ（メンバー欄はほかにセールスマネージャー1名）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "鈴木亮平",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.plusrobo.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/46505"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "スケッター、大分県と国のモデル事業で連携",
+        "url": "https://prtimes.jp/main/html/rd/p/000000062.000046505.html"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://www.plusrobo.co.jp/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/46505"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9021001064230",
@@ -47311,7 +48638,58 @@
       "https://aikomi.co.jp/osirase"
     ],
     "updatedAt": "2026-10",
-    "overview": "2018年設立。認知症の人が自分の記憶の断片を見る・聴く・嗅ぐ・触れる形で味わえるよう、AIとIoTを使ったデジタルプラットフォーム「Aikomi」を開発する。本人、家族、医療・福祉職の3者の対話とつながりを深め、パーソン・センタード・ケアの実現をめざす。リモートでの利用にも対応。2024年12月に株式投資型クラウドファンディング「FUNDINNO」で9,486万円を集め、2025年の大阪・関西万博に出展し、2026年にはアサヒ飲料との共同研究を発表した。"
+    "overview": "2018年設立。認知症の人が自分の記憶の断片を見る・聴く・嗅ぐ・触れる形で味わえるよう、AIとIoTを使ったデジタルプラットフォーム「Aikomi」を開発する。本人、家族、医療・福祉職の3者の対話とつながりを深め、パーソン・センタード・ケアの実現をめざす。リモートでの利用にも対応。2024年12月に株式投資型クラウドファンディング「FUNDINNO」で9,486万円を集め、2025年の大阪・関西万博に出展し、2026年にはアサヒ飲料との共同研究を発表した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "AikomiDS（介護施設向け認知機能訓練・認知症ケア動画プログラム）",
+          "note": "開始時期は公表なし。15種類の訓練プログラム、加算取得の伴走支援",
+          "url": "https://aikomids.com/"
+        },
+        {
+          "name": "Aikomiプラットフォーム（認知症の人向け個別化デジタルセラピー）",
+          "note": "開始時期は公表なし",
+          "url": "https://aikomi.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役1名・取締役2名。ほかにアドバイザー（神戸大学教授）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "平田知弘",
+            "role": "代表取締役"
+          },
+          {
+            "name": "今林知柔",
+            "role": "取締役"
+          },
+          {
+            "name": "木南治子",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://aikomi.co.jp/osirase",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/115817"
+      },
+      "latestNews": {
+        "date": "2026-05",
+        "title": "アサヒ飲料と「カルピス」を用いた高齢者の孤立を防ぐ共同研究",
+        "url": "https://prtimes.jp/main/html/rd/p/000000003.000115817.html"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://aikomi.co.jp/",
+        "https://aikomi.co.jp/annnai",
+        "https://aikomi.co.jp/osirase",
+        "https://aikomids.com/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/115817"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2010401174126",
@@ -47350,7 +48728,61 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2023年4月設立。介護事業所の運営とテクノロジーを組み合わせる介護グループの持株会社。東京で定期巡回・随時対応型訪問介護看護などの在宅介護を担うイーフルケア、大阪で介護・障がい・QOL事業を営むハートフルサンクを傘下に持ち、事業承継ニーズのある介護事業所の買収と買収後のPMIを進める。システムを内製し、介護事業所向けクラウド「EEFUL DB」シリーズも展開。2026年9月にICC KYOTO 2026カタパルト・グランプリで優勝。",
-    "employeesAsOf": "2026-10"
+    "employeesAsOf": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "EEFUL DB（介護情報ポータル・事業所検索）",
+          "note": "開始時期は公表なし。2025年10月・12月、2026年1月にリニューアル（AI対話型検索）",
+          "url": "https://eeful-hd.com/business"
+        },
+        {
+          "name": "EEFUL DB+ 福利厚生くん（介護事業所向け福利厚生アプリ）",
+          "since": "2025-10",
+          "note": "PR TIMESで提供開始を発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000018.000121171.html"
+        },
+        {
+          "name": "シニアカレッジ（介護施設向けレク動画配信）",
+          "note": "開始時期は公表なし。2025年12月に大幅リニューアル",
+          "url": "https://prtimes.jp/main/html/rd/p/000000032.000121171.html"
+        },
+        {
+          "name": "在宅介護事業の運営（イーフルケア：東京、ハートフルサンク：大阪）",
+          "note": "事業承継（グループイン）で取得。開始時期は公表なし",
+          "url": "https://eeful-hd.com/facilities"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ。従業員350名（連結）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "森山穂貴",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://eeful-hd.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/121171"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "ICC KYOTO 2026「カタパルト・グランプリ」で優勝",
+        "url": "https://prtimes.jp/main/html/rd/p/000000048.000121171.html"
+      },
+      "newsPerYear": 24,
+      "sources": [
+        "https://eeful-hd.com/",
+        "https://eeful-hd.com/company",
+        "https://eeful-hd.com/business",
+        "https://eeful-hd.com/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/121171"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8010401168634",
@@ -47389,7 +48821,59 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2022年7月設立。訪問介護・訪問看護向けのアンビエントAI「スタンドLM」を開発し、ケア中の会話を解析して、利用者情報や計画書をもとに報告書を自動で作る。ケアの質の向上やハラスメント抑制にも使える。2025年11月に訪問看護向け機能を強化し、2026年2月にはサービス担当者会議の議事録作成機能を加えた。BPO・コンタクトセンターや在宅サービスのマッチング「TIMEPASS」も運営し、福岡に拠点を持つ。従業員50名。",
-    "employeesAsOf": "2026-10"
+    "employeesAsOf": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "スタンドLM（訪問介護・看護向けアンビエントAI記録）",
+          "since": "2025-07",
+          "note": "接客アンビエントAIとしてリリース後、在宅ケア向けに展開。累計記録作成10万件突破（2026年8月）",
+          "url": "https://enbase.jp/"
+        },
+        {
+          "name": "スタンドLM Phone（訪問看護の電話対応AI）",
+          "since": "2026-10",
+          "note": "PR TIMESで2026年10月提供開始と発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000029.000154525.html"
+        },
+        {
+          "name": "BPO・コンタクトセンター",
+          "note": "開始時期は公表なし",
+          "url": "https://enbase.jp/"
+        },
+        {
+          "name": "TIMEPASS（自宅向け出張サービスのマッチング）",
+          "note": "開始時期は公表なし",
+          "url": "https://enbase.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ。従業員50名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "無尽洋平",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://enbase.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/154525"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "スタンドLM、「ココナース」との訪問看護報告書連携を提供へ",
+        "url": "https://prtimes.jp/main/html/rd/p/000000030.000154525.html"
+      },
+      "newsPerYear": 18,
+      "sources": [
+        "https://enbase.jp/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/154525"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7010401185390",
@@ -47427,7 +48911,61 @@
       "https://sisuta.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2024年9月設立。独自のAIが介護施設の勤務シフトを自動で作り、施設内の訪問ルートまで最適化する介護施設向けAIプラットフォーム「みちケア」を提供し、勤怠やケアプランの管理、業務タスクの割り当ても担う。子会社ツナグテで老人ホーム紹介事業を営み、事業承継ニーズのある介護施設をM&Aで引き受けて自社で運営し、その知見をみちケアの開発に生かす。東京本社のほか名古屋（STATION Ai）と福岡に拠点を置く。"
+    "overview": "2024年9月設立。独自のAIが介護施設の勤務シフトを自動で作り、施設内の訪問ルートまで最適化する介護施設向けAIプラットフォーム「みちケア」を提供し、勤怠やケアプランの管理、業務タスクの割り当ても担う。子会社ツナグテで老人ホーム紹介事業を営み、事業承継ニーズのある介護施設をM&Aで引き受けて自社で運営し、その知見をみちケアの開発に生かす。東京本社のほか名古屋（STATION Ai）と福岡に拠点を置く。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "みちケア（介護施設向けAIプラットフォーム：シフト自動生成・訪問ルート最適化）",
+          "since": "2026-05",
+          "note": "2026年5月正式リリース。10月に「勤怠」「プラン」機能を提供開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000004.000158217.html"
+        },
+        {
+          "name": "ツナグテ（老人ホーム紹介）",
+          "note": "子会社株式会社ツナグテが運営。開始時期は公表なし",
+          "url": "https://sisuta.co.jp/"
+        },
+        {
+          "name": "介護施設運営（M&A・事業承継前提）",
+          "note": "開始時期は公表なし",
+          "url": "https://sisuta.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役1名・取締役CTO1名・取締役CFO1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "梅谷雄紀",
+            "role": "代表取締役"
+          },
+          {
+            "name": "和田修一",
+            "role": "取締役CTO"
+          },
+          {
+            "name": "岡田亮",
+            "role": "取締役CFO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://sisuta.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/158217"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「みちケア」、「勤怠」「プラン」を提供開始",
+        "url": "https://prtimes.jp/main/html/rd/p/000000012.000158217.html"
+      },
+      "newsPerYear": 9,
+      "sources": [
+        "https://sisuta.co.jp/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/158217"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-097",
@@ -47467,7 +49005,47 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2025年7月に名古屋で創業。介護をしながら話した内容から介護記録や報告書を自動で作る音声AI「ながらかいご」を開発する。ITが苦手な人でも使える「優しいデジタル」を掲げ、事務作業を減らして利用者と向き合う時間を増やすことをめざす。2025年11月にシードラウンドで6,200万円を調達。DCON 2025やごうぎんスタートアップフェス2026など6つのコンテストで最優秀賞を受け、ISO/IEC 27001の認証も取得した。拠点はSTATION Ai、チームは6名。",
-    "employeesAsOf": "2026-10"
+    "employeesAsOf": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ながらかいご（会話から介護記録を作成する音声AIアプリ）",
+          "note": "開始時期は公表なし",
+          "url": "https://nagarainc.com/service"
+        },
+        {
+          "name": "ながらかいご議事録",
+          "note": "開始時期は公表なし。会議録音から議事録作成",
+          "url": "https://nagarainc.com/service/gijiroku"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ。社員6名（採用ページ）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "岡田一輝",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://nagarainc.com/news"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "厚労省「介護系スタートアップ支援事業」に採択、介護テクノロジーサミット2026に出展",
+        "url": "https://nagarainc.com/news/cariso-hcr-2026"
+      },
+      "newsPerYear": 20,
+      "sources": [
+        "https://nagarainc.com/",
+        "https://nagarainc.com/about",
+        "https://nagarainc.com/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1011101112384",
@@ -47504,7 +49082,48 @@
       "https://prtimes.jp/main/html/rd/p/000000008.000166268.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "2025年7月設立。人手不足の介護施設で、洗濯物をたたむ、配膳トレーを回収する、部屋を片づける、備品を補充するといった周辺業務を担う人型介護助手ロボット「Ena」を開発し、2026年後半にベータ版の提供を予定する。研究向けには完全オープンソースのロボットアーム「OpenArm」を公開。2026年1月に全国30の介護事業者と提携し、6月にはNVIDIA GR00T N1.7の介護領域での実用性検証を始めた。代表は森大二郎、研究拠点は秋葉原。"
+    "overview": "2025年7月設立。人手不足の介護施設で、洗濯物をたたむ、配膳トレーを回収する、部屋を片づける、備品を補充するといった周辺業務を担う人型介護助手ロボット「Ena」を開発し、2026年後半にベータ版の提供を予定する。研究向けには完全オープンソースのロボットアーム「OpenArm」を公開。2026年1月に全国30の介護事業者と提携し、6月にはNVIDIA GR00T N1.7の介護領域での実用性検証を始めた。代表は森大二郎、研究拠点は秋葉原。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Ena（介護施設向けヒューマノイド介護助手ロボット）",
+          "note": "ベータ版を2026年後半ローンチ予定（公式）。介護事業者80法人以上とパートナー締結（2026年3月）",
+          "url": "https://care.enactic.ai/"
+        },
+        {
+          "name": "OpenArm（オープンソースのロボットアーム）",
+          "since": "2025-07",
+          "note": "完全オープンソースで公開。OpenArm 2.0は2026年5月",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000166268.html"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ。2026年7月のリリースまでは代表取締役CEO 山本泰豊、2026年9月のリリース以降は代表取締役 森大二郎",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "森大二郎",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://enactic.ai/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/166268"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "H.C.R.2026でトークセッションと介護助手ロボット「Ena」の実機デモ",
+        "url": "https://prtimes.jp/main/html/rd/p/000000008.000166268.html"
+      },
+      "newsPerYear": 6,
+      "sources": [
+        "https://enactic.ai/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/166268"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-098",
@@ -47537,7 +49156,48 @@
       "https://www.medvp.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2013年10月設立の医療機器専門ベンチャーキャピタル。代表の大下創と、医師で取締役チーフメディカルオフィサーの池野文昭を中心に、臨床ニーズにもとづく医療機器ベンチャーへ投資し、製品開発、臨床試験、上市、EXITまで支える。1号ファンド（60億円）、2号ファンド（99億円）に続き、2024年2月に日本政策投資銀行や産業革新投資機構などが出資する3号ファンド（127.5億円）を設立した。3本のファンドで計38社に投資している（2026年10月時点）。"
+    "overview": "2013年10月設立の医療機器専門ベンチャーキャピタル。代表の大下創と、医師で取締役チーフメディカルオフィサーの池野文昭を中心に、臨床ニーズにもとづく医療機器ベンチャーへ投資し、製品開発、臨床試験、上市、EXITまで支える。1号ファンド（60億円）、2号ファンド（99億円）に続き、2024年2月に日本政策投資銀行や産業革新投資機構などが出資する3号ファンド（127.5億円）を設立した。3本のファンドで計38社に投資している（2026年10月時点）。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療機器ベンチャーへの投資・育成（MPIファンド）",
+          "since": "2013-10",
+          "note": "創業事業。1号60億円、2号99億円（2020年）、現在3号ファンドを運営",
+          "url": "https://www.medvp.co.jp/aboutus.html"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役社長1名・取締役CMO1名。ほかにパートナー2名、プリンシパル・ディレクター各1名（投資チーム）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "大下創",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "池野文昭",
+            "role": "取締役／チーフメディカルオフィサー"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.medvp.co.jp/category/pressrelease"
+      },
+      "latestNews": {
+        "date": "2026-07",
+        "title": "バイオチューブ株式会社への出資について",
+        "url": "https://www.medvp.co.jp/category/pressrelease"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://www.medvp.co.jp/",
+        "https://www.medvp.co.jp/aboutus.html",
+        "https://www.medvp.co.jp/team.html",
+        "https://www.medvp.co.jp/category/pressrelease"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8010001087029",
@@ -47573,7 +49233,53 @@
       "https://fti.vc/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2004年3月設立。バイオテックとヘルステックに特化した独立系ベンチャーキャピタルで、木村廣道と安西智宏が代表取締役を務める。大学などで生まれた科学の発見を医療へつなぐことを役割とし、国内外のスタートアップに投資する。投資先には、制御性T細胞による免疫制御技術を開発するRegCellや、再生医療向けの細胞ファイバ製造装置を販売するセルファイバがある。本郷と日本橋のほか米国ケンブリッジにもオフィスを置く。"
+    "overview": "2004年3月設立。バイオテックとヘルステックに特化した独立系ベンチャーキャピタルで、木村廣道と安西智宏が代表取締役を務める。大学などで生まれた科学の発見を医療へつなぐことを役割とし、国内外のスタートアップに投資する。投資先には、制御性T細胞による免疫制御技術を開発するRegCellや、再生医療向けの細胞ファイバ製造装置を販売するセルファイバがある。本郷と日本橋のほか米国ケンブリッジにもオフィスを置く。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "バイオテック・ヘルステック特化のVCファンド運営",
+          "since": "2004-03",
+          "note": "創業事業。3号ファンド130億円（2022年）、4号ファンド200億円（2025年10月組成完了）",
+          "url": "https://fti.vc/about"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役2名・取締役1名。ほかに監査役1名。投資チームにパートナー・ベンチャーパートナー等",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "木村廣道",
+            "role": "代表取締役（ファウンダー・代表パートナー）"
+          },
+          {
+            "name": "安西智宏",
+            "role": "代表取締役（代表パートナー）"
+          },
+          {
+            "name": "竹内誠",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://fti.vc/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/13289"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "FTIがコーポレートブランドを刷新",
+        "url": "https://prtimes.jp/main/html/rd/p/000000008.000013289.html"
+      },
+      "sources": [
+        "https://fti.vc/",
+        "https://fti.vc/CompanyOverview",
+        "https://fti.vc/team",
+        "https://fti.vc/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/13289"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-099",
@@ -47606,7 +49312,50 @@
       "https://www.nihonpmipartners.co.jp/news"
     ],
     "updatedAt": "2026-10",
-    "overview": "2020年11月設立。日本初のヘルスケア特化型プライベートエクイティファンド運用会社を掲げ、在宅医療・介護や病院向けサービスなどを営む中小企業の事業承継に投資し、PMI（買収後の統合）とDXで企業価値の向上を支援する。1号の「地域医療活性化ヘルスケアファンド」に続き、2026年3月に2号ファンドの1stクローズを完了した。2026年9月には1号ファンドが保有するロングライフホールディングを創業家のMBOで売却し、初のEXITとなった。"
+    "overview": "2020年11月設立。日本初のヘルスケア特化型プライベートエクイティファンド運用会社を掲げ、在宅医療・介護や病院向けサービスなどを営む中小企業の事業承継に投資し、PMI（買収後の統合）とDXで企業価値の向上を支援する。1号の「地域医療活性化ヘルスケアファンド」に続き、2026年3月に2号ファンドの1stクローズを完了した。2026年9月には1号ファンドが保有するロングライフホールディングを創業家のMBOで売却し、初のEXITとなった。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "地域医療活性化ヘルスケアファンド（1号）",
+          "since": "2021",
+          "note": "2021年組成。2026年9月に初EXIT（ロングライフHDの創業家MBO）",
+          "url": "https://www.nihonpmipartners.co.jp/news/fund1-first-exit"
+        },
+        {
+          "name": "日本PMIパートナーズ2号ファンド",
+          "since": "2026-03",
+          "note": "2026年3月に1stクローズ",
+          "url": "https://www.nihonpmipartners.co.jp/news/fund2-first-close"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "役員として公表されているのは代表取締役社長CEOのみ。チームにマネージングディレクター2名（氏名はテキストで確認できず）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "濵田仁",
+            "role": "代表取締役社長CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.nihonpmipartners.co.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「つぐみナースケアステーション」運営の鳥人会があわーずグループに参画",
+        "url": "https://www.nihonpmipartners.co.jp/news/awars-chojinkai"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://www.nihonpmipartners.co.jp/",
+        "https://www.nihonpmipartners.co.jp/about",
+        "https://www.nihonpmipartners.co.jp/team",
+        "https://www.nihonpmipartners.co.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9010701044022",
@@ -47645,7 +49394,59 @@
       "https://www.yap.co.jp/ja"
     ],
     "updatedAt": "2026-10",
-    "overview": "2023年3月設立。製薬業界に25年以上携わった山本正也が創業し、Antler Japanからプレシード出資を受けた。薬局から患者宅までスペシャリティ医薬品を温度管理して届けるラストワンマイル配送「Care Link」、海外の医薬品・原料の日本参入や日本のOTC・サプリの海外展開を支える「Global Bridge」、サプリメントのOEM/ODM「garden」の3事業を展開する。バングラデシュの製薬企業の日本参入を手がけ、2026年5月にはイタリア企業とMoUを結んだ。"
+    "overview": "2023年3月設立。製薬業界に25年以上携わった山本正也が創業し、Antler Japanからプレシード出資を受けた。薬局から患者宅までスペシャリティ医薬品を温度管理して届けるラストワンマイル配送「Care Link」、海外の医薬品・原料の日本参入や日本のOTC・サプリの海外展開を支える「Global Bridge」、サプリメントのOEM/ODM「garden」の3事業を展開する。バングラデシュの製薬企業の日本参入を手がけ、2026年5月にはイタリア企業とMoUを結んだ。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Global Bridge（医薬品・原料の輸出入、海外展開支援）",
+          "since": "2023-12",
+          "note": "バングラデシュUniMed UniHealth社と輸入本契約（同社の日本市場参入）",
+          "url": "https://www.yap.co.jp/ja"
+        },
+        {
+          "name": "Care Link（スペシャリティ医薬品のラストワンマイル配送）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.yap.co.jp/ja"
+        },
+        {
+          "name": "garden（サプリメント・健康食品のOEM/ODM）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.yap.co.jp/ja"
+        },
+        {
+          "name": "医療機関向け電話一次受けAI（伊Icarus社と提携）",
+          "note": "2026年9月に本契約、日本向けに開発中",
+          "url": "https://prtimes.jp/main/html/rd/p/000000005.000121260.html"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "山本正也",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.yap.co.jp/ja/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/121260"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "イタリアIcarus社と本契約、医療機関の電話一次受けAIを日本向けに",
+        "url": "https://prtimes.jp/main/html/rd/p/000000005.000121260.html"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://www.yap.co.jp/ja",
+        "https://www.yap.co.jp/ja/about",
+        "https://prtimes.jp/main/html/searchrlp/company_id/121260"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7120901029805",
@@ -47682,7 +49483,57 @@
       "https://medi-ent.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2008年5月設立。大阪府医師協同組合のカタログ販売事業を源流とし、医療機関向けに医療機器・材料・医薬品をオンラインショップと医療用品カタログ「MEDICAL SUPPLY GooDs」で販売する。取扱商品は4.5万点以上、登録施設は全国7万以上で、動物病院や薬局も顧客に持つ。大阪府箕面市の自動化された物流センターから当日出荷率90%以上で届ける。売上高は90.3億円（2026年7月）。株主は村中医療器。"
+    "overview": "2008年5月設立。大阪府医師協同組合のカタログ販売事業を源流とし、医療機関向けに医療機器・材料・医薬品をオンラインショップと医療用品カタログ「MEDICAL SUPPLY GooDs」で販売する。取扱商品は4.5万点以上、登録施設は全国7万以上で、動物病院や薬局も顧客に持つ。大阪府箕面市の自動化された物流センターから当日出荷率90%以上で届ける。売上高は90.3億円（2026年7月）。株主は村中医療器。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療用品カタログ販売（MEDICAL SUPPLY GooDs）",
+          "since": "2001",
+          "note": "大阪府医師協同組合でカタログ販売開始（沿革）。会社創業は2008年",
+          "url": "https://medi-ent.co.jp/service/"
+        },
+        {
+          "name": "医療用品オンラインショップ",
+          "since": "2009",
+          "note": "取扱4.5万点以上、登録診療施設7万以上、当日出荷率90%（公式）",
+          "url": "https://medi-ent.co.jp/service/"
+        },
+        {
+          "name": "動物病院向け販売",
+          "since": "2006",
+          "note": "沿革に記載",
+          "url": "https://medi-ent.co.jp/about/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "黒元敬大",
+            "role": "代表取締役社長"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://medi-ent.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/52922"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "セキュリティ強化に伴うメンテナンス完了およびサービス再開",
+        "url": "https://medi-ent.co.jp/information/104/"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://medi-ent.co.jp/",
+        "https://medi-ent.co.jp/about/",
+        "https://medi-ent.co.jp/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/52922"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4011101060440",
@@ -47766,7 +49617,55 @@
       "https://sys-po.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2015年10月設立、京都市山科区に本社。日医標準レセプトソフト「ORCA」の導入支援で2,500以上の医療機関を支えてきた経験をもとに、クリニック向けのセミセルフレジ「OWEN」を開発・販売する。両面の大型タッチパネルを備え、キャッシュレス決済端末と連携して金額の二度打ちや違算を防ぎ、締め作業を短くする。補助金申請の専門業者と組んだ導入支援も行う。病院や動物病院にも導入先があり、調剤薬局向けの機能も加えた。"
+    "overview": "2015年10月設立、京都市山科区に本社。日医標準レセプトソフト「ORCA」の導入支援で2,500以上の医療機関を支えてきた経験をもとに、クリニック向けのセミセルフレジ「OWEN」を開発・販売する。両面の大型タッチパネルを備え、キャッシュレス決済端末と連携して金額の二度打ちや違算を防ぎ、締め作業を短くする。補助金申請の専門業者と組んだ導入支援も行う。病院や動物病院にも導入先があり、調剤薬局向けの機能も加えた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "WebORCA（日医標準レセプトソフトのクラウド版）導入・サポート",
+          "note": "開始時期は公表なし。ORCA導入件数1位を7年連続と公式に記載",
+          "url": "https://sys-po.co.jp/"
+        },
+        {
+          "name": "WebQKANクラウド版（介護・医療請求）",
+          "note": "開始時期は公表なし",
+          "url": "https://sys-po.co.jp/"
+        },
+        {
+          "name": "医療機関向けセミセルフレジOWEN",
+          "note": "開始時期は公表なし",
+          "url": "https://owen-syspo.com/"
+        },
+        {
+          "name": "オンライン資格確認システム導入",
+          "note": "開始時期は公表なし",
+          "url": "https://sys-po.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "取締役3名（うち代表取締役1名）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "山中裕樹",
+            "role": "代表取締役"
+          },
+          {
+            "name": "梶谷正博",
+            "role": "取締役"
+          },
+          {
+            "name": "中井貴士",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {},
+      "sources": [
+        "https://sys-po.co.jp/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-101",
@@ -47804,7 +49703,76 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2021年7月設立。3Dスキャンで赤ちゃんの頭の形を測り、3Dプリンターで一つずつ作る頭蓋形状矯正ヘルメット「ベビーバンド」を開発・製造販売する。2022年に医療機器承認を取り、導入医療機関は2026年8月に300施設を超えた（同社調べで業界最多）。自社の開発・製造の経験を生かし、薬事・QMSの情報サイト「薬事情報ナビ」やクラウド型eQMS「QMSmart」も提供する。ISO 13485とISO/IEC 27001を取得。従業員92名。",
-    "employeesAsOf": "2026-10"
+    "employeesAsOf": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ベビーバンド（頭蓋形状矯正ヘルメット、医療機器）",
+          "since": "2022-12",
+          "note": "2022年12月に導入開始を発表。43都道府県326医療機関、累計15,000個（2026年10月）",
+          "url": "https://www.berryinc.co.jp/"
+        },
+        {
+          "name": "ヘルメット治療記録アプリ",
+          "note": "開始時期は公表なし",
+          "url": "https://www.berryinc.co.jp/"
+        },
+        {
+          "name": "QMSmart（医療機器メーカー向けクラウド型eQMS）",
+          "since": "2025-08",
+          "note": "PR TIMESで提供開始を発表。2026年8月AIチャット追加",
+          "url": "https://service.qm-smart.com/"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "代表取締役1名・取締役5名。ほかに監査役3名。従業員92名（2026年10月）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "中野裕士",
+            "role": "代表取締役"
+          },
+          {
+            "name": "坂田光央",
+            "role": "取締役"
+          },
+          {
+            "name": "小山智士",
+            "role": "取締役"
+          },
+          {
+            "name": "名越優太郎",
+            "role": "取締役"
+          },
+          {
+            "name": "佐伯広幸",
+            "role": "取締役"
+          },
+          {
+            "name": "松本壮志",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.berryinc.co.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/113536"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "ベビーバンド、全国43都道府県・326医療機関に導入、累計15,000個",
+        "url": "https://www.berryinc.co.jp/news/hzpm__4wd05"
+      },
+      "newsPerYear": 37,
+      "sources": [
+        "https://www.berryinc.co.jp/",
+        "https://www.berryinc.co.jp/company",
+        "https://www.berryinc.co.jp/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/113536"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-102",
@@ -47845,7 +49813,59 @@
       "https://prtimes.jp/main/html/rd/p/000000012.000149238.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "2024年、JNC（旧チッソ）からのカーブアウトで設立。創業者の大西徳幸がJNC在籍時に開発した温度応答性磁性ナノ粒子「Therma-Max®」の開発・製造を担う。粒径は約100nmと一般的な磁気ビーズの約30分の1で、温度の変化で標的を分離するため、血液検査の分離工程を高精度にして検出感度を高められる。東京農工大学のDNAアプタマーと組み合わせた検出法「AptIa法」も持つ。2026年10月にプレシリーズAの資金を調達し、津田将志がCOOに就いた。"
+    "overview": "2024年、JNC（旧チッソ）からのカーブアウトで設立。創業者の大西徳幸がJNC在籍時に開発した温度応答性磁性ナノ粒子「Therma-Max®」の開発・製造を担う。粒径は約100nmと一般的な磁気ビーズの約30分の1で、温度の変化で標的を分離するため、血液検査の分離工程を高精度にして検出感度を高められる。東京農工大学のDNAアプタマーと組み合わせた検出法「AptIa法」も持つ。2026年10月にプレシリーズAの資金を調達し、津田将志がCOOに就いた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Therma-Max（独自合成の極小磁気ビーズ、検査用原材料）",
+          "note": "開始時期は公表なし。粒径100nm、特許11件（出願中含む）",
+          "url": "https://segnos.co.jp/"
+        },
+        {
+          "name": "ThermaLISA法による高感度免疫診断（早期アルツハイマー病リスク検査の開発）",
+          "note": "開始時期は公表なし。2024年11月に東京都健康長寿医療センターとの取り組みを発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000013.000149238.html"
+        },
+        {
+          "name": "SegnoSCAN法（ハイスループットスクリーニング技術）",
+          "since": "2026-02",
+          "note": "開発・特許出願を発表",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/149238"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役社長1名・取締役COO1名（2026年10月のリリースで就任発表）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "大西徳幸",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "津田将志",
+            "role": "取締役COO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://segnos.co.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/149238"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "プレシリーズAラウンドで資金調達を実施",
+        "url": "https://prtimes.jp/main/html/rd/p/000000013.000149238.html"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://segnos.co.jp/",
+        "https://segnos.co.jp/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/149238",
+        "https://prtimes.jp/main/html/rd/p/000000013.000149238.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-103",
@@ -47884,7 +49904,67 @@
       "https://www.adiposeeds.co.jp/news/jp/312/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2016年7月設立の慶應義塾大学医学部発ベンチャー。松原由美子らの研究をもとに、遺伝子を導入せずに脂肪組織由来の間葉系幹細胞から血小板を作る技術を持ち、ヒト脂肪組織由来血小板様細胞「ASCL-PLC」（ADS-01）を再生医療等製品として開発する。2026年9月、難治性皮膚潰瘍を対象とする企業治験がjRCTで公開された。PRP療法向けの事業も展開し、2026年7月にコージンバイオと加工受託で提携、10月には東邦HDとコージンバイオを引受先とする増資を行った。"
+    "overview": "2016年7月設立の慶應義塾大学医学部発ベンチャー。松原由美子らの研究をもとに、遺伝子を導入せずに脂肪組織由来の間葉系幹細胞から血小板を作る技術を持ち、ヒト脂肪組織由来血小板様細胞「ASCL-PLC」（ADS-01）を再生医療等製品として開発する。2026年9月、難治性皮膚潰瘍を対象とする企業治験がjRCTで公開された。PRP療法向けの事業も展開し、2026年7月にコージンバイオと加工受託で提携、10月には東邦HDとコージンバイオを引受先とする増資を行った。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ASCL-PLC（脂肪組織由来の血小板様細胞）の研究開発",
+          "note": "開始時期は公表なし。難治性皮膚潰瘍などで開発、国内企業治験に向け2026年10月に資金調達完了",
+          "url": "https://www.adiposeeds.co.jp/news/jp/323/"
+        },
+        {
+          "name": "PRP事業",
+          "note": "開始時期は公表なし。2026年7月に業務提携を発表",
+          "url": "https://www.adiposeeds.co.jp/news/jp/312/"
+        },
+        {
+          "name": "製造パートナーへの技術ライセンス提供",
+          "note": "開始時期は公表なし",
+          "url": "https://www.adiposeeds.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役社長CEO&CFO1名・取締役CSO1名・取締役COO1名・社外取締役2名。ほかに監査役1名、サイエンティフィック・アドバイザー1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "不破淳二",
+            "role": "代表取締役社長CEO&CFO"
+          },
+          {
+            "name": "松原由美子",
+            "role": "取締役CSO"
+          },
+          {
+            "name": "土方重樹",
+            "role": "取締役COO"
+          },
+          {
+            "name": "本郷有克",
+            "role": "社外取締役"
+          },
+          {
+            "name": "早川典秀",
+            "role": "社外取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.adiposeeds.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "ASCL-PLCの国内企業治験およびPRP事業本格展開のための資金調達を完了",
+        "url": "https://www.adiposeeds.co.jp/news/jp/323/"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://www.adiposeeds.co.jp/",
+        "https://www.adiposeeds.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-104",
@@ -47921,7 +50001,56 @@
       "https://www.radionano-tx.com/"
     ],
     "updatedAt": "2026-10",
-    "overview": "京都大学の小松直樹教授（人間・環境学研究科）と鈴木実教授（複合原子力科学研究所）が開発した、高親水性の含ホウ素無機ナノ粒子を使う中性子捕捉療法の社会実装を目指して2024年4月に設立された京大発バイオベンチャー。BNCT（ホウ素中性子捕捉療法）用の新しいホウ素薬剤「RN-501」を開発し、ナノ粒子でがん組織への集積を高めて副作用の軽減と適応がん種の拡大を狙う。PMDA相談を経て非臨床開発を進め、シリーズBの資金で第I/IIa相治験の実施を目指す。代表は田辺三菱製薬出身の千葉雅俊。"
+    "overview": "京都大学の小松直樹教授（人間・環境学研究科）と鈴木実教授（複合原子力科学研究所）が開発した、高親水性の含ホウ素無機ナノ粒子を使う中性子捕捉療法の社会実装を目指して2024年4月に設立された京大発バイオベンチャー。BNCT（ホウ素中性子捕捉療法）用の新しいホウ素薬剤「RN-501」を開発し、ナノ粒子でがん組織への集積を高めて副作用の軽減と適応がん種の拡大を狙う。PMDA相談を経て非臨床開発を進め、シリーズBの資金で第I/IIa相治験の実施を目指す。代表は田辺三菱製薬出身の千葉雅俊。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "RN-501（BNCT用ホウ素含有無機ナノ粒子製剤）の研究開発",
+          "note": "開始時期は公表なし。2026年10月シリーズB 1stクローズ、第I/IIa相試験の実施へ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000006.000154873.html"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役社長CEO1名・取締役CBO/COO1名・社外取締役2名（うち1名は科学諮問委員兼任）。ほかに社外監査役1名、科学諮問委員",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "千葉雅俊",
+            "role": "代表取締役社長CEO"
+          },
+          {
+            "name": "川井洋",
+            "role": "取締役CBO/COO"
+          },
+          {
+            "name": "上野博之",
+            "role": "社外取締役"
+          },
+          {
+            "name": "小松直樹",
+            "role": "社外取締役／科学諮問委員"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.radionano-tx.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/154873"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "U-START UP KANSAI 2026「O-Nexus賞」等を受賞",
+        "url": "https://www.radionano-tx.com/news"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://www.radionano-tx.com/",
+        "https://www.radionano-tx.com/aboutus",
+        "https://www.radionano-tx.com/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/154873"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-105",
@@ -47962,7 +50091,57 @@
     ],
     "updatedAt": "2026-10",
     "overview": "元助産師の渡邊愛子が2021年10月に設立。助産師・看護師・保育士など女性専門職の柔軟な働き方を支えるシェアリングプラットフォームを運営し、約3,000名の助産師ネットワークを軸に、家庭へ派遣する低月齢ベビーシッター「ジョサンシーズ」、オンライン助産師相談、日帰り型産後ケア施設「YUARITO」、産院向け人材サービスを展開する。2025年7月に中央区の産後ケア事業を民間企業として初めて受託するなど、自治体との連携も進める。",
-    "totalFunding": "累計約6.8億円（2026年9月時点）"
+    "totalFunding": "累計約6.8億円（2026年9月時点）",
+    "profile": {
+      "businesses": [
+        {
+          "name": "YUARITO（産後ケア施設：日帰りDAY・宿泊STAY、日本橋浜町）",
+          "since": "2025-04",
+          "note": "2025年2月に三菱地所から事業承継決定、4月に日帰り型施設オープン。2026年9月台東区の産後ケア事業を受託",
+          "url": "https://prtimes.jp/main/html/rd/p/000000081.000110270.html"
+        },
+        {
+          "name": "助産師・保育士等による育児トータルサポート（訪問・ベビーシッター等）",
+          "since": "2022-10",
+          "note": "PR TIMESでリリースを発表",
+          "url": "https://josanshes.co.jp/service"
+        },
+        {
+          "name": "she's path（助産師特化の人材サービス）",
+          "since": "2026-10",
+          "note": "正式版を2026年10月20日から全国提供と発表",
+          "url": "https://josanshes.co.jp/service"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "PR TIMES記載の代表取締役CEOのみ確認。公式メンバー欄はCEO・COO・財務等を英字で掲載（役員区分は不明）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "渡邊愛子",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://josanshes.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/110270"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "産後ケア施設YUARITOシリーズが台東区の産後ケア事業を受託",
+        "url": "https://prtimes.jp/main/html/rd/p/000000081.000110270.html"
+      },
+      "newsPerYear": 23,
+      "sources": [
+        "https://josanshes.co.jp/",
+        "https://josanshes.co.jp/member",
+        "https://josanshes.co.jp/service",
+        "https://prtimes.jp/main/html/searchrlp/company_id/110270"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-106",
@@ -48002,7 +50181,59 @@
       "https://zerosystem.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2006年6月に熊本で設立された医療機関向けシステムメーカー。受託開発を行わず自社製品に特化し、院内物流管理「ZERO Supply」、ME機器管理「ZERO ME」、褥瘡管理「ZERO Pulcer」、急性期血液浄化業務支援「ZERO HD」を開発・販売する。NEC、富士通Japanなどが取引先。2021年に熊本県リーディング育成企業に選定され、2026年9月にはメディエ・データやMR適合性検索「Nextant」と連携したZERO Supplyを相澤病院に先行導入した。"
+    "overview": "2006年6月に熊本で設立された医療機関向けシステムメーカー。受託開発を行わず自社製品に特化し、院内物流管理「ZERO Supply」、ME機器管理「ZERO ME」、褥瘡管理「ZERO Pulcer」、急性期血液浄化業務支援「ZERO HD」を開発・販売する。NEC、富士通Japanなどが取引先。2021年に熊本県リーディング育成企業に選定され、2026年9月にはメディエ・データやMR適合性検索「Nextant」と連携したZERO Supplyを相澤病院に先行導入した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ZERO Supply（院内物流管理システム）",
+          "note": "開始時期は公表なし。2026年10月メディエ・Nextantと連携",
+          "url": "https://zerosystem.jp/"
+        },
+        {
+          "name": "ZERO ME（ME機器管理システム）",
+          "note": "開始時期は公表なし",
+          "url": "https://zerosystem.jp/"
+        },
+        {
+          "name": "ZERO Pulcer（褥瘡管理システム）",
+          "note": "開始時期は公表なし",
+          "url": "https://zerosystem.jp/"
+        },
+        {
+          "name": "ZERO HD（急性期血液浄化業務支援システム）",
+          "note": "開始時期は公表なし",
+          "url": "https://zerosystem.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "左迫間昭蔵",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://zerosystem.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/189549"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "ZERO Supplyをメディエ・データおよびNextantと連携",
+        "url": "https://zerosystem.jp/news/"
+      },
+      "newsPerYear": 9,
+      "sources": [
+        "https://zerosystem.jp/",
+        "https://zerosystem.jp/company/",
+        "https://zerosystem.jp/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/189549"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-107",
@@ -48040,7 +50271,68 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2012年2月設立。重い障害や難病のある人の在宅生活を、医療的ケアを含む24時間365日の長時間見守りで支える重度訪問介護「ユースタイルケア」を全国展開し、同分野の最大手とされる。直営54拠点（2026年8月）、FC含め重度訪問介護事業所は約110カ所、グループホームや資格スクールを含め全国約200事業所を運営。訪問看護、人材派遣、介護事業者の経営支援、システム開発、ベトナム事業も手がけ、直営売上は210億円（2025年度）。",
-    "employeesAsOf": "2026-09"
+    "employeesAsOf": "2026-09",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ユースタイルケア重度訪問介護（障害者向け）",
+          "since": "2014",
+          "note": "沿革に開始の記載。国内最大規模（公式）、2026年8月に四国全県へ展開",
+          "url": "https://eustylelab.co.jp/service"
+        },
+        {
+          "name": "ユースタイルホーム（重度障害者向けグループホーム）",
+          "since": "2023",
+          "note": "沿革に開始の記載。2026年10月岡山県に初開設",
+          "url": "https://eustylelab.co.jp/service"
+        },
+        {
+          "name": "訪問看護・デイサービス等",
+          "since": "2012",
+          "note": "創業時に通所介護、2015年に訪問看護を開始（沿革）",
+          "url": "https://eustylelab.co.jp/service"
+        },
+        {
+          "name": "ユースタイルカレッジ（介護資格スクール）",
+          "since": "2015",
+          "note": "沿革に開始の記載",
+          "url": "https://eustylelab.co.jp/service"
+        },
+        {
+          "name": "カイビズ（介護事業所の経営支援・ソフト）",
+          "since": "2023",
+          "note": "沿革に開始の記載",
+          "url": "https://eustylelab.co.jp/service"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ。従業員7,041名（2026年9月末）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "大畑健",
+            "role": "代表"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://eustylelab.co.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/151774"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "岡山県に初の重度障害者向けグループホームを開設",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/151774"
+      },
+      "newsPerYear": 19,
+      "sources": [
+        "https://eustylelab.co.jp/",
+        "https://eustylelab.co.jp/overview",
+        "https://prtimes.jp/main/html/searchrlp/company_id/151774"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-108",
@@ -48077,7 +50369,54 @@
       "https://prtimes.jp/main/html/rd/p/000000020.000089500.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "2021年2月設立。足立区で「足立いつき薬局」を竹の塚・島根・青井の3店舗で運営する地域密着型の調剤薬局会社。LINEで処方箋の画像を送って待たずに受け取れる仕組みや、オンライン診療後の自宅配送、医療機関からのFAXによる配送、LINEの電子版お薬手帳に対応し、在庫がない薬も翌日までに届ける。在宅医療の依頼増加に対応するため、2026年10月から東京都「Tokyo Startup Talent」の支援を受け、薬剤師の採用・育成・評価制度の整備を進める。"
+    "overview": "2021年2月設立。足立区で「足立いつき薬局」を竹の塚・島根・青井の3店舗で運営する地域密着型の調剤薬局会社。LINEで処方箋の画像を送って待たずに受け取れる仕組みや、オンライン診療後の自宅配送、医療機関からのFAXによる配送、LINEの電子版お薬手帳に対応し、在庫がない薬も翌日までに届ける。在宅医療の依頼増加に対応するため、2026年10月から東京都「Tokyo Startup Talent」の支援を受け、薬剤師の採用・育成・評価制度の整備を進める。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "足立いつき薬局（調剤薬局、LINE処方箋受付・自宅配送）",
+          "since": "2022-06",
+          "note": "足立区の調剤薬局を事業承継（PR TIMES）。2026年4月竹の塚店を新規オープン",
+          "url": "https://adachi-itsuki-pharmacy.com/"
+        },
+        {
+          "name": "在宅医療（薬剤師の在宅訪問）",
+          "note": "開始時期は公表なし。2026年3月リリースで「1年でゼロから月間190件の在宅訪問」",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/89500"
+        },
+        {
+          "name": "在宅患者向け医薬品配送管理システム",
+          "note": "2025年10月に新製品・新事業開発補助金に採択。提供開始は公表なし",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/89500"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "海老沼徹",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://adachi-itsuki-pharmacy.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/89500"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "東京都主催「Tokyo Startup Talent」に採択",
+        "url": "https://prtimes.jp/main/html/rd/p/000000020.000089500.html"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://adachi-itsuki-pharmacy.com/",
+        "https://adachi-itsuki-pharmacy.com/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/89500"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-109",
@@ -48115,7 +50454,52 @@
       "https://prtimes.jp/main/html/rd/p/000000122.000098284.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "2021年11月設立。「病気で後悔しない社会へ」を掲げ、ウェアラブル心電計で長時間の心電図を測る検査サービスを提供する。主力は胸に貼って寝るだけで9時間以上計測し、不整脈・睡眠時無呼吸症候群・ストレスを臨床検査技師の解析レポートで返す在宅型「ホーム心臓ドック（pro）」。医療機関向けには、7日間連続計測・製造後2年間充電不要の完全使い切りパッチ型ホルター心電計「eclat」を2024年11月に発売し、約1年で大学病院など全国の医療機関に導入が広がった。"
+    "overview": "2021年11月設立。「病気で後悔しない社会へ」を掲げ、ウェアラブル心電計で長時間の心電図を測る検査サービスを提供する。主力は胸に貼って寝るだけで9時間以上計測し、不整脈・睡眠時無呼吸症候群・ストレスを臨床検査技師の解析レポートで返す在宅型「ホーム心臓ドック（pro）」。医療機関向けには、7日間連続計測・製造後2年間充電不要の完全使い切りパッチ型ホルター心電計「eclat」を2024年11月に発売し、約1年で大学病院など全国の医療機関に導入が広がった。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ホーム心臓ドック（在宅型の長時間心電図検査サービス）",
+          "note": "開始時期は公表なし。自治体・企業との実証多数（奈良県三宅町、山梨、浜松、沖縄豊見城市等）",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/98284"
+        },
+        {
+          "name": "使い切りパッチ型心電計",
+          "note": "2026年4月リリースで「発売約1年で全国の医療機関に導入拡大」と記載（発売月は未確認）",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/98284"
+        },
+        {
+          "name": "心スキャン（スマホアプリ）・kokolog MD（心臓×睡眠の新モデル、開発中）",
+          "note": "開始時期は公表なし",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/98284"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（PR TIMES記載）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "林大貴",
+            "role": "代表取締役社長"
+          }
+        ]
+      },
+      "newsroom": {
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/98284"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "健診で見落とされがちな隠れ心臓リスクを可視化する動画を公開",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/98284"
+      },
+      "newsPerYear": 35,
+      "sources": [
+        "https://kokoromil.com/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/98284",
+        "https://prtimes.jp/main/html/rd/p/000000148.000098284.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-110",
@@ -48150,7 +50534,50 @@
     ],
     "updatedAt": "2026-10",
     "overview": "脳神経内科医の井汲一尋が率いる名古屋大学発（2024年8月称号授与）の医療AIスタートアップ。日常診療で広く撮られる頭部MRIをAIで解析し、核医学検査に関連した評価を推定・提示して、パーキンソン病やレビー小体型認知症など神経変性疾患の早期発見・鑑別を支援するプログラム医療機器を開発中（未承認）。2026年にAMED「医工連携グローバル展開事業」で多施設データによる性能検証を進め、米Fogarty Innovationのプログラムで米国展開も探る。",
-    "employeesAsOf": "2026-10"
+    "employeesAsOf": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "脳MRIからパーキンソン病等を早期発見するプログラム医療機器（開発中）",
+          "note": "開始時期は公表なし。2026年にAMED「医工連携グローバル展開事業」採択、米Fogarty Innovationのプログラム採択",
+          "url": "https://medicolab.co.jp/projects/"
+        },
+        {
+          "name": "薬事コンサルティング（MAH/DMAHサービス）",
+          "since": "2024-05",
+          "note": "第一種医療機器製造販売業によるクラスI〜III対応をPR TIMESで発表",
+          "url": "https://medicolab.co.jp/projects/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ。社員数6名（業務委託含む）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "井汲一尋",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://medicolab.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/142196"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "米国Fogarty Innovationのスタートアップ支援プログラムに採択",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/142196"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://medicolab.co.jp/",
+        "https://medicolab.co.jp/about-us/",
+        "https://medicolab.co.jp/projects/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/142196"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-111",
@@ -48193,7 +50620,58 @@
     ],
     "updatedAt": "2026-10",
     "overview": "米ジョンズ・ホプキンス大学医学部教授で30年以上脳画像解析を研究してきた森進が2021年6月に創業。人間ドックや脳ドックで撮影したMRI・CT画像をAIで解析し、脳の萎縮や白質病変などを数値化して認知症・フレイルのリスクを示す「MVision health」「MVision body」を医療機関向けに提供する。首都圏を中心に60以上の医療機関が採用（2024年時点）。第二種医療機器製造販売業の許可を持ち、食品・製薬・保険などリスク対策側の産業との連携も進める。",
-    "totalFunding": "累計約5億円（2024年シリーズAファーストクローズ時点）"
+    "totalFunding": "累計約5億円（2024年シリーズAファーストクローズ時点）",
+    "profile": {
+      "businesses": [
+        {
+          "name": "MVision health（全脳画像解析AIによる脳の健康状態の可視化）",
+          "since": "2022-07",
+          "note": "PR TIMESで正式サービス提供開始を発表。2025年12月テオリア・テクノロジーズと事業提携",
+          "url": "https://www.corporate-m.com/"
+        },
+        {
+          "name": "MVision body（CT画像から脂肪量・筋肉量・筋質を可視化）",
+          "since": "2026-10",
+          "note": "PR TIMESでサービス開始を発表",
+          "url": "https://www.corporate-m.com/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役CEO（創業者）1名・取締役会長（共同創業者）1名・取締役CFO1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "森進",
+            "role": "創業者／代表取締役CEO"
+          },
+          {
+            "name": "関野勝弘",
+            "role": "共同創業者／取締役会長"
+          },
+          {
+            "name": "阪上暁",
+            "role": "取締役CFO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.corporate-m.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/102415"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "CT画像AI解析「MVision body」のサービス開始",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/102415"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://www.corporate-m.com/",
+        "https://www.corporate-m.com/company",
+        "https://prtimes.jp/main/html/searchrlp/company_id/102415"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-112",
@@ -48233,7 +50711,50 @@
       "https://corp.smart-sou.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2021年2月設立。メンタルヘルス、キャリア、ハラスメント、プライベートの悩みまで、従業員がオンラインで外部の専門家に匿名で相談できる法人向け社外相談窓口・EAP「Smart相談室」と、オンラインコーチング「Smartマイコーチ」を運営する。国家資格キャリアコンサルタントなど多様な専門家が在籍し、土日・夜間にも対応。正式版の提供開始から5年でユーザー数30万人、累計相談件数5万件を超えた（2026年10月）。相談データを使った共同研究も進めるSmartHRのグループ会社。"
+    "overview": "2021年2月設立。メンタルヘルス、キャリア、ハラスメント、プライベートの悩みまで、従業員がオンラインで外部の専門家に匿名で相談できる法人向け社外相談窓口・EAP「Smart相談室」と、オンラインコーチング「Smartマイコーチ」を運営する。国家資格キャリアコンサルタントなど多様な専門家が在籍し、土日・夜間にも対応。正式版の提供開始から5年でユーザー数30万人、累計相談件数5万件を超えた（2026年10月）。相談データを使った共同研究も進めるSmartHRのグループ会社。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Smart相談室（法人向けオンライン社外相談窓口・EAP）",
+          "since": "2021",
+          "note": "2026年10月に「サービス提供開始5周年」と公表（開始月は未確認）。2026年6月AIコンシェルジュ追加",
+          "url": "https://smart-sou.co.jp/"
+        },
+        {
+          "name": "Smartマイコーチ（法人向けコーチング）",
+          "since": "2025-07",
+          "note": "PR TIMESでリリースを発表",
+          "url": "https://smart-sou.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "藤田康男",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://corp.smart-sou.co.jp/news/all",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/89158"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "『相談白書2026』発行（サービス提供開始5周年）",
+        "url": "https://corp.smart-sou.co.jp/news/20261021"
+      },
+      "newsPerYear": 31,
+      "sources": [
+        "https://corp.smart-sou.co.jp/",
+        "https://corp.smart-sou.co.jp/news/all",
+        "https://prtimes.jp/main/html/searchrlp/company_id/89158"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-113",
@@ -48283,7 +50804,77 @@
         "text": "習慣化アプリ「みんチャレ」のエーテンラボがシリーズA2で資金調達（4.4億円）",
         "source": "https://a10lab.com/press-20240122/"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "みんチャレ（5人チームで励まし合う習慣化アプリ）",
+          "note": "アプリ自体の開始時期は公表なし（2017年2月にソニーから独立）",
+          "url": "https://minchalle.com"
+        },
+        {
+          "name": "みんチャレ Business",
+          "since": "2017-04",
+          "note": "沿革に提供開始の記載",
+          "url": "https://a10lab.com/company/"
+        },
+        {
+          "name": "みんチャレ Healthcare（自治体・健保向けフレイル予防・生活習慣病予防）",
+          "since": "2021-07",
+          "note": "フレイル予防2021年7月、生活習慣病予防2021年9月に開始（沿革）",
+          "url": "https://a10lab.com/company/"
+        },
+        {
+          "name": "みんチャレ禁煙（企業・健保向け禁煙プログラム）",
+          "note": "開始時期は公表なし。2026年10月に内服薬コース追加",
+          "url": "https://a10lab.com/press-20261023/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役CEO兼COO1名・取締役CTO1名・取締役CDO1名・取締役1名・執行役員CFO1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "長坂剛",
+            "role": "代表取締役CEO兼COO"
+          },
+          {
+            "name": "山口信行",
+            "role": "取締役CTO"
+          },
+          {
+            "name": "木下謙一",
+            "role": "取締役CDO"
+          },
+          {
+            "name": "安西智宏",
+            "role": "取締役"
+          },
+          {
+            "name": "村上真",
+            "role": "執行役員CFO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://a10lab.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/24217"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「みんチャレ禁煙」に「内服薬コース」が新登場",
+        "url": "https://a10lab.com/press-20261023/"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://a10lab.com/",
+        "https://a10lab.com/company/",
+        "https://a10lab.com/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/24217"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-114",
@@ -48351,7 +50942,69 @@
         "text": "紙のお薬手帳を読み取るAI-OCR機能を提供開始"
       }
     ],
-    "overview": "ソニーが開発した電子お薬手帳「harmo」の事業をシミックグループが承継し、2021年8月に分社化したシミックHDのグループ会社。医療機関向け「harmoシステム」では、電子カルテを改修・ネット接続せずにお薬手帳の薬剤情報を転送する「ダイレクト・オフライン転送」を2025年10月に提供し、2026年8月にAI-OCRで紙の手帳にも対応した。予防接種管理「harmoワクチンケア」や運輸業向け健康支援も展開。「harmoおくすり手帳」事業はファルモへ譲渡し、2026年9月末で終了した。"
+    "overview": "ソニーが開発した電子お薬手帳「harmo」の事業をシミックグループが承継し、2021年8月に分社化したシミックHDのグループ会社。医療機関向け「harmoシステム」では、電子カルテを改修・ネット接続せずにお薬手帳の薬剤情報を転送する「ダイレクト・オフライン転送」を2025年10月に提供し、2026年8月にAI-OCRで紙の手帳にも対応した。予防接種管理「harmoワクチンケア」や運輸業向け健康支援も展開。「harmoおくすり手帳」事業はファルモへ譲渡し、2026年9月末で終了した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "harmoシステム（薬剤情報のダイレクト・オフライン転送、電子カルテ入力支援）",
+          "note": "開始時期は公表なし。2025年10月オフライン転送、2026年8月AI-OCR対応",
+          "url": "https://www.harmo.biz/"
+        },
+        {
+          "name": "harmoワクチンケア（自治体の予防接種事務デジタル化）",
+          "note": "開始時期は公表なし。2025年12月アルフレッサと協業",
+          "url": "https://prtimes.jp/main/html/rd/p/000000120.000051375.html"
+        },
+        {
+          "name": "well-harmo（運輸向け健康支援）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.harmo.biz/"
+        },
+        {
+          "name": "ヤクレコ（運輸事業者向け服薬管理）",
+          "since": "2026-10",
+          "note": "2026年10月1日提供開始（シミックHDのPR TIMES）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000147.000051375.html"
+        },
+        {
+          "name": "リアルワールドデータソリューション",
+          "note": "開始時期は公表なし。年間最大約2,500万人の調剤レセプトデータ等",
+          "url": "https://www.harmo.biz/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役Co-CEO2名（公表されているのは代表者のみ）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "山東崇紀",
+            "role": "代表取締役Co-CEO"
+          },
+          {
+            "name": "内上昌裕",
+            "role": "代表取締役Co-CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.harmo.biz/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/51375"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "PHPの脆弱性対応完了のお知らせ／運輸向けウェビナー共催",
+        "url": "https://www.harmo.biz/news"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://www.harmo.biz/",
+        "https://www.harmo.biz/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/51375",
+        "https://prtimes.jp/main/html/searchrlp/company_id/49119"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-115",
@@ -48404,7 +51057,76 @@
         "text": "ウェルネスブランドのTENTIALが資金調達（10億円）",
         "source": "https://prtimes.jp/main/html/rd/p/000000159.000032370.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "BAKUNE（リカバリーウェア等、一般医療機器）",
+          "note": "開始時期は公表なし。2026年10月に夜専用インナー、掛け布団は累計25万枚",
+          "url": "https://tential.jp/"
+        },
+        {
+          "name": "TENTIAL（コンディショニング製品のウェルネスブランド）",
+          "note": "開始時期は公表なし",
+          "url": "https://tential.jp/"
+        },
+        {
+          "name": "法人事業（健康経営支援）",
+          "note": "開始時期は公表なし",
+          "url": "https://tential.jp/page/business"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "取締役6名（代表取締役CEO1・取締役執行役員COO1・社外取締役1・監査等委員である社外取締役3）。ほかに執行役員（CRO・CTO等）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "中西裕太郎",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "南日政俊",
+            "role": "取締役執行役員COO"
+          },
+          {
+            "name": "猿渡歩",
+            "role": "社外取締役"
+          },
+          {
+            "name": "石田和也",
+            "role": "社外取締役（監査等委員）"
+          },
+          {
+            "name": "降幡武亮",
+            "role": "社外取締役（監査等委員）"
+          },
+          {
+            "name": "酒井温子",
+            "role": "社外取締役（監査等委員）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://corp.tential.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/32370",
+        "ir": "https://corp.tential.jp/ir/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「BAKUNE 掛け布団」累計販売25万枚突破、冬の快適解を提案",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/32370"
+      },
+      "newsPerYear": 57,
+      "sources": [
+        "https://corp.tential.jp/",
+        "https://corp.tential.jp/company/overview/",
+        "https://corp.tential.jp/company/members/",
+        "https://corp.tential.jp/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/32370"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1120001224840",
@@ -48448,7 +51170,61 @@
       "https://withmidwife.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "助産師の岸畑聖月が2019年11月に大阪で設立した「助産師の会社」。創業時の「顧問助産師」を2021年に「The CARE」へ改称し、従業員の妊娠・出産・育児や女性の健康、男性育休を助産師が支える法人向けサービスとして展開する。助産師検索「Meets the Midwife」、助産師向けリスキリング「License says」、働く親向けオンライン両親学級「OYA WORK」なども手がけ、2026年には東京・中野に産前産後ケア施設「Jicca Nakano」を開業した。"
+    "overview": "助産師の岸畑聖月が2019年11月に大阪で設立した「助産師の会社」。創業時の「顧問助産師」を2021年に「The CARE」へ改称し、従業員の妊娠・出産・育児や女性の健康、男性育休を助産師が支える法人向けサービスとして展開する。助産師検索「Meets the Midwife」、助産師向けリスキリング「License says」、働く親向けオンライン両親学級「OYA WORK」なども手がけ、2026年には東京・中野に産前産後ケア施設「Jicca Nakano」を開業した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "THE CARE（企業向け・助産師等によるオンライン相談／両立支援）",
+          "since": "2019-11",
+          "note": "設立時に「顧問助産師」としてリリース、2021年3月に「The CARE」へ改称（沿革）",
+          "url": "https://withmidwife.jp/whatwedo/service/"
+        },
+        {
+          "name": "Meets the Midwife（助産師検索プラットフォーム）",
+          "since": "2020-05",
+          "note": "沿革にリリースの記載",
+          "url": "https://withmidwife.jp/whoweare/company/"
+        },
+        {
+          "name": "OYA WORK（働く親向けイベント・両親学級）",
+          "note": "開始時期は公表なし",
+          "url": "https://withmidwife.jp/press/category/oyawork/"
+        },
+        {
+          "name": "産後ケア施設の運営",
+          "note": "開始時期は公表なし（2026年2月に夜勤スタッフ募集のお知らせ）",
+          "url": "https://withmidwife.jp/press/staffbosyu_20260209/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "岸畑聖月",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://withmidwife.jp/press/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/57629"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "毎日新聞に代表・岸畑の取材記事が掲載",
+        "url": "https://withmidwife.jp/press/mainichi-shimbun-20261021/"
+      },
+      "newsPerYear": 41,
+      "sources": [
+        "https://withmidwife.jp/",
+        "https://withmidwife.jp/whoweare/company/",
+        "https://withmidwife.jp/press/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/57629"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-116",
@@ -48491,7 +51267,67 @@
       "https://my-sherpa.co.jp/service/junior/"
     ],
     "updatedAt": "2026-10",
-    "overview": "医学博士・精神科専門医で複数のメンタルクリニックを運営する松本良平が2016年7月に設立。「誰もがメンタルヘルスケアへアクセスできる社会」を掲げ、臨床心理士・公認心理師によるオンラインカウンセリングを個人と法人に提供する。法人向けにはストレスチェック（ファースト・ストレスチェック）、スポット産業医、メンタルヘルス研修、休職予防・復職支援をワンストップで提供し、発達障害の子ども向けの児童発達支援・放課後等デイサービス「マイシェルパ ジュニア」も運営する。東京（虎ノ門）と大阪の2本社体制。"
+    "overview": "医学博士・精神科専門医で複数のメンタルクリニックを運営する松本良平が2016年7月に設立。「誰もがメンタルヘルスケアへアクセスできる社会」を掲げ、臨床心理士・公認心理師によるオンラインカウンセリングを個人と法人に提供する。法人向けにはストレスチェック（ファースト・ストレスチェック）、スポット産業医、メンタルヘルス研修、休職予防・復職支援をワンストップで提供し、発達障害の子ども向けの児童発達支援・放課後等デイサービス「マイシェルパ ジュニア」も運営する。東京（虎ノ門）と大阪の2本社体制。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "マイシェルパ（精神科医運営のオンラインカウンセリング）",
+          "since": "2021-02",
+          "note": "PR TIMESでサービス開始を発表。法人定額プランは2021年5月",
+          "url": "https://my-sherpa.co.jp/service/"
+        },
+        {
+          "name": "法人向けメンタルヘルス（ストレスチェック・スポット産業医・研修・休職予防/復職支援）",
+          "note": "開始時期は公表なし。2026年10月三井住友海上あいおい生命のサービスに採用",
+          "url": "https://my-sherpa.co.jp/service/corporations/"
+        },
+        {
+          "name": "児童発達支援・放課後等デイサービス",
+          "note": "開始時期は公表なし",
+          "url": "https://my-sherpa.co.jp/service/junior/"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役1名・取締役1名・社外取締役2名。ほかにアドバイザー1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "松本良平",
+            "role": "代表取締役（精神科専門医）"
+          },
+          {
+            "name": "鳥越啓作",
+            "role": "取締役"
+          },
+          {
+            "name": "大﨑司",
+            "role": "社外取締役"
+          },
+          {
+            "name": "石井岳",
+            "role": "社外取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://my-sherpa.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/73210"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "阪和ビジネスパートナーズがマイシェルパを導入",
+        "url": "https://my-sherpa.co.jp/news/8454/"
+      },
+      "newsPerYear": 25,
+      "sources": [
+        "https://my-sherpa.co.jp/",
+        "https://my-sherpa.co.jp/company/",
+        "https://my-sherpa.co.jp/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/73210"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-117",
@@ -48530,7 +51366,49 @@
       "https://www.menopeer.com/scta"
     ],
     "updatedAt": "2026-10",
-    "overview": "三井物産出身で英Royal College of Artでサービスデザインを学んだ木村琴子が2022年1月に設立。35歳以上のプレ更年期〜更年期世代向けに、月経や体調を記録できるLINEアプリ「Lumino（ルミノ）」を提供し、更年期医療の専門医が監修する。2025年9月に法人向け事業を始め、更年期女性のインサイトとアプリのユーザー基盤を使ったリサーチ・商品共創・マーケティング支援「Lumino Bridge」を2026年1月から提供している。"
+    "overview": "三井物産出身で英Royal College of Artでサービスデザインを学んだ木村琴子が2022年1月に設立。35歳以上のプレ更年期〜更年期世代向けに、月経や体調を記録できるLINEアプリ「Lumino（ルミノ）」を提供し、更年期医療の専門医が監修する。2025年9月に法人向け事業を始め、更年期女性のインサイトとアプリのユーザー基盤を使ったリサーチ・商品共創・マーケティング支援「Lumino Bridge」を2026年1月から提供している。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Lumino（プレ更年期〜更年期女性向けLINEヘルスケアアプリ）",
+          "since": "2024-11",
+          "note": "PR TIMESでサービス開始を発表。ユーザー基盤2.5万人（2026年1月）",
+          "url": "https://www.menopeer.com/"
+        },
+        {
+          "name": "法人向けソリューション（リサーチ・コンサル、Lumino Bridgeによるマーケ支援）",
+          "since": "2025-09",
+          "note": "法人向けソリューション事業開始。Lumino Bridgeは2026年1月提供開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000013.000109426.html"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ。ほかに監修医師",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "木村琴子",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.menopeer.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/109426"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "西武信用金庫主催「ソーシャルインパクトザギャザリング」に登壇",
+        "url": "https://www.menopeer.com/"
+      },
+      "newsPerYear": 6,
+      "sources": [
+        "https://www.menopeer.com/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/109426"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2120001243963",
@@ -48571,7 +51449,56 @@
       "https://ph-tech.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2022年2月に大阪で設立。主力の「けんさぽ for business」は、健康診断やストレスチェックの結果を一元管理するクラウドと、健診の日程調整・データ入力・産業医紹介などの業務代行を組み合わせた企業向け健康管理サービスで、従業員1人月額100円から利用でき累計1,023社が導入（2025年5月末）。従業員向けアプリ「ログシル」、医療機関向け「けんさぽ for medical」も提供する。NTTドコモ・ベンチャーズやSIIFインパクトキャピタルなどが出資。"
+    "overview": "2022年2月に大阪で設立。主力の「けんさぽ for business」は、健康診断やストレスチェックの結果を一元管理するクラウドと、健診の日程調整・データ入力・産業医紹介などの業務代行を組み合わせた企業向け健康管理サービスで、従業員1人月額100円から利用でき累計1,023社が導入（2025年5月末）。従業員向けアプリ「ログシル」、医療機関向け「けんさぽ for medical」も提供する。NTTドコモ・ベンチャーズやSIIFインパクトキャピタルなどが出資。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "けんさぽ（従業員の健康管理サービス：健診業務代行・健康管理システム・産業医紹介）",
+          "note": "開始時期は公表なし。導入200社突破（2023年8月）",
+          "url": "https://ph-tech.jp/"
+        },
+        {
+          "name": "ログシル（企業と従業員をつなぐヘルスケアアプリ）",
+          "note": "開始時期は公表なし",
+          "url": "https://ph-tech.jp/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役1名・取締役2名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "新田哲哉",
+            "role": "代表取締役"
+          },
+          {
+            "name": "児玉知浩",
+            "role": "取締役"
+          },
+          {
+            "name": "北川和裕",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://ph-tech.jp/topics/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/123493"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "Personal Health Techとカルテ庫が業務提携",
+        "url": "https://prtimes.jp/main/html/rd/p/000000031.000123493.html"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://ph-tech.jp/",
+        "https://ph-tech.jp/company/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/123493"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2290001018911",
@@ -48630,7 +51557,41 @@
         "text": "レイヤードがクリニック向け無人受付ソリューションを提供開始",
         "source": "https://layered.inc/press-release/20250715/"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療機関向けDX支援プロダクト（Symview・Wakumy・Kakarite・Iver・Sairai・Soko等）",
+          "note": "開始時期は公表なし（公式サイトがメンテナンス中で確認不可）",
+          "url": "https://layered-emergency.com/"
+        },
+        {
+          "name": "医療機関向けホームページ制作（Medicastar等）",
+          "note": "開始時期は公表なし",
+          "url": "https://layered-emergency.com/"
+        },
+        {
+          "name": "広告配信事業",
+          "note": "株探の会社概要に記載。開始時期は公表なし",
+          "url": "https://kabutan.jp/stock/?code=634A"
+        }
+      ],
+      "newsroom": {
+        "ir": "https://kabutan.jp/stock/news?code=634A"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "第三者割当増資の結果に関するお知らせ（適時開示）",
+        "url": "https://kabutan.jp/stock/news?code=634A"
+      },
+      "sources": [
+        "https://layered.inc/",
+        "https://layered-emergency.com/",
+        "https://kabutan.jp/stock/?code=634A",
+        "https://kabutan.jp/stock/news?code=634A"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-118",
@@ -48673,7 +51634,64 @@
       "https://pittan.life/technology/"
     ],
     "updatedAt": "2026-10",
-    "overview": "東京大学薬学系研究科の角田誠准教授らと2022年6月に共同創業した大阪のヘルステック企業。皮膚から蒸散するごく微量の汗を低コストで分析する技術を持ち、特許出願済みの自動成分抽出（SCT）と自動試薬反応（MPT）を組み込んだ小型のオンサイト分析装置で、汗採取パッチからアミノ酸などを測る。これを使った栄養バランス最適化のための汗分析キット「Nutrifull」を、理美容・エステなどウェルネス事業者向けに2026年4月から本格展開。神戸にラボを持つ。"
+    "overview": "東京大学薬学系研究科の角田誠准教授らと2022年6月に共同創業した大阪のヘルステック企業。皮膚から蒸散するごく微量の汗を低コストで分析する技術を持ち、特許出願済みの自動成分抽出（SCT）と自動試薬反応（MPT）を組み込んだ小型のオンサイト分析装置で、汗採取パッチからアミノ酸などを測る。これを使った栄養バランス最適化のための汗分析キット「Nutrifull」を、理美容・エステなどウェルネス事業者向けに2026年4月から本格展開。神戸にラボを持つ。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Nutrifull（栄養バランスを最適化する汗分析キット）",
+          "note": "開始時期は公表なし。2023年11月に肌のためのインナー測定キット販売開始（PR TIMES）",
+          "url": "https://pittan.life/"
+        },
+        {
+          "name": "Pitagoras（小型・高速の体液分析マシン）",
+          "note": "2025年5月にプロトタイプ発表、提供開始は公表なし",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/118398"
+        },
+        {
+          "name": "理美容・エステ業界向けパーソナライズ支援",
+          "since": "2026-04",
+          "note": "2026年4月の本格展開に向けた体制構築を告知（2026年2月お知らせ）",
+          "url": "https://pittan.life/news/264/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役CEO・取締役CTO（共同創業者2名）・取締役COO。ほかにアドバイザー",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "辻本和也",
+            "role": "共同創業者／代表取締役CEO"
+          },
+          {
+            "name": "児山浩崇",
+            "role": "共同創業者／取締役CTO"
+          },
+          {
+            "name": "西川嘉紀",
+            "role": "取締役COO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://pittan.life/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/118398"
+      },
+      "latestNews": {
+        "date": "2026-06",
+        "title": "「EY アントレプレナー・オブ・ザ・イヤー ジャパン関西地区」を受賞",
+        "url": "https://pittan.life/news/ey-entrepreneur-of-the-year-2025/"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://pittan.life/",
+        "https://pittan.life/about-us/",
+        "https://pittan.life/about-company/",
+        "https://pittan.life/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/118398"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-119",
@@ -48715,7 +51733,42 @@
       "https://dioseve.com/pipelines/dios-101/"
     ],
     "updatedAt": "2026-10",
-    "overview": "元投資銀行員の岸田和真と生殖細胞研究者の浜崎伸彦が2021年に共同創業した不妊治療領域のバイオスタートアップ。iPS細胞から卵母細胞や卵巣体細胞を短期間・高効率に作る独自技術（Nature掲載、単独特許）を基に、iPS由来卵子の「DIOS-001」と、iPS由来卵巣細胞で未熟卵の体外成熟を助ける「DIOS-101（ReproNest）」を開発する。大阪大学の林克彦教授が技術顧問。熊本大学内に研究拠点、米パロアルトに子会社を置く。"
+    "overview": "元投資銀行員の岸田和真と生殖細胞研究者の浜崎伸彦が2021年に共同創業した不妊治療領域のバイオスタートアップ。iPS細胞から卵母細胞や卵巣体細胞を短期間・高効率に作る独自技術（Nature掲載、単独特許）を基に、iPS由来卵子の「DIOS-001」と、iPS由来卵巣細胞で未熟卵の体外成熟を助ける「DIOS-101（ReproNest）」を開発する。大阪大学の林克彦教授が技術顧問。熊本大学内に研究拠点、米パロアルトに子会社を置く。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "iPS細胞から卵母細胞・卵巣体細胞を誘導する生殖再生医療（パイプラインDIOS-001・DIOS-101）",
+          "note": "開始時期は公表なし。研究段階。2026年6月シリーズA追加で10億円超調達、NEDO DTSU採択",
+          "url": "https://dioseve.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "役員として確認できたのは代表取締役（共同創業者）のみ。ほかに臨床開発責任者等の幹部、技術・臨床・医学顧問",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "岸田和真",
+            "role": "代表取締役（共同創業者）"
+          }
+        ]
+      },
+      "newsroom": {
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/103378"
+      },
+      "latestNews": {
+        "date": "2026-06",
+        "title": "シリーズA追加ラウンドで10億円超を調達、NEDO DTSU採択",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/103378"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://dioseve.com/",
+        "https://dioseve.com/members/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/103378"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-120",
@@ -48752,7 +51805,42 @@
       "https://www.arcs-inc.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "トヨタ自動車やAIスタートアップで医療機器開発を率いた棚瀬将康が2022年3月に設立。東京科学大学の研究成果を活用し、AIとロボティクスで生殖補助医療の自動化に取り組む。顕微授精（ICSI）で、人の目では見極めにくい良好精子をAIで定量評価し、ICSI自動化システムで素早く正確に注入することで、胚培養士の不足や技量差を補う。2026年にNEDOディープテック・スタートアップ支援事業のSTSフェーズに採択（3.89億円）され、性能検証と欧米展開を進める。"
+    "overview": "トヨタ自動車やAIスタートアップで医療機器開発を率いた棚瀬将康が2022年3月に設立。東京科学大学の研究成果を活用し、AIとロボティクスで生殖補助医療の自動化に取り組む。顕微授精（ICSI）で、人の目では見極めにくい良好精子をAIで定量評価し、ICSI自動化システムで素早く正確に注入することで、胚培養士の不足や技量差を補う。2026年にNEDOディープテック・スタートアップ支援事業のSTSフェーズに採択（3.89億円）され、性能検証と欧米展開を進める。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "研究ラボ向けAI・ロボティクス自動化ツールの開発",
+          "note": "開始時期は公表なし。公式サイトは「研究ラボにおける標準化・自動化」と記載（生殖補助医療の明記なし）",
+          "url": "https://www.arcs-inc.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "棚瀬将康",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.arcs-inc.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/109635"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "NEDO「DTSU」STSフェーズおよび東京都「ゼロエミッション」補助事業に採択",
+        "url": "https://www.arcs-inc.jp/"
+      },
+      "newsPerYear": 2,
+      "sources": [
+        "https://www.arcs-inc.jp/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/109635"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3011501024814",
@@ -48794,7 +51882,48 @@
       "https://www.psp.co.jp/news/20240724_news_regulus.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "2019年6月設立の医用イメージング特化型CRO。医薬品・医療機器の治験で、CT・MRIなどの医用画像を厳密に管理して集め、公平な立場の放射線診断専門医による第三者評価委員会（画像中央判定）を運営し、承認申請用のエビデンスづくりを支える。遠隔画像中央判定サービスも提供。前身からの約15年で治験プロトコール121件、受託160件超の実績があり、抗がん剤・循環器・呼吸器領域が多い。2024年6月に医用画像システムのPSP（テクマトリックスグループ）の完全子会社となった。"
+    "overview": "2019年6月設立の医用イメージング特化型CRO。医薬品・医療機器の治験で、CT・MRIなどの医用画像を厳密に管理して集め、公平な立場の放射線診断専門医による第三者評価委員会（画像中央判定）を運営し、承認申請用のエビデンスづくりを支える。遠隔画像中央判定サービスも提供。前身からの約15年で治験プロトコール121件、受託160件超の実績があり、抗がん剤・循環器・呼吸器領域が多い。2024年6月に医用画像システムのPSP（テクマトリックスグループ）の完全子会社となった。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "医用イメージングCRO（治験の画像中央判定・第三者評価委員会運営）",
+          "note": "開始時期は公表なし（公式に「臨床経験豊富なスタッフ構成で約15年活動」と記載）",
+          "url": "https://cro.co.jp/service/"
+        },
+        {
+          "name": "遠隔画像中央判定サービス",
+          "note": "開始時期は公表なし",
+          "url": "https://cro.co.jp/news-serviceinformation/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "渡辺圭司",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://cro.co.jp/category/info/"
+      },
+      "latestNews": {
+        "date": "2024-07",
+        "title": "PSP株式会社との業務資本提携について（完全子会社化）",
+        "url": "https://cro.co.jp/post-3808/"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://cro.co.jp/",
+        "https://cro.co.jp/company/",
+        "https://cro.co.jp/category/info/",
+        "https://cro.co.jp/post-3808/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5140001138779",
@@ -48831,7 +51960,44 @@
       "https://initial.inc/tags/clinical-trial"
     ],
     "updatedAt": "2026-10",
-    "overview": "神経内科専門医の佐伯千寿が2025年5月に神戸で設立したALS領域のスタートアップ。ALSの早期から現れる筋肉のピクつき（fasciculation）に着目し、皮膚に貼る小型ウェアラブル超音波と解析AIで、約20分で4筋を同時に測ってピクつきを自動検出・定量化する仕組みを開発中。非侵襲的な超早期診断に加え、数日で反応するバイオマーカーとして治験の薬効評価やレスポンダー選定に生かすことを目指す。2026年10月に東京都AMDAPに採択。"
+    "overview": "神経内科専門医の佐伯千寿が2025年5月に神戸で設立したALS領域のスタートアップ。ALSの早期から現れる筋肉のピクつき（fasciculation）に着目し、皮膚に貼る小型ウェアラブル超音波と解析AIで、約20分で4筋を同時に測ってピクつきを自動検出・定量化する仕組みを開発中。非侵襲的な超早期診断に加え、数日で反応するバイオマーカーとして治験の薬効評価やレスポンダー選定に生かすことを目指す。2026年10月に東京都AMDAPに採択。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ウェアラブル超音波×fasciculation解析AIによるALS超早期診断・薬効評価（開発中）",
+          "note": "開始時期は公表なし。プロトタイプ段階。2026年10月東京都AMDAP採択",
+          "url": "https://www.sonoals.com/ja"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "創業者兼CEO・CTO/COOの2名（取締役区分は公式で明記なし）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "佐伯千寿",
+            "role": "創業者兼CEO（神経内科専門医）"
+          },
+          {
+            "name": "小嶋忠詞",
+            "role": "CTO/COO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.sonoals.com/ja#news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "東京都「先端医療機器アクセラレーションプロジェクト（AMDAP）」に採択",
+        "url": "https://www.sonoals.com/ja"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://www.sonoals.com/ja"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9120001111255",
@@ -48874,7 +52040,78 @@
         "text": "CROのリニカルが米Science 37と分散型臨床試験推進で提携",
         "source": "https://www.linical.com/ja/news-and-events/2022111701"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "CRO事業（臨床試験のモニタリング・PM・データマネジメント・PV等）",
+          "since": "2005-06",
+          "note": "創業事業（2005年6月大阪で設立）。日本・アジア・欧米でグローバル展開",
+          "url": "https://www.linical.com/ja/services"
+        },
+        {
+          "name": "医薬品開発戦略支援（プロトコル作成・薬事コンサル・薬事申請・メディカルライティング）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.linical.com/ja/services/drug-development-strategy"
+        }
+      ],
+      "management": {
+        "count": 8,
+        "note": "取締役8名（代表取締役1・取締役2・社外取締役2・監査等委員である社外取締役3）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "秦野和浩",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "中路茂",
+            "role": "取締役"
+          },
+          {
+            "name": "河合順",
+            "role": "取締役"
+          },
+          {
+            "name": "安藤良光",
+            "role": "社外取締役"
+          },
+          {
+            "name": "西村智子",
+            "role": "社外取締役"
+          },
+          {
+            "name": "村上祐一",
+            "role": "社外取締役（常勤監査等委員）"
+          },
+          {
+            "name": "中島与志明",
+            "role": "社外取締役（監査等委員）"
+          },
+          {
+            "name": "杦山栄理",
+            "role": "社外取締役（監査等委員）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.linical.com/ja/news-and-events",
+        "ir": "https://www.linical.com/ja/investors"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "子会社Linical KOREAの執行体制変更について",
+        "url": "https://www.linical.com/ja/news-and-events"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://www.linical.com/ja/",
+        "https://www.linical.com/ja/investors/management/board-of-directors",
+        "https://www.linical.com/ja/about/history",
+        "https://www.linical.com/ja/news-and-events"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-121",
@@ -48915,7 +52152,38 @@
       "治験国内管理人（ICCC）",
       "CSO事業",
       "再生医療スペシャリスト認定研修"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "CRO事業（臨床開発のトータルソリューション）",
+          "since": "2005-08",
+          "note": "創業事業（2005年8月発足）。インテリムコリア・iQファーマサービスとグローバル治験を支援",
+          "url": "https://www.intellim.co.jp/service/"
+        },
+        {
+          "name": "再生医療・オンコロジー領域の治験支援",
+          "note": "開始時期は公表なし",
+          "url": "https://www.intellim.co.jp/service/regenerative_medical.html"
+        }
+      ],
+      "newsroom": {
+        "site": "https://www.intellim.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "SASユーザー総会2026 出展のお知らせ",
+        "url": "https://www.intellim.co.jp/"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://www.intellim.co.jp/",
+        "https://www.intellim.co.jp/about/",
+        "https://www.intellim.co.jp/news/",
+        "https://www.remedy-company.com/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-122",
@@ -48968,7 +52236,53 @@
         "text": "MICINとエイツーヘルスケアがDCTサポートサービスで協業",
         "source": "https://micin.jp/news/10983/"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "フルサービスCRO（医薬品・医療機器・再生医療等製品・ワクチンの臨床開発受託）",
+          "since": "2003-07",
+          "note": "創業事業（伊藤忠テクノソリューションズから分社独立、DM・統計解析が中核）",
+          "url": "https://www.a2healthcare.com/services-solutions/"
+        },
+        {
+          "name": "eClinicalソリューション",
+          "note": "開始時期は公表なし",
+          "url": "https://www.a2healthcare.com/services-solutions/m-edc/"
+        },
+        {
+          "name": "製造販売後調査・データベース研究、人材派遣",
+          "note": "開始時期は公表なし",
+          "url": "https://www.a2healthcare.com/services-solutions/db/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（会社概要）。従業員1,271名（2026年4月）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "神谷均",
+            "role": "代表取締役社長"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.a2healthcare.com/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "第23回DIA日本年会2026において社員が発表",
+        "url": "https://www.a2healthcare.com/news/"
+      },
+      "newsPerYear": 59,
+      "sources": [
+        "https://www.a2healthcare.com/",
+        "https://www.a2healthcare.com/company/profile/",
+        "https://www.a2healthcare.com/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-123",
@@ -49015,7 +52329,60 @@
         "text": "EPSとオムロンヘルスケアがバーチャル治験推進で業務提携",
         "source": "https://www.eps.co.jp/ja/news_20211220.php"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "CRO事業（モニタリング・DM・統計解析・安全性情報・薬事申請支援等）",
+          "note": "会社設立は2014年7月（EPSグループの臨床開発受託会社）。事業開始時期は公表なし",
+          "url": "https://www.eps.co.jp/ja/service.php"
+        },
+        {
+          "name": "QualityLead（化合物・溶液管理、創薬支援、化合物共有ライブラリー）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.eps.co.jp/ja/service_qualitylead.php"
+        },
+        {
+          "name": "患者参画支援（PPI／Patient Centricity）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.eps.co.jp/ja/service_voicebook.php"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "取締役3名（代表取締役1・取締役2）。ほかに監査役1名、執行役員10名（取締役兼務含む）。社員3,303名（2025年10月）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "髙井紀幸",
+            "role": "代表取締役（社長代表執行役員）"
+          },
+          {
+            "name": "小石達也",
+            "role": "取締役（専務執行役員）"
+          },
+          {
+            "name": "森拓也",
+            "role": "取締役（執行役員）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.eps.co.jp/ja/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "国立成育医療研究センター共催の小児医薬品開発関連イベント",
+        "url": "https://www.eps.co.jp/ja/news_20261023.php"
+      },
+      "newsPerYear": 66,
+      "sources": [
+        "https://www.eps.co.jp/ja/",
+        "https://www.eps.co.jp/ja/company_profile.php",
+        "https://www.eps.co.jp/ja/news_20261023.php"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-124",
@@ -49055,7 +52422,66 @@
       "CSO事業（コントラクトMR）",
       "CRO事業（ヒト試験・医薬品臨床試験・派遣CRA）",
       "MRプラスドットコム"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "CSO事業（コントラクトMR、専門領域MRの派遣等）",
+          "since": "2000-04",
+          "note": "沿革にCSO事業開始の記載",
+          "url": "https://www.apoplus.co.jp/company/segment/"
+        },
+        {
+          "name": "CRO事業（医薬品治験、食品等のヒト試験、データ分析、派遣CRA）",
+          "note": "開始時期は公表なし。2017年4月クオールRDを吸収合併",
+          "url": "https://www.apoplus.co.jp/company/segment/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役社長1名・取締役4名。ほかに監査役1名。従業員868名（2026年8月）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "八所孝志",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "小宮愼介",
+            "role": "取締役"
+          },
+          {
+            "name": "荒木和彦",
+            "role": "取締役"
+          },
+          {
+            "name": "久住美智子",
+            "role": "取締役"
+          },
+          {
+            "name": "山下慎一郎",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.apoplus.co.jp/topics/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「食品開発展2026」ご来場御礼",
+        "url": "https://www.apoplus.co.jp/topics/2026/821/"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://www.apoplus.co.jp/",
+        "https://www.apoplus.co.jp/company/outline/",
+        "https://www.apoplus.co.jp/company/history/",
+        "https://www.apoplus.co.jp/company/segment/",
+        "https://www.apoplus.co.jp/topics/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-125",
@@ -49101,7 +52527,59 @@
         "text": "Welbyとインテージヘルスケアが資本業務提携",
         "source": "https://www.intage-healthcare.co.jp/news/d20210226/"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療用・一般用医薬品の市場調査（ヘルスケア領域マーケティングリサーチ）",
+          "note": "開始時期は公表なし（会社設立1994年12月）",
+          "url": "https://www.intage-healthcare.co.jp/"
+        },
+        {
+          "name": "調査レポート・Quick調査、データ提供",
+          "note": "開始時期は公表なし",
+          "url": "https://www.intage-healthcare.co.jp/news/"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "取締役4名（取締役社長〈代表取締役〉1・取締役3）。ほかに監査役1名、執行役員2名。社員300名（2026年7月）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "村井啓太",
+            "role": "取締役社長（代表取締役）"
+          },
+          {
+            "name": "前田茂昭",
+            "role": "取締役"
+          },
+          {
+            "name": "佐藤暢章",
+            "role": "取締役"
+          },
+          {
+            "name": "高山佳子",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.intage-healthcare.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "調査レポート：インフルエンザ治療薬処方患者に関するリリース",
+        "url": "https://www.intage-healthcare.co.jp/news/d20261021/"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://www.intage-healthcare.co.jp/",
+        "https://www.intage-healthcare.co.jp/company/",
+        "https://www.intage-healthcare.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3390001015963",
@@ -49148,7 +52626,75 @@
         "text": "腸内細菌叢移植のメタジェンセラピューティクスがシリーズAで資金調達（11億円）",
         "source": "https://www.metagentx.com/news/230405_seriesa11"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "腸内細菌叢移植（FMT）医薬品の開発（MGT-006等）",
+          "note": "開始時期は公表なし。2024年6月AMED採択、2026年に日米で潰瘍性大腸炎の第1/2相試験開始（FTIニュースより）",
+          "url": "https://www.metagentx.com/"
+        },
+        {
+          "name": "腸内細菌叢バンク（J-kinso bank）・献便プラットフォーム",
+          "since": "2024-04",
+          "note": "日本初の腸内細菌叢バンクが始動（沿革）。ドナー募集は2023年4月開始",
+          "url": "https://www.metagentx.com/about"
+        },
+        {
+          "name": "FMT治験薬製造センター（川崎市）",
+          "since": "2025-06",
+          "note": "国内初として開設を発表",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/75935"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "代表取締役社長CEO1名・取締役CMO1名・取締役CSO1名・社外取締役3名（投資家）。ほかにCOO・CFO（執行）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "中原拓",
+            "role": "共同創業者・代表取締役社長CEO"
+          },
+          {
+            "name": "石川大",
+            "role": "共同創業者・取締役CMO"
+          },
+          {
+            "name": "寺内淳",
+            "role": "取締役CSO"
+          },
+          {
+            "name": "安西智宏",
+            "role": "社外取締役"
+          },
+          {
+            "name": "小林泰良",
+            "role": "社外取締役"
+          },
+          {
+            "name": "林隼",
+            "role": "社外取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.metagentx.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/75935"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「つるおか大産業まつり2026」に出展",
+        "url": "https://www.metagentx.com/"
+      },
+      "newsPerYear": 19,
+      "sources": [
+        "https://www.metagentx.com/",
+        "https://www.metagentx.com/about",
+        "https://prtimes.jp/main/html/searchrlp/company_id/75935"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3140001127775",
@@ -49199,7 +52745,68 @@
         "text": "遺伝子細胞製剤CDMOのサイト-ファクトが資金調達（3億円）",
         "source": "https://prtimes.jp/main/html/rd/p/000000001.000125654.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "遺伝子・細胞製剤のCDMO（CAR-T・MSC等の製造受託・品質試験）",
+          "since": "2022-10",
+          "note": "前身の細胞療法開発センター（RDC）で2014年からCAR-T製造（キムリア）を担い、2022年10月に会社設立",
+          "url": "https://www.cytofacto.com/businesses/"
+        },
+        {
+          "name": "CytoFactory4.0（遺伝子細胞製剤製造のクラウド型統合製造管理システム）",
+          "since": "2025-07",
+          "note": "PR TIMESで発表",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/125654"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役社長CEO1名・取締役CFO1名・取締役3名。ほかに監査役1名、執行役員1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "石橋泰徳",
+            "role": "代表取締役社長CEO"
+          },
+          {
+            "name": "山口一",
+            "role": "取締役CFO"
+          },
+          {
+            "name": "永田智也",
+            "role": "取締役"
+          },
+          {
+            "name": "村上由美子",
+            "role": "取締役"
+          },
+          {
+            "name": "宮地洋史",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.cytofacto.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/125654"
+      },
+      "latestNews": {
+        "date": "2026-04",
+        "title": "メディア掲載のお知らせ",
+        "url": "https://www.cytofacto.com/news/detail/id=236"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://www.cytofacto.com/",
+        "https://www.cytofacto.com/introduction/company/",
+        "https://www.cytofacto.com/introduction/officer/",
+        "https://www.cytofacto.com/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/125654"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2120901039676",
@@ -49236,7 +52843,60 @@
     ],
     "updatedAt": "2026-10",
     "overview": "大阪大学の真下知士教授らが発明した国産ゲノム編集技術「CRISPR-Cas3」の実用化を目的に、2018年3月に設立された阪大発ベンチャー。大学から独占実施許諾を受け、標的周辺を広く削れてオフターゲット変異が少ないとされるCas3を基盤に、同種CAR-Tなど細胞・遺伝子治療の創薬パイプラインを進め、他産業へのライセンスも行う。ノイルイミューン、セレイドセラピューティクス、ユーグレナ、FRONTEOなどと提携。吹田本社と東京ラボに拠点を置く。",
-    "employeesAsOf": "2024-12"
+    "employeesAsOf": "2024-12",
+    "profile": {
+      "businesses": [
+        {
+          "name": "日本発ゲノム編集技術CRISPR-Cas3を用いた創薬パイプライン",
+          "note": "開始時期は公表なし。2026年5月AMED事業ステージゲート通過、2026年10月シリーズC 1stクローズ",
+          "url": "https://www.crispr4u.jp/"
+        },
+        {
+          "name": "CRISPR-Cas3技術のライセンス・提携（創薬・農業等）",
+          "note": "開始時期は公表なし。2026年にFRONTEO、セラファ・バイオサイエンス等と契約",
+          "url": "https://www.crispr4u.jp/"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役1名・取締役1名・社外取締役2名（うち1名はCSO）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "平井昭光",
+            "role": "代表取締役"
+          },
+          {
+            "name": "園田宏二",
+            "role": "取締役"
+          },
+          {
+            "name": "真下知士",
+            "role": "社外取締役CSO"
+          },
+          {
+            "name": "成田宏紀",
+            "role": "社外取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.crispr4u.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "シリーズC資金調達 1stクローズを完了",
+        "url": "https://www.crispr4u.jp/wp-content/uploads/20261015_C4U_SeriesC-Funding.pdf"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://www.crispr4u.jp/",
+        "https://www.crispr4u.jp/about/",
+        "https://www.crispr4u.jp/leadership/",
+        "https://www.crispr4u.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1010001212971",
@@ -49274,7 +52934,69 @@
       "https://celaidtx.com/"
     ],
     "updatedAt": "2026-10",
-    "overview": "東京大学医科学研究所の中内啓光・山﨑聡らの研究を基に、2020年10月に設立された東大発の再生医療スタートアップ。培養に必須とされたアルブミンをポリビニルアルコールで置き換え、ヒト造血幹細胞を性質を保ったまま体外で大量に増やす技術を持つ。これを使い、重い希少血液疾患向けの造血幹細胞治療製品「CLD-001」などのパイプラインや遺伝子治療への応用を進め、研究用の増殖試薬・細胞も提供する。筑波大学に研究拠点を置き、米国でも開発を行う。"
+    "overview": "東京大学医科学研究所の中内啓光・山﨑聡らの研究を基に、2020年10月に設立された東大発の再生医療スタートアップ。培養に必須とされたアルブミンをポリビニルアルコールで置き換え、ヒト造血幹細胞を性質を保ったまま体外で大量に増やす技術を持つ。これを使い、重い希少血液疾患向けの造血幹細胞治療製品「CLD-001」などのパイプラインや遺伝子治療への応用を進め、研究用の増殖試薬・細胞も提供する。筑波大学に研究拠点を置き、米国でも開発を行う。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "造血幹細胞の体外大量増幅技術による細胞治療製品の開発（血液がん・遺伝子疾患）",
+          "note": "開始時期は公表なし。2026年1月NEDO DTSU PCAフェーズ採択、2026年10月シリーズB 2nd Close",
+          "url": "https://celaidtx.com/"
+        },
+        {
+          "name": "再生医療・創薬研究向けサポート（増幅技術の提供）",
+          "note": "開始時期は公表なし。2025年8月AGCとiPS由来造血幹前駆細胞の共同研究",
+          "url": "https://celaidtx.com/"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "取締役会長1名・代表取締役社長CEO1名・取締役COO&CFO1名・取締役CDO1名・社外取締役2名。ほかに社外監査役1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "渡部素生",
+            "role": "共同創業者／取締役会長"
+          },
+          {
+            "name": "荒川信行",
+            "role": "共同創業者／代表取締役社長CEO"
+          },
+          {
+            "name": "井上雄介",
+            "role": "取締役COO&CFO"
+          },
+          {
+            "name": "内山朝子",
+            "role": "取締役CDO"
+          },
+          {
+            "name": "宇佐美篤",
+            "role": "社外取締役"
+          },
+          {
+            "name": "田賀悠記",
+            "role": "社外取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://celaidtx.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/100408"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "AABB Annual Meeting 2026「Cord Blood Connect」に登壇",
+        "url": "https://celaidtx.com/news/"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://celaidtx.com/",
+        "https://celaidtx.com/about/",
+        "https://celaidtx.com/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/100408"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2320001020970",
@@ -49310,7 +53032,51 @@
       "https://initial.inc/companies/A-SPSQV"
     ],
     "updatedAt": "2026-10",
-    "overview": "大分大学医学部特任教授で分子構造化学を応用した創薬の専門家、松岡茂が率いる大分大学発ベンチャー（2025年2月設立）。分子を記号に変換して扱う従来のAIでは立体構造の情報が失われる点に着目し、分子の局所三次元構造を数値行列で表す独自表現「PSM（近接スコア行列）」を基盤とする化学視覚AIを開発する（特許第7715333号）。類似構造検索などの探索基盤や分子設計支援を開発中で、ペプチド由来の薬効構造の低分子化にも取り組む。"
+    "overview": "大分大学医学部特任教授で分子構造化学を応用した創薬の専門家、松岡茂が率いる大分大学発ベンチャー（2025年2月設立）。分子を記号に変換して扱う従来のAIでは立体構造の情報が失われる点に着目し、分子の局所三次元構造を数値行列で表す独自表現「PSM（近接スコア行列）」を基盤とする化学視覚AIを開発する（特許第7715333号）。類似構造検索などの探索基盤や分子設計支援を開発中で、ペプチド由来の薬効構造の低分子化にも取り組む。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "化学視覚AI「PSM」による分子構造表現・創薬支援プラットフォーム（開発中）",
+          "note": "開始時期は公表なし。日本特許第7715333号。PSM Explorer（類似構造検索等）を開発中",
+          "url": "https://pixeom.jp/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役CEO/CSO1名・取締役CTO1名・取締役COO/CFO1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "松岡茂",
+            "role": "代表取締役CEO/CSO（大分大学医学部特任教授）"
+          },
+          {
+            "name": "古田貴彦",
+            "role": "取締役CTO"
+          },
+          {
+            "name": "小田嶋康博",
+            "role": "取締役COO/CFO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://pixeom.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/190076"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "ライフタイムベンチャーズよりシードラウンドで資金調達",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/190076"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://pixeom.jp/",
+        "https://pixeom.jp/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/190076"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-126",
@@ -49350,7 +53116,49 @@
       "https://researchmap.jp/takaaki.mizuno"
     ],
     "updatedAt": "2026-10",
-    "overview": "がん薬物療法専門医の水野孝昭がドラッグロス解消を掲げ、2023年3月に設立。院内に分散する電子カルテやがん遺伝子検査などの情報をクラウドで集約・正規化する「CliniCONNECT」を軸に、医療機関には治験候補患者の特定と主治医への通知、研究用データ整備を、製薬企業には候補患者検索やRWE向けデータを提供する。複数の大学病院・がん専門病院と提携し、国立がん研究センター中央病院で第I相治験の組み入れ数を約20%増やした。2026年に英国展開を開始。"
+    "overview": "がん薬物療法専門医の水野孝昭がドラッグロス解消を掲げ、2023年3月に設立。院内に分散する電子カルテやがん遺伝子検査などの情報をクラウドで集約・正規化する「CliniCONNECT」を軸に、医療機関には治験候補患者の特定と主治医への通知、研究用データ整備を、製薬企業には候補患者検索やRWE向けデータを提供する。複数の大学病院・がん専門病院と提携し、国立がん研究センター中央病院で第I相治験の組み入れ数を約20%増やした。2026年に英国展開を開始。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療機関向け：院内診療情報のクラウド整理・治験候補患者特定・研究データセット整備",
+          "note": "開始時期は公表なし",
+          "url": "https://clinial.co.jp/solutions"
+        },
+        {
+          "name": "製薬企業向け：電子カルテ・バイオマーカー情報に基づく候補患者検索・RWEデータ提供",
+          "note": "開始時期は公表なし。2026年10月JETRO支援で英国展開に着手",
+          "url": "https://clinial.co.jp/solutions"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（がん薬物療法専門医）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "水野孝昭",
+            "role": "代表取締役社長"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://clinial.co.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/167569"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "代表水野が第64回日本癌治療学会学術集会で発表予定",
+        "url": "https://clinial.co.jp/news/2026-10-19-jsco2026"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://clinial.co.jp/",
+        "https://clinial.co.jp/about",
+        "https://clinial.co.jp/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/167569"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-127",
@@ -49389,7 +53197,41 @@
       "https://www.vitalive.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "シミックグループやBuzzreachで役員を務め、治験業界に20年以上携わった井上忠が2024年7月に設立した治験DXスタートアップ。がんなどの治験で必要な被験者の生存確認（OS確認）は従来CRCが電話で行っていたが、これをSMSでアンケートを自動配信して回答を集める方式に置き換えるクラウドサービス「VitaliveOS」を提供する。医療機関側は特別な機器が不要。ISO27001を取得し、2025年5月にエイツーヘルスケアと生存調査の効率化で協業を始めた。"
+    "overview": "シミックグループやBuzzreachで役員を務め、治験業界に20年以上携わった井上忠が2024年7月に設立した治験DXスタートアップ。がんなどの治験で必要な被験者の生存確認（OS確認）は従来CRCが電話で行っていたが、これをSMSでアンケートを自動配信して回答を集める方式に置き換えるクラウドサービス「VitaliveOS」を提供する。医療機関側は特別な機器が不要。ISO27001を取得し、2025年5月にエイツーヘルスケアと生存調査の効率化で協業を始めた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Vitalive OS（治験の生存確認〈OS確認〉自動化ソリューション）",
+          "note": "開始時期は公表なし。2025年5月エイツーヘルスケアと生存調査効率化で協業",
+          "url": "https://www.vitalive.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "井上忠",
+            "role": "代表者"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.vitalive.co.jp/"
+      },
+      "latestNews": {
+        "date": "2025-05",
+        "title": "エイツーヘルスケアと生存調査効率化で協業開始",
+        "url": "https://www.vitalive.co.jp/"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://www.vitalive.co.jp/",
+        "https://www.vitalive.co.jp/company"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-128",
@@ -49433,7 +53275,54 @@
       "https://hashpeak.com/policy/"
     ],
     "updatedAt": "2026-10",
-    "overview": "IQVIAソリューションズジャパン取締役などを歴任した前田琢磨が2019年1月に創業。生成AI、ブロックチェーン、コンサルティングで臨床研究の効率化に取り組む。主力の「peakSuite」は、マルチエージェントとClinicalTrials.gov・PubMed連携のRAGで治験実施計画書や説明文書を作る「peakDoc」、査読の「peakReview」などからなり、製薬企業・CRO・大学病院で使われる。分散型IDによる患者同意管理やブロックチェーン型EDC/CTMSも手がける。"
+    "overview": "IQVIAソリューションズジャパン取締役などを歴任した前田琢磨が2019年1月に創業。生成AI、ブロックチェーン、コンサルティングで臨床研究の効率化に取り組む。主力の「peakSuite」は、マルチエージェントとClinicalTrials.gov・PubMed連携のRAGで治験実施計画書や説明文書を作る「peakDoc」、査読の「peakReview」などからなり、製薬企業・CRO・大学病院で使われる。分散型IDによる患者同意管理やブロックチェーン型EDC/CTMSも手がける。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療AI・生成AI/LLMソリューション（臨床研究・治験向け）",
+          "note": "開始時期は公表なし",
+          "url": "https://hashpeak.com/"
+        },
+        {
+          "name": "ブロックチェーン医療（Ethereumを用いたEDC等）",
+          "note": "開始時期は公表なし。2022年10月にEthereum EDCを開発し順天堂大学で活用（PR TIMES）",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/111094"
+        },
+        {
+          "name": "製薬企業向けコンサルティング",
+          "note": "開始時期は公表なし",
+          "url": "https://hashpeak.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "役員として公表されているのは代表取締役のみ。チームにディレクター1名、アドバイザー1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "前田琢磨",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://hashpeak.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/111094"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "BioJapan 2026 LINK-Jピッチセッション登壇のお知らせ",
+        "url": "https://hashpeak.com/news/"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://hashpeak.com/",
+        "https://hashpeak.com/team/",
+        "https://hashpeak.com/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/111094"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-129",
@@ -49485,7 +53374,62 @@
         "text": "メドピアと4DINが病院電子カルテを中心とするRWD活用で業務提携",
         "source": "https://prtimes.jp/main/html/rd/p/000000411.000010134.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "SIMPRESEARCH（臨床情報分析支援プラットフォーム）",
+          "note": "開始時期は公表なし。大学病院等の電子カルテデータ活用",
+          "url": "https://4din.com/"
+        },
+        {
+          "name": "CoNaxs（医療データ特化の匿名加工ツール）",
+          "note": "開始時期は公表なし。特許取得アルゴリズム",
+          "url": "https://4din.com/"
+        },
+        {
+          "name": "アカデミックサービス（RWDデータベース研究支援）・DRiFOs",
+          "note": "開始時期は公表なし",
+          "url": "https://4din.com/academic_service"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役1名・取締役会長1名・取締役1名。ほかに監査役1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "高橋精彦",
+            "role": "代表取締役"
+          },
+          {
+            "name": "田代伸郎",
+            "role": "取締役会長"
+          },
+          {
+            "name": "村上誠一",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://4din.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/122974"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "緊急システムメンテナンス終了のお知らせ",
+        "url": "https://4din.com/news"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://4din.com/",
+        "https://4din.com/company",
+        "https://4din.com/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/122974"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-130",
@@ -49527,7 +53471,47 @@
       "https://jsctr17kobe.umin.jp/program/files/jsctr17_program_rev4.pdf"
     ],
     "updatedAt": "2026-10",
-    "overview": "京都大学大学院で素粒子論を修めたエンジニアの高橋翼が2017年に合同会社として創業した、ヘルスケア特化のシステム開発会社（現在は株式会社）。自社開発の臨床試験デジタル化基盤「ZenDo eTrial」でePRO・eConsent・リモートモニタリングなどDCT向け機能を提供するほか、Part11・CSV対応の治験システムやPHRアプリの受託開発、ITコンサルティングを行う。2023年9月に被験者募集支援「モニコム」事業を譲り受けた。"
+    "overview": "京都大学大学院で素粒子論を修めたエンジニアの高橋翼が2017年に合同会社として創業した、ヘルスケア特化のシステム開発会社（現在は株式会社）。自社開発の臨床試験デジタル化基盤「ZenDo eTrial」でePRO・eConsent・リモートモニタリングなどDCT向け機能を提供するほか、Part11・CSV対応の治験システムやPHRアプリの受託開発、ITコンサルティングを行う。2023年9月に被験者募集支援「モニコム」事業を譲り受けた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ZenDo eTrial（臨床試験デジタル化プラットフォーム：ePRO・eConsent・DCT対応）",
+          "note": "開始時期は公表なし。国内規制とFDA Part11に適合",
+          "url": "https://beyonds.ai/products/products"
+        },
+        {
+          "name": "研究用システム・ヘルスケアシステム/PHRアプリの受託開発",
+          "note": "開始時期は公表なし",
+          "url": "https://beyonds.ai/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "高橋翼",
+            "role": "代表者"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://beyonds.ai/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "2026年10月21日に発表された脆弱性にかかる対応について",
+        "url": "https://beyonds.ai/news"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://beyonds.ai/",
+        "https://beyonds.ai/aboutus",
+        "https://beyonds.ai/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-131",
@@ -49568,7 +53552,61 @@
       "https://jsctr17kobe.umin.jp/program/files/jsctr17_program_rev4.pdf"
     ],
     "updatedAt": "2026-10",
-    "overview": "代表の板垣貴志が恩師や先輩の研究相談に応える形で始め、2010年11月に設立した調査研究・臨床試験支援の専門会社。研究の企画から調査実施、データマネジメント、統計解析、成果発表までを支えるコンサルティング、完全内製のePRO「ヒビログ」やEDCの提供、研究・学会サイトの制作、学会事務局の運営代行を手がける。東京大学や国立がん研究センターなどの大学・研究機関のほか、CRO・製薬・食品企業が顧客。東京・本郷に本社、京都にオフィス。"
+    "overview": "代表の板垣貴志が恩師や先輩の研究相談に応える形で始め、2010年11月に設立した調査研究・臨床試験支援の専門会社。研究の企画から調査実施、データマネジメント、統計解析、成果発表までを支えるコンサルティング、完全内製のePRO「ヒビログ」やEDCの提供、研究・学会サイトの制作、学会事務局の運営代行を手がける。東京大学や国立がん研究センターなどの大学・研究機関のほか、CRO・製薬・食品企業が顧客。東京・本郷に本社、京都にオフィス。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "調査研究コンサルティング（企画・DM・統計解析・Web/郵送調査）",
+          "since": "2011",
+          "note": "沿革に事業開始の記載",
+          "url": "https://accelight.co.jp/"
+        },
+        {
+          "name": "ePRO/EDC等の研究支援システム（ヒビログ等）",
+          "since": "2014",
+          "note": "レジストリ/EDCの提供開始（沿革）。利用試験数累計100件超（2022年）",
+          "url": "https://accelight.co.jp/"
+        },
+        {
+          "name": "研究・学会向けウェブサイト制作",
+          "since": "2011",
+          "note": "沿革に事業開始の記載",
+          "url": "https://accelight.co.jp/"
+        },
+        {
+          "name": "学会事務局の運営代行",
+          "note": "開始時期は公表なし",
+          "url": "https://accelight.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "板垣貴志",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://accelight.co.jp/reading/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "食品開発展2026に企業ブース出展",
+        "url": "https://accelight.co.jp/reading/news/"
+      },
+      "newsPerYear": 9,
+      "sources": [
+        "https://accelight.co.jp/",
+        "https://accelight.co.jp/company/officer/",
+        "https://accelight.co.jp/company/history/",
+        "https://accelight.co.jp/reading/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-132",
@@ -49610,7 +53648,65 @@
       "https://www.aicro.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "クラウド型電子カルテ「きりんカルテ」を開発した山口太一と西畑俊樹が、同製品をPHCに譲渡した後の2021年8月に共同創業。社名は「AI」と「CRO」の造語で、CROのモニタリング業務のDXを掲げる。生成AIで治験実施計画書から患者ごとの治験タスクと日程を作る「AIprt」（2025年12月）、退院時サマリーなどを作る「AIdoc」（2025年7月）、カルテ所見の構造化や匿名化サービス（特許取得）を医療機関に提供し、医療系のシステム開発支援も行う。"
+    "overview": "クラウド型電子カルテ「きりんカルテ」を開発した山口太一と西畑俊樹が、同製品をPHCに譲渡した後の2021年8月に共同創業。社名は「AI」と「CRO」の造語で、CROのモニタリング業務のDXを掲げる。生成AIで治験実施計画書から患者ごとの治験タスクと日程を作る「AIprt」（2025年12月）、退院時サマリーなどを作る「AIdoc」（2025年7月）、カルテ所見の構造化や匿名化サービス（特許取得）を医療機関に提供し、医療系のシステム開発支援も行う。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "AIdoc（生成AIによる医療文書作成サービス）",
+          "since": "2025-07",
+          "note": "公式ニュースでリリースを告知",
+          "url": "https://www.aicro.jp/news/aidoc"
+        },
+        {
+          "name": "AIprt（生成AIによる治験タスク作成サービス）",
+          "since": "2025-12",
+          "note": "公式ニュースでリリースを告知",
+          "url": "https://www.aicro.jp/news/aiprt"
+        },
+        {
+          "name": "カルテ所見の構造化・個人情報変換サービス",
+          "note": "開始時期は公表なし。いずれも特許取得済",
+          "url": "https://www.aicro.jp/"
+        },
+        {
+          "name": "医療メーカー・製薬会社向けシステム/サービス開発支援",
+          "note": "開始時期は公表なし",
+          "url": "https://www.aicro.jp/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役CEO・代表取締役CTOの共同代表2名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "山口太一",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "西畑俊樹",
+            "role": "代表取締役CTO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.aicro.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/113109"
+      },
+      "latestNews": {
+        "date": "2025-12",
+        "title": "生成AIによる治験タスク作成サービス「AIprt」をリリース",
+        "url": "https://www.aicro.jp/news/aiprt"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://www.aicro.jp/",
+        "https://www.aicro.jp/about",
+        "https://www.aicro.jp/news",
+        "https://prtimes.jp/main/html/searchrlp/company_id/113109"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-133",
@@ -49670,7 +53766,44 @@
         "text": "JMDCがEDCのクリンクラウド、CROのアイメプロをグループ化し臨床試験領域に参入",
         "source": "https://www.jmdc.co.jp/news/news2022/news20220701_2/"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "CRO（臨床試験・研究、市販後調査の業務代行、データマネジメント・統計解析）",
+          "note": "開始時期は公表なし（会社設立2014年9月）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000064.000052277.html"
+        },
+        {
+          "name": "クラウドEDC（JPMS・Fountayn等）",
+          "note": "開始時期は公表なし。公式サイト停止中のため製品情報は未確認",
+          "url": "https://www.clin-cloud.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（アガサ社のPR TIMES記載）",
+        "asOf": "2026-04",
+        "members": [
+          {
+            "name": "小山佳克",
+            "role": "代表取締役社長"
+          }
+        ]
+      },
+      "newsroom": {},
+      "latestNews": {
+        "date": "2026-04",
+        "title": "アガサとクリンクラウド、臨床試験領域のデジタルソリューションで協業検討開始（アガサ社リリース）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000064.000052277.html"
+      },
+      "sources": [
+        "https://clin-cloud.com/",
+        "https://www.clin-cloud.com/",
+        "https://prtimes.jp/main/html/rd/p/000000064.000052277.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2010501044006",
@@ -49712,7 +53845,53 @@
       "https://ctsc.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "広告業界出身の福本毅らが2019年に設立（旧商号 臨床試験支援センター）。製薬企業と患者を直接つなぐ治験情報インフラを掲げ、独自の治験情報サービス「CTM（Clinical Trial Manager）」と自社完結のWeb広告運用で治験の被験者募集を行い、Webに不慣れな高齢者にはチラシやイベントでも募集する。治験で築いた医師との関係を生かした企業と医師のマッチング「ドクターコール」や広告代理業も手がけ、将来は治験全体を担うCROを目指す。"
+    "overview": "広告業界出身の福本毅らが2019年に設立（旧商号 臨床試験支援センター）。製薬企業と患者を直接つなぐ治験情報インフラを掲げ、独自の治験情報サービス「CTM（Clinical Trial Manager）」と自社完結のWeb広告運用で治験の被験者募集を行い、Webに不慣れな高齢者にはチラシやイベントでも募集する。治験で築いた医師との関係を生かした企業と医師のマッチング「ドクターコール」や広告代理業も手がけ、将来は治験全体を担うCROを目指す。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "臨床試験支援事業（治験の被験者募集・情報管理）",
+          "note": "開始時期は公表なし",
+          "url": "https://ctsc.co.jp/business_clinical_trial/"
+        },
+        {
+          "name": "ドクターコール（企業と医師のマッチング）",
+          "note": "開始時期は公表なし",
+          "url": "https://ctsc.co.jp/business/"
+        },
+        {
+          "name": "広告代理業",
+          "note": "開始時期は公表なし",
+          "url": "https://ctsc.co.jp/business/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "福本毅",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://ctsc.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2025-12",
+        "title": "年末年始休業のお知らせ",
+        "url": "https://ctsc.co.jp/news/detail/?id=75"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://ctsc.co.jp/",
+        "https://ctsc.co.jp/about/",
+        "https://ctsc.co.jp/business/",
+        "https://ctsc.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-134",
@@ -49752,7 +53931,54 @@
       "https://edihas.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2014年10月に札幌で設立された、治験・臨床試験の被験者募集を担うPRO。全国5万人超の会員データベースと治験モニター募集サイト「ぺいるーと」を持ち、募集設計からWeb広告の制作・運用、コールセンター、被験者管理までを自社で一貫して行い、最短1日で募集を始められる。費用は広告費と成果報酬が基本。製薬会社、CRO・SMO、大学、食品メーカーなど130社以上と取引し、研究参加者の募集代行や機能性表示食品向けヒト試験も受託する。"
+    "overview": "2014年10月に札幌で設立された、治験・臨床試験の被験者募集を担うPRO。全国5万人超の会員データベースと治験モニター募集サイト「ぺいるーと」を持ち、募集設計からWeb広告の制作・運用、コールセンター、被験者管理までを自社で一貫して行い、最短1日で募集を始められる。費用は広告費と成果報酬が基本。製薬会社、CRO・SMO、大学、食品メーカーなど130社以上と取引し、研究参加者の募集代行や機能性表示食品向けヒト試験も受託する。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "治験・臨床試験の被験者募集（PRO）",
+          "since": "2014-10",
+          "note": "創業事業。全国5万人超のデータベース、取引130社以上（公式）",
+          "url": "https://edihas.co.jp/recruitment/"
+        },
+        {
+          "name": "コールセンター・被験者募集広告",
+          "note": "開始時期は公表なし",
+          "url": "https://edihas.co.jp/service/call-center/"
+        },
+        {
+          "name": "食品臨床試験・ヒト試験の受託、大学・研究機関の参加者募集代行",
+          "note": "開始時期は公表なし",
+          "url": "https://edihas.co.jp/service/clinical-trials/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "川辺徹明",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://edihas.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2025-03",
+        "title": "人権宣言",
+        "url": "https://edihas.co.jp/news/jinken/"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://edihas.co.jp/",
+        "https://edihas.co.jp/company/outline/",
+        "https://edihas.co.jp/company/history/",
+        "https://edihas.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-135",
@@ -49796,7 +54022,73 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2018年設立の医療情報プラットフォーム企業で、2022年にエーザイの子会社となった。健診結果や検査結果、処方箋などをスマホで撮影するだけでデータ化・一元管理できるPHRアプリ「パシャっとカルテ」を運営し、ダウンロード数は90万を超える。蓄積したPHRデータと利用者基盤を生かし、製薬企業や研究機関向けにパネル調査、治験の被験者募集、API連携、データ提供を行い、在宅患者と医療者をつなぐ「支えるノート」や医療系の受託開発も手がける。",
-    "employeesAsOf": "2025-05"
+    "employeesAsOf": "2025-05",
+    "profile": {
+      "businesses": [
+        {
+          "name": "パシャっとカルテ（医療情報を撮影でデータ化するPHRアプリ）",
+          "since": "2020-11",
+          "note": "PR TIMESでリリースを発表。PHRサービス累計90万DL超（公式）",
+          "url": "https://arteryex.biz/"
+        },
+        {
+          "name": "PHRデータビジネス（データ利活用・パネル調査・API・治験紹介）",
+          "note": "開始時期は公表なし",
+          "url": "https://arteryex.biz/data-business/"
+        },
+        {
+          "name": "支えるノート（患者と医療者をつなぐ症状・服薬管理アプリ）",
+          "since": "2020-08",
+          "note": "潰瘍性大腸炎向け「支えるノート for IBD」を発表",
+          "url": "https://arteryex.biz/"
+        },
+        {
+          "name": "医療・ヘルスケア領域の受託開発・新規事業開発",
+          "note": "開始時期は公表なし",
+          "url": "https://arteryex.biz/healthcare/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役1名・取締役副社長CFO1名。ほかにCTO・COO（執行）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "李東瀛",
+            "role": "代表取締役"
+          },
+          {
+            "name": "東太輝",
+            "role": "取締役副社長／CFO"
+          },
+          {
+            "name": "里見健太",
+            "role": "CTO"
+          },
+          {
+            "name": "小野澤侑",
+            "role": "COO／データビジネス事業部長"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://arteryex.biz/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/44584"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「パシャっとカルテ」が「日々の記録」機能をリニューアル",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/44584"
+      },
+      "newsPerYear": 23,
+      "sources": [
+        "https://arteryex.biz/",
+        "https://arteryex.biz/about-us/",
+        "https://arteryex.biz/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/44584"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-136",
@@ -49840,7 +54132,77 @@
       "https://businessnetwork.jp/article/20949/"
     ],
     "updatedAt": "2026-10",
-    "overview": "ゲノム検査事業のNTTライフサイエンス（2019年7月設立）を母体に、2024年7月に改称して発足したNTT100%出資のメディカル・ヘルスケア事業会社。臨床・検査・健診データを統合して活用し、プレシジョンメディシンの実現を目指す。遺伝子検査「Genovision」シリーズ、医療データ基盤「JPP」、就業世代の遺伝子・健診・レセプトを使う「NTTコホート」、電子カルテ「モバカル」、特定保健指導などを展開し、PRiME-Rとクリニカルサポートを子会社に持つ。"
+    "overview": "ゲノム検査事業のNTTライフサイエンス（2019年7月設立）を母体に、2024年7月に改称して発足したNTT100%出資のメディカル・ヘルスケア事業会社。臨床・検査・健診データを統合して活用し、プレシジョンメディシンの実現を目指す。遺伝子検査「Genovision」シリーズ、医療データ基盤「JPP」、就業世代の遺伝子・健診・レセプトを使う「NTTコホート」、電子カルテ「モバカル」、特定保健指導などを展開し、PRiME-Rとクリニカルサポートを子会社に持つ。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Genovision（遺伝子検査：Dock・PGx等）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.ntt-precisionmedicine.co.jp/service/genovision/"
+        },
+        {
+          "name": "Japanプレシジョン・メディシンプラットフォーム（JPP）・NTTコホート",
+          "note": "開始時期は公表なし。遺伝子・健診・レセプトデータの活用",
+          "url": "https://www.ntt-precisionmedicine.co.jp/service/jpp/"
+        },
+        {
+          "name": "健康経営サービス・特定保健指導・各種研修",
+          "note": "開始時期は公表なし",
+          "url": "https://www.ntt-precisionmedicine.co.jp/service/kenkou-keiei/"
+        },
+        {
+          "name": "電子カルテ（モバカル）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.ntt-precisionmedicine.co.jp/service/movacal/"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "代表取締役社長1名・常務取締役2名・取締役2名・非常勤取締役1名。ほかに監査役2名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "是川幸士",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "佃英樹",
+            "role": "常務取締役"
+          },
+          {
+            "name": "亀崎康隆",
+            "role": "常務取締役"
+          },
+          {
+            "name": "田畑雅章",
+            "role": "取締役"
+          },
+          {
+            "name": "窪薗竜二",
+            "role": "取締役"
+          },
+          {
+            "name": "秋山賢二郎",
+            "role": "取締役（非常勤）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.ntt-precisionmedicine.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "第16回日本在宅看護学会学術集会 出展のお知らせ",
+        "url": "https://www.ntt-precisionmedicine.co.jp/news/single/?id=20261022"
+      },
+      "newsPerYear": 8,
+      "sources": [
+        "https://www.ntt-precisionmedicine.co.jp/",
+        "https://www.ntt-precisionmedicine.co.jp/about-us/",
+        "https://www.ntt-precisionmedicine.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-137",
@@ -49881,7 +54243,54 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401173687"
     ],
     "updatedAt": "2026-10",
-    "overview": "東京大学とソフトバンクの産学協創「Beyond AI 研究推進機構」から、技術研究組合を経て2023年4月に株式会社化した最初の事業会社。東大、ソフトバンク、ケーアイエスなどが出資する。医療データの国際標準HL7 FHIRに準拠した純国産サーバ「FRUCtoS」を開発・ライセンス提供して医療機関のFHIR対応を支援するほか、本人同意のもとで健康・医療データを預かる基盤やPHRアプリ「H2Port」を提供。2026年9月にNEDO事業で収集した医療データの提供を始めた。"
+    "overview": "東京大学とソフトバンクの産学協創「Beyond AI 研究推進機構」から、技術研究組合を経て2023年4月に株式会社化した最初の事業会社。東大、ソフトバンク、ケーアイエスなどが出資する。医療データの国際標準HL7 FHIRに準拠した純国産サーバ「FRUCtoS」を開発・ライセンス提供して医療機関のFHIR対応を支援するほか、本人同意のもとで健康・医療データを預かる基盤やPHRアプリ「H2Port」を提供。2026年9月にNEDO事業で収集した医療データの提供を始めた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "FRUCtoS（HL7 FHIR準拠サーバソフトウェアのライセンス・実装支援）",
+          "note": "開始時期は公表なし。2024年11月に無償版の提供を発表（PR TIMES）",
+          "url": "https://www.hemillions.co.jp/"
+        },
+        {
+          "name": "H2Port（個人の健康・医療データ管理・参照アプリ）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.hemillions.co.jp/"
+        },
+        {
+          "name": "健康・医療データの預託・利活用基盤（NEDO事業データの提供等）",
+          "since": "2026-09",
+          "note": "2026年9月にNEDO事業で収集・加工した医療データ等の提供開始を告知",
+          "url": "https://www.hemillions.co.jp/news/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "井上伸一",
+            "role": "代表取締役社長兼CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.hemillions.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/152725"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "システムメンテナンスに伴うサービス一時停止について",
+        "url": "https://www.hemillions.co.jp/news/"
+      },
+      "newsPerYear": 19,
+      "sources": [
+        "https://www.hemillions.co.jp/",
+        "https://www.hemillions.co.jp/news/",
+        "https://prtimes.jp/main/html/searchrlp/company_id/152725"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4010001092965",
