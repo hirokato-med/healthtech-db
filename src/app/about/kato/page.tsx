@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { withBase } from '@/lib/base';
 
 export const metadata: Metadata = {
   title: '加藤浩晃について',
@@ -43,7 +44,7 @@ export default function KatoPage() {
     <>
       <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link> / <Link href="/about/">Healthtech DB について</Link> / <span>加藤浩晃について</span></nav>
       <div className="page-head kato-head">
-        <div className="kato-mark" aria-hidden="true">加</div>
+        <img className="kato-mark" src={withBase('/images/kato-avatar.jpg')} alt="加藤浩晃" width={96} height={96} />
         <div>
           <div className="kicker">The person behind Healthtech DB</div>
           <h1>加藤 浩晃<small>かとう ひろあき</small></h1>
@@ -56,14 +57,10 @@ export default function KatoPage() {
 
       <article className="prose why">
         <p className="kato-intro">
-          はじめまして、加藤浩晃です。眼科医として手術をし、厚生労働省で医療ベンチャーの政策をつくり、
-          AI医療機器のスタートアップを共同で創業しました。<strong>医療現場・医療制度・ビジネス</strong>の3つを行き来しながら、
-          ヘルスケアの新規事業に関わり続けています。
+          はじめまして、加藤浩晃です。眼科医として手術をして、厚生労働省で医療ベンチャーの政策をつくって、AI医療機器のスタートアップを共同で創業しました。「医療現場・医療制度・ビジネス」の3つを行き来しながら、ヘルスケアの新規事業に関わり続けています。
         </p>
         <p>
-          この10年で200を超える事業の相談に乗り、ビジネスコンテストの審査員として見てきたものも合わせると、500近い事業に触れてきました。
-          その経験から、<strong>事業開発の PubMed</strong> をつくりたいと考え、Healthtech DB を<strong>個人事業</strong>として運営しています。
-          どの会社の事業でもなく、私個人の事業です。<Link href="/about/why/" className="arrow">Healthtech DB への想い</Link>
+          この10年で200を超える事業の相談に乗ってきて、ビジネスコンテストの審査員として見てきたものも合わせると、500近い事業を見てきたと思います。その中で、同じアイデアが同じところで止まるのを何度も見てきました。それで、「事業開発の PubMed」をつくりたいと思い、Healthtech DB を個人事業として運営しています。どこかの会社の事業ではなく、自分個人の事業です。<Link href="/about/why/" className="arrow">Healthtech DB への想い</Link>
         </p>
 
         <h2>いま、やっていること</h2>

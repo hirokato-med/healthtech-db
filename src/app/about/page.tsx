@@ -15,19 +15,15 @@ export default function AboutPage() {
       <article className="prose">
         <h2>何のためのサイトか</h2>
         <p>
-          Healthtech DB は、<strong>事業開発の PubMed</strong> を目指すヘルスケアの事業データベースです。
-          研究にはPubMedがあり、先人の成果の上から始められます。事業開発には、過去にどんな事業があり、それがなぜ止まったのかをまとめた場所がありません。
-          そのため、同じようなアイデアが生まれ、同じように止まってしまいます。
+          Healthtech DB は、<strong>事業開発の PubMed</strong> を目指すヘルスケアの事業データベースです。研究にはPubMedがあり、先人の成果の上から始められます。事業開発には、過去にどんな事業があり、それがなぜ止まったのかをまとめた場所がありません。そのため、同じようなアイデアが生まれ、同じように止まってしまいます。
         </p>
         <p>
-          そこで、①過去から現在までの会社・事業を客観的なデータとして記録し（閉鎖・合併・活動停止した会社も消さずに残します）、
-          ②事業がどのような理由で止まったのかを解説記事で読み解きます。
+          そこで、①過去から現在までの会社・事業を客観的なデータとして記録し（閉鎖・合併・活動停止した会社も消さずに残します）、②事業がどのような理由で止まったのかを解説記事で読み解きます。
           <Link href="/about/why/" className="arrow">加藤浩晃の、Healthtech DB への想い</Link>
         </p>
         <h2>運営者</h2>
         <p>
-          Healthtech DB は、医師・<Link href="/about/kato/">加藤浩晃</Link>の<strong>個人事業</strong>です。
-          企業・事業データの調査と更新、解説記事の「加藤浩晃の視点」「加藤浩晃の見立て」は、加藤が責任を持って運営しています。
+          Healthtech DB は、医師・<Link href="/about/kato/">加藤浩晃</Link>の<strong>個人事業</strong>です。企業・事業データの調査と更新、解説記事の「加藤浩晃の視点」「加藤浩晃の見立て」は、加藤が責任を持って運営しています。
           <Link href="/about/kato/" className="arrow">加藤浩晃について</Link>
         </p>
         <h2>沿革</h2>
@@ -51,8 +47,7 @@ export default function AboutPage() {
         </ul>
         <h2>情報の修正・掲載依頼</h2>
         <p>
-          掲載情報の誤り、更新、新規掲載のご希望は<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正依頼フォーム</a>からお送りください。
-          最新情報は{X_URL && <><a href={X_URL} target="_blank" rel="noreferrer">X（@{X_HANDLE}）</a>と</>}<a href={NEWSLETTER_URL} target="_blank" rel="noreferrer">メルマガ</a>でお知らせします。
+          掲載情報の誤り、更新、新規掲載のご希望は<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正依頼フォーム</a>からお送りください。最新情報は{X_URL && <><a href={X_URL} target="_blank" rel="noreferrer">X（@{X_HANDLE}）</a>と</>}<a href={NEWSLETTER_URL} target="_blank" rel="noreferrer">メルマガ</a>でお知らせします。
         </p>
         <p>
           <Link href="/articles/healthtech-db-relaunch/">復刻版についての詳しいお知らせ</Link>
