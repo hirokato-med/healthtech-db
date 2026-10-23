@@ -1,19 +1,24 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { STOPPED, getCompanies, getPartnerships, getServices } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: 'なぜ Healthtech DB をつくったのか',
-  description: '研究にはPubMedがある。事業開発にも、過去の事業と、それがなぜ止まったのかを引ける場所が必要だ。作者・加藤浩晃が Healthtech DB をつくった理由。',
+  title: 'Healthtech DB への想い',
+  description: '研究にはPubMedがある。事業開発にも、過去の事業と、それがなぜ止まったのかを引ける場所が必要だ。医師・加藤浩晃が個人事業として、狂気のヘルスケアビジネスDBをつくる理由。',
 };
 
 export default function WhyPage() {
+  const companies = getCompanies().length;
+  const services = getServices();
+  const stopped = services.filter((s) => STOPPED.includes(s.status)).length;
+  const links = getPartnerships().length;
   return (
     <>
-      <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link> / <Link href="/about/">Healthtech DB について</Link> / <span>なぜつくったのか</span></nav>
+      <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link> / <Link href="/about/">Healthtech DB について</Link> / <span>Healthtech DB への想い</span></nav>
       <div className="page-head">
-        <div className="kicker">Why we built this</div>
+        <div className="kicker">Why I built this</div>
         <h1>事業開発の PubMed をつくりたい</h1>
-        <p className="lead">なぜ Healthtech DB をつくったのか ── 作者・加藤浩晃より</p>
+        <p className="lead">Healthtech DB は、医師・<Link href="/about/kato/">加藤浩晃</Link>が個人事業としてつくっている、狂気のヘルスケアビジネスDBです。</p>
       </div>
 
       <article className="prose why">
@@ -47,6 +52,12 @@ export default function WhyPage() {
         </p>
 
         <h2>だから、Healthtech DB をつくりました</h2>
+        <div className="why-stats">
+          <div><b>{companies}</b><span>社の企業</span></div>
+          <div><b>{services.length}</b><span>件の事業</span></div>
+          <div><b>{stopped}</b><span>件の止まった事業</span></div>
+          <div><b>{links}</b><span>本の提携・M&amp;Aの線</span></div>
+        </div>
         <p>Healthtech DB は、<strong>事業開発の PubMed</strong> のつもりでつくっています。やりたいことは2つです。</p>
         <ol>
           <li>
@@ -58,6 +69,20 @@ export default function WhyPage() {
             規制なのか、お金を払う人が見つからなかったのか、医療現場の業務に入り込めなかったのか、資金が続かなかったのか、大きな会社に統合されたのか。公開されている事実をもとに、解説記事で読み解きます。
           </li>
         </ol>
+
+        <h2>個人の事業として、狂気でやる</h2>
+        <p>
+          Healthtech DB は、どこかの会社の事業ではありません。<strong>加藤浩晃の個人事業</strong>です。
+        </p>
+        <p>
+          国内のヘルスケア企業を一社ずつ調べ、登記を確かめ、閉鎖や合併の記録を拾い、事業がいつ始まりいつ止まったのかを年表にし、
+          止まった理由を公表資料から読み解く。正直に言って、正気の沙汰ではない作業です。
+          でも、誰かがやらなければ、止まった事業の記録は消えていくだけです。だから、狂気のヘルスケアビジネスDBとして、個人でやり切ります。
+        </p>
+        <p>
+          会社の看板ではなく自分の名前でやるのは、止まった事業や、うまくいかなかった提携も、遠慮なく記録として残すためでもあります。
+          解説記事にある「加藤浩晃の視点」「加藤浩晃の見立て」は、その記録を読んだうえでの、私個人の考えです。
+        </p>
 
         <h2>大事にしていること</h2>
         <ul>
@@ -88,9 +113,9 @@ export default function WhyPage() {
         </p>
 
         <div className="signature">
-          <p>Healthtech DB 作者</p>
-          <p className="name">加藤 浩晃</p>
-          <p className="small muted">医師。元厚生労働省。アイリス株式会社 共同創業者。YouTube「医療ビジネスチャンネル」で <Link href="/monthly/">#月刊ヘルステック</Link> を配信。</p>
+          <p>Healthtech DB 運営（個人事業）</p>
+          <p className="name"><Link href="/about/kato/">加藤 浩晃</Link></p>
+          <p className="small muted">医師・MBA。元厚生労働省。アイリス株式会社 共同創業者・取締役副社長CSO。YouTube「医療ビジネスチャンネル」で <Link href="/monthly/">#月刊ヘルステック</Link> を配信。<Link href="/about/kato/">自己紹介を読む</Link></p>
         </div>
       </article>
 

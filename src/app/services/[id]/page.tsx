@@ -38,7 +38,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
               <div className="chips">{(s.endReasons?.length ? s.endReasons : ['unknown']).map((r) => <Link key={r} href={`/services/stopped/#${r}`} className="chip">{END_REASONS[r]?.label ?? r}</Link>)}</div>
               <p>{s.endReasonNote || '止まった理由は公表されていない。'}</p>
               {s.successor && <p className="small"><b>引き継ぎ先：</b>{s.successor}</p>}
-              {s.lessons && <p className="lessons"><b>編集部の見立て</b>{s.lessons}</p>}
+              {s.lessons && <p className="lessons"><b>加藤浩晃の見立て</b>{s.lessons}</p>}
             </section>
           )}
           {(s.startedAt || s.startedYear || s.milestones?.length || s.endedAt) && (

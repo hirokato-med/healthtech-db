@@ -14,7 +14,7 @@ export function Footer() {
         <div className="cols">
           <div>
             <div className="flogo"><b>{SITE_NAME}</b><span>{SITE_NAME_EN}</span></div>
-            <p>ヘルスケアビジネスの専門データベース。国内ヘルステック企業の事業・サービス・人物・ニュース・解説記事を、新規事業の実務で使いやすい形でまとめて提供します。</p>
+            <p>医師・<Link href="/about/kato/" style={{ color: 'inherit', textDecoration: 'underline' }}>加藤浩晃</Link>が個人事業としてつくる、狂気のヘルスケアビジネスDB。国内のヘルスケア企業・事業と、止まった事業とその理由を、出典つきで記録しています。</p>
             <p className="small" style={{ color: '#9aa1ad' }}>毎月のニュースの振り返りは、YouTube「医療ビジネスチャンネル」の #月刊ヘルステック で配信しています。</p>
           </div>
           <div>
@@ -37,7 +37,8 @@ export function Footer() {
             <h4>サイト情報</h4>
             <ul>
               <li><Link href="/about/">{SITE_NAME} とは</Link></li>
-              <li><Link href="/about/why/">なぜつくったのか</Link></li>
+              <li><Link href="/about/why/">Healthtech DB への想い</Link></li>
+              <li><Link href="/about/kato/">運営者・加藤浩晃について</Link></li>
               <li><a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正の依頼</a></li>
               <li><Link href="/terms/">利用規約</Link></li>
               <li><Link href="/privacy/">プライバシーポリシー</Link></li>
@@ -47,7 +48,7 @@ export function Footer() {
         </div>
         <div className="bottom">
           <span>本サイトの情報は一般的な情報提供を目的としており、投資・法的助言を構成するものではありません。</span>
-          <span>© 2021-2026 {SITE_NAME}</span>
+          <span>© 2021-2026 {SITE_NAME}（運営：加藤浩晃）</span>
         </div>
       </div>
     </footer>

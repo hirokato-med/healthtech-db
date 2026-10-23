@@ -77,7 +77,8 @@ export default function Home() {
           <div>
             <span className="eyebrow2">HEALTHTECH DATABASE</span>
             <h1>ヘルスケアビジネスを、<br /><span>データで見渡す。</span></h1>
-            <p className="lead">ヘルスケアの事業開発の「PubMed」を目指すデータベースです。これまでにどんな事業があり、いまどうなっているのか。閉鎖・合併した会社も含めて、出典つきで記録しています。<Link href="/about/why/" className="why-link">なぜつくったのか</Link></p>
+            <p className="lead">ヘルスケアの事業開発の「PubMed」を目指すデータベースです。これまでにどんな事業があり、いまどうなっているのか。閉鎖・合併した会社も含めて、出典つきで記録しています。<Link href="/about/why/" className="why-link">Healthtech DB への想い</Link></p>
+            <p className="hx-by">医師・<Link href="/about/kato/">加藤浩晃</Link>が個人事業としてつくる、狂気のヘルスケアビジネスDB</p>
             <form className="hero-search" action={withBase('/search/')} method="get" role="search">
               <input type="search" name="q" placeholder="企業名・サービス名・人物・カテゴリで探す" aria-label="キーワード" />
               <button type="submit">検索</button>

@@ -22,7 +22,13 @@ export default function AboutPage() {
         <p>
           そこで、①過去から現在までの会社・事業を客観的なデータとして記録し（閉鎖・合併・活動停止した会社も消さずに残します）、
           ②事業がどのような理由で止まったのかを解説記事で読み解きます。
-          <Link href="/about/why/" className="arrow">作者・加藤浩晃が、このDBをつくった理由</Link>
+          <Link href="/about/why/" className="arrow">加藤浩晃の、Healthtech DB への想い</Link>
+        </p>
+        <h2>運営者</h2>
+        <p>
+          Healthtech DB は、医師・<Link href="/about/kato/">加藤浩晃</Link>の<strong>個人事業</strong>です。
+          企業・事業データの調査と更新、解説記事の「加藤浩晃の視点」「加藤浩晃の見立て」は、加藤が責任を持って運営しています。
+          <Link href="/about/kato/" className="arrow">加藤浩晃について</Link>
         </p>
         <h2>沿革</h2>
         <ul>
@@ -32,7 +38,7 @@ export default function AboutPage() {
           <li>2021年11〜12月 ── 人物情報・サービス情報・検索・会員登録・メルマガを開始</li>
           <li>2023年6月30日 ── 一時閉鎖</li>
           <li>2024年12月 ── YouTube「医療ビジネスチャンネル」で、毎月のニュースを振り返るライブ配信「#月刊ヘルステック」を開始</li>
-          <li>2026年10月 ── 再開（本サイト）。企業DBを564社に更新し、記事を2026年時点の内容で書き直し</li>
+          <li>2026年10月 ── 加藤浩晃の個人事業として再開（本サイト）。企業DBを564社に更新し、記事を2026年時点の内容で書き直し</li>
         </ul>
         <h2>データの出典</h2>
         <ul>
