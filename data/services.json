@@ -1,15 +1,5 @@
 [
   {
-    "id": "clinics",
-    "name": "CLINICS（クリニクス）",
-    "company": "メドレー",
-    "category": "telemedicine",
-    "description": "オンライン診療・予約・電子カルテを備えたクラウド診療支援システム。2016年にオンライン診療アプリとして開始し、医療機関向けの統合プラットフォームへ拡大。",
-    "hp": "https://clinics-cloud.com/",
-    "startedYear": 2016,
-    "status": "提供中"
-  },
-  {
     "id": "job-medley",
     "name": "ジョブメドレー",
     "company": "メドレー",
@@ -356,16 +346,6 @@
     "status": "提供中"
   },
   {
-    "id": "optim-doctor",
-    "name": "ポケットドクター",
-    "company": "オプティム",
-    "category": "telemedicine",
-    "description": "MRTと共同で提供したオンライン診療・健康相談アプリ。",
-    "hp": "https://www.optim.co.jp/",
-    "startedYear": 2016,
-    "status": "終了"
-  },
-  {
     "id": "b-304b933b",
     "name": "不眠症治療用アプリ 販売提携（サスメド「Medcle」の国内販売権）",
     "company": "サスメド株式会社",
@@ -503,7 +483,7 @@
     "company": "LINEヘルスケア株式会社",
     "companyId": "8011101086498",
     "category": "telemedicine",
-    "description": "LINEアプリ上で予約・ビデオ診療・決済・処方薬配送までを完結できるオンライン診療サービス。医療機関に診療システムを提供し、患者はLINEから受診する。",
+    "description": "医療機関の検索・予約から、LINEのビデオ通話による診察、決済、処方薬の配送までをLINE上で完結させるオンライン診療サービス。患者は専用アプリなしで受診できた。",
     "hp": "",
     "startedYear": 2020,
     "status": "終了",
@@ -512,48 +492,52 @@
     "successor": "ヘルスケアテクノロジーズ「HELPOドクター」LINE公式アカウントを利用者に案内",
     "milestones": [
       {
-        "date": "2019",
-        "text": "LINE（51%）とエムスリー（49%）がLINEヘルスケアを共同出資で設立"
+        "date": "2020-09",
+        "text": "LINEとエムスリーの合弁LINEヘルスケアがオンライン診療への参入を発表"
       },
       {
         "date": "2020-12",
-        "text": "LINEドクターを先行提供開始（コロナ禍で前倒し）"
+        "text": "首都圏の一部医療機関で先行提供を開始"
       },
       {
         "date": "2022-12",
-        "text": "処方薬の配送機能を追加"
+        "text": "処方薬の配送サービスを全国で開始"
       },
       {
         "date": "2023-01",
-        "text": "LINEの100%子会社となり、エムスリーとの資本関係が解消"
+        "text": "エムスリーとの合弁を解消し、LINEの100%子会社に。オンライン服薬指導で日本調剤と連携"
       },
       {
-        "date": "2023-10",
-        "text": "登録薬局での処方薬の対面受け取り機能を追加。2023年度の診療件数は前年比2倍と報道"
+        "date": "2024-01",
+        "text": "2023年度の診療件数が前年比2倍、薬の配送利用者が1年で約10倍と発表"
       },
       {
         "date": "2024-12",
-        "text": "サービス終了を発表。疾患啓発アカウントも順次終了"
-      },
-      {
-        "date": "2025-03",
-        "text": "新規の診療・服薬指導予約を停止"
+        "text": "2025年6月での終了を発表。疾患啓発アカウントも順次終了"
       },
       {
         "date": "2025-06",
-        "text": "全機能を停止し、LINEヘルスケアの全事業が終了"
+        "text": "6月10日に全機能を停止。LINEヘルスケアは全事業が終了し、2026年9月にLINEヤフーへ吸収合併"
       }
     ],
     "endReasons": [
       "parent-strategy"
     ],
-    "endReasonNote": "LINEヤフーは「グループ内での重複事業の一本化、および中核事業へのリソースの選択と集中を進める中での決定」と説明。広報はソフトバンクグループの別のオンライン診療事業との関係が理由ではないとしている。",
-    "lessons": "利用は伸びていたなかでの終了で、プラットフォーム企業の新規事業がグループ再編の影響を強く受けることを示す例とみられる。",
+    "endReasonNote": "LINEヤフーは、グループ内での重複事業の一本化と中核事業への選択と集中を進める中での決定と説明した。広報は同じソフトバンク傘下のオンライン診療（HELPOドクター）との関係ではなく、LINEヤフー内のリソース集中のためとしている。",
+    "lessons": "利用が伸びていても、巨大プラットフォームの経営統合後の選択と集中で、収益規模の小さい医療事業が切り離される例とみられる。",
     "sources": [
       "https://www.lycorp.co.jp/ja/news/release/016530/",
-      "https://www.businessinsider.jp/article/298312/"
+      "https://www.businessinsider.jp/article/298312/",
+      "https://corporate.m3.com/press_release/2020/20200910_001635.html",
+      "https://www.nikkei.com/article/DGXZQODZ168B40W0A211C2000000/",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t349/202012/568439.html",
+      "https://prtimes.jp/main/html/rd/p/000004107.000001594.html",
+      "https://www.itmedia.co.jp/news/article/2412/11/1241211162/",
+      "https://notice2.line.me/Telemedicine_LHC/web/document/notice?documentId=100011262&lang=ja",
+      "https://www.nihon-ma.co.jp/news/20260701_4689-42/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-6256ff19",
@@ -2069,11 +2053,14 @@
       "https://www.docomo.ne.jp/info/news_release/2020/08/04_02.html",
       "https://www.nihon-ma.co.jp/news/20240802_6095-10/",
       "https://www.firstcall.md/Home/About",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001171984"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001171984",
+      "https://www2.jpx.co.jp/disc/60950/140120240802561155.pdf",
+      "https://www.firstcall.md/"
     ],
     "updatedAt": "2026-10",
     "themes": [
-      "online-consultation"
+      "online-consultation",
+      "mental-chat"
     ]
   },
   {
@@ -2173,13 +2160,13 @@
     ]
   },
   {
-    "id": "b-27c2b649",
+    "id": "optim-doctor",
     "name": "ポケットドクター（オンライン診療ポケットドクター）",
     "company": "株式会社オプティム",
     "companyId": "4300001001392",
     "category": "telemedicine",
     "description": "スマホ・タブレットやPCで予約、ビデオ診察、オンライン決済、薬・処方箋の配送支援を行う医療機関向けオンライン診療サービス。血圧計など機器の健康データ連携が特徴。MRTの医師ネットワークとオプティムの技術を組み合わせた。",
-    "hp": "",
+    "hp": "https://www.optim.co.jp/",
     "startedYear": 2016,
     "status": "提供中",
     "startedAt": "2016-04",
@@ -2218,13 +2205,13 @@
     ]
   },
   {
-    "id": "b-f3787557",
+    "id": "clinics",
     "name": "CLINICS（CLINICSオンライン診療／患者アプリはmelmoに改称）",
     "company": "株式会社メドレー",
     "companyId": "4010401082351",
     "category": "telemedicine",
     "description": "医療機関向けオンライン診療システムと患者アプリ。予約・問診・ビデオ診察・決済から処方箋・薬の受け取りまでを扱い、のちに同社の電子カルテや薬局向けシステムと連携する医療プラットフォームの一部になった。",
-    "hp": "",
+    "hp": "https://clinics-cloud.com/",
     "startedYear": 2016,
     "status": "提供中",
     "startedAt": "2016-02",
@@ -5672,6 +5659,4459 @@
     "updatedAt": "2026-10",
     "themes": [
       "elderly-monitoring"
+    ]
+  },
+  {
+    "id": "b-fe54f28e",
+    "name": "病院向け電子カルテ「MALL」シリーズ",
+    "company": "パシフィックシステム",
+    "companyId": "2490001009840",
+    "category": "electronic-health-record",
+    "description": "高知県宿毛市の同社が開発・販売・導入・保守まで内製で手がけた中小病院向けオンプレミス型電子カルテ。精神科・重心・透析向けの派生版もあり、導入は約200施設。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2025-09",
+    "successor": "株式会社メドレー（「MALL」「MALLクラウド」として継続）",
+    "milestones": [
+      {
+        "date": "1997-04",
+        "text": "株式会社パシフィックシステム設立"
+      },
+      {
+        "date": "2020-12",
+        "text": "メドレーが株式の80%を取得し子会社化すると発表（取得価額7.92億円、売上高6.15億円）"
+      },
+      {
+        "date": "2021-04",
+        "text": "株式会社パシフィックメディカルに商号変更"
+      },
+      {
+        "date": "2023-03",
+        "text": "20年以上にわたり中小病院・有床診療所向けにMALLを開発し、約200施設が利用と紹介される"
+      },
+      {
+        "date": "2023-10",
+        "text": "MALL・MALL精神科・MALL重心・MALL透析がIT導入補助金2023の対象ツールに。導入約200施設、約20年の運用で継続率99%と公表"
+      },
+      {
+        "date": "2025-02",
+        "text": "メドレーが子会社パシフィックメディカルの吸収合併を発表"
+      },
+      {
+        "date": "2025-09",
+        "text": "メドレーに吸収合併。MALLはメドレーが提供を継続し、クラウド版「MALLクラウド」を展開"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "メドレーが病院向け電子カルテ市場への参入を目的に2020年に子会社化し、2025年9月1日に親会社メドレーへ吸収合併された。製品は終了しておらず、メドレーのもとで継続している。",
+    "lessons": "地方の独立系ベンダーが長年かけて築いた中小病院の顧客基盤が、上場企業の病院向け参入の足がかりとして取り込まれた例とみられる。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/44800/140120201216435890.pdf",
+      "https://maonline.jp/news/20201217b",
+      "https://prtimes.jp/main/html/rd/p/000000003.000076432.html",
+      "https://www.medley.jp/release/20231030.html",
+      "https://www.nihon-ma.co.jp/news/20250220_4480-13/",
+      "https://note.com/medley/n/n819de9aac00e",
+      "https://pcmed.jp/",
+      "https://note.com/medley/n/n82c51b3cdfc2"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b4ee48c3",
+    "name": "地域医療情報連携ネットワーク「はたまるねっと」システム開発・運用支援",
+    "company": "パシフィックシステム",
+    "companyId": "2490001009840",
+    "category": "medical-dx",
+    "description": "高知県幡多医療圏で幡多医師会が運営する地域医療情報連携ネットワークのシステムを開発・保守。病院・診療所・薬局・介護事業所が患者の診療情報を共有する。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "統合",
+    "startedAt": "2018-01",
+    "endedAt": "2025-09",
+    "successor": "株式会社メドレー",
+    "milestones": [
+      {
+        "date": "2017",
+        "text": "総務省のEHR高度化事業に採択"
+      },
+      {
+        "date": "2018-01",
+        "text": "幡多地域で「はたまるねっと」の運用開始（パシフィックシステムが担当窓口）"
+      },
+      {
+        "date": "2023-09",
+        "text": "デジタル田園都市国家構想交付金を活用し、マイナンバーカードを共通診察券とする仕組みや健康アプリ「はたマイカルテ」との連携を発表"
+      },
+      {
+        "date": "2025-09",
+        "text": "開発会社パシフィックメディカルがメドレーに吸収合併。参加は123施設・登録患者2万1463人（2025年9月時点）"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "ネットワーク自体は幡多医師会の運営で継続している。システム提供元のパシフィックメディカルが2025年9月に親会社メドレーへ吸収合併された。",
+    "sources": [
+      "http://www.ooida-hp.net/medical",
+      "https://note.com/medley/n/n82c51b3cdfc2",
+      "https://www.m3.com/news/iryoishin/1166223",
+      "https://pcmed.jp/news/2309_sukumo/",
+      "https://www.wam.go.jp/content/wamnet/sppub/top/torikumijirei/2026013001_100000.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-65393921",
+    "name": "医療・介護・福祉の求人サイト「GUPPY（グッピー）」",
+    "company": "株式会社グッピーズ",
+    "companyId": "5011101043683",
+    "category": "recruting-solutions",
+    "description": "歯科を中心に医療・介護・福祉の事業所が求人を掲載し、閲覧課金（クリック課金）型で採用を支援する求人サイト。中途向け「GUPPY求人」と新卒向け「GUPPY新卒」を運営。",
+    "hp": "",
+    "startedYear": 2000,
+    "status": "統合",
+    "startedAt": "2000",
+    "endedAt": "2025-04",
+    "successor": "株式会社メドレー（GUPPYとして継続）",
+    "milestones": [
+      {
+        "date": "2000",
+        "text": "肥田義光氏が創業"
+      },
+      {
+        "date": "2022-09",
+        "text": "東証グロース市場に上場（2022年8月期の売上高見込み18億円）"
+      },
+      {
+        "date": "2024-01",
+        "text": "メドレーがTOB等で総額約118億円で買収すると発表"
+      },
+      {
+        "date": "2024-03",
+        "text": "TOB成立、メドレーの子会社に。のち上場廃止"
+      },
+      {
+        "date": "2025-04",
+        "text": "メドレーに吸収合併。GUPPYはメドレーの運営で継続し、ジョブメドレーとの併用を案内"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "メドレーは国家試験対策アプリ・新卒採用向けサービスと閲覧課金型の中途採用サービスを獲得し、顧客あたり売上の改善を図るとしてグッピーズを買収した。2025年4月1日に吸収合併され、サービスはメドレーが継続している。",
+    "sources": [
+      "https://maonline.jp/news/20240119c",
+      "https://www.nikkei.com/article/DGXZQOUC198630Z10C24A1000000/",
+      "https://www.nikkei.com/article/DGXZQOUC29B020Z20C22A8000000/",
+      "https://shikiho.toyokeizai.net/news/0/653206",
+      "https://voice.guppy.jp/seminar/3025357/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101043683"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-77f9b336",
+    "name": "健康管理アプリ「グッピーヘルスケア」",
+    "company": "株式会社グッピーズ",
+    "companyId": "5011101043683",
+    "category": "health-corporate-management",
+    "description": "歩数・体重・食事・睡眠など16種類以上を記録できる健康管理アプリ。個人向けのほか、企業の健康経営、健保組合、自治体の健康ポイント事業向けに管理画面付きで提供。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "譲渡",
+    "startedAt": "2016-11",
+    "endedAt": "2025-03",
+    "successor": "株式会社FiNC Technologies",
+    "milestones": [
+      {
+        "date": "2016-11",
+        "text": "アプリをリリース"
+      },
+      {
+        "date": "2017-06",
+        "text": "企業向け「健康ポイント」サービスを開始"
+      },
+      {
+        "date": "2019-01",
+        "text": "自治体向け健康ポイント事業支援サービスを開始。同年4月に小田原市で実証開始"
+      },
+      {
+        "date": "2024-03",
+        "text": "親会社グッピーズがメドレーの子会社に"
+      },
+      {
+        "date": "2025-02",
+        "text": "FiNC Technologiesへの吸収分割による事業譲渡で合意"
+      },
+      {
+        "date": "2025-03",
+        "text": "吸収分割を実行し、FiNC Technologiesへ事業承継"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "acquisition"
+    ],
+    "endReasonNote": "メドレーの瀧口社長は、グッピーズのヘルスケア事業の成長の方向性を模索していたところFiNC Technologiesから関心を示され、同社に託すほうが大きな価値提供ができると判断したとコメントした。",
+    "lessons": "人材サービス会社の副業的なヘルスケア事業は、買収後のグループ内で居場所を失いやすく、健康経営専業の会社へ移されたとみられる。",
+    "sources": [
+      "https://prtimes.jp/a/?c=27329&r=354&f=d27329-354-52fb7dea8aa353f55d5ddd1210c65a44.pdf",
+      "https://finc.com/news/Nc3xfWp_",
+      "https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20250401_archive/f922xw/140120250401506308.pdf",
+      "https://kyodonewsprwire.jp/prwfile/release/M101374/201901081991/_prw_PR1fl_rUWagKxB.pdf",
+      "https://www.guppy.healthcare/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-084da392",
+    "name": "診療所向け電子カルテ「ハヤブサ」",
+    "company": "GMOヘルスケア株式会社",
+    "companyId": "8120001099797",
+    "category": "electronic-health-record",
+    "description": "大阪の旧アイソルが自社開発し、診療所に販売・導入・保守まで提供したオンプレミス型の一体型電子カルテ。診療科ごとのカスタマイズと他社システムからのデータ移行を強みとした。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "統合",
+    "startedAt": "2020-02",
+    "endedAt": "2025-08",
+    "successor": "GMOヘルステック株式会社（ハヤブサとして継続）",
+    "milestones": [
+      {
+        "date": "2001",
+        "text": "株式会社アイソル設立。以来クリニック向け電子カルテなど医療ITを提供"
+      },
+      {
+        "date": "2020-02",
+        "text": "オンプレミス型の新電子カルテ「ハヤブサ」を発売"
+      },
+      {
+        "date": "2024-06",
+        "text": "GMOフィナンシャルホールディングスの連結会社としてGMOヘルスケアに商号変更し、本社を東京都渋谷区へ移転"
+      },
+      {
+        "date": "2025-08",
+        "text": "GMOヘルステックに吸収合併。ハヤブサは同社の製品として継続"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "GMOインターネットグループ入りに伴い商号を変更し、グループ再編で2025年8月1日にGMOヘルステックへ吸収合併された。製品は終了していない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000709.000030257.html",
+      "https://www.jmedj.co.jp/blogs/product/product_15706",
+      "https://gmo-healthtech.com/company/",
+      "https://gmo-healthtech.com/product/hayabusa/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120001099797"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-bce62dc9",
+    "name": "クリニック向け医療プラットフォーム「AIチャート byGMO」・患者向け「GMOクリニック・マップ」",
+    "company": "GMOヘルスケア株式会社",
+    "companyId": "8120001099797",
+    "category": "medical-saas",
+    "description": "クリニックにWeb予約・問診・オンライン診療・AIによるカルテ記入支援などを無料で提供し、患者向け検索ポータル「GMOクリニック・マップ」から集患につなげるプラットフォーム。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "統合",
+    "startedAt": "2024-09",
+    "endedAt": "2025-03",
+    "successor": "GMOヘルステック株式会社（2025年12月に「ヘルステックONE byGMO」へ改称）",
+    "milestones": [
+      {
+        "date": "2023-12",
+        "text": "GMOフィナンシャルHDとGMOインターネットグループ等が共同出資で医療プラットフォーム会社GMOヘルステックの設立を決議"
+      },
+      {
+        "date": "2024-09",
+        "text": "GMOヘルスケアで「GMOクリニック・マップ」と「AIチャート byGMO」の提供を開始（医療機関向けは無料）"
+      },
+      {
+        "date": "2024-12",
+        "text": "処方薬デリバリーサービスを開始"
+      },
+      {
+        "date": "2025-03",
+        "text": "医療プラットフォーム事業と薬局事業をGMOヘルステックへ会社分割で承継"
+      },
+      {
+        "date": "2025-12",
+        "text": "「ヘルステックONE byGMO」にブランド変更し、レセコン一体型クラウド電子カルテ「AIチャート byGMO」を追加"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "GMOグループの医療事業をGMOヘルステックに集約する再編として、2025年3月に事業を分割承継し、同年8月にGMOヘルスケア自体も吸収合併された。サービスは名称を変えて継続している。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/71770/140120231219505279.pdf",
+      "https://group.gmo/news/article/9154/",
+      "https://gmo-healthtech.com/company/",
+      "https://prtimes.jp/main/html/rd/p/000000825.000030257.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-89e443fb",
+    "name": "クラウド診療予約・順番受付システム「アイチケット」",
+    "company": "アイチケット株式会社",
+    "companyId": "4010401078275",
+    "category": "medical-dx",
+    "description": "クリニック向けにWeb・電話での順番受付や待ち時間表示を行うクラウド型予約システム「iTicket SmartCloud」と、患者向け予約ポータル「アイチケット広場」を提供。待合室サイネージ広告も展開。",
+    "hp": "",
+    "startedYear": 2002,
+    "status": "統合",
+    "startedAt": "2002",
+    "endedAt": "2023-04",
+    "successor": "エムスリーソリューションズ株式会社（アイチケットとして継続）",
+    "milestones": [
+      {
+        "date": "2002",
+        "text": "アイチケット株式会社設立"
+      },
+      {
+        "date": "2020-05",
+        "text": "エムスリーが株式交換で完全子会社化を決議（効力発生2020年8月）。エムスリーデジカルの電子カルテとの連携強化が狙い"
+      },
+      {
+        "date": "2023-03",
+        "text": "エムスリーソリューションズとの合併を発表"
+      },
+      {
+        "date": "2023-04",
+        "text": "エムスリーソリューションズに吸収合併。予約システム、待合室サイネージ広告、小児向けプレパレーション支援は同社が継続"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "エムスリーは電子カルテ事業との連携やAI技術の活用による企業価値向上を目的に完全子会社化し、クリニックへの付加価値拡張を加速するため2023年4月1日にエムスリーソリューションズと合併させた。サービスは継続。",
+    "sources": [
+      "https://corporate.m3.com/ir/release/2020/pdf/200527_iticket.pdf",
+      "https://m3sol.co.jp/news/20230317",
+      "https://corporate.iticket.co.jp/",
+      "https://m3sol.co.jp/company/history"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-15e69284",
+    "name": "医療介護専用SNS「メディカルケアステーション（MCS）」",
+    "company": "エンブレース",
+    "companyId": "4013201010548",
+    "category": "home-medical",
+    "description": "病院・診療所・薬局・訪問看護・介護事業所の多職種と患者・家族が非公開でつながる医療介護専用のコミュニケーションツール。医療機関は無料で使え、全国の医師会が地域包括ケアの連携基盤として採用。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "統合",
+    "startedAt": "2013",
+    "endedAt": "2026-04",
+    "successor": "株式会社コラボスクエア（スズケングループ、MCSとして継続）",
+    "milestones": [
+      {
+        "date": "2013",
+        "text": "MCSをリリース"
+      },
+      {
+        "date": "2016-02",
+        "text": "全国の医療介護関連施設約2万件が利用、120カ所以上の医師会で正式採用"
+      },
+      {
+        "date": "2021-03",
+        "text": "スズケンが株式80.8%を15.4億円で取得し子会社化（直前期売上高4.3億円、営業損失5.3億円）"
+      },
+      {
+        "date": "2026-02",
+        "text": "スズケンがデジタルヘルスケア事業の促進のため、同じグループのコラボスクエアによる吸収合併を発表"
+      },
+      {
+        "date": "2026-04",
+        "text": "コラボスクエアに吸収合併。MCSと事例メディア「メディカルケアポスト」は同社が継続"
+      }
+    ],
+    "endReasons": [
+      "acquisition",
+      "parent-strategy"
+    ],
+    "endReasonNote": "スズケンは、医療・介護従事者40万人が使う「コラボポータル」とMCSの機能を組み合わせた新サービス開発のため、グループ会社同士を合併させたと発表した。MCSは継続している。",
+    "lessons": "医療機関無料の連携SNSは普及しても単独では収益化が難しく、卸大手の子会社として基盤事業に組み込まれる道をたどったとみられる。",
+    "sources": [
+      "https://www.atpress.ne.jp/news/100704",
+      "https://maonline.jp/news/20210326c",
+      "http://ke.kabupro.jp/tsp/20210326/140120210325484042.pdf",
+      "https://www.mixonline.jp/tabid55.html?artid=79749",
+      "https://about.medical-care.net/html/news/20260213.html",
+      "https://www.collabosquare.co.jp/news-detail/16"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ab4a6089",
+    "name": "医療機器向けセンシングLSI・ウェアラブル受託開発（ワイヤレス超音波診断装置用LSIなど）",
+    "company": "ディー・クルー・テクノロジーズ",
+    "companyId": "1020001121908",
+    "category": "medical-device",
+    "description": "日清紡グループの半導体設計会社として、ワイヤレス超音波診断装置用の専用LSIや24時間ホルター心電計向けセンサーなど、医療機器メーカー向けのセンシング部品・ウェアラブル機器を受託開発。",
+    "hp": "",
+    "startedYear": 2003,
+    "status": "提供中",
+    "startedAt": "2003-06",
+    "milestones": [
+      {
+        "date": "2003-06",
+        "text": "大手通信メーカーのエンジニアらが独立して設立"
+      },
+      {
+        "date": "2021-10",
+        "text": "FPGAによる疑似量子計算機「Qalmo」を発表し、医療以外の領域へ事業を広げる"
+      }
+    ],
+    "endReasonNote": "医療分野の受託開発は公式サイトに掲載が続いており、終了は確認できない。近年は疑似量子計算機「Qalmo」など医療以外の事業の発信が中心。",
+    "sources": [
+      "https://d-clue.com/",
+      "https://d-clue.com/products/ultrasonic-sensor/",
+      "https://d-clue.com/solution/wearable/",
+      "https://www.weeklybcn.com/journal/issue/detail/20180507_162107.html",
+      "https://news.mynavi.jp/techplus/article/20211027-2171165/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c373beea",
+    "name": "入浴特化型デイサービス「ほっとスマイルSPA木場」・居宅介護支援「ほっとスマイルCare木場」",
+    "company": "GCストーリー株式会社",
+    "companyId": "2010601041464",
+    "category": "nursing",
+    "description": "看板施工会社のGCストーリーが東京都江東区で運営した、入浴動作のリハビリに特化した半日型の介護保険デイサービスと、ケアプランを作る居宅介護支援事業所。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "譲渡",
+    "startedAt": "2014-03",
+    "endedAt": "2026-02",
+    "successor": "アリエ祐起元株式会社（GCホールディングスのグループ会社）",
+    "milestones": [
+      {
+        "date": "2014-03",
+        "text": "ほっとスマイルSPA木場を開設"
+      },
+      {
+        "date": "2025-11",
+        "text": "会社分割により介護事業の受け皿となるアリエ祐起元株式会社を設立"
+      },
+      {
+        "date": "2026-02",
+        "text": "GCホールディングスを親会社とするグループ経営体制へ移行し、介護事業はアリエ祐起元の運営に"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "事業は終了しておらず、GCストーリーが複数事業を会社分割で新会社に移し、持株会社体制へ移行したグループ再編による移管。",
+    "sources": [
+      "https://gchdgroup.com/news/569/",
+      "https://gchdgroup.com/service/care/",
+      "https://r-guide.jp/care_office/94751/",
+      "https://www.kaigokensaku.mhlw.go.jp/13/index.php?action_kouhyou_detail_033_kihon=true&JigyosyoCd=1370805150-00&ServiceCd=780"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b1300e5a",
+    "name": "管理栄養士による特定保健指導サービス",
+    "company": "株式会社フィッツプラス",
+    "companyId": "7011001070685",
+    "category": "health-insuarance-market",
+    "description": "健康保険組合から特定保健指導を受託し、管理栄養士が初回面談で目標を立て3〜6カ月かけて食生活を中心に改善を支援する。2020年からは全工程をリモートで行うパッケージも提供。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2024-09",
+    "successor": "株式会社アドバンテッジリスクマネジメント（承継子会社が「株式会社フィッツプラス」の商号で継続）",
+    "milestones": [
+      {
+        "date": "2016-09",
+        "text": "メドピアがクックパッドの子会社クックパッドダイエットラボを買収（のちフィッツプラスに改称）"
+      },
+      {
+        "date": "2020-04",
+        "text": "健保向けに特定保健指導をすべてリモートで行うパッケージを開始"
+      },
+      {
+        "date": "2022-12",
+        "text": "特定保健指導の効率化支援サービス「Tonoel」を本格運用"
+      },
+      {
+        "date": "2024-08",
+        "text": "メドピアが予防医療プラットフォーム事業からの撤退を決め、フィッツプラスの全事業をアドバンテッジリスクマネジメントの新設子会社へ吸収分割で承継させると発表（対価10億円、2023年9月期売上高10.3億円・営業利益1.1億円）"
+      },
+      {
+        "date": "2024-09",
+        "text": "吸収分割の効力発生。分割会社のフィッツプラスは2025年4月に清算結了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "メドピアは中期経営計画で医師プラットフォームと医療機関支援プラットフォームに投資を集中する「選択と集中」を掲げ、グループ内では事業の成長可能性を短期的に発揮させにくいとして、健康経営の顧客基盤を持つアドバンテッジリスクマネジメントに譲渡した。事業自体は黒字で継続している。",
+    "lessons": "黒字の予防医療事業でも、親会社の主力事業と顧客が違うと「ベストオーナー」への譲渡対象になりやすいとみられる。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20240802_6095-10/",
+      "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
+      "https://www.nihon-ma.co.jp/news/20160926_6095-2/",
+      "https://japan.cnet.com/article/35152309/",
+      "https://prtimes.jp/main/html/rd/p/000000437.000010134.html",
+      "https://fitsplus.co.jp/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001070685"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5bdc7491",
+    "name": "管理栄養士による食生活コーディネート「ダイエットプラス」",
+    "company": "株式会社フィッツプラス",
+    "companyId": "7011001070685",
+    "category": "direct-to-consumer",
+    "description": "個人向けに管理栄養士が食事の写真記録をもとに食べ方を指導する有料のダイエット・食生活改善サービス。来店型のラボとアプリで提供し、ボディメイクや妊娠中などの目的別コースを用意。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2024-09",
+    "successor": "株式会社アドバンテッジリスクマネジメント（承継子会社「株式会社フィッツプラス」）",
+    "milestones": [
+      {
+        "date": "2017-07",
+        "text": "iOSアプリを全面刷新し、来店型に加えアプリだけで完結するサービスを開始"
+      },
+      {
+        "date": "2018-01",
+        "text": "ボディメイク・妊娠中・美肌などの新コースを追加"
+      },
+      {
+        "date": "2019-03",
+        "text": "ラボで累計6,000人以上をカウンセリングしたと公表"
+      },
+      {
+        "date": "2024-09",
+        "text": "フィッツプラスの全事業とともにアドバンテッジリスクマネジメントの子会社へ承継"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "メドピアの「選択と集中」により、特定保健指導事業などとともに全事業がアドバンテッジリスクマネジメントへ譲渡された。サイト（dietplus.jp）は2026年10月時点も公開されている。",
+    "sources": [
+      "https://japan.cnet.com/article/35104282/",
+      "https://japan.cnet.com/article/35112895/",
+      "https://prtimes.jp/main/html/rd/p/000000174.000010134.html",
+      "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
+      "https://dietplus.jp/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-12452511",
+    "name": "クラウド型健康管理サービス「first call」（オンライン医療相談・オンライン産業医）",
+    "company": "株式会社Mediplat",
+    "companyId": "3010001171984",
+    "category": "health-corporate-management",
+    "description": "個人や企業の従業員がチャットやテレビ電話で24時間医師に匿名相談できるオンライン医療相談を軸に、企業向けにオンライン産業医面談やストレスチェックなど産業保健の業務を一括支援するクラウドサービス。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "譲渡",
+    "startedAt": "2016",
+    "endedAt": "2024-09",
+    "successor": "株式会社アドバンテッジリスクマネジメント（承継子会社が「株式会社Mediplat」の商号で継続）",
+    "milestones": [
+      {
+        "date": "2015-11",
+        "text": "株式会社Mediplat設立"
+      },
+      {
+        "date": "2016",
+        "text": "オンライン医療相談「first call」を開始"
+      },
+      {
+        "date": "2018-06",
+        "text": "法人向けに「オンライン産業医」を開始"
+      },
+      {
+        "date": "2019-04",
+        "text": "NTTドコモ「dヘルスケア」で24時間チャット医療相談を提供"
+      },
+      {
+        "date": "2020-03",
+        "text": "新型コロナ対応で経済産業省の健康相談窓口に選定され、損保ジャパン契約者などにも提供"
+      },
+      {
+        "date": "2024-08",
+        "text": "メドピアが予防医療プラットフォーム事業から撤退し、全事業をアドバンテッジリスクマネジメントの新設子会社へ吸収分割すると発表（対価13.5億円、2023年9月期売上高12.2億円・営業利益0.6億円）"
+      },
+      {
+        "date": "2024-09",
+        "text": "吸収分割の効力発生。分割会社は2025年4月に清算結了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "メドピアが中期経営計画で医師・医療機関向けの2つのプラットフォーム事業に経営資源を集中する方針を示し、予防医療プラットフォーム事業を構成するMediplatの事業をアドバンテッジリスクマネジメントへ譲渡した。サービスは承継会社が継続している。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20240802_6095-10/",
+      "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
+      "https://thebridge.jp/2020/03/first-call-line-healthcare-selected-by-meti-as-offering-health-consultatoin-desk",
+      "https://ascii.jp/elem/000/001/696/1696825/",
+      "https://japan.cnet.com/article/35135478/",
+      "https://www.firstcall.md/Home/About",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001171984"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9b3a8bc2",
+    "name": "ダイエットコーチングアプリ「Noom」日本語版",
+    "company": "Noom Japan株式会社",
+    "companyId": "8010401119918",
+    "category": "direct-to-consumer",
+    "description": "米Noomの行動心理学に基づく減量プログラムの日本語版。アプリで食事・運動・体重を記録し、コーチがチャットで支援する月額課金型サービスで、自治体・企業向けに特定保健指導としても提供。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "終了",
+    "startedAt": "2013-08",
+    "endedAt": "2021-07",
+    "milestones": [
+      {
+        "date": "2013-08",
+        "text": "米Noomがダイエットコーチングアプリの日本でのサービス提供を開始"
+      },
+      {
+        "date": "2016-05",
+        "text": "減量に必要な知識を学ぶカリキュラム型プログラムを日本語で提供"
+      },
+      {
+        "date": "2017-02",
+        "text": "愛媛県と連携し、県職員向けのスマホによる特定保健指導を開始"
+      },
+      {
+        "date": "2021-07",
+        "text": "日本語版サービスを7月16日で終了（最後の支払い分は返金）"
+      },
+      {
+        "date": "2024-01",
+        "text": "日本法人Noom Japanが清算結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "Noomは公式Facebookで日本語版サービスを2021年7月16日で終了すると告知したが、理由は公表されていない。米本社は同時期に大型の資金調達をして世界では拡大していた。",
+    "sources": [
+      "https://www.dreamnews.jp/press/0000079786",
+      "https://thebridge.jp/2016/05/noom-new-curriculum",
+      "https://xtech.nikkei.com/dm/atcl/news/16/022206394/",
+      "https://www.facebook.com/NoomJapan/",
+      "https://www.app-ranking.net/id/634598719",
+      "https://forbesjapan.com/articles/detail/41660",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401119918"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1e830ded",
+    "name": "遠隔診療プラットフォーム「ポートメディカル」",
+    "company": "ポート株式会社",
+    "companyId": "8011001069074",
+    "category": "telemedicine",
+    "description": "高血圧症や高尿酸血症など10疾患を対象に、ネット上で医師の診療から処方・医薬品の受け取りまでを完結させる患者向け遠隔診療サービスとして2015年に公開。メディア事業会社の新規事業だった。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "終了",
+    "startedAt": "2015-11",
+    "endedAt": "2015-12",
+    "milestones": [
+      {
+        "date": "2015-11",
+        "text": "「国内初」の遠隔診療プラットフォームとしてα版をリリース（10疾患でサービス開始）"
+      },
+      {
+        "date": "2015-12",
+        "text": "α版の運用を年末で終了（日経メディカル報道）"
+      },
+      {
+        "date": "2016-02",
+        "text": "総額9億円の資金調達"
+      },
+      {
+        "date": "2016-06",
+        "text": "β版リリースに向けて宮崎県日南市と連携"
+      },
+      {
+        "date": "2016-09",
+        "text": "東京女子医科大学と遠隔診療の実証研究を開始"
+      },
+      {
+        "date": "2017-03",
+        "text": "内閣府の規制改革会議の投資等ワーキンググループで遠隔診療の取り組みを説明"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "α版は2015年末に運用を終了し、β版を準備中と報じられたが、その後の本格提供や終了の告知は確認できない。運用終了の理由は公表されていない。同社はその後、就活・エネルギー領域の成約支援事業に集中した。",
+    "lessons": "2015年当時は対面診療が原則とされる中で、規制の解釈が定まらないまま遠隔診療に先行参入した例とみられる。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000016325.html",
+      "https://thebridge.jp/2015/11/port-medical",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t262/201608/547851_2.html",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t262/201609/548206.html",
+      "https://thebridge.jp/2016/06/port-medical-alliance-with-city-in-miyazaki-prefecture",
+      "https://www8.cao.go.jp/kisei-kaikaku/suishin/meeting/wg/toushi/20170313/170313toushi04.pdf",
+      "https://kitaishihon.com/company/7047/story"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4794830b",
+    "name": "遠隔健康支援「ドクターズダイエット」・医療情報サイト「オンラインクリニック」",
+    "company": "ポート株式会社",
+    "companyId": "8011001069074",
+    "category": "health-consulting",
+    "description": "医師監修のもとで遠隔でダイエットを支援する個人向けサービス「ドクターズダイエット」と、病気の知識を提供する医療情報メディア「オンラインクリニック」。メディア集客型のヘルスケア事業として展開した。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-01",
+    "endedAt": "2019-12",
+    "milestones": [
+      {
+        "date": "2017-01",
+        "text": "医療情報サイト「オンラインクリニック」を開始し、メディカル領域のメディアに参入"
+      },
+      {
+        "date": "2017-09",
+        "text": "遠隔健康支援サービス「ドクターズダイエット」を開始"
+      },
+      {
+        "date": "2018-12",
+        "text": "東証マザーズ・福証Q-Boardに上場"
+      },
+      {
+        "date": "2019-12",
+        "text": "「オンラインクリニック」「ドクターズダイエット」を終了するなど、複数の非注力事業を清算"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "会社の沿革で、2019年12月に両サービスを「非注力事業」として終了・清算したと記載している。それ以上の理由は公表されていない。",
+    "sources": [
+      "https://kitaishihon.com/company/7047/story",
+      "https://www.buffett-code.com/company/7047/",
+      "https://www.theport.jp/news/2019/3401"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-63a2c547",
+    "name": "アトピー対策共有SNS「untickle（アンティクル）」",
+    "company": "株式会社untickle",
+    "companyId": "5011001097367",
+    "category": "personal-health-record",
+    "description": "アトピー性皮膚炎の当事者である創業者が立ち上げた、患者が部位・症状別にアトピー対策を投稿・検索できるSNS・情報サイトとアプリ。青山でアトピー体質チェックなどのサロンも運営。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "終了",
+    "startedAt": "2013",
+    "endedAt": "2023-01",
+    "milestones": [
+      {
+        "date": "2013",
+        "text": "重度のアトピーを経験した野村千代氏が当事者SNSとして運営を開始"
+      },
+      {
+        "date": "2014-09",
+        "text": "自分に合ったアトピー対策を探せるアプリをリリース"
+      },
+      {
+        "date": "2016-12",
+        "text": "部位・カテゴリー別の投稿共有サービスとして紹介される"
+      },
+      {
+        "date": "2018-06",
+        "text": "東洋経済オンラインが創業者と事業を紹介"
+      },
+      {
+        "date": "2023-01",
+        "text": "会社が解散し、清算結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2023年1月に会社が解散・清算結了したが、サービス終了の理由は公表されていない。",
+    "sources": [
+      "https://thebridge.jp/2015/03/untickle-ceo-chiyo-nomura-interview",
+      "https://creww.me/ja/startup/untickle",
+      "https://greenz.jp/2016/12/12/untickle/",
+      "https://toyokeizai.net/articles/-/223458?display=b",
+      "https://atopyfree.web.fc2.com/link.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001097367"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3bf82840",
+    "name": "美容整形の見積もりアプリ・情報サイト「ニコリー（NICOLY）」",
+    "company": "株式会社ニコリー",
+    "companyId": "2011301018406",
+    "category": "medical-cosmetic",
+    "description": "利用者が顔写真3枚を送ると提携クリニックから美容整形の見積もりが届くアプリと、医師監修をうたう美容整形情報サイトを運営。クリニックの集客を支援するモデルだった。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2021-04",
+    "milestones": [
+      {
+        "date": "2012-03",
+        "text": "株式会社ニコリー設立"
+      },
+      {
+        "date": "2017-06",
+        "text": "元監修医から掲載情報に多数の誤りがあると指摘され、情報サイトの全記事を非公開にして謝罪"
+      },
+      {
+        "date": "2019-10",
+        "text": "「国内初の美容整形の見積もりアプリ」としてSNSで発信を継続"
+      },
+      {
+        "date": "2021-04",
+        "text": "4月30日に会社を解散し、清算結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2017年に記事の誤りを指摘されて情報サイトの全記事を非公開にした経緯はあるが、2021年の解散とサービス終了の理由は公表されていない。",
+    "lessons": "医療情報を集客に使うモデルは、2016〜17年のWELQ問題以降、記事の正確性への監視が強まり運営負担が増したとみられる。",
+    "sources": [
+      "https://news.livedoor.com/article/detail/13191570/",
+      "https://www.itmedia.co.jp/news/article/1706/12/1170612052/",
+      "https://x.com/nicoly_news/status/1179333736808243201",
+      "https://startup-db.com/companies/vjwKJ2MUoxAZmQP1",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2011301018406"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f52d899d",
+    "name": "唾液でわかる乳がんリスク検査「スキャンテスト 乳がんハイリスクサポート＋」ほか郵送型検査",
+    "company": "株式会社ミルテル",
+    "companyId": "8240001043116",
+    "category": "simple-inspection",
+    "description": "広島大学発の衛生検査所が、唾液中のポリアミンを解析して乳がんの罹患リスクを判定する郵送型検査を、薬局・ドラッグストアなどで販売。テロメア検査や腸内フローラ検査も提供した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2012-09",
+        "text": "株式会社ミルテル設立（広島大学発）"
+      },
+      {
+        "date": "2022",
+        "text": "売上高7.3億円・営業利益1.8億円（2022年12月期）"
+      },
+      {
+        "date": "2023",
+        "text": "売上高1.5億円・営業損失3.0億円に（2023年12月期）"
+      },
+      {
+        "date": "2024-01",
+        "text": "メディカルネット（東証グロース）が株式を取得し連結子会社化。歯科業界でのスキャンテストの独占販売で提携"
+      },
+      {
+        "date": "2025-03",
+        "text": "メディカルネットが保有株式すべてを代表の加藤俊也氏へ譲渡し、連結から除外"
+      },
+      {
+        "date": "2025-09",
+        "text": "サツドラ薬局31店舗で販売開始"
+      },
+      {
+        "date": "2025-10",
+        "text": "呉市での実証（受検1000人を1カ月弱で達成）を経て、オール薬局45店舗で取り扱い開始。これが最後の発信"
+      },
+      {
+        "date": "2026-08",
+        "text": "厚生年金の適用事業所が全喪。公式サイトのドメインも消滅"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "親会社だったメディカルネットは、売上拡大と収益化が当初計画から乖離し、歯科領域でのシナジーも得にくいとして株式を手放したと開示している。その後のサービス停止の有無と理由は公表されていない。",
+    "lessons": "コロナ期の検査需要で膨らんだ売上が平時に戻った後、リスク検査単体で収益化する難しさが表れた例とみられる。",
+    "sources": [
+      "https://www.medical-net.com/common/doc/ir/r07/ir_r07_20250327.pdf",
+      "https://www.medical-net.com/common/doc/ir/r06/ir_r06_20240105.pdf",
+      "https://prtimes.jp/main/html/rd/p/000000009.000162520.html",
+      "https://prtimes.jp/main/html/rd/p/000000011.000162520.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8240001043116"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-49978234",
+    "name": "看護記録・看護計画支援システム「チームコンパス（TeamCompass）」",
+    "company": "ドクターズモバイル株式会社",
+    "companyId": "4010401103256",
+    "category": "medical-saas",
+    "description": "病院内のシステムに散らばる患者情報を集約し、看護記録・看護計画の作成と感染制御を効率化する病院向けスマートホスピタルサービス。三井物産子会社のイノシアが販売した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "統合",
+    "startedAt": "2020-07",
+    "endedAt": "2025-04",
+    "successor": "株式会社イノシア（三井物産子会社、チームコンパスとして継続）",
+    "milestones": [
+      {
+        "date": "2020-07",
+        "text": "一般提供を開始"
+      },
+      {
+        "date": "2020-12",
+        "text": "オフラインPCを遠隔操作する小型デバイス「OKリモート」も提供開始"
+      },
+      {
+        "date": "2021-06",
+        "text": "看護記録の効率化とCOVID-19感染制御がNHKニュースウォッチ9などで紹介される"
+      },
+      {
+        "date": "2023-01",
+        "text": "国内約20病院で稼働、記録時間を6割短縮した例もあると報道"
+      },
+      {
+        "date": "2023-08",
+        "text": "出資・販売元のイノシアが次世代版の予約受付を開始"
+      },
+      {
+        "date": "2025-04",
+        "text": "イノシアを存続会社とする合併で消滅。チームコンパスはイノシアが開発・提供を継続"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "販売を担っていた出資元のイノシアに2025年4月1日付で吸収合併された。イノシアは技術力・開発体制の強化と説明している。製品は継続。",
+    "sources": [
+      "https://doctorsmobile.jp/news/",
+      "https://doctorsmobile.jp/static/202502-c45b4e4e837e9a7f3eacf8466b45e323.pdf",
+      "https://www.nikkei.com/article/DGXZQOUC049Y70U3A100C2000000/",
+      "https://www.nikkan.co.jp/releases/view/160820",
+      "https://www.green-japan.com/company/9046",
+      "https://teamcompass.jp/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-373d76aa",
+    "name": "遠隔医療通訳サービス「mediPhone（メディフォン）」",
+    "company": "一般社団法人ジェイ・アイ・ジー・エイチ",
+    "companyId": "7010005017643",
+    "category": "medical-dx",
+    "description": "グローバルヘルス政策のシンクタンクが始めた、医療機関向けの電話・ビデオによる多言語医療通訳サービス。予約代行や診断書翻訳、外国人患者受入れコーディネーター研修も提供した。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "譲渡",
+    "startedAt": "2014-01",
+    "endedAt": "2018-06",
+    "successor": "メディフォン株式会社（JIGHから独立）",
+    "milestones": [
+      {
+        "date": "2014-01",
+        "text": "JIGHでメディフォン事業を創業し、外国人患者受入れ医療コーディネーター研修を開講"
+      },
+      {
+        "date": "2014-10",
+        "text": "医療機関向けに7言語の通訳・予約代行・翻訳の提供を発表"
+      },
+      {
+        "date": "2017-04",
+        "text": "医療機関向けスマートフォンアプリをリリース"
+      },
+      {
+        "date": "2017-08",
+        "text": "ビデオ医療通訳を開始。同年、厚労省補助の電話医療通訳利用促進事業者に採択"
+      },
+      {
+        "date": "2018-06",
+        "text": "法人化したメディフォン株式会社がJIGHからメディフォン事業等の全てを譲受"
+      },
+      {
+        "date": "2020-04",
+        "text": "日本医師会が医療通訳サービスの導入を開始（メディフォン社のもとで）"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "事業は終了しておらず、創業メンバーが設立した株式会社に2018年6月に移された。JIGH側の譲渡理由は公表されていない。JIGHはその後の活動が確認できない。",
+    "lessons": "非営利の政策シンクタンクの中で生まれた事業が、資金調達のため株式会社として独立した例とみられる。",
+    "sources": [
+      "https://www.nikkei.com/article/DGXLASDZ1103P_X11C14A0MM0000/",
+      "https://medical.nikkeibp.co.jp/leaf/all/cadetto/tuusin/201605/546930.html",
+      "https://mediphone.co.jp/company/",
+      "https://www.jme.or.jp/news/171128_1.html",
+      "https://thebridge.jp/2025/11/12526-storium-story",
+      "https://partner.jica.go.jp/Org/Detail/565"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a908bdf1",
+    "name": "無料クラウド型電子カルテ「きりんカルテ」",
+    "company": "アポロテクノロジーズ株式会社",
+    "companyId": "9290001064750",
+    "category": "electronic-health-record",
+    "description": "福岡の同社が開発した診療所向けクラウド型電子カルテ。基本無料で提供し、日医標準レセプトソフト（ORCA）と連携するクラウド電子カルテとして導入数で実績を持った。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "譲渡",
+    "startedAt": "2016",
+    "endedAt": "2021-04",
+    "successor": "PHC株式会社（2023年4月からPHCグループのウィーメックス株式会社が運営）",
+    "milestones": [
+      {
+        "date": "2013",
+        "text": "きりんカルテシステム株式会社設立"
+      },
+      {
+        "date": "2016",
+        "text": "クラウド型電子カルテ「きりんカルテ」を発売"
+      },
+      {
+        "date": "2019",
+        "text": "ORCA連携クラウド電子カルテのプロバイダーとして導入数1位（2018年7月〜2019年6月、ORCAカンファレンス資料）"
+      },
+      {
+        "date": "2021-02",
+        "text": "PHCとクラウド型電子カルテ事業の譲渡契約を締結"
+      },
+      {
+        "date": "2021-04",
+        "text": "譲渡手続き完了、運営会社がPHCに"
+      },
+      {
+        "date": "2022-11",
+        "text": "PHCが基盤をGoogle Cloudへ移行"
+      },
+      {
+        "date": "2023-04",
+        "text": "運営会社がPHCグループの新会社ウィーメックスに変更"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "PHCはオンプレミス中心のヘルスケアIT製品群にクラウド型を加えるため事業を譲り受けたと説明。きりんカルテシステムは譲渡後に新たな医療サービスを展開するとした。譲渡側の具体的な理由は公表されていない。サービスは継続。",
+    "sources": [
+      "https://www.phchd.com/jp/phc/news/2021/0222_2",
+      "https://www.phchd.com/jp/phc/news/2021/0401",
+      "https://xirapha.jp/news202102220001/",
+      "https://xirapha.jp/news202304010001/",
+      "https://prtimes.jp/main/html/rd/p/000000004.000107062.html",
+      "https://www.marr.jp/genre/topics/news/entry/27407"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-495725fa",
+    "name": "病院経営可視化ツール「APOLLO HCX」",
+    "company": "アポロテクノロジーズ株式会社",
+    "companyId": "9290001064750",
+    "category": "medical-management-support",
+    "description": "レセプトデータを軸に、会計ソフトやSPDなど院内のデータを統合して病院の経営状況を可視化する医療経営サポートシステム。保険診療を行う医療機関に月額で提供。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2021-04",
+        "text": "電子カルテ事業をPHCへ譲渡し、新たな医療サービスへ転換"
+      },
+      {
+        "date": "2022-01",
+        "text": "クアッガテクノロジーズを経てアポロテクノロジーズに商号変更"
+      },
+      {
+        "date": "2026-04",
+        "text": "本店移転を登記。製品サイトは公開されているが、会社サイトは2026年10月時点で503エラー"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "製品サイトは公開されており、終了の告知はない。会社サイトの停止や厚生年金適用事業所の登録がないことから活動状況は確認できない。",
+    "sources": [
+      "https://apollo-hcx.jp/",
+      "https://initial.inc/companies/A-26521",
+      "https://www.firstcvc.jp/company/apollo-tech.jp",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9290001064750"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-20c89c27",
+    "name": "1分子DNAシークエンサー「Quantum Sequencing」の開発",
+    "company": "クオンタムバイオシステムズ株式会社",
+    "companyId": "7120901032172",
+    "category": "medical-device",
+    "description": "大阪大学の1分子電流計測によるDNA解析技術をもとに、ナノ電極を集積した半導体チップで高精度・低コストにDNAを読む次世代シークエンサーを開発していた大学発ベンチャー。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "終了",
+    "startedAt": "2013-01",
+    "endedAt": "2021-08",
+    "milestones": [
+      {
+        "date": "2013-01",
+        "text": "大阪大学・川合知二特任教授、谷口正輝教授らの研究成果をもとに設立"
+      },
+      {
+        "date": "2015-02",
+        "text": "産業革新機構が最大33億円の出資を決定（実投資額は約15億円）"
+      },
+      {
+        "date": "2021-08",
+        "text": "8月27日の株主総会で解散を決議。一部の知的財産権をシークエンサー関連企業に譲渡"
+      },
+      {
+        "date": "2022-04",
+        "text": "清算結了"
+      }
+    ],
+    "endReasons": [
+      "evidence"
+    ],
+    "endReasonNote": "INCJは、新技術の開発に時間を要し事業化に至らなかったため、一部の知的財産権をシークエンサー関連企業に譲渡したうえで解散することになったと公表した。開発の途中で研究開発拠点をシリコンバレーに移し、米半導体企業とチップを共同開発していた。",
+    "lessons": "半導体プロセスを使う装置の開発は期間と資金が膨らみやすく、製品化の前に事業を続けられなくなった例とみられる。",
+    "sources": [
+      "https://cdn.prod.website-files.com/69433cc0fd2eb11897468c8a/69e09efa0b68130a38a4d10d_PressRelease_INCJ_QuantumBiosystems_20210831.pdf",
+      "https://www.nikkan.co.jp/articles/view/00612073",
+      "https://bio.nikkeibp.co.jp/atcl/news/p1/21/08/31/08572/",
+      "https://www.sanken.osaka-u.ac.jp/socialinnovation/spin_off.html",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=7120901032172"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f49cc32f",
+    "name": "オンラインカウンセリング「cotree（コトリー）」・法人向け「cotree for Biz」",
+    "company": "株式会社cotree",
+    "companyId": "8011001100136",
+    "category": "mental-health",
+    "description": "臨床心理士・公認心理師などのカウンセラーにビデオ通話やテキストで相談できる個人向け有料オンラインカウンセリング。企業・保険会社向けに従業員や契約者の相談窓口としても提供。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "統合",
+    "startedAt": "2014-10",
+    "endedAt": "2025-03",
+    "successor": "株式会社JMDC（cotreeとして継続）",
+    "milestones": [
+      {
+        "date": "2014-10",
+        "text": "サービス開始"
+      },
+      {
+        "date": "2017-03",
+        "text": "登録カウンセラー70人強"
+      },
+      {
+        "date": "2020-09",
+        "text": "登録カウンセラー180人以上、会員約3万人"
+      },
+      {
+        "date": "2021-06",
+        "text": "JMDCグループに参画"
+      },
+      {
+        "date": "2022-10",
+        "text": "話す・書くカウンセリングの累計利用が11万件を突破"
+      },
+      {
+        "date": "2024-11",
+        "text": "三井住友海上あいおい生命の「MSAケア」に導入"
+      },
+      {
+        "date": "2025-03",
+        "text": "親会社JMDCに吸収合併。サービスはJMDCが継続"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "JMDCが完全子会社を簡易・略式合併で吸収したもので、サービスは終了していない。合併は2024年12月に適時開示された。",
+    "sources": [
+      "https://www.jmdc.co.jp/news/news2024/news20241223/",
+      "https://cotree.co/posts/20220111",
+      "https://marketingnative.jp/cotree/",
+      "https://news.nicovideo.jp/watch/nw11646843",
+      "https://www.projectdesign.jp/201703/healthcare/003471.php",
+      "https://cotree.co/company"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-14400929",
+    "name": "一般消費者向け遺伝子検査「MYCODE（マイコード）」",
+    "company": "株式会社DeNAライフサイエンス",
+    "companyId": "6011001099437",
+    "category": "simple-inspection",
+    "description": "自宅で採った唾液を郵送すると、疾病リスクや体質など最大280項目の遺伝的傾向がわかる消費者向け遺伝子検査。研究同意者のデータでゲノム研究「MYCODE Research」も行った。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "終了",
+    "startedAt": "2014-08",
+    "endedAt": "2024-09",
+    "successor": "株式会社アルム（研究事業「MYCODE Research」のみ承継）",
+    "milestones": [
+      {
+        "date": "2014-04",
+        "text": "DeNAがヘルスケア新会社DeNAライフサイエンスを設立。東京大学医科学研究所と共同研究"
+      },
+      {
+        "date": "2014-08",
+        "text": "MYCODEの提供を開始"
+      },
+      {
+        "date": "2015-08",
+        "text": "がん38項目の「がんパック」を追加し、管理栄養士の有料相談など検査後サポートを拡充"
+      },
+      {
+        "date": "2018-12",
+        "text": "検査結果の更新や専門家セミナーなど継続利用を促す施策を発表"
+      },
+      {
+        "date": "2024-06",
+        "text": "サービス終了を告知"
+      },
+      {
+        "date": "2024-09",
+        "text": "9月30日でサービス終了・公式サイト閉鎖。研究事業はグループのアルムに承継"
+      },
+      {
+        "date": "2024-12",
+        "text": "会社が解散し、清算結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了告知では理由を説明していない。DeNAグループ側は日経バイオテクの取材に、遺伝子検査は「SNP解析から全ゲノム解析の時代に」移るとの見方を示し、研究事業だけをアルムに移した。",
+    "lessons": "消費者向け遺伝子検査は基本的に一度受ければ済む単発の購入で、検査後の継続利用をつくる施策を重ねても事業として続けにくかったとみられる。",
+    "sources": [
+      "https://mycode.jp/",
+      "https://dena.com/jp/news/136/",
+      "https://dena.com/jp/news/2640/",
+      "https://dena.com/jp/news/3650a/",
+      "https://gamebiz.jp/news/393473",
+      "https://bio.nikkeibp.co.jp/atcl/news/p1/25/02/13/12956/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001099437"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-be9f0e15",
+    "name": "肝臓MRI読影支援AI「Cal.Liver.Lesion」など医療AI",
+    "company": "HACARUS",
+    "companyId": "4130003003669",
+    "category": "diagnostic-support",
+    "description": "少量データで学習できるスパースモデリングを使い、神戸大学と共同研究した肝臓EOB造影MRIの病変抽出AIを管理医療機器として製造。独占販売はバイエル薬品が担った。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "不明",
+    "startedAt": "2023-04",
+    "milestones": [
+      {
+        "date": "2014",
+        "text": "京都で創業。当初はヘルスケアアプリを開発し、その後AI事業へ転換"
+      },
+      {
+        "date": "2019",
+        "text": "バイエル薬品の「G4A Tokyo Dealmaker 2019」に採択され協業開始"
+      },
+      {
+        "date": "2020-05",
+        "text": "神戸大学と肝細胞がんのMRI画像解析・診断支援AIの共同研究を開始"
+      },
+      {
+        "date": "2022-02",
+        "text": "第二種医療機器製造販売業許可を取得"
+      },
+      {
+        "date": "2023-04",
+        "text": "「Cal.Liver.Lesion」の情報提供活動を開始（認証番号304AGBZX00095000）。子宮頸がん検査支援AIも開発"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "現在の公式サイトは製造業の外観検査や建設現場向けAIが中心で、医療事業の記載が見当たらない。医療事業の終了・移管の告知は確認できず、理由も公表されていない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000080.000026090.html",
+      "https://hacarus.com/ja/press-release/20220216/",
+      "https://hacarus.com/ja/press-release/2023-09-22-news/",
+      "https://hacarus.com/ja/case-study/2020-kobe-univ/",
+      "https://hrnote.jp/contents/b-contents-editorial-hacarus-0628/",
+      "https://hacarus.com/ja/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-51862041",
+    "name": "保険外リハビリ施設「脳梗塞リハビリセンター」",
+    "company": "株式会社ワイズ",
+    "companyId": "9010001158489",
+    "category": "home-medical",
+    "description": "保険診療のリハビリ期限（150日ルール）を過ぎた脳梗塞など脳血管疾患の後遺症の人に、理学療法士らが1対1の集中リハビリを自費で提供する施設を全国に展開。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "譲渡",
+    "startedAt": "2014",
+    "endedAt": "2024-10",
+    "successor": "株式会社MEDIROM Rehab Solutions（メディロム子会社）",
+    "milestones": [
+      {
+        "date": "2014-02",
+        "text": "株式会社ワイズ設立"
+      },
+      {
+        "date": "2017-06",
+        "text": "エムスリーを割当先に約1億円の第三者割当増資"
+      },
+      {
+        "date": "2018-08",
+        "text": "エムスリーが株式を買い増し子会社化（取得対価15.2億円、売上高6.4億円・営業利益0.04億円）"
+      },
+      {
+        "date": "2020-11",
+        "text": "他社との業務提携で保険外リハビリ最大手として展開"
+      },
+      {
+        "date": "2024-07",
+        "text": "メディロムの子会社が全事業（全国10店舗）の譲受を決議"
+      },
+      {
+        "date": "2024-10",
+        "text": "MEDIROM Rehab Solutionsが運営を開始。ワイズは2025年12月に清算結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "譲受側のメディロムは、在宅リハビリシステムの開発など自社サービスとの組み合わせを目的に挙げたが、ワイズ・エムスリー側の譲渡理由は公表されていない。",
+    "sources": [
+      "https://www.koureisha-jutaku.com/20170614_01_3/",
+      "https://corporate.m3.com/ir/release/2018/pdf/20180830_01J.pdf",
+      "https://maonline.jp/news/20180830b",
+      "https://medirom.co.jp/news/bejvmg4kxvkx",
+      "https://prtimes.jp/main/html/rd/p/000000210.000016099.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001158489"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2ac35a58",
+    "name": "鍼灸整骨院・通所介護（デイサービス）事業",
+    "company": "株式会社ワイズ",
+    "companyId": "9010001158489",
+    "category": "nursing",
+    "description": "脳梗塞リハビリセンターと並行して運営していた、自費・保険の施術を行う鍼灸整骨院と、介護保険の通所介護（デイサービス）事業所。高齢者や地域住民向けの店舗型サービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2022-01",
+    "successor": "株式会社ベストケアー",
+    "milestones": [
+      {
+        "date": "2022-01",
+        "text": "鍼灸整骨院3店舗と通所介護事業所3店舗をベストケアーへ譲渡することを決定"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "譲渡の理由は公表されていない。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20220114_2413-15/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1c087052",
+    "name": "トイレ後付け型の尿分析デバイスによる健康チェック「スマート体調チェック」",
+    "company": "サイマックス株式会社",
+    "companyId": "4011801029058",
+    "category": "simple-inspection",
+    "description": "既存の便器に後付けしたセンサーで用を足すたびに尿成分を自動分析し、スマホアプリで体調や生活習慣病リスクを確認できる家庭・介護施設向けサービスを開発。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2025-04",
+    "milestones": [
+      {
+        "date": "2015-11",
+        "text": "医療カンファレンス「Health 2.0 Asia」のスタートアップピッチで優勝"
+      },
+      {
+        "date": "2016-03",
+        "text": "日経・Forbes JAPANが鶴岡マリア社長と事業を紹介"
+      },
+      {
+        "date": "2017-08",
+        "text": "福岡市・福岡地域戦略推進協議会・NTTフィールドテクノと一般家庭導入モデルの実証を開始"
+      },
+      {
+        "date": "2019",
+        "text": "J-Startupに選定"
+      },
+      {
+        "date": "2019-12",
+        "text": "「スマート体調チェック」としてテレビ東京で紹介"
+      },
+      {
+        "date": "2025-04",
+        "text": "会社が清算結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "会社の清算結了は登記で確認できるが、サービス終了の告知や理由は公表されていない。",
+    "sources": [
+      "https://thebridge.jp/2015/11/health-2-0-asia-pitch-competition-winner-is-symax",
+      "https://www.nikkei.com/article/DGXMZO98502980W6A310C1000000/",
+      "https://forbesjapan.com/articles/detail/11459",
+      "https://newscast.jp/smart/news/0881206",
+      "https://www.tv-tokyo.co.jp/plus/lifestyle/entry/2019/020825.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011801029058"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e2ed03cf",
+    "name": "薬剤師を健康コンサルタントに育成する教育事業",
+    "company": "HMCエデュケーション",
+    "companyId": "2010401115113",
+    "category": "recruting-solutions",
+    "description": "薬剤師など医師以外の医療資格者をネットを活用して健康管理のコンサルタント（ヘルスケアコミュニケーター）として再教育し、活躍の場につなげるプラットフォーム化を目指した教育事業。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "不明",
+    "startedAt": "2015-03",
+    "milestones": [
+      {
+        "date": "2015-03",
+        "text": "薬剤師資格を持つ人を健康関連のコンサルタントに育成する事業を開始（日本経済新聞）"
+      },
+      {
+        "date": "2025-08",
+        "text": "厚生年金の適用事業所が全喪。公式サイトのドメインは登録が消え、Wayback Machineにも記録がない"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "事業の終了や会社の解散の告知は見つからず、理由は公表されていない。",
+    "sources": [
+      "https://www.nikkei.com/article/DGXLZO84694670S5A320C1TJE000/",
+      "https://www.wantedly.com/companies/hmc-e/about",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401115113"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c71b1a44",
+    "name": "郵送型がん・生活習慣病リスク検査キット「おうちでドック」",
+    "company": "ハルメク・ベンチャーズ株式会社",
+    "companyId": "1010001165030",
+    "category": "simple-inspection",
+    "description": "シニア女性誌ハルメクのグループ会社が、自宅で採った数滴の血液と尿を郵送すると、腫瘍マーカーなどでがん・生活習慣病のリスクを判定し医師が結果を説明する検査キットを個人・企業向けに販売。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "不明",
+    "startedAt": "2017-11",
+    "endedAt": "2023-08",
+    "successor": "株式会社ハルメク（吸収合併先）",
+    "milestones": [
+      {
+        "date": "2017-11",
+        "text": "「日本初」の血液・尿の郵送検査と医師説明を一体にしたキットとして発売"
+      },
+      {
+        "date": "2019-04",
+        "text": "在宅リスクチェックサービスとして内容を拡充"
+      },
+      {
+        "date": "2021",
+        "text": "健康診断の血液検査結果を使うリスク評価サービスとのセット販売を開始"
+      },
+      {
+        "date": "2022",
+        "text": "郵送PCR検査「ICheck」の取り扱いを開始。クリエイター向け福利厚生としてforiioと提携"
+      },
+      {
+        "date": "2023-08",
+        "text": "ハルメク・ベンチャーズがグループのハルメクに吸収合併され解散"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "会社はグループ内の合併で消滅した。合併後に「おうちでドック」が継続しているかは確認できず（サービスサイトは接続できない）、終了の告知や理由も見つからない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000028690.html",
+      "https://xtech.nikkei.com/dm/atcl/feature/15/327441/110100264/",
+      "https://prtimes.jp/main/html/rd/p/000000013.000028690.html",
+      "https://www.halmek-holdings.co.jp/news/press/2021/dgipylt9h3/",
+      "https://www.halmek-holdings.co.jp/news/press/2022/zcwymy_0ot/",
+      "https://prtimes.jp/main/html/rd/p/000000072.000034765.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001165030"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4c291626",
+    "name": "ゲノム医療検査・医療機関紹介「G-TAC」／予防総合支援「REXA Wellness」",
+    "company": "REXA株式会社",
+    "companyId": "7010401119794",
+    "category": "simple-inspection",
+    "description": "エムスリーの完全子会社として、医師を介した遺伝子検査など予防・個別化医療の検査とそれを扱う医療機関を紹介し、臨床遺伝専門医による遠隔遺伝カウンセリングも提供した。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "終了",
+    "startedAt": "2015-08",
+    "endedAt": "2022-04",
+    "milestones": [
+      {
+        "date": "2015-08",
+        "text": "エムスリーの全額出資でG-TAC株式会社を設立し、関連検査の紹介サービスを開始"
+      },
+      {
+        "date": "2015-11",
+        "text": "神奈川県の未病産業の市場形成事業に商品が採択"
+      },
+      {
+        "date": "2016-02",
+        "text": "ゲノム医療の検査と実施医療機関を紹介するサイト「G-TAC」を公開"
+      },
+      {
+        "date": "2016-03",
+        "text": "臨床遺伝専門医による遠隔遺伝カウンセリングを開始"
+      },
+      {
+        "date": "2019-03",
+        "text": "REXA株式会社に商号変更し、予防のトータルサポート「REXA Wellness」を展開"
+      },
+      {
+        "date": "2022-04",
+        "text": "清算結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "親会社エムスリーによる清算の理由は公表されていない。",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/REXA",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401119794"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-df4133bb",
+    "name": "心のオンライン相談「Reme（リミー）」",
+    "company": "株式会社リミー",
+    "companyId": "5011001136208",
+    "category": "mental-health",
+    "description": "臨床心理士・精神保健福祉士などの専門家に、匿名でWeb・LINEから24時間相談できるメンタルヘルスサービス。Q&A型の無料サービスから始まり、定額の相談し放題プランや法人向けプランを提供。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015-10",
+    "milestones": [
+      {
+        "date": "2015-10",
+        "text": "株式会社NOMALが臨床心理士に匿名で質問できるQ&Aサービスのβ版を開始"
+      },
+      {
+        "date": "2016-02",
+        "text": "複数の臨床心理士の回答を比較できる機能などを追加"
+      },
+      {
+        "date": "2016-10",
+        "text": "月額500円の相談し放題サービスと法人向けワンコインサービスを開始"
+      },
+      {
+        "date": "2026-10",
+        "text": "「登録会員4万人以上」をうたい、1週間2,970円・月6,380円からの専属カウンセラー制で提供中"
+      }
+    ],
+    "endReasonNote": "サービスサイトは2026年10月時点も公開・募集中で、終了は確認できない。運営会社の情報は海外からのアクセス制限で確認できなかった。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000017515.html",
+      "https://thebridge.jp/2016/02/reme-added-features",
+      "https://www.value-press.com/pressrelease/171342",
+      "https://lp-reme.com/",
+      "https://reme-nomal.com/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-cd8b0b1c",
+    "name": "生理日予測と生理用品購入をLINEで完結するEC「illuminate（イルミネート）」",
+    "company": "株式会社なかよし",
+    "companyId": "7010001165248",
+    "category": "femtech",
+    "description": "LINEアカウント上で生理日を予測し、購入タイミングの提案から生理用品の購入までを完結させるD2C型のECサービス。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "不明",
+    "startedAt": "2019-09",
+    "milestones": [
+      {
+        "date": "2019-09",
+        "text": "LINE連動型ECとして開始（「日本初」とうたう）"
+      },
+      {
+        "date": "2026-08",
+        "text": "サービスのドメインが第三者に取り直されている"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知は見つからず、理由は公表されていない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000048731.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001165248"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-23220188",
+    "name": "小胸向けランジェリーブランド「feast」",
+    "company": "株式会社なかよし",
+    "companyId": "7010001165248",
+    "category": "direct-to-consumer",
+    "description": "AAカップ・アンダー60など、胸の小さい人向けの下着を企画・EC販売したD2Cブランド。創業者ハヤカワ五味氏がSNSで立ち上げ、国内の町工場で生産した。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "譲渡",
+    "startedAt": "2014-07",
+    "endedAt": "2023-07",
+    "successor": "株式会社ブルマーレ",
+    "milestones": [
+      {
+        "date": "2014-07",
+        "text": "SNSで告知して販売開始。想定20着に対し2型で約500件の注文"
+      },
+      {
+        "date": "2021-02",
+        "text": "累計25,000枚を販売し、小胸向けの総合ECにリニューアル。LINEでのオンライン接客を開始"
+      },
+      {
+        "date": "2023-03",
+        "text": "譲渡先の工場でワイヤーブラの販売を開始"
+      },
+      {
+        "date": "2023-07",
+        "text": "大手ブランドのOEMを手がけ中国・ミャンマーに自社工場を持つブルマーレへ事業を譲渡（創業者は経営陣として残る）"
+      }
+    ],
+    "endReasons": [
+      "no-payer",
+      "acquisition"
+    ],
+    "endReasonNote": "創業者は、原価計算を誤った価格設定とSKUの多さで「売れているけど利益が出ない」状態が続き、資材・工賃の高騰で上下8,000円程度でないと成り立たなくなったと説明。自社工場を持つブルマーレに託すことで価格を下げ品質を上げられると判断して譲渡した。",
+    "lessons": "少量多品種のD2Cは、熱量のある顧客がいても原価と価格設計が合わないと事業が続かず、生産基盤を持つ事業者への譲渡が解になった例とみられる。",
+    "sources": [
+      "https://note.com/hayakawagomi/n/nd24feaf24dd1",
+      "https://prtimes.jp/main/html/rd/p/000000002.000048731.html",
+      "https://netkeizai.com/articles/detail/2950",
+      "https://feast.tokyo/policies/legal-notice"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fc5374eb",
+    "name": "卵巣年齢チェックキット「F check」・不妊治療情報サイト「不妊治療net」",
+    "company": "RA株式会社",
+    "companyId": "4010401121407",
+    "category": "femtech",
+    "description": "指先から採った0.1mLの血液を郵送するとAMH値から「卵巣年齢」がわかる自宅用検査キット。個人向けEC・ドラッグストアのほか企業の福利厚生として提供し、不妊治療の情報サイトも運営。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "譲渡",
+    "startedAt": "2019-07",
+    "endedAt": "2022-07",
+    "successor": "株式会社ファミワン",
+    "milestones": [
+      {
+        "date": "2019-07",
+        "text": "「日本初」の自宅で卵巣年齢を測る検査キットとして発売"
+      },
+      {
+        "date": "2020-03",
+        "text": "女性誌「anan」で紹介。トモズでの店頭販売や卵子凍結のGrace Bankとの提携も"
+      },
+      {
+        "date": "2020-04",
+        "text": "企業の福利厚生向けに導入が始まる"
+      },
+      {
+        "date": "2022-07",
+        "text": "妊活支援のファミワンに「F check」と「不妊治療net」を事業譲渡"
+      },
+      {
+        "date": "2022-10",
+        "text": "F TreatmentはRA株式会社に商号変更し和歌山市へ移転"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "事業はファミワンに譲渡され、2026年10月時点もファミワンが販売している（税込21,978円）。譲渡側の理由は公表されていない。",
+    "sources": [
+      "https://www.nikkei.com/article/DGXMZO47190740Q9A710C1XY0000/",
+      "https://japan.cnet.com/article/35139735/",
+      "https://gracebank.jp/news/f-check/",
+      "https://newscast.jp/news/488737",
+      "https://www.nihon-ma.co.jp/news/20220706_1-470/",
+      "https://famione.co.jp/2022/07/08/famione_infographics/",
+      "https://fcheck.famione.com/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-028a4f5f",
+    "name": "会員制医師紹介・看護師相談「clintal（クリンタル）」",
+    "company": "クリンタル",
+    "companyId": "6010401118228",
+    "category": "health-consulting",
+    "description": "25診療科130領域で、症状や疾患に応じて実績ある専門医を会員に紹介する名医紹介サービスと、看護師などに健康相談できるチャットサービス。保険会社の健康アプリなどにも組み込まれた。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "終了",
+    "startedAt": "2015",
+    "endedAt": "2026-03",
+    "milestones": [
+      {
+        "date": "2015",
+        "text": "東京大学医学部卒の医師・杉田玲夢氏が設立"
+      },
+      {
+        "date": "2018",
+        "text": "東洋経済「すごいベンチャー100」に選定"
+      },
+      {
+        "date": "2018-10",
+        "text": "JMDCが株式交換で完全子会社化を発表"
+      },
+      {
+        "date": "2019-04",
+        "text": "JMDCに吸収合併。サービスはJMDCが継続"
+      },
+      {
+        "date": "2021-03",
+        "text": "太陽生命の健康増進アプリに採用"
+      },
+      {
+        "date": "2026-03",
+        "text": "3月31日でサービス提供を終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "JMDCは2026年3月31日でサービスを終了したと告知したが、理由は示していない。",
+    "sources": [
+      "https://www.jmdc.co.jp/news/news20181029/",
+      "https://www.jmdc.co.jp/news/news20190401/",
+      "https://www.jmdc.co.jp/news/news20210329-2/",
+      "https://www.jmdc.co.jp/clintal-notice/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6c25680f",
+    "name": "パーソナルトレーニングジム「LIME PERSONAL GYM」",
+    "company": "Lime",
+    "companyId": "9011001114721",
+    "category": "fitness",
+    "description": "ダイエットやボディメイクを目的に、トレーナーが個別指導するパーソナルジムを運営。現在の同社は美容サロンを主軸に事業を転換している。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2017-02",
+        "text": "株式会社Lime設立"
+      },
+      {
+        "date": "2024-08",
+        "text": "パーソナルトレーナーの求人を掲載"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "会社概要の事業内容は美容・D2C・不動産・福祉となっており、ジム事業の現状や縮小の理由は公表されていない。",
+    "sources": [
+      "https://www.wantedly.com/projects/233507",
+      "https://en-gage.net/lime-fit_saiyo1/work_10216259/",
+      "https://lime-fit.com/companyprofile/about"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-aa85affb",
+    "name": "医師・専門家に相談できるヘルスケアメディア「Doctors Me（ドクターズミー）」",
+    "company": "株式会社アドメディカ",
+    "companyId": "7010401121651",
+    "category": "health-consulting",
+    "description": "医師・薬剤師・カウンセラーなどの専門家に匿名で健康相談できるQ&Aサービスと、専門家が解説する記事メディア。広告収入と、保険会社など法人向けの相談サービス提供で収益化。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "譲渡",
+    "startedAt": "2017",
+    "endedAt": "2023-05",
+    "successor": "株式会社ケアネット（Doctors Meとして継続）",
+    "milestones": [
+      {
+        "date": "2017",
+        "text": "アドメディカが事業譲受を受けて運営を開始"
+      },
+      {
+        "date": "2018-05",
+        "text": "NTTドコモのdメニューへのコンテンツ提供を開始"
+      },
+      {
+        "date": "2019-09",
+        "text": "チューリッヒ生命の契約者向けオンライン健康相談に採用"
+      },
+      {
+        "date": "2021-02",
+        "text": "医療従事者向け情報サイトのケアネットがアドメディカを全株取得し子会社化"
+      },
+      {
+        "date": "2022-03",
+        "text": "相談者が送った患部画像が最大2,000人分、約5年間閲覧可能な状態だったと報道"
+      },
+      {
+        "date": "2023-05",
+        "text": "ケアネットが吸収分割でDoctors Meの広告・医療相談事業を承継。アドメディカ株の70.1%は同社社長に譲渡"
+      },
+      {
+        "date": "2024-02",
+        "text": "残ったアドメディカをELEMENTSが子会社化。アドメディカは2026年6月に清算結了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "ケアネットは、医師と患者をつなぐDoctors Meのプラットフォームが最重要の資産だとして、事業の選択と集中のため医療相談事業だけを自社に取り込み、広告代理店などの残りの事業はアドメディカに任せたと開示した。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000032242.html",
+      "https://www.nikkei.com/article/DGXLRSP518241_T00C19A9000000/",
+      "https://www.yomiuri.co.jp/national/20220328-OYT1T50245/",
+      "http://ke.kabupro.jp/tsp/20230310/140120230303523960.pdf",
+      "https://www2.jpx.co.jp/disc/52460/140120240125519381.pdf",
+      "https://doctors-me.com/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-cf6418bc",
+    "name": "医療機関向けAI・データ解析の共同研究開発",
+    "company": "株式会社ログビー",
+    "companyId": "7011001105508",
+    "category": "medical-data-analytics",
+    "description": "大学病院などと共同で、入院後合併症の予測モデルなど診断支援領域の機械学習研究や、在宅診療の効率化アプリ、AI薬歴作成サービスの開発支援を行う受託型の医療AI事業。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016",
+    "milestones": [
+      {
+        "date": "2015-05",
+        "text": "株式会社ログビー設立"
+      },
+      {
+        "date": "2016",
+        "text": "大学とのAI共同研究を開始"
+      },
+      {
+        "date": "2023-11",
+        "text": "医療情報学連合大会で宮崎大学病院・千葉大学病院などとの研究成果3件を発表"
+      }
+    ],
+    "endReasonNote": "医療関連の事例は公式サイトに掲載されており、終了は確認できない。現在の主力はメーカー向けナレッジ共有やエンジニア向けHRプロダクトで、医療特化ではなくなっている。",
+    "sources": [
+      "https://logbii.com/",
+      "https://logbii.com/case_study/medical-data-infrastructure/",
+      "https://logbii.com/dx/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e2b906bb",
+    "name": "美容整形の写真口コミアプリ「ルクモ（Lucmo）」",
+    "company": "株式会社ティンク",
+    "companyId": "3011001111641",
+    "category": "medical-cosmetic",
+    "description": "美容整形・美容皮膚科の施術を受けた利用者の写真付き口コミを集め、全国のクリニックを検索できる美容医療の口コミ・検索アプリ。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2020-08",
+    "successor": "Healingpaper Co.,Ltd.（韓国、「カンナムオンニ」に統合）",
+    "milestones": [
+      {
+        "date": "2020-08",
+        "text": "利用者約15万人・口コミ約10万件の段階で、韓国の美容医療アプリ「カンナムオンニ」運営のHealingpaperが買収"
+      },
+      {
+        "date": "2021-03",
+        "text": "カンナムオンニの日本での提携クリニックが350院に"
+      },
+      {
+        "date": "2023-11",
+        "text": "ティンクが清算結了"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "Healingpaperは日本展開を加速させるためにルクモを買収したと発表した。ティンク側の売却理由は公表されていない。",
+    "lessons": "国内の美容医療口コミアプリは、資本力のある韓国大手の日本進出の足がかりとして吸収された例とみられる。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000063010.html",
+      "https://www.marr.jp/genre/topics/news/entry/23671",
+      "https://thebridge.jp/2021/03/gangnam-sister-attracts-350-clinics-after-japan-expansion-pickupnews",
+      "https://initial.inc/companies/A-31128",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011001111641"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0df4f31f",
+    "name": "睡眠データによる健康経営支援「O:SLEEP（オースリープ）」",
+    "company": "株式会社FAZOM",
+    "companyId": "1010001180104",
+    "category": "sleep",
+    "description": "従業員がiPhoneを枕元に置いて睡眠を計測し、睡眠衛生に基づくコーチングを受けるアプリと、組織単位で睡眠状況から生産性や休退職リスクを分析する企業向けサービス。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "終了",
+    "startedAt": "2018",
+    "milestones": [
+      {
+        "date": "2016-12",
+        "text": "株式会社O:設立（体内時計に関する事業）"
+      },
+      {
+        "date": "2018-06",
+        "text": "睡眠コーチング・解析サービスとして経産省のIT導入補助金の対象に認定"
+      },
+      {
+        "date": "2019-01",
+        "text": "約2.2億円の資金調達"
+      },
+      {
+        "date": "2019-02",
+        "text": "睡眠データから従業員の休退職率や生産性低下を予測する機能を発表"
+      },
+      {
+        "date": "2021-10",
+        "text": "1on1・目標管理のパフォーマンスマネジメントSaaS「Co:TEAM（コチーム）」を前面に展開"
+      },
+      {
+        "date": "2026-04",
+        "text": "株式会社FAZOMに商号変更し、AI営業支援へ事業の軸を移す"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "O:SLEEPのサイト（o-sleep.com）は会社サイトへ転送されており、サービスの終了時期と理由は公表されていない。会社はマネジメント支援、のちに営業支援へ事業を転換した。",
+    "lessons": "睡眠改善を健康経営として企業に売るモデルから、同じ顧客である人事・管理職向けのマネジメントツールへ軸足を移した例とみられる。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000024852.html",
+      "https://prtimes.jp/main/html/rd/p/000000009.000024852.html",
+      "https://www.nikkei.com/article/DGXMZO41504150Q9A220C1000000/",
+      "https://prtimes.jp/main/html/rd/p/000000051.000024852.html",
+      "https://prtimes.jp/main/html/rd/p/000000066.000024852.html",
+      "https://port.creww.me/startup/29891"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-47a57503",
+    "name": "クリニック向けWEB問診「メルプWEB問診」・患者向けアプリ「メルプ」",
+    "company": "株式会社flixy",
+    "companyId": "6010601050338",
+    "category": "medical-dx",
+    "description": "現役医師が開発した、患者が来院前にスマホで問診を入力し、内容を電子カルテにワンクリックで連携できるクリニック向けWEB問診システム。患者向けアプリやAI受診相談も展開。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "統合",
+    "startedAt": "2016",
+    "endedAt": "2023-07",
+    "successor": "株式会社HERO innovation（JMDCグループ、メルプとして継続）",
+    "milestones": [
+      {
+        "date": "2016",
+        "text": "内科医の吉永和貴氏が設立"
+      },
+      {
+        "date": "2020-04",
+        "text": "JMDC子会社として新型コロナに特化したWEB問診を提供"
+      },
+      {
+        "date": "2021-05",
+        "text": "患者向けアプリ「メルプ」をリリース"
+      },
+      {
+        "date": "2021-11",
+        "text": "導入が通算1,000施設を突破"
+      },
+      {
+        "date": "2023-04",
+        "text": "JMDCグループのHERO innovationによる吸収合併を発表"
+      },
+      {
+        "date": "2023-07",
+        "text": "HERO innovationに吸収合併（7月3日）。メルプ事業は同社が継続し、導入は1,500施設超に"
+      }
+    ],
+    "endReasons": [
+      "acquisition",
+      "parent-strategy"
+    ],
+    "endReasonNote": "JMDCグループ内の再編で、クリニック向けのスマートクリニック化を進めるHERO innovationがメルプ事業を統合した。サービスは継続している。",
+    "sources": [
+      "https://www.jmdc.co.jp/news/news20200413/",
+      "https://www.jmdc.co.jp/news/news20210512/",
+      "https://www.jmdc.co.jp/news/news2021101-2/",
+      "https://prtimes.jp/main/html/rd/p/000000008.000062237.html",
+      "https://www.marr.jp/mainfo/news/entry/43769",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010601050338",
+      "https://monshin.melp.life/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4f0f7dfa",
+    "name": "医師向け薬剤比較・知見プラットフォーム「イシヤク」",
+    "company": "株式会社flixy",
+    "companyId": "6010601050338",
+    "category": "doctor-network",
+    "description": "JMDCグループの薬剤データベースを使い、2万以上の薬剤を専門医コメント付きで比較でき、研究・学会情報も読める医師向けアプリ。製薬企業向けの情報提供の場にもなる。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "統合",
+    "startedAt": "2021",
+    "endedAt": "2023-09",
+    "successor": "アンター株式会社（JMDCグループ、「Antaa」と一体運営）",
+    "milestones": [
+      {
+        "date": "2021",
+        "text": "メルプWEB問診の開発ノウハウを生かしてリリース"
+      },
+      {
+        "date": "2023-03",
+        "text": "ユーザーID数が前年比68%増"
+      },
+      {
+        "date": "2023-07",
+        "text": "アンターがflixyを9月1日付で吸収合併し、イシヤクを医師向けプラットフォーム「Antaa」と一体で運営すると発表。flixy代表はアンターのCPOに"
+      }
+    ],
+    "endReasons": [
+      "acquisition",
+      "parent-strategy"
+    ],
+    "endReasonNote": "アンターは、両社の医師向けサービスを一体化してヘルスケアナレッジのプラットフォームを築くことを合併の目的に挙げた。なお法人番号上のflixyは2023年7月3日にHERO innovationへ合併しており、アンターの発表との関係は公表資料では確認できない。",
+    "sources": [
+      "https://corp.antaa.jp/news/20230728",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010601050338"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f163de1f",
+    "name": "看護師の単発・スポット勤務マッチング「なでしこナース」",
+    "company": "4U Lifecare株式会社",
+    "companyId": "4010001174895",
+    "category": "recruting-solutions",
+    "description": "看護師がスマホで登録し、エリアや時給を見て病院・介護施設の単発・非常勤の仕事を自分で選べるマッチングサービス。「看護師版ウーバー」をうたい、他社向けに同じ仕組みの「カスタムなでしこ」も提供。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "不明",
+    "startedAt": "2017-06",
+    "endedAt": "2022-07",
+    "successor": "ユニファイド・サービス株式会社（親会社に事業統合）",
+    "milestones": [
+      {
+        "date": "2016",
+        "text": "Salesforce日本法人出身の宇陀栄次氏らが設立"
+      },
+      {
+        "date": "2017-06",
+        "text": "「看護師版ウーバー」をうたうサービスとして始動"
+      },
+      {
+        "date": "2018-11",
+        "text": "なでしこナースをベースに他社が人材マッチングを実装できる「カスタムなでしこ」を開始（福井などで提携展開）"
+      },
+      {
+        "date": "2019-08",
+        "text": "シニア人材も含め単発・非常勤・スポットに特化した運営を紹介される"
+      },
+      {
+        "date": "2022-07",
+        "text": "親会社ユニファイド・サービスが6月30日付で事業統合し、7月1日に吸収合併"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "ユニファイド・サービスは体制強化とスケールメリットを生かすための事業統合と説明した。統合後になでしこナースが続いているかは確認できない（サービスサイトは接続できない）。",
+    "sources": [
+      "https://www.nikkei.com/article/DGXMZO17405320X00C17A6000000/",
+      "https://xtech.nikkei.com/dm/atcl/interview/15/072400090/",
+      "https://prtimes.jp/main/html/rd/p/000000005.000034131.html",
+      "https://www.zakzak.co.jp/article/20190821-JUDQBLXMGJJ7ZLQFMY35XVBTHQ/",
+      "https://unisrv.jp/news/20220701.php",
+      "https://startup-db.com/companies/rE5aJP5UYgQGmVbw"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f7281b41",
+    "name": "自家表皮細胞懸濁液移植キット「ReCell」の国内開発・販売",
+    "company": "株式会社インディー・メディカル",
+    "companyId": "8010001172763",
+    "category": "medical-device",
+    "description": "熱傷などの創傷に、患者自身の皮膚から作った細胞懸濁液を噴霧して皮膚を再生させる豪Avita Medicalの医療機器について、日本での独占開発・販売権を取得し、薬事承認と国内導入を目指した。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "統合",
+    "startedAt": "2016-01",
+    "endedAt": "2019-03",
+    "successor": "コスモテック株式会社（エムスリーグループ）",
+    "milestones": [
+      {
+        "date": "2016-01",
+        "text": "Avita MedicalとReCellの日本における独占開発・販売契約を締結"
+      },
+      {
+        "date": "2019-02",
+        "text": "コスモテックがPMDAに製造販売承認を申請（熱傷・白斑など皮膚の修復全般）"
+      },
+      {
+        "date": "2019-03",
+        "text": "コスモテックがインディー・メディカルを子会社化。設立から3年2カ月でのエグジットと紹介される"
+      },
+      {
+        "date": "2022-02",
+        "text": "コスモテックが製造販売承認を取得"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "事業は止まっておらず、心臓血管外科向け販売に強いエムスリーグループのコスモテックに会社ごと買収され、承認取得と販売は同社が担った。創業者は、資金を外部から集めることを条件にAvita社から独占権を得たと説明している。",
+    "lessons": "海外医療機器の国内導入権を取得し、承認申請まで進めて販売網を持つ会社に売却するという、小さく始めて早期に出口をとる型の例とみられる。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000017168.html",
+      "https://www.link-j.org/interview/post-1578.html",
+      "https://cosmotec.com/util/file_download.php?id=57",
+      "https://www.biospace.com/avita-medical-announces-collaboration-with-cosmotec-an-m3-group-company-to-commercialize-the-recell-system-in-japan",
+      "https://nk.jiho.jp/index.php/article/169125"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0f75807a",
+    "name": "健康保険組合向け健康ポイントサイト",
+    "company": "株式会社ヘルスケアマーケティング",
+    "companyId": "9010601050442",
+    "category": "health-insuarance-market",
+    "description": "健康保険組合と組合員向けに、健康行動でポイントがたまる健康ポータルサイトと健康コンテンツを提供し、健保の保健事業として健康増進・疾病予防を支援する事業。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "不明",
+    "startedAt": "2016-10",
+    "endedAt": "2020-01",
+    "successor": "株式会社セルメスタ（吸収合併先。2021年にH.U.ウェルネスへ統合）",
+    "milestones": [
+      {
+        "date": "2016-10",
+        "text": "セルメスタがヘルスケアマーケティングを設立して健康ポータルサイトを現物出資し、EPARKも参加する事業提携を発表。経産省から産業競争力強化法の事業再編計画の認定を受ける"
+      },
+      {
+        "date": "2020-01",
+        "text": "セルメスタに吸収合併され解散"
+      },
+      {
+        "date": "2021-05",
+        "text": "セルメスタがグループ会社と合併し、H.U.ウェルネスに"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "合弁会社として設立され、約3年で出資元のセルメスタに吸収合併された。合併の理由と、その後に健康ポイントサイトが続いているかは公表資料で確認できない。",
+    "sources": [
+      "https://epark.co.jp/alliance/379",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010601050442",
+      "https://www.huwellness.co.jp/blogs/news/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E4%BC%9A%E7%A4%BE%E9%96%93%E3%81%AE%E5%90%B8%E5%8F%8E%E5%90%88%E4%BD%B5%E3%81%AA%E3%82%89%E3%81%B3%E3%81%AB%E5%90%88%E4%BD%B5%E6%96%B0%E4%BC%9A%E7%A4%BE-h-u-%E3%82%A6%E3%82%A7%E3%83%AB%E3%83%8D%E3%82%B9-%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-de09b442",
+    "name": "美容医療SNS「Meily（メイリー）」",
+    "company": "株式会社Meily",
+    "companyId": "5010401135298",
+    "category": "medical-cosmetic",
+    "description": "美容医療の体験談や悩みを利用者同士で共有するSNSアプリ。クリニックの口コミ・検索に加え、一括見積もりやオンラインカウンセリングの機能も提供した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "milestones": [
+      {
+        "date": "2018-12",
+        "text": "エンジェル投資家向け番組で計1,000万円の出資を獲得"
+      },
+      {
+        "date": "2019-01",
+        "text": "NOW、YJキャピタル、East Venturesなどから数千万円規模を調達。投稿は1万件を突破"
+      },
+      {
+        "date": "2023-05",
+        "text": "会社サイトのWayback Machine最終保存。その後ドメインは消滅し、日本のApp Storeでもアプリが見つからない"
+      },
+      {
+        "date": "2026-03",
+        "text": "厚生年金の適用事業所が全喪"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "サービス終了の告知は見つからず、理由は公表されていない。解散・清算の登記もない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000040243.html",
+      "https://techcrunchjapan.com/2019/01/18/meily-fundrasing/",
+      "https://prtimes.jp/main/html/rd/p/000000002.000040243.html",
+      "https://ja.wikipedia.org/wiki/Meily",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010401135298"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-755238d0",
+    "name": "レーダー式見守りセンサー「Tellus」の日本展開",
+    "company": "Tellus You Care合同会社",
+    "companyId": "5011003010897",
+    "category": "nursing",
+    "description": "カメラやマイクを使わず、ミリ波レーダーで高齢者の転倒・睡眠・呼吸・心拍を非接触で見守る機器を、日本の介護施設・家庭向けに展開。介護保険の福祉用具としてレンタル対象にもなった。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "endedAt": "2024-07",
+    "milestones": [
+      {
+        "date": "2020-07",
+        "text": "見守りセンサー「Tellus」が認知症老人徘徊感知器として介護保険の福祉用具貸与の対象に"
+      },
+      {
+        "date": "2023-06",
+        "text": "健康指標の導入で個々の高齢者の危険予兆を把握すると発表"
+      },
+      {
+        "date": "2023-08",
+        "text": "ソースネクストと組み、家庭向け非接触モニタリング「POM」をMakuakeで販売開始"
+      },
+      {
+        "date": "2024-07",
+        "text": "日本法人のTellus You Care合同会社が清算結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "日本法人の清算理由は公表されていない。米本社の製品は日本でソースネクスト経由の販売も行われており、日本での事業自体が止まったかは確認できない。",
+    "sources": [
+      "https://seniorlife-soken.com/archives/20809",
+      "https://prtimes.jp/main/html/rd/p/000000005.000061603.html",
+      "https://sourcenext.co.jp/pressrelease_html/JS/2023/2023080202",
+      "https://forbesjapan.com/articles/detail/65048",
+      "https://www.jetro.go.jp/invest/investment_environment/success_stories/tellusyoucare.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011003010897"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5e8dbe00",
+    "name": "退院調整支援SaaS「KURASERU（クラセル）」",
+    "company": "株式会社KURASERU",
+    "companyId": "1140001107738",
+    "category": "nursing",
+    "description": "病院の医療ソーシャルワーカーやケアマネジャーが、退院後に在宅療養が難しい患者の受け入れ先介護施設を、電話・FAXではなくWeb上で探して調整できる退院調整支援SaaS・マッチングサービス。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "不明",
+    "startedAt": "2018-06",
+    "milestones": [
+      {
+        "date": "2017",
+        "text": "医療ソーシャルワーカーの川原大樹氏が神戸で設立。KOBE Global Startup Gatewayに採択"
+      },
+      {
+        "date": "2018-06",
+        "text": "500 Startups Japanから5,000万円のシード資金を調達し、サービスを本格展開"
+      },
+      {
+        "date": "2019-03",
+        "text": "DBJキャピタル、SMBCベンチャーキャピタルなどからプレシリーズAで1.3億円を調達"
+      },
+      {
+        "date": "2021-01",
+        "text": "前澤ファンドから出資を受け、エリア拡大と入院連携の強化を目指すと発表（最後のプレスリリース）"
+      },
+      {
+        "date": "2025-10",
+        "text": "本店を神戸市のKiPに移転。同月、公式サイトのドメインが消滅"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "法人は存続し人を雇っているが、サービスの現状や縮小の理由は公表されていない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000034871.html",
+      "https://thebridge.jp/2018/06/kuraseru-seed-round-funding",
+      "https://thebridge.jp/2019/03/kuraseru-pre-series-a-round-funding",
+      "https://prtimes.jp/main/html/rd/p/000000007.000034871.html",
+      "https://kobe-investment.jp/interview/06-kuraseru/",
+      "https://www.nikkei.com/article/DGXMZO31554800Y8A600C1LKA000/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1140001107738"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4a93e04f",
+    "name": "歩いて健康と脱炭素を可視化するアプリ「SPOBY」",
+    "company": "株式会社スタジオスポビー",
+    "companyId": "2010401129641",
+    "category": "health-corporate-management",
+    "description": "歩数や徒歩・自転車での移動を記録し、乗り物の代替によるCO2削減量をスコア化する個人向けアプリ。自治体・企業向けに住民や社員の健康状態と脱炭素量を可視化する仕組みとして提供。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2023-04",
+        "text": "CUVEYESからスタジオスポビーに商号変更。企業向け指標「Actrust-Zero」や市民参加型「脱炭素エキデン」を展開"
+      },
+      {
+        "date": "2025-11",
+        "text": "最後のニュース。同月に告知した愛知のイベントは後に「中止」と追記"
+      },
+      {
+        "date": "2025-12",
+        "text": "厚生年金の適用事業所が全喪"
+      },
+      {
+        "date": "2026-02",
+        "text": "Android版アプリが更新される（確認できる最後の動き）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "アプリとサイトは公開されたままで、終了の告知はない。活動停止の理由は公表されていない。",
+    "sources": [
+      "https://spoby.jp/",
+      "https://spoby.jp/news/index.html",
+      "https://play.google.com/store/apps/details?id=com.cuveyes.jp.spoby",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401129641"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-757cb41b",
+    "name": "ドラッグストア・薬剤師向け求人サイト",
+    "company": "ウェルマーケ",
+    "companyId": "3010901041519",
+    "category": "recruting-solutions",
+    "description": "ドラッグストアや薬局で働く薬剤師・登録販売者向けの求人情報サイトを運営していたとされる。サービス名や規模など具体的な内容は公開情報で確認できない。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2018",
+        "text": "会社設立"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "公式サイトは公開が停止されて「Page not found」となっており、事業内容や終了の時期・理由を示す公開情報は見つからない。",
+    "sources": [
+      "https://wellmarket.jp/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010901041519"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2eb13884",
+    "name": "口臭が測れるスマート電動歯ブラシ「NOVENINE SMASH」",
+    "company": "NOVENINE",
+    "companyId": "6120001210860",
+    "category": "dental",
+    "description": "歯科医療の現場から生まれたとうたう、口臭を測定できる電動歯ブラシ。クラウドファンディングで先行販売した消費者向けハードウェア。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "不明",
+    "startedAt": "2021-03",
+    "milestones": [
+      {
+        "date": "2021-03",
+        "text": "Makuakeで先行販売（目標金額50万円）"
+      },
+      {
+        "date": "2022-08",
+        "text": "本店を堺市へ移転"
+      },
+      {
+        "date": "2023-04",
+        "text": "公式ドメインが第三者に取り直され、無関係のサイトへ転送されるように"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "一般販売や事業終了の告知は見つからず、理由は公表されていない。",
+    "sources": [
+      "https://www.makuake.com/project/novenine_smash/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6120001210860"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1f3c5983",
+    "name": "在宅腹膜透析の遠隔管理システム「PD Doctor's Eye」",
+    "company": "METRICA株式会社",
+    "companyId": "5011101083705",
+    "category": "home-medical",
+    "description": "在宅で腹膜透析を行う患者が撮影した出口部の画像などをAIで解析し、病院や訪問看護の医療者が遠隔で状態を確認・指示できるモニタリングシステム。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2018-03",
+        "text": "慶應義塾大学発のIT企業として設立"
+      },
+      {
+        "date": "2021",
+        "text": "日本腹膜透析医学会・日本透析医学会で運用評価を発表（2023年まで）"
+      },
+      {
+        "date": "2021-08",
+        "text": "YMFGキャピタルから出資。都内の病院・訪問看護で運用"
+      }
+    ],
+    "endReasonNote": "公式サイトに掲載が続いており、終了は確認できない。会社は建築図面AIや企業向けAI研修など業種横断の事業が中心になっている。",
+    "sources": [
+      "https://metrica.me/",
+      "https://ymfg-capital.co.jp/2021/08/11/post-426/",
+      "https://tokyo-monodukuri-seeds.jp/corporate/1193",
+      "https://www.city.hino.lg.jp/_res/projects/default_project/_page_/001/030/319/metrica_r7.pdf"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b72c2e5d",
+    "name": "クラウド型医療画像管理システム（PACS）「NOBORI」",
+    "company": "株式会社NOBORI",
+    "companyId": "3010401136240",
+    "category": "medical-image",
+    "description": "テクマトリックスの医療事業部を母体とし、医療画像の保管・閲覧・共有をクラウドで行うPACSを中小規模の医療機関中心に提供。患者向けの画像共有などもクラウド上で展開。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "統合",
+    "startedAt": "2018",
+    "endedAt": "2022-04",
+    "successor": "PSP株式会社（テクマトリックス連結子会社、「NOBORI」として継続）",
+    "milestones": [
+      {
+        "date": "2018",
+        "text": "テクマトリックスの医療事業部を母体に設立"
+      },
+      {
+        "date": "2022-01",
+        "text": "稼働約1,100施設のほぼ全てでクラウド型が稼働。テクマトリックスがオンプレ型PACSのPSPの過半株式を取得し、NOBORIとの合併を発表"
+      },
+      {
+        "date": "2022-04",
+        "text": "PSPに吸収合併。合併後は約2,200施設・国内シェア22%超、三井物産・エムスリーも出資"
+      },
+      {
+        "date": "2024-05",
+        "text": "NOBORI上でDICOMビューアーの全機能を使えるように"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "完全な競合関係だった両社の顧客基盤と技術を補完し、開発を効率化するとともにAIやデータ活用など新サービスを加速させるための合併と説明された。サービスは継続。",
+    "sources": [
+      "https://www.techmatrix.co.jp/ir/upload_file/tdnrelease/3762_20220121570469_P01_.pdf",
+      "https://www.techmatrix.co.jp/nc/news/corp_20220121.html",
+      "https://www.mitsui.com/jp/ja/topics/2022/1242754_13393.html",
+      "https://maonline.jp/news/20220121b",
+      "https://www.newmed.co.jp/gakkai/11368",
+      "https://www.psp.co.jp/service/nobori_cloud.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ae7a0d5a",
+    "name": "深部体温ウェアラブルセンサーと体温データ研究支援",
+    "company": "株式会社MEDITA",
+    "companyId": "4010501041629",
+    "category": "femtech",
+    "description": "へそ周辺の温度から深部体温を推定するウェアラブルセンサーと健康アプリを開発し、基礎体温管理や熱中症対策、企業・研究機関向けの体温データ研究に活用しようとした。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2025-08",
+    "milestones": [
+      {
+        "date": "2018-08",
+        "text": "HERBIOとして第三者割当増資を実施"
+      },
+      {
+        "date": "2020",
+        "text": "企業向けに研究素材としてセンサーの貸し出しを開始"
+      },
+      {
+        "date": "2021-01",
+        "text": "Beyond Next Ventures、Velocity LLPから1.2億円を調達。第二種医療機器製造販売業許可も取得し、センサーの量産を目指す"
+      },
+      {
+        "date": "2021-07",
+        "text": "株式会社MEDITAに社名変更"
+      },
+      {
+        "date": "2025-08",
+        "text": "清算結了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "清算の理由は公表されていない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000037148.html",
+      "https://prtimes.jp/main/html/rd/p/000000010.000037148.html",
+      "https://prtimes.jp/main/html/rd/p/000000012.000037148.html",
+      "https://www.tokyo-sogyo-net.metro.tokyo.lg.jp/interview/2004_01.html",
+      "https://net.keizaikai.co.jp/archives/1517/2",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010501041629"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fe386fa0",
+    "name": "2型糖尿病の治療用アプリ（SMC-01）",
+    "company": "Save Medical",
+    "companyId": "7010001191789",
+    "category": "disease-management-program",
+    "description": "2型糖尿病患者が食事・服薬・運動・体重・血圧を記録し、生活習慣の改善を促す管理指導用アプリ。医療機器（SaMD）として承認を取り、処方されるアプリを目指した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "不明",
+    "startedAt": "2020-08",
+    "milestones": [
+      {
+        "date": "2018-05",
+        "text": "日本医療機器開発機構（JOMDD）系のデジタルヘルス企業として設立"
+      },
+      {
+        "date": "2020-08",
+        "text": "大日本住友製薬（現住友ファーマ）と共同開発契約を結び、HbA1c変化量を主要評価項目とする治験を開始。2022年度の承認取得を目標に"
+      },
+      {
+        "date": "2021-07",
+        "text": "Bonds Investment GroupとSpiral Capitalから資金調達"
+      },
+      {
+        "date": "2024-09",
+        "text": "治験結果が論文として公表され、血糖コントロールに統計的に有意な変化はなかった"
+      }
+    ],
+    "endReasons": [
+      "evidence"
+    ],
+    "endReasonNote": "公表論文は、アプリ群で血糖コントロールに有意な改善が見られず、行動変容を十分に促せなかった可能性やアプリの使用率の低さなどを要因に挙げた。承認申請・開発中止の公式発表は見つからない。",
+    "lessons": "アプリ単体で生活習慣を変え、HbA1cという硬い指標で差を出すことの難しさが表れた例とみられる。",
+    "sources": [
+      "https://www.sumitomo-pharma.co.jp/news/20200803.html",
+      "https://xtech.nikkei.com/atcl/nxt/news/18/08489/",
+      "https://www.link-j.org/interview/post-3149.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11429663/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000083339.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3166101e",
+    "name": "SaMD（プログラム医療機器）の設計開発・QMS構築支援",
+    "company": "Save Medical",
+    "companyId": "7010001191789",
+    "category": "medical-device",
+    "description": "治療用アプリの治験・薬事の経験をもとに、他社のプログラム医療機器の設計開発や日米の規制に対応した品質マネジメント体制づくりを受託・テンプレート販売で支援する事業。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "不明",
+    "startedAt": "2023-07",
+    "milestones": [
+      {
+        "date": "2023-07",
+        "text": "SaMDの設計開発ソリューションの提供を開始"
+      },
+      {
+        "date": "2025-09",
+        "text": "日米規制対応のQMS構築テンプレート「SaMD QMS Starter Kit」を発表（最後の発信）"
+      },
+      {
+        "date": "2026-07",
+        "text": "厚生年金の適用事業所が全喪。公式サイトは閲覧できない"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知はなく、活動停止の理由は公表されていない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000083339.html",
+      "https://prtimes.jp/main/html/rd/p/000000003.000083339.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001191789"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e60a99d2",
+    "name": "ヘルスケア関連コンサルティング・薬剤師等の人材紹介",
+    "company": "株式会社ジー・エル・ティー",
+    "companyId": "5010001192780",
+    "category": "recruting-solutions",
+    "description": "医療・ヘルスケア関連企業向けのコンサルティングと、薬剤師・登録販売者向けの人材紹介などを手がけたとされる。具体的なサービス名は公開情報で確認できない。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2018",
+        "text": "会社設立"
+      },
+      {
+        "date": "2024-05",
+        "text": "公式サイトのWayback Machine最終保存。その後サイトは別事業（火災保険申請）のサイトへ転送"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "法人は存続しているが、ヘルスケア事業の活動や終了の理由を示す公開情報は見つからない。",
+    "sources": [
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001192780",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=5010001192780"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-8f699f01",
+    "name": "健康経営アドバイザー・支援サービス（パフォーマンス・カルテ、M3 Patient Support Program）",
+    "company": "株式会社empheal",
+    "companyId": "1010001199714",
+    "category": "health-corporate-management",
+    "description": "NTTドコモとエムスリーの合弁会社として、企業の従業員の健康状態や生産性をデータで可視化し、課題に応じた施策の提案・実行・評価や健康経営優良法人の認定取得までを企業に有償で支援した。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "終了",
+    "startedAt": "2019-04",
+    "endedAt": "2023-09",
+    "successor": "NTTドコモ・エムスリーの両社グループ（知見を引き継ぎ）",
+    "milestones": [
+      {
+        "date": "2019-02",
+        "text": "ドコモとエムスリーが資本・業務提携し、健康経営支援の新会社設立を発表（出資比率ドコモ51%、エムスリー49%）"
+      },
+      {
+        "date": "2019-04",
+        "text": "株式会社emphealを設立"
+      },
+      {
+        "date": "2021-01",
+        "text": "最適な医療選択を支援する「M3 Patient Support Program」などを企業向けに展開"
+      },
+      {
+        "date": "2023-06",
+        "text": "ドコモが清算を発表"
+      },
+      {
+        "date": "2023-09",
+        "text": "清算結了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "ドコモは、事業環境の変化などにより、当初想定した事業モデルの確立をめざすよりも、emphealで得た知見を両社グループに引き継いで事業展開した方が拡大が見込めると判断したと説明した。両社の資本・業務提携は継続。",
+    "lessons": "大企業同士の合弁は、親会社それぞれの事業で同じ顧客に届けられる場合、独立した事業モデルを作り切る前に親側へ回収されやすいとみられる。",
+    "sources": [
+      "https://corporate.m3.com/ir/release/2019/pdf/20190228_04.pdf",
+      "https://forbesjapan.com/articles/detail/39244",
+      "https://journal.ntt.co.jp/article/6180",
+      "https://www.docomo.ne.jp/info/news_release/2023/06/28_00.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001199714"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-81041567",
+    "name": "指先1滴の郵送型血液検査「ketsuken」・「ketsuken オンライン診療」",
+    "company": "株式会社メディカルフューチャー",
+    "companyId": "2010502020121",
+    "category": "simple-inspection",
+    "description": "自宅で指先から採ったわずかな血液を郵送すると、医療機関と同等精度の血液検査結果がわかる個人向けサービス。保険会社の契約者向けにも提供し、異常値の人が医師の診療を受けられるオンライン診療も付けた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2021",
+        "text": "自宅で完結するPCR検査セットと陽性者向けオンライン診療を提供"
+      },
+      {
+        "date": "2022-10",
+        "text": "三井住友海上あいおい生命と業務提携し、保険契約者に血液検査を提供"
+      },
+      {
+        "date": "2023-02",
+        "text": "検査結果をもとに医師の診療が受けられる「ketsuken オンライン診療」を開始（最後の発信）"
+      },
+      {
+        "date": "2025-07",
+        "text": "厚生年金の適用事業所が全喪。ketsuken.jpは無関係のサイトへ転送"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "サービス終了の告知はなく、理由は公表されていない。解散・清算の登記も確認できない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000014.000024660.html",
+      "https://prtimes.jp/main/html/rd/p/000000015.000024660.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010502020121"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fcb5abba",
+    "name": "マインドフルネス瞑想アプリ「Relook」・企業向けマインドフルネス研修",
+    "company": "Relook株式会社",
+    "companyId": "9010901043682",
+    "category": "mental-health",
+    "description": "睡眠専門医や精神科医が監修した300種類超の瞑想音声を、睡眠・ストレス・集中など場面別に配信する個人向けアプリと、企業向けのマインドフルネス研修。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2021-01",
+    "successor": "株式会社ARETECO HOLDINGS（Relookとして継続）",
+    "milestones": [
+      {
+        "date": "2019",
+        "text": "Relook株式会社設立。精神科医監修の1日10秒マインドフルネスなどのコンテンツを発表"
+      },
+      {
+        "date": "2021-01",
+        "text": "20万ダウンロード突破後にARETECO HOLDINGSのグループに入り、同社に吸収合併。アプリはその後も提供され、累計45万ダウンロード"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "グループ化を経た親会社への合併で、アプリの提供は続いている。合併の詳しい理由は公表されていない。",
+    "sources": [
+      "https://relook.jp/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010901043682",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011001113645"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-8b625ab6",
+    "name": "オンライン健康相談「LINEヘルスケア」",
+    "company": "LINEヘルスケア株式会社",
+    "companyId": "8011101086498",
+    "category": "health-consulting",
+    "description": "LINE上で医師にチャットで健康相談できるサービス。すぐに相談する形式と、後から回答をもらう形式があり、診断や処方はしない健康相談に限った。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "終了",
+    "startedAt": "2019-12",
+    "endedAt": "2023-02",
+    "milestones": [
+      {
+        "date": "2019-12",
+        "text": "β版の提供を開始"
+      },
+      {
+        "date": "2020-02",
+        "text": "新型コロナ流行で相談件数が急増し、月10万件ペースに（4割強がコロナ関連）"
+      },
+      {
+        "date": "2020-03",
+        "text": "経済産業省の健康相談窓口に選定され、無料提供を延長"
+      },
+      {
+        "date": "2022-12",
+        "text": "2023年2月2日での終了を発表。今後はLINEドクターに注力"
+      },
+      {
+        "date": "2023-02",
+        "text": "サービス終了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "LINEヘルスケアは、健康相談を終了してオンライン診療「LINEドクター」に注力すると説明した（Impress Watch報道）。",
+    "lessons": "診療行為を伴わない無料中心の健康相談は、コロナ期に利用が急増しても収益化の道筋が見えにくく、診療へ軸足を移す判断につながったとみられる。",
+    "sources": [
+      "https://corporate.m3.com/press_release/2019/20191219_001525.html",
+      "https://www.itmedia.co.jp/news/article/1912/19/1191219130/",
+      "https://business.nikkei.com/atcl/gen/19/00110/040900015/",
+      "https://thebridge.jp/2020/03/first-call-line-healthcare-selected-by-meti-as-offering-health-consultatoin-desk",
+      "https://www.watch.impress.co.jp/docs/news/1462390.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-eb04532d",
+    "name": "サプリ・OTC医薬品の情報メディア「alloeh」・集中サポートサプリ「doop」",
+    "company": "株式会社アロエ",
+    "companyId": "5011001127462",
+    "category": "direct-to-consumer",
+    "description": "サプリメントやOTC医薬品の情報を扱うWebメディアを運営し、利用実態の消費者調査を公表。ビジネスパーソン向けの集中サポートサプリも自社で発売した。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "不明",
+    "startedAt": "2019",
+    "milestones": [
+      {
+        "date": "2019-04",
+        "text": "株式会社アロエ設立"
+      },
+      {
+        "date": "2020",
+        "text": "サプリメント・OTC医薬品の利用実態に関する消費者調査を毎月公表"
+      },
+      {
+        "date": "2020-03",
+        "text": "集中をサポートするサプリメント「doop」を発売"
+      },
+      {
+        "date": "2020-11",
+        "text": "最後のプレスリリース"
+      },
+      {
+        "date": "2026-01",
+        "text": "alloeh.jpはサーバーの初期ページだけになっている"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "メディア終了の告知はなく、理由は公表されていない。法人は存続している。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000046668.html",
+      "https://prtimes.jp/main/html/rd/p/000000007.000046668.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001127462"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b7b555c1",
+    "name": "LINEで薬剤師に相談できるパーソナル漢方「わたし漢方」",
+    "company": "わたし漢方株式会社",
+    "companyId": "6011001116530",
+    "category": "direct-to-consumer",
+    "description": "LINEで薬剤師・登録販売者に体質や悩みを相談すると、一人ひとりに合う漢方薬を提案し自宅に配送する、月額制のオンライン漢方相談・販売サービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2023-12",
+    "successor": "株式会社AXIS（アイセイ薬局子会社）→2026年8月からVARYTEX株式会社",
+    "milestones": [
+      {
+        "date": "2017",
+        "text": "わたし漢方株式会社設立"
+      },
+      {
+        "date": "2023-01",
+        "text": "薬剤師とLINEで相談し最短翌日発送するサービスとして雑誌で紹介される"
+      },
+      {
+        "date": "2023-12",
+        "text": "アイセイ薬局グループのAXISが事業を譲受。調剤の「治療」に加え「未病」領域を取り込むと説明"
+      },
+      {
+        "date": "2025-03",
+        "text": "AXISのもとでサイトを刷新"
+      },
+      {
+        "date": "2025-08",
+        "text": "わたし漢方株式会社が解散・清算結了"
+      },
+      {
+        "date": "2026-08",
+        "text": "漢方テックのVARYTEXに再び事業譲渡"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "譲受側のアイセイ薬局は、保険薬局の「治療」領域に加えて「未病」領域へ広げるためと説明した。譲渡側の理由は公表されていない。サービスは継続している。",
+    "sources": [
+      "https://www.aisei.co.jp/news/pr/147689816075/",
+      "https://kyodonewsprwire.jp/release/202311293496",
+      "https://news.infoseek.co.jp/article/hanako_353410/",
+      "https://www.kochinews.co.jp/article/detail/837736",
+      "http://www.watashikampo.com/news/260723/",
+      "https://prtimes.jp/main/html/rd/p/000000026.000077291.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001116530"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7cd0cc4d",
+    "name": "歯科分野のWebサイト共同運営（アース製薬との合弁）",
+    "company": "株式会社EH",
+    "companyId": "4010401148037",
+    "category": "dental",
+    "description": "EPARK歯科を運営するエンパワーヘルスケアとアース製薬が折半出資し、口腔衛生の知見や商品と組み合わせた歯科分野のWebサイトを共同運営する合弁事業。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "統合",
+    "startedAt": "2019-09",
+    "endedAt": "2024-03",
+    "successor": "エンパワーヘルスケア株式会社",
+    "milestones": [
+      {
+        "date": "2019-09",
+        "text": "アース製薬50%、エンパワーヘルスケア50%出資（資本金11億円）でアースヘルスケアを設立"
+      },
+      {
+        "date": "2024-01",
+        "text": "株式会社EHに商号変更"
+      },
+      {
+        "date": "2024-03",
+        "text": "エンパワーヘルスケアに吸収合併され解散"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "合弁の解消と合併の理由は公表されていない。エンパワーヘルスケアは歯科医院の検索・予約サイト「EPARK歯科」の運営を続けている。",
+    "sources": [
+      "https://epark.co.jp/wp2021/wp-content/uploads/20190905.pdf",
+      "https://www.nikkei.com/article/DGXLRSP518510_V00C19A9000000/",
+      "https://corp.earth.jp/jp/ir/library/securities-report/pdf/25_4Q_houkokusyo.pdf",
+      "https://www.empower-hc.com/news/392",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401148037"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-245e3eca",
+    "name": "ADHD・マイノリティ向けAIフレンド「Nao.」「Ashley」・コミュニティアプリ「weBelong」",
+    "company": "HoloAsh.Inc",
+    "companyId": "1700150099389",
+    "category": "mental-health",
+    "description": "ADHD当事者の創業者が、発達障害やLGBTQなど「違い」を抱える人の孤独に寄り添うAIチャットフレンドと、10代マイノリティ向けのコミュニティアプリを開発した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "milestones": [
+      {
+        "date": "2018-02",
+        "text": "ADHD向けプロダクトの開発資金をクラウドファンディングで募集"
+      },
+      {
+        "date": "2018-10",
+        "text": "アクセンチュア ヘルステック イノベーション チャレンジに登壇"
+      },
+      {
+        "date": "2019-05",
+        "text": "プレシードで資金調達"
+      },
+      {
+        "date": "2021-03",
+        "text": "10代マイノリティ向けコミュニティアプリ「weBelong」で約7,300万円を調達（累計約1億円）"
+      },
+      {
+        "date": "2022-07",
+        "text": "AIチャットフレンドの開発をPlug and Play Japanが紹介"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "公式ドメインは無関係のサイトになり、アプリのドメインも売りに出されているが、終了の告知や理由は公表されていない。",
+    "sources": [
+      "https://thebridge.jp/2018/11/yoshua-kishi-develops-holoash-adhd-solution",
+      "https://prtimes.jp/main/html/rd/p/000000003.000032627.html",
+      "https://thebridge.jp/2021/03/holoash-webelong-pre-seed-round-funding",
+      "https://www.nikkei.com/article/DGXZQODZ102Q00Q1A310C2000000/",
+      "https://japan.plugandplaytechcenter.com/all-insights/blog/2022/07-12-holoash"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-03eb2648",
+    "name": "救急医療情報システム「Smart119」",
+    "company": "株式会社Smart119",
+    "companyId": "9040001104713",
+    "category": "first-aid",
+    "description": "千葉大学発のスタートアップが、指令センター・救急隊・医療機関をタブレットとAIでリアルタイムに結び、受け入れ要請の時間を短くする救急医療情報システムを消防本部・自治体向けに提供。救急需要予測AIや119番映像通報も開発。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "譲渡",
+    "startedAt": "2020-07",
+    "endedAt": "2025-06",
+    "successor": "株式会社アンクス（鹿児島市、Smart119事業部として継続）",
+    "milestones": [
+      {
+        "date": "2018-05",
+        "text": "千葉大学発スタートアップとして設立"
+      },
+      {
+        "date": "2020-07",
+        "text": "千葉市消防局で導入開始（約98万人をカバー）"
+      },
+      {
+        "date": "2024-10",
+        "text": "横浜市で実証事業を開始。千葉県内31消防本部・150医療機関で約800万人をカバー"
+      },
+      {
+        "date": "2025-06",
+        "text": "Smart119事業をアンクスへ譲渡する契約を締結"
+      },
+      {
+        "date": "2026-04",
+        "text": "株式会社Smart119自体もアンクスの子会社に。100自治体への導入を目標に"
+      },
+      {
+        "date": "2026-11",
+        "text": "アンクスのもとで須賀川地方広域消防本部での運用を開始予定"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "事業は終了しておらず、AWSに強い地方IT企業アンクスが自社の地域DX事業に統合することで救急医療の効率化に貢献できると判断して譲り受けた。譲渡側の資金面などの理由は公表されていない。",
+    "sources": [
+      "https://smart119.biz/pr/000727.html",
+      "https://smart119.biz/pr/000734.html",
+      "https://smart119.biz/pr/000739.html",
+      "https://smart119.biz/pr/000741.html",
+      "https://smart119.biz/company/outline.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fcbd5570",
+    "name": "AIヘルスチェックツール「ObotAIヘルスケア」",
+    "company": "株式会社ObotAI",
+    "companyId": "1011001129784",
+    "category": "health-insuarance-market",
+    "description": "多言語AIチャットボットの会社が、健保組合・協会けんぽ・健診機関・企業向けに、スマホの設問回答から健康状態や疾患リスクを示し、オプション検査を提案するAIヘルスチェックを提供。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "不明",
+    "startedAt": "2020-06",
+    "milestones": [
+      {
+        "date": "2020-04",
+        "text": "自治体・医療機関向けに新型コロナ対応の多言語AIチャットボットを無償提供（1カ月半で約4万件の問い合わせ）"
+      },
+      {
+        "date": "2020-06",
+        "text": "「ObotAIヘルスケア」の提供を開始（6言語対応）"
+      },
+      {
+        "date": "2026-10",
+        "text": "サービスサイトは「メンテナンス中」で停止。会社は企業向けAIエージェント受託開発などを展開"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知はなく、サイト停止の理由も公表されていない。会社の事業内容一覧にヘルスケアの記載はない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000044.000036236.html",
+      "https://ascii.jp/elem/000/004/015/4015155/",
+      "https://obotai-healthcare.com/",
+      "https://obot-ai.com/company/",
+      "https://prtimes.jp/main/html/rd/p/000000116.000036236.html"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c240729f",
+    "name": "医療機関向けセミセルフレジ・自動精算機「ハヤレジ」シリーズ",
+    "company": "ハヤレジ株式会社",
+    "companyId": "7120001226716",
+    "category": "medical-dx",
+    "description": "クリニック・歯科・薬局の会計を、電子カルテやレセコンと連携したセミセルフレジや自動精算機で自動化する製品。予約・受付や医療費後払いのサービスも展開。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2025-08",
+    "successor": "GMOヘルステック株式会社（「ハヤレジ byGMO」として継続）",
+    "milestones": [
+      {
+        "date": "2020",
+        "text": "大阪でハヤレジ株式会社設立"
+      },
+      {
+        "date": "2023-12",
+        "text": "セミセルフレジ・自動精算機を看板商品に医療DXを推進すると紹介される"
+      },
+      {
+        "date": "2025-08",
+        "text": "GMOヘルステックに吸収合併され解散"
+      },
+      {
+        "date": "2026-10",
+        "text": "GMOヘルステックがキャッシュレス専用「ハヤレジライト」を追加"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "GMOグループの医療事業をGMOヘルステックに集約する再編で吸収合併された。製品は継続しており、合併の詳しい理由は公表されていない。",
+    "sources": [
+      "https://hayaregi.com/",
+      "https://doctokyo.jp/doc_interview/hayaregi/",
+      "https://gmo-healthtech.com/company/",
+      "https://gmo-healthtech.com/news/2255/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7120001226716"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-76b540f5",
+    "name": "労災保険を使う二次健康診断の導入支援「Wellhealth」",
+    "company": "ウェルヘルス株式会社",
+    "companyId": "8120901047764",
+    "category": "health-corporate-management",
+    "description": "健康診断で所見のあった従業員が、労災保険の二次健康診断等給付を使って追加検査を受けられるよう、企業と医療機関の両方の手続きを一括で支援するサービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2023",
+        "text": "ウェルヘルス株式会社設立"
+      },
+      {
+        "date": "2024-06",
+        "text": "創業約1年半で200社に導入・3万人分のデータを蓄積したとして、エンジェルラウンドから出資を受ける"
+      },
+      {
+        "date": "2026-04",
+        "text": "4月30日開催のセミナーを告知"
+      },
+      {
+        "date": "2026-06",
+        "text": "厚生年金の適用事業所が全喪"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "サービスLPは公開中で終了の告知はなく、活動状況や理由は公表されていない。",
+    "sources": [
+      "https://sogyotecho.jp/news/20240611wellhealth/",
+      "https://wellhealth.tech/lp/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120901047764"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-addec552",
+    "name": "看護師が24時間遠隔で見守る「みまもりナースステーション」",
+    "company": "遠隔みまもり看護株式会社",
+    "companyId": "5290001092557",
+    "category": "home-visit-nursing",
+    "description": "見守りセンサーや対話ロボットを使い、看護師・保健師・助産師がオンラインで24時間365日、独居者や在宅療養者、妊産婦などの健康相談や見守りを行うサービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "milestones": [
+      {
+        "date": "2021",
+        "text": "会社設立"
+      },
+      {
+        "date": "2025-07",
+        "text": "横須賀市と防災協定を結び、合同訓練を実施（ブログの最終更新）"
+      },
+      {
+        "date": "2026-05",
+        "text": "厚生年金の適用事業所が全喪"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "公式サイトは公開中で終了の告知はなく、2025年夏以降の活動や理由は確認できない。",
+    "sources": [
+      "https://m-kango.co.jp/",
+      "https://initial.inc/companies/A-KQGMA",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5290001092557"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d20e8f96",
+    "name": "AI・介護記録ソフト「CareViewer」",
+    "company": "Care Viewer株式会社",
+    "companyId": "7200001032569",
+    "category": "nursing",
+    "description": "介護・障がい福祉の事業所向けに、スマホやタブレットで話すだけで介護記録を作り、計画書作成や家族への共有、介護保険請求までを一本化するクラウドソフト。初期費用ゼロで提供。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "統合",
+    "startedAt": "2020",
+    "endedAt": "2026-05",
+    "successor": "株式会社さくらコミュニティサービス（CareViewerとして継続）",
+    "milestones": [
+      {
+        "date": "2019-03",
+        "text": "AIで介護計画づくりを支援する仕組みを開発中で、2020年春の発売を目指すと紹介"
+      },
+      {
+        "date": "2021-01",
+        "text": "LINE WORKSとの連携を開始"
+      },
+      {
+        "date": "2022-05",
+        "text": "他社IoT機器とのAPI連携を実装し、フィンランドGillieAI社に記録データを提供して状態変化予測を研究"
+      },
+      {
+        "date": "2026-05",
+        "text": "グループの介護事業者さくらコミュニティサービスに吸収合併。CareViewerは同社が継続"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "グループ内の合併で、製品は継続している。合併の理由は公表されていない。",
+    "sources": [
+      "https://www.wantedly.com/companies/company_8208046/post_articles/162186",
+      "https://sakura-cs.com/news/ai%E3%82%B1%E3%82%A2%E3%83%97%E3%83%A9%E3%83%B3%E3%83%BB%E4%BB%8B%E8%AD%B7%E8%A8%98%E9%8C%B2%E3%82%BD%E3%83%95%E3%83%88%E3%80%8Ccareviewer%E3%80%8D%E3%81%A8%E3%80%8Cline-works%E3%80%8D%E3%81%8C/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000099412.html",
+      "https://care-viewer.com/notifications/article/merger-announcement-2026",
+      "https://care-viewer.com/"
+    ],
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a513dd11",
+    "name": "PEACEMIND（オンラインカウンセリング）／ピースマインドEAP",
+    "company": "ピースマインド株式会社",
+    "companyId": "3010001090400",
+    "category": "mental-health",
+    "description": "1998年に個人向けオンラインカウンセリング「PEACEMIND」を始め、2000年から法人向けEAP「@メンタル」（後のピースマインドEAP）に軸足を移した。企業と契約し、従業員のカウンセリング・ストレスチェック・復職支援を提供する。",
+    "hp": "",
+    "startedYear": 1998,
+    "status": "提供中",
+    "startedAt": "1998",
+    "milestones": [
+      {
+        "date": "1998",
+        "text": "前身の有限会社ケイツーコーポレーションを設立し、オンラインカウンセリングサービス「PEACEMIND」を公開（同社は「日本初」と説明）"
+      },
+      {
+        "date": "2000",
+        "text": "法人向けEAPサービス「@メンタル」（後のピースマインドEAP）を開始"
+      },
+      {
+        "date": "2009",
+        "text": "厚生労働省「メンタルヘルス登録相談機関」に登録"
+      },
+      {
+        "date": "2015",
+        "text": "ストレスチェック義務化（改正労働安全衛生法）に合わせてストレスチェックサービスを改修"
+      },
+      {
+        "date": "2019-07",
+        "text": "「ピースマインド株式会社」に商号変更"
+      },
+      {
+        "date": "2024-11",
+        "text": "AIメンタルケアアプリのAwarefyと協業開始"
+      },
+      {
+        "date": "2025-05",
+        "text": "タナベコンサルティンググループと資本業務提携し、同グループの一員に"
+      }
+    ],
+    "endReasonNote": "個人向けのオンラインカウンセリングから始まり、法人向けEAPへ移って続いている。止まった事業ではない。",
+    "lessons": "個人向けで始まった相談サービスが、企業がお金を払うEAPに移って生き残った最初期の例とみられる。",
+    "sources": [
+      "https://www.peacemind.co.jp/company/history",
+      "https://www.peacemind.co.jp/company/info"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-2cbde636",
+    "name": "こころのサポートシステム（電話・面談によるメンタルヘルス相談）",
+    "company": "ティーペック株式会社",
+    "companyId": "2010001023468",
+    "category": "health-consulting",
+    "description": "保険会社・健保・企業の付帯サービスとして、臨床心理士・公認心理師による電話・面談カウンセリングを提供する。電話健康相談「ハロー健康相談24」に並ぶ事業で、加入者・従業員向けのEAPとして売られている。",
+    "hp": "",
+    "startedYear": 2001,
+    "status": "提供中",
+    "startedAt": "2001-04",
+    "milestones": [
+      {
+        "date": "1989-06",
+        "text": "ティーペック設立（電話健康相談が祖業）"
+      },
+      {
+        "date": "1993-04",
+        "text": "「メンタルヘルス相談」を開始"
+      },
+      {
+        "date": "2001-04",
+        "text": "「こころのサポートシステム」発売開始"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "lessons": "保険の付帯サービスとして保険者・企業が払う形が、2010年代以降に出てきたアプリの前から続いている。",
+    "sources": [
+      "https://www.t-pec.co.jp/about/t-ayumi/",
+      "https://www.t-pec.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-59b0d10e",
+    "name": "cotree（オンラインカウンセリング・コーチング）",
+    "company": "株式会社cotree",
+    "companyId": "8011001100136",
+    "category": "mental-health",
+    "description": "臨床心理士・公認心理師など220名以上のカウンセラーにオンラインで相談できるサービス。個人向けに加え、法人・大学・自治体向けのプランで従業員や学生に提供した。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "統合",
+    "startedAt": "2014",
+    "endedAt": "2025-03",
+    "successor": "株式会社JMDC（サービス名cotreeは継続）",
+    "milestones": [
+      {
+        "date": "2014-05",
+        "text": "櫻本真理氏が株式会社cotreeを設立"
+      },
+      {
+        "date": "2022-06",
+        "text": "創業者の櫻本氏が代表取締役を退任し、西岡恵子氏が代表に（報道）"
+      },
+      {
+        "date": "2022-09",
+        "text": "「大学向けプラン」を開始。この時点のプレスリリースはJMDCの企業ページから配信されている"
+      },
+      {
+        "date": "2022-11",
+        "text": "JMDCのヘルスケアプラットフォーム「Pep Up」と連携開始"
+      },
+      {
+        "date": "2023-06",
+        "text": "法人・公共団体・大学向けプランの提供対象者数が39万人を超えたと発表"
+      },
+      {
+        "date": "2024-11",
+        "text": "三井住友海上あいおい生命の「MSAケア」に導入"
+      },
+      {
+        "date": "2025-03",
+        "text": "完全子会社だったcotreeをJMDCが吸収合併。法人は解散し、サービスはJMDCが運営"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "JMDCは合併の目的を、cotreeのサービスとJMDCのコーポレートヘルス向けサービスを組み合わせて企業の健康経営支援を強めるためと説明した。サービス自体は続いている。JMDCの子会社になった時期と経緯は今回確認できなかった。",
+    "lessons": "個人向けのカウンセリングとして始まり、健保・企業向けの基盤を持つデータ会社の中に入ることで法人向けに広がった例とみられる。",
+    "sources": [
+      "https://www.nihon-ma.co.jp/news/20241223_4483-6/",
+      "https://morejob.co.jp/mirai/cotree/",
+      "https://prtimes.jp/main/html/rd/p/000000025.000103500.html",
+      "https://prtimes.jp/main/html/rd/p/000000053.000103500.html",
+      "https://prtimes.jp/main/html/rd/p/000000013.000103500.html",
+      "https://cotree.co/company",
+      "https://strainer.jp/posts/18"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-e7a57a51",
+    "name": "Reme（リミー）匿名オンライン心の健康相談",
+    "company": "株式会社リミー",
+    "companyId": "5011001136208",
+    "category": "mental-health",
+    "description": "メンタルヘルスメディアから始まり、臨床心理士・精神保健福祉士などの専門家にウェブやLINEで匿名相談できるサービス。個人は月額500円で相談し放題、法人には1人月額500円で導入する形だった。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "不明",
+    "startedAt": "2015-10",
+    "milestones": [
+      {
+        "date": "2015-10",
+        "text": "メンタルヘルスメディア「Reme」を公開（2016年10月に1周年と発表）"
+      },
+      {
+        "date": "2016-10",
+        "text": "月額500円の「ワンコイン相談し放題サービス」と法人向けプランを正式開始。24時間受付、LINEからも相談可能、18歳以下は月3回まで無料"
+      },
+      {
+        "date": "2020-10",
+        "text": "株式会社リミー（法人番号5011001136208）が設立登記"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "公式サイト（reme-nomal.com）は2026年10月時点で403エラーとなり、内容を確認できない。サービス終了の告知は見つからず、理由も公表されていない。",
+    "sources": [
+      "https://www.value-press.com/pressrelease/171342",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001136208",
+      "https://houjin.jp/c/5011001136208"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-5c98b735",
+    "name": "HIKARI Labのオンラインカウンセリング（現ココロワークス）",
+    "company": "Hikari Lab",
+    "companyId": "2011101074005",
+    "category": "mental-health",
+    "description": "臨床心理士など国家資格保有者だけが対応するオンラインカウンセリング。個人向けのほか、製薬企業の情報サイトや誹謗中傷対策サービスの相談先としても紹介された。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-09",
+    "milestones": [
+      {
+        "date": "2016-09",
+        "text": "臨床心理士のみのオンラインカウンセリングを開始"
+      },
+      {
+        "date": "2016-11",
+        "text": "臨床心理士によるモーニングコールサービスを開始"
+      },
+      {
+        "date": "2017-02",
+        "text": "うつ当事者向けサービスのリヴァと提携"
+      },
+      {
+        "date": "2021-09",
+        "text": "武田薬品工業「大人の発達障害NAVI」で同社のオンラインカウンセリングが紹介される"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://www.hikarilab.co.jp/news",
+      "https://www.hikarilab.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-f7dc2592",
+    "name": "SPARX日本版（認知行動療法を学ぶRPG）",
+    "company": "Hikari Lab",
+    "companyId": "2011101074005",
+    "category": "mental-health",
+    "description": "ニュージーランドで開発された、思春期のうつ症状向けに認知行動療法を学べるロールプレイングゲームの日本版。個人向けアプリのほか、企業研修や法人向けプランとして提供した。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "不明",
+    "startedAt": "2016-05",
+    "milestones": [
+      {
+        "date": "2016-05",
+        "text": "日本版アプリがApp Storeで公開（販売元表記はSmileBoom）"
+      },
+      {
+        "date": "2017-04",
+        "text": "沖縄での導入が報道される"
+      },
+      {
+        "date": "2017-10",
+        "text": "日本ビジネスシステムズの新入社員研修での導入事例が紹介される"
+      },
+      {
+        "date": "2020-04",
+        "text": "SPARXのランダム化比較試験のプロトコル論文がJMIRに採択"
+      },
+      {
+        "date": "2021-04",
+        "text": "Start&actionからSPARXの法人向けプランを開始"
+      },
+      {
+        "date": "2023-09",
+        "text": "App Store上の最終更新"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "アプリはApp Storeに残っているが、2023年9月以降は更新されていない。終了の告知はなく、現在の提供状況は確認できなかった。",
+    "lessons": "海外で効果が示されたデジタルCBTを日本語化して持ち込んだ早い例。日本でのRCTの結果は今回確認していない。",
+    "sources": [
+      "https://www.hikarilab.co.jp/news",
+      "https://apps.apple.com/jp/app/sparx/id1111456634"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-73a62fc1",
+    "name": "マイシェルパ（オンラインカウンセリング・法人向けメンタルヘルス）",
+    "company": "株式会社マイシェルパ",
+    "companyId": "jp-116",
+    "category": "mental-health",
+    "description": "精神科専門医が設立した会社で、臨床心理士・公認心理師によるオンラインカウンセリングを個人と法人に提供する。法人にはストレスチェック、スポット産業医、研修、休職予防・復職支援をまとめて提供する。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016",
+    "milestones": [
+      {
+        "date": "2016-07",
+        "text": "松本良平氏が株式会社マイシェルパを設立"
+      },
+      {
+        "date": "2026-10",
+        "text": "法人向けの導入事例の発表が続いている（公式サイトのニュース）"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://my-sherpa.co.jp/",
+      "https://my-sherpa.co.jp/company/profile/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-4dcea283",
+    "name": "Holoash／Nao.（ADHDの人向けキャラクター対話）",
+    "company": "HoloAsh.Inc",
+    "companyId": "1700150099389",
+    "category": "mental-health",
+    "description": "自身もADHDを持つ岸慶紀氏が開発した、キャラクターとの会話で自己肯定感を高めることを狙うホログラム端末「Holoash」と、メッセンジャー上のキャラクター対話アプリ「Nao.」。動機づけ面接の考え方を取り入れた。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "終了",
+    "startedAt": "2018",
+    "endedAt": "2021-03",
+    "successor": "同社は10代マイノリティ向けコミュニティ「weBelong」（2021年）、動画アプリ「weCall」（2023年）へ転換",
+    "milestones": [
+      {
+        "date": "2018",
+        "text": "HoloAsh設立。エンジェルラウンドで調達し、ホログラム端末のプロトタイプを開発。キャラクター対話アプリ「Nao.」をiOS・Android向けに公開"
+      },
+      {
+        "date": "2019",
+        "text": "プレシードラウンドで追加調達"
+      },
+      {
+        "date": "2021-03",
+        "text": "約7,300万円をプレシード調達し、事業を10代マイノリティ向けコミュニティアプリ「weBelong」に転換（ピボット）すると発表"
+      },
+      {
+        "date": "2023-04",
+        "text": "weBelongのユーザーの伸び悩みを受け、コラボ動画アプリ「weCall」へ「事実上のピボット」と報道"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2021年の転換時、理由は説明されていない。2023年の報道は、HoloashとweBelongについて「市場評価は悪くなかったが、利益を上げるにはパイが小さすぎたようだ」と記者の見方として書いており、本人の発言としての理由は公表されていない。",
+    "lessons": "当事者が始めた対話型ケアが、課金できる相手を見つけられないまま別の事業へ移った例とみられる。",
+    "sources": [
+      "https://thebridge.jp/2018/11/yoshua-kishi-develops-holoash-adhd-solution",
+      "https://thebridge.jp/2021/03/holoash-webelong-pre-seed-round-funding",
+      "https://thebridge.jp/2023/04/holoash-launches-wecall",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1700150099389"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-28c8eebb",
+    "name": "SELF（AIと話す心のセルフケアアプリ）",
+    "company": "SELF株式会社",
+    "category": "mental-health",
+    "description": "悩み相談や雑談の相手になるAIキャラクターと会話するアプリ。無料で使え、アプリ内課金で収益を得る。同社は法人向けにメンタルケア特化AI「SELF MIND」やチャットボット「SELFBOT」も展開する。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-03",
+    "milestones": [
+      {
+        "date": "2016-03",
+        "text": "App Storeでアプリ公開"
+      },
+      {
+        "date": "2025-12",
+        "text": "App Store上の最終更新（日記・記録機能などを拡充）"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://apps.apple.com/jp/app/self-ai%E3%81%A8%E5%A7%8B%E3%82%81%E3%82%8B%E5%BF%83%E3%81%AE%E3%82%BB%E3%83%AB%E3%83%95%E3%82%B1%E3%82%A2/id998279540",
+      "https://aismiley.co.jp/product/self_built-with-gpt-office/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-727afd56",
+    "name": "emol（AIキャラクター「ロク」と話す感情記録・CBTアプリ）",
+    "company": "emol株式会社",
+    "companyId": "5010501043871",
+    "category": "mental-health",
+    "description": "AIキャラクター「ロク」と会話しながら感情を記録するアプリ。認知行動療法のプログラム、オンラインカウンセリング、オンライン診療まで段階的に広げ、精神疾患向けの治療用アプリの開発も進める。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-03",
+    "milestones": [
+      {
+        "date": "2018-03",
+        "text": "感情記録アプリ「emol」を公開"
+      },
+      {
+        "date": "2019-11",
+        "text": "第三者割当増資で2,000万円を調達"
+      },
+      {
+        "date": "2020-09",
+        "text": "第一生命保険と商品提案のDX化に向けた実証を開始"
+      },
+      {
+        "date": "2021-07",
+        "text": "第一生命グループと協業開始"
+      },
+      {
+        "date": "2022-04",
+        "text": "兵庫医科大学と強迫症の治療用アプリの共同研究を開始"
+      },
+      {
+        "date": "2023-01",
+        "text": "精神疾患向け治療用アプリの臨床研究に向けて資金調達"
+      },
+      {
+        "date": "2025-01",
+        "text": "第三者割当増資で約3.15億円を調達。大塚製薬と精神疾患の診断補助アプリの共同研究契約"
+      },
+      {
+        "date": "2025-04",
+        "text": "CBTに特化したオンラインカウンセリング「emolカウンセリング」を開始"
+      },
+      {
+        "date": "2025-06",
+        "text": "強迫症患者向けCBT支援アプリの探索的治験を開始"
+      },
+      {
+        "date": "2026-04",
+        "text": "オンライン診療「emolドクター」を開始"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "lessons": "無料のセルフケアアプリから、カウンセリング・診療・治療用アプリへと、お金を払う相手（個人・企業・保険診療）を探しながら事業を重ねている。",
+    "sources": [
+      "https://emol.jp/about",
+      "https://emol.jp/news",
+      "https://prtimes.jp/main/html/rd/p/000000001.000043787.html",
+      "https://prtimes.jp/main/html/rd/p/000000010.000043787.html",
+      "https://prtimes.jp/main/html/rd/p/000000026.000043787.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-4a5c6479",
+    "name": "児童向けAIチャットボットによる心のケア・校務支援サービス（emol×NECネッツエスアイ）",
+    "company": "emol株式会社",
+    "companyId": "5010501043871",
+    "category": "mental-health",
+    "description": "GIGAスクール端末で児童がAIチャットボットに気持ちを話し、教職員が管理画面で心の状態の変化を把握する小・中学校向けサービス。NECネッツエスアイが東京学芸大学と実証し、emolがアプリを提供した。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "不明",
+    "startedAt": "2022-12",
+    "milestones": [
+      {
+        "date": "2022-11",
+        "text": "NEC系がAIチャットで子どもの心をケアする実証を小学校で行うと報道"
+      },
+      {
+        "date": "2022-12",
+        "text": "岡山県津山市教育委員会とNECネッツエスアイが津山市立東小学校で実証開始（emolがアプリ提供）"
+      },
+      {
+        "date": "2023-11",
+        "text": "emolが小・中学生向けメンタルヘルスケアの校務支援サービスを発売し、NECネッツエスアイが販売店に"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "発売後の導入数や現在の提供状況は公表情報で確認できなかった。",
+    "lessons": "学校向けは自治体（教育委員会）が払い手になる。2026年にはソフトバンクも同じ構図の「メンタリ」を出している。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000079.000082252.html",
+      "https://prtimes.jp/main/html/rd/p/000000020.000043787.html",
+      "https://emol.jp/news"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-3fd97dad",
+    "name": "Relook（マインドフルネス瞑想アプリ）",
+    "company": "Relook株式会社",
+    "companyId": "9010901043682",
+    "category": "mental-health",
+    "description": "睡眠専門医や精神科医が監修した300種類以上の瞑想音声を配信するアプリ。個人課金のほか、企業向けのマインドフルネス研修も行った。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "統合",
+    "startedAt": "2019-04",
+    "endedAt": "2021-01",
+    "successor": "株式会社ARETECO HOLDINGS（合併先）",
+    "milestones": [
+      {
+        "date": "2019-04",
+        "text": "App Storeでアプリ公開"
+      },
+      {
+        "date": "2021-01",
+        "text": "Relook株式会社がARETECO HOLDINGSに吸収合併され解散"
+      },
+      {
+        "date": "2021-04",
+        "text": "名古屋大学医学部附属病院などのメタボ患者向け探索的研究にアプリを提供"
+      },
+      {
+        "date": "2023-11",
+        "text": "App Store上の最終更新"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "法人はグループ会社に合併されたが、合併の理由は公表されていない。アプリはストアに残っているものの、公式サイトのお知らせは2022年4月が最後で、現在の運営状況は確認できない。",
+    "sources": [
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010901043682",
+      "https://relook.jp/",
+      "https://apps.apple.com/jp/app/id1457868792"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-26c50d62",
+    "name": "Awarefy（アウェアファイ）AIメンタルケアアプリ",
+    "company": "株式会社Awarefy",
+    "companyId": "4010401137031",
+    "category": "mental-health",
+    "description": "認知行動療法やマインドフルネスの手法と大規模言語モデルを組み合わせ、感情記録とAIとの対話でセルフケアを支えるアプリ。個人課金を軸に、EAP企業との協業、法人研修、福祉リワーク施設へ広げている。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-05",
+    "milestones": [
+      {
+        "date": "2020-05",
+        "text": "App Storeでアプリ公開"
+      },
+      {
+        "date": "2021-07",
+        "text": "シードラウンドでANRIから1億円を調達"
+      },
+      {
+        "date": "2023-08",
+        "text": "プレシリーズAで約2.2億円を調達。「Awarefy AI構想」と医療機器アプリの開発・臨床研究に充てると発表"
+      },
+      {
+        "date": "2024-04",
+        "text": "累計50万ダウンロード"
+      },
+      {
+        "date": "2024-11",
+        "text": "EAP大手のピースマインドと協業開始"
+      },
+      {
+        "date": "2024-12",
+        "text": "シリーズAで約4億円を調達"
+      },
+      {
+        "date": "2025-02",
+        "text": "福祉リワーク施設「アウェアファイ リワーク」を開所"
+      },
+      {
+        "date": "2026-09",
+        "text": "法人向け研修「アウェアファイ スクール」を正式開始"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://thebridge.jp/2024/12/awarefy-an-ai-mental-healthcare-startup-raises-400-million-yen-in-series-a-funding",
+      "https://thebridge.jp/2023/08/awarefy-pre-series-a-round-funding",
+      "https://www.awarefy.com/company",
+      "https://www.peacemind.co.jp/company/history",
+      "https://apps.apple.com/jp/app/id1513802951"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-2ca7ede2",
+    "name": "muute（ミュート）AIジャーナリングアプリ",
+    "company": "Nissay MIRAIQA株式会社",
+    "category": "mental-health",
+    "description": "感じたことを日記のように書くと、AIが感情や思考を分析して返すジャーナリングアプリ。個人向けの有料プランに加え、学校向け「muute for School」を展開する。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-12",
+    "milestones": [
+      {
+        "date": "2020-12",
+        "text": "提供開始"
+      },
+      {
+        "date": "2021",
+        "text": "グッドデザイン賞を受賞"
+      },
+      {
+        "date": "2026-04",
+        "text": "累計170万ダウンロード超、「muute for School」は小中高大60校以上に導入。ソフトバンク「だれでもAI」のパートナーサービスに"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000052.000070478.html",
+      "https://apps.apple.com/jp/app/id1512361252"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-3a76ba67",
+    "name": "Upmind（マインドフルネス・自律神経ケアアプリ）",
+    "company": "Upmind株式会社",
+    "category": "mental-health",
+    "description": "自律神経のケア、瞑想、睡眠をうたうマインドフルネスアプリ。個人課金のほか、法人のウェルビーイング支援、アスリート向けメンタルトレーニングを行う。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-07",
+    "milestones": [
+      {
+        "date": "2021-07",
+        "text": "アプリをリリース"
+      },
+      {
+        "date": "2022-04",
+        "text": "東京大学との共同研究を開始（2025年3月まで）"
+      },
+      {
+        "date": "2025-08",
+        "text": "App Store全カテゴリー総合ランキングで1位"
+      },
+      {
+        "date": "2026-07",
+        "text": "累計200万ダウンロードを突破。英語版で2026年内の北米展開を予定"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://ascii.jp/elem/000/004/416/4416865/",
+      "https://apps.apple.com/jp/app/id1565658134"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-af4b9bd8",
+    "name": "MELON（オンライン・マインドフルネス）",
+    "company": "株式会社Melon",
+    "category": "mental-health",
+    "description": "インストラクターがリアルタイムでマインドフルネスを指導する月額制オンラインプログラムと継続支援アプリ。個人向けのほか、法人のセルフマネジメント研修として提供する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2019-04",
+        "text": "株式会社Melonを設立（サービス開始時期は今回確認できず）"
+      },
+      {
+        "date": "2021-01",
+        "text": "コロナ禍の自殺者増加を受け、月額3,500円（税抜）の「MELON ONLINE」を3月まで無料開放"
+      },
+      {
+        "date": "2022-10",
+        "text": "継続サポートアプリをApp Storeで公開"
+      },
+      {
+        "date": "2025-11",
+        "text": "阪急阪神グループのアイテック阪急阪神がシリーズAで出資し業務提携"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://eleminist.com/article/1090",
+      "https://initial.inc/companies/A-34492",
+      "https://www.hanshin.co.jp/press/docs/20251128_itec_Melon.pdf",
+      "https://apps.apple.com/jp/app/id1605116570"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-ff7146dd",
+    "name": "うららか相談室（オンラインカウンセリング）",
+    "company": "株式会社ココドコロ",
+    "companyId": "2011201020908",
+    "category": "mental-health",
+    "description": "臨床心理士・公認心理師など800名以上のカウンセラーに、ビデオ・電話・メッセージで匿名相談できるマッチング型サービス。個人の都度課金に加え、企業・自治体の相談窓口事業も受託する。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-11",
+    "milestones": [
+      {
+        "date": "2019-11",
+        "text": "サービス開始"
+      },
+      {
+        "date": "2021-02",
+        "text": "iOSアプリを公開"
+      },
+      {
+        "date": "2025-12",
+        "text": "精神科医と共同開発した不眠の認知行動療法（CBT-I）プログラムを開始。登録カウンセラー750名以上"
+      },
+      {
+        "date": "2026-05",
+        "text": "カウンセリングを贈れる「カウンセリングギフト」を追加。登録カウンセラー850名以上"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000042.000038743.html",
+      "https://prtimes.jp/main/html/rd/p/000000039.000038743.html",
+      "https://apps.apple.com/jp/app/id1550877965"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-7ffc415b",
+    "name": "Unlace（チャット型オンラインカウンセリング）",
+    "company": "株式会社Unlace（旧株式会社プラグ）",
+    "category": "mental-health",
+    "description": "有資格カウンセラーとテキストチャットでやりとりするマッチング型のオンラインカウンセリング。個人課金のほか、企業の福利厚生として提供し、エムスリーグループと販売提携した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-12",
+    "endedAt": "2024-12",
+    "milestones": [
+      {
+        "date": "2020-01",
+        "text": "株式会社プラグとして設立"
+      },
+      {
+        "date": "2020-12",
+        "text": "サービス開始"
+      },
+      {
+        "date": "2021-07",
+        "text": "株式会社Unlaceに商号変更"
+      },
+      {
+        "date": "2021-08",
+        "text": "デライト・ベンチャーズ、ZVCなどからシードで6,000万円を調達"
+      },
+      {
+        "date": "2021-10",
+        "text": "企業向け福利厚生サービスを開始（エムスリーグループと販売提携）"
+      },
+      {
+        "date": "2021-12",
+        "text": "メッセージをAIで解析して感情を可視化する機能を追加"
+      },
+      {
+        "date": "2022-07",
+        "text": "ZVC、デライト・ベンチャーズ、Scrum Venturesから約2.1億円を調達（累計約3億円）。登録者数は前年同月比約5倍"
+      },
+      {
+        "date": "2023-07",
+        "text": "ロゴを刷新し、「カウンセラーの分身AI」構想と、カウンセラー向け「AIトレーニング（β）」を発表"
+      },
+      {
+        "date": "2024-12",
+        "text": "法人の登記記録が清算結了により閉鎖"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2024年12月6日に清算結了で法人登記が閉鎖された。サービス終了の告知文や理由の説明は見つからなかった（海外のデータベースには2025年3月に事業停止との記載がある）。",
+    "lessons": "累計約3億円を調達し、生成AIへの転換を打ち出した翌年に清算に至った。チャット型カウンセリングの単価と継続率の問題が考えられるが、公表された説明はない。",
+    "sources": [
+      "https://thebridge.jp/2021/08/unlace-seed-round-funding",
+      "https://thebridge.jp/2022/07/unlace-jpy210m-funding",
+      "https://ascii.jp/elem/000/004/145/4145897/",
+      "https://houjin.jp/c/8011001131833",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001131833",
+      "https://app.dealroom.co/companies/unlace"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-bc87b7a8",
+    "name": "Kimochi（公認心理師によるオンラインカウンセリング）",
+    "company": "株式会社remental",
+    "companyId": "5011001145051",
+    "category": "mental-health",
+    "description": "公認心理師の資格を持つカウンセラーと利用者をマッチングするサブスクリプション型のオンラインカウンセリング。個人向け、ペア向け、企業向けの「Kimochi for Business」を展開する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2022-01",
+        "text": "学生起業の株式会社rementalを設立（Kimochiの正確な開始時期は今回確認できず）"
+      },
+      {
+        "date": "2024-06",
+        "text": "女性向け恋愛相談を開始"
+      },
+      {
+        "date": "2024-08",
+        "text": "職場の悩み・メンタル不調へのサポート強化を日本経済新聞が報道"
+      },
+      {
+        "date": "2025-04",
+        "text": "夫婦・カップル・親子向け「Kimochi Pair」を開始"
+      },
+      {
+        "date": "2025-12",
+        "text": "日本サブスクリプションビジネス大賞2025でブロンズ賞"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://remental.co.jp/news",
+      "https://sogyotecho.jp/news/remental-sato-interview/",
+      "https://remental.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-3259ede3",
+    "name": "Smart相談室（法人向け社外相談窓口・EAP）",
+    "company": "株式会社Smart相談室",
+    "companyId": "jp-112",
+    "category": "mental-health",
+    "description": "従業員がメンタル・キャリア・ハラスメントなどの悩みをオンラインで外部の専門家に匿名相談できる、企業向けの社外相談窓口。企業が料金を払うEAP型で、コーチング「Smartマイコーチ」も提供する。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-10",
+    "milestones": [
+      {
+        "date": "2021-02",
+        "text": "SmartHRの100%グループ会社として設立"
+      },
+      {
+        "date": "2021-10",
+        "text": "正式版の提供開始"
+      },
+      {
+        "date": "2026-09",
+        "text": "相談データをもとにした書籍『悩みの統計学』を出版"
+      },
+      {
+        "date": "2026-10",
+        "text": "提供開始5年でユーザー30万人、累計相談5万件を超えたと発表"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "lessons": "人事労務SaaSの顧客基盤を持つ親会社の下で、企業が払うモデルで伸びている。",
+    "sources": [
+      "https://corp.smart-sou.co.jp/news/20261021",
+      "https://herp.careers/careers/companies/smartsou",
+      "https://corp.smart-sou.co.jp/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-c15ab83f",
+    "name": "intellect（企業向けメンタルヘルスアプリ・コーチング）日本展開",
+    "company": "Intellect Japan株式会社（シンガポールIntellect Company Pte. Ltd.の100%子会社）",
+    "category": "mental-health",
+    "description": "アジアで展開するシンガポール発のメンタルヘルスアプリの日本語版。セルフケアプログラム、認定コーチとのチャット・電話コーチング、カウンセリング、ストレスチェックを企業の福利厚生・EAPとして提供する。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-08",
+    "milestones": [
+      {
+        "date": "2022-08",
+        "text": "日本語版アプリと日本語コーチングの提供開始を発表。日本法人を9月に設立予定とした"
+      },
+      {
+        "date": "2025-07",
+        "text": "JR東日本のビジネス創造施設「LiSH」の入居企業（100社以上）向けに提供開始"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "lessons": "海外勢は個人向けアプリではなく、多言語対応を売りに外資系・グローバル企業の従業員向けで入ってきている。",
+    "sources": [
+      "https://ascii.jp/elem/000/004/102/4102717/",
+      "https://kyodonewsprwire.jp/release/202507152145"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-a5932270",
+    "name": "AIカウンセラーアプリ日本語版の実証（台湾Bamboo Technology×Xiberlinc）",
+    "company": "株式会社Xiberlinc（協業先：Bamboo Technology社、台湾）",
+    "category": "mental-health",
+    "description": "台湾のAIカウンセラーアプリを日本語化し、認知行動療法にもとづく対話と音声・脳波による状態把握を日本で検証した。JETROの対内直接投資促進補助事業。企業の従業員支援と自治体向けでの事業化をめざす。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "不明",
+    "startedAt": "2025-08",
+    "milestones": [
+      {
+        "date": "2025-08",
+        "text": "JETRO補助事業として実証を開始。日本語CBT資料の作成、緊急時ホットラインの選定を進める"
+      },
+      {
+        "date": "2025-12",
+        "text": "48名が8週間アプリを使い、事前事後の脳波・質問紙を計測"
+      },
+      {
+        "date": "2026-01",
+        "text": "成果を取りまとめ。日本語CBT資料の作成に想定以上の時間がかかり、アプリ完成と実験開始が遅れたと報告。合同日本法人の設立を検討"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "実証期間（2025年8月〜2026年1月）は終わり、追加実験と統合解析を続けるとしている。製品として日本で提供が始まったかは確認できなかった。",
+    "lessons": "海外のAIカウンセラーを持ち込む場合、日本語の対話例や安全対策（ホットラインへのつなぎ）を作り直す手間が大きいことが公表資料から分かる。",
+    "sources": [
+      "https://www.jetro.go.jp/ext_images/_News/announcement/2025/1bb8d68d3458740c/02jp.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-101402f3",
+    "name": "LINEによるいじめ・自殺相談「ひとりで悩まないで@長野」",
+    "company": "長野県（連携：LINE株式会社、委託：トランスコスモス株式会社・関西カウンセリングセンター）",
+    "category": "health-consulting",
+    "description": "長野県がLINE株式会社と協定を結び、中高生向けにLINEでいじめ・自殺の相談を受けた全国初の試み。相談対応はトランスコスモスと関西カウンセリングセンターに委託した。2018年度からは文部科学省の補助事業として続けた。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017-09",
+    "milestones": [
+      {
+        "date": "2017-08",
+        "text": "長野県とLINE株式会社が連携協定を締結"
+      },
+      {
+        "date": "2017-09",
+        "text": "9月10日〜23日の2週間、17〜21時に試行。アクセス1,579件、対応547件で、前年度1年間の電話相談259件を大きく上回った"
+      },
+      {
+        "date": "2018",
+        "text": "文部科学省の補助事業として夏休み前後の60日間に拡大"
+      },
+      {
+        "date": "2019",
+        "text": "80日間に拡大"
+      },
+      {
+        "date": "2023",
+        "text": "曜日を決めて受け付ける形で継続"
+      }
+    ],
+    "endReasonNote": "続いている。県の報告書は、LINE相談は電話より相談者から伝わる情報が少なく対応に時間がかかることを課題に挙げた。",
+    "lessons": "この試行の件数が、国のSNS相談事業と、SNS相談を受託する民間事業者の市場が生まれるきっかけになったとみられる。",
+    "sources": [
+      "https://www.pref.nagano.lg.jp/kyoiku/kyoiku/shido/sodan/documents/kanren.pdf",
+      "https://internet.watch.impress.co.jp/docs/release/1091972.html",
+      "https://www.pref.nagano.lg.jp/kyoiku/kyoiku/shido/sodan/documents/h30jissigaiyou.pdf",
+      "https://www.pref.nagano.lg.jp/kyoiku/kyoiku/shido/sodan/documents/r1jissigaiyou.pdf",
+      "https://www.pref.nagano.lg.jp/kyoiku/kyoiku/shido/sodan/documents/h30jissihoukokusyo.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-148e266a",
+    "name": "自殺防止SNS相談事業（厚生労働省の補助事業）",
+    "company": "厚生労働省（実施：ライフリンク、東京メンタルヘルス・スクエア、あなたのいばしょ、BONDプロジェクト、チャイルドライン支援センターなどのNPO）",
+    "category": "health-consulting",
+    "description": "厚生労働省の補助を受けたNPOが、LINE・チャット・SNSで自殺防止の相談を受ける事業。利用者は無料で、国の補助金が費用を負担する。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-03",
+    "milestones": [
+      {
+        "date": "2017",
+        "text": "座間市の事件を受け、再発防止策にSNSを活用した相談の強化が盛り込まれる"
+      },
+      {
+        "date": "2018",
+        "text": "2018年度は計9団体で相談延べ22,725件（LINEが19,412件）。相談者の9割超が女性。作業部会でガイドラインを作成"
+      },
+      {
+        "date": "2018-03",
+        "text": "自殺対策強化月間にSNS相談を開始"
+      },
+      {
+        "date": "2025-03",
+        "text": "2024年度は5団体で相談延べ337,338件"
+      }
+    ],
+    "endReasonNote": "続いている。2018年3月は実例が乏しい中で各団体が試行錯誤したと厚労省は記している。",
+    "lessons": "SNS相談の主な払い手は国・自治体の補助金で、民間アプリの払い手（個人・企業）とは別の市場になっている。",
+    "sources": [
+      "https://www.mhlw.go.jp/content/r1g-2-2.pdf",
+      "https://www.mhlw.go.jp/content/001624476.pdf",
+      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/jisatsu/snssoudan.html",
+      "https://www.mhlw.go.jp/mamorouyokokoro/soudan/sns/index.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-d18a8664",
+    "name": "あなたのいばしょ（24時間チャット相談）",
+    "company": "特定非営利活動法人あなたのいばしょ",
+    "category": "health-consulting",
+    "description": "24時間365日、年齢・性別を問わず無料・匿名で使えるチャット相談窓口。海外在住者を含むボランティア相談員が対応し、寄付・助成金と自治体からの受託で運営する。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-03",
+    "milestones": [
+      {
+        "date": "2020-03",
+        "text": "当時慶應義塾大学4年の大空幸星氏がNPOを設立し、チャット相談を開始"
+      },
+      {
+        "date": "2021-03",
+        "text": "初年度の相談は4万2,211件"
+      },
+      {
+        "date": "2022",
+        "text": "2022年度の利用は年間30万件以上（報道）"
+      },
+      {
+        "date": "2025-01",
+        "text": "世界32カ国に約1,000名の相談員、1日最大約3,000件に対応（自治体資料）"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "sources": [
+      "https://www.city.kumamoto.jp/kiji00352838/index.html",
+      "https://www.businessinsider.jp/post-234369",
+      "https://toyokeizai.net/articles/-/581443",
+      "https://toyokeizai.net/articles/-/674662",
+      "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/047/502/250120kodomosoudansitu.pdf",
+      "https://www.mhlw.go.jp/mamorouyokokoro/soudan/sns/index.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-4fe1001d",
+    "name": "横須賀市の傾聴型AIチャット相談（ZIAI実証→「よこすかAIフレンド AIちゃん」）",
+    "company": "横須賀市（実証：株式会社ZIAI、2026年7月からの委託：つながりAI株式会社）",
+    "category": "mental-health",
+    "description": "自治体が市民の悩み相談の入口として、生成AIによる傾聴チャットを24時間・多言語で提供する事業。高リスクの相談は専門職や職員につなぐ。費用は市が負担する。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-10",
+    "milestones": [
+      {
+        "date": "2025-10",
+        "text": "横須賀市がZIAIと連携協定を結び、生成AIによる傾聴相談の実証を開始（日本語・英語。市職員の職場の悩み相談にも使用）"
+      },
+      {
+        "date": "2025-11",
+        "text": "市内の一部小中高校での実証を予定"
+      },
+      {
+        "date": "2026-07",
+        "text": "市の「傾聴型AIによるチャット相談サービス業務委託」をつながりAIが受託し、LINEで「AIちゃん」を開始。高リスク相談は臨床心理士・保健師などが対応し、約100言語に対応"
+      }
+    ],
+    "endReasonNote": "実証から本事業に移った。実証の結果や、受託者がZIAIからつながりAIに替わった経緯は公表情報で確認できなかった。",
+    "lessons": "生成AIの相談は、まず自治体が払い手になる形で実装が進んでいる。",
+    "sources": [
+      "https://www.excite.co.jp/news/article/Prtimes_2025-10-16-128894-478/",
+      "https://www.kanaloco.jp/news/government/article-1218075.html",
+      "https://ascii.jp/elem/000/004/423/4423863/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
+    ]
+  },
+  {
+    "id": "b-071e9a0d",
+    "name": "メンタリ（学校向けAIこころのケア支援）",
+    "company": "ソフトバンク株式会社",
+    "category": "mental-health",
+    "description": "小中高の児童生徒がキャラクター「モフ」とAIチャットで悩みを話し、AIが内容を整理して教師に対応の助言を示す学校向けサービス。いじめアンケートのAI分析も含む。開始後しばらくは効果検証のため無償。",
+    "hp": "",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-08",
+    "milestones": [
+      {
+        "date": "2026-08",
+        "text": "8月27日に提供開始。AIは助言を行わず傾聴と内容整理に特化させ、専門家・精神科医監修の事例を教師に示す設計"
+      }
+    ],
+    "endReasonNote": "提供中。",
+    "lessons": "通信大手の参入。払い手（学校・自治体）は無償期間の後に決まる。",
+    "sources": [
+      "https://www.softbank.jp/corp/news/press/sbkk/2026/20260827_01/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "mental-chat"
     ]
   }
 ]

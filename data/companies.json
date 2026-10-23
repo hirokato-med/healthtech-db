@@ -946,7 +946,7 @@
   },
   {
     "id": "2490001009840",
-    "name": "パシフィックシステム",
+    "name": "パシフィックメディカル",
     "hp": "http://www.pasys.co.jp/",
     "categories": [
       "electronic-health-record"
@@ -963,28 +963,50 @@
     "representatives": [
       "小松広行"
     ],
-    "exit": "閉鎖",
-    "parentCompany": "",
+    "exit": "合併",
+    "parentCompany": "メドレー",
     "relatedCompanies": [],
-    "corporateNumber": "",
-    "corporateNumberUrl": "",
+    "corporateNumber": "1490001005089",
+    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1490001005089",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "overview": "高知県宿毛市に本拠を置く医療情報システム会社。電子カルテなどの開発・販売・導入・サポートを行ってきた。法人情報サイトによれば、1997年設立・小松広行代表の旧パシフィックシステム（法人番号1490001005089）はパシフィックメディカルに商号変更後、2025年10月に閉鎖登記されており、DB登録の法人番号（2490001009840）は2021年4月に旧パシフィックシステムズから現商号へ変更した別法人。公式サイトは確認時接続できず、現在の事業状況は未確認。",
+    "overview": "高知県宿毛市に本拠を置いていた医療情報システム会社。中小病院・有床診療所向けの電子カルテ「MALL」を20年以上開発し、約200施設が利用していた。2020年12月にメドレーが株式の80%を取得して子会社化し、2021年4月にパシフィックメディカルへ商号変更。2025年9月にメドレーへ吸収合併され、MALLはメドレーが提供を続けている（クラウド版「MALLクラウド」）。",
     "sources": [
-      "https://houjin.jp/c/2490001009840",
-      "https://houjin.jp/cities/39208/industries/7"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1490001005089",
+      "https://www2.jpx.co.jp/disc/44800/140120201216435890.pdf",
+      "https://www.nihon-ma.co.jp/news/20250220_4480-13/"
     ],
     "updatedAt": "2026-10",
     "history": [
       {
-        "date": "2025-10",
-        "text": "1997年設立の旧パシフィックシステム（のちパシフィックメディカル）は2025年10月に閉鎖。DBにあった法人番号は別法人のものだったため削除"
+        "date": "2020-12",
+        "text": "メドレーが株式の80%を取得し子会社化すると発表"
+      },
+      {
+        "date": "2021-04",
+        "text": "株式会社パシフィックメディカルに商号変更"
+      },
+      {
+        "date": "2025-09",
+        "text": "メドレーに吸収合併。電子カルテ「MALL」はメドレーが継続"
       }
     ],
     "ended": {
-      "date": "2025-10",
-      "note": "1997年設立。のちにパシフィックメディカルへ商号を変更し、2025年10月に閉鎖した。"
+      "date": "2025-09",
+      "successor": "株式会社メドレー（電子カルテ「MALL」を継続）",
+      "note": "メドレーに吸収合併され法人は消滅。事業はメドレーが引き継いでいる。"
+    },
+    "formerNames": [
+      "パシフィックシステム"
+    ],
+    "aliases": [
+      "パシフィックシステム",
+      "パシフィックメディカル"
+    ],
+    "mergedInto": {
+      "name": "株式会社メドレー",
+      "corporateNumber": "4010401082351",
+      "companyId": "4010401082351"
     }
   },
   {
