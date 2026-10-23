@@ -172,6 +172,10 @@ export type CompanyProfile = {
 };
 
 /** 決算の数字（百万円） */
+/** 資金調達の1回分（金額は百万円。非公表は null） */
+export type FundingRound = { date: string; round?: string; type: string; amount: number | null; investors?: string[]; lead?: string; source: string; note?: string };
+/** 会社ごとの資金調達の記録（rounds は古い順。total は会社が発表した累計） */
+export type Funding = { rounds: FundingRound[]; total?: { amount: number; asOf?: string; note?: string; source: string }; note?: string; checkedAt: string };
 export type Figures = { revenue?: number; operatingIncome?: number; ordinaryIncome?: number; netIncome?: number };
 /** 1回分の決算（決算短信のサマリーから） */
 export type EarningsReport = {

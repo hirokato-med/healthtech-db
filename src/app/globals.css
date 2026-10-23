@@ -875,3 +875,24 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 .esum-fc span { display: block; font-size: 12px; font-weight: 800; color: var(--muted); }
 .esum-fc p { margin: 2px 0 0; font-size: 14.5px; line-height: 1.8; }
 @media (max-width: 600px) { .esum th, .esum td { padding: 10px 10px; } .esum td.v { font-size: 15px; } }
+
+/* 資金調達 */
+.fund-kpi { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 0 0 14px; }
+.fund-kpi > div { padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: #fdf8f1; }
+.fund-kpi span { display: block; font-size: 11.5px; color: var(--muted); }
+.fund-kpi b { display: block; font-size: 20px; font-weight: 900; color: var(--ink); line-height: 1.4; }
+.fund-kpi small { font-size: 11.5px; color: var(--muted); }
+.fund-table td small { display: block; font-size: 11.5px; color: var(--muted); font-weight: 400; margin-top: 2px; }
+.fund-table td .inv { display: inline; }
+.fund-table td .inv:not(:last-of-type)::after { content: '、'; }
+.fund-table td .inv.lead { font-weight: 700; }
+.fund-table td .inv em { font-style: normal; font-size: 10.5px; font-weight: 700; color: #a8661b; background: #fbeedb; border-radius: 4px; padding: 1px 5px; margin-left: 4px; }
+.fund-table tr.ma td { background: #f6f7f9; }
+.fund-rank { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.fund-rank li { display: grid; grid-template-columns: 2em minmax(0, 1fr) auto; gap: 10px; align-items: baseline; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.fund-rank li .n { color: var(--muted); font-weight: 700; text-align: right; }
+.fund-rank li .v { font-weight: 800; white-space: nowrap; }
+.fund-rank li small { display: block; color: var(--muted); font-size: 12px; }
+.fund-bar { height: 6px; border-radius: 3px; background: #d08a2c; margin-top: 4px; }
+.fund-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; }
+@media (max-width: 760px) { .fund-kpi, .fund-cols { grid-template-columns: 1fr; } }

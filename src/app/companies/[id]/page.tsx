@@ -5,8 +5,10 @@ import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { STOPPED, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { STOPPED, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
 import { forecastLabel, forecastOf, money, pct, yoy } from '@/lib/earnings';
+import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
+import { EarningsBars } from '@/components/EarningsBars';
 
 export function generateStaticParams() {
   return getCompanies().map((c) => ({ id: c.id }));
@@ -30,6 +32,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const deals = getPartnerships().filter((p) => myNames.includes(nm(p.from)) || myNames.includes(nm(p.to)));
   const stoppedCount = services.filter((s) => STOPPED.includes(s.status)).length;
   const latestRep = reports[0];
+  const fund = getFundings()[c.id];
+  const fs = fundingSummary(fund);
   const funding = c.totalFunding || (c.history ?? []).filter((h) => /資金調達|第三者割当|億円を調達|調達を実施|出資を受け/.test(h.text)).slice(-1).map((h) => `${h.date?.slice(0, 7).replace('-', '年')}月 ${h.text}`)[0];
   const discl = c.securitiesCode ? getDisclosures().filter((d) => d.companyId === c.id).slice(0, 8) : [];
   const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 6);
@@ -87,9 +91,16 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             <dt>資本</dt><dd>{c.exit === '上場' ? `上場（${c.listedMarket ?? ''}${c.securitiesCode ? `・${c.securitiesCode}` : ''}）` : c.exit}{c.parentCompany ? <small>親会社：{c.parentCompany}</small> : null}</dd>
             {latestRep ? (
               <><dt>業績</dt><dd>売上高 {money(latestRep.current?.revenue)}／営業利益 {money(latestRep.current?.operatingIncome)}<small>{latestRep.label.replace(/（中間期）/, '')}</small></dd></>
+            ) : fs?.total?.kind === '会社発表の累計' ? (
+              <><dt>資金調達</dt><dd><a href="#funding">累計 {money(fs.total.amount)}</a><small>会社発表{fs.total.asOf ? `（${ymJa(fs.total.asOf)}時点）` : ''}・発表 {fs.raises.length}回</small></dd></>
+            ) : fs?.total ? (
+              <><dt>資金調達</dt><dd><a href="#funding">発表 {fs.raises.length}回</a><small>金額が公表された{fs.known.length}回の合計 {money(fs.total.amount)}</small></dd></>
+            ) : fs?.raises.length ? (
+              <><dt>資金調達</dt><dd><a href="#funding">発表 {fs.raises.length}回</a><small>金額は非公表</small></dd></>
             ) : (
               <><dt>資金調達</dt><dd>{funding ? <span className="hmk-fund">{funding}</span> : '—'}</dd></>
             )}
+            {!latestRep && fs?.latest ? <><dt>直近の調達</dt><dd>{ymJa(fs.latest.date)} {roundLabel(fs.latest)}{fs.latest.amount != null ? ` ${money(fs.latest.amount)}` : ''}{fs.latest.lead ? <small>リード：{fs.latest.lead}</small> : null}</dd></> : null}
           </dl>
         </div>
       </section>
@@ -209,6 +220,41 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               </ul>
             </section>
           ) : null}
+
+          {fund && fund.rounds.length > 0 && fs && (
+            <section className="panel" id="funding">
+              <h3>資金調達</h3>
+              <div className="fund-kpi">
+                <div><span>{fs.total?.kind ?? '調達額'}</span><b>{fs.total ? money(fs.total.amount) : '非公表'}</b>{fs.total?.kind === '会社発表の累計' ? fs.total.asOf && <small>{ymJa(fs.total.asOf)}時点</small> : fs.total && <small>{fs.raises.length}回のうち{fs.known.length}回分</small>}</div>
+                <div><span>発表された調達</span><b>{fs.raises.length}回</b>{fs.first && <small>{ymJa(fs.first.date)}〜</small>}</div>
+                <div><span>金額が公表された回</span><b>{fs.known.length}回</b>{fs.sum > 0 && <small>合計 {money(fs.sum)}</small>}</div>
+              </div>
+              {fs.known.length >= 3 && fs.known.length <= 14 && (
+                <EarningsBars title="1回ごとの調達額" color="#d08a2c" points={fs.known.map((r) => ({ label: r.date.slice(2).replace('-', '/'), value: r.amount ?? undefined }))} />
+              )}
+              <div className="earn-wrap">
+                <table className="earn-table fund-table">
+                  <thead><tr><th>時期</th><th>ラウンド</th><th>金額</th><th>引受先</th><th>出典</th></tr></thead>
+                  <tbody>
+                    {[...fund.rounds].reverse().map((r, i) => (
+                      <tr key={i} className={r.round === 'M&A' ? 'ma' : ''}>
+                        <td className="nw">{ymJa(r.date)}</td>
+                        <td className="nw">{roundLabel(r)}{r.round && r.type !== '第三者割当増資' && r.round !== 'M&A' ? <small>{r.type}</small> : null}</td>
+                        <td className="num">{r.amount != null ? money(r.amount) : <span className="muted">非公表</span>}</td>
+                        <td>{(r.investors ?? []).map((n, k) => { const o = findCompanyByName(n.replace(/[（(].*?[)）]/g, '')); const lead = r.lead && investorKey(r.lead) === investorKey(n); return <span key={k} className={`inv${lead ? ' lead' : ''}`}>{o && o.id !== c.id ? <Link href={`/companies/${o.id}/`}>{n}</Link> : n}{lead ? <em>リード</em> : null}</span>; })}{r.note && <small>{r.note}</small>}</td>
+                        <td className="nw"><a href={r.source} target="_blank" rel="noreferrer" className="h-src">出典</a></td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="muted small" style={{ marginTop: 6 }}>
+                会社・引受先の発表（プレスリリース等）で確かめられたものだけを載せています。{fs.total?.kind === '公表額の合計' ? '「公表額の合計」は金額が公表された回だけを足したもので、実際の累計より小さいことがあります。' : ''}
+                {fund.total && <> <a href={fund.total.source} target="_blank" rel="noreferrer">累計の出典</a>{fund.total.note ? `（${fund.total.note}）` : ''}。</>}
+                <Link href="/funding/" className="arrow">資金調達の一覧</Link>
+              </p>
+            </section>
+          )}
 
           {deals.length > 0 && (
             <section className="panel" id="deals">

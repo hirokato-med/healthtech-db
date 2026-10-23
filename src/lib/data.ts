@@ -6,6 +6,7 @@ import { withBase } from './base';
 import type {
   Disclosure,
   EarningsReport,
+  Funding,
   Article, ArticleMeta, ArchiveArticle, Category, Company, MonthlyEpisode, NewsItem, Overseas, Partnership, Person, Service, Theme,
 } from './types';
 
@@ -101,6 +102,9 @@ export const getEarnings = () =>
     const raw = fs.existsSync(path.join(ROOT, 'data', 'earnings.json')) ? read<Record<string, { code: string; reports: EarningsReport[] }>>('earnings.json') : {};
     return Object.fromEntries(Object.entries(raw).map(([id, v]) => [id, [...v.reports].sort((a, b) => b.date.localeCompare(a.date))]));
   });
+/** 資金調達の記録（企業ID → ラウンドの一覧） */
+export const getFundings = () =>
+  memo('fundings', () => (fs.existsSync(path.join(ROOT, 'data', 'fundings.json')) ? read<Record<string, Funding>>('fundings.json') : {}));
 /** 適時開示（新しい順） */
 export const getDisclosures = () =>
   memo('disclosures', () => (fs.existsSync(path.join(ROOT, 'data', 'disclosures.json')) ? read<Disclosure[]>('disclosures.json') : []));
