@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { END_REASONS, STOPPED, getThemes, servicesInTheme } from '@/lib/data';
+import { END_REASONS, STOPPED, getArticles, getThemes, servicesInTheme } from '@/lib/data';
 
 export function generateStaticParams() {
   return getThemes().map((t) => ({ slug: t.slug }));
@@ -28,7 +28,8 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
     .map((s) => ({ s, a: toY(s.startedAt) ?? (s.startedYear ?? null), b: STOPPED.includes(s.status) ? toY(s.endedAt) : NOW }))
     .sort((x, y) => (x.a ?? 9999) - (y.a ?? 9999));
   const dated = items.filter((x) => x.a !== null);
-  const from = Math.floor(Math.min(2010, ...dated.map((x) => x.a as number)));
+  const min = dated.length ? Math.floor(Math.min(...dated.map((x) => x.a as number))) : 2016;
+  const from = (min - 1) - ((min - 1) % 2);
   const span = NOW - from;
   const pct = (y: number) => `${((y - from) / span) * 100}%`;
   const years = Array.from({ length: Math.floor(NOW) - from + 1 }, (_, i) => from + i).filter((y) => y % 2 === 0);
@@ -47,6 +48,9 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
         <p className="lead">{t.lead} 記録 {items.length} 件（うち止まった・統合された事業 {stopped.length} 件）。</p>
         {reasons.length > 0 && <div className="chips" style={{ marginTop: 10 }}>{reasons.map((r) => <span key={r.k} className="chip ghost">{r.label} {r.n}</span>)}</div>}
       </div>
+      {getArticles().filter((a) => t.articles?.includes(a.slug)).map((a) => (
+        <Link key={a.slug} href={`/articles/${a.slug}/`} className="learn-article" style={{ marginBottom: 20 }}><small>解説</small>{a.title}</Link>
+      ))}
 
       <section className="timeline-chart" aria-label="事業の開始と終了の年表">
         <div className="tc-axis">{years.map((y) => <span key={y} style={{ left: pct(y) }}>{y}</span>)}</div>

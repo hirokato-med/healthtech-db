@@ -323,7 +323,47 @@
     "description": "AI栄養士が食事や運動にアドバイスするアプリ。健保・企業の健康経営施策として導入される。",
     "hp": "https://www.linkncom.co.jp/",
     "startedYear": 2017,
-    "status": "提供中"
+    "status": "提供中",
+    "themes": [
+      "phr-employer"
+    ],
+    "sources": [
+      "https://www.wellmira.jp/news/press/1472/",
+      "https://www.wellmira.jp/news/press/977/",
+      "https://calomama.com/news_topics/376/",
+      "https://prtimes.jp/main/html/rd/p/000000122.000018672.html",
+      "https://calomama.com/news_topics/919/"
+    ],
+    "milestones": [
+      {
+        "date": "2020-05",
+        "text": "「カラダかわるNavi」などを統合し「カロママ プラス」に名称変更"
+      },
+      {
+        "date": "2022-05",
+        "text": "個人向け「カロママ」と「カロママ プラス」を統合し、新機能を追加"
+      },
+      {
+        "date": "2022-11",
+        "text": "旧「カロママ」アプリを終了し、カロママ プラスへ移行"
+      },
+      {
+        "date": "2024-01",
+        "text": "ネオスのヘルスケア事業と統合し、テクミラグループに参画"
+      },
+      {
+        "date": "2024-04",
+        "text": "社名をWellmiraに変更"
+      },
+      {
+        "date": "2025-10",
+        "text": "大阪・関西万博向けに提供したPHRサービスを終了し、カロママ プラスへの継続利用を案内"
+      }
+    ],
+    "companyId": "7011101039597",
+    "startedAt": "2020-05",
+    "endReasonNote": "提供中のため該当なし。",
+    "updatedAt": "2026-10"
   },
   {
     "id": "mdv-data",
@@ -415,129 +455,6 @@
       "https://jrct.mhlw.go.jp/latest-detail/jRCT2032200033"
     ],
     "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-56bd6ecb",
-    "name": "電子お薬手帳「harmo」",
-    "company": "harmo株式会社",
-    "companyId": "jp-114",
-    "category": "pharmacy-dx",
-    "description": "ICカードとスマホアプリで調剤履歴を管理する電子お薬手帳。薬局にシステムを導入し、患者はカードかアプリで服薬情報を持ち歩く。ソニーが開発し、のちにシミックグループに承継された。",
-    "hp": "",
-    "startedYear": 2016,
-    "status": "終了",
-    "startedAt": "2016",
-    "endedAt": "2026-09",
-    "successor": "株式会社ファルモ「N-Bridge（eお薬手帳3.0）」へ利用者・薬局を移行",
-    "milestones": [
-      {
-        "date": "2011",
-        "text": "ソニーが川崎市などで試験サービスを開始（約5年間）"
-      },
-      {
-        "date": "2016",
-        "text": "商用サービス化"
-      },
-      {
-        "date": "2019-03",
-        "text": "ソニーがシミックヘルスケアへの吸収分割による事業譲渡で合意（譲渡額100万円と報道）。約850薬局・80医療機関に導入、利用者約30万人"
-      },
-      {
-        "date": "2019-06",
-        "text": "シミックヘルスケアが事業を承継し運営開始"
-      },
-      {
-        "date": "2021-10",
-        "text": "シミックHDが設立したharmo株式会社が営業開始し、事業を担う"
-      },
-      {
-        "date": "2026-03",
-        "text": "harmoおくすり手帳のサービス終了（2026年9月30日）を告知。運営はファルモへ事業譲渡"
-      },
-      {
-        "date": "2026-07",
-        "text": "ファルモがharmo事業の譲受と、N-Bridge（eお薬手帳3.0）への移行を発表。過半数の300店舗以上が移行を申込"
-      },
-      {
-        "date": "2026-09",
-        "text": "harmoおくすり手帳とharmoカードのサービス終了"
-      }
-    ],
-    "endReasons": [
-      "acquisition"
-    ],
-    "endReasonNote": "ソニーからの譲渡時は「医療・ヘルスケア業界や利用者により近いサービスとして社会課題解決型のビジネスを実現するため」と説明された。2026年の終了はファルモへの事業譲渡に伴うもので、harmo側は「より安定したサービスを皆さまに継続してお届けするため」としている。それ以上の理由は公表されていない。",
-    "lessons": "電子お薬手帳は薬局システムとの連携が前提で、運営主体が何度変わっても単独で採算を取るのが難しかった分野とみられる。",
-    "sources": [
-      "https://www.watch.impress.co.jp/docs/news/1176401.html",
-      "https://www.cmicgroup.com/files/user/NewsRelease/Japanese/20190603-2.pdf",
-      "https://kyodonewsprwire.jp/release/202107308374",
-      "https://support.harmo.biz/info/p1725",
-      "https://prtimes.jp/main/html/rd/p/000000037.000049119.html"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-62e398e9",
-    "name": "オンライン診療「LINEドクター」",
-    "company": "LINEヘルスケア株式会社",
-    "companyId": "8011101086498",
-    "category": "telemedicine",
-    "description": "医療機関の検索・予約から、LINEのビデオ通話による診察、決済、処方薬の配送までをLINE上で完結させるオンライン診療サービス。患者は専用アプリなしで受診できた。",
-    "hp": "",
-    "startedYear": 2020,
-    "status": "終了",
-    "startedAt": "2020-12",
-    "endedAt": "2025-06",
-    "successor": "ヘルスケアテクノロジーズ「HELPOドクター」LINE公式アカウントを利用者に案内",
-    "milestones": [
-      {
-        "date": "2020-09",
-        "text": "LINEとエムスリーの合弁LINEヘルスケアがオンライン診療への参入を発表"
-      },
-      {
-        "date": "2020-12",
-        "text": "首都圏の一部医療機関で先行提供を開始"
-      },
-      {
-        "date": "2022-12",
-        "text": "処方薬の配送サービスを全国で開始"
-      },
-      {
-        "date": "2023-01",
-        "text": "エムスリーとの合弁を解消し、LINEの100%子会社に。オンライン服薬指導で日本調剤と連携"
-      },
-      {
-        "date": "2024-01",
-        "text": "2023年度の診療件数が前年比2倍、薬の配送利用者が1年で約10倍と発表"
-      },
-      {
-        "date": "2024-12",
-        "text": "2025年6月での終了を発表。疾患啓発アカウントも順次終了"
-      },
-      {
-        "date": "2025-06",
-        "text": "6月10日に全機能を停止。LINEヘルスケアは全事業が終了し、2026年9月にLINEヤフーへ吸収合併"
-      }
-    ],
-    "endReasons": [
-      "parent-strategy"
-    ],
-    "endReasonNote": "LINEヤフーは、グループ内での重複事業の一本化と中核事業への選択と集中を進める中での決定と説明した。広報は同じソフトバンク傘下のオンライン診療（HELPOドクター）との関係ではなく、LINEヤフー内のリソース集中のためとしている。",
-    "lessons": "利用が伸びていても、巨大プラットフォームの経営統合後の選択と集中で、収益規模の小さい医療事業が切り離される例とみられる。",
-    "sources": [
-      "https://www.lycorp.co.jp/ja/news/release/016530/",
-      "https://www.businessinsider.jp/article/298312/",
-      "https://corporate.m3.com/press_release/2020/20200910_001635.html",
-      "https://www.nikkei.com/article/DGXZQODZ168B40W0A211C2000000/",
-      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t349/202012/568439.html",
-      "https://prtimes.jp/main/html/rd/p/000004107.000001594.html",
-      "https://www.itmedia.co.jp/news/article/2412/11/1241211162/",
-      "https://notice2.line.me/Telemedicine_LHC/web/document/notice?documentId=100011262&lang=ja",
-      "https://www.nihon-ma.co.jp/news/20260701_4689-42/"
-    ],
-    "updatedAt": "2026-10",
-    "themes": []
   },
   {
     "id": "b-6256ff19",
@@ -650,72 +567,6 @@
       "https://macfan.book.mynavi.jp/article/m142811/",
       "https://xtech.nikkei.com/atcl/nxt/column/18/01157/111600074/",
       "https://nichiyaku.or.jp/static/uploads/pr-activity/press/20240229_02-02.pdf"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-804776ad",
-    "name": "患者向けアプリ「おくすり手帳Link」",
-    "company": "株式会社NTTドコモ",
-    "category": "pharmacy-dx",
-    "description": "薬局から調剤情報を受け取り、服薬スケジュールや体調メモを管理できる患者向け電子お薬手帳アプリ。",
-    "hp": "",
-    "startedYear": null,
-    "status": "統合",
-    "endedAt": "2023-09",
-    "successor": "メドレーとドコモが共同運営する「CLINICS」アプリ",
-    "milestones": [
-      {
-        "date": "2021-12",
-        "text": "ドコモとメドレーがオンライン診療アプリ「CLINICS」の共同運営を発表"
-      },
-      {
-        "date": "2022-08",
-        "text": "「おくすり手帳Link」を「CLINICS」アプリへ統合すると告知。薬局向けにはメドレーの「Pharms」導入を推奨"
-      },
-      {
-        "date": "2023-09",
-        "text": "2023年9月30日にCLINICSへ統合し、サービス提供を終了。体調メモや服薬スケジューラは引き継ぎ対象外"
-      }
-    ],
-    "endReasons": [
-      "parent-strategy",
-      "competition"
-    ],
-    "endReasonNote": "ドコモは、診療から服薬管理までを1つのアプリで使えるようにし利便性を高めるため、CLINICS共同運営の取り組みの一環として統合すると説明した。日経クロステックの報道では、ドコモは「経営上の判断」で経営資源を一本化したと説明し、日本薬剤師会によれば競合との差異化を図れなかったことも理由に挙げたという。",
-    "sources": [
-      "https://www.docomo.ne.jp/info/notice/page/220802_00.html",
-      "https://xtech.nikkei.com/atcl/nxt/column/18/01157/111600074/"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-c4aa9f84",
-    "name": "電子お薬手帳アプリ「アインおくすり手帳」",
-    "company": "株式会社アインファーマシーズ（アインホールディングス）",
-    "category": "pharmacy-dx",
-    "description": "アイン薬局の利用者向けに提供していた電子お薬手帳アプリ。処方箋送信や服薬記録の管理ができた。",
-    "hp": "",
-    "startedYear": null,
-    "status": "統合",
-    "endedAt": "2025-11",
-    "successor": "「いつでもアイン薬局」アプリのお薬手帳機能",
-    "milestones": [
-      {
-        "date": "2025-11",
-        "text": "サービス提供を終了し、「いつでもアイン薬局」アプリへの移行を案内"
-      },
-      {
-        "date": "2026-02",
-        "text": "データ移行の問い合わせ対応期間の終了予定"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "アプリの統合・移行の案内のみで、終了の理由は公表されていない。",
-    "sources": [
-      "https://www.ainj.co.jp/app/faq/detail/003426.html"
     ],
     "updatedAt": "2026-10"
   },
@@ -1182,116 +1033,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-0c07688d",
-    "name": "健康管理アプリ「dヘルスケア」の運営（ドコモから移管）",
-    "company": "株式会社NTTドコモ → NTTプレシジョンメディシン株式会社",
-    "category": "personal-health-record",
-    "description": "歩数や健康記録に応じてdポイントがたまる個人向け健康管理アプリ。ドコモが運営してきたが、NTTグループ内のNTTプレシジョンメディシンに運営会社を変更する。NTTグループ向けの「NTT限定機能」は別途終了した。",
-    "hp": "",
-    "startedYear": 2016,
-    "status": "譲渡",
-    "startedAt": "2016-04",
-    "endedAt": "2026-10",
-    "successor": "NTTプレシジョンメディシン株式会社（企業DB id: jp-136）",
-    "milestones": [
-      {
-        "date": "2016-04",
-        "text": "「dヘルスケアパック」の提供開始"
-      },
-      {
-        "date": "2021-04",
-        "text": "有料サービスを「dヘルスケア（300円）」に統合"
-      },
-      {
-        "date": "2025-11",
-        "text": "NTTグループ向けの「dヘルスケア（NTT限定機能）」を2026年3月末で終了し、NTTデータの新アプリへ移行すると告知"
-      },
-      {
-        "date": "2026-07",
-        "text": "運営会社をNTTプレシジョンメディシンに変更すると告知"
-      },
-      {
-        "date": "2026-10",
-        "text": "2026年10月1日付で運営会社を変更（予定）"
-      }
-    ],
-    "endReasons": [
-      "parent-strategy"
-    ],
-    "endReasonNote": "ドコモは「NTTグループとして健康・医療領域におけるサービス展開をさらに強化し、お客さまへより一層の価値提供を行うこと」を目的とした運営会社変更と説明している。",
-    "sources": [
-      "https://health.docomo.ne.jp/info/information/announce_20260730",
-      "https://health.docomo.ne.jp/corp/hdcm0006/info/info-20251128",
-      "https://health.docomo.ne.jp/info/information/announce_20200804"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-35510ce0",
-    "name": "健診結果改善サポートアプリ「Neoコーチ」",
-    "company": "ネオファースト生命保険株式会社（第一生命グループ）",
-    "category": "insuarance",
-    "description": "健康診断の結果改善を支援する生命保険会社の無料アプリ。健康行動に応じたプレゼント抽選などで利用継続を促した。",
-    "hp": "",
-    "startedYear": 2022,
-    "status": "終了",
-    "startedAt": "2022-07",
-    "endedAt": "2024-10",
-    "milestones": [
-      {
-        "date": "2022-07",
-        "text": "サービス提供開始"
-      },
-      {
-        "date": "2024-08",
-        "text": "サービス終了を告知し、新規ユーザー登録を停止"
-      },
-      {
-        "date": "2024-09",
-        "text": "プレゼント抽選サービスを終了"
-      },
-      {
-        "date": "2024-10",
-        "text": "2024年10月31日にサービス終了。データの移行・書き出しには対応しない"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "終了の告知のみで、理由は公表されていない。",
-    "sources": [
-      "https://neofirst.co.jp/information/info/20240821.html"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-a04c34f6",
-    "name": "健康増進アプリ「健康第一」の健康増進機能",
-    "company": "第一生命保険株式会社",
-    "category": "insuarance",
-    "description": "歩数記録、疾病リスクチェック、食事のカロリーチェック、タニタ監修レシピなどを、契約者以外も無料で使える生命保険会社の健康増進アプリ。保険手続き中心の「第一生命アプリ」に改められた。",
-    "hp": "",
-    "startedYear": null,
-    "status": "統合",
-    "endedAt": "2025-05",
-    "successor": "第一生命アプリ",
-    "milestones": [
-      {
-        "date": "2025-05",
-        "text": "2025年5月21日に「第一生命アプリ」へ名称変更・リニューアル。疾病リスクチェック、Myコラム、Myカロリーチェック、Myレシピ TANITA、生活改善レシピの各機能を収束"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "同社は「お客さまの声やご利用状況をもとに」健康増進コンテンツを見直したと説明しているが、個別機能を終えた理由は公表されていない。",
-    "sources": [
-      "https://www.dai-ichi-life.co.jp/information/daiichi_app.html",
-      "https://www.dai-ichi-life.co.jp/information/nfl.html"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-89dd3e87",
     "name": "健康応援アプリ「リンククロス 健康トライ」",
     "company": "SOMPOひまわり生命保険株式会社",
@@ -1359,14 +1100,22 @@
     "category": "pharmacy-dx",
     "description": "そうごう薬局などの利用者向けに、お薬手帳、来店予約、オンライン服薬指導などを提供した公式ヘルスケアアプリ。LINEミニアプリ版に移行した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "統合",
     "endedAt": "2026-06",
     "successor": "LINEミニアプリ「タヨリス」",
     "milestones": [
       {
+        "date": "2022",
+        "text": "公式ヘルスケアアプリとして公開（App Storeのアプリ番号から2022年後半と推定）"
+      },
+      {
         "date": "2026-02",
         "text": "ネイティブアプリの段階的終了とLINEミニアプリへの移行を発表。データ引き継ぎ機能を提供"
+      },
+      {
+        "date": "2026-02",
+        "text": "全サービスを6月末に終え、LINEミニアプリに移すと発表"
       },
       {
         "date": "2026-03",
@@ -1379,6 +1128,10 @@
       {
         "date": "2026-06",
         "text": "2026年6月30日に全サービス終了"
+      },
+      {
+        "date": "2026-06",
+        "text": "サービスを終了"
       }
     ],
     "endReasons": [
@@ -1388,9 +1141,15 @@
     "lessons": "専用アプリをダウンロードして使い続けてもらう難しさから、利用者が普段使うLINE上へ移す判断とみられる。",
     "sources": [
       "https://www.sogo-medical.co.jp/ja/news/20260227_01.html",
-      "https://pnb.jiho.jp/article/247687"
+      "https://pnb.jiho.jp/article/247687",
+      "https://www.optim.co.jp/wp-content/uploads/blazLZLycW5L.pdf",
+      "https://www.advertimes.com/?p=501535"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": [
+      "medication-support"
+    ],
+    "startedAt": "2022"
   },
   {
     "id": "b-37314f91",
@@ -1711,42 +1470,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-26649a0e",
-    "name": "健康プラットフォーム「WM（わたしムーヴ）」",
-    "company": "株式会社NTTドコモ（旧 ドコモ・ヘルスケア）",
-    "category": "personal-health-record",
-    "description": "オムロンヘルスケアの血圧計・体組成計・活動量計やドコモの「ムーヴバンド」から測定データを集め、スマホアプリで健康管理できる個人向け健康プラットフォーム。",
-    "hp": "",
-    "startedYear": null,
-    "status": "終了",
-    "endedAt": "2022-03",
-    "successor": "dヘルスケア（データ移行先）",
-    "milestones": [
-      {
-        "date": "2021-03",
-        "text": "ドコモが法人向け健康経営サービスの再編とあわせ、WMを2022年3月31日に終了すると発表"
-      },
-      {
-        "date": "2021-10",
-        "text": "データ移行先のdヘルスケアアプリへの移行準備（予定）"
-      },
-      {
-        "date": "2022-03",
-        "text": "2022年3月31日に終了。オムロン製の血圧計・体組成計など25機種がWM経由では使えなくなり、OMRON connect対応の代替機種の割引販売を案内"
-      }
-    ],
-    "endReasons": [
-      "parent-strategy"
-    ],
-    "endReasonNote": "ドコモは「dヘルスケア」「dヘルスケア for Biz」を中心にサービスを提供する方針の一環として終了を発表した。WM単独の終了理由は詳しく公表されていない。",
-    "lessons": "機器メーカーと通信会社が組んだデータ基盤が終わると、利用者の手元の計測機器が使えなくなる例となった。",
-    "sources": [
-      "https://www.docomo.ne.jp/info/news_release/2021/03/08_02.html",
-      "https://internet.watch.impress.co.jp/docs/yajiuma/1319711.html"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-2ffa1251",
     "name": "放射性医薬品の日本メジフィジックス（合弁持分）",
     "company": "住友化学株式会社 → GEヘルスケア",
@@ -1935,16 +1658,40 @@
         "text": "α版を公開。約10カテゴリーの慢性疾患から開始し、CEOは「遠隔で実際に診察するサービスは国内初」とし2016年3月中に利用者10万人を目指すと発言"
       },
       {
+        "date": "2015-11",
+        "text": "「国内初」の遠隔診療プラットフォームとしてα版をリリース（10疾患でサービス開始）"
+      },
+      {
+        "date": "2015-12",
+        "text": "α版の運用を年末で終了（日経メディカル報道）"
+      },
+      {
         "date": "2016-02",
         "text": "Eight Roads Ventures Japan、三菱UFJキャピタル、グローバル・ブレインから総額9億円を調達（α版で約200人の診療実績、4月の正式オープンを予定）"
+      },
+      {
+        "date": "2016-02",
+        "text": "総額9億円の資金調達"
       },
       {
         "date": "2016-06",
         "text": "宮崎県日南市と、無医地区での遠隔診療の有効性を検証する協定を締結（市立中央病院にシステム提供）"
       },
       {
+        "date": "2016-06",
+        "text": "β版リリースに向けて宮崎県日南市と連携"
+      },
+      {
         "date": "2016-09",
         "text": "東京女子医科大学と、ネットワーク血圧計を使う都市型の高血圧遠隔診療の実証研究を開始（〜2019年3月）"
+      },
+      {
+        "date": "2016-09",
+        "text": "東京女子医科大学と遠隔診療の実証研究を開始"
+      },
+      {
+        "date": "2017-03",
+        "text": "内閣府の規制改革会議の投資等ワーキンググループで遠隔診療の取り組みを説明"
       },
       {
         "date": "2018-12",
@@ -1971,7 +1718,95 @@
       "unknown"
     ],
     "endReasonNote": "サービス終了・休止の告知は見つからない。確認できるのは、有価証券報告書の記載が2024年3月期まで続き2025年3月期の本文から消えていること、ドメインが2026年10月時点で解決できないことのみ。理由は公表されていない。",
-    "lessons": "2015年の事務連絡の3カ月後に患者向けで参入した最初期の事例。2019年以降は大手機器メーカーとの共同事業で基盤役に回っており、単独の患者集客型事業としては規模が出なかったとみられる。",
+    "lessons": [
+      "2",
+      "0",
+      "1",
+      "5",
+      "年",
+      "の",
+      "事",
+      "務",
+      "連",
+      "絡",
+      "3",
+      "カ",
+      "月",
+      "後",
+      "に",
+      "患",
+      "者",
+      "向",
+      "け",
+      "で",
+      "参",
+      "入",
+      "し",
+      "た",
+      "最",
+      "初",
+      "期",
+      "例",
+      "。",
+      "9",
+      "以",
+      "降",
+      "は",
+      "大",
+      "手",
+      "機",
+      "器",
+      "メ",
+      "ー",
+      "と",
+      "共",
+      "同",
+      "業",
+      "基",
+      "盤",
+      "役",
+      "回",
+      "っ",
+      "て",
+      "お",
+      "り",
+      "、",
+      "単",
+      "独",
+      "集",
+      "客",
+      "型",
+      "規",
+      "模",
+      "が",
+      "出",
+      "な",
+      "か",
+      "み",
+      "ら",
+      "れ",
+      "る",
+      "当",
+      "時",
+      "対",
+      "面",
+      "診",
+      "療",
+      "原",
+      "則",
+      "さ",
+      "中",
+      "制",
+      "解",
+      "釈",
+      "定",
+      "ま",
+      "い",
+      "遠",
+      "隔",
+      "先",
+      "行"
+    ],
     "sources": [
       "https://thebridge.jp/2015/11/port-medical",
       "https://thebridge.jp/2016/02/port-fund-raising",
@@ -1981,7 +1816,12 @@
       "https://edinetdb.jp/company/E34537/history",
       "https://edinetdb.jp/company/E34537/text?fy=2024",
       "https://edinetdb.jp/company/E34537/text?fy=2025",
-      "https://monoist.itmedia.co.jp/mn/articles/1905/31/news046.html"
+      "https://monoist.itmedia.co.jp/mn/articles/1905/31/news046.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000016325.html",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t262/201608/547851_2.html",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t262/201609/548206.html",
+      "https://www8.cao.go.jp/kisei-kaikaku/suishin/meeting/wg/toushi/20170313/170313toushi04.pdf",
+      "https://kitaishihon.com/company/7047/story"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -2007,6 +1847,14 @@
         "text": "株式会社Mediplat設立"
       },
       {
+        "date": "2016",
+        "text": "オンライン医療相談「first call」を開始"
+      },
+      {
+        "date": "2016",
+        "text": "サービス開始（法人向けを中心に展開）"
+      },
+      {
         "date": "2016-02",
         "text": "α版を開始（当初は花粉症に特化、テレビ電話相談15分1,980円）"
       },
@@ -2019,12 +1867,28 @@
         "text": "NTTドコモ「dヘルスケア」有料会員向けにfirst callの医師相談を提供開始"
       },
       {
+        "date": "2018-06",
+        "text": "法人向けに「オンライン産業医」を開始"
+      },
+      {
         "date": "2018-11",
         "text": "スギ薬局とMediplatの共同事業としてセルフケアアプリ「スギサポ」を提供"
       },
       {
+        "date": "2019-04",
+        "text": "NTTドコモ「dヘルスケア」で24時間チャット医療相談を提供"
+      },
+      {
         "date": "2020-03",
         "text": "経済産業省の新型コロナ対策「健康相談窓口」に選定され、医師相談を無料提供"
+      },
+      {
+        "date": "2020-03",
+        "text": "新型コロナ対応で経済産業省の健康相談窓口に選定され、損保ジャパン契約者などにも提供"
+      },
+      {
+        "date": "2020-03",
+        "text": "経済産業省の新型コロナ関連の健康相談窓口に選ばれる（報道）"
       },
       {
         "date": "2021-04",
@@ -2035,8 +1899,24 @@
         "text": "メドピアが予防医療プラットフォーム事業からの撤退を発表。Mediplatとフィッツプラスの全事業をARMの新設子会社へ吸収分割で承継（効力発生 2024年9月30日予定）"
       },
       {
+        "date": "2024-08",
+        "text": "メドピアが予防医療プラットフォーム事業から撤退し、全事業をアドバンテッジリスクマネジメントの新設子会社へ吸収分割すると発表（対価13.5億円、2023年9月期売上高12.2億円・営業利益0.6億円）"
+      },
+      {
+        "date": "2024-08",
+        "text": "メドピアがMediplatとフィッツプラスの全事業をARMの新設子会社2社へ吸収分割で承継させると発表。対価はMediplat分13億5,000万円。メドピアは予防医療プラットフォーム事業から撤退"
+      },
+      {
+        "date": "2024-09",
+        "text": "吸収分割の効力発生。分割会社は2025年4月に清算結了"
+      },
+      {
         "date": "2025-04",
         "text": "旧Mediplat（法人番号3010001171984）が清算結了"
+      },
+      {
+        "date": "2025-04",
+        "text": "旧Mediplat法人が清算結了"
       }
     ],
     "endReasons": [
@@ -2055,12 +1935,19 @@
       "https://www.firstcall.md/Home/About",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001171984",
       "https://www2.jpx.co.jp/disc/60950/140120240802561155.pdf",
-      "https://www.firstcall.md/"
+      "https://www.firstcall.md/",
+      "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
+      "https://ascii.jp/elem/000/001/696/1696825/",
+      "https://japan.cnet.com/article/35135478/",
+      "https://maonline.jp/news/20240802c",
+      "https://www.platinumpartners.jp/manews-20240802-advantage-risk-mediplat-fitsplus.html",
+      "https://companydata.tsujigawa.com/?cdb_edinet_doc=S100WMHJ"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "online-consultation",
-      "mental-chat"
+      "mental-chat",
+      "phr-employer"
     ]
   },
   {
@@ -2514,12 +2401,28 @@
         "text": "「LINE ヘルスケア（β版）」を開始（Android先行、内科・小児科・産婦人科・整形外科・皮膚科）"
       },
       {
+        "date": "2019-12",
+        "text": "β版の提供を開始"
+      },
+      {
+        "date": "2020-02",
+        "text": "新型コロナ流行で相談件数が急増し、月10万件ペースに（4割強がコロナ関連）"
+      },
+      {
         "date": "2020-03",
         "text": "経済産業省の新型コロナ対策「健康相談窓口」事業として、3月11〜31日に無料提供"
       },
       {
+        "date": "2020-03",
+        "text": "経済産業省の健康相談窓口に選定され、無料提供を延長"
+      },
+      {
         "date": "2022-12",
         "text": "オンライン健康相談の終了を発表"
+      },
+      {
+        "date": "2022-12",
+        "text": "2023年2月2日での終了を発表。今後はLINEドクターに注力"
       },
       {
         "date": "2023-01",
@@ -2528,18 +2431,106 @@
       {
         "date": "2023-02",
         "text": "2月2日にサービス終了"
+      },
+      {
+        "date": "2023-02",
+        "text": "サービス終了"
       }
     ],
     "endReasons": [
       "parent-strategy"
     ],
     "endReasonNote": "同社は「今後は、オンライン診療サービス『LINEドクター』に集中し、強化していく」と説明。相談件数などの実績は公表していない。",
-    "lessons": "医師相談を入口にオンライン診療へつなげる設計だったが、相談そのものの有料利用は事業の柱にならず、診療側に資源を寄せたとみられる。",
+    "lessons": [
+      "医",
+      "師",
+      "相",
+      "談",
+      "を",
+      "入",
+      "口",
+      "に",
+      "オ",
+      "ン",
+      "ラ",
+      "イ",
+      "診",
+      "療",
+      "へ",
+      "つ",
+      "な",
+      "げ",
+      "る",
+      "設",
+      "計",
+      "だ",
+      "っ",
+      "た",
+      "が",
+      "、",
+      "そ",
+      "の",
+      "も",
+      "有",
+      "料",
+      "利",
+      "用",
+      "は",
+      "事",
+      "業",
+      "柱",
+      "ら",
+      "ず",
+      "側",
+      "資",
+      "源",
+      "寄",
+      "せ",
+      "と",
+      "み",
+      "れ",
+      "。",
+      "行",
+      "為",
+      "伴",
+      "わ",
+      "い",
+      "無",
+      "中",
+      "心",
+      "健",
+      "康",
+      "コ",
+      "ロ",
+      "ナ",
+      "期",
+      "急",
+      "増",
+      "し",
+      "て",
+      "収",
+      "益",
+      "化",
+      "道",
+      "筋",
+      "見",
+      "え",
+      "く",
+      "軸",
+      "足",
+      "移",
+      "す",
+      "判",
+      "断"
+    ],
     "sources": [
       "https://www.watch.impress.co.jp/docs/news/1163592.html",
       "https://www.watch.impress.co.jp/docs/news/1225581.html",
       "https://thebridge.jp/2020/03/first-call-line-healthcare-selected-by-meti-as-offering-health-consultatoin-desk",
-      "https://www.watch.impress.co.jp/docs/news/1462390.html"
+      "https://www.watch.impress.co.jp/docs/news/1462390.html",
+      "https://corporate.m3.com/press_release/2019/20191219_001525.html",
+      "https://www.itmedia.co.jp/news/article/1912/19/1191219130/",
+      "https://business.nikkei.com/atcl/gen/19/00110/040900015/"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -2561,16 +2552,36 @@
     "successor": "利用者はソフトバンクグループのヘルスケアテクノロジーズ「HELPOドクター」のLINE公式アカウントへ案内",
     "milestones": [
       {
+        "date": "2020-09",
+        "text": "LINEとエムスリーの合弁LINEヘルスケアがオンライン診療への参入を発表"
+      },
+      {
         "date": "2020-12",
         "text": "首都圏の一部医療機関で先行提供を開始"
+      },
+      {
+        "date": "2022-12",
+        "text": "処方薬の配送サービスを全国で開始"
+      },
+      {
+        "date": "2023-01",
+        "text": "エムスリーとの合弁を解消し、LINEの100%子会社に。オンライン服薬指導で日本調剤と連携"
       },
       {
         "date": "2023-02",
         "text": "オンライン健康相談「LINEヘルスケア」を終了し、LINEドクターに集中"
       },
       {
+        "date": "2024-01",
+        "text": "2023年度の診療件数が前年比2倍、薬の配送利用者が1年で約10倍と発表"
+      },
+      {
         "date": "2024-12",
         "text": "LINEヤフーとLINEヘルスケアがLINEドクターと疾患啓発アカウント（11アカウント）の終了を発表"
+      },
+      {
+        "date": "2024-12",
+        "text": "2025年6月での終了を発表。疾患啓発アカウントも順次終了"
       },
       {
         "date": "2025-03",
@@ -2581,6 +2592,10 @@
         "text": "6月10日に全機能を停止"
       },
       {
+        "date": "2025-06",
+        "text": "6月10日に全機能を停止。LINEヘルスケアは全事業が終了し、2026年9月にLINEヤフーへ吸収合併"
+      },
+      {
         "date": "2026-09",
         "text": "LINEヘルスケア株式会社がLINEヤフーに吸収合併され解散"
       }
@@ -2589,13 +2604,122 @@
       "parent-strategy"
     ],
     "endReasonNote": "LINEヤフーは「グループシナジーの拡大に向け、グループ内で重複している事業領域を一本化するなど、中核事業へのリソース投下を目的とした選択と集中を進めております」と説明。今後は医療機関・薬局向けのマーケティングソリューションを拡充するとした。",
-    "lessons": "国内最大級のメッセージアプリという集客力があっても、オンライン診療は中核事業にならず、グループ再編で同じグループのHELPOに一本化された。大手の参入が必ずしも定着を意味しないことを示す例とみられる。",
+    "lessons": [
+      "国",
+      "内",
+      "最",
+      "大",
+      "級",
+      "の",
+      "メ",
+      "ッ",
+      "セ",
+      "ー",
+      "ジ",
+      "ア",
+      "プ",
+      "リ",
+      "と",
+      "い",
+      "う",
+      "集",
+      "客",
+      "力",
+      "が",
+      "あ",
+      "っ",
+      "て",
+      "も",
+      "、",
+      "オ",
+      "ン",
+      "ラ",
+      "イ",
+      "診",
+      "療",
+      "は",
+      "中",
+      "核",
+      "事",
+      "業",
+      "に",
+      "な",
+      "ら",
+      "ず",
+      "グ",
+      "ル",
+      "再",
+      "編",
+      "で",
+      "同",
+      "じ",
+      "H",
+      "E",
+      "L",
+      "P",
+      "O",
+      "一",
+      "本",
+      "化",
+      "さ",
+      "れ",
+      "た",
+      "。",
+      "手",
+      "参",
+      "入",
+      "必",
+      "し",
+      "定",
+      "着",
+      "を",
+      "意",
+      "味",
+      "こ",
+      "示",
+      "す",
+      "例",
+      "み",
+      "る",
+      "利",
+      "用",
+      "伸",
+      "び",
+      "巨",
+      "ト",
+      "フ",
+      "ォ",
+      "ム",
+      "経",
+      "営",
+      "統",
+      "合",
+      "後",
+      "選",
+      "択",
+      "収",
+      "益",
+      "規",
+      "模",
+      "小",
+      "医",
+      "切",
+      "り",
+      "離"
+    ],
     "sources": [
       "https://appllio.com/news/20201217-14299-line-doctor",
       "https://www.watch.impress.co.jp/docs/news/1462390.html",
       "https://www.lycorp.co.jp/ja/news/release/016530/",
       "https://www.businessinsider.jp/article/298312/",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101086498"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101086498",
+      "https://corporate.m3.com/press_release/2020/20200910_001635.html",
+      "https://www.nikkei.com/article/DGXZQODZ168B40W0A211C2000000/",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t349/202012/568439.html",
+      "https://prtimes.jp/main/html/rd/p/000004107.000001594.html",
+      "https://www.itmedia.co.jp/news/article/2412/11/1241211162/",
+      "https://notice2.line.me/Telemedicine_LHC/web/document/notice?documentId=100011262&lang=ja",
+      "https://www.nihon-ma.co.jp/news/20260701_4689-42/"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -3239,8 +3363,16 @@
         "text": "公式ブログの更新はこの月が最後"
       },
       {
+        "date": "2025-07",
+        "text": "横須賀市と防災協定を結び、合同訓練を実施（ブログの最終更新）"
+      },
+      {
         "date": "2026-05",
         "text": "厚生年金の適用事業所でなくなった（企業DBの調査）"
+      },
+      {
+        "date": "2026-05",
+        "text": "厚生年金の適用事業所が全喪"
       }
     ],
     "endReasons": [
@@ -3275,12 +3407,20 @@
     "successor": "株式会社ファルモ（eお薬手帳3.0／薬局DX基盤N-Bridge）",
     "milestones": [
       {
+        "date": "2011",
+        "text": "ソニーが川崎市などで試験サービスを開始（約5年間）"
+      },
+      {
         "date": "2013-08",
         "text": "ソニーが個人情報と薬歴を分けて保存する電子お薬手帳を発表し、川崎市で試験サービスを始めると公表"
       },
       {
         "date": "2015-03",
         "text": "川崎市・川崎市薬剤師会とharmoの試験サービスで協定を結ぶ"
+      },
+      {
+        "date": "2016",
+        "text": "商用サービス化"
       },
       {
         "date": "2016-07",
@@ -3291,8 +3431,16 @@
         "text": "処方箋の累計登録数が300万枚を超える。アプリ利用者は10万人超"
       },
       {
+        "date": "2019-03",
+        "text": "ソニーがシミックヘルスケアへの吸収分割による事業譲渡で合意（譲渡額100万円と報道）。約850薬局・80医療機関に導入、利用者約30万人"
+      },
+      {
         "date": "2019-06",
         "text": "ソニーから事業を吸収分割で承継し、シミックヘルスケアが運営開始（譲渡額100万円と報道）"
+      },
+      {
+        "date": "2019-06",
+        "text": "シミックヘルスケアが事業を承継し運営開始"
       },
       {
         "date": "2020-07",
@@ -3301,6 +3449,10 @@
       {
         "date": "2021-10",
         "text": "シミックHDが新会社harmo株式会社を設立し、事業を移す"
+      },
+      {
+        "date": "2021-10",
+        "text": "シミックHDが設立したharmo株式会社が営業開始し、事業を担う"
       },
       {
         "date": "2025-02",
@@ -3315,19 +3467,116 @@
         "text": "株式会社ファルモへの事業譲渡と、2026年9月30日でのサービス終了を告知"
       },
       {
+        "date": "2026-03",
+        "text": "harmoおくすり手帳のサービス終了（2026年9月30日）を告知。運営はファルモへ事業譲渡"
+      },
+      {
         "date": "2026-07",
         "text": "ファルモが、300店舗以上の薬局のN-Bridge（eお薬手帳3.0）への移行が決まったと発表"
       },
       {
+        "date": "2026-07",
+        "text": "ファルモがharmo事業の譲受と、N-Bridge（eお薬手帳3.0）への移行を発表。過半数の300店舗以上が移行を申込"
+      },
+      {
         "date": "2026-09",
         "text": "処方箋送信とオンライン服薬指導の新規受付を9月17日に終了。9月30日にサービスを終了"
+      },
+      {
+        "date": "2026-09",
+        "text": "harmoおくすり手帳とharmoカードのサービス終了"
       }
     ],
     "endReasons": [
       "acquisition"
     ],
     "endReasonNote": "harmo株式会社の告知は「より安定したサービスを皆さまに継続してお届けするため、同じくお薬手帳事業を手がける株式会社ファルモへ事業を譲渡いたしました」と説明している。収益など、それ以上の理由は公表されていない。",
-    "lessons": "ソニー、シミック、ファルモと運営会社が2回替わり、最後は日薬系の基盤に吸収された。単独の電子お薬手帳事業は、規模があっても運営会社が定まりにくいとみられる。",
+    "lessons": [
+      "ソ",
+      "ニ",
+      "ー",
+      "、",
+      "シ",
+      "ミ",
+      "ッ",
+      "ク",
+      "フ",
+      "ァ",
+      "ル",
+      "モ",
+      "と",
+      "運",
+      "営",
+      "会",
+      "社",
+      "が",
+      "2",
+      "回",
+      "替",
+      "わ",
+      "り",
+      "最",
+      "後",
+      "は",
+      "日",
+      "薬",
+      "系",
+      "の",
+      "基",
+      "盤",
+      "に",
+      "吸",
+      "収",
+      "さ",
+      "れ",
+      "た",
+      "。",
+      "単",
+      "独",
+      "電",
+      "子",
+      "お",
+      "手",
+      "帳",
+      "事",
+      "業",
+      "規",
+      "模",
+      "あ",
+      "っ",
+      "て",
+      "も",
+      "定",
+      "ま",
+      "く",
+      "い",
+      "み",
+      "ら",
+      "る",
+      "局",
+      "ス",
+      "テ",
+      "ム",
+      "連",
+      "携",
+      "前",
+      "提",
+      "で",
+      "主",
+      "体",
+      "何",
+      "度",
+      "変",
+      "採",
+      "算",
+      "を",
+      "取",
+      "難",
+      "し",
+      "か",
+      "分",
+      "野"
+    ],
     "sources": [
       "https://k-tai.watch.impress.co.jp/docs/news/611698.html",
       "https://www.yakuji.co.jp/?p=65737",
@@ -3337,7 +3586,9 @@
       "https://www.cmicgroup.com/news/files/pdf/2025100904.pdf",
       "https://support.harmo.biz/migrate_to_newapp/p1479",
       "https://support.harmo.biz/info/p1725",
-      "https://prtimes.jp/main/html/rd/p/000000037.000049119.html"
+      "https://prtimes.jp/main/html/rd/p/000000037.000049119.html",
+      "https://www.watch.impress.co.jp/docs/news/1176401.html",
+      "https://www.cmicgroup.com/files/user/NewsRelease/Japanese/20190603-2.pdf"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -3366,6 +3617,10 @@
         "text": "日本薬剤師会・STNetと、日薬eお薬手帳への統合に向けた基本合意を結ぶ。チェーン向けと合わせて約5,500施設に導入済み"
       },
       {
+        "date": "2021-12",
+        "text": "ドコモとメドレーがオンライン診療アプリ「CLINICS」の共同運営を発表"
+      },
+      {
         "date": "2022-06",
         "text": "ドコモが日本薬剤師会にサービス終了を伝える"
       },
@@ -3374,8 +3629,16 @@
         "text": "患者向けアプリをCLINICSへ統合すると発表。薬局向けの新規受付は9月9日に終了"
       },
       {
+        "date": "2022-08",
+        "text": "「おくすり手帳Link」を「CLINICS」アプリへ統合すると告知。薬局向けにはメドレーの「Pharms」導入を推奨"
+      },
+      {
         "date": "2023-09",
         "text": "9月30日に提供を終了"
+      },
+      {
+        "date": "2023-09",
+        "text": "2023年9月30日にCLINICSへ統合し、サービス提供を終了。体調メモや服薬スケジューラは引き継ぎ対象外"
       },
       {
         "date": "2024-02",
@@ -3393,7 +3656,8 @@
       "https://www.docomo.ne.jp/info/news_release/2019/03/26_01.html",
       "https://xtech.nikkei.com/atcl/nxt/column/18/01157/111600074/",
       "https://www.docomo.ne.jp/info/news_release/2022/08/01_00.html",
-      "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html"
+      "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html",
+      "https://www.docomo.ne.jp/info/notice/page/220802_00.html"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -3671,6 +3935,14 @@
       {
         "date": "2025-11",
         "text": "アインおくすり手帳の提供を終了。データ移行の問い合わせには2026年2月末まで対応"
+      },
+      {
+        "date": "2025-11",
+        "text": "サービス提供を終了し、「いつでもアイン薬局」アプリへの移行を案内"
+      },
+      {
+        "date": "2026-02",
+        "text": "データ移行の問い合わせ対応期間の終了予定"
       }
     ],
     "endReasons": [
@@ -3721,46 +3993,6 @@
     "sources": [
       "https://www.yakuji.co.jp/?p=33441",
       "https://www.qol-net.co.jp/pharmacy/qolokusuriapp/"
-    ],
-    "updatedAt": "2026-10",
-    "themes": [
-      "medication-support"
-    ]
-  },
-  {
-    "id": "b-2f211f78",
-    "name": "タヨリス",
-    "company": "総合メディカル（総合メディカルグループ）",
-    "category": "pharmacy-dx",
-    "description": "総合メディカルグループ（そうごう薬局）の公式ヘルスケアアプリ。お薬手帳、処方箋の事前送信、OPTiMの基盤を使ったオンライン服薬指導、調剤予約、バイタル管理、服薬アラーム、ECを1つにまとめていた。",
-    "hp": "",
-    "startedYear": 2022,
-    "status": "終了",
-    "startedAt": "2022",
-    "endedAt": "2026-06",
-    "successor": "LINEミニアプリ",
-    "milestones": [
-      {
-        "date": "2022",
-        "text": "公式ヘルスケアアプリとして公開（App Storeのアプリ番号から2022年後半と推定）"
-      },
-      {
-        "date": "2026-02",
-        "text": "全サービスを6月末に終え、LINEミニアプリに移すと発表"
-      },
-      {
-        "date": "2026-06",
-        "text": "サービスを終了"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "報道（PHARMACY NEWSBREAK、2026年2月27日）は終了と移行先を伝えているが、閲覧できた範囲に理由の記載はなかった。",
-    "sources": [
-      "https://pnb.jiho.jp/article/247687",
-      "https://www.optim.co.jp/wp-content/uploads/blazLZLycW5L.pdf",
-      "https://www.advertimes.com/?p=501535"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -5548,16 +5780,32 @@
     "endedAt": "2024-07",
     "milestones": [
       {
+        "date": "2020-07",
+        "text": "見守りセンサー「Tellus」が認知症老人徘徊感知器として介護保険の福祉用具貸与の対象に"
+      },
+      {
         "date": "2021-12",
         "text": "神戸市・NTTドコモなどと、介護施設での非接触センサーによる科学的介護の実証を開始"
+      },
+      {
+        "date": "2023-06",
+        "text": "健康指標の導入で個々の高齢者の危険予兆を把握すると発表"
       },
       {
         "date": "2023-08",
         "text": "ソースネクストと個人向け見守りデバイス「POM」の国内販売で協業し、Makuakeで販売開始"
       },
       {
+        "date": "2023-08",
+        "text": "ソースネクストと組み、家庭向け非接触モニタリング「POM」をMakuakeで販売開始"
+      },
+      {
         "date": "2024-07",
         "text": "日本法人（Tellus You Care合同会社）の清算が結了"
+      },
+      {
+        "date": "2024-07",
+        "text": "日本法人のTellus You Care合同会社が清算結了"
       }
     ],
     "endReasons": [
@@ -5568,7 +5816,11 @@
       "https://www.jetro.go.jp/invest/investment_environment/success_stories/tellusyoucare.html",
       "https://project.nikkeibp.co.jp/atclppp/PPP/news/122202253/",
       "https://prtimes.jp/main/html/rd/p/000000006.000061603.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011003010897"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011003010897",
+      "https://seniorlife-soken.com/archives/20809",
+      "https://prtimes.jp/main/html/rd/p/000000005.000061603.html",
+      "https://sourcenext.co.jp/pressrelease_html/JS/2023/2023080202",
+      "https://forbesjapan.com/articles/detail/65048"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -5819,53 +6071,46 @@
     "company": "株式会社グッピーズ",
     "companyId": "5011101043683",
     "category": "health-corporate-management",
-    "description": "歩数・体重・食事・睡眠など16種類以上を記録できる健康管理アプリ。個人向けのほか、企業の健康経営、健保組合、自治体の健康ポイント事業向けに管理画面付きで提供。",
+    "description": "医療・介護の人材サービス会社が手がけた健康管理アプリ。個人のほか、自治体、健診機関、健保組合、企業が健康ポイントやイベントに使った。",
     "hp": "",
-    "startedYear": 2016,
+    "startedYear": null,
     "status": "譲渡",
     "startedAt": "2016-11",
     "endedAt": "2025-03",
-    "successor": "株式会社FiNC Technologies",
+    "successor": "FiNC Technologies（吸収分割で事業を承継）",
     "milestones": [
       {
-        "date": "2016-11",
-        "text": "アプリをリリース"
-      },
-      {
-        "date": "2017-06",
-        "text": "企業向け「健康ポイント」サービスを開始"
-      },
-      {
-        "date": "2019-01",
-        "text": "自治体向け健康ポイント事業支援サービスを開始。同年4月に小田原市で実証開始"
-      },
-      {
         "date": "2024-03",
-        "text": "親会社グッピーズがメドレーの子会社に"
+        "text": "メドレーのグッピーズに対するTOBが成立し、完全子会社化へ"
       },
       {
         "date": "2025-02",
-        "text": "FiNC Technologiesへの吸収分割による事業譲渡で合意"
+        "text": "FiNC Technologiesがグッピーズのヘルスケア事業を吸収分割で譲り受けることで合意"
       },
       {
         "date": "2025-03",
-        "text": "吸収分割を実行し、FiNC Technologiesへ事業承継"
+        "text": "吸収分割の実行予定日（3月31日）"
       }
     ],
     "endReasons": [
-      "parent-strategy",
-      "acquisition"
+      "acquisition",
+      "parent-strategy"
     ],
-    "endReasonNote": "メドレーの瀧口社長は、グッピーズのヘルスケア事業の成長の方向性を模索していたところFiNC Technologiesから関心を示され、同社に託すほうが大きな価値提供ができると判断したとコメントした。",
+    "endReasonNote": "メドレーの瀧口浩平社長は「グッピーズ社のヘルスケア事業について成長の方向性を模索していたところ」FiNCから関心の表明があり、FiNCに託す方がより大きな価値提供ができると判断したとコメントしている。",
     "lessons": "人材サービス会社の副業的なヘルスケア事業は、買収後のグループ内で居場所を失いやすく、健康経営専業の会社へ移されたとみられる。",
     "sources": [
       "https://prtimes.jp/a/?c=27329&r=354&f=d27329-354-52fb7dea8aa353f55d5ddd1210c65a44.pdf",
       "https://finc.com/news/Nc3xfWp_",
       "https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20250401_archive/f922xw/140120250401506308.pdf",
       "https://kyodonewsprwire.jp/prwfile/release/M101374/201901081991/_prw_PR1fl_rUWagKxB.pdf",
-      "https://www.guppy.healthcare/"
+      "https://www.guppy.healthcare/",
+      "https://www.nikkei.com/article/DGXZQOUC087DB0Y4A300C2000000/",
+      "https://prtimes.jp/main/html/rd/p/000000354.000027329.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
   },
   {
     "id": "b-084da392",
@@ -6216,64 +6461,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-12452511",
-    "name": "クラウド型健康管理サービス「first call」（オンライン医療相談・オンライン産業医）",
-    "company": "株式会社Mediplat",
-    "companyId": "3010001171984",
-    "category": "health-corporate-management",
-    "description": "個人や企業の従業員がチャットやテレビ電話で24時間医師に匿名相談できるオンライン医療相談を軸に、企業向けにオンライン産業医面談やストレスチェックなど産業保健の業務を一括支援するクラウドサービス。",
-    "hp": "",
-    "startedYear": 2016,
-    "status": "譲渡",
-    "startedAt": "2016",
-    "endedAt": "2024-09",
-    "successor": "株式会社アドバンテッジリスクマネジメント（承継子会社が「株式会社Mediplat」の商号で継続）",
-    "milestones": [
-      {
-        "date": "2015-11",
-        "text": "株式会社Mediplat設立"
-      },
-      {
-        "date": "2016",
-        "text": "オンライン医療相談「first call」を開始"
-      },
-      {
-        "date": "2018-06",
-        "text": "法人向けに「オンライン産業医」を開始"
-      },
-      {
-        "date": "2019-04",
-        "text": "NTTドコモ「dヘルスケア」で24時間チャット医療相談を提供"
-      },
-      {
-        "date": "2020-03",
-        "text": "新型コロナ対応で経済産業省の健康相談窓口に選定され、損保ジャパン契約者などにも提供"
-      },
-      {
-        "date": "2024-08",
-        "text": "メドピアが予防医療プラットフォーム事業から撤退し、全事業をアドバンテッジリスクマネジメントの新設子会社へ吸収分割すると発表（対価13.5億円、2023年9月期売上高12.2億円・営業利益0.6億円）"
-      },
-      {
-        "date": "2024-09",
-        "text": "吸収分割の効力発生。分割会社は2025年4月に清算結了"
-      }
-    ],
-    "endReasons": [
-      "parent-strategy"
-    ],
-    "endReasonNote": "メドピアが中期経営計画で医師・医療機関向けの2つのプラットフォーム事業に経営資源を集中する方針を示し、予防医療プラットフォーム事業を構成するMediplatの事業をアドバンテッジリスクマネジメントへ譲渡した。サービスは承継会社が継続している。",
-    "sources": [
-      "https://www.nihon-ma.co.jp/news/20240802_6095-10/",
-      "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
-      "https://thebridge.jp/2020/03/first-call-line-healthcare-selected-by-meti-as-offering-health-consultatoin-desk",
-      "https://ascii.jp/elem/000/001/696/1696825/",
-      "https://japan.cnet.com/article/35135478/",
-      "https://www.firstcall.md/Home/About",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001171984"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-9b3a8bc2",
     "name": "ダイエットコーチングアプリ「Noom」日本語版",
     "company": "Noom Japan株式会社",
@@ -6319,60 +6506,6 @@
       "https://www.app-ranking.net/id/634598719",
       "https://forbesjapan.com/articles/detail/41660",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401119918"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-1e830ded",
-    "name": "遠隔診療プラットフォーム「ポートメディカル」",
-    "company": "ポート株式会社",
-    "companyId": "8011001069074",
-    "category": "telemedicine",
-    "description": "高血圧症や高尿酸血症など10疾患を対象に、ネット上で医師の診療から処方・医薬品の受け取りまでを完結させる患者向け遠隔診療サービスとして2015年に公開。メディア事業会社の新規事業だった。",
-    "hp": "",
-    "startedYear": 2015,
-    "status": "終了",
-    "startedAt": "2015-11",
-    "endedAt": "2015-12",
-    "milestones": [
-      {
-        "date": "2015-11",
-        "text": "「国内初」の遠隔診療プラットフォームとしてα版をリリース（10疾患でサービス開始）"
-      },
-      {
-        "date": "2015-12",
-        "text": "α版の運用を年末で終了（日経メディカル報道）"
-      },
-      {
-        "date": "2016-02",
-        "text": "総額9億円の資金調達"
-      },
-      {
-        "date": "2016-06",
-        "text": "β版リリースに向けて宮崎県日南市と連携"
-      },
-      {
-        "date": "2016-09",
-        "text": "東京女子医科大学と遠隔診療の実証研究を開始"
-      },
-      {
-        "date": "2017-03",
-        "text": "内閣府の規制改革会議の投資等ワーキンググループで遠隔診療の取り組みを説明"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "α版は2015年末に運用を終了し、β版を準備中と報じられたが、その後の本格提供や終了の告知は確認できない。運用終了の理由は公表されていない。同社はその後、就活・エネルギー領域の成約支援事業に集中した。",
-    "lessons": "2015年当時は対面診療が原則とされる中で、規制の解釈が定まらないまま遠隔診療に先行参入した例とみられる。",
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000016325.html",
-      "https://thebridge.jp/2015/11/port-medical",
-      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t262/201608/547851_2.html",
-      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t262/201609/548206.html",
-      "https://thebridge.jp/2016/06/port-medical-alliance-with-city-in-miyazaki-prefecture",
-      "https://www8.cao.go.jp/kisei-kaikaku/suishin/meeting/wg/toushi/20170313/170313toushi04.pdf",
-      "https://kitaishihon.com/company/7047/story"
     ],
     "updatedAt": "2026-10"
   },
@@ -7929,49 +8062,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-755238d0",
-    "name": "レーダー式見守りセンサー「Tellus」の日本展開",
-    "company": "Tellus You Care合同会社",
-    "companyId": "5011003010897",
-    "category": "nursing",
-    "description": "カメラやマイクを使わず、ミリ波レーダーで高齢者の転倒・睡眠・呼吸・心拍を非接触で見守る機器を、日本の介護施設・家庭向けに展開。介護保険の福祉用具としてレンタル対象にもなった。",
-    "hp": "",
-    "startedYear": null,
-    "status": "不明",
-    "endedAt": "2024-07",
-    "milestones": [
-      {
-        "date": "2020-07",
-        "text": "見守りセンサー「Tellus」が認知症老人徘徊感知器として介護保険の福祉用具貸与の対象に"
-      },
-      {
-        "date": "2023-06",
-        "text": "健康指標の導入で個々の高齢者の危険予兆を把握すると発表"
-      },
-      {
-        "date": "2023-08",
-        "text": "ソースネクストと組み、家庭向け非接触モニタリング「POM」をMakuakeで販売開始"
-      },
-      {
-        "date": "2024-07",
-        "text": "日本法人のTellus You Care合同会社が清算結了"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "日本法人の清算理由は公表されていない。米本社の製品は日本でソースネクスト経由の販売も行われており、日本での事業自体が止まったかは確認できない。",
-    "sources": [
-      "https://seniorlife-soken.com/archives/20809",
-      "https://prtimes.jp/main/html/rd/p/000000005.000061603.html",
-      "https://sourcenext.co.jp/pressrelease_html/JS/2023/2023080202",
-      "https://forbesjapan.com/articles/detail/65048",
-      "https://www.jetro.go.jp/invest/investment_environment/success_stories/tellusyoucare.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011003010897"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-5e8dbe00",
     "name": "退院調整支援SaaS「KURASERU（クラセル）」",
     "company": "株式会社KURASERU",
@@ -8027,16 +8117,32 @@
     "category": "health-corporate-management",
     "description": "歩数や徒歩・自転車での移動を記録し、乗り物の代替によるCO2削減量をスコア化する個人向けアプリ。自治体・企業向けに住民や社員の健康状態と脱炭素量を可視化する仕組みとして提供。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "不明",
     "milestones": [
+      {
+        "date": "2022-04",
+        "text": "「SPOBY脱炭素ウォーク」をリリース。法人展開を本格化"
+      },
+      {
+        "date": "2023-01",
+        "text": "仙台市コミュニティを開始"
+      },
       {
         "date": "2023-04",
         "text": "CUVEYESからスタジオスポビーに商号変更。企業向け指標「Actrust-Zero」や市民参加型「脱炭素エキデン」を展開"
       },
       {
+        "date": "2023-04",
+        "text": "社名をスタジオスポビーに変更"
+      },
+      {
         "date": "2025-11",
         "text": "最後のニュース。同月に告知した愛知のイベントは後に「中止」と追記"
+      },
+      {
+        "date": "2025-11",
+        "text": "公式サイトのニュースの最終更新。同月告知の愛知のイベントは「中止」と追記"
       },
       {
         "date": "2025-12",
@@ -8045,6 +8151,10 @@
       {
         "date": "2026-02",
         "text": "Android版アプリが更新される（確認できる最後の動き）"
+      },
+      {
+        "date": "2026-02",
+        "text": "Android版アプリの最終更新。以後の活動は確認できない"
       }
     ],
     "endReasons": [
@@ -8055,9 +8165,15 @@
       "https://spoby.jp/",
       "https://spoby.jp/news/index.html",
       "https://play.google.com/store/apps/details?id=com.cuveyes.jp.spoby",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401129641"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401129641",
+      "https://prtimes.jp/main/html/rd/p/000000027.000031367.html",
+      "https://digital-shift.jp/flash_news/FN230111_4"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ],
+    "startedAt": "2022-04"
   },
   {
     "id": "b-757cb41b",
@@ -8443,87 +8559,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-fcb5abba",
-    "name": "マインドフルネス瞑想アプリ「Relook」・企業向けマインドフルネス研修",
-    "company": "Relook株式会社",
-    "companyId": "9010901043682",
-    "category": "mental-health",
-    "description": "睡眠専門医や精神科医が監修した300種類超の瞑想音声を、睡眠・ストレス・集中など場面別に配信する個人向けアプリと、企業向けのマインドフルネス研修。",
-    "hp": "",
-    "startedYear": null,
-    "status": "統合",
-    "endedAt": "2021-01",
-    "successor": "株式会社ARETECO HOLDINGS（Relookとして継続）",
-    "milestones": [
-      {
-        "date": "2019",
-        "text": "Relook株式会社設立。精神科医監修の1日10秒マインドフルネスなどのコンテンツを発表"
-      },
-      {
-        "date": "2021-01",
-        "text": "20万ダウンロード突破後にARETECO HOLDINGSのグループに入り、同社に吸収合併。アプリはその後も提供され、累計45万ダウンロード"
-      }
-    ],
-    "endReasons": [
-      "acquisition"
-    ],
-    "endReasonNote": "グループ化を経た親会社への合併で、アプリの提供は続いている。合併の詳しい理由は公表されていない。",
-    "sources": [
-      "https://relook.jp/",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010901043682",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011001113645"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-8b625ab6",
-    "name": "オンライン健康相談「LINEヘルスケア」",
-    "company": "LINEヘルスケア株式会社",
-    "companyId": "8011101086498",
-    "category": "health-consulting",
-    "description": "LINE上で医師にチャットで健康相談できるサービス。すぐに相談する形式と、後から回答をもらう形式があり、診断や処方はしない健康相談に限った。",
-    "hp": "",
-    "startedYear": 2019,
-    "status": "終了",
-    "startedAt": "2019-12",
-    "endedAt": "2023-02",
-    "milestones": [
-      {
-        "date": "2019-12",
-        "text": "β版の提供を開始"
-      },
-      {
-        "date": "2020-02",
-        "text": "新型コロナ流行で相談件数が急増し、月10万件ペースに（4割強がコロナ関連）"
-      },
-      {
-        "date": "2020-03",
-        "text": "経済産業省の健康相談窓口に選定され、無料提供を延長"
-      },
-      {
-        "date": "2022-12",
-        "text": "2023年2月2日での終了を発表。今後はLINEドクターに注力"
-      },
-      {
-        "date": "2023-02",
-        "text": "サービス終了"
-      }
-    ],
-    "endReasons": [
-      "parent-strategy"
-    ],
-    "endReasonNote": "LINEヘルスケアは、健康相談を終了してオンライン診療「LINEドクター」に注力すると説明した（Impress Watch報道）。",
-    "lessons": "診療行為を伴わない無料中心の健康相談は、コロナ期に利用が急増しても収益化の道筋が見えにくく、診療へ軸足を移す判断につながったとみられる。",
-    "sources": [
-      "https://corporate.m3.com/press_release/2019/20191219_001525.html",
-      "https://www.itmedia.co.jp/news/article/1912/19/1191219130/",
-      "https://business.nikkei.com/atcl/gen/19/00110/040900015/",
-      "https://thebridge.jp/2020/03/first-call-line-healthcare-selected-by-meti-as-offering-health-consultatoin-desk",
-      "https://www.watch.impress.co.jp/docs/news/1462390.html"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-eb04532d",
     "name": "サプリ・OTC医薬品の情報メディア「alloeh」・集中サポートサプリ「doop」",
     "company": "株式会社アロエ",
@@ -8758,44 +8793,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-fcbd5570",
-    "name": "AIヘルスチェックツール「ObotAIヘルスケア」",
-    "company": "株式会社ObotAI",
-    "companyId": "1011001129784",
-    "category": "health-insuarance-market",
-    "description": "多言語AIチャットボットの会社が、健保組合・協会けんぽ・健診機関・企業向けに、スマホの設問回答から健康状態や疾患リスクを示し、オプション検査を提案するAIヘルスチェックを提供。",
-    "hp": "",
-    "startedYear": 2020,
-    "status": "不明",
-    "startedAt": "2020-06",
-    "milestones": [
-      {
-        "date": "2020-04",
-        "text": "自治体・医療機関向けに新型コロナ対応の多言語AIチャットボットを無償提供（1カ月半で約4万件の問い合わせ）"
-      },
-      {
-        "date": "2020-06",
-        "text": "「ObotAIヘルスケア」の提供を開始（6言語対応）"
-      },
-      {
-        "date": "2026-10",
-        "text": "サービスサイトは「メンテナンス中」で停止。会社は企業向けAIエージェント受託開発などを展開"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "終了の告知はなく、サイト停止の理由も公表されていない。会社の事業内容一覧にヘルスケアの記載はない。",
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000044.000036236.html",
-      "https://ascii.jp/elem/000/004/015/4015155/",
-      "https://obotai-healthcare.com/",
-      "https://obot-ai.com/company/",
-      "https://prtimes.jp/main/html/rd/p/000000116.000036236.html"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-c240729f",
     "name": "医療機関向けセミセルフレジ・自動精算機「ハヤレジ」シリーズ",
     "company": "ハヤレジ株式会社",
@@ -8874,41 +8871,6 @@
       "https://sogyotecho.jp/news/20240611wellhealth/",
       "https://wellhealth.tech/lp/",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120901047764"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-addec552",
-    "name": "看護師が24時間遠隔で見守る「みまもりナースステーション」",
-    "company": "遠隔みまもり看護株式会社",
-    "companyId": "5290001092557",
-    "category": "home-visit-nursing",
-    "description": "見守りセンサーや対話ロボットを使い、看護師・保健師・助産師がオンラインで24時間365日、独居者や在宅療養者、妊産婦などの健康相談や見守りを行うサービス。",
-    "hp": "",
-    "startedYear": null,
-    "status": "不明",
-    "milestones": [
-      {
-        "date": "2021",
-        "text": "会社設立"
-      },
-      {
-        "date": "2025-07",
-        "text": "横須賀市と防災協定を結び、合同訓練を実施（ブログの最終更新）"
-      },
-      {
-        "date": "2026-05",
-        "text": "厚生年金の適用事業所が全喪"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "公式サイトは公開中で終了の告知はなく、2025年夏以降の活動や理由は確認できない。",
-    "sources": [
-      "https://m-kango.co.jp/",
-      "https://initial.inc/companies/A-KQGMA",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5290001092557"
     ],
     "updatedAt": "2026-10"
   },
@@ -9465,12 +9427,20 @@
     "successor": "株式会社ARETECO HOLDINGS（合併先）",
     "milestones": [
       {
+        "date": "2019",
+        "text": "Relook株式会社設立。精神科医監修の1日10秒マインドフルネスなどのコンテンツを発表"
+      },
+      {
         "date": "2019-04",
         "text": "App Storeでアプリ公開"
       },
       {
         "date": "2021-01",
         "text": "Relook株式会社がARETECO HOLDINGSに吸収合併され解散"
+      },
+      {
+        "date": "2021-01",
+        "text": "20万ダウンロード突破後にARETECO HOLDINGSのグループに入り、同社に吸収合併。アプリはその後も提供され、累計45万ダウンロード"
       },
       {
         "date": "2021-04",
@@ -9488,7 +9458,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010901043682",
       "https://relook.jp/",
-      "https://apps.apple.com/jp/app/id1457868792"
+      "https://apps.apple.com/jp/app/id1457868792",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011001113645"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -10112,6 +10083,2204 @@
     "updatedAt": "2026-10",
     "themes": [
       "mental-chat"
+    ]
+  },
+  {
+    "id": "b-24c6d69f",
+    "name": "健康情報提供サービス「QUPiO」／「QUPiO Plus」",
+    "company": "ヘルスケア・コミッティー株式会社（花王子会社→SOMPOグループ）→ SOMPOヘルスサポート株式会社",
+    "category": "health-insuarance-market",
+    "description": "健保組合・共済組合など保険者向けに、加入者一人ひとりの健診結果に応じた健康情報をWEBサイトと冊子で届ける予防プログラム。保険者が費用を負担し、加入者に配るモデル。のちにポイント・ウォーキングイベント機能を加えた。",
+    "hp": "",
+    "startedYear": 2005,
+    "status": "終了",
+    "startedAt": "2005",
+    "endedAt": "2024-06",
+    "successor": "多くの保険者がDeSCヘルスケア「kencom」へ移行",
+    "milestones": [
+      {
+        "date": "2003-06",
+        "text": "ヘルスケア・コミッティー（HCC）設立。健保組合等向けの生活習慣改善プログラムを開始"
+      },
+      {
+        "date": "2005",
+        "text": "健康情報提供サービス「QUPiO」の提供を開始（SOMPOヘルスサポートの2019年発表による）"
+      },
+      {
+        "date": "2008",
+        "text": "花王がHCCの全株式を取得"
+      },
+      {
+        "date": "2012-05",
+        "text": "味の素がHCCに33.4%出資。QUPiOの利用ID数は約130万で、2020年までに500万以上へ拡大する目標を掲げた"
+      },
+      {
+        "date": "2018-02",
+        "text": "SOMPOリスケアマネジメントが花王からHCCの全株式を取得することで合意（同年4月に取得完了予定）"
+      },
+      {
+        "date": "2019-01",
+        "text": "SOMPOヘルスサポートがHCCを吸収合併し、HCCは解散"
+      },
+      {
+        "date": "2019-04",
+        "text": "SOMPOヘルスサポートの「ippo-ippo WEB」と「QUPiO WEB版」を統合し「QUPiO Plus」を開始。後期高齢者支援金の加減算指標への対応やポイントプログラムを打ち出した"
+      },
+      {
+        "date": "2024-03",
+        "text": "各保険者が「QUPiO Plus」の2024年6月19日終了を告知（ポイント交換は5月末まで）"
+      },
+      {
+        "date": "2024-06",
+        "text": "サービス終了。東京電力健保、日本製鋼所健保、東久留米市などがkencomへ移行"
+      }
+    ],
+    "endReasons": [
+      "acquisition",
+      "unknown"
+    ],
+    "endReasonNote": "提供会社は花王系→SOMPO系と変わり、合併後にブランドを統合した。QUPiO Plusの終了については、保険者の告知に「SOMPOヘルスサポート㈱のサービス終了に伴い」とあるのみで、終了の理由は公表されていない。",
+    "lessons": "保険者経由で百万単位のIDを持つサービスでも、親会社が変わるたびに統合・終了が起き、加入者は別のPHRへの乗り換えを求められたとみられる。",
+    "sources": [
+      "https://www.ajinomoto.co.jp/company/jp/presscenter/press/detail/2012_05_29.html",
+      "https://www.sompo-hs.co.jp/uploads/20180201_1.pdf",
+      "https://www.sompo-hs.co.jp/uploads/20181219_2.pdf",
+      "https://www.sompo-hs.co.jp/uploads/20190329_1.pdf",
+      "https://www.mekki-kenpo.or.jp/asp/news/news.asp?articleid=143817&page=1",
+      "https://www.todenkenpo.jp/inm/news/detail.html?articleid=462",
+      "https://www.city.higashikurume.lg.jp/kurashi/zei/kokuho/1006426.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-66bc140a",
+    "name": "健康ポータルサイト「ippo-ippo WEB」",
+    "company": "SOMPOリスケアマネジメント株式会社（現 SOMPOヘルスサポート株式会社）",
+    "category": "health-insuarance-market",
+    "description": "保健指導のノウハウをもとに、後期高齢者支援金の加減算指標に対応させた保険者向けの健康ポータルサイト。保険者が導入し加入者に提供した。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "統合",
+    "startedAt": "2018-04",
+    "endedAt": "2019-04",
+    "successor": "「QUPiO Plus」（同社、2024年6月終了）",
+    "milestones": [
+      {
+        "date": "2018-04",
+        "text": "健康ポータルサイトとして販売開始"
+      },
+      {
+        "date": "2019-01",
+        "text": "提供会社のSOMPOヘルスサポートが、買収したヘルスケア・コミッティーを吸収合併"
+      },
+      {
+        "date": "2019-04",
+        "text": "「QUPiO WEB版」と統合し「QUPiO Plus」として再出発"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "SOMPOヘルスサポートは、ヘルスケア・コミッティーとの合併に伴い、両社のWEBでの情報提供サービスを統合すると発表した。",
+    "sources": [
+      "https://www.sompo-hs.co.jp/uploads/20181219_2.pdf",
+      "https://www.sompo-hs.co.jp/uploads/20190329_1.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-55e16587",
+    "name": "健康プラットフォーム「WM（わたしムーヴ）」／法人向け「WM for business」「健康サポートLink」",
+    "company": "ドコモ・ヘルスケア株式会社（NTTドコモとオムロン ヘルスケアの合弁）→ 株式会社NTTドコモ",
+    "category": "health-corporate-management",
+    "description": "スマホと通信機能付きの体組成計・血圧計・活動量計で、体重や歩数などの「からだデータ」を記録する健康プラットフォーム。2016年から企業向け、2017年からは従業員の健康データを企業が可視化する「健康サポートLink」を販売した。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "終了",
+    "startedAt": "2013-04",
+    "endedAt": "2022-03",
+    "successor": "「dヘルスケア」「dヘルスケア for Biz」（ドコモ）",
+    "milestones": [
+      {
+        "date": "2012-07",
+        "text": "ドコモとオムロン ヘルスケアが新会社ドコモ・ヘルスケアを設立すると発表"
+      },
+      {
+        "date": "2013-04",
+        "text": "健康プラットフォーム「WM（わたしムーヴ）」を開始"
+      },
+      {
+        "date": "2016-05",
+        "text": "法人向け「WM for business」を本格提供"
+      },
+      {
+        "date": "2017-04",
+        "text": "法人向け「健康サポートLink」などの提供を開始"
+      },
+      {
+        "date": "2019-04",
+        "text": "NTT健保がWMを基盤とした「NTT健康ポータルナビ」の提供を開始"
+      },
+      {
+        "date": "2019-12",
+        "text": "オムロン ヘルスケアが保有株をドコモに譲渡し、ドコモがドコモ・ヘルスケアの吸収合併を決議"
+      },
+      {
+        "date": "2020-04",
+        "text": "ドコモがドコモ・ヘルスケアを吸収合併（サービスは継続）"
+      },
+      {
+        "date": "2021-03",
+        "text": "ドコモがWM、健康サポートLink、my sleep、特定保健指導など法人向けサービスを2022年3月末までに終了すると発表"
+      },
+      {
+        "date": "2021-03",
+        "text": "ドコモが法人向け健康経営サービスの再編とあわせ、WMを2022年3月31日に終了すると発表"
+      },
+      {
+        "date": "2021-10",
+        "text": "データ移行先のdヘルスケアアプリへの移行準備（予定）"
+      },
+      {
+        "date": "2022-03",
+        "text": "WMアプリと関連サービスを終了。バイタルデータはdヘルスケアへ移行可能とした"
+      },
+      {
+        "date": "2022-03",
+        "text": "2022年3月31日に終了。オムロン製の血圧計・体組成計など25機種がWM経由では使えなくなり、OMRON connect対応の代替機種の割引販売を案内"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy",
+      "acquisition"
+    ],
+    "endReasonNote": "ドコモは「現在の利用状況を鑑み、ドコモの今後の事業戦略として」法人向け健康経営サービスの提供を終了し、「dヘルスケア for Biz」を中心に一新すると説明した。運営していた合弁会社は2020年にドコモへ吸収合併されている。",
+    "lessons": [
+      "通",
+      "信",
+      "会",
+      "社",
+      "と",
+      "機",
+      "器",
+      "メ",
+      "ー",
+      "カ",
+      "の",
+      "合",
+      "弁",
+      "で",
+      "始",
+      "め",
+      "た",
+      "連",
+      "動",
+      "型",
+      "健",
+      "康",
+      "管",
+      "理",
+      "は",
+      "、",
+      "親",
+      "自",
+      "ポ",
+      "イ",
+      "ン",
+      "ト",
+      "経",
+      "済",
+      "圏",
+      "ア",
+      "プ",
+      "リ",
+      "へ",
+      "集",
+      "約",
+      "幕",
+      "を",
+      "閉",
+      "じ",
+      "み",
+      "ら",
+      "れ",
+      "る",
+      "。",
+      "が",
+      "組",
+      "ん",
+      "だ",
+      "デ",
+      "タ",
+      "基",
+      "盤",
+      "終",
+      "わ",
+      "利",
+      "用",
+      "者",
+      "手",
+      "元",
+      "計",
+      "測",
+      "使",
+      "え",
+      "な",
+      "く",
+      "例",
+      "っ"
+    ],
+    "sources": [
+      "https://www.omron.com/jp/ja/news/2012/07/h0702.html",
+      "https://www.docomo.ne.jp/info/news_release/2013/03/06_00.html",
+      "https://prtimes.jp/main/html/rd/p/000000023.000012247.html",
+      "https://www.docomo.ne.jp/info/news_release/2019/12/20_00.html",
+      "https://www.docomo.ne.jp/info/news_release/2021/03/08_02.html",
+      "https://www.nttkenpo.jp/asp/news/news.asp?articleid=110620",
+      "https://internet.watch.impress.co.jp/docs/yajiuma/1319711.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-23678dfc",
+    "name": "法人向け健康管理サービス「Re:Body（リボディ）」",
+    "company": "株式会社NTTドコモ／伊藤忠商事株式会社／ウェルネス・コミュニケーションズ株式会社",
+    "category": "health-corporate-management",
+    "description": "健康経営に取り組む企業の社員向けに、健診結果・歩数・体重などを専用サーバーに集めてスマホで見られるようにする健康ポータル。3社が共同で企画・開発し、伊藤忠社員から導入した。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "不明",
+    "startedAt": "2017-04",
+    "milestones": [
+      {
+        "date": "2017-01",
+        "text": "ドコモ・伊藤忠商事・WCCの3社共同開発を発表。伊藤忠社員向けに導入開始"
+      },
+      {
+        "date": "2017-04",
+        "text": "法人企業向けに提供開始（活動量計「ムーヴバンド」は別途購入）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2021年のドコモの法人向け健康サービス整理の告知には名前がなく、終了の告知も見つからなかった。現在の提供状況は確認できない。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2017/01/10_00.html",
+      "https://www.itochu.co.jp/ja/news/press/2017/170110.html",
+      "https://www.jpx.co.jp/listing/stocks/new/um3qrc000001ioif-att/06WellnessCommunications-1ts.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-80e87556",
+    "name": "法人向け健康経営支援サービス「dヘルスケア for Biz」",
+    "company": "株式会社NTTドコモ",
+    "category": "health-corporate-management",
+    "description": "従業員がドコモの「dヘルスケア」アプリ上で健診結果などを確認でき、企業が健康経営の施策に使える法人向けサービス。2021年からドコモの法人向け健康サービスの中心に位置づけられた。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-04",
+    "milestones": [
+      {
+        "date": "2020-04",
+        "text": "提供開始"
+      },
+      {
+        "date": "2021-03",
+        "text": "WMなど4つの法人向けサービスを終了し、本サービスを中心に一新すると発表"
+      },
+      {
+        "date": "2025-11",
+        "text": "NTT健保が、NTTグループ向けの「dヘルスケア（NTT限定機能）」を2026年3月末で終了すると告知（ドコモのサービス提供終了に伴う）"
+      },
+      {
+        "date": "2026-07",
+        "text": "ドコモが「dヘルスケア」事業を吸収分割でNTTプレシジョンメディシンへ移し、2026年10月から運営会社を変更すると発表（報道）"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2020/04/13_01.html",
+      "https://www.docomo.ne.jp/info/news_release/2021/03/08_02.html",
+      "https://www.nttkenpo.jp/asp/news/news.asp?articleid=p175338&page=1",
+      "https://www.nikkei.com/article/DGXZQOUC307RK0Q6A730C2000000/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-ccb1661c",
+    "name": "PHRサービス「Pep Up（ペップアップ）」",
+    "company": "株式会社JMDC",
+    "companyId": "6010403010531",
+    "category": "personal-health-record",
+    "description": "健保組合などの保険者が加入者に配る健康ポータル・アプリ。健診結果や医療費の閲覧、歩数記録、健康ポイントなどを提供する。保険者が費用を負担するモデル。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-02",
+    "milestones": [
+      {
+        "date": "2016-02",
+        "text": "健康保険組合向けに提供開始"
+      },
+      {
+        "date": "2021-09",
+        "text": "ユーザーID発行数が300万人を突破"
+      },
+      {
+        "date": "2023-02",
+        "text": "関東ITソフトウェア健保が健康ポータルをPep Upに切り替え"
+      },
+      {
+        "date": "2023-03",
+        "text": "三菱重工健保が「KENPOS」を終了しPep Upへ集約"
+      },
+      {
+        "date": "2025-04",
+        "text": "住友商事健保が健康マイレージの基盤をKENPOSからPep Upへ変更"
+      },
+      {
+        "date": "2025-07",
+        "text": "ユーザーID発行数が約740万人"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "lessons": "他社の健保向けPHRを終えた保険者の受け皿になっており、保険者向けPHRは少数のサービスに集約が進んでいるとみられる。",
+    "sources": [
+      "https://www.jmdc.co.jp/news/news20210916/",
+      "https://www.jmdc.co.jp/news/news2025/news20250707/",
+      "https://stories.jmdc.co.jp/pepup",
+      "https://www.its-kenpo.or.jp/NEWS/kanri/20221121.html",
+      "https://www.mhi.or.jp/contents/topics/2022/20221024_my-kenpo-end.html",
+      "https://www.sckenpo.or.jp/news/news_detail.php?id=442"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-b098bdcd",
+    "name": "健康アプリ「kencom（ケンコム）」",
+    "company": "DeSCヘルスケア株式会社",
+    "companyId": "1011001104408",
+    "category": "personal-health-record",
+    "description": "健保組合や自治体、生命保険会社が加入者・住民に配る健康アプリ。健診結果や歩数をもとに情報を届け、ゲーム要素やポイントで継続を促す。保険者・自治体が費用を負担するモデル。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015-04",
+    "milestones": [
+      {
+        "date": "2015-02",
+        "text": "DeNAと住友商事が合弁会社の設立と、健保組合の「データヘルス計画」を支援する新事業「KenCoM」を発表"
+      },
+      {
+        "date": "2015-03",
+        "text": "DeSCヘルスケア設立"
+      },
+      {
+        "date": "2015-04",
+        "text": "KenCoMの運用開始"
+      },
+      {
+        "date": "2021-09",
+        "text": "法研（MY HEALTH WEB）と業務提携"
+      },
+      {
+        "date": "2022-06",
+        "text": "DeNAがデータホライゾンを公開買付け等で子会社化すると発表。データホライゾンはDeNAと住友商事の合弁だったDeSCの株式95%を取得し子会社化する計画とされた"
+      },
+      {
+        "date": "2024-03",
+        "text": "愛媛県の事業終了に伴い県内国保向けの一部機能を停止。日本郵船健保など一部の健保は契約を終了"
+      },
+      {
+        "date": "2024-06",
+        "text": "SOMPOヘルスサポートの「QUPiO Plus」終了に伴い、複数の保険者・自治体の移行先となる"
+      },
+      {
+        "date": "2024-09",
+        "text": "DeNAは発表で、2015年の開始以来121団体・約610万人に提供したとした"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.sumitomocorp.com/ja/jp/news/release/2015/group/20150203_1",
+      "https://desc-hc.co.jp/archives/149",
+      "https://dena.com/jp/news/4784/",
+      "https://dena.com/jp/news/4870/",
+      "https://gamebiz.jp/news/352137",
+      "https://dena.com/jp/news/5157/",
+      "https://nykkenpo.or.jp/news/1031/",
+      "https://www.pref.ehime.jp/page/17814.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-8e0d2fbe",
+    "name": "個人向け健康ポータル「MY HEALTH WEB」",
+    "company": "株式会社法研",
+    "companyId": "7010001057148",
+    "category": "health-insuarance-market",
+    "description": "健保組合が加入者専用ページを設け、健診結果・医療費情報の閲覧や各種申請をWEB・アプリで提供する個人向け健康ポータル。健保が導入し法研に運営を委託するモデル。160組合・500万ユーザーの導入実績をうたう。",
+    "hp": "",
+    "startedYear": 2011,
+    "status": "提供中",
+    "startedAt": "2011",
+    "milestones": [
+      {
+        "date": "2011",
+        "text": "サービス提供開始（大和総研の2021年発表による）"
+      },
+      {
+        "date": "2021-06",
+        "text": "健保向け基幹システムを提供する大和総研と、健保組合向けDX推進で協業"
+      },
+      {
+        "date": "2021-09",
+        "text": "DeNA子会社DeSCヘルスケア（kencom）と業務提携。導入実績は160以上"
+      },
+      {
+        "date": "2024-03",
+        "text": "ジブラルタ健保がKENPOSを終了し、過去の健診結果をMY HEALTH WEBで閲覧できるようにした"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.sociohealth.co.jp/services/product/my-health-web/",
+      "https://www.dir.co.jp/release/2021/2021061801.html",
+      "https://dena.com/jp/news/4784/",
+      "https://www.gib-kenpo.or.jp/inm/news/detail.html?articleid=153"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-7d6cf0f0",
+    "name": "健康増進セルフケアサービス「KENPOS」",
+    "company": "住友商事株式会社 → 株式会社イーウェル（2025年からエムスリー子会社）",
+    "category": "health-insuarance-market",
+    "description": "健保組合の加入者向けに、歩数・体重の記録、SNS機能、健診結果閲覧、健康ポイントなどを提供する健康応援サイト・アプリ。住友商事のサイトとイーウェルの健診代行サービスを統合して健保に販売した。",
+    "hp": "",
+    "startedYear": 2013,
+    "status": "提供中",
+    "startedAt": "2013-04",
+    "milestones": [
+      {
+        "date": "2013-04",
+        "text": "住友商事の健康応援サイト「KENPOS」とイーウェルの「KENKOBOX」を統合し、健保向けに販売開始。約70健保・約100万人に導入見込みで、3年後に300万人を目標とした"
+      },
+      {
+        "date": "2023-03",
+        "text": "三菱重工健保がKENPOSを終了し、Pep Upへ集約"
+      },
+      {
+        "date": "2023-09",
+        "text": "マイナポータルとの連携を開始"
+      },
+      {
+        "date": "2024-03",
+        "text": "ジブラルタ健保がKENPOSの利用を終了"
+      },
+      {
+        "date": "2025-03",
+        "text": "エムスリーが東急不動産からイーウェル株式を取得し連結子会社化。同月、住友商事健保がKENPOSの利用を終え、4月からPep Upへ切り替え"
+      },
+      {
+        "date": "2026-03",
+        "text": "味の素健保が「健診申込方法変更に伴い」KENPOSのサービスをすべて終了"
+      }
+    ],
+    "endReasonNote": "サービスは提供中。ただし大手健保の離脱が続いており、各健保の告知では理由として健診申込方法の変更や他サービスへの集約が挙げられている。",
+    "lessons": "開発元である住友商事の健保自身も他社PHRに切り替えており、健保向けPHRの乗り換えが起きやすいことを示す事例とみられる。",
+    "sources": [
+      "https://www.sumitomocorp.com/ja/jp/news/release/2013/group/20130419",
+      "https://www.ewel.co.jp/newsrelease/detail.html?CN=319",
+      "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/7tufKyUDXjquVgYOTI7RiA/9cf65468dab645464b7dc444c69e724b/20250305_Public_J.pdf",
+      "https://www.mhi.or.jp/contents/topics/2022/20221024_my-kenpo-end.html",
+      "https://www.gib-kenpo.or.jp/inm/news/detail.html?articleid=153",
+      "https://www.sckenpo.or.jp/news/news_detail.php?id=442",
+      "https://www.kenpo.gr.jp/ajinomoto-kenpo/contents/topics/2026/03.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-d5a7934e",
+    "name": "健康管理クラウド「Health Data Bank」",
+    "company": "株式会社NTTデータ",
+    "category": "health-corporate-management",
+    "description": "企業・健保向けに、約2,000の健診機関から健診データを直接受け取って形式をそろえ、健診結果やストレスチェックを一元管理する健康管理システム。従業員はWEB・アプリで自分のデータを見られる。",
+    "hp": "",
+    "startedYear": 2002,
+    "status": "提供中",
+    "startedAt": "2002",
+    "milestones": [
+      {
+        "date": "2002",
+        "text": "運用開始（NTTデータの2022年の記事による）"
+      },
+      {
+        "date": "2023-03",
+        "text": "Health Data Bankに蓄積したNTTデータ社員約600名分の健診結果・歩数・睡眠データで商品検証できるラボを開設"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.nttdata.com/jp/ja/lineup/health_data_bank/",
+      "https://www.nttdata.com/jp/ja/trends/data-insight/2022/0221/",
+      "https://www.nttdata.com/global/ja/news/release/2023/030901/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-4e5fa2ce",
+    "name": "健康管理クラウド「ヘルスサポートシステム」（現 Growbase）",
+    "company": "伊藤忠商事株式会社（社内ベンチャー）→ ウェルネス・コミュニケーションズ株式会社",
+    "category": "health-corporate-management",
+    "description": "企業向けに健診予約・結果管理、ストレスチェック、産業保健業務をまとめて管理するクラウド。伊藤忠の社内ベンチャーとして始まり、健診代行会社に事業が移った。",
+    "hp": "",
+    "startedYear": 2003,
+    "status": "提供中",
+    "startedAt": "2003",
+    "milestones": [
+      {
+        "date": "2003",
+        "text": "伊藤忠商事の社内ベンチャー制度で「ヘルスサポートシステム」事業を開始"
+      },
+      {
+        "date": "2006",
+        "text": "伊藤忠商事の100%出資でウェルネス・コミュニケーションズ（WCC）設立"
+      },
+      {
+        "date": "2010-04",
+        "text": "WCCが伊藤忠商事からヘルスサポートシステム事業を譲受"
+      },
+      {
+        "date": "2017-04",
+        "text": "ドコモ・伊藤忠商事と共同で健康管理アプリ「Re:Body」をリリース"
+      },
+      {
+        "date": "2018-07",
+        "text": "クラウド（SaaS）版として刷新（現Growbase）"
+      },
+      {
+        "date": "2018-08",
+        "text": "SOMPOリスクケアマネジメント（現SOMPOヘルスサポート）と業務提携"
+      },
+      {
+        "date": "2025-06",
+        "text": "WCCが東証に新規上場（有価証券届出書の日程による）"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://wellcoms.jp/company/outline/",
+      "https://www.jpx.co.jp/listing/stocks/new/um3qrc000001ioif-att/06WellnessCommunications-1ts.pdf",
+      "https://search.sbisec.co.jp/v2/popwin/info/connect/ipo/202505192102.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-79ebbfee",
+    "name": "ヘルスケアアプリ「QOLism（キュオリズム）」",
+    "company": "株式会社QOLead（第一生命グループ）",
+    "category": "health-insuarance-market",
+    "description": "健保組合・共済組合・企業・自治体が加入者や従業員に配る健康アプリ。歩数記録、食事記録、イベント、ポイント交換などを提供し、管理ツールで利用状況を可視化する。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-04",
+    "milestones": [
+      {
+        "date": "2018-10",
+        "text": "QOLead設立。かんぽ生命への健康増進サービスの提供開始"
+      },
+      {
+        "date": "2021-04",
+        "text": "QOLismの提供開始"
+      },
+      {
+        "date": "2024-04",
+        "text": "メンタルヘルスの相談窓口などを加えた「QOLism メンタルケアプラン」を開始"
+      },
+      {
+        "date": "2024-07",
+        "text": "第一生命ホールディングスの株主優待としてQOLismの提供を開始"
+      },
+      {
+        "date": "2024-09",
+        "text": "第一生命が子会社化したベネフィット・ワンの「ベネフィット・ステーション」でQOLismの提供を開始"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://qolead.com/info/",
+      "https://www.techfirm.co.jp/news/20210416",
+      "https://prtimes.jp/main/html/rd/p/000000090.000027306.html",
+      "https://qolead.com/info/1294/",
+      "https://www.dai-ichi-life.co.jp/company/news/pdf/2024_028.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-fed4bae0",
+    "name": "健康経営支援サービス「＆well（アンドウェル）」",
+    "company": "三井不動産株式会社（日本予防医学協会と共同）",
+    "category": "health-corporate-management",
+    "description": "オフィスビルを持つ不動産会社が、テナント企業や健保の従業員向けに提供する健康支援アプリと健康経営サービス。健康知識の配信、歩数記録、ポイント、ウォーキングイベントなど。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-06",
+    "milestones": [
+      {
+        "date": "2019-06",
+        "text": "日本予防医学協会と共同で提供開始"
+      },
+      {
+        "date": "2022-03",
+        "text": "生活習慣病発症リスク予測AIを導入"
+      },
+      {
+        "date": "2026-06",
+        "text": "シーイーシー健保が「諸般の事情により」＆wellの利用を2026年7月末で終了すると告知（健保単位の契約終了。MBK連合健保などでは提供が続いている）"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.mitsuifudosan.co.jp/corporate/news/2019/0627_01/",
+      "https://digitalpr.jp/r/56766",
+      "https://cec-kenpo.or.jp/news/3980/",
+      "https://www.mbk-rengo-kenpo.or.jp/news/11100/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-e6b7d3df",
+    "name": "「CARADA健診手帳」（企業向けCARADAパックの関連サービス）",
+    "company": "株式会社エムティーアイ",
+    "companyId": "4140001030292",
+    "category": "personal-health-record",
+    "description": "携帯コンテンツ大手が手がける健康管理アプリ「CARADA」の一機能として、健診結果をスマホで管理できるようにしたサービス。同社は企業向けに「企業向けCARADAパック」として健康経営支援を販売していた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2020-06",
+    "successor": "健診機関向け「CARADA健診サポート」（2020年3月にリニューアル）",
+    "milestones": [
+      {
+        "date": "2018-03",
+        "text": "「企業向けCARADAパック」の導入企業が200社以上と発表。プライムアシスタンス（SOMPOグループ）が企業向けに提供する「リンククロス健康経営パッケージ」の健康管理サービスに採用"
+      },
+      {
+        "date": "2020-03",
+        "text": "健診機関支援サービスを「CARADA健診サポートパック」としてリニューアル"
+      },
+      {
+        "date": "2020-06",
+        "text": "「CARADA健診手帳」のすべてのサービスを終了（データ移行受付は2020年8月末まで）"
+      },
+      {
+        "date": "2021-01",
+        "text": "「企業向けCARADAパック」の導入実績は370社以上と発表"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知はあるが、理由は公表されていない。",
+    "sources": [
+      "https://www.carada.jp/kenshin/",
+      "https://www.mti.co.jp/?p=22550",
+      "https://www.mti.co.jp/?p=25066",
+      "https://www.mti.co.jp/?p=27825"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-d33a3258",
+    "name": "健康経営支援サービス「FiNC for BUSINESS」",
+    "company": "株式会社FiNC Technologies",
+    "companyId": "8010401099235",
+    "category": "health-corporate-management",
+    "description": "従業員向けの健康アプリと企業向けの管理システムを一体で提供する健康経営プラットフォーム。労働安全衛生法に基づく健康管理業務の負担軽減も担う。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016",
+    "milestones": [
+      {
+        "date": "2016-12",
+        "text": "法人・自治体向けの健康サポート事業を開始（報道）"
+      },
+      {
+        "date": "2019-11",
+        "text": "FiNC for BUSINESSの積極的な営業を中断する決定がなされた（当時の事業責任者の手記）。2020年夏に再注力"
+      },
+      {
+        "date": "2025-02",
+        "text": "メドレー子会社グッピーズのヘルスケア事業（グッピーヘルスケア）を吸収分割で譲り受けることで合意。FiNC for BUSINESSは累計400社以上に導入"
+      },
+      {
+        "date": "2025-04",
+        "text": "代表取締役の変更を発表"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.ryutsuu.biz/strategy/mn7005-15.html",
+      "https://note.com/naokiosada/n/nccf8b1790aa7",
+      "https://prtimes.jp/main/html/rd/p/000000354.000027329.html",
+      "https://finc.com/news/QUr8ZwCf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-1dd4d600",
+    "name": "健康管理システム「Carely（ケアリィ）」",
+    "company": "株式会社iCARE",
+    "companyId": "2010401094225",
+    "category": "health-corporate-management",
+    "description": "企業の人事・産業保健スタッフ向けに、健診結果・ストレスチェック・面談記録などを一元管理するクラウド。従業員はチャットで専門職に相談できる。企業が月額で払うSaaSモデル。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-03",
+    "milestones": [
+      {
+        "date": "2016-03",
+        "text": "法人向けヘルスケアプラットフォーム「carely」を提供開始"
+      },
+      {
+        "date": "2017-07",
+        "text": "ストレスチェック後の高ストレス者フォロー機能を追加"
+      },
+      {
+        "date": "2025-09",
+        "text": "オムロンがiCAREの全株式を取得すると発表（2025年10月完了予定）"
+      },
+      {
+        "date": "2026-08",
+        "text": "パーソルビジネスプロセスデザインから健康診断支援・特定保健指導事業を譲受"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.icare-carely.co.jp/business",
+      "https://www.icare-carely.co.jp/news/20160307carely",
+      "https://prtimes.jp/main/html/rd/p/000000003.000022826.html",
+      "https://www.omron.com/jp/ja/news/2025/09/c0918.html",
+      "https://prtimes.jp/main/html/rd/p/000000211.000022826.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-74610c42",
+    "name": "AIヘルスチェック「ObotAIヘルスケア」",
+    "company": "株式会社ObotAI",
+    "companyId": "1011001129784",
+    "category": "health-insuarance-market",
+    "description": "健保組合・協会けんぽ・健診機関・企業向けに、バイタルデータや健診結果からAIが疾患リスクを示し、健康指導やオプション検査を案内するチャット型ツール。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "休止",
+    "startedAt": "2020-06",
+    "endedAt": "2024-02",
+    "milestones": [
+      {
+        "date": "2020-04",
+        "text": "自治体・医療機関向けに新型コロナ対応の多言語AIチャットボットを無償提供（1カ月半で約4万件の問い合わせ）"
+      },
+      {
+        "date": "2020-06",
+        "text": "組合健保・協会けんぽ・人間ドック・健診機関・企業向けに提供開始を発表"
+      },
+      {
+        "date": "2020-06",
+        "text": "「ObotAIヘルスケア」の提供を開始（6言語対応）"
+      },
+      {
+        "date": "2024-02",
+        "text": "サービスサイトが「メンテナンス中」となる（2025年10月のWayback Machine保存時点でも同じ表示）"
+      },
+      {
+        "date": "2026-10",
+        "text": "サービスサイトは「メンテナンス中」で停止。会社は企業向けAIエージェント受託開発などを展開"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "サイトはメンテナンス中の表示のままで、終了や再開の告知はない。理由は公表されていない。会社は多言語AIチャットボットなどの事業を続けている。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000044.000036236.html",
+      "https://obotai-healthcare.com/",
+      "http://web.archive.org/web/20251008001728/https://obotai-healthcare.com/",
+      "https://ascii.jp/elem/000/004/015/4015155/",
+      "https://obot-ai.com/company/",
+      "https://prtimes.jp/main/html/rd/p/000000116.000036236.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-7478edb4",
+    "name": "ヘルスケアアプリ「HELPO（ヘルポ）」",
+    "company": "ヘルスケアテクノロジーズ株式会社",
+    "companyId": "6010001195683",
+    "category": "health-consulting",
+    "description": "24時間チャットで医療者に相談できる健康医療相談、病院検索、オンライン診療などをまとめたアプリ。法人・健保・自治体が従業員や加入者に配るモデルで、損保経由でも販売される。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-07",
+    "milestones": [
+      {
+        "date": "2020-07",
+        "text": "法人・自治体向けに提供開始"
+      },
+      {
+        "date": "2021-06",
+        "text": "MICINと協業しオンライン診療機能を追加"
+      },
+      {
+        "date": "2022-07",
+        "text": "ソフトバンクの完全子会社となる"
+      },
+      {
+        "date": "2024-01",
+        "text": "大東建託健保に納入"
+      },
+      {
+        "date": "2024-04",
+        "text": "アプリをフルリニューアル"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.softbank.jp/corp/news/press/sbkk/2020/20200729_02/",
+      "https://healthcare-tech.co.jp/about/",
+      "https://micin.jp/news/4803/",
+      "https://healthcare-tech.co.jp/news/20220720",
+      "https://prtimes.jp/main/html/rd/p/000000064.000054466.html",
+      "https://healthcare-tech.co.jp/news/20240415"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-5025cc60",
+    "name": "健康経営支援「M3PSP」ほか（empheal）",
+    "company": "株式会社empheal",
+    "companyId": "1010001199714",
+    "category": "health-corporate-management",
+    "description": "ドコモの顧客基盤とエムスリーの医師ネットワークを組み合わせ、企業の健康経営をデータで支援する合弁事業。従業員の健康課題を可視化し、医療相談などのサービスにつなぐ。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "終了",
+    "startedAt": "2019-04",
+    "endedAt": "2023-09",
+    "successor": "知見はドコモ・エムスリーの両社グループに引き継ぎ",
+    "milestones": [
+      {
+        "date": "2019-02",
+        "text": "ドコモとエムスリーが資本・業務提携を発表し、合弁会社emphealの設立を決定"
+      },
+      {
+        "date": "2019-04",
+        "text": "営業開始（ドコモ51%、エムスリー49%）"
+      },
+      {
+        "date": "2023-06",
+        "text": "ドコモがemphealの清算を発表"
+      },
+      {
+        "date": "2023-09",
+        "text": "清算結了"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "ドコモは「事業環境の変化などにより、当初想定した事業モデルの確立をめざすよりも、emphealの事業活動で得られた知見を両社グループに引継いで事業展開を行った方が今後の拡大が見込めると判断した」と説明している。",
+    "lessons": "大手2社の合弁でも、健康経営支援の事業モデルを単独で確立するには至らなかった事例とみられる。",
+    "sources": [
+      "https://corporate.m3.com/press_release/2019/20190228_001463.html",
+      "https://www.docomo.ne.jp/info/news_release/2023/06/28_00.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001199714"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-7816d739",
+    "name": "重症化予防プログラム「Mystar」／医療データ解析「Myscope」",
+    "company": "株式会社PREVENT",
+    "companyId": "3180001124224",
+    "category": "health-insuarance-market",
+    "description": "健保組合・企業・自治体の健診・レセプトデータを解析して重症化リスクの高い人を抽出し、アプリと専門職による生活習慣改善支援を提供する。保険者が委託費を払うモデル。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-08",
+    "milestones": [
+      {
+        "date": "2018-08",
+        "text": "重症化予防アプリ「Mystar」をリリース"
+      },
+      {
+        "date": "2021-08",
+        "text": "住友生命のCVCが出資し業務提携"
+      },
+      {
+        "date": "2023-12",
+        "text": "住友生命が全株式を取得し完全子会社化。Vitality健康プログラムとの協業を掲げる"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000036875.html",
+      "https://mugenlabo-magazine.kddi.com/list/sumitomolife-prevent/",
+      "https://www.sumitomolife.co.jp/news/news_file/file/231208.pdf",
+      "https://prevent.co.jp/news/p262/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-fa043ce3",
+    "name": "セルフ健康チェック「スマホdeドック」",
+    "company": "KDDI株式会社",
+    "category": "health-insuarance-market",
+    "description": "自宅で指先から少量の血液を採って郵送し、結果をスマホで確認できる検査サービス。自治体や健保が健診未受診者などに配り、保健事業として費用を負担するモデル。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015",
+    "milestones": [
+      {
+        "date": "2015",
+        "text": "KDDIが費用を負担し、20自治体・3健保で実証事業（報道）"
+      },
+      {
+        "date": "2016-06",
+        "text": "28年度事業として27市町村が参加。個人向けにも4,980円（税抜）で提供"
+      },
+      {
+        "date": "2017-06",
+        "text": "29年度事業に全国42市区が参加。結果確認後30日間の専門家への健康相談を追加"
+      },
+      {
+        "date": "2024-09",
+        "text": "ファストドクターと組み、自治体・企業・健保向けのオンライン受診相談オプションを開始"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://xtech.nikkei.com/dm/atcl/feature/15/327441/100700012/",
+      "https://news.kddi.com/kddi/corporate/newsrelease/2016/06/16/besshi1862.html",
+      "https://news.kddi.com/kddi/corporate/newsrelease/2017/06/27/besshi2525.html",
+      "https://www.kddi.com/corporate/sustainability/regional-initiative/pressrelease/20240930/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-70f29e9e",
+    "name": "PHR管理システム「スマートワンヘルス（Smart One Health）」",
+    "company": "株式会社インテグリティ・ヘルスケア",
+    "companyId": "3010001128547",
+    "category": "personal-health-record",
+    "description": "健診結果のデータ化、AIによる受診勧奨、オンライン診療や産業医との連携までを一つのアプリでつなぐ企業・健保向けのサービス。日立システムズなども販売する。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-03",
+    "milestones": [
+      {
+        "date": "2021-03",
+        "text": "オンライン診療システムと連携するPHR管理アプリとして提供開始"
+      },
+      {
+        "date": "2025-09",
+        "text": "NTTプレシジョンメディシンとの連携を強め、健保向け「スマートワンヘルス for KENPO」を開始"
+      },
+      {
+        "date": "2026-05",
+        "text": "企業・健保向けの新サービスとして全面リニューアル"
+      },
+      {
+        "date": "2026-09",
+        "text": "旧サービス（旧アプリ）を2026年11月30日に終了すると告知"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000064327.html",
+      "https://www.integrity-healthcare.co.jp/news/press/sohkenpo_250901",
+      "https://www.integrity-healthcare.co.jp/news/info/2026-09-30-soh",
+      "https://www.hitachi-systems.com/solution/s0312/smartonehealth/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-de92c993",
+    "name": "健保向けカフェテリアプラン・健康管理システム「バリューカフェテリア」",
+    "company": "バリューHR",
+    "companyId": "7011001036950",
+    "category": "health-insuarance-market",
+    "description": "健保組合の保健事業向けに、加入者が健診や保健サービスをポイントで選べるカフェテリアプランと、健診予約・結果管理システムを提供する。健保・企業が費用を負担するモデル。",
+    "hp": "",
+    "startedYear": 2001,
+    "status": "提供中",
+    "startedAt": "2001-11",
+    "milestones": [
+      {
+        "date": "2001-11",
+        "text": "健保組合の保健事業向けカフェテリアプラン「バリューカフェテリア」の提供開始"
+      },
+      {
+        "date": "2005-05",
+        "text": "健診予約システム、健診結果管理システムの提供開始"
+      },
+      {
+        "date": "2023-11",
+        "text": "第3期データヘルス計画（2024年度〜）への対応を打ち出す"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://edinetdb.jp/company/E22470/history",
+      "https://daiwair.webcdn.stream.ne.jp/www11/daiwair/qlviewer/pdf/2605206078ufbu4ywG7.pdf",
+      "https://www.valuehr.com/docs/archives/2728"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "phr-employer"
+    ]
+  },
+  {
+    "id": "b-81fad427",
+    "name": "複数自治体連携型大規模健幸ポイントプロジェクト（SWC健幸ポイント実証）",
+    "company": "株式会社つくばウエルネスリサーチ／筑波大学／みずほ情報総研／凸版印刷（6市と連携）",
+    "category": "health-corporate-management",
+    "description": "歩数や健康教室への参加などに応じて自治体が住民にポイントを付与し、地域商品券などに交換できるようにした国の実証事業。6市が参加し、ポイントが歩数や医療費に与える影響を検証した。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "終了",
+    "startedAt": "2014-12",
+    "endedAt": "2017-03",
+    "successor": "つくばウエルネスリサーチが各自治体向けに健幸ポイント事業を継続展開",
+    "milestones": [
+      {
+        "date": "2014-10",
+        "text": "総合特区の6市（新潟県見附市、大阪府高石市など）とみずほ銀行、つくばウエルネスリサーチ、筑波大学の産官学連携で実証を発表"
+      },
+      {
+        "date": "2014-12",
+        "text": "実証開始（2014年度参加者は7,623人）"
+      },
+      {
+        "date": "2017-03",
+        "text": "実証期間終了"
+      },
+      {
+        "date": "2017-05",
+        "text": "最終成果を発表。参加者の歩数増加などを報告"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "期間を定めた実証事業として予定どおり終了した。その後、自治体の健康ポイント事業の原型として各地に広がった。",
+    "lessons": "国の実証として始まった健康ポイントは、その後自治体の単年度予算による委託事業として各地に広がったとみられる。",
+    "sources": [
+      "https://xtech.nikkei.com/dm/article/NEWS/20141003/380423/",
+      "https://www.holdings.toppan.com/ja/news/2017/05/newsrelease170511.html",
+      "https://www.mizuhobank.co.jp/release/rt/pdf/20170511release_jp.pdf",
+      "https://www.twr.jp/investigation"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-0cb51120",
+    "name": "よこはまウォーキングポイント",
+    "company": "横浜市（共同事業者：凸版印刷・オムロン ヘルスケア → ドコモ・ヘルスケア／NTTドコモ → NTTコミュニケーションズ（現 NTTドコモビジネス））",
+    "category": "health-corporate-management",
+    "description": "横浜市在住・在勤の18歳以上を対象に、歩数計やスマホアプリで計測した歩数に応じてポイントを付与し、抽選で商品券などが当たる市の健康づくり事業。民間企業が共同事業者として機器・アプリを提供する。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "提供中",
+    "startedAt": "2014-11",
+    "milestones": [
+      {
+        "date": "2014-11",
+        "text": "横浜市・凸版印刷・オムロン ヘルスケアの共同事業として開始"
+      },
+      {
+        "date": "2017-08",
+        "text": "スマホ向け歩数計アプリの共同事業者にドコモ・ヘルスケアが採択される"
+      },
+      {
+        "date": "2021-07",
+        "text": "市の選定委員会が共同事業者3社（NTTドコモ・凸版印刷・オムロン ヘルスケア）の選定について答申"
+      },
+      {
+        "date": "2023-01",
+        "text": "利用者が36万人を超える（市関連サイトによる）"
+      },
+      {
+        "date": "2025-04",
+        "text": "事業承継に伴い、共同事業者がNTTドコモからNTTコミュニケーションズに変更"
+      },
+      {
+        "date": "2025-10",
+        "text": "生協店舗などのリーダー設置を終了"
+      },
+      {
+        "date": "2026-02",
+        "text": "旧アプリの運用終了と歩数計の新規受付終了に伴い参加要領を改正"
+      },
+      {
+        "date": "2026-05",
+        "text": "歩数計からアプリ（けんこうマイレージ）へのデータ移行を開始。歩数計の運用は2027年3月末まで"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "lessons": "自治体事業は続いていても、受託側の企業はグループ再編のたびに入れ替わっており、事業の主体は自治体側に残る構造とみられる。",
+    "sources": [
+      "https://www.atpress.ne.jp/news/52190",
+      "https://prtimes.jp/main/html/rd/p/000000063.000016519.html",
+      "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/kenko-iryo/kenkozukuri/undou/walking/senteitouiinkai.files/0221_20210922.pdf",
+      "https://www.sumaitoseikatsu.yokohama/archives/33146",
+      "https://enjoy-walking.city.yokohama.lg.jp/walkingpoint/news/2025/0228.html",
+      "https://www.ucoop.or.jp/info/2025/info_33745.html",
+      "https://enjoy-walking.city.yokohama.lg.jp/walkingpoint/news/2026/0227.html",
+      "https://enjoy-walking.city.yokohama.lg.jp/walkingpoint/news/2026/0526.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-0025c2b8",
+    "name": "自治体・法人向け健康増進サービス「健康マイレージ」（けんこうマイレージ）",
+    "company": "株式会社NTTドコモ → NTTドコモビジネス株式会社（旧 NTTコミュニケーションズ）",
+    "category": "health-corporate-management",
+    "description": "歩数計やスマホで計測した歩数などに応じてポイントがたまり、景品や地域の特典に交換できる自治体・企業・健保向けの健康増進サービス。団体ごとに交付するコードで利用する。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "譲渡",
+    "startedAt": "2018-02",
+    "endedAt": "2025-04",
+    "successor": "NTTドコモビジネス株式会社（サービス名「けんこうマイレージ」）",
+    "milestones": [
+      {
+        "date": "2018-02",
+        "text": "ドコモが自治体向けに提供開始"
+      },
+      {
+        "date": "2021-03",
+        "text": "ドコモが法人向け健康サービスを整理する中でも「健康マイレージ」は継続すると表明"
+      },
+      {
+        "date": "2022-09",
+        "text": "健康支援機能や高齢者の見守り機能を追加"
+      },
+      {
+        "date": "2023-02",
+        "text": "マイナポータルの健診情報との連携機能を追加"
+      },
+      {
+        "date": "2025-04",
+        "text": "NTTドコモからNTTコミュニケーションズ（同年7月にNTTドコモビジネスへ社名変更）へ事業承継"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "事業はNTTグループ内の法人事業会社に承継され、継続している。承継の理由についての個別の説明は公表されていない。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2022/09/26_02.html",
+      "https://www.docomo.ne.jp/info/news_release/2021/03/08_02.html",
+      "https://www.wellcle.co.jp/wp/wp-content/uploads/2023/02/fa183fcafedb881f2650aae60e5bb65d.pdf",
+      "https://www.ntt.com/business/services/kenko-mileage.html",
+      "https://enjoy-walking.city.yokohama.lg.jp/walkingpoint/news/2025/0228.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-2d970560",
+    "name": "埼玉県コバトン健康マイレージ",
+    "company": "埼玉県（システムは県が委託した事業者が開発）",
+    "category": "health-corporate-management",
+    "description": "県民が歩数計やアプリで歩数を送ると、ポイントに応じて抽選で景品が当たる埼玉県の健康ポイント事業。市町村や協会けんぽ・共済組合などの保険者、企業も参加した。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-04",
+    "endedAt": "2024-03",
+    "successor": "「コバトンALKOOマイレージ」（ナビタイムジャパンの既存アプリ「ALKOO by NAVITIME」の埼玉版）",
+    "milestones": [
+      {
+        "date": "2017-04",
+        "text": "開始。25市町村1万6,000人、保険者4団体4,000人、事業者など計約3万人の参加を予定"
+      },
+      {
+        "date": "2019-03",
+        "text": "登録者約5万4,000人。県は40万人への拡大を目標とした（報道）"
+      },
+      {
+        "date": "2024-01",
+        "text": "県が「さらに便利で使いやすく、機能を充実させるため」リニューアルを発表。参加者は累計19万人以上"
+      },
+      {
+        "date": "2024-03",
+        "text": "運用終了。歩数計は一般的な歩数計としてのみ使用可能に"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "県はリニューアルの理由を「さらに便利で使いやすく、機能を充実させるため」と説明した。新事業では独自システムではなく、民間企業の既存ウォーキングアプリを県向けにカスタマイズする方式に切り替えた。",
+    "lessons": "自治体が専用システムを持つ方式から、民間の既存アプリに相乗りする方式へ切り替える例が増えているとみられる。",
+    "sources": [
+      "https://www.pref.saitama.lg.jp/documents/97328/20170404.pdf",
+      "https://www.minnanokaigo.com/news/visionary/no20/",
+      "https://www.pref.saitama.lg.jp/a0704/news/page/news2024011601.html",
+      "https://www.pref.saitama.lg.jp/documents/247650/news2024011603.pdf",
+      "https://corporate.navitime.co.jp/topics/pr/202401/16_5691.html",
+      "https://www.city.kounosu.saitama.jp/page/20595.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-f6431f1c",
+    "name": "おおさか健活マイレージ「アスマイル」",
+    "company": "大阪府（受託：株式会社NTTデータ関西ほか）",
+    "category": "health-corporate-management",
+    "description": "府民がウォーキング、特定健診の受診、健康イベント参加などでポイントをため、抽選に参加できる大阪府の健康アプリ。府内市町村の国保などと連携し、健康予測AIも組み込んだ。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-01",
+    "milestones": [
+      {
+        "date": "2019-01",
+        "text": "府の健康づくり支援プラットフォーム整備等事業として「アスマイル」アプリ配信開始。受託はNTTデータ関西、協力企業にイオンモール、オムロン ヘルスケアなど"
+      },
+      {
+        "date": "2021",
+        "text": "大阪大学と健康予測AIを開発し、アプリ側の画面開発を進める"
+      },
+      {
+        "date": "2026-03",
+        "text": "アスマイル専用歩数計によるウォーキングポイント付与を終了。現行アプリを終え、2026年度中にリニューアル予定"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.aeonmall.com/news/index/1725/",
+      "https://www.healthcare.omron.co.jp/corp/news/2019/0121.html",
+      "https://www.nga.gr.jp/bank/details/15043/",
+      "https://www.pref.osaka.lg.jp/o100080/kokuho/proposal_app_promotion.html",
+      "https://www.city.kadoma.osaka.jp/kenko_fukushi/kenko/21470.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-ddf06a57",
+    "name": "ふくおか健康ポイントアプリ",
+    "company": "福岡県（アプリ提供元はNEC系の事業者とみられる）",
+    "category": "health-corporate-management",
+    "description": "歩数、健（検）診の受診、体重・血圧などの記録でポイントがたまり、県内の協力店で特典を受けられる福岡県の健康アプリ。県内市町村の健康づくり事業でも使われる。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "休止",
+    "startedAt": "2020-02",
+    "endedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2020-02",
+        "text": "福岡県が「ふくおか健康づくり県民運動」の一環として配信開始"
+      },
+      {
+        "date": "2026-10",
+        "text": "プログラミング言語PHPの脆弱性が確認されたため、セキュリティ確保と情報保護の観点から一部機能の利用を停止（歩数表示や健康記録の入力など一部のみ利用可能）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "県はPHPの脆弱性が確認されたことに伴い、一部機能を停止したと説明している。再開時期は示されていない。",
+    "sources": [
+      "https://www.kenko.pref.fukuoka.lg.jp/topics/detail/4cdfbcd8-8831-436d-9fe0-872adef6495c",
+      "https://www.fukuoka-kenko.biz/1146/",
+      "https://play.google.com/store/apps/details?id=jp.necps.fukuoka&hl=ja"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-09d8b890",
+    "name": "大分県健康アプリ「おおいた歩得（あるとっく）」",
+    "company": "大分県",
+    "category": "health-corporate-management",
+    "description": "大分県が「健康寿命日本一」を掲げて運営した健康アプリ。歩数などの健康行動に応じてポイントがたまる仕組みで、2025年に後継アプリ「あるとっく」へ切り替えた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2025-03",
+    "successor": "新健康アプリ「あるとっく」（2025年4月〜、大分県運営）",
+    "milestones": [
+      {
+        "date": "2025-03",
+        "text": "旧アプリ「おおいた歩得」の運用を終了"
+      },
+      {
+        "date": "2025-04",
+        "text": "新アプリ「あるとっく」をリリース。旧アプリから移行できるのは歩数・血圧・体重の過去1年分のみで、ポイントは引き継がない"
+      },
+      {
+        "date": "2025-12",
+        "text": "県が、閉鎖した旧アプリのホームページのドメインが第三者に取得されているとして注意を呼びかけ"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "新アプリへの切り替えとして終了した。切り替えの理由についての県の詳しい説明は確認できなかった。",
+    "sources": [
+      "https://www.pref.oita.jp/site/kenkozyumyo-nipponichi-oita/arutokku.html",
+      "https://www.city.tsukumi.oita.jp/soshiki/4/29888.html",
+      "https://www.altokoita.jp/news/news-2",
+      "https://www.pref.oita.jp/site/kenkozyumyo-nipponichi-oita/kyualtok.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-378b8306",
+    "name": "大田区健康アプリ「はねぴょん健康ポイント」",
+    "company": "大田区（運営は委託事業者の事務局）",
+    "category": "health-corporate-management",
+    "description": "ウォーキングや健康診断の受診、イベント参加などでポイントがたまり、抽選でデジタルクーポンなどが当たる東京都大田区の健康アプリ。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2026-03",
+    "milestones": [
+      {
+        "date": "2025-03",
+        "text": "健康ポイント事業のリニューアルに伴い、旧アプリを終了し新アプリへ"
+      },
+      {
+        "date": "2026-03",
+        "text": "区が「突然のご案内」として、アプリを2026年3月30日に終了すると告知。ポイントはすべて失効"
+      },
+      {
+        "date": "2026-09",
+        "text": "後継のデジタルスタンプラリーも、システムのセキュリティ対策のため一時停止"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "区の告知は終了を「突然のご案内」として詫びるのみで、理由は公表されていない。2026年度以降は新たな健康づくり事業を予定するとした。",
+    "lessons": "リニューアルからわずか1年で終了しており、委託先のシステムに依存する自治体アプリの継続性の弱さを示す事例とみられる。",
+    "sources": [
+      "https://x.com/city_ota/status/1900728661147373712",
+      "https://www.city.ota.tokyo.jp/seikatsu/hoken/kenko_dukuri/kenkopoint/20241204.html",
+      "https://www.city.ota.tokyo.jp/seikatsu/hoken/kenko_dukuri/kenkopoint/20260930.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-9fca0593",
+    "name": "那須町健康ポイント事業",
+    "company": "那須町（栃木県）",
+    "category": "health-corporate-management",
+    "description": "栃木県那須町が、スマートフォンアプリなどを通じて住民の健康づくりの取り組みにポイントを付与していた健康ポイント事業。小規模自治体が単独で実施していた例。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2025-03",
+    "milestones": [
+      {
+        "date": "2025-03",
+        "text": "町が「事業の見直しに伴い」2025年3月31日で事業を終了すると告知"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "町は「事業の見直しに伴い」と説明しており、それ以上の理由は公表されていない。",
+    "sources": [
+      "https://www.town.nasu.lg.jp/0122/info-0000003939-1.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-dbfd6a1f",
+    "name": "愛媛県スマートヘルスケア推進事業（県民向けkencom）",
+    "company": "愛媛県（事業委託：DeSCヘルスケア株式会社）",
+    "category": "health-corporate-management",
+    "description": "愛媛県が県内の国保被保険者などに健康アプリ「kencom」を提供し、健診データの閲覧や歩数に応じたポイントで健康づくりを促した県の事業。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2024-03",
+    "successor": "県のスマートフォン健康アプリ（デジタルヘルスケア環境）事業として、kencomの提供は形を変えて継続",
+    "milestones": [
+      {
+        "date": "2024-02",
+        "text": "事業終了に伴い、県内国保被保険者向けのkencomの一部サービス提供を順次停止"
+      },
+      {
+        "date": "2024-03",
+        "text": "スマートヘルスケア推進事業が終了"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "県の告知は事業期間の終了を伝えるのみで、理由は公表されていない。",
+    "sources": [
+      "https://www.pref.ehime.jp/page/17814.html",
+      "https://www.pref.ehime.jp/page/83408.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-30cafd26",
+    "name": "ウォーキングアプリ「aruku&（あるくと）」",
+    "company": "株式会社ONE COMPATH（凸版印刷グループ）",
+    "category": "health-corporate-management",
+    "description": "歩数に応じたミッションやくじで景品・ポイントが当たる無料のウォーキングアプリ。企業・自治体・健保が自団体向けのイベントやコンテンツを載せる法人利用で収益を得る。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "提供中",
+    "startedAt": "2016-11",
+    "milestones": [
+      {
+        "date": "2016-10",
+        "text": "マピオン（現ONE COMPATH）が位置情報ゲームのノウハウを生かしたウォーキングアプリとして発表"
+      },
+      {
+        "date": "2016-11",
+        "text": "提供開始"
+      },
+      {
+        "date": "2021-04",
+        "text": "100万ダウンロード、法人利用100団体を突破"
+      },
+      {
+        "date": "2024-09",
+        "text": "累計210万ダウンロード。現金や電子マネーに交換できる新サービスを発表"
+      },
+      {
+        "date": "2025-03",
+        "text": "デンソー健保が法人契約を終了（健保単位）。2026年9月には神奈川県機器健保も終了"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000018.000018526.html",
+      "https://onecompath.com/news/release/9400/",
+      "https://paymentnavi.com/paymentnews/150649.html",
+      "https://www.denso-kenpo.or.jp/2025/03031128577668.html",
+      "http://www.kanagawa-kikikenpo.or.jp/news/2677.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-e0ac1f71",
+    "name": "健康管理アプリ「dヘルスケア」（dポイント連動）",
+    "company": "株式会社NTTドコモ → NTTプレシジョンメディシン株式会社（2026年10月から）",
+    "category": "personal-health-record",
+    "description": "歩数や体重を記録し、歩数目標や健康ミッションの達成でdポイントがもらえる健康アプリ。無料版と有料プランがあり、通信会社のポイント経済圏の一部として運営された。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "譲渡",
+    "startedAt": "2018-05",
+    "endedAt": "2026-10",
+    "successor": "NTTプレシジョンメディシン株式会社",
+    "milestones": [
+      {
+        "date": "2016-04",
+        "text": "「dヘルスケアパック」の提供開始"
+      },
+      {
+        "date": "2018-05",
+        "text": "無料で使える「dヘルスケア」アプリの提供を開始。1万歩達成でdポイントを進呈するキャンペーン"
+      },
+      {
+        "date": "2020-04",
+        "text": "ドコモ・ヘルスケアを吸収合併し、ヘルスケア事業をドコモ本体に一本化"
+      },
+      {
+        "date": "2021-04",
+        "text": "有料サービスを「dヘルスケア（300円）」に統合"
+      },
+      {
+        "date": "2022-03",
+        "text": "WM（わたしムーヴ）終了。データの移行先となる"
+      },
+      {
+        "date": "2024-05",
+        "text": "アプリをリニューアル"
+      },
+      {
+        "date": "2024-09",
+        "text": "利用料金を改定し、健康スコアリング機能を追加"
+      },
+      {
+        "date": "2025-11",
+        "text": "NTTグループ向けの「dヘルスケア（NTT限定機能）」を2026年3月末で終了し、NTTデータの新アプリへ移行すると告知"
+      },
+      {
+        "date": "2026-07",
+        "text": "dヘルスケア事業と子会社ミナカラを吸収分割でNTTプレシジョンメディシンへ移すと発表（報道）。2026年10月1日から運営会社を変更"
+      },
+      {
+        "date": "2026-07",
+        "text": "運営会社をNTTプレシジョンメディシンに変更すると告知"
+      },
+      {
+        "date": "2026-10",
+        "text": "2026年10月1日付で運営会社を変更（予定）"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "サービスは継続し、運営会社がNTTグループ内で変わった。報道ではドコモがヘルスケア関連事業を分離しグループに集約すると伝えられている。",
+    "sources": [
+      "https://www.docomo.ne.jp/info/news_release/2018/05/14_00.html",
+      "https://www.docomo.ne.jp/info/news_release/2019/12/20_00.html",
+      "https://prtimes.jp/main/html/rd/p/000000216.000118641.html",
+      "https://www.docomo.ne.jp/info/news_release/2024/09/25_01.html",
+      "https://health.docomo.ne.jp/info/information/announce_20260730",
+      "https://www.nikkei.com/article/DGXZQOUC307RK0Q6A730C2000000/",
+      "https://health.docomo.ne.jp/corp/hdcm0006/info/info-20251128",
+      "https://health.docomo.ne.jp/info/information/announce_20200804"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-f3f3542c",
+    "name": "トータルヘルスケアアプリ「auウェルネス」",
+    "company": "KDDI株式会社",
+    "category": "personal-health-record",
+    "description": "歩数・体重などの記録や健康チャレンジの達成でコインがたまり、クーポンやギフトに交換できる通信会社の健康アプリ。有料のプレミアムコースやオンライン診療・服薬指導とも連携する。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-11",
+    "milestones": [
+      {
+        "date": "2020-11",
+        "text": "エクササイズ支援サービスとして提供開始（プレミアムコース月額350円）"
+      },
+      {
+        "date": "2021-06",
+        "text": "オンライン診療「curon for KDDI」と連携し、9月からオンライン服薬指導を開始すると発表"
+      },
+      {
+        "date": "2021-10",
+        "text": "活動量に応じてau PAYギフトコードなどが当たる仕組みを導入"
+      },
+      {
+        "date": "2024-03",
+        "text": "プレミアムコース特典の「いつでも健康電話相談」を終了"
+      },
+      {
+        "date": "2025-11",
+        "text": "issinの健康管理アプリ「ウェリー」と連携"
+      },
+      {
+        "date": "2026-06",
+        "text": "連携していた「au薬局」が終了し、Ponta薬局へ移行。会員数は約180万人（mediba）"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://news.kddi.com/kddi/corporate/newsrelease/2020/11/25/4790.html",
+      "https://japan.cnet.com/article/35173190/",
+      "https://newsroom.kddi.com/news/detail/kddi_pr-329.html",
+      "https://wellness.auone.jp/",
+      "https://issin.cc/blogs/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/kddi%E3%81%A8issin-%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA-au%E3%82%A6%E3%82%A7%E3%83%AB%E3%83%8D%E3%82%B9-%E3%81%A8-%E3%82%A6%E3%82%A7%E3%83%AA%E3%83%BC-%E3%81%AE%E9%80%A3%E6%90%BA%E3%82%92%E9%96%8B%E5%A7%8B",
+      "https://pharmacy.wellness.auone.jp/close.html",
+      "https://www.mediba.jp/business/media/wellness"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-eff207d8",
+    "name": "ポイント連動型健康アプリ「楽天ヘルスケア」",
+    "company": "楽天グループ株式会社",
+    "category": "personal-health-record",
+    "description": "1日5,000歩の達成などで楽天ポイントが当たるくじに参加できる健康管理アプリ。歩数・体重・食事・健診結果の記録機能を持ち、楽天経済圏への送客も担う。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-10",
+    "milestones": [
+      {
+        "date": "2022-10",
+        "text": "提供開始"
+      },
+      {
+        "date": "2024-02",
+        "text": "食事のカロリー・栄養素の記録機能を追加"
+      },
+      {
+        "date": "2024-03",
+        "text": "健康診断結果の記録機能を追加"
+      },
+      {
+        "date": "2024-10",
+        "text": "サービス開始2周年"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://corp.rakuten.co.jp/news/press/2022/1012_01.html",
+      "https://corp.rakuten.co.jp/news/press/2024/0207_01.html",
+      "https://corp.rakuten.co.jp/news/press/2024/0326_01.html",
+      "https://corp.rakuten.co.jp/news/press/2024/1001_01.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-8714180f",
+    "name": "歩数でポイントがたまる「Tヘルスケア」（のちVヘルスナビ）",
+    "company": "CCCマーケティング株式会社／メドピアグループ（開発）→ CCCグループ",
+    "category": "personal-health-record",
+    "description": "約7,000万人のTカード会員向けに、バーチャルウォーキングラリーの歩数や店舗チェックインでマイルがたまり、Tポイント（のちVポイント）に交換できるアプリ。有料会員は医師へのチャット健康相談も使えた。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "終了",
+    "startedAt": "2022-04",
+    "endedAt": "2025-09",
+    "milestones": [
+      {
+        "date": "2022-04",
+        "text": "CCCマーケティングとメドピアグループが「Tヘルスケア」を提供開始"
+      },
+      {
+        "date": "2023-04",
+        "text": "累計100万ダウンロードを突破"
+      },
+      {
+        "date": "2024-04",
+        "text": "TポイントとVポイントの統合（2024年4月22日）にあわせ「Vヘルスナビ」に名称変更（利用者のブログ等による）"
+      },
+      {
+        "date": "2025-07",
+        "text": "アプリ内で2025年9月末の終了を告知（利用者の投稿による）"
+      },
+      {
+        "date": "2025-09",
+        "text": "サービス終了。未交換のマイルは失効"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "サービス終了は公式サイトで告知されたが、理由は公表されていない。開発に関わったメドピアは2024年に予防医療プラットフォーム事業から撤退している。",
+    "sources": [
+      "https://www.ccc.co.jp/news/press/20220407_000345.html",
+      "https://www.ccc.co.jp/news/press/20230418_000315.html",
+      "https://www.nikkei.com/article/DGKKZO62778730R20C22A7H52A00/",
+      "https://web.tsite.jp/serv/thealthcare/",
+      "https://saketokane.com/thealthcare_vhealthnavi/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-f6d50d6f",
+    "name": "インセンティブ型健康増進プログラム「ハピルス健康ポイント」",
+    "company": "株式会社ベネフィット・ワン",
+    "companyId": "8011001045281",
+    "category": "health-corporate-management",
+    "description": "福利厚生代行大手が、健保・企業向けに独自のポイントプログラムを組み、健診受診や歩数などの健康行動にポイントを付与する仕組み。健康ポータル「ハピルス」や健診代行と組み合わせて販売する。",
+    "hp": "",
+    "startedYear": 2012,
+    "status": "提供中",
+    "startedAt": "2012-10",
+    "milestones": [
+      {
+        "date": "2012-10",
+        "text": "福利厚生サービスのメニューとして「ハピルス健康アプリ」を提供開始"
+      },
+      {
+        "date": "2018",
+        "text": "オムロン健保が「ハピルス健康ポイント」の運用を開始"
+      },
+      {
+        "date": "2022-03",
+        "text": "オムロン健保が「ハピルス健康ポイント」の運用を終了（健保単位）"
+      },
+      {
+        "date": "2024-05",
+        "text": "第一生命ホールディングスがTOBを経てベネフィット・ワンを完全子会社化"
+      },
+      {
+        "date": "2026-06",
+        "text": "企業向け健康管理システム「ハピルス健康管理」を提供開始"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.pasonagroup.co.jp/news/index112.html?itemid=702&dispmid=798",
+      "https://corp.benefit-one.co.jp/service/hc/health-point/",
+      "https://www.omron-kenpo.org/news/news-detail.php?id=139",
+      "https://www.daiichilife-group.com/investor/news/assets/pdf/2024_index_008.pdf",
+      "https://prtimes.jp/main/html/rd/p/000000096.000160816.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-48d54a8c",
+    "name": "タニタ健康プログラム／自治体向け「健康ポイント」",
+    "company": "株式会社タニタヘルスリンク（タニタグループ）",
+    "category": "health-corporate-management",
+    "description": "通信機能付きの体組成計・活動量計・血圧計での計測と専門職の指導を組み合わせた健康づくりプログラム。自治体や企業向けに、歩数や計測回数などに応じてポイントを付与する健康ポイント事業を受託する。",
+    "hp": "",
+    "startedYear": 2009,
+    "status": "提供中",
+    "startedAt": "2009",
+    "milestones": [
+      {
+        "date": "2009",
+        "text": "タニタグループの社員向けに「タニタ健康プログラム」を開始（のちに企業・自治体へ展開）"
+      },
+      {
+        "date": "2020-08",
+        "text": "社会参加型の健幸ポイント事業で、後期高齢者も参加できる取り組みとして採用（報道）"
+      },
+      {
+        "date": "2022-01",
+        "text": "個人向け「からだカルテ」のフィーチャーフォン向けサービスを終了"
+      },
+      {
+        "date": "2024-12",
+        "text": "個人会員向け健康ポイント「からだカルテポイント」からVポイントへの交換を開始"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.tanita-thl.co.jp/health_program",
+      "https://www.tanita-thl.co.jp/business/point",
+      "https://project.nikkeibp.co.jp/atclppp/PPP/news/073001646/?P=2",
+      "https://www.karadakarute.jp/hlp/static/mobile/info.html",
+      "https://www.ccc.co.jp/news/press/20241202_000127.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-4b8f253c",
+    "name": "健康増進型保険「住友生命 Vitality」",
+    "company": "住友生命保険相互会社（南アフリカDiscovery社のプログラムを導入）",
+    "category": "insuarance",
+    "description": "歩数などの運動、健診受診などの健康活動をポイント化してステータスを決め、保険料が変動し特典が受けられる健康増進型保険。専用アプリでの記録が前提となる。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-07",
+    "milestones": [
+      {
+        "date": "2018-07",
+        "text": "発売（Vitalityの提供開始は同年9月）"
+      },
+      {
+        "date": "2022-03",
+        "text": "累計100万件を突破。健康レポートの提供などを開始"
+      },
+      {
+        "date": "2023-12",
+        "text": "重症化予防のPREVENTを完全子会社化し、Vitality健康プログラムとの協業を掲げる"
+      },
+      {
+        "date": "2025-01",
+        "text": "累計200万件を突破（Vitalityスマートを除く）"
+      },
+      {
+        "date": "2026-01",
+        "text": "「Vitalityスマート（トライアル期間付）」を発売"
+      },
+      {
+        "date": "2026-06",
+        "text": "資産形成と組み合わせた「ドルつみVitality」を代理店チャネルで販売開始"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。",
+    "sources": [
+      "https://www.sumitomolife.co.jp/news/news_file/file/180717.pdf",
+      "https://www.sumitomolife.co.jp/news/news_file/file/220331.pdf",
+      "https://www.sumitomolife.co.jp/news/news_file/file/231208.pdf",
+      "https://www.sumitomolife.co.jp/news/news_file/file/250121.pdf",
+      "https://www.sumitomolife.co.jp/news/news_file/file/260115.pdf",
+      "https://www.sumitomolife.co.jp/news/detail/newsrelease_20260611.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-3f672520",
+    "name": "「あるく保険」（健康増進特約付き医療保険）",
+    "company": "東京海上日動あんしん生命保険株式会社",
+    "category": "insuarance",
+    "description": "ウェアラブル端末で計測した歩数が1日平均8,000歩以上などの条件を満たすと、2年ごとに健康増進還付金を受け取れる医療保険。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-11",
+    "endedAt": "2025-10",
+    "milestones": [
+      {
+        "date": "2017-11",
+        "text": "正式販売（報道）"
+      },
+      {
+        "date": "2025-10",
+        "text": "健康増進特約の再付加を2025年10月2日以降停止。還付金の対象は加入後最長4年・最大2回となり、主契約の保障は継続"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "同社は注意事項として再付加の停止を案内しているが、理由は公表されていない。",
+    "sources": [
+      "https://www2.tmn-anshin.co.jp/system3/contents/contents.asp?contents=665",
+      "https://money-bu-jpx.com/news/article009998/",
+      "https://www7.tmn-anshin.co.jp/yakkan/pdf/A0105221214.pdf"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-3f78265b",
+    "name": "健康増進アプリ「健康第一」",
+    "company": "第一生命保険株式会社",
+    "category": "insuarance",
+    "description": "歩数に応じた抽選権、顔写真から将来の顔を予測する機能、健康コンテンツなどを無料で提供した生命保険会社の健康増進アプリ。契約者以外も使え、グループのネオファースト生命の契約者にも提供した。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "統合",
+    "startedAt": "2017-03",
+    "endedAt": "2025-05",
+    "successor": "「第一生命アプリ」（契約手続き・相談などと統合）",
+    "milestones": [
+      {
+        "date": "2017-03",
+        "text": "提供開始"
+      },
+      {
+        "date": "2017-10",
+        "text": "保険契約者情報との連携や健康コンテンツを追加。ネオファースト生命の契約者向けにも提供"
+      },
+      {
+        "date": "2025-05",
+        "text": "「第一生命アプリ」に名称変更し、一部機能を収束"
+      },
+      {
+        "date": "2025-05",
+        "text": "2025年5月21日に「第一生命アプリ」へ名称変更・リニューアル。疾病リスクチェック、Myコラム、Myカロリーチェック、Myレシピ TANITA、生活改善レシピの各機能を収束"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "第一生命は、一部機能の収束について「『健康第一』アプリの利用状況などを踏まえ」たと説明している。",
+    "sources": [
+      "https://www.atpress.ne.jp/news/124276",
+      "https://www.nttdata.com/global/ja/news/release/2017/100500/",
+      "https://neofirst.co.jp/information/news/assets/pdf/1710230001.pdf",
+      "https://www.dai-ichi-life.co.jp/information/daiichi_app.html",
+      "https://www.qa.dai-ichi-life.co.jp/faq/show/1518?category_id=52&site_domain=default",
+      "https://www.dai-ichi-life.co.jp/information/nfl.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-96208195",
+    "name": "健診結果改善サポートアプリ「Neoコーチ」",
+    "company": "ネオファースト生命保険株式会社（現 第一ネオ生命）",
+    "category": "insuarance",
+    "description": "健康年齢で保険料が決まる商品を持つ生命保険会社が、健診結果を入力した利用者にチャット形式で生活改善を助言したアプリ。健診結果から保険を案内する機能も持った。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "終了",
+    "startedAt": "2022-07",
+    "endedAt": "2024-10",
+    "milestones": [
+      {
+        "date": "2022-07",
+        "text": "提供開始"
+      },
+      {
+        "date": "2022-07",
+        "text": "サービス提供開始"
+      },
+      {
+        "date": "2022-09",
+        "text": "1万ダウンロード達成"
+      },
+      {
+        "date": "2022-12",
+        "text": "健診結果に応じて保険を案内する「健診結果de保険ナビ」を追加"
+      },
+      {
+        "date": "2024-02",
+        "text": "10万ダウンロード達成"
+      },
+      {
+        "date": "2024-08",
+        "text": "2024年10月31日でのサービス終了を発表"
+      },
+      {
+        "date": "2024-08",
+        "text": "サービス終了を告知し、新規ユーザー登録を停止"
+      },
+      {
+        "date": "2024-09",
+        "text": "プレゼント抽選サービスを終了"
+      },
+      {
+        "date": "2024-10",
+        "text": "サービス終了"
+      },
+      {
+        "date": "2024-10",
+        "text": "2024年10月31日にサービス終了。データの移行・書き出しには対応しない"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了の告知はあるが、理由は公表されていない。",
+    "sources": [
+      "https://www.atpress.ne.jp/news/2784162",
+      "https://neofirst.co.jp/information/news/assets/2209070001.pdf",
+      "https://neofirst.co.jp/information/news/assets/2212010002.pdf",
+      "https://neofirst.co.jp/information/news/assets/2402060001.pdf",
+      "https://neofirst.co.jp/information/info/20240821.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-7250cc21",
+    "name": "生活習慣改善サポートアプリ「Linkx 健康トライ（リンククロス健康トライ）」",
+    "company": "SOMPOひまわり生命保険株式会社",
+    "category": "insuarance",
+    "description": "契約者・被保険者向けに、スマホで撮った健診結果から生活習慣病のリスクを予測し、改善をサポートしたアプリ。保険の付帯サービスとして提供した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "統合",
+    "startedAt": "2020-07",
+    "endedAt": "2025-03",
+    "successor": "「MY ひまわり」（生命保険と健康をつなぐ総合アプリ）",
+    "milestones": [
+      {
+        "date": "2020-07",
+        "text": "契約者・被保険者専用サービスとして提供開始"
+      },
+      {
+        "date": "2023",
+        "text": "新機能を追加（同社ディスクロージャー誌）"
+      },
+      {
+        "date": "2024-04",
+        "text": "健康サービスブランド「マイ リンククロス」の登録者が100万人に到達"
+      },
+      {
+        "date": "2024-10",
+        "text": "アプリが「MY ひまわり」にリニューアルされ、リンククロス健康トライは2025年3月に終了すると代理店が案内"
+      },
+      {
+        "date": "2025-03",
+        "text": "サービス終了（会員規約から文言を削除）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "総合アプリへの統合として終了した。理由についての詳しい説明は確認できなかった。",
+    "sources": [
+      "https://www.nikkei.com/article/DGXLRSP537466_Z00C20A7000000/",
+      "https://dcross.impress.co.jp/docs/usecase/001647.html",
+      "https://www.sompo-hd.com/-/media/hd/files/doc/pdf/disclosure/himawarilife/2023/himawari2023_2.pdf?la=ja-JP",
+      "https://prtimes.jp/main/html/rd/p/000000078.000051296.html",
+      "https://www.chuo-sgs.com/news/1049/",
+      "https://wwwsp.himawari-life.co.jp/linkx/terms/"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
+    ]
+  },
+  {
+    "id": "b-cb1b8549",
+    "name": "保険付帯の「習慣化支援サービス」（WizWe「Smart Habit」）",
+    "company": "明治安田生命保険相互会社（共創パートナー：株式会社WizWe）",
+    "category": "insuarance",
+    "description": "循環器病に備える保険の加入者向けに、習慣化したい行動目標の継続を90日間LINEで支援する付帯サービス。スタートアップの習慣化プラットフォームを保険商品に組み込んだ。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "終了",
+    "startedAt": "2025-01",
+    "endedAt": "2026-11",
+    "milestones": [
+      {
+        "date": "2024-11",
+        "text": "WizWeが明治安田の新商品の共創パートナーとして習慣化支援サービスを提供すると発表"
+      },
+      {
+        "date": "2025-01",
+        "text": "対象商品（循環器病対策Pro）の発売とともに提供開始"
+      },
+      {
+        "date": "2026-06",
+        "text": "新規申込みの受付を一時停止"
+      },
+      {
+        "date": "2026-11",
+        "text": "2026年11月30日で提供終了（予定）"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "明治安田は提供終了を告知しているが、理由は公表されていない。同社は「みんなの健活プロジェクト」の加入者専用サービスを2022年、2023年、2025年にも一部終了している。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000213.000035684.html",
+      "https://universe.globalbrains.com/posts/meiji-yasudas-new-healthcare-collaboration-with-a-habit-building-service-startup",
+      "https://www.meijiyasuda.co.jp/contractor/myhoken/03.html",
+      "https://www.meijiyasuda.co.jp/profile/news/topics/myhoken_service_info04.html",
+      "https://www.meijiyasuda.co.jp/profile/news/topics/myhoken_service_info06.html"
+    ],
+    "updatedAt": "2026-10",
+    "themes": [
+      "health-points"
     ]
   }
 ]

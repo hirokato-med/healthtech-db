@@ -102,7 +102,7 @@ export type Service = {
   themes?: string[];
 };
 
-export type Theme = { slug: string; name: string; lead: string };
+export type Theme = { slug: string; name: string; lead: string; articles?: string[] };
 
 /** 企業同士の提携・出資・買収（提携マップ用） */
 export type Partnership = {

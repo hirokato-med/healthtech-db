@@ -685,3 +685,14 @@ a .pm-box:hover { stroke-width: 2; }
 .buyer h3 { font-size: 16px; }
 .buyer h3 small { font-size: 12px; color: var(--muted); margin-left: 8px; font-weight: 700; }
 .buyer ul { margin: 6px 0 0; padding-left: 1.1em; font-size: 13.5px; line-height: 1.9; }
+/* トップ: 止まった事業から学ぶ */
+.learn { display: grid; grid-template-columns: 1fr 1.6fr; gap: 28px; margin-top: 18px; }
+.learn h3 { font-size: 15px; font-weight: 900; margin: 0 0 10px; }
+.lr-row { display: grid; grid-template-columns: 150px 1fr 36px; align-items: center; gap: 10px; padding: 7px 0; color: var(--ink); border-bottom: 1px solid var(--line); font-size: 13.5px; font-weight: 700; }
+.lr-row:hover { text-decoration: none; color: var(--teal); }
+.lr-row i { display: block; height: 10px; border-radius: 5px; background: #c97c7c; }
+.lr-row b { text-align: right; font-size: 14px; }
+.learn-article { display: block; margin-top: 12px; padding: 12px 14px; border-radius: var(--radius); background: var(--navy); color: #fff; font-weight: 800; line-height: 1.6; }
+.learn-article:hover { text-decoration: none; opacity: .92; }
+.learn-article small { display: inline-block; margin-right: 8px; padding: 0 8px; border-radius: 4px; background: rgba(255,255,255,.18); font-size: 11px; }
+@media (max-width: 760px) { .learn { grid-template-columns: 1fr; } .lr-row { grid-template-columns: 120px 1fr 32px; } }

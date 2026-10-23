@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {
   categoryName, fmtDate, getArticles, getCategories, getCompanies, getFeaturedCompanies, getNews, getOverseas, getPeople, getServices,
-  episodeHeadline, getMonthly, monthLabel, ytThumb, YT_SUBSCRIBE,
+  episodeHeadline, getMonthly, monthLabel, ytThumb, YT_SUBSCRIBE, END_REASONS, STOPPED, getThemes, servicesInTheme,
 } from '@/lib/data';
 import { withBase } from '@/lib/base';
 import { SITE_NAME } from '@/lib/site';
@@ -53,6 +53,18 @@ export default function Home() {
     .filter((x) => x.n > 0)
     .sort((a, b) => b.n - a.n);
   const maxN = catStats[0]?.n ?? 1;
+  const stopped = services.filter((s) => STOPPED.includes(s.status));
+  const reasonStats = Object.entries(END_REASONS)
+    .filter(([k]) => k !== 'unknown')
+    .map(([k, v]) => ({ k, label: v.label, n: stopped.filter((s) => s.endReasons?.includes(k)).length }))
+    .filter((r) => r.n)
+    .sort((a, b) => b.n - a.n)
+    .slice(0, 6);
+  const whyArticles = articles.filter((a) => a.slug.startsWith('why-')).slice(0, 2);
+  const themeStats = getThemes()
+    .map((t) => ({ t, list: servicesInTheme(t.slug) }))
+    .filter((x) => x.list.length)
+    .slice(0, 8);
   const gridItems = [
     ...articles.filter((a) => a.slug !== feature?.slug).slice(0, 6).map((a) => ({ key: a.slug, href: `/articles/${a.slug}/`, title: a.title, tags: [categoryName(a.category), ...(a.tags ?? []).slice(0, 1)], date: `${fmtDate(a.date)} 更新`, navy: true, thumb: categoryName(a.category) })),
   ];
@@ -115,8 +127,44 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ---------- データベースの入口 ---------- */}
+      {/* ---------- 止まった事業から学ぶ ---------- */}
       <section className="band gray bleed">
+        <div className="container">
+          <div className="sec-title"><h2>止まった事業から学ぶ</h2><Link href="/services/stopped/" className="more arrow">止まった事業 {stopped.length}件</Link></div>
+          <p className="muted" style={{ marginTop: -6 }}>同じアイデアは何度も生まれ、同じところで止まります。過去の事業がどこで止まったのかを、理由ごと・テーマごとに引けます。</p>
+          <div className="learn">
+            <div className="learn-reasons">
+              <h3>止まった理由（公表されたもの）</h3>
+              {reasonStats.map((r) => (
+                <Link key={r.k} href={`/services/stopped/#${r.k}`} className="lr-row">
+                  <span>{r.label}</span>
+                  <i style={{ width: `${(r.n / reasonStats[0].n) * 100}%` }} />
+                  <b>{r.n}</b>
+                </Link>
+              ))}
+            </div>
+            <div className="learn-themes">
+              <h3>テーマ別の年表</h3>
+              <div className="theme-cards">
+                {themeStats.map(({ t, list }) => (
+                  <Link key={t.slug} href={`/services/themes/${t.slug}/`} className="theme-card">
+                    <b>{t.name}</b>
+                    <span>{list.length}件（止まった事業 {list.filter((x) => STOPPED.includes(x.status)).length}件）</span>
+                  </Link>
+                ))}
+              </div>
+              {whyArticles.map((a) => (
+                <Link key={a.slug} href={`/articles/${a.slug}/`} className="learn-article">
+                  <small>解説</small>{a.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- データベースの入口 ---------- */}
+      <section className="band bleed">
         <div className="container">
           <div className="sec-title"><h2>データベースを使う</h2><span className="small muted">出典: 各社Webサイト・プレスリリース、国税庁 法人番号公表サイト</span></div>
           <div className="db3">
@@ -149,7 +197,7 @@ export default function Home() {
       </section>
 
       {/* ---------- 注目企業 ---------- */}
-      <section className="band bleed">
+      <section className="band gray bleed">
         <div className="container">
           <div className="sec-title"><h2>注目のヘルステック企業</h2><Link href="/companies/" className="more arrow">企業一覧を見る</Link></div>
           <div className="co-grid">
@@ -187,7 +235,7 @@ export default function Home() {
       </section>
 
       {/* ---------- 新着ニュース ＋ カテゴリ別企業数 ---------- */}
-      <section className="band gray bleed">
+      <section className="band bleed">
         <div className="container duo">
           <div className="box">
             <h2>新着ニュース</h2>

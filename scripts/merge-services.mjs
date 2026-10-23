@@ -31,6 +31,10 @@ const STATUS = new Set(['提供中', '終了', '譲渡', '統合', '休止', '�
 const norm = (s = '') => s.normalize('NFKC').replace(/株式会社|合同会社|[\s「」『』（）()・]/g, '').toLowerCase();
 const key = (company, name) => `${norm(company)}|${norm(name)}`;
 const byKey = new Map(services.map((s) => [key(s.company, s.name), s]));
+// 別の調査で同じ事業が別の書き方で入ることがある（「LINEドクター」と「オンライン診療「LINEドクター」」など）。
+// 「」の中身か、括弧より前の名前が同じものは重複の候補として最後に知らせる（まとめるのは scripts/fold-services.mjs）
+const core = (name) => norm((name.match(/「([^」]+)」/) ?? [])[1] ?? name.replace(/[（(].*$/, ''));
+const suspects = [];
 
 let added = 0, updated = 0;
 const skipped = [];
@@ -66,6 +70,8 @@ for (const f of files) {
     const k = key(company, rec.name);
     const prev = byKey.get(k);
     if (prev) { Object.assign(prev, rec, { sources: [...new Set([...(prev.sources ?? []), ...rec.sources])], themes: [...new Set([...(prev.themes ?? []), ...themes])] }); updated++; continue; }
+    const twin = services.find((x) => core(x.name) === core(rec.name));
+    if (twin) suspects.push(`${twin.id} ${twin.name} ⇔ ${rec.name}`);
     const id = 'b-' + crypto.createHash('sha1').update(k).digest('hex').slice(0, 8);
     const s = { id, ...rec, ...(themes.length ? { themes } : {}) };
     services.push(s);
@@ -76,3 +82,7 @@ for (const f of files) {
 fs.writeFileSync(P('services.json'), JSON.stringify(services, null, 2) + '\n');
 console.error(`事業 追加 ${added} / 更新 ${updated} / 見送り ${skipped.length} → 合計 ${services.length} 件`);
 skipped.forEach((s) => console.error('  - ' + s));
+if (suspects.length) {
+  console.error(`重複の可能性 ${suspects.length} 件（同じ事業なら scripts/fold-services.mjs でまとめる）:`);
+  suspects.forEach((s) => console.error('  ? ' + s));
+}
