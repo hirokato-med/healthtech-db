@@ -9,7 +9,7 @@ export function Header() {
       <div className="container bar">
         <Link href="/" className="logo" aria-label={`${SITE_NAME} トップ`}>
           <LogoMark />
-          <span className="name">{SITE_NAME}</span>
+          <span className="name">Healthtech <em>DB</em></span>
         </Link>
         <nav className="nav" aria-label="メイン">
           <Link href="/articles/">記事一覧</Link>
@@ -33,9 +33,8 @@ export function Header() {
             <span>検索</span>
           </Link>
           <a href={NEWSLETTER_URL} target="_blank" rel="noreferrer" className="btn-cta">
-            <span className="free">無料</span>
-            <span><span className="label-long">毎朝の</span>メルマガ登録</span>
-            <span className="arrow" />
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
+            <span>メルマガ<span className="label-long">登録</span></span>
           </a>
         </div>
       </div>
