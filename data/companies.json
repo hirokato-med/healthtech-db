@@ -15616,7 +15616,53 @@
       "https://prtimes.jp/main/html/rd/p/000000004.000118047.html",
       "https://prtimes.jp/main/html/rd/p/000000009.000118047.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ポケさぽ（患者説明DXシステム）",
+          "note": "LINEで入院・検査説明を配信。2025年度の年間利用回数117万回（公式発表）。開始時期は公表なし",
+          "url": "https://www.opere.jp/poke-sup"
+        },
+        {
+          "name": "ポケさぽ アナムネ・問診",
+          "since": "2024-秋",
+          "note": "2024年7月に2024年秋提供開始と発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000006.000118047.html"
+        },
+        {
+          "name": "AI窓口（ポケさぽ新機能）",
+          "since": "2026-02",
+          "url": "https://prtimes.jp/main/html/rd/p/000000012.000118047.html"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "会社概要に掲載は代表者のみ。2024-04に社外取締役 小間井俊輔氏就任の発表あり（社外のため数えず）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "澤田優香",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.opere.jp/news-blogs",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/118047"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "第80回国立病院総合医学会 企業展示に出展",
+        "url": "https://www.opere.jp/news-blogs"
+      },
+      "newsPerYear": 8,
+      "sources": [
+        "https://www.opere.jp/",
+        "https://prtimes.jp/companyrdf.php?company_id=118047"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3010401147312",
@@ -15657,7 +15703,59 @@
       "https://mederi.jp/",
       "https://mederi.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "メデリピル（オンラインピル診療）",
+          "since": "2022-01",
+          "url": "https://prtimes.jp/main/html/rd/p/000000012.000054252.html"
+        },
+        {
+          "name": "mederi for biz（ピル福利厚生）",
+          "since": "2022-04",
+          "url": "https://prtimes.jp/main/html/rd/p/000000017.000054252.html"
+        },
+        {
+          "name": "mederi生理相談室（LINE相談）",
+          "since": "2024-10",
+          "url": "https://prtimes.jp/main/html/rd/p/000000120.000054252.html"
+        },
+        {
+          "name": "mederi Baby（葉酸サプリ等）",
+          "note": "開始時期は公表なし（2022-06リニューアル発表）"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "会社概要は代表者のみ。取締役 大池優貴はPR TIMES（2025-11）で確認",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "坂梨亜里咲",
+            "role": "代表取締役"
+          },
+          {
+            "name": "大池優貴",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/54252"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "【mederi調査】女性の75.9％が避妊を主体的に選択したいと回答",
+        "url": "https://prtimes.jp/main/html/rd/p/000000192.000054252.html"
+      },
+      "newsPerYear": 30,
+      "sources": [
+        "https://mederi.jp/company/",
+        "https://prtimes.jp/companyrdf.php?company_id=54252"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1700150099389",
@@ -15745,7 +15843,57 @@
       "https://hellofermata.com/pages/about-fermata-company",
       "https://hellofermata.com/pages/about-fermata"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "fermata store（フェムテック製品EC・販売）",
+          "note": "開始時期は公表なし",
+          "url": "https://hellofermata.com/"
+        },
+        {
+          "name": "BtoB事業（事業開発支援・研修・福利厚生・薬事支援）",
+          "note": "開始時期は公表なし",
+          "url": "https://hellofermata.com/pages/about-fermata-company"
+        },
+        {
+          "name": "妊活デバイス kegg 国内販売",
+          "since": "2026-04",
+          "note": "日本初上陸の発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000037.000053409.html"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "会社概要に代表取締役CEOと取締役1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "杉本亜美奈",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "栗岡大介",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://hellofermata.com/pages/news1",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/53409"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "水と食料は「3日分」。生理用品は、何日分ですか？",
+        "url": "https://prtimes.jp/main/html/rd/p/000000039.000053409.html"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://hellofermata.com/pages/about-fermata-company",
+        "https://prtimes.jp/companyrdf.php?company_id=53409"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3010401151454",
@@ -15782,7 +15930,54 @@
       "https://prtimes.jp/main/html/rd/p/000000041.000055467.html",
       "https://prtimes.jp/main/html/rd/p/000000013.000055467.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ninpath（不妊治療記録・管理アプリ）",
+          "note": "開始時期は公表なし",
+          "url": "https://ninpath.com/"
+        },
+        {
+          "name": "ninpathあんしんパスポート",
+          "since": "2026-03",
+          "note": "2026-08に月額980円のLight版を提供開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000042.000055467.html"
+        },
+        {
+          "name": "ninpath career（転職支援）",
+          "note": "開始時期は公表なし",
+          "url": "https://ninpath.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（リリース記載）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "神田大輔",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://release.ninpath.com/press/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/55467"
+      },
+      "latestNews": {
+        "date": "2026-08",
+        "title": "「ninpathあんしんパスポート Light」を提供開始",
+        "url": "https://release.ninpath.com/press/"
+      },
+      "newsPerYear": 2,
+      "sources": [
+        "https://ninpath.com/",
+        "https://release.ninpath.com/press/",
+        "https://prtimes.jp/companyrdf.php?company_id=55467"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9010901042115",
@@ -15813,7 +16008,48 @@
     "sources": [
       "https://minin.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Minin（体外受精データ管理アプリ）",
+          "since": "2019-04",
+          "note": "PR TIMESでリリース発表。サイトの著作権表記は2018-2019のまま",
+          "url": "https://minin.jp/"
+        },
+        {
+          "name": "広告・プロモーション企画制作",
+          "note": "会社サイトでの主な事業内容。開始時期は公表なし",
+          "url": "http://korero.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "河合昇平",
+            "role": "代表"
+          }
+        ]
+      },
+      "newsroom": {
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/39614"
+      },
+      "latestNews": {
+        "date": "2019-04",
+        "title": "体外受精サポートアプリ「ミニン」をリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000003.000039614.html"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://minin.jp/",
+        "http://korero.jp/",
+        "https://prtimes.jp/companyrdf.php?company_id=39614"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4040001102829",
@@ -15856,7 +16092,65 @@
       "https://doctormate.co.jp/news",
       "https://prtimes.jp/main/html/rd/p/000000123.000047082.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "日中医療相談（介護施設向けチャット相談）",
+          "since": "2017-12",
+          "note": "沿革記載",
+          "url": "https://doctormate.co.jp/service-2"
+        },
+        {
+          "name": "夜間オンコール代行",
+          "since": "2020-03",
+          "note": "相談実績累計20万件突破（2026-09発表）",
+          "url": "https://doctormate.co.jp/"
+        },
+        {
+          "name": "オンライン精神科（相談・診療）",
+          "since": "2024-08",
+          "note": "精神科医オンライン相談を2024-08開始、オンライン診療精神科を2025-11正式リリース",
+          "url": "https://prtimes.jp/main/html/rd/p/000000081.000047082.html"
+        },
+        {
+          "name": "夜間かけつけオプション",
+          "since": "2026-02",
+          "url": "https://prtimes.jp/main/html/rd/p/000000125.000047082.html"
+        },
+        {
+          "name": "DM-study（介護職向けe-Learning）",
+          "note": "開始時期は公表なし"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "会社概要は代表のみ。沿革に2020-12 取締役COO（宮崎）・取締役CPO（永妻）就任の記載あり（現任か未確認）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "青柳直樹",
+            "role": "代表取締役（医師）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://doctormate.co.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/47082"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "磐田市の特養「梅香の里」でドクターメイトにより夜間オンコール体制を整備",
+        "url": "https://doctormate.co.jp/news/post-261008"
+      },
+      "newsPerYear": 21,
+      "sources": [
+        "https://corp.doctormate.co.jp/aboutus/",
+        "https://corp.doctormate.co.jp/aboutus/history/",
+        "https://prtimes.jp/companyrdf.php?company_id=47082"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6010001199148",
@@ -15907,7 +16201,60 @@
       "MEDi Works",
       "MEDRiNG Study",
       "MEDRiNG Care"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "MEDi（クラウド電子カルテ・東南アジア）",
+          "since": "2021-08",
+          "note": "ベータ版提供開始。のべ100施設超（公式）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000016.000066390.html"
+        },
+        {
+          "name": "MEDi Deals（ASEANクリニックM&A）",
+          "since": "2024-09"
+        },
+        {
+          "name": "MEDRiNG Study（介護福祉士試験学習アプリ）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.medring.co.jp/"
+        },
+        {
+          "name": "MEDRiNG Care（介護施設運営DX）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.medring.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役CEO・社外取締役1名（MRT創業者会長）。サイト上の氏名はローマ字表記。介事連副会長の中川氏は役員か不明のため数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "Kazuma Abe（安部）",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "Hyoe Tomita",
+            "role": "社外取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/66390"
+      },
+      "latestNews": {
+        "date": "2025-08",
+        "title": "介護人材循環DXプラットフォーム構築に向けたFS調査",
+        "url": ""
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://www.medring.co.jp/",
+        "https://prtimes.jp/companyrdf.php?company_id=66390"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1011101077702",
@@ -15954,7 +16301,56 @@
         "text": "眼科医療のOUIが「眼鏡市場」のメガネトップと業務提携",
         "source": "https://prtimes.jp/main/html/rd/p/000000021.000064389.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "Smart Eye Camera（スマホ装着型眼科診察機器）",
+          "note": "開始時期は公表なし",
+          "url": "https://ouiinc.jp/"
+        },
+        {
+          "name": "+Eye Dr.（遠隔眼科読影）",
+          "note": "開始時期は公表なし",
+          "url": "https://ouiinc.jp/"
+        },
+        {
+          "name": "MES（企業健診）",
+          "note": "2026-04に第一生命と健康経営サポートで提携",
+          "url": "https://ouiinc.jp/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "メンバー紹介のCxOはCEO・COO。ほかChief Hardware Engineer 横岩良太",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "清水映輔",
+            "role": "CEO・創業者（眼科専門医）"
+          },
+          {
+            "name": "中山慎太郎",
+            "role": "COO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://ouiinc.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/64389"
+      },
+      "latestNews": {
+        "date": "2026-08",
+        "title": "「大学発ベンチャー表彰2026」で文部科学大臣賞を受賞",
+        "url": "https://prtimes.jp/main/html/rd/p/000000074.000064389.html"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://ouiinc.jp/company/",
+        "https://prtimes.jp/companyrdf.php?company_id=64389"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3080401024001",
@@ -16003,7 +16399,65 @@
         "text": "転倒骨折を減らす床材のMagic Shieldsが資金調達（2.3億円）",
         "source": "https://www.magicshields.co.jp/news/476/"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "ころやわ（衝撃吸収フロア・マット、医療機関・介護施設向け）",
+          "since": "2020-08",
+          "note": "ころやわPro27販売開始（沿革）。2023-06時点560以上の施設で導入",
+          "url": "https://www.magicshields.co.jp/about-coroyawa/"
+        },
+        {
+          "name": "おくだけ ころやわ（EC販売）",
+          "since": "2022-11"
+        },
+        {
+          "name": "ころやわおうちレンタル",
+          "since": "2024-02",
+          "note": "月額定額"
+        },
+        {
+          "name": "ころやわマットセンサー",
+          "since": "2024-10",
+          "note": "離床報知機能付き"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "CEO（代表取締役）・COO・CCO（2026年8月時点の役員紹介）",
+        "asOf": "2026-08",
+        "members": [
+          {
+            "name": "下村明司",
+            "role": "CEO 代表取締役"
+          },
+          {
+            "name": "杉浦太紀",
+            "role": "COO"
+          },
+          {
+            "name": "宝田優子",
+            "role": "CCO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.magicshields.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/78980"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "IMPACT STARTUP SUMMIT 2026にブース出展",
+        "url": "https://www.magicshields.co.jp/news/6006/"
+      },
+      "newsPerYear": 29,
+      "sources": [
+        "https://www.magicshields.co.jp/company/",
+        "https://prtimes.jp/companyrdf.php?company_id=78980"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2010901038516",
@@ -16073,7 +16527,72 @@
     "products": [
       "メドコム（医療機関専用スマートフォン）",
       "メドコムAI議事録"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "メドコム（医療機関専用スマートフォン）",
+          "note": "導入100病院・利用者7万人突破（2026-02発表）。開始時期は公表なし",
+          "url": "https://medcom.ne.jp/service"
+        },
+        {
+          "name": "メドコムAI議事録",
+          "since": "2026-05",
+          "note": "販売開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000065.000064723.html"
+        }
+      ],
+      "management": {
+        "count": 7,
+        "note": "代表取締役社長兼CEO1名・執行役員6名。監査役1名・顧問1名・アドバイザー2名は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "佐藤康行",
+            "role": "代表取締役社長 兼 CEO"
+          },
+          {
+            "name": "黒田省吾",
+            "role": "執行役員（営業部）"
+          },
+          {
+            "name": "西川彰",
+            "role": "執行役員（営業部）"
+          },
+          {
+            "name": "高瀬靖之",
+            "role": "執行役員（オペレーション部・プロダクト開発部）"
+          },
+          {
+            "name": "土井和史",
+            "role": "執行役員（システムエンジニアリング事業部）"
+          },
+          {
+            "name": "原晋一",
+            "role": "執行役員（財務部）"
+          },
+          {
+            "name": "棚橋弘通",
+            "role": "執行役員（人事総務部・経営企画部）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://medcom.ne.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/64723"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "令和8年熊本地震における被災地義援金支援について",
+        "url": "https://prtimes.jp/main/html/rd/p/000000067.000064723.html"
+      },
+      "newsPerYear": 6,
+      "sources": [
+        "https://medcom.ne.jp/company/members",
+        "https://prtimes.jp/companyrdf.php?company_id=64723"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8180001134350",
@@ -16110,7 +16629,41 @@
       "https://laview.jp/pg820362.html",
       "https://laview.jp/pg824638.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "血管ビュー（血管のしなやかさ測定機器）",
+          "note": "血管ビュープロ・可搬タイプを掲載。開始時期は公表なし",
+          "url": "https://laview.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "益田博之",
+            "role": "代表者"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://laview.jp/cn1/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.html"
+      },
+      "latestNews": {
+        "date": "2021-06",
+        "title": "サイトをリニューアルしました",
+        "url": "https://laview.jp/"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://laview.jp/",
+        "https://laview.jp/pg820362.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7011101090575",
@@ -16195,7 +16748,59 @@
         "text": "Mediiが臨床疑問をAIで調べ専門医相談につなぐ「Medii Q」を正式提供開始",
         "source": "https://medii.jp/news/20250717"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "Medii Eコンサル（医師向け専門医相談）",
+          "note": "累計相談2万件突破（2025-12）、エキスパート専門医2,000名突破（2026-04）。開始時期は公表なし",
+          "url": "https://medii.jp/"
+        },
+        {
+          "name": "Medii Q（医師向けAI検索）",
+          "note": "2025年日経優秀製品・サービス賞 最優秀賞。開始時期は未確認",
+          "url": "https://medii.jp/"
+        },
+        {
+          "name": "製薬企業向け疾患別症例相談窓口",
+          "note": "帝人ファーマ・旭化成等と協業（2026）",
+          "url": "https://medii.jp/news/press"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役・取締役執行役員2名。社外取締役1名・社外監査役は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "山田裕揮",
+            "role": "代表取締役 医師"
+          },
+          {
+            "name": "筒井亮介",
+            "role": "取締役 執行役員COO"
+          },
+          {
+            "name": "冨田幸賞",
+            "role": "取締役 執行役員CFO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://medii.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "北海道大学病院 血液内科と地域医療機関をつなぐ造血幹細胞移植ネットワーク",
+        "url": "https://medii.jp/news/press"
+      },
+      "newsPerYear": 16,
+      "sources": [
+        "https://medii.jp/corporate",
+        "https://medii.jp/news/press"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8080401023865",
@@ -16233,7 +16838,53 @@
       "https://silvacompass.co.jp/",
       "https://silvacompass.co.jp/company/about/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Talk With おはなしテレビ",
+          "since": "2024-12",
+          "note": "2024-10に12月サービス開始を発表",
+          "url": "https://silvacompass.co.jp/news/"
+        },
+        {
+          "name": "AI映像対話システム（Talk With）",
+          "since": "2023-10",
+          "note": "「Talk With Travis Japan」リリース（2023-10）",
+          "url": "https://silvacompass.co.jp/news/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役・取締役各1名。メンバー欄の小泉伸洋氏（信金キャピタル出身）は役職不明のため数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "安田晴彦",
+            "role": "代表取締役"
+          },
+          {
+            "name": "阿部恭久",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://silvacompass.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-03",
+        "title": "WELLBEING AWARDS 2026 ファイナリストに選出",
+        "url": "https://silvacompass.co.jp/news/"
+      },
+      "newsPerYear": 2,
+      "sources": [
+        "https://silvacompass.co.jp/company/about/",
+        "https://silvacompass.co.jp/company/members/",
+        "https://silvacompass.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9040001104713",
@@ -16294,7 +16945,43 @@
         "text": "本店を鹿児島市（アンクスと同じ住所）へ移転"
       }
     ],
-    "scopeNote": "救急医療情報システム「Smart119」は現在、親会社アンクスのSmart119事業部が運営している"
+    "scopeNote": "救急医療情報システム「Smart119」は現在、親会社アンクスのSmart119事業部が運営している",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Smart119（救急医療情報システム）",
+          "note": "2017-12 島根大学病院でACES実装、2018-05実装のため会社設立（沿革）。2025-07に事業をアンクスへ譲渡",
+          "url": "https://smart119.biz/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "現在のサイト企業概要は譲受先 株式会社アンクス（代表取締役社長 菊永満）。旧Smart119の代表取締役CEOは中田孝明",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "菊永満",
+            "role": "代表取締役社長（株式会社アンクス）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://smart119.biz/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/56624"
+      },
+      "latestNews": {
+        "date": "2025-07",
+        "title": "【株式会社アンクス】救急医療DXプラットフォーム「Smart119」事業譲受",
+        "url": "https://prtimes.jp/main/html/rd/p/000000002.000165552.html"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://smart119.biz/company/outline.html",
+        "https://smart119.biz/news/",
+        "https://prtimes.jp/main/html/rd/p/000000002.000165552.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5010001200758",
@@ -16341,7 +17028,50 @@
       "https://brain-sleep.com/pages/corporate",
       "https://prtimes.jp/main/html/rd/p/000000307.000046684.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ブレインスリープ 寝具（ピロー・マットレス・掛け布団等）",
+          "note": "開始時期は公表なし",
+          "url": "https://brain-sleep.com/"
+        },
+        {
+          "name": "ブレインスリープ ウェア（リカバリーウェア）",
+          "since": "2022-06"
+        },
+        {
+          "name": "企業向け睡眠コンサルティング",
+          "note": "開始時期は公表なし",
+          "url": "https://brain-sleep.com/pages/corporate_consulting"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "廣田敦",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/46684"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "睡眠クリエイターとして安藤優子さんらの睡眠コラムを公開",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/46684"
+      },
+      "newsPerYear": 23,
+      "sources": [
+        "https://brain-sleep.com/pages/corporate",
+        "https://prtimes.jp/companyrdf.php?company_id=46684"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1120001131112",
@@ -16388,7 +17118,73 @@
       "https://ritaworks.jp/about.html",
       "https://ritaworks.jp/service.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "mirahos（ミラホス：病院向けWebサイト制作・経営支援）",
+          "note": "2024-03に病院の採用管理DXサービスを開始。開始時期は公表なし",
+          "url": "https://ritaworks.jp/service.html"
+        },
+        {
+          "name": "NPO向けWeb制作・CMS（nuweb等）",
+          "since": "2022-04",
+          "note": "NPOホームページ専用CMSの提供開始",
+          "url": "https://ritaworks.jp/service.html"
+        },
+        {
+          "name": "病院向け寄付・広報セミナー",
+          "note": "2026年にセミナー開催を告知"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "代表取締役1名・取締役2名（グループ会社コングラント／メディグルのCEO兼務）・執行役員3名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "中川雄太",
+            "role": "代表取締役"
+          },
+          {
+            "name": "佐藤正隆",
+            "role": "取締役（コングラント株式会社CEO）"
+          },
+          {
+            "name": "中嶋秀樹",
+            "role": "取締役（メディグル株式会社CEO）"
+          },
+          {
+            "name": "塚本誠",
+            "role": "執行役員"
+          },
+          {
+            "name": "岡本美樹",
+            "role": "執行役員"
+          },
+          {
+            "name": "伊豆原佑一",
+            "role": "執行役員"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://ritaworks.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/78379"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "寄付2兆円時代に受け皿がない病院へ。寄付集めの基礎を60分で",
+        "url": "https://prtimes.jp/main/html/rd/p/000000008.000078379.html"
+      },
+      "newsPerYear": 2,
+      "sources": [
+        "https://ritaworks.jp/about.html",
+        "https://prtimes.jp/companyrdf.php?company_id=78379",
+        "https://prtimes.jp/companyrdf.php?company_id=35731"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4130001055704",
@@ -16475,7 +17271,66 @@
         "until": "2023-08",
         "note": "JMDCへの吸収合併で解散"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "TidyMed（治験業務支援システム）",
+          "note": "2025-01にeWorkSheet・eSource EHR機能を発表。開始時期は公表なし",
+          "url": "https://rwdata.co.jp/"
+        },
+        {
+          "name": "医療データベース（PMS・DB調査）",
+          "note": "同社DBをPMSで利用した医薬品の再審査完了（2025-10）",
+          "url": "https://rwdata.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "会長1名・代表取締役1名・取締役4名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "尾板靖子",
+            "role": "会長"
+          },
+          {
+            "name": "浅倉宏至",
+            "role": "代表取締役"
+          },
+          {
+            "name": "服部雅優",
+            "role": "取締役"
+          },
+          {
+            "name": "大里浩司",
+            "role": "取締役"
+          },
+          {
+            "name": "野口亮",
+            "role": "取締役"
+          },
+          {
+            "name": "中村優介",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://rwdata.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "第26回CRCと臨床試験のあり方を考える会議で代表 浅倉が講演",
+        "url": "https://rwdata.co.jp/news/"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://rwdata.co.jp/company/",
+        "https://rwdata.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2011201020908",
@@ -16515,7 +17370,59 @@
       "https://prtimes.jp/main/html/rd/p/000000040.000038743.html",
       "https://prtimes.jp/main/html/rd/p/000000039.000038743.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "うららか相談室（オンラインカウンセリング）",
+          "since": "2019-11",
+          "note": "登録カウンセラー900名（2026-09）。法人向けは2021-03開始",
+          "url": "https://www.uraraka-soudan.com/"
+        },
+        {
+          "name": "不眠の認知行動療法（CBT-I）プログラム",
+          "since": "2025-12",
+          "note": "精神科医と共同開発",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/38743"
+        },
+        {
+          "name": "カウンセリングギフト",
+          "since": "2026-05"
+        },
+        {
+          "name": "ウェブコンサルティング事業",
+          "note": "開始時期は公表なし",
+          "url": "https://www.kokodokoro.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "遠山慎一",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.kokodokoro.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/38743"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "TOKYO STARTUP LINK 第1回ピッチイベントの登壇企業に選定",
+        "url": "https://www.kokodokoro.com/"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://www.kokodokoro.com/",
+        "https://prtimes.jp/companyrdf.php?company_id=38743",
+        "https://prtimes.jp/main/html/rd/p/000000040.000038743.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3010001170912",
@@ -16580,7 +17487,61 @@
         "text": "アガサの文書管理クラウド「Agatha」が仏ジェネリック大手Biogaranに採用",
         "source": "http://www.agathalife.com/news/products-20240408"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "Agatha（治験・臨床研究向けクラウド文書管理）",
+          "note": "グローバルユーザー8万人突破（2026-04）。2026-02にバージョン5.0",
+          "url": "https://www.agathalife.com/about-agatha"
+        },
+        {
+          "name": "Single IRB支援機能",
+          "since": "2026-02",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/52277"
+        },
+        {
+          "name": "データインテリジェンス事業",
+          "since": "2026-02",
+          "note": "治験文書データ活用を本格始動",
+          "url": "https://prtimes.jp/main/html/rd/p/000000061.000052277.html"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役社長・取締役COO・取締役CFO。社外取締役2名・監査役3名は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "鎌倉千恵美",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "Guillaume Gerard",
+            "role": "取締役COO"
+          },
+          {
+            "name": "小林伸吾",
+            "role": "取締役CFO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.agathalife.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/52277"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "グローバルサウス向け標準治験プラットフォーム実証事業が経産省事業に採択",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/52277"
+      },
+      "newsPerYear": 9,
+      "sources": [
+        "https://www.agathalife.com/about-us",
+        "https://prtimes.jp/companyrdf.php?company_id=52277"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3011101088400",
@@ -16636,7 +17597,48 @@
         "name": "バローチニールジブラン",
         "note": "DB値「バローチニールジブラン」と同一人物。PR TIMES等の表記は「バローチ ニール」"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "WeMeet（オンライン×対面の精神医療プラットフォーム）",
+          "note": "受診予約10万回突破（2024-12）。開始時期は公表なし",
+          "url": "https://atlasthealth.co.jp/about/"
+        },
+        {
+          "name": "クリニックDX支援",
+          "note": "開始時期は公表なし",
+          "url": "https://atlasthealth.co.jp/about/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "バローチ ニール",
+            "role": "創業者・代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://atlasthealth.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/67292"
+      },
+      "latestNews": {
+        "date": "2025-06",
+        "title": "CEO社長情報にCEOバローチのインタビューが掲載",
+        "url": "https://atlasthealth.co.jp/news/"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://atlasthealth.co.jp/company/",
+        "https://atlasthealth.co.jp/news/",
+        "https://prtimes.jp/companyrdf.php?company_id=67292"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6020001131530",
@@ -16683,7 +17685,57 @@
         "date": "2025-07",
         "text": "本店を横浜市西区宮ケ谷へ移転"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "AI薬局ナビ（地域薬局向けAI検索最適化）",
+          "note": "公式で「主力事業」と記載。開始時期は公表なし",
+          "url": "https://healthcaregate.co.jp/"
+        },
+        {
+          "name": "geocra（AnemoiP&M社と共同開発）",
+          "since": "2025",
+          "note": "沿革で2025年に共同開発開始。Epson Innovation Challenge優勝",
+          "url": "https://healthcaregate.co.jp/"
+        },
+        {
+          "name": "ヘルスケア×トレカ",
+          "note": "準備中",
+          "url": "https://healthcaregate.co.jp/"
+        },
+        {
+          "name": "事業共創（新規事業・補助金・AI支援）",
+          "note": "開始時期は公表なし",
+          "url": "https://healthcaregate.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "保田浩文",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://healthcaregate.co.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-06",
+        "title": "おかげさまで、8期目を迎えました",
+        "url": "https://healthcaregate.co.jp/news"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://healthcaregate.co.jp/",
+        "https://healthcaregate.co.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8010001145166",
@@ -16740,7 +17792,72 @@
         "until": "2022-04",
         "note": "新会社への吸収合併で消滅"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "MIMOSYS（音声から心の状態を定量化するエンジン）",
+          "since": "2015-01",
+          "note": "沿革記載",
+          "url": "https://www.medical-pst.com/"
+        },
+        {
+          "name": "VOISLOG（企業向け音声バイオマーカープラットフォーム）",
+          "since": "2024-07",
+          "note": "2025-12に新機能2つ追加",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/40125"
+        },
+        {
+          "name": "音声バイオマーカー医療機器プログラム開発",
+          "note": "抑うつ・心不全等の共同研究。開始時期は公表なし",
+          "url": "https://www.medical-pst.com/about/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役1名・取締役2名・執行役員2名。監査役1名は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "大塚寛",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "並木幸久",
+            "role": "取締役"
+          },
+          {
+            "name": "瀬田真記子",
+            "role": "取締役"
+          },
+          {
+            "name": "道菅良介",
+            "role": "執行役員"
+          },
+          {
+            "name": "遠藤弘司",
+            "role": "執行役員"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.medical-pst.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/40125",
+        "ir": "https://www.medical-pst.com/about/ir"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "（公式ニュース一覧の最新）",
+        "url": "https://www.medical-pst.com/news/"
+      },
+      "newsPerYear": 21,
+      "sources": [
+        "https://www.medical-pst.com/about/",
+        "https://www.medical-pst.com/news/",
+        "https://prtimes.jp/companyrdf.php?company_id=40125"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4360003006070",
@@ -16781,7 +17898,66 @@
       "https://humanome.jp/",
       "https://humanome.jp/company/outline/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Humanome Eyes（物体検知AI開発クラウド）",
+          "since": "2020-12",
+          "note": "2020-02にワークステーション版",
+          "url": "https://humanome.jp/company/outline/"
+        },
+        {
+          "name": "Humanome CatData（表データAI開発クラウド）",
+          "since": "2021",
+          "note": "沿革記載",
+          "url": "https://humanome.jp/company/outline/"
+        },
+        {
+          "name": "Humanome Lab（生体データ計測・解析）",
+          "since": "2022-09",
+          "url": "https://humanome.jp/company/outline/"
+        },
+        {
+          "name": "RIDEループ for Project",
+          "since": "2026-03",
+          "note": "正式提供開始",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/42913"
+        },
+        {
+          "name": "Humanome RDBC（生命科学×AI研修）",
+          "since": "2026-09",
+          "url": "https://prtimes.jp/main/html/rd/p/000000077.000042913.html"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（監査役の記載あり、数えず）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "瀬々潤",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://humanome.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/42913"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "（公式お知らせ一覧の最新）",
+        "url": "https://humanome.jp/news/"
+      },
+      "newsPerYear": 44,
+      "sources": [
+        "https://humanome.jp/company/outline/",
+        "https://humanome.jp/news/",
+        "https://prtimes.jp/companyrdf.php?company_id=42913"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1010001193535",
@@ -16834,7 +18010,58 @@
         "date": "2025-09",
         "text": "2025年9月 スギ薬局グループ入りを発表"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "nanacara（患者・家族向け支援アプリ）",
+          "since": "2020-03",
+          "note": "2025-03に5周年。累計4万DL突破（2025-12）",
+          "url": "https://knockonthedoor.jp/service/"
+        },
+        {
+          "name": "nanacara for Doctor",
+          "note": "開始時期は公表なし",
+          "url": "https://knockonthedoor.jp/service/"
+        },
+        {
+          "name": "nanacara薬局（てんかん特化オンライン服薬）",
+          "note": "開始時期は公表なし",
+          "url": "https://knockonthedoor.jp/service/"
+        },
+        {
+          "name": "ワタシテ（認知症共生プラットフォーム）",
+          "since": "2025-11",
+          "note": "神奈川県で実証事業開始",
+          "url": "https://knockonthedoor.jp/service/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "林泰臣",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://knockonthedoor.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "臨時メンテナンス終了およびサービス再開のお知らせ",
+        "url": "https://knockonthedoor.jp/2026/10/8807/"
+      },
+      "newsPerYear": 48,
+      "sources": [
+        "https://knockonthedoor.jp/company/outline/",
+        "https://knockonthedoor.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1010901040290",
@@ -16905,7 +18132,61 @@
       "Shaperon Review",
       "Shaperon Safety Intake",
       "Shaperon SeminarHub"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "Shaperon（規制産業向けメッセージング）",
+          "since": "2019-09",
+          "url": "https://www.shaperon-inc.com/"
+        },
+        {
+          "name": "Shaperon Connect",
+          "since": "2023-04",
+          "url": "https://www.shaperon-inc.com/"
+        },
+        {
+          "name": "資材審査AI／Shaperon Review",
+          "since": "2025-06",
+          "url": "https://www.shaperon-inc.com/"
+        },
+        {
+          "name": "Shaperon SeminarHub",
+          "since": "2025-07",
+          "url": "https://www.shaperon-inc.com/"
+        },
+        {
+          "name": "有害事象検知AI（Shaperon Safety Intake）",
+          "since": "2026-02",
+          "url": "https://www.shaperon-inc.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "Executive Memberは代表取締役CEOのみ掲載",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "阪本怜",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.shaperon-inc.com/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "MR名義代理配信機能を提供開始",
+        "url": "https://www.shaperon-inc.com/news/"
+      },
+      "newsPerYear": 13,
+      "sources": [
+        "https://www.shaperon-inc.com/company/",
+        "https://www.shaperon-inc.com/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9010401156828",
@@ -16968,7 +18249,47 @@
         "text": "Yuimediと愛媛大学がHL7 FHIRからOMOP CDMへの変換ツールを共同開発",
         "source": "https://yuimedi.com/news/240514_ehime_univ"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "YuiData／YuiQuery（医療データ活用）",
+          "note": "開始時期は公表なし",
+          "url": "https://yuimedi.com/"
+        },
+        {
+          "name": "医療データ標準化（OMOP CDM変換）支援",
+          "note": "JMDC共催ウェビナー等。開始時期は公表なし",
+          "url": "https://yuimedi.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（経営陣紹介ページは取得できず）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "グライムス英美里",
+            "role": "代表取締役社長"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://yuimedi.com/news"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "「明るい社会保障改革推進議員連盟およびJHIHによるヘルスケア勉強会」に登壇",
+        "url": "https://yuimedi.com/news/20260918_highway"
+      },
+      "newsPerYear": 15,
+      "sources": [
+        "https://yuimedi.com/home",
+        "https://yuimedi.com/about",
+        "https://yuimedi.com/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1011001129784",
@@ -17015,7 +18336,57 @@
     ],
     "aliases": [
       "Obot AI"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "ObotAI（多言語AIチャットボット）",
+          "since": "2018-06",
+          "note": "株式会社ObotAI設立（2019-09）前にリリース",
+          "url": "https://obot-ai.com/service/"
+        },
+        {
+          "name": "Minutz（オンライン会議自動翻訳）",
+          "since": "2021-09",
+          "url": "https://obot-ai.com/service/"
+        },
+        {
+          "name": "ObotSERVE（生成AI搭載）",
+          "since": "2023-02",
+          "url": "https://obot-ai.com/service/"
+        },
+        {
+          "name": "ObotWORKS（AIエージェント受託開発）",
+          "since": "2026-10",
+          "url": "https://obot-ai.com/news/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "北見好拡",
+            "role": "代表取締役社長"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://obot-ai.com/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "ベトナム経済メディア「InfoBank」に代表 北見のインタビュー掲載",
+        "url": "https://obot-ai.com/news/"
+      },
+      "newsPerYear": 13,
+      "sources": [
+        "https://obot-ai.com/company/",
+        "https://obot-ai.com/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7120001226716",
@@ -17118,7 +18489,67 @@
       "https://service.medical-force.com/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2020年11月にメディカルフォースとして設立し、2026年2月に現社名へ変更。美容・自由診療クリニック向けに、予約、電子カルテ、決済、経営分析、広告効果測定、LINE自動配信を一元化したオールインワンSaaS「medicalforce」を提供し、AI音声カルテなどのAI機能群「medicalforce intelligence」や経営コンサルティングも展開する。導入は約800院（2026年9月）。警備業向けSaaS「警備フォース」も手がけ、マルチバーティカルSaaSを掲げる。"
+    "overview": "2020年11月にメディカルフォースとして設立し、2026年2月に現社名へ変更。美容・自由診療クリニック向けに、予約、電子カルテ、決済、経営分析、広告効果測定、LINE自動配信を一元化したオールインワンSaaS「medicalforce」を提供し、AI音声カルテなどのAI機能群「medicalforce intelligence」や経営コンサルティングも展開する。導入は約800院（2026年9月）。警備業向けSaaS「警備フォース」も手がけ、マルチバーティカルSaaSを掲げる。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "medicalforce（自由診療クリニック向けオールインワンSaaS・電子カルテ）",
+          "since": "2021-03",
+          "note": "導入800院突破（2026-09）",
+          "url": "https://service.medical-force.com/"
+        },
+        {
+          "name": "medicalforce intelligence（AI機能群・AI音声カルテ）",
+          "since": "2026-05",
+          "note": "AI音声カルテを先行提供開始",
+          "url": "https://service.medical-force.com/"
+        },
+        {
+          "name": "警備事業者向けオールインワンSaaS",
+          "note": "開始時期は公表なし",
+          "url": "https://atomic-software.co.jp/business"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役CEO・代表取締役CTO・取締役COO・執行役員1名。社外取締役2名・社外監査役1名は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "畠中翔一",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "組田隆亮",
+            "role": "代表取締役CTO"
+          },
+          {
+            "name": "羽富直輝",
+            "role": "取締役COO"
+          },
+          {
+            "name": "金井佑介",
+            "role": "執行役員"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://atomic-software.co.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/75856"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "PHPの脆弱性に関するmedicalforceの影響について",
+        "url": "https://prtimes.jp/main/html/rd/p/000000121.000075856.html"
+      },
+      "newsPerYear": 11,
+      "sources": [
+        "https://atomic-software.co.jp/company",
+        "https://prtimes.jp/companyrdf.php?company_id=75856",
+        "https://prtimes.jp/main/html/rd/p/000000001.000176667.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-002",
@@ -17164,7 +18595,59 @@
         "text": "自由診療クリニック向けDXツールのB4Aが資金調達",
         "source": "https://prtimes.jp/main/html/rd/p/000000007.000119902.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "B4A（自由診療クリニック向け予約・電子カルテDXツール）",
+          "note": "事業開始2021-01（会社概要）。創業事業",
+          "url": "https://www.b4a.co.jp/"
+        },
+        {
+          "name": "B4Aスマートローン（医療ローン）",
+          "since": "2025-02",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/119902"
+        },
+        {
+          "name": "B4A-I（AI機能群）",
+          "since": "2026-06",
+          "note": "新プロジェクト発表",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/119902"
+        },
+        {
+          "name": "医療機関向けコンサルティング",
+          "note": "開始時期は公表なし",
+          "url": "https://corp.b4a.co.jp/company"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "植松正太郎",
+            "role": "代表"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.b4a.co.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/119902"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "（公式お知らせ一覧の最新）",
+        "url": "https://www.b4a.co.jp/news"
+      },
+      "newsPerYear": 30,
+      "sources": [
+        "https://corp.b4a.co.jp/company",
+        "https://www.b4a.co.jp/news",
+        "https://prtimes.jp/companyrdf.php?company_id=119902"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-003",
@@ -17207,7 +18690,51 @@
       "https://ascii.jp/elem/000/004/373/4373394/"
     ],
     "updatedAt": "2026-10",
-    "overview": "医学部生だった創業者らが2022年に株式会社Pleapとして設立し、2025年2月にプロダクト名と同じ現社名へ変更。診察中の医師と患者の会話を音声認識し、生成AIでカルテ（SOAP）や薬歴を数秒で自動作成する医療文書作成AI「medimo」を開発・提供する。2024年3月のサービス開始から2年弱で全国1,000件超の医療機関に導入され、利用は累計100万診察を超えた。2026年2月に医薬品卸大手スズケンのグループに参画し、同グループの顧客基盤を通じて診療所・病院・薬局への展開を進める。"
+    "overview": "医学部生だった創業者らが2022年に株式会社Pleapとして設立し、2025年2月にプロダクト名と同じ現社名へ変更。診察中の医師と患者の会話を音声認識し、生成AIでカルテ（SOAP）や薬歴を数秒で自動作成する医療文書作成AI「medimo」を開発・提供する。2024年3月のサービス開始から2年弱で全国1,000件超の医療機関に導入され、利用は累計100万診察を超えた。2026年2月に医薬品卸大手スズケンのグループに参画し、同グループの顧客基盤を通じて診療所・病院・薬局への展開を進める。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "medimo（会話からカルテを作成するAI）",
+          "note": "全国1,000件以上の医療機関に導入（公式）。開始時期は公表なし",
+          "url": "https://medimo.ai/"
+        },
+        {
+          "name": "medimo AI薬歴",
+          "note": "開始時期は公表なし",
+          "url": "https://medimo.ai/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役社長・代表取締役（共同創業者2名）。共同創業者の野村怜太郎氏は顧問のため数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "中原楊",
+            "role": "代表取締役社長（医師）"
+          },
+          {
+            "name": "馬劭昂",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://corp.medimo.ai/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "当社ウェブサイトのフォーム送信情報の流出の可能性に関するお詫び",
+        "url": "https://corp.medimo.ai/news"
+      },
+      "newsPerYear": 13,
+      "sources": [
+        "https://corp.medimo.ai/",
+        "https://corp.medimo.ai/news",
+        "https://corp.medimo.ai/suzuken"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-004",
@@ -17249,7 +18776,52 @@
       "https://prtimes.jp/main/html/rd/p/000000021.000102400.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "臨床工学技士が2020年3月に創業し、「日本の医療を黒字化する」を掲げて医療業界横断のDXを進める。病院の医療機器管理SaaS「HITOTSU Asset」に続き、2024年3月に院内外の医療者・企業が安全にやりとりできる医療DXチャット「Link」を投入し、利用は400医療機関・150企業に広がった。2026年10月には生成AIとチャットを組み合わせた医療安全・インシデントレポートシステム「ResiLIA」を発売。Beyond Next Ventures、メドレーなどが出資する。"
+    "overview": "臨床工学技士が2020年3月に創業し、「日本の医療を黒字化する」を掲げて医療業界横断のDXを進める。病院の医療機器管理SaaS「HITOTSU Asset」に続き、2024年3月に院内外の医療者・企業が安全にやりとりできる医療DXチャット「Link」を投入し、利用は400医療機関・150企業に広がった。2026年10月には生成AIとチャットを組み合わせた医療安全・インシデントレポートシステム「ResiLIA」を発売。Beyond Next Ventures、メドレーなどが出資する。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "HITOTSU Link（医療DXチャット）",
+          "note": "250施設超に拡大（2025-07）。2025-10にプラン刷新・無償化。開始時期は公表なし",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/102400"
+        },
+        {
+          "name": "医療安全の新プロダクト（生成AI×チャット）",
+          "since": "2026-10",
+          "note": "2026-07に10月提供開始と発表（ResiLIAと見られるが名称は未確認）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000023.000102400.html"
+        },
+        {
+          "name": "HITOTSU Asset",
+          "note": "開始時期は公表なし"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（リリース記載。2023-12に新代表取締役就任の発表）",
+        "asOf": "2026-07",
+        "members": [
+          {
+            "name": "佐藤公彦",
+            "role": "代表取締役社長CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/102400"
+      },
+      "latestNews": {
+        "date": "2026-07",
+        "title": "生成AI×チャット連携で医療事故ゼロへ。新プロダクトを10月提供開始",
+        "url": "https://prtimes.jp/main/html/rd/p/000000023.000102400.html"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://hitotsu.co.jp/",
+        "https://prtimes.jp/companyrdf.php?company_id=102400",
+        "https://prtimes.jp/main/html/rd/p/000000023.000102400.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-005",
@@ -17295,7 +18867,56 @@
       "https://oncall-japan.com/press-oncall-newoffice/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2021年4月設立の在宅医療支援企業。在宅医療機関に代わって夜間・休日のオンコール対応と往診を担う「ON CALL」、患者・家族からの電話を受け付ける「ON CALL connect」、在宅医療に特化し紹介手数料を抑えた医師紹介「シェアレジ」を展開し、在宅医療向けのDXツール開発も行う。東京都内の6医師会と連携し、2024年1月〜2025年4月に129件の往診を代行。対応エリアは首都圏1都3県に加え、2026年2月の大阪拠点開設で関西にも広げた。2026年4月に本社を日本橋小伝馬町へ移転。"
+    "overview": "2021年4月設立の在宅医療支援企業。在宅医療機関に代わって夜間・休日のオンコール対応と往診を担う「ON CALL」、患者・家族からの電話を受け付ける「ON CALL connect」、在宅医療に特化し紹介手数料を抑えた医師紹介「シェアレジ」を展開し、在宅医療向けのDXツール開発も行う。東京都内の6医師会と連携し、2024年1月〜2025年4月に129件の往診を代行。対応エリアは首都圏1都3県に加え、2026年2月の大阪拠点開設で関西にも広げた。2026年4月に本社を日本橋小伝馬町へ移転。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ON CALL（在宅医療の夜間・休日オンコール代行）",
+          "note": "開始時期は公表なし",
+          "url": "https://oncall-japan.com/"
+        },
+        {
+          "name": "ON CALL connect",
+          "note": "開始時期は公表なし",
+          "url": "https://oncall-japan.com/"
+        },
+        {
+          "name": "シェアレジ",
+          "note": "開始時期は公表なし",
+          "url": "https://oncall-japan.com/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "CEO（代表取締役）・COO兼CMO。ほかマネージャー層3名は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "符毅欣",
+            "role": "代表取締役CEO（医師）"
+          },
+          {
+            "name": "中溝祐介",
+            "role": "COO・CMO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://oncall-japan.com/information/"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "（公式お知らせ一覧の最新）",
+        "url": "https://oncall-japan.com/information/"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://oncall-japan.com/company/",
+        "https://oncall-japan.com/member/",
+        "https://oncall-japan.com/information/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-006",
@@ -17338,7 +18959,71 @@
       "https://medigle.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2022年1月に大阪で設立。病院の地域医療連携業務を支えるクラウド群「medigle」を提供し、診療所から簡単に患者紹介・予約ができる「medigle予約」、紹介データを分析して前方連携を強める「medigle CRM」、逆紹介を促す「medigle検索」、電話の一次対応を担う「medigle AI電話」をそろえ、病院の営業・広報のBPOも行う。フリープランから利用でき、導入は累計570病院超（2025年4月）。XTech Ventures、グローバル・ブレインなどが出資する。"
+    "overview": "2022年1月に大阪で設立。病院の地域医療連携業務を支えるクラウド群「medigle」を提供し、診療所から簡単に患者紹介・予約ができる「medigle予約」、紹介データを分析して前方連携を強める「medigle CRM」、逆紹介を促す「medigle検索」、電話の一次対応を担う「medigle AI電話」をそろえ、病院の営業・広報のBPOも行う。フリープランから利用でき、導入は累計570病院超（2025年4月）。XTech Ventures、グローバル・ブレインなどが出資する。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "medigle（地域医療連携クラウド）",
+          "note": "地域医療連携クラウド。開始時期は公表なし（2021年以前はリタワークス名義でリリース配信）",
+          "url": "https://medigle.jp/"
+        },
+        {
+          "name": "medigle検索（かかりつけ医検索）",
+          "since": "2022-11",
+          "url": "https://medigle.jp/"
+        },
+        {
+          "name": "medigle予約（紹介患者WEB予約）",
+          "since": "2023-09",
+          "note": "2026-04に健診・人間ドック予約機能",
+          "url": "https://medigle.jp/"
+        },
+        {
+          "name": "medigle AI電話",
+          "since": "2026-01",
+          "note": "正式リリース",
+          "url": "https://prtimes.jp/main/html/rd/p/000000023.000103131.html"
+        },
+        {
+          "name": "medigle 営業支援",
+          "since": "2026-01"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役1名・取締役2名。エグゼクティブアドバイザーは数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "中嶋秀樹",
+            "role": "代表取締役"
+          },
+          {
+            "name": "竹田陽介",
+            "role": "取締役"
+          },
+          {
+            "name": "佐々木星",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://medigle.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/103131"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "エグゼクティブアドバイザーに芦原教之氏が就任",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/103131"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://medigle.jp/company.html",
+        "https://prtimes.jp/companyrdf.php?company_id=103131"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-007",
@@ -17377,7 +19062,52 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2020年1月設立。「医療×ITで人々の健康寿命の最大化を実現する」を掲げ、医療機関向けDXを展開する。主力は病院・クリニックのサイバーセキュリティ対策を支援するメディカルセキュリティクラウド「Mowl（マウル）」で、無料診断などを通じて導入先を広げる。集患支援も手がけ、2024年7月に歯科医院向けAIデンタルサービス「BEAUTEETH」を投入。代表の原拓也は2度の事業売却を経験した連続起業家で、2024年のシリーズAで計4.5億円を調達した。",
-    "totalFunding": "累計約5.3億円（2024年8月時点）"
+    "totalFunding": "累計約5.3億円（2024年8月時点）",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Mowl（医療データプラットフォーム）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.mtu-inc.com/service#mowl"
+        },
+        {
+          "name": "BEAUTEETH",
+          "note": "開始時期は公表なし",
+          "url": "https://www.mtu-inc.com/"
+        },
+        {
+          "name": "セカンドオピニオン・医療セキュリティクラウド・医療機関向けデジタルマーケティング",
+          "note": "会社概要の事業内容",
+          "url": "https://www.mtu-inc.com/company"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "会社概要の代表は原田健一。2025-04に代表取締役 原拓也氏を解職、畑啓太・樫山雄樹両氏を代表取締役に選定、原田健一氏を取締役に選任（お知らせ）。現体制の全容は未確認",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "原田健一",
+            "role": "代表"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.mtu-inc.com/news"
+      },
+      "latestNews": {
+        "date": "2025-04",
+        "title": "取締役の解任及び新取締役選任に関するお知らせ",
+        "url": "https://www.mtu-inc.com/news/detail/KAe_I-sd"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://www.mtu-inc.com/",
+        "https://www.mtu-inc.com/news/detail/Hw34aRu_",
+        "https://www.mtu-inc.com/news/detail/KAe_I-sd"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-008",
@@ -17414,7 +19144,43 @@
       "https://sogyotecho.jp/news/20251028soramed/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2025年1月設立。紙やExcelで診療科ごとに管理されてきた手術予定を、医師がiPadから外科系全科共通の形式で入力・共有できるクラウド型手術予定管理サービス「オペプロ」を開発する。手術室の空き枠を早期に可視化・再割り当てし、稼働率向上と外科医の事務負担軽減を図る。中国地方の高度急性期病院での半年間のPoCで手術件数134件増、収益約1.3億円相当の効果を示し本導入に至った。2026年5月にロボット手術専用機能を追加。"
+    "overview": "2025年1月設立。紙やExcelで診療科ごとに管理されてきた手術予定を、医師がiPadから外科系全科共通の形式で入力・共有できるクラウド型手術予定管理サービス「オペプロ」を開発する。手術室の空き枠を早期に可視化・再割り当てし、稼働率向上と外科医の事務負担軽減を図る。中国地方の高度急性期病院での半年間のPoCで手術件数134件増、収益約1.3億円相当の効果を示し本導入に至った。2026年5月にロボット手術専用機能を追加。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "オペプロ（手術予定管理AI SaaS）",
+          "since": "2025-10",
+          "note": "正式ローンチ。2026-06にロボット手術専用機能を強化",
+          "url": "https://www.soramed.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "古石至章",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.soramed.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/170801"
+      },
+      "latestNews": {
+        "date": "2026-06",
+        "title": "「オペプロ」ロボット手術専用機能を強化",
+        "url": "https://prtimes.jp/main/html/rd/p/000000008.000170801.html"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://www.soramed.jp/",
+        "https://prtimes.jp/companyrdf.php?company_id=170801"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-009",
@@ -17454,7 +19220,52 @@
       "https://prtimes.jp/main/html/rd/p/000000018.000101467.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "外科医として15年以上の経験を持つ大谷隼一が2017年12月に設立。外科系のチーム医療業務をモバイル化・自動化する「OpeOne」シリーズを展開し、手術予定や症例情報をスマートフォンから安全に共有できるスマート手術台帳「OpeOne手術台帳」は大学病院5施設を含む病院・有床診療所に導入され、累計症例登録は5,000件を超えた（2026年4月）。2026年度診療報酬改定に合わせ、手術加算の証憑管理をAIで支援する「OpeOne加算ナビ」を投入し、帝京大学病院ではアンギオ室向けの効果検証も進める。"
+    "overview": "外科医として15年以上の経験を持つ大谷隼一が2017年12月に設立。外科系のチーム医療業務をモバイル化・自動化する「OpeOne」シリーズを展開し、手術予定や症例情報をスマートフォンから安全に共有できるスマート手術台帳「OpeOne手術台帳」は大学病院5施設を含む病院・有床診療所に導入され、累計症例登録は5,000件を超えた（2026年4月）。2026年度診療報酬改定に合わせ、手術加算の証憑管理をAIで支援する「OpeOne加算ナビ」を投入し、帝京大学病院ではアンギオ室向けの効果検証も進める。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "OpeOneシリーズ（手術台帳・加算ナビ・アンギオ室）",
+          "note": "外科系医療者向け業務DX。開始時期は公表なし",
+          "url": "https://www.quotomy.co.jp/"
+        },
+        {
+          "name": "Quotomy（医療者向けサービス）",
+          "note": "2026-10-22から脆弱性対応で一時停止中（再開未定）",
+          "url": "https://www.quotomy.co.jp/posts/hRPlG-QT"
+        },
+        {
+          "name": "OPENOVA Online",
+          "note": "開始時期は公表なし",
+          "url": "https://www.quotomy.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "大谷隼一",
+            "role": "代表取締役（整形外科医）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.quotomy.co.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "Quotomyサービス一時停止のお知らせ",
+        "url": "https://www.quotomy.co.jp/posts/hRPlG-QT"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://www.quotomy.co.jp/",
+        "https://www.quotomy.co.jp/about",
+        "https://www.quotomy.co.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-010",
@@ -17494,7 +19305,51 @@
       "https://nihinmedia.jp/jp/about-us/"
     ],
     "updatedAt": "2026-10",
-    "overview": "製薬企業のデジタルマーケティング支援に携わってきたメンバーが2023年6月に設立。日本の医師向けに、国内外の論文や診療ガイドラインを出典付きで検索・要約して回答する生成AIアシスタント「MedGen Japan」を開発・運営し、医療機関向けにも提供する。製薬企業向けにはAIとデータを活用した情報提供支援「MedGen QI」を展開する。2026年3月から東京科学大学と、臨床現場での生成AIの実用性を評価するベンチマーク構築に向けた共同研究を行う。"
+    "overview": "製薬企業のデジタルマーケティング支援に携わってきたメンバーが2023年6月に設立。日本の医師向けに、国内外の論文や診療ガイドラインを出典付きで検索・要約して回答する生成AIアシスタント「MedGen Japan」を開発・運営し、医療機関向けにも提供する。製薬企業向けにはAIとデータを活用した情報提供支援「MedGen QI」を展開する。2026年3月から東京科学大学と、臨床現場での生成AIの実用性を評価するベンチマーク構築に向けた共同研究を行う。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "MedGen Japan（医師向けAIアシスタント）",
+          "note": "β版LINE版を2024-12に公開。2026-06に個人情報マスキング機能。開始時期は公表なし",
+          "url": "https://nihinmedia.jp/jp/"
+        },
+        {
+          "name": "MedGen QI",
+          "note": "開始時期は公表なし",
+          "url": "https://nihinmedia.jp/jp/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "Co-Founder & CEO・Co-Founder & CAIO。Customer Success Directorは数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "安藤孝太",
+            "role": "Co-Founder and CEO"
+          },
+          {
+            "name": "マンジュナタ チャンドラッパ",
+            "role": "Co-Founder and CAIO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://nihinmedia.jp/jp/category/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/129222"
+      },
+      "latestNews": {
+        "date": "2026-06",
+        "title": "MedGen Japan、個人情報マスキング機能を搭載",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/129222"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://nihinmedia.jp/jp/about-us/",
+        "https://prtimes.jp/companyrdf.php?company_id=129222"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-011",
@@ -17555,7 +19410,61 @@
         "text": "医師向け臨床支援アプリのHOKUTOが資金調達（9億円）",
         "source": "https://prtimes.jp/main/html/rd/p/000000020.000030964.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "HOKUTO（医師向け臨床支援アプリ）",
+          "note": "各学会と医療情報発信の包括提携（日本循環器学会等）。開始時期は公表なし",
+          "url": "https://corp.hokuto.app/"
+        },
+        {
+          "name": "HOKUTO resident",
+          "note": "開始時期は公表なし",
+          "url": "https://corp.hokuto.app/"
+        },
+        {
+          "name": "HOKUTO Marketing Solutions（製薬企業向け）",
+          "note": "開始時期は公表なし",
+          "url": "https://corp.hokuto.app/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役会長・代表取締役社長・取締役。社外取締役1名・監査役は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "五十嵐北斗",
+            "role": "代表取締役会長"
+          },
+          {
+            "name": "山下颯太",
+            "role": "代表取締役社長（医師）"
+          },
+          {
+            "name": "山本久智",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://corp.hokuto.app/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/30964"
+      },
+      "latestNews": {
+        "date": "2026-06",
+        "title": "（公式ニュース一覧の最新）",
+        "url": "https://corp.hokuto.app/news"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://corp.hokuto.app/about",
+        "https://corp.hokuto.app/news",
+        "https://prtimes.jp/companyrdf.php?company_id=30964"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-012",
@@ -17598,7 +19507,40 @@
         "text": "看護師ジョブマッチングのthestoryがエンジェル・シードで資金調達（1.4億円）",
         "source": "https://corp.thestory.co.jp/history/news/pr-20230315"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "ジストリー（看護師スカウト転職）",
+          "note": "Web版リリースで登録者数が前年比約4倍（2025-05発表）。開始時期は公表なし",
+          "url": "https://corp.thestory.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（代表取締役・共同創業者）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "河京子",
+            "role": "代表取締役・共同創業者"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://corp.thestory.co.jp/#news"
+      },
+      "latestNews": {
+        "date": "2025-05",
+        "title": "看護師スカウト転職「ジストリー」Web版リリースで登録者数が約4倍に",
+        "url": "https://corp.thestory.co.jp/"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://corp.thestory.co.jp/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-013",
@@ -17639,7 +19581,55 @@
       "https://about.precal.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "薬剤師として薬局経営に携わった大須賀善揮が2019年7月に創業し、薬局100店舗へのヒアリングと度重なるピボットを経て現事業に至った。調剤薬局向けに処方箋の入力業務を代行するサービスと、利用料無料のクラウド型レセコン「プレカルレセコン」を提供する。2024年12月に2.3億円を調達した後、2025年9月に薬局システム大手のEMシステムズが全株式を取得して子会社化し、同年10月に同社出身の小林大悟が代表取締役に就任。処方箋入力ゼロ化の実証も進める。"
+    "overview": "薬剤師として薬局経営に携わった大須賀善揮が2019年7月に創業し、薬局100店舗へのヒアリングと度重なるピボットを経て現事業に至った。調剤薬局向けに処方箋の入力業務を代行するサービスと、利用料無料のクラウド型レセコン「プレカルレセコン」を提供する。2024年12月に2.3億円を調達した後、2025年9月に薬局システム大手のEMシステムズが全株式を取得して子会社化し、同年10月に同社出身の小林大悟が代表取締役に就任。処方箋入力ゼロ化の実証も進める。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "precal（薬局向け処方箋入力代行）",
+          "note": "オンライン事務員による入力代行。開始時期は公表なし",
+          "url": "https://about.precal.jp/service"
+        },
+        {
+          "name": "プレカルレセコン",
+          "note": "入力代行と併用で受付から印刷まで自動化。開始時期は公表なし",
+          "url": "https://about.precal.jp/service"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役・取締役副社長CPO・CTO",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "小林大悟",
+            "role": "代表取締役（2025-10就任、EMシステムズ上席執行役員）"
+          },
+          {
+            "name": "大須賀善揮",
+            "role": "取締役副社長 CPO"
+          },
+          {
+            "name": "松橋龍也",
+            "role": "CTO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://about.precal.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-03",
+        "title": "EMシステムズとプレカル「処方箋入力業務のゼロ化」を目指し実証実験を開始",
+        "url": "https://about.precal.jp/news"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://about.precal.jp/",
+        "https://about.precal.jp/companyprofile",
+        "https://about.precal.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-014",
@@ -17680,7 +19670,49 @@
       "https://pharmacy-agent.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "医師の辻裕介が2018年12月に設立し、2022年9月にYOJO Technologiesから社名変更。LINEで薬剤師などの医療者に心身の悩みを相談でき、漢方薬を購入できるオンライン薬局サービス「YOJO」を2019年から運営し、現在は女性の健康に寄り添うかかりつけ医療ブランドとして展開する。YOJOで培ったAIの知見を生かし、AI-OCRで処方箋を読み取りAIで監査する調剤薬局向け処方監査AIエージェント「Pharmacy Agent」を開発、他社のAIエージェント開発も支援する。"
+    "overview": "医師の辻裕介が2018年12月に設立し、2022年9月にYOJO Technologiesから社名変更。LINEで薬剤師などの医療者に心身の悩みを相談でき、漢方薬を購入できるオンライン薬局サービス「YOJO」を2019年から運営し、現在は女性の健康に寄り添うかかりつけ医療ブランドとして展開する。YOJOで培ったAIの知見を生かし、AI-OCRで処方箋を読み取りAIで監査する調剤薬局向け処方監査AIエージェント「Pharmacy Agent」を開発、他社のAIエージェント開発も支援する。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "YOJO（女性向けかかりつけ医療ブランド・オンライン薬局）",
+          "since": "2019-07",
+          "note": "2024-07に「開始から5周年」と告知",
+          "url": "https://www.pharma-x.co.jp/"
+        },
+        {
+          "name": "AX事業（調剤薬局向けAIエージェント・他社向けAI開発）",
+          "note": "2025-10にLLM/RAG人材のSES提供開始を発表。開始時期は公表なし",
+          "url": "https://www.pharma-x.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "辻裕介",
+            "role": "代表取締役（医師）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.pharma-x.co.jp/news-2",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/62239"
+      },
+      "latestNews": {
+        "date": "2025-10",
+        "title": "AI人材ならPharmaX。LLM/RAGに強い即戦力SES提供開始",
+        "url": "https://prtimes.jp/main/html/rd/p/000000040.000062239.html"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://www.pharma-x.co.jp/",
+        "https://www.pharma-x.co.jp/aboutus",
+        "https://prtimes.jp/companyrdf.php?company_id=62239"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-015",
@@ -17719,7 +19751,57 @@
       "https://site.solamichi.com/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2018年8月設立のエムティーアイ（東証プライム）グループ会社。調剤薬局向けクラウド電子薬歴「CARADA 電子薬歴 Solamichi」を開発・販売し、タブレットにも対応して在宅訪問でも使える。2021年度グッドデザイン賞を受け、AI音声入力による薬歴作成支援、運営分析、服薬フォロー、Web問診などのオプションを持つ。ピッキング支援「SolaPick」やオンライン服薬指導「ファーマシーGo！」も展開し、契約は2,000店舗超。2026年9月にネグジット総研のレセコンとの一体型を発売。"
+    "overview": "2018年8月設立のエムティーアイ（東証プライム）グループ会社。調剤薬局向けクラウド電子薬歴「CARADA 電子薬歴 Solamichi」を開発・販売し、タブレットにも対応して在宅訪問でも使える。2021年度グッドデザイン賞を受け、AI音声入力による薬歴作成支援、運営分析、服薬フォロー、Web問診などのオプションを持つ。ピッキング支援「SolaPick」やオンライン服薬指導「ファーマシーGo！」も展開し、契約は2,000店舗超。2026年9月にネグジット総研のレセコンとの一体型を発売。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "CARADA 電子薬歴 Solamichi（クラウド電子薬歴）",
+          "note": "キリン堂の調剤薬局全店舗に導入（2025-05）。開始時期は公表なし",
+          "url": "https://site.solamichi.com/"
+        },
+        {
+          "name": "SolaPick",
+          "note": "開始時期は公表なし",
+          "url": "https://site.solamichi.com/service"
+        },
+        {
+          "name": "ファーマシーGo！",
+          "note": "開始時期は公表なし",
+          "url": "https://site.solamichi.com/service"
+        },
+        {
+          "name": "LINE版 CARADA お薬手帳",
+          "note": "開始時期は公表なし",
+          "url": "https://site.solamichi.com/notebook/service"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "会社概要は代表取締役のみ。メンバー紹介に取締役の掲載があるが氏名は取得できず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "田浦貴大",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://site.solamichi.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/77012"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "【岩手県開催】「最新薬局」の体験型イベントを12月に開催",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/77012"
+      },
+      "newsPerYear": 48,
+      "sources": [
+        "https://site.solamichi.com/company",
+        "https://prtimes.jp/companyrdf.php?company_id=77012"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-016",
@@ -17758,7 +19840,49 @@
     ],
     "updatedAt": "2026-10",
     "overview": "東京大学の情報系出身者を中心に2022年2月に設立したソフトウェア企業。受託のアプリ開発、UI/UXデザイン、AIソリューションを手がけ、医療分野ではAIレセプト業務支援SaaS「Reze（レゼ）」を開発する。Rezeは既存のレセコンや電子カルテのデータを取り込み、加算の算定漏れや請求内容の不備をAIが検出して医事課の点検・修正作業を支援し、複数の医療機関が利用する。請求業務の完全自動化を目標に、2026年9月のシリーズAで2.8億円を調達した。",
-    "totalFunding": "累計約3.4億円（2026年9月時点）"
+    "totalFunding": "累計約3.4億円（2026年9月時点）",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Reze（AIレセプト業務支援SaaS）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.mutex-inc.dev/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役CEO・取締役CTO・取締役",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "熊澤洸平",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "吉原祐人",
+            "role": "取締役CTO"
+          },
+          {
+            "name": "饗庭亮平",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.mutex-inc.dev/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「Reze」第2回 医療DX EXPO【東京】出展レポート",
+        "url": "https://www.mutex-inc.dev/news"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://www.mutex-inc.dev/about",
+        "https://www.mutex-inc.dev/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-017",
@@ -17800,7 +19924,63 @@
       "https://www.intep.co.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "overview": "慶應義塾大学のリハビリテーション医学の研究者らが2020年7月に設立したアカデミア発ベンチャー。リハビリ医療の現場で埋もれているデータを蓄積・解析し、業務のデジタル化と個別最適なケアにつなげる診療支援システム「スマートリハ」を開発する。通所介護などでの身体機能測定の記録や動画保存をクラウドで効率化する「FG-001」や、医学知識を生かしたヘルスケア事業のコンサルティングも行う。2026年8月にBIG Impactなどからプレシリーズの資金を調達した。"
+    "overview": "慶應義塾大学のリハビリテーション医学の研究者らが2020年7月に設立したアカデミア発ベンチャー。リハビリ医療の現場で埋もれているデータを蓄積・解析し、業務のデジタル化と個別最適なケアにつなげる診療支援システム「スマートリハ」を開発する。通所介護などでの身体機能測定の記録や動画保存をクラウドで効率化する「FG-001」や、医学知識を生かしたヘルスケア事業のコンサルティングも行う。2026年8月にBIG Impactなどからプレシリーズの資金を調達した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "スマートリハ（リハビリ医療DX）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.intep.co.jp/service/smartrehab/"
+        },
+        {
+          "name": "FG-001",
+          "note": "開始時期は公表なし",
+          "url": "https://www.intep.co.jp/service/features/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役1名・取締役4名（CTO・COO含む）。最高顧問は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "川上途行",
+            "role": "代表取締役（医師）"
+          },
+          {
+            "name": "金子文成",
+            "role": "取締役CTO（創業時代表取締役）"
+          },
+          {
+            "name": "上島平太",
+            "role": "取締役COO"
+          },
+          {
+            "name": "須田憲和",
+            "role": "取締役（営業・アライアンス）"
+          },
+          {
+            "name": "工藤正尚",
+            "role": "取締役（経営企画・財務・管理）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.intep.co.jp/newslist/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/150266"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "（公式新着情報の最新）",
+        "url": "https://www.intep.co.jp/newslist/"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://www.intep.co.jp/company/",
+        "https://www.intep.co.jp/newslist/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-018",
@@ -17848,7 +20028,44 @@
         "text": "地域医療連携システムのM-INTが資金調達（9000万円）",
         "source": "https://prtimes.jp/main/html/rd/p/000000004.000105488.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "M-INT（ミント：患者紹介業務DX・電子紹介状）",
+          "since": "2023-05",
+          "note": "正式提供開始。JR東日本「スマート健康ステーション」に採用（2024-06）",
+          "url": "https://www.m-int.life/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "藤尾夏樹",
+            "role": "代表取締役（医師）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.m-int.life/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/105488"
+      },
+      "latestNews": {
+        "date": "2026-02",
+        "title": "武田薬品の「乾癬デジタルヘルスチャレンジ」に採択",
+        "url": "https://prtimes.jp/main/html/rd/p/000000008.000105488.html"
+      },
+      "newsPerYear": 2,
+      "sources": [
+        "https://www.m-int.life/company",
+        "https://www.m-int.life/news",
+        "https://prtimes.jp/companyrdf.php?company_id=105488"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-019",
@@ -17888,7 +20105,47 @@
     ],
     "updatedAt": "2026-10",
     "overview": "2024年8月にメドメインから分社して設立。医療従事者・医療系学生向けのコミュニケーションクラウド「Medteria」を運営し、利用者は約6万人にのぼる。このユーザー基盤を生かし、医療機関やヘルスケア企業に向けた採用支援、広告配信、リサーチ・マーケティング支援などの法人向け事業を展開する。2025年1月に1億円、2026年9月に佐銀キャピタル&コンサルティングや複数の上場企業経営者からの第三者割当増資と日本政策金融公庫の資本性ローンで計1.4億円を調達した。福岡と東京にオフィスを置く。",
-    "totalFunding": "累計2.4億円（2026年9月時点。資本性ローン含む）"
+    "totalFunding": "累計2.4億円（2026年9月時点。資本性ローン含む）",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Medteria（医療コミュニケーションクラウド・医療従事者向けSNS）",
+          "note": "6万人が利用（2026-09発表）。開始時期は公表なし",
+          "url": "https://corp.medteria.io/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役社長・取締役（創業者）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "田代克行",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "飯塚統",
+            "role": "取締役・創業者"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://corp.medteria.io/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/155363"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "1.4億円の資金調達を実施",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/155363"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://corp.medteria.io/",
+        "https://corp.medteria.io/about",
+        "https://prtimes.jp/companyrdf.php?company_id=155363"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-020",
@@ -17928,7 +20185,48 @@
       "https://www.nurse-x.net/"
     ],
     "updatedAt": "2026-10",
-    "overview": "現役看護師でAHA認定BLSインストラクターの中道嘉総が2025年10月に愛知県あま市で設立した医療スタートアップ。新人・若手看護師に現役看護師がオンラインで個別に伴走し、21時以降の相談にも応じる「オンラインプリセプター事業」と、振り返りへのAIフィードバック、症例トレーニング、24時間チャット相談を備えたAI教育支援アプリ「マイプリ」（2026年1月公開）を柱とする。Aichi Startup Battle 2026で3位に入り、2026年4月にSTATION Aiへ入居。"
+    "overview": "現役看護師でAHA認定BLSインストラクターの中道嘉総が2025年10月に愛知県あま市で設立した医療スタートアップ。新人・若手看護師に現役看護師がオンラインで個別に伴走し、21時以降の相談にも応じる「オンラインプリセプター事業」と、振り返りへのAIフィードバック、症例トレーニング、24時間チャット相談を備えたAI教育支援アプリ「マイプリ」（2026年1月公開）を柱とする。Aichi Startup Battle 2026で3位に入り、2026年4月にSTATION Aiへ入居。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "マイプリ（看護師向けAIプリセプター・教育支援アプリ）",
+          "since": "2025-10",
+          "note": "アプリ公開。看護DXアワード2026 看護教育部門で表彰",
+          "url": "https://www.nurse-x.net/"
+        },
+        {
+          "name": "オンラインプリセプター（新人看護師の伴走支援）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.nurse-x.net/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "中道嘉総",
+            "role": "Founder & CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.nurse-x.net/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/187987"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "「マイプリ」が看護DXアワード2026 看護教育部門で表彰",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/187987"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://www.nurse-x.net/",
+        "https://prtimes.jp/companyrdf.php?company_id=187987"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-021",
@@ -17969,7 +20267,47 @@
       "https://www.aihippo.ai/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2019年2月設立の医療AI企業。院外にデータを出さないプライベート環境で動く医療専用AIプラットフォーム「AI Hippo 医療Loop」を提供し、診察・看護記録の音声要約やSOAP作成、院内情報も扱える相棒AI「チャットHippo」、院内マニュアルのナレッジ検索、ガイドライン検索、インシデント分析の5機能を備える。生成AIナレッジ統合支援「AI Hippo on IDX」やデジタル治療ポータル「allDTx.com」も手がけ、千葉・神奈川・沖縄の病院などをグループ医療機関に持つ。"
+    "overview": "2019年2月設立の医療AI企業。院外にデータを出さないプライベート環境で動く医療専用AIプラットフォーム「AI Hippo 医療Loop」を提供し、診察・看護記録の音声要約やSOAP作成、院内情報も扱える相棒AI「チャットHippo」、院内マニュアルのナレッジ検索、ガイドライン検索、インシデント分析の5機能を備える。生成AIナレッジ統合支援「AI Hippo on IDX」やデジタル治療ポータル「allDTx.com」も手がけ、千葉・神奈川・沖縄の病院などをグループ医療機関に持つ。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "AI Hippo 医療Loop（医療現場向けAI・音声要約等）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.aihippo.ai/"
+        },
+        {
+          "name": "チャットHippo（相棒AI）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.aihippo.ai/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "前田清貴",
+            "role": "代表取締役社長（CEO）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.aihippo.ai/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/180183"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "聞ける人がいない現場へ。“いつでも聞けるAI”が医療を変える",
+        "url": "https://prtimes.jp/main/html/rd/p/000000029.000180183.html"
+      },
+      "newsPerYear": 23,
+      "sources": [
+        "https://www.aihippo.ai/company/",
+        "https://prtimes.jp/companyrdf.php?company_id=180183"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-022",
@@ -18007,7 +20345,55 @@
       "医療機関特化SNS運用代行",
       "看護師AIマッチング（LINE）",
       "復職支援サービス"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療機関特化SNS運用代行",
+          "note": "開始時期は公表なし",
+          "url": "https://med-x.co.jp/service/sns/"
+        },
+        {
+          "name": "看護師AIマッチング（LINE）",
+          "note": "開始時期は公表なし",
+          "url": "https://med-x.co.jp/service/matching/"
+        },
+        {
+          "name": "復職支援サービス",
+          "note": "開始時期は公表なし",
+          "url": "https://med-x.co.jp/service/return/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表・CSO",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "右高稜大",
+            "role": "代表"
+          },
+          {
+            "name": "菅又進也",
+            "role": "CSO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://med-x.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "テレビユー福島で病院の採用SNS動画制作の様子が放送",
+        "url": "https://med-x.co.jp/news/"
+      },
+      "newsPerYear": 9,
+      "sources": [
+        "https://med-x.co.jp/company/",
+        "https://med-x.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-023",
@@ -18050,7 +20436,48 @@
       "クリニック事業承継・ロールアップ",
       "クリニック経営支援",
       "医療DX（病診連携）"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "クリニック事業承継・ロールアップ",
+          "note": "開始時期は公表なし（2026-01設立）",
+          "url": "https://equitas-medical.com/services"
+        },
+        {
+          "name": "クリニック経営支援",
+          "note": "開始時期は公表なし",
+          "url": "https://equitas-medical.com/services"
+        },
+        {
+          "name": "医療DX（病診連携）",
+          "note": "開始時期は公表なし",
+          "url": "https://equitas-medical.com/services"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役2名（社長・CEO）。External CFO・External CTOは社外のため数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "九鬼嵩典",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "伊村悠",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {},
+      "newsPerYear": 0,
+      "sources": [
+        "https://equitas-medical.com/",
+        "https://equitas-medical.com/about"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-024",
@@ -18091,7 +20518,52 @@
       "https://exmore.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2024年12月設立。医療機関向けAIチャットボット「SuguDesk」を提供し、クリニックのWebサイトで診療時間や料金の目安、アクセス、予約方法などの問い合わせに24時間自動で答え、受付業務の負担を減らす。同ブランドで、採用ページ作成から面接調整までを担う「SuguDesk 採用代行」、受付・予約・データ入力など診療以外の業務を月額で請け負う「SuguDesk 業務代行」も展開し、企業向けヘルスケアリテラシー研修も行う。2025年に病院経営イノベーションピッチでPoC賞を受賞。"
+    "overview": "2024年12月設立。医療機関向けAIチャットボット「SuguDesk」を提供し、クリニックのWebサイトで診療時間や料金の目安、アクセス、予約方法などの問い合わせに24時間自動で答え、受付業務の負担を減らす。同ブランドで、採用ページ作成から面接調整までを担う「SuguDesk 採用代行」、受付・予約・データ入力など診療以外の業務を月額で請け負う「SuguDesk 業務代行」も展開し、企業向けヘルスケアリテラシー研修も行う。2025年に病院経営イノベーションピッチでPoC賞を受賞。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "SuguDesk（医療機関向けAI受付・AIチャット）",
+          "note": "2026-09にギミックと販売連携。開始時期は公表なし",
+          "url": "https://exmore.jp/"
+        },
+        {
+          "name": "SuguDesk 採用代行",
+          "since": "2026-08",
+          "url": "https://exmore.jp/"
+        },
+        {
+          "name": "ヘルスケアリテラシー研修（企業向け）",
+          "note": "開始時期は公表なし",
+          "url": "https://exmore.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "根来杏奈",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://exmore.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/157081"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "ギミックと医療機関向けAI受付「SuguDesk」の販売連携を開始",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/157081"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://exmore.jp/",
+        "https://prtimes.jp/companyrdf.php?company_id=157081"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-025",
@@ -18133,7 +20605,52 @@
       "https://asclepath.com/company"
     ],
     "updatedAt": "2026-10",
-    "overview": "欧州で医療を学んだ医師でAIエンジニアでもある濱田省太が2026年7月に設立。「医師は患者に向き合い、AIがクリニックを運営する」を掲げ、予約、受付、問診、カルテ作成、患者対応、医療文書、会計、経営分析を一つの基盤に統合し、医師以外の業務をAIエージェントに任せる運営基盤「Asclepath AIOS」を開発する。既存環境に外付けできるAIワークフロー基盤「Asclepath DX」も持ち、開業やDX導入、集患、資金調達も支援する。設立時にGarnet Capitalから3,000万円を調達。"
+    "overview": "欧州で医療を学んだ医師でAIエンジニアでもある濱田省太が2026年7月に設立。「医師は患者に向き合い、AIがクリニックを運営する」を掲げ、予約、受付、問診、カルテ作成、患者対応、医療文書、会計、経営分析を一つの基盤に統合し、医師以外の業務をAIエージェントに任せる運営基盤「Asclepath AIOS」を開発する。既存環境に外付けできるAIワークフロー基盤「Asclepath DX」も持ち、開業やDX導入、集患、資金調達も支援する。設立時にGarnet Capitalから3,000万円を調達。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Asclepath AIOS／Asclepath DX（医療機関向けプロダクト）",
+          "note": "開始時期は公表なし（2026-07設立）",
+          "url": "https://asclepath.com/"
+        },
+        {
+          "name": "クリニック開業支援・AX/DXサポート・マーケティング・資金調達サポート",
+          "note": "開始時期は公表なし",
+          "url": "https://asclepath.com/services/clinic-opening"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役CEO・取締役CTO",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "濱田省太",
+            "role": "代表取締役CEO（欧州医師）"
+          },
+          {
+            "name": "小松澤貴弘",
+            "role": "取締役CTO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://asclepath.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/187260"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "「ベンチャー.jp」に代表・濱田省太のインタビュー掲載",
+        "url": "https://asclepath.com/news"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://asclepath.com/company",
+        "https://asclepath.com/news",
+        "https://prtimes.jp/companyrdf.php?company_id=187260"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-026",
@@ -18172,7 +20689,35 @@
       "https://www.iwg-inc.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2020年5月設立。医療機関ごとにシステムや形式、言語が異なり分断された医療データを、既存システムを置き換えずにつなぐ相互運用レイヤーとAIインフラを開発する。主力の医療情報連携・院内業務管理クラウド「DOCloud」は施設間の画像・レポート共有、セキュアチャット、タスク管理、請求書の自動作成を一画面で行え、新機能「AI Referral」は医療文書から患者サマリーと時系列一覧を自動生成する。2026年6月に180万米ドルを調達し、アジア展開を進める。"
+    "overview": "2020年5月設立。医療機関ごとにシステムや形式、言語が異なり分断された医療データを、既存システムを置き換えずにつなぐ相互運用レイヤーとAIインフラを開発する。主力の医療情報連携・院内業務管理クラウド「DOCloud」は施設間の画像・レポート共有、セキュアチャット、タスク管理、請求書の自動作成を一画面で行え、新機能「AI Referral」は医療文書から患者サマリーと時系列一覧を自動生成する。2026年6月に180万米ドルを調達し、アジア展開を進める。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "DOCloud（医療連携プラットフォーム）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.iwg-inc.co.jp/"
+        },
+        {
+          "name": "AIリファーラル",
+          "note": "開始時期は公表なし",
+          "url": "https://www.iwg-inc.co.jp/"
+        }
+      ],
+      "newsroom": {
+        "site": "https://www.iwg-inc.co.jp/"
+      },
+      "latestNews": {
+        "date": "2026-06",
+        "title": "プレシリーズAで180万米ドル（約2.8億円）を資金調達",
+        "url": "https://www.iwg-inc.co.jp/"
+      },
+      "newsPerYear": 2,
+      "sources": [
+        "https://www.iwg-inc.co.jp/",
+        "https://www.iwg-inc.com/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-027",
@@ -18212,7 +20757,57 @@
       "https://medi-ce.com/company"
     ],
     "updatedAt": "2026-10",
-    "overview": "2023年8月に横浜で設立。クリニックの運営を支えるサービス群を展開し、医療安全、情報共有、スタッフ教育をまとめた多機能院内ポータル「クリニックパートナー360」、打刻やシフト、有給管理から給与計算用データ出力までを担う勤怠管理「クリニックパートナー勤怠」、患者の問い合わせに24時間自動で答える「患者AI Bot」、点数表や疑義解釈の確認を助ける「診療報酬サポートAI細谷くん」を提供する。医療安全や医療法改正に関するセミナー・解説コンテンツの発信にも力を入れる。"
+    "overview": "2023年8月に横浜で設立。クリニックの運営を支えるサービス群を展開し、医療安全、情報共有、スタッフ教育をまとめた多機能院内ポータル「クリニックパートナー360」、打刻やシフト、有給管理から給与計算用データ出力までを担う勤怠管理「クリニックパートナー勤怠」、患者の問い合わせに24時間自動で答える「患者AI Bot」、点数表や疑義解釈の確認を助ける「診療報酬サポートAI細谷くん」を提供する。医療安全や医療法改正に関するセミナー・解説コンテンツの発信にも力を入れる。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "クリニックパートナー360",
+          "note": "開始時期は公表なし",
+          "url": "https://medi-ce.com/"
+        },
+        {
+          "name": "クリニックパートナー勤怠",
+          "note": "開始時期は公表なし",
+          "url": "https://medi-ce.com/"
+        },
+        {
+          "name": "患者AI Bot",
+          "since": "2025-11",
+          "note": "2025-10に11月販売開始と発表",
+          "url": "https://medi-ce.com/news"
+        },
+        {
+          "name": "診療報酬サポートAI細谷くん",
+          "note": "開始時期は公表なし",
+          "url": "https://medi-ce.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "稲岡稼頭斉",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://medi-ce.com/news"
+      },
+      "latestNews": {
+        "date": "2026-05",
+        "title": "第17回日本プライマリ・ケア連合学会学術大会 出展のご案内",
+        "url": "https://medi-ce.com/news"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://medi-ce.com/company",
+        "https://medi-ce.com/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-028",
@@ -18251,7 +20846,41 @@
       "https://iyakuru.com/company"
     ],
     "updatedAt": "2026-10",
-    "overview": "調剤薬局で薬局長を務めた薬剤師の佐孝尚が、1店舗あたり年間約38万円分の期限切れ医薬品が廃棄される実態を問題視して2022年6月に北海道で設立。調剤薬局同士が医療用医薬品の不動在庫をスマートフォンから出品・購入できるマッチングアプリ「イヤクル」を運営し、廃棄の抑制と在庫の適正化を支援する。登録料や月額費用、購入側の手数料は無料で、売却が成立した場合のみ出品側に手数料がかかる仕組み。高額薬や出荷調整品のマッチングにも使われ、薬剤師向けの医薬品供給不足調査なども発信している。"
+    "overview": "調剤薬局で薬局長を務めた薬剤師の佐孝尚が、1店舗あたり年間約38万円分の期限切れ医薬品が廃棄される実態を問題視して2022年6月に北海道で設立。調剤薬局同士が医療用医薬品の不動在庫をスマートフォンから出品・購入できるマッチングアプリ「イヤクル」を運営し、廃棄の抑制と在庫の適正化を支援する。登録料や月額費用、購入側の手数料は無料で、売却が成立した場合のみ出品側に手数料がかかる仕組み。高額薬や出荷調整品のマッチングにも使われ、薬剤師向けの医薬品供給不足調査なども発信している。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "イヤクル（薬局間の余剰医薬品売買）",
+          "note": "開始時期は公表なし",
+          "url": "https://iyakuru.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "佐孝尚",
+            "role": "代表"
+          }
+        ]
+      },
+      "newsroom": {
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/147660"
+      },
+      "latestNews": {
+        "date": "2024-12",
+        "title": "医薬品供給不足の影響に関する調査結果",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/147660"
+      },
+      "newsPerYear": 0,
+      "sources": [
+        "https://iyakuru.com/company",
+        "https://prtimes.jp/companyrdf.php?company_id=147660"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-029",
@@ -18297,7 +20926,64 @@
       "https://www.pharmacloud.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2014年開始の処方せん送信サービス「空飛ぶ処方せん」を源流に、2016年12月にGYHとして設立し、2017年5月に現社名へ変更。調剤薬局向けに、薬局間で不動在庫を売買する「メドシェア」（登録1,500店超）、AIで発注点を算出する発注・在庫管理「メドオーダー」、薬剤師会の会員薬局間で在庫を検索できる「メドサーチ」を提供する。医薬品卸とも共同開発を進め、アステムとの在庫可視化「Stock Mill」、バイタルネットとの「Arukana Mill」などを手がける。"
+    "overview": "2014年開始の処方せん送信サービス「空飛ぶ処方せん」を源流に、2016年12月にGYHとして設立し、2017年5月に現社名へ変更。調剤薬局向けに、薬局間で不動在庫を売買する「メドシェア」（登録1,500店超）、AIで発注点を算出する発注・在庫管理「メドオーダー」、薬剤師会の会員薬局間で在庫を検索できる「メドサーチ」を提供する。医薬品卸とも共同開発を進め、アステムとの在庫可視化「Stock Mill」、バイタルネットとの「Arukana Mill」などを手がける。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "メドシェア（医薬品不動在庫シェアリング）",
+          "since": "2017-03",
+          "note": "登録1,500店突破（2024-12）",
+          "url": "https://www.pharmacloud.co.jp/service/"
+        },
+        {
+          "name": "メドオーダー（調剤薬局向けAI発注在庫管理）",
+          "since": "2019-12",
+          "note": "運用開始",
+          "url": "https://www.pharmacloud.co.jp/service/med-order"
+        },
+        {
+          "name": "メドサーチ（薬局間在庫検索）",
+          "since": "2023-04",
+          "url": "https://www.pharmacloud.co.jp/service/med-search"
+        },
+        {
+          "name": "Stock Mill／Arukana Mill（卸と共同開発の在庫可視化）",
+          "since": "2022-09",
+          "note": "Arukana Millは2025-01",
+          "url": "https://www.pharmacloud.co.jp/service/"
+        },
+        {
+          "name": "YonMill（顧客ポータル、よんやくと共同開発）",
+          "since": "2026-10",
+          "url": "https://www.pharmacloud.co.jp/news"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "清水剛",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.pharmacloud.co.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "顧客ポータルサイト『YonMill』をよんやくと共同開発",
+        "url": "https://www.pharmacloud.co.jp/news"
+      },
+      "newsPerYear": 6,
+      "sources": [
+        "https://www.pharmacloud.co.jp/company",
+        "https://www.pharmacloud.co.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-030",
@@ -18336,7 +21022,42 @@
       "https://wizray.jp/service"
     ],
     "updatedAt": "2026-10",
-    "overview": "2019年7月に設立された就実大学発ベンチャー。分光分析技術を調剤現場に応用し、近赤外分光法で一包化された散薬を包装の外から判別して処方内容と合っているかを確かめる散薬監査支援装置「コナミル」を開発・販売する。医薬品の分光スペクトルのデータベースや照合アルゴリズムも開発し、高梁中央病院などが導入。2025年3月にイークラウドで株式投資型クラウドファンディングを実施し、2026年8月に経産省「Go-Tech事業」に採択、同年10月に錠剤粉砕機の試作機を公開した。"
+    "overview": "2019年7月に設立された就実大学発ベンチャー。分光分析技術を調剤現場に応用し、近赤外分光法で一包化された散薬を包装の外から判別して処方内容と合っているかを確かめる散薬監査支援装置「コナミル」を開発・販売する。医薬品の分光スペクトルのデータベースや照合アルゴリズムも開発し、高梁中央病院などが導入。2025年3月にイークラウドで株式投資型クラウドファンディングを実施し、2026年8月に経産省「Go-Tech事業」に採択、同年10月に錠剤粉砕機の試作機を公開した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "コナミル（錠剤粉砕関連機器）",
+          "note": "2026-10に錠剤粉砕機の試作初号機を公開。開始時期は公表なし",
+          "url": "https://wizray.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "森山圭",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://wizray.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "コナミル実演ウェビナーを10月27日に開催",
+        "url": "https://wizray.jp/news"
+      },
+      "newsPerYear": 24,
+      "sources": [
+        "https://wizray.jp/",
+        "https://wizray.jp/about",
+        "https://wizray.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-031",
@@ -18376,7 +21097,72 @@
       "事業承継支援",
       "ハンズオン支援/コンサルティング",
       "事務センター/医療DX"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "中小病院の運営支援・再生（ハンズオン/コンサルティング）",
+          "since": "2003",
+          "note": "病院支援事業スタート（沿革）。病院再生事業は2007年",
+          "url": "https://c-s-one.jp/"
+        },
+        {
+          "name": "事業承継支援",
+          "note": "開始時期は公表なし",
+          "url": "https://c-s-one.jp/"
+        },
+        {
+          "name": "事務センター／医療DX",
+          "note": "開始時期は公表なし",
+          "url": "https://c-s-one.jp/"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "代表取締役1名・取締役3名・常務執行役員2名。監査役は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "大石佳能子",
+            "role": "代表取締役（メディヴァ代表取締役社長）"
+          },
+          {
+            "name": "高瀬義昌",
+            "role": "取締役"
+          },
+          {
+            "name": "西田在賢",
+            "role": "取締役"
+          },
+          {
+            "name": "野田浩一",
+            "role": "取締役"
+          },
+          {
+            "name": "小松大介",
+            "role": "常務執行役員"
+          },
+          {
+            "name": "羽田雅史",
+            "role": "常務執行役員"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://c-s-one.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "（公式お知らせ一覧の最新）",
+        "url": "https://c-s-one.jp/news"
+      },
+      "newsPerYear": 8,
+      "sources": [
+        "https://c-s-one.jp/company/profile",
+        "https://c-s-one.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-032",
@@ -18415,7 +21201,58 @@
       "https://www.neox-inc.com/company"
     ],
     "updatedAt": "2026-10",
-    "overview": "京都大学で情報学の博士号を取得し、楽天の執行役員・チーフサイエンティストを務めた何書勉が2016年12月に設立したAI企業（2020年9月の一部事業売却に伴い新設分割）。少量データで学習できる画像認識やスマートフォン上で動くOCR技術を持ち、主力は処方箋を読み取ってレセコンへ自動で取り込む調剤薬局向けAI-OCR「薬師丸賢太」で、全国7,000店舗以上に導入。2026年にはUbieと組んだ薬局予約や、メドレーの「MEDIXS かかりつけ支援」との連携を始めた。"
+    "overview": "京都大学で情報学の博士号を取得し、楽天の執行役員・チーフサイエンティストを務めた何書勉が2016年12月に設立したAI企業（2020年9月の一部事業売却に伴い新設分割）。少量データで学習できる画像認識やスマートフォン上で動くOCR技術を持ち、主力は処方箋を読み取ってレセコンへ自動で取り込む調剤薬局向けAI-OCR「薬師丸賢太」で、全国7,000店舗以上に導入。2026年にはUbieと組んだ薬局予約や、メドレーの「MEDIXS かかりつけ支援」との連携を始めた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "薬師丸賢太（処方箋入力支援AI-OCR）",
+          "note": "各社システムとの連携多数。開始時期は公表なし",
+          "url": "https://www.neox-inc.com/service"
+        },
+        {
+          "name": "スマート薬局（次世代薬局システム）",
+          "since": "2025-08",
+          "note": "正式リリース",
+          "url": "https://www.neox-inc.com/service"
+        },
+        {
+          "name": "薬師丸数子（バラ錠カウントアプリ）",
+          "since": "2025-03",
+          "note": "無料"
+        },
+        {
+          "name": "MoAir",
+          "note": "開始時期は公表なし",
+          "url": "https://www.neox-inc.com/service"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "何書勉",
+            "role": "CEO・代表者"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.neox-inc.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/86518"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "メドレーの「MEDIXS かかりつけ支援」と「薬師丸賢太」の連携を開始",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/86518"
+      },
+      "newsPerYear": 12,
+      "sources": [
+        "https://www.neox-inc.com/company",
+        "https://prtimes.jp/companyrdf.php?company_id=86518"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-033",
@@ -18453,7 +21290,63 @@
       "https://www.oz-wa.co.jp/company"
     ],
     "updatedAt": "2026-10",
-    "overview": "医療系ソフト開発会社の社長を務めた山田猛が2024年4月に設立。保険薬局向けに、受付ソリューション「Pas-PORT」、別店舗や入力拠点の事務スタッフが処方箋を遠隔入力する「Pas-IS」、来局患者に他店舗の薬剤師がオンラインで服薬指導する特許取得済みの「パッと薬 遠隔さん」を提供する。人ではなく業務を店舗間で融通する「法人最適モデル」をチェーン薬局に提案し、遠隔服薬指導は日本調剤が導入した。SESやWebサイト制作も手がける。"
+    "overview": "医療系ソフト開発会社の社長を務めた山田猛が2024年4月に設立。保険薬局向けに、受付ソリューション「Pas-PORT」、別店舗や入力拠点の事務スタッフが処方箋を遠隔入力する「Pas-IS」、来局患者に他店舗の薬剤師がオンラインで服薬指導する特許取得済みの「パッと薬 遠隔さん」を提供する。人ではなく業務を店舗間で融通する「法人最適モデル」をチェーン薬局に提案し、遠隔服薬指導は日本調剤が導入した。SESやWebサイト制作も手がける。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Pas-IS（薬局向け遠隔入力サービス）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.oz-wa.co.jp/services"
+        },
+        {
+          "name": "Pas-PORT",
+          "note": "開始時期は公表なし",
+          "url": "https://www.oz-wa.co.jp/services"
+        },
+        {
+          "name": "パッと薬 遠隔さん",
+          "note": "開始時期は公表なし",
+          "url": "https://www.oz-wa.co.jp/services"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役CEO・取締役COO・取締役CKO・取締役CTO",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "山田猛",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "栄羽浩之",
+            "role": "取締役COO"
+          },
+          {
+            "name": "有馬涼太",
+            "role": "取締役CKO"
+          },
+          {
+            "name": "関根照拡",
+            "role": "取締役CTO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.oz-wa.co.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "第20回日本薬局学会学術総会 タカゾノ社ブースに出展",
+        "url": "https://www.oz-wa.co.jp/news"
+      },
+      "newsPerYear": 11,
+      "sources": [
+        "https://www.oz-wa.co.jp/company",
+        "https://www.oz-wa.co.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-034",
@@ -18494,7 +21387,56 @@
       "https://mediklect.co.jp/profile/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2019年7月設立の薬剤師業界特化型の人材コンサルティング会社。薬剤師向けにWebスキルを学べるオンラインスクール「MEDISKILL」、転職支援「メディクレクト転職」、フリーランス・副業の案件紹介「きょうりょく薬剤師」を展開し、薬局・医療機関には人材を紹介する。DX支援として医療機関・薬局向けホームページ制作と、処方箋送信から問診、服薬フォローまでをLINEで完結させる「MediLinkX」を提供し、千葉県中心に33店舗を持つ友愛メディカルが全店で導入した。"
+    "overview": "2019年7月設立の薬剤師業界特化型の人材コンサルティング会社。薬剤師向けにWebスキルを学べるオンラインスクール「MEDISKILL」、転職支援「メディクレクト転職」、フリーランス・副業の案件紹介「きょうりょく薬剤師」を展開し、薬局・医療機関には人材を紹介する。DX支援として医療機関・薬局向けホームページ制作と、処方箋送信から問診、服薬フォローまでをLINEで完結させる「MediLinkX」を提供し、千葉県中心に33店舗を持つ友愛メディカルが全店で導入した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "MediLinkX（薬局向けLINE連携）",
+          "note": "友愛メディカル全店舗で導入（2026-06）。開始時期は公表なし",
+          "url": "https://mediklect.co.jp/medilinkx/"
+        },
+        {
+          "name": "MEDISKILL（スクール）",
+          "note": "開始時期は公表なし",
+          "url": "https://mediklect.co.jp/mediskill-school/"
+        },
+        {
+          "name": "メディクレクト転職・きょうりょく薬剤師（人材）",
+          "note": "開始時期は公表なし",
+          "url": "https://mediklect.co.jp/service/"
+        },
+        {
+          "name": "Medical Web Design",
+          "note": "開始時期は公表なし",
+          "url": "https://mediklect.co.jp/service/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "柿間隼志",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://mediklect.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "ドラッグマガジン2026年9月号にMediLinkXの導入事例掲載",
+        "url": "https://mediklect.co.jp/2026/09/01/drug-magazine-medilinkx-202609/"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://mediklect.co.jp/profile/",
+        "https://mediklect.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-035",
@@ -18532,7 +21474,54 @@
       "https://cubec.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "製薬企業で営業・マーケティングに携わった奥井伸輔が2023年2月に創業した医療特化の生成AIスタートアップで、2024年8月に国立循環器病研究センター発ベンチャー第4号に認定された。専門医がレビュー・構造化した独自データ「Cubec医学ノート」やPubMed、添付文書を基に、医師の臨床疑問へ国内ガイドラインに沿って答える無料の臨床ナレッジAI「Cubec」を提供する。2025年5月のWeb版公開以来、登録医師は2,500名を超え、2026年10月にスマホアプリを公開。"
+    "overview": "製薬企業で営業・マーケティングに携わった奥井伸輔が2023年2月に創業した医療特化の生成AIスタートアップで、2024年8月に国立循環器病研究センター発ベンチャー第4号に認定された。専門医がレビュー・構造化した独自データ「Cubec医学ノート」やPubMed、添付文書を基に、医師の臨床疑問へ国内ガイドラインに沿って答える無料の臨床ナレッジAI「Cubec」を提供する。2025年5月のWeb版公開以来、登録医師は2,500名を超え、2026年10月にスマホアプリを公開。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Cubec（医師向け臨床ナレッジAI）",
+          "note": "2025-12大規模アップデート、2026-10無料スマホアプリ提供。開始時期は公表なし",
+          "url": "https://cubec.jp/"
+        },
+        {
+          "name": "医学ノート／Cubec HF／Cubec PH",
+          "note": "開始時期は公表なし",
+          "url": "https://cubec.jp/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役CEO・取締役CAIO・取締役（医学統括）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "奥井伸輔",
+            "role": "共同創業者・代表取締役CEO"
+          },
+          {
+            "name": "新井田信彦",
+            "role": "共同創業者・取締役CAIO"
+          },
+          {
+            "name": "朔啓太",
+            "role": "取締役 医学統括（医師）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://cubec.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「Studio」への不正アクセスに伴うお問い合わせ情報漏えいの可能性",
+        "url": "https://cubec.jp/news/20261023"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://cubec.jp/about",
+        "https://cubec.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4010001224857",
@@ -18570,7 +21559,53 @@
       "https://www.premed.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2022年2月設立。当初はクリニックのコンサルティングを手がけ、現在はKAIZENグループの医療施設の経営企画・事業開発を担い、レディースクリニックなみなみ（目黒）や城南レディースクリニック旗の台などの運営を支援する。2026年3月に業務システムの内製を始め、レセプト全件自動点検「レセプトニスト」やAI予約システム「Galapagos」を開発。グループは対面とオンラインで月7,000件超を診療し、医療法人の承継も2件行った。ヨガスタジオや医療機器売買の子会社も持つ。"
+    "overview": "2022年2月設立。当初はクリニックのコンサルティングを手がけ、現在はKAIZENグループの医療施設の経営企画・事業開発を担い、レディースクリニックなみなみ（目黒）や城南レディースクリニック旗の台などの運営を支援する。2026年3月に業務システムの内製を始め、レセプト全件自動点検「レセプトニスト」やAI予約システム「Galapagos」を開発。グループは対面とオンラインで月7,000件超を診療し、医療法人の承継も2件行った。ヨガスタジオや医療機器売買の子会社も持つ。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療施設の運営支援（KAIZENグループのクリニック開院・承継支援）",
+          "since": "2022-02",
+          "note": "設立時はクリニックのコンサルティング（沿革）",
+          "url": "https://www.premed.jp/company/"
+        },
+        {
+          "name": "レセプトニスト（レセプトチェックシステム）",
+          "since": "2026-10",
+          "note": "本格稼働。2026-03に業務システム自社開発を開始",
+          "url": "https://www.premed.jp/news/"
+        },
+        {
+          "name": "Galapagos（クリニック予約システム）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.premed.jp/news/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "古田泰之",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.premed.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "レセプトチェックシステム「レセプトニスト」が本格稼働",
+        "url": "https://www.premed.jp/news/"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://www.premed.jp/company/",
+        "https://www.premed.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-036",
@@ -18607,7 +21642,48 @@
       "https://kan-tan.co.jp/company"
     ],
     "updatedAt": "2026-10",
-    "overview": "2023年12月に大阪で設立され、人材会社ブリッジキャリアを親会社に持つ。看護師など医療・介護人材と施設を短期のスポット勤務でつなぐ就業支援サービス「KANTAN!」を関西圏中心に運営する。スポット勤務で現場を体験し、一定期間働きながら施設と求職者が相互理解を深める「ナラシワーク」を経て本採用・定着へ進む「段階的就業モデル」を掲げ、一度きりの面接で決まる採用による早期離職の解消を狙う。2026年8月に介護職求人の掲載も始めた。"
+    "overview": "2023年12月に大阪で設立され、人材会社ブリッジキャリアを親会社に持つ。看護師など医療・介護人材と施設を短期のスポット勤務でつなぐ就業支援サービス「KANTAN!」を関西圏中心に運営する。スポット勤務で現場を体験し、一定期間働きながら施設と求職者が相互理解を深める「ナラシワーク」を経て本採用・定着へ進む「段階的就業モデル」を掲げ、一度きりの面接で決まる採用による早期離職の解消を狙う。2026年8月に介護職求人の掲載も始めた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "KANTAN!（看護師等のスポット人材マッチング）",
+          "note": "2026-09から介護職求人も掲載。開始時期は公表なし",
+          "url": "https://www.kan-tan.co.jp/"
+        },
+        {
+          "name": "ナラシワーク",
+          "note": "開始時期は公表なし",
+          "url": "https://www.kan-tan.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "大久保歩美",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.kan-tan.co.jp/information",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/181025"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "看護師スポット初導入の病院が毎週の定期利用へ",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/181025"
+      },
+      "newsPerYear": 9,
+      "sources": [
+        "https://www.kan-tan.co.jp/company",
+        "https://www.kan-tan.co.jp/information",
+        "https://prtimes.jp/companyrdf.php?company_id=181025"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-037",
@@ -18651,7 +21727,60 @@
       "https://meditoku.com/services/"
     ],
     "updatedAt": "2026-10",
-    "overview": "熊本市でとくなが内科胃腸科外科クリニックを経営する医師・医学博士の徳永竜馬が、自ら開発も手がける「ドクター・デベロッパー」として2025年10月に設立したクリニック向け医療DX企業。現在はクラウド型の「外来ワークス」シリーズとして、診察券作成、受付システム、受付リスト、呼び出しシステム、厚生労働省への外来データ提出の5サービスを提供し、データ提出はレセプトデータから提出用データを作成する。今後、院内のシフト管理・経営分析、診療圏調査、医療連携、検査結果共有アプリなどのシリーズを順次公開する計画。"
+    "overview": "熊本市でとくなが内科胃腸科外科クリニックを経営する医師・医学博士の徳永竜馬が、自ら開発も手がける「ドクター・デベロッパー」として2025年10月に設立したクリニック向け医療DX企業。現在はクラウド型の「外来ワークス」シリーズとして、診察券作成、受付システム、受付リスト、呼び出しシステム、厚生労働省への外来データ提出の5サービスを提供し、データ提出はレセプトデータから提出用データを作成する。今後、院内のシフト管理・経営分析、診療圏調査、医療連携、検査結果共有アプリなどのシリーズを順次公開する計画。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "メディトク外来ワークス",
+          "since": "2026-07",
+          "note": "全国提供開始",
+          "url": "https://meditoku.com/services/"
+        },
+        {
+          "name": "外来データ提出作成支援クラウド",
+          "since": "2026-08",
+          "note": "本格展開",
+          "url": "https://meditoku.com/news/"
+        },
+        {
+          "name": "院内ワークス／院外ワークス／けんさポケット",
+          "note": "開始時期は公表なし",
+          "url": "https://meditoku.com/services/"
+        },
+        {
+          "name": "つながるメディカル（医療連携）",
+          "note": "開始時期は公表なし",
+          "url": "https://tsunagaru-medical.jp/service/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（代表メッセージ）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "徳永竜馬",
+            "role": "代表（医師・クリニック経営者）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://meditoku.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/187438"
+      },
+      "latestNews": {
+        "date": "2026-08",
+        "title": "外来データ提出の作成負担を軽減するクラウドサービスを本格展開",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/187438"
+      },
+      "newsPerYear": 4,
+      "sources": [
+        "https://meditoku.com/company/",
+        "https://meditoku.com/news/",
+        "https://prtimes.jp/companyrdf.php?company_id=187438"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-038",
@@ -18693,7 +21822,58 @@
       "https://genshi.ai/company"
     ],
     "updatedAt": "2026-10",
-    "overview": "大分大学医学部卒の医師で、画像生成・音声合成AIの開発経験を持つ長嶋大地が2025年に設立した医療AI企業。医師とエンジニアがモデル選定から病院の画面実装までを手がけ、院内マシンでオフライン運用し退院サマリーや紹介状、SOAPの下書きを作る「MedLocal」、医療用語に強い音声認識「GENSHI Voice」、論文と国内診療ガイドラインを横断して出典付きで答えるAI検索「CHUBEN」を提供する。軽量OCR基盤モデルも自社開発し、医療AIコミュニティ「CARTE」を運営する。"
+    "overview": "大分大学医学部卒の医師で、画像生成・音声合成AIの開発経験を持つ長嶋大地が2025年に設立した医療AI企業。医師とエンジニアがモデル選定から病院の画面実装までを手がけ、院内マシンでオフライン運用し退院サマリーや紹介状、SOAPの下書きを作る「MedLocal」、医療用語に強い音声認識「GENSHI Voice」、論文と国内診療ガイドラインを横断して出典付きで答えるAI検索「CHUBEN」を提供する。軽量OCR基盤モデルも自社開発し、医療AIコミュニティ「CARTE」を運営する。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "MedLocal（完全オフライン型医療AI基盤）",
+          "note": "開始時期は公表なし",
+          "url": "https://genshi.ai/"
+        },
+        {
+          "name": "GENSHI Voice（医療用音声認識）",
+          "note": "2026-09にiPhone版公開・Growthプラン",
+          "url": "https://genshi.ai/"
+        },
+        {
+          "name": "CHUBEN",
+          "note": "開始時期は公表なし",
+          "url": "https://genshi.ai/"
+        },
+        {
+          "name": "CARTE（医師・医学生向け医療AIコミュニティ）",
+          "since": "2026-10",
+          "note": "開設",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/184049"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "長嶋大地",
+            "role": "代表取締役CEO（医師）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://genshi.ai/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/184049"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "「Healthtech Summit 2026」ピッチコンテストにエントリー",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/184049"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://genshi.ai/company",
+        "https://prtimes.jp/companyrdf.php?company_id=184049"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-039",
@@ -18754,7 +21934,53 @@
         "text": "HERO innovationがクリニック向け自動精算機「MEDISMA-レジ」を発売",
         "source": "https://prtimes.jp/main/html/rd/p/000000011.000062237.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "MEDISMAシリーズ（予約・問診・レジ・AIクラーク・マーケティング）",
+          "since": "2025-11",
+          "note": "シリーズとして新たにリリース。MEDISMA-レジは2023-09、AIクラークは2024-12",
+          "url": "https://hero-innovation.com/"
+        },
+        {
+          "name": "クリニック・歯科医院向けホームページ制作",
+          "note": "累計4,000件突破（2026-04）。開始時期は公表なし",
+          "url": "https://hero-innovation.com/"
+        },
+        {
+          "name": "メディカリスト",
+          "note": "開始時期は公表なし",
+          "url": "https://hero-innovation.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "平野義和",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://hero-innovation.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/62237"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "「MEDISMA 予約・問診」導入応援キャンペーン開催",
+        "url": "https://prtimes.jp/main/html/rd/p/000000033.000062237.html"
+      },
+      "newsPerYear": 8,
+      "sources": [
+        "https://hero-innovation.com/company/",
+        "https://prtimes.jp/companyrdf.php?company_id=62237"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-040",
@@ -18807,7 +22033,68 @@
         "text": "病院経営支援のユカリアが資金調達を実施（11億円）",
         "source": "https://eucalia.jp/news/20240129pr/"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "病院経営サポート（医療経営総合支援）",
+          "note": "設立以来の主軸と公式に記載（2005年設立）",
+          "url": "https://eucalia.jp/"
+        },
+        {
+          "name": "コンサルティング・医療データ・医療介護DX",
+          "note": "開始時期は公表なし",
+          "url": "https://eucalia.jp/"
+        },
+        {
+          "name": "シニア関連事業（高齢者向け住宅・介護施設紹介「あいらいふ」等）",
+          "note": "開始時期は公表なし",
+          "url": "https://eucalia.jp/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "取締役2名（代表取締役社長・取締役）・執行役員3名。監査等委員である取締役3名は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "三沢英生",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "古川淳",
+            "role": "取締役"
+          },
+          {
+            "name": "小川一誠",
+            "role": "執行役員"
+          },
+          {
+            "name": "高橋典久",
+            "role": "執行役員"
+          },
+          {
+            "name": "山根直樹",
+            "role": "執行役員"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://eucalia.jp/news/",
+        "ir": "https://eucalia.jp/ir/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "千葉県立病院の経営改善業務を受託",
+        "url": "https://eucalia.jp/news/20261013pr/"
+      },
+      "sources": [
+        "https://eucalia.jp/about/us/",
+        "https://eucalia.jp/about/board/",
+        "https://eucalia.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-041",
@@ -18844,7 +22131,53 @@
       "https://psft.co.jp/news/839/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2020年10月設立で、調剤薬局を展開するメディカルシステムネットワークが株主。薬局のかかりつけ化を支援するLINE公式アカウント「つながる薬局」を運営し、患者は処方箋の事前送信、オンライン服薬指導、チャット相談や服薬フォローをLINE上で使える。2021年3月の開始から約5年で友だち登録は200万人を突破。クラウド電子薬歴「MEDIXS 薬歴」との連携、在宅業務の電子サイン、小児科オンライン診療「あんよ」との連携などで機能を広げる。2026年6月に代表が交代。"
+    "overview": "2020年10月設立で、調剤薬局を展開するメディカルシステムネットワークが株主。薬局のかかりつけ化を支援するLINE公式アカウント「つながる薬局」を運営し、患者は処方箋の事前送信、オンライン服薬指導、チャット相談や服薬フォローをLINE上で使える。2021年3月の開始から約5年で友だち登録は200万人を突破。クラウド電子薬歴「MEDIXS 薬歴」との連携、在宅業務の電子サイン、小児科オンライン診療「あんよ」との連携などで機能を広げる。2026年6月に代表が交代。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "つながる薬局（薬局向けLINE公式アカウント）",
+          "note": "友だち登録170万人以上（2025-09）。開始時期は公表なし",
+          "url": "https://psft.co.jp/business/"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "取締役会長・代表取締役社長・取締役・取締役（非常勤）。監査役は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "多湖健太郎",
+            "role": "取締役会長"
+          },
+          {
+            "name": "川野尚吾",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "三上真司",
+            "role": "取締役"
+          },
+          {
+            "name": "加賀香",
+            "role": "取締役（非常勤）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://psft.co.jp/#News"
+      },
+      "latestNews": {
+        "date": "2026-08",
+        "title": "薬局利用規約・プライバシーポリシー等の改定",
+        "url": "https://psft.co.jp/"
+      },
+      "newsPerYear": 6,
+      "sources": [
+        "https://psft.co.jp/",
+        "https://psft.co.jp/business/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-042",
@@ -18882,7 +22215,57 @@
       "https://zeroharm.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "overview": "名古屋大学医学部附属病院が独自に開発・運用してきたインシデントレポートシステムを社会実装するため、2024年10月に設立された名古屋大学発ベンチャー。AIとクラウドでどの医療機関でも使えるようにした次世代型インシデントレポートシステム「Zeroharm」を提供し、AIの入力支援、スマートフォン対応、匿名報告で平均3〜4分で報告を作れる。集計はパレート図やヒートマップなどへ即時に可視化でき、名大病院の約12万件の報告で学習したAIがリスクを計測する。"
+    "overview": "名古屋大学医学部附属病院が独自に開発・運用してきたインシデントレポートシステムを社会実装するため、2024年10月に設立された名古屋大学発ベンチャー。AIとクラウドでどの医療機関でも使えるようにした次世代型インシデントレポートシステム「Zeroharm」を提供し、AIの入力支援、スマートフォン対応、匿名報告で平均3〜4分で報告を作れる。集計はパレート図やヒートマップなどへ即時に可視化でき、名大病院の約12万件の報告で学習したAIがリスクを計測する。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Zeroharm（次世代型インシデントレポートシステム）",
+          "note": "開始時期は公表なし",
+          "url": "https://zeroharm.jp/service/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役2名・取締役3名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "南尚人",
+            "role": "代表取締役"
+          },
+          {
+            "name": "星剛史",
+            "role": "代表取締役"
+          },
+          {
+            "name": "長尾能雅",
+            "role": "取締役（医師）"
+          },
+          {
+            "name": "長田庄一郎",
+            "role": "取締役"
+          },
+          {
+            "name": "樋口由美子",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://zeroharm.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "第21回医療の質・安全学会学術集会に「Zeroharm」を出展",
+        "url": "https://zeroharm.jp/news/"
+      },
+      "newsPerYear": 6,
+      "sources": [
+        "https://zeroharm.jp/company/",
+        "https://zeroharm.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-043",
@@ -18938,7 +22321,62 @@
         "text": "三重大学病院・大阪けいさつ病院での導入を発表"
       }
     ],
-    "overview": "三重県の総合病院・永井病院を家業に持ち、同院の経営企画とDXを担った星野仙太が2024年1月に創業した病院DXスタートアップ。全部署にAIエージェントを配置する病院向けAI基幹システム「Apollo AI」、紹介状・返書業務をデジタル化する「紹介状クラウド」、FAXをクラウド化する「SmartFAX」、電子カルテ閉域網で看護要約や紹介状作成を支援する生成AI「メディラク AI」を提供し、受託開発も行う。Apollo AIは三重大学病院などが導入し、2026年に病院DXアワードを受賞。"
+    "overview": "三重県の総合病院・永井病院を家業に持ち、同院の経営企画とDXを担った星野仙太が2024年1月に創業した病院DXスタートアップ。全部署にAIエージェントを配置する病院向けAI基幹システム「Apollo AI」、紹介状・返書業務をデジタル化する「紹介状クラウド」、FAXをクラウド化する「SmartFAX」、電子カルテ閉域網で看護要約や紹介状作成を支援する生成AI「メディラク AI」を提供し、受託開発も行う。Apollo AIは三重大学病院などが導入し、2026年に病院DXアワードを受賞。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Apollo AI（病院向けAI基幹システム）",
+          "note": "三重大学病院・大阪けいさつ病院等で導入（2026）。開始時期は公表なし",
+          "url": "https://www.albatrus.co/"
+        },
+        {
+          "name": "紹介状クラウド（Medcloud）",
+          "since": "2025-10",
+          "note": "正式リリース",
+          "url": "https://www.albatrus.co/"
+        },
+        {
+          "name": "メドシルAI（南江堂と共同）",
+          "since": "2026-01",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/169742"
+        },
+        {
+          "name": "SmartFAX／メディラク AI",
+          "note": "開始時期は公表なし",
+          "url": "https://www.albatrus.co/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役CEO・取締役CTO",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "星野仙太",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "檜原陽一郎",
+            "role": "取締役CTO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.albatrus.co/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/169742"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "大阪けいさつ病院がAI基幹システム『Apollo AI』を導入開始",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/169742"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://www.albatrus.co/about",
+        "https://prtimes.jp/companyrdf.php?company_id=169742"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-044",
@@ -18977,7 +22415,37 @@
       "https://alleypin.co.jp/jp/about"
     ],
     "updatedAt": "2026-10",
-    "overview": "台湾発の医療DX企業AlleyPinグループの日本法人。クリニック向け患者関係管理システム「1.Talk」を提供し、Googleマップ対策（MEO）、LINE連携、予約管理、多言語の予約・問診、リマインド、診療後フォロー（PRM）までを一元化する。AIエージェントによる問い合わせ対応も備える。グループとして台湾を中心に累計2,000以上の医療機関に導入実績があり、日本の医療制度や既存システムに合わせた導入支援を行う。本社は神戸市。"
+    "overview": "台湾発の医療DX企業AlleyPinグループの日本法人。クリニック向け患者関係管理システム「1.Talk」を提供し、Googleマップ対策（MEO）、LINE連携、予約管理、多言語の予約・問診、リマインド、診療後フォロー（PRM）までを一元化する。AIエージェントによる問い合わせ対応も備える。グループとして台湾を中心に累計2,000以上の医療機関に導入実績があり、日本の医療制度や既存システムに合わせた導入支援を行う。本社は神戸市。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "1.Talk（MEO集患・予約管理・患者接点管理）",
+          "note": "開始時期は公表なし。台湾を中心に累計2,000以上の医療機関で導入支援（公式）",
+          "url": "https://alleypin.co.jp/jp"
+        },
+        {
+          "name": "1.Talk AI Agent",
+          "since": "2026-01",
+          "note": "問い合わせ対応を最大80%自動化と発表",
+          "url": "https://alleypin.co.jp/jp/press"
+        }
+      ],
+      "newsroom": {
+        "site": "https://alleypin.co.jp/jp/press"
+      },
+      "latestNews": {
+        "date": "2026-01",
+        "title": "ジニーがGoogleマップ予約に対応",
+        "url": "https://alleypin.co.jp/jp/press"
+      },
+      "newsPerYear": 3,
+      "sources": [
+        "https://alleypin.co.jp/jp",
+        "https://alleypin.co.jp/jp/about",
+        "https://alleypin.co.jp/jp/press"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-045",
@@ -19015,7 +22483,57 @@
       "クリニックYouTube支援",
       "YouTube運用代行・コンサルティング",
       "Instagram運用代行・コンサルティング"
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "SNS運用代行・コンサルティング（YouTube/Instagram/TikTok）",
+          "since": "2018-05",
+          "note": "SNS運用代行サービスをリリース（沿革）。業種はヘルスケアに限らない",
+          "url": "https://behealthy.co.jp/service/"
+        },
+        {
+          "name": "クリニックYouTube支援",
+          "note": "開始時期は公表なし",
+          "url": "https://behealthy.co.jp/service/"
+        },
+        {
+          "name": "ビーレガシー（地域SNS・ローカルメディア）",
+          "note": "開始時期は公表なし",
+          "url": "https://behealthy.co.jp/service/local-sns/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役・執行役員1名",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "柴田章矢",
+            "role": "代表取締役"
+          },
+          {
+            "name": "内山拓朗",
+            "role": "執行役員（ビーレガシー責任者）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://behealthy.co.jp/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "採用のためのYouTube・SNS活用ガイドを無料公開",
+        "url": "https://behealthy.co.jp/news/"
+      },
+      "newsPerYear": 36,
+      "sources": [
+        "https://behealthy.co.jp/company/",
+        "https://behealthy.co.jp/member/",
+        "https://behealthy.co.jp/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-046",
@@ -19050,7 +22568,41 @@
       "https://medi-free.com/"
     ],
     "updatedAt": "2026-10",
-    "overview": "看護師専門の実践型キャリアスクール「メディフリ」を運営。現役フリーランス看護師とともに立ち上げたサービスで、スキル習得から営業支援までマンツーマンで伴走し、看護師資格を生かしたフリーランスや副業など、転職以外の働き方の選択肢づくりを支援する。「看護師の完全離職をゼロに」を掲げ、サービス開始から約10ヶ月で無料個別相談会の申込が累計3,000名を突破（2026年4月）。今後はコミュニティ拡大や独立・複業向けカリキュラム、転職・再就職支援を強化する。"
+    "overview": "看護師専門の実践型キャリアスクール「メディフリ」を運営。現役フリーランス看護師とともに立ち上げたサービスで、スキル習得から営業支援までマンツーマンで伴走し、看護師資格を生かしたフリーランスや副業など、転職以外の働き方の選択肢づくりを支援する。「看護師の完全離職をゼロに」を掲げ、サービス開始から約10ヶ月で無料個別相談会の申込が累計3,000名を突破（2026年4月）。今後はコミュニティ拡大や独立・複業向けカリキュラム、転職・再就職支援を強化する。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "メディフリ（看護師専門実践型キャリアスクール）",
+          "note": "申込者数3,000名突破（2026-05）。開始時期は公表なし",
+          "url": "https://medi-free.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "吉沢まどか",
+            "role": "代表取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://medi-free.com/?post_type=news"
+      },
+      "latestNews": {
+        "date": "2026-05",
+        "title": "「メディフリ」の申込者数が3,000名を突破",
+        "url": "https://medi-free.com/?post_type=news"
+      },
+      "newsPerYear": 1,
+      "sources": [
+        "https://medi-free.com/?page_id=83",
+        "https://medi-free.com/?post_type=news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-047",
@@ -19090,7 +22642,45 @@
       "https://prtimes.jp/main/html/rd/p/000000004.000129075.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "美容クリニック業界出身者が中心となって設立した美容医療特化のコンサルティング会社。2023年10月に本格始動した開業支援では調査分析やKPI・財務計画の策定などで開業前から伴走し、運営コンサルティングでは「圧倒的現場主義」を掲げ、現場常駐のハンズオン型で売上拡大、顧客満足度向上、業務効率化、人材教育を支援する。2023年12月に美容クリニック特化の看護師人材紹介「AguNurse（アグナース）」を開始し、業界経験者がキャリアアドバイザーを務める。"
+    "overview": "美容クリニック業界出身者が中心となって設立した美容医療特化のコンサルティング会社。2023年10月に本格始動した開業支援では調査分析やKPI・財務計画の策定などで開業前から伴走し、運営コンサルティングでは「圧倒的現場主義」を掲げ、現場常駐のハンズオン型で売上拡大、顧客満足度向上、業務効率化、人材教育を支援する。2023年12月に美容クリニック特化の看護師人材紹介「AguNurse（アグナース）」を開始し、業界経験者がキャリアアドバイザーを務める。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "美容クリニック開業・運営コンサルティング",
+          "since": "2022-11",
+          "note": "設立時からの基盤事業と公式に記載",
+          "url": "https://agudinc.com/"
+        },
+        {
+          "name": "美容クリニック特化型人材紹介（AguNurse）",
+          "note": "開始時期は公表なし",
+          "url": "https://agudinc.com/"
+        },
+        {
+          "name": "営業・採用コンサルティング",
+          "note": "開始時期は公表なし",
+          "url": "https://agudinc.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "蒲生晃一",
+            "role": "代表"
+          }
+        ]
+      },
+      "newsroom": {},
+      "newsPerYear": 0,
+      "sources": [
+        "https://agudinc.com/",
+        "https://agudinc.com/2"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-048",
@@ -19138,7 +22728,58 @@
         "text": "アナウトの手術用画像認識支援プログラム「Eureka α」が製造販売承認を取得",
         "source": "https://prtimes.jp/main/html/rd/p/000000004.000063564.html"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "EUREKA α（手術支援AI）",
+          "note": "開始時期は公表なし",
+          "url": "https://anaut-surg.com/"
+        },
+        {
+          "name": "EUREKA X",
+          "note": "開始時期は公表なし",
+          "url": "https://anaut-surg.com/"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役・取締役・執行役員2名（本部長職のみの1名は数えず）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "小林直",
+            "role": "代表取締役（医師）"
+          },
+          {
+            "name": "細見建輔",
+            "role": "取締役"
+          },
+          {
+            "name": "土井泰法",
+            "role": "執行役員 開発本部長"
+          },
+          {
+            "name": "深田恭平",
+            "role": "執行役員 サージカルクリエーション本部長"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://anaut-surg.com/ja-jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "Global Startup EXPO 2026に出展",
+        "url": "https://anaut-surg.com/ja-jp/news"
+      },
+      "newsPerYear": 9,
+      "sources": [
+        "https://anaut-surg.com/ja-jp/company",
+        "https://anaut-surg.com/ja-jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-049",
@@ -19181,7 +22822,54 @@
       "https://www.jmees-inc.com/about/"
     ],
     "updatedAt": "2026-10",
-    "overview": "国立がん研究センター東病院のNEXT医療機器開発センターで、外科医の伊藤雅昭・竹下修由とAIエンジニアの松崎博貴が立ち上げた同センター認定ベンチャー。内視鏡手術の映像をAIで解析し、術者の臓器認識を支援するプログラム医療機器「SurVis」シリーズを開発する。子宮全摘術向け「SurVis-Hys」が2024年8月、骨盤・側方リンパ節郭清術向け「SurVis-Pel」が2026年3月に承認を取得。大腸内視鏡検査の前処置を判定するアプリ「ナースコープ」も手がける。"
+    "overview": "国立がん研究センター東病院のNEXT医療機器開発センターで、外科医の伊藤雅昭・竹下修由とAIエンジニアの松崎博貴が立ち上げた同センター認定ベンチャー。内視鏡手術の映像をAIで解析し、術者の臓器認識を支援するプログラム医療機器「SurVis」シリーズを開発する。子宮全摘術向け「SurVis-Hys」が2024年8月、骨盤・側方リンパ節郭清術向け「SurVis-Pel」が2026年3月に承認を取得。大腸内視鏡検査の前処置を判定するアプリ「ナースコープ」も手がける。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "SurVis-Hys（子宮全摘術の手術支援AI）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.jmees-inc.com/"
+        },
+        {
+          "name": "SurVis-Pel（内視鏡手術支援プログラム）",
+          "since": "2026-03",
+          "note": "国立がん研究センター東病院と共同開発、薬事承認取得",
+          "url": "https://prtimes.jp/main/html/searchrlp/company_id/109189"
+        },
+        {
+          "name": "ナースコープコネクト",
+          "note": "開始時期は公表なし",
+          "url": "https://www.jmees-inc.com/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "松崎博貴",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.jmees-inc.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/109189"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "ISO13485認証を取得",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/109189"
+      },
+      "newsPerYear": 5,
+      "sources": [
+        "https://www.jmees-inc.com/about/",
+        "https://www.jmees-inc.com/news/",
+        "https://prtimes.jp/companyrdf.php?company_id=109189"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-050",
@@ -19220,7 +22908,41 @@
       "https://imed-tech.co.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "overview": "脳神経外科医の河野健一が2019年に創業した医療機器プログラムの開発企業。脳血管内治療中に血管撮影X線画像をAIでリアルタイムに解析し、カテーテルなどのデバイスの動きを追跡して術者に通知する医用画像解析ソフトウェア「Neuro-Vascular Assist」を開発・提供する。医師・エンジニア・薬事担当が一体となって開発から承認、臨床連携まで手がける。2026年には米国での初使用評価の論文が掲載されるなど、国内外で臨床研究を重ねている。"
+    "overview": "脳神経外科医の河野健一が2019年に創業した医療機器プログラムの開発企業。脳血管内治療中に血管撮影X線画像をAIでリアルタイムに解析し、カテーテルなどのデバイスの動きを追跡して術者に通知する医用画像解析ソフトウェア「Neuro-Vascular Assist」を開発・提供する。医師・エンジニア・薬事担当が一体となって開発から承認、臨床連携まで手がける。2026年には米国での初使用評価の論文が掲載されるなど、国内外で臨床研究を重ねている。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Neuro-Vascular Assist（脳血管内手術支援AIソフトウェア）",
+          "note": "開始時期は公表なし",
+          "url": "https://imed-tech.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "河野健一",
+            "role": "代表取締役（医師）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://imed-tech.co.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "日本脳神経外科学会第85回学術総会で弊社関連4演題発表",
+        "url": "https://imed-tech.co.jp/news"
+      },
+      "newsPerYear": 23,
+      "sources": [
+        "https://imed-tech.co.jp/company",
+        "https://imed-tech.co.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-051",
@@ -19263,7 +22985,64 @@
       "https://prtimes.jp/main/html/rd/p/000000029.000099334.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "医師で元厚生労働省官僚の川田裕美らが2021年に創業した頭痛領域のデジタルヘルス企業。頭痛AI診断プログラム（2026年1月に製造販売承認を申請）や片頭痛治療用アプリ（2025年9月に治験開始）などのプログラム医療機器を開発する。2025年11月にベルシステム24から気象病予測アプリ「頭痛ーる」事業を譲り受け、オンライン診療「頭痛ーるドクター」や企業向け頭痛改善プログラムも展開。2026年春にメドレーが完全子会社化した。"
+    "overview": "医師で元厚生労働省官僚の川田裕美らが2021年に創業した頭痛領域のデジタルヘルス企業。頭痛AI診断プログラム（2026年1月に製造販売承認を申請）や片頭痛治療用アプリ（2025年9月に治験開始）などのプログラム医療機器を開発する。2025年11月にベルシステム24から気象病予測アプリ「頭痛ーる」事業を譲り受け、オンライン診療「頭痛ーるドクター」や企業向け頭痛改善プログラムも展開。2026年春にメドレーが完全子会社化した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "頭痛ーる（頭痛予測アプリ）",
+          "since": "2025-11",
+          "note": "事業譲受を完了（累計2,200万DL）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000024.000099334.html"
+        },
+        {
+          "name": "頭痛ーるドクター（オンライン診療）",
+          "since": "2025-09",
+          "note": "提供開始",
+          "url": "https://h-medtech.com/"
+        },
+        {
+          "name": "頭痛AI診断プログラム",
+          "note": "2026-01に製造販売承認申請",
+          "url": "https://h-medtech.com/news-pr"
+        },
+        {
+          "name": "片頭痛治療用アプリ",
+          "note": "2025-09治験開始"
+        },
+        {
+          "name": "企業向け女性の健康研修",
+          "since": "2025-12",
+          "url": "https://h-medtech.com/news-pr"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ（メンバー紹介は外部ページ）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "川田裕美",
+            "role": "代表取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://h-medtech.com/news-pr",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/99334"
+      },
+      "latestNews": {
+        "date": "2026-03",
+        "title": "CEO川田がWomen's Health Beyond 2026に登壇",
+        "url": "https://h-medtech.com/"
+      },
+      "newsPerYear": 6,
+      "sources": [
+        "https://h-medtech.com/",
+        "https://h-medtech.com/news-pr",
+        "https://prtimes.jp/companyrdf.php?company_id=99334"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-052",
@@ -19320,7 +23099,50 @@
         "text": "心電図診断支援AIのカルディオインテリジェンスが資金調達",
         "source": "https://www.cardio-i.com/2024/03/11/1763/"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "SmartRobin AIシリーズ（心電図AI解析）",
+          "note": "開始時期は公表なし",
+          "url": "https://smartrobin.info/"
+        },
+        {
+          "name": "SmartPAFin",
+          "note": "開始時期は公表なし",
+          "url": "https://www.cardio-i.com/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役・取締役CEO（2026-03に新経営体制へ移行と告知）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "田村雄一",
+            "role": "代表取締役（医師）"
+          },
+          {
+            "name": "佐々木栄和",
+            "role": "取締役CEO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.cardio-i.com/news/"
+      },
+      "latestNews": {
+        "date": "2026-03",
+        "title": "新経営体制へ移行のお知らせ",
+        "url": "https://www.cardio-i.com/news/"
+      },
+      "newsPerYear": 7,
+      "sources": [
+        "https://www.cardio-i.com/company/",
+        "https://www.cardio-i.com/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-053",
@@ -19373,7 +23195,64 @@
         "text": "テックドクターとIQVIAジャパンがウェアラブルを使う臨床研究ソリューションを提供開始",
         "source": "https://www.iqvia.com/locations/japan/newsroom/2024/04/clinical-research-solution-using-wearable-devices"
       }
-    ]
+    ],
+    "profile": {
+      "businesses": [
+        {
+          "name": "SelfBase（デジタルバイオマーカー開発プラットフォーム）",
+          "since": "2021-05",
+          "note": "医療データ分析SaaSとして研究機関向けに発表",
+          "url": "https://www.technology-doctor.com/"
+        },
+        {
+          "name": "Health Portal",
+          "note": "開始時期は公表なし",
+          "url": "https://www.technology-doctor.com/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役CEO・取締役（代表医師）・執行役員3名。社外取締役1名・監査役1名は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "湊和修",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "泉啓介",
+            "role": "取締役代表医師・共同創業者"
+          },
+          {
+            "name": "近藤洋司",
+            "role": "執行役員COO"
+          },
+          {
+            "name": "深見俊和",
+            "role": "執行役員 データサイエンス部長"
+          },
+          {
+            "name": "星野正樹",
+            "role": "執行役員 エンジニアリング部長"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.technology-doctor.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/71267"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "ADHD患者の薬物治療に伴う変化を捉えたウェアラブルデータ研究成果を発表",
+        "url": "https://prtimes.jp/main/html/searchrlp/company_id/71267"
+      },
+      "newsPerYear": 15,
+      "sources": [
+        "https://www.technology-doctor.com/about",
+        "https://prtimes.jp/companyrdf.php?company_id=71267"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-054",
@@ -19412,7 +23291,42 @@
       "https://bipsee.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "overview": "心療内科医の松村雅代が2017年に設立したメンタルヘルス領域のスタートアップ。うつ病を中心とする精神疾患に向け、VRとスマートフォンアプリ、AIを組み合わせたデジタル療法「VRx」を開発しており、従来の治療と組み合わせることでより効果的な心のケアの実現を目指す。2021年10月にプレシリーズAで総額2.5億円を調達し、2025年6月にシリーズAの1stクローズ、2026年8月に2ndクローズを実施した。"
+    "overview": "心療内科医の松村雅代が2017年に設立したメンタルヘルス領域のスタートアップ。うつ病を中心とする精神疾患に向け、VRとスマートフォンアプリ、AIを組み合わせたデジタル療法「VRx」を開発しており、従来の治療と組み合わせることでより効果的な心のケアの実現を目指す。2021年10月にプレシリーズAで総額2.5億円を調達し、2025年6月にシリーズAの1stクローズ、2026年8月に2ndクローズを実施した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "VRx（VRデジタル療法）",
+          "note": "うつ病向けで特定臨床研究を完了し治験準備開始。開始時期は公表なし",
+          "url": "https://bipsee.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 1,
+        "note": "公表されているのは代表者のみ",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "松村雅代",
+            "role": "代表取締役社長兼CEO（心療内科医）"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://bipsee.co.jp/news"
+      },
+      "latestNews": {
+        "date": "2026-08",
+        "title": "シリーズAの2ndクローズを完了、累計調達9.9億円",
+        "url": "https://bipsee.co.jp/news/wl0YRzCr"
+      },
+      "newsPerYear": 2,
+      "sources": [
+        "https://bipsee.co.jp/",
+        "https://bipsee.co.jp/about",
+        "https://bipsee.co.jp/news"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-055",
@@ -19450,7 +23364,62 @@
       "https://www.elix-inc.com/company/"
     ],
     "updatedAt": "2026-10",
-    "overview": "2016年設立のAI創薬企業。予測モデルと生成モデルを直感的なUIで使えるAI創薬プラットフォーム「Elix Discovery」を2022年に公開し、博士人材によるコンサルティングや導入支援と合わせて製薬企業に提供する。京都大学と連合学習対応の機械学習ライブラリ「kMoL」を開発し、2025年には製薬16社のデータで連合学習したAIモデルを搭載して商用化した。アステラス製薬、塩野義製薬、エーザイ、杏林製薬、科研製薬などとの共同研究・導入実績がある。"
+    "overview": "2016年設立のAI創薬企業。予測モデルと生成モデルを直感的なUIで使えるAI創薬プラットフォーム「Elix Discovery」を2022年に公開し、博士人材によるコンサルティングや導入支援と合わせて製薬企業に提供する。京都大学と連合学習対応の機械学習ライブラリ「kMoL」を開発し、2025年には製薬16社のデータで連合学習したAIモデルを搭載して商用化した。アステラス製薬、塩野義製薬、エーザイ、杏林製薬、科研製薬などとの共同研究・導入実績がある。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Elix Discovery（AI創薬プラットフォーム）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.elix-inc.com/"
+        },
+        {
+          "name": "製薬企業との共同研究（AI創薬）",
+          "note": "2026-09にAxcelead DDPと標的タンパク質分解薬で共同研究契約",
+          "url": "https://www.elix-inc.com/news/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役CEO・取締役COO・執行役員3名（CTO・CSO含む）",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "結城伸哉",
+            "role": "共同創業者 兼 代表取締役CEO"
+          },
+          {
+            "name": "大久保達矢",
+            "role": "共同創業者 兼 取締役COO"
+          },
+          {
+            "name": "伊藤早希",
+            "role": "執行役員 兼 経営企画部長"
+          },
+          {
+            "name": "ロメオ・コザック",
+            "role": "執行役員 兼 CTO"
+          },
+          {
+            "name": "石田祐",
+            "role": "執行役員 兼 CSO"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.elix-inc.com/news/"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "CBI学会2026年大会でランチョンセミナー等を実施",
+        "url": "https://www.elix-inc.com/news/"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://www.elix-inc.com/jp/team/",
+        "https://www.elix-inc.com/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-056",
@@ -19487,7 +23456,53 @@
       "https://xeureka.co.jp/about-us/"
     ],
     "updatedAt": "2026-10",
-    "overview": "三井物産が2021年11月に設立したAI創薬の子会社。AIや分子シミュレーションなどの計算技術を活用し、ヒット化合物の探索からリード化合物の最適化まで幅広い計算創薬ソリューションを製薬企業やCRO向けに提供するほか、共同研究による創薬にも取り組む。2024年にはGPUスパコンを中核とする創薬向けイノベーションハブ「Tokyo-1」を開始し、計算環境とDXソリューション、民間主導の共創コミュニティを一体で提供している。"
+    "overview": "三井物産が2021年11月に設立したAI創薬の子会社。AIや分子シミュレーションなどの計算技術を活用し、ヒット化合物の探索からリード化合物の最適化まで幅広い計算創薬ソリューションを製薬企業やCRO向けに提供するほか、共同研究による創薬にも取り組む。2024年にはGPUスパコンを中核とする創薬向けイノベーションハブ「Tokyo-1」を開始し、計算環境とDXソリューション、民間主導の共創コミュニティを一体で提供している。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Tokyo-1（創薬向けAIスパコン・イノベーションハブ）",
+          "since": "2024-02",
+          "note": "プロジェクト発表。2026-07にエーザイが参画",
+          "url": "https://xeureka.co.jp/service/tokyo-1"
+        },
+        {
+          "name": "計算創薬ソリューション（AI創薬支援）",
+          "note": "開始時期は公表なし",
+          "url": "https://xeureka.co.jp/service/drug-discovery-solutions"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役社長・CTO。部長職は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "永江大成",
+            "role": "代表取締役社長"
+          },
+          {
+            "name": "牧口大旭",
+            "role": "Chief Technology Officer"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://xeureka.co.jp/information/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/136824"
+      },
+      "latestNews": {
+        "date": "2026-10",
+        "title": "CBI学会2026年大会にてスポンサードセッション",
+        "url": "https://xeureka.co.jp/information/news/"
+      },
+      "newsPerYear": 6,
+      "sources": [
+        "https://xeureka.co.jp/about-us/",
+        "https://xeureka.co.jp/team/",
+        "https://prtimes.jp/companyrdf.php?company_id=136824"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-057",
@@ -19527,7 +23542,54 @@
     ],
     "updatedAt": "2026-10",
     "overview": "東北大学の進化分子工学の知見とAIを融合したタンパク質設計技術「aiProtein」を持つ東北大学発ベンチャー。限られた実験データから抗体や酵素などの高機能タンパク質を創出し、製薬・化学企業との共同研究や受託研究に提供する。住友ファーマとの共同研究でマイルストーンを達成し、第一三共や積水化学工業とも協業。2025年9月にAI抗体設計サービス「RevoAb」を開始し、高機能化した酵素を用いたmRNA治療薬の自社開発も進める。",
-    "employeesAsOf": "2026-10"
+    "employeesAsOf": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "aiProtein（AI×進化分子工学によるタンパク質設計）",
+          "note": "開始時期は公表なし",
+          "url": "https://www.revolka.com/"
+        },
+        {
+          "name": "RevoAb（抗体関連サービス）",
+          "note": "2026-09に利用実績・導入事例を公開。開始時期は公表なし",
+          "url": "https://www.revolka.com/news/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役CEO・取締役CSO・取締役。社外取締役2名・監査役は数えず",
+        "asOf": "2026-10",
+        "members": [
+          {
+            "name": "浜松典郎",
+            "role": "代表取締役CEO"
+          },
+          {
+            "name": "梅津光央",
+            "role": "取締役CSO"
+          },
+          {
+            "name": "岩瀬歩",
+            "role": "取締役"
+          }
+        ]
+      },
+      "newsroom": {
+        "site": "https://www.revolka.com/news/"
+      },
+      "latestNews": {
+        "date": "2026-09",
+        "title": "『RevoAb』の利用実績と導入事例の公開",
+        "url": "https://www.revolka.com/news/"
+      },
+      "newsPerYear": 10,
+      "sources": [
+        "https://www.revolka.com/about/",
+        "https://www.revolka.com/news/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-058",
