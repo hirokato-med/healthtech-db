@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { EarningsBars } from '@/components/EarningsBars';
+import { EarningsSummary } from '@/components/EarningsSummary';
 import { getCompanies, getCompany, getDisclosures, getEarnings } from '@/lib/data';
 import { forecastLabel, forecastOf, margin, money, pct, yoy } from '@/lib/earnings';
 import type { EarningsReport, Figures } from '@/lib/types';
@@ -40,6 +41,15 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
   const series: { label: string; fig: Figures; est?: boolean }[] = [...fyRows.map(([fy, fig]) => ({ label: short(fy), fig })), ...fcPoint.map((x) => ({ ...x, est: true }))];
   // 四半期（累計）の前年同期比較
   const latestQ: EarningsReport | undefined = reports.find((r) => r.quarter !== 'FY');
+  // 同じ決算期の一つ前の決算（または前期の通期決算）で出ていた予想を「前回予想」にする
+  const prevFc = (() => {
+    if (!latest) return undefined;
+    const target = latest.quarter === 'FY' ? undefined : latest.fiscalYear;
+    if (!target) return undefined;
+    const before = reports.slice(1).find((r) => (r.quarter !== 'FY' && r.fiscalYear === target && r.forecast) || (r.quarter === 'FY' && r.nextForecast && r.fiscalYear.replace(/^(\d{4})/, (y) => String(Number(y) + 1)) === target));
+    const fig = before ? (before.quarter === 'FY' ? before.nextForecast : before.forecast) : undefined;
+    return before && fig ? { label: `${before.date.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, y, m, d) => `${y}年${Number(m)}月${Number(d)}日`)}公表の予想`, fig } : undefined;
+  })();
   const docs = disclosures.filter((d) => ['決算短信', '決算説明資料', '業績予想・配当'].includes(d.kind));
 
   return (
@@ -53,6 +63,11 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
 
       {latest ? (
         <>
+          <section className="ma-sec" style={{ marginTop: 0 }}>
+            <h2>決算の概要</h2>
+            <EarningsSummary r={latest} prevForecast={prevFc} />
+          </section>
+
           <section className="earn-kpi">
             <div><span>直近の決算</span><b>{latest.label.replace(/（中間期）/, '')}</b><small>{latest.date.replace(/-/g, '/')} 発表{latest.consolidated === false ? '・個別' : ''}</small></div>
             <div><span>売上高{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b>{money(latest.current?.revenue)}</b><small>前年同期比 {pct(yoy(latest.current?.revenue, latest.prior?.revenue))}</small></div>

@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   description: `${SITE_NAME} は、医師・加藤浩晃が運営するヘルスケアビジネスのデータベースです。国内ヘルステック企業・サービス・人物・ニュース・解説記事をつなげて見渡せます。`,
   metadataBase: new URL('https://healthtech-db.com'),
   openGraph: { type: 'website', siteName: SITE_NAME, locale: 'ja_JP' },
+  // 公開前のため検索エンジンに載せない（公開するときに外す。public/robots.txt も）
+  robots: { index: false, follow: false, nocache: true, googleBot: { index: false, follow: false } },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
