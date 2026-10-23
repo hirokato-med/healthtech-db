@@ -88,11 +88,18 @@ export default function Home() {
               {HOT.map((k) => <Link key={k} href={`/search/?q=${encodeURIComponent(k)}`}>{k}</Link>)}
             </div>
           </div>
-          <div className="stat4">
-            <Link href="/companies/"><span className="l">{Ico.co}国内企業</span><span className="v">{companies.length}<small>社</small></span><span className="go">企業データベース →</span></Link>
-            <Link href="/services/"><span className="l">{Ico.sv}事業・海外</span><span className="v">{services.length + getOverseas().length}<small>件</small></span><span className="go">事業データベース →</span></Link>
-            <Link href="/talents/"><span className="l">{Ico.pp}人物</span><span className="v">{people.length}<small>名</small></span><span className="go">人物データベース →</span></Link>
-            <Link href="/news/"><span className="l">{Ico.nw}ニュース</span><span className="v">{news.length}<small>本</small></span><span className="go">毎朝更新 →</span></Link>
+          <div className="hx-side">
+            <div className="stat4">
+              <Link href="/companies/"><span className="l">{Ico.co}国内企業</span><span className="v">{companies.length}<small>社</small></span><span className="go">企業データベース →</span></Link>
+              <Link href="/services/"><span className="l">{Ico.sv}事業・海外</span><span className="v">{services.length + getOverseas().length}<small>件</small></span><span className="go">事業データベース →</span></Link>
+              <Link href="/talents/"><span className="l">{Ico.pp}人物</span><span className="v">{people.length}<small>名</small></span><span className="go">人物データベース →</span></Link>
+              <Link href="/news/"><span className="l">{Ico.nw}ニュース</span><span className="v">{news.length}<small>本</small></span><span className="go">毎朝更新 →</span></Link>
+            </div>
+            <Link href="/about/why/" className="why-card">
+              <img src={withBase('/images/kato-avatar.jpg')} alt="" width={44} height={44} />
+              <span className="t"><b>Healthtech DB への想い</b><small>なぜ「事業開発の PubMed」をつくるのか ── 加藤浩晃</small></span>
+              <span className="go">読む →</span>
+            </Link>
           </div>
         </div>
       </section>
