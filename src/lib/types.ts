@@ -31,6 +31,10 @@ export type Company = {
   origin?: string;
   formerNames?: string[];
   products?: string[];
+  /** 事業概要（150〜250字）。description は一覧カード用の短い説明 */
+  overview?: string;
+  employeesAsOf?: string;
+  totalFunding?: string;
   highlight?: string;
   history?: { date: string; text: string }[];
   sources?: string[];

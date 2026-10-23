@@ -24,6 +24,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const news = newsOf(c).slice(0, 10);
   const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 6);
   const parent = c.parentCompany ? findCompanyByName(c.parentCompany) : undefined;
+  const empAsOf = c.employeesAsOf ? c.employeesAsOf.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`) : c.source.includes('2021-09') ? '2021年' : '';
   const articles = getArticles().filter((a) => a.companies?.some((n) => findCompanyByName(n)?.id === c.id));
 
   return (
@@ -43,6 +44,12 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
 
       <div className="two-col">
         <div style={{ display: 'grid', gap: 20 }}>
+          {c.overview && (
+            <section className="panel">
+              <h3>事業概要</h3>
+              <p className="co-overview">{c.overview}</p>
+            </section>
+          )}
           <section className="panel">
             <h3>提供サービス・事業</h3>
             {services.length ? (
@@ -112,7 +119,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               {c.foundedYear && (<><dt>創業</dt><dd>{c.foundedYear}年</dd></>)}
               {c.prefecture && (<><dt>所在地</dt><dd>{c.prefecture}</dd></>)}
               {c.address && (<><dt>本社住所</dt><dd>{c.address}</dd></>)}
-              {c.employees && (<><dt>従業員数</dt><dd>{c.employees}人{c.source.includes('2021-09') && <span className="small muted">（2021年時点）</span>}</dd></>)}
+              {c.employees && (<><dt>従業員数</dt><dd>{c.employeesAsOf ? c.employees : `${c.employees}人`}{empAsOf && <span className="small muted">（{empAsOf}時点）</span>}</dd></>)}
+              {c.totalFunding && (<><dt>資金調達</dt><dd>{c.totalFunding}</dd></>)}
               {c.founders.length > 0 && (<><dt>創業者</dt><dd>{c.founders.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.representatives.length > 0 && (<><dt>代表者</dt><dd>{c.representatives.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.origin && (<><dt>成り立ち</dt><dd>{c.origin}</dd></>)}

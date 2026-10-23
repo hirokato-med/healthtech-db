@@ -590,3 +590,4 @@ h1, h2, h3, .sec-title h2, .section-head h2, .page-head h1, .box > h2, .panel h3
 .co .av.new { background: var(--teal); }
 .co .mt.hl { color: var(--ink); font-weight: 600; line-height: 1.55; display: -webkit-box !important; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; border-top: 1px dashed var(--line); padding-top: 6px; }
 .card .badge.new { width: fit-content; align-self: flex-start; justify-self: start; margin: 4px 0 0; }
+.co-overview { margin: 0; font-size: 15px; line-height: 1.95; color: var(--ink); }
