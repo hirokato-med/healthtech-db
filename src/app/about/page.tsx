@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { CORRECTION_FORM_URL, NEWSLETTER_URL, X_URL } from '@/components/Footer';
+import { CORRECTION_FORM_URL, NEWSLETTER_URL, X_HANDLE, X_URL } from '@/components/Footer';
 
 export const metadata: Metadata = { title: 'Healthtech DB について', description: 'Healthtech DB の運営・沿革・データの出典。' };
 
@@ -40,7 +40,7 @@ export default function AboutPage() {
         <h2>情報の修正・掲載依頼</h2>
         <p>
           掲載情報の誤り、更新、新規掲載のご希望は<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正依頼フォーム</a>からお送りください。
-          最新情報は<a href={X_URL} target="_blank" rel="noreferrer">X（@db_healthtech）</a>と<a href={NEWSLETTER_URL} target="_blank" rel="noreferrer">メルマガ</a>でお知らせします。
+          最新情報は{X_URL && <><a href={X_URL} target="_blank" rel="noreferrer">X（@{X_HANDLE}）</a>と</>}<a href={NEWSLETTER_URL} target="_blank" rel="noreferrer">メルマガ</a>でお知らせします。
         </p>
         <p>
           <Link href="/articles/healthtech-db-relaunch/">復刻版についての詳しいお知らせ</Link>

@@ -3,7 +3,9 @@ import { SITE_NAME, SITE_NAME_EN } from '@/lib/site';
 
 export const CORRECTION_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfOdqB0zZagrPQh2DqSsLvp2R_rLhudYyrRzungnipMVjQG7A/viewform';
 export const NEWSLETTER_URL = 'https://hiroakikato.substack.com/';
-export const X_URL = 'https://twitter.com/db_healthtech';
+/** 公式Xアカウント。旧アカウント（@db_healthtech）とは別に作り直すまで空にしておく（空ならリンクを出さない） */
+export const X_URL = '';
+export const X_HANDLE = '';
 
 export function Footer() {
   return (
@@ -36,7 +38,7 @@ export function Footer() {
               <li><a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正の依頼</a></li>
               <li><Link href="/terms/">利用規約</Link></li>
               <li><Link href="/privacy/">プライバシーポリシー</Link></li>
-              <li><a href={X_URL} target="_blank" rel="noreferrer">X（@db_healthtech）</a></li>
+              {X_URL && <li><a href={X_URL} target="_blank" rel="noreferrer">X（@{X_HANDLE}）</a></li>}
             </ul>
           </div>
         </div>
