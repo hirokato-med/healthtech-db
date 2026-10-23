@@ -279,16 +279,15 @@
     "formerNames": [
       "ZEST"
     ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が伊藤由起子から一色淳之介に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://zest.jp/corporate/aboutus"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "伊藤由起子"
+      }
+    ]
   },
   {
     "id": "2010001023468",
@@ -319,16 +318,15 @@
     "formerNames": [
       "T-PEC"
     ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が砂原健市から鼠家和彦に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.t-pec.co.jp/about/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "砂原健市"
+      }
+    ]
   },
   {
     "id": "5011001044633",
@@ -434,7 +432,12 @@
       "https://www.jpx.co.jp/news/1023/20240304-11.html",
       "https://www.cmicgroup.com/corporate/profile/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "中村和男"
+      }
+    ]
   },
   {
     "id": "8010401059998",
@@ -516,9 +519,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401088511",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "ドクターネット"
-    ],
     "history": [
       {
         "date": "",
@@ -554,7 +554,9 @@
     "parentCompany": "",
     "relatedCompanies": [
       "（株）エムティーアイ・コンサルティング",
-      "MTI TECHNOLOGY Co.",
+      "MTI",
+      "TECHNOLOGY",
+      "Co.",
       "Ltd.",
       "（株）メディアーノ",
       "（株）ビデオマーケット",
@@ -597,9 +599,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001045281",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "ベネフィットワン"
-    ],
     "history": [
       {
         "date": "2024-03",
@@ -611,7 +610,12 @@
       "https://www.nihon-ma.co.jp/news/20240522_8750-18/",
       "https://corp.benefit-one.co.jp/company/outline/about/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "白石徳生"
+      }
+    ]
   },
   {
     "id": "4010001075490",
@@ -650,7 +654,12 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401191983",
       "https://carenet.co.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "大野元泰"
+      }
+    ]
   },
   {
     "id": "2490001009840",
@@ -801,7 +810,8 @@
       "株式会社インフロント",
       "エダンズ株式会社",
       "エムスリーエデュケーション株式会社",
-      "エムスリーキャリア株式会社　など"
+      "エムスリーキャリア株式会社",
+      "など"
     ],
     "corporateNumber": "1010401063016",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401063016",
@@ -931,17 +941,16 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010401081856",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が矢島義章から一木哲郎に交代（公式サイトの会社概要で確認、交代時期は未確認） / 2024年3月 株式会社EH（旧アースヘルスケア）とメディカルパークを吸収合併"
-      }
-    ],
     "sources": [
       "https://www.empower-hc.com/company",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010401081856"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "矢島義章"
+      }
+    ]
   },
   {
     "id": "4240001015754",
@@ -1050,19 +1059,15 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "origin": "九電工と九州大学の合同設立",
-    "formerNames": [
-      "ネット・メディカルセンター"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が石丸米隆から佐藤正に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.nmed-center.co.jp/index-51.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "石丸米隆"
+      }
+    ]
   },
   {
     "id": "8120001099797",
@@ -1136,19 +1141,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001072836",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "アルム"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が坂野哲平から大谷駿明に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.allm.net/company/overview/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "坂野哲平"
+      }
+    ]
   },
   {
     "id": "1011001036766",
@@ -1177,19 +1178,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001036766",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "メディカルネット"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が早川亮から平川大に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.medical-net.com/about/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "早川亮"
+      }
+    ]
   },
   {
     "id": "7011001036950",
@@ -1213,8 +1210,15 @@
     "exit": "上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "株式会社バリューネットワークス\n（福利厚生代行サービスの提供）\n株式会社バリューヘルスケア\n（ヘルスケア関連サービスの提供）\n株式会社バリューＨＲベンチャーズ\n（ベンチャー企業への投資及び事業開発支援",
-      "起業支援等）\n株式会社健診予約.com\n（健康診断予約サービスの提供）"
+      "株式会社バリューネットワークス",
+      "（福利厚生代行サービスの提供）",
+      "株式会社バリューヘルスケア",
+      "（ヘルスケア関連サービスの提供）",
+      "株式会社バリューＨＲベンチャーズ",
+      "（ベンチャー企業への投資及び事業開発支援",
+      "起業支援等）",
+      "株式会社健診予約.com",
+      "（健康診断予約サービスの提供）"
     ],
     "corporateNumber": "7011001036950",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001036950",
@@ -1297,15 +1301,22 @@
     "exit": "上場",
     "parentCompany": "オムロン",
     "relatedCompanies": [
-      "株式会社ドクターネット\n株式会社ユニケソフトウェアリサーチ\nメディカルデータベース株式会社\nミーカンパニー株式会社\nエヌエスパートナーズ株式会社\n株式会社flixy\n株式会社JMDCキャピタル\n株式会社ハビタスケア\n株式会社医薬情報ネット\nデータインデックス株式会社\n株式会社SEEDSUPPLY"
+      "株式会社ドクターネット",
+      "株式会社ユニケソフトウェアリサーチ",
+      "メディカルデータベース株式会社",
+      "ミーカンパニー株式会社",
+      "エヌエスパートナーズ株式会社",
+      "株式会社flixy",
+      "株式会社JMDCキャピタル",
+      "株式会社ハビタスケア",
+      "株式会社医薬情報ネット",
+      "データインデックス株式会社",
+      "株式会社SEEDSUPPLY"
     ],
     "corporateNumber": "6010403010531",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010403010531",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "JMDC"
-    ],
     "listedMarket": "東証プライム",
     "history": [
       {
@@ -1318,7 +1329,12 @@
       "https://www.nihon-ma.co.jp/news/20230908_6645-6/",
       "https://www.jmdc.co.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "松島陽介"
+      }
+    ]
   },
   {
     "id": "4013201016660",
@@ -1346,19 +1362,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4013201016660",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "ソフィアメディ"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が濵口慶太から伊藤綾に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.sophiamedi.co.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "濵口慶太"
+      }
+    ]
   },
   {
     "id": "4010401078275",
@@ -1386,9 +1398,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401078275",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "アイチケット"
-    ],
     "history": [
       {
         "date": "2023-04",
@@ -1496,19 +1505,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001087640",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "メディカル・データ・ビジョン"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が岩崎博之から中村正樹に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.mdv.co.jp/company/outline/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "岩崎博之"
+      }
+    ]
   },
   {
     "id": "2010001134117",
@@ -1694,7 +1699,11 @@
     "exit": "上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "株式会社Mediplat\n株式会社フィッツプラス\n株式会社コルボ\nメドピアキャリアエージェント株式会社\nメドクロス株式会社"
+      "株式会社Mediplat",
+      "株式会社フィッツプラス",
+      "株式会社コルボ",
+      "メドピアキャリアエージェント株式会社",
+      "メドクロス株式会社"
     ],
     "corporateNumber": "8011001073431",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001073431",
@@ -1740,7 +1749,12 @@
     "sources": [
       "https://www.jpx.co.jp/listing/stocks/new/jr4eth00000012hh-att/10Kusurinomadoguchi-Outline.pdf"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "田中伸明"
+      }
+    ]
   },
   {
     "id": "8050001016537",
@@ -1795,9 +1809,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011101055432",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "eヘルスケア"
-    ],
     "history": [
       {
         "date": "",
@@ -1835,19 +1846,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011001044411",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "グッドサイクルシステム"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が遠藤朝朗から西村真樹に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.goodcycle.net/news-list/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "遠藤朝朗"
+      }
+    ]
   },
   {
     "id": "6120001113618",
@@ -1930,9 +1937,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4013301027145",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "3Hメディソリューション"
-    ],
     "history": [
       {
         "date": "",
@@ -1944,7 +1948,12 @@
       "https://3h-ms.co.jp/company",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4013301027145"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "安藤昌"
+      }
+    ]
   },
   {
     "id": "6011001046711",
@@ -1972,9 +1981,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001046711",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "GENOVA"
-    ],
     "listedMarket": "東証グロース",
     "history": [
       {
@@ -2022,7 +2028,12 @@
     "sources": [
       "https://gchdgroup.com/news/569/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "西坂勇人"
+      }
+    ]
   },
   {
     "id": "1010901019228",
@@ -2050,9 +2061,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010901019228",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "Qlife"
-    ],
     "history": [
       {
         "date": "",
@@ -2063,7 +2071,12 @@
       "https://www.qlife.co.jp/company",
       "https://corporate.m3.com/corporate"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "山内善行"
+      }
+    ]
   },
   {
     "id": "2011101054824",
@@ -2143,9 +2156,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001070685",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "フィッツプラス"
-    ],
     "history": [
       {
         "date": "2025-04",
@@ -2183,9 +2193,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010402032532",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "メディウィル"
-    ],
     "history": [
       {
         "date": "",
@@ -2481,16 +2488,15 @@
     "formerNames": [
       "mediweb"
     ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が楊浩勇から堤幸治に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://mediweb.jp/company"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "楊浩勇"
+      }
+    ]
   },
   {
     "id": "1010001112445",
@@ -2545,9 +2551,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001062543",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "キャンサースキャン"
-    ],
     "history": [
       {
         "date": "",
@@ -2612,19 +2615,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401078983",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "MEJ"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が古賀徹から大槻秀光に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://mejy.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "古賀徹"
+      }
+    ]
   },
   {
     "id": "9011001073018",
@@ -2706,9 +2705,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011001062719",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "クラシコ"
-    ],
     "listedMarket": "東証グロース",
     "history": [
       {
@@ -2775,9 +2771,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011101054486",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "リジョブ"
-    ],
     "history": [
       {
         "date": "",
@@ -2787,7 +2780,12 @@
     "sources": [
       "https://rejob.co.jp/company"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "鈴木一平"
+      }
+    ]
   },
   {
     "id": "5180001070417",
@@ -2929,19 +2927,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010001130132",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "C2"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が安田昭夫から本田信司に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.c2inc.co.jp/co.php"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "安田昭夫"
+      }
+    ]
   },
   {
     "id": "6011001066651",
@@ -3021,9 +3015,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101038270",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "シェアリング・ビューティー"
-    ],
     "history": [
       {
         "date": "",
@@ -3102,9 +3093,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401094225",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "iCare"
-    ],
     "history": [
       {
         "date": "",
@@ -3171,9 +3159,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9040001064791",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "aba"
-    ],
     "history": [
       {
         "date": "",
@@ -3240,9 +3225,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010701026514",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "メンタルヘルステクノロジーズ"
-    ],
     "listedMarket": "東証グロース",
     "history": [
       {
@@ -3314,16 +3296,15 @@
     "formerNames": [
       "ウェルネルデータ"
     ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が星野栄輔から伊藤哲弥に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://wellnessdata.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "星野栄輔"
+      }
+    ]
   },
   {
     "id": "8010401119918",
@@ -3472,9 +3453,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001097367",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "untickle"
-    ],
     "history": [
       {
         "date": "2023-01",
@@ -3750,7 +3728,8 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "株式会社FiNC Technologys"
+      "株式会社FiNC",
+      "Technologys"
     ],
     "corporateNumber": "8010401099235",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401099235",
@@ -3853,9 +3832,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8013301033098",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "OKAN"
-    ],
     "history": [
       {
         "date": "",
@@ -3920,9 +3896,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011101068278",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "Recovery International"
-    ],
     "listedMarket": "東証グロース",
     "history": [
       {
@@ -4001,7 +3974,12 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011501017654",
       "https://coffeedoctors.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "照山裕爾"
+      }
+    ]
   },
   {
     "id": "8021001047285",
@@ -4029,9 +4007,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8021001047285",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "ドリコス"
-    ],
     "history": [
       {
         "date": "",
@@ -4069,9 +4044,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011101068461",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "ミナカラ"
-    ],
     "history": [
       {
         "date": "",
@@ -4244,9 +4216,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101068199",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "クリプラ"
-    ],
     "history": [
       {
         "date": "",
@@ -4320,15 +4289,14 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "Dr.Joy Viet Nam"
+      "Dr.Joy",
+      "Viet",
+      "Nam"
     ],
     "corporateNumber": "4010401108924",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401108924",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "Dr.Joy"
-    ],
     "history": [
       {
         "date": "",
@@ -4389,7 +4357,8 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "株式会社コジカジ\n株式会社ノーススター"
+      "株式会社コジカジ",
+      "株式会社ノーススター"
     ],
     "corporateNumber": "5010001151332",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001151332",
@@ -4503,9 +4472,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7120901032172",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "クオンタムバイオシステムズ"
-    ],
     "history": [
       {
         "date": "2022-04",
@@ -4707,16 +4673,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3020001105859",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が髙𣘺健一から髙城敏和に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://akarie.co.jp/company"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "髙𣘺健一"
+      }
+    ]
   },
   {
     "id": "5011101071602",
@@ -4744,9 +4709,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101071602",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "メディカルデータカード"
-    ],
     "history": [
       {
         "date": "",
@@ -4757,7 +4719,12 @@
       "https://www.medaca.co.jp/company",
       "https://welby.jp/company/about/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "鈴木康之"
+      }
+    ]
   },
   {
     "id": "7010901034790",
@@ -4845,16 +4812,15 @@
     "formerNames": [
       "LPIXEL(エルピクセル)"
     ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が島原佑基\n鎌田富久から鎌田富久に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://lpixel.net/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "島原佑基"
+      }
+    ]
   },
   {
     "id": "8011001100136",
@@ -4948,7 +4914,10 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "米国子会社: CureApp North America",
+      "米国子会社:",
+      "CureApp",
+      "North",
+      "America",
       "Inc."
     ],
     "corporateNumber": "2011101070788",
@@ -4982,9 +4951,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010003022232",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "サスメド"
-    ],
     "listedMarket": "東証グロース",
     "history": [
       {
@@ -5049,17 +5015,18 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "米国子会社: Preferred Networks America",
+      "米国子会社:",
+      "Preferred",
+      "Networks",
+      "America",
       "Inc.",
-      "関連: PFDeNA"
+      "関連:",
+      "PFDeNA"
     ],
     "corporateNumber": "1010001159494",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001159494",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "Preferred Networks"
-    ],
     "history": [
       {
         "date": "",
@@ -5096,9 +5063,6 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "origin": "DeNA子会社",
-    "formerNames": [
-      "DeNAライフサイエンス"
-    ],
     "history": [
       {
         "date": "2024-12",
@@ -5188,7 +5152,9 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "Hacarus Philippines Inc."
+      "Hacarus",
+      "Philippines",
+      "Inc."
     ],
     "corporateNumber": "4130003003669",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130003003669",
@@ -5260,9 +5226,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011801029058",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "サイマックス"
-    ],
     "history": [
       {
         "date": "2025-04",
@@ -5294,9 +5257,61 @@
     "exit": "未上場",
     "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [
-      "M3 USA Corporation(アメリカ合衆国)\nM3 Global Research(英国)\nDoctors.net.uk Limited(英国)\nRotamaster (英国)\nVIDAL France S.A. (フランス)\nMedizinische Medien Informations GmbH (ドイツ)\nVIDAL Vademecum Spain",
-      "S.A. (スペイン)\nMedi C&C Co.",
-      "Ltd.(韓国)\n金葉天成（北京）科技有限公司(中国)\nM3 India (インド)\nアイチケット株式会社(日本)\nメビックス株式会社(日本)\nクリニカルポーター株式会社(日本)\nエムスリーキャリア株式会社（日本）\nリノ・メディカル株式会社（日本）\n株式会社エムプラス（日本）\n株式会社イスモ（日本）\n株式会社MICメディカル（日本）\n株式会社シィ・エム・エス（日本）\n株式会社メディサイエンスプラニング（日本）\nエムスリードクターサポート株式会社（日本）\nREXA株式会社(日本)\nエムスリーマーケティング株式会社（日本）\nノイエス株式会社（日本）\n株式会社 ヌーベルプラス（日本）\nPOCクリニカルリサーチ株式会社（日本）\n株式会社QLife（日本）\n株式会社テコム（日本）\n株式会社インフロント（日本）\n株式会社インサイト・アイ（日本）\nコスモテック株式会社（日本）\n株式会社ジャメックス（日本） \nソフィアメディ株式会社（日本） \n株式会社ワイズ（日本） \n株式会社アルメック（日本） \nエムスリークリニックエステート株式会社 （日本）"
+      "M3",
+      "USA",
+      "Corporation(アメリカ合衆国)",
+      "Global",
+      "Research(英国)",
+      "Doctors.net.uk",
+      "Limited(英国)",
+      "Rotamaster",
+      "(英国)",
+      "VIDAL",
+      "France",
+      "S.A.",
+      "(フランス)",
+      "Medizinische",
+      "Medien",
+      "Informations",
+      "GmbH",
+      "(ドイツ)",
+      "Vademecum",
+      "Spain",
+      "(スペイン)",
+      "Medi",
+      "C&C",
+      "Co.",
+      "Ltd.(韓国)",
+      "金葉天成（北京）科技有限公司(中国)",
+      "India",
+      "(インド)",
+      "アイチケット株式会社(日本)",
+      "メビックス株式会社(日本)",
+      "クリニカルポーター株式会社(日本)",
+      "エムスリーキャリア株式会社（日本）",
+      "リノ・メディカル株式会社（日本）",
+      "株式会社エムプラス（日本）",
+      "株式会社イスモ（日本）",
+      "株式会社MICメディカル（日本）",
+      "株式会社シィ・エム・エス（日本）",
+      "株式会社メディサイエンスプラニング（日本）",
+      "エムスリードクターサポート株式会社（日本）",
+      "REXA株式会社(日本)",
+      "エムスリーマーケティング株式会社（日本）",
+      "ノイエス株式会社（日本）",
+      "株式会社ヌーベルプラス（日本）",
+      "POCクリニカルリサーチ株式会社（日本）",
+      "株式会社QLife（日本）",
+      "株式会社テコム（日本）",
+      "株式会社インフロント（日本）",
+      "株式会社インサイト・アイ（日本）",
+      "コスモテック株式会社（日本）",
+      "株式会社ジャメックス（日本）",
+      "ソフィアメディ株式会社（日本）",
+      "株式会社ワイズ（日本）",
+      "株式会社アルメック（日本）",
+      "エムスリークリニックエステート株式会社",
+      "（日本）"
     ],
     "corporateNumber": "1010401110577",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401110577",
@@ -5480,9 +5495,6 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "origin": "ハルメク子会社(ノーリツ鋼機子会社)",
-    "formerNames": [
-      "ハルメクベンチャーズ"
-    ],
     "history": [
       {
         "date": "2023-08",
@@ -5685,7 +5697,10 @@
     "parentCompany": "",
     "relatedCompanies": [
       "メタジェンセラピューティクス株式会社",
-      "Metagen Singapore Pte. Ltd."
+      "Metagen",
+      "Singapore",
+      "Pte.",
+      "Ltd."
     ],
     "corporateNumber": "7390001014012",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7390001014012",
@@ -5760,16 +5775,15 @@
     "formerNames": [
       "Rhelixa(レリクサ)"
     ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が松野智行から仲木竜に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.rhelixa.com/about-us/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "松野智行"
+      }
+    ]
   },
   {
     "id": "9140001097088",
@@ -5865,19 +5879,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401119795",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "エムスリーデジカル"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が尾崎郁雄から小泊瑠美子に交代（公式サイトの会社概要で確認、交代時期は未確認） / 公式サイトは digikar.m3.com（旧 digikar.co.jp からリダイレクト）"
-      }
-    ],
     "sources": [
       "https://digikar.m3.com/company"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "尾崎郁雄"
+      }
+    ]
   },
   {
     "id": "3040001093012",
@@ -5905,19 +5915,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3040001093012",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "3sunny"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が志水文人から加藤大典に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.3sunny.net/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "志水文人"
+      }
+    ]
   },
   {
     "id": "5011001136208",
@@ -6137,16 +6143,15 @@
     "formerNames": [
       "Melody International"
     ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が尾形優子から松原一郎に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://melody.international/about/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "尾形優子"
+      }
+    ]
   },
   {
     "id": "6010401120729",
@@ -6253,9 +6258,6 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "origin": "DeNAと住友商事のJV",
-    "formerNames": [
-      "DeSCヘルスケア"
-    ],
     "history": [
       {
         "date": "2022-06",
@@ -6371,9 +6373,6 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "origin": "メドピアとスギ薬局のJV",
-    "formerNames": [
-      "Mediplat"
-    ],
     "history": [
       {
         "date": "2025-04",
@@ -6493,9 +6492,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401121651",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "アドメディカ"
-    ],
     "history": [
       {
         "date": "2026-06",
@@ -6921,16 +6917,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401125232",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が榎本純也から長谷英二に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://www.appdate.co.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "榎本純也"
+      }
+    ]
   },
   {
     "id": "4011001111351",
@@ -7068,15 +7063,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001179195",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "Holoeyes"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が谷口直嗣・杉本真樹から杉本真樹に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://holoeyes.jp/company/overview/"
     ],
@@ -7427,7 +7413,12 @@
       "https://thebridge.jp/2021/11/exawizards-files-for-ipo",
       "https://exawizards.com/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "石山洸"
+      }
+    ]
   },
   {
     "id": "6010901037910",
@@ -7539,9 +7530,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401128239",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "株式会社キャピタルメディカベンチャーズ"
-    ],
     "history": [
       {
         "date": "",
@@ -7674,9 +7662,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010601050442",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "ヘルスケアマーケティング"
-    ],
     "history": [
       {
         "date": "2020-01",
@@ -8772,16 +8757,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101083705",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が西村宇貴から幅野莞佑・伊東尚文に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://metrica.me/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "西村宇貴"
+      }
+    ]
   },
   {
     "id": "3011001122911",
@@ -8835,16 +8819,15 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "origin": "ソフトバンクと平安のJV",
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が大石怜史から鴻池大介に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://healthcare-tech.co.jp/about"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "大石怜史"
+      }
+    ]
   },
   {
     "id": "7010601052795",
@@ -9001,16 +8984,14 @@
     "exit": "バイアウト",
     "parentCompany": "PSP株式会社",
     "relatedCompanies": [
-      "三井物産株式会社　33.34％"
+      "三井物産株式会社",
+      "33.34％"
     ],
     "corporateNumber": "3010401136240",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010401136240",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "origin": "テクマトリックと三井物産のJV",
-    "formerNames": [
-      "NOBORI"
-    ],
     "history": [
       {
         "date": "2022-04",
@@ -9120,16 +9101,15 @@
     "formerNames": [
       "Link Well"
     ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が金子和真から山本遼祐に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://linc-well.com/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "金子和真"
+      }
+    ]
   },
   {
     "id": "9010005028548",
@@ -9157,16 +9137,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010005028548",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が谷田部淳一から石田和也に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://telemedease.org/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "谷田部淳一"
+      }
+    ]
   },
   {
     "id": "7010001191789",
@@ -9222,19 +9201,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001121918",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "トリコ"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が花房香那から加藤敏美に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://tricot-inc.com/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "花房香那"
+      }
+    ]
   },
   {
     "id": "6011001120152",
@@ -9404,9 +9379,6 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010701038372",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "Oh my teeth"
-    ],
     "history": [
       {
         "date": "2025-01",
@@ -9655,19 +9627,15 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7290001086862",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "エンパワテック ソサエティー株式会社"
-    ],
-    "history": [
-      {
-        "date": "",
-        "text": "代表者が廣重元子から廣重尚志に交代（公式サイトの会社概要で確認、交代時期は未確認）"
-      }
-    ],
     "sources": [
       "https://empowertec.co.jp/about/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "廣重元子"
+      }
+    ]
   },
   {
     "id": "8011101086498",
@@ -9694,9 +9662,6 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "origin": "エムスリーとLINEのJV",
-    "formerNames": [
-      "LINEヘルスケア"
-    ],
     "history": [
       {
         "date": "2026-09",
@@ -10422,7 +10387,12 @@
       "https://rwdata.co.jp/company/",
       "https://www.jmdc.co.jp/profile/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerRepresentatives": [
+      {
+        "name": "尾板靖子"
+      }
+    ]
   },
   {
     "id": "2011201020908",
@@ -10572,9 +10542,6 @@
     "corporateNumberUrl": "https://www.houjin.info/detail/8010001145166/",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "PST 株式会社"
-    ],
     "history": [
       {
         "date": "2022-04",

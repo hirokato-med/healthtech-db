@@ -30,6 +30,8 @@ export type Company = {
   /** 合弁・子会社として生まれた会社の成り立ち（例: DeNAと住友商事のJV） */
   origin?: string;
   formerNames?: string[];
+  /** 交代した前の代表者（until は交代した年月 YYYY-MM／YYYY。不明なら空） */
+  formerRepresentatives?: { name: string; until?: string; note?: string }[];
   products?: string[];
   /** 事業概要（150〜250字）。description は一覧カード用の短い説明 */
   overview?: string;

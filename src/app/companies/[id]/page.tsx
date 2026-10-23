@@ -25,6 +25,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 6);
   const parent = c.parentCompany ? findCompanyByName(c.parentCompany) : undefined;
   const empAsOf = c.employeesAsOf ? c.employeesAsOf.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`) : c.source.includes('2021-09') ? '2021年' : '';
+  const ym = (s: string) => s.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年');
+  const personLink = (n: string) => { const p = people.find((x) => x.name === n); return p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n; };
   const articles = getArticles().filter((a) => a.companies?.some((n) => findCompanyByName(n)?.id === c.id));
 
   return (
@@ -122,7 +124,16 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               {c.employees && (<><dt>従業員数</dt><dd>{c.employeesAsOf ? c.employees : `${c.employees}人`}{empAsOf && <span className="small muted">（{empAsOf}時点）</span>}</dd></>)}
               {c.totalFunding && (<><dt>資金調達</dt><dd>{c.totalFunding}</dd></>)}
               {c.founders.length > 0 && (<><dt>創業者</dt><dd>{c.founders.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
-              {c.representatives.length > 0 && (<><dt>代表者</dt><dd>{c.representatives.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
+              {c.representatives.length > 0 && (<><dt>代表者</dt><dd>{c.representatives.map((n, i) => <span key={n}>{i > 0 && '、'}{personLink(n)}</span>)}
+                {c.formerRepresentatives?.length ? (
+                  <div className="rep-line" aria-label="歴代の代表者">
+                    {c.formerRepresentatives.map((f) => (
+                      <span key={f.name}>{personLink(f.name)}{f.until && <small>（〜{ym(f.until)}）</small>}<i aria-hidden="true">→</i></span>
+                    ))}
+                    <span className="now">{c.representatives.map((n, i) => <span key={n}>{i > 0 && '・'}{n}</span>)}<small>（現）</small></span>
+                  </div>
+                ) : null}
+              </dd></>)}
               {c.origin && (<><dt>成り立ち</dt><dd>{c.origin}</dd></>)}
               {c.parentCompany && (<><dt>親会社</dt><dd>{parent ? <Link href={`/companies/${parent.id}/`}>{c.parentCompany}</Link> : c.parentCompany}</dd></>)}
               {c.relatedCompanies.length > 0 && (<><dt>関連会社</dt><dd>{c.relatedCompanies.map((n, i) => { const r = findCompanyByName(n); return (<span key={n}>{i > 0 && '、'}{r && r.id !== c.id ? <Link href={`/companies/${r.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}

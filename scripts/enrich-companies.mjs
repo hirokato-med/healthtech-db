@@ -8,7 +8,8 @@
  *   totalFunding, foundedYear, address, founders, representatives, hp, status, sources }
  * - id で既存企業を探す。社名は変えない（社名変更は merge-companies.mjs の --updates で行う）。
  * - 入っている項目だけ上書きする。空の項目で既存の値を消さない。
- * - 代表者・創業者が変わったら人物DBに足し、交代した前の代表者からは「代表者」を外す。
+ * - 代表者が変わったら、前の代表者を formerRepresentatives に残し、人物DBでは「元代表者」にする。
+ *   交代時期は representativesChangedAt（YYYY-MM）、補足は representativeChangeNote。
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -41,6 +42,12 @@ const addRole = (name, c, title) => {
   if (!r) p.roles.push({ companyId: c.id, companyName: c.name, title });
   else if (!r.title.includes(title)) r.title = r.title === '創業者' ? '創業者・代表者' : `${r.title}・${title}`;
 };
+// 代表者が交代したら、前の代表者を古い順に formerRepresentatives へ足す（企業ページで「A → B → 現代表」と並べる）
+function recordRepChange(c, gone, until, note) {
+  const prev = c.formerRepresentatives ?? [];
+  for (const name of gone) if (!prev.some((p) => p.name === name)) prev.push({ name, ...(until ? { until } : {}), ...(note ? { note } : {}) });
+  c.formerRepresentatives = prev;
+}
 const str = (v) => (typeof v === 'string' ? v.trim() : '');
 const list = (v) => (Array.isArray(v) ? v.map(str).filter(Boolean) : []);
 
@@ -61,7 +68,13 @@ for (const f of files) {
     if (Number.isInteger(x.foundedYear)) c.foundedYear = x.foundedYear; // 公式サイトで確かめた設立年を優先
     if (list(x.products).length) c.products = [...new Set(list(x.products))];
     if (list(x.founders).length && !c.founders.length) { c.founders = list(x.founders); c.founders.forEach((n) => addRole(n, c, '創業者')); }
-    if (list(x.representatives).length) { c.representatives = list(x.representatives); c.representatives.forEach((n) => addRole(n, c, '代表者')); }
+    if (list(x.representatives).length) {
+      const next = list(x.representatives);
+      const gone = c.representatives.filter((n) => !next.includes(n));
+      if (gone.length && next.some((n) => !c.representatives.includes(n))) recordRepChange(c, gone, str(x.representativesChangedAt), str(x.representativeChangeNote));
+      c.representatives = next;
+      c.representatives.forEach((n) => addRole(n, c, '代表者'));
+    }
     c.sources = [...new Set([...(c.sources ?? []), ...list(x.sources)])];
     c.updatedAt = asOf;
     done++;
@@ -75,9 +88,16 @@ for (const p of people) {
     if (!c) return [r];
     const f = c.founders.includes(p.name);
     const rep = c.representatives.includes(p.name);
-    const title = f && rep ? '創業者・代表者' : f ? '創業者' : rep ? '代表者' : '';
+    const former = c.formerRepresentatives?.some((x) => x.name === p.name);
+    const title = f && rep ? '創業者・代表者' : f && former ? '創業者・元代表者' : f ? '創業者' : rep ? '代表者' : former ? '元代表者' : '';
     return title ? [{ ...r, companyName: c.name, title }] : [];
   });
+}
+// 前代表者が人物DBに居なければ足す
+for (const c of companies) for (const f of c.formerRepresentatives ?? []) {
+  let p = people.find((x) => x.name === f.name);
+  if (!p) { p = { id: personId(f.name), name: f.name, roles: [] }; people.push(p); }
+  if (!p.roles.some((r) => r.companyId === c.id)) p.roles.push({ companyId: c.id, companyName: c.name, title: '元代表者' });
 }
 const kept = people.filter((p) => p.roles.length);
 

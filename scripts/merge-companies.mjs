@@ -71,7 +71,8 @@ for (const f of updates) {
     const c = companies.find((x) => x.id === u.id);
     if (!c) { skipped.push(`更新対象なし: ${u.id} ${u.name}`); continue; }
     const ch = u.changes ?? {};
-    if (ch.renamedFrom || (u.name && u.name !== c.name)) {
+    // 「JMDC」→「株式会社JMDC」のような法人格の付け外しは改名として扱わない
+    if (ch.renamedFrom || (u.name && norm(u.name) !== norm(c.name))) {
       c.formerNames = [...new Set([...(c.formerNames ?? []), ch.renamedFrom || c.name])];
       byName.delete(norm(c.name));
       c.name = u.name;
