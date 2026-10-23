@@ -175,7 +175,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                   </ul>
                 </>
               )}
-              <p className="muted small" style={{ marginTop: 8 }}><Link href="/earnings/" className="arrow">上場ヘルスケア企業の決算一覧</Link></p>
+              <p className="muted small" style={{ marginTop: 8 }}><Link href={`/earnings/${c.id}/`} className="arrow">{c.name}の決算ページ（推移のグラフ・決算資料）</Link>　<Link href="/earnings/" className="arrow">上場ヘルスケア企業の決算一覧</Link></p>
             </section>
           )}
 

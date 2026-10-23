@@ -54,7 +54,7 @@ export default function EarningsPage() {
               const og = r.current?.operatingIncome, op = r.prior?.operatingIncome;
               return (
                 <article key={id + r.date} className="earn-card">
-                  <div className="h"><Link href={`/companies/${id}/`}>{name.replace(/^株式会社|株式会社$/g, '')}</Link><span>{r.date.replace(/-/g, '/')}</span></div>
+                  <div className="h"><Link href={`/earnings/${id}/`}>{name.replace(/^株式会社|株式会社$/g, '')}</Link><span>{r.date.replace(/-/g, '/')}</span></div>
                   <div className="p">{r.label}</div>
                   <dl>
                     <div><dt>売上高</dt><dd>{money(r.current?.revenue)}<small className={g == null ? '' : g >= 0 ? 'up' : 'down'}>{pct(g)}</small></dd></div>

@@ -838,3 +838,20 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 .hmk-biz small { display: inline !important; margin-left: 6px; }
 .hmk-fund { font-weight: 500; font-size: 12.5px; }
 @media (max-width: 900px) { .hmk { grid-template-columns: 1fr; } }
+/* 個社の決算ページ */
+.earn-kpi { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0 0 18px; }
+.earn-kpi > div { padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+.earn-kpi span { display: block; font-size: 12px; color: var(--muted); font-weight: 700; }
+.earn-kpi b { display: block; font-size: 24px; font-weight: 900; margin: 4px 0 2px; font-variant-numeric: tabular-nums; }
+.earn-kpi b.down { color: #c0392b; }
+.earn-kpi small { font-size: 12px; color: var(--muted); }
+.earn-charts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.ebars { margin: 0; padding: 14px 16px 6px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+.ebars figcaption { font-size: 13px; font-weight: 900; margin-bottom: 4px; }
+.ebars svg { display: block; width: 100%; height: auto; }
+.ebars-zero { stroke: var(--line-2); stroke-width: 1; }
+.ebars-val { font-size: 11px; fill: var(--muted); font-variant-numeric: tabular-nums; }
+.ebars-val.last { fill: var(--ink); font-weight: 800; }
+.ebars-x { font-size: 11px; fill: var(--muted); }
+.ebars-na { font-size: 12px; fill: var(--muted); }
+@media (max-width: 860px) { .earn-kpi { grid-template-columns: 1fr 1fr; } .earn-charts { grid-template-columns: 1fr; } }

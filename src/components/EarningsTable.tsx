@@ -71,7 +71,7 @@ export function EarningsTable({ rows, catName }: { rows: EarningsRow[]; catName:
               return (
                 <tr key={r.id}>
                   <td className="ecomp">
-                    <Link href={`/companies/${r.id}/`}>{r.name.replace(/^株式会社|株式会社$/g, '')}</Link>
+                    <Link href={`/earnings/${r.id}/`}>{r.name.replace(/^株式会社|株式会社$/g, '')}</Link>
                     <small>{r.code}・{r.market.replace('東証', '')}{catName[r.category] ? `・${catName[r.category]}` : ''}</small>
                   </td>
                   {r.latest ? (
