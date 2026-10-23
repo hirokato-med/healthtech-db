@@ -121,7 +121,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               <h3>近況</h3>
               <ul className="co-history">
                 {[...c.history].reverse().map((h) => (
-                  <li key={h.text}><span>{h.date ? h.date.replace(/^(\d{4})-(\d{2}).*/, (_, y, m) => `${y}年${Number(m)}月`) : ''}</span>{h.text}</li>
+                  <li key={h.text}><span>{h.date ? h.date.replace(/^(\d{4})-(\d{2}).*/, (_, y, m) => `${y}年${Number(m)}月`) : ''}</span>{h.text}{h.source && <a href={h.source} target="_blank" rel="noreferrer" className="h-src">出典</a>}</li>
                 ))}
               </ul>
             </section>

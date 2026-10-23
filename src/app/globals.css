@@ -715,3 +715,4 @@ a .pm-box:hover { stroke-width: 2; }
 .profile-table a { color: var(--navy); font-weight: 700; }
 .profile-links { display: flex; flex-wrap: wrap; gap: 6px 14px; }
 .profile-links a { color: var(--navy); font-weight: 700; }
+.co-history .h-src { margin-left: 8px; font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; }

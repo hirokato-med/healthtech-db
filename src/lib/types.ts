@@ -56,7 +56,7 @@ export type Company = {
   highlight?: string;
   /** 外形情報：公式サイト・プレスリリースから見た、どんな事業をいつから、何人の経営陣でやっているか */
   profile?: CompanyProfile;
-  history?: { date: string; text: string }[];
+  history?: { date: string; text: string; source?: string }[];
   sources?: string[];
   updatedAt?: string;
 };
