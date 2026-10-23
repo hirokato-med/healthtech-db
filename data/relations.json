@@ -1506,6 +1506,38 @@
    "name": "NTT"
   },
   {
+   "id": "4010001092965",
+   "name": "株式会社EPファーマライン",
+   "companyId": "4010001092965",
+   "exit": "未上場",
+   "category": "pharma-marketing-support"
+  },
+  {
+   "id": "ext:eps",
+   "name": "EPSホールディングス"
+  },
+  {
+   "id": "9010401114967",
+   "name": "株式会社エスマット",
+   "companyId": "9010401114967",
+   "exit": "未上場",
+   "category": "medical-materials"
+  },
+  {
+   "id": "6010401128359",
+   "name": "ai6株式会社",
+   "companyId": "6010401128359",
+   "exit": "未上場",
+   "category": "nursing"
+  },
+  {
+   "id": "5011201003645",
+   "name": "ファーマライズホールディングス株式会社",
+   "companyId": "5011201003645",
+   "exit": "上場",
+   "category": "pharmacy-dx"
+  },
+  {
    "id": "ext:塩野義製薬",
    "name": "塩野義製薬"
   },
@@ -2758,6 +2790,12 @@
    "to": "jp-136",
    "type": "parent",
    "date": ""
+  },
+  {
+   "from": "ext:eps",
+   "to": "4010001092965",
+   "type": "parent",
+   "date": "2021-12"
   },
   {
    "from": "ext:塩野義製薬",
@@ -4832,6 +4870,46 @@
    "note": "旧・田辺三菱製薬。イネビリズマブの前向き観察研究「4SigHT研究」をTXP Medicalが支援。",
    "sources": [
     "https://prtimes.jp/main/html/rd/p/000000171.000031630.html"
+   ]
+  },
+  {
+   "from": "ext:スズケン",
+   "to": "4010001092965",
+   "type": "investment",
+   "date": "2021-12",
+   "note": "EPSホールディングスから株式の49%を取得し持分法適用会社に。2026年9月に業務・資本両面での関係強化の協議開始を発表",
+   "sources": [
+    "https://www.eppharmaline.co.jp/pdf/NewsRelease_20211224.pdf",
+    "https://www.nihon-ma.co.jp/news/20211224_9987-10/"
+   ]
+  },
+  {
+   "from": "ext:スズケン",
+   "to": "9010401114967",
+   "type": "investment",
+   "date": "2021-11",
+   "note": "2022年8月に追加出資。提携時の社名はスマートショッピング",
+   "sources": [
+    "https://www2.jpx.co.jp/disc/99870/140120211108427875.pdf",
+    "https://www.nihon-ma.co.jp/news/20220817_9987-11/"
+   ]
+  },
+  {
+   "from": "ext:スズケン",
+   "to": "6010401128359",
+   "type": "investment",
+   "date": "2022-11",
+   "sources": [
+    "https://ai6.jp/news/post-134/"
+   ]
+  },
+  {
+   "from": "ext:スズケン",
+   "to": "5011201003645",
+   "type": "investment",
+   "date": "2023-11",
+   "sources": [
+    "https://www.nihon-ma.co.jp/news/20231110_9987-13/"
    ]
   }
  ]

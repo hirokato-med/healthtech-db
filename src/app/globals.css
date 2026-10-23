@@ -706,3 +706,12 @@ a .pm-box:hover { stroke-width: 2; }
 .learn-article:hover { text-decoration: none; opacity: .92; }
 .learn-article small { display: inline-block; margin-right: 8px; padding: 0 8px; border-radius: 4px; background: rgba(255,255,255,.18); font-size: 11px; }
 @media (max-width: 760px) { .learn { grid-template-columns: 1fr; } .lr-row { grid-template-columns: 120px 1fr 32px; } }
+/* 企業ページ: 外形情報 */
+.profile-table { width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 12px; }
+.profile-table th { text-align: left; font-size: 12px; color: var(--muted); font-weight: 700; padding: 6px 8px; border-bottom: 2px solid var(--line); }
+.profile-table td { padding: 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.profile-table td small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+.profile-table td.nw { white-space: nowrap; }
+.profile-table a { color: var(--navy); font-weight: 700; }
+.profile-links { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.profile-links a { color: var(--navy); font-weight: 700; }

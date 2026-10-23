@@ -60,6 +60,42 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               <p className="co-overview">{c.overview}</p>
             </section>
           )}
+          {c.profile && (
+            <section className="panel">
+              <h3>外形情報</h3>
+              {c.profile.businesses.length > 0 && (
+                <table className="profile-table">
+                  <thead><tr><th>事業</th><th>開始</th><th>年数</th></tr></thead>
+                  <tbody>
+                    {c.profile.businesses.map((b) => (
+                      <tr key={b.name}>
+                        <td>{b.url ? <a href={b.url} target="_blank" rel="noreferrer">{b.name}</a> : b.name}{b.note && <small>{b.note}</small>}</td>
+                        <td className="nw">{b.since ? ym(b.since) : '—'}</td>
+                        <td className="nw">{b.since ? `${Math.max(0, Number(c.profile!.checkedAt.slice(0, 4)) - Number(b.since.slice(0, 4)))}年` : ''}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+              <dl className="kv profile-kv">
+                {c.profile.management && (
+                  <><dt>経営陣</dt><dd><b>{c.profile.management.count}名</b>{c.profile.management.note ? `（${c.profile.management.note}）` : ''}{c.profile.management.asOf ? <span className="muted small"> {ym(c.profile.management.asOf)}時点</span> : null}</dd></>
+                )}
+                {(c.profile.newsroom?.site || c.profile.newsroom?.prtimes || c.profile.newsroom?.ir) && (
+                  <><dt>発信</dt><dd className="profile-links">
+                    {c.profile.newsroom?.site && <a href={c.profile.newsroom.site} target="_blank" rel="noreferrer">公式サイトのお知らせ</a>}
+                    {c.profile.newsroom?.prtimes && <a href={c.profile.newsroom.prtimes} target="_blank" rel="noreferrer">PR TIMES</a>}
+                    {c.profile.newsroom?.ir && <a href={c.profile.newsroom.ir} target="_blank" rel="noreferrer">IR・適時開示</a>}
+                  </dd></>
+                )}
+                {c.profile.latestNews && (
+                  <><dt>直近の発信</dt><dd>{ym(c.profile.latestNews.date)}　{c.profile.latestNews.url ? <a href={c.profile.latestNews.url} target="_blank" rel="noreferrer">{c.profile.latestNews.title}</a> : c.profile.latestNews.title}{c.profile.newsPerYear != null && <span className="muted small">（直近1年の発信 {c.profile.newsPerYear}件）</span>}</dd></>
+                )}
+              </dl>
+              <p className="muted small" style={{ marginTop: 8 }}>公式サイトの事業内容・お知らせとプレスリリースから編集部がまとめました（{ym(c.profile.checkedAt)}確認）。</p>
+            </section>
+          )}
+
           <section className="panel">
             <h3>事業・サービス</h3>
             {services.length ? (

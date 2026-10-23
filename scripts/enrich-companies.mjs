@@ -4,7 +4,7 @@
  *
  *   node scripts/enrich-companies.mjs --as-of 2026-10 out-1.json out-2.json ...
  *
- * 入力（JSON 配列）: { id, description, overview, products, highlight, employees, employeesAsOf,
+ * 入力（JSON 配列）: { id, description, overview, products, highlight, profile, employees, employeesAsOf,
  *   totalFunding, foundedYear, address, founders, representatives, hp, status, sources }
  * - id で既存企業を探す。社名は変えない（社名変更は merge-companies.mjs の --updates で行う）。
  * - 入っている項目だけ上書きする。空の項目で既存の値を消さない。
@@ -67,6 +67,8 @@ for (const f of files) {
     }
     if (Number.isInteger(x.foundedYear)) c.foundedYear = x.foundedYear; // 公式サイトで確かめた設立年を優先
     if (list(x.products).length) c.products = [...new Set(list(x.products))];
+    // 外形情報（事業ごとの開始時期・経営陣の人数・お知らせとプレスリリースのページ）は丸ごと差し替える
+    if (x.profile && typeof x.profile === 'object') c.profile = { ...x.profile, checkedAt: x.profile.checkedAt ?? asOf };
     if (list(x.founders).length && !c.founders.length) { c.founders = list(x.founders); c.founders.forEach((n) => addRole(n, c, '創業者')); }
     if (list(x.representatives).length) {
       const next = list(x.representatives);

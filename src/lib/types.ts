@@ -54,6 +54,8 @@ export type Company = {
   employeesAsOf?: string;
   totalFunding?: string;
   highlight?: string;
+  /** 外形情報：公式サイト・プレスリリースから見た、どんな事業をいつから、何人の経営陣でやっているか */
+  profile?: CompanyProfile;
   history?: { date: string; text: string }[];
   sources?: string[];
   updatedAt?: string;
@@ -148,3 +150,19 @@ export type Article = ArticleMeta & { html: string };
 
 /** 2021〜2023年の旧記事の題名。rewrittenAs は同じ題材で書き直した2026年版の記事の slug */
 export type ArchiveArticle = { title: string; category: string; author: string; rewrittenAs?: string; note?: string; link?: string };
+
+/** 企業の外形情報（公式サイトの事業内容・お知らせ、PR TIMES などのプレスリリースから） */
+export type CompanyProfile = {
+  /** 事業ごとの開始時期（YYYY または YYYY-MM） */
+  businesses: { name: string; since?: string; note?: string; url?: string }[];
+  /** 経営陣（取締役・執行役員など公式サイトや開示に載っている人）の人数 */
+  management?: { count: number; note?: string; asOf?: string; members?: { name: string; role: string }[] };
+  /** お知らせ・プレスリリースの一覧ページ */
+  newsroom?: { site?: string; prtimes?: string; ir?: string };
+  /** 直近の発信（お知らせ・リリース） */
+  latestNews?: { date: string; title: string; url?: string };
+  /** 発信の頻度の目安（直近1年のお知らせ・リリース数） */
+  newsPerYear?: number;
+  sources?: string[];
+  checkedAt: string;
+};
