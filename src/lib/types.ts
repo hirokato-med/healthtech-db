@@ -43,6 +43,8 @@ export type Company = {
   overview?: string;
   /** 事業転換などでヘルスケアとの関係が薄くなった会社の注記 */
   scopeNote?: string;
+  /** 事業を終えた会社の記録（exit が「閉鎖」のとき）。date は終了した時期 YYYY-MM／YYYY */
+  ended?: { date?: string; lastActiveAt?: string; successor?: string; note: string };
   /** 事業の継続が確認できない会社の注記（厚生年金の全喪など） */
   statusNote?: string;
   employeesAsOf?: string;

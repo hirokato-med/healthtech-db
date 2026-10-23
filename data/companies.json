@@ -980,7 +980,11 @@
         "date": "2025-10",
         "text": "1997年設立の旧パシフィックシステム（のちパシフィックメディカル）は2025年10月に閉鎖。DBにあった法人番号は別法人のものだったため削除"
       }
-    ]
+    ],
+    "ended": {
+      "date": "2025-10",
+      "note": "1997年設立。のちにパシフィックメディカルへ商号を変更し、2025年10月に閉鎖した。"
+    }
   },
   {
     "id": "3010001090400",
@@ -1124,6 +1128,11 @@
       "name": "株式会社メドレー",
       "corporateNumber": "4010401082351",
       "companyId": "4010401082351"
+    },
+    "ended": {
+      "date": "2025-04",
+      "successor": "株式会社メドレー",
+      "note": "株式会社メドレーに吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -1581,6 +1590,11 @@
     "mergedInto": {
       "name": "GMOヘルステック株式会社",
       "corporateNumber": "5011001159373"
+    },
+    "ended": {
+      "date": "2025-08",
+      "successor": "GMOヘルステック株式会社",
+      "note": "GMOヘルステック株式会社に吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -1987,6 +2001,11 @@
     "mergedInto": {
       "name": "エムスリーソリューションズ株式会社",
       "corporateNumber": "8180001002103"
+    },
+    "ended": {
+      "date": "2023-04",
+      "successor": "エムスリーソリューションズ株式会社",
+      "note": "エムスリーソリューションズ株式会社に吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -2251,7 +2270,7 @@
     "representatives": [
       "伊藤忍"
     ],
-    "exit": "閉鎖",
+    "exit": "合併",
     "parentCompany": "コラボスクエア株式会社",
     "relatedCompanies": [],
     "corporateNumber": "4013201010548",
@@ -2275,7 +2294,16 @@
         "date": "2026-04",
         "text": "2026年4月 コラボスクエアに吸収合併。MCSは同社が継承"
       }
-    ]
+    ],
+    "ended": {
+      "date": "2026-04",
+      "successor": "コラボスクエア株式会社",
+      "note": "コラボスクエアに吸収合併され、法人としては消滅した。サービス「MCS」は同社が引き継いでいる。"
+    },
+    "mergedInto": {
+      "name": "コラボスクエア株式会社",
+      "corporateNumber": ""
+    }
   },
   {
     "id": "6011001138401",
@@ -3120,7 +3148,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001070685"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2025-04",
+      "note": "清算結了（メドピアグループの会社だった）。"
+    }
   },
   {
     "id": "9010402032532",
@@ -4769,7 +4801,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401119918"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2024-01",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "3010001139230",
@@ -4937,7 +4973,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001097367"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2023-01",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "2140001034246",
@@ -5024,7 +5064,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2011301018406"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2021-04",
+      "note": "2021年4月に清算結了。"
+    }
   },
   {
     "id": "1120001171257",
@@ -5173,6 +5217,11 @@
     "mergedInto": {
       "name": "株式会社イノシア",
       "corporateNumber": "1010001222847"
+    },
+    "ended": {
+      "date": "2025-04",
+      "successor": "株式会社イノシア",
+      "note": "株式会社イノシアに吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -6303,7 +6352,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7120901032172"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2022-04",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "7011001098017",
@@ -6843,6 +6896,11 @@
       "name": "株式会社JMDC",
       "corporateNumber": "6010403010531",
       "companyId": "6010403010531"
+    },
+    "ended": {
+      "date": "2025-03",
+      "successor": "株式会社JMDC",
+      "note": "株式会社JMDCに吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -7111,7 +7169,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001099437"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2024-12",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "8010401114167",
@@ -7277,7 +7339,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001158489"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2025-12",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "4011801029058",
@@ -7314,7 +7380,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011801029058"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2025-04",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "1010401110577",
@@ -7678,6 +7748,11 @@
     "mergedInto": {
       "name": "株式会社ハルメク",
       "corporateNumber": "7010403009762"
+    },
+    "ended": {
+      "date": "2023-08",
+      "successor": "株式会社ハルメク",
+      "note": "株式会社ハルメクに吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -8003,7 +8078,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401119794"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2022-04",
+      "note": "清算結了（エムスリーの子会社だった）。"
+    }
   },
   {
     "id": "9010901035655",
@@ -8797,6 +8876,11 @@
       "name": "株式会社JMDC",
       "corporateNumber": "6010403010531",
       "companyId": "6010403010531"
+    },
+    "ended": {
+      "date": "2019-04",
+      "successor": "株式会社JMDC",
+      "note": "株式会社JMDCに吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -8879,7 +8963,11 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001171984",
       "https://www.firstcall.md/Home/About"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2025-04",
+      "note": "清算結了。サービス「first call」はアドバンテッジリスクマネジメントが運営している。"
+    }
   },
   {
     "id": "7010401120959",
@@ -9048,7 +9136,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401121651"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2026-06",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "6020001113685",
@@ -9338,7 +9430,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011001111641"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2023-11",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "1011001111461",
@@ -9995,6 +10091,11 @@
     "mergedInto": {
       "name": "株式会社HERO innovation",
       "corporateNumber": "6010001151703"
+    },
+    "ended": {
+      "date": "2023-07",
+      "successor": "株式会社HERO innovation",
+      "note": "株式会社HERO innovationに吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -10549,6 +10650,11 @@
     "mergedInto": {
       "name": "ユニファイド・サービス株式会社",
       "corporateNumber": "9010001131693"
+    },
+    "ended": {
+      "date": "2022-07",
+      "successor": "ユニファイド・サービス株式会社",
+      "note": "ユニファイド・サービス株式会社に吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -10626,7 +10732,12 @@
         "date": "2020-01",
         "text": "2020年1月 株式会社セルメスタに吸収合併され、法人としては消滅"
       }
-    ]
+    ],
+    "ended": {
+      "date": "2020-01",
+      "successor": "株式会社セルメスタ",
+      "note": "株式会社セルメスタに吸収合併され、法人としては消滅した。"
+    }
   },
   {
     "id": "6120001198816",
@@ -11143,7 +11254,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011003010897"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2024-07",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "9011101083206",
@@ -12456,6 +12571,11 @@
     "mergedInto": {
       "name": "PSP株式会社",
       "corporateNumber": "6010401024698"
+    },
+    "ended": {
+      "date": "2022-04",
+      "successor": "PSP株式会社",
+      "note": "PSP株式会社に吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -12542,7 +12662,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010501041629"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2025-08",
+      "note": "HERBIOからMEDITAに商号変更したのち、2025年8月に清算結了。"
+    }
   },
   {
     "id": "8011001120349",
@@ -13028,7 +13152,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001199714"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2023-09",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "2010502020121",
@@ -13158,6 +13286,11 @@
     "mergedInto": {
       "name": "株式会社ARETECO HOLDINGS",
       "corporateNumber": "4011001113645"
+    },
+    "ended": {
+      "date": "2021-01",
+      "successor": "株式会社ARETECO HOLDINGS",
+      "note": "株式会社ARETECO HOLDINGSに吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -13320,6 +13453,11 @@
     "mergedInto": {
       "name": "LINEヤフー株式会社",
       "corporateNumber": "4010401039979"
+    },
+    "ended": {
+      "date": "2026-09",
+      "successor": "LINEヤフー株式会社",
+      "note": "LINEヤフー株式会社に吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -13443,7 +13581,11 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001116530"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "ended": {
+      "date": "2025-08",
+      "note": "清算結了。"
+    }
   },
   {
     "id": "4010401148037",
@@ -13490,6 +13632,11 @@
       "name": "エンパワーヘルスケア株式会社",
       "corporateNumber": "5010401081856",
       "companyId": "5010401081856"
+    },
+    "ended": {
+      "date": "2024-03",
+      "successor": "エンパワーヘルスケア株式会社",
+      "note": "エンパワーヘルスケア株式会社に吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -14856,6 +15003,11 @@
     "mergedInto": {
       "name": "GMOヘルステック株式会社",
       "corporateNumber": "5011001159373"
+    },
+    "ended": {
+      "date": "2025-08",
+      "successor": "GMOヘルステック株式会社",
+      "note": "GMOヘルステック株式会社に吸収合併され、法人としては消滅した。"
     }
   },
   {
@@ -20627,7 +20779,12 @@
         "date": "2026-05",
         "text": "2026年5月 株式会社さくらコミュニティサービスに吸収合併され、法人としては消滅"
       }
-    ]
+    ],
+    "ended": {
+      "date": "2026-05",
+      "successor": "株式会社さくらコミュニティサービス",
+      "note": "株式会社さくらコミュニティサービスに吸収合併され、法人としては消滅した。"
+    }
   },
   {
     "id": "2360001027797",

@@ -5,12 +5,17 @@ import type { Category, Company } from '@/lib/types';
 
 type Lite = Pick<Company, 'id' | 'name' | 'categories' | 'description' | 'prefecture' | 'foundedYear' | 'exit'> & { isNew?: boolean; aliases?: string[] };
 
+/** 閉鎖・合併・対象外は、記録として残すが一覧では既定で隠す */
+const ENDED = ['閉鎖', '合併', '対象外'];
+
 export function CompanyFilter({ companies, categories, initialCategory = '' }: { companies: Lite[]; categories: Category[]; initialCategory?: string }) {
   const [q, setQ] = useState('');
   const [cat, setCat] = useState(initialCategory);
   const [exit, setExit] = useState('');
   const [pref, setPref] = useState('');
   const [sort, setSort] = useState('');
+  const [showEnded, setShowEnded] = useState(false);
+  const endedCount = useMemo(() => companies.filter((c) => ENDED.includes(c.exit)).length, [companies]);
   const prefs = useMemo(() => [...new Set(companies.map((c) => c.prefecture).filter(Boolean))].sort(), [companies]);
   const catName = useMemo(() => Object.fromEntries(categories.map((c) => [c.slug, c])), [categories]);
   const hit = useMemo(() => {
@@ -18,14 +23,14 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
     const list = companies.filter(
       (c) =>
         (!cat || c.categories.includes(cat)) &&
-        (!exit || c.exit === exit) &&
+        (exit ? c.exit === exit : showEnded || !ENDED.includes(c.exit)) &&
         (!pref || c.prefecture === pref) &&
         (!n || c.name.toLowerCase().includes(n) || c.description.toLowerCase().includes(n) || !!c.aliases?.some((a) => a.toLowerCase().includes(n))),
     );
     if (sort === 'founded') return [...list].sort((a, b) => (b.foundedYear ?? 0) - (a.foundedYear ?? 0));
     if (sort === 'new') return [...list].sort((a, b) => Number(!!b.isNew) - Number(!!a.isNew));
     return list;
-  }, [companies, q, cat, exit, pref, sort]);
+  }, [companies, q, cat, exit, pref, sort, showEnded]);
 
   return (
     <>
@@ -50,6 +55,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
           <option>バイアウト</option>
           <option>閉鎖</option>
           <option>合併</option>
+          <option>対象外</option>
         </select>
         <select value={pref} onChange={(e) => setPref(e.target.value)} aria-label="本社所在地">
           <option value="">所在地</option>
@@ -62,6 +68,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
           <option value="new">新しく追加した企業</option>
           <option value="founded">創業が新しい順</option>
         </select>
+        <label className="ended-toggle"><input type="checkbox" checked={showEnded} onChange={(e) => setShowEnded(e.target.checked)} />事業を終えた会社も表示（{endedCount}社）</label>
         <span className="count">{hit.length} 社</span>
       </div>
       <div className="grid">
@@ -82,7 +89,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
             <div className="meta">
               {c.prefecture && <span>{c.prefecture}</span>}
               {c.foundedYear && <span>{c.foundedYear}年創業</span>}
-              <span className={`badge ${c.exit === '上場' ? 'listed' : c.exit === '閉鎖' || c.exit === '合併' ? 'closed' : ''}`}>{c.exit}</span>
+              <span className={`badge ${c.exit === '上場' ? 'listed' : ENDED.includes(c.exit) ? 'closed' : ''}`}>{c.exit}</span>
             </div>
           </article>
         ))}

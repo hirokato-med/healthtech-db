@@ -603,3 +603,5 @@ h1, h2, h3, .sec-title h2, .section-head h2, .page-head h1, .box > h2, .panel h3
 .archive-row .old { font-weight: 600; color: var(--muted); }
 .archive-row .to a { font-weight: 700; font-size: 14px; }
 @media (max-width: 760px) { .archive-row { grid-template-columns: 1fr !important; } }
+.co-scope.ended b { background: #ececec; color: #4b5563; }
+.ended-toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); white-space: nowrap; }
