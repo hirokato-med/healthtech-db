@@ -27,6 +27,33 @@
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261015551282.pdf",
     "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2026年2月期",
+    "quarter": "FY",
+    "label": "2026年2月期 通期",
+    "date": "2026-04-14",
+    "title": "2026年２月期 決算短信〔日本基準〕（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 15191,
+     "operatingIncome": 217,
+     "ordinaryIncome": 267,
+     "netIncome": 262
+    },
+    "prior": {
+     "revenue": 15241,
+     "operatingIncome": 136,
+     "ordinaryIncome": 123,
+     "netIncome": 108
+    },
+    "nextForecast": {
+     "revenue": 16256,
+     "operatingIncome": 62
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/2936/tdnet/2790578/00.pdf",
+    "source": "決算短信",
+    "note": "次期予想は売上高・営業利益のみ開示"
    }
   ]
  },
@@ -120,6 +147,1066 @@
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261014550717.pdf",
     "source": "TDnet XBRL"
+   }
+  ]
+ },
+ "9011001070865": {
+  "code": "4438",
+  "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q2",
+    "label": "2026年12月期 第2四半期（中間期）",
+    "date": "2026-08-13",
+    "title": "2026年12月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 376,
+     "operatingIncome": -256,
+     "ordinaryIncome": -257,
+     "netIncome": -223
+    },
+    "prior": {
+     "revenue": 287,
+     "operatingIncome": -249,
+     "ordinaryIncome": -250,
+     "netIncome": -243
+    },
+    "forecast": {
+     "revenue": 1466,
+     "operatingIncome": -30
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS03741/cb605c6f/dc0c/40a4/b613/ddbc15a39999/140120260813519290.pdf",
+    "source": "決算短信",
+    "note": "通期予想は売上高・営業利益のみ開示"
+   },
+   {
+    "fiscalYear": "2025年12月期",
+    "quarter": "FY",
+    "label": "2025年12月期 通期",
+    "date": "2026-02-13",
+    "title": "2025年12月期 決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 635,
+     "operatingIncome": -452,
+     "ordinaryIncome": -454,
+     "netIncome": -539
+    },
+    "prior": {
+     "revenue": 528,
+     "operatingIncome": -654,
+     "ordinaryIncome": -655,
+     "netIncome": -804
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS03741/ecbea9ff/7071/4311/a7c9/ac859db971f2/140120260213561297.pdf",
+    "source": "決算短信",
+    "note": "2026年12月期の業績予想は非開示（合理的な算定が困難）"
+   }
+  ]
+ },
+ "8011001069074": {
+  "code": "7047",
+  "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q1",
+    "label": "2027年3月期 第1四半期",
+    "date": "2026-08-12",
+    "title": "2027年３月期第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 9092,
+     "operatingIncome": 1147,
+     "ordinaryIncome": 1113,
+     "netIncome": 631
+    },
+    "prior": {
+     "revenue": 6576,
+     "operatingIncome": 816,
+     "ordinaryIncome": 797,
+     "netIncome": 562
+    },
+    "forecast": {
+     "revenue": 39000,
+     "operatingIncome": 5400,
+     "ordinaryIncome": 5300,
+     "netIncome": 3310
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS08676/61268566/b4c0/432d/959f/fe3e3d628aa5/140120260812517838.pdf",
+    "source": "決算短信",
+    "note": "IFRS。ordinaryIncomeは税引前利益、netIncomeは親会社の所有者に帰属する四半期利益"
+   },
+   {
+    "fiscalYear": "2026年3月期",
+    "quarter": "FY",
+    "label": "2026年3月期 通期",
+    "date": "2026-05-15",
+    "title": "2026年３月期決算短信〔ＩＦＲＳ〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 29100,
+     "operatingIncome": 4073,
+     "ordinaryIncome": 4004,
+     "netIncome": 2717
+    },
+    "prior": {
+     "revenue": 21963,
+     "operatingIncome": 2987,
+     "ordinaryIncome": 2932,
+     "netIncome": 1887
+    },
+    "nextForecast": {
+     "revenue": 39000,
+     "operatingIncome": 5400,
+     "ordinaryIncome": 5300,
+     "netIncome": 3310
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS08676/094bdaaa/5efa/4e29/a9cf/adbcbcea8267/140120260515536763.pdf",
+    "source": "決算短信",
+    "note": "IFRS。ordinaryIncomeは税引前利益、netIncomeは親会社の所有者に帰属する当期利益"
+   }
+  ]
+ },
+ "1120001171257": {
+  "code": "5038",
+  "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q2",
+    "label": "2026年12月期 第2四半期（中間期）",
+    "date": "2026-08-14",
+    "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 1991,
+     "operatingIncome": 946,
+     "ordinaryIncome": 953,
+     "netIncome": 663
+    },
+    "prior": {
+     "revenue": 1603,
+     "operatingIncome": 788,
+     "ordinaryIncome": 791,
+     "netIncome": 548
+    },
+    "forecast": {
+     "revenue": 4277,
+     "operatingIncome": 1927,
+     "ordinaryIncome": 1937,
+     "netIncome": 1329
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/5038/tdnet/2873117/00.pdf",
+    "source": "決算短信"
+   },
+   {
+    "fiscalYear": "2025年12月期",
+    "quarter": "FY",
+    "label": "2025年12月期 通期",
+    "date": "2026-02-13",
+    "title": "2025年12月期 決算短信〔日本基準〕（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 3392,
+     "operatingIncome": 1537,
+     "ordinaryIncome": 1546,
+     "netIncome": 1088
+    },
+    "prior": {
+     "revenue": 2571,
+     "operatingIncome": 1135,
+     "ordinaryIncome": 1138,
+     "netIncome": 808
+    },
+    "nextForecast": {
+     "revenue": 4277,
+     "operatingIncome": 1927,
+     "ordinaryIncome": 1937,
+     "netIncome": 1329
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/5038/tdnet/2761818/00.pdf",
+    "source": "決算短信"
+   }
+  ]
+ },
+ "3011101068278": {
+  "code": "9214",
+  "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q2",
+    "label": "2026年12月期 第2四半期（中間期）",
+    "date": "2026-08-12",
+    "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 1547,
+     "operatingIncome": 35,
+     "ordinaryIncome": 49,
+     "netIncome": 14
+    },
+    "prior": {
+     "revenue": 1227,
+     "operatingIncome": 62,
+     "ordinaryIncome": 66,
+     "netIncome": 30
+    },
+    "forecast": {
+     "revenue": 3430,
+     "operatingIncome": 215,
+     "ordinaryIncome": 218,
+     "netIncome": 151
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS81874/3b3a315b/7dda/4349/8591/4049c2a0b4db/140120260810516414.pdf",
+    "source": "決算短信"
+   },
+   {
+    "fiscalYear": "2025年12月期",
+    "quarter": "FY",
+    "label": "2025年12月期 通期",
+    "date": "2026-02-16",
+    "title": "2025年12月期 決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 2689,
+     "operatingIncome": 203,
+     "ordinaryIncome": 207,
+     "netIncome": 127
+    },
+    "nextForecast": {
+     "revenue": 3430,
+     "operatingIncome": 215,
+     "ordinaryIncome": 218,
+     "netIncome": 151
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS81874/fad39f93/e988/41dc/95e7/e177b61c0b6c/140120260216562533.pdf",
+    "source": "決算短信",
+    "note": "2025年12月期から連結決算開始のため、前期（2024年12月期）の連結実績は記載なし（prior省略）"
+   }
+  ]
+ },
+ "7010003022232": {
+  "code": "4263",
+  "reports": [
+   {
+    "fiscalYear": "2026年6月期",
+    "quarter": "FY",
+    "label": "2026年6月期 通期",
+    "date": "2026-08-07",
+    "title": "2026年６月期 決算短信〔日本基準〕(非連結)",
+    "consolidated": false,
+    "current": {
+     "revenue": 497,
+     "operatingIncome": -330,
+     "ordinaryIncome": -325,
+     "netIncome": -382
+    },
+    "prior": {
+     "revenue": 462,
+     "operatingIncome": -299,
+     "ordinaryIncome": -294,
+     "netIncome": -298
+    },
+    "nextForecast": {
+     "revenue": 838,
+     "operatingIncome": -461,
+     "ordinaryIncome": -474,
+     "netIncome": -541
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS82385/5ddbacbe/6197/4ffb/b9c9/9f6efe9c52cc/140120260806512603.pdf",
+    "source": "決算短信",
+    "note": "revenueは事業収益。通期決算より新しい四半期決算は未発表"
+   }
+  ]
+ },
+ "9010401116526": {
+  "code": "5619",
+  "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q2",
+    "label": "2026年12月期 第2四半期（中間期）",
+    "date": "2026-08-14",
+    "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 580,
+     "operatingIncome": -26,
+     "ordinaryIncome": -25,
+     "netIncome": -16
+    },
+    "prior": {
+     "revenue": 527,
+     "operatingIncome": -42,
+     "ordinaryIncome": -41,
+     "netIncome": -29
+    },
+    "forecast": {
+     "revenue": 1262,
+     "operatingIncome": -76,
+     "ordinaryIncome": -75,
+     "netIncome": -76
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS08742/2b1f5bbf/b1ae/4325/98df/99129c0b8a66/140120260813519265.pdf",
+    "source": "決算短信"
+   },
+   {
+    "fiscalYear": "2025年12月期",
+    "quarter": "FY",
+    "label": "2025年12月期 通期",
+    "date": "2026-02-13",
+    "title": "2025年12月期 決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 1078,
+     "operatingIncome": -33,
+     "ordinaryIncome": -33,
+     "netIncome": -23
+    },
+    "prior": {
+     "revenue": 1333,
+     "operatingIncome": 157,
+     "ordinaryIncome": 157,
+     "netIncome": 101
+    },
+    "nextForecast": {
+     "revenue": 1262,
+     "operatingIncome": -76,
+     "ordinaryIncome": -75,
+     "netIncome": -76
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS08742/6f321c32/1720/408c/9f71/129e04d4c691/140120260212558743.pdf",
+    "source": "決算短信"
+   }
+  ]
+ },
+ "2010001173536": {
+  "code": "4259",
+  "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q1",
+    "label": "2027年3月期 第1四半期",
+    "date": "2026-08-12",
+    "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 3448,
+     "operatingIncome": 200,
+     "ordinaryIncome": 168,
+     "netIncome": 87
+    },
+    "prior": {
+     "revenue": 2446,
+     "operatingIncome": 144,
+     "ordinaryIncome": 139,
+     "netIncome": 66
+    },
+    "forecast": {
+     "revenue": 15600,
+     "operatingIncome": 2300
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS71284/e5165624/9a8a/4e88/b70c/99db30c9b497/140120260812518004.pdf",
+    "source": "決算短信",
+    "note": "通期予想は売上高・営業利益のみ開示"
+   },
+   {
+    "fiscalYear": "2026年3月期",
+    "quarter": "FY",
+    "label": "2026年3月期 通期",
+    "date": "2026-05-12",
+    "title": "2026年３月期 決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 11996,
+     "operatingIncome": 1594,
+     "ordinaryIncome": 1566,
+     "netIncome": 1533
+    },
+    "prior": {
+     "revenue": 9811,
+     "operatingIncome": 23,
+     "ordinaryIncome": 2,
+     "netIncome": -2576
+    },
+    "nextForecast": {
+     "revenue": 15600,
+     "operatingIncome": 2300
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS71284/fa8fbed4/f0b0/4e46/a6fd/84c7c236e819/140120260512524947.pdf",
+    "source": "決算短信",
+    "note": "次期予想は売上高・営業利益のみ開示"
+   }
+  ]
+ },
+ "jp-040": {
+  "code": "286A",
+  "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q2",
+    "label": "2026年12月期 第2四半期（中間期）",
+    "date": "2026-08-14",
+    "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 13678,
+     "operatingIncome": 395,
+     "ordinaryIncome": 361,
+     "netIncome": 489
+    },
+    "prior": {
+     "revenue": 10520,
+     "operatingIncome": 1134,
+     "ordinaryIncome": 981,
+     "netIncome": 823
+    },
+    "forecast": {
+     "revenue": 33035,
+     "operatingIncome": 2864,
+     "ordinaryIncome": 2648,
+     "netIncome": 1658
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS96593/6035a869/0288/407e/b2d9/809fe8cc621d/140120260812518486.pdf",
+    "source": "決算短信"
+   },
+   {
+    "fiscalYear": "2025年12月期",
+    "quarter": "FY",
+    "label": "2025年12月期 通期",
+    "date": "2026-02-13",
+    "title": "2025年12月期 決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 24734,
+     "operatingIncome": 2365,
+     "ordinaryIncome": 2138,
+     "netIncome": 2776
+    },
+    "prior": {
+     "revenue": 19833,
+     "operatingIncome": 2292,
+     "ordinaryIncome": 2801,
+     "netIncome": 2025
+    },
+    "nextForecast": {
+     "revenue": 33035,
+     "operatingIncome": 2864,
+     "ordinaryIncome": 2648,
+     "netIncome": 1658
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS96593/600b3197/5579/4a79/b609/a0b3792e49af/140120260212558803.pdf",
+    "source": "決算短信"
+   }
+  ]
+ },
+ "jp-082": {
+  "code": "4890",
+  "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q1",
+    "label": "2027年3月期 第1四半期",
+    "date": "2026-08-12",
+    "title": "2027年３月期 第１四半期決算短信〔日本基準〕（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 215,
+     "operatingIncome": -170,
+     "ordinaryIncome": -133,
+     "netIncome": -134
+    },
+    "prior": {
+     "revenue": 24,
+     "operatingIncome": -217,
+     "ordinaryIncome": -202,
+     "netIncome": -202
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS82482/535daabe/56b4/4a50/b889/2a9287bf301e/140120260810516798.pdf",
+    "source": "決算短信",
+    "note": "通期予想はレンジ開示：売上高1,100～1,500、営業利益5～50、経常利益45～90、当期純利益45～90（百万円）"
+   },
+   {
+    "fiscalYear": "2026年3月期",
+    "quarter": "FY",
+    "label": "2026年3月期 通期",
+    "date": "2026-05-14",
+    "title": "2026年３月期 決算短信〔日本基準〕（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 200,
+     "operatingIncome": -787,
+     "ordinaryIncome": -760,
+     "netIncome": -761
+    },
+    "prior": {
+     "revenue": 1357,
+     "operatingIncome": 235,
+     "ordinaryIncome": 281,
+     "netIncome": 205
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS82482/64e0121a/0f0d/4e91/8309/52043e53b63a/140120260514533373.pdf",
+    "source": "決算短信",
+    "note": "2027年3月期予想はレンジ開示：売上高1,100～1,500、営業利益5～50、経常利益45～90、当期純利益45～90（百万円）"
+   }
+  ]
+ },
+ "jp-083": {
+  "code": "4892",
+  "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q2",
+    "label": "2026年12月期 第2四半期（中間期）",
+    "date": "2026-08-14",
+    "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕(非連結)",
+    "consolidated": false,
+    "current": {
+     "revenue": 104,
+     "operatingIncome": -417,
+     "ordinaryIncome": -433,
+     "netIncome": -434
+    },
+    "prior": {
+     "revenue": 29,
+     "operatingIncome": -471,
+     "ordinaryIncome": -401,
+     "netIncome": -402
+    },
+    "forecast": {
+     "revenue": 278,
+     "operatingIncome": -1081,
+     "ordinaryIncome": -1056,
+     "netIncome": -1059
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS03732/bfeabba9/4cbf/4041/94b6/1d1f24d2adeb/140120260814520360.pdf",
+    "source": "決算短信"
+   },
+   {
+    "fiscalYear": "2025年12月期",
+    "quarter": "FY",
+    "label": "2025年12月期 通期",
+    "date": "2026-02-13",
+    "title": "2025年12月期 決算短信〔日本基準〕(非連結)",
+    "consolidated": false,
+    "current": {
+     "revenue": 230,
+     "operatingIncome": -828,
+     "ordinaryIncome": -761,
+     "netIncome": -763
+    },
+    "prior": {
+     "revenue": 54,
+     "operatingIncome": -896,
+     "ordinaryIncome": -869,
+     "netIncome": -872
+    },
+    "nextForecast": {
+     "revenue": 278,
+     "operatingIncome": -1081,
+     "ordinaryIncome": -1056,
+     "netIncome": -1059
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/AS03732/15dfa5a9/859c/4ea6/a4b7/7acc840f6b66/140120260213559356.pdf",
+    "source": "決算短信"
+   }
+  ]
+ },
+ "jp-080": {
+  "code": "130A",
+  "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q2",
+    "label": "2026年12月期 第2四半期（中間期）",
+    "date": "2026-08-05",
+    "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕(非連結)",
+    "consolidated": false,
+    "current": {
+     "revenue": 36,
+     "operatingIncome": -246,
+     "ordinaryIncome": -243,
+     "netIncome": -386
+    },
+    "prior": {
+     "revenue": 43,
+     "operatingIncome": -186,
+     "ordinaryIncome": -182,
+     "netIncome": -184
+    },
+    "forecast": {
+     "revenue": 113,
+     "operatingIncome": -569,
+     "ordinaryIncome": -564,
+     "netIncome": -567
+    },
+    "pdf": "https://data.swcms.net/file/veritasinsilico/dam/jcr:e636e96b-eba5-4ebc-ae02-b5a25e004888/140120260804508643.pdf",
+    "source": "決算短信",
+    "note": "revenueは事業収益"
+   },
+   {
+    "fiscalYear": "2025年12月期",
+    "quarter": "FY",
+    "label": "2025年12月期 通期",
+    "date": "2026-02-12",
+    "title": "2025年12月期 決算短信〔日本基準〕(非連結)",
+    "consolidated": false,
+    "current": {
+     "revenue": 91,
+     "operatingIncome": -396,
+     "ordinaryIncome": -390,
+     "netIncome": -425
+    },
+    "prior": {
+     "revenue": 194,
+     "operatingIncome": -212,
+     "ordinaryIncome": -233,
+     "netIncome": -236
+    },
+    "nextForecast": {
+     "revenue": 113,
+     "operatingIncome": -569,
+     "ordinaryIncome": -564,
+     "netIncome": -567
+    },
+    "pdf": "https://data.swcms.net/file/veritasinsilico/dam/jcr:315ec3c6-6ad8-47eb-8621-04275b842016/140120260212556361.pdf",
+    "source": "決算短信",
+    "note": "revenueは事業収益"
+   }
+  ]
+ },
+ "jp-084": {
+  "code": "219A",
+  "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q2",
+    "label": "2026年12月期 第2四半期（中間期）",
+    "date": "2026-08-14",
+    "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 467,
+     "operatingIncome": -621,
+     "ordinaryIncome": -551,
+     "netIncome": -554
+    },
+    "prior": {
+     "revenue": 1919,
+     "operatingIncome": 896,
+     "ordinaryIncome": 845,
+     "netIncome": 707
+    },
+    "forecast": {
+     "revenue": 467,
+     "operatingIncome": -2207,
+     "ordinaryIncome": -2155,
+     "netIncome": -2158
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/219A/tdnet/2873638/00.pdf",
+    "source": "決算短信",
+    "note": "前中間期は2024年11月1日～2025年4月30日（決算期変更のため期間が異なる）"
+   },
+   {
+    "fiscalYear": "2025年12月期",
+    "quarter": "FY",
+    "label": "2025年12月期 通期",
+    "date": "2026-02-13",
+    "title": "2025年12月期 決算短信〔日本基準〕（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 3026,
+     "operatingIncome": 272,
+     "ordinaryIncome": 288,
+     "netIncome": 190
+    },
+    "prior": {
+     "revenue": 873,
+     "operatingIncome": -1038,
+     "ordinaryIncome": -818,
+     "netIncome": -812
+    },
+    "nextForecast": {
+     "revenue": 451,
+     "operatingIncome": -2207,
+     "ordinaryIncome": -2155,
+     "netIncome": -2158
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/219A/tdnet/2760310/00.pdf",
+    "source": "決算短信",
+    "note": "決算期変更（10月→12月）。2025年12月期は2024年11月1日～2025年12月31日の14か月決算。priorは2024年10月期（12か月）"
+   }
+  ]
+ },
+ "jp-085": {
+  "code": "4894",
+  "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q1",
+    "label": "2027年3月期 第1四半期",
+    "date": "2026-08-13",
+    "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 1,
+     "operatingIncome": -333,
+     "ordinaryIncome": -321,
+     "netIncome": -317
+    },
+    "prior": {
+     "revenue": 85,
+     "operatingIncome": -196,
+     "ordinaryIncome": -199,
+     "netIncome": -200
+    },
+    "forecast": {
+     "revenue": 540,
+     "operatingIncome": -1030,
+     "ordinaryIncome": -580,
+     "netIncome": -570
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/4894/tdnet/2872375/00.pdf",
+    "source": "決算短信",
+    "note": "通期予想は期中に修正済み（売上高を開示）"
+   },
+   {
+    "fiscalYear": "2026年3月期",
+    "quarter": "FY",
+    "label": "2026年3月期 通期",
+    "date": "2026-05-15",
+    "title": "2026年３月期 決算短信〔日本基準〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 212,
+     "operatingIncome": -1081,
+     "ordinaryIncome": -1028,
+     "netIncome": -1022
+    },
+    "prior": {
+     "revenue": 175,
+     "operatingIncome": -590,
+     "ordinaryIncome": -642,
+     "netIncome": -644
+    },
+    "nextForecast": {
+     "operatingIncome": -1430,
+     "ordinaryIncome": -1400,
+     "netIncome": -1390
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/4894/tdnet/2815730/00.pdf",
+    "source": "決算短信",
+    "note": "次期売上高予想は非開示（リハートの薬価未定のため）。各段階損益予想は売上高・売上原価を織り込まない数値"
+   }
+  ]
+ },
+ "jp-092": {
+  "code": "9158",
+  "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q1",
+    "label": "2027年3月期 第1四半期",
+    "date": "2026-07-30",
+    "title": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 14159,
+     "operatingIncome": 32,
+     "ordinaryIncome": -192,
+     "netIncome": -281
+    },
+    "prior": {
+     "revenue": 12996,
+     "operatingIncome": 744,
+     "ordinaryIncome": 595,
+     "netIncome": 208
+    },
+    "forecast": {
+     "revenue": 64600,
+     "operatingIncome": 3800,
+     "ordinaryIncome": 2800,
+     "netIncome": 1100
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/9158/tdnet/2858244/00.pdf",
+    "source": "決算短信",
+    "note": "IFRS。ordinaryIncomeは税引前利益、netIncomeは親会社の所有者に帰属する四半期利益"
+   },
+   {
+    "fiscalYear": "2026年3月期",
+    "quarter": "FY",
+    "label": "2026年3月期 通期",
+    "date": "2026-04-30",
+    "title": "2026年３月期 決算短信〔ＩＦＲＳ〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 54353,
+     "operatingIncome": 5783,
+     "ordinaryIncome": 5110,
+     "netIncome": 2854
+    },
+    "prior": {
+     "revenue": 47043,
+     "operatingIncome": 5343,
+     "ordinaryIncome": 5246,
+     "netIncome": 3131
+    },
+    "nextForecast": {
+     "revenue": 64600,
+     "operatingIncome": 3800,
+     "ordinaryIncome": 2800,
+     "netIncome": 1100
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/9158/tdnet/2797746/00.pdf",
+    "source": "決算短信",
+    "note": "IFRS。ordinaryIncomeは税引前利益、netIncomeは親会社の所有者に帰属する当期利益。2026/6/4に一部訂正（包括利益・財政状態のみ。本項目に影響なし）"
+   }
+  ]
+ },
+ "jp-095": {
+  "code": "7071",
+  "reports": [
+   {
+    "fiscalYear": "2026年9月期",
+    "quarter": "Q3",
+    "label": "2026年9月期 第3四半期",
+    "date": "2026-08-14",
+    "title": "2026年９月期 第３四半期決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 38288,
+     "operatingIncome": 3623,
+     "ordinaryIncome": 3681,
+     "netIncome": 2485
+    },
+    "prior": {
+     "revenue": 36364,
+     "operatingIncome": 4697,
+     "ordinaryIncome": 4838,
+     "netIncome": 2998
+    },
+    "forecast": {
+     "revenue": 51700,
+     "operatingIncome": 3800,
+     "ordinaryIncome": 3300,
+     "netIncome": 2100
+    },
+    "pdf": "https://data.swcms.net/file/amvis-ir/dam/jcr:7be63b9b-7a8f-4669-9a33-af7864faed47/140120260812518444.pdf",
+    "source": "決算短信"
+   },
+   {
+    "fiscalYear": "2025年9月期",
+    "quarter": "FY",
+    "label": "2025年9月期 通期",
+    "date": "2025-11-06",
+    "title": "2025年９月期 決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 49174,
+     "operatingIncome": 6162,
+     "ordinaryIncome": 6343,
+     "netIncome": 3660
+    },
+    "prior": {
+     "revenue": 42475,
+     "operatingIncome": 10612,
+     "ordinaryIncome": 10551,
+     "netIncome": 7438
+    },
+    "nextForecast": {
+     "revenue": 51700,
+     "operatingIncome": 3800,
+     "ordinaryIncome": 3300,
+     "netIncome": 2100
+    },
+    "pdf": "https://data.swcms.net/file/amvis-ir/dam/jcr:94853aad-1f4b-4af7-8475-c8d5851125e2/140120251105588095.pdf",
+    "source": "決算短信",
+    "note": "EBITDAも開示（2025年9月期8,966、次期予想7,100）"
+   }
+  ]
+ },
+ "jp-096": {
+  "code": "9229",
+  "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q1",
+    "label": "2027年3月期 第1四半期",
+    "date": "2026-08-12",
+    "title": "2027年３月期 第１四半期決算短信〔日本基準〕（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 7298,
+     "operatingIncome": -347,
+     "ordinaryIncome": -519,
+     "netIncome": -557
+    },
+    "prior": {
+     "revenue": 6605,
+     "operatingIncome": -507,
+     "ordinaryIncome": -687,
+     "netIncome": -725
+    },
+    "forecast": {
+     "revenue": 28872,
+     "operatingIncome": 420,
+     "ordinaryIncome": -854,
+     "netIncome": -1060
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/9229/tdnet/2871527/00.pdf",
+    "source": "決算短信"
+   },
+   {
+    "fiscalYear": "2026年3月期",
+    "quarter": "FY",
+    "label": "2026年3月期 通期",
+    "date": "2026-05-12",
+    "title": "2026年３月期 決算短信〔日本基準〕（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 28136,
+     "operatingIncome": -1223,
+     "ordinaryIncome": -2168,
+     "netIncome": -1656
+    },
+    "prior": {
+     "revenue": 26496,
+     "operatingIncome": 1114,
+     "ordinaryIncome": 388,
+     "netIncome": -925
+    },
+    "nextForecast": {
+     "revenue": 28872,
+     "operatingIncome": 420,
+     "ordinaryIncome": -854,
+     "netIncome": -1060
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/9229/tdnet/2804997/00.pdf",
+    "source": "決算短信"
+   }
+  ]
+ },
+ "5011201003645": {
+  "code": "2796",
+  "reports": [
+   {
+    "fiscalYear": "2027年5月期",
+    "quarter": "Q1",
+    "label": "2027年5月期 第1四半期",
+    "date": "2026-09-17",
+    "title": "令和９年５月期 第１四半期決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 17242,
+     "operatingIncome": 68,
+     "ordinaryIncome": 79,
+     "netIncome": -36
+    },
+    "prior": {
+     "revenue": 16753,
+     "operatingIncome": 152,
+     "ordinaryIncome": 115,
+     "netIncome": -18
+    },
+    "forecast": {
+     "revenue": 70604,
+     "operatingIncome": 1014,
+     "ordinaryIncome": 736,
+     "netIncome": 11
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/27960/4d15930a/8f12/49f1/9255/144c946a876d/140120260916537124.pdf",
+    "source": "決算短信",
+    "note": "短信は和暦表記（令和9年5月期＝2027年5月期）"
+   },
+   {
+    "fiscalYear": "2026年5月期",
+    "quarter": "FY",
+    "label": "2026年5月期 通期",
+    "date": "2026-06-25",
+    "title": "令和８年５月期 決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 69512,
+     "operatingIncome": 979,
+     "ordinaryIncome": 715,
+     "netIncome": 114
+    },
+    "prior": {
+     "revenue": 63508,
+     "operatingIncome": 293,
+     "ordinaryIncome": 136,
+     "netIncome": -367
+    },
+    "nextForecast": {
+     "revenue": 70604,
+     "operatingIncome": 1014,
+     "ordinaryIncome": 736,
+     "netIncome": 11
+    },
+    "pdf": "https://contents.xj-storage.jp/xcontents/27960/bacfb48d/d1a9/4888/b002/b533311d5f3f/140120260625579524.pdf",
+    "source": "決算短信",
+    "note": "短信は和暦表記（令和8年5月期＝2026年5月期）"
+   }
+  ]
+ },
+ "9120001111255": {
+  "code": "2183",
+  "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q1",
+    "label": "2027年3月期 第1四半期",
+    "date": "2026-08-14",
+    "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 1912,
+     "operatingIncome": -719,
+     "ordinaryIncome": -700,
+     "netIncome": -636
+    },
+    "prior": {
+     "revenue": 2626,
+     "operatingIncome": -104,
+     "ordinaryIncome": -164,
+     "netIncome": -176
+    },
+    "forecast": {
+     "revenue": 10680,
+     "operatingIncome": 256,
+     "ordinaryIncome": 250,
+     "netIncome": 180
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/2183/tdnet/2874649/00.pdf",
+    "source": "決算短信"
+   },
+   {
+    "fiscalYear": "2026年3月期",
+    "quarter": "FY",
+    "label": "2026年3月期 通期",
+    "date": "2026-05-15",
+    "title": "2026年３月期 決算短信〔日本基準〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 8665,
+     "operatingIncome": -2073,
+     "ordinaryIncome": -2023,
+     "netIncome": -3329
+    },
+    "prior": {
+     "revenue": 10437,
+     "operatingIncome": -583,
+     "ordinaryIncome": -498,
+     "netIncome": -539
+    },
+    "nextForecast": {
+     "revenue": 10680,
+     "operatingIncome": 256,
+     "ordinaryIncome": 250,
+     "netIncome": 180
+    },
+    "pdf": "https://ssl4.eir-parts.net/doc/2183/tdnet/2816745/00.pdf",
+    "source": "決算短信"
    }
   ]
  }
