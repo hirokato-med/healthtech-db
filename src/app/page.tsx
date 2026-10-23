@@ -77,7 +77,7 @@ export default function Home() {
           </div>
           <div className="stat4">
             <Link href="/companies/"><span className="l">{Ico.co}国内企業</span><span className="v">{companies.length}<small>社</small></span><span className="go">企業データベース →</span></Link>
-            <Link href="/services/"><span className="l">{Ico.sv}サービス・海外</span><span className="v">{services.length + getOverseas().length}<small>件</small></span><span className="go">サービスデータベース →</span></Link>
+            <Link href="/services/"><span className="l">{Ico.sv}事業・海外</span><span className="v">{services.length + getOverseas().length}<small>件</small></span><span className="go">事業データベース →</span></Link>
             <Link href="/talents/"><span className="l">{Ico.pp}人物</span><span className="v">{people.length}<small>名</small></span><span className="go">人物データベース →</span></Link>
             <Link href="/news/"><span className="l">{Ico.nw}ニュース</span><span className="v">{news.length}<small>本</small></span><span className="go">毎朝更新 →</span></Link>
           </div>
@@ -130,11 +130,11 @@ export default function Home() {
             </div>
             <div className="data-card">
               {BigIcon.sv}
-              <h3>サービス・海外企業</h3>
-              <div className="big">{services.length + getOverseas().length}<small>件</small><span>サービス {services.length}・海外 {getOverseas().length}</span></div>
-              <p>国内企業が提供するサービスと、米国・欧州・アジアの注目企業をまとめています。</p>
-              <div className="idx">開始年・提供企業・カテゴリ・事業領域</div>
-              <Link href="/services/" className="go arrow">サービスを探す</Link>
+              <h3>事業データベース</h3>
+              <div className="big">{services.length + getOverseas().length}<small>件</small><span>事業 {services.length}・海外企業 {getOverseas().length}</span></div>
+              <p>事業・サービスが、いつ始まり、どう進み、止まったならなぜ止まったのかを記録しています。</p>
+              <div className="idx">開始・経過・終了の時期、止まった理由、引き継ぎ先</div>
+              <Link href="/services/" className="go arrow">事業を探す</Link>
             </div>
             <div className="data-card">
               {BigIcon.pp}

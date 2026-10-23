@@ -67,8 +67,24 @@ export const findCompanyByName = (name: string): Company | undefined => {
 
 export const getServices = () =>
   memo('services', () =>
-    read<Service[]>('services.json').map((s) => ({ ...s, companyId: s.companyId ?? findCompanyByName(s.company)?.id })),
+    read<Service[]>('services.json').map((s) => ({ ...s, status: (s.status as string) === '継続中' ? '提供中' : s.status, companyId: s.companyId ?? findCompanyByName(s.company)?.id })),
   );
+/** 事業が止まった理由の分類 */
+export const END_REASONS: Record<string, { label: string; note: string }> = {
+  regulation: { label: '規制・承認', note: '薬機法の承認、医療法・医師法などの規制が壁になった' },
+  reimbursement: { label: '保険償還・診療報酬', note: '保険適用や診療報酬上の評価が得られない、価格が合わない' },
+  'no-payer': { label: 'お金を払う人がいない', note: '患者・医療機関・企業・保険者のいずれも、必要な単価で払わなかった' },
+  workflow: { label: '現場に定着しない', note: '医療・介護現場の業務に入り込めず、使われ続けなかった' },
+  evidence: { label: '効果を示せない', note: '臨床試験・実証で、期待した効果を示せなかった' },
+  funding: { label: '資金が続かない', note: '資金調達が続かず、事業を続けられなかった' },
+  'parent-strategy': { label: '親会社の方針', note: '親会社・グループの選択と集中で、終了・移管された' },
+  acquisition: { label: '買収・統合', note: '他社に買収・統合され、事業は別の形で続いている' },
+  competition: { label: '競合・大手の参入', note: '競合や大手の参入で、事業が成り立たなくなった' },
+  team: { label: '体制の問題', note: '創業者の離脱など、体制の問題（本人が公表したもの）' },
+  unknown: { label: '理由は非公表', note: '止まった理由は公表されていない' },
+};
+export const STOPPED = ['終了', '譲渡', '統合', '休止'];
+
 export const getService = (id: string) => getServices().find((s) => s.id === id);
 export const servicesOf = (companyId: string) => getServices().filter((s) => s.companyId === companyId);
 

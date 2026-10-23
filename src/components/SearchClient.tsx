@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { withBase } from '@/lib/base';
 
 type Hit = { t: string; id: string; title: string; sub: string; url: string };
-const LABEL: Record<string, string> = { company: '企業', service: 'サービス', person: '人物', category: 'カテゴリ', overseas: '海外企業', article: '記事', monthly: '月刊ヘルステック' };
+const LABEL: Record<string, string> = { company: '企業', service: '事業', person: '人物', category: 'カテゴリ', overseas: '海外企業', article: '記事', monthly: '月刊ヘルステック' };
 
 export function SearchClient() {
   const params = useSearchParams();

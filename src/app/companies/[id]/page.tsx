@@ -62,7 +62,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             </section>
           )}
           <section className="panel">
-            <h3>提供サービス・事業</h3>
+            <h3>事業・サービス</h3>
             {services.length ? (
               <div className="grid">
                 {services.map((s) => (
@@ -70,7 +70,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                     <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
                     <div className="chips"><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
                     <p className="desc">{s.description}</p>
-                    <div className="meta">{s.startedYear && <span>{s.startedYear}年開始</span>}<span className="badge">{s.status}</span></div>
+                    <div className="meta">{(s.startedAt || s.startedYear) && <span>{(s.startedAt ?? String(s.startedYear)).slice(0, 4)}年開始</span>}{s.endedAt && <span>{s.endedAt.slice(0, 4)}年{s.status === '提供中' ? '' : s.status}</span>}<span className={`badge st-${s.status}`}>{s.status}</span></div>
                   </article>
                 ))}
               </div>

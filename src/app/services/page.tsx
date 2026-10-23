@@ -1,32 +1,25 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { categoryName, getServices } from '@/lib/data';
+import { BusinessFilter } from '@/components/BusinessFilter';
+import { END_REASONS, STOPPED, getCategories, getServices } from '@/lib/data';
 
-export const metadata: Metadata = { title: 'サービス一覧', description: '国内ヘルステック企業が提供するサービス・事業の一覧。' };
+export const metadata: Metadata = { title: '事業データベース', description: 'ヘルスケアの事業・サービスが、いつ始まり、どう進み、止まったならなぜ止まったのかを出典つきで記録したデータベース。' };
 
 export default function ServicesPage() {
   const services = getServices();
+  const items = services.map(({ id, name, company, companyId, category, description, status, startedAt, startedYear, endedAt, endReasons }) => ({ id, name, company, companyId, category, description, status, startedAt, startedYear, endedAt, endReasons }));
+  const stopped = services.filter((s) => STOPPED.includes(s.status)).length;
   return (
     <>
       <div className="page-head">
-        <div className="kicker">Services</div>
-        <h1>サービス一覧</h1>
-        <p className="lead">企業が提供する個別のサービス・事業。{services.length} 件。企業ページから提供企業にたどれます。</p>
+        <div className="kicker">Businesses</div>
+        <h1>事業データベース</h1>
+        <p className="lead">
+          ヘルスケアの事業・サービスが、いつ始まり、どう進み、止まったならなぜ止まったのか。公開情報をもとに出典つきで記録しています。{services.length} 件（うち止まった事業 {stopped} 件）。
+          <Link href="/services/stopped/" className="why-link">止まった事業を理由別に見る</Link>
+        </p>
       </div>
-      <div className="grid wide">
-        {services.map((s) => (
-          <article className="card" key={s.id}>
-            <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
-            <div className="chips"><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
-            <p className="desc">{s.description}</p>
-            <div className="meta">
-              {s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : <span>{s.company}</span>}
-              {s.startedYear && <span>{s.startedYear}年開始</span>}
-              <span className="badge">{s.status}</span>
-            </div>
-          </article>
-        ))}
-      </div>
+      <BusinessFilter items={items} categories={getCategories()} reasons={END_REASONS} />
     </>
   );
 }

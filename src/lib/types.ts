@@ -73,6 +73,7 @@ export type Overseas = {
 export type PersonRole = { companyId: string; companyName: string; title: string };
 export type Person = { id: string; name: string; roles: PersonRole[]; bio?: string; twitter?: string };
 
+/** 事業・サービス。「事業開発のPubMed」として、始まり・経過・止まった理由を記録する */
 export type Service = {
   id: string;
   name: string;
@@ -82,8 +83,19 @@ export type Service = {
   description: string;
   hp: string;
   startedYear: number | null;
-  status: '継続中' | '終了' | '不明';
+  /** 提供中・終了・譲渡（他社へ）・統合（合併先で継続）・休止・不明 */
+  status: '提供中' | '終了' | '譲渡' | '統合' | '休止' | '不明';
   tags?: string[];
+  startedAt?: string;
+  endedAt?: string;
+  successor?: string;
+  milestones?: { date: string; text: string }[];
+  /** 止まった理由（END_REASONS のキー） */
+  endReasons?: string[];
+  endReasonNote?: string;
+  lessons?: string;
+  sources?: string[];
+  updatedAt?: string;
 };
 
 export type NewsItem = {
