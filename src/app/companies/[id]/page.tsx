@@ -49,7 +49,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
         {c.description && <p className="lead">{c.description}</p>}
         {c.highlight && <p className="co-highlight"><b>注目</b>{c.highlight}</p>}
         {c.scopeNote && <p className="co-scope"><b>現在の事業</b>{c.scopeNote}</p>}
-        {c.ended && <p className="co-scope ended"><b>{c.exit === '対象外' ? '掲載対象外' : '事業終了'}{c.ended.date ? `（${ym(c.ended.date)}）` : ''}</b>{c.ended.note}{c.ended.successor ? ` 事業の引き継ぎ先: ${c.ended.successor}。` : ''}</p>}
+        {c.ended && <p className="co-scope ended"><b>{c.exit === '対象外' ? '掲載対象外' : c.exit === '活動停止' ? '活動停止（確認できず）' : '事業終了'}{c.ended.date ? `（${ym(c.ended.date)}）` : ''}</b>{c.ended.note}{c.ended.lastActiveAt ? ` 最後に確認できた活動は${ym(c.ended.lastActiveAt)}。` : ''}{c.ended.successor ? ` 事業の引き継ぎ先: ${c.ended.successor}。` : ''}</p>}
         {!c.ended && c.statusNote && <p className="co-scope warn"><b>現状</b>{c.statusNote}</p>}
       </div>
 
@@ -125,7 +125,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             <h3>企業情報</h3>
             <dl className="kv">
               {c.hp && (<><dt>Webサイト</dt><dd><a href={c.hp} target="_blank" rel="noreferrer">{c.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
-              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : ['閉鎖', '合併', '対象外'].includes(c.exit) ? 'closed' : ''}`}>{c.exit}</span>{c.listedMarket && <span className="small muted"> {c.listedMarket}</span>}</dd>
+              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : ['閉鎖', '合併', '活動停止', '対象外'].includes(c.exit) ? 'closed' : ''}`}>{c.exit}</span>{c.listedMarket && <span className="small muted"> {c.listedMarket}</span>}</dd>
               {c.mergedInto && (<><dt>合併先</dt><dd>{c.mergedInto.companyId ? <Link href={`/companies/${c.mergedInto.companyId}/`}>{c.mergedInto.name}</Link> : c.mergedInto.name}<span className="small muted">（吸収合併により消滅）</span></dd></>)}
               {c.formerNames?.length ? (<><dt>旧社名</dt><dd>{c.formerNames.join('、')}</dd></>) : null}
               {c.foundedYear && (<><dt>創業</dt><dd>{c.foundedYear}年</dd></>)}

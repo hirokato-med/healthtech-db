@@ -5,8 +5,8 @@ import type { Category, Company } from '@/lib/types';
 
 type Lite = Pick<Company, 'id' | 'name' | 'categories' | 'description' | 'prefecture' | 'foundedYear' | 'exit'> & { isNew?: boolean; aliases?: string[] };
 
-/** 閉鎖・合併・対象外は、記録として残すが一覧では既定で隠す */
-const ENDED = ['閉鎖', '合併', '対象外'];
+/** 閉鎖・合併・活動停止・対象外は、記録として残すが一覧では既定で隠す */
+const ENDED = ['閉鎖', '合併', '活動停止', '対象外'];
 
 export function CompanyFilter({ companies, categories, initialCategory = '' }: { companies: Lite[]; categories: Category[]; initialCategory?: string }) {
   const [q, setQ] = useState('');
@@ -55,6 +55,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
           <option>バイアウト</option>
           <option>閉鎖</option>
           <option>合併</option>
+          <option value="活動停止">活動停止（確認できず）</option>
           <option>対象外</option>
         </select>
         <select value={pref} onChange={(e) => setPref(e.target.value)} aria-label="本社所在地">

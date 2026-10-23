@@ -45,6 +45,8 @@ export type Company = {
   scopeNote?: string;
   /** 事業を終えた会社の記録（exit が「閉鎖」のとき）。date は終了した時期 YYYY-MM／YYYY */
   ended?: { date?: string; lastActiveAt?: string; successor?: string; note: string };
+  /** 「活動停止」にする前の上場区分（活動が確認できたら戻す） */
+  previousExit?: string;
   /** 事業の継続が確認できない会社の注記（厚生年金の全喪など） */
   statusNote?: string;
   employeesAsOf?: string;

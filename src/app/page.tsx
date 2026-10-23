@@ -40,7 +40,7 @@ export default function Home() {
   const featured = getFeaturedCompanies().slice(0, 6);
   // 今回の更新で新しく収録した会社のうち、注目理由（資金調達・承認など）が書けたものを創業の新しい順に
   const fresh = companies
-    .filter((c) => c.source.startsWith('Healthtech DB 編集部調べ') && c.highlight && (c.foundedYear ?? 0) >= 2018)
+    .filter((c) => c.source.startsWith('Healthtech DB 編集部調べ') && c.highlight && (c.foundedYear ?? 0) >= 2018 && !['閉鎖', '合併', '活動停止', '対象外'].includes(c.exit))
     .sort((a, b) => (b.foundedYear ?? 0) - (a.foundedYear ?? 0) || a.name.localeCompare(b.name, 'ja'))
     .slice(0, 6);
   const freshTotal = companies.filter((c) => c.source.startsWith('Healthtech DB 編集部調べ')).length;
