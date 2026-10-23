@@ -48,6 +48,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
           <option>上場</option>
           <option>未上場</option>
           <option>バイアウト</option>
+          <option>閉鎖</option>
         </select>
         <select value={pref} onChange={(e) => setPref(e.target.value)} aria-label="本社所在地">
           <option value="">所在地</option>
@@ -80,7 +81,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
             <div className="meta">
               {c.prefecture && <span>{c.prefecture}</span>}
               {c.foundedYear && <span>{c.foundedYear}年創業</span>}
-              <span className={`badge ${c.exit === '上場' ? 'listed' : ''}`}>{c.exit}</span>
+              <span className={`badge ${c.exit === '上場' ? 'listed' : c.exit === '閉鎖' ? 'closed' : ''}`}>{c.exit}</span>
             </div>
           </article>
         ))}

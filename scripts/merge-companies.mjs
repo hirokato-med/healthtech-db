@@ -9,7 +9,8 @@
  * 更新ファイル（JSON 配列）: { id, name, changes: { exit, listedMarket, eventDate, parentCompany,
  *   representatives, hp, renamedFrom }, summary, sources }
  *
- * - 既存と同じ会社（社名のゆらぎ・公式サイトのドメインで判定）は追加しない。
+ * - 先に既存の更新（社名変更など）を当て、そのあと追加する。
+ * - 既存と同じ会社（社名のゆらぎ・公式サイトのドメインで判定）は追加せず、空いている項目だけ埋める。
  * - id は法人番号（13桁）。無ければ jp-NNN を振る。
  * - 創業者・代表者は人物DBにも足す。
  */
@@ -61,13 +62,60 @@ const addRole = (name, c, title) => {
   else if (r.title !== title && !r.title.includes(title)) r.title = r.title === '創業者' ? '創業者・代表者' : `${r.title}・${title}`;
 };
 
-// ---------- 追加 ----------
+// ---------- 既存の更新 ----------
+let changed = 0;
 let added = 0;
 const skipped = [];
+for (const f of updates) {
+  for (const u of load(f)) {
+    const c = companies.find((x) => x.id === u.id);
+    if (!c) { skipped.push(`更新対象なし: ${u.id} ${u.name}`); continue; }
+    const ch = u.changes ?? {};
+    if (ch.renamedFrom || (u.name && u.name !== c.name)) {
+      c.formerNames = [...new Set([...(c.formerNames ?? []), ch.renamedFrom || c.name])];
+      byName.delete(norm(c.name));
+      c.name = u.name;
+      byName.set(norm(c.name), c);
+      for (const p of people) for (const r of p.roles) if (r.companyId === c.id) r.companyName = c.name;
+    }
+    if (ch.exit) c.exit = ch.exit;
+    if (ch.listedMarket) c.listedMarket = ch.listedMarket;
+    if (ch.parentCompany) c.parentCompany = ch.parentCompany;
+    if (ch.hp) {
+      byHost.set(host(ch.hp), c);
+      c.hp = ch.hp;
+    }
+    if (ch.representatives?.length) {
+      c.representatives = ch.representatives;
+      ch.representatives.forEach((n) => addRole(n, c, '代表者'));
+    }
+    if (u.summary) {
+      c.history = [...(c.history ?? []).filter((h) => h.text !== u.summary), { date: ch.eventDate ?? '', text: u.summary }]
+        .sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+    }
+    c.sources = [...new Set([...(c.sources ?? []), ...(u.sources ?? [])])];
+    c.updatedAt = asOf;
+    changed++;
+  }
+}
+
+// ---------- 追加 ----------
 for (const f of adds) {
   for (const x of load(f)) {
     const dup = byName.get(norm(x.name)) ?? (host(x.hp) && byHost.get(host(x.hp)));
-    if (!x.name || dup) { skipped.push(`${x.name}（既存: ${dup?.name ?? '社名なし'}）`); continue; }
+    if (!x.name) continue;
+    if (dup) {
+      // 既に載っている会社は、空いている項目だけ今回の調査で埋める
+      if (!dup.highlight && x.note) dup.highlight = x.note;
+      // 2021年の投入データのままの説明は、今回の調査の説明に置き換える
+      if (x.description && !dup.source.includes('編集部調べ')) dup.description = x.description;
+      if (!dup.products?.length && x.services?.length) dup.products = x.services;
+      if (!dup.address && x.address) dup.address = x.address;
+      if (!dup.foundedYear && Number.isInteger(x.foundedYear)) dup.foundedYear = x.foundedYear;
+      if (x.sources?.length) dup.sources = [...new Set([...(dup.sources ?? []), ...x.sources])];
+      skipped.push(`${x.name}（既存の ${dup.name} に統合）`);
+      continue;
+    }
     const categories = (x.categories ?? []).filter((s) => catName[s]);
     if (!categories.length) { skipped.push(`${x.name}（カテゴリ不明）`); continue; }
     const corp = /^\d{13}$/.test(x.corporateNumber ?? '') && !ids.has(x.corporateNumber) ? x.corporateNumber : '';
@@ -103,36 +151,6 @@ for (const f of adds) {
     c.founders.forEach((n) => addRole(n, c, '創業者'));
     c.representatives.forEach((n) => addRole(n, c, '代表者'));
     added++;
-  }
-}
-
-// ---------- 既存の更新 ----------
-let changed = 0;
-for (const f of updates) {
-  for (const u of load(f)) {
-    const c = companies.find((x) => x.id === u.id);
-    if (!c) { skipped.push(`更新対象なし: ${u.id} ${u.name}`); continue; }
-    const ch = u.changes ?? {};
-    if (ch.renamedFrom || (u.name && u.name !== c.name)) {
-      c.formerNames = [...new Set([...(c.formerNames ?? []), ch.renamedFrom || c.name])];
-      c.name = u.name;
-      for (const p of people) for (const r of p.roles) if (r.companyId === c.id) r.companyName = c.name;
-    }
-    if (ch.exit) c.exit = ch.exit;
-    if (ch.listedMarket) c.listedMarket = ch.listedMarket;
-    if (ch.parentCompany) c.parentCompany = ch.parentCompany;
-    if (ch.hp) c.hp = ch.hp;
-    if (ch.representatives?.length) {
-      c.representatives = ch.representatives;
-      ch.representatives.forEach((n) => addRole(n, c, '代表者'));
-    }
-    if (u.summary) {
-      c.history = [...(c.history ?? []).filter((h) => h.text !== u.summary), { date: ch.eventDate ?? '', text: u.summary }]
-        .sort((a, b) => (a.date || '').localeCompare(b.date || ''));
-    }
-    c.sources = [...new Set([...(c.sources ?? []), ...(u.sources ?? [])])];
-    c.updatedAt = asOf;
-    changed++;
   }
 }
 

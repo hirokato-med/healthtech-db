@@ -585,3 +585,8 @@ h1, h2, h3, .sec-title h2, .section-head h2, .page-head h1, .box > h2, .panel h3
 .co-history li span { color: var(--teal); font-weight: 700; font-size: 13px; }
 .co-src { margin: 6px 0 0; padding-left: 1.1em; word-break: break-all; }
 .card .badge.new { display: inline-block; margin-left: 8px; background: var(--teal); color: #fff; border-color: var(--teal); font-size: 11px; vertical-align: 2px; }
+.badge.closed { background: var(--bg-2); color: var(--muted-2); text-decoration: line-through; }
+.sec-sub { font-size: 13px; font-weight: 700; color: var(--muted); margin-left: 12px; }
+.co .av.new { background: var(--teal); }
+.co .mt.hl { color: var(--ink); font-weight: 600; line-height: 1.55; display: -webkit-box !important; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; border-top: 1px dashed var(--line); padding-top: 6px; }
+.card .badge.new { width: fit-content; align-self: flex-start; justify-self: start; margin: 4px 0 0; }

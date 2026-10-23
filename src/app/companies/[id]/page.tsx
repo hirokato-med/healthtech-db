@@ -107,12 +107,12 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             <h3>企業情報</h3>
             <dl className="kv">
               {c.hp && (<><dt>Webサイト</dt><dd><a href={c.hp} target="_blank" rel="noreferrer">{c.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
-              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : ''}`}>{c.exit}</span>{c.listedMarket && <span className="small muted"> {c.listedMarket}</span>}</dd>
+              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : c.exit === '閉鎖' ? 'closed' : ''}`}>{c.exit}</span>{c.listedMarket && <span className="small muted"> {c.listedMarket}</span>}</dd>
               {c.formerNames?.length ? (<><dt>旧社名</dt><dd>{c.formerNames.join('、')}</dd></>) : null}
               {c.foundedYear && (<><dt>創業</dt><dd>{c.foundedYear}年</dd></>)}
               {c.prefecture && (<><dt>所在地</dt><dd>{c.prefecture}</dd></>)}
               {c.address && (<><dt>本社住所</dt><dd>{c.address}</dd></>)}
-              {c.employees && (<><dt>従業員数</dt><dd>{c.employees}人</dd></>)}
+              {c.employees && (<><dt>従業員数</dt><dd>{c.employees}人{c.source.includes('2021-09') && <span className="small muted">（2021年時点）</span>}</dd></>)}
               {c.founders.length > 0 && (<><dt>創業者</dt><dd>{c.founders.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.representatives.length > 0 && (<><dt>代表者</dt><dd>{c.representatives.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.origin && (<><dt>成り立ち</dt><dd>{c.origin}</dd></>)}

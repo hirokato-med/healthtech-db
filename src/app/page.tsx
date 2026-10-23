@@ -38,6 +38,12 @@ export default function Home() {
   const episodes = getMonthly();
   const latest = episodes[0];
   const featured = getFeaturedCompanies().slice(0, 6);
+  // 今回の更新で新しく収録した会社のうち、注目理由（資金調達・承認など）が書けたものを創業の新しい順に
+  const fresh = companies
+    .filter((c) => c.source.startsWith('Healthtech DB 編集部調べ') && c.highlight && (c.foundedYear ?? 0) >= 2018)
+    .sort((a, b) => (b.foundedYear ?? 0) - (a.foundedYear ?? 0) || a.name.localeCompare(b.name, 'ja'))
+    .slice(0, 6);
+  const freshTotal = companies.filter((c) => c.source.startsWith('Healthtech DB 編集部調べ')).length;
   const listed = companies.filter((c) => c.exit === '上場').length;
   const catStats = cats
     .map((c) => {
@@ -161,6 +167,24 @@ export default function Home() {
               </Link>
             ))}
           </div>
+          {fresh.length > 0 && (
+            <>
+              <div className="sec-title" style={{ marginTop: 44 }}><h2>新しく収録した企業<small className="sec-sub">今回の更新で {freshTotal} 社を追加</small></h2><Link href="/companies/" className="more arrow">追加した企業をすべて見る</Link></div>
+              <div className="co-grid">
+                {fresh.map((c) => (
+                  <Link key={c.id} href={`/companies/${c.id}/`} className="co">
+                    <span className="av new">{initialOf(c.name)}</span>
+                    <span>
+                      <span className="ct" style={{ display: 'block' }}>{categoryName(c.categories[0] ?? '')}・{c.foundedYear}年創業</span>
+                      <span className="nm" style={{ display: 'block' }}>{c.name}</span>
+                      <span className="ds" style={{ display: '-webkit-box' }}>{c.description}</span>
+                      <span className="mt hl" style={{ display: 'block' }}>{c.highlight}</span>
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </>
+          )}
         </div>
       </section>
 
