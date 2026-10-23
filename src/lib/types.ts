@@ -30,6 +30,10 @@ export type Company = {
   /** 合弁・子会社として生まれた会社の成り立ち（例: DeNAと住友商事のJV） */
   origin?: string;
   formerNames?: string[];
+  /** 略称・旧表記（検索用） */
+  aliases?: string[];
+  /** 吸収合併で消滅した会社の合併先（exit が「合併」のとき） */
+  mergedInto?: { name: string; corporateNumber: string; companyId?: string };
   /** 合併などで法人が入れ替わった場合の旧法人番号（until は消滅した年月） */
   formerCorporateNumbers?: { number: string; until?: string; note?: string }[];
   /** 交代した前の代表者（until は交代した年月 YYYY-MM／YYYY。不明なら空） */

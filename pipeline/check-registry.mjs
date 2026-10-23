@@ -37,7 +37,7 @@ const plain = (html) =>
 async function fetchRecord(num) {
   const { stdout } = await run('curl', ['-sSL', '--max-time', '40', '-A', UA, PAGE(num)], { maxBuffer: 20 << 20 });
   const t = plain(stdout);
-  const name = t.match(/商号又は名称 (.+?) 商号又は名称（フリガナ）/)?.[1]?.trim() ?? '';
+  const name = t.match(/商号又は名称 (.+?) (?:商号又は名称（フリガナ）|本店又は主たる事務所の所在地) /)?.[1]?.trim() ?? ''; // フリガナ未登録の法人もある
   const addrAndStatus = t.match(/本店又は主たる事務所の所在地 (.+?) 最終更新年月日/)?.[1]?.trim() ?? '';
   const [address, status = ''] = addrAndStatus.split(/ 状態 /);
   // 閉鎖の状態欄に「…○○株式会社（1234567890123）に合併し解散」とあれば、合併先の法人番号を取る

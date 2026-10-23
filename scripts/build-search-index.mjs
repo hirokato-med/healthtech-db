@@ -10,7 +10,7 @@ const categories = read('categories.json');
 const catName = Object.fromEntries(categories.map((c) => [c.slug, c.name]));
 const out = [];
 for (const c of read('companies.json'))
-  out.push({ t: 'company', id: c.id, title: c.name, sub: [c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), url: `/companies/${c.id}/` });
+  out.push({ t: 'company', id: c.id, title: c.name, sub: [...(c.aliases ?? []), ...(c.formerNames ?? []), c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), url: `/companies/${c.id}/` });
 for (const s of read('services.json'))
   out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), url: `/services/${s.id}/` });
 for (const p of read('people.json'))

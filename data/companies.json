@@ -175,7 +175,7 @@
   },
   {
     "id": "8120001053779",
-    "name": "株式会社EMシステムズ",
+    "name": "株式会社イーエムシステムズ",
     "hp": "https://emsystems.co.jp/",
     "categories": [
       "medical-dx"
@@ -218,7 +218,10 @@
       "https://emsystems.co.jp/about/history.html",
       "https://emsystems.co.jp/about/officer.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "株式会社EMシステムズ"
+    ]
   },
   {
     "id": "9240001012318",
@@ -627,7 +630,7 @@
   },
   {
     "id": "8010401059998",
-    "name": "Ubicom",
+    "name": "株式会社Ubicomホールディングス",
     "hp": "https://www.ubicom-hd.com/",
     "categories": [
       "medical-dx"
@@ -665,7 +668,10 @@
       "https://www.nikkei.com/nkd/company/gaiyo/?scode=3937",
       "https://kabutan.jp/stock/?code=3937"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "Ubicom"
+    ]
   },
   {
     "id": "1011001035966",
@@ -749,7 +755,7 @@
   },
   {
     "id": "4140001030292",
-    "name": "MTI(エム・ティー・アイ)",
+    "name": "株式会社エムティーアイ",
     "hp": "https://www.mti.co.jp/",
     "categories": [
       "femtech"
@@ -784,8 +790,8 @@
       "クラウドキャスト（株）",
       "（株）ファルモ"
     ],
-    "corporateNumber": "4140001030292",
-    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4140001030292",
+    "corporateNumber": "6011101023123",
+    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011101023123",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "overview": "1996年設立のIT企業で東証プライム上場（9438）。ヘルスケアDXを成長の柱に、女性向け「ルナルナ」シリーズ（オンライン診療・ピル配送の「ルナルナ おくすり便」、法人向け「ルナルナ オフィス」等）、健康管理・健康経営支援の「CARADA」、母子手帳アプリ「母子モ」、健診機関向けクラウド健診システム、薬局向け電子薬歴・調剤情報連携基盤「ファルモクラウド」、クリニック向けクラウド電子カルテ「CLIPLA」を提供。教育・防災気象DXやAIソリューションも手がける。",
@@ -803,7 +809,11 @@
       "https://www.mti.co.jp/?page_id=11",
       "https://www.mti.co.jp/?page_id=37661"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "MTI",
+      "エムティーアイ"
+    ]
   },
   {
     "id": "8011001045281",
@@ -974,7 +984,7 @@
   },
   {
     "id": "3010001090400",
-    "name": "PEACEMIND",
+    "name": "ピースマインド株式会社",
     "hp": "https://www.peacemind.co.jp/",
     "categories": [
       "mental-health"
@@ -1018,6 +1028,9 @@
         "date": "2025-05",
         "text": "2025年5月 タナベコンサルティンググループと資本業務提携し、同グループの一員に"
       }
+    ],
+    "aliases": [
+      "PEACEMIND"
     ]
   },
   {
@@ -1080,7 +1093,7 @@
     "representatives": [
       "肥田義光"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "メドレー",
     "relatedCompanies": [],
     "corporateNumber": "5011101043683",
@@ -1106,7 +1119,12 @@
     "overview": "歯科・医療・介護・福祉分野の求人・転職サイト「グッピー」を運営していた企業。メドレーの子会社となった後、2025年4月1日にメドレーへ吸収合併され解散した。「グッピー」は現在メドレーの運営で継続しており、確認時点で約62万件の求人を掲載。旧コーポレートサイト（guppy.co.jp）はメドレーのサイトへ転送される。",
     "products": [
       "グッピー（医療・介護・福祉の求人・転職サイト）"
-    ]
+    ],
+    "mergedInto": {
+      "name": "株式会社メドレー",
+      "corporateNumber": "4010401082351",
+      "companyId": "4010401082351"
+    }
   },
   {
     "id": "1010401063016",
@@ -1255,7 +1273,7 @@
   },
   {
     "id": "4300001001392",
-    "name": "オプティム(Optim)",
+    "name": "株式会社オプティム",
     "hp": "https://www.optim.co.jp/",
     "categories": [
       "medical-dx"
@@ -1294,7 +1312,10 @@
       "https://www.optim.co.jp/corporate/information",
       "https://www.optim.co.jp/business/medical"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "オプティム(Optim)"
+    ]
   },
   {
     "id": "5010401081856",
@@ -1526,7 +1547,7 @@
     "representatives": [
       "田中雅史"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "GMOヘルステック（GMOインターネットグループ）",
     "relatedCompanies": [],
     "corporateNumber": "8120001099797",
@@ -1556,7 +1577,11 @@
       "AIチャート byGMO",
       "GMOクリニック・マップ",
       "薬局24 byGMO"
-    ]
+    ],
+    "mergedInto": {
+      "name": "GMOヘルステック株式会社",
+      "corporateNumber": "5011001159373"
+    }
   },
   {
     "id": "1011001072836",
@@ -1934,7 +1959,7 @@
     "representatives": [
       "吉井浩一"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "エムスリーソリューションズ（エムスリーグループ）",
     "relatedCompanies": [],
     "corporateNumber": "4010401078275",
@@ -1958,7 +1983,11 @@
       "アイチケット（クラウド版診療予約システム）",
       "待合室サイネージ広告",
       "スマイルタッチ（小児向けプレパレーション支援）"
-    ]
+    ],
+    "mergedInto": {
+      "name": "エムスリーソリューションズ株式会社",
+      "corporateNumber": "8180001002103"
+    }
   },
   {
     "id": "1011001042302",
@@ -2100,7 +2129,7 @@
   },
   {
     "id": "2010001134117",
-    "name": "SMS",
+    "name": "株式会社エス・エム・エス",
     "hp": "https://www.bm-sms.co.jp/",
     "categories": [
       "nursing"
@@ -2145,7 +2174,10 @@
       "https://www.bm-sms.co.jp/service/care/",
       "https://www.bm-sms.co.jp/ir/management/leadership/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "SMS"
+    ]
   },
   {
     "id": "9011101042830",
@@ -2234,7 +2266,7 @@
   },
   {
     "id": "6011001138401",
-    "name": "エイ・アイ・シー",
+    "name": "株式会社エイアイシー",
     "hp": "",
     "categories": [
       "dental"
@@ -2282,6 +2314,9 @@
         "date": "",
         "text": "登録していたドメインは現在別会社のサイト。後継とみられる「ホワイトエッセンス株式会社」との同一性は未確認"
       }
+    ],
+    "aliases": [
+      "エイ・アイ・シー"
     ]
   },
   {
@@ -2686,7 +2721,7 @@
   },
   {
     "id": "5010001115031",
-    "name": "イーエックスパートナーズ",
+    "name": "株式会社イーエックス・パートナーズ",
     "hp": "https://www.ex-partners.co.jp/",
     "categories": [
       "medical-dx"
@@ -2723,7 +2758,10 @@
       "https://www.ex-partners.co.jp/business/",
       "https://www.ex-partners.co.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "イーエックスパートナーズ"
+    ]
   },
   {
     "id": "4013301027145",
@@ -3554,7 +3592,7 @@
   },
   {
     "id": "1010001112445",
-    "name": "MCI",
+    "name": "株式会社エム・シー・アイ",
     "hp": "https://www.medical-ci.co.jp/",
     "categories": [
       "medical-dx"
@@ -3593,7 +3631,10 @@
       "https://www.medical-ci.co.jp/company/history/",
       "https://www.medical-ci.co.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "MCI"
+    ]
   },
   {
     "id": "6011001062543",
@@ -3646,7 +3687,7 @@
   },
   {
     "id": "6011101061817",
-    "name": "ケアリッツ",
+    "name": "株式会社ケアリッツ・アンド・パートナーズ",
     "hp": "https://www.careritz.co.jp/",
     "categories": [
       "nursing"
@@ -3684,7 +3725,10 @@
       "https://www.careritz.co.jp/company/",
       "https://www.careritz.co.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "ケアリッツ"
+    ]
   },
   {
     "id": "6010401078983",
@@ -3729,7 +3773,7 @@
   },
   {
     "id": "9011001073018",
-    "name": "Hospitality One",
+    "name": "株式会社ホスピタリティ・ワン",
     "hp": "https://hospitality-one.co.jp/",
     "categories": [
       "nursing"
@@ -3763,7 +3807,10 @@
       "https://hospitality-one.co.jp/",
       "https://hospitality-one.co.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "Hospitality One"
+    ]
   },
   {
     "id": "5010701026354",
@@ -3993,7 +4040,7 @@
   },
   {
     "id": "4010401082351",
-    "name": "Medley(メドレー)",
+    "name": "株式会社メドレー",
     "hp": "https://www.medley.jp/",
     "categories": [
       "telemedicine"
@@ -4038,11 +4085,14 @@
       "https://www.medley.jp/release/",
       "https://finance.yahoo.co.jp/quote/4480.T/profile"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "Medley(メドレー)"
+    ]
   },
   {
     "id": "3010001128547",
-    "name": "インテグリティヘルスケア",
+    "name": "株式会社インテグリティ・ヘルスケア",
     "hp": "https://www.integrity-healthcare.co.jp/",
     "categories": [
       "telemedicine"
@@ -4084,7 +4134,10 @@
       "https://www.integrity-healthcare.co.jp/company/profile",
       "https://www.integrity-healthcare.co.jp/news/info/2026-09-30-soh"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "インテグリティヘルスケア"
+    ]
   },
   {
     "id": "7010401079733",
@@ -4178,7 +4231,7 @@
   },
   {
     "id": "6011001066651",
-    "name": "シオングループ",
+    "name": "株式会社シオン",
     "hp": "https://sion-group.com/",
     "categories": [
       "recruting-solutions"
@@ -4213,7 +4266,10 @@
       "https://sion-group.com/about/",
       "https://sion-group.com/health-care/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "シオングループ"
+    ]
   },
   {
     "id": "1010401091207",
@@ -4566,7 +4622,7 @@
   },
   {
     "id": "9011001070865",
-    "name": "ウェルビー",
+    "name": "株式会社Welby",
     "hp": "https://welby.jp/",
     "categories": [
       "personal-health-record"
@@ -4607,7 +4663,10 @@
       "https://welby.jp/category/news/pressrelese/",
       "https://finance.yahoo.co.jp/quote/4438.T/profile"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "ウェルビー"
+    ]
   },
   {
     "id": "4010401097060",
@@ -4865,7 +4924,7 @@
   },
   {
     "id": "2140001034246",
-    "name": "MediPrime",
+    "name": "メディプライム株式会社",
     "hp": "http://www.mediprime.co.jp/",
     "categories": [
       "medical-dx"
@@ -4905,7 +4964,10 @@
       "http://www.mediprime.co.jp/Company_info/Company_outline.html",
       "http://www.mediprime.co.jp/business_lineup/business_index.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "MediPrime"
+    ]
   },
   {
     "id": "2011301018406",
@@ -5063,7 +5125,7 @@
     "representatives": [
       "中尾彰宏"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "株式会社イノシア",
     "relatedCompanies": [],
     "corporateNumber": "4010401103256",
@@ -5090,7 +5152,11 @@
       "チームコンパス（TeamCompass）",
       "OKリモート",
       "おみやげカルテ"
-    ]
+    ],
+    "mergedInto": {
+      "name": "株式会社イノシア",
+      "corporateNumber": "1010001222847"
+    }
   },
   {
     "id": "9011003004706",
@@ -5190,7 +5256,7 @@
   },
   {
     "id": "8010401099235",
-    "name": "FiNC",
+    "name": "株式会社FiNC Technologies",
     "hp": "https://finc.com/",
     "categories": [
       "personal-health-record"
@@ -5237,7 +5303,10 @@
       "https://finc.com/",
       "https://finc.com/corporate"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "FiNC"
+    ]
   },
   {
     "id": "1010401101634",
@@ -5466,7 +5535,7 @@
   },
   {
     "id": "7010005017643",
-    "name": "一般社団法人JIGH",
+    "name": "一般社団法人ジェイ・アイ・ジー・エイチ",
     "hp": "http://jigh.org/",
     "categories": [
       "recruting-solutions"
@@ -5493,7 +5562,10 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010005017643"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "一般社団法人JIGH"
+    ]
   },
   {
     "id": "1011501017654",
@@ -6258,7 +6330,7 @@
   },
   {
     "id": "4010401105780",
-    "name": "stransa(ストランザ)",
+    "name": "株式会社ストランザ",
     "hp": "http://stransa.co.jp/",
     "categories": [
       "dental"
@@ -6297,7 +6369,10 @@
       "https://stransa.co.jp/company/profile.html",
       "https://stransa.co.jp/company/history.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "stransa(ストランザ)"
+    ]
   },
   {
     "id": "5490001007866",
@@ -6720,7 +6795,7 @@
     "representatives": [
       "櫻本真理"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "JMDC",
     "relatedCompanies": [
       "株式会社コーチェット"
@@ -6746,7 +6821,12 @@
     "products": [
       "cotree（オンラインカウンセリング）",
       "cotree for Biz"
-    ]
+    ],
+    "mergedInto": {
+      "name": "株式会社JMDC",
+      "corporateNumber": "6010403010531",
+      "companyId": "6010403010531"
+    }
   },
   {
     "id": "8010401115875",
@@ -7221,7 +7301,7 @@
   },
   {
     "id": "1010401110577",
-    "name": "エムスリーデジタルコミュニケーションズ(旧: M-CUBE)",
+    "name": "エムスリーデジタルコミュニケーションズ株式会社",
     "hp": "https://www.m3dc.co.jp/",
     "categories": [
       "medical-dx"
@@ -7312,7 +7392,10 @@
       "https://www.m3dc.co.jp/",
       "https://www.m3dc.co.jp/company/about/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "エムスリーデジタルコミュニケーションズ(旧: M-CUBE)"
+    ]
   },
   {
     "id": "9120001182305",
@@ -7552,7 +7635,7 @@
     "representatives": [
       "宮澤孝夫"
     ],
-    "exit": "閉鎖",
+    "exit": "合併",
     "parentCompany": "株式会社ハルメク",
     "relatedCompanies": [],
     "corporateNumber": "1010001165030",
@@ -7574,7 +7657,11 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001165030",
       "http://ventures.halmek.co.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "mergedInto": {
+      "name": "株式会社ハルメク",
+      "corporateNumber": "7010403009762"
+    }
   },
   {
     "id": "7011001102397",
@@ -7614,7 +7701,7 @@
   },
   {
     "id": "7180001128618",
-    "name": "えぶりプラス",
+    "name": "株式会社エブリ・プラス",
     "hp": "https://everyplus.jp/",
     "categories": [
       "nursing"
@@ -7650,7 +7737,10 @@
       "https://everyplus.jp/company",
       "https://everyplus.jp/blog/pressrelease1/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "えぶりプラス"
+    ]
   },
   {
     "id": "2290001067438",
@@ -8000,7 +8090,7 @@
   },
   {
     "id": "8011101073298",
-    "name": "z-works",
+    "name": "株式会社Z‐Works",
     "hp": "https://z-works.co.jp/",
     "categories": [
       "medical-dx"
@@ -8041,7 +8131,10 @@
       "http://z-works.co.jp/company/",
       "http://z-works.co.jp/wp-content/uploads/2025/10/2025.10.06_news_.pdf"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "z-works"
+    ]
   },
   {
     "id": "6010401119795",
@@ -8435,7 +8528,7 @@
   },
   {
     "id": "6010401120729",
-    "name": "miup Inc",
+    "name": "株式会社miup",
     "hp": "https://miup.jp/",
     "categories": [
       "telemedicine"
@@ -8471,11 +8564,14 @@
       "https://miup.jp/aboutus",
       "https://miup.jp/service"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "miup Inc"
+    ]
   },
   {
     "id": "8010701030873",
-    "name": "Medical Logue",
+    "name": "メディカルローグ株式会社",
     "hp": "http://m-d-l.co.jp/",
     "categories": [
       "personal-health-record"
@@ -8510,11 +8606,14 @@
       "https://m-d-l.co.jp/company/",
       "https://m-d-l.co.jp/works/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "Medical Logue"
+    ]
   },
   {
     "id": "1011001108615",
-    "name": "株式会社ピスケス（旧医科歯科ドットコム株式会社）",
+    "name": "株式会社ピスケス",
     "hp": "https://icashica.com/company",
     "categories": [
       "dental"
@@ -8542,7 +8641,10 @@
       "https://www.e-pisces.net/company/"
     ],
     "updatedAt": "2026-10",
-    "scopeNote": "同名の別会社（福岡の株式会社ピスケス）が多く、DBの法人（豊島区）の現状は確認できていない"
+    "scopeNote": "同名の別会社（福岡の株式会社ピスケス）が多く、DBの法人（豊島区）の現状は確認できていない",
+    "aliases": [
+      "株式会社ピスケス（旧医科歯科ドットコム株式会社）"
+    ]
   },
   {
     "id": "1011001104408",
@@ -8592,7 +8694,7 @@
   },
   {
     "id": "4010401128187",
-    "name": "シルタス(旧アドウェル)",
+    "name": "シルタス株式会社",
     "hp": "https://corp.sirutasu.com/",
     "categories": [
       "health-consulting"
@@ -8626,7 +8728,10 @@
       "https://prtimes.jp/main/html/rd/p/000000064.000031233.html",
       "https://prtimes.jp/main/html/rd/p/000000065.000031233.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "シルタス(旧アドウェル)"
+    ]
   },
   {
     "id": "6010401118228",
@@ -8645,7 +8750,7 @@
       "杉田玲夢"
     ],
     "representatives": [],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "株式会社JMDC",
     "relatedCompanies": [],
     "corporateNumber": "6010401118228",
@@ -8665,8 +8770,17 @@
       {
         "date": "2026-03",
         "text": "2026年3月 「clintal」のサービスを終了"
+      },
+      {
+        "date": "2019-04",
+        "text": "2019年4月 株式会社JMDCに吸収合併され、法人としては消滅"
       }
-    ]
+    ],
+    "mergedInto": {
+      "name": "株式会社JMDC",
+      "corporateNumber": "6010403010531",
+      "companyId": "6010403010531"
+    }
   },
   {
     "id": "5011101073020",
@@ -8921,7 +9035,7 @@
   },
   {
     "id": "6020001113685",
-    "name": "ヘルスケアマーケットジャパン株式会社",
+    "name": "ヘルスケアマーケット・ジャパン株式会社",
     "hp": "http://healthcare-markets.jp/",
     "categories": [
       "recruting-solutions"
@@ -8953,7 +9067,10 @@
     "sources": [
       "https://healthcare-markets.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "ヘルスケアマーケットジャパン株式会社"
+    ]
   },
   {
     "id": "7011001105508",
@@ -9825,7 +9942,7 @@
     "representatives": [
       "吉永和貴"
     ],
-    "exit": "閉鎖",
+    "exit": "合併",
     "parentCompany": "株式会社HERO innovation（JMDCグループ）",
     "relatedCompanies": [],
     "corporateNumber": "6010601050338",
@@ -9857,7 +9974,11 @@
       "メルプWEB問診",
       "メルプ（患者向けアプリ）",
       "メルプドキュメント"
-    ]
+    ],
+    "mergedInto": {
+      "name": "株式会社HERO innovation",
+      "corporateNumber": "6010001151703"
+    }
   },
   {
     "id": "4060003002281",
@@ -10386,7 +10507,7 @@
     "representatives": [
       "伊藤久美"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "ユニファイド・サービス株式会社",
     "relatedCompanies": [],
     "corporateNumber": "4010001174895",
@@ -10407,11 +10528,15 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001131693",
       "https://4ulifecare.com/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "mergedInto": {
+      "name": "ユニファイド・サービス株式会社",
+      "corporateNumber": "9010001131693"
+    }
   },
   {
     "id": "8010001172763",
-    "name": "インディーメディカル",
+    "name": "株式会社インディー・メディカル",
     "hp": "http://www.indee-medical.com/",
     "categories": [
       "medical-device"
@@ -10438,7 +10563,10 @@
     "sources": [
       "http://www.indee-medical.com/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "インディーメディカル"
+    ]
   },
   {
     "id": "9010601050442",
@@ -10459,7 +10587,7 @@
     "representatives": [
       "熊倉利和"
     ],
-    "exit": "閉鎖",
+    "exit": "合併",
     "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "9010601050442",
@@ -10471,7 +10599,17 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010601020283",
       "https://www.hcm.co.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "mergedInto": {
+      "name": "株式会社セルメスタ",
+      "corporateNumber": "5010601020283"
+    },
+    "history": [
+      {
+        "date": "2020-01",
+        "text": "2020年1月 株式会社セルメスタに吸収合併され、法人としては消滅"
+      }
+    ]
   },
   {
     "id": "6120001198816",
@@ -10614,7 +10752,7 @@
   },
   {
     "id": "2011101077222",
-    "name": "株式会社ケアくる",
+    "name": "株式会社ケアクル",
     "hp": "https://corp.carecle.com/",
     "categories": [
       "electronic-health-record"
@@ -10641,7 +10779,10 @@
     "sources": [
       "https://corp.carecle.com/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "株式会社ケアくる"
+    ]
   },
   {
     "id": "7010901037496",
@@ -10753,7 +10894,7 @@
   },
   {
     "id": "8180001101821",
-    "name": "リテラスメディカ",
+    "name": "リテラス・メディカ株式会社",
     "hp": "http://www.literrasmedica.com/",
     "categories": [
       "electronic-health-record"
@@ -10785,7 +10926,10 @@
     "sources": [
       "https://www.literrasmedica.com/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "リテラスメディカ"
+    ]
   },
   {
     "id": "7010001183010",
@@ -11418,7 +11562,7 @@
   },
   {
     "id": "3011001118380",
-    "name": "アイメッド(Ai-med)",
+    "name": "株式会社アイメッド",
     "hp": "https://ai-med.co.jp/",
     "categories": [
       "telemedicine"
@@ -11459,7 +11603,10 @@
     "sources": [
       "https://initial.inc/companies/A-43827"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "アイメッド(Ai-med)"
+    ]
   },
   {
     "id": "3011001117069",
@@ -11962,7 +12109,7 @@
   },
   {
     "id": "3011001122911",
-    "name": "wellness（株式会社ウェルネス）",
+    "name": "株式会社ウェルネス",
     "hp": "https://company.wellness.jp/",
     "categories": [
       "health-consulting"
@@ -11997,7 +12144,10 @@
       "https://www.wellness.jp/",
       "https://company.wellness.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "wellness（株式会社ウェルネス）"
+    ]
   },
   {
     "id": "6010001195683",
@@ -12124,7 +12274,7 @@
   },
   {
     "id": "5011101082335",
-    "name": "アイリス株式会社（Aillis）",
+    "name": "アイリス株式会社",
     "hp": "https://aillis.jp/",
     "categories": [
       "medical-device"
@@ -12157,7 +12307,10 @@
       "https://aillis.jp/",
       "https://www.zaikei.co.jp/releases/3130280/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "アイリス株式会社（Aillis）"
+    ]
   },
   {
     "id": "7010001194206",
@@ -12254,7 +12407,7 @@
     "representatives": [
       "依田佳久"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "PSP株式会社",
     "relatedCompanies": [
       "三井物産株式会社",
@@ -12282,7 +12435,11 @@
     "overview": "医療画像の保管・閲覧・共有をクラウドで行う「NOBORI」を医療機関に提供していた会社。2022年4月1日に、テクマトリックスの医療システム事業の中核子会社であるPSP株式会社に吸収合併されて解散し、NOBORIはPSPの医療画像クラウドサービスとして継続提供されている。旧公式サイト（nobori.ltd）は接続できない。",
     "products": [
       "NOBORI（医療画像クラウド）"
-    ]
+    ],
+    "mergedInto": {
+      "name": "PSP株式会社",
+      "corporateNumber": "6010401024698"
+    }
   },
   {
     "id": "2290001080259",
@@ -12588,7 +12745,7 @@
   },
   {
     "id": "5010001192780",
-    "name": "ジーエルティー",
+    "name": "株式会社ジー・エル・ティー",
     "hp": "",
     "categories": [
       "health-consulting"
@@ -12615,7 +12772,10 @@
     "sources": [
       "https://www.g-l-t.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "ジーエルティー"
+    ]
   },
   {
     "id": "9011001122229",
@@ -12954,7 +13114,7 @@
     "representatives": [
       "熊谷祐"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "株式会社ARETECO HOLDINGS",
     "relatedCompanies": [],
     "corporateNumber": "9010901043682",
@@ -12977,7 +13137,11 @@
     "products": [
       "Relook（マインドフルネス瞑想アプリ）",
       "Relook マインドフルネス研修"
-    ]
+    ],
+    "mergedInto": {
+      "name": "株式会社ARETECO HOLDINGS",
+      "corporateNumber": "4011001113645"
+    }
   },
   {
     "id": "7011001126636",
@@ -13117,7 +13281,7 @@
     "representatives": [
       "出澤剛"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "LINEヤフー",
     "relatedCompanies": [],
     "corporateNumber": "8011101086498",
@@ -13135,7 +13299,11 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101086498",
       "https://www.lycorp.co.jp/ja/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "mergedInto": {
+      "name": "LINEヤフー株式会社",
+      "corporateNumber": "4010401039979"
+    }
   },
   {
     "id": "1011101083989",
@@ -13277,7 +13445,7 @@
     "representatives": [
       "中川亮"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "エンパワーヘルスケア株式会社",
     "relatedCompanies": [
       "アース製薬とエンパワーヘルスケアとのJV"
@@ -13300,7 +13468,12 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401148037",
       "https://corp.earth.jp/jp/news/2019/pdf/20190905-01.pdf"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "mergedInto": {
+      "name": "エンパワーヘルスケア株式会社",
+      "corporateNumber": "5010401081856",
+      "companyId": "5010401081856"
+    }
   },
   {
     "id": "2011001133744",
@@ -13470,7 +13643,7 @@
   },
   {
     "id": "1700150099389",
-    "name": "holoash",
+    "name": "HoloAsh.Inc",
     "hp": "",
     "categories": [
       "mental-health"
@@ -13497,7 +13670,10 @@
     "sources": [
       "https://holoash.com/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "holoash"
+    ]
   },
   {
     "id": "4010701038383",
@@ -14631,7 +14807,7 @@
     "representatives": [
       "藤本俊克"
     ],
-    "exit": "バイアウト",
+    "exit": "合併",
     "parentCompany": "GMOヘルステック（GMOインターネットグループ）",
     "relatedCompanies": [],
     "corporateNumber": "7120001226716",
@@ -14659,7 +14835,11 @@
       "ハヤレジライト",
       "コノヒ",
       "Lacoon"
-    ]
+    ],
+    "mergedInto": {
+      "name": "GMOヘルステック株式会社",
+      "corporateNumber": "5011001159373"
+    }
   },
   {
     "id": "jp-001",
@@ -18631,7 +18811,7 @@
   },
   {
     "id": "2050001043545",
-    "name": "株式会社S'UIMIN",
+    "name": "株式会社S’UIMIN",
     "hp": "https://www.suimin.co.jp/",
     "categories": [
       "sleep",
@@ -18656,7 +18836,10 @@
       "https://www.suimin.co.jp/",
       "https://houjin.jp/c/2050001043545"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "株式会社S'UIMIN"
+    ]
   },
   {
     "id": "3011001155671",
@@ -20380,7 +20563,7 @@
     "representatives": [
       "中元秀昭"
     ],
-    "exit": "未上場",
+    "exit": "合併",
     "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "7200001032569",
@@ -20396,7 +20579,16 @@
       "https://initial.inc/companies/A-45603"
     ],
     "updatedAt": "2026-10",
-    "statusNote": "厚生年金保険の適用事業所が2026年5月に「全喪」（加入する従業員がいなくなった状態）になっている。事業の停止や他社への移管の可能性がある（日本年金機構 適用事業所検索、2026年10月時点）"
+    "mergedInto": {
+      "name": "株式会社さくらコミュニティサービス",
+      "corporateNumber": "1430001033269"
+    },
+    "history": [
+      {
+        "date": "2026-05",
+        "text": "2026年5月 株式会社さくらコミュニティサービスに吸収合併され、法人としては消滅"
+      }
+    ]
   },
   {
     "id": "2360001027797",
@@ -22214,7 +22406,7 @@
   },
   {
     "id": "3140001127775",
-    "name": "株式会社サイト-ファクト",
+    "name": "株式会社サイト‐ファクト",
     "hp": "https://www.cytofacto.com/",
     "categories": [
       "pharma"
@@ -22244,7 +22436,10 @@
       "https://initial.inc/companies/A-LZLLK",
       "https://initial.inc/tags/clinical-trial"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "aliases": [
+      "株式会社サイト-ファクト"
+    ]
   },
   {
     "id": "2120901039676",

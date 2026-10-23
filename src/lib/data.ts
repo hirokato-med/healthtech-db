@@ -44,6 +44,7 @@ export const getArchiveArticles = () => memo('archive', () => read<ArchiveArticl
 /** 社名のゆらぎ（株式会社・空白・大文字小文字）を潰して比較する */
 export const normalizeName = (s: string) =>
   s
+    .normalize('NFKC')
     .toLowerCase()
     .replace(/株式会社|有限会社|合同会社|（株）|\(株\)|inc\.?|co\.,? ?ltd\.?|corporation|k\.k\./g, '')
     .replace(/[\s　・,.、。()（）「」]/g, '')
@@ -56,6 +57,7 @@ export const findCompanyByName = (name: string): Company | undefined => {
   const all = getCompanies();
   return (
     all.find((c) => normalizeName(c.name) === n) ??
+    all.find((c) => [...(c.aliases ?? []), ...(c.formerNames ?? [])].some((a) => normalizeName(a) === n)) ??
     all.find((c) => {
       const cn = normalizeName(c.name);
       return cn.length >= 4 && n.length >= 4 && (cn.includes(n) || n.includes(cn));

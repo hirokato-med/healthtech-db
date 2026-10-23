@@ -124,7 +124,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             <h3>企業情報</h3>
             <dl className="kv">
               {c.hp && (<><dt>Webサイト</dt><dd><a href={c.hp} target="_blank" rel="noreferrer">{c.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
-              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : c.exit === '閉鎖' ? 'closed' : ''}`}>{c.exit}</span>{c.listedMarket && <span className="small muted"> {c.listedMarket}</span>}</dd>
+              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : c.exit === '閉鎖' || c.exit === '合併' ? 'closed' : ''}`}>{c.exit}</span>{c.listedMarket && <span className="small muted"> {c.listedMarket}</span>}</dd>
+              {c.mergedInto && (<><dt>合併先</dt><dd>{c.mergedInto.companyId ? <Link href={`/companies/${c.mergedInto.companyId}/`}>{c.mergedInto.name}</Link> : c.mergedInto.name}<span className="small muted">（吸収合併により消滅）</span></dd></>)}
               {c.formerNames?.length ? (<><dt>旧社名</dt><dd>{c.formerNames.join('、')}</dd></>) : null}
               {c.foundedYear && (<><dt>創業</dt><dd>{c.foundedYear}年</dd></>)}
               {c.prefecture && (<><dt>所在地</dt><dd>{c.prefecture}</dd></>)}

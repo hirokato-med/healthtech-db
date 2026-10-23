@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import type { Category, Company } from '@/lib/types';
 
-type Lite = Pick<Company, 'id' | 'name' | 'categories' | 'description' | 'prefecture' | 'foundedYear' | 'exit'> & { isNew?: boolean };
+type Lite = Pick<Company, 'id' | 'name' | 'categories' | 'description' | 'prefecture' | 'foundedYear' | 'exit'> & { isNew?: boolean; aliases?: string[] };
 
 export function CompanyFilter({ companies, categories, initialCategory = '' }: { companies: Lite[]; categories: Category[]; initialCategory?: string }) {
   const [q, setQ] = useState('');
@@ -20,7 +20,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
         (!cat || c.categories.includes(cat)) &&
         (!exit || c.exit === exit) &&
         (!pref || c.prefecture === pref) &&
-        (!n || c.name.toLowerCase().includes(n) || c.description.toLowerCase().includes(n)),
+        (!n || c.name.toLowerCase().includes(n) || c.description.toLowerCase().includes(n) || !!c.aliases?.some((a) => a.toLowerCase().includes(n))),
     );
     if (sort === 'founded') return [...list].sort((a, b) => (b.foundedYear ?? 0) - (a.foundedYear ?? 0));
     if (sort === 'new') return [...list].sort((a, b) => Number(!!b.isNew) - Number(!!a.isNew));
@@ -49,6 +49,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
           <option>未上場</option>
           <option>バイアウト</option>
           <option>閉鎖</option>
+          <option>合併</option>
         </select>
         <select value={pref} onChange={(e) => setPref(e.target.value)} aria-label="本社所在地">
           <option value="">所在地</option>
@@ -81,7 +82,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
             <div className="meta">
               {c.prefecture && <span>{c.prefecture}</span>}
               {c.foundedYear && <span>{c.foundedYear}年創業</span>}
-              <span className={`badge ${c.exit === '上場' ? 'listed' : c.exit === '閉鎖' ? 'closed' : ''}`}>{c.exit}</span>
+              <span className={`badge ${c.exit === '上場' ? 'listed' : c.exit === '閉鎖' || c.exit === '合併' ? 'closed' : ''}`}>{c.exit}</span>
             </div>
           </article>
         ))}
