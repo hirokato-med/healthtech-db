@@ -751,3 +751,15 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 .prose h2.kato-voice img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; flex: none; }
 .kato-label { display: inline-flex !important; align-items: center; gap: 6px; }
 .kato-label img { width: 22px; height: 22px; border-radius: 50%; object-fit: cover; }
+.profile-600 { padding: 18px 22px; border-radius: var(--radius); background: var(--bg-2); border-left: 3px solid var(--navy); }
+.profile-600 p { margin: 0 0 10px; font-size: 15px; line-height: 1.9; }
+.profile-600 p:last-child { margin-bottom: 0; }
+.profile-600 .pf-name { font-weight: 900; font-size: 17px; }
+.profile-600 .pf-name span { margin-left: 10px; font-size: 13px; color: var(--muted); font-weight: 700; }
+.kato-sections { margin: 0; }
+.kato-sections > div { display: grid; grid-template-columns: 9em 1fr; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.kato-sections dt { font-weight: 900; color: var(--navy); font-size: 14px; }
+.kato-sections dd { margin: 0; }
+.kato-sections ul { margin: 0; padding-left: 1.1em; }
+.kato-sections li { font-size: 14.5px; line-height: 1.8; }
+@media (max-width: 760px) { .kato-sections > div { grid-template-columns: 1fr; gap: 4px; } }

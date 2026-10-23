@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { STOPPED, getCompanies, getPartnerships, getServices } from '@/lib/data';
 import { withBase } from '@/lib/base';
+import { PROFILE_SHORT } from '@/content/profile';
 
 export const metadata: Metadata = {
   title: 'Healthtech DB への想い',
@@ -106,7 +107,7 @@ export default function WhyPage() {
           <div>
             <p>Healthtech DB 運営（個人事業）</p>
             <p className="name"><Link href="/about/kato/">加藤 浩晃</Link></p>
-            <p className="small muted">医師・MBA。元厚生労働省。アイリス株式会社 共同創業者・取締役副社長CSO。YouTube「医療ビジネスチャンネル」で <Link href="/monthly/">#月刊ヘルステック</Link> を配信。<Link href="/about/kato/">自己紹介を読む</Link></p>
+            <p className="small muted">{PROFILE_SHORT}<Link href="/about/kato/">自己紹介を読む</Link></p>
           </div>
         </div>
       </article>
