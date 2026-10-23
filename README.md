@@ -55,7 +55,9 @@ python3 -I scripts/import_companies.py data/raw/companies.xlsx   # xlsx を更�
 ## デプロイ
 
 `next.config.ts` で `output: 'export'` にしているので、`out/` をそのまま GitHub Pages / Vercel / Cloudflare Pages / S3 に置けば動きます。
-ニュースの定期更新は、GitHub Actions や Claude の定期タスクで `node pipeline/news.mjs && git commit && git push` を回す想定です（[healthbiz-news](https://github.com/hirokato-med/healthbiz-news) と同じ運用）。
+毎朝 9:13（JST）に GitHub Actions がニュース（`pipeline/news.mjs`）・#月刊ヘルステック（`pipeline/youtube.mjs`）・企業の追加候補（`pipeline/candidates.mjs`）を取り込み、`data/` の変更を main に自動コミットしてから公開します。手元で作業するときは `git pull` してから始めてください。
+
+追加候補（`data/candidates.json`）から企業DBに入れるときは、確認した内容を JSON にまとめて `node scripts/merge-companies.mjs --as-of YYYY-MM 追加.json --updates 更新.json` で取り込みます。
 
 ## 旧サイトとの対応
 
