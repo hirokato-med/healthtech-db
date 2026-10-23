@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { renderMarkdown } from './markdown';
+import { withBase } from './base';
 import type {
   Article, ArticleMeta, ArchiveArticle, Category, Company, MonthlyEpisode, NewsItem, Overseas, Partnership, Person, Service, Theme,
 } from './types';
@@ -129,11 +130,33 @@ export const getArticles = (): Article[] =>
           featured: Boolean(meta.featured),
           tags: meta.tags ?? [],
           companies: meta.companies ?? [],
-          html: renderMarkdown(content),
+          html: linkCompaniesInTables(renderMarkdown(content)),
         } satisfies Article;
       })
       .sort((a, b) => b.date.localeCompare(a.date));
   });
+/**
+ * 記事の表のセルに書かれた会社名を、企業DBのページへのリンクにする。
+ * 「、」区切りの1項目が社名（または別名・旧社名）と完全に一致するときだけ。後ろの（49%）などの注記は残す。
+ */
+function linkCompaniesInTables(html: string): string {
+  const exact = (name: string) => {
+    const n = normalizeName(name);
+    if (n.length < 2) return undefined;
+    const all = getCompanies();
+    return all.find((c) => normalizeName(c.name) === n) ?? all.find((c) => [...(c.aliases ?? []), ...(c.formerNames ?? [])].some((a) => normalizeName(a) === n));
+  };
+  return html.replace(/<td( class="nw")?>([^<]*)<\/td>/g, (_, cls = '', cell: string) => {
+    const parts = cell.split(/(、|，|\/|／)/).map((seg) => {
+      const m = seg.match(/^(\s*)(.+?)((?:（[^）]*）|\([^)]*\))?\s*)$/);
+      if (!m) return seg;
+      const c = exact(m[2]);
+      return c ? `${m[1]}<a href="${withBase(`/companies/${c.id}/`)}">${m[2]}</a>${m[3]}` : seg;
+    });
+    return `<td${cls}>${parts.join('')}</td>`;
+  });
+}
+
 export const getArticle = (slug: string) => getArticles().find((a) => a.slug === slug);
 export const articlesIn = (slug: string) => getArticles().filter((a) => a.category === slug);
 
