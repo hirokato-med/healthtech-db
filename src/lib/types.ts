@@ -37,6 +37,8 @@ export type Company = {
   overview?: string;
   /** 事業転換などでヘルスケアとの関係が薄くなった会社の注記 */
   scopeNote?: string;
+  /** 事業の継続が確認できない会社の注記（厚生年金の全喪など） */
+  statusNote?: string;
   employeesAsOf?: string;
   totalFunding?: string;
   highlight?: string;

@@ -43,6 +43,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
         {c.description && <p className="lead">{c.description}</p>}
         {c.highlight && <p className="co-highlight"><b>注目</b>{c.highlight}</p>}
         {c.scopeNote && <p className="co-scope"><b>現在の事業</b>{c.scopeNote}</p>}
+        {c.statusNote && <p className="co-scope warn"><b>注意</b>{c.statusNote}</p>}
       </div>
 
       <div className="two-col">
