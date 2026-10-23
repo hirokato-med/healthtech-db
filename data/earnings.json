@@ -1,0 +1,126 @@
+{
+ "6010901037910": {
+  "code": "2936",
+  "reports": [
+   {
+    "fiscalYear": "2027年2月期",
+    "quarter": "Q2",
+    "label": "2027年2月期 第2四半期（中間期）",
+    "date": "2026-10-15",
+    "title": "2027年２月期第２四半期決算短信（日本基準）（非連結）",
+    "consolidated": false,
+    "current": {
+     "revenue": 8352,
+     "operatingIncome": -194,
+     "ordinaryIncome": -195,
+     "netIncome": -255
+    },
+    "prior": {
+     "revenue": 7694,
+     "operatingIncome": -53,
+     "ordinaryIncome": -54,
+     "netIncome": -48
+    },
+    "forecast": {
+     "revenue": 16256,
+     "operatingIncome": 62
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261015551282.pdf",
+    "source": "TDnet XBRL"
+   }
+  ]
+ },
+ "jp-115": {
+  "code": "325A",
+  "reports": [
+   {
+    "fiscalYear": "2026年8月期",
+    "quarter": "FY",
+    "label": "2026年8月期 通期",
+    "date": "2026-10-15",
+    "title": "2026年8月期 決算短信〔日本基準〕(非連結)",
+    "consolidated": false,
+    "current": {
+     "revenue": 33218,
+     "operatingIncome": 3818,
+     "ordinaryIncome": 3819,
+     "netIncome": 2402
+    },
+    "prior": {
+     "revenue": 11134,
+     "operatingIncome": 1167,
+     "ordinaryIncome": 1157,
+     "netIncome": 817
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261015551239.pdf",
+    "source": "TDnet XBRL"
+   }
+  ]
+ },
+ "1011001036766": {
+  "code": "3645",
+  "reports": [
+   {
+    "fiscalYear": "2027年5月期",
+    "quarter": "Q1",
+    "label": "2027年5月期 第1四半期",
+    "date": "2026-10-15",
+    "title": "2027年５月期 第１四半期決算短信〔日本基準〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 1554,
+     "operatingIncome": -21,
+     "ordinaryIncome": -36,
+     "netIncome": -42
+    },
+    "prior": {
+     "revenue": 1561,
+     "operatingIncome": 24,
+     "ordinaryIncome": 53,
+     "netIncome": 21
+    },
+    "forecast": {
+     "revenue": 7000,
+     "operatingIncome": 300,
+     "ordinaryIncome": 277,
+     "netIncome": 146
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261014550426.pdf",
+    "source": "TDnet XBRL"
+   }
+  ]
+ },
+ "1010401101634": {
+  "code": "618A",
+  "reports": [
+   {
+    "fiscalYear": "2026年8月期",
+    "quarter": "FY",
+    "label": "2026年8月期 通期",
+    "date": "2026-10-15",
+    "title": "2026年８月期 決算短信〔日本基準〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 9865,
+     "operatingIncome": 895,
+     "ordinaryIncome": 868,
+     "netIncome": 1079
+    },
+    "prior": {
+     "revenue": 5737,
+     "operatingIncome": -225,
+     "ordinaryIncome": -245,
+     "netIncome": -161
+    },
+    "nextForecast": {
+     "revenue": 13683,
+     "operatingIncome": 1705,
+     "ordinaryIncome": 1674,
+     "netIncome": 1022
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261014550717.pdf",
+    "source": "TDnet XBRL"
+   }
+  ]
+ }
+}

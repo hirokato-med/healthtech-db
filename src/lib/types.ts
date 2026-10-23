@@ -54,6 +54,10 @@ export type Company = {
   employeesAsOf?: string;
   totalFunding?: string;
   highlight?: string;
+  /** 証券コード（東証。JPX「東証上場銘柄一覧」より） */
+  securitiesCode?: string;
+  /** 東証33業種 */
+  industry33?: string;
   /** 外形情報：公式サイト・プレスリリースから見た、どんな事業をいつから、何人の経営陣でやっているか */
   profile?: CompanyProfile;
   history?: { date: string; text: string; source?: string }[];
