@@ -144,5 +144,13 @@ fs.writeFileSync(FILE, JSON.stringify(items, null, 2) + '\n');
 console.error(`news.json: ${items.length}件（新規 ${added}件）`);
 
 function strip(s) {
-  return s.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/\s+/g, ' ').trim();
+  return s
+    .replace(/\u0000/g, '') // PR TIMES の HTML に NUL 文字が混ざることがある
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
+    .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/\s+/g, ' ')
+    .replace(/株\s*式\s*会\s*社/g, '株式会社') // PR TIMES の社名欄に「株式会  社」「株 式会社」が混ざる
+    .trim();
 }

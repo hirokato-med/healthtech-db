@@ -7,6 +7,7 @@
  * - data/news.json のうち企業DBに紐付かなかったリリースを会社ごとにまとめる。
  * - 資金調達・上場・承認・提携などの「事業が動いた」リリースを出した会社ほど上に並べる。
  * - ここでは DB に入れない。編集部が確認して scripts/merge-companies.mjs で取り込む。
+ * - status は「未確認」「確認中」「対象外」。編集部が付けた status は次回以降も残し、「対象外」は一番下に回す。
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -37,6 +38,6 @@ for (const n of news) {
 }
 const out = [...byName.values()]
   .map((c) => ({ ...c, items: c.items.sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5) }))
-  .sort((a, b) => b.signals - a.signals || b.items.length - a.items.length || b.items[0].date.localeCompare(a.items[0].date));
+  .sort((a, b) => Number(a.status === '対象外') - Number(b.status === '対象外') || b.signals - a.signals || b.items.length - a.items.length || b.items[0].date.localeCompare(a.items[0].date));
 fs.writeFileSync(P('candidates.json'), JSON.stringify(out, null, 2) + '\n');
 console.error(`candidates.json: ${out.length}社（うち資金調達・提携などのシグナルあり ${out.filter((c) => c.signals).length}社）`);
