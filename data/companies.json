@@ -5176,10 +5176,14 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000011.000162520.html",
       "https://prtimes.jp/main/html/rd/p/000000009.000162520.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8240001043116"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8240001043116",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=8240001043116",
+      "https://www.medical-net.com/common/doc/ir/r07/ir_r07_20250327.pdf",
+      "https://www.medical-net.com/common/doc/ir/r07/ir_r07_20250418-3.pdf",
+      "https://www.medical-net.com/common/doc/ir/r06/ir_r06_20240105.pdf"
     ],
     "updatedAt": "2026-10",
-    "statusNote": "厚生年金保険の適用事業所が2026年8月に「全喪」（加入する従業員がいなくなった状態）になっている。事業の停止や他社への移管の可能性がある（日本年金機構 適用事業所検索、2026年10月時点）"
+    "statusNote": "2024年1月にメディカルネット（東証グロース3645）の連結子会社となったが、2025年3月に同社が保有株式すべてを代表の加藤俊也氏へ譲渡し、連結から外れた。2025年10月のプレスリリース（オール薬局での乳がんリスク検査の取り扱い開始）が最後の発信。公式サイトのドメイン（mirtel.co.jp）は2026年10月時点で存在しない。2026年8月に厚生年金の適用事業所が全喪となったが、解散・清算の登記は確認できない。（最後に確認できた活動: 2025年10月）"
   },
   {
     "id": "4010401103256",
@@ -5641,12 +5645,14 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010005017643"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010005017643",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=7010005017643"
     ],
     "updatedAt": "2026-10",
     "aliases": [
       "一般社団法人JIGH"
-    ]
+    ],
+    "statusNote": "日本のグローバルヘルス政策の提言を掲げた一般社団法人（JIGH）。公式サイト（jigh.org）はドメインは残るが接続先がなく、Wayback Machineの最終保存は2025年3月。2025年以降の活動は確認できず、解散・清算の登記もない。（最後に確認できた活動: 2025年3月）"
   },
   {
     "id": "1011501017654",
@@ -6043,7 +6049,7 @@
   {
     "id": "9290001064750",
     "name": "アポロテクノロジーズ株式会社",
-    "hp": "https://xirapha.jp/company/",
+    "hp": "https://apollo-hcx.jp/",
     "categories": [
       "electronic-health-record"
     ],
@@ -6077,9 +6083,13 @@
     ],
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9290001064750",
-      "https://xirapha.jp/company/"
+      "https://xirapha.jp/company/",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=9290001064750",
+      "https://initial.inc/companies/A-26521",
+      "https://apollo-hcx.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "statusNote": "旧きりんカルテシステム。2021年2月にクラウド型電子カルテ「きりんカルテ」の事業をPHCへ譲渡し、クアッガテクノロジーズを経て2022年1月に現商号へ変更した。その後は病院経営の可視化ツール「APOLLO HCX」を展開している。2026年4月に本店移転を登記し、製品サイトは公開中。ただし会社サイト（xirapha.jp）は2026年10月時点で503エラーで、厚生年金の適用事業所としての登録も見当たらない。（最後に確認できた活動: 2026年6月）"
   },
   {
     "id": "4010401108924",
@@ -7715,10 +7725,11 @@
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
       "http://hmc-e.com/",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401115113"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401115113",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2010401115113"
     ],
     "updatedAt": "2026-10",
-    "statusNote": "厚生年金保険の適用事業所が2025年8月に「全喪」（加入する従業員がいなくなった状態）になっている。事業の停止や他社への移管の可能性がある（日本年金機構 適用事業所検索、2026年10月時点）"
+    "statusNote": "公式サイトのドメイン（hmc-e.com）は登録が消えており、Wayback Machineにも保存記録がない。厚生年金の適用事業所（届出住所は2018年移転前の西麻布）は2025年8月1日に全喪。活動を示す公開情報は見つからず、解散・清算の登記もない。"
   },
   {
     "id": "1010001165030",
@@ -8372,9 +8383,12 @@
     ],
     "sources": [
       "https://reme-nomal.com/",
-      "https://www.value-press.com/pressrelease/171342"
+      "https://www.value-press.com/pressrelease/171342",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001136208",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=5011001136208"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "statusNote": "匿名オンライン相談サービス「Reme」の運営会社とされる。公式サイト（reme-nomal.com）のドメインは2026年4月にも更新されているが、海外からは403エラーで内容を確認できない。厚生年金の適用事業所の登録はなく、2016年のリリースより後の活動を示す公開情報は見つからない。"
   },
   {
     "id": "9010001172688",
@@ -8451,10 +8465,15 @@
       }
     ],
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001165248"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001165248",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=7010001165248",
+      "https://prtimes.jp/main/html/rd/p/000000001.000048731.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000048731.html",
+      "https://feast.tokyo/policies/legal-notice"
     ],
     "updatedAt": "2026-10",
-    "overview": "2026年4月に株式会社なかよしへ商号変更。旧サイト utw.co.jp は閉鎖済みで、DBに記載のあった関連サイト illuminate-pjt.com も接続できず、現在の事業内容は公開情報で確認できない。"
+    "overview": "2026年4月に株式会社なかよしへ商号変更。旧サイト utw.co.jp は閉鎖済みで、DBに記載のあった関連サイト illuminate-pjt.com も接続できず、現在の事業内容は公開情報で確認できない。",
+    "statusNote": "旧社名ウツワ。2019年に生理日予測と生理用品購入をLINEで完結させるEC「illuminate」を開始し、その後は小胸向け下着ブランド「feast」を運営していた。illuminateのドメインは2026年8月に第三者が取り直しており、feastは現在、株式会社ブルマーレが販売している。2026年4月に株式会社なかよしへ商号変更したが、旧サイト（utw.co.jp）は消えており、現在の事業は確認できない。（最後に確認できた活動: 2026年4月）"
   },
   {
     "id": "4010401121407",
@@ -8498,11 +8517,14 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401121407",
       "https://fcheck.famione.com/",
-      "https://famione.com/"
+      "https://famione.com/",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=4010401121407",
+      "https://initial.inc/companies/A-27890"
     ],
     "updatedAt": "2026-10",
     "overview": "2015年設立。卵巣年齢チェックキット「F check」や不妊治療情報サイト「不妊治療net」を展開していたが、2022年10月にRA株式会社へ商号変更し本店を和歌山市へ移転。旧公式サイト（f-treatment.co.jp）は応答がない。「F check」と「不妊治療net」は2026年10月時点で株式会社ファミワンが運営しており、RA株式会社の現在の事業は確認できない。",
-    "statusNote": "厚生年金保険の適用事業所が2025年7月に「全喪」（加入する従業員がいなくなった状態）になっている。事業の停止や他社への移管の可能性がある（日本年金機構 適用事業所検索、2026年10月時点）"
+    "statusNote": "旧社名F Treatment。卵巣年齢チェックキット「F check」と情報サイト「不妊治療net」は2022年7月に株式会社ファミワンへ事業譲渡され（INITIAL掲載）、現在はファミワンが運営する。2022年10月にRA株式会社へ商号変更、2025年4月に本店を和歌山市へ移し、同年7月に厚生年金の適用事業所が全喪となった。RA株式会社としての事業は確認できない。（最後に確認できた活動: 2022年7月）",
+    "scopeNote": "卵巣年齢チェックキット「F check」と情報サイト「不妊治療net」は2022年7月にファミワンへ譲渡"
   },
   {
     "id": "4011001105758",
@@ -9251,7 +9273,7 @@
   {
     "id": "7011101071212",
     "name": "ハイズ",
-    "hp": "https://www.highz-inc.jp/",
+    "hp": "https://highz-inc.co.jp/",
     "categories": [
       "recruting-solutions"
     ],
@@ -9276,7 +9298,12 @@
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "overview": "医師でMBAの裵英洙が代表を務める、医療機関向け経営コンサルティング会社。ヘルスケアビジネスのアドバイザリー、講演・執筆なども手がける。公式サイトの旧URL（highz-inc.jp）は接続できず、ケアネット掲載情報に記載の highz-inc.co.jp も2026年10月時点で403エラーとなり内容を確認できない。",
     "sources": [
-      "https://www.carenet.com/series/highz/cg002052_index.html"
+      "https://www.carenet.com/series/highz/cg002052_index.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011101071212",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=7011101071212",
+      "https://capitalmedicaventures.com/team/1-12/",
+      "https://carenetv.carenet.com/instructor/detail.php?instructor_id=528",
+      "https://tha.or.jp/kensyu/2023_0304.html"
     ],
     "updatedAt": "2026-10"
   },
@@ -10707,12 +10734,18 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
-      "http://www.indee-medical.com/"
+      "http://www.indee-medical.com/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010001172763",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=8010001172763",
+      "https://initial.inc/companies/A-17102",
+      "https://www.biospace.com/avita-medical-announces-collaboration-with-cosmotec-an-m3-group-company-to-commercialize-the-recell-system-in-japan",
+      "https://nk.jiho.jp/index.php/article/169125"
     ],
     "updatedAt": "2026-10",
     "aliases": [
       "インディーメディカル"
-    ]
+    ],
+    "statusNote": "2016年に豪Avita Medicalと自家表皮細胞懸濁液移植キット「ReCell」の国内独占開発・販売契約を結んだが、2019年3月にAvitaはエムスリーグループのコスモテックとの国内商業化提携を発表し、2022年2月にコスモテックが製造販売承認を取得した。公式サイト（indee-medical.com）は404で、Wayback Machineの最終保存は2022年6月。（最後に確認できた活動: 2022年6月）"
   },
   {
     "id": "9010601050442",
@@ -10904,7 +10937,7 @@
   {
     "id": "2011101077222",
     "name": "株式会社ケアクル",
-    "hp": "https://corp.carecle.com/",
+    "hp": "https://carecle.com/",
     "categories": [
       "electronic-health-record"
     ],
@@ -10928,7 +10961,10 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
-      "https://corp.carecle.com/"
+      "https://corp.carecle.com/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2011101077222",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2011101077222",
+      "https://boxil.jp/service/11973/"
     ],
     "updatedAt": "2026-10",
     "aliases": [
@@ -11038,10 +11074,12 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
-      "https://about.meily.co.jp/"
+      "https://about.meily.co.jp/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010401135298",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=5010401135298"
     ],
     "updatedAt": "2026-10",
-    "statusNote": "厚生年金保険の適用事業所が2026年3月に「全喪」（加入する従業員がいなくなった状態）になっている。事業の停止や他社への移管の可能性がある（日本年金機構 適用事業所検索、2026年10月時点）"
+    "statusNote": "美容医療SNS「Meily」の運営会社。会社サイトのドメイン（meily.co.jp）は消滅しており、Wayback Machineの最終保存は2023年5月。日本のApp Storeで「Meily」は見つからない。2026年3月5日に厚生年金の適用事業所が全喪。解散・清算の登記はなく、2023年以降の活動は確認できない。（最後に確認できた活動: 2023年5月）"
   },
   {
     "id": "8180001101821",
@@ -11361,9 +11399,14 @@
     ],
     "sources": [
       "https://www.kuraseru.co.jp/",
-      "https://thebridge.jp/2018/06/kuraseru-seed-round-funding"
+      "https://thebridge.jp/2018/06/kuraseru-seed-round-funding",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1140001107738",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=1140001107738",
+      "https://startup-db.com/companies/qMx4GvQUyNvJzabQ",
+      "https://prtimes.jp/main/html/rd/p/000000007.000034871.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "statusNote": "病院の退院調整と介護施設をつなぐ「KURASERU」の運営会社。2023年9月に本店を大阪へ、2025年10月に神戸市中央区浪花町（KiP内）へ移した。法人として人を雇っているが、公式サイトのドメイン（kuraseru.co.jp）は2025年10月を最後に消滅し、プレスリリースは2021年1月の前澤ファンドからの調達が最後。サービスの現状は確認できない。（最後に確認できた活動: 2025年10月）"
   },
   {
     "id": "5030001122133",
@@ -11942,7 +11985,11 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401129641",
       "https://spoby.jp/",
       "https://spoby.jp/company/index.html",
-      "https://cuveyes.com/"
+      "https://cuveyes.com/",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=2010401129641",
+      "https://spoby.jp/news/index.html",
+      "https://play.google.com/store/apps/details?id=com.cuveyes.jp.spoby",
+      "https://prtimes.jp/companyrdf.php?company_id=31367"
     ],
     "updatedAt": "2026-10",
     "overview": "人々の歩行習慣を増やして健康と環境の課題を同時に解決することを目指すアプリ開発企業。歩数や徒歩・自転車移動を記録し、乗り物利用を代替した分のCO2削減量をスコア化するアプリ「SPOBY」を運営。自治体・企業向けには住民や社員の健康状態の可視化、脱炭素量の集計、近隣店舗の特典による地域活性化の仕組みを提供し、企業向け指標「Actrust-Zero」や市民参加型「脱炭素エキデン」を展開。三重県・大阪府・愛知県など東海・関西で連携が広がる。旧社名CUVEYES、2023年4月に現商号へ変更。",
@@ -11953,7 +12000,7 @@
       "脱炭素エキデン",
       "Actrust-Zero"
     ],
-    "statusNote": "厚生年金保険の適用事業所が2025年12月に「全喪」（加入する従業員がいなくなった状態）になっている。事業の停止や他社への移管の可能性がある（日本年金機構 適用事業所検索、2026年10月時点）"
+    "statusNote": "アプリ「SPOBY」の公式サイトは公開されたままで、ニュースは2025年11月が最後。同月に告知した愛知のイベントは「中止」と追記された。Android版アプリは2026年2月に更新されたが、2025年12月26日に厚生年金の適用事業所が全喪となった。解散・清算の登記はなく、2026年2月より後の活動は確認できない。（最後に確認できた活動: 2026年2月）"
   },
   {
     "id": "1010401129782",
@@ -12147,9 +12194,12 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
-      "https://wellmarket.jp/"
+      "https://wellmarket.jp/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010901041519",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=3010901041519"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "statusNote": "公式サイト（wellmarket.jp）はStudioの公開ページが外されており「Page not found」になる。厚生年金の適用事業所の登録はなく、薬剤師求人サイトなどの事業を示す公開情報も見つからない。解散・清算の登記はない。"
   },
   {
     "id": "6120001210860",
@@ -12179,9 +12229,13 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
-      "https://novenine.com/aboutus"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6120001210860",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=6120001210860",
+      "https://www.makuake.com/project/novenine_smash",
+      "https://initial.inc/companies/A-30845"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "statusNote": "口臭を測るスマート電動歯ブラシ「NOVENINE SMASH」を2021年3月にMakuakeで先行販売した。公式ドメイン（novenine.com）は2023年4月に第三者が登録し直しており、現在は無関係の賭博サイトへ転送される。2022年8月に本店を堺市へ移した。法人は存続しているとみられるが、製品・事業の現況は確認できない。（最後に確認できた活動: 2021年3月）"
   },
   {
     "id": "4010001190199",
@@ -12823,10 +12877,14 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000003.000083339.html",
       "https://prtimes.jp/main/html/rd/p/000000002.000083339.html",
-      "https://prtimes.jp/main/html/rd/p/000000001.000083339.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000083339.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001191789",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=7010001191789",
+      "https://initial.inc/companies/A-31823",
+      "https://www.jomdd.com/portfolio/"
     ],
     "updatedAt": "2026-10",
-    "statusNote": "厚生年金保険の適用事業所が2026年7月に「全喪」（加入する従業員がいなくなった状態）になっている。事業の停止や他社への移管の可能性がある（日本年金機構 適用事業所検索、2026年10月時点）"
+    "statusNote": "2025年9月に「SaMD QMS Starter Kit」の提供開始を発表したのが最後の発信。公式サイト（savemedical.jp）はドメインは残るが接続先がなく閲覧できない。2025年10月と2026年4月に本店移転を登記した一方、2026年7月に厚生年金の適用事業所が全喪。スピーダ（INITIAL）は2026年8月26日で同社の調査を終了した。解散・清算の登記はない。（最後に確認できた活動: 2025年9月）"
   },
   {
     "id": "7011001121918",
@@ -12939,12 +12997,14 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
-      "https://www.g-l-t.jp/"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001192780",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=5010001192780"
     ],
     "updatedAt": "2026-10",
     "aliases": [
       "ジーエルティー"
-    ]
+    ],
+    "statusNote": "公式サイト（g-l-t.jp）は、同じサーバー上の火災保険申請サイト（kasaihoken-shinsei.jp）へ転送されるようになっており、転送先も証明書切れや503で閲覧できない。Wayback Machineの最終保存は2024年5月。法人は存続しているが、ヘルスケア事業の活動は確認できない。（最後に確認できた活動: 2024年5月）"
   },
   {
     "id": "9011001122229",
@@ -13188,8 +13248,8 @@
   },
   {
     "id": "2010502020121",
-    "name": "メディカルフューチャー",
-    "hp": "http://www.medical-f.com/",
+    "name": "株式会社メディカルフューチャー",
+    "hp": "",
     "categories": [
       "simple-inspection"
     ],
@@ -13197,7 +13257,7 @@
     "description": "指先1滴の血液で検査できる郵送型の血液検査サービス「ketsuken」を提供していた",
     "prefecture": "東京都",
     "foundedYear": 2019,
-    "address": "東京都台東区東上野２丁目８番８号エステート梶山１Ｆ",
+    "address": "東京都中央区銀座",
     "employees": "",
     "founders": [
       "富川雅雄"
@@ -13208,8 +13268,8 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [],
-    "corporateNumber": "",
-    "corporateNumberUrl": "",
+    "corporateNumber": "5010001197838",
+    "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001197838",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "overview": "指先から採るわずかな血液で検査できる郵送型の血液検査サービス「ketsuken」を運営。2021年には自宅で完結するPCR検査セットと、陽性者向けのオンライン診療を提供した。2022年10月に三井住友海上あいおい生命と提携し、保険契約者に血液検査を提供。2023年2月には、検査で異常値が出た人が医師の診療を受けられる「ketsuken オンライン診療」を始めた。その後のプレスリリースはなく、旧サイトとPR TIMES掲載のサイトはどちらも接続できない。",
@@ -13220,9 +13280,23 @@
     ],
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000015.000024660.html",
-      "https://prtimes.jp/main/html/rd/p/000000014.000024660.html"
+      "https://prtimes.jp/main/html/rd/p/000000014.000024660.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010502020121",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001197838",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=5010001197838",
+      "https://prtimes.jp/companyrdf.php?company_id=24660"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "statusNote": "指先1滴の血液で調べる郵送型の血液検査サービス「ketsuken」を運営していた。2023年2月の「ketsuken オンライン診療」開始が最後の発信で、2025年7月に厚生年金の適用事業所が全喪。ketsuken.jp は無関係のサイトへ転送され、会社サイトも閲覧できない。解散・清算の登記は確認できない。（最後に確認できた活動: 2023年2月）",
+    "aliases": [
+      "メディカルフューチャー"
+    ],
+    "history": [
+      {
+        "date": "",
+        "text": "以前DBに登録していた法人番号は、2016年に清算結了した同名の別法人（有限会社メディカル・フューチャー）のものだったため、運営会社の番号に修正"
+      }
+    ]
   },
   {
     "id": "5010501043871",
@@ -13570,9 +13644,12 @@
     ],
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000007.000046668.html",
-      "https://prtimes.jp/main/html/rd/p/000000003.000046668.html"
+      "https://prtimes.jp/main/html/rd/p/000000003.000046668.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001127462",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=5011001127462"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "statusNote": "サプリ・OTC医薬品の情報メディア「alloeh」の運営会社。プレスリリースは2020年11月が最後で、alloeh.jp は2026年1月以降、サーバーの初期ページだけになっている（Wayback Machineの最終保存は2025年5月）。2023年3月に本店を代々木へ移した。法人は存続しているが、メディア事業の継続は確認できない。（最後に確認できた活動: 2020年11月）"
   },
   {
     "id": "6011001116530",
@@ -13860,12 +13937,14 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
-      "https://holoash.com/"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1700150099389",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=1700150099389"
     ],
     "updatedAt": "2026-10",
     "aliases": [
       "holoash"
-    ]
+    ],
+    "statusNote": "ADHDの当事者である岸慶紀氏が創業した米デラウェア州法人で、日本の事務所を渋谷に置く。ADHD向けAIフレンドアプリ「Nao.」「Ashley」を開発したが、公式ドメイン（holoash.com）は現在タイ語の宝くじサイトになっており、アプリのドメイン（ashley.chat）は売りに出されている。2021年より後の活動は確認できない。（最後に確認できた活動: 2021年）"
   },
   {
     "id": "4010701038383",
@@ -14971,7 +15050,7 @@
   {
     "id": "1011001129784",
     "name": "Obot AI",
-    "hp": "https://obotai-healthcare.com/",
+    "hp": "https://obot-ai.com/",
     "categories": [
       "insuarance"
     ],
@@ -14992,9 +15071,14 @@
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "sources": [
       "https://obotai-healthcare.com/",
-      "https://prtimes.jp/main/html/rd/p/000000044.000036236.html"
+      "https://prtimes.jp/main/html/rd/p/000000044.000036236.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001129784",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=1011001129784",
+      "https://obot-ai.com/company/",
+      "https://prtimes.jp/main/html/rd/p/000000116.000036236.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "scopeNote": "健保向けの「ObotAIヘルスケア」はサイトが2024年2月からメンテナンス中。現在は多言語AIチャットボットやAIエージェントの受託開発が中心"
   },
   {
     "id": "7120001226716",
@@ -19671,7 +19755,7 @@
   {
     "id": "8120901047764",
     "name": "ウェルヘルス株式会社",
-    "hp": "",
+    "hp": "https://wellhealth.tech/lp/",
     "categories": [
       "health-corporate-management",
       "health-insuarance-market"
@@ -19694,10 +19778,14 @@
     "highlight": "2024年6月 エンジェルラウンドが出資。創業約1年半で200社導入",
     "sources": [
       "https://sogyotecho.jp/news/20240611wellhealth/",
-      "https://houjin.jp/c/8120901047764"
+      "https://houjin.jp/c/8120901047764",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120901047764",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=8120901047764",
+      "https://initial.inc/companies/A-FXJWZ",
+      "https://wellhealth.tech/lp/"
     ],
     "updatedAt": "2026-10",
-    "statusNote": "厚生年金保険の適用事業所が2026年6月に「全喪」（加入する従業員がいなくなった状態）になっている。事業の停止や他社への移管の可能性がある（日本年金機構 適用事業所検索、2026年10月時点）"
+    "statusNote": "労災保険を使う二次健康診断の導入支援サービス「Wellhealth」を提供。サービスLPは公開中で、2026年4月にも4月30日開催のセミナーを告知していたが、2026年6月に厚生年金の適用事業所が全喪となった。解散・清算の登記はなく、全喪後の活動は確認できない。（最後に確認できた活動: 2026年4月）"
   },
   {
     "id": "2010001213861",
@@ -20758,10 +20846,13 @@
     ],
     "highlight": "センサーと看護師による遠隔見守り看護モデル",
     "sources": [
-      "https://initial.inc/companies/A-KQGMA"
+      "https://initial.inc/companies/A-KQGMA",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5290001092557",
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=5290001092557",
+      "https://m-kango.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "statusNote": "厚生年金保険の適用事業所が2026年5月に「全喪」（加入する従業員がいなくなった状態）になっている。事業の停止や他社への移管の可能性がある（日本年金機構 適用事業所検索、2026年10月時点）"
+    "statusNote": "看護師が24時間遠隔で見守るサービスを展開。公式サイトは公開中だが、ブログは2025年7月（横須賀市との防災協定による合同訓練の開始）が最後。2026年5月に厚生年金の適用事業所が全喪となった。解散・清算の登記はなく、2025年夏より後の活動は確認できない。（最後に確認できた活動: 2025年7月）"
   },
   {
     "id": "8010001182713",
