@@ -65,7 +65,7 @@ export default function Home() {
           <div>
             <span className="eyebrow2">HEALTHTECH DATABASE</span>
             <h1>ヘルスケアビジネスを、<br /><span>データで見渡す。</span></h1>
-            <p className="lead">国内ヘルステック企業の事業・サービス・人物・ニュースを、疾患／ソリューション／事業領域の3軸でつなげたデータベースです。</p>
+            <p className="lead">ヘルスケアの事業開発の「PubMed」を目指すデータベースです。これまでにどんな事業があり、いまどうなっているのか。閉鎖・合併した会社も含めて、出典つきで記録しています。<Link href="/about/why/" className="why-link">なぜつくったのか</Link></p>
             <form className="hero-search" action={withBase('/search/')} method="get" role="search">
               <input type="search" name="q" placeholder="企業名・サービス名・人物・カテゴリで探す" aria-label="キーワード" />
               <button type="submit">検索</button>

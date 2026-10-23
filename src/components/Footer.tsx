@@ -35,6 +35,7 @@ export function Footer() {
             <h4>サイト情報</h4>
             <ul>
               <li><Link href="/about/">{SITE_NAME} とは</Link></li>
+              <li><Link href="/about/why/">なぜつくったのか</Link></li>
               <li><a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正の依頼</a></li>
               <li><Link href="/terms/">利用規約</Link></li>
               <li><Link href="/privacy/">プライバシーポリシー</Link></li>

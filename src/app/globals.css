@@ -605,3 +605,9 @@ h1, h2, h3, .sec-title h2, .section-head h2, .page-head h1, .box > h2, .panel h3
 @media (max-width: 760px) { .archive-row { grid-template-columns: 1fr !important; } }
 .co-scope.ended b { background: #ececec; color: #4b5563; }
 .ended-toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); white-space: nowrap; }
+.why-link { margin-left: 8px; font-weight: 700; white-space: nowrap; }
+.prose.why h2 { margin-top: 36px; }
+.prose.why .signature { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); }
+.prose.why .signature p { margin: 0; }
+.prose.why .signature .name { font-size: 22px; font-weight: 900; margin: 4px 0 6px; }
+.why-links { display: flex; gap: 12px; flex-wrap: wrap; margin: 32px 0 8px; }
