@@ -14,7 +14,7 @@ export function Footer() {
         <div className="cols">
           <div>
             <div className="flogo"><b>{SITE_NAME}</b><span>{SITE_NAME_EN}</span></div>
-            <p>医師・<Link href="/about/kato/" style={{ color: 'inherit', textDecoration: 'underline' }}>加藤浩晃</Link>が個人事業としてつくる、狂気のヘルスケアビジネスDB。国内のヘルスケア企業・事業と、止まった事業とその理由を、出典つきで記録しています。</p>
+            <p>医師・<Link href="/about/kato/" style={{ color: 'inherit', textDecoration: 'underline' }}>加藤浩晃</Link>がつくる、狂気のヘルスケアビジネスDB。国内のヘルスケア企業・事業と、止まった事業とその理由を、出典つきで記録しています。</p>
             <p className="small" style={{ color: '#9aa1ad' }}>毎月のニュースの振り返りは、YouTube「医療ビジネスチャンネル」の #月刊ヘルステック で配信しています。</p>
           </div>
           <div>

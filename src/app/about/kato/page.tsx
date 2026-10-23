@@ -5,7 +5,7 @@ import { PROFILE_600, PROFILE_SECTIONS, PROFILE_TITLE } from '@/content/profile'
 
 export const metadata: Metadata = {
   title: '加藤浩晃について',
-  description: 'Healthtech DB をひとりでつくっている、医師・加藤浩晃の自己紹介。眼科医、厚生労働省、アイリス共同創業、そして500近い事業を見てきた事業家として。',
+  description: 'Healthtech DB をつくっている、医師・加藤浩晃の自己紹介とプロフィール。',
 };
 
 const LINKS = [
@@ -25,7 +25,7 @@ export default function KatoPage() {
         <div>
           <div className="kicker">The person behind Healthtech DB</div>
           <h1>加藤 浩晃<small>かとう ひろあき</small></h1>
-          <p className="lead">{PROFILE_TITLE}。Healthtech DB を個人事業としてつくっています。</p>
+          <p className="lead">{PROFILE_TITLE}。Healthtech DB をつくっています。</p>
           <div className="kato-links">
             {LINKS.map((l) => <a key={l.href} href={l.href} target="_blank" rel="noreferrer">{l.label}</a>)}
           </div>
@@ -34,7 +34,7 @@ export default function KatoPage() {
 
       <article className="prose why">
         <p className="kato-intro">
-          はじめまして、加藤浩晃です。Healthtech DB は、自分の個人事業としてつくっています。どこかの会社の事業ではありません。医療の事業化に15年以上関わる中で、同じアイデアが同じところで止まるのを何度も見てきて、「事業開発の PubMed」をつくりたいと思いました。<Link href="/about/why/" className="arrow">Healthtech DB への想い</Link>
+          はじめまして、加藤浩晃です。Healthtech DB を運営しています。医療の事業化に15年以上関わる中で、同じアイデアが同じところで止まるのを何度も見てきて、「事業開発の PubMed」をつくりたいと思いました。<Link href="/about/why/" className="arrow">Healthtech DB への想い</Link>
         </p>
 
         <h2>プロフィール</h2>

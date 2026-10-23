@@ -6,7 +6,7 @@ import { SITE_NAME, SITE_TAGLINE } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: { default: `${SITE_NAME} | ${SITE_TAGLINE}`, template: `%s | ${SITE_NAME}` },
-  description: `${SITE_NAME} は、医師・加藤浩晃が個人事業として運営するヘルスケアビジネスのデータベースです。国内ヘルステック企業・サービス・人物・ニュース・解説記事をつなげて見渡せます。`,
+  description: `${SITE_NAME} は、医師・加藤浩晃が運営するヘルスケアビジネスのデータベースです。国内ヘルステック企業・サービス・人物・ニュース・解説記事をつなげて見渡せます。`,
   metadataBase: new URL('https://healthtech-db.com'),
   openGraph: { type: 'website', siteName: SITE_NAME, locale: 'ja_JP' },
 };

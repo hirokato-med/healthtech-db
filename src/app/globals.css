@@ -763,3 +763,5 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 .kato-sections ul { margin: 0; padding-left: 1.1em; }
 .kato-sections li { font-size: 14.5px; line-height: 1.8; }
 @media (max-width: 760px) { .kato-sections > div { grid-template-columns: 1fr; gap: 4px; } }
+.nav .nav-short { display: none; }
+@media (max-width: 1240px) { .nav .nav-long { display: none; } .nav .nav-short { display: inline; } .nav > a, .nav .drop > button { padding: 8px 8px; } .nav { gap: 0; } }

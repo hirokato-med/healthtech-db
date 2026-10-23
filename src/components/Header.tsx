@@ -27,6 +27,7 @@ export function Header() {
           <Link href="/news/">ニュース</Link>
           <Link href="/categories/">カテゴリ</Link>
           <Link href="/monthly/">月刊ヘルステック</Link>
+          <Link href="/about/why/"><span className="nav-long">Healthtech DB への想い</span><span className="nav-short">想い</span></Link>
         </nav>
         <div className="head-right">
           <span className="divider" />

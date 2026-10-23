@@ -6,7 +6,7 @@ import { PROFILE_SHORT } from '@/content/profile';
 
 export const metadata: Metadata = {
   title: 'Healthtech DB への想い',
-  description: '研究にはPubMedがある。事業開発にも、過去の事業と、それがなぜ止まったのかを引ける場所が必要だ。医師・加藤浩晃が個人事業として、狂気のヘルスケアビジネスDBをつくる理由。',
+  description: '研究にはPubMedがある。事業開発にも、過去の事業と、それがなぜ止まったのかを引ける場所が必要だ。医師・加藤浩晃が、狂気のヘルスケアビジネスDBをつくる理由。',
 };
 
 export default function WhyPage() {
@@ -20,7 +20,7 @@ export default function WhyPage() {
       <div className="page-head">
         <div className="kicker">Why I built this</div>
         <h1>事業開発の PubMed をつくりたい</h1>
-        <p className="lead">Healthtech DB は、医師・<Link href="/about/kato/">加藤浩晃</Link>が個人事業としてつくっている、狂気のヘルスケアビジネスDBです。</p>
+        <p className="lead">Healthtech DB は、医師・<Link href="/about/kato/">加藤浩晃</Link>がつくっている、狂気のヘルスケアビジネスDBです。</p>
       </div>
 
       <article className="prose why voice">
@@ -67,15 +67,12 @@ export default function WhyPage() {
           </li>
         </ol>
 
-        <h2>個人の事業として、狂気でやる</h2>
+        <h2>狂気でやる</h2>
         <p>
-          Healthtech DB は、どこかの会社の事業ではありません。加藤浩晃の個人事業です。
+          国内のヘルスケア企業を一社ずつ調べて、登記を確かめて、閉鎖や合併の記録を拾って、事業がいつ始まりいつ止まったのかを年表にする。止まった理由を、公表資料から読み解く。正直、正気の沙汰ではない作業だと思います。でも、誰かがやらないと、止まった事業の記録は消えていくだけです。だから、狂気のヘルスケアビジネスDBとして、やり切ろうと思っています。
         </p>
         <p>
-          国内のヘルスケア企業を一社ずつ調べて、登記を確かめて、閉鎖や合併の記録を拾って、事業がいつ始まりいつ止まったのかを年表にする。止まった理由を、公表資料から読み解く。正直、正気の沙汰ではない作業だと思います。でも、誰かがやらないと、止まった事業の記録は消えていくだけです。だから、狂気のヘルスケアビジネスDBとして、個人でやり切ろうと思っています。
-        </p>
-        <p>
-          会社の看板ではなく自分の名前でやるのは、止まった事業や、うまくいかなかった提携も、記録としてきちんと残すためでもあります。解説記事の「加藤浩晃の視点」「加藤浩晃の見立て」は、その記録を読んだうえでの、自分個人の考えです。
+          自分の名前でやるのは、止まった事業や、うまくいかなかった提携も、記録としてきちんと残すためでもあります。解説記事の「加藤浩晃の視点」「加藤浩晃の見立て」は、その記録を読んだうえでの、自分個人の考えです。
         </p>
 
         <h2>大事にしていること</h2>
@@ -105,7 +102,7 @@ export default function WhyPage() {
         <div className="signature with-avatar">
           <img src={withBase('/images/kato-avatar.jpg')} alt="" width={64} height={64} />
           <div>
-            <p>Healthtech DB 運営（個人事業）</p>
+            <p>Healthtech DB 運営</p>
             <p className="name"><Link href="/about/kato/">加藤 浩晃</Link></p>
             <p className="small muted">{PROFILE_SHORT}<Link href="/about/kato/">自己紹介を読む</Link></p>
           </div>
