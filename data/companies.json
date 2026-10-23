@@ -65,7 +65,7 @@
       "髙橋一巳"
     ],
     "exit": "未上場",
-    "parentCompany": "メディパルホールディングス",
+    "parentCompany": "株式会社メディパルホールディングス",
     "relatedCompanies": [],
     "corporateNumber": "2010001005697",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010001005697",
@@ -144,7 +144,7 @@
       "梅田友彦"
     ],
     "exit": "バイアウト",
-    "parentCompany": "エムスリー",
+    "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [],
     "corporateNumber": "8010001061768",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010001061768",
@@ -243,7 +243,7 @@
       "瀬川翔"
     ],
     "exit": "上場",
-    "parentCompany": "ディー・エヌ・エー",
+    "parentCompany": "株式会社ディー・エヌ・エー",
     "relatedCompanies": [],
     "corporateNumber": "9240001012318",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9240001012318",
@@ -354,7 +354,7 @@
       "青木正之"
     ],
     "exit": "バイアウト",
-    "parentCompany": "Ubicom",
+    "parentCompany": "株式会社Ubicomホールディングス",
     "relatedCompanies": [],
     "corporateNumber": "9010001102166",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001102166",
@@ -731,7 +731,7 @@
       "長谷川雅子"
     ],
     "exit": "バイアウト",
-    "parentCompany": "JMDC",
+    "parentCompany": "株式会社JMDC",
     "relatedCompanies": [],
     "corporateNumber": "7010401088511",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401088511",
@@ -886,7 +886,7 @@
       "藤井勝博"
     ],
     "exit": "バイアウト",
-    "parentCompany": "EQT（Curie1株式会社として買収）",
+    "parentCompany": "EQT",
     "relatedCompanies": [],
     "corporateNumber": "7010401191983",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010401191983",
@@ -941,7 +941,8 @@
         "until": "2026-04",
         "note": "Curie1株式会社への吸収合併で消滅"
       }
-    ]
+    ],
+    "parentNote": "Curie1株式会社として買収"
   },
   {
     "id": "2490001009840",
@@ -1098,7 +1099,7 @@
       "肥田義光"
     ],
     "exit": "合併",
-    "parentCompany": "メドレー",
+    "parentCompany": "株式会社メドレー",
     "relatedCompanies": [],
     "corporateNumber": "5011101043683",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101043683",
@@ -1511,7 +1512,7 @@
       "佐藤正"
     ],
     "exit": "バイアウト",
-    "parentCompany": "株式会社クラフティア（旧九電工）",
+    "parentCompany": "株式会社クラフティア",
     "relatedCompanies": [],
     "corporateNumber": "5290001020542",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5290001020542",
@@ -1535,7 +1536,8 @@
       "遠隔画像診断支援サービス",
       "遠隔画像診断ASPサービス",
       "院内情報システムコンサルティング"
-    ]
+    ],
+    "parentNote": "旧九電工"
   },
   {
     "id": "8120001099797",
@@ -1557,7 +1559,7 @@
       "田中雅史"
     ],
     "exit": "合併",
-    "parentCompany": "GMOヘルステック（GMOインターネットグループ）",
+    "parentCompany": "GMOヘルステック株式会社",
     "relatedCompanies": [],
     "corporateNumber": "8120001099797",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120001099797",
@@ -1595,7 +1597,8 @@
       "date": "2025-08",
       "successor": "GMOヘルステック株式会社",
       "note": "GMOヘルステック株式会社に吸収合併され、法人としては消滅した。"
-    }
+    },
+    "parentNote": "GMOインターネットグループ"
   },
   {
     "id": "1011001072836",
@@ -1677,7 +1680,7 @@
       "平川裕司"
     ],
     "exit": "上場",
-    "parentCompany": "エムスリー",
+    "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [],
     "corporateNumber": "1011001036766",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001036766",
@@ -1860,7 +1863,7 @@
       "野口亮"
     ],
     "exit": "上場",
-    "parentCompany": "オムロン",
+    "parentCompany": "オムロン株式会社",
     "relatedCompanies": [
       "株式会社ドクターネット",
       "株式会社ユニケソフトウェアリサーチ",
@@ -1974,7 +1977,7 @@
       "吉井浩一"
     ],
     "exit": "合併",
-    "parentCompany": "エムスリーソリューションズ（エムスリーグループ）",
+    "parentCompany": "エムスリーソリューションズ株式会社",
     "relatedCompanies": [],
     "corporateNumber": "4010401078275",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401078275",
@@ -2006,7 +2009,8 @@
       "date": "2023-04",
       "successor": "エムスリーソリューションズ株式会社",
       "note": "エムスリーソリューションズ株式会社に吸収合併され、法人としては消滅した。"
-    }
+    },
+    "parentNote": "エムスリーグループ"
   },
   {
     "id": "1011001042302",
@@ -2831,7 +2835,7 @@
       "滝澤宏隆"
     ],
     "exit": "バイアウト",
-    "parentCompany": "エムスリー",
+    "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [],
     "corporateNumber": "4013301027145",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4013301027145",
@@ -2998,7 +3002,7 @@
       "可知健太"
     ],
     "exit": "バイアウト",
-    "parentCompany": "エムスリー",
+    "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [],
     "corporateNumber": "1010901019228",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010901019228",
@@ -3138,7 +3142,7 @@
       "高橋宏幸"
     ],
     "exit": "閉鎖",
-    "parentCompany": "メドピアグループ",
+    "parentCompany": "メドピア株式会社",
     "relatedCompanies": [],
     "corporateNumber": "7011001070685",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001070685",
@@ -3715,7 +3719,7 @@
       "福吉潤"
     ],
     "exit": "バイアウト",
-    "parentCompany": "JMDC",
+    "parentCompany": "株式会社JMDC",
     "relatedCompanies": [],
     "corporateNumber": "6011001062543",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001062543",
@@ -3809,7 +3813,7 @@
       "大槻秀光"
     ],
     "exit": "未上場",
-    "parentCompany": "ユーグレナ",
+    "parentCompany": "株式会社ユーグレナ",
     "relatedCompanies": [],
     "corporateNumber": "6010401078983",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401078983",
@@ -4025,7 +4029,7 @@
       "今井良祐"
     ],
     "exit": "未上場",
-    "parentCompany": "じげん",
+    "parentCompany": "株式会社じげん",
     "relatedCompanies": [],
     "corporateNumber": "1011101054486",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011101054486",
@@ -4350,7 +4354,7 @@
       "前田健太郎"
     ],
     "exit": "バイアウト",
-    "parentCompany": "JMDC(ノーリツ鋼機株式会社グループ会社)",
+    "parentCompany": "株式会社JMDC",
     "relatedCompanies": [],
     "corporateNumber": "1010401091207",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401091207",
@@ -4525,7 +4529,7 @@
       "刀禰真之介"
     ],
     "exit": "未上場",
-    "parentCompany": "メンタルヘルステクノロジーズ",
+    "parentCompany": "株式会社メンタルヘルステクノロジーズ",
     "relatedCompanies": [],
     "corporateNumber": "8010601041269",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010601041269",
@@ -5545,7 +5549,7 @@
       "広井嘉栄"
     ],
     "exit": "バイアウト",
-    "parentCompany": "株式会社株式会社エムティーアイ",
+    "parentCompany": "株式会社エムティーアイ",
     "relatedCompanies": [],
     "corporateNumber": "2010901030365",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010901030365",
@@ -6411,7 +6415,7 @@
       "輪違弘樹"
     ],
     "exit": "未上場",
-    "parentCompany": "エムスリー",
+    "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [],
     "corporateNumber": "7011001098017",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001098017",
@@ -6496,7 +6500,7 @@
       "今泉英明"
     ],
     "exit": "未上場",
-    "parentCompany": "マイナビ",
+    "parentCompany": "株式会社マイナビ",
     "relatedCompanies": [],
     "corporateNumber": "5490001007866",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5490001007866",
@@ -6718,7 +6722,7 @@
       "豊原稔"
     ],
     "exit": "未上場",
-    "parentCompany": "Welby",
+    "parentCompany": "株式会社Welby",
     "relatedCompanies": [],
     "corporateNumber": "5011101071602",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101071602",
@@ -6898,7 +6902,7 @@
       "櫻本真理"
     ],
     "exit": "合併",
-    "parentCompany": "JMDC",
+    "parentCompany": "株式会社JMDC",
     "relatedCompanies": [
       "株式会社コーチェット"
     ],
@@ -7185,7 +7189,7 @@
       "米山拡志"
     ],
     "exit": "閉鎖",
-    "parentCompany": "DeNA",
+    "parentCompany": "株式会社ディー・エヌ・エー",
     "relatedCompanies": [],
     "corporateNumber": "6011001099437",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001099437",
@@ -7356,7 +7360,7 @@
       "早見泰弘"
     ],
     "exit": "閉鎖",
-    "parentCompany": "エムスリー",
+    "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [],
     "corporateNumber": "9010001158489",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001158489",
@@ -7534,7 +7538,7 @@
       "錦織騎正"
     ],
     "exit": "未上場",
-    "parentCompany": "トライトグループ",
+    "parentCompany": "株式会社トライトグループ",
     "relatedCompanies": [],
     "corporateNumber": "8010001254982",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010001254982",
@@ -8822,7 +8826,7 @@
       "瀬川翔"
     ],
     "exit": "未上場",
-    "parentCompany": "データホライゾン（DeNAグループ）",
+    "parentCompany": "株式会社データホライゾン",
     "relatedCompanies": [],
     "corporateNumber": "1011001104408",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001104408",
@@ -8848,7 +8852,8 @@
       "kencom",
       "データ利活用サービス（保険者データ提供）",
       "健康保険組合・自治体向けサービス"
-    ]
+    ],
+    "parentNote": "DeNAグループ"
   },
   {
     "id": "4010401128187",
@@ -9008,7 +9013,7 @@
       "林光洋"
     ],
     "exit": "閉鎖",
-    "parentCompany": "メドピア株式会社:51%\n株式会社スギ薬局:49%",
+    "parentCompany": "メドピア株式会社、株式会社スギ薬局",
     "relatedCompanies": [],
     "corporateNumber": "3010001171984",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001171984",
@@ -9029,7 +9034,8 @@
     "ended": {
       "date": "2025-04",
       "note": "清算結了。サービス「first call」はアドバンテッジリスクマネジメントが運営している。"
-    }
+    },
+    "parentNote": "メドピア51%・スギ薬局49%の合弁"
   },
   {
     "id": "7010401120959",
@@ -9523,7 +9529,7 @@
       "小沢晴久"
     ],
     "exit": "バイアウト",
-    "parentCompany": "JMDC",
+    "parentCompany": "株式会社JMDC",
     "relatedCompanies": [],
     "corporateNumber": "1011001111461",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001111461",
@@ -10123,7 +10129,7 @@
       "吉永和貴"
     ],
     "exit": "合併",
-    "parentCompany": "株式会社HERO innovation（JMDCグループ）",
+    "parentCompany": "株式会社HERO innovation",
     "relatedCompanies": [],
     "corporateNumber": "6010601050338",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010601050338",
@@ -10163,7 +10169,8 @@
       "date": "2023-07",
       "successor": "株式会社HERO innovation",
       "note": "株式会社HERO innovationに吸収合併され、法人としては消滅した。"
-    }
+    },
+    "parentNote": "JMDCグループ"
   },
   {
     "id": "4060003002281",
@@ -10653,7 +10660,7 @@
       "塩谷航平"
     ],
     "exit": "バイアウト",
-    "parentCompany": "アポプラスステーション株式会社(クオールの子会社)",
+    "parentCompany": "アポプラスステーション株式会社",
     "relatedCompanies": [],
     "corporateNumber": "8011001114846",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001114846",
@@ -10671,7 +10678,8 @@
       "https://splendid.co.jp/company/",
       "https://splendid.co.jp/service/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "parentNote": "クオールグループ"
   },
   {
     "id": "4010001174895",
@@ -11217,7 +11225,7 @@
       "伊藤俊一郎"
     ],
     "exit": "未上場",
-    "parentCompany": "アグリーグループ（アグリグループ　との複数表記あり）内。資本関係不明。",
+    "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "2050001042316",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2050001042316",
@@ -11235,7 +11243,8 @@
       "https://www.leber.jp/",
       "https://prtimes.jp/main/html/rd/p/000000192.000033619.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "parentNote": "アグリーグループ内とされるが、資本関係は不明"
   },
   {
     "id": "5011101082021",
@@ -11819,7 +11828,7 @@
       "山﨑美紀"
     ],
     "exit": "未上場",
-    "parentCompany": "株式会社ネクシィーズグループ、及び、湘南美容クリニックグループの関連会社",
+    "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "3011001118380",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011001118380",
@@ -11845,7 +11854,8 @@
     "updatedAt": "2026-10",
     "aliases": [
       "アイメッド(Ai-med)"
-    ]
+    ],
+    "parentNote": "ネクシィーズグループと湘南美容クリニックグループの関連会社"
   },
   {
     "id": "3011001117069",
@@ -12909,7 +12919,7 @@
       "淺野正太郎"
     ],
     "exit": "活動停止",
-    "parentCompany": "株式会社日本医療機器開発機構（JOMDD）",
+    "parentCompany": "サナメディ株式会社",
     "relatedCompanies": [],
     "corporateNumber": "7010001191789",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001191789",
@@ -12935,7 +12945,8 @@
     "ended": {
       "lastActiveAt": "2025-09",
       "note": "2025年9月に「SaMD QMS Starter Kit」の提供開始を発表したのが最後の発信。公式サイト（savemedical.jp）はドメインは残るが接続先がなく閲覧できない。2025年10月と2026年4月に本店移転を登記した一方、2026年7月に厚生年金の適用事業所が全喪。スピーダ（INITIAL）は2026年8月26日で同社の調査を終了した。解散・清算の登記はない。"
-    }
+    },
+    "parentNote": "旧日本医療機器開発機構（JOMDD）"
   },
   {
     "id": "7011001121918",
@@ -13182,7 +13193,7 @@
       "西野誠"
     ],
     "exit": "バイアウト",
-    "parentCompany": "ジャフコ グループ（投資ファンド）",
+    "parentCompany": "ジャフコ グループ株式会社",
     "relatedCompanies": [],
     "corporateNumber": "4010401180337",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401180337",
@@ -13220,7 +13231,8 @@
         "until": "2025-01",
         "note": "株式会社ジャフコグループSID-5への吸収合併で消滅"
       }
-    ]
+    ],
+    "parentNote": "投資ファンド"
   },
   {
     "id": "4011201021490",
@@ -13593,7 +13605,7 @@
       "出澤剛"
     ],
     "exit": "合併",
-    "parentCompany": "LINEヤフー",
+    "parentCompany": "LINEヤフー株式会社",
     "relatedCompanies": [],
     "corporateNumber": "8011101086498",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101086498",
@@ -13827,7 +13839,7 @@
       "堂前紀郎"
     ],
     "exit": "未上場",
-    "parentCompany": "サイバーエージェント",
+    "parentCompany": "株式会社サイバーエージェント",
     "relatedCompanies": [],
     "corporateNumber": "2011001133744",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2011001133744",
@@ -15181,7 +15193,7 @@
       "藤本俊克"
     ],
     "exit": "合併",
-    "parentCompany": "GMOヘルステック（GMOインターネットグループ）",
+    "parentCompany": "GMOヘルステック株式会社",
     "relatedCompanies": [],
     "corporateNumber": "7120001226716",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7120001226716",
@@ -15217,7 +15229,8 @@
       "date": "2025-08",
       "successor": "GMOヘルステック株式会社",
       "note": "GMOヘルステック株式会社に吸収合併され、法人としては消滅した。"
-    }
+    },
+    "parentNote": "GMOインターネットグループ"
   },
   {
     "id": "jp-001",
@@ -17742,7 +17755,7 @@
       "宗藤康治"
     ],
     "exit": "未上場",
-    "parentCompany": "川崎重工業株式会社・シスメックス株式会社",
+    "parentCompany": "川崎重工業株式会社、シスメックス株式会社",
     "relatedCompanies": [],
     "corporateNumber": "9140001091784",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9140001091784",
@@ -17759,7 +17772,8 @@
       "https://www.medicaroid.com/company/history.html"
     ],
     "updatedAt": "2026-10",
-    "overview": "川崎重工業とシスメックスの共同出資で2013年に設立された医療用ロボットメーカー。産業用ロボット技術を転用したロボット手術台「SOT-100 Vercia」を2017年に発売し、2020年に国産初の手術支援ロボット「hinotori サージカルロボットシステム」の製造販売承認を取得した。2022年に消化器外科・婦人科、2024年に呼吸器外科へ適応を拡大。シンガポール、マレーシア、ベトナムで販売承認を得て、2026年には欧州のCEマークも取得した。国内外にトレーニングセンター「MIL」を展開する。"
+    "overview": "川崎重工業とシスメックスの共同出資で2013年に設立された医療用ロボットメーカー。産業用ロボット技術を転用したロボット手術台「SOT-100 Vercia」を2017年に発売し、2020年に国産初の手術支援ロボット「hinotori サージカルロボットシステム」の製造販売承認を取得した。2022年に消化器外科・婦人科、2024年に呼吸器外科へ適応を拡大。シンガポール、マレーシア、ベトナムで販売承認を得て、2026年には欧州のCEマークも取得した。国内外にトレーニングセンター「MIL」を展開する。",
+    "parentNote": "2社の合弁"
   },
   {
     "id": "jp-063",
@@ -21581,7 +21595,7 @@
       "佐藤暢彦"
     ],
     "exit": "バイアウト",
-    "parentCompany": "帝人グループ",
+    "parentCompany": "帝人株式会社",
     "relatedCompanies": [],
     "corporateNumber": "8011001110151",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001110151",
@@ -21596,7 +21610,8 @@
       "https://initial.inc/companies/A-26244"
     ],
     "updatedAt": "2026-10",
-    "overview": "2016年3月設立。訪問看護に特化した人材紹介と、掲載料無料・成功報酬型の訪問看護専門の求人メディアを運営し、訪問看護を知るキャリアアドバイザーが転職を支える。訪問看護師の教育・定着支援も行う。訪問看護ステーション向けには採用代行、ホームページ制作、運営コンサルティングを提供し、行政や業界団体、学術機関との研修企画も手がける。2024年10月に帝人グループの一員となった。本社は東京都渋谷区、大阪にも拠点を置く。"
+    "overview": "2016年3月設立。訪問看護に特化した人材紹介と、掲載料無料・成功報酬型の訪問看護専門の求人メディアを運営し、訪問看護を知るキャリアアドバイザーが転職を支える。訪問看護師の教育・定着支援も行う。訪問看護ステーション向けには採用代行、ホームページ制作、運営コンサルティングを提供し、行政や業界団体、学術機関との研修企画も手がける。2024年10月に帝人グループの一員となった。本社は東京都渋谷区、大阪にも拠点を置く。",
+    "parentNote": "帝人グループ"
   },
   {
     "id": "5120001103529",
@@ -21617,7 +21632,7 @@
       "郷田泰宏"
     ],
     "exit": "バイアウト",
-    "parentCompany": "株式会社地域ヘルスケア連携基盤（CHCPグループ）",
+    "parentCompany": "株式会社地域ヘルスケア連携基盤",
     "relatedCompanies": [],
     "corporateNumber": "5120001103529",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5120001103529",
@@ -21642,7 +21657,8 @@
         "text": "2021年6月18日 東証で上場廃止（株式併合による非公開化）"
       }
     ],
-    "overview": "2003年2月設立、大阪市北区に本社。訪問看護ステーション「デューン」を北海道から沖縄まで全国に約230か所展開し、医療・介護保険で在宅療養を支える。障害者総合支援法・児童福祉法にもとづく相談支援事業所「D&Life」や、住まい探しを支える住宅支援部・不動産賃貸仲介も運営し、複数の道府県で居住支援法人の指定を受ける。2021年に地域ヘルスケア連携基盤（CHCP）グループの公開買付けを受けて上場廃止となった。"
+    "overview": "2003年2月設立、大阪市北区に本社。訪問看護ステーション「デューン」を北海道から沖縄まで全国に約230か所展開し、医療・介護保険で在宅療養を支える。障害者総合支援法・児童福祉法にもとづく相談支援事業所「D&Life」や、住まい探しを支える住宅支援部・不動産賃貸仲介も運営し、複数の道府県で居住支援法人の指定を受ける。2021年に地域ヘルスケア連携基盤（CHCP）グループの公開買付けを受けて上場廃止となった。",
+    "parentNote": "CHCPグループ"
   },
   {
     "id": "jp-095",

@@ -27,6 +27,8 @@ export type Company = {
   source: string;
   /** 2026年以降に編集部が追加・確認した項目 */
   listedMarket?: string;
+  /** 親会社についての補足（出資比率・合弁など） */
+  parentNote?: string;
   /** 合弁・子会社として生まれた会社の成り立ち（例: DeNAと住友商事のJV） */
   origin?: string;
   formerNames?: string[];
@@ -101,6 +103,21 @@ export type Service = {
 };
 
 export type Theme = { slug: string; name: string; lead: string };
+
+/** 企業同士の提携・出資・買収（提携マップ用） */
+export type Partnership = {
+  from: string;
+  to: string;
+  type: 'partnership' | 'investment' | 'parent';
+  kind: string;
+  label: string;
+  area: string;
+  date?: string;
+  status: '継続' | '終了' | '不明';
+  endedAt?: string;
+  note?: string;
+  sources?: string[];
+};
 
 export type NewsItem = {
   id: string;

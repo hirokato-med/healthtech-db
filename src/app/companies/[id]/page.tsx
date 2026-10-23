@@ -23,7 +23,6 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const people = peopleOf(c.id);
   const news = newsOf(c).slice(0, 10);
   const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 6);
-  const parent = c.parentCompany ? findCompanyByName(c.parentCompany) : undefined;
   const empAsOf = c.employeesAsOf ? c.employeesAsOf.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`) : c.source.includes('2021-09') ? '2021年' : '';
   const srcLabel = (u: string) => {
     const corp = u.match(/houjin-bangou\.nta\.go\.jp.*selHouzinNo=(\d{13})/)?.[1];
@@ -145,7 +144,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                 ) : null}
               </dd></>)}
               {c.origin && (<><dt>成り立ち</dt><dd>{c.origin}</dd></>)}
-              {c.parentCompany && (<><dt>親会社</dt><dd>{parent ? <Link href={`/companies/${parent.id}/`}>{c.parentCompany}</Link> : c.parentCompany}</dd></>)}
+              {c.parentCompany && (<><dt>親会社</dt><dd>{c.parentCompany.split('、').map((pn, i) => { const pc = findCompanyByName(pn); return <span key={pn}>{i > 0 && '、'}{pc && pc.id !== c.id ? <Link href={`/companies/${pc.id}/`}>{pn}</Link> : pn}</span>; })}{c.parentNote && <span className="small muted">（{c.parentNote}）</span>}</dd></>)}
+              {!c.parentCompany && c.parentNote && (<><dt>資本関係</dt><dd className="small">{c.parentNote}</dd></>)}
               {c.relatedCompanies.length > 0 && (<><dt>関連会社</dt><dd>{c.relatedCompanies.map((n, i) => { const r = findCompanyByName(n); return (<span key={n}>{i > 0 && '、'}{r && r.id !== c.id ? <Link href={`/companies/${r.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.corporateNumber && (<><dt>法人番号</dt><dd className="mono"><a href={c.corporateNumberUrl || `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=${c.corporateNumber}`} target="_blank" rel="noreferrer">{c.corporateNumber}</a></dd></>)}
               {c.formerCorporateNumbers?.length ? (<><dt>旧法人番号</dt><dd>{c.formerCorporateNumbers.map((f) => (

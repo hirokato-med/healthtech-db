@@ -24,6 +24,7 @@ export function Footer() {
               <li><Link href="/companies/">企業データベース</Link></li>
               <li><Link href="/services/">事業データベース</Link></li>
               <li><Link href="/services/stopped/">止まった事業</Link></li>
+              <li><Link href="/ma/">M&amp;A・提携マップ</Link></li>
               <li><Link href="/talents/">人物データベース</Link></li>
               <li><Link href="/global/">海外企業</Link></li>
               <li><Link href="/news/">ニュース</Link></li>

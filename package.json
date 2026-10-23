@@ -11,19 +11,21 @@
     "import:companies": "python3 -I scripts/import_companies.py",
     "news:fetch": "node pipeline/news.mjs",
     "search:index": "node scripts/build-search-index.mjs",
-    "prebuild": "node scripts/build-search-index.mjs"
+    "prebuild": "node scripts/build-relations.mjs && node scripts/build-search-index.mjs"
   },
   "dependencies": {
+    "d3-force": "^3.0.0",
+    "gray-matter": "4.0.3",
+    "marked": "18.1.1",
     "next": "15.5.28",
     "react": "19.1.1",
-    "react-dom": "19.1.1",
-    "gray-matter": "4.0.3",
-    "marked": "18.1.1"
+    "react-dom": "19.1.1"
   },
   "devDependencies": {
-    "typescript": "5.8.3",
+    "@types/d3-force": "^3.0.10",
     "@types/node": "22.15.3",
     "@types/react": "19.1.8",
-    "@types/react-dom": "19.1.6"
+    "@types/react-dom": "19.1.6",
+    "typescript": "5.8.3"
   }
 }

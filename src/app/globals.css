@@ -651,3 +651,37 @@ h1, h2, h3, .sec-title h2, .section-head h2, .page-head h1, .box > h2, .panel h3
 .theme-card:hover { border-color: var(--teal); text-decoration: none; }
 .theme-card b { display: block; font-size: 14px; }
 .theme-card span { font-size: 12px; color: var(--muted); }
+/* M&A・提携マップ */
+.ma-sec { margin: 36px 0; }
+.ma-sec h2 { font-size: 22px; font-weight: 900; margin-bottom: 6px; }
+.pmap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); margin-top: 12px; }
+.pmap svg { display: block; font-family: var(--sans); }
+.pm-band { fill: var(--card); }
+.pm-band.odd { fill: var(--bg-2); }
+.pm-area { font-size: 14px; font-weight: 900; fill: var(--navy); }
+.pm-count { font-size: 11px; fill: var(--muted); }
+.pm-box { fill: #fff; stroke: var(--line-2); }
+.pm-box.l { fill: var(--navy-soft); stroke: var(--navy); }
+.pm-box.r.in-db { stroke: var(--teal); }
+a .pm-box:hover { stroke-width: 2; }
+.pm-name { font-size: 12px; font-weight: 700; fill: var(--ink); pointer-events: none; }
+.pm-link path { fill: none; stroke: var(--teal); stroke-width: 1.4; opacity: .8; }
+.pm-link.parent path { stroke: var(--navy); stroke-width: 2; }
+.pm-link.investment path { stroke: #d08a2c; }
+.pm-link.ended path { stroke: #9aa1ad; stroke-dasharray: 5 4; }
+.pm-label { font-size: 10.5px; fill: var(--ink); stroke: var(--card); stroke-width: 3px; paint-order: stroke; }
+.pm-link.ended .pm-label { fill: var(--muted); }
+.rgraph { border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); padding: 12px; margin-top: 12px; }
+.rgraph svg { width: 100%; height: auto; display: block; }
+.rg-controls { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; font-size: 13px; margin-bottom: 6px; }
+.rg-controls label { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; }
+.rg-controls i { display: inline-block; width: 16px; height: 3px; border-radius: 2px; }
+.rg-legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: var(--muted); margin-top: 6px; }
+.rg-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+.rg-focus { margin-top: 10px; padding: 12px 14px; background: var(--bg-2); border-radius: var(--radius); font-size: 14px; }
+.rg-focus b { margin-right: 10px; }
+.rg-focus ul { margin: 8px 0 0; padding-left: 1.2em; }
+.buyer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; margin-top: 12px; }
+.buyer h3 { font-size: 16px; }
+.buyer h3 small { font-size: 12px; color: var(--muted); margin-left: 8px; font-weight: 700; }
+.buyer ul { margin: 6px 0 0; padding-left: 1.1em; font-size: 13.5px; line-height: 1.9; }
