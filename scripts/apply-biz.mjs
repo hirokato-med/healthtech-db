@@ -24,7 +24,7 @@ const byId = new Map(services.map((s) => [s.id, s]));
 const REASONS = new Set(['regulation', 'reimbursement', 'no-payer', 'workflow', 'evidence', 'funding', 'parent-strategy', 'acquisition', 'competition', 'team', 'infrastructure', 'unknown']);
 const STATUS = new Set(['提供中', '終了', '譲渡', '統合', '休止', '不明']);
 const asOf = new Date().toISOString().slice(0, 7);
-let started = 0, stopped = 0, removed = 0, skippedFounding = 0, known = 0, miles = 0;
+let started = 0, stopped = 0, removed = 0, skippedFounding = 0, known = 0, miles = 0, cleared = 0;
 const drop = new Set();
 for (const o of outs) {
   for (const u of o.updates ?? []) {
@@ -33,10 +33,14 @@ for (const o of outs) {
     if (u.remove) { drop.add(s.id); removed++; continue; }
     if (/^\d{4}(-\d{2})?$/.test(u.startedAt ?? '')) {
       // 会社設立の日付、Wikipedia、後年の資料からの逆算は開始時期に使わない（一次情報だけ）
-      if (/会社設立|設立日|法人設立|Wikipedia|ウィキペディア|逆算|予定|FDA|カナダ|米国|海外/.test(u.note ?? '')) skippedFounding++;
+      // 何の日付か（startBasis）があればそれで、なければ note で判断する
+      const basis = u.startBasis ? u.startBasis : (u.note ?? '');
+      if (/^会社設立|会社の設立|設立日|法人設立|Wikipedia|ウィキペディア|逆算|予定|FDA|カナダ|米国|海外|根拠は報道|報道のみ|見出しのみ/.test(basis)) skippedFounding++;
       else if (u.startedAt !== s.startedAt) { s.startedAt = u.startedAt; s.startedYear = Number(u.startedAt.slice(0, 4)); started++; }
     }
     // 何の日付か（正式提供開始・β版・前の運営会社で開始など）と、開始が見つからないときの「提供を確認できた最も古い時点」
+    // 既存の開始時期が会社の設立時期にすぎず、それより前から提供していたと分かったもの：開始時期を外し、提供を確認できた最古の時点にする
+    if (u.startedAt === '' && /^\d{4}(-\d{2})?$/.test(u.knownSince ?? '') && s.startedAt) { delete s.startedAt; s.startedYear = null; delete s.startBasis; cleared++; }
     if (u.startBasis && s.startedAt === u.startedAt) s.startBasis = u.startBasis;
     if (/^\d{4}(-\d{2})?$/.test(u.knownSince ?? '') && !s.startedAt) { s.knownSince = u.knownSince; if (u.knownSinceSource) s.knownSinceSource = u.knownSinceSource; known++; }
     // 運営会社の移り変わり・改称などの節目（同じ年月・同じ文は足さない）
@@ -55,7 +59,7 @@ for (const o of outs) {
   }
 }
 fs.writeFileSync(F, JSON.stringify(services.filter((s) => !drop.has(s.id)), null, 2) + '\n');
-console.error(`節目 ${miles} 件・提供を確認できた最古の時点 ${known} 件 / 開始時期を入れた ${started} 件（会社設立・Wikipedia・逆算しか根拠がなく見送り ${skippedFounding} 件）/ 止まっていた ${stopped} 件 / 外した ${removed} 件`);
+console.error(`開始時期を外した ${cleared} 件 / 節目 ${miles} 件・提供を確認できた最古の時点 ${known} 件 / 開始時期を入れた ${started} 件（会社設立・Wikipedia・逆算しか根拠がなく見送り ${skippedFounding} 件）/ 止まっていた ${stopped} 件 / 外した ${removed} 件`);
 
 const adds = outs.flatMap((o) => o.adds ?? []).filter((a) => a.name && a.type).map((a) => ({ ...a, companyName: a.company, companyId: a.companyId || undefined }));
 if (adds.length) {
