@@ -212,7 +212,12 @@
     "hp": "https://cureapp.co.jp/",
     "startedYear": 2020,
     "status": "提供中",
-    "type": "digital-therapeutics"
+    "type": "digital-therapeutics",
+    "startedAt": "2020-12",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000049.000015777.html"
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "eirl",
@@ -234,7 +239,12 @@
     "hp": "https://aillis.jp/",
     "startedYear": 2022,
     "status": "提供中",
-    "type": "endoscope-device"
+    "type": "endoscope-device",
+    "startedAt": "2022-12",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000023.000035813.html"
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "pep-up",
@@ -388,9 +398,15 @@
     "category": "home-medical",
     "description": "医療・介護の多職種が患者単位でやり取りする非公開SNS。在宅医療の連携ツールとして普及。",
     "hp": "https://www.medical-care.net/",
-    "startedYear": 2012,
+    "startedYear": 2013,
     "status": "提供中",
-    "type": "home-medical-care-coordination"
+    "type": "home-medical-care-coordination",
+    "startedAt": "2013",
+    "sources": [
+      "https://www.atpress.ne.jp/news/100704",
+      "https://about.medical-care.net/html/news/20260213.html"
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "doctornet-remote",
@@ -1362,7 +1378,7 @@
     "category": "home-medical",
     "description": "在宅医療を行う医療機関向けに、レセプト業務などの事務を遠隔で代行する子会社クラウドクリニックの事業。ファストドクターに売却した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "譲渡",
     "endedAt": "2024-07",
     "successor": "ファストドクター株式会社（企業DB id: 9010901038716）",
@@ -1381,11 +1397,13 @@
     ],
     "endReasonNote": "メドピアは医師プラットフォーム事業と医療機関支援プラットフォーム事業に投資を集中する方針のもと事業ポートフォリオを見直し、クラウドクリニックと親和性の高い事業から撤退するのに伴い、成長を見込めるファストドクターに譲渡すると説明した。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000404.000010134.html",
       "https://www.nihon-ma.co.jp/news/20240628_6095-8/",
       "https://prtimes.jp/main/html/rd/p/000000094.000031533.html"
     ],
     "updatedAt": "2026-10",
-    "type": "home-medical-office-bpo"
+    "type": "home-medical-office-bpo",
+    "startedAt": "2022-05"
   },
   {
     "id": "b-583f01cf",
@@ -1436,7 +1454,7 @@
     "category": "home-medical",
     "description": "在宅医療機関や介護事業者向けに経営サポートを提供する子会社メディパスの事業。メドレーはオンライン研修システム事業の取得を目的に子会社化したが、経営サポート事業はMBOで手放した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "譲渡",
     "endedAt": "2025-01",
     "successor": "株式会社メディパスホールディングス（メディパス代表によるMBO）",
@@ -1462,7 +1480,8 @@
       "https://www.nihon-ma.co.jp/news/20241120_4480-11/"
     ],
     "updatedAt": "2026-10",
-    "type": "home-medical-office-bpo"
+    "type": "home-medical-office-bpo",
+    "startedAt": "2021-03"
   },
   {
     "id": "b-c10a83ea",
@@ -5997,9 +6016,9 @@
     ],
     "endReasonNote": "日本法人の清算結了は登記で確認できるが、日本での事業をやめた理由は公表されていない。POMの販売が続いているかは確認できなかった。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000061603.html",
       "https://www.jetro.go.jp/invest/investment_environment/success_stories/tellusyoucare.html",
       "https://project.nikkeibp.co.jp/atclppp/PPP/news/122202253/",
-      "https://prtimes.jp/main/html/rd/p/000000006.000061603.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011003010897",
       "https://seniorlife-soken.com/archives/20809",
       "https://prtimes.jp/main/html/rd/p/000000005.000061603.html",
@@ -6452,58 +6471,6 @@
       "。"
     ],
     "type": "clinic-reservation-queue"
-  },
-  {
-    "id": "b-15e69284",
-    "name": "医療介護専用SNS「メディカルケアステーション（MCS）」",
-    "company": "エンブレース",
-    "companyId": "4013201010548",
-    "category": "home-medical",
-    "description": "病院・診療所・薬局・訪問看護・介護事業所の多職種と患者・家族が非公開でつながる医療介護専用のコミュニケーションツール。医療機関は無料で使え、全国の医師会が地域包括ケアの連携基盤として採用。",
-    "hp": "",
-    "startedYear": 2013,
-    "status": "統合",
-    "startedAt": "2013",
-    "endedAt": "2026-04",
-    "successor": "株式会社コラボスクエア（スズケングループ、MCSとして継続）",
-    "milestones": [
-      {
-        "date": "2013",
-        "text": "MCSをリリース"
-      },
-      {
-        "date": "2016-02",
-        "text": "全国の医療介護関連施設約2万件が利用、120カ所以上の医師会で正式採用"
-      },
-      {
-        "date": "2021-03",
-        "text": "スズケンが株式80.8%を15.4億円で取得し子会社化（直前期売上高4.3億円、営業損失5.3億円）"
-      },
-      {
-        "date": "2026-02",
-        "text": "スズケンがデジタルヘルスケア事業の促進のため、同じグループのコラボスクエアによる吸収合併を発表"
-      },
-      {
-        "date": "2026-04",
-        "text": "コラボスクエアに吸収合併。MCSと事例メディア「メディカルケアポスト」は同社が継続"
-      }
-    ],
-    "endReasons": [
-      "acquisition",
-      "parent-strategy"
-    ],
-    "endReasonNote": "スズケンは、医療・介護従事者40万人が使う「コラボポータル」とMCSの機能を組み合わせた新サービス開発のため、グループ会社同士を合併させたと発表した。MCSは継続している。",
-    "lessons": "医療機関無料の連携SNSは普及しても単独では収益化が難しく、卸大手の子会社として基盤事業に組み込まれる道をたどったとみられる。",
-    "sources": [
-      "https://www.atpress.ne.jp/news/100704",
-      "https://maonline.jp/news/20210326c",
-      "http://ke.kabupro.jp/tsp/20210326/140120210325484042.pdf",
-      "https://www.mixonline.jp/tabid55.html?artid=79749",
-      "https://about.medical-care.net/html/news/20260213.html",
-      "https://www.collabosquare.co.jp/news-detail/16"
-    ],
-    "updatedAt": "2026-10",
-    "type": "home-medical-care-coordination"
   },
   {
     "id": "b-ab4a6089",
@@ -7341,7 +7308,7 @@
     "hp": "",
     "startedYear": 2014,
     "status": "譲渡",
-    "startedAt": "2014",
+    "startedAt": "2014-09",
     "endedAt": "2024-10",
     "successor": "株式会社MEDIROM Rehab Solutions（メディロム子会社）",
     "milestones": [
@@ -7375,6 +7342,7 @@
     ],
     "endReasonNote": "譲受側のメディロムは、在宅リハビリシステムの開発など自社サービスとの組み合わせを目的に挙げたが、ワイズ・エムスリー側の譲渡理由は公表されていない。",
     "sources": [
+      "https://medirom-rehab-solutions.co.jp/corp",
       "https://www.koureisha-jutaku.com/20170614_01_3/",
       "https://corporate.m3.com/ir/release/2018/pdf/20180830_01J.pdf",
       "https://maonline.jp/news/20180830b",
@@ -7393,7 +7361,7 @@
     "category": "nursing",
     "description": "脳梗塞リハビリセンターと並行して運営していた、自費・保険の施術を行う鍼灸整骨院と、介護保険の通所介護（デイサービス）事業所。高齢者や地域住民向けの店舗型サービス。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "譲渡",
     "endedAt": "2022-01",
     "successor": "株式会社ベストケアー",
@@ -7408,10 +7376,12 @@
     ],
     "endReasonNote": "譲渡の理由は公表されていない。",
     "sources": [
+      "https://www.nsg.gr.jp/blog/%E6%A0%AA%E3%83%99%E3%82%B9%E3%83%88%E3%82%B1%E3%82%A2%E3%83%BC",
       "https://www.nihon-ma.co.jp/news/20220114_2413-15/"
     ],
     "updatedAt": "2026-10",
-    "type": "care-service-operation"
+    "type": "care-service-operation",
+    "startedAt": "2014-02"
   },
   {
     "id": "b-1c087052",
@@ -13913,7 +13883,7 @@
     "category": "home-medical",
     "description": "訪問診療に特化したクラウド型電子カルテ。スマホ・タブレットから入力でき、多職種での情報共有、医事文書作成、医療・介護の一括請求管理を備える。外来向けの姉妹製品「モバカルクリニック」もある。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2012,
     "status": "提供中",
     "milestones": [
       {
@@ -13922,6 +13892,7 @@
       }
     ],
     "sources": [
+      "https://techtarget.itmedia.co.jp/tt/article/1307/08/213070802/",
       "https://kyodonewsprwire.jp/release/202506230978",
       "https://movacal.net/",
       "https://it-trend.jp/emr/22766"
@@ -13930,7 +13901,8 @@
     "themes": [
       "cloud-emr"
     ],
-    "type": "home-medical-emr"
+    "type": "home-medical-emr",
+    "startedAt": "2012-08"
   },
   {
     "id": "b-c8425063",
@@ -14032,7 +14004,7 @@
     "category": "home-visit-nursing",
     "description": "訪問看護に特化したクラウド型電子カルテを軸に、BPOや経営支援、医療データ事業を展開する。ステーションが月額利用料を払う。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "提供中",
     "milestones": [
       {
@@ -14041,13 +14013,15 @@
       }
     ],
     "sources": [
+      "https://ewell.co.jp/company/history/",
       "https://ewell.co.jp/"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "cloud-emr"
     ],
-    "type": "visiting-nursing-software"
+    "type": "visiting-nursing-software",
+    "startedAt": "2014-06"
   },
   {
     "id": "b-0ad7a57f",
@@ -16463,7 +16437,7 @@
     "category": "nursing",
     "description": "入浴特化型デイ「ほっとスマイルSPA木場」や居宅介護支援「ほっとスマイルCare木場」など、江東区を中心とする介護事業",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "譲渡",
     "endedAt": "2026-02",
     "successor": "アリエ祐起元株式会社（GCグループ）",
@@ -16477,7 +16451,8 @@
     ],
     "updatedAt": "2026-10",
     "type": "care-service-operation",
-    "formerName": "介護事業（入浴特化型デイサービス・居宅介護支援・介護情報ポータル）"
+    "formerName": "介護事業（入浴特化型デイサービス・居宅介護支援・介護情報ポータル）",
+    "startedAt": "2014-03"
   },
   {
     "id": "b-e2bf0c76",
@@ -17016,13 +16991,15 @@
     "category": "home-medical",
     "description": "",
     "hp": "https://zest.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://ascii.jp/elem/000/001/964/1964569/",
       "https://zest.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "home-medical-care-coordination"
+    "type": "home-medical-care-coordination",
+    "startedAt": "2019-10"
   },
   {
     "id": "b-8c6123e1",
@@ -17066,13 +17043,15 @@
     "category": "home-visit-nursing",
     "description": "2025-05特許取得。",
     "hp": "https://www.zest.jp/service/rrm",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://zest.jp/corporate/news/20241127",
       "https://www.zest.jp/service/rrm"
     ],
     "updatedAt": "2026-10",
-    "type": "visiting-nursing-bpo"
+    "type": "visiting-nursing-bpo",
+    "startedAt": "2024-11"
   },
   {
     "id": "b-6a59fdb3",
@@ -17440,13 +17419,15 @@
     "category": "home-medical",
     "description": "2026-10柏センター開設",
     "hp": "https://medirom.co.jp/news/20260928",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000199.000016099.html",
       "https://medirom.co.jp/news/20260928"
     ],
     "updatedAt": "2026-10",
-    "type": "home-medical-selfpay-rehab"
+    "type": "home-medical-selfpay-rehab",
+    "startedAt": "2024-10"
   },
   {
     "id": "b-4fe95afd",
@@ -18235,8 +18216,9 @@
     "hp": "https://corporate.zenplace.co.jp/service",
     "startedYear": 2013,
     "status": "提供中",
-    "startedAt": "2013",
+    "startedAt": "2013-10",
     "sources": [
+      "https://job-medley.com/ans/253114/",
       "https://corporate.zenplace.co.jp/service"
     ],
     "updatedAt": "2026-10",
@@ -19437,6 +19419,7 @@
     "status": "提供中",
     "startedAt": "2008",
     "sources": [
+      "https://www.careritztc.co.jp/company/history/",
       "https://www.careritz.co.jp/stations/"
     ],
     "updatedAt": "2026-10",
@@ -19454,6 +19437,7 @@
     "status": "提供中",
     "startedAt": "2008",
     "sources": [
+      "https://www.careritztc.co.jp/company/history/",
       "https://www.careritz.co.jp/kaigo/"
     ],
     "updatedAt": "2026-10",
@@ -20700,13 +20684,15 @@
     "category": "home-visit-nursing",
     "description": "全国41拠点（2026-09、公式）。開始時期は確認できず",
     "hp": "https://www.recovery-group.co.jp/works/",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "提供中",
     "sources": [
+      "https://strainer.jp/companies/JP-9214/history",
       "https://www.recovery-group.co.jp/works/"
     ],
     "updatedAt": "2026-10",
-    "type": "visiting-nursing-station"
+    "type": "visiting-nursing-station",
+    "startedAt": "2014-01"
   },
   {
     "id": "b-61fd5242",
@@ -21026,13 +21012,15 @@
     "category": "nursing",
     "description": "",
     "hp": "https://welmo.co.jp/service/#anc_milmoplan",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000054.000018462.html",
       "https://welmo.co.jp/service/#anc_milmoplan"
     ],
     "updatedAt": "2026-10",
-    "type": "care-record-careplan-software"
+    "type": "care-record-careplan-software",
+    "startedAt": "2021-03"
   },
   {
     "id": "b-da7167cf",
@@ -21042,13 +21030,15 @@
     "category": "nursing",
     "description": "ひょうご新商品調達認定制度に認定。",
     "hp": "https://welmo.co.jp/service/#anc_milmo_recorder",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://www.welmo.co.jp/news/news-20241126/",
       "https://welmo.co.jp/service/#anc_milmo_recorder"
     ],
     "updatedAt": "2026-10",
-    "type": "care-record-careplan-software"
+    "type": "care-record-careplan-software",
+    "startedAt": "2024-11"
   },
   {
     "id": "b-f23d3671",
@@ -21343,8 +21333,9 @@
     "hp": "https://jp.moff.mobi/services/",
     "startedYear": 2017,
     "status": "提供中",
-    "startedAt": "2017",
+    "startedAt": "2017-08",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000009514.html",
       "https://jp.moff.mobi/services/"
     ],
     "updatedAt": "2026-10",
@@ -22704,22 +22695,6 @@
     "type": "excretion-care-robotics"
   },
   {
-    "id": "b-529dd77f",
-    "name": "ライブコネクト（介護施設向け見守り・介護支援システム）",
-    "company": "株式会社Z‐Works",
-    "companyId": "8011101073298",
-    "category": "nursing",
-    "description": "2022-02にライブコネクトコール／ビジョンを提供開始",
-    "hp": "https://liveconnect.jp/",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://liveconnect.jp/"
-    ],
-    "updatedAt": "2026-10",
-    "type": "care-facility-monitoring-sensor"
-  },
-  {
     "id": "b-fda6f96f",
     "name": "CAREBOOK（入退院支援クラウド）",
     "company": "株式会社3Sunny",
@@ -23991,13 +23966,15 @@
     "category": "nursing",
     "description": "開始時期は未確認",
     "hp": "https://exawizards.com/business/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000203.000030192.html",
       "https://exawizards.com/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "care-record-careplan-software"
+    "type": "care-record-careplan-software",
+    "startedAt": "2023-11"
   },
   {
     "id": "b-183ccc84",
@@ -29107,13 +29084,15 @@
     "category": "medical-device",
     "description": "2025-09治験開始",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://medicalai.m3.com/news/251002-news-info",
       "https://h-medtech.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "digital-therapeutics"
+    "type": "digital-therapeutics",
+    "startedAt": "2025-12"
   },
   {
     "id": "b-14e4b1ae",
@@ -29378,13 +29357,15 @@
     "category": "medical-device",
     "description": "治療用BMIが2025-12に先駆的医療機器指定",
     "hp": "https://lifescapes.jp/product/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://lifescapes.jp/post-769/",
       "https://lifescapes.jp/product/"
     ],
     "updatedAt": "2026-10",
-    "type": "rehab-robotics-prosthetics"
+    "type": "rehab-robotics-prosthetics",
+    "startedAt": "2024-06"
   },
   {
     "id": "b-6a7e8ebf",
@@ -30187,13 +30168,15 @@
     "category": "medical-device",
     "description": "",
     "hp": "https://www.crewt.co.jp/product",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
+      "https://www.crewt.co.jp/archives/419",
       "https://www.crewt.co.jp/product"
     ],
     "updatedAt": "2026-10",
-    "type": "ophthalmic-device"
+    "type": "ophthalmic-device",
+    "startedAt": "2015-12"
   },
   {
     "id": "b-ebdd49e8",
@@ -30203,13 +30186,15 @@
     "category": "medical-device",
     "description": "",
     "hp": "https://www.crewt.co.jp/product/imoscan",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://crewt.co.jp/wp/wp-content/uploads/2022/11/PressRelease2022120.pdf",
       "https://www.crewt.co.jp/product/imoscan"
     ],
     "updatedAt": "2026-10",
-    "type": "ophthalmic-device"
+    "type": "ophthalmic-device",
+    "startedAt": "2022-12"
   },
   {
     "id": "b-a65cda98",
@@ -30537,6 +30522,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://bio.nikkeibp.co.jp/atcl/column/16/021500017/011400386/",
       "https://icurex.co.jp/about/"
     ],
     "updatedAt": "2026-10",
@@ -32036,13 +32022,15 @@
     "category": "home-medical",
     "description": "",
     "hp": "https://tochoku.com/service/buddy-on-call",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://tochoku.com/company/history",
       "https://tochoku.com/service/buddy-on-call"
     ],
     "updatedAt": "2026-10",
-    "type": "home-medical-oncall-service"
+    "type": "home-medical-oncall-service",
+    "startedAt": "2019"
   },
   {
     "id": "b-cbb01326",
@@ -32052,13 +32040,14 @@
     "category": "home-medical",
     "description": "",
     "hp": "https://tochoku.com/service/denwa-saishinkun",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
       "https://tochoku.com/service/denwa-saishinkun"
     ],
     "updatedAt": "2026-10",
-    "type": "home-medical-oncall-service"
+    "type": "home-medical-oncall-service",
+    "startedAt": "2025-04"
   },
   {
     "id": "b-9725908c",
@@ -32068,13 +32057,15 @@
     "category": "home-medical",
     "description": "",
     "hp": "https://tochoku.com/service/buddy-call-center",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://tochoku.com/company/history",
       "https://tochoku.com/service/buddy-call-center"
     ],
     "updatedAt": "2026-10",
-    "type": "home-medical-oncall-service"
+    "type": "home-medical-oncall-service",
+    "startedAt": "2021"
   },
   {
     "id": "b-0839048c",
@@ -32118,13 +32109,15 @@
     "category": "home-medical",
     "description": "",
     "hp": "https://cloudclinic.jp/service/contact_center/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://www.atpress.ne.jp/news/95572",
       "https://cloudclinic.jp/service/contact_center/"
     ],
     "updatedAt": "2026-10",
-    "type": "home-medical-office-bpo"
+    "type": "home-medical-office-bpo",
+    "startedAt": "2016-04"
   },
   {
     "id": "b-c18ec9ff",
@@ -32134,13 +32127,15 @@
     "category": "home-medical",
     "description": "",
     "hp": "https://cloudclinic.jp/service/document/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://www.atpress.ne.jp/news/106418",
       "https://cloudclinic.jp/service/document/"
     ],
     "updatedAt": "2026-10",
-    "type": "home-medical-office-bpo"
+    "type": "home-medical-office-bpo",
+    "startedAt": "2016-06"
   },
   {
     "id": "b-5c4b636c",
@@ -32221,8 +32216,9 @@
     "hp": "https://mics.tokyo/service/digital",
     "startedYear": 2021,
     "status": "提供中",
-    "startedAt": "2021",
+    "startedAt": "2021-02",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000074761.html",
       "https://mics.tokyo/service/digital"
     ],
     "updatedAt": "2026-10",
@@ -32461,13 +32457,15 @@
     "category": "home-visit-nursing",
     "description": "2023年12月港区、2024年6月品川区に新規開設",
     "hp": "https://medistep.jp/service-msp/ouchinokango/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://medistep.co.jp/area/kango_kyoudou",
       "https://medistep.jp/service-msp/ouchinokango/"
     ],
     "updatedAt": "2026-10",
-    "type": "visiting-nursing-station"
+    "type": "visiting-nursing-station",
+    "startedAt": "2023-06"
   },
   {
     "id": "b-6c36b91d",
@@ -32477,13 +32475,15 @@
     "category": "nursing",
     "description": "",
     "hp": "https://medistep.jp/service-msp/ouchinocareplan/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://carepro-navi.jp/shibuya/PubOffDetail/show/0/1/50/1371217298",
       "https://medistep.jp/service-msp/ouchinocareplan/"
     ],
     "updatedAt": "2026-10",
-    "type": "care-service-operation"
+    "type": "care-service-operation",
+    "startedAt": "2024-07"
   },
   {
     "id": "b-650740ae",
@@ -32525,13 +32525,15 @@
     "category": "home-visit-nursing",
     "description": "在宅レスパイト・通学支援・自費サービスも提供",
     "hp": "https://medi-blanca.co.jp/service-list/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://venture.jp/news/2023/06/20/3007/",
       "https://medi-blanca.co.jp/service-list/"
     ],
     "updatedAt": "2026-10",
-    "type": "pediatric-visiting-nursing"
+    "type": "pediatric-visiting-nursing",
+    "startedAt": "2021-10"
   },
   {
     "id": "b-3d67103e",
@@ -32608,13 +32610,15 @@
     "category": "nursing",
     "description": "2026年9月秋田県大館市で実装検証開始",
     "hp": "https://nurseandcraft.io/news/20260907/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000069521.html",
       "https://nurseandcraft.io/news/20260907/"
     ],
     "updatedAt": "2026-10",
-    "type": "elderly-home-monitoring"
+    "type": "elderly-home-monitoring",
+    "startedAt": "2023-05"
   },
   {
     "id": "b-03701907",
@@ -32658,8 +32662,9 @@
     "hp": "https://wyl.co.jp/station-i",
     "startedYear": 2016,
     "status": "提供中",
-    "startedAt": "2016",
+    "startedAt": "2016-06",
     "sources": [
+      "https://www.job-j.net/company/detail/6123203/",
       "https://wyl.co.jp/station-i"
     ],
     "updatedAt": "2026-10",
@@ -32692,8 +32697,9 @@
     "hp": "https://wyl.co.jp/what",
     "startedYear": 2023,
     "status": "提供中",
-    "startedAt": "2023",
+    "startedAt": "2023-04",
     "sources": [
+      "https://note.com/wylinc/n/nb735a09d11e6",
       "https://wyl.co.jp/what"
     ],
     "updatedAt": "2026-10",
@@ -32707,13 +32713,15 @@
     "category": "home-visit-nursing",
     "description": "",
     "hp": "https://wyl.co.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://wyl.co.jp/info/zb6i2tYV",
       "https://wyl.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "severe-disability-home-care"
+    "type": "severe-disability-home-care",
+    "startedAt": "2025-07"
   },
   {
     "id": "b-7192b7e6",
@@ -32723,13 +32731,15 @@
     "category": "home-visit-nursing",
     "description": "2026年10月に「ウィルの家みずえ」開所",
     "hp": "https://prtimes.jp/main/html/rd/p/000000001.000192987.html",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://wyl.co.jp/nursing-home",
       "https://prtimes.jp/main/html/rd/p/000000001.000192987.html"
     ],
     "updatedAt": "2026-10",
-    "type": "severe-disability-home-care"
+    "type": "severe-disability-home-care",
+    "startedAt": "2026-10"
   },
   {
     "id": "b-3cce0cea",
@@ -32910,6 +32920,8 @@
     "status": "提供中",
     "startedAt": "2014-05",
     "sources": [
+      "https://nsskjapan.com/1681/",
+      "https://www.koureisha-jutaku.com/20261007_01_04/",
       "https://www.amvis.com/business/"
     ],
     "updatedAt": "2026-10",
@@ -33023,13 +33035,15 @@
     "category": "nursing",
     "description": "業務別の展開。各",
     "hp": "https://lifeshift-inc.com/service/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000119162.html",
       "https://lifeshift-inc.com/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "care-record-careplan-software"
+    "type": "care-record-careplan-software",
+    "startedAt": "2026-04"
   },
   {
     "id": "b-dc5c1c2d",
@@ -33189,13 +33203,15 @@
     "category": "nursing",
     "description": "15種類の訓練プログラム、加算取得の伴走支援",
     "hp": "https://aikomids.com/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://www.sumitomo-pharma.co.jp/news/press/assets/pdf/frontier-demoday-2023_07.pdf",
       "https://aikomids.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "care-activity-dementia-program"
+    "type": "care-activity-dementia-program",
+    "startedAt": "2023-07"
   },
   {
     "id": "b-9336e5d3",
@@ -33205,13 +33221,15 @@
     "category": "nursing",
     "description": "",
     "hp": "https://aikomi.co.jp/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://www.sumitomo-pharma.co.jp/news/press/assets/pdf/frontier-demoday-2023_07.pdf",
       "https://aikomi.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "care-activity-dementia-program"
+    "type": "care-activity-dementia-program",
+    "startedAt": "2021-03"
   },
   {
     "id": "b-8762768f",
@@ -33254,13 +33272,14 @@
     "category": "nursing",
     "description": "2025年12月に大幅リニューアル",
     "hp": "https://prtimes.jp/main/html/rd/p/000000032.000121171.html",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000032.000121171.html"
     ],
     "updatedAt": "2026-10",
-    "type": "care-activity-dementia-program"
+    "type": "care-activity-dementia-program",
+    "startedAt": "2025-11"
   },
   {
     "id": "b-558134fd",
@@ -33372,6 +33391,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://tomoruba.eiicon.net/articles/5363",
       "https://nagarainc.com/service"
     ],
     "updatedAt": "2026-10",
@@ -33385,13 +33405,15 @@
     "category": "nursing",
     "description": "会議録音から議事録作成",
     "hp": "https://nagarainc.com/service/gijiroku",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000014.000165374.html",
       "https://nagarainc.com/service/gijiroku"
     ],
     "updatedAt": "2026-10",
-    "type": "care-record-careplan-software"
+    "type": "care-record-careplan-software",
+    "startedAt": "2026-07"
   },
   {
     "id": "b-2d7b3566",
@@ -33401,13 +33423,15 @@
     "category": "nursing",
     "description": "ベータ版を2026年後半ローンチ予定（公式）。介護事業者80法人以上とパートナー締結（2026年3月）",
     "hp": "https://care.enactic.ai/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000166268.html",
       "https://care.enactic.ai/"
     ],
     "updatedAt": "2026-10",
-    "type": "excretion-care-robotics"
+    "type": "excretion-care-robotics",
+    "startedAt": "2026-03"
   },
   {
     "id": "b-27fddf16",
@@ -33982,6 +34006,7 @@
     "status": "提供中",
     "startedAt": "2012",
     "sources": [
+      "https://www.atpress.ne.jp/news/220462",
       "https://eustylelab.co.jp/service"
     ],
     "updatedAt": "2026-10",
@@ -35635,13 +35660,15 @@
     "category": "nursing",
     "description": "2025年にオプテージ、シンクレイヤの見守りサービスに採用",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000014.000040517.html",
       "https://ai6.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "elderly-home-monitoring"
+    "type": "elderly-home-monitoring",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-fa583fe1",
@@ -35651,13 +35678,15 @@
     "category": "nursing",
     "description": "開発者向け。2024年にオンライン説明会を継続開催",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000014.000040517.html",
       "https://ai6.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "elderly-home-monitoring"
+    "type": "elderly-home-monitoring",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-68711ebd",
@@ -38539,10 +38568,11 @@
     "category": "medical-device",
     "description": "英Odin Vision買収を機にデジタル・エクセレンス・センターを設立",
     "hp": "https://www.olympus.co.jp/news/2023/nr02517.html",
-    "startedYear": 2023,
+    "startedYear": 2019,
     "status": "提供中",
-    "startedAt": "2023-06",
+    "startedAt": "2019",
     "sources": [
+      "https://www.olympus.co.jp/news/2024/nr02631.html",
       "https://www.olympus.co.jp/news/2023/nr02517.html"
     ],
     "updatedAt": "2026-10",
@@ -40115,14 +40145,16 @@
     "category": "medical-device",
     "description": "「刺さないニードル」とマイクロカレント・電気浸透流で薬剤や有効成分を非侵襲に皮膚内へ届ける経皮投与デバイス。医療用のProモデルと美容向けエントリーモデルを開発中。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000165376.html",
       "https://bionto.co.jp/products/",
       "https://prtimes.jp/main/html/rd/p/000000001.000165376.html"
     ],
     "type": "home-wearable-medical-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2026-10"
   },
   {
     "id": "b-91b96b16",
@@ -40293,6 +40325,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://kuc.vc/news/808/",
       "https://www.tcn-prime.jp/"
     ],
     "type": "cardiovascular-device",
@@ -40823,6 +40856,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://toyokeizai.net/articles/-/908016?display=b",
       "https://almaprism.com/?lang=ja",
       "https://www.krp.co.jp/news/detail/4807.html"
     ],
@@ -41918,14 +41952,16 @@
     "category": "medical-device",
     "description": "薄く軽く柔軟で、心電図パッドのように体に貼ったまま長時間撮影できる超音波エコープローブ。医療・ヘルスケア・スポーツ向けで、骨盤底の可視化など尿漏れケアへの応用も進める。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://kyodonewsprwire.jp/release/202503055197",
       "https://www.salmontech.jp/",
       "https://bio.nikkeibp.co.jp/atcl/release/25/03/13/23543/"
     ],
     "type": "home-wearable-medical-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2025-03"
   },
   {
     "id": "b-7c7c090b",
@@ -41956,14 +41992,16 @@
     "category": "nursing",
     "description": "尿もれ・頻尿に悩む男性向けの尿ケア製品。体に違和感なく装着して尿を吸収せずに一時的に溜め、トイレで立ったまま排出できる。前立腺手術後の患者を対象にした臨床研究でQOL向上を確認。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000136382.html",
       "https://intronspace.com/",
       "https://intronspace.com/products/"
     ],
     "type": "welfare-equipment",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-11"
   },
   {
     "id": "b-80a68b80",
@@ -42214,8 +42252,9 @@
     "hp": "",
     "startedYear": 2021,
     "status": "提供中",
-    "startedAt": "2021",
+    "startedAt": "2021-02",
     "sources": [
+      "https://www.jst.go.jp/coi/research/seika/jigyoka_20.html",
       "https://marisleep.co.jp/company"
     ],
     "type": "care-facility-monitoring-sensor",
@@ -42450,6 +42489,7 @@
     "status": "提供中",
     "startedAt": "2021",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000039.000011497.html",
       "https://prtimes.jp/main/html/rd/p/000000065.000095667.html",
       "https://corp.digireha.com/"
     ],
@@ -43649,6 +43689,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://bio.nikkeibp.co.jp/atcl/column/16/021500017/040600234/",
       "https://impute.co.jp/ja/",
       "https://prtimes.jp/main/html/rd/p/000000036.000051734.html"
     ],
@@ -43718,6 +43759,7 @@
     "status": "提供中",
     "startedAt": "2020",
     "sources": [
+      "https://homecare.minnanokaigo.com/facility/004-1361590654/",
       "https://prtimes.jp/main/html/rd/p/000000002.000091158.html",
       "https://prtimes.jp/main/html/rd/p/000000009.000091158.html"
     ],
@@ -45654,14 +45696,16 @@
     "category": "nursing",
     "description": "自宅や地域の通いの場からオンラインで参加し、認知症・フレイル予防に取り組めるシニア向け健康増進サービス。自治体の介護予防事業などで導入。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://george-shaun.com/newsrelease/20211215/",
       "https://prtimes.jp/main/html/rd/p/000000065.000026328.html",
       "https://prtimes.jp/main/html/rd/p/000000069.000026328.html"
     ],
     "type": "care-activity-dementia-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021-12"
   },
   {
     "id": "b-d76e5d66",
@@ -46225,14 +46269,16 @@
     "category": "home-medical",
     "description": "訪問診療・訪問歯科・在宅薬局向けに、訪問スケジュールと移動ルート、在宅患者情報、紹介元管理、経営分析をまとめて扱うクラウドサービス。電子カルテやレセコンとも連携する。",
     "hp": "https://crosslog.life/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000050034.html",
       "https://crosslog.life/",
       "https://corp.crosslog.life/"
     ],
     "type": "home-medical-care-coordination",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2020-04"
   },
   {
     "id": "b-9b13a6ed",
@@ -46876,14 +46922,16 @@
     "category": "nursing",
     "description": "独居高齢者や高齢者世帯に通報機器やスマートメータを使い、看護職オペレーターが24時間で緊急通報・相談・安否確認に応じる自治体受託サービス。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000015.000033136.html",
       "https://anshin-support.co.jp/",
       "https://anshin-support.co.jp/service/"
     ],
     "type": "elderly-home-monitoring",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-04"
   },
   {
     "id": "b-d4b70a84",
@@ -46893,13 +46941,15 @@
     "category": "home-medical",
     "description": "在宅療養患者からの往診依頼・看取り・電話再診などの最初の連絡を、看護資格を持つオペレーターが24時間365日受けて医師に取り次ぐ。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000033136.html",
       "https://anshin-support.co.jp/"
     ],
     "type": "home-medical-oncall-service",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018-04"
   },
   {
     "id": "b-25ba8f28",
@@ -47918,17 +47968,19 @@
     "category": "home-medical",
     "description": "リーガロイヤルホテルやハウステンボスに滞在しながら自立支援のリハビリを受ける保険外サービス。2024年6月30日に終了した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "終了",
     "endedAt": "2024-06",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://www.his.co.jp/assets/%E3%80%9004%E3%80%91HTBhersukeatu-rizumu.pdf",
       "https://www.polaris.care/news/detail.php?id=162"
     ],
     "type": "home-medical-selfpay-rehab",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021-10"
   },
   {
     "id": "b-05b9d663",
@@ -49460,13 +49512,15 @@
     "category": "nursing",
     "description": "センサーで介護施設の体力測定の準備・計測・記録・管理を自動化し、数人がかりだった測定を職員1人でも行えるようにする製品。実証事業から生まれた。",
     "hp": "https://tanotech.jp/tanocheck",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000024.000043268.html",
       "https://tanotech.jp/tanocheck"
     ],
     "type": "care-activity-dementia-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021-08"
   },
   {
     "id": "b-b9e21de5",
@@ -49717,6 +49771,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.keio-innovation.co.jp/portfolio/2525/",
       "https://www.jimed.jp/"
     ],
     "type": "therapeutic-devices-supplies",
@@ -49848,13 +49903,15 @@
     "category": "nursing",
     "description": "AIを活用して認知症の人と会話し、日常のコミュニケーションを支えるロボット。介護人材不足を補うことを狙い、テクノロジー事業部が開発・販売する。",
     "hp": "http://www.the-harmony.net/it/index.html",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000040046.html",
       "http://www.the-harmony.net/it/index.html"
     ],
     "type": "care-activity-dementia-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-04"
   },
   {
     "id": "b-95c8ed24",
@@ -49899,13 +49956,15 @@
     "category": "medical-device",
     "description": "材料を塗抹したスライドガラスをセットすると約5分で染色標本ができる小型の自動グラム染色装置。10種類以上の染色プログラムを登録できる。",
     "hp": "https://carbgem.com/product/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://carbgem.com/news-20230830/",
       "https://carbgem.com/product/"
     ],
     "type": "ivd-lab-instrument",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-1a85645a",
@@ -49918,6 +49977,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://corp.asics.com/jp/press/article/2022-03-16",
       "https://ghoonuts.com/",
       "https://ghoonuts.com/news/ghoonutspress20241021/"
     ],
@@ -50033,13 +50093,15 @@
     "category": "medical-device",
     "description": "同社が自社開発した心電計デバイス。回路設計からファームウェア、解析AIまで内製する同社の技術基盤となり、心不全AIの開発につながった。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000013.000017238.html",
       "https://simplex-q.com/about"
     ],
     "type": "home-wearable-medical-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2020-09"
   },
   {
     "id": "b-923db8ed",
@@ -50516,13 +50578,15 @@
     "category": "medical-device",
     "description": "見る対象に合わせて自動でピントを合わせるアイウェア。細かい手元作業やPC・スマートフォン利用など特定の場面で使うことを想定し、視野を広げたViXion2や法人向けViXion2 Proもある。",
     "hp": "https://vixion.jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000028.000105928.html",
       "https://vixion.jp/"
     ],
     "type": "ophthalmic-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-03"
   },
   {
     "id": "b-b8344d8c",
@@ -51397,6 +51461,296 @@
       "https://prtimes.jp/main/html/rd/p/000000011.000089348.html"
     ],
     "type": "medication-devices",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-cd516a4a",
+    "name": "セコムOWEL（無床診療所・在宅クリニック向けクラウド型電子カルテ）",
+    "company": "セコム医療システム",
+    "companyId": "1011001035966",
+    "category": "home-medical",
+    "description": "在宅クリニック・無床診療所に特化したクラウド型電子カルテ。Windows・Mac・iPad・スマホなど多様な端末で使え、訪問先でも記録できる。ファストドクター等の外部サービスとも連携。",
+    "hp": "https://medical.secom.co.jp/it/karte/secomowel/",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015",
+    "sources": [
+      "https://medical.secom.co.jp/corporate/history.html",
+      "https://medical.secom.co.jp/it/karte/secomowel/"
+    ],
+    "type": "home-medical-emr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5e9973df",
+    "name": "Zaitak Karte（在宅医療・外来対応クラウド型電子カルテ）",
+    "company": "株式会社アイソル",
+    "category": "home-medical",
+    "description": "大阪の医療IT企業アイソルが開発・販売する在宅医療向けクラウド型電子カルテ。外来診療にも対応し、訪問先・急な往診でも各種端末から記録できる。2013年には在宅医療地域連携クラウド「TeamKarte」も発売。",
+    "hp": "https://www.zaitakkarte.net/",
+    "startedYear": 2014,
+    "status": "提供中",
+    "startedAt": "2014-01",
+    "sources": [
+      "https://www.zaitakkarte.net/company.html"
+    ],
+    "type": "home-medical-emr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-28024df6",
+    "name": "ファストドクター 在宅医療支援（夜間休日オンコール・往診代行）",
+    "company": "ファストドクター株式会社",
+    "companyId": "9010901038716",
+    "category": "home-medical",
+    "description": "在宅医療機関の24時間体制を支えるため、夜間・休日の電話一次対応・救急往診・看取り等を代行する。救急往診事業で築いた医師ネットワークを在宅医療機関向けに提供。",
+    "hp": "https://oncall.fastdoctor.jp/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-05",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000039.000031533.html",
+      "https://fastdoctor.jp/corporate/service/home-medical-care/"
+    ],
+    "type": "home-medical-oncall-service",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-08422cd8",
+    "name": "バイタルリンク（医療・介護多職種連携情報共有システム）",
+    "company": "帝人株式会社",
+    "companyId": "8120001077489",
+    "category": "home-medical",
+    "description": "在宅患者の情報を医師・看護・介護など多職種がPC・スマホで共有する連絡帳（SNS）機能と、体温計・血圧計等からバイタルを取り込む機能を備える。帝人の地域包括ケア参入として発売。",
+    "hp": "https://medical.teijin-pharma.co.jp/product/zaitaku/vitallink.html",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015-09",
+    "sources": [
+      "https://xtech.nikkei.com/dm/atcl/news/15/092500466/",
+      "https://medical.teijin-pharma.co.jp/product/zaitaku/vitallink.html"
+    ],
+    "type": "home-medical-care-coordination",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-584871de",
+    "name": "テルモ 在宅酸素事業・在宅輸液ポンプ（カフティポンプ）事業",
+    "company": "テルモ株式会社",
+    "companyId": "3011001015116",
+    "category": "home-medical",
+    "description": "1995年に参入した酸素濃縮装置レンタル等の在宅酸素事業と在宅輸液ポンプ事業。製造子会社医器研・販売子会社テルモメディカルケアを含め、2013年2月にエア・ウォーターへ譲渡（売上約30億円）。",
+    "hp": "",
+    "startedYear": 1995,
+    "status": "譲渡",
+    "startedAt": "1995",
+    "endedAt": "2013-02",
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "テルモは栄養輸液・腹膜透析・糖尿病など他の在宅領域を強化する方針の一方、在宅酸素は医療ガス大手で呼吸器製品力のあるエア・ウォーターに譲渡すれば更なる発展が見込めると判断し、2013年2月に事業譲渡した。",
+    "lessons": "在宅酸素のような機器レンタル・保守型事業は、ガス供給・物流網を持つ専業大手のほうが規模の経済を出しやすく、総合メーカーは選択と集中で手放しやすい。",
+    "sources": [
+      "https://assets.minkabu.jp/news/article_media_content/urn:newsml:tdnet.info:20130116064118/140120130116064118.pdf",
+      "https://www.awi.co.jp/ja/business/news/news7212673717458819888.html"
+    ],
+    "type": "home-medical-therapy",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-05e20ff8",
+    "name": "フレアス メディカルケアホーム（医療対応型療養施設＝ホスピス住宅）",
+    "company": "株式会社フレアス",
+    "category": "home-medical",
+    "description": "在宅マッサージ大手フレアスが2023年にアンビスから1施設を譲り受けて始めたホスピス住宅事業。21棟（開設予定含む）まで広げたが、2025年9月に全施設をリベルケアへ譲渡し撤退。",
+    "hp": "https://fureasu.jp/",
+    "startedYear": 2023,
+    "status": "譲渡",
+    "startedAt": "2023",
+    "endedAt": "2025-09",
+    "endReasons": [
+      "team",
+      "parent-strategy"
+    ],
+    "endReasonNote": "会社発表では、ホスピス事業を成長の柱としてきたが利用者の獲得と人材採用に遅れが生じ事業環境が厳しく、営業赤字だった。ホスピス事業を拡大中のリベルケアへ譲渡し、収益性の高い祖業のマッサージ事業に経営資源を集中した。",
+    "lessons": "ホスピス住宅は看護人材の採用と入居者の獲得が同時に立ち上がらないと赤字が続きやすく、後から参入した事業者ほど専業大手への売却に流れやすい。",
+    "sources": [
+      "https://finance.stockweather.co.jp/contents/dispPDF.aspx?disclosure=20250602577629",
+      "https://www.nihon-ma.co.jp/news/20230116_7062-5/",
+      "https://www.koureisha-jutaku.com/20250611_999_02/"
+    ],
+    "type": "home-medical-hospice-housing",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-88cff85d",
+    "name": "ファミリー・ホスピス（ホスピス型住宅＋訪問看護）",
+    "company": "日本ホスピスホールディングス株式会社",
+    "category": "home-medical",
+    "description": "訪問看護ステーションとホスピス型の高齢者住宅を組み合わせ、がん末期や難病の人の在宅看取りを支える。首都圏から関西などに展開。2026年8月に杉並区の介護付有料老人ホーム2施設を譲渡し訪問看護に特化。",
+    "hp": "https://www.jhospice.co.jp/",
+    "startedYear": 2012,
+    "status": "提供中",
+    "startedAt": "2012",
+    "sources": [
+      "https://keiei.freee.co.jp/articles/i0101996",
+      "https://www.nihon-ma.co.jp/news/20260814_7061-9/"
+    ],
+    "type": "home-medical-hospice-housing",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1ca1bc5f",
+    "name": "CureApp HT 高血圧治療補助アプリ",
+    "company": "CureApp",
+    "companyId": "2011101070788",
+    "category": "medical-device",
+    "description": "高血圧症の患者が医師の処方で使う治療補助アプリ。生活習慣の改善を個別に指導し、降圧を補助する。2022年4月に薬事承認、同年9月に保険適用され即日発売。高血圧領域で世界初の治療用アプリ。",
+    "hp": "https://cureapp.co.jp/productsite/ht/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-09",
+    "sources": [
+      "https://www.mixonline.jp/tabid55.html?artid=73573",
+      "https://cureapp.co.jp/productsite/ht/"
+    ],
+    "type": "digital-therapeutics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-64df1e9c",
+    "name": "不眠障害治療用アプリ（サスメド、塩野義製薬と販売提携）",
+    "company": "サスメド株式会社",
+    "companyId": "7010003022232",
+    "category": "medical-device",
+    "description": "不眠障害の認知行動療法をアプリで支援するプログラム医療機器。2023年2月に製造販売承認を得たが保険適用希望書を2024年1月に取り下げ、2026年8月には塩野義製薬との販売提携契約も終了し、上市に至っていない。",
+    "hp": "https://www.susmed.co.jp/",
+    "startedYear": 2023,
+    "status": "休止",
+    "startedAt": "2023-02",
+    "endedAt": "2026-08",
+    "endReasons": [
+      "reimbursement"
+    ],
+    "endReasonNote": "2023年2月に承認取得後、保険適用希望書を提出したが、現在の枠組みでは希望に沿った結論にならないと判断して2024年1月に取り下げた（報道）。2026年8月、両社協議の結果、2021年締結の塩野義製薬との販売提携契約を終了した。",
+    "lessons": "薬事承認を取っても保険償還の評価が見合わなければ上市できず、販売パートナーの製薬会社も離れうる。承認と償還を並行で設計する必要がある。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000010.000069571.html",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t359/202402/583105.html",
+      "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2026/8%E6%9C%88/J_20260826.pdf"
+    ],
+    "type": "digital-therapeutics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2f44c9a5",
+    "name": "gastroAI（早期胃がん向け内視鏡画像診断支援AI）",
+    "company": "AIメディカルサービス",
+    "companyId": "5030001122133",
+    "category": "medical-device",
+    "description": "胃の内視鏡検査中に、生検などを検討すべき早期胃がん疑いの病変候補をAIが検出して医師に知らせるソフトウェア。2023年12月承認、2024年発売。2026年には動画解析に対応したmodel-G3も承認。",
+    "hp": "https://www.ai-ms.com/",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024",
+    "sources": [
+      "https://www.ai-ms.com/news/pressrelease/20231226",
+      "https://prtimes.jp/main/html/rd/p/000000041.000049025.html"
+    ],
+    "type": "endoscope-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ad872747",
+    "name": "ハートシート（重症心不全向け自己骨格筋芽細胞シート）",
+    "company": "テルモ株式会社",
+    "companyId": "3011001015116",
+    "category": "medical-device",
+    "description": "患者自身の太ももの筋肉から作る細胞シートを心臓に貼る世界初の心不全治療用再生医療等製品。2015年9月に条件及び期限付承認を得て2016年5月に発売したが、本承認が得られず2024年7月に販売終了。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "終了",
+    "startedAt": "2016-05",
+    "endedAt": "2024-07",
+    "endReasons": [
+      "evidence",
+      "regulation"
+    ],
+    "endReasonNote": "条件及び期限付承認後に集めた使用成績データで有効性を示せず、2024年7月の厚労省薬事審議会で承認は適切でないと判断された。これを受けテルモは販売を終了し、移植済み患者の使用成績調査のみ継続する。",
+    "lessons": "条件付き早期承認は市販後に有効性を立証できなければ取り消されうる。比較対照のない市販後データだけで有効性を示す設計の難しさを示した事例。",
+    "sources": [
+      "https://www.terumo.co.jp/newsrelease/detail/20160530/792",
+      "https://www.terumo.co.jp/newsrelease/detail/20240720/10371",
+      "https://medical.terumo.co.jp/sites/default/files/assets/news/equipment/pdf/24T228.pdf"
+    ],
+    "type": "cardiovascular-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-aacee052",
+    "name": "Honda歩行アシスト（歩行訓練機器）",
+    "company": "本田技研工業株式会社",
+    "category": "medical-device",
+    "description": "ASIMOの技術を応用し、腰に装着して股関節の動きを補助する歩行訓練機器。医療機関向けに3年リース（月額4.5万円）で提供。2023年12月末でホンダの取り扱いを終え、2024年1月からオージー技研が事業を継承。",
+    "hp": "https://www.honda.co.jp/walking-assist/",
+    "startedYear": 2015,
+    "status": "譲渡",
+    "startedAt": "2015-11",
+    "endedAt": "2023-12",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "ホンダは2023年12月末で歩行アシストの取り扱いを終了し、2024年1月からオージー技研が顧客サービスを含む事業を継承したと公式サイトで告知。終了の理由は公表されていない。",
+    "sources": [
+      "https://www.honda.co.jp/walking-assist/",
+      "https://car.watch.impress.co.jp/docs/news/712728.html"
+    ],
+    "type": "rehab-robotics-prosthetics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a96329c4",
+    "name": "離床アシストロボット リショーネPlus",
+    "company": "パナソニック ホールディングス株式会社",
+    "companyId": "5120001158218",
+    "category": "nursing",
+    "description": "電動ケアベッドの半分が車いすに分離・変形し、介助者1人でベッドから車いすへの移乗ができる介護ロボット。ISO13482認証を取得し販売・レンタルしたが、2022年4月に生産終了。",
+    "hp": "https://sumai.panasonic.jp/agefree/products/resyoneplus/",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-01",
+    "endedAt": "2022-04",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "パナソニックの製品ページで2022年4月生産終了と告知されている。生産終了の理由は公表されていない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000002602.000003442.html",
+      "https://sumai.panasonic.jp/agefree/products/resyoneplus/specs.html"
+    ],
+    "type": "excretion-care-robotics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a8469d36",
+    "name": "レオパレス21 シルバー事業（あずみ苑：デイサービス・有料老人ホーム等）",
+    "company": "株式会社レオパレス２１",
+    "category": "nursing",
+    "description": "賃貸住宅大手レオパレス21が子会社アズ・ライフケア等を通じて運営してきた介護事業「あずみ苑」。2026年9月、子会社2社の全株式を日本革新投資系SPCへ備忘価額（各1円）で譲渡する契約を締結（10月末実行予定）。",
+    "hp": "https://www.azumien.jp/",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2026-10",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2026年9月14日に基本合意、9月30日に株式譲渡契約を締結。全株式を各1円で譲渡し特別損失を計上する。手元の開示では譲渡理由の詳細を確認できず（9月14日付リリースに記載の可能性）。施設は譲渡後も運営継続。",
+    "sources": [
+      "https://www.release.tdnet.info/inbs/140120260930542878.pdf",
+      "https://www.azumien.jp/news/pdf/20260915.pdf",
+      "https://www.koureisha-jutaku.com/20260923_01_02/"
+    ],
+    "type": "care-service-operation",
     "updatedAt": "2026-10"
   }
 ]
