@@ -7,6 +7,7 @@
  * 入力（JSON 配列）: { id, rounds: [{ date, round, type, amount(百万円), investors, lead, source, note }], totalFunding: { amount, asOf, note, source }, note }
  * - 同じ会社は入力で置き換える（調べ直した結果を優先）。rounds が空でも「調べた」記録として残す。
  * - まとめサイト（INITIAL・STARTUP DB 等）だけが出典のラウンドは、金額を消して「当事者の発表は未確認」とする。
+ * - --append を付けると置き換えずに足す（同じ出典URL、または同じ年月・同じ金額の回は足さない）。取りこぼしを補うときに使う。
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -22,8 +23,10 @@ const str = (v) => (typeof v === 'string' && v.trim() ? v.trim() : undefined);
 const num = (v) => (typeof v === 'number' && Number.isFinite(v) && v > 0 ? v : null);
 const strip = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined && !(Array.isArray(v) && !v.length)));
 
+const append = process.argv.includes('--append');
+const stripUrl = (u) => u.replace(/[?&](fbclid|utm_[a-z]+)=[^&]*/g, '').replace(/\?$/, '');
 let companies = 0, rounds = 0, aggregator = 0, unknown = 0;
-for (const f of process.argv.slice(2)) {
+for (const f of process.argv.slice(2).filter((a) => !a.startsWith('--'))) {
   for (const x of JSON.parse(fs.readFileSync(f, 'utf8'))) {
     if (!ids.has(x.id)) { unknown++; continue; }
     const rs = (x.rounds ?? [])
@@ -45,7 +48,18 @@ for (const f of process.argv.slice(2)) {
       .sort((a, b) => a.date.localeCompare(b.date));
     const t = x.totalFunding;
     const total = t && num(t.amount) && str(t.source) && !AGG.test(t.source) ? strip({ amount: t.amount, asOf: str(t.asOf), note: str(t.note), source: t.source }) : undefined;
-    fundings[x.id] = strip({ rounds: rs, total, note: str(x.note), checkedAt: today });
+    if (append && fundings[x.id]) {
+      const cur = fundings[x.id];
+      const dup = (r) => cur.rounds.some((q) => stripUrl(q.source) === stripUrl(r.source) || (q.date === r.date && q.amount != null && q.amount === r.amount));
+      const add = rs.filter((r) => !dup(r)).map((r) => ({ ...r, source: stripUrl(r.source) }));
+      cur.rounds = [...cur.rounds, ...add].sort((a, b) => a.date.localeCompare(b.date));
+      if (total && !cur.total) cur.total = total;
+      cur.checkedAt = today;
+      companies++;
+      rounds += add.length;
+      continue;
+    }
+    fundings[x.id] = strip({ rounds: rs.map((r) => ({ ...r, source: stripUrl(r.source) })), total, note: str(x.note), checkedAt: today });
     if (!fundings[x.id].rounds) fundings[x.id].rounds = [];
     companies++;
     rounds += rs.length;
