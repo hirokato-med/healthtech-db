@@ -7,6 +7,7 @@
  * 入力（JSON 配列）: { id, description, overview, hp, representatives, foundedYear, employees, employeesAsOf, employeesSource,
  *   profile, services: [{ name, type, summary, startedAt, status, endedAt, sources, hp }], reports: [...], flag, flagReason, sources }
  * - 会社の項目は enrich-companies.mjs、事業は merge-services.mjs（type から事業の種類とカテゴリ）、決算は merge-earnings.mjs に渡す。
+ * - exit / securitiesCode / listedMarket / parentCompany が入っていれば、そのまま当てる（上場・買収を一次情報で確かめたもの）。
  * - flag（ended / out）は取り込まずに一覧で知らせる（編集部が確かめて apply-company-updates.mjs で当てる）。
  */
 import fs from 'node:fs';
@@ -21,6 +22,21 @@ const items = process.argv.slice(2).flatMap((f) => JSON.parse(fs.readFileSync(f,
 const asOf = new Date().toISOString().slice(0, 7);
 const run = (script, file, ...args) => execFileSync('node', [path.join(ROOT, 'scripts', script), ...args, file], { stdio: 'inherit' });
 const w = (name, data) => { const f = path.join(tmp, name); fs.writeFileSync(f, JSON.stringify(data)); return f; };
+
+// 上場・買収などで変わった区分は先に当てる（決算の取り込みに証券コードが要る）
+{
+  const F = path.join(ROOT, 'data', 'companies.json');
+  const all = JSON.parse(fs.readFileSync(F, 'utf8'));
+  const byId = new Map(all.map((c) => [c.id, c]));
+  let n = 0;
+  for (const x of items) {
+    const c = byId.get(x.id);
+    if (!c) continue;
+    for (const k of ['exit', 'securitiesCode', 'listedMarket', 'parentCompany']) if (x[k] && c[k] !== x[k]) { c[k] = x[k]; n++; }
+  }
+  fs.writeFileSync(F, JSON.stringify(all, null, 2) + '\n');
+  if (n) console.error(`区分・証券コード・親会社の更新 ${n} 件`);
+}
 
 const companies = items.map((x) => Object.fromEntries(Object.entries({
   id: x.id, description: x.description, overview: x.overview, hp: x.hp, representatives: x.representatives?.length ? x.representatives : undefined,

@@ -68817,7 +68817,7 @@
       "medical-dx"
     ],
     "categoryLabel": "医療機関DX",
-    "description": "デジタルアートとセンサーを使ったリハビリツール「デジリハ」を医療機関・福祉施設に提供",
+    "description": "デジタルアートとセンサーを使ったリハビリ・療育ツール「デジリハ」を医療機関・福祉施設・特別支援学校に提供",
     "prefecture": "東京都",
     "foundedYear": 2021,
     "address": "東京都渋谷区渋谷２丁目２４番１２号渋谷スクランブルスクエア３９階",
@@ -68836,9 +68836,43 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000095667.html",
       "https://prtimes.jp/main/html/rd/p/000000032.000095667.html",
-      "https://prtimes.jp/main/html/rd/p/000000163.000011403.html"
+      "https://prtimes.jp/main/html/rd/p/000000163.000011403.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010901048437"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "介護福祉士でNPO法人Ubdobe代表の岡勇樹が2021年4月に設立。センサーとデジタルアートでリハビリを遊びに変えるツール「デジリハ」を2021年から病院・放課後等デイサービス・特別支援学校に提供し、2025年に高齢者施設へ拡大、導入は約270施設（2026年2月）。2022年にシード7,200万円、2026年2月にプレシリーズA3を実施し累計約8.4億円。2025年11月にリハビリ専門職の人材紹介「デジリハCAREER」を開始。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "デジタルリハビリテーションツール「デジリハ」",
+          "since": "2021",
+          "note": "創業時から開発。病院・障害児通所支援・特別支援学校向けに提供し、2025年10月に高齢者施設へ拡大",
+          "url": "https://www.digireha.com/"
+        },
+        {
+          "name": "リハビリ専門職の人材紹介「デジリハCAREER」・研修「デジリハCOLLEGE」",
+          "since": "2025-11",
+          "note": "リハビリ専門職の副業・短時間業務に特化した有料職業紹介として新規開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000063.000095667.html"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役1名・執行役員2名（公式サイトのメンバー紹介）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://corp.digireha.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/95667"
+      },
+      "sources": [
+        "https://corp.digireha.com/",
+        "https://prtimes.jp/main/html/rd/p/000000065.000095667.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000095667.html",
+        "https://prtimes.jp/main/html/rd/p/000000032.000095667.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8450001012388",
@@ -68848,7 +68882,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "旭川医科大学発。乳酸菌由来の分子などを基に、炎症性腸疾患などの治療薬を開発",
+    "description": "旭川医科大学発。プロバイオティクス由来の長鎖ポリリン酸などを基に、炎症性腸疾患などの治療薬を開発",
     "prefecture": "北海道",
     "foundedYear": 2018,
     "address": "",
@@ -68865,28 +68899,63 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000101809.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000101809.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8450001012388"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "旭川医科大学の藤谷幹浩教授（取締役CSO）らの研究を基に2018年4月に同大学内で設立。乳酸菌が作る長鎖ポリリン酸で腸管バリアを強める潰瘍性大腸炎治療薬や、膵臓がん治療薬フェリクロームを開発する。2018年にシリーズAで2.25億円、2022年7月にCYBERDYNE・三菱UFJキャピタルなどからシリーズBで約6.5億円を調達し累計約8.8億円。CYBERDYNEとは非医薬のヘルスケア事業でも提携。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "プロバイオティクス由来医薬品の研究開発（ポリリン酸製剤ほか）",
+          "since": "2018-04",
+          "note": "旭川医科大学とサッポロホールディングスの研究成果を継承して設立",
+          "url": "https://www.kamuipharma.co.jp/profile"
+        },
+        {
+          "name": "有用微生物を利用したヘルスケア事業開発",
+          "since": "2022-07",
+          "note": "シリーズBでのCYBERDYNEとの非医薬品事業提携から",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000101809.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 尾川直樹、取締役CSO 藤谷幹浩、社外取締役（三菱UFJキャピタル）を確認。総数は未確認",
+        "asOf": "2022-07"
+      },
+      "newsroom": {
+        "site": "https://www.kamuipharma.co.jp/news-1",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/101809"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000001.000101809.html",
+        "https://www.asahikawa-med.ac.jp/upload/20220727085756.PDF",
+        "https://www.kamuipharma.co.jp/profile",
+        "https://www.kamuipharma.co.jp/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1011001137886",
     "name": "イノバセル株式会社",
-    "hp": "https://www.innovacell.co.jp",
+    "hp": "https://innovacell.com/",
     "categories": [
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "便失禁・尿失禁を治療する自家細胞治療製品の開発と社会実装に取り組む",
+    "description": "便失禁・尿失禁を治療する自家骨格筋由来の細胞治療製品を開発。2026年2月東証グロース上場（504A）",
     "prefecture": "東京都",
     "foundedYear": 2021,
     "address": "東京都品川区上大崎３丁目５番１１号",
     "employees": "",
     "founders": [],
     "representatives": [
+      "ノビック・コーリン",
       "シーガー・ジェイソン"
     ],
-    "exit": "未上場",
+    "exit": "上場",
     "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "1011001137886",
@@ -68898,9 +68967,42 @@
       "https://prtimes.jp/main/html/rd/p/000000005.000091867.html",
       "https://prtimes.jp/main/html/rd/p/000000261.000021941.html",
       "https://prtimes.jp/main/html/rd/p/000000025.000091867.html",
-      "https://prtimes.jp/main/html/rd/p/000000021.000091867.html"
+      "https://prtimes.jp/main/html/rd/p/000000021.000091867.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011001137886"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "securitiesCode": "504A",
+    "listedMarket": "東証グロース",
+    "overview": "オーストリア・インスブルック医科大学発のInnovacell（2000年創業）を、2021年1月設立の日本法人が三角合併で子会社化して日本を本拠に再編。患者自身の筋組織から作る細胞製品で失禁の根本治療を目指し、切迫性便失禁向けICEF15は日欧で第III相治験中、2026年に米国でも組入れ承認を得た。2024年にアルフレッサと資本業務提携（10億円）、2026年2月24日に東証グロース上場（504A）。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "失禁領域の自家細胞治療製品の開発（ICEF15・ICEF16・ICES13）",
+          "since": "2021-01",
+          "note": "前身のInnovacell（オーストリア、2000年設立）の研究開発を、日本法人設立と三角合併で引き継ぐ",
+          "url": "https://innovacell.com/company/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役Co-CEO2名・取締役CSO・取締役CFOほか取締役（公式サイトの経営陣紹介）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://innovacell.com/ir/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/91867",
+        "ir": "https://innovacell.com/ir/library/results/"
+      },
+      "sources": [
+        "https://innovacell.com/company/",
+        "https://ssl4.eir-parts.net/doc/504A/tdnet/2766438/00.pdf",
+        "https://prtimes.jp/main/html/rd/p/000000318.000011403.html",
+        "https://prtimes.jp/main/html/rd/p/000000034.000091867.html",
+        "https://prtimes.jp/main/html/rd/p/000000020.000091867.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000091867.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1010401152652",
@@ -68910,7 +69012,7 @@
       "femtech"
     ],
     "categoryLabel": "フェムテック",
-    "description": "ホルモンバランスの影響を受けやすい女性のウェルネスに向けたブランドを展開",
+    "description": "PMSなど女性のバイオリズムに寄り添うセルフケアブランド「WRAY」を展開し、温活・フェムケア商品をECと店舗で販売",
     "prefecture": "東京都",
     "foundedYear": 2020,
     "address": "",
@@ -68928,9 +69030,44 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000446.000073077.html",
-      "https://wray.jp/about/"
+      "https://wray.jp/about/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401152652"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2020年4月に設立し同年7月に現社名へ変更。代表の谷内侑希子が「女性のベストパフォーマンスをサポートする」を掲げ、2020年9月にPMSに着目したセルフケアブランド「WRAY」を発売。デリケートゾーンソープ、吸水ショーツ、温活グッズ、ハーブティー、ラウンジウェア「lounge WRAY」（2021年）、ヘアケア（2025年）へ広げ、自社ECと全国の取扱店で販売。2022年7月にKIRIN HEALTH INNOVATION FUNDなどから融資を含め1.4億円を調達。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "セルフケアブランド「WRAY」（インナーケア・フェムケア・スキンケア商品）",
+          "since": "2020-09",
+          "note": "PMSの悩みに向けたシルクウォーマー・サプリ・美容液から発売し、自社ECで展開",
+          "url": "https://wray.jp/about/"
+        },
+        {
+          "name": "ラウンジウェアライン「lounge WRAY」",
+          "since": "2021-07",
+          "note": "“着るセルフケア”として衣料に拡大",
+          "url": "https://wray.jp/loungewray/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 谷内侑希子のみ確認。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://wray.jp/media/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/62464"
+      },
+      "sources": [
+        "https://wray.jp/company/",
+        "https://prtimes.jp/main/html/rd/p/000000002.000062464.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000062464.html",
+        "https://prtimes.jp/main/html/rd/p/000000012.000062464.html",
+        "https://prtimes.jp/main/html/rd/p/000000013.000062464.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1140001118801",
@@ -68940,7 +69077,7 @@
       "diagnostic-support"
     ],
     "categoryLabel": "診断支援",
-    "description": "視線計測型VRで認知機能・視機能などを測る検査機器の研究開発と、パフォーマンス計測サービスを行う",
+    "description": "視線計測とVRで脳疲労・ストレスを可視化する「ZEN EYE Pro」を開発し、アスリートや企業に提供するブレインテック企業",
     "prefecture": "京都府",
     "foundedYear": 2020,
     "address": "",
@@ -68957,9 +69094,44 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000100028.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000100028.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1140001118801"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "視線計測を研究してきた島藤安奈が2020年9月に設立したブレインテック企業。2022年12月に約3分で脳疲労・ストレスを可視化する視線計測型VRシステム「ZEN EYE PRO」を発売し、プロ野球・社会人野球・eスポーツなどに導入。2023年にロート製薬から出資を受けゾーン状態を再現する「ZONE-Z」も開発。2025年に山本光学と資本業務提携、2026年4月に三菱UFJモルガン・スタンレー証券などから調達し累計1.7億円。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "VR脳疲労測定システム「ZEN EYE Pro」",
+          "since": "2022-12",
+          "note": "視線計測型VRストレスチェックシステムとしてβ版を発売し、アスリート向けに展開",
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000100028.html"
+        },
+        {
+          "name": "ZONEトレーニングポット「ZONE-Z」",
+          "since": "2023-03",
+          "note": "ロート製薬からの出資を受け研究開発",
+          "url": "https://prtimes.jp/main/html/rd/p/000000004.000100028.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 島藤安奈。2023年8月に社外取締役が就任。総数は未確認",
+        "asOf": "2026-04"
+      },
+      "newsroom": {
+        "site": "https://neuralport.io",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/100028"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000033.000100028.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000100028.html",
+        "https://prtimes.jp/main/html/rd/p/000000032.000100028.html",
+        "https://prtimes.jp/main/html/rd/p/000000019.000100028.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000100028.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8430001081550",
@@ -68970,7 +69142,7 @@
       "diagnostic-support"
     ],
     "categoryLabel": "メンタルヘルス・診断支援",
-    "description": "医師が立ち上げた北大発スタートアップ。精神疾患・メンタルヘルスのAI診断支援サービス「Medi Face」を開発",
+    "description": "精神科医が北大在学中に創業。AIドクターによるメンタルチェックと専門家ケアの法人向けサービス「Mente for Biz」を提供",
     "prefecture": "東京都",
     "foundedYear": 2020,
     "address": "",
@@ -68987,9 +69159,44 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000003.000080422.html"
+      "https://prtimes.jp/main/html/rd/p/000000003.000080422.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8430001081550"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "北海道大学医学部在学中の医師・近澤徹が2020年5月に設立（2021年11月に現社名）。AIドクターによるメンタルチェックとプロ人材によるケアを組み合わせた法人向け「Mente for Biz」を朝日生命・デンソーなどに導入。2022年7月にプレシードで約3,100万円を調達し、2023年に北大と顔動画・音声のAI解析で共同研究、2024年8月にZ世代社員特化の「Z産業医事務所」を開設。本社を東京に移し医療法人鳳應会グループとして活動。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "AIメンタルヘルスケアサービス「Mente for Biz」",
+          "since": "2021-12",
+          "note": "メンタルヘルスAI診断サービス「Medi Face」として開発を開始し、法人向けクラウドとして提供",
+          "url": "https://medi-face.co.jp/mente/"
+        },
+        {
+          "name": "Z産業医事務所",
+          "since": "2024-08",
+          "note": "Z世代の新入社員・若手社員のメンタルケアに特化した産業医チームとして開設",
+          "url": "https://prtimes.jp/main/html/rd/p/000000009.000080422.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 近澤徹。役員総数は未確認（グループ会社に株式会社Legal Doctor）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://medi-face.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/80422"
+      },
+      "sources": [
+        "https://medi-face.co.jp/company/",
+        "https://medi-face.co.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000003.000080422.html",
+        "https://prtimes.jp/main/html/rd/p/000000009.000080422.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000080422.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6011801035946",
@@ -68999,7 +69206,7 @@
       "sleep"
     ],
     "categoryLabel": "睡眠",
-    "description": "睡眠の質を高めるAIロボット枕「ねむりす」などのプロダクトを開発",
+    "description": "体型や寝返りに合わせて自動で変形するロボット枕「Pixx（ねむりす）」など、睡眠の質を高めるロボット寝具を開発",
     "prefecture": "東京都",
     "foundedYear": 2019,
     "address": "",
@@ -69016,9 +69223,44 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000005.000065491.html"
+      "https://prtimes.jp/main/html/rd/p/000000005.000065491.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011801035946"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の川村裕一が2019年4月に創業した睡眠テック企業。寝返りや体勢に合わせて変形するAIロボット枕「Pixx（ねむりす）」とロボットベッド「Bexx」を開発し、2022年にはホテルの「ロボット枕ルーム」に導入、介護の床ずれを防ぐ体位交換ベッド「Haxx」で社会福祉法人と実証を始めた。2020年に約1億円、2022年6月にサイバーエージェント・キャピタルなどからプレシリーズAで約1億円を調達。立命館大学と入眠効果を共同研究。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ロボット枕「Pixx」（スマート枕「ねむりす」）",
+          "since": "2021-10",
+          "note": "b8ta展示とクラウドファンディングで公開し、2022年5月にホテルへ初導入",
+          "url": "https://www.axrobotix.com/"
+        },
+        {
+          "name": "ロボットベッド「Bexx」・介護用ロボットベッド「Haxx」",
+          "since": "2022-04",
+          "note": "Haxxは体位交換を自動化する介護向けとして一燈会と実証",
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000065491.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 川村裕一。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.axrobotix.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/65491"
+      },
+      "sources": [
+        "https://www.axrobotix.com/company",
+        "https://www.axrobotix.com/news",
+        "https://prtimes.jp/main/html/rd/p/000000005.000065491.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000065491.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000065491.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1120901041427",
@@ -69028,13 +69270,15 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "大阪大学発。オートファジー（細胞の自食作用）の研究成果を健康寿命の延伸に向けて社会実装する",
+    "description": "大阪大学発。ノーベル賞関連のオートファジー研究を基に、健康寿命延伸に向けた素材・サプリメント開発と臨床研究を行う",
     "prefecture": "大阪府",
     "foundedYear": 2019,
     "address": "大阪府吹田市山田丘２番８号大阪大学テクノアライアンスＣ棟",
     "employees": "",
     "founders": [],
-    "representatives": [],
+    "representatives": [
+      "石堂美和子"
+    ],
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [],
@@ -69044,25 +69288,63 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000083.000036405.html",
-      "https://prtimes.jp/main/html/rd/p/000000001.000107643.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000107643.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1120901041427"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "大阪大学の吉森保教授（技術顧問）のオートファジー研究を社会実装するため2019年6月に設立。代表は石堂美和子。細胞のオートファジー機能の解析技術で老化関連の素材探索や創薬研究を行い、徳島の発酵茶由来のサプリ「阿波晩茶オートファジー」を2025年に発売、2026年にクリニック専売品も追加。2023年にUHA味覚糖などから約1.2億円を調達し、XPRIZE Healthspanで準決勝進出、2025年にオートファジー指標の介入臨床試験を開始。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "オートファジー機能の解析・素材探索（研究開発）",
+          "since": "2019-06",
+          "note": "大阪大学 吉森保教授の研究成果を基に設立",
+          "url": "https://autophagygo.com/autophagy/"
+        },
+        {
+          "name": "「阿波晩茶オートファジー」シリーズ（サプリメント・ティー）",
+          "since": "2025-04",
+          "note": "阿波晩茶由来エキスの製品を一般向け・クリニック専売で発売",
+          "url": "https://autophagygo.com/products/"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役社長 石堂美和子、最高財務責任者 平山一滋（ほかに技術顧問2名）。会社概要による",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://autophagygo.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/107643"
+      },
+      "sources": [
+        "https://autophagygo.com/about/",
+        "https://autophagygo.com/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000107643.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000107643.html",
+        "https://prtimes.jp/main/html/rd/p/000000010.000107643.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000107643.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1010401142496",
     "name": "モデルナ・エンザイマティクス株式会社（旧 オリシロジェノミクス株式会社）",
-    "hp": "",
+    "hp": "https://www.modernatx.com/ja-JP/about-us/moderna-in_japan",
     "categories": [
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "無細胞で長鎖DNAを増幅する独自技術を持つ。2023年に米モデルナの傘下となり商号変更",
+    "description": "モデルナの日本子会社。旧オリシロジェノミクスの無細胞DNA合成・増幅技術でmRNA医薬品の研究開発を支える",
     "prefecture": "神奈川県",
     "foundedYear": 2018,
     "address": "",
     "employees": "",
     "founders": [],
-    "representatives": [],
+    "representatives": [
+      "ネディム・エミル・アルタラス"
+    ],
     "exit": "バイアウト",
     "parentCompany": "",
     "relatedCompanies": [],
@@ -69075,7 +69357,38 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401142496",
       "https://www.modernatx.com/ja-JP/press-release/2023/20230104"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2018年12月にオリシロジェノミクスとして設立され、プラスミドDNAを細胞を使わずに合成・増幅する技術を開発し、遺伝子・細胞治療向けの研究用ツールを提供。2023年1月に米モデルナが8,500万ドルでの買収を発表し、同年3月に現社名へ変更。神奈川県藤沢市の湘南ヘルスイノベーションパークに本社を置き、同社主導のmRNA医薬品の研究・製造施設が2025年7月に完成。現在はモデルナグループの研究開発支援を担う。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "無細胞DNA合成・増幅技術（旧オリシロ技術）",
+          "since": "2018-12",
+          "note": "オリシロジェノミクスとして設立し研究用ツールを商業化。2023年のモデルナによる買収後はグループ内のmRNA製造上流工程を支える研究支援に",
+          "url": "https://www.modernatx.com/ja-JP/press-release/2023/20230104"
+        },
+        {
+          "name": "mRNA医薬品の研究・製造施設（藤沢・湘南iPark）",
+          "since": "2025-07",
+          "note": "モデルナ・エンザイマティクスが主導し建屋工事を完了",
+          "url": "https://www.modernatx.com/ja-JP/press-release/2025/20250718"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 ネディム・エミル・アルタラス、ゼネラルマネージャー 星野哲夫（モデルナ日本サイト）。総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.modernatx.com/ja-JP/newsroom"
+      },
+      "sources": [
+        "https://www.modernatx.com/ja-JP/about-us/moderna-in_japan",
+        "https://www.modernatx.com/ja-JP/press-release/2023/20230104",
+        "https://www.modernatx.com/ja-JP/press-release/2025/20250718"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5011001107794",
@@ -69085,7 +69398,7 @@
       "direct-to-consumer"
     ],
     "categoryLabel": "D2C",
-    "description": "トップアスリートの腸内細菌研究を基に、腸内環境をととのえるサプリメントや食品を開発・販売",
+    "description": "元サッカー日本代表の鈴木啓太が創業。アスリートの腸内細菌研究を基に腸活サプリや腸内フローラ検査を展開",
     "prefecture": "東京都",
     "foundedYear": 2015,
     "address": "",
@@ -69103,9 +69416,50 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://aub.co.jp/archives/4093",
-      "https://aub.co.jp/about/"
+      "https://aub.co.jp/about/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001107794"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "元サッカー日本代表の鈴木啓太が2015年に設立。45競技・1,200人超のアスリートの腸内細菌データを基に、独自の菌素材を使ったサプリ・食品の総合腸活ブランド「aub」を自社ECなどで販売。2019年に大正製薬などからシリーズA、2022年6月に京セラなどからシリーズBで3億円、2025年7月にセプテーニHDと資本業務提携し累計約10億円。2025年10月にサイキンソーと組み腸内フローラ検査を「GUT PARTNER」に刷新。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "総合腸活ブランド「aub」（サプリメント・食品のD2C）",
+          "since": "2015",
+          "note": "アスリートの腸内細菌研究から独自の菌素材を活用した商品を開発し自社ECで販売",
+          "url": "https://aubstore.com/"
+        },
+        {
+          "name": "腸内フローラ検査「GUT PARTNER」（旧BENTRE）",
+          "since": "2025-10",
+          "note": "2025年5月にサイキンソーと解析で協業を始め、10月に名称変更して刷新",
+          "url": "https://prtimes.jp/main/html/rd/p/000000129.000015042.html"
+        },
+        {
+          "name": "バイオマーカー開発事業",
+          "since": "",
+          "note": "会社概要の事業内容に記載",
+          "url": "https://aub.co.jp/company"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役1名・取締役2名・監査役1名（会社概要）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://aub.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/49031"
+      },
+      "sources": [
+        "https://aub.co.jp/company",
+        "https://aub.co.jp/about/",
+        "https://prtimes.jp/main/html/rd/p/000000081.000049031.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000049031.html",
+        "https://prtimes.jp/main/html/rd/p/000000129.000015042.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1010001197420",
@@ -69115,13 +69469,15 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "ミトコンドリアを傷つけずに取り出し移植する技術で、心臓手術後の回復など難治疾患の治療法を開発",
+    "description": "健康なミトコンドリアを単離・保存する独自技術で、虚血性疾患やミトコンドリア病向けのミトコンドリア製剤を開発",
     "prefecture": "東京都",
     "foundedYear": 2018,
     "address": "",
     "employees": "",
     "founders": [],
-    "representatives": [],
+    "representatives": [
+      "緒方スティグ"
+    ],
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [],
@@ -69130,9 +69486,37 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://ja.luca-science.com/news"
+      "https://ja.luca-science.com/news",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001197420"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2018年12月設立の創薬スタートアップ。独自の単離技術（iMIT）で健康な提供者から機能を保ったミトコンドリアを取り出して製剤化し、心臓手術後や脳卒中などの虚血再灌流障害、遺伝性ミトコンドリア病の治療を目指す。2020年9月にシリーズAで10.3億円、2022年6月にシリーズBで38.6億円を調達し、2024年に成果をNature Metabolismに発表。2026年3月に創業者の菅沼正司らが代表を退き、緒方スティグが代表取締役に就任。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ミトコンドリア製剤の研究開発（iMITプラットフォーム）",
+          "since": "2018-12",
+          "note": "創業者 菅沼正司のミトコンドリア研究を基に設立",
+          "url": "https://ja.luca-science.com/about-us"
+        }
+      ],
+      "management": {
+        "count": 7,
+        "note": "代表取締役社長1名・取締役（創業者）1名・社外取締役5名（リーダーシップページ）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://ja.luca-science.com/news"
+      },
+      "sources": [
+        "https://ja.luca-science.com/about-us",
+        "https://ja.luca-science.com/leadership",
+        "https://ja.luca-science.com/news/260403-01",
+        "https://ja.luca-science.com/news/220606-01",
+        "https://ja.luca-science.com/news/200901-01"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4240001057326",
@@ -69142,7 +69526,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "広島大学発。マイクロRNAを有効成分とする核酸医薬を開発",
+    "description": "広島大学発。天然型マイクロRNAを有効成分とする核酸医薬を開発し、悪性胸膜中皮腫などの難治性がんを狙う",
     "prefecture": "広島県",
     "foundedYear": 2021,
     "address": "広島県広島市南区霞１丁目２番３号",
@@ -69161,19 +69545,47 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000102278.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/102278",
-      "https://prtimes.jp/main/html/rd/p/000000006.000102278.html"
+      "https://prtimes.jp/main/html/rd/p/000000006.000102278.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4240001057326"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "広島大学の田原栄俊教授（代表取締役社長CEO）が2021年1月に設立した核酸医薬ベンチャー。がん細胞を死滅させる天然型マイクロRNAを有効成分とする核酸医薬を開発し、悪性胸膜中皮腫向けMIRX002は2025年5月に米FDAの希少疾病用医薬品指定を取得。2022年5月にUTEC・QBキャピタル・三菱UFJキャピタルなどからシリーズAで約8.5億円を調達し、2026年にはFRONTEO、日本触媒（DDS技術の共同研究）から出資を受けた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "マイクロRNA核酸医薬の研究開発（MIRX002ほか）",
+          "since": "2021-01",
+          "note": "広島大学 田原栄俊教授の研究成果を基に設立",
+          "url": "https://www.purmx.com/pipeline"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長CEO 田原栄俊。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.purmx.com",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/102278"
+      },
+      "sources": [
+        "https://www.purmx.com/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000102278.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000102278.html",
+        "https://prtimes.jp/main/html/rd/p/000000015.000102278.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9010401128001",
     "name": "株式会社ケイファーマ",
-    "hp": "https://kpharma.co.jp/",
+    "hp": "https://www.kpharma.co.jp/",
     "categories": [
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "慶應義塾大学医学部発。iPS細胞を使った創薬と再生医療でALSや脊髄損傷などの治療法を開発",
+    "description": "慶應義塾大学医学部発。iPS細胞を使った創薬（iPS創薬）と脊髄損傷などの再生医療製品を開発。東証グロース上場（4896）",
     "prefecture": "東京都",
     "foundedYear": 2016,
     "address": "",
@@ -69191,12 +69603,48 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000101219.html",
-      "https://www.kpharma.co.jp/news/press/20231017"
+      "https://www.kpharma.co.jp/news/press/20231017",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010401128001"
     ],
     "updatedAt": "2026-10",
     "securitiesCode": "4896",
     "listedMarket": "東証グロース",
-    "industry33": "医薬品"
+    "industry33": "医薬品",
+    "overview": "慶應義塾大学医学部の岡野栄之教授・中村雅也教授らの研究を実用化するため2016年11月に設立。代表は元エーザイの福島弘明。患者由来iPS細胞で中枢神経疾患の治療薬を探すiPS創薬と、iPS細胞由来神経前駆細胞を脊髄損傷などに移植する再生医療の2本柱で、2023年3月にALS治療薬候補ロピニロール塩酸塩の国内権利をアルフレッサ ファーマに許諾。2022年5月に15.5億円を調達し、2023年10月17日に東証グロースへ上場（4896）。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "iPS創薬事業（ALS治療薬候補ロピニロール塩酸塩ほか）",
+          "since": "2016-11",
+          "note": "慶應義塾大学の疾患特異的iPS細胞による創薬研究を継承。2023年3月にアルフレッサ ファーマへ国内権利を許諾",
+          "url": "https://www.kpharma.co.jp/"
+        },
+        {
+          "name": "再生医療事業（iPS細胞由来神経前駆細胞の移植）",
+          "since": "2016-11",
+          "note": "脊髄損傷の再生医療研究を継承し、2023年8月に脳梗塞・脳出血などへ対象を拡大する共同研究を開始",
+          "url": "https://www.kpharma.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 8,
+        "note": "取締役5名（代表取締役社長・常務取締役CFO・取締役CSO・取締役CTO・社外取締役1名）・監査役3名（すべて社外）。マネジメント体制ページによる",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.kpharma.co.jp/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/101219",
+        "ir": "https://www.kpharma.co.jp/ir"
+      },
+      "sources": [
+        "https://www.kpharma.co.jp/company",
+        "https://www.kpharma.co.jp/news/press/20231017",
+        "https://prtimes.jp/main/html/rd/p/000000001.000101219.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000101219.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000101219.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7010001200707",
@@ -69206,7 +69654,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "エクソソームの精製・解析技術「INPACT-EV」で創薬や次世代の不妊治療（IVF）を研究開発",
+    "description": "細胞外小胞（EV・エクソソーム）の製造・エンジニアリング基盤を持ち、体外受精向けEV培地添加剤とEV創薬を開発",
     "prefecture": "東京都",
     "foundedYear": 2019,
     "address": "",
@@ -69224,9 +69672,50 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://exorphia.com/news/ir/1888/",
-      "https://prtimes.jp/main/html/rd/p/000000006.000097637.html"
+      "https://prtimes.jp/main/html/rd/p/000000006.000097637.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001200707"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "口石幸治が2019年5月に設立したバイオ企業。エクソソームなど細胞外小胞（EV）を高純度・高活性で製造する基盤技術「INPACT-EV」を持ち、EVを使った体外受精の培地添加剤で胚の発育改善を目指す次世代IVFを中核事業に、肺線維症などのEV創薬は製薬企業との共同開発・導出で進める。KII・Coral Capital・ロート製薬・共立製薬などから累計約14.9億円を調達し、2025年8月にロート製薬と資本業務提携、2026年に住友化学とEV品質管理で共同開発を開始。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "次世代IVF（EV含有IVF培地添加剤）",
+          "since": "2025-04",
+          "note": "三重大学との体外受精の卵子成熟技術の共同研究などを経て、生殖補助医療を中核事業に据える",
+          "url": "https://exorphia.com/ivf/"
+        },
+        {
+          "name": "EV創薬（技術アセットの導出・ライセンス）",
+          "since": "2019-05",
+          "note": "創業時からエクソソーム創薬として研究開発。2024年2月にEXP01で米FDAとPre-IND相談",
+          "url": "https://exorphia.com/company/"
+        },
+        {
+          "name": "ペット用EV製剤（共立製薬と共同開発）",
+          "since": "2023-12",
+          "note": "共立製薬・共立ホールディングスとの共同開発契約",
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000097637.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 口石幸治。2021年6月に取締役会・監査役を設置。総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://exorphia.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/97637"
+      },
+      "sources": [
+        "https://exorphia.com/company/",
+        "https://exorphia.com/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000097637.html",
+        "https://prtimes.jp/main/html/rd/p/000000009.000097637.html",
+        "https://prtimes.jp/main/html/rd/p/000000024.000097637.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7010001224301",
@@ -69237,7 +69726,7 @@
       "medical-management-support"
     ],
     "categoryLabel": "製薬企業支援・医療経営支援",
-    "description": "医療・製薬業界に特化した専門家（Expert）プラットフォームで、医療ビジネスへの参入や事業開発を支援",
+    "description": "医薬品・医療機器の開発に、大手製薬・医療機器メーカー出身の専門家を業務委託でつなぐエキスパートプラットフォーム「xCARE」を運営",
     "prefecture": "東京都",
     "foundedYear": 2022,
     "address": "東京都渋谷区東１丁目３１番１９号マンション渋谷並木橋３０４",
@@ -69257,9 +69746,44 @@
       "https://prtimes.jp/main/html/rd/p/000000001.000099309.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/99309",
       "https://prtimes.jp/main/html/rd/p/000000014.000099309.html",
-      "https://prtimes.jp/main/html/rd/p/000000008.000099309.html"
+      "https://prtimes.jp/main/html/rd/p/000000008.000099309.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001224301"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の福永将が2022年2月に設立。医薬品・医療機器の臨床開発、非臨床、CMC、薬事などの専門家（大手製薬・医療機器メーカー・規制当局の出身者）が月10時間からの業務委託で企業のプロジェクトに参画するプラットフォーム「xCARE」を運営し、登録専門家は1,000人超（2025年7月）。2022年にシードで調達し神戸医療産業都市に拠点を設置、2024年2月に1.3億円、2026年6月にシリーズAでmintなどから融資を含め6億円を調達。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療開発の業務委託エキスパートプラットフォーム「xCARE」",
+          "since": "2022",
+          "note": "設立時から医療産業特化の専門家プラットフォームとして構築し、製薬・医療機器メーカー・ベンチャーに提供",
+          "url": "https://xcareplatform.com/"
+        },
+        {
+          "name": "専門家登録サイト「MEDISPURT（メディスパート）」",
+          "since": "2022-10",
+          "note": "国内外の副業人材・フリーランサー・シニア人材の登録窓口として公開",
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000099309.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 福永将。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://xcareplatform.com/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/99309"
+      },
+      "sources": [
+        "https://xcareplatform.com/",
+        "https://prtimes.jp/main/html/rd/p/000000014.000099309.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000099309.html",
+        "https://prtimes.jp/main/html/rd/p/000000013.000099309.html",
+        "https://prtimes.jp/main/html/rd/p/000000015.000099309.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6011001145257",
@@ -69270,7 +69794,7 @@
       "mental-health"
     ],
     "categoryLabel": "人材・メンタルヘルス",
-    "description": "看護師向けスポットワークサービス「メリー」を運営（旧社名Plusbaseで看護師のメンタルサポートを開発）",
+    "description": "看護師・看護補助者を数時間単位で採用できるスポットワーク「メリー」を運営。前身は看護師向けメンタルケア「ナースビー」",
     "prefecture": "東京都",
     "foundedYear": 2022,
     "address": "",
@@ -69291,7 +69815,41 @@
       "https://prtimes.jp/main/html/searchrlp/company_id/97455",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001145257"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2022年1月にPLUS BASE（同年5月にPlusbase）として設立。急性期病棟の看護師の抑うつに着目し、2022年10月に看護師向けメンタルヘルスケア「ナースビー」を公開、2023年にLINEでキャラクターに相談できる形に刷新した。その後、看護師の働き方の選択肢不足に軸足を移し、2026年3月に看護師・看護補助者のスポットワーク「メリー」のβ版を開始、約4か月で20法人・320事業所に導入。同年8月に正式リリースし社名をメリーに変更。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "看護師向けスポットワーク「メリー」",
+          "since": "2026-03",
+          "note": "β版で開始し2026年8月に正式リリース、同時に社名をサービス名に統一",
+          "url": "https://merii.co.jp/"
+        },
+        {
+          "name": "看護師特化型メンタルヘルスケア「ナースビー」",
+          "since": "2022-10",
+          "note": "創業事業。アプリとして公開後、2023年1月にLINEで相談できるサービスに刷新",
+          "url": "https://nurse-be.studio.site/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 氏家好野、取締役COO（看護師）神馬。総数は未確認",
+        "asOf": "2026-08"
+      },
+      "newsroom": {
+        "site": "https://merii.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/97455"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000014.000097455.html",
+        "https://prtimes.jp/main/html/rd/p/000000015.000097455.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000097455.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000097455.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000097455.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6490001009143",
@@ -69301,7 +69859,7 @@
       "fitness"
     ],
     "categoryLabel": "フィットネス",
-    "description": "アプリで入退館・決済が完結する従量課金型のフィットネスクラブ「PocketFitness」を運営・FC展開",
+    "description": "アプリ完結型の低価格24時間ジム「POCKET FITNESS」を直営・FCで展開し、3Dボディスキャナー「VISBODY」を販売",
     "prefecture": "高知県",
     "foundedYear": 2018,
     "address": "",
@@ -69318,9 +69876,44 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000006.000079048.html"
+      "https://prtimes.jp/main/html/rd/p/000000006.000079048.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6490001009143"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "高知県四万十市で澳本伊吹が2018年に設立したフィットネス企業。業務の約8割をアプリで自動化し月額1,650円からの運営を可能にしたOMO型24時間ジム「POCKET FITNESS」を2021年9月に松山市で開業し、FC展開を開始。同月から3Dボディスキャナー「VISBODY」の日本独占代理店として販売。2022年4月にANOBAKAから調達し、2023年にジェイアール西日本デイリーサービスネットと提携して2024年3月にJR京橋駅に出店。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "OMO型24時間ジム「POCKET FITNESS」（直営・FC）",
+          "since": "2021-09",
+          "note": "愛媛県松山市に1号店を開業し、同月からFC加盟を募集",
+          "url": "https://prtimes.jp/main/html/rd/p/000000005.000079048.html"
+        },
+        {
+          "name": "3Dボディスキャナー「VISBODY」の販売",
+          "since": "2021-09",
+          "note": "VISBODY社の日本独占代理店として販売開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000079048.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 澳本伊吹。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.naturefitness.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/79048"
+      },
+      "sources": [
+        "https://www.naturefitness.co.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000006.000079048.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000079048.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000079048.html",
+        "https://prtimes.jp/main/html/rd/p/000000010.000079048.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9010001174841",
@@ -69330,7 +69923,7 @@
       "home-visit-nursing"
     ],
     "categoryLabel": "訪問看護",
-    "description": "地方の障がい者雇用支援（農園）などの地方創生事業と、精神科訪問看護を中心とする在宅医療事業を展開",
+    "description": "農園型の障がい者雇用支援「コルディアーレ農園」と、精神科訪問看護「訪問看護ステーション コルディアーレ」を運営。東証グロース上場（150A）",
     "prefecture": "東京都",
     "foundedYear": 2016,
     "address": "",
@@ -69356,7 +69949,47 @@
     "updatedAt": "2026-10",
     "securitiesCode": "150A",
     "listedMarket": "東証グロース",
-    "industry33": "サービス業"
+    "industry33": "サービス業",
+    "overview": "2016年設立。2019年に日本在宅医療など4社を吸収合併。地方の農園で都市部企業の障がい者雇用を支える「コルディアーレ農園」と定着支援（地方創生事業）、関東を中心に訪問診療医と連携して精神科訪問看護を提供する「訪問看護ステーション コルディアーレ」（在宅医療事業）を運営。2024年3月26日に東証グロースへ上場（150A）し、2025年3月期から連結。2026年3月期は売上高47.4億円、営業損失1.1億円。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "障がい者雇用支援事業「コルディアーレ農園」",
+          "since": "",
+          "note": "地方創生事業の主力。地方の農園で都市部企業の障がい者雇用を創出し、定着支援も提供",
+          "url": "https://www.cordiale-farm.jp/"
+        },
+        {
+          "name": "精神科訪問看護「訪問看護ステーション コルディアーレ」",
+          "since": "2019-11",
+          "note": "在宅医療事業。2019年11月の日本在宅医療などの吸収合併を経て展開（開始時期の詳細は未確認）",
+          "url": "https://www.jsh-japan.jp/cordiale/"
+        },
+        {
+          "name": "無人内見システム（子会社ショウタイム24）",
+          "since": "2024",
+          "note": "2025年3月期から連結。ヘルスケア外の不動産テック",
+          "url": "https://www.jsh-japan.jp/"
+        }
+      ],
+      "management": {
+        "count": 12,
+        "note": "取締役9名（代表取締役会長兼社長、取締役6名、社外取締役2名）・監査役3名（常勤1名・社外2名）。会社概要による",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.jsh-japan.jp/news/",
+        "ir": "https://www.jsh-japan.jp/ir/"
+      },
+      "sources": [
+        "https://www.jsh-japan.jp/company/",
+        "https://www.jsh-japan.jp/cordiale/",
+        "https://www.cordiale-farm.jp/",
+        "https://contents.xj-storage.jp/xcontents/AS82499/1351128d/6278/46a9/8d3a/fff0ab93123e/140120260513527641.pdf",
+        "https://www.jsh-japan.jp/post_news/%E6%9D%B1%E4%BA%AC%E8%A8%BC%E5%88%B8%E5%8F%96%E5%BC%95%E6%89%80%E3%82%B0%E3%83%AD%E3%83%BC%E3%82%B9%E5%B8%82%E5%A0%B4%E3%81%B8%E3%81%AE%E4%B8%8A%E5%A0%B4%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9010001214473",
@@ -69366,7 +69999,7 @@
       "simple-inspection"
     ],
     "categoryLabel": "簡易検査",
-    "description": "複数の疾患に対応する検査キットを開発。2024年にICheckから商号変更",
+    "description": "コロナ禍に設立し、PCR・抗原検査キットや無料検査事業を手がけた検査ベンチャー（旧ICheck）。現在の事業は確認できない",
     "prefecture": "東京都",
     "foundedYear": 2020,
     "address": "",
@@ -69375,7 +70008,7 @@
     "representatives": [
       "金子賢一"
     ],
-    "exit": "未上場",
+    "exit": "活動停止",
     "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "9010001214473",
@@ -69386,17 +70019,51 @@
       "https://prtimes.jp/main/html/rd/p/000000046.000073878.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001214473"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2020年12月にICheckとして設立し、コロナ禍にPCR・抗原検査キットや検査事業で急成長（2021年11月期売上約35.8億円、報道）。2022年に郵送型のピロリ菌検査キットを発売し予防分野への転換を図った。2024年1月に代表らがPCR検査事業を装った投資詐欺の疑いで逮捕されたと報じられ、同年5月に日本ICへ商号変更。2025年3月には国税局から所得隠しを指摘されたと報道。公式サイトは表示されず、現在の事業は確認できない。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "新型コロナPCR・抗原・抗体検査キット／検査事業",
+          "since": "2020-12",
+          "note": "設立時からの主力。2021年11月期売上の8割（報道）",
+          "url": ""
+        },
+        {
+          "name": "ピロリ菌検査キット（郵送型）",
+          "since": "2022-04",
+          "note": "コロナ後の予防・未病分野として発売（報道）",
+          "url": ""
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/73878"
+      },
+      "sources": [
+        "https://www.sankei.com/article/20220630-SUVF64AX6FJLPD5J6YIV27F6YM/",
+        "https://www.nikkei.com/article/DGXZQOUF319BG0R30C25A3000000/",
+        "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001214473"
+      ],
+      "checkedAt": "2026-10"
+    },
+    "previousExit": "未上場",
+    "statusNote": "公式サイトの内容が表示されず、プレスリリースも取り下げられており、事業の継続を確認できない（法人は存続）"
   },
   {
     "id": "1010401160548",
     "name": "株式会社メディコレ",
-    "hp": "https://medicolle.co.jp",
+    "hp": "https://medicolle.co.jp/",
     "categories": [
       "marketing-support"
     ],
     "categoryLabel": "マーケティング支援",
-    "description": "医師などの専門家による医療・ヘルスケア情報のファクトチェック（監修）サービスを提供",
+    "description": "記事・広告などの医療健康情報を専門医がオンラインで確認・監修する「メディコレWEB」を運営し、ヘルスケア企業の情報発信を支援",
     "prefecture": "東京都",
     "foundedYear": 2021,
     "address": "",
@@ -69414,9 +70081,50 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000006.000085640.html",
-      "https://prtimes.jp/main/html/searchrlp/company_id/85640"
+      "https://prtimes.jp/main/html/searchrlp/company_id/85640",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401160548"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "橋本礼次郎が2021年6月に設立。2021年9月に、記事やプレスリリースなど医療健康情報を公開前に専門医がオンラインで確認・監修し、認証マークやコメントを付ける医師監修プラットフォーム「メディコレWEB」を開始。2022年3月にシードで1億円を調達。専門家Q&A、医師アンケート、ECモール監修へ機能を広げ、2025年1月に「メディコレNEWS」を公開。2026年10月に生成AIの回答を測定・改善するヘルスケア特化のAIO対策「Medi-ARM」を開始。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "医師監修プラットフォーム「メディコレWEB」",
+          "since": "2021-09",
+          "note": "専門医によるオンラインのファクトチェック・コメント取得サービスとして開始",
+          "url": "https://medicolle.jp/"
+        },
+        {
+          "name": "医師監修専門メディア「メディコレNEWS」",
+          "since": "2025-01",
+          "note": "監修医の紹介や医師監修記事を掲載",
+          "url": "https://medicolle.jp/news"
+        },
+        {
+          "name": "ヘルスケア特化AIO対策「Medi-ARM」",
+          "since": "2026-10",
+          "note": "実名専門家5名の評価記事を第三者メディアで公開し、生成AIの回答を毎月測定・改善",
+          "url": "https://prtimes.jp/main/html/rd/p/000000028.000085640.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 橋本礼次郎。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://medicolle.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/85640"
+      },
+      "sources": [
+        "https://medicolle.co.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000002.000085640.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000085640.html",
+        "https://prtimes.jp/main/html/rd/p/000000019.000085640.html",
+        "https://prtimes.jp/main/html/rd/p/000000028.000085640.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2280001007130",
@@ -69426,7 +70134,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "島根大学発。高純度の間葉系幹細胞「REC」を使った再生医療等製品を開発",
+    "description": "島根大学発。ヒト骨髄由来の高純度間葉系幹細胞「REC」を使い、低ホスファターゼ症などの再生医療製品を開発",
     "prefecture": "島根県",
     "foundedYear": 2016,
     "address": "",
@@ -69444,9 +70152,38 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.purec.jp/2022/03/30/post-503/",
-      "https://www.purec.jp/company/"
+      "https://www.purec.jp/company/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2280001007130"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "島根大学医学部の松崎有未教授（取締役CSO）が開発した精製法による高純度間葉系幹細胞「REC」の臨床応用を目指し、2016年1月に島根大学発ベンチャーとして設立。増殖能・分化能に優れたRECで低ホスファターゼ症などの再生医療製品を開発する。2019年6月に5.8億円、2022年3月に持田製薬・山陰合同銀行などから7億円を調達し累計13.7億円。2023年5月に持田製薬とRECの製造プロセス開発で業務提携し、2021年にJ-Startupに選定。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "高純度間葉系幹細胞「REC」の再生医療製品開発",
+          "since": "2016-01",
+          "note": "島根大学 松崎有未教授の精製分離技術を基に設立",
+          "url": "https://www.purec.jp/research_and_development/"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "取締役5名（代表取締役社長・取締役会長・取締役CSO・取締役CFO・社外取締役）・社外監査役1名（2026年6月現在、会社概要）",
+        "asOf": "2026-06"
+      },
+      "newsroom": {
+        "site": "https://www.purec.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/72837"
+      },
+      "sources": [
+        "https://www.purec.jp/company/",
+        "https://prtimes.jp/main/html/rd/p/000000004.000072837.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000072837.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000072837.html",
+        "https://www.shimane-u.ac.jp/docs/2019062000055/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3010001140378",
@@ -69457,7 +70194,7 @@
       "telemedicine"
     ],
     "categoryLabel": "健康経営・オンライン診療",
-    "description": "職域向けにオンライン診療を組み合わせた禁煙・減量などの健康支援プログラムを提供する予防医療テック企業",
+    "description": "健保・企業向けにオンライン禁煙プログラムや女性の健康支援、生理痛体験研修などの予防医療プログラムを提供",
     "prefecture": "東京都",
     "foundedYear": 2011,
     "address": "",
@@ -69478,24 +70215,64 @@
       "https://prtimes.jp/main/html/searchrlp/company_id/53753",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001140378"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2011年6月設立。代表は生駒恭明。創業時から健保組合・企業向けにオンライン禁煙診療プログラムを提供し、延べ165組合・1,360社を支援（2021年）。心療内科産業医の石澤哲郎がCMOを務め、ストレスサーベイ「Rasika」、LINEの保健師相談、女性の健康支援「FEMCLE」へ広げ、2024年に始めた生理痛体験研修は1年で270法人超・1万人が参加。横浜市・名古屋市と禁煙で連携。2022年3月にマイナビ・帝人などからシリーズAで約5.5億円を調達し累計8億円。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "オンライン禁煙プログラム",
+          "since": "2011",
+          "note": "創業当時から健保組合・企業向けにオンライン禁煙診療として提供し、2020年に個人向け、2024年に自治体（名古屋市）向けにも展開",
+          "url": "https://prtimes.jp/main/html/rd/p/000000014.000053753.html"
+        },
+        {
+          "name": "メンタルウェルネス（Rasika・かかりつけ保健師 for LINE）",
+          "since": "2021-08",
+          "note": "ストレスサーベイ「Rasika」を公開し、LINEでの保健師相談と組み合わせて職域向けに提供",
+          "url": "https://prtimes.jp/main/html/rd/p/000000018.000053753.html"
+        },
+        {
+          "name": "女性の健康支援「FEMCLE」・生理痛体験研修",
+          "since": "2022-01",
+          "note": "FEMCLEのモニター募集から開始し、2024年に生理痛体験研修を開始",
+          "url": "https://linkage-inc.co.jp/perionoid/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長CEO 生駒恭明、取締役CTO（2022年6月就任）、CMO 石澤哲郎医師。総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://linkage-inc.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/53753"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000014.000053753.html",
+        "https://prtimes.jp/main/html/rd/p/000000036.000053753.html",
+        "https://prtimes.jp/main/html/rd/p/000000076.000053753.html",
+        "https://prtimes.jp/main/html/rd/p/000000084.000053753.html",
+        "https://prtimes.jp/main/html/rd/p/000000028.000053753.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5010401157879",
     "name": "アキュリスファーマ株式会社",
-    "hp": "",
+    "hp": "https://aculys.com/",
     "categories": [
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "神経・精神疾患領域の新薬の開発・商業化を進めるバイオファーマ。睡眠障害治療薬ピトリサントの国内開発権を持つ",
+    "description": "海外承認済みで日本未承認の神経・精神疾患薬を導入・開発した製薬ベンチャー。2025年10月に米ヴィアトリスが買収",
     "prefecture": "東京都",
     "foundedYear": 2021,
     "address": "",
     "employees": "",
     "founders": [],
     "representatives": [],
-    "exit": "未上場",
+    "exit": "バイアウト",
     "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "5010401157879",
@@ -69504,9 +70281,38 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000081.000076057.html",
-      "https://catalyspacific.com/ja/perspective/aculys-pharma-closes-us60-million-series-a-financing-led-by-softbank-vision-fund-2"
+      "https://catalyspacific.com/ja/perspective/aculys-pharma-closes-us60-million-series-a-financing-led-by-softbank-vision-fund-2",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010401157879"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "キャタリスパシフィックが2021年1月に設立した、日本のドラッグ・ロス解消を掲げる神経・精神疾患領域の製薬ベンチャー。欧米で承認済みのナルコレプシー治療薬ピトリサントと、てんかん重積のレスキュー薬ジアゼパム点鼻液を導入して国内開発し、SoftBank Vision Fund 2がリードしたシリーズAで68億円を調達。2025年6月に国内初の経鼻抗けいれん薬「スピジア点鼻液」の承認を取得し、同年10月に米Viatrisによる買収が完了した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "神経・精神疾患領域の海外承認薬の導入・開発（スピジア点鼻液・ピトリサント）",
+          "since": "2021-01",
+          "note": "キャタリスパシフィックが日本のドラッグ・ロス解消を目的に設立。2025年10月のヴィアトリスによる買収で製品業務を移管",
+          "url": "https://prtimes.jp/main/html/rd/p/000000010.000114032.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "買収前の代表取締役社長は谷垣任優（買収後はヴィアトリスへの移行を支援するアドバイザー）。買収後の役員は未確認",
+        "asOf": "2025-10"
+      },
+      "newsroom": {
+        "site": "https://aculys.com/ja/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/114032"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000010.000114032.html",
+        "https://prtimes.jp/main/html/rd/p/000000009.000114032.html",
+        "https://catalyspacific.com/ja/perspective/aculys-pharma-closes-us60-million-series-a-financing-led-by-softbank-vision-fund-2",
+        "https://www.viatris.jp/ja-jp/newsroom/press-release/acquisition-of-aculys-pharma",
+        "https://aculys.com/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1180303004423",
@@ -69516,7 +70322,7 @@
       "telemedicine"
     ],
     "categoryLabel": "オンライン診療",
-    "description": "名大・名工大発。小児科特化のオンライン診療・子育て医療アプリ「あんよ」を開発・運営",
+    "description": "名古屋大学・名古屋工業大学発。在宅の小児科医と子育て家庭をつなぐ小児科特化のオンライン診療「あんよ」を運営",
     "prefecture": "東京都",
     "foundedYear": 2019,
     "address": "",
@@ -69535,9 +70341,39 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000008.000071790.html",
-      "https://prtimes.jp/main/html/searchrlp/company_id/71790"
+      "https://prtimes.jp/main/html/searchrlp/company_id/71790",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1180303004423"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2019年9月に合同会社として設立し2020年12月に株式会社化した名大・名工大発の医療ベンチャー。2021年9月に小児科医に相談できる子育て医療アプリ「あんよ」を公開し、2023年から在宅の小児科医が診る小児科特化オンライン診療（現「あんよ」）を展開。処方薬はアイン・日本調剤・ウエルシアなどの薬局で受け取りや配送ができ、各地の子ども医療費助成にも対応。2022年3月にEast Venturesなどから4,300万円を調達。累計診療は29万件超。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "小児科特化オンライン診療「あんよ」（旧あんよonline）",
+          "since": "2023",
+          "note": "2021年9月公開の子育て医療アプリ「あんよ」（小児科医への相談）から、2022年10月の実証を経てオンライン診療へ拡張",
+          "url": "https://annyo.jp/"
+        }
+      ],
+      "management": {
+        "count": 5,
+        "note": "代表取締役2名・取締役CTO1名・社外取締役1名・社外監査役1名（会社概要）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.gecs.tech/news",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/71790"
+      },
+      "sources": [
+        "https://www.gecs.tech/company",
+        "https://www.gecs.tech/",
+        "https://prtimes.jp/main/html/rd/p/000000003.000071790.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000071790.html",
+        "https://prtimes.jp/main/html/rd/p/000000009.000071790.html",
+        "https://prtimes.jp/main/html/rd/p/000000040.000071790.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9120901039018",
@@ -69547,14 +70383,14 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "大阪大学発。トリプルネガティブ乳がんなどを対象とする抗体医薬を開発",
+    "description": "大阪大学発。がんなどに関わる病的ペリオスチンを標的とする抗体医薬を開発し、HER2陰性乳がんで治験中",
     "prefecture": "大阪府",
     "foundedYear": 2017,
     "address": "大阪府大阪市淀川区西中島２丁目１２番１１号",
     "employees": "",
     "founders": [],
     "representatives": [
-      "谷山義明"
+      "田原栄治"
     ],
     "exit": "未上場",
     "parentCompany": "",
@@ -69565,19 +70401,53 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000097613.html",
-      "https://prtimes.jp/main/html/rd/p/000000005.000125075.html"
+      "https://prtimes.jp/main/html/rd/p/000000005.000125075.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9120901039018"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2017年に設立された大阪大学発の創薬ベンチャー。がんなどに関わる病的ペリオスチンを標的とする抗体医薬を開発し、主力のPT0101は抗がん剤抵抗性のHER2陰性乳がんを対象に、2025年3月から阪大病院の医師主導治験に提供。2024年にEisai Inc.と共同研究契約。AMED創薬ベンチャーエコシステム強化事業（最大10.8億円）に採択され、2026年6月にシリーズD2で5.75億円を調達しエクイティ累計24億円超。北米での治験開始を目指す。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "病的ペリオスチンを標的とする抗体医薬の研究開発（PT0101ほか）",
+          "since": "2017",
+          "note": "大阪大学の研究成果を基に設立",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000125075.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 田原栄治（2026年6月時点）。2025年3月時点の代表は栃原洋介。総数は未確認",
+        "asOf": "2026-06"
+      },
+      "newsroom": {
+        "site": "http://periotherapia.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/125075"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000008.000125075.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000125075.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000125075.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000125075.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000097613.html"
+      ],
+      "checkedAt": "2026-10"
+    },
+    "formerRepresentatives": [
+      {
+        "name": "谷山義明"
+      }
+    ]
   },
   {
     "id": "3180001145591",
     "name": "株式会社ユーリア",
-    "hp": "https://yuurea.co.jp",
+    "hp": "https://corp.yuurea.co.jp/",
     "categories": [
       "simple-inspection"
     ],
     "categoryLabel": "簡易検査",
-    "description": "尿を使ってその場で健康状態を調べられる即時尿検査サービスを開発",
+    "description": "尿を試験紙に付けてスマホで撮るだけで栄養状態を約2分で可視化する即時尿検査サービス「Yuurea（ユーリア）」を開発",
     "prefecture": "愛知県",
     "foundedYear": 2021,
     "address": "愛知県名古屋市西区那古野２丁目１４－１なごのキャンパス",
@@ -69596,9 +70466,44 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000007.000077689.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/77689",
-      "https://prtimes.jp/main/html/rd/p/000000015.000077689.html"
+      "https://prtimes.jp/main/html/rd/p/000000015.000077689.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3180001145591"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の水野将吾が2021年4月に名古屋で設立。尿を付けた試験紙をスマホで撮るだけで栄養状態を約2分で可視化する即時尿検査「Yuurea」を開発し、2024年9月にはユーグレナと共同開発した12項目の尿検査キット「栄養コンディションチェッカー」を全国約3,000店のドラッグストアで発売。関西電力の子ども向け栄養改善プログラムやソフトバンクと連携。2022年に約5,500万円、2024年に豊田合成、愛知キャピタルなどから約1.2億円を調達。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "即時尿検査サービス「Yuurea」",
+          "since": "2021-04",
+          "note": "広島県の実証プロジェクト「D-EGGS PROJECT」で実証を開始",
+          "url": "https://corp.yuurea.co.jp/"
+        },
+        {
+          "name": "尿検査キット「栄養コンディションチェッカー」（ユーグレナと共同開発）",
+          "since": "2024-09",
+          "note": "全国のドラッグストアで販売開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000020.000077689.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 水野将吾。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://corp.yuurea.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/77689"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000001.000077689.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000077689.html",
+        "https://prtimes.jp/main/html/rd/p/000000019.000077689.html",
+        "https://prtimes.jp/main/html/rd/p/000000020.000077689.html",
+        "https://prtimes.jp/main/html/rd/p/000000026.000077689.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9330001029237",
@@ -69608,7 +70513,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "熊本大学発。「Staple核酸技術」を使った次世代型核酸医薬を開発",
+    "description": "熊本大学発。RNAに結合して構造を変える次世代核酸医薬技術「Staple核酸」で希少疾患などの医薬品を研究開発",
     "prefecture": "熊本県",
     "foundedYear": 2021,
     "address": "熊本県熊本市中央区黒髪２丁目３９番１号",
@@ -69626,9 +70531,37 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.kumamoto-u.ac.jp/kenkyuu_sangakurenkei/sangakurenkei/kico/news_event/news/20220304-press",
-      "https://prtimes.jp/main/html/rd/p/000000002.000141458.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000141458.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9330001029237"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "熊本大学で開発された次世代核酸医薬技術「Staple核酸」を基に、2021年11月に熊本大学発ベンチャーとして設立。代表取締役CEOは谷川清、取締役CSOは技術を開発した勝田陽介。疾患に関わるRNAに配列選択的に結合して構造を変え、タンパク質の発現を増減させる新しい作用機序で希少疾患などの治療薬を狙う。2024年4月に大鵬イノベーションズ・三菱UFJキャピタルなどから4.6億円を調達。2025年に成果がNature Biomedical Engineeringに掲載。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "Staple核酸技術による医薬品の研究開発",
+          "since": "2021-11",
+          "note": "熊本大学の勝田陽介（現CSO）らが開発した技術を基に設立",
+          "url": "https://staplebio.jp/"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役CEO・取締役CSO・社外取締役2名（会社概要）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://staplebio.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/141458"
+      },
+      "sources": [
+        "https://staplebio.jp/company/",
+        "https://staplebio.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000002.000141458.html",
+        "https://www.kumamoto-u.ac.jp/kenkyuu_sangakurenkei/sangakurenkei/kico/news_event/news/20220304-press"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7013301033999",
@@ -69638,7 +70571,7 @@
       "fitness"
     ],
     "categoryLabel": "フィットネス",
-    "description": "フィットネスクラブ・公共運動施設・スクール向けの会員管理・予約・決済システム「hacomono」を提供",
+    "description": "フィットネスクラブや運動スクール向けの会員管理・予約・決済のオールインワン管理システム「hacomono」を提供",
     "prefecture": "東京都",
     "foundedYear": 2013,
     "address": "",
@@ -69656,19 +70589,60 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000052.000021418.html",
-      "https://prtimes.jp/main/html/searchrlp/company_id/21418"
+      "https://prtimes.jp/main/html/searchrlp/company_id/21418",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7013301033999"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "家業の介護事業で予防の大切さに気付いた蓮田健一が2013年7月にまちいろとして創業し、2021年1月に現社名へ変更。2019年3月にウェルネス産業向けの会員管理・予約・決済システム「hacomono」を公開し、フィットネスクラブから運動スクール、公共スポーツ施設、プロスポーツクラブへ広げ、導入は13,000店舗以上。2025年1月にシリーズDで46億円を調達し累計120億円。2026年に生活者向け「FitFits」、AI接客支援「hacomono AI Manager」を開始。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ウェルネス・運動施設向け管理システム「hacomono」",
+          "since": "2019-03",
+          "note": "店舗のデジタル化支援の経験からバーティカルSaaSとして公開",
+          "url": "https://www.hacomono.co.jp/"
+        },
+        {
+          "name": "フィットネスマーケット「FitFits」",
+          "since": "2026-03",
+          "note": "複数施設を通える生活者向けサービスとして東京23区で開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000187.000021418.html"
+        },
+        {
+          "name": "民泊の開業・運営支援",
+          "since": "2026-06",
+          "note": "遊休不動産・空き家活用（ヘルスケア外の新規事業）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000206.000021418.html"
+        }
+      ],
+      "management": {
+        "count": 6,
+        "note": "取締役5名（代表取締役CEO・取締役COO・取締役CTO・社外取締役2名）・常勤監査役1名。ほかにCFO。会社概要の経営陣による",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.hacomono.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/21418"
+      },
+      "sources": [
+        "https://www.hacomono.co.jp/company/",
+        "https://prtimes.jp/main/html/rd/p/000000142.000021418.html",
+        "https://prtimes.jp/main/html/rd/p/000000198.000021418.html",
+        "https://prtimes.jp/main/html/rd/p/000000187.000021418.html",
+        "https://prtimes.jp/main/html/rd/p/000000202.000021418.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5010001202820",
     "name": "株式会社DRIPS",
-    "hp": "https://drips.co.jp/",
+    "hp": "https://www.hanaravi.jp/corporate/",
     "categories": [
       "dental"
     ],
     "categoryLabel": "歯科領域",
-    "description": "医師が代表を務める医療テック企業。マウスピース歯科矯正サービス「hanaravi」などを提供",
+    "description": "医師が創業。提携歯科医院での診断とマウスピース製造・サポートを一体で提供するマウスピース歯科矯正「hanaravi」を展開",
     "prefecture": "東京都",
     "foundedYear": 2019,
     "address": "",
@@ -69686,9 +70660,50 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000015.000057727.html",
-      "https://prtimes.jp/main/html/searchrlp/company_id/57727"
+      "https://prtimes.jp/main/html/searchrlp/company_id/57727",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001202820"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "医師の各務康貴が2019年8月に設立した予防医療スタートアップ。2020年に、提携歯科医院での診断、独自技術によるマウスピースの製造、オンラインのサポートを一体化したマウスピース歯科矯正「hanaravi（ハナラビ）」を開始し、法人の福利厚生プランも提供。2022年にヤマト運輸と3Dプリンターを使った製造・配送で連携。2023年10月に累計3.4億円を調達し予防医療クリニックの支援事業を開始、2025年1月に矯正歯科の予約代行「デンタルジュ」を事業譲受。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "マウスピース歯科矯正「hanaravi」",
+          "since": "2020",
+          "note": "提携院での診断とマウスピースの製造・サポートを一体化したサービスとして開始（2025年7月に5周年）",
+          "url": "https://www.hanaravi.jp/"
+        },
+        {
+          "name": "予防医療クリニックのサポート事業",
+          "since": "2023-10",
+          "note": "資金調達とあわせて開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000040.000057727.html"
+        },
+        {
+          "name": "矯正歯科医院の予約代行「デンタルジュ」",
+          "since": "2025-01",
+          "note": "株式会社インフォメーションから事業譲受",
+          "url": "https://prtimes.jp/main/html/rd/p/000000052.000057727.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役（医師）各務康貴。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.hanaravi.jp/corporate/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/57727"
+      },
+      "sources": [
+        "https://www.hanaravi.jp/corporate/",
+        "https://prtimes.jp/main/html/rd/p/000000040.000057727.html",
+        "https://prtimes.jp/main/html/rd/p/000000052.000057727.html",
+        "https://prtimes.jp/main/html/rd/p/000000015.000057727.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000057727.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "jp-138",
@@ -69698,7 +70713,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "京都大学発。他家iPS細胞から作るT細胞・NK細胞製品で固形がんなどの細胞医薬を開発",
+    "description": "京都大学iPS細胞研究の成果を基に、免疫拒絶を回避するiPS細胞由来T細胞・NK細胞療法を開発（米Shinobi Therapeuticsの日本法人）",
     "prefecture": "京都府",
     "foundedYear": 2015,
     "address": "",
@@ -69718,7 +70733,35 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000096294.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "京都大学のiPS細胞由来免疫細胞の研究を基に、2015年にサイアスとして京都で設立。iPS細胞から作るキラーT細胞やNK細胞など他家の既製品細胞療法を開発し、2022年2月に21.3億円を調達、同年12月にAMED委託事業（約9.5億円）に採択。2023年2月に三角株式交換で米Thyas Inc.の子会社となり、その後Shinobi Therapeutics（本社サンフランシスコ）として同年12月に5,100万ドルのシリーズAを完了。日本法人は京都で研究開発を担う。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "低免疫原性iPS細胞由来の免疫細胞療法（Katanaプラットフォーム）",
+          "since": "2015",
+          "note": "サイアスとして京都大学の研究成果を基に開始し、2023年の米国親会社化後にShinobi Therapeuticsとして展開",
+          "url": "https://www.shinobitx.com/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "日本法人の代表取締役は等泰道・五ノ坪良輔（2023年2月時点）。グループCEOはDan Kemp。総数は未確認",
+        "asOf": "2023-12"
+      },
+      "newsroom": {
+        "site": "https://www.shinobitx.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/96294"
+      },
+      "sources": [
+        "https://www.shinobitx.com/",
+        "https://prtimes.jp/main/html/rd/p/000000009.000096294.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000096294.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000096294.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000096294.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1010701035219",
@@ -69729,7 +70772,7 @@
       "direct-to-consumer"
     ],
     "categoryLabel": "フェムテック・D2C",
-    "description": "吸水ショーツなどのフェムテックブランド「Nagi」を企画・販売していた",
+    "description": "吸水ショーツのフェムテックブランド「Nagi」を展開した女性向けD2C企業。Nagiは2023年3月に休止し、会社は2025年に清算",
     "prefecture": "東京都",
     "foundedYear": 2018,
     "address": "",
@@ -69738,7 +70781,7 @@
     "representatives": [
       "石井リナ"
     ],
-    "exit": "未上場",
+    "exit": "閉鎖",
     "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "1010701035219",
@@ -69755,6 +70798,39 @@
     "ended": {
       "date": "2023-03",
       "note": "2023年3月にNagiの事業を休止（同社発表）。2025年10月24日に清算結了で登記閉鎖（国税庁）"
+    },
+    "overview": "石井リナが2018年1月に設立した女性向けD2C・メディア企業。2018年3月に女性向けエンパワーメントメディア「BLAST」を立ち上げ、2019年に1枚で過ごせる洗って使える吸水ショーツのフェムテックブランド「Nagi（ナギ）」を発売し自社ECで販売。2020年にSevenwoods Investment、ANRIなどから資金調達した。2023年2月にNagiを同年3月で休止すると発表し、国税庁法人番号公表サイトでは2025年10月に清算結了による登記記録の閉鎖が記録されている。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "吸水ショーツのフェムテックブランド「Nagi」",
+          "since": "2019",
+          "note": "メディア事業に続く自社プロダクトとして発売。2023年3月に休止",
+          "url": "https://nagi-jp.com/"
+        },
+        {
+          "name": "女性向けエンパワーメントメディア「BLAST」",
+          "since": "2018-03",
+          "note": "創業事業",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000031365.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 石井リナ。会社は清算済み",
+        "asOf": "2025-10"
+      },
+      "newsroom": {
+        "site": "",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/31365"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000066.000031365.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000031365.html",
+        "https://prtimes.jp/main/html/rd/p/000000009.000031365.html",
+        "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010701035219"
+      ],
+      "checkedAt": "2026-10"
     }
   },
   {
@@ -69765,14 +70841,15 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "慶應義塾大学発。遺伝子治療で失われた視覚を再生する治療法の早期実用化をめざす",
+    "description": "慶應義塾大学発。光センサー遺伝子「キメラロドプシン」を網膜に届ける遺伝子治療で、網膜色素変性症などの視覚再生を目指す",
     "prefecture": "東京都",
     "foundedYear": 2016,
     "address": "東京都港区虎ノ門１丁目１７番１号虎ノ門ヒルズビジネスタワー１５階",
     "employees": "",
     "founders": [],
     "representatives": [
-      "堅田侑作"
+      "堅田侑作",
+      "宮﨑輝"
     ],
     "exit": "未上場",
     "parentCompany": "",
@@ -69786,23 +70863,52 @@
       "https://prtimes.jp/main/html/searchrlp/company_id/93477",
       "https://prtimes.jp/main/html/rd/p/000000067.000036405.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000093477.html",
-      "https://prtimes.jp/main/html/rd/p/000000002.000093477.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000093477.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401128258"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "慶應義塾大学の研究を基に2016年に設立された遺伝子治療ベンチャー。代表は眼科医の堅田侑作と宮﨑輝。光センサー遺伝子「キメラロドプシン」をAAVベクターで網膜に届け、視細胞を失った網膜に光を感じさせる遺伝子治療薬「RV-001」を開発し、2025年2月に重症網膜色素変性症の第I/II相治験で初回投与。2023年にシリーズA（16.6億円）、2026年4月にアステラス・塩野義製薬などからPreシリーズBで13億円を調達し、補助金を含め累計58億円超。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "視覚再生遺伝子治療薬「RV-001」ほかの研究開発",
+          "since": "2016",
+          "note": "慶應義塾大学のキメラロドプシン研究を基に設立",
+          "url": "https://restore-vis.com/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役2名（堅田侑作・宮﨑輝）。総数は未確認",
+        "asOf": "2026-04"
+      },
+      "newsroom": {
+        "site": "https://restore-vis.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/93477"
+      },
+      "sources": [
+        "https://restore-vis.com/",
+        "https://prtimes.jp/main/html/rd/p/000000005.000093477.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000093477.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000093477.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000093477.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7330001019941",
     "name": "トイメディカル株式会社",
-    "hp": "https://www.toymedical.jp/",
+    "hp": "https://toymedical.jp/",
     "categories": [
       "direct-to-consumer"
     ],
     "categoryLabel": "D2C",
-    "description": "塩分の吸収を抑える独自の特許技術を使ったサプリメントなどを開発・販売",
+    "description": "熊本発。海藻由来成分で塩分の吸収を抑える独自の「塩分オフセット技術」を使ったサプリ・減塩調味料・食品を開発",
     "prefecture": "熊本県",
     "foundedYear": 2013,
     "address": "熊本県熊本市南区富合町志々水４８番地１",
-    "employees": "",
+    "employees": "14名",
     "founders": [],
     "representatives": [
       "竹下英徳"
@@ -69817,9 +70923,51 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000013.000063699.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/63699",
-      "https://newscast.jp/news/1868370"
+      "https://newscast.jp/news/1868370",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7330001019941",
+      "https://toymedical.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "竹下英徳が2013年10月に熊本で設立し、病院向け使い捨て医療用品の開発から始めた。海藻由来成分で食事の塩分の吸収を抑える独自の「塩分オフセット技術」を中核に、サプリメント、減塩調味料「零」、せんべい・麺などを展開。2022年2月にヤマエグループHDの持分法適用会社となり、経産省Go-Tech事業に採択。2026年2月に「おいしく適塩推進協会」を設立し、同年6月に尿で塩分摂取を2分で可視化する「しおスコア」を発売。従業員14名。",
+    "employeesAsOf": "2026-10",
+    "profile": {
+      "businesses": [
+        {
+          "name": "病院向けディスポーザブル商品の開発",
+          "since": "2013-10",
+          "note": "創業事業。医療機器製造販売業許可を保有",
+          "url": "https://toymedical.jp/company/"
+        },
+        {
+          "name": "塩分オフセット技術を使ったサプリメント・食品・減塩調味料",
+          "since": "",
+          "note": "塩分吸収抑制の特許技術を中核に、サプリからヤマエグループとの提携で食品領域へ拡大",
+          "url": "https://toymedical.jp/"
+        },
+        {
+          "name": "減塩習慣見える化キット「しおスコア」",
+          "since": "2026-06",
+          "note": "尿チェックと画像解析で塩分摂取状況を可視化するセルフチェックキット",
+          "url": "https://prtimes.jp/main/html/rd/p/000000066.000063699.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 竹下英徳。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://toymedical.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/63699"
+      },
+      "sources": [
+        "https://toymedical.jp/company/",
+        "https://prtimes.jp/main/html/rd/p/000000013.000063699.html",
+        "https://prtimes.jp/main/html/rd/p/000000066.000063699.html",
+        "https://prtimes.jp/main/html/rd/p/000000061.000063699.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9011001134587",
@@ -69829,7 +70977,7 @@
       "fitness"
     ],
     "categoryLabel": "フィットネス",
-    "description": "プロトレーナーによるオンラインパーソナルトレーニングアプリ「WITH Fitness」を運営していた",
+    "description": "プロトレーナーがアプリで運動と食事を指導するオンラインパーソナルトレーニング「WITH Fitness」を提供した（2024年に清算）",
     "prefecture": "東京都",
     "foundedYear": 2020,
     "address": "",
@@ -69838,7 +70986,7 @@
     "representatives": [
       "谷口敢一"
     ],
-    "exit": "未上場",
+    "exit": "閉鎖",
     "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "9011001134587",
@@ -69853,6 +71001,33 @@
     "ended": {
       "date": "2024-06",
       "note": "2024年6月12日に清算結了で登記閉鎖（国税庁）。PR TIMESの発信は2022年7月が最後"
+    },
+    "overview": "谷口敢一が2020年7月に設立。厳選したプロトレーナーがマンツーマンで、専用アプリを通じてトレーニングメニューと食事を指導する徹底管理型のオンラインパーソナルトレーニング「WITH Fitness」を提供し、2022年1月にボディメイク宅食のマッスルデリとコラボプランを販売。2022年2月に千葉道場・デライト・ベンチャーズから累計約1億円を調達し、同年7月にAndroid版を配信。以降の発表はなく、2024年6月に清算結了による登記記録の閉鎖が記録されている。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "オンラインパーソナルトレーニング「WITH Fitness」",
+          "since": "2020",
+          "note": "創業事業。2022年7月にAndroid版を追加",
+          "url": "https://prtimes.jp/main/html/rd/p/000000006.000072821.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 谷口敢一。会社は清算済み",
+        "asOf": "2024-06"
+      },
+      "newsroom": {
+        "site": "",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/72821"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000006.000072821.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000072821.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000072821.html",
+        "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9011001134587"
+      ],
+      "checkedAt": "2026-10"
     }
   },
   {
@@ -69863,7 +71038,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "毒（ベノム）由来のペプチドを基にしたDRP創薬プラットフォームで医薬品候補を創出",
+    "description": "つくば発。ジスルフィドリッチペプチド（DRP）を人工進化させる独自技術「Veneno Suite」で、膜たんぱく質などを狙うペプチド創薬を行う",
     "prefecture": "茨城県",
     "foundedYear": 2020,
     "address": "",
@@ -69880,9 +71055,38 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000091230.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000091230.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2050001047793"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "吉川寿徳が2020年7月につくば市で設立したペプチド創薬企業。毒素などに含まれる安定なジスルフィドリッチペプチド（DRP）を鋳型に人工進化させた巨大ライブラリ、高速スクリーニング、効率的な製造技術を一体化した「Veneno Suite」で、創薬が難しかった膜たんぱく質などを狙う。2022年1月にSBIインベストメントなどから2億円を調達。アステラス製薬・住友ファーマ・杏林製薬と共同研究し、2025年に田辺三菱製薬などと放射性医薬品の共同研究を開始。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "DRP創薬プラットフォーム「Veneno Suite」による共同研究・自社創薬",
+          "since": "2020-07",
+          "note": "設立時から独自のDRP探索技術を基盤に、製薬企業との共同研究と自社パイプライン開発を進める",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000091230.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 吉川寿徳。役員総数は未確認",
+        "asOf": "2025-07"
+      },
+      "newsroom": {
+        "site": "https://veneno.jp/jp",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/91230"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000001.000091230.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000091230.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000091230.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000091230.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000091230.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6021001063994",
@@ -69892,17 +71096,17 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "武田薬品から独立した創薬ベンチャー。独自スクリーニング基盤でタンパク質分解誘導薬を開発",
+    "description": "武田薬品出身者が創業。独自基盤「RaPPIDS」で標的タンパク質分解誘導剤を創製する創薬企業。2024年からラクオリア創薬の完全子会社",
     "prefecture": "神奈川県",
     "foundedYear": 2018,
     "address": "",
-    "employees": "",
+    "employees": "23名（ほかに役員4名）",
     "founders": [],
     "representatives": [
       "蒲香苗"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "ラクオリア創薬株式会社",
     "relatedCompanies": [],
     "corporateNumber": "6021001063994",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6021001063994",
@@ -69911,9 +71115,40 @@
     "sources": [
       "https://www.fimecs.com/news/2022-01-24/",
       "https://www.kyoto-unicap.co.jp/topics/1686/",
-      "https://www.fimecs.com/corporate/about/"
+      "https://www.fimecs.com/corporate/about/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6021001063994"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "武田薬品工業の研究者だった冨成祐介・蒲香苗らが2018年に共同創業した、標的タンパク質分解誘導剤に特化する創薬ベンチャー。独自のE3リガーゼ結合分子と基盤技術「RaPPIDS」で候補物質を効率的に創製し、2022年にアステラス製薬と共同研究契約（一時金5億円）、2025年に標的を追加。2024年3月にラクオリア創薬がクロージング対価45億円で全株式を取得し完全子会社化。2026年3月に蒲香苗が代表取締役CEOに就任。従業員23名（2025年4月）。",
+    "employeesAsOf": "2025-04",
+    "profile": {
+      "businesses": [
+        {
+          "name": "標的タンパク質分解誘導剤の創薬（RaPPIDSプラットフォーム）",
+          "since": "2018",
+          "note": "武田薬品工業の同僚研究者らが創業。製薬企業との共同研究（アステラス製薬）と自社パイプラインの導出を両輪に展開",
+          "url": "https://www.fimecs.com/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 蒲香苗（2026年3月就任）。前代表は冨成祐介。総数は未確認（公式サイトはメンテナンス中で閲覧できず）",
+        "asOf": "2026-03"
+      },
+      "newsroom": {
+        "site": "https://www.fimecs.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/33003"
+      },
+      "sources": [
+        "https://data.swcms.net/file/raqualia-corp/ja/news/auto_20240214535923/pdfFile.pdf",
+        "https://data.swcms.net/file/raqualia-corp/ja/news/auto_20240326559363/pdfFile.pdf",
+        "https://www.fimecs.com/news/2024-02-14/",
+        "https://www.fimecs.com/news/2025-11-27/",
+        "https://www.fimecs.com/news/2026-03-02/",
+        "https://www.fimecs.com/corporate/about/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6020001128015",
@@ -69923,7 +71158,7 @@
       "nursing"
     ],
     "categoryLabel": "介護",
-    "description": "横浜市で訪問介護事業を展開し、事業者間でヘルパーを融通する共同採用アプリ「parsowa」を開発",
+    "description": "横浜で訪問介護事業を営み、訪問介護事業者がヘルパーを業務単位で共同採用できるアプリ「parsowa（パルソワ）」を開発",
     "prefecture": "神奈川県",
     "foundedYear": 2018,
     "address": "",
@@ -69940,9 +71175,42 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000091504.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000091504.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6020001128015"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "神澤薫が2018年9月に横浜市で設立し、訪問介護事業を運営。自社の運営経験から介護人材の確保難を解決しようと、訪問介護事業者同士がヘルパーをサービス業務単位で共同採用し空き時間に業務を割り振れるアプリ「parsowa（パルソワ）」の開発を2021年12月に発表し、2022年1月にクラウドファンディングを実施した。同年春のリリースを予定していたが、その後の発表がなくサービスサイトにも接続できず、現在の提供状況は確認できない。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "訪問介護事業",
+          "since": "2018-09",
+          "note": "設立時からの事業",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000091504.html"
+        },
+        {
+          "name": "訪問介護の共同採用アプリ「parsowa（パルソワ）」",
+          "since": "2022",
+          "note": "2021年12月に開発発表、2022年1月にクラウドファンディング。リリース後の状況は未確認",
+          "url": "https://www.parsowa.jp/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 神澤薫。役員総数は未確認",
+        "asOf": "2022-01"
+      },
+      "newsroom": {
+        "site": "",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/91504"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000001.000091504.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000091504.html",
+        "https://readyfor.jp/projects/parsowa"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6350001014487",
@@ -69952,7 +71220,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "宮崎大学発。ペプチド「アドレノメデュリン」を基に潰瘍性大腸炎などの医薬品を開発",
+    "description": "宮崎大学発。北村和雄特別教授が発見したペプチド「アドレノメデュリン」を基に、潰瘍性大腸炎などの治療薬を開発",
     "prefecture": "宮崎県",
     "foundedYear": 2017,
     "address": "",
@@ -69971,9 +71239,44 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000009.000084101.html",
       "https://prtimes.jp/main/html/rd/p/000000005.000084101.html",
-      "https://prtimes.jp/main/html/searchrlp/company_id/84101"
+      "https://prtimes.jp/main/html/searchrlp/company_id/84101",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6350001014487"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "アドレノメデュリンを発見した宮崎大学の北村和雄特別教授らが2017年2月に設立した大学発ベンチャー。代表は新城裕司。腸粘膜の修復を促すペプチド「アドレノメデュリン」の投与を簡便にしたHM201を潰瘍性大腸炎などの難病向けに開発し、2021年にシリーズBで4億円を調達、オーストラリアでの第1相試験を2023年4月に終了。2026年4月にCADASIL向けの日本・韓国・台湾の権利をファーマフーズにライセンスした。J-Startup企業。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "改良型アドレノメデュリン（HM201）の研究開発",
+          "since": "2017-02",
+          "note": "宮崎大学 北村和雄特別教授の研究成果を基に設立",
+          "url": "https://www.himuka-am.com/about/outline/"
+        },
+        {
+          "name": "アドレノメデュリン（HM101）のライセンス",
+          "since": "2026-04",
+          "note": "CADASIL向けの日本・韓国・台湾の権利をファーマフーズに供与",
+          "url": "https://prtimes.jp/main/html/rd/p/000000011.000084101.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 新城裕司。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.himuka-am.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/84101"
+      },
+      "sources": [
+        "https://www.himuka-am.com/about/outline/",
+        "https://prtimes.jp/main/html/rd/p/000000005.000084101.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000084101.html",
+        "https://prtimes.jp/main/html/rd/p/000000010.000084101.html",
+        "https://prtimes.jp/main/html/rd/p/000000011.000084101.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8010601052324",
@@ -69984,13 +71287,15 @@
       "medical-device"
     ],
     "categoryLabel": "メンタルヘルス・医療機器",
-    "description": "自閉スペクトラム症の子どものためのデジタル治療（治療用アプリ）を開発",
+    "description": "自閉症スペクトラム障害（ASD）の子ども向けに、AIで個別化した療育アプリ「自閉症セラピー」をデジタル治療として開発",
     "prefecture": "東京都",
     "foundedYear": 2017,
     "address": "",
     "employees": "",
     "founders": [],
-    "representatives": [],
+    "representatives": [
+      "シング・マヤンク・クマール"
+    ],
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [],
@@ -69999,9 +71304,34 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000036.000051734.html"
+      "https://prtimes.jp/main/html/rd/p/000000036.000051734.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010601052324"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "神経障害向けのAIを使ったデジタル治療（DTx）の開発を目的に、2017年10月に東京で設立。代表はシング・マヤンク・クマール。第一弾として、自閉症スペクトラム障害（ASD）の子どもの標準的療法である応用行動分析（ABA）に基づき、表情や視線、体の動きを追跡しながらAIが学習内容を調整する療育アプリ「自閉症セラピー」を開発。DTxとしての販売に向け国立成育医療研究センターと臨床研究を進め、2022年1月にi-nest capitalから出資を受けた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ASD児向け療育アプリ「自閉症セラピー」（DTx開発）",
+          "since": "2017-10",
+          "note": "AIベースのデジタル治療の開発を目的に設立し、第一弾として開発",
+          "url": "https://impute.co.jp/ja/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 シング・マヤンク・クマール。役員総数は未確認",
+        "asOf": "2022-01"
+      },
+      "newsroom": {
+        "site": "https://impute.co.jp/ja/"
+      },
+      "sources": [
+        "https://impute.co.jp/ja/",
+        "https://prtimes.jp/main/html/rd/p/000000036.000051734.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6370001045002",
@@ -70012,14 +71342,15 @@
       "diagnostic-support"
     ],
     "categoryLabel": "医療画像・診断支援",
-    "description": "東北大学発。脳MRIから海馬の体積などを測り認知症リスクを可視化する脳ドック用ソフトウェアを提供",
+    "description": "東北大学加齢医学研究所発。頭部MRIのAI解析で海馬の萎縮度を測る脳ドック用ソフト「BrainSuite」など認知症の早期対策サービスを提供",
     "prefecture": "東京都",
     "foundedYear": 2019,
     "address": "",
     "employees": "",
     "founders": [],
     "representatives": [
-      "樋口彰"
+      "樋口彰",
+      "瀧靖之"
     ],
     "exit": "未上場",
     "parentCompany": "",
@@ -70029,9 +71360,44 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000004.000091030.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000091030.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6370001045002"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "東北大学加齢医学研究所の脳医学研究を社会実装するため2019年に設立。代表は日英弁護士の樋口彰と同研究所教授の瀧靖之。頭部MRIをAIで解析し海馬の萎縮度を評価して予防行動を示す脳ドック用ソフト「BrainSuite」を全国の病院に提供。2022年1月にオムロンベンチャーズなどからシリーズAで3.5億円を調達。スマホの「脳の健康3分チェック」、スポーツクラブとの運動プログラム、サブスク「認知症と向き合う365」へ広げ、2025年に株式投資型CFを実施。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "海馬測定MRI検査（脳ドック用ソフト）「BrainSuite」",
+          "since": "2019",
+          "note": "東北大学加齢医学研究所の脳画像データベースと研究を基に、脳ドック実施病院へ提供",
+          "url": "https://www.cogsmartglobal.com/"
+        },
+        {
+          "name": "認知症予防の個人・法人向けサービス（脳の健康3分チェック、認知症と向き合う365、運動プログラム）",
+          "since": "2023-04",
+          "note": "スマホでの簡易チェックから、サブスクやスポーツクラブとの共同プログラムへ拡大",
+          "url": "https://prtimes.jp/main/html/rd/p/000000011.000091030.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役2名（樋口彰CEO・瀧靖之CSO）、CRO齊藤。総数は未確認",
+        "asOf": "2025-10"
+      },
+      "newsroom": {
+        "site": "https://www.cogsmartglobal.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/91030"
+      },
+      "sources": [
+        "https://www.cogsmartglobal.com/",
+        "https://prtimes.jp/main/html/rd/p/000000004.000091030.html",
+        "https://prtimes.jp/main/html/rd/p/000000024.000091030.html",
+        "https://prtimes.jp/main/html/rd/p/000000011.000091030.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000091030.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2011301025864",
@@ -70042,7 +71408,7 @@
       "electronic-health-record"
     ],
     "categoryLabel": "訪問看護・電子カルテ",
-    "description": "訪問看護ステーション「ホウカンTOKYO」の運営と、訪問看護専用の電子カルテ「Hanon」の開発を行う",
+    "description": "訪問看護ステーション「ホウカンTOKYO」を運営し、訪問看護専用の電子カルテ・業務基盤「Hanon」と開設支援を提供",
     "prefecture": "東京都",
     "foundedYear": 2020,
     "address": "東京都杉並区和田３丁目３２番９号",
@@ -70060,9 +71426,49 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000091158.html",
-      "https://prtimes.jp/main/html/rd/p/000000098.000048004.html"
+      "https://prtimes.jp/main/html/rd/p/000000098.000048004.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2011301025864"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の河田浩司が2020年4月に設立。東京都杉並区を拠点に訪問看護ステーション「ホウカンTOKYO」を運営し、事務を専門チームに集約して看護師が看護に専念できる仕組みを構築。運営の中で開発した訪問看護専用の電子カルテ・業務基盤「Hanon」を他のステーションにも提供し、新規開設を企画から開業後の事務まで支援する。2021年12月にみずほキャピタルなどから1億円を調達し、2024年2月にアイセイ薬局と資本業務提携した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "訪問看護ステーション「ホウカンTOKYO」の運営",
+          "since": "2020",
+          "note": "設立時から運営し、グループのステーションを順次拡大",
+          "url": "https://hanon-cs.co.jp/"
+        },
+        {
+          "name": "訪問看護専用電子カルテ・業務プラットフォーム「Hanon」",
+          "since": "2021",
+          "note": "自社ステーションの運営の中で開発・運用し外部に提供",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000091158.html"
+        },
+        {
+          "name": "訪問看護ステーションの立上げ・運営支援",
+          "since": "",
+          "note": "ホウカンTOKYOの運営ノウハウとHanonを外部の新規開設に提供",
+          "url": "https://prtimes.jp/main/html/rd/p/000000007.000091158.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 河田浩司。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://hanon-cs.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/91158"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000002.000091158.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000091158.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000091158.html",
+        "https://prtimes.jp/main/html/rd/p/000000010.000091158.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3120901037464",
@@ -70072,14 +71478,14 @@
       "medical-device"
     ],
     "categoryLabel": "医療機器",
-    "description": "大阪大学発。小型・軽量のパッチ式脳波計「HARU」と脳波解析AIを開発（医療機器認証取得）",
+    "description": "大阪大学の研究成果を基に、額に貼るだけで脳波を測れるパッチ式脳波計「HARU」と脳波のAI解析サービスを開発・提供",
     "prefecture": "東京都",
     "foundedYear": 2016,
     "address": "",
     "employees": "",
     "founders": [],
     "representatives": [
-      "松原秀樹"
+      "内山昇"
     ],
     "exit": "未上場",
     "parentCompany": "",
@@ -70090,9 +71496,49 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000004.000078793.html",
-      "https://prtimes.jp/main/html/rd/p/000000028.000051435.html"
+      "https://prtimes.jp/main/html/rd/p/000000028.000051435.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3120901037464"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "大阪大学産業科学研究所の伸縮自在な電極シート技術を基に2016年9月に設立。2020年3月に医療機器製造販売業を取得し、額に貼るパッチ式脳波計「HARU-1」で同年8月に医療機器認証、小型化した「HARU-2」で2022年2月に認証を取得し、2023年9月に保険適用。2021年5月に脳波AI解析サービス「NAIS Entry」を発売。2021年に塩野義製薬と資本提携し、シリーズBを計約4.5億円で完了。脳機能バイオマーカーを共同研究する。代表は内山昇。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "パッチ式脳波計「HARU」シリーズ",
+          "since": "2020-08",
+          "note": "大阪大学の電極シート技術を基にHARU-1で医療機器認証を取得。HARU-2は2023年9月に保険適用",
+          "url": "https://www.pgv.co.jp/"
+        },
+        {
+          "name": "脳波AI解析サービス「NAIS Entry」",
+          "since": "2021-05",
+          "note": "脳波データのAI解析サービスとして正式販売",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000078793.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 内山昇（会社概要）。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.pgv.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/78793"
+      },
+      "sources": [
+        "https://www.pgv.co.jp/company",
+        "https://prtimes.jp/main/html/rd/p/000000005.000078793.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000078793.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000078793.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000078793.html"
+      ],
+      "checkedAt": "2026-10"
+    },
+    "formerRepresentatives": [
+      {
+        "name": "松原秀樹"
+      }
+    ]
   },
   {
     "id": "7120901039358",
@@ -70102,7 +71548,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "大阪大学発。新規人工核酸を使い、有効性と安全性の高い核酸医薬品を開発",
+    "description": "大阪大学発。独自の人工修飾核酸（ルクサナXNAs）を製薬企業に提供し、核酸医薬の共同研究・ライセンスを行う",
     "prefecture": "大阪府",
     "foundedYear": 2017,
     "address": "大阪府吹田市山田丘２番８号",
@@ -70122,9 +71568,44 @@
       "https://prtimes.jp/main/html/rd/p/000000006.000049692.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000049692.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/49692",
-      "https://prtimes.jp/main/html/rd/p/000000013.000049692.html"
+      "https://prtimes.jp/main/html/rd/p/000000013.000049692.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7120901039358"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "大阪大学の人工核酸研究を基に2017年12月に設立された核酸医薬ベンチャー。代表は佐藤秀昭。核酸医薬の効果や安全性を高める独自の人工修飾核酸「ルクサナ XNAs」を製薬企業との共同研究・ライセンスで展開し、Aligos、武田薬品工業（2022年に独占的ライセンス）、仏セルヴィエ（2026年にライセンスオプション付き契約）などと提携。2024年にSPIへ人工核酸アミダイトの製造販売をライセンス。2024年9月のシリーズCを含め累計調達25.4億円。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "人工修飾核酸「ルクサナ XNAs」の共同研究・ライセンス",
+          "since": "2017-12",
+          "note": "大阪大学の人工核酸研究を基に設立し、製薬企業への技術提供で事業化",
+          "url": "https://luxnabiotech.co.jp/"
+        },
+        {
+          "name": "人工修飾核酸アミダイトの製造販売ライセンス",
+          "since": "2024-12",
+          "note": "SPIへのライセンスと、BioSpringとのXNAパートナーシップ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000014.000049692.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長CEO 佐藤秀昭。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://luxnabiotech.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/49692"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000013.000049692.html",
+        "https://prtimes.jp/main/html/rd/p/000000018.000049692.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000049692.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000049692.html",
+        "https://prtimes.jp/main/html/rd/p/000000009.000049692.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5240001015745",
@@ -70134,7 +71615,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "広島大学発。無血清培地などの独自技術で高品質な間葉系幹細胞（MSC）製品を研究開発する再生医療ベンチャー",
+    "description": "広島大学発。滑膜由来の間葉系幹細胞（MSC）を使った膝軟骨再生の細胞治療製品「gMSC1」と無血清培地「STK」を開発",
     "prefecture": "広島県",
     "foundedYear": 2003,
     "address": "",
@@ -70152,9 +71633,48 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.jgc.com/jp/news/2021/20211126.html",
-      "https://www.twocells.com/company/"
+      "https://www.twocells.com/company/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5240001015745"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "広島大学発ベンチャーとして2003年4月に設立。間葉系幹細胞（MSC）による再生医療を手がけ、幹細胞培養装置や無血清培地「STK」シリーズを販売。主力は他家滑膜MSC由来の三次元人工組織で膝軟骨を再生する「gMSC1」で、2016年に中外製薬とライセンス契約を結び第III相試験の症例登録を2021年に完了したが、2023年に契約を解消。2025年6月に科研製薬と新たにライセンス契約を結び、2026年9月に第3相試験の治験計画届を提出した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "膝軟骨再生細胞治療製品「gMSC1」の開発",
+          "since": "2003-04",
+          "note": "広島大学のMSC研究を基に設立。2016年中外製薬、2025年科研製薬とライセンス契約",
+          "url": "https://www.twocells.com/company/"
+        },
+        {
+          "name": "無血清培地「STK」シリーズの販売",
+          "since": "2008-05",
+          "note": "研究用から2015年に臨床用へ拡大",
+          "url": "https://www.twocells.com/company/"
+        },
+        {
+          "name": "幹細胞自動培養装置の販売",
+          "since": "2006-01",
+          "note": "沿革に記載",
+          "url": "https://www.twocells.com/company/"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役社長1名・取締役2名・会計参与1名（会社情報）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.twocells.com/news/",
+        "ir": "https://www.twocells.com/ir/"
+      },
+      "sources": [
+        "https://www.twocells.com/company/",
+        "https://www.twocells.com/news/",
+        "https://www.jgc.com/jp/news/2021/20211126.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5180001122358",
@@ -70164,7 +71684,7 @@
       "pharmacy-dx"
     ],
     "categoryLabel": "薬局DX",
-    "description": "処方箋なしで医療用医薬品も買えるセルフケア薬局（零売薬局）などを展開",
+    "description": "零売（処方箋なしで医療用医薬品を販売）の「セルフケア薬局」や調剤薬局・訪問看護を運営。2024年1月からファーマライズHDの完全子会社",
     "prefecture": "愛知県",
     "foundedYear": 2016,
     "address": "",
@@ -70173,8 +71693,8 @@
     "representatives": [
       "服部雄太"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "ファーマライズホールディングス株式会社",
     "relatedCompanies": [],
     "corporateNumber": "5180001122358",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5180001122358",
@@ -70184,9 +71704,50 @@
       "https://prtimes.jp/main/html/rd/p/000000004.000061546.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/61546",
       "https://prtimes.jp/main/html/rd/p/000000023.000034282.html",
-      "https://prtimes.jp/main/html/rd/p/000000081.000011403.html"
+      "https://prtimes.jp/main/html/rd/p/000000081.000011403.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5180001122358"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "薬剤師の服部雄太が2016年3月に名古屋で創業し、調剤薬局「おだいじに薬局」や訪問看護を展開。2021年2月にJR西国分寺駅構内に処方箋なしで一部の医療用医薬品を買える零売薬局「セルフケア薬局」を開き、駅ナカや商業施設に出店。JR東日本スタートアップとの資本業務提携やシリーズB・Cで計5億円を調達した。2024年1月にファーマライズホールディングスの完全子会社となり、調剤薬局33店舗・訪問看護2拠点などを運営（2026年6月）。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "調剤薬局「おだいじに薬局」ほかの運営",
+          "since": "2016-03",
+          "note": "創業事業。2022年に名鉄薬品の6店舗が加わり、現在は調剤薬局33店舗",
+          "url": "https://www.pharmarise.com/company/group/index.html"
+        },
+        {
+          "name": "零売薬局「セルフケア薬局」",
+          "since": "2021-02",
+          "note": "JR西国分寺駅構内に1号店を開き、駅ナカ・商業施設に出店",
+          "url": "https://prtimes.jp/main/html/rd/p/000000007.000061546.html"
+        },
+        {
+          "name": "訪問看護ステーション・有料老人ホームの運営",
+          "since": "",
+          "note": "ファーマライズHDのグループ会社情報で確認",
+          "url": "https://www.pharmarise.com/company/group/index.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "未確認（2024年の子会社化前の代表は服部雄太）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/61546"
+      },
+      "sources": [
+        "https://www.pharmarise.com/company/group/index.html",
+        "https://www.pharmarise.com/company/enkaku.html",
+        "https://www.nikkei.com/nkd/disclosure/tdnr/20240111513580/",
+        "https://prtimes.jp/main/html/rd/p/000000007.000061546.html",
+        "https://prtimes.jp/main/html/rd/p/000000019.000061546.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8021001064090",
@@ -70196,11 +71757,11 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "難治・希少疾患に注力する研究開発型の創薬ベンチャー",
+    "description": "独自のAIファーマコインフォマティクス技術「RePhaIND」で医薬品候補の新たな価値を見出し、希少疾患・難病の治療薬を開発",
     "prefecture": "神奈川県",
     "foundedYear": 2018,
     "address": "神奈川県藤沢市村岡東２丁目２６番地の１",
-    "employees": "",
+    "employees": "12名（役員を含む）",
     "founders": [],
     "representatives": [
       "加藤珠蘭"
@@ -70214,26 +71775,59 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000004.000086500.html",
-      "https://prtimes.jp/main/html/rd/p/000000008.000086500.html"
+      "https://prtimes.jp/main/html/rd/p/000000008.000086500.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8021001064090",
+      "https://gexval.com/company/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の加藤珠蘭が2018年2月に設立し、湘南ヘルスイノベーションパークを拠点とする創薬ベンチャー（武田薬品も株主）。独自のAIファーマコインフォマティクス基盤「RePhaIND」で医薬品候補の潜在的な価値を見出し、希少疾患などで臨床開発を行う。主力のGXV-001は豪州で第I相試験を終え、神経系疾患での第II相を準備中で、脆弱X症候群やパーキンソン病の研究支援にも採択。2025年1月にアルフレッサHDと資本業務提携し、シリーズC累計8.6億円。",
+    "employeesAsOf": "2025-12",
+    "profile": {
+      "businesses": [
+        {
+          "name": "AI創薬基盤「RePhaIND」による希少疾患治療薬の開発（GXV-001ほか）",
+          "since": "2018-02",
+          "note": "設立時から医薬品候補の価値再発見による開発を事業とする",
+          "url": "https://gexval.com/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表者 加藤珠蘭、CSO 嶋田康平。総数は未確認",
+        "asOf": "2025-12"
+      },
+      "newsroom": {
+        "site": "https://gexval.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/86500"
+      },
+      "sources": [
+        "https://gexval.com/company/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/",
+        "https://prtimes.jp/main/html/rd/p/000000009.000086500.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000086500.html",
+        "https://prtimes.jp/main/html/rd/p/000000010.000086500.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000086500.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1010001132699",
     "name": "株式会社DUMSCO",
-    "hp": "https://anbai.team/",
+    "hp": "https://www.dumsco.com/",
     "categories": [
       "mental-health",
       "health-corporate-management"
     ],
     "categoryLabel": "メンタルヘルス・健康経営",
-    "description": "主観では気づきにくい「隠れストレス負債」を測り対策するストレスケアアプリ「ANBAI」を企業向けに提供",
+    "description": "スマホカメラで心拍変動を測りストレスを可視化するアプリ「ストレススキャン」と、企業向けセルフコンディショニングアプリ「ANBAI」を提供",
     "prefecture": "東京都",
-    "foundedYear": null,
+    "foundedYear": 2010,
     "address": "",
     "employees": "",
     "founders": [],
-    "representatives": [],
+    "representatives": [
+      "西池成資"
+    ],
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [],
@@ -70242,9 +71836,42 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://anbai.team/news/357/"
+      "https://anbai.team/news/357/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001132699"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "元神戸製鋼所研究員の西池成資が2010年5月に設立したデータ分析・テクノロジー企業。スマホのカメラに指先をかざすだけで心拍変動（HRV）を測りストレスを可視化する技術を基に、個人向け「ストレススキャン」と、ストレスチェック後の従業員フォローに使う法人向けセルフコンディショニングアプリ「ANBAI」を展開（累計300万ダウンロード）。2021年10月にトラストバンク創業者の須永珠代氏から2億円を調達。建設・サービス業のDX支援も手がける。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ストレス可視化アプリ「ストレススキャン」「ANBAI」",
+          "since": "",
+          "note": "スマホカメラによる心拍変動解析技術を基にしたヘルスケアプロダクト",
+          "url": "https://anbai.team/"
+        },
+        {
+          "name": "データ分析・DX支援（建設業・サービス業など）",
+          "since": "2010-05",
+          "note": "創業時からのデータ活用事業",
+          "url": "https://www.dumsco.com/about-us"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役CEO・取締役CTO（公式サイトの役員紹介）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.dumsco.com/news_list",
+        "prtimes": ""
+      },
+      "sources": [
+        "https://www.dumsco.com/about-us",
+        "https://anbai.team/",
+        "https://anbai.team/news/357/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2130001068039",
@@ -70254,7 +71881,7 @@
       "femtech"
     ],
     "categoryLabel": "フェムテック",
-    "description": "京都大学発。妊娠期・産後の女性の体調・生活を記録・管理し、うつ病などの早期発見につなげるサービスを開発",
+    "description": "京都大学発。妊婦とパートナー向けの医師監修の体調管理アプリ「hug+u（はぐゆー）」を開発し、妊娠期の合併症やうつの早期発見を目指す",
     "prefecture": "京都府",
     "foundedYear": 2020,
     "address": "",
@@ -70271,9 +71898,38 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000007.000070686.html"
+      "https://prtimes.jp/main/html/rd/p/000000007.000070686.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2130001068039"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の吉川健太郎が2020年11月に京都大学発ベンチャーとして設立。妊娠高血圧や妊娠糖尿病などの合併症、うつ状態の予防・早期発見を目指し、体重・体温・血圧・血糖値・症状などを記録してパートナーや家族と共有できる、医師監修の妊婦向け体調管理アプリ「hug+u（はぐゆー）」を開発・提供。2021年2月にSOMPOひまわり生命のサービスと組み合わせた実証を始め、同年10月に京大創業ベンチャー投資事業有限責任組合などからシード資金を調達した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "妊婦特化型PHRアプリ「hug+u（はぐゆー）」",
+          "since": "2020-11",
+          "note": "設立時から周産期の体調管理サービスとして開発",
+          "url": "https://fami-leaf.com/about_hugu_ja"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 吉川健太郎。役員総数は未確認",
+        "asOf": "2021-10"
+      },
+      "newsroom": {
+        "site": "https://fami-leaf.com",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/70686"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000003.000070686.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000070686.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000070686.html",
+        "https://www.himawari-life.co.jp/-/media/himawari/files/company/news/2020/a-01-2021-02-15.pdf",
+        "https://fami-leaf.com/about_hugu_ja"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9010001092853",
@@ -70283,13 +71939,15 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "ヒトパピローマウイルス（HPV）感染症などに対する新しい抗ウイルス薬を開発",
+    "description": "京都大学 萩原正敏教授の研究を事業化。子宮頸がんの原因となるヒトパピローマウイルス（HPV）感染症などの新規抗ウイルス薬を開発",
     "prefecture": "東京都",
-    "foundedYear": null,
+    "foundedYear": 2005,
     "address": "",
     "employees": "",
     "founders": [],
-    "representatives": [],
+    "representatives": [
+      "黒石眞史"
+    ],
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [],
@@ -70298,19 +71956,48 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000087862.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000087862.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001092853"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "京都大学の萩原正敏教授の研究成果を事業化するため小野木博が2005年に創業。宿主のキナーゼを阻害する新しい作用機序で、子宮頸がんの原因となるHPV感染症などの抗ウイルス薬を開発し、2019年に京大病院で子宮頸部異形成の医師主導治験、2020年に韓国で第1/2相治験、2023年に尋常性疣贅の第2相試験を開始。2020年1月にあすか製薬と子宮頸部異形成治療薬の独占的オプション契約を締結した。代表取締役は黒石眞史。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "HPV感染症などの新規抗ウイルス薬の研究開発",
+          "since": "2005",
+          "note": "京都大学 萩原正敏教授の研究成果を事業化するため創業。AMED・JSTの公的資金で化合物を創出",
+          "url": "https://www.kinopharma.com/company/history.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 黒石眞史、創業者 小野木博、創業科学者 萩原正敏（役員一覧）。2018年1月に監査役会を設置。総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.kinopharma.com/"
+      },
+      "sources": [
+        "https://www.kinopharma.com/",
+        "https://www.kinopharma.com/company/officer.html",
+        "https://www.kinopharma.com/company/history.html",
+        "https://www.okasan.jp/news/osg/2021/211215_2.html",
+        "https://awagincapital.jp/news/detail-20241225.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000087862.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4020003012581",
     "name": "インスタリム株式会社",
-    "hp": "https://instalimb.com",
+    "hp": "https://www.instalimb.com/",
     "categories": [
       "medical-device"
     ],
     "categoryLabel": "医療機器",
-    "description": "3Dプリントと機械学習で低価格の義足を作り、フィリピンなど海外で製造販売する",
+    "description": "3DプリントとAIで低価格・短納期の義足を製造し、フィリピン・インドなどグローバルサウスと日本で義肢装具のデジタル製造を展開",
     "prefecture": "東京都",
     "foundedYear": 2017,
     "address": "東京都墨田区横川１丁目１６番３号",
@@ -70331,9 +72018,51 @@
       "https://prtimes.jp/main/html/searchrlp/company_id/35921",
       "https://prtimes.jp/main/html/rd/p/000000015.000035921.html",
       "https://prtimes.jp/main/html/rd/p/000000012.000035921.html",
-      "https://prtimes.jp/main/html/rd/p/000000011.000035921.html"
+      "https://prtimes.jp/main/html/rd/p/000000011.000035921.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4020003012581"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "徳島泰が2017年4月に合同会社として設立し、2018年に株式会社化。3DスキャンとAI設計、3Dプリントで安く短納期の義足を作り、2019年にフィリピンで発売、2021年に日本向け製品を発表。インド・フィリピンで製造・直販するクリニック事業と、設計・製造ソリューションを他社に提供するライセンス・FC事業を展開し、UNIDOのグローバルサウス事業にも採択。2025年3月までに累計21.3億円を調達し、2026年5月にアルケアと国内展開で基本合意した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "3Dプリント義足のクリニック事業（フィリピン・インド）",
+          "since": "2019",
+          "note": "2018年7月にフィリピンで実証を始め、2019年に発売",
+          "url": "https://www.instalimb.com/"
+        },
+        {
+          "name": "義肢装具の3D設計・製造ソリューションのライセンス・FC事業",
+          "since": "",
+          "note": "クリニック事業のノウハウを他の製造事業所に提供",
+          "url": "https://prtimes.jp/main/html/rd/p/000000015.000035921.html"
+        },
+        {
+          "name": "日本向け3Dプリント義足（Instalimb Type-L / Type-E）",
+          "since": "2021-02",
+          "note": "日本向け製品として発表し、2026年にアルケアと国内展開で基本合意",
+          "url": "https://www.instalimb.com/tether4japan"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 徳島泰。役員総数は未確認",
+        "asOf": "2026-05"
+      },
+      "newsroom": {
+        "site": "https://www.instalimb.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/35921"
+      },
+      "sources": [
+        "https://www.instalimb.com/",
+        "https://prtimes.jp/main/html/rd/p/000000011.000035921.html",
+        "https://prtimes.jp/main/html/rd/p/000000015.000035921.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000035921.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000035921.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000035921.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8010801030914",
@@ -70343,7 +72072,7 @@
       "mental-health"
     ],
     "categoryLabel": "メンタルヘルス",
-    "description": "イヤホン型・パッチ型の脳波計と解析サービスで、脳波を使ったヘルスケア・ウェルビーイング事業を展開",
+    "description": "富士ゼロックス発。イヤホン型・貼り付け式の脳波計「XHOLOS」と脳波解析で、リラックス度の可視化など脳情報の日常利用を支援",
     "prefecture": "東京都",
     "foundedYear": 2020,
     "address": "",
@@ -70360,9 +72089,50 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000086789.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000086789.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010801030914"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "富士ゼロックスで日常利用向けのBCIを研究していた馬場基文らが2020年5月に設立したブレインテック企業。耳で脳波を測るイヤホン型脳波計を中核としたプラットフォーム「XHOLOS」を2022年に発表し、脳波でリラックス度を可視化する事業者向けアプリ「α Relax Analyzer」（2023年）、貼り付け式脳波計（2023年〜）を展開、リラクゼーションサロンも開業した。横河電機・三井住友海上キャピタルなどから資金調達し、2024年に名古屋工業大学などとEar-EEGを共同研究。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "BCIプラットフォーム「XHOLOS」（イヤホン型・貼り付け式脳波計）",
+          "since": "2022-05",
+          "note": "富士ゼロックス時代からの研究を基に発表",
+          "url": "https://prtimes.jp/main/html/rd/p/000000007.000086789.html"
+        },
+        {
+          "name": "脳情報活用の事業者支援（Works with XHOLOS・α Relax Analyzer）",
+          "since": "2022-10",
+          "note": "企業の商品・サービス開発や販促での脳波活用を支援",
+          "url": "https://prtimes.jp/main/html/rd/p/000000012.000086789.html"
+        },
+        {
+          "name": "ブレインテック×リラクゼーションサロン「XHOLOS麻布広尾」",
+          "since": "2022-11",
+          "note": "直営サロンとして開業",
+          "url": "https://prtimes.jp/main/html/rd/p/000000011.000086789.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 馬場基文。役員総数は未確認",
+        "asOf": "2025-10"
+      },
+      "newsroom": {
+        "site": "https://www.cybernex.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/86789"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000002.000086789.html",
+        "https://prtimes.jp/main/html/rd/p/000000012.000086789.html",
+        "https://prtimes.jp/main/html/rd/p/000000026.000086789.html",
+        "https://prtimes.jp/main/html/rd/p/000000027.000086789.html",
+        "https://prtimes.jp/main/html/rd/p/000000025.000086789.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9010701038536",
@@ -70372,7 +72142,7 @@
       "femtech"
     ],
     "categoryLabel": "フェムテック",
-    "description": "更年期世代など大人の女性の健康課題に寄り添うフェムテック製品・セルフケアプラットフォームを展開",
+    "description": "更年期に特化したヘルスケア企業。女性医師へのオンライン相談、髪の毛で測るホルモン検査「MENOPO CHECK」、企業向け更年期支援を提供",
     "prefecture": "東京都",
     "foundedYear": 2019,
     "address": "",
@@ -70389,9 +72159,51 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000006.000059332.html"
+      "https://prtimes.jp/main/html/rd/p/000000006.000059332.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010701038536"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の二宮未摩子が2019年11月に設立した更年期特化のヘルスケア企業。2020年6月に女性医師に相談できる更年期のオンライン相談「TRULY」を始め、法人向け相談・セミナーへ拡大。2021年9月にサイバーエージェント・キャピタルなどから調達。2023年に髪の毛で測るホルモン検査「MENOPO CHECK」を発売し企業健診にも導入、2024年に更年期ケア商品の共創プラットフォーム「TRULY Select」、2026年に男性管理職向けプログラムを開始した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "更年期特化オンライン相談・情報メディア「TRULY」",
+          "since": "2020-06",
+          "note": "女性医師が悩みに応えるオンライン相談として開始し、同年10月に法人向けを追加",
+          "url": "https://truly-japan.com"
+        },
+        {
+          "name": "ホルモン検査サービス「MENOPO CHECK」",
+          "since": "2023-08",
+          "note": "男性版から発売し、2024年6月に女性版",
+          "url": "https://prtimes.jp/main/html/rd/p/000000021.000059332.html"
+        },
+        {
+          "name": "更年期ケアプラットフォーム「TRULY Select」「TRULY Insight」",
+          "since": "2024-08",
+          "note": "更年期ケア商品の提案・レビューと、企業との共創型サービス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000025.000059332.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 二宮未摩子。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://truly-japan.com",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/59332"
+      },
+      "sources": [
+        "https://www.truly-japan.co.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000059332.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000059332.html",
+        "https://prtimes.jp/main/html/rd/p/000000021.000059332.html",
+        "https://prtimes.jp/main/html/rd/p/000000034.000059332.html",
+        "https://prtimes.jp/main/html/rd/p/000000035.000059332.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3010001166431",
@@ -70402,7 +72214,7 @@
       "simple-inspection"
     ],
     "categoryLabel": "医療機器・簡易検査",
-    "description": "東大発。血糖の状態を測るグリコアルブミンの在宅・簡易測定など血糖モニタリング機器を開発",
+    "description": "東京大学発。1〜2週間の血糖変動を反映するグリコアルブミン（GA）の在宅測定とアプリで、糖尿病の発症・重症化予防を目指す",
     "prefecture": "東京都",
     "foundedYear": 2015,
     "address": "",
@@ -70419,25 +72231,62 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000083778.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000083778.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001166431"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "関水康伸が2015年3月に設立した東京大学発の医工連携スタートアップ。過去1〜2週間の血糖変動を反映するグリコアルブミン（GA）に着目し、在宅用の小型GA検査機器、郵送の週次GA測定サービス「glucoreview」、行動変容アプリを開発。2024年10月にNEDOの12億円とシスメックス・アイングループなどからの8.3億円で約20億円を調達し、シスメックスとPOCTを共同開発。2026年にタウンズと資本業務提携の基本合意、日本郵便などと唾液検査の地域実証を開始。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "グリコアルブミン（GA）在宅測定機器・バイオセンサの開発",
+          "since": "2015-03",
+          "note": "東京大学の医工連携研究を基に設立",
+          "url": "https://prtimes.jp/main/html/rd/p/000000008.000083778.html"
+        },
+        {
+          "name": "郵送検査による週次GA測定サービス「glucoreview」・行動変容支援アプリ",
+          "since": "2023",
+          "note": "機器の量産化に先立つパイロット事業として提供",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000083778.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 関水康伸。役員総数は未確認",
+        "asOf": "2026-07"
+      },
+      "newsroom": {
+        "site": "https://provigate.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/83778"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000008.000083778.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000083778.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000083778.html",
+        "https://prtimes.jp/main/html/rd/p/000000011.000083778.html",
+        "https://prtimes.jp/main/html/rd/p/000000013.000083778.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6290001071816",
     "name": "株式会社ガイアバイオメディシン",
-    "hp": "",
+    "hp": "https://gaia-biomed.com/",
     "categories": [
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "九州大学発。NK様細胞などヒト免疫細胞を使い、肺がんなどに対する新しいタイプの細胞治療薬を開発",
+    "description": "九州大学発。健常ドナー由来の他家NK様細胞「GAIA-102」を使い、腹膜播種や小児固形がんなど難治性がんの免疫細胞療法を開発",
     "prefecture": "福岡県",
     "foundedYear": 2015,
     "address": "",
     "employees": "",
     "founders": [],
-    "representatives": [],
+    "representatives": [
+      "倉森和幸"
+    ],
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [],
@@ -70448,9 +72297,43 @@
     "sources": [
       "https://www.jpubb.com/press/2875300/",
       "https://www.hisamitsu.co.jp/company/pdf/news_release_210921.pdf",
-      "https://prtimes.jp/main/html/rd/p/000000048.000051435.html"
+      "https://prtimes.jp/main/html/rd/p/000000048.000051435.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6290001071816"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "九州大学の米満吉和教授のNK細胞研究を基に2015年10月に福岡で設立。健常ドナーの血液から独自に培養した他家NK様細胞「GAIA-102」で、胃がん・膵がんの腹膜播種や小児固形がんを対象に治験を進め、学会で中間データを報告。2021年に久光製薬と提携し、三菱UFJキャピタルをリードとするシリーズBで13億円を調達、2025年にはリアルテックファンドなどから調達。2026年に九大病院内で自社の細胞培養加工施設の整備を始め、GAIA-102がWHOの国際一般名に登録された。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "他家NK様細胞「GAIA-102」によるがん免疫細胞療法の開発",
+          "since": "2015-10",
+          "note": "九州大学 米満吉和教授の研究成果を基に設立",
+          "url": "https://gaia-biomed.com/pipeline/"
+        },
+        {
+          "name": "自社細胞培養加工施設（CPC）",
+          "since": "2026-01",
+          "note": "商用生産体制の確立に向け整備を開始",
+          "url": "https://gaia-biomed.com/news/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長CEO 倉森和幸。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://gaia-biomed.com/news/"
+      },
+      "sources": [
+        "https://gaia-biomed.com/about-us/",
+        "https://gaia-biomed.com/news/",
+        "https://prtimes.jp/main/html/rd/p/000000035.000076057.html",
+        "https://untrod.inc/news/1995/",
+        "https://www.hisamitsu.co.jp/company/pdf/news_release_210921.pdf"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7010701028571",
@@ -70460,7 +72343,7 @@
       "mental-health"
     ],
     "categoryLabel": "メンタルヘルス",
-    "description": "悩みを抱える子ども・若者がSNSで気軽に相談できる相談システムを自治体などに提供",
+    "description": "自治体・学校向けに子ども・若者のSNS相談一元管理システム「つながる相談」や、子どものスマホ見守りアプリを提供",
     "prefecture": "東京都",
     "foundedYear": 2013,
     "address": "",
@@ -70478,23 +72361,62 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000006.000063884.html",
-      "https://kibow.jp/portfolio/z9g7beVX"
+      "https://kibow.jp/portfolio/z9g7beVX",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010701028571"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の西谷雅史が2013年に設立し、ITで子どもが安心して育つ社会を目指す企業。いじめや自殺念慮などに悩む子ども・若者がSNSで相談できるよう、自治体・学校向けにSNS相談一元管理システム「つながる相談」を提供し、京都大学の杉原保史教授が相談体制の顧問を務める。子どものスマホ利用を前提にネットいじめや犯罪被害を検知する見守りアプリ「Filii」、LINEの学校連絡システムも展開。2021年9月にKIBOW社会投資ファンドから5,000万円の出資を受けた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "SNS相談一元管理システム「つながる相談」",
+          "since": "",
+          "note": "行政・自治体向けの子ども・若者のSNS相談システムとして主力事業",
+          "url": "https://www.as-child.com/service/"
+        },
+        {
+          "name": "こどもセキュリティアプリ「Filii」",
+          "since": "",
+          "note": "ネットいじめ・犯罪被害を検知するスマホ向けアプリ",
+          "url": "https://www.as-child.com/service/"
+        },
+        {
+          "name": "LINE活用学校連絡システム「つながる連絡」",
+          "since": "",
+          "note": "学校と保護者の連絡をLINEで行うシステム",
+          "url": "https://www.as-child.com/service/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 西谷雅史。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.as-child.com/news-all/"
+      },
+      "sources": [
+        "https://www.as-child.com/",
+        "https://www.as-child.com/service/",
+        "https://prtimes.jp/main/html/rd/p/000000006.000063884.html",
+        "https://kibow.jp/portfolio/z9g7beVX"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6020001095131",
     "name": "株式会社PRISM BioLab",
-    "hp": "http://www.prismbiolab.com/",
+    "hp": "https://www.prismbiolab.com/",
     "categories": [
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "独自のペプチド模倣技術「PepMetics」で、がんや線維症などの難治性疾患向け創薬を進める",
+    "description": "ペプチドの立体構造を模した低分子を作る独自技術「PepMetics」で、創薬が難しい標的の医薬品を製薬企業と創出。東証グロース上場（206A）",
     "prefecture": "神奈川県",
     "foundedYear": 2006,
     "address": "神奈川県藤沢市村岡東２丁目２６番地の１",
-    "employees": "",
+    "employees": "40名",
     "founders": [],
     "representatives": [
       "竹原大"
@@ -70510,12 +72432,44 @@
       "https://prtimes.jp/main/html/searchrlp/company_id/56143",
       "https://prtimes.jp/main/html/rd/p/000000008.000056143.html",
       "https://www.nikkei.com/article/DGXZQOUC1667J0W4A110C2000000/",
-      "https://www.prismbiolab.com/news/"
+      "https://www.prismbiolab.com/news/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6020001095131",
+      "https://www.prismbiolab.com/about/"
     ],
     "updatedAt": "2026-10",
     "securitiesCode": "206A",
     "listedMarket": "東証グロース",
-    "industry33": "医薬品"
+    "industry33": "医薬品",
+    "overview": "2006年11月に設立された創薬ベンチャー。ペプチドの立体構造を模した低分子化合物を作る独自基盤「PepMetics」で、従来の低分子では狙いにくいタンパク質間相互作用などの標的に化合物を創出し、製薬企業へのライセンスや共同研究で収益化する。エーザイと共同創出したE7386は臨床試験が進み、イーライリリー（2023年）、小野薬品（2024年）などと提携。2024年7月2日に東証グロースへ上場（206A）。2025年9月期の売上高は6.8億円、営業損失7.7億円。",
+    "employeesAsOf": "2026-03",
+    "profile": {
+      "businesses": [
+        {
+          "name": "PepMetics技術による創薬（製薬企業へのライセンス・共同研究）",
+          "since": "2006-11",
+          "note": "ペプチド模倣低分子の合成技術を基盤に、2020年以降は欧米大手製薬へのライブラリー提供・提携を拡大",
+          "url": "https://www.prismbiolab.com/about/"
+        }
+      ],
+      "management": {
+        "count": 7,
+        "note": "取締役3名（代表取締役・常勤取締役・社外取締役）・監査役4名（いずれも社外）。会社概要による",
+        "asOf": "2026-03"
+      },
+      "newsroom": {
+        "site": "https://www.prismbiolab.com/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/56143",
+        "ir": "https://www.prismbiolab.com/ir/"
+      },
+      "sources": [
+        "https://www.prismbiolab.com/about/",
+        "https://prismbiolab.com/news/20240527_news/",
+        "https://contents.xj-storage.jp/xcontents/AS09340/214796ee/0463/4aaf/b519/5dc4ba03f62f/140120251114503736.pdf",
+        "https://prtimes.jp/main/html/rd/p/000000017.000056143.html",
+        "https://prtimes.jp/main/html/rd/p/000000016.000056143.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7012801023618",
@@ -70526,7 +72480,7 @@
       "medical-device"
     ],
     "categoryLabel": "フェムテック・医療機器",
-    "description": "卵管内を直接観察する単回使用の卵管鏡システムを開発し、不妊症の卵管因子の診断改善を目指すスタートアップ",
+    "description": "不妊症の卵管因子を外来で直接観察できる単回使用（使い捨て）の卵管鏡システムを研究開発する医療機器スタートアップ",
     "prefecture": "東京都",
     "foundedYear": 2024,
     "address": "東京都昭島市東町３丁目６番１号インキュベーションオフィス・ＴＡＭＡ３０６号室",
@@ -70543,9 +72497,36 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000183105.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000183105.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7012801023618"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表取締役CEOの齋藤大介が2024年12月に設立した女性の健康領域のライフサイエンス・スタートアップ（本社：東京都昭島市）。不妊症の主な原因の一つである卵管因子の検査は、子宮卵管造影検査（HSG）の実施施設が限られ卵管内を直接見られない課題があるため、外来で卵管内を直接観察できる使い捨ての卵管鏡システムを開発。2026年7月にAMEDの医工連携グローバル展開事業に採択され、BD Fund・インキュベイトファンドから資金を調達した。製品は未承認。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "単回使用卵管鏡システムの研究開発",
+          "since": "2024-12",
+          "note": "設立時からHSGの代替を目指す外来向け卵管鏡として開発",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000183105.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 齋藤大介、CMO 鈴木幸雄（岐阜大学医学部附属病院 産婦人科講師）。総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://infuselifescience.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/183105"
+      },
+      "sources": [
+        "https://infuselifescience.com/",
+        "https://prtimes.jp/main/html/rd/p/000000002.000183105.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000183105.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2370001048388",
@@ -70555,7 +72536,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "東北大学発。経口のアルツハイマー型認知症治療薬NTX-083を開発し、米国でPhase1b試験を予定する創薬ベンチャー",
+    "description": "東北大学発。既存薬の作用機序研究から見出した化合物で、アルツハイマー型認知症の治療薬候補「NTX-083」を開発",
     "prefecture": "東京都",
     "foundedYear": 2022,
     "address": "東京都中央区日本橋本町３丁目１１番５号",
@@ -70574,9 +72555,37 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000009.000138577.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000138577.html",
-      "https://prtimes.jp/main/html/rd/p/000000056.000018580.html"
+      "https://prtimes.jp/main/html/rd/p/000000056.000018580.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2370001048388"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2022年4月にADareとして設立し、同年9月に現社名へ変更した東北大学発の創薬スタートアップ。既存薬の作用機序研究から見出した化合物でアルツハイマー型認知症の治療薬候補「NTX-083」を開発し、2025年に東大病院で健康成人への単回・反復投与試験を行い高い安全性を確認。2024年3月にシードで約13.3億円、2025年1月にシリーズAで22.5億円（補助金含む）、2026年6月にシリーズBで約53.2億円を調達し、米国で患者対象の試験を予定。代表は有本達。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "アルツハイマー型認知症治療薬候補「NTX-083」の開発",
+          "since": "2022-04",
+          "note": "東北大学のシーズを事業化するため設立",
+          "url": "https://prtimes.jp/main/html/rd/p/000000009.000138577.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 有本達（2026年6月時点）。2024年3月時点の代表は吉田欣史。総数は未確認",
+        "asOf": "2026-06"
+      },
+      "newsroom": {
+        "site": "https://neusignal-tx.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/138577"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000009.000138577.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000138577.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000138577.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000138577.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1010401172139",
@@ -70587,7 +72596,7 @@
       "medical-image"
     ],
     "categoryLabel": "手術支援・医療画像",
-    "description": "手術動画をAIで解析する手術支援システムを開発し、外科領域のフィジカルAIに取り組むスタートアップ",
+    "description": "手術映像をAIで解析し重要な神経などをリアルタイムに示す手術支援AIを開発。「キノスラ」が2025年12月に薬事承認",
     "prefecture": "東京都",
     "foundedYear": 2023,
     "address": "東京都千代田区麹町３丁目５番地２ビュレックス麹町",
@@ -70604,20 +72613,55 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000006.000161347.html"
+      "https://prtimes.jp/main/html/rd/p/000000006.000161347.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401172139"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の竹内優志が2023年1月に設立した手術支援AIのスタートアップ。外科医が術中に重要な解剖構造をリアルタイムで認識できるよう支援するAIを開発し、ロボット支援食道がん手術で反回神経を検出・強調表示するプログラム医療機器「キノスラ」が2025年12月に製造販売承認を取得。NEDO・経産省の「GENIAC」に採択され、2026年3月に手術状況を理解し対話する外科特化型生成AIを開発。ニッセイ・キャピタル、SBIインベストメント、スパークスなどから資金を調達。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "手術映像認識AI（プログラム医療機器）「キノスラ」",
+          "since": "2025-12",
+          "note": "AI手術ナビゲーションの開発から、食道がんのロボット手術向けに薬事承認を取得",
+          "url": "https://prtimes.jp/main/html/rd/p/000000004.000161347.html"
+        },
+        {
+          "name": "外科特化型生成AI（Surgical VLM）・フィジカルAI",
+          "since": "2026-03",
+          "note": "GENIACでの開発成果として発表し事業化へ",
+          "url": "https://prtimes.jp/main/html/rd/p/000000005.000161347.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 竹内優志。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://direava.com",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/161347"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000001.000161347.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000161347.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000161347.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000161347.html",
+        "https://prtimes.jp/main/html/rd/p/000000011.000161347.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5010001117069",
     "name": "株式会社オーガンテック",
-    "hp": "http://www.organ-tech.jp",
+    "hp": "https://www.organ-tech.jp",
     "categories": [
       "pharma",
       "dental"
     ],
     "categoryLabel": "製薬・創薬・歯科領域",
-    "description": "歯や毛包などの器官再生技術の社会実装を目指す再生医療ベンチャー。次世代バイオインプラントを開発",
+    "description": "器官再生技術を基に、歯根膜を備えた次世代インプラント「Bio-hybrid Tooth」と毛髪再生（毛包由来の「第3の細胞」）を開発",
     "prefecture": "東京都",
     "foundedYear": 2008,
     "address": "東京都中央区晴海２丁目５番２４号晴海センタービル６階",
@@ -70635,9 +72679,50 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000018.000116188.html"
+      "https://prtimes.jp/main/html/rd/p/000000018.000116188.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001117069"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2008年にオーガンテクノロジーズとして設立され、器官を再生する「器官再生技術」の実用化を目指してきた企業。2023年1月に現社名へ変更して新体制で事業を再開し、小林製薬をリードに資金調達、毛髪再生と歯の再生をコア事業に据えた。歯根膜を持つ次世代インプラント「Bio-hybrid Tooth」は2025年に臨床研究を始め、米国でのFDA申請に向けて提携。毛包由来の「第3の細胞」の成分をライセンスし、三次元人工皮膚モデルも2026年に製品化された。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "次世代バイオインプラント「Bio-hybrid Tooth」",
+          "since": "2023-01",
+          "note": "事業再開時に歯の再生をコア事業に設定し、2025年8月に臨床研究を開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000012.000116188.html"
+        },
+        {
+          "name": "毛髪再生（第3の細胞・細胞由来成分）",
+          "since": "2023-01",
+          "note": "毛髪再生医療をコア事業に設定。2026年に細胞由来成分の製造権を国内でライセンス",
+          "url": "https://prtimes.jp/main/html/rd/p/000000017.000116188.html"
+        },
+        {
+          "name": "三次元人工皮膚による研究開発支援",
+          "since": "2025-08",
+          "note": "コージンバイオへのライセンスで製品化",
+          "url": "https://prtimes.jp/main/html/rd/p/000000019.000116188.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 下義生（2025年以降のPR TIMES）。2023年2月時点の代表は小川美帆・近藤嵩。総数は未確認",
+        "asOf": "2026-09"
+      },
+      "newsroom": {
+        "site": "https://www.organ-tech.jp",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/116188"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000001.000116188.html",
+        "https://prtimes.jp/main/html/rd/p/000000018.000116188.html",
+        "https://prtimes.jp/main/html/rd/p/000000013.000116188.html",
+        "https://prtimes.jp/main/html/rd/p/000000019.000116188.html",
+        "https://prtimes.jp/main/html/rd/p/000000017.000116188.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7050001050289",
@@ -70647,7 +72732,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "筑波大学発。脳と臓器を護る高分子医薬を開発し、虚血性脳卒中向け神経保護薬CTB211の臨床入りを目指す",
+    "description": "筑波大学発。ラジカルを捕捉するレドックスナノ粒子「CTB211」で、虚血性脳卒中などの脳と臓器を護る高分子医薬を開発",
     "prefecture": "茨城県",
     "foundedYear": 2021,
     "address": "茨城県つくば市吾妻２丁目５番地１",
@@ -70666,19 +72751,47 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000182492.html",
       "https://crestecbio.com/topic/wp-content/uploads/2025/12/CrestecBio20251209.pdf",
-      "https://prtimes.jp/main/html/rd/p/000000004.000110083.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000110083.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7050001050289"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "筑波大学で研究された高分子医薬を医薬品化するため、2021年12月につくば市で創業した筑波大学発の創薬ベンチャー。代表取締役CEOは脳神経外科医の丸島愛樹。ラジカル捕捉剤TEMPOを高分子に結合させた粒径20〜30nmのレドックスナノ粒子「CTB211」は血中に長くとどまり神経保護効果を示すことから、血栓回収療法と組み合わせる虚血性脳卒中の治療薬などとして開発。2026年6月にリアルテックファンド、科学技術振興機構などからシードで合計2.5億円を調達した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "レドックスナノ粒子「CTB211」の創薬",
+          "since": "2021-12",
+          "note": "筑波大学のレドックスナノ粒子研究を医薬品化するため創業",
+          "url": "https://crestecbio.com/"
+        }
+      ],
+      "management": {
+        "count": 3,
+        "note": "代表取締役CEO 丸島愛樹、取締役 本田哲郎・小林克利（2026年6月のPR TIMES）",
+        "asOf": "2026-06"
+      },
+      "newsroom": {
+        "site": "https://crestecbio.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/182492"
+      },
+      "sources": [
+        "https://crestecbio.com/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000182492.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000110083.html",
+        "https://crestecbio.com/topic/wp-content/uploads/2025/12/CrestecBio20251209.pdf"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3021001061571",
     "name": "株式会社スコヒアファーマ",
-    "hp": "http://www.scohia.com",
+    "hp": "https://www.scohia.com/",
     "categories": [
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "武田薬品からスピンアウトした、内分泌・循環器・腎・代謝領域に特化する創薬ベンチャー",
+    "description": "武田薬品からカーブアウトした創薬ベンチャー。内分泌・循環器・腎・代謝領域の新薬を創出し、希少疾患と肥満症を重点に導出",
     "prefecture": "神奈川県",
     "foundedYear": 2017,
     "address": "神奈川県藤沢市村岡東２丁目２６番地の１",
@@ -70695,9 +72808,39 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000008.000080719.html"
+      "https://prtimes.jp/main/html/rd/p/000000008.000080719.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3021001061571"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2017年に武田薬品工業から内分泌・循環器・腎・代謝領域の研究チームと化合物をカーブアウトして設立された創薬ベンチャー（神奈川県藤沢市）。代表は渡部正教。自社創出の化合物を製薬企業へ導出するモデルで、GLP-1/GIP受容体デュアルアゴニストSCO-094を中国Huadong Medicineへ、SCO-116の眼・皮膚領域を米Kuria Therapeuticsへ導出。2026年4月にMC2R拮抗薬SCO-483を米Neurocrine Biosciencesへ全世界ライセンスし、同年5月に30億円を調達した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "内分泌・循環器・腎・代謝領域の創薬と導出（SCO-094・SCO-483・SCO-116ほか）",
+          "since": "2017",
+          "note": "武田薬品工業からのカーブアウトで研究者チームとパイプラインを継承",
+          "url": "https://www.scohia.com/sys/pipeline/"
+        }
+      ],
+      "management": {
+        "count": 8,
+        "note": "取締役5名（代表取締役社長CEO兼CSO・取締役COO・社外取締役3名）・監査役3名（社外）。役員紹介ページによる",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.scohia.com/sys/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/80719"
+      },
+      "sources": [
+        "https://www.scohia.com/corp/executive/",
+        "https://prtimes.jp/main/html/rd/p/000000008.000080719.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000080719.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000080719.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000080719.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000080719.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2010001264104",
@@ -70707,7 +72850,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "独自の抗体薬物複合体（ADC）創薬プラットフォームの研究開発とライセンス事業を行う創薬スタートアップ",
+    "description": "腫瘍間質の不溶性フィブリンを狙う抗体と独自の「VLKリンカー」を組み合わせたADC（抗体薬物複合体）で難治性固形がんの治療薬を開発",
     "prefecture": "東京都",
     "foundedYear": 2026,
     "address": "東京都中央区築地１丁目１３番１０号サクセス銀座東ビル２Ｆ",
@@ -70724,9 +72867,35 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000003.000183200.html"
+      "https://prtimes.jp/main/html/rd/p/000000003.000183200.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010001264104"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "株式会社凜研究所から独自技術を承継して2026年3月に設立されたADC（抗体薬物複合体）創薬ベンチャー。代表は藤原正明。腫瘍の間質に存在する不溶性フィブリンを標的とする抗体と、独自開発のVLKリンカーを組み合わせる「CAST（Cancer Stromal Targeting）療法」で、既存のADCでは難しかった薬剤送達による難治性固形がんの治療を目指す。2026年5月にUntroD Capital Japanのリアルテックファンド4号からJ-KISS型新株予約権で資金を調達し、非臨床開発を進める。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "CAST療法（抗不溶性フィブリン抗体×VLKリンカーのADC）の研究開発",
+          "since": "2026-03",
+          "note": "凜研究所から技術を承継して設立",
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000183200.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 藤原正明。役員総数は未確認",
+        "asOf": "2026-05"
+      },
+      "newsroom": {
+        "site": "",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/183200"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000003.000183200.html",
+        "https://prtimes.jp/main/html/rd/p/000000173.000036405.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4010001208868",
@@ -70736,7 +72905,7 @@
       "medical-device"
     ],
     "categoryLabel": "医療機器",
-    "description": "東北大学の研究を基に低出力パルス波超音波による認知症治療機器「LIPUS-Brain」を開発",
+    "description": "東北大学発。低出力パルス波超音波（LIPUS）で早期アルツハイマー病を治療する「LIPUS-Brain」と衝撃波カテーテルを開発",
     "prefecture": "東京都",
     "foundedYear": 2020,
     "address": "東京都千代田区大手町１丁目６番１号",
@@ -70754,9 +72923,44 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000010.000118851.html",
-      "https://prtimes.jp/main/html/rd/p/000000002.000118851.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000118851.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010001208868"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "東北大学名誉教授（循環器内科）の下川宏明の研究を基に2020年4月に設立された医療機器ベンチャー。低出力パルス波超音波（LIPUS）による低侵襲治療を開発し、経頭蓋治療装置「LIPUS-Brain」は医師主導治験で安全性と有効性の示唆が得られ、2022年に厚労省の「先駆的医療機器」第1号に指定。2023年10月に早期アルツハイマー病の検証的治験を始め、2024年に目標症例の登録を達成。2025年に住友重機械工業と資本業務提携し、2026年5月にシリーズCで約26.5億円を調達。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "経頭蓋低出力パルス波超音波治療装置「LIPUS-Brain」",
+          "since": "2020-04",
+          "note": "下川宏明の東北大学での研究成果を基に設立。2022年に先駆的医療機器指定",
+          "url": "https://sw-innovation.com/"
+        },
+        {
+          "name": "衝撃波カテーテルアブレーションシステム（SWCS）",
+          "since": "",
+          "note": "不整脈などを対象とする低侵襲治療プラットフォーム",
+          "url": "https://sw-innovation.com/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 下川宏明（2026年5月時点）。2025年3月に経営体制を刷新。総数は未確認",
+        "asOf": "2026-05"
+      },
+      "newsroom": {
+        "site": "https://sw-innovation.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/118851"
+      },
+      "sources": [
+        "https://sw-innovation.com/",
+        "https://prtimes.jp/main/html/rd/p/000000010.000118851.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000118851.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000118851.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000118851.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1120001250052",
@@ -70767,7 +72971,7 @@
       "direct-to-consumer"
     ],
     "categoryLabel": "DMP・D2C",
-    "description": "大阪大学発。がん・難治てんかん等の食事療法であるケトン食の研究成果を食品・情報提供で社会実装",
+    "description": "大阪大学発。がんケトン食療法の臨床研究を基に、ケトン食フリーズドライ商品やケトンドリンク、レジリエンス評価を提供",
     "prefecture": "大阪府",
     "foundedYear": 2022,
     "address": "大阪府大阪市北区大深町６番３８号ＪＡＭ－ＳＴＵＤＩＯ９１１",
@@ -70784,9 +72988,44 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000006.000176815.html"
+      "https://prtimes.jp/main/html/rd/p/000000006.000176815.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1120001250052"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "大阪大学で2013年から「がんケトン食療法」の臨床研究を進め、日米シンガポールで特許を持つ医師の萩原圭祐が、研究成果を社会実装するため2022年11月に設立した大阪大学発ベンチャー。人の回復力（レジリエンス）を高めるヘルスケアを掲げ、レジリエンス評価システム「レジ活」を開発。2026年2月にコスモス食品と共同開発したケトン食のフリーズドライ商品を発売し、同年5月に一般販売へ拡大。持ち運べる「ケトンドリンク」の供給体制づくりへクラウドファンディングも実施した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ケトン食商品（フリーズドライ・ケトンドリンク）",
+          "since": "2026-02",
+          "note": "コスモス食品と共同開発したフリーズドライを患者向けに発売し、同年5月に一般販売へ拡大",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000176815.html"
+        },
+        {
+          "name": "レジリエンス評価システム「レジ活」",
+          "since": "",
+          "note": "代表の研究成果として開発",
+          "url": "https://healthcreate.co.jp/about/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役（医師）萩原圭祐。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://healthcreate.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/176815"
+      },
+      "sources": [
+        "https://healthcreate.co.jp/about/",
+        "https://healthcreate.co.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000176815.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000176815.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000176815.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5010001246066",
@@ -70797,7 +73036,7 @@
       "medical-materials"
     ],
     "categoryLabel": "製薬・創薬・医療資材・SPD",
-    "description": "がん治療等に使う医療用ラジオアイソトープを製造するための小型超伝導電子加速器「RiSA」を開発",
+    "description": "医療用ラジオアイソトープ製造専用の小型超伝導電子加速器「RiSA」を開発し、がん治療薬原料アクチニウム225（Ac-225）の供給を目指す",
     "prefecture": "茨城県",
     "foundedYear": 2024,
     "address": "茨城県土浦市虫掛３７０６－１",
@@ -70816,9 +73055,44 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000013.000154244.html",
       "https://prtimes.jp/main/html/rd/p/000000009.000154244.html",
-      "https://prtimes.jp/main/html/rd/p/000000003.000154244.html"
+      "https://prtimes.jp/main/html/rd/p/000000003.000154244.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001246066"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2024年6月に設立された茨城県土浦市の加速器スタートアップ。がんの核医学治療に使う放射性医薬品の原料アクチニウム225（Ac-225）を製造するため、医療用RI製造専用の小型超伝導電子加速器「RiSA」を開発。2025年に2億円とUTECから7.2億円、2026年5月にファストトラックイニシアティブ・アトックスなどから12億円を調達。2026年4月に純度99.99%超のAc-225の抽出に成功してサンプル販売の予約を始め、米国子会社の設立、福島県浪江町での供給拠点構築を発表。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "医療用RI製造専用超伝導加速器「RiSA」の開発",
+          "since": "2024-06",
+          "note": "設立時から開発。2026年内にAc-225の実証製造試験を予定",
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000154244.html"
+        },
+        {
+          "name": "アクチニウム225（Ac-225）の製造・供給",
+          "since": "2026-05",
+          "note": "高純度抽出の成功を受けサンプル販売の予約を開始し、浪江町に供給拠点を構築",
+          "url": "https://prtimes.jp/main/html/rd/p/000000015.000154244.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 山下了。2026年9月に役員2名が新たに就任。総数は未確認",
+        "asOf": "2026-09"
+      },
+      "newsroom": {
+        "site": "https://novaccel.jp",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/154244"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000003.000154244.html",
+        "https://prtimes.jp/main/html/rd/p/000000009.000154244.html",
+        "https://prtimes.jp/main/html/rd/p/000000013.000154244.html",
+        "https://prtimes.jp/main/html/rd/p/000000011.000154244.html",
+        "https://prtimes.jp/main/html/rd/p/000000019.000154244.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7180001155050",
@@ -70828,7 +73102,7 @@
       "medical-device"
     ],
     "categoryLabel": "医療機器",
-    "description": "名古屋大学発。血管内から光を照射するデバイスで、がん・神経疾患など難治性疾患の光治療を開発",
+    "description": "血管内から体の深部臓器に光を照射するカテーテル型光治療システム「ET-BLIT」を開発し、光免疫療法などの適応拡大を目指す",
     "prefecture": "愛知県",
     "foundedYear": 2023,
     "address": "愛知県尾張旭市北原山町六田池２１４０番地９",
@@ -70849,9 +73123,38 @@
       "https://prtimes.jp/main/html/rd/p/000000020.000131096.html",
       "https://prtimes.jp/main/html/rd/p/000000016.000131096.html",
       "https://prtimes.jp/main/html/rd/p/000000124.000036405.html",
-      "https://prtimes.jp/main/html/rd/p/000000001.000131096.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000131096.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7180001155050"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表取締役CEOの塚本俊彦が2023年2月に名古屋で設立した医療機器スタートアップ。光線力学療法や光免疫療法は体表や内視鏡が届く範囲に限られるため、血管内にカテーテルを通して脳・膵臓など体の深部から光を照射するシステム「ET-BLIT」を開発。UntroD Capital Japanをリードとし、SMBCベンチャーキャピタルなどが参加したシリーズAで融資を含め総額5.5億円を調達。日亜化学工業、関西医科大学・筑波大学、太平洋工業と提携し治験入りを目指す。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "血管内光照射システム「ET-BLIT」の開発",
+          "since": "2023-02",
+          "note": "設立時から体深部への光照射デバイスとして開発",
+          "url": "https://prtimes.jp/main/html/rd/p/000000024.000131096.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 塚本俊彦。2024年12月に社外監査役が就任し監査役会設置会社へ移行。総数は未確認",
+        "asOf": "2026-08"
+      },
+      "newsroom": {
+        "site": "https://illumimedical.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/131096"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000022.000131096.html",
+        "https://prtimes.jp/main/html/rd/p/000000016.000131096.html",
+        "https://prtimes.jp/main/html/rd/p/000000019.000131096.html",
+        "https://prtimes.jp/main/html/rd/p/000000024.000131096.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000131096.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9480001012161",
@@ -70862,7 +73165,7 @@
       "medical-materials"
     ],
     "categoryLabel": "歯科領域・医療資材・SPD",
-    "description": "徳島大学発。歯を削らない未来歯科治療に向けた歯科用材料・技術を開発するスタートアップ",
+    "description": "徳島大学発。健康な歯を削らずに短時間で詰め物を形成するコンポジットレジン（CR）インデックスシステム「Amidex」を歯科医院に提供",
     "prefecture": "徳島県",
     "foundedYear": 2023,
     "address": "徳島県徳島市蔵本元町１丁目２２",
@@ -70880,9 +73183,37 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://amidex.co.jp/2026/04/22/",
-      "https://prtimes.jp/main/html/rd/p/000000001.000147339.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000147339.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9480001012161"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表取締役CEOの伊原晃が2023年8月に徳島で設立した徳島大学発スタートアップ。歯質をできる限り残すMI（Minimal Intervention）の考え方に基づき、健康な歯を削らずにコンポジットレジン修復を短時間・高品質で行えるCRインデックスシステム「Amidex」を開発し、導入歯科医院は全国250院を突破（2025年8月）。2024年8月にAIAC産学連携キャピタルからシードで調達し、2026年4月に歯科関連の事業会社などからプレシリーズAで1.2億円を調達、累計約1.7億円。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "CRインデックスシステム「Amidex」",
+          "since": "2023-08",
+          "note": "創業時から「歯を削らない治療」の普及を掲げ、歯科医院に導入",
+          "url": "https://prtimes.jp/main/html/rd/p/000000006.000147339.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 伊原晃。役員総数は未確認",
+        "asOf": "2026-04"
+      },
+      "newsroom": {
+        "site": "https://amidex.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/147339"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000008.000147339.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000147339.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000147339.html",
+        "https://amidex.co.jp/2026/04/22/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "7012401041185",
@@ -70893,7 +73224,7 @@
       "simple-inspection"
     ],
     "categoryLabel": "医療機器・簡易検査",
-    "description": "東京農工大学発。超音波と電磁気を用いる計測法（ASEM法）で骨粗しょう症などの非侵襲検査機器を開発",
+    "description": "東京農工大学発。超音波で組織の電気・磁気信号を可視化する「ASEM法」で、骨や腱の質を非侵襲に評価する画像診断機器を開発",
     "prefecture": "東京都",
     "foundedYear": 2023,
     "address": "東京都小金井市中町２丁目２４番１６号",
@@ -70914,9 +73245,38 @@
       "https://www.nikkei.com/article/DGXZQOUC292PB0Z20C25A5000000/",
       "https://asem-tech.com/wp-content/uploads/2026/04/ASEMtech%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9_20260402_1.pdf",
       "https://prtimes.jp/main/html/rd/p/000000005.000136583.html",
-      "https://prtimes.jp/main/html/rd/p/000000002.000136583.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000136583.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7012401041185"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "東京農工大学の生嶋健司（代表取締役CEO）らが開発した、超音波を当てて組織に生じる電気分極を電磁信号として捉える音響誘起電磁法（ASEM法）の実用化を目指し、2023年11月に設立。骨や腱の線維の向きなど組織の質を非侵襲で画像化する診断機器を開発し、2026年10月に骨粗鬆症に伴う骨の質的変化を捉えた研究成果を発表。2023年12月にシードで1億円、2025〜26年にみらい創造インベストメンツなどからシリーズA計4億円を調達し、2025年に医療機器製造販売業許可を取得。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ASEM法による超音波画像診断機器の開発",
+          "since": "2023-11",
+          "note": "東京農工大学の研究成果を基に設立。2025年7月に第二種医療機器製造販売業許可",
+          "url": "https://prtimes.jp/main/html/rd/p/000000005.000136583.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 生嶋健司・新実信夫（2025年6月時点）。総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://asem-tech.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/136583"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000002.000136583.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000136583.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000136583.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000136583.html",
+        "https://asem-tech.com/wp-content/uploads/2026/04/ASEMtech%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9_20260402_1.pdf"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "3010001255993",
@@ -70926,7 +73286,7 @@
       "nursing"
     ],
     "categoryLabel": "介護",
-    "description": "生成AIを搭載したぬいぐるみ型の認知症ケアAIパートナー「AOGUこころ」を開発・販売",
+    "description": "生成AIで認知症の本人と会話するぬいぐるみ型AIパートナー「AOGU CoCo（AOGUこころ）」を開発",
     "prefecture": "東京都",
     "foundedYear": 2025,
     "address": "東京都中央区新川１丁目６番１２号ＡＩビル茅場町５Ｆ",
@@ -70943,9 +73303,37 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000004.000166793.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000166793.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001255993"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の坂田惟之が2025年6月に設立したエイジテックのスタートアップ。生成AIを使い、認知症の本人の人生や好きな話題を覚えて毎日会話し、穏やかな時間を増やすぬいぐるみ型AIパートナー「AOGUこころ（ここちゃん）」を開発。2025年12月に東京都のASACに採択され、2026年3月にシリコンバレーのCoreline Venturesからシードで5,500万円を調達。同年6月に渋谷区で実証を始め、7月に「AOGU CoCo」として限定50台の先行予約販売を開始した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ぬいぐるみ型認知症ケアAIパートナー「AOGU CoCo（AOGUこころ）」",
+          "since": "2025-06",
+          "note": "設立時から開発し、2026年6月に渋谷区で実証、7月に先行予約販売を開始",
+          "url": "https://service.aogu-care.com/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 坂田惟之。役員総数は未確認",
+        "asOf": "2026-09"
+      },
+      "newsroom": {
+        "site": "https://corp.aogu-care.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/166793"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000004.000166793.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000166793.html",
+        "https://prtimes.jp/main/html/rd/p/000000007.000166793.html",
+        "https://prtimes.jp/main/html/rd/p/000000008.000166793.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6010501031280",
@@ -70956,11 +73344,11 @@
       "medical-management-support"
     ],
     "categoryLabel": "介護・医療経営支援",
-    "description": "介護・福祉事業者向けにICT導入・運用の伴走支援、ヘルプデスク、コンサルティングを提供",
+    "description": "介護・福祉事業所向けにICT導入・運用を伴走支援するサブスク型ヘルプデスク・コンサルティング「ほむさぽ」を提供",
     "prefecture": "東京都",
     "foundedYear": 2010,
     "address": "東京都台東区浅草橋４丁目１０番８号",
-    "employees": "",
+    "employees": "36名",
     "founders": [],
     "representatives": [
       "竹下康平"
@@ -70974,9 +73362,46 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000024.000123793.html",
-      "https://prtimes.jp/main/html/rd/p/000000001.000123793.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000123793.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010501031280",
+      "https://www.bibrid.co.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の竹下康平が2010年7月に東京・浅草で設立。同年11月に介護・福祉事業所向けのヘルプデスクとICTコンサルティングをサブスクで提供する「ほむさぽ」を始め、機器・ソフトの導入から運用、トラブル対応まで伴走し、利用は約800事業所。2015年からケアテック企業向けの助言・戦略立案「TECHサポ」も展開。2023年6月に事業会社中心に9,500万円を初調達し、2026年3月にプラス・エレコムなどを引受先とするエクステンションラウンドを完了。従業員36名（2026年6月）。",
+    "employeesAsOf": "2026-06",
+    "profile": {
+      "businesses": [
+        {
+          "name": "介護・福祉事業所向けICT伴走支援「ほむさぽ」",
+          "since": "2010-11",
+          "note": "設立直後にヘルプデスク・ICTコンサルティングとして開始",
+          "url": "https://www.bibrid.co.jp/service/"
+        },
+        {
+          "name": "ケアテック企業向けコンサルティング「TECHサポ」",
+          "since": "2015-08",
+          "note": "介護業界向けソリューションの助言・戦略立案",
+          "url": "https://www.bibrid.co.jp/service/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 竹下康平。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.bibrid.co.jp/news/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/123793"
+      },
+      "sources": [
+        "https://www.bibrid.co.jp/company/",
+        "https://www.bibrid.co.jp/service/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000123793.html",
+        "https://prtimes.jp/main/html/rd/p/000000020.000123793.html",
+        "https://prtimes.jp/main/html/rd/p/000000024.000123793.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5130001080684",
@@ -70987,7 +73412,7 @@
       "medical-dx"
     ],
     "categoryLabel": "D2C・医療機関DX",
-    "description": "近畿大学発。皮膚科医が監修するAIで美容医療を安心して選べるアプリと医師教育プラットフォームを開発",
+    "description": "近畿大学皮膚科主任教授が創業。AIと専門医の知見で美容医療クリニック・施術を透明に評価するプラットフォーム「美肌コネクト」を開発",
     "prefecture": "京都府",
     "foundedYear": 2025,
     "address": "京都府京都市左京区松ケ崎西桜木町３１番地",
@@ -71004,9 +73429,37 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000005.000171593.html"
+      "https://prtimes.jp/main/html/rd/p/000000005.000171593.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5130001080684"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "近畿大学医学部皮膚科学教室主任教授の大塚篤司が代表を務め、2025年10月に設立（同年12月に近畿大学発ベンチャーに登録）。経験の浅い医師による事故や誇大広告など美容医療をめぐるトラブルが増える中、広告や価格ではなく技術と誠実さで医療機関を選べるよう、AIと皮膚科専門医の知見を組み合わせた美容医療の透明評価プラットフォーム「美肌コネクト」を開発。2026年1〜3月にクラウドファンディングで目標の500万円を達成し、医師向け教育プラットフォームにも取り組む。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "美容医療の透明評価プラットフォーム「美肌コネクト」の開発",
+          "since": "2025-10",
+          "note": "設立時から開発し、2026年にクラウドファンディングで開発資金を調達",
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000171593.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 大塚篤司。役員総数は未確認",
+        "asOf": "2026-03"
+      },
+      "newsroom": {
+        "site": "",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/171593"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000001.000171593.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000171593.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000171593.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000171593.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4010001221631",
@@ -71016,7 +73469,7 @@
       "medical-device"
     ],
     "categoryLabel": "医療機器",
-    "description": "独自のデジタル技術で設計する脳血管内治療用デバイス（ステント等）と抗血栓性コーティングを開発",
+    "description": "独自のナノコーティングとハイブリッド構造ステント、AI・シミュレーション基盤で脳血管内治療用の医療機器を開発",
     "prefecture": "東京都",
     "foundedYear": 2021,
     "address": "東京都中央区日本橋本町３丁目７番２号",
@@ -71036,9 +73489,44 @@
       "https://prtimes.jp/main/html/rd/p/000000089.000014426.html",
       "https://prtimes.jp/main/html/rd/p/000000401.000076057.html",
       "https://kepple.co.jp/articles/0dzrs9oxty",
-      "https://nbmed-inc.com/news/"
+      "https://nbmed-inc.com/news/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010001221631"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表取締役社長の正林和也が2021年10月に設立した脳血管疾患向け医療機器スタートアップ。独自のナノコーティング技術とハイブリッド構造のステント設計技術を持ち、規制要件を前提にした計算シミュレーションとAIによるデジタルツインを実機開発と連動させる独自の開発モデルで、脳血管内治療デバイスを開発。2026年3月にシリーズB 2ndクローズでAIST Solutions・ANRI・ジャフコなどから8.5億円を調達し、NEDO助成金を含むシリーズB累計33.5億円。ヨコオも2億円の出資を決めた。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "脳血管内治療用デバイス（ナノコーティング・ハイブリッド構造ステント）の開発",
+          "since": "2021-10",
+          "note": "設立時から独自のステント設計とコーティング技術で開発",
+          "url": "https://nbmed-inc.com/"
+        },
+        {
+          "name": "規制統合型CMS・AIデジタルツインによる医療機器開発基盤",
+          "since": "",
+          "note": "自社開発の有限要素ソルバーで設計・薬事文書作成と実機試験を連動",
+          "url": "https://nbmed-inc.com/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 正林和也。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://nbmed-inc.com/news/",
+        "prtimes": ""
+      },
+      "sources": [
+        "https://nbmed-inc.com/",
+        "https://nbmed-inc.com/news/20260305/",
+        "https://prtimes.jp/main/html/rd/p/000000401.000076057.html",
+        "https://prtimes.jp/main/html/rd/p/000000089.000014426.html",
+        "https://www.aist-solutions.co.jp/news/release20260305-01/"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5010601056245",
@@ -71049,7 +73537,7 @@
       "medical-dx"
     ],
     "categoryLabel": "人材・医療機関DX",
-    "description": "医療従事者向けの教育コンテンツ・研修にAIを活用する医療教育サービスを提供",
+    "description": "歯学部を中心に、AIで試験問題を自動生成する「EQIO EDUCATE」と学習者ごとに最適化する学習アプリ「EQIO STUDY」を提供する医療教育DX企業",
     "prefecture": "東京都",
     "foundedYear": 2019,
     "address": "東京都港区赤坂５丁目２番３３号ＩｓａＩＡｋａｓａｋＡ１６Ｆ",
@@ -71066,9 +73554,43 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000006.000111628.html"
+      "https://prtimes.jp/main/html/rd/p/000000006.000111628.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010601056245"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の副田義樹が2019年10月に設立した医療教育DXのスタートアップ。2022年12月に神奈川歯科大学と提携し、国家試験問題などを学習したAIが歯学部の試験問題と選択肢を自動生成する作問支援アプリ「EQIO（現EQIO EDUCATE）」を国内で初めて公開。学習者ごとにAIが学習メニューを最適化する「EQIO STUDY」も展開する。2024年に愛知学院大学、2025年に学研メディカルサポートと提携し、2026年2月に株式会社MINTからシードで5,000万円を調達した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "AI作問支援「EQIO EDUCATE」",
+          "since": "2022-12",
+          "note": "神奈川歯科大学との業務提携で歯学部向けに公開",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000111628.html"
+        },
+        {
+          "name": "AI適応型学習アプリ「EQIO STUDY」",
+          "since": "2023",
+          "note": "学生向け自習支援システムとして展開（当初名称DentiStudyの予定）",
+          "url": "https://www.ediand.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 副田義樹。役員総数は未確認",
+        "asOf": "2026-02"
+      },
+      "newsroom": {
+        "site": "https://www.ediand.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/111628"
+      },
+      "sources": [
+        "https://www.ediand.co.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000111628.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000111628.html",
+        "https://prtimes.jp/main/html/rd/p/000000006.000111628.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2110001034488",
@@ -71078,7 +73600,7 @@
       "health-corporate-management"
     ],
     "categoryLabel": "健康経営",
-    "description": "新潟大学医学部と連携し、中小企業向けに健康経営コンサルティングと健診データ管理システムを提供",
+    "description": "新潟大学医学部と連携し、健診・医療データ分析や健康経営支援、健康管理システムを自治体・企業に提供する新潟の医療データ企業",
     "prefecture": "新潟県",
     "foundedYear": 2019,
     "address": "新潟県新潟市中央区西堀通３番町７９０番地",
@@ -71095,9 +73617,49 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000003.000118081.html"
+      "https://prtimes.jp/main/html/rd/p/000000003.000118081.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2110001034488"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表取締役CEOの木村大地が2019年12月に新潟市で設立。新潟大学医学部と連携し、健診・医療データを医学的エビデンスに基づいて分析して、自治体・企業・健保の健康づくりや医療費抑制を支援する。健康教育のe-Learning、オンライン健康相談、健康管理システム、新潟県内企業の健康経営優良法人の認定取得支援も手がける。2026年2月にBSNメディアホールディングスとブルボンから5,000万円を調達し、同年9月に経産省の地域の健康経営推進の実証事業に共同企業体で採択された。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "健診・医療データ分析支援（自治体・企業向け）",
+          "since": "2019-12",
+          "note": "新潟大学医学部と連携して設立",
+          "url": "https://iseq.co.jp/"
+        },
+        {
+          "name": "健康経営推進支援・健康管理データベースシステム",
+          "since": "",
+          "note": "新潟県内企業の健康経営優良法人認定取得支援など",
+          "url": "https://iseq.co.jp/"
+        },
+        {
+          "name": "健康教育e-Learning・オンライン健康相談",
+          "since": "",
+          "note": "自治体・企業・健保向け",
+          "url": "https://iseq.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 木村大地。役員総数は未確認",
+        "asOf": "2026-09"
+      },
+      "newsroom": {
+        "site": "https://iseq.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/118081"
+      },
+      "sources": [
+        "https://iseq.co.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000003.000118081.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000118081.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000118081.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "2120001255348",
@@ -71108,7 +73670,7 @@
       "home-medical"
     ],
     "categoryLabel": "医療機器・在宅医療",
-    "description": "心不全患者の再入院抑制を目指し、ウェアラブル×AIによる在宅モニタリング医療機器を開発・治験中",
+    "description": "大阪発。腕時計型ウェアラブルとAIで在宅の慢性心不全患者の増悪兆候を早期に捉える在宅モニタリングシステムを開発",
     "prefecture": "大阪府",
     "foundedYear": 2023,
     "address": "大阪府大阪市北区角田町８番４７号",
@@ -71126,9 +73688,37 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000003.000150677.html",
-      "https://prtimes.jp/main/html/rd/p/000000002.000150677.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000150677.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2120001255348"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "スタンフォード大学発の「バイオデザインプログラム」を学んだ医師・看護師・エンジニアが2023年6月に大阪で設立した医療機器スタートアップ。代表は桝田浩禎。再入院率が高い慢性心不全に着目し、腕時計型ウェアラブル・AI・アプリで在宅中の心不全悪化の兆候を早期に捉える在宅モニタリングシステムを開発。2023年にシリーズAで1.2億円、2024年10月に2億円、2026年2月に島津製作所のCVCファンドなどからシリーズBで5.4億円を調達し、同年8月に阪大で医師主導治験が始まった。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "慢性心不全の在宅モニタリングシステム（ウェアラブル＋AI＋アプリ）",
+          "since": "2023-06",
+          "note": "バイオデザインの手法で医療現場のニーズから開発を開始",
+          "url": "https://awave.co.jp/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 桝田浩禎。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://awave.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/150677"
+      },
+      "sources": [
+        "https://awave.co.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000003.000150677.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000150677.html",
+        "https://prtimes.jp/main/html/rd/p/000000398.000076057.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8360001034136",
@@ -71139,7 +73729,7 @@
       "telemedicine"
     ],
     "categoryLabel": "診断支援・オンライン診療",
-    "description": "琉球大学発の医療AIベンチャー。認知症の早期発見AIとオンライン診療の社会実装に取り組む",
+    "description": "琉球大学発の医療AIベンチャー。オンライン診療とマルチモーダルAIによる認知症診断ソリューションや、スリープウェルネスプログラムを開発",
     "prefecture": "沖縄県",
     "foundedYear": 2024,
     "address": "沖縄県那覇市おもろまち４丁目１９番１号ルカフおもろまち４Ｆ",
@@ -71156,9 +73746,44 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000010.000152481.html"
+      "https://prtimes.jp/main/html/rd/p/000000010.000152481.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8360001034136"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表取締役社長の泉晃が2024年9月に那覇市で設立し、2025年2月に琉球大学発ベンチャーに認定された医療AI企業。琉球大学医学部・病院の臨床研究者とAIエンジニアが連携し、オンライン診療とマルチモーダルAIを組み合わせた認知症診断の研究開発を進め、2024年11月に読谷村で認知症のオンライン相談実証を実施。2025年に沖縄県の共同研究事業として生活習慣病・認知症予防のソリューションとデータレジストリの構築を推進し、2026年1月におきなわイノベーション創出ファンドから資金を調達した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "オンライン＆AI認知症診断ソリューション",
+          "since": "2024-09",
+          "note": "琉球大学の臨床研究者と連携して開発し、2024年11月に地域で相談実証",
+          "url": "https://www.ryuwell.com/"
+        },
+        {
+          "name": "スリープウェルネスプログラム・沖縄のヘルスケアエコシステム構築",
+          "since": "2025-08",
+          "note": "沖縄県委託事業として生活習慣病予防に取り組む",
+          "url": "https://prtimes.jp/main/html/rd/p/000000009.000152481.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 泉晃。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.ryuwell.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/152481"
+      },
+      "sources": [
+        "https://www.ryuwell.com/",
+        "https://prtimes.jp/main/html/rd/p/000000010.000152481.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000152481.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000152481.html",
+        "https://prtimes.jp/main/html/rd/p/000000009.000152481.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5120001274246",
@@ -71168,7 +73793,7 @@
       "medical-device"
     ],
     "categoryLabel": "医療機器",
-    "description": "大阪大学発。がん検診に特化した極細径・単回使用のAI支援内視鏡システムを開発",
+    "description": "大阪大学発。バリウム検査に代わる胃がん検診向けに、世界最細径4mmの単回使用内視鏡とAI支援・検診情報DXシステムを開発",
     "prefecture": "大阪府",
     "foundedYear": 2025,
     "address": "大阪府大阪市中央区道修町４丁目１番１号武田御堂筋ビル２階",
@@ -71185,19 +73810,44 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000174787.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000174787.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5120001274246"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の神田拓哉が2025年4月に大阪で設立した大阪大学発の医療機器ベンチャー。胃がん検診で主流のバリウム検査はがんの検出精度や被ばくに課題があるとして、受診者の苦痛や感染リスクを抑え大規模な集団検診にも使える、世界最細径4mmの使い捨て内視鏡システムを開発。内視鏡に加え、AIによる診断支援と検診情報のDXシステムも一体で開発する。2026年2月に山科精器と香港のHong Kong BlueSky Technologies Innovationからシードで総額8,500万円を調達した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "検診特化型ディスポーザブル内視鏡システム（AI支援・検診情報DX）",
+          "since": "2025-04",
+          "note": "大阪大学の研究を基に設立し開発",
+          "url": "https://prtimes.jp/main/html/rd/p/000000001.000174787.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表 神田拓哉。役員総数は未確認",
+        "asOf": "2026-02"
+      },
+      "newsroom": {
+        "site": "https://endoluminalsolutions.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/174787"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000001.000174787.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "1011501026151",
     "name": "株式会社たづ",
-    "hp": "",
+    "hp": "https://taz-co.jp/",
     "categories": [
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "「不老長寿テック」として老化・寿命に関わる研究開発を行うスタートアップ（英文社名TAZ Inc.）",
+    "description": "東大発。独自の老化細胞除去アッセイで抗老化成分・創薬候補を探索し、エピジェネティック年齢の受託分析や抗老化製品の開発を行う",
     "prefecture": "東京都",
     "foundedYear": 2020,
     "address": "東京都文京区本郷３丁目３８番１０号ＢＩＺｃｏｍｆｏｒｔ本郷３８",
@@ -71214,9 +73864,47 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.atpress.ne.jp/news/573216"
+      "https://www.atpress.ne.jp/news/573216",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1011501026151"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "生命科学者でジーンクエスト創業者の高橋祥子が、東京大学大学院の研究者らと2020年8月にファンタジーンとして設立し、2023年7月に「TAZ Inc.（株式会社たづ）」へ変更、2024年1月に「不老長寿をすべての人に」を掲げて始動。独自の老化細胞除去アッセイで老化細胞除去成分やカロリー制限様物質を探索し、創薬候補化合物も得ている。抗老化製品の企画・OEM開発、企業・アカデミアとの共同研究、クリニック向けのエピジェネティック年齢の受託分析を提供する。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "抗老化関連製品の企画・受託開発",
+          "since": "2023-07",
+          "note": "老化細胞除去成分を用いた商品をOEMメーカーと開発",
+          "url": "https://taz-co.jp/"
+        },
+        {
+          "name": "エピジェネティック年齢の受託分析（クリニック向け）",
+          "since": "",
+          "note": "検査事業として医療機関に提供",
+          "url": "https://taz-co.jp/"
+        },
+        {
+          "name": "老化細胞除去アッセイによる共同研究・創薬",
+          "since": "",
+          "note": "候補化合物の創薬化を推進",
+          "url": "https://taz-co.jp/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 高橋祥子。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://taz-co.jp/"
+      },
+      "sources": [
+        "https://taz-co.jp/",
+        "https://www.atpress.ne.jp/news/573216",
+        "https://note.com/takahashoko/n/n31ce6b769369"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4011001158194",
@@ -71227,7 +73915,7 @@
       "fitness"
     ],
     "categoryLabel": "D2C・フィットネス",
-    "description": "歩く・眠るなどの健康行動でゲームを進めるヘルスケアゲームアプリ「HEALTHREE」を運営",
+    "description": "歩く・走ることで進む運動型RPG「HEALTHREE」を運営し、ゲームと暗号資産報酬で運動習慣の継続を促すヘルスケアゲーム企業",
     "prefecture": "東京都",
     "foundedYear": 2023,
     "address": "東京都渋谷区渋谷２丁目２４番１２号渋谷スクランブルスクエア３９Ｆ",
@@ -71246,9 +73934,44 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000017.000135849.html",
-      "https://prtimes.jp/main/html/rd/p/000000001.000135849.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000135849.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011001158194"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表の山本真也と田中厳貴が2023年11月に設立（アプリのβ版は2023年4月公開）。歩いたり走ったりした距離に応じてゲームが進み、暗号資産トークンなどの報酬も得られるヘルスケアアプリ「HEALTHREE」をAstar Network上で始め、その後「1,000万歩遊べる運動型RPG」としてゲーム性を高め、カルビー・ルパン三世・くまモンなどとコラボし30万ダウンロードを突破。2024年2月に東京ウェルネスインパクトファンドなどから累計2.1億円、2026年2月にシリーズA 1stラウンドを調達。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "運動型RPG／ヘルスケアゲームアプリ「HEALTHREE」",
+          "since": "2023-04",
+          "note": "web3ヘルスケアアプリとしてβ版を公開し、運動型RPGへ発展",
+          "url": "https://heal3.com/"
+        },
+        {
+          "name": "ゲーミフィケーションによる継続率改善支援",
+          "since": "2026-05",
+          "note": "自社アプリのノウハウを企業向けに提供",
+          "url": "https://prtimes.jp/main/html/rd/p/000000019.000135849.html"
+        }
+      ],
+      "management": {
+        "count": 2,
+        "note": "代表取締役2名（山本真也・田中厳貴）。ほかの役員は未確認",
+        "asOf": "2026-02"
+      },
+      "newsroom": {
+        "site": "https://heal3.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/135849"
+      },
+      "sources": [
+        "https://heal3.com/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000135849.html",
+        "https://prtimes.jp/main/html/rd/p/000000017.000135849.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000135849.html",
+        "https://prtimes.jp/main/html/rd/p/000000021.000135849.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5010001225722",
@@ -71259,7 +73982,7 @@
       "diagnostic-support"
     ],
     "categoryLabel": "簡易検査・診断支援",
-    "description": "東京大学発。1分子計測リキッドバイオプシー技術による膵がん等のがんスクリーニング血液検査を開発・提供",
+    "description": "東大・理研の技術を基に、血中の酵素活性を1分子レベルで測る「1分子計測リキッドバイオプシー」でがんの早期発見血液検査を開発",
     "prefecture": "東京都",
     "foundedYear": 2022,
     "address": "東京都文京区本郷７丁目３番１号東京大学アントレプレナープラザ",
@@ -71276,9 +73999,50 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000006.000101613.html"
+      "https://prtimes.jp/main/html/rd/p/000000006.000101613.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001225722"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "東京大学の小松徹准教授の酵素活性の蛍光検出技術と、理化学研究所の渡邉力也主任研究員の1分子計測技術を組み合わせた「1分子計測リキッドバイオプシー」を事業化するため2022年4月に設立。代表は鏡味優。血中の酵素活性を超高感度で解析し、がんの早期診断薬の開発と医薬品開発支援を行う。2025年7月に膵臓がん早期発見の研究用検査「エンゼバー すい臓がん」を自社検査所で開始し、体外診断用医薬品の製造販売業許可も取得。2026年2月にデライト・ベンチャーズなどからシリーズA1を調達した。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "1分子計測リキッドバイオプシーによるがん早期診断薬の開発",
+          "since": "2022-04",
+          "note": "東大・理研の技術を組み合わせて設立",
+          "url": "https://cosomil.com/"
+        },
+        {
+          "name": "膵臓がん検査「エンゼバー すい臓がん」（研究目的の受託検査）",
+          "since": "2025-07",
+          "note": "自社衛生検査所「コウソミル東京検査センター」で実施",
+          "url": "https://prtimes.jp/main/html/rd/p/000000004.000101613.html"
+        },
+        {
+          "name": "医薬品開発支援",
+          "since": "",
+          "note": "酵素活性1分子計測技術を製薬企業の研究開発に提供",
+          "url": "https://cosomil.com/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 鏡味優。役員総数は未確認",
+        "asOf": "2026-02"
+      },
+      "newsroom": {
+        "site": "https://cosomil.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/101613"
+      },
+      "sources": [
+        "https://cosomil.com/",
+        "https://prtimes.jp/main/html/rd/p/000000006.000101613.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000101613.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000101613.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000101613.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "5140001121371",
@@ -71288,7 +74052,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "神戸大学発。ビフィズス菌を用いた経口ワクチン基盤技術で、WT1経口がん免疫療法剤B440を開発",
+    "description": "神戸大学発。ビフィズス菌を使った経口ワクチン技術で、飲むがん治療ワクチン「B440」を開発",
     "prefecture": "兵庫県",
     "foundedYear": 2021,
     "address": "兵庫県神戸市中央区楠町７丁目５番１号",
@@ -71308,9 +74072,37 @@
       "https://prtimes.jp/main/html/rd/p/000000009.000125161.html",
       "https://prtimes.jp/main/html/rd/p/000000005.000125161.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000125161.html",
-      "https://prtimes.jp/main/html/rd/p/000000001.000125161.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000125161.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5140001121371"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "神戸大学の白川利朗（代表取締役CEO）らが、ビフィズス菌の特性を使う経口ワクチンのプラットフォーム技術を基に2021年に神戸市で設立した創薬スタートアップ。腸管から免疫を誘導する飲むがん治療ワクチン「B440」を開発し、2023年1月から神戸大学・広島大学・浜松医科大学で転移性尿路上皮がんの第I相医師主導治験を実施、2025年5月に終了し、安全性とWT1特異的な細胞性免疫の誘導を確認した。シードラウンドBとして2023〜25年に計約3.8億円を調達している。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "ビフィズス菌経口ワクチンプラットフォームによるがん治療ワクチン「B440」の開発",
+          "since": "2021",
+          "note": "神戸大学の研究成果を基に設立",
+          "url": "https://prtimes.jp/main/html/rd/p/000000009.000125161.html"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 白川利朗。役員総数は未確認",
+        "asOf": "2026-02"
+      },
+      "newsroom": {
+        "site": "https://immunorock.com/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/125161"
+      },
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000009.000125161.html",
+        "https://prtimes.jp/main/html/rd/p/000000005.000125161.html",
+        "https://prtimes.jp/main/html/rd/p/000000003.000125161.html",
+        "https://prtimes.jp/main/html/rd/p/000000001.000125161.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6180001150894",
@@ -71320,7 +74112,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "腸内細菌叢を制御する世界初の経口IgA（免疫グロブリンA）製剤を開発する創薬スタートアップ",
+    "description": "腸内細菌叢の乱れ（ディスバイオシス）を治療する世界初の経口IgA抗体医薬を開発し、疾病予防・治療のプラットフォーマーを目指す",
     "prefecture": "東京都",
     "foundedYear": 2022,
     "address": "東京都文京区向丘２丁目３番１０号東大前ＨｉＲＡＫＵＧＡＴＥ",
@@ -71337,9 +74129,36 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000174854.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000174854.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6180001150894"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "2022年4月に設立された東京都文京区の創薬スタートアップ。代表は新貝康司。腸管で働くIgA抗体（免疫グロブリンA）に着目し、腸内細菌叢のバランスの乱れ（ディスバイオシス）を制御・治療する世界初の経口IgA抗体医薬を開発、多くの疾病の予防・治療への応用を目指す。2022年11月に国内の独占的実施権を供与していたFiducia Medicalを2026年6月に完全子会社化した。2026年1月にリアルテックファンドなどからプレシードで3.1億円を調達し、助成金を含む同年度の累計は7.6億円。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "経口IgA抗体医薬の研究開発",
+          "since": "2022-04",
+          "note": "IgA抗体によるディスバイオシス治療を目的に設立。2026年6月に国内ライセンス先のFiducia Medicalを子会社化",
+          "url": "https://igalphan.jp/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役 新貝康司。役員・技術顧問は公式サイトに掲載（総数は未確認）",
+        "asOf": "2026-07"
+      },
+      "newsroom": {
+        "site": "https://igalphan.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/174854"
+      },
+      "sources": [
+        "https://igalphan.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000174854.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000174854.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "6040001140216",
@@ -71350,7 +74169,7 @@
       "medical-image"
     ],
     "categoryLabel": "医療機器・医療画像",
-    "description": "非侵襲の生体イメージング機器を開発する千葉のスタートアップ",
+    "description": "千葉大学発。電気インピーダンス・トモグラフィ（EIT）でリンパ浮腫などのむくみを非侵襲に可視化する診断・モニタリング機器を開発",
     "prefecture": "千葉県",
     "foundedYear": 2025,
     "address": "千葉県千葉市中央区富士見２丁目７番９号富士見ビル６０９号",
@@ -71367,9 +74186,37 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000175448.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000175448.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6040001140216"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表取締役CEOの小川良磨が2025年8月に千葉市で創業した千葉大学発スタートアップ。体に微弱な電流を流して内部を画像化する電気インピーダンス・トモグラフィ（EIT）で、がん治療後などに起こるリンパ浮腫をはじめとする「むくみ」を非侵襲で早期発見・モニタリングする機器を開発し、将来は複数疾患の可視化基盤を目指す。2025年12月にリアルテックファンド4号からシードで5,000万円を調達し、2026年7月にリンパ浮腫早期診断装置の研究開発がAMED橋渡し研究プログラムに採択された。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "EITによるリンパ浮腫の早期診断装置・モニタリング機器の開発",
+          "since": "2025-08",
+          "note": "千葉大学の研究を基に創業",
+          "url": "https://www.tomocloud.co.jp/ja"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役CEO 小川良磨。役員総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.tomocloud.co.jp/ja",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/175448"
+      },
+      "sources": [
+        "https://www.tomocloud.co.jp/ja",
+        "https://prtimes.jp/main/html/rd/p/000000001.000175448.html",
+        "https://prtimes.jp/main/html/rd/p/000000002.000175448.html",
+        "https://prtimes.jp/main/html/rd/p/000000164.000036405.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "4340001024984",
@@ -71379,7 +74226,7 @@
       "pharma"
     ],
     "categoryLabel": "製薬・創薬",
-    "description": "鹿児島大学の研究成果を基盤に、腫瘍溶解性ウイルス（がん治療用ウイルス）医薬を開発する創薬企業",
+    "description": "鹿児島大学発。がん細胞で選択的に増える腫瘍溶解性アデノウイルス「Surv.m-CRA-1」で悪性骨腫瘍・膵臓がんなどの治療薬を開発",
     "prefecture": "鹿児島県",
     "foundedYear": 2022,
     "address": "鹿児島県鹿児島市桜ヶ丘８丁目３５‐１鹿児島大学大学院医歯学総合研究科内",
@@ -71396,9 +74243,38 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000010.000165403.html"
+      "https://prtimes.jp/main/html/rd/p/000000010.000165403.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4340001024984"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "鹿児島大学の小戝健一郎（創業者・取締役会長兼CSO）が開発した腫瘍溶解性アデノウイルス「Surv.m-CRA-1」の実用化を目指し、2022年8月に鹿児島市で設立。代表は山田昌樹。同ウイルスは鹿児島大学で第I相、悪性骨腫瘍・膵臓がんの第II相の医師主導治験が進められてきた。DCIパートナーズなどから出資を受け、2025年11〜12月に慶應イノベーション・イニシアティブをリードとするシリーズBで計21.7億円を調達。2026年5月に原発性悪性骨腫瘍で希少疾病用再生医療等製品に指定され、AMEDのGRiTにも採択された。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "腫瘍溶解性ウイルス「Surv.m-CRA」シリーズの開発",
+          "since": "2022-08",
+          "note": "鹿児島大学での医師主導治験の成果を基に設立し、2023年11月に特許実施許諾",
+          "url": "https://www.survbiopharma.co.jp/info/history/"
+        }
+      ],
+      "management": {
+        "count": 0,
+        "note": "代表取締役社長 山田昌樹、取締役会長兼CSO 小戝健一郎。総数は未確認",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://www.survbiopharma.co.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/165403"
+      },
+      "sources": [
+        "https://www.survbiopharma.co.jp/info/history/",
+        "https://prtimes.jp/main/html/rd/p/000000007.000165403.html",
+        "https://prtimes.jp/main/html/rd/p/000000010.000165403.html",
+        "https://prtimes.jp/main/html/rd/p/000000012.000165403.html",
+        "https://prtimes.jp/main/html/rd/p/000000013.000165403.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "8120001194755",
@@ -71408,7 +74284,7 @@
       "nursing"
     ],
     "categoryLabel": "介護",
-    "description": "障がい児向け通所支援（児童発達支援・放課後等デイサービス）と就労支援事業を全国で運営",
+    "description": "大阪を拠点に障がい児の児童発達支援・放課後等デイサービス「STARLIT」や就労継続支援・自立訓練「TECTEC」を多拠点で運営",
     "prefecture": "大阪府",
     "foundedYear": 2015,
     "address": "大阪府大阪市中央区南船場４丁目１０番３号ナガホリ大阪ビル５階",
@@ -71425,9 +74301,50 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000007.000104872.html"
+      "https://prtimes.jp/main/html/rd/p/000000007.000104872.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120001194755"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "overview": "代表取締役CEOの家住教志が2015年11月に大阪市で設立し、同月に中高生の支援を強化した放課後等デイサービスを開所。「障がい者という言葉をこの国からなくす」を掲げ、児童発達支援・放課後等デイサービス「STARLIT」を大阪府内で順次開設し、就労継続支援A型・B型や、クリエイティブ分野を学べる自立訓練・就労支援拠点「TECTEC」（2023年）へ広げた。仙台にも支社を置く。2025年12月にHIRAC FUNDをリードにシリーズBで4億円を調達し、M&Aによる全国展開を目指す。",
+    "profile": {
+      "businesses": [
+        {
+          "name": "児童発達支援・放課後等デイサービス「STARLIT（すたぁりっと）」",
+          "since": "2015-11",
+          "note": "設立と同時に1号拠点を開所",
+          "url": "https://ci-partners.jp/history/"
+        },
+        {
+          "name": "就労継続支援A型・B型「STARLIT WORK」「STARLIT SERVICE」",
+          "since": "",
+          "note": "障がい者の就労支援へ拡大",
+          "url": "https://ci-partners.jp/"
+        },
+        {
+          "name": "自立訓練・就労支援の多機能スクール「TECTEC」",
+          "since": "2023-01",
+          "note": "クリエイティブ分野を学びながら働ける拠点として天王寺校を開設",
+          "url": "https://prtimes.jp/main/html/rd/p/000000004.000104872.html"
+        }
+      ],
+      "management": {
+        "count": 4,
+        "note": "代表取締役CEO・専務取締役COO・非常勤取締役・社外取締役（会社概要）",
+        "asOf": "2026-10"
+      },
+      "newsroom": {
+        "site": "https://ci-partners.jp/",
+        "prtimes": "https://prtimes.jp/main/html/searchrlp/company_id/104872"
+      },
+      "sources": [
+        "https://ci-partners.jp/profile/",
+        "https://ci-partners.jp/history/",
+        "https://ci-partners.jp/",
+        "https://prtimes.jp/main/html/rd/p/000000007.000104872.html",
+        "https://prtimes.jp/main/html/rd/p/000000004.000104872.html"
+      ],
+      "checkedAt": "2026-10"
+    }
   },
   {
     "id": "9011101105744",
