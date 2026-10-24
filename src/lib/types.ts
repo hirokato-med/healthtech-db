@@ -121,6 +121,8 @@ export type Service = {
   /** 開始時期が分からないとき、提供を確認できた最も古い時点（YYYY-MM）と出典 */
   knownSince?: string;
   knownSinceSource?: string;
+  /** 自治体などに配る共通の仕組みのとき、導入先（自治体名・そこでのアプリ名・開始・出典） */
+  adopters?: { name: string; app?: string; since?: string; source?: string }[];
 };
 
 /** 事業の種類（カテゴリの下の分け方） */
