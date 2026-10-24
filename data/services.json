@@ -785,7 +785,7 @@
     "category": "pharma",
     "description": "「アリナミン」「ベンザブロック」などの一般用医薬品（OTC）をドラッグストア等で販売する武田薬品の大衆薬子会社。米ブラックストーンに売却された。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "譲渡",
     "endedAt": "2021-03",
     "successor": "アリナミン製薬株式会社",
@@ -808,12 +808,14 @@
     ],
     "endReasonNote": "Shire買収で膨らんだ有利子負債の圧縮を進めるなか、大衆薬は非中核事業と位置づけられ、重点疾患の処方薬に経営資源を集中する方針の一環で売却されたと報じられている。",
     "sources": [
+      "https://www.takeda.com/jp/newsroom/newsreleases/2017/20170403_7740/",
       "https://www.blackstone.com/jp/insights/article/blackstone-signs-definitive-agreement-to-acquire-takeda-consumer-health-company/",
       "https://nk.jiho.jp/article/154477",
       "https://the-shashi.com/tse/4502/decisions/otc-divestiture-2020/"
     ],
     "updatedAt": "2026-10",
-    "type": "otc-consumer-health"
+    "type": "otc-consumer-health",
+    "startedAt": "2017-04"
   },
   {
     "id": "b-e270ee8b",
@@ -822,7 +824,7 @@
     "category": "pharma",
     "description": "JTの医薬総合研究所による新薬の研究開発と、子会社・鳥居薬品による医療用医薬品の販売（免疫・炎症、皮膚、アレルギー、腎臓領域など）。塩野義製薬へ承継された。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 1988,
     "status": "譲渡",
     "endedAt": "2025",
     "successor": "塩野義製薬（鳥居薬品は塩野義の完全子会社化）",
@@ -841,13 +843,16 @@
     ],
     "endReasonNote": "JTは医薬事業から撤退し、本業のたばこ事業に集中する方針と報じられている。新薬開発に長期間と多額の費用がかかり研究開発費の負担が重かったとの分析もある。塩野義側は国内事業の強化、海外展開の加速、領域・販路の拡充を目的に挙げた。",
     "sources": [
+      "https://www.jti.co.jp/investors/library/presentation/2017pharma/pdf/20170704_01_J.pdf",
+      "https://www.shionogi.com/jp/ja/news/2025/05/2025_0507.html",
       "https://www.shionogi.com/content/dam/shionogi/jp/investors/ir-library/presentation-materials/fy2024/20250507_記者会見説明資料_final２_.pdf",
       "https://www.nihon-ma.co.jp/news/20250507_4507-8/",
       "https://www.nihon-ma.co.jp/news/20250619_4507-10/",
       "https://www.yakuji.co.jp/?p=117897"
     ],
     "updatedAt": "2026-10",
-    "type": "innovative-drug-maker"
+    "type": "innovative-drug-maker",
+    "startedAt": "1988-07"
   },
   {
     "id": "b-ef2ca1ae",
@@ -1194,7 +1199,7 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonNote": "同社は「アプリ運用ベンダーおよび当社を取り巻く環境の変化により、サービスの継続が困難であると判断」したと説明している。それ以上の具体的な理由は公表されていない。",
+    "endReasonNote": "田辺ファーマは2026年6月30日でサービス提供を終了。「アプリ運用ベンダーおよび当社を取り巻く環境の変化により、サービスの継続が困難と判断」と説明し、具体的な要因は示していない。",
     "sources": [
       "https://medical.tanabe-pharma.com/top/pdf/piclog-introduction-close.pdf",
       "https://medical.tanabe-pharma.com/info-history.shtml",
@@ -1523,7 +1528,7 @@
     "category": "pharma",
     "description": "高尿酸血症治療薬「フェブリク」など、帝人ファーマが国内外で販売してきた医療用医薬品の長期収載品7製品。製造販売承認と販売をLTLファーマへ移した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2011,
     "status": "譲渡",
     "endedAt": "2026",
     "successor": "LTLファーマ株式会社",
@@ -1543,10 +1548,13 @@
     ],
     "endReasonNote": "帝人は中期経営計画（2028年度まで）で医薬品事業を希少疾患・難病領域に絞り込み、その他の医薬品は外部の承継先を探す方針を示している。糖尿病治療薬や痛風治療薬は後発品参入などの影響で低迷していたと報じられている。",
     "sources": [
+      "https://www.yakuji.co.jp/entry23059.html",
+      "https://www.teijin.co.jp/news/2026/06/17/20260617_01.pdf",
       "https://www.yakuji.co.jp/?p=135606"
     ],
     "updatedAt": "2026-10",
-    "type": "innovative-drug-maker"
+    "type": "innovative-drug-maker",
+    "startedAt": "2011-05"
   },
   {
     "id": "b-019540e1",
@@ -17172,6 +17180,7 @@
     "status": "提供中",
     "startedAt": "1992",
     "sources": [
+      "https://www.cmicgroup.com/corporate/group-companies/cmic/",
       "https://www.cmicgroup.com/corporate/profile/"
     ],
     "updatedAt": "2026-10",
@@ -17187,8 +17196,9 @@
     "hp": "https://www.cmicgroup.com/corporate/profile/",
     "startedYear": 1996,
     "status": "提供中",
-    "startedAt": "1996",
+    "startedAt": "1996-06",
     "sources": [
+      "https://compalyze.co.jp/company/1010701011418",
       "https://www.cmicgroup.com/corporate/profile/"
     ],
     "updatedAt": "2026-10",
@@ -17974,13 +17984,15 @@
     "category": "clinical-trial-support",
     "description": "",
     "hp": "https://www.sophiamedi.co.jp/service/clinical-trial/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
-      "https://www.sophiamedi.co.jp/service/clinical-trial/"
+      "https://www.sophiamedi.co.jp/service/clinical-trial/",
+      "https://pub.confit.atlas.jp/ja/event/jsctr16/session/3601-01"
     ],
     "updatedAt": "2026-10",
-    "type": "decentralized-clinical-trial"
+    "type": "decentralized-clinical-trial",
+    "startedAt": "2020"
   },
   {
     "id": "b-d24ccafb",
@@ -18549,13 +18561,15 @@
     "category": "clinical-trial-support",
     "description": "",
     "hp": "https://3h-ms.co.jp/services/clinicalresearch",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://3h-ms.co.jp/home-nursing-lp",
       "https://3h-ms.co.jp/services/clinicalresearch"
     ],
     "updatedAt": "2026-10",
-    "type": "decentralized-clinical-trial"
+    "type": "decentralized-clinical-trial",
+    "startedAt": "2018"
   },
   {
     "id": "b-d7c7754f",
@@ -19814,6 +19828,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://hc-sys.com/company/overview/",
+      "https://www.macromill.com/press/release/20210513_hc-sys.html",
       "https://hc-sys.com/service/research/"
     ],
     "updatedAt": "2026-10",
@@ -22096,6 +22112,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.metcela.com/",
       "https://www.metcela.com/clinical-trials-jp/"
     ],
     "updatedAt": "2026-10",
@@ -22842,13 +22859,15 @@
     "category": "clinical-trial-support",
     "description": "",
     "hp": "https://m-d-l.co.jp/service/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://m-d-l.co.jp/category/ml-news/",
       "https://m-d-l.co.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "edc-eclinical-system"
+    "type": "edc-eclinical-system",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-e65742be",
@@ -22861,6 +22880,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://initial.inc/companies/A-26130",
+      "https://tachiage.jp/noguchi-hirohito/",
       "https://m-d-l.co.jp/service/"
     ],
     "updatedAt": "2026-10",
@@ -24972,13 +24993,15 @@
     "category": "clinical-trial-support",
     "description": "医師向け『smt FOR DOCTOR』は2020-12リリース",
     "hp": "https://www.buzzreach.co.jp/service/smt/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://www.buzzreach.co.jp/about/history/",
       "https://www.buzzreach.co.jp/service/smt/"
     ],
     "updatedAt": "2026-10",
-    "type": "trial-patient-recruitment"
+    "type": "trial-patient-recruitment",
+    "startedAt": "2018-05"
   },
   {
     "id": "b-37623974",
@@ -26726,13 +26749,15 @@
     "category": "clinical-trial-support",
     "description": "グローバルユーザー8万人突破（2026-04）。2026-02にバージョン5.0",
     "hp": "https://www.agathalife.com/about-agatha",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://www.value-press.com/pressrelease/159268",
       "https://www.agathalife.com/about-agatha"
     ],
     "updatedAt": "2026-10",
-    "type": "edc-eclinical-system"
+    "type": "edc-eclinical-system",
+    "startedAt": "2016-03"
   },
   {
     "id": "b-510145e5",
@@ -29129,13 +29154,16 @@
     "category": "pharma",
     "description": "",
     "hp": "https://www.elix-inc.com/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://www.elix-inc.com/jp/news/newsrelease/1531/",
+      "https://prtimes.jp/main/html/rd/p/000000012.000058259.html",
       "https://www.elix-inc.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-computational-drug-discovery"
+    "type": "ai-computational-drug-discovery",
+    "startedAt": "2022-06"
   },
   {
     "id": "b-cd9f6921",
@@ -29148,6 +29176,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://compalyze.co.jp/company/1011001113557",
+      "https://www.elix-inc.com/",
       "https://www.elix-inc.com/news/"
     ],
     "updatedAt": "2026-10",
@@ -29181,6 +29211,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://xeureka.co.jp/151",
       "https://xeureka.co.jp/service/drug-discovery-solutions"
     ],
     "updatedAt": "2026-10",
@@ -29197,6 +29228,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://startup.tohoku.ac.jp/achievement/interview-revolka/",
       "https://www.revolka.com/"
     ],
     "updatedAt": "2026-10",
@@ -29210,13 +29242,14 @@
     "category": "pharma",
     "description": "2026-09に利用実績・導入事例を公開。",
     "hp": "https://www.revolka.com/news/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
       "https://www.revolka.com/news/"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-computational-drug-discovery"
+    "type": "ai-computational-drug-discovery",
+    "startedAt": "2026-04"
   },
   {
     "id": "b-26e9ee49",
@@ -29229,6 +29262,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://startup-db.com/companies/0E12JgEUK4mp4LVa",
+      "https://prtimes.jp/main/html/rd/p/000000014.000083912.html",
       "https://molcure.com/"
     ],
     "updatedAt": "2026-10",
@@ -29952,6 +29987,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.keio-innovation.co.jp/portfolio/32/",
       "https://alivexis.com/"
     ],
     "updatedAt": "2026-10",
@@ -30013,13 +30049,15 @@
     "category": "pharma",
     "description": "",
     "hp": "https://www.knowledge-palette.com/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://www.nikkei.com/article/DGXZQODZ23C590T20C21A3000000/",
       "https://www.knowledge-palette.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "regenerative-cell-therapy"
+    "type": "regenerative-cell-therapy",
+    "startedAt": "2020"
   },
   {
     "id": "b-31d1dd15",
@@ -30143,13 +30181,15 @@
     "category": "pharma",
     "description": "2026-06新製品「CAP」（コンパクト型分注機）販売開始、2026-03商業生産向け新型機を共同開発",
     "hp": "https://www.cyfusebio.com/product",
-    "startedYear": null,
+    "startedYear": 2012,
     "status": "提供中",
     "sources": [
+      "https://kitaishihon.com/company/4892/story",
       "https://www.cyfusebio.com/product"
     ],
     "updatedAt": "2026-10",
-    "type": "regenerative-cell-therapy"
+    "type": "regenerative-cell-therapy",
+    "startedAt": "2012-12"
   },
   {
     "id": "b-9007d1db",
@@ -30159,13 +30199,15 @@
     "category": "pharma",
     "description": "",
     "hp": "https://www.cyfusebio.com/product/miniliver",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000053.000046287.html",
       "https://www.cyfusebio.com/product/miniliver"
     ],
     "updatedAt": "2026-10",
-    "type": "cdmo-contract-research"
+    "type": "cdmo-contract-research",
+    "startedAt": "2023"
   },
   {
     "id": "b-18b8bb9b",
@@ -30178,6 +30220,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://kitaishihon.com/company/4892/story",
       "https://www.cyfusebio.com/about/business"
     ],
     "updatedAt": "2026-10",
@@ -33662,13 +33705,14 @@
     "category": "pharma",
     "description": "2026年7月に業務提携を発表",
     "hp": "https://www.adiposeeds.co.jp/news/jp/312/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
       "https://www.adiposeeds.co.jp/news/jp/312/"
     ],
     "updatedAt": "2026-10",
-    "type": "regenerative-cell-therapy"
+    "type": "regenerative-cell-therapy",
+    "startedAt": "2026-07"
   },
   {
     "id": "b-1860b7aa",
@@ -33681,6 +33725,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://stemcells.or.jp/adiposeeds/",
       "https://www.adiposeeds.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -34372,6 +34417,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://answers.and-pro.jp/pharmanews/31627/",
       "https://dioseve.com/"
     ],
     "updatedAt": "2026-10",
@@ -34388,6 +34434,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.arcs-inc.jp/pre-a-extension-round",
       "https://www.arcs-inc.jp/"
     ],
     "updatedAt": "2026-10",
@@ -34404,6 +34451,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://compalyze.co.jp/company/3011501024814",
+      "https://cro.co.jp/company/",
       "https://cro.co.jp/service/"
     ],
     "updatedAt": "2026-10",
@@ -34417,13 +34466,14 @@
     "category": "cro",
     "description": "",
     "hp": "https://cro.co.jp/news-serviceinformation/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
       "https://cro.co.jp/news-serviceinformation/"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-central-reading"
+    "type": "imaging-central-reading",
+    "startedAt": "2021-01"
   },
   {
     "id": "b-173530e4",
@@ -34499,13 +34549,14 @@
     "category": "cro",
     "description": "",
     "hp": "https://www.intellim.co.jp/service/regenerative_medical.html",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
       "https://www.intellim.co.jp/service/regenerative_medical.html"
     ],
     "updatedAt": "2026-10",
-    "type": "full-service-cro"
+    "type": "full-service-cro",
+    "startedAt": "2015-12"
   },
   {
     "id": "b-f0b73b2f",
@@ -34532,13 +34583,15 @@
     "category": "clinical-trial-support",
     "description": "",
     "hp": "https://www.a2healthcare.com/services-solutions/m-edc/",
-    "startedYear": null,
+    "startedYear": 2001,
     "status": "提供中",
     "sources": [
+      "https://and-pro.jp/company-info-7223/",
       "https://www.a2healthcare.com/services-solutions/m-edc/"
     ],
     "updatedAt": "2026-10",
-    "type": "edc-eclinical-system"
+    "type": "edc-eclinical-system",
+    "startedAt": "2001"
   },
   {
     "id": "b-b35640f8",
@@ -34567,6 +34620,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.eps.co.jp/ja/company_history.php",
       "https://www.eps.co.jp/ja/service.php"
     ],
     "updatedAt": "2026-10",
@@ -34629,13 +34683,15 @@
     "category": "cro",
     "description": "2017年4月クオールRDを吸収合併",
     "hp": "https://www.apoplus.co.jp/company/segment/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://www.apoplus.co.jp/company/history/",
       "https://www.apoplus.co.jp/company/segment/"
     ],
     "updatedAt": "2026-10",
-    "type": "full-service-cro"
+    "type": "full-service-cro",
+    "startedAt": "2017-04"
   },
   {
     "id": "b-1e68f26a",
@@ -34777,13 +34833,15 @@
     "category": "pharma",
     "description": "2026年にFRONTEO、セラファ・バイオサイエンス等と契約",
     "hp": "https://www.crispr4u.jp/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://www.nippongene.com/info/topics/20211108-01-c4u.html",
       "https://www.crispr4u.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "gene-nucleic-therapy"
+    "type": "gene-nucleic-therapy",
+    "startedAt": "2021-11"
   },
   {
     "id": "b-ada81676",
@@ -34796,6 +34854,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://and-pro.jp/company-info-40885/",
       "https://celaidtx.com/"
     ],
     "updatedAt": "2026-10",
@@ -34812,6 +34871,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://and-pro.jp/company-info-40885/",
       "https://celaidtx.com/"
     ],
     "updatedAt": "2026-10",
@@ -34828,6 +34888,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000190076.html",
       "https://pixeom.jp/"
     ],
     "updatedAt": "2026-10",
@@ -34844,6 +34905,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://clinial.co.jp/about",
       "https://clinial.co.jp/solutions"
     ],
     "updatedAt": "2026-10",
@@ -34860,6 +34922,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://clinial.co.jp/about",
       "https://clinial.co.jp/solutions"
     ],
     "updatedAt": "2026-10",
@@ -34876,6 +34939,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.vitalive.co.jp/company",
       "https://www.vitalive.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -34889,13 +34953,14 @@
     "category": "clinical-trial-support",
     "description": "",
     "hp": "https://hashpeak.com/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
       "https://hashpeak.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "genai-trial-documentation"
+    "type": "genai-trial-documentation",
+    "startedAt": "2024-04"
   },
   {
     "id": "b-143f39bf",
@@ -34905,13 +34970,15 @@
     "category": "clinical-trial-support",
     "description": "2022年10月にEthereum EDCを開発し順天堂大学で活用（PR TIMES）",
     "hp": "https://prtimes.jp/main/html/searchrlp/company_id/111094",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://hashpeak.com/",
       "https://prtimes.jp/main/html/searchrlp/company_id/111094"
     ],
     "updatedAt": "2026-10",
-    "type": "edc-eclinical-system"
+    "type": "edc-eclinical-system",
+    "startedAt": "2020-10"
   },
   {
     "id": "b-e0dd9e20",
@@ -34937,13 +35004,15 @@
     "category": "clinical-trial-support",
     "description": "大学病院等の電子カルテデータ活用",
     "hp": "https://4din.com/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://www.tableau.com/ja-jp/solutions/customer/4DIN-provides-simpresearch-medical-analysis",
       "https://4din.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "ehr-trial-candidate-search"
+    "type": "ehr-trial-candidate-search",
+    "startedAt": "2020-07"
   },
   {
     "id": "b-6ad36dc5",
@@ -35152,6 +35221,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://clin-cloud.com/company/",
       "https://prtimes.jp/main/html/rd/p/000000064.000052277.html"
     ],
     "updatedAt": "2026-10",
@@ -35168,6 +35238,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.qol-net.co.jp/news/20251029_1",
       "https://www.clin-cloud.com/"
     ],
     "updatedAt": "2026-10",
@@ -35233,6 +35304,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://edihas.co.jp/company/outline/",
       "https://edihas.co.jp/service/call-center/"
     ],
     "updatedAt": "2026-10",
@@ -35249,6 +35321,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://edihas.co.jp/company/outline/",
       "https://edihas.co.jp/service/clinical-trials/"
     ],
     "updatedAt": "2026-10",
@@ -35764,8 +35837,9 @@
     "hp": "https://astellas.com/jp/science/medicines-and-disease-areas",
     "startedYear": 2023,
     "status": "提供中",
-    "startedAt": "2023",
+    "startedAt": "2023-05",
     "sources": [
+      "https://www.nikkei.com/article/DGXZRSP654948_V10C23A5000000/",
       "https://astellas.com/jp/science/medicines-and-disease-areas"
     ],
     "updatedAt": "2026-10",
@@ -36002,8 +36076,9 @@
     "hp": "https://www.eisai.co.jp/",
     "startedYear": 2020,
     "status": "提供中",
-    "startedAt": "2020",
+    "startedAt": "2020-07",
     "sources": [
+      "https://www.nikkei.com/article/DGXLRSP537127_W0A700C2000000/",
       "https://www.eisai.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -36240,8 +36315,9 @@
     "hp": "https://www.ono-pharma.com/ja",
     "startedYear": 2014,
     "status": "提供中",
-    "startedAt": "2014",
+    "startedAt": "2014-09",
     "sources": [
+      "https://www.ono-pharma.com/sites/default/files/ja/news/press/n17_1222_1.pdf",
       "https://www.ono-pharma.com/ja"
     ],
     "updatedAt": "2026-10",
@@ -36259,6 +36335,7 @@
     "status": "提供中",
     "startedAt": "1947",
     "sources": [
+      "https://www.nikkei.com/nkd/company/gaiyo/?scode=4528",
       "https://www.ono-pharma.com/ja"
     ],
     "updatedAt": "2026-10",
@@ -36546,8 +36623,9 @@
     "hp": "https://www.sumitomo-pharma.co.jp/profile/history/",
     "startedYear": 2012,
     "status": "提供中",
-    "startedAt": "2012",
+    "startedAt": "2012-04",
     "sources": [
+      "https://www.sumitomo-pharma.co.jp/news/20120229.html",
       "https://www.sumitomo-pharma.co.jp/profile/history/"
     ],
     "updatedAt": "2026-10",
@@ -37848,8 +37926,10 @@
     "hp": "https://www.mitsui.com/jp/ja/company/business/units/wl/index.html",
     "startedYear": 2008,
     "status": "提供中",
-    "startedAt": "2008",
+    "startedAt": "2008-01",
     "sources": [
+      "http://www.jftc.jp/monthly/archives/001/201704/41243f495c3733bf59e9fbbface249be.pdf",
+      "https://www.lnews.jp/backnumber/2007/11/25653.html",
       "https://www.mitsui.com/jp/ja/company/business/units/wl/index.html"
     ],
     "updatedAt": "2026-10",
@@ -38574,8 +38654,9 @@
     "hp": "https://www.sysmex.co.jp/newsroom/news/231221.html",
     "startedYear": 2022,
     "status": "提供中",
-    "startedAt": "2022",
+    "startedAt": "2022-10",
     "sources": [
+      "https://www.sysmex.co.jp/newsroom/news/221003_01.html",
       "https://www.sysmex.co.jp/newsroom/news/231221.html"
     ],
     "updatedAt": "2026-10",
@@ -40522,6 +40603,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.jafco.co.jp/andjafco-post/d81crbdr4-h/",
       "https://atransen.com/rd/",
       "https://www.nikkei.com/article/DGXZQOSG292XT0Z20C25A5000000/"
     ],
@@ -40539,6 +40621,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.jafco.co.jp/andjafco-post/d81crbdr4-h/",
       "https://atransen.com/news/",
       "https://bio.nikkeibp.co.jp/atcl/column/16/021500017/070900374/"
     ],
@@ -41056,6 +41139,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.xforestx.com/about/",
+      "https://www.astem.or.jp/smes-venture-mekiki/company/149/",
       "https://www.xforestx.com/pipeline/"
     ],
     "type": "innovative-drug-maker",
@@ -41536,14 +41621,16 @@
     "category": "pharma",
     "description": "不織布を足場に幹細胞を三次元で高密度・大量に自動培養し、効率よく回収できる装置。1人の操作で約100回分の治療用細胞（1×10^10個以上）を得られ、クリニックでも使える安全・安価・コンパクトな設計。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://www.nikkan.co.jp/articles/view/457803",
       "https://fullstem.co.jp/corporate.html",
       "https://www.link-j.org/bulletinboard/post-4436.html"
     ],
     "type": "life-science-tools",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018-01"
   },
   {
     "id": "b-6a97d13b",
@@ -41553,14 +41640,16 @@
     "category": "pharma",
     "description": "不織布足場で幹細胞を培養し剥がして回収するためのキットとプロトコール。研究用・治療用細胞の製造やエクソソーム製造に使う。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://www.nikkan.co.jp/articles/view/457803",
       "https://fullstem.co.jp/",
       "https://fullstem.co.jp/corporate.html"
     ],
     "type": "regenerative-cell-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018-01"
   },
   {
     "id": "b-a60492f0",
@@ -41711,6 +41800,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.btbtherapeutics.com/wp-content/uploads/2025/02/20250205-BTB-inversion-press-release.pdf",
       "https://www.btbtherapeutics.com/en/pipeline-2/",
       "https://www.btbtherapeutics.com/ja/category/news/press/"
     ],
@@ -41728,6 +41818,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.btbtherapeutics.com/wp-content/uploads/2025/02/20250205-BTB-inversion-press-release.pdf",
       "https://www.btbtherapeutics.com/en/pipeline-2/"
     ],
     "type": "innovative-drug-maker",
@@ -42126,6 +42217,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://startup-db.com/companies/rB5WJbnUrLEJo97q",
+      "https://untrod.inc/news/1020/",
       "https://www.nedo.go.jp/activities/startups/company12.html",
       "https://www.tkg-na.com/"
     ],
@@ -42713,6 +42806,8 @@
     "status": "提供中",
     "startedAt": "2022",
     "sources": [
+      "https://www.xcare-medical.com/company/about/",
+      "https://prtimes.jp/main/html/rd/p/000000005.000099309.html",
       "https://xcareplatform.com/",
       "https://prtimes.jp/main/html/rd/p/000000014.000099309.html",
       "https://prtimes.jp/main/html/rd/p/000000013.000099309.html"
@@ -43224,6 +43319,7 @@
     "status": "提供中",
     "startedAt": "2015",
     "sources": [
+      "https://startup-db.com/companies/kjlVZLoUnP3p9q3E",
       "https://www.shinobitx.com/",
       "https://prtimes.jp/main/html/rd/p/000000009.000096294.html"
     ],
@@ -43370,6 +43466,7 @@
     "status": "提供中",
     "startedAt": "2018",
     "sources": [
+      "https://philo.saci.kyoto-u.ac.jp/2023/07/embark21/",
       "https://data.swcms.net/file/raqualia-corp/ja/news/auto_20240214535923/pdfFile.pdf",
       "https://www.fimecs.com/news/2025-11-27/"
     ],
@@ -45682,6 +45779,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.aibios.co.jp/",
+      "https://startup-db.com/companies/94dzpVmUR5wGjWkY",
       "https://prtimes.jp/main/html/rd/p/000000492.000072793.html",
       "https://www.aibios.co.jp/portfolio"
     ],
@@ -45863,6 +45962,7 @@
     "status": "提供中",
     "startedAt": "2024",
     "sources": [
+      "https://toregem.co.jp/",
       "https://toregem.co.jp/archives/9765",
       "https://toregem.co.jp/archives/6017"
     ],
@@ -46124,6 +46224,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://startup-db.com/companies/BXP5J5rUDWAGqo6L",
+      "https://www.j-pharma.com/business/business_model/",
       "https://prtimes.jp/main/html/rd/p/000000013.000072333.html",
       "https://prtimes.jp/main/html/rd/p/000000012.000072333.html"
     ],
@@ -46175,6 +46277,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.vermilion-tx.com/",
       "https://www.vermilion-tx.com/project/",
       "https://www.vermilion-tx.com/news/2023041609699/"
     ],
@@ -46246,6 +46349,7 @@
     "status": "提供中",
     "sources": [
       "https://linkbio.jp/",
+      "https://note.com/ici_center/n/n65231dcdaa81",
       "https://linkbio.jp/news/"
     ],
     "type": "cdmo-contract-research",
@@ -46262,6 +46366,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://startup-db.com/companies/M6r0Ge9UAKNGn3v5",
       "https://linkbio.jp/company/",
       "https://linkbio.jp/news/"
     ],
@@ -46568,17 +46673,19 @@
     "category": "pharma",
     "description": "バイオ医薬品などの物質生産に使う独自のCHO細胞。2023年1月にジー・キューブへ事業譲渡した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "譲渡",
     "endedAt": "2023-01",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000068.000011403.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000086646.html"
     ],
     "type": "life-science-tools",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018"
   },
   {
     "id": "b-d1e6fb2d",
@@ -46591,6 +46698,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://area34.smp.ne.jp/area/card/5696/8EWXeG/M?S=mbmjt9nf",
+      "https://prtimes.jp/main/html/rd/p/000000003.000086646.html",
       "https://prtimes.jp/main/html/rd/p/000000396.000021609.html",
       "https://prtimes.jp/main/html/rd/p/000000068.000011403.html"
     ],
@@ -46744,6 +46853,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.regenephro.co.jp/",
       "https://www.regenephro.co.jp/technology/"
     ],
     "type": "regenerative-cell-therapy",
@@ -46863,6 +46973,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.kringle-pharma.com/company/overview/",
       "https://www.kringle-pharma.com/development/hgf/",
       "https://www.kringle-pharma.com/ir_info/news/"
     ],
@@ -46880,6 +46991,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.kringle-pharma.com/company/overview/",
       "https://www.kringle-pharma.com/development/research/",
       "https://prtimes.jp/main/html/rd/p/000000033.000051435.html"
     ],
@@ -47984,6 +48096,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.delta-flypharma.co.jp/about-us/",
       "https://www.delta-flypharma.co.jp/r-and-d"
     ],
     "type": "innovative-drug-maker",
@@ -48000,6 +48113,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.delta-flypharma.co.jp/about-us/",
+      "https://www.delta-flypharma.co.jp/r-and-d/",
       "https://www.delta-flypharma.co.jp/r-and-d"
     ],
     "type": "innovative-drug-maker",
@@ -48128,39 +48243,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-8ab710bc",
-    "name": "NJA-001（iPS-αβT細胞・固形がん）",
-    "company": "シノビ・セラピューティクス株式会社",
-    "companyId": "3130001055894",
-    "category": "pharma",
-    "description": "免疫回避性を持たせたiPS細胞由来のαβT細胞で、GPC3を標的に肝細胞がん・大腸がん・非小細胞肺がんなどの固形がんを狙う他家細胞治療（開発中）。",
-    "hp": "",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://www.shinobitx.com/",
-      "https://firstwordpharma.com/story/6518921"
-    ],
-    "type": "regenerative-cell-therapy",
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-63fd162b",
-    "name": "NJA-201（iPS-NK細胞・自己免疫疾患）",
-    "company": "シノビ・セラピューティクス株式会社",
-    "companyId": "3130001055894",
-    "category": "pharma",
-    "description": "免疫回避性を持たせたiPS細胞から作るNK細胞を用い、自己免疫疾患の治療をめざす他家細胞治療の候補。NJA-001と同じ免疫回避基盤を使う（開発中）。",
-    "hp": "",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://www.shinobitx.com/"
-    ],
-    "type": "regenerative-cell-therapy",
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-596dd797",
     "name": "MDL-101（LAMA2欠損型先天性筋ジストロフィー）",
     "company": "株式会社モダリス",
@@ -48171,6 +48253,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://modalistx.com/jp/ir/faq/",
       "https://modalistx.com/jp/business/pipeline/"
     ],
     "type": "gene-nucleic-therapy",
@@ -48187,6 +48270,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://modalistx.com/jp/ir/faq/",
       "https://modalistx.com/jp/business/pipeline/"
     ],
     "type": "gene-nucleic-therapy",
@@ -48203,6 +48287,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.chordiatherapeutics.com/ja/",
+      "https://deeppoint.remixpoint.co.jp/startups/chordia",
       "https://www.chordiatherapeutics.com/ja/science/pipeline.html"
     ],
     "type": "innovative-drug-maker",
@@ -48219,6 +48305,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.chordiatherapeutics.com/ja/",
+      "https://www.ono-pharma.com/sites/default/files/ja/news/press/n20_1215.pdf",
       "https://www.chordiatherapeutics.com/ja/science/pipeline.html"
     ],
     "type": "innovative-drug-maker",
@@ -48235,6 +48323,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://stemrim.com/company/",
       "https://stemrim.com/wp/wp-content/uploads/2026/09/140120260909533366.pdf",
       "https://stemrim.com/about/"
     ],
@@ -48252,6 +48341,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://stemrim.com/company/",
       "https://stemrim.com/wp/wp-content/uploads/2026/09/140120260909533366.pdf"
     ],
     "type": "innovative-drug-maker",
@@ -48408,6 +48498,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://myoridge.co.jp/",
+      "https://startup-db.com/companies/oY1lJ73UVneJ35VB",
       "https://myoridge.co.jp/business/"
     ],
     "type": "cdmo-contract-research",
@@ -48424,6 +48516,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://myoridge.co.jp/",
       "https://myoridge.co.jp/original/"
     ],
     "type": "life-science-tools",
@@ -48440,6 +48533,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://myoridge.co.jp/",
       "https://myoridge.co.jp/business/",
       "https://www.astem.or.jp/smes-venture-mekiki/company/128/"
     ],
@@ -48457,6 +48551,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://kitaishihon.com/company/4881/story",
+      "https://www.funpep.co.jp/about-us",
       "https://www.funpep.co.jp/pipeline"
     ],
     "type": "innovative-drug-maker",
@@ -48734,6 +48830,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000127593.html",
       "https://quastella.com/",
       "https://prtimes.jp/main/html/rd/p/000000009.000127593.html"
     ],
@@ -48974,6 +49071,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000051435.html",
       "https://www.micantechnologies.com/"
     ],
     "type": "cdmo-contract-research",
@@ -49368,6 +49466,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://hoist-jp.com/",
+      "https://hoist-jp.com/home/pipeline/",
       "https://hoist-jp.com/home/business/",
       "https://hoist-jp.com/hoist_20250609/"
     ],
@@ -49385,6 +49485,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://hoist-jp.com/",
       "https://hoist-jp.com/home/business/"
     ],
     "type": "cdmo-contract-research",
@@ -49470,6 +49571,7 @@
     "status": "提供中",
     "sources": [
       "https://www.synplogen.com/",
+      "https://cdmo.jp/companies/synplogen/",
       "https://www.synplogen.com/about/"
     ],
     "type": "life-science-tools",
@@ -49584,6 +49686,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://kepple.co.jp/articles/9n11f31498",
+      "https://www.utokyo-ipc.co.jp/ja/story/logomix/",
       "https://logomix.bio/",
       "https://logomix.bio/ja"
     ],
@@ -49852,6 +49956,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000171.000036405.html",
       "https://www.molmir.co.jp/business/"
     ],
     "type": "ai-computational-drug-discovery",
@@ -49922,6 +50027,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://reent.co.jp/",
       "https://reent.co.jp/technology"
     ],
     "type": "regenerative-cell-therapy",
@@ -50093,7 +50199,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://www.feliqs.co.jp/"
+      "https://www.feliqs.co.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000002.000108113.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10"
@@ -50178,6 +50285,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.keio-innovation.co.jp/portfolio/1170/",
       "https://www.cloverna.com/"
     ],
     "type": "gene-nucleic-therapy",
@@ -50208,13 +50316,15 @@
     "category": "pharma",
     "description": "神経筋接合部に薬剤を届ける独自の抗体などのキャリア技術で、神経筋疾患の新しい診断・治療法を開発する（研究段階）。",
     "hp": "https://www.jiksak.co.jp/japanese/business-information/drug-discovery",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://www.jiksak.co.jp/jpnnews/development-of-antibodies",
       "https://www.jiksak.co.jp/japanese/business-information/drug-discovery"
     ],
     "type": "innovative-drug-maker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-07"
   },
   {
     "id": "b-2463d3f0",
@@ -50277,7 +50387,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://cynosbio.com/"
+      "https://cynosbio.com/",
+      "https://startup-db.com/companies/rB5WJbnUeWOJo97q"
     ],
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10"
@@ -50484,6 +50595,282 @@
       "https://layered.inc/press-release/20230703/"
     ],
     "type": "clinic-reservation-queue",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-28fbc0ef",
+    "name": "インテージヘルスケアのCRO事業（臨床開発支援・PMS支援）",
+    "company": "株式会社インテージヘルスケア",
+    "companyId": "jp-125",
+    "category": "cro",
+    "description": "アスクレップ由来の医薬品開発・製造販売後調査・安全性業務支援を、2019年の経営統合で発足したインテージヘルスケアが展開。2024年に新設分割したArkMSの全株式をアルフレッサHDへ譲渡した。",
+    "hp": "https://www.arkms.co.jp/",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2024-09",
+    "endReasons": [
+      "parent-strategy",
+      "acquisition"
+    ],
+    "endReasonNote": "インテージヘルスケアは強みの「データの価値化」に経営資源を集中するため、マーケティングリサーチ・データサイエンス事業に絞り、CRO事業を新設分割しArkMSとしてアルフレッサHDに譲渡したと説明。",
+    "lessons": "データ・リサーチ会社にとってCROは人手中心の受託事業で、強みとの相乗が薄いと判断されれば切り出し対象になる。",
+    "sources": [
+      "https://www.intage-healthcare.co.jp/news/d20240617/"
+    ],
+    "type": "full-service-cro",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6e42dced",
+    "name": "新日本科学 臨床事業部門（国内CRO）",
+    "company": "株式会社新日本科学",
+    "category": "cro",
+    "description": "非臨床CRO大手の新日本科学が国内で手がけていた臨床試験受託部門。国際共同治験への対応を狙い、米CRO大手PPDの日本法人へ譲渡し、合弁会社「新日本科学PPD」（PPD51％・新日本科学49％）に統合した。",
+    "hp": "https://www.ppdsnbl.co.jp/",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2015-04",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "国内限定の治験から多国間同時のグローバル試験が主流となる中、日本実施分を受託するための国際化の一環として臨床事業部門をPPD日本法人へ約38億円で譲渡し合弁化したと報じられた。",
+    "lessons": "国際共同治験の比重が増すと、国内単独CROはグローバルCROとの合弁・統合で生き残りを図る流れになる。",
+    "sources": [
+      "https://maonline.jp/news/20141224b",
+      "https://www.ppdsnbl.co.jp/aboutus/company.html"
+    ],
+    "type": "full-service-cro",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ad96aaed",
+    "name": "リメディアのCRO事業（モニタリング・スペシャリスト派遣）",
+    "company": "株式会社リメディア",
+    "category": "cro",
+    "description": "2014年設立のCRO。がん・血液・免疫・中枢神経などの臨床試験でモニタリングや専門人材派遣を行ってきたが、労働者派遣事業と委受託事業をアルフレッサ系のArkMSへ事業譲渡した。",
+    "hp": "https://remedia-cro.com/",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2026-03",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "2026年1月にArkMSと事業譲渡契約を締結し、3月31日に派遣・委受託事業を譲渡（予定として公表）。ArkMS側はCRO体制強化と説明、リメディア側の売却理由は示されていない。",
+    "sources": [
+      "https://remedia-cro.com/news/1524",
+      "https://remedia-cro.com/company"
+    ],
+    "type": "full-service-cro",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-00c7f6e5",
+    "name": "エスエムオーメディシス（SMO）",
+    "company": "メディカルシステムネットワーク",
+    "companyId": "6430001025872",
+    "category": "cro",
+    "description": "調剤薬局・医薬品ネットワーク大手のメディカルシステムネットワークが子会社で運営していた札幌の治験施設支援（SMO）事業。2017年に全株式をEPSホールディングス傘下のEP綜合へ譲渡した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2017-06",
+    "endReasons": [
+      "competition",
+      "parent-strategy"
+    ],
+    "endReasonNote": "海外治験の増加や治験領域の変化で業績が低迷し、医薬品ネットワーク・調剤薬局の中核事業に経営資源を集中するため、全株式をEP綜合へ譲渡したと公表・報道された。",
+    "lessons": "国内治験の減少・領域の変化はSMOの受託量に直結し、調剤など本業を持つ親会社は規模の大きい専業SMOへ売却を選びやすい。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/43500/140120170518477030.pdf",
+      "https://maonline.jp/news/20170519b"
+    ],
+    "type": "smo-site-support",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a9a1d371",
+    "name": "BELL24・Cell Product（SMO）",
+    "company": "株式会社ベルシステム24ホールディングス",
+    "category": "cro",
+    "description": "コールセンター大手ベルシステム24の100％子会社として札幌でCRC業務・治験事務局・被験者募集支援などのSMO事業を行っていた。2019年にシミック傘下のサイトサポート・インスティテュートへ全株式を譲渡した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2019-03",
+    "endReasons": [
+      "parent-strategy",
+      "acquisition"
+    ],
+    "endReasonNote": "ベルシステム24HDは経営資源をコンタクトセンター中心のCRM事業に集中するため、SMO大手のサイトサポート・インスティテュートへ子会社株式を譲渡し、SMO事業の成長を委ねると開示した。",
+    "lessons": "本業との相乗が薄い周辺の治験支援事業は、親会社の選択と集中で同業大手に集約されやすい。",
+    "sources": [
+      "https://www.bell24.co.jp/ja/news/uploads/20190222_1.pdf"
+    ],
+    "type": "smo-site-support",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-47806398",
+    "name": "マイクロン（イメージングCRO・中央画像判定）",
+    "company": "株式会社マイクロン",
+    "category": "cro",
+    "description": "2005年に本邦初のイメージングCROとして設立。画像プロトコル策定から画像QC、中央画像判定の運営までを一貫支援し、医薬品・診断薬・医療機器の臨床試験を支える。",
+    "hp": "https://microncro.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://microncro.com/solutions/our_imaging_services/",
+      "https://microncro.com/about_us/profile/"
+    ],
+    "type": "imaging-central-reading",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d471ee8f",
+    "name": "ファルフィールド（PMSモニタリング・臨床研究支援）",
+    "company": "株式会社ファルフィールド",
+    "category": "cro",
+    "description": "メディパルグループの卸3社（メディセオ・エバルス・アトル）の製造販売後調査（PMS）事業を2020年に会社分割で承継し、全国のPMSモニターで臨床研究・PMSを支援。2025年に事業をエイツーヘルスケアへ譲渡した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "譲渡",
+    "startedAt": "2020-10",
+    "endedAt": "2025-11",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "2025年11月1日付でエイツーヘルスケアが事業譲受により承継。エイツー側は育薬（PMS）事業強化と説明、メディパル側の譲渡理由は公表文では示されていない。",
+    "sources": [
+      "https://www.a2healthcare.com/news/10502/"
+    ],
+    "type": "post-marketing-bpo",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f0625ab5",
+    "name": "ヒューマの被験者リクルートメント事業",
+    "company": "株式会社ヒューマ",
+    "category": "clinical-trial-support",
+    "description": "被験者募集業界の草分けで、約60万人の会員に治験・臨床研究や健康食品モニターの情報を届けていた。2020年にエムスリー子会社QLifeへ事業を譲渡し、QLifeの治験リクルーティングに統合された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2020-05",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "2020年3月、QLife（エムスリー子会社）がヒューマの被験者リクルートメント事業を譲り受けると発表（効力発生2020-05-01）。エムスリーグループとの連携強化が目的とされ、ヒューマ側の売却理由は示されていない。",
+    "lessons": "会員基盤型のPROは、医師基盤を持つプラットフォーマーに統合されることで規模の価値が出やすい。",
+    "sources": [
+      "https://www.qlife.co.jp/news/8033",
+      "https://www.qlife.co.jp/assets/news/200331qlife_news.pdf"
+    ],
+    "type": "trial-patient-recruitment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7252bcd4",
+    "name": "カット・ドゥ・スクエア（治験業務支援システム）",
+    "company": "公益社団法人日本医師会（治験促進センター）",
+    "category": "clinical-trial-support",
+    "description": "日本医師会治験促進センターがNECと開発し無料提供したクラウド型の治験文書（統一書式）作成・共有・保管システム。2000以上の組織が利用したが、センター業務の打ち切りに伴い2023年2月末で廃止された。",
+    "hp": "",
+    "startedYear": 2010,
+    "status": "終了",
+    "startedAt": "2010-03",
+    "endedAt": "2023-02",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "日本医師会が治験促進センター業務を2023年3月末で打ち切ることに伴い、同センター運営のシステムとして2023年2月末で廃止（2022年8月発表）。センター廃止の理由は公表資料で確認できなかった。",
+    "lessons": "無料の公的インフラは運営主体の方針で突然止まり得るため、利用施設は商用の文書管理（Agatha等）への移行を短期間で迫られた。",
+    "sources": [
+      "https://japan.zdnet.com/article/20410759/",
+      "https://www.med.or.jp/doctor/jmacct/010945.html",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/eye/202302/578372.html",
+      "https://www.cmicgroup.com/news/20221012/"
+    ],
+    "type": "edc-eclinical-system",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-63039ffc",
+    "name": "MiROHA（オンライン診療・eConsent等の臨床試験デジタルソリューション）",
+    "company": "MICIN",
+    "companyId": "1490001008208",
+    "category": "clinical-trial-support",
+    "description": "オンライン診療機能を備えたバーチャル臨床試験の仕組みとしてシミックと共同で始め、eConsent・ePRO・オンライン診療などで患者が通院せずに治験へ参加できるようにする。",
+    "hp": "https://micin.jp/",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-04",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000036.000017806.html",
+      "https://micin.jp/miroha_news/3499/"
+    ],
+    "type": "decentralized-clinical-trial",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7b72abfe",
+    "name": "治験君（治験の施設選定・患者発掘支援）",
+    "company": "エムスリー",
+    "companyId": "1010401063016",
+    "category": "clinical-trial-support",
+    "description": "m3.com会員医師への調査で、治験の対象患者を診ている医師・施設を探し、施設選定や登録促進を支援する。2017年にリニューアルし、100プロトコル超で利用された。",
+    "hp": "https://corporate.m3.com/",
+    "startedYear": 2011,
+    "status": "提供中",
+    "startedAt": "2011-05",
+    "sources": [
+      "https://corporate.m3.com/press_release/2011/20110509_000830.html",
+      "https://corporate.m3.com/press_release/2017/20170529_001286.html"
+    ],
+    "type": "trial-project-site-management",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6ad1fae3",
+    "name": "新型コロナ向けDNAワクチン（武漢型、AG0301-COVID19）",
+    "company": "アンジェス株式会社",
+    "category": "pharma",
+    "description": "大阪大学発のアンジェスが自社のDNAプラスミド技術で開発した国産の新型コロナ予防ワクチン。第I/II相・第II/III相試験と高用量製剤の試験を進めたが、期待する免疫原性に届かず開発を中止した。",
+    "hp": "https://www.anges.co.jp/",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-03",
+    "endedAt": "2022-09",
+    "endReasons": [
+      "evidence"
+    ],
+    "endReasonNote": "高用量製剤でも主要評価項目の中和活性・抗体価が期待水準に届かず、2021年11月時点で初期ワクチンの効果も難しいと判断していたことから、武漢型向けDNAワクチンの開発中止を2022年9月に決定したと開示。",
+    "lessons": "国の大型補助で開発を急いでも、モダリティ（DNAワクチン）の免疫原性という技術上の壁は越えられず、変異株対応の改良型研究へ切り替えた。",
+    "sources": [
+      "https://www2.jpx.co.jp/disc/45630/140120220906529264.pdf"
+    ],
+    "type": "gene-nucleic-therapy",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-68c49f48",
+    "name": "植物由来COVID-19ワクチン「COVIFENZ」（メディカゴ社、MT-2766）",
+    "company": "田辺三菱製薬株式会社（現 田辺ファーマ株式会社）",
+    "category": "pharma",
+    "description": "田辺三菱製薬のカナダ子会社メディカゴが植物由来ウイルス様粒子（VLP）技術で開発した新型コロナワクチン。2022年2月にカナダで承認されたが、商用化を断念しメディカゴ社の全事業から撤退した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2023-02",
+    "endReasons": [
+      "no-payer"
+    ],
+    "endReasonNote": "世界的なワクチン需要と市場環境の変化、商用規模生産への移行課題を総合的に検討し商用化を断念。開発品にも継続投資が難しいとしてメディカゴ社を清算すると三菱ケミカルグループが発表。",
+    "lessons": "承認取得後でも、需要の急減と量産スケールアップの壁が重なると事業化できないことを示した。",
+    "sources": [
+      "https://www.mcgc.com/news_release/pdf/01467/01707.pdf",
+      "https://www.mcgc.com/news_release/01213.html"
+    ],
+    "type": "innovative-drug-maker",
     "updatedAt": "2026-10"
   }
 ]
