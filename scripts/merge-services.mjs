@@ -26,6 +26,8 @@ for (let i = 0; i < args.length; i++) (args[i] === '--as-of' ? (asOf = args[++i]
 const services = JSON.parse(fs.readFileSync(P('services.json'), 'utf8'));
 const companies = JSON.parse(fs.readFileSync(P('companies.json'), 'utf8'));
 const cats = new Set(JSON.parse(fs.readFileSync(P('categories.json'), 'utf8')).map((c) => c.slug));
+// 事業の種類（type）があれば、その種類のカテゴリに入れる
+const typeCat = new Map((fs.existsSync(P('taxonomy.json')) ? JSON.parse(fs.readFileSync(P('taxonomy.json'), 'utf8')) : []).flatMap((c) => c.types.map((t) => [t.slug, c.category])));
 const REASONS = new Set(['regulation', 'reimbursement', 'no-payer', 'workflow', 'evidence', 'funding', 'parent-strategy', 'acquisition', 'competition', 'team', 'infrastructure', 'unknown']);
 const STATUS = new Set(['提供中', '終了', '譲渡', '統合', '休止', '不明']);
 const norm = (s = '') => s.normalize('NFKC').replace(/株式会社|合同会社|[\s「」『』（）()・]/g, '').toLowerCase();
@@ -44,7 +46,7 @@ for (const f of files) {
     const co = x.companyId ? companies.find((c) => c.id === x.companyId) : undefined;
     const company = co?.name ?? x.companyName ?? '';
     const status = STATUS.has(x.status) ? x.status : '不明';
-    const category = cats.has(x.category) ? x.category : co?.categories?.[0] ?? '';
+    const category = typeCat.get(x.type) ?? (cats.has(x.category) ? x.category : co?.categories?.[0] ?? '');
     if (!category) { skipped.push(`${x.name}（カテゴリ不明）`); continue; }
     const rec = {
       name: x.name.trim(),
@@ -63,6 +65,7 @@ for (const f of files) {
       ...(x.endReasonNote ? { endReasonNote: x.endReasonNote.trim() } : {}),
       ...(x.lessons ? { lessons: x.lessons.trim() } : {}),
       sources: x.sources ?? [],
+      ...(typeCat.has(x.type) ? { type: x.type } : {}),
       updatedAt: asOf,
     };
     const themes = theme ? [theme] : [];

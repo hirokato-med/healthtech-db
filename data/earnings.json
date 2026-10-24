@@ -7822,5 +7822,68 @@
     "note": "IFRS。ordinaryIncomeは税引前利益。会社の主要指標の事業利益は251,785（前期210,968）、次期予想235,000。セグメント売上は外部顧客からの売上収益。ヘルスサイエンスは前期第3四半期からファンケルを連結"
    }
   ]
+ },
+ "8140001022724": {
+  "code": "4572",
+  "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q2",
+    "label": "2026年12月期 第2四半期（中間期）",
+    "date": "2026-08-06",
+    "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 401,
+     "operatingIncome": -954,
+     "ordinaryIncome": -1005,
+     "netIncome": -1039
+    },
+    "prior": {
+     "revenue": 251,
+     "operatingIncome": -1052,
+     "ordinaryIncome": -1055,
+     "netIncome": -1056
+    },
+    "forecast": {
+     "revenue": 720,
+     "operatingIncome": -2028,
+     "ordinaryIncome": -2053,
+     "netIncome": -2090
+    },
+    "pdf": "https://www.carnabio.com/output/irlibrary/773_ja.pdf",
+    "source": "決算短信",
+    "note": "百万円未満切捨て。中間期末の純資産は△407百万円（債務超過）"
+   },
+   {
+    "fiscalYear": "2025年12月期",
+    "quarter": "FY",
+    "label": "2025年12月期 通期",
+    "date": "2026-02-10",
+    "title": "2025年12月期 決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 579,
+     "operatingIncome": -2074,
+     "ordinaryIncome": -2144,
+     "netIncome": -2171
+    },
+    "prior": {
+     "revenue": 636,
+     "operatingIncome": -2076,
+     "ordinaryIncome": -2080,
+     "netIncome": -2178
+    },
+    "nextForecast": {
+     "revenue": 720,
+     "operatingIncome": -2028,
+     "ordinaryIncome": -2053,
+     "netIncome": -2090
+    },
+    "pdf": "https://www.carnabio.com/output/irlibrary/763_ja.pdf",
+    "source": "決算短信",
+    "note": "百万円未満切捨て"
+   }
+  ]
  }
 }
