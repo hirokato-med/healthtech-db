@@ -85638,22 +85638,45 @@
     "companyId": "3013201016802",
     "category": "medical-cosmetic",
     "description": "自由診療・美容クリニック向けの電子カルテ。2023年8月に事業譲受で取得し、同年10月に価格を改定",
-    "hp": "",
-    "startedYear": 2023,
+    "hp": "https://www.smart-crm.me/",
+    "startedYear": 2022,
     "status": "提供中",
-    "startedAt": "2023-08",
-    "startBasis": "事業譲受の発表（カルーとしての提供開始。製品自体は前の運営元で開始）",
+    "startedAt": "2022-06-02",
+    "startBasis": "前の運営会社（株式会社ヴァージニア、現 ビーラボ）で提供開始",
     "milestones": [
+      {
+        "date": "2022-06-02",
+        "text": "美容クリニック向けクラウド業務支援システム「SMARTCRM」の提供を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000014.000061235.html"
+      },
+      {
+        "date": "2022-11-04",
+        "text": "LINE予約システム「MC 予約」との連携を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000018.000061235.html"
+      },
+      {
+        "date": "2023-07",
+        "text": "カルー株式会社へ事業譲渡（同年8月23日にカルーが発表）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000127596.html"
+      },
       {
         "date": "2023-08",
         "text": "SMARTCRMを事業譲受"
       }
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000031.000127596.html"
+      "https://prtimes.jp/main/html/rd/p/000000014.000061235.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000127596.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000179071.html"
     ],
     "type": "cosmetic-clinic-saas",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endedAt": "2023-07",
+    "successor": "カルー株式会社（自費・美容クリニック専用電子カルテ「SMARTCRM」）",
+    "endReasonNote": "2023年7月に医療機関検索サイト「Caloo」のカルー株式会社へ事業譲渡（カルーが8月に発表）。ヴァージニア側の理由は公表されていない。"
   },
   {
     "id": "b-e263a0c4",
@@ -99304,7 +99327,7 @@
     "description": "大阪・心斎橋に開いた若者向けの相談施設。生理や性、妊娠の悩みを助産師らに対面・オンラインで相談でき、性感染症検査キットの提供や出張相談、性教育講演も行う。",
     "hp": "https://smaluna.com/smaluna-station/",
     "startedYear": 2021,
-    "status": "提供中",
+    "status": "終了",
     "startedAt": "2021-10-01",
     "startBasis": "開設（プレスリリース）",
     "milestones": [
@@ -99317,14 +99340,26 @@
         "date": "2023-11-21",
         "text": "グリ下近くのユースセンターで「出張スマルナステーション」を開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000165.000021661.html"
+      },
+      {
+        "date": "2026-03-31",
+        "text": "心斎橋の相談施設としてのサービスを終了",
+        "source": "https://smaluna.com/smaluna-station/"
       }
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000070.000021661.html",
-      "https://smaluna.com/smaluna-station/"
+      "https://smaluna.com/smaluna-station/",
+      "https://prtimes.jp/main/html/rd/p/000000303.000021661.html",
+      "https://prtimes.jp/main/html/rd/p/000000070.000021661.html"
     ],
     "type": "femtech-expert-consultation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "endedAt": "2026-03-31",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "公式ページで2026年3月31日をもってサービス終了と告知。理由の説明はなく、以後の相談は「スマルナ医療相談室」（オンライン）へ案内している。",
+    "successor": "スマルナ医療相談室（ネクイノ、オンライン）"
   },
   {
     "id": "b-0cdf4d41",
