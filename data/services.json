@@ -66766,5 +66766,1171 @@
     ],
     "type": "infant-head-shape-helmet",
     "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-983da0fd",
+    "name": "JMDC Claims Database（健保レセプト由来の製薬向け医療データベース）",
+    "company": "株式会社JMDC",
+    "companyId": "6010403010531",
+    "category": "real-world-data",
+    "description": "健康保険組合から預かったレセプト・健診データを匿名化して蓄積し、製薬企業や研究機関に疫学・市場分析用データベースとして提供する。前身の日本医療データセンター時代から続く国内の代表的な保険者由来データ事業。",
+    "hp": "https://www.jmdc.co.jp/",
+    "startedYear": 2003,
+    "status": "提供中",
+    "startedAt": "2003-12",
+    "startBasis": "JMDC沿革：製薬会社向け医療DB「Quick Analysis（QA）」販売開始",
+    "milestones": [
+      {
+        "date": "2003-12",
+        "text": "製薬会社向け医療DB Quick Analysis（QA）販売開始（社名は日本医療データセンター）",
+        "source": "https://www.jmdc.co.jp/company/history/"
+      },
+      {
+        "date": "2009-04",
+        "text": "製薬会社向け医療DB JMDC Data Mart（JDM）販売開始",
+        "source": "https://www.jmdc.co.jp/company/history/"
+      },
+      {
+        "date": "2013-01",
+        "text": "安全性・疫学領域向け「JDM-PV」販売開始",
+        "source": "https://www.jmdc.co.jp/company/history/"
+      }
+    ],
+    "sources": [
+      "https://www.jmdc.co.jp/company/history/"
+    ],
+    "type": "insurer-derived-database",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3f4a9858",
+    "name": "メディカルビッグデータ「REZULT（リザルト）」",
+    "company": "日本システム技術株式会社",
+    "category": "real-world-data",
+    "description": "健康保険組合などから二次利用の許諾を得た匿名加工レセプト・健診データ（保険者241、1,000万人超）を、製薬企業・アカデミア・自治体向けに提供・分析する。レセプト点検システムを手がけるIT企業の事業。",
+    "hp": "https://www.rezult-lp.com/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-01",
+    "startBasis": "確認できた最も古い一次情報：国立情報学研究所経由でアカデミア向けにメディカルデータセットの提供開始を発表（REZULTの名称はのちに付与）",
+    "milestones": [
+      {
+        "date": "2022-01",
+        "text": "国立情報学研究所からアカデミア研究者向けにメディカルデータセットの提供を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000092153.html"
+      },
+      {
+        "date": "2022-11",
+        "text": "アマゾンウェブサービス上でのメディカルデータ提供を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000019.000092153.html"
+      },
+      {
+        "date": "2025-06",
+        "text": "『REZULT』ブランドサイトを開設",
+        "source": "https://prtimes.jp/main/html/rd/p/000000131.000092153.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000092153.html",
+      "https://prtimes.jp/main/html/rd/p/000000131.000092153.html",
+      "https://www.rezult-lp.com/"
+    ],
+    "type": "insurer-derived-database",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-134880d8",
+    "name": "匿名医療保険等関連情報データベース（NDB）の第三者提供",
+    "company": "厚生労働省",
+    "category": "real-world-data",
+    "description": "全国のレセプトと特定健診データを格納したNDBを、審査を経て研究者や民間企業に提供する国の事業。2011年度に試行提供、2013年度に本格実施、2020年の法改正で民間企業への提供が法制化された。",
+    "hp": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/reseputo/index.html",
+    "startedYear": 2011,
+    "status": "提供中",
+    "startedAt": "2011-04",
+    "startBasis": "厚労省NDBページ：レセプト情報等の第三者提供を平成23年度から試行的に実施（年度開始月で記載）",
+    "milestones": [
+      {
+        "date": "2011-04",
+        "text": "レセプト情報等の第三者提供を試行的に開始（平成23年度）",
+        "source": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/reseputo/index.html"
+      },
+      {
+        "date": "2013-04",
+        "text": "第三者提供を本格実施（平成25年度）",
+        "source": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/reseputo/index.html"
+      },
+      {
+        "date": "2020-10",
+        "text": "改正高齢者医療確保法の施行で民間企業を含む第三者提供が法制化",
+        "source": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/reseputo/index.html"
+      }
+    ],
+    "sources": [
+      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/reseputo/index.html"
+    ],
+    "type": "insurer-derived-database",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-febb14a6",
+    "name": "転倒転落予測AIシステム「KIBIT Coroban（コロバン）」（NTT東日本関東病院との共同研究から製品化）",
+    "company": "株式会社FRONTEO",
+    "companyId": "1010401051219",
+    "category": "medical-data-analytics",
+    "description": "NTT東日本関東病院と共同研究し、電子カルテの看護記録を自然言語AI「KIBIT」で解析して入院患者の転倒・転落リスクを予測するシステムを開発。2019年に製品化し、病院に販売している。",
+    "hp": "https://www.fronteo.com/",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015-03",
+    "startBasis": "NTT東日本関東病院とUBIC（現FRONTEO）が転倒・転落防止システムの共同研究を発表",
+    "milestones": [
+      {
+        "date": "2015-03",
+        "text": "NTT東日本関東病院とUBIC（現FRONTEO）が共同研究を発表",
+        "source": "https://cloud.watch.impress.co.jp/docs/news/693035.html"
+      },
+      {
+        "date": "2019-09",
+        "text": "エーザイとともに「Coroban」として医療機関向けに発売",
+        "source": "https://www.eisai.co.jp/news/2019/news201973.html"
+      },
+      {
+        "date": "2024-04",
+        "text": "エーザイとの業務提携契約の終了に伴い、「KIBIT Coroban」としてFRONTEOの単独販売を開始",
+        "source": "https://www.fronteo.com/news/20240401"
+      }
+    ],
+    "sources": [
+      "https://www.fronteo.com/news/20240401",
+      "https://www.eisai.co.jp/news/2019/news201973.html",
+      "https://cloud.watch.impress.co.jp/docs/news/693035.html"
+    ],
+    "type": "medical-ai-joint-research",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1c572d75",
+    "name": "転倒・転落予測システム「Coroban」の販売（FRONTEOとの業務提携）",
+    "company": "エーザイ株式会社",
+    "companyId": "6010001000001",
+    "category": "medical-data-analytics",
+    "description": "病院とAI企業の共同研究から生まれた転倒・転落予測AIを、製薬会社のエーザイがFRONTEOと業務提携して医療機関に販売した事業。製薬会社が医療安全向けAIの販売を担った事例。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "終了",
+    "startedAt": "2019-09",
+    "startBasis": "エーザイ・FRONTEO共同リリース「Coroban」発売日",
+    "endedAt": "2024-03",
+    "milestones": [
+      {
+        "date": "2019-09",
+        "text": "エーザイとFRONTEOが「Coroban」を医療機関向けに発売",
+        "source": "https://www.eisai.co.jp/news/2019/news201973.html"
+      },
+      {
+        "date": "2024-04",
+        "text": "業務提携契約の終了に伴い、FRONTEOが単独販売に移行",
+        "source": "https://www.fronteo.com/news/20240401"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "FRONTEOは2024年4月に「エーザイとの業務提携契約の終了に伴い」単独販売を始めると発表したが、契約終了の理由は説明していない。",
+    "sources": [
+      "https://www.eisai.co.jp/news/2019/news201973.html",
+      "https://www.fronteo.com/news/20240401"
+    ],
+    "type": "medical-ai-joint-research",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-16fc9779",
+    "name": "トリビューオンライン（美容内服薬のオンライン処方）",
+    "company": "トリビュー",
+    "companyId": "7010401132946",
+    "category": "medical-cosmetic",
+    "description": "美容医療の口コミ・予約アプリ「トリビュー」の運営会社が、提携クリニックの医師によるシミ・ニキビ向け美容内服薬のオンライン診察・処方・配送を仲介する。施術予約とオンライン処方でポイントを相互に使える。",
+    "hp": "https://tribeau.jp/",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-04",
+    "startBasis": "トリビューのリリース：2026年4月1日に提供開始",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000055.000047703.html"
+    ],
+    "type": "cosmetic-online-dermatology",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2124deea",
+    "name": "ミュゼオンラインクリニック",
+    "company": "ミュゼ・メディア・HD株式会社",
+    "category": "medical-cosmetic",
+    "description": "脱毛サロン「ミュゼプラチナム」の運営会社が始めた美容医療のオンライン診療サービス。提携医師がスマホで診察・相談し、美容内服薬などを処方して自宅に届ける。エステ大手の美容医療参入の例。",
+    "hp": "",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-05",
+    "startBasis": "ミュゼ・メディア・HDのリリース：2026年5月10日提供開始",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000013.000167254.html"
+    ],
+    "type": "cosmetic-online-dermatology",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ecf4cad7",
+    "name": "がん検診中心の健診センター「NURA（ニューラ）」",
+    "company": "富士フイルムホールディングス株式会社",
+    "companyId": "6010401065370",
+    "category": "telemedicine",
+    "description": "自社のCT・マンモグラフィとAI診断支援を使い、がん検診と生活習慣病検査を約120分で終える健診センターを新興国で運営する。2021年にインド・ベンガルールで始め、モンゴル・ベトナムへ広げ、移動式健診や遠隔読影も行う。",
+    "hp": "https://www.fujifilm.com/jp/ja/news/list/11974",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-01",
+    "startBasis": "富士フイルムがインドでの健診センター「NURA」開設を発表（日経に掲載のリリース）",
+    "milestones": [
+      {
+        "date": "2021-01",
+        "text": "インド・ベンガルールに健診センター「NURA」を開設すると発表",
+        "source": "https://www.nikkei.com/article/DGXLRSP603729_V20C21A1000000/"
+      },
+      {
+        "date": "2023-11",
+        "text": "インド・ハイデラバードに新拠点を開設",
+        "source": "https://www.fujifilm.com/jp/ja/news/list/10875"
+      },
+      {
+        "date": "2024-07",
+        "text": "ベトナムに展開、モンゴル・ウランバートルにも新拠点",
+        "source": "https://www.fujifilm.com/jp/ja/news/list/11563"
+      },
+      {
+        "date": "2024-12",
+        "text": "医療スタッフ研修や遠隔読影も担う「NURA Global Innovation Center」をインド・コジコードに開設（インド4、モンゴル2、ベトナム1拠点）",
+        "source": "https://www.fujifilm.com/jp/ja/news/list/11974"
+      }
+    ],
+    "sources": [
+      "https://www.fujifilm.com/jp/ja/news/list/11974",
+      "https://www.nikkei.com/article/DGXLRSP603729_V20C21A1000000/"
+    ],
+    "type": "emerging-market-health",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3657bd2b",
+    "name": "米国シメトラ社（メディカル・ストップ・ロス保険など）",
+    "company": "住友生命保険相互会社",
+    "category": "insuarance",
+    "description": "住友生命が約4,666億円で買収した米国の生命保険グループ。自家保険の企業向けに高額医療費を補償するメディカル・ストップ・ロス保険で業界上位（買収発表時5位）に立ち、団体保険・年金事業も持つ。",
+    "hp": "https://www.symetra.com/",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015-08",
+    "startBasis": "住友生命のリリース：シメトラ社買収手続き開始の合意を発表",
+    "milestones": [
+      {
+        "date": "2015-08",
+        "text": "住友生命がシメトラ社の買収手続き開始で合意（メディカル・ストップ・ロス保険は業界5位）",
+        "source": "https://www.sumitomolife.co.jp/news/news_file/file/150811.pdf"
+      },
+      {
+        "date": "2025-07",
+        "text": "シメトラが米ディアボーンの団体保険事業を買収、住友生命が約1,305億円を増資（報道）",
+        "source": "https://www.nikkinonline.com/article/291183"
+      }
+    ],
+    "sources": [
+      "https://www.sumitomolife.co.jp/news/news_file/file/150811.pdf",
+      "https://www.sankei.com/article/20150811-6V2UMVI7G5OSLFKUPUROQNDIQQ/"
+    ],
+    "type": "overseas-managed-care",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-05f903e3",
+    "name": "バトンズクリニック（小規模クリニックのM&A支援）",
+    "company": "株式会社バトンズ",
+    "category": "medical-management-support",
+    "description": "日本M&Aセンターグループのバトンズが、エムスリーと連携して始めた小規模クリニック向けの承継マッチング。後継者のいない診療所の譲渡案件を掲載し、開業を目指す医師とつなぐ。",
+    "hp": "https://batonz.jp/clinic/",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-09",
+    "startBasis": "バトンズ・日本M&AセンターHDのリリース：サービス開始",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000237.000034376.html",
+      "https://prtimes.jp/main/html/rd/p/000000281.000081927.html"
+    ],
+    "type": "healthcare-ma-succession",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0fa5746d",
+    "name": "医療・介護業界特化型M&A事業",
+    "company": "株式会社NURSY",
+    "category": "medical-management-support",
+    "description": "看護師不足の解消を掲げる大阪の企業が、医療機関や介護施設の事業承継を仲介するM&A事業を始めた。M&Aを通じて即戦力の人材を確保することを支援の柱にしている。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-07",
+    "startBasis": "NURSYのリリース：M&A事業を新たに開始",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000145953.html"
+    ],
+    "type": "healthcare-ma-succession",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2ac276e2",
+    "name": "メンラボM&A（福祉・医療・介護特化の事業承継支援）",
+    "company": "メンタルヘルスラボ株式会社",
+    "category": "medical-management-support",
+    "description": "就労移行支援などを運営する会社が始めた、福祉・医療・介護事業所に特化したM&A仲介。売り手の手数料を0円とし、人材難による休廃業で利用者の行き場がなくなるのを防ぐことを掲げる。",
+    "hp": "",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-06",
+    "startBasis": "メンタルヘルスラボのリリース：サービス開始",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000129.000051972.html"
+    ],
+    "type": "healthcare-ma-succession",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c68913aa",
+    "name": "Grants4Apps Tokyo／G4A Tokyo Dealmaker（デジタルヘルスのオープンイノベーションプログラム）",
+    "company": "バイエル薬品株式会社",
+    "category": "vc-cvc",
+    "description": "外資系製薬のバイエル薬品が、デジタルヘルスの起業家・スタートアップに助成金や協業機会を提供したプログラム。2018年からは自社の研究開発・製造課題を示して協業先を選ぶ「Dealmaker」形式に変えた。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "不明",
+    "startedAt": "2016-06",
+    "startBasis": "バイエル薬品リリース：第1回Grants4Apps Tokyoの最優秀賞決定（募集開始日は未確認）",
+    "milestones": [
+      {
+        "date": "2016-06",
+        "text": "第1回「Grants4Apps Tokyo」の最優秀賞を決定",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000019857.html"
+      },
+      {
+        "date": "2018-07",
+        "text": "「G4A Tokyo Dealmaker 2018」として、自社課題に対する協業提案を募る形式に変更",
+        "source": "https://prtimes.jp/main/html/rd/p/000000014.000019857.html"
+      },
+      {
+        "date": "2021-03",
+        "text": "「G4A Tokyo Dealmaker 2020」のコラボレーション合意企業を発表（以降の募集・発表は確認できない）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000038.000019857.html"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000019857.html",
+      "https://prtimes.jp/main/html/rd/p/000000014.000019857.html",
+      "https://prtimes.jp/main/html/rd/p/000000038.000019857.html"
+    ],
+    "type": "healthcare-accelerator",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ef7f7c68",
+    "name": "BRAVE（ディープテック起業家向けアクセラレーションプログラム）",
+    "company": "Beyond Next Ventures株式会社",
+    "category": "vc-cvc",
+    "description": "医療・ライフサイエンス中心のVCが運営する、研究者・技術系スタートアップ向けのアクセラレーションプログラム。経営人材とのマッチングやメンタリングを行い、DEMO DAYで成果を発表する。",
+    "hp": "https://brave.team/",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017-08",
+    "startBasis": "確認できた最古の一次情報：第3期「BRAVE 2017 Winter」の募集開始リリース（第1期の時期は未確認）",
+    "milestones": [
+      {
+        "date": "2017-08",
+        "text": "第3期「BRAVE 2017 Winter」の募集開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000017.000017460.html"
+      },
+      {
+        "date": "2021-12",
+        "text": "BRAVE2021 DEMO DAYで救急全身CT診断AIのfcuroが最優秀賞",
+        "source": "https://prtimes.jp/main/html/rd/p/000000116.000017460.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000017.000017460.html",
+      "https://prtimes.jp/main/html/rd/p/000000116.000017460.html"
+    ],
+    "type": "healthcare-accelerator",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-df8ed918",
+    "name": "TriNetX（匿名化電子カルテによる治験フィージビリティ・候補患者探索）の国内展開",
+    "company": "三井物産株式会社",
+    "companyId": "1010001008767",
+    "category": "clinical-trial-support",
+    "description": "北米・欧州などの医療機関の匿名化電子カルテを結ぶ米TriNetXのネットワークを日本に広げるため、三井物産が協業契約を結んだ。製薬企業は対象患者数の見積もりや治験施設・候補患者の探索に使い、参加病院には治験の紹介機会が届く。",
+    "hp": "https://trinetx.com/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-03",
+    "startBasis": "三井物産トピックス：TriNetXとの協業契約締結",
+    "milestones": [
+      {
+        "date": "2022-03",
+        "text": "三井物産がTriNetXと日本展開支援の協業契約を締結",
+        "source": "https://www.mitsui.com/jp/ja/topics/2022/1243117_13393.html"
+      }
+    ],
+    "sources": [
+      "https://www.mitsui.com/jp/ja/topics/2022/1243117_13393.html"
+    ],
+    "type": "ehr-trial-candidate-search",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5a283f73",
+    "name": "CyberOncology（がん診療の電子カルテ入力支援・RWD構造化システム）",
+    "company": "新医療リアルワールドデータ研究機構株式会社",
+    "companyId": "jp-068",
+    "category": "clinical-trial-support",
+    "description": "がん薬物療法を行う病院の電子カルテ情報を標準化・構造化して蓄積し、臨床研究や製薬企業との観察研究、市販後調査に使える形に整えるシステム。病理レポートからのバイオマーカー自動抽出も進める。",
+    "hp": "https://prime-r.inc/",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-09",
+    "startBasis": "PRiME-Rリリース：本格提供開始の発表（提供開始は2020年10月1日）",
+    "milestones": [
+      {
+        "date": "2020-09",
+        "text": "CyberOncologyの本格提供開始を発表（10月1日開始）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000065803.html"
+      },
+      {
+        "date": "2020-11",
+        "text": "アストラゼネカのオシメルチニブの臨床研究に活用",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000065803.html"
+      },
+      {
+        "date": "2025-02",
+        "text": "病理検査レポート等から約10万件のバイオマーカー情報の自動抽出・構造化に成功",
+        "source": "https://prtimes.jp/main/html/rd/p/000000030.000065803.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000065803.html",
+      "https://prtimes.jp/main/html/rd/p/000000030.000065803.html"
+    ],
+    "type": "ehr-trial-candidate-search",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9d2950a9",
+    "name": "ライフネット生命（ネット専業の医療保険・がん保険・定期保険）",
+    "company": "ライフネット生命保険株式会社",
+    "category": "insuarance",
+    "description": "インターネット専業の生命保険会社。2008年に定期死亡保険と終身医療保険で営業を始め、付加保険料率の開示や診断書不要の給付金請求など、対面営業を持たないモデルで医療保険・がん保険・就業不能保険を販売している。",
+    "hp": "https://www.lifenet-seimei.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2006-10",
+        "text": "生命保険準備会社「ネットライフ企画」を設立",
+        "source": "https://ir.lifenet-seimei.co.jp/ja/company/history.html"
+      },
+      {
+        "date": "2008-05",
+        "text": "営業開始",
+        "source": "https://ir.lifenet-seimei.co.jp/ja/company/history.html"
+      },
+      {
+        "date": "2010-02",
+        "text": "個人向け就業不能保険の販売を開始",
+        "source": "https://ir.lifenet-seimei.co.jp/ja/company/history.html"
+      },
+      {
+        "date": "2012-03",
+        "text": "東証マザーズに上場",
+        "source": "https://ir.lifenet-seimei.co.jp/ja/company/history.html"
+      }
+    ],
+    "sources": [
+      "https://ir.lifenet-seimei.co.jp/ja/company/history.html"
+    ],
+    "type": "medical-life-insurance",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-50091661",
+    "name": "アクサダイレクト生命（旧SBIアクサ生命・ネクスティア生命）のネット完結型医療保険・がん保険",
+    "company": "アクサ生命保険株式会社（旧 アクサダイレクト生命保険株式会社）",
+    "category": "insuarance",
+    "description": "SBIとアクサの合弁で「日本初のネット生保」として開業し、ネット申込の医療保険・がん保険・定期保険を販売した。アクサの完全子会社となり社名を変えた後、アクサ生命に合併され、ネット完結保険の新規申込も終了した。",
+    "hp": "https://www.axa-direct-life.co.jp/",
+    "startedYear": 2008,
+    "status": "統合",
+    "startedAt": "2008-04",
+    "startBasis": "SBIアクサ生命のリリース：2008年4月7日開業",
+    "endedAt": "2025-04",
+    "milestones": [
+      {
+        "date": "2008-04",
+        "text": "SBIアクサ生命として開業",
+        "source": "https://prtimes.jp/main/html/rd/p/000000039.000000693.html"
+      },
+      {
+        "date": "2013-05",
+        "text": "ネクスティア生命から「アクサダイレクト生命保険」に社名変更",
+        "source": "http://prtimes.jp/main/html/rd/p/000000031.000003328.html"
+      },
+      {
+        "date": "2024-04",
+        "text": "アクサ生命と合併（2023年7月発表、報道）",
+        "source": "https://www.nikkei.com/article/DGXZQOUB277PO0X20C23A7000000/"
+      },
+      {
+        "date": "2025-04",
+        "text": "「アクサのネット完結保険（旧アクサダイレクト生命）」をアクサ生命に統合し、新規申込は営業担当者・代理店経由に",
+        "source": "https://www.axa-direct-life.co.jp/"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2024年4月にアクサ生命と合併（報道）。アクサ生命は旧アクサダイレクト生命のネット完結保険を2025年4月に統合し、新規申込は営業担当者・代理店経由に切り替えたと告知している。理由の詳細は確認できない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000039.000000693.html",
+      "http://prtimes.jp/main/html/rd/p/000000031.000003328.html",
+      "https://www.nikkei.com/article/DGXZQOUB277PO0X20C23A7000000/",
+      "https://www.axa-direct-life.co.jp/"
+    ],
+    "type": "medical-life-insurance",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3e2cda0f",
+    "name": "歯科・医療材料の通販「Ciメディカル」",
+    "company": "株式会社歯愛メディカル",
+    "category": "wholesale",
+    "description": "歯科医院・医療機関・介護施設向けに、歯科材料・医療消耗品・プライベートブランド品をカタログとネットで販売する通販型の卸。営業担当を置かない低価格モデルで伸び、2025年にエア・ウォーターのTOBで同社グループに入った。",
+    "hp": "https://www.ci-medical.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2025-08",
+        "text": "エア・ウォーターが約388億円のTOBで子会社化すると発表（報道）",
+        "source": "https://www.sankei.com/article/20250807-2Z6PAQ6BDVIBPNKSQLLLY53G3A/"
+      },
+      {
+        "date": "2025-12",
+        "text": "株式の上場廃止",
+        "source": "https://www.ci-medical.co.jp/company/history/"
+      }
+    ],
+    "sources": [
+      "https://ci-medical.co.jp/about",
+      "https://www.sankei.com/article/20250807-2Z6PAQ6BDVIBPNKSQLLLY53G3A/"
+    ],
+    "type": "device-material-wholesale",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-af52c2a4",
+    "name": "DCT（分散型臨床試験）支援",
+    "company": "株式会社DCT Japan",
+    "category": "clinical-trial-support",
+    "description": "在宅医療を手がける医師が立ち上げたDCT特化企業。訪問看護（ホームナーシング）、オンライン診療、治験薬の配送、被験者募集を組み合わせ、製薬企業・CROの治験で患者が自宅から参加できる体制をつくる。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2022-05",
+        "text": "CHCPホームナーシングと業務提携",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000099941.html"
+      },
+      {
+        "date": "2022-09",
+        "text": "セルートと治験薬配送で協業",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000099941.html"
+      },
+      {
+        "date": "2022-10",
+        "text": "BuzzreachとDCTで協業",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000099941.html"
+      },
+      {
+        "date": "2025-05",
+        "text": "7疾患領域で医療機関との提携を拡大",
+        "source": "https://prtimes.jp/main/html/rd/p/000000006.000099941.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000099941.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000099941.html"
+    ],
+    "type": "decentralized-clinical-trial",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9b78829b",
+    "name": "iBow治験システム（訪問看護による在宅治験の全国対応）",
+    "company": "株式会社eWeLL",
+    "companyId": "1120001171257",
+    "category": "clinical-trial-support",
+    "description": "訪問看護向け電子カルテ「iBow」を使うステーションのネットワークを生かし、製薬企業や治験会社からの在宅治験の依頼に全国の訪問看護師が対応できるようにした仕組み。",
+    "hp": "https://ewell.co.jp/",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-11",
+    "startBasis": "eWeLLリリース：iBow治験システムの開発を発表",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000012.000026391.html"
+    ],
+    "type": "decentralized-clinical-trial",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-152d4184",
+    "name": "DCTサポートサービス・治験ポータルサイト",
+    "company": "株式会社ベルシステム24",
+    "category": "clinical-trial-support",
+    "description": "コールセンター大手が、MICINのDCTプラットフォーム「MiROHA」を使った被験者対応・ヘルプデスクなど、分散型臨床試験の運用を支援するサービス。製薬企業と生活者をつなぐ治験ポータルサイトも開設した。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-03",
+    "startBasis": "ベルシステム24リリース：MiROHAを利用したDCTサポートサービスの提供開始",
+    "milestones": [
+      {
+        "date": "2023-03",
+        "text": "MiROHAを利用したDCTサポートサービスを開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000037.000109272.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000037.000109272.html"
+    ],
+    "type": "decentralized-clinical-trial",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-96b4a0cd",
+    "name": "スペインの在宅医療サービス事業（Esteve Teijin Healthcare）",
+    "company": "帝人株式会社",
+    "companyId": "8120001077489",
+    "category": "home-medical",
+    "description": "帝人がスペイン製薬大手エステベと折半出資の合弁を設立し、在宅酸素療法などの在宅医療サービスをスペインで提供した事業。公共入札で地域を広げたが、合弁相手の方針転換を受けて株式を日本酸素HD傘下のOximesaに売却し、欧州の在宅医療から撤退した。",
+    "hp": "",
+    "startedYear": 2009,
+    "status": "譲渡",
+    "startedAt": "2009-02",
+    "startBasis": "帝人の適時開示：合弁会社ETH社を設立し2009年2月よりスペインで在宅医療サービス事業を開始",
+    "endedAt": "2025-03",
+    "milestones": [
+      {
+        "date": "2009-02",
+        "text": "エステベ社との合弁ETH社を設立し、スペインで在宅医療サービス事業を開始",
+        "source": "https://www.teijin.co.jp/news/2024/12/19/20241219_01.pdf"
+      },
+      {
+        "date": "2024-12",
+        "text": "ETH社の全株式（50％）を日本酸素HD傘下のOximesa社へ約6,200万ユーロで譲渡すると決議（2025年3月めど）",
+        "source": "https://www.teijin.co.jp/news/2024/12/19/20241219_01.pdf"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "帝人は、合弁相手のエステベ社が在宅医療以外のヘルスケア分野に注力する意向を示したことを受け、株式譲渡が最善と判断したと説明。エステベの顧客基盤に頼っており単独継続は難しいと判断したと報じられた。",
+    "sources": [
+      "https://www.teijin.co.jp/news/2024/12/19/20241219_01.pdf",
+      "https://www.nikkei.com/article/DGXZQOUC19CCR0Z11C24A2000000/"
+    ],
+    "type": "home-medical-therapy",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ae2498d6",
+    "name": "オンライン診療 精神科（介護施設向け）",
+    "company": "ドクターメイト株式会社",
+    "companyId": "4040001102829",
+    "category": "telemedicine",
+    "description": "介護施設の入居者に対し、精神科医が施設とつないだオンラインで診察から処方までを行うサービス。認知症の周辺症状などで施設が精神科受診に苦労する課題に向け、日中相談・夜間オンコール代行に続いて始めた。",
+    "hp": "https://doctormate.co.jp/",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-11",
+    "startBasis": "ドクターメイトのリリース：正式リリース（2025年9月に高齢者施設向けオンライン精神科療養指導の実践を学会発表）",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000104.000047082.html"
+    ],
+    "type": "facility-remote-consultation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-23563933",
+    "name": "Sunrise Japan Hospital Phnom Penh（カンボジアの日本式救急・脳神経外科病院）",
+    "company": "医療法人社団KNI（北原国際病院）／日揮ホールディングス株式会社",
+    "category": "clinic-chain",
+    "description": "八王子の北原国際病院を運営する医療法人KNIが、日揮や産業革新機構と組んでカンボジア・プノンペンに開いた救急・脳神経外科中心の病院。日本の医療を輸出する先行事例として現在も運営されている。",
+    "hp": "https://sunrise-hs.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2016-09",
+        "text": "KNIが日揮などとカンボジアに救急病院を開設（報道）",
+        "source": "https://www.nikkei.com/article/DGKKZO07208340T10C16A9L83000/"
+      }
+    ],
+    "sources": [
+      "https://sunrise-hs.com/",
+      "https://www.nikkei.com/article/DGKKZO07208340T10C16A9L83000/",
+      "https://www.huffingtonpost.jp/rumiko-tsuboi/sunrise-japan-hospital-ph_b_14565936.html"
+    ],
+    "type": "overseas-hospital-group",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6007e38d",
+    "name": "トルコ・イスタンブールのイキテリ総合病院（2,682床）の施設運営（PPP）",
+    "company": "双日株式会社",
+    "category": "clinic-chain",
+    "description": "双日がトルコの建設大手ルネサンスグループと事業会社をつくり、トルコ保健省の官民連携（PPP）でイスタンブールの2,682床の総合病院の建設と長期の施設運営を担う。日系企業が海外の大型病院の施設運営に関わる初の例とされた。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017-07",
+    "startBasis": "双日のリリース（日経掲載）：病院施設運営事業への参画を発表",
+    "milestones": [
+      {
+        "date": "2017-07",
+        "text": "双日がイキテリ総合病院の施設運営事業への参画を発表。国際協力銀行とメガバンクが協調融資",
+        "source": "https://www.nikkei.com/article/DGXLRSP451906_R20C17A7000000/"
+      }
+    ],
+    "sources": [
+      "https://www.nikkei.com/article/DGXLRSP451906_R20C17A7000000/",
+      "https://www.sankei.com/article/20170721-DTWZCFXRHNP37A37Z3UNTDWHRA/"
+    ],
+    "type": "overseas-hospital-group",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2ceaf165",
+    "name": "医業承継・開業支援（DtoD／医療モール）",
+    "company": "総合メディカル株式会社",
+    "category": "medical-management-support",
+    "description": "医療機器リースから出発した総合メディカルが、後継者のいない診療所の承継や開業を仲介・支援する事業。2001年からは医業承継・医療連携・医師転職をつなぐ会員制システム「DtoD」を運営し、調剤薬局併設の医療モール開発とも組み合わせている。",
+    "hp": "https://www.sogo-medical.co.jp/",
+    "startedYear": 1987,
+    "status": "提供中",
+    "startedAt": "1987-10",
+    "startBasis": "総合メディカル沿革：不動産仲介業・医業承継事業を開始",
+    "milestones": [
+      {
+        "date": "1987-10",
+        "text": "不動産仲介業、医業承継事業を開始",
+        "source": "https://www.sogo-medical.co.jp/ja/corporate/history.html"
+      },
+      {
+        "date": "2001-10",
+        "text": "医業継承・医療連携・医師転職支援システム「DtoD」を開始",
+        "source": "https://www.sogo-medical.co.jp/ja/corporate/history.html"
+      },
+      {
+        "date": "2020-04",
+        "text": "MBOにより東証一部上場廃止",
+        "source": "https://www.sogo-medical.co.jp/ja/corporate/history.html"
+      }
+    ],
+    "sources": [
+      "https://www.sogo-medical.co.jp/ja/corporate/history.html"
+    ],
+    "type": "healthcare-ma-succession",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-aca04766",
+    "name": "ミュゼホワイトニング（デンタルエステ・提携歯科医院のホワイトニング）",
+    "company": "株式会社ジンコーポレーション（ミュゼプラチナムグループ）",
+    "category": "dental",
+    "description": "脱毛サロン「ミュゼプラチナム」のグループが、ポリリン酸を使うホワイトニングを都内のデンタルエステサロンで始め、のちに全国の歯科医院と業務提携して累計200医院超の加盟グループに広げた。セルフホワイトニング商品「ポリリンキューブ」も販売した。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "終了",
+    "startedAt": "2014-02",
+    "startBasis": "確認できた最古の一次情報：ミュゼホワイトニング（都内4店舗展開中）の商品一般発売リリース",
+    "endedAt": "2025-07",
+    "milestones": [
+      {
+        "date": "2014-02",
+        "text": "都内4店舗のデンタルエステサロンを展開、セルフホワイトニング商品「ポリリンキューブ」を一般発売",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000008905.html"
+      },
+      {
+        "date": "2018-10",
+        "text": "デンタルクリニック「ミュゼホワイトニング」として歯科衛生士学校と教育提携",
+        "source": "https://prtimes.jp/main/html/rd/p/000000177.000008905.html"
+      },
+      {
+        "date": "2025-07",
+        "text": "サービス終了に伴い、歯科医師有志と元事務局が新ブランド「ドクターズホワイトニング」を始動し、加盟医院に移行を案内",
+        "source": "https://www.atpress.ne.jp/news/439603"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "後継ブランドの運営会社は、2025年3月にミュゼプラチナム店舗の休業が発表され、それに伴いミュゼホワイトニングの提携歯科医院の運営が続けられなくなったと説明している。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000008905.html",
+      "https://www.atpress.ne.jp/news/439603"
+    ],
+    "type": "dental-whitening",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-cd7c607e",
+    "name": "ドクターズホワイトニング（歯科医院加盟型ホワイトニングブランド）",
+    "company": "株式会社ドクターズホワイトニング",
+    "category": "dental",
+    "description": "ミュゼホワイトニングの終了を受け、歯科医師の有志と元事務局スタッフが立ち上げた歯科医院加盟型のホワイトニングブランド。旧加盟医院の移行を受け入れ、2026年度に100医院の加盟を目指す。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.atpress.ne.jp/news/439603"
+    ],
+    "type": "dental-whitening",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-279fd0cf",
+    "name": "スタジオ・ヨギー（ヨガ・ピラティススタジオ）",
+    "company": "株式会社ヨギー",
+    "category": "fitness",
+    "description": "都内を中心に20店舗以上のヨガ・ピラティススタジオを展開し、独自資格によるインストラクター養成も手がけた。2018年12月期に売上高約19億円まで伸びたが、2025年に破産し、一部店舗は他社に譲渡された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2025-08",
+    "milestones": [
+      {
+        "date": "2008-03",
+        "text": "スタジオ・ヨギー新宿で50歳からのヨガ体験クラスを開催（リリース）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000000661.html"
+      },
+      {
+        "date": "2025-08",
+        "text": "東京地裁から破産開始決定。負債約6億2,000万円、ヨガスタジオでは過去最大。一部店舗は他社へ譲渡",
+        "source": "https://www.tsr-net.co.jp/news/tsr/detail/1201626_1521.html"
+      }
+    ],
+    "endReasons": [
+      "competition",
+      "funding"
+    ],
+    "endReasonNote": "東京商工リサーチによると、積極出店に収益が追いつかず、コロナ禍と競合激化で業績が急悪化。社会保険料や税の滞納が膨らみ、スポンサー探しも実らず2025年8月に破産開始決定を受けた。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000000661.html",
+      "https://www.tsr-net.co.jp/news/tsr/detail/1201626_1521.html"
+    ],
+    "type": "fitness-studio",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0b207a87",
+    "name": "暗闇ボクシング・フィットネス「b-monster」",
+    "company": "b-monster株式会社 → 株式会社ワールドフィット",
+    "category": "fitness",
+    "description": "米ニューヨーク発の暗闇ボクシング・フィットネスを2016年に銀座で始め、都内などに広げたスタジオ。2019年3月期に売上高約24億円をあげたが、2024年に国内事業と商標をパーソナルジム運営のワールドフィットに譲渡し、元運営会社は解散・特別清算した。",
+    "hp": "https://www.b-monster.jp/",
+    "startedYear": 2016,
+    "status": "譲渡",
+    "startedAt": "2016-06",
+    "startBasis": "b-monsterリリース（アットプレス）：銀座1号店オープン",
+    "endedAt": "2024-02",
+    "milestones": [
+      {
+        "date": "2016-06",
+        "text": "銀座に1号店をオープン",
+        "source": "https://www.atpress.ne.jp/news/105574"
+      },
+      {
+        "date": "2024-01",
+        "text": "ワールドフィットがb-monsterの国内事業と商標権等の譲受を発表（譲渡は2024年2月）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000025.000081179.html"
+      },
+      {
+        "date": "2025-08",
+        "text": "元運営会社のb-monster株式会社が特別清算開始決定",
+        "source": "https://www.tsr-net.co.jp/news/tsr/detail/1201776_1521.html"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "ワールドフィットは事業譲受を発表し運営を継続しているが、元運営会社が事業を手放した理由は公表されていない。元運営会社は2025年5月に解散、8月に特別清算開始決定（東京商工リサーチ）。",
+    "sources": [
+      "https://www.atpress.ne.jp/news/105574",
+      "https://prtimes.jp/main/html/rd/p/000000025.000081179.html",
+      "https://www.tsr-net.co.jp/news/tsr/detail/1201776_1521.html"
+    ],
+    "type": "fitness-studio",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f0121019",
+    "name": "S-DSC毛髪再生医療（資生堂が導入・共同開発した自家毛根鞘細胞による薄毛治療）",
+    "company": "株式会社資生堂（共同開発）／東邦大学医療センター大橋病院ほか提供医療機関",
+    "category": "medical-cosmetic",
+    "description": "後頭部から採った自分の毛球部毛根鞘（DSC）細胞を培養して薄毛部に注入する再生医療。資生堂がカナダのレプリセル社から技術を導入し、東京医大・杏林大と共同開発。2024年から第2種再生医療として大学病院や皮膚科クリニックが自由診療で提供している。",
+    "hp": "https://www.s-dsc.com/",
+    "startedYear": 2013,
+    "status": "提供中",
+    "startedAt": "2013-07",
+    "startBasis": "資生堂リリース：レプリセル社と毛髪再生医療技術（RCH-01）の技術提携契約を2013年7月に締結",
+    "milestones": [
+      {
+        "date": "2013-07",
+        "text": "資生堂がレプリセル社とアジアを対象とする毛髪再生医療技術の提携契約を締結",
+        "source": "https://prtimes.jp/main/html/rd/p/000000135.000005794.html"
+      },
+      {
+        "date": "2014-05",
+        "text": "神戸医療産業都市に「資生堂細胞加工培養センター（SPEC）」を開設",
+        "source": "https://prtimes.jp/main/html/rd/p/000000135.000005794.html"
+      },
+      {
+        "date": "2024-07",
+        "text": "東邦大学医療センター大橋病院がS-DSCを用いた毛髪再生医療の提供を開始（東京医大・杏林大・資生堂の共同開発技術）",
+        "source": "https://www.nikkei.com/article/DGXZRSP673943_Y4A620C2000000/"
+      },
+      {
+        "date": "2026-09",
+        "text": "ヘアケアクリニック六本木院など民間クリニックにも提供が広がる",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000190581.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000135.000005794.html",
+      "https://www.nikkei.com/article/DGXZRSP673943_Y4A620C2000000/",
+      "https://www.s-dsc.com/about"
+    ],
+    "type": "cosmetic-hair-wig",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-133c3f94",
+    "name": "医療向け音声認識「AmiVoice Ex／Medical」シリーズ（電子カルテ・読影レポートの音声入力）",
+    "company": "株式会社アドバンスト・メディア",
+    "category": "medical-dx",
+    "description": "放射線読影レポートの音声入力から始まり、電子カルテ向けの「AmiVoice Ex」、クラウド型の「CLx」、カンファレンス議事録作成などへ広げた国内の医療向け音声認識の草分け。生成AIによる文書作成ツールの多くが前提とする音声入力の基盤を担ってきた。",
+    "hp": "https://www.advanced-media.co.jp/",
+    "startedYear": 2002,
+    "status": "提供中",
+    "startedAt": "2002-03",
+    "startBasis": "アドバンスト・メディア沿革：放射線画像診断レポート用「AmiVoice Medical for Radiology」をリリース",
+    "milestones": [
+      {
+        "date": "2002-03",
+        "text": "放射線画像診断レポート用「AmiVoice Medical for Radiology」をリリース",
+        "source": "https://www.advanced-media.co.jp/corporate/history/"
+      },
+      {
+        "date": "2004-03",
+        "text": "医療向け電子カルテアプリケーション「AmiVoice Ex（Hospital/Clinic）」をリリース",
+        "source": "https://www.advanced-media.co.jp/corporate/history/"
+      },
+      {
+        "date": "2021-06",
+        "text": "医療向け音声入力ハンドマイク「AmiVoice Front SP02」を発売",
+        "source": "https://prtimes.jp/main/html/rd/p/000000287.000020223.html"
+      }
+    ],
+    "sources": [
+      "https://www.advanced-media.co.jp/corporate/history/"
+    ],
+    "type": "ai-medical-documentation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-bbb99e33",
+    "name": "千年カルテ（次世代医療基盤法に基づく電子カルテ匿名加工データの提供）",
+    "company": "一般社団法人ライフデータイニシアティブ（LDI）／株式会社NTTデータ",
+    "category": "real-world-data",
+    "description": "参加病院（119施設）の電子カルテ情報を集め、次世代医療基盤法の認定事業者として匿名加工し、製薬企業や研究機関に提供する。2019年に同法の認定作成事業者第1号となり、NTTデータが受託事業者としてシステムを運用している。",
+    "hp": "https://www.ldi.or.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2019-12",
+        "text": "LDIが次世代医療基盤法の認定作成事業者（第1号）に、NTTデータが受託事業者に認定され事業開始",
+        "source": "https://www.itmedia.co.jp/enterprise/articles/1912/20/news069.html"
+      }
+    ],
+    "sources": [
+      "https://www.ldi.or.jp/",
+      "https://www.itmedia.co.jp/enterprise/articles/1912/20/news069.html"
+    ],
+    "type": "hospital-derived-database",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5c4aeb3a",
+    "name": "次世代医療基盤法に基づく医療情報の匿名加工・提供（J-MIMO）",
+    "company": "一般財団法人日本医師会医療情報管理機構（J-MIMO）",
+    "category": "real-world-data",
+    "description": "日本医師会が設立した機構が、次世代医療基盤法の認定作成事業者として医療機関の診療情報を集めて匿名加工し、研究・創薬向けに提供する。同法の認定事業者第2号。",
+    "hp": "https://www.j-mimo.or.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2020-06",
+        "text": "次世代医療基盤法の認定作成事業者（第2号）に認定",
+        "source": "https://project.nikkeibp.co.jp/behealth/atcl/news/domestic/00010/"
+      }
+    ],
+    "sources": [
+      "https://www.j-mimo.or.jp/",
+      "https://project.nikkeibp.co.jp/behealth/atcl/news/domestic/00010/"
+    ],
+    "type": "hospital-derived-database",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-195e6d62",
+    "name": "手術支援ロボット「iArmS（アイアームス）」（術者の腕を支える知能アシストアーム）",
+    "company": "株式会社デンソー",
+    "category": "surgical-support",
+    "description": "脳神経外科などの顕微鏡手術で、術者の腕の動きに追従して肘・前腕を支え、疲れや手の震えを抑えるロボット。自動車部品大手のデンソーが信州大学などと開発し、2015年に発売した国産手術支援機器の先行例。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "不明",
+    "startedAt": "2015-04",
+    "startBasis": "デンソーのニュースリリース：iArmSを発売",
+    "milestones": [
+      {
+        "date": "2015-04",
+        "text": "デンソーがiArmSを発売",
+        "source": "https://www.denso.com/jp/ja/news/newsroom/2015/20150427-01/"
+      },
+      {
+        "date": "2015-12",
+        "text": "信州大学などと中日産業技術賞を受賞（報道）",
+        "source": "https://www.chunichi.co.jp/article/39585"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "sources": [
+      "https://www.denso.com/jp/ja/news/newsroom/2015/20150427-01/"
+    ],
+    "type": "surgical-robot",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1be5ea0e",
+    "name": "MY CONDITION KOBE（神戸市の市民向けPHRアプリ）",
+    "company": "神戸市",
+    "category": "personal-health-record",
+    "description": "神戸市が保有する健診結果などの健康データと、スマホで集めた歩数・食事などの生活データを一括管理し、健康アドバイスやポイント付きの健康プログラムを市民に提供した自治体PHR。民間の健康アプリと組み、2023年3月で終了した。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "終了",
+    "startedAt": "2019-04",
+    "startBasis": "日経クロステック記事：神戸市が2019年4月1日に市民への提供を開始",
+    "endedAt": "2023-03",
+    "milestones": [
+      {
+        "date": "2019-04",
+        "text": "神戸市が市民への提供を開始",
+        "source": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/02527/"
+      },
+      {
+        "date": "2023-03",
+        "text": "MY CONDITION KOBEを終了。内蔵の健康アプリ「カロママ プラス」はリンクアンドコミュニケーションが民間サービスとして継続",
+        "source": "https://prtimes.jp/main/html/rd/p/000000090.000018672.html"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "終了は連携企業の発表で確認できたが、神戸市が説明した終了理由は確認できていない。アプリ内の健康アプリ「カロママ プラス」は運営会社が2023年4月から民間サービスとして継続した。",
+    "sources": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/00001/02527/",
+      "https://prtimes.jp/main/html/rd/p/000000090.000018672.html"
+    ],
+    "type": "insurer-employer-phr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d9806c63",
+    "name": "アミノインデックス がんリスクスクリーニング（AICS）／リスクスクリーニング（AIRS）",
+    "company": "味の素株式会社",
+    "category": "simple-inspection",
+    "description": "血液中のアミノ酸濃度のバランスから、胃・大腸・肺・膵臓・乳房などのがんリスクを評価する血液検査。味の素がSRLと共同事業化し、人間ドックや健診のオプションとして提供。のちに脳卒中・心筋梗塞・糖尿病などのリスク評価も加えた。",
+    "hp": "https://www.ajinomoto.co.jp/aminoindex/",
+    "startedYear": 2010,
+    "status": "提供中",
+    "startedAt": "2010-11",
+    "startBasis": "味の素プレスリリース：SRLとの共同事業化契約と2011年4月からの事業開始を発表",
+    "milestones": [
+      {
+        "date": "2010-11",
+        "text": "SRLと共同事業化契約を締結し、2011年4月からがんリスクスクリーニングを人間ドック中心に始めると発表",
+        "source": "https://www.ajinomoto.co.jp/company/jp/presscenter/press/detail/2010_11_04_1.html"
+      },
+      {
+        "date": "2017-10",
+        "text": "糖尿病発症リスク等を評価する「アミノインデックス リスクスクリーニング（AIRS）」を発売",
+        "source": "https://www.ajinomoto.co.jp/company/jp/presscenter/press/detail/2017_10_12.html"
+      }
+    ],
+    "sources": [
+      "https://www.ajinomoto.co.jp/company/jp/presscenter/press/detail/2010_11_04_1.html",
+      "https://www.ajinomoto.co.jp/company/jp/presscenter/press/detail/2017_10_12.html"
+    ],
+    "type": "cancer-risk-screening-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-441401af",
+    "name": "ホームケア土屋（重度訪問介護・24時間の在宅介護）",
+    "company": "株式会社土屋",
+    "category": "home-visit-nursing",
+    "description": "岡山県井原市に本拠を置き、重度障害者・難病の人に24時間体制の重度訪問介護を全国約40都道府県で提供する。介護職員の資格取得を支える「土屋ケアカレッジ」やシンクタンクも持ち、他社事業の譲受で拠点を広げている。",
+    "hp": "https://tcy.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2021-09",
+        "text": "重度障害者の環境改善を目的とする土屋総合研究所を設立（従業員1,250名）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000084582.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000084582.html",
+      "https://tcy.co.jp/company/company/"
+    ],
+    "type": "severe-disability-home-care",
+    "updatedAt": "2026-10"
   }
 ]

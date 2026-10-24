@@ -61,7 +61,15 @@ for (const o of outs) {
 fs.writeFileSync(F, JSON.stringify(services.filter((s) => !drop.has(s.id)), null, 2) + '\n');
 console.error(`開始時期を外した ${cleared} 件 / 節目 ${miles} 件・提供を確認できた最古の時点 ${known} 件 / 開始時期を入れた ${started} 件（会社設立・Wikipedia・逆算しか根拠がなく見送り ${skippedFounding} 件）/ 止まっていた ${stopped} 件 / 外した ${removed} 件`);
 
-const adds = outs.flatMap((o) => o.adds ?? []).filter((a) => a.name && a.type).map((a) => ({ ...a, companyName: a.company, companyId: a.companyId || undefined }));
+// 足す事業も、開始時期の根拠が報道・見出し・会社設立・逆算だけなら開始時期を入れない
+const weak = /報道|見出し|会社設立|設立日|逆算|Wikipedia|ウィキペディア|予定|試作/;
+let weakStart = 0;
+const adds = outs.flatMap((o) => o.adds ?? []).filter((a) => a.name && a.type).map((a) => {
+  const x = { ...a, companyName: a.company, companyId: a.companyId || undefined };
+  if (x.startedAt && weak.test(`${x.startBasis ?? ''} ${x.note ?? ''}`)) { delete x.startedAt; delete x.startBasis; weakStart++; }
+  return x;
+});
+if (weakStart) console.error(`足す事業のうち開始時期の根拠が弱く外した ${weakStart} 件`);
 if (adds.length) {
   const tmp = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'biz-')), 'adds.json');
   fs.writeFileSync(tmp, JSON.stringify(adds));
