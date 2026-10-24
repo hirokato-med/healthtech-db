@@ -31,7 +31,7 @@ for (const o of outs) {
     const s = byId.get(u.id);
     if (!s) continue;
     if (u.remove) { drop.add(s.id); removed++; continue; }
-    if (/^\d{4}(-\d{2})?$/.test(u.startedAt ?? '')) {
+    if (/^\d{4}(-\d{2}){0,2}$/.test(u.startedAt ?? '')) {
       // 会社設立の日付、Wikipedia、後年の資料からの逆算は開始時期に使わない（一次情報だけ）
       // 何の日付か（startBasis）があればそれで、なければ note で判断する
       const basis = u.startBasis ? u.startBasis : (u.note ?? '');
