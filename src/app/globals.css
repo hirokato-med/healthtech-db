@@ -951,3 +951,12 @@ a.upd-title:hover { color: var(--navy); }
 .more-wrap { display: flex; justify-content: center; margin: 24px 0 0; }
 .btn-more { height: 46px; padding: 0 28px; border: 1px solid var(--navy); border-radius: 999px; background: var(--card); color: var(--navy); font: inherit; font-weight: 700; font-size: 14px; cursor: pointer; }
 .btn-more:hover { background: var(--navy-soft); }
+
+/* 会社予想の移り変わり */
+.fch { margin: 0 0 18px; }
+.fch h3 { font-size: 15px; font-weight: 800; margin: 0 0 8px; }
+.fch-table td b { font-weight: 800; }
+.fch-table tr.rev td { background: #fff7f5; }
+.fch-table tr.last td { font-weight: 700; }
+.fch-table td.moved { color: var(--ink); font-weight: 800; text-decoration: underline; text-decoration-color: #d08a2c; text-underline-offset: 3px; }
+.fch-now { display: inline-block; margin-left: 8px; font-style: normal; font-size: 10.5px; font-weight: 800; color: #fff; background: var(--navy); border-radius: 4px; padding: 1px 6px; vertical-align: 1px; }

@@ -91,7 +91,7 @@ export function EarningsTable({ rows, catName }: { rows: EarningsRow[]; catName:
                       <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{pct(g)}</td>
                       <td className={`num ${(c?.operatingIncome ?? 0) < 0 ? 'down' : ''}`}>{money(c?.operatingIncome)}</td>
                       <td className="num">{pct(margin(c), false)}</td>
-                      <td className="num fc">{f ? <>{money(f.revenue)}／{money(f.operatingIncome)}<small>{forecastLabel(r.latest)}</small></> : '—'}</td>
+                      <td className="num fc">{f ? <>{money(f.revenue)}／{money(f.operatingIncome)}<small>{forecastLabel(r.latest)}（{r.latest.date.replace(/-/g, "/")} 時点）</small></> : '—'}</td>
                       <td className="nw">
                         {r.latest.pdf ? <a href={r.latest.pdf} target="_blank" rel="noreferrer">{r.latest.date.replace(/-/g, '/')}</a> : r.latest.date.replace(/-/g, '/')}
                       </td>
