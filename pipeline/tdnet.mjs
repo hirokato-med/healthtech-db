@@ -32,6 +32,7 @@ const byCode = new Map(companies.filter((c) => c.securitiesCode).map((c) => [c.s
 const disclosures = load(P('disclosures.json'), []);
 const earnings = load(P('earnings.json'), {});
 const newReports = [];
+const newRevisions = [];
 const seen = new Set(disclosures.map((d) => d.pdf));
 
 const text = (s) => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(n)).trim();
@@ -88,15 +89,38 @@ function parseSummary(html) {
   const f = facts.con ?? facts.non;
   return f ? { consolidated: !!facts.con, ...f } : null;
 }
-function parseXbrl(url) {
+// 業績予想の修正（tse-rvfc）：修正前（PreviousMember）と修正後（CurrentMember）の通期予想
+function parseRevision(html) {
+  html = html.replace(/<ix:nonFraction[^>]*\/>/g, '');
+  const facts = {};
+  for (const m of html.matchAll(/<ix:nonFraction([^>]*)>([\s\S]*?)<\/ix:nonFraction>/g)) {
+    const a = m[1];
+    const name = (a.match(/name="[^:"]+:([^"]+)"/) ?? [])[1];
+    const ctx = (a.match(/contextRef="([^"]+)"/) ?? [])[1] ?? '';
+    const raw = text(m[2]).replace(/,/g, '');
+    if (!name || raw === '' || isNaN(Number(raw))) continue;
+    if (!/^CurrentYearDuration/.test(ctx) || !ctx.includes('ForecastMember')) continue;
+    const when = ctx.includes('PreviousMember') ? 'previous' : ctx.includes('CurrentMember') ? 'revised' : null;
+    const item = ITEM.find(([, re]) => re.test(name))?.[0];
+    if (!when || !item) continue;
+    const scale = Number((a.match(/scale="(-?\d+)"/) ?? [])[1] ?? 0);
+    const v = Number(raw) * 10 ** scale * (/sign="-"/.test(a) ? -1 : 1);
+    const scope = ctx.includes('NonConsolidatedMember') ? 'non' : 'con';
+    ((facts[scope] ??= {})[when] ??= {})[item] = Math.round(v / 1e6);
+  }
+  const f = facts.con ?? facts.non;
+  return f?.revised ? { consolidated: !!facts.con, previous: f.previous, revised: f.revised } : null;
+}
+function parseXbrl(url, kind = 'summary') {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'tdnet-'));
   try {
     const zip = path.join(tmp, 'x.zip');
     execFileSync('curl', ['-s', '-A', UA['User-Agent'], '-o', zip, url]);
     const list = execFileSync('unzip', ['-Z1', zip]).toString().split('\n');
-    const sum = list.find((n) => /XBRLData\/Summary\/.*-ixbrl\.htm$/.test(n));
+    const sum = kind === 'revision' ? list.find((n) => /tse-rvfc-.*-ixbrl\.htm$/.test(n)) : list.find((n) => /XBRLData\/Summary\/.*-ixbrl\.htm$/.test(n));
     if (!sum) return null;
-    return parseSummary(execFileSync('unzip', ['-p', zip, sum], { maxBuffer: 64 << 20 }).toString('utf8'));
+    const html = execFileSync('unzip', ['-p', zip, sum], { maxBuffer: 64 << 20 }).toString('utf8');
+    return kind === 'revision' ? parseRevision(html) : parseSummary(html);
   } catch {
     return null;
   } finally {
@@ -128,11 +152,28 @@ for (let i = 0; i < days; i++) {
       const x = parseXbrl(r.xbrl);
       if (x) {
         const e = (earnings[c.id] ??= { code: c.securitiesCode, reports: [] });
-        if (!e.reports.some((p) => p.pdf === r.pdf)) {
+        const per = periodOf(r.title);
+        // 同じ決算期・四半期がすでにあれば足さない（決算短信から手で集めたセグメント付きの記録を残す）
+        if (!e.reports.some((p) => p.pdf === r.pdf || (p.fiscalYear === per.fiscalYear && p.quarter === per.quarter))) {
           e.reports.push({ ...periodOf(r.title), date, title: r.title, ...x, pdf: r.pdf, source: 'TDnet XBRL' });
           e.reports.sort((a, b) => b.date.localeCompare(a.date));
           newReports.push({ id: c.id, name: c.name, label: periodOf(r.title).label });
           parsed++;
+        }
+      }
+      await sleep(500);
+    }
+    // 業績予想の修正：修正前と修正後の通期予想を残す
+    if (kind === '業績予想・配当' && r.xbrl && /業績予想|業績の修正/.test(r.title) && !/訂正/.test(r.title)) {
+      const x = parseXbrl(r.xbrl, 'revision');
+      if (x) {
+        const e = (earnings[c.id] ??= { code: c.securitiesCode, reports: [] });
+        e.revisions ??= [];
+        if (!e.revisions.some((p) => p.pdf === r.pdf)) {
+          const fy = (r.title.normalize('NFKC').match(/(\d{4})年(\d{1,2})月期/) ?? [])[0] ?? '';
+          e.revisions.push({ date, title: r.title, ...(fy ? { fiscalYear: fy } : {}), ...x, pdf: r.pdf });
+          e.revisions.sort((a, b) => b.date.localeCompare(a.date));
+          newRevisions.push({ id: c.id, name: c.name, x });
         }
       }
       await sleep(500);
@@ -150,4 +191,12 @@ if (newReports.length) {
     (links) => `決算 ${links.length}件を更新：${links.slice(0, 3).map((l) => l.label.replace(/（.*$/, '')).join('、')}${links.length > 3 ? ' ほか' : ''}`,
   );
 }
-console.error(`TDnet: 過去${days}日 / 対象 ${byCode.size} 社 / 新しい開示 ${added} 件 / 決算短信の数字 ${parsed} 件`);
+if (newRevisions.length) {
+  const short = (n) => n.replace(/^株式会社|株式会社$/g, '');
+  const dir = (x) => { const a = x.previous?.operatingIncome, b = x.revised?.operatingIncome; return a == null || b == null ? '修正' : b > a ? '上方修正' : b < a ? '下方修正' : '修正'; };
+  addUpdate(
+    { date: todayJst(), kind: '決算', key: 'tdnet-revisions', href: '/earnings/', body: '会社が発表した通期の業績予想の修正（修正前と修正後）を TDnet から取り込みました。', links: newRevisions.map((v) => ({ label: `${short(v.name)}（${dir(v.x)}）`, href: `/earnings/${v.id}/#revisions` })) },
+    (links) => `業績予想の修正 ${links.length}件：${links.slice(0, 3).map((l) => l.label).join('、')}${links.length > 3 ? ' ほか' : ''}`,
+  );
+}
+console.error(`TDnet: 過去${days}日 / 対象 ${byCode.size} 社 / 新しい開示 ${added} 件 / 決算短信の数字 ${parsed} 件 / 業績予想の修正 ${newRevisions.length} 件`);

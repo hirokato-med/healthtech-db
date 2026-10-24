@@ -4,7 +4,8 @@ import { notFound } from 'next/navigation';
 import { EarningsBars } from '@/components/EarningsBars';
 import { EarningsSummary } from '@/components/EarningsSummary';
 import { SegmentTable } from '@/components/SegmentTable';
-import { getCompanies, getCompany, getDisclosures, getEarnings } from '@/lib/data';
+import { RevisionTable } from '@/components/RevisionTable';
+import { getCompanies, getCompany, getDisclosures, getEarnings, getRevisions } from '@/lib/data';
 import { forecastLabel, forecastOf, latestWithSegments, margin, money, pct, yoy } from '@/lib/earnings';
 import type { EarningsReport, Figures } from '@/lib/types';
 
@@ -51,6 +52,9 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
     const fig = before ? (before.quarter === 'FY' ? before.nextForecast : before.forecast) : undefined;
     return before && fig ? { label: `${before.date.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, y, m, d) => `${y}年${Number(m)}月${Number(d)}日`)}公表の予想`, fig } : undefined;
   })();
+  const revisions = getRevisions()[c.id] ?? [];
+  // 直近の決算より後に出た修正（決算の概要の会社予想より新しい）
+  const newerRev = latest ? revisions.find((v) => v.date > latest.date) : undefined;
   const segRep = latestWithSegments(reports);
   const segFy = segRep && segRep.quarter !== 'FY' ? reports.find((r) => r.quarter === 'FY' && r.segments?.length) : undefined;
   const docs = disclosures.filter((d) => ['決算短信', '決算説明資料', '業績予想・配当'].includes(d.kind));
@@ -71,6 +75,13 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
             <EarningsSummary r={latest} prevForecast={prevFc} />
           </section>
 
+          {revisions.length > 0 && (
+            <section className="ma-sec" id="revisions" style={{ marginTop: 0 }}>
+              <h2>業績予想の修正{newerRev ? <small className="h2-sub">直近の決算短信（{latest!.date.replace(/-/g, '/')}）より後に予想が修正されています。最新の会社予想は修正後の数字です。</small> : null}</h2>
+              <RevisionTable items={revisions} />
+            </section>
+          )}
+
           {segRep && (
             <section className="ma-sec" style={{ marginTop: 0 }}>
               <h2>セグメント別{c.healthcareSegments?.length && !c.healthcareSegments.includes('全社') ? <small className="h2-sub">ヘルスケアに関わる事業：{c.healthcareSegments.join('、')}</small> : null}</h2>
@@ -88,7 +99,11 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
             <div><span>直近の決算</span><b>{latest.label.replace(/（中間期）/, '')}</b><small>{latest.date.replace(/-/g, '/')} 発表{latest.consolidated === false ? '・個別' : ''}</small></div>
             <div><span>売上高{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b>{money(latest.current?.revenue)}</b><small>前年同期比 {pct(yoy(latest.current?.revenue, latest.prior?.revenue))}</small></div>
             <div><span>営業利益{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b className={(latest.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}>{money(latest.current?.operatingIncome)}</b><small>営業利益率 {pct(margin(latest.current), false)}・前年 {money(latest.prior?.operatingIncome)}</small></div>
-            <div><span>{forecastLabel(latest) || '会社予想'}</span><b>{f ? money(f.revenue) : '—'}</b><small>{f ? `営業利益 ${money(f.operatingIncome)}` : '予想の開示なし'}</small></div>
+            {newerRev ? (
+              <div><span>{newerRev.fiscalYear ? `${newerRev.fiscalYear} 通期予想` : '通期予想'}（{newerRev.date.slice(5).replace('-', '/')} 修正）</span><b>{money(newerRev.revised.revenue)}</b><small>営業利益 {money(newerRev.revised.operatingIncome)}（修正前 {money(newerRev.previous?.operatingIncome)}）</small></div>
+            ) : (
+              <div><span>{forecastLabel(latest) || '会社予想'}</span><b>{f ? money(f.revenue) : '—'}</b><small>{f ? `営業利益 ${money(f.operatingIncome)}` : '予想の開示なし'}</small></div>
+            )}
           </section>
 
           {series.length >= 2 ? (

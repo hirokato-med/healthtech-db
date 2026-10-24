@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: '事業データベース', descripti
 
 export default function ServicesPage() {
   const services = getServices();
-  const items = services.map(({ id, name, company, companyId, category, description, status, startedAt, startedYear, endedAt, endReasons }) => ({ id, name, company, companyId, category, description, status, startedAt, startedYear, endedAt, endReasons }));
+  const items = services.map(({ id, name, company, companyId, category, description, status, startedAt, startedYear, endedAt, endReasons }) => ({ id, name, company, companyId, category, description: description.length > 90 ? `${description.slice(0, 90)}…` : description, status, startedAt, startedYear, endedAt, endReasons }));
   const stopped = services.filter((s) => STOPPED.includes(s.status)).length;
   return (
     <>

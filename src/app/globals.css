@@ -939,3 +939,15 @@ a.upd-title:hover { color: var(--navy); }
 .upd-links a { color: var(--navy); font-weight: 700; }
 .upd-links a::before { content: '→ '; color: var(--muted); font-weight: 400; }
 @media (max-width: 640px) { .upd-list li { grid-template-columns: 4.2em minmax(0, 1fr); } .upd-kind { grid-column: 2; grid-row: 1; } .upd-body { grid-column: 1 / -1; } }
+
+/* 業績予想の修正 */
+.rev-list { display: grid; gap: 18px; }
+.rev-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 14px; }
+.rev-dir { font-size: 12px; font-weight: 800; padding: 2px 10px; border-radius: 999px; background: var(--navy-soft); color: var(--navy); }
+.rev-dir.up { background: #e4f4ea; color: #1b7a43; }
+.rev-dir.down { background: #fbe9e7; color: #c0392b; }
+.rev-table th[scope="row"] { position: static; background: none; color: var(--ink); border-bottom: 1px solid var(--line); font-size: 13.5px; }
+.rev-title { margin: 6px 0 0; font-size: 12.5px; color: var(--muted); }
+.more-wrap { display: flex; justify-content: center; margin: 24px 0 0; }
+.btn-more { height: 46px; padding: 0 28px; border: 1px solid var(--navy); border-radius: 999px; background: var(--card); color: var(--navy); font: inherit; font-weight: 700; font-size: 14px; cursor: pointer; }
+.btn-more:hover { background: var(--navy-soft); }

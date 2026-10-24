@@ -4,6 +4,8 @@ import type { EarningsReport } from '@/lib/types';
 /** セグメント別の売上・利益。ヘルスケアに関わるセグメントに印をつけ、売上の構成比を帯で見せる */
 export function SegmentTable({ r }: { r: EarningsReport }) {
   const segs = r.segments ?? [];
+  // 全セグメントがヘルスケア（製薬・医療機器など）の会社は印をつけない
+  const allHc = segs.every((s) => s.healthcare);
   const total = segs.reduce((a, s) => a + Math.max(0, s.revenue ?? 0), 0);
   const profitLabel = r.segmentProfitLabel?.replace(/（.*?）/g, '') || 'セグメント利益';
   return (
@@ -11,7 +13,7 @@ export function SegmentTable({ r }: { r: EarningsReport }) {
       {total > 0 && (
         <div className="seg-stack" role="img" aria-label={`売上の構成：${segs.map((s) => `${s.name} ${total ? (((s.revenue ?? 0) / total) * 100).toFixed(0) : 0}%`).join('、')}`}>
           {segs.filter((s) => (s.revenue ?? 0) > 0).map((s) => (
-            <span key={s.name} className={s.healthcare ? 'hc' : ''} style={{ flexGrow: s.revenue }} title={`${s.name}：${money(s.revenue)}（${(((s.revenue ?? 0) / total) * 100).toFixed(1)}%）`}>
+            <span key={s.name} className={s.healthcare && !allHc ? 'hc' : ''} style={{ flexGrow: s.revenue }} title={`${s.name}：${money(s.revenue)}（${(((s.revenue ?? 0) / total) * 100).toFixed(1)}%）`}>
               {((s.revenue ?? 0) / total) * 100 >= 9 ? s.name.replace(/事業$|セグメント$/, '') : ''}
             </span>
           ))}
@@ -27,8 +29,8 @@ export function SegmentTable({ r }: { r: EarningsReport }) {
               const g = change(s.revenue, s.priorRevenue), gp = change(s.profit, s.priorProfit);
               const m = s.revenue && s.profit != null ? (s.profit / s.revenue) * 100 : null;
               return (
-                <tr key={s.name} className={s.healthcare ? 'hc' : ''}>
-                  <td>{s.name}{s.healthcare && <em className="hc-tag">ヘルスケア</em>}</td>
+                <tr key={s.name} className={s.healthcare && !allHc ? 'hc' : ''}>
+                  <td>{s.name}{s.healthcare && !allHc && <em className="hc-tag">ヘルスケア</em>}</td>
                   <td className="num">{money(s.revenue)}</td>
                   <td className={`num ${g.tone}`}>{g.text}</td>
                   <td className="num">{total && s.revenue != null ? `${((s.revenue / total) * 100).toFixed(1)}%` : '—'}</td>

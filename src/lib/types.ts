@@ -205,6 +205,8 @@ export type EarningsReport = {
   source?: string;
   note?: string;
 };
+/** 業績予想の修正（TDnet の XBRL。修正前と修正後の通期予想、百万円） */
+export type ForecastRevision = { date: string; title: string; fiscalYear?: string; consolidated?: boolean; previous?: Figures; revised: Figures; pdf: string };
 export type Segment = { name: string; revenue?: number; profit?: number; priorRevenue?: number; priorProfit?: number; healthcare?: boolean };
 /** 適時開示（TDnet） */
 export type Disclosure = { date: string; time: string; companyId: string; company: string; code: string; title: string; kind: string; pdf: string; xbrl?: string };

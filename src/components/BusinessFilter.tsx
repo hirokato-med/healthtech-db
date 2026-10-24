@@ -12,6 +12,9 @@ export function BusinessFilter({ items, categories, reasons, initialStatus = '' 
   const [status, setStatus] = useState(initialStatus);
   const [reason, setReason] = useState('');
   const [cat, setCat] = useState('');
+  // 件数が多いので最初は一部だけ出し、「さらに表示」で足す（絞り込みを変えたら戻す）
+  const PAGE = 60;
+  const [shown, setShown] = useState(PAGE);
   const catName = useMemo(() => Object.fromEntries(categories.map((c) => [c.slug, c.name])), [categories]);
   const hit = useMemo(() => {
     const n = q.trim().toLowerCase();
@@ -23,6 +26,9 @@ export function BusinessFilter({ items, categories, reasons, initialStatus = '' 
         (!n || `${s.name} ${s.company} ${s.description}`.toLowerCase().includes(n)),
     );
   }, [items, q, status, reason, cat]);
+  const filterKey = `${q}|${status}|${reason}|${cat}`;
+  const [lastKey, setLastKey] = useState(filterKey);
+  if (lastKey !== filterKey) { setLastKey(filterKey); setShown(PAGE); }
 
   return (
     <>
@@ -44,7 +50,7 @@ export function BusinessFilter({ items, categories, reasons, initialStatus = '' 
         <span className="count">{hit.length} 件</span>
       </div>
       <div className="grid wide">
-        {hit.map((s) => (
+        {hit.slice(0, shown).map((s) => (
           <article className="card biz" key={s.id}>
             <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
             <div className="chips">
@@ -60,6 +66,11 @@ export function BusinessFilter({ items, categories, reasons, initialStatus = '' 
           </article>
         ))}
       </div>
+      {hit.length > shown && (
+        <div className="more-wrap">
+          <button type="button" className="btn-more" onClick={() => setShown(shown + PAGE)}>さらに表示（残り {hit.length - shown} 件）</button>
+        </div>
+      )}
     </>
   );
 }

@@ -2035,6 +2035,24 @@
    "category": "pharma"
   },
   {
+   "id": "1010001214191",
+   "name": "InnoJin株式会社",
+   "companyId": "1010001214191",
+   "exit": "未上場",
+   "category": "telemedicine"
+  },
+  {
+   "id": "3010001025868",
+   "name": "株式会社ニチイ学館",
+   "companyId": "3010001025868",
+   "exit": "バイアウト",
+   "category": "nursing"
+  },
+  {
+   "id": "ext:ニチイ",
+   "name": "株式会社ニチイホールディングス"
+  },
+  {
    "id": "ext:akiliinteractive",
    "name": "Akili Interactive"
   },
@@ -2053,10 +2071,6 @@
   {
    "id": "ext:wellbody",
    "name": "Well Body"
-  },
-  {
-   "id": "ext:ニチイ",
-   "name": "株式会社ニチイホールディングス"
   },
   {
    "id": "ext:明治安田生命保険",
@@ -2725,10 +2739,6 @@
   {
    "id": "ext:memorialsloanketteringcancercenter",
    "name": "Memorial Sloan Kettering Cancer Center"
-  },
-  {
-   "id": "ext:innojin",
-   "name": "InnoJin"
   },
   {
    "id": "ext:messly",
@@ -3755,6 +3765,12 @@
    "to": "4010001092965",
    "type": "parent",
    "date": "2021-12"
+  },
+  {
+   "from": "ext:ニチイ",
+   "to": "3010001025868",
+   "type": "parent",
+   "date": ""
   },
   {
    "from": "9120001077430",
@@ -7391,7 +7407,7 @@
    ]
   },
   {
-   "from": "ext:innojin",
+   "from": "1010001214191",
    "to": "1010001008692",
    "type": "investment",
    "date": "2023-08",
