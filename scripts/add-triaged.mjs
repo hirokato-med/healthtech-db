@@ -39,6 +39,8 @@ let ended = 0;
 for (const x of adds.filter((a) => a.decision === 'ended')) {
   const c = byId.get(id13(x.corporateNumber));
   if (c && !c.ended) { c.ended = { ...(x.ended?.date ? { date: x.ended.date } : {}), note: x.ended?.note || x.reason || '事業を終えた' }; ended++; }
+  // merge-companies.mjs は区分を 未上場／上場／バイアウト にしか入れないので、ここで 閉鎖／合併 にする
+  if (c) c.exit = /合併/.test(`${x.exit ?? ''}${c.ended?.note ?? ''}`) ? '合併' : '閉鎖';
 }
 fs.writeFileSync(F, JSON.stringify(companies, null, 2) + '\n');
 
