@@ -354,17 +354,6 @@
     "type": "imaging-brain-body-check"
   },
   {
-    "id": "famione",
-    "name": "famione（ファミワン）",
-    "company": "ファミワン",
-    "category": "femtech",
-    "description": "妊活・不妊治療に関する専門家へのLINE相談サービス。自治体や企業向けの福利厚生としても提供。",
-    "hp": "https://famione.com/",
-    "startedYear": 2017,
-    "status": "提供中",
-    "type": "femtech-expert-consultation"
-  },
-  {
     "id": "kanamic-cloud",
     "name": "カナミッククラウドサービス",
     "company": "カナミックネットワーク",
@@ -626,7 +615,7 @@
     "category": "femtech",
     "description": "基礎体温や月経周期を記録し、体調予測やアドバイスを届ける月額300円の女性向け健康管理サービス。妊娠・育児期向けの「カラダのキモチbaby」も提供した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2013,
     "status": "終了",
     "endedAt": "2021-04",
     "successor": "エイチーム「ラルーン」へのデータ引き継ぎを案内",
@@ -649,11 +638,13 @@
     ],
     "endReasonNote": "ドコモはヘルスケアの有料サービスを「dヘルスケア（300円）」に統合する再編の一環として終了を発表した。個別の理由は公表されていない。",
     "sources": [
+      "https://www.omron.com/jp/ja/news/2013/03/h0306.html",
       "https://www.docomo.ne.jp/info/news_release/2020/08/04_02.html",
       "https://www.docomo.ne.jp/info/news_release/2016/03/31_00.html"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-cycle-tracking-app"
+    "type": "femtech-cycle-tracking-app",
+    "startedAt": "2013-06"
   },
   {
     "id": "b-f95a8aa5",
@@ -1412,7 +1403,7 @@
     "category": "femtech",
     "description": "生理日や排卵日の予測、体調記録ができる女性向けの無料アプリ。広告などで収益化し、累計利用者は867万人を超えていた。メドレーに売却された。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2010,
     "status": "譲渡",
     "endedAt": "2024-02",
     "successor": "株式会社メドレー（企業DB id: 4010401082351）",
@@ -1439,12 +1430,14 @@
     ],
     "endReasonNote": "買い手のメドレーは、医療ヘルスケア領域での事業機会の拡大と、オンライン診療アプリ「CLINICS」との相乗効果を狙いとして挙げた。売り手のエイチームが手放した理由は今回確認した資料では公表されていない。",
     "sources": [
+      "https://www.medley.jp/release/20231024.html",
       "https://maonline.jp/news/20231024f",
       "https://www.nihon-ma.co.jp/news/20231024_4480-7/",
       "https://www.docomo.ne.jp/info/news_release/2020/08/04_02.html"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-cycle-tracking-app"
+    "type": "femtech-cycle-tracking-app",
+    "startedAt": "2010-07"
   },
   {
     "id": "b-9dad43c9",
@@ -6815,6 +6808,7 @@
     "endReasonNote": "2017年に記事の誤りを指摘されて情報サイトの全記事を非公開にした経緯はあるが、2021年の解散とサービス終了の理由は公表されていない。",
     "lessons": "医療情報を集客に使うモデルは、2016〜17年のWELQ問題以降、記事の正確性への監視が強まり運営負担が増したとみられる。",
     "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%AA%E3%83%BC_(%E4%BC%81%E6%A5%AD)",
       "https://news.livedoor.com/article/detail/13191570/",
       "https://www.itmedia.co.jp/news/article/1706/12/1170612052/",
       "https://x.com/nicoly_news/status/1179333736808243201",
@@ -7877,7 +7871,7 @@
     "category": "medical-cosmetic",
     "description": "美容整形・美容皮膚科の施術を受けた利用者の写真付き口コミを集め、全国のクリニックを検索できる美容医療の口コミ・検索アプリ。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "譲渡",
     "endedAt": "2020-08",
     "successor": "Healingpaper Co.,Ltd.（韓国、「カンナムオンニ」に統合）",
@@ -7901,6 +7895,7 @@
     "endReasonNote": "Healingpaperは日本展開を加速させるためにルクモを買収したと発表した。ティンク側の売却理由は公表されていない。",
     "lessons": "国内の美容医療口コミアプリは、資本力のある韓国大手の日本進出の足がかりとして吸収された例とみられる。",
     "sources": [
+      "https://apps.apple.com/jp/app/id1273629997",
       "https://prtimes.jp/main/html/rd/p/000000001.000063010.html",
       "https://www.marr.jp/genre/topics/news/entry/23671",
       "https://thebridge.jp/2021/03/gangnam-sister-attracts-350-clinics-after-japan-expansion-pickupnews",
@@ -7908,7 +7903,8 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011001111641"
     ],
     "updatedAt": "2026-10",
-    "type": "cosmetic-review-booking-app"
+    "type": "cosmetic-review-booking-app",
+    "startedAt": "2017"
   },
   {
     "id": "b-0df4f31f",
@@ -8289,48 +8285,6 @@
     ],
     "updatedAt": "2026-10",
     "type": "insurer-member-portal"
-  },
-  {
-    "id": "b-de09b442",
-    "name": "美容医療SNS「Meily（メイリー）」",
-    "company": "株式会社Meily",
-    "companyId": "5010401135298",
-    "category": "medical-cosmetic",
-    "description": "美容医療の体験談や悩みを利用者同士で共有するSNSアプリ。クリニックの口コミ・検索に加え、一括見積もりやオンラインカウンセリングの機能も提供した。",
-    "hp": "",
-    "startedYear": null,
-    "status": "終了",
-    "milestones": [
-      {
-        "date": "2018-12",
-        "text": "エンジェル投資家向け番組で計1,000万円の出資を獲得"
-      },
-      {
-        "date": "2019-01",
-        "text": "NOW、YJキャピタル、East Venturesなどから数千万円規模を調達。投稿は1万件を突破"
-      },
-      {
-        "date": "2023-05",
-        "text": "会社サイトのWayback Machine最終保存。その後ドメインは消滅し、日本のApp Storeでもアプリが見つからない"
-      },
-      {
-        "date": "2026-03",
-        "text": "厚生年金の適用事業所が全喪"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "サービス終了の告知は見つからず、理由は公表されていない。解散・清算の登記もない。",
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000040243.html",
-      "https://techcrunchjapan.com/2019/01/18/meily-fundrasing/",
-      "https://prtimes.jp/main/html/rd/p/000000002.000040243.html",
-      "https://ja.wikipedia.org/wiki/Meily",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010401135298"
-    ],
-    "updatedAt": "2026-10",
-    "type": "cosmetic-review-booking-app"
   },
   {
     "id": "b-5e8dbe00",
@@ -8811,7 +8765,7 @@
     "category": "simple-inspection",
     "description": "自宅で指先から採ったわずかな血液を郵送すると、医療機関と同等精度の血液検査結果がわかる個人向けサービス。保険会社の契約者向けにも提供し、異常値の人が医師の診療を受けられるオンライン診療も付けた。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "不明",
     "milestones": [
       {
@@ -8836,12 +8790,15 @@
     ],
     "endReasonNote": "サービス終了の告知はなく、理由は公表されていない。解散・清算の登記も確認できない。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000024660.html",
+      "https://prtimes.jp/main/html/rd/p/000000008.000024660.html",
       "https://prtimes.jp/main/html/rd/p/000000014.000024660.html",
       "https://prtimes.jp/main/html/rd/p/000000015.000024660.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010502020121"
     ],
     "updatedAt": "2026-10",
-    "type": "mail-in-blood-test"
+    "type": "mail-in-blood-test",
+    "startedAt": "2020-01"
   },
   {
     "id": "b-eb04532d",
@@ -8929,14 +8886,14 @@
     "endReasons": [
       "acquisition"
     ],
-    "endReasonNote": "譲受側のアイセイ薬局は、保険薬局の「治療」領域に加えて「未病」領域へ広げるためと説明した。譲渡側の理由は公表されていない。サービスは継続している。",
+    "endReasonNote": "2023年12月1日、わたし漢方株式会社がサービスをアイセイ薬局グループへ事業譲渡。さらに2026年8月、同グループのAXISからVARYTEXへ事業譲渡された。サービス自体は利用者の手続きなしで継続している。",
     "sources": [
       "https://www.aisei.co.jp/news/pr/147689816075/",
+      "https://prtimes.jp/main/html/rd/p/000000026.000077291.html",
       "https://kyodonewsprwire.jp/release/202311293496",
       "https://news.infoseek.co.jp/article/hanako_353410/",
       "https://www.kochinews.co.jp/article/detail/837736",
       "http://www.watashikampo.com/news/260723/",
-      "https://prtimes.jp/main/html/rd/p/000000026.000077291.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001116530"
     ],
     "updatedAt": "2026-10",
@@ -8982,52 +8939,6 @@
     ],
     "updatedAt": "2026-10",
     "type": "dental-patient-media"
-  },
-  {
-    "id": "b-245e3eca",
-    "name": "ADHD・マイノリティ向けAIフレンド「Nao.」「Ashley」・コミュニティアプリ「weBelong」",
-    "company": "HoloAsh.Inc",
-    "companyId": "1700150099389",
-    "category": "mental-health",
-    "description": "ADHD当事者の創業者が、発達障害やLGBTQなど「違い」を抱える人の孤独に寄り添うAIチャットフレンドと、10代マイノリティ向けのコミュニティアプリを開発した。",
-    "hp": "",
-    "startedYear": null,
-    "status": "終了",
-    "milestones": [
-      {
-        "date": "2018-02",
-        "text": "ADHD向けプロダクトの開発資金をクラウドファンディングで募集"
-      },
-      {
-        "date": "2018-10",
-        "text": "アクセンチュア ヘルステック イノベーション チャレンジに登壇"
-      },
-      {
-        "date": "2019-05",
-        "text": "プレシードで資金調達"
-      },
-      {
-        "date": "2021-03",
-        "text": "10代マイノリティ向けコミュニティアプリ「weBelong」で約7,300万円を調達（累計約1億円）"
-      },
-      {
-        "date": "2022-07",
-        "text": "AIチャットフレンドの開発をPlug and Play Japanが紹介"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "公式ドメインは無関係のサイトになり、アプリのドメインも売りに出されているが、終了の告知や理由は公表されていない。",
-    "sources": [
-      "https://thebridge.jp/2018/11/yoshua-kishi-develops-holoash-adhd-solution",
-      "https://prtimes.jp/main/html/rd/p/000000003.000032627.html",
-      "https://thebridge.jp/2021/03/holoash-webelong-pre-seed-round-funding",
-      "https://www.nikkei.com/article/DGXZQODZ102Q00Q1A310C2000000/",
-      "https://japan.plugandplaytechcenter.com/all-insights/blog/2022/07-12-holoash"
-    ],
-    "updatedAt": "2026-10",
-    "type": "mental-ai-selfcare-app"
   },
   {
     "id": "b-03eb2648",
@@ -9257,8 +9168,8 @@
     "endReasonNote": "個人向けのオンラインカウンセリングから始まり、法人向けEAPへ移って続いている。止まった事業ではない。",
     "lessons": "個人向けで始まった相談サービスが、企業がお金を払うEAPに移って生き残った最初期の例とみられる。",
     "sources": [
-      "https://www.peacemind.co.jp/company/history",
-      "https://www.peacemind.co.jp/company/info"
+      "https://www.peacemind.co.jp/company/info",
+      "https://www.peacemind.co.jp/company/history"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -9302,109 +9213,6 @@
       "mental-chat"
     ],
     "type": "mental-corporate-eap"
-  },
-  {
-    "id": "b-59b0d10e",
-    "name": "cotree（オンラインカウンセリング・コーチング）",
-    "company": "株式会社cotree",
-    "companyId": "8011001100136",
-    "category": "mental-health",
-    "description": "臨床心理士・公認心理師など220名以上のカウンセラーにオンラインで相談できるサービス。個人向けに加え、法人・大学・自治体向けのプランで従業員や学生に提供した。",
-    "hp": "",
-    "startedYear": 2014,
-    "status": "統合",
-    "startedAt": "2014",
-    "endedAt": "2025-03",
-    "successor": "株式会社JMDC（サービス名cotreeは継続）",
-    "milestones": [
-      {
-        "date": "2014-05",
-        "text": "櫻本真理氏が株式会社cotreeを設立"
-      },
-      {
-        "date": "2022-06",
-        "text": "創業者の櫻本氏が代表取締役を退任し、西岡恵子氏が代表に（報道）"
-      },
-      {
-        "date": "2022-09",
-        "text": "「大学向けプラン」を開始。この時点のプレスリリースはJMDCの企業ページから配信されている"
-      },
-      {
-        "date": "2022-11",
-        "text": "JMDCのヘルスケアプラットフォーム「Pep Up」と連携開始"
-      },
-      {
-        "date": "2023-06",
-        "text": "法人・公共団体・大学向けプランの提供対象者数が39万人を超えたと発表"
-      },
-      {
-        "date": "2024-11",
-        "text": "三井住友海上あいおい生命の「MSAケア」に導入"
-      },
-      {
-        "date": "2025-03",
-        "text": "完全子会社だったcotreeをJMDCが吸収合併。法人は解散し、サービスはJMDCが運営"
-      }
-    ],
-    "endReasons": [
-      "acquisition"
-    ],
-    "endReasonNote": "JMDCは合併の目的を、cotreeのサービスとJMDCのコーポレートヘルス向けサービスを組み合わせて企業の健康経営支援を強めるためと説明した。サービス自体は続いている。JMDCの子会社になった時期と経緯は今回確認できなかった。",
-    "lessons": "個人向けのカウンセリングとして始まり、健保・企業向けの基盤を持つデータ会社の中に入ることで法人向けに広がった例とみられる。",
-    "sources": [
-      "https://www.nihon-ma.co.jp/news/20241223_4483-6/",
-      "https://morejob.co.jp/mirai/cotree/",
-      "https://prtimes.jp/main/html/rd/p/000000025.000103500.html",
-      "https://prtimes.jp/main/html/rd/p/000000053.000103500.html",
-      "https://prtimes.jp/main/html/rd/p/000000013.000103500.html",
-      "https://cotree.co/company",
-      "https://strainer.jp/posts/18"
-    ],
-    "updatedAt": "2026-10",
-    "themes": [
-      "mental-chat"
-    ],
-    "type": "mental-online-counseling"
-  },
-  {
-    "id": "b-e7a57a51",
-    "name": "Reme（リミー）匿名オンライン心の健康相談",
-    "company": "株式会社リミー",
-    "companyId": "5011001136208",
-    "category": "mental-health",
-    "description": "メンタルヘルスメディアから始まり、臨床心理士・精神保健福祉士などの専門家にウェブやLINEで匿名相談できるサービス。個人は月額500円で相談し放題、法人には1人月額500円で導入する形だった。",
-    "hp": "",
-    "startedYear": 2015,
-    "status": "不明",
-    "startedAt": "2015-10",
-    "milestones": [
-      {
-        "date": "2015-10",
-        "text": "メンタルヘルスメディア「Reme」を公開（2016年10月に1周年と発表）"
-      },
-      {
-        "date": "2016-10",
-        "text": "月額500円の「ワンコイン相談し放題サービス」と法人向けプランを正式開始。24時間受付、LINEからも相談可能、18歳以下は月3回まで無料"
-      },
-      {
-        "date": "2020-10",
-        "text": "株式会社リミー（法人番号5011001136208）が設立登記"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "公式サイト（reme-nomal.com）は2026年10月時点で403エラーとなり、内容を確認できない。サービス終了の告知は見つからず、理由も公表されていない。",
-    "sources": [
-      "https://www.value-press.com/pressrelease/171342",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001136208",
-      "https://houjin.jp/c/5011001136208"
-    ],
-    "updatedAt": "2026-10",
-    "themes": [
-      "mental-chat"
-    ],
-    "type": "mental-online-counseling"
   },
   {
     "id": "b-5c98b735",
@@ -9521,6 +9329,7 @@
     ],
     "endReasonNote": "提供中。",
     "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3%82%B7%E3%82%A7%E3%83%AB%E3%83%91",
       "https://my-sherpa.co.jp/",
       "https://my-sherpa.co.jp/company/profile/"
     ],
@@ -9913,7 +9722,7 @@
     "category": "mental-health",
     "description": "インストラクターがリアルタイムでマインドフルネスを指導する月額制オンラインプログラムと継続支援アプリ。個人向けのほか、法人のセルフマネジメント研修として提供する。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "milestones": [
       {
@@ -9935,6 +9744,8 @@
     ],
     "endReasonNote": "提供中。",
     "sources": [
+      "https://www.the-melon.com/blog/info/2020/04/18/1547/",
+      "https://prtimes.jp/main/html/rd/p/000000007.000047366.html",
       "https://eleminist.com/article/1090",
       "https://initial.inc/companies/A-34492",
       "https://www.hanshin.co.jp/press/docs/20251128_itec_Melon.pdf",
@@ -9944,7 +9755,8 @@
     "themes": [
       "mental-chat"
     ],
-    "type": "mental-ai-selfcare-app"
+    "type": "mental-ai-selfcare-app",
+    "startedAt": "2020-04"
   },
   {
     "id": "b-ff7146dd",
@@ -9988,74 +9800,6 @@
     "type": "mental-online-counseling"
   },
   {
-    "id": "b-7ffc415b",
-    "name": "Unlace（チャット型オンラインカウンセリング）",
-    "company": "株式会社Unlace（旧株式会社プラグ）",
-    "category": "mental-health",
-    "description": "有資格カウンセラーとテキストチャットでやりとりするマッチング型のオンラインカウンセリング。個人課金のほか、企業の福利厚生として提供し、エムスリーグループと販売提携した。",
-    "hp": "",
-    "startedYear": 2020,
-    "status": "終了",
-    "startedAt": "2020-12",
-    "endedAt": "2024-12",
-    "milestones": [
-      {
-        "date": "2020-01",
-        "text": "株式会社プラグとして設立"
-      },
-      {
-        "date": "2020-12",
-        "text": "サービス開始"
-      },
-      {
-        "date": "2021-07",
-        "text": "株式会社Unlaceに商号変更"
-      },
-      {
-        "date": "2021-08",
-        "text": "デライト・ベンチャーズ、ZVCなどからシードで6,000万円を調達"
-      },
-      {
-        "date": "2021-10",
-        "text": "企業向け福利厚生サービスを開始（エムスリーグループと販売提携）"
-      },
-      {
-        "date": "2021-12",
-        "text": "メッセージをAIで解析して感情を可視化する機能を追加"
-      },
-      {
-        "date": "2022-07",
-        "text": "ZVC、デライト・ベンチャーズ、Scrum Venturesから約2.1億円を調達（累計約3億円）。登録者数は前年同月比約5倍"
-      },
-      {
-        "date": "2023-07",
-        "text": "ロゴを刷新し、「カウンセラーの分身AI」構想と、カウンセラー向け「AIトレーニング（β）」を発表"
-      },
-      {
-        "date": "2024-12",
-        "text": "法人の登記記録が清算結了により閉鎖"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "2024年12月6日に清算結了で法人登記が閉鎖された。サービス終了の告知文や理由の説明は見つからなかった（海外のデータベースには2025年3月に事業停止との記載がある）。",
-    "lessons": "累計約3億円を調達し、生成AIへの転換を打ち出した翌年に清算に至った。チャット型カウンセリングの単価と継続率の問題が考えられるが、公表された説明はない。",
-    "sources": [
-      "https://thebridge.jp/2021/08/unlace-seed-round-funding",
-      "https://thebridge.jp/2022/07/unlace-jpy210m-funding",
-      "https://ascii.jp/elem/000/004/145/4145897/",
-      "https://houjin.jp/c/8011001131833",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001131833",
-      "https://app.dealroom.co/companies/unlace"
-    ],
-    "updatedAt": "2026-10",
-    "themes": [
-      "mental-chat"
-    ],
-    "type": "mental-online-counseling"
-  },
-  {
     "id": "b-bc87b7a8",
     "name": "Kimochi（公認心理師によるオンラインカウンセリング）",
     "company": "株式会社remental",
@@ -10063,7 +9807,7 @@
     "category": "mental-health",
     "description": "公認心理師の資格を持つカウンセラーと利用者をマッチングするサブスクリプション型のオンラインカウンセリング。個人向け、ペア向け、企業向けの「Kimochi for Business」を展開する。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "milestones": [
       {
@@ -10089,6 +9833,7 @@
     ],
     "endReasonNote": "提供中。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000109754.html",
       "https://remental.co.jp/news",
       "https://sogyotecho.jp/news/remental-sato-interview/",
       "https://remental.co.jp/"
@@ -10097,7 +9842,8 @@
     "themes": [
       "mental-chat"
     ],
-    "type": "mental-online-counseling"
+    "type": "mental-online-counseling",
+    "startedAt": "2023-06"
   },
   {
     "id": "b-3259ede3",
@@ -11452,8 +11198,8 @@
     "description": "自宅で指先から少量の血液を採って郵送し、結果をスマホで確認できる検査サービス。自治体や健保が健診未受診者などに配り、保健事業として費用を負担するモデル。",
     "hp": "",
     "startedYear": 2015,
-    "status": "提供中",
-    "startedAt": "2015",
+    "status": "終了",
+    "startedAt": "2015-08",
     "milestones": [
       {
         "date": "2015",
@@ -11472,8 +11218,9 @@
         "text": "ファストドクターと組み、自治体・企業・健保向けのオンライン受診相談オプションを開始"
       }
     ],
-    "endReasonNote": "提供中のため該当なし。",
+    "endReasonNote": "auの「終了したサービス一覧」にスマートフォン向け「スマホ de ドック」の終了日が2026年6月30日と掲載。KDDIは2015年から郵送型血液検査として提供していたが、終了理由は一覧では説明されていない。",
     "sources": [
+      "https://www.au.com/mobile/service/list/end/",
       "https://xtech.nikkei.com/dm/atcl/feature/15/327441/100700012/",
       "https://news.kddi.com/kddi/corporate/newsrelease/2016/06/16/besshi1862.html",
       "https://news.kddi.com/kddi/corporate/newsrelease/2017/06/27/besshi2525.html",
@@ -11483,7 +11230,11 @@
     "themes": [
       "phr-employer"
     ],
-    "type": "mail-in-blood-test"
+    "type": "mail-in-blood-test",
+    "endedAt": "2026-06",
+    "endReasons": [
+      "unknown"
+    ]
   },
   {
     "id": "b-70f29e9e",
@@ -13045,7 +12796,7 @@
     "category": "medical-cosmetic",
     "description": "美容医療の体験談やQ&Aを会員同士で共有し、クリニック選びに役立てる美容医療SNS。創業者自身の美容整形経験から生まれた。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "終了",
     "endedAt": "2023",
     "milestones": [
@@ -13071,6 +12822,8 @@
     ],
     "endReasonNote": "サービス終了の告知は確認できず、終了時期は活動が最後に確認できる2023年とした。日本のApp Storeでも見つからない。理由は公表されていない。",
     "sources": [
+      "https://techcrunchjapan.com/2019/01/18/meily-fundrasing/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000040243.html",
       "https://thebridge.jp/2019/01/meily-fundraising",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010401135298"
     ],
@@ -13078,58 +12831,8 @@
     "themes": [
       "clinic-booking"
     ],
-    "type": "cosmetic-review-booking-app"
-  },
-  {
-    "id": "b-5269898c",
-    "name": "ルクモ（LUCMO）美容整形の写真口コミ・予約アプリ",
-    "company": "株式会社ティンク",
-    "companyId": "3011001111641",
-    "category": "medical-cosmetic",
-    "description": "美容整形の症例写真と口コミを見て、クリニックの施術をお得に予約できる生活者向けアプリ。クリニックからの送客手数料型。",
-    "hp": "",
-    "startedYear": 2017,
-    "status": "統合",
-    "startedAt": "2017",
-    "endedAt": "2021-12",
-    "successor": "Healingpaperの美容医療情報アプリ「カンナムオンニ」",
-    "milestones": [
-      {
-        "date": "2017",
-        "text": "サービス開始（アプリ説明による）"
-      },
-      {
-        "date": "2020-08",
-        "text": "韓国の美容医療アプリ「カンナムオンニ（江南お姉さん）」を運営するHealingpaperが、ティンクからルクモ事業を取得"
-      },
-      {
-        "date": "2021-03",
-        "text": "カンナムオンニは日本展開から4カ月で350クリニックと契約したと報道"
-      },
-      {
-        "date": "2021-12",
-        "text": "ルクモをカンナムオンニに統合し、データ統合を実施（最終版1.6.7）"
-      },
-      {
-        "date": "2023-11",
-        "text": "株式会社ティンクが清算結了"
-      }
-    ],
-    "endReasons": [
-      "acquisition"
-    ],
-    "endReasonNote": "事業は2020年8月に韓国Healingpaperへ譲渡され、2021年12月に同社のカンナムオンニへ統合された。ティンク側が譲渡した理由は公表されていない。",
-    "lessons": "国内の美容医療予約アプリが、本国で規模を持つ海外勢の日本参入時に受け皿として買われた事例とみられる。",
-    "sources": [
-      "https://apps.apple.com/jp/app/id1273629997",
-      "https://thebridge.jp/2021/03/gangnam-sister-attracts-350-clinics-after-japan-expansion-pickupnews",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011001111641"
-    ],
-    "updatedAt": "2026-10",
-    "themes": [
-      "clinic-booking"
-    ],
-    "type": "cosmetic-review-booking-app"
+    "type": "cosmetic-review-booking-app",
+    "startedAt": "2018-04"
   },
   {
     "id": "b-85113763",
@@ -13140,7 +12843,7 @@
     "hp": "",
     "startedYear": 2020,
     "status": "不明",
-    "startedAt": "2020",
+    "startedAt": "2020-10",
     "milestones": [
       {
         "date": "2019-11",
@@ -13167,6 +12870,8 @@
       "unknown"
     ],
     "sources": [
+      "https://note.com/maruta_bot/n/ncc1712573f0b",
+      "https://prtimes.jp/main/html/rd/p/000000012.000063010.html",
       "https://thebridge.jp/2021/03/gangnam-sister-attracts-350-clinics-after-japan-expansion-pickupnews",
       "https://apps.apple.com/jp/app/id1273629997"
     ],
@@ -13915,7 +13620,7 @@
     "category": "medical-cosmetic",
     "description": "自由診療クリニックに特化したWeb予約・電子カルテ・会計などのクラウドツール。保険診療のレセコン連携を前提としない美容医療向けの領域で展開する。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "milestones": [
       {
@@ -13924,13 +13629,15 @@
       }
     ],
     "sources": [
+      "https://note.com/b4a/n/nf2d7a7718fa5",
       "https://www.b4a.co.jp/"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "cloud-emr"
     ],
-    "type": "cosmetic-clinic-saas"
+    "type": "cosmetic-clinic-saas",
+    "startedAt": "2021-01"
   },
   {
     "id": "b-f67dc7b3",
@@ -16362,6 +16069,7 @@
     ],
     "lessons": "個人向けの相談から企業・自治体向けへ払い手を移した点は、小児科オンラインやLEBERと共通する。",
     "sources": [
+      "https://famione.co.jp/outline/",
       "https://famione.com/"
     ],
     "updatedAt": "2026-10",
@@ -17026,13 +16734,16 @@
     "category": "fitness",
     "description": "開始時期は公式に確認できず",
     "hp": "https://yoga-lava.com/",
-    "startedYear": null,
+    "startedYear": 2004,
     "status": "提供中",
     "sources": [
+      "https://lava-intl.co.jp/recruit/blog/yogadelight/",
+      "https://bthefit.com/news/post-13260",
       "https://yoga-lava.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "fitness-studio"
+    "type": "fitness-studio",
+    "startedAt": "2004-12"
   },
   {
     "id": "b-e6877273",
@@ -18902,13 +18613,15 @@
     "category": "direct-to-consumer",
     "description": "",
     "hp": "https://www.asken.inc/about",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://www.asken.inc/news/20240801-askenshop",
       "https://www.asken.inc/about"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "2024-08"
   },
   {
     "id": "b-a4bec720",
@@ -19464,6 +19177,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000080840.html",
+      "https://prtimes.jp/main/html/rd/p/000000012.000080840.html",
       "https://mejy.jp/"
     ],
     "updatedAt": "2026-10",
@@ -19656,13 +19371,16 @@
     "category": "relaxation",
     "description": "",
     "hp": "https://three-sides.co.jp/service",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://three-sides.co.jp/05/",
+      "https://prtimes.jp/main/html/rd/p/000000003.000057170.html",
       "https://three-sides.co.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "bonesetter-clinic-support"
+    "type": "bonesetter-clinic-support",
+    "startedAt": "2020-10"
   },
   {
     "id": "b-aaa69b7b",
@@ -20739,13 +20457,15 @@
     "category": "direct-to-consumer",
     "description": "フィットネスクラブ等で全国600店舗導入（2026-06、公式）。",
     "hp": "https://dricos.jp/#service",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://www.inbody.co.jp/dricos/",
       "https://dricos.jp/#service"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-personalized-supplement"
+    "type": "d2c-personalized-supplement",
+    "startedAt": "2021"
   },
   {
     "id": "b-19b1a26e",
@@ -20806,13 +20526,15 @@
     "category": "sleep",
     "description": "",
     "hp": "https://neurospace.jp/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "http://prtimes.jp/main/html/rd/p/000000001.000020114.html",
       "https://neurospace.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "sleep-corporate-program"
+    "type": "sleep-corporate-program",
+    "startedAt": "2016-07"
   },
   {
     "id": "b-75d58438",
@@ -20839,13 +20561,15 @@
     "category": "sleep",
     "description": "",
     "hp": "https://neurospace.jp/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000062.000020114.html",
       "https://neurospace.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "sleep-corporate-program"
+    "type": "sleep-corporate-program",
+    "startedAt": "2023-05"
   },
   {
     "id": "b-f00f0e62",
@@ -20855,13 +20579,16 @@
     "category": "simple-inspection",
     "description": "ALLは2025-06にパッケージリニューアル",
     "hp": "https://genequest.jp/dnatest/",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "提供中",
     "sources": [
+      "https://genequest.jp/topics/news/0/40",
+      "https://www.atpress.ne.jp/news/company/19411",
       "https://genequest.jp/dnatest/"
     ],
     "updatedAt": "2026-10",
-    "type": "dtc-genetic-test"
+    "type": "dtc-genetic-test",
+    "startedAt": "2014-01"
   },
   {
     "id": "b-3bad1eca",
@@ -20871,13 +20598,16 @@
     "category": "simple-inspection",
     "description": "",
     "hp": "https://genequest.jp/mypage/?gqupload",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
+      "https://genequest.jp/topics/news/0/108",
+      "https://www.atpress.ne.jp/news/61264",
       "https://genequest.jp/mypage/?gqupload"
     ],
     "updatedAt": "2026-10",
-    "type": "dtc-genetic-test"
+    "type": "dtc-genetic-test",
+    "startedAt": "2015-05"
   },
   {
     "id": "b-226c8150",
@@ -21417,13 +21147,16 @@
     "category": "direct-to-consumer",
     "description": "一般販売開始の記載あり。年は特定できず",
     "hp": "http://www.yukashikado.co.jp/service",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000054.000014845.html",
+      "https://otakuma.net/archives/2023121404.html",
       "http://www.yukashikado.co.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "2023-12"
   },
   {
     "id": "b-9a304843",
@@ -22218,13 +21951,15 @@
     "category": "direct-to-consumer",
     "description": "2026-07の資金調達で事業展開を加速",
     "hp": "https://2foods.jp/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://2foods.jp/blogs/news/2021041402",
       "https://2foods.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "2021-04"
   },
   {
     "id": "b-a587cb5e",
@@ -22251,13 +21986,15 @@
     "category": "direct-to-consumer",
     "description": "",
     "hp": "https://2foods.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://two2.jp/news/%E3%80%8C2foods%E3%80%8D2gummy-release/",
       "https://2foods.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "2025-03"
   },
   {
     "id": "b-d792cad2",
@@ -22429,13 +22166,15 @@
     "category": "fitness",
     "description": "開始年は沿革の表示形式上特定できず。法人向けプランは2020年",
     "hp": "https://about.soelu.com/services",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000010661.html",
       "https://about.soelu.com/services"
     ],
     "updatedAt": "2026-10",
-    "type": "online-home-fitness"
+    "type": "online-home-fitness",
+    "startedAt": "2018-06"
   },
   {
     "id": "b-8e8bd84c",
@@ -22447,8 +22186,10 @@
     "hp": "https://about.soelu.com/services",
     "startedYear": 2023,
     "status": "提供中",
-    "startedAt": "2023",
+    "startedAt": "2023-06",
     "sources": [
+      "https://business.fitnessclub.jp/articles/-/2118",
+      "https://about.soelu.com/profile/",
       "https://about.soelu.com/services"
     ],
     "updatedAt": "2026-10",
@@ -22592,13 +22333,15 @@
     "category": "simple-inspection",
     "description": "",
     "hp": "https://www.rhelixa.com/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000132104.html",
       "https://www.rhelixa.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "dtc-genetic-test"
+    "type": "dtc-genetic-test",
+    "startedAt": "2024-10"
   },
   {
     "id": "b-12726e04",
@@ -22608,13 +22351,15 @@
     "category": "simple-inspection",
     "description": "2026-10に第4期参画企業の募集開始",
     "hp": "https://www.rhelixa.com/pr-20261016/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000132104.html",
       "https://www.rhelixa.com/pr-20261016/"
     ],
     "updatedAt": "2026-10",
-    "type": "dtc-genetic-test"
+    "type": "dtc-genetic-test",
+    "startedAt": "2024-06"
   },
   {
     "id": "b-fe272623",
@@ -23001,13 +22746,16 @@
     "category": "direct-to-consumer",
     "description": "2026-10に「11th Anniversary」キャンペーン。開始時期の明記なし",
     "hp": "https://comp.jp/shop/pages/about",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://www.dreamnews.jp/press/0000168762",
+      "https://prtimes.jp/main/html/rd/p/000000008.000016806.html",
       "https://comp.jp/shop/pages/about"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "2016-03"
   },
   {
     "id": "b-d9ea43cf",
@@ -23017,13 +22765,15 @@
     "category": "direct-to-consumer",
     "description": "",
     "hp": "https://comp.jp/shop/pages/about",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://qetic.jp/food-gourmet/comp-170711/252692/",
       "https://comp.jp/shop/pages/about"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "2017-07"
   },
   {
     "id": "b-31c7bd4e",
@@ -23194,13 +22944,15 @@
     "category": "fitness",
     "description": "月1,480円（税抜）〜",
     "hp": "https://lean-body.co.jp/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000025906.html",
       "https://lean-body.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "online-home-fitness"
+    "type": "online-home-fitness",
+    "startedAt": "2018"
   },
   {
     "id": "b-e13f15d7",
@@ -23870,13 +23622,16 @@
     "category": "direct-to-consumer",
     "description": "",
     "hp": "https://corp.oishi-kenko.com/business/food-and-consumer/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000131.000043855.html",
+      "https://prtimes.jp/main/html/rd/p/000000128.000043855.html",
       "https://corp.oishi-kenko.com/business/food-and-consumer/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-healthy-meal-delivery"
+    "type": "d2c-healthy-meal-delivery",
+    "startedAt": "2024-12"
   },
   {
     "id": "b-00089c0d",
@@ -24030,13 +23785,16 @@
     "category": "direct-to-consumer",
     "description": "開始時期は未確認",
     "hp": "https://shop.basefood.co.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://basefood.co.jp/news/64",
+      "https://prtimes.jp/main/html/rd/p/000000019.000022258.html",
       "https://shop.basefood.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "2019-03"
   },
   {
     "id": "b-d9f7fb52",
@@ -24316,13 +24074,15 @@
     "category": "direct-to-consumer",
     "description": "会社概要の事業内容より。",
     "hp": "https://nosh.jp/company",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000896.000054946.html",
       "https://nosh.jp/company"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-healthy-meal-delivery"
+    "type": "d2c-healthy-meal-delivery",
+    "startedAt": "2026-09"
   },
   {
     "id": "b-d2252ff8",
@@ -24449,13 +24209,15 @@
     "category": "relaxation",
     "description": "PR TIMESでは2019年頃まで告知、現状は未確認",
     "hp": "https://prtimes.jp/main/html/searchrlp/company_id/34840",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000034840.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/34840"
     ],
     "updatedAt": "2026-10",
-    "type": "relaxation-dispatch-matching"
+    "type": "relaxation-dispatch-matching",
+    "startedAt": "2018-06"
   },
   {
     "id": "b-cdec4324",
@@ -24869,13 +24631,16 @@
     "category": "femtech",
     "description": "",
     "hp": "https://goodbaton.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://goodbaton.jp/news/677/",
+      "https://goodbaton.jp/news/897/",
       "https://goodbaton.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-postpartum-childcare"
+    "type": "femtech-postpartum-childcare",
+    "startedAt": "2025-04"
   },
   {
     "id": "b-0e3a5969",
@@ -24973,13 +24738,15 @@
     "category": "femtech",
     "description": "リプロダクティブヘルスアワード2024ゴールド賞",
     "hp": "https://varinos.com/clinical-service-clinical-flora/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000054568.html",
       "https://varinos.com/clinical-service-clinical-flora/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-fertility-test-preservation"
+    "type": "femtech-fertility-test-preservation",
+    "startedAt": "2017-12"
   },
   {
     "id": "b-c329bc48",
@@ -25037,13 +24804,15 @@
     "category": "femtech",
     "description": "2023-08に名称変更。",
     "hp": "https://varinos.com/services/lactoferrin/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000019.000054568.html",
       "https://varinos.com/services/lactoferrin/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-product-ec"
+    "type": "femtech-product-ec",
+    "startedAt": "2019-03"
   },
   {
     "id": "b-cf890335",
@@ -25679,13 +25448,15 @@
     "category": "direct-to-consumer",
     "description": "限定フレーバー等を継続発売",
     "hp": "https://tricot-inc.com/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000012.000041495.html",
       "https://tricot-inc.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-personalized-supplement"
+    "type": "d2c-personalized-supplement",
+    "startedAt": "2021-04"
   },
   {
     "id": "b-e7832e65",
@@ -25715,6 +25486,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000028.000040785.html",
       "https://mil-inc.com/"
     ],
     "updatedAt": "2026-10",
@@ -25962,13 +25734,15 @@
     "category": "femtech",
     "description": "LINE公式アカウント友だち100万人突破（2026-07）。アプリ版2024-10リリース",
     "hp": "https://paircare.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://ascii.jp/elem/000/004/007/4007327/",
       "https://paircare.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-cycle-tracking-app"
+    "type": "femtech-cycle-tracking-app",
+    "startedAt": "2019-09"
   },
   {
     "id": "b-7297f1d5",
@@ -25995,13 +25769,15 @@
     "category": "femtech",
     "description": "プレコンセプションケア領域。",
     "hp": "https://empowertec.co.jp/service/wellbeing",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://empowertec.co.jp/news/%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
       "https://empowertec.co.jp/service/wellbeing"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-expert-consultation"
+    "type": "femtech-expert-consultation",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-41bc0b3d",
@@ -26206,13 +25982,15 @@
     "category": "femtech",
     "description": "",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000021.000054252.html",
       "https://mederi.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-product-ec"
+    "type": "femtech-product-ec",
+    "startedAt": "2022-06"
   },
   {
     "id": "b-e5c44849",
@@ -26222,13 +26000,15 @@
     "category": "femtech",
     "description": "",
     "hp": "https://hellofermata.com/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://spur.hpplus.jp/culture/news/2020-04-16-JWOTd3Q/",
       "https://hellofermata.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-product-ec"
+    "type": "femtech-product-ec",
+    "startedAt": "2020-04"
   },
   {
     "id": "b-200cba51",
@@ -26271,13 +26051,15 @@
     "category": "femtech",
     "description": "",
     "hp": "https://ninpath.com/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://release.ninpath.com/2020/12/03/android-ios/",
       "https://ninpath.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-cycle-tracking-app"
+    "type": "femtech-cycle-tracking-app",
+    "startedAt": "2020-12"
   },
   {
     "id": "b-8768de52",
@@ -26756,13 +26538,15 @@
     "category": "sleep",
     "description": "",
     "hp": "https://brain-sleep.com/pages/corporate_consulting",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000077.000046684.html",
       "https://brain-sleep.com/pages/corporate_consulting"
     ],
     "updatedAt": "2026-10",
-    "type": "sleep-corporate-program"
+    "type": "sleep-corporate-program",
+    "startedAt": "2021-10"
   },
   {
     "id": "b-af8a91f7",
@@ -29016,13 +28800,15 @@
     "category": "medical-cosmetic",
     "description": "",
     "hp": "https://agudinc.com/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000129075.html",
       "https://agudinc.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "cosmetic-clinic-business-support"
+    "type": "cosmetic-clinic-business-support",
+    "startedAt": "2023-12"
   },
   {
     "id": "b-a34fb32f",
@@ -29309,13 +29095,15 @@
     "category": "mental-health",
     "description": "うつ病向けで特定臨床研究を完了し治験準備開始。",
     "hp": "https://bipsee.co.jp/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://bipsee.co.jp/business/vrplatform",
       "https://bipsee.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "mental-dtx-neurotech"
+    "type": "mental-dtx-neurotech",
+    "startedAt": "2020"
   },
   {
     "id": "b-980e2bcf",
@@ -29663,8 +29451,9 @@
     "hp": "https://hbio.jp/",
     "startedYear": 2020,
     "status": "提供中",
-    "startedAt": "2020",
+    "startedAt": "2020-10",
     "sources": [
+      "https://project.nikkeibp.co.jp/behealth/atcl/feature/00004/092700219/",
       "https://hbio.jp/"
     ],
     "updatedAt": "2026-10",
@@ -29714,8 +29503,9 @@
     "hp": "https://salivatech.co.jp/",
     "startedYear": 2025,
     "status": "提供中",
-    "startedAt": "2025",
+    "startedAt": "2025-09",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000032.000085491.html",
       "https://salivatech.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -29882,13 +29672,15 @@
     "category": "simple-inspection",
     "description": "2025-04に10x Genomics PSP選定、2026-07に空間解析装置Atera導入",
     "hp": "https://www.kotai-bio.com/service/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://www.kotai-bio.com/jp/news/post-1052/",
       "https://www.kotai-bio.com/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "contract-lab-omics"
+    "type": "contract-lab-omics",
+    "startedAt": "2020-01"
   },
   {
     "id": "b-9a8b30e5",
@@ -30687,13 +30479,15 @@
     "category": "femtech",
     "description": "地銀・JR系・給食会社等への導入をPR TIMESで告知",
     "hp": "https://biz.flora-tech.jp/ja",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://www.hrpro.co.jp/press_detail.php?ccd=01458&press_no=4",
       "https://biz.flora-tech.jp/ja"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-employee-benefit"
+    "type": "femtech-employee-benefit",
+    "startedAt": "2023"
   },
   {
     "id": "b-3ebe1026",
@@ -30703,13 +30497,15 @@
     "category": "femtech",
     "description": "企業・労組向け",
     "hp": "https://biz.flora-tech.jp/ja",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000045.000072971.html",
       "https://biz.flora-tech.jp/ja"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-employee-benefit"
+    "type": "femtech-employee-benefit",
+    "startedAt": "2025-06"
   },
   {
     "id": "b-7e53dc6d",
@@ -30752,13 +30548,15 @@
     "category": "femtech",
     "description": "2026-09三菱UFJ銀行健保へ提供開始、2026-10東京都の妊産婦ヘルスケア事業関連の告知",
     "hp": "https://mamawell.jp/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000116438.html",
       "https://mamawell.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-expert-consultation"
+    "type": "femtech-expert-consultation",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-4140be3a",
@@ -30851,13 +30649,15 @@
     "category": "femtech",
     "description": "提携クリニックで採卵・保管",
     "hp": "https://gracebank.jp/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000072856.html",
       "https://gracebank.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-fertility-test-preservation"
+    "type": "femtech-fertility-test-preservation",
+    "startedAt": "2021-01"
   },
   {
     "id": "b-9ebd0ceb",
@@ -30867,13 +30667,15 @@
     "category": "femtech",
     "description": "三菱UFJ銀行・SBI・クレディセゾン等に提供（PR TIMES）",
     "hp": "https://gracebank.jp/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000044.000072856.html",
       "https://gracebank.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-employee-benefit"
+    "type": "femtech-employee-benefit",
+    "startedAt": "2023-11"
   },
   {
     "id": "b-826b4ab0",
@@ -30917,13 +30719,15 @@
     "category": "femtech",
     "description": "2026-08研究成果がDigital Healthに掲載",
     "hp": "https://ystoryhealth.com/service",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://www.kyoto-unicap.co.jp/interview/37-ystory/",
       "https://ystoryhealth.com/service"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-cycle-tracking-app"
+    "type": "femtech-cycle-tracking-app",
+    "startedAt": "2023"
   },
   {
     "id": "b-12169663",
@@ -30950,13 +30754,15 @@
     "category": "femtech",
     "description": "「国内初のフェムテック福利厚生サービス」と公式表記",
     "hp": "https://xxnanoni.com/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000091427.html",
       "https://xxnanoni.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-employee-benefit"
+    "type": "femtech-employee-benefit",
+    "startedAt": "2021-12"
   },
   {
     "id": "b-d30081b8",
@@ -30967,12 +30773,18 @@
     "description": "2025-11に新規受付停止を告知",
     "hp": "https://xxnanoni.com/service",
     "startedYear": null,
-    "status": "提供中",
+    "status": "休止",
     "sources": [
+      "https://xxnanoni.com/posts2/pc_I9xej",
       "https://xxnanoni.com/service"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-employee-benefit"
+    "type": "femtech-employee-benefit",
+    "endedAt": "2025-11",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2025年11月、「事業の新フェーズへの移行に伴い」新規実施受付を停止したと公式告知。新サービスの開始時期は改めて案内するとしており、具体的な理由の説明はない。"
   },
   {
     "id": "b-ea121e30",
@@ -31014,13 +30826,15 @@
     "category": "femtech",
     "description": "取引先医療機関にORINAS ART CLINIC（池袋）",
     "hp": "https://www.arch.social/about",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://ampmedia.jp/2024/11/26/arch-241126/",
       "https://www.arch.social/about"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-fertility-clinic-support"
+    "type": "femtech-fertility-clinic-support",
+    "startedAt": "2022"
   },
   {
     "id": "b-7d6dc516",
@@ -31047,13 +30861,15 @@
     "category": "femtech",
     "description": "",
     "hp": "https://www.arch.social/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000018.000100852.html",
       "https://www.arch.social/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-employee-benefit"
+    "type": "femtech-employee-benefit",
+    "startedAt": "2023-12"
   },
   {
     "id": "b-b2bc8839",
@@ -31148,6 +30964,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.tokyo-sogyo-net.metro.tokyo.lg.jp/interview/2402_01.html",
       "https://joconne.com/service/healthissue-supportbusiness/"
     ],
     "updatedAt": "2026-10",
@@ -31196,6 +31013,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://womens-kampo.co.jp/corporate_outline.php",
       "https://womens-kampo.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -31225,13 +31043,15 @@
     "category": "femtech",
     "description": "商業施設・自治体等に設置",
     "hp": "https://trim-inc.com/product",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://trim-inc.com/detail/%E3%83%99%E3%83%93%E3%83%BC%E3%82%B1%E3%82%A2%E3%83%AB%E3%83%BC%E3%83%A0%E3%80%8Cmamaro%E3%80%8D-%E5%85%A8%E5%9B%BD%E3%81%A7%E3%81%AE%E5%B0%8E%E5%85%A5%E5%AE%9F%E7%B8%BE-200%E5%8F%B0%E9%81%94-2/",
       "https://trim-inc.com/product"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-postpartum-childcare"
+    "type": "femtech-postpartum-childcare",
+    "startedAt": "2017-10"
   },
   {
     "id": "b-73a6e212",
@@ -31261,6 +31081,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://folka.co.jp/company/",
       "https://folka.co.jp/sangyoui/"
     ],
     "updatedAt": "2026-10",
@@ -31356,13 +31177,15 @@
     "category": "sleep",
     "description": "",
     "hp": "https://www.suimin.co.jp/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000038776.html",
       "https://www.suimin.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "sleep-measurement-test"
+    "type": "sleep-measurement-test",
+    "startedAt": "2020-08"
   },
   {
     "id": "b-ed80b825",
@@ -31522,13 +31345,15 @@
     "category": "mental-health",
     "description": "オフィス・施設向け導入事例あり",
     "hp": "https://www.viestyle.co.jp/product/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000044.000067474.html",
       "https://www.viestyle.co.jp/product/"
     ],
     "updatedAt": "2026-10",
-    "type": "mental-ai-selfcare-app"
+    "type": "mental-ai-selfcare-app",
+    "startedAt": "2023-12"
   },
   {
     "id": "b-19cc1644",
@@ -31538,13 +31363,15 @@
     "category": "medical-cosmetic",
     "description": "累計30万人が利用（公式）",
     "hp": "https://ans-skin.com/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://neautech.jp/ans-release/",
       "https://ans-skin.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "cosmetic-online-dermatology"
+    "type": "cosmetic-online-dermatology",
+    "startedAt": "2023-01"
   },
   {
     "id": "b-7b7df901",
@@ -31953,13 +31780,15 @@
     "category": "fitness",
     "description": "",
     "hp": "https://mirrorfit.jp/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000070045.html",
       "https://mirrorfit.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "online-home-fitness"
+    "type": "online-home-fitness",
+    "startedAt": "2020-12"
   },
   {
     "id": "b-efe7d047",
@@ -31969,13 +31798,15 @@
     "category": "fitness",
     "description": "",
     "hp": "https://mirrorfit.jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://bthefit.com/news/post-13080",
       "https://mirrorfit.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "fitness-studio"
+    "type": "fitness-studio",
+    "startedAt": "2024-08"
   },
   {
     "id": "b-3bbd5eee",
@@ -31985,13 +31816,15 @@
     "category": "relaxation",
     "description": "セラピスト登録5,000名超（2026-01）、業界利用者数No.1（公式）",
     "hp": "https://hogugu.com/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://hogugu.com/date/2019",
       "https://hogugu.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "relaxation-dispatch-matching"
+    "type": "relaxation-dispatch-matching",
+    "startedAt": "2019-09"
   },
   {
     "id": "b-5ef895cd",
@@ -32101,13 +31934,16 @@
     "category": "direct-to-consumer",
     "description": "2026-10シンガポール展開開始",
     "hp": "https://nutribase-lab.com/products/ayo",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://news.dellows.jp/536269/",
+      "https://prtimes.jp/main/html/rd/p/000000020.000125852.html",
       "https://nutribase-lab.com/products/ayo"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "2023"
   },
   {
     "id": "b-247b2b5b",
@@ -34461,13 +34297,15 @@
     "category": "direct-to-consumer",
     "description": "2026年10月に夜専用インナー、掛け布団は累計25万枚",
     "hp": "https://tential.jp/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000076.000032370.html",
       "https://tential.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-recovery-wear"
+    "type": "d2c-recovery-wear",
+    "startedAt": "2020"
   },
   {
     "id": "b-0d4ee528",
@@ -34477,13 +34315,15 @@
     "category": "direct-to-consumer",
     "description": "",
     "hp": "https://tential.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://faq.tential.jp/answer/67eff9817122791d72b3f8ec/",
       "https://tential.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-recovery-wear"
+    "type": "d2c-recovery-wear",
+    "startedAt": "2019"
   },
   {
     "id": "b-bc00cea6",
@@ -34543,13 +34383,15 @@
     "category": "femtech",
     "description": "",
     "hp": "https://withmidwife.jp/press/category/oyawork/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://withmidwife.jp/press/oyawork-kickoff-event/",
       "https://withmidwife.jp/press/category/oyawork/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-employee-benefit"
+    "type": "femtech-employee-benefit",
+    "startedAt": "2025-07"
   },
   {
     "id": "b-adbc1986",
@@ -34659,13 +34501,16 @@
     "category": "simple-inspection",
     "description": "2025年5月にプロトタイプ発表、提供開始は公表なし",
     "hp": "https://prtimes.jp/main/html/searchrlp/company_id/118398",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000064.000123765.html",
+      "https://prtimes.jp/main/html/rd/p/000000008.000118398.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/118398"
     ],
     "updatedAt": "2026-10",
-    "type": "next-gen-test-tech"
+    "type": "next-gen-test-tech",
+    "startedAt": "2026-04"
   },
   {
     "id": "b-25818fbc",
@@ -38615,23 +38460,6 @@
     "type": "cognitive-function-assessment"
   },
   {
-    "id": "b-1afd3e54",
-    "name": "遺伝子検査「MYCODE」（終了）",
-    "company": "株式会社ディー・エヌ・エー",
-    "companyId": "4011001032721",
-    "category": "simple-inspection",
-    "description": "2014年4月設立の子会社DeNAライフサイエンスで自社立ち上げ。2024年9月30日にサービス終了",
-    "hp": "https://mycode.jp/",
-    "startedYear": 2014,
-    "status": "提供中",
-    "startedAt": "2014-08",
-    "sources": [
-      "https://mycode.jp/"
-    ],
-    "updatedAt": "2026-10",
-    "type": "dtc-genetic-test"
-  },
-  {
     "id": "b-1617228b",
     "name": "医療ビッグデータ（電子カルテ匿名加工データ）の利活用（ICI）",
     "company": "TOPPANホールディングス株式会社",
@@ -40123,13 +39951,15 @@
     "category": "mental-health",
     "description": "個人向けのマインドフルネス・瞑想サロン。科学的エビデンスに基づくマインドフルネスのレッスンをスタジオやオンラインで提供する。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://www.the-melon.com/blog/press/2021/12/02/7448/",
       "https://www.the-melon.com/"
     ],
     "type": "mental-ai-selfcare-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021-12"
   },
   {
     "id": "b-e28b9676",
@@ -40658,8 +40488,9 @@
     "hp": "",
     "startedYear": 2023,
     "status": "提供中",
-    "startedAt": "2023",
+    "startedAt": "2023-11",
     "sources": [
+      "https://www.unicharm.co.jp/ja/company/news/2023/0804-01.html",
       "https://prtimes.jp/main/html/rd/p/000000007.000112015.html"
     ],
     "type": "femtech-fertility-test-preservation",
@@ -41603,14 +41434,16 @@
     "category": "simple-inspection",
     "description": "4・8・12種類の遺伝子を同時に目視判定できる遺伝子クロマト用の試験紙。STH法と組み合わせ、特別な設備なしに感染症や食中毒菌などの遺伝子検査ができる。カスタム製造にも対応。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2013,
     "status": "提供中",
     "sources": [
+      "https://www.t-bioarray.com/article/?start=1&cat_oid=1500",
       "https://www.t-bioarray.com/contents/products.html",
       "https://www.t-bioarray.com/contents/company.html"
     ],
     "type": "next-gen-test-tech",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2013-10"
   },
   {
     "id": "b-cf62c568",
@@ -41740,14 +41573,16 @@
     "category": "direct-to-consumer",
     "description": "高齢者向けの完全栄養アイス。日本人の食事摂取基準に基づく33種類の栄養素を配合し、溶けてもとろみのある嚥下に配慮した設計。介護施設・在宅介護や個人向けに販売する。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000138949.html",
       "https://prtimes.jp/main/html/rd/p/000000015.000138949.html",
       "https://predge.jp/330858/"
     ],
     "type": "d2c-nutrition-food-brand",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-03"
   },
   {
     "id": "b-89101f73",
@@ -42312,14 +42147,16 @@
     "category": "mental-health",
     "description": "企業の従業員が顔を出さずにメタバース空間で心の専門家と話せる予防型メンタルヘルスケア。RCTでストレス増加の62%抑制、ウェルビーイングの5.3倍改善などを確認した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000110210.html",
       "https://www.mentarest.com/",
       "https://prtimes.jp/main/html/rd/p/000000028.000110210.html"
     ],
     "type": "mental-corporate-eap",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-10"
   },
   {
     "id": "b-689419a6",
@@ -43357,8 +43194,9 @@
     "hp": "https://linkage-inc.co.jp/perionoid/",
     "startedYear": 2024,
     "status": "提供中",
-    "startedAt": "2024",
+    "startedAt": "2024-08",
     "sources": [
+      "https://linkage-inc.co.jp/perionoid/",
       "https://prtimes.jp/main/html/rd/p/000000076.000053753.html"
     ],
     "type": "femtech-employee-benefit",
@@ -43666,12 +43504,14 @@
     "hp": "https://nagi-jp.com/",
     "startedYear": 2019,
     "status": "終了",
-    "startedAt": "2019",
+    "startedAt": "2019-05",
     "endedAt": "2023-03",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://www.wwdjapan.com/articles/1082280",
+      "https://eleminist.com/article/161",
       "https://prtimes.jp/main/html/rd/p/000000008.000031365.html",
       "https://prtimes.jp/main/html/rd/p/000000066.000031365.html"
     ],
@@ -43704,14 +43544,16 @@
     "category": "direct-to-consumer",
     "description": "海藻由来成分で食事中の塩分の吸収を抑える独自技術を使ったサプリメント、減塩調味料、せんべい・麺などの食品。EC・ドラッグストアのほか、OEMや外食・社員食堂との協業で展開。",
     "hp": "https://toymedical.jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000020.000063699.html",
       "https://prtimes.jp/main/html/rd/p/000000013.000063699.html",
       "https://toymedical.jp/"
     ],
     "type": "d2c-nutrition-food-brand",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-04"
   },
   {
     "id": "b-36b25cde",
@@ -44420,14 +44262,16 @@
     "category": "mental-health",
     "description": "自治体・学校などがLINEなどSNSで子ども・若者の相談を受け付けるための一元管理システム。自動応答や定型文管理、レポート機能を備える。",
     "hp": "https://www.as-child.com/service/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://www.atpress.ne.jp/news/152829",
       "https://www.as-child.com/service/",
       "https://prtimes.jp/main/html/rd/p/000000006.000063884.html"
     ],
     "type": "mental-school-public-consult",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018-03"
   },
   {
     "id": "b-d115cd17",
@@ -45532,8 +45376,9 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000073905.html",
-      "https://x.com/maekou0101/status/1763122232245817829"
+      "https://x.com/maekou0101/status/1763122232245817829",
+      "https://feech.net/counseling-service/unlace/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000073905.html"
     ],
     "type": "mental-online-counseling",
     "updatedAt": "2026-10"
@@ -46404,14 +46249,15 @@
     "category": "medical-cosmetic",
     "description": "AGA管理アプリで頭皮の記録や治療の習慣化を支援し、男性用発毛剤「ヒックス ミノキシジル5」、スカルプシャンプー、サプリを販売するセルフケアブランド。",
     "hp": "https://www.mbox-inc.jp/product/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000003.000054126.html",
       "https://prtimes.jp/main/html/rd/p/000000048.000054126.html"
     ],
     "type": "cosmetic-hair-wig",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2020-07"
   },
   {
     "id": "b-d1294bab",
@@ -46987,13 +46833,15 @@
     "status": "譲渡",
     "endedAt": "2023-01",
     "endReasons": [
-      "unknown"
+      "acquisition"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000011.000068919.html"
+      "https://prtimes.jp/main/html/rd/p/000000011.000068919.html",
+      "https://www.scas.co.jp/notice/merger202310.html"
     ],
     "type": "contract-lab-omics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "endReasonNote": "2023年1月、chromocenterは染色体解析事業を住化分析センターへ譲渡（新設のchromocenterに事業を移し株式を譲渡）。同社は同年10月1日に住化分析センターへ吸収合併され、核型解析・mFISH/FISH解析は住化分析センターが継続している。"
   },
   {
     "id": "b-ad0ea29c",
@@ -47887,6 +47735,7 @@
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000034391.html",
       "https://olivastyle.mystrikingly.com/",
       "https://oliva.style/"
     ],
@@ -48966,18 +48815,21 @@
     "category": "sleep",
     "description": "鼻腔に挿入して気道の閉塞を防ぎ呼吸を確保するチューブ型の一般医療機器。いびきや睡眠時無呼吸に悩む人向け。2019年5月にナステント株式会社へ事業譲渡された。",
     "hp": "https://nastent.co.jp/",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "譲渡",
     "endedAt": "2019-05",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://nastent.co.jp/newsdetail/19052401",
+      "https://prtimes.jp/main/html/rd/p/000000001.000010622.html",
       "https://nastent.co.jp/news/200227/",
       "https://www.tdb.co.jp/report/bankruptcy/flash/4573/"
     ],
     "type": "sleep-goods-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2014-07"
   },
   {
     "id": "b-0edc2e82",
@@ -49366,14 +49218,16 @@
     "category": "fitness",
     "description": "入会金0円、チケット購入ですぐ使える24時間・年中無休の無人フィットネスジム。入会・退会・休止や入館がアプリで完結し、直営とフランチャイズで全国に数百店舗を展開する。",
     "hp": "https://lifefit.tech/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000071368.html",
       "https://fitinc.jp/",
       "https://www.city.kyoto.lg.jp/sankan/page/0000350649.html"
     ],
     "type": "fitness-studio",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021-10"
   },
   {
     "id": "b-25cdd415",
@@ -49736,13 +49590,15 @@
     "category": "simple-inspection",
     "description": "スマートフォンなどのカメラに顔を約30秒向けるだけで、心拍数・呼吸速度・推定血圧・ストレス度などを非接触で推定し、AIアドバイス付きのウェルネスレポートを表示する。健康管理や企業のウェルネス施策向け（診断目的ではない）。",
     "hp": "https://vital-scan.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000115810.html",
       "http://medverse.jp/"
     ],
     "type": "home-self-monitoring-test",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2025-10"
   },
   {
     "id": "b-87fbb129",
@@ -49960,14 +49816,16 @@
     "category": "medical-cosmetic",
     "description": "肌悩み別に提携医師がオンラインで診療し、シミ・肝斑、ニキビ、シワ・たるみ、美白などに向けた美容内服薬・外用薬を定期配送する美肌相談プラットフォーム。",
     "hp": "https://bihadado.tokyo/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://latrico.jp/news/article-21/",
       "https://bihadado.tokyo/company/",
       "https://prtimes.jp/main/html/rd/p/000000009.000086294.html"
     ],
     "type": "cosmetic-online-dermatology",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2020-10"
   },
   {
     "id": "b-3ba15105",
@@ -53153,6 +53011,555 @@
       "https://prtimes.jp/main/html/rd/p/000000009.000057423.html"
     ],
     "type": "specialist-referral",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-91954ca1",
+    "name": "ルナルナ（生理日・妊活管理）",
+    "company": "株式会社エムティーアイ",
+    "companyId": "4140001030292",
+    "category": "femtech",
+    "description": "2000年にガラケー向けの生理日記録・管理ツールとして始まった女性向け健康情報サービス。生理日・排卵日予測、基礎体温記録、オンライン診療連携や法人・自治体向け展開まで広げている。",
+    "hp": "https://lnln.jp/",
+    "startedYear": 2000,
+    "status": "提供中",
+    "startedAt": "2000-11",
+    "sources": [
+      "https://lnln.jp/about/story/",
+      "https://www.mti.co.jp/?p=38556"
+    ],
+    "type": "femtech-cycle-tracking-app",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a6febd33",
+    "name": "生理周期連動型パーソナル美容アプリ「LunaRitta（ルナリッタ.）」",
+    "company": "PSソリューションズ株式会社",
+    "category": "femtech",
+    "description": "生理周期を入力すると、その周期で変わる肌・体・心の状態と、個人に合った美容情報を提案するソフトバンク系の女性向けアプリ。2017年に開始し、約2年半で終了した。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-03",
+    "endedAt": "2019-08",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2019年5月に終了を告知し、2019年8月30日正午でサービスを終了。データ登録は同年6月9日まで。告知では終了理由は説明されていない。",
+    "lessons": "美容情報と生理周期を結ぶ無料アプリは、大手通信系でも単独事業として続けにくかった。",
+    "sources": [
+      "https://www.pssol.co.jp/news/%E3%83%AB%E3%83%8A%E3%83%AA%E3%83%83%E3%82%BF-%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E7%B5%82%E4%BA%86%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+      "https://prtimes.jp/main/html/rd/p/000000016.000016392.html"
+    ],
+    "type": "femtech-cycle-tracking-app",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4dfd8ec0",
+    "name": "基礎体温＆生理記録ツール「温たま」",
+    "company": "ベビカム株式会社（旧 株式会社デジタルブティック）",
+    "category": "femtech",
+    "description": "妊娠・育児情報サイト「ベビカム」会員向けの基礎体温・生理記録ツール。体調記録、次回生理予定日・排卵期間の予測ができ、従来の「基礎体温記録帳」を引き継いだ。",
+    "hp": "https://www.babycome.ne.jp/",
+    "startedYear": 2015,
+    "status": "終了",
+    "startedAt": "2015-12",
+    "endedAt": "2023-07",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2023年7月18日で投稿サービスを終了すると告知。同時期に「ベビカムポイント」も終了しているが、終了理由は告知で説明されていない。",
+    "sources": [
+      "https://www.babycome.ne.jp/news/id/info-226/",
+      "https://prtimes.jp/main/html/rd/p/000000046.000007518.html"
+    ],
+    "type": "femtech-cycle-tracking-app",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d8ca4f4d",
+    "name": "オンラインピル処方サービス「ピルマル」",
+    "company": "MICIN",
+    "companyId": "1490001008208",
+    "category": "femtech",
+    "description": "オンライン診療curonを運営するMICINが始めた低用量ピル専門のオンライン処方サービス。予約から診察・配送までLINEで完結し、診察料無料・安価な継続を打ち出した。",
+    "hp": "https://pill-maru.jp/",
+    "startedYear": 2023,
+    "status": "終了",
+    "startedAt": "2023-08",
+    "endedAt": "2026-04",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2026年4月30日でサービスを終了。終了後の医療相談はネクイノの「スマルナ」の窓口に案内し、ピル処方の継続先としてスマルナと自社curonを紹介。終了理由は公式に説明されていない。",
+    "lessons": "オンライン診療大手でも、価格競争の激しいピル単科のD2Cは約3年で撤退し、競合の専業サービスに利用者を送る形になった。",
+    "sources": [
+      "https://pill-maru.jp/",
+      "https://micin.jp/news/10639/"
+    ],
+    "type": "femtech-online-pill-menopause",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-feebb4e0",
+    "name": "精子セルフチェック「Seem（シーム）」",
+    "company": "株式会社リクルート（旧 株式会社リクルートライフスタイル）",
+    "category": "femtech",
+    "description": "スマホのカメラとキットで自宅で精子の濃度と運動率を測り、WHOの下限基準と比べられる男性向けセルフチェック。「ふたりの妊活」を掲げ、男性不妊専門医の協力で開発された。",
+    "hp": "",
+    "startedYear": 2016,
+    "status": "終了",
+    "startedAt": "2016-11",
+    "endedAt": "2022-06",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2021年12月に、2022年6月30日15時でアプリとキットの利用を終了すると発表。測定結果や動画の閲覧も同時に終了した。終了理由の説明は確認できない。",
+    "lessons": "男性向け妊活セルフチェックは認知を広げたが、大手の新規事業としては約5年半で終了した。",
+    "sources": [
+      "https://lovetech-media.com/news/baby/seem/",
+      "https://www.nikkan.co.jp/releases/view/80678"
+    ],
+    "type": "femtech-fertility-test-preservation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-de830050",
+    "name": "法人向けフェムテックサービス「ルナルナ オフィス」",
+    "company": "株式会社LIFEM",
+    "category": "femtech",
+    "description": "ルナルナ オンライン診療を使った婦人科受診・低用量ピル服薬支援から始まった法人向けプログラム。月経・更年期・妊活・男性更年期のプログラムを企業・健保に提供し、効果検証までを支援する。",
+    "hp": "https://office.lnln.jp/",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-07",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000015.000017725.html",
+      "https://www.marubeni.com/jp/news/2022/release/00047.html"
+    ],
+    "type": "femtech-employee-benefit",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a89450ae",
+    "name": "妊活・不妊治療の福利厚生サービス「コウノトリBenefit」",
+    "company": "株式会社メデタ",
+    "category": "femtech",
+    "description": "従業員の妊活・不妊治療と仕事の両立を支える法人向け福利厚生。専門家相談やセミナー、人事制度づくりを提供し、2021年にユーザベースなどへ導入した。",
+    "hp": "https://kounotori-benefit.com/",
+    "startedYear": 2021,
+    "status": "不明",
+    "startedAt": "2021-04",
+    "endReasons": [
+      "unknown"
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000091027.html",
+      "https://kounotori-benefit.com/"
+    ],
+    "type": "femtech-employee-benefit",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6d01516e",
+    "name": "宿泊型・日帰り型産後ケアサービス「YUARITO（ユアリト）」（三菱地所運営期）",
+    "company": "三菱地所株式会社",
+    "category": "femtech",
+    "description": "三菱地所の新事業提案制度から生まれ、2023年に始めた宿泊型・日帰り型の産後ケアサービス。不動産大手が産後ケアを検証事業として自ら運営した例。",
+    "hp": "https://yuarito.jp/",
+    "startedYear": 2023,
+    "status": "譲渡",
+    "startedAt": "2023",
+    "endedAt": "2025-02",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "2025年2月3日付で事業を助産師系スタートアップのJosan-she'sへ譲渡し、三菱地所としては事業を終了。日帰り型は2025年4月にジョサンシーズの事業として再開した。",
+    "lessons": "大手の社内提案事業は検証後に専門スタートアップへ渡すことで、施設とサービスを残す出口になった。",
+    "sources": [
+      "https://www.mec.co.jp/news/detail/2025/02/07_mec250207_yuarito",
+      "https://yuarito.jp/tIk6Rtbh/press_release_20250207"
+    ],
+    "type": "femtech-postpartum-childcare",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-24919795",
+    "name": "大丸梅田店フェムテック売り場「ミチカケ」",
+    "company": "株式会社大丸松坂屋百貨店",
+    "category": "femtech",
+    "description": "大丸梅田店5階に約900㎡で開いた、生理用品やセクシャルウェルネス用品を集めた百貨店のフェムテック常設売り場。展示イベント「ミチカケ・ウェルネスアクション」も開いた。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "終了",
+    "startedAt": "2019-11",
+    "endedAt": "2025-01",
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "大阪・関西万博に向けたインバウンド取り込みを念頭に、大丸梅田店が5階フロアを段階的に改装するのに伴い、2025年1月14日で営業を終えた（報道）。",
+    "lessons": "先進的な常設売り場でも、百貨店全体の売り場戦略の見直しで約5年で閉じた。",
+    "sources": [
+      "https://www.wwdjapan.com/articles/2040248"
+    ],
+    "type": "femtech-product-ec",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-eef47166",
+    "name": "月経カップ「スーパージェニー」・吸水ショーツ「エヴァウェア」",
+    "company": "インテグロ株式会社",
+    "category": "femtech",
+    "description": "2018年に国内で販売を始めた月経カップと、日本で最初期の吸収型サニタリーショーツのシリーズ。自社ECで販売し、コットン版などに広げた。",
+    "hp": "https://integro.jp/",
+    "startedYear": 2018,
+    "status": "休止",
+    "startedAt": "2018-05",
+    "endedAt": "2025-02",
+    "endReasons": [
+      "competition"
+    ],
+    "endReasonNote": "2025年2月に販売の一時休止を告知。大手企業の参入による市場の変化と、物価高騰・為替変動による仕入れ価格上昇で適正価格での販売継続が難しくなったと説明。再開は未定。",
+    "lessons": "先行した輸入型フェムケア製品は、大手アパレルの参入と円安による原価上昇で価格を保てなくなった。",
+    "sources": [
+      "https://integro.jp/blogs/news/stop-sale-202502",
+      "https://integro.jp/blogs/news/pressrelease_superjennie"
+    ],
+    "type": "femtech-product-ec",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a2bffa1e",
+    "name": "電話カウンセリング「ボイスマルシェ」",
+    "company": "株式会社バーニャカウダ",
+    "category": "mental-health",
+    "description": "予約した時間に専門カウンセラーと電話で話せる個人向けの電話カウンセリングサービス。発信専用番号で匿名のまま利用でき、フリーランス支援など他社サービスにも組み込まれている。",
+    "hp": "https://www.voicemarche.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.voicemarche.jp/company",
+      "https://www.voicemarche.jp/story"
+    ],
+    "type": "mental-online-counseling",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-53282442",
+    "name": "こころのオンライン相談アプリ「mentally（メンタリー）」",
+    "company": "株式会社Mentally",
+    "category": "mental-health",
+    "description": "同じ悩みを経験した当事者に話を聞いてもらうピアサポートに特化した、悩み相談掲示板とオンライン相談のWebアプリ。複業研究家の西村創一朗氏が立ち上げた。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "終了",
+    "startedAt": "2022-07",
+    "endedAt": "2022-09",
+    "endReasons": [
+      "funding",
+      "team"
+    ],
+    "endReasonNote": "2022年7月5日の正式ローンチから約3カ月の同年9月30日でサービスを終了。報道によると資金調達がうまくいかず、代表自身も体調を崩したことが終了の理由とされる。",
+    "lessons": "ピアサポート型の相談は需要があっても、収益化前に資金が尽きると立ち上げ直後でも続けられなかった。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000094420.html",
+      "https://suan.tokyo/mentally_teslax/"
+    ],
+    "type": "mental-online-counseling",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6216c384",
+    "name": "AI×ポジティブ認知行動療法のメンタルケアアプリ「Welloom」",
+    "company": "株式会社ピノビスタ",
+    "category": "mental-health",
+    "description": "AIとポジティブ認知行動療法を組み合わせ、日々のセルフケアや前向きな行動づくりを支えるメンタルヘルスケアアプリ。2025年にβ版、2026年に正式版を出した。",
+    "hp": "",
+    "startedYear": 2026,
+    "status": "終了",
+    "startedAt": "2026-02",
+    "endedAt": "2026-09",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2026年8月24日に終了を告知し、正式リリースから約7カ月の2026年9月24日でサービスを終了した。告知では終了理由は説明されていない。",
+    "sources": [
+      "https://pinovista.com/news/welloom-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e7%b5%82%e4%ba%86%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+      "https://prtimes.jp/main/html/rd/p/000000008.000172925.html"
+    ],
+    "type": "mental-ai-selfcare-app",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a63f5791",
+    "name": "Yahoo!ヘルスケア 遺伝子検査「HealthData Lab（ヘルスデータラボ）」",
+    "company": "ヤフー株式会社（現 LINEヤフー株式会社）",
+    "category": "simple-inspection",
+    "description": "ヤフーが「Yahoo!ヘルスケア」のプロジェクトとして始めた一般向けゲノム解析サービス。祖先解析を含む約300項目を解析し、健康情報を提供した。蓄積データは東京大学などの研究にも使われた。",
+    "hp": "",
+    "startedYear": 2014,
+    "status": "終了",
+    "startedAt": "2014-10",
+    "endedAt": "2020-09",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2020年9月にサービスを終了し、希望者の解析データはジーンクエストの「HealthData Lab移行版」に引き継ぐ形をとった。ヤフー側の終了理由の説明は確認できない。",
+    "lessons": "ネット大手の参入でも消費者向け遺伝子検査は事業として続かず、データを専業会社に移して撤退した。",
+    "sources": [
+      "https://www.lycorp.co.jp/news/archive/Y/ja/ja20140811_B.pdf",
+      "https://genequest.jp/informedconsent/hdl"
+    ],
+    "type": "dtc-genetic-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e6b45bb2",
+    "name": "生命科学データプラットフォーム「ユーグレナ・マイヘルス」",
+    "company": "株式会社ユーグレナ",
+    "category": "simple-inspection",
+    "description": "ユーグレナが2018年に始めた一般向けの遺伝子解析サービスと生命科学データのプラットフォーム。グループのジーンクエストの解析技術を使い、体質や疾患リスクを調べられる。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-03",
+    "sources": [
+      "https://www.euglena.jp/news/20180301-2/",
+      "https://www.euglena.jp/times/archives/23789"
+    ],
+    "type": "dtc-genetic-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-67016d81",
+    "name": "冷凍スープ・スムージーの定期宅配「GREEN SPOON」",
+    "company": "株式会社Greenspoon",
+    "category": "direct-to-consumer",
+    "description": "急速冷凍した野菜などの素材で作るスムージーやスープ、主菜を、質問に答えて選ぶパーソナルな定額制で届けるD2C。2024年に江崎グリコのグループに入った。",
+    "hp": "https://green-spoon.jp/",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000010.000055700.html",
+      "https://note.com/tomonoritanabe/n/n9c3c36c391a0"
+    ],
+    "type": "d2c-healthy-meal-delivery",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-cb215fd4",
+    "name": "完全栄養食ブランド「完全メシ」",
+    "company": "日清食品株式会社",
+    "category": "direct-to-consumer",
+    "description": "日本人の食事摂取基準で定めた33種類の栄養素とおいしさの両立をうたう、日清食品の完全栄養食ブランド。カップ麺・カレーメシなどから冷凍弁当「冷凍 完全メシ DELI」へ広げた。",
+    "hp": "https://www.nissinkanzenmeshi.com/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-05",
+    "sources": [
+      "https://www.nissin.com/jp/company/news/10603/"
+    ],
+    "type": "d2c-nutrition-food-brand",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-49719e78",
+    "name": "コンビニジム「chocoZAP（チョコザップ）」",
+    "company": "RIZAP株式会社",
+    "category": "fitness",
+    "description": "月額制で24時間使える小型の無人ジム。1日5分のちょいトレを打ち出し、脱毛やセルフエステなども併設して短期間で全国に出店した。",
+    "hp": "https://chocozap.jp/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-07",
+    "sources": [
+      "https://www.rizapgroup.com/news/detail?topics_id=1001",
+      "https://rizap.co.jp/news/nZyQny90"
+    ],
+    "type": "fitness-studio",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b1fdaf3d",
+    "name": "結果にコミットするパーソナルトレーニングジム「RIZAP（ライザップ）」",
+    "company": "RIZAP株式会社",
+    "category": "fitness",
+    "description": "専属トレーナーが2カ月などの短期集中で運動と食事を指導する完全個室のパーソナルトレーニングジム。テレビCMで国内のパーソナルジム市場を広げた。",
+    "hp": "https://www.rizap.jp/",
+    "startedYear": 2012,
+    "status": "提供中",
+    "startedAt": "2012-02",
+    "sources": [
+      "https://newspicks.com/news/2524345/body/",
+      "https://www.rizapgroup.com/about/history"
+    ],
+    "type": "personal-training",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-47c4cac1",
+    "name": "もみほぐし・足つぼチェーン「りらくる」",
+    "company": "株式会社りらく",
+    "category": "relaxation",
+    "description": "60分の低価格もみほぐしを中心に、駅近・郊外に多店舗展開するリラクゼーションチェーン。大阪で1号店を開き、全国数百店舗規模に広げた。",
+    "hp": "https://relxle.com/",
+    "startedYear": 2009,
+    "status": "提供中",
+    "startedAt": "2009-04",
+    "sources": [
+      "https://relxle.com/company"
+    ],
+    "type": "relaxation-salon",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6d5d2a88",
+    "name": "睡眠モニター連携サービス「Real Sleep」（au HOME／with HOME）",
+    "company": "KDDI株式会社（共同開発：株式会社ニューロスペース）",
+    "category": "sleep",
+    "description": "ホームIoTサービスに付帯し、イスラエルEarlySense社の非接触睡眠計測デバイスと睡眠アプリで睡眠を測り、照明・エアコンなどと連携して睡眠環境を整えるサービス。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "終了",
+    "startedAt": "2019-03",
+    "endedAt": "2023-01",
+    "endReasons": [
+      "infrastructure"
+    ],
+    "endReasonNote": "睡眠データの計測・解析機能を提供していたEarlySense社による機能提供が終わることから、2023年1月31日でサービスを終了し、睡眠モニターの新規販売も終えたとKDDIが告知した。",
+    "lessons": "海外デバイス企業の計測・解析機能に依存したサービスは、提供元の撤退で通信大手でも継続できなくなった。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000042.000020114.html",
+      "https://www.kddi.com/with-home/notice/230110/"
+    ],
+    "type": "sleep-goods-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f27f3493",
+    "name": "オンラインフィットネス配信「torcia（トルチャ）」",
+    "company": "株式会社ティップネス",
+    "category": "fitness",
+    "description": "大手フィットネスクラブのティップネスが始めた、ヨガ・ピラティスなどのライブ・オンデマンドレッスンを自宅で受けられる月額制配信サービス。他社向け提供も行った。",
+    "hp": "https://online.tipness.co.jp/",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-08",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000146.000009907.html",
+      "https://online.tipness.co.jp/notifications/7c805e0a8fa94ee1aeca732b819e41aa"
+    ],
+    "type": "online-home-fitness",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-19532d50",
+    "name": "いじめ等の匿名報告・相談アプリ「STANDBY（旧 STOPit）」",
+    "company": "スタンドバイ株式会社（旧 ストップイットジャパン株式会社）",
+    "category": "mental-health",
+    "description": "児童生徒が匿名でいじめなどを学校・教育委員会に報告・相談でき、画像や動画も添付できるアプリと管理システム。米国STOPitの日本展開として始まり、自治体の導入が広がった。",
+    "hp": "https://standby-corp.jp/",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017-01",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000019347.html",
+      "https://standby-corp.jp/2022/04/01/new-company-name/"
+    ],
+    "type": "mental-school-public-consult",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b181a467",
+    "name": "郵送型血液検査キット「DEMECAL（デメカル）」",
+    "company": "株式会社リージャー",
+    "category": "simple-inspection",
+    "description": "指先から採った数滴の血液を郵送すると、生活習慣病などの項目を検査できる自己採血キット。管理医療機器の承認を得たデバイスで、企業・団体や個人向けに販売する。",
+    "hp": "https://demecal.com/",
+    "startedYear": 2004,
+    "status": "提供中",
+    "startedAt": "2004-01",
+    "sources": [
+      "https://www.leisure.co.jp/aboutus/history"
+    ],
+    "type": "mail-in-blood-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-cb769ba9",
+    "name": "パーソナライズサプリ「DHCパーソナルサプリ」（DHCパーソナル）",
+    "company": "株式会社ディーエイチシー",
+    "category": "direct-to-consumer",
+    "description": "健康診断やカウンセリングなどのヘルスケアデータをもとに、一人ひとりに合わせて配合した顆粒サプリを招待制・完全受注で届けたサービス。専用アプリ「DHCパーソナルサプリ研究所」と連動した。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-09",
+    "endedAt": "2026-01",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2026年1月13日で「DHCパーソナル」サービスを終了するとDHCが公式に告知した。告知では終了理由は説明されていない。",
+    "lessons": "大手通販のサプリ企業でも、招待制・受注生産のパーソナライズ型は約5年で終了した。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000224.000030413.html",
+      "https://www.dhc.co.jp/page_info_information_20260113_01.html"
+    ],
+    "type": "d2c-personalized-supplement",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e39f8d29",
+    "name": "食事記録・栄養アドバイス「モバイルダイエット」",
+    "company": "株式会社IMD",
+    "category": "direct-to-consumer",
+    "description": "携帯電話・スマホで食事の写真や内容を記録し、管理栄養士などのアドバイスや栄養計算を受けられる有料のダイエット支援サービス。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2023-02",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2023年2月28日10時でサービスを終了し、サポートも同年3月中旬に終了。データは同社のLINE版「フードサーチ」へ統合できるようにした。終了理由は告知で説明されていない。",
+    "sources": [
+      "https://imd.jp/press/md202302.html"
+    ],
+    "type": "d2c-diet-coaching",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-65d1e2ba",
+    "name": "睡眠計測ゲームアプリ「Pokémon Sleep（ポケモンスリープ）」",
+    "company": "株式会社ポケモン",
+    "category": "sleep",
+    "description": "スマホを枕元に置いて睡眠を計測し、眠りのタイプに応じてポケモンが集まるゲーム性で睡眠習慣づくりを促すアプリ。基本無料で世界展開した。",
+    "hp": "https://www.pokemonsleep.net/",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-07",
+    "sources": [
+      "https://game.watch.impress.co.jp/docs/news/1517257.html"
+    ],
+    "type": "sleep-app-insomnia-dtx",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3f14f61e",
+    "name": "休養時専用リカバリーウェア「VENEX（ベネクス）」",
+    "company": "株式会社ベネクス",
+    "category": "direct-to-consumer",
+    "description": "休養時に着ることで疲労回復を助けるとうたう日本初のリカバリーウェアブランド。新潟大学などとの共同研究を経て、一般医療機器の届出製品も展開する。",
+    "hp": "https://www.venex-j.co.jp/",
+    "startedYear": 2009,
+    "status": "提供中",
+    "startedAt": "2009-01",
+    "sources": [
+      "https://www.venex-j.co.jp/recoverywear/story/",
+      "https://www.venex-j.co.jp/company/history/"
+    ],
+    "type": "d2c-recovery-wear",
     "updatedAt": "2026-10"
   }
 ]

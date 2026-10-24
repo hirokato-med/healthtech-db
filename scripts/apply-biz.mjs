@@ -32,7 +32,8 @@ for (const o of outs) {
     if (!s) continue;
     if (u.remove) { drop.add(s.id); removed++; continue; }
     if (/^\d{4}(-\d{2})?$/.test(u.startedAt ?? '')) {
-      if (/会社設立|設立日|法人設立/.test(u.note ?? '')) skippedFounding++;
+      // 会社設立の日付、Wikipedia、後年の資料からの逆算は開始時期に使わない（一次情報だけ）
+      if (/会社設立|設立日|法人設立|Wikipedia|ウィキペディア|逆算/.test(u.note ?? '')) skippedFounding++;
       else if (u.startedAt !== s.startedAt) { s.startedAt = u.startedAt; s.startedYear = Number(u.startedAt.slice(0, 4)); started++; }
     }
     if (u.status && STATUS.has(u.status) && u.status !== s.status) { if (u.status !== '提供中') stopped++; s.status = u.status; }
@@ -44,7 +45,7 @@ for (const o of outs) {
   }
 }
 fs.writeFileSync(F, JSON.stringify(services.filter((s) => !drop.has(s.id)), null, 2) + '\n');
-console.error(`開始時期を入れた ${started} 件（会社設立の日付しかなく見送り ${skippedFounding} 件）/ 止まっていた ${stopped} 件 / 外した ${removed} 件`);
+console.error(`開始時期を入れた ${started} 件（会社設立・Wikipedia・逆算しか根拠がなく見送り ${skippedFounding} 件）/ 止まっていた ${stopped} 件 / 外した ${removed} 件`);
 
 const adds = outs.flatMap((o) => o.adds ?? []).filter((a) => a.name && a.type).map((a) => ({ ...a, companyName: a.company, companyId: a.companyId || undefined }));
 if (adds.length) {
