@@ -6,7 +6,7 @@
  *
  * 入力: { updates: [{ id, startedAt, status, endedAt, endReasons, endReasonNote, sources, remove, note }],
  *         adds: [{ type, name, company, companyId, summary, startedAt, status, endedAt, endReasons, endReasonNote, lessons, sources, hp }] }
- * - updates: 空でない項目だけ当てる。出典は先頭に足す。remove は事業データベースから外す。
+ * - updates: 空でない項目だけ当てる。startBasis（何の日付か）、knownSince（開始が分からないときの提供を確認できた最も古い時点）、milestones（運営会社の移り変わり・改称）も当てる。出典は先頭に足す。remove は事業データベースから外す。
  *   開始時期が「会社設立」の日付でしか分からないもの（note に会社設立とあるもの）は開始時期に使わない。
  * - adds: merge-services.mjs に渡す（type から事業の種類とカテゴリを決める）。
  */
@@ -24,7 +24,7 @@ const byId = new Map(services.map((s) => [s.id, s]));
 const REASONS = new Set(['regulation', 'reimbursement', 'no-payer', 'workflow', 'evidence', 'funding', 'parent-strategy', 'acquisition', 'competition', 'team', 'infrastructure', 'unknown']);
 const STATUS = new Set(['提供中', '終了', '譲渡', '統合', '休止', '不明']);
 const asOf = new Date().toISOString().slice(0, 7);
-let started = 0, stopped = 0, removed = 0, skippedFounding = 0;
+let started = 0, stopped = 0, removed = 0, skippedFounding = 0, known = 0, miles = 0;
 const drop = new Set();
 for (const o of outs) {
   for (const u of o.updates ?? []) {
@@ -36,6 +36,16 @@ for (const o of outs) {
       if (/会社設立|設立日|法人設立|Wikipedia|ウィキペディア|逆算|予定|FDA|カナダ|米国|海外/.test(u.note ?? '')) skippedFounding++;
       else if (u.startedAt !== s.startedAt) { s.startedAt = u.startedAt; s.startedYear = Number(u.startedAt.slice(0, 4)); started++; }
     }
+    // 何の日付か（正式提供開始・β版・前の運営会社で開始など）と、開始が見つからないときの「提供を確認できた最も古い時点」
+    if (u.startBasis && s.startedAt === u.startedAt) s.startBasis = u.startBasis;
+    if (/^\d{4}(-\d{2})?$/.test(u.knownSince ?? '') && !s.startedAt) { s.knownSince = u.knownSince; if (u.knownSinceSource) s.knownSinceSource = u.knownSinceSource; known++; }
+    // 運営会社の移り変わり・改称などの節目（同じ年月・同じ文は足さない）
+    for (const m of u.milestones ?? []) {
+      if (!m?.date || !m?.text) continue;
+      s.milestones ??= [];
+      if (!s.milestones.some((x) => x.date === m.date && x.text.slice(0, 12) === m.text.slice(0, 12))) { s.milestones.push(m); miles++; }
+      s.milestones.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+    }
     if (u.status && STATUS.has(u.status) && u.status !== s.status) { if (u.status !== '提供中') stopped++; s.status = u.status; }
     if (u.endedAt) s.endedAt = u.endedAt;
     if (u.endReasons?.length) s.endReasons = u.endReasons.filter((r) => REASONS.has(r));
@@ -45,7 +55,7 @@ for (const o of outs) {
   }
 }
 fs.writeFileSync(F, JSON.stringify(services.filter((s) => !drop.has(s.id)), null, 2) + '\n');
-console.error(`開始時期を入れた ${started} 件（会社設立・Wikipedia・逆算しか根拠がなく見送り ${skippedFounding} 件）/ 止まっていた ${stopped} 件 / 外した ${removed} 件`);
+console.error(`節目 ${miles} 件・提供を確認できた最古の時点 ${known} 件 / 開始時期を入れた ${started} 件（会社設立・Wikipedia・逆算しか根拠がなく見送り ${skippedFounding} 件）/ 止まっていた ${stopped} 件 / 外した ${removed} 件`);
 
 const adds = outs.flatMap((o) => o.adds ?? []).filter((a) => a.name && a.type).map((a) => ({ ...a, companyName: a.company, companyId: a.companyId || undefined }));
 if (adds.length) {

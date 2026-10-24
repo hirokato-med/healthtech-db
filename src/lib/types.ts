@@ -103,7 +103,7 @@ export type Service = {
   startedAt?: string;
   endedAt?: string;
   successor?: string;
-  milestones?: { date: string; text: string }[];
+  milestones?: { date: string; text: string; source?: string }[];
   /** 止まった理由（END_REASONS のキー） */
   endReasons?: string[];
   endReasonNote?: string;
@@ -116,6 +116,11 @@ export type Service = {
   type?: string;
   /** 名前を具体的なサービス名に差し替える前の名前 */
   formerName?: string;
+  /** startedAt が何の日付か（正式提供開始・β版・発表・前身・前の運営会社で開始） */
+  startBasis?: string;
+  /** 開始時期が分からないとき、提供を確認できた最も古い時点（YYYY-MM）と出典 */
+  knownSince?: string;
+  knownSinceSource?: string;
 };
 
 /** 事業の種類（カテゴリの下の分け方） */
