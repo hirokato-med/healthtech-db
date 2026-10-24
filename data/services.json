@@ -702,6 +702,21 @@
     "successor": "富士フイルムヘルスケア株式会社（現 富士フイルムに統合）",
     "milestones": [
       {
+        "date": "1973",
+        "text": "日立レントゲン株式会社が株式会社日立メディコに社名変更（画像診断装置の製造・販売を継続）",
+        "source": "https://www.fujifilm.com/hcm/ja/about/history"
+      },
+      {
+        "date": "1984",
+        "text": "日立製作所茂原工場のX線管部門を日立メディコに統合し、X線管部を新設",
+        "source": "https://www.fujifilm.com/hcm/ja/about/history"
+      },
+      {
+        "date": "2016",
+        "text": "日立メディコと日立アロカメディカルの製造部門を統合し、日立ヘルスケア・マニュファクチャリングに社名変更",
+        "source": "https://www.fujifilm.com/hcm/ja/about/history"
+      },
+      {
         "date": "2019-12",
         "text": "日立が画像診断関連事業を新会社に承継させ、全株式を富士フイルムに譲渡する契約を締結。事業価値は1790億円で合意。当初の実行予定は2020年7月"
       },
@@ -712,6 +727,16 @@
       {
         "date": "2021-03",
         "text": "2021年3月31日に譲渡を完了予定として実行"
+      },
+      {
+        "date": "2021-03",
+        "text": "富士フイルムが日立の画像診断関連事業の買収を完了し、100%子会社化",
+        "source": "https://www.fujifilm.com/hcm/ja/about/history"
+      },
+      {
+        "date": "2021-07",
+        "text": "富士フイルムヘルスケアマニュファクチャリング株式会社に社名変更",
+        "source": "https://www.fujifilm.com/hcm/ja/about/history"
       }
     ],
     "endReasons": [
@@ -719,13 +744,16 @@
     ],
     "endReasonNote": "日立は会見で事業の選択と集中をさらに進め、デジタルソリューション分野に力を入れる方針を説明した（同時期に日立化成の売却も発表）。富士フイルム側はメディカルシステム事業の拡大を狙いとした。",
     "sources": [
+      "https://www.fujifilm.com/hcm/ja/about/history",
       "https://www2.jpx.co.jp/disc/65010/140120191218438339.pdf",
       "https://monoist.itmedia.co.jp/mn/spv/1912/19/news064_2.html",
       "https://www2.jpx.co.jp/disc/65010/140120210218466198.pdf",
       "https://www.hitachi.com/ja-jp/press/articles/2021/01/0106a/"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-modality"
+    "type": "imaging-modality",
+    "knownSince": "1973",
+    "knownSinceSource": "https://www.fujifilm.com/hcm/ja/about/history"
   },
   {
     "id": "b-6efbe606",
@@ -1643,11 +1671,31 @@
     "category": "pharma",
     "description": "再生医療等製品・細胞治療製品の製法開発、治験薬製造、商用製造を、日本・米国・欧州の拠点で製薬企業やバイオベンチャーから受託した事業。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "譲渡",
     "endedAt": "2024",
     "successor": "米Altarisが運営するファンド",
     "milestones": [
+      {
+        "date": "2017-03",
+        "text": "日立化成が米Caladrius子会社PCT, LLCの持分80.1%を取得する契約を締結（再生医療受託製造に参入）",
+        "source": "https://www2.jpx.co.jp/disc/42170/140120170317421524.pdf"
+      },
+      {
+        "date": "2017-05",
+        "text": "持分取得を完了し、PCTが日立化成の完全子会社に",
+        "source": "https://drug-dev.com/pct-now-a-global-cdmo-as-part-of-hitachi-chemical/"
+      },
+      {
+        "date": "2019-01",
+        "text": "独アプセスバイオ（apceth Biopharma）の全株式を取得し欧州拠点を追加",
+        "source": "https://www.nikkei.com/article/DGXLRSP501577_R30C19A1000000/"
+      },
+      {
+        "date": "2020-06",
+        "text": "横浜サイトで再生医療等製品の製造業許可を取得",
+        "source": "https://www.innervision.co.jp/sp/products/release/20200769"
+      },
       {
         "date": "2024-09",
         "text": "Minaris Regenerative Medicineの米・独・日の3社の全株式を米Altarisのファンドに譲渡する契約を発表（価額非公表）"
@@ -1659,10 +1707,13 @@
     "endReasonNote": "レゾナックは、経営資源の配分と事業ポートフォリオの見直しを進めるなかで再生医療CDMO事業のあり方について選択肢を検討した結果、譲渡を決定したと説明している。",
     "sources": [
       "https://www2.jpx.co.jp/disc/42170/140120170317421524.pdf",
+      "https://drug-dev.com/pct-now-a-global-cdmo-as-part-of-hitachi-chemical/",
       "https://www.nihon-ma.co.jp/news/20240924_4004-8/"
     ],
     "updatedAt": "2026-10",
-    "type": "cdmo-contract-research"
+    "type": "cdmo-contract-research",
+    "startedAt": "2017-03",
+    "startBasis": "発表（日立化成が米PCT, LLCの残り持分80.1%を取得し、再生医療等製品の受託製造に本格参入すると発表）"
   },
   {
     "id": "b-e45a1258",
@@ -1758,6 +1809,26 @@
     "successor": "クライムファクトリー株式会社",
     "milestones": [
       {
+        "date": "2014-09",
+        "text": "エムティーアイが、スポーツ特化のITソリューションを提供するクライム・ファクトリー株式会社の第三者割当増資を引き受け資本提携（議決権15.63%）",
+        "source": "https://www.nihon-ma.co.jp/news/2014/9/18/"
+      },
+      {
+        "date": "2015-09",
+        "text": "GMOリサーチとCLIMB Factoryが業務提携",
+        "source": "https://prtimes.jp/main/html/rd/p/000001723.000000136.html"
+      },
+      {
+        "date": "2016-11",
+        "text": "クライム・ファクトリー株式会社がコンディショニング支援WEBサービス『Atleta』をリリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000009.000019499.html"
+      },
+      {
+        "date": "2018-02",
+        "text": "エムティーアイ名義で『Atleta』の新サービスを発表（2017-07まではクライム・ファクトリー名義。この間にエムティーアイへ事業が移ったとみられるが、移管の告知は未確認）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000371.000002943.html"
+      },
+      {
         "date": "2024-09",
         "text": "簡易吸収分割によりCLIMB Factory事業をクライムファクトリーに承継させる契約を締結（対価非公表）"
       },
@@ -1771,10 +1842,15 @@
     ],
     "endReasonNote": "エムティーアイは、ヘルスケア事業と学校DX事業に注力するなかで、グループの経営資源の選択と集中の観点から承継させると説明している。",
     "sources": [
+      "https://www.nihon-ma.co.jp/news/2014/9/18/",
+      "https://prtimes.jp/main/html/rd/p/000000009.000019499.html",
+      "https://prtimes.jp/main/html/rd/p/000000371.000002943.html",
       "https://www.nihon-ma.co.jp/news/20240919_9438-10/"
     ],
     "updatedAt": "2026-10",
-    "type": "fitness-business-support"
+    "type": "fitness-business-support",
+    "knownSince": "2014-09",
+    "knownSinceSource": "https://www.nihon-ma.co.jp/news/2014/9/18/"
   },
   {
     "id": "b-fbffb5aa",
@@ -5907,6 +5983,11 @@
     "status": "提供中",
     "milestones": [
       {
+        "date": "2016-07",
+        "text": "やさしい手が、Z-Worksの『LiveConnect』を活用したIoT生活支援サービス『やさしい手LiveConnect』の提供を開始",
+        "source": "https://www.value-press.com/pressrelease/166392"
+      },
+      {
         "date": "2017-06",
         "text": "総額4億円を調達（報道）"
       },
@@ -5915,11 +5996,18 @@
         "text": "見守り機能を強化する新サービスを発表"
       },
       {
+        "date": "2022-02",
+        "text": "『ライブコネクトコール』『ライブコネクトビジョン』を提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000086087.html"
+      },
+      {
         "date": "2025-10",
         "text": "第三者割当増資とベンチャーデットで総額7億円を調達。直近3年で導入施設の総床数が約4倍、2026年3月末までに1万2,000台稼働の見込みと報道"
       }
     ],
     "sources": [
+      "https://www.value-press.com/pressrelease/166392",
+      "https://prtimes.jp/main/html/rd/p/000000003.000086087.html",
       "https://japan.cnet.com/article/35102540/",
       "https://www.nikkan.co.jp/releases/view/134230",
       "https://kepple.co.jp/articles/fmx08cfss",
@@ -5929,7 +6017,9 @@
     "themes": [
       "elderly-monitoring"
     ],
-    "type": "care-facility-monitoring-sensor"
+    "type": "care-facility-monitoring-sensor",
+    "knownSince": "2016-07",
+    "knownSinceSource": "https://www.value-press.com/pressrelease/166392"
   },
   {
     "id": "b-3a080ed7",
@@ -5978,7 +6068,7 @@
     "category": "nursing",
     "description": "ナースコール、カメラ、各種見守りセンサーを1つのアプリに統合し、行動検知AIで介護スタッフに必要な情報を届ける介護施設向けサービス。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "milestones": [
       {
@@ -5987,6 +6077,7 @@
       }
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000013.000024862.html",
       "https://www.owlcare.app/",
       "https://prtimes.jp/main/html/rd/p/000000021.000024862.html",
       "https://www.supercourt.jp/news/news-12648/"
@@ -5995,7 +6086,9 @@
     "themes": [
       "elderly-monitoring"
     ],
-    "type": "care-facility-monitoring-sensor"
+    "type": "care-facility-monitoring-sensor",
+    "startedAt": "2022-04",
+    "startBasis": "発表（資金調達リリースで、開発中の介護施設向けDXサービスとして公表）"
   },
   {
     "id": "b-d47323f2",
@@ -6069,6 +6162,11 @@
     "status": "提供中",
     "milestones": [
       {
+        "date": "2021-03",
+        "text": "介護士・看護師が常駐するコンタクトセンターとIoT見守り機器の連携を発表（オーナー・不動産会社から委託を受けた見守りの実績を記載）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000013.000033136.html"
+      },
+      {
         "date": "2025-08",
         "text": "従来使っていた加速度センサーの販売中止でサービス継続が難しくなったため、ヤモリのSigfox対応人感センサー「みまもりヤモリ」に切り替える提携を発表"
       }
@@ -6081,7 +6179,9 @@
     "themes": [
       "elderly-monitoring"
     ],
-    "type": "elderly-home-monitoring"
+    "type": "elderly-home-monitoring",
+    "knownSince": "2021-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000013.000033136.html"
   },
   {
     "id": "b-f71edf49",
@@ -6124,7 +6224,7 @@
     "category": "nursing",
     "description": "GPS端末を高齢者に持たせ、家族がパソコンやスマホで位置を検索できる個人向けの見守りサービス。子ども向けの「ここココ for キッズ」とともに提供した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "終了",
     "endedAt": "2019-06",
     "successor": "高齢者向けはパートナー企業ケアミックスの「認知症徘徊GPSセンター」を案内。法人・自治体向けの「ここココ」は継続",
@@ -6147,7 +6247,9 @@
     "themes": [
       "elderly-monitoring"
     ],
-    "type": "elderly-home-monitoring"
+    "type": "elderly-home-monitoring",
+    "startedAt": "2014-02",
+    "startBasis": "発表（実証実験を経て2014年に本サービスを提供し、高齢者・就学児童などの見守りへ展開すると発表）"
   },
   {
     "id": "b-b4ee48c3",
@@ -6632,11 +6734,26 @@
     "category": "direct-to-consumer",
     "description": "個人向けに管理栄養士が食事の写真記録をもとに食べ方を指導する有料のダイエット・食生活改善サービス。来店型のラボとアプリで提供し、ボディメイクや妊娠中などの目的別コースを用意。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "譲渡",
     "endedAt": "2024-09",
     "successor": "株式会社アドバンテッジリスクマネジメント（承継子会社「株式会社フィッツプラス」）",
     "milestones": [
+      {
+        "date": "2014-05",
+        "text": "クックパッドが管理栄養士の個別指導ダイエットプログラム『クックパッド ダイエット』を開始",
+        "source": "https://info.cookpad.com/news/press_2014_0520"
+      },
+      {
+        "date": "2016-09",
+        "text": "メドピアがクックパッドダイエットラボの株式84.7%を取得し子会社化することを決定",
+        "source": "https://www.nihon-ma.co.jp/news/20160926_6095-2/"
+      },
+      {
+        "date": "2016-10",
+        "text": "子会社化し、クックパッドダイエットラボを株式会社フィッツプラスに商号変更。サービスは『ダイエットプラス』として継続",
+        "source": "https://www2.jpx.co.jp/disc/60950/140120161003405881.pdf"
+      },
       {
         "date": "2017-07",
         "text": "iOSアプリを全面刷新し、来店型に加えアプリだけで完結するサービスを開始"
@@ -6659,6 +6776,9 @@
     ],
     "endReasonNote": "メドピアの「選択と集中」により、特定保健指導事業などとともに全事業がアドバンテッジリスクマネジメントへ譲渡された。サイト（dietplus.jp）は2026年10月時点も公開されている。",
     "sources": [
+      "https://info.cookpad.com/news/press_2014_0520",
+      "https://www.nihon-ma.co.jp/news/20160926_6095-2/",
+      "https://www2.jpx.co.jp/disc/60950/140120161003405881.pdf",
       "https://japan.cnet.com/article/35104282/",
       "https://japan.cnet.com/article/35112895/",
       "https://prtimes.jp/main/html/rd/p/000000174.000010134.html",
@@ -6666,7 +6786,9 @@
       "https://dietplus.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-diet-coaching"
+    "type": "d2c-diet-coaching",
+    "startedAt": "2014-05",
+    "startBasis": "前身「クックパッド ダイエット」（クックパッド株式会社で開始。管理栄養士の個別指導、銀座にカウンセリングルーム開設）"
   },
   {
     "id": "b-9b3a8bc2",
@@ -8651,7 +8773,7 @@
     "category": "personal-health-record",
     "description": "へそ周辺の温度から深部体温を推定するウェアラブルセンサーと健康アプリを開発し、基礎体温管理や熱中症対策、企業・研究機関向けの体温データ研究に活用しようとした。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "終了",
     "endedAt": "2025-08",
     "milestones": [
@@ -8660,8 +8782,18 @@
         "text": "HERBIOとして第三者割当増資を実施"
       },
       {
+        "date": "2018-08",
+        "text": "株式会社HERBIOがウェアラブルセンサー開発企業として第三者割当増資を実施",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000037148.html"
+      },
+      {
         "date": "2020",
         "text": "企業向けに研究素材としてセンサーの貸し出しを開始"
+      },
+      {
+        "date": "2020-03",
+        "text": "フジクラとのウェアラブルセンサー実証実験の結果を公表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000037148.html"
       },
       {
         "date": "2021-01",
@@ -8670,6 +8802,11 @@
       {
         "date": "2021-07",
         "text": "株式会社MEDITAに社名変更"
+      },
+      {
+        "date": "2021-07",
+        "text": "株式会社HERBIOが株式会社MEDITAに社名変更",
+        "source": "https://prtimes.jp/main/html/rd/p/000000012.000037148.html"
       },
       {
         "date": "2025-08",
@@ -8682,6 +8819,7 @@
     "endReasonNote": "清算の理由は公表されていない。",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000037148.html",
+      "https://prtimes.jp/main/html/rd/p/000000005.000037148.html",
       "https://prtimes.jp/main/html/rd/p/000000010.000037148.html",
       "https://prtimes.jp/main/html/rd/p/000000012.000037148.html",
       "https://www.tokyo-sogyo-net.metro.tokyo.lg.jp/interview/2004_01.html",
@@ -8689,7 +8827,9 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010501041629"
     ],
     "updatedAt": "2026-10",
-    "type": "wearable-vital-device"
+    "type": "wearable-vital-device",
+    "startedAt": "2018-08",
+    "startBasis": "発表（資金調達リリースで『ウェアラブルセンサー開発のHERBIO』として公表。提供開始ではない）"
   },
   {
     "id": "b-fe386fa0",
@@ -8986,6 +9126,7 @@
     ],
     "endReasonNote": "2023年12月1日、わたし漢方株式会社がサービスをアイセイ薬局グループへ事業譲渡。さらに2026年8月、同グループのAXISからVARYTEXへ事業譲渡された。サービス自体は利用者の手続きなしで継続している。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000029348.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000029348.html",
       "https://www.aisei.co.jp/news/pr/147689816075/",
       "https://prtimes.jp/main/html/rd/p/000000026.000077291.html",
@@ -8996,7 +9137,9 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001116530"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-personalized-supplement"
+    "type": "d2c-personalized-supplement",
+    "knownSince": "2019-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000029348.html"
   },
   {
     "id": "b-7cd0cc4d",
@@ -12626,11 +12769,18 @@
     "status": "提供中",
     "milestones": [
       {
+        "date": "2015-09",
+        "text": "ヤフーがエンパワーヘルスケア運営の歯科クリニックポータル『EPARK歯科』（国内5,300件以上掲載）との情報連携を開始",
+        "source": "https://www.lycorp.co.jp/news/archive/Y/ja/ja20150910_A.pdf"
+      },
+      {
         "date": "2024-03",
         "text": "グループ会社の株式会社EH（2024年1月に商号変更）を吸収合併"
       }
     ],
     "sources": [
+      "https://www.lycorp.co.jp/news/archive/Y/ja/ja20150910_A.pdf",
+      "https://prtimes.jp/main/html/rd/p/000000001.000029237.html",
       "https://haisha-yoyaku.jp/",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401148037"
     ],
@@ -12638,7 +12788,9 @@
     "themes": [
       "clinic-booking"
     ],
-    "type": "dental-patient-media"
+    "type": "dental-patient-media",
+    "knownSince": "2015-09",
+    "knownSinceSource": "https://www.lycorp.co.jp/news/archive/Y/ja/ja20150910_A.pdf"
   },
   {
     "id": "b-70d71ad9",
@@ -14029,11 +14181,26 @@
     "category": "recruting-solutions",
     "description": "歯科・医療・介護・福祉職の求人・転職サイト。運営会社グッピーズは健康管理アプリのヘルスケア事業も持つ上場企業だったが、メドレーのTOBで子会社化され、のちに吸収合併された。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2000,
     "status": "譲渡",
     "endedAt": "2025-04",
     "successor": "株式会社メドレー（「グッピー」はメドレー運営で継続）",
     "milestones": [
+      {
+        "date": "2000-05",
+        "text": "代表の肥田義光氏が有限会社グッピーで医療系求人サイト『GUPPY』をリリース",
+        "source": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf"
+      },
+      {
+        "date": "2000-09",
+        "text": "株式会社グッピーズを設立し、『GUPPY』の運営を引き継ぐ",
+        "source": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf"
+      },
+      {
+        "date": "2010-04",
+        "text": "新卒学生向け求人サイト『GUPPY就職（現：GUPPY新卒）』をリリース",
+        "source": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf"
+      },
       {
         "date": "2024-01",
         "text": "メドレーがグッピーズ株式の公開買付け（1株3,250円）を決議。グッピーズは賛同を表明"
@@ -14056,6 +14223,7 @@
     ],
     "endReasonNote": "サイト自体は終了しておらず、運営会社が買収・合併で消滅した。TOBの発表では、両社のノウハウ・アセットを相互活用するため、上場を維持すると情報共有や迅速な意思決定に制約が出るとして完全子会社化を目指すと説明。グッピーズは賛同を表明した。",
     "sources": [
+      "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf",
       "https://www2.jpx.co.jp/disc/44800/140120240118516557.pdf",
       "https://www.nihon-ma.co.jp/news/20240119_4480-8/",
       "https://edinetdb.jp/company/E33586/history",
@@ -14065,7 +14233,9 @@
     "themes": [
       "medical-jobs"
     ],
-    "type": "medical-job-board"
+    "type": "medical-job-board",
+    "startedAt": "2000-05",
+    "startBasis": "前の運営会社（有限会社グッピー）で開始。医療系求人サイト『GUPPY（現：GUPPY求人）』をリリース"
   },
   {
     "id": "job-medley",
@@ -14631,8 +14801,18 @@
     "successor": "株式会社エムステージ（医師紹介会社向け求人データ共有サービスとして継続）",
     "milestones": [
       {
+        "date": "2022-09",
+        "text": "エムステージHDが、医療機関向けプラットホーム運営・コンサルティングの株式会社MHAの全株式を取得し子会社化すると発表",
+        "source": "https://www.nihon-ma.co.jp/news/20220926_1-656/"
+      },
+      {
         "date": "2022-10",
         "text": "エムステージHDが採用代行等を持つMHAを子会社化し、医療機関の採用手法の多様化を図る"
+      },
+      {
+        "date": "2023-01",
+        "text": "株式会社MHAが株式会社Rakusaiに商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6012301010010"
       },
       {
         "date": "2024-07",
@@ -14648,14 +14828,17 @@
     ],
     "endReasonNote": "エムステージグループは「医療人材を取り巻く課題への対応を加速させるため」と説明。グループ内再編で、事業は存続会社が引き継いだ。",
     "sources": [
-      "https://www.nihon-ma.co.jp/news/20240930_1-1383/",
-      "https://www.nihon-ma.co.jp/news/20220926_1-656/"
+      "https://www.nihon-ma.co.jp/news/20220926_1-656/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6012301010010",
+      "https://www.nihon-ma.co.jp/news/20240930_1-1383/"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "medical-jobs"
     ],
-    "type": "healthcare-recruitment-outsourcing"
+    "type": "healthcare-recruitment-outsourcing",
+    "knownSince": "2022-09",
+    "knownSinceSource": "https://www.nihon-ma.co.jp/news/20220926_1-656/"
   },
   {
     "id": "b-8b60f2cc",
@@ -14880,7 +15063,9 @@
     "themes": [
       "occupational-physician"
     ],
-    "type": "occupational-health-service"
+    "type": "occupational-health-service",
+    "knownSince": "2022-10",
+    "knownSinceSource": "https://www.nihon-ma.co.jp/news/20221031_9218/"
   },
   {
     "id": "b-208b7fec",
@@ -15049,7 +15234,9 @@
     "themes": [
       "occupational-physician"
     ],
-    "type": "occupational-health-service"
+    "type": "occupational-health-service",
+    "knownSince": "2020-10",
+    "knownSinceSource": "https://www.nihon-ma.co.jp/news/20201022_3341-5/"
   },
   {
     "id": "b-385efe38",
@@ -16344,7 +16531,7 @@
     "category": "medical-materials",
     "description": "病院内の医療機器・資産をクラウドで一括管理する祖業のシステム",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "譲渡",
     "endedAt": "2026-04",
     "successor": "株式会社ウイン・インターナショナル（ウイン・パートナーズの子会社）",
@@ -16353,12 +16540,22 @@
     ],
     "endReasonNote": "医療機器販売のウイン・パートナーズが傘下のウイン・インターナショナルを通じ、2026年4月1日付でHITOTSUから「HITOTSU Asset」事業を取得すると2025年12月に発表した。HITOTSU側の譲渡理由は公表資料では確認できない。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000102400.html",
       "https://maonline.jp/news/20251208b",
       "https://www.hitotsu.co.jp/699/",
       "https://www.nihon-ma.co.jp/news/20251208_3183-15/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-equipment-maintenance"
+    "type": "medical-equipment-maintenance",
+    "startedAt": "2021",
+    "startBasis": "正式提供開始（前身「HITOTSU」。2022-06の資金調達リリースに『昨年リリースした医療機器一元管理システム「HITOTSU」』とある）",
+    "milestones": [
+      {
+        "date": "2021",
+        "text": "医療機器一元管理システム『HITOTSU』をリリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000102400.html"
+      }
+    ]
   },
   {
     "id": "b-5bffae67",
@@ -16509,10 +16706,40 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.astemf.jp/company/history.html",
       "https://www.astemf.jp/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "rx-drug-wholesale"
+    "type": "rx-drug-wholesale",
+    "knownSince": "1959",
+    "knownSinceSource": "https://www.astemf.jp/company/history.html",
+    "milestones": [
+      {
+        "date": "1879",
+        "text": "前身の一社、久留米で『大石薬舗』創業",
+        "source": "https://www.astemf.jp/company/history.html"
+      },
+      {
+        "date": "1959",
+        "text": "大石薬品・小倉薬品などで『北九州医薬品卸協同組合』を設立",
+        "source": "https://www.astemf.jp/company/history.html"
+      },
+      {
+        "date": "1992",
+        "text": "吉村薬品・宮崎吉村薬品・ヤナイ薬品・ヨシマツ薬品が合併し株式会社ダイコーを設立",
+        "source": "https://www.astemf.jp/company/history.html"
+      },
+      {
+        "date": "1994",
+        "text": "コーヤク・大石薬品・シンコー薬品が合併しキョーエイ薬品株式会社を設立",
+        "source": "https://www.astemf.jp/company/history.html"
+      },
+      {
+        "date": "1998",
+        "text": "ダイコー・キョーエイ薬品・サン・メック・コマックが合併し株式会社アステムを設立",
+        "source": "https://www.astemf.jp/company/history.html"
+      }
+    ]
   },
   {
     "id": "b-27e288a6",
@@ -16759,14 +16986,40 @@
     "category": "medical-cosmetic",
     "description": "2026-10医療用ウィッグ「Airlia」発売",
     "hp": "https://www.svenson.co.jp/",
-    "startedYear": null,
+    "startedYear": 1997,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000262.000015908.html",
+      "https://prtimes.jp/main/html/rd/p/000000022.000015908.html",
       "https://prtimes.jp/main/html/rd/p/000000150.000015908.html",
       "https://www.svenson.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "cosmetic-hair-wig"
+    "type": "cosmetic-hair-wig",
+    "startedAt": "1997-09",
+    "startBasis": "前身（スヴェンソンが女性用モードウィッグ『Jeu de Junko』を発売。女性用ウィッグへの参入）",
+    "milestones": [
+      {
+        "date": "1997-09",
+        "text": "コシノジュンコデザインオフィスと提携し、モードウィッグ『Jeu de Junko』を発売してパリコレに参加",
+        "source": "https://prtimes.jp/main/html/rd/p/000000262.000015908.html"
+      },
+      {
+        "date": "2003-04",
+        "text": "医療用ウィッグの販売に本格参入",
+        "source": "https://prtimes.jp/main/html/rd/p/000000262.000015908.html"
+      },
+      {
+        "date": "2004-07",
+        "text": "初の女性専用店舗『銀座サロン』をオープン",
+        "source": "https://prtimes.jp/main/html/rd/p/000000262.000015908.html"
+      },
+      {
+        "date": "2016-11",
+        "text": "『レディス スヴェンソン なんばサロン』を移転リニューアル（レディス スヴェンソン名の確認できる最古の告知）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000022.000015908.html"
+      }
+    ]
   },
   {
     "id": "b-8712d1ed",
@@ -17952,13 +18205,33 @@
     "category": "real-world-data",
     "description": "開始時期は沿革で確認できず。実患者数5,000万人超のDB（2025-01）",
     "hp": "https://www.mdv.co.jp/solution/pharmaceutical/",
-    "startedYear": null,
+    "startedYear": 2012,
     "status": "提供中",
     "sources": [
+      "https://www.mdv.co.jp/press/uploadfile/docs/mdv_pressrelease120719.pdf",
       "https://www.mdv.co.jp/solution/pharmaceutical/"
     ],
     "updatedAt": "2026-10",
-    "type": "rwd-analysis-service"
+    "type": "rwd-analysis-service",
+    "startedAt": "2012-08",
+    "startBasis": "正式提供開始（2012-07-19発表、8月1日から製薬会社向けに提供。前身は実験的に提供していた『EBM-ASP』）",
+    "milestones": [
+      {
+        "date": "2012-07",
+        "text": "製薬会社向け診療データ分析ツール『MDV analyzer』を2012年8月1日から提供開始すると発表。それまでは『EBM-ASP』の名で実験的に提供",
+        "source": "https://www.mdv.co.jp/press/uploadfile/docs/mdv_pressrelease120719.pdf"
+      },
+      {
+        "date": "2012-08",
+        "text": "『MDV analyzer』提供開始",
+        "source": "https://www.mdv.co.jp/press/uploadfile/docs/mdv_pressrelease120719.pdf"
+      },
+      {
+        "date": "2022-08",
+        "text": "約1800万人の保険者データを搭載。派生サービス『MDV analyzer for Patient Journey』開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000047.000089368.html"
+      }
+    ]
   },
   {
     "id": "b-6a03a00a",
@@ -18298,10 +18571,31 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.value-press.com/pressrelease/96578",
+      "https://www.value-press.com/pressrelease/136347",
       "https://www.ex-partners.co.jp/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "hospital-search-portal"
+    "type": "hospital-search-portal",
+    "knownSince": "2012-05",
+    "knownSinceSource": "https://www.value-press.com/pressrelease/96578",
+    "milestones": [
+      {
+        "date": "2012-05",
+        "text": "『病院・歯科検索ホスピタ!』のスマートフォン向け専用サイトを公開（PC版・モバイル版は既存）",
+        "source": "https://www.value-press.com/pressrelease/96578"
+      },
+      {
+        "date": "2015-01",
+        "text": "医療機関が自由に編集・発信できる機能を追加",
+        "source": "https://www.value-press.com/pressrelease/136347"
+      },
+      {
+        "date": "2022-03",
+        "text": "ジェイフロンティアがイーエックス・パートナーズの株式を取得し子会社化することを決議",
+        "source": "https://www2.jpx.co.jp/disc/29340/140120220314505072.pdf"
+      }
+    ]
   },
   {
     "id": "b-5db9c5a4",
@@ -18432,10 +18726,13 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.value-press.com/pressrelease/16873",
       "http://www.qlife.co.jp/services"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-info-media"
+    "type": "medical-info-media",
+    "knownSince": "2007-08",
+    "knownSinceSource": "https://www.value-press.com/pressrelease/16873"
   },
   {
     "id": "b-b92f3483",
@@ -18568,10 +18865,13 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000044.000109272.html",
       "https://www.mediwill.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "patient-support-awareness"
+    "type": "patient-support-awareness",
+    "knownSince": "2023-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000044.000109272.html"
   },
   {
     "id": "b-ab96ce03",
@@ -18775,7 +19075,16 @@
       "https://www.mythos-jp.com/services/safety-system/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharma-compliance-pv"
+    "type": "pharma-compliance-pv",
+    "knownSince": "2019-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000008.000049259.html",
+    "milestones": [
+      {
+        "date": "2019-11",
+        "text": "副作用情報収集管理システムにスマートフォン向け機能をリリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000008.000049259.html"
+      }
+    ]
   },
   {
     "id": "b-e38a360d",
@@ -19515,13 +19824,34 @@
     "category": "medical-materials",
     "description": "",
     "hp": "https://classico.co.jp/about/",
-    "startedYear": null,
+    "startedYear": 2008,
     "status": "提供中",
     "sources": [
+      "https://www.atpress.ne.jp/news/51457",
+      "https://www.atpress.ne.jp/news/39573",
       "https://classico.co.jp/about/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-apparel"
+    "type": "medical-apparel",
+    "startedAt": "2008",
+    "startBasis": "正式提供開始（自社リリースに『クラシコは、2008年よりスタイリッシュな白衣を製造・販売』。創業は2008年3月）",
+    "milestones": [
+      {
+        "date": "2008",
+        "text": "スタイリッシュな白衣の製造・販売を開始",
+        "source": "https://www.atpress.ne.jp/news/51457"
+      },
+      {
+        "date": "2013-10",
+        "text": "初のナース向け白衣『クラシコナース』を発売",
+        "source": "https://www.atpress.ne.jp/news/39573"
+      },
+      {
+        "date": "2014-09",
+        "text": "子供向け本格白衣『キッズクラシコ』を発売",
+        "source": "https://www.atpress.ne.jp/news/51457"
+      }
+    ]
   },
   {
     "id": "b-ce3b0fe5",
@@ -19745,7 +20075,9 @@
       "https://hc-sys.com/service/health/"
     ],
     "updatedAt": "2026-10",
-    "type": "gut-nutrition-test"
+    "type": "gut-nutrition-test",
+    "knownSince": "2017-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000028075.html"
   },
   {
     "id": "b-fd9d37b7",
@@ -20043,10 +20375,30 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://edinetdb.jp/company/E34721/history",
       "https://welby.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "patient-support-awareness"
+    "type": "patient-support-awareness",
+    "knownSince": "2015-08",
+    "knownSinceSource": "https://edinetdb.jp/company/E34721/history",
+    "milestones": [
+      {
+        "date": "2015-06",
+        "text": "徳島大学と共同で2型糖尿病患者向けセルフモニタリングシステムを開発",
+        "source": "https://edinetdb.jp/company/E34721/history"
+      },
+      {
+        "date": "2015-08",
+        "text": "Welbyデータマネジメントツールを臨床試験向けに提供開始",
+        "source": "https://edinetdb.jp/company/E34721/history"
+      },
+      {
+        "date": "2018-10",
+        "text": "株式会社ウェルビーから株式会社Welbyに社名変更",
+        "source": "https://edinetdb.jp/company/E34721/history"
+      }
+    ]
   },
   {
     "id": "b-d8da4e4e",
@@ -20753,10 +21105,13 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000020114.html",
       "https://neurospace.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "sleep-corporate-program"
+    "type": "sleep-corporate-program",
+    "knownSince": "2016-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000020114.html"
   },
   {
     "id": "b-91e95ea9",
@@ -21027,10 +21382,13 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.suwachuo.jp/assets/pdf/ent18.pdf",
       "https://service.drjoy.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "clinical-communication"
+    "type": "clinical-communication",
+    "knownSince": "2018-08",
+    "knownSinceSource": "https://www.suwachuo.jp/assets/pdf/ent18.pdf"
   },
   {
     "id": "b-ea7917c9",
@@ -21146,14 +21504,29 @@
     "category": "health-consulting",
     "description": "",
     "hp": "https://eversense.co.jp/product",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id1085012323",
       "https://prtimes.jp/main/html/rd/p/000000011.000008105.html",
       "https://eversense.co.jp/product"
     ],
     "updatedAt": "2026-10",
-    "type": "pediatric-perinatal-support"
+    "type": "pediatric-perinatal-support",
+    "startedAt": "2016-03",
+    "startBasis": "正式提供開始（App StoreでのiOS版初回公開日 2016-03-04）",
+    "milestones": [
+      {
+        "date": "2016-03",
+        "text": "パパ専用アプリ『パパninaru』iOS版を公開",
+        "source": "https://apps.apple.com/jp/app/id1085012323"
+      },
+      {
+        "date": "2017-10",
+        "text": "iOS版をリニューアル",
+        "source": "https://prtimes.jp/main/html/rd/p/000000011.000008105.html"
+      }
+    ]
   },
   {
     "id": "b-262abcca",
@@ -21221,7 +21594,9 @@
       "https://doctorbook.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-education-media"
+    "type": "doctor-education-media",
+    "knownSince": "2020-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000004.000040613.html"
   },
   {
     "id": "b-33f39e84",
@@ -22528,10 +22903,20 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000030.000035073.html",
       "https://metagen.co.jp/business/biz-dev/"
     ],
     "updatedAt": "2026-10",
-    "type": "contract-lab-omics"
+    "type": "contract-lab-omics",
+    "knownSince": "2019-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000030.000035073.html",
+    "milestones": [
+      {
+        "date": "2019-06",
+        "text": "森下仁丹とメタジェンが共同で特許出願（腸内環境に合わせたビフィズス菌選択『MG Navi』）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000030.000035073.html"
+      }
+    ]
   },
   {
     "id": "b-5a9d1411",
@@ -22762,15 +23147,31 @@
     "category": "telemedicine",
     "description": "指定管理医療機器認証取得・保険適用（沿革、年月は表示形式上特定できず）。ブータン等海外でも導入",
     "hp": "https://melody.international/products-service/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://www.jica.go.jp/information/topics/2025/p20260130_01.html",
+      "https://startup.pref.kagawa.lg.jp/wp/wp-content/uploads/2026/03/276530139203_1_2_分娩監視装置iCTGパンフレット_ver2.4.pdf",
       "https://prtimes.jp/main/html/rd/p/000000011.000038603.html",
       "https://prtimes.jp/main/html/rd/p/000000006.000038603.html",
       "https://melody.international/products-service/"
     ],
     "updatedAt": "2026-10",
-    "type": "remote-patient-monitoring"
+    "type": "remote-patient-monitoring",
+    "startedAt": "2018-05",
+    "startBasis": "国内の医療機器認証取得（JICAの紹介記事。認証番号230AFBZX00024000）",
+    "milestones": [
+      {
+        "date": "2018-05",
+        "text": "分娩監視装置iCTGが日本で医療機器認証を取得",
+        "source": "https://www.jica.go.jp/information/topics/2025/p20260130_01.html"
+      },
+      {
+        "date": "2019-06",
+        "text": "BabyTech Award Japan 2019で『分娩監視装置iCTG』が妊娠部門大賞",
+        "source": "https://prtimes.jp/main/html/rd/p/000000006.000038603.html"
+      }
+    ]
   },
   {
     "id": "b-1d58d2da",
@@ -22818,10 +23219,13 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000044.000017460.html",
       "https://miup.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "emerging-market-health"
+    "type": "emerging-market-health",
+    "knownSince": "2018-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000044.000017460.html"
   },
   {
     "id": "b-afcd4bd6",
@@ -23253,14 +23657,35 @@
     "category": "doctor-network",
     "description": "平均15分で回答。",
     "hp": "https://corp.antaa.jp/business",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://www.wantedly.com/projects/169675",
+      "https://apps.apple.com/jp/app/id1151798574",
       "https://prtimes.jp/main/html/rd/p/000000001.000025535.html",
       "https://corp.antaa.jp/business"
     ],
     "updatedAt": "2026-10",
-    "type": "specialist-econsult"
+    "type": "specialist-econsult",
+    "startedAt": "2016-04",
+    "startBasis": "前身（創業医師2名がLINEでプライマリケア医向けの相談を開始。アンター社のWantedly紹介ページによる）",
+    "milestones": [
+      {
+        "date": "2016-04",
+        "text": "LINEを使った医師向けの相談を開始",
+        "source": "https://www.wantedly.com/projects/169675"
+      },
+      {
+        "date": "2016-09",
+        "text": "医師向けアプリ『Antaa』iOS版をApp Storeで公開（Antaa QA機能を含む）",
+        "source": "https://apps.apple.com/jp/app/id1151798574"
+      },
+      {
+        "date": "2017-07",
+        "text": "医師同士のQ&Aサービス『AntaaQA』の書籍化を発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000025535.html"
+      }
+    ]
   },
   {
     "id": "b-97713780",
@@ -23456,10 +23881,13 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000038360.html",
       "http://nanotis.net/"
     ],
     "updatedAt": "2026-10",
-    "type": "next-gen-test-tech"
+    "type": "next-gen-test-tech",
+    "knownSince": "2018-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000038360.html"
   },
   {
     "id": "b-ad8e0da2",
@@ -23814,13 +24242,16 @@
     "category": "telemedicine",
     "description": "",
     "hp": "https://deepeyevision.com/company/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000053278.html",
       "https://deepeyevision.com/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "teleradiology"
+    "type": "teleradiology",
+    "startedAt": "2020-02",
+    "startBasis": "正式提供開始（眼底画像をAIが一次解析し、提携大学の眼科読影医が確認して回答する眼科向けAI診断支援ソリューションの提供開始）"
   },
   {
     "id": "b-da01df85",
@@ -24101,13 +24532,29 @@
     "category": "direct-to-consumer",
     "description": "開始時期は未確認",
     "hp": "https://shop.basefood.co.jp/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000022258.html",
+      "https://prtimes.jp/main/html/rd/p/000000004.000022258.html",
       "https://shop.basefood.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "2016-10",
+    "startBasis": "前身「BASE PASTA」（完全栄養パスタのクラウドファンディングを開始。一般販売は2017-02）",
+    "milestones": [
+      {
+        "date": "2016-10",
+        "text": "世界初をうたう完全栄養パスタのクラウドファンディングを開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000022258.html"
+      },
+      {
+        "date": "2017-02",
+        "text": "完全栄養パスタ『BASE PASTA』を販売開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000022258.html"
+      }
+    ]
   },
   {
     "id": "b-a940cd5b",
@@ -24333,10 +24780,26 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.atpress.ne.jp/news/257204",
+      "https://prtimes.jp/main/html/rd/p/000000061.000008265.html",
       "https://splendid.co.jp/pressrelease/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-clinic-signage"
+    "type": "pharmacy-clinic-signage",
+    "knownSince": "2021-04",
+    "knownSinceSource": "https://www.atpress.ne.jp/news/257204",
+    "milestones": [
+      {
+        "date": "2021-04",
+        "text": "SPLENDIDが調剤薬局向けデジタルサイネージの広告共通配信規模を全国約1,000店舗に拡充",
+        "source": "https://www.atpress.ne.jp/news/257204"
+      },
+      {
+        "date": "2021-04",
+        "text": "LOCUSが『クオール薬局デジタルサイネージ』（広告枠）の提供を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000061.000008265.html"
+      }
+    ]
   },
   {
     "id": "b-612c676f",
@@ -24887,7 +25350,9 @@
       "https://mebais.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-claims-bpo"
+    "type": "medical-claims-bpo",
+    "knownSince": "2024-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000009.000033985.html"
   },
   {
     "id": "b-86a650a2",
@@ -24920,7 +25385,9 @@
       "https://prtimes.jp/main/html/searchrlp/company_id/33985"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-claims-bpo"
+    "type": "medical-claims-bpo",
+    "knownSince": "2024-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000008.000033985.html"
   },
   {
     "id": "b-dd66dace",
@@ -25264,7 +25731,9 @@
       "https://entouch.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "remote-mr-meeting"
+    "type": "remote-mr-meeting",
+    "knownSince": "2019-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000019.000024483.html"
   },
   {
     "id": "b-5630637a",
@@ -25443,7 +25912,9 @@
       "https://www.aiwelljapan.com/business-possibility/"
     ],
     "updatedAt": "2026-10",
-    "type": "contract-lab-omics"
+    "type": "contract-lab-omics",
+    "knownSince": "2018-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000009.000034921.html"
   },
   {
     "id": "b-95329dd0",
@@ -25527,7 +25998,9 @@
       "https://datack.jp/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "rwd-analysis-service"
+    "type": "rwd-analysis-service",
+    "knownSince": "2021-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000001361.000032407.html"
   },
   {
     "id": "b-6f7184f5",
@@ -25577,7 +26050,9 @@
       "https://datack.jp/category/topics/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-worker-education"
+    "type": "healthcare-worker-education",
+    "knownSince": "2024-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000019.000041916.html"
   },
   {
     "id": "b-cfdb69b2",
@@ -25697,7 +26172,9 @@
       "https://linc-well.com/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-chain-operation"
+    "type": "clinic-chain-operation",
+    "knownSince": "2019-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000045113.html"
   },
   {
     "id": "b-d4bca714",
@@ -26621,7 +27098,9 @@
       "https://ouiinc.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "ophthalmic-device"
+    "type": "ophthalmic-device",
+    "knownSince": "2020-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000064389.html"
   },
   {
     "id": "b-cdde50a0",
@@ -26790,7 +27269,9 @@
       "https://medii.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "specialist-econsult"
+    "type": "specialist-econsult",
+    "knownSince": "2020-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000060898.html"
   },
   {
     "id": "b-a15bac70",
@@ -27119,7 +27600,9 @@
       "https://www.medical-pst.com/about/"
     ],
     "updatedAt": "2026-10",
-    "type": "digital-biomarker"
+    "type": "digital-biomarker",
+    "knownSince": "2022-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000014.000040125.html"
   },
   {
     "id": "b-f0e05805",
@@ -27395,7 +27878,9 @@
       "https://yuimedi.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "health-data-standardization"
+    "type": "health-data-standardization",
+    "knownSince": "2024-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000014.000081576.html"
   },
   {
     "id": "b-21cf7997",
@@ -27999,7 +28484,9 @@
     "sources": [
       "https://www.intep.co.jp/service/smartrehab/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2024-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000150266.html"
   },
   {
     "id": "b-198d4bfd",
@@ -28295,7 +28782,9 @@
       "https://exmore.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "corporate-wellness-program"
+    "type": "corporate-wellness-program",
+    "knownSince": "2025-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000004.000157081.html"
   },
   {
     "id": "b-df2dc206",
@@ -28323,13 +28812,16 @@
     "category": "medical-management-support",
     "description": "",
     "hp": "https://asclepath.com/services/clinic-opening",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000187260.html",
       "https://asclepath.com/services/clinic-opening"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-opening-support"
+    "type": "clinic-opening-support",
+    "startedAt": "2026-07",
+    "startBasis": "発表（会社設立リリースで、AI-nativeクリニックの開業支援等の事業を公表）"
   },
   {
     "id": "b-82334bbb",
@@ -28586,7 +29078,9 @@
       "https://c-s-one.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-ma-succession"
+    "type": "healthcare-ma-succession",
+    "knownSince": "2023-04",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000120815.html"
   },
   {
     "id": "b-2b238c23",
@@ -28749,7 +29243,9 @@
       "https://prtimes.jp/main/html/rd/p/000000001.000124652.html"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-education-media"
+    "type": "doctor-education-media",
+    "knownSince": "2023-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000124652.html"
   },
   {
     "id": "b-b4f9c9dd",
@@ -29002,10 +29498,36 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://edinetdb.jp/company/E12328/history",
+      "https://prtimes.jp/main/html/rd/p/000000073.000022624.html",
       "https://eucalia.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "hospital-turnaround"
+    "type": "hospital-turnaround",
+    "knownSince": "2011-12",
+    "knownSinceSource": "https://edinetdb.jp/company/E12328/history",
+    "milestones": [
+      {
+        "date": "2005-02",
+        "text": "医療・介護施設向け経営コンサルティング事業への参入を目的に、株式会社メディカルマネジメント研究所（現ユカリア）を設立",
+        "source": "https://edinetdb.jp/company/E12328/history"
+      },
+      {
+        "date": "2006-05",
+        "text": "株式会社キャピタルメディカに商号変更",
+        "source": "https://edinetdb.jp/company/E12328/history"
+      },
+      {
+        "date": "2011-12",
+        "text": "医療経営総合支援事業の業容拡大を目的に、ユナイテッド・ヘルスケア（現メディカル・アドバイザーズ）の株式を譲受",
+        "source": "https://edinetdb.jp/company/E12328/history"
+      },
+      {
+        "date": "2022-05",
+        "text": "キャピタルメディカからユカリアに商号変更",
+        "source": "https://edinetdb.jp/company/E12328/history"
+      }
+    ]
   },
   {
     "id": "b-28693862",
@@ -29034,10 +29556,41 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://edinetdb.jp/company/E12328/history",
+      "https://prtimes.jp/main/html/rd/p/000000002.000009232.html",
       "https://eucalia.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "care-facility-search-referral"
+    "type": "care-facility-search-referral",
+    "knownSince": "2014-02",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000009232.html",
+    "milestones": [
+      {
+        "date": "2011-03",
+        "text": "キャピタルメディカがチャーミング・エイジ研究所（現クラーチ）の株式を譲受し、高齢者向け介護施設運営に参入",
+        "source": "https://edinetdb.jp/company/E12328/history"
+      },
+      {
+        "date": "2014-02",
+        "text": "株式会社あいらいふが有料老人ホームに関する情報発信を行っていたことを確認できる最古のリリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000009232.html"
+      },
+      {
+        "date": "2014-03",
+        "text": "介護施設情報誌『あいらいふ』をリニューアル",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000009232.html"
+      },
+      {
+        "date": "2020-06",
+        "text": "キャピタルメディカが入居相談・施設紹介サービスへの参入を目的に株式会社ザップ（現あいらいふ）の株式を譲受し子会社化",
+        "source": "https://edinetdb.jp/company/E12328/history"
+      },
+      {
+        "date": "2022-05",
+        "text": "キャピタルメディカがユカリアに商号変更",
+        "source": "https://edinetdb.jp/company/E12328/history"
+      }
+    ]
   },
   {
     "id": "b-0e6ad08f",
@@ -29195,7 +29748,9 @@
       "https://medi-free.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-worker-education"
+    "type": "healthcare-worker-education",
+    "knownSince": "2026-04",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000173603.html"
   },
   {
     "id": "b-ee62ec3c",
@@ -29564,7 +30119,9 @@
       "https://www.elix-inc.com/news/"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-computational-drug-discovery"
+    "type": "ai-computational-drug-discovery",
+    "knownSince": "2020-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000005.000027687.html"
   },
   {
     "id": "b-61b70e2c",
@@ -30075,7 +30632,9 @@
       "https://ami.inc/"
     ],
     "updatedAt": "2026-10",
-    "type": "ecg-heart-sound-ai"
+    "type": "ecg-heart-sound-ai",
+    "knownSince": "2019-01",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000003.000036655.html"
   },
   {
     "id": "b-b66c8776",
@@ -30195,7 +30754,9 @@
       "https://thephage.life/"
     ],
     "updatedAt": "2026-10",
-    "type": "contract-lab-omics"
+    "type": "contract-lab-omics",
+    "knownSince": "2024-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000001488.000033034.html"
   },
   {
     "id": "b-8407d9e0",
@@ -30245,7 +30806,9 @@
       "https://www.cybo.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "pathology-cytology-ai"
+    "type": "pathology-cytology-ai",
+    "knownSince": "2020-02",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000053839.html"
   },
   {
     "id": "b-2be88b54",
@@ -30426,11 +30989,27 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000035986.html",
+      "https://prtimes.jp/main/html/rd/p/000000013.000035986.html",
       "https://www.keio-innovation.co.jp/portfolio/32/",
       "https://alivexis.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-computational-drug-discovery"
+    "type": "ai-computational-drug-discovery",
+    "knownSince": "2018-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000035986.html",
+    "milestones": [
+      {
+        "date": "2018-08",
+        "text": "モジュラス株式会社として8億円のシリーズA資金調達を実施（計算科学による創薬）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000035986.html"
+      },
+      {
+        "date": "2024-03",
+        "text": "モジュラス株式会社がアリヴェクシス株式会社に社名変更",
+        "source": "https://prtimes.jp/main/html/rd/p/000000013.000035986.html"
+      }
+    ]
   },
   {
     "id": "b-378c107f",
@@ -30462,7 +31041,9 @@
       "https://mediscan.co.jp/#business"
     ],
     "updatedAt": "2026-10",
-    "type": "cancer-risk-screening-test"
+    "type": "cancer-risk-screening-test",
+    "knownSince": "2025-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000008.000096772.html"
   },
   {
     "id": "b-ed24d26f",
@@ -30685,7 +31266,9 @@
       "https://heartseed.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "regenerative-cell-therapy"
+    "type": "regenerative-cell-therapy",
+    "knownSince": "2021-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000005.000046965.html"
   },
   {
     "id": "b-6e278109",
@@ -30769,7 +31352,9 @@
       "https://www.ut-heart.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "medtech-development-support"
+    "type": "medtech-development-support",
+    "knownSince": "2020-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000059752.html"
   },
   {
     "id": "b-cdc2188d",
@@ -30795,13 +31380,29 @@
     "category": "pharma",
     "description": "研究用、細胞治療・疾患プロファイリング・創薬向け",
     "hp": "https://thinkcyte.com/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000058775.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000058775.html",
       "https://thinkcyte.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "life-science-tools"
+    "type": "life-science-tools",
+    "startedAt": "2022-12",
+    "startBasis": "β版（ゴーストサイトメトリー技術を搭載したラベルフリー細胞解析・ソーティング装置のプレミアアーリーアクセスプログラムを発表）",
+    "milestones": [
+      {
+        "date": "2020-07",
+        "text": "日立とAIを活用した細胞分析・分離システムの共同開発を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000058775.html"
+      },
+      {
+        "date": "2022-12",
+        "text": "ラベルフリー細胞解析・ソーティング装置のプレミアアーリーアクセスプログラムを発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000006.000058775.html"
+      }
+    ]
   },
   {
     "id": "b-a80390b6",
@@ -31277,7 +31878,9 @@
       "https://cradle.care/"
     ],
     "updatedAt": "2026-10",
-    "type": "corporate-wellness-program"
+    "type": "corporate-wellness-program",
+    "knownSince": "2025-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000005.000111102.html"
   },
   {
     "id": "b-8a6e492f",
@@ -31491,10 +32094,18 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000035.000066722.html",
       "https://womens-kampo.co.jp/service_supli.php"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-product-ec"
+    "type": "femtech-product-ec",
+    "milestones": [
+      {
+        "date": "2025-01",
+        "text": "株式会社ウィメンズ漢方がセブンリッチグループにグループイン",
+        "source": "https://prtimes.jp/main/html/rd/p/000000035.000066722.html"
+      }
+    ]
   },
   {
     "id": "b-26c5563a",
@@ -31679,7 +32290,9 @@
       "https://www.suimin.co.jp/about"
     ],
     "updatedAt": "2026-10",
-    "type": "sleep-corporate-program"
+    "type": "sleep-corporate-program",
+    "knownSince": "2020-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000003.000038776.html"
   },
   {
     "id": "b-362ef54a",
@@ -32486,7 +33099,9 @@
       "https://homedr.co.jp/about"
     ],
     "updatedAt": "2026-10",
-    "type": "house-call-night-emergency"
+    "type": "house-call-night-emergency",
+    "knownSince": "2023-01",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000114173.html"
   },
   {
     "id": "b-de048179",
@@ -32939,10 +33554,18 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000106150.html",
       "https://kurumu.life/"
     ],
     "updatedAt": "2026-10",
-    "type": "visiting-nursing-station"
+    "type": "visiting-nursing-station",
+    "milestones": [
+      {
+        "date": "2022-08",
+        "text": "株式会社echelleから株式会社CareMakerに社名変更",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000106150.html"
+      }
+    ]
   },
   {
     "id": "b-ec7b9092",
@@ -33007,10 +33630,18 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000161.000022624.html",
       "https://medistep.jp/service-msp/houkansupport/"
     ],
     "updatedAt": "2026-10",
-    "type": "visiting-nursing-software"
+    "type": "visiting-nursing-software",
+    "milestones": [
+      {
+        "date": "2025-05",
+        "text": "ユカリアが株式会社メディステップの株式を取得し子会社化",
+        "source": "https://prtimes.jp/main/html/rd/p/000000161.000022624.html"
+      }
+    ]
   },
   {
     "id": "b-3468e0ee",
@@ -33288,7 +33919,9 @@
       "https://makecare.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "severe-disability-home-care"
+    "type": "severe-disability-home-care",
+    "knownSince": "2023-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000133569.html"
   },
   {
     "id": "b-ff769e0d",
@@ -33652,7 +34285,9 @@
       "https://www.crowdcare.jp/services/"
     ],
     "updatedAt": "2026-10",
-    "type": "selfpay-care-service"
+    "type": "selfpay-care-service",
+    "knownSince": "2020-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000057040.html"
   },
   {
     "id": "b-0c350553",
@@ -34184,7 +34819,9 @@
       "https://owen-syspo.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-self-checkout"
+    "type": "clinic-self-checkout",
+    "knownSince": "2023-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000116792.html"
   },
   {
     "id": "b-963491ce",
@@ -34227,13 +34864,29 @@
     "category": "medical-device",
     "description": "",
     "hp": "https://www.berryinc.co.jp/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id1622550284",
+      "https://prtimes.jp/main/html/rd/p/000000006.000113536.html",
       "https://www.berryinc.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "therapeutic-devices-supplies"
+    "type": "therapeutic-devices-supplies",
+    "startedAt": "2022-06",
+    "startBasis": "正式提供開始（App Storeでの『ヘルメット治療記録アプリ-babyband』初回公開日 2022-06-26）",
+    "milestones": [
+      {
+        "date": "2022-06",
+        "text": "『ヘルメット治療記録アプリ-babyband』をApp Storeで公開",
+        "source": "https://apps.apple.com/jp/app/id1622550284"
+      },
+      {
+        "date": "2023-06",
+        "text": "頭の形の治療経過を3D表示できる新機能を追加",
+        "source": "https://prtimes.jp/main/html/rd/p/000000006.000113536.html"
+      }
+    ]
   },
   {
     "id": "b-5a1ab2ef",
@@ -34282,7 +34935,9 @@
       "https://prtimes.jp/main/html/rd/p/000000013.000149238.html"
     ],
     "updatedAt": "2026-10",
-    "type": "next-gen-test-tech"
+    "type": "next-gen-test-tech",
+    "knownSince": "2024-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000149238.html"
   },
   {
     "id": "b-52bde1d5",
@@ -34349,7 +35004,9 @@
       "https://www.adiposeeds.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "regenerative-cell-therapy"
+    "type": "regenerative-cell-therapy",
+    "knownSince": "2022-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000092194.html"
   },
   {
     "id": "b-d4908c8f",
@@ -34652,14 +35309,28 @@
     "category": "simple-inspection",
     "description": "2026年4月リリースで「発売約1年で全国の医療機関に導入拡大」と記載（発売月は未確認）",
     "hp": "https://prtimes.jp/main/html/searchrlp/company_id/98284",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000041.000098284.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/98284"
     ],
     "updatedAt": "2026-10",
-    "type": "home-self-monitoring-test"
+    "type": "home-self-monitoring-test",
+    "startedAt": "2024-09",
+    "startBasis": "国内の医療機器認証取得（ホルター心電計『eclat』、2024-09-27。保険適用は2024-11-01）",
+    "milestones": [
+      {
+        "date": "2024-09",
+        "text": "使い切りホルター心電計『eclat』が医療機器認証を取得（認証番号306AFBZX00067000）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000041.000098284.html"
+      },
+      {
+        "date": "2024-11",
+        "text": "eclatの保険適用開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000041.000098284.html"
+      }
+    ]
   },
   {
     "id": "b-1958333a",
@@ -34691,7 +35362,9 @@
       "https://medicolab.co.jp/projects/"
     ],
     "updatedAt": "2026-10",
-    "type": "disease-specific-ai-samd"
+    "type": "disease-specific-ai-samd",
+    "knownSince": "2026-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000003.000142196.html"
   },
   {
     "id": "b-a3b1d6d2",
@@ -35036,13 +35709,29 @@
     "category": "simple-inspection",
     "description": "2023年11月に肌のためのインナー測定キット販売開始（PR TIMES）",
     "hp": "https://pittan.life/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000118398.html",
+      "https://prtimes.jp/main/html/rd/p/000000005.000118398.html",
       "https://pittan.life/"
     ],
     "updatedAt": "2026-10",
-    "type": "gut-nutrition-test"
+    "type": "gut-nutrition-test",
+    "startedAt": "2023-11",
+    "startBasis": "前身（肌のためのインナー測定キット＝汗分析キットの販売開始）",
+    "milestones": [
+      {
+        "date": "2023-11",
+        "text": "体の内側から肌をサポートする『インナー測定キット』（汗分析）の販売を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000118398.html"
+      },
+      {
+        "date": "2024-11",
+        "text": "事業拡大に向けたリブランディングを発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000118398.html"
+      }
+    ]
   },
   {
     "id": "b-106e0b69",
@@ -35112,7 +35801,9 @@
       "https://www.arcs-inc.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "life-science-tools"
+    "type": "life-science-tools",
+    "knownSince": "2022-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000109635.html"
   },
   {
     "id": "b-c89e76e0",
@@ -35413,10 +36104,18 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000422.000001551.html",
       "https://www.intage-healthcare.co.jp/news/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharma-market-research"
+    "type": "pharma-market-research",
+    "milestones": [
+      {
+        "date": "2018-10",
+        "text": "インテージグループのアスクレップとアンテリオが経営統合に向けて新社名を発表（インテージヘルスケアの発足へ）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000422.000001551.html"
+      }
+    ]
   },
   {
     "id": "b-fb214c66",
@@ -35542,7 +36241,9 @@
       "https://www.crispr4u.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "gene-nucleic-therapy"
+    "type": "gene-nucleic-therapy",
+    "knownSince": "2020-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000020.000051435.html"
   },
   {
     "id": "b-1d684cee",
@@ -35927,7 +36628,9 @@
       "https://www.aicro.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-it-development"
+    "type": "medical-it-development",
+    "knownSince": "2022-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000113109.html"
   },
   {
     "id": "b-3ba260a4",
@@ -35957,11 +36660,19 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.ma-cp.com/news/10113/",
       "https://www.qol-net.co.jp/news/20251029_1",
       "https://www.clin-cloud.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "edc-eclinical-system"
+    "type": "edc-eclinical-system",
+    "milestones": [
+      {
+        "date": "2025-10",
+        "text": "クオールホールディングスが子会社アポプラスステーションを通じてクリンクラウドをグループ化（M&A仲介会社の発表）",
+        "source": "https://www.ma-cp.com/news/10113/"
+      }
+    ]
   },
   {
     "id": "b-aa137a6c",
@@ -37802,13 +38513,54 @@
     "category": "pharma",
     "description": "うつ病・統合失調症治療薬、感染症・CNS中心の後発薬。2026年に杏林製薬の後発薬事業承継の合弁に参加",
     "hp": "https://www.meiji.com/corporate/business/pharmaceuticals.html",
-    "startedYear": null,
+    "startedYear": 1989,
     "status": "提供中",
     "sources": [
+      "https://www.meiji-seika-pharma.co.jp/corporate/history/",
+      "https://edinetdb.jp/company/E21902/history",
       "https://www.meiji.com/corporate/business/pharmaceuticals.html"
     ],
     "updatedAt": "2026-10",
-    "type": "generic-drug"
+    "type": "generic-drug",
+    "startedAt": "1989",
+    "startBasis": "前の運営会社（明治製菓）で開始。抗不安薬ロフラゼプ酸エチルの発売が中枢神経系領域進出の先駆け（ジェネリックは1998年に本格参入）",
+    "milestones": [
+      {
+        "date": "1946",
+        "text": "明治製菓がペニシリンの製造を開始し、薬品事業を始める",
+        "source": "https://www.meiji-seika-pharma.co.jp/corporate/history/"
+      },
+      {
+        "date": "1989",
+        "text": "抗不安薬ロフラゼプ酸エチルを発売（中枢神経系領域への進出）",
+        "source": "https://www.meiji-seika-pharma.co.jp/corporate/history/"
+      },
+      {
+        "date": "1998",
+        "text": "『ジェネリック推進部』を設置し、ジェネリック医薬品事業に本格参入",
+        "source": "https://www.meiji-seika-pharma.co.jp/corporate/history/"
+      },
+      {
+        "date": "1999",
+        "text": "抗うつ薬フルボキサミンマレイン酸塩を発売",
+        "source": "https://www.meiji-seika-pharma.co.jp/corporate/history/"
+      },
+      {
+        "date": "2009-04",
+        "text": "明治製菓と明治乳業が共同持株会社・明治ホールディングスを設立",
+        "source": "https://edinetdb.jp/company/E21902/history"
+      },
+      {
+        "date": "2011-04",
+        "text": "明治製菓がMeiji Seika ファルマに商号変更し、薬品事業会社となる",
+        "source": "https://edinetdb.jp/company/E21902/history"
+      },
+      {
+        "date": "2015-02",
+        "text": "インドのMedreich Limitedを子会社化（ジェネリック強化）",
+        "source": "https://edinetdb.jp/company/E21902/history"
+      }
+    ]
   },
   {
     "id": "b-9a49e956",
@@ -37833,13 +38585,34 @@
     "category": "direct-to-consumer",
     "description": "食品セグメント（株式会社 明治）の一部",
     "hp": "https://www.meiji.com/corporate/business/food.html",
-    "startedYear": null,
+    "startedYear": 1923,
     "status": "提供中",
     "sources": [
+      "https://www.meiji.co.jp/baby/hohoemi/history/",
+      "https://edinetdb.jp/company/E21902/history",
       "https://www.meiji.com/corporate/business/food.html"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
+    "type": "d2c-nutrition-food-brand",
+    "startedAt": "1923",
+    "startBasis": "前身（明治の年表で、日本で初めてオリザニン（ビタミンB1）を添加した乳児用ミルクを1923年に発売）",
+    "milestones": [
+      {
+        "date": "1923",
+        "text": "日本初のオリザニン添加乳児用ミルクを発売",
+        "source": "https://www.meiji.co.jp/baby/hohoemi/history/"
+      },
+      {
+        "date": "2009-04",
+        "text": "明治製菓と明治乳業が共同持株会社・明治ホールディングスを設立",
+        "source": "https://edinetdb.jp/company/E21902/history"
+      },
+      {
+        "date": "2011-04",
+        "text": "明治製菓のフード＆ヘルスケア事業を明治乳業が承継し、明治乳業は株式会社明治に商号変更",
+        "source": "https://edinetdb.jp/company/E21902/history"
+      }
+    ]
   },
   {
     "id": "b-f3e0dc7c",
@@ -41002,7 +41775,9 @@
       "https://www.tcn-prime.jp/"
     ],
     "type": "cardiovascular-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2024-07",
+    "knownSinceSource": "https://www.atpress.ne.jp/news/401039"
   },
   {
     "id": "b-fadb96f4",
@@ -41201,7 +41976,9 @@
       "https://www.rohto.co.jp/news/release/2026/0916_01"
     ],
     "type": "regenerative-cell-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2025-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000003.000161160.html"
   },
   {
     "id": "b-f118d06f",
@@ -41456,15 +42233,30 @@
     "category": "fitness",
     "description": "アスリートのコンディション、ケガ、トレーニング、栄養などのデータを記録・可視化するコンディション管理システム。日本代表やプロチームから部活動まで使われる。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2013,
     "status": "提供中",
     "sources": [
+      "https://sportinlife.go.jp/wp-content/uploads/2024/11/c700f837aaab02092cc539854dbe765b.pdf",
       "https://prtimes.jp/main/html/rd/p/000000001.000036407.html",
       "https://eu-phoria.jp/",
       "https://prtimes.jp/main/html/rd/p/000000151.000036407.html"
     ],
     "type": "fitness-business-support",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2013",
+    "startBasis": "正式提供開始（ユーフォリアの資料に『2013年から、ラグビー日本代表向けコンディション管理ソフト「ONE TAP SPORTS」が始動』）",
+    "milestones": [
+      {
+        "date": "2013",
+        "text": "ラグビー日本代表向けコンディション管理ソフトとして始動",
+        "source": "https://sportinlife.go.jp/wp-content/uploads/2024/11/c700f837aaab02092cc539854dbe765b.pdf"
+      },
+      {
+        "date": "2016",
+        "text": "サッカー・野球など他競技へ展開を開始",
+        "source": "https://sportinlife.go.jp/wp-content/uploads/2024/11/c700f837aaab02092cc539854dbe765b.pdf"
+      }
+    ]
   },
   {
     "id": "b-1111c3b0",
@@ -41680,7 +42472,9 @@
       "https://prtimes.jp/main/html/rd/p/000000008.000129637.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2023-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000129637.html"
   },
   {
     "id": "b-5125c7e5",
@@ -42035,10 +42829,18 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000086515.html",
       "https://rehas.co.jp/news"
     ],
     "type": "visiting-nursing-station",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2023-06",
+        "text": "金沢QOL支援センター株式会社が株式会社リハスに社名変更",
+        "source": "https://prtimes.jp/main/html/rd/p/000000008.000086515.html"
+      }
+    ]
   },
   {
     "id": "b-907da221",
@@ -42292,15 +43094,30 @@
     "category": "diagnostic-support",
     "description": "日常生活の歩行をAIで分析し、認知機能低下の兆候を検知して、予防につながる個別最適なアドバイスを行う認知症早期発見・予防システム。医療機器ではない。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000003143.000003860.html",
       "https://iwai-ai.com/news/iwai-ai-launch",
       "https://iwai-ai.com/",
       "https://prtimes.jp/main/html/rd/p/000000005.000150719.html"
     ],
     "type": "cognitive-function-assessment",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-02",
+    "startBasis": "前身（一関高専Team-MJが開発した『D-walk』の実証実験を丸井グループが発表。DCON2022丸井グループ賞受賞作）",
+    "milestones": [
+      {
+        "date": "2023-02",
+        "text": "一関高専Team-MJが開発した『D-walk』の実証実験を丸井グループが発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000003143.000003860.html"
+      },
+      {
+        "date": "2024-10",
+        "text": "磐井AI株式会社が第三者割当増資を完了",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000150719.html"
+      }
+    ]
   },
   {
     "id": "b-be93dc77",
@@ -42441,13 +43258,34 @@
     "category": "recruting-solutions",
     "description": "介護ロボットやICTなど介護テクノロジーを活用し、業務効率化を進められる人材を育てる資格試験と講座。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000134768.html",
+      "https://prtimes.jp/main/html/rd/p/000000004.000086427.html",
       "https://zenkou-lab.co.jp/"
     ],
     "type": "healthcare-worker-education",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018",
+    "startBasis": "正式提供開始（善光総研のリリースで『2018年より実施している「スマート介護士」資格試験』）",
+    "milestones": [
+      {
+        "date": "2018",
+        "text": "『スマート介護士』資格試験を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000134768.html"
+      },
+      {
+        "date": "2023-04",
+        "text": "社会福祉法人善光会が研究所事業・スマート介護プラットフォーム『SCOP』等を株式会社善光総合研究所へ事業譲渡",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000086427.html"
+      },
+      {
+        "date": "2025-05",
+        "text": "受験者数1万人を突破",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000134768.html"
+      }
+    ]
   },
   {
     "id": "b-999a12bf",
@@ -42477,11 +43315,19 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000086427.html",
       "https://zenkou-lab.co.jp/",
       "https://adv.tokyo-np.co.jp/prtimes/article104858/"
     ],
     "type": "medtech-development-support",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2023-04",
+        "text": "社会福祉法人善光会が研究所事業等を株式会社善光総合研究所へ事業譲渡",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000086427.html"
+      }
+    ]
   },
   {
     "id": "b-4eae2e9b",
@@ -42674,12 +43520,20 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000144469.html",
       "https://www.btbtherapeutics.com/wp-content/uploads/2025/02/20250205-BTB-inversion-press-release.pdf",
       "https://www.btbtherapeutics.com/en/pipeline-2/",
       "https://www.btbtherapeutics.com/ja/category/news/press/"
     ],
     "type": "innovative-drug-maker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2025-02",
+        "text": "BTB創薬研究センターが三角吸収合併により米国BTB Therapeuticsの傘下へ",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000144469.html"
+      }
+    ]
   },
   {
     "id": "b-9c6bce50",
@@ -42732,11 +43586,18 @@
       "unknown"
     ],
     "sources": [
-      "https://www.strike.co.jp/ma_news/detail.html?id=20250217d",
-      "https://www.nikkei.com/nkd/disclosure/tdnr/20241128530872/"
+      "https://www.nikkei.com/nkd/disclosure/tdnr/20241128530872/",
+      "https://www.strike.co.jp/ma_news/detail.html?id=20250217d"
     ],
     "type": "medical-staffing-agency",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2024-11",
+        "text": "Recovery Internationalがclutch communicationの事業の再生支援に係る基本合意書を締結（適時開示）",
+        "source": "https://www.nikkei.com/nkd/disclosure/tdnr/20241128530872/"
+      }
+    ]
   },
   {
     "id": "b-f89ae075",
@@ -43089,7 +43950,9 @@
       "https://www.tkg-na.com/general-7"
     ],
     "type": "gene-nucleic-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2024-01",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000136435.html"
   },
   {
     "id": "b-f6ae267c",
@@ -43203,7 +44066,9 @@
       "https://onemedica.co.jp/"
     ],
     "type": "medical-interpretation-crossborder",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2023-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000131764.html"
   },
   {
     "id": "b-8009db4f",
@@ -46706,7 +47571,9 @@
       "https://physiologas.co.jp/jp-technologies.html"
     ],
     "type": "home-medical-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2021-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000081835.html"
   },
   {
     "id": "b-ebf3e7f5",
@@ -47173,7 +48040,9 @@
       "https://prtimes.jp/main/html/rd/p/000000011.000072828.html"
     ],
     "type": "insurer-data-health-support",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2021-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000072828.html"
   },
   {
     "id": "b-7a0fd881",
@@ -47614,11 +48483,36 @@
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000048849.html",
       "https://www.persol-innovation.co.jp/news/2022-0401-12",
       "https://www.persol-innovation.co.jp/news/2023-0220-2"
     ],
     "type": "care-facility-search-referral",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2020-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000005.000048849.html",
+    "milestones": [
+      {
+        "date": "2019-09",
+        "text": "株式会社みーつけあが『みーつけあWeb診断』とLINE介護相談サービスを開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000048849.html"
+      },
+      {
+        "date": "2020-03",
+        "text": "デイサービス休業対策として無料マッチングサービスを開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000048849.html"
+      },
+      {
+        "date": "2020-05",
+        "text": "訪問介護ヘルパー向け『みーつけあWorkers』にオンライン面談機能を追加",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000048849.html"
+      },
+      {
+        "date": "2022-04",
+        "text": "パーソルイノベーションが株式会社みーつけあを子会社化",
+        "source": "https://www.persol-innovation.co.jp/news/2022-0401-12"
+      }
+    ]
   },
   {
     "id": "b-337196dc",
@@ -47842,7 +48736,21 @@
     ],
     "type": "contract-lab-omics",
     "updatedAt": "2026-10",
-    "endReasonNote": "2023年1月、chromocenterは染色体解析事業を住化分析センターへ譲渡（新設のchromocenterに事業を移し株式を譲渡）。同社は同年10月1日に住化分析センターへ吸収合併され、核型解析・mFISH/FISH解析は住化分析センターが継続している。"
+    "endReasonNote": "2023年1月、chromocenterは染色体解析事業を住化分析センターへ譲渡（新設のchromocenterに事業を移し株式を譲渡）。同社は同年10月1日に住化分析センターへ吸収合併され、核型解析・mFISH/FISH解析は住化分析センターが継続している。",
+    "knownSince": "2022-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000011.000068919.html",
+    "milestones": [
+      {
+        "date": "2022-12",
+        "text": "chromocenterが核型解析・mFISH/FISH解析を担う新会社を設立し、住化分析センターへの株式譲渡契約を締結",
+        "source": "https://prtimes.jp/main/html/rd/p/000000011.000068919.html"
+      },
+      {
+        "date": "2023-01",
+        "text": "住化分析センターが染色体解析事業を譲受（事業譲渡日2023-01-10）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000011.000068919.html"
+      }
+    ]
   },
   {
     "id": "b-ad0ea29c",
@@ -48005,7 +48913,9 @@
     "sources": [
       "https://anshin-support.co.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2021-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000013.000033136.html"
   },
   {
     "id": "b-c8f3baab",
@@ -48075,7 +48985,9 @@
       "https://mabgenesis.com/technology"
     ],
     "type": "cdmo-contract-research",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-01",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000288.000002981.html"
   },
   {
     "id": "b-9c5bd611",
@@ -48175,12 +49087,32 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://edinetdb.jp/company/E36129/history",
       "https://www.kringle-pharma.com/company/overview/",
       "https://www.kringle-pharma.com/development/research/",
       "https://prtimes.jp/main/html/rd/p/000000033.000051435.html"
     ],
     "type": "innovative-drug-maker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2005-05",
+    "knownSinceSource": "https://edinetdb.jp/company/E36129/history",
+    "milestones": [
+      {
+        "date": "2005-05",
+        "text": "中村敏一氏（大阪大学名誉教授）からHGFタンパク質の開発実施権の許諾を得て開発を開始（KP-100）",
+        "source": "https://edinetdb.jp/company/E36129/history"
+      },
+      {
+        "date": "2011-12",
+        "text": "ALS患者を対象とした第I相試験を日本で開始",
+        "source": "https://edinetdb.jp/company/E36129/history"
+      },
+      {
+        "date": "2014-11",
+        "text": "声帯瘢痕患者を対象としたKP-100LIの第I/II相試験（医師主導）を開始",
+        "source": "https://edinetdb.jp/company/E36129/history"
+      }
+    ]
   },
   {
     "id": "b-57e155e9",
@@ -49007,7 +49939,9 @@
       "https://prtimes.jp/main/html/rd/p/000000023.000054891.html",
       "https://prtimes.jp/main/html/rd/p/000000027.000054891.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2023-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000016.000054891.html"
   },
   {
     "id": "b-76748293",
@@ -49350,7 +50284,9 @@
       "https://www.delta-flypharma.co.jp/r-and-d"
     ],
     "type": "innovative-drug-maker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-03",
+    "knownSinceSource": "https://edinetdb.jp/company/E34318/history"
   },
   {
     "id": "b-ce488912",
@@ -49537,7 +50473,9 @@
       "https://www.chordiatherapeutics.com/ja/science/pipeline.html"
     ],
     "type": "innovative-drug-maker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000113232.html"
   },
   {
     "id": "b-4f41348b",
@@ -49568,12 +50506,32 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://edinetdb.jp/company/E34999/history",
       "https://stemrim.com/company/",
       "https://stemrim.com/wp/wp-content/uploads/2026/09/140120260909533366.pdf",
       "https://stemrim.com/about/"
     ],
     "type": "innovative-drug-maker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2014-04",
+    "knownSinceSource": "https://edinetdb.jp/company/E34999/history",
+    "milestones": [
+      {
+        "date": "2014-04",
+        "text": "大阪大学最先端医療イノベーションセンターの共同研究プロジェクト（体内再生誘導医薬開発）に採択",
+        "source": "https://edinetdb.jp/company/E34999/history"
+      },
+      {
+        "date": "2014-11",
+        "text": "塩野義製薬とレダセムチド（HMGB1ペプチド）に関するライセンス契約を締結",
+        "source": "https://edinetdb.jp/company/E34999/history"
+      },
+      {
+        "date": "2019-04",
+        "text": "塩野義製薬が脳梗塞を対象とした企業治験（第II相）を開始",
+        "source": "https://edinetdb.jp/company/E34999/history"
+      }
+    ]
   },
   {
     "id": "b-41c765d4",
@@ -49648,7 +50606,9 @@
       "https://oligogen.jp/"
     ],
     "type": "regenerative-cell-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2021-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000087413.html"
   },
   {
     "id": "b-d2fe994a",
@@ -49768,7 +50728,9 @@
       "https://myoridge.co.jp/original/"
     ],
     "type": "life-science-tools",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-04",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000929.000033034.html"
   },
   {
     "id": "b-c0ce6336",
@@ -49799,12 +50761,42 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://edinetdb.jp/company/E32989/history",
       "https://kitaishihon.com/company/4881/story",
       "https://www.funpep.co.jp/about-us",
       "https://www.funpep.co.jp/pipeline"
     ],
     "type": "innovative-drug-maker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2015-03",
+    "knownSinceSource": "https://edinetdb.jp/company/E32989/history",
+    "milestones": [
+      {
+        "date": "2015-03",
+        "text": "アンジェスMG（現アンジェス）から機能性ペプチド（SR-0379等）の知的財産権の移転を受ける",
+        "source": "https://edinetdb.jp/company/E32989/history"
+      },
+      {
+        "date": "2015-10",
+        "text": "塩野義製薬とSR-0379に関するライセンス契約を締結",
+        "source": "https://edinetdb.jp/company/E32989/history"
+      },
+      {
+        "date": "2018-07",
+        "text": "塩野義製薬が皮膚潰瘍を対象とする日本での第II相試験を開始",
+        "source": "https://edinetdb.jp/company/E32989/history"
+      },
+      {
+        "date": "2021-06",
+        "text": "皮膚潰瘍を対象とする日本での第III相試験を開始",
+        "source": "https://edinetdb.jp/company/E32989/history"
+      },
+      {
+        "date": "2024-12",
+        "text": "追加第III相試験を開始",
+        "source": "https://edinetdb.jp/company/E32989/history"
+      }
+    ]
   },
   {
     "id": "b-ffe80a4a",
@@ -50099,7 +51091,7 @@
     "category": "medical-dx",
     "description": "ベトナムの医療機関向けWEBシステム。10〜15項目に答える事前問診で患者の状態を把握し、定期通院患者の日々の経過を健康チェックで医師に届けて、診察時の口頭問診を減らす。",
     "hp": "https://leabio.net/business/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000093550.html",
@@ -50107,7 +51099,9 @@
       "https://leabio.net/business/"
     ],
     "type": "web-ai-monshin",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-07",
+    "startBasis": "発表（『サービス開始に伴い』ベトナム法人を設立し、ベトナム医療機関とMOUを締結したと発表）"
   },
   {
     "id": "b-c808a98d",
@@ -50176,7 +51170,9 @@
       "http://unitedimmunity.co.jp/"
     ],
     "type": "gene-nucleic-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2019-01",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000041228.html"
   },
   {
     "id": "b-432713a9",
@@ -50384,13 +51380,28 @@
     "category": "medical-management-support",
     "description": "戦略マップによる経営戦略策定、評価・報酬など組織づくり、自費診療のカウンセリング体制構築、新卒・中途の採用支援を歯科特化で行う。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000066370.html",
       "https://sabu.work/service/"
     ],
     "type": "healthcare-consulting",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2020-09",
+    "startBasis": "正式提供開始（歯科・クリニック向け診療外業務の改善サービス『SABU』を正式リリース）",
+    "milestones": [
+      {
+        "date": "2020-09",
+        "text": "歯科・クリニック向け診療外業務の改善サービス『SABU』を正式リリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000066370.html"
+      },
+      {
+        "date": "2020-11",
+        "text": "動画制作サービスを開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000066370.html"
+      }
+    ]
   },
   {
     "id": "b-328f6727",
@@ -50629,7 +51640,9 @@
       "http://www.adriakaim.co.jp/development.html"
     ],
     "type": "cardiovascular-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2020-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000043.000025017.html"
   },
   {
     "id": "b-76abe72d",
@@ -50698,7 +51711,9 @@
       "http://medverse.jp/"
     ],
     "type": "doctor-education-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000008.000059351.html"
   },
   {
     "id": "b-3f3500b6",
@@ -50785,7 +51800,9 @@
       "https://hoist-jp.com/home/business/"
     ],
     "type": "cdmo-contract-research",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2023-04",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000059.000051435.html"
   },
   {
     "id": "b-af017f0f",
@@ -50874,7 +51891,9 @@
       "https://www.synplogen.com/about/"
     ],
     "type": "life-science-tools",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2021-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000030.000051734.html"
   },
   {
     "id": "b-9b7f2333",
@@ -50927,7 +51946,9 @@
       "https://www.jimed.jp/"
     ],
     "type": "therapeutic-devices-supplies",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2025-02",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000071.000018580.html"
   },
   {
     "id": "b-25fe9eee",
@@ -50960,7 +51981,9 @@
       "https://horizonillumination.co.jp/clinical/"
     ],
     "type": "next-gen-test-tech",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000109146.html"
   },
   {
     "id": "b-39db9af1",
@@ -50995,7 +52018,9 @@
       "https://logomix.bio/ja"
     ],
     "type": "gene-nucleic-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2021-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000081077.html"
   },
   {
     "id": "b-1bd530e1",
@@ -51136,7 +52161,9 @@
       "https://ghoonuts.com/news/ghoonutspress20241021/"
     ],
     "type": "therapeutic-devices-supplies",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2021-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000089676.html"
   },
   {
     "id": "b-031fa25e",
@@ -51231,7 +52258,9 @@
       "https://www.f-med.co.jp/"
     ],
     "type": "surgical-robot",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-04",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000098074.html"
   },
   {
     "id": "b-5a1acac6",
@@ -51305,7 +52334,9 @@
       "https://prtimes.jp/main/html/rd/p/000000002.000111259.html"
     ],
     "type": "d2c-healthy-meal-delivery",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000111259.html"
   },
   {
     "id": "b-87c7079b",
@@ -51379,7 +52410,9 @@
       "https://reent.co.jp/technology"
     ],
     "type": "regenerative-cell-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000110223.html"
   },
   {
     "id": "b-6d9b5e54",
@@ -51468,7 +52501,9 @@
       "https://prtimes.jp/main/html/rd/p/000000017.000074104.html"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000074104.html"
   },
   {
     "id": "b-3078d27e",
@@ -51545,7 +52580,9 @@
       "https://www.pref.fukuoka.lg.jp/press-release/feliqs-clinicaltrial-usa.html"
     ],
     "type": "innovative-drug-maker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2025-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000108113.html"
   },
   {
     "id": "b-3935fea0",
@@ -51579,7 +52616,9 @@
       "https://conexi.co.jp/chokowa/"
     ],
     "type": "care-spot-work",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000073117.html"
   },
   {
     "id": "b-e3fc3142",
@@ -51611,7 +52650,9 @@
       "https://conexi.co.jp/consulting/"
     ],
     "type": "visiting-nursing-bpo",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000073117.html"
   },
   {
     "id": "b-844380f2",
@@ -52000,10 +53041,31 @@
     "endReasonNote": "インテージヘルスケアは強みの「データの価値化」に経営資源を集中するため、マーケティングリサーチ・データサイエンス事業に絞り、CRO事業を新設分割しArkMSとしてアルフレッサHDに譲渡したと説明。",
     "lessons": "データ・リサーチ会社にとってCROは人手中心の受託事業で、強みとの相乗が薄いと判断されれば切り出し対象になる。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000037.000001551.html",
+      "https://prtimes.jp/main/html/rd/p/000000422.000001551.html",
       "https://www.intage-healthcare.co.jp/news/d20240617/"
     ],
     "type": "full-service-cro",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2010-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000037.000001551.html",
+    "milestones": [
+      {
+        "date": "2010-09",
+        "text": "インテージグループのアスクレップ（CRO）が中国に現地法人を設立",
+        "source": "https://prtimes.jp/main/html/rd/p/000000037.000001551.html"
+      },
+      {
+        "date": "2018-10",
+        "text": "アスクレップとアンテリオが経営統合に向けて新社名（インテージヘルスケア）を発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000422.000001551.html"
+      },
+      {
+        "date": "2024-06",
+        "text": "CRO事業を新設分割したArkMSの全株式をアルフレッサホールディングスへ譲渡すると発表",
+        "source": "https://www.intage-healthcare.co.jp/news/d20240617/"
+      }
+    ]
   },
   {
     "id": "b-6e42dced",
@@ -52258,7 +53320,19 @@
       "https://www.mcgc.com/news_release/pdf/01467/01707.pdf"
     ],
     "type": "innovative-drug-maker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2013-07",
+        "text": "田辺三菱製薬がフィリップモリスインベストメンツと共同でカナダのメディカゴを子会社化することで合意（報道）",
+        "source": "https://www.yakuji.co.jp/entry32090.html"
+      },
+      {
+        "date": "2021-10",
+        "text": "MT-2766の日本での第1/2相試験を開始（報道）",
+        "source": "https://nk.jiho.jp/article/156293"
+      }
+    ]
   },
   {
     "id": "b-b2124857",
@@ -52354,7 +53428,9 @@
       "https://www.mitsubishielectric.co.jp/medigital/news/2025/0717/pdf/20250717.pdf"
     ],
     "type": "pharmacy-erecord-system",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2013-04",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000047.000005179.html"
   },
   {
     "id": "b-24628271",
@@ -52397,14 +53473,17 @@
     "category": "pharmacy-dx",
     "description": "薬局のAI無人受付などでスキャンした処方せん画像をAIが解析し、処方情報をレセコンへ自動反映するサービス。2026年にEMシステムズのレセコンとの連携を始めた。",
     "hp": "https://www.mg-dx.co.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000027.000093498.html",
       "https://www.mg-dx.co.jp/news/posts/f21Gmm1c",
       "https://www.medical-jpn.jp/tokyo/ja-jp/search/mj-tokyo202610/product/product-details.exh-98fec8b3-5601-47c0-a62c-c5a23ca444e5.pro-fdc391ca-f8de-4fac-9f80-f29f135200a7.html"
     ],
     "type": "prescription-input-service",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2025-06",
+    "startBasis": "正式提供開始（オンライン調剤サービス『薬急便』で処方せん有効期限を自動判別する自社開発AI-OCRを提供開始）"
   },
   {
     "id": "b-13bd0396",
@@ -53505,7 +54584,14 @@
       "https://www.konicaminolta.jp/about/release/2013/0726_01_01.html"
     ],
     "type": "imaging-modality",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2013-07",
+        "text": "パナソニック ヘルスケアがコニカミノルタと超音波診断機器事業の譲渡契約を締結",
+        "source": "https://www.phchd.com/jp/phc/news/2013/0726"
+      }
+    ]
   },
   {
     "id": "b-d594d6b9",
@@ -53708,7 +54794,9 @@
       "https://mdnt.co.jp/ms/"
     ],
     "type": "pharmacy-clinic-signage",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2013-08",
+    "knownSinceSource": "https://www.atpress.ne.jp/news/37933"
   },
   {
     "id": "b-f1a5d60e",
@@ -53752,7 +54840,9 @@
       "https://wellness-news.co.jp/posts/241211-1/"
     ],
     "type": "clinic-chain-operation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2016-10",
+    "knownSinceSource": "https://www.value-press.com/pressrelease/171648"
   },
   {
     "id": "b-dd832f3b",
