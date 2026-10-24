@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/monthly.json data/candidates.json data/disclosures.json data/earnings.json
+          git add data/news.json data/monthly.json data/candidates.json data/disclosures.json data/earnings.json data/updates.json
           if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
           git commit -m "データ更新: ニュース・月刊ヘルステック・適時開示と決算・企業の追加候補（自動）"
           git pull --rebase origin main && git push origin HEAD:main

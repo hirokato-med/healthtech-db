@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import {
   categoryName, fmtDate, getArticles, getCategories, getCompanies, getFeaturedCompanies, getNews, getOverseas, getPeople, getServices,
-  episodeHeadline, getMonthly, monthLabel, ytThumb, YT_SUBSCRIBE, END_REASONS, STOPPED, getThemes, servicesInTheme,
+  episodeHeadline, getMonthly, getUpdates, monthLabel, ytThumb, YT_SUBSCRIBE, END_REASONS, STOPPED, getThemes, servicesInTheme,
 } from '@/lib/data';
 import { withBase } from '@/lib/base';
 import { SITE_NAME } from '@/lib/site';
+import { UpdateList } from '@/components/UpdateList';
 
 const HOT = ['オンライン診療', '医療機関DX', 'PHR', 'フェムテック', '健康経営', 'メンタルヘルス', 'AI', '上場'];
 const AXIS = {
@@ -38,6 +39,8 @@ export default function Home() {
   const episodes = getMonthly();
   const latest = episodes[0];
   const featured = getFeaturedCompanies().slice(0, 6);
+  const updates = getUpdates();
+  const lastUpdate = updates[0]?.date;
   // 今回の更新で新しく収録した会社のうち、注目理由（資金調達・承認など）が書けたものを創業の新しい順に
   const fresh = companies
     .filter((c) => c.source.startsWith('Healthtech DB 編集部調べ') && c.highlight && (c.foundedYear ?? 0) >= 2018 && !['閉鎖', '合併', '活動停止', '対象外'].includes(c.exit))
@@ -103,6 +106,19 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ---------- データの更新 ---------- */}
+      {updates.length > 0 && (
+        <section className="band tight bleed upd-band">
+          <div className="container">
+            <div className="sec-title">
+              <h2>データの更新<small className="sec-sub">最終更新 {lastUpdate?.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, y, m, d) => `${y}年${Number(m)}月${Number(d)}日`)}</small></h2>
+              <Link href="/updates/" className="more arrow">更新履歴をすべて見る</Link>
+            </div>
+            <UpdateList items={updates.slice(0, 5)} now={lastUpdate ?? ''} compact />
+          </div>
+        </section>
+      )}
 
       {/* ---------- 編集部の注目 ---------- */}
       <section className="band bleed">

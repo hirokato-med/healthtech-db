@@ -26,7 +26,7 @@ export default function EarningsPage() {
   // 大手企業のヘルスケア事業（ヘルスケアに関わるセグメントだけを取り出す）
   const majorHc = listed
     .filter((c) => c.major)
-    .map((c) => { const r = latestWithSegments(earnings[c.id] ?? []); const h = healthcareOf(r); return r && h && !h.whole && h.revenue != null ? { c, r, h } : undefined; })
+    .map((c) => { const rs = earnings[c.id] ?? []; const r = rs.find((x) => x.quarter === 'FY' && x.segments?.length) ?? latestWithSegments(rs); const h = healthcareOf(r); return r && h && !h.whole && h.revenue != null ? { c, r, h } : undefined; })
     .filter((x): x is NonNullable<typeof x> => Boolean(x))
     .sort((a, b) => (b.h.revenue ?? 0) - (a.h.revenue ?? 0));
 
@@ -55,7 +55,7 @@ export default function EarningsPage() {
       {majorHc.length > 0 && (
         <section id="major-hc" className="ma-sec">
           <h2>大手企業のヘルスケア事業</h2>
-          <p className="muted small">事業の多い大手は、全社ではなくヘルスケアに関わるセグメントの数字を取り出しています（決算短信のセグメント情報。四半期は期初からの累計）。</p>
+          <p className="muted small">事業の多い大手は、全社ではなくヘルスケアに関わるセグメントの数字を取り出しています（決算短信のセグメント情報。くらべやすいよう直近の通期で、四半期の数字は各社の決算ページにあります）。ヘルスケア単独のセグメントが無い会社（通信・商社など）は載せていません。</p>
           <div className="earn-wrap">
             <table className="earn-table">
               <thead><tr><th>会社</th><th>ヘルスケアに関わるセグメント</th><th>売上高</th><th>前年同期比</th><th>セグメント利益</th><th>全社売上に占める割合</th><th>決算期</th></tr></thead>

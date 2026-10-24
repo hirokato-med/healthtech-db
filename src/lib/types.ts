@@ -208,3 +208,6 @@ export type EarningsReport = {
 export type Segment = { name: string; revenue?: number; profit?: number; priorRevenue?: number; priorProfit?: number; healthcare?: boolean };
 /** 適時開示（TDnet） */
 export type Disclosure = { date: string; time: string; companyId: string; company: string; code: string; title: string; kind: string; pdf: string; xbrl?: string };
+
+/** データの更新履歴（トップの「データの更新」と /updates/） */
+export type UpdateEntry = { date: string; kind: string; title: string; body?: string; href?: string; links?: { label: string; href: string }[]; key?: string };

@@ -32,7 +32,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const deals = getPartnerships().filter((p) => myNames.includes(nm(p.from)) || myNames.includes(nm(p.to)));
   const stoppedCount = services.filter((s) => STOPPED.includes(s.status)).length;
   const latestRep = reports[0];
-  const segRep = latestWithSegments(reports);
+  const segRep = reports.find((r) => r.quarter === 'FY' && r.segments?.length) ?? latestWithSegments(reports);
   const hc = healthcareOf(segRep);
   const fund = getFundings()[c.id];
   const fs = fundingSummary(fund);

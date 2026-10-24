@@ -25,6 +25,15 @@ const nm = (s = '') => s.normalize('NFKC').replace(/株式会社|ホールディ
 const asOf = new Date().toISOString().slice(0, 7);
 const empty = (v) => v == null || v === '' || (Array.isArray(v) && !v.length);
 
+// ヘルスケアに関わるセグメントとして扱う名前。ヘルスケア単独のセグメントが無い会社（通信・商社など）で、
+// 食品・通信などとまとめたセグメント全体をヘルスケアとして数えないようにする
+const HC = /ヘルスケア|医療|医薬|メディカル|介護|ライフサイエンス|薬|調剤|ニュートラシューティカルズ|ヘルスサイエンス|DSB/;
+const hcFix = (company, reports) => {
+  const whole = (company.healthcareSegments ?? []).includes('全社');
+  for (const r of reports ?? []) for (const s of r.segments ?? []) if (s.healthcare && !whole && !HC.test(s.name)) delete s.healthcare;
+  if (!whole) company.healthcareSegments = (company.healthcareSegments ?? []).filter((n) => HC.test(n));
+};
+
 let added = 0, filled = 0, skipped = [];
 const earnings = [];
 for (const f of process.argv.slice(2)) {
@@ -32,6 +41,7 @@ for (const f of process.argv.slice(2)) {
     const c = x.company ?? {};
     const id = String(c.corporateNumber ?? '').replace(/\D/g, '');
     if (id.length !== 13) { skipped.push(`${c.name ?? x.code}（法人番号なし）`); continue; }
+    hcFix(c, x.reports);
     const market = x.market ? `東証${x.market.replace(/^東証/, '')}` : undefined;
     const rec = {
       id,

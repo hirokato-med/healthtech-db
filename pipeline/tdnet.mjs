@@ -15,6 +15,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { addUpdate, todayJst } from './lib/updates.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const P = (f) => path.join(ROOT, 'data', f);
@@ -30,6 +31,7 @@ const companies = load(P('companies.json'), []);
 const byCode = new Map(companies.filter((c) => c.securitiesCode).map((c) => [c.securitiesCode.toUpperCase() + '0', c]));
 const disclosures = load(P('disclosures.json'), []);
 const earnings = load(P('earnings.json'), {});
+const newReports = [];
 const seen = new Set(disclosures.map((d) => d.pdf));
 
 const text = (s) => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(n)).trim();
@@ -129,6 +131,7 @@ for (let i = 0; i < days; i++) {
         if (!e.reports.some((p) => p.pdf === r.pdf)) {
           e.reports.push({ ...periodOf(r.title), date, title: r.title, ...x, pdf: r.pdf, source: 'TDnet XBRL' });
           e.reports.sort((a, b) => b.date.localeCompare(a.date));
+          newReports.push({ id: c.id, name: c.name, label: periodOf(r.title).label });
           parsed++;
         }
       }
@@ -139,4 +142,12 @@ for (let i = 0; i < days; i++) {
 disclosures.sort((a, b) => (b.date + b.time).localeCompare(a.date + a.time));
 fs.writeFileSync(P('disclosures.json'), JSON.stringify(disclosures, null, 1) + '\n');
 fs.writeFileSync(P('earnings.json'), JSON.stringify(earnings, null, 1) + '\n');
+// 新しく入った決算をトップの「データの更新」に載せる（同じ日の分は1件にまとめる）
+if (newReports.length) {
+  const short = (n) => n.replace(/^株式会社|株式会社$/g, '');
+  addUpdate(
+    { date: todayJst(), kind: '決算', key: 'tdnet-earnings', href: '/earnings/', body: '決算短信の数字（売上高・営業利益・会社予想）を TDnet から取り込みました。', links: newReports.map((x) => ({ label: `${short(x.name)}（${x.label ?? '決算'}）`, href: `/earnings/${x.id}/` })) },
+    (links) => `決算 ${links.length}件を更新：${links.slice(0, 3).map((l) => l.label.replace(/（.*$/, '')).join('、')}${links.length > 3 ? ' ほか' : ''}`,
+  );
+}
 console.error(`TDnet: 過去${days}日 / 対象 ${byCode.size} 社 / 新しい開示 ${added} 件 / 決算短信の数字 ${parsed} 件`);
