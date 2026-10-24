@@ -58,6 +58,8 @@ for (const f of files) {
       startedYear: /^\d{4}/.test(x.startedAt ?? '') ? Number(x.startedAt.slice(0, 4)) : null,
       status,
       ...(x.startedAt ? { startedAt: x.startedAt } : {}),
+      ...(x.startedAt && x.startBasis ? { startBasis: x.startBasis } : {}),
+      ...(!x.startedAt && x.knownSince ? { knownSince: x.knownSince } : {}),
       ...(x.endedAt ? { endedAt: x.endedAt } : {}),
       ...(x.successor ? { successor: x.successor } : {}),
       ...(x.milestones?.length ? { milestones: x.milestones.filter((m) => m.text).sort((a, b) => (a.date || '').localeCompare(b.date || '')) } : {}),
