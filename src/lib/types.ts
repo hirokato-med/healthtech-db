@@ -34,6 +34,12 @@ export type Company = {
   formerNames?: string[];
   /** 略称・旧表記（検索用） */
   aliases?: string[];
+  /** 大手企業（ヘルステック企業の提携・M&A相手としての掲載） */
+  major?: boolean;
+  /** ヘルスケアに関わる主なグループ会社（提携・M&Aの記録をこの会社にまとめるのにも使う） */
+  groupCompanies?: string[];
+  /** ヘルスケアに関わるセグメント名（決算短信のセグメント名。全社がヘルスケアなら「全社」） */
+  healthcareSegments?: string[];
   /** 吸収合併で消滅した会社の合併先（exit が「合併」のとき） */
   mergedInto?: { name: string; corporateNumber: string; companyId?: string };
   /** 合併などで法人が入れ替わった場合の旧法人番号（until は消滅した年月） */
@@ -191,9 +197,14 @@ export type EarningsReport = {
   forecast?: Figures;
   /** 通期決算のときの次期予想 */
   nextForecast?: Figures;
+  /** セグメント別（百万円。四半期は累計） */
+  segments?: Segment[];
+  /** セグメント利益の呼び方（コア営業利益、事業利益など） */
+  segmentProfitLabel?: string;
   pdf?: string;
   source?: string;
   note?: string;
 };
+export type Segment = { name: string; revenue?: number; profit?: number; priorRevenue?: number; priorProfit?: number; healthcare?: boolean };
 /** 適時開示（TDnet） */
 export type Disclosure = { date: string; time: string; companyId: string; company: string; code: string; title: string; kind: string; pdf: string; xbrl?: string };

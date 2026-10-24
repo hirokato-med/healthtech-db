@@ -896,3 +896,23 @@ img.kato-mark { object-fit: cover; padding: 0; background: var(--navy-soft); }
 .fund-bar { height: 6px; border-radius: 3px; background: #d08a2c; margin-top: 4px; }
 .fund-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; }
 @media (max-width: 760px) { .fund-kpi, .fund-cols { grid-template-columns: 1fr; } }
+
+/* セグメント別・大手 */
+.seg-toggle { display: inline-flex; border: 1px solid var(--line-2); border-radius: 8px; overflow: hidden; }
+.seg-toggle button { height: 44px; padding: 0 14px; border: 0; background: var(--card); color: var(--ink); font: inherit; font-size: 13.5px; font-weight: 700; cursor: pointer; }
+.seg-toggle button + button { border-left: 1px solid var(--line-2); }
+.seg-toggle button.on { background: var(--navy); color: #fff; }
+.seg-toggle button span { margin-left: 6px; font-size: 12px; opacity: .75; }
+.ecomp small.hc-line { color: var(--teal); font-weight: 700; }
+.seg-stack { display: flex; gap: 2px; height: 30px; margin: 0 0 12px; border-radius: 6px; overflow: hidden; }
+.seg-stack span { min-width: 3px; background: #c9d3e1; color: var(--ink); font-size: 11.5px; font-weight: 700; display: flex; align-items: center; justify-content: center; white-space: nowrap; overflow: hidden; padding: 0 4px; }
+.seg-stack span.hc { background: var(--teal); color: #fff; }
+.seg-table tr.hc td { background: #eef7f7; }
+.seg-table tr.hc td:first-child { font-weight: 700; }
+.hc-tag { font-style: normal; font-size: 10.5px; font-weight: 700; color: #fff; background: var(--teal); border-radius: 4px; padding: 1px 6px; margin-left: 6px; vertical-align: 1px; }
+.h2-sub { display: block; font-size: 13px; font-weight: 500; color: var(--muted); margin-top: 4px; }
+.seg-more { margin-top: 10px; }
+.seg-more summary { cursor: pointer; font-weight: 700; font-size: 13.5px; color: var(--navy); margin-bottom: 10px; }
+.share-bar { display: inline-block; width: 60px; height: 6px; background: var(--line); border-radius: 3px; margin-right: 8px; vertical-align: middle; overflow: hidden; }
+.share-bar i { display: block; height: 100%; background: var(--teal); }
+.badge.major { background: #fbeedb; color: #a8661b; }

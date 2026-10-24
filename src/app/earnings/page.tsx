@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { EarningsTable } from '@/components/EarningsTable';
 import { getCategories, getCompanies, getDisclosures, getEarnings } from '@/lib/data';
-import { type EarningsRow, money, pct, yoy } from '@/lib/earnings';
+import { type EarningsRow, change, healthcareOf, latestWithSegments, money, pct, yoy } from '@/lib/earnings';
 
 export const metadata: Metadata = {
   title: '上場ヘルスケア企業の決算',
@@ -15,7 +15,7 @@ export default function EarningsPage() {
   const catName = Object.fromEntries(getCategories().map((c) => [c.slug, c.name]));
   const rows: EarningsRow[] = listed.map((c) => {
     const rs = earnings[c.id] ?? [];
-    return { id: c.id, name: c.name, code: c.securitiesCode!, market: c.listedMarket ?? '', category: c.categories[0] ?? '', latest: rs[0], fy: rs.find((r) => r.quarter === 'FY') };
+    return { id: c.id, name: c.name, code: c.securitiesCode!, market: c.listedMarket ?? '', category: c.categories[0] ?? '', latest: rs[0], fy: rs.find((r) => r.quarter === 'FY'), major: c.major };
   });
   const recent = Object.entries(earnings)
     .flatMap(([id, rs]) => rs.map((r) => ({ id, r, name: listed.find((c) => c.id === id)?.name ?? '' })))
@@ -23,6 +23,12 @@ export default function EarningsPage() {
     .slice(0, 12);
   const disclosures = getDisclosures().slice(0, 60);
   const withData = rows.filter((r) => r.latest).length;
+  // 大手企業のヘルスケア事業（ヘルスケアに関わるセグメントだけを取り出す）
+  const majorHc = listed
+    .filter((c) => c.major)
+    .map((c) => { const r = latestWithSegments(earnings[c.id] ?? []); const h = healthcareOf(r); return r && h && !h.whole && h.revenue != null ? { c, r, h } : undefined; })
+    .filter((x): x is NonNullable<typeof x> => Boolean(x))
+    .sort((a, b) => (b.h.revenue ?? 0) - (a.h.revenue ?? 0));
 
   return (
     <>
@@ -35,6 +41,7 @@ export default function EarningsPage() {
         </p>
         <nav className="reason-index" style={{ marginTop: 14 }}>
           <a href="#list">決算一覧<span>{withData}/{listed.length}社</span></a>
+          {majorHc.length > 0 && <a href="#major-hc">大手のヘルスケア事業<span>{majorHc.length}</span></a>}
           <a href="#recent">直近の決算発表<span>{recent.length}</span></a>
           <a href="#disclosures">適時開示の新着<span>{disclosures.length}</span></a>
         </nav>
@@ -44,6 +51,34 @@ export default function EarningsPage() {
         <h2>決算一覧</h2>
         <EarningsTable rows={rows} catName={catName} />
       </section>
+
+      {majorHc.length > 0 && (
+        <section id="major-hc" className="ma-sec">
+          <h2>大手企業のヘルスケア事業</h2>
+          <p className="muted small">事業の多い大手は、全社ではなくヘルスケアに関わるセグメントの数字を取り出しています（決算短信のセグメント情報。四半期は期初からの累計）。</p>
+          <div className="earn-wrap">
+            <table className="earn-table">
+              <thead><tr><th>会社</th><th>ヘルスケアに関わるセグメント</th><th>売上高</th><th>前年同期比</th><th>セグメント利益</th><th>全社売上に占める割合</th><th>決算期</th></tr></thead>
+              <tbody>
+                {majorHc.map(({ c, r, h }) => {
+                  const g = change(h.revenue, h.priorRevenue);
+                  return (
+                    <tr key={c.id}>
+                      <td className="ecomp"><Link href={`/earnings/${c.id}/`}>{c.name.replace(/^株式会社|株式会社$/g, '')}</Link><small>{c.securitiesCode}・{c.industry33}</small></td>
+                      <td>{h.names.join('、')}</td>
+                      <td className="num">{money(h.revenue)}</td>
+                      <td className={`num ${g.tone}`}>{g.text}</td>
+                      <td className={`num ${(h.profit ?? 0) < 0 ? 'down' : ''}`}>{money(h.profit)}</td>
+                      <td className="num">{h.share != null ? <><span className="share-bar"><i style={{ width: `${Math.min(100, h.share)}%` }} /></span>{h.share.toFixed(1)}%</> : '—'}</td>
+                      <td className="nw">{r.label.replace(/（中間期）/, '')}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
 
       {recent.length > 0 && (
         <section id="recent" className="ma-sec">

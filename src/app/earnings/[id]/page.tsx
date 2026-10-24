@@ -3,8 +3,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { EarningsBars } from '@/components/EarningsBars';
 import { EarningsSummary } from '@/components/EarningsSummary';
+import { SegmentTable } from '@/components/SegmentTable';
 import { getCompanies, getCompany, getDisclosures, getEarnings } from '@/lib/data';
-import { forecastLabel, forecastOf, margin, money, pct, yoy } from '@/lib/earnings';
+import { forecastLabel, forecastOf, latestWithSegments, margin, money, pct, yoy } from '@/lib/earnings';
 import type { EarningsReport, Figures } from '@/lib/types';
 
 export function generateStaticParams() {
@@ -50,6 +51,8 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
     const fig = before ? (before.quarter === 'FY' ? before.nextForecast : before.forecast) : undefined;
     return before && fig ? { label: `${before.date.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, y, m, d) => `${y}年${Number(m)}月${Number(d)}日`)}公表の予想`, fig } : undefined;
   })();
+  const segRep = latestWithSegments(reports);
+  const segFy = segRep && segRep.quarter !== 'FY' ? reports.find((r) => r.quarter === 'FY' && r.segments?.length) : undefined;
   const docs = disclosures.filter((d) => ['決算短信', '決算説明資料', '業績予想・配当'].includes(d.kind));
 
   return (
@@ -67,6 +70,19 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
             <h2>決算の概要</h2>
             <EarningsSummary r={latest} prevForecast={prevFc} />
           </section>
+
+          {segRep && (
+            <section className="ma-sec" style={{ marginTop: 0 }}>
+              <h2>セグメント別{c.healthcareSegments?.length && !c.healthcareSegments.includes('全社') ? <small className="h2-sub">ヘルスケアに関わる事業：{c.healthcareSegments.join('、')}</small> : null}</h2>
+              <SegmentTable r={segRep} />
+              {segFy && (
+                <details className="seg-more">
+                  <summary>{segFy.label} のセグメント別を見る</summary>
+                  <SegmentTable r={segFy} />
+                </details>
+              )}
+            </section>
+          )}
 
           <section className="earn-kpi">
             <div><span>直近の決算</span><b>{latest.label.replace(/（中間期）/, '')}</b><small>{latest.date.replace(/-/g, '/')} 発表{latest.consolidated === false ? '・個別' : ''}</small></div>

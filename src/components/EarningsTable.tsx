@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
-import { type EarningsRow, forecastLabel, forecastOf, margin, money, pct, yoy } from '@/lib/earnings';
+import { type EarningsRow, forecastLabel, forecastOf, healthcareOf, margin, money, pct, yoy } from '@/lib/earnings';
 
 type Key = 'revenue' | 'growth' | 'op' | 'margin' | 'date' | 'code';
 const MARKETS = ['東証プライム', '東証スタンダード', '東証グロース'];
@@ -11,6 +11,8 @@ export function EarningsTable({ rows, catName }: { rows: EarningsRow[]; catName:
   const [key, setKey] = useState<Key>('revenue');
   const [desc, setDesc] = useState(true);
   const [market, setMarket] = useState('');
+  const [kind, setKind] = useState<'tech' | 'major' | 'all'>('tech');
+  const nMajor = rows.filter((r) => r.major).length;
   const val = (r: EarningsRow): number | string | null => {
     const c = r.latest?.current, p = r.latest?.prior;
     switch (key) {
@@ -23,7 +25,7 @@ export function EarningsTable({ rows, catName }: { rows: EarningsRow[]; catName:
     }
   };
   const list = useMemo(() => {
-    const xs = rows.filter((r) => !market || r.market === market);
+    const xs = rows.filter((r) => (!market || r.market === market) && (kind === 'all' || (kind === 'major') === Boolean(r.major)));
     return [...xs].sort((a, b) => {
       const x = val(a), y = val(b);
       if (x == null && y == null) return a.code.localeCompare(b.code);
@@ -33,7 +35,7 @@ export function EarningsTable({ rows, catName }: { rows: EarningsRow[]; catName:
       return desc ? -d : d;
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [rows, key, desc, market]);
+  }, [rows, key, desc, market, kind]);
   const th = (k: Key, label: string) => (
     <th className={`sortable${key === k ? ' on' : ''}`} onClick={() => (key === k ? setDesc(!desc) : (setKey(k), setDesc(k !== 'code')))}>
       {label}{key === k ? (desc ? ' ▼' : ' ▲') : ''}
@@ -43,6 +45,13 @@ export function EarningsTable({ rows, catName }: { rows: EarningsRow[]; catName:
   return (
     <>
       <div className="filterbar">
+        {nMajor > 0 && (
+          <div className="seg-toggle" role="group" aria-label="区分">
+            <button type="button" className={kind === 'tech' ? 'on' : ''} onClick={() => setKind('tech')}>ヘルステック企業<span>{rows.length - nMajor}</span></button>
+            <button type="button" className={kind === 'major' ? 'on' : ''} onClick={() => setKind('major')}>大手企業<span>{nMajor}</span></button>
+            <button type="button" className={kind === 'all' ? 'on' : ''} onClick={() => setKind('all')}>すべて</button>
+          </div>
+        )}
         <select value={market} onChange={(e) => setMarket(e.target.value)} aria-label="市場">
           <option value="">すべての市場</option>
           {MARKETS.map((m) => <option key={m}>{m}</option>)}
@@ -73,6 +82,7 @@ export function EarningsTable({ rows, catName }: { rows: EarningsRow[]; catName:
                   <td className="ecomp">
                     <Link href={`/earnings/${r.id}/`}>{r.name.replace(/^株式会社|株式会社$/g, '')}</Link>
                     <small>{r.code}・{r.market.replace('東証', '')}{catName[r.category] ? `・${catName[r.category]}` : ''}</small>
+                    {r.major && (() => { const h = healthcareOf(r.latest) ?? healthcareOf(r.fy); return h && !h.whole && h.revenue != null ? <small className="hc-line">ヘルスケア {money(h.revenue)}{h.share != null ? `（${h.share.toFixed(0)}%）` : ''}</small> : null; })()}
                   </td>
                   {r.latest ? (
                     <>

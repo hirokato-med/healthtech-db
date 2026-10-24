@@ -65,7 +65,9 @@ export const findCompanyByName = (name: string): Company | undefined => {
     all.find((c) => {
       const cn = normalizeName(c.name);
       return cn.length >= 4 && n.length >= 4 && (cn.includes(n) || n.includes(cn));
-    })
+    }) ??
+    // 大手のグループ会社（例：大塚製薬 → 大塚ホールディングス）
+    all.find((c) => c.groupCompanies?.some((a) => normalizeName(a) === n))
   );
 };
 

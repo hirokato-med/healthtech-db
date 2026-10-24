@@ -1,4 +1,4 @@
-import type { EarningsReport, Figures } from './types';
+import type { EarningsReport, Figures, Segment } from './types';
 
 /** 百万円 → 「12.3億円」「850百万円」「1,234億円」 */
 export const money = (v?: number) => {
@@ -24,7 +24,29 @@ export type EarningsRow = {
   category: string;
   latest?: EarningsReport;
   fy?: EarningsReport;
+  /** 大手企業か */
+  major?: boolean;
 };
+
+/** ヘルスケアに関わるセグメントの合計と、全セグメントの売上に占める割合 */
+export const healthcareOf = (r?: EarningsReport) => {
+  const segs = r?.segments ?? [];
+  const hc = segs.filter((s) => s.healthcare);
+  if (!hc.length) return undefined;
+  const sum = (xs: Segment[], k: keyof Segment) => (xs.every((x) => typeof x[k] === 'number') ? xs.reduce((a, x) => a + (x[k] as number), 0) : undefined);
+  const revenue = sum(hc, 'revenue'), all = sum(segs, 'revenue');
+  return {
+    names: hc.map((s) => s.name),
+    revenue,
+    profit: sum(hc, 'profit'),
+    priorRevenue: sum(hc, 'priorRevenue'),
+    priorProfit: sum(hc, 'priorProfit'),
+    share: revenue != null && all ? (revenue / all) * 100 : null,
+    whole: hc.length === segs.length,
+  };
+};
+/** セグメントがある直近の決算 */
+export const latestWithSegments = (reports: EarningsReport[]) => reports.find((r) => r.segments?.length);
 /** 会社予想（四半期なら当期の通期予想、通期なら次期予想） */
 export const forecastOf = (r?: EarningsReport) => (r ? (r.quarter === 'FY' ? r.nextForecast : r.forecast) : undefined);
 export const forecastLabel = (r?: EarningsReport) => {

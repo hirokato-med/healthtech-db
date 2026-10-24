@@ -6,7 +6,7 @@ import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
 import { STOPPED, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
-import { forecastLabel, forecastOf, money, pct, yoy } from '@/lib/earnings';
+import { forecastLabel, forecastOf, healthcareOf, latestWithSegments, money, pct, yoy } from '@/lib/earnings';
 import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
 import { EarningsBars } from '@/components/EarningsBars';
 
@@ -28,10 +28,12 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const reports = getEarnings()[c.id] ?? [];
   // ヒト・モノ・カネの要約に使う
   const nm = (x: string) => x.normalize('NFKC').replace(/株式会社|ホールディングス|\s/g, '');
-  const myNames = [c.name, ...(c.aliases ?? []), ...(c.formerNames ?? [])].map(nm);
+  const myNames = [c.name, ...(c.aliases ?? []), ...(c.formerNames ?? []), ...(c.groupCompanies ?? [])].map(nm);
   const deals = getPartnerships().filter((p) => myNames.includes(nm(p.from)) || myNames.includes(nm(p.to)));
   const stoppedCount = services.filter((s) => STOPPED.includes(s.status)).length;
   const latestRep = reports[0];
+  const segRep = latestWithSegments(reports);
+  const hc = healthcareOf(segRep);
   const fund = getFundings()[c.id];
   const fs = fundingSummary(fund);
   const funding = c.totalFunding || (c.history ?? []).filter((h) => /資金調達|第三者割当|億円を調達|調達を実施|出資を受け/.test(h.text)).slice(-1).map((h) => `${h.date?.slice(0, 7).replace('-', '年')}月 ${h.text}`)[0];
@@ -54,7 +56,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
         <Link href="/">トップ</Link> / <Link href="/companies/">企業</Link> / <span>{c.name}</span>
       </nav>
       <div className="page-head">
-        <div className="kicker">Company</div>
+        <div className="kicker">Company{c.major ? <span className="badge major" style={{ marginLeft: 8 }}>大手企業</span> : null}</div>
         <h1>{c.name}</h1>
         <div style={{ marginTop: 10 }}>
           <Chips slugs={c.categories} />
@@ -90,7 +92,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           <dl>
             <dt>資本</dt><dd>{c.exit === '上場' ? `上場（${c.listedMarket ?? ''}${c.securitiesCode ? `・${c.securitiesCode}` : ''}）` : c.exit}{c.parentCompany ? <small>親会社：{c.parentCompany}</small> : null}</dd>
             {latestRep ? (
-              <><dt>業績</dt><dd>売上高 {money(latestRep.current?.revenue)}／営業利益 {money(latestRep.current?.operatingIncome)}<small>{latestRep.label.replace(/（中間期）/, '')}</small></dd></>
+              <><dt>業績</dt><dd>売上高 {money(latestRep.current?.revenue)}{latestRep.current?.operatingIncome != null ? `／営業利益 ${money(latestRep.current.operatingIncome)}` : ''}<small>{latestRep.label.replace(/（中間期）/, '')}</small></dd>
+              {hc && !hc.whole && hc.revenue != null ? <><dt>ヘルスケア</dt><dd><Link href={`/earnings/${c.id}/`}>{money(hc.revenue)}</Link>{hc.share != null ? `（全社の${hc.share.toFixed(0)}%）` : ''}<small>{hc.names.join('、')}・{segRep!.label.replace(/（中間期）/, '')}</small></dd></> : null}</>
             ) : fs?.total?.kind === '会社発表の累計' ? (
               <><dt>資金調達</dt><dd><a href="#funding">累計 {money(fs.total.amount)}</a><small>会社発表{fs.total.asOf ? `（${ymJa(fs.total.asOf)}時点）` : ''}・発表 {fs.raises.length}回</small></dd></>
             ) : fs?.total ? (
@@ -331,7 +334,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               {c.origin && (<><dt>成り立ち</dt><dd>{c.origin}</dd></>)}
               {c.parentCompany && (<><dt>親会社</dt><dd>{c.parentCompany.split('、').map((pn, i) => { const pc = findCompanyByName(pn); return <span key={pn}>{i > 0 && '、'}{pc && pc.id !== c.id ? <Link href={`/companies/${pc.id}/`}>{pn}</Link> : pn}</span>; })}{c.parentNote && <span className="small muted">（{c.parentNote}）</span>}</dd></>)}
               {!c.parentCompany && c.parentNote && (<><dt>資本関係</dt><dd className="small">{c.parentNote}</dd></>)}
-              {c.relatedCompanies.length > 0 && (<><dt>関連会社</dt><dd>{c.relatedCompanies.map((n, i) => { const r = findCompanyByName(n); return (<span key={n}>{i > 0 && '、'}{r && r.id !== c.id ? <Link href={`/companies/${r.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
+              {c.major && c.healthcareSegments?.length ? (<><dt>ヘルスケア事業</dt><dd>{c.healthcareSegments.includes('全社') ? '全社（ヘルスケアが本業）' : `セグメント：${c.healthcareSegments.join('、')}`}</dd></>) : null}
+              {c.relatedCompanies.length > 0 && (<><dt>{c.major ? 'グループ会社' : '関連会社'}</dt><dd>{c.relatedCompanies.map((n, i) => { const r = findCompanyByName(n); return (<span key={n}>{i > 0 && '、'}{r && r.id !== c.id ? <Link href={`/companies/${r.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.corporateNumber && (<><dt>法人番号</dt><dd className="mono"><a href={c.corporateNumberUrl || `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=${c.corporateNumber}`} target="_blank" rel="noreferrer">{c.corporateNumber}</a></dd></>)}
               {c.formerCorporateNumbers?.length ? (<><dt>旧法人番号</dt><dd>{c.formerCorporateNumbers.map((f) => (
                 <div key={f.number} className="former-corp"><a className="mono" href={`https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=${f.number}`} target="_blank" rel="noreferrer">{f.number}</a>

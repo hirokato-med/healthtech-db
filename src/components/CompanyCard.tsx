@@ -13,7 +13,7 @@ export function CompanyCard({ c }: { c: Company }) {
       <div className="meta">
         {c.prefecture && <span>{c.prefecture}</span>}
         {c.foundedYear && <span>{c.foundedYear}年創業</span>}
-        <span className={`badge ${c.exit === '上場' ? 'listed' : ['閉鎖', '合併', '活動停止', '対象外'].includes(c.exit) ? 'closed' : ''}`}>{c.exit}</span>
+        <span className={`badge ${c.exit === '上場' ? 'listed' : ['閉鎖', '合併', '活動停止', '対象外'].includes(c.exit) ? 'closed' : ''}`}>{c.exit}</span>{c.major ? <span className="badge major">大手</span> : null}
       </div>
     </article>
   );
