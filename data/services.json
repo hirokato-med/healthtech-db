@@ -14840,6 +14840,7 @@
     ],
     "endReasonNote": "提供中。法人の入れ替えの背景は確認できなかった。",
     "sources": [
+      "https://tryt-group.co.jp/",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9120001182305",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010001254982"
     ],
@@ -15698,7 +15699,7 @@
     "category": "medical-dx",
     "description": "医師2,000名が作成・更新する医学情報データベースと組み合わせたAI問診票。患者の回答から鑑別疾患を示し、初診カルテ作成時間を1/3にするとうたう医療機関向けWEB問診。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "不明",
     "milestones": [
       {
@@ -15723,15 +15724,17 @@
     ],
     "endReasonNote": "終了の告知は見つからない。現在の提供状況は確認できない。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000080023.html",
+      "https://www.premedi.co.jp/",
       "https://www.itreview.jp/products/konnichi-no-monshinhyo/profile",
-      "https://prtimes.jp/main/html/rd/p/000000027.000080023.html",
-      "https://www.premedi.co.jp/"
+      "https://prtimes.jp/main/html/rd/p/000000027.000080023.html"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "ai-symptom"
     ],
-    "type": "web-ai-monshin"
+    "type": "web-ai-monshin",
+    "startedAt": "2021-02"
   },
   {
     "id": "b-9cf6c087",
@@ -16100,7 +16103,7 @@
     "category": "health-consulting",
     "description": "医療情報サイト「Medical Note」の利用者が、テキストで症状などを相談すると、各科の専門医を中心とする医療チームが匿名で回答するオンライン医療相談。保険会社の契約者向けにも提供した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "milestones": [
       {
@@ -16121,6 +16124,7 @@
       }
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000025869.html",
       "https://www.lycorp.co.jp/news/archive/Y/ja/ja20180604_B.pdf",
       "https://medicalnote.jp/features/marine_covid19",
       "https://medicalnote.jp/"
@@ -16129,7 +16133,8 @@
     "themes": [
       "doctor-qa"
     ],
-    "type": "doctor-chat-consultation"
+    "type": "doctor-chat-consultation",
+    "startedAt": "2017-08"
   },
   {
     "id": "b-7c0da576",
@@ -16489,7 +16494,7 @@
     "category": "telemedicine",
     "description": "福利厚生向けのオンライン診療サービス",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "譲渡",
     "endedAt": "2025-08",
     "successor": "株式会社fonfun（東証スタンダード2323）",
@@ -16498,11 +16503,14 @@
     ],
     "endReasonNote": "理由は公表されていない",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000139522.html",
+      "https://portera.jp/",
       "https://www.nihon-ma.co.jp/news/20250805_2323-14/",
       "https://raku-shin.net/"
     ],
     "updatedAt": "2026-10",
-    "type": "telemedicine-direct-to-patient"
+    "type": "telemedicine-direct-to-patient",
+    "startedAt": "2024-04"
   },
   {
     "id": "b-e6659826",
@@ -18107,6 +18115,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.whiteessence.co.jp/company/history/",
       "https://www.whiteessence.co.jp/business/oralcare/"
     ],
     "updatedAt": "2026-10",
@@ -18560,14 +18569,17 @@
     "category": "telemedicine",
     "description": "予約・ビデオ通話・決済を提供。",
     "hp": "https://spinshell.com/business/platform/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000005095.html",
+      "https://prtimes.jp/main/html/rd/p/000000011.000005095.html",
       "https://spinshell.com/company/",
       "https://spinshell.com/business/platform/"
     ],
     "updatedAt": "2026-10",
-    "type": "telemedicine-clinic-system"
+    "type": "telemedicine-clinic-system",
+    "startedAt": "2017-06"
   },
   {
     "id": "b-306ded19",
@@ -19130,6 +19142,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://promed.jp/company/",
       "https://promed.jp/service/service/system.html"
     ],
     "updatedAt": "2026-10",
@@ -19691,13 +19704,15 @@
     "category": "recruting-solutions",
     "description": "",
     "hp": "https://three-sides.co.jp/service",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000057170.html",
       "https://three-sides.co.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-worker-education"
+    "type": "healthcare-worker-education",
+    "startedAt": "2020-05"
   },
   {
     "id": "b-19e85f36",
@@ -21125,13 +21140,15 @@
     "category": "health-consulting",
     "description": "シリーズ累計1,100万DL（2026-03、公式）。",
     "hp": "https://eversense.co.jp/product",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
+      "http://prtimes.jp/main/html/rd/p/000000004.000008105.html",
       "https://eversense.co.jp/product"
     ],
     "updatedAt": "2026-10",
-    "type": "pediatric-perinatal-support"
+    "type": "pediatric-perinatal-support",
+    "startedAt": "2015-08"
   },
   {
     "id": "b-43559f88",
@@ -21141,13 +21158,15 @@
     "category": "health-consulting",
     "description": "",
     "hp": "https://eversense.co.jp/product",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000008105.html",
       "https://eversense.co.jp/product"
     ],
     "updatedAt": "2026-10",
-    "type": "pediatric-perinatal-support"
+    "type": "pediatric-perinatal-support",
+    "startedAt": "2017-03"
   },
   {
     "id": "b-874bedd1",
@@ -21160,6 +21179,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000008105.html",
       "https://eversense.co.jp/product"
     ],
     "updatedAt": "2026-10",
@@ -21173,13 +21193,15 @@
     "category": "health-consulting",
     "description": "",
     "hp": "https://eversense.co.jp/product",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "http://prtimes.jp/main/html/rd/p/000000006.000008105.html",
       "https://eversense.co.jp/product"
     ],
     "updatedAt": "2026-10",
-    "type": "pediatric-perinatal-support"
+    "type": "pediatric-perinatal-support",
+    "startedAt": "2016-05"
   },
   {
     "id": "b-00eab1d2",
@@ -21225,6 +21247,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000040613.html",
       "https://doctorbook.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -21238,7 +21261,7 @@
     "category": "dental",
     "description": "",
     "hp": "https://doctorbook.co.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000031.000040613.html",
@@ -21246,7 +21269,8 @@
       "https://doctorbook.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "dental-clinic-system"
+    "type": "dental-clinic-system",
+    "startedAt": "2025-04"
   },
   {
     "id": "b-80f06ba0",
@@ -21474,13 +21498,15 @@
     "category": "doctor-network",
     "description": "医師会員75,000人超（2026-03リリース）。旧称ヒポクラ×マイナビ。開始時期は確認できず",
     "hp": "https://prtimes.jp/main/html/rd/p/000000066.000015530.html",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000015530.html",
       "https://prtimes.jp/main/html/rd/p/000000066.000015530.html"
     ],
     "updatedAt": "2026-10",
-    "type": "specialist-econsult"
+    "type": "specialist-econsult",
+    "startedAt": "2016-12"
   },
   {
     "id": "b-1d278c47",
@@ -21491,12 +21517,19 @@
     "description": "開始時期は確認できず",
     "hp": "https://prtimes.jp/main/html/rd/p/000000066.000015530.html",
     "startedYear": null,
-    "status": "提供中",
+    "status": "統合",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000015530.html",
+      "http://prtimes.jp/main/html/rd/p/000000004.000015530.html",
       "https://prtimes.jp/main/html/rd/p/000000066.000015530.html"
     ],
     "updatedAt": "2026-10",
-    "type": "specialist-econsult"
+    "type": "specialist-econsult",
+    "endedAt": "2016-12",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "皮膚科領域の医師間遠隔コンサルト『ヒフミル』は、2016-12-22に医療者の臨床互助ツール『ヒポクラ』としてリニューアルされ、名称・サービスとしては同社内で統合された。理由は発表で説明されていない。"
   },
   {
     "id": "b-7c975d4b",
@@ -21506,13 +21539,15 @@
     "category": "doctor-network",
     "description": "開始時期は確認できず",
     "hp": "https://prtimes.jp/main/html/rd/p/000000069.000015530.html",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000041.000015530.html",
       "https://prtimes.jp/main/html/rd/p/000000069.000015530.html"
     ],
     "updatedAt": "2026-10",
-    "type": "specialist-econsult"
+    "type": "specialist-econsult",
+    "startedAt": "2022-05"
   },
   {
     "id": "b-3d94246f",
@@ -22019,13 +22054,15 @@
     "category": "health-consulting",
     "description": "",
     "hp": "http://sesamestreetclinic.org/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
-      "http://sesamestreetclinic.org/"
+      "http://sesamestreetclinic.org/",
+      "https://caps365.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "pediatric-perinatal-support"
+    "type": "pediatric-perinatal-support",
+    "startedAt": "2017-03"
   },
   {
     "id": "b-a9c6f374",
@@ -22727,6 +22764,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000038603.html",
       "https://melody.international/products-service/"
     ],
     "updatedAt": "2026-10",
@@ -22743,6 +22781,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000038603.html",
       "https://melody.international/business/melody-i.html"
     ],
     "updatedAt": "2026-10",
@@ -23061,6 +23100,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "http://prtimes.jp/main/html/rd/p/000000001.000022274.html",
       "https://healthcare-markets.jp/"
     ],
     "updatedAt": "2026-10",
@@ -23206,6 +23246,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000025535.html",
       "https://corp.antaa.jp/business"
     ],
     "updatedAt": "2026-10",
@@ -23383,13 +23424,15 @@
     "category": "recruting-solutions",
     "description": "1ヶ月半で登録2,000名（2025-12告知）",
     "hp": "https://backtech.co.jp/news/20251217/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://backtech.co.jp/news/20251021/",
       "https://backtech.co.jp/news/20251217/"
     ],
     "updatedAt": "2026-10",
-    "type": "specialty-niche-recruiting"
+    "type": "specialty-niche-recruiting",
+    "startedAt": "2025-10"
   },
   {
     "id": "b-acd91c21",
@@ -23623,13 +23666,15 @@
     "category": "telemedicine",
     "description": "2024-01 JICA中小企業・SDGsビジネス支援事業に採択",
     "hp": "https://prtimes.jp/main/html/rd/p/000000076.000033988.html",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000029.000033988.html",
       "https://prtimes.jp/main/html/rd/p/000000076.000033988.html"
     ],
     "updatedAt": "2026-10",
-    "type": "emerging-market-health"
+    "type": "emerging-market-health",
+    "startedAt": "2021-01"
   },
   {
     "id": "b-41a04de9",
@@ -24569,13 +24614,15 @@
     "category": "health-consulting",
     "description": "",
     "hp": "https://octawell.co.jp/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000012.000038293.html",
       "https://octawell.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "nutrition-guidance"
+    "type": "nutrition-guidance",
+    "startedAt": "2020-09"
   },
   {
     "id": "b-98cf771f",
@@ -24791,6 +24838,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000033985.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/33985"
     ],
     "updatedAt": "2026-10",
@@ -25360,13 +25408,15 @@
     "category": "doctor-network",
     "description": "2026-09にSakana AIの日本語LLMを導入",
     "hp": "https://prtimes.jp/main/html/rd/p/000000107.000035813.html",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000103.000035813.html",
       "https://prtimes.jp/main/html/rd/p/000000107.000035813.html"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-clinical-ai-app"
+    "type": "doctor-clinical-ai-app",
+    "startedAt": "2026-05"
   },
   {
     "id": "b-69ce8a62",
@@ -25678,13 +25728,15 @@
     "category": "health-consulting",
     "description": "",
     "hp": "https://mil-inc.com/about/company",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000040.000040785.html",
       "https://mil-inc.com/about/company"
     ],
     "updatedAt": "2026-10",
-    "type": "pediatric-perinatal-support"
+    "type": "pediatric-perinatal-support",
+    "startedAt": "2021-06"
   },
   {
     "id": "b-be665776",
@@ -25697,6 +25749,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000028.000040785.html",
       "https://mil-inc.com/about/company"
     ],
     "updatedAt": "2026-10",
@@ -26550,13 +26603,16 @@
     "category": "medical-dx",
     "description": "導入100病院・利用者7万人突破（2026-02発表）。",
     "hp": "https://medcom.ne.jp/service",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000064723.html",
+      "https://medcom.ne.jp/company",
       "https://medcom.ne.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "clinical-communication"
+    "type": "clinical-communication",
+    "startedAt": "2020-01"
   },
   {
     "id": "b-0dc63cf1",
@@ -26602,6 +26658,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000060898.html",
       "https://medii.jp/"
     ],
     "updatedAt": "2026-10",
@@ -26615,13 +26672,15 @@
     "category": "doctor-network",
     "description": "2025年日経優秀製品・サービス賞 最優秀賞。開始時期は未確認",
     "hp": "https://medii.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000085.000060898.html",
       "https://medii.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-clinical-ai-app"
+    "type": "doctor-clinical-ai-app",
+    "startedAt": "2025-07"
   },
   {
     "id": "b-3e013fb8",
@@ -26833,13 +26892,15 @@
     "category": "telemedicine",
     "description": "受診予約10万回突破（2024-12）。",
     "hp": "https://atlasthealth.co.jp/about/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000067292.html",
       "https://atlasthealth.co.jp/about/"
     ],
     "updatedAt": "2026-10",
-    "type": "telemedicine-direct-to-patient"
+    "type": "telemedicine-direct-to-patient",
+    "startedAt": "2022-06"
   },
   {
     "id": "b-638c30b9",
@@ -26849,13 +26910,15 @@
     "category": "medical-dx",
     "description": "",
     "hp": "https://atlasthealth.co.jp/about/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000067292.html",
       "https://atlasthealth.co.jp/about/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-it-development"
+    "type": "medical-it-development",
+    "startedAt": "2022-01"
   },
   {
     "id": "b-ec20c21d",
@@ -27403,7 +27466,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://www.mtu-inc.com/company"
+      "https://www.mtu-inc.com/company",
+      "https://prtimes.jp/main/html/rd/p/000000009.000057423.html"
     ],
     "updatedAt": "2026-10",
     "type": "specialist-referral"
@@ -27484,13 +27548,15 @@
     "category": "doctor-network",
     "description": "β版LINE版を2024-12に公開。2026-06に個人情報マスキング機能。",
     "hp": "https://nihinmedia.jp/jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000129222.html",
       "https://nihinmedia.jp/jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-clinical-ai-app"
+    "type": "doctor-clinical-ai-app",
+    "startedAt": "2024-10"
   },
   {
     "id": "b-19d0a069",
@@ -27516,13 +27582,16 @@
     "category": "doctor-network",
     "description": "各学会と医療情報発信の包括提携（日本循環器学会等）。",
     "hp": "https://corp.hokuto.app/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000030964.html",
+      "https://prtimes.jp/main/html/rd/p/000000019.000030964.html",
       "https://corp.hokuto.app/"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-clinical-ai-app"
+    "type": "doctor-clinical-ai-app",
+    "startedAt": "2019-11"
   },
   {
     "id": "b-ef65b4d2",
@@ -27564,13 +27633,15 @@
     "category": "recruting-solutions",
     "description": "Web版リリースで登録者数が前年比約4倍（2025-05発表）。",
     "hp": "https://corp.thestory.co.jp/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000104937.html",
       "https://corp.thestory.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-job-board"
+    "type": "medical-job-board",
+    "startedAt": "2022-09"
   },
   {
     "id": "b-fe1b6e32",
@@ -27796,6 +27867,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000155363.html",
       "https://corp.medteria.io/"
     ],
     "updatedAt": "2026-10",
@@ -27861,13 +27933,15 @@
     "category": "doctor-network",
     "description": "",
     "hp": "https://www.aihippo.ai/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000013.000180183.html",
       "https://www.aihippo.ai/"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-clinical-ai-app"
+    "type": "doctor-clinical-ai-app",
+    "startedAt": "2026-05"
   },
   {
     "id": "b-de09a731",
@@ -27880,6 +27954,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000165966.html",
       "https://med-x.co.jp/service/sns/"
     ],
     "updatedAt": "2026-10",
@@ -27893,13 +27968,15 @@
     "category": "recruting-solutions",
     "description": "",
     "hp": "https://med-x.co.jp/service/matching/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000165966.html",
       "https://med-x.co.jp/service/matching/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-staffing-agency"
+    "type": "medical-staffing-agency",
+    "startedAt": "2026-02"
   },
   {
     "id": "b-4c03e254",
@@ -27979,6 +28056,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000157081.html",
       "https://exmore.jp/"
     ],
     "updatedAt": "2026-10",
@@ -28319,7 +28397,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://c-s-one.jp/"
+      "https://c-s-one.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000120815.html"
     ],
     "updatedAt": "2026-10",
     "type": "medical-claims-bpo"
@@ -28440,13 +28519,15 @@
     "category": "doctor-network",
     "description": "2025-12大規模アップデート、2026-10無料スマホアプリ提供。",
     "hp": "https://cubec.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000124652.html",
       "https://cubec.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-clinical-ai-app"
+    "type": "doctor-clinical-ai-app",
+    "startedAt": "2025-05"
   },
   {
     "id": "b-f7873bf4",
@@ -28459,7 +28540,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://cubec.jp/"
+      "https://cubec.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000124652.html"
     ],
     "updatedAt": "2026-10",
     "type": "doctor-education-media"
@@ -28562,6 +28644,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000187438.html",
       "https://meditoku.com/services/"
     ],
     "updatedAt": "2026-10",
@@ -28591,13 +28674,15 @@
     "category": "doctor-network",
     "description": "",
     "hp": "https://genshi.ai/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000184049.html",
       "https://genshi.ai/"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-clinical-ai-app"
+    "type": "doctor-clinical-ai-app",
+    "startedAt": "2026-10"
   },
   {
     "id": "b-09f147e4",
@@ -29415,13 +29500,16 @@
     "category": "recruting-solutions",
     "description": "360度学習アプリ「JOLLYGOOD+ 360」は2026-03提供開始（600本超）",
     "hp": "https://jollygood.co.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000063.000020924.html",
+      "https://prtimes.jp/main/html/rd/p/000000046.000020924.html",
       "https://jollygood.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-worker-education"
+    "type": "healthcare-worker-education",
+    "startedAt": "2019-07"
   },
   {
     "id": "b-bdb5d018",
@@ -29431,13 +29519,16 @@
     "category": "recruting-solutions",
     "description": "2026年に熱中症対策・認知症観の新コンテンツ追加",
     "hp": "https://jollygood.co.jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://www.otsuka.co.jp/company/newsreleases/2024/20241212_1.html",
+      "https://www.otsuka.co.jp/company/newsreleases/2022/20221010_1.html",
       "https://jollygood.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-worker-education"
+    "type": "healthcare-worker-education",
+    "startedAt": "2024-09"
   },
   {
     "id": "b-c8064c35",
@@ -31497,13 +31588,15 @@
     "category": "telemedicine",
     "description": "重症化予防サービス",
     "hp": "https://yakkle.jp/about",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000127099.html",
       "https://yakkle.jp/about"
     ],
     "updatedAt": "2026-10",
-    "type": "telemedicine-direct-to-patient"
+    "type": "telemedicine-direct-to-patient",
+    "startedAt": "2023-12"
   },
   {
     "id": "b-40a400e2",
@@ -31568,7 +31661,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://medifellow.jp/business"
+      "https://medifellow.jp/business",
+      "https://prtimes.jp/main/html/rd/p/000000002.000052951.html"
     ],
     "updatedAt": "2026-10",
     "type": "telemedicine-direct-to-patient"
@@ -31581,13 +31675,15 @@
     "category": "telemedicine",
     "description": "中国・ベトナム等",
     "hp": "https://medifellow.jp/business",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000052951.html",
       "https://medifellow.jp/business"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-interpretation-crossborder"
+    "type": "medical-interpretation-crossborder",
+    "startedAt": "2020-01"
   },
   {
     "id": "b-aa965744",
@@ -31645,13 +31741,15 @@
     "category": "health-consulting",
     "description": "CHONPS for GYM／for Clinicも展開",
     "hp": "https://n-with.com/corp",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000075090.html",
       "https://n-with.com/corp"
     ],
     "updatedAt": "2026-10",
-    "type": "nutrition-guidance"
+    "type": "nutrition-guidance",
+    "startedAt": "2021-07"
   },
   {
     "id": "b-fe2081f3",
@@ -31661,13 +31759,15 @@
     "category": "health-consulting",
     "description": "登録管理栄養士1,200名（公式）",
     "hp": "https://n-with.com/corp",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000016.000075090.html",
       "https://n-with.com/corp"
     ],
     "updatedAt": "2026-10",
-    "type": "nutrition-guidance"
+    "type": "nutrition-guidance",
+    "startedAt": "2023-03"
   },
   {
     "id": "b-2e04b2a0",
@@ -31680,6 +31780,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000106483.html",
       "https://corp.emium.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -32052,6 +32153,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000114173.html",
       "https://homedr.co.jp/about"
     ],
     "updatedAt": "2026-10",
@@ -32295,6 +32397,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000013.000074761.html",
       "https://mics.tokyo/service/career"
     ],
     "updatedAt": "2026-10",
@@ -34018,6 +34121,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://zerosystem.jp/company/",
       "https://zerosystem.jp/"
     ],
     "updatedAt": "2026-10",
@@ -35562,7 +35666,9 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://arteryex.biz/healthcare/"
+      "https://arteryex.biz/healthcare/",
+      "https://prtimes.jp/main/html/rd/p/000000005.000044584.html",
+      "https://prtimes.jp/main/html/rd/p/000000006.000044584.html"
     ],
     "updatedAt": "2026-10",
     "type": "medical-it-development"
@@ -38261,13 +38367,15 @@
     "category": "doctor-network",
     "description": "東南アジア医師向けプラットフォーム、米国健康保険プラットフォームに出資（関連会社）",
     "hp": "https://www.itochu.co.jp/ja/about/partner/ict/index.html",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://www.itochu.co.jp/ja/news/press/2019/190228.html",
       "https://www.itochu.co.jp/ja/about/partner/ict/index.html"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-community-portal"
+    "type": "doctor-community-portal",
+    "startedAt": "2019-02"
   },
   {
     "id": "b-f43b58fe",
@@ -41919,14 +42027,16 @@
     "category": "medical-dx",
     "description": "口腔内3Dデータを使った模型やXR（VR・AR・MR）コンテンツで、患者説明や歯科医師のトレーニングを支援する。3D/ARアプリ「TreLab」は東京都ベンチャー技術大賞奨励賞を受賞。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000104593.html",
       "https://www.denpre.co.jp/",
       "https://prtimes.jp/main/html/rd/p/000000042.000104593.html"
     ],
     "type": "patient-explanation-consent",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-9f67e60e",
@@ -42219,14 +42329,16 @@
     "category": "doctor-network",
     "description": "医師・薬剤師が患者の証（体質）に合った漢方薬を処方できるよう、問診や所見から漢方診断・処方を支援するクラウド型の漢方診療支援プラットフォーム。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000077291.html",
       "https://www.yakuji.co.jp/entry117768.html",
       "https://thebridge.jp/2024/04/varytex-pre-series-a-round-funding"
     ],
     "type": "doctor-clinical-ai-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-05"
   },
   {
     "id": "b-f62d41a9",
@@ -42527,6 +42639,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000131764.html",
       "https://onemedica.co.jp/"
     ],
     "type": "specialist-referral",
@@ -46669,14 +46782,16 @@
     "category": "telemedicine",
     "description": "スマートフォンに装着する前眼部撮影デバイスMS1で非眼科医が眼を撮影し、アプリで問診とともに送ると眼科医が助言を返す遠隔眼科サービス。僻地・離島や新興国の医療機関向け。",
     "hp": "https://www.mitasmedical.com/pages/mobile-eye-doctor",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000053986.html",
       "https://www.mitasmedical.com/",
       "https://prtimes.jp/main/html/rd/p/000000003.000053986.html"
     ],
     "type": "facility-remote-consultation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2019-10"
   },
   {
     "id": "b-5446524b",
@@ -47571,13 +47686,15 @@
     "category": "doctor-network",
     "description": "歯科医師・歯科衛生士・歯科技工士向けに、臨床から経営まで1,700本以上のセミナー動画と患者説明資料などの実践ツールを月額で提供する会員サービス。",
     "hp": "https://oned.jp/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000031.000033266.html",
       "https://oned.jp/"
     ],
     "type": "doctor-education-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-07"
   },
   {
     "id": "b-8e77e8d0",
@@ -49337,13 +49454,16 @@
     "category": "dental",
     "description": "SNS運用、HP制作、口コミ対策など歯科医院の集患に必要な領域を支援し、地域での医院ブランディングを進める。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000066370.html",
+      "https://prtimes.jp/main/html/rd/p/000000010.000066370.html",
       "https://sabu.work/service/"
     ],
     "type": "dental-patient-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021-08"
   },
   {
     "id": "b-2dee0a30",
@@ -50311,13 +50431,16 @@
     "category": "health-consulting",
     "description": "管理栄養士が一人ひとりの体の状態・ライフスタイル・嗜好に合わせ、オンラインで食事内容を指導するサービス。",
     "hp": "https://eatas-service.com/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000077218.html",
+      "https://prtimes.jp/main/html/rd/p/000000008.000077218.html",
       "https://eatas-service.com/"
     ],
     "type": "nutrition-guidance",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021-12"
   },
   {
     "id": "b-350d613a",
@@ -50382,6 +50505,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000103085.html",
       "https://corp.contact.ne.jp/",
       "https://contact.ne.jp/"
     ],
@@ -50396,13 +50520,16 @@
     "category": "recruting-solutions",
     "description": "眼科クリニックの視能訓練士・眼科看護師など眼科特有の職種の採用を、視能訓練士が創業した会社の眼科専門の知見と求職者ネットワークで支援する。",
     "hp": "https://contact.ne.jp/ganka-recruit/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000103085.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000103085.html",
       "https://corp.contact.ne.jp/"
     ],
     "type": "healthcare-recruitment-outsourcing",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-08"
   },
   {
     "id": "b-70557a25",
@@ -50471,6 +50598,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000073117.html",
       "https://conexi.co.jp/chokowa/"
     ],
     "type": "care-spot-work",
@@ -52783,6 +52911,248 @@
       "https://www.bell24.co.jp/ja/news/uploads/20190304.pdf"
     ],
     "type": "remote-mr-meeting",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-85c97a29",
+    "name": "みてねコールドクター（夜間・休日の往診）",
+    "company": "株式会社コールドクター",
+    "category": "telemedicine",
+    "description": "アプリや電話で依頼すると、夜間・休日に提携医療機関の医師が自宅へ往診するサービス。2022年にミクシィと資本提携し『みてねコールドクター』に改称。往診は2024年3月で終了し、オンライン診療に一本化した。",
+    "hp": "https://calldoctor.jp/",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2024-03",
+    "endReasons": [
+      "reimbursement"
+    ],
+    "endReasonNote": "2024-03-31受付分で往診の提供を終了。同社は『今後の往診に関する診療報酬改定に伴う市場の変化を見据え』と説明し、オンライン診療・医療相談は継続した（公式お知らせ）。",
+    "lessons": "夜間休日往診は診療報酬の水準に収益が直結し、2024年度改定を機に撤退・縮小が相次いだ。",
+    "sources": [
+      "https://calldoctor.jp/news/article/48/",
+      "https://calldoctor.jp/house-call-notice/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000058359.html",
+      "https://prtimes.jp/main/html/rd/p/000000016.000058359.html"
+    ],
+    "type": "house-call-night-emergency",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-014c5c8c",
+    "name": "みてねコールドクター（オンライン診療）",
+    "company": "株式会社コールドクター",
+    "category": "telemedicine",
+    "description": "MIXIグループのコールドクターが運営する、子どもと家族向けの24時間365日オンライン診療アプリ。保険診療・処方薬配送に対応し、2024年の往診終了後は主力事業となった。",
+    "hp": "https://calldoctor.jp/",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-05",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000058359.html",
+      "https://calldoctor.jp/house-call-notice/"
+    ],
+    "type": "telemedicine-direct-to-patient",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f4eb2b0c",
+    "name": "キッズドクター（小児の時間外健康相談・往診・オンライン診療）",
+    "company": "株式会社ノーススター",
+    "category": "telemedicine",
+    "description": "平日夜間・休日の子どもの急な体調不良に、医師・看護師へのチャット健康相談、夜間往診、オンライン診療で対応するアプリ。東京・福岡・札幌・愛知などで往診エリアを広げた。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-02",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000013.000077866.html",
+      "https://prtimes.jp/main/html/rd/p/000000011.000077866.html"
+    ],
+    "type": "house-call-night-emergency",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e2903e61",
+    "name": "ナイトドクター（夜間・休日往診）",
+    "company": "ナイトドクター株式会社（旧 リアン株式会社）",
+    "category": "telemedicine",
+    "description": "電話一本で夜間・休日に医師が自宅を訪問し、診察と処方薬の手渡しまで行う往診サービス。コロナ禍では訪問による抗原・PCR検査も行い、2026年には訪問型の人間ドックを始めた。",
+    "hp": "https://nightdoctor.jp/",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-03",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000055650.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000187887.html"
+    ],
+    "type": "house-call-night-emergency",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3495901e",
+    "name": "遠隔画像診断サービス（Y's REPORT）",
+    "company": "株式会社ワイズ・リーディング",
+    "category": "telemedicine",
+    "description": "熊本の遠隔画像診断センターで、提携病院から送られたCT・MRI等を放射線科専門医が読影しレポートを返す。2009年に本格稼働し、AI解析や医療システム開発も手がける。",
+    "hp": "https://www.ysreading.co.jp/",
+    "startedYear": 2009,
+    "status": "提供中",
+    "startedAt": "2009-05",
+    "sources": [
+      "https://www.ysreading.co.jp/company/"
+    ],
+    "type": "teleradiology",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-40ac5df5",
+    "name": "民間医局（医師の転職・アルバイト紹介）",
+    "company": "株式会社メディカル・プリンシプル社",
+    "category": "recruting-solutions",
+    "description": "クリーク・アンド・リバー社グループのメディカル・プリンシプル社が運営する医師向けの人材紹介・情報サービス。常勤・非常勤の紹介、研修病院合同説明会『レジナビフェア』、情報誌『DOCTOR'S MAGAZINE』を展開。",
+    "hp": "https://www.medical-principle.co.jp/",
+    "startedYear": 2001,
+    "status": "提供中",
+    "startedAt": "2001-01",
+    "sources": [
+      "https://www.medical-principle.co.jp/company/history/"
+    ],
+    "type": "medical-staffing-agency",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2e297c9a",
+    "name": "レバウェル看護（旧 看護のお仕事）",
+    "company": "レバウェル株式会社（旧 レバレジーズメディカルケア株式会社）",
+    "category": "recruting-solutions",
+    "description": "レバレジーズグループの看護師向け人材紹介・派遣サービス。2009年に『看護のお仕事』として開始し、2022年に看護師向けメディアと統合して『レバウェル看護』へ名称変更した。",
+    "hp": "https://kango-oshigoto.jp/",
+    "startedYear": 2009,
+    "status": "提供中",
+    "startedAt": "2009",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000500.000010591.html"
+    ],
+    "type": "medical-staffing-agency",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e3739893",
+    "name": "CareNeTV（医師向け医療動画サービス）",
+    "company": "株式会社ケアネット",
+    "companyId": "4010001075490",
+    "category": "doctor-network",
+    "description": "ケアネットが運営する医師・医療者向けの臨床医学動画サービス。2011年に始めた動画配信『CareNetオンデマンド』を、2013年に開業医向け医療情報・動画サイト『CareNeTV』として開始した。",
+    "hp": "https://www.carenet.com/",
+    "startedYear": 2013,
+    "status": "提供中",
+    "startedAt": "2013",
+    "sources": [
+      "https://www.carenet.co.jp/company/"
+    ],
+    "type": "doctor-education-media",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5f93b538",
+    "name": "ケアネットTV・メディカルCh.（スカパー!医療専門テレビ局）",
+    "company": "株式会社ケアネット",
+    "companyId": "4010001075490",
+    "category": "doctor-network",
+    "description": "ケアネットが『スカパー!』で開局した日本初の医療専門テレビ局。医師向けの医療番組を衛星放送で配信していたが、2011年に閉局し、インターネット動画配信へ移行した。",
+    "hp": "https://www.carenet.co.jp/",
+    "startedYear": 1998,
+    "status": "終了",
+    "startedAt": "1998",
+    "endedAt": "2011",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "同社沿革に『2011年 スカパー!「ケアネットTV」閉局、インターネットによる動画配信サービス「CareNetオンデマンド」開始』とあり、配信手段をネットへ移した。閉局理由の説明は確認できない。",
+    "lessons": "医師向け動画は衛星放送からネット配信へ移り、配信チャネルの転換に合わせて事業を作り替えた例。",
+    "sources": [
+      "https://www.carenet.co.jp/company/"
+    ],
+    "type": "doctor-education-media",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3e0b57c9",
+    "name": "CareNet.com（医師・医療者向け会員制サイト）",
+    "company": "株式会社ケアネット",
+    "companyId": "4010001075490",
+    "category": "doctor-network",
+    "description": "医師会員20万人超を抱える医療者向け医療情報サイト。2000年開設の『クラブ・ケアネット』を2004年にリニューアルして開始し、ニュース・論文紹介・動画・製薬企業の情報提供（eディテーリング）を展開する。",
+    "hp": "https://www.carenet.com/",
+    "startedYear": 2004,
+    "status": "提供中",
+    "startedAt": "2004",
+    "sources": [
+      "https://www.carenet.co.jp/company/"
+    ],
+    "type": "doctor-community-portal",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-187c651a",
+    "name": "ケアネットキャリア（医師の常勤・非常勤・スポット求人）",
+    "company": "株式会社ケアネット",
+    "companyId": "4010001075490",
+    "category": "recruting-solutions",
+    "description": "CareNet.comの医師会員基盤を活かし、医師の常勤・非常勤・スポット勤務の求人情報を提供するキャリアサービス。",
+    "hp": "https://career.carenet.com/",
+    "startedYear": 2013,
+    "status": "提供中",
+    "startedAt": "2013",
+    "sources": [
+      "https://www.carenet.co.jp/company/",
+      "https://career.carenet.com/"
+    ],
+    "type": "medical-job-board",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d4542d7a",
+    "name": "Findme（ファインドミー：がんのネット型セカンドオピニオン）",
+    "company": "リーズンホワイ株式会社（現 スペシャリスト・ドクターズ株式会社）",
+    "category": "health-consulting",
+    "description": "がん患者が検査データ等をネットで送り、専門医チームから治療方針のセカンドオピニオンを受けられるサービス。アフラックのがん保険付帯サービスや国立がん研究センター中央病院のウェブ型セカンドオピニオンにも採用された。",
+    "hp": "https://www.specialist-doctor.com/",
+    "startedYear": 2018,
+    "status": "譲渡",
+    "startedAt": "2018-04",
+    "endedAt": "2022-03",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "2022-03-31に『Findme』『Findmeホスピタル』『Serendipity』をアフラックグループのHatch Healthcareへ事業譲渡。リーズンホワイは同4月にスペシャリスト・ドクターズへ社名変更し、産科医療機関の紹介サービスへ事業の軸を移した（同社発表）。",
+    "lessons": "保険会社の付帯サービスとして広がったセカンドオピニオン事業は、その保険会社グループへの譲渡で引き継がれた。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000019.000025604.html",
+      "https://prtimes.jp/main/html/rd/p/000000071.000025604.html",
+      "https://prtimes.jp/main/html/rd/p/000000003.000097378.html"
+    ],
+    "type": "specialist-referral",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-931772e3",
+    "name": "Cancer Lab／免疫ラボ（がん治療情報メディア・医療機関連携）",
+    "company": "CLAP株式会社（現 MTU株式会社）",
+    "category": "health-consulting",
+    "description": "がん患者と家族向けに、提携医療機関と連動して治療の概要や先進治療の情報を伝え、医療機関への相談・受診につなげていた医療メディア。2023年7月に事業譲渡した。",
+    "hp": "https://www.mtu-inc.com/",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2023-07",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "2023-07-06付で『Cancer Lab』『免疫ラボ』を医療情報のリサーチ・提供を行うABF先進治療コンシェルへ事業譲渡。発表では『より多くの患者様への医療情報提供実現』のためと説明（同社リリース）。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000057423.html"
+    ],
+    "type": "specialist-referral",
     "updatedAt": "2026-10"
   }
 ]
