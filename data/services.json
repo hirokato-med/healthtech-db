@@ -228,7 +228,13 @@
     "hp": "https://www.lpixel.net/",
     "startedYear": 2019,
     "status": "提供中",
-    "type": "imaging-diagnosis-ai"
+    "type": "imaging-diagnosis-ai",
+    "startedAt": "2019-10",
+    "sources": [
+      "https://lpixel.net/company/history/",
+      "https://lpixel.net/news/press-release/2017/5899/"
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "nodoca",
@@ -359,17 +365,6 @@
     "type": "femtech-expert-consultation"
   },
   {
-    "id": "foro-crm",
-    "name": "foro CRM",
-    "company": "メダップ",
-    "category": "medical-saas",
-    "description": "病院の地域連携室向けCRM。紹介元医療機関との関係管理を可視化し、紹介患者数の増加を支援する。",
-    "hp": "https://medup.jp/",
-    "startedYear": 2019,
-    "status": "提供中",
-    "type": "regional-referral-discharge"
-  },
-  {
     "id": "kanamic-cloud",
     "name": "カナミッククラウドサービス",
     "company": "カナミックネットワーク",
@@ -490,7 +485,11 @@
     "hp": "https://www.mdv.co.jp/",
     "startedYear": 2003,
     "status": "提供中",
-    "type": "hospital-derived-database"
+    "type": "hospital-derived-database",
+    "sources": [
+      "https://www.mdv.co.jp/press/2022/detail_1734.html"
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "eparkkusuri",
@@ -892,7 +891,7 @@
     "hp": "",
     "startedYear": 2017,
     "status": "譲渡",
-    "startedAt": "2017",
+    "startedAt": "2017-10",
     "endedAt": "2025-10",
     "successor": "Ambry GeneticsはTempus AI、国内事業はSB TEMPUSが取得",
     "milestones": [
@@ -923,6 +922,7 @@
     ],
     "endReasonNote": "コニカミノルタは、コロナ禍で病院での遺伝子検査需要の伸びが想定を大きく下回った時期があったうえ、今後も継続的な研究開発投資が必要なことを考え、「ベストオーナー視点」で第三者資本の活用を進めた結果、譲渡が最善と判断したと説明している。",
     "sources": [
+      "https://www.konicaminolta.com/jp-ja/newsroom/2017/1019-01-01.html",
       "https://www2.jpx.co.jp/disc/49020/140120241105510439.pdf",
       "https://www.nihon-ma.co.jp/news/20250114_4902-19/",
       "https://www2.jpx.co.jp/disc/49020/140120260629582805.pdf"
@@ -7002,7 +7002,7 @@
     "hp": "",
     "startedYear": 2016,
     "status": "譲渡",
-    "startedAt": "2016",
+    "startedAt": "2016-12",
     "endedAt": "2021-04",
     "successor": "PHC株式会社（2023年4月からPHCグループのウィーメックス株式会社が運営）",
     "milestones": [
@@ -7040,6 +7040,7 @@
     ],
     "endReasonNote": "PHCはオンプレミス中心のヘルスケアIT製品群にクラウド型を加えるため事業を譲り受けたと説明。きりんカルテシステムは譲渡後に新たな医療サービスを展開するとした。譲渡側の具体的な理由は公表されていない。サービスは継続。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000022709.html",
       "https://www.phchd.com/jp/phc/news/2021/0222_2",
       "https://www.phchd.com/jp/phc/news/2021/0401",
       "https://xirapha.jp/news202102220001/",
@@ -7289,6 +7290,7 @@
     "endReasonNote": "現在の公式サイトは製造業の外観検査や建設現場向けAIが中心で、医療事業の記載が見当たらない。医療事業の終了・移管の告知は確認できず、理由も公表されていない。",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000080.000026090.html",
+      "https://www.yakuji.co.jp/entry103496.html",
       "https://hacarus.com/ja/press-release/20220216/",
       "https://hacarus.com/ja/press-release/2023-09-22-news/",
       "https://hacarus.com/ja/case-study/2020-kobe-univ/",
@@ -8551,9 +8553,9 @@
     "category": "medical-image",
     "description": "テクマトリックスの医療事業部を母体とし、医療画像の保管・閲覧・共有をクラウドで行うPACSを中小規模の医療機関中心に提供。患者向けの画像共有などもクラウド上で展開。",
     "hp": "",
-    "startedYear": 2018,
+    "startedYear": 2012,
     "status": "統合",
-    "startedAt": "2018",
+    "startedAt": "2012-06",
     "endedAt": "2022-04",
     "successor": "PSP株式会社（テクマトリックス連結子会社、「NOBORI」として継続）",
     "milestones": [
@@ -8579,6 +8581,8 @@
     ],
     "endReasonNote": "完全な競合関係だった両社の顧客基盤と技術を補完し、開発を効率化するとともにAIやデータ活用など新サービスを加速させるための合併と説明された。サービスは継続。",
     "sources": [
+      "https://www.innervision.co.jp/041products/2012/p20120546.html",
+      "https://nobori.in/news/item2018/",
       "https://www.techmatrix.co.jp/ir/upload_file/tdnrelease/3762_20220121570469_P01_.pdf",
       "https://www.techmatrix.co.jp/nc/news/corp_20220121.html",
       "https://www.mitsui.com/jp/ja/topics/2022/1242754_13393.html",
@@ -12700,7 +12704,7 @@
     "category": "marketing-support",
     "description": "生活者向けの医院検索・Web予約サイトと、医療機関向けの事前予約・当日順番待ち・LINE予約・電話自動応答システムを組み合わせたサービス。EPARK会員基盤からの送客と予約システム利用料で収益化する。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "milestones": [
       {
@@ -12717,6 +12721,7 @@
       }
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000029237.html",
       "https://www.dreamnews.jp/press/0000223186/",
       "https://fdoc.jp/docs/lp/basic/index.html",
       "https://www.irakoclinic.com/archives/23899"
@@ -12725,7 +12730,8 @@
     "themes": [
       "clinic-booking"
     ],
-    "type": "hospital-search-portal"
+    "type": "hospital-search-portal",
+    "startedAt": "2018-02"
   },
   {
     "id": "b-b7a4cf08",
@@ -13226,85 +13232,6 @@
     "type": "hospital-search-portal"
   },
   {
-    "id": "b-36740cd8",
-    "name": "きりんカルテ（完全無料クラウド型電子カルテ「カルテZERO」）",
-    "company": "アポロテクノロジーズ株式会社",
-    "companyId": "9290001064750",
-    "category": "electronic-health-record",
-    "description": "福岡のスタートアップが開発した診療所向けクラウド電子カルテ。日医標準レセプトソフト（日レセクラウド）と連携し、基本機能を無料で提供。製薬企業向け情報サービスや診療報酬の早期資金化サービスで収益を得るモデルだった。",
-    "hp": "",
-    "startedYear": 2016,
-    "status": "譲渡",
-    "startedAt": "2016",
-    "endedAt": "2021-04",
-    "successor": "PHC株式会社メディコム事業部（2023年4月からウィーメックス株式会社）",
-    "milestones": [
-      {
-        "date": "2013",
-        "text": "きりんカルテシステム株式会社設立（福岡市）"
-      },
-      {
-        "date": "2016",
-        "text": "クラウド型電子カルテを国内で発売"
-      },
-      {
-        "date": "2018-02",
-        "text": "画像をカルテにアップロードするスマホアプリ「カルテZERO」を公開"
-      },
-      {
-        "date": "2019",
-        "text": "日レセ連携のクラウド型電子カルテで導入数トップとPHCが説明（2019年の第1回ORCAカンファレンス資料、2018年7月〜2019年6月の集計）"
-      },
-      {
-        "date": "2020-07",
-        "text": "「完全無料」をうたい、製薬企業から情報提供料を得る「カルテMR」や、保険請求分を当月に前払いする有料の「カルテFRM」で収益化すると紹介される（スポンサー記事）"
-      },
-      {
-        "date": "2021-02",
-        "text": "PHCとクラウド型電子カルテ事業の譲渡契約を締結。PHCはオンプレミス中心の製品群にクラウド型を加える狙いと説明"
-      },
-      {
-        "date": "2021-04",
-        "text": "譲渡完了。販売はPHCメディコム事業部が継続"
-      },
-      {
-        "date": "2022-01",
-        "text": "旧きりんカルテシステムはクアッガテクノロジーズを経てアポロテクノロジーズに商号変更し、病院経営可視化ツールへ転じる"
-      },
-      {
-        "date": "2023-04",
-        "text": "PHCメディコム事業部とPHCメディコムが統合し、ウィーメックス株式会社として事業開始"
-      },
-      {
-        "date": "2023-05",
-        "text": "ウィーメックス名義の「カルテZERO」アプリの最終更新（説明文は既存の「きりんカルテ」利用者のみ利用可）"
-      },
-      {
-        "date": "2024-09",
-        "text": "ウィーメックスが自社開発の完全クラウド型「Medicom クラウドカルテ」の先行受注を発表。2026年10月時点の同社製品一覧に「きりんカルテ」の名前はない"
-      }
-    ],
-    "endReasons": [
-      "acquisition"
-    ],
-    "endReasonNote": "事業はPHCへ譲渡された。PHCは理由として、医療情報のデジタル化で医療ICT市場の拡大が見込まれること、オンプレミス中心の製品群にクラウド型を加えることを挙げている。売り手側が譲渡を選んだ理由や、その後の「きりんカルテ」の提供終了時期は公表情報で確認できなかった（第三者サイトは「サービス終了」と表示）。",
-    "lessons": "電子カルテを無料にして周辺サービスで回収するモデルは、大手の製品群に吸収される形で出口を迎えた。電子カルテ単体の無料化だけでは独立事業として続けにくいことを示す事例とみられる。",
-    "sources": [
-      "https://www.phchd.com/jp/phc/news/2021/0222_2",
-      "https://www.phchd.com/jp/phc/news/2021/0401",
-      "https://boxil.jp/mag/a3589/",
-      "https://apps.apple.com/jp/app/id1335518774",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9290001064750",
-      "https://www.phchd.com/jp/medicom/about",
-      "https://kigyolog.com/tool.php?id=2264"
-    ],
-    "updatedAt": "2026-10",
-    "themes": [
-      "cloud-emr"
-    ],
-    "type": "clinic-cloud-emr"
-  },
-  {
     "id": "b-acfafcce",
     "name": "CLIPLA（クリプラ）クラウド電子カルテ",
     "company": "株式会社クリプラ",
@@ -13382,7 +13309,7 @@
     "category": "electronic-health-record",
     "description": "AIによる自動学習やiPadでの手書き入力を特徴とする診療所向けのクラウド電子カルテ。医師会員基盤を持つエムスリーグループが提供し、安価な月額料金で普及した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "milestones": [
       {
@@ -13399,6 +13326,8 @@
       }
     ],
     "sources": [
+      "https://digikar.m3.com/news/unity20171130",
+      "https://digikar.m3.com/news/m3digikar20181025",
       "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/7rEjw7236Ha5rcIEL3DWHx/0ce982df930f71601dde7eed9d20f805/20211026_Public_J.pdf",
       "https://monoist.itmedia.co.jp/mn/articles/2205/18/news055.html",
       "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/3AUqsLxQqr8i8Y5nl2YNPc/22d6c0e9e449333fab27bd89f233a5eb/20240401_Public.pdf"
@@ -13407,7 +13336,8 @@
     "themes": [
       "cloud-emr"
     ],
-    "type": "clinic-cloud-emr"
+    "type": "clinic-cloud-emr",
+    "startedAt": "2015-10"
   },
   {
     "id": "b-b50973eb",
@@ -13653,7 +13583,7 @@
     "category": "electronic-health-record",
     "description": "経産省の地域医療連携プロジェクトで生まれた電子カルテを2004年にオープンソース化した「OpenDolphin」を基に、診療所・中小病院へクラウド型・オンプレミス型の電子カルテとPACSを低価格で提供していた。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2013,
     "status": "譲渡",
     "endedAt": "2020-05",
     "successor": "株式会社メドレー（電子カルテ資産と顧客アカウントを譲受、PACS技術はライセンス）",
@@ -13673,6 +13603,8 @@
     "endReasonNote": "メドレーは譲受を発表したが、LSCが事業を手放した理由は公表されていない。",
     "lessons": "オープンソース電子カルテは導入費を下げたが、約200施設規模では単独で制度対応・保守を続けにくく、上場企業に顧客ごと移った事例とみられる。",
     "sources": [
+      "https://www.opendolphin.com/OpenDolphin-Lab-A4.pdf",
+      "https://www.cyber-l.co.jp/2013/04/24/608/",
       "https://www.medley.jp/notice/post-137.html",
       "https://atmarkit.itmedia.co.jp/ait/articles/1507/16/news019.html"
     ],
@@ -13680,7 +13612,8 @@
     "themes": [
       "cloud-emr"
     ],
-    "type": "clinic-cloud-emr"
+    "type": "clinic-cloud-emr",
+    "startedAt": "2013-01"
   },
   {
     "id": "b-9beb9909",
@@ -13824,6 +13757,7 @@
     ],
     "sources": [
       "https://www2.jpx.co.jp/disc/44800/140120201216435890.pdf",
+      "https://pcmed.jp/",
       "https://www.medley.jp/release/20260813.html",
       "https://houjin.jp/c/2490001009840",
       "https://maonline.jp/news/20201217b",
@@ -13831,7 +13765,6 @@
       "https://www.medley.jp/release/20231030.html",
       "https://www.nihon-ma.co.jp/news/20250220_4480-13/",
       "https://note.com/medley/n/n819de9aac00e",
-      "https://pcmed.jp/",
       "https://note.com/medley/n/n82c51b3cdfc2"
     ],
     "updatedAt": "2026-10",
@@ -13911,8 +13844,8 @@
     "category": "electronic-health-record",
     "description": "中小規模病院・診療所向けに電子カルテと医事会計をパッケージにしたクラウドサービス。大手ITベンダーによる早い時期のクラウド型電子カルテ。",
     "hp": "",
-    "startedYear": null,
-    "status": "不明",
+    "startedYear": 2014,
+    "status": "提供中",
     "milestones": [
       {
         "date": "2014-09",
@@ -13927,6 +13860,8 @@
       "unknown"
     ],
     "sources": [
+      "https://info.archives.global.fujitsu/jp/news/2014/07/10.html",
+      "https://docs.fujitsu/documents/000859/hope-cloud-chart2-brochure-ja-v1.0-20250603.pdf",
       "https://cloud.watch.impress.co.jp/docs/news/20140904_665197.html",
       "https://www.sbbit.jp/article/refers/92924"
     ],
@@ -13934,7 +13869,8 @@
     "themes": [
       "cloud-emr"
     ],
-    "type": "hospital-emr"
+    "type": "hospital-emr",
+    "startedAt": "2014-07"
   },
   {
     "id": "b-dcc1e2b2",
@@ -16489,10 +16425,11 @@
     "endedAt": "2026-04",
     "successor": "株式会社ウイン・インターナショナル（ウイン・パートナーズの子会社）",
     "endReasons": [
-      "unknown"
+      "acquisition"
     ],
-    "endReasonNote": "理由は公表されていない（譲受側は医療現場のデジタル支援強化を目的と説明）",
+    "endReasonNote": "医療機器販売のウイン・パートナーズが傘下のウイン・インターナショナルを通じ、2026年4月1日付でHITOTSUから「HITOTSU Asset」事業を取得すると2025年12月に発表した。HITOTSU側の譲渡理由は公表資料では確認できない。",
     "sources": [
+      "https://maonline.jp/news/20251208b",
       "https://www.hitotsu.co.jp/699/",
       "https://www.nihon-ma.co.jp/news/20251208_3183-15/"
     ],
@@ -16942,13 +16879,16 @@
     "category": "electronic-health-record",
     "description": "インターネット版レセプト点検。",
     "hp": "https://www.tais.co.jp/products/mighty-checker-cloud/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://www.nikkei.com/nkd/disclosure/tdnr/20260401596048/",
+      "https://prtimes.jp/main/html/rd/p/000000029.000055206.html",
       "https://www.tais.co.jp/products/mighty-checker-cloud/"
     ],
     "updatedAt": "2026-10",
-    "type": "receipt-check-software"
+    "type": "receipt-check-software",
+    "startedAt": "2026-04"
   },
   {
     "id": "b-a4975c52",
@@ -18590,6 +18530,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.qlife.co.jp/company",
       "http://www.qlife.co.jp/services/pharma-marketing"
     ],
     "updatedAt": "2026-10",
@@ -19014,13 +18955,15 @@
     "category": "medical-image",
     "description": "",
     "hp": "https://www.ichigo-llc.co.jp/service/icombox/",
-    "startedYear": null,
+    "startedYear": 2008,
     "status": "提供中",
     "sources": [
+      "https://www.ichigo-llc.co.jp/press/000382/",
       "https://www.ichigo-llc.co.jp/service/icombox/"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-pacs-cloud"
+    "type": "imaging-pacs-cloud",
+    "startedAt": "2008"
   },
   {
     "id": "b-540c5670",
@@ -19030,13 +18973,15 @@
     "category": "diagnostic-support",
     "description": "",
     "hp": "https://www.ichigo-llc.co.jp/service/pathology/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://www.softbank.jp/corp/group/sbm/news/press/2016/20161006_01/",
       "https://www.ichigo-llc.co.jp/service/pathology/"
     ],
     "updatedAt": "2026-10",
-    "type": "pathology-cytology-ai"
+    "type": "pathology-cytology-ai",
+    "startedAt": "2016-10"
   },
   {
     "id": "b-5fa54117",
@@ -19201,6 +19146,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.leoclan.co.jp/corporate/history/",
       "https://promed.jp/about-us/company-information"
     ],
     "updatedAt": "2026-10",
@@ -20158,13 +20104,14 @@
     "category": "pharma-marketing-support",
     "description": "2026-04に医薬品情報サービスとの連携をリリース。",
     "hp": "https://prtimes.jp/main/html/rd/p/000000004.000153486.html",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000004.000153486.html"
     ],
     "updatedAt": "2026-10",
-    "type": "patient-support-awareness"
+    "type": "patient-support-awareness",
+    "startedAt": "2026-04"
   },
   {
     "id": "b-bc292cbc",
@@ -20226,13 +20173,16 @@
     "category": "diagnostic-support",
     "description": "がんゲノム医療の大学病院等が取引先",
     "hp": "https://xcoo.co.jp/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://xcoo.co.jp/news/20170209.html",
+      "https://ipbase.go.jp/learn/ceo/page15.php",
       "https://xcoo.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "cancer-genome-analysis"
+    "type": "cancer-genome-analysis",
+    "startedAt": "2017-02"
   },
   {
     "id": "b-9bc1de87",
@@ -20532,13 +20482,20 @@
     "description": "販売開始（公式沿革）",
     "hp": "https://sanamedi.jp/product-info",
     "startedYear": 2020,
-    "status": "提供中",
+    "status": "終了",
     "startedAt": "2020-02",
     "sources": [
+      "https://www.sanamedi.jp/2024/08/4455.html",
+      "https://www.nippon-zoki.co.jp/mtassets/files/3e0e5c3859e93da0e18ee902cea8fd78071b465d.pdf",
       "https://sanamedi.jp/product-info"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-modality"
+    "type": "imaging-modality",
+    "endedAt": "2025-06",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2020年2月から日本臓器を通じて学校検診向けに供給したが、「諸事象により」2020年9月を最後に製造・供給を停止。再開の目途が立たないとして製造販売届出を2025年6月1日付で廃止し、供給を断念した。具体的な理由は示されていない。"
   },
   {
     "id": "b-d09d6999",
@@ -21114,13 +21071,15 @@
     "category": "medical-saas",
     "description": "大阪大学医学部附属病院が紹介（2026-10）。",
     "hp": "https://drjoy.co.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://drjoy.co.jp/news/20251212-1",
       "https://drjoy.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "hospital-workforce-shift"
+    "type": "hospital-workforce-shift",
+    "startedAt": "2019"
   },
   {
     "id": "b-8577d748",
@@ -21782,13 +21741,15 @@
     "category": "diagnostic-support",
     "description": "",
     "hp": "https://www.sharemedical.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://www.sharemedical.jp/post/shipment-of-nexstetho-started",
       "https://www.sharemedical.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "ecg-heart-sound-ai"
+    "type": "ecg-heart-sound-ai",
+    "startedAt": "2019-12"
   },
   {
     "id": "b-4004739f",
@@ -21887,8 +21848,10 @@
     "hp": "https://www.riverfieldinc.com/",
     "startedYear": 2023,
     "status": "提供中",
-    "startedAt": "2023",
+    "startedAt": "2023-04",
     "sources": [
+      "https://www.riverfieldinc.com/files/upload/OQrimo%E5%85%B1%E5%90%8C%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9_20230417.pdf",
+      "https://www.hosp.kyushu-u.ac.jp/news/detail/554/",
       "https://www.riverfieldinc.com/"
     ],
     "updatedAt": "2026-10",
@@ -21902,13 +21865,16 @@
     "category": "surgical-support",
     "description": "",
     "hp": "https://www.riverfieldinc.com/",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
+      "https://www.titech.ac.jp/news/2015/031928",
+      "https://www.nikkei.com/article/DGXMZO89986420R30C15A7000000/",
       "https://www.riverfieldinc.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "surgical-robot"
+    "type": "surgical-robot",
+    "startedAt": "2015-08"
   },
   {
     "id": "b-ece00682",
@@ -21918,13 +21884,14 @@
     "category": "surgical-support",
     "description": "2024年に低軌道衛星通信での実証実験に成功",
     "hp": "https://prtimes.jp/main/html/rd/p/000000009.000084908.html",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000009.000084908.html"
     ],
     "updatedAt": "2026-10",
-    "type": "surgical-robot"
+    "type": "surgical-robot",
+    "startedAt": "2024-06"
   },
   {
     "id": "b-0ab5e009",
@@ -22001,13 +21968,16 @@
     "category": "clinic-chain",
     "description": "医療法人社団ナイズのクリニック運営を支援。",
     "hp": "https://caps365.jp/service/",
-    "startedYear": null,
+    "startedYear": 2012,
     "status": "提供中",
     "sources": [
+      "https://healthmanagement.caps365.jp/information/column/675r8a8eh1tu",
+      "https://recruit.caps365.jp/company",
       "https://caps365.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-mso-rollup"
+    "type": "clinic-mso-rollup",
+    "startedAt": "2012-04"
   },
   {
     "id": "b-cf3cf732",
@@ -22736,13 +22706,15 @@
     "category": "pharma-marketing-support",
     "description": "家族向け実態調査やセミナー企画協力。",
     "hp": "https://encourages.jp/business/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000028469.html",
       "https://encourages.jp/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "patient-support-awareness"
+    "type": "patient-support-awareness",
+    "startedAt": "2017-09"
   },
   {
     "id": "b-b3829bc0",
@@ -23360,13 +23332,15 @@
     "category": "medical-saas",
     "description": "エピタルHR/エピタクのユーザー数1万人突破（2025-01）",
     "hp": "https://epigno.jp/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000016.000054745.html",
       "https://epigno.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "hospital-workforce-shift"
+    "type": "hospital-workforce-shift",
+    "startedAt": "2020-04"
   },
   {
     "id": "b-849bba26",
@@ -23560,13 +23534,16 @@
     "category": "medical-image",
     "description": "医療機器として認証。最新Ver.3.3（2026-06）。開始時期は未確認",
     "hp": "https://holoeyes.jp/service/md",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://holoeyes.jp/topics/md_medical_device_certification/",
+      "https://www.medius.co.jp/wp-content/uploads/2026/06/20200615.pdf",
       "https://holoeyes.jp/service/md"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-3d-xr"
+    "type": "imaging-3d-xr",
+    "startedAt": "2020-06"
   },
   {
     "id": "b-b810f8e9",
@@ -23576,13 +23553,15 @@
     "category": "medical-image",
     "description": "",
     "hp": "https://holoeyes.jp/service/edu",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000027.000026916.html",
       "https://holoeyes.jp/service/edu"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-3d-xr"
+    "type": "imaging-3d-xr",
+    "startedAt": "2020-12"
   },
   {
     "id": "b-a18e89fc",
@@ -23608,13 +23587,15 @@
     "category": "medical-image",
     "description": "",
     "hp": "https://holoeyes.jp/service/biz",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000058.000026916.html",
       "https://holoeyes.jp/service/biz"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-3d-xr"
+    "type": "imaging-3d-xr",
+    "startedAt": "2025-06"
   },
   {
     "id": "b-a5d823da",
@@ -23759,13 +23740,15 @@
     "category": "medical-image",
     "description": "",
     "hp": "https://deepeyevision.com/company/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://www.jp.nikon.com/company/news/2022/0208_deepeyevision_01/",
       "https://deepeyevision.com/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-diagnosis-ai"
+    "type": "imaging-diagnosis-ai",
+    "startedAt": "2022-02"
   },
   {
     "id": "b-7f2e0fa4",
@@ -23984,13 +23967,15 @@
     "category": "diagnostic-support",
     "description": "開始時期は未確認",
     "hp": "https://exawizards.com/business/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://exawizards.com/archives/31798/",
       "https://exawizards.com/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "cognitive-function-assessment"
+    "type": "cognitive-function-assessment",
+    "startedAt": "2026-04"
   },
   {
     "id": "b-193403ed",
@@ -24133,13 +24118,15 @@
     "category": "vc-cvc",
     "description": "ヘルスケア領域のVCファンド。組成時期は未確認",
     "hp": "https://capitalmedicaventures.com/about/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000014.000022624.html",
       "https://capitalmedicaventures.com/about/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-vc-fund"
+    "type": "healthcare-vc-fund",
+    "startedAt": "2018-03"
   },
   {
     "id": "b-6ce5bdbb",
@@ -24149,13 +24136,15 @@
     "category": "vc-cvc",
     "description": "インパクト投資ファンド。組成時期は未確認",
     "hp": "https://capitalmedicaventures.com/about/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000109457.html",
       "https://capitalmedicaventures.com/about/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-vc-fund"
+    "type": "healthcare-vc-fund",
+    "startedAt": "2023-03"
   },
   {
     "id": "b-39a03aee",
@@ -24181,13 +24170,15 @@
     "category": "vc-cvc",
     "description": "KNOT 2026は10月開催",
     "hp": "https://capitalmedicaventures.com/news/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000019.000022624.html",
       "https://capitalmedicaventures.com/news/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-accelerator"
+    "type": "healthcare-accelerator",
+    "startedAt": "2018-08"
   },
   {
     "id": "b-276e2499",
@@ -24730,13 +24721,14 @@
     "category": "medical-saas",
     "description": "2025-03に済生会熊本病院と共同開発を発表。提供",
     "hp": "https://prtimes.jp/main/html/rd/p/000000014.000045703.html",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000014.000045703.html"
     ],
     "updatedAt": "2026-10",
-    "type": "regional-referral-discharge"
+    "type": "regional-referral-discharge",
+    "startedAt": "2025-03"
   },
   {
     "id": "b-464dbe7a",
@@ -25416,13 +25408,15 @@
     "category": "real-world-data",
     "description": "",
     "hp": "https://datack.jp/rwdpartners/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://datack.jp/2024/10/09/post-1001/",
       "https://datack.jp/rwdpartners/"
     ],
     "updatedAt": "2026-10",
-    "type": "rwd-analysis-service"
+    "type": "rwd-analysis-service",
+    "startedAt": "2024-10"
   },
   {
     "id": "b-b620c4be",
@@ -25482,13 +25476,15 @@
     "category": "clinic-chain",
     "description": "2021年に福岡天神のクリニックでワクチン接種等を告知",
     "hp": "https://inazma.co.jp/project",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://www.nikkei.com/article/DGXZQOJC213N60R20C21A5000000/",
       "https://inazma.co.jp/project"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-chain-operation"
+    "type": "clinic-chain-operation",
+    "startedAt": "2021-04"
   },
   {
     "id": "b-e426a7f7",
@@ -25532,13 +25528,15 @@
     "category": "diagnostic-support",
     "description": "",
     "hp": "https://medmain.com/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://medmain.com/pressrelease/1552/",
       "https://medmain.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "pathology-cytology-ai"
+    "type": "pathology-cytology-ai",
+    "startedAt": "2019-06"
   },
   {
     "id": "b-2ebd2b26",
@@ -26715,13 +26713,15 @@
     "category": "marketing-support",
     "description": "2024-03に病院の採用管理DXサービスを開始。",
     "hp": "https://ritaworks.jp/service.html",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000016.000035731.html",
       "https://ritaworks.jp/service.html"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-web-meo"
+    "type": "clinic-web-meo",
+    "startedAt": "2021-03"
   },
   {
     "id": "b-94faa554",
@@ -26763,13 +26763,15 @@
     "category": "real-world-data",
     "description": "同社DBをPMSで利用した医薬品の再審査完了（2025-10）",
     "hp": "https://rwdata.co.jp/",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
+      "https://rwd.datack.jp/db-research-list-rwd/",
       "https://rwdata.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "hospital-derived-database"
+    "type": "hospital-derived-database",
+    "startedAt": "2015-07"
   },
   {
     "id": "b-7d35b793",
@@ -26948,8 +26950,9 @@
     "hp": "https://humanome.jp/company/outline/",
     "startedYear": 2021,
     "status": "提供中",
-    "startedAt": "2021",
+    "startedAt": "2021-03",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000020.000042913.html",
       "https://humanome.jp/company/outline/"
     ],
     "updatedAt": "2026-10",
@@ -27174,6 +27177,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.hearst.co.jp/news/corp-260218-hearstlab-yuimedi/",
       "https://yuimedi.com/"
     ],
     "updatedAt": "2026-10",
@@ -27275,13 +27279,15 @@
     "category": "medical-saas",
     "description": "地域医療連携クラウド。",
     "hp": "https://medigle.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000035731.html",
       "https://medigle.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "regional-referral-discharge"
+    "type": "regional-referral-discharge",
+    "startedAt": "2019-06"
   },
   {
     "id": "b-3987c3ae",
@@ -27427,13 +27433,16 @@
     "category": "surgical-support",
     "description": "外科系医療者向け業務DX。",
     "hp": "https://www.quotomy.co.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://www.quotomy.co.jp/posts/IU81Zufs",
+      "https://prtimes.jp/main/html/rd/p/000000009.000101467.html",
       "https://www.quotomy.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "operating-room-management"
+    "type": "operating-room-management",
+    "startedAt": "2025-12"
   },
   {
     "id": "b-49bd6300",
@@ -27719,13 +27728,15 @@
     "category": "electronic-health-record",
     "description": "",
     "hp": "https://www.mutex-inc.dev/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000133022.html",
       "https://www.mutex-inc.dev/"
     ],
     "updatedAt": "2026-10",
-    "type": "receipt-check-software"
+    "type": "receipt-check-software",
+    "startedAt": "2025-07"
   },
   {
     "id": "b-651815c3",
@@ -27914,13 +27925,16 @@
     "category": "clinic-chain",
     "description": "",
     "hp": "https://equitas-medical.com/services",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://www.nikkei.com/article/DGXZQOUC29B180Z20C26A7000000/",
+      "https://prtimes.jp/main/html/rd/p/000000005.000185818.html",
       "https://equitas-medical.com/services"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-mso-rollup"
+    "type": "clinic-mso-rollup",
+    "startedAt": "2026-09"
   },
   {
     "id": "b-bd7ddbbe",
@@ -28077,13 +28091,15 @@
     "category": "medical-management-support",
     "description": "",
     "hp": "https://medi-ce.com/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000150269.html",
       "https://medi-ce.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-consulting"
+    "type": "healthcare-consulting",
+    "startedAt": "2024-10"
   },
   {
     "id": "b-50ef7bbf",
@@ -28126,13 +28142,15 @@
     "category": "electronic-health-record",
     "description": "",
     "hp": "https://medi-ce.com/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://medi-ce.com/product/aihosoya",
       "https://medi-ce.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "receipt-check-software"
+    "type": "receipt-check-software",
+    "startedAt": "2026-10"
   },
   {
     "id": "b-e777895a",
@@ -28757,13 +28775,16 @@
     "category": "medical-saas",
     "description": "",
     "hp": "https://zeroharm.jp/service/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000173409.html",
+      "https://zeroharm.jp/news/qqe_yk2e7/",
       "https://zeroharm.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "nursing-ward-safety"
+    "type": "nursing-ward-safety",
+    "startedAt": "2026-08"
   },
   {
     "id": "b-1dfb0b95",
@@ -28773,13 +28794,16 @@
     "category": "electronic-health-record",
     "description": "三重大学病院・大阪けいさつ病院等で導入（2026）。",
     "hp": "https://www.albatrus.co/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000169742.html",
+      "https://medicalai.m3.com/open/news/260912-news-info3",
       "https://www.albatrus.co/"
     ],
     "updatedAt": "2026-10",
-    "type": "hospital-emr"
+    "type": "hospital-emr",
+    "startedAt": "2026-09"
   },
   {
     "id": "b-38aa467a",
@@ -28823,13 +28847,15 @@
     "category": "medical-saas",
     "description": "",
     "hp": "https://www.albatrus.co/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000169742.html",
       "https://www.albatrus.co/"
     ],
     "updatedAt": "2026-10",
-    "type": "regional-referral-discharge"
+    "type": "regional-referral-discharge",
+    "startedAt": "2025-11"
   },
   {
     "id": "b-faabb61d",
@@ -28937,13 +28963,16 @@
     "category": "surgical-support",
     "description": "",
     "hp": "https://anaut-surg.com/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://anaut-surg.com/ja-jp/news/N-k3y-tc",
+      "https://prtimes.jp/main/html/rd/p/000000005.000063564.html",
       "https://anaut-surg.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "surgical-ai"
+    "type": "surgical-ai",
+    "startedAt": "2024-07"
   },
   {
     "id": "b-3ed07606",
@@ -28969,13 +28998,15 @@
     "category": "surgical-support",
     "description": "",
     "hp": "https://www.jmees-inc.com/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://www.ncc.go.jp/jp/information/pr_release/2024/0808/index.html",
       "https://www.jmees-inc.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "surgical-ai"
+    "type": "surgical-ai",
+    "startedAt": "2024-08"
   },
   {
     "id": "b-daf8e4f7",
@@ -29018,13 +29049,15 @@
     "category": "surgical-support",
     "description": "",
     "hp": "https://imed-tech.co.jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://mba.globis.ac.jp/news/detail-24463.html",
       "https://imed-tech.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "surgical-ai"
+    "type": "surgical-ai",
+    "startedAt": "2024-11"
   },
   {
     "id": "b-4183e36e",
@@ -29071,6 +29104,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000099334.html",
+      "https://nextpress.jp/press/25121",
       "https://h-medtech.com/news-pr"
     ],
     "updatedAt": "2026-10",
@@ -29119,13 +29154,15 @@
     "category": "diagnostic-support",
     "description": "",
     "hp": "https://smartrobin.info/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://www.cardio-i.com/2022/04/26/1126/",
       "https://smartrobin.info/"
     ],
     "updatedAt": "2026-10",
-    "type": "ecg-heart-sound-ai"
+    "type": "ecg-heart-sound-ai",
+    "startedAt": "2022-04"
   },
   {
     "id": "b-cb2168d1",
@@ -29135,13 +29172,16 @@
     "category": "diagnostic-support",
     "description": "",
     "hp": "https://www.cardio-i.com/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://medicalai.m3.com/news/250304-news-info",
+      "https://www.cardio-i.com/2025/02/28/2022/",
       "https://www.cardio-i.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "ecg-heart-sound-ai"
+    "type": "ecg-heart-sound-ai",
+    "startedAt": "2025-03"
   },
   {
     "id": "b-9b76f228",
@@ -29409,8 +29449,9 @@
     "hp": "https://www.medicaroid.com/",
     "startedYear": 2020,
     "status": "提供中",
-    "startedAt": "2020",
+    "startedAt": "2020-08",
     "sources": [
+      "https://www.khi.co.jp/rd/magazine/pdf/183/n18303.pdf",
       "https://www.medicaroid.com/"
     ],
     "updatedAt": "2026-10",
@@ -29426,8 +29467,9 @@
     "hp": "https://www.medicaroid.com/",
     "startedYear": 2017,
     "status": "提供中",
-    "startedAt": "2017",
+    "startedAt": "2017-03",
     "sources": [
+      "https://www.sysmex.co.jp/news/2017/170328.html",
       "https://www.medicaroid.com/"
     ],
     "updatedAt": "2026-10",
@@ -29443,8 +29485,10 @@
     "hp": "https://www.medicaroid.com/",
     "startedYear": 2020,
     "status": "提供中",
-    "startedAt": "2020",
+    "startedAt": "2020-12",
     "sources": [
+      "https://www.automation-news.jp/2020/12/52462/",
+      "https://www.medicaroid.com/company/history.html",
       "https://www.medicaroid.com/"
     ],
     "updatedAt": "2026-10",
@@ -29458,13 +29502,15 @@
     "category": "surgical-support",
     "description": "",
     "hp": "https://www.opexpark.co.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://www.denso.com/jp/ja/newsroom/news/2019/20190905-01/",
       "https://www.opexpark.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "operating-room-management"
+    "type": "operating-room-management",
+    "startedAt": "2019-10"
   },
   {
     "id": "b-68dc192f",
@@ -29490,13 +29536,15 @@
     "category": "surgical-support",
     "description": "国立がん研究センター東病院発ベンチャーとして外科医と共同開発",
     "hp": "https://asahi-surgrob.com/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://www.ncc.go.jp/jp/information/pr_release/2023/0323/index.html",
       "https://asahi-surgrob.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "surgical-robot"
+    "type": "surgical-robot",
+    "startedAt": "2023-03"
   },
   {
     "id": "b-4479d950",
@@ -29642,13 +29690,16 @@
     "category": "diagnostic-support",
     "description": "介護・健診・公的機関向け。2026-03にCAPITAと販売代理店契約",
     "hp": "https://www.ai-brainscience.co.jp/products-applications/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://www.seitaikai.com/post/ai-brainscience",
+      "https://iyakutsushinsha.com/2026/09/14/",
       "https://www.ai-brainscience.co.jp/products-applications/"
     ],
     "updatedAt": "2026-10",
-    "type": "cognitive-function-assessment"
+    "type": "cognitive-function-assessment",
+    "startedAt": "2022"
   },
   {
     "id": "b-b44b8b0e",
@@ -29840,13 +29891,15 @@
     "category": "diagnostic-support",
     "description": "",
     "hp": "https://www.cybo.jp/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://www.cybo.jp/news/g6x4guv43",
       "https://www.cybo.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "pathology-cytology-ai"
+    "type": "pathology-cytology-ai",
+    "startedAt": "2026-04"
   },
   {
     "id": "b-ce01465f",
@@ -29888,13 +29941,16 @@
     "category": "medical-image",
     "description": "管理医療機器（クラスII、認証番号303AGBZX00028000）。脳神経外科領域中心",
     "hp": "https://www.kompath.com/GRID/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://www.amed.go.jp/news/release_20210510.html",
+      "https://kyodonewsprwire.jp/release/202105064551",
       "https://www.kompath.com/GRID/"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-3d-xr"
+    "type": "imaging-3d-xr",
+    "startedAt": "2021-05"
   },
   {
     "id": "b-922b88e0",
@@ -29904,13 +29960,15 @@
     "category": "medical-image",
     "description": "eMmaは無料DICOMビューア",
     "hp": "https://www.kompath.com/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://www.kompath.com/News/",
       "https://www.kompath.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-3d-xr"
+    "type": "imaging-3d-xr",
+    "startedAt": "2017-08"
   },
   {
     "id": "b-c2ee58d8",
@@ -30436,13 +30494,15 @@
     "category": "diagnostic-support",
     "description": "CAP認定の品質管理体制",
     "hp": "https://www.genmine-labs.jp/jp/genminetop/spec/index.html",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://www.konicaminolta.com/jp-ja/newsroom/2023/0801-01-01.html",
       "https://www.genmine-labs.jp/jp/genminetop/spec/index.html"
     ],
     "updatedAt": "2026-10",
-    "type": "cancer-genome-analysis"
+    "type": "cancer-genome-analysis",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-36d5c8aa",
@@ -33627,6 +33687,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://owen-syspo.com/topics/202507073167/",
       "https://sys-po.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -33920,13 +33981,15 @@
     "category": "medical-materials",
     "description": "",
     "hp": "https://zerosystem.jp/",
-    "startedYear": null,
+    "startedYear": 2010,
     "status": "提供中",
     "sources": [
+      "https://zerosystem.jp/news/",
       "https://zerosystem.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-equipment-maintenance"
+    "type": "medical-equipment-maintenance",
+    "startedAt": "2010-09"
   },
   {
     "id": "b-59938364",
@@ -35515,6 +35578,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.softbank.jp/corp/news/press/sbkk/2023/20230420_01/",
+      "https://prtimes.jp/main/html/rd/p/000000003.000152725.html",
       "https://www.hemillions.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -40819,13 +40884,16 @@
     "category": "diagnostic-support",
     "description": "カメラの前を歩くだけで、深層学習により歩行速度・ステップ長・ケイデンス・床反力・膝関節可動域などを計測し、ロコモティブシンドロームの歩容類似性から移動機能低下リスクを示す歩行分析計。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://bplatz.sansokan.jp/archives/17144",
+      "https://ayumo.ai/news/202610.html",
       "https://ayumo.ai/product/"
     ],
     "type": "cognitive-function-assessment",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2025-04"
   },
   {
     "id": "b-3ed03608",
@@ -41391,14 +41459,15 @@
     "category": "diagnostic-support",
     "description": "患者由来iPS細胞とAI診断プログラムを組み合わせ、ALSやアルツハイマー病など神経難病の発症リスクを超早期に評価する遺伝子検査サービス。検査センター・医療機関を通じて判定レポートを返す。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
       "https://www.chushin.co.jp/cms_source/files/20231221213.pdf",
       "https://prtimes.jp/main/html/rd/p/000000005.000115619.html"
     ],
     "type": "disease-specific-ai-samd",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-12"
   },
   {
     "id": "b-eb717967",
@@ -41548,6 +41617,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://iwai-ai.com/news/iwai-ai-launch",
       "https://iwai-ai.com/",
       "https://prtimes.jp/main/html/rd/p/000000005.000150719.html"
     ],
@@ -41883,15 +41953,17 @@
     "category": "marketing-support",
     "description": "患者の悩みと歯科医院の強みをつなぐ歯科医院の検索・予約サービス。2025年11月にKDDIの「auウェルネス」や「楽天シニア」と連携し、利用者の入口を広げた。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000039.000104593.html",
       "https://www.denpre.co.jp/",
       "https://www.denpre.co.jp/news/2894/",
       "https://www.denpre.co.jp/news/2891/"
     ],
     "type": "hospital-search-portal",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2025-09"
   },
   {
     "id": "b-2b8b5dfd",
@@ -43704,10 +43776,11 @@
     "category": "medical-image",
     "description": "脳ドックで撮影した頭部MRI画像をAIで解析し、海馬の体積や萎縮度、経年変化を示して個別の予防行動を提案するソフトウェア。全国の脳ドック実施病院が導入。",
     "hp": "https://www.cogsmartglobal.com/",
-    "startedYear": 2019,
+    "startedYear": 2021,
     "status": "提供中",
-    "startedAt": "2019",
+    "startedAt": "2021",
     "sources": [
+      "https://cogsmartglobal.com/blog/20240813-cogsmartaimribrainsuite",
       "https://prtimes.jp/main/html/rd/p/000000004.000091030.html",
       "https://prtimes.jp/main/html/rd/p/000000008.000091030.html"
     ],
@@ -45215,13 +45288,15 @@
     "category": "surgical-support",
     "description": "国立がん研究センター東病院と共同開発した内視鏡的粘膜下層剥離術（ESD）の練習モデル。VTT粘膜モデルで局注・切開・剥離を臨床に近い形で練習できる。",
     "hp": "https://kotobukimedical.com/esd-training/G-master/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://axl-next.ncc.go.jp/2021/07/post1106/",
       "https://kotobukimedical.com/esd-training/G-master/"
     ],
     "type": "surgical-education",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021"
   },
   {
     "id": "b-1608c09d",
@@ -46686,14 +46761,16 @@
     "category": "diagnostic-support",
     "description": "VRゴーグル内で道順を記憶する課題を行い、アルツハイマー病の最初期に障害される嗅内野グリッド細胞の機能を測る。未病段階のリスクを示し、企業・自治体・商業施設で提供。",
     "hp": "https://medicalig.com/service/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000017.000064325.html",
       "https://medicalig.com/service/",
       "https://medicalig.com/"
     ],
     "type": "cognitive-function-assessment",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-06"
   },
   {
     "id": "b-f566693c",
@@ -47345,19 +47422,24 @@
     "category": "medical-image",
     "description": "医療機関のMRIを使い、Web予約で短時間・手頃な費用の脳ドックを受けられるサービス。AIによる撮像評価レポートも提供。2025年8月からユカリアが運営する。",
     "hp": "https://smartdock.jp/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "統合",
     "endedAt": "2025-08",
     "endReasons": [
-      "unknown"
+      "funding",
+      "acquisition"
     ],
     "sources": [
+      "https://business.nikkei.com/atcl/gen/19/00002/042801424/",
+      "https://www.fukeiki.com/2023/04/smart-scan.html",
       "https://eucalia.jp/news/20231218pr/",
-      "https://eucalia.jp/news/20250528pr/",
-      "https://smartdock.jp/notification/detail/212"
+      "https://smartdock.jp/notification/detail/212",
+      "https://eucalia.jp/news/20250528pr/"
     ],
     "type": "imaging-brain-body-check",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018",
+    "endReasonNote": "新型コロナによる受診者の減少で業績が悪化し、借入金で資金繰りが逼迫したとして2023年4月に民事再生法を申請（負債約7.6億円）。同年12月にユカリアが完全子会社化し、2025年8月に吸収合併。サービスは「スマートドック」として継続。"
   },
   {
     "id": "b-521fff2f",
@@ -47367,14 +47449,15 @@
     "category": "medical-image",
     "description": "乳房を圧迫せず微弱なマイクロ波で内部を画像化し、高濃度乳房でもがんを検出することをめざす乳がん検診装置。2019年に先駆け審査指定の対象品目となった。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
-      "https://www.igs-group.com/",
-      "https://prtimes.jp/main/html/rd/p/000000005.000048430.html"
+      "https://prtimes.jp/main/html/rd/p/000000005.000048430.html",
+      "https://www.igs-group.com/"
     ],
     "type": "imaging-modality",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2019-09"
   },
   {
     "id": "b-bf2f591f",
@@ -48363,13 +48446,16 @@
     "category": "real-world-data",
     "description": "ライフサイエンス・製薬・美容・食品の研究者が、AIや可視化・スクリーニングツールを使ってゲノムと表現型の情報にアクセスできるゲノムデータプラットフォーム。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://japan.cnet.com/article/35136331/",
+      "https://prtimes.jp/main/html/rd/p/000000073.000008653.html",
       "https://www.adam-innovations.com/ja"
     ],
     "type": "rwd-analysis-service",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2019-04"
   },
   {
     "id": "b-73e7f2dc",
@@ -49684,13 +49770,16 @@
     "category": "real-world-data",
     "description": "全国の提携医療機関の放射線・病理画像に臨床・分子データを加え、匿名化・標準化・専門医アノテーションを施したデータセット。医療AIの学習・評価や薬事申請、臨床研究、創薬向けにAI・医療機器・製薬企業へ提供する。",
     "hp": "https://callisto-ai.com/business",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://bio.nikkeibp.co.jp/atcl/release/24/03/18/19772/",
+      "https://prtimes.jp/main/html/rd/p/000000005.000116169.html",
       "https://callisto-ai.com/"
     ],
     "type": "hospital-derived-database",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-03"
   },
   {
     "id": "b-3e4b149a",
@@ -49870,13 +49959,15 @@
     "category": "diagnostic-support",
     "description": "白血病患者ごとの遺伝子変異を解析してテーラーメイドの検査薬を作り、血液検体から微小残存病変（MRD）を高精度に測って治療効果や再発を早期に把握するモニタリング検査。",
     "hp": "http://www.liquidmine.co.jp/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://www.jst.go.jp/coi/research/seika/venture_07.html",
       "http://www.liquidmine.co.jp/"
     ],
     "type": "cancer-genome-analysis",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2020-08"
   },
   {
     "id": "b-36122811",
@@ -50063,6 +50154,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://frontjour.com/companies/f-med",
+      "https://prtimes.jp/main/html/rd/p/000000012.000098074.html",
       "https://www.f-med.co.jp/"
     ],
     "type": "surgical-robot",
@@ -50076,14 +50169,16 @@
     "category": "diagnostic-support",
     "description": "病院の12誘導心電図やウェアラブルで得た第I誘導30秒の心電図から、HFrEFとHFpEFを含む心不全のリスクを推定するソフトウェア。新たな機器は不要で、既存の心電計システムやウェアラブルで動く（研究段階・未承認）。",
     "hp": "https://simplex-q.com/heart-failure",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://www.simplex.holdings/news/2022/1241/",
       "https://simplex-q.com/",
       "https://simplex-q.com/heart-failure"
     ],
     "type": "ecg-heart-sound-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-09"
   },
   {
     "id": "b-0d5572c8",
@@ -50510,13 +50605,15 @@
     "category": "diagnostic-support",
     "description": "病理画像や多重免疫染色の連続切片をAIで解析し、がん細胞と免疫細胞の空間的なクラスタリングなど腫瘍微小環境を定量化する研究用ソフトウェア。薬効に関わる空間的特徴の探索や遺伝子変異の推定に使う（臨床用ではない）。",
     "hp": "https://www.biomy-tech.com/deeppathfinder",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000082088.html",
       "https://www.biomy-tech.com/"
     ],
     "type": "pathology-cytology-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-e6856993",
@@ -51751,6 +51848,941 @@
       "https://www.koureisha-jutaku.com/20260923_01_02/"
     ],
     "type": "care-service-operation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9b1f55ed",
+    "name": "使い切りホルター心電計「EG Holter」（マイホルターIIとの検査サービス）",
+    "company": "日東電工株式会社",
+    "category": "diagnostic-support",
+    "description": "日東電工が開発した厚さ6mm・11gの使い切りパッチ型ホルター心電計。アステラス製薬・エムハートと組み、AI解析プログラム「マイホルターII」による解析と合わせた心電図検査サービスとして販売した。",
+    "hp": "https://www.nitto.com/",
+    "startedYear": 2022,
+    "status": "終了",
+    "startedAt": "2022-06",
+    "endedAt": "2024-03",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2022年6月にパイロット販売を開始したが、日東電工は2024年3月末でEG Holter PX1.0のサービスを終了し、解析サービスの提供も終えると告知した。終了理由は告知では示されていない。",
+    "lessons": "大手3社の提携で始めた検査サービスでも、パイロット販売から2年弱で終了しており、使い捨てデバイス単体での事業継続の難しさがうかがえる。",
+    "sources": [
+      "https://www.nitto.com/jp/ja/press/2022/0630.jsp",
+      "https://www.nitto.com/jp/ja/press/2024/0430.jsp",
+      "https://jp.newsroom.astellas.com/2022-06-30-EG-Holter-TM"
+    ],
+    "type": "ecg-heart-sound-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-63685619",
+    "name": "AIホルター心電図解析サービス「マイホルターII」",
+    "company": "株式会社エムハート",
+    "category": "diagnostic-support",
+    "description": "アステラス製薬とエムハートが共同開発したAIによるホルター心電図解析プログラム。医療機関がクラウドに送った24時間心電図を自動解析し、不整脈を検出して結果をオンラインで返す。",
+    "hp": "https://emheart.co.jp/",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-07",
+    "sources": [
+      "https://jp.newsroom.astellas.com/2021-07-16-AI",
+      "https://emheart.co.jp/202107-2/"
+    ],
+    "type": "ecg-heart-sound-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9d5e1019",
+    "name": "「myBeat心電計」クラウドサービス（携帯型心電計myBeatホームECG）",
+    "company": "ユニオンツール株式会社",
+    "category": "diagnostic-support",
+    "description": "手で持つだけで測れる携帯型心電計「myBeat ホームECG」の心電図波形をスマートフォン経由でクラウドに保存・印刷できるサービス。2020年10月に販売を開始した。",
+    "hp": "https://www.uniontool-mybeat.com/",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-10",
+    "endedAt": "2023-07",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "ユニオンツールは2022年6月に告知し、「myBeat心電計」クラウドサービスを2023年7月31日で終了した。告知に終了理由の説明は見当たらない。",
+    "sources": [
+      "https://www.uniontool-mybeat.com/",
+      "http://uniontool.jp/assets/pdf/product/news/homeecgcloud_20220629.pdf",
+      "https://buffett-code-archives.s3.ap-northeast-1.amazonaws.com/pr_reports/140120201015404412.pdf"
+    ],
+    "type": "ecg-heart-sound-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ee7c2cbb",
+    "name": "12誘導AI心電図解析システム「ECG-Link」",
+    "company": "AlphaGoX株式会社",
+    "category": "diagnostic-support",
+    "description": "12誘導ホルター心電計「AGX-HDR」のレンタルと、従来手法とAIを組み合わせた自動解析プログラム「AGX-HAP」をセットにした心電図解析サービス。初期費用なし、解析は1件5,000円の従量課金。",
+    "hp": "https://alphagox.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://alphagox.com/products/",
+      "https://alphagox.com/news/case-studies-1b/"
+    ],
+    "type": "ecg-heart-sound-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a850d831",
+    "name": "ブレインパフォーマンスのセルフチェックツール「のうKNOW」",
+    "company": "エーザイ株式会社",
+    "companyId": "6010001000001",
+    "category": "diagnostic-support",
+    "description": "記憶力や注意力などの脳の健康度を、トランプを使った約15分のテストで定期的にセルフチェックできるデジタルツール。企業の健康経営、美容室、薬局、人間ドックなどに展開している。",
+    "hp": "https://www.eisai.co.jp/",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-03",
+    "sources": [
+      "https://www.eisai.co.jp/news/2020/news202013.html",
+      "https://www.eisai.co.jp/news/2020/news202026.html"
+    ],
+    "type": "cognitive-function-assessment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-efc9e77f",
+    "name": "脳体力トレーナー「CogEvo（コグエボ）」",
+    "company": "株式会社トータルブレインケア",
+    "category": "diagnostic-support",
+    "description": "1回約5分のゲーム形式のタスクで、見当識・注意力・記憶力・計画力・空間認識力の5つの認知機能をクラウド上で測定しトレーニングするサービス。全国80超の自治体や医療・介護施設が導入。",
+    "hp": "https://cog-evo.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://tbcare.co/news/20250529002-2/",
+      "https://cog-evo.com/company"
+    ],
+    "type": "cognitive-function-assessment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-780782b5",
+    "name": "MCIスクリーニングテスト「あたまの健康チェック」",
+    "company": "株式会社ミレニア",
+    "category": "diagnostic-support",
+    "description": "電話や対面で約10分の質問に答える、軽度認知障害（MCI）の早期発見を目的としたスクリーニングテスト。脳ドックや自治体、企業向けに提供し、エス・エム・エスの「認知症ねっと」でも2015年から提供された。",
+    "hp": "https://www.millennia-corporation.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.millennia-corporation.jp/ninchi/mci/index.html",
+      "https://www.bm-sms.co.jp/news-press/prs_150610_mci/"
+    ],
+    "type": "cognitive-function-assessment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-404934e1",
+    "name": "オリンパスの科学事業（顕微鏡・バーチャルスライドシステム等、現エビデント）",
+    "company": "オリンパス株式会社",
+    "companyId": "5011001005222",
+    "category": "diagnostic-support",
+    "description": "生物顕微鏡やバーチャルスライドスキャナなど、病理・ライフサイエンス研究向けの機器を扱ったオリンパスの科学事業。2022年4月に子会社エビデントへ承継し、2023年4月にベインキャピタルへ全株式を譲渡した。",
+    "hp": "https://evidentscientific.com/ja/",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2023-04",
+    "endReasons": [
+      "parent-strategy",
+      "acquisition"
+    ],
+    "endReasonNote": "オリンパスは医療事業を経営の柱とする方針のもと、科学事業を子会社エビデントに承継し、2023年4月にベインキャピタルへ全株式の譲渡を完了した。事業はエビデントとして継続している。",
+    "lessons": "医療機器大手が事業ポートフォリオを内視鏡など医療に絞る過程で、病理・研究向け機器はファンドに切り出された。",
+    "sources": [
+      "https://www.olympus.co.jp/news/2022/nr02395.html",
+      "https://www.baincapital.co.jp/news/bain-capital-private-equityorinhasukaraquanehitentozhushinoqudenowanle?language_content_entity=ja"
+    ],
+    "type": "pathology-cytology-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c6ca6ecb",
+    "name": "デジタルパソロジーソリューション「E1000 Dx」",
+    "company": "PHCホールディングス株式会社（エプレディア）",
+    "category": "diagnostic-support",
+    "description": "PHCグループのエプレディアが開発した病理ホールスライド画像の高速スキャナとソフトウェア。2024年に欧州、2025年に米国で展開し、2026年3月に日本で病理ホールスライド画像診断補助装置（クラスII）として承認を受け販売を始めた。",
+    "hp": "https://www.phchd.com/",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-03",
+    "sources": [
+      "https://www.phchd.com/jp/phc/news/2026/0324"
+    ],
+    "type": "pathology-cytology-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-189bd2a6",
+    "name": "バーチャルスライドスキャナ「NanoZoomer」シリーズ",
+    "company": "浜松ホトニクス株式会社",
+    "category": "diagnostic-support",
+    "description": "ガラス標本を高速にスキャンして病理のホールスライド画像を作る装置。医療機器のNanoZoomer MDシリーズもあり、国内のデジタル病理・遠隔病理診断の基盤として広く使われる。",
+    "hp": "https://www.hamamatsu.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SBIS0151J_NanoZoomerMD_Lineup.pdf",
+      "https://www.innervision.co.jp/041products/2012/p20121101.html"
+    ],
+    "type": "pathology-cytology-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-52d0eae1",
+    "name": "FoundationOne CDx がんゲノムプロファイル",
+    "company": "中外製薬株式会社",
+    "companyId": "5011501002900",
+    "category": "diagnostic-support",
+    "description": "ロシュ傘下の米Foundation Medicineが開発した、固形がんの腫瘍組織から324遺伝子を調べる包括的がんゲノムプロファイリング検査。中外製薬が国内で販売し、2019年6月に保険適用された。",
+    "hp": "https://chugai-pharm.jp/pr/npr/f1/",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-06",
+    "sources": [
+      "https://www.chugai-pharm.co.jp/news/detail/20190603150001_855.html"
+    ],
+    "type": "cancer-genome-analysis",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-df935f0d",
+    "name": "がん遺伝子パネル検査「OncoGuide NCCオンコパネル システム」",
+    "company": "シスメックス株式会社",
+    "companyId": "9140001009530",
+    "category": "diagnostic-support",
+    "description": "国立がん研究センターが日本人向けに開発した114遺伝子のがん遺伝子パネル検査。シスメックスが2019年1月に発売し、検査は理研ジェネシスが受託、2019年6月に保険適用された。",
+    "hp": "https://www.sysmex.co.jp/",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-01",
+    "sources": [
+      "https://www.sysmex.co.jp/news/2019/190221.html",
+      "https://www.ncc.go.jp/jp/information/pr_release/2019/0529/index.html"
+    ],
+    "type": "cancer-genome-analysis",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-adf293a6",
+    "name": "SB TEMPUS（がん遺伝子パネル検査・医療データ解析）",
+    "company": "SB TEMPUS株式会社",
+    "category": "diagnostic-support",
+    "description": "ソフトバンクグループと米Tempus AIの合弁会社。がん遺伝子パネル検査の普及と、検査・臨床データをAIで解析して製薬企業の研究開発や医療機関を支援する。2025年10月にコニカミノルタREALM（現GenMine Labs）を子会社化した。",
+    "hp": "https://www.sbtempus.com/",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-08",
+    "sources": [
+      "https://group.softbank/news/press/20240627",
+      "https://www.sbtempus.com/company-news/24080101/",
+      "https://www.konicaminolta.com/jp-ja/newsroom/2025/1001-01-01.html"
+    ],
+    "type": "cancer-genome-analysis",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-46defda1",
+    "name": "会話型 認知機能検査用AIプログラム（開発中）",
+    "company": "株式会社FRONTEO",
+    "companyId": "1010401051219",
+    "category": "diagnostic-support",
+    "description": "患者と医療者の10分以上の自由会話を自然言語処理AI「KIBIT」で解析し、認知機能低下の可能性を判定して医師の診断を支援するプログラム医療機器。2024年2月から塩野義製薬と戦略的業務提携で開発する。",
+    "hp": "https://www.fronteo.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.fronteo.com/news/pr/20250205",
+      "https://www.fronteo.com/news/20220111"
+    ],
+    "type": "disease-specific-ai-samd",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fa6bedc5",
+    "name": "CT肺野画像解析ソフトウエア（新型コロナ肺炎の診断支援AI、2020年発売分）",
+    "company": "キヤノンメディカルシステムズ株式会社",
+    "category": "medical-image",
+    "description": "藤田医科大学と開発した、CT画像から新型コロナウイルス感染症などの肺炎像を数値化して診断を支援するAIソフト。2020年12月14日に発売を発表したが、1週間ほどで販売を中止した。",
+    "hp": "https://jp.medical.canon/",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-12",
+    "endedAt": "2020-12",
+    "endReasons": [
+      "regulation"
+    ],
+    "endReasonNote": "薬機法の認証を得て発表したが、開発過程で加えた変更が認証の範囲から外れていると厚生労働省に指摘され、手続きの見直しを指示されたため2020年12月22日に販売を中止した。2022年8月に「SCO-PA01」として改めて販売を開始した。",
+    "lessons": "AIソフトの改良を重ねる開発では、変更が既存の認証範囲に収まるかを発売前に規制当局と確認しておく必要がある。",
+    "sources": [
+      "https://www.nikkei.com/article/DGXLRSP602257_S0A221C2000000/",
+      "https://www.nikkei.com/article/DGXZQODZ227VN0S0A221C2000000/",
+      "https://jp.medical.canon/about/pressrelease/2022/2022-08-19/"
+    ],
+    "type": "imaging-diagnosis-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-43b51181",
+    "name": "胸部X線画像病変検出ソフトウェア「CXR-AID」",
+    "company": "富士フイルムホールディングス株式会社",
+    "companyId": "6010401065370",
+    "category": "medical-image",
+    "description": "AI技術ブランド「REiLI」の製品で、胸部単純X線画像から結節・腫瘤影、浸潤影、気胸が疑われる領域を検出し、医師の画像診断を支援する。2026年のVer3.0で気腹の検出にも対応した。",
+    "hp": "https://reili.fujifilm.com/",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-08",
+    "sources": [
+      "https://www.newmed.co.jp/gakkai/8328",
+      "https://www.fujifilm.com/fms/ja/news/371"
+    ],
+    "type": "imaging-diagnosis-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9d4bcea3",
+    "name": "エムスリーAIプラットフォーム（医用画像診断支援AIプラットフォーム）",
+    "company": "エムスリー",
+    "companyId": "1010401063016",
+    "category": "medical-image",
+    "description": "PACSやモダリティの制約を受けずに、複数社の画像診断支援AIを医療機関がまとめて使えるプラットフォーム。2020年5月にNOBORIと事業提携して開始し、PSPなどと製品を追加している。",
+    "hp": "https://m3comlp.m3.com/lp/m3com/m3-ai-platform",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-05",
+    "sources": [
+      "https://corporate.m3.com/press_release/2020/20200507_001587.html",
+      "https://www.psp.co.jp/news/20241211_news_kotusabu.html"
+    ],
+    "type": "imaging-diagnosis-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6d01499d",
+    "name": "脳画像解析プログラム「BRAINEER（ブレイニア）」",
+    "company": "Splink",
+    "companyId": "4010001180836",
+    "category": "medical-image",
+    "description": "頭部MRI画像から脳の萎縮度などを解析し、認知症診療での医師の判断を支援するプログラム医療機器。2022年4月に薬事認可を取得し、2026年には治療前後の変化を可視化する機能を追加した。",
+    "hp": "https://www.splinkns.com/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-04",
+    "sources": [
+      "https://www.nikkei.com/article/DGXZRSP630635_V10C22A4000000/",
+      "https://www.splinkns.com/2026-04-27/index.html"
+    ],
+    "type": "imaging-diagnosis-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2399650a",
+    "name": "胸部CT肺結節検出AI「Plus.Lung.Nodule」",
+    "company": "Plusman合同会社",
+    "category": "medical-image",
+    "description": "胸部CT画像から肺結節の候補を検出して読影を支援するAIソフトウェア。医療機器認証を受け、日本医学放射線学会（JRS）のAIソフトウェア認証も2023年1月に取得した。",
+    "hp": "https://plusmanllc.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://plusmanllc.co.jp/news/pr-plnkasan3/",
+      "https://www.ningen-dock.jp/ningendock/wp-content/uploads/2024/11/plusman.pdf"
+    ],
+    "type": "imaging-diagnosis-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-bb0bef95",
+    "name": "医用画像管理システム（PACS）・クラウドPACS「NOBORI」（PSP）",
+    "company": "PSP株式会社",
+    "category": "medical-image",
+    "description": "テクマトリックス傘下で、オンプレミス型とクラウド型のPACSや読影レポート、画像診断支援AIの提供を行う。2022年4月にクラウドPACSのNOBORIと合併し、エムスリーAIにも出資する。",
+    "hp": "https://www.psp.co.jp/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-04",
+    "sources": [
+      "https://www.psp.co.jp/news/20220121_news_release.html",
+      "https://www.psp.co.jp/company.html"
+    ],
+    "type": "imaging-pacs-cloud",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a8495d78",
+    "name": "医療画像クラウドサービス「SonicDICOM PACS Cloud」",
+    "company": "フジデノロ株式会社",
+    "category": "medical-image",
+    "description": "CTやMRIなどの医用画像をクラウドに保存し、ブラウザで閲覧・共有できるクラウド型PACS。β版での実証を経て、2020年11月に有償の正式版を開始した。",
+    "hp": "https://www.fujidenolo.co.jp/",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-11",
+    "sources": [
+      "https://www.fujidenolo.co.jp/news/news/503-sonicdicom-pacs/",
+      "https://www.eizojoho.co.jp/newspr/5793/"
+    ],
+    "type": "imaging-pacs-cloud",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b1a8ef06",
+    "name": "クリニック向けクラウドPACS「Climis」",
+    "company": "株式会社ジェイマックシステム",
+    "category": "medical-image",
+    "description": "新規開業の診療所向けに、月額16,500円で保存容量無制限の医用画像保管・閲覧を提供するクラウド型PACS。Mac・iPadでの院外参照、電子カルテ連携、遠隔読影オプションに対応する。",
+    "hp": "https://www.j-mac.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.j-mac.co.jp/expansion/climis/pacs/"
+    ],
+    "type": "imaging-pacs-cloud",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-17b2413c",
+    "name": "3D画像解析システム「SYNAPSE VINCENT」",
+    "company": "富士フイルムホールディングス株式会社",
+    "companyId": "6010401065370",
+    "category": "medical-image",
+    "description": "CTやMRIの断層画像から高精度な3D画像を作り、心臓・肝臓・肺・脳などの解析や術前シミュレーションを行うワークステーション。2026年には術場の映像に3D画像を重ねる「SYNAPSE VINCENT Eye」も出した。",
+    "hp": "https://www.fujifilm.com/jp/ja/healthcare/healthcare-it/it-3d/vincent",
+    "startedYear": 2008,
+    "status": "提供中",
+    "startedAt": "2008-07",
+    "sources": [
+      "https://www.innervision.co.jp/05report/2008/05r_08_08_02.html",
+      "https://www.fujifilm.com/fms/ja/news/382"
+    ],
+    "type": "imaging-3d-xr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-eadb3aaa",
+    "name": "3D医用画像処理ワークステーション「Ziostation2」",
+    "company": "ザイオソフト株式会社",
+    "category": "medical-image",
+    "description": "国産初の3D医用画像処理ワークステーションM900（1999年）から続く製品群。Ziostation2は2010年に発売され、血管・臓器の自動抽出や手術計画向けの解析を世界20か国以上で提供する。",
+    "hp": "https://www.zio.co.jp/",
+    "startedYear": 2010,
+    "status": "提供中",
+    "startedAt": "2010",
+    "sources": [
+      "https://www.innervision.co.jp/sp/ad/focuson/202109hp",
+      "https://www.zio.co.jp/about/outline/"
+    ],
+    "type": "imaging-3d-xr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0d8152e5",
+    "name": "軟質実物大3D心臓モデル「MedipreX」",
+    "company": "株式会社クロスエフェクト",
+    "category": "medical-image",
+    "description": "患者のCT画像から、切ったり縫ったりできる軟らかい実物大の心臓モデルを短期間で作り、複雑な先天性心疾患の診断や術前シミュレーションに使う。国立循環器病研究センターと開発した。",
+    "hp": "https://www.xcardio.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.ncvc.go.jp/pr/release/pr_39486/",
+      "https://www.xcardio.com/study/mediprex-3d-heart/"
+    ],
+    "type": "imaging-3d-xr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9401429e",
+    "name": "脳の健康検査「推計BHQ」",
+    "company": "BHQ株式会社",
+    "category": "medical-image",
+    "description": "頭部MRI画像から大脳灰白質の量や白質の健全性を数値化する、国際標準規格の脳の健康指標BHQを算出するサービス。脳ドックや企業の健康経営向けに提供し、2024年にはPwCコンサルティングとも連携した。",
+    "hp": "https://www.bhq.co.jp/",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-04",
+    "sources": [
+      "https://www.bhq.co.jp/history/",
+      "https://www.pwc.com/jp/ja/press-room/bhq-20240327.html"
+    ],
+    "type": "imaging-brain-body-check",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-cc0bfa6a",
+    "name": "脳ドック特化クリニック「メディカルチェックスタジオ」",
+    "company": "アンファー株式会社",
+    "category": "medical-image",
+    "description": "予約から結果確認までスマートフォンで完結する、脳ドックに特化した画像検査クリニック。アンファーが2018年1月に銀座で第1号を開き、その後はスマートスキャンが新宿・大阪梅田などに展開した。",
+    "hp": "https://medicalcheckstudio.jp/",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-01",
+    "sources": [
+      "https://www.nikkei.com/article/DGXLRSP468804_Y8A110C1000000/",
+      "https://prtimes.jp/main/html/rd/p/000000004.000054061.html",
+      "https://medicalcheckstudio.jp/"
+    ],
+    "type": "imaging-brain-body-check",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9425016f",
+    "name": "パナソニック ヘルスケアの超音波診断機器事業",
+    "company": "パナソニック ヘルスケア株式会社（現PHC株式会社）",
+    "category": "medical-image",
+    "description": "パナソニックの医療機器子会社が手がけた医療用超音波診断装置の研究開発・製造・販売・保守事業。コニカミノルタとの共同開発を経て、2014年1月に事業資産をコニカミノルタへ譲渡した。",
+    "hp": "https://www.phchd.com/",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2014-01",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "コニカミノルタと超音波診断装置を共同開発する中で、2013年7月に事業譲渡契約を締結。パナソニックブランド機の販売・保守を除く企画・開発・製造・販売・保守の資産を2014年1月1日付でコニカミノルタへ移した。",
+    "lessons": "共同開発の相手に事業ごと移す形で、国内電機大手の画像診断機器からの撤退が進んだ一例。",
+    "sources": [
+      "https://www.phchd.com/jp/phc/news/2013/0726",
+      "https://www.konicaminolta.jp/about/release/2013/0726_01_01.html"
+    ],
+    "type": "imaging-modality",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d594d6b9",
+    "name": "クラウド型電子カルテ「CLINICSカルテ」",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "electronic-health-record",
+    "description": "オンライン診療・予約・会計とつながる診療所向けのクラウド型電子カルテ。日医標準レセプトソフト（ORCA）と連携し、その後レセコン一体型やAIによる文書作成支援も加えた。",
+    "hp": "https://clinics-cloud.com/",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-04",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000013108.html",
+      "https://prtimes.jp/main/html/rd/p/000000013.000013108.html"
+    ],
+    "type": "clinic-cloud-emr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-57a61b14",
+    "name": "クリニック向けクラウド型電子カルテ「CLIUS（クリアス）」",
+    "company": "株式会社DONUTS",
+    "category": "electronic-health-record",
+    "description": "ゲーム・メディア事業のDONUTSが手がける診療所向けクラウド型電子カルテ。ORCAとの連携や予約・問診との連動を備え、2018年7月にリリースした。",
+    "hp": "https://clius.jp/",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-07",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000182.000004237.html"
+    ],
+    "type": "clinic-cloud-emr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-161d86af",
+    "name": "Beyond Next Ventures（医療・ライフサイエンス中心のディープテックVC）",
+    "company": "Beyond Next Ventures株式会社",
+    "category": "vc-cvc",
+    "description": "医療・ライフサイエンスを中心とする大学発ディープテックに投資するVC。2015年の1号ファンド（55億円）から2023年の3号ファンド（257億円）まで組成し、アクセラレーター「BRAVE」やシェアラボも運営する。",
+    "hp": "https://beyondnextventures.com/jp/",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015",
+    "sources": [
+      "https://beyondnextventures.com/jp/about/"
+    ],
+    "type": "healthcare-vc-fund",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5614b968",
+    "name": "AI搭載シフト自動作成サービス「miramos（ミラモス）」病院向け",
+    "company": "コニカミノルタQOLソリューションズ株式会社",
+    "category": "medical-saas",
+    "description": "看護師などの勤務希望や夜勤回数、スキル配置の条件を踏まえ、AIで勤務表を自動作成するサービス。2024年11月に介護施設向けを発売し、2025年11月に病院向けの提供を始めた。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-11",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000137413.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000137413.html"
+    ],
+    "type": "hospital-workforce-shift",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b002c24e",
+    "name": "ビーコン自動打刻の医師向け勤怠管理システム",
+    "company": "株式会社スマートホスピタル",
+    "category": "medical-saas",
+    "description": "院内に置いたビーコンとスマートフォンで医師の出退勤や院内滞在を自動記録し、医師の働き方改革に対応した労働時間管理を支援する勤怠管理システム。大学病院・総合病院が導入している。",
+    "hp": "https://www.smarthp.co.jp/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-02",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000057224.html"
+    ],
+    "type": "hospital-workforce-shift",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a7cbf877",
+    "name": "医事課業務支援「AI医事課長」",
+    "company": "株式会社FIXER",
+    "category": "electronic-health-record",
+    "description": "レセプトデータの管理・集計や査定・返戻の原因分析を生成AIで支援する医療機関向けサービス。数日かかっていた集計業務を短時間で行えるとし、2026年7月に査定・返戻分析機能を加えた。",
+    "hp": "https://ai-ijikacho.com/",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-02",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000136.000009536.html",
+      "https://prtimes.jp/main/html/rd/p/000000148.000009536.html"
+    ],
+    "type": "receipt-check-software",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1f6b7f13",
+    "name": "ヘルスケア情報キュレーションメディア「WELQ（ウェルク）」",
+    "company": "株式会社ディー・エヌ・エー",
+    "companyId": "4011001032721",
+    "category": "marketing-support",
+    "description": "DeNAのキュレーションプラットフォーム事業の一つで、外部執筆者に依頼した記事でココロとカラダの悩みを扱うヘルスケア情報サイト。検索上位を占めて急成長したが、記事の正確性と無断転用が問題となり非公開化された。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "終了",
+    "startedAt": "2015-10",
+    "endedAt": "2016-11",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "医学的根拠に乏しい記事や他サイトからの無断転用が批判され、DeNAは2016年11月29日にWELQを非公開化、12月7日までに同事業の全サイトの記事公開を停止した。著作権法等に違反する可能性のある記事や不適切な内容が理由とされる。",
+    "lessons": "専門家の監修なしに量産した医療記事は、検索で集客できても信頼を失った時点で事業ごと止まる。医療情報メディアでは内容の正確性の担保が事業継続の前提になる。",
+    "sources": [
+      "https://dena.com/jp/press/2015/10/30/1/",
+      "https://xtech.nikkei.com/it/atcl/news/16/120103594/",
+      "https://www.nikkei.com/article/DGXMZO10119170Q6A131C1X13000/"
+    ],
+    "type": "medical-info-media",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3d2e370b",
+    "name": "健康・医療情報サイト「ヘルスケア大学」",
+    "company": "株式会社リッチメディア",
+    "category": "marketing-support",
+    "description": "「心と体の健康を保ち、悩みを解決する情報サイト」をテーマに、健康増進・予防・検査などを専門家の監修で発信したWebメディア。2017年に記事内容への指摘を受け、信頼性向上プロジェクトを発足させていた。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "終了",
+    "startedAt": "2015",
+    "endedAt": "2019-09",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "運営会社リッチメディアが2019年9月30日でのサービス終了を発表した。閉鎖の理由は公表内容からは確認できない。2017年に記事内容の指摘を受けて改善策を報告していた経緯がある。",
+    "sources": [
+      "https://media-innovation.jp/article/2019/09/25/13256.html"
+    ],
+    "type": "medical-info-media",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-03cf8315",
+    "name": "接骨院チェーン「MJG接骨院」「MJG整体院」（FC展開）",
+    "company": "株式会社MJG",
+    "category": "clinic-chain",
+    "description": "骨盤・深層筋のゆがみを矯正する「PIMバランス」を主力に、柔道整復の施術も行った接骨院・整体院チェーン。首都圏を中心にフランチャイズ店を含め約180店舗を展開し、2019年11月期の年収入高は約50億円だった。",
+    "hp": "",
+    "startedYear": 2011,
+    "status": "終了",
+    "startedAt": "2011-06",
+    "endedAt": "2020-04",
+    "endReasons": [
+      "funding",
+      "regulation",
+      "team"
+    ],
+    "endReasonNote": "急な出店に管理体制が追いつかず不採算店が増え、借入金返済で資金繰りが悪化。2019年11月に景品表示法違反で埼玉県から措置命令を受け、社員による不正請求などの告発で信用も低下、コロナで来院が急減し2020年4月に自己破産（負債約47億円）した。",
+    "lessons": "店舗拡大を優先したFC展開は、施術者確保・管理体制・広告表示の法令順守が追いつかないと、行政処分と信用低下をきっかけに一気に破綻しうる。",
+    "sources": [
+      "https://www.tdb.co.jp/report/bankruptcy/flash/4692/",
+      "https://smart-fc.jp/news/fc_news/150"
+    ],
+    "type": "franchise-healthcare-network",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1c04a752",
+    "name": "医療分野専門の市場調査（マクロミルケアネット）",
+    "company": "株式会社マクロミルケアネット",
+    "category": "pharma-marketing-support",
+    "description": "マクロミルとケアネットが医療分野のリサーチ事業を統合して設立した合弁会社。国内医師約17万人をカバーする医師モニタを使い、製薬企業向けの医師・医療従事者調査を行う。",
+    "hp": "https://www.macromillcarenet.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.macromill.com/press/release/20141216.html",
+      "https://www.macromillcarenet.jp/company.html"
+    ],
+    "type": "pharma-market-research",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-974758e4",
+    "name": "病院・クリニック向けデジタルサイネージ「メディネットシステム」",
+    "company": "株式会社メディネット",
+    "category": "marketing-support",
+    "description": "病院・クリニックの待合室向けに、ディスプレイ・配信機器と医療・健康番組コンテンツ、運用と6年間の機器保証をまとめて提供するデジタルサイネージ。公式に約25年・1,500施設の導入実績をうたう。",
+    "hp": "https://mdnt.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://mdnt.co.jp/ms/"
+    ],
+    "type": "pharmacy-clinic-signage",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f1a5d60e",
+    "name": "スターフィールドクリニック（内科・消化器内科の多院展開）",
+    "company": "医療法人社団結樹会",
+    "category": "clinic-chain",
+    "description": "消化器内科やアレルギー科を主体に、江戸川・横浜・札幌・鈴鹿・浜松などでクリニックを展開した医療法人。外来に加えオンライン診療や企業向けの訪問予防接種も手がけた。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2026-06",
+    "endReasons": [
+      "funding"
+    ],
+    "endReasonNote": "医療機器・消耗品の価格高騰や人件費上昇が続くなかで事業継続が困難になったとして、2026年6月24日に東京地裁から破産開始決定を受けた（東京商工リサーチ）。江戸川・横浜は閉院済みで、札幌・鈴鹿・浜松も診療継続不能を公表した。",
+    "sources": [
+      "https://www.tsr-net.co.jp/news/tsr/detail/1202999_1521.html",
+      "https://www.starfield-sapporo.com/post/po-chan-shou-sok-kai-shi-jue-ding-noozhi-rase"
+    ],
+    "type": "clinic-chain-operation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4d79aa34",
+    "name": "医療脱毛「アリシアクリニック」",
+    "company": "医療法人社団美実会",
+    "category": "clinic-chain",
+    "description": "医療脱毛を中心とする自由診療クリニックを全国約40店舗で展開したチェーン。一括前払いやクレジットで長期の施術契約を結ぶ個人客が多かった。",
+    "hp": "",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2024-12",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "運営法人の美実会と関連の八桜会が2024年12月10日に東京地裁へ破産を申請し、全店舗が休業した。負債は約124億7千万円、債権者は約9万2千人で大半が前払い契約の利用者。法人自身による破綻理由の説明は確認できない。",
+    "lessons": "多額の前払金を運転資金に回して出店・広告を拡大するモデルは、契約が鈍化すると返金不能に陥り、利用者被害が大きくなる（東京商工リサーチの業界分析）。",
+    "sources": [
+      "https://www.asahi.com/articles/ASSDB2396SDBOXIE00ZM.html",
+      "https://wellness-news.co.jp/posts/241211-1/"
+    ],
+    "type": "clinic-chain-operation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-dd832f3b",
+    "name": "大規模病院向けWeb型電子カルテ「HOPE LifeMark-HX」",
+    "company": "富士通株式会社（現 富士通Japan株式会社）",
+    "category": "electronic-health-record",
+    "description": "300床以上の大規模医療機関向けのWeb型電子カルテシステム。2008年発売の「HOPE EGMAIN-GX」の後継としてアーキテクチャを一新し、国内の大病院の電子カルテで大きなシェアを持つ。",
+    "hp": "",
+    "startedYear": 2015,
+    "status": "提供中",
+    "startedAt": "2015-07",
+    "sources": [
+      "https://info.archives.global.fujitsu/jp/news/2015/07/13.html",
+      "https://www.innervision.co.jp/sp/report/usual/20150806"
+    ],
+    "type": "hospital-emr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-dc0c5740",
+    "name": "MR向けWeb情報提供サービス「MR君」",
+    "company": "エムスリー",
+    "companyId": "1010401063016",
+    "category": "pharma-marketing-support",
+    "description": "m3.comの医師会員に製薬企業が医薬品情報をメールやWebで届ける、インターネット上の医薬情報担当者（MR）支援サービス。創業直後から提供し、製薬企業の主要なデジタルチャネルになった。",
+    "hp": "https://corporate.m3.com/",
+    "startedYear": 2000,
+    "status": "提供中",
+    "startedAt": "2000-10",
+    "sources": [
+      "https://corporate.m3.com/corporate",
+      "https://toyokeizai.net/articles/-/572841?display=b"
+    ],
+    "type": "pharma-digital-promotion",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3adadfd5",
+    "name": "インドの総合病院「サクラ・ワールド・ホスピタル」",
+    "company": "セコム医療システム",
+    "companyId": "1011001035966",
+    "category": "clinic-chain",
+    "description": "セコム、豊田通商、インドのキルロスカ・グループが提携し、ベンガルールに開いた日本企業が経営するインド初の総合病院。2024年には2つ目の総合病院の建設も発表した。",
+    "hp": "https://www.secom.co.jp/business/medical/international/",
+    "startedYear": 2014,
+    "status": "提供中",
+    "startedAt": "2014-03",
+    "sources": [
+      "https://www.secom.co.jp/corporate/release/2013/nr_20140228.html",
+      "https://www.toyota-tsusho.com/press/detail/240318_006372.html"
+    ],
+    "type": "overseas-hospital-group",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c211c857",
+    "name": "医療情報データベース「MID-NET」",
+    "company": "独立行政法人医薬品医療機器総合機構（PMDA）",
+    "category": "real-world-data",
+    "description": "協力医療機関の電子カルテ・レセプト・DPCデータを集めた医療情報データベース。医薬品の安全対策のため、行政・製薬企業・研究者が製造販売後調査などに利活用できる。",
+    "hp": "https://www.pmda.go.jp/safety/mid-net/0001.html",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-04",
+    "sources": [
+      "https://www.mhlw.go.jp/file/06-Seisakujouhou-11120000-Iyakushokuhinkyoku/0000197516.pdf",
+      "https://www.jstage.jst.go.jp/article/rsmp/14/1/14_107/_article/-char/ja/",
+      "https://www.pmda.go.jp/safety/mid-net/0001.html"
+    ],
+    "type": "hospital-derived-database",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-290f0f17",
+    "name": "病院向け電子カルテ「MegaOak HR」",
+    "company": "日本電気株式会社（NEC）",
+    "category": "electronic-health-record",
+    "description": "NECが2006年にシステム構造を見直して製品化した大中規模病院向けの電子カルテ。院内の診察・会計・部門システムまで含めた病院情報システムとして、富士通と並ぶ国内大手の製品群をなす。",
+    "hp": "https://jpn.nec.com/medsq/",
+    "startedYear": 2006,
+    "status": "提供中",
+    "startedAt": "2006-06",
+    "sources": [
+      "https://japan.zdnet.com/article/20094605/",
+      "https://jpn.nec.com/techrep/journal/nechistory/nh07/index.html"
+    ],
+    "type": "hospital-emr",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ccb67324",
+    "name": "医療用白衣・ユニフォーム（ナガイレーベン）",
+    "company": "ナガイレーベン株式会社",
+    "category": "medical-materials",
+    "description": "1915年に神田神保町の白衣専門店として開業した医療用白衣の国内最大手。看護衣・ドクターコート・患者衣などを病院向けに企画・製造・販売し、1971年に国産初のポリエステル100%ニット白衣を発売した。",
+    "hp": "https://www.nagaileben.co.jp/",
+    "startedYear": 1915,
+    "status": "提供中",
+    "startedAt": "1915",
+    "sources": [
+      "https://www.nagaileben.co.jp/company/history/"
+    ],
+    "type": "medical-apparel",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ea92a606",
+    "name": "DPCコスト分析ベンチマークシステム「Cost Matrix」",
+    "company": "メディカル・データ・ビジョン株式会社",
+    "companyId": "7010001087640",
+    "category": "medical-management-support",
+    "description": "DPC病院の診療データから疾患別・症例別のコストを算出し、他院と比べて経営改善に使うベンチマークシステム。2007年4月から約13年提供した。",
+    "hp": "",
+    "startedYear": 2007,
+    "status": "終了",
+    "startedAt": "2007-04",
+    "endedAt": "2020-03",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "MDVは2019年10月に告知し、2020年3月31日でサービスを終了した。終了理由は示されていないが、コスト分析は病院向け経営支援システム「Medical Code」で引き続き提供するとしている。",
+    "sources": [
+      "https://www.mdv.co.jp/news/2019/detail_1219.html"
+    ],
+    "type": "hospital-management-bi",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6998f0ed",
+    "name": "SaaS型地域医療ネットワーク「HumanBridge」",
+    "company": "富士通株式会社（現 富士通Japan株式会社）",
+    "category": "medical-saas",
+    "description": "中核病院の電子カルテ情報を地域の診療所や介護施設と共有するSaaS型の地域医療連携ネットワーク。富士通のデータセンターを中継センターとして月額10万円からで提供を始め、各地の地域医療連携に使われる。",
+    "hp": "",
+    "startedYear": 2011,
+    "status": "提供中",
+    "startedAt": "2011-05",
+    "sources": [
+      "https://info.archives.global.fujitsu/jp/news/2011/05/10.html",
+      "https://medical.nikkeibp.co.jp/leaf/all/special/it/news/201105/519672.html"
+    ],
+    "type": "regional-referral-discharge",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f47f03f1",
+    "name": "地域医療連携ネットワーク「ID-Link」",
+    "company": "株式会社エスイーシー",
+    "category": "medical-saas",
+    "description": "地域に分散した病院の検査・処方・画像などの診療情報を、患者の同意のもと統合して共有するクラウドサービス。函館の「道南MedIka」（2008年本格運用）を起点に全国へ広がり、NECなども販売する。",
+    "hp": "https://www.secnet.co.jp/business/products/id-link/",
+    "startedYear": 2008,
+    "status": "提供中",
+    "startedAt": "2008-04",
+    "sources": [
+      "https://www.secnet.co.jp/business/products/id-link/",
+      "https://medical.nikkeibp.co.jp/leaf/all/special/it/report/200812/508971.html",
+      "https://jpn.nec.com/medical_healthcare/solution/id-link/index.html"
+    ],
+    "type": "regional-referral-discharge",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-aeaa3e7a",
+    "name": "ビーアイメディカルのCSO事業（コントラクトMR派遣・業務受託）",
+    "company": "株式会社ビーアイメディカル（ベルシステム24ホールディングス・伊藤忠商事の合弁）",
+    "category": "pharma-marketing-support",
+    "description": "ベルシステム24と伊藤忠商事が出資したビーアイメディカルが、製薬企業にMRを派遣・業務受託したCSO事業。医療分野のコンタクトセンターや開発支援と並ぶ柱だった。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2019-03",
+    "endReasons": [
+      "parent-strategy",
+      "acquisition"
+    ],
+    "endReasonNote": "2019年3月31日を完了予定日としてCSO事業をIQVIAサービシーズジャパンへ譲渡した。IQVIAのもとでの成長を期待し、ビーアイメディカルは開発支援とコンタクトセンターに、ベルシステム24は得意のCRM事業に経営資源を集中するためと説明した。",
+    "lessons": "コールセンター大手が多角化で始めたMR派遣は、規模で勝る専業大手に事業ごと集約された。",
+    "sources": [
+      "https://www.bell24.co.jp/ja/news/uploads/20190304.pdf"
+    ],
+    "type": "remote-mr-meeting",
     "updatedAt": "2026-10"
   }
 ]
