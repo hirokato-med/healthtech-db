@@ -3465,9 +3465,9 @@
     "category": "telemedicine",
     "description": "問診内容から医師を即時にマッチングし、24時間365日保険診療のオンライン診療を受けられる患者向けプラットフォーム。処方薬は自宅配送や近くの薬局で受け取り。AI通訳で多言語対応。",
     "hp": "",
-    "startedYear": 2024,
+    "startedYear": 2025,
     "status": "提供中",
-    "startedAt": "2024-05",
+    "startedAt": "2025-04-28",
     "milestones": [
       {
         "date": "2024-05",
@@ -3483,6 +3483,8 @@
       }
     ],
     "sources": [
+      "https://cloud-dr.jp/1033/",
+      "https://cloud-dr.jp/company/",
       "https://prtimes.jp/main/html/rd/p/000000001.000164410.html",
       "https://prtimes.jp/main/html/rd/p/000000021.000164410.html",
       "https://prtimes.jp/main/html/rd/p/000000019.000164410.html",
@@ -3494,7 +3496,7 @@
       "online-consultation"
     ],
     "type": "telemedicine-direct-to-patient",
-    "startBasis": "変更なし（既存値は会社設立の年月。サービス開始の一次情報は見つからず。PR TIMES初出は2025-06）"
+    "startBasis": "公式お知らせ「オンライン診療サービス『クラウドドクター』サービス開始のお知らせ」（2025-04-28、本日より提供開始）"
   },
   {
     "id": "b-938fe6c2",
@@ -3807,7 +3809,6 @@
     "hp": "",
     "startedYear": null,
     "status": "不明",
-    "startedAt": "2021",
     "milestones": [
       {
         "date": "2021",
@@ -3839,6 +3840,7 @@
     ],
     "endReasonNote": "解散・休止の告知はなく、理由は公表されていない。2025年夏より後の活動を確認できない。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000131479.html",
       "https://m-kango.co.jp/",
       "https://initial.inc/companies/A-KQGMA",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5290001092557",
@@ -3851,7 +3853,8 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "startBasis": "変更なし（既存値は会社設立年）"
+    "knownSince": "2023-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000131479.html"
   },
   {
     "id": "b-74ac63d9",
@@ -7401,9 +7404,8 @@
     "category": "medical-device",
     "description": "大阪大学の1分子電流計測によるDNA解析技術をもとに、ナノ電極を集積した半導体チップで高精度・低コストにDNAを読む次世代シークエンサーを開発していた大学発ベンチャー。",
     "hp": "",
-    "startedYear": 2013,
+    "startedYear": null,
     "status": "終了",
-    "startedAt": "2013-01",
     "endedAt": "2021-08",
     "milestones": [
       {
@@ -7430,14 +7432,13 @@
     "lessons": "半導体プロセスを使う装置の開発は期間と資金が膨らみやすく、製品化の前に事業を続けられなくなった例とみられる。",
     "sources": [
       "https://cdn.prod.website-files.com/69433cc0fd2eb11897468c8a/69e09efa0b68130a38a4d10d_PressRelease_INCJ_QuantumBiosystems_20210831.pdf",
+      "https://www.sanken.osaka-u.ac.jp/socialinnovation/spin_off.html",
       "https://www.nikkan.co.jp/articles/view/00612073",
       "https://bio.nikkeibp.co.jp/atcl/news/p1/21/08/31/08572/",
-      "https://www.sanken.osaka-u.ac.jp/socialinnovation/spin_off.html",
       "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=7120901032172"
     ],
     "updatedAt": "2026-10",
-    "type": "ivd-lab-instrument",
-    "startBasis": "変更なし（大阪大学の研究成果をもとに会社設立。会社設立年月であり事業開始の別の根拠はない）"
+    "type": "ivd-lab-instrument"
   },
   {
     "id": "b-f49cc32f",
@@ -7709,13 +7710,14 @@
     ],
     "endReasonNote": "譲渡の理由は公表されていない。",
     "sources": [
-      "https://www.nsg.gr.jp/blog/%E6%A0%AA%E3%83%99%E3%82%B9%E3%83%88%E3%82%B1%E3%82%A2%E3%83%BC",
-      "https://www.nihon-ma.co.jp/news/20220114_2413-15/"
+      "https://medirom-rehab-solutions.co.jp/corp.html",
+      "https://www.nihon-ma.co.jp/news/20220114_2413-15/",
+      "https://www.nsg.gr.jp/blog/%E6%A0%AA%E3%83%99%E3%82%B9%E3%83%88%E3%82%B1%E3%82%A2%E3%83%BC"
     ],
     "updatedAt": "2026-10",
     "type": "care-service-operation",
-    "startedAt": "2014-02",
-    "startBasis": "変更なし（既存値は株式会社ワイズの設立年月）"
+    "startedAt": "2014-03",
+    "startBasis": "会社の沿革：2014-03-01に株式会社ワイズとして正式に事業開始（デイサービス「アルクル」1号店は設立日の2014-02-04に認可取得）"
   },
   {
     "id": "b-1c087052",
@@ -8057,9 +8059,8 @@
     "category": "health-consulting",
     "description": "25診療科130領域で、症状や疾患に応じて実績ある専門医を会員に紹介する名医紹介サービスと、看護師などに健康相談できるチャットサービス。保険会社の健康アプリなどにも組み込まれた。",
     "hp": "",
-    "startedYear": 2015,
+    "startedYear": null,
     "status": "終了",
-    "startedAt": "2015",
     "endedAt": "2026-03",
     "milestones": [
       {
@@ -8092,14 +8093,18 @@
     ],
     "endReasonNote": "JMDCは2026年3月31日でサービスを終了したと告知したが、理由は示していない。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000048.000010134.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000018056.html",
+      "https://www.jmdc.co.jp/history/",
+      "https://www.jmdc.co.jp/clintal-notice/",
       "https://www.jmdc.co.jp/news/news20181029/",
       "https://www.jmdc.co.jp/news/news20190401/",
-      "https://www.jmdc.co.jp/news/news20210329-2/",
-      "https://www.jmdc.co.jp/clintal-notice/"
+      "https://www.jmdc.co.jp/news/news20210329-2/"
     ],
     "updatedAt": "2026-10",
     "type": "specialist-referral",
-    "startBasis": "変更なし（既存値は会社設立年。PR TIMES初出の2016-03資金調達リリースで「最適な受診先を探せるサービスを提供」）"
+    "knownSince": "2015-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000048.000010134.html"
   },
   {
     "id": "b-6c25680f",
@@ -8330,9 +8335,9 @@
     "category": "medical-dx",
     "description": "現役医師が開発した、患者が来院前にスマホで問診を入力し、内容を電子カルテにワンクリックで連携できるクリニック向けWEB問診システム。患者向けアプリやAI受診相談も展開。",
     "hp": "",
-    "startedYear": 2016,
+    "startedYear": 2017,
     "status": "統合",
-    "startedAt": "2016",
+    "startedAt": "2017-12",
     "endedAt": "2023-07",
     "successor": "株式会社HERO innovation（JMDCグループ、メルプとして継続）",
     "milestones": [
@@ -8409,8 +8414,10 @@
     ],
     "endReasonNote": "JMDCグループ内の再編で、クリニック向けのスマートクリニック化を進めるHERO innovationがメルプ事業を統合した。サービスは継続している。",
     "sources": [
-      "https://medisma.jp/consultation/",
       "https://prtimes.jp/main/html/rd/p/000000002.000030859.html",
+      "https://apps.apple.com/jp/app/id1317698365",
+      "https://apps.apple.com/jp/app/id1561098094",
+      "https://medisma.jp/consultation/",
       "https://www.jmdc.co.jp/news/news20200413/",
       "https://www.jmdc.co.jp/news/news20210512/",
       "https://www.jmdc.co.jp/news/news2021101-2/",
@@ -8486,7 +8493,7 @@
       "る"
     ],
     "type": "web-ai-monshin",
-    "startBasis": "変更なし（既存値は会社設立年。WEB問診システムの提供開始は2017-12で、一次情報で確認できる最も古い提供）"
+    "startBasis": "「メルプWEB問診」の提供開始（PR TIMES 2017-12-28。連携アプリ「メルプカルテ」のApp Store公開は2017-12-08）"
   },
   {
     "id": "b-4f0f7dfa",
@@ -9228,9 +9235,8 @@
     "category": "direct-to-consumer",
     "description": "サプリメントやOTC医薬品の情報を扱うWebメディアを運営し、利用実態の消費者調査を公表。ビジネスパーソン向けの集中サポートサプリも自社で発売した。",
     "hp": "",
-    "startedYear": 2019,
+    "startedYear": null,
     "status": "不明",
-    "startedAt": "2019",
     "milestones": [
       {
         "date": "2019-04",
@@ -9264,7 +9270,8 @@
     ],
     "updatedAt": "2026-10",
     "type": "d2c-nutrition-food-brand",
-    "startBasis": "変更なし（既存値は会社設立年。PR TIMES初出は2020-03のdoop先行予約）"
+    "knownSince": "2020-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000003.000046668.html"
   },
   {
     "id": "b-b7b555c1",
@@ -9971,8 +9978,9 @@
     "lessons": "無料のセルフケアアプリから、カウンセリング・診療・治療用アプリへと、お金を払う相手（個人・企業・保険診療）を探しながら事業を重ねている。",
     "sources": [
       "https://emol.jp/about",
-      "https://emol.jp/news",
+      "https://apps.apple.com/jp/app/id1342105183",
       "https://prtimes.jp/main/html/rd/p/000000001.000043787.html",
+      "https://emol.jp/news",
       "https://prtimes.jp/main/html/rd/p/000000010.000043787.html",
       "https://prtimes.jp/main/html/rd/p/000000026.000043787.html"
     ],
@@ -9981,7 +9989,7 @@
       "mental-chat"
     ],
     "type": "mental-ai-selfcare-app",
-    "startBasis": "変更なし（既存値：感情記録アプリ「emol」公開。会社設立〈2019〉前の提供）"
+    "startBasis": "感情記録アプリ「emol」のリリース（公式Our Story「2018年3月にリリース」。App Store公開日2018-03-26）。会社設立（2019-03-18）の約1年前"
   },
   {
     "id": "b-4a5c6479",
@@ -14969,9 +14977,9 @@
     "category": "recruting-solutions",
     "description": "人手が足りない介護・福祉施設と、すき間時間に働きたい人を結ぶ単発バイトアプリ。デイサービス管理者だった代表が2021年に設立し、有料職業紹介の許可を持つ。",
     "hp": "",
-    "startedYear": 2021,
+    "startedYear": 2023,
     "status": "提供中",
-    "startedAt": "2021-07",
+    "startedAt": "2023-11",
     "milestones": [
       {
         "date": "2021-07",
@@ -14984,6 +14992,10 @@
     ],
     "endReasonNote": "提供中。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000130623.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000130623.html",
+      "https://care-link.co.jp/news/u_CB_RsR",
+      "https://care-link.co.jp/company",
       "https://sogyotecho.jp/news/20260612care-link/"
     ],
     "updatedAt": "2026-10",
@@ -14991,7 +15003,7 @@
       "medical-jobs"
     ],
     "type": "care-spot-work",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "「ケアリンク（千葉版）」の発表・事前登録開始（PR TIMES 2023-11-02、事前登録は11-01開始。首都圏版の提供開始は2024-02-02）"
   },
   {
     "id": "b-db5dbbd0",
@@ -15001,9 +15013,9 @@
     "category": "recruting-solutions",
     "description": "関西を中心に、看護師など医療・介護人材と施設を短期のスポット勤務でつなぐ。一定期間働いて相互理解を深める「ナラシワーク」を経て本採用に進む段階的な採用を掲げる。",
     "hp": "",
-    "startedYear": 2023,
+    "startedYear": 2026,
     "status": "提供中",
-    "startedAt": "2023-12",
+    "startedAt": "2026-03",
     "milestones": [
       {
         "date": "2023-12",
@@ -15025,6 +15037,8 @@
     ],
     "endReasonNote": "提供中。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000181025.html",
+      "https://kan-tan.co.jp/information",
       "https://prtimes.jp/main/html/rd/p/000000007.000181025.html",
       "https://kan-tan.co.jp/"
     ],
@@ -15033,7 +15047,7 @@
       "medical-jobs"
     ],
     "type": "care-spot-work",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "看護師のスポットワークの展開開始（自社リリース2026-04-21「当社は2026年3月より、看護師を対象とした…スポットワークを大阪エリアを中心に展開」）"
   },
   {
     "id": "b-3ec66f72",
@@ -15199,9 +15213,8 @@
     "category": "recruting-solutions",
     "description": "訪問看護に特化した看護師の人材紹介と、掲載料無料・成功報酬型の訪問看護専門求人メディア。教育・定着支援や採用代行も行い、2024年に帝人グループに入った。",
     "hp": "",
-    "startedYear": 2016,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2016-03",
     "milestones": [
       {
         "date": "2016-03",
@@ -15218,6 +15231,8 @@
     ],
     "endReasonNote": "提供中（親会社が変わった）。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000021077.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000021077.html",
       "https://hcso-inc.com/"
     ],
     "updatedAt": "2026-10",
@@ -15225,7 +15240,8 @@
       "medical-jobs"
     ],
     "type": "specialty-niche-recruiting",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2016-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000021077.html"
   },
   {
     "id": "b-639bed35",
@@ -15325,7 +15341,7 @@
       "medical-jobs"
     ],
     "type": "specialty-niche-recruiting",
-    "startBasis": "リリース日（プレスリリース）。2021-04は会社設立時期とみられる"
+    "startBasis": "「シェアレジ」のリリース（自社プレスリリース2026-09-01「2026年9月1日にリリース」）"
   },
   {
     "id": "b-94456b44",
@@ -15335,7 +15351,7 @@
     "category": "recruting-solutions",
     "description": "薬剤師業界特化の人材会社が、フリーランス・副業の薬剤師と薬局をつなぐ案件紹介。転職支援「メディクレクト転職」やWebスキルのスクールと組み合わせる。",
     "hp": "",
-    "startedYear": 2019,
+    "startedYear": 2020,
     "status": "提供中",
     "milestones": [
       {
@@ -15369,8 +15385,8 @@
       "medical-jobs"
     ],
     "type": "specialty-niche-recruiting",
-    "startedAt": "2019-07",
-    "startBasis": "変更なし（既存値は会社設立。サービスのリリースは2020-08）"
+    "startedAt": "2020-05",
+    "startBasis": "「きょうりょく薬剤師」のサービス開始（自社プレスリリース2020-08-19「2020年5月にサービスを開始」）"
   },
   {
     "id": "b-9dbc777a",
@@ -16566,9 +16582,8 @@
     "category": "health-consulting",
     "description": "病気や症状に応じて専門医を紹介し、看護師にも相談できる会員制の医師紹介・看護師相談サービス。2018年にデータ企業のJMDCが買収し、同社の事業として続けた。",
     "hp": "",
-    "startedYear": 2015,
+    "startedYear": null,
     "status": "終了",
-    "startedAt": "2015",
     "endedAt": "2026-03",
     "milestones": [
       {
@@ -16593,15 +16608,18 @@
     ],
     "endReasonNote": "終了告知は「長年にわたりご愛顧いただきました」と感謝を述べるのみで、理由・引き継ぎ先は書かれていない。",
     "sources": [
-      "https://www.jmdc.co.jp/clintal-notice/",
-      "https://www.jmdc.co.jp/history/"
+      "https://prtimes.jp/main/html/rd/p/000000048.000010134.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000018056.html",
+      "https://www.jmdc.co.jp/history/",
+      "https://www.jmdc.co.jp/clintal-notice/"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "doctor-qa"
     ],
     "type": "specialist-referral",
-    "startBasis": "変更なし（既存値は会社設立年。サービス開始時期は確認できず）"
+    "knownSince": "2015-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000048.000010134.html"
   },
   {
     "id": "b-a93243dd",
@@ -16862,9 +16880,9 @@
     "category": "health-consulting",
     "description": "会員ごとに名前と経歴を持つ医師が継続して担当し、チャットでの健康相談や受診判断、オーダーメイドの人間ドック設計、検査データの蓄積・分析を一体で提供する個人向けの会員制サービス。",
     "hp": "",
-    "startedYear": 2018,
+    "startedYear": 2019,
     "status": "提供中",
-    "startedAt": "2018",
+    "startedAt": "2019-10",
     "milestones": [
       {
         "date": "2018-06",
@@ -16881,6 +16899,8 @@
     ],
     "lessons": "匿名・低価格の医師Q&Aとは逆に、担当医を固定し高単価の個人会員を少数持つ形をとっている。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000049636.html",
+      "https://prtimes.jp/main/html/rd/p/000000004.000049636.html",
       "https://company.wellness.jp/",
       "https://www.wellness.jp/"
     ],
@@ -16889,7 +16909,7 @@
       "doctor-qa"
     ],
     "type": "doctor-chat-consultation",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "パーソナルドクターサービス「Wellness」β版の提供開始（自社プレスリリース2019-10-23）"
   },
   {
     "id": "b-012d7764",
@@ -21965,15 +21985,15 @@
     "status": "提供中",
     "startedAt": "2012-07",
     "sources": [
-      "https://unlog.co.jp/services/",
       "https://unlog.co.jp/company/",
       "https://apps.apple.com/jp/app/id539493829",
+      "https://unlog.co.jp/services/",
       "https://prtimes.jp/main/html/rd/p/000000028.000057086.html",
       "https://unlog.co.jp/business/app-development/"
     ],
     "updatedAt": "2026-10",
     "type": "diet-log-app",
-    "startBasis": "変更なし（会社設立〈2013-08〉前からアプリ提供＝公式沿革・App Store）",
+    "startBasis": "アプリ「ウンログ」の提供開始（公式沿革「2012年 ウンログを提供開始」、App Store公開日2012-07-14）",
     "milestones": [
       {
         "date": "2023-06",
@@ -36961,15 +36981,16 @@
     "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000125852.html",
       "https://nutribase-lab.com/products/ayo",
-      "https://nutribase.co.jp/",
       "https://prtimes.jp/main/html/rd/p/000000020.000125852.html",
+      "https://nutribase.co.jp/",
       "https://news.dellows.jp/536269/"
     ],
     "updatedAt": "2026-10",
     "type": "d2c-nutrition-food-brand",
-    "startedAt": "2023",
-    "startBasis": "変更なし（既存値。2023-07に会社設立の発表）",
+    "startedAt": "2023-07-27",
+    "startBasis": "無味無臭パウダー「Ayo」の発売（自社プレスリリース2023-07-27、発売日2023年7月27日）",
     "milestones": [
       {
         "date": "2024-09-03",
@@ -42953,7 +42974,7 @@
     ],
     "updatedAt": "2026-10",
     "type": "contract-lab-omics",
-    "startBasis": "前の運営会社（メディカル・システム・サービス神奈川〈現あすか製薬メディカル〉）として設立（既存値は会社設立年月）"
+    "startBasis": "前の運営会社（メディカル・システム・サービス神奈川、現 あすか製薬メディカル）で受託を開始"
   },
   {
     "id": "b-a02145c8",
@@ -42980,14 +43001,16 @@
     "category": "pharma",
     "description": "あすか製薬グループのあすかアニマルヘルスが、動物用医薬品・動物用医療機器や飼料・飼料添加物などを製造・販売・輸出入する事業。2013年6月に設立した。",
     "hp": "https://www.aska-pharma-hd.co.jp/company/company.html",
-    "startedYear": 2013,
+    "startedYear": 1957,
     "status": "提供中",
-    "startedAt": "2013-06",
+    "startedAt": "1957",
     "sources": [
+      "https://www.aska-animal.co.jp/about/company.html",
+      "https://www.aska-pharma-hd.co.jp/company/corporate_history.html",
       "https://www.aska-pharma-hd.co.jp/company/company.html"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（あすかアニマルヘルス設立＝既存記載。会社設立年月）"
+    "startBasis": "前身の帝国臓器製薬が「動物用シナホリン」「動物用オバホルモンベンツアート」「獣医用セロトロピン」を発売（あすかアニマルヘルス公式沿革の1957年）"
   },
   {
     "id": "b-3650b8cf",
@@ -45889,16 +45912,19 @@
     "category": "pharma",
     "description": "がん細胞・がん幹細胞の造腫瘍能や老化を促進する遺伝子を標的に、がん治療薬・抗老化薬、フレイルやがん悪液質の治療薬を研究開発。",
     "hp": "",
-    "startedYear": 2024,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2024-01",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000155065.html",
+      "https://www.ttraveler.jp/about/",
+      "https://prtimes.jp/main/html/rd/p/000000004.000155065.html",
       "https://www.ttraveler.jp/",
       "https://prtimes.jp/main/html/rd/p/000000009.000155065.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立。アカデミア発で「創業1年」＝2025-05リリース）"
+    "knownSince": "2025-01",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000155065.html"
   },
   {
     "id": "b-1d3a853c",
@@ -46047,17 +46073,20 @@
     "category": "pharma",
     "description": "フェロトーシス（鉄依存性細胞死）を阻害する低分子化合物。ミトコンドリア脳筋症を最初の適応として治験準備を進め、老化関連疾患への展開も狙う。",
     "hp": "",
-    "startedYear": 2022,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2022-08",
     "sources": [
+      "https://curecell-lab.com/news/notice-of-website-release/09/01/2024/",
+      "https://curecell-lab.com/company/",
+      "https://prtimes.jp/main/html/rd/p/000000004.000169641.html",
       "https://prtimes.jp/main/html/rd/p/000000007.000169641.html",
       "https://curecell-lab.com/category/news/",
       "https://bio.nikkeibp.co.jp/atcl/column/16/021500017/091100400/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2024-01",
+    "knownSinceSource": "https://curecell-lab.com/news/notice-of-website-release/09/01/2024/"
   },
   {
     "id": "b-0b13d0f7",
@@ -46227,17 +46256,19 @@
     "category": "pharma",
     "description": "iPS細胞から作製した軟骨組織を3Dプリンティング技術で本物に近い形状に成形し、変形性膝関節症などの患者の膝に移植する再生医療。前臨床段階。",
     "hp": "",
-    "startedYear": 2023,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2023-07",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000807.000000168.html",
       "https://arktustx.com/",
+      "https://arktustx.com/company",
       "https://www.nikkei.com/article/DGXZQOUF2216J0S5A920C2000000/",
       "https://bio.nikkeibp.co.jp/atcl/news/p1/26/07/02/14757/"
     ],
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2024-04",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000807.000000168.html"
   },
   {
     "id": "b-9cd8cc44",
@@ -46314,16 +46345,18 @@
     "category": "pharma",
     "description": "線虫C.エレガンスの一生をヒトに見立て、独自指標HaSで素材の健康寿命への影響を数値化する評価系。動物実験の代替として医薬・食品・化粧品企業の素材評価や共同研究に使う。",
     "hp": "",
-    "startedYear": 2019,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2019-04",
     "sources": [
-      "https://c-hasplus.co.jp/about/",
-      "https://c-hasplus.co.jp/company/"
+      "https://prtimes.jp/main/html/rd/p/000000001.000102824.html",
+      "https://c-hasplus.co.jp/company/",
+      "https://www.kumamoto-u.ac.jp/daigakujouhou/kouhou/kouhoushi/kumadainow/kumadai_now_file_2020/20210218",
+      "https://c-hasplus.co.jp/about/"
     ],
     "type": "cdmo-contract-research",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2022-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000102824.html"
   },
   {
     "id": "b-5d045d51",
@@ -46350,16 +46383,18 @@
     "category": "pharma",
     "description": "緑膿菌感染症を対象としたバクテリオファージのカクテル製剤。薬剤耐性菌など抗菌薬が効きにくい感染症の新たな治療法として、米国でのIND申請・初回臨床試験を準備中。",
     "hp": "",
-    "startedYear": 2025,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2025-02",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000167216.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000167216.html",
+      "https://arrowsmith.co.jp/jp/about-us",
       "https://bio.nikkeibp.co.jp/atcl/news/p1/26/09/04/14995/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2025-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000167216.html"
   },
   {
     "id": "b-3450342a",
@@ -46373,11 +46408,12 @@
     "status": "提供中",
     "startedAt": "2023-10",
     "sources": [
-      "https://www.tcn-prime.jp/"
+      "https://www.tcn-prime.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000006.000167970.html"
     ],
     "type": "cardiovascular-device",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社のお知らせ：設立と同時に開発を開始（2023-10-06「神戸大学医学部小西明英医師が開発する医療機器を…設立」。2023-11-24にバルーンカテーテル開発拠点の滋賀研究所を開設）"
   },
   {
     "id": "b-b63b09a9",
@@ -46460,16 +46496,19 @@
     "category": "medical-device",
     "description": "骨盤内がんに対するカテーテル治療NIPPで使う専用医療機器。両足の付け根から挿入したカテーテルとバルーンで骨盤内の血流を隔離し、高濃度の抗がん剤を限定的に届けて回収する。医師主導治験と薬事承認、2030年の保険適用をめざす。",
     "hp": "",
-    "startedYear": 2024,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2024-12",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000010.000162111.html",
+      "https://prtimes.jp/main/html/rd/p/000000007.000162111.html",
       "https://prtimes.jp/main/html/rd/p/000000013.000162111.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000162111.html",
       "https://medculation.co.jp/"
     ],
     "type": "therapeutic-devices-supplies",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2025-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000010.000162111.html"
   },
   {
     "id": "b-b2788da8",
@@ -46497,16 +46536,18 @@
     "category": "pharma",
     "description": "自己抗体が認識する抗原蛋白質などを生かし、病原性自己抗体と産生細胞を除く潰瘍性大腸炎などの治療薬を研究開発する。",
     "hp": "",
-    "startedYear": 2022,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2022-10",
     "sources": [
+      "https://www.link-therapeutics.com/topics",
+      "https://prtimes.jp/main/html/rd/p/000000184.000076057.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000163949.html",
       "https://bio.nikkeibp.co.jp/atcl/news/p1/25/09/08/13711/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2023-02",
+    "knownSinceSource": "https://www.link-therapeutics.com/topics"
   },
   {
     "id": "b-3cb099be",
@@ -46643,15 +46684,16 @@
     "category": "pharma",
     "description": "68Ga-PSMAなど次世代PET診断薬の国内導入や、アスタチン211などの治療用放射性医薬品の開発を、医療機器開発・放射化学・薬事の知見で支援する。",
     "hp": "",
-    "startedYear": 2019,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2019-02",
     "sources": [
-      "https://www.ams-plan.com/"
+      "https://www.ams-plan.com/",
+      "https://www.ams-plan.com/release/20230307ja.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2019-07",
+    "knownSinceSource": "https://www.ams-plan.com/"
   },
   {
     "id": "b-2d264f82",
@@ -46663,15 +46705,18 @@
     "hp": "",
     "startedYear": 2018,
     "status": "提供中",
-    "startedAt": "2018-02",
+    "startedAt": "2018-04",
     "sources": [
+      "https://rebornabiosciences.com/company/",
+      "https://rebornabiosciences.com/about/",
+      "https://prtimes.jp/main/html/rd/p/000000005.000078945.html",
       "https://prtimes.jp/main/html/rd/p/000000017.000078945.html",
       "https://prtimes.jp/main/html/rd/p/000000015.000078945.html",
       "https://www.ono-pharma.com/ja/news/20250331_3.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社の沿革：2018-04「事業開始」（RNAを標的とする低分子医薬品の研究開発。設立は2018-02-20）"
   },
   {
     "id": "b-13deadba",
@@ -46685,12 +46730,13 @@
     "status": "提供中",
     "startedAt": "2017",
     "sources": [
-      "https://eaderm.com/",
-      "https://prtimes.jp/main/html/rd/p/000000005.000127439.html"
+      "https://eaderm.com/company",
+      "https://prtimes.jp/main/html/rd/p/000000005.000127439.html",
+      "https://eaderm.com/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社の沿革：設立と同時に毛髪・皮膚疾患の医薬品の研究開発を開始（2017年「…医薬品・医薬部外品を開発することを目的として設立。化合物およびエキスライブラリーを用いたハイスループットスクリーニング実施」）"
   },
   {
     "id": "b-57fe5d93",
@@ -47125,16 +47171,18 @@
     "category": "pharma",
     "description": "日本橋の細胞培養加工施設で、医療機関の再生医療（幹細胞・PRPなど）に使う細胞を再生医療等安全性確保法に沿って受託製造し、提供計画や品質保証、医療者教育まで支援する。",
     "hp": "",
-    "startedYear": 2021,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2021-06",
     "sources": [
-      "https://gaudi-clinical.co.jp/",
-      "https://gaudi-clinical.co.jp/company/"
+      "https://prtimes.jp/main/html/rd/p/000000001.000121700.html",
+      "https://gaudi-clinical.co.jp/news-room/press-release/20221122330/",
+      "https://gaudi-clinical.co.jp/company/",
+      "https://gaudi-clinical.co.jp/"
     ],
     "type": "cdmo-contract-research",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2023-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000121700.html"
   },
   {
     "id": "b-0271ccba",
@@ -47439,10 +47487,13 @@
     "category": "pharma",
     "description": "病原RNAの構造に選択的に結合する低分子化合物を大規模・同時並列に探索する独自技術。協和キリン、大塚製薬、日本新薬など製薬企業との共同研究に提供する。",
     "hp": "",
-    "startedYear": 2020,
+    "startedYear": 2019,
     "status": "提供中",
-    "startedAt": "2020-05",
+    "startedAt": "2019-03",
     "sources": [
+      "https://www.xforestx.com/news/2019-03-01-kyoto-university-incubation/",
+      "https://www.xforestx.com/news/",
+      "https://www.xforestx.com/about/company/",
       "https://www.xforestx.com/",
       "https://www.xforestx.com/technology/",
       "https://www.otsuka.co.jp/company/newsreleases/2022/20220613_1.html",
@@ -47450,7 +47501,7 @@
     ],
     "type": "ai-computational-drug-discovery",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社設立前の前身プロジェクトが京都大学のインキュベーション資金に採択（公式ニュース2019-03-01）。会社設立は2020-05-01"
   },
   {
     "id": "b-5a5e5b49",
@@ -47606,16 +47657,18 @@
     "category": "pharma",
     "description": "ゲノム編集で原因遺伝子に働きかけ、常染色体顕性（優性）遺伝の網膜変性疾患を治療する遺伝子治療。GMP下でのベクター製造と非臨床試験を経て治験をめざす。",
     "hp": "",
-    "startedYear": 2020,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2020-08",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000156.000078202.html",
+      "https://kuc.vc/news/633/",
       "https://www.vcgt.jp/about/",
-      "https://kuc.vc/news/633/"
+      "https://prtimes.jp/main/html/rd/p/000000001.000154739.html"
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2023-02",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000156.000078202.html"
   },
   {
     "id": "b-6a8caf1e",
@@ -48512,17 +48565,19 @@
     "category": "pharma",
     "description": "約2,600種あるマイクロRNAの細胞ごとの活性の違いを利用し、標的細胞でだけタンパク質を発現させる合成mRNAの設計技術。製薬企業との共同研究で細胞標的mRNA医薬や細胞・遺伝子治療に応用する。",
     "hp": "",
-    "startedYear": 2018,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2018",
     "sources": [
+      "https://www.acernatec.com/news",
+      "https://www.acernatec.com/company",
       "https://www.acernatec.com/",
       "https://prtimes.jp/main/html/rd/p/000000289.000076057.html",
       "https://bio.nikkeibp.co.jp/atcl/release/24/02/14/19430/"
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2018-11",
+    "knownSinceSource": "https://www.acernatec.com/news"
   },
   {
     "id": "b-a722668a",
@@ -48640,16 +48695,18 @@
     "category": "pharma",
     "description": "ペプチドから抗体までのバイオ医薬品をナノポリマーに封入し、腫瘍の部位で選択的に放出させる薬物送達技術を使い、がんへの効果を高め腫瘍外での毒性を抑える治療薬を開発する。",
     "hp": "",
-    "startedYear": 2021,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2021-08",
     "sources": [
+      "https://redarrowtx.com/en/news/",
+      "https://redarrowtx.com/en/about-3/",
       "https://redarrowtx.com/",
       "https://redarrowtx.com/our-science-3/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2022-11",
+    "knownSinceSource": "https://redarrowtx.com/en/news/"
   },
   {
     "id": "b-50219663",
@@ -48791,16 +48848,17 @@
     "category": "pharma",
     "description": "不純物に起因する不要な自然免疫応答を抑える高純度キャップ化技術でmRNAを製造し、感染症・がんなどのmRNA医薬品・ワクチンをパートナーと開発する。",
     "hp": "",
-    "startedYear": 2022,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2022-03",
     "sources": [
+      "https://www.amed.go.jp/program/list/21/02/001.html",
       "https://craftonbio.com/about/",
       "https://craftonbio.com/"
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立。2022-03に日経バイオテクが紹介）"
+    "knownSince": "2022-12",
+    "knownSinceSource": "https://www.amed.go.jp/program/list/21/02/001.html"
   },
   {
     "id": "b-94c2fd77",
@@ -48994,15 +49052,16 @@
     "category": "pharma",
     "description": "乳酸菌が産生する長鎖ポリリン酸で腸管バリア機能を高める潰瘍性大腸炎などの治療薬候補。医師主導臨床研究を経て第1相治験の開始に向け準備中。",
     "hp": "https://www.kamuipharma.co.jp",
-    "startedYear": 2018,
+    "startedYear": 2010,
     "status": "提供中",
-    "startedAt": "2018-04",
+    "startedAt": "2010",
     "sources": [
+      "https://www.kamuipharma.co.jp/複製-company-profile",
       "https://prtimes.jp/main/html/rd/p/000000001.000101809.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立。2018-05に旭川医大らの設立発表〈QLifePro報道〉）"
+    "startBasis": "会社の沿革：会社設立前（旭川医科大学での研究段階）の2010年にIBD治療薬「長鎖ポリリン酸」を特許出願（2016-04に医師主導治験を開始、2018-04に会社設立）"
   },
   {
     "id": "b-210c6c22",
@@ -49265,15 +49324,17 @@
     "category": "pharma",
     "description": "細胞のオートファジー活性を指標に、食品素材などの介入が老化に与える影響を調べる研究基盤。2025年10月に介入臨床試験を開始し、キュレーションズ・電通とXPRIZE Healthspanに参加。",
     "hp": "",
-    "startedYear": 2019,
+    "startedYear": 2024,
     "status": "提供中",
-    "startedAt": "2019-06",
+    "startedAt": "2024-07",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000008.000107643.html",
-      "https://prtimes.jp/main/html/rd/p/000000006.000107643.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000107643.html",
+      "https://prtimes.jp/main/html/rd/p/000000004.000107643.html",
+      "https://prtimes.jp/main/html/rd/p/000000006.000107643.html",
+      "https://prtimes.jp/main/html/rd/p/000000008.000107643.html"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "キュレーションズとの「攻めのAgeTech」MOU締結とXPRIZE Healthspanへの参加決定の発表（自社プレスリリース2024-07-31）"
   },
   {
     "id": "b-756bd3c4",
@@ -49283,9 +49344,9 @@
     "category": "pharma",
     "description": "大腸菌などの細胞を使わずにプラスミドDNAを合成・増幅する技術。オリシロ時代は研究用ツールとして外販し、モデルナ買収後はmRNA製造の上流工程の品質とスピードを高める社内研究支援技術として使われる。",
     "hp": "",
-    "startedYear": 2018,
+    "startedYear": 2020,
     "status": "統合",
-    "startedAt": "2018-12",
+    "startedAt": "2020-07-09",
     "endedAt": "2023-03",
     "endReasons": [
       "unknown"
@@ -49297,7 +49358,7 @@
     ],
     "type": "life-science-tools",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立の年月で、事業開始の一次根拠ではない。研究用ツールの販売開始は2020-07）",
+    "startBasis": "セルフリー長鎖DNA構築ツール「OriCiro Cell-Free Cloning System」の研究用試薬としての販売開始（自社プレスリリース2020-07-09）",
     "milestones": [
       {
         "date": "2020-07",
@@ -49368,16 +49429,18 @@
     "category": "pharma",
     "description": "健康な提供者から単離した機能的なミトコンドリアを保存可能な製剤にし、損傷した組織に投与してエネルギー代謝の回復を図る医薬品。心臓・脳の虚血再灌流障害や遺伝性ミトコンドリア病が対象。",
     "hp": "https://ja.luca-science.com/",
-    "startedYear": 2018,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2018-12",
     "sources": [
+      "https://ja.luca-science.com/news/200401-01",
+      "https://ja.luca-science.com/news",
       "https://ja.luca-science.com/about-us",
       "https://ja.luca-science.com/news/220606-01"
     ],
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2020-04",
+    "knownSinceSource": "https://ja.luca-science.com/news/200401-01"
   },
   {
     "id": "b-25e65b0e",
@@ -49387,15 +49450,18 @@
     "category": "pharma",
     "description": "ヒトの天然型マイクロRNA「miR-3140-3p」を有効成分とする核酸医薬。悪性胸膜中皮腫を対象に臨床開発中で、2025年5月に米FDAから中皮腫の希少疾病用医薬品指定を取得。",
     "hp": "https://www.purmx.com/pipeline",
-    "startedYear": 2021,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2021-01",
     "sources": [
+      "https://www.hiroshima-u.ac.jp/news/68760",
+      "https://prtimes.jp/main/html/rd/p/000000001.000102278.html",
+      "https://www.purmx.com/pipeline",
       "https://prtimes.jp/main/html/rd/p/000000007.000102278.html"
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2022-01",
+    "knownSinceSource": "https://www.hiroshima-u.ac.jp/news/68760"
   },
   {
     "id": "b-16b70037",
@@ -49409,11 +49475,13 @@
     "status": "提供中",
     "startedAt": "2016-11",
     "sources": [
+      "https://www.kpharma.co.jp/company",
+      "https://www.amed.go.jp/news/release_20181203.html",
       "https://prtimes.jp/main/html/rd/p/000000002.000101219.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社の沿革：設立と同時に医薬品の研究開発を開始（2016-11「医薬品および再生医療等製品の研究・開発・製造・販売を目的として…株式会社ケイファーマを設立」）"
   },
   {
     "id": "b-1eb3fb06",
@@ -49427,12 +49495,14 @@
     "status": "提供中",
     "startedAt": "2016-11",
     "sources": [
+      "https://www.kpharma.co.jp/company",
+      "https://prtimes.jp/main/html/rd/p/000000002.000101219.html",
       "https://prtimes.jp/main/html/rd/p/000000001.000101219.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000101219.html"
     ],
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社の沿革：設立と同時に再生医療等製品の研究開発を開始（2016-11「医薬品および再生医療等製品の研究・開発・製造・販売を目的として…株式会社ケイファーマを設立」）"
   },
   {
     "id": "b-3931f980",
@@ -49466,11 +49536,12 @@
     "startedAt": "2019-05",
     "sources": [
       "https://exorphia.com/company/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000097637.html",
       "https://prtimes.jp/main/html/rd/p/000000014.000097637.html"
     ],
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社の沿革・自社リリース：設立と同時にEV創薬の研究を開始（2022-05-19リリース「2019年の創業以来独自に研究を進め…INPACT-EVを開発」。沿革：2019-05設立、2019-08ラボ開設）"
   },
   {
     "id": "b-6bc7d8f5",
@@ -49770,14 +49841,16 @@
     "hp": "https://www.purec.jp/",
     "startedYear": 2016,
     "status": "提供中",
-    "startedAt": "2016-01",
+    "startedAt": "2016-04",
     "sources": [
+      "https://www.purec.jp/company/",
+      "https://www.purec.jp/about_us/",
       "https://prtimes.jp/main/html/rd/p/000000004.000072837.html",
       "https://prtimes.jp/main/html/rd/p/000000006.000072837.html"
     ],
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社の沿革：2016-04-01「本格始動」（会社登記は2016-01-05）"
   },
   {
     "id": "b-e13bb65e",
@@ -49892,19 +49965,20 @@
     "category": "pharma",
     "description": "欧米で承認済みのヒスタミンH3受容体拮抗薬／逆作動薬。日本での開発を進め、買収後はヴィアトリスが承認申請を行う予定と公表。",
     "hp": "",
-    "startedYear": 2021,
+    "startedYear": null,
     "status": "譲渡",
-    "startedAt": "2021",
     "endedAt": "2025-10",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000081.000076057.html",
       "https://prtimes.jp/main/html/rd/p/000000010.000114032.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2022-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000081.000076057.html"
   },
   {
     "id": "b-22216be8",
@@ -49953,16 +50027,17 @@
     "category": "pharma",
     "description": "病的ペリオスチンを特異的に阻害して腫瘍微小環境を改善し、抗がん剤抵抗性の克服を狙う抗体医薬。転移・再発HER2陰性乳がんを対象に阪大病院の医師主導治験で評価中。",
     "hp": "",
-    "startedYear": 2017,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2017",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000097613.html",
       "https://prtimes.jp/main/html/rd/p/000000006.000125075.html",
       "https://prtimes.jp/main/html/rd/p/000000008.000125075.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2022-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000097613.html"
   },
   {
     "id": "b-b592b4b4",
@@ -50023,16 +50098,17 @@
     "category": "pharma",
     "description": "標的RNAに配列選択的に結合して構造を変換し、疾患原因タンパク質の発現抑制や必要なタンパク質の発現増加、ウイルス増殖の抑制などを狙う核酸医薬技術。2026年に標的を広げる「Gs-Staple核酸」を開発。",
     "hp": "https://staplebio.jp/",
-    "startedYear": 2021,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2021-11",
     "sources": [
-      "https://staplebio.jp/",
-      "https://prtimes.jp/main/html/rd/p/000000002.000141458.html"
+      "https://prtimes.jp/main/html/rd/p/000000038.000124365.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000141458.html",
+      "https://staplebio.jp/"
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2023-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000038.000124365.html"
   },
   {
     "id": "b-88f1d286",
@@ -50130,17 +50206,19 @@
     "category": "pharma",
     "description": "免疫拒絶を回避するよう改変したiPS細胞から作るT細胞療法。肝細胞がん・大腸がん・非小細胞肺がんなどGPC3を発現する固形がんを対象に臨床入りを目指す。",
     "hp": "https://www.shinobitx.com/",
-    "startedYear": 2015,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2015",
     "sources": [
-      "https://startup-db.com/companies/kjlVZLoUnP3p9q3E",
+      "https://prtimes.jp/main/html/rd/p/000000001.000096294.html",
+      "https://prtimes.jp/main/html/rd/p/000000003.000096294.html",
+      "https://prtimes.jp/main/html/rd/p/000000009.000096294.html",
       "https://www.shinobitx.com/",
-      "https://prtimes.jp/main/html/rd/p/000000009.000096294.html"
+      "https://startup-db.com/companies/kjlVZLoUnP3p9q3E"
     ],
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社〈サイアス〉設立年）"
+    "knownSince": "2022-02",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000096294.html"
   },
   {
     "id": "b-ff586467",
@@ -50190,16 +50268,18 @@
     "category": "pharma",
     "description": "AAVベクターに光センサー遺伝子「キメラロドプシン」を搭載し、硝子体内注射で網膜の残存神経細胞に発現させて視覚再生を図る遺伝子治療薬。重症網膜色素変性症の第I/II相治験中。",
     "hp": "https://restore-vis.com/",
-    "startedYear": 2016,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2016",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000093477.html",
       "https://prtimes.jp/main/html/rd/p/000000004.000093477.html",
+      "https://restore-vis.com/news/",
       "https://prtimes.jp/main/html/rd/p/000000005.000093477.html"
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2022-02",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000093477.html"
   },
   {
     "id": "b-e49ce576",
@@ -50266,16 +50346,18 @@
     "category": "pharma",
     "description": "天然のジスルフィドリッチペプチドを鋳型に人工進化させたライブラリ「DRP Space」と高速探索・製造技術を組み合わせ、膜たんぱく質などを標的とするペプチド医薬品の候補を探す創薬基盤。製薬企業との共同研究に提供。",
     "hp": "https://veneno.jp/jp",
-    "startedYear": 2020,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2020-07",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000186.000002981.html",
       "https://prtimes.jp/main/html/rd/p/000000001.000091230.html",
+      "https://veneno.co.jp/company/",
       "https://prtimes.jp/main/html/rd/p/000000007.000091230.html"
     ],
     "type": "ai-computational-drug-discovery",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2020-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000186.000002981.html"
   },
   {
     "id": "b-38dc80b8",
@@ -50357,16 +50439,15 @@
     "category": "pharma",
     "description": "腸粘膜の修復を促すペプチド「アドレノメデュリン」の投与利便性を高めた改良型の新薬候補。潰瘍性大腸炎などを対象に、オーストラリアで第1相試験を2023年に終了。",
     "hp": "https://www.himuka-am.com/",
-    "startedYear": 2017,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2017-02",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000005.000084101.html",
+      "https://www.himuka-am.com/about/history",
       "https://prtimes.jp/main/html/rd/p/000000010.000084101.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）",
     "milestones": [
       {
         "date": "2021-12",
@@ -50378,7 +50459,9 @@
         "text": "オーストラリアでの第I相臨床試験が終了",
         "source": "https://www.himuka-am.com/news/2023/04/07/536/"
       }
-    ]
+    ],
+    "knownSince": "2021-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000005.000084101.html"
   },
   {
     "id": "b-1afb94b6",
@@ -50590,12 +50673,14 @@
     "status": "提供中",
     "startedAt": "2017-12",
     "sources": [
+      "https://luxnabiotech.co.jp/news/page/16",
+      "https://luxnabiotech.co.jp/about",
       "https://prtimes.jp/main/html/rd/p/000000008.000049692.html",
       "https://prtimes.jp/main/html/rd/p/000000018.000049692.html"
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社のお知らせ（設立リリース）：設立と同時に人工修飾核酸技術の実用化を開始（2017-12-18「大阪大学大学院小比賀教授の技術シーズを実用化すべく設立されました」）"
   },
   {
     "id": "b-77f15ee2",
@@ -50697,17 +50782,19 @@
     "category": "pharmacy-dx",
     "description": "処方箋の受付に加え、零売や一般用医薬品の販売も行う調剤薬局チェーン。名鉄薬品の店舗も加わり、グループの調剤薬局は33店舗（2026年6月）。",
     "hp": "",
-    "startedYear": 2016,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2016",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000061546.html",
+      "https://prtimes.jp/main/html/rd/p/000000015.000048295.html",
       "https://prtimes.jp/main/html/rd/p/000000007.000061546.html",
       "https://prtimes.jp/main/html/rd/p/000000019.000061546.html",
       "https://www.pharmarise.com/company/group/index.html"
     ],
     "type": "pharmacy-chain-operation",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2020-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000061546.html"
   },
   {
     "id": "b-ba94c94b",
@@ -50738,13 +50825,15 @@
     "status": "提供中",
     "startedAt": "2018",
     "sources": [
-      "https://journal.meti.go.jp/future/17853/",
+      "https://prtimes.jp/main/html/rd/p/000000004.000086500.html",
+      "https://gexval.com/company/",
+      "https://prtimes.jp/main/html/rd/p/000000006.000086500.html",
       "https://prtimes.jp/main/html/rd/p/000000009.000086500.html",
-      "https://prtimes.jp/main/html/rd/p/000000006.000086500.html"
+      "https://journal.meti.go.jp/future/17853/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "自社リリース：武田薬品工業から新規開発候補化合物のライセンス提供を受けて2018年にスピンアウトし、同年に事業を開始（2021-10-22リリース、公式代表メッセージ「2018年に湘南ヘルスイノベーションパークにおいて事業を開始」）"
   },
   {
     "id": "b-08c8d46b",
@@ -50754,16 +50843,17 @@
     "category": "pharma",
     "description": "医薬品候補物質の作用や疾患との関係をAIで解析し、希少疾患などでの新たな適応や価値を見出す独自の技術プラットフォーム。自社パイプラインの創出に使う。",
     "hp": "",
-    "startedYear": 2018,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2018",
     "sources": [
-      "https://journal.meti.go.jp/future/17853/",
-      "https://prtimes.jp/main/html/rd/p/000000009.000086500.html"
+      "https://prtimes.jp/main/html/rd/p/000000009.000086500.html",
+      "https://gexval.com/company/",
+      "https://journal.meti.go.jp/future/17853/"
     ],
     "type": "ai-computational-drug-discovery",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2025-01",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000009.000086500.html"
   },
   {
     "id": "b-29945e94",
@@ -51086,16 +51176,18 @@
     "category": "pharma",
     "description": "健常ドナーの末梢血単核球から特定条件で培養した、がん細胞への攻撃力を高めたNK様細胞。胃がん・膵がんの腹膜播種や小児固形悪性腫瘍を対象に治験中。",
     "hp": "https://gaia-biomed.com/pipeline/",
-    "startedYear": 2015,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2015-10",
     "sources": [
+      "https://gaia-biomed.com/news/page/6/",
       "https://prtimes.jp/main/html/rd/p/000000035.000076057.html",
+      "https://gaia-biomed.com/pipeline/",
       "https://gaia-biomed.com/news/"
     ],
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2019-03",
+    "knownSinceSource": "https://gaia-biomed.com/news/page/6/"
   },
   {
     "id": "b-287ac7cf",
@@ -51178,16 +51270,17 @@
     "category": "medical-device",
     "description": "不妊症の卵管因子を評価するため、外来で卵管内を直接観察できる使い捨ての内視鏡システム。子宮卵管造影検査（HSG）の代替を目指し、AMEDの支援で研究開発中。",
     "hp": "https://infuselifescience.com/",
-    "startedYear": 2024,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2024-12",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000183105.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000183105.html",
-      "https://prtimes.jp/main/html/rd/p/000000002.000183105.html"
+      "https://infuselifescience.com/"
     ],
     "type": "endoscope-device",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2026-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000183105.html"
   },
   {
     "id": "b-3d42ec19",
@@ -51197,15 +51290,17 @@
     "category": "pharma",
     "description": "東北大学の研究から見出したアルツハイマー型認知症の治療薬候補。健康成人での単回・反復投与試験で高い安全性と良好な薬物動態を確認し、米国で患者対象のPhase 1b試験を予定。",
     "hp": "https://neusignal-tx.com/",
-    "startedYear": 2022,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2022-04",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000138577.html",
+      "https://neusignal-tx.com/technology/",
       "https://prtimes.jp/main/html/rd/p/000000009.000138577.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2021-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000138577.html"
   },
   {
     "id": "b-ed0a2d54",
@@ -51310,12 +51405,12 @@
     "status": "提供中",
     "startedAt": "2021-12",
     "sources": [
-      "https://crestecbio.com/",
-      "https://prtimes.jp/main/html/rd/p/000000001.000182492.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000182492.html",
+      "https://crestecbio.com/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "自社リリース：設立と同時に開発を開始（2026-06-02「筑波大学で研究された高分子医薬を医薬品として開発するために、2021年12月に創業」）"
   },
   {
     "id": "b-f84737e8",
@@ -51325,19 +51420,21 @@
     "category": "pharma",
     "description": "肥満症・2型糖尿病などを狙うGLP-1/GIP受容体のデュアルアゴニスト。臨床段階にあり、Huadong Medicineに全世界の権利を導出。",
     "hp": "https://www.scohia.com/sys/pipeline/sco-094",
-    "startedYear": 2017,
+    "startedYear": null,
     "status": "譲渡",
-    "startedAt": "2017",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://www.scohia.com/wp/wp-content/uploads/2020/08/SCO-094-Ph1試験の開始_和文-200811.pdf",
       "https://prtimes.jp/main/html/rd/p/000000001.000080719.html",
+      "https://www.scohia.com/sys/pipeline/sco-094",
       "https://prtimes.jp/main/html/rd/p/000000003.000080719.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2020-08",
+    "knownSinceSource": "https://www.scohia.com/wp/wp-content/uploads/2020/08/SCO-094-Ph1試験の開始_和文-200811.pdf"
   },
   {
     "id": "b-5987bf8e",
@@ -51347,18 +51444,19 @@
     "category": "pharma",
     "description": "希少代謝性疾患を対象とする新規の選択的メラノコルチン2受容体拮抗薬。2026年4月にNeurocrine Biosciencesへ全世界独占ライセンス。",
     "hp": "",
-    "startedYear": 2017,
+    "startedYear": null,
     "status": "譲渡",
-    "startedAt": "2017",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://www.scohia.com/sys/news/page/2/",
       "https://prtimes.jp/main/html/rd/p/000000007.000080719.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2024-02",
+    "knownSinceSource": "https://www.scohia.com/sys/news/page/2/"
   },
   {
     "id": "b-a742562f",
@@ -51368,15 +51466,17 @@
     "category": "pharma",
     "description": "がんの間質にある不溶性フィブリンを標的とする抗体に、独自のVLKリンカーで薬剤を結合したADC。難治性固形がんを対象に非臨床開発中。",
     "hp": "",
-    "startedYear": 2026,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2026-03",
     "sources": [
+      "https://newscast.jp/smart/news/5463790",
+      "https://www.atpress.ne.jp/news/582335",
       "https://prtimes.jp/main/html/rd/p/000000003.000183200.html"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2025-11",
+    "knownSinceSource": "https://newscast.jp/smart/news/5463790"
   },
   {
     "id": "b-9e37aa98",
@@ -51386,16 +51486,19 @@
     "category": "medical-device",
     "description": "頭部に低出力のパルス波超音波を当てて脳の血管・神経の機能改善を図る、早期アルツハイマー病の治療用医療機器。先駆的医療機器第1号に指定され、検証的治験を実施中。",
     "hp": "https://sw-innovation.com/",
-    "startedYear": 2020,
+    "startedYear": 2014,
     "status": "提供中",
-    "startedAt": "2020-04",
+    "startedAt": "2014",
     "sources": [
+      "https://www.tohoku.ac.jp/japanese/2022/09/press20220916-03-alzheimer.html",
+      "https://www.tohoku.ac.jp/japanese/newimg/pressimg/tohokuuniv-press20220916_03web_alzheimer.pdf",
       "https://prtimes.jp/main/html/rd/p/000000007.000118851.html",
+      "https://sw-innovation.com/company/",
       "https://prtimes.jp/main/html/rd/p/000000010.000118851.html"
     ],
     "type": "therapeutic-devices-supplies",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "前身：東北大学・下川宏明教授らの研究グループが2014年からLIPUS治療の認知症への応用を開始（東北大学プレスリリース2022-09-16。2018年から東北大学病院で医師主導探索的治験）"
   },
   {
     "id": "b-c97cfb76",
@@ -51484,15 +51587,16 @@
     "category": "pharma",
     "description": "医療用ラジオアイソトープの製造専用に設計した小型超伝導電子加速器。2025年に加速空洞で出力目標10MV/mを達成し、製作を進める。",
     "hp": "",
-    "startedYear": 2024,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2024-06",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000154244.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000154244.html",
       "https://prtimes.jp/main/html/rd/p/000000010.000154244.html"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2024-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000154244.html"
   },
   {
     "id": "b-0a68d92d",
@@ -51506,12 +51610,14 @@
     "status": "提供中",
     "startedAt": "2023-02",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000131096.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000131096.html",
       "https://prtimes.jp/main/html/rd/p/000000019.000131096.html",
       "https://prtimes.jp/main/html/rd/p/000000024.000131096.html"
     ],
     "type": "therapeutic-devices-supplies",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "自社リリース：設立と同時に血管内光照射技術の開発を開始（2023-12-25「当社は、世界初の『血管内から血管外組織に光を届ける』技術の実用化を目指して設立」、2024-02-29「2023年2月の会社設立から約1年ですでに特許出願数が10件」）"
   },
   {
     "id": "b-ab015c39",
@@ -51521,16 +51627,18 @@
     "category": "dental",
     "description": "健康な歯を削らずに、歯科用コンポジットレジンで歯の形を短時間・高品質に再現するためのインデックス（型）システム。全国250院以上の歯科医院が導入。",
     "hp": "https://amidex.co.jp/",
-    "startedYear": 2023,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2023-08",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000147339.html",
       "https://prtimes.jp/main/html/rd/p/000000006.000147339.html",
+      "https://amidex.co.jp/2023/08/01/01/",
       "https://prtimes.jp/main/html/rd/p/000000008.000147339.html"
     ],
     "type": "dental-lab-digital",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2024-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000147339.html"
   },
   {
     "id": "b-41889f7f",
@@ -51544,12 +51652,13 @@
     "status": "提供中",
     "startedAt": "2023-11",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000136583.html",
       "https://prtimes.jp/main/html/rd/p/000000005.000136583.html",
       "https://prtimes.jp/main/html/rd/p/000000008.000136583.html"
     ],
     "type": "imaging-modality",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "自社リリース：ASEM法の事業化のため設立と同時に開始（2024-01-29「東京農工大学発の研究成果を基に2023年11月に創業」「ASEM信号をセンシングする技術を事業化します」）"
   },
   {
     "id": "b-40a62e98",
@@ -51630,12 +51739,13 @@
     "status": "提供中",
     "startedAt": "2025-10",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000171593.html",
       "https://prtimes.jp/main/html/rd/p/000000002.000171593.html",
       "https://prtimes.jp/main/html/rd/p/000000005.000171593.html"
     ],
     "type": "cosmetic-review-booking-app",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（会社設立の発表、2025-10-23）"
+    "startBasis": "設立リリース：設立と同時に「美容医療の透明評価プラットフォーム」の開発を発表（2025-10-23「【会社設立のお知らせ】美肌AIコネクトが誕生」）"
   },
   {
     "id": "b-fa3ffd90",
@@ -51645,16 +51755,17 @@
     "category": "medical-device",
     "description": "高い柔軟性と低い短縮率、再収納性を備えたハイブリッド構造のステントに独自のナノコーティングを施した、脳血管疾患治療用デバイス。臨床試験の準備中。",
     "hp": "https://nbmed-inc.com/",
-    "startedYear": 2021,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2021-10",
     "sources": [
-      "https://nbmed-inc.com/",
-      "https://nbmed-inc.com/news/20260305/"
+      "https://nbmed-inc.com/news/n-b-medical%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%baa-1st%e3%82%af%e3%83%ad%e3%83%bc%e3%82%ba%e3%81%a717-25%e5%84%84%e5%86%86%e3%81%ae%e8%b3%87%e9%87%91%e8%aa%bf%e9%81%94/",
+      "https://nbmed-inc.com/news/20260305/",
+      "https://nbmed-inc.com/"
     ],
     "type": "cardiovascular-device",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2024-04",
+    "knownSinceSource": "https://nbmed-inc.com/news/n-b-medical%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%baa-1st%e3%82%af%e3%83%ad%e3%83%bc%e3%82%ba%e3%81%a717-25%e5%84%84%e5%86%86%e3%81%ae%e8%b3%87%e9%87%91%e8%aa%bf%e9%81%94/"
   },
   {
     "id": "b-de0657c1",
@@ -51700,15 +51811,18 @@
     "category": "health-insuarance-market",
     "description": "大学医学部と連携して自治体・企業の健診・医療データを分析し、医学的知見に基づく健康づくりや医療費抑制の施策立案と運営を支援するサービス。",
     "hp": "https://iseq.co.jp/",
-    "startedYear": 2019,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2019-12",
     "sources": [
+      "https://iseq.co.jp/2020/page/4/",
+      "https://iseq.co.jp/2020/page/3/",
+      "https://iseq.co.jp/company/",
       "https://iseq.co.jp/"
     ],
     "type": "insurer-data-health-support",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2020-02",
+    "knownSinceSource": "https://iseq.co.jp/2020/page/4/"
   },
   {
     "id": "b-b5467735",
@@ -51754,16 +51868,17 @@
     "category": "telemedicine",
     "description": "腕時計型ウェアラブルデバイスで在宅の慢性心不全患者の状態を測り、AIで悪化の兆候を早期に捉えて医療者につなぎ、再入院の抑制を目指すシステム。大阪大学で医師主導治験中。",
     "hp": "https://awave.co.jp/",
-    "startedYear": 2023,
+    "startedYear": 2022,
     "status": "提供中",
-    "startedAt": "2023-06",
+    "startedAt": "2022-02",
     "sources": [
-      "https://awave.co.jp/",
-      "https://prtimes.jp/main/html/rd/p/000000002.000150677.html"
+      "https://awave.co.jp/news/23-08-22",
+      "https://prtimes.jp/main/html/rd/p/000000002.000150677.html",
+      "https://awave.co.jp/"
     ],
     "type": "remote-patient-monitoring",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "前身：会社設立前に、開発した腕時計型ウェアラブルデバイス（心不全関連症状の検出）を2022年2月から5月に大阪大学医学部附属病院の入院患者に使用（公式ニュース2023-08-22）"
   },
   {
     "id": "b-a016dfaf",
@@ -51808,15 +51923,16 @@
     "category": "medical-device",
     "description": "直径4mmの使い捨て内視鏡にAI診断支援と検診情報DXを組み合わせ、バリウム検査に代わる苦痛の少ない胃がん検診を大規模集団検診でも実施できるようにするシステム。",
     "hp": "https://endoluminalsolutions.com/",
-    "startedYear": 2025,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2025-04",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000174787.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000174787.html",
+      "https://endoluminalsolutions.com/"
     ],
     "type": "endoscope-device",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2026-02",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000174787.html"
   },
   {
     "id": "b-8cc04cd3",
@@ -51914,15 +52030,17 @@
     "category": "simple-inspection",
     "description": "酵素活性の蛍光検出と1分子計測を組み合わせて血中の微量な酵素活性の異常を捉える技術。がんスクリーニング検査の開発と製薬企業の研究支援に使う。",
     "hp": "",
-    "startedYear": 2022,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2022-04",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000101613.html",
+      "https://prtimes.jp/main/html/rd/p/000000004.000101613.html",
       "https://prtimes.jp/main/html/rd/p/000000006.000101613.html"
     ],
     "type": "next-gen-test-tech",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2023-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000101613.html"
   },
   {
     "id": "b-d074ca66",
@@ -51932,15 +52050,17 @@
     "category": "pharma",
     "description": "WT1抗原を発現させたビフィズス菌を飲むことで腸管からがんに対する細胞性免疫を誘導する経口ワクチン。転移性尿路上皮がんの第I相医師主導治験で安全性と免疫誘導を確認。",
     "hp": "https://immunorock.com/",
-    "startedYear": 2021,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2021",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000009.000125161.html"
+      "https://prtimes.jp/main/html/rd/p/000000009.000125161.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000125161.html",
+      "https://www.kobe-u.ac.jp/ja/news/article/20260708-68116/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2023-01",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000009.000125161.html"
   },
   {
     "id": "b-4807029c",
@@ -51955,11 +52075,12 @@
     "startedAt": "2022-04",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000174854.html",
-      "https://prtimes.jp/main/html/rd/p/000000002.000174854.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000174854.html",
+      "https://igalphan.jp/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "自社リリース：設立と同時に開始（2026-01-16「東京大学…新藏礼子教授のIgA抗体等に関わる研究成果の実用化を目指し、2022年4月に設立」）"
   },
   {
     "id": "b-88dc72c2",
@@ -51969,16 +52090,17 @@
     "category": "medical-image",
     "description": "電気インピーダンス・トモグラフィで手足の内部を非侵襲に可視化し、リンパ浮腫などのむくみを早期に発見・継続観察する機器。薬事承認・上市に向けAMEDの支援で研究開発中。",
     "hp": "https://www.tomocloud.co.jp/ja",
-    "startedYear": 2025,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2025-08",
     "sources": [
-      "https://www.tomocloud.co.jp/ja",
-      "https://prtimes.jp/main/html/rd/p/000000001.000175448.html"
+      "https://www.tomocloud.co.jp/ja/news",
+      "https://prtimes.jp/main/html/rd/p/000000001.000175448.html",
+      "https://www.tomocloud.co.jp/ja"
     ],
     "type": "imaging-modality",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2025-05",
+    "knownSinceSource": "https://www.tomocloud.co.jp/ja/news"
   },
   {
     "id": "b-742b1233",
@@ -51988,16 +52110,16 @@
     "category": "pharma",
     "description": "がん細胞で働くサバイビン遺伝子に反応してがん細胞内だけで増え、がんを破壊する腫瘍溶解性アデノウイルス。原発性悪性骨腫瘍で希少疾病用再生医療等製品に指定され、膵臓がんでも臨床開発中。",
     "hp": "https://www.survbiopharma.co.jp/",
-    "startedYear": 2022,
+    "startedYear": 2015,
     "status": "提供中",
-    "startedAt": "2022-08",
+    "startedAt": "2015",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000012.000165403.html",
-      "https://www.survbiopharma.co.jp/info/history/"
+      "https://www.survbiopharma.co.jp/info/history/",
+      "https://prtimes.jp/main/html/rd/p/000000012.000165403.html"
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社の沿革（前身）：2015年に鹿児島大学でのSurv.m-CRA-1の開発がAMED革新的がん医療実用化研究事業に採択（2016年に第I相医師主導治験開始、2022-08に会社設立）"
   },
   {
     "id": "b-366709da",
@@ -53217,20 +53339,21 @@
     "category": "pharma",
     "description": "クライオ電子顕微鏡で標的タンパク質の立体構造を解析し、製薬企業との共同研究や受託で構造ベースの創薬を支援した。",
     "hp": "",
-    "startedYear": 2019,
+    "startedYear": null,
     "status": "終了",
-    "startedAt": "2019-08",
     "endedAt": "2025-10",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000050585.html",
       "https://prtimes.jp/main/html/rd/p/000000011.000050585.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011101088663"
     ],
     "type": "cdmo-contract-research",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2019-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000050585.html"
   },
   {
     "id": "b-42ffa29d",
@@ -53722,16 +53845,19 @@
     "category": "pharma",
     "description": "マイクロ波固相合成や連続クロマト精製などの技術を組み合わせ、特殊ペプチド原薬を少量サンプルから数十kg規模のGMP製造まで受託する。",
     "hp": "https://peptistar.com/service/peptide/",
-    "startedYear": 2017,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2017-09",
     "sources": [
-      "https://peptistar.com/",
-      "https://peptistar.com/company/outline/"
+      "https://peptistar.com/news/amed-and-peptistar-announced-they-accomplished-the-cicle-project-goal-establishment-of-a-global-leading-contract-manufacturing-organization-cmo-for-constrained-peptide-medicines/",
+      "https://peptistar.com/news/page/4/",
+      "https://peptistar.com/news/page/3/",
+      "https://peptistar.com/company/outline/",
+      "https://peptistar.com/"
     ],
     "type": "cdmo-contract-research",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立。2017-08にペプチドリーム・塩野義・積水化学による設立が報じられた）"
+    "knownSince": "2019-12",
+    "knownSinceSource": "https://peptistar.com/news/amed-and-peptistar-announced-they-accomplished-the-cicle-project-goal-establishment-of-a-global-leading-contract-manufacturing-organization-cmo-for-constrained-peptide-medicines/"
   },
   {
     "id": "b-8ee9672b",
@@ -53983,11 +54109,12 @@
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000048328.html",
       "https://prtimes.jp/main/html/rd/p/000000008.000048328.html"
     ],
     "type": "cdmo-contract-research",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "自社リリース：設立と同時に開始（2019-09-17「2015年4月の創立以来、…新規エピジェネティック創薬及びその受託サービス等の提供等を行っています」。遺伝子座特異的ChIP法＝iChIP法を基盤）"
   },
   {
     "id": "b-10d976a2",
@@ -55043,19 +55170,20 @@
     "category": "medical-device",
     "description": "鳥取大学医学部附属病院の研究シーズや現場のニーズから医療機器・介護看護用品を事業化した。2022年6月に開発製品の販売をサンキョウサポートが引き継いだ。",
     "hp": "",
-    "startedYear": 2019,
+    "startedYear": null,
     "status": "譲渡",
-    "startedAt": "2019-04",
     "endedAt": "2022-06",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000056510.html",
       "https://sankyou-sp.com/news/news-2220/"
     ],
     "type": "medtech-development-support",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2020-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000056510.html"
   },
   {
     "id": "b-8636d1f4",
@@ -55274,16 +55402,17 @@
     "category": "pharma",
     "description": "独自の高効率ゲノム編集技術で、研究者が指定した遺伝子改変マウスやノックアウト・ノックイン細胞を短納期・低コストで受託作製する。",
     "hp": "https://www.setsurotech.com/",
-    "startedYear": 2017,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2017-02",
     "sources": [
-      "https://www.setsurotech.com/",
-      "https://prtimes.jp/main/html/rd/p/000000001.000024912.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000024912.html",
+      "https://www.setsurotech.com/company/",
+      "https://www.setsurotech.com/"
     ],
     "type": "cdmo-contract-research",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2017-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000024912.html"
   },
   {
     "id": "b-586180ef",
@@ -55741,7 +55870,7 @@
     "hp": "",
     "startedYear": 2017,
     "status": "終了",
-    "startedAt": "2017",
+    "startedAt": "2017-08",
     "endedAt": "2025-01",
     "endReasons": [
       "unknown"
@@ -55751,7 +55880,7 @@
     ],
     "type": "dtc-genetic-test",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "B2B事業「GENOME LINK」の発表（自社プレスリリース2017-08-22、APIソフトウェアとして開発し初期パートナー企業が参加を表明）"
   },
   {
     "id": "b-f03f9074",
@@ -55899,9 +56028,9 @@
     "category": "pharma",
     "description": "細胞内ATPを保持して神経細胞を保護する低分子化合物。網膜中心動脈閉塞症を対象に米国第2相試験を実施し、FDAのオーファンドラッグ・ファストトラック指定と日本の希少疾病用医薬品指定を受けた（開発中）。",
     "hp": "",
-    "startedYear": 2015,
+    "startedYear": 2014,
     "status": "提供中",
-    "startedAt": "2015-05",
+    "startedAt": "2014-08",
     "sources": [
       "https://www.kyoto-u.ac.jp/ja/research-news/2014-08-06",
       "https://www.kyoto-drug.com/",
@@ -55909,7 +56038,7 @@
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立。KUS121の研究は京都大学〈垣塚研〉で先行し、2014-08に網膜色素変性の進行抑制の成果を発表）",
+    "startBasis": "前身：京都大学（垣塚彰教授ら）がVCP ATPase阻害剤「KUS化合物」の網膜色素変性に対する進行抑制効果を発表（京都大学研究成果2014-08-06）",
     "milestones": [
       {
         "date": "2014-08",
@@ -56171,16 +56300,15 @@
     "category": "pharma",
     "description": "オリゴデンドロサイトへ高効率に分化する独自のヒト神経幹細胞を移植し、髄鞘を再生させる細胞治療。ペリツェウス・メルツバッハー病、多発性硬化症、脊髄損傷を対象に開発（前臨床）。",
     "hp": "https://oligogen.jp/technology",
-    "startedYear": 2015,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2015-08",
     "sources": [
-      "https://oligogen.jp/",
-      "https://oligogen.jp/archives/company/outline"
+      "https://oligogen.jp/archives/company/outline",
+      "https://oligogen.jp/technology",
+      "https://oligogen.jp/"
     ],
     "type": "regenerative-cell-therapy",
-    "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "updatedAt": "2026-10"
   },
   {
     "id": "b-af75a2b2",
@@ -56652,16 +56780,18 @@
     "category": "medical-device",
     "description": "脊椎手術用開創器をはじめ、整形外科の手術で使う鋼製器械を医療器械職人の手加工技術で多品種少量に製造・販売する。",
     "hp": "https://meistec.co.jp/products",
-    "startedYear": 2018,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2018-12",
     "sources": [
-      "https://meistec.co.jp/",
-      "https://fmc.fmddsc.jp/db/30/"
+      "https://prtimes.jp/main/html/rd/p/000000184.000011403.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000128950.html",
+      "https://fmc.fmddsc.jp/db/30/",
+      "https://meistec.co.jp/"
     ],
     "type": "therapeutic-devices-supplies",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2023-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000184.000011403.html"
   },
   {
     "id": "b-2fb1af20",
@@ -56728,15 +56858,15 @@
     "category": "pharma",
     "description": "小腸と肝臓での脂質合成を抑えるSOAT2を選択的に阻害する経口の脂質代謝制御剤。家族性高コレステロール血症ホモ接合体（HoFH）を最初の対象とし、MASH/MASLDへの拡大をめざす（開発中）。",
     "hp": "",
-    "startedYear": 2021,
+    "startedYear": 2011,
     "status": "提供中",
-    "startedAt": "2021",
+    "startedAt": "2011",
     "sources": [
       "https://prdtherapeutics.com/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社の沿革（前身）：2011年に北里研究所で見出したピリピロペンA（PPPA）からPRD001へとリード最適化を実施（公式サイトのhistory）"
   },
   {
     "id": "b-56ce7d5e",
@@ -56863,15 +56993,17 @@
     "category": "recruting-solutions",
     "description": "病院・クリニック・介護施設の採用活動を企画から代行し、医師・看護師・リハビリ職など医療従事者の採用と定着を支援する採用支援（RPO）サービス。",
     "hp": "https://nguide.jp/rpo/",
-    "startedYear": 2022,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2022-09",
     "sources": [
-      "https://nguide.jp/"
+      "https://prtimes.jp/main/html/rd/p/000000002.000121770.html",
+      "https://nguide.jp/",
+      "https://nguide.jp/about/"
     ],
     "type": "healthcare-recruitment-outsourcing",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2023-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000121770.html"
   },
   {
     "id": "b-1854847a",
@@ -56881,16 +57013,18 @@
     "category": "recruting-solutions",
     "description": "医師・看護師・PT/OT/STなどの医療有資格者を医療機関・介護施設に紹介・派遣し、求職者には無料でキャリア・仕事の相談を行う。",
     "hp": "https://nguide.jp/introduction/",
-    "startedYear": 2022,
+    "startedYear": null,
     "status": "提供中",
-    "startedAt": "2022-09",
     "sources": [
-      "https://nguide.jp/",
-      "https://nguide.jp/about/"
+      "https://prtimes.jp/main/html/rd/p/000000002.000121770.html",
+      "https://nguide.jp/about/",
+      "https://prtimes.jp/main/html/rd/p/000000003.000121770.html",
+      "https://nguide.jp/"
     ],
     "type": "medical-staffing-agency",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "knownSince": "2023-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000121770.html"
   },
   {
     "id": "b-e9cedfdc",
@@ -57131,20 +57265,20 @@
     "category": "pharma",
     "description": "iPS細胞から作った角膜内皮代替細胞を眼内に注入し、水疱性角膜症を治療する再生医療等製品候補。ドナー角膜不足の解消をめざした。2025年にカクサスバイオへ事業譲渡。",
     "hp": "",
-    "startedYear": 2015,
+    "startedYear": 2012,
     "status": "譲渡",
-    "startedAt": "2015-01",
+    "startedAt": "2012-07",
     "endedAt": "2025-12",
     "endReasons": [
       "unknown"
     ],
     "sources": [
-      "https://cellusion.jp/news/jp/3313/",
-      "https://cellusion.jp/company-history/"
+      "https://cellusion.jp/company-history/",
+      "https://cellusion.jp/news/jp/3313/"
     ],
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）"
+    "startBasis": "会社の沿革（前身）：2012年7月にiPS細胞から神経堤細胞を介して角膜内皮細胞を作成する特許を出願（会社創設は2015-01）"
   },
   {
     "id": "b-43055abe",
@@ -57172,15 +57306,18 @@
     "category": "health-insuarance-market",
     "description": "行動科学とAIで健診・検診の受診率や継続率が上がらない原因を診断し、ナッジなどの施策を設計して効果を実測する。自治体の特定健診・がん検診の受診勧奨や企業の施策に提供する。",
     "hp": "https://godot.inc/products/digital-ai",
-    "startedYear": 2022,
+    "startedYear": 2019,
     "status": "提供中",
-    "startedAt": "2022-07",
+    "startedAt": "2019-08",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000044.000023382.html",
+      "https://prtimes.jp/main/html/rd/p/000000005.000106742.html",
+      "https://prtimes.jp/main/html/rd/p/000000033.000023382.html",
       "https://godot.inc/products/digital-ai"
     ],
     "type": "insurer-data-health-support",
     "updatedAt": "2026-10",
-    "startBasis": "変更なし（既存値は会社設立）",
+    "startBasis": "前の運営会社ケイスリーでの開始：2019年8月から沖縄県浦添市で行動科学（ナッジ）を活用したSMSによる大腸がん検診の受診勧奨を実施（ケイスリーのプレスリリース2020-11-18）。Godotは2022年にケイスリーのプロダクト事業を法人化（Godotリリース2022-12-16）",
     "milestones": [
       {
         "date": "2024-01-10",
@@ -66570,10 +66707,10 @@
     "category": "relaxation",
     "description": "全身もみほぐし・足つぼなどのリラクゼーション店「りらくる」（全国約600店）と公式アプリ。アプリは会員カード、ポイント、店舗検索、予約などに使える。",
     "hp": "https://relxle.com/",
-    "startedYear": 2010,
+    "startedYear": 2009,
     "status": "提供中",
-    "startedAt": "2010-01-08",
-    "startBasis": "運営会社の設立日（りらくる事業の開始）",
+    "startedAt": "2009-04",
+    "startBasis": "会社の沿革：2009年4月に大阪府和泉市に「りらく」1号店を開店（株式会社りらくの設立は2010-01-08）",
     "milestones": [
       {
         "date": "2010-01-08",
@@ -66593,6 +66730,7 @@
       }
     ],
     "sources": [
+      "https://relxle.com/company",
       "https://apps.apple.com/jp/app/%E3%82%8A%E3%82%89%E3%81%8F%E3%82%8B-%E5%85%AC%E5%BC%8F-%E5%85%A8%E8%BA%AB%E3%82%82%E3%81%BF%E3%81%BB%E3%81%90%E3%81%97-%E8%B6%B3%E3%81%A4%E3%81%BC-%E3%83%95%E3%83%83%E3%83%88%E3%82%B1%E3%82%A2/id1178531844",
       "https://relxle.com/"
     ],
