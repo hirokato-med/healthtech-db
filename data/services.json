@@ -193,9 +193,15 @@
     "category": "pharmacy-dx",
     "description": "薬局向けの服薬指導・薬歴記録を一体化したクラウドサービス。患者への説明資料を自動生成し、薬歴入力の時間を短縮する。",
     "hp": "https://musubi.kakehashi.life/",
-    "startedYear": 2018,
+    "startedYear": 2017,
     "status": "提供中",
-    "type": "pharmacy-erecord-system"
+    "type": "pharmacy-erecord-system",
+    "startedAt": "2017-08",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000033983.html",
+      "https://blog.kakehashi.life/n/nc8cb0e35a66b"
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "cureapp-sc",
@@ -239,7 +245,13 @@
     "hp": "https://www.jmdc.co.jp/",
     "startedYear": 2016,
     "status": "提供中",
-    "type": "insurer-employer-phr"
+    "type": "insurer-employer-phr",
+    "startedAt": "2016-02",
+    "sources": [
+      "https://www.jmdc.co.jp/news/news20210916/",
+      "https://stories.jmdc.co.jp/pepup/10th"
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "finc-app",
@@ -471,9 +483,15 @@
     "category": "pharmacy-dx",
     "description": "処方箋を事前送信して薬局での待ち時間を減らすサービス。全国の調剤薬局検索も提供。",
     "hp": "https://www.kusurinomadoguchi.com/",
-    "startedYear": 2009,
+    "startedYear": 2013,
     "status": "提供中",
-    "type": "pharmacy-patient-engagement"
+    "type": "pharmacy-patient-engagement",
+    "startedAt": "2013-10",
+    "sources": [
+      "https://kitaishihon.com/company/5592/story",
+      "https://www2.jpx.co.jp/disc/55920/140120231003562331.pdf"
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "b-304b933b",
@@ -621,49 +639,6 @@
     ],
     "updatedAt": "2026-10",
     "type": "femtech-cycle-tracking-app"
-  },
-  {
-    "id": "b-601cc2f5",
-    "name": "日本薬剤師会「eお薬手帳」（ドコモ開発・運営版）",
-    "company": "株式会社NTTドコモ（日本薬剤師会の運営事業者）",
-    "category": "pharmacy-dx",
-    "description": "日本薬剤師会が推進する電子お薬手帳アプリ。NTTドコモが開発・運営事業者として、患者向けアプリと薬局側システムを提供していた。",
-    "hp": "",
-    "startedYear": null,
-    "status": "譲渡",
-    "endedAt": "2024-06",
-    "successor": "株式会社ファルモ開発の「eお薬手帳3.0」",
-    "milestones": [
-      {
-        "date": "2021-01",
-        "text": "旧アプリからのデータ移行受付を終了"
-      },
-      {
-        "date": "2022-06",
-        "text": "ドコモが日本薬剤師会にサービス終了（2023年9月30日予定）を通知。薬剤師会は8月に都道府県薬剤師会あて文書で強い不満を表明"
-      },
-      {
-        "date": "2023-07",
-        "text": "日本薬剤師会が新たな運営事業者にファルモを選定し、「eお薬手帳3.0」を公開。ドコモ版と約1年並行運用"
-      },
-      {
-        "date": "2024-06",
-        "text": "ドコモ版の全サービス提供・サポートを終了し、eお薬手帳3.0へ移行"
-      }
-    ],
-    "endReasons": [
-      "parent-strategy",
-      "competition"
-    ],
-    "endReasonNote": "日本薬剤師会は「開発元であるNTTドコモ社の撤退に伴い」移行したと説明している。日経クロステックによると、ドコモは2022年6月に薬剤師会へ終了を伝え、「経営上の判断」として患者向けアプリを運営に加わったCLINICSに統合し経営資源を一本化すると説明した。薬剤師会によれば、ドコモは競合との差異化を図れなかったことも理由に挙げたという（薬剤師会側は改善提案への対応が鈍かったとして、この説明に納得できないとした）。",
-    "sources": [
-      "https://www.nichiyaku.or.jp/e-okusuri/",
-      "https://macfan.book.mynavi.jp/article/m142811/",
-      "https://xtech.nikkei.com/atcl/nxt/column/18/01157/111600074/",
-      "https://nichiyaku.or.jp/static/uploads/pr-activity/press/20240229_02-02.pdf"
-    ],
-    "updatedAt": "2026-10",
-    "type": "electronic-medication-notebook"
   },
   {
     "id": "b-f95a8aa5",
@@ -1215,7 +1190,7 @@
     "category": "pharmacy-dx",
     "description": "そうごう薬局などの利用者向けに、お薬手帳、来店予約、オンライン服薬指導などを提供した公式ヘルスケアアプリ。LINEミニアプリ版に移行した。",
     "hp": "",
-    "startedYear": 2022,
+    "startedYear": 2023,
     "status": "統合",
     "endedAt": "2026-06",
     "successor": "LINEミニアプリ「タヨリス」",
@@ -1255,6 +1230,8 @@
     "endReasonNote": "同社は、地域の医療体制の維持と地域包括ケアの実現を目指すなかで、日常的に使われているLINEミニアプリを活用し、よりスムーズで質の高いヘルスケア体験を提供するためと説明している。",
     "lessons": "専用アプリをダウンロードして使い続けてもらう難しさから、利用者が普段使うLINE上へ移す判断とみられる。",
     "sources": [
+      "https://www.sogo-medical.co.jp/ja/news/news20230207103023.html",
+      "https://pnb.jiho.jp/article/227929",
       "https://www.sogo-medical.co.jp/ja/news/20260227_01.html",
       "https://pnb.jiho.jp/article/247687",
       "https://www.optim.co.jp/wp-content/uploads/blazLZLycW5L.pdf",
@@ -1264,7 +1241,7 @@
     "themes": [
       "medication-support"
     ],
-    "startedAt": "2022",
+    "startedAt": "2023-02",
     "type": "pharmacy-patient-engagement"
   },
   {
@@ -1298,6 +1275,7 @@
     ],
     "endReasonNote": "エス・エム・エスは「事業ポートフォリオの見直し」の一環で、注力領域へ経営資源を集中するためと説明している。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000224.000013298.html",
       "https://maonline.jp/news/20261021b",
       "https://zaikei.co.jp/article/20261022/874440.html"
     ],
@@ -1312,7 +1290,7 @@
     "category": "health-corporate-management",
     "description": "医療機関や介護事業所向けに、ストレスチェックの実施、オンライン受検、結果の集計・分析を代行したサービス。2026年3月期の売上高は1億7900万円。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "譲渡",
     "endedAt": "2026-12",
     "successor": "ウェルネス・コミュニケーションズ株式会社",
@@ -1331,10 +1309,12 @@
     ],
     "endReasonNote": "エス・エム・エスは「事業ポートフォリオの見直し」を行い、注力領域へ経営資源を集中させるためと説明している。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000032.000013298.html",
       "https://zaikei.co.jp/article/20261022/874440.html"
     ],
     "updatedAt": "2026-10",
-    "type": "stress-check-survey"
+    "type": "stress-check-survey",
+    "startedAt": "2016-03"
   },
   {
     "id": "b-2346c156",
@@ -3545,7 +3525,7 @@
     "description": "FeliCaカードとスマホアプリで調剤履歴をクラウドに保存する電子お薬手帳。氏名などの個人情報はカードに、薬歴はクラウドに分けて置く仕組みで、薬局に導入してもらい、処方箋送信・オンライン服薬指導の機能も載せていた。",
     "hp": "",
     "startedYear": 2013,
-    "status": "終了",
+    "status": "譲渡",
     "startedAt": "2013-08",
     "endedAt": "2026-09",
     "successor": "株式会社ファルモ（eお薬手帳3.0／薬局DX基盤N-Bridge）",
@@ -3634,7 +3614,7 @@
     "endReasons": [
       "acquisition"
     ],
-    "endReasonNote": "harmo株式会社の告知は「より安定したサービスを皆さまに継続してお届けするため、同じくお薬手帳事業を手がける株式会社ファルモへ事業を譲渡いたしました」と説明している。収益など、それ以上の理由は公表されていない。",
+    "endReasonNote": "harmo株式会社は「より安定したサービスを継続して届けるため」として事業をファルモへ譲渡し、2026年9月30日でサービスを終了。利用者・薬局はファルモの「eお薬手帳3.0」へ移行した。",
     "lessons": [
       "ソ",
       "ニ",
@@ -3722,6 +3702,7 @@
       "野"
     ],
     "sources": [
+      "https://support.harmo.biz/info/p1725",
       "https://k-tai.watch.impress.co.jp/docs/news/611698.html",
       "https://www.yakuji.co.jp/?p=65737",
       "https://www.nihon-ma.co.jp/news/20190325_2309-9/",
@@ -3729,7 +3710,6 @@
       "https://kyodonewsprwire.jp/release/202007071755",
       "https://www.cmicgroup.com/news/files/pdf/2025100904.pdf",
       "https://support.harmo.biz/migrate_to_newapp/p1479",
-      "https://support.harmo.biz/info/p1725",
       "https://prtimes.jp/main/html/rd/p/000000037.000049119.html",
       "https://www.watch.impress.co.jp/docs/news/1176401.html",
       "https://www.cmicgroup.com/files/user/NewsRelease/Japanese/20190603-2.pdf"
@@ -4587,7 +4567,7 @@
     "description": "RFIDタグを付けた薬包の出し入れを検知し、iPhoneやApple Watchのアプリに自動で記録する薬箱。薬剤師や離れて暮らす家族も服薬状況を確認できる。",
     "hp": "",
     "startedYear": 2022,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2022-03",
     "milestones": [
       {
@@ -4608,8 +4588,8 @@
     ],
     "endReasonNote": "会社サイトは公開されているが、商用提供の規模や状況は確認できなかった。",
     "sources": [
-      "https://monoist.itmedia.co.jp/mn/articles/2112/15/news021.html",
-      "https://mediotology.com/"
+      "https://mediotology.com/",
+      "https://monoist.itmedia.co.jp/mn/articles/2112/15/news021.html"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -4722,7 +4702,7 @@
     "category": "pharmacy-dx",
     "description": "オンライン服薬指導から処方薬・市販薬の配送までを担うオンライン薬局。2024年からはミナカラe-クリニックとして、予約・診療・服薬指導・会計・配送を一体で提供している。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "提供中",
     "milestones": [
       {
@@ -4743,6 +4723,7 @@
       }
     ],
     "sources": [
+      "https://www.minacolor.jp/about/company",
       "https://www.nihon-ma.co.jp/news/20211022_4480-3/",
       "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html",
       "https://www.family.co.jp/company/news_releases/2021/20210803_02.html"
@@ -4751,7 +4732,8 @@
     "themes": [
       "medication-support"
     ],
-    "type": "online-pharmacy"
+    "type": "online-pharmacy",
+    "startedAt": "2014-07"
   },
   {
     "id": "b-463a7da3",
@@ -8436,7 +8418,7 @@
     "description": "歩数や徒歩・自転車での移動を記録し、乗り物の代替によるCO2削減量をスコア化する個人向けアプリ。自治体・企業向けに住民や社員の健康状態と脱炭素量を可視化する仕組みとして提供。",
     "hp": "",
     "startedYear": 2022,
-    "status": "不明",
+    "status": "提供中",
     "milestones": [
       {
         "date": "2022-04",
@@ -11898,7 +11880,7 @@
     "category": "personal-health-record",
     "description": "大分県が「健康寿命日本一」を掲げて運営した健康アプリ。歩数などの健康行動に応じてポイントがたまる仕組みで、2025年に後継アプリ「あるとっく」へ切り替えた。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "終了",
     "endedAt": "2025-03",
     "successor": "新健康アプリ「あるとっく」（2025年4月〜、大分県運営）",
@@ -11930,7 +11912,8 @@
     "themes": [
       "health-points"
     ],
-    "type": "health-point-app"
+    "type": "health-point-app",
+    "startedAt": "2018"
   },
   {
     "id": "b-378b8306",
@@ -11959,11 +11942,12 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonNote": "区の告知は終了を「突然のご案内」として詫びるのみで、理由は公表されていない。2026年度以降は新たな健康づくり事業を予定するとした。",
+    "endReasonNote": "大田区は令和8年3月30日13時でアプリのサービスを終了し、ポイントも失効すると告知。終了理由は示されていない。2025年4月にアプリを刷新したばかりだった。",
     "lessons": "リニューアルからわずか1年で終了しており、委託先のシステムに依存する自治体アプリの継続性の弱さを示す事例とみられる。",
     "sources": [
-      "https://x.com/city_ota/status/1900728661147373712",
       "https://www.city.ota.tokyo.jp/seikatsu/hoken/kenko_dukuri/kenkopoint/20241204.html",
+      "https://x.com/city_ota/status/1911985331844284902",
+      "https://x.com/city_ota/status/1900728661147373712",
       "https://www.city.ota.tokyo.jp/seikatsu/hoken/kenko_dukuri/kenkopoint/20260930.html"
     ],
     "updatedAt": "2026-10",
@@ -11979,7 +11963,7 @@
     "category": "personal-health-record",
     "description": "栃木県那須町が、スマートフォンアプリなどを通じて住民の健康づくりの取り組みにポイントを付与していた健康ポイント事業。小規模自治体が単独で実施していた例。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "終了",
     "endedAt": "2025-03",
     "milestones": [
@@ -11991,7 +11975,7 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonNote": "町は「事業の見直しに伴い」と説明しており、それ以上の理由は公表されていない。",
+    "endReasonNote": "町は『事業の見直しに伴い』令和7年3月31日で終了すると告知した。見直しの具体的な理由は示していない。",
     "sources": [
       "https://www.town.nasu.lg.jp/0122/info-0000003939-1.html"
     ],
@@ -11999,7 +11983,8 @@
     "themes": [
       "health-points"
     ],
-    "type": "health-point-app"
+    "type": "health-point-app",
+    "startedAt": "2021"
   },
   {
     "id": "b-dbfd6a1f",
@@ -12008,8 +11993,8 @@
     "category": "personal-health-record",
     "description": "愛媛県が県内の国保被保険者などに健康アプリ「kencom」を提供し、健診データの閲覧や歩数に応じたポイントで健康づくりを促した県の事業。",
     "hp": "",
-    "startedYear": null,
-    "status": "終了",
+    "startedYear": 2020,
+    "status": "提供中",
     "endedAt": "2024-03",
     "successor": "県のスマートフォン健康アプリ（デジタルヘルスケア環境）事業として、kencomの提供は形を変えて継続",
     "milestones": [
@@ -12027,14 +12012,15 @@
     ],
     "endReasonNote": "県の告知は事業期間の終了を伝えるのみで、理由は公表されていない。",
     "sources": [
-      "https://www.pref.ehime.jp/page/17814.html",
-      "https://www.pref.ehime.jp/page/83408.html"
+      "https://www.pref.ehime.jp/page/83408.html",
+      "https://www.pref.ehime.jp/page/17814.html"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "health-points"
     ],
-    "type": "health-point-app"
+    "type": "health-point-app",
+    "startedAt": "2020"
   },
   {
     "id": "b-30cafd26",
@@ -15347,7 +15333,7 @@
     "category": "health-corporate-management",
     "description": "医師会員サイトm3.comのデータベースを使い、企業に専属・嘱託・スポットの産業医を紹介する。月3万円からの顧問型サービスや、面談調整システム「産業医EXPRESS」も提供。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "milestones": [
       {
@@ -15361,6 +15347,7 @@
     ],
     "endReasonNote": "提供中。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000012413.html",
       "https://www.m3career.com/",
       "https://www.aspicjapan.org/asu/article/39446",
       "https://www.bm-sms.co.jp/company/history/"
@@ -15369,7 +15356,8 @@
     "themes": [
       "occupational-physician"
     ],
-    "type": "occupational-health-service"
+    "type": "occupational-health-service",
+    "startedAt": "2017-07"
   },
   {
     "id": "b-338913d5",
@@ -15513,7 +15501,7 @@
     "category": "health-corporate-management",
     "description": "精神科専門医が設立したオンラインカウンセリングの会社が、法人向けにWeb受検無料のストレスチェック、スポット産業医、研修、休職予防・復職支援をまとめて提供する。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "milestones": [
       {
@@ -15527,6 +15515,7 @@
     ],
     "endReasonNote": "提供中。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000068.000073210.html",
       "https://my-sherpa.co.jp/",
       "https://it-trend.jp/mental_health/24347",
       "https://prtimes.jp/main/html/rd/p/000000072.000073210.html"
@@ -15535,7 +15524,8 @@
     "themes": [
       "occupational-physician"
     ],
-    "type": "stress-check-survey"
+    "type": "stress-check-survey",
+    "startedAt": "2026-08"
   },
   {
     "id": "b-12d4c0bc",
@@ -17222,23 +17212,6 @@
     "type": "cdmo-contract-research"
   },
   {
-    "id": "b-6432ea4e",
-    "name": "harmo（電子お薬手帳）",
-    "company": "シミックホールディングス株式会社",
-    "companyId": "7700150008344",
-    "category": "pharmacy-dx",
-    "description": "ソニーから事業承継。2026-10運輸事業者向け「ヤクレコ」開始",
-    "hp": "https://www.cmicgroup.com/corporate/profile/",
-    "startedYear": 2019,
-    "status": "提供中",
-    "startedAt": "2019",
-    "sources": [
-      "https://www.cmicgroup.com/corporate/profile/"
-    ],
-    "updatedAt": "2026-10",
-    "type": "electronic-medication-notebook"
-  },
-  {
     "id": "b-4dc44991",
     "name": "メディカル事業（Mighty Checker等）",
     "company": "株式会社Ubicomホールディングス",
@@ -17449,13 +17422,15 @@
     "category": "health-insuarance-market",
     "description": "",
     "hp": "https://medirom.co.jp/services/lav",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id1460111723",
       "https://medirom.co.jp/services/lav"
     ],
     "updatedAt": "2026-10",
-    "type": "specific-health-guidance"
+    "type": "specific-health-guidance",
+    "startedAt": "2019-05"
   },
   {
     "id": "b-4feefed5",
@@ -17481,13 +17456,15 @@
     "category": "personal-health-record",
     "description": "",
     "hp": "https://prtimes.jp/main/html/rd/p/000000224.000016099.html",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000162.000016099.html",
       "https://prtimes.jp/main/html/rd/p/000000224.000016099.html"
     ],
     "updatedAt": "2026-10",
-    "type": "wearable-vital-device"
+    "type": "wearable-vital-device",
+    "startedAt": "2023-08"
   },
   {
     "id": "b-73584732",
@@ -17835,13 +17812,15 @@
     "category": "health-corporate-management",
     "description": "個人向け「わかるかいご」は2010-07開始。Biz版の",
     "hp": "https://iif.jp/business/",
-    "startedYear": null,
+    "startedYear": 2011,
     "status": "提供中",
     "sources": [
+      "https://iif.jp/company/history/",
       "https://iif.jp/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "work-care-balance-support"
+    "type": "work-care-balance-support",
+    "startedAt": "2011-01"
   },
   {
     "id": "b-8f18a04d",
@@ -17884,13 +17863,15 @@
     "category": "personal-health-record",
     "description": "医療機関・臨床研究・健康経営で活用。",
     "hp": "https://www.isana.net/whatwedo/fitinsight",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id6754450599",
       "https://www.isana.net/whatwedo/fitinsight"
     ],
     "updatedAt": "2026-10",
-    "type": "phr-data-platform"
+    "type": "phr-data-platform",
+    "startedAt": "2025-11"
   },
   {
     "id": "b-9c2a82b2",
@@ -18132,13 +18113,14 @@
     "category": "personal-health-record",
     "description": "沿革上のリリース年は取得テキストから特定できず",
     "hp": "https://www.mdv.co.jp/company/history.html",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
       "https://www.mdv.co.jp/company/history.html"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-record-phr"
+    "type": "medical-record-phr",
+    "startedAt": "2015-06"
   },
   {
     "id": "b-101621d1",
@@ -18318,13 +18300,16 @@
     "category": "pharmacy-dx",
     "description": "訪問薬剤管理指導支援。",
     "hp": "https://www.goodcycle.net/service-list/",
-    "startedYear": null,
+    "startedYear": 2012,
     "status": "提供中",
     "sources": [
+      "https://kyodonewsprwire.jp/release/201208306566",
+      "https://www.goodcycle.net/gooco/story/",
       "https://www.goodcycle.net/service-list/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-erecord-system"
+    "type": "pharmacy-erecord-system",
+    "startedAt": "2012-08"
   },
   {
     "id": "b-8fb9f1b2",
@@ -18350,13 +18335,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://www.goodcycle.net/service-list/followcare/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://www.goodcycle.net/news-list/20201204_01/",
+      "https://prtimes.jp/main/html/rd/p/000000012.000049954.html",
       "https://www.goodcycle.net/service-list/followcare/"
     ],
     "updatedAt": "2026-10",
-    "type": "electronic-medication-notebook"
+    "type": "electronic-medication-notebook",
+    "startedAt": "2020"
   },
   {
     "id": "b-63fdee0d",
@@ -18366,13 +18354,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://www.goodcycle.net/service-list/maps/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000015.000081158.html",
+      "https://www.yakuji.co.jp/entry109117.html",
       "https://www.goodcycle.net/service-list/maps/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-erecord-system"
+    "type": "pharmacy-erecord-system",
+    "startedAt": "2022-12"
   },
   {
     "id": "b-0eca1ed8",
@@ -18545,13 +18536,15 @@
     "category": "personal-health-record",
     "description": "",
     "hp": "https://3h-ms.co.jp/services",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000035.000013827.html",
       "https://3h-ms.co.jp/services"
     ],
     "updatedAt": "2026-10",
-    "type": "patient-community-app"
+    "type": "patient-community-app",
+    "startedAt": "2018-02"
   },
   {
     "id": "b-2abaa0da",
@@ -18955,13 +18948,16 @@
     "category": "personal-health-record",
     "description": "開始時期は公式ページで確認できず。2026-10「画像解析Plus」提供開始",
     "hp": "https://www.asken.inc/",
-    "startedYear": null,
+    "startedYear": 2008,
     "status": "提供中",
     "sources": [
+      "https://www.asken.inc/news/2018/12/5/health-20-asia-japan-2018--xjc79-c4lrx-kd6gh-g4dwa",
+      "https://apps.apple.com/jp/app/id687287242",
       "https://www.asken.inc/"
     ],
     "updatedAt": "2026-10",
-    "type": "diet-log-app"
+    "type": "diet-log-app",
+    "startedAt": "2008"
   },
   {
     "id": "b-6d07473c",
@@ -19352,13 +19348,15 @@
     "category": "health-insuarance-market",
     "description": "自治体等向け。",
     "hp": "https://cancerscan.jp/services/case01/",
-    "startedYear": null,
+    "startedYear": 2009,
     "status": "提供中",
     "sources": [
+      "https://www.cancerscan.jp/about/",
       "https://cancerscan.jp/services/case01/"
     ],
     "updatedAt": "2026-10",
-    "type": "insurer-data-health-support"
+    "type": "insurer-data-health-support",
+    "startedAt": "2009-03"
   },
   {
     "id": "b-426caa9d",
@@ -19368,13 +19366,16 @@
     "category": "disease-management-program",
     "description": "",
     "hp": "https://cancerscan.jp/services/case02/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000015303.html",
+      "https://www.cancerscan.jp/about/",
       "https://cancerscan.jp/services/case02/"
     ],
     "updatedAt": "2026-10",
-    "type": "severity-prevention-program"
+    "type": "severity-prevention-program",
+    "startedAt": "2016-09"
   },
   {
     "id": "b-1d0ea804",
@@ -20123,13 +20124,15 @@
     "category": "personal-health-record",
     "description": "",
     "hp": "https://welby.jp/service/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id1105517459",
       "https://welby.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-record-phr"
+    "type": "medical-record-phr",
+    "startedAt": "2016-04"
   },
   {
     "id": "b-662c27c6",
@@ -20204,10 +20207,11 @@
     "category": "personal-health-record",
     "description": "アプリ連動のオリジナル体組成計",
     "hp": "https://joulelife.jp",
-    "startedYear": 2017,
+    "startedYear": 2018,
     "status": "提供中",
-    "startedAt": "2017",
+    "startedAt": "2018-10",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000037148.html",
       "https://joulelife.jp"
     ],
     "updatedAt": "2026-10",
@@ -20408,8 +20412,10 @@
     "hp": "https://unlog.co.jp/services/",
     "startedYear": 2012,
     "status": "提供中",
-    "startedAt": "2012",
+    "startedAt": "2012-07",
     "sources": [
+      "https://apps.apple.com/jp/app/id539493829",
+      "https://unlog.co.jp/business/app-development/",
       "https://unlog.co.jp/services/"
     ],
     "updatedAt": "2026-10",
@@ -21368,13 +21374,15 @@
     "category": "personal-health-record",
     "description": "自社開発。",
     "hp": "https://jp.moff.mobi/services/",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id894894466",
       "https://jp.moff.mobi/services/"
     ],
     "updatedAt": "2026-10",
-    "type": "wearable-vital-device"
+    "type": "wearable-vital-device",
+    "startedAt": "2014-09"
   },
   {
     "id": "b-4b8bd7ce",
@@ -21416,13 +21424,16 @@
     "category": "personal-health-record",
     "description": "iOS/Android版リリース。開始時期は特定できず",
     "hp": "http://www.yukashikado.co.jp/service",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://www.yukashikado.co.jp/news/vitanote_20200824",
+      "https://apps.apple.com/jp/app/id1475457812",
       "http://www.yukashikado.co.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "diet-log-app"
+    "type": "diet-log-app",
+    "startedAt": "2020-08"
   },
   {
     "id": "b-d10e76a8",
@@ -21762,13 +21773,15 @@
     "category": "personal-health-record",
     "description": "会員10万人突破（2023-08リリース）。",
     "hp": "https://www.medaca.co.jp/about_medaca/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id1190040349",
       "https://www.medaca.co.jp/about_medaca/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-record-phr"
+    "type": "medical-record-phr",
+    "startedAt": "2017-02"
   },
   {
     "id": "b-1a24c1ac",
@@ -22320,13 +22333,15 @@
     "category": "disease-management-program",
     "description": "2020-05にマインドフル運動ガイドを開発",
     "hp": "https://www.travoss.com/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://www.travoss.com/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/",
       "https://www.travoss.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "habit-smoking-program"
+    "type": "habit-smoking-program",
+    "startedAt": "2020-05"
   },
   {
     "id": "b-ec56d58f",
@@ -22729,13 +22744,14 @@
     "category": "personal-health-record",
     "description": "",
     "hp": "https://encourages.jp/business/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
       "https://encourages.jp/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "patient-community-app"
+    "type": "patient-community-app",
+    "startedAt": "2017-09"
   },
   {
     "id": "b-4e3ff207",
@@ -22929,13 +22945,16 @@
     "category": "personal-health-record",
     "description": "2026-09に購買成果連動型PMNを導入",
     "hp": "https://corp.sirutasu.com/service",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://corp.sirutasu.com/posts/20211116",
+      "https://www.maff.go.jp/j/syokuiku/network/movie/0001.html",
       "https://corp.sirutasu.com/service"
     ],
     "updatedAt": "2026-10",
-    "type": "diet-log-app"
+    "type": "diet-log-app",
+    "startedAt": "2019-03"
   },
   {
     "id": "b-46cfcbaf",
@@ -22961,13 +22980,15 @@
     "category": "health-insuarance-market",
     "description": "累計契約500団体突破（2026-08、公式）。",
     "hp": "https://www.medcare.jp/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id1281307701",
       "https://www.medcare.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "specific-health-guidance"
+    "type": "specific-health-guidance",
+    "startedAt": "2017-09"
   },
   {
     "id": "b-28e6829a",
@@ -23461,13 +23482,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://sensecare.co.jp/company/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%9A%E3%82%A4/id1500089234",
+      "https://medical-pay.jp/",
       "https://sensecare.co.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-patient-engagement"
+    "type": "pharmacy-patient-engagement",
+    "startedAt": "2020-03"
   },
   {
     "id": "b-d3573975",
@@ -23493,13 +23517,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://sensecare.co.jp/company/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/%E3%81%8A%E8%96%AC%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88/id1588591286",
+      "https://medical-pay.jp/okusuri-market/terms",
       "https://sensecare.co.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-inventory-sharing"
+    "type": "pharmacy-inventory-sharing",
+    "startedAt": "2021-10"
   },
   {
     "id": "b-831aa275",
@@ -23856,13 +23883,16 @@
     "category": "personal-health-record",
     "description": "",
     "hp": "https://www.calomeal.com/about-calomeal/",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id963055562",
+      "https://prtimes.jp/main/html/rd/p/000000006.000018894.html",
       "https://www.calomeal.com/about-calomeal/"
     ],
     "updatedAt": "2026-10",
-    "type": "diet-log-app"
+    "type": "diet-log-app",
+    "startedAt": "2015-02"
   },
   {
     "id": "b-0540470c",
@@ -23872,13 +23902,16 @@
     "category": "personal-health-record",
     "description": "2026-05にピクセラへ提供開始",
     "hp": "https://www.calomeal.com/forbusiness.html",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000025.000018894.html",
+      "https://prtimes.jp/main/html/rd/p/000000125.000018894.html",
       "https://www.calomeal.com/forbusiness.html"
     ],
     "updatedAt": "2026-10",
-    "type": "phr-data-platform"
+    "type": "phr-data-platform",
+    "startedAt": "2019-08"
   },
   {
     "id": "b-3c0b716e",
@@ -23888,13 +23921,15 @@
     "category": "personal-health-record",
     "description": "",
     "hp": "https://www.calomeal.com/forbusiness.html",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000037.000018894.html",
       "https://www.calomeal.com/forbusiness.html"
     ],
     "updatedAt": "2026-10",
-    "type": "diet-log-app"
+    "type": "diet-log-app",
+    "startedAt": "2020-05"
   },
   {
     "id": "b-dea106f7",
@@ -23904,13 +23939,15 @@
     "category": "health-insuarance-market",
     "description": "2025-11に面談予約機能を追加",
     "hp": "https://www.calomeal.com/forbusiness.html",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000116.000018894.html",
       "https://www.calomeal.com/forbusiness.html"
     ],
     "updatedAt": "2026-10",
-    "type": "specific-health-guidance"
+    "type": "specific-health-guidance",
+    "startedAt": "2022-04"
   },
   {
     "id": "b-5878ebdf",
@@ -23920,13 +23957,15 @@
     "category": "personal-health-record",
     "description": "",
     "hp": "https://www.calomeal.com/forbusiness.html",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000042.000018894.html",
       "https://www.calomeal.com/forbusiness.html"
     ],
     "updatedAt": "2026-10",
-    "type": "phr-data-platform"
+    "type": "phr-data-platform",
+    "startedAt": "2020-08"
   },
   {
     "id": "b-d7e0b248",
@@ -24510,13 +24549,15 @@
     "category": "health-insuarance-market",
     "description": "特定保健指導実施者 累計6万人突破（2026-04）",
     "hp": "https://octawell.co.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000038293.html",
       "https://octawell.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "specific-health-guidance"
+    "type": "specific-health-guidance",
+    "startedAt": "2019-04"
   },
   {
     "id": "b-0c968e06",
@@ -24526,13 +24567,15 @@
     "category": "health-corporate-management",
     "description": "",
     "hp": "https://octawell.co.jp/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000038293.html",
       "https://octawell.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "health-management-certification"
+    "type": "health-management-certification",
+    "startedAt": "2018-10"
   },
   {
     "id": "b-fea14d0f",
@@ -25560,13 +25603,15 @@
     "category": "personal-health-record",
     "description": "2024年度グッドデザイン賞受賞。",
     "hp": "https://linc-well.com/service/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id1636593867",
       "https://linc-well.com/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-record-phr"
+    "type": "medical-record-phr",
+    "startedAt": "2023-05"
   },
   {
     "id": "b-c0064507",
@@ -25955,13 +26000,16 @@
     "category": "pharmacy-dx",
     "description": "患者会員190万人突破（2026-06）",
     "hp": "https://www.mg-dx.co.jp/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://www.cyberagent.co.jp/news/detail/id=25823",
+      "https://www.mg-dx.co.jp/news/posts/8Uc1bqsl",
       "https://www.mg-dx.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "online-pharmacy"
+    "type": "online-pharmacy",
+    "startedAt": "2020-08"
   },
   {
     "id": "b-56616980",
@@ -25971,13 +26019,15 @@
     "category": "pharmacy-dx",
     "description": "2026-06にクオール薬局・ユニスマイル薬局へ提供開始",
     "hp": "https://prtimes.jp/main/html/rd/p/000000059.000093498.html",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://www.cyberagent.co.jp/news/detail/id=32489",
       "https://prtimes.jp/main/html/rd/p/000000059.000093498.html"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-patient-engagement"
+    "type": "pharmacy-patient-engagement",
+    "startedAt": "2025-09"
   },
   {
     "id": "b-579f8604",
@@ -25987,13 +26037,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://www.mg-dx.co.jp/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://md-next.jp/22432",
+      "https://yqb.mg-dx.jp/function/mobileorder",
       "https://www.mg-dx.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-patient-engagement"
+    "type": "pharmacy-patient-engagement",
+    "startedAt": "2023-11"
   },
   {
     "id": "b-26cc4afd",
@@ -26842,23 +26895,6 @@
     "type": "pharmacy-patient-engagement"
   },
   {
-    "id": "b-07981a49",
-    "name": "geocra（AnemoiP&M社と共同開発）",
-    "company": "株式会社HealthCareGate",
-    "companyId": "6020001131530",
-    "category": "pharmacy-dx",
-    "description": "沿革で2025年に共同開発開始。Epson Innovation Challenge優勝",
-    "hp": "https://healthcaregate.co.jp/",
-    "startedYear": 2025,
-    "status": "提供中",
-    "startedAt": "2025",
-    "sources": [
-      "https://healthcaregate.co.jp/"
-    ],
-    "updatedAt": "2026-10",
-    "type": "pharmacy-patient-engagement"
-  },
-  {
     "id": "b-5600a07c",
     "name": "MIMOSYS（音声から心の状態を定量化するエンジン）",
     "company": "PST株式会社",
@@ -27018,13 +27054,16 @@
     "category": "personal-health-record",
     "description": "",
     "hp": "https://knockonthedoor.jp/service/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000046488.html",
+      "https://prtimes.jp/main/html/rd/p/000000010.000046488.html",
       "https://knockonthedoor.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "patient-community-app"
+    "type": "patient-community-app",
+    "startedAt": "2020-10"
   },
   {
     "id": "b-1a03772a",
@@ -27034,13 +27073,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://knockonthedoor.jp/service/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000033.000046488.html",
+      "https://www.cmicgroup.com/news/20230927/",
       "https://knockonthedoor.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "online-pharmacy"
+    "type": "online-pharmacy",
+    "startedAt": "2023-10"
   },
   {
     "id": "b-814503f2",
@@ -27237,13 +27279,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://medimo.ai/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000124331.html",
+      "https://medicalai.m3.com/news/250125-news-info",
       "https://medimo.ai/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-erecord-system"
+    "type": "pharmacy-erecord-system",
+    "startedAt": "2025-01"
   },
   {
     "id": "b-897e3bf9",
@@ -27549,13 +27594,15 @@
     "category": "pharmacy-dx",
     "description": "オンライン事務員による入力代行。",
     "hp": "https://about.precal.jp/service",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000056236.html",
       "https://about.precal.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "prescription-input-service"
+    "type": "prescription-input-service",
+    "startedAt": "2020-04"
   },
   {
     "id": "b-849366c2",
@@ -27565,13 +27612,15 @@
     "category": "pharmacy-dx",
     "description": "入力代行と併用で受付から印刷まで自動化。",
     "hp": "https://about.precal.jp/service",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000010.000056236.html",
       "https://about.precal.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-erecord-system"
+    "type": "pharmacy-erecord-system",
+    "startedAt": "2024-01"
   },
   {
     "id": "b-b6d133cb",
@@ -27598,13 +27647,16 @@
     "category": "pharmacy-dx",
     "description": "2025-10にLLM/RAG人材のSES提供開始を発表。",
     "hp": "https://www.pharma-x.co.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://note.com/pharmax/n/naf01520662dd",
+      "https://ax-lp.pharma-x.co.jp/",
       "https://www.pharma-x.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-patient-engagement"
+    "type": "pharmacy-patient-engagement",
+    "startedAt": "2025-03"
   },
   {
     "id": "b-4c19d6d8",
@@ -27614,13 +27666,16 @@
     "category": "pharmacy-dx",
     "description": "キリン堂の調剤薬局全店舗に導入（2025-05）。",
     "hp": "https://site.solamichi.com/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://www.mti.co.jp/?p=23857",
+      "https://www.zaikei.co.jp/article/20190521/511685.html",
       "https://site.solamichi.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-erecord-system"
+    "type": "pharmacy-erecord-system",
+    "startedAt": "2019-05"
   },
   {
     "id": "b-1eec1dd2",
@@ -27630,13 +27685,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://site.solamichi.com/service",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/solapick/id6474528415",
+      "https://site.solamichi.com/fn/solapick",
       "https://site.solamichi.com/service"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-erecord-system"
+    "type": "pharmacy-erecord-system",
+    "startedAt": "2024-06"
   },
   {
     "id": "b-29430cc0",
@@ -27646,13 +27704,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://site.solamichi.com/service",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://mediencer.jp/news/2021-12-10/",
+      "https://site.solamichi.com/fn/pharmacy-go",
       "https://site.solamichi.com/service"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-patient-engagement"
+    "type": "pharmacy-patient-engagement",
+    "startedAt": "2021-12"
   },
   {
     "id": "b-5c04679a",
@@ -27662,13 +27723,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://site.solamichi.com/notebook/service",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://www.mti.co.jp/?p=31947",
+      "https://www.carada.jp/pharmacy/",
       "https://site.solamichi.com/notebook/service"
     ],
     "updatedAt": "2026-10",
-    "type": "electronic-medication-notebook"
+    "type": "electronic-medication-notebook",
+    "startedAt": "2022-10"
   },
   {
     "id": "b-e4fce16f",
@@ -28101,13 +28165,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://iyakuru.com/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://www.value-press.com/pressrelease/337831",
+      "http://news.butsuryujin.org/topics/10300.html",
       "https://iyakuru.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-inventory-sharing"
+    "type": "pharmacy-inventory-sharing",
+    "startedAt": "2023"
   },
   {
     "id": "b-8dfff158",
@@ -28202,13 +28269,16 @@
     "category": "pharmacy-dx",
     "description": "2026-10に錠剤粉砕機の試作初号機を公開。",
     "hp": "https://wizray.jp/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://wizray.jp/system_panel/uploads/images/2023_konamiru.pdf",
+      "https://wizray.jp/products",
       "https://wizray.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "medication-devices"
+    "type": "medication-devices",
+    "startedAt": "2023"
   },
   {
     "id": "b-fc6d58da",
@@ -28267,13 +28337,15 @@
     "category": "pharmacy-dx",
     "description": "各社システムとの連携多数。",
     "hp": "https://www.neox-inc.com/service",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://www.yakumaru.ai/news/67f8bf4e35724c31735e6c23",
       "https://www.neox-inc.com/service"
     ],
     "updatedAt": "2026-10",
-    "type": "prescription-input-service"
+    "type": "prescription-input-service",
+    "startedAt": "2022"
   },
   {
     "id": "b-9882687b",
@@ -28310,22 +28382,6 @@
     "type": "medication-devices"
   },
   {
-    "id": "b-4cd81c62",
-    "name": "MoAir",
-    "company": "NeoX株式会社",
-    "companyId": "jp-032",
-    "category": "pharmacy-dx",
-    "description": "",
-    "hp": "https://www.neox-inc.com/service",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://www.neox-inc.com/service"
-    ],
-    "updatedAt": "2026-10",
-    "type": "pharmacy-erecord-system"
-  },
-  {
     "id": "b-7ea03b34",
     "name": "Pas-IS（薬局向け遠隔入力サービス）",
     "company": "株式会社OZ",
@@ -28333,13 +28389,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://www.oz-wa.co.jp/services",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://www.atpress.ne.jp/news/418301",
+      "https://medicaltech-news.com/pharmacy-system/4231/",
       "https://www.oz-wa.co.jp/services"
     ],
     "updatedAt": "2026-10",
-    "type": "prescription-input-service"
+    "type": "prescription-input-service",
+    "startedAt": "2024-11"
   },
   {
     "id": "b-98c80048",
@@ -28349,13 +28408,16 @@
     "category": "pharmacy-dx",
     "description": "",
     "hp": "https://www.oz-wa.co.jp/services",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://blog.oz-wa.co.jp/product/202608-pasport/",
+      "https://pnb.jiho.jp/article/250712",
       "https://www.oz-wa.co.jp/services"
     ],
     "updatedAt": "2026-10",
-    "type": "prescription-input-service"
+    "type": "prescription-input-service",
+    "startedAt": "2026-08"
   },
   {
     "id": "b-ed27583a",
@@ -28368,6 +28430,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000163670.html",
+      "https://www.oz-wa.co.jp/enkakusan",
       "https://www.oz-wa.co.jp/services"
     ],
     "updatedAt": "2026-10",
@@ -28697,13 +28761,16 @@
     "category": "pharmacy-dx",
     "description": "友だち登録170万人以上（2025-09）。",
     "hp": "https://psft.co.jp/business/",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.com/story/detail/3b7zMnIoDMr",
+      "https://psft.co.jp/pharmacy/",
       "https://psft.co.jp/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-patient-engagement"
+    "type": "pharmacy-patient-engagement",
+    "startedAt": "2021"
   },
   {
     "id": "b-3a1f9449",
@@ -29741,13 +29808,16 @@
     "category": "disease-management-program",
     "description": "一部の病院・クリニック・研究参加者に限定提供中",
     "hp": "https://thephage.life/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/glucose-flight/id6463405415",
+      "https://prtimes.jp/main/html/rd/p/000000004.000110505.html",
       "https://thephage.life/"
     ],
     "updatedAt": "2026-10",
-    "type": "lifestyle-disease-app"
+    "type": "lifestyle-disease-app",
+    "startedAt": "2024-03"
   },
   {
     "id": "b-36acf927",
@@ -31115,13 +31185,15 @@
     "category": "health-corporate-management",
     "description": "",
     "hp": "https://tnw-inc.com/#services",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000139990.html",
       "https://tnw-inc.com/#services"
     ],
     "updatedAt": "2026-10",
-    "type": "health-management-certification"
+    "type": "health-management-certification",
+    "startedAt": "2024-04"
   },
   {
     "id": "b-3aefb8a8",
@@ -31395,13 +31467,15 @@
     "category": "health-corporate-management",
     "description": "",
     "hp": "https://yakkle.jp/health",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000127099.html",
       "https://yakkle.jp/health"
     ],
     "updatedAt": "2026-10",
-    "type": "corporate-wellness-program"
+    "type": "corporate-wellness-program",
+    "startedAt": "2024-06"
   },
   {
     "id": "b-bf029654",
@@ -33972,13 +34046,15 @@
     "category": "pharmacy-dx",
     "description": "2026年3月リリースで「1年でゼロから月間190件の在宅訪問」",
     "hp": "https://prtimes.jp/main/html/searchrlp/company_id/89500",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000016.000089500.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/89500"
     ],
     "updatedAt": "2026-10",
-    "type": "pharmacy-home-visit"
+    "type": "pharmacy-home-visit",
+    "startedAt": "2025-01"
   },
   {
     "id": "b-57168179",
@@ -33991,6 +34067,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000014.000089500.html",
+      "https://www.logi-today.com/858297",
       "https://prtimes.jp/main/html/searchrlp/company_id/89500"
     ],
     "updatedAt": "2026-10",
@@ -34119,13 +34197,16 @@
     "category": "disease-management-program",
     "description": "アプリ自体の",
     "hp": "https://minchalle.com",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
+      "https://a10lab.com/company/",
+      "https://jp-startup.jp/articles/1206/",
       "https://minchalle.com"
     ],
     "updatedAt": "2026-10",
-    "type": "habit-smoking-program"
+    "type": "habit-smoking-program",
+    "startedAt": "2015-11"
   },
   {
     "id": "b-b0d9f491",
@@ -34169,13 +34250,16 @@
     "category": "disease-management-program",
     "description": "2026年10月に内服薬コース追加",
     "hp": "https://a10lab.com/press-20261023/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000121.000024217.html",
+      "https://minchalle.com/for-biz/quitsmoking/",
       "https://a10lab.com/press-20261023/"
     ],
     "updatedAt": "2026-10",
-    "type": "habit-smoking-program"
+    "type": "habit-smoking-program",
+    "startedAt": "2022-11"
   },
   {
     "id": "b-0744ee48",
@@ -34349,13 +34433,15 @@
     "category": "health-corporate-management",
     "description": "",
     "hp": "https://ph-tech.jp/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id1609912592",
       "https://ph-tech.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "employee-health-cloud"
+    "type": "employee-health-cloud",
+    "startedAt": "2022-03"
   },
   {
     "id": "b-519f84bc",
@@ -35417,13 +35503,15 @@
     "category": "personal-health-record",
     "description": "",
     "hp": "https://www.hemillions.co.jp/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id6756911054",
       "https://www.hemillions.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-record-phr"
+    "type": "medical-record-phr",
+    "startedAt": "2026-05"
   },
   {
     "id": "b-90646af1",
@@ -37350,6 +37438,8 @@
     "status": "提供中",
     "startedAt": "2021",
     "sources": [
+      "https://www.mti-healthcare.co.jp/",
+      "https://ir.mti.co.jp/news/210512/",
       "https://ssl4.eir-parts.net/doc/7459/announcement1/102326/00.pdf"
     ],
     "updatedAt": "2026-10",
@@ -38186,22 +38276,6 @@
     ],
     "updatedAt": "2026-10",
     "type": "health-data-standardization"
-  },
-  {
-    "id": "b-be6126a6",
-    "name": "健康管理アプリ「dヘルスケア」",
-    "company": "NTT株式会社",
-    "companyId": "7010001065142",
-    "category": "personal-health-record",
-    "description": "ドコモが提供、2026年10月にNTTプレシジョンメディシンへ移管",
-    "hp": "https://health.docomo.ne.jp/",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://health.docomo.ne.jp/"
-    ],
-    "updatedAt": "2026-10",
-    "type": "health-point-app"
   },
   {
     "id": "b-e33153d9",
@@ -39918,14 +39992,16 @@
     "category": "health-corporate-management",
     "description": "医療・介護職員向けの職場環境改善プラットフォーム。コンディション診断と国家資格キャリアコンサルタントとのオンライン面談で得た気づきを匿名化し、組織傾向や離職リスクの予兆として法人にフィードバックする。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id6471478569",
       "https://tohanas.jp/",
       "https://prtimes.jp/main/html/rd/p/000000003.000134518.html"
     ],
     "type": "stress-check-survey",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-11"
   },
   {
     "id": "b-1b994e88",
@@ -40354,14 +40430,17 @@
     "category": "disease-management-program",
     "description": "糖尿病患者の足病変を早期発見する遠隔フットチェックの仕組み。医療機関はタブレットで撮影・記録しレポートを自動作成、患者はスマホアプリでセルフチェックを習慣化し医療者のコメントを受け取る。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000135007.html",
+      "https://www.steplife-sh.com/",
       "https://www.secondheart.co.jp/",
       "https://prtimes.jp/main/html/rd/p/000000023.000135007.html"
     ],
     "type": "severity-prevention-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-05"
   },
   {
     "id": "b-f2f2a63f",
@@ -40909,10 +40988,12 @@
     "category": "personal-health-record",
     "description": "お風呂上がりに乗るだけで約3秒で体重・体組成を測り、アプリに自動記録するバスマット一体型の体重計。AI「ウェリー」が変化を知らせる。auショップなど約2,500店舗で販売。",
     "hp": "https://issin.cc/",
-    "startedYear": 2021,
+    "startedYear": 2022,
     "status": "提供中",
-    "startedAt": "2021",
+    "startedAt": "2022-11",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000103350.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000103350.html",
       "https://issin.cc/pages/smart-bath-mat",
       "https://prtimes.jp/main/html/rd/p/000000062.000103350.html"
     ],
@@ -40927,14 +41008,16 @@
     "category": "personal-health-record",
     "description": "体重・食事・睡眠・運動の記録から、いつものペースを覚えて外れそうなときに声をかけるヘルスケアAIエージェント。食事写真の記録やAIによる食事提案、フレイル兆候の自動検知も行う。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id6443857195",
       "https://issin.cc/pages/welly",
       "https://issin.cc/"
     ],
     "type": "diet-log-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-10"
   },
   {
     "id": "b-d57c557a",
@@ -40964,8 +41047,9 @@
     "hp": "",
     "startedYear": 2025,
     "status": "提供中",
-    "startedAt": "2025",
+    "startedAt": "2025-03",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000062.000103350.html",
       "https://issin.cc/pages/smart-recovery-ring"
     ],
     "type": "wearable-vital-device",
@@ -41032,13 +41116,15 @@
     "category": "personal-health-record",
     "description": "受診履歴や検査結果、レントゲン写真などをスマートフォンで一括管理できる患者向けの医療情報管理アプリ。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id6738941254",
       "https://aibtrust.jp/medireco"
     ],
     "type": "medical-record-phr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2025-01"
   },
   {
     "id": "b-95846296",
@@ -42292,13 +42378,15 @@
     "category": "personal-health-record",
     "description": "個人から預託された全ゲノム情報を保護し、提供先・同意内容など利活用の個別同意を安全に管理するサービス。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000055846.html",
       "https://genex.co.jp/"
     ],
     "type": "phr-data-platform",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-01"
   },
   {
     "id": "b-909e6428",
@@ -42344,6 +42432,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://onemedica.co.jp/news/2x6iXzsQ",
       "https://onemedica.co.jp/"
     ],
     "type": "lifestyle-disease-app",
@@ -43788,6 +43877,7 @@
     "status": "提供中",
     "startedAt": "2016",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000061546.html",
       "https://prtimes.jp/main/html/rd/p/000000019.000061546.html",
       "https://www.pharmarise.com/company/group/index.html"
     ],
@@ -43854,14 +43944,16 @@
     "category": "health-corporate-management",
     "description": "従業員がスマホのカメラに指先を60秒かざして心拍変動からストレスを測り、日々の状態評価と改善プログラムを受けられる法人向けセルフコンディショニングアプリ。年1回のストレスチェック後のフォローに使う。",
     "hp": "https://anbai.team/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id1458262251",
       "https://anbai.team/",
       "https://anbai.team/news/357/"
     ],
     "type": "stress-check-survey",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2019-04"
   },
   {
     "id": "b-ba2050af",
@@ -47933,14 +48025,17 @@
     "category": "personal-health-record",
     "description": "歩数や測定に応じてポイントを付与し、Vポイントなどと交換できる健康ポイントサービス。自治体の健康増進事業やウォーキングイベントで使われる。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2010,
     "status": "提供中",
     "sources": [
+      "https://www.tanita-thl.co.jp/news/14",
+      "https://www.tanita-thl.co.jp/news/33",
       "https://prtimes.jp/main/html/rd/p/000000009.000072848.html",
       "https://prtimes.jp/main/html/rd/p/000000014.000072848.html"
     ],
     "type": "health-point-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2010-09"
   },
   {
     "id": "b-903741a2",
@@ -48881,8 +48976,9 @@
     "hp": "https://ribbonsbase.com/lp/ribbons/",
     "startedYear": 2023,
     "status": "提供中",
-    "startedAt": "2023",
+    "startedAt": "2023-07",
     "sources": [
+      "https://apps.apple.com/jp/app/id6448916349",
       "https://prtimes.jp/main/html/rd/p/000000001.000113824.html",
       "https://ribbonsbase.com/lp/ribbons/"
     ],
@@ -50091,13 +50187,15 @@
     "category": "health-corporate-management",
     "description": "プロ産業医チームが訪問日以外もオンラインで面談・相談を行い、契約外の小規模事業所も含めて従業員の健康リスク解決を支援する産業医サービス。MRTと共同で運営する。",
     "hp": "https://drcheck-sangyoi.medrt.com/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000016.000058805.html",
       "https://drcheck-sangyoi.medrt.com/"
     ],
     "type": "occupational-health-service",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-06"
   },
   {
     "id": "b-0ab4cb82",
@@ -50871,6 +50969,434 @@
       "https://www.mcgc.com/news_release/01213.html"
     ],
     "type": "innovative-drug-maker",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b2124857",
+    "name": "HeaLis+（ひーりすぷらす）",
+    "company": "インフォテクノ株式会社",
+    "category": "pharmacy-dx",
+    "description": "調剤レセコン・電子薬歴のメーカーが提供した電子版お薬手帳アプリ。お薬手帳の参照、BMI・血糖値などのライフログ記録ができた。旧アプリK-TAI2の後継。",
+    "hp": "https://www.infot.co.jp/",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2023-03",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2023年3月31日でサービスを終了したと同社が告知。理由は説明されていない。前身アプリK-TAI2から移行させた後継アプリだった。",
+    "lessons": "レセコンメーカー単独のお薬手帳アプリは、日薬・大手アプリへの集約が進むなかで短命に終わった例。",
+    "sources": [
+      "https://www.infot.co.jp/2023/03/24/2023%E5%B9%B43%E6%9C%8831%E6%97%A5-%E9%9B%BB%E5%AD%90%E7%89%88%E3%81%8A%E3%81%8F%E3%81%99%E3%82%8A%E6%89%8B%E5%B8%B3-healis-%E3%81%B2%E3%83%BC%E3%82%8A%E3%81%99%E3%81%B7%E3%82%89%E3%81%99-%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E7%B5%82%E4%BA%86%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+    ],
+    "type": "electronic-medication-notebook",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fb07d310",
+    "name": "おくすりPASS／おくすりPASS FAST",
+    "company": "株式会社アイセイ薬局",
+    "category": "pharmacy-dx",
+    "description": "調剤薬局チェーンのアイセイ薬局が提供する電子お薬手帳。2014年に実証を始め全店展開し、2020年にLINEミニアプリ版で調剤予約もできる「おくすりPASS FAST」に移行。厚労省の電子版お薬手帳一覧に掲載。",
+    "hp": "https://www.aisei.co.jp/passfast/",
+    "startedYear": 2014,
+    "status": "提供中",
+    "startedAt": "2014-05",
+    "sources": [
+      "https://kyodonewsprwire.jp/release/201506080902",
+      "https://www.aisei.co.jp/news/information/29488290076/",
+      "https://www.mhlw.go.jp/content/001761430.pdf"
+    ],
+    "type": "electronic-medication-notebook",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2f703c9a",
+    "name": "リンクパレット／お薬パレット",
+    "company": "株式会社メディエイド",
+    "category": "pharmacy-dx",
+    "description": "「さくら薬局健康おくすり手帳」の運営も担うメディエイドが提供する電子お薬手帳・健康支援アプリ。薬局システム連携、服薬のプッシュ通知、相互作用アラート、バイタル記録の機能がある。厚労省の電子版お薬手帳一覧に掲載。",
+    "hp": "https://mediaid.co.jp/",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-10",
+    "sources": [
+      "https://www.mhlw.go.jp/content/001761430.pdf",
+      "https://mediaid.co.jp/medical_notebook_guideline/"
+    ],
+    "type": "electronic-medication-notebook",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0cc57593",
+    "name": "MEDIXS（クラウド型電子薬歴・レセコン）",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "pharmacy-dx",
+    "description": "2014年から提供されてきたクラウド型電子薬歴。2025年にメドレーのサービスに加わり、同年9月にかかりつけ薬局支援「Pharms」を統合、2026年4月に薬歴一体型の「MEDIXS レセコン」を提供開始した。",
+    "hp": "https://medixs.jp/",
+    "startedYear": 2014,
+    "status": "提供中",
+    "startedAt": "2014",
+    "sources": [
+      "https://www.medley.jp/release/20250901-2.html",
+      "https://www.medley.jp/release/20260424.html"
+    ],
+    "type": "pharmacy-erecord-system",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5d8db20e",
+    "name": "Pharm-i／Pharm-i+（保険薬局向けレセコン・一体型電子薬歴）",
+    "company": "アイテック阪急阪神株式会社",
+    "category": "pharmacy-dx",
+    "description": "阪急阪神グループのIT会社が開発・販売した保険薬局向けレセコン「Pharm-i」と、レセコン一体型電子薬歴「Pharm-i+」。三菱電機デジタルイノベーションとの提携で自社開発・販売を終えた。",
+    "hp": "https://www.itec.hankyu-hanshin.co.jp/",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2025-09",
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "三菱電機デジタルイノベーションと業務提携し、それぞれの強みに経営資源を集中するとして、Pharm-iの自社開発・販売を2025年9月で終了。以後は調剤Melphin/DUOの代理店販売とサポート業務に回り、既存顧客のサポートは2030年5月まで続ける。",
+    "lessons": "レセコンはクラウド化・電子処方箋対応の開発負担が重く、中堅メーカーが自社開発をやめて大手製品の販売・サポートに回る動きがある。",
+    "sources": [
+      "https://www.mitsubishielectric.co.jp/medigital/news/2025/0717/pdf/20250717.pdf"
+    ],
+    "type": "pharmacy-erecord-system",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-24628271",
+    "name": "調剤Melphin/DUO・Melhis（調剤レセコン・電子薬歴）",
+    "company": "三菱電機デジタルイノベーション株式会社",
+    "category": "pharmacy-dx",
+    "description": "三菱電機グループの保険薬局向けレセコン「調剤Melphin/DUO」と電子薬歴「Melhis」。2025年10月からはアイテック阪急阪神が代理店販売・コンタクトセンターを担い、クラウド化を進めている。",
+    "hp": "https://www.mitsubishielectric.co.jp/medigital/solution/melphin/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.mitsubishielectric.co.jp/medigital/solution/melphin/",
+      "https://www.mitsubishielectric.co.jp/medigital/news/2025/0717/pdf/20250717.pdf"
+    ],
+    "type": "pharmacy-erecord-system",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4cfedff8",
+    "name": "PharnesX（調剤システム）／メディコム",
+    "company": "ウィーメックス株式会社",
+    "category": "pharmacy-dx",
+    "description": "1972年に国内初のレセプトコンピュータを発売した「メディコム」ブランドの保険薬局向け調剤システム。旧パナソニックヘルスケア・PHCの事業で、電子お薬手帳「ヘルスケア手帳」も提供する。",
+    "hp": "https://www.wemex.com/",
+    "startedYear": 1972,
+    "status": "提供中",
+    "startedAt": "1972",
+    "sources": [
+      "https://www.wemex.com/business/",
+      "https://www.phchd.com/jp/medicom/park/tech/receip-pharmacy-maker"
+    ],
+    "type": "pharmacy-erecord-system",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2ed86c38",
+    "name": "薬急便 AI-OCR",
+    "company": "株式会社MG-DX",
+    "companyId": "2011001133744",
+    "category": "pharmacy-dx",
+    "description": "薬局のAI無人受付などでスキャンした処方せん画像をAIが解析し、処方情報をレセコンへ自動反映するサービス。2026年にEMシステムズのレセコンとの連携を始めた。",
+    "hp": "https://www.mg-dx.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.mg-dx.co.jp/news/posts/f21Gmm1c",
+      "https://www.medical-jpn.jp/tokyo/ja-jp/search/mj-tokyo202610/product/product-details.exh-98fec8b3-5601-47c0-a62c-c5a23ca444e5.pro-fdc391ca-f8de-4fac-9f80-f29f135200a7.html"
+    ],
+    "type": "prescription-input-service",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-13bd0396",
+    "name": "処方箋リーダー（処方箋読取システム）",
+    "company": "株式会社ユニケソフトウェアリサーチ",
+    "category": "pharmacy-dx",
+    "description": "調剤レセコン「P-CUBE」のメーカーが発売した処方箋読取システム。二次元シンボルがない処方箋もOCRで読み取り、P-CUBEへ自動で取り込む。",
+    "hp": "https://www.unike.co.jp/",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-12",
+    "sources": [
+      "https://www.unike.co.jp/news/231214.html"
+    ],
+    "type": "prescription-input-service",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-34d4654d",
+    "name": "ばくりっこ（薬局向け不動在庫マッチング）",
+    "company": "株式会社ミライシアホールディング",
+    "category": "pharmacy-dx",
+    "description": "札幌の調剤薬局グループが凸版印刷と共同開発した、薬局間で医療用医薬品の不動在庫を交換・売買するサービス。登録した不動在庫と使用量から、交換・購入する医薬品をアルゴリズムで自動選定した。",
+    "hp": "https://info.bakuricco.com/",
+    "startedYear": 2023,
+    "status": "終了",
+    "startedAt": "2023-02",
+    "endedAt": "2026-03",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2026年3月31日でサービスを終了したと公式サイトで告知。終了の理由は説明されていない。登録情報は終了後に消去するとしている。",
+    "lessons": "薬局間の在庫融通は大手卸・チェーン系や無料アプリなど競合が多く、地域の薬局グループ発のサービスは3年で閉じた。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000104967.html",
+      "https://info.bakuricco.com/"
+    ],
+    "type": "pharmacy-inventory-sharing",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-41583c1b",
+    "name": "MEDISTORY（薬局間医薬品マッチング）",
+    "company": "株式会社イントロン",
+    "category": "pharmacy-dx",
+    "description": "薬局向けシステム「あなたの調剤薬局」の新機能として始めた、不動在庫を持つ薬局とその医薬品を必要とする薬局をつなぐマッチングサービス。正規流通医薬品の適正流通をうたう。",
+    "hp": "https://lp.yppp.jp/medistory/",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-08",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000027.000044973.html",
+      "https://intron.co.jp/information/%E3%80%8C%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E8%AA%BF%E5%89%A4%E8%96%AC%E5%B1%80%E3%80%8D%E6%96%B0%E6%A9%9F%E8%83%BD%E3%80%81%E8%96%AC%E5%B1%80%E9%96%93%E5%8C%BB%E8%96%AC%E5%93%81%E3%83%9E%E3%83%83/"
+    ],
+    "type": "pharmacy-inventory-sharing",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5739f438",
+    "name": "みんなのお薬箱（医薬品の売買マッチング）",
+    "company": "株式会社くすりの窓口",
+    "companyId": "7420001005379",
+    "category": "pharmacy-dx",
+    "description": "余った医薬品在庫を売りたい薬局と安く買いたい薬局をマッチングし、デッドストックの廃棄を減らすサービス。くすりの窓口は医薬品卸と薬局をつなぐプラットフォームと位置づける。",
+    "hp": "https://minkusu.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://kusurinomadoguchi.co.jp/service/minkusu/",
+      "https://kabutan.jp/news/marketnews/?b=n202512260522"
+    ],
+    "type": "pharmacy-inventory-sharing",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9e38d515",
+    "name": "au薬局",
+    "company": "KDDI株式会社",
+    "companyId": "9011101031552",
+    "category": "pharmacy-dx",
+    "description": "KDDIが2023年から提供したスマホでつながる調剤サービス。オンライン服薬指導・服薬相談から処方薬の配送までを担った。三菱商事との合弁パームヘルスケアの「Ponta薬局」に引き継いだ。",
+    "hp": "https://pharmacy.wellness.auone.jp/",
+    "startedYear": 2023,
+    "status": "統合",
+    "startedAt": "2023",
+    "endedAt": "2026-06",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "KDDIと三菱商事の合弁会社パームヘルスケアが2026年7月に「Ponta薬局」を開局するのに合わせ、au薬局は2026年6月30日でサービスを終了。利用者には新たにPonta薬局への登録を案内した。",
+    "lessons": "通信大手の単独オンライン薬局は、商社との合弁・ローソン受け取りなど物流と店舗網を持つ体制へ組み替えられた。",
+    "sources": [
+      "https://pharmacy.wellness.auone.jp/close.html",
+      "https://newsroom.kddi.com/news/detail/kddi_nr-1080_4607.html"
+    ],
+    "type": "online-pharmacy",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2b55d439",
+    "name": "Amazonファーマシー",
+    "company": "アマゾンジャパン合同会社",
+    "category": "pharmacy-dx",
+    "description": "Amazonのアプリ・サイト上で、提携薬局によるオンライン服薬指導から処方薬の配送までを利用できるサービス。日本調剤など大手チェーンが参加薬局として加わる。",
+    "hp": "https://www.amazon.co.jp/",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-07",
+    "sources": [
+      "https://press.aboutamazon.com/jp/news/%E5%B0%8F%E5%A3%B2/2024/7/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E6%9C%8D%E8%96%AC%E6%8C%87%E5%B0%8E%E3%81%8B%E3%82%89%E5%87%A6%E6%96%B9%E8%96%AC%E3%81%AE%E9%85%8D%E9%80%81%E3%81%BE%E3%81%A7amazon%E3%83%95%E3%82%A1%E3%83%BC%E3%83%9E%E3%82%B7%E3%83%BC%E3%81%AE%E6%8F%90%E4%BE%9B%E3%82%92%E9%96%8B%E5%A7%8B",
+      "https://www.nicho.co.jp/corporate/newsrelease/20240917_nr1/"
+    ],
+    "type": "online-pharmacy",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4dcd2ec3",
+    "name": "SOKUYAKU",
+    "company": "ジェイフロンティア株式会社",
+    "category": "pharmacy-dx",
+    "description": "オンライン診療、服薬指導から処方薬の自宅配送までを一つのアプリで完結させるサービス。2024年には日本郵便と連携し処方薬の当日配送も始めた。",
+    "hp": "https://sokuyaku.jp/",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-02",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000059.000005491.html",
+      "https://jfrontier.jp/pressrelease/34977/"
+    ],
+    "type": "online-pharmacy",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-de3ad556",
+    "name": "Pharms（ファームス）かかりつけ薬局支援システム",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "pharmacy-dx",
+    "description": "処方箋のネット受付、オンライン服薬指導、キャッシュレス決済、服薬フォローなどを薬局に提供した調剤薬局窓口支援システム。約15,000店舗に導入された。",
+    "hp": "https://medixs.jp/",
+    "startedYear": 2020,
+    "status": "統合",
+    "startedAt": "2020-09",
+    "endedAt": "2025-09",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "メドレーは薬局向けシステムをクラウド電子薬歴「MEDIXS」ブランドに一本化するため、2025年9月にPharmsをMEDIXSに統合し「MEDIXS かかりつけ支援」に改称した。",
+    "lessons": "患者接点の周辺システムは、薬歴・レセコンと一体の基幹システムに取り込まれる形で集約が進んでいる。",
+    "sources": [
+      "https://www.medley.jp/release/pharms-0903-1.html",
+      "https://www.medley.jp/release/20250901-2.html"
+    ],
+    "type": "pharmacy-patient-engagement",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-bdb9572f",
+    "name": "日本調剤（調剤薬局チェーン）",
+    "company": "日本調剤株式会社",
+    "category": "pharmacy-dx",
+    "description": "1980年に札幌で創業した調剤薬局専業の大手チェーン。全国に調剤薬局を展開し、ジェネリック医薬品の製造販売、薬剤師派遣・紹介、電子お薬手帳「お薬手帳プラス」なども手がける。",
+    "hp": "https://www.nicho.co.jp/",
+    "startedYear": 1980,
+    "status": "提供中",
+    "startedAt": "1980-04",
+    "sources": [
+      "https://www.nicho.co.jp/corporate/profile/history/",
+      "https://www.nicho.co.jp/corporate/ir/management/trackrecord.html"
+    ],
+    "type": "pharmacy-chain-operation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4e7fa9c7",
+    "name": "アイン薬局（調剤薬局チェーン）",
+    "company": "株式会社アインホールディングス",
+    "category": "pharmacy-dx",
+    "description": "臨床検査会社として創業し、1993年に旭川で第1号の保険調剤薬局を開いた調剤薬局最大手。M&Aで全国に店舗を広げ、コスメ・ドラッグストア事業や公式アプリ「いつでもアイン薬局」も展開する。",
+    "hp": "https://www.ainj.co.jp/",
+    "startedYear": 1993,
+    "status": "提供中",
+    "startedAt": "1993-05",
+    "sources": [
+      "https://www.ainj.co.jp/corporate/about/history.html"
+    ],
+    "type": "pharmacy-chain-operation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3560f8f5",
+    "name": "ココカラファイン（ドラッグストア・調剤）",
+    "company": "株式会社ココカラファイン",
+    "category": "pharmacy-dx",
+    "description": "セガミメディクスとセイジョーの経営統合で2008年に発足したドラッグストア・調剤薬局チェーン。2021年にマツモトキヨシHDと経営統合し、マツキヨココカラ＆カンパニーの完全子会社になった。",
+    "hp": "https://www.matsukiyococokara.com/",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2021-10",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "2021年10月1日、マツモトキヨシホールディングスが株式交換でココカラファインを完全子会社化し、持株会社はマツキヨココカラ＆カンパニーに商号変更した。店舗ブランド「ココカラファイン」は継続している。",
+    "sources": [
+      "https://www.matsukiyococokara.com/news/archive/cocokara/pdf/20080401_2.pdf",
+      "https://www.matsukiyococokara.com/company/history/"
+    ],
+    "type": "pharmacy-chain-operation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-230394ca",
+    "name": "WELSA（ウェルサ）クラウド健康管理システム",
+    "company": "インフォコム株式会社",
+    "category": "health-corporate-management",
+    "description": "帝人グループ系IT企業インフォコムが提供した企業向けクラウド健康管理システム。健診結果・ストレスチェック・過重労働のモニタリングなど産業保健業務を支援し、SmartHRとも連携した。",
+    "hp": "https://www.infocom.co.jp/",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2025-07",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "インフォコムは2025年7月1日付でWELSA事業をメディフォンへ譲渡した。メディフォンは利用法人を自社の健康管理クラウド「mediment」へ円滑に移行させるとしている。",
+    "lessons": "大手IT子会社の健康管理クラウドが、専業スタートアップへ事業ごと移る形で集約された例。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000028.000154534.html",
+      "https://prtimes.jp/main/html/rd/p/000000005.000105504.html"
+    ],
+    "type": "employee-health-cloud",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f178f654",
+    "name": "健康診断支援・特定保健指導サービス（パーソルビジネスプロセスデザイン）",
+    "company": "パーソルビジネスプロセスデザイン株式会社",
+    "category": "health-insuarance-market",
+    "description": "パーソルグループのBPO会社が大企業や健保向けに提供した健診予約代行などの健康診断支援と、従業員に合わせた行動変容支援を行う特定保健指導サービス。",
+    "hp": "https://www.persol-bd.co.jp/",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2026-10",
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "2026年10月1日付で健康診断支援事業と特定保健指導事業をiCAREへ譲渡。iCAREは特定保健指導に新規参入し、既存顧客へのサービス提供は譲受後も継続するとしている。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000211.000022826.html"
+    ],
+    "type": "specific-health-guidance",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d9091f80",
+    "name": "ascure（アスキュア）卒煙プログラム",
+    "company": "CureApp",
+    "companyId": "2011101070788",
+    "category": "disease-management-program",
+    "description": "禁煙治療アプリの知見を生かした企業・健保向けのモバイル禁煙プログラム。アプリと医療者のオンライン指導で6カ月間の卒煙を支援し、健保連の地方連合会などが導入した。",
+    "hp": "https://ascure.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000022.000015777.html"
+    ],
+    "type": "habit-smoking-program",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0dada350",
+    "name": "アラーム付き服薬管理カレンダー mediCale（メディカレ）",
+    "company": "株式会社アズマ",
+    "category": "pharmacy-dx",
+    "description": "生活用品メーカーのアズマが自社ブランドNATUULで発売した服薬管理カレンダー。1日4回分のポケットを備え、設定時刻に音とLEDで服薬を知らせる。想定価格6,980円。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-01",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000089348.html"
+    ],
+    "type": "medication-devices",
     "updatedAt": "2026-10"
   }
 ]
