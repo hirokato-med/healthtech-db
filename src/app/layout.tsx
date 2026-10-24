@@ -3,6 +3,8 @@ import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { SITE_NAME, SITE_TAGLINE } from '@/lib/site';
+import { SiteJsonLd } from '@/components/JsonLd';
+import { getUpdates } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: { default: `${SITE_NAME} | ${SITE_TAGLINE}`, template: `%s | ${SITE_NAME}` },
@@ -20,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+        <SiteJsonLd dateModified={getUpdates()[0]?.date} />
       </head>
       <body>
         <Header />
