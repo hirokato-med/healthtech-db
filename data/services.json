@@ -9,7 +9,7 @@
     "startedYear": 2016,
     "status": "提供中",
     "companyId": "1490001008208",
-    "startedAt": "2016",
+    "startedAt": "2016-04",
     "milestones": [
       {
         "date": "2015",
@@ -45,6 +45,8 @@
       }
     ],
     "sources": [
+      "https://micin.jp/news/6326/",
+      "https://prtimes.jp/main/html/rd/p/000000084.000017806.html",
       "https://sogyotecho.jp/micin-hara-interview/",
       "https://www.businessinsider.jp/article/251358/",
       "https://www.watch.impress.co.jp/docs/news/1334731.html",
@@ -313,28 +315,6 @@
     "type": "femtech-online-pill-menopause"
   },
   {
-    "id": "oh-my-teeth",
-    "name": "Oh my teeth",
-    "company": "Oh my teeth",
-    "category": "dental",
-    "description": "マウスピース矯正をD2C型で提供する歯科サービス。来院回数を抑えLINEで経過を管理する。",
-    "hp": "https://www.oh-my-teeth.com/",
-    "startedYear": 2019,
-    "status": "提供中",
-    "type": "dental-aligner-d2c"
-  },
-  {
-    "id": "next-stage-er",
-    "name": "NEXT Stage ER",
-    "company": "TXP Medical",
-    "category": "first-aid",
-    "description": "救急外来向けの診療記録・情報共有システム。救急隊との連携や院内の情報集約を支援する。",
-    "hp": "https://txpmedical.jp/",
-    "startedYear": 2017,
-    "status": "提供中",
-    "type": "emergency-er-icu-system"
-  },
-  {
     "id": "brain-life-imaging",
     "name": "Brain Life Imaging",
     "company": "Splink",
@@ -399,17 +379,6 @@
     "startedYear": 2012,
     "status": "提供中",
     "type": "home-medical-care-coordination"
-  },
-  {
-    "id": "join",
-    "name": "Join",
-    "company": "アルム",
-    "category": "medical-dx",
-    "description": "医療関係者間で画像・動画を共有するコミュニケーションアプリ。国内初の保険適用プログラム医療機器。",
-    "hp": "https://www.allm.net/",
-    "startedYear": 2015,
-    "status": "提供中",
-    "type": "clinical-communication"
   },
   {
     "id": "doctornet-remote",
@@ -3179,7 +3148,7 @@
     "hp": "",
     "startedYear": 2024,
     "status": "提供中",
-    "startedAt": "2024",
+    "startedAt": "2024-05",
     "milestones": [
       {
         "date": "2024-05",
@@ -3195,8 +3164,8 @@
       }
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000019.000164410.html",
       "https://prtimes.jp/main/html/rd/p/000000021.000164410.html",
+      "https://prtimes.jp/main/html/rd/p/000000019.000164410.html",
       "https://prtimes.jp/main/html/rd/p/000000015.000164410.html",
       "https://webtan.impress.co.jp/r/prtimes/items/000000153.000007782"
     ],
@@ -3214,9 +3183,9 @@
     "category": "telemedicine",
     "description": "小児科医が開設したオンライン診療プラットフォーム。予約なしで受診できる仕組みや、新型コロナの自宅療養者向け診療、修学旅行生向けの健康相談などを展開。",
     "hp": "",
-    "startedYear": 2020,
+    "startedYear": 2021,
     "status": "提供中",
-    "startedAt": "2020",
+    "startedAt": "2021-07",
     "milestones": [
       {
         "date": "2020-10",
@@ -3232,6 +3201,7 @@
       }
     ],
     "sources": [
+      "https://corp-online-doctor.com/new/press/29/",
       "https://gentosha-go.com/articles/-/40655",
       "https://www.dreamnews.jp/press/0000252536/",
       "https://ishachoku.com/"
@@ -9156,7 +9126,7 @@
     "category": "medical-dx",
     "description": "クリニック・歯科・薬局の会計を、電子カルテやレセコンと連携したセミセルフレジや自動精算機で自動化する製品。予約・受付や医療費後払いのサービスも展開。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "統合",
     "endedAt": "2025-08",
     "successor": "GMOヘルステック株式会社（「ハヤレジ byGMO」として継続）",
@@ -9183,6 +9153,7 @@
     ],
     "endReasonNote": "GMOグループの医療事業をGMOヘルステックに集約する再編で吸収合併された。製品は継続しており、合併の詳しい理由は公表されていない。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000057240.html",
       "https://hayaregi.com/",
       "https://doctokyo.jp/doc_interview/hayaregi/",
       "https://gmo-healthtech.com/company/",
@@ -9190,7 +9161,8 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7120001226716"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-self-checkout"
+    "type": "clinic-self-checkout",
+    "startedAt": "2020-06"
   },
   {
     "id": "b-76b540f5",
@@ -12722,7 +12694,7 @@
     "category": "medical-dx",
     "description": "有床病院・診療所（特に産婦人科）向けの予約・業務支援システムと、患者向けの統合アプリ。医療機関が利用料を払い、患者はアプリやWebで予約・問診・決済などを行う。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2001,
     "status": "休止",
     "endedAt": "2026-10",
     "successor": "（2026年10月時点で一時停止中。院内向け機能は別環境の「@link クラウド β版」で段階再開予定と報道）",
@@ -12742,6 +12714,8 @@
     "endReasonNote": "停止は事業判断ではなく不正アクセスへの対応。メドレーは原因・影響範囲の調査と被害拡大防止のため一時停止したと説明しており、2026年10月23日時点で再開時期は未定。患者向けアプリ・Web予約は停止継続と報じられている。",
     "lessons": "予約システムは患者の個人情報を大量に抱えるため、一度の侵害で多数の医療機関の受付業務が同時に止まり、電話受付に逆戻りするリスクを示した事例とみられる。",
     "sources": [
+      "https://piyolog.hatenadiary.jp/entry/2026/10/15/065625",
+      "https://at-link.net/",
       "https://www.nihon-ma.co.jp/news/20240930_4480-9/",
       "https://www.medley.jp/notice/20261015.html",
       "https://internet.watch.impress.co.jp/docs/news/2148459.html",
@@ -12752,7 +12726,8 @@
     "themes": [
       "clinic-booking"
     ],
-    "type": "clinic-reservation-queue"
+    "type": "clinic-reservation-queue",
+    "startedAt": "2001"
   },
   {
     "id": "b-8e6af65c",
@@ -15013,7 +14988,7 @@
     "category": "recruting-solutions",
     "description": "薬剤師業界特化の人材会社が、フリーランス・副業の薬剤師と薬局をつなぐ案件紹介。転職支援「メディクレクト転職」やWebスキルのスクールと組み合わせる。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "milestones": [
       {
@@ -15023,14 +14998,15 @@
     ],
     "endReasonNote": "提供中。",
     "sources": [
-      "https://mediklect.co.jp/service/",
-      "https://mediklect.co.jp/profile/"
+      "https://mediklect.co.jp/profile/",
+      "https://mediklect.co.jp/service/"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "medical-jobs"
     ],
-    "type": "specialty-niche-recruiting"
+    "type": "specialty-niche-recruiting",
+    "startedAt": "2019-07"
   },
   {
     "id": "b-9dbc777a",
@@ -15697,7 +15673,7 @@
     "description": "病院・クリニックのホームページに置くAI相談窓口。患者が症状に応じた20問程度の質問に答えると、医師向けに翻訳された問診結果が受診前に医療機関へ届く。新型コロナ第6波を受けて無償で提供を始めた。",
     "hp": "",
     "startedYear": 2022,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2022-01",
     "milestones": [
       {
@@ -15710,6 +15686,8 @@
     ],
     "endReasonNote": "その後の提供状況・導入数は公表情報で確認できない。",
     "sources": [
+      "https://intro.dr-ubie.com/products/aisodan-syukan",
+      "https://ubie.app/dedicated-inquiry/1",
       "https://prtimes.jp/main/html/rd/p/000000028.000048083.html"
     ],
     "updatedAt": "2026-10",
@@ -16306,8 +16284,8 @@
     ],
     "lessons": "相談単体から始めた事業が、2020年の時限的措置を機に診療へ軸足を移した例。相談だけでは収益化しにくいことを示すとみられる。",
     "sources": [
-      "https://anamne.com/",
-      "https://corp.anamne.com/company/"
+      "https://corp.anamne.com/company/",
+      "https://anamne.com/"
     ],
     "updatedAt": "2026-10",
     "themes": [
@@ -17745,13 +17723,15 @@
     "category": "telemedicine",
     "description": "",
     "hp": "https://www.allm.net/products/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://www.allm.net/news/20250227/",
       "https://www.allm.net/products/"
     ],
     "updatedAt": "2026-10",
-    "type": "telemedicine-clinic-system"
+    "type": "telemedicine-clinic-system",
+    "startedAt": "2025-02"
   },
   {
     "id": "b-4aa392a6",
@@ -18156,13 +18136,15 @@
     "category": "medical-dx",
     "description": "子会社CADA株式会社で展開",
     "hp": "https://www.mdv.co.jp/solution/personal/cada/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://www.mdv.co.jp/press/2016/detail_682.html",
       "https://www.mdv.co.jp/solution/personal/cada/"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-self-checkout"
+    "type": "clinic-self-checkout",
+    "startedAt": "2016-10"
   },
   {
     "id": "b-1535b047",
@@ -18176,6 +18158,7 @@
     "status": "提供中",
     "startedAt": "2004",
     "sources": [
+      "https://www.whiteessence.co.jp/company/history/index.html",
       "https://www.whiteessence.co.jp/business/fc/"
     ],
     "updatedAt": "2026-10",
@@ -18650,6 +18633,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://spinshell.com/company/",
       "https://spinshell.com/business/platform/"
     ],
     "updatedAt": "2026-10",
@@ -19120,13 +19104,15 @@
     "category": "first-aid",
     "description": "救護物品レンタル・販売は2022-12開始",
     "hp": "https://careprosports.com/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://carepro.co.jp/company/history/",
       "https://careprosports.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "private-ambulance-event-aid"
+    "type": "private-ambulance-event-aid",
+    "startedAt": "2020-09"
   },
   {
     "id": "b-9d9bf1c4",
@@ -19169,13 +19155,15 @@
     "category": "telemedicine",
     "description": "",
     "hp": "https://promed.jp/service/service/normal.html",
-    "startedYear": null,
+    "startedYear": 2007,
     "status": "提供中",
     "sources": [
+      "https://promed.jp/company/",
       "https://promed.jp/service/service/normal.html"
     ],
     "updatedAt": "2026-10",
-    "type": "teleradiology"
+    "type": "teleradiology",
+    "startedAt": "2007-03"
   },
   {
     "id": "b-f7d4b100",
@@ -19185,13 +19173,14 @@
     "category": "telemedicine",
     "description": "",
     "hp": "https://promed.jp/service/service/cl.html",
-    "startedYear": null,
+    "startedYear": 2012,
     "status": "提供中",
     "sources": [
       "https://promed.jp/service/service/cl.html"
     ],
     "updatedAt": "2026-10",
-    "type": "teleradiology"
+    "type": "teleradiology",
+    "startedAt": "2012"
   },
   {
     "id": "b-73b1a8ed",
@@ -19773,13 +19762,14 @@
     "category": "recruting-solutions",
     "description": "",
     "hp": "https://rejob.co.jp/services",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
       "https://rejob.co.jp/services"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-job-board"
+    "type": "medical-job-board",
+    "startedAt": "2015"
   },
   {
     "id": "b-319703ea",
@@ -20348,13 +20338,15 @@
     "category": "medical-dx",
     "description": "関連会社MPストラクトでも展開",
     "hp": "http://www.mediprime.co.jp/business_lineup/business_index.html",
-    "startedYear": null,
+    "startedYear": 2012,
     "status": "提供中",
     "sources": [
+      "http://www.mediprime.co.jp/Company_info/history.html",
       "http://www.mediprime.co.jp/business_lineup/business_index.html"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-it-development"
+    "type": "medical-it-development",
+    "startedAt": "2012-04"
   },
   {
     "id": "b-355c49ec",
@@ -20783,13 +20775,15 @@
     "category": "dental",
     "description": "2026年にメディカルドック・soeasy buddyと連携",
     "hp": "https://dentalight.co.jp/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://dentalight.co.jp/service/20/",
       "https://dentalight.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "dental-clinic-system"
+    "type": "dental-clinic-system",
+    "startedAt": "2017-09"
   },
   {
     "id": "b-6a93ba3b",
@@ -20802,6 +20796,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://dentalight.co.jp/service/214/",
       "https://dentalight.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -21123,10 +21118,12 @@
     "category": "medical-dx",
     "description": "受入コールAI（紹介・救急電話の受入判断記録）の発表日",
     "hp": "https://drjoy.co.jp/news/20260917-1",
-    "startedYear": 2026,
+    "startedYear": 2024,
     "status": "提供中",
-    "startedAt": "2026-09",
+    "startedAt": "2024-06",
     "sources": [
+      "https://drjoy.co.jp/news/20260803-1",
+      "https://drjoy.co.jp/news/250714_1",
       "https://drjoy.co.jp/news/20260917-1"
     ],
     "updatedAt": "2026-10",
@@ -21273,6 +21270,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000031.000040613.html",
+      "https://clinicalcloud.jp/announcements/330",
       "https://doctorbook.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -21449,13 +21448,14 @@
     "category": "recruting-solutions",
     "description": "グループ会社POSTキャリア。",
     "hp": "https://medicalagency.jp/",
-    "startedYear": null,
+    "startedYear": 2013,
     "status": "提供中",
     "sources": [
       "https://medicalagency.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "specialty-niche-recruiting"
+    "type": "specialty-niche-recruiting",
+    "startedAt": "2013"
   },
   {
     "id": "b-f100d010",
@@ -21795,13 +21795,16 @@
     "category": "medical-dx",
     "description": "リリース日は一覧上で特定できず",
     "hp": "https://www.sharemedical.jp/press",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://www.sharemedical.jp/post/release-of-mediline-workplace-a-chat-communication-tool-for-medical-use",
+      "https://prtimes.jp/main/html/rd/p/000000013.000016841.html",
       "https://www.sharemedical.jp/press"
     ],
     "updatedAt": "2026-10",
-    "type": "clinical-communication"
+    "type": "clinical-communication",
+    "startedAt": "2025-08"
   },
   {
     "id": "b-5511bfd2",
@@ -22874,6 +22877,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://m-d-l.co.jp/company",
       "https://m-d-l.co.jp/service/"
     ],
     "updatedAt": "2026-10",
@@ -23597,13 +23601,15 @@
     "category": "first-aid",
     "description": "創業事業（2016年T-ICUとして創業）。2018-05に病院との遠隔集中治療支援契約を発表",
     "hp": "https://www.vitaars.co.jp/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
-      "https://www.vitaars.co.jp/"
+      "https://www.vitaars.co.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000076.000033988.html"
     ],
     "updatedAt": "2026-10",
-    "type": "emergency-er-icu-system"
+    "type": "emergency-er-icu-system",
+    "startedAt": "2018-05"
   },
   {
     "id": "b-176b3c71",
@@ -24719,6 +24725,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.wantedly.com/companies/tech3",
       "https://mebais.jp/"
     ],
     "updatedAt": "2026-10",
@@ -24797,13 +24804,15 @@
     "category": "first-aid",
     "description": "開始時期は未確認",
     "hp": "https://txpmedical.jp/service/next-stage-er",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000031630.html",
       "https://txpmedical.jp/service/next-stage-er"
     ],
     "updatedAt": "2026-10",
-    "type": "emergency-er-icu-system"
+    "type": "emergency-er-icu-system",
+    "startedAt": "2018-02"
   },
   {
     "id": "b-3b41aeb3",
@@ -24813,13 +24822,15 @@
     "category": "first-aid",
     "description": "開始時期は未確認。2026年に厚木市・姫路市ほか消防本部で本格運用開始",
     "hp": "https://txpmedical.jp/service/nser-mobile",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000012.000031630.html",
       "https://txpmedical.jp/service/nser-mobile"
     ],
     "updatedAt": "2026-10",
-    "type": "ems-hospital-information"
+    "type": "ems-hospital-information",
+    "startedAt": "2021-01"
   },
   {
     "id": "b-9682bf14",
@@ -24829,13 +24840,15 @@
     "category": "medical-dx",
     "description": "開始時期は未確認。群馬大学病院・新潟市民病院等が導入（2026-10）",
     "hp": "https://txpmedical.jp/service/next-stage-document-assistant",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000115.000031630.html",
       "https://txpmedical.jp/service/next-stage-document-assistant"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-medical-documentation"
+    "type": "ai-medical-documentation",
+    "startedAt": "2025-04"
   },
   {
     "id": "b-a9c19c4c",
@@ -24845,13 +24858,15 @@
     "category": "first-aid",
     "description": "開始時期は未確認",
     "hp": "https://txpmedical.jp/service",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://txpmedical.jp/news/6t3g9T6SQrHcCUMp5BODQ7",
       "https://txpmedical.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "emergency-er-icu-system"
+    "type": "emergency-er-icu-system",
+    "startedAt": "2021-09"
   },
   {
     "id": "b-0e807e68",
@@ -25189,13 +25204,16 @@
     "category": "dental",
     "description": "",
     "hp": "https://dpearl.jp/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://dpearl.jp/topic/1004/",
+      "https://prtimes.jp/main/html/rd/p/000000042.000050457.html",
       "https://dpearl.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "dental-aligner-d2c"
+    "type": "dental-aligner-d2c",
+    "startedAt": "2022-07"
   },
   {
     "id": "b-f78fbd95",
@@ -25205,13 +25223,16 @@
     "category": "dental",
     "description": "",
     "hp": "https://dpearl.jp/support/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
+      "https://dpearl.jp/topic/128/",
+      "https://dpearl.jp/topic/929/",
       "https://dpearl.jp/support/"
     ],
     "updatedAt": "2026-10",
-    "type": "dental-oralcare-device"
+    "type": "dental-oralcare-device",
+    "startedAt": "2020-04"
   },
   {
     "id": "b-f3427cc2",
@@ -25384,13 +25405,15 @@
     "category": "medical-dx",
     "description": "",
     "hp": "https://inazma.co.jp/project",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://www.nikkei.com/article/DGXZQOJC213N60R20C21A5000000/",
       "https://inazma.co.jp/project"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-reservation-queue"
+    "type": "clinic-reservation-queue",
+    "startedAt": "2021-04"
   },
   {
     "id": "b-ff6d8677",
@@ -25957,13 +25980,16 @@
     "category": "medical-dx",
     "description": "2023-09に電子同意書をリリース。都立墨東病院等が導入",
     "hp": "https://www.contrea.jp/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000015.000062517.html",
+      "https://prtimes.jp/main/html/rd/p/000000019.000062517.html",
       "https://www.contrea.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "patient-explanation-consent"
+    "type": "patient-explanation-consent",
+    "startedAt": "2023"
   },
   {
     "id": "b-fc99f6b8",
@@ -25973,13 +25999,15 @@
     "category": "medical-dx",
     "description": "LINEで入院・検査説明を配信。2025年度の年間利用回数117万回（公式発表）。",
     "hp": "https://www.opere.jp/poke-sup",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://persjapan.co.jp/blog/pokesapo/",
       "https://www.opere.jp/poke-sup"
     ],
     "updatedAt": "2026-10",
-    "type": "patient-explanation-consent"
+    "type": "patient-explanation-consent",
+    "startedAt": "2022"
   },
   {
     "id": "b-047b0aaa",
@@ -27165,13 +27193,16 @@
     "category": "medical-dx",
     "description": "全国1,000件以上の医療機関に導入（公式）。",
     "hp": "https://medimo.ai/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000124331.html",
+      "https://kepple.co.jp/articles/efkxufg6r0",
       "https://medimo.ai/"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-medical-documentation"
+    "type": "ai-medical-documentation",
+    "startedAt": "2023-06"
   },
   {
     "id": "b-1abd46c9",
@@ -27297,13 +27328,16 @@
     "category": "dental",
     "description": "",
     "hp": "https://www.mtu-inc.com/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://www.mtu-inc.com/news/detail/QN1j9vUB",
+      "https://prtimes.jp/main/html/rd/p/000000013.000057423.html",
       "https://www.mtu-inc.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "dental-whitening"
+    "type": "dental-whitening",
+    "startedAt": "2024-07"
   },
   {
     "id": "b-d25e0d88",
@@ -27715,13 +27749,14 @@
     "category": "recruting-solutions",
     "description": "",
     "hp": "https://www.nurse-x.net/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
       "https://www.nurse-x.net/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-worker-education"
+    "type": "healthcare-worker-education",
+    "startedAt": "2025-10"
   },
   {
     "id": "b-81d984c6",
@@ -27731,13 +27766,15 @@
     "category": "medical-dx",
     "description": "",
     "hp": "https://www.aihippo.ai/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://adv.tokyo-np.co.jp/prtimes/article140268/",
       "https://www.aihippo.ai/"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-medical-documentation"
+    "type": "ai-medical-documentation",
+    "startedAt": "2026-04"
   },
   {
     "id": "b-0799ccfe",
@@ -27911,6 +27948,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://asclepath.com/company",
+      "https://prtimes.jp/main/html/searchrlp/company_id/187260",
       "https://asclepath.com/"
     ],
     "updatedAt": "2026-10",
@@ -28383,13 +28422,16 @@
     "category": "medical-dx",
     "description": "",
     "hp": "https://www.premed.jp/news/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://www.premed.jp/news/galapagos/",
+      "https://prtimes.jp/main/html/rd/p/000000002.000183085.html",
       "https://www.premed.jp/news/"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-reservation-queue"
+    "type": "clinic-reservation-queue",
+    "startedAt": "2026-10"
   },
   {
     "id": "b-a4fac78a",
@@ -28481,13 +28523,16 @@
     "category": "medical-dx",
     "description": "2026-09にiPhone版公開・Growthプラン",
     "hp": "https://genshi.ai/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://genshi.ai/news",
+      "https://prtimes.jp/main/html/rd/p/000000004.000184049.html",
       "https://genshi.ai/"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-medical-documentation"
+    "type": "ai-medical-documentation",
+    "startedAt": "2026-07"
   },
   {
     "id": "b-7651d9fb",
@@ -31343,6 +31388,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://corporate.medifellow.jp/",
       "https://medifellow.jp/business"
     ],
     "updatedAt": "2026-10",
@@ -31504,6 +31550,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000048690.html",
       "https://smileandtooth.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -31534,13 +31581,15 @@
     "category": "dental",
     "description": "東証プライム上場の繊維メーカーと共同開発",
     "hp": "https://smileandtooth.co.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000048690.html",
       "https://smileandtooth.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "dental-aligner-d2c"
+    "type": "dental-aligner-d2c",
+    "startedAt": "2019"
   },
   {
     "id": "b-a2dc520c",
@@ -31550,13 +31599,16 @@
     "category": "dental",
     "description": "早稲田大学ロボット研究室発。2026-09日本ロボット学会「実用化技術賞」受賞",
     "hp": "https://genics.jp/product/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://www.nikkei.com/article/DGXZRSP713989_W6A011C2000000/",
+      "https://greenfunding.jp/lab/projects/9170",
       "https://genics.jp/product/"
     ],
     "updatedAt": "2026-10",
-    "type": "dental-oralcare-device"
+    "type": "dental-oralcare-device",
+    "startedAt": "2026-10"
   },
   {
     "id": "b-6eec2346",
@@ -31566,13 +31618,15 @@
     "category": "dental",
     "description": "「日本で唯一のデジタルデンチャー専門ラボ」と公式表記",
     "hp": "https://o-gai.co.jp/#service",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000162719.html",
       "https://o-gai.co.jp/#service"
     ],
     "updatedAt": "2026-10",
-    "type": "dental-lab-digital"
+    "type": "dental-lab-digital",
+    "startedAt": "2025-04"
   },
   {
     "id": "b-0c05f4db",
@@ -31582,13 +31636,16 @@
     "category": "dental",
     "description": "2026-09体験会",
     "hp": "https://o-gai.co.jp/#service",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://www.dentwave.com/news_20250908_dw",
+      "https://prtimes.jp/main/html/rd/p/000000023.000162719.html",
       "https://o-gai.co.jp/#service"
     ],
     "updatedAt": "2026-10",
-    "type": "dental-visiting-checkup"
+    "type": "dental-visiting-checkup",
+    "startedAt": "2025-08"
   },
   {
     "id": "b-dec9c664",
@@ -31618,6 +31675,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://o-gai.co.jp/",
       "https://o-gai.co.jp/#service"
     ],
     "updatedAt": "2026-10",
@@ -35077,6 +35135,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.aicro.jp/about",
       "https://www.aicro.jp/"
     ],
     "updatedAt": "2026-10",
@@ -40494,14 +40553,16 @@
     "category": "medical-dx",
     "description": "医師と患者の自然な会話をリアルタイムで構造化データに変換し、電子カルテ入力などの記録作業を減らす医療特化型AI。NTTグループの電子カルテに採用。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000133761.html",
       "https://ai-dscience.com/",
       "https://prtimes.jp/main/html/rd/p/000000009.000133761.html"
     ],
     "type": "ai-medical-documentation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-04"
   },
   {
     "id": "b-a20ece8a",
@@ -40869,14 +40930,16 @@
     "category": "medical-dx",
     "description": "医療機関向けの業務支援システム。患者への情報返却、リアルタイムの同意取得（ダイナミックコンセント）、生成AIによる診療情報の活用をワンストップで行う。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000142041.html",
       "https://aibtrust.jp/",
       "https://aibtrust.jp/healthinterview"
     ],
     "type": "patient-explanation-consent",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2025-01"
   },
   {
     "id": "b-0483826c",
@@ -41311,10 +41374,12 @@
     "category": "dental",
     "description": "歯科技工指示書、スキャンデータ、口腔内・顔貌写真、CTなどをクラウドで一元管理し、歯科医院と歯科技工所の受発注をデジタル化するサービス。リリース後1年で1,500%以上成長。",
     "hp": "",
-    "startedYear": 2023,
+    "startedYear": 2024,
     "status": "提供中",
-    "startedAt": "2023",
+    "startedAt": "2024-03",
     "sources": [
+      "https://www.deltan.co.jp/post/20240313-deltanorder",
+      "https://www.atpress.ne.jp/news/353222",
       "https://www.deltan.co.jp/post/20241021pr",
       "https://www.atpress.ne.jp/news/342882",
       "https://prtimes.jp/main/html/rd/p/000000014.000058441.html"
@@ -41330,14 +41395,16 @@
     "category": "dental",
     "description": "歯科医院向けの口腔内スキャナー。高額な機器をサブスク払いでも導入でき、DELTAN ORDERと組み合わせて技工所とのデジタルデータのやり取りを支える。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://www.atpress.ne.jp/news/348032",
       "https://www.deltan.co.jp/",
       "https://temona.co.jp/news/4527/"
     ],
     "type": "dental-lab-digital",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-03"
   },
   {
     "id": "b-e1499498",
@@ -41535,14 +41602,17 @@
     "category": "dental",
     "description": "矯正歯科医専門のプラクティスマネジメントソフトウェア。矯正の診療・患者管理・業務をクラウドで一元化し、DentalMonitoringのAI遠隔モニタリングとも統合している。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000097498.html",
+      "https://brace-ltd.com/20220601-2/",
       "https://prtimes.jp/main/html/rd/p/000000007.000097498.html",
       "https://anobaka.jp/%E6%8A%95%E8%B3%87%E5%85%88/10363/"
     ],
     "type": "dental-clinic-system",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022"
   },
   {
     "id": "b-4a9b5d05",
@@ -42148,8 +42218,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://onemedica.co.jp/",
-      "https://prtimes.jp/main/html/rd/p/000000001.000131764.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000131764.html",
+      "https://onemedica.co.jp/"
     ],
     "type": "medical-interpretation-crossborder",
     "updatedAt": "2026-10"
@@ -43116,8 +43186,9 @@
     "hp": "https://www.hanaravi.jp/",
     "startedYear": 2020,
     "status": "提供中",
-    "startedAt": "2020",
+    "startedAt": "2020-07",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000054.000057727.html",
       "https://prtimes.jp/main/html/rd/p/000000040.000057727.html",
       "https://www.hanaravi.jp/corporate/"
     ],
@@ -47096,6 +47167,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.cellspect.com/newslist/180",
       "https://www.cellspect.com/",
       "https://www.cellspect.com/oralkit"
     ],
@@ -48679,6 +48751,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000093550.html",
       "https://leabio.net/business/"
     ],
     "type": "web-ai-monshin",
@@ -48917,6 +48990,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000066370.html",
       "https://sabu.work/service/",
       "https://sabu.work/announcement/5571/"
     ],
@@ -50239,6 +50313,177 @@
       "https://vixion.jp/"
     ],
     "type": "ophthalmic-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b8344d8c",
+    "name": "YOUBI（ユウビ）フルオーダーメイドのマウスピース矯正プログラム",
+    "company": "株式会社Sparty",
+    "category": "dental",
+    "description": "MEDULLAなどパーソナライズD2Cを手がけるSpartyが、提携矯正医の診断のもと矯正キットを送り、月1回の定期診察で経過を確認するマウスピース矯正プログラム。",
+    "hp": "https://youbi-aligners.jp/",
+    "startedYear": 2021,
+    "status": "終了",
+    "startedAt": "2021-06",
+    "endedAt": "2021-11",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2021-06-29に提供開始し、約5か月後の2021-11-30でサービス提供を終了すると同社が告知。終了の理由は告知で説明されていない。",
+    "lessons": "ヘアケアD2Cの顧客基盤を持つ企業でも、医師の関与が必要な矯正サービスは約5か月で終了した。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000036.000034407.html",
+      "https://sparty.jp/news/detail?id=1105"
+    ],
+    "type": "dental-aligner-d2c",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fdd7e627",
+    "name": "キレイライン矯正",
+    "company": "SheepMedical Technologies株式会社",
+    "category": "dental",
+    "description": "2万円台から始められる低価格マウスピース矯正ブランド。提携クリニックで診断し、少数枚ずつ段階的に装置を作る。2022-11に立ち上げ元のARETECO HOLDINGSから商標・システム一式がSheepMedical Technologiesに譲渡された。",
+    "hp": "https://kireilign.com/",
+    "startedYear": 2017,
+    "status": "提供中",
+    "startedAt": "2017-04",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000034.000111870.html",
+      "https://areteco.com/topics/post-1101/",
+      "https://kireilign.com/company"
+    ],
+    "type": "dental-aligner-d2c",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6171f6a6",
+    "name": "Zenyum（ゼニュム）マウスピース矯正",
+    "company": "株式会社Zenyum Japan",
+    "category": "dental",
+    "description": "シンガポール発の透明マウスピース矯正。日本は9拠点目で、国内の提携歯科医院で診断し、アプリやLINEで経過をサポートする。",
+    "hp": "https://zenyum.jp/",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-11",
+    "sources": [
+      "https://zenyum.jp/blogs/info/zenyum-launch-202202"
+    ],
+    "type": "dental-aligner-d2c",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d82fb6fd",
+    "name": "DENTIS（デンティス）クラウド歯科業務支援システム",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
+    "category": "dental",
+    "description": "レセコン・電子カルテの基幹機能に、WEB予約・オンライン診療・キャッシュレス決済・リコールなど患者とつながる機能をまとめた歯科医院向けクラウド。2025-11にプラン拡充とグループ法人向け経営分析を追加。",
+    "hp": "https://dentis-cloud.com/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-01",
+    "sources": [
+      "https://www.medley.jp/release/20220120.html",
+      "https://www.medley.jp/release/20251105.html"
+    ],
+    "type": "dental-clinic-system",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c11bbdad",
+    "name": "IoTスマートハブラシ「G・U・M PLAY（ガム・プレイ）」",
+    "company": "サンスター株式会社",
+    "category": "dental",
+    "description": "ハブラシに装着したアタッチメントで動きを計測し、スマホアプリで歯みがきをガイド・記録するIoT商品。Amazon自動再注文やロボホン連携、富士通と組んだ予防歯科サービスにも広げた。",
+    "hp": "https://www.gumplay.jp/",
+    "startedYear": 2016,
+    "status": "終了",
+    "startedAt": "2016-04",
+    "endedAt": "2023-03",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2016-04-18発売。対応する4アプリのサービスを2023-03-31で終了すると告知し、連携していたシャープのロボホンでも連携機能が使えなくなった。終了理由は説明されていない。",
+    "lessons": "大手ブランドのIoTハブラシでも、発売から約7年でアプリ提供を終えた。",
+    "sources": [
+      "https://www.sunstar.com/jp/newsroom/20160411104641",
+      "https://robohon.com/news/220210.php",
+      "https://www.gumplay.jp/info/index.html"
+    ],
+    "type": "dental-oralcare-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-dca0bb46",
+    "name": "IoTハブラシ「クリニカKid's はみがきのおけいこ」",
+    "company": "ライオン株式会社",
+    "category": "dental",
+    "description": "子ども用ハブラシにアタッチメントを付け、専用アプリと連動させてゲーム感覚で自主的な歯みがきを促すIoT商品。LOHACOでのテスト販売から始め、歯みがき行動データを購買データと連携した。",
+    "hp": "https://clinica.lion.co.jp/hamigakino-okeiko/",
+    "startedYear": 2020,
+    "status": "終了",
+    "startedAt": "2020-09",
+    "endedAt": "2025-02",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2020-09-09にLOHACOでテストマーケティング販売を開始。公式サイトで2025-02-20をもってサービスを終了すると告知した。理由は示されていない（同社は2024-06に同種のIoT商品『まほうハブラシ』を発表）。",
+    "sources": [
+      "https://www.atpress.ne.jp/news/223008",
+      "https://clinica.lion.co.jp/hamigakino-okeiko/",
+      "https://www.lion.co.jp/ja/newsroom/news/2024/4639"
+    ],
+    "type": "dental-oralcare-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c028a78f",
+    "name": "健康経営支援オーラルヘルスケアサービス「おくちプラスユー」",
+    "company": "ライオン株式会社",
+    "category": "dental",
+    "description": "企業の従業員向けに、歯と口の健康セミナーや唾液検査・歯科健診などを組み合わせて提供する健康経営支援サービス。2025-12に導入累計200件・利用者累計10万人を超えた。",
+    "hp": "https://www.lion.co.jp/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-07",
+    "sources": [
+      "https://www.lion.co.jp/ja/newsroom/news/2026/5043"
+    ],
+    "type": "dental-visiting-checkup",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-da5394b4",
+    "name": "遠隔集中治療プログラム「eICU」（昭和大学と構築・稼働）",
+    "company": "株式会社フィリップス・ジャパン",
+    "category": "first-aid",
+    "description": "複数病院のICUを支援センターとネットワークで結び、センターの集中治療医・看護師が患者データをモニタリングして現場を支援する遠隔ICUの仕組み。アジアで初めて昭和大学の2病院で稼働した。",
+    "hp": "https://www.philips.co.jp/",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-04",
+    "sources": [
+      "https://www.showa-u.ac.jp/news/nid00000977.html",
+      "https://xtech.nikkei.com/atcl/nxt/news/18/01385/"
+    ],
+    "type": "emergency-er-icu-system",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f25511b4",
+    "name": "予約システム「Wakumy（ワクミー）」",
+    "company": "株式会社レイヤード",
+    "category": "medical-dx",
+    "description": "WEB問診Symviewを手がけるレイヤードが開発したクリニック向け予約システム。時間帯予約・順番受付・来院案内メールなどを備え、問診・オンライン診療と合わせてかかりつけ医の診療DXを支える。",
+    "hp": "https://layered.inc/wakumy/",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-07",
+    "sources": [
+      "https://layered.inc/press-release/20230703/"
+    ],
+    "type": "clinic-reservation-queue",
     "updatedAt": "2026-10"
   }
 ]
