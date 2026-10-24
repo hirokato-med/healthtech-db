@@ -26,7 +26,12 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
   const t = getBizType(slug);
   if (!t) notFound();
   const items = servicesOfType(slug)
-    .map((s) => ({ s, a: toY(s.startedAt) ?? (s.startedYear ?? null), b: STOPPED.includes(s.status) ? ((e) => (e === null ? null : Math.min(NOW, e)))(toY(s.endedAt)) : NOW }))
+    // 開始時期が分からない事業は、提供を確認できた最も古い時点（knownSince）から点線で引く
+    .map((s) => {
+      const a0 = toY(s.startedAt) ?? (s.startedYear ?? null);
+      const approx = a0 === null && !!s.knownSince;
+      return { s, approx, a: a0 ?? toY(s.knownSince), b: STOPPED.includes(s.status) ? ((e) => (e === null ? null : Math.min(NOW, e)))(toY(s.endedAt)) : NOW };
+    })
     .sort((x, y) => (x.a ?? 9999) - (y.a ?? 9999));
   const dated = items.filter((x) => x.a !== null);
   const undated = items.filter((x) => x.a === null);
@@ -59,7 +64,7 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
         <p className="lead">{t.description}</p>
       </div>
       <section className="bt-kpi">
-        <div><span>記録した事業</span><b>{items.length}件</b><small>{dated.length ? `${Math.floor(min)}年〜` : ''}</small></div>
+        <div><span>記録した事業</span><b>{items.length}件</b><small>{dated.length ? `${Math.floor(min)}年〜` : ''}{items.some((x) => x.approx) ? `・うち開始時期不明 ${items.filter((x) => x.approx).length}件` : ''}</small></div>
         <div><span>いま提供中</span><b>{live.length}件</b></div>
         <div><span>止まった事業</span><b>{stopped.length}件</b><small>終了・譲渡・統合・休止</small></div>
         <div><span>止まった事業が続いた年数</span><b>{avg !== null ? `平均 ${avg.toFixed(1)}年` : '—'}</b><small>{lived.length ? `${lived.length}件の平均` : ''}</small></div>
@@ -74,16 +79,16 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
       {dated.length > 0 && (
         <section className="timeline-chart" aria-label="事業の開始と終了の年表">
           <div className="tc-axis">{years.map((y) => <span key={y} style={{ left: pct(y) }}>{y}</span>)}</div>
-          {dated.map(({ s, a, b }) => (
+          {dated.map(({ s, a, b, approx }) => (
             <div className="tc-row" key={s.id}>
               <Link href={`/services/${s.id}/`} className="tc-label">{s.name}<small>{short(s.company)}</small></Link>
               <div className="tc-track">
                 {years.map((y) => <i key={y} className="tc-grid" style={{ left: pct(y) }} />)}
-                <span className={`tc-bar st-${s.status}`} style={{ left: pct(a as number), width: `max(6px, calc(${pct(b ?? (a as number) + 0.5)} - ${pct(a as number)}))` }} title={`${ym(s.startedAt) || s.startedYear + '年'} 〜 ${STOPPED.includes(s.status) ? ym(s.endedAt) + ' ' + s.status : '提供中'}`} />
+                <span className={`tc-bar st-${s.status}${approx ? ' approx' : ''}`} style={{ left: pct(a as number), width: `max(6px, calc(${pct(b ?? (a as number) + 0.5)} - ${pct(a as number)}))` }} title={`${approx ? `開始時期は不明（${ym(s.knownSince)}には提供を確認）` : ym(s.startedAt) || s.startedYear + '年'} 〜 ${STOPPED.includes(s.status) ? ym(s.endedAt) + ' ' + s.status : '提供中'}`} />
               </div>
             </div>
           ))}
-          <div className="tc-legend"><span className="st-提供中">提供中</span><span className="st-終了">終了・休止</span><span className="st-統合">譲渡・統合</span></div>
+          <div className="tc-legend"><span className="st-提供中">提供中</span><span className="st-終了">終了・休止</span><span className="st-統合">譲渡・統合</span><span className="approx">点線から始まる棒：開始時期は不明（その時点には提供を確認）</span></div>
         </section>
       )}
 
