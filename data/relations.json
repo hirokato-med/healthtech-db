@@ -2199,6 +2199,32 @@
    "name": "スペースシードホールディングス"
   },
   {
+   "id": "9120001058785",
+   "name": "グンゼメディカル株式会社",
+   "companyId": "9120001058785",
+   "exit": "未上場",
+   "category": "medical-device"
+  },
+  {
+   "id": "ext:グンゼ",
+   "name": "グンゼ"
+  },
+  {
+   "id": "6120001161550",
+   "name": "株式会社AHS Japan Corporation",
+   "companyId": "6120001161550",
+   "exit": "未上場",
+   "category": "medical-device"
+  },
+  {
+   "id": "ext:sevenrichgroup(sevenrichcapital",
+   "name": "SEVENRICH GROUP（株式会社SEVENRICH CAPITAL"
+  },
+  {
+   "id": "ext:2026-03参画)",
+   "name": "2026-03参画）"
+  },
+  {
    "id": "ext:akiliinteractive",
    "name": "Akili Interactive"
   },
@@ -3925,6 +3951,24 @@
   {
    "from": "ext:スペースシード",
    "to": "1010401183862",
+   "type": "parent",
+   "date": ""
+  },
+  {
+   "from": "ext:グンゼ",
+   "to": "9120001058785",
+   "type": "parent",
+   "date": ""
+  },
+  {
+   "from": "ext:sevenrichgroup(sevenrichcapital",
+   "to": "6120001161550",
+   "type": "parent",
+   "date": ""
+  },
+  {
+   "from": "ext:2026-03参画)",
+   "to": "6120001161550",
    "type": "parent",
    "date": ""
   },
