@@ -2141,6 +2141,24 @@
    "category": "simple-inspection"
   },
   {
+   "id": "2011001137704",
+   "name": "ＤＴアクシス株式会社",
+   "companyId": "2011001137704",
+   "exit": "未上場",
+   "category": "mental-health"
+  },
+  {
+   "id": "1010401183862",
+   "name": "リジェネソーム株式会社",
+   "companyId": "1010401183862",
+   "exit": "未上場",
+   "category": "pharma"
+  },
+  {
+   "id": "ext:スペースシード",
+   "name": "スペースシードホールディングス"
+  },
+  {
    "id": "ext:akiliinteractive",
    "name": "Akili Interactive"
   },
@@ -2387,10 +2405,6 @@
   {
    "id": "ext:ノバルティスファーマ",
    "name": "ノバルティス ファーマ"
-  },
-  {
-   "id": "ext:dtアクシス",
-   "name": "DTアクシス"
   },
   {
    "id": "ext:airdoc",
@@ -3833,6 +3847,12 @@
    "date": ""
   },
   {
+   "from": "ext:スペースシード",
+   "to": "1010401183862",
+   "type": "parent",
+   "date": ""
+  },
+  {
    "from": "9120001077430",
    "to": "ext:akiliinteractive",
    "type": "partnership",
@@ -5147,7 +5167,7 @@
   },
   {
    "from": "ext:田辺三菱製薬",
-   "to": "ext:dtアクシス",
+   "to": "2011001137704",
    "type": "partnership",
    "date": "2021-03",
    "note": "田辺三菱が開発準備を進めていた認知行動療法アプリ「MTD-810」のライセンス契約（日刊薬業の報道で確認）。DTアクシスは2025年8月にうつ病治療補助プログラム「リフトンD」の承認を取得したが、両者の関係は発表で確認できていない。",

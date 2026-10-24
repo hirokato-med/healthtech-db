@@ -901,6 +901,38 @@
      "個人投資家"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000047987.html"
+   },
+   {
+    "date": "2023-07",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 130,
+    "investors": [
+     "インクルージョン・ジャパン株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000012.000047987.html"
+   },
+   {
+    "date": "2025-02",
+    "type": "第三者割当増資",
+    "amount": 140,
+    "investors": [
+     "株式会社マーキュリアインベストメント（マーキュリア・サプライチェーン投資事業有限責任組合）"
+    ],
+    "lead": "株式会社マーキュリアインベストメント",
+    "source": "https://prtimes.jp/main/html/rd/p/000000111.000019312.html",
+    "note": "投資家側の発表。金額（1.4億円）は2025-06の同社発表による"
+   },
+   {
+    "date": "2025-06",
+    "type": "第三者割当増資",
+    "amount": 110,
+    "investors": [
+     "NXグローバルイノベーション投資事業有限責任組合",
+     "楽天キャピタル"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000027.000047987.html",
+    "note": "追加出資1.1億円。リード投資家マーキュリアによる1.4億円と合わせ本ラウンド2.5億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -937,6 +969,40 @@
      "トップゲート"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000006.000085640.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1010401168789": {
+  "rounds": [
+   {
+    "date": "2023-12",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 350,
+    "investors": [
+     "ANRI（ANRI5号投資事業有限責任組合）",
+     "株式会社メディカルノート"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000131764.html",
+    "note": "第三者割当増資とデットファイナンスの総額3.5億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1010401172139": {
+  "rounds": [
+   {
+    "date": "2026-06",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "スパークス・アセット・マネジメント株式会社（未来創生3号ファンド）",
+     "ニッセイ・キャピタル株式会社",
+     "SBIインベストメント株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000161347.html",
+    "note": "金額非公表。シリーズAに続く調達"
    }
   ],
   "checkedAt": "2026-10"
@@ -984,6 +1050,60 @@
    "note": "会社発表の創業時からの累計（10億円）",
    "source": "https://prtimes.jp/main/html/rd/p/000000053.000134238.html"
   },
+  "checkedAt": "2026-10"
+ },
+ "1010401179357": {
+  "rounds": [
+   {
+    "date": "2024-10",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "investors": [
+     "大阪大学ベンチャーキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000065.000051435.html",
+    "note": "投資家側の発表"
+   },
+   {
+    "date": "2025-01",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 190,
+    "investors": [
+     "大阪大学ベンチャーキャピタル株式会社（OUVC2号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000142041.html",
+    "note": "2025年1月31日付。OUVCからの累計3億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1010401183862": {
+  "rounds": [
+   {
+    "date": "2024-10",
+    "round": "プレシード",
+    "type": "J-KISS・転換社債",
+    "amount": 80,
+    "investors": [
+     "日本システム技術株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000105.000092153.html",
+    "note": "投資家側の発表。J-KISS型新株予約権"
+   },
+   {
+    "date": "2025-05",
+    "round": "プレシード",
+    "type": "融資（デット）",
+    "amount": 30,
+    "investors": [
+     "都市銀行"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000050.000140650.html",
+    "note": "親会社スペースシードHDの発表。都市銀行から3,000万円の融資でプレシード総額1.1億円"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "1010601051712": {
@@ -1153,6 +1273,32 @@
   "note": "2021年以前の調達は当事者発表を確認できず",
   "checkedAt": "2026-10"
  },
+ "1011001098294": {
+  "rounds": [
+   {
+    "date": "2025-06",
+    "round": "シリーズD",
+    "type": "第三者割当増資",
+    "amount": 4500,
+    "investors": [
+     "JPインベストメント",
+     "T&D Innovation Fund（Spiral Innovation Partners）",
+     "三井住友信託銀行",
+     "ジャパン・コインベスト4号投資事業有限責任組合（三井住友トラスト・インベストメント）",
+     "戸田建設",
+     "Eight Roads Ventures Japan",
+     "グロービス・キャピタル・パートナーズ",
+     "りそな銀行（融資）",
+     "静岡銀行（融資）",
+     "SBI新生銀行（融資）"
+    ],
+    "lead": "JPインベストメント",
+    "source": "https://sdp-japan.com/information/pr-250616-2/",
+    "note": "第三者割当増資（シリーズD）、既存株主の株式譲渡、銀行融資、アセットファイナンスの総額約45億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "1011001099524": {
   "note": "食情報メディア「Lifemeal」運営。資金調達の発表は見当たらない",
   "checkedAt": "2026-10",
@@ -1283,6 +1429,36 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000009.000091867.html",
     "note": "シリーズCのクローズを発表。シリーズC総額27億円"
+   },
+   {
+    "date": "2024-12",
+    "round": "シリーズD",
+    "type": "第三者割当増資",
+    "amount": 1060,
+    "investors": [
+     "FUNDINNO PLUS+の特定投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000021.000091867.html",
+    "note": "2024年12月27日付。特定投資家向け銘柄制度（J-Ships）を利用。シリーズDの一部"
+   },
+   {
+    "date": "2025-08",
+    "round": "シリーズD",
+    "type": "第三者割当増資",
+    "amount": 7300,
+    "investors": [
+     "アルフレッサ株式会社",
+     "あすか製薬CVC",
+     "UntroD野村クロスオーバーインパクトファンド投資事業有限責任組合",
+     "ひふみクロスオーバーpro",
+     "SBIインベストメント株式会社",
+     "Happiness Capital",
+     "Felicity Global Capital",
+     "Garnet Capital",
+     "SMBCベンチャーキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000025.000091867.html",
+    "note": "シリーズDクローズ。ラウンド合計73億円強（FUNDINNO PLUS+分を含む）"
    }
   ],
   "checkedAt": "2026-10"
@@ -1459,6 +1635,22 @@
   "note": "やまと地域医療グループの経営支援会社。確認できた外部調達は2025年7月の1件のみ",
   "checkedAt": "2026-10"
  },
+ "1011501026151": {
+  "rounds": [
+   {
+    "date": "2026-02",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社ポーラ・オルビスホールディングス",
+     "WPower Fund I 投資事業有限責任組合"
+    ],
+    "source": "https://www.atpress.ne.jp/news/573216",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "1013301038376": {
   "rounds": [
    {
@@ -1607,6 +1799,21 @@
   "checkedAt": "2026-10",
   "rounds": []
  },
+ "1020001144198": {
+  "rounds": [
+   {
+    "date": "2024-03",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "三菱UFJキャピタル株式会社（三菱UFJライフサイエンス4号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000280.000076057.html",
+    "note": "投資家側の発表（2024年3月26日出資）。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "1021001063330": {
   "rounds": [
    {
@@ -1616,6 +1823,55 @@
     "amount": 4000,
     "source": "https://www.chordiatherapeutics.com/ja/news/news20220519102979.html",
     "note": "約40億円、累計約82億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1040001016239": {
+  "rounds": [
+   {
+    "date": "2024-05",
+    "type": "第三者割当増資",
+    "amount": 300,
+    "investors": [
+     "藤森工業株式会社（ZACROS）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000034.000101427.html",
+    "note": "投資家側の発表。2023年10月に続く2回目の出資（追加出資）"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1050001038620": {
+  "rounds": [
+   {
+    "date": "2025-10",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 390,
+    "investors": [
+     "京都大学イノベーションキャピタル株式会社（イノベーション京都2021）",
+     "東北大学ベンチャーパートナーズ株式会社（THVP-2号）",
+     "ロート製薬株式会社",
+     "株式会社常陽キャピタルパートナーズ（つくばエクシード2号）"
+    ],
+    "source": "https://bio.nikkeibp.co.jp/atcl/release/25/10/21/25992/",
+    "note": "同社リリース（日経バイオテク掲載）"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1110001036502": {
+  "rounds": [
+   {
+    "date": "2024-10",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "キヤノンマーケティングジャパン株式会社（Canon Marketing Japan MIRAI Fund、グローバル・ブレイン共同運営）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000001190.000013943.html",
+    "note": "投資家側の発表。金額非公表"
    }
   ],
   "checkedAt": "2026-10"
@@ -1697,6 +1953,21 @@
   "checkedAt": "2026-10",
   "rounds": []
  },
+ "1120001250052": {
+  "rounds": [
+   {
+    "date": "2026-05",
+    "type": "その他",
+    "amount": 7.1,
+    "investors": [
+     "クラウドファンディング（READYFOR）支援者318人"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000176815.html",
+    "note": "購入型クラウドファンディングで714.5万円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "1120901041427": {
   "rounds": [
    {
@@ -1708,6 +1979,47 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000083.000036405.html",
     "note": "引受先リアルテックファンドの発表。金額非公表"
+   },
+   {
+    "date": "2023-10",
+    "type": "第三者割当増資",
+    "amount": 70.2,
+    "investors": [
+     "UHA味覚糖株式会社",
+     "浜中正志"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000107643.html",
+    "note": "払込期日2023年10月31日。日本政策金融公庫の融資等と合わせ総額約1.2億円（2024年6月発表）"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1130001053628": {
+  "rounds": [
+   {
+    "date": "2026-02",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社エクセディ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000010.000170004.html",
+    "note": "2026年2月27日実施。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1130003009958": {
+  "rounds": [
+   {
+    "date": "2024-06",
+    "type": "J-KISS・転換社債",
+    "amount": null,
+    "investors": [
+     "SMBCベンチャーキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000144469.html",
+    "note": "転換社債型新株予約権付社債。金額非公表。前年度に京銀輝く未来応援ファンド3号・京都iCAPからも調達"
    }
   ],
   "checkedAt": "2026-10"
@@ -1790,6 +2102,23 @@
   ],
   "checkedAt": "2026-10"
  },
+ "1220001018282": {
+  "rounds": [
+   {
+    "date": "2025-01",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "みずほキャピタル株式会社",
+     "ほくほくキャピタル株式会社",
+     "西武しんきんキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000022.000086515.html",
+    "note": "2024年9月発表の資金調達のエクステンションラウンド。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "1290001059304": {
   "rounds": [
    {
@@ -1812,6 +2141,76 @@
      "池田泉州キャピタル"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000006.000040046.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1360001021256": {
+  "rounds": [
+   {
+    "date": "2024-04",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "グローバル・ブレイン株式会社（321FORCE／MCIイノベーション投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000359.000047342.html",
+    "note": "投資家側の発表。三井化学と連携。金額非公表"
+   },
+   {
+    "date": "2024-08",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社うむさんラボ（カリーインパクト＆イノベーション1号投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000125858.html",
+    "note": "投資家側の発表。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1370001042292": {
+  "rounds": [
+   {
+    "date": "2022-01",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "MedVenture Partners株式会社（MPI-2号）",
+     "京都大学イノベーションキャピタル株式会社",
+     "グローバル・ブレイン株式会社（キリンCVC）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000093254.html",
+    "note": "シリーズAの追加増資。リストでは総額3億円"
+   },
+   {
+    "date": "2024-02",
+    "round": "シリーズB（エクステンション）",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "investors": [
+     "かんぽNEXTパートナーズ株式会社（JP LIFE NEXT1号投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000093254.html",
+    "note": "シリーズB総額4.4億円、累計11.1億円。主な引受先を記載"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "1400001016160": {
+  "rounds": [
+   {
+    "date": "2024-10",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "一般社団法人日本ディープラーニング協会",
+     "個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000150719.html",
+    "note": "金額非公表"
    }
   ],
   "checkedAt": "2026-10"
@@ -2002,6 +2401,21 @@
   "checkedAt": "2026-10",
   "rounds": []
  },
+ "2010001264104": {
+  "rounds": [
+   {
+    "date": "2026-05",
+    "type": "J-KISS・転換社債",
+    "amount": null,
+    "investors": [
+     "UntroD Capital Japan株式会社（リアルテックファンド4号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000183200.html",
+    "note": "J-KISS型新株予約権。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "2010003040288": {
   "rounds": [
    {
@@ -2159,6 +2573,45 @@
   "checkedAt": "2026-10",
   "rounds": []
  },
+ "2010401145300": {
+  "rounds": [
+   {
+    "date": "2025-11",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 170,
+    "investors": [
+     "東京ウェルネスインパクトファンド",
+     "SMBCベンチャーキャピタル株式会社",
+     "アイテック阪急阪神イノベーション投資事業有限責任組合",
+     "複数の個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000105.000047366.html",
+    "note": "本ラウンド約1.7億円（第三者割当増資等）。累計約4.5億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "2010401159267": {
+  "rounds": [
+   {
+    "date": "2024-04",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "PKSHAアルゴリズム2号ファンド",
+     "NES株式会社",
+     "モバイル・インターネットキャピタル株式会社",
+     "有限会社エム・エス・インベストメント",
+     "SMBCベンチャーキャピタル株式会社"
+    ],
+    "lead": "PKSHAアルゴリズム2号ファンド",
+    "source": "https://prtimes.jp/main/html/rd/p/000000008.000077291.html",
+    "note": "今回分の金額は非公表、累計2.1億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "2010401162519": {
   "rounds": [
    {
@@ -2212,6 +2665,22 @@
   "note": "資金調達の発表は見当たらない",
   "checkedAt": "2026-10",
   "rounds": []
+ },
+ "2010501051679": {
+  "rounds": [
+   {
+    "date": "2025-12",
+    "round": "シード（エクステンション）",
+    "type": "J-KISS・転換社債",
+    "amount": 100,
+    "investors": [
+     "既存の個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000155065.html",
+    "note": "J-KISS型新株予約権。累計調達額約2.86億円"
+   }
+  ],
+  "checkedAt": "2026-10"
  },
  "2010601041464": {
   "note": "GCホールディングス傘下。資金調達の発表なし（STARTUP DBでは投資家側として掲載）",
@@ -2608,6 +3077,52 @@
   ],
   "checkedAt": "2026-10"
  },
+ "2011001137704": {
+  "rounds": [
+   {
+    "date": "2025-12",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "アクシル・キャピタル"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000007.000168748.html",
+    "note": "金額非公表。創業以来の累計調達額約15億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "2011001142729": {
+  "rounds": [
+   {
+    "date": "2024-04",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社DGインキュベーション（Open Network Lab・ESG1号投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000013.000110210.html",
+    "note": "シードラウンド1stクローズ。今回分の金額は非公表、累計約1億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "2011001154963": {
+  "rounds": [
+   {
+    "date": "2025-01",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "ワイムシェアリング株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000155793.html",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "2011101047134": {
   "note": "株式会社グリーンハウスのグループ会社（役員がグリーンハウス兼務）。PR TIMES・公式サイトにVC等からの資金調達の発表は見当たらない",
   "checkedAt": "2026-10",
@@ -2726,6 +3241,22 @@
   "note": "第三者割当増資の発表は見当たらない。",
   "checkedAt": "2026-10"
  },
+ "2011101102608": {
+  "rounds": [
+   {
+    "date": "2024-11",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 190,
+    "investors": [
+     "早稲田大学ベンチャーズ株式会社",
+     "JMTCキャピタル合同会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000132552.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "2011201020908": {
   "note": "PR TIMES（34件）・検索で資金調達の発表は見当たらない",
   "checkedAt": "2026-10",
@@ -2741,6 +3272,16 @@
      "みずほ成長支援第4号投資事業有限責任組合（みずほキャピタル）"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000091158.html"
+   },
+   {
+    "date": "2024-11",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社アイネット"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000098.000048004.html",
+    "note": "投資家側の発表。金額非公表"
    }
   ],
   "checkedAt": "2026-10"
@@ -2749,6 +3290,21 @@
   "note": "医療法人社団のため株式による資金調達はなし",
   "checkedAt": "2026-10",
   "rounds": []
+ },
+ "2021001082890": {
+  "rounds": [
+   {
+    "date": "2024-10",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "スパークル株式会社（スパークル1号投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000049.000107076.html",
+    "note": "投資家側の発表。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
  },
  "2050001042316": {
   "rounds": [
@@ -2875,6 +3431,21 @@
   ],
   "checkedAt": "2026-10"
  },
+ "2110001034488": {
+  "rounds": [
+   {
+    "date": "2026-02",
+    "type": "第三者割当増資",
+    "amount": 50,
+    "investors": [
+     "株式会社ＢＳＮメディアホールディングス",
+     "株式会社ブルボン"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000118081.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "2120001221390": {
   "rounds": [
    {
@@ -2945,6 +3516,39 @@
    "note": "会社発表『シリーズAで累計8億円』（シリーズA単体の累計か全体累計か文言が曖昧）",
    "source": "https://prtimes.jp/main/html/rd/p/000000028.000123493.html"
   },
+  "checkedAt": "2026-10"
+ },
+ "2120001255348": {
+  "rounds": [
+   {
+    "date": "2024-10",
+    "type": "第三者割当増資",
+    "amount": 200,
+    "investors": [
+     "MedVenture Partners株式会社",
+     "大阪大学ベンチャーキャピタル株式会社",
+     "三菱UFJキャピタル株式会社",
+     "かんぽNEXTパートナーズ株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000150677.html"
+   },
+   {
+    "date": "2026-02",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 540,
+    "investors": [
+     "MedVenture Partners株式会社",
+     "かんぽNEXTパートナーズ株式会社",
+     "大阪大学ベンチャーキャピタル株式会社",
+     "三菱UFJキャピタル株式会社",
+     "株式会社ディープコア",
+     "池田泉州キャピタル株式会社",
+     "株式会社島津製作所（グローバル・ブレイン運営CVC）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000150677.html"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "2120901039676": {
@@ -3302,6 +3906,23 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000004.000098074.html",
     "note": "シードラウンドの合計が1.8億円（今回分は非開示）"
+   },
+   {
+    "date": "2024-07",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 430,
+    "investors": [
+     "Diamond Medino Capital株式会社",
+     "株式会社FFGベンチャービジネスパートナーズ",
+     "スター精密株式会社",
+     "肥銀キャピタル株式会社",
+     "JMTCキャピタル合同会社",
+     "三菱UFJキャピタル株式会社",
+     "大分ベンチャーキャピタル株式会社"
+    ],
+    "lead": "Diamond Medino Capital株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000008.000098074.html"
    }
   ],
   "checkedAt": "2026-10"
@@ -3355,8 +3976,72 @@
   ],
   "checkedAt": "2026-10"
  },
+ "2370001048388": {
+  "rounds": [
+   {
+    "date": "2024-03",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社慶應イノベーション・イニシアティブ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000056.000018580.html",
+    "note": "投資家側（KII）の発表。他の出資者・AMED補助金を含め総額13.3億円"
+   },
+   {
+    "date": "2025-01",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 1150,
+    "investors": [
+     "株式会社FFGベンチャービジネスパートナーズ",
+     "日本ベンチャーキャピタル株式会社",
+     "株式会社ファストトラックイニシアティブ",
+     "株式会社慶應イノベーション・イニシアティブ",
+     "三菱UFJキャピタル株式会社",
+     "みずほキャピタル株式会社",
+     "SMBCベンチャーキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000138577.html",
+    "note": "増資11.5億円。AMED補助金11億円と合わせシリーズA総額22.5億円。当時の代表は吉田欣史"
+   },
+   {
+    "date": "2026-06",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 5320,
+    "investors": [
+     "Angel Bridge株式会社",
+     "DCIパートナーズ株式会社",
+     "ニッセイ・キャピタル株式会社",
+     "Red Capital株式会社",
+     "ごうぎんキャピタル株式会社",
+     "株式会社ファストトラックイニシアティブ",
+     "株式会社慶應イノベーション・イニシアティブ",
+     "三菱UFJキャピタル株式会社",
+     "SMBCベンチャーキャピタル株式会社",
+     "株式会社FFGベンチャービジネスパートナーズ",
+     "日本ベンチャーキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000138577.html",
+    "note": "第三者割当増資とAMED「創薬ベンチャーエコシステム強化事業」補助金を合わせた総額約53.2億円。日経報道では増資分25.2億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "2430001084757": {
   "rounds": [
+   {
+    "date": "2022-10",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社DGインキュベーション"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000109146.html",
+    "note": "NEDO STS採択と同時の発表。金額非公表（リスト外）"
+   },
    {
     "date": "2023-02",
     "type": "第三者割当増資",
@@ -3366,6 +4051,16 @@
     ],
     "source": "https://www.hokuyobank.co.jp/newsrelease/pdf/20230201_074002.pdf",
     "note": "引受先北洋銀行の発表"
+   },
+   {
+    "date": "2024-11",
+    "type": "第三者割当増資",
+    "amount": 150,
+    "investors": [
+     "グリーンコア株式会社",
+     "国立研究開発法人科学技術振興機構"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000109146.html"
    }
   ],
   "checkedAt": "2026-10"
@@ -3586,6 +4281,56 @@
      "VC・CVC・個人投資家"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000008.000086294.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "3010001227035": {
+  "rounds": [
+   {
+    "date": "2023-06",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "TUSIC投資事業有限責任組合",
+     "Diamond Medino Capital株式会社",
+     "株式会社みらい創造機構",
+     "ANRI株式会社",
+     "国立研究開発法人科学技術振興機構"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000122662.html",
+    "note": "金額非公表"
+   },
+   {
+    "date": "2025-09",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 460,
+    "investors": [
+     "ANRI株式会社",
+     "東京理科大学イノベーション・キャピタル株式会社",
+     "Diamond Medino Capital株式会社",
+     "株式会社ビジョンインキュベイト",
+     "国立研究開発法人科学技術振興機構"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000122662.html",
+    "note": "AMED創薬ベンチャーエコシステム強化事業の補助金を合わせ本ラウンド総額9.6億円見込み"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "3010001255993": {
+  "rounds": [
+   {
+    "date": "2026-03",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 55,
+    "investors": [
+     "Coreline Ventures"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000166793.html"
    }
   ],
   "checkedAt": "2026-10"
@@ -4057,6 +4802,16 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000007.000082088.html",
     "note": "金額非公開"
+   },
+   {
+    "date": "2024-07",
+    "type": "資本業務提携",
+    "amount": null,
+    "investors": [
+     "株式会社新日本科学"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000011.000082088.html",
+    "note": "資本提携。金額非公表、累計調達額約92百万円"
    }
   ],
   "checkedAt": "2026-10"
@@ -4218,6 +4973,63 @@
   "checkedAt": "2026-10",
   "rounds": []
  },
+ "3020001145541": {
+  "rounds": [
+   {
+    "date": "2024-02",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 80,
+    "investors": [
+     "Central Japan Seed Fund",
+     "九州オープンイノベーション2号投資事業有限責任組合（GxPartners・FFGベンチャービジネスパートナーズ）",
+     "株式会社Midvillage"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000007.000119113.html"
+   },
+   {
+    "date": "2024-05",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "mint",
+     "東京ウェルネスインパクトファンド"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000119113.html",
+    "note": "2ndクローズを含むシードラウンド総額1.2億円"
+   },
+   {
+    "date": "2025-06",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 460,
+    "investors": [
+     "地域と人と未来株式会社（CJS2号）",
+     "GxPartners LLP",
+     "mint",
+     "ニッセイ・キャピタル株式会社",
+     "住友商事株式会社",
+     "七十七キャピタル株式会社"
+    ],
+    "source": "https://airato.jp/pre_seriesa/",
+    "note": "プレシリーズA 1stクローズ"
+   },
+   {
+    "date": "2025-10",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 170,
+    "investors": [
+     "三井住友海上キャピタル株式会社",
+     "SMBCベンチャーキャピタル株式会社"
+    ],
+    "source": "https://airato.jp/%E6%94%BE%E5%B0%84%E7%B7%9A%E6%B2%BB%E7%99%82xai%E3%81%AE%E3%82%A2%E3%82%A4%E3%83%A9%E3%83%88%E3%80%81%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E6%B5%B7%E4%B8%8A%E3%82%AD%E3%83%A3%E3%83%94%E3%82%BF/",
+    "note": "プレシリーズA 2ndクローズ1.7億円（プレシリーズA累計6.3億円、創業以来7.5億円）。引受先はほかにもあり"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "3020003015412": {
   "rounds": [
    {
@@ -4242,6 +5054,27 @@
    "source": "https://prtimes.jp/main/html/rd/p/000000011.000127099.html"
   },
   "note": "ANOBAKAはプレシリーズA以前からの既存投資家（シードの個別発表は見当たらず）",
+  "checkedAt": "2026-10"
+ },
+ "3021001061571": {
+  "rounds": [
+   {
+    "date": "2026-05",
+    "type": "第三者割当増資",
+    "amount": 3000,
+    "investors": [
+     "DBJキャピタル株式会社",
+     "SBIインベストメント株式会社",
+     "東北大学ベンチャーパートナーズ株式会社",
+     "株式会社ケイエスピー",
+     "Beyond Next Ventures株式会社",
+     "DCIパートナーズ株式会社",
+     "京都キャピタルパートナーズ株式会社",
+     "バイオ・サイト・キャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000008.000080719.html"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "3021003004396": {
@@ -4394,6 +5227,23 @@
   ],
   "checkedAt": "2026-10"
  },
+ "3120101060746": {
+  "rounds": [
+   {
+    "date": "2024-01",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "池田泉州キャピタル株式会社",
+     "QXLV（クオンタムリープベンチャーズ）",
+     "個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000136357.html",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "3120901037464": {
   "rounds": [
    {
@@ -4449,6 +5299,24 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000096294.html",
     "note": "リストの20億円は日経報道。発表は総額21.3億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "3130001061959": {
+  "rounds": [
+   {
+    "date": "2024-05",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "東京大学協創プラットフォーム開発株式会社（AOI1号ファンド）",
+     "DCIパートナーズ株式会社",
+     "三菱UFJキャピタル株式会社",
+     "京都キャピタルパートナーズ株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000133.000025017.html",
+    "note": "投資家側（東大IPC）の発表。東大IPCの出資額は2.5億円、4社の共同出資"
    }
   ],
   "checkedAt": "2026-10"
@@ -4572,6 +5440,17 @@
      "秀インター"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000007.000077689.html"
+   },
+   {
+    "date": "2024-03",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "豊田合成株式会社",
+     "ミレイズ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000015.000077689.html",
+    "note": "金額非公表"
    }
   ],
   "checkedAt": "2026-10"
@@ -4846,6 +5725,21 @@
   "checkedAt": "2026-10",
   "rounds": []
  },
+ "4010001119594": {
+  "rounds": [
+   {
+    "date": "2025-04",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "SMBCベンチャーキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000122.000036407.html",
+    "note": "インパクト投資による第三者割当増資。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "4010001170358": {
   "rounds": [
    {
@@ -4996,10 +5890,145 @@
   },
   "checkedAt": "2026-10"
  },
+ "4010001208868": {
+  "rounds": [
+   {
+    "date": "2023-04",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 350,
+    "investors": [
+     "Fiducia株式会社（Fiducia GrowthTech投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000118851.html",
+    "note": "ほか複数の投資家"
+   },
+   {
+    "date": "2026-05",
+    "round": "シリーズC",
+    "type": "第三者割当増資",
+    "amount": 2650,
+    "investors": [
+     "Fiducia株式会社（Fiducia GrowthTech投資事業有限責任組合）",
+     "住友重機械工業株式会社",
+     "iGlobe Partners"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000010.000118851.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "4010001221631": {
+  "rounds": [
+   {
+    "date": "2024-04",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 900,
+    "source": "https://nbmed-inc.com/news/",
+    "note": "シリーズA 1stクローズ9億円（自社ニュース一覧の見出し）"
+   },
+   {
+    "date": "2024-08",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 2000,
+    "source": "https://nbmed-inc.com/news/",
+    "note": "シリーズB 1stクローズ20億円（自社ニュース一覧の見出し）"
+   },
+   {
+    "date": "2026-03",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 850,
+    "investors": [
+     "AIST Solutions",
+     "ANRI",
+     "ジャフコグループ",
+     "ニューロシューティカルズ",
+     "三菱UFJキャピタル（三菱UFJライフサイエンス4号）",
+     "株式会社ヨコオ",
+     "レアゾン・ホールディングス",
+     "Red Capital",
+     "国内大手医療機器メーカー"
+    ],
+    "source": "https://nbmed-inc.com/news/",
+    "note": "シリーズB 2ndクローズ8.5億円（シリーズB累計33.5億円、NEDO助成5億円含む）。ヨコオは1億円を出資し残り1億円を2028年に出資予定（ヨコオ発表）"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "4010001224857": {
   "note": "資金調達の発表は見当たらない（公式IRページは病院再生ファンド構想の説明で、外部からの調達実績の記載なし）",
   "checkedAt": "2026-10",
   "rounds": []
+ },
+ "4010001234344": {
+  "rounds": [
+   {
+    "date": "2023-10",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 400,
+    "investors": [
+     "Beyond Next Ventures株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000129637.html",
+    "note": "NEDO助成も獲得"
+   },
+   {
+    "date": "2024-10",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "グローバル・ブレイン株式会社（明治安田未来共創投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000418.000047342.html",
+    "note": "投資家側の発表。金額非公表"
+   },
+   {
+    "date": "2025-02",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 930,
+    "investors": [
+     "Beyond Next Ventures株式会社",
+     "JICベンチャー・グロース・インベストメンツ株式会社",
+     "グローバル・ブレイン株式会社",
+     "明治安田生命保険相互会社（明治安田未来共創ファンド）",
+     "高輪地球益ファンド（東日本旅客鉄道）"
+    ],
+    "source": "https://b-ms.tech/news/382/",
+    "note": "計9.3億円の追加調達（プレシリーズAからの合計とする報道もある）"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "4010001239153": {
+  "rounds": [
+   {
+    "date": "2024-07",
+    "type": "第三者割当増資",
+    "amount": 130,
+    "investors": [
+     "大阪大学ベンチャーキャピタル株式会社",
+     "株式会社神戸大学キャピタル"
+    ],
+    "source": "https://www.atpress.ne.jp/news/401039",
+    "note": "当時の代表は三池信也"
+   },
+   {
+    "date": "2025-08",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 240,
+    "investors": [
+     "株式会社RMDパートナーズ東京（Medical Development Support2号投資事業有限責任組合）"
+    ],
+    "source": "https://newscast.jp/smart/news/7848289"
+   }
+  ],
+  "checkedAt": "2026-10"
  },
  "4010101013516": {
   "rounds": [
@@ -5412,6 +6441,39 @@
   },
   "checkedAt": "2026-10"
  },
+ "4010401148557": {
+  "rounds": [
+   {
+    "date": "2024-04",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "investors": [
+     "TNPグループ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000136382.html",
+    "note": "ほか引受先あり。累計調達額約2.2億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "4010401148838": {
+  "rounds": [
+   {
+    "date": "2024-10",
+    "type": "第三者割当増資",
+    "amount": 500,
+    "investors": [
+     "グローバル・ブレイン株式会社",
+     "株式会社FFGベンチャービジネスパートナーズ",
+     "鈴与株式会社"
+    ],
+    "lead": "グローバル・ブレイン株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000019.000058441.html",
+    "note": "ほか引受先あり。約5億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "4010401148978": {
   "note": "当事者の資金調達発表は見当たらない（PR TIMES・検索とも）。",
   "checkedAt": "2026-10",
@@ -5660,6 +6722,22 @@
   ],
   "checkedAt": "2026-10"
  },
+ "4011001131829": {
+  "rounds": [
+   {
+    "date": "2025-05",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "地域と人と未来株式会社（CJS2号ファンド）",
+     "株式会社UNERI"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000089.000068494.html",
+    "note": "金額非公表。累計調達額3.1億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "4011001133148": {
   "rounds": [
    {
@@ -5676,6 +6754,72 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000013.000060583.html",
     "note": "総額1.8億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "4011001152742": {
+  "rounds": [
+   {
+    "date": "2025-08",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 130,
+    "investors": [
+     "株式会社ジェネシア・ベンチャーズ",
+     "NOBUNAGAキャピタルビレッジ株式会社"
+    ],
+    "lead": "株式会社ジェネシア・ベンチャーズ",
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000134613.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "4011001158194": {
+  "rounds": [
+   {
+    "date": "2024-02",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "東京ウェルネスインパクトファンド",
+     "W fund",
+     "三井住友海上キャピタル",
+     "かんぽNEXTパートナーズ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000135849.html",
+    "note": "累計2.1億円と発表（今回分の金額は記載なし）"
+   },
+   {
+    "date": "2026-02",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "東京ウェルネスインパクトファンド",
+     "かんぽNEXTパートナーズ",
+     "株式会社越境",
+     "原田明典（個人）",
+     "合田武広（個人）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000017.000135849.html",
+    "note": "シリーズA 1stラウンド。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "4011001158392": {
+  "rounds": [
+   {
+    "date": "2024-01",
+    "type": "第三者割当増資",
+    "amount": 25,
+    "investors": [
+     "East Ventures",
+     "千本倖生（個人）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000133761.html",
+    "note": "エンジェルラウンド。旧商号FastManage株式会社時の発表"
    }
   ],
   "checkedAt": "2026-10"
@@ -5855,6 +6999,25 @@
   "note": "2012年頃に個人投資家から増資したとの言及があるが当事者発表で確認できず。2022-11に在宅医療子会社（ケアプロ在宅医療）をCHCPへ株式譲渡",
   "checkedAt": "2026-10"
  },
+ "4020001120007": {
+  "rounds": [
+   {
+    "date": "2025-02",
+    "type": "第三者割当増資",
+    "amount": 510.7,
+    "investors": [
+     "株式会社セキネ",
+     "JGC MIRAI Innovation Fund（日揮みらい投資事業有限責任組合、グローバル・ブレイン）",
+     "長嶋比呂志（代表取締役）",
+     "三輪玄二郎（代表取締役）",
+     "天野維一郎（常務取締役）"
+    ],
+    "source": "https://pormedtec.com/news/%E7%AC%AC%E4%B8%89%E8%80%85%E5%89%B2%E5%BD%93%E5%A2%97%E8%B3%87%E3%81%AB%E3%82%88%E3%82%8B%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94%E5%AE%9F%E6%96%BD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+    "note": "5億1,072万円。2026年9月に徳洲会などから約10億円の追加調達を発表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "4020003012581": {
   "rounds": [
    {
@@ -5870,6 +7033,39 @@
      "ディープコア"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000004.000035921.html"
+   },
+   {
+    "date": "2025-03",
+    "round": "シリーズB（エクステンション）",
+    "type": "第三者割当増資",
+    "amount": 1100,
+    "investors": [
+     "JICベンチャー・グロース・インベストメンツ株式会社",
+     "東大IPC",
+     "みずほキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000011.000035921.html",
+    "note": "計9社が引受。累計調達額21.3億円"
+   },
+   {
+    "date": "2025-05",
+    "type": "その他",
+    "amount": 60,
+    "investors": [
+     "株式会社国際協力銀行（JBIC）等"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000012.000035921.html",
+    "note": "UNIDOのウクライナ復興プロジェクト実施のための調達（約6,000万円）"
+   },
+   {
+    "date": "2026-05",
+    "type": "J-KISS・転換社債",
+    "amount": null,
+    "investors": [
+     "オルトモスインベストメント株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000015.000035921.html",
+    "note": "J-KISS型新株予約権。アルケアとの基本合意も締結。金額非公表"
    }
   ],
   "checkedAt": "2026-10"
@@ -5951,6 +7147,21 @@
    }
   ],
   "note": "金額はいずれも非公表。",
+  "checkedAt": "2026-10"
+ },
+ "4080101025224": {
+  "rounds": [
+   {
+    "date": "2025-08",
+    "type": "その他",
+    "amount": 14.6,
+    "investors": [
+     "クラウドファンディング（CAMPFIRE）支援者1,129名"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000007.000162111.html",
+    "note": "CAMPFIREでのクラウドファンディング総額14,635,500円"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "4120001265543": {
@@ -6152,6 +7363,30 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000127593.html",
     "note": "金額非公表"
+   },
+   {
+    "date": "2025-04",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社Dual Bridge Capital（DBC1号投資有限責任組合）",
+     "NOBUNAGAキャピタルビレッジ株式会社（NOBUNAGA Growing Fund）"
+    ],
+    "lead": "株式会社Dual Bridge Capital",
+    "source": "https://prtimes.jp/main/html/rd/p/000000008.000127593.html",
+    "note": "金額非公表"
+   },
+   {
+    "date": "2025-07",
+    "type": "第三者割当増資",
+    "amount": 110,
+    "investors": [
+     "愛知キャピタル株式会社（あいちスタートアップファンド1号）",
+     "epiST Ventures株式会社（Data Driven Innovation投資事業有限責任組合）",
+     "株式会社十六銀行（融資）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000127593.html",
+    "note": "第三者割当増資と融資の総額1.1億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -6167,6 +7402,23 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000113824.html",
     "note": "支援総額1,238,000円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "4220001025037": {
+  "rounds": [
+   {
+    "date": "2025-01",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 135,
+    "investors": [
+     "Diamond Medino Capital株式会社"
+    ],
+    "lead": "Diamond Medino Capital株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000155398.html",
+    "note": "2社が引受（もう1社は記載なし）"
    }
   ],
   "checkedAt": "2026-10"
@@ -6258,6 +7510,16 @@
      "広島大学・広島県内大学発ベンチャー支援投資事業有限責任組合"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000102278.html"
+   },
+   {
+    "date": "2024-05",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社慶應イノベーション・イニシアティブ（KII3号インパクト投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000102278.html",
+    "note": "金額非公表。累計調達額約12億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -6294,6 +7556,44 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000082124.html",
     "note": "約3.3億円"
+   },
+   {
+    "date": "2024-11",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 1090,
+    "investors": [
+     "株式会社FFGベンチャービジネスパートナーズ",
+     "三井住友信託銀行株式会社",
+     "Sea Forest Circulation",
+     "鈴与株式会社",
+     "住友生命保険相互会社",
+     "パラマウントベッド株式会社",
+     "RKB毎日放送株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000038.000082124.html",
+    "note": "シリーズA 1st・2ndクローズ合計10.9億円。第三者割当増資の累計16.8億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "4340001024984": {
+  "rounds": [
+   {
+    "date": "2025-12",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 670,
+    "investors": [
+     "京都大学イノベーションキャピタル株式会社",
+     "東邦ホールディングス株式会社",
+     "株式会社FFGベンチャービジネスパートナーズ",
+     "大分ベンチャーキャピタル株式会社",
+     "株式会社佐銀キャピタル＆コンサルティング",
+     "福岡地所株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000010.000165403.html",
+    "note": "シリーズB セカンドクローズ6.7億円（種類株式）。ファーストクローズ15億円と合わせシリーズB総額21.7億円。AMED助成最大約27億円も"
    }
   ],
   "checkedAt": "2026-10"
@@ -6307,6 +7607,18 @@
   "note": "資金調達の発表なし（PR TIMESのRSSは0件）",
   "checkedAt": "2026-10",
   "rounds": []
+ },
+ "5010001117069": {
+  "rounds": [
+   {
+    "date": "2026-06",
+    "type": "その他",
+    "amount": null,
+    "source": "https://prtimes.jp/main/html/rd/p/000000018.000116188.html",
+    "note": "「次の成長ステージに向けた資金調達を完了」と発表。引受先・金額・形式は非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
  },
  "5010001151332": {
   "note": "資金調達の発表は見当たらない。むしろ出資側（2021年MOON TREATS、2023年Neithへ出資・資本業務提携）",
@@ -6373,6 +7685,90 @@
   "note": "資金調達の発表は見当たらず",
   "checkedAt": "2026-10",
   "rounds": []
+ },
+ "5010001217273": {
+  "rounds": [
+   {
+    "date": "2023-09",
+    "type": "第三者割当増資",
+    "amount": 50,
+    "investors": [
+     "株式会社あきぎんキャピタルパートナーズ（秋田銀行）"
+    ],
+    "source": "https://www.nikkei.com/article/DGXZQOCC288SQ0Y3A920C2000000/",
+    "note": "秋田銀行の発表を報じた日経記事。2023年9月29日付出資"
+   },
+   {
+    "date": "2025-07",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 390,
+    "investors": [
+     "株式会社地域経済活性化支援機構・株式会社AGSコンサルティング運用ファンド",
+     "東北大学ベンチャーパートナーズ株式会社",
+     "株式会社あきぎんキャピタルパートナーズ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000007.000112015.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5010001225722": {
+  "rounds": [
+   {
+    "date": "2026-02",
+    "round": "シリーズA1",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "デライト・ベンチャーズ",
+     "アニマルスピリッツ",
+     "ごうぎんキャピタル",
+     "ANRI",
+     "グリーンコア株式会社"
+    ],
+    "lead": "デライト・ベンチャーズ",
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000101613.html",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5010001246066": {
+  "rounds": [
+   {
+    "date": "2025-03",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 200,
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000154244.html",
+    "note": "引受先の記載なし"
+   },
+   {
+    "date": "2025-08",
+    "type": "第三者割当増資",
+    "amount": 720,
+    "investors": [
+     "UTEC6号投資事業有限責任組合"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000154244.html"
+   },
+   {
+    "date": "2026-05",
+    "round": "ポストシード",
+    "type": "第三者割当増資",
+    "amount": 1200,
+    "investors": [
+     "UTEC6号投資事業有限責任組合",
+     "ファストトラックイニシアティブ4号投資事業有限責任組合",
+     "DCIベンチャー成長支援2号投資事業有限責任組合",
+     "株式会社アトックス",
+     "株式会社ヨシダ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000013.000154244.html"
+   }
+  ],
+  "checkedAt": "2026-10"
  },
  "5010001248335": {
   "rounds": [
@@ -6499,6 +7895,21 @@
     ],
     "lead": "グロービス・キャピタル・パートナーズ株式会社",
     "source": "https://prtimes.jp/main/html/rd/p/000000024.000043787.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5010601056245": {
+  "rounds": [
+   {
+    "date": "2026-02",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 50,
+    "investors": [
+     "株式会社MINT"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000111628.html"
    }
   ],
   "checkedAt": "2026-10"
@@ -6724,6 +8135,24 @@
    "source": "https://prtimes.jp/main/html/rd/p/000000075.000033983.html"
   },
   "note": "シード期（2016〜2017年）の調達は未確認",
+  "checkedAt": "2026-10"
+ },
+ "5011001126563": {
+  "rounds": [
+   {
+    "date": "2025-05",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 190,
+    "investors": [
+     "株式会社みらい創造インベストメンツ",
+     "株式会社ビジョンインキュベイト",
+     "他投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000163780.html",
+    "note": "2025年5月30日実施。累計約3億円"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "5011001145051": {
@@ -7003,6 +8432,90 @@
   ],
   "checkedAt": "2026-10"
  },
+ "5011101101185": {
+  "rounds": [
+   {
+    "date": "2023-05",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 250,
+    "investors": [
+     "Diamond Medino Capital株式会社（DMC1号投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000121727.html"
+   },
+   {
+    "date": "2023-12",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 1170,
+    "investors": [
+     "Diamond Medino Capital株式会社",
+     "田中貴金属工業株式会社",
+     "株式会社ファストトラックイニシアティブ",
+     "東京理科大学イノベーション・キャピタル株式会社",
+     "三菱UFJキャピタル株式会社",
+     "東京理科大学インベストメント・マネジメント株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000121727.html"
+   },
+   {
+    "date": "2025-06",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 1000,
+    "investors": [
+     "Diamond Medino Capital株式会社",
+     "三菱UFJキャピタル株式会社",
+     "三井住友信託銀行株式会社",
+     "三井住友海上キャピタル株式会社",
+     "メディキット株式会社",
+     "株式会社ファストトラックイニシアティブ",
+     "東京理科大学イノベーション・キャピタル株式会社",
+     "東京理科大学インベストメント・マネジメント株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000121727.html",
+    "note": "累計調達額27.7億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5011201024435": {
+  "rounds": [
+   {
+    "date": "2025-08",
+    "type": "第三者割当増資",
+    "amount": 560,
+    "investors": [
+     "アニマルスピリッツ合同会社",
+     "ANRI株式会社",
+     "かんぽNEXTパートナーズ株式会社",
+     "ニッセイ・キャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000149000.html",
+    "note": "累計約10億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5011501027047": {
+  "rounds": [
+   {
+    "date": "2025-10",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 120,
+    "investors": [
+     "ニッセイ・キャピタル株式会社",
+     "RICOH Innovation Fund（リコージャパン）",
+     "PARAMOUNT BED Healthcare Fund（パラマウントベッド）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000134518.html",
+    "note": "累計調達額1.7億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "5030001122133": {
   "rounds": [
    {
@@ -7263,6 +8776,44 @@
   "note": "シリーズA累計4.8億円（2023年12月時点）。創業以来の累計額の明示はなし",
   "checkedAt": "2026-10"
  },
+ "5120001237269": {
+  "rounds": [
+   {
+    "date": "2024-10",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 1020,
+    "investors": [
+     "SBIインベストメント株式会社",
+     "大阪大学ベンチャーキャピタル株式会社",
+     "三井金属鉱業株式会社",
+     "株式会社神戸大学キャピタル",
+     "株式会社常陽キャピタルパートナーズ",
+     "D3 LLC",
+     "日揮株式会社"
+    ],
+    "lead": "SBIインベストメント株式会社、大阪大学ベンチャーキャピタル株式会社（コリード）",
+    "source": "https://prtimes.jp/main/html/rd/p/000000011.000091191.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5120001274246": {
+  "rounds": [
+   {
+    "date": "2026-02",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 85,
+    "investors": [
+     "山科精器株式会社",
+     "Hong Kong BlueSky Technologies Innovation Co., Limited"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000174787.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "5120901038171": {
   "rounds": [
    {
@@ -7330,6 +8881,37 @@
      "株式会社ワイエムシィ"
     ],
     "source": "https://peptistarinc.com/news/news-20201201/"
+   },
+   {
+    "date": "2024-11",
+    "type": "第三者割当増資",
+    "amount": 2600,
+    "investors": [
+     "住友化学株式会社",
+     "東亞合成株式会社",
+     "塩野義製薬株式会社",
+     "積水化学工業株式会社"
+    ],
+    "source": "https://peptistar.com/news/20241111-2/",
+    "note": "総額26億円。同時にペプチドリームがINCJ等の既存株主保有株を取得"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5130001066881": {
+  "rounds": [
+   {
+    "date": "2025-01",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "みやこキャピタル株式会社（みやこ京大イノベーション3号）",
+     "ANRI（ANRI4号）",
+     "株式会社ケイエスピー（NextG投資事業有限責任組合）"
+    ],
+    "source": "https://www.xforestx.com/jp/news/2025-01-24-series-a/",
+    "note": "自社発表に金額の記載なし。日経はVC出資と政府系助成金で計19.5億円と報道"
    }
   ],
   "checkedAt": "2026-10"
@@ -7348,6 +8930,89 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000009.000070302.html",
     "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5130001080684": {
+  "rounds": [
+   {
+    "date": "2026-03",
+    "type": "その他",
+    "amount": 5,
+    "investors": [
+     "クラウドファンディング支援者"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000171593.html",
+    "note": "クラウドファンディングで第一目標500万円を達成（ネクストゴール800万円に挑戦中の発表）"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5140001118384": {
+  "rounds": [
+   {
+    "date": "2024-12",
+    "type": "J-KISS・転換社債",
+    "amount": 100,
+    "investors": [
+     "立命館ソーシャルインパクトファンド投資事業有限責任組合（プラスソーシャルインベストメント）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000154739.html",
+    "note": "転換社債型新株予約権付社債"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5140001121371": {
+  "rounds": [
+   {
+    "date": "2023-07",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 104,
+    "investors": [
+     "大阪大学ベンチャーキャピタル株式会社（OUVC2号）",
+     "株式会社神戸大学キャピタル（KUC1号）",
+     "フューチャーベンチャーキャピタル株式会社（こうべしんきんステップアップ投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000125161.html",
+    "note": "シードラウンドB"
+   },
+   {
+    "date": "2024-04",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 45.5,
+    "investors": [
+     "大阪大学ベンチャーキャピタル株式会社（OUVC2号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000125161.html",
+    "note": "第2次シードラウンドB"
+   },
+   {
+    "date": "2025-07",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 183.7,
+    "investors": [
+     "株式会社神戸大学キャピタル（KUC1号）",
+     "大阪大学ベンチャーキャピタル株式会社（OUVC2号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000125161.html",
+    "note": "第3次シードラウンドB"
+   },
+   {
+    "date": "2025-12",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 50.1,
+    "investors": [
+     "神戸天然物化学株式会社",
+     "神戸信用金庫"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000125161.html",
+    "note": "第4次シードラウンドB（2026年2月発表）"
    }
   ],
   "checkedAt": "2026-10"
@@ -7397,6 +9062,23 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000023.000034282.html",
     "note": "引受先トビラシステムズの発表。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5200001043411": {
+  "rounds": [
+   {
+    "date": "2025-08",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 300,
+    "investors": [
+     "ジャフコ グループ株式会社",
+     "JICベンチャー・グロース・インベストメンツ株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000167216.html",
+    "note": "エクイティ3億円。AMED創薬ベンチャーエコシステム強化事業の補助金4.6億円と合わせ総額7.6億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -7451,6 +9133,51 @@
   ],
   "checkedAt": "2026-10"
  },
+ "5290001098216": {
+  "rounds": [
+   {
+    "date": "2025-01",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "農林中金キャピタル株式会社（農林中金キャピタル戦略協創1号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000018.000121835.html",
+    "note": "投資家側の発表。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5330001026254": {
+  "rounds": [
+   {
+    "date": "2025-08",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "SIIFインパクトキャピタル株式会社・一般財団法人社会変革推進財団（SIIFICウェルネス投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000012.000102824.html",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "5330001029554": {
+  "rounds": [
+   {
+    "date": "2024-06",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "investors": [
+     "QBキャピタル合同会社・NCBベンチャーキャピタル株式会社（QB第二号投資事業有限責任組合）",
+     "肥銀キャピタル株式会社（肥銀大学発ベンチャーシード投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000144396.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "5360001030443": {
   "rounds": [
    {
@@ -7497,6 +9224,31 @@
    }
   ],
   "note": "PR TIMES上の資金調達発表は設立時シードの1件のみ。",
+  "checkedAt": "2026-10"
+ },
+ "5380001032702": {
+  "rounds": [
+   {
+    "date": "2024-01",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "フューチャーベンチャーキャピタル株式会社（FVC Tohoku）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000193.000011403.html",
+    "note": "投資家側の発表。金額非公表。当時の代表は栗原裕也"
+   },
+   {
+    "date": "2025-12",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "ミライドア株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000303.000011403.html",
+    "note": "投資家側の発表。金額非公表"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "5400001009706": {
@@ -7591,6 +9343,35 @@
   "note": "旧社名Connected Industries。第三者割当増資の発表は見当たらない。",
   "checkedAt": "2026-10"
  },
+ "6010001187788": {
+  "rounds": [
+   {
+    "date": "2023-07",
+    "round": "シード",
+    "type": "J-KISS・転換社債",
+    "amount": 50,
+    "investors": [
+     "ANRI株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000127439.html"
+   },
+   {
+    "date": "2025-06",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 460,
+    "investors": [
+     "UntroD Capital Japan株式会社",
+     "ANRI",
+     "ロート製薬株式会社",
+     "中内啓光（スタンフォード大学教授）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000127439.html",
+    "note": "発表時の代表取締役は安藤信裕"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "6010001190882": {
   "rounds": [
    {
@@ -7616,6 +9397,18 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000084053.html",
     "note": "約3億円"
+   },
+   {
+    "date": "2024-08",
+    "type": "第三者割当増資",
+    "amount": 720,
+    "investors": [
+     "Taiho Ventures, LLC",
+     "MP Healthcare Venture Management, Inc.",
+     "東京大学協創プラットフォーム開発株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000084053.html",
+    "note": "既存投資家3社による追加出資ラウンド（契約締結の発表）"
    }
   ],
   "checkedAt": "2026-10"
@@ -7659,6 +9452,51 @@
    }
   ],
   "note": "サービス名メドリング。",
+  "checkedAt": "2026-10"
+ },
+ "6010001220623": {
+  "rounds": [
+   {
+    "date": "2024-04",
+    "round": "シード（エクステンション）",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "Beyond Next Ventures株式会社",
+     "株式会社東京大学エッジキャピタルパートナーズ",
+     "株式会社慶應イノベーション・イニシアティブ",
+     "大阪大学ベンチャーキャピタル株式会社"
+    ],
+    "source": "https://www.prnewswire.com/news-releases/red-arrow-therapeutics-inc-closes-4-5m-seed-extension-round-302121980.html",
+    "note": "Red Arrow Therapeutics Inc.（米ボストン）の発表で450万米ドル。日経は4億円と報道。累計約550万米ドル"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "6010001233591": {
+  "rounds": [
+   {
+    "date": "2024-11",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 500,
+    "investors": [
+     "ニュートン バイオキャピタル"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000152661.html"
+   },
+   {
+    "date": "2025-01",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 150,
+    "investors": [
+     "三菱UFJキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000152661.html",
+    "note": "累積調達額6.5億円"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "6010401078983": {
@@ -7861,6 +9699,28 @@
   "note": "2022年発表時点まで黒字経営と記載。ファストトラックイニシアティブは2022年以前からの既存株主",
   "checkedAt": "2026-10"
  },
+ "6010401134118": {
+  "rounds": [
+   {
+    "date": "2025-07",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 580,
+    "investors": [
+     "TOPPANホールディングス株式会社",
+     "久光製薬株式会社",
+     "アサヒグループジャパン株式会社",
+     "株式会社ゼロワンブースターキャピタル",
+     "西武しんきんキャピタル企業投資4号投資事業有限責任組合",
+     "株式会社桜十字",
+     "株式会社Izul"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000161160.html",
+    "note": "計8者が引受。プレシリーズA 5.8億円（リストの6.85億円は補助金等を含む総額とみられる）"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "6010401152706": {
   "rounds": [
    {
@@ -7881,6 +9741,38 @@
   "note": "PSP株式会社傘下の合同会社。資金調達の発表なし",
   "checkedAt": "2026-10",
   "rounds": []
+ },
+ "6010501031280": {
+  "rounds": [
+   {
+    "date": "2023-06",
+    "type": "第三者割当増資",
+    "amount": 95,
+    "investors": [
+     "インフォコム株式会社",
+     "池森ベンチャーサポート合同会社",
+     "社会福祉法人梅仁会",
+     "株式会社八神製作所",
+     "株式会社TD Holdings",
+     "株式会社フルノシステムズ",
+     "個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000123793.html"
+   },
+   {
+    "date": "2026-03",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "プラス株式会社",
+     "エレコム株式会社",
+     "前川雅彦（個人投資家）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000024.000123793.html",
+    "note": "前回ラウンドのエクステンション。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
  },
  "6010901041482": {
   "rounds": [
@@ -7919,6 +9811,20 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000014.000077216.html",
     "note": "第三者割当増資と融資の合計"
+   },
+   {
+    "date": "2025-11",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "Shimadzu Future Innovation投資事業有限責任組合（グローバル・ブレイン）",
+     "中信ベンチャーキャピタル株式会社（中信ベンチャー・投資ファンド8号）",
+     "紀陽キャピタルマネジメント株式会社（紀陽成長支援2号）",
+     "関西みらいサクセスサポート投資事業有限責任組合",
+     "株式会社関西みらい銀行（関西みらいベンチャーデット）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000029.000077216.html",
+    "note": "出資と融資による調達。金額非公表"
    }
   ],
   "checkedAt": "2026-10"
@@ -7937,6 +9843,31 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000075703.html",
     "note": "総額約1.5億円"
+   },
+   {
+    "date": "2023-08",
+    "round": "シリーズA2",
+    "type": "第三者割当増資",
+    "amount": 230,
+    "investors": [
+     "みずほライフサイエンス第1号投資事業有限責任組合",
+     "フクダ電子株式会社",
+     "未来創造投資事業有限責任組合（みずほリースCVC）",
+     "Sony Innovation Fund",
+     "株式会社八神製作所"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000008.000075703.html",
+    "note": "シリーズA2 2nd Closingで2.3億円（シリーズA2総額5.1億円）"
+   },
+   {
+    "date": "2025-01",
+    "type": "第三者割当増資",
+    "amount": 150,
+    "investors": [
+     "フクダ電子株式会社",
+     "株式会社アイティーファーム"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000015.000075703.html"
    }
   ],
   "checkedAt": "2026-10"
@@ -7955,6 +9886,31 @@
      "個人投資家78名"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000095667.html"
+   },
+   {
+    "date": "2023-03",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "フューチャーベンチャーキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000163.000011403.html",
+    "note": "投資家側（ミライドア）の発表。金額非公表"
+   },
+   {
+    "date": "2024-10",
+    "round": "プレシリーズA2",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "One Capital株式会社",
+     "ベータ・ベンチャーキャピタル株式会社",
+     "鎌倉投信株式会社",
+     "株式会社ヤマハミュージックエンタテインメントホールディングス",
+     "ひびしんキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000032.000095667.html",
+    "note": "今回分の金額は非公表。累計調達額4.4億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -8115,6 +10071,23 @@
   ],
   "checkedAt": "2026-10"
  },
+ "6011001169727": {
+  "rounds": [
+   {
+    "date": "2025-08",
+    "type": "第三者割当増資",
+    "amount": 60,
+    "investors": [
+     "Garnet Capital",
+     "SMBCベンチャーキャピタル株式会社",
+     "株式会社コールドクター"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000165674.html",
+    "note": "優先株式の発行"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "6011101043476": {
   "rounds": [
    {
@@ -8128,6 +10101,18 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000072333.html",
     "note": "ラウンドD累計22億4,600万円"
+   },
+   {
+    "date": "2025-04",
+    "round": "シリーズE（エクステンション）",
+    "type": "第三者割当増資",
+    "amount": 3770,
+    "investors": [
+     "UntroD Capital Japan株式会社（UntroD野村クロスオーバーインパクトファンド）",
+     "国内外の複数の投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000139.000036405.html",
+    "note": "投資家側の発表。2024年6月から継続したEラウンドエクステンションで総額37.7億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -8299,6 +10284,19 @@
     ],
     "source": "https://www.jst.go.jp/pr/info/info1529/index.html",
     "note": "JSTの出資決定の発表。金額は要確認"
+   },
+   {
+    "date": "2025-11",
+    "type": "第三者割当増資",
+    "amount": 600,
+    "investors": [
+     "日本ハム株式会社",
+     "三井住友海上キャピタル株式会社",
+     "ウエルインベストメント株式会社（早稲田イノベーションファンド3号・早稲田投資事業有限責任組合）",
+     "モアマネジメント株式会社（MMA投資事業有限責任組合）",
+     "株式会社ケイエスピー（NextG投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000072117.html"
    }
   ],
   "checkedAt": "2026-10"
@@ -8385,6 +10383,17 @@
      "新規投資家"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000008.000056143.html"
+   },
+   {
+    "date": "2024-01",
+    "type": "第三者割当増資",
+    "amount": 1500,
+    "investors": [
+     "イーライリリー・アンド・カンパニー",
+     "santec Holdings"
+    ],
+    "source": "https://www.prismbiolab.com/news/",
+    "note": "自社ニュース「イーライリリー・アンド・カンパニーとsantec Holdingsから15億円の資金調達実施のお知らせ」（2024年1月）"
    }
   ],
   "checkedAt": "2026-10"
@@ -8476,6 +10485,39 @@
   ],
   "checkedAt": "2026-10"
  },
+ "6021001064209": {
+  "rounds": [
+   {
+    "date": "2023-05",
+    "type": "第三者割当増資",
+    "amount": 670,
+    "investors": [
+     "ニッセイ・キャピタル株式会社",
+     "Angel Bridge株式会社",
+     "東邦ホールディングス株式会社",
+     "シオノギファーマ株式会社"
+    ],
+    "lead": "ニッセイ・キャピタル株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000010.000078945.html"
+   },
+   {
+    "date": "2025-06",
+    "type": "第三者割当増資",
+    "amount": 770,
+    "investors": [
+     "横浜キャピタル株式会社",
+     "UntroD Capital Japan株式会社",
+     "ごうぎんキャピタル株式会社",
+     "ICMG Ventures Pte. Ltd.",
+     "ニッセイ・キャピタル株式会社",
+     "Angel Bridge株式会社",
+     "東邦ホールディングス株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000013.000078945.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "6021001065000": {
   "rounds": [
    {
@@ -8521,6 +10563,21 @@
    "note": "会社発表の累計調達額",
    "source": "https://prtimes.jp/main/html/rd/p/000000006.000130623.html"
   },
+  "checkedAt": "2026-10"
+ },
+ "6040001140216": {
+  "rounds": [
+   {
+    "date": "2025-12",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 50,
+    "investors": [
+     "UntroD Capital Japan株式会社（リアルテックファンド4号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000175448.html"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "6050001045637": {
@@ -8722,6 +10779,16 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000106.000011403.html",
     "note": "引受先FVCの発表。金額非公表"
+   },
+   {
+    "date": "2024-08",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "三菱UFJキャピタル株式会社（三菱UFJライフサイエンス4号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000323.000076057.html",
+    "note": "投資家側の発表。金額非公表。AMED創薬ベンチャーエコシステム強化事業にも採択"
    }
   ],
   "checkedAt": "2026-10"
@@ -8748,6 +10815,39 @@
   "note": "当事者の資金調達発表は見当たらない。STARTUP DBに2022年6月ALL STAR SAAS FUNDからの調達との記載あり（報道・DBのみ、未確認）。",
   "checkedAt": "2026-10",
   "rounds": []
+ },
+ "6180001150300": {
+  "rounds": [
+   {
+    "date": "2024-01",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "investors": [
+     "株式会社みらい創造機構"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000135009.html",
+    "note": "発表時の代表取締役CEOは金承鶴"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "6180001150894": {
+  "rounds": [
+   {
+    "date": "2026-01",
+    "round": "プレシード",
+    "type": "第三者割当増資",
+    "amount": 310,
+    "investors": [
+     "UntroD Capital Japan株式会社（リアルテックファンド4号）",
+     "株式会社インスパイア・インベストメント（INSPiRE Mutualistic Symbiosis Fund 1）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000174854.html",
+    "note": "プレ・シードラウンド総額3.1億円。2025年6月に厚労省「創薬エコシステム発展支援事業」で4.5億円の助成"
+   }
+  ],
+  "checkedAt": "2026-10"
  },
  "6190001025121": {
   "rounds": [
@@ -8869,6 +10969,24 @@
      "MAKOTOキャピタル"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000004.000091030.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "6370001052329": {
+  "rounds": [
+   {
+    "date": "2025-09",
+    "round": "シード",
+    "type": "J-KISS・転換社債",
+    "amount": 60,
+    "investors": [
+     "PARTNERS FUND",
+     "株式会社日本政策金融公庫（融資）",
+     "株式会社七十七銀行（融資）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000165376.html",
+    "note": "J-KISS型新株予約権と創業融資の合計6,000万円"
    }
   ],
   "checkedAt": "2026-10"
@@ -9007,6 +11125,51 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000005.000076662.html",
     "note": "シリーズB 3rdラウンド。シリーズBの総額が8億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "7010001182747": {
+  "rounds": [
+   {
+    "date": "2025-09",
+    "round": "シリーズC",
+    "type": "第三者割当増資",
+    "amount": 770,
+    "investors": [
+     "ロート製薬株式会社",
+     "株式会社エスアールディホールディングス",
+     "複数の事業会社・VC・個人投資家・経営陣"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000035.000061963.html",
+    "note": "2024年度エクステンション分を合わせ2025年9月末までに総額約7.7億円"
+   },
+   {
+    "date": "2025-10",
+    "round": "シリーズC",
+    "type": "第三者割当増資",
+    "amount": 800,
+    "investors": [
+     "FUNDINNO PLUS+の特定投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000036.000061963.html",
+    "note": "シリーズC セカンドクローズ約8億円（累計15.7億円）"
+   },
+   {
+    "date": "2025-11",
+    "round": "シリーズC",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "ロート製薬株式会社",
+     "株式会社エスアールディホールディングス",
+     "CafeGroup株式会社",
+     "日光ケミカルズ株式会社",
+     "当社経営陣",
+     "FUNDINNO PLUS+特定投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000038.000061963.html",
+    "note": "FUNDINNO PLUS+第二次募集と事業会社の追加出資でシリーズCをクローズ。シリーズC累計約19億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -9233,6 +11396,79 @@
     "amount": null,
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000099309.html",
     "note": "金額・引受先非公表"
+   },
+   {
+    "date": "2024-02",
+    "type": "第三者割当増資",
+    "amount": 130,
+    "investors": [
+     "ANRI",
+     "サイバーエージェント・キャピタル",
+     "プライマルキャピタル",
+     "ちゅうぎんキャピタルパートナーズ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000008.000099309.html"
+   },
+   {
+    "date": "2026-06",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 600,
+    "investors": [
+     "株式会社mint",
+     "京都大学イノベーションキャピタル株式会社",
+     "ちゅうぎんキャピタルパートナーズ株式会社",
+     "ANRI"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000014.000099309.html",
+    "note": "第三者割当増資と金融機関借入の合計6億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "7010001228533": {
+  "rounds": [
+   {
+    "date": "2025-09",
+    "type": "その他",
+    "amount": null,
+    "investors": [
+     "株式投資型クラウドファンディング"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000169641.html",
+    "note": "最大5千万円の株式投資型クラウドファンディング実施の告知（11月発表の3,060万円と同一案件とみられる）"
+   },
+   {
+    "date": "2025-11",
+    "round": "プレシリーズA",
+    "type": "その他",
+    "amount": 30.6,
+    "investors": [
+     "株式投資型クラウドファンディング（イークラウド）の投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000007.000169641.html",
+    "note": "プレAラウンド・ファーストクローズとしてECFで3,060万円（調達前評価額9.5億円）。リストの「9.5億円」は時価総額"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "7010001230464": {
+  "rounds": [
+   {
+    "date": "2025-02",
+    "type": "第三者割当増資",
+    "amount": 430,
+    "investors": [
+     "SMBCベンチャーキャピタル株式会社（SMBCベンチャーキャピタル7号）",
+     "東京大学協創プラットフォーム開発株式会社（オープンイノベーション推進1号）",
+     "かんぽNEXTパートナーズ株式会社（JP LIFE NEXT1号）",
+     "株式会社琉球キャピタル・株式会社琉球銀行（BORベンチャーファンド2号）",
+     "UT創業者の会投資事業有限責任組合",
+     "株式会社東京大学エッジキャピタルパートナーズ（UTEC5号）",
+     "FreakOut Shinsei Fund株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000062.000103350.html",
+    "note": "第三者割当増資4.3億円。子会社issin株式会社による商工中金からの融資2億円と合わせ6.3億円。累計11.7億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -9258,6 +11494,27 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000080.000029736.html",
     "note": "金額非公表。投資家側（MTG）の発表"
+   },
+   {
+    "date": "2023-03",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "ロート製薬株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000048.000020411.html",
+    "note": "金額非公表"
+   },
+   {
+    "date": "2025-03",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "久光製薬株式会社",
+     "株式会社Q’s fix"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000059.000020411.html",
+    "note": "金額非公表"
    }
   ],
   "checkedAt": "2026-10"
@@ -10063,6 +12320,23 @@
   "note": "ANRI・ディープコアからのシード調達の個別発表は見当たらず",
   "checkedAt": "2026-10"
  },
+ "7011001146790": {
+  "rounds": [
+   {
+    "date": "2024-01",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "UntroD Capital Japan株式会社（リアルテックファンド）",
+     "三菱ガス化学株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000136435.html",
+    "note": "金額非公表。NEDOディープテック・スタートアップ支援事業にも採択。発表時の代表は松井雅章"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "7011001154629": {
   "rounds": [
    {
@@ -10216,6 +12490,32 @@
   ],
   "checkedAt": "2026-10"
  },
+ "7011501025932": {
+  "rounds": [
+   {
+    "date": "2022-08",
+    "type": "第三者割当増資",
+    "amount": 150,
+    "investors": [
+     "B Dash Ventures株式会社（B Dash Fund 4号）",
+     "三井住友海上キャピタル株式会社（MSIVC2021V）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000104593.html"
+   },
+   {
+    "date": "2024-06",
+    "round": "プレシリーズA（エクステンション）",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "investors": [
+     "株式会社ロッテベンチャーズ・ジャパン"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000018.000104593.html",
+    "note": "累計調達額（融資含む）3.5億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "7012401024371": {
   "rounds": [
    {
@@ -10230,6 +12530,67 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000008.000032398.html",
     "note": "総額20.2億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "7012401041185": {
+  "rounds": [
+   {
+    "date": "2023-12",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "investors": [
+     "株式会社みらい創造機構（みらい創造二号投資事業有限責任組合）",
+     "BPキャピタル株式会社（TUAT1号投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000136583.html",
+    "note": "2024年1月発表"
+   },
+   {
+    "date": "2025-04",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 250,
+    "investors": [
+     "株式会社みらい創造インベストメンツ",
+     "BPキャピタル株式会社",
+     "レオ電子株式会社",
+     "クオンタムリープベンチャーズ株式会社"
+    ],
+    "lead": "株式会社みらい創造インベストメンツ",
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000136583.html",
+    "note": "2025年4月実施、6月発表"
+   },
+   {
+    "date": "2026-04",
+    "round": "シリーズA（エクステンション）",
+    "type": "第三者割当増資",
+    "amount": 150,
+    "investors": [
+     "飯能信用金庫（飯能信金地域未来創造ファンド）",
+     "多摩信用金庫（たましん地域未来共創ファンド）",
+     "BPキャピタル"
+    ],
+    "source": "https://asem-tech.com/wp-content/uploads/2026/04/ASEMtech%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9_20260402_1.pdf",
+    "note": "シリーズAエクステンション1.5億円（シリーズA累計4億円）。飯能信金の出資額は5,000万円（日経）。引受先はほかにもあり"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "7012801023618": {
+  "rounds": [
+   {
+    "date": "2026-07",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "BD Fund株式会社",
+     "インキュベイトファンド株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000183105.html",
+    "note": "金額非公表。同時にAMED「医工連携グローバル展開事業」に採択"
    }
   ],
   "checkedAt": "2026-10"
@@ -10269,6 +12630,21 @@
   ],
   "checkedAt": "2026-10"
  },
+ "7040001099179": {
+  "rounds": [
+   {
+    "date": "2025-10",
+    "type": "第三者割当増資",
+    "amount": 1300,
+    "investors": [
+     "FUNDINNO PLUS+の特定投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000292.000021941.html",
+    "note": "FUNDINNO（仲介事業者）の発表。約13億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "7040001104178": {
   "rounds": [
    {
@@ -10283,6 +12659,92 @@
    }
   ],
   "note": "エムスリーグループ入り以前の資金調達の発表は見当たらず",
+  "checkedAt": "2026-10"
+ },
+ "7050001050289": {
+  "rounds": [
+   {
+    "date": "2023-05",
+    "round": "エンジェル",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社Newsight Tech Angels"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000110083.html",
+    "note": "投資家側の発表。金額非公表"
+   },
+   {
+    "date": "2025-12",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 150,
+    "investors": [
+     "UntroD Capital Japan株式会社（リアルテックファンド4号）"
+    ],
+    "source": "https://crestecbio.com/topic/wp-content/uploads/2025/12/CrestecBio20251209.pdf",
+    "note": "シード1stクローズとみられる（2026-06発表の合計2.5億円に含まれる）"
+   },
+   {
+    "date": "2026-06",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 250,
+    "investors": [
+     "UntroD Capital Japan株式会社（リアルテックファンド4号）",
+     "国立研究開発法人科学技術振興機構",
+     "株式会社ケイエスピー（NextG投資事業有限責任組合）",
+     "株式会社Newsight Tech Angels（NTA投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000182492.html",
+    "note": "シードラウンド1st・2ndクローズ合計2.5億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "7120001229223": {
+  "rounds": [
+   {
+    "date": "2023-09",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社サムライインキュベート"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000098814.html",
+    "note": "シリーズA 1stクローズ。金額非公表"
+   },
+   {
+    "date": "2025-11",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 570,
+    "investors": [
+     "Beyond Next Ventures株式会社",
+     "株式会社サムライインキュベート",
+     "NES株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000013.000098814.html",
+    "note": "NEDO PCA事業4.2億円の助成金なども獲得"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "7120001256110": {
+  "rounds": [
+   {
+    "date": "2025-04",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "investors": [
+     "大阪大学ベンチャーキャピタル株式会社"
+    ],
+    "lead": "大阪大学ベンチャーキャピタル株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000151131.html"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "7120901027189": {
@@ -10335,6 +12797,38 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000006.000049692.html",
     "note": "計6社を引受先とする総額12.2億円"
+   },
+   {
+    "date": "2024-09",
+    "round": "シリーズC",
+    "type": "第三者割当増資",
+    "amount": 240,
+    "investors": [
+     "DCIパートナーズ株式会社（大和日台バイオベンチャー2号）",
+     "東北大学ベンチャーパートナーズ株式会社（THVP-2号）",
+     "大阪大学ベンチャーキャピタル株式会社（OUVC1号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000013.000049692.html",
+    "note": "シリーズC ファーストクローズ"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "7130001061526": {
+  "rounds": [
+   {
+    "date": "2025-05",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 300,
+    "investors": [
+     "ライフタイムベンチャーズ",
+     "京都キャピタルパートナーズ",
+     "クロステックベンチャーズ",
+     "個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000123656.html",
+    "note": "エクイティ3億円とNEDO DTSU（STSフェーズ、最大3億円）で総額6億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -10352,6 +12846,29 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000019.000071368.html",
     "note": "5社を引受先とする第三者割当増資と金融機関融資の合計で約6億円（リストの3.5億円は日経報道の数字）"
+   },
+   {
+    "date": "2026-04",
+    "type": "資本業務提携",
+    "amount": 1500,
+    "investors": [
+     "東京地下鉄株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000083.000071368.html"
+   },
+   {
+    "date": "2026-05",
+    "type": "融資（デット）",
+    "amount": 3000,
+    "investors": [
+     "株式会社京都銀行",
+     "株式会社りそな銀行",
+     "株式会社北陸銀行",
+     "株式会社みずほ銀行",
+     "株式会社日本政策金融公庫"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000085.000071368.html",
+    "note": "融資枠含む総額30億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -10420,6 +12937,53 @@
    "note": "会社発表の累計（約5億円、融資含む）",
    "source": "https://prtimes.jp/main/html/rd/p/000000078.000072971.html"
   },
+  "checkedAt": "2026-10"
+ },
+ "7130001072787": {
+  "rounds": [
+   {
+    "date": "2025-07",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 850,
+    "investors": [
+     "伊藤忠テクノロジーベンチャーズ株式会社",
+     "京都大学イノベーションキャピタル株式会社",
+     "三菱UFJキャピタル株式会社",
+     "SMBCベンチャーキャピタル株式会社",
+     "株式会社神戸大学キャピタル"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000163949.html",
+    "note": "2025年7月18日付の第三者割当増資"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "7130003005877": {
+  "rounds": [
+   {
+    "date": "2024-10",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "フューチャーベンチャーキャピタル株式会社（おおさか社会課題解決2号ファンド）",
+     "エンジェル投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000007.000135007.html",
+    "note": "金額非公表"
+   },
+   {
+    "date": "2025-07",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社リバネスキャピタル（ジャーミネーションファンド1号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000012.000135007.html",
+    "note": "金額非公表"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "7140001090053": {
@@ -10558,6 +13122,77 @@
   "note": "検索結果の要約に「2023年11月にシリーズAで2.5億円」との記載がある（FIRST CVC）が、当事者の発表は未確認",
   "checkedAt": "2026-10"
  },
+ "7180001155050": {
+  "rounds": [
+   {
+    "date": "2023-10",
+    "type": "融資（デット）",
+    "amount": 35,
+    "investors": [
+     "株式会社名古屋銀行",
+     "愛知信用金庫"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000131096.html"
+   },
+   {
+    "date": "2024-03",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 170,
+    "investors": [
+     "リアルテックホールディングス株式会社",
+     "株式会社OKBキャピタル"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000124.000036405.html",
+    "note": "投資家（UntroD）側の発表。ほか2社と合計1.7億円"
+   },
+   {
+    "date": "2025-10",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 340,
+    "investors": [
+     "UntroD Capital Japan株式会社",
+     "株式会社mint",
+     "名南コンサルティングネットワーク／MVC Limited Partnership",
+     "地域と人と未来株式会社（Central Japan Seed Fund）",
+     "株式会社OKBキャピタル",
+     "SMBCベンチャーキャピタル株式会社"
+    ],
+    "lead": "UntroD Capital Japan株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000016.000131096.html",
+    "note": "シリーズA 1stクローズ"
+   },
+   {
+    "date": "2026-01",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社イチネンホールディングス",
+     "名古屋中小企業投資育成株式会社",
+     "愛知信用金庫（融資）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000020.000131096.html",
+    "note": "シリーズA 2ndクローズ。この時点のシリーズA総額4.1億円"
+   },
+   {
+    "date": "2026-04",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "NEX-T Tokai Innovation Fund",
+     "めいぎんベンチャー1号ファンド",
+     "株式会社北國銀行（融資）",
+     "株式会社日本政策金融公庫（融資）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000022.000131096.html",
+    "note": "シリーズA 3rdクローズ（ファイナル）。シリーズA総額5.5億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "7290001070156": {
   "rounds": [
    {
@@ -10656,6 +13291,18 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000013.000063699.html",
     "note": "金額非公開"
+   },
+   {
+    "date": "2025-10",
+    "type": "第三者割当増資",
+    "amount": 300,
+    "investors": [
+     "肥銀キャピタル株式会社（肥銀ベンチャー2号）",
+     "株式会社再春館共創ラボラトリー",
+     "東洋製罐グループホールディングス株式会社"
+    ],
+    "source": "https://newscast.jp/news/1868370",
+    "note": "肥銀ベンチャー2号の新株予約権行使を含む総額3億円。累計調達11億円超"
    }
   ],
   "checkedAt": "2026-10"
@@ -10671,6 +13318,21 @@
    }
   ],
   "note": "資金調達の当事者発表は見当たらない。2023年11月のサイキンソーとの資本業務提携はメタジェンが出資する側。関連会社メタジェンセラピューティクス（別法人）の調達とは区別が必要",
+  "checkedAt": "2026-10"
+ },
+ "7400001015867": {
+  "rounds": [
+   {
+    "date": "2024-11",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "FVC Tohoku株式会社（Tohokuライフサイエンス・イノベーション投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000233.000011403.html",
+    "note": "投資家側（ミライドア／FVC）の発表。金額非公表"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "7700150008344": {
@@ -10813,6 +13475,37 @@
   ],
   "checkedAt": "2026-10"
  },
+ "8010001205309": {
+  "rounds": [
+   {
+    "date": "2024-08",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "Beyondge株式会社（Beyondge Capital）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000017.000075666.html",
+    "note": "金額非公表"
+   },
+   {
+    "date": "2024-10",
+    "type": "第三者割当増資",
+    "amount": 300,
+    "investors": [
+     "日本ベンチャーキャピタル株式会社",
+     "UntroD Capital Japan株式会社",
+     "住友商事株式会社",
+     "東芝デジタルソリューションズ株式会社",
+     "ZACROS株式会社",
+     "Bio Engineering Capital株式会社",
+     "Beyondge株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000021.000075666.html",
+    "note": "総額約3億円（2024年8月のBeyondge Capital分を含むとみられる）"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "8010001218153": {
   "rounds": [
    {
@@ -10854,6 +13547,18 @@
     "lead": "D3",
     "source": "https://prtimes.jp/main/html/rd/p/000000004.000071827.html",
     "note": "引受先D3の発表"
+   },
+   {
+    "date": "2025-05",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 650,
+    "investors": [
+     "DNX Ventures",
+     "DEEPCORE"
+    ],
+    "lead": "DNX Ventures",
+    "source": "https://corp-isip.com/posts/PressRelease_JP_2"
    }
   ],
   "checkedAt": "2026-10"
@@ -11120,6 +13825,33 @@
      "Remiges Ventures"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000093477.html"
+   },
+   {
+    "date": "2023-06",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 1060,
+    "investors": [
+     "Remiges Ventures",
+     "既存投資家および新規投資家"
+    ],
+    "lead": "Remiges Ventures",
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000093477.html",
+    "note": "優先株式に転換されるJ-KISS 2.1億円と合わせ12.7億円"
+   },
+   {
+    "date": "2023-12",
+    "round": "シリーズA（エクステンション）",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "大阪大学ベンチャーキャピタル株式会社",
+     "JICベンチャー・グロース・インベストメンツ株式会社",
+     "国立研究開発法人科学技術振興機構",
+     "京都大学イノベーションキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000093477.html",
+    "note": "新規4社によるエクステンション。シリーズA総額18.7億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -11193,6 +13925,63 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000003.000074104.html",
     "note": "2022年5月実施、10月発表"
+   },
+   {
+    "date": "2023-06",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 400,
+    "investors": [
+     "ジャフコ グループ株式会社",
+     "東京ウェルネスインパクトファンド",
+     "株式会社サムライインキュベート"
+    ],
+    "lead": "ジャフコ グループ、東京ウェルネスインパクトファンド",
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000074104.html",
+    "note": "シリーズA 1stクローズ"
+   },
+   {
+    "date": "2023-11",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 80,
+    "investors": [
+     "三菱UFJキャピタル株式会社",
+     "株式会社フジタ・イノベーション・キャピタル・東海東京インベストメント株式会社の共同運営ファンド",
+     "株式会社サムライインキュベート"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000074104.html",
+    "note": "シリーズA 2ndクローズ（シリーズA総額4.8億円）。NEDO DTSU採択（最大1.9億円）"
+   },
+   {
+    "date": "2025-08",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 1580,
+    "investors": [
+     "スパークス・アセット・マネジメント株式会社（未来創生3号）",
+     "みずほキャピタル株式会社",
+     "JICベンチャー・グロース・インベストメンツ株式会社",
+     "株式会社トーカイ",
+     "未来創造キャピタル株式会社",
+     "きらぼしキャピタル株式会社",
+     "株式会社フジタ・イノベーション・キャピタル"
+    ],
+    "lead": "スパークス・アセット・マネジメント、みずほキャピタル",
+    "source": "https://prtimes.jp/main/html/rd/p/000000011.000074104.html",
+    "note": "シリーズB 1stクローズ"
+   },
+   {
+    "date": "2025-11",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "三井住友信託銀行株式会社",
+     "ごうぎんキャピタル株式会社（ごうぎんご縁結び1号）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000015.000074104.html",
+    "note": "シリーズB Final Close。シリーズB累計17.3億円、株式による累計23.5億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -11236,6 +14025,23 @@
    "source": "https://prtimes.jp/main/html/rd/p/000000020.000154525.html"
   },
   "note": "それ以前の調達（KUSABI等）の個別発表は見当たらない",
+  "checkedAt": "2026-10"
+ },
+ "8010401169525": {
+  "rounds": [
+   {
+    "date": "2024-09",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 250,
+    "investors": [
+     "松尾豊（東京大学教授）",
+     "レオス・キャピタルワークス株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000134768.html",
+    "note": "投融資・補助金を併せた累計調達額6.1億円。引受先はほかにもあり"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "8010601041269": {
@@ -11607,6 +14413,46 @@
   ],
   "checkedAt": "2026-10"
  },
+ "8011101095425": {
+  "rounds": [
+   {
+    "date": "2025-02",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 1350,
+    "investors": [
+     "JICベンチャー・グロース・インベストメンツ株式会社",
+     "ジャフコ グループ株式会社",
+     "三井住友海上キャピタル株式会社",
+     "株式会社サムライインキュベート",
+     "KISCO株式会社",
+     "みずほキャピタル株式会社",
+     "未来創造キャピタル株式会社",
+     "静岡キャピタル株式会社"
+    ],
+    "lead": "JICベンチャー・グロース・インベストメンツ株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000012.000121700.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "8011101102742": {
+  "rounds": [
+   {
+    "date": "2025-12",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "ANRI株式会社",
+     "East Ventures株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000018.000124207.html",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "8013201010701": {
   "note": "ピラティス・ヨガスタジオ運営。資金調達の発表は見当たらない（PR TIMESのRSSは2022年11月以降のみ確認）",
   "checkedAt": "2026-10",
@@ -11781,6 +14627,76 @@
      "白鳥製薬"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000004.000086500.html"
+   },
+   {
+    "date": "2023-12",
+    "type": "第三者割当増資",
+    "amount": 450,
+    "investors": [
+     "アクシル・キャピタル",
+     "UTC Investment（韓国）",
+     "大分ベンチャーキャピタル株式会社",
+     "三菱UFJキャピタル株式会社",
+     "SMBCベンチャーキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000008.000086500.html",
+    "note": "新規・既存投資家による総額約4.5億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "8040001124159": {
+  "rounds": [
+   {
+    "date": "2023-12",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 680,
+    "investors": [
+     "DBJキャピタル株式会社",
+     "岩渕薬品株式会社",
+     "ペプチドリーム株式会社",
+     "大正製薬株式会社",
+     "みずほキャピタル株式会社",
+     "大阪・関西万博活性化投資事業有限責任組合",
+     "グリーンコア株式会社",
+     "白鳥製薬株式会社"
+    ],
+    "lead": "DBJキャピタル株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000133911.html",
+    "note": "シリーズA 6.8億円。J-KISS型新株予約権分と合わせ総額9.3億円"
+   },
+   {
+    "date": "2025-01",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 1500,
+    "investors": [
+     "JICベンチャー・グロース・インベストメンツ株式会社",
+     "アクシル・キャピタル・パートナーズ2号LLP",
+     "DBJキャピタル株式会社",
+     "ペプチドリーム株式会社"
+    ],
+    "lead": "JICベンチャー・グロース・インベストメンツ株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000133911.html",
+    "note": "シリーズB ファーストクローズ"
+   },
+   {
+    "date": "2025-04",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 2050,
+    "investors": [
+     "株式会社慶應イノベーション・イニシアティブ",
+     "ロッテホールディングス株式会社",
+     "三井住友信託銀行",
+     "日本グロースキャピタル投資法人（野村スパークス・インベストメント）",
+     "三菱UFJライフサイエンス4号投資事業有限責任組合",
+     "大阪・関西万博活性化投資事業有限責任組合",
+     "ちばぎんキャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000133911.html",
+    "note": "シリーズB セカンド・サードクローズ20.5億円（シリーズB計35.5億円）。既存株主の参加もあり"
    }
   ],
   "checkedAt": "2026-10"
@@ -11826,6 +14742,46 @@
   "note": "2024年以降の調達発表は見当たらない",
   "checkedAt": "2026-10"
  },
+ "8120001194755": {
+  "rounds": [
+   {
+    "date": "2025-12",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 400,
+    "investors": [
+     "HIRAC FUND2号投資事業有限責任組合",
+     "加賀電子株式会社",
+     "紀陽成長支援2号投資事業有限責任組合",
+     "京信イノベーションC3号投資事業有限責任組合",
+     "KCAPベンチャー1号投資事業有限責任組合",
+     "ごうぎんご縁結び1号投資事業有限責任組合",
+     "佐銀ベンチャーキャピタル投資事業有限責任組合第六号"
+    ],
+    "lead": "HIRAC FUND",
+    "source": "https://prtimes.jp/main/html/rd/p/000000007.000104872.html",
+    "note": "企業9社と個人投資家が引受"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "8120001249798": {
+  "rounds": [
+   {
+    "date": "2025-05",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "ジャフコ グループ株式会社",
+     "大阪大学ベンチャーキャピタル株式会社"
+    ],
+    "source": "https://atransen.com/news/atransen-pharma%E3%80%81%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BAa%E3%81%A7%E7%B7%8F%E9%A1%8D11-3%E5%84%84%E5%86%86%E3%81%AE%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94%E3%82%92%E5%AE%8C%E4%BA%86/",
+    "note": "第三者割当増資とAMED創薬ベンチャーエコシステム強化事業の補助金を合わせシリーズA総額11.3億円（内訳非公表）。追加補助金枠最大48億円"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "8120101071714": {
   "rounds": [
    {
@@ -11865,6 +14821,18 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000005.000036661.html",
     "note": "約8億円"
+   },
+   {
+    "date": "2025-09",
+    "round": "シリーズD",
+    "type": "第三者割当増資",
+    "amount": 800,
+    "investors": [
+     "三井住友海上キャピタル株式会社"
+    ],
+    "lead": "三井住友海上キャピタル株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000012.000036661.html",
+    "note": "ベンチャーキャピタルなどが引受"
    }
   ],
   "checkedAt": "2026-10"
@@ -11898,6 +14866,21 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000014.000072915.html",
     "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "8140001022724": {
+  "rounds": [
+   {
+    "date": "2024-05",
+    "type": "第三者割当増資",
+    "amount": 338.6,
+    "investors": [
+     "Athos Asia Event Driven Master Fund"
+    ],
+    "source": "https://www.carnabio.com/output/irnews/1533_ja.pdf",
+    "note": "上場企業の第三者割当増資（2024年5月15日決議、払込5月31日）。同年9月にも同ファンドに約3.5億円の第三者割当"
    }
   ],
   "checkedAt": "2026-10"
@@ -11944,6 +14927,19 @@
      "KTX"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000112397.html",
+    "note": "金額非公表"
+   },
+   {
+    "date": "2024-05",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "リアルテックホールディングス株式会社",
+     "三菱UFJキャピタル株式会社",
+     "池田泉州キャピタル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000112397.html",
     "note": "金額非公表"
    }
   ],
@@ -12218,6 +15214,39 @@
   "note": "DBの既存値「累計43億円」は古い可能性。2026年6月発表で累計約55.6億円",
   "checkedAt": "2026-10"
  },
+ "8290001091911": {
+  "rounds": [
+   {
+    "date": "2024-02",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "Yazawa Ventures",
+     "複数名の個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000013.000073911.html",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "8360001034136": {
+  "rounds": [
+   {
+    "date": "2026-01",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "OSTC投資事業有限責任組合（おきなわイノベーション創出ファンド）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000010.000152481.html",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "8430001081550": {
   "rounds": [
    {
@@ -12308,6 +15337,20 @@
    }
   ],
   "note": "2025年6月にBio Engineering Capitalと資本提携（https://www.chcp.jp/news/news-4704/、出資の方向は不明確のためラウンドに含めず）",
+  "checkedAt": "2026-10"
+ },
+ "9010001238596": {
+  "rounds": [
+   {
+    "date": "2024-09",
+    "type": "第三者割当増資",
+    "amount": 150,
+    "investors": [
+     "国内外の個人投資家"
+    ],
+    "source": "https://legal-doctor.com/press20240902/"
+   }
+  ],
   "checkedAt": "2026-10"
  },
  "9010005028548": {
@@ -12476,6 +15519,21 @@
   ],
   "checkedAt": "2026-10"
  },
+ "9010401147579": {
+  "rounds": [
+   {
+    "date": "2023-12",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "TIS株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000007.000055846.html",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "9010401149154": {
   "rounds": [
    {
@@ -12576,6 +15634,25 @@
   "note": "資金調達の発表なし",
   "checkedAt": "2026-10",
   "rounds": []
+ },
+ "9010403018092": {
+  "rounds": [
+   {
+    "date": "2024-08",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社ANOBAKA",
+     "株式会社ゴーリスト",
+     "エンジェル投資家6名"
+    ],
+    "lead": "株式会社ANOBAKA",
+    "source": "https://prtimes.jp/main/html/rd/p/000000007.000097498.html",
+    "note": "金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
  },
  "9010403024990": {
   "rounds": [
@@ -12912,6 +15989,21 @@
   ],
   "checkedAt": "2026-10"
  },
+ "9011101105744": {
+  "rounds": [
+   {
+    "date": "2025-12",
+    "type": "その他",
+    "amount": null,
+    "investors": [
+     "株式投資型クラウドファンディング（FUNDINNO）の投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000043304.html",
+    "note": "株式投資型クラウドファンディングの募集開始の発表。調達額は記載なし"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "9013301028403": {
   "rounds": [
    {
@@ -13033,6 +16125,56 @@
      "エンジェル投資家"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000081835.html"
+   },
+   {
+    "date": "2025-08",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 300,
+    "investors": [
+     "株式会社ロッテホールディングス（CVC）",
+     "JMTCキャピタル合同会社",
+     "株式会社エスケーエレクトロニクス",
+     "グリーンコア株式会社"
+    ],
+    "lead": "株式会社ロッテホールディングス（CVC）",
+    "source": "https://prtimes.jp/main/html/rd/p/000000010.000081835.html",
+    "note": "シリーズA ファーストクローズ。既存株主からのJ-KISS型新株予約権を含め総額約3億円"
+   },
+   {
+    "date": "2026-01",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "京都大学イノベーションキャピタル株式会社",
+     "株式会社ちば興銀キャピタルパートナーズ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000013.000081835.html",
+    "note": "シリーズA セカンドクローズ。金額非公表"
+   },
+   {
+    "date": "2026-04",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "トヨタ・コニック株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000017.000081835.html",
+    "note": "シリーズA サードクローズ。金額非公表"
+   },
+   {
+    "date": "2026-06",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "ほくほくキャピタル株式会社",
+     "個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000018.000081835.html",
+    "note": "シリーズA フォースクローズ。金額非公表"
    }
   ],
   "checkedAt": "2026-10"
@@ -13244,6 +16386,17 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000097613.html",
     "note": "2022年3月9日に追加投資"
+   },
+   {
+    "date": "2025-01",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "investors": [
+     "中信ベンチャーキャピタル株式会社（中信ベンチャー・投資ファンド7号）",
+     "金融機関（融資）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000125075.html",
+    "note": "投資と融資を合わせ約1億円。発表時の代表は栃原洋介"
    }
   ],
   "checkedAt": "2026-10"
@@ -13259,6 +16412,19 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000055.000051435.html",
     "note": "引受先OUVCの発表"
+   },
+   {
+    "date": "2025-02",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 350,
+    "investors": [
+     "株式会社慶應イノベーション・イニシアティブ",
+     "京都大学イノベーションキャピタル株式会社",
+     "グリーンコア株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000155219.html",
+    "note": "累計調達額約8.5億円。NEDO DTSU（STSフェーズ）にも採択。2026年6月に3.3億円の追加調達を発表"
    }
   ],
   "checkedAt": "2026-10"
@@ -13279,6 +16445,40 @@
     ],
     "source": "https://www.regenephro.co.jp/company/outline/",
     "note": "自社沿革に「シードラウンド第1回3.6億円の増資成功」（2020年）。月と投資家名はリスト（日経2020-06）による"
+   },
+   {
+    "date": "2024-10",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 2500,
+    "investors": [
+     "DCIパートナーズ株式会社（大和日台バイオベンチャー2号）",
+     "JICベンチャー・グロース・インベストメンツ株式会社",
+     "日本ベンチャーキャピタル株式会社",
+     "東北大学ベンチャーパートナーズ株式会社",
+     "Golden Asia Fund Ventures Ltd.",
+     "三井化学株式会社",
+     "グローバル・ブレイン株式会社",
+     "京都大学イノベーションキャピタル株式会社"
+    ],
+    "lead": "DCIパートナーズ株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000129258.html",
+    "note": "合計25億円（リスト記載）。引受先はほかにもあり"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "9130001069971": {
+  "rounds": [
+   {
+    "date": "2024-12",
+    "type": "J-KISS・転換社債",
+    "amount": 60,
+    "investors": [
+     "インキュベイトファンド株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000115619.html",
+    "note": "J-KISS型新株予約権6,000万円。累計調達額1.3億円"
    }
   ],
   "checkedAt": "2026-10"
@@ -13373,6 +16573,21 @@
   "note": "2018〜2022年のシリーズB・C（累計15億円→25億円の間）は当事者発表未確認",
   "checkedAt": "2026-10"
  },
+ "9270001009096": {
+  "rounds": [
+   {
+    "date": "2025-02",
+    "type": "資本業務提携",
+    "amount": null,
+    "investors": [
+     "株式会社ステムセル研究所"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000158155.html",
+    "note": "業務提携を目的とした出資受入れ。金額非公表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "9290001064395": {
   "rounds": [
    {
@@ -13438,6 +16653,46 @@
   ],
   "checkedAt": "2026-10"
  },
+ "9290001084377": {
+  "rounds": [
+   {
+    "date": "2025-07",
+    "type": "第三者割当増資",
+    "amount": 1250,
+    "investors": [
+     "Beyond Next Ventures株式会社",
+     "株式会社慶應イノベーション・イニシアティブ",
+     "国立研究開発法人科学技術振興機構",
+     "米国主要製薬企業",
+     "三菱UFJキャピタル株式会社（三菱UFJライフサイエンス3号）",
+     "既存投資家"
+    ],
+    "lead": "Beyond Next Ventures株式会社（日本からの投資をリード）",
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000108113.html",
+    "note": "第三者割当増資で合計12.5億円。三菱UFJキャピタルも追加出資を発表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "9290001102196": {
+  "rounds": [
+   {
+    "date": "2025-09",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 660,
+    "investors": [
+     "京都大学イノベーションキャピタル株式会社",
+     "京都キャピタルパートナーズ株式会社",
+     "QBキャピタル合同会社",
+     "中信ベンチャーキャピタル株式会社"
+    ],
+    "source": "https://arktustx.com/archives/377",
+    "note": "A種優先株のファーストクロージング。2026年7月にエクステンション（約6,000万円）を発表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
  "9330001029237": {
   "rounds": [
    {
@@ -13450,6 +16705,34 @@
     ],
     "source": "https://www.kumamoto-u.ac.jp/kenkyuu_sangakurenkei/sangakurenkei/kico/news_event/news/20220304-press",
     "note": "熊本大学の設立発表で大鵬イノベーションズからのシード調達を公表。金額非公表"
+   },
+   {
+    "date": "2024-05",
+    "type": "第三者割当増資",
+    "amount": 460,
+    "investors": [
+     "大鵬イノベーションズ合同会社",
+     "肥銀キャピタル株式会社",
+     "Diamond Medino Capital株式会社",
+     "三菱UFJキャピタル株式会社",
+     "住商ファーマインターナショナル株式会社"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000141458.html"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "9370001023376": {
+  "rounds": [
+   {
+    "date": "2024-11",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "FVC Tohoku株式会社（Tohokuライフサイエンス・イノベーション投資事業有限責任組合）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000232.000011403.html",
+    "note": "投資家側（ミライドア／FVC）の発表。金額非公表"
    }
   ],
   "checkedAt": "2026-10"
@@ -13465,6 +16748,36 @@
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000043.000014162.html",
     "note": "金額非公表。投資家側（MAKOTO）の発表"
+   }
+  ],
+  "checkedAt": "2026-10"
+ },
+ "9480001012161": {
+  "rounds": [
+   {
+    "date": "2024-08",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "investors": [
+     "株式会社産学連携キャピタル（AIAC）"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000147339.html",
+    "note": "金額非公表"
+   },
+   {
+    "date": "2026-04",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 120,
+    "investors": [
+     "産学連携1号投資事業有限責任組合",
+     "歯科関連事業会社（社名非公表）",
+     "あわぎんイノベーション投資事業有限責任組合",
+     "いよベンチャーファンド8号投資事業有限責任組合"
+    ],
+    "source": "https://amidex.co.jp/2026/04/22/",
+    "note": "累計エクイティ調達約1.7億円"
    }
   ],
   "checkedAt": "2026-10"
