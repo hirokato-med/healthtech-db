@@ -35,7 +35,7 @@ for (const o of outs) {
       // 会社設立の日付、Wikipedia、後年の資料からの逆算は開始時期に使わない（一次情報だけ）
       // 何の日付か（startBasis）があればそれで、なければ note で判断する
       const basis = u.startBasis ? u.startBasis : (u.note ?? '');
-      if (/^会社設立|会社の設立|設立日|法人設立|Wikipedia|ウィキペディア|逆算|予定|FDA|カナダ|米国|海外|根拠は報道|報道のみ|見出しのみ/.test(basis)) skippedFounding++;
+      if (/^会社設立|会社の設立|設立日|法人設立|Wikipedia|ウィキペディア|逆算|予定|FDA|カナダ|米国|海外|根拠は報道|報道のみ|見出しのみ|試作/.test(basis) || /見出しだけ|見出しのみ|報道が根拠|根拠は報道|試作/.test(u.note ?? '')) skippedFounding++;
       else if (u.startedAt !== s.startedAt) { s.startedAt = u.startedAt; s.startedYear = Number(u.startedAt.slice(0, 4)); started++; }
     }
     // 何の日付か（正式提供開始・β版・前の運営会社で開始など）と、開始が見つからないときの「提供を確認できた最も古い時点」
