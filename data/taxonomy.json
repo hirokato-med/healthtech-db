@@ -1,0 +1,2547 @@
+[
+ {
+  "category": "femtech",
+  "types": [
+   {
+    "slug": "femtech-cycle-tracking-app",
+    "name": "生理・妊活の記録アプリ",
+    "description": "生活者が生理日・基礎体温・不妊治療を記録し、予測や助言を受けるアプリ事業",
+    "examples": [
+     "生理予測・体調管理アプリ「ラルーン（Lalune）」",
+     "女性の健康管理サービス「カラダのキモチ」",
+     "ペアケア（LINEで生理管理・パートナー共有）",
+     "ninpath（不妊治療記録・管理アプリ）"
+    ]
+   },
+   {
+    "slug": "femtech-online-pill-menopause",
+    "name": "ピル・更年期のオンライン診療",
+    "description": "低用量ピルや更年期治療を、提携医がオンラインで診療し薬を配送する事業",
+    "examples": [
+     "スマルナ",
+     "メデリピル（オンラインピル診療）",
+     "更年期専門オンライン診療「Vivalle（ビバエル）」"
+    ]
+   },
+   {
+    "slug": "femtech-fertility-test-preservation",
+    "name": "妊孕性検査・卵子凍結",
+    "description": "AMH・子宮内フローラなどの検査キットや、卵子・精子の凍結保管を個人に提供",
+    "examples": [
+     "卵巣年齢チェックキット「F check」・不妊治療情報サイト「不妊治療net」",
+     "子宮内フローラ検査",
+     "卵子凍結保管サービス「Grace Bank」"
+    ]
+   },
+   {
+    "slug": "femtech-fertility-clinic-support",
+    "name": "不妊治療クリニック向け支援",
+    "description": "生殖医療クリニックに培養管理ソフト・患者アプリ・集患支援を提供する事業",
+    "examples": [
+     "不妊治療クリニック向けソフトウェア・DB「コウノトリAssist」（卵巣刺激〜培養のデータ管理、レジストリ登録自動化）",
+     "IVF患者向けアプリ（服薬指示・同意書回収等の一元管理）",
+     "不妊治療クリニック向けマーケティング支援「vivola-Marketing」"
+    ]
+   },
+   {
+    "slug": "femtech-employee-benefit",
+    "name": "法人向けフェムテック福利厚生",
+    "description": "企業・健保向けに女性の健康支援プログラムや研修、ピル福利厚生を提供",
+    "examples": [
+     "法人向けフェムテック・健康経営アプリ「Wellflow（ウェルフロー）」",
+     "法人向けフェムテック福利厚生・DEI推進支援「carefull」（コンサル・セミナー・連携サービス割引）",
+     "mederi for biz（ピル福利厚生）",
+     "企業・健保向け「JoyHer企業版」（更年期課題の定量化と改善支援）"
+    ]
+   },
+   {
+    "slug": "femtech-expert-consultation",
+    "name": "妊活・女性の健康の専門家相談",
+    "description": "助産師・看護師などがLINEやオンラインで妊活・生理・更年期の相談に乗る",
+    "examples": [
+     "famione（ファミワン）",
+     "mederi生理相談室（LINE相談）",
+     "Lumino（プレ更年期〜更年期女性向けLINEヘルスケアアプリ）",
+     "はたらく妊婦の伴走型健康管理サポート「MamaWell」（パーソナル助産師×ヘルスデータ、法人・健保向け）"
+    ]
+   },
+   {
+    "slug": "femtech-postpartum-childcare",
+    "name": "産後ケア・育児支援",
+    "description": "産後ケア施設や助産師の訪問、授乳室設置などで出産後の母子を支える事業",
+    "examples": [
+     "YUARITO（産後ケア施設：日帰りDAY・宿泊STAY、日本橋浜町）",
+     "産後ケア施設の運営",
+     "設置型ベビーケアルーム「mamaro」シリーズ（mamaro／mamaro solana／mamaro sofa）"
+    ]
+   },
+   {
+    "slug": "femtech-product-ec",
+    "name": "フェムテック製品・サプリ販売",
+    "description": "女性向けの衛生用品・妊活デバイス・サプリを企画し、ECや店頭で販売する",
+    "examples": [
+     "fermata store（フェムテック製品EC・販売）",
+     "妊活デバイス kegg 国内販売",
+     "女性向けオリジナルサプリメント"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "mental-health",
+  "types": [
+   {
+    "slug": "mental-online-counseling",
+    "name": "オンラインカウンセリング",
+    "description": "公認心理師などのカウンセラーに個人がビデオやチャットで相談できるサービス",
+    "theme": "mental-chat",
+    "examples": [
+     "cotree（オンラインカウンセリング・コーチング）",
+     "うららか相談室（オンラインカウンセリング）",
+     "Unlace（チャット型オンラインカウンセリング）",
+     "Kimochi（公認心理師によるオンラインカウンセリング）"
+    ]
+   },
+   {
+    "slug": "mental-ai-selfcare-app",
+    "name": "AI・瞑想のセルフケアアプリ",
+    "description": "AI対話・認知行動療法・瞑想で、個人が日々こころを整えるアプリ事業",
+    "examples": [
+     "Awarefy（アウェアファイ）AIメンタルケアアプリ",
+     "emol（AIキャラクター「ロク」と話す感情記録・CBTアプリ）",
+     "muute（ミュート）AIジャーナリングアプリ",
+     "Relook（マインドフルネス瞑想アプリ）"
+    ]
+   },
+   {
+    "slug": "mental-corporate-eap",
+    "name": "企業向けEAP・社外相談窓口",
+    "description": "企業の従業員向けにカウンセリング窓口や精神科産業医による支援を提供",
+    "examples": [
+     "EAP・ストレスチェック（ピースマインド）",
+     "Smart相談室（法人向け社外相談窓口・EAP）",
+     "精神科特化の産業医サービス「スマート産業医」",
+     "intellect（企業向けメンタルヘルスアプリ・コーチング）日本展開"
+    ]
+   },
+   {
+    "slug": "mental-school-public-consult",
+    "name": "学校・自治体のこころの相談",
+    "description": "学校や自治体が児童・住民向けにAIチャットやSNSで悩み相談を受ける事業",
+    "examples": [
+     "メンタリ（学校向けAIこころのケア支援）",
+     "横須賀市の傾聴型AIチャット相談（ZIAI実証→「よこすかAIフレンド AIちゃん」）",
+     "自殺防止SNS相談事業（厚生労働省の補助事業）",
+     "あなたのいばしょ（24時間チャット相談）"
+    ]
+   },
+   {
+    "slug": "mental-dtx-neurotech",
+    "name": "メンタル領域のデジタル治療・脳波",
+    "description": "うつ等に向けたVR・ゲーム型療法や、脳波計測デバイスを開発する事業",
+    "examples": [
+     "VRx（VRデジタル療法）",
+     "SPARX日本版（認知行動療法を学ぶRPG）",
+     "ウェアラブル脳波計（VIE EEG Headphone／脳波イヤホン）と脳波解析モジュール・ソフトウェア"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "dental",
+  "types": [
+   {
+    "slug": "dental-aligner-d2c",
+    "name": "マウスピース矯正（D2C）",
+    "description": "来院を減らしたマウスピース矯正を、生活者に直接・提携歯科経由で提供する",
+    "examples": [
+     "Oh my teeth（通わないマウスピース矯正）",
+     "DPEARL（ディパール）マウスピース型歯科矯正",
+     "マウスピース矯正事業「マウスピース矯正ローコスト」（歯科技工所として設計・製造、医院へのマーケ支援）"
+    ]
+   },
+   {
+    "slug": "dental-whitening",
+    "name": "ホワイトニング・審美歯科",
+    "description": "歯科医院FCやホーム・オンラインでホワイトニングなど審美ケアを提供する",
+    "examples": [
+     "ホワイトエッセンス（歯科医院FC：ホワイトニング・クリーニング）",
+     "Oh my teeth Whitening / デュアルホワイトニング",
+     "オンライン診療・医療用ホワイトニング「Magic Whitening」（サブスク）"
+    ]
+   },
+   {
+    "slug": "dental-clinic-system",
+    "name": "歯科医院向け予約・業務システム",
+    "description": "歯科医院に予約・患者管理・リコール・勤怠などのクラウドを提供する事業",
+    "examples": [
+     "Apotool & Box（歯科予約・患者管理システム）",
+     "ジニー（歯科医院向け患者管理システム）",
+     "EPARK歯科",
+     "Dentry byGMO（歯科特化型予約管理システム）"
+    ]
+   },
+   {
+    "slug": "dental-lab-digital",
+    "name": "歯科技工・デジタル補綴",
+    "description": "歯科技工所向けクラウドやCAD、デジタル義歯の設計製造を提供する事業",
+    "examples": [
+     "歯科技工基幹業務クラウド「エミウム クラウド技工」",
+     "国産AIクラウドCAD「エミウム クラウドCAD」",
+     "デジタルデンチャー（Cloud Fitシリーズ）の企画・製造・提供"
+    ]
+   },
+   {
+    "slug": "dental-oralcare-device",
+    "name": "オーラルケア製品・デバイス",
+    "description": "電動・ロボット歯ブラシやケア用品、セルフケアアプリを生活者に届ける",
+    "examples": [
+     "口臭が測れるスマート電動歯ブラシ「NOVENINE SMASH」",
+     "全自動ロボット歯ブラシ「g.eN（ジェン）」（本体・専用ブラシ等の販売）",
+     "Oh my teeth Home（オーラルケア商品）",
+     "myDental（セルフケアアプリ）"
+    ]
+   },
+   {
+    "slug": "dental-visiting-checkup",
+    "name": "訪問歯科・口腔健診",
+    "description": "在宅・施設への訪問歯科や、企業・自治体向けの口腔健診を支える事業",
+    "examples": [
+     "訪問歯科DX「オクチミル」",
+     "企業・自治体向け口腔健診プログラム、歯科医院DX支援",
+     "デンタルIQチェック（予防型歯科保健事業）"
+    ]
+   },
+   {
+    "slug": "dental-patient-media",
+    "name": "歯科の集患メディア",
+    "description": "生活者向けに歯科医院・歯科医師の情報を載せ、医院の集患を支えるサイト",
+    "examples": [
+     "インプラントネット（歯科ポータル）",
+     "歯医者さんネット",
+     "Doctorbook（歯科医院・歯科医師情報サイト）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "home-medical",
+  "types": [
+   {
+    "slug": "home-medical-emr",
+    "name": "在宅医療向け電子カルテ",
+    "description": "訪問診療を行う医療機関に、外出先で使えるクラウドカルテを提供する事業",
+    "examples": [
+     "homis（在宅医療用クラウド型カルテ）",
+     "モバカルネット（movacal.net）在宅医療対応クラウド型電子カルテ"
+    ]
+   },
+   {
+    "slug": "home-medical-oncall-service",
+    "name": "在宅医向け夜間オンコール代行",
+    "description": "在宅医療機関の夜間・休日の電話一次受けや往診を代わりに担う事業",
+    "examples": [
+     "在宅医向け夜間・休日往診支援（当直連携サービス「バディ往診」）",
+     "夜間休日コールの一次受け「バディコールセンター」",
+     "在宅医療コールセンター・夜間当番医サービス"
+    ]
+   },
+   {
+    "slug": "home-medical-office-bpo",
+    "name": "在宅医療の事務・経営支援",
+    "description": "在宅医療機関のレセプト算定・書類作成の代行や経営コンサルを提供する",
+    "examples": [
+     "在宅医療事務BPO（算定・レセプト代行）",
+     "在宅医療クリニック向け経営・診療支援コンサルティング",
+     "在宅医療機関・介護事業者向け経営サポート事業（メディパス）"
+    ]
+   },
+   {
+    "slug": "home-medical-care-coordination",
+    "name": "多職種連携・訪問計画ツール",
+    "description": "医師・看護・介護の多職種が患者情報を共有し、訪問ルートを組むツール",
+    "examples": [
+     "医療介護専用SNS「メディカルケアステーション（MCS）」",
+     "ZEST（訪問スケジュール・ルート自動作成）",
+     "ZEST MEET（多職種連携）"
+    ]
+   },
+   {
+    "slug": "home-medical-therapy",
+    "name": "在宅酸素・在宅透析などの療法",
+    "description": "在宅酸素や腹膜透析など在宅療法の機器提供と遠隔管理を担う事業",
+    "examples": [
+     "在宅医療（在宅酸素療法・在宅人工呼吸・CPAP等）",
+     "在宅腹膜透析の遠隔管理システム「PD Doctor's Eye」",
+     "腹膜透析（在宅腎不全治療）"
+    ]
+   },
+   {
+    "slug": "home-medical-hospice-housing",
+    "name": "ホスピス・医療対応型住宅",
+    "description": "終末期・難病の人に看護付きの住まいを提供する医療対応型の住宅事業",
+    "examples": [
+     "ホスピス事業（医心館：慢性期・終末期の医療対応型有料老人ホーム＋訪問看護・介護）",
+     "PDハウス（パーキンソン病専門の有料老人ホーム）",
+     "ホスピス事業（ホスピス型住宅）"
+    ]
+   },
+   {
+    "slug": "home-medical-selfpay-rehab",
+    "name": "保険外リハビリ",
+    "description": "保険の期限後の脳卒中後遺症などに、自費で集中リハビリを提供する事業",
+    "examples": [
+     "保険外リハビリ施設「脳梗塞リハビリセンター」",
+     "成果報酬型リハビリ施設「mediVRリハビリテーションセンター」",
+     "保険外（自費）訪問リハビリ"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "medical-cosmetic",
+  "types": [
+   {
+    "slug": "cosmetic-review-booking-app",
+    "name": "美容医療の口コミ・予約アプリ",
+    "description": "生活者が症例写真や口コミを見て、美容クリニックを比較・予約できるアプリ",
+    "examples": [
+     "トリビュー（TRIBEAU）美容医療口コミ予約アプリ",
+     "ルクモ（LUCMO）美容整形の写真口コミ・予約アプリ",
+     "カンナムオンニ（日本版）美容医療比較・予約アプリ",
+     "キレイパス（美容医療チケット・予約サイト）"
+    ]
+   },
+   {
+    "slug": "cosmetic-clinic-saas",
+    "name": "自由診療クリニック向けSaaS",
+    "description": "美容・自由診療クリニックに予約・カルテ・会計・CRMを一体で提供する",
+    "examples": [
+     "キレイパスコネクト byGMO（自由診療クリニック向け予約・カルテ・会計一体型）",
+     "B4A（美容・自由診療クリニック向け予約システム・電子カルテ）",
+     "medicalforce（自由診療クリニック向けオールインワンSaaS・電子カルテ）"
+    ]
+   },
+   {
+    "slug": "cosmetic-online-dermatology",
+    "name": "オンライン美容皮膚科",
+    "description": "肌の悩みをオンラインで診療し、医療用スキンケア薬を届ける自由診療事業",
+    "examples": [
+     "オンライン美肌治療サービス「ANS.（アンス）」",
+     "医療DX事業（パナソニックと共同開発の肌ケアAIアシスタント「AIスキンちゃん」等）"
+    ]
+   },
+   {
+    "slug": "cosmetic-hair-wig",
+    "name": "薄毛治療・ウィッグ",
+    "description": "AGAのオンライン処方や、増毛・医療用ウィッグを提供する薄毛関連事業",
+    "examples": [
+     "メンズ スヴェンソン（男性向けウィッグ・増毛）",
+     "レディス スヴェンソン（女性・医療用ウィッグ）",
+     "ヘルスケアEC・AGAブランド「HAIRTECT」",
+     "AGAオンライン処方"
+    ]
+   },
+   {
+    "slug": "cosmetic-clinic-business-support",
+    "name": "美容クリニックの開業・集客支援",
+    "description": "美容クリニックの開業・運営コンサルや人材紹介、広告運用を支援する",
+    "examples": [
+     "美容クリニック開業・運営コンサルティング",
+     "美容クリニック特化型人材紹介（AguNurse）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "first-aid",
+  "types": [
+   {
+    "slug": "ems-hospital-information",
+    "name": "救急隊と病院の情報連携",
+    "description": "消防・救急隊と医療機関が搬送患者の情報をタブレット等で共有するシステム",
+    "examples": [
+     "救急医療情報システム「Smart119」",
+     "NSER mobile（救急医療DX・救急隊と病院の情報連携）",
+     "JoinTriage（救急搬送トリアージ）"
+    ]
+   },
+   {
+    "slug": "emergency-er-icu-system",
+    "name": "救急外来・集中治療の部門システム",
+    "description": "救急外来やICUの記録・情報共有と、遠隔からの集中治療支援を提供する",
+    "examples": [
+     "NEXT Stage ER（救急外来部門システム）",
+     "遠隔ICUサポートサービス（遠隔集中治療支援）",
+     "NEXT Stage ICU / Dr.car・Dr.heli / CONNECT / Oncology"
+    ]
+   },
+   {
+    "slug": "private-ambulance-event-aid",
+    "name": "民間救急・イベント救護",
+    "description": "民間救急車・介護タクシーや、スポーツ大会・旅行への看護師派遣を担う",
+    "examples": [
+     "ドコケア（外出支援）",
+     "おうちのケアタクシー（民間救急・介護タクシー）",
+     "ALL SPORTS NURSE（スポーツ救護）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "sleep",
+  "types": [
+   {
+    "slug": "sleep-measurement-test",
+    "name": "睡眠の計測・検査",
+    "description": "脳波計や指輪型センサーで睡眠や無呼吸を測り、医療機関・企業に提供する",
+    "examples": [
+     "脳波睡眠計測サービス「InSomnograf」（医療機関・健診施設・法人向け、個人申込も可）",
+     "保険診療向け睡眠評価装置「ナイトグラフ」",
+     "睡眠時無呼吸症候群（SAS）スクリーニング検査レポート（クラウド）・法人向け健康起因事故対策"
+    ]
+   },
+   {
+    "slug": "sleep-corporate-program",
+    "name": "企業向け睡眠改善プログラム",
+    "description": "従業員の睡眠を計測・指導し、健康経営として生産性改善を支援する事業",
+    "examples": [
+     "睡眠データによる健康経営支援「O:SLEEP（オースリープ）」",
+     "Biz Sleep（企業向け睡眠改善プログラム）",
+     "企業向け睡眠コンサルティング"
+    ]
+   },
+   {
+    "slug": "sleep-goods-device",
+    "name": "快眠グッズ・睡眠デバイス",
+    "description": "寝具・リカバリーウェアや呼吸・脳波デバイスで、個人の睡眠を良くする",
+    "examples": [
+     "ブレインスリープ 寝具（ピロー・マットレス・掛け布団等）",
+     "深呼吸誘発・習慣化デバイス「シンコキュウ」",
+     "EarBrain"
+    ]
+   },
+   {
+    "slug": "sleep-app-insomnia-dtx",
+    "name": "睡眠アプリ・不眠症治療アプリ",
+    "description": "睡眠を記録するアプリや、医師が処方する不眠症向けの治療用アプリ",
+    "examples": [
+     "不眠症治療用アプリ 販売提携（サスメド「Medcle」の国内販売権）",
+     "熟睡アラーム（睡眠アプリ）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "medical-dx",
+  "types": [
+   {
+    "slug": "clinic-reservation-queue",
+    "name": "クリニック予約・順番受付",
+    "description": "クリニックにWeb予約・順番待ち・待ち時間表示のクラウドを提供する事業",
+    "theme": "clinic-booking",
+    "examples": [
+     "クラウド診療予約・順番受付システム「アイチケット」",
+     "3Bees（スリービーズ）診療予約・順番管理",
+     "デジスマ診療（旧エムスリーデジカルスマート診療）",
+     "EPARKクリニック・病院"
+    ]
+   },
+   {
+    "slug": "web-ai-monshin",
+    "name": "WEB問診・AI問診",
+    "description": "患者が来院前にスマホで問診を入力し、カルテ連携まで行う医療機関向けツール",
+    "examples": [
+     "ユビーAI問診",
+     "クリニック向けWEB問診「メルプWEB問診」・患者向けアプリ「メルプ」",
+     "Symview（シムビュー）WEB問診",
+     "今日の問診票"
+    ]
+   },
+   {
+    "slug": "ai-phone-reception",
+    "name": "AI電話・AI受付",
+    "description": "医療機関への電話や問い合わせ、受付対応をAIが自動で担うサービス",
+    "examples": [
+     "SuguDesk（医療機関向けAI受付・AIチャット）",
+     "AI電話・受入コールAI",
+     "medigle AI電話",
+     "1.Talk AI Agent"
+    ]
+   },
+   {
+    "slug": "clinic-self-checkout",
+    "name": "自動精算・会計システム",
+    "description": "医療機関の会計をセミセルフレジ・自動精算機や後払い決済で省力化する事業",
+    "examples": [
+     "医療機関向けセミセルフレジ・自動精算機「ハヤレジ」シリーズ",
+     "医療機関向けセミセルフレジOWEN",
+     "ゼロマチ（後払い決済付き医療機関予約システム）"
+    ]
+   },
+   {
+    "slug": "ai-medical-documentation",
+    "name": "AI音声カルテ・文書作成",
+    "description": "診察の会話や記録から、AIがカルテ・紹介状などの医療文書を作る事業",
+    "examples": [
+     "medimo（会話からカルテを作成するAI）",
+     "NEXT Stage Document Assistant（生成AI医療文書作成）",
+     "GENSHI Voice（医療用音声認識）",
+     "medicalforce intelligence（AI機能群・AI音声カルテ）"
+    ]
+   },
+   {
+    "slug": "patient-explanation-consent",
+    "name": "患者説明・電子同意書",
+    "description": "入院・検査の説明動画や電子同意書で、病院の患者説明を効率化するツール",
+    "examples": [
+     "MediOS（患者対応DX・インフォームドコンセント支援プラットフォーム）",
+     "ポケさぽ（患者説明DXシステム）",
+     "カミゼロ（電子同意書システム）"
+    ]
+   },
+   {
+    "slug": "clinical-communication",
+    "name": "医療者間コミュニケーション",
+    "description": "院内・地域の医療者がチャットや画像共有で連絡し合う専用ツール・端末",
+    "examples": [
+     "Join（医療関係者間コミュニケーション）",
+     "メドコム（医療機関専用スマートフォン）",
+     "メディラインワークプレイス（医療用チャット）",
+     "Dr.JOY（医療機関向け業務効率化プラットフォーム）"
+    ]
+   },
+   {
+    "slug": "medical-claims-bpo",
+    "name": "医療事務・レセプトのAI代行",
+    "description": "レセプト作成・点検や医療事務を、AIと遠隔スタッフで代行する事業",
+    "examples": [
+     "MEBAIS リモートレセ（レセプト代行）",
+     "MEBAISアシスト for 医療事務（AI医療事務）",
+     "診療報酬サポートAI細谷くん",
+     "Reze（AIレセプト業務支援SaaS）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "pharmacy-dx",
+  "types": [
+   {
+    "slug": "electronic-medication-notebook",
+    "name": "電子お薬手帳・服薬支援",
+    "description": "患者が調剤履歴や服薬を記録し、薬局と連絡できる電子お薬手帳・服薬支援",
+    "theme": "medication-support",
+    "examples": [
+     "harmo（ハルモ）おくすり手帳",
+     "EPARKお薬手帳",
+     "お薬手帳プラス",
+     "Pocket Musubi（おくすり連絡帳）"
+    ]
+   },
+   {
+    "slug": "pharmacy-erecord-system",
+    "name": "電子薬歴・調剤レセコン",
+    "description": "薬局向けに服薬指導・薬歴記録やレセプト作成のシステムを提供する事業",
+    "examples": [
+     "Musubi",
+     "CARADA 電子薬歴 Solamichi（クラウド電子薬歴）",
+     "スマート薬歴GooCo（電子薬歴）",
+     "調剤システム（Recepty NEXT等）"
+    ]
+   },
+   {
+    "slug": "prescription-input-service",
+    "name": "処方箋入力代行・AI-OCR",
+    "description": "薬局の処方箋入力をAI-OCRや遠隔の事務員で代わりに行うサービス",
+    "examples": [
+     "precal（薬局向け処方箋入力代行）",
+     "薬師丸賢太（処方箋入力支援AI-OCR）",
+     "Pas-IS（薬局向け遠隔入力サービス）"
+    ]
+   },
+   {
+    "slug": "pharmacy-inventory-sharing",
+    "name": "薬局の在庫管理・余剰薬流通",
+    "description": "薬局の発注・在庫をAIで管理し、余った医薬品を薬局間で売買する仕組み",
+    "examples": [
+     "メドシェア（医薬品不動在庫シェアリング）",
+     "イヤクル（薬局間の余剰医薬品売買）",
+     "9lione（クリオネ）クラウド医薬品管理・医薬品流通改善DX",
+     "メドオーダー（調剤薬局向けAI発注在庫管理）"
+    ]
+   },
+   {
+    "slug": "online-pharmacy",
+    "name": "オンライン服薬指導・薬の配送",
+    "description": "ビデオで服薬指導し処方薬を自宅に届ける、オンライン薬局・アプリ事業",
+    "examples": [
+     "ミナカラ（オンライン薬局）",
+     "SOKUYAKU",
+     "クロンお薬サポート（curonお薬サポート）",
+     "オンライン薬局・処方せん薬宅配「とどくすり」（おかぴファーマシーシステム）"
+    ]
+   },
+   {
+    "slug": "pharmacy-patient-engagement",
+    "name": "薬局のLINE・集客支援",
+    "description": "薬局がLINEやAIで患者とつながり、処方箋受付やかかりつけ化を進める",
+    "examples": [
+     "つながる薬局（薬局向けLINE公式アカウント）",
+     "kakari",
+     "薬局受付AIエージェント（薬局特化の接客AI）",
+     "AI薬局ナビ（地域薬局向けAI検索最適化）"
+    ]
+   },
+   {
+    "slug": "pharmacy-chain-operation",
+    "name": "調剤薬局・ドラッグストア運営",
+    "description": "調剤薬局や調剤併設ドラッグストアを地域・全国で多店舗運営する小売事業",
+    "examples": [
+     "調剤併設型ドラッグストア（スギ薬局）",
+     "地域薬局運営（なの花薬局）",
+     "調剤薬局（阪神調剤薬局）",
+     "ドラッグストア（医薬品・化粧品・日用品）"
+    ]
+   },
+   {
+    "slug": "pharmacy-home-visit",
+    "name": "在宅訪問の薬剤管理",
+    "description": "薬剤師が在宅患者を訪問して薬を届け、服薬を管理する在宅調剤事業",
+    "examples": [
+     "在宅医療（薬剤師の在宅訪問）",
+     "在宅医療（訪問調剤）",
+     "在宅患者向け医薬品配送管理システム"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "diagnostic-support",
+  "types": [
+   {
+    "slug": "ecg-heart-sound-ai",
+    "name": "心電図・心音のAI解析",
+    "description": "心電図や心音をAIで解析し、不整脈や心疾患の発見を医師に支援する",
+    "examples": [
+     "SmartRobin AIシリーズ（心電図AI解析）",
+     "SmartPAFin",
+     "心音図検査装置「Cardio-EGG（AMI-SSS01シリーズ）」（超聴診器）"
+    ]
+   },
+   {
+    "slug": "cognitive-function-assessment",
+    "name": "認知機能の評価",
+    "description": "視線計測や音声などで認知機能を手早く評価し、早期発見につなげる事業",
+    "examples": [
+     "アイトラッキング式認知機能評価の医療機器プログラム「ミレボ」",
+     "一般向け認知機能評価アプリ「MIRUDAKE」／ミルダケケア",
+     "認知機能チェックAI「ONSEI」等（日本テクトシステムズ）"
+    ]
+   },
+   {
+    "slug": "pathology-cytology-ai",
+    "name": "病理・細胞診のデジタル化とAI",
+    "description": "病理標本や細胞診をデジタル化し、AIで判定を支援する医療機関向け事業",
+    "examples": [
+     "デジタル細胞診（スキャナ「CYBO Scan」・ビューア「CYBO View」）",
+     "子宮頸部細胞診AI「CYBO AI Cervix」",
+     "PidPort（病理AIクラウドシステム）"
+    ]
+   },
+   {
+    "slug": "cancer-genome-analysis",
+    "name": "がんゲノム検査・解析",
+    "description": "がん遺伝子パネル検査の受託解析や、ゲノム情報の解釈ソフトを提供する",
+    "examples": [
+     "がんゲノムプロファイリングシステム「GenMineTOP」の受託解析（登録衛生検査所・日野ラボラトリー）",
+     "Chrovis（ゲノム・生体情報解析のトータルソリューション）",
+     "Opal Clinical（Fabric Genomics）ゲノム解析ソフト"
+    ]
+   },
+   {
+    "slug": "disease-specific-ai-samd",
+    "name": "疾患特化のAI診断プログラム",
+    "description": "頭痛・せん妄・パーキンソン病など特定疾患をAIで判定する医療機器を開発",
+    "examples": [
+     "頭痛AI診断プログラム",
+     "高齢入院患者のせん妄を対象としたAI医療機器の開発",
+     "脳MRIからパーキンソン病等を早期発見するプログラム医療機器（開発中）",
+     "不随意運動様症状検出アプリ「Piclog」"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "direct-to-consumer",
+  "types": [
+   {
+    "slug": "d2c-selfpay-online-prescription",
+    "name": "自由診療のオンライン処方",
+    "description": "AGA・ED・ダイエットなどを自由診療でオンライン診療し、薬を直販する",
+    "examples": [
+     "DMMオンラインクリニック",
+     "med. powered by Rakuten",
+     "Oops（ウープス）"
+    ]
+   },
+   {
+    "slug": "d2c-diet-coaching",
+    "name": "ダイエット・食事コーチング",
+    "description": "管理栄養士やアプリが個人の食事・行動を指導する有料の減量サービス",
+    "examples": [
+     "ダイエットコーチングアプリ「Noom」日本語版",
+     "管理栄養士による食生活コーディネート「ダイエットプラス」",
+     "管理栄養士によるパーソナル食事指導サービス「CHONPS」"
+    ]
+   },
+   {
+    "slug": "d2c-personalized-supplement",
+    "name": "パーソナライズサプリ・漢方",
+    "description": "体質や検査結果に合わせたサプリや漢方を、定期便で個人に届ける事業",
+    "examples": [
+     "FUJIMI（パーソナライズサプリメント）",
+     "LINEで薬剤師に相談できるパーソナル漢方「わたし漢方」",
+     "VitaNote FOR（パーソナライズサプリ・プロテイン）",
+     "Revol（リボル）女性の貧血対策サプリ"
+    ]
+   },
+   {
+    "slug": "d2c-nutrition-food-brand",
+    "name": "完全栄養食・機能性食品",
+    "description": "栄養設計したパン・グミ・飲料などの健康食品ブランドをECで直販する",
+    "examples": [
+     "BASE BREAD（完全栄養のパン）",
+     "COMP（完全栄養食：パウダー・グミ・ブロック・ドリンク）",
+     "2foods（プラントベース・ヘルシーフードブランド）",
+     "菌ケアのスキンケア・サプリメント・食品（D2C）"
+    ]
+   },
+   {
+    "slug": "d2c-healthy-meal-delivery",
+    "name": "健康食の宅配",
+    "description": "栄養管理された冷凍弁当や高たんぱく食を、定期宅配で個人に届ける事業",
+    "examples": [
+     "nosh（ナッシュ）冷凍弁当の宅配",
+     "Muscle Deli（マッスルデリ）高タンパク食の宅配",
+     "健康ごちそう便 by ナッシュ"
+    ]
+   },
+   {
+    "slug": "d2c-recovery-wear",
+    "name": "リカバリーウェア・コンディショニング",
+    "description": "疲労回復をうたう一般医療機器のウェアや寝具などを個人に直販する",
+    "examples": [
+     "BAKUNE（リカバリーウェア等、一般医療機器）",
+     "TENTIAL（コンディショニング製品のウェルネスブランド）",
+     "ブレインスリープ ウェア（リカバリーウェア）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "medical-image",
+  "types": [
+   {
+    "slug": "imaging-diagnosis-ai",
+    "name": "画像診断支援AI",
+    "description": "CT・MRI・X線・内視鏡などの画像からAIが病変候補を示すプログラム医療機器",
+    "examples": [
+     "EIRL（エイル）シリーズ（医用画像診断支援AI）",
+     "gastroAI model-G（内視鏡画像診断支援AI・胃）",
+     "AI乳がん検診「Smaopi（スマオピ）」（乳房超音波×AIダブルチェック）",
+     "AI-CO（自動視野・眼撮影装置(OCT)用プログラム）"
+    ]
+   },
+   {
+    "slug": "imaging-pacs-cloud",
+    "name": "医用画像の管理・共有クラウド",
+    "description": "医療機関の画像を保管・閲覧・共有するPACSやクラウド基盤を提供する",
+    "examples": [
+     "クラウド型医療画像管理システム（PACS）「NOBORI」",
+     "LOOKREC（医療支援クラウド）",
+     "医療IT（医用画像情報システムSYNAPSE等）",
+     "iCOMBOX"
+    ]
+   },
+   {
+    "slug": "imaging-3d-xr",
+    "name": "3D画像・XRによる手術計画",
+    "description": "CT・MRI画像を3DやVRにし、手術計画や医学教育に使うソフトを提供",
+    "examples": [
+     "Holoeyes MD（医療用画像処理ソフトウェア）",
+     "医用画像3DCG手術シミュレーションソフト「GRID」",
+     "Holoeyes Edu（医療教育向けVR）"
+    ]
+   },
+   {
+    "slug": "imaging-brain-body-check",
+    "name": "画像解析による脳・体の健康可視化",
+    "description": "脳ドックやCTの画像を解析し、脳の萎縮や筋肉・脂肪量を健診者に示す",
+    "examples": [
+     "Brain Life Imaging",
+     "MVision health（全脳画像解析AIによる脳の健康状態の可視化）",
+     "MVision body（CT画像から脂肪量・筋肉量・筋質を可視化）",
+     "低線量肺がんCT検診"
+    ]
+   },
+   {
+    "slug": "imaging-modality",
+    "name": "画像診断装置（CT・MRI等）",
+    "description": "CT・MRI・X線・超音波などの画像診断装置を開発・販売・保守する事業",
+    "examples": [
+     "画像診断装置（CT・MRI・超音波・X線診断・核医学）",
+     "メディカルシステム（X線画像診断・内視鏡・超音波・CT/MRI・体外診断）",
+     "X線撮影装置・デジタルラジオグラフィ",
+     "COCOLY（乳房用リング型超音波画像診断装置）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "simple-inspection",
+  "types": [
+   {
+    "slug": "mail-in-blood-test",
+    "name": "郵送型の血液検査キット",
+    "description": "自宅で採った微量の血液を郵送し、健診並みの検査結果を個人に返す事業",
+    "examples": [
+     "指先1滴の郵送型血液検査「ketsuken」・「ketsuken オンライン診療」",
+     "郵送型がん・生活習慣病リスク検査キット「おうちでドック」",
+     "aiwell care（微量採血キット・血液検査）",
+     "セルフ健康チェック「スマホdeドック」"
+    ]
+   },
+   {
+    "slug": "dtc-genetic-test",
+    "name": "消費者向け遺伝子・エイジング検査",
+    "description": "唾液などで遺伝的な体質・疾病リスクや生物学的年齢を個人に調べる検査",
+    "examples": [
+     "一般消費者向け遺伝子検査「MYCODE（マイコード）」",
+     "ジーンクエスト ALL / LITE（個人向け遺伝子解析サービス）",
+     "エピクロック（DNAメチル化による生物学的年齢検査）"
+    ]
+   },
+   {
+    "slug": "gut-nutrition-test",
+    "name": "腸内フローラ・栄養の検査",
+    "description": "便・尿・汗などから腸内環境や栄養状態を測り、食生活の改善につなげる",
+    "examples": [
+     "マイキンソー（Mykinso：腸内フローラ検査）",
+     "VitaNote（郵送型栄養検査）",
+     "Nutrifull（栄養バランスを最適化する汗分析キット）"
+    ]
+   },
+   {
+    "slug": "cancer-risk-screening-test",
+    "name": "尿・唾液のがんリスク検査",
+    "description": "尿・唾液・呼気など負担の少ない検体で、がんのリスクを調べる一次検査",
+    "examples": [
+     "線虫がん一次スクリーニング検査「N-NOSE」",
+     "miSignal（マイシグナル）尿中マイクロRNAによるがんリスク検査",
+     "だ液がんリスク検査「サリバチェッカー」",
+     "唾液でわかる乳がんリスク検査「スキャンテスト 乳がんハイリスクサポート＋」ほか郵送型検査"
+    ]
+   },
+   {
+    "slug": "home-self-monitoring-test",
+    "name": "在宅でのセルフ測定・検査",
+    "description": "長時間心電図や便器後付けの尿センサーなど、自宅で続けて測る検査サービス",
+    "examples": [
+     "ホーム心臓ドック（在宅型の長時間心電図検査サービス）",
+     "トイレ後付け型の尿分析デバイスによる健康チェック「スマート体調チェック」",
+     "使い切りパッチ型心電計",
+     "セルフ健康チェック（予防医療事業）"
+    ]
+   },
+   {
+    "slug": "contract-lab-omics",
+    "name": "受託検査・オミクス解析",
+    "description": "企業・研究機関から検体分析や遺伝子・腸内細菌などの解析を受託する事業",
+    "examples": [
+     "受託検査事業（バイオマーカー・検体分析）",
+     "受託オミクス解析（次世代シーケンス データ取得・解析）",
+     "研究付加価値探索事業（腸内環境の受託研究）",
+     "AIプロテオミクス解析サービス（製品開発者・医療関係者・獣医畜産向け）"
+    ]
+   },
+   {
+    "slug": "next-gen-test-tech",
+    "name": "次世代の検査技術・原料開発",
+    "description": "唾液・呼気の検査法や高感度免疫測定、検査用原料を研究開発する事業",
+    "examples": [
+     "NANOTIS法（唾液による感染症デジタル検査技術）の研究開発",
+     "ThermaLISA法による高感度免疫診断（早期アルツハイマー病リスク検査の開発）",
+     "呼気VOCs解析によるAIがん検査（乳がん等）の研究開発",
+     "Therma-Max（独自合成の極小磁気ビーズ、検査用原材料）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "electronic-health-record",
+  "types": [
+   {
+    "slug": "clinic-cloud-emr",
+    "name": "診療所向けクラウド電子カルテ",
+    "description": "診療所にクラウド型の電子カルテやレセコン一体型システムを提供する事業",
+    "theme": "cloud-emr",
+    "examples": [
+     "エムスリーデジカル（クラウド電子カルテ）",
+     "CLIPLA（クリプラ）クラウド電子カルテ",
+     "きりんカルテ（完全無料クラウド型電子カルテ「カルテZERO」）",
+     "Medicom クラウドカルテ"
+    ]
+   },
+   {
+    "slug": "hospital-emr",
+    "name": "病院向け電子カルテ・基幹システム",
+    "description": "中小〜大病院にオーダリング・医事を含む電子カルテ基幹システムを提供",
+    "examples": [
+     "Henry（病院向けクラウド電子カルテ・レセコン一体型基幹システム）",
+     "MALL（病院・有床診療所向け電子カルテ、旧パシフィックシステム）とMALLクラウド",
+     "HOPE Cloud Chart（富士通のクラウド型電子カルテ）",
+     "Apollo AI（病院向けAI基幹システム）"
+    ]
+   },
+   {
+    "slug": "receipt-check-software",
+    "name": "レセプト点検・医事ソフト",
+    "description": "レセプトの誤りや査定リスクを点検するソフトや医事会計システムの事業",
+    "examples": [
+     "Mighty Checker EX（レセプト点検）",
+     "WebORCA（日医標準レセプトソフトのクラウド版）導入・サポート",
+     "レセプトニスト（レセプトチェックシステム）",
+     "査定・返戻分析Lite"
+    ]
+   },
+   {
+    "slug": "specialty-practice-emr",
+    "name": "整骨院・自由診療向けカルテ",
+    "description": "整骨院・鍼灸院や自由診療クリニックなど業態特化のカルテ・予約システム",
+    "examples": [
+     "リピクル（RIPICLE）鍼灸・整体・整骨院向け電子カルテ・予約管理",
+     "整骨院向け電子カルテ",
+     "スリーズプロ（整骨院向け予約管理・統合業務パッケージ）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "surgical-support",
+  "types": [
+   {
+    "slug": "surgical-robot",
+    "name": "手術支援ロボット",
+    "description": "外科医が操作して内視鏡手術などを行うロボットを開発・製造・販売する事業",
+    "examples": [
+     "手術支援ロボット「hinotori サージカルロボットシステム」",
+     "Saroa サージカルシステム（触覚を有する手術支援ロボット）",
+     "手術支援ロボットの開発・製造・販売",
+     "EMARO（内視鏡ホルダーロボット）"
+    ]
+   },
+   {
+    "slug": "surgical-ai",
+    "name": "手術支援AI",
+    "description": "手術映像をAIが解析し、臓器や血管を術中に示して外科医を支える事業",
+    "examples": [
+     "EUREKA α（手術支援AI）",
+     "SurVis-Pel（内視鏡手術支援プログラム）",
+     "Neuro-Vascular Assist（脳血管内手術支援AIソフトウェア）",
+     "EIRL Surgery LC（腹腔鏡下胆嚢摘出術支援AI）"
+    ]
+   },
+   {
+    "slug": "operating-room-management",
+    "name": "手術室の情報統合・手術管理",
+    "description": "手術室の機器情報の統合や手術予定・台帳の管理を病院に提供する事業",
+    "examples": [
+     "術中情報統合システム「OPeLiNK」",
+     "オペプロ（手術予定管理AI SaaS）",
+     "OpeOneシリーズ（手術台帳・加算ナビ・アンギオ室）"
+    ]
+   },
+   {
+    "slug": "surgical-education",
+    "name": "手術の教育・トレーニング",
+    "description": "外科医向けに手術動画やトレーニング施設で技術習得を支える事業",
+    "examples": [
+     "医師限定手術教育ウェブサービス「opeXpark」",
+     "トレーニングセンター「MIL」"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "telemedicine",
+  "types": [
+   {
+    "slug": "telemedicine-clinic-system",
+    "name": "オンライン診療システム（医療機関向け）",
+    "description": "医療機関に予約・ビデオ診察・決済・処方箋送付のオンライン診療基盤を提供",
+    "theme": "online-consultation",
+    "examples": [
+     "curon（クロン）",
+     "CLINICS（CLINICSオンライン診療／患者アプリはmelmoに改称）",
+     "YaDoc（ヤードック）",
+     "ポケットドクター（オンライン診療ポケットドクター）"
+    ]
+   },
+   {
+    "slug": "telemedicine-direct-to-patient",
+    "name": "患者直販型のオンライン診療",
+    "description": "事業者が提携医を束ね、患者がアプリから直接受診できるオンライン診療",
+    "examples": [
+     "LINEドクター",
+     "クラウドドクター",
+     "イシャチョク",
+     "生活習慣病の保険適用オンライン診療「ヤックル」（LINEで診療、提携クリニック）"
+    ]
+   },
+   {
+    "slug": "house-call-night-emergency",
+    "name": "往診・夜間休日の救急",
+    "description": "夜間・休日に生活者の救急相談を受け、医師の往診やオンライン診療につなぐ",
+    "examples": [
+     "ファストドクター",
+     "夜間・休日往診サービス「HOMEドクター」（提携医療機関による往診、東京・神奈川・埼玉・関西）"
+    ]
+   },
+   {
+    "slug": "teleradiology",
+    "name": "遠隔読影・遠隔画像診断",
+    "description": "放射線科医のネットワークが医療機関の画像を遠隔で読影するサービス",
+    "examples": [
+     "Tele-RAD（遠隔読影マッチング）",
+     "遠隔画像診断サービス",
+     "遠隔画像診断支援サービス",
+     "遠隔画像診断（スタンダードプラン）"
+    ]
+   },
+   {
+    "slug": "facility-remote-consultation",
+    "name": "施設向けの遠隔医療相談",
+    "description": "介護施設の職員が医師・看護師に日中や夜間に遠隔で相談できるサービス",
+    "examples": [
+     "日中医療相談（介護施設向けチャット相談）",
+     "夜間オンコール代行",
+     "みまもりナースステーション"
+    ]
+   },
+   {
+    "slug": "remote-patient-monitoring",
+    "name": "遠隔モニタリング",
+    "description": "在宅の患者の血圧・心臓・胎児心拍などを遠隔で測り医療者と共有する事業",
+    "examples": [
+     "テレメディーズBP",
+     "リモハブ CR U（遠隔心臓リハビリ支援の医療機器プログラム）",
+     "遠隔患者モニタリング・遠隔診療サービス（Luscii）",
+     "iCTG（モバイル型分娩監視装置）"
+    ]
+   },
+   {
+    "slug": "medical-interpretation-crossborder",
+    "name": "医療通訳・海外向け遠隔医療",
+    "description": "外国人患者の医療通訳や、海外在住日本人・訪日客向けの遠隔診療を提供",
+    "examples": [
+     "遠隔医療通訳サービス「mediPhone（メディフォン）」",
+     "海外日本人向けオンライン診療・医療相談「Medifellow」（駐在員の法人契約・個人）",
+     "外国人向けオンライン診療・医療相談（医療ツーリズム・インバウンド）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "health-consulting",
+  "types": [
+   {
+    "slug": "ai-symptom-checker",
+    "name": "AI症状チェック・受診案内",
+    "description": "生活者が症状を入力すると、AIが考えられる病気や受診先の目安を示す",
+    "theme": "ai-symptom",
+    "examples": [
+     "症状検索エンジン ユビー",
+     "MEDLEY 症状チェッカー／症状チェッカーbot",
+     "アクサのAI症状チェッカー",
+     "ハーティーサポート（心不全啓発LINE）でのAI受診相談"
+    ]
+   },
+   {
+    "slug": "doctor-chat-consultation",
+    "name": "医師へのチャット健康相談",
+    "description": "生活者が医師に匿名やチャットで健康・医療の悩みを相談できるサービス",
+    "theme": "doctor-qa",
+    "examples": [
+     "first call",
+     "LINEヘルスケア（オンライン健康相談）",
+     "HELPO（ヘルポ）／HELPOドクター",
+     "AskDoctors（アスクドクターズ）"
+    ]
+   },
+   {
+    "slug": "phone-consult-benefit",
+    "name": "保険・健保付帯の電話健康相談",
+    "description": "保険会社や健保の付帯サービスとして、24時間の電話健康相談を受託する",
+    "examples": [
+     "ハロー健康相談24",
+     "こころのサポートシステム（電話・面談によるメンタルヘルス相談）",
+     "医療・健康相談、健康経営支援（東京海上日動メディカルサービス）"
+    ]
+   },
+   {
+    "slug": "pediatric-perinatal-support",
+    "name": "小児・妊娠育児の相談とアプリ",
+    "description": "小児科医・助産師への相談や、妊娠・育児中の親向けアプリを提供する事業",
+    "examples": [
+     "小児科オンライン（産婦人科・小児科オンライン）",
+     "ninaru（妊娠アプリ）シリーズ",
+     "ninaru baby（育児アプリ）"
+    ]
+   },
+   {
+    "slug": "specialist-referral",
+    "name": "専門医紹介・セカンドオピニオン",
+    "description": "病気や症状に合う専門医の紹介や、主治医以外の意見取得を仲介する事業",
+    "examples": [
+     "会員制医師紹介・看護師相談「clintal（クリンタル）」",
+     "Wellness Membership（パーソナルドクター）",
+     "セカンドオピニオン・医療セキュリティクラウド・医療機関向けデジタルマーケティング"
+    ]
+   },
+   {
+    "slug": "nutrition-guidance",
+    "name": "管理栄養士の食事指導",
+    "description": "管理栄養士が個人や企業・医療機関向けに食事の相談・指導を行う事業",
+    "examples": [
+     "管理栄養士・栄養士プラットフォーム「Nwith」／スキルアップスクール「Nwith Academia」",
+     "管理栄養士による食事コーチング・個別栄養相談プログラム",
+     "フードコンサルティング事業（レシピ開発・メニュー監修・栄養計算）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "disease-management-program",
+  "types": [
+   {
+    "slug": "lifestyle-disease-app",
+    "name": "糖尿病・生活習慣病の管理アプリ",
+    "description": "糖尿病などの患者が血糖・食事・服薬を記録し、医師の指導に使うアプリ",
+    "examples": [
+     "2型糖尿病の治療用アプリ（SMC-01）",
+     "血糖管理支援アプリ「グルコースフライト」（生活習慣改善プログラム）",
+     "Kakaris（医療機関向け生活習慣病管理DX）",
+     "マイカルテ事業（Welbyマイカルテ等PHR）"
+    ]
+   },
+   {
+    "slug": "severity-prevention-program",
+    "name": "重症化予防プログラム",
+    "description": "健診・レセプトから高リスク者を抽出し、保健指導で重症化を防ぐ事業",
+    "examples": [
+     "重症化予防プログラム「Mystar」／医療データ解析「Myscope」",
+     "糖尿病性腎症重症化予防サポート",
+     "生活習慣病重症化予防事業"
+    ]
+   },
+   {
+    "slug": "habit-smoking-program",
+    "name": "習慣化・禁煙プログラム",
+    "description": "チームで励まし合うアプリやオンライン指導で、禁煙や運動習慣を続けさせる",
+    "examples": [
+     "みんチャレ（5人チームで励まし合う習慣化アプリ）",
+     "みんチャレ禁煙（企業・健保向け禁煙プログラム）",
+     "Medically（オンライン健康サポート：特定保健指導・禁煙外来・重症化予防）",
+     "保険付帯の「習慣化支援サービス」（WizWe「Smart Habit」）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "personal-health-record",
+  "types": [
+   {
+    "slug": "insurer-employer-phr",
+    "name": "健保・企業が配るPHRアプリ",
+    "description": "健保組合や企業・自治体が加入者に配り、健診結果や医療費を見せるアプリ",
+    "theme": "phr-employer",
+    "examples": [
+     "PHRサービス「Pep Up（ペップアップ）」",
+     "健康アプリ「kencom（ケンコム）」",
+     "ヘルスケアアプリ「QOLism（キュオリズム）」",
+     "健康増進セルフケアサービス「KENPOS」"
+    ]
+   },
+   {
+    "slug": "health-point-app",
+    "name": "健康ポイント・歩数アプリ",
+    "description": "歩数や健診受診などの健康行動にポイントや特典を付けるアプリ・事業",
+    "theme": "health-points",
+    "examples": [
+     "健康管理アプリ「dヘルスケア」（dポイント連動）",
+     "トータルヘルスケアアプリ「auウェルネス」",
+     "ポイント連動型健康アプリ「楽天ヘルスケア」",
+     "おおさか健活マイレージ「アスマイル」"
+    ]
+   },
+   {
+    "slug": "diet-log-app",
+    "name": "食事・腸活の記録アプリ",
+    "description": "食事写真の栄養解析や便の記録で、個人の食生活改善を支えるアプリ",
+    "examples": [
+     "あすけん（AI食事管理アプリ）",
+     "カロミル（AI食事・運動・体重管理アプリ）",
+     "カロママ プラス",
+     "ウンログ（観便・腸活アプリ）"
+    ]
+   },
+   {
+    "slug": "medical-record-phr",
+    "name": "診療・お薬データを持ち歩くPHR",
+    "description": "検査値・処方・健診結果などの医療情報を患者が手元で管理できるアプリ",
+    "examples": [
+     "カルテコ（PHR）",
+     "MeDaCa（患者向けPHRアプリ）",
+     "パシャっとカルテ（医療情報を撮影でデータ化するPHRアプリ）",
+     "H2Port（個人の健康・医療データ管理・参照アプリ）"
+    ]
+   },
+   {
+    "slug": "wearable-vital-device",
+    "name": "ウェアラブル・スマートリング",
+    "description": "指輪・リストバンド・体組成計で日常のバイタルを測り、アプリで見せる事業",
+    "examples": [
+     "睡眠・健康管理用スマートリング「SOXAI RING」（現行 SOXAI RING 2）",
+     "脈拍計測リストバンド「PULSENSE」と健康管理サービス「PULSENSE View」",
+     "JouleLife体組成計"
+    ]
+   },
+   {
+    "slug": "patient-community-app",
+    "name": "疾患当事者のアプリ・コミュニティ",
+    "description": "難病・アトピーなどの患者と家族が記録し、情報を共有するアプリやSNS",
+    "examples": [
+     "nanacara（患者・家族向け支援アプリ）",
+     "アトピー対策共有SNS「untickle（アンティクル）」",
+     "支えるノート（患者と医療者をつなぐ症状・服薬管理アプリ）",
+     "ミライク（患者SNS）"
+    ]
+   },
+   {
+    "slug": "phr-data-platform",
+    "name": "PHR基盤・データ連携の提供",
+    "description": "バイタル計測や食事記録の機能・データを、他社サービスへAPIで提供する",
+    "examples": [
+     "カロミルAPI / カロミルWebView（食事記録機能の外部提供）",
+     "バイタルセンシング技術基盤「SOXAI OS」のOEM提供・法人向けバイタル計測解析",
+     "FITINSIGHT（ウェアラブル活用PHR基盤）",
+     "PHRデータビジネス（データ利活用・パネル調査・API・治験紹介）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "insuarance",
+  "types": [
+   {
+    "slug": "health-promotion-insurance",
+    "name": "健康増進型保険",
+    "description": "歩数や健診結果などの健康行動に応じて保険料や特典が変わる保険商品",
+    "examples": [
+     "健康増進型保険「住友生命 Vitality」",
+     "「あるく保険」（健康増進特約付き医療保険）",
+     "健康応援型の生命保険「インシュアヘルス」（SOMPOひまわり生命）"
+    ]
+   },
+   {
+    "slug": "insurer-member-health-app",
+    "name": "保険会社の契約者向け健康アプリ",
+    "description": "生命保険・損保会社が契約者に提供する、健康管理や症状チェックのアプリ",
+    "examples": [
+     "健康増進アプリ「健康第一」",
+     "生活習慣改善サポートアプリ「Linkx 健康トライ（リンククロス健康トライ）」",
+     "ヘルスケアアプリ「ココカラダイアリー」",
+     "健診結果改善サポートアプリ「Neoコーチ」"
+    ]
+   },
+   {
+    "slug": "medical-life-insurance",
+    "name": "医療保険・がん保険",
+    "description": "病気やけがの入院・治療費を保障する医療保険・がん保険の引受事業",
+    "examples": [
+     "医療保険中心の生保（第一ネオ生命、旧ネオファースト生命）",
+     "医療保険などの生命保険（東京海上日動あんしん生命）",
+     "国内生命保険（医療保険・がん保険等を含む）"
+    ]
+   },
+   {
+    "slug": "overseas-managed-care",
+    "name": "海外の医療保険・マネージドケア",
+    "description": "米国のストップロス保険や東南アジアの企業向け医療費管理に投資・運営する",
+    "examples": [
+     "米国メディカルストップロス保険（Tokio Marine HCC）",
+     "東南アジアのマネージドケア（マレーシア・ベトナム）",
+     "東南アジアのマネージドケア（Fullerton Health）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "medical-saas",
+  "types": [
+   {
+    "slug": "regional-referral-discharge",
+    "name": "地域連携・紹介・入退院支援",
+    "description": "病院の地域連携室向けに、紹介予約・紹介状・退院先調整をクラウド化する",
+    "examples": [
+     "foro CRM（病院の地域医療連携CRM）",
+     "medigle（地域医療連携クラウド）",
+     "M-INT（ミント：患者紹介業務DX・電子紹介状）",
+     "CAREBOOK（入退院支援クラウド）"
+    ]
+   },
+   {
+    "slug": "nursing-ward-safety",
+    "name": "看護記録・医療安全の管理",
+    "description": "病棟の看護記録・看護計画やインシデント報告をまとめる病院向けシステム",
+    "examples": [
+     "看護記録・看護計画支援システム「チームコンパス（TeamCompass）」",
+     "Zeroharm（次世代型インシデントレポートシステム）",
+     "ナースコープコネクト"
+    ]
+   },
+   {
+    "slug": "hospital-workforce-shift",
+    "name": "病院の勤怠・シフト管理",
+    "description": "医師・看護師の勤怠やシフト作成、働き方改革対応を支える病院向けSaaS",
+    "examples": [
+     "エピタルHR（医療機関向けHRマネジメント・シフト管理SaaS）",
+     "勤怠管理システム",
+     "クリニックパートナー勤怠",
+     "しかポチ（歯科医院向け勤怠管理システム）"
+    ]
+   },
+   {
+    "slug": "dpc-data-submission",
+    "name": "DPC・外来データ提出の支援",
+    "description": "DPCコーディングや外来データ提出など、病院の制度対応データ作成を支援",
+    "examples": [
+     "メダップ AI DPCコーディング",
+     "外来データ提出作成支援クラウド",
+     "メディトク外来ワークス"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "real-world-data",
+  "types": [
+   {
+    "slug": "hospital-derived-database",
+    "name": "病院由来の診療データベース",
+    "description": "DPC・電子カルテなど病院の診療データを集め、製薬・研究向けに提供する",
+    "examples": [
+     "医療ビッグデータ事業",
+     "医療ビッグデータ（電子カルテ匿名加工データ）の利活用（ICI）",
+     "医療データベース（PMS・DB調査）"
+    ]
+   },
+   {
+    "slug": "insurer-derived-database",
+    "name": "健保・自治体由来のデータ",
+    "description": "健保・自治体のレセプト・健診データを匿名化し、製薬・研究向けに提供する",
+    "examples": [
+     "ヘルスビッグデータの利活用（DeSCヘルスケア）",
+     "医療ビッグデータ・データヘルス・コーポレートヘルス（JMDC）"
+    ]
+   },
+   {
+    "slug": "rwd-analysis-service",
+    "name": "製薬向けRWD解析・研究支援",
+    "description": "製薬企業のRWD研究をデータ選定から解析・論文化まで請け負う事業",
+    "examples": [
+     "RWD研究支援サービス（製薬企業向けリアルワールドデータ解析）",
+     "DATACK RWD Partners",
+     "MDV analyzer（診療データ分析）",
+     "医療リアルワールドデータ（RWD）の収集・解析・提供、レジストリ構築・臨床研究支援"
+    ]
+   },
+   {
+    "slug": "health-data-standardization",
+    "name": "医療データの標準化・連携基盤",
+    "description": "FHIRやOMOP形式への変換、匿名加工など医療データ連携の基盤を提供",
+    "examples": [
+     "FRUCtoS（HL7 FHIR準拠サーバソフトウェアのライセンス・実装支援）",
+     "医療データ標準化（OMOP CDM変換）支援",
+     "YuiData／YuiQuery（医療データ活用）",
+     "CoNaxs（医療データ特化の匿名加工ツール）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "health-corporate-management",
+  "types": [
+   {
+    "slug": "occupational-health-service",
+    "name": "産業医・産業保健サービス",
+    "description": "企業に産業医・保健師を紹介し、面談や衛生委員会など法定業務を担う",
+    "theme": "occupational-physician",
+    "examples": [
+     "産業医紹介（エムスリーキャリア「産業医トータルサポート」等）",
+     "産業医業務提供「WORKERS DOCTORS」",
+     "産業保健ソリューション「リモート産業保健」",
+     "中小企業向け社外健康管理室「さんぽテラス」（旧 こころめいと／セイルズ産業医事務所）・「OHMEクラウド」"
+    ]
+   },
+   {
+    "slug": "employee-health-cloud",
+    "name": "従業員の健康管理クラウド",
+    "description": "人事・産業保健スタッフが健診・面談記録などを一元管理するクラウド",
+    "examples": [
+     "健康管理システム「Carely（ケアリィ）」",
+     "健康管理クラウド「Health Data Bank」",
+     "健康管理クラウド「ヘルスサポートシステム」（現 Growbase）",
+     "けんさぽ（従業員の健康管理サービス：健診業務代行・健康管理システム・産業医紹介）"
+    ]
+   },
+   {
+    "slug": "stress-check-survey",
+    "name": "ストレスチェック・組織サーベイ",
+    "description": "法定ストレスチェックの実施や、組織の状態を測るサーベイを企業に提供",
+    "examples": [
+     "日立「従業員健康管理クラウドサービス／ストレスチェック」",
+     "ALSOK「ストレスチェックサービス」",
+     "ラフールサーベイ（組織改善・エンゲージメント調査）",
+     "ハタラクカルテ（意識調査・組織課題解決）"
+    ]
+   },
+   {
+    "slug": "corporate-wellness-program",
+    "name": "健康経営の施策プログラム",
+    "description": "従業員向けに運動・食事・腰痛・セミナーなどの健康施策を提供する事業",
+    "examples": [
+     "健康経営支援サービス「FiNC for BUSINESS」",
+     "ポケットセラピスト（企業・健保向け健康経営支援）",
+     "法人向け健康・ウェルビーイング支援サービス「Cradle」（動画・オンラインセミナー、提携医療機関130院超へのヘルスケアサポート）",
+     "あすけん法人向け（健康経営・自治体）"
+    ]
+   },
+   {
+    "slug": "office-meal-benefit",
+    "name": "社食・食の福利厚生",
+    "description": "オフィスに置き型の惣菜・サラダを届け、従業員の食と健康を支える事業",
+    "examples": [
+     "オフィスおかん（置き型社食）",
+     "OFFICE DE YASAI（社員の食と健康の福利厚生サービス）",
+     "オフィスナッシュ（社食・福利厚生サービス）"
+    ]
+   },
+   {
+    "slug": "health-management-certification",
+    "name": "健康経営の認定取得・コンサル",
+    "description": "健康経営優良法人の認定申請や人的資本開示を企業に助言・支援する事業",
+    "examples": [
+     "ウェルハピ（welhapi）健康経営優良法人認定取得サポート",
+     "健康経営支援事業「wellmanager」（コンサル・認定支援・人的資本開示支援）",
+     "健康経営コンサルティング（健康経営優良法人の認定申請支援を含む）・ストレスチェック支援",
+     "健康経営アドバイザー・支援サービス（パフォーマンス・カルテ、M3 Patient Support Program）"
+    ]
+   },
+   {
+    "slug": "work-care-balance-support",
+    "name": "仕事と介護・治療の両立支援",
+    "description": "介護や治療を抱える従業員の両立を、相談・AI・研修で企業向けに支える",
+    "examples": [
+     "わかるかいごBiz（仕事と介護の両立支援）",
+     "SOIN-L（そわん エル）仕事と介護の両立支援AI",
+     "義務対応AIエージェント「Aima」（育児・介護・治療・女性の健康等の配慮対応を支援）",
+     "教育研修事業（治療と仕事の両立支援等）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "recruting-solutions",
+  "types": [
+   {
+    "slug": "medical-staffing-agency",
+    "name": "医療職の人材紹介・転職支援",
+    "description": "医師・看護師・薬剤師の転職を、アドバイザーが成功報酬型で仲介する事業",
+    "theme": "medical-jobs",
+    "examples": [
+     "医師転職支援「リクルートドクターズキャリア」",
+     "エムスリーキャリア（医師・薬剤師の転職支援、旧 SMS「ドクターキャリアエージェント」等）",
+     "エス・エム・エスのキャリア事業（「ナース人材バンク」→「ナース専科 転職」、「カイゴジョブ」）",
+     "看護師求人「看護師ワーカー」ほか医療福祉の人材紹介・派遣"
+    ]
+   },
+   {
+    "slug": "medical-job-board",
+    "name": "医療・介護の求人サイト",
+    "description": "医療・介護の事業所が求人を掲載し、求職者が応募する求人メディア事業",
+    "examples": [
+     "医療介護求人サイト「ジョブメドレー」",
+     "医療・介護・福祉の求人サイト「GUPPY（グッピー）」",
+     "リジョブ介護"
+    ]
+   },
+   {
+    "slug": "care-spot-work",
+    "name": "看護・介護のスポットワーク",
+    "description": "看護師・介護職と施設を、数時間〜1日単位の単発勤務でつなぐアプリ",
+    "examples": [
+     "介護・看護スポットワーク「カイテク」（旧「カイスケ」）",
+     "介護・看護スポットワーク「Ucare（ユーケア）」",
+     "看護師スポットワーク「メリー」",
+     "非常勤医師紹介（Gaikin）／医局向け「ネット医局」／アプリ「MRT WORK」"
+    ]
+   },
+   {
+    "slug": "specialty-niche-recruiting",
+    "name": "専門領域特化の人材紹介",
+    "description": "リハビリ職・助産師・訪問看護・生殖医療など特定領域に絞った人材紹介",
+    "examples": [
+     "リハジョブ（リハビリ職特化の人材紹介）",
+     "she's path（助産師特化の人材サービス）",
+     "訪問看護特化の人材紹介・求人「NsPace Career」",
+     "生殖・婦人科領域特化の人材紹介「vivola-Career」"
+    ]
+   },
+   {
+    "slug": "healthcare-recruitment-outsourcing",
+    "name": "医療機関の採用代行・採用支援",
+    "description": "医療・介護事業者の採用広報や応募対応、紹介会社間連携を代わりに担う",
+    "examples": [
+     "ユアマネ採用代行（介護・福祉事業者向け）",
+     "SuguDesk 採用代行",
+     "医療人材紹介会社向けマッチング支援（Rakusai）"
+    ]
+   },
+   {
+    "slug": "healthcare-worker-education",
+    "name": "医療・介護職の教育・スクール",
+    "description": "看護師・介護職の新人教育やキャリアスクール、資格取得講座を提供する",
+    "examples": [
+     "メディフリ（看護師専門実践型キャリアスクール）",
+     "オンラインプリセプター（新人看護師の伴走支援）",
+     "ユースタイルカレッジ（介護資格スクール）",
+     "マイプリ（看護師向けAIプリセプター・教育支援アプリ）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "clinic-chain",
+  "types": [
+   {
+    "slug": "clinic-chain-operation",
+    "name": "多院展開クリニックの運営",
+    "description": "駅前・365日診療などの型で、クリニックを多拠点に展開・運営する事業",
+    "examples": [
+     "キャップスクリニック（365日診療の小児科・内科クリニックチェーン）",
+     "クリニックフォア（クリニック運営支援・クリニックDX）",
+     "セサミストリートクリニック"
+    ]
+   },
+   {
+    "slug": "clinic-mso-rollup",
+    "name": "クリニック運営会社・ロールアップ",
+    "description": "クリニックの運営支援会社が事業承継で医院を束ね、多院経営を進める事業",
+    "examples": [
+     "クリニックチェーンマネジメント（キャップスクリニック運営支援）",
+     "クリニック事業承継・ロールアップ",
+     "医療施設の運営支援（KAIZENグループのクリニック開院・承継支援）"
+    ]
+   },
+   {
+    "slug": "overseas-hospital-group",
+    "name": "海外の病院・クリニック事業",
+    "description": "アジアなど海外の病院・クリニックチェーンに出資し、運営に参画する事業",
+    "examples": [
+     "アジアの病院・クリニック事業（IHH Healthcare）",
+     "東南アジアのクリニックチェーン（CareClinics）",
+     "透析・プライマリケアなど病院周辺事業"
+    ]
+   },
+   {
+    "slug": "franchise-healthcare-network",
+    "name": "FC型の治療院・医療サービス",
+    "description": "整骨院・歯科・訪問看護などを本部がフランチャイズで多店舗展開する事業",
+    "examples": [
+     "A-COMS事業（鍼灸接骨院支援：ほねつぎチェーンFC・開業支援）",
+     "ウィル訪問看護ステーション（直営・FC）",
+     "レコードブック（リハビリ型デイサービス）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "medical-device",
+  "types": [
+   {
+    "slug": "digital-therapeutics",
+    "name": "治療用アプリ（DTx）",
+    "description": "医師が処方し、禁煙・ADHD・うつなどの治療に使うアプリ型の医療機器",
+    "examples": [
+     "CureApp SC ニコチン依存症治療アプリ",
+     "デジタル治療（エンデバーライド等）",
+     "デジタルメディスン・デジタル治療（エビリファイ マイサイト、Rejoyn）",
+     "片頭痛治療用アプリ"
+    ]
+   },
+   {
+    "slug": "endoscope-device",
+    "name": "内視鏡・内視鏡AI",
+    "description": "消化器・呼吸器の内視鏡や処置具、AI搭載の咽頭内視鏡を開発・販売する",
+    "examples": [
+     "消化器内視鏡（内視鏡システム・医療サービス）",
+     "nodoca（AI搭載咽頭内視鏡システム）",
+     "内視鏡AI・デジタルソリューション（CAD等）"
+    ]
+   },
+   {
+    "slug": "cardiovascular-device",
+    "name": "循環器・血管内治療の機器",
+    "description": "カテーテル・ステント・人工心肺・心臓パッチなど循環器の治療機器事業",
+    "examples": [
+     "心臓血管（カテーテル・ステント、ニューロ、人工心肺、人工血管）",
+     "循環器・バスキュラー（カテーテル、血管内イメージング）",
+     "埋込医療機器（心・血管修復パッチ「シンフォリウム」）",
+     "AVNeo Sizer System（大動脈弁再建用サイザー）"
+    ]
+   },
+   {
+    "slug": "rehab-robotics-prosthetics",
+    "name": "リハビリ機器・装着型ロボット",
+    "description": "装着型ロボット・VR・BMI・義足で、まひや障害の機能回復を支える機器",
+    "examples": [
+     "HAL（ロボットスーツ）",
+     "VRリハビリ医療機器「mediVRカグラ」",
+     "脳卒中後麻痺向けBMIリハビリ機器（医療用BMI／機能訓練用BMI 手指タイプ）",
+     "パワード義足（膝継手）「Bio Leg」"
+    ]
+   },
+   {
+    "slug": "home-wearable-medical-device",
+    "name": "家庭用・ウェアラブル計測機器",
+    "description": "家庭用血圧計やカフレス血圧・非侵襲血糖など日常のバイタル計測機器",
+    "examples": [
+     "家庭用血圧計・体温計・体組成計など健康機器（オムロン ヘルスケア）",
+     "カフレス血圧演算プログラム「Arblet 血圧演算プログラム Alysis-001」（SaMD）",
+     "指輪型パルスオキシメータ「バインスタリング」（VR100／VR200）",
+     "採血不要のレーザー式非侵襲血糖値センサーの開発"
+    ]
+   },
+   {
+    "slug": "ivd-lab-instrument",
+    "name": "検体検査の機器・試薬",
+    "description": "血球計数・生化学・免疫・遺伝子検査などの検査装置と試薬を医療機関に販売",
+    "examples": [
+     "ヘマトロジー（血球計数）検査機器・試薬",
+     "体外診断システム・試薬",
+     "生化学検査（シスメックスBioMajesty）",
+     "遺伝子検査（GeneSoC）・感染症診断"
+    ]
+   },
+   {
+    "slug": "ophthalmic-device",
+    "name": "眼科の診断・治療機器",
+    "description": "スマホ型眼科カメラ・視野計・眼底カメラ・眼内レンズなど眼科向け機器",
+    "examples": [
+     "Smart Eye Camera（スマホ装着型眼科診察機器）",
+     "ヘッドマウント型視野計「アイモ」シリーズ（アイモvifa／アイモcomfo／アイモプラスCS／アイモAM）",
+     "眼科機器（眼底カメラ等）",
+     "眼内レンズ・眼科医療機器"
+    ]
+   },
+   {
+    "slug": "medtech-development-support",
+    "name": "医療機器の開発・薬事支援",
+    "description": "プログラム医療機器の設計開発やQMS構築、薬事申請を他社向けに支援",
+    "examples": [
+     "SaMD（プログラム医療機器）の設計開発・QMS構築支援",
+     "QMSmart（医療機器メーカー向けクラウド型eQMS）",
+     "医療機器開発コンサルティング・インキュベーション",
+     "薬事コンサルティング（MAH/DMAHサービス）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "nursing",
+  "types": [
+   {
+    "slug": "elderly-home-monitoring",
+    "name": "在宅高齢者の見守り（家族向け）",
+    "description": "電力・家電・センサーで離れて暮らす高齢の親の様子を家族に知らせる",
+    "theme": "elderly-monitoring",
+    "examples": [
+     "はぴeまもるくん",
+     "みまもりほっとライン（iポット）",
+     "高齢者みまもりサービス「まもりこ」",
+     "HOME ALSOK みまもりパック"
+    ]
+   },
+   {
+    "slug": "care-facility-monitoring-sensor",
+    "name": "介護施設向け見守りセンサー",
+    "description": "居室のセンサー・カメラで入居者の睡眠・離床・転倒を検知し職員に知らせる",
+    "examples": [
+     "眠りSCAN",
+     "HitomeQ（ひとめく）ケアサポート",
+     "ライフレンズ",
+     "OwlCare（介護施設向け見守り統合システム）"
+    ]
+   },
+   {
+    "slug": "care-record-careplan-software",
+    "name": "介護記録・ケアプランのソフト",
+    "description": "介護事業所の記録・請求やケアプラン作成をクラウドやAIで効率化する",
+    "examples": [
+     "AI・介護記録ソフト「CareViewer」",
+     "ミルモ プラン（ケアプラン作成支援AI）",
+     "SOIN（そわん）AIケアプラン作成支援",
+     "カナミッククラウドサービス"
+    ]
+   },
+   {
+    "slug": "excretion-care-robotics",
+    "name": "排泄ケア・介護ロボット",
+    "description": "排泄の予測・検知デバイスや介護助手ロボットで、介護の負担を減らす",
+    "examples": [
+     "DFree Professional（法人向け排泄予測デバイス）",
+     "排泄センサー「ヘルプパッド２（Helppad2）」",
+     "Ena（介護施設向けヒューマノイド介護助手ロボット）"
+    ]
+   },
+   {
+    "slug": "care-service-operation",
+    "name": "介護サービス事業の運営",
+    "description": "訪問介護・デイサービス・有料老人ホームなどの介護事業を運営する",
+    "examples": [
+     "介護事業（SOMPOケア）",
+     "ケアリッツ（訪問介護）",
+     "介護サービス（訪問・通所介護、介護ショップ、サ高住）（パナソニック エイジフリー）",
+     "ワタミの介護（介護付き有料老人ホーム事業）"
+    ]
+   },
+   {
+    "slug": "selfpay-care-service",
+    "name": "保険外の自費介護・生活支援",
+    "description": "介護保険でまかなえない付き添い・家事・長時間介護を自費で提供する事業",
+    "examples": [
+     "イチロウ（介護保険外の自由介護・オーダーメイド介護）",
+     "Crowd Care（自費訪問介護・家事・生活支援のマッチング）",
+     "エグゼクティブナーシング（自費の訪問看護）"
+    ]
+   },
+   {
+    "slug": "care-activity-dementia-program",
+    "name": "施設向けリハビリ・レク・認知症ケア",
+    "description": "介護施設に機能訓練・レクリエーション・認知症ケアのプログラムを届ける",
+    "examples": [
+     "モフトレ（介護施設向けIoTリハビリ・機能訓練支援）",
+     "AikomiDS（介護施設向け認知機能訓練・認知症ケア動画プログラム）",
+     "オンラインレクちゃんねる（介護施設向けオンラインレク配信）",
+     "シニアカレッジ（介護施設向けレク動画配信）"
+    ]
+   },
+   {
+    "slug": "care-facility-search-referral",
+    "name": "介護施設・事業所の検索と紹介",
+    "description": "高齢者や家族、ケアマネに老人ホームや介護事業所を探して紹介する事業",
+    "examples": [
+     "ツナグテ（老人ホーム紹介）",
+     "シニア関連事業（高齢者向け住宅・介護施設紹介「あいらいふ」等）",
+     "EEFUL DB（介護情報ポータル・事業所検索）",
+     "ミルモネット／ミルモネット プラス（地域ケア情報見える化サイト）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "medical-materials",
+  "types": [
+   {
+    "slug": "medical-supply-ec",
+    "name": "医療用品の通販・カタログ",
+    "description": "診療所・動物病院向けに医療消耗品や備品をカタログ・ECで販売する事業",
+    "examples": [
+     "医療用品カタログ販売（MEDICAL SUPPLY GooDs）",
+     "医療用品オンラインショップ",
+     "動物病院向け販売"
+    ]
+   },
+   {
+    "slug": "spd-hospital-logistics",
+    "name": "SPD・院内物流管理",
+    "description": "病院の医療材料の在庫・発注・院内搬送をまとめて管理する事業やシステム",
+    "examples": [
+     "SPD物品管理システム",
+     "ZERO Supply（院内物流管理システム）",
+     "IoT在庫管理・自動発注「SmartMat Cloud」",
+     "病院向け医療材料SPD・共同購買・医療機器調達支援（エム・シー・ヘルスケアグループ）"
+    ]
+   },
+   {
+    "slug": "medical-equipment-maintenance",
+    "name": "医療機器の保守・資産管理",
+    "description": "院内の医療機器の台帳管理・点検・修理を、病院向けに提供する事業",
+    "examples": [
+     "HITOTSU Asset",
+     "ZERO ME（ME機器管理システム）",
+     "保守点検・修理サービス",
+     "医療機器整備サポート"
+    ]
+   },
+   {
+    "slug": "medical-apparel",
+    "name": "白衣・医療ウェア",
+    "description": "白衣・スクラブ・患者衣などの医療用ウェアを企画し、医療機関に販売する",
+    "examples": [
+     "Classico（メディカルアパレル：白衣・スクラブ）",
+     "lifte（患者衣）",
+     "法人向け一括導入サービス"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "pharma-marketing-support",
+  "types": [
+   {
+    "slug": "pharma-digital-promotion",
+    "name": "医師向けデジタルプロモーション",
+    "description": "製薬企業の医師向けメール・Web講演会・コンテンツ制作を請け負う事業",
+    "examples": [
+     "デジタルマーケティング支援（MRmail・Veeva CRM用コンテンツ等）",
+     "Web講演会配信",
+     "マルチチャネルプロモーション支援",
+     "HOKUTO Marketing Solutions（製薬企業向け）"
+    ]
+   },
+   {
+    "slug": "remote-mr-meeting",
+    "name": "リモートMR・面会管理",
+    "description": "MRの代行やオンライン面会の予約、医療機関側の面会管理を提供する",
+    "examples": [
+     "enTouch MRサービス",
+     "Pr.JOY（製薬企業等向け面会・説明会管理）",
+     "CSO事業（コントラクトMR、専門領域MRの派遣等）"
+    ]
+   },
+   {
+    "slug": "pharma-market-research",
+    "name": "医薬品の市場調査",
+    "description": "医師パネルや処方データを使い、医薬品の市場・処方実態を調べる事業",
+    "examples": [
+     "医療用・一般用医薬品の市場調査（ヘルスケア領域マーケティングリサーチ）",
+     "マーケティングリサーチ（製薬企業向け）",
+     "SCUEL for MR（製薬企業向け営業支援）"
+    ]
+   },
+   {
+    "slug": "patient-support-awareness",
+    "name": "疾患啓発・患者支援プログラム",
+    "description": "製薬企業の依頼で、疾患の啓発や患者の治療継続を支えるサービスを運営",
+    "examples": [
+     "疾患啓発（DTC）デジタルマーケティング",
+     "疾患ソリューション事業（製薬企業向け疾患管理アプリ等）",
+     "患者サポートサービス（製薬会社向け）",
+     "コンソーシアム型疾患啓発事業"
+    ]
+   },
+   {
+    "slug": "pharma-compliance-pv",
+    "name": "安全性情報・資材審査・くすり相談",
+    "description": "副作用情報の収集、販促資材の審査、くすり相談窓口を製薬向けに代行",
+    "examples": [
+     "資材審査AI／Shaperon Review",
+     "有害事象検知AI（Shaperon Safety Intake）",
+     "医薬品情報（DI）コンタクトセンター",
+     "安全性情報管理システム（副作用情報収集管理）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "home-visit-nursing",
+  "types": [
+   {
+    "slug": "visiting-nursing-station",
+    "name": "訪問看護ステーションの運営",
+    "description": "看護師が自宅を訪問して療養を支える訪問看護ステーションを多拠点運営",
+    "examples": [
+     "訪問看護（指定訪問看護ステーション運営）",
+     "訪問看護ステーションリカバリー（訪問看護・リハビリ）",
+     "おうちのカンゴ（訪問看護）",
+     "みんなのかかりつけ訪問看護ステーション（訪問看護）"
+    ]
+   },
+   {
+    "slug": "psychiatric-visiting-nursing",
+    "name": "精神科特化の訪問看護",
+    "description": "精神疾患のある人の地域生活を支える、精神科に特化した訪問看護事業",
+    "examples": [
+     "訪問看護ステーション デューン（精神科訪問看護中心）",
+     "訪問看護ステーションくるみ（精神科特化型、大阪）",
+     "ナンナル（児童精神科領域の訪問看護、杉並区）"
+    ]
+   },
+   {
+    "slug": "pediatric-visiting-nursing",
+    "name": "小児・医療的ケア児の訪問看護",
+    "description": "医療的ケアが必要な子どもとその家族を支える小児特化の訪問看護",
+    "examples": [
+     "ソイナース（小児・医療的ケア児の訪問看護、23区）",
+     "重症心身障害児・医療的ケア児の訪問看護"
+    ]
+   },
+   {
+    "slug": "visiting-nursing-software",
+    "name": "訪問看護向け記録・スケジュール",
+    "description": "訪問看護ステーションに電子カルテやスケジュール自動作成を提供する事業",
+    "examples": [
+     "iBow（訪問看護ステーション向けクラウド型電子カルテ）",
+     "CareMaker（訪問看護・介護スケジュール管理クラウド）",
+     "homis Nursee（クラウド型訪問看護記録）",
+     "ウィルクラウド（訪問看護向けクラウド型記録システム）"
+    ]
+   },
+   {
+    "slug": "visiting-nursing-bpo",
+    "name": "訪問看護の事務代行・経営支援",
+    "description": "訪問看護の請求・電話・書類業務をAIや人が代行し、経営を支える事業",
+    "examples": [
+     "SHISHIホウカン（訪問看護向けAIエージェント・事務BPO）",
+     "CareMaker BPO（スケジュール調整代行）",
+     "訪問看護向け経営支援サービス",
+     "スタンドLM Phone（訪問看護の電話対応AI）"
+    ]
+   },
+   {
+    "slug": "severe-disability-home-care",
+    "name": "重度訪問介護・障害福祉",
+    "description": "重度障害のある人に長時間の訪問介護や住まい、相談支援を提供する事業",
+    "examples": [
+     "ユースタイルケア重度訪問介護（障害者向け）",
+     "ウィルの重度訪問介護",
+     "ユースタイルホーム（重度障害者向けグループホーム）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "medical-management-support",
+  "types": [
+   {
+    "slug": "hospital-turnaround",
+    "name": "病院の経営改善・再生",
+    "description": "赤字の病院に経営陣を送り込むなどして、運営改善や再生を担う事業",
+    "examples": [
+     "病院経営サポート（医療経営総合支援）",
+     "中小病院の運営支援・再生（ハンズオン/コンサルティング）",
+     "病院経営改善コンサルティング",
+     "地域医療再生事業（明日の医療：病院・介護事業者の経営支援）"
+    ]
+   },
+   {
+    "slug": "clinic-opening-support",
+    "name": "クリニックの開業支援",
+    "description": "医師のクリニック開業を、物件・資金・集患・運営まで支援する事業",
+    "examples": [
+     "クリニック開業・運営支援",
+     "クリニック開業支援（DCPソリューション）",
+     "医療機関の開業支援・経営コンサルティング",
+     "クリニック開業支援・AX/DXサポート・マーケティング・資金調達サポート"
+    ]
+   },
+   {
+    "slug": "healthcare-ma-succession",
+    "name": "医療・介護のM&A・事業承継",
+    "description": "後継者のいない医療機関・介護事業所の承継やM&Aを仲介・実行する事業",
+    "examples": [
+     "医療・介護の事業承継／M&A支援",
+     "事業承継支援",
+     "MEDi Deals（ASEANクリニックM&A）",
+     "病院の経営支援（M&A・グループ化）"
+    ]
+   },
+   {
+    "slug": "hospital-management-bi",
+    "name": "病院経営の可視化・ベンチマーク",
+    "description": "レセプトやDPCデータから病院の収益・診療実績を分析し他院と比べる",
+    "examples": [
+     "病院経営可視化ツール「APOLLO HCX」",
+     "EVE（DPC分析ベンチマーク）",
+     "MDV Act（病院経営改善）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "cro",
+  "types": [
+   {
+    "slug": "full-service-cro",
+    "name": "臨床開発の受託（CRO）",
+    "description": "製薬・医療機器企業の治験のモニタリングやデータ管理を受託する事業",
+    "examples": [
+     "CRO（臨床開発受託）",
+     "CRO事業（臨床試験のモニタリング・PM・データマネジメント・PV等）",
+     "CRO事業（臨床開発のトータルソリューション）",
+     "フルサービスCRO（医薬品・医療機器・再生医療等製品・ワクチンの臨床開発受託）"
+    ]
+   },
+   {
+    "slug": "smo-site-support",
+    "name": "治験施設支援（SMO）",
+    "description": "医療機関側でCRCを派遣し、治験の実施や被験者対応を支える事業",
+    "examples": [
+     "SMO（治験施設支援）",
+     "SMO事業（CRC業務）"
+    ]
+   },
+   {
+    "slug": "imaging-central-reading",
+    "name": "治験の画像中央判定",
+    "description": "治験の画像データを第三者の専門医が中央で判定する画像CRO事業",
+    "examples": [
+     "医用イメージングCRO（治験の画像中央判定・第三者評価委員会運営）",
+     "遠隔画像中央判定サービス"
+    ]
+   },
+   {
+    "slug": "post-marketing-bpo",
+    "name": "製造販売後調査・安全性業務",
+    "description": "承認後の使用成績調査やデータベース研究、安全性業務を受託する事業",
+    "examples": [
+     "製造販売後調査などのBPO",
+     "製造販売後調査・データベース研究、人材派遣"
+    ]
+   },
+   {
+    "slug": "regulatory-strategy-consulting",
+    "name": "薬事・開発戦略のコンサル",
+    "description": "プロトコル作成や薬事申請、海外企業の日本参入を戦略面から支援する",
+    "examples": [
+     "医薬品開発戦略支援（プロトコル作成・薬事コンサル・薬事申請・メディカルライティング）",
+     "海外製薬の日本市場参入支援「J-STEP」・薬事コンサル（コアメッド）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "wholesale",
+  "types": [
+   {
+    "slug": "rx-drug-wholesale",
+    "name": "医療用医薬品の卸",
+    "description": "医療機関・薬局に医療用医薬品を全国で配送・販売する医薬品卸事業",
+    "examples": [
+     "医薬品卸売事業",
+     "医療用医薬品等卸売事業（アルフレッサ等）",
+     "医療用医薬品等卸売事業（メディセオ・エバルス・アトル等）",
+     "医薬品卸売事業（東邦薬品・共創未来グループ各社）"
+    ]
+   },
+   {
+    "slug": "specialty-drug-logistics",
+    "name": "スペシャリティ医薬品の物流",
+    "description": "希少疾病薬や再生医療製品など温度管理が厳しい薬の専用物流を担う事業",
+    "examples": [
+     "スペシャリティ医薬品物流（SPLine）",
+     "希少疾病用医薬品の流通（オーファントラストジャパン）",
+     "Care Link（スペシャリティ医薬品のラストワンマイル配送）",
+     "スペシャリティ医薬品流通・メーカー物流受託"
+    ]
+   },
+   {
+    "slug": "otc-consumer-wholesale",
+    "name": "一般用医薬品・日用品の卸",
+    "description": "ドラッグストア向けにOTC医薬品・化粧品・日用品を卸売する事業",
+    "examples": [
+     "化粧品・日用品、一般用医薬品卸売事業（PALTAC）",
+     "セルフメディケーション卸売事業（アルフレッサ ヘルスケア）"
+    ]
+   },
+   {
+    "slug": "device-material-wholesale",
+    "name": "医療機器・歯科材料の卸",
+    "description": "医療機関・歯科医院に医療機器・材料を販売し、整備も担うディーラー事業",
+    "examples": [
+     "医療機器・医療材料の卸販売",
+     "歯科ディーラー事業",
+     "医療用医薬品・医療機器等の卸売",
+     "医療機器の開発・輸入・販売（センチュリーメディカル、東洋メディック）"
+    ]
+   },
+   {
+    "slug": "wholesaler-customer-system",
+    "name": "卸の顧客向け発注・在庫システム",
+    "description": "医薬品卸が医療機関・薬局に発注端末や在庫可視化システムを提供する",
+    "examples": [
+     "顧客支援システム（ENIF）",
+     "Stock Mill（在庫可視化・発注）",
+     "保険薬局・医療機関向けDX（プレサスキューブ、エムティーアイ・ヘルスケアHD）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "medical-data-analytics",
+  "types": [
+   {
+    "slug": "medical-ai-joint-research",
+    "name": "医療機関とのAI共同研究",
+    "description": "大学病院などと組み、合併症予測などの医療AIを共同で研究開発する事業",
+    "examples": [
+     "医療機関向けAI・データ解析の共同研究開発",
+     "Humanome Lab（生体データ計測・解析）",
+     "MedLocal（完全オフライン型医療AI基盤）"
+    ]
+   },
+   {
+    "slug": "digital-biomarker",
+    "name": "デジタルバイオマーカー開発",
+    "description": "スマホ・ウェアラブル・音声のデータから病気の兆候を測る指標を開発する",
+    "examples": [
+     "SelfBase（デジタルバイオマーカー開発プラットフォーム）",
+     "MIMOSYS（音声から心の状態を定量化するエンジン）",
+     "VOISLOG（企業向け音声バイオマーカープラットフォーム）"
+    ]
+   },
+   {
+    "slug": "ai-development-tool",
+    "name": "医療AI開発ツール・研修",
+    "description": "研究者が自分でAIを作れるクラウドツールや、生命科学×AIの研修を提供",
+    "examples": [
+     "Humanome Eyes（物体検知AI開発クラウド）",
+     "Humanome CatData（表データAI開発クラウド）",
+     "Humanome RDBC（生命科学×AI研修）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "vc-cvc",
+  "types": [
+   {
+    "slug": "healthcare-vc-fund",
+    "name": "ヘルスケア特化VC",
+    "description": "医療機器・バイオ・ヘルステックの新興企業に投資し育成するVCファンド",
+    "examples": [
+     "医療機器ベンチャーへの投資・育成（MPIファンド）",
+     "バイオテック・ヘルステック特化のVCファンド運営",
+     "ヘルスケア・ニューフロンティア・ファンド"
+    ]
+   },
+   {
+    "slug": "corporate-venture-capital",
+    "name": "事業会社のCVC",
+    "description": "製薬・卸などの事業会社が、自社事業と相乗効果のある新興企業に投資",
+    "examples": [
+     "ヘルステック投資（CVC）",
+     "CVC（MEDIPAL Innovation投資事業有限責任組合）",
+     "中外ベンチャー・ファンド（CVC）",
+     "CVC（Ono Venture Investment、小野デジタルヘルス投資）"
+    ]
+   },
+   {
+    "slug": "healthcare-accelerator",
+    "name": "アクセラレーター・起業支援",
+    "description": "ヘルスケア起業家の事業化を、プログラムやメンタリングで支援する事業",
+    "examples": [
+     "Knot Program / Healthcare Venture KNOT（起業家育成・イベント）",
+     "SFTiP（技術の社会実装アクセラレーション）"
+    ]
+   },
+   {
+    "slug": "healthcare-pe-succession-fund",
+    "name": "医療介護の事業承継ファンド",
+    "description": "地域の医療・介護事業者に出資し、承継や経営改善を進めるPEファンド",
+    "examples": [
+     "地域医療活性化ヘルスケアファンド（1号）",
+     "日本PMIパートナーズ2号ファンド"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "doctor-network",
+  "types": [
+   {
+    "slug": "doctor-community-portal",
+    "name": "医師コミュニティ・医療者ポータル",
+    "description": "医師が情報収集や症例・薬の評価を共有し合う会員制サイト・SNS",
+    "examples": [
+     "MedPeer",
+     "m3.com",
+     "ヒポクラ（医師専用の臨床相談コミュニティ／オンライン医局）",
+     "Medteria（医療コミュニケーションクラウド・医療従事者向けSNS）"
+    ]
+   },
+   {
+    "slug": "doctor-clinical-ai-app",
+    "name": "医師向け臨床支援アプリ・AI",
+    "description": "医師が診療中に薬・ガイドライン・論文を調べられるアプリや生成AI",
+    "examples": [
+     "HOKUTO（医師向け臨床支援アプリ）",
+     "Cubec（医師向け臨床ナレッジAI）",
+     "MedGen Japan（医師向けAIアシスタント）",
+     "Medii Q（医師向けAI検索）"
+    ]
+   },
+   {
+    "slug": "specialist-econsult",
+    "name": "医師間の専門医コンサルト",
+    "description": "主治医が専門医にオンラインで症例を相談できる医師向けサービス",
+    "examples": [
+     "Medii Eコンサル（医師向け専門医相談）",
+     "ヒフミル（医師向けオンラインコンサルト）",
+     "Antaa QA（医師同士の質問解決プラットフォーム）"
+    ]
+   },
+   {
+    "slug": "doctor-education-media",
+    "name": "医師向け教育・動画",
+    "description": "医師・研修医向けに講義動画やスライド、教育プログラムを提供する事業",
+    "examples": [
+     "Antaa Academia（医師向け教育プログラム）",
+     "Antaa Slide（医師向けスライド共有）",
+     "Doctorbook academy（歯科医師向け臨床動画）",
+     "医師向けオンライン動画サービス（Antaa Channel等）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "marketing-support",
+  "types": [
+   {
+    "slug": "hospital-search-portal",
+    "name": "病院検索・口コミサイト",
+    "description": "生活者が病院を探し口コミを見て予約できる、医療機関の集客メディア",
+    "examples": [
+     "Caloo（カルー）病院口コミ検索／アポクル予約",
+     "病院なび",
+     "医者どこネット（病院検索サイト）",
+     "ホスピタ（病院検索・名医検索）"
+    ]
+   },
+   {
+    "slug": "clinic-web-meo",
+    "name": "医療機関のHP制作・MEO",
+    "description": "クリニックのホームページ制作や地図検索対策で、医療機関の集患を支援",
+    "examples": [
+     "クリニック・歯科医院向けホームページ制作",
+     "医療機関向けHP制作・SEO/MEO等",
+     "MEO対策",
+     "1.Talk（MEO集患・予約管理・患者接点管理）"
+    ]
+   },
+   {
+    "slug": "pharmacy-clinic-signage",
+    "name": "薬局・院内のサイネージ広告",
+    "description": "調剤薬局や院内の待合のデジタルサイネージに広告や情報を配信する事業",
+    "examples": [
+     "QOL in Store Media（調剤薬局向けデジタルサイネージ広告）",
+     "クオールデジタルサイネージ事業",
+     "JOY発信（院内掲示デジタルサイネージ）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "relaxation",
+  "types": [
+   {
+    "slug": "relaxation-dispatch-matching",
+    "name": "出張リラクゼーションのマッチング",
+    "description": "生活者や企業とセラピストを結び、自宅・職場へ出張でほぐしを届ける",
+    "examples": [
+     "出張リラクゼーション（もみほぐし）マッチングアプリ「HOGUGU（ホググ）」／即時呼び出し「ホググ NOW」",
+     "法人向け福利厚生プラン"
+    ]
+   },
+   {
+    "slug": "relaxation-salon",
+    "name": "リラクゼーション・ヘッドスパ店舗",
+    "description": "生活者向けにもみほぐしやヘッドスパ・サウナの店舗を多店舗で運営する事業",
+    "examples": [
+     "リラクゼーションスタジオ Re.Ra.Ku",
+     "個室サウナ付きドライヘッドスパ専門店「RESET LABORATORY（リセラボ）」"
+    ]
+   },
+   {
+    "slug": "bonesetter-clinic-support",
+    "name": "整骨院・鍼灸院の運営支援",
+    "description": "整骨院・鍼灸院に予約・カルテ・療養費請求・開業を支援する事業",
+    "examples": [
+     "アトラ請求サービス（療養費請求代行）",
+     "スリーズプロ（整骨院向け予約管理・統合業務パッケージ）",
+     "鍼灸整骨院・通所介護（デイサービス）事業"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "health-insuarance-market",
+  "types": [
+   {
+    "slug": "specific-health-guidance",
+    "name": "特定保健指導の受託",
+    "description": "健保・協会けんぽから特定保健指導を受け、管理栄養士らが遠隔で指導する",
+    "examples": [
+     "管理栄養士による特定保健指導サービス",
+     "遠隔特定保健指導などのデータヘルス事業",
+     "ウェルエット（welet）特定保健指導サービス",
+     "オンライン特定保健指導"
+    ]
+   },
+   {
+    "slug": "insurer-data-health-support",
+    "name": "データヘルス・保健事業の支援",
+    "description": "保険者のデータヘルス計画づくりや、健診受診勧奨などの保健事業を受託",
+    "examples": [
+     "データヘルス計画支援",
+     "保健事業支援システム",
+     "健診受診率向上事業",
+     "元気ラボ（保健事業支援サービス）"
+    ]
+   },
+   {
+    "slug": "medical-cost-optimization",
+    "name": "医療費適正化の通知・分析",
+    "description": "ジェネリック促進通知や医療費分析で、保険者の医療費を抑える事業",
+    "examples": [
+     "ジェネリック医薬品促進通知サービス",
+     "服薬情報通知サービス",
+     "医療費分析事業",
+     "健保向けセルフメディケーション支援（ホワイトヘルスケア）"
+    ]
+   },
+   {
+    "slug": "insurer-member-portal",
+    "name": "健保の加入者ポータル・カフェテリア",
+    "description": "健保加入者向けに健康情報の配信やポイントで選べる保健サービスを提供",
+    "examples": [
+     "健康情報提供サービス「QUPiO」／「QUPiO Plus」",
+     "個人向け健康ポータル「MY HEALTH WEB」",
+     "健保向けカフェテリアプラン・健康管理システム「バリューカフェテリア」",
+     "健康保険組合向け健康ポイントサイト"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "clinical-trial-support",
+  "types": [
+   {
+    "slug": "trial-patient-recruitment",
+    "name": "治験の被験者募集",
+    "description": "患者データベースや広告で治験の参加者を集め、医療機関へつなぐ事業",
+    "examples": [
+     "治験・臨床試験の被験者募集（PRO）",
+     "生活向上WEB（治験・臨床試験情報／被験者募集）",
+     "search my trial（smt）治験情報公開・管理",
+     "治験リクルーティングサービス"
+    ]
+   },
+   {
+    "slug": "edc-eclinical-system",
+    "name": "EDC・ePRO・治験文書システム",
+    "description": "治験データの電子収集や患者報告、治験文書の管理をクラウドで提供する",
+    "examples": [
+     "Agatha（治験・臨床研究向けクラウド文書管理）",
+     "ZenDo eTrial（臨床試験デジタル化プラットフォーム：ePRO・eConsent・DCT対応）",
+     "ePRO/EDC等の研究支援システム（ヒビログ等）",
+     "クラウドEDC（JPMS・Fountayn等）"
+    ]
+   },
+   {
+    "slug": "trial-project-site-management",
+    "name": "治験のプロジェクト管理・施設選定",
+    "description": "製薬・CRO・医療機関向けに、治験の進捗管理や実施施設の選定を効率化する",
+    "examples": [
+     "Study Works（治験プロジェクト管理ツール）",
+     "SmarTrial（臨床試験プロジェクト管理サービス）",
+     "FeasiCon（フィージビリティ・施設選定）",
+     "TidyMed（治験業務支援システム）"
+    ]
+   },
+   {
+    "slug": "ehr-trial-candidate-search",
+    "name": "電子カルテからの候補患者探し",
+    "description": "電子カルテを解析し、治験に合う候補患者や研究用データセットを見つける",
+    "examples": [
+     "医療機関向け：院内診療情報のクラウド整理・治験候補患者特定・研究データセット整備",
+     "製薬企業向け：電子カルテ・バイオマーカー情報に基づく候補患者検索・RWEデータ提供",
+     "SIMPRESEARCH（臨床情報分析支援プラットフォーム）"
+    ]
+   },
+   {
+    "slug": "decentralized-clinical-trial",
+    "name": "在宅治験（DCT）",
+    "description": "訪問看護やオンラインを使い、患者が自宅から治験に参加できるようにする",
+    "examples": [
+     "訪問看護を用いたDCT（在宅治験）",
+     "創薬支援（在宅治験）",
+     "臨床研究支援・DCT"
+    ]
+   },
+   {
+    "slug": "genai-trial-documentation",
+    "name": "生成AIによる治験業務の効率化",
+    "description": "生成AIで治験文書の作成やカルテ所見の構造化、生存確認を自動化する",
+    "examples": [
+     "AIdoc（生成AIによる医療文書作成サービス）",
+     "AIprt（生成AIによる治験タスク作成サービス）",
+     "Vitalive OS（治験の生存確認〈OS確認〉自動化ソリューション）"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "fitness",
+  "types": [
+   {
+    "slug": "fitness-studio",
+    "name": "ヨガ・ピラティス等のスタジオ",
+    "description": "ホットヨガやマシンピラティスなどのスタジオを多店舗・FCで運営する",
+    "examples": [
+     "ホットヨガスタジオLAVA",
+     "ソエルスタジオ（女性限定マシンピラティス&フィットネス店舗）",
+     "zen place ピラティス・ヨガスタジオ",
+     "マシンピラティススタジオRintosull"
+    ]
+   },
+   {
+    "slug": "personal-training",
+    "name": "パーソナルトレーニング",
+    "description": "トレーナーが個別に運動・食事を指導するジムやオンラインの指導サービス",
+    "examples": [
+     "パーソナルトレーニングジム「LIME PERSONAL GYM」",
+     "SOELUパーソナル（オンラインパーソナル）",
+     "Trainy.jp（パーソナルダイエットトレーナーサービス）"
+    ]
+   },
+   {
+    "slug": "online-home-fitness",
+    "name": "オンライン・自宅フィットネス",
+    "description": "ライブ配信や動画、鏡型デバイスで自宅から運動できる定額サービス",
+    "examples": [
+     "SOELU（オンラインヨガ・フィットネス）",
+     "LEAN BODY（定額制オンラインフィットネス）",
+     "鏡型オンラインフィットネス「MIRROR FIT.」（サボれるフィットネス「saboness」等のコンテンツ）",
+     "Beatfit（パーソナルフィットネス・セルフケアアプリ）"
+    ]
+   },
+   {
+    "slug": "fitness-business-support",
+    "name": "フィットネス事業者向け支援",
+    "description": "ジム・スポーツ現場に業界情報誌やITツール、店舗設置機器を提供する事業",
+    "examples": [
+     "Fitness Business（フィットネス経営情報誌）",
+     "GRANDE（オーダーメイドサプリメントサーバー）",
+     "スポーツ・運動現場向けITサービス「CLIMB Factory」"
+    ]
+   }
+  ]
+ },
+ {
+  "category": "pharma",
+  "types": [
+   {
+    "slug": "innovative-drug-maker",
+    "name": "新薬メーカー（医療用医薬品）",
+    "description": "がん・神経・希少疾患などの新薬を研究開発し、医療機関向けに販売する",
+    "examples": [
+     "オンコロジー（がん）",
+     "アルツハイマー病治療剤 レケンビ",
+     "前立腺がん治療剤 XTANDI",
+     "抗悪性腫瘍剤 オプジーボ（国内販売・BMSからのロイヤルティ）"
+    ]
+   },
+   {
+    "slug": "ai-computational-drug-discovery",
+    "name": "AI・計算による創薬",
+    "description": "AIやスパコンで薬の候補分子や抗体を設計し、製薬と共同研究する事業",
+    "examples": [
+     "Elix Discovery（AI創薬プラットフォーム）",
+     "AI抗体・ペプチド創薬プラットフォーム（独自抗体LLM＋自社ウェットラボ）",
+     "計算創薬ソリューション（AI創薬支援）",
+     "分子AI基盤モデル「ZAO」・分子生成モデル「KOYA」の提供"
+    ]
+   },
+   {
+    "slug": "regenerative-cell-therapy",
+    "name": "再生医療・細胞治療",
+    "description": "iPS細胞・幹細胞などから作る再生医療等製品や細胞医薬を開発する事業",
+    "examples": [
+     "iPS細胞由来心筋球（HS-001）による重症心不全の心筋再生医療",
+     "iPS細胞由来心筋シート「リハート」（重症心不全向け再生医療等製品）",
+     "再生医療等製品の開発（骨軟骨・血管・神経等の3D細胞製品）",
+     "造血幹細胞の体外大量増幅技術による細胞治療製品の開発（血液がん・遺伝子疾患）"
+    ]
+   },
+   {
+    "slug": "gene-nucleic-therapy",
+    "name": "遺伝子治療・ゲノム編集・核酸",
+    "description": "遺伝子治療やゲノム編集、核酸・mRNAを標的にする新しい薬を開発する",
+    "examples": [
+     "日本発ゲノム編集技術CRISPR-Cas3を用いた創薬パイプライン",
+     "造血幹細胞遺伝子治療（Orchard Therapeutics）",
+     "核酸医薬品の自社パイプライン創出",
+     "mRNA標的低分子創薬の共同創薬研究（創薬プラットフォーム ibVIS→aibVIS）"
+    ]
+   },
+   {
+    "slug": "generic-drug",
+    "name": "ジェネリック医薬品",
+    "description": "特許切れ医薬品の後発品を製造・販売するジェネリックメーカーの事業",
+    "examples": [
+     "ジェネリック医薬品（沢井製薬）",
+     "後発医薬品の製造販売（フェルゼンファーマ）",
+     "後発医薬品（キョーリン リメディオ）",
+     "医薬品製造販売事業（共創未来ファーマ）"
+    ]
+   },
+   {
+    "slug": "otc-consumer-health",
+    "name": "OTC医薬品・セルフケア製品",
+    "description": "ドラッグストアで売る一般用医薬品やサプリ・目薬などセルフケア製品の事業",
+    "examples": [
+     "第一三共ヘルスケア（OTC医薬品・スキンケア等のセルフケア事業）",
+     "武田コンシューマーヘルスケア（大衆薬事業：アリナミン・ベンザ等）",
+     "一般用目薬（サンテシリーズ）",
+     "ニュートラシューティカルズ（ポカリスエット、ネイチャーメイド等）"
+    ]
+   },
+   {
+    "slug": "cdmo-contract-research",
+    "name": "製造受託（CDMO）・受託研究",
+    "description": "製薬企業から医薬品・細胞製剤の製造や研究用の解析を受託する事業",
+    "examples": [
+     "CDMO（製剤開発・製造受託）",
+     "遺伝子・細胞製剤のCDMO（CAR-T・MSC等の製造受託・品質試験）",
+     "バイオCDMO（FUJIFILM Biotechnologies）",
+     "シングルセル・空間的遺伝子発現解析などの受託解析サービス"
+    ]
+   },
+   {
+    "slug": "pharma-beyond-the-pill",
+    "name": "製薬のデジタル・周辺サービス",
+    "description": "製薬企業が薬以外で患者を支える、デジタルヘルスや情報サービスの事業",
+    "examples": [
+     "Rx+事業（デジタルヘルス）",
+     "認知症エコシステム（デジタル・介護）",
+     "がん患者向け情報サービス（michiteku）",
+     "ヘルスケアサービス（ストリーム・アイ、Yui Connection）"
+    ]
+   }
+  ]
+ }
+]

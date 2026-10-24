@@ -7,6 +7,7 @@ import type {
   Disclosure,
   EarningsReport,
   Funding,
+  BizType,
   ForecastRevision,
   UpdateEntry,
   Article, ArticleMeta, ArchiveArticle, Category, Company, MonthlyEpisode, NewsItem, Overseas, Partnership, Person, Service, Theme,
@@ -95,6 +96,14 @@ export const END_REASONS: Record<string, { label: string; note: string }> = {
 export const STOPPED = ['終了', '譲渡', '統合', '休止'];
 export const getPartnerships = () => memo('partnerships', () => read<Partnership[]>('partnerships.json'));
 export const getThemes = () => memo('themes', () => read<Theme[]>('themes.json'));
+/** 事業の種類（カテゴリごと、data/taxonomy.json の並び順） */
+export const getBizTypes = () =>
+  memo('biztypes', () =>
+    (fs.existsSync(path.join(ROOT, 'data', 'taxonomy.json')) ? read<{ category: string; types: Omit<BizType, 'category'>[] }[]>('taxonomy.json') : [])
+      .flatMap((c) => c.types.map((t) => ({ ...t, category: c.category }))),
+  );
+export const getBizType = (slug: string) => getBizTypes().find((t) => t.slug === slug);
+export const servicesOfType = (slug: string) => getServices().filter((s) => s.type === slug);
 export const servicesInTheme = (slug: string) => getServices().filter((s) => s.themes?.includes(slug));
 
 export const getService = (id: string) => getServices().find((s) => s.id === id);

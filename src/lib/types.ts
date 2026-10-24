@@ -112,7 +112,14 @@ export type Service = {
   updatedAt?: string;
   /** テーマ（歴代事業の調査単位）の slug */
   themes?: string[];
+  /** 事業の種類（data/taxonomy.json の slug）。カテゴリ → 事業の種類 → 各社のサービス の真ん中 */
+  type?: string;
+  /** 名前を具体的なサービス名に差し替える前の名前 */
+  formerName?: string;
 };
+
+/** 事業の種類（カテゴリの下の分け方） */
+export type BizType = { slug: string; name: string; description: string; theme?: string; category: string };
 
 export type Theme = { slug: string; name: string; lead: string; articles?: string[] };
 

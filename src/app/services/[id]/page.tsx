@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { withBase } from '@/lib/base';
 import { notFound } from 'next/navigation';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { END_REASONS, categoryName, getCompany, getService, getServices, servicesIn } from '@/lib/data';
+import { END_REASONS, categoryName, getBizType, getCompany, getService, getServices, servicesIn } from '@/lib/data';
 import { ym } from '@/lib/ym';
 
 export function generateStaticParams() {
@@ -19,11 +19,13 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
   const s = getService((await params).id);
   if (!s) notFound();
   const company = s.companyId ? getCompany(s.companyId) : undefined;
+  const bt = s.type ? getBizType(s.type) : undefined;
   const siblings = servicesIn(s.category).filter((x) => x.id !== s.id).slice(0, 6);
   return (
     <>
       <nav className="breadcrumb" aria-label="パンくず">
-        <Link href="/">トップ</Link> / <Link href="/services/">事業</Link> / <span>{s.name}</span>
+        <Link href="/">トップ</Link> / <Link href="/services/">事業</Link> / <Link href={`/services/c/${s.category}/`}>{categoryName(s.category)}</Link>
+        {bt && <> / <Link href={`/services/c/${s.category}/#${bt.slug}`}>{bt.name}</Link></>} / <span>{s.name}</span>
       </nav>
       <div className="page-head">
         <div className="kicker">Business</div>

@@ -960,3 +960,38 @@ a.upd-title:hover { color: var(--navy); }
 .fch-table tr.last td { font-weight: 700; }
 .fch-table td.moved { color: var(--ink); font-weight: 800; text-decoration: underline; text-decoration-color: #d08a2c; text-underline-offset: 3px; }
 .fch-now { display: inline-block; margin-left: 8px; font-style: normal; font-size: 10.5px; font-weight: 800; color: #fff; background: var(--navy); border-radius: 4px; padding: 1px 6px; vertical-align: 1px; }
+
+/* 事業データベース：カテゴリ → 事業の種類 → 各社のサービス */
+.tx-sec { margin: 0 0 8px; }
+.tx-group { margin: 30px 0 12px; font-size: 13px; font-weight: 800; color: var(--teal); letter-spacing: .08em; }
+.tx-cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+.tx-cat { border: 1px solid var(--line); border-radius: 12px; background: var(--card); padding: 18px 20px; }
+.tx-cat h3 { margin: 0 0 4px; font-size: 18px; font-weight: 800; display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.tx-cat h3 a { color: var(--ink); }
+.tx-cat h3 small { font-size: 12px; color: var(--muted); font-weight: 700; white-space: nowrap; }
+.tx-cat ul { list-style: none; margin: 10px 0 0; padding: 0; }
+.tx-cat li { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-top: 1px dashed var(--line); font-size: 14px; }
+.tx-cat li a { font-weight: 700; color: var(--ink); }
+.tx-cat li.all a { color: var(--navy); }
+.tx-cat li span { color: var(--muted); font-size: 12.5px; white-space: nowrap; }
+.tx-all { font-size: 22px; font-weight: 800; margin: 44px 0 14px; }
+.tx-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 26px; }
+.tx-nav a { padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; font-weight: 700; color: var(--ink); background: var(--card); }
+.tx-nav a.empty { color: var(--muted); }
+.tx-nav a span { color: var(--muted); margin-left: 6px; font-weight: 600; }
+.tx-type { border: 1px solid var(--line); border-radius: 12px; background: var(--card); margin: 0 0 18px; overflow: hidden; scroll-margin-top: 80px; }
+.tx-type-h { padding: 16px 20px; background: var(--bg-2); border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }
+.tx-type-h h2 { margin: 0; font-size: 19px; font-weight: 800; }
+.tx-type-h p { margin: 4px 0 0; font-size: 13.5px; color: var(--muted); }
+.tx-type-h .cnt { white-space: nowrap; font-size: 12.5px; color: var(--muted); text-align: right; }
+.tx-type-h .cnt b { font-size: 18px; color: var(--ink); }
+.tx-path { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+.tx-svc { width: 100%; border-collapse: collapse; font-size: 14px; }
+.tx-svc td { padding: 10px 20px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.tx-svc tr:last-child td { border-bottom: 0; }
+.tx-svc td.n { font-weight: 700; width: 40%; } .tx-svc td.n a { color: var(--ink); }
+.tx-svc td.c { width: 28%; } .tx-svc td.c a { color: var(--navy); font-weight: 700; }
+.tx-svc td.y { color: var(--muted); white-space: nowrap; width: 16%; }
+.tx-empty { margin: 0; padding: 14px 20px; color: var(--muted); font-size: 13.5px; }
+.tl-more { padding: 10px 20px; font-size: 13px; font-weight: 700; border-top: 1px solid var(--line); }
+@media (max-width: 640px) { .tx-svc td { display: block; width: auto !important; padding: 2px 16px; border: 0; } .tx-svc tr { display: block; padding: 8px 0; border-bottom: 1px solid var(--line); } .tx-type-h { padding: 14px 16px; } }
