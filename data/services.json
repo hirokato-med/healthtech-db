@@ -18001,7 +18001,7 @@
     "name": "保険ナレッジプラットフォーム",
     "company": "株式会社Ubicomホールディングス",
     "companyId": "8010401059998",
-    "category": "medical-dx",
+    "category": "insuarance",
     "description": "生命保険会社などの給付金支払査定業務向けに、査定に必要な医療情報や知識を一元的にまとめたプラットフォーム。査定の効率化とスピードアップを支援し、2026年に朝日生命保険でも利用が始まった。",
     "hp": "https://www.ubicom-hd.com/ja/company/history.html",
     "startedYear": 2020,
@@ -18012,7 +18012,8 @@
       "https://prtimes.jp/main/html/rd/p/000000027.000055206.html"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "公式沿革「2020年 保険ナレッジプラットフォーム事業を開始」"
+    "startBasis": "公式沿革「2020年 保険ナレッジプラットフォーム事業を開始」",
+    "type": "medical-life-insurance"
   },
   {
     "id": "b-f1cda560",
@@ -18716,7 +18717,7 @@
     "name": "ケアマネジメント・オンライン（シルバーマーケティング）",
     "company": "インターネットインフィニティー",
     "companyId": "2010001088949",
-    "category": "nursing",
+    "category": "marketing-support",
     "description": "ケアマネジャー向けの情報サイト「ケアマネジメント・オンライン」を運営し、会員基盤を生かして企業の高齢者向け商品・サービスのマーケティングを支援するシルバーマーケティング事業。仕事と介護の両立支援の福利厚生サービスも手がける。",
     "hp": "https://iif.jp/business/",
     "startedYear": 2005,
@@ -18733,7 +18734,8 @@
         "text": "ChatGPTをケアマネ業務で活用できる新機能をローンチ",
         "source": "https://prtimes.jp/main/html/rd/p/000000176.000012000.html"
       }
-    ]
+    ],
+    "type": "healthcare-product-marketing"
   },
   {
     "id": "b-e6e4a923",
@@ -19266,7 +19268,7 @@
     "name": "YO-TSU DOCTOR（腰痛改善アプリ）",
     "company": "株式会社ZEN PLACE",
     "companyId": "8013201010701",
-    "category": "home-visit-nursing",
+    "category": "health-consulting",
     "description": "腰痛に悩む人向けのアプリ。整形外科医の金岡恒治氏（早稲田大学教授）と理学療法士の成田崇矢氏（桐蔭横浜大学教授）の治療法をもとに、アプリ上の問診で腰痛のタイプを判定し、タイプに合った改善エクササイズを示す。",
     "hp": "https://corporate.zenplace.co.jp/service",
     "startedYear": 2021,
@@ -19278,7 +19280,8 @@
     ],
     "updatedAt": "2026-10",
     "formerName": "YO-TSU DOCTOR（ヘルスケアアプリ）",
-    "startBasis": "公式沿革「2021年 ヘルスケアアプリYO-TSU DOCTORをローンチ」"
+    "startBasis": "公式沿革「2021年 ヘルスケアアプリYO-TSU DOCTORをローンチ」",
+    "type": "body-condition-log-app"
   },
   {
     "id": "b-9f7a57cc",
@@ -20052,7 +20055,7 @@
     "name": "Co-ReFit（製薬企業向けSFA/CRM）",
     "company": "ミュートス",
     "companyId": "1120001117458",
-    "category": "medical-dx",
+    "category": "pharma-marketing-support",
     "description": "2024-12スマホ版、2026-06 AI活動サポート（β）追加",
     "hp": "https://www.mythos-jp.com/services/",
     "startedYear": 2024,
@@ -20063,7 +20066,8 @@
       "https://www.mythos-jp.com/services/"
     ],
     "updatedAt": "2026-10",
-    "startedAt": "2024-03"
+    "startedAt": "2024-03",
+    "type": "pharma-digital-promotion"
   },
   {
     "id": "b-5f96f8e3",
@@ -26274,7 +26278,7 @@
     "name": "介護データ事業（Rehab Insight）",
     "company": "株式会社Rehab for JAPAN",
     "companyId": "6010401125397",
-    "category": "medical-dx",
+    "category": "real-world-data",
     "description": "介護事業所に蓄積された介護データを匿名化し、解析できる形に加工したデータ分析基盤。施設ごとに形式の異なる記録を整え、要介護高齢者の生活機能などのデータを研究や新産業の創出に使えるようにする。",
     "hp": "https://rehabforjapan.com/service/",
     "startedYear": 2023,
@@ -26285,7 +26289,8 @@
       "https://rehabforjapan.com/company/"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "公式沿革「2023年12月 介護データを解析できるデータ分析基盤『Rehab Insight』を構築」"
+    "startBasis": "公式沿革「2023年12月 介護データを解析できるデータ分析基盤『Rehab Insight』を構築」",
+    "type": "rwd-analysis-service"
   },
   {
     "id": "b-e2364c70",
@@ -31598,7 +31603,7 @@
     "name": "スマートリハ（リハビリ医療DX）",
     "company": "株式会社INTEP",
     "companyId": "jp-017",
-    "category": "medical-saas",
+    "category": "medical-dx",
     "description": "リハビリテーション部門向けのAIプラットフォーム。AI-OCRや音声入力で多重入力を整理して記録業務を減らし、リハビリの実施内容や成果を可視化して価値を示せるようにする。",
     "hp": "https://www.intep.co.jp/service/smartrehab/",
     "startedYear": null,
@@ -31608,14 +31613,15 @@
     ],
     "updatedAt": "2026-10",
     "knownSince": "2024-10",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000150266.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000150266.html",
+    "type": "ai-medical-documentation"
   },
   {
     "id": "b-198d4bfd",
     "name": "FG-001（身体機能レコードシステム）",
     "company": "株式会社INTEP",
     "companyId": "jp-017",
-    "category": "medical-saas",
+    "category": "medical-data-analytics",
     "description": "タブレット2台で歩行速度・片脚立位・TUG・5回立ち上がり・握力などの運動機能やADL・認知機能を測り、測定中の動画とあわせてクラウドで一括管理する身体機能の記録システム。過去と現在の動画を比べられる。",
     "hp": "https://www.intep.co.jp/service/features/",
     "startedYear": null,
@@ -31624,7 +31630,8 @@
       "https://www.intep.co.jp/service/features/"
     ],
     "updatedAt": "2026-10",
-    "formerName": "FG-001"
+    "formerName": "FG-001",
+    "type": "digital-biomarker"
   },
   {
     "id": "b-591d0369",
@@ -37806,7 +37813,7 @@
     "name": "ヘルスツーリズム（リトリートツアー・スタディツアー）",
     "company": "Nurse and Craft株式会社",
     "companyId": "4240003004375",
-    "category": "home-visit-nursing",
+    "category": "recruting-solutions",
     "description": "病院や介護施設で働く医療・介護従事者向けに、瀬戸内の大崎下島で心身を休めキャリアを見つめ直すリトリートツアー「とびしまナース・リトリート」や、地域医療を学ぶスタディツアーを提供する。",
     "hp": "https://nurseandcraft.io/",
     "startedYear": 2024,
@@ -37817,7 +37824,8 @@
     ],
     "updatedAt": "2026-10",
     "startedAt": "2024-01",
-    "startBasis": "PR TIMES（2024-01-29）モニターツアーを経て本格開始"
+    "startBasis": "PR TIMES（2024-01-29）モニターツアーを経て本格開始",
+    "type": "healthcare-worker-education"
   },
   {
     "id": "b-db40f8fa",
@@ -38897,7 +38905,7 @@
     "name": "garden（サプリメント・健康食品のOEM/ODM）",
     "company": "Yap株式会社",
     "companyId": "9010701044022",
-    "category": "wholesale",
+    "category": "marketing-support",
     "description": "サプリメント・健康食品を作りたい企業向けに、企画から製造までをOEM/ODMで請け負い、原料調達やブランディングも一括で支援する事業。",
     "hp": "https://www.yap.co.jp/ja",
     "startedYear": null,
@@ -38906,7 +38914,8 @@
       "https://www.yap.co.jp/ja/supplement-dev",
       "https://www.yap.co.jp/ja"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "healthcare-product-marketing"
   },
   {
     "id": "b-248711cb",
@@ -40988,7 +40997,7 @@
     "name": "研究・学会向けウェブサイト制作",
     "company": "株式会社アクセライト",
     "companyId": "jp-131",
-    "category": "clinical-trial-support",
+    "category": "medical-dx",
     "description": "大学・研究機関や学会向けに、学会・研究室のホームページや研究プロジェクト用サイトを制作・運用する事業。調査研究のシステムとの連携やその後のデータ分析まで対応する。",
     "hp": "https://accelight.co.jp/",
     "startedYear": 2011,
@@ -40997,14 +41006,15 @@
     "sources": [
       "https://accelight.co.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "medical-it-development"
   },
   {
     "id": "b-159a168e",
     "name": "学会事務局の運営代行",
     "company": "株式会社アクセライト",
     "companyId": "jp-131",
-    "category": "clinical-trial-support",
+    "category": "medical-management-support",
     "description": "学会の事務局業務を受託し、会員管理・窓口対応・郵送対応から財務管理・委員会運営までを代行する事業。会員管理システムの開発・提供も行う。",
     "hp": "https://accelight.co.jp/",
     "startedYear": null,
@@ -41012,7 +41022,8 @@
     "sources": [
       "https://accelight.co.jp/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "healthcare-consulting"
   },
   {
     "id": "b-a79b24e8",
@@ -41606,7 +41617,7 @@
     "name": "医学資料の保管・管理（寿データバンク）",
     "company": "ファーマライズホールディングス株式会社",
     "companyId": "5011201003645",
-    "category": "pharmacy-dx",
+    "category": "medical-dx",
     "description": "病院のカルテやレントゲンフィルムなどの医学資料を預かって保管・管理する専門事業。1冊単位の返却や翌日配送、データ化にも対応し、全国約150の医療機関から受託する。2012年10月に寿製作所（現・寿データバンク）を完全子会社化した。",
     "hp": "",
     "startedYear": 2012,
@@ -41618,7 +41629,8 @@
       "https://www.pharmarise.com/company/profile.html"
     ],
     "updatedAt": "2026-10",
-    "formerName": "医学資料の保管・管理"
+    "formerName": "医学資料の保管・管理",
+    "type": "medical-claims-bpo"
   },
   {
     "id": "b-902f62d3",
@@ -42849,7 +42861,7 @@
     "name": "感染制御製品（ミルトン・ルビスタ）",
     "company": "杏林製薬株式会社",
     "companyId": "8010001096491",
-    "category": "pharma",
+    "category": "medical-device",
     "description": "医療機関などの感染対策向けに、環境除菌・洗浄剤「ルビスタ」と消毒剤「ミルトン」を販売する事業。ミルトン事業はP&Gから買収した。",
     "hp": "https://www.kyorin-pharm.co.jp/company/business/infection.shtml",
     "startedYear": 1998,
@@ -42859,7 +42871,8 @@
       "https://www.kyorin-pharm.co.jp/company/history.shtml"
     ],
     "updatedAt": "2026-10",
-    "startedAt": "1998"
+    "startedAt": "1998",
+    "type": "therapeutic-devices-supplies"
   },
   {
     "id": "b-06eb9d88",
@@ -42994,25 +43007,6 @@
     "type": "corporate-venture-capital"
   },
   {
-    "id": "b-eef2be3b",
-    "name": "アニマルヘルス（動物用医薬品・飼料添加物）",
-    "company": "あすか製薬ホールディングス株式会社",
-    "companyId": "8010401159328",
-    "category": "pharma",
-    "description": "あすか製薬グループのあすかアニマルヘルスが、動物用医薬品・動物用医療機器や飼料・飼料添加物などを製造・販売・輸出入する事業。2013年6月に設立した。",
-    "hp": "https://www.aska-pharma-hd.co.jp/company/company.html",
-    "startedYear": 1957,
-    "status": "提供中",
-    "startedAt": "1957",
-    "sources": [
-      "https://www.aska-animal.co.jp/about/company.html",
-      "https://www.aska-pharma-hd.co.jp/company/corporate_history.html",
-      "https://www.aska-pharma-hd.co.jp/company/company.html"
-    ],
-    "updatedAt": "2026-10",
-    "startBasis": "前身の帝国臓器製薬が「動物用シナホリン」「動物用オバホルモンベンツアート」「獣医用セロトロピン」を発売（あすかアニマルヘルス公式沿革の1957年）"
-  },
-  {
     "id": "b-3650b8cf",
     "name": "抗菌薬（Meiji Seika ファルマ）",
     "company": "明治ホールディングス株式会社",
@@ -43119,21 +43113,6 @@
         "source": "https://edinetdb.jp/company/E21902/history"
       }
     ]
-  },
-  {
-    "id": "b-9a49e956",
-    "name": "動物薬",
-    "company": "明治ホールディングス株式会社",
-    "companyId": "9010001123947",
-    "category": "pharma",
-    "description": "グループのMeiji Seikaファルマ系が手がける動物用医薬品事業。家畜などに使う抗菌剤や消毒剤を中心に、ワクチンの開発・販売や飼養管理のノウハウも生かしてグローバルに展開する。",
-    "hp": "https://www.meiji.com/corporate/business/pharmaceuticals.html",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://www.meiji.com/corporate/business/pharmaceuticals.html"
-    ],
-    "updatedAt": "2026-10"
   },
   {
     "id": "b-724d7f39",
@@ -44086,22 +44065,6 @@
     "type": "corporate-wellness-program"
   },
   {
-    "id": "b-5d498476",
-    "name": "動物用医薬品（セバ物産アニマルヘルス）",
-    "company": "三井物産株式会社",
-    "companyId": "1010001008767",
-    "category": "clinic-chain",
-    "description": "日本の動物用医薬品市場向けに、子会社の物産アニマルヘルスと仏Cevaの日本法人を統合した合弁会社「セバ物産アニマルヘルス」を設立。三井物産は物産アニマルヘルス株式の60%をCevaに譲渡し、Cevaへの追加出資も行う。",
-    "hp": "https://www.mitsui.com/jp/ja/release/2026/1253452_15330.html",
-    "startedYear": 2026,
-    "status": "提供中",
-    "startedAt": "2026-05",
-    "sources": [
-      "https://www.mitsui.com/jp/ja/release/2026/1253452_15330.html"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-3deca584",
     "name": "医薬品開発受託（CRO）エイツーヘルスケア",
     "company": "伊藤忠商事株式会社",
@@ -44329,7 +44292,7 @@
     "name": "病院運営（NTT東日本関東病院）",
     "company": "NTT株式会社",
     "companyId": "7010001065142",
-    "category": "real-world-data",
+    "category": "clinic-chain",
     "description": "東京都品川区で運営する総合病院。許可病床594床（一般544床・精神50床）の急性期病院で、地域がん診療連携拠点病院に指定されている。1951年に関東逓信病院として開設した。",
     "hp": "https://www.nmct.ntt-east.co.jp/",
     "startedYear": 1951,
@@ -44341,7 +44304,8 @@
       "https://www.nmct.ntt-east.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "病院公式「1951年 関東逓信病院開設」"
+    "startBasis": "病院公式「1951年 関東逓信病院開設」",
+    "type": "clinic-chain-operation"
   },
   {
     "id": "b-180b0d3a",
@@ -45275,7 +45239,7 @@
     "name": "ファーマパッケージング（医療用ガラス・容器）",
     "company": "ニプロ株式会社",
     "companyId": "8120001068678",
-    "category": "medical-device",
+    "category": "pharma",
     "description": "医薬品の容器となるアンプル・バイアル用のガラス管や医療用ガラス容器などを製薬企業向けに製造販売する事業。1954年に日本硝子商事（現ニプロ）を設立してアンプル用硝子管の製造販売を始めたのが原点。",
     "hp": "https://www.nipro.co.jp/corporate/biography/",
     "startedYear": 1954,
@@ -45285,7 +45249,8 @@
       "https://www.nipro.co.jp/corporate/biography/"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "公式「ニプロのあゆみ」1954年に日本硝子商事を設立し、アンプル用硝子管などの製造販売に着手"
+    "startBasis": "公式「ニプロのあゆみ」1954年に日本硝子商事を設立し、アンプル用硝子管などの製造販売に着手",
+    "type": "cdmo-contract-research"
   },
   {
     "id": "b-9980123f",
@@ -45777,7 +45742,8 @@
     "sources": [
       "https://otafuku-lab.co/service/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "care-service-operation"
   },
   {
     "id": "b-8d315b76",
@@ -46050,7 +46016,7 @@
     "name": "RatoAI",
     "company": "アイラト株式会社",
     "companyId": "3020001145541",
-    "category": "medical-image",
+    "category": "diagnostic-support",
     "description": "IMRT（強度変調放射線治療）の治療計画作成をAIで支援する放射線治療計画デザインソフトウェア。治療計画の品質のばらつきや作成時間を減らす。2026年6月にクラスⅢのプログラム医療機器として承認（30800BZX00163000）。",
     "hp": "",
     "startedYear": 2026,
@@ -46063,7 +46029,8 @@
       "https://airato.jp/about/",
       "https://www.nikkei.com/article/DGXZQOCC266EF0W6A620C2000000/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "disease-specific-ai-samd"
   },
   {
     "id": "b-6d7cd797",
@@ -46229,24 +46196,6 @@
     "type": "home-wearable-medical-device",
     "updatedAt": "2026-10",
     "startedAt": "2026-10"
-  },
-  {
-    "id": "b-91b96b16",
-    "name": "OZMO イオンジェクター アイセラム",
-    "company": "株式会社ｂｉｏｎｔｏ",
-    "companyId": "6370001052329",
-    "category": "medical-device",
-    "description": "ionjectorシリーズのエントリーモデルと組み合わせる目もと用の集中ケア美容液。高吸収型ヒアルロン酸「Hyalion」などを配合し、2026年10月30日からクラウドファンディングで展開予定。",
-    "hp": "",
-    "startedYear": 2026,
-    "status": "提供中",
-    "startedAt": "2026-10",
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000006.000165376.html",
-      "https://bionto.co.jp/products/",
-      "https://prtimes.jp/main/html/rd/p/000000005.000165376.html"
-    ],
-    "updatedAt": "2026-10"
   },
   {
     "id": "b-5feeef3a",
@@ -46554,7 +46503,7 @@
     "name": "ハハロル",
     "company": "超楽長寿株式会社",
     "companyId": "5011201024435",
-    "category": "mental-health",
+    "category": "personal-health-record",
     "description": "50歳以上に特化した医師監修の恋愛・婚活マッチングサービス。新たなつながりの機会を作り、高齢者の社会的孤独・孤立の予防・解消をめざす。高知大学医学部と孤独感への効果を検証している。",
     "hp": "",
     "startedYear": 2024,
@@ -46564,7 +46513,8 @@
       "https://prtimes.jp/main/html/rd/p/000000006.000149000.html",
       "https://hhll.jp/press-release/joint-research-with-kochi-u-med-202609/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "patient-community-app"
   },
   {
     "id": "b-c690fe49",
@@ -46663,7 +46613,7 @@
     "name": "BSL-177",
     "company": "ＡＭＳ企画株式会社",
     "companyId": "5011001126563",
-    "category": "pharma",
+    "category": "medical-device",
     "description": "核医学治療（ルテチウム177など）を受けた患者の放射性尿をベッドサイドで吸着カラムにより処理するシステム。排水管理の規制対応を容易にし、早期退院と病室の回転を早める。",
     "hp": "",
     "startedYear": 2025,
@@ -46674,7 +46624,8 @@
       "https://www.ams-plan.com/release/20250606ja.html",
       "https://www.ams-plan.com/release/20251001ja.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "therapeutic-devices-supplies"
   },
   {
     "id": "b-219461b2",
@@ -46968,7 +46919,8 @@
       "https://eu-phoria.jp/"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "リリースのプレスリリース"
+    "startBasis": "リリースのプレスリリース",
+    "type": "fitness-business-support"
   },
   {
     "id": "b-2d2ddf79",
@@ -47207,7 +47159,7 @@
     "name": "NEWTon",
     "company": "株式会社Ｇａｕｄｉ Ｃｌｉｎｉｃａｌ",
     "companyId": "8011101095425",
-    "category": "medical-management-support",
+    "category": "pharma",
     "description": "細胞製造、品質保証、物流、投与、治療データを一元的につなぐ再生医療のオペレーティングシステム。KIOSKを起点とした細胞供給網「Cell Fulfillment」の基盤となる。",
     "hp": "",
     "startedYear": null,
@@ -47215,7 +47167,8 @@
     "sources": [
       "https://gaudi-clinical.co.jp/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "regenerative-cell-therapy"
   },
   {
     "id": "b-bd419215",
@@ -47556,7 +47509,8 @@
         "text": "運営会社が金沢QOL支援センターから株式会社リハスに社名変更",
         "source": "https://prtimes.jp/main/html/rd/p/000000008.000086515.html"
       }
-    ]
+    ],
+    "type": "care-service-operation"
   },
   {
     "id": "b-84ee4c2e",
@@ -48198,7 +48152,7 @@
     "name": "Medi Lex",
     "company": "株式会社Ｌｅｇａｌ Ｄｏｃｔｏｒ",
     "companyId": "9010001238596",
-    "category": "telemedicine",
+    "category": "health-consulting",
     "description": "休職・傷病手当・医療事故・労災認定などの複雑な案件を、医師と弁護士がオンラインで同時に相談に乗る有料の専門相談サービス。",
     "hp": "",
     "startedYear": null,
@@ -48206,7 +48160,8 @@
     "sources": [
       "https://legal-doctor.com/company/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "doctor-chat-consultation"
   },
   {
     "id": "b-cbd18d8e",
@@ -48460,7 +48415,7 @@
     "name": "タイムシフトAI相談室",
     "company": "イントロン・スペース株式会社",
     "companyId": "4010401148557",
-    "category": "medical-device",
+    "category": "pharma-marketing-support",
     "description": "男性の尿もれ・頻尿や尿ケア製品TIMESHIFTの使い方に関する疑問に、AIが答えるオンライン相談サービス。2026年10月に公開した。",
     "hp": "",
     "startedYear": 2026,
@@ -48471,7 +48426,8 @@
       "https://intronspace.com/2026/10/16/timeshift-ai-consultation/"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "公開（プレスリリース）"
+    "startBasis": "公開（プレスリリース）",
+    "type": "patient-support-awareness"
   },
   {
     "id": "b-9b0f3020",
@@ -48771,7 +48727,7 @@
     "name": "セラピアVR（TherapeiaVR、旧XR Therapy）",
     "company": "株式会社ｘＣｕｒａ",
     "companyId": "8290001091911",
-    "category": "medical-dx",
+    "category": "medical-device",
     "description": "治療中の痛みや不安を、VRヘッドセットによる没入体験で和らげるリラクゼーションプログラム。歯科などの医療機関で処置中に使う。",
     "hp": "",
     "startedYear": 2022,
@@ -48782,7 +48738,8 @@
       "https://bio.nikkeibp.co.jp/atcl/release/22/12/05/15297/",
       "https://www.moguravr.com/xr-therapy/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "therapeutic-devices-supplies"
   },
   {
     "id": "b-e1f812f9",
@@ -49321,7 +49278,7 @@
     "name": "オートファジー評価・ヘルススパン研究（XPRIZE Healthspan挑戦）",
     "company": "株式会社AutoPhagyGO",
     "companyId": "1120901041427",
-    "category": "pharma",
+    "category": "simple-inspection",
     "description": "細胞のオートファジー活性を指標に、食品素材などの介入が老化に与える影響を調べる研究基盤。2025年10月に介入臨床試験を開始し、キュレーションズ・電通とXPRIZE Healthspanに参加。",
     "hp": "",
     "startedYear": 2024,
@@ -49334,7 +49291,8 @@
       "https://prtimes.jp/main/html/rd/p/000000008.000107643.html"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "キュレーションズとの「攻めのAgeTech」MOU締結とXPRIZE Healthspanへの参加決定の発表（自社プレスリリース2024-07-31）"
+    "startBasis": "キュレーションズとの「攻めのAgeTech」MOU締結とXPRIZE Healthspanへの参加決定の発表（自社プレスリリース2024-07-31）",
+    "type": "next-gen-test-tech"
   },
   {
     "id": "b-756bd3c4",
@@ -50552,7 +50510,7 @@
     "name": "認知症と向き合う365",
     "company": "株式会社CogSmart",
     "companyId": "6370001045002",
-    "category": "medical-image",
+    "category": "diagnostic-support",
     "description": "将来の認知症に備えるためのサブスクリプションサービス。脳の状態の見える化と、予防・改善に向けた取り組みを継続的に支援する内容として2025年5月に開始。",
     "hp": "",
     "startedYear": 2025,
@@ -50562,7 +50520,8 @@
       "https://prtimes.jp/main/html/rd/p/000000020.000091030.html"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "サブスクリプションサービスとして開始（プレスリリース）"
+    "startBasis": "サブスクリプションサービスとして開始（プレスリリース）",
+    "type": "cognitive-function-assessment"
   },
   {
     "id": "b-3be6298d",
@@ -51209,24 +51168,6 @@
     "startedAt": "2018-03"
   },
   {
-    "id": "b-d115cd17",
-    "name": "Filii（こどもセキュリティアプリ）",
-    "company": "エースチャイルド株式会社",
-    "companyId": "7010701028571",
-    "category": "mental-health",
-    "description": "子どものスマホ利用を前提に、ネットいじめやダイレクトメッセージによる犯罪被害の兆候を検知し、親子で情報を共有する見守りアプリ。",
-    "hp": "",
-    "startedYear": 2014,
-    "status": "提供中",
-    "sources": [
-      "https://www.atpress.ne.jp/news/48052",
-      "https://www.as-child.com/service/"
-    ],
-    "updatedAt": "2026-10",
-    "startedAt": "2014-06",
-    "startBasis": "正式提供開始：Android対応『Filii（フィリー）』を2014-06-30に開始"
-  },
-  {
     "id": "b-ac82025d",
     "name": "PepMetics（ペプチド模倣低分子創薬基盤）",
     "company": "株式会社PRISM BioLab",
@@ -51596,7 +51537,8 @@
     ],
     "updatedAt": "2026-10",
     "knownSince": "2024-12",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000154244.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000154244.html",
+    "type": "life-science-tools"
   },
   {
     "id": "b-0a68d92d",
@@ -52452,22 +52394,6 @@
     ]
   },
   {
-    "id": "b-2a3c88fd",
-    "name": "モットバ！",
-    "company": "株式会社AgeWellJapan",
-    "companyId": "4011001131829",
-    "category": "nursing",
-    "description": "相鉄線二俣川駅直結の多世代コミュニティスペース「モットバ！FUTAMATA RIVER LIBRARY」。2023年4月に運営を継承し、シニアと若者の交流イベントを開く。",
-    "hp": "",
-    "startedYear": 2023,
-    "status": "提供中",
-    "startedAt": "2023-04",
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000029.000068494.html"
-    ],
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-aaaf15e0",
     "name": "AgeWellJapan for Business",
     "company": "株式会社AgeWellJapan",
@@ -52656,7 +52582,7 @@
     "name": "ソラハルBridge",
     "company": "株式会社ソラハル",
     "companyId": "5130001066948",
-    "category": "mental-health",
+    "category": "doctor-network",
     "description": "カウンセラー・心理職など対人援助職の専門家が交流・連携するオンラインコミュニティ。2021年9月に登録専門家が200名を超えた。",
     "hp": "",
     "startedYear": 2020,
@@ -52668,7 +52594,8 @@
       "https://prtimes.jp/main/html/rd/p/000000011.000070302.html"
     ],
     "updatedAt": "2026-10",
-    "startBasis": "正式提供開始（オンラインコミュニティ「ソラハルBridge」をリリース、2020-11-30）"
+    "startBasis": "正式提供開始（オンラインコミュニティ「ソラハルBridge」をリリース、2020-11-30）",
+    "type": "doctor-community-portal"
   },
   {
     "id": "b-efc2844a",
@@ -53001,7 +52928,7 @@
     "name": "介護のコミミ",
     "company": "株式会社Giver Link",
     "companyId": "2370001045344",
-    "category": "nursing",
+    "category": "medical-management-support",
     "description": "介護ソフト・障害福祉ソフト・介護ロボットなどの製品情報や人気ランキング、導入事例を掲載し、介護事業所が比較検討・資料請求できる業務改善プラットフォーム。",
     "hp": "https://comimi.jp/",
     "startedYear": null,
@@ -53012,7 +52939,8 @@
     ],
     "updatedAt": "2026-10",
     "knownSince": "2021-06",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000072602.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000072602.html",
+    "type": "healthcare-consulting"
   },
   {
     "id": "b-39767eef",
@@ -54456,7 +54384,7 @@
     "name": "高齢者入居支援（不動産管理会社向け）",
     "company": "株式会社あんしんサポート",
     "companyId": "9290001077876",
-    "category": "home-medical",
+    "category": "nursing",
     "description": "高齢者が賃貸住宅に入居する際の孤独死などのリスクを見守りで抑え、不動産管理会社が受け入れやすくする仕組みと居住支援相談窓口。",
     "hp": "",
     "startedYear": null,
@@ -54466,7 +54394,8 @@
     ],
     "updatedAt": "2026-10",
     "knownSince": "2021-03",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000013.000033136.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000013.000033136.html",
+    "type": "elderly-home-monitoring"
   },
   {
     "id": "b-c8f3baab",
@@ -55483,7 +55412,8 @@
       "https://prtimes.jp/main/html/rd/p/000000024.000040166.html",
       "https://prtimes.jp/main/html/rd/p/000000015.000040166.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "care-service-operation"
   },
   {
     "id": "b-914e8197",
@@ -55830,7 +55760,7 @@
     "name": "OmnivoRice",
     "company": "NUProtein株式会社",
     "companyId": "1180001124408",
-    "category": "medical-materials",
+    "category": "pharma",
     "description": "温室で栽培する遺伝子組換えイネを使い、成長因子・機能性タンパク質を低コストで量産する植物分子農業の基盤。培養肉の成長因子コストを大幅に下げることを狙う。",
     "hp": "https://nuprotein.jp/",
     "startedYear": 2024,
@@ -55840,7 +55770,8 @@
       "https://nuprotein.jp/",
       "https://www.jpo.go.jp/news/koho/kohoshi/vol63/01_page2.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "life-science-tools"
   },
   {
     "id": "b-6043b0b4",
@@ -57336,7 +57267,7 @@
     "name": "AI行動シミュレーター（CogPot）",
     "company": "株式会社Godot",
     "companyId": "6140001126675",
-    "category": "health-consulting",
+    "category": "health-insuarance-market",
     "description": "AIエージェントが健康データや生活習慣などを基に行動を自律的に選ぶバーチャルユーザーを使い、施策による健康行動の変化をシミュレーションして健康支援施策の設計に生かす。",
     "hp": "https://godot.inc/products/ai-behavior-simulator",
     "startedYear": 2023,
@@ -57346,7 +57277,8 @@
       "https://godot.inc/products/ai-behavior-simulator",
       "https://godot.inc/about"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "type": "insurer-data-health-support"
   },
   {
     "id": "b-ff49b63d",
