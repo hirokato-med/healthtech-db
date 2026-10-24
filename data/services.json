@@ -18423,16 +18423,35 @@
     "company": "メディカル・データ・ビジョン株式会社",
     "companyId": "7010001087640",
     "category": "personal-health-record",
-    "description": "沿革上のリリース年は取得テキストから特定できず",
+    "description": "患者や健診の受診者が、病院の診療情報・検査結果・健診結果を自分で保管し、スマートフォンで見られるPHRサービス。2015年6月に診療情報保管・閲覧サービスとしてリリースし、企業向けの「カルテコworkwell」や健診版にも広げた。",
     "hp": "https://www.mdv.co.jp/company/history.html",
     "startedYear": 2015,
     "status": "提供中",
     "sources": [
-      "https://www.mdv.co.jp/company/history.html"
+      "https://www.mdv.co.jp/company/history.html",
+      "https://prtimes.jp/main/html/rd/p/000000018.000089368.html"
     ],
     "updatedAt": "2026-10",
     "type": "medical-record-phr",
-    "startedAt": "2015-06"
+    "startedAt": "2015-06",
+    "startBasis": "同社沿革：診療情報保管・閲覧サービス「カルテコ」をリリース（2015年6月）",
+    "milestones": [
+      {
+        "date": "2015-06",
+        "text": "診療情報保管・閲覧サービス「カルテコ」をリリース",
+        "source": "https://www.mdv.co.jp/company/history.html"
+      },
+      {
+        "date": "2017-09",
+        "text": "恵寿総合病院（石川県七尾市）で稼働",
+        "source": "https://prtimes.jp/main/html/rd/p/000000018.000089368.html"
+      },
+      {
+        "date": "2022-05",
+        "text": "健診版PHRサービス「カルテコ」をリリース",
+        "source": "https://www.atpress.ne.jp/news/2607631"
+      }
+    ]
   },
   {
     "id": "b-101621d1",
@@ -44197,20 +44216,41 @@
   },
   {
     "id": "b-9f67e60e",
-    "name": "歯科の健康相談 mamoru",
+    "name": "歯科まもる 健康手帳（旧 歯科の健康相談 mamoru）",
     "company": "株式会社Ｄｅｎｔａｌ Ｐｒｅｄｉｃｔｉｏｎ",
     "companyId": "7011501025932",
     "category": "health-consulting",
-    "description": "歯の悩みを歯科医師に相談できるアプリ。2024年4月リリースで、2025年6月に利用者10万人・相談13,000件を超えた。",
+    "description": "歯の悩みを歯科医師にテキストで相談できるアプリ。2024年4月に「歯科の健康相談 mamoru」として提供を始め、2025年6月に利用者10万人を超えた。のちに「歯科まもる 健康手帳」へ改称し、マイナポータルと連携して歯周疾患検診などの情報も見られるようにした。",
     "hp": "",
     "startedYear": 2024,
     "status": "提供中",
     "startedAt": "2024-04",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000037.000104593.html",
+      "https://prtimes.jp/main/html/rd/p/000000016.000104593.html",
       "https://www.denpre.co.jp/news/2370/"
     ],
     "type": "doctor-chat-consultation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "歯科の健康相談 mamoru",
+    "startBasis": "アプリの提供開始（2024年4月）",
+    "milestones": [
+      {
+        "date": "2024-04",
+        "text": "「歯科の健康相談 mamoru」として提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000016.000104593.html"
+      },
+      {
+        "date": "2025-06",
+        "text": "利用者10万人を突破",
+        "source": "https://prtimes.jp/main/html/rd/p/000000036.000104593.html"
+      },
+      {
+        "date": "2025-08",
+        "text": "「歯科まもる 健康手帳」に改称（2025年8月の発表で旧称として記載）。マイナポータルとの連携を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000037.000104593.html"
+      }
+    ]
   },
   {
     "id": "b-865f9cf2",
