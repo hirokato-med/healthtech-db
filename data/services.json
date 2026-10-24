@@ -73902,7 +73902,7 @@
     "description": "REVICとAGSコンサルティングが共同GPとなり、みずほ銀行と地方銀行18行などが出資した100億円の医療・ヘルスケア特化ファンド。在宅医療・介護・クリニック支援などの事業者に出資し、ハンズオンで経営を支援した。",
     "hp": "https://www.revic.co.jp/business/fund/02.html",
     "startedYear": null,
-    "status": "不明",
+    "status": "終了",
     "milestones": [
       {
         "date": "2014-09",
@@ -73933,7 +73933,9 @@
       "https://www.agsc.co.jp/news/13528/"
     ],
     "type": "healthcare-pe-succession-fund",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "endedAt": "2021-07-01",
+    "endReasonNote": "すべての投資案件の回収が完了したため2021年7月1日に解散し、2026年4月24日に清算結了したとREVICが公表。"
   },
   {
     "id": "b-fa3f95fa",
@@ -74387,34 +74389,6 @@
       "https://prtimes.jp/main/html/rd/p/000000041.000022624.html"
     ],
     "type": "smo-site-support",
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-e3ee2093",
-    "name": "病院・クリニック待合室の患者向けデジタルサイネージ（医療コンテンツ放映）",
-    "company": "株式会社メディアコンテンツファクトリー",
-    "category": "marketing-support",
-    "description": "福岡の企業が全国の病院・クリニック約800施設の待合室にサイネージを設置し、2,000本超の患者向け医療コンテンツや広報番組を配信した。2014年には医療情報基盤と大型病院向けで提携。",
-    "hp": "",
-    "startedYear": 2012,
-    "status": "不明",
-    "startedAt": "2012-06",
-    "startBasis": "確認できた最も古い一次情報（待合室での動画放映による受診行動の調査発表、同社リリース）",
-    "milestones": [
-      {
-        "date": "2014-01",
-        "text": "医療情報基盤と大型病院向けサイネージ販売で業務提携（当時約800施設に展開）",
-        "source": "https://prtimes.jp/main/html/rd/p/000000008.000004524.html"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000003.000004524.html",
-      "https://prtimes.jp/main/html/rd/p/000000008.000004524.html"
-    ],
-    "type": "pharmacy-clinic-signage",
     "updatedAt": "2026-10"
   },
   {
@@ -92419,14 +92393,24 @@
         "date": "2008-01",
         "text": "製品名を「メディウィンドウ」から「Medicastar」に変更",
         "source": "https://layered.inc/corporate/history/"
+      },
+      {
+        "date": "2014-01",
+        "text": "医療情報基盤と大型病院向けサイネージ販売で業務提携（当時約800施設に展開）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000008.000004524.html"
       }
     ],
     "sources": [
       "https://layered.inc/corporate/history/",
-      "https://ssl4.eir-parts.net/doc/634A/yuho_pdf/S100Z4Z3/00.pdf"
+      "https://ssl4.eir-parts.net/doc/634A/yuho_pdf/S100Z4Z3/00.pdf",
+      "https://prtimes.jp/main/html/rd/p/000000003.000004524.html",
+      "https://prtimes.jp/main/html/rd/p/000000008.000004524.html"
     ],
     "type": "pharmacy-clinic-signage",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "endReasons": [
+      "unknown"
+    ]
   },
   {
     "id": "b-627484a6",
@@ -111970,6 +111954,236 @@
       "https://goryochemical.com/about-us/company-profile/"
     ],
     "type": "cdmo-contract-research",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7f7d6eee",
+    "name": "オリンパスとテルモの医療機器開発に関する包括的業務提携（内視鏡用ガイドワイヤ等の共同開発）",
+    "company": "オリンパス株式会社",
+    "companyId": "5011001005222",
+    "category": "medical-device",
+    "description": "オリンパスとテルモが2005年に結んだ医療機器開発の包括提携。消化器内視鏡用ガイドワイヤ（VisiGlide等）や内視鏡下静脈採取用「Virtuosaph」を共同開発し両社で販売した。2023年10月に提携を終え個別契約に移行。",
+    "hp": "https://www.olympus.co.jp/",
+    "startedYear": 2005,
+    "status": "終了",
+    "startedAt": "2005",
+    "startBasis": "2005年に「医療機器開発に関する包括的業務提携契約」を締結（2023-10-31オリンパス発表文の記載。締結月は未確認）",
+    "endedAt": "2023-10-31",
+    "successor": "個別取引契約に移行（VisiGlide・Virtuosaphは両社の販路で販売を継続）",
+    "milestones": [
+      {
+        "date": "2005-05-20",
+        "text": "テルモとの協業で開発した消化器内視鏡用ガイドワイヤ「LinearGuide V」を発売",
+        "source": "https://www.olympus.co.jp/jp/news/2005a/nr050520guidevj.html"
+      },
+      {
+        "date": "2017",
+        "text": "資本関係がなくとも協力関係を続けられると判断し、資本提携を解消",
+        "source": "https://www.olympus.co.jp/news/2023/nr02571.html"
+      },
+      {
+        "date": "2023-10-31",
+        "text": "包括的業務提携契約を終了し、個別取引契約へ移行することで合意",
+        "source": "https://www.olympus.co.jp/news/2023/nr02571.html"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "両社は包括的業務提携の目的を達成したと判断し、今後は個別の取引契約のもとで製品開発・販売の協力を続けると発表した。",
+    "sources": [
+      "https://www.olympus.co.jp/news/2023/nr02571.html",
+      "https://www.olympus.co.jp/jp/news/2005a/nr050520guidevj.html",
+      "https://monoist.itmedia.co.jp/mn/articles/2311/15/news017.html"
+    ],
+    "type": "endoscope-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-611f3b95",
+    "name": "障害者グループホーム「グループホームふわふわ」等の障害福祉事業",
+    "company": "株式会社恵",
+    "category": "home-visit-nursing",
+    "description": "福祉事業会社・恵が12都県で障害者グループホーム「ふわふわ」など計246事業所を運営した事業。食材費の過大徴収と不正請求で2024年に指定取消・連座制の処分を受け、全事業をビオネストのグループへ承継した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2025-03-01",
+    "successor": "株式会社ビオネスト（グループ会社の株式会社INNOVEL HEALTHCAREなどが承継先として指定を取得）",
+    "milestones": [
+      {
+        "date": "2024-06-26",
+        "text": "愛知県・名古屋市がグループホーム5事業所の指定を取消し、厚労省が連座制を適用（全国約100事業所が指定更新不可に）",
+        "source": "https://www.mhlw.go.jp/stf/newpage_42055.html"
+      },
+      {
+        "date": "2024-08-02",
+        "text": "厚労省が恵からの報告を受け、利用者へのサービス継続について行政指導",
+        "source": "https://www.mhlw.go.jp/stf/newpage_42055.html"
+      },
+      {
+        "date": "2024-11-08",
+        "text": "ビオネストと全246事業所の一括承継で基本合意（厚労省が公表）",
+        "source": "https://www.mhlw.go.jp/content/12204500/001329188.pdf"
+      },
+      {
+        "date": "2025-01-20",
+        "text": "ビオネスト（グループ会社含む）と事業承継契約を締結。GH98事業所のうち93事業所が対象（5事業所は廃止済み・廃止予定）",
+        "source": "https://www.mhlw.go.jp/content/12204500/001381693.pdf"
+      },
+      {
+        "date": "2025-03-01",
+        "text": "承継先のINNOVEL HEALTHCAREなどが指定を受け、事業が移行（報道）",
+        "source": "https://www.asahi.com/articles/AST3102W0T31OIPE003M.html"
+      }
+    ],
+    "endReasons": [
+      "regulation"
+    ],
+    "endReasonNote": "利用者からの食材費の過大徴収と報酬の不正請求で、愛知県・名古屋市が2024年6月に5事業所の指定を取り消し、国が連座制を適用して他事業所も更新不可となったため、全事業を一括承継した。",
+    "sources": [
+      "https://www.mhlw.go.jp/stf/newpage_42055.html",
+      "https://www.mhlw.go.jp/stf/newpage_45164.html",
+      "https://www.mhlw.go.jp/content/12204500/001329188.pdf",
+      "https://www.mhlw.go.jp/stf/newpage_49483.html",
+      "https://www.mhlw.go.jp/content/12204500/001381693.pdf",
+      "https://www.chunichi.co.jp/article/899402"
+    ],
+    "type": "severe-disability-home-care",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b406b35b",
+    "name": "一般用医薬品を主体とした卸売事業（イワキ）",
+    "company": "イワキ株式会社（アステナホールディングス株式会社の連結子会社）",
+    "category": "wholesale",
+    "description": "1914年に薬種問屋として創業したイワキが続けてきた、薬局・ドラッグストアなどへの一般用医薬品を主体とする卸売事業。2021年11月期の売上は約72億円（連結の約1割）あったが、不採算が続き、2022年11月の取締役会で撤退を決めた。",
+    "hp": "https://www.iwaki-kk.co.jp/",
+    "startedYear": null,
+    "status": "終了",
+    "endedAt": "2022-11-30",
+    "milestones": [
+      {
+        "date": "1914",
+        "text": "岩城市太郎商店として薬種問屋を創業し、薬局向け卸売を開始",
+        "source": "https://www.astena-hd.com/company/history/"
+      },
+      {
+        "date": "2021",
+        "text": "旧イワキ株式会社がアステナホールディングスに商号変更し持株会社体制へ。卸売などの事業は新設のイワキ株式会社が担う",
+        "source": "https://www.astena-hd.com/company/history/"
+      },
+      {
+        "date": "2022-11-30",
+        "text": "イワキの取締役会で一般用医薬品を主体とした卸売分野からの撤退を決議（2021年11月期売上71.7億円）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000093.000085143.html"
+      }
+    ],
+    "endReasons": [
+      "competition"
+    ],
+    "endReasonNote": "一般用医薬品を主体とした卸売は長く不採算が続き、業界再編に伴う売上の急減も響いた。構造改革を繰り返したがこれ以上の業績改善は難しいと判断したと説明。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000093.000085143.html",
+      "https://www.astena-hd.com/company/history/"
+    ],
+    "type": "otc-consumer-wholesale",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5e23e393",
+    "name": "アジア病院グループ「コロンビアアジア」への出資・経営参画",
+    "company": "三井物産株式会社",
+    "companyId": "1010001008767",
+    "category": "clinic-chain",
+    "description": "三井物産が2016年に出資し、マレーシア・インド・インドネシア・ベトナムで29病院・クリニックを運営するコロンビアアジアグループの経営に参画した事業。2019年に東南アジア事業をHong Leong・TPG合弁へ売却した。",
+    "hp": "https://www.mitsui.com/jp/ja/",
+    "startedYear": 2016,
+    "status": "譲渡",
+    "startedAt": "2016-07",
+    "startBasis": "2016年7月に持株会社International Columbia U.S. LLCへ出資（2019-09-13三井物産リリースの記載）",
+    "endedAt": "2019-09-13",
+    "successor": "HLT Healthcare Holdings Limited（Hong Leong Group・TPGの合弁）が東南アジア事業を取得。インド事業（Columbia Asia Hospitals Private Limited）は切り離して存続",
+    "milestones": [
+      {
+        "date": "2016-07",
+        "text": "持株会社International Columbia U.S. LLCへ出資し、コロンビアアジアグループに参画",
+        "source": "https://www.mitsui.com/jp/ja/release/2019/1229652_11203.html"
+      },
+      {
+        "date": "2018-03",
+        "text": "追加出資し、組織再編や病院の新設・拡張、IT強化を進める",
+        "source": "https://www.mitsui.com/jp/ja/release/2019/1229652_11203.html"
+      },
+      {
+        "date": "2019-09-13",
+        "text": "インド事業を切り離した上で、Columbia Asia Healthcareを約12億米ドルでHLT Healthcare Holdingsへ売却することで合意",
+        "source": "https://www.mitsui.com/jp/ja/release/2019/1229652_11203.html"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "インド事業を切り離したうえで、東南アジアの病院事業会社をHong Leong GroupとTPGの合弁に約12億米ドルで売ることで合意したと発表。売却理由は示されていない。",
+    "sources": [
+      "https://www.mitsui.com/jp/ja/release/2019/1229652_11203.html",
+      "https://www.nikkei.com/article/DGXMZO49808820T10C19A9000000/"
+    ],
+    "type": "overseas-hospital-group",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-8ac9b94a",
+    "name": "整形外科用医療機器の卸販売（KiSCO、大塚グループ）",
+    "company": "KiSCO株式会社（大塚メディカルデバイス株式会社の100%子会社）",
+    "category": "wholesale",
+    "description": "寿医科商事（2007年にKiSCOへ改称）が人工骨頭・骨接合材など整形外科用の医療機器を国内ディーラー経由で医療機関に卸した事業。2011年に大塚グループ入りしたが赤字が続き、2022年に事業を帝人ナカシマメディカルへ承継し解散した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "譲渡",
+    "endedAt": "2022-02",
+    "successor": "帝人ナカシマメディカル株式会社（脊椎・外傷領域の全事業を吸収分割で包括承継）",
+    "milestones": [
+      {
+        "date": "1961-04",
+        "text": "大阪市で創業（のち寿医科商事として法人化）",
+        "source": "https://www.tdb.co.jp/report/bankruptcy/flash/4942/"
+      },
+      {
+        "date": "2011-10",
+        "text": "大塚メディカルデバイスの100%子会社となり大塚グループ入り",
+        "source": "https://www.tdb.co.jp/report/bankruptcy/flash/4942/"
+      },
+      {
+        "date": "2021-10",
+        "text": "帝人ナカシマメディカルと吸収分割契約を締結",
+        "source": "https://www.tdb.co.jp/report/bankruptcy/flash/4942/"
+      },
+      {
+        "date": "2022-02",
+        "text": "脊椎・外傷領域の全事業を帝人ナカシマメディカルが包括承継",
+        "source": "https://www.tdb.co.jp/report/bankruptcy/flash/4942/"
+      },
+      {
+        "date": "2022-11-30",
+        "text": "臨時株主総会で解散を決議",
+        "source": "https://www.tdb.co.jp/report/bankruptcy/flash/4942/"
+      },
+      {
+        "date": "2023-02-02",
+        "text": "神戸地裁から特別清算開始命令（負債約65.9億円）",
+        "source": "https://maonline.jp/articles/tsr0435-kisco"
+      }
+    ],
+    "endReasons": [
+      "competition"
+    ],
+    "endReasonNote": "報道（帝国データバンク）によると、開発型企業として経費が先行して赤字が慢性化し債務超過となり、同業との競争で売上が漸減、コロナ禍の受注減も重なった。",
+    "sources": [
+      "https://www.tdb.co.jp/report/bankruptcy/flash/4942/",
+      "https://maonline.jp/articles/tsr0435-kisco"
+    ],
+    "type": "device-material-wholesale",
     "updatedAt": "2026-10"
   }
 ]
