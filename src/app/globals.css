@@ -1008,3 +1008,8 @@ a.upd-title:hover { color: var(--navy); }
 .tx-type-h h2 a { color: var(--ink); }
 @media (max-width: 760px) { .bt-kpi { grid-template-columns: repeat(2, 1fr); } }
 .bt-stop td .badge { white-space: nowrap; }
+/* 開始時期が不明（提供を確認できた最古の時点から）：始まりを点線にする */
+.tc-bar.approx { -webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,.25) 0, rgba(0,0,0,.25) 22px, #000 34px); mask-image: linear-gradient(90deg, rgba(0,0,0,.25) 0, rgba(0,0,0,.25) 22px, #000 34px); }
+.tc-bar.approx::before { content: ''; position: absolute; left: -22px; top: 5px; width: 22px; border-top: 2px dashed currentColor; opacity: .6; }
+.tc-bar.approx.st-提供中 { color: var(--teal); } .tc-bar.approx.st-終了, .tc-bar.approx.st-休止 { color: #c97c7c; } .tc-bar.approx.st-譲渡, .tc-bar.approx.st-統合 { color: var(--navy); }
+.tc-legend .approx::before { content: ''; display: inline-block; width: 22px; height: 0; border-top: 2px dashed var(--teal); margin-right: 6px; vertical-align: middle; background: none !important; }
