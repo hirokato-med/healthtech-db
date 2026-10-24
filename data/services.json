@@ -681,6 +681,7 @@
     "endReasonNote": "東芝は、ヘルスケア事業の潜在力を引き出すには外部の大株主の支援が必要であり、あわせて財務体質を強化する必要があると説明した。不正会計問題で自己資本比率が大きく低下するなか、2015年度に唯一黒字が見込まれた部門を売却し、売却益を財務改善に充てた。",
     "lessons": "親会社の財務事情によって、収益を上げている医療機器事業でも売却の対象になった例とみられる。",
     "sources": [
+      "https://jp.medical.canon/about/corporate/history/",
       "https://www2.jpx.co.jp/disc/65020/140120160316436941.pdf",
       "https://eetimes.itmedia.co.jp/ee/articles/1603/09/news130.html",
       "https://monoist.itmedia.co.jp/mn/spv/1603/22/news040.html"
@@ -1134,7 +1135,7 @@
     "category": "insuarance",
     "description": "生命保険の契約者などに向けて、健康行動に応じた特典を提供した健康増進アプリ。保険手続きアプリ「MYひまわり」に一部機能を統合した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "統合",
     "endedAt": "2025-03",
     "successor": "MYひまわり",
@@ -1153,10 +1154,12 @@
     ],
     "endReasonNote": "アプリの統合・リニューアルの案内のみで、理由は公表されていない。",
     "sources": [
+      "https://www.himawari-life.co.jp/~/media/himawari/files/company/news/2020/a-01-2020-07-09.pdf",
       "https://progress-hd.com/news/%EF%BD%8D%EF%BD%99%E3%81%B2%E3%81%BE%E3%82%8F%E3%82%8A%EF%BD%9E%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E3%81%A8%E5%81%A5%E5%BA%B7%E3%82%92%E3%81%A4%E3%81%AA%E3%81%90%E3%82%A2%E3%83%97%E3%83%AA%EF%BD%9E/"
     ],
     "updatedAt": "2026-10",
-    "type": "insurer-member-health-app"
+    "type": "insurer-member-health-app",
+    "startedAt": "2020-07"
   },
   {
     "id": "b-5eb9fa2e",
@@ -1259,7 +1262,7 @@
     "category": "health-insuarance-market",
     "description": "健康保険組合、協会けんぽ、自治体向けに、ICTを使った遠隔での特定保健指導などを受託提供した事業。2026年3月期の売上高は5億9000万円。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "譲渡",
     "endedAt": "2026-12",
     "successor": "メドケア株式会社（エムスリー子会社、企業DB id: 5011101073020）",
@@ -1282,12 +1285,14 @@
     ],
     "endReasonNote": "エス・エム・エスは「事業ポートフォリオの見直し」の一環で、注力領域へ経営資源を集中するためと説明している。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000122.000013298.html",
       "https://prtimes.jp/main/html/rd/p/000000224.000013298.html",
       "https://maonline.jp/news/20261021b",
       "https://zaikei.co.jp/article/20261022/874440.html"
     ],
     "updatedAt": "2026-10",
-    "type": "specific-health-guidance"
+    "type": "specific-health-guidance",
+    "startedAt": "2017-09"
   },
   {
     "id": "b-082d6257",
@@ -1651,6 +1656,7 @@
     ],
     "endReasonNote": "レゾナックは、経営資源の配分と事業ポートフォリオの見直しを進めるなかで再生医療CDMO事業のあり方について選択肢を検討した結果、譲渡を決定したと説明している。",
     "sources": [
+      "https://www2.jpx.co.jp/disc/42170/140120170317421524.pdf",
       "https://www.nihon-ma.co.jp/news/20240924_4004-8/"
     ],
     "updatedAt": "2026-10",
@@ -1686,6 +1692,8 @@
     ],
     "endReasonNote": "アステラスは、環境変化に柔軟に対応できる組織づくりとオペレーションの効率化を進めるなかで譲渡に合意し、競争優位の源泉となる機能へ再投資して新薬創出力を強化すると説明した。",
     "sources": [
+      "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=050777",
+      "https://www.astellas.com/system/files/news/2017-07/170707_1_Jp.pdf",
       "https://www2.jpx.co.jp/disc/45030/140120151111444287.pdf",
       "https://www2.jpx.co.jp/disc/45030/140120160401448367.pdf",
       "https://maonline.jp/news/20151111c"
@@ -4062,7 +4070,7 @@
     "category": "pharmacy-dx",
     "description": "調剤薬局最大手のアイン薬局が提供していた電子お薬手帳アプリ。処方箋送信もできる公式アプリ「いつでもアイン薬局」に機能を統合した。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2012,
     "status": "統合",
     "endedAt": "2025-11",
     "successor": "公式アプリ「いつでもアイン薬局」のお薬手帳機能",
@@ -4093,6 +4101,7 @@
     ],
     "endReasonNote": "FAQは終了と移行の方法だけを案内しており、理由は公表されていない。",
     "sources": [
+      "https://www.ainj.co.jp/corporate/sustainability/social/for-customers.html",
       "https://www.ainj.co.jp/app/faq/detail/003426.html",
       "https://www.ainj.co.jp/app/how-to-use/data-migration.html",
       "https://itunes.apple.com/lookup?id=1592211969&country=jp",
@@ -4102,7 +4111,8 @@
     "themes": [
       "medication-support"
     ],
-    "type": "electronic-medication-notebook"
+    "type": "electronic-medication-notebook",
+    "startedAt": "2012"
   },
   {
     "id": "b-2207773c",
@@ -6040,6 +6050,7 @@
       }
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000013.000033136.html",
       "https://prtimes.jp/main/html/rd/p/000000017.000033136.html"
     ],
     "updatedAt": "2026-10",
@@ -6104,6 +6115,7 @@
     ],
     "endReasonNote": "理由は公表されていない。個人向けをやめ、法人・自治体向けに絞った。",
     "sources": [
+      "https://www.value-press.com/pressrelease/122265",
       "https://co4.bitpark.co.jp/mimamori/",
       "https://www.techno-tais.jp/PDFFile/02140000001_1.pdf"
     ],
@@ -8888,6 +8900,7 @@
     ],
     "endReasonNote": "2023年12月1日、わたし漢方株式会社がサービスをアイセイ薬局グループへ事業譲渡。さらに2026年8月、同グループのAXISからVARYTEXへ事業譲渡された。サービス自体は利用者の手続きなしで継続している。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000029348.html",
       "https://www.aisei.co.jp/news/pr/147689816075/",
       "https://prtimes.jp/main/html/rd/p/000000026.000077291.html",
       "https://kyodonewsprwire.jp/release/202311293496",
@@ -11647,7 +11660,7 @@
     "category": "personal-health-record",
     "description": "ウォーキングや健康診断の受診、イベント参加などでポイントがたまり、抽選でデジタルクーポンなどが当たる東京都大田区の健康アプリ。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "終了",
     "endedAt": "2026-03",
     "milestones": [
@@ -11670,6 +11683,7 @@
     "endReasonNote": "大田区は令和8年3月30日13時でアプリのサービスを終了し、ポイントも失効すると告知。終了理由は示されていない。2025年4月にアプリを刷新したばかりだった。",
     "lessons": "リニューアルからわずか1年で終了しており、委託先のシステムに依存する自治体アプリの継続性の弱さを示す事例とみられる。",
     "sources": [
+      "https://www.city.ota.tokyo.jp/kuho/kuho_pdf/r04/kuho_20220711.files/20220711.pdf",
       "https://www.city.ota.tokyo.jp/seikatsu/hoken/kenko_dukuri/kenkopoint/20241204.html",
       "https://x.com/city_ota/status/1911985331844284902",
       "https://x.com/city_ota/status/1900728661147373712",
@@ -11679,7 +11693,8 @@
     "themes": [
       "health-points"
     ],
-    "type": "health-point-app"
+    "type": "health-point-app",
+    "startedAt": "2019-12"
   },
   {
     "id": "b-9fca0593",
@@ -16549,6 +16564,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000150.000015908.html",
       "https://www.svenson.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -17675,6 +17691,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000029.000022662.html",
       "https://www.fitnessjob.jp/"
     ],
     "updatedAt": "2026-10",
@@ -18449,13 +18466,15 @@
     "category": "health-corporate-management",
     "description": "",
     "hp": "http://medithink.co.jp/service/wlns/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "http://medithink.co.jp/company/",
       "http://medithink.co.jp/service/wlns/"
     ],
     "updatedAt": "2026-10",
-    "type": "health-management-certification"
+    "type": "health-management-certification",
+    "startedAt": "2017-07"
   },
   {
     "id": "b-ff5cce63",
@@ -18532,12 +18551,15 @@
     "category": "medical-dx",
     "description": "2024-12スマホ版、2026-06 AI活動サポート（β）追加",
     "hp": "https://www.mythos-jp.com/services/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
+      "https://www.mythos-jp.com/company-profile/",
+      "https://prtimes.jp/main/html/rd/p/000000015.000049259.html",
       "https://www.mythos-jp.com/services/"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-03"
   },
   {
     "id": "b-5f96f8e3",
@@ -18566,6 +18588,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.mythos-jp.com/company-profile/",
       "https://www.mythos-jp.com/services/comars/"
     ],
     "updatedAt": "2026-10",
@@ -18631,13 +18654,15 @@
     "category": "health-insuarance-market",
     "description": "特定保健指導機関番号取得済み。",
     "hp": "https://www.asken.inc/about",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000193.000058653.html",
       "https://www.asken.inc/about"
     ],
     "updatedAt": "2026-10",
-    "type": "specific-health-guidance"
+    "type": "specific-health-guidance",
+    "startedAt": "2025-07"
   },
   {
     "id": "b-5151cccc",
@@ -19338,13 +19363,14 @@
     "category": "medical-materials",
     "description": "",
     "hp": "https://classico.co.jp/company/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
       "https://classico.co.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-apparel"
+    "type": "medical-apparel",
+    "startedAt": "2019-01"
   },
   {
     "id": "b-637eb18f",
@@ -19721,13 +19747,15 @@
     "category": "real-world-data",
     "description": "約5,000医療機関・年約100万件の登録。",
     "hp": "https://www.joanr.org/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000030.000025604.html",
       "https://www.joanr.org/"
     ],
     "updatedAt": "2026-10",
-    "type": "hospital-derived-database"
+    "type": "hospital-derived-database",
+    "startedAt": "2019-07"
   },
   {
     "id": "b-21b24869",
@@ -19774,6 +19802,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000344.000042113.html",
       "https://corp.lafool.co.jp/service/lafool-management/"
     ],
     "updatedAt": "2026-10",
@@ -21096,13 +21125,16 @@
     "category": "simple-inspection",
     "description": "沿革に販売開始の記載あり、年は年表形式で特定できず",
     "hp": "http://www.yukashikado.co.jp/service",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "http://www.yukashikado.co.jp/about",
+      "https://prtimes.jp/main/html/rd/p/000000009.000014845.html",
       "http://www.yukashikado.co.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "gut-nutrition-test"
+    "type": "gut-nutrition-test",
+    "startedAt": "2017-06"
   },
   {
     "id": "b-f295dcff",
@@ -21720,13 +21752,16 @@
     "category": "pharma",
     "description": "創薬特化にリニューアル（時期は沿革上で特定できず）",
     "hp": "https://lpixel.net/business/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000019.000010005.html",
+      "https://prtimes.jp/main/html/rd/p/000000013.000010005.html",
       "https://lpixel.net/business/"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-computational-drug-discovery"
+    "type": "ai-computational-drug-discovery",
+    "startedAt": "2017-06"
   },
   {
     "id": "b-abc2cee6",
@@ -22134,13 +22169,15 @@
     "category": "nursing",
     "description": "",
     "hp": "https://everyplus.jp/service",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000066417.html",
       "https://everyplus.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "care-activity-dementia-program"
+    "type": "care-activity-dementia-program",
+    "startedAt": "2023-03"
   },
   {
     "id": "b-cfa56e1e",
@@ -22526,6 +22563,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000020.000038603.html",
       "https://prtimes.jp/main/html/rd/p/000000006.000038603.html",
       "https://melody.international/business/melody-i.html"
     ],
@@ -26190,6 +26228,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000062.000047082.html",
       "https://corp.doctormate.co.jp/aboutus/"
     ],
     "updatedAt": "2026-10",
@@ -26590,13 +26629,15 @@
     "category": "clinical-trial-support",
     "description": "2025-01にeWorkSheet・eSource EHR機能を発表。",
     "hp": "https://rwdata.co.jp/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://rwdata.co.jp/company/",
       "https://rwdata.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "edc-eclinical-system"
+    "type": "edc-eclinical-system",
+    "startedAt": "2023-06"
   },
   {
     "id": "b-17e20f2a",
@@ -27303,6 +27344,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000101467.html",
       "https://www.quotomy.co.jp/posts/hRPlG-QT"
     ],
     "updatedAt": "2026-10",
@@ -27735,14 +27777,15 @@
     "category": "recruting-solutions",
     "description": "",
     "hp": "https://med-x.co.jp/service/sns/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000165966.html",
       "https://med-x.co.jp/service/sns/"
     ],
     "updatedAt": "2026-10",
-    "type": "healthcare-recruitment-outsourcing"
+    "type": "healthcare-recruitment-outsourcing",
+    "startedAt": "2025-07"
   },
   {
     "id": "b-bbfe32ab",
@@ -29402,6 +29445,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000072863.html",
       "https://www.opexpark.co.jp/"
     ],
     "updatedAt": "2026-10",
@@ -30412,13 +30456,16 @@
     "category": "medical-device",
     "description": "",
     "hp": "https://www.arblet.com/service",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000010.000078525.html",
+      "https://prtimes.jp/main/html/rd/p/000000008.000078525.html",
       "https://www.arblet.com/service"
     ],
     "updatedAt": "2026-10",
-    "type": "home-wearable-medical-device"
+    "type": "home-wearable-medical-device",
+    "startedAt": "2026-07"
   },
   {
     "id": "b-fce4b7b2",
@@ -33904,13 +33951,15 @@
     "category": "medical-materials",
     "description": "2026年10月メディエ・Nextantと連携",
     "hp": "https://zerosystem.jp/",
-    "startedYear": null,
+    "startedYear": 2008,
     "status": "提供中",
     "sources": [
+      "https://zerosystem.jp/news/",
       "https://zerosystem.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "spd-hospital-logistics"
+    "type": "spd-hospital-logistics",
+    "startedAt": "2008-04"
   },
   {
     "id": "b-ca9f66e2",
@@ -33957,6 +34006,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://zerosystem.jp/news/",
       "https://zerosystem.jp/company/",
       "https://zerosystem.jp/"
     ],
@@ -34129,6 +34179,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000041.000098284.html",
       "https://prtimes.jp/main/html/searchrlp/company_id/98284"
     ],
     "updatedAt": "2026-10",
@@ -35526,15 +35577,16 @@
     "category": "real-world-data",
     "description": "2024年11月に無償版の提供を発表（PR TIMES）",
     "hp": "https://www.hemillions.co.jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
-      "https://www.softbank.jp/corp/news/press/sbkk/2023/20230420_01/",
       "https://prtimes.jp/main/html/rd/p/000000003.000152725.html",
+      "https://www.softbank.jp/corp/news/press/sbkk/2023/20230420_01/",
       "https://www.hemillions.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "health-data-standardization"
+    "type": "health-data-standardization",
+    "startedAt": "2024-11"
   },
   {
     "id": "b-1761139e",
@@ -40774,6 +40826,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000036407.html",
       "https://eu-phoria.jp/",
       "https://prtimes.jp/main/html/rd/p/000000151.000036407.html"
     ],
@@ -41284,6 +41337,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000086515.html",
       "https://prtimes.jp/main/html/rd/p/000000022.000086515.html",
       "https://rehas.co.jp/news/category/pressrelease"
     ],
@@ -45229,13 +45283,15 @@
     "category": "surgical-support",
     "description": "コンニャク粉を主成分とする植物由来の手術トレーニング用模擬臓器。人体組織に近い触感で電気メス・超音波メスや縫合に対応し、常温で長期保存できる。",
     "hp": "https://kotobukimedical.com/product.php",
-    "startedYear": null,
+    "startedYear": 2012,
     "status": "提供中",
     "sources": [
+      "https://kotobukimedical.com/company.html",
       "https://kotobukimedical.com/product.php"
     ],
     "type": "surgical-education",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2012"
   },
   {
     "id": "b-a3d463cc",
@@ -47728,7 +47784,7 @@
     "category": "fitness",
     "description": "パーソナルトレーニングジムやトレーナーを地域・目的で探せる検索サイトと、トレーナー監修の筋トレ・ダイエット情報メディア。合併後もサイトは運営が続いている。",
     "hp": "https://oliva.style/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "統合",
     "endedAt": "2019-10",
     "endReasons": [
@@ -47740,7 +47796,8 @@
       "https://oliva.style/"
     ],
     "type": "fitness-business-support",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018-12"
   },
   {
     "id": "b-33a6cf8e",
@@ -48486,6 +48543,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://www.chordiatherapeutics.com/ja/news.html",
       "https://www.chordiatherapeutics.com/ja/",
       "https://deeppoint.remixpoint.co.jp/startups/chordia",
       "https://www.chordiatherapeutics.com/ja/science/pipeline.html"
@@ -48842,6 +48900,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000127236.html",
       "https://mappin.jp/",
       "https://mappin.jp/news/0002"
     ],
@@ -49050,6 +49109,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000093550.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000093550.html",
       "https://leabio.net/business/"
     ],
@@ -49559,6 +49619,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://tanotech.jp/company",
       "https://tanotech.jp/"
     ],
     "type": "care-activity-dementia-program",
@@ -51007,8 +51068,8 @@
     "endReasonNote": "2020年3月、QLife（エムスリー子会社）がヒューマの被験者リクルートメント事業を譲り受けると発表（効力発生2020-05-01）。エムスリーグループとの連携強化が目的とされ、ヒューマ側の売却理由は示されていない。",
     "lessons": "会員基盤型のPROは、医師基盤を持つプラットフォーマーに統合されることで規模の価値が出やすい。",
     "sources": [
-      "https://www.qlife.co.jp/news/8033",
-      "https://www.qlife.co.jp/assets/news/200331qlife_news.pdf"
+      "https://www.qlife.co.jp/assets/news/200331qlife_news.pdf",
+      "https://www.qlife.co.jp/news/8033"
     ],
     "type": "trial-patient-recruitment",
     "updatedAt": "2026-10"
@@ -51208,6 +51269,7 @@
     "endReasonNote": "三菱電機デジタルイノベーションと業務提携し、それぞれの強みに経営資源を集中するとして、Pharm-iの自社開発・販売を2025年9月で終了。以後は調剤Melphin/DUOの代理店販売とサポート業務に回り、既存顧客のサポートは2030年5月まで続ける。",
     "lessons": "レセコンはクラウド化・電子処方箋対応の開発負担が重く、中堅メーカーが自社開発をやめて大手製品の販売・サポートに回る動きがある。",
     "sources": [
+      "https://www.hanshin.co.jp/press/docs/20250716_itec_mitsubishi_teikei.pdf",
       "https://www.mitsubishielectric.co.jp/medigital/news/2025/0717/pdf/20250717.pdf"
     ],
     "type": "pharmacy-erecord-system",
@@ -51501,7 +51563,7 @@
     "category": "health-insuarance-market",
     "description": "パーソルグループのBPO会社が大企業や健保向けに提供した健診予約代行などの健康診断支援と、従業員に合わせた行動変容支援を行う特定保健指導サービス。",
     "hp": "https://www.persol-bd.co.jp/",
-    "startedYear": null,
+    "startedYear": 2008,
     "status": "譲渡",
     "endedAt": "2026-10",
     "endReasons": [
@@ -51509,10 +51571,12 @@
     ],
     "endReasonNote": "2026年10月1日付で健康診断支援事業と特定保健指導事業をiCAREへ譲渡。iCAREは特定保健指導に新規参入し、既存顧客へのサービス提供は譲受後も継続するとしている。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000181.000124841.html",
       "https://prtimes.jp/main/html/rd/p/000000211.000022826.html"
     ],
     "type": "specific-health-guidance",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2008"
   },
   {
     "id": "b-d9091f80",
@@ -51522,13 +51586,15 @@
     "category": "disease-management-program",
     "description": "禁煙治療アプリの知見を生かした企業・健保向けのモバイル禁煙プログラム。アプリと医療者のオンライン指導で6カ月間の卒煙を支援し、健保連の地方連合会などが導入した。",
     "hp": "https://ascure.jp/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000011.000015777.html",
       "https://prtimes.jp/main/html/rd/p/000000022.000015777.html"
     ],
     "type": "habit-smoking-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2017-04"
   },
   {
     "id": "b-0dada350",
@@ -51974,7 +52040,7 @@
     "category": "diagnostic-support",
     "description": "生物顕微鏡やバーチャルスライドスキャナなど、病理・ライフサイエンス研究向けの機器を扱ったオリンパスの科学事業。2022年4月に子会社エビデントへ承継し、2023年4月にベインキャピタルへ全株式を譲渡した。",
     "hp": "https://evidentscientific.com/ja/",
-    "startedYear": null,
+    "startedYear": 1920,
     "status": "譲渡",
     "endedAt": "2023-04",
     "endReasons": [
@@ -51984,11 +52050,13 @@
     "endReasonNote": "オリンパスは医療事業を経営の柱とする方針のもと、科学事業を子会社エビデントに承継し、2023年4月にベインキャピタルへ全株式の譲渡を完了した。事業はエビデントとして継続している。",
     "lessons": "医療機器大手が事業ポートフォリオを内視鏡など医療に絞る過程で、病理・研究向け機器はファンドに切り出された。",
     "sources": [
+      "https://www.olympus.co.jp/company/milestones/",
       "https://www.olympus.co.jp/news/2022/nr02395.html",
       "https://www.baincapital.co.jp/news/bain-capital-private-equityorinhasukaraquanehitentozhushinoqudenowanle?language_content_entity=ja"
     ],
     "type": "pathology-cytology-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "1920"
   },
   {
     "id": "b-c6ca6ecb",
@@ -52177,14 +52245,16 @@
     "category": "medical-image",
     "description": "胸部CT画像から肺結節の候補を検出して読影を支援するAIソフトウェア。医療機器認証を受け、日本医学放射線学会（JRS）のAIソフトウェア認証も2023年1月に取得した。",
     "hp": "https://plusmanllc.co.jp/",
-    "startedYear": null,
+    "startedYear": 2022,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000093244.html",
       "https://plusmanllc.co.jp/news/pr-plnkasan3/",
       "https://www.ningen-dock.jp/ningendock/wp-content/uploads/2024/11/plusman.pdf"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2022-04"
   },
   {
     "id": "b-bb0bef95",
@@ -52524,6 +52594,7 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000186.000000624.html",
       "https://www.macromill.com/press/release/20141216.html",
       "https://www.macromillcarenet.jp/company.html"
     ],
@@ -52582,6 +52653,7 @@
     "endReasonNote": "運営法人の美実会と関連の八桜会が2024年12月10日に東京地裁へ破産を申請し、全店舗が休業した。負債は約124億7千万円、債権者は約9万2千人で大半が前払い契約の利用者。法人自身による破綻理由の説明は確認できない。",
     "lessons": "多額の前払金を運転資金に回して出店・広告を拡大するモデルは、契約が鈍化すると返金不能に陥り、利用者被害が大きくなる（東京商工リサーチの業界分析）。",
     "sources": [
+      "https://www.value-press.com/pressrelease/171648",
       "https://www.asahi.com/articles/ASSDB2396SDBOXIE00ZM.html",
       "https://wellness-news.co.jp/posts/241211-1/"
     ],
