@@ -46,7 +46,7 @@ export default async function CategoryBusinessPage({ params }: { params: Promise
       {groups.map(({ t, list, stopped: st }) => (
         <section key={t.slug} id={t.slug} className="tx-type">
           <div className="tx-type-h">
-            <div><div className="tx-path">{cat.name} ›</div><h2>{t.name}</h2><p>{t.description}</p></div>
+            <div><div className="tx-path">{cat.name} ›</div><h2><Link href={`/services/t/${t.slug}/`}>{t.name}</Link></h2><p>{t.description}</p></div>
             <div className="cnt"><b>{list.length}</b>件{list.length ? <><br />うち止まった {st}件</> : null}</div>
           </div>
           {list.length ? (
@@ -63,7 +63,7 @@ export default async function CategoryBusinessPage({ params }: { params: Promise
               </tbody>
             </table>
           ) : <p className="tx-empty">まだ収録していません。</p>}
-          {t.theme && <div className="tl-more"><Link href={`/services/themes/${t.theme}/`}>この事業の年表と、止まった理由を見る →</Link></div>}
+          {list.length > 0 && <div className="tl-more"><Link href={`/services/t/${t.slug}/`}>この事業の年表と、止まった理由を見る →</Link></div>}
         </section>
       ))}
     </>
