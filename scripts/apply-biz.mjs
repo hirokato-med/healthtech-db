@@ -64,7 +64,7 @@ console.error(`開始時期を外した ${cleared} 件 / 節目 ${miles} 件・�
 // 足す事業も、開始時期の根拠が報道・見出し・会社設立・逆算だけなら開始時期を入れない
 const weak = /報道|見出し|会社設立|設立日|逆算|Wikipedia|ウィキペディア|予定|試作/;
 let weakStart = 0;
-const adds = outs.flatMap((o) => o.adds ?? []).filter((a) => a.name && a.type).map((a) => {
+const adds = outs.flatMap((o) => o.adds ?? []).filter((a) => a.name && a.type && !a.needsPrimary).map((a) => {
   const x = { ...a, companyName: a.company, companyId: a.companyId || undefined };
   if (x.startedAt && weak.test(`${x.startBasis ?? ''} ${x.note ?? ''}`)) { delete x.startedAt; delete x.startBasis; weakStart++; }
   return x;
