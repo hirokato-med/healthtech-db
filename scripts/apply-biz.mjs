@@ -33,7 +33,7 @@ for (const o of outs) {
     if (u.remove) { drop.add(s.id); removed++; continue; }
     if (/^\d{4}(-\d{2})?$/.test(u.startedAt ?? '')) {
       // 会社設立の日付、Wikipedia、後年の資料からの逆算は開始時期に使わない（一次情報だけ）
-      if (/会社設立|設立日|法人設立|Wikipedia|ウィキペディア|逆算|予定|FDA/.test(u.note ?? '')) skippedFounding++;
+      if (/会社設立|設立日|法人設立|Wikipedia|ウィキペディア|逆算|予定|FDA|カナダ|米国|海外/.test(u.note ?? '')) skippedFounding++;
       else if (u.startedAt !== s.startedAt) { s.startedAt = u.startedAt; s.startedYear = Number(u.startedAt.slice(0, 4)); started++; }
     }
     if (u.status && STATUS.has(u.status) && u.status !== s.status) { if (u.status !== '提供中') stopped++; s.status = u.status; }
