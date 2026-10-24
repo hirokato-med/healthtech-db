@@ -69501,5 +69501,1559 @@
     ],
     "type": "disease-specific-ai-samd",
     "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-41653266",
+    "name": "ファミリー健康相談（24時間電話健康相談）",
+    "company": "株式会社法研",
+    "companyId": "7010001057148",
+    "category": "health-consulting",
+    "description": "健康保険組合・企業・自治体・保険会社などの契約先の加入者に、24時間365日、医師・保健師・看護師が電話で健康相談に応じる付帯サービス。法研は「電話健康相談のパイオニア」を自称する。",
+    "hp": "https://www.sociohealth.co.jp/soudan/",
+    "startedYear": 1987,
+    "status": "提供中",
+    "startedAt": "1987-04",
+    "startBasis": "会社沿革の「ファミリー健康相談」事業開設",
+    "sources": [
+      "https://www.sociohealth.co.jp/company/history/",
+      "https://www.sociohealth.co.jp/soudan/"
+    ],
+    "type": "phone-consult-benefit",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0d022050",
+    "name": "電話健康相談・こころの相談（旧 保健同人社「笑顔でヘルシーダイヤル」）",
+    "company": "MBK Wellness株式会社",
+    "category": "health-consulting",
+    "description": "保健師・看護師・臨床心理士などが電話で心身の相談に応じる保険者・企業向けサービス。症状検討プログラム「トリアージュ」を使う。出版社の保健同人社が始め、現在は三井物産系のMBK Wellnessの保健同人フロンティア事業本部が運営。",
+    "hp": "https://hkdf.mwk.co.jp/",
+    "startedYear": 1988,
+    "status": "提供中",
+    "startedAt": "1988",
+    "startBasis": "会社の歩みに記載の電話相談「笑顔でヘルシーダイヤル」開始年（月は不明）",
+    "milestones": [
+      {
+        "date": "1989",
+        "text": "電話相談「心の相談ネットワーク」を開始",
+        "source": "https://hkdf.mwk.co.jp/well-being/steps"
+      },
+      {
+        "date": "2002",
+        "text": "症状検討プログラム「トリアージュ」を開発",
+        "source": "https://hkdf.mwk.co.jp/well-being/steps"
+      },
+      {
+        "date": "2022-04",
+        "text": "三井物産が保健同人社株式を追加取得し、MBK Wellness Holdingsのもとで国内ウェルネス事業を推進",
+        "source": "https://www.mitsui.com/jp/ja/topics/2022/1243282_13393.html"
+      },
+      {
+        "date": "2022-10",
+        "text": "株式会社保健同人社が株式会社保健同人フロンティアに社名変更",
+        "source": "https://prtimes.jp/main/html/rd/p/000000029.000071351.html"
+      },
+      {
+        "date": "2026-07",
+        "text": "MBK Wellness株式会社の保健同人フロンティア事業本部として運営（同社お知らせの表記）",
+        "source": "https://hkdf.mwk.co.jp/news/news-20260724-01"
+      }
+    ],
+    "sources": [
+      "https://hkdf.mwk.co.jp/well-being/steps",
+      "https://www.mitsui.com/jp/ja/topics/2022/1243282_13393.html",
+      "https://prtimes.jp/main/html/rd/p/000000029.000071351.html"
+    ],
+    "type": "phone-consult-benefit",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-bea45c97",
+    "name": "プレミアサポート（アフラック契約者向け がん訪問面談事業）",
+    "company": "株式会社法研",
+    "companyId": "7010001057148",
+    "category": "health-consulting",
+    "description": "アフラックと提携し、がん保険の契約者・家族のもとへ専門カウンセラーが訪問して治療や療養の悩みを聞く付帯サービス。法研が2007年から運営し、2026年4月にアフラック子会社のHatch Healthcareへ事業譲渡された。",
+    "hp": "https://www.premiersupport.jp/",
+    "startedYear": 2007,
+    "status": "譲渡",
+    "startedAt": "2007-12",
+    "startBasis": "法研沿革の「アフラックと業務提携、『プレミアサポート』事業開始」",
+    "endedAt": "2026-04",
+    "milestones": [
+      {
+        "date": "2026-04",
+        "text": "がんに関する訪問面談事業をアフラック100％子会社のHatch Healthcare株式会社が譲受。ベストドクターズ・サービスは法研が継続",
+        "source": "https://prtimes.jp/main/html/rd/p/000000021.000097378.html"
+      }
+    ],
+    "endReasons": [
+      "acquisition"
+    ],
+    "endReasonNote": "譲受側のHatch Healthcareは、自社の電話中心の「よりそうがん相談サポート」やデジタルの情報提供と連携させ、がん患者支援の体制を強化するためと説明。法研側の理由説明はない。",
+    "sources": [
+      "https://www.sociohealth.co.jp/company/history/",
+      "https://prtimes.jp/main/html/rd/p/000000021.000097378.html",
+      "https://www.premiersupport.jp/"
+    ],
+    "type": "phone-consult-benefit",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-be2338be",
+    "name": "日用品・化粧品・一般用医薬品の卸売事業（あらた）",
+    "company": "株式会社あらた",
+    "category": "wholesale",
+    "description": "ドラッグストア・ホームセンター・スーパーなどに日用品・化粧品・一般用医薬品・ペット用品を全国卸売する。地域卸のダイカ・伊藤伊・サンビックが2002年に共同持株会社を作って統合し、その後も地域卸の買収・合併で全国網を築いた。",
+    "hp": "https://www.arata-gr.jp/",
+    "startedYear": 2002,
+    "status": "提供中",
+    "startedAt": "2002-04",
+    "startBasis": "ダイカ・伊藤伊・サンビックの共同持株会社「株式会社あらた」設立（前身各社の創業はさらに古い）",
+    "milestones": [
+      {
+        "date": "2002-04",
+        "text": "ダイカ、伊藤伊、サンビックが共同持株会社「株式会社あらた」を設立しジャスダック上場",
+        "source": "https://www.arata-gr.jp/company/history/"
+      },
+      {
+        "date": "2004-04",
+        "text": "持株会社から事業会社へ移行（傘下3社を統合）",
+        "source": "https://www.arata-gr.jp/company/history/"
+      },
+      {
+        "date": "2005-12",
+        "text": "株式交換によりジャペル株式会社を子会社化",
+        "source": "https://www.arata-gr.jp/company/history/"
+      },
+      {
+        "date": "2006-10",
+        "text": "株式会社シスコと合併",
+        "source": "https://www.arata-gr.jp/company/history/"
+      }
+    ],
+    "sources": [
+      "https://www.arata-gr.jp/company/history/"
+    ],
+    "type": "otc-consumer-wholesale",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-da4587b6",
+    "name": "大広フェムテック・フェムケアラボ",
+    "company": "株式会社大広",
+    "category": "femtech",
+    "description": "博報堂DYグループの広告会社・大広の社内ラボ。女性のヘルスケア領域に参入する企業に勉強会・独自調査・商品開発やコミュニケーション戦略の支援を行う。2020年度からのR&D活動を経て2021年に発足した。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-09",
+    "startBasis": "大広のプレスリリースでのラボ発足発表（前段のR&D活動は2020年度から）",
+    "milestones": [
+      {
+        "date": "2025-03",
+        "text": "メディアエンジン（ソウルドアウト）のフェムケア・フェムテックチームとパートナー関係に",
+        "source": "https://prtimes.jp/main/html/rd/p/000000136.000042292.html"
+      },
+      {
+        "date": "2026-04",
+        "text": "Floraと戦略提携し、フェムテック事業創出支援を強化",
+        "source": "https://prtimes.jp/main/html/rd/p/000000182.000042292.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000023.000042292.html",
+      "https://prtimes.jp/main/html/rd/p/000000182.000042292.html"
+    ],
+    "type": "femtech-biz-support",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b6bd65d6",
+    "name": "異業種共創プロジェクト「WELLWOMAN」（フェムテック）",
+    "company": "株式会社ハー・ストーリィ",
+    "category": "femtech",
+    "description": "女性マーケティングの調査会社ハー・ストーリィ（女性インサイト総研HERSTORY）が、女性の健康×活躍をテーマに異業種企業や専門家を集め、フェムテック市場の商品・事業づくりを共創する会員制プロジェクト。",
+    "hp": "https://herstory.co.jp/well-woman/",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-06",
+    "startBasis": "プロジェクト発足イベントのプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000023043.html",
+      "https://herstory.co.jp/well-woman/"
+    ],
+    "type": "femtech-biz-support",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-99b3f7ab",
+    "name": "99さがネット（救急車タブレットによる搬送・受入情報の共有）",
+    "company": "佐賀県",
+    "category": "first-aid",
+    "description": "佐賀県が運営する医療機関情報・救急医療情報システム。全国で初めて県内の全救急車にタブレット端末を配備し、病院ごとの専門医の受入可否や搬送実績を救急隊と医療機関で共有・可視化した。同様の仕組みは他府県にも広がった。",
+    "hp": "https://www.qq.pref.saga.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.pref.saga.lg.jp/kiji00353872/",
+      "https://www.qq.pref.saga.jp/about/",
+      "https://www.itmedia.co.jp/enterprise/articles/1404/02/news003.html"
+    ],
+    "type": "ems-hospital-information",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5f4f3354",
+    "name": "救急搬送支援アプリ「スクエル（SQ-L）」",
+    "company": "株式会社麻生情報システム",
+    "category": "first-aid",
+    "description": "LINE WORKS上で動く救急隊向けアプリ。救急隊がフォーム入力した傷病者情報で複数の医療機関へ一斉に受入照会し、病院側の回答をトークで受け取れる。栃木県小山市消防本部が県内で初めて導入した。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-02",
+    "startBasis": "小山市消防本部でのトライアル運用開始（確認できた最古の稼働）",
+    "milestones": [
+      {
+        "date": "2025-04",
+        "text": "小山市消防本部で本格運用開始（救急隊8隊・9医療機関）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000453.000020202.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000453.000020202.html"
+    ],
+    "type": "ems-hospital-information",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1c51e5d6",
+    "name": "ライクス薬局（施設在宅に強い在宅訪問薬局）",
+    "company": "株式会社学研メディカルファーマシー",
+    "category": "pharmacy-dx",
+    "description": "学研ホールディングス傘下のメディカル・ケア・サービスとセントラル薬局グループのイエローエイトの合弁会社が運営。介護施設や自宅へ薬剤師が訪問し、服薬確認・残薬調整・多剤併用の解消などを行う在宅中心の調剤薬局。市川・千葉・三鷹に展開。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-09",
+    "startBasis": "学研HDリリースに記載の「ライクス薬局」運営開始時期",
+    "milestones": [
+      {
+        "date": "2023-08",
+        "text": "ケアライフから営業権を譲り受け2店舗目の千葉店を開局",
+        "source": "https://prtimes.jp/main/html/rd/p/000005298.000002535.html"
+      },
+      {
+        "date": "2026-10",
+        "text": "都内初の三鷹店を開局。施設在宅のノウハウとICT活用を集約した標準モデルと位置づけ",
+        "source": "https://prtimes.jp/main/html/rd/p/000009497.000002535.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000005298.000002535.html",
+      "https://prtimes.jp/main/html/rd/p/000009497.000002535.html"
+    ],
+    "type": "pharmacy-home-visit",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d86e73df",
+    "name": "さくら薬局グループ「在宅医療チーム」",
+    "company": "クラフト株式会社",
+    "category": "pharmacy-dx",
+    "description": "調剤薬局チェーンのさくら薬局グループが、訪問薬剤管理指導を専門に担う専任薬剤師だけで組んだ在宅チーム。無菌調剤・処方提案・緩和ケアに対応し、管理栄養士の訪問栄養指導も組み合わせる。2027年までに20拠点を目指す。",
+    "hp": "",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-11",
+    "startBasis": "10拠点到達を発表したプレスリリース（チーム立ち上げ時期は未記載）",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000014.000088807.html"
+    ],
+    "type": "pharmacy-home-visit",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-16b22f72",
+    "name": "ベストスタイル 健康キャッシュバック",
+    "company": "明治安田生命保険相互会社",
+    "category": "insuarance",
+    "description": "明治安田生命の「みんなの健活プロジェクト」の中核となる健康増進型保険。毎年の健康診断結果を提出すると、所定の基準を満たしたり数値が改善したりした場合にキャッシュバックを受け取れる。契約は100万件を超えた。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-02",
+    "startBasis": "発売を発表したニュースリリース（2019年2月22日付、発売は同年4月）",
+    "milestones": [
+      {
+        "date": "2019-04",
+        "text": "「ベストスタイル 健康キャッシュバック」を発売",
+        "source": "https://www.meijiyasuda.co.jp/profile/corporate_info/about/history/"
+      }
+    ],
+    "sources": [
+      "https://www.meijiyasuda.co.jp/profile/news/release/2018/",
+      "https://www.meijiyasuda.co.jp/profile/corporate_info/about/history/"
+    ],
+    "type": "health-promotion-insurance",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-10d8bcf0",
+    "name": "会社みんなでKENCO＋（ケンコウプラス）",
+    "company": "大同生命保険株式会社",
+    "category": "insuarance",
+    "description": "中小企業向けの健康増進型の就業不能保障保険。従業員の健康づくりを支える健康増進サービス（dacadooの健康スコアなど）と、重度の就業不能・死亡への保障を一体で提供し、健康経営を後押しする。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-12",
+    "startBasis": "発売を発表した会社リリース（発売日は2022年1月5日）",
+    "milestones": [
+      {
+        "date": "2022-01",
+        "text": "「会社みんなでKENCO＋」を発売",
+        "source": "https://www.nikkei.com/article/DGXLRSP624189_Q1A221C2000000/"
+      }
+    ],
+    "sources": [
+      "https://www.nikkei.com/article/DGXLRSP624189_Q1A221C2000000/"
+    ],
+    "type": "health-promotion-insurance",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7597d1bf",
+    "name": "ユビーDPCサポーター",
+    "company": "Ubie株式会社",
+    "companyId": "7010701034132",
+    "category": "medical-saas",
+    "description": "Ubie独自の大規模言語モデルを使い、電子カルテのデータと連携して主病名・副傷病名・手術・処置などのDPCコーディング漏れを指摘し、診療報酬の適正な請求を支える病院向けサービス。九州大学病院で年6,500万円超の収益改善見込みと発表。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-01",
+    "startBasis": "九州大学病院で「ユビー生成AI」のDPC業務支援機能の検証を始めたと発表（製品名での提供確認は2025年11月）",
+    "milestones": [
+      {
+        "date": "2025-11",
+        "text": "補助金活用サポート付きの「ユビー生成AI」「ユビーDPCサポーター」特別パッケージを提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000190.000048083.html"
+      },
+      {
+        "date": "2025-12",
+        "text": "九州大学病院での活用で年間6,500万円以上の収益改善見込みを公表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000191.000048083.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000124.000048083.html",
+      "https://prtimes.jp/main/html/rd/p/000000191.000048083.html"
+    ],
+    "type": "dpc-data-submission",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0e946970",
+    "name": "外来データアシスト（ライフケアコンパスの外来データ提出加算支援）",
+    "company": "コガソフトウェア株式会社",
+    "category": "medical-saas",
+    "description": "生活習慣病管理料の算定を支えるクラウド「ライフケアコンパス」の機能。レセコン・電子カルテ・検査結果・WEB問診のデータから提出対象患者を判定し、外来データ提出加算に必要な外来様式1ファイルを自動生成する。",
+    "hp": "",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-03",
+    "startBasis": "サービスのローンチを発表したプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000016.000039125.html",
+      "https://prtimes.jp/main/html/rd/p/000000030.000039125.html"
+    ],
+    "type": "dpc-data-submission",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2457dc20",
+    "name": "外来データ提出加算 算定導入サービス",
+    "company": "メディヴァ",
+    "companyId": "3010901014730",
+    "category": "medical-saas",
+    "description": "診療所向けに、外来データ提出加算の届出準備から外来様式1のデータ作成・提出までを支援するコンサルティング型サービス。2024年度改定で生活習慣病管理料に移った内科系診療所の収益改善を狙う。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-04",
+    "startBasis": "提供開始を発表したプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000018.000041752.html"
+    ],
+    "type": "dpc-data-submission",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-be71da52",
+    "name": "日本アルトマークのCRO事業（PMS調査票の入力・集計解析受託から発展）",
+    "company": "株式会社日本アルトマーク",
+    "companyId": "8010001061768",
+    "category": "cro",
+    "description": "医師・医療機関データベースで知られる日本アルトマークが、製薬企業の市販後調査（PMS）の調査票の入力と集計解析を受託したことから始め、医薬品開発業務受託（CRO）事業に育てた。2013年にシミックグループのシミックPMSへ譲渡した。",
+    "hp": "",
+    "startedYear": 1983,
+    "status": "譲渡",
+    "startedAt": "1983",
+    "startBasis": "日本アルトマーク沿革の「PMS（市販後調査）の調査票の入力及び集計解析を受託」（月は不明）",
+    "endedAt": "2013",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "沿革には2013年にCRO事業をシミックPMSへ譲渡し、同年NTTドコモと資本提携したとの記載があるのみで、譲渡理由の説明はない。",
+    "sources": [
+      "https://www.ultmarc.co.jp/about_ultmarc/company/history/"
+    ],
+    "type": "post-marketing-bpo",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e1e95298",
+    "name": "ACRONET（臨床開発支援・製造販売後調査のCRO）",
+    "company": "伊藤忠商事株式会社",
+    "companyId": "7120001077358",
+    "category": "cro",
+    "description": "製薬企業・医療機器メーカー向けに臨床開発支援と製造販売後調査業務を手がけたCRO。伊藤忠商事が2005年に買収してCRO事業に本格参入したが、2014年に同じ伊藤忠系のエイツーヘルスケアと統合した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "統合",
+    "endedAt": "2014-11",
+    "milestones": [
+      {
+        "date": "2005",
+        "text": "伊藤忠商事がACRONETを買収し、CRO事業に本格参入",
+        "source": "https://www.itochu.co.jp/ja/news/press/2014/1410012.html"
+      },
+      {
+        "date": "2014-11",
+        "text": "エイツーヘルスケアと統合（存続会社名はエイツーヘルスケア）",
+        "source": "https://www.itochu.co.jp/ja/news/press/2014/1410012.html"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "伊藤忠商事は、顧客ニーズの多様化や国際共同治験の増加に対応するため、2社を統合して従業員860名・モニタリング担当500名規模の体制にすると説明した。",
+    "sources": [
+      "https://www.itochu.co.jp/ja/news/press/2014/1410012.html"
+    ],
+    "type": "post-marketing-bpo",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2edaf9d1",
+    "name": "訪問看護ステーションいつき（精神科特化、埼玉県）",
+    "company": "株式会社ハートヴィレッジ",
+    "category": "home-visit-nursing",
+    "description": "埼玉県行田市の会社が県内で多拠点展開する精神科特化の訪問看護。統合失調症やうつ病などの利用者の自宅を看護師が訪ね、服薬や生活リズム、再入院予防を支える。2026年には児童・思春期特化の拠点も開設した。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-08",
+    "startBasis": "プレスリリースに記載の1号店「いつき行田」開設",
+    "milestones": [
+      {
+        "date": "2022-06",
+        "text": "県内8か所目の「いつき所沢」を開設",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000097017.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000097017.html"
+    ],
+    "type": "psychiatric-visiting-nursing",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9c37c6c0",
+    "name": "訪問看護事業所「ニト」（小児・成人の精神科訪問看護、旧キレイニ）",
+    "company": "株式会社ニト",
+    "category": "home-visit-nursing",
+    "description": "発達障害・知的障害・不登校など心の課題を抱える子どもと家族を中心に、関東圏で訪問する精神科特化の訪問看護。株式会社ケアビィの訪問看護「キレイニ」を事業単位で独立・承継し、屋号を変えて再出発した。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-04",
+    "startBasis": "ニトとしての開設発表（前身ケアビィ「キレイニ」の開始時期は未確認）",
+    "milestones": [
+      {
+        "date": "2025-04",
+        "text": "ケアビィの訪問看護「キレイニ」を独立・承継し「ニト」として開設",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000159942.html"
+      },
+      {
+        "date": "2026-07",
+        "text": "小児・成人精神科訪問看護として川崎市へ訪問エリアを拡大",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000159942.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000159942.html"
+    ],
+    "type": "psychiatric-visiting-nursing",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4d053531",
+    "name": "メンタルヘルスラボの訪問看護（精神科特化）",
+    "company": "メンタルヘルスラボ株式会社",
+    "category": "home-visit-nursing",
+    "description": "就労支援など障害福祉事業を手がけるメンタルヘルスラボが、うつや発達障害の人に一貫した支援を届けるため始めた精神科特化の訪問看護。横浜に1拠点目を開設した。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-06",
+    "startBasis": "訪問看護事業開始・横浜事業所開設のプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000091.000051972.html"
+    ],
+    "type": "psychiatric-visiting-nursing",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-63e4f1d6",
+    "name": "精神科訪問看護ステーション「ファミリーナース」（FC）",
+    "company": "株式会社アニスピホールディングス",
+    "category": "home-visit-nursing",
+    "description": "ペット共生型障がい者グループホーム「わおん」「にゃおん」をFC展開する会社が始めた精神科訪問看護のフランチャイズ。加盟事業者が自社のグループホーム入居者などに訪問看護を提供できるようにする。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-12",
+    "startBasis": "FC1号店（名古屋市緑区）開設のプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000216.000022736.html"
+    ],
+    "type": "psychiatric-visiting-nursing",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-951614ef",
+    "name": "J SOLUTIONS PHARMA CELLS（再生医療向け細胞輸送）",
+    "company": "日本航空株式会社",
+    "category": "wholesale",
+    "description": "JALが医薬品航空輸送のノウハウを生かして始めた、再生医療の細胞製品向け輸送サービス。取り扱いが難しく時間制約の厳しい細胞製品を、迅速かつ丁寧に空輸して品質を守ることをうたう。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-07",
+    "startBasis": "提供開始を発表したプレスリリース（2025年7月7日開始）",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000001269.000030684.html"
+    ],
+    "type": "specialty-drug-logistics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-003acec9",
+    "name": "東海道マッハ便による再生医療の細胞輸送",
+    "company": "株式会社Gaudi Clinical",
+    "category": "wholesale",
+    "description": "再生医療の導入支援を行うGaudi ClinicalとJR東海グループが連携し、東海道新幹線の即日荷物輸送「東海道マッハ便」で、医療機関で採取した細胞や細胞加工物を首都圏の加工施設と名古屋・大阪の間で運ぶ。採取地と加工施設が近くにある必要があった制約をなくし、供給エリアを広げる。",
+    "hp": "",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-08",
+    "startBasis": "Gaudi ClinicalとJR東海グループの共同プレスリリース（輸送開始は8月17日）",
+    "sources": [
+      "https://www.nikkei.com/article/DGXZRSP710991_X00C26A8000000/"
+    ],
+    "type": "specialty-drug-logistics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7987c7b5",
+    "name": "カジュアルリラクゼーション「てもみん」",
+    "company": "株式会社グローバルスポーツ医学研究所",
+    "category": "relaxation",
+    "description": "駅ナカ・商業施設を中心に、もみほぐし・足つぼなどを短時間から受けられるリラクゼーション店をチェーン展開する。運営会社は1982年創業で、全日本柔道連盟指定の鍼灸マッサージ「グローバル治療院」も運営する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2021-10",
+        "text": "創業40周年を前に「てもみん」のブランドロゴを刷新",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000086925.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000086925.html"
+    ],
+    "type": "relaxation-salon",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a8a706bf",
+    "name": "法人向け歯科健診サポート（ハミエル）",
+    "company": "株式会社ハミエル",
+    "category": "dental",
+    "description": "訪問歯科大手デンタルサポート（DSヘルスケアグループ）の法人向け歯科健診・歯科保健事業を新設分割した会社。企業・健保の職場や健診会場に歯科医師・歯科衛生士を派遣して歯科健診や予防歯科の啓発を行う。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2021-10",
+        "text": "デンタルサポートが法人向け歯科健診サポート等の歯科保健事業を新設分割し、株式会社ハミエルを設立",
+        "source": "https://newscast.jp/news/5682440"
+      },
+      {
+        "date": "2024-01",
+        "text": "シンフォニカルと協業し、法人向け「出張歯科健診サービス」を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000210.000043647.html"
+      }
+    ],
+    "sources": [
+      "https://newscast.jp/news/5682440",
+      "https://prtimes.jp/main/html/rd/p/000000210.000043647.html"
+    ],
+    "type": "dental-visiting-checkup",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5d760053",
+    "name": "スマート歯科健診",
+    "company": "デンタルドア株式会社",
+    "category": "dental",
+    "description": "企業向けの出張歯科健診。歯科衛生士が3次元口腔内スキャナで歯と歯ぐきを撮影し、後日歯科医師がクラウド上のデータを確認して結果を配信する。少ない機材と人員で健診でき、キリンビール健保などが導入した。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-03",
+    "startBasis": "サービス立ち上げと複数企業への導入開始を発表したプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000144567.html",
+      "https://prtimes.jp/main/html/rd/p/000000004.000144567.html"
+    ],
+    "type": "dental-visiting-checkup",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9c23d4ab",
+    "name": "民間救急搬送事業（救急救命士同乗の民間救急車、沖縄）",
+    "company": "株式会社メディトランセ",
+    "companyId": "4011101060440",
+    "category": "first-aid",
+    "description": "医療検体輸送を本業とするメディトランセが、沖縄本島でのコロナ患者搬送の経験をもとに始めた民間救急。救急救命士が同乗する民間救急車で、転院や通院などの搬送を有償で担うと発表した（沖縄県初とうたう）。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "終了",
+    "startedAt": "2021-12",
+    "startBasis": "事業開始を発表したプレスリリース",
+    "endedAt": "2026-09",
+    "milestones": [
+      {
+        "date": "2026-09",
+        "text": "運営会社が東京地裁から破産開始決定を受ける（東京商工リサーチ報道）",
+        "source": "https://www.tsr-net.co.jp/news/tsr/detail/1203249_1521.html"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "運営会社が2026年9月に東京地裁から破産開始決定を受けた。報道はPCR検査の不正受給で東京都から約13億円の返還命令を受けていたと伝えるが、破産の理由について会社の説明はない。",
+    "sources": [
+      "https://www.atpress.ne.jp/news/291215",
+      "https://www.tsr-net.co.jp/news/tsr/detail/1203249_1521.html"
+    ],
+    "type": "private-ambulance-event-aid",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-959c2e5a",
+    "name": "スター交通 民間救急事業部（患者搬送・教育旅行の発熱対応）",
+    "company": "株式会社スター交通",
+    "category": "first-aid",
+    "description": "群馬・埼玉・東京で民間救急と貸切バスを営む会社の患者搬送チーム。コロナ禍の感染症患者輸送の経験を生かし、修学旅行など教育旅行の出先で発熱した生徒を搬送・対応するサービスを全国の同業20社と提携して始めた。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-02",
+    "startBasis": "リリースに記載の、横浜大黒埠頭のダイヤモンド・プリンセス号での感染症輸送対応（民間救急事業そのものの開始時期は未確認）",
+    "milestones": [
+      {
+        "date": "2022-12",
+        "text": "教育旅行出先における発熱対応サービスを本格開始と発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000112618.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000112618.html"
+    ],
+    "type": "private-ambulance-event-aid",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c2c00dee",
+    "name": "内視鏡手術統合システム（ENDOALPHA）",
+    "company": "オリンパス株式会社",
+    "companyId": "5011001005222",
+    "category": "surgical-support",
+    "description": "内視鏡手術室の内視鏡機器・電気メス・無影灯・手術台・照明・映像などを集中操作パネルでまとめて制御し、手術室と内視鏡室の映像・情報をつなぐ統合システム。2011年に他社製の無影灯や手術台まで統合した発展版を提供開始した。",
+    "hp": "",
+    "startedYear": 2011,
+    "status": "提供中",
+    "startedAt": "2011-02",
+    "startBasis": "発展版システムの提供開始リリース（従来版ENDOALPHAの開始時期は未確認）",
+    "sources": [
+      "https://www.olympus.co.jp/jp/news/2011a/nr110208endoalphaj.html"
+    ],
+    "type": "operating-room-management",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-98b6246c",
+    "name": "Fujitsu リソース最適化エンジン Assignment Master（手術室スケジュール自動作成）",
+    "company": "富士通Japan株式会社",
+    "category": "surgical-support",
+    "description": "300床以上の病院向けに、手術予定・手術室・機器・医師や看護師の勤務予定を条件に、手術室の割り当てをAIで自動作成して稼働率を上げるソリューション。手術部スタッフの手作業だったスケジュール作成を置き換える。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-12",
+    "startBasis": "富士通の提供開始プレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000082.000093942.html",
+      "https://news.mynavi.jp/techplus/article/20221207-2531719/"
+    ],
+    "type": "operating-room-management",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d41405db",
+    "name": "神戸市 糖尿病性腎症等重症化予防事業（日本初のソーシャル・インパクト・ボンド）",
+    "company": "株式会社DPPヘルスパートナーズ",
+    "category": "disease-management-program",
+    "description": "神戸市国保の特定健診で糖尿病・腎症のハイリスクとされ、未受診・治療中断の人に、DPPヘルスパートナーズが面談と電話で半年間の保健指導を行った日本初のSIB事業。三井住友銀行などが資金を出し、腎機能の低下抑制などの成果に応じて市が委託料を払う仕組みだった。",
+    "hp": "",
+    "startedYear": 2017,
+    "status": "終了",
+    "startedAt": "2017-07",
+    "startBasis": "保健指導プログラムの開始（2017年度事業）",
+    "endedAt": "2020-03",
+    "milestones": [
+      {
+        "date": "2017-05",
+        "text": "データホライゾンがDPPヘルスパートナーズを子会社化（2017年4月発表）",
+        "source": "https://www.nikkei.com/article/DGKKZO15507780Z10C17A4LC0000/"
+      },
+      {
+        "date": "2018-07",
+        "text": "中間評価でプログラム修了率100％・生活習慣改善率95％を達成し、初の成果連動支払い",
+        "source": "https://project.nikkeibp.co.jp/atclppp/PPP/news/102800931/"
+      },
+      {
+        "date": "2020-10",
+        "text": "最終評価・総括レポートを公表。成果指標は目標未達で委託料323万円を支払い",
+        "source": "https://project.nikkeibp.co.jp/behealth/atcl/news/domestic/00038/"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2017〜2019年度の3年間の事業として設計され、期間満了で終了した。最終評価では腎機能の低下抑制率が32.9％と目標80％に届かず、成果連動の委託料は減額された。",
+    "sources": [
+      "https://www.meti.go.jp/press/2020/10/20201009001/20201009001.html",
+      "https://project.nikkeibp.co.jp/behealth/atcl/news/domestic/00038/",
+      "https://dm-rg.net/news/2020/10/020545.html"
+    ],
+    "type": "severity-prevention-program",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4d1164a4",
+    "name": "JoyPla（ジョイプラ：中小病院向けクラウド型SPDシステム）",
+    "company": "スパイラル株式会社",
+    "category": "medical-materials",
+    "description": "中小規模病院向けのクラウド型SPD（医療材料の在庫・発注・消費管理）システム。医療材料の箱のGS1-128バーコードを読むだけで使用期限やロットを記録でき、手書きやExcelの在庫管理・棚卸を置き換える。複数施設のグループ管理機能もある。",
+    "hp": "https://joypla.jp/",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-04",
+    "startBasis": "GS1-128対応版の提供開始リリース（初版の提供開始時期は未確認）",
+    "milestones": [
+      {
+        "date": "2022-02",
+        "text": "「グループ施設管理機能」を搭載",
+        "source": "https://prtimes.jp/main/html/rd/p/000000025.000056349.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000015.000056349.html",
+      "https://joypla.jp/"
+    ],
+    "type": "spd-hospital-logistics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-08054627",
+    "name": "大鵬イノベーションズ（国内CVC）",
+    "company": "大鵬薬品工業株式会社",
+    "category": "vc-cvc",
+    "description": "大鵬薬品が国内ヘルスケア領域のスタートアップに出資するために設けたCVC（合同会社）。創薬や創薬基盤技術の会社に、創業前の段階からインキュベーションと出資を行う。2016年に米国で設けたTaiho Venturesに続く2つ目のCVC。",
+    "hp": "",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-06",
+    "startBasis": "設立を発表した大鵬薬品のプレスリリース（2019年6月10日発表）",
+    "milestones": [
+      {
+        "date": "2026-07",
+        "text": "新体制へ移行し、投資先の早期臨床開発を支える機能を新設",
+        "source": "https://kyodonewsprwire.jp/release/202607011835"
+      }
+    ],
+    "sources": [
+      "https://www.nikkei.com/article/DGXLRSP511744_R10C19A6000000/",
+      "https://kyodonewsprwire.jp/release/202607011835"
+    ],
+    "type": "corporate-venture-capital",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-53e218ee",
+    "name": "TOHO Ventures（グローバル・ブレインとの共同CVCファンド）",
+    "company": "東邦ホールディングス株式会社",
+    "companyId": "4010901008153",
+    "category": "vc-cvc",
+    "description": "医薬品卸大手の東邦ホールディングスがVCのグローバル・ブレインと共同で設立したCVCファンド。AI・データ科学・細胞遺伝子工学などで創薬の生産性を高める、主に海外の創薬・バイオテックのスタートアップに投資する。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-11",
+    "startBasis": "グローバル・ブレインのファンド設立プレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000546.000047342.html"
+    ],
+    "type": "corporate-venture-capital",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c4040608",
+    "name": "CLIPLA Luna（産婦人科・不妊治療クリニック向けクラウド電子カルテ）",
+    "company": "株式会社クリプラ",
+    "companyId": "8011101068199",
+    "category": "femtech",
+    "description": "エムティーアイ子会社のクリプラが、生理日管理アプリ「ルナルナ」と連携させて提供する産婦人科向けクラウド電子カルテ。2021年に採卵・移植など不妊治療の周期を管理する機能を加え、不妊治療クリニックにも対応した。",
+    "hp": "https://clipla.jp/luna/",
+    "startedYear": 2019,
+    "status": "提供中",
+    "startedAt": "2019-12",
+    "startBasis": "販売開始を発表したプレスリリース",
+    "milestones": [
+      {
+        "date": "2021-10",
+        "text": "不妊治療管理機能をリリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000001000.000002943.html"
+      },
+      {
+        "date": "2023-05",
+        "text": "エムネスの画像共有サービス「LOOKREC」と連携",
+        "source": "https://prtimes.jp/main/html/rd/p/000001110.000002943.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000631.000002943.html",
+      "https://prtimes.jp/main/html/rd/p/000001000.000002943.html",
+      "https://clipla.jp/luna/"
+    ],
+    "type": "femtech-fertility-clinic-support",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f5a97579",
+    "name": "次世代型タイムラプスインキュベーターシステム・受精卵解析ソフトウェア",
+    "company": "大日本印刷株式会社",
+    "category": "femtech",
+    "description": "大日本印刷がアステック、浅田レディースクリニックと共同開発した、体外受精の受精卵を培養しながら撮影し続けるタイムラプス装置と画像解析ソフト。2021年にAIで受精卵の発育段階を判定する機能を追加し、胚培養士の観察作業を減らす。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-05",
+    "startBasis": "3者による共同開発の発表（DNPニュースリリース）",
+    "milestones": [
+      {
+        "date": "2021-07",
+        "text": "解析ソフトウェアにAI画像解析機能を追加",
+        "source": "https://www.dnp.co.jp/news/detail/10161170_1587.html"
+      }
+    ],
+    "sources": [
+      "https://www.dnp.co.jp/news/detail/1190085_1587.html",
+      "https://www.dnp.co.jp/news/detail/10161170_1587.html"
+    ],
+    "type": "femtech-fertility-clinic-support",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-74ae5eaa",
+    "name": "SIXPAD Recovery Wear（シックスパッド リカバリーウェア）",
+    "company": "株式会社MTG",
+    "category": "direct-to-consumer",
+    "description": "EMS機器ブランドSIXPADのMTGが、自社ECや直営店で販売する一般医療機器のリカバリーウェア。特殊繊維で血行を促し疲労回復をうたう。就寝用の「Recovery Wear Sleep」や女性向けモデルへ広げ、2026年にラインアップを刷新した。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-12",
+    "startBasis": "商品紹介記事で確認できる最古の販売時期（MTGの一次情報で最古は2023年3月の新モデル発表）",
+    "milestones": [
+      {
+        "date": "2023-03",
+        "text": "接触冷感機能付きの新モデル（Tシャツ・ハーフパンツ）を発売",
+        "source": "https://prtimes.jp/main/html/rd/p/000000475.000029736.html"
+      },
+      {
+        "date": "2025-06",
+        "text": "日中も着られる24時間リカバリーウェアの新ブランド「ReD」を別途立ち上げ",
+        "source": "https://prtimes.jp/main/html/rd/p/000000672.000029736.html"
+      },
+      {
+        "date": "2025-12",
+        "text": "2026年春夏モデルの発売を予告",
+        "source": "https://prtimes.jp/main/html/rd/p/000000812.000029736.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000475.000029736.html",
+      "https://prtimes.jp/main/html/rd/p/000000812.000029736.html"
+    ],
+    "type": "d2c-recovery-wear",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d33b7d48",
+    "name": "疲労回復ウェア「Recoverypro Lab.（リカバリープロラボ）」",
+    "company": "株式会社宝島社",
+    "category": "direct-to-consumer",
+    "description": "出版社の宝島社が公式通販「宝島チャンネル」で直販を始めた一般医療機器の疲労回復ウェア。上下1万円以下の価格とキャラクターデザインで売れ、書店・ゲオ・ローソンにも販路を広げた。シリーズ累計85万着超と発表。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-10",
+    "startBasis": "宝島社リリースの注記にある「2023年10月発売の新基準バージョン」（それ以前の旧版の発売時期は未確認）",
+    "milestones": [
+      {
+        "date": "2024-03",
+        "text": "発売3か月で累計5万着突破と発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000001981.000005069.html"
+      },
+      {
+        "date": "2024-11",
+        "text": "ディズニーデザイン・キッズサイズを発売",
+        "source": "https://prtimes.jp/main/html/rd/p/000002143.000005069.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000001981.000005069.html",
+      "https://prtimes.jp/main/html/rd/p/000002143.000005069.html"
+    ],
+    "type": "d2c-recovery-wear",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-18a3ee84",
+    "name": "統合医療データベース「Cross Fact」を用いたRWD解析",
+    "company": "株式会社インテージリアルワールド",
+    "category": "real-world-data",
+    "description": "インテージグループで医療リアルワールドデータを専門に扱う会社が、レセプト・調剤・電子カルテ等の複数データを患者単位で統合した独自データベース「Cross Fact」を提供し、製薬企業の疫学・処方実態・アウトカム研究を解析まで支援する。",
+    "hp": "",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-02",
+    "startBasis": "「Cross Fact」の提供開始プレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000542.000001551.html"
+    ],
+    "type": "rwd-analysis-service",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4702b9d6",
+    "name": "ダスキン ライフケア（旧ホームインステッド：介護保険外の高齢者生活支援）",
+    "company": "株式会社ダスキン",
+    "category": "nursing",
+    "description": "介護保険でまかなえない家事・外出の付き添い・話し相手・見守りなどを、研修を受けたスタッフが時間単位で自費提供する高齢者向けサービス。「ホームインステッド事業」として始まり、2018年に自社ブランド「ダスキン ライフケア」に改めた。",
+    "hp": "",
+    "startedYear": 2000,
+    "status": "提供中",
+    "startedAt": "2000-06",
+    "startBasis": "ダスキン沿革の「ホームインステッド事業」開始",
+    "milestones": [
+      {
+        "date": "2018-04",
+        "text": "公的介護保険適用外サービスの新ブランド「ダスキン ライフケア」として再スタート",
+        "source": "https://prtimes.jp/main/html/rd/p/000000367.000005720.html"
+      }
+    ],
+    "sources": [
+      "https://www.duskin.co.jp/company/history/",
+      "https://prtimes.jp/main/html/rd/p/000000367.000005720.html"
+    ],
+    "type": "selfpay-care-service",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0880fba4",
+    "name": "Catalys Pacific（創薬特化ファンド、Post-POC Fund）",
+    "company": "Catalys Pacific, LLC",
+    "category": "vc-cvc",
+    "description": "海外で承認済み・臨床試験中の化合物を導入して日本で開発・販売する新会社を立ち上げたり、国内製薬会社や大学で止まった有望化合物を事業化したりする創薬特化の投資会社。POC取得後の後期開発と商業化を支えるPost-POCファンドに、産業革新投資機構がLP出資した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2025-05",
+        "text": "産業革新投資機構（JIC）がCatalys Pacific Post-POC Fund, LPへのLP投資を発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000033.000126311.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000033.000126311.html"
+    ],
+    "type": "healthcare-vc-fund",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b78eb32b",
+    "name": "RDiscovery Fund（創薬インキュベーションファンド）",
+    "company": "RDiscovery株式会社",
+    "category": "vc-cvc",
+    "description": "アカデミア・研究機関・製薬会社の先端創薬技術に、事業立ち上げの段階から投資・支援する創薬インキュベーションファンド。主に日本の創薬シーズに投資し、自社の研究開発チームが事業化を支える。産業革新投資機構がLP出資した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2025-04",
+        "text": "産業革新投資機構（JIC）がRDiscovery Fund, LPへのLP投資を発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000031.000126311.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000031.000126311.html"
+    ],
+    "type": "healthcare-vc-fund",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b3ba90d7",
+    "name": "歯科用ミリングマシン「DWXシリーズ」・歯科用3Dプリンター（DGSHAPE）",
+    "company": "DGSHAPE株式会社",
+    "category": "dental",
+    "description": "歯科技工所向けに、詰め物・被せ物などの補綴物をCAD/CAMデータから削り出すミリングマシンと歯科用3Dプリンターを提供する。ローランド ディー.ジー.が2010年に発売し、2017年に歯科などの事業を新設子会社DGSHAPEへ移した。世界累計1万台超を出荷。",
+    "hp": "",
+    "startedYear": 2010,
+    "status": "提供中",
+    "startedAt": "2010",
+    "startBasis": "DGSHAPEリリースに記載の「DWXシリーズを2010年に発売」（月は不明）",
+    "milestones": [
+      {
+        "date": "2017-03",
+        "text": "ローランドDGの新設子会社DGSHAPEとして第一弾製品（DWP-80S・DWX-52DC）を発表",
+        "source": "https://www.atpress.ne.jp/news/123204"
+      },
+      {
+        "date": "2019-12",
+        "text": "DWXシリーズの世界累計出荷台数が1万台を突破",
+        "source": "https://newscast.jp/news/782784"
+      }
+    ],
+    "sources": [
+      "https://newscast.jp/news/782784",
+      "https://www.atpress.ne.jp/news/123204"
+    ],
+    "type": "dental-lab-digital",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-bc1d18f8",
+    "name": "ジョブカン勤怠管理（病院向け 様式9対応）",
+    "company": "株式会社Donuts",
+    "category": "medical-saas",
+    "description": "汎用のクラウド勤怠管理「ジョブカン勤怠管理」に、病院が入院基本料の施設基準の届出に使う看護職員の勤務実績表「様式9」を勤務データから自動作成する機能を加え、医療機関向けに提供する。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "提供中",
+    "startedAt": "2018-01",
+    "startBasis": "様式9対応（医療機関向け機能）を発表したプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000147.000004237.html"
+    ],
+    "type": "hospital-workforce-shift",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f60125a7",
+    "name": "勤務シフト自動作成システム（WINWORKS、病院の看護部・薬剤部向け）",
+    "company": "ウィンワークス株式会社",
+    "category": "medical-saas",
+    "description": "時間帯・日ごとに変わる業務量に合わせて人員を配置する勤務シフト自動作成システム。医療機関では看護部や薬剤部の勤務表作成に使われ、神戸市立医療センター中央市民病院・聖路加国際病院・東大病院の薬剤部が導入事例を発表した。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "milestones": [
+      {
+        "date": "2024-12",
+        "text": "3病院の薬剤部が勤務シフト作成自動化の事例を日本病院薬剤師会近畿学術大会の共催セミナーで発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000031.000014800.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000031.000014800.html",
+      "https://prtimes.jp/main/html/rd/p/000000038.000014800.html"
+    ],
+    "type": "hospital-workforce-shift",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-869b5b75",
+    "name": "IVRy（アイブリー）for クリニック（電話自動応答）",
+    "company": "株式会社IVRy",
+    "category": "medical-dx",
+    "description": "汎用の電話自動応答SaaS「IVRy」を病院・クリニック向けに提供する。予約・診療時間・ワクチン接種などの問い合わせを音声ガイダンスとSMSで自動処理し、受付の電話対応を減らす。少額の月額から使える。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-12",
+    "startBasis": "病院・クリニック向けのリリースを発表したプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000056805.html"
+    ],
+    "type": "ai-phone-reception",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-35842619",
+    "name": "クリニック向け電話自動応答システム「iver（アイバー）」",
+    "company": "株式会社メディアコンテンツファクトリー",
+    "category": "medical-dx",
+    "description": "福岡の会社が医療機関の受付業務に特化して開発した電話自動応答システム。コロナ禍とワクチン接種で増えた診療所への電話を、自動音声で振り分け・案内して受付の負担を減らす。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "不明",
+    "startedAt": "2021-07",
+    "startBasis": "提供開始を発表したプレスリリース",
+    "endReasons": [
+      "unknown"
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000024.000004524.html"
+    ],
+    "type": "ai-phone-reception",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ad63c29d",
+    "name": "クラヤ三星堂（医療用医薬品卸、現メディセオ）",
+    "company": "株式会社メディパルホールディングス",
+    "companyId": "5010001068510",
+    "category": "wholesale",
+    "description": "三星堂・クラヤ薬品・東京医薬品の3社合併で発足した首都圏中心の医療用医薬品卸。地域卸を次々に子会社化して全国卸「メディセオ」グループの中核となったが、グループ再編で地域子会社と合併し社名・ブランドはメディセオに改められた。",
+    "hp": "",
+    "startedYear": 2000,
+    "status": "統合",
+    "startedAt": "2000-04",
+    "startBasis": "メディパル沿革の3社合併によるクラヤ三星堂発足",
+    "endedAt": "2009-10",
+    "milestones": [
+      {
+        "date": "2004-10",
+        "text": "卸売事業を分割して持株会社メディセオホールディングスとなり、事業は新設のクラヤ三星堂が承継",
+        "source": "https://www.medipal.co.jp/company/history/"
+      },
+      {
+        "date": "2006-01",
+        "text": "チヤク（千葉市）を吸収合併",
+        "source": "https://www.medipal.co.jp/company/history/"
+      },
+      {
+        "date": "2009-10",
+        "text": "地域子会社5社と合併し、株式会社メディセオに商号変更",
+        "source": "https://www.medipal.co.jp/company/history/"
+      }
+    ],
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "持株会社メディパルホールディングスへの再編に合わせ、千秋薬品・潮田クラヤ三星堂・やまひろクラヤ三星堂・平成薬品・井筒クラヤ三星堂と合併し、株式会社メディセオに商号変更した。",
+    "sources": [
+      "https://www.medipal.co.jp/company/history/"
+    ],
+    "type": "rx-drug-wholesale",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d21d72ee",
+    "name": "千秋薬品（秋田の医薬品卸、クラヤ三星堂系）",
+    "company": "株式会社メディパルホールディングス",
+    "companyId": "5010001068510",
+    "category": "wholesale",
+    "description": "秋田市を拠点に医療用医薬品等の卸売を営んだクラヤ三星堂（現メディセオ）グループの地域卸。2009年のグループ再編でクラヤ三星堂に合併され、メディセオに統合された。",
+    "hp": "",
+    "startedYear": 2001,
+    "status": "統合",
+    "startedAt": "2001-02",
+    "startBasis": "メディパル沿革の「千秋薬品が医薬品等卸売事業の営業を開始」",
+    "endedAt": "2009-10",
+    "endReasons": [
+      "parent-strategy"
+    ],
+    "endReasonNote": "メディパルホールディングスへのグループ再編の一環で、クラヤ三星堂が千秋薬品ほか地域子会社と合併しメディセオに商号変更した。",
+    "sources": [
+      "https://www.medipal.co.jp/company/history/"
+    ],
+    "type": "rx-drug-wholesale",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c1723f33",
+    "name": "合同東邦（旧大阪合同薬品、大阪・兵庫の医薬品卸）",
+    "company": "東邦ホールディングス株式会社",
+    "companyId": "4010901008153",
+    "category": "wholesale",
+    "description": "大阪合同薬品から商号変更し、東邦グループの大阪・兵庫の医療用医薬品卸として営業した子会社。奈良の木下薬品も合併して近畿の拠点となったが、2017年に東邦薬品へ吸収合併された。",
+    "hp": "",
+    "startedYear": 2005,
+    "status": "統合",
+    "startedAt": "2005-01",
+    "startBasis": "東邦HD沿革の完全子会社化・大阪合同薬品からの商号変更（前身の創業時期は未確認）",
+    "endedAt": "2017-04",
+    "milestones": [
+      {
+        "date": "2005",
+        "text": "木下薬品（奈良県）を合同東邦に合併",
+        "source": "https://www.tohohd.co.jp/company/history/"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "東邦HD沿革に、2017年4月に東邦薬品が合同東邦を合併したとの記載がある。合併の理由は沿革に書かれていない。",
+    "sources": [
+      "https://www.tohohd.co.jp/company/history/"
+    ],
+    "type": "rx-drug-wholesale",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-10980fde",
+    "name": "北陸東邦（旧協栄薬品、富山の医薬品卸）",
+    "company": "東邦ホールディングス株式会社",
+    "companyId": "4010901008153",
+    "category": "wholesale",
+    "description": "富山県の医薬品卸・協栄薬品を東邦薬品が完全子会社化し、北陸東邦に商号変更した地域卸。約5年半後に東邦薬品へ吸収合併された。",
+    "hp": "",
+    "startedYear": 2018,
+    "status": "統合",
+    "startedAt": "2018-10",
+    "startBasis": "東邦HD沿革の完全子会社化・協栄薬品からの商号変更（前身の創業時期は未確認）",
+    "endedAt": "2024-04",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "東邦HD沿革に、2024年4月に東邦薬品が北陸東邦を合併したとの記載がある。合併の理由は沿革に書かれていない。",
+    "sources": [
+      "https://www.tohohd.co.jp/company/history/"
+    ],
+    "type": "rx-drug-wholesale",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2f8c213c",
+    "name": "健康チェッカー『腸内環境』（郵送型 尿検査キット）",
+    "company": "大正製薬株式会社",
+    "category": "simple-inspection",
+    "description": "大正製薬の郵送検査キット「健康チェッカー」シリーズの一つ。自宅で採った尿を郵送すると、腸内の悪玉菌がつくる腐敗物質（インドキシル硫酸）の量から腸内環境を判定し、結果と生活改善のアドバイスを返す。同時に骨質の検査キットも発売した。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "不明",
+    "startedAt": "2021-02",
+    "startBasis": "大正製薬の新発売ニュースリリース",
+    "endReasons": [
+      "unknown"
+    ],
+    "sources": [
+      "https://www.taisho.co.jp/company/news/2021/20210202000727"
+    ],
+    "type": "gut-nutrition-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-12762a35",
+    "name": "iBow レセプト（訪問看護ステーション用レセプトシステム）",
+    "company": "株式会社eWeLL",
+    "companyId": "1120001171257",
+    "category": "home-visit-nursing",
+    "description": "訪問看護向け電子カルテ「iBow」と連動し、訪問記録から医療保険・介護保険のレセプト（請求）を作成する訪問看護ステーション向けシステム。勤怠システム「iBow KINTAI」や事務管理代行（BPO）とあわせ、ステーションの事務作業をまとめて担う。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-04",
+    "startBasis": "eWeLL沿革のリリース時期",
+    "sources": [
+      "https://ewell.co.jp/company/history/"
+    ],
+    "type": "visiting-nursing-software",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2643d9cb",
+    "name": "iBow KINTAI（訪問看護業界向け勤怠システム）",
+    "company": "株式会社eWeLL",
+    "companyId": "1120001171257",
+    "category": "home-visit-nursing",
+    "description": "eWeLLが訪問看護業界向けに開発した勤怠管理システム。訪問看護向け電子カルテ「iBow」やレセプト・事務代行サービスと並ぶ、ステーション運営支援サービスの一つ。",
+    "hp": "",
+    "startedYear": 2020,
+    "status": "提供中",
+    "startedAt": "2020-10",
+    "startBasis": "eWeLL沿革のリリース時期",
+    "sources": [
+      "https://ewell.co.jp/company/history/"
+    ],
+    "type": "visiting-nursing-software",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b203c178",
+    "name": "Sleep Doc（自宅での睡眠時無呼吸リスク計測）",
+    "company": "株式会社サプリム",
+    "category": "sleep",
+    "description": "エムスリーとソニーグループの合弁会社サプリムが提供する、自宅で睡眠中の呼吸状態などを計測して睡眠時無呼吸などの睡眠障害リスクを医師監修でチェックするサービス。個人向けと企業向け（エムスリー経由）があり、受診勧奨などのアフターフォローも行う。",
+    "hp": "https://www.sapplym.com/",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-10",
+    "startBasis": "サービス提供開始のプレスリリース（個人向け・企業向け同日）",
+    "milestones": [
+      {
+        "date": "2024-12",
+        "text": "日経クロストレンド「未来の市場をつくる100社【2025年版】」に選出",
+        "source": "https://prtimes.jp/main/html/rd/p/000000024.000102259.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000102259.html",
+      "https://prtimes.jp/main/html/rd/p/000000006.000125568.html"
+    ],
+    "type": "sleep-measurement-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f80281c2",
+    "name": "SASスクリーニング検査（事業所向け・JAF会員向け在宅簡易検査）",
+    "company": "一般財団法人運輸・交通SAS対策支援センター",
+    "category": "sleep",
+    "description": "運送事業者など事業所の運転者を対象に、自宅で装着する簡易機器で睡眠時無呼吸症候群（SAS）のスクリーニング検査を行う。2012年にはJAFと組み、JAF会員が個人で申し込める在宅検査サービスも始めた。",
+    "hp": "",
+    "startedYear": 2012,
+    "status": "不明",
+    "startedAt": "2012-07",
+    "startBasis": "JAFとの個人向けサービス開始の共同リリース（事業所向け検査の開始時期は未確認）",
+    "endReasons": [
+      "unknown"
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000120.000003128.html"
+    ],
+    "type": "sleep-measurement-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fa7df871",
+    "name": "製薬企業向け 受診支援・疾患啓発ソリューション（症状検索エンジン「ユビー」活用）",
+    "company": "Ubie株式会社",
+    "companyId": "7010701034132",
+    "category": "pharma-marketing-support",
+    "description": "月間利用者の多い症状検索エンジン「ユビー」を入口に、製薬企業と組んで特定疾患の早期の気づきと適切な受診を促すプロジェクトを運営する。心不全（ノバルティス・大塚）、過活動膀胱（杏林・キッセイ）などの共同プロジェクトや、製薬企業の患者中心度を測るアセスメントも提供する。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-03",
+    "startBasis": "製薬企業との初の提携として、ノバルティス・大塚製薬の「ハーティーサポート」とのAI受診相談連携開始",
+    "milestones": [
+      {
+        "date": "2023-08",
+        "text": "製薬企業のペイシェント・セントリシティを可視化する「ペイシェント・セントリシティ アセスメント」を開発",
+        "source": "https://prtimes.jp/main/html/rd/p/000000061.000048083.html"
+      },
+      {
+        "date": "2025-09",
+        "text": "杏林製薬・キッセイ薬品と過活動膀胱の早期の気づきと受診支援のプロジェクトを開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000170.000048083.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000016.000048083.html",
+      "https://prtimes.jp/main/html/rd/p/000000170.000048083.html"
+    ],
+    "type": "patient-support-awareness",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f4e1ef8c",
+    "name": "MEP 医療業界イベント情報検索（Medical Event Portal）",
+    "company": "エムスリーデジタルコミュニケーションズ株式会社",
+    "companyId": "1010401110577",
+    "category": "doctor-network",
+    "description": "製薬企業などが主催する講演会・勉強会などの医療系イベント情報を、オンライン・オフラインを問わず集約して医師ら登録会員が検索・申し込めるポータル。主催者側のイベント管理機能も持ち、2023年11月に医師以外の医療従事者向けイベントにも広げたが、約2年で終了した。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "終了",
+    "startedAt": "2023-02",
+    "startBasis": "2023年11月のリリースに記載の「今年2月のリリース」",
+    "endedAt": "2025-03",
+    "milestones": [
+      {
+        "date": "2023-11",
+        "text": "医師に加え、すべての医療従事者向けイベントに対応",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000116534.html"
+      },
+      {
+        "date": "2024-12",
+        "text": "2025年3月末でのサービス終了を告知",
+        "source": "https://www.m3dc.co.jp/news/241216/"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "2024年12月の終了のお知らせは、2025年3月末日でサービスを終了すると告げるのみで、終了の理由は説明していない。",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000116534.html",
+      "https://www.m3dc.co.jp/news/241216/"
+    ],
+    "type": "doctor-community-portal",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-054fc038",
+    "name": "ケアプロ訪問看護ステーション東京（中野・足立）",
+    "company": "ケアプロ",
+    "companyId": "4020001055401",
+    "category": "home-visit-nursing",
+    "description": "ワンコイン健診で知られるケアプロが東京の中野・足立で運営した訪問看護ステーション。新卒訪問看護師の教育プログラムや機能強化型の認定などで知られたが、在宅医療事業を分社化して地域ヘルスケア連携基盤グループのCHCPナーシングケアへ株式譲渡した。",
+    "hp": "",
+    "startedYear": 2012,
+    "status": "譲渡",
+    "startedAt": "2012-05",
+    "startBasis": "ケアプロ沿革の中野ステーション開設",
+    "endedAt": "2022-12",
+    "milestones": [
+      {
+        "date": "2013-03",
+        "text": "足立ステーションを開設",
+        "source": "https://carepro.co.jp/company/history/"
+      },
+      {
+        "date": "2017-03",
+        "text": "機能強化型訪問看護ステーションに認定",
+        "source": "https://carepro.co.jp/company/history/"
+      },
+      {
+        "date": "2022-08",
+        "text": "ケアプロとエイチ・ユウ・ジーの在宅医療介護事業を吸収分割",
+        "source": "https://carepro.co.jp/company/history/"
+      },
+      {
+        "date": "2022-12",
+        "text": "在宅医療事業をケアプロ在宅医療株式会社に分社化し、CHCPナーシングケアへ株式譲渡",
+        "source": "https://carepro.co.jp/company/history/"
+      }
+    ],
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "ケアプロ沿革には、2022年12月に在宅医療事業をケアプロ在宅医療株式会社に分社化し、同社をCHCPナーシングケアへ株式譲渡したとのみ記載があり、理由の説明はない。",
+    "sources": [
+      "https://carepro.co.jp/company/history/"
+    ],
+    "type": "visiting-nursing-station",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2dc90f24",
+    "name": "在宅治験専門「つながりをもっと。訪問看護ステーション」",
+    "company": "ケアプロ",
+    "companyId": "4020001055401",
+    "category": "home-visit-nursing",
+    "description": "患者宅で治験の手順を行う在宅治験（分散型臨床試験）に特化してケアプロが開設した訪問看護ステーション。看護師が自宅を訪ねて採血や観察などを担う想定だったが、約3年で閉鎖した。",
+    "hp": "",
+    "startedYear": 2021,
+    "status": "終了",
+    "startedAt": "2021-10",
+    "startBasis": "ケアプロ沿革の開設",
+    "endedAt": "2024-11",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonNote": "ケアプロ沿革に2024年11月30日に閉鎖したとの記載があるのみで、閉鎖の理由は公表されていない。",
+    "sources": [
+      "https://carepro.co.jp/company/history/"
+    ],
+    "type": "visiting-nursing-station",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-947bad65",
+    "name": "ショートケーキ訪問看護ステーション（池袋）",
+    "company": "ケアプロ",
+    "companyId": "4020001055401",
+    "category": "home-visit-nursing",
+    "description": "ケアプロが在宅医療事業（訪問看護ステーション東京など）を譲渡した後、2026年2月に東京・池袋に新たに開設した訪問看護ステーション。",
+    "hp": "",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-02",
+    "startBasis": "ケアプロ沿革の開設",
+    "sources": [
+      "https://carepro.co.jp/company/history/"
+    ],
+    "type": "visiting-nursing-station",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6de7e216",
+    "name": "iBow e-Campus（訪問看護の法定研修eラーニング）",
+    "company": "株式会社eWeLL",
+    "companyId": "1120001171257",
+    "category": "recruting-solutions",
+    "description": "訪問看護ステーションに求められる法定研修を動画で受講できるeラーニングサービス。訪問看護向け電子カルテ「iBow」を提供するeWeLLが、ステーション運営支援の一つとして始めた。",
+    "hp": "",
+    "startedYear": 2023,
+    "status": "提供中",
+    "startedAt": "2023-12",
+    "startBasis": "eWeLL沿革の「iBow e-Campus 訪問看護 法定研修編」提供開始",
+    "sources": [
+      "https://ewell.co.jp/company/history/"
+    ],
+    "type": "healthcare-worker-education",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9e04b766",
+    "name": "医療事務・介護の資格講座（ニチイ学館）",
+    "company": "株式会社ニチイ学館",
+    "companyId": "3010001025868",
+    "category": "recruting-solutions",
+    "description": "医療事務受託から始まったニチイ学館が、通学形式の医療事務教育を起点に人材養成事業として広げた資格講座。現在は医療・介護分野の資格講座を全国の拠点と通信で提供している。",
+    "hp": "https://www.nichiigakkan.co.jp/",
+    "startedYear": 1971,
+    "status": "提供中",
+    "startedAt": "1971-05",
+    "startBasis": "ニチイ学館沿革の「通学形式の医療事務教育を開始（人材養成事業開始）」",
+    "sources": [
+      "https://www.nichiigakkan.co.jp/company/history.html"
+    ],
+    "type": "healthcare-worker-education",
+    "updatedAt": "2026-10"
   }
 ]
