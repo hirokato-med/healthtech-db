@@ -20852,14 +20852,14 @@
   },
   {
     "id": "b-9bc1de87",
-    "name": "エキスパートパネル支援プログラム（医療機器）",
+    "name": "テンクーのエキスパートパネル支援プログラム（医療機器）",
     "company": "テンクー",
     "companyId": "3010001139230",
     "category": "diagnostic-support",
     "description": "がんゲノム医療の専門家会議（エキスパートパネル）での遺伝子変異の解釈を支援するプログラム医療機器。京大病院と共同研究を進め、厚労省の優先審査対象品目に指定。2026年9月に製造販売承認を申請した（未承認）。",
     "hp": "https://xcoo.co.jp/news/20260909.html",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://xcoo.co.jp/news/20260909.html",
       "https://prtimes.jp/main/html/rd/p/000000025.000037077.html"
@@ -20888,7 +20888,9 @@
         "text": "プログラム医療機器として製造販売承認を申請",
         "source": "https://xcoo.co.jp/"
       }
-    ]
+    ],
+    "formerName": "エキスパートパネル支援プログラム（医療機器）",
+    "stage": "承認申請中"
   },
   {
     "id": "b-b4ca3e50",
@@ -23109,20 +23111,22 @@
   },
   {
     "id": "b-ece00682",
-    "name": "移動型遠隔手術システム（研究開発）",
+    "name": "リバーフィールドの移動型遠隔手術システム",
     "company": "リバーフィールド",
     "companyId": "6011101070090",
     "category": "surgical-support",
     "description": "薬事承認された手術支援ロボットと安価な低軌道衛星通信を組み合わせ、災害時など地上通信網が使えない場面でも遠隔からロボット手術を行えるようにする研究開発。2024年6月に徳洲会・大阪大学と実証実験を行った。",
     "hp": "https://prtimes.jp/main/html/rd/p/000000009.000084908.html",
     "startedYear": 2024,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000009.000084908.html"
     ],
     "updatedAt": "2026-10",
     "type": "surgical-robot",
-    "startedAt": "2024-06"
+    "startedAt": "2024-06",
+    "formerName": "移動型遠隔手術システム（研究開発）",
+    "stage": "研究開発中"
   },
   {
     "id": "b-f937b92d",
@@ -23601,12 +23605,13 @@
     "description": "会社サイトに掲載。サービスサイトtrainy.jpは2026-10時点で名前解決できず",
     "hp": "http://trainy.jp",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "http://trainy.jp"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-diet-coaching"
+    "type": "d2c-diet-coaching",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-c9ccdd4c",
@@ -25013,14 +25018,14 @@
   },
   {
     "id": "b-acd91c21",
-    "name": "NANOTIS法（唾液による感染症デジタル検査技術）の研究開発",
+    "name": "ナノティスのNANOTIS法（唾液による感染症デジタル検査技術）",
     "company": "ナノティス",
     "companyId": "4011001111351",
     "category": "simple-inspection",
     "description": "唾液などから感染症を高感度・迅速に検出する次世代のデジタル検査技術「NANOTIS法」の研究開発。国立感染症研究所と共同研究を進め、検査デバイスの開発を目指している（研究開発段階）。",
     "hp": "http://nanotis.net/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "http://nanotis.net/",
       "https://prtimes.jp/main/html/rd/p/000000001.000038360.html"
@@ -25028,7 +25033,9 @@
     "updatedAt": "2026-10",
     "type": "next-gen-test-tech",
     "knownSince": "2018-10",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000038360.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000038360.html",
+    "formerName": "NANOTIS法（唾液による感染症デジタル検査技術）の研究開発",
+    "stage": "研究開発中"
   },
   {
     "id": "b-ad8e0da2",
@@ -26802,7 +26809,7 @@
     "description": "",
     "hp": "https://mebais.jp/",
     "startedYear": 2023,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000005.000033985.html",
       "https://prtimes.jp/main/html/rd/p/000000009.000033985.html",
@@ -26823,7 +26830,8 @@
         "text": "医科クリニック向け「ヒトとAIを活用したレセプト代行サービス」のWebセミナーを開催",
         "source": "https://prtimes.jp/main/html/rd/p/000000009.000033985.html"
       }
-    ]
+    ],
+    "stage": "開発中"
   },
   {
     "id": "b-ba710b5c",
@@ -27480,19 +27488,21 @@
   },
   {
     "id": "b-baa8b84c",
-    "name": "多がん種診断補助プログラム（開発中）",
+    "name": "Craifの多がん種診断補助プログラム",
     "company": "Craif 株式会社",
     "companyId": "7010001192093",
     "category": "simple-inspection",
     "description": "研究開発段階。2026-10に日本癌学会でMCED研究成果を発表",
     "hp": "https://craif.com/ja/news/20261023",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://craif.com/ja/news/20261023"
     ],
     "updatedAt": "2026-10",
-    "type": "next-gen-test-tech"
+    "type": "next-gen-test-tech",
+    "formerName": "多がん種診断補助プログラム（開発中）",
+    "stage": "研究開発中"
   },
   {
     "id": "b-4c2e7a5b",
@@ -29589,14 +29599,14 @@
   },
   {
     "id": "b-3334fd2c",
-    "name": "音声バイオマーカー医療機器プログラム開発",
+    "name": "PSTの音声バイオマーカー医療機器プログラム",
     "company": "PST株式会社",
     "companyId": "8010001145166",
     "category": "medical-data-analytics",
     "description": "声から病気の状態を捉える音声バイオマーカーを医療機器プログラムとして実用化するための研究開発。大学・企業と共同で、抑うつ、心不全、新型コロナの重症度、嚥下機能などの評価に使えるかを検証している。",
     "hp": "https://www.medical-pst.com/about/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://www.medical-pst.com/about/",
       "https://www.medical-pst.com/value/medical"
@@ -29616,7 +29626,9 @@
         "text": "SOMPOグループと嚥下機能評価の音声バイオマーカーを共同研究開発",
         "source": "https://www.medical-pst.com/about/"
       }
-    ]
+    ],
+    "formerName": "音声バイオマーカー医療機器プログラム開発",
+    "stage": "開発中"
   },
   {
     "id": "b-f0e05805",
@@ -31226,21 +31238,23 @@
   },
   {
     "id": "b-5e3685c1",
-    "name": "診療報酬サポートAI細谷くん",
+    "name": "MediCEの診療報酬サポートAI細谷くん",
     "company": "株式会社MediCE",
     "companyId": "jp-027",
     "category": "electronic-health-record",
     "description": "クリニックの医療事務向けに、診療報酬の疑問をAIに質問し、点数表・留意事項・疑義解釈で根拠を確かめられるサポートツール。院内のナレッジや対応リストも蓄積できる。2026年10月に提供を始めた。",
     "hp": "https://medi-ce.com/",
     "startedYear": 2026,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://medi-ce.com/product/aihosoya",
       "https://medi-ce.com/"
     ],
     "updatedAt": "2026-10",
     "type": "receipt-check-software",
-    "startedAt": "2026-10"
+    "startedAt": "2026-10",
+    "formerName": "診療報酬サポートAI細谷くん",
+    "stage": "発売予定"
   },
   {
     "id": "b-e777895a",
@@ -31752,21 +31766,23 @@
   },
   {
     "id": "b-b4b71841",
-    "name": "院内ワークス／院外ワークス／けんさポケット",
+    "name": "メディトクの院内ワークス／院外ワークス／けんさポケット",
     "company": "メディトク株式会社",
     "companyId": "jp-037",
     "category": "medical-dx",
     "description": "同社が準備中と公表しているシリーズ。院内のシフト管理・経営分析を支える「院内ワークス」、診療圏調査など開業判断を支える「院外ワークス」、検査結果や健康データを家族と共有する「けんさポケット」で、2026年10月時点で未提供。",
     "hp": "https://meditoku.com/services/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://meditoku.com/",
       "https://meditoku.com/services/",
       "https://prtimes.jp/main/html/rd/p/000000004.000187438.html"
     ],
     "updatedAt": "2026-10",
-    "type": "clinical-communication"
+    "type": "clinical-communication",
+    "formerName": "院内ワークス／院外ワークス／けんさポケット",
+    "stage": "開発中"
   },
   {
     "id": "b-5a40f662",
@@ -31777,14 +31793,15 @@
     "description": "医療機関と行政の間でやり取りする主治医意見書や生活保護関連書類などを、PDFで安全に送受信し、到達確認・期限管理・監査ログまで一つのクラウドで扱う「行政文書DX」サービスとして準備中。",
     "hp": "https://tsunagaru-medical.jp/service/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://meditoku.com/",
       "https://meditoku.com/services/",
       "https://tsunagaru-medical.jp/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "regional-referral-discharge"
+    "type": "regional-referral-discharge",
+    "stage": "開発中"
   },
   {
     "id": "b-4c867598",
@@ -32542,14 +32559,14 @@
   },
   {
     "id": "b-21acff36",
-    "name": "頭痛AI診断プログラム",
+    "name": "ヘッジホッグ・メドテックの頭痛AI診断プログラム",
     "company": "株式会社ヘッジホッグ・メドテック",
     "companyId": "jp-051",
     "category": "diagnostic-support",
     "description": "医療機関での頭痛の診断を支援するAIプログラム（医療機器）。性能評価試験で主要評価項目を達成し、2026年1月に製造販売承認を申請した。同社によると頭痛診断用プログラムの承認申請は国内初。",
     "hp": "https://h-medtech.com/news-pr",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000029.000099334.html",
       "https://prtimes.jp/main/html/rd/p/000000004.000099334.html",
@@ -32571,18 +32588,20 @@
         "text": "製造販売承認を申請",
         "source": "https://prtimes.jp/main/html/rd/p/000000029.000099334.html"
       }
-    ]
+    ],
+    "formerName": "頭痛AI診断プログラム",
+    "stage": "承認申請中"
   },
   {
     "id": "b-706b3a72",
-    "name": "片頭痛治療用アプリ",
+    "name": "ヘッジホッグ・メドテックの片頭痛治療用アプリ",
     "company": "株式会社ヘッジホッグ・メドテック",
     "companyId": "jp-051",
     "category": "medical-device",
     "description": "片頭痛の患者向けに、認知行動療法（CBT）を作用機序とする治療用アプリ（医療機器プログラム）。2025年8月末に治験届を出し、12月から被験者募集を始めた治験段階で、片頭痛の治療用プログラムとして国内初の承認を目指す。",
     "hp": "",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000023.000099334.html",
       "https://medicalai.m3.com/news/251002-news-info",
@@ -32597,7 +32616,9 @@
         "text": "片頭痛治療用アプリの治験を開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000023.000099334.html"
       }
-    ]
+    ],
+    "formerName": "片頭痛治療用アプリ",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-14e4b1ae",
@@ -32734,7 +32755,7 @@
     "description": "心療内科医が立ち上げた同社のVRとAIを使ったデジタル療法。うつ病向けの「VRうつ病治療システム（仮）」は2024年4月にプログラム医療機器の優先審査対象に指定され、2025年6月に特定臨床研究を終えて治験の準備に入った。",
     "hp": "https://bipsee.co.jp/",
     "startedYear": 2020,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://bipsee.co.jp/",
       "https://bipsee.co.jp/business/vrplatform",
@@ -32764,7 +32785,8 @@
         "text": "特定臨床研究を完了し治験準備を開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000019.000033812.html"
       }
-    ]
+    ],
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-980e2bcf",
@@ -33508,14 +33530,15 @@
     "description": "大腿切断などの下肢切断者向けの義足膝継手。歩行中の動きを補助し、不整地での歩行や疲労軽減を助ける。米国で2027年2月1日発売予定と告知。",
     "hp": "https://www.bionicm.com/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://www.bionicm.com/asista",
       "https://www.bionicm.com/"
     ],
     "updatedAt": "2026-10",
     "type": "rehab-robotics-prosthetics",
-    "formerName": "「ASISTA」（米国サイト掲載の新製品）"
+    "formerName": "「ASISTA」（米国サイト掲載の新製品）",
+    "stage": "発売予定"
   },
   {
     "id": "b-c6366b39",
@@ -33564,21 +33587,23 @@
   },
   {
     "id": "b-e0de7e19",
-    "name": "高齢入院患者のせん妄を対象としたAI医療機器の開発",
+    "name": "DELISPECTの高齢入院患者のせん妄を対象としたAI医療機器",
     "company": "株式会社DELISPECT",
     "companyId": "5010001248335",
     "category": "diagnostic-support",
     "description": "創業事業（国がん東病院のせん妄研究の事業化として2024-09創業）。開発段階",
     "hp": "https://delispect.com/",
     "startedYear": 2024,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2024-09",
     "sources": [
       "https://delispect.com/"
     ],
     "updatedAt": "2026-10",
     "type": "disease-specific-ai-samd",
-    "startBasis": "変更なし（国立がん研究センター東病院のせん妄研究の事業化として創業＝既存記載）"
+    "startBasis": "変更なし（国立がん研究センター東病院のせん妄研究の事業化として創業＝既存記載）",
+    "formerName": "高齢入院患者のせん妄を対象としたAI医療機器の開発",
+    "stage": "研究開発中"
   },
   {
     "id": "b-19ef3843",
@@ -33619,20 +33644,22 @@
   },
   {
     "id": "b-8407d9e0",
-    "name": "プログラム医療機器（食後血糖予測AI）開発",
+    "name": "ザ・ファージのプログラム医療機器（食後血糖予測AI）",
     "company": "株式会社ザ・ファージ",
     "companyId": "jp-073",
     "category": "diagnostic-support",
     "description": "日常の生体情報と生活行動の関係をAIで解析し、一人ひとりの食後血糖値の変動を予測するAIを、プログラム医療機器として実用化することを目指す開発事業。2023年12月にはNTTデータと食後血糖解析を使った食品の臨床研究支援の実証も行った。",
     "hp": "https://thephage.life/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://thephage.life/",
       "https://prtimes.jp/main/html/rd/p/000000004.000110505.html"
     ],
     "updatedAt": "2026-10",
-    "type": "disease-specific-ai-samd"
+    "type": "disease-specific-ai-samd",
+    "formerName": "プログラム医療機器（食後血糖予測AI）開発",
+    "stage": "開発中"
   },
   {
     "id": "b-7378806f",
@@ -34242,14 +34269,14 @@
   },
   {
     "id": "b-b6c86be5",
-    "name": "バイタルデータ取得IoTセンサー（非侵襲血糖測定等の開発）",
+    "name": "クォンタムオペレーションのバイタルデータ取得IoTセンサー（非侵襲血糖測定等の開発）",
     "company": "株式会社クォンタムオペレーション",
     "companyId": "jp-086",
     "category": "medical-device",
     "description": "糖尿病の人が毎日針を刺さずに済むことを目指し、体に着けるIoTセンサーでバイタルデータを取る研究開発事業。非侵襲の血糖測定などに取り組み、2017年11月に事業に着手した。",
     "hp": "https://quantum-op.co.jp/#Ourefforts",
     "startedYear": 2017,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2017-11",
     "sources": [
       "https://quantum-op.co.jp/news/2026071994.html",
@@ -34265,7 +34292,9 @@
         "text": "他社の非侵襲血糖値測定バンドの販売に関与していないと公表",
         "source": "https://quantum-op.co.jp/news/2026071994.html"
       }
-    ]
+    ],
+    "formerName": "バイタルデータ取得IoTセンサー（非侵襲血糖測定等の開発）",
+    "stage": "開発中"
   },
   {
     "id": "b-f58fb75e",
@@ -35021,14 +35050,14 @@
   },
   {
     "id": "b-24502baf",
-    "name": "胚評価AI（タイムラプス画像による非侵襲評価）",
+    "name": "メデタの胚評価AI（タイムラプス画像による非侵襲評価）",
     "company": "株式会社メデタ",
     "companyId": "1010001220149",
     "category": "femtech",
     "description": "開発中・薬事承認申請中（公式）。2026-07第二種医療機器製造販売業許可取得",
     "hp": "https://medeta.co.jp/service/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://medeta.co.jp/",
       "https://medeta.co.jp/service/"
@@ -35036,7 +35065,9 @@
     "updatedAt": "2026-10",
     "type": "femtech-fertility-clinic-support",
     "knownSince": "2025-11",
-    "knownSinceSource": "https://ascii.jp/elem/000/004/350/4350172/"
+    "knownSinceSource": "https://ascii.jp/elem/000/004/350/4350172/",
+    "formerName": "胚評価AI（タイムラプス画像による非侵襲評価）",
+    "stage": "開発中"
   },
   {
     "id": "b-3430cbd0",
@@ -35279,19 +35310,21 @@
   },
   {
     "id": "b-d1dcd720",
-    "name": "メンタルヘルス関連アプリ・医療機器の開発",
+    "name": "Folkaのメンタルヘルス関連アプリ・医療機器",
     "company": "Folka株式会社",
     "companyId": "2010001212517",
     "category": "mental-health",
     "description": "2024-01ものづくり補助金のアプリ完成、2025-02東京都医療機器開発助成金に採択",
     "hp": "https://folka.co.jp/news/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://folka.co.jp/news/"
     ],
     "updatedAt": "2026-10",
-    "type": "mental-dtx-neurotech"
+    "type": "mental-dtx-neurotech",
+    "formerName": "メンタルヘルス関連アプリ・医療機器の開発",
+    "stage": "開発中"
   },
   {
     "id": "b-26cdbb5b",
@@ -38064,7 +38097,7 @@
     "description": "ベータ版を2026年後半ローンチ予定（公式）。介護事業者80法人以上とパートナー締結（2026年3月）",
     "hp": "https://care.enactic.ai/",
     "startedYear": 2026,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://enactic.ai/",
       "https://prtimes.jp/main/html/rd/p/000000005.000166268.html",
@@ -38072,7 +38105,8 @@
     ],
     "updatedAt": "2026-10",
     "type": "excretion-care-robotics",
-    "startedAt": "2026-03"
+    "startedAt": "2026-03",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-27fddf16",
@@ -38212,7 +38246,7 @@
     "description": "イタリアIcarus社が医療機関向けに提供するAI音声アシスタントを日本向けに作り替える取り組み。AIが電話の初期対応や用件の振り分け、予約受付を担う想定で、2026年8月の本契約を受けて市場調査に着手した段階。日本での提供時期は未定。",
     "hp": "https://prtimes.jp/main/html/rd/p/000000005.000121260.html",
     "startedYear": 2026,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000005.000121260.html"
     ],
@@ -38231,7 +38265,8 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000005.000121260.html"
       }
     ],
-    "startBasis": "イタリアIcarus社との本契約締結（プレスリリース）"
+    "startBasis": "イタリアIcarus社との本契約締結（プレスリリース）",
+    "stage": "開発中"
   },
   {
     "id": "b-8f2b80a1",
@@ -38475,14 +38510,15 @@
     "description": "2024年11月に東京都健康長寿医療センターとの取り組みを発表",
     "hp": "https://prtimes.jp/main/html/rd/p/000000013.000149238.html",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000013.000149238.html"
     ],
     "updatedAt": "2026-10",
     "type": "next-gen-test-tech",
     "knownSince": "2024-10",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000149238.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000149238.html",
+    "stage": "発売予定"
   },
   {
     "id": "b-52bde1d5",
@@ -38493,7 +38529,7 @@
     "description": "自社の磁性ナノ粒子「Therma-Max」と汎用の分光光度計を使う安価で簡便なハイスループットスクリーニング技術。2026年2月に特許出願し、プロトタイプ装置の高速化を担う分析機器・試薬・製薬メーカーなど共同開発パートナーを募集している。",
     "hp": "https://prtimes.jp/main/html/searchrlp/company_id/149238",
     "startedYear": 2026,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2026-02",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000012.000149238.html",
@@ -38501,7 +38537,8 @@
     ],
     "updatedAt": "2026-10",
     "type": "next-gen-test-tech",
-    "startBasis": "PR TIMES（2026-02-27）開発・特許出願を発表"
+    "startBasis": "PR TIMES（2026-02-27）開発・特許出願を発表",
+    "stage": "開発中"
   },
   {
     "id": "b-0c967088",
@@ -38952,14 +38989,14 @@
   },
   {
     "id": "b-1958333a",
-    "name": "心スキャン（スマホアプリ）・kokolog MD（心臓×睡眠の新モデル、開発中）",
+    "name": "心スキャン（スマホアプリ）・kokolog MD（心臓×睡眠の新モデル）",
     "company": "株式会社ココロミル",
     "companyId": "jp-109",
     "category": "simple-inspection",
     "description": "スマートフォンで心音を解析する個人向けアプリ「心スキャン」と、長時間の心電図解析に睡眠のモニタリングを加えた開発中のウェアラブル心電計「kokolog MD」。心臓病の早期発見をねらい、自治体の実証事業で活用している。",
     "hp": "https://prtimes.jp/main/html/searchrlp/company_id/98284",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000052.000098284.html",
       "https://prtimes.jp/main/html/rd/p/000000137.000098284.html",
@@ -38968,25 +39005,29 @@
     "updatedAt": "2026-10",
     "type": "home-self-monitoring-test",
     "knownSince": "2025-03",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000052.000098284.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000052.000098284.html",
+    "formerName": "心スキャン（スマホアプリ）・kokolog MD（心臓×睡眠の新モデル、開発中）",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-08afc106",
-    "name": "脳MRIからパーキンソン病等を早期発見するプログラム医療機器（開発中）",
+    "name": "MEDICOLABの脳MRIからパーキンソン病等を早期発見するプログラム医療機器",
     "company": "株式会社MEDICOLAB",
     "companyId": "jp-110",
     "category": "diagnostic-support",
     "description": "2026年にAMED「医工連携グローバル展開事業」採択、米Fogarty Innovationのプログラム採択",
     "hp": "https://medicolab.co.jp/projects/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://medicolab.co.jp/projects/"
     ],
     "updatedAt": "2026-10",
     "type": "disease-specific-ai-samd",
     "knownSince": "2026-07",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000003.000142196.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000003.000142196.html",
+    "formerName": "脳MRIからパーキンソン病等を早期発見するプログラム医療機器（開発中）",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-a3b1d6d2",
@@ -39550,19 +39591,21 @@
   },
   {
     "id": "b-173530e4",
-    "name": "ウェアラブル超音波×fasciculation解析AIによるALS超早期診断・薬効評価（開発中）",
+    "name": "ウェアラブル超音波×fasciculation解析AIによるALS超早期診断・薬効評価",
     "company": "SONoALS株式会社",
     "companyId": "5140001138779",
     "category": "medical-data-analytics",
     "description": "プロトタイプ段階。2026年10月東京都AMDAP採択",
     "hp": "https://www.sonoals.com/ja",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://www.sonoals.com/ja"
     ],
     "updatedAt": "2026-10",
-    "type": "digital-biomarker"
+    "type": "digital-biomarker",
+    "formerName": "ウェアラブル超音波×fasciculation解析AIによるALS超早期診断・薬効評価（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-298d7ba8",
@@ -40887,13 +40930,14 @@
     "description": "近日公開予定（2026年10月時点）",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://ai6.jp/product/aicarepro/",
       "https://ai6.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "care-facility-monitoring-sensor"
+    "type": "care-facility-monitoring-sensor",
+    "stage": "発売予定"
   },
   {
     "id": "b-cdadf3a9",
@@ -45287,20 +45331,22 @@
   },
   {
     "id": "b-ccd4e5cb",
-    "name": "周産期うつ病向け非薬物治療アプリ（開発中）",
+    "name": "DTアクシスの周産期うつ病向け非薬物治療アプリ",
     "company": "ＤＴアクシス株式会社",
     "companyId": "2011001137704",
     "category": "medical-device",
     "description": "名古屋市立大学・京都大学と共同で、認知行動療法など科学的根拠に基づく周産期うつ病向けの非薬物治療アプリを研究開発。",
     "hp": "",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2025-11",
     "sources": [
       "https://www.nagoya-cu.ac.jp/media/202511131300press.pdf"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "周産期うつ病向け非薬物治療アプリ（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-62d7a156",
@@ -45563,7 +45609,7 @@
     "description": "「刺さないニードル」とマイクロカレント・電気浸透流で薬剤や有効成分を非侵襲に皮膚内へ届ける経皮投与デバイス。医療用のProモデルと美容向けエントリーモデルを開発中。",
     "hp": "",
     "startedYear": 2026,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://bionto.co.jp/products/",
       "https://prtimes.jp/main/html/rd/p/000000006.000165376.html",
@@ -45571,7 +45617,8 @@
     ],
     "type": "home-wearable-medical-device",
     "updatedAt": "2026-10",
-    "startedAt": "2026-10"
+    "startedAt": "2026-10",
+    "stage": "発売予定"
   },
   {
     "id": "b-5feeef3a",
@@ -45633,14 +45680,14 @@
   },
   {
     "id": "b-0fcf1bf0",
-    "name": "妊娠状態を可視化する周産期AI（研究開発中）",
+    "name": "nonatの妊娠状態を可視化する周産期AI",
     "company": "株式会社ｎｏｎａｔ",
     "companyId": "4011001152742",
     "category": "diagnostic-support",
     "description": "ウェアラブル機器で取得した母体の複合的な生体データから、早産・死産などのリスクにつながる妊娠状態をAIで可視化する。岐阜大学病院などと多施設共同研究で検証中。",
     "hp": "",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2025-12",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000134613.html",
@@ -45660,7 +45707,9 @@
         "text": "医療機器製造販売業を取得",
         "source": "https://nonat.co.jp/news/"
       }
-    ]
+    ],
+    "formerName": "妊娠状態を可視化する周産期AI（研究開発中）",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-673d3fed",
@@ -46146,14 +46195,14 @@
   },
   {
     "id": "b-e582c078",
-    "name": "てんかん発作予知アプリ（開発中）",
+    "name": "クアドリティクスのてんかん発作予知アプリ",
     "company": "クアドリティクス株式会社",
     "companyId": "7130001061526",
     "category": "diagnostic-support",
     "description": "ウェアラブル心電計とスマートフォンだけで心拍変動をリアルタイム解析し、てんかん発作の前兆を捉えて警告するプログラム医療機器。国内治験と豪州での承認をめざす。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000123656.html",
       "https://www.quadlytics.com/technology/",
@@ -46163,7 +46212,9 @@
     "type": "disease-specific-ai-samd",
     "updatedAt": "2026-10",
     "knownSince": "2023-06",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000123656.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000123656.html",
+    "formerName": "てんかん発作予知アプリ（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-011a621a",
@@ -46319,39 +46370,43 @@
   },
   {
     "id": "b-3ed03608",
-    "name": "歩行動画による運動機能評価の診断支援システム（SaMD、開発中）",
+    "name": "ayumoの歩行動画による運動機能評価の診断支援システム",
     "company": "株式会社ａｙｕｍｏ",
     "companyId": "7120001256110",
     "category": "diagnostic-support",
     "description": "歩行動画を深層学習で解析し、医師による運動器疾患の早期発見や診断を支援するプログラム医療機器。大阪大学などの研究成果を基に、臨床試験の実施に向けて開発中。",
     "hp": "",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2025-04",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000151131.html",
       "https://prtimes.jp/main/html/rd/p/000000066.000051435.html"
     ],
     "type": "disease-specific-ai-samd",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "歩行動画による運動機能評価の診断支援システム（SaMD、開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-13d8bc8b",
-    "name": "ADHD診療支援ゲーム型SaMD（開発中）",
+    "name": "AlmaprismのADHD診療支援ゲーム型SaMD",
     "company": "Ａｌｍａｐｒｉｓｍ株式会社",
     "companyId": "1130003007862",
     "category": "medical-device",
     "description": "ビデオゲームのプレイ中の行動データを解析し、ADHDなど小児の診療で医師の判断を支援するゲーム型のプログラム医療機器。臨床研究で検証中で、未承認。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://toyokeizai.net/articles/-/908016?display=b",
       "https://almaprism.com/?lang=ja",
       "https://www.krp.co.jp/news/detail/4807.html"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "ADHD診療支援ゲーム型SaMD（開発中）",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-e800d9b7",
@@ -46727,20 +46782,22 @@
   },
   {
     "id": "b-95846296",
-    "name": "次世代医療レジストリ基盤（ヘルスマーケットプレイス）",
+    "name": "AIBTRUSTの次世代医療レジストリ基盤（ヘルスマーケットプレイス）",
     "company": "ＡＩＢＴＲＵＳＴ株式会社",
     "companyId": "1010401179357",
     "category": "real-world-data",
     "description": "研究機関・製薬企業・SaMD開発会社が、スマートコントラクトで患者と直接データ契約を結び、同意に基づく医療情報を安全に流通させるプラットフォーム。企業向けマーケットプレイスは準備中。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://aibtrust.jp/Next-GenerationMedicalInfrastructure",
       "https://aibtrust.jp/news/2025-02-03-seed-funding/"
     ],
     "type": "health-data-standardization",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "次世代医療レジストリ基盤（ヘルスマーケットプレイス）",
+    "stage": "開発中"
   },
   {
     "id": "b-bc7a184a",
@@ -47003,21 +47060,23 @@
   },
   {
     "id": "b-6a8caf1e",
-    "name": "Time gScan（開発中）",
+    "name": "Time gScan",
     "company": "タイムプレ株式会社",
     "companyId": "9130001069971",
     "category": "diagnostic-support",
     "description": "患者由来iPS細胞とAI診断プログラムを組み合わせ、ALSやアルツハイマー病など神経難病の発症リスクを超早期に評価する遺伝子検査サービス。検査センター・医療機関を通じて判定レポートを返す。",
     "hp": "",
     "startedYear": 2023,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://www.chushin.co.jp/cms_source/files/20231221213.pdf",
       "https://prtimes.jp/main/html/rd/p/000000005.000115619.html"
     ],
     "type": "disease-specific-ai-samd",
     "updatedAt": "2026-10",
-    "startedAt": "2023-12"
+    "startedAt": "2023-12",
+    "formerName": "Time gScan（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-eb717967",
@@ -47059,14 +47118,14 @@
   },
   {
     "id": "b-cf62c568",
-    "name": "UroGene Easy HPV Test Kit（開発中）",
+    "name": "UroGene Easy HPV Test Kit",
     "company": "株式会社ＴＢＡ",
     "companyId": "9370001023376",
     "category": "simple-inspection",
     "description": "尿を使ってHPV（ヒトパピローマウイルス）を調べる検査キット。2026年10月に臨床試験で良好な結果を確認した。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://www.t-bioarray.com/"
     ],
@@ -47078,7 +47137,9 @@
         "text": "尿を用いたHPV検査キットの臨床試験で良好な結果を確認と発表",
         "source": "https://www.t-bioarray.com/"
       }
-    ]
+    ],
+    "formerName": "UroGene Easy HPV Test Kit（開発中）",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-d17f0e44",
@@ -47119,20 +47180,22 @@
   },
   {
     "id": "b-7d0dc8be",
-    "name": "尿を用いた子宮頸がん早期検診システム（開発中）",
+    "name": "BioPhenoMAの尿を用いた子宮頸がん早期検診システム",
     "company": "株式会社ＢｉｏＰｈｅｎｏＭＡ",
     "companyId": "2011101102608",
     "category": "simple-inspection",
     "description": "尿中の極微量タンパク質をTN-cyclonで測り、細胞採取なしに子宮頸がんを早期に見つける検診システム。",
     "hp": "",
     "startedYear": 2026,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2026-03",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000021.000132552.html"
     ],
     "type": "cancer-risk-screening-test",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "尿を用いた子宮頸がん早期検診システム（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-814bc218",
@@ -47726,14 +47789,14 @@
   },
   {
     "id": "b-ee3f8a58",
-    "name": "ウエアラブルエコープローブ（開発中）",
+    "name": "サーモンテックのウエアラブルエコープローブ",
     "company": "株式会社サーモンテック",
     "companyId": "5330001029554",
     "category": "medical-device",
     "description": "薄く軽く柔軟で、心電図パッドのように体に貼ったまま長時間撮影できる超音波エコープローブ。医療・ヘルスケア・スポーツ向けで、骨盤底の可視化など尿漏れケアへの応用も進める。",
     "hp": "",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://kyodonewsprwire.jp/release/202503055197",
       "https://www.salmontech.jp/",
@@ -47741,7 +47804,9 @@
     ],
     "type": "home-wearable-medical-device",
     "updatedAt": "2026-10",
-    "startedAt": "2025-03"
+    "startedAt": "2025-03",
+    "formerName": "ウエアラブルエコープローブ（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-7c7c090b",
@@ -48094,14 +48159,14 @@
   },
   {
     "id": "b-50219663",
-    "name": "ミリ波レーダによる睡眠時無呼吸症候群の検出（医療機器開発中）",
+    "name": "マリのミリ波レーダによる睡眠時無呼吸症候群の検出",
     "company": "株式会社マリ",
     "companyId": "1370001042292",
     "category": "sleep",
     "description": "ミリ波レーダで体に触れずに呼吸や心拍、睡眠中の変化を医療レベルの精度で捉え、いびきや睡眠時無呼吸症候群を検出する医療機器。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://marisleep.co.jp/company",
       "https://prtimes.jp/main/html/rd/p/000000001.000093254.html",
@@ -48111,7 +48176,9 @@
     "type": "sleep-measurement-test",
     "updatedAt": "2026-10",
     "knownSince": "2022-01",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000093254.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000093254.html",
+    "formerName": "ミリ波レーダによる睡眠時無呼吸症候群の検出（医療機器開発中）",
+    "stage": "研究開発中"
   },
   {
     "id": "b-712e0a1a",
@@ -48715,7 +48782,7 @@
     "description": "細胞のオートファジー活性を指標に、食品素材などの介入が老化に与える影響を調べる研究基盤。2025年10月に介入臨床試験を開始し、キュレーションズ・電通とXPRIZE Healthspanに参加。",
     "hp": "",
     "startedYear": 2024,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2024-07",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000107643.html",
@@ -48725,7 +48792,8 @@
     ],
     "updatedAt": "2026-10",
     "startBasis": "キュレーションズとの「攻めのAgeTech」MOU締結とXPRIZE Healthspanへの参加決定の発表（自社プレスリリース2024-07-31）",
-    "type": "next-gen-test-tech"
+    "type": "next-gen-test-tech",
+    "stage": "研究開発中"
   },
   {
     "id": "b-756bd3c4",
@@ -50527,14 +50595,14 @@
   },
   {
     "id": "b-27798264",
-    "name": "GA測定用小型検査機器（在宅・POCT）",
+    "name": "ProvigateのGA測定用小型検査機器（在宅・POCT）",
     "company": "株式会社Provigate",
     "companyId": "3010001166431",
     "category": "medical-device",
     "description": "在宅や医療現場で手軽にグリコアルブミンを測れる小型検査機器。NEDOの支援で量産化開発を進め、シスメックス・タウンズと共同開発・提携。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000005.000083778.html",
       "https://prtimes.jp/main/html/rd/p/000000013.000083778.html"
@@ -50559,7 +50627,9 @@
         "text": "POCTのタウンズと資本業務提携に基本合意",
         "source": "https://prtimes.jp/main/html/rd/p/000000013.000083778.html"
       }
-    ]
+    ],
+    "formerName": "GA測定用小型検査機器（在宅・POCT）",
+    "stage": "開発中"
   },
   {
     "id": "b-e1c6126f",
@@ -50639,14 +50709,14 @@
   },
   {
     "id": "b-1ef8e9a5",
-    "name": "単回使用卵管鏡システム",
+    "name": "インフューズライフサイエンスの単回使用卵管鏡システム",
     "company": "インフューズライフサイエンス株式会社",
     "companyId": "7012801023618",
     "category": "medical-device",
     "description": "不妊症の卵管因子を評価するため、外来で卵管内を直接観察できる使い捨ての内視鏡システム。子宮卵管造影検査（HSG）の代替を目指し、AMEDの支援で研究開発中。",
     "hp": "https://infuselifescience.com/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000183105.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000183105.html",
@@ -50655,7 +50725,9 @@
     "type": "endoscope-device",
     "updatedAt": "2026-10",
     "knownSince": "2026-07",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000183105.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000183105.html",
+    "formerName": "単回使用卵管鏡システム",
+    "stage": "研究開発中"
   },
   {
     "id": "b-3d42ec19",
@@ -50710,14 +50782,15 @@
     "description": "手術映像と言語を統合し、手術状況をリアルタイムに理解して外科医と対話する生成AI基盤モデル。手術現場での実証を経て事業化を進める。",
     "hp": "",
     "startedYear": 2026,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2026-03",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000005.000161347.html",
       "https://prtimes.jp/main/html/rd/p/000000011.000161347.html"
     ],
     "type": "surgical-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-bbaaa02f",
@@ -51119,7 +51192,7 @@
     "description": "皮膚科専門医の知見とAIを組み合わせ、美容医療の医療機関や施術を技術・誠実さの観点で評価し、利用者が安心して選べるようにするプラットフォーム。医師向け教育コンテンツも計画。",
     "hp": "",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2025-10",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000171593.html",
@@ -51128,7 +51201,8 @@
     ],
     "type": "cosmetic-review-booking-app",
     "updatedAt": "2026-10",
-    "startBasis": "設立リリース：設立と同時に「美容医療の透明評価プラットフォーム」の開発を発表（2025-10-23「【会社設立のお知らせ】美肌AIコネクトが誕生」）"
+    "startBasis": "設立リリース：設立と同時に「美容医療の透明評価プラットフォーム」の開発を発表（2025-10-23「【会社設立のお知らせ】美肌AIコネクトが誕生」）",
+    "stage": "発売予定"
   },
   {
     "id": "b-fa3ffd90",
@@ -51300,14 +51374,14 @@
   },
   {
     "id": "b-ab71a1b8",
-    "name": "がん検診特化型ディスポーザブル内視鏡システム",
+    "name": "エンドルミナル・ソリューションズのがん検診特化型ディスポーザブル内視鏡システム",
     "company": "エンドルミナル・ソリューションズ株式会社",
     "companyId": "5120001274246",
     "category": "medical-device",
     "description": "直径4mmの使い捨て内視鏡にAI診断支援と検診情報DXを組み合わせ、バリウム検査に代わる苦痛の少ない胃がん検診を大規模集団検診でも実施できるようにするシステム。",
     "hp": "https://endoluminalsolutions.com/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000174787.html",
       "https://endoluminalsolutions.com/"
@@ -51315,7 +51389,9 @@
     "type": "endoscope-device",
     "updatedAt": "2026-10",
     "knownSince": "2026-02",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000174787.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000174787.html",
+    "formerName": "がん検診特化型ディスポーザブル内視鏡システム",
+    "stage": "開発中"
   },
   {
     "id": "b-8cc04cd3",
@@ -51389,21 +51465,23 @@
   },
   {
     "id": "b-5e1f80ae",
-    "name": "エンゼバー すい臓がん",
+    "name": "コウソミルのエンゼバー すい臓がん",
     "company": "コウソミル株式会社",
     "companyId": "5010001225722",
     "category": "simple-inspection",
     "description": "血中の酵素活性を1分子レベルで測り膵臓がんの早期発見を目指す血液検査。医療機関からビー・エム・エル経由で受託し、自社衛生検査所で研究目的の検査として実施。",
     "hp": "https://cosomil.com/",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2025-07",
     "sources": [
       "https://cosomil.com/news",
       "https://prtimes.jp/main/html/rd/p/000000004.000101613.html"
     ],
     "type": "next-gen-test-tech",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "エンゼバー すい臓がん",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-090c59c4",
@@ -56815,14 +56893,14 @@
   },
   {
     "id": "b-c124d43a",
-    "name": "メタボリックシンドローム治療用アプリ（開発中）",
+    "name": "メドミライのメタボリックシンドローム治療用アプリ",
     "company": "株式会社メドミライ",
     "companyId": "8010001218153",
     "category": "medical-device",
     "description": "健診データなどからメタボの将来リスクを予測し、治療を補助する医療機器プログラム。治験に向けて開発を進めている。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000037.000051734.html",
       "https://www.nikkei.com/article/DGXZQOUC213UN0R20C23A6000000/",
@@ -56831,7 +56909,9 @@
     "type": "digital-therapeutics",
     "updatedAt": "2026-10",
     "knownSince": "2022-02",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000037.000051734.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000037.000051734.html",
+    "formerName": "メタボリックシンドローム治療用アプリ（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-e52615e4",
@@ -57569,14 +57649,14 @@
   },
   {
     "id": "b-5a1acac6",
-    "name": "AI心電図による心不全リスク評価（開発中）",
+    "name": "SIMPLEX QUANTUMのAI心電図による心不全リスク評価",
     "company": "SIMPLEX QUANTUM株式会社",
     "companyId": "5010001163393",
     "category": "diagnostic-support",
     "description": "病院の12誘導心電図やウェアラブルで得た第I誘導30秒の心電図から、HFrEFとHFpEFを含む心不全のリスクを推定するソフトウェア。新たな機器は不要で、既存の心電計システムやウェアラブルで動く（研究段階・未承認）。",
     "hp": "https://simplex-q.com/heart-failure",
     "startedYear": 2022,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://www.simplex.holdings/news/2022/1241/",
       "https://simplex-q.com/",
@@ -57584,7 +57664,9 @@
     ],
     "type": "ecg-heart-sound-ai",
     "updatedAt": "2026-10",
-    "startedAt": "2022-09"
+    "startedAt": "2022-09",
+    "formerName": "AI心電図による心不全リスク評価（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-0d5572c8",
@@ -59384,20 +59466,22 @@
   },
   {
     "id": "b-1ca1bc5f",
-    "name": "高血圧治療補助アプリ「CureApp 血圧」（旧CureApp HT）",
+    "name": "高血圧の治療アプリ「CureApp 血圧」（旧 CureApp HT 高血圧治療補助アプリ）",
     "company": "CureApp",
     "companyId": "2011101070788",
     "category": "medical-device",
-    "description": "高血圧症の患者が医師の処方で使う治療補助アプリ。生活習慣の改善を個別に指導し、降圧を補助する。2022年4月に薬事承認、同年9月に保険適用され即日発売。高血圧領域で世界初の治療用アプリ。",
+    "description": "成人の本態性高血圧症の治療補助として医師が処方するアプリ（プログラム医療機器）。2022年に「CureApp HT 高血圧治療補助アプリ」として保険適用・発売し、2026年6月に誰でも使える血圧記録の「血圧手帳モード」と一体のアプリ「CureApp 血圧」に改め、医療機器の部分は「治療モード（CureApp HT）」になった。",
     "hp": "https://cureapp.co.jp/productsite/ht/",
     "startedYear": 2022,
     "status": "提供中",
     "startedAt": "2022-09",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000090.000015777.html",
-      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30400BZX00100000_A_01",
-      "https://prtimes.jp/main/html/rd/p/000000272.000015777.html",
       "https://www.mixonline.jp/tabid55.html?artid=73573",
+      "https://prtimes.jp/main/html/rd/p/000000207.000015777.html",
+      "https://prtimes.jp/main/html/rd/p/000000248.000015777.html",
+      "https://prtimes.jp/main/html/rd/p/000000272.000015777.html",
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30400BZX00100000_A_01",
       "https://cureapp.co.jp/productsite/ht/"
     ],
     "type": "digital-therapeutics",
@@ -59405,16 +59489,32 @@
     "milestones": [
       {
         "date": "2022-04-26",
-        "text": "CureApp HT 高血圧治療補助アプリ：高血圧症治療補助プログラムとして製造販売承認（新医療機器、承認番号30400BZX00100000）",
-        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0045.html"
+        "text": "「CureApp HT 高血圧治療補助アプリ」として製造販売承認（新医療機器、承認番号30400BZX00100000）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000090.000015777.html"
+      },
+      {
+        "date": "2022-09",
+        "text": "保険適用され、同日に発売（報道）",
+        "source": "https://www.mixonline.jp/tabid55.html?artid=73573"
+      },
+      {
+        "date": "2024-10-01",
+        "text": "発売2周年。血圧計の数値を写真で読み取るAI入力機能を追加",
+        "source": "https://prtimes.jp/main/html/rd/p/000000207.000015777.html"
+      },
+      {
+        "date": "2025-09-01",
+        "text": "「高血圧管理・治療ガイドライン2025」に治療アプリが治療支援のひとつとして初めて掲載",
+        "source": "https://prtimes.jp/main/html/rd/p/000000248.000015777.html"
       },
       {
         "date": "2026-06-01",
-        "text": "「CureApp HT 高血圧治療補助アプリ」から「CureApp 血圧」に名称変更",
+        "text": "アプリの名前を「CureApp 血圧」に変更。誰でも使える「血圧手帳モード」を加え、医療機器の部分は「治療モード（CureApp HT）」として同じアプリに統合",
         "source": "https://prtimes.jp/main/html/rd/p/000000272.000015777.html"
       }
     ],
-    "formerName": "CureApp HT 高血圧治療補助アプリ"
+    "formerName": "CureApp HT 高血圧治療補助アプリ",
+    "startBasis": "保険適用と同時に発売（報道。2024年10月の同社リリースで「発売から2周年」）"
   },
   {
     "id": "b-64df1e9c",
@@ -59909,14 +60009,14 @@
   },
   {
     "id": "b-46defda1",
-    "name": "会話型 認知機能検査用AIプログラム（開発中）",
+    "name": "FRONTEOの会話型 認知機能検査用AIプログラム",
     "company": "株式会社FRONTEO",
     "companyId": "1010401051219",
     "category": "diagnostic-support",
     "description": "患者と医療者の10分以上の自由会話を自然言語処理AI「KIBIT」で解析し、認知機能低下の可能性を判定して医師の診断を支援するプログラム医療機器。2024年2月から塩野義製薬と戦略的業務提携で開発する。",
     "hp": "https://www.fronteo.com/",
     "startedYear": 2020,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000299.000006776.html",
       "https://prtimes.jp/main/html/rd/p/000000317.000006776.html",
@@ -59925,7 +60025,9 @@
     ],
     "type": "disease-specific-ai-samd",
     "updatedAt": "2026-10",
-    "startedAt": "2020-03"
+    "startedAt": "2020-03",
+    "formerName": "会話型 認知機能検査用AIプログラム（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-fa6bedc5",
@@ -68628,14 +68730,14 @@
   },
   {
     "id": "b-31b22fd0",
-    "name": "ドライアイチェッカー ホーム",
+    "name": "InnoJinのドライアイチェッカー ホーム",
     "company": "InnoJin株式会社",
     "companyId": "1010001214191",
     "category": "diagnostic-support",
     "description": "家庭でドライアイの状態をセルフチェックできるアプリ。眼科医発のスタートアップInnoJinが提供し、目の乾きの状態を把握して受診につなげる。",
     "hp": "https://innojin.co.jp/",
     "startedYear": 2026,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2026-06-03",
     "startBasis": "App Store初回公開",
     "sources": [
@@ -68643,7 +68745,9 @@
       "https://innojin.co.jp/"
     ],
     "type": "disease-specific-ai-samd",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "ドライアイチェッカー ホーム",
+    "stage": "発売予定"
   },
   {
     "id": "b-06ea1a9e",
@@ -74451,13 +74555,13 @@
   },
   {
     "id": "b-59f7ae98",
-    "name": "eyeMO（旧 PBOS）在宅・遠隔眼科医療用の網膜モニタリング機器（開発中）",
+    "name": "eyeMO（旧 PBOS）在宅・遠隔眼科医療用の網膜モニタリング機器",
     "company": "窪田製薬ホールディングス株式会社",
     "category": "telemedicine",
     "description": "患者が自宅で網膜の断面を撮影し、医師が遠隔で病状を確認できる超小型モバイルOCTを開発。加齢黄斑変性などの在宅モニタリングを狙い、試作機の完成やAIによる3D化、臨床研究を進めている。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "milestones": [
       {
         "date": "2020-07",
@@ -74480,7 +74584,9 @@
       "https://www.kubotaholdings.co.jp/pipeline/"
     ],
     "type": "remote-patient-monitoring",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "eyeMO（旧 PBOS）在宅・遠隔眼科医療用の網膜モニタリング機器（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-032b1d95",
@@ -74837,14 +74943,14 @@
   },
   {
     "id": "b-2c9bbb2e",
-    "name": "会話音声による認知機能AI診断支援アプリ（SaMD、開発中）",
+    "name": "エクサウィザーズの会話音声による認知機能AI診断支援アプリ",
     "company": "株式会社エクサウィザーズ",
     "companyId": "2010001173536",
     "category": "diagnostic-support",
     "description": "スマホで数十秒〜数分の自由会話を録音し、AIが認知症の可能性を判定するプログラム医療機器。昭和大学との連携で開発を始め、革新的プログラム医療機器の優先審査対象に指定。2026年に治験を開始し、年度内の承認を目指す。",
     "hp": "",
     "startedYear": 2023,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2023-07",
     "startBasis": "エクサウィザーズによるAI医療機器の開発着手の発表",
     "milestones": [
@@ -74874,24 +74980,28 @@
       "https://exawizards.com/archives/24821/"
     ],
     "type": "disease-specific-ai-samd",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "会話音声による認知機能AI診断支援アプリ（SaMD、開発中）",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-844d1ff7",
-    "name": "AIを活用した心不全診療支援プログラム医療機器（開発中）",
+    "name": "CubecのAIを活用した心不全診療支援プログラム医療機器",
     "company": "株式会社Cubec（キューベック）",
     "category": "diagnostic-support",
     "description": "国立循環器病研究センターを中心に琉球大・帝京大・名古屋大・九州大と共同研究し、心不全患者一人ひとりのリスク判定と治療案までを提示するAIプログラム医療機器を開発。Cubecは実用化と普及を担う。",
     "hp": "",
     "startedYear": 2023,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2023-08",
     "startBasis": "開発の公表（Cubecの設立後初のリリース）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000124652.html"
     ],
     "type": "disease-specific-ai-samd",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "AIを活用した心不全診療支援プログラム医療機器（開発中）",
+    "stage": "開発中"
   },
   {
     "id": "b-41653266",
@@ -76958,14 +77068,14 @@
   },
   {
     "id": "b-d173b45d",
-    "name": "マイクロ流路による胎児細胞分離・出生前遺伝子検査技術（開発）",
+    "name": "TL Genomicsのマイクロ流路による胎児細胞分離・出生前遺伝子検査技術",
     "company": "株式会社TL Genomics",
     "companyId": "2220001020114",
     "category": "simple-inspection",
     "description": "母体血中のごく少ない胎児由来の有核赤血球をマイクロ流路チップで分離し、出生前遺伝子検査に使う技術",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "milestones": [
       {
         "date": "2018-05",
@@ -76977,7 +77087,9 @@
       "https://bio.nikkeibp.co.jp/atcl/column/16/021500017/050200098/"
     ],
     "type": "next-gen-test-tech",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "マイクロ流路による胎児細胞分離・出生前遺伝子検査技術（開発）",
+    "stage": "開発中"
   },
   {
     "id": "b-1957a700",
@@ -77502,14 +77614,14 @@
   },
   {
     "id": "b-5508869c",
-    "name": "光センサーによる非侵襲の血液成分計測・臨床検査機器（開発）",
+    "name": "ジーニアルライトの光センサーによる非侵襲の血液成分計測・臨床検査機器",
     "company": "ジーニアルライト株式会社",
     "companyId": "1080401011488",
     "category": "simple-inspection",
     "description": "光技術で採血せずに血液成分を測る機器や、光センサーでウイルスを検出する臨床検査機器を開発",
     "hp": "",
     "startedYear": 2020,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2020-07",
     "startBasis": "発表（第三者割当増資の発表で医療機器・ヘルスケア分野の開発を公表、2020-07）",
     "milestones": [
@@ -77523,7 +77635,9 @@
       "https://prtimes.jp/main/html/rd/p/000000002.000061271.html"
     ],
     "type": "next-gen-test-tech",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "光センサーによる非侵襲の血液成分計測・臨床検査機器（開発）",
+    "stage": "研究開発中"
   },
   {
     "id": "b-b3a376c3",
@@ -78457,7 +78571,7 @@
     "description": "認知行動療法の考え方でストレスへの回復力（レジリエンス）を鍛え、メンタル不調を予防するアプリ。学校・自治体向けにも提供",
     "hp": "",
     "startedYear": 2022,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2022-03",
     "startBasis": "発表（2022-03-26 ティザーサイト公開）",
     "milestones": [
@@ -78493,7 +78607,8 @@
       "https://www.atpress.ne.jp/news/302771"
     ],
     "type": "mental-ai-selfcare-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-ae18effb",
@@ -85388,14 +85503,14 @@
   },
   {
     "id": "b-649b67f1",
-    "name": "抗がん剤の効果予測・予後予測バイオマーカー検査の開発",
+    "name": "京ダイアグノスティクスの抗がん剤の効果予測・予後予測バイオマーカー検査",
     "company": "京ダイアグノスティクス株式会社",
     "companyId": "7130001058729",
     "category": "diagnostic-support",
     "description": "大腸がん・胃がん患者の予後や、個々の患者に効く抗がん剤を予測するバイオマーカーを開発し、治療選択を支援する診断サービスを目指す",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "milestones": [
       {
         "date": "2021-06",
@@ -85407,7 +85522,9 @@
       "https://www.seitaikai.com/post/kyo-diagnostics"
     ],
     "type": "cancer-genome-analysis",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "抗がん剤の効果予測・予後予測バイオマーカー検査の開発",
+    "stage": "開発中"
   },
   {
     "id": "b-4dbd3ade",
@@ -86746,14 +86863,14 @@
   },
   {
     "id": "b-4a9c5b01",
-    "name": "がんを蛍光で光らせる術中ナビゲーションドラッグ（開発）",
+    "name": "五稜化薬のがんを蛍光で光らせる術中ナビゲーションドラッグ",
     "company": "五稜化薬株式会社",
     "companyId": "5430001045847",
     "category": "simple-inspection",
     "description": "がん細胞の酵素に反応して光る蛍光試薬を手術中に吹きかけ、乳がんの取り残しや微小ながんを見つけやすくする。東京大学などと共同研究し、食道がんの簡便な診断にも応用",
     "hp": "",
     "startedYear": 2015,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2015-07",
     "startBasis": "発表（JST共同発表：蛍光イメージング試薬による術中迅速微小乳がん検出）",
     "milestones": [
@@ -86776,7 +86893,8 @@
     ],
     "type": "next-gen-test-tech",
     "updatedAt": "2026-10",
-    "formerName": "がん検出用蛍光試薬（ナビゲーションドラッグ）"
+    "formerName": "がん検出用蛍光試薬（ナビゲーションドラッグ）",
+    "stage": "研究開発中"
   },
   {
     "id": "b-7f525c42",
@@ -123572,6 +123690,792 @@
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/227AHBZX00021000_A_01"
     ],
     "type": "imaging-pacs-cloud",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a4392efc",
+    "name": "emolの精神疾患向け治療用アプリ（強迫症・成人ADHD）",
+    "company": "emol株式会社",
+    "companyId": "5010501043871",
+    "category": "medical-device",
+    "description": "強迫症患者向けの認知行動療法支援アプリや、AMED研究で実証したCBTを搭載した成人ADHD治療用アプリなど、精神疾患向けのプログラム医療機器（SaMD）を開発。",
+    "hp": "https://emol.jp/",
+    "startedYear": null,
+    "status": "準備中",
+    "knownSince": "2023-10",
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000032.000043787.html",
+      "https://prtimes.jp/main/html/rd/p/000000033.000043787.html"
+    ],
+    "type": "digital-therapeutics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ab0ed43b",
+    "name": "InnoJinのVRを用いた小児弱視訓練用プログラム医療機器",
+    "company": "InnoJin株式会社",
+    "companyId": "1010001214191",
+    "category": "medical-device",
+    "description": "弱視の子どもがVRゴーグルでゲームを体験しながら視力訓練を行えるプログラム医療機器。",
+    "hp": "https://innojin.co.jp/service",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "開発中",
+    "sources": [
+      "https://innojin.co.jp/service"
+    ],
+    "type": "digital-therapeutics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c04e832b",
+    "name": "リーバーの夜間の特別養護老人ホームと医師をオンラインでつなぐサービス",
+    "company": "株式会社リーバー",
+    "companyId": "2050001042316",
+    "category": "telemedicine",
+    "description": "医師が不在となる夜間の特別養護老人ホームで、職員がオンラインで医師に入所者の状態を相談できるようにする遠隔医療相談サービス。内閣府スーパーシティ先端的サービス事業に採択。",
+    "hp": "https://www.leber.jp/",
+    "startedYear": null,
+    "status": "準備中",
+    "knownSince": "2026-06",
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000187.000033619.html"
+    ],
+    "type": "facility-remote-consultation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b0de66a8",
+    "name": "心不全診療支援AI「Cubec HF」",
+    "company": "株式会社Cubec",
+    "companyId": "jp-035",
+    "category": "diagnostic-support",
+    "description": "心不全患者の増加に対し、地域の医師が専門施設への紹介やフォローの判断をできるよう支援するAI。プログラム医療機器としての承認を目指して開発中。",
+    "hp": "https://cubec.jp/cubechf",
+    "startedYear": 2023,
+    "status": "準備中",
+    "startedAt": "2023-08-09",
+    "startBasis": "心不全治療を提案するAIプログラム医療機器の開発加速を発表（プレスリリース）",
+    "stage": "開発中",
+    "sources": [
+      "https://cubec.jp/cubechf",
+      "https://cubec.jp/services",
+      "https://prtimes.jp/main/html/rd/p/000000001.000124652.html"
+    ],
+    "type": "disease-specific-ai-samd",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7d59578d",
+    "name": "肺高血圧診療支援AI「Cubec PH」",
+    "company": "株式会社Cubec",
+    "companyId": "jp-035",
+    "category": "diagnostic-support",
+    "description": "肺動脈性肺高血圧症などの患者・地域の担当医・専門医をつなぎ、紹介やフォローの判断を支援するAIアプリ。プログラム医療機器としての承認を目指して開発中。",
+    "hp": "https://cubec.jp/cubecph",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "開発中",
+    "sources": [
+      "https://cubec.jp/cubecph",
+      "https://cubec.jp/services"
+    ],
+    "type": "disease-specific-ai-samd",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4c52175e",
+    "name": "診療音声からサブカルテを作る「すごいカルテ」",
+    "company": "ワンディー株式会社",
+    "companyId": "7010001181039",
+    "category": "medical-dx",
+    "description": "歯科医院の診療中の音声からサブカルテを自動で作成し、歯科医師が診療に集中できるようにするサービス。2026年秋に正式リリース予定で先行登録を受け付けている。",
+    "hp": "https://go.karte.sgoi.jp/",
+    "startedYear": 2026,
+    "status": "準備中",
+    "startedAt": "2026-10-01",
+    "startBasis": "発表・先行登録開始（公式お知らせ）",
+    "stage": "発売予定",
+    "sources": [
+      "https://corporate.oned.jp/posts/G4HLjjsL"
+    ],
+    "type": "ai-medical-documentation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f4099cb9",
+    "name": "HealthCareGateのヘルスケア×トレカ",
+    "company": "株式会社HealthCareGate",
+    "companyId": "6020001131530",
+    "category": "personal-health-record",
+    "description": "健康習慣をトレーディングカードのように集めたくなる体験にして、楽しく続けられるようにするヘルスケア×エンタメのサービス。",
+    "hp": "https://healthcaregate.co.jp/",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "開発中",
+    "sources": [
+      "https://healthcaregate.co.jp/"
+    ],
+    "type": "health-point-app",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9669babe",
+    "name": "地域ヘルスケア連携基盤の次世代医療基盤法に基づく医療情報の匿名加工（グループ会社 医療AI推進機構）",
+    "company": "株式会社地域ヘルスケア連携基盤",
+    "companyId": "9010001183603",
+    "category": "real-world-data",
+    "description": "グループの医療機関などの医療情報を、次世代医療基盤法の認定事業者として匿名加工・仮名加工し、研究や医療AIの開発に提供する事業。グループ会社の医療AI推進機構株式会社が認定を受けた。",
+    "hp": "https://www.chcp.jp/",
+    "startedYear": 2026,
+    "status": "準備中",
+    "startedAt": "2026-10-01",
+    "startBasis": "認定匿名加工医療情報作成事業者等の認定取得のお知らせ（公式ニュース）",
+    "stage": "開発中",
+    "sources": [
+      "https://www.chcp.jp/news/news-5137/"
+    ],
+    "type": "hospital-derived-database",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-29075ed1",
+    "name": "医療特化型生成AIによる「AIカルテ下書き」",
+    "company": "株式会社プレシジョン",
+    "companyId": "1011001113499",
+    "category": "medical-dx",
+    "description": "医療に特化した国産の生成AIで、診療の会話や記録からカルテの下書きを作り、医師の記録負担を減らすシステム。厚労省事業としてJCHO北海道病院で実証している。",
+    "hp": "https://www.premedi.co.jp/",
+    "startedYear": 2024,
+    "status": "準備中",
+    "startedAt": "2024-09-02",
+    "startBasis": "相澤病院と国産生成AIの実証実験開始（プレスリリース）",
+    "milestones": [
+      {
+        "date": "2026-01-19",
+        "text": "厚労省事業に採択されJCHO北海道病院でAIカルテ下書きの実証を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000026.000080023.html"
+      }
+    ],
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000020.000080023.html",
+      "https://prtimes.jp/main/html/rd/p/000000026.000080023.html"
+    ],
+    "type": "ai-medical-documentation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1a1ae664",
+    "name": "MEDVERSEの動画を活用した病状説明・同意取得",
+    "company": "株式会社MEDVERSE",
+    "companyId": "5011001146842",
+    "category": "medical-dx",
+    "description": "医師が患者に行う病状説明や手術などの同意取得を、説明動画を使って標準化・効率化し、医師の働き方改革につなげる取り組み。2023年にクラウドファンディングで実装資金を集めた。",
+    "hp": "http://medverse.jp/",
+    "startedYear": 2023,
+    "status": "準備中",
+    "startedAt": "2023-05-12",
+    "startBasis": "実装のためのクラウドファンディング開始（プレスリリース）",
+    "stage": "開発中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000115810.html"
+    ],
+    "type": "patient-explanation-consent",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a8b318e4",
+    "name": "おもいでダイヤル powered by 脳の健康チェック",
+    "company": "ジョージ・アンド・ショーン株式会社",
+    "companyId": "4011003006657",
+    "category": "diagnostic-support",
+    "description": "NTTコミュニケーションズの懐かしいニュースについておしゃべりする電話サービスと組み合わせ、会話から脳の健康状態をチェックする高齢者向けサービス。無償トライアルとして開始。",
+    "hp": "http://george-shaun.com/",
+    "startedYear": 2024,
+    "status": "準備中",
+    "startedAt": "2024-09-19",
+    "startBasis": "無償トライアル開始（公式ニュース）",
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "http://george-shaun.com/newsrelease/20240919/"
+    ],
+    "type": "cognitive-function-assessment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-873b634d",
+    "name": "メディカルダイエット「ROKA」",
+    "company": "株式会社エムボックス",
+    "companyId": "7010001196103",
+    "category": "direct-to-consumer",
+    "description": "医薬品によるアプローチとデジタルの継続サポートを組み合わせ、無理なく続けられるダイエットをめざすブランド。2027年4月公開予定。",
+    "hp": "https://www.mbox-inc.jp/product/",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "発売予定",
+    "sources": [
+      "https://www.mbox-inc.jp/product/"
+    ],
+    "type": "d2c-diet-coaching",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-caf5402b",
+    "name": "ウェルネス向け歩行分析「My Walkie Link」",
+    "company": "株式会社ａｙｕｍｏ",
+    "companyId": "7120001256110",
+    "category": "simple-inspection",
+    "description": "医療機器の歩行分析計「Dr Walkie Plus」のAI技術を使い、カメラの前を歩くだけで歩行状態を測れるようにしたウェルネス（非医療）向けの新製品。",
+    "hp": "https://ayumo.ai/",
+    "startedYear": 2026,
+    "status": "準備中",
+    "startedAt": "2026-10-07",
+    "startBasis": "デモ機展示開始の発表（公式ニュース）",
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://ayumo.ai/news/202610.html"
+    ],
+    "type": "home-self-monitoring-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-04bc8e27",
+    "name": "熱中症対策ウェアラブル発汗センサ「WLS-1000」（給水アラート）",
+    "company": "株式会社スキノス",
+    "companyId": "2100001030232",
+    "category": "personal-health-record",
+    "description": "屋外作業者などの熱中症対策向けに、発汗量を定量・連続測定するセンサに心拍・皮膚温・活動量を組み合わせたバンド型デバイス。汗による水分喪失を推定して給水が必要なタイミングでアラートを出す。",
+    "hp": "https://www.skinos.co.jp/solution/solution01/",
+    "startedYear": null,
+    "status": "準備中",
+    "knownSince": "2022-08",
+    "stage": "開発中",
+    "sources": [
+      "https://www.skinos.co.jp/solution/solution01/"
+    ],
+    "type": "wearable-vital-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-12c14395",
+    "name": "biomyの“松平式”腰痛対策アプリ",
+    "company": "株式会社biomy",
+    "companyId": "3011001130773",
+    "category": "medical-device",
+    "description": "腰痛に悩む人向けに、東大病院の松平浩特任教授が考案した腰痛対策をスマートフォンで体験できるアプリ。その日の痛みに合わせた体操や、腰痛になりにくい生活の過ごし方を提案する。",
+    "hp": "https://www.biomy-tech.com/",
+    "startedYear": 2022,
+    "status": "準備中",
+    "startedAt": "2022-04",
+    "startBasis": "日本運動器科学会の参宮橋プロジェクトへの提供・実証開始（プレスリリース）",
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000082088.html"
+    ],
+    "type": "digital-therapeutics",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2f366c77",
+    "name": "工場向けスマートインソール安全管理ソリューション「ころばぬ」",
+    "company": "株式会社ORPHE",
+    "companyId": "7010401114770",
+    "category": "health-corporate-management",
+    "description": "製造業の工場向けに、作業者の安全靴に入れたスマートインソールでつまずき・滑り・転倒を自動検知してリアルタイムに通知し、作業者の位置や転倒リスクも可視化する安全管理サービス。カメラやマイクは使わない。",
+    "hp": "https://orphe.io/",
+    "startedYear": null,
+    "status": "準備中",
+    "knownSince": "2026-09",
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000073.000020411.html"
+    ],
+    "type": "occupational-health-service",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f88da844",
+    "name": "脳活動が見える脳トレ「Thinkie」",
+    "company": "株式会社NeU",
+    "companyId": "8010001185385",
+    "category": "diagnostic-support",
+    "description": "一般消費者向けに、額に着けるセンサーで脳活動を見える化しながら脳トレを行う製品。川島隆太博士が技術顧問を務め、海外で展開していた製品を日本に投入。Makuakeで1,000万円超を集めた。",
+    "hp": "https://neu-brains.co.jp/",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "発売予定",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000026.000115341.html",
+      "https://prtimes.jp/main/html/rd/p/000000029.000115341.html"
+    ],
+    "type": "cognitive-function-assessment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7d0f268b",
+    "name": "超音波エコー×AI画像分析システム「Echo AI Analytics」",
+    "company": "株式会社スマートエコー",
+    "companyId": "9270001009096",
+    "category": "medical-image",
+    "description": "医療機関向けに、ポータブル超音波エコーの画像をAIで分析し、妊娠期のリスク評価や疾患の特定、非侵襲の腫瘍スクリーニングを支援するシステム。海外の電子カルテとの連携も視野に入れる。",
+    "hp": "https://smart-echo.co.jp/",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "研究開発中",
+    "sources": [
+      "https://smart-echo.co.jp/"
+    ],
+    "type": "imaging-diagnosis-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-03a58059",
+    "name": "ソラミチシステムのAIレセコン",
+    "company": "株式会社ソラミチシステム",
+    "companyId": "jp-015",
+    "category": "pharmacy-dx",
+    "description": "ソラミチシステムが開発中のAIを活用した調剤レセコン。クラウド電子薬歴「CARADA 電子薬歴 Solamichi」と組み合わせた次世代の薬局づくりを打ち出している。",
+    "hp": "https://site.solamichi.com/",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "発売予定",
+    "sources": [
+      "https://site.solamichi.com/event/20270127"
+    ],
+    "type": "pharmacy-erecord-system",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-8add950c",
+    "name": "新医療リアルワールドデータ研究機構の医療文書の半自動生成（症例報告・病歴要約／退院サマリー支援）",
+    "company": "新医療リアルワールドデータ研究機構株式会社",
+    "companyId": "jp-068",
+    "category": "medical-dx",
+    "description": "電子カルテのデータから症例報告・病歴要約や退院サマリーを半自動で作る機能。中小病院向け電子カルテ「movacal.hospital」と連携し、おうちにかえろう。病院で実証した。",
+    "hp": "https://prime-r.inc/",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2024-10",
+        "text": "movacal.hospital・movacal.netでの医療文書半自動生成機能の共同研究開発とトライアルを開始",
+        "source": "https://prime-r.inc/"
+      },
+      {
+        "date": "2025-06-13",
+        "text": "「症例報告・病歴要約支援システム」の実証実験を開始",
+        "source": "https://prime-r.inc/newsrelease/898/"
+      },
+      {
+        "date": "2026-03-31",
+        "text": "実証結果を公表し、退院サマリー半自動生成機能のサービス提供開始（予定）を発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000040.000065803.html"
+      }
+    ],
+    "stage": "発売予定",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000040.000065803.html"
+    ],
+    "type": "ai-medical-documentation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ed9e1b61",
+    "name": "個人向けメンタルケア「インターマインド・パーソナルケア」",
+    "company": "株式会社INTERMIND",
+    "companyId": "5010701043713",
+    "category": "mental-health",
+    "description": "うつや適応障害などに、薬に頼らず推奨度の高い心理的アプローチで一人ひとりに合ったプランを組む個人向けメンタルケアサービス。",
+    "hp": "https://intermind.jp/",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "発売予定",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000124125.html"
+    ],
+    "type": "mental-online-counseling",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d8186f35",
+    "name": "porteraのエコー検査のAI（DTx）",
+    "company": "株式会社portera",
+    "companyId": "4130001074695",
+    "category": "medical-image",
+    "description": "自社に蓄積した医療画像（エコー）データとAIを使い、予防医療・個別化医療向けの診断支援技術を研究開発している。",
+    "hp": "https://portera.jp/",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "研究開発中",
+    "sources": [
+      "https://portera.jp/"
+    ],
+    "type": "imaging-diagnosis-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e03f5087",
+    "name": "うつ病治療支援アプリ「こころアプリ」",
+    "company": "ライフツービッツ株式会社",
+    "companyId": "2011001072315",
+    "category": "mental-health",
+    "description": "京都大学の古川壽亮教授らが監修した、認知行動療法にもとづくうつ病治療支援のスマホアプリ。対面で1時間×16回かかる認知行動療法をアプリで行いやすくする。医療者の指導の下で使う研究用アプリで、田辺三菱製薬・NCNPなどと開発。",
+    "hp": "https://www.life2bits.com/kokoro/",
+    "startedYear": null,
+    "status": "準備中",
+    "knownSince": "2018-01",
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://www.life2bits.com/kokoro/"
+    ],
+    "type": "mental-dtx-neurotech",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-04a6555c",
+    "name": "乳がん患者向け精神療法アプリ「元気アプリ」「解決アプリ」（スマイルプロジェクト）",
+    "company": "ライフツービッツ株式会社",
+    "companyId": "2011001072315",
+    "category": "mental-health",
+    "description": "乳がんの再発への不安や恐怖を和らげるため、行動活性化療法（元気アプリ）と問題解決療法（解決アプリ）をスマホで行うアプリ。名古屋市立大学の研究で使われ、結果はJournal of Clinical Oncologyに掲載された。",
+    "hp": "https://www.life2bits.com/genki/",
+    "startedYear": null,
+    "status": "準備中",
+    "knownSince": "2020-12",
+    "milestones": [
+      {
+        "date": "2022-11",
+        "text": "スマイルプロジェクト研究の論文がJournal of Clinical Oncologyに掲載",
+        "source": "https://www.life2bits.com/"
+      }
+    ],
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://www.life2bits.com/genki/",
+      "https://www.life2bits.com/kaiketsu/"
+    ],
+    "type": "mental-dtx-neurotech",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f74a8152",
+    "name": "AIスクールカウンセラー「放課後プラトニカ」",
+    "company": "株式会社エクセリーベ",
+    "companyId": "3011101060350",
+    "category": "mental-health",
+    "description": "児童生徒が放課後などにAIと対話して悩みを相談できる、学校向けのAIスクールカウンセラー。カウンセリングのノウハウを対話AIに組み込む。",
+    "hp": "https://www.exceliebe.com/",
+    "startedYear": 2025,
+    "status": "準備中",
+    "startedAt": "2025-07-17",
+    "startBasis": "公式発表とベータ版モニター校の募集（公式お知らせ）",
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://www.exceliebe.com/"
+    ],
+    "type": "mental-school-public-consult",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b33f4d1b",
+    "name": "看護師向けAIエージェント「NURVIS（ナーヴィス）」",
+    "company": "株式会社peaceful",
+    "category": "medical-dx",
+    "description": "看護師が骨伝導イヤホンとスマホで身につけるAIエージェント。発話や行動から看護記録を自動で作り、看護手順や薬剤情報の確認、業務タイムライン管理、報告・カンファレンスの組み立てを支える。",
+    "hp": "https://peaceful-inc.com/",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2026-08",
+        "text": "洛和会丸太町病院で共同実証を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000185645.html"
+      }
+    ],
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000185645.html",
+      "https://peaceful-inc.com/"
+    ],
+    "type": "ai-medical-documentation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ca7d11b0",
+    "name": "119番通報受付支援AI「Quick AI」",
+    "company": "株式会社Quick",
+    "companyId": "6050001055594",
+    "category": "first-aid",
+    "description": "119番通報の音声をAIで文字起こし・要約し、緊急度判定や記録作成を支えて、消防の指令員の聴取と判断を助けるAI。限られた人員でも緊急性の高い患者に素早く対応できるようにする。",
+    "hp": "https://quick119.co.jp/",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2026-10-13",
+        "text": "日本経営と資本業務提携",
+        "source": "https://prtimes.jp/main/html/rd/p/000000009.000156902.html"
+      }
+    ],
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000009.000156902.html"
+    ],
+    "type": "ems-hospital-information",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3aaf40e2",
+    "name": "介護施設向けグループ会話ファシリテーションAI「コンチェルト」",
+    "company": "株式会社Concerto Labs",
+    "companyId": "2130001082428",
+    "category": "nursing",
+    "description": "介護施設の利用者同士の会話を、AIが司会役になって話題を振り橋渡しするサービス。AIと話すのではなく人と人が話すきっかけをつくる。ブラウザだけで使える。",
+    "hp": "https://concerto-labs.com/",
+    "startedYear": null,
+    "status": "準備中",
+    "stage": "発売予定",
+    "sources": [
+      "https://concerto-labs.com/"
+    ],
+    "type": "care-activity-dementia-program",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3307cd29",
+    "name": "高齢者向け音声AI対話アプリ「NAGOMI」",
+    "company": "株式会社Quixotiks",
+    "companyId": "3011201025014",
+    "category": "nursing",
+    "description": "独自の対話AIエンジン「QX Engine」で高齢者と音声で自然に会話し、回想やADLの維持を促す介護施設向けアプリ。介護士の知見をAIに反映している。",
+    "hp": "https://www.quixotiks.com/",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2026-01-27",
+        "text": "全国複数の介護施設で実証実験を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000007.000150529.html"
+      }
+    ],
+    "stage": "実証・臨床試験中",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000150529.html"
+    ],
+    "type": "care-activity-dementia-program",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d724b7a8",
+    "name": "MICINの生体音測定アプリ BSA-01",
+    "company": "MICIN",
+    "companyId": "1490001008208",
+    "category": "telemedicine",
+    "description": "患者が自宅でスマートフォンのマイクだけで呼吸音を録音し、医療者に届ける生体音記録プログラム。オンライン診療で難しい聴診の代わりを想定したMICINの第1号医療機器プログラム。",
+    "hp": "",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2023-01-17",
+        "text": "生体音記録プログラムとして製造販売承認（承認番号30500BZX00009000）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000101.000017806.html"
+      }
+    ],
+    "stage": "承認取得・発売前",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000101.000017806.html",
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+    ],
+    "type": "remote-patient-monitoring",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c91f2da2",
+    "name": "オムロン 心房細動の可能性検出プログラム",
+    "company": "オムロンヘルスケア株式会社",
+    "companyId": "7130001024920",
+    "category": "medical-device",
+    "description": "家庭用血圧計で血圧を測る間に得た脈波をAIで解析し、心房細動の可能性を検出して知らせるプログラム（技術名Intellisense AFib）。",
+    "hp": "",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2024-11-27",
+        "text": "血圧測定中に心房細動の可能性を検出する技術「Intellisense AFib」を発表",
+        "source": "https://kyodonewsprwire.jp/release/202411270685"
+      },
+      {
+        "date": "2026-03-24",
+        "text": "オムロン 心房細動の可能性検出プログラム：発作時心臓活動記録装置用プログラムとして製造販売承認（改良医療機器・臨床なし）（承認番号30800BZX00091000）",
+        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      }
+    ],
+    "stage": "承認取得・発売前",
+    "sources": [
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html",
+      "https://kyodonewsprwire.jp/release/202411270685"
+    ],
+    "type": "home-wearable-medical-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d0c96822",
+    "name": "心音図解析プログラム SSS-Air",
+    "company": "AMI株式会社",
+    "companyId": "jp-070",
+    "category": "diagnostic-support",
+    "description": "AMIの心音図検査装置（超聴診器）で記録した心音・心電データを解析・表示する汎用心音計用プログラム。後発医療機器として承認された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2025-07-14",
+        "text": "心音図解析プログラムSSS-Air：汎用心音計用プログラムとして製造販売承認（後発医療機器）（承認番号30700BZX00152000）",
+        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      }
+    ],
+    "stage": "承認取得・発売前",
+    "sources": [
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+    ],
+    "type": "ecg-heart-sound-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d8b7d390",
+    "name": "ハートラボのRST算出プログラム",
+    "company": "ハートラボ株式会社",
+    "companyId": "3130001061067",
+    "category": "telemedicine",
+    "description": "マットレスの下に敷いた体動センサーで夜間の体動を測り、睡眠中の呼吸の安定性を示す独自指標RSTを自動で算出・表示するクラウド型の体動情報解析プログラム。心不全の悪化の早期発見を狙う。",
+    "hp": "",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2024-08-23",
+        "text": "RST®算出プログラム：体動情報解析プログラムとして製造販売承認（改良医療機器・臨床あり）",
+        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0050.html"
+      },
+      {
+        "date": "2025-12",
+        "text": "2025年度 日本人工臓器学会技術賞を受賞",
+        "source": "https://prtimes.jp/main/html/rd/p/000000060.000098878.html"
+      }
+    ],
+    "stage": "承認取得・発売前",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000060.000098878.html",
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0050.html"
+    ],
+    "type": "remote-patient-monitoring",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-d2c69383",
+    "name": "肺結節CT画像検出支援ソフトウェア Careverse LungDoc",
+    "company": "株式会社CESデカルト",
+    "companyId": "1010001180780",
+    "category": "medical-image",
+    "description": "中国Shukun Technology社の胸部CT解析AI「Careverse LungDoc」で、肺結節の候補を検出して読影する医師に示すプログラム。2025年12月に承認された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2025-12-03",
+        "text": "肺結節CT画像検出支援ソフトウェア Careverse LungDoc：X線画像診断装置ワークステーション用プログラムとして製造販売承認（改良医療機器・臨床なし）（承認番号30700BZX00319000）",
+        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      }
+    ],
+    "stage": "承認取得・発売前",
+    "sources": [
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+    ],
+    "type": "imaging-diagnosis-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ee13a4c9",
+    "name": "クレアボ・テクノロジーズの心臓CT画像解析ソフトウェア FFR",
+    "company": "クレアボ・テクノロジーズ株式会社",
+    "companyId": "4010001209230",
+    "category": "medical-image",
+    "description": "冠動脈CT血管造影の画像から血行力学解析で冠血流予備量比（FFR）を算出し、冠動脈疾患の診断を支援する循環動態解析プログラム。国産のFFR-CTとして承認された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2026-03-05",
+        "text": "心臓CT画像解析ソフトウェア FFR：循環動態解析プログラムとして製造販売承認（改良医療機器・臨床あり）",
+        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0056.html"
+      }
+    ],
+    "stage": "承認取得・発売前",
+    "sources": [
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0055.html"
+    ],
+    "type": "imaging-diagnosis-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-773259f8",
+    "name": "内視鏡画像診断支援ソフトウェア GW-CRX01（旧 NEC WISE VISION 内視鏡画像解析AI A1000）",
+    "company": "AIメディカルサービス",
+    "companyId": "5030001122133",
+    "category": "medical-device",
+    "description": "大腸内視鏡で見つけた病変の性質の鑑別を支援する疾患鑑別用のAIソフト。NECが「WISE VISION 内視鏡画像解析AI A1000」として承認を取得し、現在はAIメディカルサービスの品目。",
+    "hp": "",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2025-03-24",
+        "text": "WISE VISION 内視鏡画像解析AI A1000：疾患鑑別用内視鏡画像診断支援プログラムとして製造販売承認（改良医療機器・臨床なし）（承認番号30700BZX00060000）",
+        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      },
+      {
+        "date": "2025-10-20",
+        "text": "内視鏡画像診断支援ソフトウェア GW-CRX01：疾患鑑別用内視鏡画像診断支援プログラムとして承認事項一部変更承認（後発医療機器）（承認番号30700BZX00060000）",
+        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      }
+    ],
+    "stage": "承認取得・発売前",
+    "sources": [
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+    ],
+    "type": "endoscope-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c1784128",
+    "name": "G-Dataの眼底画像AI診断支援プログラム RA-100",
+    "company": "合同会社G-Data",
+    "companyId": "9010003031405",
+    "category": "medical-image",
+    "description": "眼底カメラで撮った眼底画像をAIで解析し、眼底疾患の診断を支援する情報を示す眼底カメラ用プログラム。2025年10月に承認された。",
+    "hp": "",
+    "startedYear": null,
+    "status": "準備中",
+    "milestones": [
+      {
+        "date": "2025-10-01",
+        "text": "眼底画像AI診断支援プログラム RA-100：眼底カメラ用プログラムとして製造販売承認（改良医療機器・臨床なし）（承認番号30700BZX00250000）",
+        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      }
+    ],
+    "stage": "承認取得・発売前",
+    "sources": [
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+    ],
+    "type": "imaging-diagnosis-ai",
     "updatedAt": "2026-10"
   }
 ]
