@@ -69230,21 +69230,22 @@
   },
   {
     "id": "b-31b22fd0",
-    "name": "InnoJinのドライアイチェッカー ホーム",
+    "name": "ドライアイ受診勧奨アプリ「ドライアイチェッカーHome」",
     "company": "InnoJin株式会社",
     "companyId": "1010001214191",
-    "category": "diagnostic-support",
-    "description": "家庭でドライアイの状態をセルフチェックできるアプリ。眼科医発のスタートアップInnoJinが提供し、目の乾きの状態を把握して受診につなげる。",
-    "hp": "https://innojin.co.jp/",
+    "category": "simple-inspection",
+    "description": "家庭でドライアイの症状を評価・記録し、点眼をサポートして受診につなげるアプリ。医療機器ではない受診勧奨用で、公式サイトでは近日公開と告知している。",
+    "hp": "https://innojin.co.jp/service",
     "startedYear": 2026,
     "status": "準備中",
     "startedAt": "2026-06-03",
     "startBasis": "App Store初回公開",
     "sources": [
+      "https://innojin.co.jp/service",
       "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%A4%E3%82%A2%E3%82%A4%E3%83%81%E3%82%A7%E3%83%83%E3%82%AB%E3%83%BC-%E3%83%9B%E3%83%BC%E3%83%A0/id6763970907",
       "https://innojin.co.jp/"
     ],
-    "type": "disease-specific-ai-samd",
+    "type": "eye-selfcare-app",
     "updatedAt": "2026-10",
     "formerName": "ドライアイチェッカー ホーム",
     "stage": "発売予定"
@@ -83781,19 +83782,32 @@
     "company": "InnoJin株式会社",
     "companyId": "1010001214191",
     "category": "diagnostic-support",
-    "description": "国内に約2,000万人とされるドライアイの診断補助を行うスマホアプリ。医療機関で医師の処方を受けて使う形で、まばたきなどの測定結果を診療に生かす。",
+    "description": "まばたきをこらえられる時間（最大開瞼時間）の計測と問診票から、医療機関でのドライアイの診断を補助するスマホアプリ。プログラム医療機器としての承認をめざして開発中で、2025年10月時点では国内未承認。",
     "hp": "",
-    "startedYear": 2023,
-    "status": "提供中",
-    "startedAt": "2023-04-30",
-    "startBasis": "App Store初回公開",
+    "startedYear": null,
+    "status": "準備中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000061.000088821.html",
+      "https://prtimes.jp/main/html/rd/p/000000009.000088821.html",
       "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%A4%E3%82%A2%E3%82%A4%E3%83%81%E3%82%A7%E3%83%83%E3%82%AB%E3%83%BC/id6447330468",
       "https://innojin.co.jp/privacy",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001214191"
     ],
     "type": "disease-specific-ai-samd",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "stage": "実証・臨床試験中",
+    "milestones": [
+      {
+        "date": "2023-03",
+        "text": "順天堂大学などと、プログラム医療機器としての承認をめざす多機関共同の特定臨床研究を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000009.000088821.html"
+      },
+      {
+        "date": "2025-10",
+        "text": "日本臨床眼科学会で「国内未承認」の開発品としてプロトタイプを展示",
+        "source": "https://prtimes.jp/main/html/rd/p/000000061.000088821.html"
+      }
+    ]
   },
   {
     "id": "b-b7b144e3",
