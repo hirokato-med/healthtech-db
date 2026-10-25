@@ -22,6 +22,9 @@ export default async function InvestorPage({ params }: { params: Promise<{ id: s
   if (!i) notFound();
   const a = activity(i);
   const max = Math.max(1, ...YEARS.map((y) => a.byYear.get(y) ?? 0));
+  // 同じ回のほかの投資家の名前から、その投資家のページへ（2社以上に出資していてページがあるもの）
+  const ikey = (s: string) => s.normalize('NFKC').replace(/株式会社|合同会社|有限会社|[\s・･.,、]/g, '').toLowerCase();
+  const pageOf = new Map(getInvestors().filter((x) => x.companies >= 2).map((x) => [ikey(x.name), x.id]));
   // 出資1回ごとに1行（新しい順）。金額は発表に書かれたもの
   const rows = [...i.rounds].reverse().map((r) => ({ r, c: getCompany(r.companyId) }));
   // 同じ回に出資したことの多い投資家
@@ -65,8 +68,8 @@ export default async function InvestorPage({ params }: { params: Promise<{ id: s
         <h2>出資したヘルスケア企業</h2>
         <div className="earn-wrap">
           <table className="earn-table inv-port">
-            <colgroup><col /><col style={{ width: '9em' }} /><col style={{ width: '8em' }} /><col style={{ width: '8.5em' }} /><col style={{ width: '12em' }} /></colgroup>
-            <thead><tr><th>会社</th><th>領域</th><th>出資した月</th><th className="c">その回の調達総額</th><th>ラウンド</th></tr></thead>
+            <colgroup><col style={{ width: '13em' }} /><col style={{ width: '7.5em' }} /><col style={{ width: '7.5em' }} /><col style={{ width: '7.5em' }} /><col style={{ width: '10em' }} /><col /></colgroup>
+            <thead><tr><th>会社</th><th>領域</th><th>出資した月</th><th className="c">その回の調達総額</th><th>ラウンド</th><th>同じ回のほかの投資家</th></tr></thead>
             <tbody>
               {rows.map(({ r, c }) => (
                 <tr key={r.companyId + r.date + (r.round ?? '')}>
@@ -75,6 +78,7 @@ export default async function InvestorPage({ params }: { params: Promise<{ id: s
                   <td className="nw">{ymJa(r.date)}</td>
                   <td className="c nw">{money(r.amount)}</td>
                   <td>{r.round ?? <span className="muted">—</span>}{r.lead && <em className="inv-lead">リード</em>}</td>
+                  <td className="inv-with">{(r.with ?? []).length ? (r.with ?? []).map((n, k) => <span key={n}>{k > 0 && '、'}{pageOf.get(ikey(n)) ? <Link href={`/investors/${pageOf.get(ikey(n))}/`}>{n}</Link> : n}</span>) : <span className="muted">—</span>}</td>
                 </tr>
               ))}
             </tbody>
