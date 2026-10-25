@@ -54,8 +54,10 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
             <section className="panel">
               <h3>経過</h3>
               <ul className="co-history">
-                {(s.startedAt || s.startedYear) && <li><span>{ym(s.startedAt) || `${s.startedYear}年`}</span>開始</li>}
-                {(s.milestones ?? []).map((m) => <li key={m.date + m.text}><span>{ym(m.date)}</span>{m.text}</li>)}
+                {/* 開始・節目を年月の順に並べる（開始より前の承認などが先に来る） */}
+                {[...((s.startedAt || s.startedYear) ? [{ date: s.startedAt || String(s.startedYear), text: '開始', start: true }] : []), ...(s.milestones ?? [])]
+                  .sort((a, b) => (a.date || '').slice(0, 7).localeCompare((b.date || '').slice(0, 7)) || Number(!('start' in a)) - Number(!('start' in b)))
+                  .map((m) => <li key={m.date + m.text}><span>{'start' in m && !s.startedAt ? `${s.startedYear}年` : ym(m.date)}</span>{m.text}</li>)}
                 {s.endedAt && <li><span>{ym(s.endedAt)}</span>{s.status === '譲渡' ? '事業を譲渡' : s.status === '統合' ? '合併・統合' : s.status === '休止' ? '休止' : '提供を終了'}{s.successor ? `（${s.successor}）` : ''}</li>}
               </ul>
             </section>
