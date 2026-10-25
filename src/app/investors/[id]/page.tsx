@@ -13,6 +13,8 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return { title: i ? `${i.name}のヘルスケア投資` : '投資家', description: i ? `${i.name}が出資したヘルスケア企業${i.companies}社と、出資の時期。` : undefined };
 }
 
+/** 投資先のその後。バイアウトは買収された（M&A）こと */
+const EXIT_LABEL: Record<string, string> = { バイアウト: 'M&A', 上場: '上場', 合併: '合併', 閉鎖: '閉鎖', 活動停止: '活動停止' };
 const short = (n = '') => n.replace(/^株式会社|株式会社$/g, '').replace(/（.*$/, '');
 const money = (v: number | null) => (v == null ? '非公表' : v >= 100 ? `${(v / 100).toFixed(v >= 1000 ? 0 : 1)}億円` : `${v}百万円`);
 
@@ -73,7 +75,7 @@ export default async function InvestorPage({ params }: { params: Promise<{ id: s
             <tbody>
               {rows.map(({ r, c }) => (
                 <tr key={r.companyId + r.date + (r.round ?? '')}>
-                  <td>{c ? <Link href={`/companies/${r.companyId}/`}>{short(c.name)}</Link> : r.companyId}{c?.exit && c.exit !== '未上場' ? <small> {c.exit}</small> : null}</td>
+                  <td>{c ? <Link href={`/companies/${r.companyId}/`}>{short(c.name)}</Link> : r.companyId}{c?.exit && c.exit !== '未上場' ? <span className={`exit-box ex-${c.exit}`}>{EXIT_LABEL[c.exit] ?? c.exit}</span> : null}</td>
                   <td className="small">{c?.categories?.[0] ? categoryName(c.categories[0]) : ''}</td>
                   <td className="nw">{ymJa(r.date)}</td>
                   <td className="c nw">{money(r.amount)}</td>

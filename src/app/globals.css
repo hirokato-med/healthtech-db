@@ -1069,3 +1069,8 @@ a.upd-title:hover { color: var(--navy); }
 .inv-port th.c, .inv-port td.c { text-align: center; }
 .inv-with { font-size: 12.5px; line-height: 1.7; }
 .inv-lead { white-space: nowrap; display: inline-block; }
+/* 投資先のその後（M&A・上場・閉鎖）を枠で示す */
+.exit-box { display: inline-block; margin-left: 6px; padding: 0 6px; border: 1.5px solid; border-radius: 3px; font-size: 10.5px; font-weight: 800; line-height: 1.6; white-space: nowrap; vertical-align: 1px; }
+.exit-box.ex-バイアウト, .exit-box.ex-合併 { color: #b45309; border-color: #b45309; background: #fff4e5; }
+.exit-box.ex-上場 { color: #1d4ed8; border-color: #1d4ed8; background: #eaf1ff; }
+.exit-box.ex-閉鎖, .exit-box.ex-活動停止 { color: #6b6259; border-color: #9a9087; background: #f3f1ee; }
