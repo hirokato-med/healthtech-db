@@ -43,6 +43,7 @@ add(must, 'DB にない会社を指している', services.filter((s) => s.compa
 add(must, '事業の種類が空か、無い種類', services.filter((s) => !typeCat.has(s.type)));
 add(must, 'カテゴリが事業の種類と合わない', services.filter((s) => typeCat.has(s.type) && typeCat.get(s.type) !== s.category));
 add(must, '出典が無い', services.filter((s) => !s.sources?.length));
+add(must, '説明文・教訓が文字列でない（まとめ処理で壊れた など）', services.filter((s) => ['description', 'lessons', 'endReasonNote'].some((k) => s[k] != null && typeof s[k] !== 'string')));
 add(must, '節目の日付の形がおかしい', services.filter((s) => (s.milestones ?? []).some((m) => m.date && !/^\d{4}(-\d{2}){0,2}$/.test(m.date))));
 
 // 確かめたい（デジタルヘルスの中心を先に並べる）
