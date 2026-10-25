@@ -1040,3 +1040,27 @@ a.upd-title:hover { color: var(--navy); }
 .dev-head span { padding: 2px 8px; border-radius: 4px; background: var(--teal-soft); color: var(--teal); font-size: 12.5px; font-weight: 700; }
 .dev-panel dd small { display: block; color: var(--muted); font-size: 11.5px; }
 .dev-panel dd a { display: block; }
+/* 投資家 */
+.inv-filter { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; align-items: center; margin: 0 0 12px; }
+.inv-filter .chip { cursor: pointer; }
+.inv-filter .chip.on { background: var(--teal); color: #fff; border-color: var(--teal); }
+.inv-spark { display: inline-flex; align-items: flex-end; gap: 2px; height: 24px; }
+.inv-spark i { width: 6px; background: var(--teal); border-radius: 1px; }
+.inv-spark i.z { background: var(--line); }
+.inv-tone { display: inline-block; padding: 1px 8px; border-radius: 4px; font-size: 11.5px; font-weight: 700; white-space: nowrap; }
+.inv-tone.keep { background: var(--teal-soft); color: var(--teal); }
+.inv-tone.up { background: #e3f1e6; color: #2f7a3e; }
+.inv-tone.new { background: #e8eefb; color: #2d55a8; }
+.inv-tone.stop { background: #f1efec; color: #7a6f63; }
+.inv-years { display: grid; grid-template-columns: repeat(13, 1fr); gap: 6px; align-items: end; height: 150px; padding: 8px 4px; border-bottom: 1px solid var(--line); }
+.inv-years > div { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; }
+.inv-years i { width: 70%; max-width: 36px; background: var(--teal); border-radius: 3px 3px 0 0; }
+.inv-years i.z { background: var(--line); }
+.inv-years .v { font-size: 11px; font-weight: 700; color: var(--ink-2, inherit); margin-bottom: 2px; }
+.inv-years .y { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.inv-round { display: inline-block; margin: 0 10px 4px 0; font-size: 13px; white-space: nowrap; }
+.inv-round em { font-style: normal; font-size: 10.5px; font-weight: 700; color: #a8661b; background: #fbeedb; border-radius: 4px; padding: 1px 5px; margin-left: 4px; }
+.inv-round small { color: var(--muted); margin-left: 4px; }
+.more-btn { margin: 12px auto 0; display: block; }
+.inv-chip { padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: inherit; font-size: 12.5px; font-weight: 700; cursor: pointer; }
+.inv-chip.on { background: var(--teal); border-color: var(--teal); color: #fff; }

@@ -21,6 +21,7 @@ export function Header() {
               <Link href="/services/stopped/">止まった事業<span>理由別に過去の事業を見る</span></Link>
               <Link href="/ma/">M&amp;A・提携マップ<span>誰が誰と組み、誰が誰を買ったか</span></Link>
               <Link href="/funding/">資金調達<span>誰がいつ、誰からいくら調達したか</span></Link>
+              <Link href="/investors/">投資家<span>ヘルスケアに出資しているVC・事業会社</span></Link>
               <Link href="/talents/">人物データベース<span>創業者・代表者</span></Link>
               <Link href="/global/">海外企業<span>米国・欧州・アジア</span></Link>
             </div>

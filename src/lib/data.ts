@@ -7,6 +7,7 @@ import type {
   Disclosure,
   EarningsReport,
   Funding,
+  Investor,
   BizType,
   ForecastRevision,
   UpdateEntry,
@@ -115,6 +116,10 @@ export const getEarnings = () =>
     const raw = fs.existsSync(path.join(ROOT, 'data', 'earnings.json')) ? read<Record<string, { code: string; reports: EarningsReport[] }>>('earnings.json') : {};
     return Object.fromEntries(Object.entries(raw).map(([id, v]) => [id, [...v.reports].sort((a, b) => b.date.localeCompare(a.date))]));
   });
+/** 投資家（引受先）の一覧。社数の多い順 */
+export const getInvestors = () =>
+  memo('investors', () => (fs.existsSync(path.join(ROOT, 'data', 'investors.json')) ? read<Investor[]>('investors.json') : []));
+export const getInvestor = (id: string) => getInvestors().find((i) => i.id === id);
 /** 資金調達の記録（企業ID → ラウンドの一覧） */
 export const getFundings = () =>
   memo('fundings', () => (fs.existsSync(path.join(ROOT, 'data', 'fundings.json')) ? read<Record<string, Funding>>('fundings.json') : {}));
