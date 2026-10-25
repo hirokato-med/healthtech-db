@@ -288,7 +288,10 @@
     "hp": "https://finc.com/",
     "startedYear": 2015,
     "status": "提供中",
-    "type": "health-point-app"
+    "type": "health-point-app",
+    "sources": [
+      "https://finc.com/"
+    ]
   },
   {
     "id": "medpeer",
@@ -334,7 +337,10 @@
     "hp": "https://www.m3.com/",
     "startedYear": 2000,
     "status": "提供中",
-    "type": "doctor-community-portal"
+    "type": "doctor-community-portal",
+    "sources": [
+      "https://www.m3.com/"
+    ]
   },
   {
     "id": "smaluna",
@@ -402,7 +408,10 @@
     "hp": "https://www.splinkns.com/",
     "startedYear": 2019,
     "status": "提供中",
-    "type": "imaging-brain-body-check"
+    "type": "imaging-brain-body-check",
+    "sources": [
+      "https://www.splinkns.com/"
+    ]
   },
   {
     "id": "kanamic-cloud",
@@ -413,7 +422,10 @@
     "hp": "https://www.kanamic.net/",
     "startedYear": 2000,
     "status": "提供中",
-    "type": "care-record-careplan-software"
+    "type": "care-record-careplan-software",
+    "sources": [
+      "https://www.kanamic.net/"
+    ]
   },
   {
     "id": "hal",
@@ -424,7 +436,10 @@
     "hp": "https://www.cyberdyne.jp/",
     "startedYear": 2008,
     "status": "提供中",
-    "type": "rehab-robotics-prosthetics"
+    "type": "rehab-robotics-prosthetics",
+    "sources": [
+      "https://www.cyberdyne.jp/"
+    ]
   },
   {
     "id": "mcs",
@@ -452,7 +467,10 @@
     "hp": "https://www.doctor-net.co.jp/",
     "startedYear": 1995,
     "status": "提供中",
-    "type": "teleradiology"
+    "type": "teleradiology",
+    "sources": [
+      "https://www.doctor-net.co.jp/"
+    ]
   },
   {
     "id": "mrt-kyujin",
@@ -463,7 +481,10 @@
     "hp": "https://medrt.com/",
     "startedYear": 2000,
     "status": "提供中",
-    "type": "medical-staffing-agency"
+    "type": "medical-staffing-agency",
+    "sources": [
+      "https://medrt.com/"
+    ]
   },
   {
     "id": "calomama",
@@ -18678,23 +18699,6 @@
     "type": "overseas-hospital-group"
   },
   {
-    "id": "b-8e5be021",
-    "name": "レコードブック（リハビリ型デイサービス）",
-    "company": "インターネットインフィニティー",
-    "companyId": "2010001088949",
-    "category": "nursing",
-    "description": "直営1号店開設。2014-03FC展開開始、2024-04子会社レコードブックに承継",
-    "hp": "https://iif.jp/business/",
-    "startedYear": 2011,
-    "status": "提供中",
-    "startedAt": "2011-10",
-    "sources": [
-      "https://iif.jp/business/"
-    ],
-    "updatedAt": "2026-10",
-    "type": "care-service-operation"
-  },
-  {
     "id": "b-ffffdc8f",
     "name": "わかるかいごBiz（仕事と介護の両立支援）",
     "company": "インターネットインフィニティー",
@@ -24743,7 +24747,7 @@
     "company": "株式会社デザインケア",
     "companyId": "7180001115491",
     "category": "home-visit-nursing",
-    "description": "名古屋市中心に展開。採用Instagramでは34店舗と記載。開始時期は確認できず",
+    "description": "名古屋市を中心に展開する訪問看護ステーション。看護師・リハビリ職が自宅を訪ね、医療処置やリハビリを行う。同社の採用案内では34店舗。",
     "hp": "https://kakaritsuke.co.jp/",
     "startedYear": null,
     "status": "提供中",
@@ -25348,23 +25352,6 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000024.000028313.html"
       }
     ]
-  },
-  {
-    "id": "b-28e6829a",
-    "name": "データヘルス事業（特定保健指導等）※承継予定",
-    "company": "メドケア",
-    "companyId": "5011101073020",
-    "category": "health-insuarance-market",
-    "description": "エス・エム・エスから吸収分割で承継予定（効力発生日2026-12-01予定）",
-    "hp": "https://www.medcare.jp/topics/sms-succession",
-    "startedYear": 2026,
-    "status": "提供中",
-    "startedAt": "2026-12",
-    "sources": [
-      "https://www.medcare.jp/topics/sms-succession"
-    ],
-    "updatedAt": "2026-10",
-    "type": "specific-health-guidance"
   },
   {
     "id": "b-a9d4bf18",
@@ -26712,23 +26699,6 @@
     "startedAt": "2026-09",
     "sources": [
       "https://basefood.co.jp/news/4180"
-    ],
-    "updatedAt": "2026-10",
-    "type": "d2c-nutrition-food-brand"
-  },
-  {
-    "id": "b-0a0658b1",
-    "name": "BASE Sand（クラフトサンドウィッチ専門店）",
-    "company": "ベースフード株式会社",
-    "companyId": "6010901037910",
-    "category": "direct-to-consumer",
-    "description": "初店舗の目黒店を2026-11-06オープン予定と告知",
-    "hp": "https://prtimes.jp/main/html/rd/p/000000371.000022258.html",
-    "startedYear": 2026,
-    "status": "提供中",
-    "startedAt": "2026-11",
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000371.000022258.html"
     ],
     "updatedAt": "2026-10",
     "type": "d2c-nutrition-food-brand"
@@ -32017,24 +31987,6 @@
     ]
   },
   {
-    "id": "b-97926c9b",
-    "name": "クリニックパートナー360",
-    "company": "株式会社MediCE",
-    "companyId": "jp-027",
-    "category": "medical-management-support",
-    "description": "クリニック向けの多機能院内ポータル。インシデントレポートなどの報告機能と、感染対策・医療安全・医療接遇などのeラーニング、院内の情報共有をまとめ、スタッフ教育と医療安全の義務への対応を支える。2024年10月にリリースした。",
-    "hp": "https://medi-ce.com/",
-    "startedYear": 2024,
-    "status": "提供中",
-    "sources": [
-      "https://medi-ce.com/",
-      "https://prtimes.jp/main/html/rd/p/000000002.000150269.html"
-    ],
-    "updatedAt": "2026-10",
-    "type": "healthcare-consulting",
-    "startedAt": "2024-10"
-  },
-  {
     "id": "b-50ef7bbf",
     "name": "クリニックパートナー勤怠",
     "company": "株式会社MediCE",
@@ -36916,15 +36868,18 @@
     "company": "株式会社QUOLi",
     "companyId": "8011001146848",
     "category": "medical-cosmetic",
-    "description": "公式サイト・アプリストアでの現状は確認できず",
+    "description": "美容医療の施術の口コミを投稿・閲覧できるアプリ。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "sources": [
       "https://sado-business-contest.com/2024/interview/quori/"
     ],
     "updatedAt": "2026-10",
-    "type": "cosmetic-review-booking-app"
+    "type": "cosmetic-review-booking-app",
+    "endReasons": [
+      "unknown"
+    ]
   },
   {
     "id": "b-a6729c9f",
@@ -61659,22 +61614,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-47c4cac1",
-    "name": "もみほぐし・足つぼチェーン「りらくる」",
-    "company": "株式会社りらく",
-    "category": "relaxation",
-    "description": "60分の低価格もみほぐしを中心に、駅近・郊外に多店舗展開するリラクゼーションチェーン。大阪で1号店を開き、全国数百店舗規模に広げた。",
-    "hp": "https://relxle.com/",
-    "startedYear": 2009,
-    "status": "提供中",
-    "startedAt": "2009-04",
-    "sources": [
-      "https://relxle.com/company"
-    ],
-    "type": "relaxation-salon",
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-6d5d2a88",
     "name": "睡眠モニター連携サービス「Real Sleep」（au HOME／with HOME）",
     "company": "KDDI株式会社（共同開発：株式会社ニューロスペース）",
@@ -73825,7 +73764,7 @@
     "companyId": "2010001088949",
     "category": "clinic-chain",
     "description": "要支援・軽度要介護者向けの3時間リハビリ型デイサービス「レコードブック」を直営とFCで多店舗展開。2014年にFC展開を始め、地方新聞社など異業種の加盟も受け入れている。",
-    "hp": "",
+    "hp": "https://iif.jp/business/",
     "startedYear": 2011,
     "status": "提供中",
     "startedAt": "2011-10",
@@ -73854,7 +73793,8 @@
     ],
     "sources": [
       "https://www.iif.jp/company/history/",
-      "https://prtimes.jp/main/html/rd/p/000000046.000105470.html"
+      "https://prtimes.jp/main/html/rd/p/000000046.000105470.html",
+      "https://iif.jp/business/"
     ],
     "type": "franchise-healthcare-network",
     "updatedAt": "2026-10"
@@ -74199,13 +74139,14 @@
     "companyId": "jp-027",
     "category": "medical-saas",
     "description": "クリニック向けにインシデントレポート、感染対策・医療安全のeラーニングなどを一つにまとめたクラウド。小規模医療機関の医療安全体制づくりを支える。",
-    "hp": "",
+    "hp": "https://medi-ce.com/",
     "startedYear": 2024,
     "status": "提供中",
     "startedAt": "2024-10",
     "startBasis": "サービスのリリース（MediCEのリリース）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000150269.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000150269.html",
+      "https://medi-ce.com/"
     ],
     "type": "nursing-ward-safety",
     "updatedAt": "2026-10"
@@ -84155,7 +84096,6 @@
     ],
     "startedAt": "2017-07",
     "startBasis": "保健指導プログラムの開始（2017年度事業）",
-    "endedAt": "2020-03",
     "endReasonNote": "2017〜2019年度の3年間の事業として設計され、期間満了で終了した。最終評価では腎機能の低下抑制率が32.9％と目標80％に届かず、成果連動の委託料は減額された。"
   },
   {
@@ -85648,7 +85588,6 @@
     "endReasons": [
       "acquisition"
     ],
-    "endedAt": "2023-07",
     "successor": "カルー株式会社（自費・美容クリニック専用電子カルテ「SMARTCRM」）",
     "endReasonNote": "2023年7月に医療機関検索サイト「Caloo」のカルー株式会社へ事業譲渡（カルーが8月に発表）。ヴァージニア側の理由は公表されていない。"
   },
@@ -86104,7 +86043,10 @@
     "type": "digital-biomarker",
     "updatedAt": "2026-10",
     "endedAt": "2017-10",
-    "successor": "株式会社Empath（2017-10-31設立、現 株式会社Poetics）"
+    "successor": "株式会社Empath（2017-10-31設立、現 株式会社Poetics）",
+    "endReasons": [
+      "unknown"
+    ]
   },
   {
     "id": "b-5abe8c32",
@@ -86689,46 +86631,6 @@
       "https://prtimes.jp/main/html/rd/p/000000002.000060702.html"
     ],
     "type": "specific-health-guidance",
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-cf0014a2",
-    "name": "採血不要の血中脂質測定器「スマートニゴリチェッカー CaLighD（キャライド）」",
-    "company": "メディカルフォトニクス株式会社",
-    "companyId": "5430001068393",
-    "category": "simple-inspection",
-    "description": "腕に光を当てて、食後に血液がにごる状態（血中の中性脂肪）を採血なしで測る小型機器。2019年にMakuakeで先行販売し、2020年に一般発売",
-    "hp": "",
-    "startedYear": 2019,
-    "status": "終了",
-    "startedAt": "2019-07",
-    "startBasis": "製品としての先行販売開始（2019-07-30、Makuake）",
-    "endedAt": "2024-09",
-    "milestones": [
-      {
-        "date": "2016-09",
-        "text": "採血せず血中の中性脂肪を測る小型機器を開発（日刊工業新聞）",
-        "source": "https://www.nikkan.co.jp/articles/view/399260"
-      },
-      {
-        "date": "2019-07",
-        "text": "Makuakeで「CaLighD」の先行販売を開始",
-        "source": "https://prtimes.jp/main/html/rd/p/000000001.000047580.html"
-      },
-      {
-        "date": "2020-09",
-        "text": "一般発売（報道）"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "運営会社が2024年9月に清算結了。販売終了の告知・理由は確認できなかった",
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000047580.html",
-      "https://www.nikkan.co.jp/articles/view/399260"
-    ],
-    "type": "home-self-monitoring-test",
     "updatedAt": "2026-10"
   },
   {
