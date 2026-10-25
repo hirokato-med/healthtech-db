@@ -18,7 +18,7 @@ if (!keep || !dropIds.length) throw new Error('usage: fold-services.mjs <keep> <
 for (const id of dropIds) {
   const d = s.find((x) => x.id === id);
   if (!d) throw new Error(`not found: ${id}`);
-  for (const k of ['themes', 'sources', 'endReasons', 'lessons']) if (d[k]) keep[k] = [...new Set([...(keep[k] ?? []), ...d[k]])];
+  for (const k of ['themes', 'sources', 'endReasons']) if (d[k]) keep[k] = [...new Set([...(keep[k] ?? []), ...d[k]])];
   if (d.milestones) {
     const seen = new Set((keep.milestones ?? []).map((m) => m.date + m.text));
     keep.milestones = [...(keep.milestones ?? []), ...d.milestones.filter((m) => !seen.has(m.date + m.text))].sort((a, b) => a.date.localeCompare(b.date));

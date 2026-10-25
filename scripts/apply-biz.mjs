@@ -54,6 +54,10 @@ for (const o of outs) {
     if (u.endedAt) s.endedAt = u.endedAt;
     if (u.endReasons?.length) s.endReasons = u.endReasons.filter((r) => REASONS.has(r));
     if (u.endReasonNote) s.endReasonNote = u.endReasonNote;
+    // 教訓：空文字は「根拠がないので消す」
+    if (typeof u.lessons === 'string') { if (u.lessons.trim()) s.lessons = u.lessons.trim(); else delete s.lessons; }
+    if (u.successor) s.successor = u.successor;
+    if (u.status === '提供中') { delete s.endedAt; delete s.endReasons; delete s.endReasonNote; }
     if (u.sources?.length) s.sources = [...new Set([...u.sources, ...(s.sources ?? [])])];
     s.updatedAt = asOf;
   }
