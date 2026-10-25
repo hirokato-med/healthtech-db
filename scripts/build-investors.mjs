@@ -68,18 +68,20 @@ for (const [companyId, f] of Object.entries(fundings)) {
   for (const r of f.rounds ?? []) {
     if (r.round === 'M&A' || r.type === '融資（デット）') continue;
     const names = new Set();
+    // 同じ回のほかの引受先（名前のない「個人投資家」なども、そのまま出す。融資は除く）
+    const all = [];
     for (const raw of r.investors ?? []) {
       const c = canon(raw);
       mapping[raw] = c;
-      if (!c || (manual.exclude ?? []).includes(c)) continue;
-      names.add(c);
+      if (c && !(manual.exclude ?? []).includes(c)) { names.add(c); all.push(c); }
+      else if (!/融資|借入|ローン|日本政策金融公庫|商工組合中央金庫|信用保証/.test(raw)) all.push(raw.normalize('NFKC').replace(/[（(].*?[)）]/g, '').trim());
     }
     const leadC = r.lead ? canon(r.lead) : null;
     for (const n of names) {
       const k = key(n);
       const e = inv.get(k) ?? { name: n, names: new Set(), rounds: [] };
       e.names.add(n);
-      e.rounds.push({ companyId, date: r.date, round: r.round, type: r.type, amount: r.amount ?? null, lead: !!leadC && key(leadC) === k, source: r.source });
+      e.rounds.push({ companyId, date: r.date, round: r.round, type: r.type, amount: r.amount ?? null, lead: !!leadC && key(leadC) === k, with: [...new Set(all.filter((x) => key(x) !== k))], source: r.source });
       inv.set(k, e);
     }
   }
