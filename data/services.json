@@ -10927,52 +10927,6 @@
     "type": "employee-health-cloud"
   },
   {
-    "id": "b-79ebbfee",
-    "name": "ヘルスケアアプリ「QOLism（キュオリズム）」",
-    "company": "株式会社QOLead（第一生命グループ）",
-    "category": "personal-health-record",
-    "description": "健保組合・共済組合・企業・自治体が加入者や従業員に配る健康アプリ。歩数記録、食事記録、イベント、ポイント交換などを提供し、管理ツールで利用状況を可視化する。",
-    "hp": "",
-    "startedYear": 2021,
-    "status": "提供中",
-    "startedAt": "2021-04",
-    "milestones": [
-      {
-        "date": "2018-10",
-        "text": "QOLead設立。かんぽ生命への健康増進サービスの提供開始"
-      },
-      {
-        "date": "2021-04",
-        "text": "QOLismの提供開始"
-      },
-      {
-        "date": "2024-04",
-        "text": "メンタルヘルスの相談窓口などを加えた「QOLism メンタルケアプラン」を開始"
-      },
-      {
-        "date": "2024-07",
-        "text": "第一生命ホールディングスの株主優待としてQOLismの提供を開始"
-      },
-      {
-        "date": "2024-09",
-        "text": "第一生命が子会社化したベネフィット・ワンの「ベネフィット・ステーション」でQOLismの提供を開始"
-      }
-    ],
-    "endReasonNote": "提供中のため該当なし。",
-    "sources": [
-      "https://qolead.com/info/",
-      "https://www.techfirm.co.jp/news/20210416",
-      "https://prtimes.jp/main/html/rd/p/000000090.000027306.html",
-      "https://qolead.com/info/1294/",
-      "https://www.dai-ichi-life.co.jp/company/news/pdf/2024_028.pdf"
-    ],
-    "updatedAt": "2026-10",
-    "themes": [
-      "phr-employer"
-    ],
-    "type": "insurer-employer-phr"
-  },
-  {
     "id": "b-fed4bae0",
     "name": "健康経営支援サービス「＆well（アンドウェル）」",
     "company": "三井不動産株式会社（日本予防医学協会と共同）",
@@ -42725,10 +42679,41 @@
     "status": "提供中",
     "startedAt": "2021-04",
     "sources": [
-      "https://qolead.com/about/"
+      "https://qolead.com/about/",
+      "https://qolead.com/info/",
+      "https://www.techfirm.co.jp/news/20210416",
+      "https://prtimes.jp/main/html/rd/p/000000090.000027306.html",
+      "https://qolead.com/info/1294/",
+      "https://www.dai-ichi-life.co.jp/company/news/pdf/2024_028.pdf"
     ],
     "updatedAt": "2026-10",
-    "type": "insurer-employer-phr"
+    "type": "insurer-employer-phr",
+    "themes": [
+      "phr-employer"
+    ],
+    "milestones": [
+      {
+        "date": "2018-10",
+        "text": "QOLead設立。かんぽ生命への健康増進サービスの提供開始"
+      },
+      {
+        "date": "2021-04",
+        "text": "QOLismの提供開始"
+      },
+      {
+        "date": "2024-04",
+        "text": "メンタルヘルスの相談窓口などを加えた「QOLism メンタルケアプラン」を開始"
+      },
+      {
+        "date": "2024-07",
+        "text": "第一生命ホールディングスの株主優待としてQOLismの提供を開始"
+      },
+      {
+        "date": "2024-09",
+        "text": "第一生命が子会社化したベネフィット・ワンの「ベネフィット・ステーション」でQOLismの提供を開始"
+      }
+    ],
+    "endReasonNote": "提供中のため該当なし。"
   },
   {
     "id": "b-cd632ae0",
@@ -59206,8 +59191,8 @@
   {
     "id": "b-a850d831",
     "name": "ブレインパフォーマンスのセルフチェックツール「のうKNOW」",
-    "company": "エーザイ株式会社",
-    "companyId": "6010001000001",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
     "category": "diagnostic-support",
     "description": "記憶力や注意力などの脳の健康度を、トランプを使った約15分のテストで定期的にセルフチェックできるデジタルツール。企業の健康経営、美容室、薬局、人間ドックなどに展開している。",
     "hp": "https://www.eisai.co.jp/",
@@ -59215,11 +59200,20 @@
     "status": "提供中",
     "startedAt": "2020-03",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000007.000138825.html",
+      "https://theoriatec.com/business",
       "https://www.eisai.co.jp/news/2020/news202013.html",
       "https://www.eisai.co.jp/news/2020/news202026.html"
     ],
     "type": "cognitive-function-assessment",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2025-03-06",
+        "text": "エーザイ子会社テオリア・テクノロジーズが個人向けサービスを開始（今の提供元はテオリア）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000007.000138825.html"
+      }
+    ]
   },
   {
     "id": "b-efc9e77f",
@@ -66093,7 +66087,7 @@
   {
     "id": "b-02df580d",
     "name": "ウィズウェルネス",
-    "company": "H.U.ウェルネス株式会社",
+    "company": "株式会社医針盤",
     "category": "personal-health-record",
     "description": "健診結果・検査結果・服薬情報・バイタルデータを一元管理するPHRアプリ。「医’sアシスト」導入医療機関の結果を受け取れるほか、紙の結果の撮影取り込みやマイナポータル連携に対応。登録会員50万人超。",
     "hp": "https://www.withwellness.com/pr/",
@@ -66102,11 +66096,20 @@
     "startedAt": "2020-10-21",
     "startBasis": "App Store初回公開",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000115.000042705.html",
       "https://apps.apple.com/jp/app/%E3%82%A6%E3%82%A3%E3%82%BA%E3%82%A6%E3%82%A7%E3%83%AB%E3%83%8D%E3%82%B9/id1531230653",
       "https://www.withwellness.com/pr/"
     ],
     "type": "medical-record-phr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2025-09-04",
+        "text": "マイナポータル連携と「お薬の記録」機能を追加",
+        "source": "https://prtimes.jp/main/html/rd/p/000000115.000042705.html"
+      }
+    ],
+    "companyId": "6011101091509"
   },
   {
     "id": "b-a6f588a6",
@@ -74259,8 +74262,8 @@
       }
     ],
     "sources": [
-      "https://exawizards.com/archives/24821/",
-      "https://exawizards.com/archives/31478/"
+      "https://exawizards.com/archives/31478/",
+      "https://exawizards.com/archives/24821/"
     ],
     "type": "disease-specific-ai-samd",
     "updatedAt": "2026-10"
@@ -77034,6 +77037,11 @@
       {
         "date": "2026-06",
         "text": "学校検診向け「Senaka Scan」（医療機器クラスI）を販売開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000145649.html"
+      },
+      {
+        "date": "2026-06-26",
+        "text": "「Senaka Scan」は株式会社SMILE CURVE（法人番号8011401025387）が医療機器として製品化し販売開始、スペースビジョンは3D計測技術を提供、製造はテクノホライゾン",
         "source": "https://prtimes.jp/main/html/rd/p/000000003.000145649.html"
       }
     ],
@@ -80008,17 +80016,31 @@
     "category": "mental-health",
     "description": "家族を介護する人の気持ちに寄り添うAIパートナーアプリ。AIが話を受けとめ、他の介護者や専門家の知恵にも触れながら、日々の出来事や気持ちを整理して介護の負担を和らげる。",
     "hp": "",
-    "startedYear": 2026,
+    "startedYear": 2025,
     "status": "提供中",
-    "startedAt": "2026-03-09",
-    "startBasis": "App Store初回公開",
+    "startedAt": "2025-10-07",
+    "startBasis": "LINE版提供開始のプレスリリース（アプリ版は2026-03）",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000022.000138825.html",
+      "https://prtimes.jp/main/html/rd/p/000000032.000138825.html",
       "https://apps.apple.com/jp/app/%E3%83%A8%E3%83%AB%E3%83%8B%E3%83%A2-%E4%BB%8B%E8%AD%B7%E8%80%85%E3%82%92%E6%94%AF%E6%8F%B4%E3%81%99%E3%82%8Bai%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC-%E4%BB%8B%E8%AD%B7%E8%B2%A0%E8%8D%B7%E3%82%92%E4%B8%8B%E3%81%92%E3%82%8B/id6756067870",
       "https://www.yorunimo.theo-one.com/privacy-app",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001238282"
     ],
     "type": "mental-ai-selfcare-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2025-10-07",
+        "text": "介護者支援AI「ヨルニモ」LINE版を提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000022.000138825.html"
+      },
+      {
+        "date": "2026-03-12",
+        "text": "アプリ版を正式リリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000032.000138825.html"
+      }
+    ]
   },
   {
     "id": "b-1c2c4a7a",
@@ -81658,12 +81680,20 @@
     "startedAt": "2023-09-24",
     "startBasis": "App Store初回公開",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000154203.html",
       "https://apps.apple.com/jp/app/kowa%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%AF%E3%83%A9%E3%83%96-%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E3%81%A7%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E7%8D%B2%E5%BE%97/id6463200185",
       "https://kmc.kowa.co.jp/terms/privacy",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1180001035811"
     ],
     "type": "health-point-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2025-04-01",
+        "text": "会員数10万人を突破（企画・運営は興和グループのWellier株式会社）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000154203.html"
+      }
+    ]
   },
   {
     "id": "b-c4f69593",
@@ -111050,6 +111080,1096 @@
       "https://maonline.jp/articles/tsr0435-kisco"
     ],
     "type": "device-material-wholesale",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-176596c4",
+    "name": "認知症ポータルサイト「テヲトル」（旧 相談e-65.net）",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "marketing-support",
+    "description": "もの忘れ・MCI・認知症について、リスクと予防、種類と症状、診断・治療、介護・制度、体験談を載せる情報サイト。エーザイの認知症情報サイト「相談e-65.net」を2024年10月に全面リニューアルして改称した。",
+    "hp": "https://theotol.soudan-e65.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2015-01",
+    "milestones": [
+      {
+        "date": "2022-09",
+        "text": "エーザイが認知症情報サイト「相談e-65.net」で疾患啓発動画を公開",
+        "source": "https://www.eisai.co.jp/news/2022/news202268.html"
+      },
+      {
+        "date": "2024-10-01",
+        "text": "テオリアが「相談e-65」を全面リニューアルし「テヲトル」として公開",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000138825.html"
+      },
+      {
+        "date": "2024-11",
+        "text": "会員登録機能を追加",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000138825.html"
+      },
+      {
+        "date": "2026-09-01",
+        "text": "「脳の健康」「予防・生活習慣」領域を強化して再リニューアル",
+        "source": "https://prtimes.jp/main/html/rd/p/000000040.000138825.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000138825.html",
+      "https://www.eisai.co.jp/news/2022/news202268.html",
+      "https://theoriatec.com/business"
+    ],
+    "type": "medical-info-media",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4a0bd562",
+    "name": "心と体の習慣化アプリ「HugWay（はぐうぇい）」",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "mental-health",
+    "description": "AIとの日常会話を通じて脳の健康によい生活習慣を支えるスマホアプリ。活動の記録や脳トレーニングで、利用者が自分の健康リズムを見つけ前向きな習慣を続けられるようにする。",
+    "hp": "https://www.hugway.theo-one.com/",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-06-15",
+    "startBasis": "App Store初回公開（提供開始の発表は2025-06-16）",
+    "sources": [
+      "https://apps.apple.com/jp/app/id6745554585",
+      "https://prtimes.jp/main/html/rd/p/000000011.000138825.html",
+      "https://theoriatec.com/business"
+    ],
+    "type": "mental-ai-selfcare-app",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-132edba4",
+    "name": "企業・自治体向け脳の健康管理統合サービス「そなえるパッケージ」",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "health-corporate-management",
+    "description": "企業・自治体向けに、脳の健康の啓発コンテンツ、セルフチェック、リスクを下げる生活習慣支援、運用ダッシュボードを組み合わせて提供する脳の健康管理サービス。三谷産業との共創で開発した。",
+    "hp": "https://bizpackage.theo-one.com/",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-08-27",
+    "startBasis": "正式リリースのプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000020.000138825.html",
+      "https://theoriatec.com/business"
+    ],
+    "type": "corporate-wellness-program",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-93ee200e",
+    "name": "認知機能タイプチェック「認知症世界の歩き方 MNTI」",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "diagnostic-support",
+    "description": "自分の認知機能の得意・不得意のタイプをWeb上でチェックできるサービス。書籍『認知症世界の歩き方』のissue+designと協働で開発し、認知症を自分ごととして理解するきっかけにする。",
+    "hp": "",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-09-24",
+    "startBasis": "提供開始のプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000021.000138825.html"
+    ],
+    "type": "cognitive-function-assessment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-72803e8d",
+    "name": "認知症のオンライン相談室「そばに。」",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "health-consulting",
+    "description": "もの忘れから認知症まで、本人や家族の不安に、AIによる迅速な情報提供と専門家とのオンライン対話を組み合わせて応じる相談サービス。医療機関ナビ「ミツカル」と連携し受診につなげる。",
+    "hp": "https://sobani.theotol.soudan-e65.com/",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-11-26",
+    "startBasis": "リリースのプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000025.000138825.html",
+      "https://theoriatec.com/business"
+    ],
+    "type": "doctor-chat-consultation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4fa561d1",
+    "name": "MCI・認知症医療機関ナビ「ミツカル」",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "marketing-support",
+    "description": "MCI・認知症を診る医療機関を地図で探して比べられる検索サービス。対応できる認知症関連の検査や専門資格の情報を載せ、受診前に役立つ情報も発信する。",
+    "hp": "https://mitsukaru.theotol.soudan-e65.com/",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-11-26",
+    "startBasis": "リリースのプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000025.000138825.html",
+      "https://theoriatec.com/business"
+    ],
+    "type": "hospital-search-portal",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-3b39bcbb",
+    "name": "認知症の手続きワンストップ案内「診断後ナビ」",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "pharma-marketing-support",
+    "description": "認知症と診断された直後の本人・家族が簡単な質問に答えると、住む地域の制度・窓口・手続きと経験者の知恵をまとめたアクションシートを自動で作るWebサービス。",
+    "hp": "https://shindango-navi.theo-one.com/",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-02-02",
+    "startBasis": "リリースのプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000031.000138825.html",
+      "https://theoriatec.com/business"
+    ],
+    "type": "patient-support-awareness",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a471592b",
+    "name": "デジタル認知機能チェックツール「エクスプレッソ（XpressO）」日本語版",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "diagnostic-support",
+    "description": "世界100カ国以上で使われる認知機能検査「MoCA」の理論に基づく一般向けのデジタル認知機能チェック。約5分で認知機能低下のリスクを確かめ、早期発見・早期ケアにつなげる。",
+    "hp": "https://www.moca-xpresso.theo-one.com/",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-03-24",
+    "startBasis": "日本語版提供開始のプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000034.000138825.html",
+      "https://theoriatec.com/business"
+    ],
+    "type": "cognitive-function-assessment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-6c70b596",
+    "name": "高齢者の見守りプラットフォーム「わたしのラジオ」",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "nursing",
+    "description": "利用者の趣味や日々の出来事に合わせてAIパーソナリティが名前を呼んで話すラジオ番組を毎朝LINEで届け、孤立を防ぐサービス。アプリ版では反応から対応の緊急度を3色で判定するAIトリアージで見守る。",
+    "hp": "https://www.my-radio-app.com/biz/",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-03-25",
+    "startBasis": "LINE版リリースのプレスリリース",
+    "milestones": [
+      {
+        "date": "2026-03-25",
+        "text": "LINE版をリリース（AIパーソナライズ技術で特許取得）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000033.000138825.html"
+      },
+      {
+        "date": "2026-06-03",
+        "text": "AIトリアージで見守るアプリ版をリリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000035.000138825.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000033.000138825.html",
+      "https://prtimes.jp/main/html/rd/p/000000035.000138825.html"
+    ],
+    "type": "elderly-home-monitoring",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-fdb56a5e",
+    "name": "脳の健康ポータルサイト「テオワン」",
+    "company": "テオリア・テクノロジーズ株式会社",
+    "companyId": "9010001238282",
+    "category": "diagnostic-support",
+    "description": "個人の脳のコンディションをデータ連携で見える化し、「生きがい」に結びつけた生活習慣を個別に提案して、認知機能の維持・リスク低減を支える個人向けポータル。のうKNOWや脳トレなどの入り口にもなる。",
+    "hp": "https://theo-one.com/",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-06-17",
+    "startBasis": "リリースのプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000036.000138825.html",
+      "https://theoriatec.com/business"
+    ],
+    "type": "cognitive-function-assessment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-32fdb533",
+    "name": "発達が気になる子の子育て体験談コミュニティ「Cotomony（コトモニー）」",
+    "company": "株式会社Peds3",
+    "companyId": "2010401173078",
+    "category": "personal-health-record",
+    "description": "発達障害やグレーゾーンの子を育てる保護者が、匿名の体験談を読み合い、AIの問いかけに答えて自分の経験を投稿できるコミュニティ。約60家庭への取材から120本以上の体験談でスタートし、小児科専門医へのLINE相談も加えた。",
+    "hp": "https://cotomony.com/",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-07-31",
+    "startBasis": "ベータ版公開のプレスリリース",
+    "milestones": [
+      {
+        "date": "2026-07-31",
+        "text": "ベータ版を無料で公開（正式版は2026年秋予定）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000013.000148797.html"
+      },
+      {
+        "date": "2026-10-05",
+        "text": "小児科専門医にLINEで相談できる「Cotomonyオンライン相談」を追加",
+        "source": "https://www.peds3.com/information/"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000013.000148797.html",
+      "https://www.peds3.com/information/"
+    ],
+    "type": "patient-community-app",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7df048b1",
+    "name": "睡眠・生活リズム可視化アプリ「心想計（しんそうけい）」",
+    "company": "株式会社ツリーベル",
+    "companyId": "6011101025078",
+    "category": "sleep",
+    "description": "スマホを持ち歩くだけで就寝・起床・外出を自動で推定し、医療現場で使う生活リズム表の形で見せるアプリ。睡眠専門医と共同開発し、睡眠日誌の代わりに使える。基本無料、有料版は月額500円。",
+    "hp": "https://www.treebell.co.jp/",
+    "startedYear": 2024,
+    "status": "提供中",
+    "startedAt": "2024-01-14",
+    "startBasis": "App Store初回公開（無償版）",
+    "milestones": [
+      {
+        "date": "2025-10-10",
+        "text": "睡眠外来での実証を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000027.000130995.html"
+      },
+      {
+        "date": "2026-08-17",
+        "text": "有料機能つきの正式サービスを開始（フリーミアム）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000036.000130995.html"
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/jp/app/id6468419918",
+      "https://prtimes.jp/main/html/rd/p/000000027.000130995.html",
+      "https://prtimes.jp/main/html/rd/p/000000036.000130995.html"
+    ],
+    "type": "sleep-measurement-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-afc64d2d",
+    "name": "企業向け体力チェック「ALPHA for Biz」",
+    "company": "Pestalozzi Technology株式会社",
+    "companyId": "4011001128890",
+    "category": "health-corporate-management",
+    "description": "企業の従業員に握力・立ち幅跳びなどの体力チェックを行い、結果をWebアプリで即時に返して見える化するサービス。労働災害の防止と運動習慣づくりにつなげる。学校向け体力テスト集計システム「ALPHA」の企業版。",
+    "hp": "https://pestalozzi-tech.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2026-02",
+    "milestones": [
+      {
+        "date": "2026-05",
+        "text": "三菱UFJ銀行神楽坂支店に導入",
+        "source": "https://prtimes.jp/main/html/rd/p/000000164.000061008.html"
+      },
+      {
+        "date": "2026-08",
+        "text": "ALIGNE社と提携し体力チェック後の改善施策を強化",
+        "source": "https://prtimes.jp/main/html/rd/p/000000185.000061008.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000154.000061008.html",
+      "https://prtimes.jp/main/html/rd/p/000000162.000061008.html"
+    ],
+    "type": "corporate-wellness-program",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-49508c32",
+    "name": "クリニック向け診療業務支援システム「医'sアシスト」",
+    "company": "株式会社医針盤",
+    "companyId": "6011101091509",
+    "category": "medical-dx",
+    "description": "クリニックの予約・受付管理、オンライン問診票、診察支援、検査データの一元管理を、電子カルテなど既存システムはそのままに提供する業務支援システム。オプションでレセプト点検・請求漏れチェックの「医'sレセ点検」も持つ。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2021-04",
+    "milestones": [
+      {
+        "date": "2021-04-14",
+        "text": "レセプト点検・請求漏れチェックのオプション「医'sレセ点検」を実装",
+        "source": "https://digitalpr.jp/r/46804"
+      }
+    ],
+    "sources": [
+      "https://digitalpr.jp/r/46804",
+      "https://prtimes.jp/main/html/rd/p/000000005.000084072.html"
+    ],
+    "type": "web-ai-monshin",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-573e2867",
+    "name": "企業向け健康管理システム「Be Health（ビーヘルス）」",
+    "company": "株式会社エヌ・エイ・シー・ケア",
+    "companyId": "2010401180784",
+    "category": "health-corporate-management",
+    "description": "複数の健診機関から届く形式の違う健診結果を統一して取り込み、面談記録、産業医の就業判定、二次検査の受診勧奨、労基署報告の集計までを一元管理する産業保健向けクラウド。利用企業は450社超。",
+    "hp": "https://www.nac-care.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2023-06",
+    "milestones": [
+      {
+        "date": "2024-03",
+        "text": "株式会社エヌ・エイ・シーから新設分割でエヌ・エイ・シー・ケアを設立し事業を承継",
+        "source": "https://www.nac-care.co.jp/about-us/"
+      },
+      {
+        "date": "2026-02",
+        "text": "利用企業数450社を突破",
+        "source": "https://www.nac-care.co.jp/about-us/"
+      },
+      {
+        "date": "2026-10-09",
+        "text": "SmartHRとの自動連携機能を提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000017.000159547.html"
+      }
+    ],
+    "sources": [
+      "https://www.nac-care.co.jp/about-us/",
+      "https://prtimes.jp/main/html/rd/p/000000004.000159547.html"
+    ],
+    "type": "employee-health-cloud",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5aca3efc",
+    "name": "保険者向け 健診・レセプトデータ活用の受診勧奨・通知サービス",
+    "company": "株式会社エヌ・エイ・シー・ケア",
+    "companyId": "2010401180784",
+    "category": "health-insuarance-market",
+    "description": "自治体・健保向けに、健診データやレセプトデータを分析し、特定健診の未受診者対策、重複多剤服薬者対策、特定保健指導の利用勧奨、医療費適正化の通知を作って送る保健事業の受託サービス。受託実績は全国130団体超。",
+    "hp": "https://www.nac-care.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2024-07",
+    "sources": [
+      "https://www.dreamnews.jp/press/0000300699",
+      "https://www.nac-care.co.jp/about-us/"
+    ],
+    "type": "insurer-data-health-support",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-480591e0",
+    "name": "健診結果データ化サービス「健診LinK」",
+    "company": "株式会社エヌ・エイ・シー・ケア",
+    "companyId": "2010401180784",
+    "category": "health-corporate-management",
+    "description": "企業や健保が紙・PDFで受け取る健康診断結果を、AIの読み取りと専門スタッフの確認を組み合わせてデータ化する代行サービス。医療機関ごとの表記ゆれもそろえ、手入力をなくす。",
+    "hp": "https://www.nac-care.co.jp/",
+    "startedYear": 2026,
+    "status": "提供中",
+    "startedAt": "2026-07-07",
+    "startBasis": "提供開始のプレスリリース",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000016.000159547.html"
+    ],
+    "type": "employee-health-cloud",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-cb88541e",
+    "name": "電子聴診器「JPES-01」「JPES-02」",
+    "company": "株式会社JPステート",
+    "companyId": "1370001049362",
+    "category": "diagnostic-support",
+    "description": "圧電フィルムの独自振動センサで、騒音下や服の上からでも体の音を拾える電子聴診器（管理医療機器認証取得）。無線でスマホ・PCにつなぎ、オンライン診療の遠隔聴診や透析シャント音のAI解析に使う。",
+    "hp": "",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2026-06",
+    "sources": [
+      "https://fundinno.com/projects/761"
+    ],
+    "type": "ecg-heart-sound-ai",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-b8a8597a",
+    "name": "双子・三つ子の妊娠育児アプリ「moms（マムズ）」",
+    "company": "株式会社pono",
+    "companyId": "3290001108926",
+    "category": "health-consulting",
+    "description": "多胎育児の当事者が開発した双子・三つ子家庭向けアプリ。多胎児用の育児記録、当事者同士のSNSコミュニティ、住む自治体の相談窓口にワンタップで電話できる「多胎SOS」などをまとめる。連携自治体は309。",
+    "hp": "https://moms-app.com/",
+    "startedYear": 2025,
+    "status": "提供中",
+    "startedAt": "2025-03-03",
+    "startBasis": "App Store初回公開（プレリリースの発表は2025-03-05）",
+    "milestones": [
+      {
+        "date": "2025-03-05",
+        "text": "プレリリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000156534.html"
+      },
+      {
+        "date": "2025-12-24",
+        "text": "「多胎SOS」の連携自治体が309に",
+        "source": "https://prtimes.jp/main/html/rd/p/000000010.000156534.html"
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/jp/app/id6741564821",
+      "https://prtimes.jp/main/html/rd/p/000000002.000156534.html"
+    ],
+    "type": "pediatric-perinatal-support",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-e51e4ae2",
+    "name": "医療介護情報連携プラットフォーム「Pubcare（パブケア）」",
+    "company": "株式会社United Vision & Company",
+    "companyId": "2290001094936",
+    "category": "medical-saas",
+    "description": "患者が持つPHRアプリを起点に、本人が許可した医療・介護職が専用システム「Pubcare pro」で情報を閲覧・共同編集できる連携基盤。施設をまたいで同じ患者情報を共有でき、電子カルテの患者番号との紐づけ機能も持つ。",
+    "hp": "https://uvc.inc/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2024-02",
+    "milestones": [
+      {
+        "date": "2024-02-22",
+        "text": "医療従事者の本人確認を強化したManagement環境をリリース（アプリ登録者約1,000名）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000115560.html"
+      },
+      {
+        "date": "2024-09-04",
+        "text": "自院ID機能を強化",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000115560.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000115560.html",
+      "https://uvc.inc/"
+    ],
+    "type": "regional-referral-discharge",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-a9b196b8",
+    "name": "訪問診療・訪問歯科の集金アシスタント「Clinic Payment」",
+    "company": "Clinic Payment株式会社",
+    "companyId": "8010101015194",
+    "category": "medical-dx",
+    "description": "訪問診療・訪問歯科・介護の患者ごとの請求書・領収書の作成、郵送、口座振替、入金確認をまとめて代行し、いつものレセプト業務がそのまま集金業務になるサービス。全レセコンに対応し、集金作業を約9割減らすとうたう。",
+    "hp": "https://www.clinic-payment.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2024-03",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000135050.html",
+      "https://www.clinic-payment.com/"
+    ],
+    "type": "clinic-self-checkout",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0b50291a",
+    "name": "産後女性のオンラインリカバリー・ボディメイク「SOCO（ソコ）」",
+    "company": "株式会社CoNCa",
+    "companyId": "4010001245944",
+    "category": "femtech",
+    "description": "出産後の腰痛・尿漏れ・体力低下などのダメージを、オンラインの個別サポートで回復からボディメイクまで支える産後女性向けサービス。NTTデータと産後の身体回復支援へのAI活用も実証している。",
+    "hp": "https://soco-official.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2024-06",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000142701.html",
+      "https://prtimes.jp/main/html/rd/p/000000119.000015176.html",
+      "https://prtimes.jp/main/html/rd/p/000000004.000142701.html"
+    ],
+    "type": "femtech-postpartum-childcare",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-2b5f712d",
+    "name": "健康経営支援サービス「Health Manager」",
+    "company": "MIRAERA株式会社",
+    "companyId": "1011001157595",
+    "category": "health-corporate-management",
+    "description": "医師免許を持つ起業家が率いる企業向け健康経営支援サービス。メンタルヘルスに強いオンライン産業医、健康経営優良法人の認定取得支援、従業員向けの睡眠改善プログラムなどを低価格で提供する。",
+    "hp": "https://miraera.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2024-03",
+    "milestones": [
+      {
+        "date": "2025-12",
+        "text": "愛知県刈谷市と従業員向け睡眠改善プログラムの有効性検証で連携",
+        "source": "https://prtimes.jp/main/html/rd/p/000000011.000132575.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000132575.html",
+      "https://prtimes.jp/main/html/rd/p/000000003.000132575.html"
+    ],
+    "type": "occupational-health-service",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-1e872a95",
+    "name": "音声でストレスを可視化する「Care Cube（ケアキューブ）」",
+    "company": "株式会社サウンド＆ヴィジョンテクノロジーズ",
+    "companyId": "1010401185009",
+    "category": "health-corporate-management",
+    "description": "数秒の音声からストレス状態や感情の変化をAIで解析し、顔認証の勤怠管理もできる職場向けロボット・サービス。30社以上で運用。生成AIの個別レポート・組織分析・法定ストレスチェックを加えた「Care Cubeインサイト」もある。",
+    "hp": "https://sandvtechnologies.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2023-09",
+    "milestones": [
+      {
+        "date": "2023-09",
+        "text": "PLEN Robotics と日本海ラボが富山県舟橋村の役場・小学校に設置して実証",
+        "source": "https://prtimes.jp/main/html/rd/p/000000011.000074844.html"
+      },
+      {
+        "date": "2026-07-07",
+        "text": "生成AIレポートと法定ストレスチェックを載せた「Care Cubeインサイト」を提供開始（SHIN4NYと）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000014.000122675.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000014.000122675.html",
+      "https://prtimes.jp/main/html/rd/p/000000011.000074844.html",
+      "https://sandvtechnologies.com/"
+    ],
+    "type": "stress-check-survey",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9cb83140",
+    "name": "失語症リハビリAIアプリ「スピーチリンク（Speech Link）」",
+    "company": "スピーチリンク株式会社",
+    "companyId": "2011101114520",
+    "category": "nursing",
+    "description": "脳出血で失語症になった当事者が開発した、在宅で使える失語症リハビリアプリ。AIとの会話で量をこなし、言語聴覚士のオンラインセッションで質を補う。14日間無料、月額制。",
+    "hp": "https://speechlink.ai/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2026-04",
+    "milestones": [
+      {
+        "date": "2025-04",
+        "text": "開発資金のクラウドファンディングで第1目標を達成",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000125766.html"
+      },
+      {
+        "date": "2026-03",
+        "text": "しのはら財団「ケアテック・イノベーション・コンテスト2025」で2,000万円の助成",
+        "source": "https://speechlink.ai/"
+      }
+    ],
+    "sources": [
+      "https://speechlink.ai/",
+      "https://www.tokyo-np.co.jp/article/416208"
+    ],
+    "type": "care-activity-dementia-program",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ed25cc18",
+    "name": "歩行解析計「iMU One」",
+    "company": "iMU株式会社",
+    "companyId": "4010001207936",
+    "category": "medical-device",
+    "description": "膝に慣性センサーを着けて数メートル歩くだけで、変形性膝関節症の予後に関わる膝内反モーメント（KAM）を推定し、膝への負担を見える化する医療機器。慶應義塾大学医学部整形外科の研究から生まれた。",
+    "hp": "https://www.imujapan.com/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-12-08",
+    "startBasis": "PMDAへの医療機器製造販売届出の完了日（販売開始日ではない）",
+    "milestones": [
+      {
+        "date": "2023-05",
+        "text": "京セラと歩行分析計の販売基本契約を締結",
+        "source": "https://prtimes.jp/main/html/rd/p/000000007.000067393.html"
+      },
+      {
+        "date": "2025-03",
+        "text": "神奈川県「ME-BYO BRAND」に認定",
+        "source": "https://prtimes.jp/main/html/rd/p/000000010.000067393.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000067393.html",
+      "https://prtimes.jp/main/html/rd/p/000000007.000067393.html"
+    ],
+    "type": "home-wearable-medical-device",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-f0ca3954",
+    "name": "介護・訪問看護記録システム「NASRECO（ナスレコ）」×スマートAIグラス「NASGlass」",
+    "company": "BS Code株式会社",
+    "companyId": "8010401185506",
+    "category": "nursing",
+    "description": "介護・訪問看護の記録請求システムに、RokidのスマートAIグラスを組み合わせ、両手がふさがったまま声で記録したり、外国人スタッフの母国語を日本語に変換して記録したりできるようにする。",
+    "hp": "https://bscode.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2026-02",
+    "milestones": [
+      {
+        "date": "2026-03-02",
+        "text": "厚労省「第1回CARISO Caretech Startup Awards」審査員特別賞",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000172335.html"
+      },
+      {
+        "date": "2026-09",
+        "text": "介護ソフト「ほのぼの」のエヌ・デーソフトウェアと連携",
+        "source": "https://prtimes.jp/main/html/rd/p/000000010.000172335.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000004.000172335.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000172335.html"
+    ],
+    "type": "care-record-careplan-software",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-241d003e",
+    "name": "カルテ構造化APIサービス（医療言語処理「SATOMI」）",
+    "company": "エニシア株式会社",
+    "companyId": "5130001060240",
+    "category": "real-world-data",
+    "description": "電子カルテなどの医療テキストを、独自の医療言語処理技術「SATOMI」で目的に応じて整理・構造化するAPI。島津製作所の感染症マネジメント支援システムに特注版が採用された。京都大学発。",
+    "hp": "https://enishia-inc.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2023-12",
+    "milestones": [
+      {
+        "date": "2023-12-11",
+        "text": "島津製作所の感染症マネジメント支援システムに採用",
+        "source": "https://prtimes.jp/main/html/rd/p/000000003.000081736.html"
+      },
+      {
+        "date": "2025-11",
+        "text": "薬剤投与履歴の視覚化システム、地域医療連携のカルテ読解技術で特許取得",
+        "source": "https://prtimes.jp/main/html/rd/p/000000010.000081736.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000081736.html",
+      "https://enishia-inc.co.jp/"
+    ],
+    "type": "health-data-standardization",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-57d6a580",
+    "name": "家電の電力データによる健康見守りサービス",
+    "company": "MBTリンク株式会社",
+    "companyId": "4150001022561",
+    "category": "nursing",
+    "description": "家庭の家電の電力使用データやバイタルデータから高齢者の生活パターンをAIで解析し、体調の変化や異変の予兆を早く見つけて見守る自治体・企業向けサービス。奈良県立医科大学発。",
+    "hp": "https://www.mbtlink.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2020-08",
+    "milestones": [
+      {
+        "date": "2023-05",
+        "text": "北海道沼田町の実証で電力データが健康見守り・行動変容に有効との結果（エナジーゲートウェイと）",
+        "source": "https://www.atpress.ne.jp/news/355489"
+      },
+      {
+        "date": "2026-08",
+        "text": "京都府綾部市が奈良県立医大と健康見守り事業で連携",
+        "source": "https://www.mbtlink.com/"
+      }
+    ],
+    "sources": [
+      "https://www.mbtlink.com/",
+      "https://www.atpress.ne.jp/news/355489",
+      "https://www.town.numata.hokkaido.jp/section/sangyou/kikakuseisaku/h0opp2000000c673.html"
+    ],
+    "type": "elderly-home-monitoring",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-9bd78bba",
+    "name": "薬局チェーン向け調剤報酬の加算判定AI「SAKITERA」",
+    "company": "株式会社ampfy",
+    "companyId": "8010501048942",
+    "category": "medical-management-support",
+    "description": "10〜200店舗の調剤薬局チェーン向けに、厚労省の告示・通知を構造化した判定エンジンで加算の取り逃しを店舗ごとに毎月判定し、足りない要件・増収額・達成までの実行計画まで示すSaaS。",
+    "hp": "https://ampfy.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://ampfy.co.jp/"
+    ],
+    "type": "hospital-management-bi",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-7171a711",
+    "name": "脳波遠隔診断プラットフォーム「NeuroCloud」",
+    "company": "株式会社Sigron",
+    "companyId": "5010001229384",
+    "category": "telemedicine",
+    "description": "医療機関が測った脳波データをクラウドで受け取り、脳波判読の専門医が判読レポートを返す遠隔診断サービス。集めた判読データで脳波判読支援AIの開発も進める。順天堂大学脳神経外科の医師らが創業。",
+    "hp": "https://www.sigron.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.sigron.co.jp/"
+    ],
+    "type": "teleradiology",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-5dc625ab",
+    "name": "高齢者施設向け 夜間オンコール代行・精神科療養指導・オンライン診療体制支援",
+    "company": "株式会社Anchor",
+    "category": "telemedicine",
+    "description": "特養・グループホーム・訪問看護などに、夜勤者の判断を支える24時間の夜間オンコール対応、精神科の療養指導、オンライン診療の体制づくりを提供する。代表は現役の医師。",
+    "hp": "https://anchor-japan.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://anchor-japan.co.jp/"
+    ],
+    "type": "facility-remote-consultation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-17d26784",
+    "name": "健康モニタリングサービス「ウェルテクト」",
+    "company": "株式会社ウェルフォート",
+    "companyId": "3010401170017",
+    "category": "simple-inspection",
+    "description": "自宅で完結するがんリスク検査などの結果をもとに、AIが5年後の生活習慣病・がんリスクを予測した報告書を返す個人・法人向けの健康モニタリング。利用額と同じポイントを会員モールで使える。",
+    "hp": "https://www.wellfort.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2025-03",
+    "sources": [
+      "https://www.wellfort.co.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000155831.html"
+    ],
+    "type": "home-self-monitoring-test",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ac84e7b6",
+    "name": "こころの状態を可視化する非接触AI「Atmos Checker」",
+    "company": "Dreamers株式会社",
+    "companyId": "6010001252550",
+    "category": "health-corporate-management",
+    "description": "45秒の動画から無意識下の精神状態をAIで解析し数値で見える化する非接触のサービス。企業・教育・スポーツ・医療の現場でウェルビーイングの把握に使う。",
+    "hp": "http://dreamers-inc.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "http://dreamers-inc.jp/"
+    ],
+    "type": "stress-check-survey",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4aaff9a5",
+    "name": "AIによる認知症将来リスク予測プログラム「SupportBrain」",
+    "company": "株式会社ERISA",
+    "companyId": "4280001007459",
+    "category": "medical-image",
+    "description": "脳ドックなどで撮ったMRI脳画像から、脳全体の萎縮パターンをAIで解析し、アルツハイマー型認知症を発症する将来のリスクを予測する検査サービス。島根大学・滋賀医科大学と共同開発。国内20以上の医療機関に導入。",
+    "hp": "https://www.erisa.co.jp/",
+    "startedYear": 2021,
+    "status": "提供中",
+    "startedAt": "2021-11",
+    "startBasis": "会社リリースの「2021年11月の発売以来」の記載",
+    "milestones": [
+      {
+        "date": "2023-09-08",
+        "text": "画像診断グループの首都圏40クリニックでネット申込を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000128514.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000128514.html",
+      "https://www.erisa.co.jp/"
+    ],
+    "type": "imaging-brain-body-check",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-4519e926",
+    "name": "認知機能チェックアプリ「CADi2（キャディーツー）」",
+    "company": "株式会社ERISA",
+    "companyId": "4280001007459",
+    "category": "diagnostic-support",
+    "description": "スマホ・タブレット・PCで、音声の質問を聞きながら10個の検査項目に答え、数分で認知機能をチェックできるアプリ。",
+    "hp": "https://www.erisa.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.erisa.co.jp/"
+    ],
+    "type": "cognitive-function-assessment",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-45d7aac8",
+    "name": "MRI脳年齢検査（ERISA）",
+    "company": "株式会社ERISA",
+    "companyId": "4280001007459",
+    "category": "medical-image",
+    "description": "MRIで撮った脳画像から、加齢による脳の体積変化をもとに脳の年齢をAIが算定する検査。希望者は専門医の助言を無料で受けられ、メディカルスキャニングの首都圏40施設で申し込める。",
+    "hp": "https://www.erisa.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.erisa.co.jp/"
+    ],
+    "type": "imaging-brain-body-check",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-ac2a0463",
+    "name": "企業向け眠気評価・睡眠改善サービス「Nemielu（ネミエル）」",
+    "company": "株式会社ネミエル",
+    "companyId": "8011101101364",
+    "category": "sleep",
+    "description": "睡眠を測るのではなく、日中の覚醒度（眠気）を測って睡眠習慣を推定・評価し、AIの助言で改善まで支える企業向けWebサービス。新入社員研修や整骨院でも使われる。",
+    "hp": "https://hp.nemielu.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2023-02",
+    "milestones": [
+      {
+        "date": "2024-02",
+        "text": "整骨院に導入",
+        "source": "https://prtimes.jp/main/html/rd/p/000000010.000080927.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000080927.html",
+      "https://prtimes.jp/main/html/rd/p/000000009.000080927.html"
+    ],
+    "type": "sleep-corporate-program",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0f0bf774",
+    "name": "電子証明書対応SDカードによる健康情報管理「miParu（ミパル）」",
+    "company": "株式会社ミルウス",
+    "companyId": "9430001072656",
+    "category": "personal-health-record",
+    "description": "医療・健康のIoTデータを電子証明書つきSDメモリカードで本人主導で安全に記録・管理・配布する仕組み。北海道東神楽町の健康づくり事業などで使い、睡眠時無呼吸の可視化などセンサーデータ事業にも広げる。北大発。",
+    "hp": "https://www.miruws.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2018-02",
+    "milestones": [
+      {
+        "date": "2018-06-14",
+        "text": "東神楽町と miParu を使った町民の健康増進で連携協定",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000028850.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000005.000028850.html",
+      "https://www.miruws.com/"
+    ],
+    "type": "phr-data-platform",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-23c967f7",
+    "name": "介護事業者の連携マッチング＆SNS「CARELAY（ケアレイ）」",
+    "company": "合同会社WaJu",
+    "companyId": "8140003019041",
+    "category": "medical-saas",
+    "description": "介護事業者同士が地域・サービス内容・規模で連携先を探し、チャットやコミュニティで情報交換できるオンラインのマッチング・SNS。電話・FAX・訪問営業の手間を減らす。月額のみで成約手数料なし。",
+    "hp": "https://carelay.net/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2024-09",
+    "milestones": [
+      {
+        "date": "2026-04-01",
+        "text": "介護・医療・福祉のオンライン常設展示会「CARELAYカタログ」を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000150277.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000150277.html",
+      "https://carelay.net/"
+    ],
+    "type": "regional-referral-discharge",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-0cd05833",
+    "name": "写さない見守りカメラ「きづなろ」（ぴんぴんセンサー）",
+    "company": "株式会社きづなろ",
+    "companyId": "1010701044211",
+    "category": "nursing",
+    "description": "壁に貼るだけで映像ではなく骨格データだけを取り出すセンサーで、高齢者の日常生活動作をデータ化し、転倒予防・介護予防と見守りに使う。プライバシーに配慮した「写さない」見守り。",
+    "hp": "https://qiznalo.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2025-03",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000152733.html",
+      "https://qiznalo.com/"
+    ],
+    "type": "elderly-home-monitoring",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-33351527",
+    "name": "オンラインストレスケア「MindScale（マインドスケール）」",
+    "company": "株式会社Yume Cloud Japan",
+    "companyId": "1390001015593",
+    "category": "health-corporate-management",
+    "description": "自律神経の乱れ・脳の疲労度・自覚症状の3つのデータから総合メンタル値を測り、ストレス状態を見える化するサービス。法定ストレスチェックとの組み合わせや、測りながら学ぶ3週間のセルフコンディショニング講座もある。",
+    "hp": "https://www.yume-cloud.co.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2024-04",
+    "milestones": [
+      {
+        "date": "2024-12",
+        "text": "ストレス測定と法定ストレスチェックを組み合わせたサービスを開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000015.000024394.html"
+      },
+      {
+        "date": "2025-08",
+        "text": "東京都「UPGRADE with TOKYO」審査員特別賞",
+        "source": "https://prtimes.jp/main/html/rd/p/000000021.000024394.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000012.000024394.html",
+      "https://www.yume-cloud.co.jp/"
+    ],
+    "type": "stress-check-survey",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-eb6fb969",
+    "name": "卵子数検査キット「EggU（エッグ）」",
+    "company": "株式会社BeLiebe",
+    "companyId": "9140001121649",
+    "category": "femtech",
+    "description": "働く女性が卵子の数の目安を知るための検査キット。企業の福利厚生や大阪市の事業として導入され、キャリアと妊娠・出産の両立に向けた人生設計を考えるきっかけにする。2022年にクラウドファンディングで販売を始めた。",
+    "hp": "https://beliebe.co.jp/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-05-24",
+    "startBasis": "クラウドファンディング（READYFOR）での販売開始",
+    "milestones": [
+      {
+        "date": "2023-10",
+        "text": "大広・毎日放送などが福利厚生で導入、大阪市の事業に採用",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000104780.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000104780.html",
+      "https://prtimes.jp/main/html/rd/p/000000004.000104780.html"
+    ],
+    "type": "femtech-fertility-test-preservation",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-76812ac8",
+    "name": "赤ちゃんの泣き声理解アプリ「あわベビ」",
+    "company": "株式会社クロスメディスン",
+    "companyId": "3480001011862",
+    "category": "health-consulting",
+    "description": "赤ちゃんの泣き声をAIで分析して感情を推定し、その場でできる対処法を示す育児アプリ。徳島の会社が開発し、保護者モニターの声で改善を重ねている。",
+    "hp": "https://awababy.tech/",
+    "startedYear": 2022,
+    "status": "提供中",
+    "startedAt": "2022-08-26",
+    "startBasis": "App Store初回公開（テスト版）",
+    "sources": [
+      "https://apps.apple.com/jp/app/id1631767999",
+      "https://prtimes.jp/main/html/rd/p/000000001.000138960.html"
+    ],
+    "type": "pediatric-perinatal-support",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-c650602d",
+    "name": "看護師の入院業務支援サービス「scree（スクリー）」",
+    "company": "メディカルギーク株式会社",
+    "companyId": "6011001134268",
+    "category": "medical-saas",
+    "description": "入院時の情報収集・アナムネから記録までをタブレットで一括して行い、アセスメントシートなどを自動で出力する病院向けサービス。電子カルテと連携でき、入院業務の作業時間を最大50%減らすとうたう。",
+    "hp": "https://medicalgeek.jp/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://medicalgeek.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000084390.html"
+    ],
+    "type": "nursing-ward-safety",
+    "updatedAt": "2026-10"
+  },
+  {
+    "id": "b-46b52f0e",
+    "name": "海外赴任者向け 郵送検査・健康支援「SaveExpatsヘルスケア」",
+    "company": "株式会社SaveExpats",
+    "companyId": "3010001226086",
+    "category": "health-corporate-management",
+    "description": "海外に暮らす日本人・駐在員が指先2滴の自己採血で検体を日本のラボに送り、結果をWebアプリで受け取って日本人医師とオンラインで面談できるサービス。企業の海外赴任者の健康管理と海外人事の負担軽減にも使われ、対応は26カ国。",
+    "hp": "https://saveexpats.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "knownSince": "2023-03",
+    "milestones": [
+      {
+        "date": "2024-04-15",
+        "text": "個人向け「SaveExpatsヘルスケア」を開始（世界26カ国で日本基準の検査）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000013.000115181.html"
+      },
+      {
+        "date": "2024-12",
+        "text": "企業の海外赴任者向けに導入が広がる",
+        "source": "https://prtimes.jp/main/html/rd/p/000000014.000115181.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000006.000115181.html",
+      "https://prtimes.jp/main/html/rd/p/000000013.000115181.html"
+    ],
+    "type": "occupational-health-service",
     "updatedAt": "2026-10"
   }
 ]
