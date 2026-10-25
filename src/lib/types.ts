@@ -98,7 +98,9 @@ export type Service = {
   hp: string;
   startedYear: number | null;
   /** 提供中・終了・譲渡（他社へ）・統合（合併先で継続）・休止・不明 */
-  status: '提供中' | '終了' | '譲渡' | '統合' | '休止' | '不明';
+  status: '提供中' | '準備中' | '終了' | '譲渡' | '統合' | '休止' | '不明';
+  /** 準備中のときの段階（研究開発中・治験中・承認申請中・承認取得（発売前）・発売予定 など） */
+  stage?: string;
   tags?: string[];
   startedAt?: string;
   endedAt?: string;

@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
 import { END_REASONS, categoryName, getBizType, getCompany, getService, getServices, servicesIn } from '@/lib/data';
 import { ym } from '@/lib/ym';
+import { StageBadge } from '@/components/StageBadge';
 
 export function generateStaticParams() {
   return getServices().map((s) => ({ id: s.id }));
@@ -30,12 +31,13 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
       <div className="page-head">
         <div className="kicker">Business</div>
         <h1>{s.name}</h1>
-        <div className="chips" style={{ marginTop: 10 }}><span className={`badge st-${s.status}`}>{s.status}</span><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
+        <p className="svc-provider">{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : s.company}の事業</p>
+        <div className="chips" style={{ marginTop: 10 }}><span className={`badge st-${s.status}`}>{s.status}</span>{s.status === '準備中' && <StageBadge stage={s.stage} />}<Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
         <p className="lead">{s.description}</p>
       </div>
       <div className="two-col">
         <div style={{ display: 'grid', gap: 20 }}>
-          {s.status !== '提供中' && s.status !== '不明' && (
+          {!['提供中', '準備中', '不明'].includes(s.status) && (
             <section className="panel stop-panel">
               <h3>止まった理由</h3>
               <div className="chips">{(s.endReasons?.length ? s.endReasons : ['unknown']).map((r) => <Link key={r} href={`/services/stopped/#${r}`} className="chip">{END_REASONS[r]?.label ?? r}</Link>)}</div>

@@ -5,7 +5,7 @@ import type { Category, Service } from '@/lib/types';
 import { ym } from '@/lib/ym';
 
 type Lite = Pick<Service, 'id' | 'name' | 'company' | 'companyId' | 'category' | 'description' | 'status' | 'startedAt' | 'startedYear' | 'endedAt' | 'endReasons'>;
-const STATUSES = ['提供中', '終了', '譲渡', '統合', '休止', '不明'] as const;
+const STATUSES = ['提供中', '準備中', '終了', '譲渡', '統合', '休止', '不明'] as const;
 
 export function BusinessFilter({ items, categories, reasons, initialStatus = '' }: { items: Lite[]; categories: Category[]; reasons: Record<string, { label: string }>; initialStatus?: string }) {
   const [q, setQ] = useState('');
@@ -20,7 +20,7 @@ export function BusinessFilter({ items, categories, reasons, initialStatus = '' 
     const n = q.trim().toLowerCase();
     return items.filter(
       (s) =>
-        (!status || (status === '止まった事業' ? s.status !== '提供中' && s.status !== '不明' : s.status === status)) &&
+        (!status || (status === '止まった事業' ? !['提供中', '準備中', '不明'].includes(s.status) : s.status === status)) &&
         (!reason || s.endReasons?.includes(reason)) &&
         (!cat || s.category === cat) &&
         (!n || `${s.name} ${s.company} ${s.description}`.toLowerCase().includes(n)),

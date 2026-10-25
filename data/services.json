@@ -45429,7 +45429,7 @@
     "name": "放射線治療計画AI支援ソフトウェア「RatoAI」",
     "company": "アイラト株式会社",
     "companyId": "3020001145541",
-    "category": "diagnostic-support",
+    "category": "medical-image",
     "description": "IMRT（強度変調放射線治療）の治療計画作成をAIで支援する放射線治療計画デザインソフトウェア。治療計画の品質のばらつきや作成時間を減らす。2026年6月にクラスⅢのプログラム医療機器として承認（30800BZX00163000）。",
     "hp": "",
     "startedYear": 2026,
@@ -45444,7 +45444,7 @@
       "https://www.nikkei.com/article/DGXZQOCC266EF0W6A620C2000000/"
     ],
     "updatedAt": "2026-10",
-    "type": "disease-specific-ai-samd",
+    "type": "radiotherapy-planning-software",
     "milestones": [
       {
         "date": "2026-06-24",
@@ -95579,7 +95579,7 @@
     "name": "放射線治療計画の独立検証ソフトウェア「RatoQA」",
     "company": "アイラト株式会社",
     "companyId": "3020001145541",
-    "category": "diagnostic-support",
+    "category": "medical-image",
     "description": "放射線治療の医療機関向けに、作成した治療計画情報に対する独立検証の結果をAIが予測し、独立検証のダブルチェックを行うソフトウェア。クラスI相当の単体プログラムで、治療計画AI支援プラットフォーム「RatoEra」を構成する。",
     "hp": "https://airato.jp/product/",
     "startedYear": 2023,
@@ -95588,7 +95588,7 @@
       "https://airato.jp/product/",
       "https://prtimes.jp/main/html/rd/p/000000002.000119113.html"
     ],
-    "type": "disease-specific-ai-samd",
+    "type": "radiotherapy-planning-software",
     "updatedAt": "2026-10",
     "startedAt": "2023-03",
     "startBasis": "『AI支援放射線治療計画品質管理ソフトウェア』の販売を2023年3月に開始と発表（2023-03-27リリース）"
@@ -123709,7 +123709,8 @@
       "https://prtimes.jp/main/html/rd/p/000000033.000043787.html"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-ab0ed43b",
@@ -123726,7 +123727,8 @@
       "https://innojin.co.jp/service"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-c04e832b",
@@ -123744,7 +123746,8 @@
       "https://prtimes.jp/main/html/rd/p/000000187.000033619.html"
     ],
     "type": "facility-remote-consultation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-b0de66a8",
@@ -123765,7 +123768,8 @@
       "https://prtimes.jp/main/html/rd/p/000000001.000124652.html"
     ],
     "type": "disease-specific-ai-samd",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-7d59578d",
@@ -123783,7 +123787,8 @@
       "https://cubec.jp/services"
     ],
     "type": "disease-specific-ai-samd",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-4c52175e",
@@ -123802,7 +123807,8 @@
       "https://corporate.oned.jp/posts/G4HLjjsL"
     ],
     "type": "ai-medical-documentation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-f4099cb9",
@@ -123819,7 +123825,8 @@
       "https://healthcaregate.co.jp/"
     ],
     "type": "health-point-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-9669babe",
@@ -123838,7 +123845,8 @@
       "https://www.chcp.jp/news/news-5137/"
     ],
     "type": "hospital-derived-database",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-29075ed1",
@@ -123865,7 +123873,8 @@
       "https://prtimes.jp/main/html/rd/p/000000026.000080023.html"
     ],
     "type": "ai-medical-documentation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-1a1ae664",
@@ -123884,7 +123893,8 @@
       "https://prtimes.jp/main/html/rd/p/000000001.000115810.html"
     ],
     "type": "patient-explanation-consent",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-a8b318e4",
@@ -123903,7 +123913,8 @@
       "http://george-shaun.com/newsrelease/20240919/"
     ],
     "type": "cognitive-function-assessment",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-873b634d",
@@ -123920,7 +123931,8 @@
       "https://www.mbox-inc.jp/product/"
     ],
     "type": "d2c-diet-coaching",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-caf5402b",
@@ -123939,7 +123951,8 @@
       "https://ayumo.ai/news/202610.html"
     ],
     "type": "home-self-monitoring-test",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-04bc8e27",
@@ -123957,7 +123970,8 @@
       "https://www.skinos.co.jp/solution/solution01/"
     ],
     "type": "wearable-vital-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-12c14395",
@@ -123976,7 +123990,8 @@
       "https://prtimes.jp/main/html/rd/p/000000006.000082088.html"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-2f366c77",
@@ -123994,7 +124009,8 @@
       "https://prtimes.jp/main/html/rd/p/000000073.000020411.html"
     ],
     "type": "occupational-health-service",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-f88da844",
@@ -124012,7 +124028,8 @@
       "https://prtimes.jp/main/html/rd/p/000000029.000115341.html"
     ],
     "type": "cognitive-function-assessment",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-7d0f268b",
@@ -124029,7 +124046,8 @@
       "https://smart-echo.co.jp/"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-03a58059",
@@ -124046,7 +124064,8 @@
       "https://site.solamichi.com/event/20270127"
     ],
     "type": "pharmacy-erecord-system",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-8add950c",
@@ -124080,7 +124099,8 @@
       "https://prtimes.jp/main/html/rd/p/000000040.000065803.html"
     ],
     "type": "ai-medical-documentation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-ed9e1b61",
@@ -124097,7 +124117,8 @@
       "https://prtimes.jp/main/html/rd/p/000000004.000124125.html"
     ],
     "type": "mental-online-counseling",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-d8186f35",
@@ -124114,7 +124135,8 @@
       "https://portera.jp/"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-e03f5087",
@@ -124132,7 +124154,8 @@
       "https://www.life2bits.com/kokoro/"
     ],
     "type": "mental-dtx-neurotech",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-04a6555c",
@@ -124158,7 +124181,8 @@
       "https://www.life2bits.com/kaiketsu/"
     ],
     "type": "mental-dtx-neurotech",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-f74a8152",
@@ -124177,7 +124201,8 @@
       "https://www.exceliebe.com/"
     ],
     "type": "mental-school-public-consult",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-b33f4d1b",
@@ -124201,7 +124226,8 @@
       "https://peaceful-inc.com/"
     ],
     "type": "ai-medical-documentation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-ca7d11b0",
@@ -124225,7 +124251,8 @@
       "https://prtimes.jp/main/html/rd/p/000000009.000156902.html"
     ],
     "type": "ems-hospital-information",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-3aaf40e2",
@@ -124242,7 +124269,8 @@
       "https://concerto-labs.com/"
     ],
     "type": "care-activity-dementia-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-3307cd29",
@@ -124266,7 +124294,8 @@
       "https://prtimes.jp/main/html/rd/p/000000007.000150529.html"
     ],
     "type": "care-activity-dementia-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-d724b7a8",
@@ -124291,7 +124320,8 @@
       "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
     ],
     "type": "remote-patient-monitoring",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-c91f2da2",
@@ -124321,7 +124351,8 @@
       "https://kyodonewsprwire.jp/release/202411270685"
     ],
     "type": "home-wearable-medical-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-d0c96822",
@@ -124345,7 +124376,8 @@
       "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
     ],
     "type": "ecg-heart-sound-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-d8b7d390",
@@ -124375,7 +124407,8 @@
       "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0050.html"
     ],
     "type": "remote-patient-monitoring",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-d2c69383",
@@ -124399,7 +124432,8 @@
       "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-ee13a4c9",
@@ -124423,7 +124457,8 @@
       "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0055.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-773259f8",
@@ -124452,7 +124487,8 @@
       "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
     ],
     "type": "endoscope-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   },
   {
     "id": "b-c1784128",
@@ -124476,6 +124512,7 @@
       "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "themes": []
   }
 ]

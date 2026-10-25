@@ -18,7 +18,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const F = path.join(ROOT, 'data', 'services.json');
 const items = process.argv.slice(2).flatMap((f) => JSON.parse(fs.readFileSync(f, 'utf8')));
 const asOf = new Date().toISOString().slice(0, 7);
-const STATUS = new Set(['提供中', '終了', '譲渡', '統合', '休止', '不明']);
+const STATUS = new Set(['提供中', '準備中', '終了', '譲渡', '統合', '休止', '不明']);
 const weak = /報道|見出し|会社設立|設立日|逆算|Wikipedia|ウィキペディア|予定|試作/;
 const badStart = /会社設立|設立年月|設立日|子会社化の時期|採択|一次情報なし|開始日ではない/;
 

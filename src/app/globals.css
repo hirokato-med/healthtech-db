@@ -625,6 +625,7 @@ h1, h2, h3, .sec-title h2, .section-head h2, .page-head h1, .box > h2, .panel h3
 /* ---------- 事業データベース ---------- */
 .badge.st-提供中 { background: var(--teal-soft); color: var(--teal); border-color: transparent; }
 .badge.st-終了, .badge.st-休止 { background: #f3e8e8; color: #9b3d3d; border-color: transparent; }
+.badge.st-準備中 { background: #fdf3e1; color: #946200; border-color: transparent; }
 .badge.st-譲渡, .badge.st-統合 { background: var(--navy-soft); color: var(--navy); border-color: transparent; }
 .stop-panel { border-left: 4px solid #c97c7c; }
 .stop-panel p { margin: 10px 0 0; line-height: 1.85; }
@@ -1013,3 +1014,20 @@ a.upd-title:hover { color: var(--navy); }
 .tc-bar.approx::before { content: ''; position: absolute; left: -22px; top: 5px; width: 22px; border-top: 2px dashed currentColor; opacity: .6; }
 .tc-bar.approx.st-提供中 { color: var(--teal); } .tc-bar.approx.st-終了, .tc-bar.approx.st-休止 { color: #c97c7c; } .tc-bar.approx.st-譲渡, .tc-bar.approx.st-統合 { color: var(--navy); }
 .tc-legend .approx::before { content: ''; display: inline-block; width: 22px; height: 0; border-top: 2px dashed var(--teal); margin-right: 6px; vertical-align: middle; background: none !important; }
+
+/* 準備中（開発・治験・申請中）の事業 */
+.bt-prep td:nth-child(3) { white-space: nowrap; }
+.bt-prep small { display: block; color: var(--muted); }
+/* 準備中の段階：研究開発（薄い）→ 発売予定（濃い）。目盛りでも段階を示す */
+.stage { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; font-weight: 700; white-space: nowrap; }
+.stage i { display: inline-flex; gap: 2px; }
+.stage i b { width: 4px; height: 9px; border-radius: 1px; background: currentColor; opacity: .25; }
+.stage i b.on { opacity: 1; }
+.stage-1 { background: #f1edf9; color: #4a3a7a; }
+.stage-2 { background: #e2d9f3; color: #43337a; }
+.stage-3 { background: #cdbdea; color: #3a2a6e; }
+.stage-4 { background: #b39ddd; color: #2e2059; }
+.stage-5 { background: #7f5fc4; color: #fff; }
+.stage-6 { background: #5b3fa0; color: #fff; }
+.stage-legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+.svc-provider { margin: 4px 0 0; font-size: 14px; color: var(--muted); }

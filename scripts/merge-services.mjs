@@ -29,7 +29,7 @@ const cats = new Set(JSON.parse(fs.readFileSync(P('categories.json'), 'utf8')).m
 // 事業の種類（type）があれば、その種類のカテゴリに入れる
 const typeCat = new Map((fs.existsSync(P('taxonomy.json')) ? JSON.parse(fs.readFileSync(P('taxonomy.json'), 'utf8')) : []).flatMap((c) => c.types.map((t) => [t.slug, c.category])));
 const REASONS = new Set(['regulation', 'reimbursement', 'no-payer', 'workflow', 'evidence', 'funding', 'parent-strategy', 'acquisition', 'competition', 'team', 'infrastructure', 'unknown']);
-const STATUS = new Set(['提供中', '終了', '譲渡', '統合', '休止', '不明']);
+const STATUS = new Set(['提供中', '準備中', '終了', '譲渡', '統合', '休止', '不明']);
 const norm = (s = '') => s.normalize('NFKC').replace(/株式会社|合同会社|[\s「」『』（）()・]/g, '').toLowerCase();
 const key = (company, name) => `${norm(company)}|${norm(name)}`;
 const byKey = new Map(services.map((s) => [key(s.company, s.name), s]));
@@ -63,7 +63,8 @@ for (const f of files) {
       ...(x.endedAt ? { endedAt: x.endedAt } : {}),
       ...(x.successor ? { successor: x.successor } : {}),
       ...(x.milestones?.length ? { milestones: x.milestones.filter((m) => m.text).sort((a, b) => (a.date || '').localeCompare(b.date || '')) } : {}),
-      ...(status !== '提供中' ? { endReasons: (x.endReasons ?? []).filter((r) => REASONS.has(r)) } : {}),
+      ...(x.stage && status === '準備中' ? { stage: x.stage } : {}),
+      ...(!['提供中', '準備中'].includes(status) ? { endReasons: (x.endReasons ?? []).filter((r) => REASONS.has(r)) } : {}),
       ...(x.endReasonNote ? { endReasonNote: x.endReasonNote.trim() } : {}),
       ...(x.lessons ? { lessons: x.lessons.trim() } : {}),
       sources: x.sources ?? [],

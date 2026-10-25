@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { END_REASONS, STOPPED, categoryName, getArticles, getBizType, getBizTypes, getThemes, servicesOfType } from '@/lib/data';
 import { ym } from '@/lib/ym';
+import { STAGES, StageBadge, stageIndex } from '@/components/StageBadge';
 
 export function generateStaticParams() {
   return getBizTypes().map((t) => ({ slug: t.slug }));
@@ -25,7 +26,10 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
   const { slug } = await params;
   const t = getBizType(slug);
   if (!t) notFound();
-  const items = servicesOfType(slug)
+  const all = servicesOfType(slug);
+  // 準備中（開発・治験・申請中）の事業は年表に載せず、別の表にする
+  const prep = all.filter((s) => s.status === '準備中').sort((a, b) => stageIndex(b.stage) - stageIndex(a.stage));
+  const items = all.filter((s) => s.status !== '準備中')
     // 開始時期が分からない事業は、提供を確認できた最も古い時点（knownSince）から点線で引く
     .map((s) => {
       const a0 = toY(s.startedAt) ?? (s.startedYear ?? null);
@@ -65,7 +69,7 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
       </div>
       <section className="bt-kpi">
         <div><span>記録した事業</span><b>{items.length}件</b><small>{dated.length ? `${Math.floor(min)}年〜` : ''}{items.some((x) => x.approx) ? `・うち開始時期不明 ${items.filter((x) => x.approx).length}件` : ''}</small></div>
-        <div><span>いま提供中</span><b>{live.length}件</b></div>
+        <div><span>いま提供中</span><b>{live.length}件</b>{prep.length > 0 && <small>ほかに準備中 {prep.length}件</small>}</div>
         <div><span>止まった事業</span><b>{stopped.length}件</b><small>終了・譲渡・統合・休止</small></div>
         <div><span>止まった事業が続いた年数</span><b>{avg !== null ? `平均 ${avg.toFixed(1)}年` : '—'}</b><small>{lived.length ? `${lived.length}件の平均` : ''}</small></div>
       </section>
@@ -89,6 +93,31 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
             </div>
           ))}
           <div className="tc-legend"><span className="st-提供中">提供中</span><span className="st-終了">終了・休止</span><span className="st-統合">譲渡・統合</span><span className="approx">点線から始まる棒：開始時期は不明（その時点には提供を確認）</span></div>
+        </section>
+      )}
+
+      {prep.length > 0 && (
+        <section className="ma-sec">
+          <h2>準備中の事業（開発・治験・申請中）</h2>
+          <div className="stage-legend">{STAGES.map((s) => <StageBadge key={s} stage={s} />)}</div>
+          <div className="earn-wrap">
+            <table className="earn-table bt-prep">
+              <thead><tr><th>事業</th><th>会社</th><th>段階</th><th>最近の経過</th></tr></thead>
+              <tbody>
+                {prep.map((s) => {
+                  const m = (s.milestones ?? []).at(-1);
+                  return (
+                    <tr key={s.id}>
+                      <td><Link href={`/services/${s.id}/`}>{s.name}</Link></td>
+                      <td>{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{short(s.company)}</Link> : short(s.company)}</td>
+                      <td><StageBadge stage={s.stage} /></td>
+                      <td>{m ? <>{m.text}<small>{ym(m.date)}</small></> : <small>—</small>}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
         </section>
       )}
 
