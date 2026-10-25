@@ -71,6 +71,14 @@ function readDevice(pmdaUrl) {
     if (cat) d.category = cat[1].replace(/\s+/g, ' ');
     if (/特定保守管理医療機器/.test(head)) d.specialMaintenance = true;
   }
+  // 添付文書の字が読めないときは、PMDA の URL の番号の形で承認・認証・届出を見分ける
+  // 承認 30200BZX00271000／認証 304AGBZX00095000（年の後に英字2つ）／届出 13B1X10195000001
+  // 番号は PDF の読み取り（途中で切れることがある）より、行を選んだ URL の番号を使う
+  if (num) {
+    const k = /^\d{3}[A-Z]{2}BZ[A-Z]\w+$/.test(num) ? '認証' : /^\d{5}BZ[A-Z]\w+$/.test(num) ? '承認' : /^\d{2}B\d/.test(num) ? '届出' : undefined;
+    d.kind ??= k;
+    if (d.kind) d.number = num;
+  }
   return d;
 }
 
