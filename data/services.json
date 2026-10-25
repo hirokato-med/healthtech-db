@@ -290,8 +290,12 @@
     "status": "提供中",
     "type": "health-point-app",
     "sources": [
-      "https://finc.com/"
-    ]
+      "https://finc.com/",
+      "https://apps.apple.com/jp/app/id965626396"
+    ],
+    "startedAt": "2015-02-25",
+    "startBasis": "App Store 初回公開日（FiNC ダイエット・健康管理アプリ、FINC TECHNOLOGIES INC.）",
+    "updatedAt": "2026-10"
   },
   {
     "id": "medpeer",
@@ -339,8 +343,19 @@
     "status": "提供中",
     "type": "doctor-community-portal",
     "sources": [
-      "https://www.m3.com/"
-    ]
+      "https://www.m3.com/",
+      "https://corporate.m3.com/corporate"
+    ],
+    "startedAt": "2000-10",
+    "startBasis": "前身の so-netm3.com 上で MR君 の提供開始（公式沿革。2003-07 に MyMedipro と統合し m3.com として運営開始）",
+    "milestones": [
+      {
+        "date": "2003-07",
+        "text": "MyMedipro と so-netm3.com を統合し、医療専門サイト『m3.com』として運営開始",
+        "source": "https://corporate.m3.com/corporate"
+      }
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "smaluna",
@@ -406,12 +421,16 @@
     "category": "medical-image",
     "description": "脳MRIから海馬の体積などを解析し、脳の健康状態を可視化する脳ドック向けサービス。",
     "hp": "https://www.splinkns.com/",
-    "startedYear": 2019,
+    "startedYear": 2021,
     "status": "提供中",
     "type": "imaging-brain-body-check",
     "sources": [
-      "https://www.splinkns.com/"
-    ]
+      "https://www.splinkns.com/",
+      "https://prtimes.jp/main/html/rd/p/000000007.000060865.html"
+    ],
+    "startedAt": "2021-08-26",
+    "startBasis": "大手町 東京クリニックで導入・運用開始と発表（脳ドック用プログラムとしての初出）",
+    "updatedAt": "2026-10"
   },
   {
     "id": "kanamic-cloud",
@@ -434,12 +453,43 @@
     "category": "medical-device",
     "description": "装着型サイボーグ。神経難病の患者向けに医療用下肢タイプが医療機器承認・保険適用を取得。",
     "hp": "https://www.cyberdyne.jp/",
-    "startedYear": 2008,
+    "startedYear": 2009,
     "status": "提供中",
     "type": "rehab-robotics-prosthetics",
     "sources": [
-      "https://www.cyberdyne.jp/"
-    ]
+      "https://www.cyberdyne.jp/",
+      "https://www.cyberdyne.jp/media/25978/20260623_qr.pdf"
+    ],
+    "startedAt": "2009-01",
+    "startBasis": "HAL福祉用の初期モデルの製造販売を開始（有価証券報告書の沿革）",
+    "milestones": [
+      {
+        "date": "2013-06",
+        "text": "HAL医療用下肢タイプがEUで医療機器認証を取得",
+        "source": "https://www.cyberdyne.jp/media/25978/20260623_qr.pdf"
+      },
+      {
+        "date": "2015-11",
+        "text": "医療用HALが厚生労働省の製造販売承認を取得（神経・筋難病8疾患）",
+        "source": "https://www.cyberdyne.jp/media/25978/20260623_qr.pdf"
+      },
+      {
+        "date": "2016-01",
+        "text": "医療用HALによる治療の公的医療保険適用が中医協で決定",
+        "source": "https://www.cyberdyne.jp/media/25978/20260623_qr.pdf"
+      },
+      {
+        "date": "2016-09",
+        "text": "医療用HALの公的医療保険による診療が開始",
+        "source": "https://www.cyberdyne.jp/media/25978/20260623_qr.pdf"
+      },
+      {
+        "date": "2025-01",
+        "text": "医療用HAL小型モデルが日本で医療機器承認を取得",
+        "source": "https://www.cyberdyne.jp/media/25978/20260623_qr.pdf"
+      }
+    ],
+    "updatedAt": "2026-10"
   },
   {
     "id": "mcs",
@@ -483,8 +533,12 @@
     "status": "提供中",
     "type": "medical-staffing-agency",
     "sources": [
-      "https://medrt.com/"
-    ]
+      "https://medrt.com/",
+      "https://medrt.co.jp/about/history.html"
+    ],
+    "startedAt": "2000-05",
+    "startBasis": "有料職業紹介事業の許可取得（東大医学部附属病院の医師の互助組織を母体に2000年1月創業、公式沿革）",
+    "updatedAt": "2026-10"
   },
   {
     "id": "calomama",
@@ -562,13 +616,34 @@
     "category": "real-world-data",
     "description": "急性期病院のDPCデータを中心とする国内最大級の診療データベース。製薬企業や研究機関に分析サービスを提供。",
     "hp": "https://www.mdv.co.jp/",
-    "startedYear": 2003,
+    "startedYear": 2008,
     "status": "提供中",
     "type": "hospital-derived-database",
     "sources": [
+      "https://www.mdv.co.jp/",
+      "https://www.mdv.co.jp/company/history.html",
       "https://www.mdv.co.jp/press/2022/detail_1734.html"
     ],
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2008-04",
+    "startBasis": "公式沿革『2008年4月「EBM Provider」事業を開始』（診療データを製薬企業等へ提供する事業の始まり）",
+    "milestones": [
+      {
+        "date": "2006-08",
+        "text": "DPC分析ベンチマークシステム『EVE』をリリース",
+        "source": "https://www.mdv.co.jp/company/history.html"
+      },
+      {
+        "date": "2013-03",
+        "text": "日経テレコンに『MDV診療データ』配信開始",
+        "source": "https://www.mdv.co.jp/company/history.html"
+      },
+      {
+        "date": "2020-04",
+        "text": "健康保険組合データベースの取り扱いを開始",
+        "source": "https://www.mdv.co.jp/company/history.html"
+      }
+    ]
   },
   {
     "id": "eparkkusuri",
@@ -5067,7 +5142,7 @@
     "category": "nursing",
     "description": "中部電力の会員サイト「カテエネ」の利用者向けに、電気の使用状況から離れて暮らす家族の様子を知らせた見守りサービス。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "終了",
     "endedAt": "2023-03",
     "successor": "中部電力ミライズコネクト「テラシテ」（有料見守りアプリ）",
@@ -5086,15 +5161,18 @@
     ],
     "endReasonNote": "中部電力ミライズは、グループ会社による「テラシテ」の提供開始に伴って本サービスを終了すると告知した。グループ内での後継サービスへの切り替えで、それ以上の理由は公表されていない。",
     "sources": [
-      "https://it.katene.chuden.jp/app/miraiz_app/noticeMng?key=202206_0321",
-      "https://miraiz.chuden.co.jp/info/press/1208620_1938.html"
+      "https://www.chuden.co.jp/publicity/press/3258083_21432.html",
+      "https://miraiz.chuden.co.jp/info/press/1208620_1938.html",
+      "https://it.katene.chuden.jp/app/miraiz_app/noticeMng?key=202206_0321"
     ],
     "updatedAt": "2026-10",
     "themes": [
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "lessons": "電力会社の会員向け無料の見守りは、グループ会社の有料見守りアプリ開始に伴い終了した。電力データの見守りは、会員特典から別会社の有料サービスへ切り出されることがある。"
+    "lessons": "電力会社の会員向け無料の見守りは、グループ会社の有料見守りアプリ開始に伴い終了した。電力データの見守りは、会員特典から別会社の有料サービスへ切り出されることがある。",
+    "startedAt": "2015-09-29",
+    "startBasis": "電力全面自由化に向けた新サービスの一つとして『見守りお手伝いサービス』を発表（中部電力プレスリリース）"
   },
   {
     "id": "b-5da21fae",
@@ -6148,7 +6226,9 @@
     "themes": [
       "elderly-monitoring"
     ],
-    "type": "care-facility-monitoring-sensor"
+    "type": "care-facility-monitoring-sensor",
+    "knownSince": "2020-07",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000061603.html"
   },
   {
     "id": "b-b97e8195",
@@ -9149,7 +9229,9 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120901047764"
     ],
     "updatedAt": "2026-10",
-    "type": "occupational-health-service"
+    "type": "occupational-health-service",
+    "knownSince": "2024-06",
+    "knownSinceSource": "https://sogyotecho.jp/news/20240611wellhealth/"
   },
   {
     "id": "b-d20e8f96",
@@ -15186,7 +15268,9 @@
     "themes": [
       "occupational-physician"
     ],
-    "type": "employee-health-cloud"
+    "type": "employee-health-cloud",
+    "knownSince": "2024-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000154534.html"
   },
   {
     "id": "b-b60ac1a7",
@@ -17993,14 +18077,16 @@
     "category": "fitness",
     "description": "フィットネスクラブの経営者・幹部向けの業界経営情報誌と、業界ニュース・データ・セミナー情報を配信するWebサイト。1995年にセノー（現ミズノ）で創刊された前身誌『Club Management』を、2002年の同社設立時に引き継いだ。",
     "hp": "https://business.fitnessclub.jp/",
-    "startedYear": null,
+    "startedYear": 1995,
     "status": "提供中",
     "sources": [
       "https://business.fitnessclub.jp/",
       "https://www.fitnessclub.jp/company/index.html"
     ],
     "updatedAt": "2026-10",
-    "type": "fitness-business-support"
+    "type": "fitness-business-support",
+    "startedAt": "1995",
+    "startBasis": "会社概要：前身誌『Club Management』を1995年に創刊（月の記載なし）"
   },
   {
     "id": "b-1d1a3f80",
@@ -18010,14 +18096,16 @@
     "category": "fitness",
     "description": "フィットネスクラブのインストラクターやトレーナー向けのキャリア誌。キャリアアップを応援するフリーマガジンとして編集・発行し、電子書籍版も出している。",
     "hp": "https://www.fitnessclub.jp/company/index.html",
-    "startedYear": null,
+    "startedYear": 2006,
     "status": "提供中",
     "sources": [
       "https://www.fitnessclub.jp/company/index.html",
       "http://www.fitnessclub.jp/next/"
     ],
     "updatedAt": "2026-10",
-    "type": "fitness-business-support"
+    "type": "fitness-business-support",
+    "startedAt": "2006",
+    "startBasis": "会社概要：2006年に『月刊ネクスト』を創刊（月の記載なし）"
   },
   {
     "id": "b-99f8af6d",
@@ -18093,7 +18181,9 @@
       "https://www.mdv.co.jp/solution/medical/hospital/mdv_act/"
     ],
     "updatedAt": "2026-10",
-    "type": "hospital-management-bi"
+    "type": "hospital-management-bi",
+    "knownSince": "2021-10",
+    "knownSinceSource": "https://www.mdv.co.jp/company/history.html"
   },
   {
     "id": "b-c2d1ef6a",
@@ -19310,7 +19400,9 @@
         "text": "江戸川区で妊婦向け「あすママコース」の無償提供を2年目も継続",
         "source": "https://prtimes.jp/main/html/rd/p/000000251.000058653.html"
       }
-    ]
+    ],
+    "knownSince": "2019-11",
+    "knownSinceSource": "https://www.atpress.ne.jp/news/199714"
   },
   {
     "id": "b-1eeb18f1",
@@ -21827,7 +21919,9 @@
       "https://genomedia.jp/service"
     ],
     "updatedAt": "2026-10",
-    "type": "cancer-genome-analysis"
+    "type": "cancer-genome-analysis",
+    "knownSince": "2023-09",
+    "knownSinceSource": "https://genomedia.jp/service"
   },
   {
     "id": "b-b9e4dcf5",
@@ -22897,7 +22991,9 @@
       "https://www.medaca.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-record-phr"
+    "type": "medical-record-phr",
+    "knownSince": "2018-04",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000011.000026380.html"
   },
   {
     "id": "b-55c1ea22",
@@ -23518,7 +23614,9 @@
       "https://mealthy.co.jp/#services"
     ],
     "updatedAt": "2026-10",
-    "type": "specific-health-guidance"
+    "type": "specific-health-guidance",
+    "knownSince": "2019-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000587.000011650.html"
   },
   {
     "id": "b-02882093",
@@ -23535,7 +23633,9 @@
       "https://mealthy.co.jp/#services"
     ],
     "updatedAt": "2026-10",
-    "type": "severity-prevention-program"
+    "type": "severity-prevention-program",
+    "knownSince": "2021-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000006.000013268.html"
   },
   {
     "id": "b-4cf56d46",
@@ -23552,7 +23652,9 @@
       "https://mealthy.co.jp/#services"
     ],
     "updatedAt": "2026-10",
-    "type": "corporate-wellness-program"
+    "type": "corporate-wellness-program",
+    "knownSince": "2019-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000587.000011650.html"
   },
   {
     "id": "b-a7c1331d",
@@ -23569,7 +23671,9 @@
       "https://mealthy.co.jp/#services"
     ],
     "updatedAt": "2026-10",
-    "type": "phr-data-platform"
+    "type": "phr-data-platform",
+    "knownSince": "2021-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000006.000013268.html"
   },
   {
     "id": "b-28ace72c",
@@ -24706,7 +24810,9 @@
       "https://corp.antaa.jp/business"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-education-media"
+    "type": "doctor-education-media",
+    "knownSince": "2020-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000005.000025535.html"
   },
   {
     "id": "b-f0091921",
@@ -24760,7 +24866,9 @@
       "https://corp.antaa.jp/business"
     ],
     "updatedAt": "2026-10",
-    "type": "doctor-education-media"
+    "type": "doctor-education-media",
+    "knownSince": "2022-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000006.000025535.html"
   },
   {
     "id": "b-6d34a68a",
@@ -25203,10 +25311,13 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://holoeyes.jp/service/vs"
+      "https://holoeyes.jp/service/vs",
+      "https://prtimes.jp/main/html/rd/p/000000084.000013447.html"
     ],
     "updatedAt": "2026-10",
-    "type": "imaging-3d-xr"
+    "type": "imaging-3d-xr",
+    "knownSince": "2021-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000084.000013447.html"
   },
   {
     "id": "b-8e20f849",
@@ -26949,7 +27060,9 @@
       "https://varinos.com/clinical-service-clinical-pgt-a/"
     ],
     "updatedAt": "2026-10",
-    "type": "femtech-fertility-test-preservation"
+    "type": "femtech-fertility-test-preservation",
+    "knownSince": "2020-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000005.000054568.html"
   },
   {
     "id": "b-5fb856a1",
@@ -30918,13 +31031,16 @@
     "category": "medical-saas",
     "description": "病院と地域の診療所の情報連携を、生成AI、電子カルテや予約・患者管理システムのクラウド化、遠隔医療で進め、退院後のフォローや継続ケアが途切れない仕組みを作る医療DX支援。",
     "hp": "https://equitas-medical.com/services",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
-      "https://equitas-medical.com/services"
+      "https://equitas-medical.com/services",
+      "https://prtimes.jp/main/html/rd/p/000000002.000185818.html"
     ],
     "updatedAt": "2026-10",
-    "type": "regional-referral-discharge"
+    "type": "regional-referral-discharge",
+    "startedAt": "2026-07-03",
+    "startBasis": "東京科学大学認定ベンチャー選定の発表で、クリニック事業承継・医療DX・病診連携の取り組みを『本格始動』と公表"
   },
   {
     "id": "b-d3d285db",
@@ -30998,6 +31114,7 @@
     "sources": [
       "https://asclepath.com/products/dx",
       "https://asclepath.com/products/aios",
+      "https://prtimes.jp/main/html/rd/p/000000001.000187260.html",
       "https://asclepath.com/",
       "https://asclepath.com/company",
       "https://prtimes.jp/main/html/searchrlp/company_id/187260"
@@ -34682,7 +34799,9 @@
       "https://cradle.care/"
     ],
     "updatedAt": "2026-10",
-    "type": "corporate-wellness-program"
+    "type": "corporate-wellness-program",
+    "knownSince": "2022-03",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000319.000036737.html"
   },
   {
     "id": "b-0af85f78",
@@ -36396,7 +36515,9 @@
       "https://mics.tokyo/service/career"
     ],
     "updatedAt": "2026-10",
-    "type": "medical-job-board"
+    "type": "medical-job-board",
+    "knownSince": "2023-11",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000013.000074761.html"
   },
   {
     "id": "b-427f845e",
@@ -51952,14 +52073,18 @@
     "category": "medical-saas",
     "description": "手術件数とスタッフの空き状況から、麻酔科医や手術室看護師のシフトを需要に応じて自動作成し、各手術に必要な人数とスキルを確保する。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2021,
     "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000081372.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000081372.html",
       "https://www.aquila.company/projects/doctors.html",
       "https://www.aquila.company/projects/nurses.html"
     ],
     "type": "hospital-workforce-shift",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021-07-01",
+    "startBasis": "AIが最適勤務スケジュールを作る『予定.PRO』を新型コロナワクチン接種会場で無償提供と発表（前身の名前）"
   },
   {
     "id": "b-f5b11eca",
@@ -58448,14 +58573,24 @@
     "category": "pharmacy-dx",
     "description": "三菱電機グループの保険薬局向けレセコン「調剤Melphin/DUO」と電子薬歴「Melhis」。2025年10月からはアイテック阪急阪神が代理店販売・コンタクトセンターを担い、クラウド化を進めている。",
     "hp": "https://www.mitsubishielectric.co.jp/medigital/solution/melphin/",
-    "startedYear": null,
+    "startedYear": 2007,
     "status": "提供中",
     "sources": [
       "https://www.mitsubishielectric.co.jp/medigital/solution/melphin/",
+      "https://www.yakuji.co.jp/entry3827.html",
       "https://www.mitsubishielectric.co.jp/medigital/news/2025/0717/pdf/20250717.pdf"
     ],
     "type": "pharmacy-erecord-system",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2007-07",
+    "startBasis": "『調剤Melphin/Neo』と電子薬歴保存システム『Melhis』を同時発売へと報道（薬事日報 2007-07-25）",
+    "milestones": [
+      {
+        "date": "2013-01",
+        "text": "三菱保険薬局システム『調剤Melphin/DUO』発売",
+        "source": "https://www.innervision.co.jp/sp/products/release/20130309"
+      }
+    ]
   },
   {
     "id": "b-4cfedff8",
@@ -59183,10 +59318,13 @@
     "status": "提供中",
     "sources": [
       "https://alphagox.com/products/",
+      "https://alphagox.com/news/case-studies-1/",
       "https://alphagox.com/news/case-studies-1b/"
     ],
     "type": "ecg-heart-sound-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2026-06",
+    "knownSinceSource": "https://alphagox.com/news/case-studies-1/"
   },
   {
     "id": "b-a850d831",
@@ -72246,7 +72384,9 @@
       "https://prtimes.jp/main/html/rd/p/000000001.000099941.html"
     ],
     "type": "decentralized-clinical-trial",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000099941.html"
   },
   {
     "id": "b-9b78829b",
@@ -72639,7 +72779,7 @@
     "category": "real-world-data",
     "description": "参加病院（119施設）の電子カルテ情報を集め、次世代医療基盤法の認定事業者として匿名加工し、製薬企業や研究機関に提供する。2019年に同法の認定作成事業者第1号となり、NTTデータが受託事業者としてシステムを運用している。",
     "hp": "https://www.ldi.or.jp/",
-    "startedYear": null,
+    "startedYear": 2019,
     "status": "提供中",
     "milestones": [
       {
@@ -72653,7 +72793,9 @@
       "https://www.itmedia.co.jp/enterprise/articles/1912/20/news069.html"
     ],
     "type": "hospital-derived-database",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2019-12",
+    "startBasis": "LDIが次世代医療基盤法の認定匿名加工医療情報作成事業者（第1号）に、NTTデータが受託事業者に認定され事業開始"
   },
   {
     "id": "b-5c4aeb3a",
@@ -72662,13 +72804,18 @@
     "category": "real-world-data",
     "description": "日本医師会が設立した機構が、次世代医療基盤法の認定作成事業者として医療機関の診療情報を集めて匿名加工し、研究・創薬向けに提供する。同法の認定事業者第2号。",
     "hp": "https://www.j-mimo.or.jp/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "milestones": [
       {
         "date": "2020-06",
         "text": "次世代医療基盤法の認定作成事業者（第2号）に認定",
         "source": "https://project.nikkeibp.co.jp/behealth/atcl/news/domestic/00010/"
+      },
+      {
+        "date": "2025-08-06",
+        "text": "『医療情報の不適切な取得及び提供について』を公表（同年9月に続報）",
+        "source": "https://www.j-mimo.or.jp/"
       }
     ],
     "sources": [
@@ -72676,7 +72823,9 @@
       "https://project.nikkeibp.co.jp/behealth/atcl/news/domestic/00010/"
     ],
     "type": "hospital-derived-database",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2020-06",
+    "startBasis": "次世代医療基盤法の認定作成事業者（第2号）に認定"
   },
   {
     "id": "b-195e6d62",
@@ -73172,13 +73321,15 @@
     "category": "medical-saas",
     "description": "医療機器管理のHITOTSUが、医療DXチャット「Link」と連携して出す病院向けインシデントレポートシステム。生成AIで報告の入力・分析を支え、医療安全の改善サイクルを回すことを狙う。",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000023.000102400.html"
     ],
     "type": "nursing-ward-safety",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2026-07-07",
+    "startBasis": "新プロダクトとして発表（2026-10-01リリース予定と告知）"
   },
   {
     "id": "b-d1617314",
@@ -73992,38 +74143,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-d1b0be5c",
-    "name": "相談ほっとLINE@東京（都内の中高生向けLINE教育相談）",
-    "company": "東京都教育委員会（東京都教育相談センター）",
-    "category": "mental-health",
-    "description": "都内の中高生など約64万人を対象に、いじめ・友人・家族・進路などの悩みを心理カウンセラー資格を持つ相談員がLINEのチャットで受ける東京都教育委員会の相談窓口。2022年度からは学習者用端末からも相談できる。",
-    "hp": "",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://www.kyoiku.metro.tokyo.lg.jp/data/pr/general/tokyo_no_kyoiku201906_jh",
-      "https://www.kyoiku.metro.tokyo.lg.jp/data/pr/general/tokyo_no_kyoiku202306_jh",
-      "https://sukusuku.tokyo-np.co.jp/support/24410/"
-    ],
-    "type": "mental-school-public-consult",
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-c84af105",
-    "name": "先生たちのほっとLINE（教職員向けLINE相談窓口）",
-    "company": "東京都教育委員会（運営支援：ポールトゥウィン株式会社）",
-    "category": "mental-health",
-    "description": "都内公立学校の教職員がメンタル不調を未然に防げるよう、仕事や人間関係の悩みをLINEで相談できる東京都教育委員会の窓口。",
-    "hp": "",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2023/10/2023102604"
-    ],
-    "type": "mental-school-public-consult",
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-8e1e3820",
     "name": "ADI.Gの歯科医院向け事業（歯科器材販売・歯科医院向けクラウドサービス・開業プロデュース）",
     "company": "株式会社ADI.G",
@@ -74467,23 +74586,6 @@
       "https://herstory.co.jp/well-woman/"
     ],
     "type": "femtech-biz-support",
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-99b3f7ab",
-    "name": "99さがネット（救急車タブレットによる搬送・受入情報の共有）",
-    "company": "佐賀県",
-    "category": "first-aid",
-    "description": "佐賀県が運営する医療機関情報・救急医療情報システム。全国で初めて県内の全救急車にタブレット端末を配備し、病院ごとの専門医の受入可否や搬送実績を救急隊と医療機関で共有・可視化した。同様の仕組みは他府県にも広がった。",
-    "hp": "https://www.qq.pref.saga.jp/",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://www.pref.saga.lg.jp/kiji00353872/",
-      "https://www.qq.pref.saga.jp/about/",
-      "https://www.itmedia.co.jp/enterprise/articles/1404/02/news003.html"
-    ],
-    "type": "ems-hospital-information",
     "updatedAt": "2026-10"
   },
   {
@@ -75353,7 +75455,9 @@
       "https://prtimes.jp/main/html/rd/p/000000038.000014800.html"
     ],
     "type": "hospital-workforce-shift",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2024-01",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000026.000014800.html"
   },
   {
     "id": "b-869b5b75",
@@ -75940,7 +76044,7 @@
     "category": "medical-image",
     "description": "心臓CT・MRIなどの3D画像処理・解析を、TeraRecon製AIプラットフォーム接続型ビューワを載せたクラウド型ワークステーションで提供する",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "milestones": [
       {
@@ -75970,11 +76074,13 @@
       }
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000020403.html",
-      "https://prtimes.jp/main/html/rd/p/000000005.000020403.html"
+      "https://prtimes.jp/main/html/rd/p/000000005.000020403.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000020403.html"
     ],
     "type": "imaging-pacs-cloud",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018-04-13",
+    "startBasis": "TeraRecon製AIプラットフォーム接続型ビューワを載せたクラウド型ワークステーションを初導入と発表"
   },
   {
     "id": "b-a098b133",
@@ -76385,7 +76491,7 @@
     "category": "mental-health",
     "description": "ウェアラブル・アプリで心拍変動などからストレスや心の状態を測り、オンラインセミナーと組み合わせて企業の社員のメンタル管理を支える",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2014,
     "status": "提供中",
     "milestones": [
       {
@@ -76401,10 +76507,13 @@
     ],
     "sources": [
       "https://www.winfrontier.com/",
+      "https://prtimes.jp/main/html/rd/p/000000001.000010170.html",
       "https://www.dreamgate.gr.jp/contents/case/company/26980"
     ],
     "type": "mental-corporate-eap",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2014-05-12",
+    "startBasis": "ウェアラブル心拍センサでストレス・リラックスを可視化する『Lifescore』の解析ソフトを法人向けに提供開始"
   },
   {
     "id": "b-b5b7152b",
@@ -76626,7 +76735,7 @@
     "category": "nursing",
     "description": "介護・障害福祉事業所向けに、ケア記録・計画、介護報酬請求などをまとめて扱う業務支援ソフト（ほのぼのNEXT など）",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 1992,
     "status": "提供中",
     "milestones": [
       {
@@ -76644,7 +76753,9 @@
       "https://www.joint-kaigo.com/articles/4904/"
     ],
     "type": "care-record-careplan-software",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "1992",
+    "startBasis": "公式沿革：1992年に「ほのぼの」シリーズの製品リリースを開始（月の記載なし）"
   },
   {
     "id": "b-432579e5",
@@ -77073,7 +77184,9 @@
       "https://prtimes.jp/main/html/rd/p/000000011.000049144.html"
     ],
     "type": "medical-job-board",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2019-09",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000049144.html"
   },
   {
     "id": "b-83d03919",
@@ -77873,7 +77986,9 @@
       "https://prtimes.jp/main/html/rd/p/000000008.000005062.html"
     ],
     "type": "mental-corporate-eap",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2011-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000008.000005062.html"
   },
   {
     "id": "b-8def91fd",
@@ -84425,7 +84540,9 @@
       "https://prtimes.jp/main/html/rd/p/000000012.000043608.html"
     ],
     "type": "mental-corporate-eap",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2011-02",
+    "knownSinceSource": "https://welllink.co.jp/company/history/"
   },
   {
     "id": "b-802d23ce",
@@ -84651,7 +84768,9 @@
       "https://prtimes.jp/main/html/rd/p/000000031.000127596.html"
     ],
     "type": "clinic-reservation-queue",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2023-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000004.000127596.html"
   },
   {
     "id": "b-8faed5aa",
@@ -84855,7 +84974,9 @@
     ],
     "type": "online-pharmacy",
     "updatedAt": "2026-10",
-    "lessons": "健康関連商品の通販サイトは、親会社がグループ内の同業の通販会社と合併させ、効率化のため一つの事業にまとめた。同じグループ内に似た通販事業が並ぶと、統合で看板が一つに減る。"
+    "lessons": "健康関連商品の通販サイトは、親会社がグループ内の同業の通販会社と合併させ、効率化のため一つの事業にまとめた。同じグループ内に似た通販事業が並ぶと、統合で看板が一つに減る。",
+    "knownSince": "2009-06",
+    "knownSinceSource": "https://japan.cnet.com/article/35017258/"
   },
   {
     "id": "b-da55abe4",
@@ -85604,7 +85725,7 @@
     "category": "nursing",
     "description": "LEDとSIMを一体化した電球の点灯・消灯から、離れて暮らす高齢者の安否を家族に知らせる見守りサービス。ボクシーズが開発し、2019年からは同じ代表のハローライト株式会社（現 ハローテクノロジーズ）が開発・販売・運営。ヤマト運輸の見守りサービスとも連携",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "譲渡",
     "milestones": [
       {
@@ -85635,7 +85756,9 @@
       "https://www.value-press.com/pressrelease/225414"
     ],
     "type": "elderly-home-monitoring",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018-12-26",
+    "startBasis": "ボクシーズが点灯がわかる電球『ハローライト』の販売開始を発表（クラウドファンディングでの先行販売）"
   },
   {
     "id": "b-3d6ac8eb",
@@ -86203,7 +86326,9 @@
     ],
     "type": "online-pharmacy",
     "updatedAt": "2026-10",
-    "lessons": "一般用医薬品のネット販売は、改正薬事法の省令で第1類・第2類の郵便等販売が原則禁止され止まったが、行政訴訟で勝訴して再開できた。規制で事業が止まっても、法的に争う道が残されている。"
+    "lessons": "一般用医薬品のネット販売は、改正薬事法の省令で第1類・第2類の郵便等販売が原則禁止され止まったが、行政訴訟で勝訴して再開できた。規制で事業が止まっても、法的に争う道が残されている。",
+    "knownSince": "2009-06",
+    "knownSinceSource": "https://japan.cnet.com/article/35017258/"
   },
   {
     "id": "b-2ce3ab3f",
@@ -86700,7 +86825,7 @@
     "category": "personal-health-record",
     "description": "au携帯電話のGPSで距離・消費カロリーを記録し、パーソナルトレーナー機能や推奨コースでランニング・ウォーキングを支援したau契約者向けアプリと専用サイト。のちスマートフォン版も提供",
     "hp": "",
-    "startedYear": null,
+    "startedYear": 2008,
     "status": "終了",
     "endedAt": "2017-03",
     "successor": "JogNote（株式会社ウイングスタイル、データ移行先）",
@@ -86720,11 +86845,14 @@
       "unknown"
     ],
     "sources": [
+      "https://www.kddi.com/corporate/news_release/2008/0128/",
       "https://internet.watch.impress.co.jp/docs/news/1040177.html",
       "https://k-tai.watch.impress.co.jp/cda/article/news_toppage/38207.html"
     ],
     "type": "health-point-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2008-01-28",
+    "startBasis": "KDDIがau携帯電話春モデル発表の中で『au Smart Sports』開始と『Run&Walk』アプリのプリセットを発表"
   },
   {
     "id": "b-8b70be2e",
@@ -87884,7 +88012,9 @@
       "https://www.msnw.co.jp/business/medical-support/"
     ],
     "type": "pharmacy-inventory-sharing",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2017-01",
+    "knownSinceSource": "https://www.lnews.jp/2017/01/j011908.html"
   },
   {
     "id": "b-0fb8d8ca",
@@ -88087,7 +88217,9 @@
       "https://corporate.m3.com/service"
     ],
     "type": "medical-job-board",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2020-06",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000005.000040067.html"
   },
   {
     "id": "b-9e4b6b13",
@@ -88993,13 +89125,29 @@
     "category": "health-corporate-management",
     "description": "企業・健保の健診業務を代行し、全国3,600以上の提携健診機関との契約、24時間のWeb健診予約、健診結果の電子化と一元管理・疾病リスクシミュレーション、精算代行まで行う。中小企業向けパック（VCバリューパック）もある。",
     "hp": "https://www.valuehr.com/",
-    "startedYear": null,
+    "startedYear": 2005,
     "status": "提供中",
     "sources": [
+      "https://www.valuehr.com/",
+      "https://www.valuehr.com/company.html",
       "https://www.valuehr.com/service_kenshin.html"
     ],
     "type": "employee-health-cloud",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2005-05",
+    "startBasis": "公式沿革『2005年5月 健康診断業務及び健康管理データを利用した健康管理支援サービスを開始』",
+    "milestones": [
+      {
+        "date": "2008-07",
+        "text": "特定健診・特定保健指導の代行機関番号を取得",
+        "source": "https://www.valuehr.com/company.html"
+      },
+      {
+        "date": "2021-08-02",
+        "text": "中小規模法人向け健康経営支援『VCバリューパック』『VCバリューパック-Lite-』提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000014.000034574.html"
+      }
+    ]
   },
   {
     "id": "b-d56c56a1",
@@ -89079,7 +89227,9 @@
       "https://www.valuehr.com/service_list.html"
     ],
     "type": "corporate-wellness-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2023-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000031.000034574.html"
   },
   {
     "id": "b-a49d1e7b",
@@ -89095,7 +89245,9 @@
       "https://www.valuehr.com/service_list.html"
     ],
     "type": "specific-health-guidance",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000021.000034574.html"
   },
   {
     "id": "b-3cf31ab5",
@@ -89111,7 +89263,9 @@
       "https://www.valuehr.com/service_datahealth.html"
     ],
     "type": "insurer-data-health-support",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2018-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000003.000034574.html"
   },
   {
     "id": "b-b484fce2",
@@ -89127,7 +89281,9 @@
       "https://www.valuehr.com/service_bpo.html"
     ],
     "type": "insurer-member-portal",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-10",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000023.000034574.html"
   },
   {
     "id": "b-020d6734",
@@ -89143,7 +89299,9 @@
       "https://www.valuehr.com/service_cgm.html"
     ],
     "type": "severity-prevention-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2022-08",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000020.000034574.html"
   },
   {
     "id": "b-8cc44597",
@@ -89970,13 +90128,28 @@
     "category": "diagnostic-support",
     "description": "小型のホルター型心電計で、医療機関向けにホルター心電図検査を支援するサービスとあわせて提供する医療用バイタルセンサ。",
     "hp": "https://www.cyberdyne.jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
-      "https://www.cyberdyne.jp/products/cyvis-m100"
+      "https://www.cyberdyne.jp/products/cyvis-m100",
+      "https://prtimes.jp/main/html/rd/p/000000066.000053044.html"
     ],
     "type": "ecg-heart-sound-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2024-11-27",
+        "text": "医療機器認証を取得（認証番号306AIBZX00028000）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000066.000053044.html"
+      },
+      {
+        "date": "2025-01",
+        "text": "ホルター型心電図検査（8時間超）1,750点で保険適用可能に",
+        "source": "https://prtimes.jp/main/html/rd/p/000000066.000053044.html"
+      }
+    ],
+    "startedAt": "2024-12-10",
+    "startBasis": "製品発表（2024-11-27に医療機器認証取得、保険適用希望書受理。2025年1月以降段階的に販売開始予定）"
   },
   {
     "id": "b-4c76cca1",
@@ -90018,13 +90191,23 @@
     "category": "nursing",
     "description": "装着者の生体電位信号に基づいて腰の動きをアシストする装着型サイボーグ。介護者の移乗介助などの負担を軽くし、自立支援にも使う。",
     "hp": "https://www.cyberdyne.jp/",
-    "startedYear": null,
+    "startedYear": 2015,
     "status": "提供中",
     "sources": [
-      "https://www.cyberdyne.jp/products/hal-lumbar-bb04"
+      "https://www.cyberdyne.jp/products/hal-lumbar-bb04",
+      "https://www.cyberdyne.jp/media/25978/20260623_qr.pdf"
     ],
     "type": "excretion-care-robotics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2015-03",
+    "startBasis": "HAL腰タイプ 介護支援用の製造販売を開始（有価証券報告書の沿革）",
+    "milestones": [
+      {
+        "date": "2017-10",
+        "text": "HAL腰タイプ 自立支援用の製造販売を開始",
+        "source": "https://www.cyberdyne.jp/media/25978/20260623_qr.pdf"
+      }
+    ]
   },
   {
     "id": "b-820bdec7",
@@ -90373,13 +90556,17 @@
     "category": "health-consulting",
     "description": "入院準備や産後の育児に本当に必要なグッズがわかる、妊婦向けの準備リストアプリ。",
     "hp": "https://corp.karadanote.jp/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
+      "https://corp.karadanote.jp/",
+      "https://apps.apple.com/jp/app/id1068383217",
       "https://corp.karadanote.jp/service"
     ],
     "type": "pediatric-perinatal-support",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2016-01-06",
+    "startBasis": "App Store 初回公開日（出産・育児じゅんびリスト、Karadanote Inc.）"
   },
   {
     "id": "b-5d4e4702",
@@ -94403,7 +94590,9 @@
       "https://reif-corp.com/pit"
     ],
     "type": "rehab-robotics-prosthetics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2015-02",
+    "knownSinceSource": "https://medical.nikkeibp.co.jp/leaf/mem/pub/series/ndh/201502/540644.html"
   },
   {
     "id": "b-3460efa3",
@@ -94431,13 +94620,16 @@
     "category": "diagnostic-support",
     "description": "放射線治療の医療機関向けに、作成した治療計画情報に対する独立検証の結果をAIが予測し、独立検証のダブルチェックを行うソフトウェア。クラスI相当の単体プログラムで、治療計画AI支援プラットフォーム「RatoEra」を構成する。",
     "hp": "https://airato.jp/product/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
-      "https://airato.jp/product/"
+      "https://airato.jp/product/",
+      "https://prtimes.jp/main/html/rd/p/000000002.000119113.html"
     ],
     "type": "disease-specific-ai-samd",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-03",
+    "startBasis": "『AI支援放射線治療計画品質管理ソフトウェア』の販売を2023年3月に開始と発表（2023-03-27リリース）"
   },
   {
     "id": "b-5a60742e",
@@ -95096,13 +95288,17 @@
     "category": "health-corporate-management",
     "description": "企業の健診・ストレスチェック・勤怠データを一元管理・可視化し、産業医・産業保健師の実務から健康経営の課題発見と施策実行までを支えるクラウド。10名までの無料プランがある。",
     "hp": "https://compass.issin.cc/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
-      "https://compass.issin.cc/"
+      "https://compass.issin.cc/",
+      "https://prtimes.jp/main/html/rd/p/000000102.000103350.html",
+      "https://prtimes.jp/main/html/rd/p/000000105.000103350.html"
     ],
     "type": "employee-health-cloud",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2026-06-16",
+    "startBasis": "健康経営EXPO出展の発表で、組織の健康をAIで数値化する法人向けサービスを公表（6/29にWelly Compassとして提供開始を発表）"
   },
   {
     "id": "b-1f21d30e",
@@ -95263,13 +95459,16 @@
     "category": "disease-management-program",
     "description": "医学知見に基づく「ブレインアップ運動」の習慣化を支え、海馬の育成につながる生活習慣改善をサポートするアプリ。BrainSuiteの海馬測定結果と組み合わせて使う。神奈川県ME-BYO BRAND認定。",
     "hp": "https://www.cogsmartglobal.com/services",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
-      "https://www.cogsmartglobal.com/services"
+      "https://www.cogsmartglobal.com/services",
+      "https://apps.apple.com/jp/app/id6670759676"
     ],
     "type": "habit-smoking-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-09-23",
+    "startBasis": "App Store 初回公開日（海馬育成アプリBrainUp、CogSmart Co.,Ltd.）"
   },
   {
     "id": "b-a830c9dc",
@@ -96399,13 +96598,16 @@
     "category": "marketing-support",
     "description": "すぐに取り入れられる腸活の方法や専門家インタビューを載せる腸活ジャーナルと、腸活を楽しく学べるYouTubeチャンネル。",
     "hp": "https://unlog.co.jp/services/",
-    "startedYear": null,
+    "startedYear": 2018,
     "status": "提供中",
     "sources": [
-      "https://unlog.co.jp/services/"
+      "https://unlog.co.jp/services/",
+      "https://www.value-press.com/pressrelease/211044"
     ],
     "type": "medical-info-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2018-11-08",
+    "startBasis": "腸活特化型YouTubeチャンネル『ウンTube』配信開始のリリース（ウントピ！の開始日は不明）"
   },
   {
     "id": "b-6642d5b1",
@@ -99067,7 +99269,9 @@
       "https://healthcare-tech.co.jp/service/community-healthcare/"
     ],
     "type": "facility-remote-consultation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2021-12",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000022.000054466.html"
   },
   {
     "id": "b-72a46959",
@@ -100496,7 +100700,9 @@
       "https://www.t-pec.co.jp/"
     ],
     "type": "ai-symptom-checker",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "knownSince": "2025-05",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000064.000004524.html"
   },
   {
     "id": "b-23622bc1",
@@ -101041,13 +101247,16 @@
     "category": "medical-dx",
     "description": "臨床試験や患者調査の実施者向けに、累計5,000台以上を運用するヘルスケア専用端末「cPhone」を使って患者の日常データ収集や服薬アドヒアランス向上のためのIT環境を構築し、患者目線の医療アプリ開発も支援する。",
     "hp": "https://3h-ms.co.jp/services/healthtech",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
-      "https://3h-ms.co.jp/services/healthtech"
+      "https://3h-ms.co.jp/services/healthtech",
+      "https://prtimes.jp/main/html/rd/p/000000009.000013827.html"
     ],
     "type": "medical-it-development",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2016-04-12",
+    "startBasis": "cPhone（治験・臨床試験用携帯端末）のレンタルサービス開始の発表（当時の社名は株式会社クロエ）"
   },
   {
     "id": "b-78654eeb",
@@ -102429,13 +102638,16 @@
     "category": "health-corporate-management",
     "description": "健康経営に取り組む企業向けの社員アプリ。歩数・距離のチャレンジや社員間の歩数対決、健診結果のグラフ表示（オプション）、チャットとコインの付与・取引を備え、管理画面で全社の傾向を把握できる。",
     "hp": "https://arteryex.biz/withleaf/",
-    "startedYear": null,
+    "startedYear": 2020,
     "status": "提供中",
     "sources": [
-      "https://arteryex.biz/withleaf/"
+      "https://arteryex.biz/withleaf/",
+      "https://prtimes.jp/main/html/rd/p/000000005.000044584.html"
     ],
     "type": "corporate-wellness-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2020-09-08",
+    "startBasis": "前身の企業向け健康管理アプリ「LEAF」を一般企業向けに提供開始と発表（岩渕薬品と共同開発）"
   },
   {
     "id": "b-1be962be",
@@ -102563,13 +102775,15 @@
     "category": "pharma-marketing-support",
     "description": "製薬企業向けに、グループ会社シミック・イニジオがMR派遣などの営業受託と、医療現場との情報コミュニケーションを適正化するマーケティング支援を提供する。",
     "hp": "https://www.cmicgroup.com/solutions/pharmaceutical-solutions/cso/",
-    "startedYear": null,
+    "startedYear": 2000,
     "status": "提供中",
     "sources": [
       "https://www.cmicgroup.com/solutions/pharmaceutical-solutions/cso/"
     ],
     "type": "pharma-digital-promotion",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2000",
+    "startBasis": "公式グループ沿革：2000年にCSO（医薬品営業受託）事業を開始（月の記載なし）"
   },
   {
     "id": "b-adf8da6f",
@@ -102662,7 +102876,8 @@
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://www.cmicgroup.com/solutions/healthcare-solutions/rx-database/"
+      "https://www.cmicgroup.com/solutions/healthcare-solutions/rx-database/",
+      "https://www.harmo.biz/"
     ],
     "type": "rwd-analysis-service",
     "updatedAt": "2026-10"
@@ -104066,22 +104281,6 @@
       "https://rejob.co.jp/"
     ],
     "type": "specialty-niche-recruiting",
-    "updatedAt": "2026-10"
-  },
-  {
-    "id": "b-ee24b5a0",
-    "name": "Color遺伝性癌検査（遺伝子解析レポートサービス）",
-    "company": "エイツーシグマ",
-    "companyId": "4010401091113",
-    "category": "diagnostic-support",
-    "description": "症状や家族歴のある人と医師向けに、BRCA1/2を含む30遺伝子を米Color社のCAP・CLIA認定ラボで解析し、遺伝性の乳がん・卵巣がん・大腸がん・膵がんなどのリスクを専門チームのレポートで返す検査。",
-    "hp": "https://www.a2sigma.co.jp/service/",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://www.a2sigma.co.jp/service/"
-    ],
-    "type": "cancer-genome-analysis",
     "updatedAt": "2026-10"
   },
   {
@@ -106304,22 +106503,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-b72a7c4d",
-    "name": "リアルワールドデータソリューション（調剤レセプト・電子カルテデータ分析）",
-    "company": "harmo株式会社",
-    "companyId": "jp-114",
-    "category": "real-world-data",
-    "description": "年間最大約2,500万人分の調剤レセプトデータと、SOAPなど定性情報を持つ電子カルテデータを基盤に、製薬企業などへ多角的な分析を提供する。",
-    "hp": "https://www.harmo.biz/",
-    "startedYear": null,
-    "status": "提供中",
-    "sources": [
-      "https://www.harmo.biz/"
-    ],
-    "type": "rwd-analysis-service",
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-ab51973b",
     "name": "包括的性教育のボードゲーム「GENIE（ジニー）」",
     "company": "株式会社With Midwife",
@@ -106457,13 +106640,16 @@
     "category": "simple-inspection",
     "description": "薬の効きやすさ・副作用の出やすさに関わる遺伝子の型を調べ、将来の服薬に備える薬理遺伝学（PGx）検査サービス。",
     "hp": "https://www.ntt-precisionmedicine.co.jp/",
-    "startedYear": null,
+    "startedYear": 2026,
     "status": "提供中",
     "sources": [
-      "https://www.ntt-precisionmedicine.co.jp/service/genovision/pgx/"
+      "https://www.ntt-precisionmedicine.co.jp/service/genovision/pgx/",
+      "https://www.ntt-precisionmedicine.co.jp/news/"
     ],
     "type": "dtc-genetic-test",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2026-03-27",
+    "startBasis": "『個別化医療を身近にする遺伝子検査「Genovision PGx」を提供開始』（公式ニュースリリース）"
   },
   {
     "id": "b-99677b84",
@@ -106490,13 +106676,16 @@
     "category": "real-world-data",
     "description": "NTTグループの就業世代を対象に、遺伝子・健診・レセプトのデータを組み合わせたコホートを、製薬企業などの研究開発に活用する支援サービス。",
     "hp": "https://www.ntt-precisionmedicine.co.jp/",
-    "startedYear": null,
+    "startedYear": 2025,
     "status": "提供中",
     "sources": [
-      "https://www.ntt-precisionmedicine.co.jp/service/cohort/"
+      "https://www.ntt-precisionmedicine.co.jp/service/cohort/",
+      "https://www.ntt-precisionmedicine.co.jp/news/single/?id=20251126"
     ],
     "type": "insurer-derived-database",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2025-11-26",
+    "startBasis": "『「NTTコホート」の新サービスを本格展開開始』（約11万人の仮名加工データセットを使った統計データ提供）"
   },
   {
     "id": "b-696b4186",
@@ -106522,15 +106711,18 @@
     "category": "health-corporate-management",
     "description": "企業向けに健康経営のコンサルティングと、メンタルスキル向上、女性の健康リテラシー、運動、糖質コントロールなどのテーマ別研修を提供する。",
     "hp": "https://www.ntt-precisionmedicine.co.jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "sources": [
       "https://www.ntt-precisionmedicine.co.jp/service/kenkou-keiei/",
+      "https://www.ntt-precisionmedicine.co.jp/news/",
       "https://www.ntt-precisionmedicine.co.jp/service/mental-skill/",
       "https://www.ntt-precisionmedicine.co.jp/service/literacy/"
     ],
     "type": "corporate-wellness-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-10-16",
+    "startBasis": "『健康経営コンサルティングサービス』の提供開始（研修のうち『メンタルスキル向上研修』は2025-07-31提供開始）"
   },
   {
     "id": "b-28f6231f",
@@ -106729,16 +106921,16 @@
     "category": "disease-management-program",
     "description": "透析量（HDP）の考え方をもとに、透析患者が自分の治療と健康結果を把握・改善できるよう支えるスマートフォンアプリ。",
     "hp": "https://www.albalab.co.jp/",
-    "startedYear": null,
-    "status": "不明",
-    "endReasons": [
-      "unknown"
-    ],
+    "startedYear": 2021,
+    "status": "提供中",
     "sources": [
-      "https://www.albalab.co.jp/service"
+      "https://www.albalab.co.jp/service",
+      "https://apps.apple.com/jp/app/optimization-range-orange/id1582736330"
     ],
     "type": "lifestyle-disease-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2021-08-27",
+    "startBasis": "App Store 初回公開日（アプリ名「Optimization range [Orange]」、販売元 ALBA LAB K.K.）"
   },
   {
     "id": "b-14038a9d",
@@ -106748,13 +106940,24 @@
     "category": "marketing-support",
     "description": "透析患者が通院先や旅行先で利用できる透析施設を探せる検索サイト。",
     "hp": "https://www.albalab.co.jp/",
-    "startedYear": null,
+    "startedYear": 2016,
     "status": "提供中",
     "sources": [
-      "https://www.albalab.co.jp/"
+      "https://www.albalab.co.jp/",
+      "https://xn--3sv77an35bw0r.com/info/merger.htm",
+      "https://xn--3sv77an35bw0r.com/info/company.htm"
     ],
     "type": "hospital-search-portal",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2016-08-01",
+    "startBasis": "透析患者.comと旅行透析を統合して透析検索.comとして開設（前身の透析患者.comは2006年から、月は不明）",
+    "milestones": [
+      {
+        "date": "2016-08-01",
+        "text": "前身の「透析患者.com」と「旅行透析」を統合し「透析検索.com」として開設。運営は一般社団法人Global Alliance Toseki Support（GATS）",
+        "source": "https://xn--3sv77an35bw0r.com/info/merger.htm"
+      }
+    ]
   },
   {
     "id": "b-119c4a64",
@@ -107486,7 +107689,7 @@
     "category": "nursing",
     "description": "介護施設の見守りセンサーやバイタル機器の情報を集め、「ほのぼのNEXT」の記録に自動で連携して記録業務を省力化するクラウド。",
     "hp": "https://www.ndsoft.jp/",
-    "startedYear": null,
+    "startedYear": 2024,
     "status": "提供中",
     "milestones": [
       {
@@ -107496,10 +107699,14 @@
       }
     ],
     "sources": [
+      "https://www.ndsoft.jp/",
+      "https://www.atpress.ne.jp/news/385172",
       "https://www.ndsoft.jp/product/lot/"
     ],
     "type": "care-facility-monitoring-sensor",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2024-02-15",
+    "startBasis": "新システム『ほのぼのIoTクラウド(more)』販売開始のリリース（見守りなど各種センサーとデータ連携）"
   },
   {
     "id": "b-947be448",
@@ -107509,13 +107716,24 @@
     "category": "nursing",
     "description": "介護事業所から利用者の家族へ、請求書やお便りをスマートフォンで共有できるアプリ。",
     "hp": "https://www.ndsoft.jp/",
-    "startedYear": null,
+    "startedYear": 2023,
     "status": "提供中",
     "sources": [
+      "https://www.ndsoft.jp/",
+      "https://www.atpress.ne.jp/news/365808",
       "https://www.ndsoft.jp/product/tsunagarukazoku"
     ],
     "type": "care-record-careplan-software",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2023-08-21",
+    "startBasis": "新サービス『つながる家族』販売開始のリリース",
+    "milestones": [
+      {
+        "date": "2024-01-24",
+        "text": "障がい福祉事業所に対応",
+        "source": "https://www.atpress.ne.jp/"
+      }
+    ]
   },
   {
     "id": "b-ca84e173",
@@ -109834,13 +110052,16 @@
     "category": "health-corporate-management",
     "description": "家族の介護を抱える従業員の離職を防ぐため、企業向けに従業員の相談対応、介護と仕事の両立に関する研修、社内制度づくりの支援を行うサービス。",
     "hp": "https://welllink.co.jp/service/",
-    "startedYear": null,
+    "startedYear": 2017,
     "status": "提供中",
     "sources": [
-      "https://welllink.co.jp/service/"
+      "https://welllink.co.jp/service/",
+      "https://welllink.co.jp/company/history/"
     ],
     "type": "work-care-balance-support",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2017-04",
+    "startBasis": "公式沿革『2017年4月「介護と仕事の両立支援」サービス開始』"
   },
   {
     "id": "b-a50f6a7b",
