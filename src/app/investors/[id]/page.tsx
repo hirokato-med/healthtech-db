@@ -65,14 +65,15 @@ export default async function InvestorPage({ params }: { params: Promise<{ id: s
         <h2>出資したヘルスケア企業</h2>
         <div className="earn-wrap">
           <table className="earn-table inv-port">
-            <thead><tr><th>会社</th><th>領域</th><th>出資した月</th><th className="num">その回の調達額</th><th>ラウンド</th></tr></thead>
+            <colgroup><col /><col style={{ width: '9em' }} /><col style={{ width: '8em' }} /><col style={{ width: '8.5em' }} /><col style={{ width: '12em' }} /></colgroup>
+            <thead><tr><th>会社</th><th>領域</th><th>出資した月</th><th className="c">その回の調達総額</th><th>ラウンド</th></tr></thead>
             <tbody>
               {rows.map(({ r, c }) => (
                 <tr key={r.companyId + r.date + (r.round ?? '')}>
                   <td>{c ? <Link href={`/companies/${r.companyId}/`}>{short(c.name)}</Link> : r.companyId}{c?.exit && c.exit !== '未上場' ? <small> {c.exit}</small> : null}</td>
                   <td className="small">{c?.categories?.[0] ? categoryName(c.categories[0]) : ''}</td>
                   <td className="nw">{ymJa(r.date)}</td>
-                  <td className="num nw">{money(r.amount)}</td>
+                  <td className="c nw">{money(r.amount)}</td>
                   <td>{r.round ?? <span className="muted">—</span>}{r.lead && <em className="inv-lead">リード</em>}</td>
                 </tr>
               ))}
@@ -88,7 +89,7 @@ export default async function InvestorPage({ params }: { params: Promise<{ id: s
         </section>
       )}
       {funds.length > 0 && <p className="muted small">まとめたファンド名：{funds.join('、')}</p>}
-      <p className="muted small">出典：各社の資金調達の発表。このデータベースに載っている会社への出資だけを数えています。調達額はその回の総額で、この投資家が出した額ではありません。</p>
+      <p className="muted small">出典：各社の資金調達の発表。このデータベースに載っている会社への出資だけを数えています。調達総額はその回に集めた額の合計で、この投資家が出した額ではありません。</p>
     </>
   );
 }
