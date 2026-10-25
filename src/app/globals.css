@@ -1064,3 +1064,5 @@ a.upd-title:hover { color: var(--navy); }
 .more-btn { margin: 12px auto 0; display: block; }
 .inv-chip { padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: inherit; font-size: 12.5px; font-weight: 700; cursor: pointer; }
 .inv-chip.on { background: var(--teal); border-color: var(--teal); color: #fff; }
+.inv-port .nw { white-space: nowrap; }
+.inv-lead { font-style: normal; font-size: 10.5px; font-weight: 700; color: #a8661b; background: #fbeedb; border-radius: 4px; padding: 1px 5px; margin-left: 6px; }

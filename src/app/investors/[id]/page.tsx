@@ -22,10 +22,8 @@ export default async function InvestorPage({ params }: { params: Promise<{ id: s
   if (!i) notFound();
   const a = activity(i);
   const max = Math.max(1, ...YEARS.map((y) => a.byYear.get(y) ?? 0));
-  // 会社ごとにまとめる（最近の出資が上）
-  const byCo = new Map<string, typeof i.rounds>();
-  for (const r of i.rounds) byCo.set(r.companyId, [...(byCo.get(r.companyId) ?? []), r]);
-  const portfolio = [...byCo.entries()].map(([id, rs]) => ({ c: getCompany(id), id, rs })).sort((x, y) => (y.rs.at(-1)?.date ?? '').localeCompare(x.rs.at(-1)?.date ?? ''));
+  // 出資1回ごとに1行（新しい順）。金額は発表に書かれたもの
+  const rows = [...i.rounds].reverse().map((r) => ({ r, c: getCompany(r.companyId) }));
   // 同じ回に出資したことの多い投資家
   const key = (r: { companyId: string; date: string }) => r.companyId + r.date;
   const mine = new Set(i.rounds.map(key));
@@ -67,13 +65,15 @@ export default async function InvestorPage({ params }: { params: Promise<{ id: s
         <h2>出資したヘルスケア企業</h2>
         <div className="earn-wrap">
           <table className="earn-table inv-port">
-            <thead><tr><th>会社</th><th>領域</th><th>出資した回</th></tr></thead>
+            <thead><tr><th>会社</th><th>領域</th><th>出資した月</th><th className="num">その回の調達額</th><th>ラウンド</th></tr></thead>
             <tbody>
-              {portfolio.map(({ c, id, rs }) => (
-                <tr key={id}>
-                  <td>{c ? <Link href={`/companies/${id}/`}>{short(c.name)}</Link> : id}{c?.exit && c.exit !== '未上場' ? <small> {c.exit}</small> : null}</td>
+              {rows.map(({ r, c }) => (
+                <tr key={r.companyId + r.date + (r.round ?? '')}>
+                  <td>{c ? <Link href={`/companies/${r.companyId}/`}>{short(c.name)}</Link> : r.companyId}{c?.exit && c.exit !== '未上場' ? <small> {c.exit}</small> : null}</td>
                   <td className="small">{c?.categories?.[0] ? categoryName(c.categories[0]) : ''}</td>
-                  <td>{rs.map((r) => <span key={r.date + (r.round ?? '')} className="inv-round">{ymJa(r.date)}{r.round ? ` ${r.round}` : ''}{r.lead && <em>リード</em>}<small>{money(r.amount)}</small></span>)}</td>
+                  <td className="nw">{ymJa(r.date)}</td>
+                  <td className="num nw">{money(r.amount)}</td>
+                  <td>{r.round ?? <span className="muted">—</span>}{r.lead && <em className="inv-lead">リード</em>}</td>
                 </tr>
               ))}
             </tbody>
@@ -88,7 +88,7 @@ export default async function InvestorPage({ params }: { params: Promise<{ id: s
         </section>
       )}
       {funds.length > 0 && <p className="muted small">まとめたファンド名：{funds.join('、')}</p>}
-      <p className="muted small">出典：各社の資金調達の発表。このデータベースに載っている会社への出資だけを数えています。</p>
+      <p className="muted small">出典：各社の資金調達の発表。このデータベースに載っている会社への出資だけを数えています。調達額はその回の総額で、この投資家が出した額ではありません。</p>
     </>
   );
 }
