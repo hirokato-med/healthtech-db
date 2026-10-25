@@ -99,6 +99,8 @@ export type Service = {
   startedYear: number | null;
   /** 提供中・終了・譲渡（他社へ）・統合（合併先で継続）・休止・不明 */
   status: '提供中' | '準備中' | '終了' | '譲渡' | '統合' | '休止' | '不明';
+  /** 医療機器としての情報（PMDA の添付文書から）。無ければ承認・認証の記録が見つかっていない */
+  device?: MedicalDevice;
   /** 準備中のときの段階（研究開発中・治験中・承認申請中・承認取得（発売前）・発売予定 など） */
   stage?: string;
   tags?: string[];
@@ -229,3 +231,22 @@ export type Disclosure = { date: string; time: string; companyId: string; compan
 
 /** データの更新履歴（トップの「データの更新」と /updates/） */
 export type UpdateEntry = { date: string; kind: string; title: string; body?: string; href?: string; links?: { label: string; href: string }[]; key?: string };
+
+/** 医療機器としての情報。PMDA 医療機器の添付文書検索のページと最新の添付文書（PDF）の冒頭から */
+export type MedicalDevice = {
+  kind?: '承認' | '認証' | '届出';
+  number?: string;
+  regulatoryClass?: '一般医療機器' | '管理医療機器' | '高度管理医療機器';
+  classLabel?: string;
+  genericName?: string;
+  jmdn?: string;
+  category?: string;
+  salesName?: string;
+  maker?: string;
+  approvedAt?: string;
+  specialMaintenance?: boolean;
+  pmdaUrl: string;
+  insertUrl?: string;
+  insertDate?: string;
+  checkedAt?: string;
+};
