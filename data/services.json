@@ -3002,7 +3002,7 @@
   },
   {
     "id": "b-baab46c5",
-    "name": "HELPO（ヘルポ）／HELPOドクター",
+    "name": "LINEで完結するオンライン診療「HELPOドクター」",
     "company": "ヘルスケアテクノロジーズ株式会社",
     "companyId": "6010001195683",
     "category": "health-consulting",
@@ -3097,7 +3097,8 @@
     ],
     "lessons": "法人・自治体・保険会社・通信回線契約者など、利用者本人以外が払う経路を重ねて伸ばしている。撤退したLINEの健康相談・オンライン診療の受け皿にもなった。",
     "type": "doctor-chat-consultation",
-    "endReasonNote": "提供中のため該当なし。"
+    "endReasonNote": "提供中のため該当なし。",
+    "formerName": "HELPO（ヘルポ）／HELPOドクター"
   },
   {
     "id": "b-498b4d7b",
@@ -3146,7 +3147,7 @@
   },
   {
     "id": "b-116647d6",
-    "name": "小児科オンライン（産婦人科・小児科オンライン）",
+    "name": "小児科医へのオンライン相談「小児科オンライン」",
     "company": "株式会社Kids Public",
     "companyId": "6011501021222",
     "category": "health-consulting",
@@ -3194,7 +3195,8 @@
       "doctor-qa"
     ],
     "lessons": "個人課金ではなく、自治体の母子保健事業や企業の福利厚生として費用を払ってもらう形で定着した例とみられる。",
-    "type": "pediatric-perinatal-support"
+    "type": "pediatric-perinatal-support",
+    "formerName": "小児科オンライン（産婦人科・小児科オンライン）"
   },
   {
     "id": "b-0d360811",
@@ -13880,7 +13882,7 @@
   },
   {
     "id": "b-6bcf244f",
-    "name": "非常勤医師紹介（Gaikin）／医局向け「ネット医局」／アプリ「MRT WORK」",
+    "name": "医師の人材紹介（非常勤「Gaikin」・常勤転職サポート）",
     "company": "MRT",
     "companyId": "3011101059533",
     "category": "recruting-solutions",
@@ -13932,7 +13934,8 @@
       "medical-jobs"
     ],
     "type": "medical-staffing-agency",
-    "startBasis": "提供開始（沿革）"
+    "startBasis": "提供開始（沿革）",
+    "formerName": "非常勤医師紹介（Gaikin）／医局向け「ネット医局」／アプリ「MRT WORK」"
   },
   {
     "id": "b-5e864e51",
@@ -14942,7 +14945,7 @@
   },
   {
     "id": "b-d6b6e758",
-    "name": "中小企業向け社外健康管理室「さんぽテラス」（旧 こころめいと／セイルズ産業医事務所）・「OHMEクラウド」",
+    "name": "中小企業向け社外健康管理室「さんぽテラス」（旧 こころめいと／セイルズ産業医事務所）",
     "company": "株式会社さんぽテラス",
     "companyId": "4180001127102",
     "category": "health-corporate-management",
@@ -14990,7 +14993,8 @@
       "occupational-physician"
     ],
     "type": "occupational-health-service",
-    "startBasis": "前身「こころめいと」（社外健康管理室として2014年に開始＝既存記載）"
+    "startBasis": "前身「こころめいと」（社外健康管理室として2014年に開始＝既存記載）",
+    "formerName": "中小企業向け社外健康管理室「さんぽテラス」（旧 こころめいと／セイルズ産業医事務所）・「OHMEクラウド」"
   },
   {
     "id": "b-20140909",
@@ -16433,7 +16437,7 @@
   },
   {
     "id": "b-b62a2e0d",
-    "name": "MAPsシリーズ（調剤・医科・介護）",
+    "name": "クラウド型薬局業務支援システム「MAPs for PHARMACY（DX）」",
     "company": "株式会社イーエムシステムズ",
     "companyId": "8120001053779",
     "category": "pharmacy-dx",
@@ -16465,7 +16469,8 @@
         "text": "リニューアル版 MAPs for PHARMACY DX リリース",
         "source": "https://emsystems.co.jp/about/history.html"
       }
-    ]
+    ],
+    "formerName": "MAPsシリーズ（調剤・医科・介護）"
   },
   {
     "id": "b-74a6e6c5",
@@ -16542,7 +16547,7 @@
   },
   {
     "id": "b-2911620c",
-    "name": "データヘルス計画支援",
+    "name": "データヘルス計画の立案・作成支援",
     "company": "株式会社データホライゾン",
     "companyId": "9240001012318",
     "category": "health-insuarance-market",
@@ -16557,7 +16562,8 @@
     ],
     "updatedAt": "2026-10",
     "type": "insurer-data-health-support",
-    "startBasis": "公式沿革「2014年7月 『データヘルス計画』提供開始」"
+    "startBasis": "公式沿革「2014年7月 『データヘルス計画』提供開始」",
+    "formerName": "データヘルス計画支援"
   },
   {
     "id": "b-10e8ebce",
@@ -17000,7 +17006,7 @@
   },
   {
     "id": "b-4dc44991",
-    "name": "メディカル事業（Mighty Checker等）",
+    "name": "レセプト点検ソフト「Mighty Checker（マイティーチェッカー）」シリーズ",
     "company": "株式会社Ubicomホールディングス",
     "companyId": "8010401059998",
     "category": "electronic-health-record",
@@ -17049,7 +17055,8 @@
         "text": "クラウド型「MightyChecker Cloud X」提供開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000029.000055206.html"
       }
-    ]
+    ],
+    "formerName": "メディカル事業（Mighty Checker等）"
   },
   {
     "id": "b-fb760435",
@@ -17768,7 +17775,7 @@
   },
   {
     "id": "b-8f18a04d",
-    "name": "ケアマネジメント・オンライン（シルバーマーケティング）",
+    "name": "ケアマネジャー向けポータル「ケアマネジメント・オンライン」（シルバーマーケティング）",
     "company": "インターネットインフィニティー",
     "companyId": "2010001088949",
     "category": "marketing-support",
@@ -17789,7 +17796,8 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000176.000012000.html"
       }
     ],
-    "type": "healthcare-product-marketing"
+    "type": "healthcare-product-marketing",
+    "formerName": "ケアマネジメント・オンライン（シルバーマーケティング）"
   },
   {
     "id": "b-e6e4a923",
@@ -18503,7 +18511,7 @@
   },
   {
     "id": "b-8f2e5d4a",
-    "name": "腰楽さん（接骨院向け歩容解析サービス）",
+    "name": "歩容データ計測システム「腰楽さん」（NEC共同開発、生成AIダッシュボード）",
     "company": "アトラグループ株式会社",
     "companyId": "6120001113618",
     "category": "relaxation",
@@ -18844,7 +18852,7 @@
   },
   {
     "id": "b-306ded19",
-    "name": "Opal Clinical（Fabric Genomics）ゲノム解析ソフト",
+    "name": "ゲノム解析ソフト「Fabric Enterprise」（旧Opal Clinical、Fabric Genomics）",
     "company": "エイツーシグマ",
     "companyId": "4010401091113",
     "category": "diagnostic-support",
@@ -18875,7 +18883,8 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonNote": "エイツーシグマは「諸般の事情により」2022年12月9日でFabric Enterprise（旧Opal Clinical）のサービスを終了すると告知し、具体的な理由は示していない。"
+    "endReasonNote": "エイツーシグマは「諸般の事情により」2022年12月9日でFabric Enterprise（旧Opal Clinical）のサービスを終了すると告知し、具体的な理由は示していない。",
+    "formerName": "Opal Clinical（Fabric Genomics）ゲノム解析ソフト"
   },
   {
     "id": "b-ff18ddaf",
@@ -20608,7 +20617,7 @@
   },
   {
     "id": "b-21b24869",
-    "name": "排泄センサー「ヘルプパッド２（Helppad2）」",
+    "name": "排泄センサー「Helppad（ヘルプパッド）」シリーズ（現行 Helppad2）",
     "company": "株式会社aba",
     "companyId": "9040001064791",
     "category": "nursing",
@@ -20634,7 +20643,8 @@
         "text": "Helppad2の国内累計出荷1,000台を突破",
         "source": "https://prtimes.jp/main/html/rd/p/000000023.000044112.html"
       }
-    ]
+    ],
+    "formerName": "排泄センサー「ヘルプパッド２（Helppad2）」"
   },
   {
     "id": "b-0b05224d",
@@ -23778,7 +23788,7 @@
   },
   {
     "id": "b-79ecda25",
-    "name": "SOELUパーソナル（オンラインパーソナル）",
+    "name": "SOELUパーソナル（オンラインパーソナル、旧 UBODY）",
     "company": "SOELU株式会社",
     "companyId": "3011001099448",
     "category": "fitness",
@@ -23794,7 +23804,8 @@
     ],
     "updatedAt": "2026-10",
     "type": "personal-training",
-    "startBasis": "オンラインパーソナルのUBODY（現「SOELUパーソナル」）開始（会社沿革）"
+    "startBasis": "オンラインパーソナルのUBODY（現「SOELUパーソナル」）開始（会社沿革）",
+    "formerName": "SOELUパーソナル（オンラインパーソナル）"
   },
   {
     "id": "b-d5234537",
@@ -24383,7 +24394,7 @@
   },
   {
     "id": "b-46cfcbaf",
-    "name": "食品メーカー・小売向けデータ活用支援",
+    "name": "小売・食品メーカー向け購買データ分析ツール「SIRU＋ Biz」（ヘルスケアマーケティング）",
     "company": "シルタス株式会社",
     "companyId": "4010401128187",
     "category": "marketing-support",
@@ -24399,7 +24410,8 @@
     "updatedAt": "2026-10",
     "type": "healthcare-product-marketing",
     "startedAt": "2020-11-30",
-    "startBasis": "分析ツール「SIRU＋ Biz」提供開始（プレスリリース）"
+    "startBasis": "分析ツール「SIRU＋ Biz」提供開始（プレスリリース）",
+    "formerName": "食品メーカー・小売向けデータ活用支援"
   },
   {
     "id": "b-adef99cb",
@@ -28259,7 +28271,7 @@
   },
   {
     "id": "b-801f136c",
-    "name": "ウェルビーイング事業（妊娠を見据えた健康管理アプリ・Marbera+専門家LINE相談室）",
+    "name": "妊娠を見据えた健康管理アプリ「Marbera（マーベラ）」",
     "company": "エンパワテックソサエティー株式会社",
     "companyId": "7290001086862",
     "category": "femtech",
@@ -28293,7 +28305,8 @@
         "text": "医療法人東京桜十字と卵子凍結×プレコンセプションケアのセミナーを共催",
         "source": "https://prtimes.jp/main/html/rd/p/000000005.000051497.html"
       }
-    ]
+    ],
+    "formerName": "ウェルビーイング事業（妊娠を見据えた健康管理アプリ・Marbera+専門家LINE相談室）"
   },
   {
     "id": "b-41bc0b3d",
@@ -28932,7 +28945,7 @@
   },
   {
     "id": "b-7904f147",
-    "name": "Mobile Eye Scan（企業訪問型眼科検診）",
+    "name": "企業向け訪問型眼科検診「Mobile Eye Scan（MES）」",
     "company": "株式会社 OUI",
     "companyId": "1011101077702",
     "category": "health-corporate-management",
@@ -30207,7 +30220,7 @@
   },
   {
     "id": "b-2c19d8c1",
-    "name": "Mowl（メディカルセキュリティクラウド）",
+    "name": "医療機関向けセキュリティサービス「Mowl（マウル）」",
     "company": "MTU株式会社",
     "companyId": "jp-007",
     "category": "real-world-data",
@@ -30255,7 +30268,7 @@
   },
   {
     "id": "b-d25e0d88",
-    "name": "セカンドオピニオン・医療セキュリティクラウド・医療機関向けデジタルマーケティング",
+    "name": "セカンドオピニオンプラットフォーム事業",
     "company": "MTU株式会社",
     "companyId": "jp-007",
     "category": "health-consulting",
@@ -30268,7 +30281,8 @@
       "https://prtimes.jp/main/html/rd/p/000000009.000057423.html"
     ],
     "updatedAt": "2026-10",
-    "type": "specialist-referral"
+    "type": "specialist-referral",
+    "formerName": "セカンドオピニオン・医療セキュリティクラウド・医療機関向けデジタルマーケティング"
   },
   {
     "id": "b-acc78b24",
@@ -30463,7 +30477,7 @@
   },
   {
     "id": "b-2daa807d",
-    "name": "ジストリー（看護師スカウト転職）",
+    "name": "看護師スカウト転職「ジストリー」（旧 N/thestory）",
     "company": "株式会社thestory",
     "companyId": "jp-012",
     "category": "recruting-solutions",
@@ -30496,7 +30510,8 @@
         "text": "「N/thestory」から「ジストリー」へサービス名称とロゴを一新",
         "source": "https://prtimes.jp/main/html/rd/p/000000038.000104937.html"
       }
-    ]
+    ],
+    "formerName": "ジストリー（看護師スカウト転職）"
   },
   {
     "id": "b-fe1b6e32",
@@ -30764,7 +30779,7 @@
   },
   {
     "id": "b-198d4bfd",
-    "name": "FG-001（身体機能レコードシステム）",
+    "name": "身体機能レコードシステム「FG-001」",
     "company": "株式会社INTEP",
     "companyId": "jp-017",
     "category": "medical-data-analytics",
@@ -30907,7 +30922,7 @@
   },
   {
     "id": "b-de09a731",
-    "name": "医療機関特化SNS運用代行",
+    "name": "医療職専門のSNS採用サービス「MEDICH（メディッチ）」（SNS運用代行）",
     "company": "株式会社メドエックス",
     "companyId": "jp-022",
     "category": "recruting-solutions",
@@ -30929,7 +30944,8 @@
         "text": "南海電鉄の事業創出支援プログラム「beyond the Border」から株式会社メドエックスが設立され、SNS採用サービス「MEDICH」が本格始動",
         "source": "https://prtimes.jp/main/html/rd/p/000000001.000165966.html"
       }
-    ]
+    ],
+    "formerName": "医療機関特化SNS運用代行"
   },
   {
     "id": "b-bbfe32ab",
@@ -31365,7 +31381,7 @@
   },
   {
     "id": "b-0f85c25c",
-    "name": "コナミル（一包化散薬鑑査装置）",
+    "name": "散薬鑑査装置「コナミル」シリーズ",
     "company": "株式会社ウィズレイ",
     "companyId": "jp-030",
     "category": "pharmacy-dx",
@@ -31620,7 +31636,7 @@
   },
   {
     "id": "b-f7873bf4",
-    "name": "医学ノート／Cubec HF／Cubec PH",
+    "name": "製薬・医療機器企業向けマーケティング支援「医学ノート」",
     "company": "株式会社Cubec",
     "companyId": "jp-035",
     "category": "doctor-network",
@@ -31637,7 +31653,8 @@
     "updatedAt": "2026-10",
     "type": "doctor-education-media",
     "knownSince": "2023-08",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000124652.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000124652.html",
+    "formerName": "医学ノート／Cubec HF／Cubec PH"
   },
   {
     "id": "b-b4f9c9dd",
@@ -31815,7 +31832,7 @@
   },
   {
     "id": "b-7651d9fb",
-    "name": "CHUBEN",
+    "name": "医師向け出典つきAIエビデンス検索「CHUBEN」",
     "company": "株式会社GENSHI AI",
     "companyId": "jp-038",
     "category": "medical-dx",
@@ -31827,7 +31844,8 @@
       "https://genshi.ai/"
     ],
     "updatedAt": "2026-10",
-    "type": "ai-medical-documentation"
+    "type": "ai-medical-documentation",
+    "formerName": "CHUBEN"
   },
   {
     "id": "b-5837dc62",
@@ -31849,7 +31867,7 @@
   },
   {
     "id": "b-d52710aa",
-    "name": "MEDISMAシリーズ（予約・問診・レジ・AIクラーク・マーケティング）",
+    "name": "MEDISMAシリーズ（予約・問診）",
     "company": "株式会社HERO innovation",
     "companyId": "jp-039",
     "category": "medical-dx",
@@ -31863,7 +31881,8 @@
       "https://hero-innovation.com/"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-reservation-queue"
+    "type": "clinic-reservation-queue",
+    "formerName": "MEDISMAシリーズ（予約・問診・レジ・AIクラーク・マーケティング）"
   },
   {
     "id": "b-2ef84b2d",
@@ -32160,7 +32179,7 @@
   },
   {
     "id": "b-e2b9c391",
-    "name": "SmartFAX／メディラク AI",
+    "name": "クラウドFAX「SmartFAX」",
     "company": "株式会社Albatrus",
     "companyId": "jp-043",
     "category": "medical-saas",
@@ -32176,7 +32195,8 @@
     "updatedAt": "2026-10",
     "type": "regional-referral-discharge",
     "startedAt": "2025-09-30",
-    "startBasis": "正式リリース（プレスリリース）"
+    "startBasis": "正式リリース（プレスリリース）",
+    "formerName": "SmartFAX／メディラク AI"
   },
   {
     "id": "b-faabb61d",
@@ -33481,7 +33501,7 @@
   },
   {
     "id": "b-dba3e6c1",
-    "name": "ASISTA（米国向け義足膝継手）",
+    "name": "マイクロプロセッサ制御膝継手「ASISTA」",
     "company": "BionicM株式会社",
     "companyId": "jp-071",
     "category": "medical-device",
@@ -34739,7 +34759,7 @@
   },
   {
     "id": "b-c4ff6036",
-    "name": "自治体のプレコンセプションケア支援事業の受託",
+    "name": "自治体の卵子凍結助成・プレコンセプションケア事業の説明・相談業務の受託",
     "company": "株式会社グレイスグループ",
     "companyId": "7010401154940",
     "category": "femtech",
@@ -34767,7 +34787,8 @@
         "text": "相模原市の「プレコンセプションケア支援等事業」を受託",
         "source": "https://prtimes.jp/main/html/rd/p/000000087.000072856.html"
       }
-    ]
+    ],
+    "formerName": "自治体のプレコンセプションケア支援事業の受託"
   },
   {
     "id": "b-9a2e058a",
@@ -35274,7 +35295,7 @@
   },
   {
     "id": "b-26cdbb5b",
-    "name": "健康経営コンサルティング（健康経営優良法人の認定申請支援を含む）・ストレスチェック支援",
+    "name": "健康経営支援サービス「ヘルナビ」（健康経営優良法人の認定申請支援を含む）",
     "company": "株式会社トリートエンドワークス",
     "companyId": "7011001155370",
     "category": "health-corporate-management",
@@ -35290,7 +35311,8 @@
     "updatedAt": "2026-10",
     "type": "health-management-certification",
     "startedAt": "2024-04-01",
-    "startBasis": "サービス開始（プレスリリース）"
+    "startBasis": "サービス開始（プレスリリース）",
+    "formerName": "健康経営コンサルティング（健康経営優良法人の認定申請支援を含む）・ストレスチェック支援"
   },
   {
     "id": "b-3aefb8a8",
@@ -36972,7 +36994,7 @@
   },
   {
     "id": "b-3d67103e",
-    "name": "ソイナース西東京Ship（三鷹市）／府中Port",
+    "name": "ソイナース西東京Ship（三鷹市）",
     "company": "株式会社Medi Blanca",
     "companyId": "5011101089693",
     "category": "home-visit-nursing",
@@ -36987,7 +37009,8 @@
     ],
     "updatedAt": "2026-10",
     "type": "pediatric-visiting-nursing",
-    "startBasis": "PR TIMES（2024-10-31）11月1日に開設"
+    "startBasis": "PR TIMES（2024-10-31）11月1日に開設",
+    "formerName": "ソイナース西東京Ship（三鷹市）／府中Port"
   },
   {
     "id": "b-ee9935c7",
@@ -39263,7 +39286,7 @@
   },
   {
     "id": "b-adbc1986",
-    "name": "産後ケア施設の運営",
+    "name": "都心で“里帰り”できる産前産後ケア「Jicca（ジッカ）」",
     "company": "株式会社With Midwife",
     "companyId": "1120001224840",
     "category": "femtech",
@@ -39291,7 +39314,8 @@
         "text": "実証レポートを公表",
         "source": "https://prtimes.jp/main/html/rd/p/000000121.000057629.html"
       }
-    ]
+    ],
+    "formerName": "産後ケア施設の運営"
   },
   {
     "id": "b-4e52bca3",
@@ -39814,7 +39838,7 @@
   },
   {
     "id": "b-c48a4c0a",
-    "name": "調査レポート・Quick調査、データ提供",
+    "name": "医師向けクイックサーベイ「TenQuick」・調査レポート・データ提供",
     "company": "株式会社インテージヘルスケア",
     "companyId": "jp-125",
     "category": "pharma-marketing-support",
@@ -39836,7 +39860,8 @@
         "text": "インテージグループのアスクレップとアンテリオが経営統合に向けて新社名を発表（インテージヘルスケアの発足へ）",
         "source": "https://prtimes.jp/main/html/rd/p/000000422.000001551.html"
       }
-    ]
+    ],
+    "formerName": "調査レポート・Quick調査、データ提供"
   },
   {
     "id": "b-fb214c66",
@@ -40203,7 +40228,7 @@
   },
   {
     "id": "b-dea4e363",
-    "name": "アカデミックサービス（RWDデータベース研究支援）・DRiFOs",
+    "name": "アカデミックサービス（RWDデータベース研究支援）",
     "company": "株式会社4DIN",
     "companyId": "jp-129",
     "category": "real-world-data",
@@ -40216,7 +40241,8 @@
       "https://4din.com/drifos"
     ],
     "updatedAt": "2026-10",
-    "type": "rwd-analysis-service"
+    "type": "rwd-analysis-service",
+    "formerName": "アカデミックサービス（RWDデータベース研究支援）・DRiFOs"
   },
   {
     "id": "b-5483e811",
@@ -45354,7 +45380,7 @@
   },
   {
     "id": "b-90330c10",
-    "name": "RatoAI",
+    "name": "放射線治療計画AI支援ソフトウェア「RatoAI」",
     "company": "アイラト株式会社",
     "companyId": "3020001145541",
     "category": "diagnostic-support",
@@ -45379,7 +45405,8 @@
         "text": "放射線治療計画デザインソフトウェア RatoAI：放射線治療計画プログラムとして製造販売承認（改良医療機器・臨床なし）（承認番号30800BZX00163000）",
         "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
       }
-    ]
+    ],
+    "formerName": "RatoAI"
   },
   {
     "id": "b-6d7cd797",
@@ -46580,7 +46607,7 @@
   },
   {
     "id": "b-d57c557a",
-    "name": "issin 特定保健指導・健康経営支援（法人向け）",
+    "name": "特定保健指導・生活習慣改善プログラム「スマートデイリー」（受託）",
     "company": "ｉｓｓｉｎホールディングス株式会社",
     "companyId": "7010001230464",
     "category": "health-insuarance-market",
@@ -46606,7 +46633,8 @@
         "text": "VCスタートアップ健康保険組合に提供開始",
         "source": "https://sd.issin.cc/tokuteihoken"
       }
-    ]
+    ],
+    "formerName": "issin 特定保健指導・健康経営支援（法人向け）"
   },
   {
     "id": "b-4f2cdb5d",
@@ -47296,7 +47324,7 @@
   },
   {
     "id": "b-dc69dc11",
-    "name": "Aria Rika 授乳支援サービス",
+    "name": "授乳支援サービス「Lacco」",
     "company": "Ａｒｉａ Ｒｉｋａ株式会社",
     "companyId": "2021001082890",
     "category": "femtech",
@@ -47312,7 +47340,8 @@
       "https://prtimes.jp/main/html/rd/p/000000005.000150265.html"
     ],
     "type": "femtech-postpartum-childcare",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "Aria Rika 授乳支援サービス"
   },
   {
     "id": "b-a55b8b11",
@@ -50239,7 +50268,7 @@
   },
   {
     "id": "b-ba2050af",
-    "name": "ストレススキャン",
+    "name": "セルフコンディショニングアプリ「Habitone」（旧 ストレススキャン）",
     "company": "株式会社DUMSCO",
     "companyId": "1010001132699",
     "category": "mental-health",
@@ -50267,7 +50296,8 @@
         "text": "6万ダウンロード突破",
         "source": "https://www.dumsco.com/"
       }
-    ]
+    ],
+    "formerName": "ストレススキャン"
   },
   {
     "id": "b-5cac897b",
@@ -58184,7 +58214,7 @@
   },
   {
     "id": "b-7650691d",
-    "name": "MoonWalker（暗所視支援眼鏡）",
+    "name": "暗所視支援眼鏡「MoonWalker」（旧 HOYA MW10 HiKARI）",
     "company": "ViXion株式会社",
     "companyId": "3011101093838",
     "category": "medical-device",
@@ -58216,11 +58246,12 @@
         "text": "5年ぶりの全面刷新モデル「MoonWalker」（MW10N）発売。表示領域約4倍・価格約35%減",
         "source": "https://prtimes.jp/main/html/rd/p/000000130.000105928.html"
       }
-    ]
+    ],
+    "formerName": "MoonWalker（暗所視支援眼鏡）"
   },
   {
     "id": "b-9389e64f",
-    "name": "ViXion01／ViXion2（オートフォーカスアイウェア）",
+    "name": "オートフォーカスアイウェア「ViXion」シリーズ（ViXion01／01S／ViXion2／2 Pro）",
     "company": "ViXion株式会社",
     "companyId": "3011101093838",
     "category": "medical-device",
@@ -58249,7 +58280,8 @@
         "text": "視野約2.4倍の後継「ViXion2」発売、法人向けViXion2 Proも追加",
         "source": "https://prtimes.jp/main/html/rd/p/000000117.000105928.html"
       }
-    ]
+    ],
+    "formerName": "ViXion01／ViXion2（オートフォーカスアイウェア）"
   },
   {
     "id": "b-b8344d8c",
@@ -58795,7 +58827,7 @@
   },
   {
     "id": "b-2f703c9a",
-    "name": "リンクパレット／お薬パレット",
+    "name": "患者向けトータルPHRアプリ「LiNQ-Palette｜リンクパレット」（お薬パレットほか）",
     "company": "株式会社メディエイド",
     "category": "pharmacy-dx",
     "description": "「さくら薬局健康おくすり手帳」の運営も担うメディエイドが提供する電子お薬手帳・健康支援アプリ。薬局システム連携、服薬のプッシュ通知、相互作用アラート、バイタル記録の機能がある。厚労省の電子版お薬手帳一覧に掲載。",
@@ -58824,7 +58856,8 @@
         "source": "https://mediaid.co.jp/company/"
       }
     ],
-    "companyId": "5010001091611"
+    "companyId": "5010001091611",
+    "formerName": "リンクパレット／お薬パレット"
   },
   {
     "id": "b-0cc57593",
@@ -59351,7 +59384,7 @@
   },
   {
     "id": "b-1ca1bc5f",
-    "name": "CureApp HT 高血圧治療補助アプリ",
+    "name": "高血圧治療補助アプリ「CureApp 血圧」（旧CureApp HT）",
     "company": "CureApp",
     "companyId": "2011101070788",
     "category": "medical-device",
@@ -59380,7 +59413,8 @@
         "text": "「CureApp HT 高血圧治療補助アプリ」から「CureApp 血圧」に名称変更",
         "source": "https://prtimes.jp/main/html/rd/p/000000272.000015777.html"
       }
-    ]
+    ],
+    "formerName": "CureApp HT 高血圧治療補助アプリ"
   },
   {
     "id": "b-64df1e9c",
@@ -67557,7 +67591,7 @@
   },
   {
     "id": "b-6ea84069",
-    "name": "PharumoEvery（EveryPick）",
+    "name": "クラウド型ピッキング監査システム「EveryPick」",
     "company": "ファルモ",
     "companyId": "2010901030365",
     "category": "pharmacy-dx",
@@ -67589,7 +67623,8 @@
         "text": "キリン堂が全店展開",
         "source": "https://prtimes.jp/main/html/rd/p/000000032.000049119.html"
       }
-    ]
+    ],
+    "formerName": "PharumoEvery（EveryPick）"
   },
   {
     "id": "b-36be151e",
@@ -78016,7 +78051,7 @@
   },
   {
     "id": "b-22bf5b63",
-    "name": "生涯健康銀行「HealthGrid Bank」",
+    "name": "生涯健康銀行「Bank of Health」",
     "company": "ヘルスグリッド株式会社",
     "companyId": "7010401097058",
     "category": "personal-health-record",
@@ -78059,7 +78094,8 @@
       "https://prtimes.jp/main/html/rd/p/000000001.000035494.html"
     ],
     "type": "phr-data-platform",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "生涯健康銀行「HealthGrid Bank」"
   },
   {
     "id": "b-e27969f1",
@@ -78120,7 +78156,7 @@
   },
   {
     "id": "b-2bca0a42",
-    "name": "受託DNA合成・DNAシーケンス",
+    "name": "受託DNA/RNA・修飾核酸合成、DNAシーケンス・NGS解析",
     "company": "北海道システム・サイエンス株式会社",
     "companyId": "9430001022058",
     "category": "simple-inspection",
@@ -78151,11 +78187,12 @@
       "https://bio.nikkeibp.co.jp/atcl/news/p1/24/07/16/12155/"
     ],
     "type": "contract-lab-omics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "受託DNA合成・DNAシーケンス"
   },
   {
     "id": "b-5d2e12cb",
-    "name": "iPS/ES細胞用の細胞培養基材",
+    "name": "細胞培養基材「iMatrix」シリーズ（ラミニンE8断片：iMatrix-511など）",
     "company": "株式会社マトリクソーム",
     "companyId": "4120901036226",
     "category": "pharma",
@@ -78190,7 +78227,8 @@
       "https://www.seitaikai.com/post/matrixome"
     ],
     "type": "life-science-tools",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "iPS/ES細胞用の細胞培養基材"
   },
   {
     "id": "b-72b7d6bf",
@@ -78483,7 +78521,7 @@
   },
   {
     "id": "b-8def91fd",
-    "name": "ポータブル電子内視鏡（嚥下内視鏡検査）",
+    "name": "ポータブル嚥下内視鏡「VEスコープ」（マルチビュアー電子内視鏡）",
     "company": "リブト株式会社",
     "companyId": "6010001138782",
     "category": "medical-device",
@@ -78510,7 +78548,8 @@
       "https://www.ey.com/ja_jp/insights/health/aiming-for-a-society-where-people-eat-from-their-mouths-for-the-rest-of-their-lives"
     ],
     "type": "endoscope-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "ポータブル電子内視鏡（嚥下内視鏡検査）"
   },
   {
     "id": "b-4f233c8c",
@@ -84430,7 +84469,7 @@
   },
   {
     "id": "b-e68ca27e",
-    "name": "歯槽骨の骨再生医療",
+    "name": "歯槽骨再生治療「TE-BONE」",
     "company": "株式会社TESホールディングス",
     "companyId": "7010001125152",
     "category": "pharma",
@@ -84481,7 +84520,8 @@
       "https://www.u-tokyo.ac.jp/focus/ja/press/p01_230331.html"
     ],
     "type": "regenerative-cell-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "歯槽骨の骨再生医療"
   },
   {
     "id": "b-42a69451",
@@ -84974,7 +85014,7 @@
   },
   {
     "id": "b-48408562",
-    "name": "手術トレーニング用の生体臓器モデル（ウェットシミュレータ）",
+    "name": "手術トレーニング用ウェットシミュレータ（PVA製の臓器・血管・シート・骨モデル）",
     "company": "ウェトラブ株式会社",
     "companyId": "8120001170153",
     "category": "surgical-support",
@@ -85002,7 +85042,8 @@
     "type": "surgical-education",
     "updatedAt": "2026-10",
     "knownSince": "2022-03",
-    "knownSinceSource": "https://www.ryukoku.ac.jp/nc/news/entry-10171.html"
+    "knownSinceSource": "https://www.ryukoku.ac.jp/nc/news/entry-10171.html",
+    "formerName": "手術トレーニング用の生体臓器モデル（ウェットシミュレータ）"
   },
   {
     "id": "b-d0050c09",
@@ -86163,7 +86204,7 @@
   },
   {
     "id": "b-9dcbb0d5",
-    "name": "医療業界向け営業支援・顧客管理（Salesforce）コンサルティングと医療機関リスト",
+    "name": "医薬・医療機器メーカー向けSFA/CRM（Salesforce）導入コンサルティング",
     "company": "フロッグウェル株式会社",
     "companyId": "2010901026512",
     "category": "pharma-marketing-support",
@@ -86182,7 +86223,8 @@
       "https://www.nikkei.com/article/DGXZQOUC076320X00C23A8000000/"
     ],
     "type": "medical-master-data",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "医療業界向け営業支援・顧客管理（Salesforce）コンサルティングと医療機関リスト"
   },
   {
     "id": "b-a06b97a1",
@@ -86704,7 +86746,7 @@
   },
   {
     "id": "b-4a9c5b01",
-    "name": "がん検出用蛍光試薬（ナビゲーションドラッグ）",
+    "name": "がんを蛍光で光らせる術中ナビゲーションドラッグ（開発）",
     "company": "五稜化薬株式会社",
     "companyId": "5430001045847",
     "category": "simple-inspection",
@@ -86733,7 +86775,8 @@
       "https://www.atpress.ne.jp/news/363772"
     ],
     "type": "next-gen-test-tech",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "がん検出用蛍光試薬（ナビゲーションドラッグ）"
   },
   {
     "id": "b-7f525c42",
@@ -96093,7 +96136,7 @@
   },
   {
     "id": "b-29756042",
-    "name": "法人向け健康経営クラウド（issin Compass）",
+    "name": "法人向け健康経営クラウド「Welly Compass」",
     "company": "ｉｓｓｉｎホールディングス株式会社",
     "companyId": "7010001230464",
     "category": "health-corporate-management",
@@ -96109,7 +96152,8 @@
     "type": "employee-health-cloud",
     "updatedAt": "2026-10",
     "startedAt": "2026-06-16",
-    "startBasis": "健康経営EXPO出展の発表で、組織の健康をAIで数値化する法人向けサービスを公表（6/29にWelly Compassとして提供開始を発表）"
+    "startBasis": "健康経営EXPO出展の発表で、組織の健康をAIで数値化する法人向けサービスを公表（6/29にWelly Compassとして提供開始を発表）",
+    "formerName": "法人向け健康経営クラウド（issin Compass）"
   },
   {
     "id": "b-1f21d30e",

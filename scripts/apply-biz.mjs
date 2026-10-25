@@ -22,7 +22,7 @@ const outs = process.argv.slice(2).map((f) => JSON.parse(fs.readFileSync(f, 'utf
 const services = JSON.parse(fs.readFileSync(F, 'utf8'));
 const byId = new Map(services.map((s) => [s.id, s]));
 const REASONS = new Set(['regulation', 'reimbursement', 'no-payer', 'workflow', 'evidence', 'funding', 'parent-strategy', 'acquisition', 'competition', 'team', 'infrastructure', 'unknown']);
-const STATUS = new Set(['提供中', '終了', '譲渡', '統合', '休止', '不明']);
+const STATUS = new Set(['提供中', '準備中', '終了', '譲渡', '統合', '休止', '不明']);
 const asOf = new Date().toISOString().slice(0, 7);
 let started = 0, stopped = 0, removed = 0, skippedFounding = 0, known = 0, miles = 0, cleared = 0;
 const drop = new Set();
@@ -31,6 +31,8 @@ for (const o of outs) {
     const s = byId.get(u.id);
     if (!s) continue;
     if (u.remove) { drop.add(s.id); removed++; continue; }
+    // 名前の変更（前の名前は formerName に残す）
+    if (u.name && u.name.trim() !== s.name) { s.formerName ??= s.name; s.name = u.name.trim(); }
     if (/^\d{4}(-\d{2}){0,2}$/.test(u.startedAt ?? '')) {
       // 会社設立の日付、Wikipedia、後年の資料からの逆算は開始時期に使わない（一次情報だけ）
       // 何の日付か（startBasis）があればそれで、なければ note で判断する
@@ -50,7 +52,9 @@ for (const o of outs) {
       if (!s.milestones.some((x) => x.date === m.date && x.text.slice(0, 12) === m.text.slice(0, 12))) { s.milestones.push(m); miles++; }
       s.milestones.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
     }
-    if (u.status && STATUS.has(u.status) && u.status !== s.status) { if (u.status !== '提供中') stopped++; s.status = u.status; }
+    if (u.status && STATUS.has(u.status) && u.status !== s.status) { if (!['提供中', '準備中'].includes(u.status)) stopped++; s.status = u.status; }
+    // 準備中（開発・治験・申請中）は段階を持ち、止まった理由・終了日は持たない
+    if (s.status === '準備中') { if (u.stage) s.stage = u.stage; delete s.endedAt; delete s.endReasons; delete s.endReasonNote; } else delete s.stage;
     if (u.endedAt) s.endedAt = u.endedAt;
     if (u.endReasons?.length) s.endReasons = u.endReasons.filter((r) => REASONS.has(r));
     if (u.endReasonNote) s.endReasonNote = u.endReasonNote;
