@@ -125,8 +125,8 @@ export type Service = {
   adopters?: { name: string; app?: string; since?: string; source?: string }[];
 };
 
-/** 事業の種類（カテゴリの下の分け方） */
-export type BizType = { slug: string; name: string; description: string; theme?: string; category: string };
+/** 事業の種類（カテゴリの下の分け方）。scope "adjacent" はデジタルヘルスの周辺（製薬・卸・施設運営など） */
+export type BizType = { slug: string; name: string; description: string; theme?: string; category: string; scope?: "adjacent" };
 
 export type Theme = { slug: string; name: string; lead: string; articles?: string[] };
 
