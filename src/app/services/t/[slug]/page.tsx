@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { END_REASONS, STOPPED, categoryName, getArticles, getBizType, getBizTypes, getThemes, servicesOfType } from '@/lib/data';
 import { ym } from '@/lib/ym';
 import { STAGES, StageBadge, stageIndex } from '@/components/StageBadge';
+import { DeviceTag } from '@/components/DeviceInfo';
 
 export function generateStaticParams() {
   return getBizTypes().map((t) => ({ slug: t.slug }));
@@ -68,7 +69,7 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
         <p className="lead">{t.description}</p>
       </div>
       <section className="bt-kpi">
-        <div><span>記録した事業</span><b>{items.length}件</b><small>{dated.length ? `${Math.floor(min)}年〜` : ''}{items.some((x) => x.approx) ? `・うち開始時期不明 ${items.filter((x) => x.approx).length}件` : ''}</small></div>
+        <div><span>記録した事業</span><b>{items.length}件</b><small>{dated.length ? `${Math.floor(min)}年〜` : ''}{items.some((x) => x.approx) ? `・うち開始時期不明 ${items.filter((x) => x.approx).length}件` : ''}{items.some((x) => x.s.device) ? `・医療機器 ${items.filter((x) => x.s.device).length}件` : ''}</small></div>
         <div><span>いま提供中</span><b>{live.length}件</b>{prep.length > 0 && <small>ほかに準備中 {prep.length}件</small>}</div>
         <div><span>止まった事業</span><b>{stopped.length}件</b><small>終了・譲渡・統合・休止</small></div>
         <div><span>止まった事業が続いた年数</span><b>{avg !== null ? `平均 ${avg.toFixed(1)}年` : '—'}</b><small>{lived.length ? `${lived.length}件の平均` : ''}</small></div>
@@ -85,7 +86,7 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
           <div className="tc-axis">{years.map((y) => <span key={y} style={{ left: pct(y) }}>{y}</span>)}</div>
           {dated.map(({ s, a, b, approx }) => (
             <div className="tc-row" key={s.id}>
-              <Link href={`/services/${s.id}/`} className="tc-label">{s.name}<small>{short(s.company)}</small></Link>
+              <Link href={`/services/${s.id}/`} className="tc-label">{s.name}<DeviceTag s={s} /><small>{short(s.company)}</small></Link>
               <div className="tc-track">
                 {years.map((y) => <i key={y} className="tc-grid" style={{ left: pct(y) }} />)}
                 <span className={`tc-bar st-${s.status}${approx ? ' approx' : ''}`} style={{ left: pct(a as number), width: `max(6px, calc(${pct(b ?? (a as number) + 0.5)} - ${pct(a as number)}))` }} title={`${approx ? `開始時期は不明（${ym(s.knownSince)}には提供を確認）` : ym(s.startedAt) || s.startedYear + '年'} 〜 ${STOPPED.includes(s.status) ? ym(s.endedAt) + ' ' + s.status : '提供中'}`} />

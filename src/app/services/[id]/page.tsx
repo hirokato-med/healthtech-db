@@ -3,9 +3,10 @@ import Link from 'next/link';
 import { withBase } from '@/lib/base';
 import { notFound } from 'next/navigation';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { END_REASONS, categoryName, getBizType, getCompany, getService, getServices, servicesIn } from '@/lib/data';
+import { END_REASONS, categoryName, getBizType, getCompany, getService, getServices, servicesIn, servicesOfType } from '@/lib/data';
 import { ym } from '@/lib/ym';
 import { StageBadge } from '@/components/StageBadge';
+import { DevicePanel, DeviceTag } from '@/components/DeviceInfo';
 
 export function generateStaticParams() {
   return getServices().map((s) => ({ id: s.id }));
@@ -22,6 +23,8 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
   const company = s.companyId ? getCompany(s.companyId) : undefined;
   const bt = s.type ? getBizType(s.type) : undefined;
   const siblings = servicesIn(s.category).filter((x) => x.id !== s.id).slice(0, 6);
+  // 医療機器の情報は、医療機器の事業か、医療機器が並ぶ種類（画像診断AI など）の事業で出す
+  const showDevice = !!s.device || s.status === '準備中' || (!!s.type && servicesOfType(s.type).some((x) => x.device));
   return (
     <>
       <nav className="breadcrumb" aria-label="パンくず">
@@ -32,7 +35,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
         <div className="kicker">Business</div>
         <h1>{s.name}</h1>
         <p className="svc-provider">{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : s.company}の事業</p>
-        <div className="chips" style={{ marginTop: 10 }}><span className={`badge st-${s.status}`}>{s.status}</span>{s.status === '準備中' && <StageBadge stage={s.stage} />}<Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
+        <div className="chips" style={{ marginTop: 10 }}><span className={`badge st-${s.status}`}>{s.status}</span>{s.status === '準備中' && <StageBadge stage={s.stage} />}<DeviceTag s={s} /><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
         <p className="lead">{s.description}</p>
       </div>
       <div className="two-col">
@@ -46,6 +49,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
               {s.lessons && <p className="lessons"><b className="kato-label"><img src={withBase('/images/kato-avatar.jpg')} alt="" width={22} height={22} />加藤浩晃の見立て</b>{s.lessons}</p>}
             </section>
           )}
+          {showDevice && <DevicePanel s={s} />}
           {(s.startedAt || s.startedYear || s.milestones?.length || s.endedAt) && (
             <section className="panel">
               <h3>経過</h3>
