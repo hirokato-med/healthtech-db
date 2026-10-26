@@ -250,3 +250,7 @@ export type MedicalDevice = {
   insertDate?: string;
   checkedAt?: string;
 };
+
+/** 投資家（資金調達の引受先をまとめたもの）。scripts/build-investors.mjs が data/investors.json に書く */
+export type InvestorRound = { companyId: string; date: string; round?: string; type?: string; amount: number | null; lead: boolean; with?: string[]; source?: string };
+export type Investor = { id: string; name: string; type: string; aliases: string[]; companies: number; rounds: InvestorRound[] };
