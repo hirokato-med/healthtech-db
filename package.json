@@ -11,7 +11,7 @@
     "import:companies": "python3 -I scripts/import_companies.py",
     "news:fetch": "node pipeline/news.mjs",
     "search:index": "node scripts/build-search-index.mjs",
-    "prebuild": "node scripts/build-relations.mjs && node scripts/build-search-index.mjs",
+    "prebuild": "node scripts/build-relations.mjs && node scripts/build-search-index.mjs && node scripts/build-investors.mjs",
     "check": "node scripts/check-data.mjs"
   },
   "dependencies": {
