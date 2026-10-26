@@ -6,6 +6,8 @@ export type Category = {
 };
 
 export type Company = {
+  /** 上場企業のグループ会社（子会社・関連会社と、以前の子会社） */
+  group?: CompanyGroup;
   id: string;
   name: string;
   hp: string;
@@ -254,3 +256,8 @@ export type MedicalDevice = {
 /** 投資家（資金調達の引受先をまとめたもの）。scripts/build-investors.mjs が data/investors.json に書く */
 export type InvestorRound = { companyId: string; date: string; round?: string; type?: string; amount: number | null; lead: boolean; with?: string[]; source?: string };
 export type Investor = { id: string; name: string; type: string; aliases: string[]; companies: number; rounds: InvestorRound[] };
+
+/** 上場企業のグループ会社（有価証券報告書の「関係会社の状況」・沿革から） */
+export type GroupMember = { name: string; formerName?: string; relation: string; address?: string; capital?: number; business?: string; voting?: number; whollyOwnedAtAcquisition?: boolean; note?: string; since?: string };
+export type FormerMember = { name: string; formerName?: string; since?: string; end?: string; how: string; note?: string };
+export type CompanyGroup = { asOf: string; sourceLabel: string; source: string; consolidated?: number; equityMethod?: number; members: GroupMember[]; former?: FormerMember[] };

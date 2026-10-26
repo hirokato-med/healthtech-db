@@ -1074,3 +1074,8 @@ a.upd-title:hover { color: var(--navy); }
 .exit-box.ex-バイアウト, .exit-box.ex-合併 { color: #b45309; border-color: #b45309; background: #fff4e5; }
 .exit-box.ex-上場 { color: #1d4ed8; border-color: #1d4ed8; background: #eaf1ff; }
 .exit-box.ex-閉鎖, .exit-box.ex-活動停止 { color: #6b6259; border-color: #9a9087; background: #f3f1ee; }
+/* グループ会社 */
+.grp-table td small { display: block; color: var(--muted); font-size: 11.5px; }
+.grp-table .c { text-align: center; }
+.grp-table .nw { white-space: nowrap; }
+.grp-table .exit-box { margin-left: 0; }

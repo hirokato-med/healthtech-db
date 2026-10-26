@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { GroupPanel } from '@/components/GroupPanel';
 import { notFound } from 'next/navigation';
 import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
@@ -192,6 +193,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               <p className="muted small" style={{ marginTop: 8 }}><Link href={`/earnings/${c.id}/`} className="arrow">{c.name}の決算ページ（推移のグラフ・決算資料）</Link>　<Link href="/earnings/" className="arrow">上場ヘルスケア企業の決算一覧</Link></p>
             </section>
           )}
+
+          {c.group && <GroupPanel g={c.group} />}
 
           <section className="panel">
             <h3>事業・サービス</h3>
