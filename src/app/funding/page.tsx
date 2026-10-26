@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { EarningsBars } from '@/components/EarningsBars';
-import { findCompanyByName, getCompanies, getFundings } from '@/lib/data';
+import { findCompanyByName, getCompanies, getFundings, getInvestors } from '@/lib/data';
 import { money } from '@/lib/earnings';
 import { fundingSummary, investorKey, isRaise, roundLabel, ymJa } from '@/lib/funding';
 
@@ -40,6 +40,9 @@ export default function FundingPage() {
       inv.set(k, e);
     }
   }
+  // 投資家ページ（2社以上に出資）があれば、そちらへつなぐ
+  const ikey = (s: string) => s.normalize('NFKC').replace(/株式会社|合同会社|有限会社|[\s・･.,、]/g, '').toLowerCase();
+  const invPage = new Map(getInvestors().filter((x) => x.companies >= 2).map((x) => [ikey(x.name), x.id]));
   const investors = [...inv.values()].filter((e) => e.ids.size >= 3).sort((a, b) => b.ids.size - a.ids.size || b.leads - a.leads).slice(0, 25);
 
   // 年ごとの件数と公表額
@@ -114,7 +117,7 @@ export default function FundingPage() {
 
         <section id="investors" className="ma-sec">
           <h2>よく出てくる引受先</h2>
-          <p className="muted small">掲載企業のうち何社に出資したか（3社以上）。ファンド名はかっこ書きを外して運営会社の名前でまとめています。</p>
+          <p className="muted small">掲載企業のうち何社に出資したか（3社以上）。ファンド名はかっこ書きを外して運営会社の名前でまとめています。<Link href="/investors/">投資家ごとの出資先と時期は「投資家」のページへ →</Link></p>
           <ol className="fund-rank">
             {investors.map((e, i) => {
               const o = findCompanyByName(e.name);
@@ -122,7 +125,7 @@ export default function FundingPage() {
                 <li key={e.name}>
                   <span className="n">{i + 1}</span>
                   <span>
-                    {o ? <Link href={`/companies/${o.id}/`}>{e.name}</Link> : e.name}
+                    {invPage.get(ikey(e.name)) ? <Link href={`/investors/${invPage.get(ikey(e.name))}/`}>{e.name}</Link> : o ? <Link href={`/companies/${o.id}/`}>{e.name}</Link> : e.name}
                     <small>{[...e.ids].slice(0, 5).map((id) => short(byId[id]?.name ?? '')).join('、')}{e.ids.size > 5 ? ` ほか${e.ids.size - 5}社` : ''}</small>
                   </span>
                   <span className="v">{e.ids.size}社{e.leads ? <small>リード {e.leads}回</small> : null}</span>
