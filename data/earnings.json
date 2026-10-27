@@ -2729,6 +2729,26 @@
   "reports": [
    {
     "fiscalYear": "2026年12月期",
+    "quarter": "Q3",
+    "label": "2026年12月期 第3四半期",
+    "date": "2026-10-27",
+    "title": "2026年12月期第３四半期決算短信〔ＩＦＲＳ〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 1068074,
+     "operatingIncome": 522570,
+     "netIncome": 375302
+    },
+    "prior": {
+     "revenue": 911640,
+     "operatingIncome": 429827,
+     "netIncome": 305602
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261026556449.pdf",
+    "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2026年12月期",
     "quarter": "Q2",
     "label": "2026年12月期 第2四半期（中間期）",
     "date": "2026-07-24",
@@ -6859,6 +6879,31 @@
  "6010801003186": {
   "code": "7751",
   "reports": [
+   {
+    "fiscalYear": "2026年12月期",
+    "quarter": "Q3",
+    "label": "2026年12月期 第3四半期",
+    "date": "2026-10-27",
+    "title": "2026年12月期 第3四半期決算短信〔米国基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 3433357,
+     "operatingIncome": 327684,
+     "ordinaryIncome": 358442
+    },
+    "prior": {
+     "revenue": 3302891,
+     "operatingIncome": 302355,
+     "ordinaryIncome": 314149
+    },
+    "forecast": {
+     "revenue": 4766000,
+     "operatingIncome": 456000,
+     "ordinaryIncome": 483000
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261027556569.pdf",
+    "source": "TDnet XBRL"
+   },
    {
     "fiscalYear": "2026年12月期",
     "quarter": "Q2",
