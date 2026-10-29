@@ -3114,6 +3114,34 @@
   "reports": [
    {
     "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-10-29",
+    "title": "2027年3月期第2四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 350377,
+     "operatingIncome": 115244,
+     "ordinaryIncome": 107257,
+     "netIncome": 119546
+    },
+    "prior": {
+     "revenue": 212965,
+     "operatingIncome": 73977,
+     "ordinaryIncome": 97590,
+     "netIncome": 82999
+    },
+    "forecast": {
+     "revenue": 720000,
+     "operatingIncome": 230000,
+     "ordinaryIncome": 220500,
+     "netIncome": 212500
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261029559017.pdf",
+    "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2027年3月期",
     "quarter": "Q1",
     "label": "2027年3月期 第1四半期",
     "date": "2026-08-03",
@@ -3188,11 +3216,60 @@
     "source": "決算短信",
     "note": "経常利益欄はIFRSの税引前利益（ヴィーブ社からの配当金を含む）。単一セグメント（医療用医薬品の研究開発・仕入・製造・販売）。売上収益の内訳（億円）：国内医療用医薬品1,235、海外事業650、ヴィーブ社からのロイヤリティー2,613。次期予想は鳥居薬品・JT医薬事業・エダラボン事業の通期寄与を織り込む。"
    }
+  ],
+  "revisions": [
+   {
+    "date": "2026-10-29",
+    "title": "2027年3月期 業績予想および年間配当予想の修正（増配）に関するお知らせ",
+    "fiscalYear": "2027年3月期",
+    "consolidated": true,
+    "previous": {
+     "revenue": 700000,
+     "operatingIncome": 220000,
+     "ordinaryIncome": 220000,
+     "netIncome": 210000
+    },
+    "revised": {
+     "revenue": 720000,
+     "operatingIncome": 230000,
+     "ordinaryIncome": 220500,
+     "netIncome": 212500
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261029559193.pdf"
+   }
   ]
  },
  "7120001077374": {
   "code": "4528",
   "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-10-29",
+    "title": "2027年３月期第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 232504,
+     "operatingIncome": 57907,
+     "ordinaryIncome": 58418,
+     "netIncome": 44930
+    },
+    "prior": {
+     "revenue": 257136,
+     "operatingIncome": 52069,
+     "ordinaryIncome": 52175,
+     "netIncome": 40089
+    },
+    "forecast": {
+     "revenue": 455000,
+     "operatingIncome": 94000,
+     "ordinaryIncome": 94000,
+     "netIncome": 71000
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261028557958.pdf",
+    "source": "TDnet XBRL"
+   },
    {
     "fiscalYear": "2027年3月期",
     "quarter": "Q1",
