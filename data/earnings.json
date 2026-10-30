@@ -3648,6 +3648,31 @@
   "reports": [
    {
     "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-10-30",
+    "title": "2027年3月期第2四半期（中間期）決算短信〔IFRS〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 266490,
+     "operatingIncome": 42276,
+     "netIncome": 38238
+    },
+    "prior": {
+     "revenue": 227122,
+     "operatingIncome": 96157,
+     "netIncome": 98860
+    },
+    "forecast": {
+     "revenue": 565000,
+     "operatingIncome": 104000,
+     "netIncome": 94000
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261029559803.pdf",
+    "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2027年3月期",
     "quarter": "Q1",
     "label": "2027年3月期 第1四半期",
     "date": "2026-07-31",
@@ -6925,6 +6950,34 @@
  "5120001158218": {
   "code": "6752",
   "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-10-30",
+    "title": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 4092520,
+     "operatingIncome": 363229,
+     "ordinaryIncome": 372979,
+     "netIncome": 276953
+    },
+    "prior": {
+     "revenue": 3820476,
+     "operatingIncome": 164996,
+     "ordinaryIncome": 177860,
+     "netIncome": 142404
+    },
+    "forecast": {
+     "revenue": 8400000,
+     "operatingIncome": 710000,
+     "ordinaryIncome": 720000,
+     "netIncome": 540000
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261030560586.pdf",
+    "source": "TDnet XBRL"
+   },
    {
     "fiscalYear": "2027年3月期",
     "quarter": "Q1",
