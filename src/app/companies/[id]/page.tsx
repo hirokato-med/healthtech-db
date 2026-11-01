@@ -60,7 +60,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
         <div className="kicker">Company{c.major ? <span className="badge major" style={{ marginLeft: 8 }}>大手企業</span> : null}</div>
         <div className="co-title">
           <h1>{c.name}</h1>
-          {c.logo && <img src={withBase(c.logo.file)} alt={`${c.name}のロゴ`} className={`co-logo ${c.logo.kind}`} />}
+          {c.logo && <img src={withBase(c.logo.file)} alt={`${c.name}のロゴ`} className={`co-logo ${c.logo.kind} ${c.logo.tone ?? ''}`} />}
         </div>
         <div style={{ marginTop: 10 }}>
           <Chips slugs={c.categories} />

@@ -76,7 +76,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
       <div className="grid">
         {hit.map((c) => (
           <article className="card" key={c.id}>
-            {c.logo && <img src={withBase(c.logo.file)} alt="" className={`card-logo ${c.logo.kind}`} loading="lazy" />}
+            {c.logo && <img src={withBase(c.logo.file)} alt="" className={`card-logo ${c.logo.kind} ${c.logo.tone ?? ''}`} loading="lazy" />}
             <Link href={`/companies/${c.id}/`} className="title">
               {c.name}
             </Link>

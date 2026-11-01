@@ -1080,3 +1080,5 @@ a.upd-title:hover { color: var(--navy); }
 .co-logo.icon { max-height: 72px; padding: 6px; }
 .card-logo { display: block; height: 28px; width: auto; max-width: 170px; object-fit: contain; object-position: left center; margin-bottom: 8px; }
 .card-logo.icon { max-height: 34px; }
+.co-logo.light, .card-logo.light { background: #123e7c; border-color: #123e7c; }
+.card-logo.light { padding: 4px 8px; border-radius: 6px; height: 36px; }
