@@ -13,7 +13,18 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { chromium } from 'playwright';
+import { createRequire } from 'node:module';
+
+// playwright はこのリポジトリの依存ではなく、実行する環境に入っているものを使う
+const require = createRequire(import.meta.url);
+const { chromium } = require('playwright');
+// 切り出したロゴのまわりの余白（透明・白）を落とす。sharp が無ければそのまま
+let sharp = null;
+try { sharp = require('sharp'); } catch { /* なし */ }
+const trim = async (file) => {
+  if (!sharp) return;
+  try { const buf = await sharp(file).trim({ threshold: 10 }).png().toBuffer(); fs.writeFileSync(file, buf); } catch { /* 1色だけの画像などはそのまま */ }
+};
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const F = path.join(ROOT, 'data', 'companies.json');
@@ -59,6 +70,7 @@ for (const c of targets) {
     const el = handle.asElement();
     if (el) {
       await el.screenshot({ path: file, omitBackground: true });
+      await trim(file);
       c.logo = { file: `/logos/${c.id}.png`, kind: 'header', source: c.hp, checkedAt: today };
       got++;
     } else {
