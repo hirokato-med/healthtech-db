@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { withBase } from '@/lib/base';
 import { notFound } from 'next/navigation';
 import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
@@ -57,7 +58,10 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
       </nav>
       <div className="page-head">
         <div className="kicker">Company{c.major ? <span className="badge major" style={{ marginLeft: 8 }}>大手企業</span> : null}</div>
-        <h1>{c.name}</h1>
+        <div className="co-title">
+          <h1>{c.name}</h1>
+          {c.logo && <img src={withBase(c.logo.file)} alt={`${c.name}のロゴ`} className={`co-logo ${c.logo.kind}`} />}
+        </div>
         <div style={{ marginTop: 10 }}>
           <Chips slugs={c.categories} />
         </div>
@@ -344,7 +348,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             </dl>
           </section>
           <section className="notice">
-            掲載情報に誤りや更新がある場合は、<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正を依頼する</a>からお知らせください。
+            掲載情報に誤りや更新がある場合は、<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正を依頼する</a>からお知らせください。{c.logo && <>ロゴは公式サイトに掲載のものです。ロゴの掲載・差し替え・取り下げのご希望も同じフォームから受け付けます。</>}
             <div className="muted small" style={{ marginTop: 6 }}>
               出典: {c.source}{c.updatedAt && c.source.indexOf(c.updatedAt) < 0 ? `／${c.updatedAt.replace('-', '年')}月 編集部確認` : ''}
               {c.sources?.length ? (

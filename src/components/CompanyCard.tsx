@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import type { Company } from '@/lib/types';
 import { Chips } from './Chip';
+import { withBase } from '@/lib/base';
 
 export function CompanyCard({ c }: { c: Company }) {
   return (
     <article className="card">
+      {c.logo && <img src={withBase(c.logo.file)} alt="" className={`card-logo ${c.logo.kind}`} loading="lazy" />}
       <Link href={`/companies/${c.id}/`} className="title">
         {c.name}
       </Link>

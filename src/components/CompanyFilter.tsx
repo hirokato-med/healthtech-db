@@ -2,8 +2,9 @@
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import type { Category, Company } from '@/lib/types';
+import { withBase } from '@/lib/base';
 
-type Lite = Pick<Company, 'id' | 'name' | 'categories' | 'description' | 'prefecture' | 'foundedYear' | 'exit' | 'major'> & { isNew?: boolean; aliases?: string[] };
+type Lite = Pick<Company, 'id' | 'name' | 'categories' | 'description' | 'prefecture' | 'foundedYear' | 'exit' | 'major' | 'logo'> & { isNew?: boolean; aliases?: string[] };
 
 /** 閉鎖・合併・活動停止・対象外は、記録として残すが一覧では既定で隠す */
 const ENDED = ['閉鎖', '合併', '活動停止', '対象外'];
@@ -75,6 +76,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
       <div className="grid">
         {hit.map((c) => (
           <article className="card" key={c.id}>
+            {c.logo && <img src={withBase(c.logo.file)} alt="" className={`card-logo ${c.logo.kind}`} loading="lazy" />}
             <Link href={`/companies/${c.id}/`} className="title">
               {c.name}
             </Link>

@@ -6,6 +6,8 @@ export type Category = {
 };
 
 export type Company = {
+  /** 公式サイトのロゴ（pipeline/logos.mjs が取る）。kind: header＝サイト上部のロゴ、icon＝サイトのアイコン */
+  logo?: { file: string; kind: 'header' | 'icon'; source: string; checkedAt?: string };
   id: string;
   name: string;
   hp: string;
