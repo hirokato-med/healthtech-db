@@ -432,6 +432,21 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000034.000047082.html"
    },
    {
+    "companyId": "1010401148907",
+    "date": "2022-08",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 430,
+    "lead": false,
+    "with": [
+     "大和企業投資",
+     "ANRI",
+     "Gemseki",
+     "静岡キャピタル"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000011.000063574.html"
+   },
+   {
     "companyId": "9040001098988",
     "date": "2022-08",
     "round": "シリーズC",
@@ -449,19 +464,17 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000013.000054568.html"
    },
    {
-    "companyId": "1010401148907",
-    "date": "2022-08",
-    "round": "シリーズA",
+    "companyId": "1010401125971",
+    "date": "2022-12",
     "type": "第三者割当増資",
-    "amount": 430,
+    "amount": 1600,
     "lead": false,
     "with": [
-     "大和企業投資",
-     "ANRI",
-     "Gemseki",
-     "静岡キャピタル"
+     "DCIパートナーズ",
+     "ニッセイ・キャピタル",
+     "Gemseki"
     ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000011.000063574.html"
+    "source": "https://www.adiposeeds.co.jp/news/jp/251/"
    },
    {
     "companyId": "6050001045637",
@@ -479,19 +492,6 @@
      "筑波総研"
     ],
     "source": "https://alchemedicine.com/upload_files/news/1671085173_9695.pdf"
-   },
-   {
-    "companyId": "1010401125971",
-    "date": "2022-12",
-    "type": "第三者割当増資",
-    "amount": 1600,
-    "lead": false,
-    "with": [
-     "DCIパートナーズ",
-     "ニッセイ・キャピタル",
-     "Gemseki"
-    ],
-    "source": "https://www.adiposeeds.co.jp/news/jp/251/"
    },
    {
     "companyId": "6010401125397",
@@ -527,18 +527,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000012.000044112.html"
    },
    {
-    "companyId": "7290001070156",
-    "date": "2023-05",
-    "type": "第三者割当増資",
-    "amount": 300,
-    "lead": false,
-    "with": [
-     "FFGベンチャー",
-     "福岡地所"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000005.000111842.html"
-   },
-   {
     "companyId": "4011001108455",
     "date": "2023-05",
     "round": "シリーズD",
@@ -556,6 +544,18 @@
      "慶應イノベーション・イニシアティブ"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000009.000046965.html"
+   },
+   {
+    "companyId": "7290001070156",
+    "date": "2023-05",
+    "type": "第三者割当増資",
+    "amount": 300,
+    "lead": false,
+    "with": [
+     "FFGベンチャー",
+     "福岡地所"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000111842.html"
    },
    {
     "companyId": "3390001015963",
@@ -615,6 +615,23 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000005.000099270.html"
    },
    {
+    "companyId": "1010001221931",
+    "date": "2023-12",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 500,
+    "lead": false,
+    "with": [
+     "慶應イノベーション・イニシアティブ",
+     "DBJキャピタル",
+     "スクラムベンチャーズ",
+     "D4V",
+     "新生企業投資",
+     "神戸大学キャピタル"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000099334.html"
+   },
+   {
     "companyId": "4011101087995",
     "date": "2023-12",
     "type": "第三者割当増資",
@@ -641,23 +658,6 @@
      "三菱UFJキャピタル"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000008.000086500.html"
-   },
-   {
-    "companyId": "1010001221931",
-    "date": "2023-12",
-    "round": "シリーズA",
-    "type": "第三者割当増資",
-    "amount": 500,
-    "lead": false,
-    "with": [
-     "慶應イノベーション・イニシアティブ",
-     "DBJキャピタル",
-     "スクラムベンチャーズ",
-     "D4V",
-     "新生企業投資",
-     "神戸大学キャピタル"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000009.000099334.html"
    },
    {
     "companyId": "6010401125397",
@@ -784,22 +784,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000020.000104550.html"
    },
    {
-    "companyId": "7010001230464",
-    "date": "2025-02",
-    "type": "第三者割当増資",
-    "amount": 430,
-    "lead": false,
-    "with": [
-     "東京大学協創プラットフォーム開発",
-     "かんぽNEXTパートナーズ",
-     "琉球キャピタル・琉球銀行",
-     "UT創業者の会",
-     "東京大学エッジキャピタルパートナーズ",
-     "FreakOut Shinsei Fund"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000062.000103350.html"
-   },
-   {
     "companyId": "1010001221700",
     "date": "2025-02",
     "round": "プレシリーズA",
@@ -816,6 +800,22 @@
      "Yazawa Ventures"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000033.000110270.html"
+   },
+   {
+    "companyId": "7010001230464",
+    "date": "2025-02",
+    "type": "第三者割当増資",
+    "amount": 430,
+    "lead": false,
+    "with": [
+     "東京大学協創プラットフォーム開発",
+     "かんぽNEXTパートナーズ",
+     "琉球キャピタル・琉球銀行",
+     "UT創業者の会",
+     "東京大学エッジキャピタルパートナーズ",
+     "FreakOut Shinsei Fund"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000062.000103350.html"
    },
    {
     "companyId": "4010001119594",
@@ -1386,6 +1386,19 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000016.000043426.html"
    },
    {
+    "companyId": "1020001135288",
+    "date": "2022-06",
+    "type": "第三者割当増資",
+    "amount": 200,
+    "lead": false,
+    "with": [
+     "Spiral Capital",
+     "Beyond Next Ventures",
+     "Plug and Play Japan"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000102400.html"
+   },
+   {
     "companyId": "4240001057326",
     "date": "2022-06",
     "round": "シリーズA",
@@ -1412,19 +1425,6 @@
      "静岡キャピタル"
     ],
     "source": "https://aub.co.jp/archives/4093"
-   },
-   {
-    "companyId": "1020001135288",
-    "date": "2022-06",
-    "type": "第三者割当増資",
-    "amount": 200,
-    "lead": false,
-    "with": [
-     "Spiral Capital",
-     "Beyond Next Ventures",
-     "Plug and Play Japan"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000001.000102400.html"
    },
    {
     "companyId": "8010001192282",
@@ -1531,19 +1531,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000007.000054709.html"
    },
    {
-    "companyId": "8010401151854",
-    "date": "2023-11",
-    "round": "シリーズA",
-    "type": "第三者割当増資",
-    "amount": 80,
-    "lead": false,
-    "with": [
-     "フジタ・イノベーション・キャピタル・東海東京インベストメントの共同運営ファンド",
-     "サムライインキュベート"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000006.000074104.html"
-   },
-   {
     "companyId": "7011301026833",
     "date": "2023-11",
     "round": "プレシリーズA",
@@ -1557,6 +1544,19 @@
      "Partners Fund"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000005.000099270.html"
+   },
+   {
+    "companyId": "8010401151854",
+    "date": "2023-11",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 80,
+    "lead": false,
+    "with": [
+     "フジタ・イノベーション・キャピタル・東海東京インベストメントの共同運営ファンド",
+     "サムライインキュベート"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000006.000074104.html"
    },
    {
     "companyId": "5011101101185",
@@ -1664,6 +1664,17 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000323.000076057.html"
    },
    {
+    "companyId": "1010401154285",
+    "date": "2024-10",
+    "type": "第三者割当増資",
+    "amount": null,
+    "lead": false,
+    "with": [
+     "東京ウェルネスインパクト"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000150266.html"
+   },
+   {
     "companyId": "2120001255348",
     "date": "2024-10",
     "type": "第三者割当増資",
@@ -1689,17 +1700,6 @@
      "博報堂DYベンチャーズ"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000035.000047703.html"
-   },
-   {
-    "companyId": "1010401154285",
-    "date": "2024-10",
-    "type": "第三者割当増資",
-    "amount": null,
-    "lead": false,
-    "with": [
-     "東京ウェルネスインパクト"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000001.000150266.html"
    },
    {
     "companyId": "2370001048388",
@@ -1999,21 +1999,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000063574.html"
    },
    {
-    "companyId": "3040001093012",
-    "date": "2021-03",
-    "type": "第三者割当増資",
-    "amount": 320,
-    "lead": false,
-    "with": [
-     "メディカルノート",
-     "メディアスホールディングス",
-     "帝人",
-     "ANOBAKA",
-     "個人投資家"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000004.000052727.html"
-   },
-   {
     "companyId": "1010401148907",
     "date": "2021-03",
     "type": "第三者割当増資",
@@ -2039,6 +2024,21 @@
      "横浜キャピタル"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000076364.html"
+   },
+   {
+    "companyId": "3040001093012",
+    "date": "2021-03",
+    "type": "第三者割当増資",
+    "amount": 320,
+    "lead": false,
+    "with": [
+     "メディカルノート",
+     "メディアスホールディングス",
+     "帝人",
+     "ANOBAKA",
+     "個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000052727.html"
    },
    {
     "companyId": "4010401137031",
@@ -2155,18 +2155,19 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000016.000058605.html"
    },
    {
-    "companyId": "7010001181419",
+    "companyId": "1010401148907",
     "date": "2022-08",
-    "round": "シリーズB",
-    "type": "その他",
-    "amount": 800,
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 430,
     "lead": false,
     "with": [
-     "CYBERDYNE",
-     "サイバニクス・エクセレンス・ジャパン",
-     "日本ゼオン"
+     "大和企業投資",
+     "SMBCベンチャーキャピタル",
+     "Gemseki",
+     "静岡キャピタル"
     ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000005.000076662.html"
+    "source": "https://prtimes.jp/main/html/rd/p/000000011.000063574.html"
    },
    {
     "companyId": "1011001137168",
@@ -2181,19 +2182,18 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000014.000075856.html"
    },
    {
-    "companyId": "1010401148907",
+    "companyId": "7010001181419",
     "date": "2022-08",
-    "round": "シリーズA",
-    "type": "第三者割当増資",
-    "amount": 430,
+    "round": "シリーズB",
+    "type": "その他",
+    "amount": 800,
     "lead": false,
     "with": [
-     "大和企業投資",
-     "SMBCベンチャーキャピタル",
-     "Gemseki",
-     "静岡キャピタル"
+     "CYBERDYNE",
+     "サイバニクス・エクセレンス・ジャパン",
+     "日本ゼオン"
     ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000011.000063574.html"
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000076662.html"
    },
    {
     "companyId": "7010001219425",
@@ -2350,6 +2350,19 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000001.000131764.html"
    },
    {
+    "companyId": "1010901050728",
+    "date": "2023-12",
+    "round": "プレシード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "lead": false,
+    "with": [
+     "鈴木達哉",
+     "個人投資家3名"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000124331.html"
+   },
+   {
     "companyId": "4011101087995",
     "date": "2023-12",
     "type": "第三者割当増資",
@@ -2362,19 +2375,6 @@
      "ANOBAKA"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000057299.html"
-   },
-   {
-    "companyId": "1010901050728",
-    "date": "2023-12",
-    "round": "プレシード",
-    "type": "第三者割当増資",
-    "amount": null,
-    "lead": false,
-    "with": [
-     "鈴木達哉",
-     "個人投資家3名"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000002.000124331.html"
    },
    {
     "companyId": "7010001224301",
@@ -2432,19 +2432,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000029.000100852.html"
    },
    {
-    "companyId": "5130001066881",
-    "date": "2025-01",
-    "round": "シリーズA",
-    "type": "第三者割当増資",
-    "amount": null,
-    "lead": false,
-    "with": [
-     "みやこキャピタル",
-     "ケイエスピー"
-    ],
-    "source": "https://www.xforestx.com/jp/news/2025-01-24-series-a/"
-   },
-   {
     "companyId": "1010901050728",
     "date": "2025-01",
     "round": "プレシリーズA",
@@ -2456,6 +2443,19 @@
      "梅田裕真"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000008.000124331.html"
+   },
+   {
+    "companyId": "5130001066881",
+    "date": "2025-01",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "lead": false,
+    "with": [
+     "みやこキャピタル",
+     "ケイエスピー"
+    ],
+    "source": "https://www.xforestx.com/jp/news/2025-01-24-series-a/"
    },
    {
     "companyId": "6010001187788",
@@ -2608,18 +2608,6 @@
   "companies": 34,
   "rounds": [
    {
-    "companyId": "6010001110840",
-    "date": "2015-03",
-    "type": "第三者割当増資",
-    "amount": 500,
-    "lead": false,
-    "with": [
-     "じげん",
-     "日本ベンチャーキャピタル"
-    ],
-    "source": "https://www.value-press.com/pressrelease/138555"
-   },
-   {
     "companyId": "1010001140223",
     "date": "2015-03",
     "round": "シリーズB",
@@ -2640,6 +2628,18 @@
      "東京大学エッジキャピタル"
     ],
     "source": "https://initial.inc/companies/A-11750/announcements/714"
+   },
+   {
+    "companyId": "6010001110840",
+    "date": "2015-03",
+    "type": "第三者割当増資",
+    "amount": 500,
+    "lead": false,
+    "with": [
+     "じげん",
+     "日本ベンチャーキャピタル"
+    ],
+    "source": "https://www.value-press.com/pressrelease/138555"
    },
    {
     "companyId": "1010401101634",
@@ -3883,19 +3883,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000035.000048644.html"
    },
    {
-    "companyId": "9010001174841",
-    "date": "2022-03",
-    "type": "第三者割当増資",
-    "amount": 520,
-    "lead": false,
-    "with": [
-     "FFGベンチャービジネスパートナーズ",
-     "SGインキュベート",
-     "三菱UFJキャピタル"
-    ],
-    "source": "https://www.jsh-japan.jp/post_news/%E7%AC%AC%E4%B8%89%E8%80%85%E5%89%B2%E5%BD%93%E5%A2%97%E8%B3%87%E5%AE%9F%E6%96%BD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-2/"
-   },
-   {
     "companyId": "3010001177676",
     "date": "2022-03",
     "round": "シリーズC",
@@ -3911,6 +3898,19 @@
      "ファストトラックイニシアティブ"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000011.000035986.html"
+   },
+   {
+    "companyId": "9010001174841",
+    "date": "2022-03",
+    "type": "第三者割当増資",
+    "amount": 520,
+    "lead": false,
+    "with": [
+     "FFGベンチャービジネスパートナーズ",
+     "SGインキュベート",
+     "三菱UFJキャピタル"
+    ],
+    "source": "https://www.jsh-japan.jp/post_news/%E7%AC%AC%E4%B8%89%E8%80%85%E5%89%B2%E5%BD%93%E5%A2%97%E8%B3%87%E5%AE%9F%E6%96%BD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-2/"
    },
    {
     "companyId": "6010001201945",
@@ -4001,6 +4001,18 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000011.000075935.html"
    },
    {
+    "companyId": "8010001193454",
+    "date": "2023-06",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 400,
+    "lead": false,
+    "with": [
+     "インキュベイトファンド"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000053839.html"
+   },
+   {
     "companyId": "8010401151854",
     "date": "2023-06",
     "round": "シリーズA",
@@ -4012,18 +4024,6 @@
      "サムライインキュベート"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000005.000074104.html"
-   },
-   {
-    "companyId": "8010001193454",
-    "date": "2023-06",
-    "round": "シリーズA",
-    "type": "第三者割当増資",
-    "amount": 400,
-    "lead": false,
-    "with": [
-     "インキュベイトファンド"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000009.000053839.html"
    },
    {
     "companyId": "2010401162519",
@@ -4103,18 +4103,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000012.000121700.html"
    },
    {
-    "companyId": "8120001249798",
-    "date": "2025-05",
-    "round": "シリーズA",
-    "type": "第三者割当増資",
-    "amount": null,
-    "lead": false,
-    "with": [
-     "大阪大学ベンチャーキャピタル"
-    ],
-    "source": "https://atransen.com/news/atransen-pharma%E3%80%81%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BAa%E3%81%A7%E7%B7%8F%E9%A1%8D11-3%E5%84%84%E5%86%86%E3%81%AE%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94%E3%82%92%E5%AE%8C%E4%BA%86/"
-   },
-   {
     "companyId": "6010001201945",
     "date": "2025-05",
     "round": "シリーズB",
@@ -4132,6 +4120,18 @@
      "ライオン"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000054.000071267.html"
+   },
+   {
+    "companyId": "8120001249798",
+    "date": "2025-05",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": null,
+    "lead": false,
+    "with": [
+     "大阪大学ベンチャーキャピタル"
+    ],
+    "source": "https://atransen.com/news/atransen-pharma%E3%80%81%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BAa%E3%81%A7%E7%B7%8F%E9%A1%8D11-3%E5%84%84%E5%86%86%E3%81%AE%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94%E3%82%92%E5%AE%8C%E4%BA%86/"
    },
    {
     "companyId": "1010901046395",
@@ -4687,6 +4687,20 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000021.000033812.html"
    },
    {
+    "companyId": "1020001135288",
+    "date": "2025-07",
+    "round": "シリーズA",
+    "type": "J-KISS・転換社債",
+    "amount": 110,
+    "lead": true,
+    "with": [
+     "Angel Bridge",
+     "Spiral Capital",
+     "メドレー"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000016.000102400.html"
+   },
+   {
     "companyId": "9290001084377",
     "date": "2025-07",
     "type": "第三者割当増資",
@@ -4700,20 +4714,6 @@
      "既存投資家"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000108113.html"
-   },
-   {
-    "companyId": "1020001135288",
-    "date": "2025-07",
-    "round": "シリーズA",
-    "type": "J-KISS・転換社債",
-    "amount": 110,
-    "lead": true,
-    "with": [
-     "Angel Bridge",
-     "Spiral Capital",
-     "メドレー"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000016.000102400.html"
    },
    {
     "companyId": "3010401165644",
@@ -7259,21 +7259,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000137.000022826.html"
    },
    {
-    "companyId": "6011801035946",
-    "date": "2022-06",
-    "round": "プレシリーズA",
-    "type": "第三者割当増資",
-    "amount": 100,
-    "lead": false,
-    "with": [
-     "インキュベイトファンド",
-     "ライフタイムベンチャーズ",
-     "サイバーエージェント・キャピタル",
-     "Relic"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000005.000065491.html"
-   },
-   {
     "companyId": "6010001201945",
     "date": "2022-06",
     "round": "シリーズA",
@@ -7287,6 +7272,21 @@
      "ジェネシア・ベンチャーズ"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000019.000071267.html"
+   },
+   {
+    "companyId": "6011801035946",
+    "date": "2022-06",
+    "round": "プレシリーズA",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "lead": false,
+    "with": [
+     "インキュベイトファンド",
+     "ライフタイムベンチャーズ",
+     "サイバーエージェント・キャピタル",
+     "Relic"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000065491.html"
    },
    {
     "companyId": "7011501025932",
@@ -7920,6 +7920,18 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000011.000110270.html"
    },
    {
+    "companyId": "2011001145079",
+    "date": "2024-07",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "lead": false,
+    "with": [
+     "キャピタルメディカ・ベンチャーズ"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000005.000109426.html"
+   },
+   {
     "companyId": "4010401135407",
     "date": "2024-07",
     "round": "シード",
@@ -7932,18 +7944,6 @@
      "ライフタイムベンチャーズ"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000009.000101467.html"
-   },
-   {
-    "companyId": "2011001145079",
-    "date": "2024-07",
-    "round": "シード",
-    "type": "第三者割当増資",
-    "amount": null,
-    "lead": false,
-    "with": [
-     "キャピタルメディカ・ベンチャーズ"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000005.000109426.html"
    },
    {
     "companyId": "1010001221700",
@@ -8102,6 +8102,19 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000006.000129258.html"
    },
    {
+    "companyId": "3010001177676",
+    "date": "2025-01",
+    "round": "シリーズD",
+    "type": "第三者割当増資",
+    "amount": 800,
+    "lead": false,
+    "with": [
+     "DBJキャピタル",
+     "ファストトラックイニシアティブ"
+    ],
+    "source": "https://alivexis.com/ja/press_release/8-0%E5%84%84%E5%86%86%E3%81%AEseries-d-1st-%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0%E5%AE%8C%E4%BA%86%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+   },
+   {
     "companyId": "8040001124159",
     "date": "2025-01",
     "round": "シリーズB",
@@ -8114,19 +8127,6 @@
      "ペプチドリーム"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000006.000133911.html"
-   },
-   {
-    "companyId": "3010001177676",
-    "date": "2025-01",
-    "round": "シリーズD",
-    "type": "第三者割当増資",
-    "amount": 800,
-    "lead": false,
-    "with": [
-     "DBJキャピタル",
-     "ファストトラックイニシアティブ"
-    ],
-    "source": "https://alivexis.com/ja/press_release/8-0%E5%84%84%E5%86%86%E3%81%AEseries-d-1st-%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0%E5%AE%8C%E4%BA%86%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
    },
    {
     "companyId": "4010001234344",
@@ -8292,18 +8292,6 @@
     "source": "https://www.atpress.ne.jp/news/123985"
    },
    {
-    "companyId": "7140001090053",
-    "date": "2018-08",
-    "type": "第三者割当増資",
-    "amount": 200,
-    "lead": false,
-    "with": [
-     "農林漁業成長産業化支援機構",
-     "SMBCベンチャーキャピタル"
-    ],
-    "source": "https://www.yukashikado.co.jp/news/equity-finance"
-   },
-   {
     "companyId": "3010001177676",
     "date": "2018-08",
     "round": "シリーズA",
@@ -8315,6 +8303,18 @@
      "DBJキャピタル"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000035986.html"
+   },
+   {
+    "companyId": "7140001090053",
+    "date": "2018-08",
+    "type": "第三者割当増資",
+    "amount": 200,
+    "lead": false,
+    "with": [
+     "農林漁業成長産業化支援機構",
+     "SMBCベンチャーキャピタル"
+    ],
+    "source": "https://www.yukashikado.co.jp/news/equity-finance"
    },
    {
     "companyId": "2010701026514",
@@ -8692,18 +8692,6 @@
   "companies": 16,
   "rounds": [
    {
-    "companyId": "6010001110840",
-    "date": "2015-03",
-    "type": "第三者割当増資",
-    "amount": 500,
-    "lead": false,
-    "with": [
-     "じげん",
-     "ニッセイ・キャピタル"
-    ],
-    "source": "https://www.value-press.com/pressrelease/138555"
-   },
-   {
     "companyId": "1010001140223",
     "date": "2015-03",
     "round": "シリーズB",
@@ -8724,6 +8712,18 @@
      "東京大学エッジキャピタル"
     ],
     "source": "https://initial.inc/companies/A-11750/announcements/714"
+   },
+   {
+    "companyId": "6010001110840",
+    "date": "2015-03",
+    "type": "第三者割当増資",
+    "amount": 500,
+    "lead": false,
+    "with": [
+     "じげん",
+     "ニッセイ・キャピタル"
+    ],
+    "source": "https://www.value-press.com/pressrelease/138555"
    },
    {
     "companyId": "1010001157647",
@@ -9268,18 +9268,6 @@
   "companies": 13,
   "rounds": [
    {
-    "companyId": "3120003010642",
-    "date": "2020-09",
-    "round": "シリーズB",
-    "type": "第三者割当増資",
-    "amount": 320,
-    "lead": false,
-    "with": [
-     "東芝"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000008.000048328.html"
-   },
-   {
     "companyId": "3010001197360",
     "date": "2020-09",
     "round": "シリーズA",
@@ -9291,6 +9279,18 @@
      "国立研究開発法人科学技術振興機構"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000007.000043008.html"
+   },
+   {
+    "companyId": "3120003010642",
+    "date": "2020-09",
+    "round": "シリーズB",
+    "type": "第三者割当増資",
+    "amount": 320,
+    "lead": false,
+    "with": [
+     "東芝"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000008.000048328.html"
    },
    {
     "companyId": "4010401133534",
@@ -10224,18 +10224,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000008.000032398.html"
    },
    {
-    "companyId": "2011001111725",
-    "date": "2018-12",
-    "type": "第三者割当増資",
-    "amount": 400,
-    "lead": false,
-    "with": [
-     "Aflac Corporate Ventures",
-     "複数の経営アドバイザリー"
-    ],
-    "source": "https://corp.oishi-kenko.com/news/20181225-2/"
-   },
-   {
     "companyId": "2010501035228",
     "date": "2018-12",
     "type": "第三者割当増資",
@@ -10246,6 +10234,18 @@
      "日本ケミファ"
     ],
     "source": "https://molcure.com/2018/12/17/%E7%AC%AC%E4%B8%89%E8%80%85%E5%89%B2%E5%BD%93%E5%A2%97%E8%B3%87nov-2x-2018/"
+   },
+   {
+    "companyId": "2011001111725",
+    "date": "2018-12",
+    "type": "第三者割当増資",
+    "amount": 400,
+    "lead": false,
+    "with": [
+     "Aflac Corporate Ventures",
+     "複数の経営アドバイザリー"
+    ],
+    "source": "https://corp.oishi-kenko.com/news/20181225-2/"
    },
    {
     "companyId": "2011101070788",
@@ -10658,6 +10658,23 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000004.000099334.html"
    },
    {
+    "companyId": "1010001221931",
+    "date": "2023-12",
+    "round": "シリーズA",
+    "type": "第三者割当増資",
+    "amount": 500,
+    "lead": false,
+    "with": [
+     "慶應イノベーション・イニシアティブ",
+     "スクラムベンチャーズ",
+     "D4V",
+     "新生企業投資",
+     "神戸大学キャピタル",
+     "SMBCベンチャーキャピタル"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000009.000099334.html"
+   },
+   {
     "companyId": "8040001124159",
     "date": "2023-12",
     "round": "シリーズA",
@@ -10674,23 +10691,6 @@
      "白鳥製薬"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000133911.html"
-   },
-   {
-    "companyId": "1010001221931",
-    "date": "2023-12",
-    "round": "シリーズA",
-    "type": "第三者割当増資",
-    "amount": 500,
-    "lead": false,
-    "with": [
-     "慶應イノベーション・イニシアティブ",
-     "スクラムベンチャーズ",
-     "D4V",
-     "新生企業投資",
-     "神戸大学キャピタル",
-     "SMBCベンチャーキャピタル"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000009.000099334.html"
    },
    {
     "companyId": "4040001102829",
@@ -10722,6 +10722,19 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000011.000056236.html"
    },
    {
+    "companyId": "3010001177676",
+    "date": "2025-01",
+    "round": "シリーズD",
+    "type": "第三者割当増資",
+    "amount": 800,
+    "lead": false,
+    "with": [
+     "JICベンチャー・グロース・インベストメンツ",
+     "ファストトラックイニシアティブ"
+    ],
+    "source": "https://alivexis.com/ja/press_release/8-0%E5%84%84%E5%86%86%E3%81%AEseries-d-1st-%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0%E5%AE%8C%E4%BA%86%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+   },
+   {
     "companyId": "8040001124159",
     "date": "2025-01",
     "round": "シリーズB",
@@ -10734,19 +10747,6 @@
      "ペプチドリーム"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000006.000133911.html"
-   },
-   {
-    "companyId": "3010001177676",
-    "date": "2025-01",
-    "round": "シリーズD",
-    "type": "第三者割当増資",
-    "amount": 800,
-    "lead": false,
-    "with": [
-     "JICベンチャー・グロース・インベストメンツ",
-     "ファストトラックイニシアティブ"
-    ],
-    "source": "https://alivexis.com/ja/press_release/8-0%E5%84%84%E5%86%86%E3%81%AEseries-d-1st-%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0%E5%AE%8C%E4%BA%86%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
    },
    {
     "companyId": "3011401022356",
@@ -15226,16 +15226,6 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000136583.html"
    },
    {
-    "companyId": "6180001150300",
-    "date": "2024-01",
-    "round": "シード",
-    "type": "第三者割当増資",
-    "amount": 100,
-    "lead": false,
-    "with": [],
-    "source": "https://prtimes.jp/main/html/rd/p/000000003.000135009.html"
-   },
-   {
     "companyId": "5010701033499",
     "date": "2024-01",
     "round": "シリーズA",
@@ -15249,6 +15239,16 @@
      "日本ベンチャーキャピタル"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000128.000024217.html"
+   },
+   {
+    "companyId": "6180001150300",
+    "date": "2024-01",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 100,
+    "lead": false,
+    "with": [],
+    "source": "https://prtimes.jp/main/html/rd/p/000000003.000135009.html"
    }
   ]
  },
@@ -16469,6 +16469,16 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000044046.html"
    },
    {
+    "companyId": "4010401135407",
+    "date": "2022-06",
+    "round": "プレシード",
+    "type": "第三者割当増資",
+    "amount": null,
+    "lead": false,
+    "with": [],
+    "source": "https://prtimes.jp/main/html/rd/p/000000001.000101467.html"
+   },
+   {
     "companyId": "6011801035946",
     "date": "2022-06",
     "round": "プレシリーズA",
@@ -16482,16 +16492,6 @@
      "Relic"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000005.000065491.html"
-   },
-   {
-    "companyId": "4010401135407",
-    "date": "2022-06",
-    "round": "プレシード",
-    "type": "第三者割当増資",
-    "amount": null,
-    "lead": false,
-    "with": [],
-    "source": "https://prtimes.jp/main/html/rd/p/000000001.000101467.html"
    },
    {
     "companyId": "4010401135407",
@@ -17219,6 +17219,20 @@
     "source": "https://prtimes.jp/main/html/rd/p/000000002.000044046.html"
    },
    {
+    "companyId": "1010001221931",
+    "date": "2022-11",
+    "round": "シード",
+    "type": "第三者割当増資",
+    "amount": 145,
+    "lead": false,
+    "with": [
+     "慶應イノベーション・イニシアティブ",
+     "スクラムベンチャーズ",
+     "DBJキャピタル"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000004.000099334.html"
+   },
+   {
     "companyId": "9010401156828",
     "date": "2022-11",
     "round": "プレシリーズA",
@@ -17233,20 +17247,6 @@
      "Incubate Fund"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000011.000081576.html"
-   },
-   {
-    "companyId": "1010001221931",
-    "date": "2022-11",
-    "round": "シード",
-    "type": "第三者割当増資",
-    "amount": 145,
-    "lead": false,
-    "with": [
-     "慶應イノベーション・イニシアティブ",
-     "スクラムベンチャーズ",
-     "DBJキャピタル"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000004.000099334.html"
    },
    {
     "companyId": "1010001221931",
@@ -22293,21 +22293,6 @@
   "companies": 4,
   "rounds": [
    {
-    "companyId": "2011001129197",
-    "date": "2024-12",
-    "type": "第三者割当増資",
-    "amount": 230,
-    "lead": false,
-    "with": [
-     "DGりそなベンチャーズ",
-     "DBJキャピタル",
-     "ユナイテッド",
-     "みずほキャピタル",
-     "個人投資家"
-    ],
-    "source": "https://prtimes.jp/main/html/rd/p/000000011.000056236.html"
-   },
-   {
     "companyId": "1130001056317",
     "date": "2024-12",
     "round": "シリーズC",
@@ -22323,6 +22308,21 @@
      "ディーブイエックス"
     ],
     "source": "https://prtimes.jp/main/html/rd/p/000000082.000036655.html"
+   },
+   {
+    "companyId": "2011001129197",
+    "date": "2024-12",
+    "type": "第三者割当増資",
+    "amount": 230,
+    "lead": false,
+    "with": [
+     "DGりそなベンチャーズ",
+     "DBJキャピタル",
+     "ユナイテッド",
+     "みずほキャピタル",
+     "個人投資家"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000011.000056236.html"
    },
    {
     "companyId": "4340001024984",
@@ -24699,10 +24699,10 @@
  },
  {
   "id": "i-141hjsn",
-  "name": "PARTNERS FUND",
+  "name": "Partners Fund",
   "type": "独立系VC",
   "aliases": [
-   "Partners Fund",
+   "PARTNERS FUND",
    "Partners Fund1号投資事業有限責任組合"
   ],
   "companies": 3,
@@ -28450,10 +28450,11 @@
  },
  {
   "id": "i-gzi5tw",
-  "name": "AIS Capital",
+  "name": "AIS CAPITAL",
   "type": "独立系VC",
   "aliases": [
-   "AIS CAPITAL株式会社"
+   "AIS CAPITAL株式会社",
+   "AIS Capital"
   ],
   "companies": 2,
   "rounds": [
