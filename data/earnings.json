@@ -5513,6 +5513,29 @@
   "reports": [
    {
     "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-11-02",
+    "title": "2027年3月期第2四半期決算短信〔IFRS〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 3918561,
+     "ordinaryIncome": 344959,
+     "netIncome": 347865
+    },
+    "prior": {
+     "revenue": 3537187,
+     "ordinaryIncome": 372401,
+     "netIncome": 301235
+    },
+    "forecast": {
+     "netIncome": 670000
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261030561906.pdf",
+    "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2027年3月期",
     "quarter": "Q1",
     "label": "2027年3月期 第1四半期",
     "date": "2026-07-31",
