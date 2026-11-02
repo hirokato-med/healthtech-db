@@ -3492,6 +3492,30 @@
   "reports": [
    {
     "fiscalYear": "2026年12月期",
+    "quarter": "Q3",
+    "label": "2026年12月期 第3四半期",
+    "date": "2026-11-02",
+    "title": "2026年12月期 第3四半期 決算短信〔ＩＦＲＳ〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 384947,
+     "ordinaryIncome": 64728,
+     "netIncome": 51673
+    },
+    "prior": {
+     "revenue": 349451,
+     "ordinaryIncome": 47924,
+     "netIncome": 32599
+    },
+    "forecast": {
+     "revenue": 520000,
+     "ordinaryIncome": 95000
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261030560518.pdf",
+    "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2026年12月期",
     "quarter": "Q2",
     "label": "2026年12月期 第2四半期（中間期）",
     "date": "2026-08-03",
