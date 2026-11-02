@@ -1082,3 +1082,7 @@ a.upd-title:hover { color: var(--navy); }
 .card-logo.icon { max-height: 34px; }
 .co-logo.light, .card-logo.light { background: #123e7c; border-color: #123e7c; }
 .card-logo.light { padding: 4px 8px; border-radius: 6px; height: 36px; }
+/* マークの下に社名がある縦長・正方形に近いロゴは、横長のロゴと同じくらいに見えるよう高さを足す */
+.card-logo.square { height: 46px; }
+.card-logo.light.square { height: 54px; }
+.co-logo.square { max-height: 96px; }

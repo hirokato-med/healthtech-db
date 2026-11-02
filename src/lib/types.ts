@@ -6,8 +6,8 @@ export type Category = {
 };
 
 export type Company = {
-  /** 公式サイトのロゴ（pipeline/logos.mjs が取る）。kind: header＝サイト上部のロゴ、icon＝サイトのアイコン */
-  logo?: { file: string; kind: 'header' | 'icon'; source: string; checkedAt?: string; tone?: 'light' };
+  /** 公式サイトのロゴ（pipeline/logos.mjs が取る）。kind: header＝サイト上部のロゴ、icon＝サイトのアイコン。shape: square＝マークの下に社名がある縦長・正方形に近いロゴ（少し大きく出す） */
+  logo?: { file: string; kind: 'header' | 'icon'; source: string; checkedAt?: string; tone?: 'light'; shape?: 'square' };
   id: string;
   name: string;
   hp: string;

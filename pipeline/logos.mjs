@@ -8,7 +8,7 @@
  *
  * - 公式サイトのページ上部（ヘッダー）にある「logo」と名の付いた画像・SVG を探し、その部分をそのまま切り出す（形・色は変えない）。
  * - 見つからなければ apple-touch-icon（サイトのアイコン）を使い、kind を icon にする。
- * - logo: { file, kind: header|icon, source, checkedAt, tone }（tone: light は白いロゴ。暗い背景に置いて見せる）
+ * - logo: { file, kind: header|icon, source, checkedAt, tone, shape }（tone: light は白いロゴ。暗い背景に置いて見せる。shape: square は縦長・正方形に近いロゴ）
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -35,6 +35,11 @@ const isLight = async (file) => {
     // 透明な部分がある画像だけ（白い背景ごとの JPEG を白いロゴと取り違えない）
     return n > 0 && clear / (n + clear) > 0.1 && sum / n > 225;
   } catch { return false; }
+};
+// 縦長・正方形に近いロゴ（マークの下に社名）か。カードでは少し大きく出す
+const isSquare = async (file) => {
+  if (!sharp) return false;
+  try { const m = await sharp(file).metadata(); return m.width / m.height < 1.8; } catch { return false; }
 };
 const trim = async (file) => {
   if (!sharp) return;
@@ -106,7 +111,7 @@ for (const c of targets) {
         saved = await toPng(Buffer.from(info.svg), file);
       }
       if (!saved) { await el.screenshot({ path: file, omitBackground: true }); await trim(file); }
-      c.logo = { file: `/logos/${c.id}.png`, kind: 'header', source: info.src ?? c.hp, checkedAt: today, ...((await isLight(file)) ? { tone: 'light' } : {}) };
+      c.logo = { file: `/logos/${c.id}.png`, kind: 'header', source: info.src ?? c.hp, checkedAt: today, ...((await isLight(file)) ? { tone: 'light' } : {}), ...((await isSquare(file)) ? { shape: 'square' } : {}) };
       got++;
     } else {
       const href = await page.evaluate(() => document.querySelector('link[rel="apple-touch-icon"], link[rel="apple-touch-icon-precomposed"]')?.href);
