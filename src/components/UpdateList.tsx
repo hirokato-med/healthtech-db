@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { UpdateEntry } from '@/lib/types';
 
-const KIND_CLASS: Record<string, string> = { 決算: 'k-earn', 資金調達: 'k-fund', 企業: 'k-co', '提携・M&A': 'k-ma', 事業: 'k-sv', 記事: 'k-art' };
+const KIND_CLASS: Record<string, string> = { 決算: 'k-earn', 資金調達: 'k-fund', 企業: 'k-co', '資本提携・M&A': 'k-ma', 事業: 'k-sv', 記事: 'k-art' };
 const md = (d: string) => d.replace(/^\d{4}-(\d{2})-(\d{2})$/, (_, m, dd) => `${Number(m)}/${Number(dd)}`);
 
 /** データの更新の一覧。new は基準日から7日以内に印をつける */

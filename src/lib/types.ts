@@ -261,7 +261,7 @@ export type Investor = { id: string; name: string; type: string; aliases: string
 
 /** 上場企業のグループ会社（有価証券報告書の「関係会社の状況」・沿革から） */
 /** voting：議決権の所有割合（%）。indirect：そのうち間接所有の分。owned：親会社など、こちらが持たれている側（被所有割合） */
-export type GroupMember = { name: string; formerName?: string; relation: string; address?: string; capital?: number; business?: string; voting?: number; indirect?: number; owned?: boolean; whollyOwnedAtAcquisition?: boolean; note?: string; since?: string };
-export type FormerMember = { name: string; formerName?: string; since?: string; end?: string; how: string; note?: string };
+export type GroupMember = { name: string; companyId?: string; formerName?: string; relation: string; address?: string; capital?: number; capitalText?: string; business?: string; voting?: number; indirect?: number; owned?: boolean; whollyOwnedAtAcquisition?: boolean; note?: string; since?: string; source?: string };
+export type FormerMember = { name: string; companyId?: string; formerName?: string; since?: string; end?: string; how: string; note?: string; source?: string };
 /** scope: healthcare＝ヘルスケア以外が本業の大きな会社で、ヘルスケアに関わる会社だけを載せたもの */
-export type CompanyGroup = { asOf: string; sourceLabel: string; source: string; consolidated?: number; equityMethod?: number; scope?: 'healthcare'; members: GroupMember[]; former?: FormerMember[] };
+export type CompanyGroup = { asOf: string; sourceLabel: string; source: string; consolidated?: number; equityMethod?: number; scope?: 'healthcare'; note?: string; members: GroupMember[]; former?: FormerMember[] };

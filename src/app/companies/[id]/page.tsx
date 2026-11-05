@@ -31,7 +31,13 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   // ヒト・モノ・カネの要約に使う
   const nm = (x: string) => x.normalize('NFKC').replace(/株式会社|ホールディングス|\s/g, '');
   const myNames = [c.name, ...(c.aliases ?? []), ...(c.formerNames ?? []), ...(c.groupCompanies ?? [])].map(nm);
-  const deals = getPartnerships().filter((p) => myNames.includes(nm(p.from)) || myNames.includes(nm(p.to)));
+  // 資本提携・M&A：出資・資本業務提携・買収（子会社化）だけ。業務提携・共同開発・ライセンス・販売提携など、資本の動かない提携は出さない
+  const deals = getPartnerships().filter((p) => p.type !== 'partnership' && (myNames.includes(nm(p.from)) || myNames.includes(nm(p.to))));
+  // 同じ相手・同じ種類・同じ月の記録は1件にまとめる（中身の説明があるほうを残す）
+  const dealRows = [...deals]
+    .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || Number(!!b.label && b.label !== b.kind) - Number(!!a.label && a.label !== a.kind))
+    .map((p) => ({ p, other: myNames.includes(nm(p.from)) ? p.to : p.from }))
+    .filter((x, i, arr) => arr.findIndex((y) => nm(y.other) === nm(x.other) && y.p.kind === x.p.kind && (y.p.date ?? '').slice(0, 7) === (x.p.date ?? '').slice(0, 7)) === i);
   const stoppedCount = services.filter((s) => STOPPED.includes(s.status)).length;
   const latestRep = reports[0];
   const segRep = reports.find((r) => r.quarter === 'FY' && r.segments?.length) ?? latestWithSegments(reports);
@@ -89,7 +95,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             <dt>主な事業</dt>
             <dd>{(c.profile?.businesses ?? []).slice(0, 3).map((b) => <span key={b.name} className="hmk-biz">{b.name.replace(/（.*?）/g, '')}{b.since ? <small>{b.since.slice(0, 4)}年〜</small> : null}</span>)}{!c.profile?.businesses?.length && (c.products?.slice(0, 3).join('、') || '—')}</dd>
             <dt>事業DB</dt><dd>{services.length ? `${services.length}件` : '—'}{stoppedCount ? <small>うち止まった事業 {stoppedCount}件</small> : null}</dd>
-            <dt>提携・M&amp;A</dt><dd>{deals.length ? <a href="#deals">{deals.length}件</a> : '—'}</dd>
+            <dt>資本提携・M&amp;A</dt><dd>{dealRows.length ? <a href="#deals">{dealRows.length}件</a> : '—'}</dd>
           </dl>
         </div>
         <div className="hmk-col">
@@ -266,18 +272,22 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             </section>
           )}
 
-          {deals.length > 0 && (
+          {dealRows.length > 0 && (
             <section className="panel" id="deals">
-              <h3>提携・M&amp;A</h3>
+              <h3>資本提携・M&amp;A</h3>
               <ul className="co-history">
-                {[...deals].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '')).map((p, i) => {
-                  const other = myNames.includes(nm(p.from)) ? p.to : p.from;
+                {dealRows.map(({ p, other }, i) => {
                   const o = findCompanyByName(other);
                   return (
                     <li key={i}>
                       <span>{p.date ? p.date.replace(/^(\d{4})-(\d{2}).*/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年') : ''}</span>
-                      {o ? <Link href={`/companies/${o.id}/`}>{other}</Link> : other}：{p.kind}「{p.label}」{p.status === '終了' ? '（終了）' : ''}
-                      {p.sources?.[0] && <a href={p.sources[0]} target="_blank" rel="noreferrer" className="h-src">出典</a>}
+                      <div>
+                        <b className={`deal-kind ${p.type === 'parent' ? 'dk-ma' : 'dk-cap'}`}>{p.kind}</b>
+                        {o ? <Link href={`/companies/${o.id}/`}>{other}</Link> : other}
+                        {p.label && p.label !== p.kind && <>「{p.label}」</>}
+                        {p.status === '終了' ? '（終了）' : ''}
+                        {p.sources?.[0] && <a href={p.sources[0]} target="_blank" rel="noreferrer" className="h-src">出典</a>}
+                      </div>
                     </li>
                   );
                 })}

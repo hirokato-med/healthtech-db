@@ -1091,3 +1091,7 @@ a.upd-title:hover { color: var(--navy); }
 .grp-table .c { text-align: center; }
 .grp-table .nw { white-space: nowrap; }
 .grp-table .exit-box { margin-left: 0; }
+/* 資本提携・M&A の種類 */
+.deal-kind { display: inline-block; margin-right: 8px; padding: 0 6px; border: 1.5px solid; border-radius: 3px; font-size: 11px; font-weight: 800; line-height: 1.6; white-space: nowrap; vertical-align: 1px; }
+.deal-kind.dk-ma { color: #b45309; border-color: #b45309; background: #fff4e5; }
+.deal-kind.dk-cap { color: #1d4ed8; border-color: #1d4ed8; background: #eaf1ff; }
