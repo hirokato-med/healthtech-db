@@ -7135,7 +7135,7 @@
       "https://prtimes.jp/main/html/rd/p/000000011.000162520.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8240001043116"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "cancer-risk-screening-test",
     "startedAt": "2024-08"
   },
@@ -7769,14 +7769,16 @@
     "endReasonNote": "会社はグループ内の合併で消滅した。合併後に「おうちでドック」が継続しているかは確認できず（サービスサイトは接続できない）、終了の告知や理由も見つからない。",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000028690.html",
+      "https://prtimes.jp/main/html/rd/p/000000072.000034765.html",
+      "https://prtimes.jp/main/html/rd/p/000000090.000034765.html",
+      "https://www.halmek-holdings.co.jp/company/history/",
       "https://xtech.nikkei.com/dm/atcl/feature/15/327441/110100264/",
       "https://prtimes.jp/main/html/rd/p/000000013.000028690.html",
       "https://www.halmek-holdings.co.jp/news/press/2021/dgipylt9h3/",
       "https://www.halmek-holdings.co.jp/news/press/2022/zcwymy_0ot/",
-      "https://prtimes.jp/main/html/rd/p/000000072.000034765.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001165030"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "mail-in-blood-test"
   },
   {
@@ -8867,13 +8869,15 @@
     "endReasonNote": "公表論文は、アプリ群で血糖コントロールに有意な改善が見られず、行動変容を十分に促せなかった可能性やアプリの使用率の低さなどを要因に挙げた。承認申請・開発中止の公式発表は見つからない。",
     "lessons": "アプリ単体で生活習慣を変え、HbA1cという硬い指標で差を出すことの難しさが表れた例とみられる。",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000083339.html",
+      "https://prtimes.jp/main/html/rd/p/000000003.000083339.html",
       "https://www.sumitomo-pharma.co.jp/news/20200803.html",
       "https://xtech.nikkei.com/atcl/nxt/news/18/08489/",
       "https://www.link-j.org/interview/post-3149.html",
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC11429663/",
       "https://prtimes.jp/main/html/rd/p/000000001.000083339.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "lifestyle-disease-app"
   },
   {
@@ -9271,7 +9275,7 @@
       "https://wellhealth.tech/lp/",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120901047764"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "occupational-health-service",
     "knownSince": "2024-06",
     "knownSinceSource": "https://sogyotecho.jp/news/20240611wellhealth/"
@@ -15454,7 +15458,7 @@
     "description": "医師2,000名が作成・更新する医学情報データベースと組み合わせたAI問診票。患者の回答から鑑別疾患を示し、初診カルテ作成時間を1/3にするとうたう医療機関向けWEB問診。",
     "hp": "",
     "startedYear": 2021,
-    "status": "不明",
+    "status": "提供中",
     "milestones": [
       {
         "date": "2016-11",
@@ -15479,21 +15483,24 @@
         "text": "同社は診察室の会話を音声認識してカルテ記載を支援する「今日のAI音声認識」をリリース（企業DBによる）。生成AIによるカルテ下書きの開発も進める"
       },
       {
+        "date": "2025-07-15",
+        "text": "同社が診察中の会話からAIがカルテ下書きを作る「今日のAI音声認識」をリリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000023.000080023.html"
+      },
+      {
         "date": "2026-10",
         "text": "同社公式サイトはセキュリティ対応のため一時停止中で、今日の問診票の現状は確認できない"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "終了の告知は見つからない。現在の提供状況は確認できない。",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000009.000080023.html",
+      "https://www.premedi.co.jp/konnichi-no-monshinhyo",
+      "https://www.premedi.co.jp/konnichi-no-monshinhyo/casestudy/3459/",
+      "https://prtimes.jp/main/html/rd/p/000000027.000080023.html",
       "https://www.premedi.co.jp/",
-      "https://www.itreview.jp/products/konnichi-no-monshinhyo/profile",
-      "https://prtimes.jp/main/html/rd/p/000000027.000080023.html"
+      "https://www.itreview.jp/products/konnichi-no-monshinhyo/profile"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "ai-symptom"
     ],
@@ -15771,7 +15778,7 @@
     "description": "医師・看護師・薬剤師などの専門家が、利用者の健康や心の悩みに24時間回答する健康Q&A・相談サービス。携帯コンテンツ大手エムティーアイが始め、のちに子会社化してメディパルと合弁にした。",
     "hp": "",
     "startedYear": 2010,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2010-12",
     "milestones": [
       {
@@ -15787,6 +15794,11 @@
         "text": "エムティーアイとメディパルホールディングスが資本業務提携"
       },
       {
+        "date": "2018-07-02",
+        "text": "サービス名を「カラダメディカ」から「CARADA 健康相談」に変更",
+        "source": "https://caradamedica.co.jp/service"
+      },
+      {
         "date": "2018-11",
         "text": "メディパルHDがカラダメディカに34.4%出資し合弁会社化。両社の協業をカラダメディカに集約すると説明"
       },
@@ -15799,17 +15811,15 @@
         "text": "CARADAの公式サイトに健康相談の案内は見当たらない（当方確認）"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "終了の告知は見つからず、現在の提供状況・理由は確認できない。",
     "sources": [
+      "https://caradamedica.co.jp/service",
+      "https://spkaramedy.mopita.com/",
       "https://www.mti.co.jp/?page_id=101",
       "https://www.mti.co.jp/?p=23076",
       "https://www.mti.co.jp/?p=27982",
       "https://www.carada.jp/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "doctor-qa"
     ],
@@ -36619,7 +36629,7 @@
     "sources": [
       "https://sado-business-contest.com/2024/interview/quori/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "cosmetic-review-booking-app",
     "endReasons": [
       "unknown"
@@ -61766,17 +61776,21 @@
     "hp": "https://kounotori-benefit.com/",
     "startedYear": 2021,
     "status": "不明",
-    "startedAt": "2021-04",
+    "startedAt": "2021-04-19",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://kounotori-benefit.com/",
       "https://prtimes.jp/main/html/rd/p/000000001.000091027.html",
-      "https://kounotori-benefit.com/"
+      "https://prtimes.jp/main/html/rd/p/000000003.000091027.html",
+      "https://prtimes.jp/main/html/rd/p/000000004.000091027.html",
+      "https://medeta.co.jp/service/"
     ],
     "type": "femtech-employee-benefit",
-    "updatedAt": "2026-10",
-    "companyId": "1010001220149"
+    "updatedAt": "2026-11",
+    "companyId": "1010001220149",
+    "startBasis": "サービスサイトをプレオープン（同年6月の正式ローンチを予告）"
   },
   {
     "id": "b-6d01516e",
@@ -79333,17 +79347,28 @@
     "description": "ロボットPepperが失語症の人の発話練習の相手をするリハビリ用アプリ",
     "hp": "",
     "startedYear": 2017,
-    "status": "不明",
+    "status": "譲渡",
     "startedAt": "2017-01",
     "startBasis": "提供開始（2017-01-27 サービス提供開始を発表）",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "http://robocure.jp/robocure_pr_201903.pdf",
+      "http://robocure.jp/",
       "https://prtimes.jp/main/html/rd/p/000000003.000023746.html"
     ],
     "type": "rehab-robotics-prosthetics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "milestones": [
+      {
+        "date": "2019-03-14",
+        "text": "ロボキュアが「ハナセル」を含む全ての事業を株式会社イントロム（代表は同じ森本暁彦氏）に譲渡",
+        "source": "http://robocure.jp/robocure_pr_201903.pdf"
+      }
+    ],
+    "endedAt": "2019-03-14",
+    "successor": "株式会社イントロム"
   },
   {
     "id": "b-0137b37f",
@@ -86232,7 +86257,7 @@
       "https://www.e-radfan.com/product/84/"
     ],
     "type": "hospital-emr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-fa815595",
@@ -87053,10 +87078,13 @@
     ],
     "endReasonNote": "2017年の発表・事業提携以降の提供状況は一次情報で確認できなかった",
     "sources": [
-      "https://kaden.watch.impress.co.jp/docs/news/1044104.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000020294.html",
+      "https://kaden.watch.impress.co.jp/docs/news/1044104.html",
+      "https://prtimes.jp/main/html/rd/p/000000012.000020294.html",
+      "https://info.ninchisho.net/archives/25744"
     ],
     "type": "elderly-home-monitoring",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-8c05d264",
@@ -88378,7 +88406,7 @@
       "https://emsystems.co.jp/about/history.html"
     ],
     "type": "medication-devices",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-1e916c0b",
@@ -88487,7 +88515,7 @@
       "https://emsystems.co.jp/about/history.html"
     ],
     "type": "care-record-careplan-software",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-97517442",
@@ -88879,7 +88907,7 @@
       "https://www.tais.co.jp/company/history/"
     ],
     "type": "hospital-emr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-23d793c4",
@@ -88928,7 +88956,7 @@
       "https://www.tais.co.jp/company/history/"
     ],
     "type": "receipt-check-software",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-c9cadb44",
@@ -92539,24 +92567,23 @@
   },
   {
     "id": "b-55e8636a",
-    "name": "訪日中国人旅行者向け人間ドック（インバウンド健診）",
+    "name": "訪日外国人向け人間ドックの予約・通訳・受入支援（医療ツーリズム・インバウンド）",
     "company": "マーソ株式会社",
     "companyId": "9010401116526",
     "category": "telemedicine",
     "description": "訪日中国人旅行者が日本の提携医療施設で人間ドックを受けられるよう、予約と案内を行うサービス。",
     "hp": "https://www.mrso.co.jp/",
     "startedYear": 2015,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2015-12-08",
     "startBasis": "サービス発表（プレスリリース）",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://www.mrso.co.jp/service/",
       "http://prtimes.jp/main/html/rd/p/000000015.000013522.html"
     ],
     "type": "medical-interpretation-crossborder",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "formerName": "訪日中国人旅行者向け人間ドック（インバウンド健診）"
   },
   {
     "id": "b-179139de",
@@ -94730,10 +94757,11 @@
     ],
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000003.000024862.html",
-      "https://prtimes.jp/main/html/rd/p/000000004.000024862.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000024862.html",
+      "https://www.emcjpn.com/company"
     ],
     "type": "wearable-vital-device",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-d7af3106",
@@ -94751,10 +94779,19 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000024862.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000024862.html",
+      "https://www.emcjpn.com/",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401129782"
     ],
     "type": "sleep-corporate-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "milestones": [
+      {
+        "date": "2018-08-21",
+        "text": "運営会社がイーグルマトリックスコンサルティング株式会社からEMC Healthcare株式会社に商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401129782"
+      }
+    ]
   },
   {
     "id": "b-86831442",
@@ -94771,10 +94808,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000009.000024862.html"
+      "https://prtimes.jp/main/html/rd/p/000000009.000024862.html",
+      "https://www.emcjpn.com/"
     ],
     "type": "body-condition-log-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-21cc0549",
@@ -96229,7 +96267,7 @@
     "description": "海外出張の多い企業の従業員向けに、渡航スケジュールに合わせて睡眠・光の浴び方などを指導し時差ボケを予防するプログラム。ANAと時差ボケ調整アプリを共同開発し実証した。",
     "hp": "https://neurospace.jp/",
     "startedYear": 2017,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2017-03-17",
     "startBasis": "企業向け提供スタート（プレスリリース）",
     "milestones": [
@@ -96239,14 +96277,14 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000033.000020114.html"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000017.000020114.html"
+      "https://prtimes.jp/main/html/rd/p/000000017.000020114.html",
+      "https://www.neurospace.jp/seminar",
+      "https://www.neurospace.jp/sleep-solution-package",
+      "https://prtimes.jp/main/html/rd/p/000000050.000020114.html"
     ],
     "type": "sleep-corporate-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-93e07bae",
@@ -96264,10 +96302,12 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000030.000020114.html"
+      "https://prtimes.jp/main/html/rd/p/000000030.000020114.html",
+      "https://prtimes.jp/main/html/rd/p/000000051.000020114.html",
+      "https://www.neurospace.jp/"
     ],
     "type": "sleep-corporate-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-09f906a4",
@@ -96285,10 +96325,13 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000029.000020114.html"
+      "https://prtimes.jp/main/html/rd/p/000000029.000020114.html",
+      "https://prtimes.jp/main/html/rd/p/000000048.000020114.html",
+      "https://prtimes.jp/main/html/rd/p/000000054.000020114.html",
+      "https://www.neurospace.jp/blog/hankyu?categoryId=118798"
     ],
     "type": "sleep-corporate-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-68fddf66",
@@ -97319,7 +97362,7 @@
       "https://prtimes.jp/main/html/rd/p/000000010.000025604.html"
     ],
     "type": "clinical-communication",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-ee5c6cde",
@@ -97347,7 +97390,7 @@
       "https://prtimes.jp/main/html/rd/p/000000015.000025604.html"
     ],
     "type": "hospital-management-bi",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-2f204405",
@@ -97368,7 +97411,7 @@
       "https://prtimes.jp/main/html/rd/p/000000006.000025604.html"
     ],
     "type": "doctor-education-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-89e39063",
@@ -97956,7 +97999,7 @@
     "description": "東京23区で自宅に施術者を呼べる出張リラクゼーション・ビューティケア・家事代行サービス。産後ケアのキャンペーンや法人向けの無料福利厚生プランも展開した。",
     "hp": "https://enbase.jp/",
     "startedYear": null,
-    "status": "不明",
+    "status": "休止",
     "knownSince": "2025-02",
     "milestones": [
       {
@@ -97974,10 +98017,12 @@
       "unknown"
     ],
     "sources": [
+      "https://lp.timepass.co.jp/ppcare/cp",
+      "https://enbase.jp/",
       "https://prtimes.jp/main/html/rd/p/000000002.000154525.html"
     ],
     "type": "relaxation-dispatch-matching",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-d199010c",
@@ -97988,17 +98033,18 @@
     "description": "夜泣きや寝かしつけに悩む全国の子育て家庭向けに、専門家がオンラインで相談に乗り改善を支援するサービス。",
     "hp": "https://enbase.jp/",
     "startedYear": 2025,
-    "status": "不明",
+    "status": "休止",
     "startedAt": "2025-07",
     "startBasis": "2025年7月からの開始を発表（プレスリリース 2025-07-02）",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://lp.timepass.co.jp/ppcare/cp",
       "https://prtimes.jp/main/html/rd/p/000000004.000154525.html"
     ],
     "type": "pediatric-perinatal-support",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-14927551",
@@ -98019,7 +98065,7 @@
       "https://prtimes.jp/main/html/rd/p/000000007.000046505.html"
     ],
     "type": "care-activity-dementia-program",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-a1364ba9",
@@ -98768,10 +98814,12 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000003.000134238.html"
+      "https://prtimes.jp/main/html/rd/p/000000003.000134238.html",
+      "https://www.and-l.com/home",
+      "https://corp.and-l.com/"
     ],
     "type": "doctor-chat-consultation",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-6f7d3d7d",
@@ -99008,10 +99056,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000069.000051229.html"
+      "https://prtimes.jp/main/html/rd/p/000000069.000051229.html",
+      "https://doctors-inc.jp/"
     ],
     "type": "telemedicine-direct-to-patient",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-947dd476",
@@ -99050,10 +99099,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000043.000051229.html"
+      "https://prtimes.jp/main/html/rd/p/000000043.000051229.html",
+      "https://doctors-inc.jp/dx-platform/"
     ],
     "type": "medical-it-development",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-02c5d385",
@@ -99210,7 +99260,7 @@
       "https://prtimes.jp/main/html/rd/p/000000019.000016841.html"
     ],
     "type": "doctor-clinical-ai-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-e432dccb",
@@ -99239,7 +99289,7 @@
       "https://prtimes.jp/main/html/rd/p/000000027.000016841.html"
     ],
     "type": "telemedicine-clinic-system",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-e3e89763",
@@ -99762,16 +99812,14 @@
     "description": "専門医が病気や治療について一般向けに解説する医療情報メディア。公開3か月で月間300万PVに達した。",
     "hp": "https://www.premedi.co.jp/",
     "startedYear": null,
-    "status": "不明",
+    "status": "提供中",
     "knownSince": "2021-05",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000080023.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000080023.html",
+      "https://www.premedi.co.jp/%E3%81%8A%E5%8C%BB%E8%80%85%E3%81%95%E3%82%93%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/"
     ],
     "type": "medical-info-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-379f3259",
@@ -100225,7 +100273,7 @@
       "https://prtimes.jp/main/html/rd/p/000000006.000078525.html"
     ],
     "type": "patient-community-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-9dd0ec4a",
@@ -100911,7 +100959,7 @@
     "description": "病気や症状について医療情報に絞って調べられる検索サービス・メディア。2021年には疾患ごとのコミュニティ機能を加え、のちの「おうち病院 疾患コミュニティ」につながった。",
     "hp": "https://corp.anamne.com/",
     "startedYear": 2018,
-    "status": "不明",
+    "status": "統合",
     "startedAt": "2018-08-02",
     "startBasis": "提供開始（プレスリリース）",
     "milestones": [
@@ -100929,16 +100977,25 @@
         "date": "2021-02-26",
         "text": "疾患コミュニティ機能を追加",
         "source": "https://prtimes.jp/main/html/rd/p/000000031.000027080.html"
+      },
+      {
+        "date": "2024-02-29",
+        "text": "「clila」を「おうち病院 疾患コミュニティ」としてブランド統合（サイトは clila.anamne.com のまま）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000069.000027080.html"
       }
     ],
     "endReasons": [
-      "unknown"
+      "parent-strategy"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000069.000027080.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000027080.html"
     ],
     "type": "medical-info-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "endedAt": "2024-02-29",
+    "endReasonNote": "アナムネは、オンライン患者会コミュニティ「clila」を既存のオンライン診療サービス「おうち病院」とブランド統合し、「おうち病院 疾患コミュニティ」としてSNS機能などをアップデートしたと発表した。",
+    "successor": "「おうち病院 疾患コミュニティ」（アナムネ。DBの b-b13baf22）"
   },
   {
     "id": "b-b13baf22",
@@ -100993,7 +101050,7 @@
       "https://prtimes.jp/main/html/rd/p/000000006.000027080.html"
     ],
     "type": "mail-in-blood-test",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-045c2c7d",
@@ -101486,17 +101543,15 @@
     "description": "医師が学会などで発表した症例報告のスライドを共有・閲覧できるサービス。専門医相談「Medii Eコンサル」の利用者などが症例の知見を学び合える。",
     "hp": "https://medii.jp/",
     "startedYear": 2022,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2022-12-21",
     "startBasis": "リリース（プレスリリース）",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://bank.medii.jp/top",
       "https://prtimes.jp/main/html/rd/p/000000023.000060898.html"
     ],
     "type": "doctor-education-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-8f7b5ae8",
@@ -101974,16 +102029,23 @@
         "date": "2020-04-01",
         "text": "北里大学北里研究所病院で潰瘍性大腸炎の疾患管理アプリを用いた臨床研究を開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000005.000045006.html"
+      },
+      {
+        "date": "2024-06-25",
+        "text": "運営会社がActivaid株式会社からSmarTrial株式会社に社名変更",
+        "source": "https://lp.smartrial.jp/company"
       }
     ],
     "endReasons": [
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000045006.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000045006.html",
+      "https://prtimes.jp/main/html/rd/p/000000005.000045006.html",
+      "https://lp.smartrial.jp/company"
     ],
     "type": "patient-community-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-fc975215",
@@ -106908,7 +106970,7 @@
       "https://telemedease.org/"
     ],
     "type": "remote-patient-monitoring",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-358e50b4",
@@ -106946,7 +107008,7 @@
       "https://prtimes.jp/main/html/rd/p/000000019.000048884.html"
     ],
     "type": "dental-patient-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-643d3b05",
@@ -109047,10 +109109,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000004.000064367.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000064367.html",
+      "https://www.scogr.co.jp/services/"
     ],
     "type": "dental-clinic-system",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-774ecc24",
@@ -110557,7 +110620,7 @@
       "https://www.medicaldb.co.jp/company/"
     ],
     "type": "pharmacy-erecord-system",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-9129a563",
@@ -111114,16 +111177,15 @@
     "description": "病院・介護施設向けに、看護補助者や滅菌技師などの人材派遣と業務委託をまとめて提供する医療介護特化の人材アウトソーシング。",
     "hp": "",
     "startedYear": null,
-    "status": "不明",
+    "status": "提供中",
     "knownSince": "2017-08",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://www.m-care.co.jp/agency/humanresources/",
+      "https://www.m-care.co.jp/",
       "https://prtimes.jp/main/html/rd/p/000000007.000022709.html"
     ],
     "type": "medical-staffing-agency",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-0c2a3102",
@@ -111134,7 +111196,7 @@
     "description": "言語聴覚士がいない介護施設や回復期病院、自宅でも、失語症などの人がタブレットで一人で言語訓練できるサービス。施設のPCの管理ツールで訓練内容の設定や履歴確認を行う。千葉大学・君津中央病院と共同開発。",
     "hp": "",
     "startedYear": 2018,
-    "status": "不明",
+    "status": "譲渡",
     "startedAt": "2018-06-05",
     "startBasis": "商用サービス提供開始（プレスリリース）",
     "milestones": [
@@ -111142,16 +111204,25 @@
         "date": "2017-11",
         "text": "君津中央病院と遠隔言語訓練の臨床試験を開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000005.000023746.html"
+      },
+      {
+        "date": "2019-03-14",
+        "text": "ロボキュアが「ハナセル」を含む全ての事業を株式会社イントロム（代表は同じ森本暁彦氏）に譲渡",
+        "source": "http://robocure.jp/robocure_pr_201903.pdf"
       }
     ],
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "http://robocure.jp/robocure_pr_201903.pdf",
+      "http://robocure.jp/service.html",
       "https://prtimes.jp/main/html/rd/p/000000006.000023746.html"
     ],
     "type": "rehab-robotics-prosthetics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "endedAt": "2019-03-14",
+    "successor": "株式会社イントロム"
   },
   {
     "id": "b-4351675f",
@@ -111424,7 +111495,7 @@
       "https://medicalcompass.co.jp/"
     ],
     "type": "pharmacy-patient-engagement",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-da1cfe2e",
@@ -112141,7 +112212,7 @@
     "description": "東京メトロのアプリ利用者が声を吹き込むと、音声感情解析Empathで気分を判定し、すごろく形式で元気づけるメンタルチェックコンテンツ。",
     "hp": "",
     "startedYear": 2017,
-    "status": "不明",
+    "status": "終了",
     "startedAt": "2017-10-24",
     "startBasis": "リリース（プレスリリース）",
     "endReasons": [
@@ -112151,7 +112222,9 @@
       "https://prtimes.jp/main/html/rd/p/000000021.000020089.html"
     ],
     "type": "mental-ai-selfcare-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "endedAt": "2017-12-29",
+    "endReasonNote": "東京メトロアプリの期間限定コンテンツ「メトロラボ2017」（2017年9月29日〜12月29日）の一つとして提供すると、スマートメディカルのプレスリリースに書かれていた。"
   },
   {
     "id": "b-b417102e",
@@ -112581,17 +112654,17 @@
     "category": "medical-dx",
     "description": "医師監修のCG動画で人体構造・病気の原因・手術方法などを見せる、医療機関の患者説明（インフォームド・コンセント）用の無料iPadアプリ。院内のオフライン環境でも使え、製薬・医療機器メーカーなどから動画制作も受ける。",
     "hp": "https://www.medicacloud.jp/service/index01.html",
-    "startedYear": null,
-    "status": "不明",
+    "startedYear": 2011,
+    "status": "提供中",
     "knownSince": "2015-03",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://apps.apple.com/jp/app/id442043009",
       "https://www.medicacloud.jp/service/index01.html"
     ],
     "type": "patient-explanation-consent",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "startedAt": "2011-06-09",
+    "startBasis": "App Store での初回公開日（releaseDate）"
   },
   {
     "id": "b-df217598",
@@ -112611,7 +112684,7 @@
       "https://www.medicacloud.jp/service/index03.html"
     ],
     "type": "web-ai-monshin",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-cbfca0a0",
@@ -112622,7 +112695,7 @@
     "description": "自治体の健康ポイント事業を受託し、活動量計・スマホアプリ・交通系ICカード・紙カードで歩数や教室参加にポイントを付け、市内の健康ステーションで記録できる仕組みを運営する。",
     "hp": "https://www.medicacloud.jp/",
     "startedYear": 2015,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2015-07",
     "startBasis": "埼玉県志木市「健康寿命のばしマッスルプロジェクト」への採択（公式お知らせ）",
     "milestones": [
@@ -112637,14 +112710,14 @@
         "source": "https://www.medicacloud.jp/"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://apps.apple.com/jp/app/id1618738911",
+      "https://funabashi-kenko-point.com/news/20260401.php",
+      "https://www.city.funabashi.lg.jp/kenkou/iryou/011/p063871.html",
       "https://www.medicacloud.jp/"
     ],
     "type": "health-point-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-6edee2c0",
@@ -130052,13 +130125,12 @@
     "description": "Twitter（X）などのSNSを通じて医師に医療相談できるサービス。ウクライナからの相談を無料にしたこともある。",
     "hp": "",
     "startedYear": 2021,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2021-08-23",
     "startBasis": "リリースの発表（メディー株式会社のプレスリリース）",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://twicure.com/",
+      "https://mediee.jp/",
       "https://prtimes.jp/main/html/rd/p/000000002.000083906.html",
       "https://prtimes.jp/main/html/rd/p/000000004.000083906.html"
     ],
@@ -130273,11 +130345,18 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000044720.html",
-      "https://prtimes.jp/main/html/rd/p/000000005.000044720.html"
+      "https://prtimes.jp/main/html/rd/p/000000005.000044720.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000044720.html"
     ],
     "type": "mental-corporate-eap",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "milestones": [
+      {
+        "date": "2020-01-20",
+        "text": "法人向けアプリを改良し、1か月の集中トレーニングとメンタルモニタリングを組み合わせた新サービス「エレファントコンパス」として刷新",
+        "source": "https://prtimes.jp/main/html/rd/p/000000005.000044720.html"
+      }
+    ]
   },
   {
     "id": "b-6ae3fbec",
@@ -130504,11 +130583,13 @@
     "description": "介護施設の食事・栄養の情報を家族と共有し、高齢者の栄養改善を支える仕組み。",
     "hp": "",
     "startedYear": null,
-    "status": "不明",
+    "status": "休止",
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://reinvent-health.com/eiyohub/",
+      "https://reinvent-health.com/",
       "https://prtimes.jp/main/html/rd/p/000000005.000118154.html"
     ],
     "type": "care-record-careplan-software",
@@ -130544,14 +130625,15 @@
     "description": "フィンランドのNightingale Health社の技術で血液を分析し、生活習慣病などのリスクをスコアで示す検査。健診施設や企業を通じて提供する。",
     "hp": "",
     "startedYear": 2021,
-    "status": "不明",
-    "startedAt": "2021-12-28",
-    "startBasis": "販売開始の発表（株式会社ウェルタスのプレスリリース）",
-    "endReasons": [
-      "unknown"
-    ],
+    "status": "提供中",
+    "startedAt": "2021-12-03",
+    "startBasis": "日本での発売を発表（発売記念イベントのプレスリリース）。販売開始は2021-12-28",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000090008.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000090008.html",
+      "https://mynightingale.welltus.jp/",
+      "https://mynightingale.welltus.jp/consumer/partnership",
+      "https://apps.apple.com/jp/app/id1621272133",
       "https://prtimes.jp/main/html/rd/p/000000006.000090008.html"
     ],
     "type": "mail-in-blood-test",
@@ -130660,7 +130742,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000005.000179521.html"
+      "https://prtimes.jp/main/html/rd/p/000000005.000179521.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000179521.html",
+      "https://prtimes.jp/main/html/rd/p/000000008.000179521.html",
+      "https://charamix.jp",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001163416"
     ],
     "type": "sleep-app-insomnia-dtx",
     "updatedAt": "2026-11"
@@ -131069,10 +131155,18 @@
     "startBasis": "提供を確認できる最古の自社発表（IT導入補助金の対象認定）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000021584.html",
-      "https://prtimes.jp/main/html/rd/p/000000004.000021584.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000021584.html",
+      "https://medibase.co.jp/"
     ],
     "type": "specialty-practice-emr",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "milestones": [
+      {
+        "date": "2025-03-11",
+        "text": "MEDIBASE事業をGMOビューティー株式会社が承継（以後は同社が提供）",
+        "source": "https://medibase.co.jp/"
+      }
+    ]
   },
   {
     "id": "b-d9c8bc60",
@@ -131192,17 +131286,42 @@
     "category": "pharmacy-dx",
     "description": "ロボットとICTで調剤を自動化する支援システム。特許を取得し、専門の子会社で事業化を進める。",
     "hp": "",
-    "startedYear": null,
-    "status": "不明",
-    "endReasons": [
-      "unknown"
-    ],
+    "startedYear": 2022,
+    "status": "提供中",
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000100428.html",
       "https://prtimes.jp/main/html/rd/p/000000006.000100428.html",
-      "https://prtimes.jp/main/html/rd/p/000000007.000100428.html"
+      "https://prtimes.jp/main/html/rd/p/000000007.000100428.html",
+      "https://prtimes.jp/main/html/rd/p/000000009.000100428.html",
+      "https://www.medicalyoursrobotics.com/",
+      "https://www.medicalyoursrobotics.com/news.html"
     ],
     "type": "medication-devices",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "startedAt": "2022-04-22",
+    "startBasis": "伊GPI社と国内独占販売契約を結び、自動入庫払出装置「リードル・ファシス」と自社の処方箋データ連携ソフトを組み合わせたスマート調剤ロボットシステムを発表（プレスリリース）。自社のロボット薬局は2019年に開発",
+    "milestones": [
+      {
+        "date": "2023-03-17",
+        "text": "調剤ロボット事業の子会社、株式会社メディカルユアーズロボティクスを設立し、スマート調剤室・リードル・ファシスを独占販売",
+        "source": "https://prtimes.jp/main/html/rd/p/000000006.000100428.html"
+      },
+      {
+        "date": "2023-10-12",
+        "text": "ロボットと電子処方箋データを連動させる調剤支援システムの特許を取得",
+        "source": "https://prtimes.jp/main/html/rd/p/000000007.000100428.html"
+      },
+      {
+        "date": "2024-07-16",
+        "text": "住友商事と資本業務提携。住友商事出身の吉田圭吾氏が社長に就任",
+        "source": "https://prtimes.jp/main/html/rd/p/000000009.000100428.html"
+      },
+      {
+        "date": "2026-03-17",
+        "text": "AIで箱を判別して入庫を自動化する「フィジカルAI入庫システム」を発売",
+        "source": "https://www.medicalyoursrobotics.com/news.html"
+      }
+    ]
   },
   {
     "id": "b-5cb44d63",
@@ -131409,43 +131528,51 @@
   },
   {
     "id": "b-ca4cfc6e",
-    "name": "生体音AIによる誤嚥リスク判定（ノドの音の自動観察）",
+    "name": "ノドの音で食物残渣をAI判定する誤嚥チェック「食通（しょくつう）」",
     "company": "バイオソノ株式会社",
     "companyId": "7370001049142",
     "category": "medical-data-analytics",
     "description": "喉の音をセンサーとAIで観察し、誤嚥の原因になる食物残渣の有無を判定する介護向けの仕組み。セルフチェック機能のアプリもある。",
     "hp": "https://biosono.jp/",
     "startedYear": null,
-    "status": "不明",
-    "endReasons": [
-      "unknown"
-    ],
+    "status": "提供中",
     "sources": [
+      "https://apps.apple.com/jp/app/id6744400689",
       "https://biosono.jp/"
     ],
     "type": "digital-biomarker",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "formerName": "生体音AIによる誤嚥リスク判定（ノドの音の自動観察）",
+    "knownSince": "2025-05",
+    "knownSinceSource": "https://apps.apple.com/jp/app/id6744400689"
   },
   {
     "id": "b-3dec63fd",
-    "name": "高齢者の健康増進事業（東京都・東京都健康長寿医療センターとの協定）",
+    "name": "高齢者の健康づくり事業へのリストバンド型活動量計「ミモリー」の提供（東京都・東京都健康長寿医療センターとの協定）",
     "company": "FrontAct株式会社",
     "companyId": "9010001243704",
     "category": "nursing",
     "description": "東京都と東京都健康長寿医療センターと協定を結び、高齢者の健康増進に取り組む事業。",
     "hp": "",
     "startedYear": 2024,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2024-10-30",
     "startBasis": "協定締結の発表（FrontAct株式会社のプレスリリース）",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://www.city.shinagawa.tokyo.jp/kusei/press_release/1008334/1008352.html",
+      "https://www.metro.tokyo.lg.jp/information/press/2024/10/2024103015",
       "https://prtimes.jp/main/html/rd/p/000000001.000151202.html"
     ],
     "type": "care-activity-dementia-program",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "formerName": "高齢者の健康増進事業（東京都・東京都健康長寿医療センターとの協定）",
+    "milestones": [
+      {
+        "date": "2025-10-20",
+        "text": "品川区・東京都健康長寿医療センター・東京都と連携協定。東京都の「アプリを活用した高齢者の健康づくり推進事業」（令和7年度開始）で、都が調達したFrontActの活動量計「ミモリー」と「東京Chojuアプリ」を65歳以上の区民が使う",
+        "source": "https://www.city.shinagawa.tokyo.jp/kusei/press_release/1008334/1008352.html"
+      }
+    ]
   },
   {
     "id": "b-8ae9e42c",
