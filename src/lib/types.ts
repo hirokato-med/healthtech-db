@@ -8,6 +8,8 @@ export type Category = {
 export type Company = {
   /** 公式サイトのロゴ（pipeline/logos.mjs が取る）。kind: header＝サイト上部のロゴ、icon＝サイトのアイコン。shape: square＝マークの下に社名がある縦長・正方形に近いロゴ（少し大きく出す） */
   logo?: { file: string; kind: 'header' | 'icon'; source: string; checkedAt?: string; tone?: 'light'; shape?: 'square' };
+  /** 上場企業のグループ会社（子会社・関連会社と、以前の子会社） */
+  group?: CompanyGroup;
   id: string;
   name: string;
   hp: string;
@@ -256,3 +258,10 @@ export type MedicalDevice = {
 /** 投資家（資金調達の引受先をまとめたもの）。scripts/build-investors.mjs が data/investors.json に書く */
 export type InvestorRound = { companyId: string; date: string; round?: string; type?: string; amount: number | null; lead: boolean; with?: string[]; source?: string };
 export type Investor = { id: string; name: string; type: string; aliases: string[]; companies: number; rounds: InvestorRound[] };
+
+/** 上場企業のグループ会社（有価証券報告書の「関係会社の状況」・沿革から） */
+/** voting：議決権の所有割合（%）。indirect：そのうち間接所有の分。owned：親会社など、こちらが持たれている側（被所有割合） */
+export type GroupMember = { name: string; formerName?: string; relation: string; address?: string; capital?: number; business?: string; voting?: number; indirect?: number; owned?: boolean; whollyOwnedAtAcquisition?: boolean; note?: string; since?: string };
+export type FormerMember = { name: string; formerName?: string; since?: string; end?: string; how: string; note?: string };
+/** scope: healthcare＝ヘルスケア以外が本業の大きな会社で、ヘルスケアに関わる会社だけを載せたもの */
+export type CompanyGroup = { asOf: string; sourceLabel: string; source: string; consolidated?: number; equityMethod?: number; scope?: 'healthcare'; members: GroupMember[]; former?: FormerMember[] };
