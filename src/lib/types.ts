@@ -105,6 +105,8 @@ export type Service = {
   status: '提供中' | '準備中' | '終了' | '譲渡' | '統合' | '休止' | '不明';
   /** 医療機器としての情報（PMDA の添付文書から）。無ければ承認・認証の記録が見つかっていない */
   device?: MedicalDevice;
+  /** 医療機器ではないと確かめた事業（会社の説明・製品の説明から）。usesDevice：医療機器を使うサービスなら、その医療機器の PMDA のページ */
+  nonDevice?: { note: string; source?: string; usesDevice?: string; checkedAt?: string };
   /** 準備中のときの段階（研究開発中・治験中・承認申請中・承認取得（発売前）・発売予定 など） */
   stage?: string;
   tags?: string[];

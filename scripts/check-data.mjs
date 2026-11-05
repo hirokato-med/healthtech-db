@@ -45,6 +45,10 @@ add(must, 'カテゴリが事業の種類と合わない', services.filter((s) =
 add(must, '出典が無い', services.filter((s) => !s.sources?.length));
 add(must, '説明文・教訓が文字列でない（まとめ処理で壊れた など）', services.filter((s) => ['description', 'lessons', 'endReasonNote'].some((k) => s[k] != null && typeof s[k] !== 'string')));
 add(must, '節目の日付の形がおかしい', services.filter((s) => (s.milestones ?? []).some((m) => m.date && !/^\d{4}(-\d{2}){0,2}$/.test(m.date))));
+// グループ会社（有価証券報告書から）：議決権は 0〜100、日付は YYYY-MM、名前と関係は必須
+const badGroup = (g) => !g.sourceLabel || !Array.isArray(g.members) || g.members.some((m) => !m.name || !m.relation || (m.voting != null && !(m.voting >= 0 && m.voting <= 100)) || (m.since && !/^\d{4}(-\d{2})?$/.test(m.since))) || (g.former ?? []).some((m) => !m.name || !m.how || (m.end && !/^\d{4}(-\d{2})?$/.test(m.end)));
+add(must, 'グループ会社の形がおかしい', companies.filter((c) => c.group && badGroup(c.group)), (c) => `${c.id} ${c.name}`);
+add(must, '医療機器の情報と「医療機器ではない」が両方ある', services.filter((s) => s.device && s.nonDevice));
 
 // 確かめたい（デジタルヘルスの中心を先に並べる）
 const digitalFirst = (a, b) => Number(adjacent.has(a.type)) - Number(adjacent.has(b.type));
