@@ -4192,6 +4192,592 @@
       "kind": "header",
       "source": "https://corporate.m3.com/images/common/logo.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/240LHxrVRqSGaXsxDMaShF/76e68b0b5adef1b6d6c0f23fa589758d/20260625_FY25Q4_yuho_J.pdf",
+      "consolidated": 179,
+      "equityMethod": 8,
+      "members": [
+        {
+          "name": "ソニーグループ株式会社",
+          "companyId": "5010401067252",
+          "relation": "その他の関係会社",
+          "address": "東京都港区",
+          "capital": 881357,
+          "business": "電気・電子機械器具の製造、販売",
+          "voting": 34.5,
+          "owned": true,
+          "note": "有価証券報告書の提出会社"
+        },
+        {
+          "name": "エムスリーソリューションズ株式会社",
+          "formerName": "株式会社シィ・エム・エス",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 100,
+          "business": "電子カルテ等の開発・販売・サポート事業",
+          "voting": 100,
+          "since": "2012-10"
+        },
+        {
+          "name": "株式会社イーウェル",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 500,
+          "business": "福利厚生及び健康支援サービス事業",
+          "voting": 51,
+          "since": "2025-04"
+        },
+        {
+          "name": "コスモテック株式会社",
+          "relation": "連結子会社",
+          "address": "東京都文京区",
+          "capital": 100,
+          "business": "医療機器の販売、コンサルティング事業",
+          "voting": 100
+        },
+        {
+          "name": "株式会社FOURCUS",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 33,
+          "business": "医療機器の販売、コンサルティング事業",
+          "voting": 100
+        },
+        {
+          "name": "エムスリーマーケティング株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 100,
+          "business": "CSO（医薬品販売業務受託機関）事業",
+          "voting": 100
+        },
+        {
+          "name": "株式会社インフロント",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 30,
+          "business": "医療用医薬品専門の広告代理店事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "リノ・メディカル株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 10,
+          "business": "医療用医薬品専門の広告代理店事業",
+          "voting": 100
+        },
+        {
+          "name": "エムスリーデジタルコミュニケーションズ株式会社",
+          "companyId": "1010401110577",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 25,
+          "business": "医療分野におけるビジュアルコミュニケーションプラットフォームの提供",
+          "voting": 100
+        },
+        {
+          "name": "株式会社QLife",
+          "companyId": "1010901019228",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 150,
+          "business": "コンシューマ向けヘルスケアサイト運営事業",
+          "voting": 100
+        },
+        {
+          "name": "株式会社エムプラス",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 30,
+          "business": "学会・研究会の会員制コミュニティサイトの運営事業",
+          "voting": 50,
+          "note": "議決権は50％以下だが、実質的に支配しているため子会社"
+        },
+        {
+          "name": "株式会社日本アルトマーク",
+          "companyId": "8010001061768",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 101,
+          "business": "メディカルデータベース事業",
+          "voting": 100
+        },
+        {
+          "name": "エムスリーデジカル株式会社",
+          "companyId": "6010401119795",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 100,
+          "business": "クラウド診療支援システム開発・販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社ロジック",
+          "companyId": "5220001007562",
+          "relation": "連結子会社",
+          "address": "石川県金沢市",
+          "capital": 100,
+          "business": "訪問介護・看護事業所向け業務支援SaaSの開発・製造・販売",
+          "voting": 100
+        },
+        {
+          "name": "エムスリーヘルスデザイン株式会社",
+          "relation": "連結子会社",
+          "address": "京都府中京区",
+          "capital": 65,
+          "business": "健診代行業務、健診の補助・運営業務",
+          "voting": 100
+        },
+        {
+          "name": "株式会社当直連携基盤",
+          "companyId": "7040001104178",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 20,
+          "business": "在宅医療機関向け当直医師連携・共有プラットフォームの提供",
+          "voting": 80
+        },
+        {
+          "name": "株式会社メディサイエンスプラニング",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 100,
+          "business": "臨床開発業務を支援するCRO（医薬品開発業務受託機関）事業",
+          "voting": 100,
+          "since": "2014-02"
+        },
+        {
+          "name": "メビックス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 60,
+          "business": "大規模臨床研究支援事業",
+          "voting": 100
+        },
+        {
+          "name": "ノイエス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 70,
+          "business": "治験実施医療機関における治験業務全般の管理・運営支援事業",
+          "voting": 100
+        },
+        {
+          "name": "3Hメディソリューション株式会社",
+          "companyId": "4013301027145",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 120,
+          "business": "被験者リクルートメント関連事業、CRO関連事業",
+          "voting": 100
+        },
+        {
+          "name": "エムスリーキャリア株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 100,
+          "business": "医療従事者及び関連人材を対象とした人材サービス事業等",
+          "voting": 51,
+          "since": "2009-12"
+        },
+        {
+          "name": "株式会社シーユーシー",
+          "companyId": "9010401113614",
+          "formerName": "エムスリードクターサポート株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 7669,
+          "business": "医療機関の運営サポート事業",
+          "voting": 63.5,
+          "note": "特定子会社。有価証券報告書の提出会社",
+          "since": "2014-08"
+        },
+        {
+          "name": "ソフィアメディ株式会社",
+          "companyId": "4013201016660",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 84,
+          "business": "居宅訪問看護事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社シーユーシー・ホスピス",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 50,
+          "business": "在宅ホスピス事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社シーユーシー・プロパティーズ",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 0.1,
+          "business": "病院やクリニックの不動産賃貸事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社シーユーシー・フーズ",
+          "relation": "連結子会社",
+          "address": "静岡県浜松市中央区",
+          "capital": 13,
+          "business": "病院やホスピス等向けの給食事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社ノアコンツェル",
+          "relation": "連結子会社",
+          "address": "北海道札幌市豊平区",
+          "capital": 100,
+          "business": "住宅型有料老人ホームの運営事業、介護・服薬支援事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社ネイチャー",
+          "relation": "連結子会社",
+          "address": "北海道札幌市豊平区",
+          "capital": 4,
+          "business": "在宅ホスピス事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社A&N",
+          "relation": "連結子会社",
+          "address": "北海道札幌市豊平区",
+          "capital": 2,
+          "business": "在宅ホスピス事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社ゆう",
+          "relation": "連結子会社",
+          "address": "北海道札幌市豊平区",
+          "capital": 3,
+          "business": "在宅ホスピス事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社アイハピネス",
+          "relation": "連結子会社",
+          "address": "北海道札幌市西区",
+          "capital": 1,
+          "business": "高齢者向け給食サービス事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "CUC Podiatry Holdings, LLC",
+          "relation": "連結子会社",
+          "address": "アメリカ ミシガン",
+          "capitalText": "14,243千米ドル",
+          "business": "持株会社、米国における足病・静脈疾患クリニックの運営事業",
+          "voting": 78.9,
+          "indirect": 78.9
+        },
+        {
+          "name": "株式会社エラン",
+          "relation": "連結子会社",
+          "address": "長野県松本市",
+          "capital": 573,
+          "business": "患者サポート事業（入院患者・介護施設利用者向けCSセット等）",
+          "voting": 55,
+          "note": "有価証券報告書の提出会社。2024年10月に公開買付けで連結子会社化",
+          "since": "2024-10"
+        },
+        {
+          "name": "株式会社エランサービス",
+          "relation": "連結子会社",
+          "address": "長野県松本市",
+          "capital": 10,
+          "business": "医療・介護施設向け請求代行およびカスタマーサポート事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社琉球エラン",
+          "relation": "連結子会社",
+          "address": "沖縄県那覇市",
+          "capital": 45,
+          "business": "患者サポート事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社エラン・ロジスティクス",
+          "relation": "連結子会社",
+          "address": "神奈川県相模原市緑区",
+          "capital": 30,
+          "business": "日用品・CSセット等の配送管理",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "TMC VIET NAM TRADING AND SERVICE JOINT STOCK COMPANY",
+          "relation": "連結子会社",
+          "address": "ベトナム ハノイ",
+          "capitalText": "50,000百万ベトナムドン",
+          "business": "病院等向けランドリーサービス事業",
+          "voting": 51,
+          "indirect": 51
+        },
+        {
+          "name": "M3 USA Corporation",
+          "formerName": "So-net M3 USA Corporation",
+          "relation": "連結子会社",
+          "address": "アメリカ ペンシルバニア",
+          "capitalText": "500千米ドル",
+          "business": "米国におけるインターネットを利用した製薬会社等の営業・マーケティング支援事業",
+          "voting": 100,
+          "since": "2003-10"
+        },
+        {
+          "name": "PracticeMatch Corporation",
+          "relation": "連結子会社",
+          "address": "アメリカ ミズーリ",
+          "capitalText": "1,000千米ドル",
+          "business": "米国における病院向け医師プロファイルデータベースライセンス事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "The Medicus Firm, Inc.",
+          "relation": "連結子会社",
+          "address": "アメリカ テキサス",
+          "capitalText": "100.10米ドル",
+          "business": "米国における医師転職支援事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "M3 Wake Research, Inc.",
+          "formerName": "Wake Research Holdings, LLC",
+          "relation": "連結子会社",
+          "address": "アメリカ ノースカロライナ",
+          "capitalText": "0.10米ドル",
+          "business": "米国における治験支援事業",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2018-02"
+        },
+        {
+          "name": "NAS Recruitment Innovation, Inc.",
+          "relation": "連結子会社",
+          "address": "アメリカ オハイオ",
+          "capitalText": "0.10米ドル",
+          "business": "米国における採用マーケティング事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Michael Allen Company, LLC",
+          "relation": "連結子会社",
+          "address": "アメリカ コネチカット",
+          "capitalText": "338千米ドル",
+          "business": "米国における製薬企業向けコンサルティング事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "PERQ/HCI, LLC",
+          "relation": "連結子会社",
+          "address": "アメリカ ニューヨーク",
+          "capitalText": "100.00米ドル",
+          "business": "米国における複数クライアント向けメディアリサーチ事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "M3 (EU) Limited",
+          "formerName": "Doctors.net.uk Limited",
+          "relation": "連結子会社",
+          "address": "イギリス ロンドン",
+          "capitalText": "67千英ポンド",
+          "business": "欧州におけるインターネットを利用した製薬会社等の営業・マーケティング支援事業（Doctors.net.uk）",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2011-08"
+        },
+        {
+          "name": "M3 Medical Holdings LTD",
+          "formerName": "AXIO Medical Holdings Limited",
+          "relation": "連結子会社",
+          "address": "イギリス ロンドン",
+          "capitalText": "283千英ポンド",
+          "business": "持株会社、欧州における医師パネルを対象とした市場調査事業",
+          "voting": 100,
+          "note": "Vidal Groupの持株会社として取得",
+          "since": "2016-11"
+        },
+        {
+          "name": "One Health Communications Ltd",
+          "relation": "連結子会社",
+          "address": "イギリス ロンドン",
+          "capitalText": "83千英ポンド",
+          "business": "英国における医療従事者に対するヘルスケアコミュニケーション事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "VIDAL France S.A.S.",
+          "relation": "連結子会社",
+          "address": "フランス イシー・レ・ムリノー",
+          "capitalText": "100千ユーロ",
+          "business": "フランスにおける医薬品情報のデータベース関連事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Vidal MMI Germany GmbH",
+          "relation": "連結子会社",
+          "address": "ドイツ ラングエン",
+          "capitalText": "26千ユーロ",
+          "business": "ドイツにおける医薬品情報のデータベース関連事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Weda S.A.S.",
+          "relation": "連結子会社",
+          "address": "フランス ペロル",
+          "capitalText": "10千ユーロ",
+          "business": "フランスにおけるSaaS型電子カルテの開発、販売事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "SAS C.C.C.",
+          "relation": "連結子会社",
+          "address": "フランス パリ",
+          "capitalText": "100千ユーロ",
+          "business": "フランスにおける医師向けの学会運営・出版事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Qualitative and Quantitative Fieldwork Service AB",
+          "relation": "連結子会社",
+          "address": "スウェーデン イェーテボリ",
+          "capitalText": "100千スウェーデン・クローナ",
+          "business": "北欧医師パネルを対象とした調査事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Neuroglia Health Private Limited",
+          "relation": "連結子会社",
+          "address": "インド バンガロール",
+          "capitalText": "100千インドルピー",
+          "business": "インドにおける医学教育事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "2019年3月に持株会社DailyRounds, Inc.を連結子会社化して傘下に",
+          "since": "2019-03"
+        },
+        {
+          "name": "M Panels Research Services Private Limited",
+          "relation": "連結子会社",
+          "address": "インド バンガロール",
+          "capitalText": "10,000千インドルピー",
+          "business": "北米医師パネルを対象とした市場調査事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Medi C&C Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "韓国 ソウル",
+          "capitalText": "1,833百万ウォン",
+          "business": "韓国におけるインターネットを利用した製薬会社等の営業・マーケティング支援事業",
+          "voting": 40,
+          "indirect": 20,
+          "note": "議決権は50％以下だが、実質的に支配しているため子会社"
+        },
+        {
+          "name": "eDoctores Soluciones, S.L.",
+          "relation": "連結子会社",
+          "address": "スペイン マドリード",
+          "capitalText": "397千ユーロ",
+          "business": "スペインおよびラテンアメリカの医療従事者向け臨床サポートプラットフォーム事業",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "エムスリーエデュケーション株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 50,
+          "business": "医療福祉系国家試験における教育事業",
+          "voting": 100
+        },
+        {
+          "name": "株式会社ワイズマン",
+          "companyId": "2010001154503",
+          "relation": "連結子会社",
+          "address": "岩手県盛岡市",
+          "capital": 100,
+          "business": "介護・福祉事業所、医療施設、地方自治体向けシステムの開発・販売・サポート",
+          "voting": 100,
+          "note": "有価証券報告書の後に子会社化（IRの発表）。2026年6月発表、7月1日に全株式を取得（第2四半期決算短信で2026年7月に子会社化）",
+          "since": "2026-07",
+          "source": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/MJMNRxFaXgUzIhVE6ntNJ/af03939f1f9877029dc23b71caf9c06c/20260605_Public_J.pdf"
+        },
+        {
+          "name": "Medlive Technology Co., Ltd.",
+          "formerName": "Kingyee Co., Limited",
+          "relation": "持分法適用関連会社",
+          "address": "英領ケイマン諸島",
+          "capitalText": "7,328米ドル",
+          "business": "中国におけるインターネットを利用した製薬会社等の営業・マーケティング支援事業",
+          "voting": 36.2,
+          "note": "2013年11月に連結子会社化、2021年6月の香港証券取引所上場に伴い持分法適用関連会社に",
+          "since": "2013-11"
+        },
+        {
+          "name": "PSP株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "東京都港区",
+          "capital": 1100,
+          "business": "医用臨床支援システム事業",
+          "voting": 18.7,
+          "note": "議決権は20％以下だが、実質的に影響力を有しているため持分法適用"
+        },
+        {
+          "name": "HYUGA PRIMARY CARE株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "福岡県春日市",
+          "capital": 200,
+          "business": "在宅訪問薬局事業",
+          "voting": 28.6,
+          "indirect": 18.8,
+          "note": "有価証券報告書の提出会社"
+        },
+        {
+          "name": "クラシコ株式会社",
+          "companyId": "4011001062719",
+          "relation": "持分法適用関連会社",
+          "address": "東京都港区",
+          "capital": 1042,
+          "business": "メディカルアパレル事業",
+          "voting": 28.1,
+          "indirect": 28.1,
+          "note": "有価証券報告書の提出会社"
+        }
+      ]
     }
   },
   {
@@ -4318,6 +4904,129 @@
       "kind": "header",
       "source": "https://medrt.co.jp/assets/images/mrt_logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/6034/yuho_pdf/S100XSR6/00.pdf",
+      "consolidated": 13,
+      "equityMethod": 1,
+      "members": [
+        {
+          "name": "MRTスタッフィング株式会社",
+          "formerName": "株式会社NOSWEAT",
+          "relation": "連結子会社",
+          "address": "京都府京都市下京区",
+          "capital": 30,
+          "business": "医療従事者労働者派遣事業、医療従事者職業紹介事業",
+          "voting": 100,
+          "since": "2017-01"
+        },
+        {
+          "name": "株式会社医師のとも",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 25.153,
+          "business": "医療従事者職業紹介事業、開業・事業承継支援事業、PR事業、ライフサポート事業",
+          "voting": 100,
+          "note": "売上収益が連結の10％超。2025年12月期に株式を追加取得し完全子会社化（前期末70.0％）",
+          "since": "2017-12"
+        },
+        {
+          "name": "MRTメディアパートナーズ株式会社",
+          "formerName": "株式会社CBキャリア",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 10,
+          "business": "キャリア支援事業",
+          "voting": 100,
+          "since": "2018-03"
+        },
+        {
+          "name": "株式会社anew",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 27,
+          "business": "BPO事業、ファイナンス事業（医療機関運営支援サービス）",
+          "voting": 100,
+          "note": "沿革：2019年8月に同社で医療機関運営支援サービスの提供を開始",
+          "since": "2019-08"
+        },
+        {
+          "name": "株式会社バリューメディカル",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 10,
+          "business": "出版事業、アンケート調査事業、well-being事業",
+          "voting": 100,
+          "since": "2020-04"
+        },
+        {
+          "name": "株式会社メディアルト",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 31,
+          "business": "医師向けの医薬品プロモーション施策、医薬品の広告やパンフレットなどの制作、医学学会の記録集制作",
+          "voting": 100,
+          "since": "2022-12"
+        },
+        {
+          "name": "Medikiki株式会社",
+          "formerName": "Medikiki.com株式会社",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 81,
+          "business": "医療機器情報サイトの運営、クラウド型医療機器管理システムの運営、医療従事者職業紹介事業",
+          "voting": 80.8,
+          "since": "2023-10"
+        },
+        {
+          "name": "MRT GLOBAL MANAGEMENT PTE.LTD.",
+          "relation": "連結子会社",
+          "address": "シンガポール",
+          "capitalText": "100千SGD",
+          "business": "情報管理会社",
+          "voting": 100,
+          "since": "2024-06"
+        },
+        {
+          "name": "MRT VIETNAM CO., LTD",
+          "formerName": "MEDRING VIETNAM INTERNATIONAL COMPANY LIMITED",
+          "relation": "連結子会社",
+          "address": "ベトナム",
+          "capitalText": "11,000百万VND",
+          "business": "医療従事者職業紹介事業",
+          "voting": 100,
+          "since": "2025-09"
+        },
+        {
+          "name": "Vantage株式会社",
+          "relation": "連結子会社",
+          "note": "沿革で「現・連結子会社」（関係会社の状況の表では「その他4社」に含まれる）",
+          "since": "2020-01"
+        },
+        {
+          "name": "メドリング株式会社",
+          "companyId": "6010001199148",
+          "relation": "持分法適用関連会社",
+          "address": "東京都渋谷区",
+          "capital": 10,
+          "business": "クラウド電子カルテの開発販売（東南アジア向け医療DX）",
+          "voting": 21.1,
+          "note": "2023年5月に第三者割当増資を引き受けて持分法適用会社に（MRTのプレスリリース）",
+          "since": "2023-05",
+          "source": "https://prtimes.jp/main/html/rd/p/000000014.000058805.html"
+        }
+      ],
+      "former": [
+        {
+          "name": "株式会社医師たちとつくる",
+          "end": "2026-05",
+          "how": "株式譲渡",
+          "note": "獣医師監修の商品の企画・開発・販売（医師のともの子会社、2023年1月設立）。同社代表に全株式を譲渡。有価証券報告書の後に売却（IRの発表）",
+          "source": "https://ssl4.eir-parts.net/doc/6034/tdnet/2822593/00.pdf"
+        }
+      ]
     }
   },
   {
@@ -4443,6 +5152,88 @@
       "kind": "header",
       "source": "https://medirom.co.jp/_next/image?url=%2Fimages%2Flogo.jpg&w=256&q=75",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2024-12",
+      "sourceLabel": "2024年12月期 Form 20-F（米国SECに提出した年次報告書）",
+      "source": "https://www.sec.gov/Archives/edgar/data/1819704/000155837025005850/mrm-20241231x20f.htm",
+      "consolidated": 8,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社メディロム・ウェルネス",
+          "formerName": "株式会社ウィング（旧 株式会社ベル・エポック・ウェルネス）",
+          "relation": "連結子会社",
+          "business": "リラクゼーションサロン（Re.Ra.Ku など）の運営",
+          "voting": 100,
+          "note": "英文 MEDIROM Wellness Co.。2018年4月にベル・エポック・ウェルネスとして設立、2021年11月にウィング、2025年1月にメディロム・ヒューマン・リソーセスを合併して現商号",
+          "since": "2018-04"
+        },
+        {
+          "name": "株式会社MEDIROM MOTHER Labs",
+          "relation": "連結子会社",
+          "business": "デジタル予防医療事業（アプリ「Lav」、MOTHER Bracelet、REMONY、特定保健指導）",
+          "voting": 93.72,
+          "note": "2023年7月の会社分割で新設。外部投資家の出資で持分は93.72％（2025年6月末）",
+          "since": "2023-07"
+        },
+        {
+          "name": "株式会社MEDIROM Rehab Solutions",
+          "relation": "連結子会社",
+          "business": "リハビリテーション事業（2024年10月に Y's, Inc. から事業を譲受）",
+          "voting": 100,
+          "since": "2024-06"
+        },
+        {
+          "name": "株式会社サワン",
+          "relation": "連結子会社",
+          "business": "高級リラクゼーションサロン「Ruam Ruam」の運営",
+          "voting": 100,
+          "note": "英文 SAWAN CO. LTD.",
+          "since": "2021-05"
+        },
+        {
+          "name": "株式会社ザック",
+          "relation": "連結子会社",
+          "business": "高級ヘアサロン（ZACC vie、ZACC raffine、ZACC ginza）の運営",
+          "voting": 100,
+          "note": "英文 ZACC Kabushiki Kaisha。2021年10月に60％、2022年1月に残り40％を取得",
+          "since": "2021-10"
+        },
+        {
+          "name": "Medirom Shared Services Inc.",
+          "formerName": "株式会社ベル＆ジョイ・パワーパートナーズ（旧 株式会社ベル・エポック・パワーパートナー）",
+          "relation": "連結子会社",
+          "business": "グループの店舗開発・管理部門（経理・法務・人事・IT など）",
+          "voting": 100,
+          "note": "2021年7月に設立、2023年7月に現商号（20-Fの英文名）。2026年11月の会社サイトのグループ企業一覧には無い",
+          "since": "2021-07"
+        }
+      ],
+      "former": [
+        {
+          "name": "Decollte Wellness Corporation",
+          "since": "2018-10",
+          "end": "2021-07",
+          "how": "吸収合併",
+          "note": "リラクゼーションサロン運営。ベル・エポック・ウェルネスが存続会社として合併"
+        },
+        {
+          "name": "株式会社メディロム・ヒューマン・リソーセス",
+          "since": "2018-04",
+          "end": "2025-01",
+          "how": "吸収合併",
+          "note": "セラピスト派遣事業。ウィング（現メディロム・ウェルネス）が存続会社として合併"
+        },
+        {
+          "name": "株式会社ジョイハンズ・ウェルネス",
+          "since": "2018-04",
+          "end": "2025-01",
+          "how": "株式譲渡",
+          "note": "温浴施設内のリラクゼーション事業。事業をウィングへ分割した後、全株式を第三者に譲渡",
+          "source": "https://www.sec.gov/Archives/edgar/data/1819704/000110465925101302/mrm-20250630xex99d1.htm"
+        }
+      ]
     }
   },
   {
@@ -65350,6 +66141,363 @@
       "kind": "header",
       "source": "https://www.santen.com/content/dam/santen/common/symbol_logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/4536/yuho_pdf/S100YDH1/00.pdf",
+      "consolidated": 33,
+      "equityMethod": 1,
+      "members": [
+        {
+          "name": "株式会社クレール",
+          "relation": "連結子会社",
+          "address": "滋賀県犬上郡多賀町",
+          "capital": 90,
+          "business": "クリーニング業",
+          "voting": 100
+        },
+        {
+          "name": "参天アイケア株式会社",
+          "relation": "連結子会社",
+          "address": "大阪市北区",
+          "capital": 10,
+          "business": "医療用医薬品製造・販売",
+          "voting": 100,
+          "since": "2016-05"
+        },
+        {
+          "name": "参天投資(中国)有限公司",
+          "relation": "連結子会社",
+          "address": "中国上海",
+          "capitalText": "449,439千元",
+          "business": "中国グループ会社の投資・資金管理の統括・事業管理業務支援",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2020-09"
+        },
+        {
+          "name": "参天製薬（中国）有限公司",
+          "relation": "連結子会社",
+          "address": "中国蘇州",
+          "capitalText": "692,293千元",
+          "business": "医療用医薬品製造・販売・臨床開発",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社",
+          "since": "2005-09"
+        },
+        {
+          "name": "参天医薬販売（蘇州）有限公司",
+          "relation": "連結子会社",
+          "address": "中国蘇州",
+          "capitalText": "35,000千元",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2013-09"
+        },
+        {
+          "name": "重慶参天科瑞製薬有限公司",
+          "relation": "連結子会社",
+          "address": "中国重慶",
+          "capitalText": "200,000千元",
+          "business": "医療用医薬品製造・販売",
+          "voting": 49,
+          "indirect": 49,
+          "note": "特定子会社。重慶科瑞製薬（集団）との合弁で設立（出資49％だが参天製薬（中国）が議決権の過半数を持つため連結子会社）。2024年10月に清算を決議し清算手続中。2026年10月16日の株主会で中国の企業破産法に基づく破産手続開始の申立てを決議（有価証券報告書の後、IRの発表）",
+          "since": "2016-08",
+          "source": "https://www.release.tdnet.info/inbs/140120261016552211.pdf"
+        },
+        {
+          "name": "参天製薬（香港）有限公司",
+          "relation": "連結子会社",
+          "address": "香港",
+          "capitalText": "7,600千香港ドル",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2016-06"
+        },
+        {
+          "name": "韓国参天製薬株式会社",
+          "relation": "連結子会社",
+          "address": "韓国ソウル",
+          "capitalText": "29,000,000千韓国ウォン",
+          "business": "医療用医薬品販売・臨床開発",
+          "voting": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "台湾参天製薬股份有限公司",
+          "relation": "連結子会社",
+          "address": "台北",
+          "capitalText": "42,000千台湾ドル",
+          "business": "医薬品販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Santen India Private Limited",
+          "relation": "連結子会社",
+          "address": "インドムンバイ",
+          "capitalText": "48,500千インドルピー",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2011-07"
+        },
+        {
+          "name": "Santen Pharmaceutical Asia Pte. Ltd.",
+          "relation": "連結子会社",
+          "address": "シンガポール",
+          "capitalText": "24,177千シンガポールドル",
+          "business": "アジア地域統括・管理・医療用医薬品製造・販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社",
+          "since": "2013-12"
+        },
+        {
+          "name": "SANTEN (THAILAND) CO., LTD.",
+          "relation": "連結子会社",
+          "address": "タイバンコク",
+          "capitalText": "110,000千タイバーツ",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2014-10"
+        },
+        {
+          "name": "SANTEN PHILIPPINES INC.",
+          "relation": "連結子会社",
+          "address": "フィリピンタギッグ",
+          "capitalText": "76,186千フィリピンペソ",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2014-10"
+        },
+        {
+          "name": "SANTEN PHARMA MALAYSIA SDN. BHD.",
+          "relation": "連結子会社",
+          "address": "マレーシアクアラルンプール",
+          "capitalText": "4,000千マレーシアリンギット",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2014-11"
+        },
+        {
+          "name": "Santen Pharmaceutical Vietnam Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "ベトナムホーチミン",
+          "capitalText": "500千米ドル",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2020-10"
+        },
+        {
+          "name": "Santen Holdings EU B.V.",
+          "relation": "連結子会社",
+          "address": "オランダアムステルダム",
+          "capitalText": "50千ユーロ",
+          "business": "Santen SAの純粋持株会社",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2012-03"
+        },
+        {
+          "name": "Santen Oy",
+          "relation": "連結子会社",
+          "address": "フィンランドタンペレ",
+          "capitalText": "20,000千ユーロ",
+          "business": "医療用医薬品販売・臨床開発",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。2019年9月にタンペレ工場を Next Pharma Oy へ譲渡",
+          "since": "1997-02"
+        },
+        {
+          "name": "Santen S.A.S.",
+          "formerName": "Novagali Pharma S.A.S.（買収時は Novagali Pharma S.A.）",
+          "relation": "連結子会社",
+          "address": "フランスエブリー",
+          "capitalText": "1,976千ユーロ",
+          "business": "医療用医薬品販売・臨床開発",
+          "voting": 100,
+          "indirect": 100,
+          "note": "フランスの眼科医薬品会社を買収し、2013年4月に社名変更",
+          "since": "2011-10"
+        },
+        {
+          "name": "Santen GmbH",
+          "relation": "連結子会社",
+          "address": "ドイツミュンヘン",
+          "capitalText": "25千ユーロ",
+          "business": "医療用医薬品販売・事業開発",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Santen SA",
+          "formerName": "Santen Switzerland SA",
+          "relation": "連結子会社",
+          "address": "スイスジュネーブ",
+          "capitalText": "22,565千スイスフラン",
+          "business": "EMEA地域統括・金融・管理・医療用医薬品製造・販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。2018年2月に社名変更",
+          "since": "2014-08"
+        },
+        {
+          "name": "Santen Italy S.r.l.",
+          "relation": "連結子会社",
+          "address": "イタリアミラノ",
+          "capitalText": "10千ユーロ",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2014-07"
+        },
+        {
+          "name": "Santen UK Limited",
+          "relation": "連結子会社",
+          "address": "イギリスセント・オールバンズ",
+          "capitalText": "2,300千ポンド",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2014-08"
+        },
+        {
+          "name": "Santen Pharmaceutical Spain, S.L.",
+          "relation": "連結子会社",
+          "address": "スペインマドリード",
+          "capitalText": "3千ユーロ",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2014-12"
+        },
+        {
+          "name": "SANTEN LIMITED LIABILITY COMPANY",
+          "relation": "連結子会社",
+          "address": "ロシアモスクワ",
+          "capitalText": "10千ルーブル",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2017-02"
+        },
+        {
+          "name": "Santen Holdings U.S. Inc.",
+          "relation": "連結子会社",
+          "address": "米国エメリービル",
+          "capitalText": "24,784千米ドル",
+          "business": "北米子会社統括・管理",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社",
+          "since": "2002-01"
+        },
+        {
+          "name": "Santen Inc.",
+          "relation": "連結子会社",
+          "address": "米国エメリービル",
+          "capitalText": "8,765千米ドル",
+          "business": "医療用医薬品臨床開発・事業開発",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社",
+          "since": "1993-01"
+        },
+        {
+          "name": "InnFocus, Inc.",
+          "relation": "連結子会社",
+          "address": "米国マイアミ",
+          "capitalText": "2千米ドル",
+          "business": "医療機器開発・製造・販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "米国の医療用デバイス開発会社を買収",
+          "since": "2016-08"
+        },
+        {
+          "name": "Santen Ventures, Inc.",
+          "relation": "連結子会社",
+          "address": "米国エメリービル",
+          "capitalText": "10千米ドル",
+          "business": "ベンチャー企業投資",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2017-07"
+        },
+        {
+          "name": "Santen Canada Inc.",
+          "relation": "連結子会社",
+          "address": "カナダトロント",
+          "capitalText": "2,000千米ドル",
+          "business": "医療用医薬品販売",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2019-02"
+        },
+        {
+          "name": "Eyevance Pharmaceuticals Holdings Inc.",
+          "relation": "連結子会社",
+          "address": "米国フォートワース",
+          "capitalText": "10米ドル",
+          "business": "Eyevance Pharmaceuticals LLCの純粋持株会社",
+          "voting": 100,
+          "indirect": 100,
+          "note": "米国の点眼用眼科製品の開発・販売会社を買収",
+          "since": "2020-09"
+        },
+        {
+          "name": "Eyevance Pharmaceuticals LLC",
+          "relation": "連結子会社",
+          "address": "米国フォートワース",
+          "capitalText": "−",
+          "business": "医療用医薬品開発・販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "Eyevance の事業会社。米国の LLC のため資本金の記載なし",
+          "since": "2020-09"
+        },
+        {
+          "name": "Plano Pte. Ltd.",
+          "relation": "持分法適用関連会社",
+          "address": "シンガポール",
+          "note": "表では「持分法適用関連会社 1社」とだけあり社名の記載なし。沿革に2021年10月に議決権比率が20％以上となり持分法を適用（現・持分法適用関連会社）とある",
+          "since": "2021-10"
+        }
+      ],
+      "former": [
+        {
+          "name": "SantenPharma AB",
+          "end": "2022-03",
+          "how": "清算",
+          "note": "連結子会社。2022年3月に清算結了"
+        },
+        {
+          "name": "参天ビジネスサービス株式会社",
+          "since": "2016-04",
+          "end": "2024-07",
+          "how": "清算",
+          "note": "大阪市東淀川区に設立した子会社。2024年7月に清算結了"
+        },
+        {
+          "name": "Advanced Vision Science, Inc.",
+          "since": "2001-11",
+          "end": "2026-10",
+          "how": "株式譲渡",
+          "note": "米国の眼内レンズなど眼科医療機器の会社。全株式を SpyGlass Pharma に譲渡（有価証券報告書の後）",
+          "source": "https://www.santen.com/ja/news/2026/2026_1/20261002"
+        }
+      ]
     }
   },
   {
@@ -65514,6 +66662,149 @@
       "kind": "header",
       "source": "https://www.sumitomo-pharma.co.jp/assets/img/img-site-logo-01.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://www.sumitomo-pharma.co.jp/ir/library/securities_report/assets/pdf/securities_report_20260623.pdf",
+      "consolidated": 7,
+      "equityMethod": 3,
+      "members": [
+        {
+          "name": "住友化学株式会社",
+          "relation": "親会社",
+          "address": "東京都中央区",
+          "capital": 90179,
+          "business": "化学製品の製造、販売",
+          "voting": 51.81,
+          "owned": true,
+          "note": "議決権の被所有割合。有価証券報告書の提出会社"
+        },
+        {
+          "name": "Sumitomo Pharma America, Inc.",
+          "formerName": "Sunovion Pharmaceuticals Inc.（旧 Sepracor Inc.）",
+          "relation": "連結子会社",
+          "address": "米国マサチューセッツ州マールボロ",
+          "capitalText": "1千米ドル",
+          "business": "医療用医薬品の製造、販売［北米］",
+          "voting": 100,
+          "note": "特定子会社。売上収益が連結売上収益の10％超。2009年10月に米国 Sepracor Inc. を買収（後の Sunovion）、2023年7月に米国グループ会社7社を Sunovion を存続会社として再編し商号変更",
+          "since": "2009-10"
+        },
+        {
+          "name": "住友ファーマプロモ株式会社",
+          "relation": "連結子会社",
+          "address": "大阪府吹田市",
+          "capital": 480,
+          "business": "医療用医薬品の製造、販売［日本］（オーソライズド・ジェネリック品）",
+          "voting": 100
+        },
+        {
+          "name": "Sumitomo Pharma Switzerland GmbH",
+          "formerName": "Myovant Sciences GmbH",
+          "relation": "連結子会社",
+          "address": "スイス",
+          "note": "特定子会社（表の「その他5社」の中として注記に社名あり）。2019年12月に Sumitovant Biopharma 傘下の会社として子会社化、2023年9月に商号変更",
+          "since": "2019-12"
+        },
+        {
+          "name": "Urovant Sciences GmbH",
+          "relation": "連結子会社",
+          "note": "特定子会社（表の「その他5社」の中として注記に社名あり）"
+        },
+        {
+          "name": "株式会社RACTHERA",
+          "relation": "持分法適用関連会社",
+          "address": "東京都中央区",
+          "capital": 100,
+          "business": "再生医療等製品等の研究開発",
+          "voting": 33.4,
+          "note": "2025年2月に当社の再生・細胞医薬事業を会社分割して設立し、66.6％を住友化学に譲渡",
+          "since": "2025-02"
+        },
+        {
+          "name": "S-RACMO株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "大阪府吹田市",
+          "capital": 450,
+          "business": "再生・細胞医薬分野の製法開発、製造等の受託",
+          "voting": 33.4,
+          "note": "住友化学との合弁会社。2025年3月期に株式の一部を住友化学に譲渡"
+        },
+        {
+          "name": "丸紅ファーマシューティカルズ株式会社",
+          "formerName": "SMP準備株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "東京都中央区",
+          "capital": 115,
+          "business": "医療用医薬品等の製造、販売等",
+          "voting": 40,
+          "note": "2025年7月に当社のアジア事業（中国・シンガポールの子会社など）を吸収分割で承継し、株式の一部を丸紅グローバルファーマに譲渡して持分法適用関連会社に"
+        }
+      ],
+      "former": [
+        {
+          "name": "Dainippon Sumitomo Pharma America, Inc.",
+          "formerName": "Dainippon Pharmaceutical U.S.A. Corporation",
+          "since": "1993-01",
+          "end": "2010-04",
+          "how": "吸収合併",
+          "note": "米国の現地法人。Sepracor Inc. が吸収合併"
+        },
+        {
+          "name": "Tolero Pharmaceuticals, Inc.",
+          "since": "2017-01",
+          "end": "2020-07",
+          "how": "吸収合併",
+          "note": "米国で買収。Boston Biomedical が吸収合併"
+        },
+        {
+          "name": "住友ファーマフード＆ケミカル株式会社",
+          "formerName": "五協産業株式会社（のち DSP五協フード&ケミカル株式会社）",
+          "since": "1947-10",
+          "end": "2023-03",
+          "how": "株式譲渡",
+          "note": "食品素材・化学品（フード＆スペシャリティ・プロダクツ）の子会社。全株式をメディパルHDに譲渡"
+        },
+        {
+          "name": "住友ファーマアニマルヘルス株式会社",
+          "formerName": "DSファーマアニマルヘルス株式会社",
+          "since": "2010-07",
+          "end": "2023-05",
+          "how": "株式譲渡",
+          "note": "アニマルサイエンス事業を新設分割した子会社。全株式を三井物産に譲渡"
+        },
+        {
+          "name": "Sumitomo Dainippon Pharma Oncology, Inc.",
+          "formerName": "Boston Biomedical, Inc.",
+          "since": "2012-04",
+          "end": "2023-07",
+          "how": "合併（再編）",
+          "note": "米国で買収したがん領域の会社。Sunovion を存続会社とする再編で統合"
+        },
+        {
+          "name": "住友制葯（蘇州）有限公司",
+          "since": "2005-10",
+          "end": "2025-07",
+          "how": "承継・持分の一部譲渡（連結除外）",
+          "note": "中国の子会社（住友製薬との合併で承継）。丸紅ファーマシューティカルズに承継させ連結除外"
+        },
+        {
+          "name": "Sumitomo Pharma Asia Pacific Pte. Ltd.",
+          "formerName": "Sunovion Pharmaceuticals Asia Pacific Pte. Ltd.",
+          "since": "2013-01",
+          "end": "2025-07",
+          "how": "承継・持分の一部譲渡（連結除外）",
+          "note": "シンガポールの子会社。丸紅ファーマシューティカルズに承継させ連結除外"
+        },
+        {
+          "name": "住友制葯投資（中国）有限公司",
+          "since": "2022-06",
+          "end": "2025-07",
+          "how": "承継・持分の一部譲渡（連結除外）",
+          "note": "中国の持株会社。丸紅ファーマシューティカルズに承継させ連結除外"
+        }
+      ]
     }
   },
   {
@@ -65684,6 +66975,95 @@
       "source": "https://www.sawaigroup.holdings/assets/images/logo.svg",
       "checkedAt": "2026-11",
       "shape": "square"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://pdf.irpocket.com/C4887/uOn6/yGBO/A5i1.pdf",
+      "consolidated": 6,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "沢井製薬株式会社",
+          "relation": "連結子会社",
+          "address": "大阪市淀川区",
+          "capital": 41219,
+          "business": "医療用医薬品の製造販売",
+          "voting": 100,
+          "note": "特定子会社。売上収益が連結売上収益の10％超。2021年4月に単独株式移転で当社を設立し完全子会社に",
+          "since": "2021-04"
+        },
+        {
+          "name": "メディサ新薬株式会社",
+          "relation": "連結子会社",
+          "address": "大阪市淀川区",
+          "capital": 91,
+          "business": "医療用医薬品の販売",
+          "voting": 100,
+          "note": "1985年3月に設立、1991年9月に沢井製薬が株式取得で子会社化、2010年6月に完全子会社化。2012年4月に生産事業を沢井製薬が吸収分割で承継",
+          "since": "1991-09"
+        },
+        {
+          "name": "化研生薬株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中野区",
+          "capital": 52,
+          "business": "医療用医薬品の製造販売",
+          "voting": 100,
+          "note": "2006年11月に沢井製薬が株式取得で子会社化",
+          "since": "2006-11"
+        },
+        {
+          "name": "トラストファーマテック株式会社",
+          "relation": "連結子会社",
+          "address": "福井県あわら市",
+          "capital": 101,
+          "business": "医療用医薬品の製造販売",
+          "voting": 100,
+          "note": "2022年3月に小林化工の生産活動に係る資産を譲り受け。2027年4月1日に沢井製薬が吸収合併する予定（2026年5月22日決議、有価証券報告書の後のIRの発表）",
+          "source": "https://pdf.irpocket.com/C4887/fcDL/wJFp/bsX3.pdf"
+        },
+        {
+          "name": "FrontAct株式会社",
+          "companyId": "9010001243704",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 100,
+          "business": "医療用機器等の製造販売等",
+          "voting": 100,
+          "note": "2025年6月に株式取得で完全子会社化",
+          "since": "2025-06"
+        }
+      ],
+      "former": [
+        {
+          "name": "株式会社アクティブワーク",
+          "since": "1991-03",
+          "end": "2004-04",
+          "how": "吸収合併",
+          "note": "発送センターを分離独立した全額出資の物流子会社。沢井製薬が吸収合併"
+        },
+        {
+          "name": "Upsher-Smith Laboratories, LLC",
+          "since": "2017-05",
+          "end": "2024-04",
+          "how": "持分譲渡",
+          "note": "米国の医薬品会社。Sawai America 経由で子会社化し、Bora Pharmaceutical Holdings に譲渡"
+        },
+        {
+          "name": "Sawai America LLC",
+          "formerName": "Sawai America Inc.",
+          "end": "2024-04",
+          "how": "持分譲渡",
+          "note": "米国の子会社。当社持分を Bora Pharmaceutical Holdings に譲渡"
+        },
+        {
+          "name": "Sawai America Holdings Inc.",
+          "end": "2024-04",
+          "how": "株式譲渡",
+          "note": "米国の持株会社。全株式を Bora Pharmaceutical Holdings に譲渡"
+        }
+      ]
     }
   },
   {
@@ -69453,6 +70833,54 @@
       "kind": "header",
       "source": "https://prtimes.jp/data/corp/33034/tmp-186be25596aeca64418a5bdb05057e24-a6c701a46013165d27025d6dd970c7a6.jpg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/7911/yuho_pdf/S100YIAY/00.pdf",
+      "consolidated": 247,
+      "equityMethod": 36,
+      "scope": "healthcare",
+      "members": [
+        {
+          "name": "ICI株式会社",
+          "relation": "連結子会社",
+          "address": "東京都文京区",
+          "business": "次世代医療基盤法に基づく医療情報（電子カルテデータ）の収集・統合・匿名加工・提供",
+          "note": "関係会社の状況の表には記載なし。2019年に資本業務提携、2023年1月31日に株式を追加取得して子会社化（凸版印刷の発表）",
+          "since": "2023-01",
+          "source": "https://www.holdings.toppan.com/ja/news/2023/02/newsrelease230202_1.html"
+        },
+        {
+          "name": "おかぴファーマシーシステム株式会社",
+          "relation": "連結子会社",
+          "business": "薬局の運営、処方せん薬宅配サービス「とどくすり」",
+          "voting": 100,
+          "note": "関係会社の状況の表には記載なし。凸版印刷の100%子会社（2020年8月の凸版印刷の発表）",
+          "source": "https://www.holdings.toppan.com/ja/news/2020/08/newsrelease200807_1.html"
+        },
+        {
+          "name": "TOPPAN Global Medical Healthcare Inc.",
+          "relation": "連結子会社",
+          "address": "米国テキサス州ヒューストン",
+          "capitalText": "出資金2.0百万米ドル",
+          "business": "がん個別化医療および創薬支援（3D細胞培養技術による次世代がん検査の開発）",
+          "voting": 100,
+          "note": "関係会社の状況の表には記載なし。2026年3月にTOPPANホールディングス100%出資で設立（同社の発表）",
+          "since": "2026-03",
+          "source": "https://www.holdings.toppan.com/ja/news/2026/newsrelease260331_1.html"
+        },
+        {
+          "name": "トッパンメディカルファクトリー株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "兵庫県加西市",
+          "business": "体外診断用医薬品の製造",
+          "voting": 49,
+          "note": "関係会社の状況の表には記載なし。2020年11月にトラストメディカル51%・凸版印刷49%で設立（凸版印刷の発表。比率は設立時）。有報では全ての関連会社に持分法を適用",
+          "since": "2020-11",
+          "source": "https://www.holdings.toppan.com/ja/news/2020/11/newsrelease_201116_1.html"
+        }
+      ]
     }
   },
   {
@@ -69613,6 +71041,385 @@
       "kind": "header",
       "source": "https://www.olympus.co.jp/shared/images/ci-logo-01.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://www.olympus.co.jp/ir/data/pdf/annual_fy2026_jp.pdf",
+      "consolidated": 80,
+      "equityMethod": 3,
+      "members": [
+        {
+          "name": "オリンパスメディカルシステムズ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都八王子市",
+          "capital": 90,
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の製造",
+          "voting": 100,
+          "note": "特定子会社。沿革：2004年10月に医療分野を会社分割して設立",
+          "since": "2004-10"
+        },
+        {
+          "name": "会津オリンパス株式会社",
+          "formerName": "オリンパス精機株式会社",
+          "relation": "連結子会社",
+          "address": "福島県会津若松市",
+          "capital": 214,
+          "business": "消化器内視鏡ソリューション事業製品の製造",
+          "voting": 100,
+          "note": "沿革：1969年5月にオリンパス精機として設立",
+          "since": "1969-05"
+        },
+        {
+          "name": "青森オリンパス株式会社",
+          "relation": "連結子会社",
+          "address": "青森県黒石市",
+          "capital": 26,
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の製造",
+          "voting": 100
+        },
+        {
+          "name": "長野オリンパス株式会社",
+          "relation": "連結子会社",
+          "address": "長野県上伊那郡辰野町",
+          "capital": 100,
+          "business": "消化器内視鏡ソリューション事業製品の製造",
+          "voting": 100,
+          "note": "沿革：2011年10月にオリンパスオプトテクノロジーと岡谷オリンパスが合併して発足",
+          "since": "2011-10"
+        },
+        {
+          "name": "白河オリンパス株式会社",
+          "relation": "連結子会社",
+          "address": "福島県西白河郡西郷村",
+          "capital": 80,
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の製造",
+          "voting": 100
+        },
+        {
+          "name": "オリンパスマーケティング株式会社",
+          "formerName": "オリンパスメディカルサイエンス販売株式会社",
+          "relation": "連結子会社",
+          "address": "東京都八王子市",
+          "capital": 96,
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "note": "特定子会社。沿革：2021年10月に医療事業の国内販売機能を承継して商号変更"
+        },
+        {
+          "name": "ティーメディクス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都新宿区",
+          "capital": 50,
+          "business": "消化器内視鏡ソリューション事業製品の賃貸",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "オリンパスサポートメイト株式会社",
+          "relation": "連結子会社",
+          "address": "東京都八王子市",
+          "capital": 10,
+          "business": "国内関係会社向け総務サービス",
+          "voting": 100
+        },
+        {
+          "name": "Olympus Corporation of the Americas",
+          "formerName": "Olympus USA Incorporated",
+          "relation": "連結子会社",
+          "address": "Pennsylvania, U.S.A.",
+          "capitalText": "15千米ドル",
+          "business": "米州の関係会社に対する総合経営企画及び金融支援を行う持株会社",
+          "voting": 100,
+          "note": "特定子会社。沿革：1990年6月に設立",
+          "since": "1990-06"
+        },
+        {
+          "name": "Olympus America Inc.",
+          "formerName": "Olympus Corporation of America",
+          "relation": "連結子会社",
+          "address": "Pennsylvania, U.S.A.",
+          "capitalText": "0千米ドル",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：1968年1月にOlympus Corporation of America、1977年3月にOlympus Camera Corporationを設立（現 Olympus America Inc.）。連結売上高の10%超",
+          "since": "1968-01"
+        },
+        {
+          "name": "Olympus Latin America, Inc.",
+          "relation": "連結子会社",
+          "address": "Florida, U.S.A.",
+          "capitalText": "0千米ドル",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Gyrus ACMI, Inc.",
+          "relation": "連結子会社",
+          "address": "Massachusetts, U.S.A.",
+          "capitalText": "1千米ドル",
+          "business": "サージカルインターベンション事業製品の製造",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2008年2月のGyrus Group PLC買収で傘下に",
+          "since": "2008-02"
+        },
+        {
+          "name": "Olympus Innovation Ventures, LLC",
+          "relation": "連結子会社",
+          "address": "Massachusetts, U.S.A.",
+          "capitalText": "0千米ドル",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業における投資",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Olympus Europa Holding SE",
+          "relation": "連結子会社",
+          "address": "Hamburg, Germany",
+          "capitalText": "1,000千ユーロ",
+          "business": "欧州の関係会社に対する総合経営企画を行う持株会社",
+          "voting": 100
+        },
+        {
+          "name": "Olympus Europa SE & Co. KG",
+          "formerName": "Olympus Optical Co.(Europa) GmbH",
+          "relation": "連結子会社",
+          "address": "Hamburg, Germany",
+          "capitalText": "100,000千ユーロ",
+          "business": "持株会社並びに消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：1964年5月に設立",
+          "since": "1964-05"
+        },
+        {
+          "name": "Olympus Deutschland GmbH",
+          "relation": "連結子会社",
+          "address": "Hamburg, Germany",
+          "capitalText": "10,100千ユーロ",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Olympus France S.A.S.",
+          "relation": "連結子会社",
+          "address": "Rungis Cedex, France",
+          "capitalText": "3,914千ユーロ",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Olympus Winter & Ibe GmbH",
+          "relation": "連結子会社",
+          "address": "Hamburg, Germany",
+          "capitalText": "8,182千ユーロ",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の製造",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "KeyMed(Medical & Industrial Equipment) Ltd.",
+          "relation": "連結子会社",
+          "address": "Essex, U.K.",
+          "capitalText": "10千英ポンド",
+          "business": "消化器内視鏡ソリューション事業製品の製造及び販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Arc Medical Design Limited",
+          "relation": "連結子会社",
+          "address": "West Yorkshire, U.K.",
+          "capitalText": "52千英ポンド",
+          "business": "消化器内視鏡ソリューション事業製品の製造",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Olympus Global Treasury Services Limited",
+          "relation": "連結子会社",
+          "address": "Essex, U.K.",
+          "capitalText": "52,764千英ポンド",
+          "business": "グループ全体の資金管理",
+          "voting": 100
+        },
+        {
+          "name": "Odin Medical Ltd.",
+          "relation": "連結子会社",
+          "address": "London, U.K.",
+          "capitalText": "1,404千英ポンド",
+          "business": "消化器内視鏡ソリューション事業製品の開発",
+          "voting": 100,
+          "note": "沿革：2022年12月に買収",
+          "since": "2022-12"
+        },
+        {
+          "name": "Medi-Tate Ltd.",
+          "relation": "連結子会社",
+          "address": "Or-Akiva, Israel",
+          "capitalText": "28千イスラエルシェケル",
+          "business": "サージカルインターベンション事業製品の開発及び製造",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2021年5月に買収",
+          "since": "2021-05"
+        },
+        {
+          "name": "Olympus Corporation of Asia Pacific Limited",
+          "relation": "連結子会社",
+          "address": "香港",
+          "capitalText": "1,729,704千香港ドル",
+          "business": "アジア域内の関係会社に対する総合経営企画を行う持株会社",
+          "voting": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "Olympus Hong Kong and China Limited",
+          "relation": "連結子会社",
+          "address": "香港",
+          "capitalText": "540,000千香港ドル",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Olympus (China) Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "中国北京市",
+          "capitalText": "31,000千米ドル",
+          "business": "中国国内の関係会社に対する総合経営企画を行う持株会社",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Olympus (Beijing) Sales & Service Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "中国北京市",
+          "capitalText": "5,000千米ドル",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Olympus Trading (Shanghai) Limited",
+          "relation": "連結子会社",
+          "address": "中国上海市",
+          "capitalText": "1,000千米ドル",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "Olympus (Suzhou) Medical Device Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "中国江蘇省蘇州市",
+          "capitalText": "190,000千人民元",
+          "business": "消化器内視鏡ソリューション事業製品の製造",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Olympus Korea Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "大韓民国ソウル市",
+          "capitalText": "18,000百万韓国ウォン",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100
+        },
+        {
+          "name": "Olympus Singapore Pte. Ltd.",
+          "relation": "連結子会社",
+          "address": "Singapore",
+          "capitalText": "330千シンガポールドル",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Olympus Vietnam Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "Vietnam",
+          "capitalText": "24,000千米ドル",
+          "business": "消化器内視鏡ソリューション事業製品の製造",
+          "voting": 100
+        },
+        {
+          "name": "Olympus Australia Pty Ltd.",
+          "relation": "連結子会社",
+          "address": "Victoria, Australia",
+          "capitalText": "7,928千オーストラリアドル",
+          "business": "消化器内視鏡ソリューション事業及びサージカルインターベンション事業製品の販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "BioProtect Ltd.",
+          "relation": "連結子会社",
+          "address": "イスラエル",
+          "business": "前立腺がん放射線治療向けのバルーン・スペーサーなど泌尿器科の医療機器",
+          "note": "期末後の2026年6月に買収（有報の沿革）。2026年5月26日に買収の最終契約を発表",
+          "since": "2026-06",
+          "source": "https://www.olympus.co.jp/news/2026/nr03018.html"
+        },
+        {
+          "name": "ソニー・オリンパスメディカルソリューションズ株式会社",
+          "relation": "持分法適用会社",
+          "address": "東京都八王子市",
+          "capital": 50,
+          "business": "サージカルインターベンション事業製品の開発",
+          "voting": 49
+        },
+        {
+          "name": "Swan EndoSurgical, Inc.",
+          "relation": "持分法適用会社",
+          "address": "Texas, U.S.A.",
+          "capitalText": "0千米ドル",
+          "business": "消化器内視鏡ソリューション事業製品の開発",
+          "voting": 45,
+          "indirect": 45,
+          "note": "共同支配企業"
+        }
+      ],
+      "former": [
+        {
+          "name": "オリンパスイメージング株式会社",
+          "since": "2004-10",
+          "end": "2015-04",
+          "how": "合併",
+          "note": "映像事業（デジタルカメラ）。当社と合併"
+        },
+        {
+          "name": "OMデジタルソリューションズ株式会社",
+          "end": "2021-01",
+          "how": "譲渡",
+          "note": "映像事業を承継させ、日本産業パートナーズ系のOJホールディングスに譲渡"
+        },
+        {
+          "name": "株式会社エビデント",
+          "since": "2022-04",
+          "end": "2023-04",
+          "how": "譲渡",
+          "note": "科学事業（顕微鏡など）を会社分割。ベインキャピタル系のBCJ-66に譲渡"
+        },
+        {
+          "name": "オリンパステルモバイオマテリアル株式会社",
+          "end": "2024-07",
+          "how": "譲渡",
+          "note": "整形外科事業（FH Ortho SASとともにポラリス系の特別目的会社に譲渡）"
+        },
+        {
+          "name": "FH Ortho SAS",
+          "end": "2024-07",
+          "how": "譲渡",
+          "note": "整形外科事業（仏）。ポラリス系の特別目的会社に譲渡"
+        }
+      ]
     }
   },
   {
@@ -69787,6 +71594,265 @@
       "kind": "header",
       "source": "https://www.terumo.co.jp/themes/custom/terumov2/src/assets/images/logo.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YGMG.pdf",
+      "consolidated": 101,
+      "equityMethod": 4,
+      "members": [
+        {
+          "name": "テルモヨーロッパN.V.",
+          "relation": "連結子会社",
+          "address": "ベルギー",
+          "capitalText": "415,600千ユーロ",
+          "business": "心臓血管カンパニー、メディカルケアソリューションズカンパニー",
+          "voting": 100,
+          "note": "特定子会社。沿革：1971年5月にベルギーで設立",
+          "since": "1971-05"
+        },
+        {
+          "name": "バスクテック, Ltd.",
+          "relation": "連結子会社",
+          "address": "イギリス",
+          "capitalText": "28,126千ポンド",
+          "business": "心臓血管カンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：2002年11月に買収",
+          "since": "2002-11"
+        },
+        {
+          "name": "テルモアメリカスホールディング, Inc.",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capitalText": "4,992百万米ドル",
+          "business": "その他",
+          "voting": 100,
+          "note": "特定子会社。沿革：2010年1月設立。前身は1971年10月設立のキンブルテルモ社",
+          "since": "2010-01"
+        },
+        {
+          "name": "テルモメディカルCorp.",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capitalText": "306,695千米ドル",
+          "business": "心臓血管カンパニー、メディカルケアソリューションズカンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "テルモカーディオバスキュラーシステムズCorp.",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capitalText": "573,171千米ドル",
+          "business": "心臓血管カンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：1999年6月に米国3M社の人工心肺事業を買収して設立",
+          "since": "1999-06"
+        },
+        {
+          "name": "テルモラテンアメリカCorp.",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capitalText": "21,960千米ドル",
+          "business": "心臓血管カンパニー、メディカルケアソリューションズカンパニー",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "マイクロベンション, Inc.",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capitalText": "589,588千米ドル",
+          "business": "心臓血管カンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：2006年3月に買収",
+          "since": "2006-03"
+        },
+        {
+          "name": "テルモプエルトリコLLC",
+          "relation": "連結子会社",
+          "address": "プエルトリコ",
+          "capitalText": "841,444千米ドル",
+          "business": "心臓血管カンパニー",
+          "voting": 100,
+          "note": "特定子会社。沿革：2016年10月に設立",
+          "since": "2016-10"
+        },
+        {
+          "name": "ボルトンメディカル, Inc.",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capitalText": "151,877千米ドル",
+          "business": "心臓血管カンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：2017年3月に買収",
+          "since": "2017-03"
+        },
+        {
+          "name": "テルモBCTホールディングCorp.",
+          "formerName": "カリディアンBCTホールディングCorp.",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capitalText": "1,352,360千米ドル",
+          "business": "その他",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：2011年4月に買収",
+          "since": "2011-04"
+        },
+        {
+          "name": "テルモBCT, Inc.",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capitalText": "951,863千米ドル",
+          "business": "血液・細胞テクノロジーカンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。2011年4月のカリディアンBCT買収で傘下に（沿革）"
+        },
+        {
+          "name": "テルモBCTヨーロッパN.V.",
+          "relation": "連結子会社",
+          "address": "ベルギー",
+          "capitalText": "126,319千ユーロ",
+          "business": "血液・細胞テクノロジーカンパニー",
+          "voting": 100,
+          "indirect": 52.9,
+          "note": "特定子会社。2011年4月のカリディアンBCT買収で傘下に（沿革）"
+        },
+        {
+          "name": "テルモBCTバイオテクノロジーLLC",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capitalText": "164,438千米ドル",
+          "business": "血液・細胞テクノロジーカンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。2011年4月のカリディアンBCT買収で傘下に（沿革）"
+        },
+        {
+          "name": "テルモBCTベトナムCo., Ltd.",
+          "relation": "連結子会社",
+          "address": "ベトナム",
+          "capitalText": "54,300千米ドル",
+          "business": "血液・細胞テクノロジーカンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：2013年1月に設立",
+          "since": "2013-01"
+        },
+        {
+          "name": "テルモフィリピンCorp.",
+          "relation": "連結子会社",
+          "address": "フィリピン",
+          "capitalText": "3,650,000千フィリピンペソ",
+          "business": "メディカルケアソリューションズカンパニー",
+          "voting": 100,
+          "note": "特定子会社。沿革：1998年3月に設立",
+          "since": "1998-03"
+        },
+        {
+          "name": "テルモ中国投資有限会社",
+          "relation": "連結子会社",
+          "address": "中華人民共和国",
+          "capitalText": "1,820,493千人民元",
+          "business": "その他",
+          "voting": 100,
+          "note": "特定子会社。沿革：2011年8月に泰尓茂中国投資有限公司を設立",
+          "since": "2011-08"
+        },
+        {
+          "name": "テルモ医療産品杭州有限会社",
+          "relation": "連結子会社",
+          "address": "中華人民共和国",
+          "capitalText": "389,569千人民元",
+          "business": "心臓血管カンパニー、メディカルケアソリューションズカンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：1995年12月に設立",
+          "since": "1995-12"
+        },
+        {
+          "name": "エッセンテクノロジー北京有限会社",
+          "formerName": "易生科技(北京)有限公司",
+          "relation": "連結子会社",
+          "address": "中華人民共和国",
+          "capitalText": "304,120千人民元",
+          "business": "心臓血管カンパニー",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：2018年12月に買収",
+          "since": "2018-12"
+        },
+        {
+          "name": "テルモアジアホールディングスPte. Ltd.",
+          "relation": "連結子会社",
+          "address": "シンガポール",
+          "capitalText": "30,127千シンガポールドル",
+          "business": "その他",
+          "voting": 100,
+          "note": "沿革：2011年11月に設立",
+          "since": "2011-11"
+        },
+        {
+          "name": "テルモキャピタルマネジメントPte. Ltd.",
+          "relation": "連結子会社",
+          "address": "シンガポール",
+          "capitalText": "1,122,000千米ドル",
+          "business": "その他",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "テルモ・クリニカルサプライ株式会社",
+          "formerName": "株式会社クリニカル・サプライ",
+          "relation": "連結子会社",
+          "address": "岐阜県各務原市",
+          "capital": 80,
+          "business": "心臓血管カンパニー",
+          "voting": 100,
+          "note": "沿革：2008年6月に買収",
+          "since": "2008-06"
+        },
+        {
+          "name": "テルモ山口株式会社",
+          "relation": "連結子会社",
+          "address": "山口県山口市",
+          "capital": 195,
+          "business": "心臓血管カンパニー、メディカルケアソリューションズカンパニー",
+          "voting": 100,
+          "note": "特定子会社。沿革：2011年12月に設立",
+          "since": "2011-12"
+        },
+        {
+          "name": "テルモグローバルリインシュアランス, Inc.",
+          "relation": "連結子会社",
+          "address": "アメリカ",
+          "capital": 35043,
+          "business": "その他",
+          "voting": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "オーガノックス, Ltd.",
+          "relation": "連結子会社",
+          "address": "イギリス",
+          "capitalText": "93,493千ポンド",
+          "business": "オーガンテクノロジーズ事業",
+          "voting": 100,
+          "indirect": 99.6,
+          "note": "特定子会社。沿革：2025年10月に買収（10月29日に全株式を取得し完全子会社化）",
+          "since": "2025-10"
+        }
+      ]
     }
   },
   {
@@ -98628,6 +100694,25 @@
       "kind": "header",
       "source": "https://www.carnabio.com/common/images/logo.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://www.carnabio.com/output/irlibrary/769_ja.pdf",
+      "consolidated": 1,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "CarnaBio USA, Inc.",
+          "relation": "連結子会社",
+          "address": "米国マサチューセッツ州",
+          "capitalText": "1,400千米ドル",
+          "business": "創薬支援事業、創薬事業（当社製品・サービスの販売、臨床開発業務）",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2008-04"
+        }
+      ]
     }
   },
   {
@@ -100484,6 +102569,33 @@
       "source": "https://www.qdlaser.com/module/img/common/qdl_logo_head-pc.png",
       "checkedAt": "2026-11",
       "shape": "square"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS81911/9f2b660a/6402/48e6/88eb/8db556ba772b/S100YF90.pdf",
+      "consolidated": 0,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "QD Laser Deutschland GmbH",
+          "relation": "非連結子会社",
+          "address": "ドイツ エッセン市",
+          "capitalText": "25,000ユーロ",
+          "business": "視覚情報デバイス機器に関する欧州での治験結果の維持管理（臨床試験実施の目的で設立）",
+          "note": "沿革・事業の内容に記載",
+          "since": "2015-09"
+        },
+        {
+          "name": "QD Laser America,Inc.",
+          "relation": "非連結子会社",
+          "address": "米国デラウェア州",
+          "capitalText": "10,000米ドル",
+          "business": "米国での網膜投影製品の販売",
+          "note": "沿革・事業の内容に記載",
+          "since": "2022-08"
+        }
+      ]
     }
   },
   {
@@ -101855,6 +103967,74 @@
       "kind": "header",
       "source": "https://kowa-seisakusho.co.jp/img/common/header/img_logo02.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-02",
+      "sourceLabel": "2026年2月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/7807/yuho_pdf/S100Y797/00.pdf",
+      "consolidated": 5,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "東莞幸和家庭日用品有限公司",
+          "relation": "連結子会社",
+          "address": "中国広東省東莞市石碣",
+          "capitalText": "4,700千米ドル",
+          "business": "介護用品・福祉用具製造販売事業（当社商品の製造）",
+          "voting": 100,
+          "note": "特定子会社。幸和（香港）有限公司が設立し東莞工場を移管",
+          "since": "2011-07"
+        },
+        {
+          "name": "株式会社ネクストケア・イノベーション",
+          "relation": "連結子会社",
+          "address": "福岡県北九州市八幡西区",
+          "capital": 49,
+          "business": "ＥＣ事業（福祉用具・介護用品のインターネット販売）",
+          "voting": 51,
+          "note": "特定子会社",
+          "since": "2018-11"
+        },
+        {
+          "name": "株式会社幸和ライフゼーション",
+          "formerName": "有限会社パムック",
+          "relation": "連結子会社",
+          "address": "大阪府堺市堺区",
+          "capital": 20,
+          "business": "介護サービス事業",
+          "voting": 100,
+          "note": "特定子会社。2019年9月に商号変更",
+          "since": "2019-03"
+        },
+        {
+          "name": "株式会社シクロケア",
+          "relation": "連結子会社",
+          "address": "大阪府堺市堺区",
+          "capital": 10,
+          "business": "介護用品・福祉用具製造販売事業",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2019-03"
+        },
+        {
+          "name": "パーソンケア株式会社",
+          "relation": "連結子会社",
+          "address": "大阪府堺市中区",
+          "capital": 5,
+          "business": "介護サービス事業",
+          "voting": 100,
+          "since": "2024-10"
+        }
+      ],
+      "former": [
+        {
+          "name": "幸和（香港）有限公司",
+          "since": "2002-05",
+          "end": "2021-02",
+          "how": "清算",
+          "note": "福祉用具の中国生産のため設立した香港子会社（東莞工場）"
+        }
+      ]
     }
   },
   {
@@ -102116,6 +104296,44 @@
       "kind": "header",
       "source": "https://stemcell.co.jp/wp/wp-content/themes/stemcell-renewal/img/logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS04906/25e3a71d/3c20/4e21/8d6f/6d6640420bed/S100YI32.pdf",
+      "consolidated": 2,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社日本トリム",
+          "relation": "親会社",
+          "address": "大阪府大阪市北区",
+          "capital": 992,
+          "business": "電解水素水整水器等を中心とした健康機器販売及びそれに関連する附属品等の販売",
+          "voting": 71.3,
+          "owned": true,
+          "note": "有価証券報告書の提出会社。2013年9月に当社株式の50.1%を取得（沿革）"
+        },
+        {
+          "name": "株式会社ミルケア",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 10,
+          "business": "ファミリー上清サービスの提供（当社が製造する培養上清液の販売）",
+          "voting": 100,
+          "note": "2026年3月期から重要性が増して連結子会社に"
+        },
+        {
+          "name": "STEMCELL INNOVATIONS PTE. LTD.",
+          "relation": "連結子会社",
+          "address": "シンガポール",
+          "capital": 812,
+          "business": "細胞バンク事業（東南アジアの地域統括会社）",
+          "voting": 50,
+          "note": "特定子会社。インドネシアの複合企業体創業家ファミリーオフィスとの合弁（2025年8月に共同出資完了）。2026年6月にシンガポールの細胞処理・保管センターが完成",
+          "since": "2024-11"
+        }
+      ]
     }
   },
   {
@@ -102313,6 +104531,70 @@
       "kind": "header",
       "source": "https://www.s-max.co.jp/wp-content/themes/softmax/assets/img/common/logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://ir.s-max.co.jp/ja/ir/library/securities/main/02/teaserItems1/09/linkList/00/link/531231.pdf",
+      "consolidated": 0,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社リンクス",
+          "relation": "その他の関係会社",
+          "address": "鹿児島県鹿児島市",
+          "capital": 10,
+          "business": "不動産管理、ホテル運営",
+          "voting": 24.95,
+          "owned": true,
+          "note": "直接被所有",
+          "since": "2013-11"
+        }
+      ],
+      "former": [
+        {
+          "name": "株式会社宮崎ビジネスコンピュータ",
+          "since": "1979-05",
+          "end": "2001-01",
+          "how": "吸収合併",
+          "note": "宮崎市のコンピュータ機器販売会社"
+        },
+        {
+          "name": "株式会社スペック",
+          "since": "1985-06",
+          "end": "2001-01",
+          "how": "吸収合併",
+          "note": "鹿児島市のソフトウェア開発・販売会社"
+        },
+        {
+          "name": "株式会社日本メディカルシステム",
+          "since": "1985-09",
+          "end": "2001-01",
+          "how": "吸収合併",
+          "note": "福岡市の医療情報システム開発・販売会社"
+        },
+        {
+          "name": "株式会社西日本ビジネスコンピュータ",
+          "since": "1986-04",
+          "end": "2001-01",
+          "how": "吸収合併",
+          "note": "久留米市のコンピュータ機器販売会社"
+        },
+        {
+          "name": "サイバーウェイ株式会社",
+          "since": "1998-06",
+          "end": "2006-04",
+          "how": "吸収合併",
+          "note": "ハードウェア開発のため設立した会社"
+        },
+        {
+          "name": "ヒューマンメディック株式会社",
+          "since": "2009-02",
+          "end": "2013-12",
+          "how": "解散",
+          "note": "東北で当社製品の拡販・導入支援（秋田市）。非連結子会社"
+        }
+      ]
     }
   },
   {
@@ -105570,6 +107852,31 @@
       "source": "https://prtimes.jp/data/corp/24685/logo/pc-dabccebcb5291c1a96925d975ec09ce1-1a14217e2796e70873a5b419626fffa3.jpeg",
       "checkedAt": "2026-11",
       "shape": "square"
+    },
+    "group": {
+      "asOf": "2025-10",
+      "sourceLabel": "2025年10月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS81949/f730267a/e595/4c23/bc54/5ebc9f167163/S100XHWF.pdf",
+      "consolidated": 1,
+      "equityMethod": 0,
+      "former": [
+        {
+          "name": "株式会社メディベース",
+          "companyId": "4120001196029",
+          "how": "売却",
+          "note": "美容・自由診療向けクラウド電子カルテ「MEDIBASE」。2024年9月に完全子会社化を決議、2025年5月に事業をGMOビューティーへ吸収分割し、同期中に株式を売却",
+          "source": "https://contents.xj-storage.jp/xcontents/AS81949/235923ed/eefb/40f4/ab5f/cca304ebaa47/140120250311591722.pdf"
+        },
+        {
+          "name": "ハイブリッドメディカル株式会社",
+          "since": "2024-11",
+          "end": "2026-07",
+          "how": "吸収合併",
+          "note": "医療機関の運営サポート（医療機関支援サービス）。有価証券報告書の後に吸収合併（IRの発表）",
+          "source": "https://contents.xj-storage.jp/xcontents/AS81949/b4b9d8dc/0bd6/4e23/b568/9c71a43e5b0c/140120260422508287.pdf"
+        }
+      ],
+      "members": []
     }
   },
   {
