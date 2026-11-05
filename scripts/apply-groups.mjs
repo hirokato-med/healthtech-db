@@ -49,6 +49,7 @@ for (const f of process.argv.slice(2)) {
       consolidated: typeof g.consolidated === 'number' ? g.consolidated : undefined, equityMethod: typeof g.equityMethod === 'number' ? g.equityMethod : undefined,
       scope: g.scope === 'healthcare' ? 'healthcare' : undefined, note: publicNote(g.note), members, former,
     });
+    c.group.members ??= []; // 子会社が今は無く、以前の子会社だけの会社もある
     set++;
   }
 }
