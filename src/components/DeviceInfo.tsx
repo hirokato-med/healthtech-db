@@ -13,6 +13,17 @@ const date = (s?: string) => (s ? s.replace(/^(\d{4})-(\d{2})-(\d{2})$/, '$1年$
 /** 事業のページの「医療機器としての情報」。医療機器かどうかを、承認・認証の番号と添付文書で示す */
 export function DevicePanel({ s }: { s: Service }) {
   const d = s.device;
+  if (!d && s.nonDevice) {
+    const n = s.nonDevice;
+    return (
+      <section className="panel dev-panel none">
+        <h3>医療機器としての情報</h3>
+        <p className="dev-head"><b className="dev-no">医療機器ではありません</b></p>
+        <p className="small">{n.note}{n.source && <a href={n.source} target="_blank" rel="noreferrer" className="h-src">出典</a>}{n.usesDevice && <> <a href={n.usesDevice} target="_blank" rel="noreferrer">使っている医療機器（PMDA）</a></>}</p>
+        {n.checkedAt && <p className="small muted">{ym(n.checkedAt)}に確認</p>}
+      </section>
+    );
+  }
   if (!d) {
     return (
       <section className="panel dev-panel none">

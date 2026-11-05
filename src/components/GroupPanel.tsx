@@ -66,7 +66,7 @@ export function GroupPanel({ g }: { g: CompanyGroup }) {
           </div>
         </>
       ) : null}
-      <p className="muted small" style={{ marginTop: 8 }}>出典：<a href={g.source} target="_blank" rel="noreferrer">{g.sourceLabel}</a>（関係会社の状況・沿革・連結の範囲）。議決権の所有割合は有価証券報告書に書かれた値で、間接所有を含みます。</p>
+      <p className="muted small" style={{ marginTop: 8 }}>出典：{g.source ? <a href={g.source} target="_blank" rel="noreferrer">{g.sourceLabel}</a> : g.sourceLabel}（関係会社の状況・沿革・連結の範囲）。議決権の所有割合は有価証券報告書に書かれた値で、間接所有を含みます。</p>
     </section>
   );
 }
