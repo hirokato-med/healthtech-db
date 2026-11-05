@@ -8550,6 +8550,204 @@
       "kind": "header",
       "source": "https://www.bm-sms.co.jp/wp-content/themes/sms-corp/images/SMS-logo_RGB.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://www.bm-sms.co.jp/wp-content/uploads/2026/06/FY25_securities_report.pdf",
+      "consolidated": 38,
+      "equityMethod": 2,
+      "members": [
+        {
+          "name": "MEDICA ASIA (HOLDCO) LIMITED",
+          "relation": "連結子会社",
+          "address": "英国",
+          "capitalText": "344英ポンド",
+          "business": "MIMSグループ持株会社",
+          "voting": 100,
+          "note": "特定子会社。2015年10月にMIMSグループを子会社化、2018年9月に完全子会社化。2026年10月、MIMSグループのメディカルプラットフォーム事業の売却又は撤退の方針を決議（IRの発表。相手先・時期は未定）",
+          "since": "2015-10",
+          "source": "https://www.bm-sms.co.jp/wp-content/uploads/2026/10/20261029_J_Decision-to-Sell-or-Exit-Medical-Platform-Business.pdf"
+        },
+        {
+          "name": "MIMS PTE. LTD.",
+          "relation": "連結子会社",
+          "address": "シンガポール",
+          "capitalText": "65百万シンガポールドル",
+          "business": "医療従事者・事業者向け医療情報サービス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社（MIMSグループ）"
+        },
+        {
+          "name": "MIMS MEDICA SDN. BHD.",
+          "relation": "連結子会社",
+          "address": "マレーシア",
+          "capitalText": "22百万マレーシアリンギット",
+          "business": "医療従事者・事業者向け医療情報サービス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社（MIMSグループ）"
+        },
+        {
+          "name": "PT SENIOR MARKETING SYSTEM INDONESIA",
+          "relation": "連結子会社",
+          "address": "インドネシア",
+          "capitalText": "34,505百万インドネシアルピア",
+          "business": "医療従事者・事業者向け医療情報サービス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社（MIMSグループ）"
+        },
+        {
+          "name": "MIMS (SHANGHAI) LIMITED.",
+          "relation": "連結子会社",
+          "address": "中国",
+          "capitalText": "3百万米ドル",
+          "business": "医療従事者・事業者向け医療情報サービス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社（MIMSグループ）"
+        },
+        {
+          "name": "MIMS Career (Shanghai) Co.Ltd.",
+          "relation": "連結子会社",
+          "address": "中国",
+          "capitalText": "2百万米ドル",
+          "business": "医療従事者・事業者向け採用支援サービス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社（2025年10月のMedilabsによる増資で該当）。Medilabs Co.,Ltd.の子会社"
+        },
+        {
+          "name": "KIMS CO., LTD.",
+          "relation": "連結子会社",
+          "address": "韓国",
+          "capitalText": "11,456百万韓国ウォン",
+          "business": "医療従事者・事業者向け医療情報サービス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社（MIMSグループ）"
+        },
+        {
+          "name": "MEDICA ASIA AUSTRALIA (HOLDCO) PTY LIMITED",
+          "relation": "連結子会社",
+          "address": "オーストラリア",
+          "capitalText": "40百万豪ドル",
+          "business": "オーストラリアにおける持株会社",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社（MIMSグループ）"
+        },
+        {
+          "name": "MIMS AUSTRALIA PTY LTD",
+          "relation": "連結子会社",
+          "address": "オーストラリア",
+          "capitalText": "23百万豪ドル",
+          "business": "医療従事者・事業者向け医療情報サービス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社（MIMSグループ）"
+        },
+        {
+          "name": "MIMS (NZ) LIMITED",
+          "relation": "連結子会社",
+          "address": "ニュージーランド",
+          "capitalText": "4百万ニュージーランドドル",
+          "business": "医療従事者・事業者向け医療情報サービス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社（MIMSグループ）"
+        },
+        {
+          "name": "Medilabs Co., Ltd.",
+          "formerName": "NURSCAPE CO., LTD.",
+          "relation": "連結子会社",
+          "address": "韓国",
+          "business": "韓国における看護師向けキャリアサービス「Nurscape」（沿革）。MIMS Career (Shanghai)の親会社",
+          "note": "2026年5月のIRで「当社の連結子会社」（関係会社の状況の表では「その他28社」）",
+          "since": "2011-09",
+          "source": "https://www.bm-sms.co.jp/wp-content/uploads/2026/05/20260515_J_change-in-specified-subsidiary.pdf"
+        },
+        {
+          "name": "株式会社エス・エム・エスサポートサービス",
+          "relation": "連結子会社",
+          "address": "北海道札幌市",
+          "business": "当社サービスに関するコールセンター業務等",
+          "note": "会社サイトのグループ企業（表では「その他28社」）",
+          "since": "2012-06"
+        },
+        {
+          "name": "株式会社エス・エム・エスフィナンシャルサービス",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "business": "ファクタリング事業等",
+          "note": "会社サイトのグループ企業（表では「その他28社」）",
+          "since": "2014-01"
+        },
+        {
+          "name": "株式会社エス・エム・エスウェルフェアテクノロジー",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "business": "障害福祉事業者への経営支援",
+          "note": "株式会社エヌ・ゲートとの合弁で設立。会社サイトのグループ企業（表では「その他28社」）",
+          "since": "2024-12"
+        },
+        {
+          "name": "MIMS Japan株式会社",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ企業（有報に個別の記載なし）"
+        },
+        {
+          "name": "SMS PHILIPPINES HEALTHCARE SOLUTIONS INC.",
+          "relation": "連結子会社",
+          "address": "フィリピン",
+          "note": "会社サイトのグループ企業（有報に個別の記載なし）"
+        },
+        {
+          "name": "エムスリーキャリア株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "東京都港区",
+          "capital": 100,
+          "business": "医師/薬剤師向け人材紹介等",
+          "voting": 49,
+          "note": "エムスリーとの共同新設分割で設立（当社49％、エムスリー51％）",
+          "since": "2009-12"
+        }
+      ],
+      "former": [
+        {
+          "name": "SENIOR MARKETING SYSTEM ASIA PTE. LTD.",
+          "how": "清算結了",
+          "note": "2026年3月期に清算結了し連結の範囲から除外"
+        },
+        {
+          "name": "株式会社エス・エム・エスキャリア",
+          "since": "2015-01",
+          "end": "2021-01",
+          "how": "吸収合併",
+          "note": "人材紹介・求人情報等のキャリア関連サービス（会社分割で設立）"
+        },
+        {
+          "name": "株式会社ツヴァイク",
+          "end": "2021-01",
+          "how": "吸収合併",
+          "note": "連結子会社4社の同時合併の1社"
+        },
+        {
+          "name": "株式会社ワークアンビシャス",
+          "end": "2021-01",
+          "how": "吸収合併",
+          "note": "連結子会社4社の同時合併の1社"
+        },
+        {
+          "name": "株式会社ウィルワン",
+          "since": "2017-11",
+          "end": "2021-01",
+          "how": "吸収合併",
+          "note": "柔道整復師・あん摩マッサージ師・はり師・きゅう師向けキャリア関連サービス"
+        }
+      ]
     }
   },
   {
@@ -9421,6 +9619,213 @@
       "kind": "header",
       "source": "https://kusurinomadoguchi.co.jp/img/renewal/pc/logo.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS05219/be617d7e/3518/4493/90cb/4b0df7fc3bf7/S100YKTN.pdf",
+      "consolidated": 12,
+      "equityMethod": 1,
+      "members": [
+        {
+          "name": "株式会社EPARK",
+          "relation": "その他の関係会社",
+          "address": "東京都港区",
+          "capital": 90,
+          "business": "各種予約サービス事業",
+          "voting": 39.4,
+          "owned": true,
+          "note": "ほかに緊密な者・同意している者が1.4％。EPARK事業のプラットフォーム共有・ロイヤリティ支払"
+        },
+        {
+          "name": "株式会社光通信",
+          "relation": "その他の関係会社の親会社",
+          "address": "東京都豊島区",
+          "capital": 54259,
+          "business": "通信回線サービス事業他",
+          "voting": 40.8,
+          "indirect": 40.8,
+          "owned": true
+        },
+        {
+          "name": "株式会社ファーマリー",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 10,
+          "business": "販売促進及び受注代行業務（不動在庫売買支援サービスの薬局顧客開拓）",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2018-03"
+        },
+        {
+          "name": "株式会社ピークウェル",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 9,
+          "business": "医療用医薬品売買サイトの運営（不動在庫売買支援）",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2017-04"
+        },
+        {
+          "name": "株式会社エーシーエス",
+          "relation": "連結子会社",
+          "address": "仙台市青葉区",
+          "capital": 30,
+          "business": "医療機関向けシステム（医事会計・オーダリング・電子カルテ）の開発・販売他",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2021-04"
+        },
+        {
+          "name": "株式会社モイネットシステム",
+          "relation": "連結子会社",
+          "address": "神戸市長田区",
+          "capital": 10,
+          "business": "診療報酬明細書システム（薬局向けレセコン）の開発販売",
+          "voting": 100,
+          "note": "特定子会社。売上高が連結売上高の10％超",
+          "since": "2020-06"
+        },
+        {
+          "name": "株式会社メディカルコーディネート",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 10,
+          "business": "販売促進及び受注代行業務（医療関連ソリューション）",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2022-08"
+        },
+        {
+          "name": "株式会社EPARK人間ドック",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 100,
+          "business": "人間ドック向け予約システムの提供",
+          "voting": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "薬剤師求人転職株式会社",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 10,
+          "business": "職業紹介、労働者派遣、教育他（調剤薬局向け人材紹介）",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2024-09"
+        },
+        {
+          "name": "株式会社メディカルコネクト",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 10,
+          "business": "医療機器、医療システムの販売他（営業代行）",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2025-03"
+        },
+        {
+          "name": "株式会社メディ・ウェブ",
+          "companyId": "7010401095730",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 80,
+          "business": "医療向けDX事業（医療機関予約プラットフォーム）",
+          "voting": 100,
+          "note": "特定子会社。沿革で「株式会社メディ・ウェブ他1社を子会社化」",
+          "since": "2026-01"
+        },
+        {
+          "name": "株式会社イーディライト",
+          "relation": "連結子会社",
+          "address": "福岡市中央区",
+          "capital": 25,
+          "business": "医療機関向け各種ソリューションの提供",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "株式会社メディカルJSP",
+          "relation": "連結子会社",
+          "address": "京都市中京区",
+          "capital": 82.5,
+          "business": "医療機関向けコンピュータシステム（電子カルテ・レセコン）の開発販売",
+          "voting": 77.1,
+          "note": "特定子会社",
+          "since": "2020-12"
+        },
+        {
+          "name": "ハイブリッジ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 90,
+          "business": "電子薬歴システム（「Hi-story」等）の開発販売",
+          "voting": 67.3,
+          "note": "特定子会社",
+          "since": "2024-01"
+        },
+        {
+          "name": "株式会社テクノネットワーク",
+          "relation": "連結子会社",
+          "address": "福岡県福岡市東区",
+          "capital": 10,
+          "business": "医療機関向けレセコン・電子カルテの販売（オーダリング・電子カルテ・導入支援）",
+          "voting": 100,
+          "note": "期末後の2026年5月に完全子会社化（沿革・2026年4月のIR）",
+          "since": "2026-05",
+          "source": "https://contents.xj-storage.jp/xcontents/AS05219/352371a4/afa3/452d/8be7/4ceeff9cd55f/140120260421507353.pdf"
+        },
+        {
+          "name": "株式会社ケイング",
+          "relation": "連結子会社",
+          "address": "福岡県福岡市東区",
+          "capital": 5,
+          "business": "医療システム販売店への営業サポート",
+          "voting": 100,
+          "indirect": 100,
+          "note": "テクノネットワークの完全子会社。2026年5月にグループ会社化（2026年4月のIR）",
+          "since": "2026-05",
+          "source": "https://contents.xj-storage.jp/xcontents/AS05219/352371a4/afa3/452d/8be7/4ceeff9cd55f/140120260421507353.pdf"
+        },
+        {
+          "name": "株式会社blankpad",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 61,
+          "business": "パーソナリティに基づいた総合人材マッチングプラットフォーム事業",
+          "voting": 100,
+          "note": "有価証券報告書の後に子会社化（IRの発表）。2026年7月23日発表、7月31日に全株式を取得予定（2027年3月期第2四半期から連結）",
+          "since": "2026-07",
+          "source": "https://contents.xj-storage.jp/xcontents/AS05219/06759510/3def/4a38/88d9/1377c01146de/140120260723598245.pdf"
+        },
+        {
+          "name": "株式会社J-Seed",
+          "relation": "持分法適用関連会社",
+          "address": "横浜市港北区",
+          "capital": 1,
+          "business": "「みんなの仕入れサポートサービス」取引に係る管理業務",
+          "voting": 49
+        }
+      ],
+      "former": [
+        {
+          "name": "キューブイメージング株式会社",
+          "since": "2024-01",
+          "end": "2024-08",
+          "how": "吸収合併",
+          "note": "調剤監査システム「Cube.i」の製造・販売。当社が吸収合併"
+        },
+        {
+          "name": "株式会社ホスピタルヘルスケア",
+          "since": "2023-12",
+          "end": "2024-11",
+          "how": "吸収合併",
+          "note": "病院向けICTソリューション事業。当社が吸収合併"
+        }
+      ]
     }
   },
   {
@@ -72166,6 +72571,50 @@
       "kind": "header",
       "source": "https://www.tokiomarinehd.com/common/images/img-logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/8766/yuho_pdf/S100YLS8/00.pdf",
+      "consolidated": 436,
+      "equityMethod": 25,
+      "scope": "healthcare",
+      "note": "ヘルスケア（医療・介護・健康）に関わる会社だけを載せた。有報の表（主な連結子会社14社と持分法適用会社1社、ほか「その他422社」「その他24社」）には該当する会社が無いため、会社サイトのグループ会社一覧から足した。損害保険・生命保険・海外保険などの会社は省きました",
+      "members": [
+        {
+          "name": "東京海上日動ベターライフサービス株式会社",
+          "formerName": "東京海上ベターライフサービス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都世田谷区",
+          "capital": 100,
+          "business": "介護事業（居宅介護支援・訪問介護など、企業の仕事と介護の両立支援）",
+          "voting": 100,
+          "indirect": 100,
+          "note": "関係会社の状況の表には記載なし（連結子会社「その他422社」の中とみられる）。会社サイトのグループ会社一覧（ソリューション・その他事業）に掲載。株主は東京海上日動火災保険（100％）。1996年6月設立、2004年4月に名称変更（同社の会社概要）",
+          "since": "1996-06",
+          "source": "https://www.tnbls.co.jp/company/about.html"
+        },
+        {
+          "name": "東京海上日動メディカルサービス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 100,
+          "business": "医療・健康関連サービス（産業保健支援・メンタルヘルス支援・電話医療健康相談・医療安全サービスなど）",
+          "note": "関係会社の状況の表には記載なし（連結子会社「その他422社」の中とみられる）。会社サイトのグループ会社一覧（ソリューション・その他事業）に掲載。株主は当社。1987年1月設立（同社の会社概要）",
+          "since": "1987-01",
+          "source": "http://www.tokio-mednet.co.jp/company/"
+        },
+        {
+          "name": "東京海上ヘルスケア株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 100,
+          "business": "ヘルスケアサービス事業（健康診断を起点とする健康経営支援）",
+          "note": "関係会社の状況の表には記載なし（連結子会社「その他422社」の中とみられる）。会社サイトのグループ会社一覧（ソリューション・その他事業）に掲載。2023年4月3日設立（同社の会社概要）",
+          "since": "2023-04",
+          "source": "https://www.tokiomarine-healthcare.co.jp/company/index.html"
+        }
+      ]
     }
   },
   {
@@ -78247,6 +78696,156 @@
       "kind": "header",
       "source": "https://www.sugi-hd.co.jp/img/common/img_logo.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-02",
+      "sourceLabel": "2026年2月期 有価証券報告書",
+      "source": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y3QN.pdf",
+      "consolidated": 30,
+      "equityMethod": 6,
+      "members": [
+        {
+          "name": "株式会社スギ商事",
+          "relation": "その他の関係会社",
+          "address": "愛知県安城市",
+          "capital": 20,
+          "business": "有価証券の保有",
+          "voting": 37.43,
+          "owned": true
+        },
+        {
+          "name": "株式会社スギ薬局",
+          "relation": "連結子会社",
+          "address": "愛知県安城市",
+          "capital": 50,
+          "business": "商品の販売および調剤等のサービス（調剤併設型ドラッグストア）",
+          "voting": 100,
+          "note": "特定子会社。連結売上高の10%超。沿革：2008年9月に新設分割で持株会社体制に移行し新設",
+          "since": "2008-09"
+        },
+        {
+          "name": "スギメディカル株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 50,
+          "business": "子会社の経営管理等（訪問看護事業や医療機関の開業支援事業などの子会社を管理）",
+          "voting": 100,
+          "note": "沿革：2008年9月に新設",
+          "since": "2008-09"
+        },
+        {
+          "name": "株式会社Ｓトレーディング",
+          "relation": "連結子会社",
+          "address": "愛知県安城市",
+          "capital": 50,
+          "business": "商品供給・貿易（ドラッグストア商材の輸出・国内卸売）",
+          "voting": 100,
+          "note": "沿革：2020年2月に設立",
+          "since": "2020-02"
+        },
+        {
+          "name": "薬日本堂株式会社",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし。沿革：2023年12月に完全子会社化",
+          "since": "2023-12"
+        },
+        {
+          "name": "ノックオンザドア株式会社",
+          "companyId": "1010001193535",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし。沿革：2025年9月に子会社化",
+          "since": "2025-09"
+        },
+        {
+          "name": "株式会社医薬品情報センター",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし。2026年2月期にスギ薬局が同社ほか3社の全株式を取得して連結（連結の範囲の注記）"
+        },
+        {
+          "name": "株式会社メディカルかるがも",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし。有報の多様性指標（連結子会社）に記載"
+        },
+        {
+          "name": "株式会社メディプラン",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし。有報の多様性指標（連結子会社）に記載"
+        },
+        {
+          "name": "SUGI BLEZ HOLDINGS (THAILAND) CO.,LTD.",
+          "relation": "連結子会社",
+          "address": "タイ",
+          "note": "関係会社の状況の表には記載なし。2026年2月期にＳトレーディングが設立（連結の範囲の注記）"
+        },
+        {
+          "name": "SUGI BLEZ (THAILAND) CO.,LTD.",
+          "relation": "連結子会社",
+          "address": "タイ",
+          "note": "関係会社の状況の表には記載なし。2026年2月期にBLEZ ASIAとの合弁会社として設立（連結の範囲の注記）"
+        },
+        {
+          "name": "日本ホスピスホールディングス株式会社",
+          "relation": "持分法適用関連会社",
+          "note": "主要な関連会社（連結の範囲の注記）。沿革：2023年7月に資本業務提携（持分法適用関連会社）",
+          "since": "2023-07"
+        },
+        {
+          "name": "株式会社セキ薬品",
+          "relation": "持分法適用関連会社",
+          "note": "主要な関連会社。沿革：2025年9月に株式を取得（持分法適用関連会社）、期末後の2026年4月に株式追加取得の契約を締結し2026年9月に子会社化予定",
+          "since": "2025-09"
+        },
+        {
+          "name": "AJS PHARMA INC.",
+          "relation": "持分法適用関連会社",
+          "note": "2026年2月期に新たに出資し持分法の範囲に（連結の範囲の注記）"
+        },
+        {
+          "name": "PT Mustika Ratu Sugi",
+          "relation": "持分法適用関連会社",
+          "address": "インドネシア",
+          "note": "2026年2月期に新設し持分法の範囲に（連結の範囲の注記）"
+        },
+        {
+          "name": "スギスマイル株式会社",
+          "relation": "非連結子会社",
+          "business": "障がいがある方を雇用しグループ内の業務を受託（特例子会社）",
+          "note": "持分法非適用。沿革：2009年6月に新設",
+          "since": "2009-06"
+        },
+        {
+          "name": "スギネット株式会社",
+          "relation": "非連結子会社",
+          "note": "持分法非適用"
+        },
+        {
+          "name": "株式会社万代メディカル",
+          "relation": "関連会社（持分法非適用）"
+        }
+      ],
+      "former": [
+        {
+          "name": "飯塚薬品株式会社",
+          "since": "2008-02",
+          "end": "2011-02",
+          "how": "吸収合併",
+          "note": "ドラッグストア・薬局。スギ薬局が吸収合併"
+        },
+        {
+          "name": "株式会社ジャパン",
+          "since": "2007-03",
+          "end": "2013-03",
+          "how": "吸収合併",
+          "note": "ドラッグストア。株式交換で完全子会社化"
+        },
+        {
+          "name": "I&H株式会社",
+          "since": "2024-09",
+          "end": "2025-03",
+          "how": "吸収合併",
+          "note": "調剤薬局グループ。スギ薬局が吸収合併"
+        }
+      ]
     }
   },
   {
@@ -78408,6 +79007,434 @@
       "kind": "header",
       "source": "https://www.tsuruha-hd.co.jp/images/common/logo-en.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-02",
+      "sourceLabel": "2026年2月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS70521/7495a860/8a64/4b2c/a4c7/936492f9525f/S100Y5EY.pdf",
+      "consolidated": 28,
+      "equityMethod": 2,
+      "members": [
+        {
+          "name": "イオン株式会社",
+          "relation": "親会社",
+          "address": "千葉県千葉市美浜区",
+          "capital": 220007,
+          "business": "純粋持株会社",
+          "voting": 50.3,
+          "owned": true,
+          "note": "有価証券報告書の提出会社。沿革：2026年1月にイオンの子会社となる",
+          "since": "2026-01"
+        },
+        {
+          "name": "株式会社ツルハ",
+          "formerName": "株式会社クスリのツルハコントロールセンター",
+          "relation": "連結子会社",
+          "address": "北海道札幌市東区",
+          "capital": 4252,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "note": "特定子会社。連結売上高の10%超。沿革：1975年5月にクスリのツルハコントロールセンターとして設立、1991年8月に商号変更",
+          "since": "1975-05"
+        },
+        {
+          "name": "株式会社くすりの福太郎",
+          "relation": "連結子会社",
+          "address": "千葉県鎌ヶ谷市",
+          "capital": 98,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "note": "沿革：2007年5月に株式交換で完全子会社とする契約を締結",
+          "since": "2007-05"
+        },
+        {
+          "name": "株式会社ツルハグループドラッグ＆ファーマシー西日本",
+          "formerName": "株式会社ハーティウォンツ",
+          "relation": "連結子会社",
+          "address": "広島県広島市西区",
+          "capital": 287,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "note": "連結売上高の10%超。沿革：2013年12月にハーティウォンツを子会社化、2015年8月にウェルネス湖北を吸収合併して商号変更",
+          "since": "2013-12"
+        },
+        {
+          "name": "株式会社レデイ薬局",
+          "relation": "連結子会社",
+          "address": "愛媛県松山市",
+          "capital": 598,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "note": "沿革：2015年10月に子会社化",
+          "since": "2015-10"
+        },
+        {
+          "name": "株式会社杏林堂グループ・ホールディングス",
+          "relation": "連結子会社",
+          "address": "静岡県浜松市中央区",
+          "capital": 50,
+          "business": "ドラッグストア運営子会社の経営指導及び管理",
+          "voting": 51,
+          "note": "沿革：2017年9月に子会社化",
+          "since": "2017-09"
+        },
+        {
+          "name": "株式会社杏林堂薬局",
+          "relation": "連結子会社",
+          "address": "静岡県浜松市中央区",
+          "capital": 50,
+          "business": "ドラッグストア事業",
+          "voting": 51,
+          "indirect": 51,
+          "note": "杏林堂グループ・ホールディングスの100%子会社。2017年9月の杏林堂グループ・ホールディングス子会社化で傘下に",
+          "since": "2017-09"
+        },
+        {
+          "name": "株式会社ドラッグイレブン",
+          "formerName": "JR九州ドラッグイレブン株式会社",
+          "relation": "連結子会社",
+          "address": "福岡県大野城市",
+          "capital": 100,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "note": "沿革：2020年5月にJR九州ドラッグイレブンを子会社化",
+          "since": "2020-05"
+        },
+        {
+          "name": "株式会社ツルハグループマーチャンダイジング",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 10,
+          "business": "グループの商品調達・物流の企画、PB商品の企画開発、通信販売",
+          "voting": 100
+        },
+        {
+          "name": "株式会社ツルハフィナンシャルサービス",
+          "relation": "連結子会社",
+          "address": "北海道札幌市東区",
+          "capital": 10,
+          "business": "保険代理店業務",
+          "voting": 100
+        },
+        {
+          "name": "株式会社ツルハ酒類販売",
+          "relation": "連結子会社",
+          "address": "北海道札幌市東区",
+          "capital": 10,
+          "business": "酒類等のインターネット等での通信販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ツルハの100%子会社"
+        },
+        {
+          "name": "ウエルシアホールディングス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 7868,
+          "business": "純粋持株会社",
+          "voting": 100,
+          "note": "特定子会社。沿革：2025年12月に株式交換で子会社化",
+          "since": "2025-12"
+        },
+        {
+          "name": "ウエルシア薬局株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 100,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。連結売上高の10%超。ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "ウエルシア介護サービス株式会社",
+          "relation": "連結子会社",
+          "address": "茨城県つくば市",
+          "capital": 100,
+          "business": "介護事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "シミズ薬品株式会社",
+          "relation": "連結子会社",
+          "address": "京都府京都市下京区",
+          "capital": 48,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社丸大サクラヰ薬局",
+          "relation": "連結子会社",
+          "address": "青森県青森市",
+          "capital": 29,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社MASAYA",
+          "relation": "連結子会社",
+          "address": "岡山県岡山市北区",
+          "capital": 10,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社よどや",
+          "relation": "連結子会社",
+          "address": "高知県高知市",
+          "capital": 50,
+          "business": "ドラッグストア事業",
+          "voting": 50.1,
+          "indirect": 50.1,
+          "note": "2025年12月のウエルシアHDの子会社化で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社クスリのマルエ",
+          "relation": "連結子会社",
+          "address": "群馬県前橋市",
+          "capital": 48,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社ププレひまわり",
+          "relation": "連結子会社",
+          "address": "広島県福山市",
+          "capital": 49,
+          "business": "ドラッグストア事業",
+          "voting": 51,
+          "indirect": 51,
+          "note": "2025年12月のウエルシアHDの子会社化で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社コクミン",
+          "relation": "連結子会社",
+          "address": "大阪府大阪市住之江区",
+          "capital": 91,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社フレンチ",
+          "relation": "連結子会社",
+          "address": "大阪府大阪市住之江区",
+          "capital": 18,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社ふく薬品",
+          "relation": "連結子会社",
+          "address": "沖縄県那覇市",
+          "capital": 20,
+          "business": "ドラッグストア事業",
+          "voting": 53.8,
+          "indirect": 53.8,
+          "note": "2025年12月のウエルシアHDの子会社化で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社エクスチェンジ",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 10,
+          "business": "情報システム事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に（ウエルシアHDは2024年3月に取得）",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社エクスチェンジソリューションズ",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 13,
+          "business": "情報システム事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に（ウエルシアHDは2024年3月に取得）",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社エクスチェンジクリエイティブ",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 5,
+          "business": "情報システム事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に（ウエルシアHDは2024年3月に取得）",
+          "since": "2025-12"
+        },
+        {
+          "name": "株式会社ウェルパーク",
+          "relation": "連結子会社",
+          "address": "東京都立川市",
+          "capital": 100,
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に（ウエルシアHDは2024年9月に取得）",
+          "since": "2025-12"
+        },
+        {
+          "name": "ウエルシアパートナーズ株式会社",
+          "formerName": "東電パートナーズ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 50,
+          "business": "介護事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に（ウエルシアHDは2024年10月に取得、旧 東電パートナーズ）",
+          "since": "2025-12"
+        },
+        {
+          "name": "WELCIA SINGAPORE PTE. LTD.",
+          "relation": "連結子会社",
+          "address": "シンガポール共和国",
+          "capitalText": "46百万シンガポールドル",
+          "business": "ドラッグストア事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。ウエルシアホールディングスの100%子会社。2025年12月のウエルシアHDの子会社化（株式交換）で傘下に",
+          "since": "2025-12"
+        },
+        {
+          "name": "イオンレーヴコスメ株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "千葉県千葉市美浜区",
+          "capital": 150,
+          "business": "化粧品輸入販売",
+          "voting": 30,
+          "indirect": 30,
+          "note": "2025年12月のウエルシアHDとの株式交換で関連会社に",
+          "since": "2025-12"
+        },
+        {
+          "name": "イオンウエルシア九州株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "福岡県福岡市東区",
+          "capital": 100,
+          "business": "ゼネラル・マーチャンダイズ・ストア",
+          "voting": 49,
+          "indirect": 49,
+          "note": "2025年12月のウエルシアHDとの株式交換で関連会社に",
+          "since": "2025-12"
+        },
+        {
+          "name": "Tsuruha（Thailand）Co.,Ltd.",
+          "relation": "非連結子会社",
+          "note": "主要な非連結子会社（連結の範囲の注記）。沿革：2011年12月にタイのサハグループとの合弁会社として設立",
+          "since": "2011-12"
+        },
+        {
+          "name": "TSURUHA VIETNAM JOINT STOCK COMPANY",
+          "relation": "非連結子会社",
+          "note": "主要な非連結子会社（連結の範囲の注記）"
+        },
+        {
+          "name": "TSURUHA DRUGSTORE VIETNAM CO.,LTD.",
+          "relation": "非連結子会社",
+          "note": "主要な非連結子会社（連結の範囲の注記）"
+        },
+        {
+          "name": "ウエルシアオアシス株式会社",
+          "relation": "非連結子会社",
+          "note": "主要な非連結子会社（連結の範囲の注記）"
+        },
+        {
+          "name": "ウエルシアケアトランスポート株式会社",
+          "relation": "非連結子会社",
+          "note": "主要な非連結子会社（連結の範囲の注記）"
+        }
+      ],
+      "former": [
+        {
+          "name": "株式会社セベラル",
+          "how": "売却",
+          "note": "2026年2月期に保有株式を売却し連結から除外（連結の範囲の注記）"
+        },
+        {
+          "name": "株式会社ドラッグトマト",
+          "since": "2000-11",
+          "end": "2003-05",
+          "how": "吸収合併",
+          "note": "岩手県盛岡市のドラッグストア。ツルハが吸収合併"
+        },
+        {
+          "name": "株式会社ポテトカンパニー",
+          "since": "2002-06",
+          "end": "2004-03",
+          "how": "吸収合併",
+          "note": "山形県山形市のドラッグストア。ツルハが吸収合併"
+        },
+        {
+          "name": "株式会社サクラドラッグ",
+          "since": "2010-07",
+          "end": "2011-05",
+          "how": "吸収合併",
+          "note": "東京都中央区のドラッグストア。ツルハが吸収合併"
+        },
+        {
+          "name": "株式会社ウエダ薬局",
+          "since": "2013-08",
+          "end": "2013-11",
+          "how": "吸収合併",
+          "note": "和歌山県海南市の薬局。ツルハが吸収合併"
+        },
+        {
+          "name": "株式会社ウェルネス湖北",
+          "since": "2009-02",
+          "end": "2015-08",
+          "how": "吸収合併",
+          "note": "島根県松江市のドラッグストア。ハーティウォンツが吸収合併"
+        },
+        {
+          "name": "株式会社ウイング",
+          "since": "2008-04",
+          "end": "2016-05",
+          "how": "吸収合併",
+          "note": "札幌市北区。ツルハグループマーチャンダイジングが吸収合併"
+        },
+        {
+          "name": "株式会社ツルハｅコマース",
+          "end": "2016-05",
+          "how": "吸収合併",
+          "note": "通信販売。ツルハグループマーチャンダイジングが吸収合併"
+        },
+        {
+          "name": "株式会社ビー・アンド・ディー",
+          "since": "2018-05",
+          "end": "2024-05",
+          "how": "吸収合併",
+          "note": "愛知県春日井市のドラッグストア（ビー・アンド・ディーホールディングスごと子会社化）。ツルハが吸収合併"
+        }
+      ]
     }
   },
   {
@@ -78591,6 +79618,125 @@
       "kind": "header",
       "source": "https://www.kirinholdings.com/assets/graphics/image_logo_header.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://pdf.irpocket.com/C2503/nX8G/xy8Z/n9AT.pdf",
+      "consolidated": 164,
+      "equityMethod": 26,
+      "scope": "healthcare",
+      "note": "ヘルスケアに関わる会社（医薬事業・ヘルスサイエンス事業）だけを載せています。乳製品の小岩井乳業（ヘルスサイエンス事業）と化粧品のアテニアは省きました。表は主要な会社のみ（連結子会社「その他130社」）。",
+      "members": [
+        {
+          "name": "協和キリン株式会社",
+          "companyId": "7010001008670",
+          "formerName": "協和発酵キリン株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 26745,
+          "business": "医薬",
+          "voting": 55.2,
+          "note": "特定子会社。有価証券報告書の提出会社。連結売上収益の10%超。沿革：2007年12月に協和醱酵工業に資本参加、2008年10月に協和醱酵工業とキリンファーマが合併して協和発酵キリン発足",
+          "since": "2008-10"
+        },
+        {
+          "name": "Kyowa Kirin Asia Pacific Pte. Ltd.",
+          "relation": "連結子会社",
+          "address": "シンガポール",
+          "capitalText": "123,045千シンガポールドル",
+          "business": "医薬",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。2024年8月1日の協和キリンの取締役会で解散・清算を決定（有報の注記）"
+        },
+        {
+          "name": "協和キリンプラス株式会社",
+          "relation": "連結子会社",
+          "business": "医薬（協和キリンの子会社）",
+          "note": "関係会社の状況の表には記載なし。有報の多様性指標（連結子会社）に記載"
+        },
+        {
+          "name": "株式会社ファンケル",
+          "relation": "連結子会社",
+          "address": "神奈川県横浜市中区",
+          "capital": 10795,
+          "business": "ヘルスサイエンス",
+          "voting": 100,
+          "note": "特定子会社。沿革：2019年9月に資本参加、2024年9月に連結子会社化、2025年3月に完全子会社化",
+          "since": "2024-09"
+        },
+        {
+          "name": "株式会社ファンケル美健",
+          "relation": "連結子会社",
+          "business": "ヘルスサイエンス（ファンケルの子会社）",
+          "note": "関係会社の状況の表には記載なし。有報の多様性指標（連結子会社）に記載"
+        },
+        {
+          "name": "協和発酵バイオ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 100,
+          "business": "ヘルスサイエンス",
+          "voting": 100,
+          "note": "債務超過（56,215百万円）。沿革：2008年10月設立、2019年4月に協和キリンから株式の95%を取得、2023年1月に完全子会社化",
+          "since": "2008-10"
+        },
+        {
+          "name": "Blackmores Limited",
+          "relation": "連結子会社",
+          "address": "オーストラリア ニューサウスウェールズ州",
+          "capitalText": "202,319千豪ドル",
+          "business": "ヘルスサイエンス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社。沿革：2023年8月に完全子会社化",
+          "since": "2023-08"
+        },
+        {
+          "name": "Kirin Health Science Australia Pty Ltd",
+          "relation": "連結子会社",
+          "address": "オーストラリア ニューサウスウェールズ州",
+          "capitalText": "1,799,000千豪ドル",
+          "business": "ヘルスサイエンス",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "Kirin Holdings Australia Pty Ltd",
+          "relation": "連結子会社",
+          "address": "オーストラリア ニューサウスウェールズ州",
+          "capitalText": "1,800,000千豪ドル",
+          "business": "ヘルスサイエンス",
+          "voting": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "Cowellnex株式会社",
+          "relation": "グループ会社",
+          "business": "医領域の研究開発・ベンチャー投資・事業開発（ヘルスサイエンス）",
+          "note": "関係会社の状況の表には記載なし。協和キリンとの共同出資で2024年に設立（有報の経営方針の記載。月は記載なし）",
+          "since": "2024"
+        }
+      ],
+      "former": [
+        {
+          "name": "キリンファーマ株式会社",
+          "since": "2007-07",
+          "end": "2008-10",
+          "how": "合併",
+          "note": "医薬（ネスプなど）。協和醱酵工業と合併し協和発酵キリンが発足"
+        },
+        {
+          "name": "Orchard Therapeutics Limited",
+          "formerName": "Orchard Therapeutics plc",
+          "since": "2024-01",
+          "end": "2026-01",
+          "how": "清算結了",
+          "note": "遺伝子治療（英国）。2025年7月に解散・清算を決定し、期末後の2026年1月20日に清算結了（有報の注記）"
+        }
+      ]
     }
   },
   {
