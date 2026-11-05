@@ -58,9 +58,12 @@ add(want, '出典が1つだけ', services.filter((s) => s.sources?.length === 1)
 const norm = (s = '') => s.normalize('NFKC').replace(/株式会社|合同会社|[\s「」『』（）()・]/g, '').toLowerCase();
 const core = (n) => norm((n.match(/「([^」]+)」/) ?? [])[1] ?? n.replace(/[（(].*$/, ''));
 const seen = new Map(), dup = [];
+// 見比べて別の事業だと確かめた組（data/distinct-pairs.json）は候補から外す
+const distinctFile = path.join(ROOT, 'data', 'distinct-pairs.json');
+const distinct = new Set((fs.existsSync(distinctFile) ? JSON.parse(fs.readFileSync(distinctFile, 'utf8')).pairs : []).map((p) => [...p].sort().join('|')));
 for (const s of services) {
   const k = `${s.companyId ?? norm(s.company)}|${core(s.name)}`;
-  if (seen.has(k)) dup.push(`${seen.get(k).id} ⇔ ${label(s)}`); else seen.set(k, s);
+  if (seen.has(k) && !distinct.has([seen.get(k).id, s.id].sort().join('|'))) dup.push(`${seen.get(k).id} ⇔ ${label(s)}`); else if (!seen.has(k)) seen.set(k, s);
 }
 want.push({ name: '同じ会社で名前が重なる（重複の候補）', items: dup });
 const live = companies.filter((c) => !['閉鎖', '合併', '活動停止'].includes(c.exit));

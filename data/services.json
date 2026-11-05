@@ -2281,7 +2281,7 @@
       "https://www8.cao.go.jp/kisei-kaikaku/suishin/meeting/wg/toushi/20170313/170313toushi04.pdf",
       "https://kitaishihon.com/company/7047/story"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
@@ -3183,7 +3183,7 @@
       "https://www.lycorp.co.jp/news/archive/Y/ja/ja20180604_B.pdf",
       "https://www.watch.impress.co.jp/docs/news/1252060.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation",
       "doctor-qa"
@@ -3633,7 +3633,7 @@
     "sources": [
       "https://carenet.co.jp/.assets/IR_20200417-4.pdf"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
@@ -3648,7 +3648,7 @@
     "description": "エムティーアイ系のカラダメディカが提供する医療機関向けオンライン診療システム。産婦人科向けは女性向けアプリ「ルナルナ」と連携し、患者がルナルナから医療機関を探して予約・受診・決済できる。",
     "hp": "",
     "startedYear": 2020,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2020",
     "milestones": [
       {
@@ -3672,17 +3672,16 @@
         "text": "ピル処方の「ルナルナ おくすり便」を本格開始"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "提供終了の告知は見つからず、現在の提供状況は確認できない。",
     "sources": [
+      "https://lnln.jp/service/obgyn/",
+      "https://telemedicine.lnln.jp/",
       "https://www.watch.impress.co.jp/docs/news/1246371.html",
+      "https://prtimes.jp/main/html/rd/p/000000015.000017725.html",
       "https://resemom.jp/release/prtimes/20170531/31872.html",
       "https://2ndlabo.com/ps1361/",
       "https://www.excite.co.jp/news/article/Prtimes_2022-07-14-2943-1085/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
@@ -3726,7 +3725,7 @@
       "https://prtimes.jp/main/html/rd/p/000000014.000024660.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010502020121"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
@@ -3827,7 +3826,7 @@
       "https://www.city.yokosuka.kanagawa.jp/0525/nagekomi/2025_0501.html",
       "https://m-kango.co.jp/blog/detail/20250725153033/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation",
       "elderly-monitoring"
@@ -4705,9 +4704,10 @@
     ],
     "endReasonNote": "その後の状況は、公開情報で確認できなかった。",
     "sources": [
-      "https://www.yakuji.co.jp/?p=29419"
+      "https://www.yakuji.co.jp/?p=29419",
+      "https://prtimes.jp/main/html/rd/p/000004982.000007505.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medication-support"
     ],
@@ -4767,28 +4767,46 @@
     "description": "1日最大4回の服薬時刻に薬の小箱を押し出し、取り出すと家族や医師に最大5人までメールで知らせる服薬支援機器。薬局と施設だけで扱い、価格は8万5,000円（税抜き）。",
     "hp": "",
     "startedYear": 2017,
-    "status": "不明",
+    "status": "終了",
     "startedAt": "2017-01",
     "milestones": [
       {
         "date": "2017-01",
         "text": "医療機関・薬局・介護施設向けに発売"
+      },
+      {
+        "date": "2017-01",
+        "text": "薬局・医療機関・介護施設向けに販売開始",
+        "source": "https://www.eisai.co.jp/news/news201702.html"
+      },
+      {
+        "date": "2017-11",
+        "text": "ITビジネス賞を受賞",
+        "source": "https://www.eisai.co.jp/news/news201766.html"
+      },
+      {
+        "date": "2020-09",
+        "text": "販売を終了（エーザイのリリースに追記）",
+        "source": "https://www.eisai.co.jp/news/news201702.html"
       }
     ],
     "endReasons": [
       "unknown"
     ],
-    "endReasonNote": "発売後の販売状況や終了は、公開情報で確認できなかった。",
+    "endReasonNote": "エーザイは発売時のニュースリリースに「2020年9月をもって販売を終了いたしました」と追記している。終了の理由は説明していない。",
     "sources": [
+      "https://www.eisai.co.jp/news/news201702.html",
+      "https://www.eisai.co.jp/news/news201766.html",
       "https://www.yakuji.co.jp/?p=55666",
       "https://business.nikkei.com/atcl/report/16/031000124/031500004/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medication-support"
     ],
     "type": "medication-devices",
-    "companyId": "6010001000001"
+    "companyId": "6010001000001",
+    "endedAt": "2020-09"
   },
   {
     "id": "b-3448290d",
@@ -4820,11 +4838,13 @@
     "endReasonNote": "発売後の普及状況や販売終了の有無は、公開情報で確認できなかった。",
     "sources": [
       "https://jpn.nec.com/press/201609/20160907_02.html",
-      "https://www.yakuji.co.jp/?p=53346",
+      "https://www.otsuka.co.jp/company/newsreleases/2017/20170712_1.html",
       "https://www.yakuji.co.jp/?p=56054",
+      "https://medical.nikkeibp.co.jp/leaf/mem/pub/di/column/arai/201806/556558.html",
+      "https://www.yakuji.co.jp/?p=53346",
       "https://nk.jiho.jp/article/p-1226586341869"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medication-support"
     ],
@@ -5010,13 +5030,13 @@
   },
   {
     "id": "b-463a7da3",
-    "name": "ファミマシー（コンビニでの処方薬受け取り実証）",
+    "name": "ファミマシー（ファミリーマート店頭での処方薬受け取り）",
     "company": "ファミリーマート・ミナカラ（物流：セイノーグループ）",
     "category": "pharmacy-dx",
     "description": "ミナカラ薬局のオンライン服薬指導を受けて買った処方薬・市販薬を、都内のファミリーマート8店舗にある受取BOX「KEY STATION」で最短当日に受け取れるようにした実証。",
     "hp": "",
     "startedYear": 2021,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2021-08",
     "milestones": [
       {
@@ -5026,21 +5046,35 @@
       {
         "date": "2021-08",
         "text": "都内8店舗で実証を開始"
+      },
+      {
+        "date": "2021-08",
+        "text": "オンライン薬局「ミナカラ」と都内8店舗の受取BOXで実証を開始",
+        "source": "https://www.family.co.jp/company/news_releases/2021/20210803_02.html"
+      },
+      {
+        "date": "2022-05",
+        "text": "凸版印刷子会社おかぴファーマシーシステムの「とどくすり」と組み、東京都内約2,400店舗で店頭受け取りを開始",
+        "source": "https://www.family.co.jp/company/news_releases/2023/20230125_01.html"
+      },
+      {
+        "date": "2023-02",
+        "text": "対象を1都3県の約4,500店舗に拡大、ファミペイでの薬代支払いに対応",
+        "source": "https://www.family.co.jp/company/news_releases/2023/20230125_01.html"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "実証の終了時期と本格展開の有無は、公開情報で確認できなかった。",
     "sources": [
       "https://www.family.co.jp/company/news_releases/2021/20210803_02.html",
+      "https://www.family.co.jp/company/news_releases/2023/20230125_01.html",
+      "https://todokusuri.com/flow/convenience/",
       "https://www.yakuji.co.jp/?p=88324"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medication-support"
     ],
-    "type": "online-pharmacy"
+    "type": "online-pharmacy",
+    "formerName": "ファミマシー（コンビニでの処方薬受け取り実証）"
   },
   {
     "id": "b-363fa70f",
@@ -67885,18 +67919,36 @@
     "category": "personal-health-record",
     "description": "食事の写真で手軽に食事を記録し、カロリー管理や食生活の振り返りができるアプリ。東京大学の研究から生まれた食事画像認識を使う。",
     "hp": "http://www.foo-log.co.jp/",
-    "startedYear": 2013,
+    "startedYear": 2010,
     "status": "提供中",
-    "startedAt": "2013-07-17",
-    "startBasis": "App Store初回公開",
+    "startedAt": "2010-04-30",
+    "startBasis": "東京大学大学院情報学環による正式オープン（アットプレス）。2010-11にfoo.logがリニューアル",
     "sources": [
       "https://apps.apple.com/jp/app/foodlog-%E5%86%99%E7%9C%9F%E3%81%A7%E3%82%AB%E3%83%AD%E3%83%AA%E3%83%BC%E7%AE%A1%E7%90%86/id597390849",
       "http://www.foo-log.co.jp/",
-      "https://www.atpress.ne.jp/news/37214"
+      "https://www.atpress.ne.jp/news/37214",
+      "https://www.atpress.ne.jp/news/14740",
+      "https://www.foodlog.jp/",
+      "https://internet.watch.impress.co.jp/docs/news/365668.html"
     ],
     "type": "diet-log-app",
     "updatedAt": "2026-10",
     "milestones": [
+      {
+        "date": "2010-05",
+        "text": "Webサービスとして正式公開",
+        "source": "https://internet.watch.impress.co.jp/docs/news/365668.html"
+      },
+      {
+        "date": "2010-11",
+        "text": "カロリー推定技術をNTTコムなどとの共同実証実験へ提供",
+        "source": "https://www.atpress.ne.jp/news/17867"
+      },
+      {
+        "date": "2010-11-04",
+        "text": "foo.logがデザイン・機能を一新してリニューアル",
+        "source": "https://www.atpress.ne.jp/news/17589"
+      },
       {
         "date": "2011-09",
         "text": "前身のカロリー管理アプリ「FoodLog Cal」を米Health2.0で発表",
@@ -67904,11 +67956,6 @@
       },
       {
         "date": "2013-07",
-        "text": "iPhone版を無料でリリース",
-        "source": "https://www.atpress.ne.jp/news/37214"
-      },
-      {
-        "date": "2013-07-17",
         "text": "iPhone版を無料でリリース",
         "source": "https://www.atpress.ne.jp/news/37214"
       },
@@ -82025,10 +82072,18 @@
     "startBasis": "App Store初回公開",
     "sources": [
       "https://apps.apple.com/jp/app/dr-passport-%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB/id1044503120",
-      "https://dr-passport.com/"
+      "https://dr-passport.com/",
+      "https://apps.apple.com/jp/app/dr-passport-%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88/id1044502012"
     ],
     "type": "medical-interpretation-crossborder",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2015-12-03",
+        "text": "法人・団体向けの「Dr. Passport コーポレート」アプリも公開（企業ごとの固有IDで利用）",
+        "source": "https://apps.apple.com/jp/app/dr-passport-%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88/id1044502012"
+      }
+    ]
   },
   {
     "id": "b-062eefab",
@@ -83711,24 +83766,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-8550bc6e",
-    "name": "Dr. Passport（コーポレート）",
-    "company": "株式会社マイス",
-    "category": "telemedicine",
-    "description": "海外出張や旅行で体調を崩したとき、病院などの医療機関で自分の症状を外国語で伝えられるよう支援する法人・団体向けアプリ。企業ごとの固有IDで利用する。",
-    "hp": "",
-    "startedYear": 2015,
-    "status": "提供中",
-    "startedAt": "2015-12-03",
-    "startBasis": "App Store初回公開",
-    "sources": [
-      "https://apps.apple.com/jp/app/dr-passport-%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88/id1044502012",
-      "https://dr-passport.com/"
-    ],
-    "type": "medical-interpretation-crossborder",
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-9c26c4dc",
     "name": "心の保健室",
     "company": "株式会社ゲーム・フォー・イット",
@@ -84670,54 +84707,6 @@
     "updatedAt": "2026-10",
     "knownSince": "2022-10",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000109155.html"
-  },
-  {
-    "id": "b-87ae64ca",
-    "name": "食事記録Webサービス「FoodLog」（Web版）",
-    "company": "foo.log株式会社",
-    "companyId": "2010001141963",
-    "category": "personal-health-record",
-    "description": "東京大学発の画像認識技術で、写真から食事の画像を自動抽出してカレンダー形式の食事日記をつくるWebサービス",
-    "hp": "",
-    "startedYear": 2010,
-    "status": "終了",
-    "endedAt": "2019-08-31",
-    "milestones": [
-      {
-        "date": "2010-05",
-        "text": "Webサービスとして正式公開",
-        "source": "https://internet.watch.impress.co.jp/docs/news/365668.html"
-      },
-      {
-        "date": "2010-11",
-        "text": "カロリー推定技術をNTTコムなどとの共同実証実験へ提供",
-        "source": "https://www.atpress.ne.jp/news/17867"
-      },
-      {
-        "date": "2010-11-04",
-        "text": "foo.logがデザイン・機能を一新してリニューアル",
-        "source": "https://www.atpress.ne.jp/news/17589"
-      },
-      {
-        "date": "2019-08",
-        "text": "Web版を終了し、アプリ版に一本化",
-        "source": "https://www.foodlog.jp/"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "Web版を終了しアプリ版に一本化すると告知（理由の説明はない）。",
-    "sources": [
-      "https://www.atpress.ne.jp/news/14740",
-      "https://www.foodlog.jp/",
-      "https://internet.watch.impress.co.jp/docs/news/365668.html"
-    ],
-    "type": "diet-log-app",
-    "updatedAt": "2026-10",
-    "startedAt": "2010-04-30",
-    "startBasis": "東京大学大学院情報学環による正式オープン（アットプレス）。2010-11にfoo.logがリニューアル",
-    "successor": "FoodLogアプリ（b-e678a9d7）"
   },
   {
     "id": "b-1fdee592",
