@@ -5359,6 +5359,98 @@
       "source": "https://www.optim.co.jp/wp-content/uploads/apple-touch-icon.png",
       "checkedAt": "2026-11",
       "shape": "square"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS93251/a8cf6c38/dd4e/4dcf/b11f/160b1d02c183/S100YLSB.pdf",
+      "consolidated": 4,
+      "equityMethod": 4,
+      "members": [
+        {
+          "name": "株式会社オプティムアグリ・みちのく",
+          "relation": "連結子会社",
+          "address": "青森県青森市",
+          "capital": 80,
+          "business": "スマート農業事業",
+          "voting": 95,
+          "note": "特定子会社。株式会社みちのく銀行との合弁で設立",
+          "since": "2019-01"
+        },
+        {
+          "name": "オプティム・バンクテクノロジーズ株式会社",
+          "relation": "連結子会社",
+          "address": "佐賀県佐賀市",
+          "capital": 30,
+          "business": "ファンド事業（当社のAI・IoTソリューションの販売）",
+          "voting": 95,
+          "note": "株式会社佐賀銀行との合弁で設立",
+          "since": "2020-07"
+        },
+        {
+          "name": "株式会社ユラスコア",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 1,
+          "business": "クラウドCRMの開発及び販売",
+          "voting": 100,
+          "since": "2020-10"
+        },
+        {
+          "name": "株式会社オプティム・ファーム",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 20,
+          "business": "スマート農業事業",
+          "voting": 100,
+          "since": "2023-03"
+        },
+        {
+          "name": "ディピューラメディカルソリューションズ株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "兵庫県神戸市中央区",
+          "capital": 50,
+          "business": "医療業界におけるDXソリューションサービスの開発及び販売",
+          "voting": 49,
+          "note": "シスメックス株式会社との合弁で設立",
+          "since": "2020-06"
+        },
+        {
+          "name": "株式会社NTT e-Drone Technology",
+          "relation": "持分法適用関連会社",
+          "address": "埼玉県朝霞市",
+          "capital": 490,
+          "business": "AI・IoTソリューションの販売（ドローン）",
+          "voting": 34,
+          "note": "NTT東日本、WorldLink & Companyとの合弁で設立",
+          "since": "2020-12"
+        },
+        {
+          "name": "株式会社ネットリソースマネジメント",
+          "relation": "持分法適用関連会社",
+          "address": "東京都千代田区",
+          "capital": 170,
+          "business": "AI・IoTソリューションの販売",
+          "voting": 16.4,
+          "note": "2021年12月に資本参加",
+          "since": "2021-12"
+        },
+        {
+          "name": "デジタルトランスフォーメーションファンド投資事業有限責任組合第１号",
+          "relation": "持分法適用関連会社",
+          "note": "持分法の適用に関する事項に記載（表では「その他1社」）"
+        }
+      ],
+      "former": [
+        {
+          "name": "株式会社オプティム・デジタルコンストラクション",
+          "formerName": "株式会社ランドログマーケティング",
+          "since": "2020-10",
+          "end": "2025-10",
+          "how": "吸収合併",
+          "note": "2023年10月に社名変更。当社が吸収合併"
+        }
+      ]
     }
   },
   {
@@ -5852,6 +5944,54 @@
       "kind": "header",
       "source": "https://www.kanamic.net/wp-content/themes/service-theme/assets/img/base/k_s.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-09",
+      "sourceLabel": "2025年9月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/3939/yuho_pdf/S100XAZ4/00.pdf",
+      "consolidated": 4,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社アーバンフィット",
+          "relation": "連結子会社",
+          "address": "大阪市淀川区",
+          "capital": 40,
+          "business": "健康寿命延伸事業（シニア向けフィットネス「アーバンフィット24」など）",
+          "voting": 100,
+          "note": "特定子会社。売上高が連結売上高の10％超",
+          "since": "2022-05"
+        },
+        {
+          "name": "株式会社Ruby開発",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 45.5,
+          "business": "ソリューション開発事業（当社システムの開発業務）",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2023-08"
+        },
+        {
+          "name": "康納美克（大連）科技有限公司",
+          "relation": "連結子会社",
+          "address": "中華人民共和国遼寧省大連市",
+          "capital": 10,
+          "business": "医療・介護クラウドプラットフォーム事業（当社システムの開発業務）",
+          "voting": 100,
+          "since": "2018-12"
+        },
+        {
+          "name": "THE WORLD MANAGEMENT PTE LTD",
+          "relation": "連結子会社",
+          "address": "シンガポール共和国",
+          "capitalText": "50千シンガポールドル",
+          "business": "ソリューション開発事業（システムの導入コンサルティング）",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2024-11"
+        }
+      ]
     }
   },
   {
@@ -6351,6 +6491,157 @@
       "kind": "header",
       "source": "https://www.medical-net.com/common/images/medicalnet_logo.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-05",
+      "sourceLabel": "2026年5月期 有価証券報告書",
+      "source": "https://www.medical-net.com/common/doc/ir/r08/ir_r08_20260826_2.pdf",
+      "consolidated": 9,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "Medical Net Thailand Co., Ltd.",
+          "formerName": "Success Sound Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "タイ国バンコク",
+          "capital": 13.32,
+          "business": "医療機関経営支援事業（タイでの歯科医院運営）",
+          "voting": 49,
+          "note": "持分は50％以下だが実質的に支配しているため子会社。債務超過会社",
+          "since": "2017-09"
+        },
+        {
+          "name": "株式会社オカムラ",
+          "relation": "連結子会社",
+          "address": "東京都福生市",
+          "capital": 20,
+          "business": "医療機関経営支援事業（歯科器械材料・医薬品の販売）",
+          "voting": 100,
+          "note": "売上高が連結売上高の10％超",
+          "since": "2018-12"
+        },
+        {
+          "name": "Pacific Dental Care Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "タイ国バンコク",
+          "capital": 67.206,
+          "business": "医療機関経営支援事業（タイでの歯科医院運営）",
+          "voting": 49,
+          "indirect": 49,
+          "note": "特定子会社。Medical Net Thailandが所有。持分は50％以下だが実質支配",
+          "since": "2020-10"
+        },
+        {
+          "name": "ノーエチ薬品株式会社",
+          "relation": "連結子会社",
+          "address": "大阪府松原市",
+          "capital": 22.5,
+          "business": "医療機関経営支援事業（医薬品）",
+          "voting": 100,
+          "indirect": 100,
+          "note": "オカムラが所有",
+          "since": "2021-06"
+        },
+        {
+          "name": "NU-DENT Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "タイ国バンコク",
+          "capital": 18.272,
+          "business": "医療機関経営支援事業（タイでの歯科医院運営）",
+          "voting": 49,
+          "indirect": 49,
+          "note": "Medical Net Thailandが所有。持分は50％以下だが実質支配",
+          "since": "2022-03"
+        },
+        {
+          "name": "D.D.DENT Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "タイ国バンコク",
+          "capital": 3.654,
+          "business": "医療機関経営支援事業（タイでの歯科医院運営）",
+          "voting": 49,
+          "indirect": 49,
+          "note": "Medical Net Thailandが所有。持分は50％以下だが実質支配",
+          "since": "2022-03"
+        },
+        {
+          "name": "Fukumori Dental Clinic Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "タイ国バンコク",
+          "capital": 25.58,
+          "business": "医療機関経営支援事業（タイでの歯科医院運営）",
+          "voting": 49,
+          "indirect": 49,
+          "note": "Medical Net Thailandが所有。持分は50％以下だが実質支配。債務超過会社",
+          "since": "2022-03"
+        },
+        {
+          "name": "AVision Co., Ltd.",
+          "relation": "連結子会社",
+          "address": "タイ国バンコク",
+          "capital": 41.5,
+          "business": "クラウドインテグレーション事業",
+          "voting": 73.99,
+          "indirect": 24.99,
+          "note": "特定子会社。間接分はNU-DENTが保有",
+          "since": "2024-03"
+        },
+        {
+          "name": "有限会社吉見歯科器械店",
+          "relation": "連結子会社",
+          "address": "宮崎県宮崎市",
+          "capital": 10,
+          "business": "医療機関経営支援事業（歯科器械）",
+          "voting": 100,
+          "indirect": 100,
+          "note": "オカムラが株式を取得（孫会社）",
+          "since": "2025-03"
+        },
+        {
+          "name": "有限会社板倉歯科器材店",
+          "relation": "連結子会社",
+          "address": "沖縄県那覇市",
+          "capital": 6,
+          "business": "歯科医療用品・歯科用機器材の卸売業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "有価証券報告書の後に子会社化（IRの発表）。2026年10月16日にオカムラが全株式を取得（孫会社）",
+          "since": "2026-10",
+          "source": "https://www.medical-net.com/common/doc/ir/r08/ir_r08_20261016.pdf"
+        }
+      ],
+      "former": [
+        {
+          "name": "株式会社ガイドデント",
+          "since": "2011-08",
+          "end": "2016-05",
+          "how": "株式譲渡",
+          "note": "歯科インプラント保証事業。全株式のうち90％を譲渡"
+        },
+        {
+          "name": "ブランネットワークス株式会社",
+          "companyId": "8010001128195",
+          "since": "2012-11",
+          "end": "2020-02",
+          "how": "吸収合併",
+          "note": "医療BtoB事業を展開。当社が吸収合併"
+        },
+        {
+          "name": "株式会社オカムラOsaka",
+          "since": "2022-05",
+          "end": "2023-11",
+          "how": "吸収合併",
+          "note": "オカムラの子会社（孫会社）として設立、オカムラが合併"
+        },
+        {
+          "name": "株式会社ミルテル",
+          "companyId": "8240001043116",
+          "since": "2024-01",
+          "end": "2025-03",
+          "how": "株式譲渡",
+          "note": "受託臨床検査事業。2018年に資本業務提携、全株式を譲渡"
+        }
+      ]
     }
   },
   {
@@ -12028,6 +12319,37 @@
       "kind": "header",
       "source": "https://prtimes.jp/data/corp/18274/tmp-9f01d98996e239499c1cbe7d870de5b2-6b21da6fca8be8a427c3efa9f46a09aa.jpg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-10",
+      "sourceLabel": "2025年10月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS05759/b1b833a7/dfbd/457a/9204/edad88c77eae/S100XI7V.pdf",
+      "consolidated": 0,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社エラン",
+          "relation": "その他の関係会社",
+          "address": "長野県松本市",
+          "capital": 573,
+          "business": "介護医療関連事業",
+          "voting": 33.33,
+          "owned": true,
+          "note": "有価証券報告書の提出会社。直接被所有。2020年3月に資本業務提携（沿革）"
+        },
+        {
+          "name": "エムスリー株式会社",
+          "companyId": "1010401063016",
+          "relation": "その他の関係会社の親会社",
+          "address": "東京都港区",
+          "capital": 29417,
+          "business": "インターネットを利用した医療関連サービスの提供",
+          "voting": 33.33,
+          "indirect": 33.33,
+          "owned": true,
+          "note": "有価証券報告書の提出会社。エラン経由の間接被所有"
+        }
+      ]
     }
   },
   {
@@ -12901,6 +13223,26 @@
       "kind": "header",
       "source": "https://corp.karadanote.jp/wp-content/themes/plusr/img/corp_logo.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-07",
+      "sourceLabel": "2026年7月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS04872/d08cc2bc/c23e/4b43/9af7/ca3a33639ee6/S100Z9X4.pdf",
+      "consolidated": 1,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社カラダノートライフパートナーズ",
+          "formerName": "株式会社FPO",
+          "relation": "連結子会社",
+          "address": "愛知県春日井市",
+          "capital": 9,
+          "business": "保険代理事業",
+          "voting": 100,
+          "note": "特定子会社。全株式を取得し連結子会社化（2026年7月期から連結財務諸表を作成）",
+          "since": "2026-06"
+        }
+      ]
     }
   },
   {
@@ -14065,6 +14407,74 @@
       "kind": "header",
       "source": "https://www.mh-tec.co.jp/assets/mhtec-corp/img/common/breadcrumbs-logo.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/9218/yuho_pdf/S100XVL7/00.pdf",
+      "consolidated": 5,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社Avenir",
+          "companyId": "8010601041269",
+          "formerName": "キズケアネット株式会社（のち Miew System Service株式会社）",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 60,
+          "business": "メンタルヘルスソリューション事業（産業医サービス「産業医クラウド」の提供など）",
+          "voting": 100,
+          "note": "特定子会社。2014年1月に76.47%を取得し子会社化、2016年2月に社名変更、2017年1月に完全子会社化",
+          "since": "2014-01"
+        },
+        {
+          "name": "株式会社ヘルスケアＤＸ",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 20,
+          "business": "メンタルヘルスソリューション事業、その他事業",
+          "voting": 100,
+          "since": "2022-09"
+        },
+        {
+          "name": "株式会社明照会労働衛生コンサルタント事務所",
+          "relation": "連結子会社",
+          "address": "名古屋市千種区",
+          "capital": 1,
+          "business": "メンタルヘルスソリューション事業",
+          "voting": 100,
+          "since": "2022-12"
+        },
+        {
+          "name": "株式会社タスクフォース",
+          "relation": "連結子会社",
+          "address": "大阪市北区",
+          "capital": 50,
+          "business": "メディカルワークシフト事業（医療機関を対象とした人材サービス）",
+          "voting": 100,
+          "since": "2024-02"
+        },
+        {
+          "name": "株式会社みらい産業医事務所",
+          "relation": "連結子会社",
+          "address": "福岡市博多区",
+          "capital": 5,
+          "business": "メンタルヘルスソリューション事業",
+          "voting": 100,
+          "since": "2024-12"
+        },
+        {
+          "name": "インクルード株式会社",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 100,
+          "business": "就労移行支援・自立訓練（生活訓練）事業所「ニューロリワーク」、相談支援センター、ブレインフィットネス研究所の運営（復職支援）",
+          "voting": 100,
+          "note": "有価証券報告書の後に子会社化（IRの発表、有報の重要な後発事象）。企業結合日2026年3月31日",
+          "since": "2026-03",
+          "source": "https://ssl4.eir-parts.net/doc/9218/tdnet/2762870/00.pdf"
+        }
+      ]
     }
   },
   {
@@ -14211,6 +14621,48 @@
       "kind": "header",
       "source": "https://welby.jp/assets/img/common/logo_o.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS03741/6b4b0d2e/3d02/47ac/b923/cb2554fde0a3/S100XVVP.pdf",
+      "consolidated": 2,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社スズケン",
+          "companyId": "1180001017009",
+          "relation": "その他の関係会社",
+          "address": "愛知県名古屋市東区",
+          "capital": 13546,
+          "business": "医薬品卸売事業関連",
+          "voting": 20,
+          "owned": true,
+          "note": "有価証券報告書の提出会社。2019年11月に資本業務提携、2023年11月に資本関係を強化（沿革）"
+        },
+        {
+          "name": "株式会社Welbyヘルスケアソリューションズ",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 225,
+          "business": "PHRプラットフォームサービス事業",
+          "voting": 93.4,
+          "note": "特定子会社。2023年6月に100%出資子会社として設立（日本生命が6.54%を保有）。2026年10月にTISI株式会社を割当先とする第三者割当増資を決議（増資後も連結子会社の予定）",
+          "since": "2023-06"
+        },
+        {
+          "name": "メディカルデータカード株式会社",
+          "companyId": "5011101071602",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 10,
+          "business": "健康・医療情報管理サービス事業",
+          "voting": 50,
+          "note": "株式の取得で子会社化（IR）",
+          "since": "2024-04",
+          "source": "https://contents.xj-storage.jp/xcontents/AS03741/fdc28daa/1c73/4b97/9bfa/caca34854e88/140120240409567985.pdf"
+        }
+      ]
     }
   },
   {
@@ -14723,6 +15175,146 @@
       "kind": "header",
       "source": "https://www.theport.jp/",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS08676/d56ca542/41c0/4ef4/a5ac/9543cd5f96bf/S100YDYD.pdf",
+      "consolidated": 14,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社INE",
+          "relation": "連結子会社",
+          "address": "東京都新宿区",
+          "capital": 50,
+          "business": "成約支援事業（エネルギー領域）：電気事業者とのマッチングサイト「エネチョイス」の運営",
+          "voting": 100,
+          "note": "特定子会社。2022年1月に連結子会社化、2023年7月に完全子会社化",
+          "since": "2022-01"
+        },
+        {
+          "name": "株式会社Five Line",
+          "relation": "連結子会社",
+          "address": "大阪府大阪市中央区",
+          "capital": 50,
+          "business": "成約支援事業（エネルギー領域）：ユーザー向け電気ガス比較サービスほか",
+          "voting": 100,
+          "note": "特定子会社。2023年7月に連結子会社化、2024年1月に完全子会社化",
+          "since": "2023-07"
+        },
+        {
+          "name": "就活会議株式会社",
+          "relation": "連結子会社",
+          "address": "東京都新宿区",
+          "capital": 29,
+          "business": "成約支援事業（人材領域）：就活生向け企業口コミサイト「就活会議」の運営",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2020-07"
+        },
+        {
+          "name": "みん就株式会社",
+          "relation": "連結子会社",
+          "address": "東京都新宿区",
+          "capital": 26,
+          "business": "成約支援事業（人材領域）：口コミ就職情報サイト「みん就」の運営",
+          "voting": 100,
+          "note": "特定子会社。楽天グループの「楽天みん就」事業会社を完全子会社化",
+          "since": "2024-04"
+        },
+        {
+          "name": "株式会社HRteam",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 5,
+          "business": "成約支援事業（人材領域）：新卒紹介事業ほか",
+          "voting": 66,
+          "note": "特定子会社。持分法適用関連会社（20.0%）から、2025年11月4日の株式追加取得で連結子会社化",
+          "since": "2025-11",
+          "source": "https://contents.xj-storage.jp/xcontents/AS08676/b6096d2d/5904/4481/9f83/b2c20d7d8f8d/140120251027579228.pdf"
+        },
+        {
+          "name": "フローレス株式会社",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ会社一覧（2025年12月末時点）。関係会社の状況の表では「その他9社」に含まれる",
+          "source": "https://www.theport.jp/group"
+        },
+        {
+          "name": "トラパス株式会社",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ会社一覧（2025年12月末時点）。関係会社の状況の表では「その他9社」に含まれる",
+          "source": "https://www.theport.jp/group"
+        },
+        {
+          "name": "株式会社INEライティング",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ会社一覧（2025年12月末時点）。関係会社の状況の表では「その他9社」に含まれる",
+          "source": "https://www.theport.jp/group"
+        },
+        {
+          "name": "引越手続き.com株式会社",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ会社一覧（2025年12月末時点）。関係会社の状況の表では「その他9社」に含まれる",
+          "source": "https://www.theport.jp/group"
+        },
+        {
+          "name": "株式会社ADVANX",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ会社一覧（2025年12月末時点）。関係会社の状況の表では「その他9社」に含まれる",
+          "source": "https://www.theport.jp/group"
+        },
+        {
+          "name": "株式会社Smart Infomation",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ会社一覧（2025年12月末時点）。関係会社の状況の表では「その他9社」に含まれる",
+          "source": "https://www.theport.jp/group"
+        },
+        {
+          "name": "エナジーライフ株式会社",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ会社一覧（2025年12月末時点）。関係会社の状況の表では「その他9社」に含まれる",
+          "source": "https://www.theport.jp/group"
+        },
+        {
+          "name": "オルタナティブ・ポート株式会社",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ会社一覧（2025年12月末時点）。関係会社の状況の表では「その他9社」に含まれる",
+          "source": "https://www.theport.jp/group"
+        },
+        {
+          "name": "ポートリアルティ株式会社",
+          "relation": "連結子会社",
+          "note": "会社サイトのグループ会社一覧（2025年12月末時点）。関係会社の状況の表では「その他9社」に含まれる",
+          "source": "https://www.theport.jp/group"
+        },
+        {
+          "name": "ENECHANGEカスタマーサービス株式会社",
+          "relation": "連結子会社",
+          "capitalText": "1円",
+          "business": "コールセンター・オフライン事業（ENECHANGE株式会社から吸収分割で承継）",
+          "voting": 100,
+          "note": "有価証券報告書の後に子会社化を発表（IRの発表）。2026年9月設立の新設会社の全株式を取得予定（株式譲渡実行日2026年12月1日予定）",
+          "source": "https://contents.xj-storage.jp/xcontents/AS08676/01b756dd/73d0/4afa/a8b6/bbccc2a1dc0b/140120261022554855.pdf"
+        }
+      ],
+      "former": [
+        {
+          "name": "ポートエンジニアリング株式会社",
+          "since": "2023-04",
+          "end": "2023-07",
+          "how": "株式譲渡",
+          "note": "フリーランス支援事業（会社分割で設立）。全株式を株式会社ココナラへ譲渡",
+          "source": "https://contents.xj-storage.jp/xcontents/AS08676/9ac345dc/2125/4ab9/bfed/c8e520d3efe3/140120230628513624.pdf"
+        },
+        {
+          "name": "株式会社ドアーズ",
+          "since": "2020-07",
+          "end": "2024-05",
+          "how": "株式譲渡",
+          "note": "外壁塗装専門サイト「外壁塗装の窓口」の運営。全株式をニフティライフスタイルへ譲渡"
+        }
+      ]
     }
   },
   {
@@ -15682,6 +16274,44 @@
       "kind": "header",
       "source": "https://kompeito.co.jp/common/img/logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-08",
+      "sourceLabel": "有価証券届出書（新規公開時、2026年8月12日）",
+      "source": "https://contents.xj-storage.jp/xcontents/AS05924/63612a25/21fa/4448/8397/317b075e3397/S100YW47.pdf",
+      "consolidated": 2,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "KOMPEITO USA Inc.",
+          "relation": "連結子会社",
+          "address": "アメリカ合衆国カリフォルニア州",
+          "capitalText": "306千米ドル",
+          "business": "福利厚生サービス事業",
+          "voting": 100,
+          "note": "特定子会社。完全子会社として設立",
+          "since": "2024-05"
+        },
+        {
+          "name": "株式会社ODYデリバリーズ",
+          "relation": "連結子会社",
+          "address": "東京都品川区",
+          "capital": 30,
+          "business": "福利厚生サービス事業（牛乳販売店の事業譲受による乳製品宅配、OFFICE DE YASAIの配送）",
+          "voting": 100,
+          "note": "特定子会社。完全子会社として設立",
+          "since": "2024-09"
+        },
+        {
+          "name": "株式会社優食",
+          "relation": "連結子会社",
+          "address": "岡山県",
+          "business": "配食サービス事業（高齢者個人宅向け配食、介護施設向け調理済食材配食）",
+          "voting": 100,
+          "note": "特定子会社。2025年10月1日に全株式の取得が完了（最近連結会計年度末以降、届出書の注記）",
+          "since": "2025-10"
+        }
+      ]
     }
   },
   {
@@ -16110,6 +16740,34 @@
       "kind": "header",
       "source": "https://www.recovery-group.co.jp/wp-content/themes/recovery/images/common/logo-4.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS81874/b9f7a2a5/de3e/41a2/a23c/a849c0b2471e/S100XV6A.pdf",
+      "consolidated": 1,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "RePath株式会社",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 40,
+          "business": "コメディカル人材紹介事業（看護師等の有料職業紹介）",
+          "voting": 100,
+          "note": "特定子会社。2025年3月に株式会社clutch communicationから有料職業紹介事業等を事業譲受し、2025年12月期から連結。2025年11月に増資",
+          "since": "2024-12"
+        }
+      ],
+      "former": [
+        {
+          "name": "リカバリー沖縄株式会社",
+          "since": "2015-03",
+          "end": "2017-02",
+          "how": "吸収合併",
+          "note": "「訪問看護ステーション リカバリー 沖縄」（那覇市）の運営"
+        }
+      ]
     }
   },
   {
@@ -24432,6 +25090,25 @@
       "kind": "header",
       "source": "https://www.mrso.co.jp/images/common/logo_cojp.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS08742/50b94881/8a66/492e/905c/49c2ada5de74/S100XU72.pdf",
+      "consolidated": 1,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "MRSO ASIA Co.,Ltd.",
+          "relation": "連結子会社",
+          "address": "ベトナム社会主義共和国ハノイ市",
+          "capital": 51.04,
+          "business": "当社が提供するサービスの運用保守・改善、新規サービスの開発（開発拠点）",
+          "voting": 100,
+          "note": "特定子会社",
+          "since": "2024-12"
+        }
+      ]
     }
   },
   {
@@ -67217,6 +67894,98 @@
       "kind": "header",
       "source": "https://www.kyorin-pharm.co.jp/assets/img/main-logo.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://www.kyorin-pharm.co.jp/docs/pdf/ir/report/202603_yuka.pdf",
+      "consolidated": 2,
+      "equityMethod": 1,
+      "members": [
+        {
+          "name": "キョーリン リメディオ株式会社",
+          "formerName": "東洋ファルマー株式会社",
+          "relation": "連結子会社",
+          "address": "石川県金沢市",
+          "capital": 100,
+          "business": "医薬品事業（医薬品の製造販売等）",
+          "voting": 100,
+          "note": "特定子会社。売上高が連結売上高の10％超。2005年5月に旧杏林製薬が株式の71.7％を取得、2006年12月に株式交換で完全子会社化、2007年2月に改称。2026年9月30日の取締役会で、2027年3月31日の吸収分割（オーソライズド・ジェネリック事業をキョーリン製薬グループ工場へ、高岡・井波工場を受け入れ）の後、2027年4月1日に全株式を株式会社医薬品共創機構に譲渡することを決議（有価証券報告書の後、臨時報告書）",
+          "since": "2005-05",
+          "source": "https://www.kyorin-pharm.co.jp/news/docs/20260930R.pdf"
+        },
+        {
+          "name": "キョーリン製薬グループ工場株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 350,
+          "business": "医薬品事業（医薬品の製造及び試験等）",
+          "voting": 100,
+          "note": "特定子会社。2018年4月に旧杏林製薬の能代工場とキョーリン リメディオの生産本部を吸収分割で承継し、滋賀県甲賀市の同名会社を吸収合併。2020年4月にキョーリンメディカルサプライを吸収合併",
+          "since": "2017-10"
+        },
+        {
+          "name": "日本理化学薬品株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "東京都中央区",
+          "capital": 411,
+          "business": "医薬品事業（当社が医薬品原材料の一部を仕入れ）",
+          "voting": 31,
+          "note": "当社株式の0.07％を所有（被所有）"
+        },
+        {
+          "name": "ActivX Biosciences,Inc.",
+          "relation": "非連結子会社",
+          "address": "米国",
+          "note": "2004年12月に旧杏林製薬が子会社化。2023年3月に解散を決議し、残余財産の一部分配を経て清算手続中のため連結の範囲から除外",
+          "since": "2004-12"
+        }
+      ],
+      "former": [
+        {
+          "name": "杏林薬品株式会社",
+          "since": "1940-12",
+          "end": "1992-10",
+          "how": "合併",
+          "note": "杏林製薬の販売部門を分離・独立した会社。杏林製薬と合併"
+        },
+        {
+          "name": "株式会社杏栄ビル",
+          "end": "1994-10",
+          "how": "合併",
+          "note": "杏林製薬と合併"
+        },
+        {
+          "name": "日清キョーリン製薬株式会社",
+          "formerName": "日清製薬株式会社",
+          "since": "1996-03",
+          "end": "2008-10",
+          "how": "吸収合併",
+          "note": "日清製粉グループとの合弁事業で資本参加した製薬会社。杏林製薬が吸収合併"
+        },
+        {
+          "name": "キョーリン製薬グループ工場株式会社（滋賀県甲賀市）",
+          "since": "2012-06",
+          "end": "2018-04",
+          "how": "吸収合併",
+          "note": "滋賀県甲賀市に設立した工場子会社。東京の同名の会社が吸収合併"
+        },
+        {
+          "name": "キョーリンメディカルサプライ株式会社",
+          "formerName": "株式会社杏文堂",
+          "since": "1959-05",
+          "end": "2020-04",
+          "how": "吸収合併",
+          "note": "1959年に設立し1994年に100％子会社に。キョーリン製薬グループ工場が吸収合併"
+        },
+        {
+          "name": "杏林製薬株式会社（2023年3月までの事業会社）",
+          "since": "2006-03",
+          "end": "2023-04",
+          "how": "吸収合併",
+          "note": "医薬品の製造販売の事業会社。株式交換で当社（旧キョーリン製薬HD）の完全子会社となり、2023年4月に当社が吸収合併し商号を承継"
+        }
+      ]
     }
   },
   {
@@ -67380,6 +68149,115 @@
       "kind": "header",
       "source": "https://www.aska-pharma-hd.co.jp/Portals/0/resources/common/img/logo_aska.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/4886/yuho_pdf/S100YEAY/00.pdf",
+      "consolidated": 5,
+      "equityMethod": 5,
+      "members": [
+        {
+          "name": "あすか製薬株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 1197,
+          "business": "医薬品の製造・販売および医療機器や健康食品等の仕入・販売",
+          "voting": 100,
+          "note": "特定子会社。売上高が連結売上高の10％超。2021年4月に単独株式移転で当社を設立し完全子会社に",
+          "since": "2021-04"
+        },
+        {
+          "name": "株式会社あすか製薬メディカル",
+          "formerName": "株式会社メディカル・システム・サービス神奈川",
+          "relation": "連結子会社",
+          "address": "神奈川県藤沢市",
+          "capital": 30,
+          "business": "検査事業",
+          "voting": 100,
+          "note": "1991年5月にあすか製薬が設立。2021年4月に現物配当で当社の直接子会社に",
+          "since": "1991-05"
+        },
+        {
+          "name": "あすかアニマルヘルス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 100,
+          "business": "動物用医薬品、飼料および飼料添加物などの製造、販売ならびに輸出入",
+          "voting": 100,
+          "note": "売上高が連結売上高の10％超。2013年6月にあすか製薬が設立、2021年4月に当社の直接子会社に",
+          "since": "2013-06"
+        },
+        {
+          "name": "Ha Tay Pharmaceutical Joint Stock Company",
+          "relation": "連結子会社",
+          "address": "ベトナム国ハノイ市",
+          "capitalText": "905,755百万ベトナムドン",
+          "business": "医療用医薬品、一般用医薬品、健康食品等の製造販売、輸入販売",
+          "voting": 40,
+          "indirect": 40,
+          "note": "特定子会社。持分は50％以下だが実質的に支配しているため子会社。2021年1月にあすか製薬が出資（持分法適用関連会社）、2025年2月に連結子会社化",
+          "since": "2021-01"
+        },
+        {
+          "name": "Ha Tay Pharmaceutical and Medical Equipment Joint Stock Company",
+          "relation": "連結子会社",
+          "address": "ベトナム国ハノイ市",
+          "capitalText": "41,200百万ベトナムドン",
+          "business": "健康食品の製造販売及び医薬品販売",
+          "voting": 50.6,
+          "indirect": 50.6,
+          "note": "特定子会社"
+        },
+        {
+          "name": "日本硝子産業株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "東京都中央区",
+          "capital": 75,
+          "business": "医薬品包装資材の製造販売ならびに医薬品、体外診断用医薬品の受託包装",
+          "voting": 20.04,
+          "note": "2021年4月に出資",
+          "since": "2021-04"
+        },
+        {
+          "name": "FTS Ambrose Holdings, Inc.",
+          "relation": "持分法適用関連会社",
+          "address": "フィリピン共和国モンティンルパ市",
+          "capitalText": "1.8百万フィリピンペソ",
+          "business": "医薬品・ヘルスケア関連事業法人の持株会社",
+          "voting": 21,
+          "note": "2025年4月に出資",
+          "since": "2025-04"
+        },
+        {
+          "name": "Tomodachi I.P. Holdings Inc.",
+          "relation": "持分法適用関連会社",
+          "address": "フィリピン共和国マカティ市",
+          "capitalText": "487百万フィリピンペソ",
+          "business": "商標権管理",
+          "voting": 21,
+          "note": "2025年4月に出資",
+          "since": "2025-04"
+        },
+        {
+          "name": "Vietnam Hataphar Healthcare High Technology Pharmaceutical JSC",
+          "relation": "持分法適用非連結子会社",
+          "address": "ベトナム国ハノイ市",
+          "capitalText": "20,000百万ベトナムドン",
+          "business": "医療用医薬品、一般用医薬品、健康食品等の販売",
+          "voting": 49,
+          "note": "表では持分法適用関連会社の欄にあるが、連結の範囲の注記では持分法を適用した非連結子会社"
+        }
+      ],
+      "former": [
+        {
+          "name": "あすかActavis製薬株式会社",
+          "since": "2009-04",
+          "end": "2017-04",
+          "how": "吸収合併",
+          "note": "あすか製薬が2009年に設立した会社。あすか製薬が吸収合併"
+        }
+      ]
     }
   },
   {
@@ -67534,6 +68412,254 @@
       "kind": "header",
       "source": "https://www.meiji.com/common/img/logo/logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://www.meiji.com/pdf/investor/library/securities-securities_2026_02.pdf",
+      "consolidated": 54,
+      "equityMethod": 3,
+      "scope": "healthcare",
+      "note": "ヘルスケア（医薬品セグメント）の会社だけを載せた。食品セグメントと全社（共通）の連結子会社31社と、持分法適用会社3社（いずれも食品）は省きました",
+      "members": [
+        {
+          "name": "Meiji Seika ファルマ株式会社",
+          "formerName": "明治製菓株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 28363,
+          "business": "医薬品",
+          "voting": 100,
+          "note": "特定子会社。売上高が連結売上高の10％超。2009年4月に明治製菓と明治乳業の共同株式移転で当社を設立し子会社に、2011年4月に商号変更",
+          "since": "2009-04"
+        },
+        {
+          "name": "大蔵製薬株式会社",
+          "relation": "連結子会社",
+          "address": "京都府京都市南区",
+          "capital": 72,
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Me ファルマ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 10,
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Meiji Pharma Spain, S.A.",
+          "relation": "連結子会社",
+          "address": "スペイン国マドリード市",
+          "capitalText": "2,028千ユーロ",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "PT.Meiji Indonesian Pharmaceutical Industries",
+          "relation": "連結子会社",
+          "address": "インドネシア国ジャカルタ市",
+          "capitalText": "38,073百万ルピア",
+          "business": "医薬品",
+          "voting": 93.34,
+          "indirect": 93.34
+        },
+        {
+          "name": "Thai Meiji Pharmaceutical Co.,Ltd.",
+          "relation": "連結子会社",
+          "address": "タイ国バンコク市",
+          "capitalText": "297百万バーツ",
+          "business": "医薬品",
+          "voting": 94.61,
+          "indirect": 94.61
+        },
+        {
+          "name": "Meiji Seika Europe B.V.",
+          "relation": "連結子会社",
+          "address": "オランダ国アムステルダム市",
+          "capitalText": "25千ユーロ",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Medreich Limited",
+          "relation": "連結子会社",
+          "address": "インド国バンガロール市",
+          "capitalText": "1,407,183千ルピー",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100,
+          "note": "2015年2月に株式を取得し子会社化",
+          "since": "2015-02"
+        },
+        {
+          "name": "Adcock Ingram Limited",
+          "relation": "連結子会社",
+          "address": "インド国バンガロール市",
+          "capitalText": "380,500千ルピー",
+          "business": "医薬品",
+          "voting": 50.07,
+          "indirect": 50.07
+        },
+        {
+          "name": "Medreich Life care Limited",
+          "relation": "連結子会社",
+          "address": "インド国バンガロール市",
+          "capitalText": "1,020千ルピー",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Medreich plc",
+          "relation": "連結子会社",
+          "address": "イギリス国サリー州",
+          "capitalText": "100千ポンド",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Medreich Australia Pty Ltd.",
+          "relation": "連結子会社",
+          "address": "オーストラリア国ニューサウスウェールズ市",
+          "capitalText": "100オーストラリアドル",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Medreich Far East Limited",
+          "relation": "連結子会社",
+          "address": "中国香港特別行政区",
+          "capitalText": "10千香港ドル",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Inopharm Limited",
+          "relation": "連結子会社",
+          "address": "キプロス国ニコシア市",
+          "capitalText": "100千ユーロ",
+          "business": "医薬品",
+          "voting": 50,
+          "indirect": 50
+        },
+        {
+          "name": "Medreich New Zealand Limited",
+          "relation": "連結子会社",
+          "address": "ニュージーランド国オークランド市",
+          "capitalText": "1,000ニュージーランドドル",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Adcock Ingram Pharma Private Limited",
+          "relation": "連結子会社",
+          "address": "インド国ハウテン州",
+          "capitalText": "1,435,000千ルピー",
+          "business": "医薬品",
+          "voting": 99.99,
+          "indirect": 99.99
+        },
+        {
+          "name": "広東明治医薬有限公司",
+          "relation": "連結子会社",
+          "address": "中国広東省広州市",
+          "capitalText": "3,000千中国元",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Romeck Pharma合同会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 0,
+          "business": "医薬品",
+          "voting": 50,
+          "indirect": 50
+        },
+        {
+          "name": "Meiji Seika ファルマテック株式会社",
+          "relation": "連結子会社",
+          "address": "神奈川県小田原市",
+          "capital": 90,
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "台湾明治医薬股份有限公司",
+          "relation": "連結子会社",
+          "address": "台湾台北市",
+          "capitalText": "30,000千ニュー台湾ドル",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Meiji Pharma Asia Pte. Ltd.",
+          "relation": "連結子会社",
+          "address": "シンガポール国",
+          "capitalText": "1,500千シンガポールドル",
+          "business": "医薬品",
+          "voting": 100,
+          "indirect": 100,
+          "note": "2026年3月期に設立し連結の範囲に"
+        },
+        {
+          "name": "KMバイオロジクス株式会社",
+          "relation": "連結子会社",
+          "address": "熊本県熊本市",
+          "capital": 10000,
+          "business": "医薬品",
+          "voting": 49,
+          "indirect": 49,
+          "note": "特定子会社。2018年7月に株式を取得し子会社化（議決権49.00％）",
+          "since": "2018-07"
+        },
+        {
+          "name": "明治アニマルヘルス株式会社",
+          "relation": "連結子会社",
+          "address": "熊本県熊本市",
+          "capital": 100,
+          "business": "医薬品",
+          "voting": 74.35,
+          "indirect": 74.35
+        },
+        {
+          "name": "株式会社医薬品共創機構",
+          "relation": "持分法適用関連会社（予定）",
+          "address": "富山県富山市（予定）",
+          "capital": 100,
+          "business": "後発医薬品（杏林製薬の後発医薬品事業を承継）",
+          "note": "有価証券報告書の後に設立を発表（IRの発表）。ダイト・Meiji Seika ファルマ・日本政策投資銀行の共同出資会社として2026年12月に設立の予定で、ダイトと Meiji Seika ファルマの持分法適用関連会社となる予定。杏林製薬からキョーリン リメディオ株式会社の全株式を譲り受ける予定",
+          "source": "https://www.meiji-seika-pharma.co.jp/pressrelease/2026/detail/pdf/260930_01.pdf"
+        },
+        {
+          "name": "Meiji Pharma USA Inc.",
+          "relation": "非連結子会社",
+          "business": "医薬品",
+          "note": "関係会社の状況の表には記載なし。事業の内容で医薬品セグメントの非連結子会社"
+        },
+        {
+          "name": "Meiji Seika ファルマリンクス株式会社",
+          "formerName": "都 輸送株式会社",
+          "relation": "非連結子会社",
+          "business": "医薬品",
+          "note": "関係会社の状況の表には記載なし。事業の内容で医薬品セグメントの非連結子会社（都輸送㈱）。2026年10月1日に商号変更（有価証券報告書の後、IRの発表）",
+          "source": "https://www.meiji-seika-pharma.co.jp/pressrelease/2026/detail/pdf/261001_01.pdf"
+        }
+      ]
     }
   },
   {
@@ -67709,6 +68835,270 @@
       "kind": "header",
       "source": "https://www.suzuken.co.jp/assets/images/icon-logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/9987/yuho_pdf/S100YFRU/00.pdf",
+      "consolidated": 38,
+      "equityMethod": 4,
+      "members": [
+        {
+          "name": "株式会社サンキ",
+          "relation": "連結子会社",
+          "address": "広島市西区",
+          "capital": 1081,
+          "business": "医薬品卸売事業（中国地域において医薬品等を販売）",
+          "voting": 100,
+          "note": "2003年10月に株式交換で完全子会社化",
+          "since": "2003-10"
+        },
+        {
+          "name": "株式会社アスティス",
+          "relation": "連結子会社",
+          "address": "愛媛県松山市",
+          "capital": 946,
+          "business": "医薬品卸売事業（四国地域において医薬品等を販売）",
+          "voting": 100,
+          "note": "2004年10月に株式交換で完全子会社化",
+          "since": "2004-10"
+        },
+        {
+          "name": "株式会社翔薬",
+          "relation": "連結子会社",
+          "address": "福岡市博多区",
+          "capital": 880,
+          "business": "医薬品卸売事業（九州地域において医薬品等を販売）",
+          "voting": 100,
+          "note": "2006年10月に株式交換で完全子会社化",
+          "since": "2006-10"
+        },
+        {
+          "name": "株式会社スズケン沖縄薬品",
+          "formerName": "株式会社スズケン沖縄",
+          "relation": "連結子会社",
+          "address": "沖縄県島尻郡南風原町",
+          "capital": 12,
+          "business": "医薬品卸売事業（沖縄県において医薬品等を販売）",
+          "voting": 100,
+          "note": "1972年7月にスズケン沖縄の株式の過半数を取得。2005年1月に沖縄薬品と合併し社名変更",
+          "since": "1972-07"
+        },
+        {
+          "name": "ナカノ薬品株式会社",
+          "relation": "連結子会社",
+          "address": "栃木県宇都宮市",
+          "capital": 94,
+          "business": "医薬品卸売事業（栃木県において医薬品等を販売）",
+          "voting": 100,
+          "note": "1999年10月に株式の過半数を取得",
+          "since": "1999-10"
+        },
+        {
+          "name": "株式会社スズケン岩手",
+          "formerName": "熊谷薬品株式会社",
+          "relation": "連結子会社",
+          "address": "岩手県盛岡市",
+          "capital": 97,
+          "business": "医薬品卸売事業（岩手県において医薬品等を販売）",
+          "voting": 100,
+          "note": "1996年3月に全株式を取得",
+          "since": "1996-03"
+        },
+        {
+          "name": "株式会社エス・ディ・ロジ",
+          "formerName": "株式会社愛知ミドリ十字",
+          "relation": "連結子会社",
+          "address": "名古屋市東区",
+          "capital": 10,
+          "business": "医薬品卸売事業（グループ内物流業務の受託等）",
+          "voting": 100,
+          "note": "1969年8月に全株式を取得",
+          "since": "1969-08"
+        },
+        {
+          "name": "株式会社三和化学研究所",
+          "relation": "連結子会社",
+          "address": "名古屋市東区",
+          "capital": 2101,
+          "business": "医薬品製造事業（医療用医薬品等を製造）",
+          "voting": 100,
+          "note": "特定子会社。1990年9月に株式の過半数を取得",
+          "since": "1990-09"
+        },
+        {
+          "name": "ケンツメディコ株式会社",
+          "relation": "連結子会社",
+          "address": "埼玉県本庄市",
+          "capital": 10,
+          "business": "医療機器・材料製造事業（医療機器・材料の製造）",
+          "voting": 100
+        },
+        {
+          "name": "株式会社ユニスマイル",
+          "formerName": "株式会社ファーコス",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 382,
+          "business": "保険薬局事業（医療用医薬品の調剤等）",
+          "voting": 100,
+          "indirect": 100,
+          "note": "2008年10月に株式の過半数を取得",
+          "since": "2008-10"
+        },
+        {
+          "name": "サンキ・ウエルビィ株式会社",
+          "relation": "連結子会社",
+          "address": "広島市西区",
+          "capital": 50,
+          "business": "介護サービス事業（介護サービスの提供等）",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "株式会社エスケアメイト",
+          "relation": "連結子会社",
+          "address": "東京都台東区",
+          "capital": 50,
+          "business": "介護サービス事業（介護サービスの提供等）",
+          "voting": 100,
+          "note": "2011年10月に設立",
+          "since": "2011-10"
+        },
+        {
+          "name": "株式会社メディケアコラボ",
+          "relation": "連結子会社",
+          "address": "名古屋市昭和区",
+          "capital": 40,
+          "business": "医療介護支援事業（福祉用具の賃貸等）",
+          "voting": 51,
+          "note": "2023年2月に八神製作所と合弁で設立",
+          "since": "2023-02"
+        },
+        {
+          "name": "株式会社エス・ディ・コラボ",
+          "formerName": "株式会社SDネクスト",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 51,
+          "business": "スペシャリティ医薬品流通事業（スペシャリティ医薬品の流通受託等）",
+          "voting": 100,
+          "note": "特定子会社。2012年3月に設立。2026年4月1日に会社分割で株式会社コラボクリエイトを設立",
+          "since": "2012-03"
+        },
+        {
+          "name": "中央運輸株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 99,
+          "business": "外部ロジスティクス事業（医薬品メーカー等の物流受託）",
+          "voting": 100,
+          "note": "2009年9月に株式交換で完全子会社化",
+          "since": "2009-09"
+        },
+        {
+          "name": "株式会社コラボスクエア",
+          "formerName": "株式会社コラボプレイス",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 10,
+          "business": "その他（デジタルヘルスケアサービス等の提供）",
+          "voting": 100,
+          "note": "2022年3月に設立。2024年6月に株式会社コラボクリエイト（初代）と合併",
+          "since": "2022-03"
+        },
+        {
+          "name": "エンブレース株式会社",
+          "companyId": "4013201010548",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（「その他22社」の中）。沿革に現・連結子会社とある（2021年4月に株式の過半数を取得）",
+          "since": "2021-04"
+        },
+        {
+          "name": "株式会社スズケンインベストメント",
+          "relation": "連結子会社",
+          "address": "愛知県名古屋市",
+          "note": "関係会社の状況の表には記載なし（「その他22社」の中）。沿革に現・連結子会社とある（2022年6月に設立）",
+          "since": "2022-06"
+        },
+        {
+          "name": "スズケンヘルステックコラボレーション投資事業有限責任組合",
+          "relation": "連結子会社",
+          "address": "愛知県名古屋市",
+          "note": "関係会社の状況の表には記載なし（「その他22社」の中）。沿革に現・連結子会社とある（2022年7月に設立）",
+          "since": "2022-07"
+        },
+        {
+          "name": "株式会社medimo",
+          "companyId": "1010901050728",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（「その他22社」の中）。沿革に現・連結子会社とある（2026年2月に株式を取得。2022年4月設立の会社）",
+          "since": "2026-02"
+        },
+        {
+          "name": "株式会社コラボクリエイト",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "note": "2026年4月1日に株式会社エス・ディ・コラボの会社分割により設立（沿革、期末後）。同名の初代会社（2022年3月設立）は2024年6月にコラボプレイス（現・コラボスクエア）と合併",
+          "since": "2026-04"
+        },
+        {
+          "name": "上薬鈴謙滬中(上海)医薬有限公司",
+          "formerName": "上海鈴謙滬中医薬有限公司",
+          "relation": "持分法適用関連会社",
+          "address": "中国上海市",
+          "capitalText": "84百万元",
+          "business": "医薬品卸売事業（上海市において医薬品等を販売）",
+          "voting": 49.9,
+          "note": "2008年3月に合弁で設立",
+          "since": "2008-03"
+        },
+        {
+          "name": "株式会社EPファーマライン",
+          "companyId": "4010001092965",
+          "relation": "持分法適用関連会社",
+          "address": "東京都豊島区",
+          "capital": 100,
+          "business": "DIサービス（コンタクトセンターサービス）（コールセンター業務等の業務委託）",
+          "voting": 49,
+          "note": "2026年5月に EPSホールディングスと戦略的パートナーシップ深化の基本合意"
+        },
+        {
+          "name": "株式会社ポクサンナイス",
+          "relation": "持分法適用関連会社",
+          "address": "韓国釜山広域市",
+          "capitalText": "3,604百万ウォン",
+          "business": "医薬品卸売事業（釜山広域市、ソウル首都圏を中心に医薬品等を販売）",
+          "voting": 45
+        },
+        {
+          "name": "ファーマライズホールディングス株式会社",
+          "companyId": "5011201003645",
+          "relation": "持分法適用関連会社",
+          "address": "東京都中野区",
+          "capital": 1961,
+          "business": "保険薬局事業（医療用医薬品の調剤等）",
+          "voting": 20.6,
+          "note": "有価証券報告書の提出会社。2023年11月に株式を取得",
+          "since": "2023-11"
+        }
+      ],
+      "former": [
+        {
+          "name": "沖縄薬品株式会社",
+          "since": "2004-10",
+          "end": "2005-01",
+          "how": "合併",
+          "note": "沖縄の医薬品会社。株式交換で完全子会社化し、スズケン沖縄と合併"
+        },
+        {
+          "name": "株式会社コラボクリエイト（初代）",
+          "since": "2022-03",
+          "end": "2024-06",
+          "how": "合併",
+          "note": "東京都千代田区に設立。株式会社コラボプレイス（現・コラボスクエア）と合併"
+        }
+      ]
     }
   },
   {
@@ -67877,6 +69267,297 @@
       "kind": "header",
       "source": "https://prtimes.jp/data/corp/155184/logo/pc-9672d296906b63e221a4ebeff6ef2d48-17a82fd5d29c96a0a3ff165cd2c2f44c.jpeg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/2784/yuho_pdf/S100YH29/00.pdf",
+      "consolidated": 17,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "アルフレッサ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 4000,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 100,
+          "note": "特定子会社。売上高が連結売上高の10％超。2004年10月にアズウェル・福神・大正堂の会社分割による再編で医薬品等卸売事業を担う会社として発足",
+          "since": "2004-10"
+        },
+        {
+          "name": "四国アルフレッサ株式会社",
+          "formerName": "株式会社岡内勧弘堂",
+          "relation": "連結子会社",
+          "address": "香川県高松市",
+          "capital": 161,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 100,
+          "note": "2005年4月に株式交換で完全子会社化、10月に弘和薬品・ダイワ薬品と合併して商号変更",
+          "since": "2005-04"
+        },
+        {
+          "name": "ティーエスアルフレッサ株式会社",
+          "formerName": "成和産業株式会社",
+          "relation": "連結子会社",
+          "address": "広島市西区",
+          "capital": 1144,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 100,
+          "note": "2005年10月に株式交換で完全子会社化、2015年4月に常盤薬品と合併して商号変更",
+          "since": "2005-10"
+        },
+        {
+          "name": "明祥株式会社",
+          "relation": "連結子会社",
+          "address": "石川県金沢市",
+          "capital": 395,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 100,
+          "note": "2006年4月に株式交換で完全子会社化",
+          "since": "2006-04"
+        },
+        {
+          "name": "株式会社琉薬",
+          "relation": "連結子会社",
+          "address": "沖縄県浦添市",
+          "capital": 44,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 100,
+          "note": "2007年10月に株式交換で完全子会社化",
+          "since": "2007-10"
+        },
+        {
+          "name": "東北アルフレッサ株式会社",
+          "formerName": "株式会社恒和薬品",
+          "relation": "連結子会社",
+          "address": "仙台市若林区、福島県郡山市",
+          "capital": 104,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 100,
+          "note": "アルフレッサ株式会社の子会社だった恒和薬品を2012年10月に株式交換で完全子会社化、2018年10月に小田島と合併して商号変更"
+        },
+        {
+          "name": "アルフレッサ メディカルサービス株式会社",
+          "formerName": "アルフレッサ ピップトウキョウ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 450,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 100,
+          "note": "2004年12月に設立",
+          "since": "2004-12"
+        },
+        {
+          "name": "アルフレッサ篠原化学株式会社",
+          "formerName": "篠原化学薬品株式会社",
+          "relation": "連結子会社",
+          "address": "高知県高知市",
+          "capital": 38,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 100,
+          "note": "2014年4月に株式交換で完全子会社化",
+          "since": "2014-04"
+        },
+        {
+          "name": "エス・エム・ディ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 50,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 60,
+          "indirect": 60
+        },
+        {
+          "name": "エーエル プラス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 70,
+          "business": "医療用医薬品等卸売事業(医療用医薬品等卸売事業)",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "アルフレッサ ヘルスケア株式会社",
+          "formerName": "丹平中田株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 499,
+          "business": "一般用医薬品等卸売事業(セルフメディケーション卸売事業)",
+          "voting": 100,
+          "note": "2010年10月に株式交換で完全子会社化",
+          "since": "2010-10"
+        },
+        {
+          "name": "アルフレッサ ファーマ株式会社",
+          "relation": "連結子会社",
+          "address": "大阪市中央区",
+          "capital": 3000,
+          "business": "医薬品等製造事業(医薬品等製造事業)",
+          "voting": 100,
+          "note": "特定子会社。2004年10月の再編で医薬品等製造事業を担う会社として発足。2023年4月にサンノーバを吸収合併",
+          "since": "2004-10"
+        },
+        {
+          "name": "青島耐絲克医材有限公司",
+          "relation": "連結子会社",
+          "address": "中国山東省青島市",
+          "capital": 300,
+          "business": "医薬品等製造事業(医薬品等製造事業)",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "アルフレッサ ファインケミカル株式会社",
+          "relation": "連結子会社",
+          "address": "秋田県秋田市",
+          "capital": 400,
+          "business": "医薬品等製造事業(医薬品等製造事業)",
+          "voting": 100,
+          "indirect": 100,
+          "note": "2015年4月にアルフレッサ ファーマが株式取得で完全子会社化",
+          "since": "2015-04"
+        },
+        {
+          "name": "アポクリート株式会社",
+          "formerName": "アポロメディカルホールディングス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都豊島区",
+          "capital": 403,
+          "business": "調剤薬局の経営(調剤薬局等事業)",
+          "voting": 100,
+          "note": "2008年3月に株式取得で子会社化、2021年4月に日本アポック・中日ファーマシーを吸収合併して商号変更",
+          "since": "2008-03"
+        },
+        {
+          "name": "セルリソーシズ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 80,
+          "business": "再生医療関連事業(その他)",
+          "voting": 100,
+          "note": "2026年3月期から重要性が増したため連結の範囲に"
+        },
+        {
+          "name": "アルフレッサ システム株式会社",
+          "relation": "連結子会社",
+          "address": "東京都千代田区",
+          "capital": 150,
+          "business": "情報システムの運用・保守および開発事業(全社)",
+          "voting": 51,
+          "note": "2007年10月に日立製作所と合弁で設立",
+          "since": "2007-10"
+        },
+        {
+          "name": "アルフレッサ ビズサポート株式会社",
+          "relation": "非連結子会社",
+          "business": "保険代理業、不動産管理業務、日用雑貨消耗品等の販売 他",
+          "note": "連結の範囲の注記で主要な非連結子会社（小規模のため連結の範囲から除外）"
+        },
+        {
+          "name": "株式会社宮崎温仙堂商店",
+          "relation": "非連結子会社",
+          "address": "長崎県諫早市",
+          "business": "医療用医薬品、医療用検査試薬、医療機器・材料（医療用医薬品等卸売事業）",
+          "voting": 100,
+          "note": "関係会社の状況の表には記載なし（事業の内容に記載、完全子会社）。2023年2月に株式取得で完全子会社化。2027年1月1日にアルフレッサ株式会社が吸収合併する予定（2026年9月29日に合併契約、有価証券報告書の後のIRの発表）。診断薬卸売事業はテクノ・スズタへ譲渡する基本合意",
+          "since": "2023-02",
+          "source": "https://ssl4.eir-parts.net/doc/2784/ir_material15/286469/00.pdf"
+        },
+        {
+          "name": "株式会社テクノ・スズタ",
+          "relation": "非連結子会社",
+          "address": "長崎県長崎市",
+          "business": "医療用検査試薬、研究試薬、医療機器（医療用医薬品等卸売事業）",
+          "voting": 100,
+          "note": "関係会社の状況の表には記載なし（事業の内容に記載）。2026年9月15日のお知らせで当社の完全子会社とされ、宮崎温仙堂商店の診断薬卸売事業を譲り受ける基本合意",
+          "source": "https://ssl4.eir-parts.net/doc/2784/ir_material15/285920/00.pdf"
+        },
+        {
+          "name": "ArkMS株式会社",
+          "relation": "関係会社（非連結）",
+          "business": "CRO・PMS事業（その他事業）",
+          "note": "関係会社の状況の表には記載なし。事業の内容に「その他事業」の会社として記載（子会社か関連会社かは記載なし）"
+        }
+      ],
+      "former": [
+        {
+          "name": "ダイワ薬品株式会社",
+          "since": "2004-04",
+          "end": "2005-10",
+          "how": "合併",
+          "note": "福神が株式取得で子会社化した医薬品卸。岡内勧弘堂と合併し四国アルフレッサに"
+        },
+        {
+          "name": "弘和薬品株式会社",
+          "since": "2005-04",
+          "end": "2005-10",
+          "how": "合併",
+          "note": "株式交換で完全子会社化した医薬品卸。岡内勧弘堂と合併し四国アルフレッサに"
+        },
+        {
+          "name": "安藤株式会社",
+          "end": "2011-10",
+          "how": "吸収合併",
+          "note": "アルフレッサ株式会社の子会社で、2010年1月に株式交換で完全子会社化。アルフレッサが吸収合併"
+        },
+        {
+          "name": "常盤薬品株式会社",
+          "since": "2012-10",
+          "end": "2015-04",
+          "how": "合併",
+          "note": "株式交換で完全子会社化した医薬品卸。成和産業と合併しティーエスアルフレッサに"
+        },
+        {
+          "name": "アルフレッサ日建産業株式会社",
+          "formerName": "日建産業株式会社",
+          "since": "2005-02",
+          "end": "2016-04",
+          "how": "吸収合併",
+          "note": "アルフレッサ株式会社が株式取得で子会社化。アルフレッサが吸収合併"
+        },
+        {
+          "name": "シーエス薬品株式会社",
+          "since": "2007-10",
+          "end": "2016-10",
+          "how": "吸収合併",
+          "note": "株式交換で完全子会社化した医薬品卸。セルフメディケーション卸売事業は2011年にアルフレッサ ヘルスケアへ承継。アルフレッサが吸収合併"
+        },
+        {
+          "name": "株式会社小田島",
+          "since": "2004-04",
+          "end": "2018-10",
+          "how": "合併",
+          "note": "福神が株式取得で子会社化した医薬品卸。恒和薬品と合併し東北アルフレッサに"
+        },
+        {
+          "name": "株式会社茂木薬品商会",
+          "since": "2014-10",
+          "end": "2021-04",
+          "how": "吸収合併",
+          "note": "アルフレッサ ヘルスケアが株式取得で完全子会社化。アルフレッサ ヘルスケアが吸収合併"
+        },
+        {
+          "name": "株式会社日本アポック",
+          "since": "2015-03",
+          "end": "2021-04",
+          "how": "吸収合併",
+          "note": "調剤薬局の会社。アポロメディカルHD（現アポクリート）が吸収合併"
+        },
+        {
+          "name": "株式会社中日ファーマシー",
+          "end": "2021-04",
+          "how": "吸収合併",
+          "note": "アポロメディカルHD（現アポクリート）が吸収合併"
+        },
+        {
+          "name": "サンノーバ株式会社",
+          "since": "2016-04",
+          "end": "2023-04",
+          "how": "吸収合併",
+          "note": "株式取得で完全子会社化した製薬会社（エーザイから取得）。アルフレッサ ファーマが吸収合併"
+        }
+      ]
     }
   },
   {
@@ -68069,6 +69750,384 @@
       "kind": "header",
       "source": "https://www.medipal.co.jp/common/img/header_logo_01.png",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://ssl4.eir-parts.net/doc/7459/yuho_pdf/S100YI1C/00.pdf",
+      "consolidated": 19,
+      "equityMethod": 10,
+      "members": [
+        {
+          "name": "株式会社メディセオ",
+          "formerName": "株式会社クラヤ三星堂（設立時はクラヤ三星堂分割準備株式会社）",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 100,
+          "business": "医療用医薬品、医療機器、医療材料、臨床検査試薬等の販売",
+          "voting": 100,
+          "note": "特定子会社。売上高が連結売上高の10％超。2004年4月に設立、10月に当社の医薬品等卸売事業を承継。2009年10月に千秋薬品・潮田クラヤ三星堂・やまひろクラヤ三星堂・平成薬品・井筒クラヤ三星堂と合併して商号変更",
+          "since": "2004-04"
+        },
+        {
+          "name": "株式会社エバルス",
+          "relation": "連結子会社",
+          "address": "広島市南区",
+          "capital": 1510,
+          "business": "医療用医薬品、医療機器、医療材料、臨床検査試薬等の販売",
+          "voting": 100,
+          "note": "2004年4月に完全子会社化",
+          "since": "2004-04"
+        },
+        {
+          "name": "株式会社アトル",
+          "relation": "連結子会社",
+          "address": "福岡市東区",
+          "capital": 500,
+          "business": "医療用医薬品、医療機器、医療材料、臨床検査試薬等の販売",
+          "voting": 100,
+          "note": "2004年4月に完全子会社化。2009年10月にアトル那覇薬品、2025年4月にMVCと合併",
+          "since": "2004-04"
+        },
+        {
+          "name": "東七株式会社",
+          "relation": "連結子会社",
+          "address": "長崎県佐世保市",
+          "capital": 30,
+          "business": "医療用医薬品、医療機器、医療材料、臨床検査試薬等の販売",
+          "voting": 100,
+          "note": "2008年12月に業務提携、2023年4月に完全子会社化",
+          "since": "2023-04"
+        },
+        {
+          "name": "SPLine株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 100,
+          "business": "スペシャリティ医薬品の流通企画",
+          "voting": 100,
+          "note": "2016年5月に設立",
+          "since": "2016-05"
+        },
+        {
+          "name": "株式会社MMコーポレーション",
+          "companyId": "2010001005697",
+          "formerName": "株式会社中川誠光堂",
+          "relation": "連結子会社",
+          "address": "東京都文京区",
+          "capital": 100,
+          "business": "医療機器、医療材料等の販売",
+          "voting": 100,
+          "note": "2004年5月に完全子会社化",
+          "since": "2004-05"
+        },
+        {
+          "name": "株式会社アステック",
+          "relation": "連結子会社",
+          "address": "茨城県つくば市",
+          "capital": 10,
+          "business": "医療機器、医療材料等の販売",
+          "voting": 100,
+          "note": "2016年1月に完全子会社化",
+          "since": "2016-01"
+        },
+        {
+          "name": "メディエ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 14,
+          "business": "医療材料データベースの構築、医療施設向け物品マスターの作成",
+          "voting": 100,
+          "note": "2013年6月に完全子会社化",
+          "since": "2013-06"
+        },
+        {
+          "name": "株式会社プリメディカ",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 146,
+          "business": "予防医療・最先端医療技術の研究開発",
+          "voting": 100,
+          "note": "2024年5月に完全子会社化",
+          "since": "2024-05"
+        },
+        {
+          "name": "株式会社フローラディスカバリー",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 2,
+          "business": "腸内細菌叢測定事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "2024年5月に完全子会社化",
+          "since": "2024-05"
+        },
+        {
+          "name": "株式会社エム・アイ・シー",
+          "relation": "連結子会社",
+          "address": "東京都文京区",
+          "capital": 10,
+          "business": "医療事務業務の受託等",
+          "voting": 100
+        },
+        {
+          "name": "株式会社メディパル保険サービス",
+          "relation": "連結子会社",
+          "address": "神戸市中央区",
+          "capital": 90,
+          "business": "損害保険代理店業等",
+          "voting": 100
+        },
+        {
+          "name": "株式会社プレサスキューブ",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 157,
+          "business": "保険薬局向け経営支援及びマーケティング支援",
+          "voting": 66,
+          "note": "2024年7月に子会社化",
+          "since": "2024-07"
+        },
+        {
+          "name": "株式会社メディスケット",
+          "relation": "連結子会社",
+          "address": "埼玉県三郷市",
+          "capital": 25,
+          "business": "医薬品等の配送、検体集荷、その他ヘルスケア領域の物流の受託",
+          "voting": 60,
+          "note": "2022年4月に設立",
+          "since": "2022-04"
+        },
+        {
+          "name": "株式会社PALTAC",
+          "formerName": "株式会社パルタック（のち株式会社パルタックKS、株式会社Paltac）",
+          "relation": "連結子会社",
+          "address": "大阪市中央区",
+          "capital": 15869,
+          "business": "化粧品・日用品、一般用医薬品の販売",
+          "voting": 52.4,
+          "note": "特定子会社。有価証券報告書の提出会社。売上高が連結売上高の10％超。2005年10月に完全子会社化、2008年4月にコバショウと合併、2010年3月に上場",
+          "since": "2005-10"
+        },
+        {
+          "name": "MPアグロ株式会社",
+          "formerName": "丸善薬品株式会社",
+          "relation": "連結子会社",
+          "address": "北海道北広島市",
+          "capital": 150,
+          "business": "動物用医薬品、飼料添加物等の販売",
+          "voting": 100,
+          "note": "2007年1月に丸善薬品を完全子会社化、2010年4月にエバルスアグロテックとアトルの動物用医薬品等卸売事業を統合して商号変更",
+          "since": "2007-01"
+        },
+        {
+          "name": "シグニホールディングス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 10,
+          "business": "有価証券の保有",
+          "voting": 100,
+          "indirect": 100,
+          "note": "2026年1月30日に MPアグロが株式を取得し完全子会社化",
+          "since": "2026-01"
+        },
+        {
+          "name": "シグニ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都江東区",
+          "capital": 50,
+          "business": "動物用医療材料、器具等の企画販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "2026年1月に親会社のシグニホールディングスとともに MPアグロの完全子会社に",
+          "since": "2026-01"
+        },
+        {
+          "name": "MP五協フード&ケミカル株式会社",
+          "formerName": "住友ファーマフード＆ケミカル株式会社",
+          "relation": "連結子会社",
+          "address": "大阪市北区",
+          "capital": 200,
+          "business": "食品加工原材料、食品素材・食品添加物及び化学製品材料等の製造、販売",
+          "voting": 100,
+          "note": "2023年3月に完全子会社化、4月に商号変更。2024年10月にメディパルフーズと合併",
+          "since": "2023-03"
+        },
+        {
+          "name": "クオールホールディングス株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "東京都港区",
+          "capital": 5786,
+          "business": "保険薬局事業",
+          "voting": 23.1,
+          "indirect": 2.9,
+          "note": "有価証券報告書の提出会社"
+        },
+        {
+          "name": "エム・シー・ヘルスケアホールディングス株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "東京都港区",
+          "capital": 548,
+          "business": "病院経営支援事業",
+          "voting": 20
+        },
+        {
+          "name": "四国薬業株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "愛媛県松山市",
+          "capital": 831,
+          "business": "医療用医薬品、医療機器、医療材料、臨床検査試薬等の販売",
+          "voting": 20
+        },
+        {
+          "name": "JCRファーマ株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "兵庫県芦屋市",
+          "capital": 9061,
+          "business": "医療用医薬品等の製造販売",
+          "voting": 23.8,
+          "note": "有価証券報告書の提出会社"
+        },
+        {
+          "name": "ノーベルファーマ株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "東京都中央区",
+          "capital": 11,
+          "business": "医療用医薬品等の製造販売",
+          "voting": 20
+        },
+        {
+          "name": "株式会社エムティーアイ・ヘルスケア・ホールディングス",
+          "relation": "持分法適用関連会社",
+          "address": "東京都新宿区",
+          "capital": 100,
+          "business": "ヘルスケアに関するコンテンツ配信サービス",
+          "voting": 34.4
+        },
+        {
+          "name": "株式会社Doctorbook",
+          "companyId": "5011001097788",
+          "relation": "持分法適用関連会社",
+          "address": "東京都千代田区",
+          "capital": 50,
+          "business": "インターネットを利用した各種情報提供サービス等",
+          "voting": 22.1
+        },
+        {
+          "name": "国薬控股北京華鴻有限公司",
+          "relation": "持分法適用関連会社",
+          "address": "中国北京市",
+          "capitalText": "350百万元",
+          "business": "医療用医薬品等の販売",
+          "voting": 20
+        },
+        {
+          "name": "国薬控股北京天星普信生物医薬有限公司",
+          "relation": "持分法適用関連会社",
+          "address": "中国北京市",
+          "capitalText": "100百万元",
+          "business": "医療用医薬品等の販売",
+          "voting": 20
+        },
+        {
+          "name": "かちどき薬品株式会社",
+          "relation": "持分法適用非連結子会社",
+          "address": "東京都中央区",
+          "capital": 99,
+          "business": "保険調剤事業、医薬品、医薬部外品、化粧品、雑貨、健康食品、健康関連商品の販売",
+          "voting": 100
+        },
+        {
+          "name": "株式会社トキモ",
+          "relation": "非連結子会社",
+          "note": "関係会社の状況の表には記載なし。連結の範囲の注記で主要な非連結子会社（持分法も非適用）"
+        }
+      ],
+      "former": [
+        {
+          "name": "株式会社チヤク",
+          "since": "2005-04",
+          "end": "2006-01",
+          "how": "合併",
+          "note": "完全子会社化した医薬品卸。クラヤ三星堂が合併"
+        },
+        {
+          "name": "株式会社コバショウ",
+          "since": "2008-01",
+          "end": "2008-04",
+          "how": "合併",
+          "note": "完全子会社化した日用品などの卸。パルタックと合併しパルタックKSに"
+        },
+        {
+          "name": "千秋薬品株式会社",
+          "end": "2009-10",
+          "how": "合併",
+          "note": "2001年2月に医薬品等卸売の営業を開始。クラヤ三星堂と合併しメディセオに"
+        },
+        {
+          "name": "株式会社潮田クラヤ三星堂",
+          "formerName": "潮田三国堂薬品株式会社",
+          "since": "2003-03",
+          "end": "2009-10",
+          "how": "合併",
+          "note": "完全子会社化した医薬品卸。クラヤ三星堂と合併しメディセオに"
+        },
+        {
+          "name": "株式会社井筒クラヤ三星堂",
+          "formerName": "井筒薬品株式会社",
+          "since": "2003-09",
+          "end": "2009-10",
+          "how": "合併",
+          "note": "完全子会社化した医薬品卸。クラヤ三星堂と合併しメディセオに"
+        },
+        {
+          "name": "平成薬品株式会社",
+          "since": "2003-09",
+          "end": "2009-10",
+          "how": "合併",
+          "note": "完全子会社化した医薬品卸。クラヤ三星堂と合併しメディセオに"
+        },
+        {
+          "name": "株式会社やまひろクラヤ三星堂",
+          "end": "2009-10",
+          "how": "合併",
+          "note": "クラヤ三星堂と合併しメディセオに"
+        },
+        {
+          "name": "株式会社アトル那覇薬品",
+          "since": "2009-03",
+          "end": "2009-10",
+          "how": "合併",
+          "note": "アトルが完全子会社化した沖縄の医薬品卸。アトルと合併"
+        },
+        {
+          "name": "エバルスアグロテック株式会社",
+          "end": "2010-04",
+          "how": "経営統合",
+          "note": "動物用医薬品等の卸。丸善薬品を存続会社として統合しMPアグロに"
+        },
+        {
+          "name": "メディパルフーズ株式会社",
+          "formerName": "桜井通商株式会社",
+          "since": "2014-12",
+          "end": "2024-10",
+          "how": "合併",
+          "note": "食品加工原材料・食品添加物の卸。MP五協フード＆ケミカルと合併"
+        },
+        {
+          "name": "株式会社MVC",
+          "end": "2025-04",
+          "how": "合併",
+          "note": "アトルを存続会社として合併"
+        },
+        {
+          "name": "株式会社ファルフィールド",
+          "since": "2020-10",
+          "end": "2026-03",
+          "how": "事業譲渡・解散決議",
+          "note": "2020年に設立した子会社。2025年11月に事業を譲渡し、2026年3月に解散を決議（連結除外）"
+        }
+      ]
     }
   },
   {
@@ -72021,6 +74080,305 @@
       "kind": "header",
       "source": "https://www.sysmex.co.jp/app-files/img/cmn_logo01.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YFAW.pdf",
+      "consolidated": 80,
+      "equityMethod": 2,
+      "members": [
+        {
+          "name": "シスメックス アメリカ インク",
+          "formerName": "シスメックス インフォシステムズ アメリカ インク",
+          "relation": "連結子会社",
+          "address": "米国イリノイ州",
+          "capitalText": "22,000千US$",
+          "business": "検体検査機器及び検体検査試薬の販売",
+          "voting": 100,
+          "note": "特定子会社。連結売上高の10%超。沿革：1997年2月に設立",
+          "since": "1997-02"
+        },
+        {
+          "name": "シスメックス リエージェンツ アメリカ インク",
+          "relation": "連結子会社",
+          "address": "米国イリノイ州",
+          "capitalText": "1,500千US$",
+          "business": "検体検査試薬の製造及び販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "シスメックス ドウ ブラジル インダストリア エ コメルシオ リミターダ",
+          "relation": "連結子会社",
+          "address": "ブラジルパラナ州",
+          "capitalText": "200,878千BRL",
+          "business": "検体検査試薬の製造及び販売",
+          "voting": 100,
+          "indirect": 99.1,
+          "note": "特定子会社"
+        },
+        {
+          "name": "シスメックス ヨーロッパ エスイー",
+          "formerName": "トーア メディカル エレクトロニクス ドイチュラント ゲーエムベーハー",
+          "relation": "連結子会社",
+          "address": "ドイツハンブルク市",
+          "capitalText": "120千EUR",
+          "business": "検体検査機器の販売及び検体検査試薬の製造、販売",
+          "voting": 100,
+          "note": "特定子会社。沿革：1980年10月に設立",
+          "since": "1980-10"
+        },
+        {
+          "name": "シスメックス ドイチュラント ゲーエムベーハー",
+          "formerName": "デジタナ社",
+          "relation": "連結子会社",
+          "address": "ドイツハンブルク市",
+          "capitalText": "2,050千EUR",
+          "business": "検体検査機器及び検体検査試薬の販売",
+          "voting": 100,
+          "note": "沿革：1995年3月にドイツの代理店デジタナ社を子会社化",
+          "since": "1995-03"
+        },
+        {
+          "name": "シスメックス ユーケー リミテッド",
+          "formerName": "トーア メディカル エレクトロニクス ユーケー リミテッド",
+          "relation": "連結子会社",
+          "address": "英国ミルトンキーンズ市",
+          "capitalText": "400千GBP",
+          "business": "検体検査機器及び検体検査試薬の販売",
+          "voting": 100,
+          "note": "沿革：1991年5月に設立",
+          "since": "1991-05"
+        },
+        {
+          "name": "シスメックス フランス エスエーエス",
+          "formerName": "シスメックス フランス エスエーアールエル",
+          "relation": "連結子会社",
+          "address": "フランスビルパンテ市",
+          "capitalText": "2,457千EUR",
+          "business": "検体検査機器及び検体検査試薬の販売",
+          "voting": 100,
+          "indirect": 81.4,
+          "note": "沿革：2000年3月に設立",
+          "since": "2000-03"
+        },
+        {
+          "name": "希森美康医用電子（上海）有限公司",
+          "relation": "連結子会社",
+          "address": "中国上海市",
+          "capitalText": "1,000千US$",
+          "business": "検体検査機器及び検体検査試薬の販売",
+          "voting": 100,
+          "note": "特定子会社。連結売上高の10%超。沿革：2000年1月に設立",
+          "since": "2000-01"
+        },
+        {
+          "name": "済南希森美康医用電子有限公司",
+          "relation": "連結子会社",
+          "address": "中国山東省済南市",
+          "capitalText": "18,229千CNY",
+          "business": "検体検査機器、検体検査試薬の製造及び販売",
+          "voting": 100
+        },
+        {
+          "name": "シスメックス アジア パシフィック ピーティーイー リミテッド",
+          "formerName": "シスメックス シンガポール ピーティーイー リミテッド",
+          "relation": "連結子会社",
+          "address": "シンガポール",
+          "capitalText": "11,500千SG$",
+          "business": "検体検査機器の販売及び検体検査試薬の製造、販売",
+          "voting": 100,
+          "note": "沿革：1998年2月に設立",
+          "since": "1998-02"
+        },
+        {
+          "name": "シスメックス インディア プライベート リミテッド",
+          "relation": "連結子会社",
+          "address": "インドムンバイ市",
+          "capitalText": "464,942千INR",
+          "business": "検体検査機器、検体検査試薬の製造及び販売",
+          "voting": 100,
+          "indirect": 95.7
+        },
+        {
+          "name": "シスメックスRA株式会社",
+          "formerName": "株式会社アール・エー・システムズ",
+          "relation": "連結子会社",
+          "address": "長野県塩尻市",
+          "capital": 70,
+          "business": "検体検査機器及び周辺装置等の開発、製造",
+          "voting": 100,
+          "note": "特定子会社。沿革：2002年10月に子会社化",
+          "since": "2002-10"
+        },
+        {
+          "name": "シスメックス パルテック ゲーエムベーハー",
+          "relation": "連結子会社",
+          "address": "ドイツゲルリッツ市",
+          "capitalText": "30千EUR",
+          "business": "検体検査機器及び検体検査試薬の開発、製造、販売",
+          "voting": 100
+        },
+        {
+          "name": "オックスフォード ジーン テクノロジー アイピー リミテッド",
+          "relation": "連結子会社",
+          "address": "英国オックスフォードシャー州",
+          "capitalText": "453英ポンド",
+          "business": "細胞遺伝学検査及びNGSに用いる診断用・研究用試薬の開発、製造、販売、サービス",
+          "voting": 100
+        },
+        {
+          "name": "シスメックス コリア カンパニー リミテッド",
+          "relation": "連結子会社",
+          "address": "韓国ソウル市",
+          "capitalText": "190,000千KRW",
+          "business": "検体検査機器及び試薬の販売",
+          "voting": 100,
+          "note": "沿革：2013年4月に韓国代理店を子会社化",
+          "since": "2013-04"
+        },
+        {
+          "name": "株式会社理研ジェネシス",
+          "companyId": "9010501027061",
+          "relation": "連結子会社",
+          "business": "遺伝子検査",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2014年6月に資本参加、2016年5月に凸版印刷から株式を追加取得して子会社化",
+          "since": "2016-05"
+        },
+        {
+          "name": "シスメックスCNA株式会社",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2004年4月に株式会社シーエヌエーの第三者割当増資を引き受けて子会社化",
+          "since": "2004-04"
+        },
+        {
+          "name": "シスメックス アストレゴ エービー",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2022年5月にアストレゴ ダイアグノスティックス エービーの株式を追加取得して子会社化",
+          "since": "2022-05"
+        },
+        {
+          "name": "シスメックスピロート株式会社",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2022年8月に株式会社ピロートの株式を取得して子会社化",
+          "since": "2022-08"
+        },
+        {
+          "name": "株式会社メガカリオン",
+          "companyId": "2010401095710",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2023年12月に株式を追加取得して子会社化",
+          "since": "2023-12"
+        },
+        {
+          "name": "シスメックス アールアンドディー センター ヨーロッパ ゲーエムベーハー",
+          "relation": "連結子会社",
+          "business": "研究開発",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2019年4月にドイツに設立",
+          "since": "2019-04"
+        },
+        {
+          "name": "シスメックス アールアンドディー センター アメリカズ インク",
+          "relation": "連結子会社",
+          "business": "研究開発",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2019年4月に米国に設立",
+          "since": "2019-04"
+        },
+        {
+          "name": "シスメックス ポルトガル エスエー",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2021年2月に設立",
+          "since": "2021-02"
+        },
+        {
+          "name": "シスメックス エルエルシー",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2022年2月にサウジアラビアに設立。特定子会社（関係会社の状況の注記）",
+          "since": "2022-02"
+        },
+        {
+          "name": "シスメックス ヘルスケア リージョナル ヘッドクォーター",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2024年5月にサウジアラビアに設立",
+          "since": "2024-05"
+        },
+        {
+          "name": "シスメックス イースト アフリカ エルティーディー",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2025年3月にケニアに設立",
+          "since": "2025-03"
+        },
+        {
+          "name": "シスメックス グリース アイケーイー",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし（その他65社）。沿革：2025年6月にギリシャに設立",
+          "since": "2025-06"
+        },
+        {
+          "name": "ハイフェン バイオメッド エスエーエス",
+          "relation": "連結子会社",
+          "note": "特定子会社。関係会社の状況の表には社名なし（その他65社に含まれると注記）"
+        },
+        {
+          "name": "シスメックス エジプト エルエルシー",
+          "relation": "連結子会社",
+          "note": "特定子会社。関係会社の状況の表には社名なし（その他65社に含まれると注記）"
+        },
+        {
+          "name": "エスイーエル ジェネラル トレーディング エルエルシー",
+          "relation": "連結子会社",
+          "note": "特定子会社。関係会社の状況の表には社名なし（その他65社に含まれると注記）"
+        },
+        {
+          "name": "エスイーエル トレード エルエルシー",
+          "relation": "連結子会社",
+          "note": "特定子会社。関係会社の状況の表には社名なし（その他65社に含まれると注記）"
+        },
+        {
+          "name": "シスメックス タイワン カンパニー リミテッド",
+          "relation": "連結子会社",
+          "note": "特定子会社。関係会社の状況の表には社名なし（その他65社に含まれると注記）"
+        },
+        {
+          "name": "シスメックス BioMajesty株式会社",
+          "relation": "連結子会社",
+          "business": "生化学検査事業（日本電子の生化学検査事業を承継）",
+          "note": "期末後の2026年4月に、日本電子の生化学検査事業を承継する新会社の株式を取得して子会社化（沿革）",
+          "since": "2026-04"
+        },
+        {
+          "name": "株式会社メディカロイド",
+          "companyId": "9140001091784",
+          "relation": "関連会社等",
+          "address": "兵庫県神戸市中央区",
+          "capital": 100,
+          "business": "医療用ロボットのマーケティング、開発、設計、製造、販売及びアフターサービス",
+          "voting": 50
+        },
+        {
+          "name": "アライドセル株式会社",
+          "relation": "合弁会社",
+          "note": "関係会社の状況の表には記載なし。沿革：2022年10月にJCRファーマと共同設立（連結・持分法の区分は不明）",
+          "since": "2022-10"
+        }
+      ],
+      "former": [
+        {
+          "name": "シスメックス国際試薬株式会社",
+          "formerName": "国際試薬株式会社",
+          "since": "2001-08",
+          "end": "2022-04",
+          "how": "吸収合併",
+          "note": "検体検査試薬。2006年4月に社名変更"
+        },
+        {
+          "name": "シスメックスメディカ株式会社",
+          "end": "2026-04",
+          "how": "吸収合併",
+          "note": "期末後の2026年4月に当社が吸収合併（沿革）"
+        }
+      ]
     }
   },
   {
@@ -72159,6 +74517,113 @@
       "kind": "header",
       "source": "https://images.ctfassets.net/gtaiz9xxk5s3/43DoAr44t8oPvo7br6daXw/2365ae64c57d9c10cfeb44fb02911e56/logo_omron.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YG81.pdf",
+      "consolidated": 163,
+      "equityMethod": 10,
+      "scope": "healthcare",
+      "members": [
+        {
+          "name": "オムロン ヘルスケア株式会社",
+          "companyId": "7130001024920",
+          "relation": "連結子会社",
+          "address": "京都府向日市",
+          "capital": 5021,
+          "business": "健康医療機器・サービスの製造・開発・販売等（HCB）",
+          "voting": 100,
+          "note": "沿革：2003年7月にヘルスケア事業を分社して設立",
+          "since": "2003-07"
+        },
+        {
+          "name": "株式会社JMDC",
+          "companyId": "6010403010531",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 25167,
+          "business": "医療統計データサービス（DSB）",
+          "voting": 54.3,
+          "note": "特定子会社。有価証券報告書の提出会社。沿革：2022年2月に資本・業務提携、2023年10月に子会社化",
+          "since": "2023-10"
+        },
+        {
+          "name": "エヌエスパートナーズ株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 10,
+          "business": "診療報酬ファクタリング及びコンサルティング（DSB）",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "OMRON HEALTHCARE, INC.",
+          "relation": "連結子会社",
+          "address": "アメリカ イリノイ",
+          "capitalText": "200千米ドル",
+          "business": "健康医療機器の販売（HCB）",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "OMRON HEALTHCARE EUROPE B.V.",
+          "relation": "連結子会社",
+          "address": "オランダ ホッフドルフ",
+          "capitalText": "1,000千ユーロ",
+          "business": "健康医療機器の販売、欧州健康機器事業の統轄管理（HCB）",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "OMRON DALIAN CO., LTD.",
+          "relation": "連結子会社",
+          "address": "中国 大連",
+          "capitalText": "157,237千人民元",
+          "business": "健康医療機器の製造（HCB）",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "OMRON HEALTHCARE (CHINA) CO., LTD.",
+          "relation": "連結子会社",
+          "address": "中国 大連",
+          "capitalText": "208,611千人民元",
+          "business": "健康医療機器の貿易会社（HCB）",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Luscii Healthtech B.V.",
+          "relation": "連結子会社",
+          "address": "オランダ",
+          "business": "遠隔診療サービス",
+          "note": "関係会社の状況の表には記載なし。沿革：2024年4月に完全子会社化（オムロン ヘルスケアが取得）",
+          "since": "2024-04",
+          "source": "https://www.healthcare.omron.co.jp/corp/news/2024/0408.html"
+        },
+        {
+          "name": "株式会社iCARE",
+          "companyId": "2010401094225",
+          "relation": "連結子会社",
+          "address": "東京都品川区",
+          "business": "産業保健・健康経営ソリューション（コーポレートヘルス事業）",
+          "voting": 100,
+          "note": "関係会社の状況の表には記載なし。2025年9月に全株式の取得を発表、沿革では2025年10月に完全子会社化",
+          "since": "2025-10",
+          "source": "https://prtimes.jp/main/html/rd/p/000000143.000120244.html"
+        },
+        {
+          "name": "AliveCor,Inc.",
+          "relation": "持分法適用関連会社",
+          "address": "アメリカ カリフォルニア",
+          "capitalText": "225百万米ドル",
+          "business": "心疾患の診断と治療の支援サービスおよび商品の提供（HCB）",
+          "voting": 35.5,
+          "note": "沿革：2017年3月に資本・業務提携、2020年2月に持分法適用会社化",
+          "since": "2020-02"
+        }
+      ]
     }
   },
   {
@@ -72293,6 +74758,76 @@
       "kind": "header",
       "source": "https://holdings.panasonic/content/dam/holdings/jp/ja/common/holdings-plogo-blue.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YETA.pdf",
+      "consolidated": 446,
+      "equityMethod": 59,
+      "scope": "healthcare",
+      "members": [
+        {
+          "name": "パナソニック エイジフリー株式会社",
+          "formerName": "パナソニック エイジフリーサービス株式会社",
+          "relation": "連結子会社",
+          "address": "大阪府門真市",
+          "capital": 50,
+          "business": "介護サービス事業、サービス付き高齢者向け住宅、介護ショップ、介護用品・設備の開発・販売",
+          "voting": 100,
+          "note": "関係会社の状況の表には記載なし（有報の多様性指標の連結子会社欄に記載）。1998年6月に母体の松下電工エイジフリーサービスを設立、2016年4月に介護関連4社を統合して現社名（同社の会社概要）。パナソニックグループ100%出資",
+          "since": "1998-06",
+          "source": "https://panasonic.co.jp/paf/company/outline.html"
+        },
+        {
+          "name": "株式会社ふれ愛ドゥライフサービス",
+          "relation": "連結子会社",
+          "address": "東京都品川区",
+          "capital": 100,
+          "business": "通所介護事業",
+          "voting": 100,
+          "indirect": 100,
+          "note": "関係会社の状況の表には記載なし。あいおいニッセイ同和損保がパナソニック エイジフリーへ株式100%を譲渡（譲渡日2024年4月1日、2024年2月の同社発表）",
+          "since": "2024-04",
+          "source": "https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2024/news_2024020201268.pdf"
+        }
+      ],
+      "former": [
+        {
+          "name": "パナソニック ヘルスケア株式会社",
+          "formerName": "松下寿電子工業株式会社",
+          "since": "1969-11",
+          "end": "2014-03",
+          "how": "譲渡",
+          "note": "医療機器（現PHC）。全株式と関連資産をKKR系の持株会社に譲渡"
+        },
+        {
+          "name": "パナソニック エイジフリーショップス株式会社",
+          "formerName": "松下電工エイジフリーショップス株式会社",
+          "since": "2000-08",
+          "end": "2016-04",
+          "how": "合併",
+          "note": "介護ショップのフランチャイズ事業。エイジフリーサービスに合併",
+          "source": "https://panasonic.co.jp/paf/company/outline.html"
+        },
+        {
+          "name": "パナソニック エイジフリーライフテック株式会社",
+          "formerName": "松下電工エイジフリーライフテック株式会社",
+          "since": "2006-04",
+          "end": "2016-04",
+          "how": "合併",
+          "note": "介護用品・設備の開発。エイジフリーサービスに合併",
+          "source": "https://panasonic.co.jp/paf/company/outline.html"
+        },
+        {
+          "name": "パナソニック コムハート株式会社",
+          "since": "2012-02",
+          "end": "2016-04",
+          "how": "合併",
+          "note": "サービス付き高齢者向け住宅の事業会社。エイジフリーサービスに合併",
+          "source": "https://panasonic.co.jp/paf/company/outline.html"
+        }
+      ]
     }
   },
   {
@@ -72457,6 +74992,100 @@
       "kind": "header",
       "source": "https://global.canon/01cmn/img/common/logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://global.canon/ja/ir/yuuhou/canon2025.pdf",
+      "consolidated": 321,
+      "equityMethod": 8,
+      "scope": "healthcare",
+      "members": [
+        {
+          "name": "キヤノンメディカルシステムズ株式会社",
+          "formerName": "東芝メディカルシステムズ株式会社",
+          "relation": "連結子会社",
+          "address": "栃木県大田原市",
+          "capital": 20700,
+          "business": "メディカルビジネスユニット（当社製品の開発・製造・販売会社）",
+          "voting": 100,
+          "note": "特定子会社。沿革：2016年12月に東芝メディカルシステムズの株式を取得",
+          "since": "2016-12"
+        },
+        {
+          "name": "キヤノン電子管デバイス株式会社",
+          "relation": "連結子会社",
+          "address": "栃木県大田原市",
+          "capital": 480,
+          "business": "メディカルビジネスユニット（当社製品の開発・製造・販売会社）",
+          "voting": 100
+        },
+        {
+          "name": "キヤノンメディカルダイアグノスティックス株式会社",
+          "formerName": "ミナリスメディカル株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 450,
+          "business": "メディカルビジネスユニット（当社製品の開発・製造・販売会社）",
+          "voting": 100,
+          "note": "沿革：2023年7月にキヤノンメディカルシステムズがミナリスメディカルの株式を取得",
+          "since": "2023-07"
+        },
+        {
+          "name": "キヤノンメディカルファイナンス株式会社",
+          "formerName": "東芝医用ファイナンス株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 120,
+          "business": "メディカルビジネスユニット（当社製品のリース関連販売会社）",
+          "voting": 100,
+          "indirect": 35,
+          "note": "沿革：2017年3月に東芝医用ファイナンスの株式を取得",
+          "since": "2017-03"
+        },
+        {
+          "name": "Canon Medical Systems USA, Inc.",
+          "relation": "連結子会社",
+          "address": "California, U.S.A.",
+          "capitalText": "262,250千米ドル",
+          "business": "メディカルビジネスユニット（キヤノンメディカルシステムズの米国販売会社）",
+          "voting": 100,
+          "indirect": 100,
+          "note": "特定子会社"
+        },
+        {
+          "name": "Canon Medical Systems Europe B.V.",
+          "relation": "連結子会社",
+          "address": "Amstelveen, The Netherlands",
+          "capitalText": "7,718千ユーロ",
+          "business": "メディカルビジネスユニット（キヤノンメディカルシステムズの欧州販売会社）",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "Redlen Technologies Inc.",
+          "relation": "連結子会社",
+          "address": "カナダ ブリティッシュコロンビア州",
+          "business": "フォトンカウンティングCT向けCZT（テルル化亜鉛カドミウム）半導体検出器モジュール",
+          "voting": 100,
+          "note": "関係会社の状況の表には記載なし。沿革：2021年9月に株式を取得（2021年9月28日に完全子会社化の手続き完了、キヤノンの発表）",
+          "since": "2021-09",
+          "source": "https://global.canon/ja/news/2021/20210929.html"
+        },
+        {
+          "name": "Canon Ophthalmic Technologies Sp. z o.o.",
+          "formerName": "OPTOPOL Technology S.A.",
+          "relation": "連結子会社",
+          "address": "ポーランド",
+          "note": "関係会社の状況の表には記載なし。沿革：2010年2月にOPTOPOL Technologyの株式を取得（現社名で記載）",
+          "since": "2010-02"
+        },
+        {
+          "name": "キヤノンITSメディカル株式会社",
+          "relation": "連結子会社",
+          "note": "関係会社の状況の表には記載なし。有報の多様性指標（連結子会社）に社名のみ記載"
+        }
+      ]
     }
   },
   {
@@ -72646,6 +75275,187 @@
       "kind": "header",
       "source": "https://holdings.fujifilm.com/themes/custom/fujifilm_com_g2/common/img/fujifilm_corporate_logo.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://data.swcms.net/file/ir-fujifilm/dam/jcr:84397cdf-d60f-43f8-a6d9-72caf4455ef1/S100YIBH.pdf",
+      "consolidated": 258,
+      "equityMethod": 27,
+      "scope": "healthcare",
+      "note": "ヘルスケアに関わる会社だけを載せています（医療診断用製品・医薬品・試薬・バイオ医薬品受託製造・創薬支援材料など）。写真・電子材料などと一緒に医療診断用製品も扱う地域販売会社（欧州・中東・インド・アジア・中国など）は省きました。表は主要な会社のみ（連結子会社「その他208社」、関連会社「その他25社」）。",
+      "members": [
+        {
+          "name": "富士フイルム株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 40000,
+          "business": "ヘルスケア・エレクトロニクス・イメージング各部門事業戦略統括及び関連製品・サービスの製造及び販売",
+          "voting": 100,
+          "note": "特定子会社。ヘルスケア事業の中核会社（エレクトロニクス・イメージングも統括）。沿革：2006年10月に全ての営業を新設分割で承継して設立",
+          "since": "2006-10"
+        },
+        {
+          "name": "富士フイルムヘルスケアマニュファクチャリング株式会社",
+          "relation": "連結子会社",
+          "address": "千葉県柏市",
+          "capital": 100,
+          "business": "医療診断用製品・サービスの製造",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "富士フイルム富山化学株式会社",
+          "formerName": "富山化学工業株式会社",
+          "relation": "連結子会社",
+          "address": "東京都中央区",
+          "capital": 100,
+          "business": "医薬品等の製造及び販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2008年3月に富山化学工業の株式を公開買付けで取得し連結子会社化（現 富士フイルム富山化学へ統合）",
+          "since": "2008-03"
+        },
+        {
+          "name": "富士フイルム和光純薬株式会社",
+          "formerName": "和光純薬工業株式会社",
+          "relation": "連結子会社",
+          "address": "大阪府大阪市",
+          "capital": 2340,
+          "business": "試薬、化成品、臨床検査薬の製造及び販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2017年4月に和光純薬工業の株式を公開買付けで取得し連結子会社化",
+          "since": "2017-04"
+        },
+        {
+          "name": "富士フイルムメディカル株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 1200,
+          "business": "医療診断用製品・サービスの販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "FUJIFILM Diosynth Biotechnologies U.S.A., Inc.",
+          "relation": "連結子会社",
+          "address": "米国",
+          "capitalText": "1千US$",
+          "business": "バイオ医薬品の受託製造及び販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2011年3月にMSD Biologics (UK)とDiosynth RTP Inc.を買収（現 FUJIFILM Diosynth Biotechnologies UK Limited 他）。この会社との対応は沿革に明記なし"
+        },
+        {
+          "name": "FUJIFILM SonoSite, Inc.",
+          "formerName": "SonoSite, Inc.",
+          "relation": "連結子会社",
+          "address": "米国",
+          "capitalText": "141千US$",
+          "business": "超音波診断装置の研究、開発、製造及び販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2012年3月に買収",
+          "since": "2012-03"
+        },
+        {
+          "name": "FUJIFILM Diosynth Biotechnologies Texas, LLC",
+          "relation": "連結子会社",
+          "address": "米国",
+          "capitalText": "0千US$",
+          "business": "ワクチン等含むバイオ医薬品の受託製造及び販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "FUJIFILM Cellular Dynamics, Inc.",
+          "formerName": "Cellular Dynamics International, Inc.",
+          "relation": "連結子会社",
+          "address": "米国",
+          "capitalText": "2千US$",
+          "business": "創薬支援、細胞治療等向けのiPS細胞の開発、製造及び販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2015年5月に買収",
+          "since": "2015-05"
+        },
+        {
+          "name": "FUJIFILM Biosciences Inc.",
+          "formerName": "Irvine Scientific Sales Company, Inc.",
+          "relation": "連結子会社",
+          "address": "米国",
+          "capitalText": "19千US$",
+          "business": "抗体用培地・人工授精用培地の開発、製造及び販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2018年6月に買収",
+          "since": "2018-06"
+        },
+        {
+          "name": "FUJIFILM Diosynth Biotechnologies North Carolina, Inc.",
+          "relation": "連結子会社",
+          "address": "米国",
+          "capitalText": "0千US$",
+          "business": "バイオ医薬品の受託製造及び販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "FUJIFILM Diosynth Biotechnologies California, Inc.",
+          "relation": "連結子会社",
+          "address": "米国",
+          "capitalText": "1千US$",
+          "business": "バイオ医薬品の受託製造及び販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2022年4月にAtara Biotherapeuticsの細胞治療薬製造拠点を買収",
+          "since": "2022-04"
+        },
+        {
+          "name": "FUJIFILM Healthcare Americas Corporation",
+          "relation": "連結子会社",
+          "address": "米国",
+          "capitalText": "30千US$",
+          "business": "医療診断用製品・サービスの開発及び販売",
+          "voting": 100,
+          "indirect": 100
+        },
+        {
+          "name": "FUJIFILM Diosynth Biotechnologies UK Limited",
+          "formerName": "MSD Biologics (UK) Limited",
+          "relation": "連結子会社",
+          "address": "英国",
+          "capitalText": "25,703千STG￡",
+          "business": "バイオ医薬品の受託製造及び販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2011年3月に買収",
+          "since": "2011-03"
+        },
+        {
+          "name": "FUJIFILM Diosynth Biotechnologies Denmark ApS",
+          "formerName": "Biogen (Denmark) Manufacturing ApS",
+          "relation": "連結子会社",
+          "address": "デンマーク",
+          "capitalText": "150千DKK",
+          "business": "バイオ医薬品の受託製造及び販売",
+          "voting": 100,
+          "indirect": 100,
+          "note": "沿革：2019年8月に買収",
+          "since": "2019-08"
+        },
+        {
+          "name": "協和キリン富士フイルムバイオロジクス株式会社",
+          "relation": "関連会社",
+          "address": "東京都千代田区",
+          "capital": 100,
+          "business": "バイオシミラー医薬品の開発、製造及び販売",
+          "voting": 50,
+          "indirect": 50,
+          "note": "債務超過会社"
+        }
+      ]
     }
   },
   {
@@ -105344,7 +108154,7 @@
   {
     "id": "8150001004399",
     "name": "ポシブル医科学株式会社",
-    "hp": "",
+    "hp": "https://www.possible-plus.co.jp/",
     "categories": [
       "nursing"
     ],
@@ -105365,14 +108175,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8150001004399",
-      "https://www.westjr.co.jp/press/article/2014/10/page_6257.html"
+      "https://www.westjr.co.jp/press/article/2014/10/page_6257.html",
+      "https://www.possible-plus.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "9430001022058",
     "name": "北海道システム・サイエンス株式会社",
-    "hp": "",
+    "hp": "https://hssnet.co.jp/",
     "categories": [
       "pharma",
       "simple-inspection"
@@ -105394,14 +108205,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9430001022058",
-      "https://bio.nikkeibp.co.jp/atcl/news/p1/24/07/16/12155/"
+      "https://bio.nikkeibp.co.jp/atcl/news/p1/24/07/16/12155/",
+      "https://hssnet.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "4120901036226",
     "name": "株式会社マトリクソーム",
-    "hp": "",
+    "hp": "https://matrixome.co.jp/",
     "categories": [
       "pharma"
     ],
@@ -105422,7 +108234,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4120901036226",
-      "https://www.seitaikai.com/post/matrixome"
+      "https://www.seitaikai.com/post/matrixome",
+      "https://matrixome.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -105466,7 +108279,7 @@
   {
     "id": "8011001028542",
     "name": "メディカルデータベース株式会社",
-    "hp": "",
+    "hp": "https://www.medicaldb.co.jp/",
     "categories": [
       "pharmacy-dx",
       "medical-materials"
@@ -105487,7 +108300,8 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001028542"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001028542",
+      "https://www.medicaldb.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -105526,7 +108340,7 @@
   {
     "id": "5010401099139",
     "name": "ユニバーサル・サウンドデザイン株式会社",
-    "hp": "",
+    "hp": "https://u-s-d.co.jp/",
     "categories": [
       "medical-device",
       "nursing"
@@ -105550,14 +108364,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010401099139",
-      "https://prtimes.jp/main/html/rd/p/000000001.000048892.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000048892.html",
+      "https://u-s-d.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "9010001131693",
     "name": "ユニファイド・サービス株式会社",
-    "hp": "",
+    "hp": "https://unisrv.jp/",
     "categories": [
       "recruting-solutions"
     ],
@@ -105577,14 +108392,15 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001131693"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010001131693",
+      "https://unisrv.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "2011001072315",
     "name": "ライフツービッツ株式会社",
-    "hp": "",
+    "hp": "https://www.life2bits.com/",
     "categories": [
       "mental-health"
     ],
@@ -105605,14 +108421,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2011001072315",
-      "https://www.atpress.ne.jp/news/302771"
+      "https://www.atpress.ne.jp/news/302771",
+      "https://www.life2bits.com/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "2010001078017",
     "name": "株式会社ラディオアクティブ",
-    "hp": "",
+    "hp": "http://www.radioactive.jp/",
     "categories": [
       "telemedicine",
       "medical-image"
@@ -105633,14 +108450,15 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010001078017"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010001078017",
+      "http://www.radioactive.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "9010501027061",
     "name": "株式会社理研ジェネシス",
-    "hp": "",
+    "hp": "https://www.rikengenesis.jp/",
     "categories": [
       "simple-inspection",
       "diagnostic-support"
@@ -105661,14 +108479,15 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010501027061"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010501027061",
+      "https://www.rikengenesis.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "6010001138782",
     "name": "リブト株式会社",
-    "hp": "",
+    "hp": "https://livet.jp/",
     "categories": [
       "medical-device"
     ],
@@ -105689,14 +108508,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010001138782",
-      "https://www.ey.com/ja_jp/insights/health/aiming-for-a-society-where-people-eat-from-their-mouths-for-the-rest-of-their-lives"
+      "https://www.ey.com/ja_jp/insights/health/aiming-for-a-society-where-people-eat-from-their-mouths-for-the-rest-of-their-lives",
+      "https://livet.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "6010001088813",
     "name": "リンパ球バンク株式会社",
-    "hp": "",
+    "hp": "https://www.lymphocyte-bank.co.jp/",
     "categories": [
       "pharma"
     ],
@@ -105717,14 +108537,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010001088813",
-      "https://zuuonline.com/archives/239588"
+      "https://zuuonline.com/archives/239588",
+      "https://www.lymphocyte-bank.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "8011101049876",
     "name": "株式会社ルフト・メディカルケア",
-    "hp": "",
+    "hp": "https://www.m-care.co.jp/",
     "categories": [
       "nursing",
       "medical-management-support"
@@ -105746,7 +108567,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101049876",
-      "https://prtimes.jp/main/html/rd/p/000000007.000022709.html"
+      "https://prtimes.jp/main/html/rd/p/000000007.000022709.html",
+      "https://www.m-care.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -105782,7 +108604,7 @@
   {
     "id": "7010001164431",
     "name": "株式会社ロボキュア",
-    "hp": "",
+    "hp": "http://robocure.jp/",
     "categories": [
       "medical-device"
     ],
@@ -105803,14 +108625,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001164431",
-      "https://prtimes.jp/main/html/rd/p/000000003.000023746.html"
+      "https://prtimes.jp/main/html/rd/p/000000003.000023746.html",
+      "http://robocure.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "2010001154503",
     "name": "株式会社ワイズマン",
-    "hp": "",
+    "hp": "https://www.wiseman.co.jp/",
     "categories": [
       "nursing",
       "medical-saas"
@@ -105833,7 +108656,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010001154503",
       "https://maonline.jp/news/20260605b",
-      "https://www.nikkei.com/nkd/disclosure/tdnr/20260605564198/"
+      "https://www.nikkei.com/nkd/disclosure/tdnr/20260605564198/",
+      "https://www.wiseman.co.jp/"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -105937,7 +108761,7 @@
   {
     "id": "5070001028962",
     "name": "株式会社C&T",
-    "hp": "",
+    "hp": "https://www.c-and-t.co.jp/",
     "categories": [
       "telemedicine",
       "medical-dx"
@@ -105963,14 +108787,15 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5070001028962",
       "https://prtimes.jp/main/html/rd/p/000000007.000178687.html",
       "https://www.jomo-news.co.jp/articles/-/306166",
-      "https://ovo.kyodo.co.jp/news/a-2042987"
+      "https://ovo.kyodo.co.jp/news/a-2042987",
+      "https://www.c-and-t.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "7010601034612",
     "name": "株式会社CICS",
-    "hp": "",
+    "hp": "https://www.cics.jp/",
     "categories": [
       "medical-device"
     ],
@@ -105994,14 +108819,15 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010601034612",
       "https://prtimes.jp/main/html/rd/p/000000373.000047917.html",
-      "https://prtimes.jp/main/html/rd/p/000000265.000047917.html"
+      "https://prtimes.jp/main/html/rd/p/000000265.000047917.html",
+      "https://www.cics.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "5240001037608",
     "name": "株式会社DPPヘルスパートナーズ",
-    "hp": "",
+    "hp": "https://dpphp.jp/",
     "categories": [
       "disease-management-program",
       "health-insuarance-market"
@@ -106023,7 +108849,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5240001037608",
-      "https://prtimes.jp/main/html/rd/p/000000149.000005823.html"
+      "https://prtimes.jp/main/html/rd/p/000000149.000005823.html",
+      "https://dpphp.jp/"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -106183,7 +109010,7 @@
   {
     "id": "8130001032113",
     "name": "iPSアカデミアジャパン株式会社",
-    "hp": "",
+    "hp": "https://ips-cell.net/",
     "categories": [
       "pharma"
     ],
@@ -106204,7 +109031,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8130001032113",
-      "https://www.kyoto-u.ac.jp/ja/archive/prev/news_data/h/h1/2008/news7/080703_1"
+      "https://www.kyoto-u.ac.jp/ja/archive/prev/news_data/h/h1/2008/news7/080703_1",
+      "https://ips-cell.net/"
     ],
     "updatedAt": "2026-10"
   },
@@ -106246,7 +109074,7 @@
   {
     "id": "2010401121020",
     "name": "Karydo TherapeutiX株式会社",
-    "hp": "",
+    "hp": "https://karydo-tx.com/",
     "categories": [
       "pharma",
       "medical-data-analytics"
@@ -106271,14 +109099,15 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401121020",
       "https://www.jst.go.jp/pr/announce/20200110/index.html",
-      "https://prtimes.jp/main/html/rd/p/000000004.000051819.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000051819.html",
+      "https://karydo-tx.com/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "8011001113889",
     "name": "株式会社Medical Compass",
-    "hp": "",
+    "hp": "https://medicalcompass.co.jp/",
     "categories": [
       "health-consulting"
     ],
@@ -106299,7 +109128,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001113889",
-      "https://apps.apple.com/jp/app/%E5%81%A5%E3%81%93%E3%82%93%E3%81%B1%E3%81%99/id1249220776"
+      "https://apps.apple.com/jp/app/%E5%81%A5%E3%81%93%E3%82%93%E3%81%B1%E3%81%99/id1249220776",
+      "https://medicalcompass.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -106373,7 +109203,7 @@
   {
     "id": "2020001106008",
     "name": "QLデンタルメーカー株式会社",
-    "hp": "",
+    "hp": "https://www.qldm.co.jp/",
     "categories": [
       "dental"
     ],
@@ -106397,7 +109227,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2020001106008",
       "https://prtimes.jp/main/html/rd/p/000000001.000038816.html",
-      "https://prtimes.jp/main/html/rd/p/000000004.000038816.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000038816.html",
+      "https://www.qldm.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -106473,7 +109304,7 @@
   {
     "id": "5010001158154",
     "name": "TAKホールディングス株式会社",
-    "hp": "",
+    "hp": "https://myskin.jp/",
     "categories": [
       "pharma",
       "simple-inspection"
@@ -106498,7 +109329,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001158154",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010001225650",
-      "https://bio.nikkeibp.co.jp/atcl/column/16/021500017/021900322/"
+      "https://bio.nikkeibp.co.jp/atcl/column/16/021500017/021900322/",
+      "https://myskin.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -106721,7 +109553,7 @@
   {
     "id": "3290001047075",
     "name": "株式会社アグリス",
-    "hp": "",
+    "hp": "https://www.aglis.co.jp/",
     "categories": [
       "medical-materials",
       "medical-device"
@@ -106743,7 +109575,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3290001047075",
-      "https://www.nikkei.com/article/DGXZQOJC032L20T00C21A9000000/"
+      "https://www.nikkei.com/article/DGXZQOJC032L20T00C21A9000000/",
+      "https://www.aglis.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -106781,7 +109614,7 @@
   {
     "id": "5500001005265",
     "name": "株式会社アドメテック",
-    "hp": "",
+    "hp": "https://www.admetech.co.jp/",
     "categories": [
       "medical-device"
     ],
@@ -106805,7 +109638,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5500001005265",
       "https://www.nikkei.com/article/DGXMZO49744700S9A910C1LA0000/",
-      "https://www.nikkan.co.jp/articles/view/387048"
+      "https://www.nikkan.co.jp/articles/view/387048",
+      "https://www.admetech.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -106874,7 +109708,7 @@
   {
     "id": "2060001026037",
     "name": "株式会社ONODERA GT Pharma",
-    "hp": "",
+    "hp": "https://www.onodera-gtp.com/",
     "categories": [
       "pharma"
     ],
@@ -106898,7 +109732,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2060001026037",
       "https://bio.nikkeibp.co.jp/atcl/news/p1/25/04/14/13198/",
-      "https://bio.nikkeibp.co.jp/atcl/news/p1/21/08/04/08455/"
+      "https://bio.nikkeibp.co.jp/atcl/news/p1/21/08/04/08455/",
+      "https://www.onodera-gtp.com/"
     ],
     "updatedAt": "2026-10"
   },
@@ -106944,7 +109779,7 @@
   {
     "id": "8120001170153",
     "name": "ウェトラブ株式会社",
-    "hp": "",
+    "hp": "https://www.wetlab.jp/",
     "categories": [
       "surgical-support",
       "medical-device"
@@ -106967,7 +109802,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120001170153",
       "https://dot.asahi.com/articles/-/269237",
-      "https://www.kobe-u.ac.jp/ja/news/article/20260512-67807/"
+      "https://www.kobe-u.ac.jp/ja/news/article/20260512-67807/",
+      "https://www.wetlab.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -107011,7 +109847,7 @@
   {
     "id": "6370001031290",
     "name": "エーアイシルク株式会社",
-    "hp": "",
+    "hp": "https://www.ai-silk.com/",
     "categories": [
       "personal-health-record",
       "medical-device"
@@ -107036,14 +109872,15 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6370001031290",
       "https://prtimes.jp/main/html/rd/p/000000146.000042912.html",
-      "https://prtimes.jp/main/html/rd/p/000000009.000069388.html"
+      "https://prtimes.jp/main/html/rd/p/000000009.000069388.html",
+      "https://www.ai-silk.com/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "3011101060350",
     "name": "株式会社エクセリーベ",
-    "hp": "",
+    "hp": "https://www.exceliebe.com/",
     "categories": [
       "mental-health"
     ],
@@ -107066,7 +109903,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011101060350",
-      "https://prtimes.jp/main/html/rd/p/000000003.000005001.html"
+      "https://prtimes.jp/main/html/rd/p/000000003.000005001.html",
+      "https://www.exceliebe.com/"
     ],
     "updatedAt": "2026-10"
   },
@@ -107104,7 +109942,7 @@
   {
     "id": "3380001004686",
     "name": "株式会社エヌジェイアイ",
-    "hp": "",
+    "hp": "https://nji.co.jp/",
     "categories": [
       "wholesale",
       "nursing"
@@ -107129,14 +109967,15 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3380001004686",
       "https://www.tmd.ac.jp/press-release/20221021-1/",
-      "https://www.nikkei.com/article/DGXNASFB30051_Q2A730C1L01000/"
+      "https://www.nikkei.com/article/DGXNASFB30051_Q2A730C1L01000/",
+      "https://nji.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "3010001100613",
     "name": "株式会社エム・ディー・マネジメント",
-    "hp": "",
+    "hp": "https://www.mdmg.co.jp/",
     "categories": [
       "recruting-solutions"
     ],
@@ -107157,7 +109996,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010001100613",
-      "https://prtimes.jp/main/html/rd/p/000000001.000117935.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000117935.html",
+      "https://www.mdmg.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -107300,7 +110140,7 @@
   {
     "id": "9220001008631",
     "name": "株式会社キュービクス",
-    "hp": "",
+    "hp": "https://www.kubix.co.jp/",
     "categories": [
       "simple-inspection",
       "diagnostic-support"
@@ -107322,14 +110162,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9220001008631",
-      "https://www.chunichi.co.jp/article/965938"
+      "https://www.chunichi.co.jp/article/965938",
+      "https://www.kubix.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "7130001058729",
     "name": "京ダイアグノスティクス株式会社",
-    "hp": "",
+    "hp": "https://kyo-diagnostics.jp/",
     "categories": [
       "diagnostic-support"
     ],
@@ -107352,7 +110193,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7130001058729",
-      "https://www.seitaikai.com/post/kyo-diagnostics"
+      "https://www.seitaikai.com/post/kyo-diagnostics",
+      "https://kyo-diagnostics.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -107423,7 +110265,7 @@
   {
     "id": "6010401073142",
     "name": "ALSOKケアプラス株式会社",
-    "hp": "",
+    "hp": "https://care-plus.co.jp/",
     "categories": [
       "home-medical",
       "nursing"
@@ -107445,7 +110287,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401073142",
-      "https://www.koureisha-jutaku.com/20180627_01_2/"
+      "https://www.koureisha-jutaku.com/20180627_01_2/",
+      "https://care-plus.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -107517,7 +110360,7 @@
   {
     "id": "8350001000568",
     "name": "株式会社コア・クリエイトシステム",
-    "hp": "",
+    "hp": "https://www.corecreate.com/",
     "categories": [
       "electronic-health-record"
     ],
@@ -107538,7 +110381,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8350001000568",
-      "https://www.e-radfan.com/product/84/"
+      "https://www.e-radfan.com/product/84/",
+      "https://www.corecreate.com/"
     ],
     "updatedAt": "2026-10"
   },
@@ -107576,7 +110420,7 @@
   {
     "id": "3011001095455",
     "name": "株式会社こころみ",
-    "hp": "",
+    "hp": "https://cocolomi.co.jp/",
     "categories": [
       "nursing"
     ],
@@ -107597,7 +110441,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011001095455",
-      "https://prtimes.jp/main/html/rd/p/000000010.000009237.html"
+      "https://prtimes.jp/main/html/rd/p/000000010.000009237.html",
+      "https://cocolomi.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -107634,7 +110479,7 @@
   {
     "id": "9010501021782",
     "name": "株式会社ジースポート",
-    "hp": "",
+    "hp": "https://www.gsport.co.jp/",
     "categories": [
       "fitness",
       "nursing"
@@ -107659,7 +110504,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010501021782",
       "https://www.atpress.ne.jp/news/265601",
-      "https://www.atpress.ne.jp/news/29027"
+      "https://www.atpress.ne.jp/news/29027",
+      "https://www.gsport.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -107698,7 +110544,7 @@
   {
     "id": "3010801021447",
     "name": "シンクロア株式会社",
-    "hp": "",
+    "hp": "https://www.synqroa.co.jp/",
     "categories": [
       "medical-device",
       "dental"
@@ -107720,7 +110566,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3010801021447",
-      "https://prtimes.jp/main/html/rd/p/000000011.000084801.html"
+      "https://prtimes.jp/main/html/rd/p/000000011.000084801.html",
+      "https://www.synqroa.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -108003,6 +110850,33 @@
       "kind": "header",
       "source": "https://www.softs.co.jp/",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-10",
+      "sourceLabel": "2025年10月期 有価証券報告書",
+      "source": "https://www.softs.co.jp/ir/assets/pdf/57th_yuho.pdf",
+      "consolidated": 1,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "株式会社エスエスネット",
+          "formerName": "ユタカインテグレーション株式会社",
+          "relation": "連結子会社",
+          "address": "大阪市城東区",
+          "capital": 25,
+          "business": "情報機器の企画、設計、設置、工事、運用、保守等（院内ネットワーク工事）",
+          "voting": 100,
+          "note": "2020年8月に100%出資子会社化、2024年8月に商号変更",
+          "since": "2020-08"
+        },
+        {
+          "name": "株式会社エスエスサポート",
+          "formerName": "株式会社病院システム研究所",
+          "relation": "非連結子会社",
+          "note": "持分法非適用（連結の範囲・持分法の注記）。1990年4月に設立、2001年10月に100%出資子会社化、2002年10月に商号変更",
+          "since": "1990-04"
+        }
+      ]
     }
   },
   {
@@ -108197,6 +111071,36 @@
       "source": "https://prtimes.jp/data/corp/9200/tmp-3d0092037a2637fbab84c69bf5f3ed01-179cda58814b61b98c329db9b6e57d21.jpg",
       "checkedAt": "2026-11",
       "shape": "square"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 有価証券報告書",
+      "source": "https://findex.co.jp/ir/data/pdf/securities_20260325.pdf",
+      "consolidated": 1,
+      "equityMethod": 1,
+      "members": [
+        {
+          "name": "フィッティングクラウド株式会社",
+          "relation": "連結子会社",
+          "address": "京都市中京区",
+          "capital": 10,
+          "business": "医療ビジネス（クラウドを利用したITサービスの提供：Weberi、Bricks、Valloon、CocktailAI）",
+          "voting": 70,
+          "since": "2021-04"
+        },
+        {
+          "name": "EMC Healthcare株式会社",
+          "companyId": "1010401129782",
+          "formerName": "イーグルマトリックスコンサルティング株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "東京都千代田区",
+          "capital": 100,
+          "business": "ヘルステックビジネス（医療データマネジメントソリューション、医療機関経営コンサルティング、ヘルステック関連製品の受託開発・研究開発）",
+          "voting": 18.9,
+          "note": "2017年2月に連結子会社として設立、2018年8月に商号変更。2022年7月に役員・従業員のストックオプション行使で持分法適用関連会社へ",
+          "since": "2017-02"
+        }
+      ]
     }
   },
   {
