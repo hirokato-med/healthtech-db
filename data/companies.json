@@ -5023,7 +5023,7 @@
           "name": "株式会社医師たちとつくる",
           "end": "2026-05",
           "how": "株式譲渡",
-          "note": "獣医師監修の商品の企画・開発・販売（医師のともの子会社、2023年1月設立）。同社代表に全株式を譲渡。有価証券報告書の後に売却（IRの発表）",
+          "note": "獣医師監修の商品の企画・販売（医師のともの子会社）。有価証券報告書の後に売却（IRの発表）",
           "source": "https://ssl4.eir-parts.net/doc/6034/tdnet/2822593/00.pdf"
         }
       ]
@@ -5436,7 +5436,7 @@
           "since": "2021-12"
         },
         {
-          "name": "デジタルトランスフォーメーションファンド投資事業有限責任組合第１号",
+          "name": "デジタルトランスフォーメーションファンド投資事業有限責任組合第1号",
           "relation": "持分法適用関連会社",
           "note": "持分法の適用に関する事項に記載（表では「その他1社」）"
         }
@@ -6879,7 +6879,7 @@
           "relation": "持分法非適用関連会社"
         },
         {
-          "name": "バリューＨＲベンチャー１号ファンド有限責任事業組合",
+          "name": "バリューHRベンチャー1号ファンド有限責任事業組合",
           "relation": "持分法非適用関連会社"
         }
       ],
@@ -9944,6 +9944,122 @@
       "kind": "header",
       "source": "https://www.cyberdyne.jp/media/19855/company-logo.svg?1793574338",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://www.cyberdyne.jp/media/25978/20260623_qr.pdf",
+      "consolidated": 13,
+      "equityMethod": 2,
+      "members": [
+        {
+          "name": "Cyberdyne Care Robotics GmbH",
+          "relation": "連結子会社",
+          "address": "ドイツ NRW州ボーフム市",
+          "capitalText": "25,000ユーロ",
+          "business": "HAL®を利用した機能改善治療サービス、HAL®の外販",
+          "voting": 100,
+          "since": "2013-08"
+        },
+        {
+          "name": "CYBERDYNE USA INC.",
+          "relation": "連結子会社",
+          "address": "アメリカ合衆国カリフォルニア州",
+          "capitalText": "17,600,000米ドル",
+          "business": "米国における当社事業の統括・推進",
+          "voting": 100,
+          "since": "2016-08"
+        },
+        {
+          "name": "RISE Healthcare Group, Inc",
+          "relation": "連結子会社",
+          "address": "アメリカ合衆国カリフォルニア州",
+          "capitalText": "990,748米ドル",
+          "business": "医療機関（外来理学療法クリニック）の統括・管理",
+          "voting": 100,
+          "indirect": 100,
+          "since": "2021-12"
+        },
+        {
+          "name": "CYBERDYNE MALAYSIA SDN.BHD.",
+          "relation": "連結子会社",
+          "address": "マレーシア クアラルンプール",
+          "capitalText": "1,000,000マレーシアリンギット",
+          "business": "アジア太平洋地域における当社事業の推進",
+          "voting": 100,
+          "since": "2022-02"
+        },
+        {
+          "name": "鈴鹿ロボケアセンター株式会社",
+          "relation": "連結子会社",
+          "address": "三重県鈴鹿市",
+          "capital": 3,
+          "business": "HAL®を活用したトレーニング事業",
+          "voting": 100,
+          "since": "2013-04"
+        },
+        {
+          "name": "湘南ロボケアセンター株式会社",
+          "relation": "連結子会社",
+          "address": "神奈川県藤沢市",
+          "capital": 7,
+          "business": "HAL®を活用したトレーニング事業",
+          "voting": 100,
+          "since": "2013-08"
+        },
+        {
+          "name": "大分ロボケアセンター株式会社",
+          "relation": "連結子会社",
+          "address": "大分県別府市",
+          "capital": 3,
+          "business": "HAL®を利用したトレーニング事業",
+          "voting": 100
+        },
+        {
+          "name": "株式会社C2",
+          "companyId": "2010001130132",
+          "relation": "連結子会社",
+          "address": "東京都文京区",
+          "capital": 10,
+          "business": "スマートフォン向けヘルスケアアプリ「熟睡アラーム」の開発運営",
+          "voting": 100
+        },
+        {
+          "name": "CEJキャピタル株式会社",
+          "relation": "連結子会社",
+          "address": "茨城県つくば市",
+          "capital": 50,
+          "business": "サイバニクス・エクセレンス・ジャパン１号投資事業有限責任組合の管理・運営",
+          "voting": 60
+        },
+        {
+          "name": "サイバニクス・エクセレンス・ジャパン1号投資事業有限責任組合",
+          "relation": "連結子会社",
+          "address": "東京都渋谷区",
+          "capital": 8910,
+          "business": "サイバニクス産業の創出を目的とした投資ファンド関連事業（CEJファンド）",
+          "voting": 60,
+          "indirect": 60,
+          "note": "出資金8,910百万円",
+          "since": "2018-07"
+        },
+        {
+          "name": "CYBERDYNE Omni Networks株式会社",
+          "relation": "持分法適用関連会社",
+          "address": "茨城県つくば市",
+          "capital": 160,
+          "business": "サイバニクス分野におけるIoH/IoTに関する通信事業、通信デバイス提供及び関連サービス事業",
+          "voting": 49
+        },
+        {
+          "name": "株式会社志成データム",
+          "relation": "持分法適用関連会社",
+          "address": "東京都町田市",
+          "capital": 150,
+          "business": "医療用電子血圧計等の設計・開発・製造",
+          "voting": 32
+        }
+      ]
     }
   },
   {
@@ -10386,6 +10502,41 @@
       "kind": "header",
       "source": "https://prtimes.jp/data/corp/174736/logo/pc-388f7de4ab4cf7bf3bb5d6c8e485f5b7-b32f42023b96e9736f4620beac7e1160.jpeg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2025-12",
+      "sourceLabel": "2025年12月期 決算短信と適時開示（有価証券報告書は取得できず）",
+      "source": "https://www2.jpx.co.jp/disc/60290/140120260213559416.pdf",
+      "members": [
+        {
+          "name": "SIbot株式会社",
+          "relation": "連結子会社",
+          "address": "東京都港区",
+          "capital": 10,
+          "business": "ロボットシステム及び産業用ソフトウェアの企画・設計・開発・販売・保守（ヒューマノイドロボットの販売・導入支援、学習データ拠点「データファクトリー」の計画）",
+          "voting": 51,
+          "note": "有価証券報告書の後に子会社化（IRの発表）。RBB株式会社との合弁（当社51％・RBB 49％）で2026年10月31日に設立予定。特定子会社に該当する見込み",
+          "since": "2026-10",
+          "source": "https://www2.jpx.co.jp/disc/60290/140120261028558187.pdf"
+        }
+      ],
+      "former": [
+        {
+          "name": "株式会社One Third Residence",
+          "end": "2022-04",
+          "how": "株式譲渡",
+          "note": "フィットネスクラブの運営、Fitness Mirror事業。保有株式（85.2％）をすべて譲渡",
+          "source": "https://www2.jpx.co.jp/disc/60290/140120220426527843.pdf"
+        },
+        {
+          "name": "株式会社ペリカン",
+          "since": "2021-11",
+          "end": "2026-03",
+          "how": "株式譲渡",
+          "note": "玩具・文具等の販売。全株式を石川玩具に譲渡。有価証券報告書の後に売却（IRの発表）",
+          "source": "https://www2.jpx.co.jp/disc/60290/140120260330593103.pdf"
+        }
+      ]
     }
   },
   {
@@ -10783,6 +10934,50 @@
       "kind": "header",
       "source": "https://genova.co.jp/common/img/logo_red.svg",
       "checkedAt": "2026-11"
+    },
+    "group": {
+      "asOf": "2026-03",
+      "sourceLabel": "2026年3月期 有価証券報告書",
+      "source": "https://contents.xj-storage.jp/xcontents/AS71314/aadbc1f4/47fb/41e4/bfef/aa3ce5b9a744/S100YFQH.pdf",
+      "consolidated": 3,
+      "equityMethod": 0,
+      "members": [
+        {
+          "name": "智樹(大連)技術開発有限公司",
+          "relation": "連結子会社",
+          "address": "中国遼寧省大連市",
+          "capitalText": "1,360千人民元",
+          "business": "その他事業（Webサイトの制作及び運用保守等の受託。日本向けオフショア開発拠点）",
+          "voting": 100,
+          "since": "2012-12"
+        },
+        {
+          "name": "株式会社ASANO",
+          "relation": "連結子会社",
+          "address": "石川県金沢市",
+          "capital": 50,
+          "business": "歯科流通事業・DX事業・その他事業（歯科用器械・材料・薬品等の販売など）",
+          "voting": 100,
+          "note": "株式会社ADI.Gの歯科関連事業を承継するために設立。売上高が連結売上高の10％超",
+          "since": "2025-05"
+        }
+      ],
+      "former": [
+        {
+          "name": "株式会社GENOVAマーケティング",
+          "since": "2018-12",
+          "end": "2024-02",
+          "how": "清算結了",
+          "note": "株式会社NDPマーケティングとの合弁。2023年11月に事業をGENOVA DESiGNへ譲渡"
+        },
+        {
+          "name": "株式会社GENOVA DESiGN",
+          "since": "2018-05",
+          "end": "2026-04",
+          "how": "吸収合併",
+          "note": "医療機関向けwebマーケティング。期末後に当社が吸収合併（有報の後発事象）"
+        }
+      ]
     }
   },
   {
@@ -14131,7 +14326,7 @@
     "representatives": [
       "本田信司"
     ],
-    "exit": "未上場",
+    "exit": "バイアウト",
     "parentCompany": "トライアンフコーポレーション",
     "relatedCompanies": [],
     "corporateNumber": "2010001130132",
@@ -14214,7 +14409,14 @@
       "kind": "header",
       "source": "https://www.c2inc.co.jp/images/logo.png",
       "checkedAt": "2026-11"
-    }
+    },
+    "history": [
+      {
+        "date": "2021-08",
+        "text": "CYBERDYNEが完全子会社化",
+        "source": "https://f.irbank.net/pdf/20210831/140120210831492276.pdf"
+      }
+    ]
   },
   {
     "id": "6011001066651",
@@ -54552,8 +54754,8 @@
     "representatives": [
       "中村達也"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "株式会社ユカリア",
     "relatedCompanies": [],
     "corporateNumber": "7011001106274",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001106274",
@@ -54642,7 +54844,14 @@
       "kind": "header",
       "source": "https://medistep.jp/wp-content/uploads/2022/11/7183661360ad8c1705a18e6ca37a060d.png",
       "checkedAt": "2026-11"
-    }
+    },
+    "history": [
+      {
+        "date": "2025-05",
+        "text": "ユカリアが子会社化",
+        "source": "https://f.irbank.net/pdf/20250515/140120250515554014.pdf"
+      }
+    ]
   },
   {
     "id": "5011101089693",
@@ -72837,7 +73046,7 @@
         },
         {
           "name": "日本ケアサプライ株式会社",
-          "relation": "持分法適用関連会社",
+          "relation": "持分法適用会社",
           "address": "東京都港区",
           "capital": 2898,
           "business": "S.L.C.（介護保険の福祉用具レンタル卸）",
@@ -73071,7 +73280,7 @@
         },
         {
           "name": "IHH Healthcare Berhad",
-          "relation": "持分法適用関連会社",
+          "relation": "持分法適用会社",
           "address": "マレーシア クアラルンプール",
           "capitalText": "20,188,415千MYR",
           "business": "ヘルスケア関連事業（アジア最大級の民間病院グループ）",
@@ -73302,7 +73511,7 @@
         },
         {
           "name": "アンドファーマ株式会社",
-          "relation": "持分法適用関連会社",
+          "relation": "関連会社及びジョイント・ベンチャー",
           "address": "東京都千代田区",
           "capital": 100,
           "business": "医薬品の製造・販売",
@@ -79716,8 +79925,7 @@
           "name": "Cowellnex株式会社",
           "relation": "グループ会社",
           "business": "医領域の研究開発・ベンチャー投資・事業開発（ヘルスサイエンス）",
-          "note": "関係会社の状況の表には記載なし。協和キリンとの共同出資で2024年に設立（有報の経営方針の記載。月は記載なし）",
-          "since": "2024"
+          "note": "関係会社の状況の表には記載なし。協和キリンとの共同出資で2024年に設立（有報の経営方針の記載。月は記載なし）"
         }
       ],
       "former": [
@@ -84718,8 +84926,8 @@
     "representatives": [
       "生田目知之"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "株式会社ディー・エヌ・エー",
     "relatedCompanies": [],
     "corporateNumber": "6010401118509",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401118509",
@@ -84806,7 +85014,14 @@
       "kind": "header",
       "source": "https://systems.nippontect.co.jp/hubfs/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A-1.png",
       "checkedAt": "2026-11"
-    }
+    },
+    "history": [
+      {
+        "date": "2021-07",
+        "text": "ディー・エヌ・エーが子会社化",
+        "source": "https://dena.com/jp/news/4760/"
+      }
+    ]
   },
   {
     "id": "6011101078877",
@@ -89035,8 +89250,8 @@
     "representatives": [
       "齋藤竜也"
     ],
-    "exit": "未上場",
-    "parentCompany": "",
+    "exit": "バイアウト",
+    "parentCompany": "シスメックス株式会社",
     "relatedCompanies": [],
     "corporateNumber": "2010401095710",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401095710",
@@ -89108,7 +89323,14 @@
       "source": "https://www.megakaryon.com/img/icon.png",
       "checkedAt": "2026-11",
       "shape": "square"
-    }
+    },
+    "history": [
+      {
+        "date": "2023-12",
+        "text": "シスメックスが子会社化",
+        "source": "https://www.sysmex.co.jp/newsroom/news/231221.html"
+      }
+    ]
   },
   {
     "id": "3130001055894",
@@ -113975,7 +114197,7 @@
   {
     "id": "2010501032828",
     "name": "株式会社スタージェン",
-    "hp": "",
+    "hp": "https://stagen.co.jp/",
     "categories": [
       "medical-data-analytics",
       "pharma"
@@ -113999,7 +114221,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010501032828",
-      "https://prtimes.jp/main/html/rd/p/000000417.000002943.html"
+      "https://prtimes.jp/main/html/rd/p/000000417.000002943.html",
+      "https://stagen.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -114035,7 +114258,7 @@
   {
     "id": "8010001142832",
     "name": "スマートメディカル株式会社",
-    "hp": "",
+    "hp": "http://smartmedical.jp/",
     "categories": [
       "mental-health",
       "medical-data-analytics"
@@ -114059,7 +114282,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010001142832",
-      "https://prtimes.jp/main/html/rd/p/000000007.000020089.html"
+      "https://prtimes.jp/main/html/rd/p/000000007.000020089.html",
+      "http://smartmedical.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -114130,7 +114354,7 @@
   {
     "id": "6010401064447",
     "name": "株式会社セルバンク",
-    "hp": "",
+    "hp": "https://cellbank.co.jp/",
     "categories": [
       "pharma",
       "medical-cosmetic"
@@ -114155,14 +114379,15 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010401064447",
       "https://prtimes.jp/main/html/rd/p/000000062.000080579.html",
-      "https://prtimes.jp/main/html/rd/p/000000055.000080579.html"
+      "https://prtimes.jp/main/html/rd/p/000000055.000080579.html",
+      "https://cellbank.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "1050001016923",
     "name": "セルメディシン株式会社",
-    "hp": "",
+    "hp": "https://cell-medicine.com/",
     "categories": [
       "pharma"
     ],
@@ -114185,7 +114410,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1050001016923",
-      "https://gansupport.jp/article/treatment/immunity/3753/"
+      "https://gansupport.jp/article/treatment/immunity/3753/",
+      "https://cell-medicine.com/"
     ],
     "updatedAt": "2026-10"
   },
@@ -114283,7 +114509,7 @@
   {
     "id": "1120001173708",
     "name": "株式会社デジタルスタンダード",
-    "hp": "",
+    "hp": "https://digital-standard.com/",
     "categories": [
       "fitness",
       "nursing"
@@ -114306,14 +114532,15 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1120001173708",
       "https://www.dreamnews.jp/press/0000129149",
-      "https://apps.apple.com/jp/app/seniorquality/id1081764213"
+      "https://apps.apple.com/jp/app/seniorquality/id1081764213",
+      "https://digital-standard.com/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "2140001099900",
     "name": "株式会社トータルブレインケア",
-    "hp": "",
+    "hp": "https://tbcare.co.jp/",
     "categories": [
       "diagnostic-support",
       "health-corporate-management"
@@ -114337,14 +114564,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2140001099900",
-      "https://prtimes.jp/main/html/rd/p/000000002.000068511.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000068511.html",
+      "https://tbcare.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "7190001014957",
     "name": "ニュートリー株式会社",
-    "hp": "",
+    "hp": "https://www.nutri.co.jp/",
     "categories": [
       "nursing",
       "direct-to-consumer"
@@ -114369,7 +114597,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7190001014957",
       "https://prtimes.jp/main/html/rd/p/000000013.000014870.html",
-      "https://www.ssnp.co.jp/beverage/173790/"
+      "https://www.ssnp.co.jp/beverage/173790/",
+      "https://www.nutri.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -114410,7 +114639,7 @@
   {
     "id": "4010001072505",
     "name": "ヒュービットジェノミクス株式会社",
-    "hp": "",
+    "hp": "https://hubitgenomix.com/",
     "categories": [
       "cro",
       "pharma"
@@ -114434,7 +114663,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010001072505",
-      "https://prtimes.jp/main/html/rd/p/000000018.000003705.html"
+      "https://prtimes.jp/main/html/rd/p/000000018.000003705.html",
+      "https://hubitgenomix.com/"
     ],
     "updatedAt": "2026-10"
   },
@@ -114507,7 +114737,7 @@
   {
     "id": "9390001014456",
     "name": "株式会社フューチャーインク",
-    "hp": "",
+    "hp": "https://www.futureink.co.jp/",
     "categories": [
       "nursing",
       "medical-device"
@@ -114529,7 +114759,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9390001014456",
-      "https://www.nikkei.com/article/DGXMZO50799760Z01C19A0L01000/"
+      "https://www.nikkei.com/article/DGXMZO50799760Z01C19A0L01000/",
+      "https://www.futureink.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -114600,7 +114831,7 @@
   {
     "id": "2010901026512",
     "name": "フロッグウェル株式会社",
-    "hp": "",
+    "hp": "https://frogwell.co.jp/",
     "categories": [
       "pharma-marketing-support"
     ],
@@ -114621,14 +114852,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010901026512",
-      "https://www.nikkei.com/article/DGXZQOUC076320X00C23A8000000/"
+      "https://www.nikkei.com/article/DGXZQOUC076320X00C23A8000000/",
+      "https://frogwell.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "5290001021499",
     "name": "株式会社レスコ",
-    "hp": "",
+    "hp": "https://rescho.co.jp/",
     "categories": [
       "electronic-health-record"
     ],
@@ -114651,14 +114883,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5290001021499",
-      "https://xtech.nikkei.com/dm/atcl/event/15/071100136/072100019/"
+      "https://xtech.nikkei.com/dm/atcl/event/15/071100136/072100019/",
+      "https://rescho.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "7010001116102",
     "name": "ボクシーズ株式会社",
-    "hp": "",
+    "hp": "https://boxyz.com/",
     "categories": [
       "nursing"
     ],
@@ -114681,7 +114914,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001116102",
-      "https://www.value-press.com/pressrelease/213475"
+      "https://www.value-press.com/pressrelease/213475",
+      "https://boxyz.com/"
     ],
     "updatedAt": "2026-10"
   },
@@ -114839,7 +115073,7 @@
   {
     "id": "7040001042353",
     "name": "メディカクラウド株式会社",
-    "hp": "",
+    "hp": "https://www.medicacloud.jp/",
     "categories": [
       "medical-dx",
       "health-insuarance-market"
@@ -114863,7 +115097,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7040001042353",
-      "https://prtimes.jp/main/html/rd/p/000000002.000060702.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000060702.html",
+      "https://www.medicacloud.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -114935,7 +115170,7 @@
   {
     "id": "1010001156789",
     "name": "ユナイテッド・ヘルスコミュニケーション株式会社",
-    "hp": "",
+    "hp": "https://www.uhc.jp/",
     "categories": [
       "mental-health",
       "health-corporate-management"
@@ -114959,7 +115194,8 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001156789",
-      "https://www.my.metro.tokyo.lg.jp/w/000-20260501-254544807"
+      "https://www.my.metro.tokyo.lg.jp/w/000-20260501-254544807",
+      "https://www.uhc.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -115000,7 +115236,7 @@
   {
     "id": "6010901038834",
     "name": "株式会社ライフサカス",
-    "hp": "",
+    "hp": "https://lifecircus.jp/",
     "categories": [
       "femtech"
     ],
@@ -115021,14 +115257,15 @@
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010901038834",
-      "https://prtimes.jp/main/html/rd/p/000000001.000036788.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000036788.html",
+      "https://lifecircus.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "2010401100073",
     "name": "ライフロボ株式会社",
-    "hp": "",
+    "hp": "http://www.liferobo.co.jp/",
     "categories": [
       "health-corporate-management",
       "personal-health-record"
@@ -115051,14 +115288,15 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401100073",
       "https://prtimes.jp/main/html/rd/p/000000003.000022470.html",
-      "https://prtimes.jp/main/html/rd/p/000000004.000022470.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000022470.html",
+      "http://www.liferobo.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "7120001108848",
     "name": "株式会社リグア",
-    "hp": "",
+    "hp": "https://ligua.jp/",
     "categories": [
       "relaxation",
       "medical-management-support"
@@ -115083,14 +115321,15 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7120001108848",
       "https://prtimes.jp/main/html/rd/p/000000001.000019838.html",
-      "https://prtimes.jp/main/html/rd/p/000000038.000019838.html"
+      "https://prtimes.jp/main/html/rd/p/000000038.000019838.html",
+      "https://ligua.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "7010601036063",
     "name": "株式会社GCリンフォテック",
-    "hp": "",
+    "hp": "https://www.lymphotec.co.jp/",
     "categories": [
       "pharma"
     ],
@@ -115110,14 +115349,15 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010601036063"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010601036063",
+      "https://www.lymphotec.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "6130001056758",
     "name": "レグセル株式会社",
-    "hp": "",
+    "hp": "https://regcellbio.com/",
     "categories": [
       "pharma"
     ],
@@ -115142,14 +115382,15 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6130001056758",
       "https://prtimes.jp/main/html/rd/p/000000001.000098796.html",
       "https://bio.nikkeibp.co.jp/atcl/news/p1/22/04/22/09411/",
-      "https://www.nikkei.com/article/DGXZQOUF090DU0Z01C25A0000000/"
+      "https://www.nikkei.com/article/DGXZQOUF090DU0Z01C25A0000000/",
+      "https://regcellbio.com/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "5220001007562",
     "name": "株式会社ロジック",
-    "hp": "",
+    "hp": "https://logic-is.co.jp/",
     "categories": [
       "nursing",
       "home-visit-nursing"
@@ -115172,7 +115413,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5220001007562",
       "https://prtimes.jp/main/html/rd/p/000000005.000025977.html",
-      "https://prtimes.jp/main/html/rd/p/000000021.000025977.html"
+      "https://prtimes.jp/main/html/rd/p/000000021.000025977.html",
+      "https://logic-is.co.jp/"
     ],
     "updatedAt": "2026-10",
     "history": [
@@ -115186,7 +115428,7 @@
   {
     "id": "5430001045847",
     "name": "五稜化薬株式会社",
-    "hp": "",
+    "hp": "https://goryochemical.com/",
     "categories": [
       "surgical-support",
       "pharma"
@@ -115209,7 +115451,8 @@
     "sources": [
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5430001045847",
       "https://xtech.nikkei.com/dm/atcl/news/16/111505026/",
-      "https://www.atpress.ne.jp/news/363772"
+      "https://www.atpress.ne.jp/news/363772",
+      "https://goryochemical.com/"
     ],
     "updatedAt": "2026-10"
   },
@@ -115420,7 +115663,7 @@
   {
     "id": "1370001049362",
     "name": "株式会社JPステート",
-    "hp": "",
+    "hp": "https://www.jpstate.com/",
     "categories": [
       "diagnostic-support"
     ],
@@ -115440,7 +115683,8 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1370001049362"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1370001049362",
+      "https://www.jpstate.com/"
     ],
     "updatedAt": "2026-10"
   },
@@ -116425,7 +116669,7 @@
   {
     "id": "3130001061067",
     "name": "ハートラボ株式会社",
-    "hp": "",
+    "hp": "https://heart-lab.co.jp/",
     "categories": [
       "telemedicine"
     ],
@@ -116445,7 +116689,8 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3130001061067"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3130001061067",
+      "https://heart-lab.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -116479,7 +116724,7 @@
   {
     "id": "4010001209230",
     "name": "クレアボ・テクノロジーズ株式会社",
-    "hp": "",
+    "hp": "https://www.clairvotech.com/",
     "categories": [
       "medical-image"
     ],
@@ -116499,14 +116744,15 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010001209230"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010001209230",
+      "https://www.clairvotech.com/"
     ],
     "updatedAt": "2026-10"
   },
   {
     "id": "9010003031405",
     "name": "合同会社G-Data",
-    "hp": "",
+    "hp": "https://g-data.co.jp/",
     "categories": [
       "medical-image"
     ],
@@ -116526,7 +116772,8 @@
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
     "sources": [
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010003031405"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010003031405",
+      "https://g-data.co.jp/"
     ],
     "updatedAt": "2026-10"
   },
@@ -117520,7 +117767,7 @@
   {
     "id": "8021001077547",
     "name": "Reinvent health株式会社",
-    "hp": "",
+    "hp": "https://reinvent-health.com/",
     "categories": [
       "nursing",
       "direct-to-consumer"
@@ -117545,7 +117792,8 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000118154.html",
       "https://prtimes.jp/main/html/rd/p/000000005.000118154.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8021001077547"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8021001077547",
+      "https://reinvent-health.com/"
     ],
     "updatedAt": "2026-11",
     "aliases": [
@@ -117555,7 +117803,7 @@
   {
     "id": "6120001212849",
     "name": "株式会社ノビアス",
-    "hp": "",
+    "hp": "https://nobias.co.jp/",
     "categories": [
       "simple-inspection"
     ],
@@ -117579,7 +117827,8 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000107241.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000107241.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6120001212849"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6120001212849",
+      "https://nobias.co.jp/"
     ],
     "updatedAt": "2026-11"
   },
@@ -117839,7 +118088,7 @@
   {
     "id": "2010001196487",
     "name": "kanata株式会社",
-    "hp": "",
+    "hp": "https://www.kanatato.co.jp/",
     "categories": [
       "medical-dx"
     ],
@@ -117862,7 +118111,8 @@
     "source": "Healthtech DB 編集部調べ（2026-11）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000040719.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010001196487"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010001196487",
+      "https://www.kanatato.co.jp/"
     ],
     "updatedAt": "2026-11",
     "aliases": [
@@ -118133,7 +118383,7 @@
   {
     "id": "4011001172550",
     "name": "株式会社ケアのバトン",
-    "hp": "",
+    "hp": "https://www.care-baton.jp/",
     "categories": [
       "nursing",
       "medical-management-support"
@@ -118157,14 +118407,15 @@
     "source": "Healthtech DB 編集部調べ（2026-11）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000004.000172208.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011001172550"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4011001172550",
+      "https://www.care-baton.jp/"
     ],
     "updatedAt": "2026-11"
   },
   {
     "id": "3040001136043",
     "name": "株式会社FLOCAL",
-    "hp": "",
+    "hp": "https://flocal.co.jp/",
     "categories": [
       "medical-management-support",
       "recruting-solutions"
@@ -118188,7 +118439,8 @@
     "source": "Healthtech DB 編集部調べ（2026-11）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000157859.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3040001136043"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3040001136043",
+      "https://flocal.co.jp/"
     ],
     "updatedAt": "2026-11",
     "aliases": [
@@ -118307,7 +118559,7 @@
   {
     "id": "1290001090853",
     "name": "iMedy株式会社",
-    "hp": "",
+    "hp": "https://imedy.jp/",
     "categories": [
       "medical-dx",
       "medical-management-support"
@@ -118332,7 +118584,8 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000070374.html",
       "https://prtimes.jp/main/html/rd/p/000000021.000070374.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1290001090853"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1290001090853",
+      "https://imedy.jp/"
     ],
     "updatedAt": "2026-11",
     "aliases": [
@@ -118342,7 +118595,7 @@
   {
     "id": "3011001124081",
     "name": "株式会社Medeco",
-    "hp": "",
+    "hp": "https://medeco.io/",
     "categories": [
       "medical-dx",
       "doctor-network"
@@ -118367,7 +118620,8 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000100336.html",
       "https://prtimes.jp/main/html/rd/p/000000005.000100336.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011001124081"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3011001124081",
+      "https://medeco.io/"
     ],
     "updatedAt": "2026-11",
     "aliases": [
@@ -118587,7 +118841,7 @@
   {
     "id": "2010401181989",
     "name": "株式会社メディカルアンドテクノロジーズ",
-    "hp": "",
+    "hp": "https://medtech.inc/",
     "categories": [
       "medical-dx"
     ],
@@ -118608,7 +118862,8 @@
     "source": "Healthtech DB 編集部調べ（2026-11）",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000185245.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401181989"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401181989",
+      "https://medtech.inc/"
     ],
     "updatedAt": "2026-11"
   },
@@ -118719,7 +118974,7 @@
   {
     "id": "9020001136601",
     "name": "株式会社ヴォクセラ・ジャパン",
-    "hp": "",
+    "hp": "https://www.voxela.ai/ja/",
     "categories": [
       "nursing"
     ],
@@ -118743,14 +118998,15 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000107921.html",
       "https://prtimes.jp/main/html/rd/p/000000004.000107921.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9020001136601"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9020001136601",
+      "https://www.voxela.ai/ja/"
     ],
     "updatedAt": "2026-11"
   },
   {
     "id": "1140001102169",
     "name": "株式会社メディカルユアーズ",
-    "hp": "",
+    "hp": "https://www.medicalyours.com/",
     "categories": [
       "pharmacy-dx"
     ],
@@ -118774,7 +119030,8 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000006.000100428.html",
       "https://prtimes.jp/main/html/rd/p/000000009.000100428.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1140001102169"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1140001102169",
+      "https://www.medicalyours.com/"
     ],
     "updatedAt": "2026-11"
   },
@@ -119246,7 +119503,7 @@
   {
     "id": "8011101092001",
     "name": "株式会社Surg storage",
-    "hp": "",
+    "hp": "https://www.surgstorage.com/",
     "categories": [
       "real-world-data",
       "surgical-support"
@@ -119271,7 +119528,8 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000095808.html",
       "https://prtimes.jp/main/html/rd/p/000000005.000095808.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101092001"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011101092001",
+      "https://www.surgstorage.com/"
     ],
     "updatedAt": "2026-11",
     "aliases": [
@@ -119439,7 +119697,7 @@
   {
     "id": "8011001139637",
     "name": "PAPAMO株式会社",
-    "hp": "",
+    "hp": "https://papamo.net/official/",
     "categories": [
       "fitness"
     ],
@@ -119463,7 +119721,8 @@
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000001.000076936.html",
       "https://prtimes.jp/main/html/rd/p/000000037.000076936.html",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001139637"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8011001139637",
+      "https://papamo.net/official/"
     ],
     "updatedAt": "2026-11",
     "aliases": [
