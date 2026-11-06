@@ -8559,6 +8559,34 @@
   "reports": [
    {
     "fiscalYear": "2026年12月期",
+    "quarter": "Q3",
+    "label": "2026年12月期 第3四半期",
+    "date": "2026-11-06",
+    "title": "2026年12月期第３四半期決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 573,
+     "operatingIncome": -1532,
+     "ordinaryIncome": -1591,
+     "netIncome": -1633
+    },
+    "prior": {
+     "revenue": 395,
+     "operatingIncome": -1551,
+     "ordinaryIncome": -1590,
+     "netIncome": -1600
+    },
+    "forecast": {
+     "revenue": 720,
+     "operatingIncome": -2028,
+     "ordinaryIncome": -2053,
+     "netIncome": -2090
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261028558638.pdf",
+    "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2026年12月期",
     "quarter": "Q2",
     "label": "2026年12月期 第2四半期（中間期）",
     "date": "2026-08-06",
