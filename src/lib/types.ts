@@ -267,3 +267,7 @@ export type GroupMember = { name: string; companyId?: string; formerName?: strin
 export type FormerMember = { name: string; companyId?: string; formerName?: string; since?: string; end?: string; how: string; note?: string; source?: string };
 /** scope: healthcare＝ヘルスケア以外が本業の大きな会社で、ヘルスケアに関わる会社だけを載せたもの */
 export type CompanyGroup = { asOf: string; sourceLabel: string; source: string; consolidated?: number; equityMethod?: number; scope?: 'healthcare'; note?: string; members: GroupMember[]; former?: FormerMember[] };
+
+/** 決算期ごとの通期の業績（百万円）。fy は決算期末 YYYY-MM。data/financial-history.json */
+export type FinanceYear = { fy: string; revenue?: number; operatingIncome?: number; netIncome?: number; source?: string; note?: string };
+export type FinanceHistory = { standard?: string; basis?: string; years: FinanceYear[] };

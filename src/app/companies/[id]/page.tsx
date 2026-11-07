@@ -2,12 +2,13 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { withBase } from '@/lib/base';
 import { GroupPanel } from '@/components/GroupPanel';
+import { FinanceHistoryPanel, PeerPanel, type FinEvent, type Peer } from '@/components/FinanceHistory';
 import { notFound } from 'next/navigation';
 import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { STOPPED, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { STOPPED, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
 import { forecastLabel, forecastOf, healthcareOf, latestWithSegments, money, pct, yoy } from '@/lib/earnings';
 import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
 import { EarningsBars } from '@/components/EarningsBars';
@@ -42,6 +43,54 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const latestRep = reports[0];
   const segRep = reports.find((r) => r.quarter === 'FY' && r.segments?.length) ?? latestWithSegments(reports);
   const hc = healthcareOf(segRep);
+  // 10年の業績（有報・IR）。直近の通期が決算短信にあって履歴に無ければ足す
+  const fyRep = reports.find((r) => r.quarter === 'FY' && r.current?.revenue != null);
+  const fh = getFinanceHistory()[c.id];
+  const fhYears = (() => {
+    const ys = [...(fh?.years ?? [])].sort((a, b) => a.fy.localeCompare(b.fy));
+    const m = fyRep?.fiscalYear.match(/(\d{4})年(\d{1,2})月期/);
+    if (m && fyRep?.current) {
+      const fy = `${m[1]}-${m[2].padStart(2, '0')}`;
+      if (!ys.some((y) => y.fy === fy) && (!ys.length || fy > ys[ys.length - 1].fy)) ys.push({ fy, revenue: fyRep.current.revenue, operatingIncome: fyRep.current.operatingIncome, netIncome: fyRep.current.netIncome, source: fyRep.pdf });
+    }
+    return ys;
+  })();
+  // 業績の時間軸に重ねる出来事：この会社がした出資・資本業務提携・子会社化と、グループ会社の出入り
+  const finEvents: FinEvent[] = (() => {
+    const out: FinEvent[] = [];
+    for (const p of getPartnerships()) {
+      if (p.type === 'partnership' || !p.date || !myNames.includes(nm(p.from))) continue;
+      const o = findCompanyByName(p.to);
+      out.push({ date: p.date, kind: p.type === 'parent' ? (p.label === '吸収合併' ? '合併' : '子会社化') : p.kind === '資本業務提携' ? '資本業務提携' : '出資', name: p.to.replace(/^株式会社|株式会社$/g, ''), href: o ? `/companies/${o.id}/` : undefined });
+    }
+    for (const m of c.group?.members ?? []) if (m.since && !m.owned) out.push({ date: m.since, kind: 'グループ入り', name: m.name.replace(/^株式会社|株式会社$/g, ''), href: m.companyId ? `/companies/${m.companyId}/` : undefined });
+    for (const m of c.group?.former ?? []) if (m.end) out.push({ date: m.end, kind: /売却|譲渡/.test(m.how) ? '売却' : '合併', name: m.name.replace(/^株式会社|株式会社$/g, ''), href: m.companyId ? `/companies/${m.companyId}/` : undefined });
+    // 同じ相手・同じ月は1件に（子会社化の記録を優先）
+    const seen = new Set<string>();
+    return out.sort((a, b) => Number(b.kind === '子会社化') - Number(a.kind === '子会社化')).filter((e) => { const k = nm(e.name) + e.date.slice(0, 7); if (seen.has(k)) return false; seen.add(k); return true; });
+  })();
+  // 同じ事業（主なカテゴリが同じ）の上場企業。ヘルスケアの売上が3割に満たない大手は外す
+  const peers: Peer[] = (() => {
+    const cat = c.categories?.[0];
+    if (!cat || !fyRep) return [];
+    const all = getEarnings();
+    const fhs = getFinanceHistory();
+    const rows: Peer[] = [];
+    for (const o of getCompanies()) {
+      if (o.exit !== '上場' || o.categories?.[0] !== cat) continue;
+      const r = (all[o.id] ?? []).find((x) => x.quarter === 'FY' && x.current?.revenue);
+      if (!r?.current?.revenue) continue;
+      const h = healthcareOf((all[o.id] ?? []).find((x) => x.quarter === 'FY' && x.segments?.length));
+      const share = h?.share ?? null;
+      if (o.id !== c.id && share != null && share < 30) continue;
+      const sp = (fhs[o.id]?.years ?? []).filter((y) => y.revenue != null).sort((a, b) => a.fy.localeCompare(b.fy)).slice(-10).map((y) => y.revenue!);
+      rows.push({ id: o.id, name: o.name.replace(/^株式会社|株式会社$/g, '').replace(/ホールディングス/, 'HD'), fy: r.fiscalYear.replace(/年(\d+)月期/, '/$1').replace(/^20/, ''), revenue: r.current.revenue, prior: r.prior?.revenue, operatingIncome: r.current.operatingIncome, healthShare: share, spark: sp, cagr: sp.length >= 3 && sp[0] > 0 ? ((sp[sp.length - 1] / sp[0]) ** (1 / (sp.length - 1)) - 1) * 100 : null, self: o.id === c.id });
+    }
+    rows.sort((a, b) => b.revenue - a.revenue);
+    const top = rows.slice(0, 6);
+    if (!top.some((p) => p.self)) { const me = rows.find((p) => p.self); if (me) top[top.length - 1] = me; }
+    return top;
+  })();
   const fund = getFundings()[c.id];
   const fs = fundingSummary(fund);
   const funding = c.totalFunding || (c.history ?? []).filter((h) => /資金調達|第三者割当|億円を調達|調達を実施|出資を受け/.test(h.text)).slice(-1).map((h) => `${h.date?.slice(0, 7).replace('-', '年')}月 ${h.text}`)[0];
@@ -162,6 +211,11 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               <p className="muted small" style={{ marginTop: 8 }}>公式サイトの事業内容・お知らせとプレスリリースから編集部がまとめました（{ym(c.profile.checkedAt)}確認）。</p>
             </section>
           )}
+
+          {c.securitiesCode && fhYears.length >= 3 && (
+            <FinanceHistoryPanel years={fhYears} events={finEvents} code={c.securitiesCode} market={c.listedMarket} healthShare={hc && !hc.whole ? hc.share : null} healthNames={hc?.names} standard={fh?.standard} basis={fh?.basis} />
+          )}
+          {c.securitiesCode && peers.length >= 2 && <PeerPanel peers={peers} label={categoryName(c.categories[0])} />}
 
           {c.securitiesCode && (
             <section className="panel">

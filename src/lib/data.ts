@@ -11,8 +11,7 @@ import type {
   BizType,
   ForecastRevision,
   UpdateEntry,
-  Article, ArticleMeta, ArchiveArticle, Category, Company, MonthlyEpisode, NewsItem, Overseas, Partnership, Person, Service, Theme,
-} from './types';
+  Article, ArticleMeta, ArchiveArticle, Category, Company, MonthlyEpisode, NewsItem, Overseas, Partnership, Person, Service, Theme, FinanceHistory } from './types';
 
 const ROOT = process.cwd();
 const read = <T,>(file: string): T => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', file), 'utf8')) as T;
@@ -116,6 +115,9 @@ export const getEarnings = () =>
     const raw = fs.existsSync(path.join(ROOT, 'data', 'earnings.json')) ? read<Record<string, { code: string; reports: EarningsReport[] }>>('earnings.json') : {};
     return Object.fromEntries(Object.entries(raw).map(([id, v]) => [id, [...v.reports].sort((a, b) => b.date.localeCompare(a.date))]));
   });
+/** 上場企業の10年分の通期業績（企業ID → 古い順の決算期）。有価証券報告書・会社の IR から */
+export const getFinanceHistory = () =>
+  memo('finhist', () => (fs.existsSync(path.join(ROOT, 'data', 'financial-history.json')) ? read<Record<string, FinanceHistory>>('financial-history.json') : {}));
 /** 投資家（引受先）の一覧。社数の多い順 */
 export const getInvestors = () =>
   memo('investors', () => (fs.existsSync(path.join(ROOT, 'data', 'investors.json')) ? read<Investor[]>('investors.json') : []));
