@@ -22705,7 +22705,7 @@
     "milestones": [
       {
         "date": "2016-12",
-        "text": "医師間臨床支援アプリ「ヒフミル」を「ヒポクラ」に名称変更",
+        "text": "皮膚科の「ヒフミル」と眼科の「メミルちゃん」を「ヒポクラ」に統合",
         "source": "https://prtimes.jp/main/html/rd/p/000000008.000015530.html"
       },
       {
@@ -22747,11 +22747,11 @@
   },
   {
     "id": "b-1d278c47",
-    "name": "ヒフミル（医師向けオンラインコンサルト）",
+    "name": "ヒフミル（皮膚科の医師向けオンラインコンサルト）",
     "company": "エクスメディオ",
     "companyId": "5490001007866",
     "category": "doctor-network",
-    "description": "皮膚科以外の医師が病変写真と患者情報を送ると、皮膚科専門医が無料で診断・治療のアドバイスを返す医師向けアプリ。2015年10月に眼科版「メミル」も追加。2016年12月に「ヒポクラ」へ改称し、そのコンサルト機能になった。",
+    "description": "皮膚科以外の医師が病変写真と患者情報を送ると、皮膚科専門医が無料で診断・治療のアドバイスを返す医師向けアプリ。2016年12月、眼科版の「メミルちゃん」とともに「ヒポクラ」に統合された。",
     "hp": "https://prtimes.jp/main/html/rd/p/000000066.000015530.html",
     "startedYear": 2015,
     "status": "統合",
@@ -22774,12 +22774,7 @@
     "milestones": [
       {
         "date": "2015-10",
-        "text": "皮膚科DtoD遠隔医療サービス『ヒフミル君』を提供中（数千人の医師が利用）。眼科版『メミルちゃん』を開始",
-        "source": "http://prtimes.jp/main/html/rd/p/000000001.000015530.html"
-      },
-      {
-        "date": "2015-10",
-        "text": "眼科版「メミルちゃん」の提供開始",
+        "text": "皮膚科DtoD遠隔医療サービス「ヒフミル君」を数千人の医師が利用",
         "source": "https://prtimes.jp/main/html/rd/p/000000001.000015530.html"
       },
       {
@@ -22789,13 +22784,13 @@
       },
       {
         "date": "2016-12",
-        "text": "アプリ名を「ヒポクラ」に変更し、ヒフミル・メミルはコンサルト機能として継続",
+        "text": "眼科版「メミルちゃん」とともに「ヒポクラ」に統合",
         "source": "https://prtimes.jp/main/html/rd/p/000000008.000015530.html"
       }
     ],
     "startedAt": "2015-03",
     "startBasis": "同社PR TIMES（2025-06-16）掲載の沿革「2015年3月：『ヒフミル』リリース」",
-    "successor": "ヒポクラ（エクスメディオ、皮膚科コンサルトはその機能として継続）"
+    "successor": "ヒポクラ（2016年12月に「メミルちゃん」とともに統合）"
   },
   {
     "id": "b-7c975d4b",
@@ -131631,5 +131626,60 @@
     ],
     "type": "online-home-fitness",
     "updatedAt": "2026-11"
+  },
+  {
+    "company": "エクスメディオ",
+    "companyId": "5490001007866",
+    "hp": "",
+    "updatedAt": "2026-11",
+    "id": "b-ab67097e",
+    "name": "メミルちゃん（眼科の医師向けオンラインコンサルト）",
+    "type": "specialist-econsult",
+    "category": "doctor-network",
+    "description": "眼科以外の医師が目の写真と患者情報を送ると、眼科専門医が診断・治療のアドバイスを返す医師向けサービス。皮膚科の「ヒフミル」の眼科版として始まり、2016年12月に「ヒポクラ」に統合された。",
+    "status": "統合",
+    "startedAt": "2015-10",
+    "startedYear": 2015,
+    "startBasis": "提供開始の発表（PR TIMES）",
+    "endedAt": "2016-12",
+    "endReasons": [
+      "unknown"
+    ],
+    "successor": "ヒポクラ（2016年12月に「ヒフミル」とともに統合）",
+    "milestones": [
+      {
+        "date": "2015-10",
+        "text": "眼科版「メミルちゃん」の提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000015530.html"
+      },
+      {
+        "date": "2016-12",
+        "text": "皮膚科の「ヒフミル」とともに「ヒポクラ」に統合",
+        "source": "https://prtimes.jp/main/html/rd/p/000000008.000015530.html"
+      }
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000015530.html",
+      "https://prtimes.jp/main/html/rd/p/000000008.000015530.html"
+    ]
+  },
+  {
+    "company": "エクスメディオ",
+    "companyId": "5490001007866",
+    "hp": "",
+    "updatedAt": "2026-11",
+    "id": "b-f122a5f2",
+    "name": "和風PubMed α（PubMed論文の日本語検索・アブストラクト和訳）",
+    "type": "doctor-education-media",
+    "category": "doctor-network",
+    "description": "ヒポクラ（Web版）の機能として、PubMedの論文を日本語のキーワードで検索し、タイトルとアブストラクトを日本語で表示する医師向けサービス。論文探しにかかる時間を短くすることを狙った。",
+    "status": "不明",
+    "startedAt": "2017-07-24",
+    "startedYear": 2017,
+    "startBasis": "提供開始日（同社プレスリリース）",
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000013.000015530.html"
+    ],
+    "note": "今も提供しているかは未確認"
   }
 ]
