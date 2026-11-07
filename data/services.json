@@ -5174,7 +5174,7 @@
     "description": "加盟薬局「ホッペクラブ」で調剤された薬を自動で登録する電子お薬手帳。処方箋の事前送信や、オンライン診療・服薬指導から配送までの機能がある。",
     "hp": "",
     "startedYear": 2014,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2014-09",
     "milestones": [
       {
@@ -5186,19 +5186,22 @@
         "text": "新型コロナ下の時限的特例を受け、ホッペオンライン診療・服薬指導を展開"
       },
       {
+        "date": "2024-10-01",
+        "text": "アプリを軸にした薬局向けツール群「ホッペDX」を一新し、有料での提供に切り替え",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000149952.html"
+      },
+      {
         "date": "2025-08",
         "text": "App Storeでの最終更新"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "アプリは配信中だが、会社サイトに接続できず、現在の運営状況は確認できなかった。",
     "sources": [
+      "https://apps.apple.com/jp/app/id909988242",
+      "https://prtimes.jp/main/html/rd/p/000000002.000149952.html",
       "https://itunes.apple.com/lookup?id=909988242&country=jp",
       "https://www.yakuji.co.jp/?p=83395"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medication-support"
     ],
@@ -7288,7 +7291,7 @@
       "https://www.firstcvc.jp/company/apollo-tech.jp",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9290001064750"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "hospital-management-bi"
   },
   {
@@ -7722,10 +7725,10 @@
     "endReasonNote": "事業の終了や会社の解散の告知は見つからず、理由は公表されていない。",
     "sources": [
       "https://www.nikkei.com/article/DGXLZO84694670S5A320C1TJE000/",
-      "https://www.wantedly.com/companies/hmc-e/about",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401115113"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2010401115113",
+      "https://www.wantedly.com/companies/hmc-e/about"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "healthcare-worker-education"
   },
   {
@@ -7907,7 +7910,7 @@
       "https://prtimes.jp/main/html/rd/p/000000001.000048731.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001165248"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "femtech-product-ec"
   },
   {
@@ -8068,12 +8071,13 @@
     ],
     "endReasonNote": "会社概要の事業内容は美容・D2C・不動産・福祉となっており、ジム事業の現状や縮小の理由は公表されていない。",
     "sources": [
+      "https://en-gage.net/lime-fit_saiyo1/work_10216259/",
+      "https://lime-fit.com/",
       "http://lime-fit.com/",
       "https://www.wantedly.com/projects/233507",
-      "https://en-gage.net/lime-fit_saiyo1/work_10216259/",
       "https://lime-fit.com/companyprofile/about"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "personal-training"
   },
   {
@@ -8546,10 +8550,11 @@
     "endReasonNote": "合弁会社として設立され、約3年で出資元のセルメスタに吸収合併された。合併の理由と、その後に健康ポイントサイトが続いているかは公表資料で確認できない。",
     "sources": [
       "https://epark.co.jp/alliance/379",
+      "https://www.huwellness.co.jp/",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010601050442",
       "https://www.huwellness.co.jp/blogs/news/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E4%BC%9A%E7%A4%BE%E9%96%93%E3%81%AE%E5%90%B8%E5%8F%8E%E5%90%88%E4%BD%B5%E3%81%AA%E3%82%89%E3%81%B3%E3%81%AB%E5%90%88%E4%BD%B5%E6%96%B0%E4%BC%9A%E7%A4%BE-h-u-%E3%82%A6%E3%82%A7%E3%83%AB%E3%83%8D%E3%82%B9-%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "insurer-member-portal",
     "startBasis": "変更なし（前の運営会社セルメスタの健康ポータルサイトを現物出資で承継した時点。セルメスタでの開始時期は未確認）"
   },
@@ -8729,7 +8734,7 @@
       "https://www.makuake.com/project/novenine_smash/",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6120001210860"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "dental-oralcare-device"
   },
   {
@@ -8910,11 +8915,11 @@
     ],
     "endReasonNote": "終了の告知はなく、活動停止の理由は公表されていない。",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000083339.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000083339.html",
+      "https://prtimes.jp/main/html/rd/p/000000002.000083339.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001191789"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "medtech-development-support"
   },
   {
@@ -9079,11 +9084,11 @@
     ],
     "endReasonNote": "メディア終了の告知はなく、理由は公表されていない。法人は存続している。",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000003.000046668.html",
       "https://prtimes.jp/main/html/rd/p/000000007.000046668.html",
+      "https://prtimes.jp/main/html/rd/p/000000003.000046668.html",
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011001127462"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "d2c-nutrition-food-brand",
     "knownSince": "2020-03",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000003.000046668.html"
@@ -10250,7 +10255,7 @@
     "description": "台湾のAIカウンセラーアプリを日本語化し、認知行動療法にもとづく対話と音声・脳波による状態把握を日本で検証した。JETROの対内直接投資促進補助事業。企業の従業員支援と自治体向けでの事業化をめざす。",
     "hp": "",
     "startedYear": 2025,
-    "status": "不明",
+    "status": "準備中",
     "startedAt": "2025-08",
     "milestones": [
       {
@@ -10266,19 +10271,16 @@
         "text": "成果を取りまとめ。日本語CBT資料の作成に想定以上の時間がかかり、アプリ完成と実験開始が遅れたと報告。合同日本法人の設立を検討"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "実証期間（2025年8月〜2026年1月）は終わり、追加実験と統合解析を続けるとしている。製品として日本で提供が始まったかは確認できなかった。",
     "lessons": "海外のAIカウンセラーを持ち込む場合、日本語の対話例や安全対策（ホットラインへのつなぎ）を作り直す手間が大きいことが公表資料から分かる。",
     "sources": [
       "https://www.jetro.go.jp/ext_images/_News/announcement/2025/1bb8d68d3458740c/02jp.pdf"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "mental-chat"
     ],
-    "type": "mental-ai-selfcare-app"
+    "type": "mental-ai-selfcare-app",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-101402f3",
@@ -10696,11 +10698,12 @@
     ],
     "endReasonNote": "2021年のドコモの法人向け健康サービス整理の告知には名前がなく、終了の告知も見つからなかった。現在の提供状況は確認できない。",
     "sources": [
+      "https://www.wellcoms.jp/",
+      "https://www.jpx.co.jp/listing/stocks/new/um3qrc000001ioif-att/06WellnessCommunications-1ts.pdf",
       "https://www.docomo.ne.jp/info/news_release/2017/01/10_00.html",
-      "https://www.itochu.co.jp/ja/news/press/2017/170110.html",
-      "https://www.jpx.co.jp/listing/stocks/new/um3qrc000001ioif-att/06WellnessCommunications-1ts.pdf"
+      "https://www.itochu.co.jp/ja/news/press/2017/170110.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "phr-employer"
     ],
@@ -12707,13 +12710,13 @@
   },
   {
     "id": "b-85113763",
-    "name": "カンナムオンニ（日本版）美容医療比較・予約アプリ",
+    "name": "美容医療プラットフォーム「Unni（カンナムオンニ）」（日本版）",
     "company": "Healingpaper（韓国）および日本法人",
     "category": "medical-cosmetic",
     "description": "韓国No.1をうたう美容医療の見積もり比較・口コミ・予約アプリの日本版。クリニックからの広告・送客費で収益化する。",
     "hp": "",
     "startedYear": 2020,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2020-10",
     "milestones": [
       {
@@ -12735,22 +12738,28 @@
       {
         "date": "2021-12",
         "text": "ルクモの利用者データを統合"
+      },
+      {
+        "date": "2026-09-10",
+        "text": "「Unni（カンナムオンニ）」の個人情報漏えい事案についてお詫びと漏洩項目の精査結果を公表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000015.000063010.html"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://apps.apple.com/jp/app/id1035105027",
+      "https://prtimes.jp/main/html/rd/p/000000015.000063010.html",
+      "https://prtimes.jp/main/html/rd/p/000000001.000063010.html",
       "https://note.com/maruta_bot/n/ncc1712573f0b",
       "https://prtimes.jp/main/html/rd/p/000000012.000063010.html",
       "https://thebridge.jp/2021/03/gangnam-sister-attracts-350-clinics-after-japan-expansion-pickupnews",
       "https://apps.apple.com/jp/app/id1273629997"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "clinic-booking"
     ],
-    "type": "cosmetic-review-booking-app"
+    "type": "cosmetic-review-booking-app",
+    "formerName": "カンナムオンニ（日本版）美容医療比較・予約アプリ"
   },
   {
     "id": "b-a44d2267",
@@ -14069,9 +14078,10 @@
     ],
     "endReasonNote": "開設の発表は確認できたが、その後の経過や終了の告知は見つからなかった。発表で案内されたサイト（mp.careers.iqvia.com）は2026年10月の確認時に応答しなかった。",
     "sources": [
+      "https://www.iqvia.com/ja-jp/locations/japan/newsroom/2019/03/iqvia-japan-launched-a-career-change-support-site-for-doctors",
       "https://www.iqvia.com/locations/japan/newsroom/2019/03/iqvia-japan-launched-a-career-change-support-site-for-doctors"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medical-jobs"
     ],
@@ -15372,9 +15382,10 @@
     "endReasonNote": "その後の提供状況は公表情報で確認できない。",
     "lessons": "製薬企業が疾患の早期受診を促す目的で症状チェックの費用を負担する形。生活者向けの症状チェックの主要な払い手が製薬企業であることを示す初期の事例とみられる。",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000016.000048083.html"
+      "https://prtimes.jp/main/html/rd/p/000000016.000048083.html",
+      "https://www.shinzo-sos.com/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "ai-symptom"
     ],
@@ -15552,7 +15563,7 @@
     "description": "生命保険の契約者向けウェブサービス「Emma by アクサ」で、アバターの質問に沿って自覚症状や持病を入力すると、AIが可能性のある病名と緊急度、次に取るべき行動を示す。海外製の症状チェッカーを国内の電話健康相談会社が監修した。",
     "hp": "",
     "startedYear": 2023,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2023-02",
     "milestones": [
       {
@@ -15560,15 +15571,12 @@
         "text": "2月21日に提供開始（2月16日発表）。Mediktorの技術をティーペックが監修。医療機器や医療行為の代わりにはならないと明記"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "その後の提供状況は公表情報で確認できない。",
     "lessons": "保険会社が契約者サービスとして費用を負担する形で、症状チェックの払い手が保険会社になる例。",
     "sources": [
+      "https://www.axa.co.jp/customer/service",
       "https://digitalpr.jp/r/68033"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "ai-symptom"
     ],
@@ -72576,7 +72584,7 @@
     "description": "凸版印刷（現TOPPAN）と共同で、脈波・血中酸素濃度のセンシングやSIDS防止機能を持つ頭蓋形状矯正ヘルメットと、使いやすい頭部3Dスキャナーを開発。2027年度中の提供を目標とする。",
     "hp": "https://japanmedicalcompany.co.jp/",
     "startedYear": 2022,
-    "status": "不明",
+    "status": "準備中",
     "startedAt": "2022-09",
     "startBasis": "共同開発開始の発表日（2022-09-27）",
     "milestones": [
@@ -72586,15 +72594,13 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000011.000046445.html"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
-    "endReasonNote": "2027年度中の開発・提供を目標とした共同開発。発表後の進捗は一次情報で確認できていない。",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000011.000046445.html"
+      "https://prtimes.jp/main/html/rd/p/000000011.000046445.html",
+      "https://japanmedicalcompany.co.jp/"
     ],
     "type": "infant-head-shape-helmet",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "stage": "開発中"
   },
   {
     "id": "b-d4855c23",
@@ -72796,11 +72802,13 @@
     ],
     "endReasonNote": "PMDA添付文書は掲載中だが、製造販売業者の公式サイトに製品の記載がなく、旧製品サイトも消滅。販売状況は未確認。",
     "sources": [
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30500BZX00049000_1_01",
+      "https://www.erd.co.jp/product",
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/470170_30500BZX00049000_1_01_01",
       "https://www.erd.co.jp/company"
     ],
     "type": "infant-head-shape-helmet",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-9147df5c",
@@ -73332,12 +73340,13 @@
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000038.000019857.html",
+      "https://g4a.health/",
       "https://prtimes.jp/main/html/rd/p/000000001.000019857.html",
-      "https://prtimes.jp/main/html/rd/p/000000014.000019857.html",
-      "https://prtimes.jp/main/html/rd/p/000000038.000019857.html"
+      "https://prtimes.jp/main/html/rd/p/000000014.000019857.html"
     ],
     "type": "healthcare-accelerator",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-ef7f7c68",
@@ -74066,7 +74075,7 @@
       "https://www.denso.com/jp/ja/news/newsroom/2015/20150427-01/"
     ],
     "type": "surgical-robot",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-d9806c63",
@@ -75107,23 +75116,24 @@
   },
   {
     "id": "b-96438d5e",
-    "name": "cocomedica Call365（在宅医向けオンコール一次受付代行）",
+    "name": "MiRAI.Call365（旧cocomedica Call365、在宅医向けオンコール一次受付代行）",
     "company": "株式会社プロアス",
     "category": "home-medical",
     "description": "在宅クリニックにかかる休日・夜間の電話を看護師などが一次受付し、緊急度に応じて医師へつなぐ代行サービス。在宅医の負担軽減を狙う。",
     "hp": "",
     "startedYear": 2018,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2018-03",
     "startBasis": "確認できた最も古い一次情報（初期費用無料キャンペーンの告知、プロアスのリリース）",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://dr-mirai.ai/call365/",
+      "https://www.proas.co.jp/",
+      "https://www.proas.co.jp/call365-terms/",
       "https://prtimes.jp/main/html/rd/p/000000005.000015351.html"
     ],
     "type": "home-medical-oncall-service",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "formerName": "cocomedica Call365（在宅医向けオンコール一次受付代行）"
   },
   {
     "id": "b-98202669",
@@ -75379,17 +75389,24 @@
         "date": "2019-08",
         "text": "「All-in NOODLES」4品を発売",
         "source": "https://www.nissin.com/jp/company/news/8001/"
+      },
+      {
+        "date": "2019-12-16",
+        "text": "「All-in PASTA」4品を発売",
+        "source": "https://www.nissin.com/jp/company/news/8315/"
       }
     ],
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://www.nissin.com/jp/company/news/8315/",
       "https://www.nissin.com/jp/company/news/7716/",
-      "https://www.nissin.com/jp/company/news/8001/"
+      "https://www.nissin.com/jp/company/news/8001/",
+      "https://www.nissin.com/jp/products/brands/"
     ],
     "type": "d2c-nutrition-food-brand",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-964ed05a",
@@ -76819,10 +76836,11 @@
       "unknown"
     ],
     "sources": [
-      "https://www.taisho.co.jp/company/news/2021/20210202000727"
+      "https://www.taisho.co.jp/company/news/2021/20210202000727",
+      "https://www.taisho-direct.jp/product/catalog/ca/416"
     ],
     "type": "gut-nutrition-test",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-12762a35",
@@ -76895,17 +76913,15 @@
     "description": "運送事業者など事業所の運転者を対象に、自宅で装着する簡易機器で睡眠時無呼吸症候群（SAS）のスクリーニング検査を行う。2012年にはJAFと組み、JAF会員が個人で申し込める在宅検査サービスも始めた。",
     "hp": "",
     "startedYear": 2012,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2012-07",
     "startBasis": "JAFとの個人向けサービス開始の共同リリース（事業所向け検査の開始時期は未確認）",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://www.sas-support.or.jp/",
       "https://prtimes.jp/main/html/rd/p/000000120.000003128.html"
     ],
     "type": "sleep-measurement-test",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-fa7df871",
@@ -77676,10 +77692,11 @@
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000002.000022624.html",
       "https://japan.cnet.com/article/35096230/"
     ],
     "type": "home-medical-selfpay-rehab",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-d173b45d",
@@ -77839,10 +77856,12 @@
       "unknown"
     ],
     "sources": [
+      "https://axionr.com/news.html",
+      "https://www.axhelp.net/",
       "https://prtimes.jp/main/html/rd/p/000000016.000029473.html"
     ],
     "type": "rwd-analysis-service",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-2a487760",
@@ -78182,22 +78201,21 @@
   },
   {
     "id": "b-7fcc71af",
-    "name": "多血小板血漿（PRP）療法の開発",
+    "name": "多血小板血漿（PRP）の特定細胞加工物の提供",
     "company": "株式会社細胞応用技術研究所",
     "companyId": "8020001094486",
     "category": "pharma",
     "description": "患者自身の血液から血小板を濃縮したPRPで組織の修復を促す療法を、承認を得た製品にすることをめざす",
     "hp": "",
     "startedYear": null,
-    "status": "不明",
-    "endReasons": [
-      "unknown"
-    ],
+    "status": "提供中",
     "sources": [
+      "https://www.l-cat.co.jp/",
       "https://bio.nikkeibp.co.jp/atcl/news/p1/16/01/26/00123/"
     ],
     "type": "regenerative-cell-therapy",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "formerName": "多血小板血漿（PRP）療法の開発"
   },
   {
     "id": "b-b5d71ab6",
@@ -78262,16 +78280,29 @@
     "category": "recruting-solutions",
     "description": "現役薬剤師が地域密着の小規模薬局を取材し、求人情報を発信する薬剤師専門の求人サイト（関西から開始）",
     "hp": "",
-    "startedYear": null,
-    "status": "不明",
-    "endReasons": [
-      "unknown"
-    ],
+    "startedYear": 2013,
+    "status": "提供中",
     "sources": [
+      "https://pharmacista.jp/",
+      "https://synergy-pharma.co.jp/",
       "https://medical.nikkeibp.co.jp/leaf/mem/pub/di/trend002/201309/532238.html"
     ],
     "type": "specialty-niche-recruiting",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "startedAt": "2013-08-06",
+    "startBasis": "リリース（2013-08-06 関西密着型の薬剤師求人広告サイト「ファーマシスタ関西」をリリース、会社サイトのお知らせ）",
+    "milestones": [
+      {
+        "date": "2014-11-04",
+        "text": "全国版をリリース",
+        "source": "https://synergy-pharma.co.jp/"
+      },
+      {
+        "date": "2015-05-26",
+        "text": "スマートフォン版をリリース",
+        "source": "https://synergy-pharma.co.jp/"
+      }
+    ]
   },
   {
     "id": "b-c0d67e46",
@@ -88767,10 +88798,11 @@
       "unknown"
     ],
     "sources": [
-      "https://www.dhorizon.co.jp/company/history.html"
+      "https://www.dhorizon.co.jp/company/history.html",
+      "https://www.dhorizon.co.jp/service/"
     ],
     "type": "medical-cost-optimization",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-78c54f85",
@@ -92582,23 +92614,25 @@
   },
   {
     "id": "b-179139de",
-    "name": "健康情報コンテンツ「Color+da（カラダ）」",
+    "name": "健康情報コンテンツ「Colorda（カラーダ）」",
     "company": "マーソ株式会社",
     "companyId": "9010401116526",
     "category": "marketing-support",
     "description": "人間ドック体験レポートや著名人の自己管理術などを載せた、健診・予防の啓発コンテンツ。",
     "hp": "https://www.mrso.co.jp/",
     "startedYear": null,
-    "status": "不明",
-    "knownSince": "2015-09",
-    "endReasons": [
-      "unknown"
-    ],
+    "status": "提供中",
+    "knownSince": "2015-06",
     "sources": [
+      "https://www.mrso.jp/colorda/",
+      "https://www.mrso.co.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000004.000013522.html",
       "http://prtimes.jp/main/html/rd/p/000000005.000013522.html"
     ],
     "type": "medical-info-media",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "formerName": "健康情報コンテンツ「Color+da（カラダ）」",
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000004.000013522.html"
   },
   {
     "id": "b-a921f3db",
@@ -96043,16 +96077,23 @@
         "date": "2022-03-02",
         "text": "患者情報等の共有機能を追加",
         "source": "https://prtimes.jp/main/html/rd/p/000000065.000056624.html"
+      },
+      {
+        "date": "2024-01-31",
+        "text": "新型コロナの5類移行後は、レスポンサムの拡張機能「Covi-Co」（周産期救急／コロナ入院調整支援システム）として千葉県の周産期救急支援システムに使われていると説明",
+        "source": "https://prtimes.jp/main/html/rd/p/000000151.000056624.html"
       }
     ],
     "endReasons": [
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000151.000056624.html",
+      "https://smart119.biz/products/",
       "https://prtimes.jp/main/html/rd/p/000000051.000056624.html"
     ],
     "type": "regional-referral-discharge",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-6ad5664d",
@@ -97130,10 +97171,12 @@
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000015.000054891.html",
+      "https://www.kaicoltd.jp/",
       "https://prtimes.jp/main/html/rd/p/000000007.000054891.html"
     ],
     "type": "mail-in-blood-test",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-ea1f26d0",
@@ -97870,10 +97913,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000014.000055467.html"
+      "https://prtimes.jp/main/html/rd/p/000000014.000055467.html",
+      "https://ninpath.com/"
     ],
     "type": "medical-life-insurance",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-9200e1cf",
@@ -98138,10 +98182,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000016.000033266.html"
+      "https://prtimes.jp/main/html/rd/p/000000016.000033266.html",
+      "https://corporate.oned.jp/service"
     ],
     "type": "device-material-wholesale",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-7821a7e5",
@@ -98158,10 +98203,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000033266.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000033266.html",
+      "https://corporate.oned.jp/service"
     ],
     "type": "healthcare-worker-education",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-d197aa8d",
@@ -98241,10 +98287,12 @@
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000026.000018532.html",
+      "https://office.okan.jp/",
       "https://prtimes.jp/main/html/rd/p/000000014.000018532.html"
     ],
     "type": "office-meal-benefit",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-2ae7407e",
@@ -98262,10 +98310,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000058.000018532.html"
+      "https://prtimes.jp/main/html/rd/p/000000058.000018532.html",
+      "https://okan.co.jp/"
     ],
     "type": "office-meal-benefit",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-0f20e6f9",
@@ -98469,10 +98518,11 @@
       "unknown"
     ],
     "sources": [
-      "https://carepro.co.jp/company/history/"
+      "https://carepro.co.jp/company/history/",
+      "https://carepro.co.jp/"
     ],
     "type": "healthcare-worker-education",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-384816fa",
@@ -98554,17 +98604,15 @@
     "description": "酵素を多く含むとされる「青パパイヤ」を使った健康食品のブランド。漢方EC「漢方生薬研究所」を運営するハーバルアイが、新たな商品ブランドとして立ち上げた。",
     "hp": "https://www.herbal-i.co.jp/",
     "startedYear": 2025,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2025-04-02",
     "startBasis": "ブランドローンチ（プレスリリース）",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://www.rakuten.co.jp/greendom25/",
       "https://prtimes.jp/main/html/rd/p/000000036.000046257.html"
     ],
     "type": "d2c-nutrition-food-brand",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-a1c68845",
@@ -98582,10 +98630,11 @@
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000018.000046257.html",
       "https://prtimes.jp/main/html/rd/p/000000003.000046257.html"
     ],
     "type": "d2c-healthy-meal-delivery",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-82dd772b",
@@ -98621,10 +98670,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000001.000057748.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000057748.html",
+      "https://healthcaregate.co.jp/"
     ],
     "type": "pharmacy-home-visit",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-670ab9bc",
@@ -99061,22 +99111,29 @@
     "id": "b-947dd476",
     "name": "医学的根拠に基づく冷凍宅配食「Dr. Dish」",
     "company": "ドクターズ株式会社",
-    "companyId": "1010001178619",
     "category": "direct-to-consumer",
     "description": "医学的知見・エビデンスに基づいて設計した冷凍宅配食。購入者には栄養サポートチームによるオンライン栄養相談も提供する。",
     "hp": "https://doctors-inc.jp/",
     "startedYear": 2023,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2023-03-01",
     "startBasis": "発売開始（プレスリリース）",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000053.000051229.html"
+      "https://dr-dish.com/",
+      "https://sanmaruko.co.jp/medicalfood",
+      "https://prtimes.jp/main/html/rd/p/000000053.000051229.html",
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=3430001019431"
     ],
     "type": "d2c-healthy-meal-delivery",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "companyId": "1010001178619",
+    "milestones": [
+      {
+        "date": "2023-03",
+        "text": "冷凍食品メーカーのサンマルコ食品が発売（販売元。ドクターズは医師の知見で開発を支援）",
+        "source": "https://dr-dish.com/"
+      }
+    ]
   },
   {
     "id": "b-90e55b80",
@@ -99131,10 +99188,12 @@
       "unknown"
     ],
     "sources": [
+      "https://www.bibrid.co.jp/service/",
+      "https://www.bibrid.co.jp/service/homesapo/",
       "https://www.bibrid.co.jp/"
     ],
     "type": "healthcare-consulting",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-893f7819",
@@ -99707,14 +99766,14 @@
   },
   {
     "id": "b-4cbf6878",
-    "name": "医学生学習支援プラットフォーム「みんコレ！」",
+    "name": "医師国家試験の解答・合否予測サービス「みんコレ！」",
     "company": "メドピア",
     "companyId": "8011001073431",
     "category": "recruting-solutions",
     "description": "医学生が医師国家試験やCBTの対策を学び合える学習支援プラットフォーム。2021年に株式会社みんコレから事業を譲り受けた。",
     "hp": "https://medpeer.co.jp/",
     "startedYear": null,
-    "status": "不明",
+    "status": "提供中",
     "knownSince": "2021-08",
     "milestones": [
       {
@@ -99728,14 +99787,13 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000388.000010134.html"
       }
     ],
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://minkore.medpeer.jp/",
       "https://prtimes.jp/main/html/rd/p/000000363.000010134.html"
     ],
     "type": "healthcare-worker-education",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "formerName": "医学生学習支援プラットフォーム「みんコレ！」"
   },
   {
     "id": "b-9a6ba51b",
@@ -99848,10 +99906,12 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000013.000099270.html"
+      "https://prtimes.jp/main/html/rd/p/000000013.000099270.html",
+      "https://oncall-japan.com/",
+      "https://prtimes.jp/main/html/rd/p/000000022.000099270.html"
     ],
     "type": "specialty-niche-recruiting",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-7a0594a1",
@@ -102503,10 +102563,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000004.000077291.html"
+      "https://prtimes.jp/main/html/rd/p/000000004.000077291.html",
+      "https://www.varytex.co.jp/"
     ],
     "type": "d2c-personalized-supplement",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-9b049879",
@@ -103027,7 +103088,7 @@
       "https://corporate.whitecross.co.jp/"
     ],
     "type": "specialty-niche-recruiting",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-4fdc1caf",
@@ -104302,11 +104363,13 @@
       "unknown"
     ],
     "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000048.000089368.html",
+      "https://www.mdv.co.jp/solution/",
       "https://www.mdv.co.jp/company/history.html",
       "https://www.mdv.co.jp/"
     ],
     "type": "healthcare-consulting",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-d24ccdeb",
@@ -106100,11 +106163,12 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000006.000086789.html",
-      "https://prtimes.jp/main/html/rd/p/000000011.000086789.html"
+      "https://prtimes.jp/main/html/rd/p/000000011.000086789.html",
+      "https://www.cybernex.co.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000006.000086789.html"
     ],
     "type": "relaxation-salon",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-54abb38e",
@@ -107893,7 +107957,7 @@
       "https://mediscan.co.jp/"
     ],
     "type": "cosmetic-hair-wig",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-0f349a22",
@@ -108084,17 +108148,15 @@
     "description": "在宅医療を担う地域の開業医に代わり、夜間・休日の緊急往診をHOMEドクターの往診医が受けるサポート事業。区医師会と連携し、年末年始にトライアルを実施した。",
     "hp": "https://homedr.co.jp/",
     "startedYear": 2023,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2023-01",
     "startBasis": "区医師会と連携した年末年始のトライアル実施（プレスリリース）",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
+      "https://homedr.co.jp/daiko/",
       "https://prtimes.jp/main/html/rd/p/000000002.000114173.html"
     ],
     "type": "home-medical-oncall-service",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-b44f5d7c",
@@ -109973,10 +110035,11 @@
       "unknown"
     ],
     "sources": [
-      "https://www.dsn.co.jp/company/history/"
+      "https://www.dsn.co.jp/company/history/",
+      "https://www.dsn.co.jp/"
     ],
     "type": "home-medical-oncall-service",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-7246d8a4",
@@ -111544,7 +111607,7 @@
       "http://prtimes.jp/main/html/rd/p/000000004.000017290.html"
     ],
     "type": "life-science-tools",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-dc3bbcda",
@@ -111564,7 +111627,7 @@
       "http://prtimes.jp/main/html/rd/p/000000005.000017290.html"
     ],
     "type": "cdmo-contract-research",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-73e67d82",
@@ -112193,10 +112256,11 @@
       "unknown"
     ],
     "sources": [
-      "https://www.gsport.co.jp/company/history/"
+      "https://www.gsport.co.jp/company/history/",
+      "https://www.gsport.co.jp/"
     ],
     "type": "healthcare-worker-education",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-3ce0c587",
@@ -112756,10 +112820,11 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000002.000019838.html"
+      "https://prtimes.jp/main/html/rd/p/000000002.000019838.html",
+      "https://info-ligua.jp/"
     ],
     "type": "bonesetter-clinic-support",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-38b6171d",
@@ -112947,17 +113012,15 @@
     "description": "研究機関や企業の依頼を受けて、細胞内の分子などを可視化するための機能性蛍光色素を受託で設計・合成するサービス。創業時の最初の事業。",
     "hp": "",
     "startedYear": 2010,
-    "status": "不明",
+    "status": "提供中",
     "startedAt": "2010-11",
     "startBasis": "会社沿革「機能性蛍光色素受託合成サービス開始」",
-    "endReasons": [
-      "unknown"
-    ],
     "sources": [
-      "https://goryochemical.com/about-us/company-profile/"
+      "https://goryochemical.com/about-us/company-profile/",
+      "https://goryochemical.com/"
     ],
     "type": "cdmo-contract-research",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-7f7d6eee",
@@ -117533,7 +117596,7 @@
       "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0043.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-e2a454e6",
@@ -121815,10 +121878,11 @@
       "unknown"
     ],
     "sources": [
-      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html",
+      "https://www.freseniusmedicalcare.com/ja-jp/product-information/"
     ],
     "type": "remote-patient-monitoring",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-55dd8508",
@@ -121841,10 +121905,11 @@
       "unknown"
     ],
     "sources": [
-      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html",
+      "https://www.solventum.com/ja-jp/home/oral-care/orthodontic-solutions/all-products/"
     ],
     "type": "imaging-3d-xr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-7c827b97",
@@ -122774,7 +122839,7 @@
       "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-a361f2d8",
@@ -130237,15 +130302,13 @@
     "description": "体内で分解吸収され、自分の脂肪に置き換わる人工脂肪。乳房再建・豊胸手術での実用化を目指す。",
     "hp": "",
     "startedYear": null,
-    "status": "不明",
-    "endReasons": [
-      "unknown"
-    ],
+    "status": "準備中",
     "sources": [
       "https://renatoscience.com/"
     ],
     "type": "therapeutic-devices-supplies",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "stage": "開発中"
   },
   {
     "id": "b-abbfe9d0",
@@ -130419,16 +130482,15 @@
     "description": "装着するだけで漏れ量と時間を自動で記録するセンサー付きの軽失禁パッド。将来はドラッグストア等での販売を目指し、日本製紙クレシアや小野薬品と共創している。",
     "hp": "https://lasiina.com/service/",
     "startedYear": null,
-    "status": "不明",
-    "endReasons": [
-      "unknown"
-    ],
+    "status": "準備中",
     "sources": [
       "https://lasiina.com/service/",
+      "https://lasiina.com/news/",
       "https://lasiina.com/"
     ],
     "type": "femtech-product-ec",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "stage": "実証・臨床試験中"
   },
   {
     "id": "b-8ef5b5bf",
@@ -131436,15 +131498,14 @@
     "description": "重症脳疾患の治療に向け、脳を局所的に冷やす装置と、その状態を監視するセンサを開発している。",
     "hp": "",
     "startedYear": null,
-    "status": "不明",
-    "endReasons": [
-      "unknown"
-    ],
+    "status": "準備中",
     "sources": [
+      "https://ant5.jp/",
       "https://ant5.jp/company/"
     ],
     "type": "therapeutic-devices-supplies",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "stage": "研究開発中"
   },
   {
     "id": "b-5ddb15c7",
