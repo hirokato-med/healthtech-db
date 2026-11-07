@@ -36,9 +36,11 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
   const H2 = 110, T2 = 18, B2 = 20;
   const mMin = mv.length ? Math.min(...mv) : 0, mMax = mv.length ? Math.max(...mv) : 1;
   const pad = Math.max(0.5, (mMax - mMin) * 0.25);
-  const lo = Math.floor((mMin - pad) * 2) / 2, hi = Math.ceil((mMax + pad) * 2) / 2;
+  // 目盛りはきりのよい刻み（0.5・1・2・2.5・5・10…%）で2〜4本
+  const mstep = [0.5, 1, 2, 2.5, 5, 10, 20, 25, 50].find((k) => (mMax - mMin + 2 * pad) / k <= 3) ?? 50;
+  const lo = Math.floor((mMin - pad) / mstep) * mstep, hi = Math.ceil((mMax + pad) / mstep) * mstep;
   const my = (v: number) => T2 + (H2 - T2 - B2) * (1 - (v - lo) / (hi - lo || 1));
-  const ticks = [lo, (lo + hi) / 2, hi];
+  const ticks = Array.from({ length: Math.round((hi - lo) / mstep) + 1 }, (_, i) => lo + i * mstep);
 
   // 出来事の印（同じ期に重なるものは横にずらす）
   const bySlot = new Map<number, number[]>();
@@ -87,7 +89,7 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
             <>
               <p className="fh-ttl" style={{ marginTop: 6 }}>営業利益率</p>
               <svg viewBox={`0 0 ${W} ${H2}`} className="fh-svg" role="img" aria-label="営業利益率の推移">
-                {ticks.map((g) => <g key={g}><line x1={L} x2={W} y1={my(g)} y2={my(g)} stroke="var(--line)" /><text x={L - 6} y={my(g) + 4} fontSize="10" textAnchor="end" fill="var(--muted)">{g.toFixed(1)}%</text></g>)}
+                {ticks.map((g) => <g key={g}><line x1={L} x2={W} y1={my(g)} y2={my(g)} stroke="var(--line)" /><text x={L - 6} y={my(g) + 4} fontSize="10" textAnchor="end" fill="var(--muted)">{Number.isInteger(g) ? g : g.toFixed(1)}%</text></g>)}
                 <polyline fill="none" stroke="var(--navy)" strokeWidth="2" points={margins.map((v, i) => (v == null ? null : `${bx(i) + bw / 2},${my(v)}`)).filter(Boolean).join(' ')} />
                 {margins.map((v, i) => v == null ? null : (
                   <circle key={i} cx={bx(i) + bw / 2} cy={my(v)} r={i === n - 1 ? 4.5 : 3.5} fill={i === n - 1 ? 'var(--navy)' : 'var(--card)'} stroke="var(--navy)" strokeWidth="2"><title>{`${fyLabel(ys[i].fy)}期 ${v.toFixed(1)}%`}</title></circle>

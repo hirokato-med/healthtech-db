@@ -57,17 +57,25 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   })();
   // 業績の時間軸に重ねる出来事：この会社がした出資・資本業務提携・子会社化と、グループ会社の出入り
   const finEvents: FinEvent[] = (() => {
-    const out: FinEvent[] = [];
+    const out: (FinEvent & { alt?: string })[] = [];
     for (const p of getPartnerships()) {
       if (p.type === 'partnership' || !p.date || !myNames.includes(nm(p.from))) continue;
       const o = findCompanyByName(p.to);
       out.push({ date: p.date, kind: p.type === 'parent' ? (p.label === '吸収合併' ? '合併' : '子会社化') : p.kind === '資本業務提携' ? '資本業務提携' : '出資', name: p.to.replace(/^株式会社|株式会社$/g, ''), href: o ? `/companies/${o.id}/` : undefined });
     }
-    for (const m of c.group?.members ?? []) if (m.since && !m.owned) out.push({ date: m.since, kind: 'グループ入り', name: m.name.replace(/^株式会社|株式会社$/g, ''), href: m.companyId ? `/companies/${m.companyId}/` : undefined });
+    for (const m of c.group?.members ?? []) if (m.since && !m.owned) out.push({ date: m.since, kind: 'グループ入り', name: m.name.replace(/^株式会社|株式会社$/g, ''), alt: m.formerName, href: m.companyId ? `/companies/${m.companyId}/` : undefined });
     for (const m of c.group?.former ?? []) if (m.end) out.push({ date: m.end, kind: /売却|譲渡/.test(m.how) ? '売却' : '合併', name: m.name.replace(/^株式会社|株式会社$/g, ''), href: m.companyId ? `/companies/${m.companyId}/` : undefined });
-    // 同じ相手・同じ月は1件に（子会社化の記録を優先）
-    const seen = new Set<string>();
-    return out.sort((a, b) => Number(b.kind === '子会社化') - Number(a.kind === '子会社化')).filter((e) => { const k = nm(e.name) + e.date.slice(0, 7); if (seen.has(k)) return false; seen.add(k); return true; });
+    // 同じ相手の記録は1件に：子会社化と「グループ入り」が1年半以内に重なれば子会社化を残し、同じ種類が半年以内に重なれば早いほうを残す
+    const key = (x: string) => nm(x).replace(/[（(].*$/, '');
+    const months = (a: string, b: string) => Math.abs((+a.slice(0, 4) * 12 + +(a.slice(5, 7) || 6)) - (+b.slice(0, 4) * 12 + +(b.slice(5, 7) || 6)));
+    const kept: (FinEvent & { alt?: string })[] = [];
+    for (const e of out.sort((a, b) => a.date.localeCompare(b.date))) {
+      const names = [key(e.name), ...(e.alt ? [key(e.alt)] : [])];
+      const dup = kept.find((k) => names.includes(key(k.name)) && ((k.kind === e.kind && months(k.date, e.date) <= 6) || ([k.kind, e.kind].includes('グループ入り') && [k.kind, e.kind].includes('子会社化') && months(k.date, e.date) <= 18)));
+      if (!dup) kept.push(e);
+      else if (dup.kind === 'グループ入り' && e.kind === '子会社化') Object.assign(dup, e);
+    }
+    return kept.map((e) => ({ date: e.date, kind: e.kind, name: e.name, href: e.href }));
   })();
   // 同じ事業（主なカテゴリが同じ）の上場企業。ヘルスケアの売上が3割に満たない大手は外す
   const peers: Peer[] = (() => {
