@@ -4009,6 +4009,34 @@
   "reports": [
    {
     "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-11-09",
+    "title": "2027年３月期　第２四半期（中間期）決算短信〔日本基準〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 57489,
+     "operatingIncome": 306,
+     "ordinaryIncome": 689,
+     "netIncome": -1566
+    },
+    "prior": {
+     "revenue": 58731,
+     "operatingIncome": 1363,
+     "ordinaryIncome": 1582,
+     "netIncome": 1494
+    },
+    "forecast": {
+     "revenue": 121800,
+     "operatingIncome": -4900,
+     "ordinaryIncome": -4600,
+     "netIncome": -5100
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261106567940.pdf",
+    "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2027年3月期",
     "quarter": "Q1",
     "label": "2027年3月期 第1四半期",
     "date": "2026-07-30",
@@ -4082,6 +4110,27 @@
     "pdf": "https://www2.jpx.co.jp/disc/45690/140120260511523774.pdf",
     "source": "決算短信",
     "note": "単一セグメント（全社値を記載）。事業別売上高：新医薬品等（国内）87,113百万円、新医薬品（海外）693百万円、後発医薬品38,451百万円。減益は売上総利益の減少と導入一時金等による研究開発費増による"
+   }
+  ],
+  "revisions": [
+   {
+    "date": "2026-11-09",
+    "title": "2027年3月期 中間業績予想と実績の差異及び通期業績予想の修正に関するお知らせ",
+    "fiscalYear": "2027年3月期",
+    "consolidated": true,
+    "previous": {
+     "revenue": 121800,
+     "operatingIncome": 2000,
+     "ordinaryIncome": 2300,
+     "netIncome": 1500
+    },
+    "revised": {
+     "revenue": 121800,
+     "operatingIncome": -4900,
+     "ordinaryIncome": -4600,
+     "netIncome": -5100
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261106567968.pdf"
    }
   ]
  },
@@ -4485,6 +4534,34 @@
  "3010001084757": {
   "code": "2784",
   "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-11-09",
+    "title": "2027年３月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 1582760,
+     "operatingIncome": 13029,
+     "ordinaryIncome": 14380,
+     "netIncome": 8240
+    },
+    "prior": {
+     "revenue": 1529762,
+     "operatingIncome": 16207,
+     "ordinaryIncome": 17485,
+     "netIncome": 11521
+    },
+    "forecast": {
+     "revenue": 3144000,
+     "operatingIncome": 33900,
+     "ordinaryIncome": 36600,
+     "netIncome": 20800
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261109568510.pdf",
+    "source": "TDnet XBRL"
+   },
    {
     "fiscalYear": "2027年3月期",
     "quarter": "Q1",
@@ -6291,6 +6368,33 @@
   "reports": [
    {
     "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-11-09",
+    "title": "2027年３月期第２四半期(中間期) 決算短信〔ＩＦＲＳ〕（連結）",
+    "consolidated": true,
+    "current": {
+     "revenue": 3798747,
+     "operatingIncome": 642134,
+     "ordinaryIncome": 650654,
+     "netIncome": 364547
+    },
+    "prior": {
+     "revenue": 3400835,
+     "operatingIncome": 628894,
+     "ordinaryIncome": 573961,
+     "netIncome": 348755
+    },
+    "forecast": {
+     "revenue": 7900000,
+     "operatingIncome": 1160000,
+     "netIncome": 610000
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261109568673.pdf",
+    "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2027年3月期",
     "quarter": "Q1",
     "label": "2027年3月期 第1四半期",
     "date": "2026-08-04",
@@ -7673,6 +7777,31 @@
  "6010401065370": {
   "code": "4901",
   "reports": [
+   {
+    "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-11-09",
+    "title": "2027年3月期 第2四半期（中間期）決算短信〔米国基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 1711514,
+     "operatingIncome": 141168,
+     "ordinaryIncome": 142303
+    },
+    "prior": {
+     "revenue": 1572363,
+     "operatingIncome": 158486,
+     "ordinaryIncome": 161914
+    },
+    "forecast": {
+     "revenue": 3590000,
+     "operatingIncome": 365000,
+     "ordinaryIncome": 375000
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261104564493.pdf",
+    "source": "TDnet XBRL"
+   },
    {
     "fiscalYear": "2027年3月期",
     "quarter": "Q1",
