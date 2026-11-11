@@ -4996,6 +4996,34 @@
   "reports": [
    {
     "fiscalYear": "2027年3月期",
+    "quarter": "Q2",
+    "label": "2027年3月期 第2四半期（中間期）",
+    "date": "2026-11-11",
+    "title": "2027年３月期　第２四半期（中間期）決算短信〔日本基準〕(連結)",
+    "consolidated": true,
+    "current": {
+     "revenue": 808544,
+     "operatingIncome": 4748,
+     "ordinaryIncome": 6553,
+     "netIncome": 4177
+    },
+    "prior": {
+     "revenue": 767899,
+     "operatingIncome": 7258,
+     "ordinaryIncome": 8329,
+     "netIncome": 6244
+    },
+    "forecast": {
+     "revenue": 1601000,
+     "operatingIncome": 14800,
+     "ordinaryIncome": 16600,
+     "netIncome": 12900
+    },
+    "pdf": "https://www.release.tdnet.info/inbs/140120261110571877.pdf",
+    "source": "TDnet XBRL"
+   },
+   {
+    "fiscalYear": "2027年3月期",
     "quarter": "Q1",
     "label": "2027年3月期 第1四半期",
     "date": "2026-08-05",
