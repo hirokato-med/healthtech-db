@@ -144,8 +144,10 @@ export type Service = {
   /** 止まった理由（END_REASONS のキー） */
   endReasons?: string[];
   endReasonNote?: string;
-  /** 止まった理由の出どころ（会社の説明・報道・推定・非公表・経過のみ）。複数つくことがある */
-  endReasonBasis?: ('会社の説明' | '報道' | '推定' | '非公表' | '経過のみ')[];
+  /** 止まった理由の出どころ。情報源・理由の記載・編集上の解釈を分けて持つ（scripts/classify-end-basis.mjs） */
+  endReasonInfo?: { sources: ('会社発表' | '行政資料' | '報道')[]; stated: '明示あり' | '経過だけ' | '非公表（会社が明示）' | '資料に理由なし'; interpretation: 'なし' | '推定を含む'; locked?: boolean };
+  /** 止まったあとどうなったか（提供継続・運営主体変更／後継サービスへ移行／一部継続／提供終了 など） */
+  afterEnd?: string;
   /** 推定を含むときの断り書き（一覧でも出す） */
   endReasonCaveat?: string;
   lessons?: string;

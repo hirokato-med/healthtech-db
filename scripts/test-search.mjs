@@ -8,7 +8,7 @@ import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { search } from '../src/lib/search-match.ts';
+import { search, searchRelated } from '../src/lib/search-match.ts';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 execFileSync('node', [path.join(ROOT, 'scripts', 'build-search-index.mjs')], { stdio: 'ignore' });
@@ -16,11 +16,13 @@ const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'public', 'search-index
 
 // [検索語, 上位に出るべきもの（タイトルの一部）, 出てはいけないもの（タイトルの一部）]
 const CASES = [
-  ['DTx', ['CureApp', 'サスメド', 'Medcle'], ['DTX Studio']],
+  ['DTx', ['CureApp', 'サスメド', 'Medcle'], ['DTX Studio', 'Pokémon Sleep', '雨音', '波音', 'ぐっすリン', '眠れるクラシック', 'portera']],
   ['dtx', ['CureApp'], ['DTX Studio']],
   ['ＤＴｘ', ['CureApp'], ['DTX Studio']],
   ['デジタル治療', ['CureApp', 'サスメド'], ['DTX Studio']],
-  ['治療用アプリ', ['CureApp', 'サスメド'], []],
+  ['治療用アプリ', ['CureApp', 'サスメド'], ['Pokémon Sleep', '雨音', '波音', 'ぐっすリン', '眠れるクラシック']],
+  ['デジタル療法', ['VRx'], ['Pokémon Sleep']],
+  ['睡眠', ['Pokémon Sleep', 'Medcle'], []],
   ['治療アプリ', ['CureApp', 'HAUDY'], []],
   ['オンライン診療', ['CLINICS'], []],
   ['遠隔診療', ['CLINICS'], []],
@@ -40,5 +42,10 @@ for (const [q, want, never] of CASES) {
   if (!ok) fail++;
   console.log(`${ok ? '○' : '●'} 「${q}」 ${hits.length}件${miss.length ? ` ／出ない：${miss.join('、')}` : ''}${bad.length ? ` ／出てはいけない：${bad.join('、')}` : ''}`);
 }
+// 関連する事業の枠には、分野が同じアプリが入る
+const rel = searchRelated(index, 'DTx').map((h) => h.title);
+const relOk = rel.some((t) => t.includes('Pokémon Sleep'));
+if (!relOk) fail++;
+console.log(`${relOk ? '○' : '●'} 「DTx」の関連する事業に睡眠アプリが入る（${rel.length}件）`);
 console.log(fail ? `外れ ${fail} 件` : 'すべて通過');
 process.exit(fail ? 1 : 0);

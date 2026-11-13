@@ -1,7 +1,7 @@
-import { change, comparable, forecastLabel, notComparableText, forecastOf, forecastRangeOf, forecastText, money, noForecastText, periodRange } from '@/lib/earnings';
+import { change, changeOf, comparable, forecastLabel, notComparableText, forecastOf, forecastRangeOf, forecastText, money, noForecastText, periodRange } from '@/lib/earnings';
 import type { EarningsReport } from '@/lib/types';
 
-const ROWS: [keyof NonNullable<EarningsReport['current']>, string][] = [
+const ROWS0: [keyof NonNullable<EarningsReport['current']>, string][] = [
   ['revenue', '売上高'],
   ['operatingIncome', '営業利益'],
   ['ordinaryIncome', '経常利益'],
@@ -12,8 +12,9 @@ const ROWS: [keyof NonNullable<EarningsReport['current']>, string][] = [
 export function EarningsSummary({ r, prevForecast }: { r: EarningsReport; prevForecast?: { label: string; fig: NonNullable<EarningsReport['forecast']> } }) {
   const q = r.quarter !== 'FY';
   const f = forecastOf(r);
-  // 売上の科目名は会社ごとに違う（売上収益・事業収益・経常収益など）ので、決算短信の呼び名で出す
-  const rows = ROWS.filter(([k]) => r.current?.[k] != null).map(([k, l]) => [k, k === 'revenue' && r.revenueLabel ? r.revenueLabel : l] as const);
+  // 売上の科目名は会社ごとに違う（売上収益・事業収益・経常収益など）ので、表も予想の文も決算短信の呼び名で出す
+  const ROWS = ROWS0.map(([k, l]) => [k, k === 'revenue' && r.revenueLabel ? r.revenueLabel : l] as [typeof k, string]);
+  const rows = ROWS.filter(([k]) => r.current?.[k] != null);
   const fcText = (() => {
     // レンジで開示された予想は「下限〜上限」で書く（増減率は出さない）
     const rg = forecastRangeOf(r);
@@ -38,7 +39,7 @@ export function EarningsSummary({ r, prevForecast }: { r: EarningsReport; prevFo
         <thead><tr><th /><th>{q ? '今期（累計）' : '今期'}</th><th>前年同期</th><th>前年同期比</th></tr></thead>
         <tbody>
           {rows.map(([k, l]) => {
-            const c = comparable(r) ? change(r.current?.[k], r.prior?.[k]) : { text: '比較なし', tone: '' as const };
+            const c = comparable(r) ? changeOf(r, k) : { text: '比較なし', tone: '' as const };
             return (
               <tr key={k}>
                 <th scope="row">{l}</th>

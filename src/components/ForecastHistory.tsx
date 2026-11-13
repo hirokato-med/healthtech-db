@@ -25,9 +25,9 @@ export function forecastTimelines(reports: EarningsReport[], revisions: Forecast
     .sort((a, b) => b.fy.localeCompare(a.fy));
 }
 
-export function ForecastHistory({ fy, points }: { fy: string; points: Point[] }) {
+export function ForecastHistory({ fy, points, revLabel }: { fy: string; points: Point[]; revLabel?: string }) {
   const ITEMS = (['revenue', 'operatingIncome', 'netIncome'] as const).filter((k) => points.some((p) => p.fig[k] != null));
-  const label = { revenue: '売上高', operatingIncome: '営業利益', netIncome: '純利益' };
+  const label = { revenue: revLabel ?? '売上高', operatingIncome: '営業利益', netIncome: '純利益' };
   return (
     <div className="fch">
       <h3>{fy} 通期の会社予想</h3>

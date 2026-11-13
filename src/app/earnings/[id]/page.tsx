@@ -27,6 +27,8 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
   const reports = getEarnings()[c.id] ?? [];
   const disclosures = getDisclosures().filter((d) => d.companyId === c.id);
   const latest = reports[0];
+  // 売上の科目名（事業収益・売上収益など）。1社のページの中では会社の呼び名にそろえる
+  const revLabel = reports.find((r) => r.revenueLabel)?.revenueLabel ?? '売上高';
   const f = forecastOf(latest);
 
   // 通期の推移：通期決算の「当期」と「前期」から決算期ごとの数字を組み立てる
@@ -80,7 +82,7 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
           {timelines.length > 0 && (
             <section className="ma-sec" id="revisions" style={{ marginTop: 0 }}>
               <h2>会社予想の移り変わり<small className="h2-sub">会社がいつ、どの資料で、通期の業績をどう予想していたか。期初の予想から、四半期ごとの決算短信、業績予想の修正までを日付順に並べています。</small></h2>
-              {timelines.map((t) => <ForecastHistory key={t.fy} fy={t.fy} points={t.points} />)}
+              {timelines.map((t) => <ForecastHistory key={t.fy} fy={t.fy} points={t.points} revLabel={revLabel} />)}
               {revisions.length > 0 && (
                 <details className="seg-more" open={Boolean(newerRev)}>
                   <summary>業績予想の修正の中身（修正前 → 修正後）</summary>
@@ -105,7 +107,7 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
 
           <section className="earn-kpi">
             <div><span>直近の決算</span><b>{latest.label.replace(/（中間期）/, '')}</b><small>{latest.date.replace(/-/g, '/')} 発表{latest.consolidated === false ? '・個別' : ''}</small></div>
-            <div><span>売上高{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b>{revenueText(latest)}</b><small>{latest.revenueLabel && latest.revenueLabel !== '売上高' ? `${latest.revenueLabel}・` : ''}{comparable(latest) ? `前年同期比 ${pct(growth(latest))}` : notComparableText(latest)}</small></div>
+            <div><span>{revLabel}{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b>{revenueText(latest)}</b><small>{comparable(latest) ? `前年同期比 ${pct(growth(latest))}` : notComparableText(latest)}</small></div>
             <div><span>営業利益{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b className={(latest.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}>{money(latest.current?.operatingIncome)}</b><small>営業利益率 {pct(marginOf(latest), false)}・前年 {money(latest.prior?.operatingIncome)}</small></div>
             {newerRev ? (
               <div><span>{newerRev.fiscalYear ? `${newerRev.fiscalYear} 通期予想` : '通期予想'}（{newerRev.date.slice(5).replace('-', '/')} 修正）</span><b>{money(newerRev.revised.revenue)}</b><small>営業利益 {money(newerRev.revised.operatingIncome)}（修正前 {money(newerRev.previous?.operatingIncome)}）・<a href="#revisions">移り変わり</a></small></div>
@@ -116,12 +118,12 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
 
           {series.length >= 2 ? (
             <section className="earn-charts">
-              <EarningsBars title="売上高の推移（通期）" color="#123e7c" points={series.map((s) => ({ label: s.label, value: s.fig.revenue, est: s.est }))} />
+              <EarningsBars title={`${revLabel}の推移（通期）`} color="#123e7c" points={series.map((s) => ({ label: s.label, value: s.fig.revenue, est: s.est }))} />
               <EarningsBars title="営業利益の推移（通期）" color="#0e7c86" points={series.map((s) => ({ label: s.label, value: s.fig.operatingIncome, est: s.est }))} />
             </section>
           ) : latestQ ? (
             <section className="earn-charts">
-              <EarningsBars title={`売上高（${latestQ.label.replace(/^.*?期 /, '').replace(/（中間期）/, '')}累計の前年比較）`} color="#123e7c" points={[{ label: '前年同期', value: latestQ.prior?.revenue }, { label: '当期', value: latestQ.current?.revenue }]} />
+              <EarningsBars title={`${revLabel}（${latestQ.label.replace(/^.*?期 /, '').replace(/（中間期）/, '')}累計の前年比較）`} color="#123e7c" points={[{ label: '前年同期', value: latestQ.prior?.revenue }, { label: '当期', value: latestQ.current?.revenue }]} />
               <EarningsBars title="営業利益（同）" color="#0e7c86" points={[{ label: '前年同期', value: latestQ.prior?.operatingIncome }, { label: '当期', value: latestQ.current?.operatingIncome }]} />
             </section>
           ) : null}
@@ -131,14 +133,14 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
             <h2>決算期ごとの数字</h2>
             <div className="earn-wrap">
               <table className="earn-table">
-                <thead><tr><th>決算期</th><th>売上高</th><th>前年比</th><th>営業利益</th><th>営業利益率</th><th>経常利益</th><th>純利益</th><th>会社予想（売上高／営業利益）</th><th>資料</th></tr></thead>
+                <thead><tr><th>決算期</th><th>{revLabel}</th><th>前年比</th><th>営業利益</th><th>営業利益率</th><th>経常利益</th><th>純利益</th><th>会社予想（{revLabel}／営業利益）</th><th>資料</th></tr></thead>
                 <tbody>
                   {reports.map((r) => {
                     const g = growth(r);
                     return (
                       <tr key={r.date + r.label}>
                         <td className="nw">{r.label.replace(/（中間期）/, '')}<small>{r.date.replace(/-/g, '/')} 発表{r.consolidated === false ? '・個別' : ''}</small></td>
-                        <td className="num">{revenueText(r)}{r.revenueLabel && r.revenueLabel !== '売上高' && <small>{r.revenueLabel}</small>}</td>
+                        <td className="num">{revenueText(r)}{r.revenueLabel && r.revenueLabel !== revLabel && <small>{r.revenueLabel}</small>}</td>
                         <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{comparable(r) ? pct(g) : <span className="muted small" title={notComparableText(r)}>比較なし</span>}</td>
                         <td className={`num ${(r.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.operatingIncome)}</td>
                         <td className="num">{pct(marginOf(r), false)}</td>

@@ -6,7 +6,7 @@ const W = 1120;
 const X_AREA = 0, X_L = 128, W_L = 210, X_R = 780, W_R = 300;
 
 /**
- * 提携マップ。領域（疾患・事業領域）ごとの帯に、左に大手（製薬・保険・通信など）、右に相手の会社を並べ、
+ * 提携マップ。領域（対象領域・課題・事業領域）ごとの帯に、左に大手（製薬・保険・通信など）、右に相手の会社を並べ、
  * 提携の中身を線の上に書く。終わった提携は灰色の点線。
  */
 export function PartnerMap({ items, linkOf }: { items: Partnership[]; linkOf: Record<string, string | undefined> }) {

@@ -129,7 +129,7 @@ export default function Home() {
               <article className="feature-card">
                 <Link href={`/articles/${feature.slug}/`} className="feature-art" aria-label={feature.title} style={{ textDecoration: 'none' }}>
                   <div className="big">{cats.length}<small>カテゴリ</small></div>
-                  <div className="cap">疾患・ソリューション・事業領域の3軸で分類</div>
+                  <div className="cap">対象領域・課題／ソリューション／事業領域の3つの切り口で分類</div>
                 </Link>
                 <div className="feature-body">
                   <div className="eyebrow"><b>特集</b><span className="sep" /><span>{categoryName(feature.category)}</span></div>

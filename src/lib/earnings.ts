@@ -107,6 +107,17 @@ export const change = (cur?: number, prev?: number): { text: string; tone: 'up' 
   if (prev > 0 && cur <= 0) return { text: '赤字転落', tone: 'down' };
   return cur > prev ? { text: '赤字縮小', tone: 'up' } : cur < prev ? { text: '赤字拡大', tone: 'down' } : { text: '横ばい', tone: '' };
 };
+/** 決算1件の項目ごとの前年同期比の表示。黒字どうしは growth（開示値・細かい数字）、赤字を含むときは細かい数字で縮小・拡大を判定 */
+export const changeOf = (r: EarningsReport, k: keyof Figures): { text: string; tone: 'up' | 'down' | '' } => {
+  const ek = k as keyof NonNullable<NonNullable<EarningsReport['exact']>['current']>;
+  const cur = r.exact?.current?.[ek] ?? r.current?.[k];
+  const prev = r.exact?.prior?.[ek] ?? r.prior?.[k];
+  if (cur != null && prev != null && cur > 0 && prev > 0) {
+    const g = growth(r, k);
+    if (g != null) return Math.abs(g) < 0.05 ? { text: '横ばい', tone: '' } : { text: `${g > 0 ? '+' : ''}${g.toFixed(1)}%`, tone: g > 0 ? 'up' : 'down' };
+  }
+  return change(cur, prev);
+};
 /** 「2026年8月期」と四半期から対象期間（「2025年9月〜2026年8月」） */
 export const periodRange = (fiscalYear: string, quarter: string) => {
   const m = fiscalYear.match(/(\d{4})年(\d{1,2})月期/);

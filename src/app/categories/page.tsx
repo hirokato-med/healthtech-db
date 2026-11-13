@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getArticles, getCategories, getCompanies, getServices } from '@/lib/data';
 
-export const metadata: Metadata = { title: 'カテゴリ一覧', description: '疾患・ソリューション・事業領域の3軸でヘルスケアビジネスを分類したカテゴリ一覧。' };
+export const metadata: Metadata = { title: 'カテゴリ一覧', description: '対象領域・課題、ソリューション、事業領域の3つの切り口でヘルスケアビジネスを分類したカテゴリ一覧。' };
 
 export default function CategoriesPage() {
   const cats = getCategories();
@@ -14,7 +14,7 @@ export default function CategoriesPage() {
       <div className="page-head">
         <div className="kicker">Categories</div>
         <h1>カテゴリ一覧</h1>
-        <p className="lead">ヘルスケアビジネスを「疾患」「ソリューション」「事業領域」の3軸で分類しています。1社が複数のカテゴリに属することもあります。</p>
+        <p className="lead">ヘルスケアビジネスを「対象領域・課題」「ソリューション」「事業領域」の3つの切り口で分類しています。1社が複数のカテゴリに属することもあります。</p>
       </div>
       {(['disease', 'solution', 'domain'] as const).map((g) => (
         <section className="section" key={g}>

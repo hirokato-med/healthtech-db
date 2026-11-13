@@ -808,9 +808,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "sleep-app-insomnia-dtx",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-58ad6705",
@@ -845,9 +850,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "lifestyle-disease-app",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-6256ff19",
@@ -887,9 +897,14 @@
     "updatedAt": "2026-10",
     "type": "diet-log-app",
     "lessons": "通信会社のヘルスケア有料サービスは、単体で続くより会員向けの統合プラン（dヘルスケア）にまとめられやすい。キャリア系の健康サービスは親会社の料金・会員戦略で形が決まる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-0f01d81d",
@@ -929,9 +944,14 @@
     "type": "femtech-cycle-tracking-app",
     "startedAt": "2013-06",
     "lessons": "通信会社が提供する女性向け健康管理サービスも、有料ヘルスケアの統合再編で終了し、他社アプリへのデータ引き継ぎで幕を閉じた。キャリアの再編方針が存続を左右する。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-f95a8aa5",
@@ -1030,9 +1050,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "imaging-modality",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-bb6c379c",
@@ -1099,9 +1124,14 @@
     "type": "imaging-modality",
     "knownSince": "1973",
     "knownSinceSource": "https://www.fujifilm.com/hcm/ja/about/history",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-6efbe606",
@@ -1136,9 +1166,14 @@
     "updatedAt": "2026-10",
     "type": "home-wearable-medical-device",
     "lessons": "医療機器事業は収益向上に追加投資と医療業界の専門知識が要る。本業が別の大企業では資源を入れにくく、医療に詳しく資金力のある投資会社への売却で成長を図る道がある。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-73c66cd4",
@@ -1178,10 +1213,14 @@
     "updatedAt": "2026-10",
     "type": "otc-consumer-health",
     "startedAt": "2017-04",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-e270ee8b",
@@ -1219,10 +1258,15 @@
     "updatedAt": "2026-10",
     "type": "innovative-drug-maker",
     "startedAt": "1988-07",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-ef2ca1ae",
@@ -1261,10 +1305,15 @@
     ],
     "updatedAt": "2026-10",
     "type": "innovative-drug-maker",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-f73c494e",
@@ -1314,9 +1363,14 @@
     "updatedAt": "2026-10",
     "type": "cancer-genome-analysis",
     "lessons": "遺伝子検査は需要の立ち上がりが計画を大きく下回ることがあり、研究開発投資も続く。本業が別の会社では抱えきれず、専業の買い手に移す「ベストオーナー」判断になりうる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-f7645db2",
@@ -1358,10 +1412,15 @@
     "type": "care-service-operation",
     "formerName": "ワタミの介護（介護付き有料老人ホーム事業）",
     "startedAt": "2005",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-40765a8a",
@@ -1452,9 +1511,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "health-point-app",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-090a7c20",
@@ -1497,9 +1561,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "wearable-vital-device",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-9cc82bd9",
@@ -1540,9 +1609,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "otc-consumer-health",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-5eb9fa2e",
@@ -1575,9 +1649,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "pharma-beyond-the-pill",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-8413e1b0",
@@ -1639,9 +1718,14 @@
     ],
     "startedAt": "2023-02",
     "type": "pharmacy-patient-engagement",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-37314f91",
@@ -1791,9 +1875,14 @@
     "startedAt": "2016-02",
     "startBasis": "試験提供：前の運営会社（株式会社Mediplat）でオンライン医療相談『first call』の実証実験を開始（2016-09から本格展開）",
     "lessons": "医師向けプラットフォームが主力の会社では、予防医療・健康経営の事業を短期で伸ばしきれないと判断され、健康経営の顧客基盤を持つ会社へ譲られた。顧客基盤の合う持ち主が要る。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-26e3a9f8",
@@ -1829,9 +1918,14 @@
     "updatedAt": "2026-10",
     "type": "home-medical-office-bpo",
     "startedAt": "2022-05",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-583f01cf",
@@ -1876,9 +1970,14 @@
     "type": "femtech-cycle-tracking-app",
     "startedAt": "2010-07",
     "lessons": "大きな利用者基盤を持つ生理管理アプリは、オンライン診療など医療サービスを持つ会社にとって連携・送客の価値があり、買い手が見つかりやすい。売り手の理由は公表されていない。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-9dad43c9",
@@ -1916,9 +2015,14 @@
     "updatedAt": "2026-10",
     "type": "home-medical-office-bpo",
     "startedAt": "2021-03",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-c10a83ea",
@@ -1957,9 +2061,14 @@
     "updatedAt": "2026-10",
     "type": "therapeutic-devices-supplies",
     "companyId": "8120001077489",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-1d827013",
@@ -1995,10 +2104,15 @@
     "updatedAt": "2026-10",
     "type": "innovative-drug-maker",
     "startedAt": "2011-05",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-019540e1",
@@ -2041,9 +2155,14 @@
     "updatedAt": "2026-10",
     "type": "corporate-wellness-program",
     "lessons": "法人向け健康経営サービスを複数並べても利用が伸びなければ、利用状況を理由に終了・統合される。企業が費用を払い続ける形を作れるかが、法人向け健康サービスの分かれ目になる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "一部を後継サービスへ統合"
   },
   {
     "id": "b-2ffa1251",
@@ -2084,9 +2203,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "innovative-drug-maker",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-5a979470",
@@ -2138,9 +2262,14 @@
     "type": "cdmo-contract-research",
     "startedAt": "2017-03",
     "startBasis": "発表（日立化成が米PCT, LLCの残り持分80.1%を取得し、再生医療等製品の受託製造に本格参入すると発表）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-e45a1258",
@@ -2185,9 +2314,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "innovative-drug-maker",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-fd2a860b",
@@ -2229,9 +2363,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "insurer-member-health-app",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-9d9b9904",
@@ -2290,9 +2429,14 @@
     "knownSince": "2014-09",
     "knownSinceSource": "https://www.nihon-ma.co.jp/news/2014/9/18/",
     "lessons": "スポーツ現場向けITは、ヘルスケアと学校DXに注力する親会社の中では非中核となり、選択と集中で別会社に承継された。周辺事業は独立させて続ける道もある。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-fbffb5aa",
@@ -2481,9 +2625,14 @@
       "doctor-qa"
     ],
     "type": "doctor-chat-consultation",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-cc9ae84b",
@@ -2531,9 +2680,14 @@
       "doctor-qa"
     ],
     "type": "doctor-chat-consultation",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-eba6ef21",
@@ -2789,9 +2943,14 @@
       "online-consultation"
     ],
     "type": "telemedicine-clinic-system",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-db7cf733",
@@ -3048,9 +3207,14 @@
     ],
     "type": "doctor-chat-consultation",
     "startBasis": "β版（LINEヘルスケア〈β版〉の提供開始。2019-12-19）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-9499a8e9",
@@ -3168,9 +3332,14 @@
       "clinic-booking"
     ],
     "type": "telemedicine-clinic-system",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-baab46c5",
@@ -3734,9 +3903,14 @@
       "online-consultation"
     ],
     "type": "telemedicine-direct-to-patient",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-254f0115",
@@ -4104,9 +4278,14 @@
     ],
     "type": "electronic-medication-notebook",
     "startBasis": "発表（ソニーがFeliCaカード型電子お薬手帳の試験サービスを2013年秋から川崎市全域で行うと発表。発表時点で川崎市の一部20薬局・約1000名で実証実験を実施済み）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-2006a682",
@@ -4177,10 +4356,15 @@
       "medication-support"
     ],
     "type": "electronic-medication-notebook",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-9ad0e60f",
@@ -4242,9 +4426,14 @@
       "medication-support"
     ],
     "type": "electronic-medication-notebook",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-219002f2",
@@ -4301,9 +4490,12 @@
     ],
     "type": "electronic-medication-notebook",
     "lessons": "地域の薬剤師会が始めた電子お薬手帳も、全国の標準化を目指す統合で一本化された。お薬手帳はどの薬局でも使えることが価値なので、地域ごとに乱立するより統合へ向かいやすい。",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-bfbca629",
@@ -4341,9 +4533,14 @@
     ],
     "type": "electronic-medication-notebook",
     "lessons": "地域のIT企業のお薬手帳バックアップサービスは、業界標準化と普及を目的とする3者統合で日薬の手帳に一本化された。薬局間で共有する情報基盤は、乱立より統合へ向かいやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-8f5902bf",
@@ -4454,9 +4651,14 @@
       "medication-support"
     ],
     "type": "electronic-medication-notebook",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-8b5ed491",
@@ -4508,9 +4710,14 @@
     ],
     "type": "electronic-medication-notebook",
     "startedAt": "2012",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-2207773c",
@@ -4551,9 +4758,14 @@
       "medication-support"
     ],
     "type": "pharmacy-patient-engagement",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-69b9931f",
@@ -4600,9 +4812,14 @@
       "medication-support"
     ],
     "type": "electronic-medication-notebook",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-cb3f3d4b",
@@ -4921,9 +5138,14 @@
     ],
     "type": "medication-devices",
     "lessons": "服薬支援ロボは合弁で始まり、クラリオンから日立系の端末メーカーへ資産が移って続いた。売り手の理由は非公表だが、専用ハードは本業の近い機器メーカーに移すことで提供を続けられる例。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-970561be",
@@ -4973,9 +5195,14 @@
     "type": "medication-devices",
     "companyId": "6010001000001",
     "endedAt": "2020-09",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-3448290d",
@@ -5451,9 +5678,14 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-44f1c03c",
@@ -5493,9 +5725,14 @@
     "lessons": "電力会社の会員向け無料の見守りは、グループ会社の有料見守りアプリ開始に伴い終了した。電力データの見守りは、会員特典から別会社の有料サービスへ切り出されることがある。",
     "startedAt": "2015-09-29",
     "startBasis": "電力全面自由化に向けた新サービスの一つとして『見守りお手伝いサービス』を発表（中部電力プレスリリース）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-5da21fae",
@@ -5571,9 +5808,14 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-a7fa3acc",
@@ -5640,9 +5882,14 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-912ed83b",
@@ -5698,9 +5945,14 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-850eae8c",
@@ -5743,9 +5995,14 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-ca9229bb",
@@ -5786,9 +6043,14 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-b2056b79",
@@ -6006,9 +6268,14 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-bd964810",
@@ -6142,9 +6409,14 @@
     ],
     "type": "elderly-home-monitoring",
     "companyId": "1010401051219",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-2d271e72",
@@ -6197,9 +6469,14 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-5f599d25",
@@ -6254,9 +6531,14 @@
       "elderly-monitoring"
     ],
     "type": "care-activity-dementia-program",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-a8ea910b",
@@ -6655,9 +6937,14 @@
       "elderly-monitoring"
     ],
     "type": "elderly-home-monitoring",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-2c5a9ad6",
@@ -6692,9 +6979,15 @@
     "type": "elderly-home-monitoring",
     "startedAt": "2014-02",
     "startBasis": "発表（実証実験を経て2014年に本サービスを提供し、高齢者・就学児童などの見守りへ展開すると発表）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "行政資料"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-b4ee48c3",
@@ -6741,9 +7034,12 @@
     "updatedAt": "2026-10",
     "type": "clinical-communication",
     "lessons": "地域医療連携ネットワークは医師会の運営で続き、システム提供元が親会社に吸収されても保守は引き継がれた。地域の情報基盤は、提供会社の再編があっても運営主体が別なら続けやすい。",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-65393921",
@@ -6795,9 +7091,14 @@
     "updatedAt": "2026-10",
     "type": "medical-job-board",
     "lessons": "閲覧課金型の医療・介護求人サイトは、国家試験アプリや新卒採用の接点を持つことで、求人事業を持つ大手にとって顧客あたり売上を上げる買収対象になった。周辺の接点が買い手の価値になる。",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-084da392",
@@ -6844,9 +7145,14 @@
     "updatedAt": "2026-10",
     "type": "clinic-cloud-emr",
     "lessons": "診療所向けオンプレ電子カルテの会社は、大手ネット企業のグループに入り、グループ内の医療事業の集約で吸収合併された。製品は続いており、統合は事業の終わりではなく看板の付け替えである。",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-bce62dc9",
@@ -6896,9 +7202,14 @@
     "updatedAt": "2026-10",
     "type": "clinic-reservation-queue",
     "lessons": "クリニックに機能を無料で配り患者向けポータルで集客する型は、同じグループの医療事業を一社に集める再編で承継・改称された。大手グループ内の医療DXは、再編のたびに運営会社と名前が変わりうる。",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-89e443fb",
@@ -6962,9 +7273,14 @@
     ],
     "type": "clinic-reservation-queue",
     "lessons": "順番受付という単機能の予約システムは、電子カルテ事業を持つ大手に買われ、クリニックへの付加価値を広げる部品として合併・統合された。単機能のSaaSは、品ぞろえを増やしたい大手の買収対象になりやすい。",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-ab4a6089",
@@ -7056,9 +7372,14 @@
     "type": "specific-health-guidance",
     "knownSince": "2017-07",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000102.000010134.html",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-5bdc7491",
@@ -7124,9 +7445,14 @@
     "startedAt": "2014-05",
     "startBasis": "前身「クックパッド ダイエット」（クックパッド株式会社で開始。管理栄養士の個別指導、銀座にカウンセリングルーム開設）",
     "lessons": "管理栄養士による個人向け食事指導は、親会社の選択と集中で特定保健指導事業とともに健康経営の会社へ移った。個人課金の食事指導は、法人向け保健指導と組み合わせた形で引き継がれやすい。",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-9b3a8bc2",
@@ -7177,9 +7503,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "d2c-diet-coaching",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-4794830b",
@@ -7223,9 +7554,14 @@
     "updatedAt": "2026-10",
     "type": "d2c-diet-coaching",
     "lessons": "医療メディアからの集客に頼る遠隔ダイエット支援と医療情報サイトは、会社が「非注力事業」と位置づけて終了・清算した。メディア集客型のヘルスケアは、本業の優先度が下がると切られやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-63a2c547",
@@ -7275,9 +7611,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "patient-community-app",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-3bf82840",
@@ -7324,9 +7665,15 @@
     "type": "cosmetic-review-booking-app",
     "knownSince": "2017-06",
     "knownSinceSource": "https://www.itmedia.co.jp/news/article/1706/12/1170612052/",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-f52d899d",
@@ -7443,9 +7790,14 @@
     "updatedAt": "2026-10",
     "type": "nursing-ward-safety",
     "lessons": "病院向けの看護記録支援は、開発会社が販売を担う出資元の商社系子会社に吸収され、製品として続いた。販売網を持つ出資元への統合は、小さな開発会社の製品を残す道になる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-a908bdf1",
@@ -7506,9 +7858,14 @@
     "updatedAt": "2026-10",
     "type": "clinic-cloud-emr",
     "lessons": "無料のクラウド電子カルテは導入数を武器に、オンプレ中心の大手医療ITがクラウド型を品ぞろえに加えるための買収対象になった。無料で数を取る型は、大手への売却という出口を持ちやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-495725fa",
@@ -7590,9 +7947,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "ivd-lab-instrument",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-f49cc32f",
@@ -7653,9 +8015,14 @@
     "type": "mental-online-counseling",
     "startBasis": "変更なし（既存値：サービス開始）",
     "lessons": "個人向けオンラインカウンセリングは、企業・保険会社向けの相談窓口にも広げたのち、医療データ企業の子会社となり吸収合併された。サービスは続いており、法人向けの販路を持つ親会社の一部門になった。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-14400929",
@@ -7728,9 +8095,15 @@
     "updatedAt": "2026-10",
     "type": "dtc-genetic-test",
     "startBasis": "発表（DeNAが一般消費者向け遺伝子検査サービス「MYCODE」を東大医科研との共同研究とともに発表。提供開始は2014-08-12）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-be9f0e15",
@@ -7867,9 +8240,14 @@
     "updatedAt": "2026-10",
     "type": "home-medical-selfpay-rehab",
     "startBasis": "変更なし（既存値）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-2ac35a58",
@@ -7902,9 +8280,14 @@
     "type": "care-service-operation",
     "startedAt": "2014-03",
     "startBasis": "会社の沿革：2014-03-01に株式会社ワイズとして正式に事業開始（デイサービス「アルクル」1号店は設立日の2014-02-04に認可取得）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-1c087052",
@@ -7966,9 +8349,14 @@
     "type": "home-self-monitoring-test",
     "knownSince": "2019-08",
     "knownSinceSource": "https://www.atpress.ne.jp/news/191256",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-e2ed03cf",
@@ -8105,9 +8493,14 @@
     "updatedAt": "2026-10",
     "type": "dtc-genetic-test",
     "startBasis": "変更なし（既存値：G-TAC設立と同時に関連検査の紹介サービスを開始）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-df4133bb",
@@ -8246,9 +8639,14 @@
     "updatedAt": "2026-10",
     "type": "femtech-fertility-test-preservation",
     "lessons": "自宅用の卵巣年齢チェックキットは、妊活支援サービスを持つ会社に譲られ、福利厚生の販路とともに続いている。単品の検査キットは、相談・支援サービスを持つ会社の入口商品として生き残りやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-028a4f5f",
@@ -8323,9 +8721,14 @@
     "themes": [
       "doctor-qa"
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-6c25680f",
@@ -8419,9 +8822,14 @@
     "updatedAt": "2026-10",
     "type": "doctor-chat-consultation",
     "lessons": "医師と患者をつなぐ健康相談の仕組みは、医師会員を持つ会社にとって最重要の資産とされ、相談事業だけが切り出されて取り込まれた。広告メディアと相談サービスは、別の持ち主に分かれうる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-cf6418bc",
@@ -8499,9 +8907,14 @@
     "updatedAt": "2026-10",
     "type": "cosmetic-review-booking-app",
     "startedAt": "2017",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-0df4f31f",
@@ -8554,9 +8967,14 @@
     ],
     "updatedAt": "2026-10",
     "type": "sleep-corporate-program",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-47a57503",
@@ -8669,9 +9087,14 @@
     "type": "web-ai-monshin",
     "startBasis": "「メルプWEB問診」の提供開始（PR TIMES 2017-12-28。連携アプリ「メルプカルテ」のApp Store公開は2017-12-08）",
     "lessons": "単体のWEB問診として始まり、医療データ企業のグループ内で予約・会計などとまとめたクリニック向けブランドに組み込まれた。単機能ツールは、グループの品ぞろえの一部として残る形になりやすい。",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-4f0f7dfa",
@@ -8712,9 +9135,14 @@
     "updatedAt": "2026-10",
     "type": "doctor-clinical-ai-app",
     "lessons": "医師向けの薬剤比較アプリは、同じグループの医師向けQ&Aサービスと一体化され、ナレッジのプラットフォームの一部になった。医師向けサービスは、医師の利用者を一か所に集める統合へ向かいやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-f163de1f",
@@ -8812,9 +9240,14 @@
     "updatedAt": "2026-10",
     "type": "regenerative-cell-therapy",
     "startBasis": "変更なし（Avita MedicalとReCellの国内独占開発・販売契約を締結と発表）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-0f75807a",
@@ -9149,9 +9582,14 @@
     "type": "wearable-vital-device",
     "startedAt": "2018-08",
     "startBasis": "発表（資金調達リリースで『ウェアラブルセンサー開発のHERBIO』として公表。提供開始ではない）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-fe386fa0",
@@ -9317,9 +9755,14 @@
     "updatedAt": "2026-10",
     "type": "health-management-certification",
     "startBasis": "発表（ドコモとエムスリーが資本・業務提携と健康経営支援の新会社設立を発表。会社設立・営業開始は2019-04）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-81041567",
@@ -9453,9 +9896,14 @@
     "type": "dental-patient-media",
     "startBasis": "変更なし（合弁会社アースヘルスケアの設立）",
     "lessons": "歯科予約サイトの運営会社と日用品メーカーが組んだ歯科分野のWebサイト合弁は、約4年半で解消・合併された（理由は非公表）。合弁事業は、出資各社の方針次第で短期間で畳まれることがある。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-03eb2648",
@@ -9510,9 +9958,14 @@
     "updatedAt": "2026-10",
     "type": "ems-hospital-information",
     "lessons": "自治体・消防向けの救急医療情報システムは、大学発スタートアップから地域DXに取り組む地方IT企業に譲られて続いた。公共向けのシステムは、地域の自治体と取引を持つIT企業が担い手になりやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-c240729f",
@@ -9566,9 +10019,14 @@
     "knownSince": "2020-01",
     "knownSinceSource": "https://hayaregi.com/",
     "lessons": "医療機関向けセルフレジの会社は、大手ネット企業グループに入り、医療事業の集約再編で吸収合併されて製品名だけが残った。グループ入りした医療DXの会社は、集約の対象として法人が消えることが多い。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-76b540f5",
@@ -9657,9 +10115,14 @@
     "updatedAt": "2026-10",
     "type": "care-record-careplan-software",
     "lessons": "音声入力の介護記録ソフトは、グループ内の合併で法人がなくなったが、製品は続いている。小さな開発会社の統合は事業の終わりではなく、介護事業者向けの販売・運営体制への組み込みである。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-a513dd11",
@@ -9968,9 +10431,15 @@
       "mental-chat"
     ],
     "type": "mental-ai-selfcare-app",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-28c8eebb",
@@ -10185,9 +10654,14 @@
     ],
     "type": "mental-ai-selfcare-app",
     "startBasis": "変更なし（App Storeでアプリ公開）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-26c50d62",
@@ -10881,9 +11355,14 @@
       "phr-employer"
     ],
     "type": "insurer-member-portal",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-66bc140a",
@@ -10925,9 +11404,14 @@
     ],
     "type": "insurer-member-portal",
     "lessons": "保険者向けの健康ポータルは、提供会社どうしの合併に伴い、両社のWeb情報提供サービスの統合で1年で幕を閉じた。保険者向けサービスは、提供会社の合併で重複が整理されやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-55e16587",
@@ -11011,9 +11495,14 @@
     ],
     "type": "wearable-vital-device",
     "lessons": "通信会社と機器メーカーの合弁で始めた機器連動の健康管理は、合弁の吸収後、利用状況を踏まえた事業戦略で終了し、ポイント連動の自社アプリへ集約された。合弁の健康基盤は親会社の戦略に寄せられる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-23678dfc",
@@ -11486,9 +11975,14 @@
     ],
     "type": "medical-record-phr",
     "startedAt": "2015-11",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-d33a3258",
@@ -11626,9 +12120,13 @@
       "phr-employer"
     ],
     "type": "insurer-data-health-support",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-7816d739",
@@ -11716,9 +12214,14 @@
       "unknown"
     ],
     "companyId": "9011101031552",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-70f29e9e",
@@ -11921,9 +12424,14 @@
       "health-points"
     ],
     "type": "health-point-app",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-f6431f1c",
@@ -12087,9 +12595,14 @@
     ],
     "type": "health-point-app",
     "lessons": "通信会社のポイント経済圏の一部として運営してきた健康アプリも、グループのヘルスケア事業を集約する方針で別会社へ移された（報道）。キャリア系の健康サービスは、グループ再編で運営会社が変わりやすい。",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-f3f3542c",
@@ -12234,9 +12747,14 @@
       "health-points"
     ],
     "type": "health-point-app",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-f6d50d6f",
@@ -12376,9 +12894,14 @@
       "health-points"
     ],
     "type": "health-promotion-insurance",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-3f78265b",
@@ -12428,9 +12951,14 @@
     ],
     "type": "insurer-member-health-app",
     "lessons": "生命保険会社が契約者以外にも無料で配った健康増進アプリは、利用状況などを踏まえて機能を絞り、契約手続きの公式アプリに統合された。単独の健康アプリより、契約者が使う既存アプリに寄せる流れがある。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "一部を後継サービスへ統合"
   },
   {
     "id": "b-96208195",
@@ -12501,9 +13029,14 @@
       "health-points"
     ],
     "type": "insurer-member-health-app",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-7250cc21",
@@ -12566,9 +13099,14 @@
       "health-points"
     ],
     "type": "insurer-member-health-app",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-cb1b8549",
@@ -12615,9 +13153,14 @@
       "health-points"
     ],
     "type": "habit-smoking-program",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-13f255a4",
@@ -12901,9 +13444,14 @@
       "clinic-booking"
     ],
     "type": "hospital-search-portal",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-2d239327",
@@ -13090,9 +13638,14 @@
     ],
     "type": "cosmetic-review-booking-app",
     "startedAt": "2018-04",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-85113763",
@@ -13387,10 +13940,15 @@
       "cloud-emr"
     ],
     "type": "clinic-cloud-emr",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-9d0ac8e2",
@@ -13455,9 +14013,14 @@
     "type": "clinic-cloud-emr",
     "knownSince": "2010-07",
     "knownSinceSource": "https://www.innervision.co.jp/hs2010/hitachi/index.html",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-79889d9c",
@@ -13580,9 +14143,14 @@
       "cloud-emr"
     ],
     "type": "clinic-cloud-emr",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-b225a841",
@@ -13667,9 +14235,14 @@
     ],
     "type": "clinic-cloud-emr",
     "startedAt": "2013-01",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-9beb9909",
@@ -13751,9 +14324,14 @@
     ],
     "type": "hospital-emr",
     "lessons": "地方の会社が約20年かけて築いた中小病院向け電子カルテの顧客基盤は、病院向け市場に入りたい上場企業の参入の足がかりとして買収された。製品は続き、国の標準仕様に合わせた作り直しが進む。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-07c67bdb",
@@ -14026,9 +14604,14 @@
       "medical-jobs"
     ],
     "type": "medical-staffing-agency",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-c03fce61",
@@ -14083,9 +14666,14 @@
       "medical-jobs"
     ],
     "type": "medical-staffing-agency",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-e4f53388",
@@ -14127,9 +14715,14 @@
     ],
     "type": "medical-staffing-agency",
     "lessons": "薬剤師のアドバイザー型紹介は、医師紹介と一緒に求人プラットフォームの会社に譲られ、そのブランドに変わった。大手グループの医療人材事業も、集客基盤を持つ専業に売られて名前が消えることがある。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-b96c399c",
@@ -14252,9 +14845,14 @@
     "startedAt": "2000-05",
     "startBasis": "前の運営会社（有限会社グッピー）で開始。医療系求人サイト『GUPPY（現：GUPPY求人）』をリリース",
     "lessons": "歯科・介護の求人サイトを持つ上場企業は、同業大手のTOBで完全子会社化され、上場維持では情報共有や意思決定に制約が出るとして吸収された。サイトは続き、法人だけが消えた。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "job-medley",
@@ -14915,9 +15513,14 @@
     "type": "healthcare-recruitment-outsourcing",
     "knownSince": "2022-09",
     "knownSinceSource": "https://www.nihon-ma.co.jp/news/20220926_1-656/",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-8b60f2cc",
@@ -15140,9 +15743,14 @@
       "occupational-physician"
     ],
     "type": "stress-check-survey",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-4055f1c6",
@@ -15181,9 +15789,14 @@
     "knownSince": "2022-10",
     "knownSinceSource": "https://www.nihon-ma.co.jp/news/20221031_9218/",
     "lessons": "医療法人グループの嘱託産業医・ストレスチェック事業は、新設分割で切り出され、産業医クラウドの会社に売られた。医師の人脈頼みの産業医業務は、仕組み化する会社の拡大材料として買われやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-208b7fec",
@@ -16057,9 +16670,14 @@
     ],
     "type": "ai-symptom-checker",
     "lessons": "無料の症状チェックをオンライン診療の予約につなげる機能は、親サービスのLINEドクターがグループ再編で終わるとともに消えた。集客のための機能は、親サービスの存続に完全に依存する。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-496e1ab4",
@@ -16215,9 +16833,14 @@
       "doctor-qa"
     ],
     "type": "doctor-chat-consultation",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-6a630052",
@@ -16657,9 +17280,14 @@
         "text": "GCホールディングスを親会社とするグループ経営体制へ移行し、介護事業はアリエ祐起元の運営に"
       }
     ],
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-d8a9e853",
@@ -16694,9 +17322,14 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000001.000102400.html"
       }
     ],
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-5bffae67",
@@ -16721,9 +17354,14 @@
     "updatedAt": "2026-10",
     "type": "online-home-fitness",
     "startBasis": "変更なし（既存値）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-fec998e6",
@@ -16747,9 +17385,12 @@
     "updatedAt": "2026-10",
     "type": "sleep-goods-device",
     "startBasis": "変更なし（既存値）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-6601d526",
@@ -16784,9 +17425,14 @@
       }
     ],
     "lessons": "福利厚生型のオンライン診療は開始から1年余りで、4,000社超の法人顧客を持つSaaS企業にクロスセル商材として譲られた。法人向け健康サービスは、法人の顧客基盤を持つ会社が担い手になりやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-e6659826",
@@ -18658,9 +19304,12 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-88e624dc",
@@ -19511,9 +20160,14 @@
     ],
     "endReasonNote": "エイツーシグマは「諸般の事情により」2022年12月9日でFabric Enterprise（旧Opal Clinical）のサービスを終了すると告知し、具体的な理由は示していない。",
     "formerName": "Opal Clinical（Fabric Genomics）ゲノム解析ソフト",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-ff18ddaf",
@@ -19537,9 +20191,14 @@
       "unknown"
     ],
     "endReasonNote": "Fabric Enterpriseの新機能として提供。エイツーシグマは「諸般の事情により」2022年12月9日でFabric Enterpriseを終了すると告知し、具体的な理由は示していない。",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-842f7449",
@@ -21894,9 +22553,12 @@
         "source": "https://www.sanamedi.jp/2024/08/4455.html"
       }
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-d09d6999",
@@ -23273,9 +23935,14 @@
     "startedAt": "2015-03",
     "startBasis": "同社PR TIMES（2025-06-16）掲載の沿革「2015年3月：『ヒフミル』リリース」",
     "successor": "ヒポクラ（2016年12月に「メミルちゃん」とともに統合）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-7c975d4b",
@@ -23952,9 +24619,11 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-6b2183cf",
@@ -23975,9 +24644,11 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-09f68147",
@@ -23998,9 +24669,12 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-4a257e42",
@@ -27173,9 +27847,12 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-f7b6b6b5",
@@ -35808,9 +36485,13 @@
       "unknown"
     ],
     "endReasonNote": "Carefullは2025年11月、「事業の新フェーズへの移行に伴い」新規実施の受付を停止したと告知。新サービスの開始時期は改めて案内するとし、具体的な理由は示していない。",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-ea121e30",
@@ -48757,10 +49438,15 @@
     "endReasonNote": "スポンサーの開示によると、同社は2024年11月期に事業コンサルティング事業から撤退し多額の費用負担が生じたことなどで自力での継続が困難となり、民事再生を申し立てた。紹介事業はスポンサーが承継。",
     "lessons": "医療介護の人材紹介は伸びていても、併営していたコンサル事業の撤退費用で資金が続かなくなり、民事再生でスポンサーに紹介事業だけが引き継がれた。本業が回っていても、副業の撤退費用が会社を止めうる。",
     "successor": "Recovery International株式会社の子会社 RePath",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-f89ae075",
@@ -49275,9 +49961,13 @@
     "type": "dtc-genetic-test",
     "updatedAt": "2026-10",
     "endReasonNote": "ジーネックスは2026年6月末で個人向け遺伝子検査の新規受付を一時停止。ゲノム情報をより幅広く活用できるサービスを目指し、検査内容・レポート・データ活用・サポート体制を見直すと説明した。",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-a86b2167",
@@ -49760,9 +50450,11 @@
         "source": "https://www.modernatx.com/ja-JP/press-release/2025/20250718"
       }
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-85625d4c",
@@ -50118,9 +50810,12 @@
         "source": "https://newscast.jp/news/4079574"
       }
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-6075430e",
@@ -50141,9 +50836,11 @@
     ],
     "type": "mail-in-blood-test",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-bd8827ef",
@@ -50319,9 +51016,12 @@
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-a874d86c",
@@ -50345,9 +51045,12 @@
     "updatedAt": "2026-10",
     "knownSince": "2022-03",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000081.000076057.html",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-22216be8",
@@ -50628,9 +51331,12 @@
     ],
     "type": "femtech-product-ec",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-affb0c81",
@@ -50709,9 +51415,12 @@
     "type": "online-home-fitness",
     "updatedAt": "2026-10",
     "startBasis": "変更なし（既存値）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-e44b9883",
@@ -50787,9 +51496,11 @@
     ],
     "type": "care-spot-work",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-d65949c6",
@@ -50868,9 +51579,12 @@
         "source": "https://www.himuka-am.com/news/2026/04/06/575/"
       }
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-28e24b09",
@@ -51812,9 +52526,12 @@
     "updatedAt": "2026-10",
     "knownSince": "2020-08",
     "knownSinceSource": "https://www.scohia.com/wp/wp-content/uploads/2020/08/SCO-094-Ph1試験の開始_和文-200811.pdf",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-5987bf8e",
@@ -51837,9 +52554,12 @@
     "updatedAt": "2026-10",
     "knownSince": "2024-02",
     "knownSinceSource": "https://www.scohia.com/sys/news/page/2/",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-a742562f",
@@ -52890,9 +53610,12 @@
     "type": "mental-online-counseling",
     "updatedAt": "2026-10",
     "startBasis": "変更なし（既存値）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-eb52df82",
@@ -52915,9 +53638,12 @@
     ],
     "type": "mental-corporate-eap",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-c118768f",
@@ -53023,9 +53749,11 @@
         "source": "https://soraharu.co.jp/"
       }
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-278f0598",
@@ -53466,9 +54194,12 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000003.000081877.html"
       }
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-010efe64",
@@ -53491,9 +54222,12 @@
     ],
     "type": "life-science-tools",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-0a16d671",
@@ -53759,9 +54493,12 @@
     "updatedAt": "2026-10",
     "knownSince": "2019-11",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000050585.html",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-42ffa29d",
@@ -54468,9 +55205,13 @@
     ],
     "endReasonNote": "パーソルイノベーションは、グループの一体化経営を進め、グループの方向性・戦略に沿った迅速な意思決定で「みーつけあ」の価値提供を高めるための再編として、子会社を吸収合併すると説明した。",
     "lessons": "大手人材グループが買った介護ヘルパーのマッチングは、子会社のまま独立運営するより、グループの戦略に沿った意思決定を速めるため親会社に吸収された。買収後のスタートアップは法人として残らないことが多い。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-337196dc",
@@ -54549,9 +55290,12 @@
     "type": "cdmo-contract-research",
     "updatedAt": "2026-10",
     "startBasis": "自社リリース：設立と同時に開始（2019-09-17「2015年4月の創立以来、…新規エピジェネティック創薬及びその受託サービス等の提供等を行っています」。遺伝子座特異的ChIP法＝iChIP法を基盤）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-10d976a2",
@@ -54728,9 +55472,12 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000011.000068919.html"
       }
     ],
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-ad0ea29c",
@@ -54753,9 +55500,12 @@
     "type": "life-science-tools",
     "updatedAt": "2026-10",
     "startedAt": "2018",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-d1e6fb2d",
@@ -55404,9 +56154,13 @@
     "startedAt": "2018",
     "endReasonNote": "新型コロナによる受診者の減少で業績が悪化し、借入金で資金繰りが逼迫したとして2023年4月に民事再生法を申請（負債約7.6億円）。同年12月にユカリアが完全子会社化し、2025年8月に吸収合併。サービスは「スマートドック」として継続。",
     "lessons": "受診者が来て初めて売上が立つ脳ドックの予約サービスは、コロナ禍の受診控えで資金繰りが詰まり、民事再生ののち医療経営支援の会社に引き取られた。来院型の検査サービスは、需要の急減に耐える資金が要る。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-521fff2f",
@@ -55641,9 +56395,12 @@
     "updatedAt": "2026-10",
     "knownSince": "2020-05",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000056510.html",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-8636d1f4",
@@ -55853,9 +56610,11 @@
     "updatedAt": "2026-10",
     "startedAt": "2018-12",
     "startBasis": "正式提供開始（2019-02リリースで「開始2ヶ月で契約ジム200」＝2018-12開始）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-33a6cf8e",
@@ -55969,9 +56728,12 @@
     ],
     "type": "therapeutic-devices-supplies",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-ef336b4a",
@@ -56138,9 +56900,12 @@
     "type": "home-medical-selfpay-rehab",
     "updatedAt": "2026-10",
     "startedAt": "2021-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-05b9d663",
@@ -56166,9 +56931,14 @@
     "endReasonNote": "メルティンは、事業拡大には研究・開発・製造・販売を一体化した迅速で効率的な運営が重要として、共同開発先の住友ファーマの完全子会社FrontActに譲渡すると説明。発売後20施設以上に導入。",
     "lessons": "スタートアップが製薬と共同開発した認証医療機器のリハビリ装置は、発売後、開発・製造・販売を一体で回すため製薬の子会社に譲られた。機器の事業化では、販売網と製造を持つ提携先へ移す出口がある。",
     "successor": "FrontAct株式会社（住友ファーマ完全子会社）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-2c9ac4e6",
@@ -56382,9 +57152,12 @@
     "type": "dtc-genetic-test",
     "updatedAt": "2026-10",
     "startBasis": "B2B事業「GENOME LINK」の発表（自社プレスリリース2017-08-22、APIソフトウェアとして開発し初期パートナー企業が参加を表明）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-f03f9074",
@@ -56795,9 +57568,14 @@
         "text": "一般発売（報道）"
       }
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-37884a14",
@@ -57085,9 +57863,12 @@
     "updatedAt": "2026-10",
     "startedAt": "2014-07",
     "startBasis": "正式提供開始（ナステント発売。2015-07に「発売1周年」記念キャンペーン）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-0edc2e82",
@@ -57749,9 +58530,11 @@
     "type": "medical-supply-ec",
     "updatedAt": "2026-10",
     "startBasis": "変更なし（既存値）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-e45c603f",
@@ -57792,9 +58575,12 @@
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
     "startBasis": "会社の沿革（前身）：2012年7月にiPS細胞から神経堤細胞を介して角膜内皮細胞を作成する特許を出願（会社創設は2015-01）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-43055abe",
@@ -58746,9 +59532,12 @@
     "updatedAt": "2026-10",
     "knownSince": "2022-11",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000002.000111259.html",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-87c7079b",
@@ -59048,10 +59837,15 @@
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
     },
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-cbf19eb1",
@@ -59189,9 +59983,12 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000002.000107239.html"
       }
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-d6c763fe",
@@ -59430,9 +60227,14 @@
     ],
     "type": "dental-aligner-d2c",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-fdd7e627",
@@ -59509,9 +60311,14 @@
     ],
     "type": "dental-oralcare-device",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-dca0bb46",
@@ -59535,9 +60342,14 @@
     ],
     "type": "dental-oralcare-device",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-c028a78f",
@@ -59643,9 +60455,14 @@
         "source": "https://www.intage-healthcare.co.jp/news/d20240617/"
       }
     ],
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-6e42dced",
@@ -59670,9 +60487,14 @@
     "type": "full-service-cro",
     "updatedAt": "2026-10",
     "startedAt": "1993",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-ad96aaed",
@@ -59702,9 +60524,14 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000053.000155184.html"
       }
     ],
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-00c7f6e5",
@@ -59732,10 +60559,15 @@
     "updatedAt": "2026-10",
     "startedAt": "2007-03",
     "startBasis": "北海道ハイクリップス（後のエスエムオーメディシス）を子会社化（沿革）",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-a9a1d371",
@@ -59758,9 +60590,14 @@
     ],
     "type": "smo-site-support",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-47806398",
@@ -59798,9 +60635,14 @@
     ],
     "type": "post-marketing-bpo",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-f0625ab5",
@@ -59823,9 +60665,14 @@
     ],
     "type": "trial-patient-recruitment",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-7252bcd4",
@@ -59850,9 +60697,14 @@
     ],
     "type": "edc-eclinical-system",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-63039ffc",
@@ -59911,9 +60763,14 @@
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-68c49f48",
@@ -59948,9 +60805,14 @@
         "source": "https://nk.jiho.jp/article/156293"
       }
     ],
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-b2124857",
@@ -59971,9 +60833,14 @@
     ],
     "type": "electronic-medication-notebook",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-fb07d310",
@@ -60076,9 +60943,15 @@
     "updatedAt": "2026-10",
     "knownSince": "2013-04",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000047.000005179.html",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "自社開発・販売を終了／既存顧客の保守は2030年5月まで継続",
+    "afterEndLocked": true
   },
   {
     "id": "b-24628271",
@@ -60180,9 +61053,14 @@
     ],
     "type": "pharmacy-inventory-sharing",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-41583c1b",
@@ -60243,9 +61121,11 @@
     ],
     "type": "online-pharmacy",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-2b55d439",
@@ -60287,9 +61167,13 @@
     ],
     "type": "pharmacy-patient-engagement",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-bdb9572f",
@@ -60344,9 +61228,11 @@
     ],
     "type": "pharmacy-chain-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-230394ca",
@@ -60371,9 +61257,14 @@
     "type": "employee-health-cloud",
     "updatedAt": "2026-10",
     "startedAt": "2020-01",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-f178f654",
@@ -60397,9 +61288,14 @@
     "updatedAt": "2026-10",
     "startedAt": "2008",
     "lessons": "人材大手のBPO会社が手がけた健診予約代行と特定保健指導は、産業保健のクラウド企業に譲られ、買い手はこれで特定保健指導に新規参入した。保健事業は、産業保健の専業が品ぞろえを広げる材料になる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-d9091f80",
@@ -60529,9 +61425,14 @@
     ],
     "type": "home-medical-therapy",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-05e20ff8",
@@ -60557,9 +61458,14 @@
     ],
     "type": "home-medical-hospice-housing",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-88cff85d",
@@ -60765,9 +61671,14 @@
     ],
     "type": "cardiovascular-device",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "行政資料"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-aacee052",
@@ -60790,9 +61701,14 @@
     ],
     "type": "rehab-robotics-prosthetics",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-a96329c4",
@@ -60816,9 +61732,14 @@
     ],
     "type": "excretion-care-robotics",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-a8469d36",
@@ -60843,9 +61764,14 @@
     "type": "care-service-operation",
     "updatedAt": "2026-10",
     "startedAt": "2005-01",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-9b1f55ed",
@@ -60869,9 +61795,14 @@
     ],
     "type": "ecg-heart-sound-ai",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-63685619",
@@ -60940,9 +61871,14 @@
     ],
     "type": "ecg-heart-sound-ai",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-ee7c2cbb",
@@ -61096,9 +62032,14 @@
     "type": "pathology-cytology-ai",
     "updatedAt": "2026-10",
     "startedAt": "1920",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-c6ca6ecb",
@@ -61232,9 +62173,15 @@
     ],
     "type": "imaging-diagnosis-ai",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "行政資料"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-43b51181",
@@ -61687,9 +62634,12 @@
         "source": "https://www.phchd.com/jp/phc/news/2013/0726"
       }
     ],
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-d594d6b9",
@@ -61821,9 +62771,15 @@
     "type": "medical-info-media",
     "updatedAt": "2026-10",
     "companyId": "5011101038270",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-03cf8315",
@@ -61849,9 +62805,14 @@
     ],
     "type": "franchise-healthcare-network",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-1c04a752",
@@ -61916,9 +62877,14 @@
     ],
     "type": "clinic-chain-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-4d79aa34",
@@ -61944,9 +62910,14 @@
     "updatedAt": "2026-10",
     "knownSince": "2016-10",
     "knownSinceSource": "https://www.value-press.com/pressrelease/171648",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-dd832f3b",
@@ -62055,9 +63026,14 @@
     ],
     "type": "hospital-management-bi",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-6998f0ed",
@@ -62122,9 +63098,14 @@
       }
     ],
     "successor": "IQVIAサービシーズ ジャパン株式会社",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-85c97a29",
@@ -62152,9 +63133,14 @@
     "startedAt": "2018-12",
     "companyId": "8010001195756",
     "themes": [],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-014c5c8c",
@@ -62295,9 +63281,14 @@
     ],
     "type": "doctor-education-media",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-3e0b57c9",
@@ -62367,9 +63358,14 @@
       }
     ],
     "companyId": "8010401094698",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-931772e3",
@@ -62393,9 +63389,14 @@
     "knownSince": "2023-07",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000009.000057423.html",
     "lessons": "がん治療の情報メディアと医療機関連携は、会社が創薬向けのAI医療データ事業に経営資源を集中するため、先進治療の紹介会社に譲られた。集客メディアは、本業を絞るときに切り出されやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-91954ca1",
@@ -62436,9 +63437,14 @@
     ],
     "type": "femtech-cycle-tracking-app",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-4dfd8ec0",
@@ -62461,9 +63467,14 @@
     ],
     "type": "femtech-cycle-tracking-app",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-d8ca4f4d",
@@ -62487,9 +63498,14 @@
     ],
     "type": "femtech-online-pill-menopause",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-feebb4e0",
@@ -62512,9 +63528,14 @@
     ],
     "type": "femtech-fertility-test-preservation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-a89450ae",
@@ -62563,9 +63584,14 @@
     ],
     "type": "femtech-postpartum-childcare",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-24919795",
@@ -62588,9 +63614,14 @@
     ],
     "type": "femtech-product-ec",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-eef47166",
@@ -62614,9 +63645,13 @@
     ],
     "type": "femtech-product-ec",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-a2bffa1e",
@@ -62660,9 +63695,14 @@
     ],
     "type": "mental-online-counseling",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-6216c384",
@@ -62685,9 +63725,14 @@
     ],
     "type": "mental-ai-selfcare-app",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-a63f5791",
@@ -62710,9 +63755,14 @@
     ],
     "type": "dtc-genetic-test",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-e6b45bb2",
@@ -62821,9 +63871,14 @@
     "type": "sleep-goods-device",
     "updatedAt": "2026-10",
     "companyId": "9011101031552",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-f27f3493",
@@ -62899,9 +63954,14 @@
     ],
     "type": "d2c-personalized-supplement",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-e39f8d29",
@@ -62924,9 +63984,14 @@
     "type": "d2c-diet-coaching",
     "updatedAt": "2026-10",
     "startedAt": "2006",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-65d1e2ba",
@@ -73922,9 +74987,14 @@
     ],
     "type": "medical-ai-joint-research",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-16fc9779",
@@ -74313,9 +75383,14 @@
     ],
     "type": "medical-life-insurance",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-3e2cda0f",
@@ -74462,10 +75537,15 @@
     ],
     "type": "home-medical-therapy",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-ae2498d6",
@@ -74607,9 +75687,14 @@
     ],
     "type": "dental-whitening",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-cd7c607e",
@@ -74659,9 +75744,14 @@
     ],
     "type": "fitness-studio",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-0b207a87",
@@ -74703,9 +75793,14 @@
     ],
     "type": "fitness-studio",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-f0121019",
@@ -75113,9 +76208,14 @@
     "updatedAt": "2026-10",
     "endedAt": "2021-07-01",
     "endReasonNote": "すべての投資案件の回収が完了したため2021年7月1日に解散し、2026年4月24日に清算結了したとREVICが公表。",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-fa3f95fa",
@@ -75610,9 +76710,14 @@
     ],
     "type": "personal-training",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-c7ad9bd2",
@@ -75737,9 +76842,14 @@
     ],
     "type": "welfare-equipment",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-ef18a0e9",
@@ -76050,9 +77160,14 @@
     ],
     "type": "generic-drug",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-e8e5870a",
@@ -76081,9 +77196,14 @@
     ],
     "type": "pharma-market-research",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-e9634f6b",
@@ -76173,9 +77293,14 @@
     "type": "dental-clinic-system",
     "updatedAt": "2026-10",
     "lessons": "歯科医院向けの器材販売・クラウド・開業支援を手がけた会社は民事再生となり、医療DXの上場企業が新設子会社で主要事業を譲り受けた。顧客基盤のある事業は、会社が破綻しても買い手がつきやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-4200a1f5",
@@ -76537,9 +77662,14 @@
     ],
     "type": "phone-consult-benefit",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-be2338be",
@@ -76837,9 +77967,14 @@
     ],
     "type": "post-marketing-bpo",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-e1e95298",
@@ -76873,9 +78008,13 @@
     ],
     "type": "post-marketing-bpo",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-2edaf9d1",
@@ -77097,9 +78236,15 @@
     ],
     "type": "private-ambulance-event-aid",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-959c2e5a",
@@ -77565,9 +78710,13 @@
     ],
     "type": "rx-drug-wholesale",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-d21d72ee",
@@ -77591,9 +78740,13 @@
     ],
     "type": "rx-drug-wholesale",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-c1723f33",
@@ -77624,9 +78777,11 @@
     ],
     "type": "rx-drug-wholesale",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-10980fde",
@@ -77650,9 +78805,11 @@
     ],
     "type": "rx-drug-wholesale",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-2f8c213c",
@@ -77822,9 +78979,14 @@
     ],
     "type": "doctor-community-portal",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-054fc038",
@@ -77870,9 +79032,14 @@
     ],
     "type": "visiting-nursing-station",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-2dc90f24",
@@ -77896,9 +79063,14 @@
     ],
     "type": "visiting-nursing-station",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-947bad65",
@@ -77983,9 +79155,14 @@
     ],
     "type": "lifestyle-disease-app",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-139f030a",
@@ -78110,9 +79287,14 @@
     ],
     "type": "ems-hospital-information",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-4f535238",
@@ -78239,9 +79421,14 @@
     ],
     "type": "medical-ai-joint-research",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-115b2fe1",
@@ -78419,9 +79606,14 @@
     "type": "surgical-education",
     "updatedAt": "2026-10",
     "lessons": "医療トレーニング用の患者ロボットは、販売が計画を下回るなか先行する研究開発費が経営を圧迫し、ファンドの支援でも資金繰りが改善せず断念した（報道）。ハード開発は売上が立つまでの資金計画が要となる。",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-873b5bba",
@@ -78490,9 +79682,11 @@
     ],
     "type": "life-science-tools",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-486361c8",
@@ -78697,9 +79891,12 @@
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-53ac5348",
@@ -78810,9 +80007,14 @@
     ],
     "type": "hospital-derived-database",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-96b0a4e9",
@@ -78991,9 +80193,14 @@
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-fb0392a0",
@@ -79408,9 +80615,14 @@
     ],
     "type": "rwd-analysis-service",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-957e1423",
@@ -79509,9 +80721,12 @@
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-f0ac585b",
@@ -79547,9 +80762,14 @@
     "updatedAt": "2026-10",
     "knownSince": "2009-11",
     "knownSinceSource": "https://japan.cnet.com/article/20403836/",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-11c3f749",
@@ -79579,9 +80799,14 @@
     ],
     "type": "care-record-careplan-software",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-cc2848aa",
@@ -79932,9 +81157,12 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-13f8edb5",
@@ -79970,9 +81198,14 @@
     ],
     "type": "patient-support-awareness",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-b07152d3",
@@ -80280,9 +81513,12 @@
     ],
     "endedAt": "2019-03-14",
     "successor": "株式会社イントロム",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-0137b37f",
@@ -85722,10 +86958,15 @@
     ],
     "type": "welfare-equipment",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明",
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-8ba93ca6",
@@ -85856,9 +87097,14 @@
     ],
     "type": "gene-nucleic-therapy",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-a4ee3f0c",
@@ -86158,9 +87404,13 @@
     "type": "regenerative-cell-therapy",
     "updatedAt": "2026-10",
     "formerName": "歯槽骨の骨再生医療",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-42a69451",
@@ -86330,9 +87580,13 @@
     ],
     "type": "therapeutic-devices-supplies",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-4cd4d2b7",
@@ -86546,9 +87800,14 @@
     ],
     "type": "cardiovascular-device",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-eeacaa04",
@@ -87094,9 +88353,14 @@
     ],
     "type": "life-science-tools",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-3c3f2483",
@@ -87172,9 +88436,13 @@
     "lessons": "健康関連商品の通販サイトは、親会社がグループ内の同業の通販会社と合併させ、効率化のため一つの事業にまとめた。同じグループ内に似た通販事業が並ぶと、統合で看板が一つに減る。",
     "knownSince": "2009-06",
     "knownSinceSource": "https://japan.cnet.com/article/35017258/",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-da55abe4",
@@ -87257,9 +88525,13 @@
     "type": "elderly-home-monitoring",
     "updatedAt": "2026-11",
     "endedAt": "2020-07-31",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-1be02e21",
@@ -87359,9 +88631,11 @@
     ],
     "type": "ivd-lab-instrument",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-8c7c06b1",
@@ -87490,9 +88764,12 @@
     "endReasons": [
       "unknown"
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-5abe8c32",
@@ -87790,9 +89067,14 @@
     ],
     "type": "cancer-risk-screening-test",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-a6fdbeae",
@@ -87877,9 +89159,14 @@
     ],
     "type": "employee-health-cloud",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-9dcbb0d5",
@@ -87998,9 +89285,14 @@
     "updatedAt": "2026-10",
     "startedAt": "2018-12-26",
     "startBasis": "ボクシーズが点灯がわかる電球『ハローライト』の販売開始を発表（クラウドファンディングでの先行販売）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-3d6ac8eb",
@@ -88157,9 +89449,14 @@
     "type": "mental-ai-selfcare-app",
     "updatedAt": "2026-10",
     "successor": "他社に運営を継承（2020年からはかいじゅうカンパニーが運営）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-bd65e048",
@@ -88219,9 +89516,11 @@
     ],
     "type": "ophthalmic-device",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-08e65d24",
@@ -88515,9 +89814,12 @@
     ],
     "type": "d2c-nutrition-food-brand",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-8ef16631",
@@ -88547,9 +89849,14 @@
     ],
     "type": "d2c-personalized-supplement",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "行政資料"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-4a72a6ff",
@@ -88592,9 +89899,13 @@
     "lessons": "一般用医薬品のネット販売は、改正薬事法の省令で第1類・第2類の郵便等販売が原則禁止され止まったが、行政訴訟で勝訴して再開できた。規制で事業が止まっても、法的に争う道が残されている。",
     "knownSince": "2009-06",
     "knownSinceSource": "https://japan.cnet.com/article/35017258/",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "行政資料"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-2ce3ab3f",
@@ -88628,9 +89939,12 @@
     ],
     "type": "fitness-studio",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-85113437",
@@ -88671,9 +89985,14 @@
     ],
     "type": "care-service-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "行政資料"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-272224f7",
@@ -88709,9 +90028,14 @@
     ],
     "type": "care-service-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "行政資料"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-6c379f1d",
@@ -88740,9 +90064,12 @@
     ],
     "type": "fitness-studio",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-d2b6fad2",
@@ -88771,9 +90098,12 @@
     ],
     "type": "fitness-studio",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-d4a88cdc",
@@ -88802,9 +90132,12 @@
     ],
     "type": "fitness-studio",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-826825fc",
@@ -88838,9 +90171,12 @@
     ],
     "type": "fitness-studio",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-3c141296",
@@ -88874,9 +90210,12 @@
     ],
     "type": "fitness-studio",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-2ed7acde",
@@ -88910,9 +90249,12 @@
     ],
     "type": "fitness-studio",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-204af74b",
@@ -88941,9 +90283,12 @@
     ],
     "type": "otc-consumer-health",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-80984a00",
@@ -88982,9 +90327,14 @@
     ],
     "type": "imaging-modality",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-46cd9d55",
@@ -89012,9 +90362,14 @@
     ],
     "type": "pharmacy-chain-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-acc9a6ef",
@@ -89053,9 +90408,14 @@
     "type": "online-home-fitness",
     "updatedAt": "2026-10",
     "lessons": "海外アプリを通信会社の月額使い放題に束ねたサービスは、提供元の事業運営方針の転換を機に終了した。他社のアプリを束ねる型は、提供元の方針ひとつで続けられなくなる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-3c71926e",
@@ -89090,9 +90450,14 @@
     ],
     "type": "care-service-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-c9cca8d4",
@@ -89124,9 +90489,14 @@
     ],
     "type": "generic-drug",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-e17fbd00",
@@ -89164,9 +90534,12 @@
     "updatedAt": "2026-10",
     "startedAt": "2008-01-28",
     "startBasis": "KDDIがau携帯電話春モデル発表の中で『au Smart Sports』開始と『Run&Walk』アプリのプリセットを発表",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-8b70be2e",
@@ -89201,9 +90574,14 @@
     ],
     "type": "therapeutic-devices-supplies",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-9d3ae8f8",
@@ -89239,9 +90617,15 @@
     ],
     "type": "therapeutic-devices-supplies",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表",
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-77ab80c6",
@@ -89270,9 +90654,14 @@
     ],
     "type": "care-service-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-a6651d78",
@@ -89315,9 +90704,14 @@
     "lessons": "大手電機の社内カンパニーが手がけたウェアラブル生体センサは、グループの構造改革と医療機器子会社の売却に伴うヘルスケア事業の見直しで、未発売の新機種ごと止まった。本業の危機は新規事業を真っ先に止める。",
     "startedAt": "2014-07-09",
     "startBasis": "東芝ニュースリリース「貼付け型ウェアラブル生体センサ『Silmee™ Bar type』の発売について」",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-c56585b6",
@@ -89346,9 +90740,14 @@
     ],
     "type": "pharmacy-chain-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-2238a7cb",
@@ -89382,9 +90781,12 @@
     ],
     "type": "care-service-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-7a80f917",
@@ -89417,9 +90819,14 @@
     ],
     "type": "care-service-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-b61646b5",
@@ -89447,9 +90854,14 @@
     ],
     "type": "therapeutic-devices-supplies",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "一部継続（既存顧客の保守など）"
   },
   {
     "id": "b-797185f2",
@@ -90001,9 +91413,12 @@
     ],
     "type": "spd-hospital-logistics",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-90bccbc4",
@@ -91362,9 +92777,12 @@
     ],
     "type": "medical-life-insurance",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-fd1c2cee",
@@ -91730,9 +93148,12 @@
     ],
     "type": "pharma-market-research",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-b32d5d26",
@@ -91816,9 +93237,12 @@
     ],
     "type": "insurer-member-portal",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-a6820f9f",
@@ -92810,9 +94234,12 @@
     ],
     "type": "healthcare-product-marketing",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-16674c6d",
@@ -93389,9 +94816,11 @@
     ],
     "type": "edc-eclinical-system",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-015ee508",
@@ -93415,9 +94844,12 @@
     ],
     "type": "edc-eclinical-system",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-9a9d3939",
@@ -94597,9 +96029,12 @@
     ],
     "type": "welfare-equipment",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-93a39832",
@@ -95791,9 +97226,12 @@
     ],
     "type": "occupational-health-service",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-abae931c",
@@ -96193,9 +97631,14 @@
     "type": "digital-biomarker",
     "updatedAt": "2026-10",
     "lessons": "パッチ式脳波計とAI解析によるスクリーニングは、提携先への実施許諾の形で事業化を進めたが、事業性の観点から継続困難と判断された。新しい検査は、誰が費用を払うかが固まらなければ技術があっても続かない。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-e64d363b",
@@ -96969,9 +98412,11 @@
     ],
     "type": "life-science-tools",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-37447562",
@@ -97500,9 +98945,12 @@
     ],
     "type": "sleep-goods-device",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-5ee66911",
@@ -97533,9 +98981,12 @@
     ],
     "type": "d2c-diet-coaching",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-1224cbf5",
@@ -97935,9 +99386,12 @@
     ],
     "type": "d2c-personalized-supplement",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-9beb4b41",
@@ -97959,9 +99413,12 @@
     ],
     "type": "femtech-product-ec",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-b6b7cc91",
@@ -98350,9 +99807,12 @@
     ],
     "type": "d2c-nutrition-food-brand",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-0d3e0ced",
@@ -98436,9 +99896,14 @@
     "type": "telemedicine-clinic-system",
     "updatedAt": "2026-10",
     "lessons": "病院のセカンドオピニオン外来をオンライン化するシステムは、会社が産科の医療機関紹介へ事業を転換する際に、がん患者向けサービス一式として保険会社グループに譲られた。がん領域の事業は保険会社と相性がよい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-fa83d964",
@@ -98474,9 +99939,14 @@
     "type": "mental-online-counseling",
     "updatedAt": "2026-10",
     "lessons": "がん患者と家族の心の相談は、会社が産科領域へ事業を転換する際に、セカンドオピニオン事業とともにがん保険を主力とする保険会社グループへ移った。患者支援サービスは、その疾患の保険を売る会社が受け皿になりうる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-1305d462",
@@ -98499,9 +99969,12 @@
     ],
     "type": "specialist-referral",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-63782c52",
@@ -99204,9 +100677,11 @@
     ],
     "type": "relaxation-dispatch-matching",
     "updatedAt": "2026-11",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-d199010c",
@@ -99229,9 +100704,11 @@
     ],
     "type": "pediatric-perinatal-support",
     "updatedAt": "2026-11",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-14927551",
@@ -99392,9 +100869,14 @@
     ],
     "type": "pediatric-perinatal-support",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-c6242c0f",
@@ -99640,9 +101122,12 @@
     ],
     "type": "care-service-operation",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-b8f5b48f",
@@ -100213,9 +101698,14 @@
     "endedAt": "2016-12",
     "endReasonNote": "会社は、医師間臨床支援アプリ「ヒフミル」を「医師同士のコミュニケーションを促進し、世界中どこにいても参加・相談できる臨床互助ツールとして進化させ」、「ヒポクラ」に名称変更すると説明。2016-10-15の「クスリバ」リリース以降、様々な診療科の医師が互いに臨床の相談をするようになったことを背景に挙げた。",
     "successor": "ヒポクラ（b-bcd1ba43）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-f827c022",
@@ -101283,9 +102773,14 @@
     ],
     "endReasonNote": "公式ページで2026年3月31日をもってサービス終了と告知。理由の説明はなく、以後の相談は「スマルナ医療相談室」（オンライン）へ案内している。",
     "successor": "スマルナ医療相談室（ネクイノ、オンライン）",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-0cdf4d41",
@@ -102243,9 +103738,14 @@
     "endedAt": "2024-02-29",
     "endReasonNote": "アナムネは、オンライン患者会コミュニティ「clila」を既存のオンライン診療サービス「おうち病院」とブランド統合し、「おうち病院 疾患コミュニティ」としてSNS機能などをアップデートしたと発表した。",
     "successor": "「おうち病院 疾患コミュニティ」（アナムネ。DBの b-b13baf22）",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-b13baf22",
@@ -102411,9 +103911,14 @@
     "type": "operating-room-management",
     "updatedAt": "2026-10",
     "lessons": "手術映像を記録・教材化するスマートレコーダーは、医療DXの品ぞろえを広げたい手術用品の大手に譲られた。病院に販路を持つ医療機器・用品メーカーは、医療DXスタートアップの製品の受け皿になる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-57baba29",
@@ -102662,9 +104167,12 @@
     ],
     "type": "medical-supply-ec",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-1e4e893d",
@@ -103937,9 +105445,14 @@
     "type": "online-home-fitness",
     "updatedAt": "2026-10",
     "lessons": "トレーナー付きの対面・オンライン運動レッスンは、開始1年で1,000人超が申し込んだが、会社はAIトレーナーアプリに経営資源を集中するため終了した。人手のかかる指導は、ソフトに置き換える方向で畳まれやすい。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-ff58a621",
@@ -104774,9 +106287,13 @@
     "type": "elderly-home-monitoring",
     "updatedAt": "2026-11",
     "endReasonNote": "公式サイトは「現在、新規ユーザーのご登録は受け付けておりません」と表示するだけで、理由や再開の予定は説明していない。",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-42fa8d8c",
@@ -105341,9 +106858,12 @@
     ],
     "type": "hospital-management-bi",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-f15bae13",
@@ -105367,9 +106887,12 @@
     ],
     "type": "hospital-management-bi",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-75393e7e",
@@ -105393,9 +106916,12 @@
     ],
     "type": "visiting-nursing-software",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-859d8631",
@@ -107890,9 +109416,12 @@
     ],
     "type": "hospital-search-portal",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-d74c38c8",
@@ -108030,9 +109559,12 @@
     ],
     "type": "selfpay-care-service",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-36116ae4",
@@ -108162,9 +109694,12 @@
     ],
     "type": "healthcare-accelerator",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-ce501139",
@@ -108189,9 +109724,12 @@
     ],
     "type": "healthcare-accelerator",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-8750659e",
@@ -108440,9 +109978,12 @@
     ],
     "type": "femtech-product-ec",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-b06c5c3c",
@@ -110601,9 +112142,12 @@
     ],
     "type": "selfpay-care-service",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-620c34e9",
@@ -111970,9 +113514,12 @@
     ],
     "type": "medical-master-data",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "id": "b-450a546c",
@@ -112018,9 +113565,14 @@
     "updatedAt": "2026-10",
     "endReasonNote": "ユニバーサル・サウンドデザインは、両社の専門性をより一層高めサービス向上を目指すため、新設分割で聴脳科学総合研究所を設立し事業の一部を移すと説明。サービス・契約内容に変更はない。",
     "lessons": "聴覚の評価アプリは、スピーカー事業の会社から新設分割で専門会社に切り出され、創業者がその代表に移った。製品は続いており、ハードと医療・リハビリ向けアプリを別会社に分けて専門性を高める判断である。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-758435b0",
@@ -112047,9 +113599,14 @@
     "updatedAt": "2026-10",
     "endReasonNote": "ユニバーサル・サウンドデザインは、両社の専門性をより一層高めサービス向上を目指すため、新設分割で聴脳科学総合研究所を設立し事業の一部を移すと説明。サービス・契約内容に変更はない。",
     "lessons": "構音障害の発語評価アプリは、発売直後に新設分割で聴覚・言語の専門会社に移された。医療・リハビリ向けアプリは、本業と別の会社に分けることで専門性と販路をそろえやすくなる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-3eea6c6b",
@@ -112073,9 +113630,12 @@
     ],
     "type": "healthcare-worker-education",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-9f24044d",
@@ -112563,9 +114123,12 @@
     "updatedAt": "2026-11",
     "endedAt": "2019-03-14",
     "successor": "株式会社イントロム",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-4351675f",
@@ -112959,9 +114522,12 @@
     ],
     "type": "contract-lab-omics",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-6da362c5",
@@ -113375,9 +114941,14 @@
     ],
     "type": "mental-online-counseling",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-a1d732e5",
@@ -113576,9 +115147,12 @@
     "updatedAt": "2026-11",
     "endedAt": "2017-12-29",
     "endReasonNote": "東京メトロアプリの期間限定コンテンツ「メトロラボ2017」（2017年9月29日〜12月29日）の一つとして提供すると、スマートメディカルのプレスリリースに書かれていた。",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-b417102e",
@@ -114360,9 +115934,14 @@
     "type": "endoscope-device",
     "updatedAt": "2026-10",
     "lessons": "内視鏡と医療機器の大手2社の包括提携は、共同開発の目的を達成したとして約18年で終え、個別の取引契約に切り替えた。提携は終わり方を決めておけば、製品の販売協力を残したまま形を変えられる。",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-611f3b95",
@@ -114416,9 +115995,14 @@
     ],
     "type": "severe-disability-home-care",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "経過のみ"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-b406b35b",
@@ -114457,9 +116041,14 @@
     ],
     "type": "otc-consumer-wholesale",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-5e23e393",
@@ -114502,9 +116091,14 @@
     ],
     "type": "overseas-hospital-group",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "会社の説明"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "経過だけ",
+      "interpretation": "なし"
+    },
+    "afterEnd": "運営主体変更"
   },
   {
     "id": "b-8ac9b94a",
@@ -114559,9 +116153,14 @@
     ],
     "type": "device-material-wholesale",
     "updatedAt": "2026-10",
-    "endReasonBasis": [
-      "報道"
-    ]
+    "endReasonInfo": {
+      "sources": [
+        "報道"
+      ],
+      "stated": "明示あり",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供継続・運営主体変更"
   },
   {
     "id": "b-176596c4",
@@ -131071,7 +132670,7 @@
   },
   {
     "id": "b-d8186f35",
-    "name": "porteraのエコー検査のAI（DTx）",
+    "name": "porteraのエコー画像AI（診断支援技術の研究開発）",
     "company": "株式会社portera",
     "companyId": "4130001074695",
     "category": "medical-image",
@@ -131485,9 +133084,12 @@
     ],
     "type": "mental-online-counseling",
     "updatedAt": "2026-11",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "提供終了"
   },
   {
     "id": "b-470726e4",
@@ -131972,9 +133574,11 @@
     ],
     "type": "care-record-careplan-software",
     "updatedAt": "2026-11",
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    }
   },
   {
     "id": "b-09fc5c44",
@@ -133068,9 +134672,12 @@
       "https://prtimes.jp/main/html/rd/p/000000001.000015530.html",
       "https://prtimes.jp/main/html/rd/p/000000008.000015530.html"
     ],
-    "endReasonBasis": [
-      "非公表"
-    ]
+    "endReasonInfo": {
+      "sources": [],
+      "stated": "資料に理由なし",
+      "interpretation": "なし"
+    },
+    "afterEnd": "後継サービスへ移行"
   },
   {
     "company": "エクスメディオ",

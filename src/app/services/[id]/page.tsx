@@ -8,6 +8,7 @@ import { END_REASONS, categoryName, getBizType, getCompany, getService, getServi
 import { ym } from '@/lib/ym';
 import { StageBadge } from '@/components/StageBadge';
 import { DevicePanel, DeviceTag } from '@/components/DeviceInfo';
+import { ReasonInfo } from '@/components/ReasonInfo';
 
 export function generateStaticParams() {
   return getServices().map((s) => ({ id: s.id }));
@@ -82,7 +83,8 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
             <section className="panel stop-panel">
               <h3>止まった理由</h3>
               <div className="chips">{(s.endReasons?.length ? s.endReasons : ['unknown']).map((r) => <Link key={r} href={`/services/stopped/#${r}`} className="chip">{END_REASONS[r]?.label ?? r}</Link>)}</div>
-              {s.endReasonBasis?.length ? <p className="small muted basis-line">理由の出どころ：{s.endReasonBasis.map((b) => <span key={b} className={`basis basis-${b}`}>{b}</span>)}</p> : null}
+              {s.afterEnd && <p className="after-end"><b>その後</b>{s.afterEnd}</p>}
+              {s.endReasonInfo && <ReasonInfo i={s.endReasonInfo} />}
               <p>{s.endReasonNote || '止まった理由は公表されていない。'}</p>
               {s.endReasonCaveat && <p className="caveat">注意：{s.endReasonCaveat}</p>}
               {s.successor && <p className="small"><b>引き継ぎ先：</b>{s.successor}</p>}

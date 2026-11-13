@@ -6,6 +6,8 @@ import { money } from '@/lib/earnings';
 export type FinEvent = { date: string; kind: '子会社化' | '出資' | '資本業務提携' | 'グループ入り' | '合併' | '売却'; name: string; href?: string; source?: string };
 
 const COLOR: Record<FinEvent['kind'], string> = { 子会社化: '#b45309', グループ入り: '#b45309', 合併: '#6b6259', 売却: '#6b6259', 出資: '#1d4ed8', 資本業務提携: '#1d4ed8' };
+/** 期間の長さを「6年7か月」の形で（決算期末どうしの差） */
+const spanText = (years: number) => { const m = Math.round(years * 12); return `${Math.floor(m / 12)}年${m % 12 ? `${m % 12}か月` : ''}`; };
 const fyLabel = (fy: string) => `${fy.slice(2, 4)}/${Number(fy.slice(5, 7))}`;
 const ymJa = (d: string) => d.replace(/^(\d{4})-(\d{2}).*/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年');
 
@@ -59,7 +61,7 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
       <div className="fh-grid">
         <div className="fh-kpi">
           <div><span>売上高（{fyLabel(last.fy)}期）</span><b>{money(last.revenue)}</b>{yoyOk ? <small>前年比 {((last.revenue! / prev.revenue! - 1) * 100 >= 0 ? '+' : '')}{((last.revenue! / prev.revenue! - 1) * 100).toFixed(1)}%</small> : prev?.revenue ? <small>前年比は比較なし（変則決算）</small> : null}</div>
-          {cagr != null && <div><span>{Math.round(spanYears)}年の伸び（年平均）</span><b>{cagr >= 0 ? '+' : ''}{cagr.toFixed(1)}%</b><small>{fyLabel(first.fy)}期 {money(first.revenue)} から</small></div>}
+          {cagr != null && <div><span>{spanText(spanYears)}の伸び（年平均）</span><b>{cagr >= 0 ? '+' : ''}{cagr.toFixed(1)}%</b><small>{fyLabel(first.fy)}期 {money(first.revenue)} から</small></div>}
           {margins[n - 1] != null && <div><span>営業利益率</span><b>{margins[n - 1]!.toFixed(1)}%</b>{mv.length > 2 && <small>{mv.length}期の幅 {mMin.toFixed(1)}〜{mMax.toFixed(1)}%</small>}</div>}
           {healthShare != null && healthShare < 99.5 && <div><span>ヘルスケアの売上</span><b>{healthShare.toFixed(0)}%</b><small>{healthNames?.join('、')}</small></div>}
           {evs.length > 0 && <div><span>この{n}年の出来事</span><b>{evs.length}件</b><small>{kinds.map((k) => `${k}${evs.filter((e) => e.kind === k).length}`).join('・')}</small></div>}
@@ -123,7 +125,7 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
   );
 }
 
-export type Peer = { id: string; name: string; fy: string; revenue: number; prior?: number; operatingIncome?: number; margin?: number | null; growth?: number | null; healthShare?: number | null; spark?: number[]; cagr?: number | null; cagrYears?: number; self?: boolean };
+export type Peer = { id: string; name: string; fy: string; revenue: number; prior?: number; operatingIncome?: number; margin?: number | null; growth?: number | null; healthShare?: number | null; spark?: number[]; cagr?: number | null; cagrSpan?: number; basis?: string; self?: boolean };
 
 /** 同じ事業の上場企業と比べる */
 export function PeerPanel({ peers, label }: { peers: Peer[]; label: string }) {
@@ -139,7 +141,7 @@ export function PeerPanel({ peers, label }: { peers: Peer[]; label: string }) {
           return (
             <div key={p.id} className={`peer${p.self ? ' me' : ''}`}>
               <div className="pn">{p.self ? p.name : <Link href={`/companies/${p.id}/`}>{p.name}</Link>}{p.self && <small>このページ</small>}</div>
-              <div className="pr"><span>売上高（{p.fy}）</span><b>{money(p.revenue)}</b></div>
+              <div className="pr"><span>売上高（{p.fy}{p.basis ? `・${p.basis}` : ''}）</span><b>{money(p.revenue)}</b></div>
               <div className="pbar"><i style={{ width: `${(p.revenue / max) * 100}%` }} /></div>
               {g != null && <div className="pr"><span>前年比</span><b className={g >= 0 ? 'up' : 'down'}>{g >= 0 ? '+' : ''}{g.toFixed(1)}%</b></div>}
               {(p.margin ?? (p.operatingIncome != null ? (p.operatingIncome / p.revenue) * 100 : null)) != null && <div className="pr"><span>営業利益率</span><b>{(p.margin ?? (p.operatingIncome! / p.revenue) * 100).toFixed(1)}%</b></div>}
@@ -147,14 +149,14 @@ export function PeerPanel({ peers, label }: { peers: Peer[]; label: string }) {
               {sm > 0 && (
                 <div className="spark">
                   <svg viewBox={`0 0 ${p.spark!.length * 10} 30`} preserveAspectRatio="none">{p.spark!.map((v, i) => <rect key={i} x={i * 10 + 1.5} y={30 - (v / sm) * 28} width="7" height={(v / sm) * 28} rx="1" className={i === p.spark!.length - 1 ? 'last' : ''} />)}</svg>
-                  {p.cagr != null && <small>{p.cagrYears ?? p.spark!.length - 1}年の伸び 年平均 {p.cagr >= 0 ? '+' : ''}{p.cagr.toFixed(1)}%</small>}
+                  {p.cagr != null && <small>{p.cagrSpan ? spanText(p.cagrSpan) : `${p.spark!.length - 1}年`}の伸び 年平均 {p.cagr >= 0 ? '+' : ''}{p.cagr.toFixed(1)}%</small>}
                 </div>
               )}
             </div>
           );
         })}
       </div>
-      <p className="muted small" style={{ marginTop: 10 }}>直近の通期決算（決算短信、連結）。「ヘルスケアの売上」はヘルスケアに関わるセグメントの売上の割合。</p>
+      <p className="muted small" style={{ marginTop: 10 }}>直近の通期決算（決算短信。連結・単体は会社ごとに表示）。「ヘルスケアの売上」はヘルスケアに関わるセグメントの売上の割合。</p>
     </section>
   );
 }

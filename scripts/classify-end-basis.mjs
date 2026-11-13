@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 /**
- * 止まった事業の「理由の出どころ」を endReasonNote の書き方から分ける（入っていない事業だけ）。
- *   会社の説明：当事者の発表・説明・告知・開示
- *   報道：報道・記事による
- *   推定：DB 側の判断を含む（記事が指す事業を推定した など）。endReasonCaveat に断り書きを入れる
- *   非公表：理由が公表されていない
- *   経過のみ：理由ではなく、合併・承継などの経過だけが分かっている
- * 1つの事業に複数つくことがある（社長の説明と報道の両方 など）。
- *   node scripts/classify-end-basis.mjs [--force]
+ * 止まった事業の「理由の出どころ」を、性質の違う3つの項目に分けて入れる（endReasonInfo）。
+ *   sources        情報源：会社発表／行政資料／報道（複数つくことがある）
+ *   stated         理由の記載：明示あり／経過だけ／非公表（会社が明示）／資料に理由なし
+ *   interpretation 編集上の解釈：なし／推定を含む（推定を含むときは endReasonCaveat に断り書き）
+ * あわせて、止まったあとどうなったか（afterEnd）を入れる：提供継続・運営主体変更／後継サービスへ移行／一部継続／提供終了
+ * 手で直した事業（endReasonInfo.locked）は変えない。
+ *   node scripts/classify-end-basis.mjs
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -15,32 +14,45 @@ import { fileURLToPath } from 'node:url';
 
 const F = path.join(path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'), 'data', 'services.json');
 const list = JSON.parse(fs.readFileSync(F, 'utf8'));
-const force = process.argv.includes('--force');
 const STOPPED = new Set(['終了', '譲渡', '統合', '休止']);
 const INFER = /明記はなく|指すと判断|と推定|推測|とみられ|と考えられ|可能性がある|のではないか/;
-const COMPANY = /説明|発表|告知|お知らせ|公表|開示|としている|と述べ|方針|理由に挙げ|目的に挙げ|「[^」]+」(と|として)/;
-const PRESS = /報道|報じ|によると|によれば|記事|日経/;
+const PRESS = /報道|報じ|によると|によれば|記事|日経|新聞/;
+const GOV = /厚生労働省|厚労省|省令|官報|告示|通知を出|自治体|PMDA|FDA|規制当局|法改正|薬事法/;
+const COMPANY = /説明|発表|告知|お知らせ|公表|開示|としている|と述べ|方針|掲げ|理由に挙げ|目的に挙げ|として[^。]{0,40}(譲渡|終了|撤退|統合|承継|売却|移管)|「[^」]+」(と|として)/;
+const NONDISCLOSED = /非公表とし|明らかにしていない|開示していない|コメントを控え|理由は非公表|理由を明らかにせず/;
+const REASON = /ため|として|判断|方針|目的|集中|困難|不振|赤字|採算|伸び悩|見直し|戦略|再編|効率|需要|競合|規制|資金|不足|減少|低迷|成長/;
 
-const count = {};
-let n = 0;
+const count = { sources: {}, stated: {}, interpretation: {}, afterEnd: {} };
+const inc = (k, v) => (count[k][v] = (count[k][v] ?? 0) + 1);
 for (const s of list) {
-  if (!STOPPED.has(s.status) || s.suspension?.temporary) continue;
-  if (s.endReasonBasis && !force) continue;
+  if (!STOPPED.has(s.status) || s.suspension?.temporary) { delete s.endReasonBasis; continue; }
+  delete s.endReasonBasis;
   const t = s.endReasonNote ?? '';
-  const b = [];
-  // 止まった理由が unknown（終了の告知はあるが理由は書いていない など）は「非公表」
-  if (!t.trim() || (s.endReasons ?? []).every((r) => r === 'unknown')) b.push('非公表');
-  else {
-    if (COMPANY.test(t.replace(/報じられ[^。]*。/g, ''))) b.push('会社の説明');
-    if (PRESS.test(t)) b.push('報道');
-    if (INFER.test(t)) b.push('推定');
-    if (!b.length) b.push((s.endReasons ?? []).every((r) => r === 'unknown') ? '非公表' : '経過のみ');
+  const unknown = !(s.endReasons ?? []).some((r) => r !== 'unknown');
+  if (!s.endReasonInfo?.locked) {
+    const companyPart = t.replace(/[^。]*報じ[^。]*。/g, '');
+    const sources = [];
+    if (COMPANY.test(companyPart)) sources.push('会社発表');
+    if (GOV.test(t)) sources.push('行政資料');
+    if (PRESS.test(t)) sources.push('報道');
+    const stated = unknown ? (NONDISCLOSED.test(t) ? '非公表（会社が明示）' : '資料に理由なし') : REASON.test(t) ? '明示あり' : '経過だけ';
+    // 理由が明示されていて出どころの書き方が無いもの：報道の印が無ければ当事者の発表をまとめたもの
+    if (!sources.length && stated === '明示あり') sources.push('会社発表');
+    s.endReasonInfo = { sources, stated, interpretation: INFER.test(t) || s.endReasonCaveat ? '推定を含む' : 'なし' };
   }
-  s.endReasonBasis = b;
-  // 推定を含むときは、その文を断り書きとして別に持つ（一覧でも見えるように）
-  if (b.includes('推定') && !s.endReasonCaveat) s.endReasonCaveat = t.split('。').filter((x) => INFER.test(x)).map((x) => x.trim() + '。').join('');
-  b.forEach((k) => (count[k] = (count[k] ?? 0) + 1));
-  n++;
+  if (s.endReasonInfo.interpretation === '推定を含む' && !s.endReasonCaveat) s.endReasonCaveat = t.split('。').filter((x) => INFER.test(x)).map((x) => x.trim() + '。').join('');
+  // 止まったあと：譲渡でサービスが続いている、後継に移った、保守だけ続く など（事業の失敗と誤読されないように）
+  if (!s.afterEndLocked) {
+    const all = [t, s.successor ?? '', s.description ?? ''].join(' ');
+    s.afterEnd = s.status === '譲渡' && /継続|続いて|続けて|引き継|承継|公開されている|提供を続/.test(all) && !/閉鎖した|提供を終了した|サービスを終了/.test(t) ? '提供継続・運営主体変更'
+      : s.status === '統合' && s.successor ? (/一部/.test(all) ? '一部を後継サービスへ統合' : '後継サービスへ移行')
+      : s.status === '終了' && /(サポート|保守)[^。]{0,30}(継続|続け|まで)/.test(all) ? '一部継続（既存顧客の保守など）'
+      : s.status === '終了' ? '提供終了' : s.status === '譲渡' ? '運営主体変更' : undefined;
+    if (!s.afterEnd) delete s.afterEnd;
+  }
+  s.endReasonInfo.sources.forEach((v) => inc('sources', v));
+  inc('stated', s.endReasonInfo.stated); inc('interpretation', s.endReasonInfo.interpretation);
+  if (s.afterEnd) inc('afterEnd', s.afterEnd);
 }
 fs.writeFileSync(F, JSON.stringify(list, null, 2) + '\n');
-console.error(`${n} 件に理由の出どころを入れた`, count);
+console.error(JSON.stringify(count, null, 1));

@@ -104,7 +104,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
       const odd = (y?: { note?: string }) => /変則|決算期変更|\d+\s*(か月|カ月|ヶ月)/.test(y?.note ?? '');
       const span = ys.length >= 3 ? ((Number(ys[ys.length - 1].fy.slice(0, 4)) * 12 + Number(ys[ys.length - 1].fy.slice(5, 7))) - (Number(ys[0].fy.slice(0, 4)) * 12 + Number(ys[0].fy.slice(5, 7)))) / 12 : 0;
       const cagr = span >= 1 && sp[0] > 0 && !odd(ys[0]) && !odd(ys[ys.length - 1]) ? ((sp[sp.length - 1] / sp[0]) ** (1 / span) - 1) * 100 : null;
-      rows.push({ id: o.id, name: o.name.replace(/^株式会社|株式会社$/g, '').replace(/ホールディングス/, 'HD'), fy: r.fiscalYear.replace(/年(\d+)月期/, '/$1').replace(/^20/, ''), revenue: r.current.revenue, prior: comparable(r) ? r.prior?.revenue : undefined, operatingIncome: r.current.operatingIncome, margin: marginOf(r), growth: growth(r), healthShare: share, spark: sp, cagr, cagrYears: Math.round(span), self: o.id === c.id });
+      rows.push({ id: o.id, name: o.name.replace(/^株式会社|株式会社$/g, '').replace(/ホールディングス/, 'HD'), fy: r.fiscalYear.replace(/年(\d+)月期/, '/$1').replace(/^20/, ''), revenue: r.current.revenue, prior: comparable(r) ? r.prior?.revenue : undefined, operatingIncome: r.current.operatingIncome, margin: marginOf(r), growth: growth(r), healthShare: share, spark: sp, cagr, cagrSpan: span, basis: r.consolidated === false ? '単体' : '連結', self: o.id === c.id });
     }
     rows.sort((a, b) => b.revenue - a.revenue);
     const top = rows.slice(0, 6);

@@ -3,11 +3,12 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { END_REASONS, isStopped, getServices } from '@/lib/data';
 import { ym } from '@/lib/ym';
+import { ReasonInfo } from '@/components/ReasonInfo';
 
 export const metadata: Metadata = { title: '止まった事業を理由別に見る', description: 'ヘルスケアの事業がどのような理由で止まったのか。規制、保険償還、お金を払う人、現場への定着、効果の実証、資金などの理由別に、過去の事業を一覧する。' };
 
 
-const BASIS = ['会社の説明', '報道', '推定', '経過のみ', '非公表'] as const;
+const STATED = ['明示あり', '経過だけ', '非公表（会社が明示）', '資料に理由なし'] as const;
 
 export default function StoppedPage() {
   const all = getServices();
@@ -28,7 +29,9 @@ export default function StoppedPage() {
         <p className="lead">
           同じようなアイデアは何度も生まれ、同じところで止まります。過去の事業がどこで止まったのかを理由別に並べました。
           理由は、当事者の発表など公開された事実にもとづいて分類しています（公表されていないものは「理由は非公表」）。{stopped.length} 件。
-          理由の出どころは、{BASIS.map((b) => `${b} ${stopped.filter((s) => s.endReasonBasis?.includes(b)).length}件`).join('・')}。「推定」はこの DB の判断を含むもので、断り書きをつけています。
+          理由の記載は、{STATED.map((b) => `${b} ${stopped.filter((s) => s.endReasonInfo?.stated === b).length}件`).join('・')}。
+          {((n) => (n ? `この DB の推定を含むものは ${n}件で、断り書きをつけています。` : ''))(stopped.filter((s) => s.endReasonInfo?.interpretation === '推定を含む').length)}
+          譲渡・統合で、別の会社や後継のサービスに引き継がれたものは {stopped.filter((s) => s.afterEnd && !/^提供終了/.test(s.afterEnd)).length}件あり、一覧に「その後」を出しています。
         </p>
       </div>
       {(planned.length > 0 || paused.length > 0) && (
@@ -82,7 +85,9 @@ export default function StoppedPage() {
                     {s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : <span>{s.company}</span>}
                     <span>{ym(s.startedAt) || (s.startedYear ? `${s.startedYear}年` : '')} 〜 {ym(s.endedAt)}</span>
                   </div>
-                  {s.endReasonNote && <p className="reason-note">{s.endReasonBasis?.map((b) => <span key={b} className={`basis basis-${b}`}>{b}</span>)}{s.endReasonNote}</p>}
+                  {s.afterEnd && s.afterEnd !== '提供終了' && <p className="after-end small"><b>その後</b>{s.afterEnd}</p>}
+                  {s.endReasonInfo && <ReasonInfo i={s.endReasonInfo} compact />}
+                  {s.endReasonNote && <p className="reason-note">{s.endReasonNote}</p>}
                   {s.endReasonCaveat && <p className="caveat">注意：{s.endReasonCaveat}</p>}
                 </div>
               </div>

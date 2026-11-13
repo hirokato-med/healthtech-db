@@ -2,11 +2,12 @@
  * サイト内検索の当てはめ（検索ページと scripts/test-search.mjs で同じものを使う）。
  * 同じ意味の言葉（DTx・デジタル治療・治療用アプリ など）は、どれで検索しても同じものが出るようにする。
  */
-export type SearchItem = { t: string; id: string; title: string; sub: string; url: string; k?: string };
+export type SearchItem = { t: string; id: string; title: string; sub: string; url: string; k?: string; ty?: string };
 
 type SynGroup = { terms: string[]; exclude?: RegExp };
 // 同じ意味として扱う言葉。exclude は、言葉は含むが意味の違うもの（歯科ソフトの「DTX Studio」など）
 export const SYNONYMS: SynGroup[] = [
+  // DTx は「治療用アプリ」そのものに限る。睡眠・メンタルなど分野が同じだけのアプリは「関連する事業」に分ける
   { terms: ['dtx', 'デジタル治療', 'デジタルセラピューティクス', 'デジタル療法', '治療用アプリ', '治療アプリ', '治療用プログラム', '治療補助アプリ'], exclude: /dtx\s*studio/i },
   { terms: ['samd', 'プログラム医療機器', '医療機器プログラム'] },
   { terms: ['オンライン診療', '遠隔診療', 'telemedicine', 'テレメディシン'] },
@@ -27,34 +28,43 @@ export const SYNONYMS: SynGroup[] = [
 export const normText = (s: string) => s.normalize('NFKC').toLowerCase();
 const groupOf = (t: string) => SYNONYMS.find((g) => g.terms.includes(t));
 
-/** 1件が検索語に当たるか。当たれば点数（大きいほど上）、当たらなければ null */
-export const matchItem = (h: SearchItem, query: string): number | null => {
+/**
+ * 1件が検索語に当たるか。当たれば { score, related }、当たらなければ null。
+ * 同じ意味の言葉のまとまりは、名前・説明だけで当てる。事業の種類の名前（ty）でしか当たらないものは related（関連する事業）にする。
+ */
+export const matchItem = (h: SearchItem, query: string): { score: number; related: boolean } | null => {
   const n = normText(query.trim());
   if (!n) return null;
   const terms = n.split(/\s+/).filter(Boolean);
   const title = normText(h.title);
-  const hay = `${title} ${normText(h.sub)} ${normText(h.k ?? '')}`;
+  const main = `${title} ${normText(h.sub)} ${normText(h.k ?? '')}`;
+  const all = `${main} ${normText(h.ty ?? '')}`;
   let score = 0;
+  let related = false;
   for (const t of terms) {
     const g = groupOf(t);
     // 検索語そのものが除外の名前（「DTX Studio」で探したとき）なら、言葉どおりに探す
     if (g && !g.exclude?.test(query)) {
       if (g.exclude?.test(h.title)) return null;
-      if (!g.terms.some((x) => hay.includes(x))) return null;
-      if (g.terms.some((x) => title.includes(x))) score += 2;
+      if (g.terms.some((x) => main.includes(x))) { if (g.terms.some((x) => title.includes(x))) score += 2; }
+      else if (g.terms.some((x) => all.includes(x))) related = true;
+      else return null;
     } else {
-      if (!hay.includes(t)) return null;
+      if (!all.includes(t)) return null;
       if (title.includes(t)) score += 2;
     }
   }
   if (title === n) score += 3;
-  return score;
+  return { score, related };
 };
 
-export const search = (index: SearchItem[], query: string, limit = 100) =>
+const run = (index: SearchItem[], query: string) =>
   index
-    .map((h) => ({ h, score: matchItem(h, query) }))
-    .filter((x): x is { h: SearchItem; score: number } => x.score != null)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit)
-    .map((x) => x.h);
+    .map((h) => ({ h, m: matchItem(h, query) }))
+    .filter((x): x is { h: SearchItem; m: { score: number; related: boolean } } => x.m != null)
+    .sort((a, b) => b.m.score - a.m.score);
+
+/** 検索語に当たるもの（関連する事業は除く） */
+export const search = (index: SearchItem[], query: string, limit = 100) => run(index, query).filter((x) => !x.m.related).slice(0, limit).map((x) => x.h);
+/** 検索語の分野と同じだが、その言葉そのものではないもの（DTx で探したときの睡眠アプリ など） */
+export const searchRelated = (index: SearchItem[], query: string, limit = 50) => run(index, query).filter((x) => x.m.related).slice(0, limit).map((x) => x.h);

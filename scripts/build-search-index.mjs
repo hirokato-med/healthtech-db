@@ -11,14 +11,24 @@ const catName = Object.fromEntries(categories.map((c) => [c.slug, c.name]));
 // 事業の種類の名前（検索の手がかり k に入れる。画面には出さない）
 const typeName = Object.fromEntries(read('taxonomy.json').flatMap((c) => c.types.map((t) => [t.slug, t.name])));
 const services = read('services.json');
+// 治療用アプリ（DTx）そのものの事業。事業の種類の名前（「睡眠アプリ・不眠症治療アプリ」など）だけで DTx の検索に出さないための印
+// 「治療用アプリ（DTx）」の種類には診断支援のプログラム医療機器も入っているので、治療に使うものだけを印にする
+const DTX_RE = /治療用アプリ|治療アプリ|治療補助アプリ|dtx|デジタル治療|デジタルセラピューティクス|デジタル療法/i;
+const THERAPY = /治療|療法|セラピー|訓練|リハビリ|禁煙|卒煙|減酒/;
+const isDtx = (s) => {
+  const t = `${s.name} ${s.description ?? ''}`;
+  if (/診断支援|診断補助|検査用|画像解析|読影/.test(s.name)) return false;
+  return DTX_RE.test(t) || (s.type === 'digital-therapeutics' && THERAPY.test(t));
+};
 const out = [];
 for (const c of read('companies.json')) {
   // 会社の事業の種類（DTx の会社を「治療用アプリ」でも探せるように）
-  const types = [...new Set(services.filter((s) => s.companyId === c.id).map((s) => typeName[s.type]).filter(Boolean))];
-  out.push({ t: 'company', id: c.id, title: c.name, sub: [...(c.aliases ?? []), ...(c.formerNames ?? []), c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), k: types.join(' '), url: `/companies/${c.id}/` });
+  const mine = services.filter((s) => s.companyId === c.id);
+  const types = [...new Set(mine.map((s) => typeName[s.type]).filter(Boolean))];
+  out.push({ t: 'company', id: c.id, title: c.name, sub: [...(c.aliases ?? []), ...(c.formerNames ?? []), c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), k: mine.some(isDtx) ? '治療用アプリ' : '', ty: types.join(' '), url: `/companies/${c.id}/` });
 }
 for (const s of services)
-  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [typeName[s.type], s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), url: `/services/${s.id}/` });
+  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [isDtx(s) ? '治療用アプリ' : '', s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), ty: typeName[s.type], url: `/services/${s.id}/` });
 for (const p of read('people.json'))
   out.push({ t: 'person', id: p.id, title: p.name, sub: p.roles.map((r) => `${r.companyName} ${r.title}`).join(' / '), url: `/talents/${p.id}/` });
 for (const c of categories) out.push({ t: 'category', id: c.slug, title: c.name, sub: c.groupLabel, url: `/categories/${c.slug}/` });
