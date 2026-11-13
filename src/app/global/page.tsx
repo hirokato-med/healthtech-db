@@ -41,7 +41,8 @@ export default function GlobalPage() {
                 const ok = (k: 'founding' | 'capital' | 'activity') => !c || (c[k]?.verified !== false && (c[k]?.sources?.length ?? 1) > 0);
                 return (
                 <article className="card" id={o.id} key={o.id}>
-                  <a className="title" href={o.hp || undefined} target="_blank" rel="noreferrer">{o.name}</a>
+                  {/* いまの提供状況を確かめられない会社は、旧ドメインが無関係のサイトになっていることがあるのでリンクしない */}
+                  <a className="title" href={(ok('activity') && o.hp) || undefined} target="_blank" rel="noreferrer">{o.name}</a>
                   <div className="chips">{o.areas.map((a) => <span key={a} className="chip ghost">{a}</span>)}</div>
                   {o.checkedAt && o.description && <p className="desc">{o.description}</p>}
                   <div className="meta">
@@ -58,7 +59,8 @@ export default function GlobalPage() {
                   {o.checkedAt && o.events?.length ? <ul className="ov-events">{o.events.slice(-3).map((e) => <li key={e.date + e.text}><span>{ym(e.date)}</span>{e.type && !e.text.includes(e.type) ? `${e.type}：` : ''}{e.text}{e.source && <Src s={[e.source]} />}</li>)}</ul> : null}
                   {c?.activity && ok('activity') ? (
                     <div className="small muted" style={{ marginTop: 6 }}>提供状況「{o.activity}」は{ym(c.activity.checkedAt)}に確認<Src s={c.activity.sources} /></div>
-                  ) : o.checkedAt && o.sources?.length ? <div className="small muted" style={{ marginTop: 6 }}>{ym(o.checkedAt)}時点で確認・<a href={o.sources[0]} target="_blank" rel="noreferrer">出典</a></div> : null}
+                  ) : c?.activity ? <div className="small muted" style={{ marginTop: 6 }}>いまの提供状況は確認できていません（{ym(c.activity.checkedAt)}時点）</div>
+                  : o.checkedAt && o.sources?.length ? <div className="small muted" style={{ marginTop: 6 }}>{ym(o.checkedAt)}時点で確認・<a href={o.sources[0]} target="_blank" rel="noreferrer">出典</a></div> : null}
                 </article>
                 );
               })}
