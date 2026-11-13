@@ -8,11 +8,17 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', f), 'utf8'));
 const categories = read('categories.json');
 const catName = Object.fromEntries(categories.map((c) => [c.slug, c.name]));
+// 事業の種類の名前（検索の手がかり k に入れる。画面には出さない）
+const typeName = Object.fromEntries(read('taxonomy.json').flatMap((c) => c.types.map((t) => [t.slug, t.name])));
+const services = read('services.json');
 const out = [];
-for (const c of read('companies.json'))
-  out.push({ t: 'company', id: c.id, title: c.name, sub: [...(c.aliases ?? []), ...(c.formerNames ?? []), c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), url: `/companies/${c.id}/` });
-for (const s of read('services.json'))
-  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), url: `/services/${s.id}/` });
+for (const c of read('companies.json')) {
+  // 会社の事業の種類（DTx の会社を「治療用アプリ」でも探せるように）
+  const types = [...new Set(services.filter((s) => s.companyId === c.id).map((s) => typeName[s.type]).filter(Boolean))];
+  out.push({ t: 'company', id: c.id, title: c.name, sub: [...(c.aliases ?? []), ...(c.formerNames ?? []), c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), k: types.join(' '), url: `/companies/${c.id}/` });
+}
+for (const s of services)
+  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [typeName[s.type], s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), url: `/services/${s.id}/` });
 for (const p of read('people.json'))
   out.push({ t: 'person', id: p.id, title: p.name, sub: p.roles.map((r) => `${r.companyName} ${r.title}`).join(' / '), url: `/talents/${p.id}/` });
 for (const c of categories) out.push({ t: 'category', id: c.slug, title: c.name, sub: c.groupLabel, url: `/categories/${c.slug}/` });

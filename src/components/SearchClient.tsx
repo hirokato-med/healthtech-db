@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { withBase } from '@/lib/base';
 
-type Hit = { t: string; id: string; title: string; sub: string; url: string };
+import { search, type SearchItem as Hit } from '@/lib/search-match';
 const LABEL: Record<string, string> = { company: '企業', service: '事業', person: '人物', category: 'カテゴリ', overseas: '海外企業', article: '記事', monthly: '月刊ヘルステック' };
 
 export function SearchClient() {
@@ -19,22 +19,7 @@ export function SearchClient() {
       .catch(() => setIndex([]));
   }, []);
   useEffect(() => setQ(initial), [initial]);
-  const hits = useMemo(() => {
-    const n = q.trim().toLowerCase();
-    if (!n || !index) return [];
-    const terms = n.split(/\s+/).filter(Boolean);
-    return index
-      .map((h) => {
-        const hay = `${h.title} ${h.sub}`.toLowerCase();
-        if (!terms.every((t) => hay.includes(t))) return null;
-        const score = (h.title.toLowerCase().includes(n) ? 2 : 0) + (h.title.toLowerCase() === n ? 3 : 0);
-        return { h, score };
-      })
-      .filter((x): x is { h: Hit; score: number } => Boolean(x))
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 100)
-      .map((x) => x.h);
-  }, [q, index]);
+  const hits = useMemo(() => (index ? search(index, q) : []), [q, index]);
 
   return (
     <>
