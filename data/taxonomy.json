@@ -848,6 +848,18 @@
     "name": "放射線治療の計画・線量計算ソフト",
     "description": "CT・MRI画像から照射範囲や臓器の輪郭を作り、線量を計算して放射線治療の計画を立てるプログラム医療機器。治療記録・品質管理のシステムやAIによる輪郭作成を含む。",
     "category": "medical-image"
+   },
+   {
+    "slug": "teleradiology",
+    "name": "遠隔読影・遠隔画像診断",
+    "description": "放射線科医のネットワークが医療機関の画像を遠隔で読影するサービス",
+    "examples": [
+     "Tele-RAD（遠隔読影マッチング）",
+     "遠隔画像診断サービス",
+     "遠隔画像診断支援サービス",
+     "遠隔画像診断（スタンダードプラン）"
+    ],
+    "category": "medical-image"
    }
   ]
  },
@@ -1068,17 +1080,6 @@
      "夜間・休日往診サービス「HOMEドクター」（提携医療機関による往診、東京・神奈川・埼玉・関西）"
     ],
     "scope": "adjacent"
-   },
-   {
-    "slug": "teleradiology",
-    "name": "遠隔読影・遠隔画像診断",
-    "description": "放射線科医のネットワークが医療機関の画像を遠隔で読影するサービス",
-    "examples": [
-     "Tele-RAD（遠隔読影マッチング）",
-     "遠隔画像診断サービス",
-     "遠隔画像診断支援サービス",
-     "遠隔画像診断（スタンダードプラン）"
-    ]
    },
    {
     "slug": "facility-remote-consultation",
@@ -2118,6 +2119,12 @@
     "description": "医療機関・介護事業者の経営・採用・DX・広報などを支援するコンサルティング事業",
     "examples": [],
     "scope": "adjacent"
+   },
+   {
+    "slug": "clinic-exclusive-supplement",
+    "name": "医療機関専用サプリメント（医療機関経由の販売）",
+    "description": "医療機関だけで扱うサプリメント・健康食品を開発し、医療機関を通じて患者に届ける（紹介患者への直送を含む）。消費者に直接売る D2C とは販売の仕組みが違う。",
+    "category": "medical-management-support"
    }
   ]
  },

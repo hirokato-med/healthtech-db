@@ -71,6 +71,13 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
               <p className="small muted">障害・不正アクセスなどによる一時的な停止で、事業をやめる判断ではないため、「止まった事業」の数には入れていません。</p>
             </section>
           )}
+          {s.status === '不明' && s.endReasonCaveat && (
+            <section className="panel plan-panel">
+              <h3>提供状況は未確認</h3>
+              <p className="caveat">{s.endReasonCaveat}</p>
+              <p className="small muted">終了を確かめられる資料が見つかるまで、止まった事業の件数・理由別の集計には入れていません。</p>
+            </section>
+          )}
           {!['提供中', '準備中', '不明'].includes(s.status) && !s.suspension?.temporary && (
             <section className="panel stop-panel">
               <h3>止まった理由</h3>

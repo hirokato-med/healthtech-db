@@ -9,7 +9,7 @@ import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
 import { isStopped, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
-import { comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
+import { marginOf, comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
 import { reconcileBusinesses } from '@/lib/profile';
 import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
 import { EarningsBars } from '@/components/EarningsBars';
@@ -27,6 +27,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const c = getCompany(id);
   if (!c) notFound();
   const services = servicesOf(c.id);
+  // 事業はあるが、いま提供中・準備中のものが1つもない会社（過去にヘルスケア事業をしていた会社など）
+  const pastOnly = services.length > 0 && !services.some((s) => s.status === '提供中' || s.status === '準備中');
   // 外形情報の事業一覧は、事業データと同じ開始時期で出す
   const profBiz = reconcileBusinesses(c.profile?.businesses ?? [], services);
   const people = peopleOf(c.id);
@@ -89,6 +91,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
     const rows: Peer[] = [];
     for (const o of getCompanies()) {
       if (o.exit !== '上場' || o.categories?.[0] !== cat) continue;
+      // その分野の事業をいま提供していない会社は、同業比較に入れない（過去にだけその事業をしていた会社など）
+      if (o.id !== c.id && !servicesOf(o.id).some((s) => s.category === cat && (s.status === '提供中' || s.status === '準備中'))) continue;
       const r = (all[o.id] ?? []).find((x) => x.quarter === 'FY' && x.current?.revenue);
       if (!r?.current?.revenue) continue;
       const h = healthcareOf((all[o.id] ?? []).find((x) => x.quarter === 'FY' && x.segments?.length));
@@ -100,7 +104,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
       const odd = (y?: { note?: string }) => /変則|決算期変更|\d+\s*(か月|カ月|ヶ月)/.test(y?.note ?? '');
       const span = ys.length >= 3 ? ((Number(ys[ys.length - 1].fy.slice(0, 4)) * 12 + Number(ys[ys.length - 1].fy.slice(5, 7))) - (Number(ys[0].fy.slice(0, 4)) * 12 + Number(ys[0].fy.slice(5, 7)))) / 12 : 0;
       const cagr = span >= 1 && sp[0] > 0 && !odd(ys[0]) && !odd(ys[ys.length - 1]) ? ((sp[sp.length - 1] / sp[0]) ** (1 / span) - 1) * 100 : null;
-      rows.push({ id: o.id, name: o.name.replace(/^株式会社|株式会社$/g, '').replace(/ホールディングス/, 'HD'), fy: r.fiscalYear.replace(/年(\d+)月期/, '/$1').replace(/^20/, ''), revenue: r.current.revenue, prior: comparable(r) ? r.prior?.revenue : undefined, operatingIncome: r.current.operatingIncome, healthShare: share, spark: sp, cagr, cagrYears: Math.round(span), self: o.id === c.id });
+      rows.push({ id: o.id, name: o.name.replace(/^株式会社|株式会社$/g, '').replace(/ホールディングス/, 'HD'), fy: r.fiscalYear.replace(/年(\d+)月期/, '/$1').replace(/^20/, ''), revenue: r.current.revenue, prior: comparable(r) ? r.prior?.revenue : undefined, operatingIncome: r.current.operatingIncome, margin: marginOf(r), growth: growth(r), healthShare: share, spark: sp, cagr, cagrYears: Math.round(span), self: o.id === c.id });
     }
     rows.sort((a, b) => b.revenue - a.revenue);
     const top = rows.slice(0, 6);
@@ -135,8 +139,10 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           {c.logo && <img src={withBase(c.logo.file)} alt={`${c.name}のロゴ`} className={`co-logo ${c.logo.kind} ${c.logo.tone ?? ''} ${c.logo.shape ?? ''}`} />}
         </div>
         <div style={{ marginTop: 10 }}>
+          {pastOnly && <span className="muted small" style={{ marginRight: 8 }}>過去の事業領域：</span>}
           <Chips slugs={c.categories} />
         </div>
+        {pastOnly && <p className="co-scope"><b>いまの提供</b>このページの事業で、いま提供中と確かめられたものはありません。カテゴリは過去の事業の領域です。</p>}
         {c.description && <p className="lead">{c.description}</p>}
         {c.highlight && <p className="co-highlight"><b>注目</b>{c.highlight}</p>}
         {c.scopeNote && <p className="co-scope"><b>現在の事業</b>{c.scopeNote}</p>}

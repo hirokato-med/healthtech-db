@@ -123,7 +123,7 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
   );
 }
 
-export type Peer = { id: string; name: string; fy: string; revenue: number; prior?: number; operatingIncome?: number; healthShare?: number | null; spark?: number[]; cagr?: number | null; cagrYears?: number; self?: boolean };
+export type Peer = { id: string; name: string; fy: string; revenue: number; prior?: number; operatingIncome?: number; margin?: number | null; growth?: number | null; healthShare?: number | null; spark?: number[]; cagr?: number | null; cagrYears?: number; self?: boolean };
 
 /** 同じ事業の上場企業と比べる */
 export function PeerPanel({ peers, label }: { peers: Peer[]; label: string }) {
@@ -134,7 +134,7 @@ export function PeerPanel({ peers, label }: { peers: Peer[]; label: string }) {
       <h3>同じ事業の上場企業と比べる<small className="muted" style={{ marginLeft: 8, fontWeight: 400 }}>{label}</small></h3>
       <div className="peer-grid">
         {peers.map((p) => {
-          const g = p.prior ? (p.revenue / p.prior - 1) * 100 : null;
+          const g = p.growth !== undefined ? p.growth : p.prior ? (p.revenue / p.prior - 1) * 100 : null;
           const sm = p.spark && p.spark.length >= 3 ? Math.max(...p.spark) : 0;
           return (
             <div key={p.id} className={`peer${p.self ? ' me' : ''}`}>
@@ -142,7 +142,7 @@ export function PeerPanel({ peers, label }: { peers: Peer[]; label: string }) {
               <div className="pr"><span>売上高（{p.fy}）</span><b>{money(p.revenue)}</b></div>
               <div className="pbar"><i style={{ width: `${(p.revenue / max) * 100}%` }} /></div>
               {g != null && <div className="pr"><span>前年比</span><b className={g >= 0 ? 'up' : 'down'}>{g >= 0 ? '+' : ''}{g.toFixed(1)}%</b></div>}
-              {p.operatingIncome != null && <div className="pr"><span>営業利益率</span><b>{((p.operatingIncome / p.revenue) * 100).toFixed(1)}%</b></div>}
+              {(p.margin ?? (p.operatingIncome != null ? (p.operatingIncome / p.revenue) * 100 : null)) != null && <div className="pr"><span>営業利益率</span><b>{(p.margin ?? (p.operatingIncome! / p.revenue) * 100).toFixed(1)}%</b></div>}
               {p.healthShare != null && <div className="pr"><span>ヘルスケアの売上</span><b>{p.healthShare.toFixed(0)}%</b></div>}
               {sm > 0 && (
                 <div className="spark">

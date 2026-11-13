@@ -7,7 +7,7 @@ import { SegmentTable } from '@/components/SegmentTable';
 import { RevisionTable } from '@/components/RevisionTable';
 import { ForecastHistory, forecastTimelines } from '@/components/ForecastHistory';
 import { getCompanies, getCompany, getDisclosures, getEarnings, getRevisions } from '@/lib/data';
-import { comparable, forecastLabel, forecastOf, forecastText, growth, hasForecast, latestWithSegments, margin, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
+import { comparable, forecastLabel, forecastOf, forecastText, growth, hasForecast, latestWithSegments, margin, marginOf, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
 import type { EarningsReport, Figures } from '@/lib/types';
 
 export function generateStaticParams() {
@@ -106,7 +106,7 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
           <section className="earn-kpi">
             <div><span>直近の決算</span><b>{latest.label.replace(/（中間期）/, '')}</b><small>{latest.date.replace(/-/g, '/')} 発表{latest.consolidated === false ? '・個別' : ''}</small></div>
             <div><span>売上高{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b>{revenueText(latest)}</b><small>{latest.revenueLabel && latest.revenueLabel !== '売上高' ? `${latest.revenueLabel}・` : ''}{comparable(latest) ? `前年同期比 ${pct(growth(latest))}` : notComparableText(latest)}</small></div>
-            <div><span>営業利益{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b className={(latest.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}>{money(latest.current?.operatingIncome)}</b><small>営業利益率 {pct(margin(latest.current), false)}・前年 {money(latest.prior?.operatingIncome)}</small></div>
+            <div><span>営業利益{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b className={(latest.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}>{money(latest.current?.operatingIncome)}</b><small>営業利益率 {pct(marginOf(latest), false)}・前年 {money(latest.prior?.operatingIncome)}</small></div>
             {newerRev ? (
               <div><span>{newerRev.fiscalYear ? `${newerRev.fiscalYear} 通期予想` : '通期予想'}（{newerRev.date.slice(5).replace('-', '/')} 修正）</span><b>{money(newerRev.revised.revenue)}</b><small>営業利益 {money(newerRev.revised.operatingIncome)}（修正前 {money(newerRev.previous?.operatingIncome)}）・<a href="#revisions">移り変わり</a></small></div>
             ) : (
@@ -141,7 +141,7 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
                         <td className="num">{revenueText(r)}{r.revenueLabel && r.revenueLabel !== '売上高' && <small>{r.revenueLabel}</small>}</td>
                         <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{comparable(r) ? pct(g) : <span className="muted small" title={notComparableText(r)}>比較なし</span>}</td>
                         <td className={`num ${(r.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.operatingIncome)}</td>
-                        <td className="num">{pct(margin(r.current), false)}</td>
+                        <td className="num">{pct(marginOf(r), false)}</td>
                         <td className="num">{money(r.current?.ordinaryIncome)}</td>
                         <td className={`num ${(r.current?.netIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.netIncome)}</td>
                         <td className="num fc">{hasForecast(r) ? <>{forecastText(r, 'revenue') ?? '—'}／{forecastText(r, 'operatingIncome') ?? '—'}<small>{forecastLabel(r)}（{r.date.replace(/-/g, '/')} 時点）</small></> : <span className="muted small">{noForecastText(r)}</span>}</td>

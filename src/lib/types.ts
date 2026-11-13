@@ -55,6 +55,9 @@ export type Company = {
   overview?: string;
   /** 事業転換などでヘルスケアとの関係が薄くなった会社の注記 */
   scopeNote?: string;
+  /** 主なカテゴリを会社の公式な事業説明から手で決めた（scripts/fix-primary-category.mjs で変えない）。categoryNote はその理由 */
+  categoryLocked?: boolean;
+  categoryNote?: string;
   /** 事業を終えた会社の記録（exit が「閉鎖」のとき）。date は終了した時期 YYYY-MM／YYYY */
   ended?: { date?: string; lastActiveAt?: string; successor?: string; note: string };
   /** 「活動停止」にする前の上場区分（活動が確認できたら戻す） */
@@ -270,6 +273,10 @@ export type EarningsReport = {
   revenueLabel?: string;
   /** 決算短信で売上が「－」（計上なし） */
   revenueAbsent?: boolean;
+  /** 会社が開示した前年同期比（%）。比率はこれを優先する */
+  changes?: { revenue?: number; operatingIncome?: number; ordinaryIncome?: number; netIncome?: number };
+  /** 添付の損益計算書の細かい数字（百万円、丸めない）。比率の計算に使い、画面に出すときだけ丸める */
+  exact?: { current?: { revenue?: number; operatingIncome?: number; ordinaryIncome?: number; netIncome?: number }; prior?: { revenue?: number; operatingIncome?: number; ordinaryIncome?: number; netIncome?: number } };
 };
 /** 業績予想の修正（TDnet の XBRL。修正前と修正後の通期予想、百万円） */
 export type ForecastRevision = { date: string; title: string; fiscalYear?: string; consolidated?: boolean; previous?: Figures; revised: Figures; pdf: string };

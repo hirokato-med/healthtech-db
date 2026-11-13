@@ -612,7 +612,7 @@
     "id": "doctornet-remote",
     "name": "遠隔画像診断サービス",
     "company": "株式会社ドクターネット",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "放射線科医のネットワークによる遠隔読影サービス。胸部X線肺炎検出AI（JLK-CRP）も薬事承認。",
     "hp": "https://www.doctor-net.co.jp/",
     "startedYear": 1995,
@@ -2540,12 +2540,11 @@
     "name": "MediTel（メディテル）",
     "company": "NTTドコモ（新規事業創出プログラム「39works」）／テックファーム株式会社",
     "category": "telemedicine",
-    "description": "ドコモが複数病院での実証をもとに開発し、テックファームが医療機関向けに販売・運用したオンライン診療システム。患者アプリで予約・ビデオ診察・カード決済・健康データ記録、医師はブラウザで診察。",
+    "description": "ドコモが複数病院での実証をもとに開発し、テックファームが医療機関向けに販売・運用したオンライン診療システム。患者アプリで予約・ビデオ診察・カード決済・健康データ記録、医師はブラウザで診察。終了時期は確認できていない。",
     "hp": "",
     "startedYear": 2017,
-    "status": "終了",
+    "status": "不明",
     "startedAt": "2017-11",
-    "endedAt": "2020-03",
     "milestones": [
       {
         "date": "2017-01",
@@ -2560,37 +2559,38 @@
         "text": "オンライン診療料が新設されるが、算定には対面診療の継続など厳しい要件が付く"
       },
       {
+        "date": "2018-10",
+        "text": "MediTel の提供会社が NTTドコモからメディアコンテンツファクトリー（現レイヤード）に変わる（同社の発表）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000010.000004524.html"
+      },
+      {
         "date": "2018-11",
         "text": "ドコモがシステム導入費・月額利用費を無料にすると発表"
       },
       {
-        "date": "2020-03",
-        "text": "3月31日、ドコモがオンライン診療のシステムサービスから撤退（日本経済新聞 2020年6月10日）"
+        "date": "2020-06",
+        "text": "（関連する報道）日本経済新聞が、ドコモが2020年3月末でオンライン診療のシステムサービスから撤退したと報道。記事にサービス名はなく、MediTel の終了を示すものかは確認できていない"
       }
     ],
-    "endReasons": [
-      "regulation",
-      "reimbursement",
-      "no-payer"
-    ],
-    "endReasonNote": "日経報道：保険適用されたが対面診療の維持など厳しい要件がつき医師の利用が広がらず、ドコモは「採算にあわないと判断した」。",
-    "lessons": "保険点数の新設を見込んで医療機関向けに有償提供したが、算定要件が厳しく医師に使われず採算が合わなかった（報道）。制度に乗るだけでは、要件次第で現場の利用は広がらない。",
     "sources": [
       "https://www.atpress.ne.jp/news/141799",
       "https://cas.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
       "https://cas.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
       "https://www.nikkei.com/article/DGKKZO60169590Z00C20A6MM8000/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
     "type": "telemedicine-clinic-system",
-    "endReasonBasis": [
-      "報道",
-      "推定"
+    "endReasonCaveat": "提供状況は未確認。2020年の日経報道（ドコモがオンライン診療システムから撤退）は関連情報として載せているが、記事にサービス名の明記はなく、MediTel の終了を示すものかは確認できていない。MediTel は2018年10月にレイヤード（当時メディアコンテンツファクトリー）へ移っている（「オンライン診療サービス MediTel」の項目を参照）。",
+    "lessonsHold": "保険点数の新設を見込んで医療機関向けに有償提供したが、算定要件が厳しく医師に使われず採算が合わなかった（報道）。制度に乗るだけでは、要件次第で現場の利用は広がらない。",
+    "endReasonsHold": [
+      "regulation",
+      "reimbursement",
+      "no-payer"
     ],
-    "endReasonCaveat": "日経の記事にサービス名の明記はなく、MediTel を指すとみなしている（推定）。MediTel の提供会社は2018年10月にレイヤード（当時メディアコンテンツファクトリー）へ移っており、記事が指すのは別のシステムの可能性もある。"
+    "endReasonNoteHold": "日経報道：保険適用されたが対面診療の維持など厳しい要件がつき医師の利用が広がらず、ドコモは「採算にあわないと判断した」。"
   },
   {
     "id": "optim-doctor",
@@ -17674,7 +17674,7 @@
     "name": "Tele-RAD（遠隔読影マッチング）",
     "company": "株式会社ドクターネット",
     "companyId": "7010401088511",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "医療機関からCT・MRIなどの画像の読影依頼を遠隔で受け、登録した放射線診断専門医とマッチングして診断レポートを返す遠隔読影サービス。同社によると約1,000名の放射線診断専門医が登録し、技師による査読を経て返却する。",
     "hp": "https://dr-net.co.jp/service/telerad/",
     "startedYear": 1997,
@@ -17692,7 +17692,7 @@
     "name": "Virtual-RAD（遠隔読影インフラ）",
     "company": "株式会社ドクターネット",
     "companyId": "7010401088511",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "依頼元の医療機関と、その施設が指定した読影医をクラウドでつなぐ遠隔読影システムのASPサービス。読影医はネット環境があればどこでも読影でき、読影料は医療機関から読影医へ直接支払う。2005年8月に始めた。",
     "hp": "https://dr-net.co.jp/service/virtualrad/",
     "startedYear": 2005,
@@ -17710,7 +17710,7 @@
     "name": "Tele-DOC（健診・検診向け遠隔画像診断）",
     "company": "株式会社ドクターネット",
     "companyId": "7010401088511",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "健診・検診施設向けに、診療科専門医が画像を遠隔で読影するサービス。健診特有の多様な検査項目やレポート形式、読影パターンに対応し、専用システムで院内システムと連携する。2020年2月に始めた。",
     "hp": "https://dr-net.co.jp/service/teledoc/",
     "startedYear": 2020,
@@ -17946,7 +17946,7 @@
     "name": "遠隔画像診断サービス",
     "company": "エムネス",
     "companyId": "4240001015754",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "画像診断センターを開設。脳ドック遠隔診断は2017-12開始",
     "hp": "https://mnes-lookrec.com/service/teleradiology",
     "startedYear": 2001,
@@ -18117,7 +18117,7 @@
     "name": "遠隔画像診断支援サービス",
     "company": "株式会社ネット・メディカルセンター",
     "companyId": "5290001020542",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "創業事業。九州大学と九電工（現クラフティア）の共同開発。九州沖縄に読影センター5か所",
     "hp": "https://www.nmed-center.co.jp/index-1.html",
     "startedYear": 2000,
@@ -18134,7 +18134,7 @@
     "name": "遠隔画像診断ASPサービス",
     "company": "株式会社ネット・メディカルセンター",
     "companyId": "5290001020542",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "独自に遠隔画像診断を始めたい病院や放射線科医向けに、自社開発の遠隔読影システムと日々の保守、運用・課金管理までをまとめて提供するASP型サービス。初期のシステム構築費や運用負担を抑えられる。",
     "hp": "https://www.nmed-center.co.jp/index-2.html",
     "startedYear": 2002,
@@ -19686,7 +19686,7 @@
     "name": "医療機関専用サプリメント",
     "company": "ヘルシーパス",
     "companyId": "5080001010894",
-    "category": "direct-to-consumer",
+    "category": "medical-management-support",
     "description": "医療機関で患者に勧めることを想定した、医師・薬剤師・管理栄養士の評価を受けたサプリメント。マルチビタミン＆ミネラルを中心に、女性用・アスリート用・歯科インプラント向けなどの製品をそろえ、医療機関を通じて販売する。",
     "hp": "https://www.healthy-pass.co.jp/product/",
     "startedYear": 2006,
@@ -19696,14 +19696,14 @@
       "https://www.healthy-pass.co.jp/product/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-personalized-supplement"
+    "type": "clinic-exclusive-supplement"
   },
   {
     "id": "b-12f0b4da",
     "name": "医療機関向けプライベートブランドサプリメント",
     "company": "ヘルシーパス",
     "companyId": "5080001010894",
-    "category": "direct-to-consumer",
+    "category": "medical-management-support",
     "description": "医療機関向けサプリメント開発の経験をもとに、医師の考えを反映したオリジナルのサプリメントを設計し、医療機関のプライベートブランドとして製造する受託サービス。",
     "hp": "https://www.healthy-pass.co.jp/product/",
     "startedYear": 2007,
@@ -19714,7 +19714,7 @@
       "https://www.healthy-pass.co.jp/product/"
     ],
     "updatedAt": "2026-10",
-    "type": "d2c-personalized-supplement",
+    "type": "clinic-exclusive-supplement",
     "formerName": "カスタムメイドサプリメント"
   },
   {
@@ -19937,7 +19937,7 @@
     "name": "医知悟（遠隔画像診断インフラ）",
     "company": "合同会社医知悟",
     "companyId": "6010403006422",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "創業事業（設立時から遠隔診断支援ITインフラを提供）",
     "hp": "https://www.ichigo-llc.co.jp/service/",
     "startedYear": 2007,
@@ -20168,7 +20168,7 @@
     "name": "遠隔画像診断（スタンダードプラン）",
     "company": "京都プロメド",
     "companyId": "3130001028784",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "病院向けの遠隔画像診断（読影）サービスの標準プラン。専用の読影端末を設置し閉域IP網でCT・MRIなどの画像を送ると、京都大学と提携する放射線科医がレポートを返す。月200件程度までが目安で、初期費用18万円・基本料月5万円。",
     "hp": "https://promed.jp/service/service/normal.html",
     "startedYear": 2007,
@@ -20186,7 +20186,7 @@
     "name": "京都ProMedCL（ライトプラン）",
     "company": "京都プロメド",
     "companyId": "3130001028784",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "クリニックや小規模病院向けの遠隔読影プラン。医療機関が自前のインターネット回線とPCで専用ツールから画像を送るため、初期費用と月額基本料がかからない。月20件程度までが目安で、読影の質は他プランと同じとしている。",
     "hp": "https://promed.jp/service/service/cl.html",
     "startedYear": 2012,
@@ -20211,7 +20211,7 @@
     "name": "システム連携プラン",
     "company": "京都プロメド",
     "companyId": "3130001028784",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "読影依頼の多い病院向けの遠隔画像診断プラン。院内システムと依頼情報・確定所見を連携させ、手入力の手間や誤りをなくしてレポートを院内で一元管理できる。月1,000件程度までが目安で、初期費用18万円＋連携費、基本料月5万円から。",
     "hp": "https://promed.jp/service/service/system.html",
     "startedYear": null,
@@ -26172,7 +26172,7 @@
     "name": "眼科向け遠隔読影サービス",
     "company": "DeepEyeVision株式会社",
     "companyId": "4060003002281",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "健診機関や眼科などに向けて、自治医科大学と共同開発したAIによる診断支援と眼科専門医の遠隔読影を組み合わせ、眼底写真などの読影の速度と精度を高めるサービス。",
     "hp": "https://deepeyevision.com/company/",
     "startedYear": 2020,
@@ -29704,7 +29704,7 @@
     "name": "+Eye Dr.（遠隔眼科読影）",
     "company": "株式会社 OUI",
     "companyId": "1011101077702",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "眼科医が遠隔で眼の画像を読影するサービス。スマホ装着型の診察機器「Smart Eye Camera」を開発した同社が、眼科医のいない健診の現場や地域でも眼科の判断を受けられるようにする。",
     "hp": "https://ouiinc.jp/",
     "startedYear": null,
@@ -62213,7 +62213,7 @@
     "id": "b-3495901e",
     "name": "遠隔画像診断サービス（Y's REPORT）",
     "company": "株式会社ワイズ・リーディング",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "熊本の遠隔画像診断センターで、提携病院から送られたCT・MRI等を放射線科専門医が読影しレポートを返す。2009年に本格稼働し、AI解析や医療システム開発も手がける。",
     "hp": "https://www.ysreading.co.jp/",
     "startedYear": 2009,
@@ -76256,7 +76256,7 @@
     "id": "b-794249b7",
     "name": "ViewSend ICT（病院間の遠隔画像診断支援プラットフォーム・PACS）",
     "company": "ViewSend ICT株式会社",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "国立がん研究センターと共同開発した遠隔画像診断支援システム。放射線診断専門医のいる大病院と中小病院を結び、施設基準を満たす医療機関が読影することで、依頼側が画像診断管理加算を算定できる点が特徴。年間約5.8万症例。",
     "hp": "",
     "startedYear": 2009,
@@ -101839,7 +101839,7 @@
     "name": "眼底画像の遠隔読影「LOOKREC Fundus」",
     "company": "エムネス",
     "companyId": "4240001015754",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "健診センターやクリニックが撮った眼底写真を、クラウドの「LOOKREC」経由で眼科専門医に読影依頼できる遠隔読影システム。",
     "hp": "https://mnes-lookrec.com/",
     "startedYear": 2023,
@@ -104341,7 +104341,7 @@
     "name": "遠隔画像診断支援サービス「ホスピネット」",
     "company": "セコム医療システム",
     "companyId": "1011001035966",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "病院・診療所向けに、CTやMRIの検査画像をネットワークでセンターに送り、専門医が読影して主治医にコンサルティングを行う遠隔画像診断支援サービス。",
     "hp": "https://www.secom.co.jp/business/medical/",
     "startedYear": null,
@@ -105819,7 +105819,7 @@
     "name": "遠隔読影・画像診断",
     "company": "シミックホールディングス株式会社",
     "companyId": "7700150008344",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "病院・診療所向けに、画像診断専門医がCT・MRIなどの検査画像を遠隔で読影し、診断レポートを主治医に返すサービス。",
     "hp": "https://www.cmicgroup.com/solutions/healthcare-solutions/professional-support/",
     "startedYear": null,
@@ -112118,7 +112118,7 @@
     "name": "放射線科専門医による遠隔画像診断（遠隔読影）",
     "company": "株式会社ラディオアクティブ",
     "companyId": "2010001078017",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "医療機関で撮影したCT・MRIなどの画像を、放射線科の画像診断専門医が遠隔で読影してレポートを返す受託サービス。同社の主業務。",
     "hp": "http://www.radioactive.jp/",
     "startedYear": null,
@@ -113424,7 +113424,7 @@
     "name": "医療機関向け遠隔画像診断支援サービス（MD遠隔画像診断）",
     "company": "株式会社エム・ディー・マネジメント",
     "companyId": "3010001100613",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "診療所・クリニックが撮影した画像を、CDや郵送なしでネット経由で読影医療機関に送り、読影レポートを受け取れるようにする仕組みの導入・運用支援。申込から約2週間で使い始められる。",
     "hp": "https://www.mdmg.co.jp/medicalpersonnel/teleradiology.html",
     "startedYear": 2021,
@@ -115320,7 +115320,7 @@
     "name": "脳波遠隔診断プラットフォーム「NeuroCloud」",
     "company": "株式会社Sigron",
     "companyId": "5010001229384",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "医療機関が測った脳波データをクラウドで受け取り、脳波判読の専門医が判読レポートを返す遠隔診断サービス。集めた判読データで脳波判読支援AIの開発も進める。順天堂大学脳神経外科の医師らが創業。",
     "hp": "https://www.sigron.co.jp/",
     "startedYear": null,
@@ -117741,7 +117741,7 @@
     "name": "DNワークステーション／Doctor-NET Viewer（遠隔読影用ワークステーション・ビューワ）",
     "company": "株式会社ドクターネット",
     "companyId": "7010401088511",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "遠隔画像診断を担う放射線科医が医療機関から送られたCT・MRIなどの画像を表示・処理して読影するためのワークステーションとビューワプログラム。",
     "hp": "",
     "startedYear": null,
@@ -126683,7 +126683,7 @@
     "name": "KW ニュートラル Viewer",
     "company": "京都プロメド",
     "companyId": "3130001028784",
-    "category": "telemedicine",
+    "category": "medical-image",
     "description": "京都プロメドの遠隔画像診断サービスなどで使う医用画像ビューワ。CT・MRIなどの画像を表示・処理して読影に提供する。2020年に認証を受け、京都プロメドが製造販売する。",
     "hp": "",
     "startedYear": null,
@@ -133090,5 +133090,43 @@
       "https://prtimes.jp/main/html/rd/p/000000013.000015530.html"
     ],
     "note": "今も提供しているかは未確認"
+  },
+  {
+    "company": "FrontAct株式会社",
+    "companyId": "9010001243704",
+    "startedYear": null,
+    "status": "提供中",
+    "updatedAt": "2026-11",
+    "knownSince": "2026-11",
+    "id": "b-c68fa932",
+    "name": "MELTz 手指運動リハビリテーションシステム",
+    "category": "medical-device",
+    "type": "rehab-robotics-prosthetics",
+    "description": "手指の運動リハビリテーションに使う医療機器のシステム。医療関係者向けに製品・使用方法・導入施設の情報を公開し、医療機関に提供している。",
+    "hp": "https://frontact-gl.com/ja/med-information/product/meltz/",
+    "sources": [
+      "https://frontact-gl.com/ja/med-information/product/meltz/",
+      "https://frontact-gl.com/ja/"
+    ],
+    "knownSinceSource": "https://frontact-gl.com/ja/med-information/product/meltz/"
+  },
+  {
+    "company": "FrontAct株式会社",
+    "companyId": "9010001243704",
+    "startedYear": null,
+    "status": "提供中",
+    "updatedAt": "2026-11",
+    "knownSince": "2026-11",
+    "id": "b-8c2b2513",
+    "name": "メンタルヘルス・健康経営支援サービス「MiMoRy WoRKS（ミモリーワークス）」",
+    "category": "health-corporate-management",
+    "type": "corporate-wellness-program",
+    "description": "従業員が1週間リストバンド型の機器を着け、専用アプリでメンタルの状態をスコアにして見えるようにする企業向けサービス。セルフケアから健康経営の施策までを支援する。",
+    "hp": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+    "sources": [
+      "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+      "https://frontact-gl.com/ja/"
+    ],
+    "knownSinceSource": "https://frontact-gl.com/ja/product-information/product/mimory-works/"
   }
 ]

@@ -68,7 +68,25 @@ export const comparable = (r?: EarningsReport) => !!r && r.comparable !== false 
 /** 比べられないときの短い理由 */
 export const notComparableText = (r?: EarningsReport) => (r?.months && r?.priorMonths && r.months !== r.priorMonths ? `前期は${r.priorMonths}か月のため比較なし` : '期間が違うため比較なし');
 /** 前年比（比べられないときは null） */
-export const growth = (r?: EarningsReport, k: keyof Figures = 'revenue') => (comparable(r) ? yoy(r?.current?.[k], r?.prior?.[k]) : null);
+/**
+ * 前年同期比（%）。会社が開示した値 → 添付の損益計算書の細かい数字 → サマリーの数字（百万円）の順に使う。
+ * 百万円に丸めた数字から計算すると、小さい会社ほど開示値とずれる（サスメド 227÷45 → +404% だが開示は +396.9%）。
+ */
+export const growth = (r?: EarningsReport, k: keyof Figures = 'revenue') => {
+  if (!comparable(r)) return null;
+  const c = r?.changes?.[k as keyof NonNullable<EarningsReport['changes']>];
+  if (c != null) return c;
+  const ex = r?.exact;
+  const ek = k as keyof NonNullable<NonNullable<EarningsReport['exact']>['current']>;
+  if (ex?.current?.[ek] != null && ex?.prior?.[ek] != null) return yoy(ex.current[ek], ex.prior[ek]);
+  return yoy(r?.current?.[k], r?.prior?.[k]);
+};
+/** 営業利益率（%）。添付の損益計算書の細かい数字があればそれで計算する */
+export const marginOf = (r?: EarningsReport) => {
+  const e = r?.exact?.current;
+  if (e?.revenue && e.operatingIncome != null) return (e.operatingIncome / e.revenue) * 100;
+  return margin(r?.current);
+};
 /** 売上の表示：値／計上なし／未取得 */
 export const revenueText = (r?: EarningsReport) => (r?.current?.revenue != null ? money(r.current.revenue) : r?.revenueAbsent ? '計上なし' : '—');
 export const forecastLabel = (r?: EarningsReport) => {

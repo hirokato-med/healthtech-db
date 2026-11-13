@@ -16,6 +16,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { addUpdate, todayJst } from './lib/updates.mjs';
+import { parseChanges, parsePL, plFileOf } from './lib/xbrl-precise.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const P = (f) => path.join(ROOT, 'data', f);
@@ -174,7 +175,15 @@ function parseXbrl(url, kind = 'summary') {
     const sum = kind === 'revision' ? list.find((n) => /tse-rvfc-.*-ixbrl\.htm$/.test(n)) : list.find((n) => /XBRLData\/Summary\/.*-ixbrl\.htm$/.test(n));
     if (!sum) return null;
     const html = execFileSync('unzip', ['-p', zip, sum], { maxBuffer: 64 << 20 }).toString('utf8');
-    return kind === 'revision' ? parseRevision(html) : parseSummary(html);
+    if (kind === 'revision') return parseRevision(html);
+    const x = parseSummary(html);
+    if (!x) return null;
+    // 比率の計算用：会社開示の前年同期比と、添付の損益計算書の細かい数字（丸めない）
+    const changes = parseChanges(html);
+    if (changes) x.changes = changes;
+    const pl = plFileOf(list);
+    if (pl) { const e = parsePL(execFileSync('unzip', ['-p', zip, pl], { maxBuffer: 64 << 20 }).toString('utf8')); if (e) x.exact = e; }
+    return x;
   } catch {
     return null;
   } finally {

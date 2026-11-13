@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
-import { type EarningsRow, comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, margin, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
+import { type EarningsRow, comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, marginOf, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
 
 type Key = 'revenue' | 'growth' | 'op' | 'margin' | 'date' | 'code';
 const MARKETS = ['東証プライム', '東証スタンダード', '東証グロース'];
@@ -19,7 +19,7 @@ export function EarningsTable({ rows, catName }: { rows: EarningsRow[]; catName:
       case 'revenue': return c?.revenue ?? null;
       case 'growth': return growth(r.latest);
       case 'op': return c?.operatingIncome ?? null;
-      case 'margin': return margin(c);
+      case 'margin': return marginOf(r.latest);
       case 'date': return r.latest?.date ?? null;
       case 'code': return r.code;
     }
@@ -90,7 +90,7 @@ export function EarningsTable({ rows, catName }: { rows: EarningsRow[]; catName:
                       <td className="num">{revenueText(r.latest)}</td>
                       <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{comparable(r.latest) ? pct(g) : <span className="muted small" title={notComparableText(r.latest)}>比較なし</span>}</td>
                       <td className={`num ${(c?.operatingIncome ?? 0) < 0 ? 'down' : ''}`}>{money(c?.operatingIncome)}</td>
-                      <td className="num">{pct(margin(c), false)}</td>
+                      <td className="num">{pct(marginOf(r.latest), false)}</td>
                       <td className="num fc">{hasForecast(r.latest) ? <>{forecastText(r.latest, 'revenue') ?? '—'}／{forecastText(r.latest, 'operatingIncome') ?? '—'}<small>{forecastLabel(r.latest)}（{r.latest.date.replace(/-/g, "/")} 時点）</small></> : <span className="muted small">{noForecastText(r.latest)}</span>}</td>
                       <td className="nw">
                         {r.latest.pdf ? <a href={r.latest.pdf} target="_blank" rel="noreferrer">{r.latest.date.replace(/-/g, '/')}</a> : r.latest.date.replace(/-/g, '/')}

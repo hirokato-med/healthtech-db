@@ -26,7 +26,24 @@
      "operatingIncome": 62
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261015551282.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 8.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 8352.359,
+      "operatingIncome": -194.519,
+      "ordinaryIncome": -195.208,
+      "netIncome": -255.247
+     },
+     "prior": {
+      "revenue": 7694.889,
+      "operatingIncome": -53.052,
+      "ordinaryIncome": -54.739,
+      "netIncome": -48.147
+     }
+    }
    },
    {
     "fiscalYear": "2026年2月期",
@@ -101,7 +118,21 @@
       3599
      ]
     },
-    "note": "前期（2025年8月期）は2025年2月〜8月の7か月の変則決算のため、前年比は出さない（会社も増減率を掲載していない）。2027年8月期の予想はレンジ開示"
+    "note": "前期（2025年8月期）は2025年2月〜8月の7か月の変則決算のため、前年比は出さない（会社も増減率を掲載していない）。2027年8月期の予想はレンジ開示",
+    "exact": {
+     "current": {
+      "revenue": 33218.179,
+      "operatingIncome": 3818.479,
+      "ordinaryIncome": 3819.05,
+      "netIncome": 2402.716
+     },
+     "prior": {
+      "revenue": 11134.485,
+      "operatingIncome": 1167.699,
+      "ordinaryIncome": 1157.798,
+      "netIncome": 817.461
+     }
+    }
    }
   ]
  },
@@ -134,7 +165,24 @@
      "netIncome": 146
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261014550426.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": -0.4
+    },
+    "exact": {
+     "current": {
+      "revenue": 1554.493,
+      "operatingIncome": -21.774,
+      "ordinaryIncome": -36.123,
+      "netIncome": -42.93
+     },
+     "prior": {
+      "revenue": 1561.001,
+      "operatingIncome": 24.117,
+      "ordinaryIncome": 53.418,
+      "netIncome": 21.599
+     }
+    }
    },
    {
     "fiscalYear": "2026年5月期",
@@ -195,7 +243,24 @@
      "netIncome": 1022
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261014550717.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 71.9
+    },
+    "exact": {
+     "current": {
+      "revenue": 9865.283,
+      "operatingIncome": 895.274,
+      "ordinaryIncome": 868.828,
+      "netIncome": 1079.56
+     },
+     "prior": {
+      "revenue": 5737.362,
+      "operatingIncome": -225.354,
+      "ordinaryIncome": -245.758,
+      "netIncome": -161.026
+     }
+    }
    }
   ]
  },
@@ -346,7 +411,27 @@
      "netIncome": 1329
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110571892.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 24,
+     "operatingIncome": 21.6,
+     "ordinaryIncome": 21.9,
+     "netIncome": 24
+    },
+    "exact": {
+     "current": {
+      "revenue": 3067.567,
+      "operatingIncome": 1454.352,
+      "ordinaryIncome": 1465.176,
+      "netIncome": 1032.5
+     },
+     "prior": {
+      "revenue": 2473.868,
+      "operatingIncome": 1195.934,
+      "ordinaryIncome": 1202.43,
+      "netIncome": 832.427
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -435,7 +520,27 @@
      "netIncome": 151
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110571848.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 25.6,
+     "operatingIncome": -6.7,
+     "ordinaryIncome": 6.1,
+     "netIncome": 18.3
+    },
+    "exact": {
+     "current": {
+      "revenue": 2416.591,
+      "operatingIncome": 99.412,
+      "ordinaryIncome": 117.186,
+      "netIncome": 58.986
+     },
+     "prior": {
+      "revenue": 1924.045,
+      "operatingIncome": 106.512,
+      "ordinaryIncome": 110.492,
+      "netIncome": 49.853
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -520,7 +625,21 @@
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261105565964.pdf",
     "source": "TDnet XBRL",
-    "revenueLabel": "事業収益"
+    "revenueLabel": "事業収益",
+    "exact": {
+     "current": {
+      "revenue": 227.917,
+      "operatingIncome": -61.914,
+      "ordinaryIncome": -61.047,
+      "netIncome": -203.339
+     },
+     "prior": {
+      "revenue": 45.868,
+      "operatingIncome": -133.043,
+      "ordinaryIncome": -132.954,
+      "netIncome": -120.657
+     }
+    }
    },
    {
     "fiscalYear": "2026年6月期",
@@ -582,7 +701,24 @@
      "netIncome": 0
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111572944.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 12.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 883.793,
+      "operatingIncome": -27.984,
+      "ordinaryIncome": -25.605,
+      "netIncome": -17.578
+     },
+     "prior": {
+      "revenue": 785.249,
+      "operatingIncome": -49.228,
+      "ordinaryIncome": -47.379,
+      "netIncome": -37.571
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -669,7 +805,27 @@
      "operatingIncome": 2300
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111572865.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 38.6,
+     "operatingIncome": -3.5,
+     "ordinaryIncome": -4.9,
+     "netIncome": -23.1
+    },
+    "exact": {
+     "current": {
+      "revenue": 7259,
+      "operatingIncome": 527,
+      "ordinaryIncome": 511,
+      "netIncome": 296
+     },
+     "prior": {
+      "revenue": 5238,
+      "operatingIncome": 546,
+      "ordinaryIncome": 537,
+      "netIncome": 385
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -920,7 +1076,24 @@
      "netIncome": -1059
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261113579131.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 84.7
+    },
+    "exact": {
+     "current": {
+      "revenue": 114.454,
+      "operatingIncome": -628.006,
+      "ordinaryIncome": -648.424,
+      "netIncome": -650.331
+     },
+     "prior": {
+      "revenue": 61.96,
+      "operatingIncome": -689.989,
+      "ordinaryIncome": -635.276,
+      "netIncome": -637.183
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -1010,7 +1183,21 @@
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111573634.pdf",
     "source": "TDnet XBRL",
-    "revenueLabel": "事業収益"
+    "revenueLabel": "事業収益",
+    "exact": {
+     "current": {
+      "revenue": 55.6,
+      "operatingIncome": -369.458,
+      "ordinaryIncome": -364.544,
+      "netIncome": -513.803
+     },
+     "prior": {
+      "revenue": 65.92,
+      "operatingIncome": -287.79,
+      "ordinaryIncome": -283.07,
+      "netIncome": -285.454
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -1103,7 +1290,21 @@
     "pdf": "https://www.release.tdnet.info/inbs/140120261112575829.pdf",
     "source": "TDnet XBRL",
     "comparable": false,
-    "note": "前年同期は決算期変更前で期間が異なる"
+    "note": "前年同期は決算期変更前で期間が異なる",
+    "exact": {
+     "current": {
+      "revenue": 467.37,
+      "operatingIncome": -1131.528,
+      "ordinaryIncome": -1058.242,
+      "netIncome": -1062.711
+     },
+     "prior": {
+      "revenue": 1919.35,
+      "operatingIncome": 351.011,
+      "ordinaryIncome": 304.73,
+      "netIncome": 243.45
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -1197,7 +1398,24 @@
      "netIncome": -570
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261113579281.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": -72.8
+    },
+    "exact": {
+     "current": {
+      "revenue": 52.42,
+      "operatingIncome": -685.385,
+      "ordinaryIncome": -526.411,
+      "netIncome": -526.086
+     },
+     "prior": {
+      "revenue": 192.705,
+      "operatingIncome": -495.335,
+      "ordinaryIncome": -483.434,
+      "netIncome": -483.549
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -1287,7 +1505,20 @@
      "netIncome": 1100
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261029559099.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 9.3,
+     "operatingIncome": -44.7,
+     "ordinaryIncome": -68.1
+    },
+    "exact": {
+     "current": {
+      "revenue": 28735
+     },
+     "prior": {
+      "revenue": 26291
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -1706,7 +1937,24 @@
      "netIncome": 260
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110570975.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 0.9
+    },
+    "exact": {
+     "current": {
+      "revenue": 2104.922,
+      "operatingIncome": -398.473,
+      "ordinaryIncome": -449.846,
+      "netIncome": -450.986
+     },
+     "prior": {
+      "revenue": 2086.705,
+      "operatingIncome": -392.852,
+      "ordinaryIncome": -391.44,
+      "netIncome": -59.166
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -1798,7 +2046,27 @@
      "netIncome": 1056
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111574393.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 18.8,
+     "operatingIncome": 19.9,
+     "ordinaryIncome": 22.8,
+     "netIncome": 2.1
+    },
+    "exact": {
+     "current": {
+      "revenue": 3533.819,
+      "operatingIncome": 798.04,
+      "ordinaryIncome": 830.133,
+      "netIncome": 578.783
+     },
+     "prior": {
+      "revenue": 2975.354,
+      "operatingIncome": 665.599,
+      "ordinaryIncome": 676.236,
+      "netIncome": 566.952
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -1887,7 +2155,27 @@
      "netIncome": 700
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261109570247.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 4,
+     "operatingIncome": -10.9,
+     "ordinaryIncome": 0.9,
+     "netIncome": -34.6
+    },
+    "exact": {
+     "current": {
+      "revenue": 31105.21,
+      "operatingIncome": 2625.215,
+      "ordinaryIncome": 3055.263,
+      "netIncome": 2224.69
+     },
+     "prior": {
+      "revenue": 29910.94,
+      "operatingIncome": 2946.195,
+      "ordinaryIncome": 3027.165,
+      "netIncome": 3404.13
+     }
+    }
    },
    {
     "fiscalYear": "2026年9月期",
@@ -1989,7 +2277,27 @@
      "netIncome": 1000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261109569790.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 4.7,
+     "operatingIncome": -44.7,
+     "ordinaryIncome": -50,
+     "netIncome": -87.2
+    },
+    "exact": {
+     "current": {
+      "revenue": 66887,
+      "operatingIncome": 710,
+      "ordinaryIncome": 607,
+      "netIncome": 57
+     },
+     "prior": {
+      "revenue": 63863,
+      "operatingIncome": 1286,
+      "ordinaryIncome": 1215,
+      "netIncome": 452
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -2078,7 +2386,21 @@
      "netIncome": 53000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261102563057.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 6.4,
+     "operatingIncome": 1,
+     "ordinaryIncome": -0.2,
+     "netIncome": -11.9
+    },
+    "exact": {
+     "current": {
+      "revenue": 181853
+     },
+     "prior": {
+      "revenue": 170885
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -2232,7 +2554,27 @@
      "netIncome": 1136
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112575978.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 42.1,
+     "operatingIncome": 11.1,
+     "ordinaryIncome": 10.9,
+     "netIncome": 7
+    },
+    "exact": {
+     "current": {
+      "revenue": 7062.008,
+      "operatingIncome": 1015.843,
+      "ordinaryIncome": 950.37,
+      "netIncome": 576.415
+     },
+     "prior": {
+      "revenue": 4971.02,
+      "operatingIncome": 914.513,
+      "ordinaryIncome": 857.171,
+      "netIncome": 538.843
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -2382,7 +2724,27 @@
      "netIncome": 1050
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112575980.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 10.2,
+     "operatingIncome": 67.8,
+     "ordinaryIncome": 82.2,
+     "netIncome": 150.8
+    },
+    "exact": {
+     "current": {
+      "revenue": 7974.941,
+      "operatingIncome": 736.063,
+      "ordinaryIncome": 852.527,
+      "netIncome": 566.735
+     },
+     "prior": {
+      "revenue": 7233.531,
+      "operatingIncome": 438.643,
+      "ordinaryIncome": 467.832,
+      "netIncome": 225.961
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -2471,7 +2833,27 @@
      "netIncome": 431
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112576511.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": -1.4,
+     "operatingIncome": 50.1,
+     "ordinaryIncome": 53.4,
+     "netIncome": 97.2
+    },
+    "exact": {
+     "current": {
+      "revenue": 2904.309,
+      "operatingIncome": 305.782,
+      "ordinaryIncome": 354.644,
+      "netIncome": 266.978
+     },
+     "prior": {
+      "revenue": 2946.773,
+      "operatingIncome": 203.778,
+      "ordinaryIncome": 231.207,
+      "netIncome": 135.37
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -2560,7 +2942,21 @@
      "netIncome": 7100
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261104564892.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 19.5,
+     "operatingIncome": 14.4,
+     "ordinaryIncome": 18.7,
+     "netIncome": 24.2
+    },
+    "exact": {
+     "current": {
+      "revenue": 27571
+     },
+     "prior": {
+      "revenue": 23080
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -2651,7 +3047,27 @@
      "netIncome": 6165
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261029559288.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 8.9,
+     "operatingIncome": 11.7,
+     "ordinaryIncome": 9.7,
+     "netIncome": -15.6
+    },
+    "exact": {
+     "current": {
+      "revenue": 36444,
+      "operatingIncome": 4905,
+      "ordinaryIncome": 6310,
+      "netIncome": 4211
+     },
+     "prior": {
+      "revenue": 33475,
+      "operatingIncome": 4391,
+      "ordinaryIncome": 5750,
+      "netIncome": 4992
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -2740,7 +3156,27 @@
      "netIncome": 3100
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112577081.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 24.2,
+     "operatingIncome": 19.9,
+     "ordinaryIncome": 20.3,
+     "netIncome": -7.1
+    },
+    "exact": {
+     "current": {
+      "revenue": 7236.129,
+      "operatingIncome": 1513.04,
+      "ordinaryIncome": 1506.01,
+      "netIncome": 1505.087
+     },
+     "prior": {
+      "revenue": 5825.099,
+      "operatingIncome": 1262.177,
+      "ordinaryIncome": 1252.139,
+      "netIncome": 1620.87
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -2823,7 +3259,20 @@
      "netIncome": 70
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112576298.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 2.3,
+     "ordinaryIncome": -42.9,
+     "netIncome": -22.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 2008
+     },
+     "prior": {
+      "revenue": 1963
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -2902,7 +3351,27 @@
      "netIncome": 180
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261113577861.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": -14.2,
+     "operatingIncome": 182.9,
+     "ordinaryIncome": 166.6,
+     "netIncome": -34.3
+    },
+    "exact": {
+     "current": {
+      "revenue": 2425.057,
+      "operatingIncome": 251.467,
+      "ordinaryIncome": 258.998,
+      "netIncome": 117.467
+     },
+     "prior": {
+      "revenue": 2827.855,
+      "operatingIncome": 88.887,
+      "ordinaryIncome": 97.148,
+      "netIncome": 178.912
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -3013,7 +3482,24 @@
      "netIncome": 1190
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261113579296.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 57
+    },
+    "exact": {
+     "current": {
+      "revenue": 7809.567,
+      "operatingIncome": 46.418,
+      "ordinaryIncome": 69.104,
+      "netIncome": 358.2
+     },
+     "prior": {
+      "revenue": 4974.745,
+      "operatingIncome": -36.855,
+      "ordinaryIncome": -26.619,
+      "netIncome": -13.928
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -3165,7 +3651,27 @@
      "netIncome": 1800
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111574442.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 21.1,
+     "operatingIncome": 47.8,
+     "ordinaryIncome": 84.2,
+     "netIncome": 59.7
+    },
+    "exact": {
+     "current": {
+      "revenue": 33340,
+      "operatingIncome": 2381,
+      "ordinaryIncome": 3097,
+      "netIncome": 1779
+     },
+     "prior": {
+      "revenue": 27536,
+      "operatingIncome": 1611,
+      "ordinaryIncome": 1681,
+      "netIncome": 1114
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -3282,7 +3788,27 @@
      "netIncome": 286
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261113579478.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 38.5,
+     "operatingIncome": 10.7,
+     "ordinaryIncome": 10.7,
+     "netIncome": 4.6
+    },
+    "exact": {
+     "current": {
+      "revenue": 6478.101,
+      "operatingIncome": 480.547,
+      "ordinaryIncome": 445.46,
+      "netIncome": 256.965
+     },
+     "prior": {
+      "revenue": 4677.855,
+      "operatingIncome": 434.102,
+      "ordinaryIncome": 402.531,
+      "netIncome": 245.548
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -3366,7 +3892,21 @@
      "netIncome": 209000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261028558565.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 8.4,
+     "operatingIncome": 60.4,
+     "ordinaryIncome": 78.2,
+     "netIncome": 171.8
+    },
+    "exact": {
+     "current": {
+      "revenue": 2406997
+     },
+     "prior": {
+      "revenue": 2219481
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -3475,7 +4015,21 @@
      "netIncome": 350000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261102562580.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 23.4,
+     "operatingIncome": 58.8,
+     "ordinaryIncome": 63.1,
+     "netIncome": 63.7
+    },
+    "exact": {
+     "current": {
+      "revenue": 1270861
+     },
+     "prior": {
+      "revenue": 1030114
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -3584,7 +4138,21 @@
      "netIncome": 251000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261028556619.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 19.7,
+     "operatingIncome": 34.4,
+     "ordinaryIncome": 18.2,
+     "netIncome": 15.8
+    },
+    "exact": {
+     "current": {
+      "revenue": 1167233
+     },
+     "prior": {
+      "revenue": 975353
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -3685,7 +4253,20 @@
      "netIncome": 305602
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261026556449.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 17.2,
+     "operatingIncome": 21.6,
+     "netIncome": 22.8
+    },
+    "exact": {
+     "current": {
+      "revenue": 1068074
+     },
+     "prior": {
+      "revenue": 911640
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -3792,7 +4373,21 @@
      "netIncome": 52300
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110570785.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 17.5,
+     "operatingIncome": 20.4,
+     "ordinaryIncome": 12.7,
+     "netIncome": 21.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 469961
+     },
+     "prior": {
+      "revenue": 400013
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -3980,7 +4575,21 @@
      "netIncome": 370000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261029559123.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 12.3,
+     "operatingIncome": 4,
+     "netIncome": 8.2,
+     "ordinaryIncome": 7.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 2042439
+     },
+     "prior": {
+      "revenue": 1818743
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -4133,7 +4742,21 @@
      "netIncome": 212500
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261029559017.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 64.5,
+     "operatingIncome": 55.8,
+     "ordinaryIncome": 9.9,
+     "netIncome": 44
+    },
+    "exact": {
+     "current": {
+      "revenue": 350377
+     },
+     "prior": {
+      "revenue": 212965
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -4263,7 +4886,21 @@
      "netIncome": 71000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261028557958.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": -9.6,
+     "operatingIncome": 11.2,
+     "ordinaryIncome": 12,
+     "netIncome": 12.1
+    },
+    "exact": {
+     "current": {
+      "revenue": 232504
+     },
+     "prior": {
+      "revenue": 257136
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -4368,7 +5005,20 @@
      "ordinaryIncome": 95000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261030560518.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 10.2,
+     "ordinaryIncome": 35.1,
+     "netIncome": 58.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 384947
+     },
+     "prior": {
+      "revenue": 349451
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -4468,7 +5118,12 @@
      "netIncome": 40000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261105564969.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 3.9,
+     "operatingIncome": 8.4,
+     "netIncome": 10.8
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -4574,7 +5229,20 @@
      "netIncome": 94000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261029559803.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 17.3,
+     "operatingIncome": -56,
+     "netIncome": -61.3
+    },
+    "exact": {
+     "current": {
+      "revenue": 266490
+     },
+     "prior": {
+      "revenue": 227122
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -4699,7 +5367,21 @@
      "netIncome": 13700
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261113579359.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 3.2,
+     "operatingIncome": 12.4,
+     "ordinaryIncome": 8.4,
+     "netIncome": -15.7
+    },
+    "exact": {
+     "current": {
+      "revenue": 102019
+     },
+     "prior": {
+      "revenue": 98843
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -4826,7 +5508,26 @@
      "netIncome": -5100
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261106567940.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": -2.1,
+     "operatingIncome": -77.6,
+     "ordinaryIncome": -56.4
+    },
+    "exact": {
+     "current": {
+      "revenue": 57489,
+      "operatingIncome": 306,
+      "ordinaryIncome": 689,
+      "netIncome": -1566
+     },
+     "prior": {
+      "revenue": 58731,
+      "operatingIncome": 1363,
+      "ordinaryIncome": 1582,
+      "netIncome": 1494
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -4956,7 +5657,27 @@
      "netIncome": 4800
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261104563708.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 1.1,
+     "operatingIncome": 3.5,
+     "ordinaryIncome": 8.5,
+     "netIncome": -9.6
+    },
+    "exact": {
+     "current": {
+      "revenue": 35626,
+      "operatingIncome": 2740,
+      "ordinaryIncome": 2862,
+      "netIncome": 2006
+     },
+     "prior": {
+      "revenue": 35253,
+      "operatingIncome": 2648,
+      "ordinaryIncome": 2638,
+      "netIncome": 2219
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5105,7 +5826,27 @@
      "netIncome": 62500
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111573238.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 4.1,
+     "operatingIncome": 17,
+     "ordinaryIncome": 22.1,
+     "netIncome": 35.2
+    },
+    "exact": {
+     "current": {
+      "revenue": 598372,
+      "operatingIncome": 47892,
+      "ordinaryIncome": 50811,
+      "netIncome": 29044
+     },
+     "prior": {
+      "revenue": 574885,
+      "operatingIncome": 40942,
+      "ordinaryIncome": 41626,
+      "netIncome": 21477
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5228,7 +5969,27 @@
      "netIncome": 25000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261106567846.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 5.1,
+     "operatingIncome": -20,
+     "ordinaryIncome": -14.9,
+     "netIncome": -20.1
+    },
+    "exact": {
+     "current": {
+      "revenue": 1281025,
+      "operatingIncome": 13561,
+      "ordinaryIncome": 15343,
+      "netIncome": 12974
+     },
+     "prior": {
+      "revenue": 1219440,
+      "operatingIncome": 16958,
+      "ordinaryIncome": 18032,
+      "netIncome": 16241
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5409,7 +6170,13 @@
      "netIncome": 20800
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261109568510.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 3.5,
+     "operatingIncome": -19.6,
+     "ordinaryIncome": -17.8,
+     "netIncome": -28.5
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5580,7 +6347,27 @@
      "netIncome": 53000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261105565489.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 3.8,
+     "operatingIncome": -3,
+     "ordinaryIncome": -4.7,
+     "netIncome": 4.2
+    },
+    "exact": {
+     "current": {
+      "revenue": 1969620,
+      "operatingIncome": 24321,
+      "ordinaryIncome": 32665,
+      "netIncome": 23027
+     },
+     "prior": {
+      "revenue": 1897562,
+      "operatingIncome": 25083,
+      "ordinaryIncome": 34269,
+      "netIncome": 22090
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5737,7 +6524,27 @@
      "netIncome": 12900
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110571877.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 5.3,
+     "operatingIncome": -34.6,
+     "ordinaryIncome": -21.3,
+     "netIncome": -33.1
+    },
+    "exact": {
+     "current": {
+      "revenue": 808544,
+      "operatingIncome": 4748,
+      "ordinaryIncome": 6553,
+      "netIncome": 4177
+     },
+     "prior": {
+      "revenue": 767899,
+      "operatingIncome": 7258,
+      "ordinaryIncome": 8329,
+      "netIncome": 6244
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5891,7 +6698,21 @@
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110572349.pdf",
     "source": "TDnet XBRL",
-    "revenueLabel": "経常収益"
+    "revenueLabel": "経常収益",
+    "changes": {
+     "ordinaryIncome": 36.9,
+     "netIncome": 39.7
+    },
+    "exact": {
+     "current": {
+      "ordinaryIncome": 458794,
+      "netIncome": 283815
+     },
+     "prior": {
+      "ordinaryIncome": 335229,
+      "netIncome": 203089
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6245,7 +7066,12 @@
      "netIncome": 1200000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261102563183.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 20.5,
+     "ordinaryIncome": 77.9,
+     "netIncome": 74.2
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6416,7 +7242,12 @@
      "netIncome": 1050000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261102562306.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 23.1,
+     "ordinaryIncome": 29.8,
+     "netIncome": 35.7
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6598,7 +7429,13 @@
      "netIncome": 950000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261104563560.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 9.4,
+     "operatingIncome": 16.7,
+     "ordinaryIncome": 6.3,
+     "netIncome": 16
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6796,7 +7633,12 @@
      "netIncome": 670000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261030561906.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 10.8,
+     "ordinaryIncome": -7.4,
+     "netIncome": 15.5
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7016,7 +7858,21 @@
      "netIncome": 994000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261104563442.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 8.7,
+     "operatingIncome": -12.2,
+     "ordinaryIncome": -13.8,
+     "netIncome": -16
+    },
+    "exact": {
+     "current": {
+      "revenue": 7362154
+     },
+     "prior": {
+      "revenue": 6772713
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7164,7 +8020,21 @@
      "netIncome": 731000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261105566017.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 4.7,
+     "operatingIncome": 0.8,
+     "ordinaryIncome": 5.3,
+     "netIncome": 0.9
+    },
+    "exact": {
+     "current": {
+      "revenue": 3052811
+     },
+     "prior": {
+      "revenue": 2916005
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7293,7 +8163,21 @@
      "netIncome": 610000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261109568673.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 11.7,
+     "operatingIncome": 2.1,
+     "ordinaryIncome": 13.4,
+     "netIncome": 4.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 3798747
+     },
+     "prior": {
+      "revenue": 3400835
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7468,7 +8352,21 @@
      "operatingIncome": 15000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261109568907.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": -8.3,
+     "operatingIncome": -43.8,
+     "ordinaryIncome": 89.2,
+     "netIncome": 61
+    },
+    "exact": {
+     "current": {
+      "revenue": 76279
+     },
+     "prior": {
+      "revenue": 83151
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7742,7 +8640,27 @@
      "netIncome": 57000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112577195.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 9.3,
+     "operatingIncome": 76.7,
+     "ordinaryIncome": 63.8,
+     "netIncome": 51.6
+    },
+    "exact": {
+     "current": {
+      "revenue": 943806,
+      "operatingIncome": 43800,
+      "ordinaryIncome": 42775,
+      "netIncome": 45320
+     },
+     "prior": {
+      "revenue": 863619,
+      "operatingIncome": 24787,
+      "ordinaryIncome": 26120,
+      "netIncome": 29890
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7871,7 +8789,21 @@
      "netIncome": 29187
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110570801.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 12.2,
+     "operatingIncome": 84.2,
+     "ordinaryIncome": 84.5,
+     "netIncome": 78.7
+    },
+    "exact": {
+     "current": {
+      "revenue": 509593
+     },
+     "prior": {
+      "revenue": 454350
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -8002,7 +8934,21 @@
      "netIncome": 87500
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111573611.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 16.7,
+     "operatingIncome": -29.9,
+     "ordinaryIncome": -31.3,
+     "netIncome": -29
+    },
+    "exact": {
+     "current": {
+      "revenue": 624501
+     },
+     "prior": {
+      "revenue": 534930
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -8178,7 +9124,21 @@
      "netIncome": 40000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110570552.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 17.3,
+     "operatingIncome": 1.4,
+     "ordinaryIncome": -2.7,
+     "netIncome": -5.7
+    },
+    "exact": {
+     "current": {
+      "revenue": 272822
+     },
+     "prior": {
+      "revenue": 232527
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -8351,7 +9311,21 @@
      "netIncome": 43000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261109569305.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 22.9,
+     "operatingIncome": 161.5,
+     "ordinaryIncome": 174.7,
+     "netIncome": 491.2
+    },
+    "exact": {
+     "current": {
+      "revenue": 425264
+     },
+     "prior": {
+      "revenue": 345915
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -8504,7 +9478,21 @@
      "netIncome": 540000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261030560586.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 7.1,
+     "operatingIncome": 120.1,
+     "ordinaryIncome": 109.7,
+     "netIncome": 94.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 4092520
+     },
+     "prior": {
+      "revenue": 3820476
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -8699,7 +9687,12 @@
      "ordinaryIncome": 483000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261027556569.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 4,
+     "operatingIncome": 8.4,
+     "ordinaryIncome": 14.1
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -8861,7 +9854,12 @@
      "ordinaryIncome": 375000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261104564493.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 8.8,
+     "operatingIncome": -10.9,
+     "ordinaryIncome": -12.1
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9011,7 +10009,18 @@
      "netIncome": 50000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261104564276.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": -2.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 439562
+     },
+     "prior": {
+      "revenue": 451043
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9169,7 +10178,27 @@
      "netIncome": 15000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110570448.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 7,
+     "operatingIncome": -5.4,
+     "ordinaryIncome": -33.3,
+     "netIncome": -45.2
+    },
+    "exact": {
+     "current": {
+      "revenue": 339492,
+      "operatingIncome": 14511,
+      "ordinaryIncome": 5493,
+      "netIncome": 3237
+     },
+     "prior": {
+      "revenue": 317382,
+      "operatingIncome": 15337,
+      "ordinaryIncome": 8234,
+      "netIncome": 5905
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9323,7 +10352,12 @@
      "netIncome": 1330000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261104564860.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 9.4,
+     "operatingIncome": 42.9,
+     "ordinaryIncome": 37.9
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9591,7 +10625,27 @@
     "segmentProfitLabel": "営業利益（単一セグメント）",
     "pdf": "https://contents.xj-storage.jp/xcontents/AS70521/1e93d389/2893/4a60/8413/8af36d0f1252/140120261006546807.pdf",
     "source": "決算短信",
-    "note": "単一セグメントのため全社値。前年同期はウエルシア統合前のため大幅増収。通期予想は修正なし"
+    "note": "単一セグメントのため全社値。前年同期はウエルシア統合前のため大幅増収。通期予想は修正なし",
+    "changes": {
+     "revenue": 128.7,
+     "operatingIncome": 92.6,
+     "ordinaryIncome": 90.3,
+     "netIncome": 48.5
+    },
+    "exact": {
+     "current": {
+      "revenue": 1275514,
+      "operatingIncome": 54770,
+      "ordinaryIncome": 54850,
+      "netIncome": 30252
+     },
+     "prior": {
+      "revenue": 557831,
+      "operatingIncome": 28444,
+      "ordinaryIncome": 28818,
+      "netIncome": 20365
+     }
+    }
    },
    {
     "fiscalYear": "2026年2月期",
@@ -9660,7 +10714,20 @@
      "netIncome": 160000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261109569874.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 5.4,
+     "ordinaryIncome": 34.4,
+     "netIncome": 43.3
+    },
+    "exact": {
+     "current": {
+      "revenue": 1851563
+     },
+     "prior": {
+      "revenue": 1756117
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -9827,7 +10894,24 @@
      "netIncome": -2090
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261028558638.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 45.1
+    },
+    "exact": {
+     "current": {
+      "revenue": 573.848,
+      "operatingIncome": -1532.452,
+      "ordinaryIncome": -1591.805,
+      "netIncome": -1633.793
+     },
+     "prior": {
+      "revenue": 395.429,
+      "operatingIncome": -1551.855,
+      "ordinaryIncome": -1590.059,
+      "netIncome": -1600.008
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -9917,7 +11001,19 @@
      "netIncome": -3463
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111573329.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "exact": {
+     "current": {
+      "operatingIncome": -2181.85,
+      "ordinaryIncome": -2395.317,
+      "netIncome": -2396.294
+     },
+     "prior": {
+      "operatingIncome": -1580.688,
+      "ordinaryIncome": -2093.627,
+      "netIncome": -2094.596
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -10007,7 +11103,19 @@
     "pdf": "https://www.release.tdnet.info/inbs/140120261113577892.pdf",
     "source": "TDnet XBRL",
     "revenueAbsent": true,
-    "revenueLabel": "売上高"
+    "revenueLabel": "売上高",
+    "exact": {
+     "current": {
+      "operatingIncome": -765.426,
+      "ordinaryIncome": -783.482,
+      "netIncome": -847.251
+     },
+     "prior": {
+      "operatingIncome": -668.424,
+      "ordinaryIncome": -666.386,
+      "netIncome": -681.917
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -10098,7 +11206,24 @@
      "netIncome": 284
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111573821.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 36.9
+    },
+    "exact": {
+     "current": {
+      "revenue": 3000.074,
+      "operatingIncome": 218.254,
+      "ordinaryIncome": 208.616,
+      "netIncome": 120.995
+     },
+     "prior": {
+      "revenue": 2191.548,
+      "operatingIncome": -121.254,
+      "ordinaryIncome": -120.752,
+      "netIncome": -100.608
+     }
+    }
    },
    {
     "fiscalYear": "2026年3月期",
@@ -10206,7 +11331,19 @@
     "pdf": "https://www.release.tdnet.info/inbs/140120261113579838.pdf",
     "source": "TDnet XBRL",
     "revenueAbsent": true,
-    "revenueLabel": "事業収益"
+    "revenueLabel": "事業収益",
+    "exact": {
+     "current": {
+      "operatingIncome": -612.572,
+      "ordinaryIncome": -557.675,
+      "netIncome": -559.49
+     },
+     "prior": {
+      "operatingIncome": -608.705,
+      "ordinaryIncome": -602.306,
+      "netIncome": -605.102
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -10284,7 +11421,19 @@
     "pdf": "https://www.release.tdnet.info/inbs/140120261110571624.pdf",
     "source": "TDnet XBRL",
     "revenueAbsent": true,
-    "revenueLabel": "事業収益"
+    "revenueLabel": "事業収益",
+    "exact": {
+     "current": {
+      "operatingIncome": -1281.745,
+      "ordinaryIncome": -1323.54,
+      "netIncome": -1317.078
+     },
+     "prior": {
+      "operatingIncome": -1962.167,
+      "ordinaryIncome": -1595.827,
+      "netIncome": -1428.924
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -10369,7 +11518,24 @@
      "netIncome": -1775
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111572874.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 513.3
+    },
+    "exact": {
+     "current": {
+      "revenue": 442.922,
+      "operatingIncome": -813.446,
+      "ordinaryIncome": -810.072,
+      "netIncome": -813.642
+     },
+     "prior": {
+      "revenue": 72.215,
+      "operatingIncome": -909.452,
+      "ordinaryIncome": -914.755,
+      "netIncome": -916.255
+     }
+    }
    },
    {
     "fiscalYear": "2026年9月期",
@@ -10515,7 +11681,19 @@
     "pdf": "https://www.release.tdnet.info/inbs/140120261113578911.pdf",
     "source": "TDnet XBRL",
     "revenueAbsent": true,
-    "revenueLabel": "売上高"
+    "revenueLabel": "売上高",
+    "exact": {
+     "current": {
+      "operatingIncome": -795.706,
+      "ordinaryIncome": -801.75,
+      "netIncome": -802.056
+     },
+     "prior": {
+      "operatingIncome": -831.215,
+      "ordinaryIncome": -840.549,
+      "netIncome": -841.8
+     }
+    }
    },
    {
     "fiscalYear": "2027年3月期",
@@ -10600,7 +11778,19 @@
     "pdf": "https://www.release.tdnet.info/inbs/140120261109568456.pdf",
     "source": "TDnet XBRL",
     "revenueAbsent": true,
-    "revenueLabel": "売上高"
+    "revenueLabel": "売上高",
+    "exact": {
+     "current": {
+      "operatingIncome": -1686.34,
+      "ordinaryIncome": -1650.924,
+      "netIncome": -1608.271
+     },
+     "prior": {
+      "operatingIncome": -1815.034,
+      "ordinaryIncome": -1798.231,
+      "netIncome": -1801.774
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -10729,7 +11919,22 @@
      "netIncome": -1234
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112574971.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "changes": {
+     "revenue": 572.8
+    },
+    "exact": {
+     "current": {
+      "operatingIncome": -786.717,
+      "ordinaryIncome": -781.601,
+      "netIncome": -813.075
+     },
+     "prior": {
+      "operatingIncome": -1253.73,
+      "ordinaryIncome": -1238.805,
+      "netIncome": -1234.055
+     }
+    }
    },
    {
     "fiscalYear": "2026年12月期",
@@ -10859,7 +12064,16 @@
      "netIncome": 305
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112575788.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "exact": {
+     "current": {
+      "revenue": 510.826,
+      "operatingIncome": 50.86,
+      "ordinaryIncome": 29.26,
+      "netIncome": 15.581
+     },
+     "prior": {}
+    }
    }
   ]
  }

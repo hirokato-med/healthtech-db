@@ -245,10 +245,10 @@
     "hp": "https://www.astemf.jp/",
     "categories": [
       "wholesale",
-      "medical-management-support",
-      "medical-materials"
+      "medical-materials",
+      "medical-management-support"
     ],
-    "categoryLabel": "医薬品・医療機器卸・医療経営支援・医療資材・SPD",
+    "categoryLabel": "医薬品・医療機器卸・医療資材・SPD・医療経営支援",
     "description": "九州・山口を地盤に医療機関・薬局・介護施設へ医薬品や医療機器を卸すフォレストグループの医薬品卸",
     "prefecture": "福岡県",
     "foundedYear": 1948,
@@ -364,10 +364,9 @@
     "name": "株式会社日本アルトマーク",
     "hp": "https://www.ultmarc.co.jp/",
     "categories": [
-      "pharma-marketing-support",
-      "cro"
+      "pharma-marketing-support"
     ],
-    "categoryLabel": "製薬企業支援・CRO",
+    "categoryLabel": "製薬企業支援",
     "description": "医師・医療施設のデータベース「MDB」を製薬企業などに提供するエムスリーグループの医療データ会社",
     "prefecture": "東京都",
     "foundedYear": 1962,
@@ -2190,11 +2189,11 @@
     "name": "セコム医療システム",
     "hp": "https://medical.secom.co.jp/corporate/history.html",
     "categories": [
-      "telemedicine",
       "home-medical",
+      "medical-image",
       "electronic-health-record"
     ],
-    "categoryLabel": "オンライン診療・在宅医療・電子カルテ",
+    "categoryLabel": "在宅医療・医療画像・電子カルテ",
     "description": "セコムグループで遠隔画像診断「ホスピネット」やクラウド型電子カルテ、オンライン診療システムを提供するメディカル事業会社",
     "prefecture": "東京都",
     "foundedYear": 1994,
@@ -2244,9 +2243,10 @@
     "name": "株式会社ドクターネット",
     "hp": "https://dr-net.co.jp/",
     "categories": [
-      "telemedicine"
+      "medical-image",
+      "recruting-solutions"
     ],
-    "categoryLabel": "オンライン診療",
+    "categoryLabel": "医療画像・人材",
     "description": "放射線診断専門医による遠隔読影「Tele-RAD」や読影AI基盤「AI-RAD」を医療機関に提供するJMDC子会社",
     "prefecture": "東京都",
     "foundedYear": 1995,
@@ -3075,9 +3075,9 @@
     "categories": [
       "doctor-network",
       "pharma-marketing-support",
-      "telemedicine"
+      "recruting-solutions"
     ],
-    "categoryLabel": "医師囲い込み・製薬企業支援・オンライン診療",
+    "categoryLabel": "医師囲い込み・製薬企業支援・人材",
     "description": "医師会員24万人超の「CareNet.com」を基盤に製薬向けMR支援・CRO/CSOや医師人材紹介を展開",
     "prefecture": "東京都",
     "foundedYear": 1996,
@@ -5581,11 +5581,10 @@
     "name": "エムネス",
     "hp": "https://mnes-lookrec.com/",
     "categories": [
-      "telemedicine",
       "medical-image",
       "diagnostic-support"
     ],
-    "categoryLabel": "オンライン診療・医療画像・診断支援",
+    "categoryLabel": "医療画像・診断支援",
     "description": "クラウド型DICOMプラットフォーム「LOOKREC」と常勤放射線科医による遠隔画像診断を医療機関に提供する広島の企業",
     "prefecture": "広島県",
     "foundedYear": 2000,
@@ -6020,9 +6019,9 @@
     "name": "株式会社ネット・メディカルセンター",
     "hp": "https://www.nmed-center.co.jp/",
     "categories": [
-      "telemedicine"
+      "medical-image"
     ],
-    "categoryLabel": "オンライン診療",
+    "categoryLabel": "医療画像",
     "description": "九州の大学・基幹病院と連携し、放射線診断専門医による遠隔画像診断支援サービスを提供するクラフティア（旧九電工）の子会社",
     "prefecture": "福岡県",
     "foundedYear": 2000,
@@ -7847,10 +7846,10 @@
     "hp": "https://www.sophiamedi.co.jp/",
     "categories": [
       "home-visit-nursing",
-      "nursing",
-      "clinical-trial-support"
+      "clinical-trial-support",
+      "nursing"
     ],
-    "categoryLabel": "訪問看護・介護・治験支援",
+    "categoryLabel": "訪問看護・治験支援・介護",
     "description": "東京圏を中心に訪問看護ステーションを多数運営し、在宅治験（DCT）や看護研修も手がけるエムスリーグループの訪問看護会社",
     "prefecture": "東京都",
     "foundedYear": 2002,
@@ -8020,10 +8019,9 @@
     "name": "クラブビジネスジャパン",
     "hp": "https://www.fitnessclub.jp/",
     "categories": [
-      "fitness",
-      "marketing-support"
+      "fitness"
     ],
-    "categoryLabel": "フィットネス・マーケティング支援",
+    "categoryLabel": "フィットネス",
     "description": "経営情報誌「Fitness Business」やポータル「FitnessOnline」を運営するフィットネス業界メディア",
     "prefecture": "東京都",
     "foundedYear": 2002,
@@ -8892,9 +8890,9 @@
     "name": "エンブレース",
     "hp": "https://www.collabosquare.co.jp/",
     "categories": [
-      "home-medical"
+      "medical-dx"
     ],
-    "categoryLabel": "在宅医療",
+    "categoryLabel": "医療機関DX",
     "description": "医療介護専用SNS「メディカルケアステーション（MCS）」を提供していた企業。2026年4月にコラボスクエアへ吸収合併",
     "prefecture": "東京都",
     "foundedYear": 2003,
@@ -9088,9 +9086,9 @@
     "name": "ディー・クルー・テクノロジーズ",
     "hp": "https://d-clue.com/",
     "categories": [
-      "medical-device"
+      "medical-dx"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "医療機関DX",
     "description": "アナログ・デジタル混載LSIや電源モジュール、センシングシステムを受託開発する日清紡グループの半導体設計会社",
     "prefecture": "神奈川県",
     "foundedYear": 2003,
@@ -11242,9 +11240,9 @@
     "name": "スピンシェル",
     "hp": "https://spinshell.com/",
     "categories": [
-      "telemedicine"
+      "medical-dx"
     ],
-    "categoryLabel": "オンライン診療",
+    "categoryLabel": "医療機関DX",
     "description": "Webブラウザ上のビデオ通話プラットフォーム「LiveCall」を軸に遠隔接客・コンタクトセンターを提供",
     "prefecture": "東京都",
     "foundedYear": 2006,
@@ -11346,9 +11344,9 @@
     "name": "エイツーシグマ",
     "hp": "https://www.a2sigma.co.jp/",
     "categories": [
-      "diagnostic-support"
+      "medical-dx"
     ],
-    "categoryLabel": "診断支援",
+    "categoryLabel": "医療機関DX",
     "description": "ゲノム解析結果を解釈し、医師向けのクリニカルレポートとして提供するゲノム医療支援企業",
     "prefecture": "東京都",
     "foundedYear": 2006,
@@ -11445,10 +11443,9 @@
     "name": "株式会社フィッツプラス",
     "hp": "https://fitsplus.co.jp/",
     "categories": [
-      "health-insuarance-market",
-      "direct-to-consumer"
+      "health-corporate-management"
     ],
-    "categoryLabel": "健康保険組合向け・D2C",
+    "categoryLabel": "健康経営",
     "description": "メドピア子会社",
     "prefecture": "東京都",
     "foundedYear": 2006,
@@ -11698,10 +11695,10 @@
     "name": "ヘルシーパス",
     "hp": "https://www.healthy-pass.co.jp/",
     "categories": [
-      "doctor-network",
-      "direct-to-consumer"
+      "medical-management-support",
+      "doctor-network"
     ],
-    "categoryLabel": "医師囲い込み・D2C",
+    "categoryLabel": "医療経営支援・医師囲い込み",
     "description": "医師・歯科医師の声から生まれた医療機関専用サプリメントを開発・販売する静岡のメーカー",
     "prefecture": "静岡県",
     "foundedYear": 2006,
@@ -11791,7 +11788,9 @@
       "kind": "header",
       "source": "https://www.healthy-pass.co.jp/img/header-logo.png",
       "checkedAt": "2026-11"
-    }
+    },
+    "categoryLocked": true,
+    "categoryNote": "医療機関専用サプリメントの開発・販売が主。医療機関を通じて患者に届け、紹介患者への直送もある（消費者に直接売る D2C ではない）"
   },
   {
     "id": "1120001117458",
@@ -12037,10 +12036,9 @@
     "hp": "https://www.ichigo-llc.co.jp/",
     "categories": [
       "medical-image",
-      "telemedicine",
       "diagnostic-support"
     ],
-    "categoryLabel": "医療画像・オンライン診療・診断支援",
+    "categoryLabel": "医療画像・診断支援",
     "description": "遠隔画像診断の通信インフラ「医知悟」を診断医と医療機関に提供するPSPグループの企業",
     "prefecture": "東京都",
     "foundedYear": 2007,
@@ -12171,9 +12169,9 @@
     "name": "エストコーポレーション",
     "hp": "",
     "categories": [
-      "medical-dx"
+      "home-medical"
     ],
-    "categoryLabel": "医療機関DX",
+    "categoryLabel": "在宅医療",
     "description": "公式ドメインでは金融・転職情報メディア「MONEY PICKS」を運営。健診データ関連事業は確認できず",
     "prefecture": "東京都",
     "foundedYear": 2007,
@@ -12220,10 +12218,10 @@
     "hp": "https://carepro.co.jp/",
     "categories": [
       "first-aid",
-      "home-visit-nursing",
-      "recruting-solutions"
+      "simple-inspection",
+      "medical-materials"
     ],
-    "categoryLabel": "救急・訪問看護・人材",
+    "categoryLabel": "救急・簡易検査・医療資材・SPD",
     "description": "出張健康チェックの予防医療、外出支援「ドコケア」・民間救急、スポーツ救護など看護師起点のサービスを展開",
     "prefecture": "東京都",
     "foundedYear": 2007,
@@ -13458,10 +13456,10 @@
     "hp": "https://three-sides.co.jp/",
     "categories": [
       "recruting-solutions",
-      "relaxation",
-      "electronic-health-record"
+      "electronic-health-record",
+      "relaxation"
     ],
-    "categoryLabel": "人材・リラクゼーション・電子カルテ",
+    "categoryLabel": "人材・電子カルテ・リラクゼーション",
     "description": "整骨院業界向けに予約管理・電子カルテなどのSaaSと、業界特化の求人・人材紹介サイトを提供",
     "prefecture": "福岡県",
     "foundedYear": 2008,
@@ -14353,10 +14351,10 @@
     "hp": "https://www.c2inc.co.jp/",
     "categories": [
       "sleep",
-      "marketing-support",
-      "personal-health-record"
+      "personal-health-record",
+      "marketing-support"
     ],
-    "categoryLabel": "睡眠・マーケティング支援・PHR",
+    "categoryLabel": "睡眠・PHR・マーケティング支援",
     "description": "睡眠記録アプリ「熟睡アラーム」と医療・医薬品データベースを持つヘルスケア系アプリ開発会社",
     "prefecture": "東京都",
     "foundedYear": 2009,
@@ -14697,9 +14695,9 @@
     "name": "株式会社シェアリング・ビューティー",
     "hp": "https://www.sharingbeauty.co.jp/",
     "categories": [
-      "marketing-support"
+      "medical-cosmetic"
     ],
-    "categoryLabel": "マーケティング支援",
+    "categoryLabel": "美容整形",
     "description": "ヘアスタイルメディア「HAIR」を軸に美容業界向け広告・サロン運営・店舗DXを展開",
     "prefecture": "東京都",
     "foundedYear": 2010,
@@ -15067,9 +15065,9 @@
     "name": "Avenir",
     "hp": "http://www.avenir-executive.co.jp/",
     "categories": [
-      "recruting-solutions"
+      "health-corporate-management"
     ],
-    "categoryLabel": "人材",
+    "categoryLabel": "健康経営",
     "description": "導入3,500社超の「産業医クラウド」と医師の転職支援を担うメンタルヘルステクノロジーズの子会社",
     "prefecture": "東京都",
     "foundedYear": 2011,
@@ -15873,9 +15871,9 @@
     "name": "Noom Japan株式会社",
     "hp": "https://www.noom.com/jp/",
     "categories": [
-      "direct-to-consumer"
+      "medical-dx"
     ],
-    "categoryLabel": "D2C",
+    "categoryLabel": "医療機関DX",
     "description": "元はアメリカ",
     "prefecture": "東京都",
     "foundedYear": 2011,
@@ -16027,10 +16025,10 @@
     "hp": "https://www.minacare.co.jp/",
     "categories": [
       "health-insuarance-market",
-      "dental",
-      "personal-health-record"
+      "personal-health-record",
+      "femtech"
     ],
-    "categoryLabel": "健康保険組合向け・歯科領域・PHR",
+    "categoryLabel": "健康保険組合向け・PHR・フェムテック",
     "description": "健保・企業向けにデータヘルス計画策定や健康経営、保健事業を支援する予防医療コンサル",
     "prefecture": "東京都",
     "foundedYear": 2011,
@@ -16154,10 +16152,9 @@
     "name": "ポート株式会社",
     "hp": "https://www.theport.jp/",
     "categories": [
-      "telemedicine",
-      "direct-to-consumer"
+      "recruting-solutions"
     ],
-    "categoryLabel": "オンライン診療・D2C",
+    "categoryLabel": "人材",
     "description": "就活メディア「キャリアパーク！」とエネルギー比較「エネチョイス」による成約支援事業の上場企業",
     "prefecture": "東京都",
     "foundedYear": 2011,
@@ -16442,9 +16439,9 @@
     "name": "株式会社untickle",
     "hp": "http://untickle.com/",
     "categories": [
-      "personal-health-record"
+      "health-consulting"
     ],
-    "categoryLabel": "PHR",
+    "categoryLabel": "健康相談",
     "description": "アトピー性皮膚炎の人の為のウェブサービスの運営",
     "prefecture": "東京都",
     "foundedYear": 2011,
@@ -16830,9 +16827,10 @@
     "name": "ドクターズモバイル株式会社",
     "hp": "http://doctorsmobile.jp/",
     "categories": [
-      "medical-saas"
+      "medical-dx",
+      "diagnostic-support"
     ],
-    "categoryLabel": "医療機関SaaS",
+    "categoryLabel": "医療機関DX",
     "description": "看護記録を効率化する「チームコンパス」等を開発。2025年4月にイノシアへ吸収合併",
     "prefecture": "東京都",
     "foundedYear": 2012,
@@ -17755,9 +17753,9 @@
     "name": "Recovery International株式会社",
     "hp": "http://www.recovery-group.co.jp/company/",
     "categories": [
-      "home-visit-nursing"
+      "nursing"
     ],
-    "categoryLabel": "訪問看護",
+    "categoryLabel": "介護",
     "description": "看護師やリハビリ職による在宅向け訪問看護サービスをドミナント展開する東証グロース上場企業",
     "prefecture": "東京都",
     "foundedYear": 2013,
@@ -18041,10 +18039,9 @@
     "name": "ドリコス株式会社",
     "hp": "https://dricos.jp/",
     "categories": [
-      "direct-to-consumer",
-      "femtech"
+      "medical-cosmetic"
     ],
-    "categoryLabel": "D2C・フェムテック",
+    "categoryLabel": "美容整形",
     "description": "フィットネスクラブ向けオーダーメイドサプリメントサーバー「GRANDE」を全国600店舗以上に展開",
     "prefecture": "東京都",
     "foundedYear": 2012,
@@ -19611,9 +19608,9 @@
     "name": "クオンタムバイオシステムズ株式会社",
     "hp": "http://quantumbiosystems.com/",
     "categories": [
-      "medical-device"
+      "simple-inspection"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "簡易検査",
     "description": "1分子解析技術に基づく独自のDNAシークエンサー「Quantum Sequencing™」の開発",
     "prefecture": "東京都",
     "foundedYear": 2013,
@@ -21326,10 +21323,9 @@
     "hp": "http://susmed.co.jp/",
     "categories": [
       "medical-device",
-      "sleep",
       "clinical-trial-support"
     ],
-    "categoryLabel": "医療機器・睡眠・治験支援",
+    "categoryLabel": "医療機器・治験支援",
     "description": "不眠障害用アプリなどの治療用アプリ開発と、ブロックチェーンを使った臨床試験システムを提供",
     "prefecture": "東京都",
     "foundedYear": 2015,
@@ -21575,9 +21571,9 @@
     "name": "株式会社Preferred Networks",
     "hp": "https://www.preferred.jp/ja/",
     "categories": [
-      "personal-health-record"
+      "medical-image"
     ],
-    "categoryLabel": "PHR",
+    "categoryLabel": "医療画像",
     "description": "AI半導体から国産LLM「PLaMo」までを垂直統合し、創薬など医療分野にもAIを提供するAI企業",
     "prefecture": "東京都",
     "foundedYear": 2014,
@@ -21718,9 +21714,9 @@
     "name": "株式会社DeNAライフサイエンス",
     "hp": "https://dena-ls.co.jp/",
     "categories": [
-      "simple-inspection"
+      "medical-image"
     ],
-    "categoryLabel": "簡易検査",
+    "categoryLabel": "医療画像",
     "description": "唾液による簡易遺伝子検査、健康相談。",
     "prefecture": "東京都",
     "foundedYear": 2014,
@@ -21759,10 +21755,10 @@
     "hp": "https://corp.anamne.com/",
     "categories": [
       "health-consulting",
-      "marketing-support",
-      "personal-health-record"
+      "personal-health-record",
+      "pharmacy-dx"
     ],
-    "categoryLabel": "健康相談・マーケティング支援・PHR",
+    "categoryLabel": "健康相談・PHR・薬局DX",
     "description": "女性医師が24時間365日対応するオンライン診療・医療相談サービス「おうち病院」を運営",
     "prefecture": "東京都",
     "foundedYear": 2014,
@@ -21849,9 +21845,9 @@
     "name": "メトセラ",
     "hp": "https://www.metcela.com/",
     "categories": [
-      "pharma"
+      "medical-device"
     ],
-    "categoryLabel": "製薬・創薬",
+    "categoryLabel": "医療機器",
     "description": "線維芽細胞などを用いた細胞医薬品を開発し、小児・希少疾患の治療を目指す再生医療ベンチャー",
     "prefecture": "神奈川県",
     "foundedYear": 2016,
@@ -21931,10 +21927,9 @@
     "name": "HACARUS",
     "hp": "https://hacarus.com/",
     "categories": [
-      "medical-image",
-      "medical-dx"
+      "medical-device"
     ],
-    "categoryLabel": "医療画像・医療機関DX",
+    "categoryLabel": "医療機器",
     "description": "スパースモデリングによる少量データAIで、製造業の外観検査や建設現場の安全管理を支援",
     "prefecture": "京都府",
     "foundedYear": 2014,
@@ -22134,10 +22129,9 @@
     "name": "エムスリーデジタルコミュニケーションズ株式会社",
     "hp": "https://www.m3dc.co.jp/",
     "categories": [
-      "pharma-marketing-support",
-      "doctor-network"
+      "pharma-marketing-support"
     ],
-    "categoryLabel": "製薬企業支援・医師囲い込み",
+    "categoryLabel": "製薬企業支援",
     "description": "製薬企業向けにWeb講演会配信やメディカルライティングなどのデジタル支援を行うエムスリー子会社",
     "prefecture": "東京都",
     "foundedYear": 2014,
@@ -22665,9 +22659,9 @@
     "name": "トラヴォス",
     "hp": "https://www.travoss.com/",
     "categories": [
-      "disease-management-program"
+      "health-consulting"
     ],
-    "categoryLabel": "DMP",
+    "categoryLabel": "健康相談",
     "description": "LINEで介護予防・疼痛ケアやマインドフルネスの運動を案内する、法人向けセルフケアプログラムを提供",
     "prefecture": "東京都",
     "foundedYear": 2014,
@@ -23009,9 +23003,9 @@
     "name": "株式会社UN5UNG BUT",
     "hp": "https://un5ungbut.jp/",
     "categories": [
-      "marketing-support"
+      "medical-cosmetic"
     ],
-    "categoryLabel": "マーケティング支援",
+    "categoryLabel": "美容整形",
     "description": "化粧品・健康食品・医薬品ブランド向けにAI活用のデジタルマーケティング支援とASP事業を展開",
     "prefecture": "東京都",
     "foundedYear": 2014,
@@ -23066,10 +23060,9 @@
     "name": "SOELU株式会社",
     "hp": "https://about.soelu.com/",
     "categories": [
-      "fitness",
-      "direct-to-consumer"
+      "fitness"
     ],
-    "categoryLabel": "フィットネス・D2C",
+    "categoryLabel": "フィットネス",
     "description": "女性専用マシンピラティススタジオ「ソエルスタジオ」とオンラインフィットネス「SOELU」を運営",
     "prefecture": "東京都",
     "foundedYear": 2014,
@@ -23182,9 +23175,9 @@
     "name": "株式会社デザインケア",
     "hp": "https://kakaritsuke.co.jp/",
     "categories": [
-      "home-visit-nursing"
+      "nursing"
     ],
-    "categoryLabel": "訪問看護",
+    "categoryLabel": "介護",
     "description": "看護師の藤野泰平が創業し、「みんなのかかりつけ訪問看護ステーション」を複数地域で運営",
     "prefecture": "愛知県",
     "foundedYear": 2014,
@@ -23753,9 +23746,9 @@
     "name": "株式会社Z-Works",
     "hp": "https://z-works.co.jp/",
     "categories": [
-      "nursing"
+      "medical-dx"
     ],
-    "categoryLabel": "介護",
+    "categoryLabel": "医療機関DX",
     "description": "介護施設向けにセンサーとAIで入居者の状態を見える化するIoT介護支援システム「ライブコネクト」を提供",
     "prefecture": "東京都",
     "foundedYear": 2015,
@@ -23952,9 +23945,9 @@
     "name": "株式会社3Sunny",
     "hp": "https://www.3sunny.net/",
     "categories": [
-      "medical-saas"
+      "medical-dx"
     ],
-    "categoryLabel": "医療機関SaaS",
+    "categoryLabel": "医療機関DX",
     "description": "病院の入退院調整をオンライン化する入退院支援クラウド「CAREBOOK」を提供",
     "prefecture": "東京都",
     "foundedYear": 2015,
@@ -25087,10 +25080,10 @@
     "hp": "https://corp.sirutasu.com/",
     "categories": [
       "personal-health-record",
-      "marketing-support",
-      "health-insuarance-market"
+      "health-insuarance-market",
+      "marketing-support"
     ],
-    "categoryLabel": "PHR・マーケティング支援・健康保険組合向け",
+    "categoryLabel": "PHR・健康保険組合向け・マーケティング支援",
     "description": "スーパーの購買データから栄養状態を解析し食品を提案するヘルスケアアプリ「SIRU＋」を運営",
     "prefecture": "東京都",
     "foundedYear": 2016,
@@ -25176,9 +25169,9 @@
     "name": "クリンタル",
     "hp": "https://clintal.com/",
     "categories": [
-      "health-consulting"
+      "recruting-solutions"
     ],
-    "categoryLabel": "健康相談",
+    "categoryLabel": "人材",
     "description": "会員制の医師紹介・看護師相談サービス「clintal」を運営していたJMDCグループの事業。2026年3月にサービス終了",
     "prefecture": "東京都",
     "foundedYear": 2015,
@@ -25342,9 +25335,9 @@
     "name": "株式会社Mediplat",
     "hp": "https://www.firstcall.md/Home/About",
     "categories": [
-      "health-consulting"
+      "health-corporate-management"
     ],
-    "categoryLabel": "健康相談",
+    "categoryLabel": "健康経営",
     "description": "クラウド型健康管理サービス「first call」の運営、ライフログプラットフォーム事業",
     "prefecture": "東京都",
     "foundedYear": 2015,
@@ -25561,11 +25554,10 @@
     "name": "Lime",
     "hp": "http://lime-fit.com/",
     "categories": [
-      "fitness",
       "nursing",
       "home-visit-nursing"
     ],
-    "categoryLabel": "フィットネス・介護・訪問看護",
+    "categoryLabel": "介護・訪問看護",
     "description": "ニキビケア・小顔などの専門フェイシャルサロンやアイサロンを多店舗展開し、美容D2C・不動産・福祉にも進出",
     "prefecture": "東京都",
     "foundedYear": 2017,
@@ -25806,9 +25798,9 @@
     "name": "株式会社ログビー",
     "hp": "https://logbii.com/",
     "categories": [
-      "medical-data-analytics"
+      "medical-dx"
     ],
-    "categoryLabel": "医療データ分析",
+    "categoryLabel": "医療機関DX",
     "description": "大学との共同研究で培ったAI技術を基に、AI/DX受託開発とエンジニア向けHR・ナレッジ共有プロダクトを提供",
     "prefecture": "東京都",
     "foundedYear": 2015,
@@ -26938,9 +26930,9 @@
     "name": "株式会社FAZOM",
     "hp": "https://fazom.co.jp/",
     "categories": [
-      "sleep"
+      "health-corporate-management"
     ],
-    "categoryLabel": "睡眠",
+    "categoryLabel": "健康経営",
     "description": "旧社名オー。睡眠改善サービスから転じ、AI営業支援「FAZOM」と1on1・目標管理ツール「コチーム」を提供",
     "prefecture": "東京都",
     "foundedYear": 2016,
@@ -27318,9 +27310,9 @@
     "name": "Lily Medtech",
     "hp": "http://www.lilymedtech.com/",
     "categories": [
-      "medical-image"
+      "medical-device"
     ],
-    "categoryLabel": "医療画像",
+    "categoryLabel": "医療機器",
     "description": "圧迫や被ばくのない乳房用リング型超音波画像診断装置「COCOLY」を開発・販売する東大発医療機器ベンチャー",
     "prefecture": "東京都",
     "foundedYear": 2016,
@@ -29653,9 +29645,9 @@
     "name": "株式会社インディー・メディカル",
     "hp": "http://www.indee-medical.com/",
     "categories": [
-      "pharma"
+      "medical-device"
     ],
-    "categoryLabel": "製薬・創薬",
+    "categoryLabel": "医療機器",
     "description": "コスモテックの子会社(エムスリーの子会社)・再生医療に特化",
     "prefecture": "東京都",
     "foundedYear": 2016,
@@ -29697,9 +29689,9 @@
     "name": "株式会社ヘルスケアマーケティング",
     "hp": "http://www.hcm.co.jp/",
     "categories": [
-      "health-insuarance-market"
+      "health-consulting"
     ],
-    "categoryLabel": "健康保険組合向け",
+    "categoryLabel": "健康相談",
     "description": "解散後、セルスメタ・EPARKのJV",
     "prefecture": "東京都",
     "foundedYear": 2016,
@@ -30026,9 +30018,9 @@
     "name": "株式会社 cart",
     "hp": "https://cart-ltd.com/",
     "categories": [
-      "femtech"
+      "direct-to-consumer"
     ],
-    "categoryLabel": "フェムテック",
+    "categoryLabel": "D2C",
     "description": "女性の貧血対策サプリ「Revol」やウエルネスケアブランド「UNU+ment」を展開。旧ナチュラカート運営",
     "prefecture": "東京都",
     "foundedYear": 2016,
@@ -30425,10 +30417,9 @@
     "hp": "https://www.literrasmedica.com/",
     "categories": [
       "medical-device",
-      "relaxation",
-      "recruting-solutions"
+      "relaxation"
     ],
-    "categoryLabel": "医療機器・リラクゼーション・人材",
+    "categoryLabel": "医療機器・リラクゼーション",
     "description": "統合医療を専門とする医師が率いる医療コンサル会社。医療ベンチャーの事業立ち上げ支援や医療系アプリ開発",
     "prefecture": "東京都",
     "foundedYear": 2017,
@@ -31077,9 +31068,9 @@
     "name": "株式会社KURASERU",
     "hp": "https://www.kuraseru.co.jp/",
     "categories": [
-      "medical-saas"
+      "nursing"
     ],
-    "categoryLabel": "医療機関SaaS",
+    "categoryLabel": "介護",
     "description": "病院の退院調整を支援し介護施設とつなぐ医療ソーシャルワーカー・ケアマネ向けSaaS「KURASERU」を運営",
     "prefecture": "兵庫県",
     "foundedYear": 2017,
@@ -32466,9 +32457,9 @@
     "name": "株式会社リモハブ",
     "hp": "https://www.remohab.com/",
     "categories": [
-      "telemedicine"
+      "personal-health-record"
     ],
-    "categoryLabel": "オンライン診療",
+    "categoryLabel": "PHR",
     "description": "心不全患者などの在宅心臓リハビリを遠隔で支援する医療機器プログラム「リモハブ CR U」を医療機関に提供",
     "prefecture": "大阪府",
     "foundedYear": 2017,
@@ -32688,9 +32679,9 @@
     "name": "株式会社スタジオスポビー",
     "hp": "https://spoby.jp/",
     "categories": [
-      "personal-health-record"
+      "health-corporate-management"
     ],
-    "categoryLabel": "PHR",
+    "categoryLabel": "健康経営",
     "description": "歩行・移動などの活動量を健康増進と脱炭素量に換算するアプリ「SPOBY」を自治体・企業に提供",
     "prefecture": "東京都",
     "foundedYear": 2017,
@@ -32748,11 +32739,9 @@
     "name": "EMC Healthcare",
     "hp": "https://www.emcjpn.com/about/",
     "categories": [
-      "nursing",
-      "personal-health-record",
-      "sleep"
+      "nursing"
     ],
-    "categoryLabel": "介護・PHR・睡眠",
+    "categoryLabel": "介護",
     "description": "見守りセンサーとナースコールを統合した介護DXサービス「OwlCare」や保育園向け午睡見守りAIを提供",
     "prefecture": "東京都",
     "foundedYear": 2017,
@@ -34371,9 +34360,9 @@
     "name": "株式会社MEDITA",
     "hp": "https://herbio.co.jp/",
     "categories": [
-      "personal-health-record"
+      "femtech"
     ],
-    "categoryLabel": "PHR",
+    "categoryLabel": "フェムテック",
     "description": "深部体温コンサル・体調記録サービス・研究支援",
     "prefecture": "東京都",
     "foundedYear": 2018,
@@ -34416,10 +34405,10 @@
     "hp": "https://www.linc-well.com/",
     "categories": [
       "telemedicine",
-      "clinic-chain",
-      "personal-health-record"
+      "personal-health-record",
+      "clinic-chain"
     ],
-    "categoryLabel": "オンライン診療・クリニックチェーン・PHR",
+    "categoryLabel": "オンライン診療・PHR・クリニックチェーン",
     "description": "オンライン診療システム、クリニックDX支援、ヘルスケアECを展開。クリニックフォアグループにシステムを提供",
     "prefecture": "東京都",
     "foundedYear": 2018,
@@ -34904,9 +34893,9 @@
     "name": "株式会社ジー・エル・ティー",
     "hp": "",
     "categories": [
-      "recruting-solutions"
+      "health-consulting"
     ],
-    "categoryLabel": "人材",
+    "categoryLabel": "健康相談",
     "description": "ヘルスケアサービス、医療・ヘルスケア関連企業へのコンサルティングサービス、薬剤師・登録販売者向けの人材紹介サービス。具体で記載はなし",
     "prefecture": "東京都",
     "foundedYear": 2018,
@@ -35310,10 +35299,10 @@
     "hp": "https://omniheal.jp/",
     "categories": [
       "marketing-support",
-      "home-medical",
-      "pharma-marketing-support"
+      "pharma-marketing-support",
+      "health-insuarance-market"
     ],
-    "categoryLabel": "マーケティング支援・在宅医療・製薬企業支援",
+    "categoryLabel": "マーケティング支援・製薬企業支援・健康保険組合向け",
     "description": "医師が代表を務める医療・ヘルスケア特化のクリエイティブ会社。制作、イベント、コミュニティ運営で課題解決を支援",
     "prefecture": "東京都",
     "foundedYear": 2019,
@@ -37044,10 +37033,10 @@
     "hp": "https://www.medring.co.jp/",
     "categories": [
       "electronic-health-record",
-      "medical-management-support",
-      "recruting-solutions"
+      "nursing",
+      "medical-management-support"
     ],
-    "categoryLabel": "電子カルテ・医療経営支援・人材",
+    "categoryLabel": "電子カルテ・介護・医療経営支援",
     "description": "東南アジアで医療DX、クリニックM&A仲介、日本式介護の人材育成「MEDRiNG」を展開。旧社名メドリング",
     "prefecture": "東京都",
     "foundedYear": 2019,
@@ -37751,9 +37740,9 @@
     "name": "株式会社シルバコンパス",
     "hp": "https://silvacompass.co.jp/",
     "categories": [
-      "nursing"
+      "pharmacy-dx"
     ],
-    "categoryLabel": "介護",
+    "categoryLabel": "薬局DX",
     "description": "高齢者向けのAI映像対話システム「Talk With おはなしテレビ」を開発する浜松のスタートアップ",
     "prefecture": "静岡県",
     "foundedYear": 2019,
@@ -38901,10 +38890,10 @@
     "hp": "https://humanome.jp/",
     "categories": [
       "medical-data-analytics",
-      "simple-inspection",
-      "medical-dx"
+      "medical-dx",
+      "simple-inspection"
     ],
-    "categoryLabel": "医療データ分析・簡易検査・医療機関DX",
+    "categoryLabel": "医療データ分析・医療機関DX・簡易検査",
     "description": "AI・情報科学・生命科学の社会実装を支援。共同研究、AIコンサル、バイタルデータ解析、生成AI導入など",
     "prefecture": "東京都",
     "foundedYear": 2013,
@@ -39371,9 +39360,9 @@
     "name": "株式会社ObotAI",
     "hp": "https://obot-ai.com/",
     "categories": [
-      "health-insuarance-market"
+      "insuarance"
     ],
-    "categoryLabel": "健康保険組合向け",
+    "categoryLabel": "保険",
     "description": "多言語AIチャットボット等のAI企業。健保・健診機関向けAIヘルスチェック「ObotAIヘルスケア」を提供",
     "prefecture": "東京都",
     "foundedYear": 2005,
@@ -40172,10 +40161,10 @@
     "hp": "https://www.mtu-inc.com/",
     "categories": [
       "real-world-data",
-      "dental",
-      "health-consulting"
+      "health-consulting",
+      "telemedicine"
     ],
-    "categoryLabel": "RWD・歯科領域・健康相談",
+    "categoryLabel": "RWD・健康相談・オンライン診療",
     "description": "医療機関向けのサイバーセキュリティ対策クラウド「Mowl（マウル）」を主力に医療DXを展開",
     "prefecture": "東京都",
     "foundedYear": 2020,
@@ -40263,9 +40252,10 @@
     "name": "株式会社ソラメド",
     "hp": "https://www.soramed.jp/",
     "categories": [
-      "surgical-support"
+      "medical-saas",
+      "medical-management-support"
     ],
-    "categoryLabel": "手術支援",
+    "categoryLabel": "医療機関SaaS・医療経営支援",
     "description": "急性期病院向けに手術予定管理AI SaaS「オペプロ」を提供し、手術室の稼働率向上と医師の負担軽減を支援",
     "prefecture": "東京都",
     "foundedYear": 2025,
@@ -41018,9 +41008,10 @@
     "name": "株式会社mutex",
     "hp": "https://www.mutex-inc.dev/",
     "categories": [
-      "electronic-health-record"
+      "medical-saas",
+      "medical-management-support"
     ],
-    "categoryLabel": "電子カルテ",
+    "categoryLabel": "医療機関SaaS・医療経営支援",
     "description": "医療機関のレセプト点検・請求業務をAIで支援し、算定漏れ発見や業務自動化を図るSaaS「Reze（レゼ）」を提供",
     "prefecture": "東京都",
     "foundedYear": 2022,
@@ -41305,9 +41296,11 @@
     "name": "メドテリア株式会社",
     "hp": "https://corp.medteria.io/",
     "categories": [
-      "medical-dx"
+      "doctor-network",
+      "recruting-solutions",
+      "marketing-support"
     ],
-    "categoryLabel": "医療機関DX",
+    "categoryLabel": "医師囲い込み・人材・マーケティング支援",
     "description": "医療従事者・医療系学生向けコミュニケーションクラウド「Medteria」を運営し、採用支援や広告配信も展開",
     "prefecture": "福岡県",
     "foundedYear": 2024,
@@ -42870,10 +42863,10 @@
     "hp": "https://www.premed.jp/",
     "categories": [
       "electronic-health-record",
-      "clinic-chain",
-      "medical-dx"
+      "medical-dx",
+      "clinic-chain"
     ],
-    "categoryLabel": "電子カルテ・クリニックチェーン・医療機関DX",
+    "categoryLabel": "電子カルテ・医療機関DX・クリニックチェーン",
     "description": "クリニックの運営支援を行い、レセプト全件自動点検「レセプトニスト」やAIネイティブ予約システム「Galapagos」を自社開発",
     "prefecture": "東京都",
     "foundedYear": 2022,
@@ -56110,9 +56103,10 @@
     "name": "遠隔みまもり看護株式会社",
     "hp": "https://m-kango.co.jp/",
     "categories": [
+      "home-visit-nursing",
       "nursing"
     ],
-    "categoryLabel": "介護",
+    "categoryLabel": "訪問看護・介護",
     "description": "見守りセンサーや対話ロボットを使い、看護師が24時間遠隔で見守る「みまもりナースステーション」を展開",
     "prefecture": "福岡県",
     "foundedYear": 2021,
@@ -56676,9 +56670,10 @@
     "name": "株式会社ケアリンク",
     "hp": "https://care-link.co.jp/",
     "categories": [
+      "nursing",
       "recruting-solutions"
     ],
-    "categoryLabel": "人材",
+    "categoryLabel": "介護・人材",
     "description": "介護施設と介護ワーカーを結ぶ介護・福祉特化の単発バイト（スポットワーク）アプリ「ケアリンク」を運営",
     "prefecture": "千葉県",
     "foundedYear": 2021,
@@ -57844,9 +57839,10 @@
     "name": "株式会社メディトランセ",
     "hp": "https://www.meditranse.co.jp/",
     "categories": [
+      "medical-materials",
       "first-aid"
     ],
-    "categoryLabel": "救急",
+    "categoryLabel": "医療資材・SPD・救急",
     "description": "医療検体輸送や受託検査、民間救急を手がけた。2026年9月に東京地裁から破産開始決定を受けた",
     "prefecture": "東京都",
     "foundedYear": 2011,
@@ -60178,9 +60174,10 @@
     "name": "株式会社Dioseve",
     "hp": "https://dioseve.com/",
     "categories": [
+      "femtech",
       "pharma"
     ],
-    "categoryLabel": "製薬・創薬",
+    "categoryLabel": "フェムテック・製薬・創薬",
     "description": "iPS細胞から卵母細胞と卵巣体細胞を効率よく誘導する独自技術で、不妊治療の新しい治療法を開発",
     "prefecture": "東京都",
     "foundedYear": 2021,
@@ -60260,9 +60257,10 @@
     "name": "株式会社アークス",
     "hp": "https://arcs-inc.jp/",
     "categories": [
-      "pharma"
+      "medical-device",
+      "femtech"
     ],
-    "categoryLabel": "製薬・創薬",
+    "categoryLabel": "医療機器・フェムテック",
     "description": "AIによる精子選別や顕微授精（ICSI）の自動化など、生殖補助医療向けのAI・ロボティクス機器を開発",
     "prefecture": "東京都",
     "foundedYear": 2022,
@@ -60435,9 +60433,11 @@
     "name": "SONoALS株式会社",
     "hp": "https://www.sonoals.com/ja",
     "categories": [
-      "medical-data-analytics"
+      "clinical-trial-support",
+      "medical-device",
+      "diagnostic-support"
     ],
-    "categoryLabel": "医療データ分析",
+    "categoryLabel": "治験支援・医療機器・診断支援",
     "description": "ウェアラブル超音波と筋肉のピクつきを解析するAIで、ALSの超早期診断と治験の薬効評価を支援",
     "prefecture": "兵庫県",
     "foundedYear": 2025,
@@ -72925,9 +72925,9 @@
     "categories": [
       "nursing",
       "wholesale",
-      "medical-materials"
+      "health-insuarance-market"
     ],
-    "categoryLabel": "介護・医薬品・医療機器卸・医療資材・SPD",
+    "categoryLabel": "介護・医薬品・医療機器卸・健康保険組合向け",
     "description": "総合商社。ヘルスケアでは病院の医療材料調達支援、福祉用具レンタル卸、東南アジアのマネージドケアを手がける",
     "prefecture": "東京都",
     "foundedYear": 1950,
@@ -74335,9 +74335,11 @@
     ],
     "hp": "https://www.softbank.jp/corp/",
     "categories": [
-      "mental-health"
+      "health-consulting",
+      "telemedicine",
+      "health-corporate-management"
     ],
-    "categoryLabel": "メンタルヘルス",
+    "categoryLabel": "健康相談",
     "description": "国内通信大手（携帯・法人・LINEヤフー・PayPay）。ヘルスケアでは子会社のHELPOで健康医療相談・健康経営支援を手がける",
     "prefecture": "東京都",
     "foundedYear": 1986,
@@ -81400,10 +81402,10 @@
     "hp": "https://corp.pluskampo.jp/",
     "categories": [
       "direct-to-consumer",
-      "femtech",
-      "pharma-marketing-support"
+      "pharma-marketing-support",
+      "femtech"
     ],
-    "categoryLabel": "D2C・フェムテック・製薬企業支援",
+    "categoryLabel": "D2C・製薬企業支援・フェムテック",
     "description": "薬剤師が手がけるLINE相談のパーソナル漢方「+kampo」と、生薬フアイアの製品・オンライン診療連携を展開",
     "prefecture": "東京都",
     "foundedYear": 2019,
@@ -81811,9 +81813,10 @@
     "name": "フィジオロガス・テクノロジーズ株式会社",
     "hp": "https://physiologas.co.jp/",
     "categories": [
+      "medical-device",
       "home-medical"
     ],
-    "categoryLabel": "在宅医療",
+    "categoryLabel": "医療機器・在宅医療",
     "description": "北里大学発。家庭で使える在宅血液透析装置を開発し、透析患者の通院負担の解消をめざす",
     "prefecture": "神奈川県",
     "foundedYear": 2020,
@@ -82179,9 +82182,9 @@
     "name": "サイトロニクス株式会社",
     "hp": "https://cytoronix.com/",
     "categories": [
-      "pharma"
+      "medical-device"
     ],
-    "categoryLabel": "製薬・創薬",
+    "categoryLabel": "医療機器",
     "description": "東芝発。CMOSイメージセンサを使う細胞モニタリング装置「Cell Recorder」で再生医療の細胞製造を支援していた（2026年に事業譲渡・解散）",
     "prefecture": "神奈川県",
     "foundedYear": 2021,
@@ -82892,9 +82895,10 @@
     "name": "株式会社HANOWA",
     "hp": "https://hanowa.co.jp/",
     "categories": [
+      "dental",
       "recruting-solutions"
     ],
-    "categoryLabel": "人材",
+    "categoryLabel": "歯科領域・人材",
     "description": "歯科衛生士・歯科医師などが空き時間に歯科医院で働けるスキマバイトアプリ「ハノワ（HANOWA）」を運営",
     "prefecture": "大阪府",
     "foundedYear": 2019,
@@ -85201,10 +85205,10 @@
     "name": "株式会社chromocenter",
     "hp": "http://chromocenter.com/",
     "categories": [
-      "pharma",
-      "simple-inspection"
+      "cro",
+      "pharma"
     ],
-    "categoryLabel": "製薬・創薬・簡易検査",
+    "categoryLabel": "CRO・製薬・創薬",
     "description": "鳥取大学発。人工染色体ベクター技術を持つ染色体工学ベンチャー。染色体解析・CHO細胞事業は2023年に譲渡",
     "prefecture": "鳥取県",
     "foundedYear": 2005,
@@ -86533,10 +86537,10 @@
     "hp": "https://www.rehasaku.co.jp/",
     "categories": [
       "relaxation",
-      "home-medical",
-      "electronic-health-record"
+      "electronic-health-record",
+      "home-medical"
     ],
-    "categoryLabel": "リラクゼーション・在宅医療・電子カルテ",
+    "categoryLabel": "リラクゼーション・電子カルテ・在宅医療",
     "description": "理学療法士らが作った運動療法クラウド「リハサク」で、病院・整形外科・治療院の自主トレ指導と患者の継続を支援",
     "prefecture": "東京都",
     "foundedYear": 2018,
@@ -87097,10 +87101,10 @@
     "hp": "https://oned.jp/",
     "categories": [
       "doctor-network",
-      "recruting-solutions",
-      "marketing-support"
+      "medical-dx",
+      "recruting-solutions"
     ],
-    "categoryLabel": "医師囲い込み・人材・マーケティング支援",
+    "categoryLabel": "医師囲い込み・医療機関DX・人材",
     "description": "歯科医療者向けの動画セミナー見放題「1Dプレミアム」や国試対策アプリを運営する日本最大級の歯科医療メディア",
     "prefecture": "東京都",
     "foundedYear": 2017,
@@ -90476,9 +90480,10 @@
     "name": "seven dreamers laboratories株式会社",
     "hp": "",
     "categories": [
+      "medical-device",
       "sleep"
     ],
-    "categoryLabel": "睡眠",
+    "categoryLabel": "医療機器・睡眠",
     "description": "いびき・睡眠時無呼吸向け鼻腔挿入チューブ「ナステント」や全自動衣類折りたたみ機を開発。2019年に破産",
     "prefecture": "東京都",
     "foundedYear": 2014,
@@ -90549,9 +90554,10 @@
     "name": "mappin株式会社",
     "hp": "https://mappin.jp/",
     "categories": [
-      "medical-materials"
+      "medical-management-support",
+      "medical-saas"
     ],
-    "categoryLabel": "医療資材・SPD",
+    "categoryLabel": "医療経営支援・医療機関SaaS",
     "description": "阪大発。病院・クリニックの物品の在庫管理と発注をQRコードで自動化するクラウド「pitto」を提供",
     "prefecture": "大阪府",
     "foundedYear": 2021,
@@ -91439,10 +91445,10 @@
     "hp": "https://greenmethyl.com/",
     "categories": [
       "medical-cosmetic",
-      "recruting-solutions",
-      "health-corporate-management"
+      "health-corporate-management",
+      "marketing-support"
     ],
-    "categoryLabel": "美容整形・人材・健康経営",
+    "categoryLabel": "美容整形・健康経営・マーケティング支援",
     "description": "栄養療法などの自由診療クリニック向けに、電子カルテ・予約・会計と血液栄養解析レポートをまとめたSaaS「メディテックハブ」を提供",
     "prefecture": "埼玉県",
     "foundedYear": 2021,
@@ -92033,9 +92039,10 @@
     "name": "株式会社オンデーズコンタクト（旧 株式会社PURCHASE）",
     "hp": "https://www.owndays.com/jp/ja/contact-lenses/user-guides/company",
     "categories": [
-      "medical-materials"
+      "direct-to-consumer",
+      "medical-dx"
     ],
-    "categoryLabel": "医療資材・SPD",
+    "categoryLabel": "D2C・医療機関DX",
     "description": "OWNDAYSのコンタクトレンズ定期便と自社レンズを販売するオンデーズ子会社（旧PURCHASE、「concle」を運営）",
     "prefecture": "東京都",
     "foundedYear": 2020,
@@ -93608,9 +93615,10 @@
     "name": "株式会社イムノセンス",
     "hp": "https://immunosens.com/",
     "categories": [
+      "simple-inspection",
       "medical-device"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "簡易検査・医療機器",
     "description": "阪大発。金ナノ粒子と電気化学を組み合わせた独自の免疫測定法「GLEIA」で、少量の血液を約10分で高感度に測る小型POCT機器を開発",
     "prefecture": "大阪府",
     "foundedYear": 2018,
@@ -93683,9 +93691,10 @@
     "name": "株式会社Liquid Mine",
     "hp": "http://www.liquidmine.co.jp/",
     "categories": [
+      "simple-inspection",
       "diagnostic-support"
     ],
-    "categoryLabel": "診断支援",
+    "categoryLabel": "簡易検査・診断支援",
     "description": "東大医科研発。患者ごとの遺伝子変異に合わせた検査薬で白血病の微小残存病変・再発を高精度に追う検査「MyRD」を提供",
     "prefecture": "東京都",
     "foundedYear": 2019,
@@ -94464,9 +94473,9 @@
     "name": "株式会社あんき",
     "hp": "https://anki.co.jp/",
     "categories": [
-      "direct-to-consumer"
+      "nursing"
     ],
-    "categoryLabel": "D2C",
+    "categoryLabel": "介護",
     "description": "地域の飲食店の料理を要介護者向けに届けるサブスク配食「あんきの宅食 街シェフ弁当」を名古屋で運営していた。2025年に清算",
     "prefecture": "愛知県",
     "foundedYear": 2020,
@@ -94860,9 +94869,10 @@
     "name": "株式会社CaTe",
     "hp": "https://cate.co.jp/",
     "categories": [
+      "disease-management-program",
       "medical-device"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "DMP・医療機器",
     "description": "外来で心臓リハビリを受けられない心疾患患者向けに、運動療法を支える心疾患管理プログラム医療機器（心リハアプリ）「CRS-1」を開発",
     "prefecture": "東京都",
     "foundedYear": 2020,
@@ -95020,9 +95030,10 @@
     "name": "iSurgery株式会社",
     "hp": "",
     "categories": [
+      "diagnostic-support",
       "medical-image"
     ],
-    "categoryLabel": "医療画像",
+    "categoryLabel": "診断支援・医療画像",
     "description": "胸部X線写真からAIで骨粗しょう症リスクを評価するソフト「Chest Bone Indicator」を販売していた。2024年に破産",
     "prefecture": "東京都",
     "foundedYear": 2020,
@@ -96789,9 +96800,10 @@
     "name": "株式会社xCARE",
     "hp": "https://xcareplatform.com",
     "categories": [
-      "cro"
+      "pharma-marketing-support",
+      "medical-management-support"
     ],
-    "categoryLabel": "CRO",
+    "categoryLabel": "製薬企業支援・医療経営支援",
     "description": "医薬品・医療機器の開発に、大手製薬・医療機器メーカー出身の専門家を業務委託でつなぐエキスパートプラットフォーム「xCARE」を運営",
     "prefecture": "東京都",
     "foundedYear": 2022,
@@ -98447,9 +98459,10 @@
     "name": "IMPUTE株式会社",
     "hp": "https://impute.co.jp/ja/",
     "categories": [
+      "mental-health",
       "medical-device"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "メンタルヘルス・医療機器",
     "description": "自閉症スペクトラム障害（ASD）の子ども向けに、AIで個別化した療育アプリ「自閉症セラピー」をデジタル治療として開発",
     "prefecture": "東京都",
     "foundedYear": 2017,
@@ -99096,9 +99109,9 @@
     "name": "株式会社Famileaf",
     "hp": "https://fami-leaf.com",
     "categories": [
-      "health-consulting"
+      "femtech"
     ],
-    "categoryLabel": "健康相談",
+    "categoryLabel": "フェムテック",
     "description": "京都大学発。妊婦とパートナー向けの医師監修の体調管理アプリ「hug+u（はぐゆー）」を開発し、妊娠期の合併症やうつの早期発見を目指す",
     "prefecture": "京都府",
     "foundedYear": 2020,
@@ -99748,9 +99761,10 @@
     "name": "インフューズライフサイエンス株式会社",
     "hp": "https://infuselifescience.com/",
     "categories": [
+      "femtech",
       "medical-device"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "フェムテック・医療機器",
     "description": "不妊症の卵管因子を外来で直接観察できる単回使用（使い捨て）の卵管鏡システムを研究開発する医療機器スタートアップ",
     "prefecture": "東京都",
     "foundedYear": 2024,
@@ -100553,9 +100567,10 @@
     "name": "ASEMtech株式会社",
     "hp": "https://asem-tech.com/",
     "categories": [
-      "medical-image"
+      "medical-device",
+      "simple-inspection"
     ],
-    "categoryLabel": "医療画像",
+    "categoryLabel": "医療機器・簡易検査",
     "description": "東京農工大学発。超音波で組織の電気・磁気信号を可視化する「ASEM法」で、骨や腱の質を非侵襲に評価する画像診断機器を開発",
     "prefecture": "東京都",
     "foundedYear": 2023,
@@ -100759,9 +100774,10 @@
     "name": "株式会社美肌AIコネクト",
     "hp": "https://bihada-connect.com/",
     "categories": [
-      "medical-cosmetic"
+      "direct-to-consumer",
+      "medical-dx"
     ],
-    "categoryLabel": "美容整形",
+    "categoryLabel": "D2C・医療機関DX",
     "description": "近畿大学皮膚科主任教授が創業。AIと専門医の知見で美容医療クリニック・施術を透明に評価するプラットフォーム「美肌コネクト」を開発",
     "prefecture": "京都府",
     "foundedYear": 2025,
@@ -101042,9 +101058,10 @@
     "name": "A-wave株式会社",
     "hp": "https://awave.co.jp",
     "categories": [
-      "telemedicine"
+      "medical-device",
+      "home-medical"
     ],
-    "categoryLabel": "オンライン診療",
+    "categoryLabel": "医療機器・在宅医療",
     "description": "大阪発。腕時計型ウェアラブルとAIで在宅の慢性心不全患者の増悪兆候を早期に捉える在宅モニタリングシステムを開発",
     "prefecture": "大阪府",
     "foundedYear": 2023,
@@ -101591,9 +101608,10 @@
     "name": "株式会社TOMOCLOUD",
     "hp": "https://www.tomocloud.co.jp/ja",
     "categories": [
+      "medical-device",
       "medical-image"
     ],
-    "categoryLabel": "医療画像",
+    "categoryLabel": "医療機器・医療画像",
     "description": "千葉大学発。電気インピーダンス・トモグラフィ（EIT）でリンパ浮腫などのむくみを非侵襲に可視化する診断・モニタリング機器を開発",
     "prefecture": "千葉県",
     "foundedYear": 2025,
@@ -101952,9 +101970,10 @@
     "name": "株式会社UTヘルステック",
     "hp": "https://www.uthtech.jp/",
     "categories": [
-      "medical-device"
+      "telemedicine",
+      "medical-dx"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "オンライン診療・医療機関DX",
     "description": "術後患者などの遠隔リハビリテーションを支援するアプリ（Panopticon／RehaEx）を開発・提供",
     "prefecture": "福島県",
     "foundedYear": 2022,
@@ -102253,9 +102272,10 @@
     "name": "株式会社GramEye",
     "hp": "https://grameye.com/",
     "categories": [
+      "diagnostic-support",
       "medical-device"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "診断支援・医療機器",
     "description": "AIとロボティクスでグラム染色の自動化・菌推定を行い、薬剤耐性菌問題の解決を目指す医療機器開発",
     "prefecture": "大阪府",
     "foundedYear": 2020,
@@ -103392,9 +103412,10 @@
     "name": "超楽長寿株式会社",
     "hp": "https://hhll.jp/",
     "categories": [
-      "personal-health-record"
+      "mental-health",
+      "nursing"
     ],
-    "categoryLabel": "PHR",
+    "categoryLabel": "メンタルヘルス・介護",
     "description": "精神科医が創業。50歳以上向けの医師監修マッチングサービス「ハハロル」で高齢者の社会的孤独・孤立の解消をめざす",
     "prefecture": "東京都",
     "foundedYear": 2023,
@@ -104120,9 +104141,10 @@
     "name": "クアドリティクス株式会社",
     "hp": "https://www.quadlytics.com/",
     "categories": [
-      "diagnostic-support"
+      "medical-device",
+      "disease-management-program"
     ],
-    "categoryLabel": "診断支援",
+    "categoryLabel": "医療機器・DMP",
     "description": "ウェアラブル心電計の心拍変動をAIで解析し、てんかん発作を事前に警告するスマホアプリ（医療機器）を開発。豪州での上市をめざす",
     "prefecture": "京都府",
     "foundedYear": 2018,
@@ -105424,9 +105446,10 @@
     "name": "株式会社beads",
     "hp": "https://beads-hospice.jp/",
     "categories": [
-      "home-medical"
+      "home-visit-nursing",
+      "nursing"
     ],
-    "categoryLabel": "在宅医療",
+    "categoryLabel": "訪問看護・介護",
     "description": "末期がんや神経難病の方が最期を過ごすホスピス型住宅「ビーズの家」を運営し、在宅での終末期ケアを提供",
     "prefecture": "福岡県",
     "foundedYear": 2022,
@@ -106438,10 +106461,10 @@
     "hp": "https://legal-doctor.com/",
     "categories": [
       "health-consulting",
-      "medical-management-support",
-      "medical-dx"
+      "medical-dx",
+      "medical-management-support"
     ],
-    "categoryLabel": "健康相談・医療経営支援・医療機関DX",
+    "categoryLabel": "健康相談・医療機関DX・医療経営支援",
     "description": "医師と弁護士が創業。クリニックの開業・医療法人設立から労務・医療訴訟までを医療と法律の両面で支援する（旧オンライン診療・法律相談）",
     "prefecture": "東京都",
     "foundedYear": 2023,
@@ -107275,10 +107298,10 @@
     "hp": "https://www.varytex.co.jp/",
     "categories": [
       "doctor-network",
-      "direct-to-consumer",
-      "marketing-support"
+      "marketing-support",
+      "medical-data-analytics"
     ],
-    "categoryLabel": "医師囲い込み・D2C・マーケティング支援",
+    "categoryLabel": "医師囲い込み・マーケティング支援・医療データ分析",
     "description": "AIを用いた漢方診断支援ソフトウェアなど、漢方と未病領域のDXを進めるスタートアップ",
     "prefecture": "東京都",
     "foundedYear": 2021,
@@ -107572,9 +107595,9 @@
     "name": "株式会社xCura",
     "hp": "https://xcura.care/",
     "categories": [
-      "medical-device"
+      "medical-dx"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "医療機関DX",
     "description": "VRなどのデジタル技術で、麻酔や薬だけでは解決できない処置時の痛みや不安を軽減するサービスを開発",
     "prefecture": "福岡県",
     "foundedYear": 2021,
@@ -108166,9 +108189,9 @@
     "name": "医療法人社団0歳からの頭のかたちクリニック",
     "hp": "https://baby-helmet.com/",
     "categories": [
-      "medical-device"
+      "clinic-chain"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "クリニックチェーン",
     "description": "乳児の頭蓋変形とヘルメット治療の専門クリニックを東京・大阪・福岡で4院運営する医療法人",
     "prefecture": "東京都",
     "foundedYear": null,
@@ -108204,9 +108227,10 @@
     "name": "医療法人葵鐘会",
     "hp": "https://www.parkbell.jp/ped/babyhead/",
     "categories": [
+      "clinic-chain",
       "medical-device"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "クリニックチェーン・医療機器",
     "description": "愛知県を中心に産婦人科クリニック21施設「ベルネット」を運営し、小児科で頭のかたち外来も開く",
     "prefecture": "愛知県",
     "foundedYear": null,
@@ -108233,16 +108257,18 @@
       "source": "https://www.parkbell.jp/ped/common/images/global/logoHeader.png",
       "checkedAt": "2026-11",
       "shape": "square"
-    }
+    },
+    "categoryLocked": true,
+    "categoryNote": "産婦人科クリニック「ベルネット」の運営が主。頭のかたち外来で使う医療機器は、法人の主な事業ではない"
   },
   {
     "id": "1180001062327",
     "name": "株式会社スカイ商事",
     "hp": "https://sanho-store.com/",
     "categories": [
-      "medical-device"
+      "direct-to-consumer"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "D2C",
     "description": "絶壁防止ベビー枕「ジオピロー」などのベビー用品を自社ECと楽天・Yahoo!で販売する東京の会社",
     "prefecture": "東京都",
     "foundedYear": null,
@@ -109322,9 +109348,9 @@
     "name": "アクシオンリサーチ株式会社",
     "hp": "https://axionr.com/",
     "categories": [
-      "real-world-data"
+      "medical-data-analytics"
     ],
-    "categoryLabel": "RWD",
+    "categoryLabel": "医療データ分析",
     "description": "AIで健診・血液データを解析し将来の疾病リスクを予測する技術を開発",
     "prefecture": "茨城県",
     "foundedYear": 2016,
@@ -109523,9 +109549,10 @@
     "name": "株式会社医療情報総合研究所（JMIRI、のちインテージリアルワールド）",
     "hp": "",
     "categories": [
+      "pharma-marketing-support",
       "real-world-data"
     ],
-    "categoryLabel": "RWD",
+    "categoryLabel": "製薬企業支援・RWD",
     "description": "調剤薬局の処方データなどを使い製薬企業のマーケティングを支援したデータ会社",
     "prefecture": "東京都",
     "foundedYear": 2005,
@@ -109555,9 +109582,9 @@
     "name": "株式会社ウィルモア",
     "hp": "https://www.willmore.jp/",
     "categories": [
-      "health-consulting"
+      "personal-health-record"
     ],
-    "categoryLabel": "健康相談",
+    "categoryLabel": "PHR",
     "description": "商品のバーコードからアレルギー物質の含有を確かめるアプリ「アレルギーチェッカー」を提供",
     "prefecture": "東京都",
     "foundedYear": 2009,
@@ -110374,9 +110401,10 @@
     "name": "ジーニアルライト株式会社",
     "hp": "https://www.geniallight.co.jp/",
     "categories": [
+      "medical-device",
       "simple-inspection"
     ],
-    "categoryLabel": "簡易検査",
+    "categoryLabel": "医療機器・簡易検査",
     "description": "浜松の光技術ベンチャー。光センサーで血液成分などを非侵襲に測る医療機器を開発",
     "prefecture": "静岡県",
     "foundedYear": 2006,
@@ -110599,9 +110627,10 @@
     "name": "株式会社ステムセル研究所",
     "hp": "https://www.stemcell.co.jp/",
     "categories": [
+      "pharma",
       "femtech"
     ],
-    "categoryLabel": "フェムテック",
+    "categoryLabel": "製薬・創薬・フェムテック",
     "description": "民間さい帯血・さい帯の保管サービス最大手。細胞加工・再生医療の研究にも取り組む",
     "prefecture": "東京都",
     "foundedYear": 1999,
@@ -110671,9 +110700,10 @@
     "name": "株式会社スペースビジョン",
     "hp": "https://www.spacevision.tokyo/",
     "categories": [
+      "medical-device",
       "simple-inspection"
     ],
-    "categoryLabel": "簡易検査",
+    "categoryLabel": "医療機器・簡易検査",
     "description": "高精度3次元人体計測技術で3Dボディスキャナーや側弯症検診機器「Senaka Scan」を開発",
     "prefecture": "東京都",
     "foundedYear": 2004,
@@ -111001,9 +111031,9 @@
     "name": "データ・リファイナリー株式会社",
     "hp": "",
     "categories": [
-      "real-world-data"
+      "medical-data-analytics"
     ],
-    "categoryLabel": "RWD",
+    "categoryLabel": "医療データ分析",
     "description": "きりんカルテシステムとルフト・メディカルケアの共同持株会社。医療ビッグデータ・AI事業を掲げた",
     "prefecture": "東京都",
     "foundedYear": 2017,
@@ -111712,9 +111742,10 @@
     "name": "北海道システム・サイエンス株式会社",
     "hp": "https://hssnet.co.jp/",
     "categories": [
+      "pharma",
       "simple-inspection"
     ],
-    "categoryLabel": "簡易検査",
+    "categoryLabel": "製薬・創薬・簡易検査",
     "description": "受託DNA/RNA合成・DNAシーケンス・遺伝子検査を行う札幌のバイオ企業",
     "prefecture": "北海道",
     "foundedYear": 1988,
@@ -112842,11 +112873,10 @@
     "name": "株式会社出雲生科",
     "hp": "http://resvo-inc.com/",
     "categories": [
-      "pharma",
       "simple-inspection",
       "health-corporate-management"
     ],
-    "categoryLabel": "製薬・創薬・簡易検査・健康経営",
+    "categoryLabel": "簡易検査・健康経営",
     "description": "旧RESVO。尿中のストレス指標バイオピリンの検査でメンタル不調を予防する事業と、免疫障害性統合失調症の検査薬研究",
     "prefecture": "島根県",
     "foundedYear": 2015,
@@ -113160,9 +113190,10 @@
     "name": "株式会社アグリス",
     "hp": "https://www.aglis.co.jp/",
     "categories": [
+      "medical-materials",
       "medical-device"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "医療資材・SPD・医療機器",
     "description": "福岡・八女の医療用品・農業資材メーカー。人工透析で使う消毒製品などの医療用品を製造",
     "prefecture": "福岡県",
     "foundedYear": 1990,
@@ -113365,9 +113396,10 @@
     "name": "株式会社イノフィス",
     "hp": "https://innophys.jp/",
     "categories": [
+      "nursing",
       "medical-device"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "介護・医療機器",
     "description": "東京理科大学発。人工筋肉で腰の負担を減らす装着型アシストスーツ「マッスルスーツ」を介護・物流・農業などに販売",
     "prefecture": "東京都",
     "foundedYear": 2013,
@@ -114198,9 +114230,10 @@
     "name": "株式会社ジェイタス",
     "hp": "",
     "categories": [
+      "simple-inspection",
       "medical-device"
     ],
-    "categoryLabel": "医療機器",
+    "categoryLabel": "簡易検査・医療機器",
     "description": "約8分で遺伝子検査を終える高速遺伝子検査チップ・装置を開発したベンチャー（杏林製薬が買収）",
     "prefecture": "東京都",
     "foundedYear": 2015,
@@ -114266,9 +114299,10 @@
     "name": "株式会社スタージェン",
     "hp": "https://stagen.co.jp/",
     "categories": [
-      "simple-inspection"
+      "medical-data-analytics",
+      "pharma"
     ],
-    "categoryLabel": "簡易検査",
+    "categoryLabel": "医療データ分析・製薬・創薬",
     "description": "医学・医療・医薬品分野のゲノム情報解析と統計解析で、遺伝子研究や創薬を支援するバイオインフォマティクス会社",
     "prefecture": "東京都",
     "foundedYear": 1999,
@@ -114304,9 +114338,10 @@
     "name": "株式会社スペクトラテック",
     "hp": "",
     "categories": [
-      "medical-image"
+      "medical-device",
+      "diagnostic-support"
     ],
-    "categoryLabel": "医療画像",
+    "categoryLabel": "医療機器・診断支援",
     "description": "近赤外光で脳血流の変化を測る光イメージング脳機能測定装置（fNIRS「Spectratech OEG」）を開発・販売",
     "prefecture": "東京都",
     "foundedYear": 2001,
@@ -114601,9 +114636,10 @@
     "name": "株式会社デジタルスタンダード",
     "hp": "https://digital-standard.com/",
     "categories": [
+      "fitness",
       "nursing"
     ],
-    "categoryLabel": "介護",
+    "categoryLabel": "フィットネス・介護",
     "description": "スマホだけで体力・運動能力を測る評価アプリ「Quality」「SENIOR Quality」を運動指導・介護向けに開発",
     "prefecture": "大阪府",
     "foundedYear": 2012,
@@ -115310,9 +115346,10 @@
     "name": "ユナイテッド・ヘルスコミュニケーション株式会社",
     "hp": "https://www.uhc.jp/",
     "categories": [
+      "mental-health",
       "health-corporate-management"
     ],
-    "categoryLabel": "健康経営",
+    "categoryLabel": "メンタルヘルス・健康経営",
     "description": "行動科学を使った職場のメンタルヘルス支援パッケージ「Wity」を、外国人従業員にも多言語で提供",
     "prefecture": "東京都",
     "foundedYear": 2013,
@@ -117772,9 +117809,10 @@
     "name": "株式会社ママクオリア",
     "hp": "https://mamaqualia.com/",
     "categories": [
+      "mental-health",
       "femtech"
     ],
-    "categoryLabel": "フェムテック",
+    "categoryLabel": "メンタルヘルス・フェムテック",
     "description": "産後うつの経験者が創業。子育て中の親のメンタルケアのコミュニティやカウンセリング支援、マーケティング支援を行う",
     "prefecture": "東京都",
     "foundedYear": 2022,
@@ -118601,9 +118639,10 @@
     "name": "株式会社ケアのバトン",
     "hp": "https://www.care-baton.jp/",
     "categories": [
+      "nursing",
       "medical-management-support"
     ],
-    "categoryLabel": "医療経営支援",
+    "categoryLabel": "介護・医療経営支援",
     "description": "介護・福祉・医療に特化した、AIを使う事業承継マッチングサイト「ケアのバトン」を運営",
     "prefecture": "東京都",
     "foundedYear": 2025,
@@ -118679,9 +118718,9 @@
     "name": "株式会社AIHOBS",
     "hp": "https://www.aihobs.com/",
     "categories": [
-      "real-world-data"
+      "medical-dx"
     ],
-    "categoryLabel": "RWD",
+    "categoryLabel": "医療機関DX",
     "description": "HAIPの研究成果を事業化。秘密分散などで医療機関を安全につなぐネットワーク基盤「Digital Trust Grid」を提供",
     "prefecture": "東京都",
     "foundedYear": 2025,
@@ -118788,9 +118827,10 @@
     "name": "iMedy株式会社",
     "hp": "https://imedy.jp/",
     "categories": [
+      "medical-dx",
       "medical-management-support"
     ],
-    "categoryLabel": "医療経営支援",
+    "categoryLabel": "医療機関DX・医療経営支援",
     "description": "病院の施設基準を管理するクラウド「iMedy」を全国の病院に提供",
     "prefecture": "福岡県",
     "foundedYear": 2020,
@@ -118829,10 +118869,10 @@
     "name": "株式会社Medeco",
     "hp": "https://medeco.io/",
     "categories": [
-      "doctor-network",
-      "medical-management-support"
+      "medical-dx",
+      "doctor-network"
     ],
-    "categoryLabel": "医師囲い込み・医療経営支援",
+    "categoryLabel": "医療機関DX・医師囲い込み",
     "description": "医療情報の流通基盤づくりを掲げ、医療者向けの診療補助アプリや医療機器検索、医療特化の新規事業開発支援を行う",
     "prefecture": "東京都",
     "foundedYear": 2018,
@@ -119648,9 +119688,10 @@
     "name": "株式会社ソラセンテス",
     "hp": "https://www.thoracentes.co.jp/",
     "categories": [
-      "medical-image"
+      "medical-device",
+      "surgical-support"
     ],
-    "categoryLabel": "医療画像",
+    "categoryLabel": "医療機器・手術支援",
     "description": "拡張現実（AR）で胸腔ドレナージなどの穿刺を支える医療機器を開発",
     "prefecture": "東京都",
     "foundedYear": 2023,
@@ -119803,9 +119844,10 @@
     "name": "バイオソノ株式会社",
     "hp": "https://biosono.jp/",
     "categories": [
-      "medical-data-analytics"
+      "diagnostic-support",
+      "nursing"
     ],
-    "categoryLabel": "医療データ分析",
+    "categoryLabel": "診断支援・介護",
     "description": "体が出す音を音響AIで解析し、誤嚥の原因となる喉の残留物やCOPDなどの状態変化を可視化する製品を開発",
     "prefecture": "宮城県",
     "foundedYear": 2022,
@@ -119837,9 +119879,11 @@
     "name": "FrontAct株式会社",
     "hp": "https://frontact-gl.com/ja/",
     "categories": [
+      "medical-device",
+      "health-corporate-management",
       "nursing"
     ],
-    "categoryLabel": "介護",
+    "categoryLabel": "医療機器・健康経営・介護",
     "description": "サワイグループのデジタルヘルス会社。メンタルレジリエンスとアクティブエイジングを軸に治療用アプリ等を開発",
     "prefecture": "東京都",
     "foundedYear": 2024,
@@ -119870,7 +119914,9 @@
       "kind": "header",
       "source": "https://frontact-gl.com/-/img/logo1.svg",
       "checkedAt": "2026-11"
-    }
+    },
+    "categoryLocked": true,
+    "categoryNote": "サワイグループのデジタルヘルス会社。手指リハビリの医療機器、企業向けメンタルヘルス、高齢者の活動量計の事業がある"
   },
   {
     "id": "9011001150329",
@@ -119918,9 +119964,10 @@
     "name": "AI Dock株式会社",
     "hp": "https://ai-dock.ai/",
     "categories": [
+      "simple-inspection",
       "medical-image"
     ],
-    "categoryLabel": "医療画像",
+    "categoryLabel": "簡易検査・医療画像",
     "description": "全身スキャンとAIで健康状態をまとめて示す予防医療サービス「AI Dock」を提供",
     "prefecture": "東京都",
     "foundedYear": 2025,
