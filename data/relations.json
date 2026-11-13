@@ -3274,8 +3274,8 @@
    "category": "pharmacy-dx"
   },
   {
-   "id": "ext:akiliinteractive",
-   "name": "Akili Interactive"
+   "id": "ext:akiliinteractivelabs,inc.",
+   "name": "Akili Interactive Labs, Inc."
   },
   {
    "id": "ext:帝人ファーマ",
@@ -3468,10 +3468,6 @@
   {
    "id": "ext:clicktherapeutics,inc.",
    "name": "Click Therapeutics, Inc."
-  },
-  {
-   "id": "ext:akiliinteractivelabs,inc.",
-   "name": "Akili Interactive Labs, Inc."
   },
   {
    "id": "ext:日医工",
@@ -5517,11 +5513,15 @@
   },
   {
    "from": "9120001077430",
-   "to": "ext:akiliinteractive",
+   "to": "ext:akiliinteractivelabs,inc.",
    "type": "partnership",
-   "date": "2019",
-   "note": "2025年2月に国内で製造販売承認、2026年6月に発売",
-   "sources": []
+   "date": "2019-03",
+   "note": "日本・台湾での開発・販売権を取得。2025年2月に国内で製造販売承認、2026年6月に「ENDEAVORRIDE」として発売。小児ADHDの治療用アプリ",
+   "sources": [
+    "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2019/1903072.pdf",
+    "https://www.shionogi.com/jp/ja/news/2025/02/20250218.html",
+    "https://www.shionogi.com/jp/ja/news/2026/06/20260605.html"
+   ]
   },
   {
    "from": "3120001077477",
@@ -5552,7 +5552,8 @@
    "note": "一時金・マイルストン総額最大47億円の国内独占販売契約。アプリは2023年2月承認、2026年6月保険適用。2026年8月26日に両社で契約終了に合意。",
    "sources": [
     "https://www2.jpx.co.jp/disc/45070/140120211227561844.pdf",
-    "https://www.shionogi.com/jp/ja/news/2026/08/20260826_1.html"
+    "https://www.shionogi.com/jp/ja/news/2026/08/20260826_1.html",
+    "https://www.shionogi.com/jp/ja/news/2021/12/211227_2.html"
    ]
   },
   {
@@ -5928,7 +5929,7 @@
    "to": "4010401082351",
    "type": "investment",
    "date": "2021-04",
-   "note": "2024年2月に資本・業務提携の見直しで合意し、CLINICSの共同運営を2024年12月末で終了した。dアカウント認証・dポイントでの連携は続ける。",
+   "note": "2024年2月に資本・業務提携の見直しで合意し、CLINICSの共同運営を2024年12月末で終了した。dアカウント認証・dポイントでの連携は続ける。CLINICSで資本業務提携",
    "sources": [
     "https://www.docomo.ne.jp/info/news_release/2021/04/26_00.html",
     "https://www.docomo.ne.jp/info/news_release/2024/02/14_00.html"
@@ -6004,10 +6005,11 @@
    "to": "3010001128547",
    "type": "partnership",
    "date": "2021-04",
-   "note": "自治体・健保・企業向けに、セキュアなクラウド基盤上でオンライン診療や服薬指導、PHRサービスを提供する提携。",
+   "note": "自治体・健保・企業向けに、セキュアなクラウド基盤上でオンライン診療や服薬指導、PHRサービスを提供する提携。YaDocで業務提携",
    "sources": [
     "https://prtimes.jp/main/html/rd/p/000000065.000042324.html",
-    "https://prtimes.jp/main/html/rd/p/000000008.000064327.html"
+    "https://prtimes.jp/main/html/rd/p/000000008.000064327.html",
+    "https://www.hitachi-systems.com/news/2021/20210426.html"
    ]
   },
   {
@@ -6378,10 +6380,11 @@
    "to": "5011101082335",
    "type": "investment",
    "date": "2023-12",
-   "note": "口腔ケア領域の新規ソリューションに向けAIを使った共同開発を始め、2024年11月から介護・看護事業者向け口腔状態評価アプリ「クチミル」の実証実験を行った。",
+   "note": "口腔ケア領域の新規ソリューションに向けAIを使った共同開発を始め、2024年11月から介護・看護事業者向け口腔状態評価アプリ「クチミル」の実証実験を行った。資本業務提携",
    "sources": [
     "https://prtimes.jp/main/html/rd/p/000000159.000058947.html",
-    "https://prtimes.jp/main/html/rd/p/000000190.000058947.html"
+    "https://prtimes.jp/main/html/rd/p/000000190.000058947.html",
+    "https://www.asahigroup-japan.co.jp/news/2023/1206.html"
    ]
   },
   {
@@ -6626,18 +6629,6 @@
     "https://www.otsuka.co.jp/company/newsreleases/2019/20190104_1.html",
     "https://www.otsuka.co.jp/company/newsreleases/2024/20240814_1.html",
     "https://www.otsuka.co.jp/company/newsreleases/2025/20250617_1.html"
-   ]
-  },
-  {
-   "from": "9120001077430",
-   "to": "ext:akiliinteractivelabs,inc.",
-   "type": "partnership",
-   "date": "2019-03",
-   "note": "日本・台湾での開発・販売権を取得。2025年2月に国内で製造販売承認、2026年6月に「ENDEAVORRIDE」として発売。",
-   "sources": [
-    "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2019/1903072.pdf",
-    "https://www.shionogi.com/jp/ja/news/2025/02/20250218.html",
-    "https://www.shionogi.com/jp/ja/news/2026/06/20260605.html"
    ]
   },
   {
@@ -6969,10 +6960,11 @@
    "to": "7011101090575",
    "type": "partnership",
    "date": "2022-03",
-   "note": "専門医の知見を活かす取り組みで提携。2023年4月に連携を強化し、2024年1月に膿疱性乾癬で協業を開始。",
+   "note": "専門医の知見を活かす取り組みで提携。2023年4月に連携を強化し、2024年1月に膿疱性乾癬で協業を開始。E-コンサルで業務提携",
    "sources": [
     "https://prtimes.jp/main/html/rd/p/000000007.000060898.html",
-    "https://prtimes.jp/main/html/rd/p/000000052.000060898.html"
+    "https://prtimes.jp/main/html/rd/p/000000052.000060898.html",
+    "https://medii.jp/news/20220318"
    ]
   },
   {
@@ -7000,9 +6992,10 @@
    "to": "4140001030292",
    "type": "partnership",
    "date": "2022-04",
-   "note": "女性の健康情報アプリ「ルナルナ」で希少疾患の疾患啓発の連携を開始。",
+   "note": "女性の健康情報アプリ「ルナルナ」で希少疾患の疾患啓発の連携を開始。ルナルナで業務提携",
    "sources": [
-    "https://prtimes.jp/main/html/rd/p/000001069.000002943.html"
+    "https://prtimes.jp/main/html/rd/p/000001069.000002943.html",
+    "https://www.takeda.com/jp/newsroom/local-newsreleases/2022/mti/"
    ]
   },
   {
@@ -7133,9 +7126,10 @@
    "to": "7011101090575",
    "type": "partnership",
    "date": "2023-03",
-   "note": "医師の心不全診療をサポートし、専門医への紹介の早期化・最適化に取り組む連携を開始。",
+   "note": "医師の心不全診療をサポートし、専門医への紹介の早期化・最適化に取り組む連携を開始。E-コンサルで業務提携",
    "sources": [
-    "https://prtimes.jp/main/html/rd/p/000000026.000060898.html"
+    "https://prtimes.jp/main/html/rd/p/000000026.000060898.html",
+    "https://medii.jp/news/20230314"
    ]
   },
   {
@@ -7159,12 +7153,14 @@
    ]
   },
   {
-   "from": "9120001077430",
-   "to": "1011001072836",
+   "from": "1011001072836",
+   "to": "9120001077430",
    "type": "partnership",
    "date": "2023-06",
-   "note": "医療ICTのアルムと感染症のトータルケア構築を目指す業務提携契約を締結。",
+   "note": "アルムと塩野義製薬が感染症トータルケア構築で業務提携",
    "sources": [
+    "https://www.shionogi.com/jp/ja/news/2023/6/20230619-2.html",
+    "https://www.nikkei.com/article/DGXZRSP657539_Z10C23A6000000/",
     "https://prtimes.jp/main/html/rd/p/000000075.000044577.html"
    ]
   },
@@ -7194,7 +7190,7 @@
    "to": "5011101082335",
    "type": "partnership",
    "date": "2023-11",
-   "note": "咽頭画像を使うAI医療機器「nodoca」のプロモーション協力契約。",
+   "note": "咽頭画像を使うAI医療機器「nodoca」のプロモーション協力契約。nodocaで業務提携",
    "sources": [
     "https://prtimes.jp/main/html/rd/p/000000038.000035813.html"
    ]
@@ -7218,7 +7214,8 @@
    "sources": [
     "https://prtimes.jp/main/html/rd/p/000000566.000006776.html",
     "https://prtimes.jp/main/html/rd/p/000000638.000006776.html",
-    "https://prtimes.jp/main/html/rd/p/000000664.000006776.html"
+    "https://prtimes.jp/main/html/rd/p/000000664.000006776.html",
+    "https://www.shionogi.com/jp/ja/news/2024/02/20240214.html"
    ]
   },
   {
@@ -7412,7 +7409,8 @@
    "date": "2025-08",
    "note": "日清医療食品を含む3社で、高齢者の低栄養と認知機能低下リスクの軽減を目指す連携を開始。",
    "sources": [
-    "https://prtimes.jp/main/html/rd/p/000000121.000027102.html"
+    "https://prtimes.jp/main/html/rd/p/000000121.000027102.html",
+    "https://rehabforjapan.com/news/202508251047/"
    ]
   },
   {
@@ -7885,16 +7883,6 @@
    ]
   },
   {
-   "from": "4010401082351",
-   "to": "ext:nttドコモ",
-   "type": "investment",
-   "date": "2021-04",
-   "note": "メドレーがNTTドコモと資本業務提携（第三者割当）",
-   "sources": [
-    "https://www.docomo.ne.jp/info/news_release/2021/04/26_00.html"
-   ]
-  },
-  {
    "from": "1490001008208",
    "to": "9011101031552",
    "type": "partnership",
@@ -7903,16 +7891,6 @@
    "sources": [
     "https://news.kddi.com/kddi/corporate/newsrelease/2021/04/28/5086.html",
     "https://micin.jp/news/4624/"
-   ]
-  },
-  {
-   "from": "3010001128547",
-   "to": "ext:日立システムズ",
-   "type": "partnership",
-   "date": "2021-04",
-   "note": "インテグリティ・ヘルスケアと日立システムズが医薬・ヘルスケア分野で提携",
-   "sources": [
-    "https://www.hitachi-systems.com/news/2021/20210426.html"
    ]
   },
   {
@@ -8110,26 +8088,6 @@
    ]
   },
   {
-   "from": "7010701034132",
-   "to": "ext:ファイザー",
-   "type": "partnership",
-   "date": "2021-10",
-   "note": "Ubieとファイザーが過活動膀胱の受診支援で協業",
-   "sources": [
-    "https://prtimes.jp/main/html/rd/p/000000024.000048083.html"
-   ]
-  },
-  {
-   "from": "7010701034132",
-   "to": "ext:バイエル薬品",
-   "type": "partnership",
-   "date": "2021-11",
-   "note": "Ubieとバイエル薬品が子宮内膜症など婦人科疾患の受診支援で協業",
-   "sources": [
-    "https://prtimes.jp/main/html/rd/p/000000026.000048083.html"
-   ]
-  },
-  {
    "from": "7010001078061",
    "to": "7011001036950",
    "type": "investment",
@@ -8197,16 +8155,6 @@
    "note": "ロイヤルフィリップスとインテグリティ・ヘルスケアが在宅・遠隔医療で提携",
    "sources": [
     "https://prtimes.jp/main/html/rd/p/000000140.000019698.html"
-   ]
-  },
-  {
-   "from": "7010003022232",
-   "to": "9120001077430",
-   "type": "partnership",
-   "date": "2021-12",
-   "note": "サスメドが不眠症治療用アプリの国内販売で塩野義製薬と提携",
-   "sources": [
-    "https://www.shionogi.com/jp/ja/news/2021/12/211227_2.html"
    ]
   },
   {
@@ -8305,16 +8253,6 @@
    ]
   },
   {
-   "from": "7011101090575",
-   "to": "ext:日本ベーリンガーインゲルハイム",
-   "type": "partnership",
-   "date": "2022-03",
-   "note": "遠隔専門医相談のMediiが日本ベーリンガーインゲルハイムと提携",
-   "sources": [
-    "https://medii.jp/news/20220318"
-   ]
-  },
-  {
    "from": "7120001077358",
    "to": "4010401133534",
    "type": "investment",
@@ -8333,17 +8271,9 @@
    "note": "MDVとDeNAがヘルスケア事業での医療データ利活用に関する協業検討に合意",
    "sources": [
     "https://www.mdv.co.jp/press/2022/detail_1734.html",
-    "https://dena.com/jp/news/4848/"
-   ]
-  },
-  {
-   "from": "4140001030292",
-   "to": "2120001077461",
-   "type": "partnership",
-   "date": "2022-04",
-   "note": "エムティーアイのルナルナと武田薬品がフォン・ヴィレブランド病の疾患啓発で連携",
-   "sources": [
-    "https://www.takeda.com/jp/newsroom/local-newsreleases/2022/mti/"
+    "https://dena.com/jp/news/4848/",
+    "https://dena.com/jp/news/4858/",
+    "https://xtech.nikkei.com/atcl/nxt/news/18/12808/"
    ]
   },
   {
@@ -8385,17 +8315,6 @@
    "sources": [
     "https://www.denso.com/jp/ja/newsroom/news/2022/20220401-01/",
     "https://www.opexpark.co.jp/news/322/"
-   ]
-  },
-  {
-   "from": "4011001032721",
-   "to": "7010001087640",
-   "type": "partnership",
-   "date": "2022-05",
-   "note": "DeNAとMDVが業務提携し、DeSCヘルスケアの保険者データ等を連携",
-   "sources": [
-    "https://dena.com/jp/news/4858/",
-    "https://xtech.nikkei.com/atcl/nxt/news/18/12808/"
    ]
   },
   {
@@ -8814,16 +8733,6 @@
    ]
   },
   {
-   "from": "7011101090575",
-   "to": "ext:ファイザー",
-   "type": "partnership",
-   "date": "2023-03",
-   "note": "Mediiとファイザーが医師の心不全診療サポートで協業",
-   "sources": [
-    "https://medii.jp/news/20230314"
-   ]
-  },
-  {
    "from": "1490001008208",
    "to": "ext:ベルシステム24",
    "type": "partnership",
@@ -8999,17 +8908,6 @@
    "note": "PHCがアジアの販売・サービス子会社SciMedの株式を追加取得",
    "sources": [
     "https://www.phchd.com/jp/news/2023/0615"
-   ]
-  },
-  {
-   "from": "1011001072836",
-   "to": "9120001077430",
-   "type": "partnership",
-   "date": "2023-06",
-   "note": "アルムと塩野義製薬が感染症トータルケア構築で業務提携",
-   "sources": [
-    "https://www.shionogi.com/jp/ja/news/2023/6/20230619-2.html",
-    "https://www.nikkei.com/article/DGXZRSP657539_Z10C23A6000000/"
    ]
   },
   {
@@ -9289,16 +9187,6 @@
    ]
   },
   {
-   "from": "5011101082335",
-   "to": "9120001077430",
-   "type": "partnership",
-   "date": "2023-11",
-   "note": "アイリスと塩野義製薬がAI咽頭内視鏡「nodoca」の販促で協力契約",
-   "sources": [
-    "https://prtimes.jp/main/html/rd/p/000000038.000035813.html"
-   ]
-  },
-  {
    "from": "6010403010531",
    "to": "ext:三菱ufj信託銀行",
    "type": "partnership",
@@ -9351,23 +9239,14 @@
    ]
   },
   {
-   "from": "5011101082335",
-   "to": "ext:アサヒグループジャパン",
-   "type": "investment",
-   "date": "2023-12",
-   "note": "アイリスとアサヒグループジャパンが口腔ケア・摂食嚥下領域で資本業務提携",
-   "sources": [
-    "https://www.asahigroup-japan.co.jp/news/2023/1206.html"
-   ]
-  },
-  {
    "from": "6011101071774",
    "to": "5010001034768",
    "type": "investment",
    "date": "2023-12",
    "note": "キリンHDがCVC経由でサイキンソーに出資し、腸内細菌事業で業務提携",
    "sources": [
-    "https://www.kirinholdings.com/jp/newsroom/release/2023/1219_01.html"
+    "https://www.kirinholdings.com/jp/newsroom/release/2023/1219_01.html",
+    "https://prtimes.jp/main/html/rd/p/000000074.000015042.html"
    ]
   },
   {
@@ -9449,16 +9328,6 @@
    "note": "シスメックスと日立ハイテクがCEシーケンサー基盤の遺伝子検査システム共同開発で合意",
    "sources": [
     "https://www.hitachi-hightech.com/jp/ja/news/nr20240207-3.html"
-   ]
-  },
-  {
-   "from": "1010401051219",
-   "to": "9120001077430",
-   "type": "partnership",
-   "date": "2024-02",
-   "note": "FRONTEOと塩野義製薬が認知症・うつ病の診断支援AIプログラム事業で提携",
-   "sources": [
-    "https://www.shionogi.com/jp/ja/news/2024/02/20240214.html"
    ]
   },
   {
@@ -9674,16 +9543,6 @@
    "note": "JMDCとMeDiCUが救急・集中治療DB「OneICU」のデータ利活用で業務提携",
    "sources": [
     "https://www.jmdc.co.jp/news/news2025/news20250807/"
-   ]
-  },
-  {
-   "from": "6010401125397",
-   "to": "6010001000001",
-   "type": "partnership",
-   "date": "2025-08",
-   "note": "Rehab・エーザイ・日清医療食品が高齢者の低栄養と認知機能低下リスク軽減で連携",
-   "sources": [
-    "https://rehabforjapan.com/news/202508251047/"
    ]
   },
   {
@@ -12548,16 +12407,6 @@
   },
   {
    "from": "5010001034768",
-   "to": "6011101071774",
-   "type": "investment",
-   "date": "2023-12",
-   "note": "DB既存：投資家「KIRIN HEALTH INNOVATION FUND」(i-4i5wew) 名義で登録済み。親会社キリンHDのページに紐づけるための行",
-   "sources": [
-    "https://prtimes.jp/main/html/rd/p/000000074.000015042.html"
-   ]
-  },
-  {
-   "from": "5010001034768",
    "to": "9010901035655",
    "type": "investment",
    "date": "2024-08",
@@ -13089,7 +12938,7 @@
    "to": "ext:unico",
    "type": "parent",
    "date": "2023-04",
-   "note": "株式会社ウェルモ（DB 8290001062747）の児童発達支援・放課後等デイサービス事業「unico」（福岡県内11拠点ほか）を会社分割で独立させた株式会社unicoの全株式を、2023-04-01にLITALICOが取得予定と発表（資本業務提携）。。議決権 100%",
+   "note": "株式会社ウェルモ（DB 8290001062747）の児童発達支援・放課後等デイサービス事業「unico」（福岡県内11拠点ほか）を会社分割で独立させた株式会社unicoの全株式を、2023-04-01にLITALICOが取得予定と発表（資本業務提携）。議決権 100%",
    "sources": [
     "https://prtimes.jp/main/html/rd/p/000000165.000025994.html"
    ]
