@@ -78,6 +78,8 @@ export type Company = {
   updatedAt?: string;
 };
 
+/** 出典：url・資料の発表日・種類（公式・SEC・規制当局・取引所・報道・Wikipedia・企業データベース） */
+export type OverseasSource = { url: string; published?: string; kind: 'official' | 'sec' | 'regulator' | 'exchange' | 'news' | 'wikipedia' | 'database' };
 export type Overseas = {
   id: string;
   name: string;
@@ -104,7 +106,15 @@ export type Overseas = {
   closedAt?: string;
   activity?: '事業継続' | '事業終了' | '不明';
   delistedAt?: string;
-  events?: { date: string; text: string }[];
+  /** 出来事。date は出来事の日、source はその出来事を書いた資料（published は資料の発表日） */
+  events?: { date: string; type?: string; text: string; source?: OverseasSource }[];
+  /** 記載ごとの裏づけ（創業・上場/買収/閉鎖・いまの提供状況・数字）。verified が false の記載は出さない */
+  claims?: {
+    founding?: { verified: boolean; sources: OverseasSource[] };
+    capital?: { verified: boolean; sources: OverseasSource[] };
+    activity?: { verified: boolean; checkedAt: string; sources: OverseasSource[] };
+    figures?: { text: string; verified: boolean; source?: OverseasSource }[];
+  };
   sources?: string[];
   confidence?: 'high' | 'medium' | 'low';
   /** 一覧・検索に出さない理由（特定できない・ヘルスケアの外・重複） */

@@ -1155,3 +1155,5 @@ ul.fh-ev .t small { color: var(--muted); margin-left: 4px; }
 .reason-info .basis { margin-right: 0; font-weight: 500; }
 .after-end { margin: 4px 0; font-size: 13px; }
 .after-end b { display: inline-block; font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; margin-right: 6px; font-weight: 500; }
+.ov-src { display: inline-block; margin-left: 4px; font-size: 10.5px; line-height: 1; padding: 2px 4px; border: 1px solid var(--line); border-radius: 3px; color: var(--muted); text-decoration: none; vertical-align: 1px; }
+.ov-src:hover { color: var(--navy); border-color: var(--navy); }
