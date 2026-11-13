@@ -82,10 +82,26 @@ export type Overseas = {
   region: 'US' | 'EU' | 'ASIA';
   foundedYear: number | null;
   hp: string;
+  /** 昔の調査メモの値（確かめていない）。サイトには出さない */
   exit: string;
   founders: string[];
+  /** 昔の作業メモ。サイトには出さない */
   note: string;
   areas: string[];
+  /** ここから下は一次情報で確かめた値。checkedAt があるものだけサイトに出す */
+  checkedAt?: string;
+  description?: string;
+  /** 上場・資本の状態（いまの事業が続いているかは activity で別に持つ） */
+  listing?: '未上場' | '上場' | '上場廃止' | '買収' | '閉鎖';
+  listedAt?: string;
+  market?: string;
+  ticker?: string;
+  acquiredBy?: string;
+  acquiredAt?: string;
+  closedAt?: string;
+  activity?: '事業継続' | '事業終了' | '不明';
+  events?: { date: string; text: string }[];
+  sources?: string[];
 };
 
 export type PersonRole = { companyId: string; companyName: string; title: string };

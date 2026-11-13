@@ -10,6 +10,7 @@ import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
 import { isStopped, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
 import { comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
+import { reconcileBusinesses } from '@/lib/profile';
 import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
 import { EarningsBars } from '@/components/EarningsBars';
 
@@ -26,6 +27,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const c = getCompany(id);
   if (!c) notFound();
   const services = servicesOf(c.id);
+  // 外形情報の事業一覧は、事業データと同じ開始時期で出す
+  const profBiz = reconcileBusinesses(c.profile?.businesses ?? [], services);
   const people = peopleOf(c.id);
   const news = newsOf(c).slice(0, 10);
   const reports = getEarnings()[c.id] ?? [];
@@ -116,7 +119,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
     if (u.includes('nenkin.go.jp/do/search_section')) return '日本年金機構 適用事業所検索';
     return u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 48);
   };
-  const ym = (s: string) => s.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年');
+  const ym = (s: string) => s.replace(/^(\d{4})-(\d{2})(-\d{2})?$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年');
   const personLink = (n: string) => { const p = people.find((x) => x.name === n); return p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n; };
   const articles = getArticles().filter((a) => a.companies?.some((n) => findCompanyByName(n)?.id === c.id));
 
@@ -155,7 +158,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           <h3><span>モノ</span>事業</h3>
           <dl>
             <dt>主な事業</dt>
-            <dd>{(c.profile?.businesses ?? []).slice(0, 3).map((b) => <span key={b.name} className="hmk-biz">{b.name.replace(/（.*?）/g, '')}{b.since ? <small>{b.since.slice(0, 4)}年〜</small> : null}</span>)}{!c.profile?.businesses?.length && (c.products?.slice(0, 3).join('、') || '—')}</dd>
+            <dd>{profBiz.slice(0, 3).map((b) => <span key={b.name} className="hmk-biz">{b.name.replace(/（.*?）/g, '')}{b.since ? <small>{b.since.slice(0, 4)}年〜</small> : null}</span>)}{!c.profile?.businesses?.length && (c.products?.slice(0, 3).join('、') || '—')}</dd>
             <dt>事業DB</dt><dd>{services.length ? `${services.length}件` : '—'}{stoppedCount ? <small>うち止まった事業 {stoppedCount}件</small> : null}</dd>
             <dt>資本提携・M&amp;A</dt><dd>{dealRows.length ? <a href="#deals">{dealRows.length}件</a> : '—'}</dd>
           </dl>
@@ -192,13 +195,13 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           {c.profile && (
             <section className="panel">
               <h3>外形情報</h3>
-              {c.profile.businesses.length > 0 && (
+              {profBiz.length > 0 && (
                 <table className="profile-table">
                   <thead><tr><th>事業</th><th>開始</th><th>年数</th></tr></thead>
                   <tbody>
-                    {c.profile.businesses.map((b) => (
+                    {profBiz.map((b) => (
                       <tr key={b.name}>
-                        <td>{b.url ? <a href={b.url} target="_blank" rel="noreferrer">{b.name}</a> : b.name}{b.note && <small>{b.note}</small>}</td>
+                        <td>{b.serviceId ? <Link href={`/services/${b.serviceId}/`}>{b.name}</Link> : b.url ? <a href={b.url} target="_blank" rel="noreferrer">{b.name}</a> : b.name}{b.note && <small>{b.note}</small>}</td>
                         <td className="nw">{b.since ? ym(b.since) : '—'}</td>
                         <td className="nw">{b.since ? `${Math.max(0, Number(c.profile!.checkedAt.slice(0, 4)) - Number(b.since.slice(0, 4)))}年` : ''}</td>
                       </tr>
@@ -403,7 +406,9 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               {c.prefecture && (<><dt>所在地</dt><dd>{c.prefecture}</dd></>)}
               {c.address && (<><dt>本社住所</dt><dd>{c.address}</dd></>)}
               {c.employees && (<><dt>従業員数</dt><dd>{c.employeesAsOf ? c.employees : `${c.employees}人`}{empAsOf && <span className="small muted">（{empAsOf}時点）</span>}</dd></>)}
-              {c.totalFunding && (<><dt>資金調達</dt><dd>{c.totalFunding}</dd></>)}
+              {/* 調達額は上の概要と同じ元データ（会社発表の累計があればそれ）から出す */}
+              {fs?.total?.kind === '会社発表の累計' ? (<><dt>資金調達</dt><dd>累計 {money(fs.total.amount)}<span className="small muted">（{fs.total.asOf ? `${ymJa(fs.total.asOf)}時点の` : ''}会社発表）</span></dd></>)
+                : c.totalFunding && (<><dt>資金調達</dt><dd>{c.totalFunding}</dd></>)}
               {c.founders.length > 0 && (<><dt>創業者</dt><dd>{c.founders.map((n, i) => { const p = people.find((x) => x.name === n); return (<span key={n}>{i > 0 && '、'}{p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n}</span>); })}</dd></>)}
               {c.representatives.length > 0 && (<><dt>代表者</dt><dd>{c.representatives.map((n, i) => <span key={n}>{i > 0 && '、'}{personLink(n)}</span>)}
                 {c.formerRepresentatives?.length ? (

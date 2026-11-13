@@ -94,7 +94,7 @@ export default function Home() {
           <div className="hx-side">
             <div className="stat4">
               <Link href="/companies/"><span className="l">{Ico.co}国内企業</span><span className="v">{companies.length}<small>社</small></span><span className="go">企業データベース →</span></Link>
-              <Link href="/services/"><span className="l">{Ico.sv}事業・海外</span><span className="v">{services.length + getOverseas().length}<small>件</small></span><span className="go">事業データベース →</span></Link>
+              <Link href="/services/"><span className="l">{Ico.sv}国内の事業</span><span className="v">{services.length}<small>件</small></span><span className="go">事業データベース →</span></Link>
               <Link href="/talents/"><span className="l">{Ico.pp}人物</span><span className="v">{people.length}<small>名</small></span><span className="go">人物データベース →</span></Link>
               <Link href="/news/"><span className="l">{Ico.nw}ニュース</span><span className="v">{news.length}<small>本</small></span><span className="go">毎朝更新 →</span></Link>
             </div>
@@ -203,7 +203,7 @@ export default function Home() {
             <div className="data-card">
               {BigIcon.sv}
               <h3>事業データベース</h3>
-              <div className="big">{services.length + getOverseas().length}<small>件</small><span>事業 {services.length}・海外企業 {getOverseas().length}</span></div>
+              <div className="big">{services.length}<small>件</small><span>国内の事業・サービス（別に海外企業 {getOverseas().length}社）</span></div>
               <p>事業・サービスが、いつ始まり、どう進み、止まったならなぜ止まったのかを記録しています。</p>
               <div className="idx">開始・経過・終了の時期、止まった理由、引き継ぎ先</div>
               <Link href="/services/" className="go arrow">事業を探す</Link>
