@@ -36,7 +36,7 @@ const add = (list, name, items, fmt = label) => list.push({ name, items: items.m
 // 直すべき
 add(must, '説明文に作業メモが残っている', services.filter((s) => MEMO.test(s.description ?? '')));
 add(must, '「提供中」なのに終了日がある', services.filter((s) => s.status === '提供中' && s.endedAt));
-add(must, '止まった事業なのに止まった理由が空', services.filter((s) => STOPPED.has(s.status) && !s.endReasons?.length));
+add(must, '止まった事業なのに止まった理由が空', services.filter((s) => STOPPED.has(s.status) && !s.suspension?.temporary && !s.endReasons?.length));
 add(must, '開始が終了より後', services.filter((s) => s.startedAt && s.endedAt && s.startedAt.slice(0, 7) > s.endedAt.slice(0, 7)));
 add(must, '「提供中」なのに開始が未来の日付', services.filter((s) => s.status === '提供中' && s.startedAt && s.startedAt > today));
 add(must, 'DB にない会社を指している', services.filter((s) => s.companyId && !companyIds.has(s.companyId)));
@@ -49,6 +49,10 @@ add(must, '節目の日付の形がおかしい', services.filter((s) => (s.mile
 const badGroup = (g) => !g.sourceLabel || !Array.isArray(g.members) || g.members.some((m) => !m.name || !m.relation || (m.voting != null && !(m.voting >= 0 && m.voting <= 100)) || (m.since && !/^\d{4}(-\d{2})?$/.test(m.since))) || (g.former ?? []).some((m) => !m.name || !m.how || (m.end && !/^\d{4}(-\d{2})?$/.test(m.end)));
 add(must, 'グループ会社の形がおかしい', companies.filter((c) => c.group && badGroup(c.group)), (c) => `${c.id} ${c.name}`);
 add(must, '医療機器の情報と「医療機器ではない」が両方ある', services.filter((s) => s.device && s.nonDevice));
+// 終了予定と一時停止：未来の終了日は plannedEnd に入れ、status は「提供中」のまま。日付が来ても自動で変えない
+add(must, '終了日が未来なのに止まった事業になっている（plannedEnd に入れて「提供中」に）', services.filter((s) => STOPPED.has(s.status) && s.endedAt && s.endedAt.slice(0, 7) > today.slice(0, 7)));
+add(must, '終了予定の形がおかしい（kind・date が必要、status は「提供中」）', services.filter((s) => s.plannedEnd && (!['終了', '譲渡', '統合'].includes(s.plannedEnd.kind) || !/^\d{4}-\d{2}(-\d{2})?$/.test(s.plannedEnd.date ?? '') || (!s.plannedEnd.confirmedAt && s.status !== '提供中'))));
+add(must, '一時停止なのに status が「休止」でない', services.filter((s) => s.suspension?.temporary && !s.suspension.resumedAt && s.status !== '休止'));
 
 // 確かめたい（デジタルヘルスの中心を先に並べる）
 const digitalFirst = (a, b) => Number(adjacent.has(a.type)) - Number(adjacent.has(b.type));
@@ -56,6 +60,7 @@ add(want, '説明文が短い（25字未満）', services.filter((s) => (s.descr
 add(want, '開始時期も提供を確認できた時点も空', services.filter((s) => !s.startedAt && !s.knownSince).sort(digitalFirst));
 add(want, '止まった事業で終了日が空', services.filter((s) => STOPPED.has(s.status) && !s.endedAt).sort(digitalFirst));
 add(want, '止まった理由が unknown', services.filter((s) => STOPPED.has(s.status) && s.endReasons?.includes('unknown')).sort(digitalFirst));
+add(want, '終了予定日を過ぎた（終了したか確かめて confirmedAt と status を入れる）', services.filter((s) => s.plannedEnd && !s.plannedEnd.confirmedAt && s.plannedEnd.date < today.slice(0, s.plannedEnd.date.length)));
 add(want, '状態が「不明」', services.filter((s) => s.status === '不明').sort(digitalFirst));
 add(want, '出典が1つだけ', services.filter((s) => s.sources?.length === 1).sort(digitalFirst));
 // 同じ会社の中で、「」の中身か括弧より前の名前が同じもの

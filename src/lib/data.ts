@@ -94,6 +94,9 @@ export const END_REASONS: Record<string, { label: string; note: string }> = {
   unknown: { label: '理由は非公表', note: '止まった理由は公表されていない' },
 };
 export const STOPPED = ['終了', '譲渡', '統合', '休止'];
+/** 止まった事業か。障害・不正アクセスによる一時停止（suspension.temporary）は入れない */
+export const isStopped = (s: { status: string; suspension?: { temporary?: boolean } }) => STOPPED.includes(s.status) && !s.suspension?.temporary;
+export { statusLabel } from './status';
 export const getPartnerships = () => memo('partnerships', () => read<Partnership[]>('partnerships.json'));
 export const getThemes = () => memo('themes', () => read<Theme[]>('themes.json'));
 /** 事業の種類（カテゴリごと、data/taxonomy.json の並び順） */

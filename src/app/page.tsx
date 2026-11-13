@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {
   categoryName, fmtDate, getArticles, getCategories, getCompanies, getFeaturedCompanies, getNews, getOverseas, getPeople, getServices,
-  episodeHeadline, getMonthly, getUpdates, monthLabel, ytThumb, YT_SUBSCRIBE, END_REASONS, STOPPED, getThemes, servicesInTheme,
+  episodeHeadline, getMonthly, getUpdates, monthLabel, ytThumb, YT_SUBSCRIBE, END_REASONS, isStopped, getThemes, servicesInTheme,
 } from '@/lib/data';
 import { withBase } from '@/lib/base';
 import { SITE_NAME } from '@/lib/site';
@@ -56,7 +56,7 @@ export default function Home() {
     .filter((x) => x.n > 0)
     .sort((a, b) => b.n - a.n);
   const maxN = catStats[0]?.n ?? 1;
-  const stopped = services.filter((s) => STOPPED.includes(s.status));
+  const stopped = services.filter((s) => isStopped(s));
   const reasonStats = Object.entries(END_REASONS)
     .filter(([k]) => k !== 'unknown')
     .map(([k, v]) => ({ k, label: v.label, n: stopped.filter((s) => s.endReasons?.includes(k)).length }))
@@ -173,7 +173,7 @@ export default function Home() {
                 {themeStats.map(({ t, list }) => (
                   <Link key={t.slug} href={`/services/themes/${t.slug}/`} className="theme-card">
                     <b>{t.name}</b>
-                    <span>{list.length}件（止まった事業 {list.filter((x) => STOPPED.includes(x.status)).length}件）</span>
+                    <span>{list.length}件（止まった事業 {list.filter((x) => isStopped(x)).length}件）</span>
                   </Link>
                 ))}
               </div>

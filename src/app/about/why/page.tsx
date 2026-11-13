@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { STOPPED, getCompanies, getPartnerships, getServices } from '@/lib/data';
+import { isStopped, getCompanies, getPartnerships, getServices } from '@/lib/data';
 import { withBase } from '@/lib/base';
 import { PROFILE_SHORT } from '@/content/profile';
 
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function WhyPage() {
   const companies = getCompanies().length;
   const services = getServices();
-  const stopped = services.filter((s) => STOPPED.includes(s.status)).length;
+  const stopped = services.filter((s) => isStopped(s)).length;
   const links = getPartnerships().length;
   return (
     <>

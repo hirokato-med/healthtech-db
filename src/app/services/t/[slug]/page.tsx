@@ -1,7 +1,8 @@
+import { statusLabel } from '@/lib/status';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { END_REASONS, STOPPED, categoryName, getArticles, getBizType, getBizTypes, getThemes, servicesOfType } from '@/lib/data';
+import { END_REASONS, isStopped, categoryName, getArticles, getBizType, getBizTypes, getThemes, servicesOfType } from '@/lib/data';
 import { ym } from '@/lib/ym';
 import { STAGES, StageBadge, stageIndex } from '@/components/StageBadge';
 import { DeviceTag } from '@/components/DeviceInfo';
@@ -35,7 +36,7 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
     .map((s) => {
       const a0 = toY(s.startedAt) ?? (s.startedYear ?? null);
       const approx = a0 === null && !!s.knownSince;
-      return { s, approx, a: a0 ?? toY(s.knownSince), b: STOPPED.includes(s.status) ? ((e) => (e === null ? null : Math.min(NOW, e)))(toY(s.endedAt)) : NOW };
+      return { s, approx, a: a0 ?? toY(s.knownSince), b: isStopped(s) ? ((e) => (e === null ? null : Math.min(NOW, e)))(toY(s.endedAt)) : NOW };
     })
     .sort((x, y) => (x.a ?? 9999) - (y.a ?? 9999));
   const dated = items.filter((x) => x.a !== null);
@@ -45,7 +46,7 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
   const span = NOW - from;
   const pct = (y: number) => `${((Math.max(from, y) - from) / span) * 100}%`;
   const years = Array.from({ length: Math.floor(NOW) - from + 1 }, (_, i) => from + i).filter((y) => y % (span > 20 ? 4 : 2) === 0);
-  const stopped = items.filter((x) => STOPPED.includes(x.s.status));
+  const stopped = items.filter((x) => isStopped(x.s));
   const live = items.filter((x) => x.s.status === '提供中');
   const reasons = Object.entries(END_REASONS)
     .map(([k, r]) => ({ k, label: r.label, n: stopped.filter((x) => (x.s.endReasons ?? []).includes(k)).length }))
@@ -89,7 +90,7 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
               <Link href={`/services/${s.id}/`} className="tc-label">{s.name}<DeviceTag s={s} /><small>{short(s.company)}</small></Link>
               <div className="tc-track">
                 {years.map((y) => <i key={y} className="tc-grid" style={{ left: pct(y) }} />)}
-                <span className={`tc-bar st-${s.status}${approx ? ' approx' : ''}`} style={{ left: pct(a as number), width: `max(6px, calc(${pct(b ?? (a as number) + 0.5)} - ${pct(a as number)}))` }} title={`${approx ? `開始時期は不明（${ym(s.knownSince)}には提供を確認）` : ym(s.startedAt) || s.startedYear + '年'} 〜 ${STOPPED.includes(s.status) ? ym(s.endedAt) + ' ' + s.status : '提供中'}`} />
+                <span className={`tc-bar st-${s.status}${approx ? ' approx' : ''}`} style={{ left: pct(a as number), width: `max(6px, calc(${pct(b ?? (a as number) + 0.5)} - ${pct(a as number)}))` }} title={`${approx ? `開始時期は不明（${ym(s.knownSince)}には提供を確認）` : ym(s.startedAt) || s.startedYear + '年'} 〜 ${isStopped(s) ? ym(s.endedAt) + ' ' + s.status : '提供中'}`} />
               </div>
             </div>
           ))}
@@ -134,7 +135,7 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
                     <td><Link href={`/services/${s.id}/`}>{s.name}</Link></td>
                     <td>{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{short(s.company)}</Link> : short(s.company)}</td>
                     <td className="nw">{ym(s.startedAt) || (s.startedYear ? `${s.startedYear}年` : '')}〜{ym(s.endedAt)}</td>
-                    <td><span className={`badge st-${s.status}`}>{s.status}</span></td>
+                    <td><span className={`badge st-${s.status}`}>{statusLabel(s)}</span></td>
                     <td>{(s.endReasons ?? []).filter((r) => r !== 'unknown').map((r) => <span key={r} className="chip ghost">{END_REASONS[r]?.label ?? r}</span>)}<small>{s.endReasonNote}</small></td>
                   </tr>
                 ))}

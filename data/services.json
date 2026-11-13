@@ -1328,12 +1328,11 @@
     "name": "医療用モニター事業（医用画像表示モニター・サージカルモニター）",
     "company": "株式会社JVCケンウッド",
     "category": "medical-image",
-    "description": "読影用の医用画像表示モニターや手術室向けサージカルモニター、タッチパネル液晶モニターを医療機器メーカー等に供給した事業。2026年に撤退を決めた。",
+    "description": "読影用の医用画像表示モニターや手術室向けサージカルモニター、タッチパネル液晶モニターを医療機器メーカー等に供給する事業。2026年2月に撤退を発表し、2026年12月で販売を終える予定。",
     "hp": "",
     "startedYear": 2013,
-    "status": "終了",
+    "status": "提供中",
     "startedAt": "2013",
-    "endedAt": "2026-12",
     "milestones": [
       {
         "date": "2013",
@@ -1364,8 +1363,14 @@
     "sources": [
       "https://www.jvckenwood.com/content/dam/jvckenwood/jp/pdf/jvckenwood-press-20260220-01-ja.pdf"
     ],
-    "updatedAt": "2026-10",
-    "type": "imaging-modality"
+    "updatedAt": "2026-11",
+    "type": "imaging-modality",
+    "plannedEnd": {
+      "kind": "終了",
+      "date": "2026-12",
+      "announcedAt": "2026-02",
+      "note": "生産終了は2026年9月（予定）、販売終了は2026年12月（予定）。保守サポートは2031年12月末まで"
+    }
   },
   {
     "id": "b-93a7e965",
@@ -1592,8 +1597,7 @@
     "description": "健康保険組合、協会けんぽ、自治体向けに、ICTを使った遠隔での特定保健指導などを受託提供した事業。2026年3月期の売上高は5億9000万円。",
     "hp": "",
     "startedYear": 2017,
-    "status": "譲渡",
-    "endedAt": "2026-12",
+    "status": "提供中",
     "successor": "メドケア株式会社（エムスリー子会社、企業DB id: 5011101073020）",
     "milestones": [
       {
@@ -1619,10 +1623,16 @@
       "https://maonline.jp/news/20261021b",
       "https://zaikei.co.jp/article/20261022/874440.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "specific-health-guidance",
     "startedAt": "2017-09",
-    "lessons": "人材・介護が主力の会社では、遠隔特定保健指導などのデータヘルス事業は注力領域から外れやすく、医療・健康の事業基盤を持つ会社へ移されることがある。"
+    "lessons": "人材・介護が主力の会社では、遠隔特定保健指導などのデータヘルス事業は注力領域から外れやすく、医療・健康の事業基盤を持つ会社へ移されることがある。",
+    "plannedEnd": {
+      "kind": "譲渡",
+      "date": "2026-12-01",
+      "announcedAt": "2026-10",
+      "note": "簡易吸収分割でメドケアへ承継（効力発生 2026年12月1日予定）"
+    }
   },
   {
     "id": "b-082d6257",
@@ -1633,8 +1643,7 @@
     "description": "医療機関や介護事業所向けに、ストレスチェックの実施、オンライン受検、結果の集計・分析を代行したサービス。2026年3月期の売上高は1億7900万円。",
     "hp": "",
     "startedYear": 2016,
-    "status": "譲渡",
-    "endedAt": "2026-12",
+    "status": "提供中",
     "successor": "ウェルネス・コミュニケーションズ株式会社",
     "milestones": [
       {
@@ -1654,10 +1663,16 @@
       "https://prtimes.jp/main/html/rd/p/000000032.000013298.html",
       "https://zaikei.co.jp/article/20261022/874440.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "stress-check-survey",
     "startedAt": "2016-03",
-    "lessons": "医療・介護事業所向けのストレスチェック代行は、事業ポートフォリオの見直しで非注力と判断され、健康管理サービスを本業とする会社へ移された。周辺サービスは専業に集まりやすい。"
+    "lessons": "医療・介護事業所向けのストレスチェック代行は、事業ポートフォリオの見直しで非注力と判断され、健康管理サービスを本業とする会社へ移された。周辺サービスは専業に集まりやすい。",
+    "plannedEnd": {
+      "kind": "譲渡",
+      "date": "2026-12-01",
+      "announcedAt": "2026-10",
+      "note": "新設分割で設立する会社の全株式をウェルネス・コミュニケーションズに譲渡（効力発生 2026年12月1日予定）"
+    }
   },
   {
     "id": "b-2346c156",
@@ -4456,7 +4471,6 @@
     "startedYear": 2014,
     "status": "休止",
     "startedAt": "2014-10",
-    "endedAt": "2026-10",
     "milestones": [
       {
         "date": "2014-10",
@@ -4495,12 +4509,18 @@
       "https://portal.okusuriplus.com/2026/10/22/8104",
       "https://itunes.apple.com/lookup?id=947740067&country=jp"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medication-support"
     ],
     "type": "electronic-medication-notebook",
-    "lessons": "会員270万人を超える電子お薬手帳でも、使っている基盤ソフトの脆弱性の注意喚起だけで全機能の停止に至った。健康情報を扱うサービスは、停止時の代替（オフライン表示など）を備えておく必要がある。"
+    "lessons": "会員270万人を超える電子お薬手帳でも、使っている基盤ソフトの脆弱性の注意喚起だけで全機能の停止に至った。健康情報を扱うサービスは、停止時の代替（オフライン表示など）を備えておく必要がある。",
+    "suspension": {
+      "temporary": true,
+      "since": "2026-10-21",
+      "cause": "セキュリティ上の予防措置",
+      "note": "PHP に関する注意喚起を受け、アプリ・Webの全機能（処方箋送信を含む）を一時停止"
+    }
   },
   {
     "id": "b-a4365e57",
@@ -5825,9 +5845,8 @@
     "description": "冷蔵庫の開閉などをセンサーで捉え、一人暮らしの高齢者の異常を自治体や賃貸住宅管理会社などに知らせる法人向け見守りサービス。",
     "hp": "",
     "startedYear": 2020,
-    "status": "終了",
+    "status": "提供中",
     "startedAt": "2020-04",
-    "endedAt": "2027-01",
     "milestones": [
       {
         "date": "2020-04",
@@ -5851,11 +5870,17 @@
       "https://www.necolico.co.jp/news/2025/07/24/release/dokkyo_renewal/",
       "https://www.necolico.co.jp/news/2026/07/15/dokkyo/dokkyo_eol/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "elderly-monitoring"
     ],
-    "type": "elderly-home-monitoring"
+    "type": "elderly-home-monitoring",
+    "plannedEnd": {
+      "kind": "終了",
+      "date": "2027-01-13",
+      "announcedAt": "2026-07",
+      "note": "2027年1月13日での提供終了を告知"
+    }
   },
   {
     "id": "b-12582d7b",
@@ -12265,7 +12290,6 @@
     "hp": "",
     "startedYear": 2001,
     "status": "休止",
-    "endedAt": "2026-10",
     "successor": "（2026年10月時点で一時停止中。院内向け機能は別環境の「@link クラウド β版」で段階再開予定と報道）",
     "milestones": [
       {
@@ -12291,12 +12315,18 @@
       "https://www.sinailc.com/information/%E5%A4%96%E9%83%A8%E8%A8%BA%E5%AF%9F%E4%BA%88%E7%B4%84%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8C%E3%82%A2%E3%83%83%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF%E3%80%8D%E3%81%AE%E4%B8%80%E6%99%82%E5%81%9C/",
       "https://rocket-boys.co.jp/security-measures-lab/medley_atlink_privacy_investigation_delay_beta_restart_2026102/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "clinic-booking"
     ],
     "type": "clinic-reservation-queue",
-    "startedAt": "2001"
+    "startedAt": "2001",
+    "suspension": {
+      "temporary": true,
+      "since": "2026-10-14",
+      "cause": "不正アクセス",
+      "note": "メドレーが不正アクセスを確認し、@link・アットリンクアプリ・周辺サービスを一時停止。院内向け機能は別環境の「@link クラウド β版」で段階的に再開予定と報道"
+    }
   },
   {
     "id": "b-8e6af65c",
@@ -13121,9 +13151,8 @@
     "description": "ペンによるアイコン操作と手書き入力が特徴の診療所向け電子カルテサービス。データをNTTのデータセンターにバックアップし、ソフトとサーバーを買わずに月額1万9,000円（端末1台）から使える。2028年3月での提供終了を案内している。",
     "hp": "",
     "startedYear": 2013,
-    "status": "終了",
+    "status": "提供中",
     "startedAt": "2013-07",
-    "endedAt": "2028-03",
     "successor": "（代替サービスや他社サービスへの移行を利用者に打診していると報道）",
     "milestones": [
       {
@@ -13148,11 +13177,18 @@
       "https://www.ntt-east.co.jp/release/detail/__icsFiles/afieldfile/2013/05/16/20130516_01.pdf",
       "https://www.jmedj.co.jp/blogs/product/product_26615"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "cloud-emr"
     ],
-    "type": "clinic-cloud-emr"
+    "type": "clinic-cloud-emr",
+    "plannedEnd": {
+      "kind": "終了",
+      "date": "2028-03",
+      "announcedAt": "2025-06",
+      "note": "NTT東日本が利用者にホームページや文書で通知（2025年6月の報道で確認）",
+      "source": "https://www.jmedj.co.jp/blogs/product/product_26615"
+    }
   },
   {
     "id": "b-eb350293",
@@ -13734,9 +13770,8 @@
     "description": "介護施設・医療機関と介護職・看護師を、面接なしで数時間〜1日単位でマッチングするアプリ。施設側の手数料で収益を得る。飲食向けの単発バイト事業のノウハウを介護に転用した。",
     "hp": "",
     "startedYear": 2021,
-    "status": "譲渡",
+    "status": "提供中",
     "startedAt": "2021-04",
-    "endedAt": "2026-12",
     "successor": "株式会社メドレー（吸収分割で承継、2026年12月1日効力発生予定）",
     "milestones": [
       {
@@ -13772,11 +13807,17 @@
       "https://www.nihon-ma.co.jp/news/20260917_4480-43/",
       "https://maonline.jp/news/20260917d"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medical-jobs"
     ],
-    "type": "care-spot-work"
+    "type": "care-spot-work",
+    "plannedEnd": {
+      "kind": "譲渡",
+      "date": "2026-12-01",
+      "announcedAt": "2026-09",
+      "note": "メドレーが吸収分割で承継（効力発生 2026年12月1日予定）"
+    }
   },
   {
     "id": "b-f62ed081",
@@ -17767,7 +17808,7 @@
       "https://www.allm.net/team",
       "https://www.allm.net/company/history/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "home-medical-care-coordination",
     "startBasis": "公式沿革「2014年3月 地域包括ケアシステム推進ソリューション『Team』提供開始」",
     "milestones": [
@@ -17780,9 +17821,14 @@
     "endReasons": [
       "infrastructure"
     ],
-    "endedAt": "2026-10-21",
     "endReasonNote": "アルムは、利用する外部ソフトウェアに重大な脆弱性が見つかったため、予防措置として10月21日夜からログインを含む全機能を緊急停止。不正アクセスの痕跡はないが、再開には相応の時間を要するとしている。",
-    "lessons": "在宅医療・介護の多職種連携システムは、外部ソフトの脆弱性対応だけで全機能が止まり、事業所は登録データの提供を受けて業務を続けることになった。現場の業務基盤になるSaaSは、停止時のデータ持ち出し手段が要る。"
+    "lessons": "在宅医療・介護の多職種連携システムは、外部ソフトの脆弱性対応だけで全機能が止まり、事業所は登録データの提供を受けて業務を続けることになった。現場の業務基盤になるSaaSは、停止時のデータ持ち出し手段が要る。",
+    "suspension": {
+      "temporary": true,
+      "since": "2026-10-21",
+      "cause": "外部ソフトウェアの脆弱性",
+      "note": "予防措置としてログインを含む全機能を停止。登録データの提供で対応"
+    }
   },
   {
     "id": "b-2ac0f5ec",
@@ -93293,7 +93339,14 @@
         "text": "提供終了を告知（2027-01-20に終了予定）。告知は「2026年12月25日をもって新規販売・新規会員登録を終了し、2027年1月20日をもってサービスを完全に終了する」とするだけで、理由の説明は無い。",
         "source": "https://layered.inc/announcements/20261106/"
       }
-    ]
+    ],
+    "plannedEnd": {
+      "kind": "終了",
+      "date": "2027-01-20",
+      "announcedAt": "2026-11-06",
+      "note": "2026年12月25日に新規販売・新規会員登録を終え、2027年1月20日にサービスを完全終了（サイト閉鎖）",
+      "source": "https://layered.inc/announcements/20261106/"
+    }
   },
   {
     "id": "b-647af4a9",
@@ -105447,14 +105500,14 @@
       "https://www.qlife.co.jp/services"
     ],
     "type": "patient-support-awareness",
-    "updatedAt": "2026-10",
-    "milestones": [
-      {
-        "date": "2026-11-29",
-        "text": "2026年11月29日をもってサービス終了と告知（終了予定）",
-        "source": "https://www.e-ben.jp/useful/e-ben-note"
-      }
-    ]
+    "updatedAt": "2026-11",
+    "milestones": [],
+    "plannedEnd": {
+      "kind": "終了",
+      "date": "2026-11-29",
+      "note": "2026年11月29日をもってサービス終了と告知",
+      "source": "https://www.qlife.co.jp/services"
+    }
   },
   {
     "id": "b-767d5da7",

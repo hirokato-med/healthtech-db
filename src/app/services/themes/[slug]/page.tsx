@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { END_REASONS, STOPPED, getArticles, getThemes, servicesInTheme } from '@/lib/data';
+import { END_REASONS, isStopped, getArticles, getThemes, servicesInTheme } from '@/lib/data';
 import { ym } from '@/lib/ym';
 
 export function generateStaticParams() {
@@ -25,7 +25,7 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
   const t = getThemes().find((x) => x.slug === slug);
   if (!t) notFound();
   const items = servicesInTheme(slug)
-    .map((s) => ({ s, a: toY(s.startedAt) ?? (s.startedYear ?? null), b: STOPPED.includes(s.status) ? ((e) => (e === null ? null : Math.min(NOW, e)))(toY(s.endedAt)) : NOW }))
+    .map((s) => ({ s, a: toY(s.startedAt) ?? (s.startedYear ?? null), b: isStopped(s) ? ((e) => (e === null ? null : Math.min(NOW, e)))(toY(s.endedAt)) : NOW }))
     .sort((x, y) => (x.a ?? 9999) - (y.a ?? 9999));
   const dated = items.filter((x) => x.a !== null);
   const min = dated.length ? Math.floor(Math.min(...dated.map((x) => x.a as number))) : 2016;
@@ -33,7 +33,7 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
   const span = NOW - from;
   const pct = (y: number) => `${((y - from) / span) * 100}%`;
   const years = Array.from({ length: Math.floor(NOW) - from + 1 }, (_, i) => from + i).filter((y) => y % 2 === 0);
-  const stopped = items.filter((x) => STOPPED.includes(x.s.status));
+  const stopped = items.filter((x) => isStopped(x.s));
   const reasons = Object.entries(END_REASONS)
     .map(([k, r]) => ({ k, label: r.label, n: stopped.filter((x) => (x.s.endReasons ?? []).includes(k)).length }))
     .filter((r) => r.n && r.k !== 'unknown')
@@ -60,7 +60,7 @@ export default async function ThemePage({ params }: { params: Promise<{ slug: st
             <div className="tc-track">
               {years.map((y) => <i key={y} className="tc-grid" style={{ left: pct(y) }} />)}
               {a !== null && (
-                <span className={`tc-bar st-${s.status}`} style={{ left: pct(a), width: `max(6px, calc(${pct(b ?? a + 0.5)} - ${pct(a)}))` }} title={`${ym(s.startedAt) || s.startedYear + '年'} 〜 ${STOPPED.includes(s.status) ? ym(s.endedAt) + ' ' + s.status : '提供中'}`} />
+                <span className={`tc-bar st-${s.status}`} style={{ left: pct(a), width: `max(6px, calc(${pct(b ?? a + 0.5)} - ${pct(a)}))` }} title={`${ym(s.startedAt) || s.startedYear + '年'} 〜 ${isStopped(s) ? ym(s.endedAt) + ' ' + s.status : '提供中'}`} />
               )}
             </div>
           </div>

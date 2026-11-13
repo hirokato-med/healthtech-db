@@ -1,4 +1,5 @@
 'use client';
+import { statusLabel } from '@/lib/status';
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import type { Category, Service } from '@/lib/types';
@@ -54,7 +55,7 @@ export function BusinessFilter({ items, categories, reasons, initialStatus = '' 
           <article className="card biz" key={s.id}>
             <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
             <div className="chips">
-              <span className={`badge st-${s.status}`}>{s.status}</span>
+              <span className={`badge st-${s.status}`}>{statusLabel(s)}</span>
               {s.category && <Link href={`/categories/${s.category}/`} className="chip">{catName[s.category] ?? s.category}</Link>}
               {s.endReasons?.filter((r) => r !== 'unknown').map((r) => <span key={r} className="chip ghost">{reasons[r]?.label ?? r}</span>)}
             </div>

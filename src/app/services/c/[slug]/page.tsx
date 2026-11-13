@@ -1,7 +1,8 @@
+import { statusLabel } from '@/lib/status';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { STOPPED, categoryName, getBizTypes, getCategories, getServices } from '@/lib/data';
+import { isStopped, categoryName, getBizTypes, getCategories, getServices } from '@/lib/data';
 import type { Service } from '@/lib/types';
 
 export function generateStaticParams() {
@@ -27,11 +28,11 @@ export default async function CategoryBusinessPage({ params }: { params: Promise
   const all = getServices().filter((s) => s.category === slug && s.type);
   const groups = types
     .map((t) => {
-      const list = all.filter((s) => s.type === t.slug).sort((a, b) => Number(STOPPED.includes(a.status)) - Number(STOPPED.includes(b.status)) || (a.startedAt || String(a.startedYear ?? '9999')).localeCompare(b.startedAt || String(b.startedYear ?? '9999')));
-      return { t, list, stopped: list.filter((s) => STOPPED.includes(s.status)).length };
+      const list = all.filter((s) => s.type === t.slug).sort((a, b) => Number(isStopped(a)) - Number(isStopped(b)) || (a.startedAt || String(a.startedYear ?? '9999')).localeCompare(b.startedAt || String(b.startedYear ?? '9999')));
+      return { t, list, stopped: list.filter((s) => isStopped(s)).length };
     })
     .sort((a, b) => Number(!a.list.length) - Number(!b.list.length));
-  const stopped = all.filter((s) => STOPPED.includes(s.status)).length;
+  const stopped = all.filter((s) => isStopped(s)).length;
   return (
     <>
       <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link> / <Link href="/services/">事業データベース</Link> / <span>{cat.name}</span></nav>
@@ -57,7 +58,7 @@ export default async function CategoryBusinessPage({ params }: { params: Promise
                     <td className="n"><Link href={`/services/${s.id}/`}>{s.name}</Link></td>
                     <td className="c">{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{short(s.company)}</Link> : short(s.company)}</td>
                     <td className="y">{yr(s)}</td>
-                    <td className="st"><span className={`badge st-${s.status}`}>{s.status}</span></td>
+                    <td className="st"><span className={`badge st-${s.status}`}>{statusLabel(s)}</span></td>
                   </tr>
                 ))}
               </tbody>

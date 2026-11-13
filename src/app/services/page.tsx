@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { BusinessFilter } from '@/components/BusinessFilter';
-import { END_REASONS, STOPPED, getBizTypes, getCategories, getServices, getThemes, servicesInTheme } from '@/lib/data';
+import { END_REASONS, isStopped, getBizTypes, getCategories, getServices, getThemes, servicesInTheme } from '@/lib/data';
 
 export const metadata: Metadata = { title: '事業データベース', description: 'ヘルスケアの事業・サービスが、いつ始まり、どう進み、止まったならなぜ止まったのかを出典つきで記録したデータベース。' };
 
 export default function ServicesPage() {
   const services = getServices();
   const items = services.map(({ id, name, company, companyId, category, description, status, startedAt, startedYear, endedAt, endReasons }) => ({ id, name, company, companyId, category, description: description.length > 90 ? `${description.slice(0, 90)}…` : description, status, startedAt, startedYear, endedAt, endReasons }));
-  const stopped = services.filter((s) => STOPPED.includes(s.status)).length;
+  const stopped = services.filter((s) => isStopped(s)).length;
   // カテゴリ → 事業の種類（件数の多い順に5つまで）
   const types = getBizTypes();
   const cats = getCategories().map((c) => {
@@ -53,7 +53,7 @@ export default function ServicesPage() {
             return (
               <Link key={t.slug} href={`/services/themes/${t.slug}/`} className="theme-card">
                 <b>{t.name}</b>
-                <span>{list.length ? `${list.length}件（止まった事業 ${list.filter((x) => STOPPED.includes(x.status)).length}件）` : '調査中'}</span>
+                <span>{list.length ? `${list.length}件（止まった事業 ${list.filter((x) => isStopped(x)).length}件）` : '調査中'}</span>
               </Link>
             );
           })}

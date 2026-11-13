@@ -8,7 +8,7 @@ import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { STOPPED, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { isStopped, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
 import { comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
 import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
 import { EarningsBars } from '@/components/EarningsBars';
@@ -39,7 +39,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
     .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || Number(!!b.label && b.label !== b.kind) - Number(!!a.label && a.label !== a.kind))
     .map((p) => ({ p, other: myNames.includes(nm(p.from)) ? p.to : p.from }))
     .filter((x, i, arr) => arr.findIndex((y) => nm(y.other) === nm(x.other) && y.p.kind === x.p.kind && (y.p.date ?? '').slice(0, 7) === (x.p.date ?? '').slice(0, 7)) === i);
-  const stoppedCount = services.filter((s) => STOPPED.includes(s.status)).length;
+  const stoppedCount = services.filter((s) => isStopped(s)).length;
   const latestRep = reports[0];
   const segRep = reports.find((r) => r.quarter === 'FY' && r.segments?.length) ?? latestWithSegments(reports);
   const hc = healthcareOf(segRep);

@@ -112,6 +112,10 @@ export type Service = {
   tags?: string[];
   startedAt?: string;
   endedAt?: string;
+  /** 終了・譲渡・統合が発表されたが、まだ提供中のもの。日付が来ても自動で「終了」にはせず、終了を確かめたら confirmedAt を入れて status を変える */
+  plannedEnd?: { kind: '終了' | '譲渡' | '統合'; date: string; announcedAt?: string; note?: string; source?: string; confirmedAt?: string };
+  /** 障害・不正アクセスなどによる一時停止（事業判断の休止ではない）。止まった事業の数には入れない */
+  suspension?: { since: string; cause: string; temporary: true; note?: string; resumedAt?: string };
   successor?: string;
   milestones?: { date: string; text: string; source?: string }[];
   /** 止まった理由（END_REASONS のキー） */

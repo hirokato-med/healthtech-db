@@ -1134,3 +1134,4 @@ ul.fh-ev .t small { color: var(--muted); margin-left: 4px; }
 .peer .spark rect { fill: #9fcfd3; } .peer .spark rect.last { fill: var(--teal); }
 .peer .spark small { font-size: 11px; color: var(--muted); }
 @media (max-width: 760px) { .fh-kpi { grid-template-columns: 1fr 1fr; } ul.fh-ev { columns: 1; } }
+.plan-panel .kv { margin-bottom: 12px; }
