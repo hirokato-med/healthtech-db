@@ -61,6 +61,7 @@ add(want, '開始時期も提供を確認できた時点も空', services.filter
 add(want, '止まった事業で終了日が空', services.filter((s) => STOPPED.has(s.status) && !s.endedAt).sort(digitalFirst));
 add(want, '止まった理由が unknown', services.filter((s) => STOPPED.has(s.status) && s.endReasons?.includes('unknown')).sort(digitalFirst));
 add(want, '終了予定日を過ぎた（終了したか確かめて confirmedAt と status を入れる）', services.filter((s) => s.plannedEnd && !s.plannedEnd.confirmedAt && s.plannedEnd.date < today.slice(0, s.plannedEnd.date.length)));
+add(want, '止まった理由の出どころが空（node scripts/classify-end-basis.mjs）', services.filter((s) => STOPPED.has(s.status) && !s.suspension?.temporary && !s.endReasonBasis?.length));
 add(want, '状態が「不明」', services.filter((s) => s.status === '不明').sort(digitalFirst));
 add(want, '出典が1つだけ', services.filter((s) => s.sources?.length === 1).sort(digitalFirst));
 // 同じ会社の中で、「」の中身か括弧より前の名前が同じもの

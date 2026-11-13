@@ -7,6 +7,8 @@ import { ym } from '@/lib/ym';
 export const metadata: Metadata = { title: '止まった事業を理由別に見る', description: 'ヘルスケアの事業がどのような理由で止まったのか。規制、保険償還、お金を払う人、現場への定着、効果の実証、資金などの理由別に、過去の事業を一覧する。' };
 
 
+const BASIS = ['会社の説明', '報道', '推定', '経過のみ', '非公表'] as const;
+
 export default function StoppedPage() {
   const all = getServices();
   const stopped = all.filter((s) => isStopped(s));
@@ -26,6 +28,7 @@ export default function StoppedPage() {
         <p className="lead">
           同じようなアイデアは何度も生まれ、同じところで止まります。過去の事業がどこで止まったのかを理由別に並べました。
           理由は、当事者の発表など公開された事実にもとづいて分類しています（公表されていないものは「理由は非公表」）。{stopped.length} 件。
+          理由の出どころは、{BASIS.map((b) => `${b} ${stopped.filter((s) => s.endReasonBasis?.includes(b)).length}件`).join('・')}。「推定」はこの DB の判断を含むもので、断り書きをつけています。
         </p>
       </div>
       {(planned.length > 0 || paused.length > 0) && (
@@ -79,7 +82,8 @@ export default function StoppedPage() {
                     {s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : <span>{s.company}</span>}
                     <span>{ym(s.startedAt) || (s.startedYear ? `${s.startedYear}年` : '')} 〜 {ym(s.endedAt)}</span>
                   </div>
-                  {s.endReasonNote && <p className="reason-note">{s.endReasonNote}</p>}
+                  {s.endReasonNote && <p className="reason-note">{s.endReasonBasis?.map((b) => <span key={b} className={`basis basis-${b}`}>{b}</span>)}{s.endReasonNote}</p>}
+                  {s.endReasonCaveat && <p className="caveat">注意：{s.endReasonCaveat}</p>}
                 </div>
               </div>
             ))}

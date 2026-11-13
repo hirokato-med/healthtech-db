@@ -137,6 +137,10 @@ export type Service = {
   /** 止まった理由（END_REASONS のキー） */
   endReasons?: string[];
   endReasonNote?: string;
+  /** 止まった理由の出どころ（会社の説明・報道・推定・非公表・経過のみ）。複数つくことがある */
+  endReasonBasis?: ('会社の説明' | '報道' | '推定' | '非公表' | '経過のみ')[];
+  /** 推定を含むときの断り書き（一覧でも出す） */
+  endReasonCaveat?: string;
   lessons?: string;
   sources?: string[];
   updatedAt?: string;

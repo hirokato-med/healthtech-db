@@ -75,7 +75,9 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
             <section className="panel stop-panel">
               <h3>止まった理由</h3>
               <div className="chips">{(s.endReasons?.length ? s.endReasons : ['unknown']).map((r) => <Link key={r} href={`/services/stopped/#${r}`} className="chip">{END_REASONS[r]?.label ?? r}</Link>)}</div>
+              {s.endReasonBasis?.length ? <p className="small muted basis-line">理由の出どころ：{s.endReasonBasis.map((b) => <span key={b} className={`basis basis-${b}`}>{b}</span>)}</p> : null}
               <p>{s.endReasonNote || '止まった理由は公表されていない。'}</p>
+              {s.endReasonCaveat && <p className="caveat">注意：{s.endReasonCaveat}</p>}
               {s.successor && <p className="small"><b>引き継ぎ先：</b>{s.successor}</p>}
               {s.lessons && <p className="lessons"><b className="kato-label"><img src={withBase('/images/kato-avatar.jpg')} alt="" width={22} height={22} />加藤浩晃の見立て</b>{s.lessons}</p>}
             </section>
