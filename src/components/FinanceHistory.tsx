@@ -17,7 +17,12 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
   if (ys.length < 3) return null;
   const n = ys.length;
   const first = ys[0], last = ys[n - 1], prev = ys[n - 2];
-  const cagr = first.revenue! > 0 ? ((last.revenue! / first.revenue!) ** (1 / (n - 1)) - 1) * 100 : null;
+  // 変則決算・決算期変更の期（12か月でない期）。前年比を出さず、棒を薄い色にする
+  const irregular = (y?: FinanceYear) => !!y && /変則|決算期変更|\d+\s*(か月|カ月|ヶ月)/.test(y.note ?? '');
+  // 年平均の伸びは、決算期末の間の実際の年数で割る（変則決算があっても期の数で割らない）
+  const spanYears = (() => { const [a, b] = [first.fy, last.fy].map((f) => Number(f.slice(0, 4)) * 12 + Number(f.slice(5, 7))); return (b - a) / 12; })();
+  const cagr = first.revenue! > 0 && spanYears >= 1 && !irregular(first) && !irregular(last) ? ((last.revenue! / first.revenue!) ** (1 / spanYears) - 1) * 100 : null;
+  const yoyOk = prev?.revenue && !irregular(prev) && !irregular(last);
   const margins = ys.map((y) => (y.operatingIncome != null && y.revenue ? (y.operatingIncome / y.revenue) * 100 : null));
   const mv = margins.filter((v): v is number => v != null);
   // 出来事を決算期に置く（決算期末より前の、いちばん近い期）。直近の決算期より後のものは一覧だけ
@@ -49,12 +54,12 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
 
   return (
     <section className="panel" id="finance-history">
-      <h3>{n}年の業績と、その間の出来事{code && <small className="muted" style={{ marginLeft: 8, fontWeight: 400 }}>{market}・{code}</small>}</h3>
+      <h3>{fyLabel(first.fy)}〜{fyLabel(last.fy)}期の業績と、その間の出来事{code && <small className="muted" style={{ marginLeft: 8, fontWeight: 400 }}>{market}・{code}</small>}</h3>
       <p className="muted small" style={{ margin: '0 0 14px' }}>売上高の伸びと、ヘルスケアの事業でいつ何をしたか（子会社化・出資・提携）を同じ時間軸で見る。</p>
       <div className="fh-grid">
         <div className="fh-kpi">
-          <div><span>売上高（{fyLabel(last.fy)}期）</span><b>{money(last.revenue)}</b>{prev?.revenue ? <small>前年比 {((last.revenue! / prev.revenue - 1) * 100 >= 0 ? '+' : '')}{((last.revenue! / prev.revenue - 1) * 100).toFixed(1)}%</small> : null}</div>
-          {cagr != null && <div><span>{n - 1}年の伸び（年平均）</span><b>{cagr >= 0 ? '+' : ''}{cagr.toFixed(1)}%</b><small>{fyLabel(first.fy)}期 {money(first.revenue)} から</small></div>}
+          <div><span>売上高（{fyLabel(last.fy)}期）</span><b>{money(last.revenue)}</b>{yoyOk ? <small>前年比 {((last.revenue! / prev.revenue! - 1) * 100 >= 0 ? '+' : '')}{((last.revenue! / prev.revenue! - 1) * 100).toFixed(1)}%</small> : prev?.revenue ? <small>前年比は比較なし（変則決算）</small> : null}</div>
+          {cagr != null && <div><span>{Math.round(spanYears)}年の伸び（年平均）</span><b>{cagr >= 0 ? '+' : ''}{cagr.toFixed(1)}%</b><small>{fyLabel(first.fy)}期 {money(first.revenue)} から</small></div>}
           {margins[n - 1] != null && <div><span>営業利益率</span><b>{margins[n - 1]!.toFixed(1)}%</b>{mv.length > 2 && <small>{mv.length}期の幅 {mMin.toFixed(1)}〜{mMax.toFixed(1)}%</small>}</div>}
           {healthShare != null && healthShare < 99.5 && <div><span>ヘルスケアの売上</span><b>{healthShare.toFixed(0)}%</b><small>{healthNames?.join('、')}</small></div>}
           {evs.length > 0 && <div><span>この{n}年の出来事</span><b>{evs.length}件</b><small>{kinds.map((k) => `${k}${evs.filter((e) => e.kind === k).length}`).join('・')}</small></div>}
@@ -68,8 +73,8 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
             ))}
             {ys.map((y, i) => (
               <g key={y.fy}>
-                <rect x={bx(i)} y={by(y.revenue!)} width={bw} height={H - B - by(y.revenue!)} rx="3" className={i === n - 1 ? 'fh-bar last' : 'fh-bar'}><title>{`${fyLabel(y.fy)}期 売上高 ${money(y.revenue)}${y.note ? `（${y.note}）` : ''}`}</title></rect>
-                <text x={bx(i) + bw / 2} y={H - B + 16} fontSize="11" textAnchor="middle" fill="var(--muted)">{fyLabel(y.fy)}</text>
+                <rect x={bx(i)} y={by(y.revenue!)} width={bw} height={H - B - by(y.revenue!)} rx="3" className={`fh-bar${i === n - 1 ? ' last' : ''}${irregular(y) ? ' irregular' : ''}`}><title>{`${fyLabel(y.fy)}期 売上高 ${money(y.revenue)}${y.note ? `（${y.note}）` : ''}`}</title></rect>
+                <text x={bx(i) + bw / 2} y={H - B + 16} fontSize="11" textAnchor="middle" fill="var(--muted)">{fyLabel(y.fy)}{irregular(y) ? '*' : ''}</text>
               </g>
             ))}
             <text x={bx(0) + bw / 2} y={by(first.revenue!) - 6} fontSize="11" textAnchor="middle" fill="var(--ink)">{money(first.revenue)}</text>
@@ -112,12 +117,13 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
               ))}
             </ul>
           )}
+      {ys.some(irregular) && <p className="muted small" style={{ marginTop: 8 }}>* 薄い色の棒は12か月でない期（変則決算・決算期変更）。{ys.filter(irregular).map((y) => `${fyLabel(y.fy)}期：${y.note}`).join('／')}</p>}
       <p className="muted small" style={{ marginTop: 10 }}>出典：有価証券報告書・決算短信・会社のIR（{[standard, basis].filter(Boolean).join('・') || '連結'}、百万円を億円に丸めて表示）。出来事は Healthtech DB の資本提携・M&A とグループ会社の記録（会社の発表）。</p>
     </section>
   );
 }
 
-export type Peer = { id: string; name: string; fy: string; revenue: number; prior?: number; operatingIncome?: number; healthShare?: number | null; spark?: number[]; cagr?: number | null; self?: boolean };
+export type Peer = { id: string; name: string; fy: string; revenue: number; prior?: number; operatingIncome?: number; healthShare?: number | null; spark?: number[]; cagr?: number | null; cagrYears?: number; self?: boolean };
 
 /** 同じ事業の上場企業と比べる */
 export function PeerPanel({ peers, label }: { peers: Peer[]; label: string }) {
@@ -141,7 +147,7 @@ export function PeerPanel({ peers, label }: { peers: Peer[]; label: string }) {
               {sm > 0 && (
                 <div className="spark">
                   <svg viewBox={`0 0 ${p.spark!.length * 10} 30`} preserveAspectRatio="none">{p.spark!.map((v, i) => <rect key={i} x={i * 10 + 1.5} y={30 - (v / sm) * 28} width="7" height={(v / sm) * 28} rx="1" className={i === p.spark!.length - 1 ? 'last' : ''} />)}</svg>
-                  {p.cagr != null && <small>{p.spark!.length - 1}年の伸び 年平均 {p.cagr >= 0 ? '+' : ''}{p.cagr.toFixed(1)}%</small>}
+                  {p.cagr != null && <small>{p.cagrYears ?? p.spark!.length - 1}年の伸び 年平均 {p.cagr >= 0 ? '+' : ''}{p.cagr.toFixed(1)}%</small>}
                 </div>
               )}
             </div>

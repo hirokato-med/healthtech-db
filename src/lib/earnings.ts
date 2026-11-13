@@ -49,6 +49,28 @@ export const healthcareOf = (r?: EarningsReport) => {
 export const latestWithSegments = (reports: EarningsReport[]) => reports.find((r) => r.segments?.length);
 /** 会社予想（四半期なら当期の通期予想、通期なら次期予想） */
 export const forecastOf = (r?: EarningsReport) => (r ? (r.quarter === 'FY' ? r.nextForecast : r.forecast) : undefined);
+/** レンジで開示された予想（四半期なら当期、通期なら次期） */
+export const forecastRangeOf = (r?: EarningsReport) => (r ? (r.quarter === 'FY' ? r.nextForecastRange : r.forecastRange) : undefined);
+/** 予想の1項目を文字にする：単一の値／レンジ（下限〜上限）／無ければ null */
+export const forecastText = (r: EarningsReport | undefined, k: keyof Figures) => {
+  const v = forecastOf(r)?.[k];
+  if (v != null) return money(v);
+  const rg = forecastRangeOf(r)?.[k];
+  if (rg && (rg[0] != null || rg[1] != null)) return `${money(rg[0] ?? undefined)}〜${money(rg[1] ?? undefined)}`;
+  return null;
+};
+/** 予想があるか（単一でもレンジでも） */
+export const hasForecast = (r?: EarningsReport) => !!(forecastOf(r) || forecastRangeOf(r));
+/** 予想が無いときの説明：会社が出していないのか、取り込めなかったのかを分ける */
+export const noForecastText = (r?: EarningsReport) => (r?.forecastStatus === 'not-disclosed' ? '予想は非開示' : '予想は未取得');
+/** 前年と比べてよいか：期間の長さが違う（変則決算）・決算期変更のときは比べない */
+export const comparable = (r?: EarningsReport) => !!r && r.comparable !== false && !(r.months && r.priorMonths && r.months !== r.priorMonths);
+/** 比べられないときの短い理由 */
+export const notComparableText = (r?: EarningsReport) => (r?.months && r?.priorMonths && r.months !== r.priorMonths ? `前期は${r.priorMonths}か月のため比較なし` : '期間が違うため比較なし');
+/** 前年比（比べられないときは null） */
+export const growth = (r?: EarningsReport, k: keyof Figures = 'revenue') => (comparable(r) ? yoy(r?.current?.[k], r?.prior?.[k]) : null);
+/** 売上の表示：値／計上なし／未取得 */
+export const revenueText = (r?: EarningsReport) => (r?.current?.revenue != null ? money(r.current.revenue) : r?.revenueAbsent ? '計上なし' : '—');
 export const forecastLabel = (r?: EarningsReport) => {
   if (!r) return '';
   if (r.quarter !== 'FY') return `${r.fiscalYear} 通期予想`;

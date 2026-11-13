@@ -80,7 +80,28 @@
      "netIncome": 817
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261015551239.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "months": 12,
+    "priorMonths": 7,
+    "nextForecastRange": {
+     "revenue": [
+      41000,
+      45000
+     ],
+     "operatingIncome": [
+      4100,
+      5300
+     ],
+     "ordinaryIncome": [
+      4093,
+      5293
+     ],
+     "netIncome": [
+      2783,
+      3599
+     ]
+    },
+    "note": "前期（2025年8月期）は2025年2月〜8月の7か月の変則決算のため、前年比は出さない（会社も増減率を掲載していない）。2027年8月期の予想はレンジ開示"
    }
   ]
  },
@@ -482,20 +503,24 @@
     "current": {
      "operatingIncome": -61,
      "ordinaryIncome": -61,
-     "netIncome": -203
+     "netIncome": -203,
+     "revenue": 227
     },
     "prior": {
      "operatingIncome": -133,
      "ordinaryIncome": -132,
-     "netIncome": -120
+     "netIncome": -120,
+     "revenue": 45
     },
     "forecast": {
      "operatingIncome": -461,
      "ordinaryIncome": -474,
-     "netIncome": -541
+     "netIncome": -541,
+     "revenue": 838
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261105565964.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "revenueLabel": "事業収益"
    },
    {
     "fiscalYear": "2026年6月期",
@@ -803,7 +828,25 @@
     },
     "pdf": "https://contents.xj-storage.jp/xcontents/AS82482/535daabe/56b4/4a50/b889/2a9287bf301e/140120260810516798.pdf",
     "source": "決算短信",
-    "note": "通期予想はレンジ開示：売上高1,100～1,500、営業利益5～50、経常利益45～90、当期純利益45～90（百万円）"
+    "note": "通期予想はレンジ開示：売上高1,100～1,500、営業利益5～50、経常利益45～90、当期純利益45～90（百万円）",
+    "forecastRange": {
+     "revenue": [
+      1100,
+      1500
+     ],
+     "operatingIncome": [
+      5,
+      50
+     ],
+     "ordinaryIncome": [
+      45,
+      90
+     ],
+     "netIncome": [
+      45,
+      90
+     ]
+    }
    },
    {
     "fiscalYear": "2026年3月期",
@@ -826,7 +869,25 @@
     },
     "pdf": "https://contents.xj-storage.jp/xcontents/AS82482/64e0121a/0f0d/4e91/8309/52043e53b63a/140120260514533373.pdf",
     "source": "決算短信",
-    "note": "2027年3月期予想はレンジ開示：売上高1,100～1,500、営業利益5～50、経常利益45～90、当期純利益45～90（百万円）"
+    "note": "2027年3月期予想はレンジ開示：売上高1,100～1,500、営業利益5～50、経常利益45～90、当期純利益45～90（百万円）",
+    "nextForecastRange": {
+     "revenue": [
+      1100,
+      1500
+     ],
+     "operatingIncome": [
+      5,
+      50
+     ],
+     "ordinaryIncome": [
+      45,
+      90
+     ],
+     "netIncome": [
+      45,
+      90
+     ]
+    }
    }
   ]
  },
@@ -932,20 +993,24 @@
     "current": {
      "operatingIncome": -369,
      "ordinaryIncome": -364,
-     "netIncome": -513
+     "netIncome": -513,
+     "revenue": 55
     },
     "prior": {
      "operatingIncome": -287,
      "ordinaryIncome": -283,
-     "netIncome": -285
+     "netIncome": -285,
+     "revenue": 65
     },
     "forecast": {
      "operatingIncome": -515,
      "ordinaryIncome": -509,
-     "netIncome": -700
+     "netIncome": -700,
+     "revenue": 70
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261111573634.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "revenueLabel": "事業収益"
    },
    {
     "fiscalYear": "2026年12月期",
@@ -1036,7 +1101,9 @@
      "netIncome": -2158
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112575829.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "comparable": false,
+    "note": "前年同期は決算期変更前で期間が異なる"
    },
    {
     "fiscalYear": "2026年12月期",
@@ -1065,7 +1132,8 @@
     },
     "pdf": "https://ssl4.eir-parts.net/doc/219A/tdnet/2873638/00.pdf",
     "source": "決算短信",
-    "note": "前中間期は2024年11月1日～2025年4月30日（決算期変更のため期間が異なる）"
+    "note": "前中間期は2024年11月1日～2025年4月30日（決算期変更のため期間が異なる）",
+    "comparable": false
    },
    {
     "fiscalYear": "2025年12月期",
@@ -1094,7 +1162,9 @@
     },
     "pdf": "https://ssl4.eir-parts.net/doc/219A/tdnet/2760310/00.pdf",
     "source": "決算短信",
-    "note": "決算期変更（10月→12月）。2025年12月期は2024年11月1日～2025年12月31日の14か月決算。priorは2024年10月期（12か月）"
+    "note": "決算期変更（10月→12月）。2025年12月期は2024年11月1日～2025年12月31日の14か月決算。priorは2024年10月期（12か月）",
+    "months": 14,
+    "priorMonths": 12
    }
   ]
  },
@@ -1693,7 +1763,9 @@
     },
     "pdf": "https://contents.xj-storage.jp/xcontents/36280/5059c075/4ec0/4d40/9389/7719214feae5/140120260512525959.pdf",
     "source": "決算短信",
-    "note": "決算期変更により前期（2025年3月期）は9カ月（2024年7月〜2025年3月）の変則決算"
+    "note": "決算期変更により前期（2025年3月期）は9カ月（2024年7月〜2025年3月）の変則決算",
+    "months": 12,
+    "priorMonths": 9
    }
   ]
  },
@@ -1870,7 +1942,21 @@
     },
     "pdf": "https://ir.mti.co.jp/wp-content/uploads/library/financial_results/2025/20251111_L.pdf",
     "source": "決算短信",
-    "note": "2026年9月期予想はレンジ：営業利益3,100～3,500、経常利益3,100～3,500、親会社株主に帰属する当期純利益1,770～2,050（百万円）。売上高は31,000"
+    "note": "2026年9月期予想はレンジ：営業利益3,100～3,500、経常利益3,100～3,500、親会社株主に帰属する当期純利益1,770～2,050（百万円）。売上高は31,000",
+    "nextForecastRange": {
+     "operatingIncome": [
+      3100,
+      3500
+     ],
+     "ordinaryIncome": [
+      3100,
+      3500
+     ],
+     "netIncome": [
+      1770,
+      2050
+     ]
+    }
    }
   ]
  },
@@ -5791,18 +5877,21 @@
     "consolidated": true,
     "current": {
      "ordinaryIncome": 458794,
-     "netIncome": 283815
+     "netIncome": 283815,
+     "revenue": 5804359
     },
     "prior": {
      "ordinaryIncome": 335229,
-     "netIncome": 203089
+     "netIncome": 203089,
+     "revenue": 5114056
     },
     "forecast": {
      "ordinaryIncome": 869000,
      "netIncome": 513000
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110572349.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "revenueLabel": "経常収益"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9540,7 +9629,8 @@
     "segmentProfitLabel": "営業利益（単一セグメント）",
     "pdf": "https://contents.xj-storage.jp/xcontents/AS70521/caf93856/b94a/4137/822d/7fe403d9c27c/140120260408500334.pdf",
     "source": "決算短信",
-    "note": "物販事業の単一セグメントのため全社値を記載。前期（2025年2月期）は決算期変更に伴う9.5ヶ月決算。2025年12月からウエルシアHDを連結。販売実績のうち調剤237,570（構成比16.4%）、医薬品144,457"
+    "note": "物販事業の単一セグメントのため全社値を記載。前期（2025年2月期）は決算期変更に伴う9.5ヶ月決算。2025年12月からウエルシアHDを連結。販売実績のうち調剤237,570（構成比16.4%）、医薬品144,457",
+    "comparable": false
    }
   ]
  },
@@ -9915,7 +10005,9 @@
      "netIncome": -1192
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261113577892.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "revenueAbsent": true,
+    "revenueLabel": "売上高"
    },
    {
     "fiscalYear": "2026年12月期",
@@ -10112,7 +10204,9 @@
      "netIncome": -605
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261113579838.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "revenueAbsent": true,
+    "revenueLabel": "事業収益"
    },
    {
     "fiscalYear": "2026年12月期",
@@ -10188,7 +10282,9 @@
      "netIncome": -2842
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261110571624.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "revenueAbsent": true,
+    "revenueLabel": "事業収益"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -10417,7 +10513,9 @@
      "netIncome": -1350
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261113578911.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "revenueAbsent": true,
+    "revenueLabel": "売上高"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -10500,7 +10598,9 @@
      "netIncome": -1801
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261109568456.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "revenueAbsent": true,
+    "revenueLabel": "売上高"
    },
    {
     "fiscalYear": "2026年12月期",

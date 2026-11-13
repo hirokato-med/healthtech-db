@@ -228,6 +228,20 @@ export type EarningsReport = {
   pdf?: string;
   source?: string;
   note?: string;
+  /** 当期・前期の月数（四半期は累計）。違えば前年比を出さない（変則決算・決算期変更） */
+  months?: number;
+  priorMonths?: number;
+  /** 期間は同じ長さでも、決算期変更などで前年同期と比べられないとき false */
+  comparable?: boolean;
+  /** レンジで開示された予想（[下限, 上限]、百万円） */
+  forecastRange?: Partial<Record<keyof Figures, [number | null, number | null]>>;
+  nextForecastRange?: Partial<Record<keyof Figures, [number | null, number | null]>>;
+  /** 予想が無いとき：not-disclosed＝会社が開示していない／not-captured＝取り込めなかった */
+  forecastStatus?: 'not-disclosed' | 'not-captured';
+  /** 売上の会社での呼び方（事業収益・営業収益・売上収益など） */
+  revenueLabel?: string;
+  /** 決算短信で売上が「－」（計上なし） */
+  revenueAbsent?: boolean;
 };
 /** 業績予想の修正（TDnet の XBRL。修正前と修正後の通期予想、百万円） */
 export type ForecastRevision = { date: string; title: string; fiscalYear?: string; consolidated?: boolean; previous?: Figures; revised: Figures; pdf: string };

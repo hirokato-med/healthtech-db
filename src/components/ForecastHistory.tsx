@@ -11,6 +11,7 @@ export function forecastTimelines(reports: EarningsReport[], revisions: Forecast
   const byFy = new Map<string, Point[]>();
   const add = (fy: string, p: Point) => fy && (byFy.get(fy) ?? byFy.set(fy, []).get(fy)!).push(p);
   for (const r of reports) {
+    // レンジの予想は、ここでは下限〜上限の真ん中ではなく、表に出さない（期初予想の表は単一の値だけ）。レンジは決算の表で見せる
     if (r.quarter === 'FY' && r.nextForecast) add(nextFy(r.fiscalYear), { date: r.date, source: `${r.fiscalYear} 決算短信（期初予想）`, fig: r.nextForecast, pdf: r.pdf, kind: 'initial' });
     if (r.quarter !== 'FY' && r.forecast) add(r.fiscalYear, { date: r.date, source: `${Q[r.quarter] ?? r.quarter} 決算短信`, fig: r.forecast, pdf: r.pdf, kind: 'quarter' });
   }

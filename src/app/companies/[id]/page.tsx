@@ -9,7 +9,7 @@ import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
 import { STOPPED, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
-import { forecastLabel, forecastOf, healthcareOf, latestWithSegments, money, pct, yoy } from '@/lib/earnings';
+import { comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
 import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
 import { EarningsBars } from '@/components/EarningsBars';
 
@@ -91,8 +91,13 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
       const h = healthcareOf((all[o.id] ?? []).find((x) => x.quarter === 'FY' && x.segments?.length));
       const share = h?.share ?? null;
       if (o.id !== c.id && share != null && share < 30) continue;
-      const sp = (fhs[o.id]?.years ?? []).filter((y) => y.revenue != null).sort((a, b) => a.fy.localeCompare(b.fy)).slice(-10).map((y) => y.revenue!);
-      rows.push({ id: o.id, name: o.name.replace(/^株式会社|株式会社$/g, '').replace(/ホールディングス/, 'HD'), fy: r.fiscalYear.replace(/年(\d+)月期/, '/$1').replace(/^20/, ''), revenue: r.current.revenue, prior: r.prior?.revenue, operatingIncome: r.current.operatingIncome, healthShare: share, spark: sp, cagr: sp.length >= 3 && sp[0] > 0 ? ((sp[sp.length - 1] / sp[0]) ** (1 / (sp.length - 1)) - 1) * 100 : null, self: o.id === c.id });
+      const ys = (fhs[o.id]?.years ?? []).filter((y) => y.revenue != null).sort((a, b) => a.fy.localeCompare(b.fy)).slice(-10);
+      const sp = ys.map((y) => y.revenue!);
+      // 年平均の伸びは決算期末の間の実際の年数で割る。両端が変則決算（12か月でない期）なら出さない
+      const odd = (y?: { note?: string }) => /変則|決算期変更|\d+\s*(か月|カ月|ヶ月)/.test(y?.note ?? '');
+      const span = ys.length >= 3 ? ((Number(ys[ys.length - 1].fy.slice(0, 4)) * 12 + Number(ys[ys.length - 1].fy.slice(5, 7))) - (Number(ys[0].fy.slice(0, 4)) * 12 + Number(ys[0].fy.slice(5, 7)))) / 12 : 0;
+      const cagr = span >= 1 && sp[0] > 0 && !odd(ys[0]) && !odd(ys[ys.length - 1]) ? ((sp[sp.length - 1] / sp[0]) ** (1 / span) - 1) * 100 : null;
+      rows.push({ id: o.id, name: o.name.replace(/^株式会社|株式会社$/g, '').replace(/ホールディングス/, 'HD'), fy: r.fiscalYear.replace(/年(\d+)月期/, '/$1').replace(/^20/, ''), revenue: r.current.revenue, prior: comparable(r) ? r.prior?.revenue : undefined, operatingIncome: r.current.operatingIncome, healthShare: share, spark: sp, cagr, cagrYears: Math.round(span), self: o.id === c.id });
     }
     rows.sort((a, b) => b.revenue - a.revenue);
     const top = rows.slice(0, 6);
@@ -160,7 +165,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           <dl>
             <dt>資本</dt><dd>{c.exit === '上場' ? `上場（${c.listedMarket ?? ''}${c.securitiesCode ? `・${c.securitiesCode}` : ''}）` : c.exit}{c.parentCompany ? <small>親会社：{c.parentCompany}</small> : null}</dd>
             {latestRep ? (
-              <><dt>業績</dt><dd>売上高 {money(latestRep.current?.revenue)}{latestRep.current?.operatingIncome != null ? `／営業利益 ${money(latestRep.current.operatingIncome)}` : ''}<small>{latestRep.label.replace(/（中間期）/, '')}</small></dd>
+              <><dt>業績</dt><dd>売上高 {revenueText(latestRep)}{latestRep.current?.operatingIncome != null ? `／営業利益 ${money(latestRep.current.operatingIncome)}` : ''}<small>{latestRep.label.replace(/（中間期）/, '')}</small></dd>
               {hc && !hc.whole && hc.revenue != null ? <><dt>ヘルスケア</dt><dd><Link href={`/earnings/${c.id}/`}>{money(hc.revenue)}</Link>{hc.share != null ? `（全社の${hc.share.toFixed(0)}%）` : ''}<small>{hc.names.join('、')}・{segRep!.label.replace(/（中間期）/, '')}</small></dd></> : null}</>
             ) : fs?.total?.kind === '会社発表の累計' ? (
               <><dt>資金調達</dt><dd><a href="#funding">累計 {money(fs.total.amount)}</a><small>会社発表{fs.total.asOf ? `（${ymJa(fs.total.asOf)}時点）` : ''}・発表 {fs.raises.length}回</small></dd></>
@@ -234,15 +239,15 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                     <thead><tr><th>決算期</th><th>売上高</th><th>前年比</th><th>営業利益</th><th>純利益</th><th>会社予想（売上高／営業利益）</th></tr></thead>
                     <tbody>
                       {reports.map((r) => {
-                        const g = yoy(r.current?.revenue, r.prior?.revenue), f = forecastOf(r);
+                        const g = growth(r);
                         return (
                           <tr key={r.date + r.label}>
                             <td className="nw">{r.pdf ? <a href={r.pdf} target="_blank" rel="noreferrer">{r.label.replace(/（中間期）/, '')}</a> : r.label}<small>{r.date.replace(/-/g, '/')} 発表</small></td>
-                            <td className="num">{money(r.current?.revenue)}</td>
-                            <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{pct(g)}</td>
+                            <td className="num">{revenueText(r)}{r.revenueLabel && r.revenueLabel !== '売上高' && <small>{r.revenueLabel}</small>}</td>
+                            <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{comparable(r) ? pct(g) : <span className="muted small" title={notComparableText(r)}>比較なし</span>}</td>
                             <td className={`num ${(r.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.operatingIncome)}</td>
                             <td className={`num ${(r.current?.netIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.netIncome)}</td>
-                            <td className="num fc">{f ? <>{money(f.revenue)}／{money(f.operatingIncome)}<small>{forecastLabel(r)}</small></> : '—'}</td>
+                            <td className="num fc">{hasForecast(r) ? <>{forecastText(r, 'revenue') ?? '—'}／{forecastText(r, 'operatingIncome') ?? '—'}<small>{forecastLabel(r)}</small></> : <span className="muted small">{noForecastText(r)}</span>}</td>
                           </tr>
                         );
                       })}

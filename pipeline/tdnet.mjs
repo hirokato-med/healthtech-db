@@ -65,10 +65,21 @@ const ITEM = [
   ['ordinaryIncome', /^(OrdinaryIncome|ProfitBeforeTaxIFRS|IncomeBeforeIncomeTaxesUS)$/],
   ['netIncome', /^(ProfitAttributableToOwnersOfParent|ProfitAttributableToOwnersOfParentIFRS|NetIncome|NetIncomeAttributableToOwnersOfParentUS)$/],
 ];
+// 期間の月数（2025-02-01〜2025-08-31 → 7）
+const monthsOf = (a, b) => { const [ya, ma] = a.split('-').map(Number); const [yb, mb] = b.split('-').map(Number); return (yb - ya) * 12 + (mb - ma) + 1; };
 function parseSummary(html) {
   const facts = {};
+  // 各期間（context）の始まりと終わり。前期が変則決算（例：7か月）なら前年比を出さないために使う
+  const period = {};
+  for (const m of html.matchAll(/<xbrli:context id="([^"]+)">([\s\S]*?)<\/xbrli:context>/g)) {
+    const st = m[2].match(/<xbrli:startDate>([^<]+)/)?.[1], en = m[2].match(/<xbrli:endDate>([^<]+)/)?.[1];
+    if (st && en) period[m[1].split('_')[0]] = monthsOf(st, en);
+  }
+  // 予想の要素が「値なし（xsi:nil）」で出ているか：会社が予想を開示していないときの印
+  const nilForecast = /<ix:nonFraction[^>]*contextRef="(Current|Next)YearDuration[^"]*ForecastMember"[^>]*xsi:nil="true"[^>]*\/>/.test(html);
   // 値の無い要素（<ix:nonFraction ... xsi:nil="true"/>）は先に除く（残すと次の要素の値を飲み込む）
   html = html.replace(/<ix:nonFraction[^>]*\/>/g, '');
+  const range = {};
   for (const m of html.matchAll(/<ix:nonFraction([^>]*)>([\s\S]*?)<\/ix:nonFraction>/g)) {
     const a = m[1];
     const name = (a.match(/name="[^:"]+:([^"]+)"/) ?? [])[1];
@@ -81,13 +92,56 @@ function parseSummary(html) {
     const v = Number(raw) * 10 ** scale * (/sign="-"/.test(a) ? -1 : 1);
     const when = /^Current(Year|Accumulated\w+)Duration/.test(ctx) ? (ctx.includes('ForecastMember') ? 'forecast' : 'current')
       : /^Prior(Year|Accumulated\w+)Duration/.test(ctx) ? 'prior' : /^NextYearDuration/.test(ctx) && ctx.includes('ForecastMember') ? 'nextForecast' : null;
-    if (!when || /LowerMember|UpperMember/.test(ctx)) continue;
-    if (!/ResultMember|ForecastMember/.test(ctx)) continue;
     const scope = ctx.includes('NonConsolidatedMember') ? 'non' : 'con';
+    // レンジの予想（下限・上限）は forecastRange / nextForecastRange に [下限, 上限] で持つ
+    const lu = /LowerMember/.test(ctx) ? 0 : /UpperMember/.test(ctx) ? 1 : -1;
+    const rwhen = /^CurrentYearDuration/.test(ctx) ? 'forecastRange' : /^NextYearDuration/.test(ctx) ? 'nextForecastRange' : null;
+    if (lu >= 0) { if (rwhen) (((range[scope] ??= {})[rwhen] ??= {})[item] ??= [null, null])[lu] = Math.round(v / 1e6); continue; }
+    if (!when) continue;
+    if (!/ResultMember|ForecastMember/.test(ctx)) continue;
     ((facts[scope] ??= {})[when] ??= {})[item] = Math.round(v / 1e6); // 百万円
   }
-  const f = facts.con ?? facts.non;
-  return f ? { consolidated: !!facts.con, ...f } : null;
+  const key = facts.con || range.con ? 'con' : 'non';
+  const f = { ...(facts[key] ?? {}), ...(range[key] ?? {}) };
+  if (!Object.keys(f).length) return null;
+  // 当期と前期の月数（四半期は累計の月数）。違えば前年比は出さない
+  const cur = period.CurrentYearDuration && !Object.keys(period).some((k) => /^CurrentAccumulated/.test(k)) ? period.CurrentYearDuration : Object.entries(period).find(([k]) => /^CurrentAccumulated/.test(k))?.[1];
+  const pri = Object.entries(period).find(([k]) => /^PriorAccumulated/.test(k))?.[1] ?? period.PriorYearDuration;
+  const months = cur && pri ? { months: cur, priorMonths: pri } : {};
+  // 予想が無いとき：要素はあるが値なし＝会社が開示していない／要素ごと無い＝取り込めなかった（区別して残す）
+  const fc = f.forecast || f.nextForecast || f.forecastRange || f.nextForecastRange ? undefined : nilForecast ? 'not-disclosed' : 'not-captured';
+  return { consolidated: key === 'con', ...f, ...months, ...(fc ? { forecastStatus: fc } : {}) };
+}
+// 売上の名前が「事業収益」「営業収益」などで XBRL のサマリーに売上が無いとき、決算短信の PDF の1ページ目から読む（百万円）
+const REV_LABEL = /(売上高|売上収益|営業収益|事業収益|営業収入|経常収益)/;
+function revenueFromPdf(pdf) {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'tdnet-pdf-'));
+  try {
+    const f = path.join(tmp, 'a.pdf');
+    execFileSync('curl', ['-s', '-A', UA['User-Agent'], '-o', f, pdf]);
+    const t = execFileSync('pdftotext', ['-l', '1', '-layout', '-enc', 'UTF-8', f, '-'], { stdio: ['ignore', 'pipe', 'ignore'] }).toString('utf8');
+    const lines = t.normalize('NFKC').split('\n');
+    const head = lines.findIndex((l) => REV_LABEL.test(l));
+    if (head < 0) return null;
+    const label = lines[head].match(REV_LABEL)[1];
+    // 行の最初の欄だけを読む。「－」は計上なし（'none'）。売上がマイナスはありえないので読み違いとして捨てる
+    const num = (l) => {
+      const tok = l.trim().split(/\s+/)[0] ?? '';
+      if (/^[－―\-–]$/.test(tok)) return 'none';
+      const m = tok.match(/^(△|▲)?([\d,]+(?:\.\d+)?)$/);
+      if (!m || m[1]) return null;
+      return Number(m[2].replace(/,/g, ''));
+    };
+    // 業績の表：見出しのすぐ下の「YYYY年M月期…」の行を当期・前期の順に
+    const rows = lines.slice(head + 1, head + 8).filter((l) => /^\s*\d{4}年\s*\d{1,2}月期/.test(l)).map((l) => num(l.replace(/^\s*\d{4}年\s*\d{1,2}月期\S*/, '')));
+    // 業績予想の表：2つめの見出しの下の「通期」の行
+    const head2 = lines.findIndex((l, i) => i > head + 2 && REV_LABEL.test(l));
+    const fl = head2 > 0 ? lines.slice(head2 + 1, head2 + 8).find((l) => /^\s*通期/.test(l)) : null;
+    const forecast = fl ? num(fl.replace(/^\s*通期/, '')) : null;
+    if (rows[0] == null) return null;
+    const val = (v) => (typeof v === 'number' ? v : null);
+    return { label, current: val(rows[0]), prior: val(rows[1]), forecast: val(forecast), absent: rows[0] === 'none' };
+  } catch { return null; } finally { fs.rmSync(tmp, { recursive: true, force: true }); }
 }
 // 業績予想の修正（tse-rvfc）：修正前（PreviousMember）と修正後（CurrentMember）の通期予想
 function parseRevision(html) {
@@ -127,6 +181,7 @@ function parseXbrl(url, kind = 'summary') {
     fs.rmSync(tmp, { recursive: true, force: true });
   }
 }
+const per0 = (t) => (/第[123]四半期|中間期/.test(t.normalize('NFKC')) ? 'Q' : 'FY');
 const periodOf = (t) => {
   const t2 = t.normalize('NFKC');
   const fy = (t2.match(/(\d{4})年(\d{1,2})月期/) ?? [])[0] ?? '';
@@ -150,6 +205,17 @@ for (let i = 0; i < days; i++) {
     added++;
     if (kind === '決算短信' && r.xbrl && !/訂正/.test(r.title)) {
       const x = parseXbrl(r.xbrl);
+      // 売上が XBRL に無い会社（事業収益など）は PDF から補う。補ったら何の名前だったかを残す
+      if (x && x.current && x.current.revenue == null) {
+        const pr = revenueFromPdf(r.pdf);
+        if (pr?.absent) { x.revenueAbsent = true; x.revenueLabel = pr.label; }
+        else if (pr && pr.current != null) {
+          x.current.revenue = pr.current;
+          if (pr.prior != null) (x.prior ??= {}).revenue = pr.prior;
+          if (pr.forecast != null) (x[per0(r.title) === 'FY' ? 'nextForecast' : 'forecast'] ??= {}).revenue = pr.forecast;
+          x.revenueLabel = pr.label;
+        }
+      }
       if (x) {
         const e = (earnings[c.id] ??= { code: c.securitiesCode, reports: [] });
         const per = periodOf(r.title);

@@ -1111,6 +1111,7 @@ a.upd-title:hover { color: var(--navy); }
 .fh-svg { width: 100%; height: auto; display: block; }
 .fh-bar { fill: #9fcfd3; }
 .fh-bar.last { fill: var(--teal); }
+.fh-bar.irregular { fill: #c9e3e6; stroke: #9fcfd3; stroke-dasharray: 3 2; }
 ul.fh-ev { list-style: none; margin: 16px 0 0; padding: 0; columns: 2; column-gap: 26px; font-size: 13px; }
 ul.fh-ev li { break-inside: avoid; padding: 5px 0; border-bottom: 1px solid var(--line); display: flex; gap: 8px; align-items: center; }
 ul.fh-ev b { display: inline-flex; width: 18px; height: 18px; border-radius: 50%; color: #fff; font-size: 10px; align-items: center; justify-content: center; flex: none; }

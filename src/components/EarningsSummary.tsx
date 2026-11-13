@@ -1,4 +1,4 @@
-import { change, forecastLabel, forecastOf, money, periodRange } from '@/lib/earnings';
+import { change, comparable, forecastLabel, notComparableText, forecastOf, forecastRangeOf, forecastText, money, noForecastText, periodRange } from '@/lib/earnings';
 import type { EarningsReport } from '@/lib/types';
 
 const ROWS: [keyof NonNullable<EarningsReport['current']>, string][] = [
@@ -12,9 +12,13 @@ const ROWS: [keyof NonNullable<EarningsReport['current']>, string][] = [
 export function EarningsSummary({ r, prevForecast }: { r: EarningsReport; prevForecast?: { label: string; fig: NonNullable<EarningsReport['forecast']> } }) {
   const q = r.quarter !== 'FY';
   const f = forecastOf(r);
-  const rows = ROWS.filter(([k]) => r.current?.[k] != null);
+  // 売上の科目名は会社ごとに違う（売上収益・事業収益・経常収益など）ので、決算短信の呼び名で出す
+  const rows = ROWS.filter(([k]) => r.current?.[k] != null).map(([k, l]) => [k, k === 'revenue' && r.revenueLabel ? r.revenueLabel : l] as const);
   const fcText = (() => {
-    if (!f) return '';
+    // レンジで開示された予想は「下限〜上限」で書く（増減率は出さない）
+    const rg = forecastRangeOf(r);
+    if (!f && rg) return `${forecastLabel(r)}はレンジで開示：${ROWS.filter(([k]) => forecastText(r, k)).map(([k, l]) => `${l}${forecastText(r, k)}`).join('・')}。`;
+    if (!f) return `${noForecastText(r)}。`;
     const base = q ? undefined : r.current; // 通期決算なら次期予想を当期実績と比べる
     const parts = ROWS.filter(([k]) => f[k] != null).map(([k, l]) => {
       const c = base ? change(f[k], base[k]) : undefined;
@@ -29,11 +33,12 @@ export function EarningsSummary({ r, prevForecast }: { r: EarningsReport; prevFo
         <b>{r.fiscalYear} {q ? r.label.replace(/^.*?期 /, '').replace(/（中間期）/, '') + '累計' : '通期'}（{periodRange(r.fiscalYear, r.quarter)}）</b>
         <span>{r.title.match(/業績予想/) ? '業績予想の修正' : '決算短信'}・{r.date.replace(/-/g, '/')}{r.consolidated === false ? '・個別' : ''}</span>
       </div>
+      {!comparable(r) && <p className="muted small" style={{ margin: '0 0 6px' }}>{notComparableText(r)}（変則決算・決算期変更）。前年同期比は出していません。</p>}
       <table>
         <thead><tr><th /><th>{q ? '今期（累計）' : '今期'}</th><th>前年同期</th><th>前年同期比</th></tr></thead>
         <tbody>
           {rows.map(([k, l]) => {
-            const c = change(r.current?.[k], r.prior?.[k]);
+            const c = comparable(r) ? change(r.current?.[k], r.prior?.[k]) : { text: '比較なし', tone: '' as const };
             return (
               <tr key={k}>
                 <th scope="row">{l}</th>
