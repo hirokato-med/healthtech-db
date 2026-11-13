@@ -19,7 +19,8 @@ const ym = (v) => (typeof v === 'string' && /^\d{4}(-\d{2}){0,2}$/.test(v.trim()
 const KINDS = new Set(['official', 'sec', 'regulator', 'exchange', 'news', 'wikipedia', 'database']);
 const src = (s) => (s && str(s.url) ? { url: s.url.trim(), ...(ym(s.published) ? { published: s.published.trim() } : {}), kind: KINDS.has(s.kind) ? s.kind : 'news' } : undefined);
 const srcs = (a) => (Array.isArray(a) ? a.map(src).filter(Boolean) : []);
-const LISTING = new Set(['未上場', '上場', '上場廃止', '買収', '閉鎖']);
+// 事業譲渡：会社ではなく、技術・知的財産・事業だけを他社が取得した（Riffyn → Siemens など）
+const LISTING = new Set(['未上場', '上場', '上場廃止', '買収', '事業譲渡', '閉鎖']);
 
 let n = 0, unverified = 0;
 for (const f of process.argv.slice(2)) for (const x of JSON.parse(fs.readFileSync(f, 'utf8'))) {
@@ -40,7 +41,7 @@ for (const f of process.argv.slice(2)) for (const x of JSON.parse(fs.readFileSyn
       o.listing = c.listing;
       for (const k of ['listedAt', 'acquiredAt', 'closedAt', 'delistedAt']) { const v = ym(c[k]); if (v) o[k] = v.slice(0, 7); else delete o[k]; }
       for (const k of ['market', 'ticker', 'acquiredBy']) { const v = str(c[k]); if (v) o[k] = v; else delete o[k]; }
-      if (o.listing !== '買収') { delete o.acquiredBy; delete o.acquiredAt; }
+      if (!['買収', '事業譲渡'].includes(o.listing)) { delete o.acquiredBy; delete o.acquiredAt; }
     }
   }
   if (x.activity) {

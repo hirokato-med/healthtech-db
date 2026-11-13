@@ -8,6 +8,7 @@ export const metadata: Metadata = { title: '海外ヘルステック企業', des
 const listingText = (o: Overseas) =>
   o.listing === '上場' ? `上場${o.listedAt ? `（${ym(o.listedAt)}${o.market ? `・${o.market}` : ''}）` : ''}`
   : o.listing === '買収' ? `${o.acquiredBy ?? ''}が買収${o.acquiredAt ? `（${ym(o.acquiredAt)}）` : ''}`
+  : o.listing === '事業譲渡' ? `${o.acquiredBy ?? '他社'}が技術・事業を取得${o.acquiredAt ? `（${ym(o.acquiredAt)}）` : ''}`
   : o.listing === '閉鎖' ? `閉鎖${o.closedAt ? `（${ym(o.closedAt)}）` : ''}`
   : o.listing === '上場廃止' ? `上場廃止${o.delistedAt ? `（${ym(o.delistedAt)}）` : ''}` : o.listing ?? '';
 const KIND: Record<OverseasSource['kind'], string> = { official: '公式', sec: 'SEC', regulator: '規制当局', exchange: '取引所', news: '報道', wikipedia: 'Wikipedia', database: '企業DB' };

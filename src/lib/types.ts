@@ -97,7 +97,7 @@ export type Overseas = {
   checkedAt?: string;
   description?: string;
   /** 上場・資本の状態（いまの事業が続いているかは activity で別に持つ） */
-  listing?: '未上場' | '上場' | '上場廃止' | '買収' | '閉鎖';
+  listing?: '未上場' | '上場' | '上場廃止' | '買収' | '事業譲渡' | '閉鎖';
   listedAt?: string;
   market?: string;
   ticker?: string;
