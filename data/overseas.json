@@ -13,7 +13,28 @@
     "note": "",
     "areas": [
       "Clinic Chain"
-    ]
+    ],
+    "listing": "閉鎖",
+    "closedAt": "2024-11",
+    "activity": "事業終了",
+    "description": "会員制のテック主導型プライマリケアを提供していた米国企業。センサーや AI を使う診療所と、無人の自己検査ブース「CarePod」を展開したが、2024年11月に全拠点とアプリを閉じた。",
+    "events": [
+      {
+        "date": "2023-11",
+        "text": "AI 搭載の自己検査ブース CarePod を発表、シリーズE（負債含む）で1億ドルを調達"
+      },
+      {
+        "date": "2024-11",
+        "text": "全拠点・アプリを即日閉鎖し事業を終了"
+      }
+    ],
+    "sources": [
+      "https://www.maginative.com/article/ai-healthcare-startup-forward-shuts-down/",
+      "https://www.fiercehealthcare.com/health-tech/primary-care-player-forward-shutters-after-raising-400m-rolling-out-carepods",
+      "https://beckershospitalreview.com/digital-health/doctor-in-a-box-startup-shutters.html"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-0b40fafe",
@@ -24,49 +45,122 @@
     "hp": "https://www.onemedical.com/",
     "exit": "Active",
     "founders": [
-      "Tom X. Lee",
-      "MD"
+      "Tom X. Lee"
     ],
     "note": "Unicorn",
     "areas": [
       "Clinic Chain"
-    ]
+    ],
+    "listing": "買収",
+    "listedAt": "2020-01",
+    "acquiredAt": "2023-02",
+    "market": "Nasdaq",
+    "ticker": "ONEM",
+    "acquiredBy": "Amazon",
+    "activity": "事業継続",
+    "description": "会員制のプライマリケアを、対面のクリニックと24時間のオンライン診療で提供する米国企業。運営会社は 1Life Healthcare。2023年に Amazon の傘下に入った。",
+    "events": [
+      {
+        "date": "2020-01",
+        "text": "1Life Healthcare として Nasdaq に上場（ONEM）"
+      },
+      {
+        "date": "2022-07",
+        "text": "Amazon が約39億ドルでの買収を発表"
+      },
+      {
+        "date": "2023-02",
+        "text": "Amazon による買収が完了し上場廃止"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/One_Medical",
+      "https://www.onemedical.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-098601a8",
-    "name": "WellDoc",
+    "name": "Welldoc",
     "country": "United States",
     "region": "US",
     "foundedYear": 2005,
     "hp": "https://www.welldoc.com/",
     "exit": "Active",
     "founders": [
-      "Kevin McRaith"
+      "Ryan Sysko",
+      "Suzanne Sysko Clough"
     ],
     "note": "エビデンスやばい",
     "areas": [
       "DMP"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "糖尿病などの慢性疾患の自己管理を AI で支えるデジタルヘルス企業。処方型の糖尿病管理アプリ（旧 BlueStar、現 Welldoc Diabetes Rx）で FDA の 510(k) クリアランスを計11件持つ。",
+    "events": [
+      {
+        "date": "2010-07",
+        "text": "糖尿病管理ソフト DiabetesManager（のちの BlueStar）が FDA 510(k) クリアランスを取得（K100066）"
+      }
+    ],
+    "sources": [
+      "https://www.hcinnovationgroup.com/clinical-it/article/13023165/2014-up-and-comer-welldoc",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K100066",
+      "https://www.welldoc.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-96843a71",
-    "name": "athenaHealth",
+    "name": "athenahealth",
     "country": "United States",
     "region": "US",
     "foundedYear": 1997,
     "hp": "https://www.athenahealth.com/",
     "exit": "IPO",
     "founders": [
+      "Jonathan Bush",
       "Todd Park"
     ],
     "note": "",
     "areas": [
       "EHR"
-    ]
+    ],
+    "listing": "上場廃止",
+    "listedAt": "2007-09",
+    "delistedAt": "2019-02",
+    "market": "Nasdaq",
+    "ticker": "ATHN",
+    "activity": "事業継続",
+    "description": "診療所や医療機関向けに、クラウド型の電子カルテ・診療報酬請求（RCM）・患者エンゲージメントのソフトウェアを提供する米国企業。",
+    "events": [
+      {
+        "date": "2007-09",
+        "text": "Nasdaq に上場（ATHN）"
+      },
+      {
+        "date": "2019-02",
+        "text": "Veritas Capital・Elliott 系ファンドが約57億ドルで買収、非公開化"
+      },
+      {
+        "date": "2022-02",
+        "text": "Bain Capital と Hellman & Friedman が約170億ドルで取得"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Athenahealth",
+      "https://www.veritascapital.com/veritas-capital-completes-acquisition-of-athenahealth/",
+      "https://www.businesswire.com/news/home/20220215005801/en"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-530e988f",
-    "name": "ZocDoc",
+    "name": "Zocdoc",
     "country": "United States",
     "region": "US",
     "foundedYear": 2007,
@@ -80,28 +174,69 @@
     "note": "Unicorn",
     "areas": [
       "Telemedicine"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "患者が保険・専門科・空き枠から医師を探し、オンラインで対面またはビデオ診療を予約できる米国の医療予約プラットフォーム。医療機関側が料金を払う。",
+    "events": [
+      {
+        "date": "2007-09",
+        "text": "TechCrunch40 でサービス開始"
+      },
+      {
+        "date": "2015-08",
+        "text": "評価額18億ドルで資金調達"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zocdoc",
+      "https://www.zocdoc.com/about/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-bb03f0f3",
-    "name": "Peloton",
+    "name": "Peloton Interactive",
     "country": "United States",
     "region": "US",
     "foundedYear": 2012,
-    "hp": "https://www.onepeloton.com/bike",
+    "hp": "https://www.onepeloton.com/",
     "exit": "Active",
     "founders": [
-      "Dion Weisler",
-      "Graham Stanton",
       "John Foley",
       "Tom Cortese",
-      "Yony Feng"
+      "Graham Stanton",
+      "Yony Feng",
+      "Hisao Kushi"
     ],
     "note": "Unicorn",
     "areas": [
       "D2C",
       "Fitness"
-    ]
+    ],
+    "listing": "上場",
+    "listedAt": "2019-09",
+    "market": "Nasdaq",
+    "ticker": "PTON",
+    "activity": "事業継続",
+    "description": "ネット接続型のフィットネスバイク・トレッドミルと、ライブ・オンデマンドのトレーニング配信サブスクリプションを提供する米国企業。",
+    "events": [
+      {
+        "date": "2019-09",
+        "text": "Nasdaq に上場（PTON）、約11.6億ドルを調達"
+      },
+      {
+        "date": "2025-01",
+        "text": "元 Apple の Peter Stern が CEO に就任"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peloton_Interactive",
+      "https://investor.onepeloton.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-fb1822cc",
@@ -112,14 +247,34 @@
     "hp": "https://www.pillpack.com/",
     "exit": "Acquired",
     "founders": [
-      "Brian Hoffer",
-      "Elliot Cohen",
-      "TJ Parker"
+      "TJ Parker",
+      "Elliot Cohen"
     ],
     "note": "",
     "areas": [
       "Online Medicine"
-    ]
+    ],
+    "listing": "買収",
+    "acquiredAt": "2018-06",
+    "acquiredBy": "Amazon",
+    "activity": "事業継続",
+    "description": "複数の処方薬を服用日時ごとに小分け包装して郵送するオンライン薬局。2018年に Amazon が買収し、現在は Amazon Pharmacy のサービスとして続いている。",
+    "events": [
+      {
+        "date": "2018-06",
+        "text": "Amazon が約7.5億ドルでの買収を発表"
+      },
+      {
+        "date": "2019-11",
+        "text": "「PillPack by Amazon Pharmacy」にブランド変更"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/PillPack",
+      "https://www.pillpack.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-e036867f",
@@ -139,7 +294,7 @@
       "DMP"
     ],
     "checkedAt": "2026-11",
-    "description": "糖尿病予防・2型糖尿病・高血圧などの生活習慣病を、遠隔のコーチングと接続機器で支える米国のバーチャルケア企業。主に雇用主・保険者が費用を払う。",
+    "description": "糖尿病予防・2型糖尿病・高血圧・肥満・筋骨格系の悩みを、遠隔のコーチングと接続機器で支える米国のバーチャルケア企業。主に雇用主・保険者が費用を払う。",
     "listing": "上場",
     "listedAt": "2025-06",
     "market": "Nasdaq",
@@ -148,89 +303,249 @@
     "events": [
       {
         "date": "2025-06",
-        "text": "Nasdaq に上場（ティッカー OMDA）"
+        "text": "Nasdaq に上場（OMDA）、1株19ドルで約1.5億ドルを調達"
       }
     ],
     "sources": [
-      "https://www.omadahealth.com/about-us",
-      "https://www.sec.gov/Archives/edgar/data/1611115/000119312525137394/d785770d424b4.htm"
-    ]
+      "https://www.sec.gov/Archives/edgar/data/1611115/000119312525116907/d785770ds1.htm",
+      "https://www.iposcoop.com/the-ipo-buzz-omada-health-omda-prices-ipo-at-19-mid-point/"
+    ],
+    "confidence": "high"
   },
   {
     "id": "ov-16772e26",
     "name": "WebMD",
     "country": "United States",
     "region": "US",
-    "foundedYear": 1996,
+    "foundedYear": 1998,
     "hp": "https://www.webmd.com/",
     "exit": "Acquired",
     "founders": [
-      "Bruce Springer"
+      "Jeff Arnold"
     ],
     "note": "",
     "areas": [
       "Web Media"
-    ]
+    ],
+    "listing": "買収",
+    "acquiredAt": "2017-09",
+    "acquiredBy": "Internet Brands（KKR 傘下）",
+    "activity": "事業継続",
+    "description": "一般向けの医療・健康情報サイトを運営する米国企業。医療者向けの Medscape なども持つ。2017年に KKR 傘下の Internet Brands に買収された。",
+    "events": [
+      {
+        "date": "1999-11",
+        "text": "Healtheon と合併（Healtheon/WebMD）"
+      },
+      {
+        "date": "2017-07",
+        "text": "Internet Brands が約28億ドルでの買収を発表"
+      },
+      {
+        "date": "2017-09",
+        "text": "株式公開買付けが完了し Nasdaq 上場廃止"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/WebMD",
+      "https://www.webmd.com/corporate/press/20170915/internet-brands-kkr-portfolio-company-successfully-completes"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-d7db37d1",
-    "name": "oscar health",
+    "name": "Oscar Health",
     "country": "United States",
     "region": "US",
     "foundedYear": 2012,
     "hp": "https://www.hioscar.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Joshua Kushner",
+      "Mario Schlosser",
+      "Kevin Nazemi"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "listedAt": "2021-03",
+    "market": "NYSE",
+    "ticker": "OSCR",
+    "activity": "事業継続",
+    "description": "個人向け（ACA マーケットプレイス）を中心に医療保険を販売する米国のテック系保険会社。自社開発の会員アプリや保険運営プラットフォームも外部に提供する。",
+    "events": [
+      {
+        "date": "2021-03",
+        "text": "NYSE に上場（OSCR）、約12億ドルを調達"
+      },
+      {
+        "date": "2023-04",
+        "text": "Mark Bertolini が CEO に就任"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Oscar_Health",
+      "https://ir.hioscar.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-5c47471b",
-    "name": "United Health",
+    "name": "UnitedHealth Group",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 1977,
     "hp": "https://www.unitedhealthgroup.com/",
     "exit": "IPO",
-    "founders": [],
+    "founders": [
+      "Richard T. Burke"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "market": "NYSE",
+    "ticker": "UNH",
+    "activity": "事業継続",
+    "description": "米国最大級の医療保険・ヘルスケア企業。保険事業の UnitedHealthcare と、診療・データ分析・薬剤給付管理（PBM）を担う Optum の2部門で事業を行う。",
+    "events": [
+      {
+        "date": "2022-10",
+        "text": "Change Healthcare の買収を完了"
+      },
+      {
+        "date": "2024-02",
+        "text": "子会社 Change Healthcare がランサムウェア攻撃を受け、全米の請求処理が長期停止"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+      "https://www.unitedhealthgroup.com/",
+      "https://en.wikipedia.org/wiki/Optum"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-fd217335",
-    "name": "amino",
+    "name": "Amino Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://partners.amino.com/home",
+    "foundedYear": 2013,
+    "hp": "https://amino.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "David Vivero"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2025-06",
+    "acquiredBy": "Capital Rx（現 Judi Health）",
+    "activity": "不明",
+    "description": "医療費の価格比較と医師・医療機関の検索・予約を行うケアナビゲーションの米国企業。主に雇用主や保険者の福利厚生として加入者に提供していた。",
+    "events": [
+      {
+        "date": "2017-12",
+        "text": "2,500万ドルを調達"
+      },
+      {
+        "date": "2025-06",
+        "text": "Capital Rx（現 Judi Health）が買収（CB Insights 掲載）"
+      }
+    ],
+    "sources": [
+      "https://www.axios.com/2017/12/15/health-care-transparency-company-amino-raises-25-million-1513301332",
+      "https://www.fortune.com/ranking/40-under-40/2022/david-vivero",
+      "https://www.cbinsights.com/compare/amino1-vs-grand-rounds"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-d74e6c8a",
-    "name": "TruePill",
+    "name": "Truepill",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.truepill.com/",
+    "foundedYear": 2016,
+    "hp": "https://rx.fuzehealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Sid Viswanathan",
+      "Umar Afridi"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2024-10",
+    "acquiredBy": "LetsGetChecked（現 Fuze Health）",
+    "activity": "事業継続",
+    "description": "遠隔医療企業や製薬会社向けに、処方薬の調剤・配送を API で提供するデジタル薬局基盤の企業。現在は Fuze Health の薬局事業（FuzeRx）として続いている。",
+    "events": [
+      {
+        "date": "2021-10",
+        "text": "評価額約16億ドルで資金調達"
+      },
+      {
+        "date": "2024-10",
+        "text": "アイルランドの在宅検査企業 LetsGetChecked による買収が完了"
+      },
+      {
+        "date": "2025-05",
+        "text": "統合会社が Fuze Health として始動"
+      }
+    ],
+    "sources": [
+      "https://www.axios.com/2024/08/21/truepill-swallowed-525-million-letsgetchecked",
+      "https://www.businesswire.com/news/home/20250521890600/en",
+      "https://www.mobihealthnews.com/news/truepill-taps-sid-viswanathan-next-ceo-and-other-digital-health-hires"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-40519460",
-    "name": "Livongo",
+    "name": "Livongo Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.livongo.com/",
+    "foundedYear": 2014,
+    "hp": "https://www.teladochealth.com/livongo",
     "exit": "IPO",
-    "founders": [],
+    "founders": [
+      "Glen Tullman"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "listedAt": "2019-07",
+    "acquiredAt": "2020-10",
+    "market": "Nasdaq",
+    "ticker": "LVGO",
+    "acquiredBy": "Teladoc Health",
+    "activity": "事業継続",
+    "description": "血糖計などの接続機器とデータ解析・コーチングで、糖尿病・高血圧・体重管理を支える慢性疾患管理サービス。現在は Teladoc Health の「Livongo by Teladoc Health」。",
+    "events": [
+      {
+        "date": "2019-07",
+        "text": "Nasdaq に上場（LVGO）"
+      },
+      {
+        "date": "2020-08",
+        "text": "Teladoc Health との合併を発表"
+      },
+      {
+        "date": "2020-10",
+        "text": "Teladoc による買収が完了し上場廃止"
+      }
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1639225/000119312519185159/d731249ds1.htm",
+      "https://en.wikipedia.org/wiki/Teladoc_Health",
+      "https://www.teladochealth.com/livongo"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-e0c1c390",
@@ -240,26 +555,84 @@
     "foundedYear": 2011,
     "hp": "https://www.alivecor.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "David Albert",
+      "Bruce Satchwell",
+      "Kim Barnett"
+    ],
     "note": "Omronと事業提携",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "スマートフォンにつなぐ携帯型心電計 KardiaMobile や、AI で心房細動などを判定する12誘導心電図システム Kardia 12L を開発する米国の医療機器企業。",
+    "events": [
+      {
+        "date": "2017-11",
+        "text": "Apple Watch 用心電計バンド KardiaBand が FDA クリアランスを取得"
+      },
+      {
+        "date": "2019-05",
+        "text": "6誘導の個人用心電計 KardiaMobile 6L が FDA クリアランスを取得"
+      },
+      {
+        "date": "2024-06",
+        "text": "AI 判定技術と Kardia 12L 心電図システムが FDA クリアランスを取得"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/AliveCor",
+      "https://alivecor.com/press"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-89fd7a52",
-    "name": "Smile Direct Club",
+    "name": "SmileDirectClub",
     "country": "United States",
     "region": "US",
-    "foundedYear": 2013,
+    "foundedYear": 2014,
     "hp": "https://smiledirectclub.com/",
     "exit": "IPO",
     "founders": [
-      "Alex Fenkell",
-      "Jordan Katzman"
+      "Jordan Katzman",
+      "Alex Fenkell"
     ],
     "note": "歯科領域D2C",
     "areas": [
       "D2C"
-    ]
+    ],
+    "listing": "閉鎖",
+    "listedAt": "2019-09",
+    "closedAt": "2023-12",
+    "market": "Nasdaq",
+    "ticker": "SDC",
+    "activity": "事業終了",
+    "description": "歯科医の遠隔確認のもと、透明なマウスピース型矯正装置を消費者に直接販売していた米国企業。2023年に破産し、同年12月に事業を停止した。",
+    "events": [
+      {
+        "date": "2019-09",
+        "text": "Nasdaq に上場（SDC）"
+      },
+      {
+        "date": "2023-09",
+        "text": "連邦破産法11条の適用を申請"
+      },
+      {
+        "date": "2023-12",
+        "text": "事業を即時停止"
+      },
+      {
+        "date": "2024-01",
+        "text": "破産手続を清算型の第7章に移行"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/SmileDirectClub",
+      "https://smileset.com/pages/former-smiledirectclub-customers"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-24227797",
@@ -271,67 +644,149 @@
     "exit": "",
     "founders": [],
     "note": "オンラインセラピー",
-    "areas": []
+    "areas": [],
+    "hidden": "特定できない"
   },
   {
     "id": "ov-6d495b55",
     "name": "Hometeam",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2013,
     "hp": "https://hometeamhealth.com/",
     "exit": "",
     "founders": [],
     "note": "在宅医療におけるサービス提供者とユーザーのマッチングサービス",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "高齢者や慢性疾患のある人の自宅に介護者を派遣する在宅ケアの米国企業。ニューヨーク・ニュージャージー・フィラデルフィアで展開し、のちに保険者払いへ軸を移した。",
+    "events": [
+      {
+        "date": "2015-07",
+        "text": "ステルスから公開し在宅介護サービスを開始"
+      },
+      {
+        "date": "2016-02",
+        "text": "Kaiser Permanente Ventures から500万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://techcrunch.com/2015/07/23/hometeam-emerges-from-stealth-to-bring-better-in-home-care-to-seniors",
+      "https://hitconsultant.net/2016/02/17/kaiser-permanente-ventures-pumps-5m-in-home-care-startup-hometeam/",
+      "https://www.mobihealthnews.com/news/hometeams-president-ceo-step-aside-company-shifts-toward-payer-reimbursement-strategy"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-cc4993c6",
     "name": "Studio Dental",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.studiodental.com/home",
+    "foundedYear": 2014,
+    "hp": "https://www.studiodental.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Sara Creighton",
+      "Lowell Caulder"
+    ],
     "note": "歯科領域D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "サンフランシスコの歯科医院。企業のオフィスに出向く移動式の歯科診療車から始まり、オンライン予約で検診・クリーニングなどを提供する。",
+    "events": [],
+    "sources": [
+      "https://rockhealth.com/uber-teeth-founders-story/",
+      "https://us.dental-tribune.com/news/studio-dental-unveils-a-230-square-foot-mobile-unit",
+      "https://www.studiodental.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-863ab25d",
     "name": "Modern Fertility",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://modernfertility.com/",
+    "foundedYear": 2017,
+    "hp": "https://ro.co/fertility/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Afton Vechery",
+      "Carly Leahy"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2021-05",
+    "acquiredBy": "Ro",
+    "activity": "事業継続",
+    "description": "自宅で採血して AMH などの妊よう性に関わるホルモンを調べる検査キットと、排卵・妊娠検査薬を販売する女性向けヘルスケア企業。現在は Ro のブランド。",
+    "events": [
+      {
+        "date": "2021-05",
+        "text": "Ro が2億2,500万ドル超で買収"
+      }
+    ],
+    "sources": [
+      "https://ro.co/press/ro-acquires-modern-fertility/",
+      "https://techcrunch.com/2021/05/19/ro-acquires-modern-fertility-in-a-reportedly-225-million-deal",
+      "https://ro.co/fertility/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-6111a972",
     "name": "AiCure",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2010,
     "hp": "https://aicure.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Adam Hanina"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "スマートフォンの映像と AI で服薬を確認し、臨床試験の参加者の服薬遵守や症状を遠隔で測る技術を、製薬会社などに提供するニューヨークの企業。",
+    "events": [],
+    "sources": [
+      "https://ncats.nih.gov/pubs/features/aicure-small-business",
+      "https://www.cbinsights.com/company/aicure/people",
+      "https://aicure.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-306f61b1",
     "name": "Practo",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
+    "country": "India",
+    "region": "ASIA",
+    "foundedYear": 2008,
     "hp": "https://www.practo.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Shashank ND",
+      "Abhinav Lal"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "インド・ベンガルールの医療プラットフォーム。医師検索・診療予約、オンライン診療、医療機関向けの診療管理ソフトなどを提供する。",
+    "events": [],
+    "sources": [
+      "https://www.practo.com/company/about",
+      "https://www.practo.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-b9b915d0",
@@ -342,94 +797,257 @@
     "hp": "https://ritual.com/",
     "exit": "",
     "founders": [
-      "Katerina Markov Schneider"
+      "Katerina Schneider"
     ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "成分の産地や根拠を開示したマルチビタミン・妊婦用ビタミン・プロテインなどのサプリメントを、定期便で消費者に直接販売するロサンゼルスの企業。",
+    "events": [
+      {
+        "date": "2017-08",
+        "text": "Founders Fund 主導でシリーズA 1,050万ドルを調達"
+      },
+      {
+        "date": "2019-02",
+        "text": "Norwest 主導でシリーズB 2,500万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://ritual.com/",
+      "https://techcrunch.com/2017/08/01/ritual-vitamins-pulls-in-10-5-million-from-founders-fund-to-scale-the-business",
+      "https://techcrunch.com/2019/02/05/ritual-raises-25m-for-its-subscription-based-womens-daily-vitamin"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-cb38633b",
     "name": "Care/of",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2016,
     "hp": "https://takecareof.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Craig Elbert",
+      "Akash Shah"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "閉鎖",
+    "closedAt": "2024-06",
+    "activity": "事業終了",
+    "description": "オンライン問診にもとづく個人別のビタミン・サプリメントを日ごとの小袋で定期配送していた米国企業。Bayer が過半を取得したのち、2024年に事業を終えた。",
+    "events": [
+      {
+        "date": "2020-09",
+        "text": "Bayer が約70%の株式を取得（評価額2.25億ドル）"
+      },
+      {
+        "date": "2024-06",
+        "text": "新規注文と定期便を停止し事業終了を発表"
+      }
+    ],
+    "sources": [
+      "https://www.nutraingredients.com/Article/2020/09/03/Bayer-buys-majority-stake-in-personalized-vitamin-startup-Care-of/",
+      "https://www.retaildive.com/news/careof-is-shutting-down/719106",
+      "https://www.nutraingredients-usa.com/Article/2024/06/07/Care-of-to-close-operations"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-50434f60",
     "name": "Candid",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.candidco.com/",
+    "foundedYear": 2017,
+    "hp": "https://www.candidpro.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Nick Greenfield"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "透明なマウスピース型矯正装置 CandidPro を、一般歯科医・矯正歯科医を通じて提供する米国企業。当初の消費者直販をやめ、歯科医院向けに転換した。",
+    "events": [],
+    "sources": [
+      "https://www.candidpro.com/about-us",
+      "https://www.aegisdentalnetwork.com/id/2023/04/an-interview-with-nick-greenfield-of-candid",
+      "https://www.dentaleconomics.com/science-tech/orthodontics/video/14232735/special-report-why-candid-dropped-direct-to-consumer"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-cbf9852b",
-    "name": "Hubble",
+    "name": "Hubble Contacts",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2016,
     "hp": "https://www.hubblecontacts.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Ben Cogan",
+      "Jesse Horwitz"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "1日使い捨てコンタクトレンズを、処方箋の確認を経て月額の定期便で消費者に直接販売する米国企業。低価格の自社ブランドレンズのほか他社製品も扱う。",
+    "events": [
+      {
+        "date": "2016-11",
+        "text": "720万ドルを調達"
+      },
+      {
+        "date": "2017-03",
+        "text": "1,650万ドルを調達"
+      },
+      {
+        "date": "2021-06",
+        "text": "Steve Druckman が CEO に就任（創業者2人は取締役に）"
+      }
+    ],
+    "sources": [
+      "https://techcrunch.com/2016/11/01/hubble-contacts-raises-7-2-million-to-deliver-disposable-lenses-direct-to-consumers",
+      "https://techcrunch.com/2017/03/07/hubble-raises-16-5-million-to-sell-disposable-contacts-direct-to-consumers",
+      "https://www.hubblecontacts.com/about-hubble/company-news/hubble-announces-steve-druckman-ceo"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-ad2e69c7",
     "name": "Keeps",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2017,
     "hp": "https://www.keeps.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Steve Gutentag",
+      "Demetri Karagas"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "男性の薄毛治療薬（フィナステリド・ミノキシジルなど）を、オンライン診療を経て定期配送する Thirty Madison のブランド。",
+    "events": [
+      {
+        "date": "2025-09",
+        "text": "親会社 Thirty Madison を Remedy Meds が約5億ドル（全額株式）で買収することで合意"
+      }
+    ],
+    "sources": [
+      "https://www.fiercehealthcare.com/telehealth/glp-1-newcomer-remedy-meds-acquire-thirty-madison-500m-deal",
+      "https://www.axios.com/2025/09/03/remedy-meds-thirty-madison-acquire",
+      "https://www.keeps.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-b4b0561f",
-    "name": "gingerIO",
+    "name": "Ginger",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://ginger.io/",
+    "foundedYear": 2011,
+    "hp": "https://organizations.headspace.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Anmol Madan",
+      "Karan Singh"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2021-10",
+    "acquiredBy": "Headspace（合併）",
+    "activity": "事業継続",
+    "description": "MIT メディアラボ発の、チャットでのメンタルヘルスコーチングとオンライン心理療法・精神科診療を雇用主向けに提供していた企業。現在は Headspace のサービスに統合。",
+    "events": [
+      {
+        "date": "2021-08",
+        "text": "Headspace との合併を発表（統合後の評価額30億ドル）"
+      },
+      {
+        "date": "2021-10",
+        "text": "合併が完了し Headspace Health が発足"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Headspace_(company)",
+      "https://www.tedmed.com/person/anmol-madan",
+      "https://organizations.headspace.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-269bc476",
-    "name": "Figure1",
-    "country": "United States",
+    "name": "Figure 1",
+    "country": "Canada",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2013,
     "hp": "https://figure1.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Joshua Landy",
+      "Richard Penner",
+      "Gregory Levey"
+    ],
     "note": "AI",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "医師・看護師・医学生などの医療者が、匿名化した症例画像を共有して議論する医療者向けのアプリ・サイト。トロントの企業。",
+    "events": [
+      {
+        "date": "2013-05",
+        "text": "北米でアプリを公開、200万カナダドルのシード資金を調達"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Figure_1",
+      "https://theeyeopener.com/2013/09/anatomy-of-a-selfie-dmz-makes-app-for-doctors/",
+      "https://figure1.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-347c6daf",
-    "name": "optum",
+    "name": "Optum",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2011,
     "hp": "https://www.optum.com/",
     "exit": "",
     "founders": [],
     "note": "https://www.optum.com/content/dam/optum3/optum/en/resources/PDFs/everest-group-healthcare-analytics-services-providers-2019.pdf",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "UnitedHealth Group のヘルスサービス部門。診療・在宅医療の Optum Health、データ分析・IT の Optum Insight、薬剤給付管理の Optum Rx の3事業を持つ。",
+    "events": [
+      {
+        "date": "2022-10",
+        "text": "Change Healthcare を統合（Optum Insight）"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Optum",
+      "https://www.optum.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-0c1548b4",
@@ -439,42 +1057,99 @@
     "foundedYear": 2013,
     "hp": "https://www.aptible.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Chas Ballew",
+      "Frank Macreery"
+    ],
     "note": "",
     "areas": [
       "Security"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "HIPAA・SOC 2 などの規制に対応したアプリ実行基盤（PaaS）を提供する米国企業。医療データを扱うデジタルヘルス企業のインフラ運用とコンプライアンスを支える。",
+    "events": [],
+    "sources": [
+      "https://www.aptible.com/about",
+      "https://www.ycombinator.com/companies/aptible"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-93584231",
     "name": "First Opinion",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2013,
     "hp": "https://firstopinionapp.com/",
     "exit": "",
     "founders": [],
     "note": "遠隔医療相談",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "スマートフォンのテキストメッセージで医師にいつでも健康相談ができるアプリを提供していたサンフランシスコの企業。当初は子育て中の親向けだった。",
+    "events": [
+      {
+        "date": "2013-12",
+        "text": "アプリを公開"
+      },
+      {
+        "date": "2014-01",
+        "text": "Felicis Ventures 主導で120万ドルのシード資金を調達"
+      }
+    ],
+    "sources": [
+      "https://techcrunch.com/2014/01/14/with-1-2m-from-greylock-yuri-milner-and-500-startups-first-opinion-lets-you-text-a-doctor-anytime",
+      "https://www.mobihealthnews.com/news/first-opinion-gets-6-million-polaris-ventures-let-consumers-text-doctor-first"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-1c8f8a35",
     "name": "Phreesia",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2005,
     "hp": "https://www.phreesia.com/",
     "exit": "IPO",
-    "founders": [],
+    "founders": [
+      "Chaim Indig",
+      "Evan Roberts"
+    ],
     "note": "病院向けSaaS",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "listedAt": "2019-07",
+    "market": "NYSE",
+    "ticker": "PHR",
+    "activity": "事業継続",
+    "description": "医療機関の受付業務（問診・保険確認・同意書・支払い）をタブレットやスマートフォンでデジタル化する SaaS を提供する米国企業。製薬向けの患者向け広告事業も持つ。",
+    "events": [
+      {
+        "date": "2019-07",
+        "text": "NYSE に上場（PHR）"
+      },
+      {
+        "date": "2021-12",
+        "text": "患者活性化評価の Insignia Health の買収を発表"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Phreesia",
+      "https://ir.phreesia.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-b41da611",
-    "name": "Direct Derm",
+    "name": "DirectDerm",
     "country": "United States",
     "region": "US",
-    "foundedYear": 2009,
+    "foundedYear": 2010,
     "hp": "https://www.directderm.com/",
     "exit": "Active",
     "founders": [
@@ -483,19 +1158,57 @@
     "note": "",
     "areas": [
       "Telemedicine"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "専門医による遠隔皮膚科診療を全米で提供する米国企業。オンライン診療に加え、対面のクリニックでレーザー治療などの皮膚科診療も行う。",
+    "events": [],
+    "sources": [
+      "https://www.directderm.com/",
+      "https://www.cbinsights.com/company/directderm/people"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-b5eb159e",
-    "name": "Pager",
+    "name": "Pager Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://pager.com/",
+    "foundedYear": 2014,
+    "hp": "https://www.pagerhealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Gaspard de Dreuzy",
+      "Philip Eytan",
+      "Oscar Salazar"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "保険者・医療機関向けに、チャットと AI を使って加入者を適切な受診先や健康プログラムに案内するケアナビゲーション基盤を提供するニューヨークの企業。",
+    "events": [
+      {
+        "date": "2014-05",
+        "text": "往診サービスとして Pager を開始"
+      },
+      {
+        "date": "2020-03",
+        "text": "Health Catalyst Capital 主導で3,300万ドルを調達"
+      },
+      {
+        "date": "2021-09",
+        "text": "Susquehanna 主導で株式・負債合わせ7,000万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pager_(company)",
+      "https://hitconsultant.net/2021/09/21/pager-virtual-care-funding",
+      "https://www.pagerhealth.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-4cf7bacd",
@@ -505,141 +1218,406 @@
     "foundedYear": null,
     "hp": "https://www.fitocracy.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Dick Talens",
+      "Brian Wang"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2016-02",
+    "acquiredBy": "非公開の買い手",
+    "activity": "事業終了",
+    "description": "筋トレやランニングの記録をゲーム化し、ユーザー同士で励まし合うフィットネス SNS・コーチングアプリを運営していたニューヨークの企業。",
+    "events": [
+      {
+        "date": "2011-02",
+        "text": "招待制でサービス開始"
+      },
+      {
+        "date": "2016-02",
+        "text": "非公開の買い手に買収される（共同創業者 Brian Wang が公表）"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fitocracy",
+      "https://techcrunch.com/2012/03/29/fitocracy-finally-exits-private-beta-celebrates-with-a-new-ios-app",
+      "https://mixergy.com/interviews/brian-wang-fitocracy-interview/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-b6e7f7a1",
-    "name": "Medstartr",
+    "name": "MedStartr",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2012,
     "hp": "https://www.medstartr.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Alex Fair",
+      "Mike Pence"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "医療・ヘルスケアのプロジェクトに特化したクラウドファンディングとして始まり、企業・自治体向けのイノベーションコンテストやアクセラレーター、投資ファンドも運営する米国の組織。",
+    "events": [
+      {
+        "date": "2012-07",
+        "text": "医療分野のクラウドファンディングサイトを正式公開"
+      }
+    ],
+    "sources": [
+      "https://opensource.com/health/12/9/medstartr-crowdfunding-health-care-project",
+      "https://medcitynews.com/2012/06/healthcare-crowdfunding-website-readies-for-launch/",
+      "https://www.medstartr.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-1163bb14",
-    "name": "iCouch.me",
+    "name": "iCouch",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2010,
     "hp": "https://icouch.me/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "心理士・カウンセラーによるビデオ・チャットでのオンライン心理療法と、セラピスト向けの診療管理ツールを提供していた米国のサービス。",
+    "events": [],
+    "sources": [
+      "https://www.cbinsights.com/company/icouch",
+      "https://gust.com/companies/icouch",
+      "https://springwise.com/counseling-therapy-online-video-chat"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-81535323",
     "name": "Curology",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2014,
     "hp": "https://curology.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "David Lortscher"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "オンラインで皮膚科の医療者が肌を診て、処方成分を配合した個人別のニキビ・スキンケア薬を定期配送する米国の遠隔皮膚科サービス。",
+    "events": [
+      {
+        "date": "2015-09",
+        "text": "PocketDerm から Curology に名称変更"
+      },
+      {
+        "date": "2016-08",
+        "text": "シリーズBで1,500万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://www.happi.com/contents/view_breaking-news/2015-09-30/pocketderm-is-now-curology/",
+      "https://prnewswire.com/news-releases/curology-secures-15-million-in-series-b-funding-to-scale-direct-to-consumer-subscription-skincare-300317912.html",
+      "https://curology.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-90384a27",
-    "name": "Quip",
+    "name": "quip",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2015,
     "hp": "https://www.getquip.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Simon Enever",
+      "Bill May"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "電動歯ブラシ・フロスなどのオーラルケア製品を、替えブラシの定期便で消費者に直接販売するブルックリンの企業。小売店でも販売する。",
+    "events": [
+      {
+        "date": "2017-11",
+        "text": "シリーズAで1,000万ドルを調達"
+      },
+      {
+        "date": "2018-11",
+        "text": "Sherpa Capital などから4,000万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Quip_(company)",
+      "https://www.getquip.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-806f7ec8",
-    "name": "Hims",
+    "name": "Hims & Hers Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.forhims.com/rocket5?ref=producthunt",
+    "foundedYear": 2017,
+    "hp": "https://www.hims.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Andrew Dudum",
+      "Jack Abraham",
+      "Hilary Coles"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "listedAt": "2021-01",
+    "market": "NYSE",
+    "ticker": "HIMS",
+    "activity": "事業継続",
+    "description": "薄毛・ED・肌・メンタルヘルス・体重管理などの治療を、オンライン診療と処方薬の配送で提供する米国の遠隔医療企業。男性向け Hims と女性向け Hers を展開する。",
+    "events": [
+      {
+        "date": "2021-01",
+        "text": "SPAC（Oaktree Acquisition Corp.）との合併で NYSE に上場（HIMS）"
+      },
+      {
+        "date": "2026-02",
+        "text": "豪 Eucalyptus を最大11.5億ドルで買収することで合意"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hims_%26_Hers_Health",
+      "https://investors.hims.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-fb44a005",
-    "name": "Roman",
+    "name": "Ro",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.getroman.com/",
+    "foundedYear": 2017,
+    "hp": "https://ro.co/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Zachariah Reitano",
+      "Saman Rahmanian",
+      "Rob Schutz"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "ED・薄毛・体重管理（GLP-1）・妊よう性などの診療を、オンライン診療・自社薬局からの配送・在宅検査で提供する米国の遠隔医療企業。旧称 Roman。",
+    "events": [
+      {
+        "date": "2018-09",
+        "text": "Roman から Ro に社名変更"
+      },
+      {
+        "date": "2021-03",
+        "text": "シリーズDで5億ドルを調達（評価額50億ドル）"
+      },
+      {
+        "date": "2021-05",
+        "text": "Modern Fertility を買収"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ro_(company)",
+      "https://ro.co/press/ro-acquires-modern-fertility/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-0d54f6bd",
     "name": "Thirty Madison",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2017,
     "hp": "https://thirtymadison.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Steve Gutentag",
+      "Demetri Karagas"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "薄毛の Keeps、片頭痛の Cove、女性の避妊・性の健康の Nurx など、慢性疾患ごとのブランドでオンライン診療と処方薬の配送を行う米国企業。",
+    "events": [
+      {
+        "date": "2022-02",
+        "text": "Nurx との合併を発表"
+      },
+      {
+        "date": "2023-06",
+        "text": "破産した The Pill Club の資産を取得"
+      },
+      {
+        "date": "2025-09",
+        "text": "Remedy Meds が約5億ドル（全額株式）で買収することで合意"
+      }
+    ],
+    "sources": [
+      "https://prnewswire.com/news-releases/thirty-madison-and-nurx-to-merge-creating-the-leading-virtual-specialty-care-platform-301478752.html",
+      "https://www.fiercehealthcare.com/telehealth/glp-1-newcomer-remedy-meds-acquire-thirty-madison-500m-deal",
+      "https://www.axios.com/2025/09/03/remedy-meds-thirty-madison-acquire"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-72a5ccfe",
-    "name": "Alto pharmacy",
+    "name": "Alto Pharmacy",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.alto.com/",
+    "foundedYear": 2015,
+    "hp": "https://hello.fuzehealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jamie Karraker",
+      "Mattieu Gamache-Asselin"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2025-05",
+    "acquiredBy": "Fuze Health",
+    "activity": "事業継続",
+    "description": "処方薬の当日配送と薬剤師への24時間相談を提供する米国のデジタル薬局。不妊治療薬の配送にも強い。現在は Fuze Health の薬局ブランド FuzeRx として運営。",
+    "events": [
+      {
+        "date": "2025-05",
+        "text": "Truepill と LetsGetChecked の統合会社 Fuze Health に買収される"
+      }
+    ],
+    "sources": [
+      "https://fortune.com/ranking/40-under-40/2022/jamie-karraker-and-mattieu-gamache-asselin",
+      "https://www.businesswire.com/news/home/20250521890600/en",
+      "https://hello.fuzehealth.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-bb03f590",
-    "name": "Blink health",
+    "name": "Blink Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2014,
     "hp": "https://www.blinkhealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Geoffrey Chaiken",
+      "Matthew Chaiken"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "処方薬の割引価格での購入と、薬局での受け取りや自宅配送を仲介する米国の処方薬アクセス企業。製薬会社向けの処方支援サービス BlinkRx も手がける。",
+    "events": [
+      {
+        "date": "2017-04",
+        "text": "1億6,500万ドルの資金調達を発表"
+      }
+    ],
+    "sources": [
+      "https://businesswire.com/news/home/20170412005541/en/Blink-Health-Announces-165-Million-Financing-Combat",
+      "https://www.mobihealthnews.com/news/early-blink-health-investor-files-30-million-lawsuit-against-company",
+      "https://www.blinkhealth.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-d16039b5",
-    "name": "ProcuredHealth",
+    "name": "Procured Health（現 Lumere）",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://procuredhealth.com/",
+    "foundedYear": 2012,
+    "hp": "https://www.ghx.com/value-analysis-providers/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Hani Elias"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2020-01",
+    "acquiredBy": "GHX（Global Healthcare Exchange）",
+    "activity": "事業継続",
+    "description": "病院が医薬品・医療機器を調達するときに、価格と臨床的な有効性のデータを比べて選べるようにする価値分析ソフトウェアの企業。シカゴ発。",
+    "events": [
+      {
+        "date": "2016-06",
+        "text": "HCA 系ファンドなどから1,000万ドルを調達"
+      },
+      {
+        "date": "2020-01",
+        "text": "Lumere（旧 Procured Health）が GHX に買収される"
+      }
+    ],
+    "sources": [
+      "https://globalventuring.com/ghx-makes-room-for-lumere",
+      "https://globalventuring.com/blog/2016/06/14/procured-health-sources-10m/",
+      "https://www.beckershospitalreview.com/healthcare-information-technology/startup-insider-procured-health.html"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-fff38bc8",
     "name": "Cricket Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.crickethealth.com/",
+    "foundedYear": 2015,
+    "hp": "https://www.interwellhealth.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2022-08",
+    "acquiredBy": "InterWell Health（3社合併）",
+    "activity": "事業継続",
+    "description": "慢性腎臓病の患者に、早期からの教育・ケアコーディネーションと患者データ基盤による価値に基づく腎臓ケアを提供していた米国企業。現在は InterWell Health の一部。",
+    "events": [
+      {
+        "date": "2022-03",
+        "text": "InterWell Health・Fresenius Health Partners との3社合併を発表（約24億ドル）"
+      },
+      {
+        "date": "2022-08",
+        "text": "合併が完了し InterWell Health ブランドに統合"
+      }
+    ],
+    "sources": [
+      "https://interwellhealth.com/who-we-are/news/Interwell-Cricket-Fresenius-Partners",
+      "https://www.healio.com/news/nephrology/20220826/interwell-health-cricket-health-fresenius-health-partners-complete-merger",
+      "https://www.fiercehealthcare.com/providers/interwell-health-finalizes-24b-kidney-care-merger-combine-tech-value-based-care"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-61eb20b6",
@@ -649,129 +1627,364 @@
     "foundedYear": 2018,
     "hp": "https://strivehealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Chris Riopelle"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "慢性腎臓病・末期腎不全の患者に、腎臓内科医と連携した在宅・遠隔のケアを提供し、保険者と成果連動の契約を結ぶ米国の腎臓ケア企業。",
+    "events": [
+      {
+        "date": "2023-05",
+        "text": "NEA 主導でシリーズC 1億6,600万ドルを調達（CVS Health Ventures 参加）"
+      },
+      {
+        "date": "2025-09",
+        "text": "シリーズD 3億ドルと負債2.5億ドルの計5.5億ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://strivehealth.com/news/strive-health-raises-166-million-in-series-c-funding-from-nea-cvs-health-ventures-and-others/",
+      "https://strivehealth.com/news/strive-health-raises-550-million-in-series-d-funding/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-f546e661",
-    "name": "Vida",
+    "name": "Vida Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2014,
     "hp": "https://www.vida.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Stephanie Tilenius"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "肥満・糖尿病・高血圧などの心血管代謝疾患を、オンライン診療・GLP-1 処方・栄養やメンタルのコーチングで支える米国のバーチャルケア企業。主に雇用主・保険者向け。",
+    "events": [
+      {
+        "date": "2023-11",
+        "text": "創業者 Tilenius が CEO を退任し Joe Murad が就任、2,850万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://www.businesswire.com/news/home/20231109239342/en",
+      "https://vida.com/our-team",
+      "https://www.vida.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-b8618273",
-    "name": "Lemonaid",
+    "name": "Lemonaid Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2013,
     "hp": "https://www.lemonaidhealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Paul Johnson",
+      "Ian Van Every"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2025-09",
+    "acquiredBy": "Bambu Ventures（Innova Capital Partners と共同）",
+    "activity": "事業継続",
+    "description": "オンライン診療と処方薬の配送（オンライン薬局）を組み合わせた米国の遠隔医療サービス。避妊薬・ED・うつ/不安などの診療をスマホやWebで提供する。",
+    "events": [
+      {
+        "date": "2021-11",
+        "text": "23andMe が約4億ドルで買収（2021年10月発表、11月完了）"
+      },
+      {
+        "date": "2025-03",
+        "text": "親会社 23andMe が連邦破産法11条を申請"
+      },
+      {
+        "date": "2025-09",
+        "text": "23andMe の破産手続の中で Bambu Ventures と Innova Capital Partners が1,000万ドルで取得"
+      }
+    ],
+    "sources": [
+      "https://mediacenter.23andme.com/press-releases/23andme-announces-closing-its-acquisition-lemonaid-health/",
+      "https://bhbusiness.com/2025/09/17/lemonaid-health-23andmes-telehealth-platform-including-mental-health-care-sold-for-10m/",
+      "https://hitconsultant.net/2021/10/22/23andme-acquires-lemonaid-health"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-d1b1e1c9",
-    "name": "Mede/Analytics",
+    "name": "MedeAnalytics",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://medeanalytics.com/",
+    "foundedYear": 1993,
+    "hp": "https://medeanalytics.com/",
     "exit": "",
     "founders": [],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2020-10",
+    "acquiredBy": "JLL Partners",
+    "activity": "事業継続",
+    "description": "医療機関（病院・ヘルスシステム）と保険者向けに、クラウド型のデータ分析プラットフォーム（SaaS）を提供する米国企業。収益管理や医療費・人口健康の分析に使われる。",
+    "events": [
+      {
+        "date": "2020-10",
+        "text": "PE ファンド JLL Partners が Thoma Bravo から買収"
+      }
+    ],
+    "sources": [
+      "https://medeanalytics.com/?p=4364",
+      "https://www.thomabravo.com/press-releases/jll-partners-announces-acquisition-of-medeanalytics",
+      "https://www.healthcareitnews.com/news/pe-firm-buys-majority-stake-medeanalytics"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-858b2b20",
-    "name": "Weltok",
+    "name": "Welltok",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2009,
     "hp": "https://welltok.com/",
     "exit": "",
     "founders": [],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2021-11",
+    "acquiredBy": "Virgin Pulse",
+    "activity": "事業継続",
+    "description": "医療保険者・雇用主・医療機関向けに、加入者や患者へ個別の健康行動を促すコンシューマー・アクティベーション基盤（SaaS）を提供する米国企業。",
+    "events": [
+      {
+        "date": "2021-11",
+        "text": "Virgin Pulse が買収を完了（2021年10月発表、金額非公表）"
+      }
+    ],
+    "sources": [
+      "https://bizwest.com/2021/11/12/virgin-pulse-completes-welltok-acquisition",
+      "https://www.healthcaredive.com/press-release/20211009-virgin-pulse-to-acquire-welltok/",
+      "https://www.bvp.com/companies/welltok"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-a90ddafa",
-    "name": "veeva",
+    "name": "Veeva Systems",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.veeva.com/jp/",
+    "foundedYear": 2007,
+    "hp": "https://www.veeva.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Peter Gassner",
+      "Matt Wallach"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "listedAt": "2013-10",
+    "market": "NYSE",
+    "ticker": "VEEV",
+    "activity": "事業継続",
+    "description": "製薬・バイオなどライフサイエンス業界向けに、CRM・臨床開発・品質・薬事などのクラウドソフトとデータを提供する米国企業。本社はカリフォルニア州プレザントン。",
+    "events": [
+      {
+        "date": "2013-10",
+        "text": "NYSE に上場（IPO）"
+      },
+      {
+        "date": "2021-02",
+        "text": "上場企業として初めて Public Benefit Corporation に転換"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Veeva_Systems",
+      "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393052",
+      "https://www.veeva.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-45a66c6d",
-    "name": "Reflectionhealth",
+    "name": "Reflexion Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://reflexionhealth.com/",
+    "foundedYear": 2012,
+    "hp": "",
     "exit": "",
     "founders": [],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "Microsoft Kinect を使った在宅リハビリ支援システム VERA（FDA 510(k) クリア）や遠隔理学療法 HelloPT を提供していた米サンディエゴのデジタルリハビリ企業。",
+    "events": [
+      {
+        "date": "2014-03",
+        "text": "シリーズAで750万ドルを調達"
+      },
+      {
+        "date": "2018-08",
+        "text": "BevCap Management と提携し雇用主市場に参入"
+      }
+    ],
+    "sources": [
+      "https://medcitynews.com/2015/11/reflexion-health-ceo/",
+      "https://hitconsultant.net/2014/03/27/reflexion-health-nabs-7-5m-modernize-physical-therapy",
+      "https://www.mobihealthnews.com/news/fda-clears-microsoft-kinect-enabled-physical-therapy-program-reflexion-health",
+      "https://hitconsultant.net/2018/08/28/reflexion-health-bevcap-management/"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-13e9c909",
     "name": "Stride Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2013,
     "hp": "https://www.stridehealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Noah Lang",
+      "Matt Butner"
+    ],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "フリーランスやギグワーカーなど個人事業者向けに、医療保険（ACA マーケットプレイス）などの福利厚生を選んで加入できるプラットフォームを提供する米国企業。",
+    "events": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stride_Health",
+      "https://www.mobihealthnews.com/news/stride-health-raises-235-million-series-b-funding-help-independent-workers-benefits",
+      "https://www.stridehealth.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-e7f672bf",
-    "name": "Akili Interactive Labs",
+    "name": "Akili Interactive",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2011,
     "hp": "https://www.akiliinteractive.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Eddie Martucci",
+      "Adam Gazzaley"
+    ],
     "note": "DGが投資  https://www.dgincubation.co.jp/portfolio/akili-interactive-labs-inc-2/",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2024-07",
+    "acquiredBy": "Virtual Therapeutics",
+    "activity": "事業継続",
+    "description": "ゲーム型のデジタル治療を開発する米国企業。小児ADHD向けのビデオゲーム治療 EndeavorRx は、ゲームとして初めて FDA の販売承認を得た。",
+    "events": [
+      {
+        "date": "2020-06",
+        "text": "EndeavorRx が FDA の De Novo 承認を取得（ゲームとして初）"
+      },
+      {
+        "date": "2022-08",
+        "text": "SPAC（Social Capital Suvretta Holdings Corp. I）との合併で Nasdaq に上場（AKLI）"
+      },
+      {
+        "date": "2024-07",
+        "text": "Virtual Therapeutics が約3,400万ドルで買収（公開買付け）し上場廃止"
+      }
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1850266/000095017023007000/akli-20221231.htm",
+      "https://www.statnews.com/2024/05/29/virtual-therapeutics-acquire-akili-video-games-adhd/",
+      "https://pulse2.com/akili-completes-business-combination-with-social-capital-suvretta-holdings-corp-i-dnaa/",
+      "https://en.wikipedia.org/wiki/EndeavorRx"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-2430acb2",
-    "name": "iRhythm",
+    "name": "iRhythm Technologies",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2006,
     "hp": "https://www.irhythmtech.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Uday Kumar"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "listedAt": "2016-10",
+    "market": "Nasdaq",
+    "ticker": "IRTC",
+    "activity": "事業継続",
+    "description": "胸に貼る長時間記録型の心電図パッチ Zio と、AI による解析サービスで不整脈の診断を支える米国の医療機器・デジタルヘルス企業。",
+    "events": [
+      {
+        "date": "2016-10",
+        "text": "Nasdaq に上場（IPO）"
+      }
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1388658/000119312516730855/d941976ds1a.htm",
+      "https://www.cbinsights.com/investor/irhythm-technologies",
+      "https://www.irhythmtech.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-03c36fcd",
     "name": "Verily",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2015,
     "hp": "https://verily.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "Alphabet 傘下のライフサイエンス・ヘルスケア企業。旧 Google Life Sciences で、臨床研究の基盤やデータ・AI を使った医療サービスを手がける。",
+    "events": [
+      {
+        "date": "2015-12",
+        "text": "Google Life Sciences から Verily に改称し Alphabet の子会社に"
+      },
+      {
+        "date": "2019-01",
+        "text": "10億ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Verily",
+      "https://verily.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-ae0f7b6a",
@@ -782,26 +1995,46 @@
     "hp": "https://www.firstderm.com/",
     "exit": "Active",
     "founders": [
-      "Alexander Borve",
-      "Jimmy Stridh",
-      "Nick Hu"
+      "Alexander Börve"
     ],
     "note": "",
     "areas": [
       "First Consultation"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "皮膚の写真をアプリやWebで送ると、皮膚科専門医がオンラインで所見を返す遠隔皮膚科サービス。運営は iDoc24 Inc.で、医療者向けアプリ iDoc24 PRO もある。",
+    "events": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/First_Derm",
+      "https://www.firstderm.com/dermatology-app-save-lives-interview/",
+      "https://crunchbase.com/organization/idoc24"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-95127438",
     "name": "Empower Interactive",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2009,
     "hp": "http://www.empower-interactive.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "認知行動療法などエビデンスに基づく行動療法を、オンラインのプログラムで受けられるようにするデジタル行動医療の米国企業（カリフォルニア州モラガ）。ストレス・不安・うつ向けモジュールを提供していた。",
+    "events": [],
+    "sources": [
+      "https://switchthefuture.com/2011/07/01/20110701cognitive-science-and-software-assisted-psychotherapy-startup-co-founded-by-eve-phillips/",
+      "https://www.crunchbase.com/organization/empower-interactive",
+      "https://gust.com/companies/empower_interactive"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-7238330d",
@@ -809,49 +2042,143 @@
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "https://www.truthoncall.com/#tab2",
+    "hp": "https://www.truthoncall.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2019-10",
+    "acquiredBy": "Slingshot Insights",
+    "activity": "事業継続",
+    "description": "医師など医療従事者に短時間でアンケート調査を行い、製薬企業や投資家向けに医療市場の調査・インサイトを提供する米国の市場調査会社。",
+    "events": [
+      {
+        "date": "2010-01",
+        "text": "米国でサービス開始（同年6月に英国でも開始）"
+      },
+      {
+        "date": "2019-10",
+        "text": "エキスパートネットワークの Slingshot Insights が買収"
+      }
+    ],
+    "sources": [
+      "https://www.prnewswire.com/news-releases/slingshot-insights-announces-acquisition-of-healthcare-survey-provider-truth-on-call-300939441.html",
+      "https://umbrex.com/unleashed/episode-339-joe-mccann-on-tools-for-healthcare-market-research/",
+      "https://www.truthoncall.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-28e32028",
     "name": "ClassPass",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2013,
     "hp": "https://classpass.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Payal Kadakia",
+      "Sanjiv Sanghavi"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2021-10",
+    "acquiredBy": "Mindbody",
+    "activity": "事業継続",
+    "description": "月額のクレジット制で、提携するジムやヨガ・フィットネススタジオ、スパなどのレッスンを予約できるサブスクリプション・プラットフォームを運営する米国企業。",
+    "events": [
+      {
+        "date": "2014-01",
+        "text": "前身の Classtivity から ClassPass に改称"
+      },
+      {
+        "date": "2021-10",
+        "text": "Mindbody が全株式交換で買収"
+      },
+      {
+        "date": "2025-06",
+        "text": "Mindbody・Booker と共に新たな親ブランド Playlist の傘下に"
+      },
+      {
+        "date": "2026-01",
+        "text": "Playlist が EGYM との合併で最終合意（評価額75億ドル）"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/ClassPass",
+      "https://co.mindbodyonline.com/press/mindbody-completes-acquisition-of-classpass",
+      "https://dc.fortune.com/2021/10/13/classpass-acquired-mindbody-fitness-ipo"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-d4800e6a",
-    "name": "Simple Contact",
+    "name": "Simple Contacts",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2015,
     "hp": "https://www.simplecontacts.com/",
     "exit": "",
     "founders": [],
     "note": "D2C",
     "areas": [
       "D2C"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "スマホで視力検査を受け、眼科医・検眼医の確認を経てコンタクトレンズの処方箋を更新し、レンズも購入できる米ニューヨークの遠隔眼科サービス。",
+    "events": [
+      {
+        "date": "2016-11",
+        "text": "Autonomous Ventures 主導のシードで約200万ドルを調達"
+      },
+      {
+        "date": "2017-04",
+        "text": "800万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://techcrunch.com/2016/11/07/with-a-fresh-2-million-simple-contacts-looks-to-cut-refill-costs-for-lenses/",
+      "https://www.mobihealthnews.com/news/simple-contacts-gets-8m-bring-ocular-telemedicine-app-android-expand-marketing",
+      "https://fortune.com/2017/04/11/simple-contacts-venture-capital-raise/"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-26ba088a",
-    "name": "Lola",
+    "name": "LOLA",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "",
+    "foundedYear": 2014,
+    "hp": "https://mylola.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jordana Kier",
+      "Alexandra Friedman"
+    ],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "オーガニックコットンのタンポン・ナプキン・ライナーなど生理用品を定期配送で販売する米ニューヨークの D2C ブランド。性の健康や体のケア用品も扱う。",
+    "events": [
+      {
+        "date": "2016-12",
+        "text": "シリーズAで700万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://www.cnbc.com/2017/02/28/upstart-25-lola.html",
+      "https://fortune.com/2016/12/13/lola-tampons-series-a-lena-dunham",
+      "https://mylola.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-9b1f7424",
@@ -863,7 +2190,8 @@
     "exit": "",
     "founders": [],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "hidden": "ヘルスケアの外"
   },
   {
     "id": "ov-7fb2fcec",
@@ -875,19 +2203,36 @@
     "exit": "",
     "founders": [],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "hidden": "特定できない"
   },
   {
     "id": "ov-3f7d0eee",
-    "name": "GOBY",
+    "name": "Goby",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "",
+    "foundedYear": 2016,
+    "hp": "https://www.goby.com/",
     "exit": "",
     "founders": [],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "充電式の電動歯ブラシを直販し、替えブラシを定期配送する米ニューヨークのオーラルケア D2C ブランド。歯科医・矯正歯科医との提携プログラムもあった。",
+    "events": [
+      {
+        "date": "2016-10",
+        "text": "電動歯ブラシを発売、200万ドルのシードを調達"
+      }
+    ],
+    "sources": [
+      "https://www.dentaltown.com/news/details/10028/goby-launches-first-direct-to-consumer-rechargeable-toothbrush",
+      "https://www.hygienetown.com/channel/post/8155/859-accessible-premium-oral-care-with-ben-goldberg-founder-ceo-of-goby-dentistry-uncensored-with-howard-farran",
+      "https://www.fox5ny.com/news/goby-electric-toothbrush-subscription-service"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-463548b0",
@@ -899,47 +2244,104 @@
     "exit": "",
     "founders": [],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "hidden": "ヘルスケアの外"
   },
   {
     "id": "ov-02a5e0fc",
-    "name": "Blowfish",
+    "name": "Blowfish for Hangovers（Rally Labs）",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.blowfishhealth.com/",
+    "foundedYear": 2010,
+    "hp": "https://forhangovers.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Brenna Haysom"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "アスピリン・カフェイン・制酸剤を配合した二日酔い向けの市販薬（OTC）発泡錠 Blowfish を製造販売する米国企業 Rally Labs のブランド。ドラッグストアや EC で販売する。",
+    "events": [],
+    "sources": [
+      "https://www.thecrimson.com/article/2011/12/9/alum-develops-hangover-cure/",
+      "https://village.ai/company/rally-labs",
+      "https://forhangovers.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-ec47c973",
-    "name": "Kaia",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.kaiahealth.com/",
+    "name": "Kaia Health",
+    "country": "Germany",
+    "region": "EU",
+    "foundedYear": 2016,
+    "hp": "https://kaiahealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Konstantin Mehl",
+      "Manuel Thurner"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2026-01",
+    "acquiredBy": "Sword Health",
+    "activity": "事業継続",
+    "description": "腰痛など筋骨格系（MSK）の痛みや COPD を、スマホのAI運動療法アプリと遠隔コーチで支えるデジタル治療の企業。ミュンヘン発で、主に米国の雇用主・保険者に提供する。",
+    "events": [
+      {
+        "date": "2026-01",
+        "text": "Sword Health が現金と株式で最大2億8,500万ドルで買収"
+      }
+    ],
+    "sources": [
+      "https://www.balderton.com/news/kaia-health-acquired-by-sword-health/",
+      "https://inforcapital.com/news/sword-health-buys-kaia-health-up-to-285m-supercharging-ai-care/",
+      "https://www.munich-startup.de/news/portraet-kaia-health"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-088afc5e",
     "name": "Doximity",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2010,
     "hp": "https://www.doximity.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jeff Tangney",
+      "Nate Gross",
+      "Shari Buck"
+    ],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "listedAt": "2021-06",
+    "market": "NYSE",
+    "ticker": "DOCS",
+    "activity": "事業継続",
+    "description": "米国の医師・看護師など医療専門職向けのSNS・ニュース・業務ツール（遠隔診療、FAX、AI など）を提供するプラットフォーム。主な収益は製薬企業・病院の広告や採用サービス。",
+    "events": [
+      {
+        "date": "2021-06",
+        "text": "NYSE に上場（IPO、約6億ドルを調達）"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Doximity",
+      "https://www.sec.gov/ix?doc=/Archives/edgar/data/1516513/000151651324000035/docs-20240331.htm"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-169750f6",
-    "name": "nephosity",
+    "name": "Nephosity",
     "country": "United States",
     "region": "US",
     "foundedYear": 2010,
@@ -947,31 +2349,90 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "CT・MR・X線などの医用画像を iPad やクラウド上で閲覧・共有し、遠隔の医師同士で相談できるようにするソフトを開発する米国企業。iPad 用ビューア MobileCT Viewer を提供。",
+    "events": [],
+    "sources": [
+      "https://web.nephosity.com/",
+      "https://www.cbinsights.com/company/nephosity",
+      "https://builtin.com/company/nephosity"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-f2932f2b",
     "name": "Qunomedical",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.qunomedical.com/en/",
+    "country": "Germany",
+    "region": "EU",
+    "foundedYear": 2015,
+    "hp": "https://www.qunomedical.com/en",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Sophie Chung"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "患者が国内外の医師・病院を比較して選び、治療（植毛・歯科・美容外科など）の手配を受けられるベルリンの医療マッチング・プラットフォーム。医療機関向け SaaS「Qunosuite」も提供。",
+    "events": [
+      {
+        "date": "2016-04",
+        "text": "Junomedical としてプラットフォームを開始"
+      },
+      {
+        "date": "2017-08",
+        "text": "200万ドルを調達し、Qunomedical に改称"
+      }
+    ],
+    "sources": [
+      "https://www.healthcaredive.com/press-release/20170815-qunomedical-raises-2-million-dollars-and-changes-its-name-to-strengthen-bra/",
+      "https://medicaltraveltoday.com/?p=22739",
+      "https://www.qunomedical.com/en/about-us"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-b882d431",
-    "name": "Patient IO",
+    "name": "Patient IO（Filament Labs）",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://patientio.com/",
+    "foundedYear": 2013,
+    "hp": "",
     "exit": "Acquired",
-    "founders": [],
+    "founders": [
+      "Jason Bornhorst",
+      "Colin Anawaty",
+      "Brian Gambs"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2016-08",
+    "acquiredBy": "athenahealth",
+    "activity": "事業終了",
+    "description": "医療機関が退院後や治療中の患者にスマホでタスクやリマインダーを送り、ケアを調整できる患者エンゲージメントアプリを提供していた米オースティンの企業。",
+    "events": [
+      {
+        "date": "2015-10",
+        "text": "athenahealth のアクセラレーター（More Disruption Please）から出資を受ける"
+      },
+      {
+        "date": "2016-08",
+        "text": "athenahealth が買収（金額非公表）。患者向けアプリ athenaWell の基盤に"
+      }
+    ],
+    "sources": [
+      "https://www.healthcareitnews.com/news/athenahealth-buys-care-coordination-platform-patient-io",
+      "https://www.mobihealthnews.com/news/athenahealth-acquires-care-coordination-app-patient-io",
+      "https://hitconsultant.net/2016/08/29/athenahealth-acquires-patient-io"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-afbf2c83",
@@ -983,14 +2444,15 @@
     "exit": "",
     "founders": [],
     "note": "D2C",
-    "areas": []
+    "areas": [],
+    "hidden": "ヘルスケアの外"
   },
   {
     "id": "ov-cc1331ea",
-    "name": "capsule",
+    "name": "Capsule Technologies",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 1997,
     "hp": "https://capsuletech.com/",
     "exit": "",
     "founders": [],
@@ -998,43 +2460,132 @@
     "areas": [
       "Security",
       "Development tool"
-    ]
+    ],
+    "listing": "買収",
+    "acquiredAt": "2021-03",
+    "acquiredBy": "Philips",
+    "activity": "事業継続",
+    "description": "病院のベッドサイドの医療機器を電子カルテにつなぎ、バイタルなどのデータを集めて監視に使えるようにする医療機器統合（MDI）ソフトの企業。本社は米マサチューセッツ州アンドーバー。",
+    "events": [
+      {
+        "date": "2019-02",
+        "text": "Francisco Partners が Qualcomm Life を買収し Capsule Technologies に改称"
+      },
+      {
+        "date": "2021-03",
+        "text": "Philips が6億3,500万ドルで買収を完了（2021年1月発表）"
+      }
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/313216/000031321622000008/phg-20211231.htm",
+      "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/philips-acquiring-capsule-technologies-635m",
+      "https://hitconsultant.net/2021/01/19/philips-acquires-capsule"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-a712c294",
-    "name": "GoodPx",
+    "name": "GoodRx",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2011,
     "hp": "https://www.goodrx.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Doug Hirsch",
+      "Trevor Bezdek",
+      "Scott Marlette"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "listedAt": "2020-09",
+    "market": "Nasdaq",
+    "ticker": "GDRX",
+    "activity": "事業継続",
+    "description": "米国の薬局ごとの処方薬価格を比較し、割引クーポンを無料で提供するサービスを運営する企業。遠隔診療や製薬企業向けの広告・支援サービスも手がける。",
+    "events": [
+      {
+        "date": "2020-09",
+        "text": "Nasdaq に上場（IPO、1株33ドル）"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/GoodRx",
+      "https://www.sec.gov/Archives/edgar/data/1809519/000180951926000031/gdrx-20251231.htm"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-910d47bf",
     "name": "Counsyl",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://myriadwomenshealth.com/",
+    "foundedYear": 2007,
+    "hp": "https://myriad.com/womens-health/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Ramji Srinivasan",
+      "Balaji Srinivasan"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2018-07",
+    "acquiredBy": "Myriad Genetics",
+    "activity": "事業継続",
+    "description": "妊娠前の保因者スクリーニングや出生前の遺伝学的検査（NIPS）などを提供していた米国の遺伝子検査企業。現在は Myriad Genetics の女性の健康部門として検査が続く。",
+    "events": [
+      {
+        "date": "2018-07",
+        "text": "Myriad Genetics が約3億7,500万ドルで買収を完了"
+      }
+    ],
+    "sources": [
+      "https://www.genomeweb.com/node/70761",
+      "https://globalventuring.com/blog/2018/05/31/myriad-to-keep-counsyl-in-375m-acquisition/",
+      "https://en.wikipedia.org/wiki/Myriad_Genetics"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-dbe143dc",
-    "name": "clearcare",
+    "name": "ClearCare（現 WellSky Personal Care）",
     "country": "United States",
     "region": "US",
     "foundedYear": 2010,
-    "hp": "https://www.clearcareonline.com/",
+    "hp": "https://wellsky.com/personal-care-software/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Geoff Nudd"
+    ],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2019-11",
+    "acquiredBy": "WellSky",
+    "activity": "事業継続",
+    "description": "在宅介護（パーソナルケア）事業者向けに、スケジュール・訪問記録・請求・給与などを管理するクラウドソフトを提供する米国企業。現在は WellSky の製品として提供される。",
+    "events": [
+      {
+        "date": "2019-11",
+        "text": "WellSky が買収を完了（2019年10月合意、金額非公表）"
+      },
+      {
+        "date": "2021-09",
+        "text": "WellSky Personal Care に改称"
+      }
+    ],
+    "sources": [
+      "https://www.businesswire.com/news/home/20191008005835/en/",
+      "https://wellsky.com/?p=40309",
+      "https://homecaremag.com/news/wellsky-acquire-clearcare"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-171d86a6",
@@ -1046,127 +2597,290 @@
     "exit": "",
     "founders": [],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "hidden": "ヘルスケアの外"
   },
   {
     "id": "ov-a789cd02",
-    "name": "webPT",
+    "name": "WebPT",
     "country": "United States",
     "region": "US",
     "foundedYear": 2006,
     "hp": "https://www.webpt.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Heidi Jannenga",
+      "Brad Jannenga"
+    ],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2019-08",
+    "acquiredBy": "Warburg Pincus",
+    "activity": "事業継続",
+    "description": "理学療法・作業療法などリハビリ診療所向けに、電子カルテ（EMR）・予約・請求・患者エンゲージメントなどのクラウドソフトを提供する米アリゾナ州フェニックスの企業。",
+    "events": [
+      {
+        "date": "2019-08",
+        "text": "PE ファンド Warburg Pincus が Battery Ventures から過半数株式を取得することで合意"
+      }
+    ],
+    "sources": [
+      "https://www.businesswire.com/news/home/20190827005217/en/",
+      "https://www.battery.com/webpt-case-study/",
+      "https://webpt.com/about/press/webpt-announces-significant-investment-from-warburg-pincus"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-2deb3652",
-    "name": "PrivisHealth",
+    "name": "Privis Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.privishealth.com/",
+    "foundedYear": 2011,
+    "hp": "",
     "exit": "",
     "founders": [],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "医療機関や保険者向けに、患者の遠隔ケアマネジメント（ケアコーディネーション）を支えるデジタルヘルスのソフトを提供していた米国企業。",
+    "events": [],
+    "sources": [
+      "https://www.cbinsights.com/company/privis-health",
+      "https://village.ai/company/privishealth"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-cb02de14",
     "name": "Medigram",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.medigram.com/index.html",
+    "foundedYear": 2011,
+    "hp": "https://medigram.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Michael Chiu",
+      "Yuhao Ding"
+    ],
     "note": "SaaS",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "医師・看護師が HIPAA に準拠して院内でグループメッセージをやり取りできるモバイルアプリとして始まった米国企業。現在は医療向け AI の判断の根拠を管理するソフトを打ち出している。",
+    "events": [],
+    "sources": [
+      "https://legacy.xconomy.com/?p=191602",
+      "https://ycombinator.com/companies/medigram",
+      "https://www.beckershospitalreview.com/podcasts/podcasts-beckers-hospital-review/sherri-douville-ceo-of-medigram-and-chair-of-the-trustworthy-technology-and-innovation-consortium"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-1ed5f7c5",
-    "name": "helium",
+    "name": "Healium",
     "country": "United States",
     "region": "US",
     "foundedYear": 2013,
-    "hp": "http://healium.com/",
+    "hp": "https://tryhealium.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "VR/AR の映像とウェアラブルの心拍・脳波データを組み合わせたバイオフィードバックで、ストレス・不安・不眠の軽減を支えるアプリを提供する米国企業。退役軍人や臨床現場向けにも展開。",
+    "events": [],
+    "sources": [
+      "https://tryhealium.com/sarah-hill",
+      "https://venturebeat.com/business/healium-aims-reduce-anxiety-with-ar-and-wearables",
+      "https://www.mobihealthnews.com/news/qa-using-biofeedback-modify-immersive-experiences-real-time"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-5f4803c4",
     "name": "Medikly",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://medikly.com/",
+    "foundedYear": 2009,
+    "hp": "",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "製薬企業などが医師向けに医療情報コンテンツを配信し、医師ごとの閲覧・反応を測定・分析できるクラウド型の医師エンゲージメント基盤を提供していた米国企業。",
+    "events": [],
+    "sources": [
+      "https://gust.com/companies/medikly_inc",
+      "https://app.dealroom.co/companies/medikly/team"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-c13a8a9f",
-    "name": "GoBiquity",
+    "name": "GoCheck Kids（旧 Gobiquity）",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.gobiquity.com/",
+    "foundedYear": 2013,
+    "hp": "https://www.gocheckkids.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "David Huang"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "スマートフォンで子どもの目を撮影し、弱視の危険因子などを小児科で手軽にスクリーニングできるアプリを提供する米国企業。聴覚スクリーニングにも広げている。",
+    "events": [
+      {
+        "date": "2014-06",
+        "text": "Salesforce 創業者 Marc Benioff と InterWest Partners が出資"
+      }
+    ],
+    "sources": [
+      "https://www.gocheckkids.com/about-us",
+      "https://www.mobihealthnews.com/news/marc-benioff-backed-gobiquity-launches-childrens-vision-screening-app-pediatricians",
+      "https://www.bloomberg.com/news/articles/2019-01-30/this-startup-is-screening-kids-eyes-with-an-app-instead-of-a-20-000-device"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-dd6ae0c2",
-    "name": "managed prm",
+    "name": "ManageUp PRM",
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "https://www.manageupprm.com/",
+    "hp": "",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "医療機関のスタッフが患者への説明や声かけ（マネージアップ）を標準化し、患者体験と満足度を高めるための患者関係管理（PRM）ソフトを提供していた米国企業。",
+    "events": [],
+    "sources": [
+      "https://wellfound.com/company/manageup-prm",
+      "https://mindmaps.aginganalytics.com/firms/23677"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-af00fe07",
-    "name": "mangoHealth",
+    "name": "Mango Health",
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "https://www.mangohealth.com/",
+    "hp": "",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jason Oberfest"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2019-09",
+    "acquiredBy": "TrialCard",
+    "activity": "不明",
+    "description": "服薬や血圧・体重の記録にポイントを付けて習慣化を促す、ゲーム要素のある服薬管理アプリを提供していた米サンフランシスコの企業。",
+    "events": [
+      {
+        "date": "2019-09",
+        "text": "製薬企業向け患者支援サービスの TrialCard が買収（金額非公表）"
+      }
+    ],
+    "sources": [
+      "https://techcrunch.com/2012/07/31/mango-health",
+      "https://www.mobihealthnews.com/news/mango-health-acquired-pharma-service-trialcard",
+      "https://hitconsultant.net/2019/09/12/trialcard-acquires-digital-medication-adherence-platform-mango-health/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-f4b7e26a",
     "name": "Collective Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2013,
     "hp": "https://collectivehealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Ali Diab",
+      "Rajaie Batniji"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "自家保険（セルフファンド）の雇用主向けに、医療保険の運営・請求処理・加入者サポートをまとめて提供するテクノロジー企業。従業員はアプリで給付や受診先を確認できる。",
+    "events": [
+      {
+        "date": "2014-01",
+        "text": "シリーズAで600万ドルを調達"
+      },
+      {
+        "date": "2018-02",
+        "text": "1億1,000万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://techcrunch.com/2018/02/28/collective-health-nabs-110-million-in-funding",
+      "https://vator.tv/2019-10-21-when-collective-health-was-young-the-early-years/",
+      "https://research.contrary.com/company/collective-health"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-f9dcf876",
-    "name": "PotikDok",
+    "name": "PokitDok",
     "country": "United States",
     "region": "US",
     "foundedYear": 2011,
-    "hp": "https://pokitdok.com/",
+    "hp": "",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Lisa Maki",
+      "Ted Tanner"
+    ],
     "note": "2017年6月13日にOrationを買収",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2018-12",
+    "acquiredBy": "Change Healthcare",
+    "activity": "事業終了",
+    "description": "保険資格確認・請求・支払いなど医療の事務取引を API でつなぐクラウド基盤と、ブロックチェーン DokChain を開発していた米国企業。開発拠点はサウスカロライナ州チャールストン。",
+    "events": [
+      {
+        "date": "2017-07",
+        "text": "創業 CEO の Lisa Maki が退き、Joe Murad が CEO に"
+      },
+      {
+        "date": "2018-12",
+        "text": "Change Healthcare が知的財産・主要資産と従業員を取得（金額非公表）"
+      }
+    ],
+    "sources": [
+      "https://medcitynews.com/2018/12/change-healthcare-pokitdok/",
+      "https://www.healthcaredive.com/news/change-healthcare-snaps-up-blockchain-startup-pokitdok/544698/",
+      "https://www.charlestondigitalcorridor.com/news/1500425598345-charleston-health-care-startup-pokitdok-replaces-founding-ceo-insurance-executive"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-d9463590",
@@ -1178,43 +2892,99 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "hidden": "重複（ov-f9dcf876）"
   },
   {
     "id": "ov-af4e2c45",
     "name": "Practice Fusion",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.practicefusion.com/",
+    "foundedYear": 2005,
+    "hp": "https://www.practicefusion.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Ryan Howard",
+      "Alan Wong",
+      "Jonathan Malek",
+      "Matthew Douglass"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2018-02",
+    "acquiredBy": "Allscripts（現 Veradigm）",
+    "activity": "事業継続",
+    "description": "小規模な独立系診療所向けに、クラウド型の電子カルテ（EHR）を提供する米サンフランシスコの企業。かつては広告モデルで無料の EHR として広く使われた。",
+    "events": [
+      {
+        "date": "2018-02",
+        "text": "Allscripts が約1億ドルで買収を完了（2018年1月発表）"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Practice_Fusion",
+      "https://www.cnbc.com/2018/01/08/practice-fusion-acquired-by-allscripts-for-100-million-in-cash.html",
+      "https://www.sec.gov/Archives/edgar/data/1124804/000156459019003905/mdrx-10k_20181231.htm"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-53569cbb",
-    "name": "Drchrono",
+    "name": "DrChrono",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2009,
     "hp": "https://www.drchrono.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Michael Nusimow",
+      "Daniel Kivatinos"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2021-11",
+    "acquiredBy": "EverCommerce",
+    "activity": "事業継続",
+    "description": "診療所向けに、iPad などで使えるクラウド型の電子カルテ・診療管理・医療費請求ソフトと請求代行（RCM）サービスを提供する米国企業。EverCommerce の EverHealth 事業の一部。",
+    "events": [
+      {
+        "date": "2021-11",
+        "text": "EverCommerce が約1億8,250万ドルで買収を完了"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/DrChrono",
+      "https://investors.evercommerce.com/news-releases/news-release-details/evercommerce-completes-acquisition-drchrono-leading-cloud-based",
+      "https://www.sec.gov/Archives/edgar/data/1853145/000114036121037956/ny20001110x5_ex99-1.htm"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-38627158",
-    "name": "clinovo",
+    "name": "Clinovo",
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "http://www.clinovo.com/",
+    "hp": "https://clinovo.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "臨床試験の受託（CRO）とデータ管理を行い、クラウド型の電子データ収集システム ClinCapture を提供していたシリコンバレーの企業。現在は臨床試験の人材・業務支援を掲げる。",
+    "events": [],
+    "sources": [
+      "https://www.biospace.com/b-clinovo-b-leading-cro-in-the-bay-area-endorsed-by-medical-device-company-for-their-flagship-system-clincapture",
+      "https://limswiki.org/index.php/Vendor:ClinCapture",
+      "https://clinovo.com/"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-97b99de6",
@@ -1226,19 +2996,43 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "hidden": "ヘルスケアの外"
   },
   {
     "id": "ov-5a9b13a6",
-    "name": "Grand rounds",
+    "name": "Grand Rounds（現 Included Health）",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.grandrounds.com/",
+    "foundedYear": 2011,
+    "hp": "https://includedhealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Owen Tripp",
+      "Rusty Hofmann"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "雇用主・保険者向けに、専門医のセカンドオピニオンや受診先の案内（ナビゲーション）を提供してきた米国企業。遠隔診療の Doctor On Demand と合併し Included Health になった。",
+    "events": [
+      {
+        "date": "2021-05",
+        "text": "Doctor On Demand との合併を完了（2021年3月発表）"
+      },
+      {
+        "date": "2021-10",
+        "text": "合併会社の名称を Included Health に変更"
+      }
+    ],
+    "sources": [
+      "https://includedhealth.com/announcements/grand-rounds-and-doctor-on-demand-complete-merger-to-form-the-only-virtual-care-company-of-its-kind/",
+      "https://www.businesswire.com/news/home/20211018005309/en/Grand-Rounds-Health-and-Doctor-On-Demand-Rebrand-as-Included-Health",
+      "https://www.oxeon.com/blog/2014/07/30/qa-owen-tripp-co-founder-ceo-grand-rounds-health"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-7edcda5c",
@@ -1250,67 +3044,150 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "hidden": "特定できない"
   },
   {
     "id": "ov-00227ed2",
-    "name": "CoreMobile",
+    "name": "Core Mobile",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.coremobileinc.com/",
+    "foundedYear": 2011,
+    "hp": "https://coremobile.ai/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "病院の医療者間連絡・患者エンゲージメントのアプリ（CoreyHealth など）から始まり、病床や患者の流れを最適化する臨床 AI を提供するシリコンバレーの企業。",
+    "events": [],
+    "sources": [
+      "https://www.cbinsights.com/company/core-mobile",
+      "https://apphub.webex.com/applications/coreyhealthtm-core-mobile",
+      "https://coremobile.ai/"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-51882028",
     "name": "VitalHub",
-    "country": "United States",
+    "country": "Canada",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://vitalhub.com/",
+    "foundedYear": 2010,
+    "hp": "https://vitalhub.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "market": "TSX",
+    "ticker": "VHI",
+    "activity": "事業継続",
+    "description": "カナダ・トロントに本社を置き、病院・メンタルヘルス・地域ケアなど保健・福祉サービス事業者向けに患者フロー管理や電子カルテなどのソフトウェアを提供する上場企業。",
+    "events": [
+      {
+        "date": "2024-10",
+        "text": "TSX30（トロント証券取引所の成長上位30社）に選出"
+      }
+    ],
+    "sources": [
+      "https://vitalhub.com/investors/",
+      "https://stockanalysis.com/quote/tsx/VHI/company"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-ff217fc6",
     "name": "AgileMD",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.agilemd.com/home",
+    "foundedYear": 2011,
+    "hp": "https://www.agilemd.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Borna Safabakhsh"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "電子カルテに組み込む臨床意思決定支援ソフトを開発する米国企業。入院患者の容体悪化を予測する AI「eCART」と院内の臨床パスを提供する。シカゴ大学発。",
+    "events": [
+      {
+        "date": "2024-06",
+        "text": "容体悪化予測ソフト eCART が FDA 510(k) クリアランスを取得したと公表"
+      }
+    ],
+    "sources": [
+      "https://polsky.uchicago.edu/2024/06/28/agilemd-fda-clearance/",
+      "https://www.ycombinator.com/companies/agilemd",
+      "https://www.agilemd.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-be410f68",
-    "name": "pingMD",
+    "name": "PingMD",
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "https://www.pingmd.com/",
+    "hp": "",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "患者と医療チームをつなぐセキュアなメッセージング・ビデオ相談アプリを提供していた米ニューヨークのデジタルヘルス企業。小児科の電話相談の負担軽減から始まった。",
+    "events": [
+      {
+        "date": "2012-10",
+        "text": "製品開発のための資金調達を公表"
+      }
+    ],
+    "sources": [
+      "https://medcitynews.com/2013/06/killing-phone-tag-and-helping-patients-mhealth-platform-wants-to-improve-patient-and-provider-communications/",
+      "https://www.healthcareittoday.com/2012/10/04/pingmd-and-rxante-receive-fundings-to-continue-product-development/",
+      "https://www.medicaleconomics.com/view/profile-parent-pediatrician-innovator-knows-importance-of-communication"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-113e89cc",
-    "name": "biomeme:",
+    "name": "Biomeme",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://biomeme.com/",
+    "foundedYear": 2012,
+    "hp": "https://biomeme.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Marc DeJohn",
+      "Max Perelman",
+      "Jesse vanWestrienen"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "米フィラデルフィアの企業で、現場や診療所で使える持ち運び型のリアルタイム PCR（遺伝子検査）装置と試薬を開発・販売する。iPhone 接続型の分子診断機器から始まった。",
+    "events": [
+      {
+        "date": "2020-07",
+        "text": "新型コロナの迅速分子検査への対応を進める"
+      }
+    ],
+    "sources": [
+      "https://biomeme.com/about/leadership",
+      "https://www.sep.benfranklin.org/2020/07/13/nextup-the-philly-company-improving-rapid-molecular-tests-for-covid-19/",
+      "https://technical.ly/2013/12/03/biomeme-std-tests"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-773fa498",
@@ -1318,7 +3195,7 @@
     "country": "United States",
     "region": "US",
     "foundedYear": 2013,
-    "hp": "https://www.humanapi.co/",
+    "hp": "https://risk.lexisnexis.com/products/health-intelligence-ehr",
     "exit": "Active",
     "founders": [
       "Andrei Pop",
@@ -1327,55 +3204,160 @@
     "note": "",
     "areas": [
       "Development tool"
-    ]
+    ],
+    "listing": "買収",
+    "acquiredAt": "2023-04",
+    "acquiredBy": "LexisNexis Risk Solutions（RELX）",
+    "activity": "事業継続",
+    "description": "本人の同意のもとで電子カルテなどの医療データを集めて構造化し、生命保険の引受や医療機関に提供するデータ基盤を開発した米国企業。現在は LexisNexis の健康情報サービスの一部。",
+    "events": [
+      {
+        "date": "2023-03",
+        "text": "LexisNexis Risk Solutions が買収の最終合意を発表"
+      },
+      {
+        "date": "2023-04",
+        "text": "LexisNexis Risk Solutions による買収が完了"
+      }
+    ],
+    "sources": [
+      "https://risk.lexisnexis.com/about-us/press-room/press-release/20230425-humanapi-acquisition",
+      "https://healthcareittoday.com/2023/05/05/lexisnexis-risk-solutions-acquires-human-api/",
+      "https://runscope.com/customers/human-api"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-da631ea2",
     "name": "dacadoo",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.dacadoo.com/?lang=ja",
+    "country": "Switzerland",
+    "region": "EU",
+    "foundedYear": 2010,
+    "hp": "https://www.dacadoo.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Peter Ohnemus"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "スイス・チューリッヒの企業で、健康スコアと行動変容を促すアプリ基盤やリスク算定エンジンを、保険会社・金融機関・医療機関などにライセンス提供する。",
+    "events": [
+      {
+        "date": "2012-01",
+        "text": "QUENTIQ AG から dacadoo ag に社名変更"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dacadoo",
+      "https://pulse2.com/dacadoo-profile-peter-ohnemus-interview/",
+      "https://www.dacadoo.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-d175cde3",
-    "name": "glooko",
+    "name": "Glooko",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.glooko.com/",
+    "foundedYear": 2010,
+    "hp": "https://glooko.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Yogen Dalal",
+      "Sundeep Madra"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "血糖測定器・インスリンポンプ・CGM などのデータを集約し、糖尿病の患者と医療者が記録・分析・遠隔フォローに使えるプラットフォームを提供する米国企業。",
+    "events": [
+      {
+        "date": "2013-01",
+        "text": "Rick Altinger が CEO に就任、製品が FDA 510(k) クリアランスを取得"
+      },
+      {
+        "date": "2016-09",
+        "text": "スウェーデンの Diasend と合併し 800万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://glooko.com/?p=23371",
+      "https://www.mobihealthnews.com/news/glooko-and-diasend-merge-create-global-diabetes-management-platform-raise-8m",
+      "https://glooko.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-f1b753cf",
-    "name": "careathand",
+    "name": "Care at Hand",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "chttp://careathand.com/",
+    "foundedYear": 2011,
+    "hp": "",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Andrey Ostrovsky"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2016-06",
+    "acquiredBy": "Mindoula Health",
+    "activity": "不明",
+    "description": "在宅ケアの非医療職スタッフが入力する観察情報から再入院などのリスクを予測し、ケアチームに知らせるソフトを開発した米国企業。",
+    "events": [
+      {
+        "date": "2016-06",
+        "text": "Mindoula Health が買収し完全子会社化"
+      }
+    ],
+    "sources": [
+      "https://mindoula.com/news/mindoula-health-acquires-care-at-hand-a-startup-health-company/",
+      "https://mergr.com/company/care-at-hand"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-267d85c5",
-    "name": "airstrip",
+    "name": "AirStrip Technologies",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.airstrip.com/",
+    "foundedYear": 2004,
+    "hp": "https://www.airstrip.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Cameron Powell",
+      "Trey Moore"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "米サンアントニオの企業で、心電図・胎児心拍などの患者モニタリングデータを医師のスマートフォン等に届けるモバイル遠隔監視とアラーム管理ソフトを病院に提供する。",
+    "events": [
+      {
+        "date": "2025-01",
+        "text": "臨床意思決定支援の DECISIO Health を買収"
+      },
+      {
+        "date": "2025-06",
+        "text": "予測型臨床監視ソフトの Fifth Eye を買収"
+      }
+    ],
+    "sources": [
+      "https://www.healthcareittoday.com/2025/02/17/airstrip-technologies-adds-clinical-decision-support-capabilities-with-strategic-acquisition-of-decisio-health/",
+      "https://pulse2.com/airstrip-acquiring-fifth-eye-for-advancing-predictive-clinical-surveillance",
+      "https://www.mddionline.com/software/airstrip-s-push-to-mobilize-medical-data"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-aecc72bd",
@@ -1387,59 +3369,143 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "hidden": "ヘルスケアの外"
   },
   {
     "id": "ov-978ffca9",
-    "name": "green light medical",
+    "name": "GreenLight Medical",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.greenlightmedical.com/",
+    "foundedYear": 2014,
+    "hp": "https://www.symplr.com/spend-management/spend-management",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Austin Dirks"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2022-03",
+    "acquiredBy": "symplr",
+    "activity": "事業継続",
+    "description": "病院が新しい医療機器・材料を導入する際の評価（バリューアナリシス）と購買判断を支援するクラウドソフトを開発した米国企業。現在は symplr の支出管理製品群の一部。",
+    "events": [
+      {
+        "date": "2022-03",
+        "text": "医療機関向けソフトの symplr が買収"
+      }
+    ],
+    "sources": [
+      "https://www.healthcareittoday.com/2022/03/11/symplr-purchases-greenlight-medical-leading-provider-of-healthcare-supply-chain-management-software/",
+      "https://www.mobihealthnews.com/news/symplr-snaps-healthcare-supply-chain-management-company-greenlight-medical",
+      "https://www.charlesbank.com/news/2022/symplr-purchases-greenlight-medical"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-447ce8f4",
-    "name": "wellframe",
+    "name": "Wellframe",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2011,
     "hp": "https://www.wellframe.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jacob Sattelmair",
+      "Trishan Panch",
+      "Vinayak Ramesh",
+      "Archit Bhise"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2021-12",
+    "acquiredBy": "HealthEdge Software",
+    "activity": "事業継続",
+    "description": "米国の医療保険者向けに、加入者がスマートフォンでケアマネジャーとやり取りし、個別の健康管理プログラムを受けられるデジタルケアマネジメント基盤を提供する。ボストン発。",
+    "events": [
+      {
+        "date": "2021-10",
+        "text": "HealthEdge Software（Blackstone 傘下）が買収で合意"
+      },
+      {
+        "date": "2021-12",
+        "text": "HealthEdge による買収が完了"
+      }
+    ],
+    "sources": [
+      "https://healthedge.com/resources/press-releases/healthedge-software-to-acquire-digital-engagement-leader-wellframe",
+      "https://www.businesswire.com/news/home/20211207005907/en",
+      "https://www.startupbeat.com/?p=12247"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-42c6aa1d",
-    "name": "cell scope",
+    "name": "CellScope",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.cellscope.com/",
+    "foundedYear": 2010,
+    "hp": "",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Erik Douglas",
+      "Amy Sheng"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2019-10",
+    "activity": "不明",
+    "description": "スマートフォンに取り付ける耳鏡「Oto」と遠隔診察サービスで、家庭から子どもの耳の画像を医師に送れるようにした米国企業。UC バークレー発。",
+    "events": [
+      {
+        "date": "2019-10",
+        "text": "買収される（買い手・条件は非公表）"
+      }
+    ],
+    "sources": [
+      "https://ipira.berkeley.edu/cellscope-inc",
+      "https://pitchbook.com/profiles/company/53992-72",
+      "https://founderspledge.berkeley.edu/innovators/spotlights/interview-amy-sheng-mba-13-and-erik-douglas-j-phd-08-co-founders-of-cellscope"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-e06fd489",
-    "name": "imosphere",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.imosphere.com/",
+    "name": "Imosphere",
+    "country": "United Kingdom",
+    "region": "EU",
+    "foundedYear": 1993,
+    "hp": "https://www.imosphere.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "英国の自治体などに向け、成人ソーシャルケアや特別支援教育（SEND）の支援計画・資金配分を決めるための評価ツールとデータ分析ソフトを提供する企業。",
+    "events": [
+      {
+        "date": "2017-03",
+        "text": "FACE Recording and Measurement Systems Ltd から Imosphere Ltd に社名変更"
+      }
+    ],
+    "sources": [
+      "https://find-and-update.company-information.service.gov.uk/company/02878495",
+      "https://www.imosphere.com/",
+      "https://theaccessgroup.com/en-gb/blog/hsc-imosphere-access-partnership"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-9231fd01",
-    "name": "connectTheDoc",
+    "name": "Connect the Doc",
     "country": "United States",
     "region": "US",
     "foundedYear": null,
@@ -1447,19 +3513,40 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "歯科医院など医療系の開業医向けに、口コミ獲得・紹介促進・検索広告・SEO・ウェブ制作などの集患マーケティングソフトとサービスを提供する企業。",
+    "events": [],
+    "sources": [
+      "https://connectthedoc.com/",
+      "https://www.crunchbase.com/organization/connect-the-doc"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-9617ea5e",
-    "name": "medrio",
+    "name": "Medrio",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://medrio.com/",
+    "foundedYear": 2005,
+    "hp": "https://medrio.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "臨床試験のデータ収集（EDC）、電子患者報告（ePRO）、同意取得、無作為化などをクラウドで提供する米サンフランシスコの eClinical ソフト企業。",
+    "events": [],
+    "sources": [
+      "https://medrio.com/company/",
+      "https://www.fiercebiotech.com/cro/eclinical-specialist-medrio-receives-30m-equity-investment-from-questa-capital",
+      "https://www.mobihealthnews.com/news/medrio-gets-30m-cloud-based-clinical-trial-data-capture"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-39b6c0a9",
@@ -1471,187 +3558,542 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2022-01",
+    "acquiredBy": "WebPT",
+    "activity": "事業継続",
+    "description": "米ポートランド発の、理学療法などリハビリ外来クリニック向けの電子カルテ・請求管理・経営分析ソフト企業。現在は WebPT 傘下でブランドを継続。",
+    "events": [
+      {
+        "date": "2022-01",
+        "text": "WebPT が Clinicient と子会社 Keet の買収を完了"
+      },
+      {
+        "date": "2026-01",
+        "text": "旧子会社 Keet Health を WebPT が Net Health に売却"
+      }
+    ],
+    "sources": [
+      "https://www.webpt.com/about/press/webpt-acquires-clinicient",
+      "https://mergr.com/transaction/webpt-acquires-clinicient",
+      "https://www.clinicient.com/blog/clinicient-and-webpt/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-830da915",
-    "name": "attainia",
+    "name": "Attainia",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.attainia.com/",
+    "foundedYear": 2001,
+    "hp": "https://attainia.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2021-08",
+    "acquiredBy": "Revalize",
+    "activity": "事業継続",
+    "description": "病院の新築・改修時の医療機器の計画・予算化・更新予測を支援するクラウドソフトと機器カタログを提供する米国企業。現在は Revalize 傘下。",
+    "events": [
+      {
+        "date": "2016-10",
+        "text": "サーチファンド Prometheus Health Partners が買収"
+      },
+      {
+        "date": "2021-08",
+        "text": "Revalize が Prometheus Health Partners から買収"
+      }
+    ],
+    "sources": [
+      "https://mergr.com/transaction/revalize-acquires-attainia",
+      "https://mergr.com/transaction/prometheus-health-partners-acquires-attainia",
+      "https://www.streetinsider.com/Press+Releases/Revalize+Expands+Portfolio+with+New+Acquisitions/18886779.html"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-0a9b0b7b",
-    "name": "zynxhealth",
+    "name": "Zynx Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.zynxhealth.com/",
+    "foundedYear": 1996,
+    "hp": "https://www.zynxhealth.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2004-03",
+    "acquiredBy": "Hearst",
+    "activity": "事業継続",
+    "description": "文献やガイドラインに基づくオーダーセット・ケアプランなどの臨床意思決定支援コンテンツを電子カルテに組み込む形で病院に提供する米国企業。Hearst Health 傘下。",
+    "events": [
+      {
+        "date": "2002-05",
+        "text": "Cerner が Cedars-Sinai から買収"
+      },
+      {
+        "date": "2004-03",
+        "text": "Cerner が Hearst に売却"
+      },
+      {
+        "date": "2014-04",
+        "text": "Hearst が買収した CareInSync を Zynx Health に統合"
+      }
+    ],
+    "sources": [
+      "https://www.cbinsights.com/company/zynx-health",
+      "https://globalventuring.com/blog/2014/04/28/hearst-takes-careinsync-as-samsung-exits/",
+      "https://pitchbook.com/profiles/company/103578-67"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-3d0cc022",
-    "name": "kno2",
+    "name": "Kno2",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2009,
     "hp": "https://kno2.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Therasa Bell"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "米アイダホ州ボイシの企業で、医療機関や介護施設が電子カルテ間・FAX・Direct などで診療文書や患者データをやり取りできる相互運用（データ連携）基盤を提供する。",
+    "events": [
+      {
+        "date": "2015-10",
+        "text": "Inofile から Kno2 に社名変更"
+      },
+      {
+        "date": "2021-07",
+        "text": "Providence Ventures などから 1500万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://kno2.com/team/therasa-bell/",
+      "https://kno2.com/resources/blog/inofile-name-change-kno2/",
+      "https://kno2.com/?p=7265",
+      "https://kno2.com/company/",
+      "https://leadingage.org/kno2-llc/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-e09b10e9",
-    "name": "health loop",
+    "name": "HealthLoop",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://healthloop.com/",
+    "foundedYear": 2009,
+    "hp": "https://www.getwellnetwork.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Todd Johnson"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2018-11",
+    "acquiredBy": "GetWellNetwork（現 Get Well）",
+    "activity": "事業継続",
+    "description": "手術や入院の前後に患者へ毎日自動でチェックインを送り、回答から要注意の患者をケアチームに知らせる患者フォロー基盤を開発した米国企業。現在は Get Well の「GetWell Loop」。",
+    "events": [
+      {
+        "date": "2018-11",
+        "text": "GetWellNetwork が買収し、製品は GetWell Loop に"
+      }
+    ],
+    "sources": [
+      "https://www.hcinnovationgroup.com/population-health-management/patient-engagement/news/13030875/getwellnetwork-acquires-healthloop",
+      "https://www.mobihealthnews.com/content/getwellnetwork-acquires-healthloop-bolster-its-digital-patient-engagement-platform",
+      "https://www.canvas.vc/companies/healthloop"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-03a8e636",
-    "name": "simplePractice",
+    "name": "SimplePractice",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2012,
     "hp": "https://www.simplepractice.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Howard Spector",
+      "Ralph Zimmermann"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredBy": "EngageSmart",
+    "activity": "事業継続",
+    "description": "心理士・セラピストなど小規模の個人開業医療者向けに、予約・電子カルテ・請求・遠隔診療をまとめたクラウド型の診療所運営ソフトを提供する米国企業。",
+    "events": [
+      {
+        "date": "2021-09",
+        "text": "親会社 EngageSmart が NYSE に上場"
+      },
+      {
+        "date": "2024-01",
+        "text": "Vista Equity Partners が親会社 EngageSmart の買収（約40億ドル）を完了し非公開化"
+      }
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1863105/000095017022002829/esmt-20211231.htm",
+      "https://www.vistaequitypartners.com/news/vista-equity-partners-completes-acquisition-of-engagesmart/",
+      "https://www.joinheard.com/articles/heard-welcomes-howard-spector-co-founder-of-simplepractice-to-board-of-directors"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-f0ce5f3b",
     "name": "SimplyInsured",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2012,
     "hp": "https://www.simplyinsured.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Vivek Shah",
+      "George Huo"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "米国の中小企業向けに、従業員の団体医療保険プランを比較・見積もりし、加入手続きまでオンラインで支援する保険仲介サービス。サンフランシスコ拠点。",
+    "events": [
+      {
+        "date": "2015-04",
+        "text": "175万ドルのシード資金を調達"
+      }
+    ],
+    "sources": [
+      "https://simplyinsured.com/about",
+      "https://techcrunch.com/2015/04/20/y-combinator-backed-health-insurance-startup-simplyinsured-pulls-in-1-75-million-in-seed-funding",
+      "https://www.ycombinator.com/companies/simplyinsured"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-9cfb970c",
-    "name": "patientping",
+    "name": "PatientPing",
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "http://www.patientping.com/",
+    "hp": "https://bamboohealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jay Desai"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2021-03",
+    "acquiredBy": "Appriss Health（現 Bamboo Health）",
+    "activity": "事業継続",
+    "description": "患者の入退院・転院などの情報をリアルタイムで病院・介護施設・保険者に通知し、ケアの継ぎ目をつなぐケアコーディネーション基盤を提供した米国企業。現在は Bamboo Health の一部。",
+    "events": [
+      {
+        "date": "2021-03",
+        "text": "Appriss Health が約5億ドルでの買収に合意"
+      },
+      {
+        "date": "2021-08",
+        "text": "Appriss Health が社名を Bamboo Health に変更"
+      }
+    ],
+    "sources": [
+      "https://www.healthcareittoday.com/2021/03/23/clearlake-capital-and-insight-partners-backed-appriss-health-acquires-patientping-to-deliver-comprehensive-care-coordination-solutions/",
+      "https://bhbusiness.com/2021/08/31/appriss-rebrands-as-bamboo-health-following-patientping-acquisition/",
+      "https://fprimecapital.com/?p=2540"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-99c1e8c4",
-    "name": "benchling",
+    "name": "Benchling",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://benchling.com/",
+    "foundedYear": 2012,
+    "hp": "https://www.benchling.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Sajith Wickramasekara",
+      "Ashu Singhal"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "バイオ医薬品などの研究開発チーム向けに、電子実験ノート・分子生物学ツール・試料と実験データの管理をまとめたクラウド型の研究開発基盤を提供する米国企業。",
+    "events": [],
+    "sources": [
+      "https://research.contrary.com/report/benchling",
+      "https://genengnews.com/gen-edge/from-the-bench-to-benchling",
+      "https://www.benchling.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-0026ef58",
-    "name": "better doctor",
+    "name": "BetterDoctor",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://betterdoctor.com/",
+    "foundedYear": 2011,
+    "hp": "https://betterdoctor.questanalytics.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Ari Tulla"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2018-06",
+    "acquiredBy": "Quest Analytics",
+    "activity": "事業継続",
+    "description": "医師などの医療提供者の所在地・受付可否などの名簿データを検証・更新し、医療保険者のネットワーク情報を正確に保つサービスを提供した米国企業。現在は Quest Analytics の一部。",
+    "events": [
+      {
+        "date": "2018-06",
+        "text": "保険者向けネットワーク分析の Quest Analytics が買収"
+      }
+    ],
+    "sources": [
+      "https://www.axios.com/2018/06/17/exclusive-betterdoctor-being-acquired",
+      "https://www.healthcaredive.com/news/quest-analytics-takes-on-network-accuracy-with-betterdoctor-buy/525966/",
+      "https://www.biospace.com/quest-analytics-acquires-betterdoctor-to-create-first-health-plan-platform-to-ensure-network-adequacy-provider-data-accuracy-and-improved-member-experience"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-16b1e5da",
-    "name": "care cloud",
+    "name": "CareCloud",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.carecloud.com/",
+    "foundedYear": 2009,
+    "hp": "https://carecloud.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Albert Santalo"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2020-01",
+    "acquiredBy": "MTBC（現 CareCloud, Inc.、Nasdaq: CCLD）",
+    "activity": "事業継続",
+    "description": "医療機関向けにクラウド型の電子カルテ・診療報酬請求・業務管理ソフトを提供した米マイアミの企業。買収した MTBC が社名を CareCloud に変え、ブランドは継続。",
+    "events": [
+      {
+        "date": "2020-01",
+        "text": "医療請求代行の MTBC が買収"
+      },
+      {
+        "date": "2021-03",
+        "text": "MTBC が社名を CareCloud, Inc. に変更"
+      },
+      {
+        "date": "2023-01",
+        "text": "Nasdaq のティッカーを MTBC から CCLD に変更"
+      }
+    ],
+    "sources": [
+      "https://www.nasdaq.com/press-release/mtbc-announces-name-change-to-carecloud-inc.-doubles-down-on-innovation-growth-2021",
+      "https://www.wikiwand.com/en/articles/CareCloud",
+      "https://www.marketbeat.com/stocks/NASDAQ/CCLD/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-950b3d6a",
-    "name": "evariant",
+    "name": "Evariant",
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "http://www.evariant.com/",
+    "hp": "",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2020-01",
+    "acquiredBy": "Healthgrades",
+    "activity": "不明",
+    "description": "病院・医療システム向けに、患者獲得のためのマーケティングと医師連携を管理する医療専用の CRM（顧客関係管理）ソフトを提供した米コネチカット州の企業。",
+    "events": [
+      {
+        "date": "2020-01",
+        "text": "Healthgrades が買収（条件非公表）"
+      }
+    ],
+    "sources": [
+      "https://www.businesswire.com/news/home/20200107005267/en/Healthgrades-Acquires-Evariant",
+      "https://hartfordbusiness.com/article/denver-company-acquires-one-of-cts-fastest-growing-med-tech-firms/",
+      "https://www.vestarcapital.com/healthgrades-acquires-evariant"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-627e96e3",
     "name": "hc1",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.hc1.com/",
+    "foundedYear": 2011,
+    "hp": "https://hc1.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Brad Bostic"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "米インディアナ州の企業で、検査室（臨床検査）のデータを分析し、病院や検査会社の検査の適正利用・薬理ゲノム検査の活用などを支援するクラウドソフトを提供する。",
+    "events": [
+      {
+        "date": "2024-10",
+        "text": "検査室コンサルティングの Accumen を Arsenal Capital から買収"
+      },
+      {
+        "date": "2025-01",
+        "text": "625万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://www.ibj.com/articles/zionsville-based-health-care-data-company-hc1-acquires-accumen",
+      "https://www.businesswire.com/news/home/20241022744332/en",
+      "https://techpoint.org/digital-innovation/hc1-2025-venture-round/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-1db3e84f",
-    "name": "tigerText",
+    "name": "TigerConnect",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.tigertext.com/",
+    "foundedYear": 2010,
+    "hp": "https://tigerconnect.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Brad Brooks",
+      "Andrew Brooks",
+      "Jeffrey Evans"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "病院の医師・看護師などが使うセキュアなメッセージング、当直スケジュール、アラーム通知をまとめた臨床コミュニケーション基盤を提供する米ロサンゼルスの企業。",
+    "events": [
+      {
+        "date": "2015-11",
+        "text": "5000万ドルを調達"
+      },
+      {
+        "date": "2018-03",
+        "text": "TigerText から TigerConnect に社名変更"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/TigerConnect",
+      "https://fortune.com/2015/11/11/tiger-text-raises-50-million/",
+      "https://builtin.com/articles/tigerconnect-ceo-company-growth"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-b0736c86",
-    "name": "viewics",
+    "name": "Viewics",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://viewics.com/",
+    "foundedYear": 2010,
+    "hp": "",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Dhiren Bhatia",
+      "Tim Kuruvilla"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2017-11",
+    "acquiredBy": "Roche",
+    "activity": "不明",
+    "description": "臨床検査室の検査件数・所要時間・コストなどのデータを各種システムから集めて分析する、検査室向けビジネス分析ソフトを開発した米国企業。2017年に Roche が買収。",
+    "events": [
+      {
+        "date": "2017-11",
+        "text": "Roche が全株式の取得で合意し、診断事業のデジタル製品に統合"
+      }
+    ],
+    "sources": [
+      "https://www.roche.com/media/releases/med-cor-2017-11-17b",
+      "https://www.canvas.vc/companies/viewics",
+      "https://clpmag.com/uncategorized/roche-acquire-viewics/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-2b6f29f5",
-    "name": "lyraHealth",
+    "name": "Lyra Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2015,
     "hp": "https://www.lyrahealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "David Ebersman",
+      "Dena Bravata"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "企業の福利厚生として、従業員と家族に心理療法・コーチング・精神科医療などのメンタルヘルスケアをオンラインと対面で提供する米国企業。雇用主が費用を払う。",
+    "events": [
+      {
+        "date": "2020-08",
+        "text": "シリーズDで1.1億ドルを調達し評価額10億ドル超に"
+      },
+      {
+        "date": "2021-01",
+        "text": "シリーズEで1.87億ドルを調達"
+      },
+      {
+        "date": "2021-06",
+        "text": "シリーズFで2億ドルを調達し評価額46億ドルに"
+      }
+    ],
+    "sources": [
+      "https://www.mobihealthnews.com/news/genentech-facebook-vet-launches-behavioral-health-startup-lyra-health",
+      "https://hitconsultant.net/2020/08/25/lyra-health-series-d-funding",
+      "https://www.mobihealthnews.com/news/employer-focused-behavioral-health-startup-lyra-scores-200m"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-39cf56a3",
@@ -1663,31 +4105,65 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "hidden": "ヘルスケアの外"
   },
   {
     "id": "ov-e1e4ba41",
-    "name": "MediSas",
+    "name": "Medisas",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2011,
     "hp": "https://www.medisas.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "病院の勤務交代時の申し送り、回診、転棟・退院などの情報を電子化して医療チームで共有する、病院向けワークフロー・連携ソフトを開発した米国企業。",
+    "events": [],
+    "sources": [
+      "https://www.ycombinator.com/companies/medisas",
+      "https://pitchbook.com/profiles/company/56436-76",
+      "https://www.medisas.com/"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-b61b86ce",
-    "name": "syapse",
+    "name": "Syapse",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://syapse.com/",
+    "foundedYear": 2008,
+    "hp": "",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jonathan Hirsch",
+      "Tony Loeser",
+      "Glenn Winokur"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2024-12",
+    "acquiredBy": "N-Power Medicine",
+    "activity": "不明",
+    "description": "地域のがん診療施設の診療データを集めて精密腫瘍医療と実臨床データ（RWE）の研究に活用する基盤を、医療機関・製薬企業に提供した米サンフランシスコの企業。",
+    "events": [
+      {
+        "date": "2024-12",
+        "text": "N-Power Medicine が株式交換で買収（2025年1月発表）"
+      }
+    ],
+    "sources": [
+      "https://www.businesswire.com/news/home/20250112619660/en",
+      "https://www.fiercebiotech.com/cro/n-power-links-synapse-add-oncologists-clinical-research-network",
+      "https://www.ajmc.com/view/jonathan-hirsch-recalls-why-he-quit-graduate-school-to-start-health-it-company-syapse"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-3c43ca4d",
@@ -1695,179 +4171,505 @@
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "http://www.mobitor.com/",
+    "hp": "",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "閉鎖",
+    "activity": "事業終了",
+    "description": "医療機器の物流（手術用器材の貸出・在庫）や小売向けに、クラウドとモバイルで在庫・配送状況を追跡するソフトを開発していた米カリフォルニア州の企業。",
+    "events": [],
+    "sources": [
+      "https://www.cbinsights.com/company/mobitor",
+      "https://www.ithistory.org/node/242862"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-5cb7d40d",
-    "name": "augmedix",
+    "name": "Augmedix",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2013,
     "hp": "https://www.augmedix.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Ian Shakil"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "listedAt": "2021-10",
+    "acquiredAt": "2024-10",
+    "delistedAt": "2024-10",
+    "market": "Nasdaq",
+    "ticker": "AUGX",
+    "acquiredBy": "Commure",
+    "activity": "事業継続",
+    "description": "遠隔の書記スタッフと音声認識 AI を組み合わせ、診察中の会話から医師のカルテ記載（医療文書）を自動作成するサービスを提供する米国企業。2024年に Commure が買収。",
+    "events": [
+      {
+        "date": "2020-10",
+        "text": "Malo Holdings との逆さ合併で公開会社に（OTC 市場）"
+      },
+      {
+        "date": "2021-10",
+        "text": "Nasdaq に上場（4000万ドルの公募）"
+      },
+      {
+        "date": "2024-10",
+        "text": "Commure が1株2.35ドルで買収を完了し上場廃止"
+      }
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1769804/000121390023034108/f10k2022a1_augmedix.htm",
+      "https://www.mobihealthnews.com/news/augmedix-makes-nasdaq-debut-40m-ipo",
+      "https://www.augmedix.com/press-release/commure-completes-merger-with-augmedix"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-2257e985",
-    "name": "ryffin",
+    "name": "Riffyn",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://riffyn.com/",
+    "foundedYear": 2014,
+    "hp": "https://plm.sw.siemens.com/en-US/riffyn-x",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Timothy Gardner"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredBy": "Siemens",
+    "activity": "事業継続",
+    "description": "製薬・バイオ・食品などの研究開発で、実験の設計とデータ収集・分析をクラウドで一元管理するソフトを開発した米オークランドの企業。現在は Siemens の製品「Riffyn X」。",
+    "events": [
+      {
+        "date": "2019-05",
+        "text": "M Ventures 主導のシリーズBで1500万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://www.m-ventures.com/portfolio/riffyn",
+      "https://plm.sw.siemens.com/en-US/riffyn-x",
+      "https://www.biospace.com/riffyn-raises-a-15m-series-b-to-accelerate-its-growth-in-life-sciences-r-and-amp-d"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-4d3d6f64",
     "name": "mscripts",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.mscripts.com/",
+    "foundedYear": 2007,
+    "hp": "",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2019-04",
+    "acquiredBy": "Cardinal Health",
+    "activity": "不明",
+    "description": "薬局向けに、処方薬の受け取り通知・服薬リマインド・リフィル依頼・支払いなどができる患者向けモバイルアプリとウェブの基盤を提供した米サンフランシスコの企業。",
+    "events": [
+      {
+        "date": "2019-04",
+        "text": "Cardinal Health が買収"
+      }
+    ],
+    "sources": [
+      "https://drugstorenews.com/pharmacy/cardinal-health-acquires-mscripts",
+      "https://chaindrugreview.com/cardinal-health-acquires-mscripts/",
+      "https://www.cbinsights.com/company/mscripts"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-16e3a15f",
-    "name": "castlightHealth",
+    "name": "Castlight Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.castlighthealth.com/",
+    "foundedYear": 2008,
+    "hp": "https://www.castlighthealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Giovanni Colella",
+      "Bryan Roberts",
+      "Todd Park"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "listedAt": "2014-03",
+    "acquiredAt": "2022-02",
+    "delistedAt": "2022-02",
+    "market": "NYSE",
+    "ticker": "CSLT",
+    "acquiredBy": "Vera Whole Health",
+    "activity": "事業継続",
+    "description": "企業の従業員向けに、医療費や医療機関の質を比較し、福利厚生や受診先を選べるようにする医療ナビゲーションのアプリとサービスを提供する米国企業。",
+    "events": [
+      {
+        "date": "2014-03",
+        "text": "NYSE に上場"
+      },
+      {
+        "date": "2022-01",
+        "text": "Vera Whole Health が約3.7億ドルでの買収を発表"
+      },
+      {
+        "date": "2022-02",
+        "text": "買収完了に伴い上場廃止"
+      },
+      {
+        "date": "2022-09",
+        "text": "Vera と統合し apree health ブランドの下に"
+      }
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1433714/000119312514041287/d636610ds1.htm",
+      "https://en.wikipedia.org/wiki/Castlight_Health",
+      "https://www.healthcaredive.com/news/vera-whole-health-merger-castlight-anthem-primary-care/616742/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-a1dcbbaf",
-    "name": "scientist -",
+    "name": "Scientist.com",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2007,
     "hp": "https://www.scientist.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Kevin Lustig",
+      "Chris Petersen",
+      "Andrew Martin"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2025-11",
+    "acquiredBy": "GHO Capital Partners",
+    "activity": "事業継続",
+    "description": "製薬・バイオ企業と6000社超の受託研究機関（CRO など）をつなぎ、研究サービスの調達・契約・発注をまとめて行える B2B マーケットプレイスを運営する米国企業。旧社名 Assay Depot。",
+    "events": [
+      {
+        "date": "2008-09",
+        "text": "最初の公開研究マーケットプレイスを開始"
+      },
+      {
+        "date": "2025-09",
+        "text": "ヘルスケア特化 PE の GHO Capital が買収で合意"
+      },
+      {
+        "date": "2025-11",
+        "text": "GHO Capital による買収が完了"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Scientist.com_(company)",
+      "https://www.scientist.com/press-releases/scientist-com-announces-agreement-to-be-acquired-by-gho-capital-partners",
+      "https://www.scientist.com/press-releases/scientist-com-completes-acquisition-by-gho-capital-partners-to-accelerate-global-r-amp-d-orchestration"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-7912de32",
-    "name": "referral md",
+    "name": "ReferralMD",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://getreferralmd.com/",
+    "foundedYear": 2011,
+    "hp": "https://referralmd.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jonathan Govette"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "医療機関・医療ネットワーク向けに、紹介状（患者紹介）の管理、事前承認、電子コンサルト、患者の受付・予約などをまとめたケア連携ソフトを提供する米国企業。",
+    "events": [],
+    "sources": [
+      "https://referralmd.com/about-us/",
+      "https://hitconsultant.net/2013/01/25/jonathan-govette-of-referral-md-on-disrupting-healthcare-communication",
+      "https://www.cbinsights.com/company/referralmd/people"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-dc871de7",
-    "name": "crowdmed",
+    "name": "CrowdMed",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2012,
     "hp": "https://www.crowdmed.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "診断がつかない患者が症例を投稿し、医療者などの登録者（メディカル・ディテクティブ）が可能性の高い診断を提案するクラウドソーシング型の診断支援サービス。",
+    "events": [],
+    "sources": [
+      "https://www.ycombinator.com/companies/crowdmed",
+      "https://www.mobihealthnews.com/news/crowdmed-gets-11m-crowdsource-diagnosis",
+      "https://www.nbcnews.com/storyline/the-big-questions/how-crowdsourcing-transforming-diagnosis-rare-disorders-n728306"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-3139d108",
-    "name": "solvebio",
+    "name": "SolveBio",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.solvebio.com/",
+    "foundedYear": 2013,
+    "hp": "https://quartz.bio/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Mark Kaganovich",
+      "David Caplan"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2023-01",
+    "acquiredBy": "QuartzBio（Precision for Medicine）",
+    "activity": "事業継続",
+    "description": "ゲノム・臨床・バイオマーカーなどの研究データを統合・管理するクラウド型データ基盤を、製薬企業の研究開発や臨床開発向けに提供した米ニューヨークの企業。現在は QuartzBio の一部。",
+    "events": [
+      {
+        "date": "2023-01",
+        "text": "Precision for Medicine 傘下の QuartzBio が買収"
+      }
+    ],
+    "sources": [
+      "https://www.precisionmedicinegrp.com/2023/01/quartzbio-a-part-of-precision-for-medicine-acquires-solvebio-and-expands-software-as-a-service-saas-data-management-solutions-for-clinical-research-development-rd/",
+      "https://www.appliedclinicaltrialsonline.com/view/precision-for-medicine-s-quartzbio-acquires-solvebio",
+      "https://www.cbinsights.com/company/solvebio"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-ba28d0b2",
-    "name": "arterys",
+    "name": "Arterys",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2011,
     "hp": "https://arterys.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Fabien Beckers",
+      "John Axerio-Cilies",
+      "Albert Hsiao",
+      "Shreyas Vasanawala"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2022-10",
+    "acquiredBy": "Tempus",
+    "activity": "事業継続",
+    "description": "心臓 MRI・肺・肝臓・脳などの医用画像をクラウド上の AI で解析し、PACS や電子カルテから使えるようにする画像 AI プラットフォームを提供する米国企業。現在は Tempus 傘下。",
+    "events": [
+      {
+        "date": "2022-10",
+        "text": "精密医療 AI の Tempus が買収"
+      }
+    ],
+    "sources": [
+      "https://medtechinnovator.org/arterys-and-tempus-precision-merger/",
+      "https://arterys.com/",
+      "https://pitchbook.com/profiles/company/56427-58"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-06421e68",
-    "name": "limelightHealth",
+    "name": "Limelight Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.limelighthealth.com/",
+    "foundedYear": 2014,
+    "hp": "",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jason Andrew"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2020-08",
+    "acquiredBy": "FINEOS",
+    "activity": "事業継続",
+    "description": "団体向けの生命保険・医療保険・就業不能保険などの福利厚生保険について、保険会社の見積もり・料率算定・引受をクラウドで行うソフトを提供した米国企業。",
+    "events": [
+      {
+        "date": "2020-08",
+        "text": "保険ソフトの FINEOS が7500万ドルで買収"
+      }
+    ],
+    "sources": [
+      "https://www.fineos.com/2020/08/11/fineos-acquires-limelight-health/",
+      "https://coverager.com/fineos-acquires-limelight-health-for-75-million/",
+      "https://getlatka.com/companies/limelighthealth/interviews/limelighthealth-jason-andrew-2022"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-60d7f3c9",
-    "name": "healthFinch",
+    "name": "healthfinch",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.healthfinch.com/",
+    "foundedYear": 2011,
+    "hp": "",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Lyle Berkowitz"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2020-07",
+    "acquiredBy": "Health Catalyst",
+    "activity": "不明",
+    "description": "電子カルテのワークフローに組み込み、処方更新や予防ケアの確認などの定型業務を自動化・委任できるようにする臨床業務支援ソフトを開発した米ウィスコンシン州の企業。",
+    "events": [
+      {
+        "date": "2020-07",
+        "text": "Health Catalyst が約4000万ドルで買収（株式交付）"
+      }
+    ],
+    "sources": [
+      "https://www.healthcatalyst.com/news/health-catalyst-announces-agreement-to-acquire-healthfinch",
+      "https://fiercehealthcare.com/tech/health-catalyst-acquires-technology-company-healthfinch-40m-deal",
+      "https://www.madisonstartups.com/?p=13866"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-9c0ebba6",
-    "name": "telesofia",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
-    "hp": "http://www.telesofia.com/",
+    "name": "Telesofia Medical",
+    "country": "Israel",
+    "region": "ASIA",
+    "foundedYear": 2011,
+    "hp": "https://www.telesofia.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Rami Cohen"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "診療記録や薬剤情報から患者一人ひとりに合わせた説明動画を自動生成し、SMS・メール・患者ポータルで届ける患者教育プラットフォームを提供するイスラエル発の企業。",
+    "events": [],
+    "sources": [
+      "https://innovationisrael.org.il/en/a-personal-film-clip-in-less-than-a-second/",
+      "https://www.mobihealthnews.com/news/emea/sheba-medical-center-partners-startup-offer-new-telemedicine-programme",
+      "https://www.telesofia.com/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-ff548c0b",
-    "name": "nightingaleHealth",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
+    "name": "Nightingale Health",
+    "country": "Finland",
+    "region": "EU",
+    "foundedYear": 2013,
     "hp": "https://nightingalehealth.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Teemu Suna",
+      "Peter Würtz"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "listedAt": "2021-03",
+    "market": "Nasdaq Helsinki",
+    "ticker": "HEALTH",
+    "activity": "事業継続",
+    "description": "NMR を使った大規模な血液分析で数百項目のバイオマーカーを測り、疾患リスクを示す健康データ基盤を、医療機関・研究機関・バイオバンクなどに提供するフィンランドの上場企業。",
+    "events": [
+      {
+        "date": "2021-03",
+        "text": "Nasdaq First North Growth Market Finland に上場（HEALTH）"
+      },
+      {
+        "date": "2025-03",
+        "text": "Nasdaq Helsinki 本市場に市場変更"
+      }
+    ],
+    "sources": [
+      "https://nightingalehealth.com/news/nightingale-intends-to-launch-an-initial-public-offering-and-listing-on-nasdaq-first-north-growth-market-finland",
+      "https://nightingalehealth.com/news/the-ipo-of-nightingale-has-been-oversubscribed-and-the-listing-will-be-completed-as-planned-trading-in-the-series-b-shares-is-expected-to-commence-on-19-march-2021",
+      "https://www.inderes.fi/en/releases/nightingale-health-plcs-listing-application-has-been-approved-and-trading-in-its-series-b-shares-on-the-main-market-of-nasdaq-helsinki-will-commence-on-19-march-2025"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-5351eed1",
-    "name": "Medidata",
+    "name": "Medidata Solutions",
     "country": "United States",
     "region": "US",
     "foundedYear": 1999,
-    "hp": "https://www.mdsol.com/en",
+    "hp": "https://www.medidata.com/",
     "exit": "IPO",
-    "founders": [],
+    "founders": [
+      "Tarek Sherif",
+      "Glen de Vries",
+      "Edward Ikeguchi"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "listedAt": "2009-06",
+    "acquiredAt": "2019-10",
+    "market": "Nasdaq",
+    "ticker": "MDSO",
+    "acquiredBy": "Dassault Systèmes",
+    "activity": "事業継続",
+    "description": "製薬・医療機器企業向けに、臨床試験のデータ収集（EDC「Rave」）や試験管理、患者向けツールをクラウドで提供する米国企業。2019年から仏ダッソー・システムズの傘下。",
+    "events": [
+      {
+        "date": "2009-06",
+        "text": "Nasdaq に上場（MDSO）"
+      },
+      {
+        "date": "2019-06",
+        "text": "ダッソー・システムズが約58億ドルで買収すると発表"
+      },
+      {
+        "date": "2019-10",
+        "text": "買収完了、Nasdaq 上場廃止"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Medidata_Solutions",
+      "https://www.3ds.com/newsroom/press-releases/dassault-systemes-completes-acquisition-medidata-opening-new-world-virtual-twin-experiences-healthcare"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-135bd1b8",
@@ -1879,7 +4681,8 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "hidden": "特定できない"
   },
   {
     "id": "ov-aeb2d81c",
@@ -1889,9 +4692,32 @@
     "foundedYear": null,
     "hp": "http://sharepractice.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Andrew Brandeis",
+      "Zach Bell",
+      "Benoit Carrier"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "認証済みの医師どうしが治療法の効果や経験を共有・評価し合う、医師向けのソーシャル型医療リファレンスアプリを開発したサンフランシスコの企業。",
+    "events": [
+      {
+        "date": "2013-04",
+        "text": "TechCrunch Disrupt NY 2013 でサービスを発表"
+      },
+      {
+        "date": "2013",
+        "text": "Founders Fund などから約130万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://techcrunch.com/?p=806998",
+      "https://www.mobihealthnews.com/news/sharepractice-raises-13m-physician-treatment-rating-network"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-5089e36e",
@@ -1903,19 +4729,57 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2017-04",
+    "acquiredBy": "ClearCare",
+    "activity": "不明",
+    "description": "自費の在宅介護（プライベートデューティ）事業者向けに、スケジュール・請求などの業務管理ソフトを提供していた企業。2017年に ClearCare が買収した。",
+    "events": [
+      {
+        "date": "2017-04",
+        "text": "在宅介護ソフトの ClearCare が買収"
+      }
+    ],
+    "sources": [
+      "https://ageinplacetech.com/pressrelease/clearcare-acquires-hometrak",
+      "https://softwareequity.com/transactions/hometrak-acquired-by-clearcare"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-6290aa3e",
     "name": "Oration",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2012,
     "hp": "http://www.oration.com/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2017-06",
+    "acquiredBy": "PokitDok",
+    "activity": "事業終了",
+    "description": "雇用主と従業員が処方薬の価格・品質を比べ、安い薬を選べるようにする処方管理プラットフォーム「OrationRx」を提供していたカリフォルニア州フォスターシティの公益法人。",
+    "events": [
+      {
+        "date": "2015",
+        "text": "DFJ・Andreessen Horowitz・Google Ventures から1100万ドルを調達"
+      },
+      {
+        "date": "2017-06",
+        "text": "PokitDok が薬局関連ソフトの資産を買収"
+      }
+    ],
+    "sources": [
+      "https://www.businesswire.com/news/home/20170613005397/en/PokitDok-Broadens-Commercial-Pharmacy-Services-with-Oration-Acquisition",
+      "https://www.cbinsights.com/company/oration"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-42aceb1d",
@@ -1927,7 +4791,24 @@
     "exit": "",
     "founders": [],
     "note": "Medidataに買収統合された？",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2017-04",
+    "acquiredBy": "Medidata Solutions",
+    "activity": "事業継続",
+    "description": "臨床試験の電子同意（eConsent）製品「Enroll」やバーチャル試験向けツールを開発していた企業。2017年に Medidata が買収し、Medidata Patient Cloud に統合した。",
+    "events": [
+      {
+        "date": "2017-04",
+        "text": "Medidata が買収を発表（eConsent を Patient Cloud に統合）"
+      }
+    ],
+    "sources": [
+      "https://businesswire.com/news/home/20170417005253/en/Medidata-Acquire-Mytrus-Step-Transforming-Clinical-Trial%c2%a0",
+      "https://hitconsultant.net/2017/04/17/medidata-acquire-mytrus/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-f623dd24",
@@ -1939,19 +4820,53 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2017-02",
+    "acquiredBy": "Medidata Solutions",
+    "activity": "事業継続",
+    "description": "Box Platform 上に作られた、製薬企業向けの規制文書管理・共同編集システム（eTMF など）を提供していた企業。2017年に Medidata が買収した。",
+    "events": [
+      {
+        "date": "2017-02",
+        "text": "Medidata が買収を発表（2017年2月中に完了予定）"
+      }
+    ],
+    "sources": [
+      "https://www.biospace.com/medidata-solutions-inc-to-expand-its-industry-leading-cloud-platform-with-regulated-content-and-document-management-capabilities",
+      "https://en.wikipedia.org/wiki/Medidata_Solutions"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-aeb8b462",
-    "name": "Intelemage LLC",
+    "name": "Intelemage",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2007,
     "hp": "http://www.intelemage.com",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2016-04",
+    "acquiredBy": "Medidata Solutions",
+    "activity": "事業継続",
+    "description": "臨床試験で使う医用画像（CT・MRI など）のファイル共有とワークフロー管理を提供していたオハイオ州シンシナティの企業。2016年に Medidata が買収した。",
+    "events": [
+      {
+        "date": "2016-04",
+        "text": "Medidata が買収"
+      }
+    ],
+    "sources": [
+      "https://www.biospace.com/medidata-solutions-inc-acquires-b-intelemage-b-a-global-leader-in-managing-and-transferring-medical-images-and-clinical-data",
+      "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/article/15614716/medidata-acquires-image-sharing-firm-intelemage"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-9917bece",
@@ -1969,67 +4884,194 @@
     "note": "",
     "areas": [
       "Telemedicine"
-    ]
+    ],
+    "listing": "買収",
+    "acquiredAt": "2021-05",
+    "acquiredBy": "Grand Rounds（合併、現 Included Health）",
+    "activity": "事業継続",
+    "description": "スマートフォンやPCのビデオ通話で、医師・心理士の診察を受けられる米国の遠隔医療サービス。2021年に Grand Rounds と合併し、現在は Included Health の一部。",
+    "events": [
+      {
+        "date": "2021-03",
+        "text": "Grand Rounds との合併を発表"
+      },
+      {
+        "date": "2021-05",
+        "text": "合併完了"
+      },
+      {
+        "date": "2021-10",
+        "text": "合併後の会社が Included Health に改称"
+      }
+    ],
+    "sources": [
+      "https://includedhealth.com/announcements/grand-rounds-and-doctor-on-demand-complete-merger-to-form-the-only-virtual-care-company-of-its-kind/",
+      "https://www.statnews.com/2021/10/18/doctor-on-demand-grand-rounds-included-health/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-817efa19",
-    "name": "HealthSopt",
+    "name": "HealthSpot",
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "closed",
+    "hp": "",
     "exit": "Closed",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "閉鎖",
+    "closedAt": "2016-01",
+    "activity": "事業終了",
+    "description": "ドラッグストアや病院に置いたブース型キオスクから、ビデオ通話で医師の診察を受けられる遠隔医療サービスを運営していたオハイオ州ダブリンの企業。",
+    "events": [
+      {
+        "date": "2014",
+        "text": "Cleveland Clinic と提携"
+      },
+      {
+        "date": "2016-01",
+        "text": "事業を停止し、Chapter 7（清算）を申請"
+      }
+    ],
+    "sources": [
+      "https://www.healthcaredive.com/news/healthspot-files-chapter-7-bankruptcy-shutters-telehealth-kiosks/412325/",
+      "https://medcitynews.com/2016/01/telemedicine-kiosk-maker-healthspot-shuts-down/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-6794a2e6",
     "name": "Klara",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://klara.com/",
+    "foundedYear": 2013,
+    "hp": "https://www.klara.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Simon Bolz",
+      "Simon Lorenz"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2022-02",
+    "acquiredBy": "ModMed（Modernizing Medicine）",
+    "activity": "事業継続",
+    "description": "医療機関と患者がテキストメッセージなどでやり取りし、予約・問診・リマインドを管理できる患者コミュニケーション基盤を提供するニューヨークの企業。2022年から ModMed 傘下。",
+    "events": [
+      {
+        "date": "2022-02",
+        "text": "専門診療科向け電子カルテの ModMed が買収"
+      }
+    ],
+    "sources": [
+      "https://www.businesswire.com/news/home/20220208006161/en/ModMed-Acquires-Maker-of-the-Klara-Practice-Patient-Collaboration-Platform",
+      "https://www.modmed.com/press-release/modmed-acquires-maker-of-the-klara-practice-patient-collaboration-platform/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-30156202",
-    "name": "MeeDoc",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.gotthardt.com/company/",
+    "name": "Meedoc",
+    "country": "Finland",
+    "region": "EU",
+    "foundedYear": 2012,
+    "hp": "",
     "exit": "",
     "founders": [],
     "note": "買収された？",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2022-07",
+    "acquiredBy": "Welzo",
+    "activity": "不明",
+    "description": "スマートフォンやPCから予約し、すぐに医師とオンラインで相談できる遠隔医療サービスを提供していたフィンランド・ヘルシンキの企業。",
+    "events": [
+      {
+        "date": "2014-08",
+        "text": "シード資金150万ドルを調達"
+      },
+      {
+        "date": "2022-07",
+        "text": "英国の Welzo が Meedoc.com を取得"
+      }
+    ],
+    "sources": [
+      "https://welzo.com/blogs/news/welzo-meedoc",
+      "https://www.cbinsights.com/company/meedoc"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-91c9c811",
-    "name": "Oto health",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
-    "hp": "https://www.otohealth.com/",
+    "name": "Oto",
+    "country": "United Kingdom",
+    "region": "EU",
+    "foundedYear": 2019,
+    "hp": "https://joinoto.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Edmund Farrar",
+      "George Leidig"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "耳鳴りに悩む人向けに、認知行動療法（CBT）にもとづくアプリのプログラムと専門家（オーディオロジスト）のサポートを組み合わせて提供する英国のデジタルヘルス企業。",
+    "events": [
+      {
+        "date": "2022-01",
+        "text": "Y Combinator（Winter 2022）に参加"
+      },
+      {
+        "date": "2022",
+        "text": "米 Treble Health と提携し遠隔相談を提供"
+      }
+    ],
+    "sources": [
+      "https://www.ycombinator.com/companies/oto",
+      "https://dealroom.co/companies/otohealth/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-29c97f52",
-    "name": "Ringadoc Exchange",
+    "name": "Ringadoc",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "?",
+    "foundedYear": 2010,
+    "hp": "",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Jordan Michaels"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2014-08",
+    "acquiredBy": "Practice Fusion",
+    "activity": "不明",
+    "description": "時間外に患者からの電話を医師につなぎ、ウェブやモバイルアプリで医師が対応できるようにする電話・遠隔相談サービスを提供していたサンフランシスコの企業。",
+    "events": [
+      {
+        "date": "2014-08",
+        "text": "クラウド電子カルテの Practice Fusion が買収"
+      }
+    ],
+    "sources": [
+      "https://www.mobihealthnews.com/news/practice-fusion-acquires-after-hours-patient-physician-consultations-company-ringadoc",
+      "https://socaltech.com/ringadoc_acquired_by_practice_fusion/s-0056347.html"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-e655cde8",
@@ -2037,35 +5079,101 @@
     "country": "United States",
     "region": "US",
     "foundedYear": null,
-    "hp": "closed",
+    "hp": "http://winkhealth.com",
     "exit": "Closed",
-    "founders": [],
+    "founders": [
+      "Darwin Lo",
+      "Chris Turitzin"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "閉鎖",
+    "activity": "事業終了",
+    "description": "睡眠時無呼吸症候群のリスクをスマートフォンアプリで調べ、医師の遠隔診療と治療器具の自宅配送までオンラインで行う「デジタル睡眠クリニック」を運営していた企業。",
+    "events": [
+      {
+        "date": "2015-01",
+        "text": "Y Combinator（Winter 2015）に参加"
+      }
+    ],
+    "sources": [
+      "https://www.ycombinator.com/companies/wink-health",
+      "https://www.loot-drop.io/startup/1103-wink-health"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-1042b957",
-    "name": "octave",
+    "name": "Octave",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2018,
     "hp": "https://www.findoctave.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Sandeep Acharya"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "保険適用（イン・ネットワーク）の心理療法・カウンセリングを、対面とオンラインで提供する米国の行動医療（メンタルヘルス）企業。患者と治療者のマッチングにも力を入れる。",
+    "events": [
+      {
+        "date": "2019-10",
+        "text": "シリーズAで1100万ドルを調達"
+      },
+      {
+        "date": "2021-05",
+        "text": "シリーズBで2000万ドルを調達"
+      },
+      {
+        "date": "2023-06",
+        "text": "Cigna Ventures などからシリーズCで5200万ドルを調達"
+      },
+      {
+        "date": "2026-03",
+        "text": "保険者向けの治療者マッチング基盤「WiseMatch」を発表"
+      }
+    ],
+    "sources": [
+      "https://businesswire.com/news/home/20191022005369/en/Octave-Closes-11M-Series-Funding-Expand-Operations",
+      "https://blog.findoctave.com/blog/octave-raises-52m-in-series-c-funding-to-expand-in-network-mental-health"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-d441966b",
     "name": "Health Navigator",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2014,
     "hp": "https://www.healthnavigator.com/",
     "exit": "Acquired",
-    "founders": [],
+    "founders": [
+      "David Thompson"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2019-10",
+    "acquiredBy": "Amazon",
+    "activity": "事業終了",
+    "description": "症状を入力すると受診の緊急度や受診先を案内する、臨床症状チェック・トリアージのソフトウェアを医療機関や遠隔医療事業者に提供していた企業。2019年に Amazon が買収した。",
+    "events": [
+      {
+        "date": "2019-10",
+        "text": "Amazon が買収し、Amazon Care に統合"
+      }
+    ],
+    "sources": [
+      "https://www.healthcaredive.com/news/amazon-acquires-digital-health-startup-1-year-post-pillpack/565744/",
+      "https://www.pymnts.com/amazon-acquisitions/2019/amazon-snaps-up-health-navigator-to-power-primary-care-program/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-6e585586",
@@ -2077,120 +5185,311 @@
     "exit": "Active",
     "founders": [],
     "note": "非営利組織",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "フロリダ州アルタモンテスプリングスに本部を置く、セブンスデー・アドベンチスト教会系の非営利病院グループ。米国の複数州で50を超える病院を運営する。",
+    "events": [
+      {
+        "date": "2019-01",
+        "text": "Adventist Health System から AdventHealth にブランドを統一"
+      },
+      {
+        "date": "2020",
+        "text": "電子カルテを Cerner から Epic に切り替えると発表"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/AdventHealth",
+      "https://www.adventhealth.com/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-320a5a18",
     "name": "SteadyMD",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2016,
     "hp": "https://www.steadymd.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Guy Friedman",
+      "Yarone Goren"
+    ],
     "note": "",
     "areas": [
       "Telemedicine"
-    ]
+    ],
+    "listing": "買収",
+    "acquiredAt": "2025-10",
+    "acquiredBy": "DocGo",
+    "activity": "事業継続",
+    "description": "全米で免許を持つ医師・看護師のネットワークを使い、デジタルヘルス企業などに遠隔診療の臨床部分を代わりに提供する米国の企業。2025年から DocGo 傘下。",
+    "events": [
+      {
+        "date": "2025-10",
+        "text": "移動医療の DocGo（Nasdaq: DCGO）が買収"
+      }
+    ],
+    "sources": [
+      "https://www.mobihealthnews.com/news/docgo-acquires-steadymd",
+      "https://hlth.com/insights/news/docgo-acquires-steadymd-to-expand-telehealth-services-nationwide-2025-10-22"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-5b374929",
     "name": "MDLIVE",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2009,
     "hp": "https://www.mdlive.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Randy Parker"
+    ],
     "note": "",
     "areas": [
       "Telemedicine"
-    ]
+    ],
+    "listing": "買収",
+    "acquiredAt": "2021-04",
+    "acquiredBy": "Evernorth（Cigna）",
+    "activity": "事業継続",
+    "description": "ビデオ通話などで、急性疾患の診療・メンタルヘルス・皮膚科などの遠隔医療を提供する米国の企業。2021年から Cigna の Evernorth 傘下。",
+    "events": [
+      {
+        "date": "2021-02",
+        "text": "Cigna の Evernorth が買収を発表"
+      },
+      {
+        "date": "2021-04",
+        "text": "買収完了"
+      }
+    ],
+    "sources": [
+      "https://www.fiercehealthcare.com/payer/cigna-s-evernorth-completes-acquisition-virtual-care-provider-mdlive",
+      "https://www.floridatrend.com/article/22073/health-care-qa/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-54d4c8aa",
-    "name": "sherpaa",
+    "name": "Sherpaa",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2012,
     "hp": "https://sherpaa.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Jay Parkinson"
+    ],
     "note": "",
     "areas": [
       "Telemedicine"
-    ]
+    ],
+    "listing": "買収",
+    "acquiredAt": "2019",
+    "acquiredBy": "Crossover Health",
+    "activity": "事業終了",
+    "description": "同じ担当医がメッセージ・電話・ビデオで継続して診る「バーチャル・プライマリケア」を、雇用主の福利厚生として提供していたニューヨークの企業。",
+    "events": [
+      {
+        "date": "2019",
+        "text": "Crossover Health が買収"
+      },
+      {
+        "date": "2020-12",
+        "text": "Crossover Health がサービスを終了"
+      }
+    ],
+    "sources": [
+      "https://www.mobihealthnews.com/news/why-crossover-health-shut-down-sherpaa-and-how-its-taking-its-lessons-future",
+      "https://jayparkinsonmd.com/work/sherpaa"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-8ef451f9",
     "name": "Healint",
-    "country": "United States",
-    "region": "US",
-    "foundedYear": null,
+    "country": "Singapore",
+    "region": "ASIA",
+    "foundedYear": 2013,
     "hp": "https://healint.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "François Cadiou"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2024-02",
+    "acquiredBy": "Aptar Digital Health（AptarGroup）",
+    "activity": "事業継続",
+    "description": "片頭痛の記録・管理アプリ「Migraine Buddy」などを開発し、患者のデータを製薬企業の研究にも活用するシンガポールの企業。2024年から Aptar Digital Health 傘下。",
+    "events": [
+      {
+        "date": "2024-02",
+        "text": "AptarGroup の Aptar Digital Health が買収"
+      }
+    ],
+    "sources": [
+      "https://www.businesswire.com/news/home/20240221698030/en/Aptar-Digital-Health-Announces-Acquisition-of-Healint-to-Reinforce-Digital-Health-Portfolio-and-Drive-Future-Growth",
+      "https://pharmaphorum.com/news/aptar-buys-digital-health-partner-healint"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-9684591b",
     "name": "GRYT Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://grythealth.com/",
+    "foundedYear": 2016,
+    "hp": "https://www.grythealth.com/",
     "exit": "Active",
     "founders": [
       "Dave Fuehrer"
     ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "がん患者と家族をアプリやオンラインのコミュニティでつなぎ、その声を製薬企業の研究や患者体験の改善に活かすニューヨーク州ロチェスターの企業。",
+    "events": [
+      {
+        "date": "2017",
+        "text": "Stupid Cancer と共同でがん患者向けアプリを公開"
+      },
+      {
+        "date": "2018",
+        "text": "同アプリが Appy Awards（非営利部門）を受賞"
+      }
+    ],
+    "sources": [
+      "https://rbj.net/2018/04/11/dave-fuehrer-helps-people-with-cancer-inspired-by-his-own-journey/",
+      "https://prnewswire.com/news-releases/gryt-healths-stupid-cancer-app-wins-2018-appy-award-for-best-non-profit-app-300649143.html"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-54131072",
-    "name": "Concerto HealthAI",
+    "name": "ConcertAI",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
-    "hp": "https://concertohealthai.com/",
+    "foundedYear": 2017,
+    "hp": "https://www.concertai.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Jeff Elton"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "がん領域の実臨床データ（リアルワールドデータ）と AI を使い、製薬企業の臨床開発や医療機関の研究を支えるソフトウェア・データを提供する米国企業。SymphonyAI グループの一社。",
+    "events": [
+      {
+        "date": "2020-01",
+        "text": "シリーズBで総額1.5億ドルを調達"
+      },
+      {
+        "date": "2023-12",
+        "text": "米国臨床腫瘍学会（ASCO）から CancerLinQ を買収"
+      }
+    ],
+    "sources": [
+      "https://www.concertai.com/about-us/",
+      "https://hitconsultant.net/2023/12/11/concertai-acquires-cancerlinq"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-1c6301d2",
     "name": "PathAI",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2016,
     "hp": "https://www.pathai.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Andy Beck",
+      "Aditya Khosla"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "病理標本のデジタル画像を AI で解析し、がんなどの診断や製薬企業の臨床試験を支える米国ボストンの企業。病理画像管理システム「AISight」を提供する。",
+    "events": [
+      {
+        "date": "2024",
+        "text": "臨床検査部門を Quest Diagnostics に売却し AISight をライセンス"
+      },
+      {
+        "date": "2025",
+        "text": "AISight Dx が FDA の承認（クリアランス）を取得"
+      },
+      {
+        "date": "2026-05",
+        "text": "Roche が最大10.5億ドルで買収することで合意"
+      }
+    ],
+    "sources": [
+      "https://www.pathai.com/about-us",
+      "https://www.medtechdive.com/news/roche-to-acquire-digital-pathology-firm-pathai-for-up-to-105b/819589/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-58e743f1",
     "name": "One Drop",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2014,
     "hp": "https://onedrop.today/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Jeff Dachis"
+    ],
     "note": "",
     "areas": [
       "DMP"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業終了",
+    "description": "血糖値の記録アプリ、Bluetooth 血糖測定器「Chrome」、コーチングを組み合わせた糖尿病などの自己管理サービスを提供していた米国企業。",
+    "events": [
+      {
+        "date": "2023-11",
+        "text": "サブスクリプションと消耗品の販売を終了"
+      },
+      {
+        "date": "2024-11",
+        "text": "アプリと関連サービスを終了"
+      }
+    ],
+    "sources": [
+      "https://onedrop.today/pages/faqs",
+      "https://www.builtinnyc.com/articles/one-drop-uses-tech-help-people-manage-diabetes"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-8d8809ef",
-    "name": "Apostrphe",
+    "name": "Apostrophe",
     "country": "United States",
     "region": "US",
-    "foundedYear": 2014,
+    "foundedYear": 2012,
     "hp": "https://www.apostrophe.com/",
     "exit": "Active",
     "founders": [
@@ -2199,50 +5498,144 @@
     "note": "ニキビのオンライン処方プラットフォーム",
     "areas": [
       "D2C"
-    ]
+    ],
+    "listing": "買収",
+    "acquiredAt": "2021-07",
+    "acquiredBy": "Hims & Hers Health",
+    "activity": "事業終了",
+    "description": "ニキビなどの皮膚の悩みを皮膚科医がオンラインで診て、処方薬を自宅に届ける遠隔皮膚科サービスを運営していたカリフォルニア州オークランドの企業。",
+    "events": [
+      {
+        "date": "2021-06",
+        "text": "Hims & Hers が買収を発表"
+      },
+      {
+        "date": "2021-07",
+        "text": "買収完了"
+      }
+    ],
+    "sources": [
+      "https://investors.hims.com/news/news-details/2021/Hims--Hers-Deepens-Dermatology-Investment-Acquires-Apostrophe/default.aspx",
+      "https://www.glossy.co/beauty/hims-acquires-teledermatology-company-apostrophe/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-53535a01",
-    "name": "Ribon Health",
+    "name": "Ribbon Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2016,
     "hp": "https://www.ribbonhealth.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Nate Maslak",
+      "Nate Fox"
+    ],
     "note": "保険者向けのProviderデータ提供",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2024-12",
+    "acquiredBy": "H1",
+    "activity": "事業継続",
+    "description": "医師・医療機関の所在地や対応保険、診療実績などのデータを整え、保険者やデジタルヘルス企業に API で提供する米国企業。2024年末に H1 が買収した。",
+    "events": [
+      {
+        "date": "2024-12",
+        "text": "医療データ企業 H1 が買収（2025年1月に発表）"
+      }
+    ],
+    "sources": [
+      "https://www.fiercehealthcare.com/health-tech/h1-acquires-ribbon-health-expand-its-reach-health-plan-digital-health-markets",
+      "https://h1.co/press/h1-welcomes-former-fda-commissioner-to-board-of-directors-acquires-ribbon-health-and-unveils-2025-product-roadmap/"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-96df27bc",
     "name": "Meru Health",
     "country": "United States",
     "region": "US",
-    "foundedYear": null,
+    "foundedYear": 2016,
     "hp": "https://www.meruhealth.com/",
     "exit": "Active",
-    "founders": [],
+    "founders": [
+      "Kristian Ranta",
+      "Albert Nazander",
+      "Riku Lindholm"
+    ],
     "note": "メンタルヘルス",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "うつ・不安・燃え尽きなどに悩む人向けに、セラピストの伴走とアプリでの心理プログラム、心拍のバイオフィードバックを組み合わせて提供するメンタルヘルス企業。",
+    "events": [
+      {
+        "date": "2018-08",
+        "text": "Y Combinator（Summer 2018）に参加"
+      }
+    ],
+    "sources": [
+      "https://www.ycombinator.com/companies/meru-health",
+      "https://www.cbinsights.com/company/meru-health/people"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-3cf6d5b1",
     "name": "Babylon Health",
-    "country": "イギリス",
+    "country": "United Kingdom",
     "region": "EU",
-    "foundedYear": null,
+    "foundedYear": 2013,
     "hp": "https://www.babylonhealth.com/",
     "exit": "未上場",
-    "founders": [],
+    "founders": [
+      "Ali Parsa"
+    ],
     "note": "遠隔医療相談",
-    "areas": []
+    "areas": [],
+    "listing": "閉鎖",
+    "listedAt": "2021-10",
+    "closedAt": "2023-08",
+    "delistedAt": "2023-06",
+    "market": "NYSE",
+    "ticker": "BBLN",
+    "activity": "事業終了",
+    "description": "AI の症状チェックとスマートフォンでのビデオ診療を提供していた英国の遠隔医療企業。NHS の「GP at Hand」や米国での価値ベース医療も手がけたが、2023年に破綻した。",
+    "events": [
+      {
+        "date": "2021-10",
+        "text": "SPAC（Alkuri Global）との合併で NYSE に上場（BBLN）"
+      },
+      {
+        "date": "2023-06",
+        "text": "NYSE が売買を停止し上場廃止手続きを開始"
+      },
+      {
+        "date": "2023-08",
+        "text": "米国法人が Chapter 7（清算）を申請"
+      },
+      {
+        "date": "2023-09",
+        "text": "英国事業が管理手続きに入り、eMed に売却"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Babylon_Health",
+      "https://ir.theice.com/press/news-details/2023/NYSE-to-Commence-Delisting-Proceedings-Against-Babylon-Holdings-Limited-BBLN/default.aspx"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-dbea2f77",
-    "name": "ada",
-    "country": "ドイツ",
+    "name": "Ada Health",
+    "country": "Germany",
     "region": "EU",
-    "foundedYear": null,
+    "foundedYear": 2011,
     "hp": "https://ada.com/",
     "exit": "未上場",
     "founders": [
@@ -2251,43 +5644,139 @@
       "Martin Hirsch"
     ],
     "note": "自動AI診断アプリ",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "利用者が答えた症状から考えられる病気と受診の目安を示す AI 症状チェックアプリと、医療機関・保険者向けの同機能を提供するベルリンの企業。",
+    "events": [
+      {
+        "date": "2017",
+        "text": "シリーズAで約4700万ドルを調達"
+      },
+      {
+        "date": "2021-05",
+        "text": "Leaps by Bayer 主導でシリーズB 9000万ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ada_Health",
+      "https://techcrunch.com/2021/05/27/ada-health-closes-90m-series-b-led-by-leaps-by-bayer"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-1b8883ba",
-    "name": "DocoLib",
-    "country": "フランス",
+    "name": "Doctolib",
+    "country": "France",
     "region": "EU",
     "foundedYear": 2013,
     "hp": "https://www.doctolib.fr/",
     "exit": "未上場",
-    "founders": [],
+    "founders": [
+      "Stanislas Niox-Chateau",
+      "Steve Abou-Rjeily",
+      "Jessy Bernal",
+      "Ivan Schneider"
+    ],
     "note": "医師検索・予約サービス",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "患者が医師・医療機関を検索してオンラインで予約できるサービスと、医療機関向けの予約管理・ビデオ診療・電子カルテなどのソフトを提供するフランスの企業。ドイツ・イタリアでも展開。",
+    "events": [
+      {
+        "date": "2019-03",
+        "text": "1.5億ユーロを調達し評価額約10億ユーロに"
+      },
+      {
+        "date": "2022-03",
+        "text": "5億ユーロを調達、評価額58億ユーロ"
+      },
+      {
+        "date": "2025-11",
+        "text": "仏競争当局が支配的地位の濫用で460万ユーロの制裁金（同社は不服申立て）"
+      }
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Doctolib",
+      "https://siliconcanals.com/?p=7112"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-07a12d98",
-    "name": "Tyto",
-    "country": "イスラエル",
-    "region": "EU",
+    "name": "TytoCare",
+    "country": "Israel",
+    "region": "ASIA",
     "foundedYear": 2012,
     "hp": "https://www.tytocare.com/",
     "exit": "未上場",
-    "founders": [],
+    "founders": [
+      "Dedi Gilad",
+      "Ofer Tzadik"
+    ],
     "note": "デバイス検査&処方",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "自宅で心音・肺音・耳・のど・皮膚・体温などを測れる手持ちの検査機器とアプリを使い、医師の遠隔診察を受けられるようにするイスラエルの企業。",
+    "events": [
+      {
+        "date": "2023-08",
+        "text": "4900万ドルを調達"
+      },
+      {
+        "date": "2025-10",
+        "text": "AI を使った「Smart Clinic Companion」を発表"
+      }
+    ],
+    "sources": [
+      "https://www.tytocare.com/about/",
+      "https://en.globes.co.il/en/article-telehealth-co-tytocare-raises-49m-in-slower-market-1001454338"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-faa84617",
-    "name": "OVIVA",
-    "country": "スイス",
+    "name": "Oviva",
+    "country": "Switzerland",
     "region": "EU",
-    "foundedYear": null,
-    "hp": "https://oviva.com/uk/en/",
+    "foundedYear": 2014,
+    "hp": "https://oviva.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "Kai Eberhardt",
+      "Manuel Baumann"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "管理栄養士などの専門職がアプリと遠隔指導で、肥満・2型糖尿病などの食事・生活習慣の改善を支えるスイス発の企業。英国・ドイツなどで公的医療や保険者向けに提供する。",
+    "events": [
+      {
+        "date": "2020-01",
+        "text": "シリーズBで2100万ドルを調達"
+      },
+      {
+        "date": "2021-08",
+        "text": "シリーズCで8000万ドルを調達"
+      },
+      {
+        "date": "2026-01",
+        "text": "Kinnevik 主導でシリーズD（約2億ユーロ）を調達"
+      }
+    ],
+    "sources": [
+      "https://oviva.com/uk/en/about-us/",
+      "https://www.kinnevik.com/companies/oviva/",
+      "https://techcrunch.com/?p=2194946"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-02ee1b66",
@@ -2299,150 +5788,385 @@
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "hidden": "特定できない"
   },
   {
     "id": "ov-cb15bbd6",
-    "name": "微医（ウィードクター）",
-    "country": "中国",
+    "name": "微医（WeDoctor）",
+    "country": "China",
     "region": "ASIA",
-    "foundedYear": null,
-    "hp": "https://www.guahao.com/intro/userapp",
+    "foundedYear": 2004,
+    "hp": "https://www.guahao.com/",
     "exit": "",
-    "founders": [],
+    "founders": [
+      "廖杰远（Liao Jieyuan）"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "中国・杭州を拠点に、オンラインの診察予約・診療・電子処方・医薬品配送や、地域の医療連携（デジタル健共体）を運営するデジタル医療企業。前身は予約サイト「挂号网」。",
+    "events": [
+      {
+        "date": "2011",
+        "text": "オンライン予約サイト「挂号网」を開始"
+      },
+      {
+        "date": "2015",
+        "text": "ブランドを「微医」に変更し、中国初のインターネット病院を設立"
+      },
+      {
+        "date": "2021-04",
+        "text": "香港取引所に上場申請（のちに失効）"
+      },
+      {
+        "date": "2024-12",
+        "text": "香港取引所に再度上場申請"
+      }
+    ],
+    "sources": [
+      "https://www.thepaper.cn/newsDetail_forward_29827450",
+      "https://www.scmp.com/business/banking-finance/article/3292854/tencent-backed-online-healthcare-platform-wedoctor-revives-plan-hong-kong-ipo"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-1a74cfb8",
-    "name": "Alihealth",
-    "country": "中国",
+    "name": "阿里健康（Alibaba Health）",
+    "country": "China",
     "region": "ASIA",
-    "foundedYear": null,
+    "foundedYear": 2014,
     "hp": "https://www.alihealth.cn/",
     "exit": "",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "market": "HKEX",
+    "ticker": "0241",
+    "activity": "事業継続",
+    "description": "アリババ・グループ傘下で、医薬品・健康商品のオンライン販売（天猫の医薬事業など）や、医薬品の追跡・医療機関向けのデジタルサービスを手がける中国の企業。",
+    "events": [
+      {
+        "date": "2014-01",
+        "text": "アリババと雲鋒基金が中信21CN の支配株を取得し、阿里健康に改称"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alibaba_Health",
+      "https://www.alihealth.cn/"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-0ff8fa51",
-    "name": "平安好医生(ピンアングッドドクター)",
-    "country": "中国",
+    "name": "平安好医生（Ping An Good Doctor）",
+    "country": "China",
     "region": "ASIA",
     "foundedYear": 2014,
-    "hp": "http://www.jk.cn/",
+    "hp": "https://www.jk.cn/",
     "exit": "上場",
-    "founders": [],
+    "founders": [
+      "王涛（Wang Tao）"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "上場",
+    "listedAt": "2018-05",
+    "market": "HKEX",
+    "ticker": "1833",
+    "activity": "事業継続",
+    "description": "中国平安保険グループ傘下で、スマートフォンでのオンライン診療・健康相談、病院の紹介・予約、健康管理サービスを提供する中国の企業。正式社名は平安健康医疗科技。",
+    "events": [
+      {
+        "date": "2018-05",
+        "text": "香港取引所に上場（1833）、約85億香港ドルを調達"
+      },
+      {
+        "date": "2020-05",
+        "text": "創業者の王涛が会長・CEO を退任"
+      }
+    ],
+    "sources": [
+      "https://news.pedaily.cn/201805/430898.shtml",
+      "https://news.pedaily.cn/202005/455121.shtml"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-708498f0",
     "name": "SPAX",
-    "country": "中国",
+    "country": "China",
     "region": "ASIA",
-    "foundedYear": null,
+    "foundedYear": 2017,
     "hp": "https://www.onespax.com/",
     "exit": "",
     "founders": [],
     "note": "HPめちゃかっこいい",
     "areas": [
       "Smart Fitness"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "ライブ配信とオンデマンドのオンラインフィットネス教室を提供し、専用OS を載せたトレッドミルなどのスマート機器も販売する中国のフィットネス企業。",
+    "events": [],
+    "sources": [
+      "https://www.cbinsights.com/company/spax",
+      "https://www.onespax.com/"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-732049b4",
     "name": "Healthians",
-    "country": "インド",
+    "country": "India",
     "region": "ASIA",
-    "foundedYear": null,
+    "foundedYear": 2015,
     "hp": "https://www.healthians.com/",
     "exit": "未上場",
-    "founders": [],
+    "founders": [
+      "Deepak Sahni"
+    ],
     "note": "https://www.dgincubation.co.jp/portfolio/healthians/",
     "areas": [
       "医療検査予約サービス"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "インド・グルグラムを拠点に、自宅での採血・検体採取と臨床検査、健康診断パッケージをオンライン予約で提供する検査サービス企業。",
+    "events": [
+      {
+        "date": "2019-11",
+        "text": "DG Incubation などからシリーズB（最大1400万ドル）を調達"
+      },
+      {
+        "date": "2022",
+        "text": "WestBridge Capital 主導で5400万ドルの調達を発表"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Healthians",
+      "https://yourstory.com/2019/11/funding-healthcare-diagnostic-startup-healthians-yuvraj-singh-mistletoe-trifecta-dg-incubation"
+    ],
+    "confidence": "high",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-5b699f03",
     "name": "Halodoc",
-    "country": "インドネシア",
+    "country": "Indonesia",
     "region": "ASIA",
     "foundedYear": 2016,
     "hp": "https://www.halodoc.com/",
     "exit": "未上場",
     "founders": [
-      "ジョナサン・スダルタ"
+      "Jonathan Sudharta"
     ],
     "note": "https://kyodonewsprwire.jp/release/201903063929",
     "areas": [
       "遠隔診療"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "インドネシアで、スマートフォンからの医師へのオンライン相談、医薬品の配送、検査・病院予約などをまとめて提供するヘルスケアアプリの運営会社。",
+    "events": [
+      {
+        "date": "2021-04",
+        "text": "Astra 主導でシリーズC 8000万ドルを調達"
+      },
+      {
+        "date": "2023-07",
+        "text": "Astra 主導でシリーズD 1億ドルを調達"
+      }
+    ],
+    "sources": [
+      "https://kr-asia.com/indonesian-health-tech-startup-halodoc-nets-usd-80-million-from-astra-temasek",
+      "https://www.thejakartapost.com/business/2023/07/31/astra-increases-investment-in-healthtech-firm-halodoc"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-2fe9bc0b",
-    "name": "春雨医生",
-    "country": "中国",
+    "name": "春雨医生（Chunyu Yisheng）",
+    "country": "China",
     "region": "ASIA",
-    "foundedYear": null,
+    "foundedYear": 2011,
     "hp": "https://www.chunyuyisheng.com/",
     "exit": "未上場",
-    "founders": [],
+    "founders": [
+      "张锐（Zhang Rui）",
+      "李光辉",
+      "曾柏毅"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2026-03",
+    "acquiredBy": "国锐生活（Guorui Life, HKEX: 00108）",
+    "activity": "事業継続",
+    "description": "スマートフォンのアプリなどで医師にオンラインで健康相談・問診ができる中国の医療プラットフォーム。健康管理や製薬企業向けのデジタルマーケティングも手がける。",
+    "events": [
+      {
+        "date": "2014-08",
+        "text": "シリーズC 5000万ドルを調達"
+      },
+      {
+        "date": "2016-10",
+        "text": "創業者の張鋭が死去"
+      },
+      {
+        "date": "2025-12",
+        "text": "香港上場の国鋭生活（00108）が買収を発表"
+      },
+      {
+        "date": "2026-03",
+        "text": "国鋭生活が約78.3%の株式取得を完了"
+      }
+    ],
+    "sources": [
+      "https://m.thepaper.cn/newsDetail_forward_1539077",
+      "https://m.rccaijing.com/news-7438106937608828452.html"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-2edc5e01",
     "name": "杏仁医生",
-    "country": "中国",
+    "country": "China",
     "region": "ASIA",
-    "foundedYear": null,
+    "foundedYear": 2012,
     "hp": "https://www.xingren.com/",
     "exit": "未上場",
-    "founders": [],
+    "founders": [
+      "马丁（Martin）"
+    ],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "買収",
+    "acquiredAt": "2018-08",
+    "acquiredBy": "企鹅医生と合併（企鹅杏仁、現・医联 Medlinker）",
+    "activity": "不明",
+    "description": "医師が自分の患者をスマートフォンで管理し、オンラインでの相談・フォローアップや処方につなげられる、医師向けの患者管理アプリを提供していた中国の企業。",
+    "events": [
+      {
+        "date": "2012",
+        "text": "前身の「看処方」を創業"
+      },
+      {
+        "date": "2018-08",
+        "text": "テンセント系の企鵝医生と合併し企鵝杏仁グループを設立"
+      }
+    ],
+    "sources": [
+      "https://www.cn-healthcare.com/article/20180831/content-507533.html",
+      "https://www.tmtpost.com/3857171.html"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-e30cfb51",
     "name": "DocsApp",
-    "country": "インド",
+    "country": "India",
     "region": "ASIA",
     "foundedYear": null,
     "hp": "https://www.docsapp.in/",
     "exit": "未上場",
-    "founders": [],
+    "founders": [
+      "Satish Kannan",
+      "Enbasekar Dinadayalane"
+    ],
     "note": "",
     "areas": [
       "遠隔診療"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "チャットや電話で専門医にオンライン相談できるインド・ベンガルールの遠隔診療アプリ。2020年に企業向け健康サービスの MediBuddy と統合し、現在は MediBuddy ブランドで運営。",
+    "events": [
+      {
+        "date": "2020-06",
+        "text": "MediBuddy を買収・統合し、シリーズBで2000万ドルを調達"
+      },
+      {
+        "date": "2022",
+        "text": "DocsApp ブランドを終了し MediBuddy に一本化"
+      }
+    ],
+    "sources": [
+      "https://entrackr.com/2020/06/docsapp-acquires-medibuddy-scores-420-mn-for-merged-entity",
+      "https://inc42.com/buzz/medibuddy-concludes-its-merger-with-docsapp-after-2-years"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-048934c2",
     "name": "Maria Health",
-    "country": "フィリピン",
+    "country": "Philippines",
     "region": "ASIA",
-    "foundedYear": null,
+    "foundedYear": 2015,
     "hp": "https://mariahealth.ph/",
     "exit": "未上場",
     "founders": [],
     "note": "",
-    "areas": []
+    "areas": [],
+    "listing": "未上場",
+    "activity": "不明",
+    "description": "フィリピンの個人や企業が医療保険（HMO）のプランを比べて選び、加入できるオンラインのマーケットプレイスを運営するマニラの企業。",
+    "events": [
+      {
+        "date": "2019-01",
+        "text": "Gobi-Core Philippine Fund などからシード資金を調達"
+      }
+    ],
+    "sources": [
+      "https://fintechnews.sg/30662/insurtech/maria-health-funding-tryb-insurtech-insurance-health/",
+      "https://e27.co/insurtech-maria-health-raises-additional-seed-funding-from-tryb-group-20190513/"
+    ],
+    "confidence": "low",
+    "checkedAt": "2026-11"
   },
   {
     "id": "ov-9d5f1876",
     "name": "Lucence",
-    "country": "シンガポール",
+    "country": "Singapore",
     "region": "ASIA",
-    "foundedYear": null,
-    "hp": "https://www.lucencedx.com/",
+    "foundedYear": 2016,
+    "hp": "https://www.lucence.com/",
     "exit": "未上場",
-    "founders": [],
+    "founders": [
+      "Min-Han Tan"
+    ],
     "note": "",
     "areas": [
       "癌検診技術"
-    ]
+    ],
+    "listing": "未上場",
+    "activity": "事業継続",
+    "description": "血液中のがん由来 DNA・RNA を調べるリキッドバイオプシー検査（LiquidHALLMARK など）で、がんの治療選択や早期発見を支えるシンガポールの精密医療企業。",
+    "events": [
+      {
+        "date": "2018",
+        "text": "リキッドバイオプシー検査 LiquidHALLMARK を発売"
+      },
+      {
+        "date": "2025-04",
+        "text": "香港でリキッドバイオプシーによる肺がん早期発見の研究を開始"
+      }
+    ],
+    "sources": [
+      "https://www.biospectrumasia.com/news/48/25862/singapores-lucence-launches-the-first-ever-alternative-early-detection-lung-cancer-test-in-hong-kong.html",
+      "https://www.mobihealthnews.com/news/asia-pacific/genomic-medicine-startup-lucence-raises-20m-series"
+    ],
+    "confidence": "medium",
+    "checkedAt": "2026-11"
   }
 ]

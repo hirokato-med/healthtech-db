@@ -8,7 +8,8 @@ export const metadata: Metadata = { title: '海外ヘルステック企業', des
 const listingText = (o: Overseas) =>
   o.listing === '上場' ? `上場${o.listedAt ? `（${ym(o.listedAt)}${o.market ? `・${o.market}` : ''}）` : ''}`
   : o.listing === '買収' ? `${o.acquiredBy ?? ''}が買収${o.acquiredAt ? `（${ym(o.acquiredAt)}）` : ''}`
-  : o.listing === '閉鎖' ? `閉鎖${o.closedAt ? `（${ym(o.closedAt)}）` : ''}` : o.listing ?? '';
+  : o.listing === '閉鎖' ? `閉鎖${o.closedAt ? `（${ym(o.closedAt)}）` : ''}`
+  : o.listing === '上場廃止' ? `上場廃止${o.delistedAt ? `（${ym(o.delistedAt)}）` : ''}` : o.listing ?? '';
 const REGION: Record<string, string> = { US: 'アメリカ', EU: 'ヨーロッパ', ASIA: 'アジア' };
 
 export default function GlobalPage() {
@@ -43,6 +44,7 @@ export default function GlobalPage() {
                       </>
                     ) : <span className="muted">上場・買収の状況と創業者は確認中</span>}
                   </div>
+                  {o.checkedAt && o.events?.length ? <ul className="ov-events">{o.events.slice(-3).map((e) => <li key={e.date + e.text}><span>{ym(e.date)}</span>{e.text}</li>)}</ul> : null}
                   {o.checkedAt && o.sources?.length ? <div className="small muted" style={{ marginTop: 6 }}>{ym(o.checkedAt)}時点で確認・<a href={o.sources[0]} target="_blank" rel="noreferrer">出典</a></div> : null}
                 </article>
               ))}

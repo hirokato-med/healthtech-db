@@ -27,7 +27,8 @@ export const categoryName = (slug: string) => getCategory(slug)?.name ?? slug;
 
 export const getCompanies = () => memo('companies', () => read<Company[]>('companies.json'));
 export const getCompany = (id: string) => getCompanies().find((c) => c.id === id);
-export const getOverseas = () => memo('overseas', () => read<Overseas[]>('overseas.json'));
+/** 海外企業（特定できない・ヘルスケアの外・重複は除く） */
+export const getOverseas = () => memo('overseas', () => read<Overseas[]>('overseas.json').filter((o) => !o.hidden));
 export const getPeople = () => memo('people', () => read<Person[]>('people.json'));
 export const getPerson = (id: string) => getPeople().find((p) => p.id === id);
 /** 月刊ヘルステック（新しい順） */

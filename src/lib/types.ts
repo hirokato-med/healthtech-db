@@ -100,8 +100,12 @@ export type Overseas = {
   acquiredAt?: string;
   closedAt?: string;
   activity?: '事業継続' | '事業終了' | '不明';
+  delistedAt?: string;
   events?: { date: string; text: string }[];
   sources?: string[];
+  confidence?: 'high' | 'medium' | 'low';
+  /** 一覧・検索に出さない理由（特定できない・ヘルスケアの外・重複） */
+  hidden?: string;
 };
 
 export type PersonRole = { companyId: string; companyName: string; title: string };

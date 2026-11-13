@@ -22,7 +22,7 @@ for (const s of services)
 for (const p of read('people.json'))
   out.push({ t: 'person', id: p.id, title: p.name, sub: p.roles.map((r) => `${r.companyName} ${r.title}`).join(' / '), url: `/talents/${p.id}/` });
 for (const c of categories) out.push({ t: 'category', id: c.slug, title: c.name, sub: c.groupLabel, url: `/categories/${c.slug}/` });
-for (const o of read('overseas.json')) out.push({ t: 'overseas', id: o.id, title: o.name, sub: [o.country, ...o.areas].join(' / '), url: `/global/#${o.id}` });
+for (const o of read('overseas.json').filter((o) => !o.hidden)) out.push({ t: 'overseas', id: o.id, title: o.name, sub: [o.country, ...o.areas].join(' / '), url: `/global/#${o.id}` });
 if (fs.existsSync(path.join(ROOT, 'data', 'monthly.json')))
   for (const e of read('monthly.json')) {
     const [y, m] = e.month.split('-');
