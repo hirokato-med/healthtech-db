@@ -15,9 +15,14 @@ const services = read('services.json');
 // 「治療用アプリ（DTx）」の種類には診断支援のプログラム医療機器も入っているので、治療に使うものだけを印にする
 const DTX_RE = /治療用アプリ|治療アプリ|治療補助アプリ|dtx|デジタル治療|デジタルセラピューティクス|デジタル療法/i;
 const THERAPY = /治療|療法|セラピー|訓練|リハビリ|禁煙|卒煙|減酒/;
+// 開発・薬事・販売を支えるサービス（SaMD 開発支援・承認取得支援など）は、治療用アプリそのものとは別の区分にする
+const SUPPORT = /支援|受託|代行|コンサル|QMS|認証取得|承認取得|開発受託|導入/;
+const isSupport = (s) => SUPPORT.test(s.name);
 const isDtx = (s) => {
   const t = `${s.name} ${s.description ?? ''}`;
-  if (/診断支援|診断補助|検査用|画像解析|読影/.test(s.name)) return false;
+  if (/診断支援|診断補助|検査用|画像解析|読影/.test(s.name) || isSupport(s)) return false;
+  // 治療が終わったあとの管理サービス（治療アプリ完了後の血圧管理 など）は治療用アプリそのものではない
+  if (/完了後|修了後|卒業後/.test(s.name)) return false;
   return DTX_RE.test(t) || (s.type === 'digital-therapeutics' && THERAPY.test(t));
 };
 const out = [];
@@ -28,7 +33,7 @@ for (const c of read('companies.json')) {
   out.push({ t: 'company', id: c.id, title: c.name, sub: [...(c.aliases ?? []), ...(c.formerNames ?? []), c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), k: mine.some(isDtx) ? '治療用アプリ' : '', ty: types.join(' '), url: `/companies/${c.id}/` });
 }
 for (const s of services)
-  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [isDtx(s) ? '治療用アプリ' : '', s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), ty: typeName[s.type], url: `/services/${s.id}/` });
+  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [isDtx(s) ? '治療用アプリ' : '', s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), ty: typeName[s.type], ...(isSupport(s) ? { sec: 'support' } : /完了後|修了後|卒業後/.test(s.name) ? { sec: 'related' } : {}), url: `/services/${s.id}/` });
 for (const p of read('people.json'))
   out.push({ t: 'person', id: p.id, title: p.name, sub: p.roles.map((r) => `${r.companyName} ${r.title}`).join(' / '), url: `/talents/${p.id}/` });
 for (const c of categories) out.push({ t: 'category', id: c.slug, title: c.name, sub: c.groupLabel, url: `/categories/${c.slug}/` });

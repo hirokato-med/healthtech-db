@@ -4,11 +4,13 @@ import Link from 'next/link';
 import { END_REASONS, isStopped, getServices } from '@/lib/data';
 import { ym } from '@/lib/ym';
 import { ReasonInfo } from '@/components/ReasonInfo';
+import { AfterEnd } from '@/components/AfterEnd';
 
 export const metadata: Metadata = { title: '止まった事業を理由別に見る', description: 'ヘルスケアの事業がどのような理由で止まったのか。規制、保険償還、お金を払う人、現場への定着、効果の実証、資金などの理由別に、過去の事業を一覧する。' };
 
 
-const STATED = ['明示あり', '経過だけ', '非公表（会社が明示）', '資料に理由なし'] as const;
+const FATES = ['同一サービス継続（運営会社が変更）', '別サービスへ移行', '一部継続', '提供終了', '休止中', '未確認'] as const;
+const STATED = ['明示あり', '経過だけ', '非公表（会社が明示）', '理由を確認できていない'] as const;
 
 export default function StoppedPage() {
   const all = getServices();
@@ -28,10 +30,10 @@ export default function StoppedPage() {
         <h1>止まった事業を理由別に見る</h1>
         <p className="lead">
           同じようなアイデアは何度も生まれ、同じところで止まります。過去の事業がどこで止まったのかを理由別に並べました。
-          理由は、当事者の発表など公開された事実にもとづいて分類しています（公表されていないものは「理由は非公表」）。{stopped.length} 件。
+          理由は、当事者の発表など公開された資料にもとづいて分類しています（資料で理由を確かめられないものは「理由を確認できていない」）。資料に直接書かれていない分類には「推定」と付けています。{stopped.length} 件。
           理由の記載は、{STATED.map((b) => `${b} ${stopped.filter((s) => s.endReasonInfo?.stated === b).length}件`).join('・')}。
           {((n) => (n ? `この DB の推定を含むものは ${n}件で、断り書きをつけています。` : ''))(stopped.filter((s) => s.endReasonInfo?.interpretation === '推定を含む').length)}
-          譲渡・統合で、別の会社や後継のサービスに引き継がれたものは {stopped.filter((s) => s.afterEnd && !/^提供終了/.test(s.afterEnd)).length}件あり、一覧に「その後」を出しています。
+          止まったあとのサービスの扱いは、{FATES.map((f) => `${f} ${stopped.filter((s) => s.after?.fate === f).length}件`).join('・')}。合併・譲渡の出来事は確かめていても、サービスがいまも続いているかを確かめられていないものは「未確認」としています。
         </p>
       </div>
       {(planned.length > 0 || paused.length > 0) && (
@@ -73,7 +75,7 @@ export default function StoppedPage() {
       </nav>
       {groups.map((g) => (
         <section key={g.key} id={g.key} className="reason-group">
-          <h2>{g.label}<small>{g.items.length}件</small></h2>
+          <h2>{g.label}<small>{g.items.length}件{((n) => (n ? `（うち分類が推定 ${n}件）` : ''))(g.items.filter((s) => s.endReasonInfo?.inferred?.includes(g.key)).length)}</small></h2>
           <p className="muted">{g.note}</p>
           <div className="list">
             {g.items.map((s) => (
@@ -81,11 +83,12 @@ export default function StoppedPage() {
                 <div>
                   <Link href={`/services/${s.id}/`} style={{ fontWeight: 700 }}>{s.name}</Link>
                   <span className={`badge st-${s.status}`} style={{ marginLeft: 8 }}>{statusLabel(s)}</span>
+                  {s.endReasonInfo?.inferred?.includes(g.key) && <span className="basis basis-推定" style={{ marginLeft: 6 }} title="この理由の分類は資料に直接の記載がなく、DB が説明から分類したもの">この分類は推定</span>}
                   <div className="sub">
                     {s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : <span>{s.company}</span>}
                     <span>{ym(s.startedAt) || (s.startedYear ? `${s.startedYear}年` : '')} 〜 {ym(s.endedAt)}</span>
                   </div>
-                  {s.afterEnd && s.afterEnd !== '提供終了' && <p className="after-end small"><b>その後</b>{s.afterEnd}</p>}
+                  {s.after && s.after.fate !== '提供終了' && <AfterEnd a={s.after} compact />}
                   {s.endReasonInfo && <ReasonInfo i={s.endReasonInfo} compact />}
                   {s.endReasonNote && <p className="reason-note">{s.endReasonNote}</p>}
                   {s.endReasonCaveat && <p className="caveat">注意：{s.endReasonCaveat}</p>}

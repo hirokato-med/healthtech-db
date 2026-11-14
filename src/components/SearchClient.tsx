@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { withBase } from '@/lib/base';
 
-import { search, searchRelated, type SearchItem as Hit } from '@/lib/search-match';
+import { search, searchRelated, searchSupport, type SearchItem as Hit } from '@/lib/search-match';
 const LABEL: Record<string, string> = { company: '企業', service: '事業', person: '人物', category: 'カテゴリ', overseas: '海外企業', article: '記事', monthly: '月刊ヘルステック' };
 
 export function SearchClient() {
@@ -22,6 +22,7 @@ export function SearchClient() {
   const hits = useMemo(() => (index ? search(index, q) : []), [q, index]);
   // 分野は同じだが、検索語そのものではないもの（DTx で探したときの睡眠アプリ など）は分けて出す
   const related = useMemo(() => (index ? searchRelated(index, q) : []), [q, index]);
+  const support = useMemo(() => (index ? searchSupport(index, q) : []), [q, index]);
 
   return (
     <>
@@ -31,6 +32,12 @@ export function SearchClient() {
       </form>
       {q && index && !hits.length && <p className="muted">「{q}」に一致する項目はありません。</p>}
       <Rows hits={hits} />
+      {support.length > 0 && (
+        <section style={{ marginTop: 28 }}>
+          <h2 style={{ fontSize: 17 }}>開発・薬事・販売の支援サービス<small className="muted" style={{ marginLeft: 8, fontWeight: 400 }}>「{q}」を作る・届ける側を支えるもの {support.length}件</small></h2>
+          <Rows hits={support} />
+        </section>
+      )}
       {related.length > 0 && (
         <section style={{ marginTop: 28 }}>
           <h2 style={{ fontSize: 17 }}>関連する事業<small className="muted" style={{ marginLeft: 8, fontWeight: 400 }}>同じ分野だが、「{q}」そのものではないもの {related.length}件</small></h2>

@@ -39,6 +39,9 @@ export default function GlobalPage() {
                 const c = o.claims;
                 // 記載ごとの裏づけがある会社は、裏づけのある記載だけを出す（古い形のデータはそのまま）
                 const ok = (k: 'founding' | 'capital' | 'activity') => !c || (c[k]?.verified !== false && (c[k]?.sources?.length ?? 1) > 0);
+                // Wikipedia・企業データベースしか資料がない記載は「参考（未照合）」として出す。買収・閉鎖などの重要事項は確定として出さない
+                const weak = (ss?: OverseasSource[]) => !!ss?.length && ss.every((x) => x.kind === 'wikipedia' || x.kind === 'database');
+                const capWeak = weak(c?.capital?.sources) && o.listing !== '未上場';
                 return (
                 <article className="card" id={o.id} key={o.id}>
                   {/* いまの提供状況を確かめられない会社は、旧ドメインが無関係のサイトになっていることがあるのでリンクしない */}
@@ -47,16 +50,16 @@ export default function GlobalPage() {
                   {o.checkedAt && o.description && <p className="desc">{o.description}</p>}
                   <div className="meta">
                     <span>{o.country}</span>
-                    {o.foundedYear && ok('founding') && <span>{o.foundedYear}年創業<Src s={c?.founding?.sources} /></span>}
+                    {o.foundedYear && ok('founding') && <span>{o.foundedYear}年創業{weak(c?.founding?.sources) && <small className="muted">（参考・未照合）</small>}<Src s={c?.founding?.sources} /></span>}
                     {o.checkedAt ? (
                       <>
-                        {o.listing && ok('capital') && <span className="badge">{listingText(o)}<Src s={c?.capital?.sources} /></span>}
+                        {o.listing && ok('capital') && (capWeak ? <span className="muted small">{listingText(o)}（確認待ち：参考資料のみ）<Src s={c?.capital?.sources} /></span> : <span className="badge">{listingText(o)}<Src s={c?.capital?.sources} /></span>)}
                         {o.activity && o.activity !== '事業継続' && ok('activity') && <span className="badge">{o.activity}</span>}
                         {o.founders.length > 0 && ok('founding') && <span>創業者 {o.founders.join(', ')}</span>}
                       </>
                     ) : <span className="muted">上場・買収の状況と創業者は確認中</span>}
                   </div>
-                  {o.checkedAt && o.events?.length ? <ul className="ov-events">{o.events.slice(-3).map((e) => <li key={e.date + e.text}><span>{ym(e.date)}</span>{e.type && !e.text.includes(e.type) ? `${e.type}：` : ''}{e.text}{e.source && <Src s={[e.source]} />}</li>)}</ul> : null}
+                  {o.checkedAt && o.events?.length ? <ul className="ov-events">{o.events.slice(-3).map((e) => <li key={e.date + e.text}><span>{ym(e.date)}</span>{e.type && !e.text.includes(e.type) ? `${e.type}：` : ''}{e.text}{e.source && weak([e.source]) && <small className="muted">（参考・未照合）</small>}{e.source && <Src s={[e.source]} />}</li>)}</ul> : null}
                   {c?.activity && ok('activity') ? (
                     <div className="small muted" style={{ marginTop: 6 }}>提供状況「{o.activity}」は{ym(c.activity.checkedAt)}に確認<Src s={c.activity.sources} /></div>
                   ) : c?.activity ? <div className="small muted" style={{ marginTop: 6 }}>いまの提供状況は確認できていません（{ym(c.activity.checkedAt)}時点）</div>

@@ -8,7 +8,7 @@ import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { search, searchRelated } from '../src/lib/search-match.ts';
+import { search, searchRelated, searchSupport } from '../src/lib/search-match.ts';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 execFileSync('node', [path.join(ROOT, 'scripts', 'build-search-index.mjs')], { stdio: 'ignore' });
@@ -16,7 +16,7 @@ const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'public', 'search-index
 
 // [検索語, 上位に出るべきもの（タイトルの一部）, 出てはいけないもの（タイトルの一部）]
 const CASES = [
-  ['DTx', ['CureApp', 'サスメド', 'Medcle'], ['DTX Studio', 'Pokémon Sleep', '雨音', '波音', 'ぐっすリン', '眠れるクラシック', 'portera']],
+  ['DTx', ['CureApp', 'サスメド', 'Medcle'], ['DTX Studio', 'Pokémon Sleep', '雨音', '波音', 'ぐっすリン', '眠れるクラシック', 'portera', 'Doctors Cloud MD', 'SaMD（プログラム医療機器）の設計開発', 'SaMD開発支援', 'スマート血圧']],
   ['dtx', ['CureApp'], ['DTX Studio']],
   ['ＤＴｘ', ['CureApp'], ['DTX Studio']],
   ['デジタル治療', ['CureApp', 'サスメド'], ['DTX Studio']],
@@ -47,5 +47,9 @@ const rel = searchRelated(index, 'DTx').map((h) => h.title);
 const relOk = rel.some((t) => t.includes('Pokémon Sleep'));
 if (!relOk) fail++;
 console.log(`${relOk ? '○' : '●'} 「DTx」の関連する事業に睡眠アプリが入る（${rel.length}件）`);
+const sup = searchSupport(index, 'DTx').map((h) => h.title);
+const supOk = sup.some((t) => t.includes('SaMD'));
+if (!supOk) fail++;
+console.log(`${supOk ? '○' : '●'} 「DTx」の支援サービスの枠に SaMD 開発支援が入る（${sup.length}件）`);
 console.log(fail ? `外れ ${fail} 件` : 'すべて通過');
 process.exit(fail ? 1 : 0);

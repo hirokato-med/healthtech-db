@@ -92,7 +92,9 @@ export const END_REASONS: Record<string, { label: string; note: string }> = {
   competition: { label: '競合・大手の参入', note: '競合や大手の参入で、事業が成り立たなくなった' },
   team: { label: '体制の問題', note: '創業者の離脱など、体制の問題（本人が公表したもの）' },
   infrastructure: { label: '通信・部品の終了', note: '3G停波やセンサー・部品の生産終了など、事業が依存していた基盤がなくなった' },
-  unknown: { label: '理由は非公表', note: '止まった理由は公表されていない' },
+  'business-viability': { label: '事業性・採算', note: '事業性・採算の面で続けられないと判断した（費用・体制・市場など、中身までは示されていない）' },
+  'service-restructuring': { label: 'サービス再編', note: '提供の形を作り直した（後継サービスへの移行・提供形態の変更など）' },
+  unknown: { label: '理由を確認できていない', note: '調べた資料で、止まった理由を確認できていない（会社が理由を明らかにしていないものを含む）' },
 };
 export const STOPPED = ['終了', '譲渡', '統合', '休止'];
 /** 止まった事業か。障害・不正アクセスによる一時停止（suspension.temporary）は入れない */

@@ -62,6 +62,27 @@ add(want, '止まった事業で終了日が空', services.filter((s) => STOPPED
 add(want, '止まった理由が unknown', services.filter((s) => STOPPED.has(s.status) && s.endReasons?.includes('unknown')).sort(digitalFirst));
 add(want, '予定日経過・実施確認待ち（終了・譲渡したか確かめて confirmedAt と status を入れる）', services.filter((s) => s.plannedEnd && !s.plannedEnd.confirmedAt && s.plannedEnd.date < today.slice(0, s.plannedEnd.date.length)));
 add(want, '止まった理由の出どころが空（node scripts/classify-end-basis.mjs）', services.filter((s) => STOPPED.has(s.status) && !s.suspension?.temporary && !s.endReasonInfo));
+// 同じ事業の重複候補：同じ事業の種類で、公式サイトが同じか、名前の核（かっこ・「」の中、英字名）が同じ
+{
+  const core = (n = '') => { const t = n.normalize('NFKC'); const q = t.match(/「([^」]+)」/)?.[1] ?? t.match(/[A-Za-z][A-Za-z0-9 .'-]{2,}/)?.[0] ?? t.replace(/[（(].*?[)）]/g, ''); return q.toLowerCase().replace(/[\s・.'-]/g, ''); };
+  const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, '') + new URL(u).pathname.replace(/\/$/, ''); } catch { return ''; } };
+  // 名前の近さ（かっこの中を除いた2文字ずつの重なり）。同じ会社の別の事業（同じ一覧ページを公式サイトにしている）を外す
+  const bi = (n) => { const t = n.normalize('NFKC').replace(/[（(].*?[)）]/g, '').replace(/[「」\s]/g, '').toLowerCase(); return new Set([...t].map((_, i) => t.slice(i, i + 2)).filter((x) => x.length === 2)); };
+  const sim = (a, b) => { const A = bi(a), B = bi(b); const n = [...A].filter((x) => B.has(x)).length; return n / Math.max(1, Math.min(A.size, B.size)); };
+  const dups = [];
+  const seen = new Map();
+  for (const x of services) {
+    // 公式サイトのページが同じ（トップページだけのものは会社のサイトなので使わない）、または「」の中の名前が同じ
+    const h = hostOf(x.hp);
+    const q = x.name.normalize('NFKC').match(/「([^」]{2,})」/)?.[1]?.toLowerCase().replace(/[\s・.'-]/g, '');
+    for (const k of [h && h.includes("/") && `h:${x.type}:${h}`, q && `n:${x.type}:${q}`].filter(Boolean)) {
+      const o = seen.get(k);
+      if (o && o.id !== x.id && sim(o.name, x.name) >= 0.4 && !dups.some((d) => d.includes(x.id))) dups.push(`${o.id}｜${x.id} ${x.name}（${o.company} / ${x.company}）`);
+      else seen.set(k, x);
+    }
+  }
+  want.push({ name: '同じ事業の重複候補（公式サイトか名前の核が同じ。node scripts/merge-services.mjs 残すid 消すid）', items: dups });
+}
 add(want, '状態が「不明」', services.filter((s) => s.status === '不明').sort(digitalFirst));
 add(want, '出典が1つだけ', services.filter((s) => s.sources?.length === 1).sort(digitalFirst));
 // 同じ会社の中で、「」の中身か括弧より前の名前が同じもの

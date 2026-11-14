@@ -64,3 +64,35 @@ export function parsePL(html) {
 /** 決算短信の zip の中で、損益計算書（pl）の添付ファイルを選ぶ */
 export const plFileOf = (list) => list.find((n) => /XBRLData\/Attachment\/.*-(?:qn|ac|sm)?[a-z]*pl\d*-.*-ixbrl\.htm$/.test(n) && !/ci\d*-/.test(n))
   ?? list.find((n) => /XBRLData\/Attachment\/\d+-[a-z]*pl\d*-.*-ixbrl\.htm$/.test(n));
+
+/**
+ * 決算短信 PDF の1ページ目の業績の表から、会社開示の前年同期比（%）を読む（XBRL が残っていない古い決算のため）。
+ * 表の列の並びは会社ごとに違う（EBITDA などが入る）ので、見出しではなく「金額」で合わせる：
+ * 当期の行の「金額 増減率」の組のうち、金額が DB の当期の値（百万円）と同じ組の増減率を、その項目の開示値とする。
+ * text は pdftotext -layout の1ページ目。current は { revenue, operatingIncome, ... }（百万円）。
+ */
+export function changesFromPdfText(text, current) {
+  const lines = text.normalize('NFKC').split('\n');
+  const head = lines.findIndex((l) => /経営成績|業績/.test(l) && /累計|％表示|%表示/.test(l + (lines[lines.indexOf(l) + 1] ?? '')));
+  if (head < 0) return undefined;
+  // 見出しのあと、最初に「金額 増減率」が並ぶ行（期の名前と同じ行か、次の行）
+  const row = lines.slice(head + 1, head + 14).find((l) => /\d[\d,]*\s+△?\d+\.\d/.test(l) && !/百万円/.test(l));
+  if (!row) return undefined;
+  const tok = row.replace(/^\s*\d{4}年\s*\d{1,2}月期\S*/, '').trim().split(/\s+/);
+  const pairs = [];
+  for (let i = 0; i < tok.length; i++) {
+    const v = tok[i].match(/^(△)?([\d,]+)$/);
+    if (!v) continue;
+    const p = tok[i + 1]?.match(/^(△)?(\d+\.\d)$/);
+    if (p) { pairs.push({ value: Number(v[2].replace(/,/g, '')) * (v[1] ? -1 : 1), pct: Number(p[2]) * (p[1] ? -1 : 1) }); i++; }
+  }
+  const out = {};
+  const used = new Set();
+  for (const k of ['revenue', 'operatingIncome', 'ordinaryIncome', 'netIncome']) {
+    const c = current?.[k];
+    if (c == null || c <= 0) continue;
+    const j = pairs.findIndex((p, idx) => !used.has(idx) && Math.abs(p.value - c) <= 1);
+    if (j >= 0) { out[k] = pairs[j].pct; used.add(j); }
+  }
+  return Object.keys(out).length ? out : undefined;
+}

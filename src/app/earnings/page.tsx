@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { EarningsTable } from '@/components/EarningsTable';
 import { getCategories, getCompanies, getDisclosures, getEarnings } from '@/lib/data';
-import { type EarningsRow, change, healthcareOf, latestWithSegments, money, pct, yoy, comparable, growth, revenueText } from '@/lib/earnings';
+import { type EarningsRow, change, healthcareOf, latestWithSegments, money, pct, yoy, comparable, growth, revenueText , growthText} from '@/lib/earnings';
 
 export const metadata: Metadata = {
   title: '上場ヘルスケア企業の決算',
@@ -92,7 +92,7 @@ export default function EarningsPage() {
                   <div className="h"><Link href={`/earnings/${id}/`}>{name.replace(/^株式会社|株式会社$/g, '')}</Link><span>{r.date.replace(/-/g, '/')}</span></div>
                   <div className="p">{r.label}</div>
                   <dl>
-                    <div><dt>売上高</dt><dd>{revenueText(r)}<small className={g == null ? '' : g >= 0 ? 'up' : 'down'}>{comparable(r) ? pct(g) : '比較なし'}</small></dd></div>
+                    <div><dt>売上高</dt><dd>{revenueText(r)}<small className={g == null ? '' : g >= 0 ? 'up' : 'down'}>{comparable(r) ? growthText(r) : '比較なし'}</small></dd></div>
                     <div><dt>営業利益</dt><dd className={(og ?? 0) < 0 ? 'down' : ''}>{money(og)}<small>{op != null ? `前年 ${money(op)}` : ''}</small></dd></div>
                   </dl>
                   {r.pdf && <a href={r.pdf} target="_blank" rel="noreferrer" className="arrow small">決算短信</a>}

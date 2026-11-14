@@ -9,6 +9,7 @@ import { ym } from '@/lib/ym';
 import { StageBadge } from '@/components/StageBadge';
 import { DevicePanel, DeviceTag } from '@/components/DeviceInfo';
 import { ReasonInfo } from '@/components/ReasonInfo';
+import { AfterEnd } from '@/components/AfterEnd';
 
 export function generateStaticParams() {
   return getServices().map((s) => ({ id: s.id }));
@@ -82,8 +83,8 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
           {!['提供中', '準備中', '不明'].includes(s.status) && !s.suspension?.temporary && (
             <section className="panel stop-panel">
               <h3>止まった理由</h3>
-              <div className="chips">{(s.endReasons?.length ? s.endReasons : ['unknown']).map((r) => <Link key={r} href={`/services/stopped/#${r}`} className="chip">{END_REASONS[r]?.label ?? r}</Link>)}</div>
-              {s.afterEnd && <p className="after-end"><b>その後</b>{s.afterEnd}</p>}
+              <div className="chips">{(s.endReasons?.length ? s.endReasons : ['unknown']).map((r) => <Link key={r} href={`/services/stopped/#${r}`} className="chip">{END_REASONS[r]?.label ?? r}{s.endReasonInfo?.inferred?.includes(r) && <small className="basis basis-推定" style={{ marginLeft: 6 }}>推定</small>}</Link>)}</div>
+              {s.after && <AfterEnd a={s.after} />}
               {s.endReasonInfo && <ReasonInfo i={s.endReasonInfo} />}
               <p>{s.endReasonNote || '止まった理由は公表されていない。'}</p>
               {s.endReasonCaveat && <p className="caveat">注意：{s.endReasonCaveat}</p>}
@@ -102,7 +103,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
                   .map((m) => <li key={m.date + m.text}><span>{'start' in m && !s.startedAt ? `${s.startedYear}年` : ym(m.date)}</span>{m.text}</li>)}
                 {s.plannedEnd && !s.plannedEnd.confirmedAt && <li className="planned"><span>{ymd(s.plannedEnd.date)}</span>{s.plannedEnd.kind}予定{s.plannedEnd.announcedAt ? `（${ymd(s.plannedEnd.announcedAt)}発表）` : ''}</li>}
                 {s.suspension?.temporary && <li><span>{ymd(s.suspension.since)}</span>一時停止（{s.suspension.cause}）</li>}
-                {s.endedAt && <li><span>{ym(s.endedAt)}</span>{s.status === '譲渡' ? '事業を譲渡' : s.status === '統合' ? '合併・統合' : s.status === '休止' ? '休止' : '提供を終了'}{s.successor ? `（${s.successor}）` : ''}</li>}
+                {s.endedAt && <li><span>{ym(s.endedAt)}</span>{s.after ? `${s.after.event}${s.after.note ? `（${s.after.note}）` : ''}` : s.status === '譲渡' ? '事業を譲渡' : s.status === '統合' ? '合併・統合' : s.status === '休止' ? '休止' : '提供を終了'}{s.successor ? `（${s.successor}）` : ''}</li>}
               </ul>
             </section>
           )}

@@ -57,6 +57,8 @@ export type Company = {
   scopeNote?: string;
   /** 主なカテゴリを会社の公式な事業説明から手で決めた（scripts/fix-primary-category.mjs で変えない）。categoryNote はその理由 */
   categoryLocked?: boolean;
+  /** 会社全体の主力事業（ヘルスケアが主でない会社で、主力を別に示すとき） */
+  coreBusiness?: string;
   categoryNote?: string;
   /** 事業を終えた会社の記録（exit が「閉鎖」のとき）。date は終了した時期 YYYY-MM／YYYY */
   ended?: { date?: string; lastActiveAt?: string; successor?: string; note: string };
@@ -155,9 +157,13 @@ export type Service = {
   endReasons?: string[];
   endReasonNote?: string;
   /** 止まった理由の出どころ。情報源・理由の記載・編集上の解釈を分けて持つ（scripts/classify-end-basis.mjs） */
-  endReasonInfo?: { sources: ('会社発表' | '行政資料' | '報道')[]; stated: '明示あり' | '経過だけ' | '非公表（会社が明示）' | '資料に理由なし'; interpretation: 'なし' | '推定を含む'; locked?: boolean };
-  /** 止まったあとどうなったか（提供継続・運営主体変更／後継サービスへ移行／一部継続／提供終了 など） */
-  afterEnd?: string;
+  endReasonInfo?: { sources: ('会社発表' | '行政資料' | '信用調査' | '報道')[]; stated: '明示あり' | '経過だけ' | '非公表（会社が明示）' | '理由を確認できていない'; interpretation: 'なし' | '推定を含む'; inferred?: string[]; locked?: boolean };
+  /**
+   * 止まったあと。event は起きた出来事（法人合併・事業譲渡・株式譲渡・販売終了 など）、
+   * fate はサービスの扱い（同一サービス継続／別サービスへ移行／一部継続／提供終了／休止中／未確認）。
+   * fate は資料に書かれているときだけ決め、書かれていなければ「未確認」。asOf はその資料で確かめた時点
+   */
+  after?: { event: string; fate: string; note?: string; asOf: string };
   /** 推定を含むときの断り書き（一覧でも出す） */
   endReasonCaveat?: string;
   lessons?: string;

@@ -1,4 +1,4 @@
-import { change, changeOf, comparable, forecastLabel, notComparableText, forecastOf, forecastRangeOf, forecastText, money, noForecastText, periodRange } from '@/lib/earnings';
+import { growthBasis, isIfrs, itemLabels, change, changeOf, comparable, forecastLabel, notComparableText, forecastOf, forecastRangeOf, forecastText, money, noForecastText, periodRange } from '@/lib/earnings';
 import type { EarningsReport } from '@/lib/types';
 
 const ROWS0: [keyof NonNullable<EarningsReport['current']>, string][] = [
@@ -13,7 +13,8 @@ export function EarningsSummary({ r, prevForecast }: { r: EarningsReport; prevFo
   const q = r.quarter !== 'FY';
   const f = forecastOf(r);
   // 売上の科目名は会社ごとに違う（売上収益・事業収益・経常収益など）ので、表も予想の文も決算短信の呼び名で出す
-  const ROWS = ROWS0.map(([k, l]) => [k, k === 'revenue' && r.revenueLabel ? r.revenueLabel : l] as [typeof k, string]);
+  const L = itemLabels(r);
+  const ROWS = ROWS0.map(([k]) => [k, L[k]] as [typeof k, string]);
   const rows = ROWS.filter(([k]) => r.current?.[k] != null);
   const fcText = (() => {
     // レンジで開示された予想は「下限〜上限」で書く（増減率は出さない）
@@ -62,4 +63,4 @@ export function EarningsSummary({ r, prevForecast }: { r: EarningsReport; prevFo
   );
 }
 const k2note = (r: EarningsReport) =>
-  `金額は決算短信のサマリーより。${r.quarter !== 'FY' ? '四半期は期初からの累計。' : ''}純利益は親会社株主に帰属する当期純利益（個別決算の会社は当期純利益）。`;
+  `金額は決算短信のサマリーより。${r.quarter !== 'FY' ? '四半期は期初からの累計。' : ''}${isIfrs(r) ? 'IFRS の科目名で表示。' : '純利益は親会社株主に帰属する当期純利益（個別決算の会社は当期純利益）。'}前年同期比は会社が開示した増減率（${growthBasis(r) === '概算' ? 'ここは開示値を取得できず、百万円に丸めた数字からの概算で「約」を付けています' : '取得できないときは計算した値'}）。`;

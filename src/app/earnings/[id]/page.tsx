@@ -7,7 +7,7 @@ import { SegmentTable } from '@/components/SegmentTable';
 import { RevisionTable } from '@/components/RevisionTable';
 import { ForecastHistory, forecastTimelines } from '@/components/ForecastHistory';
 import { getCompanies, getCompany, getDisclosures, getEarnings, getRevisions } from '@/lib/data';
-import { comparable, forecastLabel, forecastOf, forecastText, growth, hasForecast, latestWithSegments, margin, marginOf, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
+import { comparable, forecastLabel, forecastOf, forecastText, growth, hasForecast, latestWithSegments, margin, marginOf, money, noForecastText, notComparableText, pct, revenueText , growthText, itemLabels} from '@/lib/earnings';
 import type { EarningsReport, Figures } from '@/lib/types';
 
 export function generateStaticParams() {
@@ -28,7 +28,8 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
   const disclosures = getDisclosures().filter((d) => d.companyId === c.id);
   const latest = reports[0];
   // 売上の科目名（事業収益・売上収益など）。1社のページの中では会社の呼び名にそろえる
-  const revLabel = reports.find((r) => r.revenueLabel)?.revenueLabel ?? '売上高';
+  const L = itemLabels(latest);
+  const revLabel = reports.find((r) => r.revenueLabel)?.revenueLabel ?? L.revenue;
   const f = forecastOf(latest);
 
   // 通期の推移：通期決算の「当期」と「前期」から決算期ごとの数字を組み立てる
@@ -82,7 +83,7 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
           {timelines.length > 0 && (
             <section className="ma-sec" id="revisions" style={{ marginTop: 0 }}>
               <h2>会社予想の移り変わり<small className="h2-sub">会社がいつ、どの資料で、通期の業績をどう予想していたか。期初の予想から、四半期ごとの決算短信、業績予想の修正までを日付順に並べています。</small></h2>
-              {timelines.map((t) => <ForecastHistory key={t.fy} fy={t.fy} points={t.points} revLabel={revLabel} />)}
+              {timelines.map((t) => <ForecastHistory key={t.fy} fy={t.fy} points={t.points} revLabel={revLabel} netLabel={L.netIncome} />)}
               {revisions.length > 0 && (
                 <details className="seg-more" open={Boolean(newerRev)}>
                   <summary>業績予想の修正の中身（修正前 → 修正後）</summary>
@@ -107,7 +108,7 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
 
           <section className="earn-kpi">
             <div><span>直近の決算</span><b>{latest.label.replace(/（中間期）/, '')}</b><small>{latest.date.replace(/-/g, '/')} 発表{latest.consolidated === false ? '・個別' : ''}</small></div>
-            <div><span>{revLabel}{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b>{revenueText(latest)}</b><small>{comparable(latest) ? `前年同期比 ${pct(growth(latest))}` : notComparableText(latest)}</small></div>
+            <div><span>{revLabel}{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b>{revenueText(latest)}</b><small>{comparable(latest) ? `前年同期比 ${growthText(latest)}` : notComparableText(latest)}</small></div>
             <div><span>営業利益{latest.quarter !== 'FY' ? '（累計）' : ''}</span><b className={(latest.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}>{money(latest.current?.operatingIncome)}</b><small>営業利益率 {pct(marginOf(latest), false)}・前年 {money(latest.prior?.operatingIncome)}</small></div>
             {newerRev ? (
               <div><span>{newerRev.fiscalYear ? `${newerRev.fiscalYear} 通期予想` : '通期予想'}（{newerRev.date.slice(5).replace('-', '/')} 修正）</span><b>{money(newerRev.revised.revenue)}</b><small>営業利益 {money(newerRev.revised.operatingIncome)}（修正前 {money(newerRev.previous?.operatingIncome)}）・<a href="#revisions">移り変わり</a></small></div>
@@ -133,7 +134,7 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
             <h2>決算期ごとの数字</h2>
             <div className="earn-wrap">
               <table className="earn-table">
-                <thead><tr><th>決算期</th><th>{revLabel}</th><th>前年比</th><th>営業利益</th><th>営業利益率</th><th>経常利益</th><th>純利益</th><th>会社予想（{revLabel}／営業利益）</th><th>資料</th></tr></thead>
+                <thead><tr><th>決算期</th><th>{revLabel}</th><th>前年比</th><th>営業利益</th><th>営業利益率</th><th>{L.ordinaryIncome}</th><th>{L.netIncome}</th><th>会社予想（{revLabel}／営業利益）</th><th>資料</th></tr></thead>
                 <tbody>
                   {reports.map((r) => {
                     const g = growth(r);
@@ -141,7 +142,7 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
                       <tr key={r.date + r.label}>
                         <td className="nw">{r.label.replace(/（中間期）/, '')}<small>{r.date.replace(/-/g, '/')} 発表{r.consolidated === false ? '・個別' : ''}</small></td>
                         <td className="num">{revenueText(r)}{r.revenueLabel && r.revenueLabel !== revLabel && <small>{r.revenueLabel}</small>}</td>
-                        <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{comparable(r) ? pct(g) : <span className="muted small" title={notComparableText(r)}>比較なし</span>}</td>
+                        <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{comparable(r) ? growthText(r) : <span className="muted small" title={notComparableText(r)}>比較なし</span>}</td>
                         <td className={`num ${(r.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.operatingIncome)}</td>
                         <td className="num">{pct(marginOf(r), false)}</td>
                         <td className="num">{money(r.current?.ordinaryIncome)}</td>
@@ -154,7 +155,7 @@ export default async function CompanyEarningsPage({ params }: { params: Promise<
                 </tbody>
               </table>
             </div>
-            <p className="muted small" style={{ marginTop: 6 }}>四半期は期初からの累計。経常利益は IFRS の会社では税引前利益。前年比は前年同期が黒字のときだけ出しています。</p>
+            <p className="muted small" style={{ marginTop: 6 }}>四半期は期初からの累計。前年比は会社が開示した増減率を使い、開示値を取得できなかった決算は百万円に丸めた数字からの概算として「約」を付けています。前年同期が赤字のときは出していません。</p>
           </section>
         </>
       ) : (

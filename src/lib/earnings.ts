@@ -81,6 +81,27 @@ export const growth = (r?: EarningsReport, k: keyof Figures = 'revenue') => {
   if (ex?.current?.[ek] != null && ex?.prior?.[ek] != null) return yoy(ex.current[ek], ex.prior[ek]);
   return yoy(r?.current?.[k], r?.prior?.[k]);
 };
+/** 会社の決算で使う科目名（IFRS の会社は売上収益・税引前利益・親会社の所有者に帰属する利益）。1社のページの中はこれにそろえる */
+export const isIfrs = (r?: EarningsReport) => /IFRS/i.test((r?.title ?? '').normalize('NFKC')) || /IFRS/.test(r?.note ?? '');
+export const itemLabels = (r?: EarningsReport) => ({
+  revenue: r?.revenueLabel ?? (isIfrs(r) ? '売上収益' : '売上高'),
+  operatingIncome: '営業利益',
+  ordinaryIncome: isIfrs(r) ? '税引前利益' : '経常利益',
+  netIncome: isIfrs(r) ? '親会社所有者に帰属する利益' : '純利益',
+});
+/** 前年同期比の根拠：会社の開示値／添付の損益計算書の細かい数字／百万円に丸めた数字からの概算 */
+export const growthBasis = (r?: EarningsReport, k: keyof Figures = 'revenue'): '開示' | '細かい数字' | '概算' => {
+  if (r?.changes?.[k as keyof NonNullable<EarningsReport['changes']>] != null) return '開示';
+  const ek = k as keyof NonNullable<NonNullable<EarningsReport['exact']>['current']>;
+  if (r?.exact?.current?.[ek] != null && r?.exact?.prior?.[ek] != null) return '細かい数字';
+  return '概算';
+};
+/** 前年同期比の表示。丸めた数字からの概算には「約」を付ける */
+export const growthText = (r?: EarningsReport, k: keyof Figures = 'revenue') => {
+  const g = growth(r, k);
+  if (g == null) return pct(null);
+  return `${growthBasis(r, k) === '概算' ? '約' : ''}${pct(g)}`;
+};
 /** 営業利益率（%）。添付の損益計算書の細かい数字があればそれで計算する */
 export const marginOf = (r?: EarningsReport) => {
   const e = r?.exact?.current;
@@ -114,7 +135,7 @@ export const changeOf = (r: EarningsReport, k: keyof Figures): { text: string; t
   const prev = r.exact?.prior?.[ek] ?? r.prior?.[k];
   if (cur != null && prev != null && cur > 0 && prev > 0) {
     const g = growth(r, k);
-    if (g != null) return Math.abs(g) < 0.05 ? { text: '横ばい', tone: '' } : { text: `${g > 0 ? '+' : ''}${g.toFixed(1)}%`, tone: g > 0 ? 'up' : 'down' };
+    if (g != null) return Math.abs(g) < 0.05 ? { text: '横ばい', tone: '' } : { text: `${growthBasis(r, k) === '概算' ? '約' : ''}${g > 0 ? '+' : ''}${g.toFixed(1)}%`, tone: g > 0 ? 'up' : 'down' };
   }
   return change(cur, prev);
 };

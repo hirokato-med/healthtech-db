@@ -8,8 +8,8 @@ import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { isStopped, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
-import { marginOf, comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText } from '@/lib/earnings';
+import { isStopped, statusLabel, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { marginOf, comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText , growthText, itemLabels} from '@/lib/earnings';
 import { reconcileBusinesses } from '@/lib/profile';
 import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
 import { EarningsBars } from '@/components/EarningsBars';
@@ -27,8 +27,16 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const c = getCompany(id);
   if (!c) notFound();
   const services = servicesOf(c.id);
-  // 事業はあるが、いま提供中・準備中のものが1つもない会社（過去にヘルスケア事業をしていた会社など）
-  const pastOnly = services.length > 0 && !services.some((s) => s.status === '提供中' || s.status === '準備中');
+  // ヘルスケア事業の領域を、いま（提供中）・開発中・過去（止まった）・提供状況を確認できていない、に分ける。
+  // 「提供中と確かめられた事業がない」ことを「すべて過去」とはしない（登録漏れ・未調査・開発中があり得る）
+  const areas = (() => {
+    const cats = (f: (x: (typeof services)[number]) => boolean) => [...new Set(services.filter(f).map((x) => x.category))];
+    const now = cats((x) => x.status === '提供中');
+    const dev = cats((x) => x.status === '準備中').filter((k) => !now.includes(k));
+    const past = cats((x) => isStopped(x)).filter((k) => !now.includes(k) && !dev.includes(k));
+    const unknown = cats((x) => x.status === '不明').filter((k) => !now.includes(k) && !dev.includes(k) && !past.includes(k));
+    return { now, dev, past, unknown };
+  })();
   // 外形情報の事業一覧は、事業データと同じ開始時期で出す
   const profBiz = reconcileBusinesses(c.profile?.businesses ?? [], services);
   const people = peopleOf(c.id);
@@ -46,6 +54,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
     .filter((x, i, arr) => arr.findIndex((y) => nm(y.other) === nm(x.other) && y.p.kind === x.p.kind && (y.p.date ?? '').slice(0, 7) === (x.p.date ?? '').slice(0, 7)) === i);
   const stoppedCount = services.filter((s) => isStopped(s)).length;
   const latestRep = reports[0];
+  // 決算の科目名は会社の呼び名（IFRS は売上収益 など）
+  const repL = itemLabels(reports.find((r) => r.revenueLabel) ?? latestRep);
   const segRep = reports.find((r) => r.quarter === 'FY' && r.segments?.length) ?? latestWithSegments(reports);
   const hc = healthcareOf(segRep);
   // 10年の業績（有報・IR）。直近の通期が決算短信にあって履歴に無ければ足す
@@ -115,7 +125,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const fs = fundingSummary(fund);
   const funding = c.totalFunding || (c.history ?? []).filter((h) => /資金調達|第三者割当|億円を調達|調達を実施|出資を受け/.test(h.text)).slice(-1).map((h) => `${h.date?.slice(0, 7).replace('-', '年')}月 ${h.text}`)[0];
   const discl = c.securitiesCode ? getDisclosures().filter((d) => d.companyId === c.id).slice(0, 8) : [];
-  const related = getCompanies().filter((x) => x.id !== c.id && x.categories.some((s) => c.categories.includes(s))).slice(0, 6);
+  // 同じカテゴリの企業：主なカテゴリが同じ会社（2つ目以降のカテゴリだけが重なる会社は出さない）
+  const related = getCompanies().filter((x) => x.id !== c.id && x.categories[0] === c.categories[0]).slice(0, 6);
   const empAsOf = c.employeesAsOf ? c.employeesAsOf.replace(/^(\d{4})-(\d{2})$/, (_, y, m) => `${y}年${Number(m)}月`) : c.source.includes('2021-09') ? '2021年' : '';
   const srcLabel = (u: string) => {
     const corp = u.match(/houjin-bangou\.nta\.go\.jp.*selHouzinNo=(\d{13})/)?.[1];
@@ -139,10 +150,19 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           {c.logo && <img src={withBase(c.logo.file)} alt={`${c.name}のロゴ`} className={`co-logo ${c.logo.kind} ${c.logo.tone ?? ''} ${c.logo.shape ?? ''}`} />}
         </div>
         <div style={{ marginTop: 10 }}>
-          {pastOnly && <span className="muted small" style={{ marginRight: 8 }}>過去の事業領域：</span>}
           <Chips slugs={c.categories} />
+          {c.categoryNote && c.categoryLocked && <p className="muted small" style={{ margin: '6px 0 0' }}>{c.categoryNote}</p>}
         </div>
-        {pastOnly && <p className="co-scope"><b>いまの提供</b>このページの事業で、いま提供中と確かめられたものはありません。カテゴリは過去の事業の領域です。</p>}
+        {c.coreBusiness && <p className="co-scope"><b>会社全体の主力事業</b>{c.coreBusiness}</p>}
+        {areas.past.length + areas.unknown.length > 0 && (
+          <p className="co-areas">
+            <b>ヘルスケア事業の領域</b>
+            {areas.now.length > 0 && <span>いま：{areas.now.map(categoryName).join('・')}</span>}
+            {areas.dev.length > 0 && <span>開発・準備中：{areas.dev.map(categoryName).join('・')}</span>}
+            {areas.past.length > 0 && <span>過去：{areas.past.map(categoryName).join('・')}</span>}
+            {areas.unknown.length > 0 && <span>提供状況を確認できていない：{areas.unknown.map(categoryName).join('・')}</span>}
+          </p>
+        )}
         {c.description && <p className="lead">{c.description}</p>}
         {c.highlight && <p className="co-highlight"><b>注目</b>{c.highlight}</p>}
         {c.scopeNote && <p className="co-scope"><b>現在の事業</b>{c.scopeNote}</p>}
@@ -245,7 +265,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               {reports.length ? (
                 <div className="earn-wrap">
                   <table className="earn-table compact">
-                    <thead><tr><th>決算期</th><th>売上高</th><th>前年比</th><th>営業利益</th><th>純利益</th><th>会社予想（売上高／営業利益）</th></tr></thead>
+                    <thead><tr><th>決算期</th><th>{repL.revenue}</th><th>前年比</th><th>営業利益</th><th>{repL.netIncome}</th><th>会社予想（{repL.revenue}／営業利益）</th></tr></thead>
                     <tbody>
                       {reports.map((r) => {
                         const g = growth(r);
@@ -253,7 +273,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                           <tr key={r.date + r.label}>
                             <td className="nw">{r.pdf ? <a href={r.pdf} target="_blank" rel="noreferrer">{r.label.replace(/（中間期）/, '')}</a> : r.label}<small>{r.date.replace(/-/g, '/')} 発表</small></td>
                             <td className="num">{revenueText(r)}{r.revenueLabel && r.revenueLabel !== '売上高' && <small>{r.revenueLabel}</small>}</td>
-                            <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{comparable(r) ? pct(g) : <span className="muted small" title={notComparableText(r)}>比較なし</span>}</td>
+                            <td className={`num ${g == null ? '' : g >= 0 ? 'up' : 'down'}`}>{comparable(r) ? growthText(r) : <span className="muted small" title={notComparableText(r)}>比較なし</span>}</td>
                             <td className={`num ${(r.current?.operatingIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.operatingIncome)}</td>
                             <td className={`num ${(r.current?.netIncome ?? 0) < 0 ? 'down' : ''}`}>{money(r.current?.netIncome)}</td>
                             <td className="num fc">{hasForecast(r) ? <>{forecastText(r, 'revenue') ?? '—'}／{forecastText(r, 'operatingIncome') ?? '—'}<small>{forecastLabel(r)}</small></> : <span className="muted small">{noForecastText(r)}</span>}</td>
@@ -291,7 +311,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                     <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
                     <div className="chips"><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
                     <p className="desc">{s.description}</p>
-                    <div className="meta">{(s.startedAt || s.startedYear) && <span>{(s.startedAt ?? String(s.startedYear)).slice(0, 4)}年開始</span>}{s.endedAt && <span>{s.endedAt.slice(0, 4)}年{s.status === '提供中' ? '' : s.status}</span>}<span className={`badge st-${s.status}`}>{s.status}</span></div>
+                    <div className="meta">{(s.startedAt || s.startedYear) && <span>{(s.startedAt ?? String(s.startedYear)).slice(0, 4)}年開始</span>}{s.endedAt && <span>{s.endedAt.slice(0, 4)}年{s.status === '提供中' ? '' : s.status}</span>}<span className={`badge st-${s.status}`}>{statusLabel(s)}</span>{s.status === '準備中' && s.stage ? <span className="badge">{s.stage}</span> : null}</div>
                   </article>
                 ))}
               </div>
