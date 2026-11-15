@@ -22,14 +22,18 @@ export function BusinessModelPanel({ m }: { m: BusinessModel }) {
   const pays = PAY.filter(([k]) => (r[k] as string[] | undefined)?.length);
   const all = [m.problem, m.offering, m.roles, m.revenue, m.channel, m.regulatory, m.reimbursement, m.stage, m.activity].flatMap((x) => x?.sources ?? []).concat((m.adoption ?? []).map((a) => a.source).filter((x): x is BmSource => !!x));
   const uniq = [...new Map(all.map((s) => [s.url, s])).values()];
+  // 普及実績：製品単体で確かめた実績を主に、事業全体・会社の売上・予定は参考に
+  const main = (m.adoption ?? []).filter((a) => !a.ref);
+  const refs = (m.adoption ?? []).filter((a) => a.ref);
   return (
     <section className="panel bm" id="business-model">
       <h3>事業のしくみ<small>（{ymd(m.checkedAt)}に確認・各項目に出典）</small></h3>
+      {m.lastModel && <p className="bm-last"><b>最後に確認できたモデル</b>{m.lastModel.note}。下の内容は、いまの姿ではありません。</p>}
       <div className="bm-grid4">
         <div><h4>対象領域・課題<Src s={m.problem?.sources} /></h4><b><U t={m.problem?.domain} /></b><p><U t={m.problem?.who} /></p></div>
         <div><h4>製品・サービスの種類<Src s={m.offering?.sources} /></h4><b>{m.offering?.values.join('／')}</b><p>{m.offering?.detail}</p></div>
-        <div><h4>利用者・契約者・支払者<Src s={m.roles?.sources} /></h4><p>使う：<U t={(r.operatorUser ?? r.outputUser ?? []).join('、') || '未確認'} /></p><p>契約：<U t={(r.contractor ?? []).join('、') || '未確認'} /></p></div>
-        <div><h4>収益の得方<Src s={m.revenue?.sources} /></h4><b>{m.revenue?.values.join('／')}</b><p>{m.revenue?.detail}</p></div>
+        <div><h4>利用者・契約者・支払者<Src s={m.roles?.sources} /></h4><p>使う：<U t={[...new Set([...(r.operatorUser ?? []), ...(r.outputUser ?? [])])].join('、') || '未確認'} /></p><p>契約：<U t={(r.contractor ?? []).join('、') || '未確認'} /></p></div>
+        <div><h4>収益の得方<Src s={m.revenue?.sources} /></h4><b><U t={m.revenue?.values.join('／')} /></b>{m.revenue?.unknown && <p className="bm-unk">未確認：{m.revenue.unknown}</p>}{m.revenue?.past && <p className="muted">過去の収入：{m.revenue.past}</p>}<p>{m.revenue?.detail}</p></div>
       </div>
       {(roles.length > 0 || pays.length > 0) && (
         <div className="bm-roles">
@@ -40,7 +44,7 @@ export function BusinessModelPanel({ m }: { m: BusinessModel }) {
       {(m.revenue?.values?.length || m.revenue?.customerRecovery?.length) ? (
         <div className="bm-money">
           <div><h4>提供会社の収入</h4><b><U t={m.revenue?.values.join('／') || '未確認'} /></b></div>
-          <div><h4>顧客がその費用を回収する仕組み</h4><b><U t={m.revenue?.customerRecovery?.join('／') || '未確認'} /></b>{m.revenue?.recoveryDetail && <p>{m.revenue.recoveryDetail}</p>}</div>
+          <div><h4>顧客側の費用負担・収入との関係</h4><b><U t={m.revenue?.customerRecovery?.join('／') || '未確認'} /></b>{m.revenue?.recoveryDetail && <p>{m.revenue.recoveryDetail}</p>}</div>
         </div>
       ) : null}
       {m.periods?.length ? (
@@ -51,17 +55,18 @@ export function BusinessModelPanel({ m }: { m: BusinessModel }) {
       ) : null}
       {m.plan && <p className="bm-plan"><b>予定（まだ実現していない）</b>{m.plan}</p>}
       <dl className="bm-attrs">
-        <div><dt>販売経路</dt><dd><U t={m.channel?.values.join('／')} /><Src s={m.channel?.sources} />{m.channel?.detail && <small>{m.channel.detail}</small>}</dd></div>
+        <div><dt>販売経路（最初の契約・販売先）</dt><dd><U t={m.channel?.first.join('／') || '未確認'} /><Src s={m.channel?.sources} />{m.channel?.deal.length ? <small>取引の形：{m.channel.deal.join('・')}</small> : null}{m.channel?.delivery.length ? <small>利用者への届け方：{m.channel.delivery.join('・')}</small> : null}</dd></div>
         <div><dt>薬事上の状態</dt><dd><U t={m.regulatory?.values.join('／')} /><Src s={m.regulatory?.sources} />{m.regulatory?.detail && <small>{m.regulatory.detail}</small>}</dd></div>
         <div><dt>保険適用</dt><dd><U t={m.reimbursement?.values.join('／')} /><Src s={m.reimbursement?.sources} />{m.reimbursement?.detail && <small>{m.reimbursement.detail}</small>}</dd></div>
         <div><dt>提供段階</dt><dd><span className="bm-st">{m.stage?.value}</span></dd></div>
         <div><dt>事業活動</dt><dd><U t={m.activity?.value} /><Src s={m.activity?.sources} />{m.activity?.detail && <small>{m.activity.detail}</small>}</dd></div>
       </dl>
       <div className="bm-adopt"><h4>普及実績</h4>
-        {m.adoption?.length ? (
+        {main.length ? (
           <table><thead><tr><th>指標</th><th>何を数えたか</th><th>数値</th><th>時点</th></tr></thead>
-            <tbody>{m.adoption.map((a) => <tr key={a.metric + a.asOf}><td>{a.metric}{a.scope && a.scope !== '製品単体' ? <small>（{a.scope}）</small> : null}</td><td>{a.definition}</td><td><b><U t={a.value} /></b></td><td>{a.asOf}{a.source && <a className="bm-src" href={a.source.url} target="_blank" rel="noreferrer">出典</a>}</td></tr>)}</tbody></table>
-        ) : <p className="bm-unk">未確認</p>}
+            <tbody>{main.map((a) => <tr key={a.metric + a.asOf}><td>{a.metric}{a.scope && a.scope !== '製品単体' ? <small>（{a.scope}）</small> : null}</td><td>{a.definition}</td><td><b><U t={a.value} /></b></td><td>{a.asOf}{a.source && <a className="bm-src" href={a.source.url} target="_blank" rel="noreferrer">出典</a>}</td></tr>)}</tbody></table>
+        ) : <p className="bm-unk">製品単体で確かめた実績はありません（未確認）</p>}
+        {refs.length > 0 && <p className="bm-ref"><b>参考（製品単体の実績ではない数字）</b>{refs.map((a) => <span key={a.metric + a.asOf}>{a.metric}：{a.value}{a.asOf ? `（${a.asOf}）` : ''}。{a.definition}{a.source && <a className="bm-src" href={a.source.url} target="_blank" rel="noreferrer">出典</a>}</span>)}</p>}
       </div>
       <details className="bm-sources" id="bm-sources"><summary>この欄の出典（{uniq.length}件）</summary>
         <ol>{uniq.map((s) => <li key={s.url}><a href={s.url} target="_blank" rel="noreferrer">{s.publisher || s.url.replace(/^https?:\/\//, '').slice(0, 60)}</a>{s.published && !/未確認|不明/.test(s.published) ? <small>（{s.published}）</small> : null}</li>)}</ol>

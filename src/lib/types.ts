@@ -350,13 +350,17 @@ export type BusinessModel = {
   problem?: { domain?: string; who?: string; situation?: string; sources?: BmSource[] };
   offering?: { values: string[]; detail?: string; sources?: BmSource[] };
   roles?: Partial<Record<'developer' | 'mah' | 'seller' | 'operator' | 'brandOwner' | 'operatorUser' | 'outputUser' | 'subject' | 'supplier' | 'recommender' | 'contractor' | 'directPayer' | 'finalBearer', string[]>> & { sources?: BmSource[] };
-  revenue?: { values: string[]; detail?: string; customerRecovery?: string[]; recoveryDetail?: string; sources?: BmSource[] };
-  channel?: { values: string[]; detail?: string; sources?: BmSource[] };
+  /** values は資料で確かめた収入の種類。unknown は分かっていない部分、past は終わった収入 */
+  revenue?: { values: string[]; detail?: string; unknown?: string; past?: string; customerRecovery?: string[]; recoveryDetail?: string; sources?: BmSource[] };
+  /** 販売経路：最初の契約・販売先（集計の基本）／取引形態／利用者への届け方 */
+  channel?: { first: string[]; deal: string[]; delivery: string[]; detail?: string; sources?: BmSource[] };
+  /** いまの姿が未確認・終了のとき、最後に確認できたモデルの時点 */
+  lastModel?: { asOf: string; note: string };
   regulatory?: { values: string[]; detail?: string; sources?: BmSource[] };
   reimbursement?: { values: string[]; detail?: string; sources?: BmSource[] };
   stage?: { value: string; sources?: BmSource[] };
   activity?: { value: string; detail?: string; sources?: BmSource[] };
   periods?: { t: string; what?: string; user?: string; pay?: string; bear?: string; channel?: string }[];
   plan?: string;
-  adoption?: { metric: string; definition?: string; scope?: string; value: string; asOf?: string; source?: BmSource }[];
+  adoption?: { metric: string; definition?: string; scope?: string; value: string; asOf?: string; source?: BmSource; ref?: boolean }[];
 };

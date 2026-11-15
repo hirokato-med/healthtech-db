@@ -1193,3 +1193,11 @@ ul.fh-ev .t small { color: var(--muted); margin-left: 4px; }
 .bm-table td small, .bm-table td i { display: block; color: var(--muted); font-size: 11px; font-style: normal; }
 .bm-table .tag { display: inline-block; border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; margin: 0 4px 3px 0; font-size: 11px; }
 .table-wrap { overflow-x: auto; }
+.bm-last { margin: 0 0 12px; padding: 8px 12px; border-left: 3px solid #e0a040; background: #fff8ec; color: #6b4300; font-size: 13px; border-radius: 0 4px 4px 0; }
+.bm-last b { margin-right: 8px; }
+.bm-ref { font-size: 12.5px; color: var(--muted); margin: 8px 0 0; } .bm-ref b { display: block; color: var(--fg); font-size: 12px; } .bm-ref span { display: block; }
+:root[data-theme='dark'] .bm-last { background: #3a2a10; color: #f3c98a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme='light']) .bm-last { background: #3a2a10; color: #f3c98a; } }
+.bm-more { margin-top: 6px; font-size: 12px; } .bm-more summary { cursor: pointer; color: var(--navy); }
+.bm-more dl { margin: 6px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 3px 8px; min-width: 260px; }
+.bm-more dt { color: var(--muted); white-space: nowrap; } .bm-more dd { margin: 0; }
