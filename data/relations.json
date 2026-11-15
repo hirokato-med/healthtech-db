@@ -3274,6 +3274,13 @@
    "category": "pharmacy-dx"
   },
   {
+   "id": "9010001243704",
+   "name": "FrontAct株式会社",
+   "companyId": "9010001243704",
+   "exit": "未上場",
+   "category": "medical-device"
+  },
+  {
    "id": "ext:akiliinteractivelabs,inc.",
    "name": "Akili Interactive Labs, Inc."
   },
@@ -5510,6 +5517,12 @@
    "to": "5220001007562",
    "type": "parent",
    "date": "2022-03"
+  },
+  {
+   "from": "8120001236516",
+   "to": "9010001243704",
+   "type": "parent",
+   "date": "2025-06"
   },
   {
    "from": "9120001077430",

@@ -1,1 +1,4258 @@
-{}
+{
+ "cureapp-sc": {
+  "id": "cureapp-sc",
+  "name": "CureApp SC ニコチン依存症治療アプリ及びCOチェッカー",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "ニコチン依存症（禁煙治療）",
+   "who": "禁煙外来に通う喫煙者（ニコチン依存症患者）と禁煙外来の医師",
+   "situation": "禁煙補助薬は身体的依存には効くが、心理的依存には診察と診察の間（在宅・勤務中など）に医療者が介入できず、禁煙外来の1年後の禁煙成功率が30%未満にとどまっている。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000047.000015777.html",
+     "publisher": "CureApp",
+     "published": "2020-11-11"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "治療用アプリ"
+   ],
+   "detail": "患者アプリ・医師アプリ（Webブラウザ）・COチェッカー（呼気一酸化炭素濃度の測定機器、Bluetooth で患者アプリと接続）の3つで構成する禁煙治療補助システム。禁煙外来で医師が処方し、診察外の時間に個別化したガイダンスを出す。COチェッカーは患者の登録住所に同社から直送。 COチェッカー（機器）はアプリと一体で1つの医療機器（禁煙治療補助システム）として承認されている。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000049.000015777.html",
+     "publisher": "CureApp",
+     "published": "2020-12-01"
+    },
+    {
+     "url": "https://sc.cureapp.com/d/faq/",
+     "publisher": "CureApp",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/files/000270841.pdf",
+     "publisher": "PMDA（2020年度承認品目一覧・新医療機器）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "CureApp"
+   ],
+   "mah": [
+    "CureApp（製造販売承認 30200BZX00271000、PMDA 一覧の申請者は株式会社CureApp）"
+   ],
+   "seller": [
+    "CureApp（医療機関へ直接。APS〔アプリ処方サービス〕で処方コード発行と医療機関への請求を行う）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "患者（患者アプリ・COチェッカー）",
+    "医師・医療従事者（医師アプリ、APS で処方コードを発行）"
+   ],
+   "outputUser": [
+    "医師（医師アプリで患者の記録・呼気CO濃度を確認し診察に使う）",
+    "患者（アプリの個別ガイダンスを受け取る）"
+   ],
+   "subject": [
+    "禁煙外来の患者（治療とデータの対象。CureApp には払わない）"
+   ],
+   "supplier": [],
+   "recommender": [
+    "医師（処方を決める。支払はしない）"
+   ],
+   "contractor": [
+    "保険医療機関（禁煙外来）"
+   ],
+   "directPayer": [
+    "医療機関（「1アプリあたりの処方料×処方数」。導入費・使用料・維持費なし）"
+   ],
+   "finalBearer": [
+    "公的医療保険",
+    "患者（自己負担分を医療機関に払う）"
+   ],
+   "sources": [
+    {
+     "url": "https://sc.cureapp.com/d/faq/",
+     "publisher": "CureApp",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/files/000270841.pdf",
+     "publisher": "PMDA（2020年度承認品目一覧・新医療機器）",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000049.000015777.html",
+     "publisher": "CureApp",
+     "published": "2020-12-01"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "従量課金（件数・回数・処方数）"
+   ],
+   "detail": "CureApp が受け取るのは医療機関への「1アプリあたりの処方料×処方数」の請求のみ。導入費・使用料・維持費は無い。COチェッカーは同社から患者の登録住所へ直送され、別料金の記載は無い。",
+   "customerRecovery": [
+    "保険償還（この製品・検査に対応する点数がある）"
+   ],
+   "recoveryDetail": "医療機関は、特定保険医療材料［ニコチン依存症治療補助アプリ］24,000円（禁煙治療開始時に患者1人1回）と、プログラム医療機器等指導管理料90点（導入期加算50点、2024年6月以降）を保険請求して回収する。2020-12 の保険適用時は C2（新技術）区分で、在宅療養指導管理料の導入期加算140点と在宅療養指導管理材料加算 C167 の4回分2,400点の準用だった。",
+   "sources": [
+    {
+     "url": "https://sc.cureapp.com/d/faq/",
+     "publisher": "CureApp",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000047.000015777.html",
+     "publisher": "CureApp",
+     "published": "2020-11-11"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から医療機関へ直接"
+   ],
+   "detail": "CureApp が医療機関と契約・請求し（APS）、医師が禁煙外来で処方して患者に届く。製薬企業など提携先による販売の記載は公式資料に無い。",
+   "sources": [
+    {
+     "url": "https://sc.cureapp.com/d/faq/",
+     "publisher": "CureApp",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "2020-08-21 製造販売承認（新医療機器）、承認番号 30200BZX00271000、一般的名称：禁煙治療補助システム（JMDN 71087002）、管理医療機器・特定保守管理医療機器。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/files/000270841.pdf",
+     "publisher": "PMDA（2020年度承認品目一覧・新医療機器）",
+     "published": ""
+    },
+    {
+     "url": "https://sc.cureapp.com/d/faq/",
+     "publisher": "CureApp",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "保険適用あり（対応する点数がある）"
+   ],
+   "detail": "2020-12-01 保険適用。2024年6月以降は特定保険医療材料［ニコチン依存症治療補助アプリ］24,000円＋プログラム医療機器等指導管理料90点（導入期加算50点）。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000049.000015777.html",
+     "publisher": "CureApp",
+     "published": "2020-12-01"
+    },
+    {
+     "url": "https://sc.cureapp.com/d/faq/",
+     "publisher": "CureApp",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000049.000015777.html",
+     "publisher": "CureApp",
+     "published": "2020-12-01"
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "製品サイトに2026-04-23のリリースを掲載（2026-11-14閲覧）。",
+   "sources": [
+    {
+     "url": "https://sc.cureapp.com/d",
+     "publisher": "CureApp",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "処方数・導入医療機関数の公式発表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null
+   }
+  ]
+ },
+ "b-64df1e9c": {
+  "id": "b-64df1e9c",
+  "name": "サスメド 不眠障害用アプリ Medcle（メドクル）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "不眠障害",
+   "who": "不眠障害の患者と、その治療をする医師",
+   "situation": "不眠障害の治療は睡眠薬による薬物療法が第一選択とされ、副作用や中断後の効果減退があるが、薬物以外の選択肢（対面の認知行動療法 CBT-I）は普及が限られている。",
+   "sources": [
+    {
+     "url": "https://contents.xj-storage.jp/xcontents/AS82385/17aad6c7/992f/4ed0/8f45/ba08312ef678/140120260513527911.pdf",
+     "publisher": "サスメド（適時開示）",
+     "published": "2026-05-13"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "治療用アプリ"
+   ],
+   "detail": "CBT-I を治療原理とするスマートフォンアプリ（9週間）。医療機関が発行するアカウント情報でログインし、治療は患者がアプリ単独で行う。医師向け管理システム（Medcle for Doctors）で睡眠記録やアテネ不眠尺度を確認できる。",
+   "sources": [
+    {
+     "url": "https://medcle.jp/",
+     "publisher": "サスメド",
+     "published": ""
+    },
+    {
+     "url": "https://contents.xj-storage.jp/xcontents/AS82385/92277a48/2bd2/4a25/b367/4d882b4ca0c7/140120261106567428.pdf",
+     "publisher": "サスメド（2027年6月期第1四半期決算説明資料）",
+     "published": "2026-11-06"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "サスメド"
+   ],
+   "mah": [
+    "サスメド（製造販売承認 30500BZX00033000、PMDA 一覧の申請者はサスメド株式会社）"
+   ],
+   "seller": [
+    "サスメド（2026-08-26 の販売提携契約終了合意以降、単独でプロモーション・販売）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "患者（アプリで9週間の治療）",
+    "医師（アカウント発行、Medcle for Doctors）"
+   ],
+   "outputUser": [
+    "医師（Medcle for Doctors で睡眠記録・アテネ不眠尺度を確認）",
+    "患者（アプリの治療内容を受け取る）"
+   ],
+   "subject": [
+    "不眠障害の患者（治療とデータの対象。サスメドには払わない）"
+   ],
+   "supplier": [],
+   "recommender": [
+    "医師（処方を決める。支払はしない）"
+   ],
+   "contractor": [
+    "保険医療機関（CBT-I 等の研修を修了した医師を配置した施設。サスメドと契約）"
+   ],
+   "directPayer": [
+    "医療機関（毎月「当月の新規アカウント発行数×単価」。導入・維持費用なし）"
+   ],
+   "finalBearer": [
+    "公的医療保険",
+    "患者（自己負担分を医療機関に払う）"
+   ],
+   "sources": [
+    {
+     "url": "https://medcle.jp/",
+     "publisher": "サスメド",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/files/000264492.pdf",
+     "publisher": "PMDA（2022年度承認品目一覧・新医療機器）",
+     "published": ""
+    },
+    {
+     "url": "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2026/8%E6%9C%88/J_20260826.pdf",
+     "publisher": "塩野義製薬",
+     "published": "2026-08-26"
+    },
+    {
+     "url": "https://contents.xj-storage.jp/xcontents/AS82385/c579d486/8c5e/47e6/954c/11ca120741fd/140120261105565964.pdf",
+     "publisher": "サスメド（2027年6月期第1四半期決算短信）",
+     "published": "2026-11-06"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000013.000069571.html",
+     "publisher": "サスメド",
+     "published": "2026-06-01"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "従量課金（件数・回数・処方数）",
+    "提携の一時金・マイルストン"
+   ],
+   "detail": "製品売上は医療機関への新規アカウント発行数に応じた請求。これとは別に、塩野義製薬との販売提携契約（2021-12-27締結、日本での独占的販売権、一時金・マイルストン総額最大47億円と販売額に応じたロイヤリティ）からマイルストン収入を得ており、契約終了合意（2026-08-26）に際し保険収載に伴うマイルストン2億円を受領した。販売額ロイヤリティを実際に受け取ったかは確認できず。",
+   "customerRecovery": [
+    "保険償還（この製品・検査に対応する点数がある）"
+   ],
+   "recoveryDetail": "医療機関は特定保険医療材料［不眠障害治療支援アプリ］24,100円と、B005-14 プログラム医療機器等指導管理料90点（導入期加算50点）を保険請求して回収する（2026-06-01 保険適用）。",
+   "sources": [
+    {
+     "url": "https://medcle.jp/",
+     "publisher": "サスメド",
+     "published": ""
+    },
+    {
+     "url": "https://www2.jpx.co.jp/disc/45070/140120211227561844.pdf",
+     "publisher": "塩野義製薬（適時開示）",
+     "published": "2021-12-27"
+    },
+    {
+     "url": "https://contents.xj-storage.jp/xcontents/AS82385/c579d486/8c5e/47e6/954c/11ca120741fd/140120261105565964.pdf",
+     "publisher": "サスメド（2027年6月期第1四半期決算短信）",
+     "published": "2026-11-06"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000013.000069571.html",
+     "publisher": "サスメド",
+     "published": "2026-06-01"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から医療機関へ直接"
+   ],
+   "detail": "いまはサスメドが単独で医療機関に販売し、医師の処方で患者に届く。2021-12〜2026-08-26 は塩野義製薬が日本での独占的販売権を持っていた（periods 参照）。保険適用・発売の2026-06-01から契約終了までの間にどちらが実際に販売活動をしたかは公式資料で確認できず。",
+   "sources": [
+    {
+     "url": "https://www2.jpx.co.jp/disc/45070/140120211227561844.pdf",
+     "publisher": "塩野義製薬（適時開示）",
+     "published": "2021-12-27"
+    },
+    {
+     "url": "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2026/8%E6%9C%88/J_20260826.pdf",
+     "publisher": "塩野義製薬",
+     "published": "2026-08-26"
+    },
+    {
+     "url": "https://contents.xj-storage.jp/xcontents/AS82385/c579d486/8c5e/47e6/954c/11ca120741fd/140120261105565964.pdf",
+     "publisher": "サスメド（2027年6月期第1四半期決算短信）",
+     "published": "2026-11-06"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "2023-02-15 製造販売承認（新医療機器、販売名「サスメド Med CBT-i 不眠障害用アプリ」）、2025-09-02 一部変更承認（販売名「サスメド 不眠障害用アプリ Medcle」、薬物療法・対面 CBT-I と区別した治療選択肢として位置付け）。承認番号 30500BZX00033000、一般的名称：不眠障害用プログラム（JMDN 71123002）。製造販売業者はサスメド。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/files/000264492.pdf",
+     "publisher": "PMDA（2022年度承認品目一覧・新医療機器）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/files/000282422.pdf",
+     "publisher": "PMDA（2025年度承認品目一覧・新医療機器）",
+     "published": ""
+    },
+    {
+     "url": "https://medcle.jp/",
+     "publisher": "サスメド",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "保険適用あり（対応する点数がある）"
+   ],
+   "detail": "2026-05-13 中医協で保険収載了承、2026-06-01 保険適用。償還価格24,100円（治療用アプリで初めて有用性加算）、準用技術料 B005-14 プログラム医療機器等指導管理料90点・導入期加算50点。算定には CBT-I 等の研修を修了した医師の配置が必要。",
+   "sources": [
+    {
+     "url": "https://contents.xj-storage.jp/xcontents/AS82385/17aad6c7/992f/4ed0/8f45/ba08312ef678/140120260513527911.pdf",
+     "publisher": "サスメド（適時開示）",
+     "published": "2026-05-13"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000013.000069571.html",
+     "publisher": "サスメド",
+     "published": "2026-06-01"
+    },
+    {
+     "url": "https://medcle.jp/",
+     "publisher": "サスメド",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000013.000069571.html",
+     "publisher": "サスメド",
+     "published": "2026-06-01"
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "2026-11-06 の決算説明資料で採用医療機関数・処方数を開示。塩野義との販売提携は終了し、サスメド単独で継続。",
+   "sources": [
+    {
+     "url": "https://contents.xj-storage.jp/xcontents/AS82385/92277a48/2bd2/4a25/b367/4d882b4ca0c7/140120261106567428.pdf",
+     "publisher": "サスメド（決算説明資料）",
+     "published": "2026-11-06"
+    }
+   ]
+  },
+  "periods": [
+   {
+    "t": "2021-12〜2026-05",
+    "what": "開発・承認（2023-02-15 承認、保険適用前で未発売）",
+    "user": "未発売",
+    "pay": "塩野義製薬がサスメドに一時金・マイルストン（販売提携契約）",
+    "bear": "塩野義製薬（提携の対価）",
+    "channel": "塩野義製薬が日本での独占的販売権を持つ（提携先が販売）"
+   },
+   {
+    "t": "2026-06-01〜2026-08-26",
+    "what": "保険適用・発売",
+    "user": "患者・医師",
+    "pay": "医療機関（アカウント発行数×単価）。塩野義製薬との契約は有効",
+    "bear": "公的医療保険と患者の自己負担",
+    "channel": "塩野義製薬が独占的販売権を持つ契約期間（実際の販売活動の担い手は未確認）"
+   },
+   {
+    "t": "いま",
+    "what": "（2026-08-26〜）保険適用の治療用アプリ",
+    "user": "患者・医師",
+    "pay": "医療機関（アカウント発行数×単価）",
+    "bear": "公的医療保険と患者の自己負担",
+    "channel": "サスメドから医療機関へ直接、医療機関経由で患者へ"
+   }
+  ],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "Medcle 採用医療機関数",
+    "definition": "時点の採用（契約）医療機関数。稼働（処方実績）かどうかは資料に定義なし",
+    "scope": "製品単体",
+    "value": "194軒（通期予算1,000軒）",
+    "asOf": "2026-10",
+    "source": {
+     "url": "https://contents.xj-storage.jp/xcontents/AS82385/92277a48/2bd2/4a25/b367/4d882b4ca0c7/140120261106567428.pdf",
+     "publisher": "サスメド（決算説明資料）",
+     "published": "2026-11-06"
+    }
+   },
+   {
+    "metric": "Medcle 月間処方数",
+    "definition": "2026年10月の1か月間の処方数（フロー）",
+    "scope": "製品単体",
+    "value": "27回/月（通期予算2,000回/月）",
+    "asOf": "2026-10",
+    "source": {
+     "url": "https://contents.xj-storage.jp/xcontents/AS82385/92277a48/2bd2/4a25/b367/4d882b4ca0c7/140120261106567428.pdf",
+     "publisher": "サスメド（決算説明資料）",
+     "published": "2026-11-06"
+    }
+   }
+  ]
+ },
+ "b-0ab4cb82": {
+  "id": "b-0ab4cb82",
+  "name": "CRS-1（心疾患管理プログラム・心リハアプリ）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "心臓リハビリテーション（心不全など心大血管疾患の再入院予防）",
+   "who": "外来心臓リハビリに通えない心疾患患者と、心リハを提供する医療機関",
+   "situation": "心臓リハビリは再入院・死亡率の低減に有効だが、日本の外来心臓リハビリ参加率は約7%にとどまり、通院負担や施設の制約で多くの患者が再入院を繰り返している。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000017.000074104.html",
+     "publisher": "CaTe",
+     "published": "2026-06-15"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "治療用アプリ"
+   ],
+   "detail": "在宅での運動療法を主とした包括的心臓リハビリを支援する心疾患管理プログラム（SaMD）。運動療法・食事療法・服薬管理・遠隔モニタリング・遠隔指導・患者教育の6機能を軸に、スマートフォンや IoT 端末で医療者と患者をつなぐ。治験では遠隔モニタリング下の非監視下運動療法として外来心リハと比較。",
+   "sources": [
+    {
+     "url": "https://cate.co.jp/solution/",
+     "publisher": "CaTe",
+     "published": ""
+    },
+    {
+     "url": "https://jrct.mhlw.go.jp/latest-detail/jRCT2042260056",
+     "publisher": "厚生労働省 jRCT（CaTe 登録）",
+     "published": "2026-06-08"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "CaTe（治験依頼者）"
+   ],
+   "mah": [],
+   "seller": [],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "治験の被験者（心不全患者。在宅で運動療法などを実施）",
+    "実施医療機関の医療者（遠隔モニタリング・遠隔指導）"
+   ],
+   "outputUser": [
+    "実施医療機関の医療者"
+   ],
+   "subject": [
+    "治験の被験者（心大血管疾患リハビリテーション料の適応がある心不全患者）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "治験実施医療機関（治験依頼者 CaTe との治験契約。契約・費用の詳細は未確認）"
+   ],
+   "directPayer": [],
+   "finalBearer": [],
+   "sources": [
+    {
+     "url": "https://jrct.mhlw.go.jp/latest-detail/jRCT2042260056",
+     "publisher": "厚生労働省 jRCT（CaTe 登録）",
+     "published": "2026-10-05"
+    },
+    {
+     "url": "https://cate.co.jp/solution/",
+     "publisher": "CaTe",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000017.000074104.html",
+     "publisher": "CaTe",
+     "published": "2026-06-15"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "なし（上市前）"
+   ],
+   "detail": "上市前で販売していない。上市後の収益モデル（料金の形）は公表されていない。",
+   "customerRecovery": [
+    "なし（上市前）"
+   ],
+   "recoveryDetail": "上市前。会社は保険収載を目指すと説明（plan 参照）。",
+   "sources": [
+    {
+     "url": "https://cate.co.jp/solution/",
+     "publisher": "CaTe",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "なし（上市前）"
+   ],
+   "detail": "上市前で販売経路は無い。予定は plan に分けた。",
+   "sources": [
+    {
+     "url": "https://cate.co.jp/solution/",
+     "publisher": "CaTe",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "未承認（開発中）"
+   ],
+   "detail": "薬事承認取得を目指して国内検証的治験（第3相、jRCT2042260056、J CARE REHAB Study、企業治験）を実施中。CaTe は第二種医療機器製造販売業許可（13B2X10514）を持つ。 承認を持つ製造販売業者はまだいないため roles.mah は空。",
+   "sources": [
+    {
+     "url": "https://jrct.mhlw.go.jp/latest-detail/jRCT2042260056",
+     "publisher": "厚生労働省 jRCT",
+     "published": "2026-10-05"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000017.000074104.html",
+     "publisher": "CaTe",
+     "published": "2026-06-15"
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "なし（上市前）"
+   ],
+   "detail": "未承認のため保険適用なし。治験の目的は H000 心大血管疾患リハビリテーション料の適応がある心不全患者での非劣性検証で、将来の保険収載を目指す。",
+   "sources": [
+    {
+     "url": "https://jrct.mhlw.go.jp/latest-detail/jRCT2042260056",
+     "publisher": "厚生労働省 jRCT",
+     "published": "2026-10-05"
+    },
+    {
+     "url": "https://cate.co.jp/solution/",
+     "publisher": "CaTe",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "治験",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000017.000074104.html",
+     "publisher": "CaTe（第1症例組み入れ完了）",
+     "published": "2026-06-15"
+    },
+    {
+     "url": "https://jrct.mhlw.go.jp/latest-detail/jRCT2042260056",
+     "publisher": "厚生労働省 jRCT（進捗：募集中）",
+     "published": "2026-10-05"
+    }
+   ]
+  },
+  "activity": {
+   "value": "開発継続",
+   "detail": "jRCT の進捗は「募集中」（最終公表 2026-10-05）。",
+   "sources": [
+    {
+     "url": "https://jrct.mhlw.go.jp/latest-detail/jRCT2042260056",
+     "publisher": "厚生労働省 jRCT（進捗：募集中）",
+     "published": "2026-10-05"
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "会社のロードマップは「検証的治験→薬事承認・保険収載→心リハアプリの提供」で、「医療機関を通じて、患者に届くかたちでの社会実装を目指しています」とする。承認後は CaTe（第二種医療機器製造販売業許可 13B2X10514 を保有）が製造販売業者になると考えられるが、申請者・販売体制・料金・保険上の区分は未公表。",
+  "adoption": [
+   {
+    "metric": "該当なし",
+    "definition": "上市前のため普及実績なし（治験の被験者数は普及実績として扱わない）",
+    "scope": "製品単体",
+    "value": "該当なし",
+    "asOf": "2026-11",
+    "source": null
+   }
+  ]
+ },
+ "nodoca": {
+  "id": "nodoca",
+  "name": "nodoca（ノドカ）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "インフルエンザの診断（新型コロナのスクリーニングはオプション）",
+   "who": "発熱外来の医師・クリニックと、検査を受ける患者",
+   "situation": "インフルエンザ流行期に発熱患者が増え、鼻腔拭い液の迅速検査は患者の痛みと待ち時間を伴い、インフルエンザ濾胞の視診は熟練医でないと見分けにくい。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000023.000035813.html",
+     "publisher": "アイリス",
+     "published": "2022-12-20"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "診断・検査の機器"
+   ],
+   "detail": "AI を搭載した咽頭内視鏡システム（専用カメラ＋nodoca クラウドでの解析）。咽頭画像と問診情報（体温・自覚症状など）を AI 解析し、インフルエンザに特徴的な所見を検出して判定を数秒〜十数秒で返す。新型コロナのスクリーニング機能はインフルエンザ検査時のオプション（一部変更承認）。Wi-Fi 接続が前提。",
+   "sources": [
+    {
+     "url": "https://nodoca.aillis.jp/",
+     "publisher": "アイリス",
+     "published": ""
+    },
+    {
+     "url": "https://nodoca.aillis.jp/faq",
+     "publisher": "アイリス",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "アイリス（「医師の目線で開発した」と製品サイト）"
+   ],
+   "mah": [
+    "アイリス（製造販売承認 30400BZX00101000、PMDA 一覧の申請者はアイリス株式会社）"
+   ],
+   "seller": [
+    "アイリス（製品サイトから購入相談を受け付け。代理店の有無は未確認）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医師・医療従事者（専用カメラで咽頭を撮影し、問診情報を入力）"
+   ],
+   "outputUser": [
+    "医師（AI の判定結果を臨床症状などと併せて診断に使う）"
+   ],
+   "subject": [
+    "検査を受ける患者（6歳以上。咽頭を撮影される）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関（購入契約）"
+   ],
+   "directPayer": [
+    "医療機関（機器の購入代金、有償の保守保証プラン（購入後1年はメーカー保証））"
+   ],
+   "finalBearer": [
+    "医療機関（機器代そのもの）",
+    "公的医療保険と患者の自己負担（検査料 D296-3 305点。医療機関の機器代の回収原資）"
+   ],
+   "sources": [
+    {
+     "url": "https://nodoca.aillis.jp/",
+     "publisher": "アイリス",
+     "published": ""
+    },
+    {
+     "url": "https://nodoca.aillis.jp/faq",
+     "publisher": "アイリス",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/files/000264492.pdf",
+     "publisher": "PMDA（2022年度承認品目一覧・新医療機器）",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000023.000035813.html",
+     "publisher": "アイリス",
+     "published": "2022-12-20"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "機器・物品の販売代金",
+    "保守料"
+   ],
+   "detail": "アイリスの収入は医療機関への機器販売と、有償の保守保証プラン（購入後1年間はメーカー保証が附帯）。価格・保守料の水準、クラウド利用料・消耗品の有無は公開資料で確認できず。",
+   "customerRecovery": [
+    "保険償還（この製品・検査に対応する点数がある）"
+   ],
+   "recoveryDetail": "医療機関は検査ごとに D296-3「内視鏡用テレスコープを用いた咽頭画像等解析（インフルエンザの診断の補助に用いるもの）」305点を算定し、機器代を回収する（発症後48時間以内・6歳以上、インフルエンザ抗原定性とは併算定不可、新型コロナ解析は所定点数に包括。令和8年6月時点）。保険点数はアイリスの収入ではない。",
+   "sources": [
+    {
+     "url": "https://nodoca.aillis.jp/faq",
+     "publisher": "アイリス",
+     "published": ""
+    },
+    {
+     "url": "https://nodoca.aillis.jp/",
+     "publisher": "アイリス",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000023.000035813.html",
+     "publisher": "アイリス",
+     "published": "2022-12-20"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から医療機関へ直接"
+   ],
+   "detail": "製品サイトのお問い合わせフォームから購入相談を受け、担当者が対応する（2022-12 に医療機関からの購入申し込み受付を開始）。代理店経由の販売があるかは確認できず。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000023.000035813.html",
+     "publisher": "アイリス",
+     "published": "2022-12-20"
+    },
+    {
+     "url": "https://nodoca.aillis.jp/faq",
+     "publisher": "アイリス",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "2022-04-26 製造販売承認（新医療機器）、承認番号 30400BZX00101000、一般的名称：内視鏡用テレスコープ。6歳未満は有効性・安全性未評価。新型コロナスクリーニング機能は一部変更承認（承認日は未確認）。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/files/000264492.pdf",
+     "publisher": "PMDA（2022年度承認品目一覧・新医療機器）",
+     "published": ""
+    },
+    {
+     "url": "https://nodoca.aillis.jp/",
+     "publisher": "アイリス",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "保険適用あり（対応する点数がある）"
+   ],
+   "detail": "2022-12-01 保険適用（C2 新機能・新技術区分）、305点。現行は D296-3「内視鏡用テレスコープを用いた咽頭画像等解析（インフルエンザの診断の補助に用いるもの）」305点、発症後48時間以内・6歳以上、インフルエンザ抗原定性とは併算定不可、新型コロナ解析は所定点数に包括（令和8年6月時点）。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000023.000035813.html",
+     "publisher": "アイリス",
+     "published": "2022-12-20"
+    },
+    {
+     "url": "https://nodoca.aillis.jp/faq",
+     "publisher": "アイリス",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000023.000035813.html",
+     "publisher": "アイリス（2022-12-23 一般販売開始）",
+     "published": "2022-12-20"
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "FAQ に令和8年6月時点の保険の記載あり（2026-11-14閲覧）。",
+   "sources": [
+    {
+     "url": "https://nodoca.aillis.jp/faq",
+     "publisher": "アイリス",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "導入医療機関数",
+    "definition": "販売開始（2022-12）からの累計導入施設数と読める（稼働数かは定義なし）",
+    "scope": "製品単体",
+    "value": "2,000施設以上",
+    "asOf": "2025-11",
+    "source": {
+     "url": "https://nodoca.aillis.jp/",
+     "publisher": "アイリス",
+     "published": ""
+    }
+   }
+  ]
+ },
+ "doctornet-remote": {
+  "id": "doctornet-remote",
+  "name": "遠隔画像診断サービス（Tele-RAD ほか、ドクターネット）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "画像診断（読影医の不足）",
+   "who": "放射線診断専門医が足りない、または夜間・休日に読影できない医療機関・健診機関",
+   "situation": "全国の医師約34万人のうち放射線診断専門医は約6,000人しかおらず、CT/MRI などの画像を自施設で専門医が速やかに読影できない医療機関が多い。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/telerad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "受託サービス（専門職による実施）",
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "受託サービス：医療機関・健診機関から画像の読影依頼を遠隔で受け、登録した専門医がレポートを返す（Tele-RAD は放射線診断専門医、Tele-DOC は健診・検診向けに診療科専門医）。ソフト：遠隔読影のインフラを貸す Virtual-RAD と、AI エンジンを遠隔ネットワーク上で使う AI-RAD（自社の DoctorNET MONCAD CTLN・DoctorNET JLK-CRP、他社の EIRL など）。AI エンジンは単体利用も、医師の読影依頼と併用もできる。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/telerad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/service/teledoc/",
+     "publisher": "ドクターネット",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/wp-content/uploads/2025/01/f9379ce016cadff07e655011e154a445.pdf",
+     "publisher": "ドクターネット",
+     "published": "2025-01"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "ドクターネット（読影プラットフォーム・遠隔依頼システム）",
+    "AI エンジン：DoctorNET MONCAD CTLN は韓国 Monitor Corporation と共同開発、JLK-CRP は韓国 JLK 社との取り組み、EIRL など他社エンジンも搭載"
+   ],
+   "mah": [
+    "ドクターネット（DoctorNET MONCAD CTLN の指定管理医療機器製造販売認証 307AGBZX00003000）",
+    "JLK-CRP・他社エンジンの承認・認証の保有者は未確認"
+   ],
+   "seller": [
+    "ドクターネット（医療機関と直接契約）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "登録読影医（ドクターネットのシステムで読影しレポートを作成）",
+    "依頼元の医療機関・健診機関（依頼端末から画像を送る、AI エンジンを使う）"
+   ],
+   "outputUser": [
+    "依頼元の医療機関・健診機関の医師（読影レポート・AI の解析結果を診療・健診判定に使う）"
+   ],
+   "subject": [
+    "患者・健診受診者（画像に写る人。ドクターネットとの契約・支払は無い）"
+   ],
+   "supplier": [
+    "登録読影医（放射線診断専門医 約1,000名。Tele-DOC は診療科専門医。読影テストを経て登録）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "医療機関・健診機関"
+   ],
+   "directPayer": [
+    "医療機関・健診機関（初期の依頼端末設置料・システム連携料、月額基本料金、1件ごとの読影支援サービス料、オプション料金。AI エンジンは月額利用料＋1症例あたりの解析料）"
+   ],
+   "finalBearer": [
+    "依頼元の医療機関・健診機関（自院の経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/telerad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/wp-content/uploads/2025/01/f9379ce016cadff07e655011e154a445.pdf",
+     "publisher": "ドクターネット",
+     "published": "2025-01"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "受託料",
+    "従量課金（件数・回数・処方数）",
+    "月額・年額の利用料",
+    "初期費用・導入費"
+   ],
+   "detail": "Tele-RAD：初回の依頼端末設置料・システム連携料（初期費用）、月額基本料金、1件ごとの読影支援サービス料（受託料・従量）、至急・24/365 などのオプション料金。AI エンジン：月額利用料と1症例あたりの解析料（医師への読影依頼は別途読影料）。登録読影医への報酬の形は公開資料で確認できず。",
+   "customerRecovery": [
+    "回収しない（顧客の経費）"
+   ],
+   "recoveryDetail": "依頼元は自院の経費として払い、その原資は自院の診療報酬（画像診断）や健診料金。依頼元が遠隔画像診断について保険上どう算定するか（施設基準・加算）は一次情報で確認していない。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/telerad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/wp-content/uploads/2025/01/f9379ce016cadff07e655011e154a445.pdf",
+     "publisher": "ドクターネット",
+     "published": "2025-01"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から医療機関へ直接"
+   ],
+   "detail": "医療機関向けお問い合わせ→見積・現地調査→端末設置→運用開始の流れで、同社が医療機関と直接契約する。既存の利用施設（約1,300）は追加導入なしで AI エンジンを使える。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/telerad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/wp-content/uploads/2025/01/f9379ce016cadff07e655011e154a445.pdf",
+     "publisher": "ドクターネット",
+     "published": "2025-01"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "一部が医療機器"
+   ],
+   "detail": "遠隔読影（専門医による読影レポートの受託）は医療機器ではない。AI-RAD で提供する AI エンジンは医療機器で、DoctorNET MONCAD CTLN はドクターネットが指定管理医療機器の製造販売認証（307AGBZX00003000、2025-01-15、クラスII、汎用画像診断装置ワークステーション用プログラム）を取得。JLK-CRP の承認・認証番号は確認できず。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/wp-content/uploads/2025/01/f9379ce016cadff07e655011e154a445.pdf",
+     "publisher": "ドクターネット",
+     "published": "2025-01"
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "保険診療の中で使われる（製品に対応する点数はない）"
+   ],
+   "detail": "ドクターネットの料金は医療機関との契約料金で、保険償還ではない。Tele-RAD は医療機関の診療で撮った CT/MRI などの読影に使われ、Tele-DOC は健診・検診の読影（保険診療ではない）。依頼元の画像診断の算定要件との関係は一次情報で確認していない。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/telerad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/service/teledoc/",
+     "publisher": "ドクターネット",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/company/",
+     "publisher": "ドクターネット（沿革：1997-06 遠隔画像診断支援サービス開始）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "公式サイトに2026-10-30のメンテナンス告知などを掲載（2026-11-14閲覧）。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/",
+     "publisher": "ドクターネット（2026-10-30 のメンテナンス告知などを掲載）",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "遠隔ネットワークで連携する医療機関数",
+    "definition": "時点の連携（利用）医療機関数",
+    "scope": "事業全体（遠隔画像診断サービス全体）",
+    "value": "1,300超（「約1,300施設」）",
+    "asOf": "2025-01",
+    "source": {
+     "url": "https://dr-net.co.jp/wp-content/uploads/2025/01/f9379ce016cadff07e655011e154a445.pdf",
+     "publisher": "ドクターネット",
+     "published": "2025-01"
+    }
+   },
+   {
+    "metric": "遠隔画像診断の症例数",
+    "definition": "年間の読影症例数（フロー）と1日あたり症例数",
+    "scope": "事業全体（遠隔画像診断サービス全体）",
+    "value": "年間300万以上・1日約10,000症例",
+    "asOf": "2025-01",
+    "source": {
+     "url": "https://dr-net.co.jp/wp-content/uploads/2025/01/f9379ce016cadff07e655011e154a445.pdf",
+     "publisher": "ドクターネット",
+     "published": "2025-01"
+    }
+   },
+   {
+    "metric": "Tele-RAD 登録読影医数",
+    "definition": "時点の登録者数（供給側）",
+    "scope": "製品単体（Tele-RAD）",
+    "value": "約1,000名",
+    "asOf": "未確認",
+    "source": {
+     "url": "https://dr-net.co.jp/service/telerad/",
+     "publisher": "ドクターネット",
+     "published": ""
+    }
+   }
+  ]
+ },
+ "ubie-ai-monshin": {
+  "id": "ubie-ai-monshin",
+  "name": "ユビーAI問診（ユビーメディカルナビ）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "外来の問診業務（医療機関の業務効率化）",
+   "who": "外来の医師・看護師・受付（と、待ち時間の長い患者）",
+   "situation": "紙の問診票では聴取の質が担当者でばらつき、来院後の聴取や紙からカルテへの転記に時間がかかる。",
+   "sources": [
+    {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "患者が来院前（自分のスマホ）または院内（タブレット）で症状を入力すると、AI が主訴や回答に応じて質問を出し分け、回答を医師向けの表現に変換してカルテの下書きを生成し、電子カルテに連携する Web 問診。クラウド型。LLM による問診要約機能（2023-10、クリニック向け）。「ユビーメディカルナビ」は AI 問診などを含む医療機関向けパッケージの総称。",
+   "sources": [
+    {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    },
+    {
+     "url": "https://ubie.life/service",
+     "publisher": "Ubie",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000063.000048083.html",
+     "publisher": "Ubie",
+     "published": "2023-10-16"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "Ubie"
+   ],
+   "mah": [],
+   "seller": [
+    "Ubie（医療機関へ直接。病院ごとに専属担当が導入支援）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "患者（来院前に自分のスマホ、または院内のタブレットで問診に回答する）"
+   ],
+   "outputUser": [
+    "医師・看護師・受付（カルテ下書き・トリアージに使う）"
+   ],
+   "subject": [
+    "患者（問診の回答がデータになる。料金は払わない）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関（病院・クリニック）"
+   ],
+   "directPayer": [
+    "医療機関（利用料。タブレット購入費・電子カルテ連携費・通信費などの実費も医療機関負担）"
+   ],
+   "finalBearer": [
+    "医療機関（自院の経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000013.000048083.html",
+     "publisher": "Ubie",
+     "published": "2021-01-08"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "月額・年額の利用料"
+   ],
+   "detail": "医療機関から利用料を受け取る（2021-01 のクリニック向け緊急提供では「利用料一年分無償」とし、端末・電子カルテ連携費などは医療機関の実費負担と明記）。利用料の水準・課金単位（月額か年額か、病床規模別か）は公開資料で確認できず。Ubie 全体では製薬企業向けサービスもあるが、AI 問診の費用を製薬企業が負担しているかは確認できず。",
+   "customerRecovery": [
+    "回収しない（顧客の経費）"
+   ],
+   "recoveryDetail": "医療機関の業務用ソフトで、保険点数の算定対象として案内されていない。患者への転嫁の記載も無い。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000013.000048083.html",
+     "publisher": "Ubie",
+     "published": "2021-01-08"
+    },
+    {
+     "url": "https://ubie.life/service",
+     "publisher": "Ubie",
+     "published": ""
+    },
+    {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から医療機関へ直接"
+   ],
+   "detail": "Ubie が医療機関に直接販売し、病院ごとに専属担当が導入・活用を支援する。患者は医療機関の案内（来院前の URL・院内タブレット）で使う。",
+   "sources": [
+    {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "確認できず"
+   ],
+   "detail": "製品ページ（2026-11-15 再確認）に医療機器としての承認・認証番号も「医療機器ではない」旨の記載も無い。承認・認証の記載が無いので roles.mah は空。",
+   "sources": [
+    {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "保険診療の中で使われる（製品に対応する点数はない）"
+   ],
+   "detail": "医療機関の業務用ソフトで、保険点数の算定対象として案内されていない（費用は医療機関の経費）。",
+   "sources": [
+    {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "製品ページに「導入医療機関数1,800以上」を掲載（2026-11-15 再確認）。",
+   "sources": [
+    {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "導入医療機関数",
+    "definition": "累計の導入（契約）医療機関数と読める。稼働かどうかの定義なし",
+    "scope": "製品単体",
+    "value": "200以上",
+    "asOf": "2021-01",
+    "source": {
+     "url": "https://prtimes.jp/main/html/rd/p/000000013.000048083.html",
+     "publisher": "Ubie",
+     "published": "2021-01-08"
+    }
+   },
+   {
+    "metric": "導入医療機関数",
+    "definition": "同上（病院・クリニック合計、47都道府県）",
+    "scope": "製品単体",
+    "value": "1,500以上",
+    "asOf": "2023-10",
+    "source": {
+     "url": "https://prtimes.jp/main/html/rd/p/000000063.000048083.html",
+     "publisher": "Ubie",
+     "published": "2023-10-16"
+    }
+   },
+   {
+    "metric": "導入医療機関数",
+    "definition": "同上（47都道府県、50床〜1,000床超の病院を含む）",
+    "scope": "製品単体",
+    "value": "1,800以上",
+    "asOf": "未確認（2026-11-14閲覧のページ）",
+    "source": {
+     "url": "https://intro.dr-ubie.com/products/ai-interview",
+     "publisher": "Ubie",
+     "published": ""
+    }
+   }
+  ]
+ },
+ "clinics": {
+  "id": "clinics",
+  "name": "CLINICS（医療機関向けクラウド診療支援システム／患者アプリ melmo）",
+  "checkedAt": "2026-11-14",
+  "problem": {
+   "domain": "外来診療の業務（予約・問診・会計・カルテ）と通院体験・オンライン診療",
+   "who": "医科診療所の医師・スタッフと、通院する患者",
+   "situation": "受付・問診・会計・カルテ記載の事務負担が大きく、患者は院内の待ち時間や通院の手間を負っている。",
+   "sources": [
+    {
+     "url": "https://clinics-cloud.com/",
+     "publisher": "メドレー",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）",
+    "患者・生活者向けアプリ"
+   ],
+   "detail": "医療機関・薬局向けソフト：医科診療所向けのクラウド診療支援システム CLINICS（電子カルテ・レセコン、予約、WEB問診、オンライン診療、経営分析、AI アシスト）。患者・生活者向けアプリ：連携する患者アプリ melmo（予約・問診・チェックイン・決済・処方箋や領収書の受け取り、オンライン診療。2025-11 に患者アプリ「CLINICS」から改称、無料）。",
+   "sources": [
+    {
+     "url": "https://clinics-cloud.com/",
+     "publisher": "メドレー",
+     "published": ""
+    },
+    {
+     "url": "https://ssl4.eir-parts.net/doc/4480/ir_material_for_fiscal_ym/218121/00.pdf",
+     "publisher": "メドレー（2026年12月期第3四半期決算説明資料）",
+     "published": "2026-11-12"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "メドレー"
+   ],
+   "mah": [],
+   "seller": [
+    "メドレー（医療機関へ直接）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医療機関の医師・スタッフ（CLINICS）",
+    "患者（melmo で予約・問診・オンライン診療・決済）"
+   ],
+   "outputUser": [
+    "医療機関の医師・スタッフ（カルテ・問診・予約情報を診療に使う）",
+    "患者（処方箋・領収書・予約情報を受け取る）"
+   ],
+   "subject": [
+    "患者（カルテ・問診・予約のデータに載る。メドレーには払わない）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関（医科診療所）"
+   ],
+   "directPayer": [
+    "医療機関（初期費用と月額のシステム利用料。AI 関連機能は従量課金を開始）"
+   ],
+   "finalBearer": [
+    "医療機関（自院の経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/4480/ir_material_for_fiscal_ym/218121/00.pdf",
+     "publisher": "メドレー（決算説明資料）",
+     "published": "2026-11-12"
+    },
+    {
+     "url": "https://clinics-cloud.com/online/",
+     "publisher": "メドレー",
+     "published": ""
+    },
+    {
+     "url": "https://clinics-cloud.com/",
+     "publisher": "メドレー",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "初期費用・導入費",
+    "月額・年額の利用料",
+    "従量課金（件数・回数・処方数）"
+   ],
+   "detail": "医療プラットフォーム事業は「病院・診療所、調剤薬局、歯科診療所からシステム利用料を受領」し、初期費用と月額費用からなる。2026年は AI 関連機能の課金を始め「サブスクリプション＋トランザクション型」へ転換中。料金の水準は資料請求制で非公開。患者アプリ melmo は無料で、患者からの収入は無い。",
+   "customerRecovery": [
+    "回収しない（顧客の経費）"
+   ],
+   "recoveryDetail": "システム利用料は医療機関の経費で、保険償還の対象ではない。患者が払うのは医療機関の診療費（オンライン診療を含め保険診療・自費診療のどちらでも利用でき、診療費は通常どおり保険と患者負担）で、メドレーへのシステム利用料ではない。",
+   "sources": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/4480/ir_material_for_fiscal_ym/218121/00.pdf",
+     "publisher": "メドレー（2026年12月期第3四半期決算説明資料）",
+     "published": "2026-11-12"
+    },
+    {
+     "url": "https://clinics-cloud.com/plan/",
+     "publisher": "メドレー",
+     "published": ""
+    },
+    {
+     "url": "https://clinics-cloud.com/online/",
+     "publisher": "メドレー",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から医療機関へ直接"
+   ],
+   "detail": "提供会社から医療機関へ直接：メドレーが医療機関に販売（資料請求・デモ・電話窓口）。提供会社から利用者へ直接：患者アプリ melmo は App Store 等で無料配布（販売ではなく配布。使えるのは導入医療機関の受診時）。",
+   "sources": [
+    {
+     "url": "https://clinics-cloud.com/",
+     "publisher": "メドレー",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "電子カルテ・予約・オンライン診療のシステムで、医療機器としての承認・認証の表示は無い（公式に「医療機器ではない」と明言した記載は確認していない）。",
+   "sources": [
+    {
+     "url": "https://clinics-cloud.com/",
+     "publisher": "メドレー",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "保険診療の中で使われる（製品に対応する点数はない）"
+   ],
+   "detail": "システム利用料は保険償還の対象ではない。ただしオンライン診療は保険診療・自費診療のどちらでも利用でき、その診療費は通常どおり保険と患者負担で賄われる（システムの費用とは別）。",
+   "sources": [
+    {
+     "url": "https://clinics-cloud.com/online/",
+     "publisher": "メドレー",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://clinics-cloud.com/",
+     "publisher": "メドレー",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "公式サイトに2026-08-07 の「AI文書アシスト」提供開始を掲載。2026-11-12 の決算資料で事業を継続開示。患者アプリは2025-11 に CLINICS から melmo に改称（製品群の中の名称変更で、事業は継続）。",
+   "sources": [
+    {
+     "url": "https://clinics-cloud.com/",
+     "publisher": "メドレー（2026-08-07 の「AI文書アシスト」提供開始ニュースを掲載）",
+     "published": ""
+    },
+    {
+     "url": "https://ssl4.eir-parts.net/doc/4480/ir_material_for_fiscal_ym/218121/00.pdf",
+     "publisher": "メドレー（決算説明資料）",
+     "published": "2026-11-12"
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "医療プラットフォーム事業全体の利用医療機関数",
+    "definition": "システムの利用を開始し、解約・中断せず利用を続けている医療機関の数（時点・稼働ベース）。CLINICS 以外（病院向け・歯科・薬局向けなど）を含む事業全体の数値",
+    "scope": "事業全体（医療プラットフォーム事業。CLINICS 以外の病院・歯科・薬局向けを含む）",
+    "value": "2.3万件（前期末比4.7%増）",
+    "asOf": "2026-09",
+    "source": {
+     "url": "https://ssl4.eir-parts.net/doc/4480/tdnet/2913129/00.pdf",
+     "publisher": "メドレー（2026年12月期第3四半期決算短信）",
+     "published": "2026-11-12"
+    }
+   },
+   {
+    "metric": "オンライン診療と電子カルテの合計導入数",
+    "definition": "2025年12月末時点の合計数（公式サイトの注記。数値自体は画像で、テキストでは確認できず）",
+    "scope": "製品単体（オンライン診療と電子カルテの合計）",
+    "value": "未確認",
+    "asOf": "2025-12",
+    "source": {
+     "url": "https://clinics-cloud.com/",
+     "publisher": "メドレー",
+     "published": ""
+    }
+   }
+  ]
+ },
+ "b-f827c022": {
+  "id": "b-f827c022",
+  "name": "医療機器承認・認証取得支援「Doctors Cloud MD」",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "医療機器の承認・認証取得（薬事対応）",
+   "who": "治療用アプリやクラウド対応機器で医療機器ビジネスに参入したい企業（スタートアップ・大手）",
+   "situation": "医療機器として上市するには製造販売業・製造業の許認可や三役の配置など専門的な準備が必要で、新規参入企業には多額の費用と長い準備期間がかかる。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000057.000051229.html",
+     "publisher": "ドクターズ",
+     "published": "2023-07-12"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "コンサルティング・開発支援"
+   ],
+   "detail": "クラスⅠ〜Ⅳの医療機器・プログラム医療機器の承認/認証の準備から市場供給までのプロセスを代行する。グループ会社ファーマックメディカル（医療機器製造業登録・製造販売業許可を保有）のライセンスとノウハウを使う。2026-11 時点では、この機能はドクターズの開発支援サービス「Doctors Hub」の支援領域「医療機器認証取得」として掲載されている。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000057.000051229.html",
+     "publisher": "ドクターズ",
+     "published": "2023-07-12"
+    },
+    {
+     "url": "https://doctors-inc.jp/doctors-hub/",
+     "publisher": "ドクターズ",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [],
+   "mah": [],
+   "seller": [
+    "ドクターズ（Doctors Cloud 事業部〔当時〕への直接問い合わせ）"
+   ],
+   "operator": [
+    "ドクターズとグループ会社ファーマックメディカル（医療機器製造業登録・製造販売業許可を持ち、許認可とノウハウを提供）が連携して実施"
+   ],
+   "brandOwner": [],
+   "operatorUser": [],
+   "outputUser": [
+    "支援を受ける企業（承認・認証の取得と市場供給に使う）"
+   ],
+   "subject": [],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機器ビジネスに参入する企業（ヘルステック、製薬、医療機器メーカー、異業種）"
+   ],
+   "directPayer": [
+    "同上の企業"
+   ],
+   "finalBearer": [
+    "同上の企業"
+   ],
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000057.000051229.html",
+     "publisher": "ドクターズ",
+     "published": "2023-07-12"
+    },
+    {
+     "url": "https://doctors-inc.jp/doctors-hub/",
+     "publisher": "ドクターズ",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "受託料"
+   ],
+   "detail": "「シンプルで体系立った費用負担のみで」承認/認証取得を目指せると説明するが、料金体系（固定額か段階報酬か、上市後のロイヤリティの有無など）は公開されていない。",
+   "customerRecovery": [
+    "回収しない（顧客の経費）"
+   ],
+   "recoveryDetail": "支援を受ける企業の事業開発費。支援した製品が上市後に保険適用されるかは製品ごとで、この事業の料金の回収とは別。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000057.000051229.html",
+     "publisher": "ドクターズ",
+     "published": "2023-07-12"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から利用者へ直接"
+   ],
+   "detail": "ドクターズの Doctors Cloud 事業部（当時）への直接問い合わせ。いまは Doctors Hub の問い合わせ窓口。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000057.000051229.html",
+     "publisher": "ドクターズ",
+     "published": "2023-07-12"
+    },
+    {
+     "url": "https://doctors-inc.jp/doctors-hub/",
+     "publisher": "ドクターズ",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "サービス自体は薬事申請の支援で医療機器ではない。支援対象の製品は医療機器（クラスⅠ〜Ⅳ・プログラム医療機器）。PR は「医療機器を市場へ供給するまでに必要なすべてのプロセスをドクターズが代行」とし、製造販売業許可はグループ会社ファーマックメディカルが持つが、支援した製品の製造販売業者（承認・認証の名義）が顧客企業かファーマックメディカルかは公開資料で確認できず。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000057.000051229.html",
+     "publisher": "ドクターズ",
+     "published": "2023-07-12"
+    },
+    {
+     "url": "https://farmax-med.com/",
+     "publisher": "ファーマックメディカル",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "企業向けの受託サービス。",
+   "sources": []
+  },
+  "stage": {
+   "value": "提供状況未確認",
+   "sources": [
+    {
+     "url": "https://doctors-inc.jp/",
+     "publisher": "ドクターズ",
+     "published": ""
+    },
+    {
+     "url": "https://doctors-inc.jp/doctors-hub/",
+     "publisher": "ドクターズ",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "未確認",
+   "detail": "「Doctors Cloud MD」の名称は2026-11 時点の公式サイトのサービス一覧に見当たらない。同じ機能は Doctors Hub（700名超のエキスパート医師と医療DXコンサルタントによる開発支援）の支援領域「医療機器認証取得支援」として掲載（2026-11-15 再確認）。統合・改称の発表は見つけておらず、「名称変更・統合して継続」とは断定しない。",
+   "sources": [
+    {
+     "url": "https://doctors-inc.jp/",
+     "publisher": "ドクターズ",
+     "published": ""
+    },
+    {
+     "url": "https://doctors-inc.jp/doctors-hub/",
+     "publisher": "ドクターズ",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [
+   {
+    "t": "2023-07〜",
+    "what": "「Doctors Cloud MD」として医療機器承認・認証取得の完全代行（ファーマックメディカルの許認可を活用）",
+    "user": "医療機器ビジネスに参入する企業",
+    "pay": "同上の企業",
+    "bear": "同上の企業",
+    "channel": "ドクターズ Doctors Cloud 事業部へ直接"
+   },
+   {
+    "t": "いま",
+    "what": "Doctors Hub の支援領域「医療機器認証取得支援」として掲載（Doctors Cloud MD の名称は見当たらない）",
+    "user": "デジタルヘルス開発をする企業（製薬企業・医療機器メーカーなど）",
+    "pay": "同上の企業（料金非公開）",
+    "bear": "同上の企業",
+    "channel": "ドクターズへ直接"
+   }
+  ],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "支援件数・承認取得実績の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null
+   }
+  ]
+ },
+ "b-0744ee48": {
+  "id": "b-0744ee48",
+  "name": "BAKUNE（リカバリーウェア・寝具、TENTIAL）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "睡眠中の疲労回復（コンディショニング）",
+   "who": "疲労感やコリ、睡眠の質に悩む生活者（アスリートを含む）",
+   "situation": "睡眠をとっても疲れが残り、日常的に身体の疲労感や筋肉のハリ・コリを解消したい。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000076.000032370.html",
+     "publisher": "TENTIAL",
+     "published": "2021-10-11"
+    },
+    {
+     "url": "https://ssl4.eir-parts.net/doc/325A/tdnet/2895657/00.pdf",
+     "publisher": "TENTIAL（2026年8月期通期決算説明資料）",
+     "published": "2026-10-15"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "物販（サプリメント・食品・衣類・寝具など）"
+   ],
+   "detail": "就寝時に着るリカバリーウェア（BAKUNE Sweat / Velour / Dry、ナイトインナーなど。機能繊維 SELFLAME を使い、体から放射される遠赤外線を熱に変えて血行を促進）と、寝具（BAKUNE 掛け布団・敷きパッド・枕）。会社は売上を「リカバリーウェア」「寝具（SLEEP）」「その他」に分けて開示。",
+   "sources": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/325A/tdnet/2895657/00.pdf",
+     "publisher": "TENTIAL（決算説明資料）",
+     "published": "2026-10-15"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000076.000032370.html",
+     "publisher": "TENTIAL",
+     "published": "2021-10-11"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "TENTIAL（ブランド・商品企画。機能繊維 SELFLAME を使用）"
+   ],
+   "mah": [
+    "未確認"
+   ],
+   "seller": [
+    "TENTIAL（自社EC・直営店舗）",
+    "他社EC・卸売先の百貨店など"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "生活者（着用・使用する）",
+    "ホテル宿泊客（ホテルが客室に導入した商品を使う）"
+   ],
+   "outputUser": [],
+   "subject": [],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "生活者（自社EC・直営店・他社ECで購入）",
+    "卸売先の小売店・法人（ホテル等）"
+   ],
+   "directPayer": [
+    "生活者",
+    "卸売先・法人"
+   ],
+   "finalBearer": [
+    "生活者（全額自費）",
+    "ホテル等の法人（客室備品として）"
+   ],
+   "sources": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/325A/tdnet/2895657/00.pdf",
+     "publisher": "TENTIAL（2026年8月期通期決算説明資料）",
+     "published": "2026-10-15"
+    },
+    {
+     "url": "https://corp.tential.jp/news/20260930001/",
+     "publisher": "TENTIAL",
+     "published": "2026-09-30"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "機器・物品の販売代金"
+   ],
+   "detail": "商品の販売代金（例：2021年のリニューアル時は上下セット16,500円、2026-11 時点の BAKUNE Dry 上下セット24,860円）。",
+   "customerRecovery": [
+    "利用者が自分で払う（自費・購入）"
+   ],
+   "recoveryDetail": "自費：生活者が自分で買う（医療機関・保険は関与しない）。回収しない：ホテル等の法人が客室備品として購入（宿泊料に含めて回収しているかは未確認）。卸売先の小売店は再販売で回収する。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000076.000032370.html",
+     "publisher": "TENTIAL",
+     "published": "2021-10-11"
+    },
+    {
+     "url": "https://tential.jp/products/bakune-dry-mens-25ss-long-t-shirt-set",
+     "publisher": "TENTIAL",
+     "published": ""
+    },
+    {
+     "url": "https://ssl4.eir-parts.net/doc/325A/tdnet/2895657/00.pdf",
+     "publisher": "TENTIAL（2026年8月期通期決算説明資料）",
+     "published": "2026-10-15"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "自社EC",
+    "他社EC・小売",
+    "直営店舗",
+    "卸売・代理店"
+   ],
+   "detail": "2026年8月期4Q のチャネル別売上比率は自社チャネル（自社EC・他社EC・直営店舗）87.3%、卸売・その他11.7%。直営店舗は22店舗。卸売先には百貨店・ホテルなど。自社EC と他社EC の内訳は決算資料の「自社チャネル」の中で、個別の比率は今回確認していない。",
+   "sources": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/325A/tdnet/2895657/00.pdf",
+     "publisher": "TENTIAL（2026年8月期通期決算説明資料）",
+     "published": "2026-10-15"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "一部が医療機器"
+   ],
+   "detail": "リカバリーウェア（BAKUNE Dry など）は公式ストアで「一般医療機器」と表示（2021年のリリースでも「一般医療機器を取得した製品」）。一般医療機器は届出制だが、届出番号・一般的名称・届出者（製造販売業者）は商品ページで確認できず（2026-11-15 再確認）。寝具（掛け布団など）の商品ページには一般医療機器の表示を確認できない。",
+   "sources": [
+    {
+     "url": "https://tential.jp/products/bakune-dry-mens-25ss-long-t-shirt-set",
+     "publisher": "TENTIAL",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000076.000032370.html",
+     "publisher": "TENTIAL",
+     "published": "2021-10-11"
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "生活者向けの物販。",
+   "sources": [
+    {
+     "url": "https://tential.jp/products/bakune-dry-mens-25ss-long-t-shirt-set",
+     "publisher": "TENTIAL",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/325A/tdnet/2895657/00.pdf",
+     "publisher": "TENTIAL（決算説明資料）",
+     "published": "2026-10-15"
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "2026-10-15 の通期決算説明資料でリカバリーウェア・寝具の売上を開示。",
+   "sources": [
+    {
+     "url": "https://ssl4.eir-parts.net/doc/325A/tdnet/2895657/00.pdf",
+     "publisher": "TENTIAL（決算説明資料）",
+     "published": "2026-10-15"
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "BAKUNE 累計販売枚数",
+    "definition": "累計（ブランド全体の枚数。対象期間・数え方の注記なし）",
+    "scope": "ブランド全体（BAKUNE）",
+    "value": "500万枚",
+    "asOf": "2026-08",
+    "source": {
+     "url": "https://ssl4.eir-parts.net/doc/325A/tdnet/2895657/00.pdf",
+     "publisher": "TENTIAL（決算説明資料）",
+     "published": "2026-10-15"
+    }
+   },
+   {
+    "metric": "リカバリーウェア四半期売上高",
+    "definition": "2026年8月期4Q の会計期間売上（フロー）",
+    "scope": "事業全体（リカバリーウェア区分。BAKUNE 以外を含むかは資料で未区別）",
+    "value": "8,094百万円（前年同期比+27.2%）",
+    "asOf": "2026-08",
+    "source": {
+     "url": "https://ssl4.eir-parts.net/doc/325A/tdnet/2895657/00.pdf",
+     "publisher": "TENTIAL（決算説明資料）",
+     "published": "2026-10-15"
+    }
+   }
+  ]
+ },
+ "b-ff5cce63": {
+  "id": "b-ff5cce63",
+  "name": "医療機関専用サプリメント（ヘルシーパス）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "栄養療法（医療機関でのサプリメント活用）",
+   "who": "栄養療法を取り入れたい医師・歯科医師と、その患者",
+   "situation": "薬や手術だけでは元気にならない患者が残るが、医療機関が自信を持って勧められる高含有・高品質のサプリメントや、院内で扱う方法・法制度の知識が不足している。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/beginer/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "物販（サプリメント・食品・衣類・寝具など）"
+   ],
+   "detail": "医療機関専用のサプリメント（マルチビタミン＆ミネラルを中心に、女性用・アスリート用（アンチ・ドーピング認証）・歯科インプラント向け・アレルゲンケアなど）。あわせて、医療機関向けの導入支援（メディカル・サービス部の訪問、勉強会・セミナー、ニュースレター、患者向け資料・待合室動画）を無償の販促として提供。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/product/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/company/beginer/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "ヘルシーパス（自社ブランドの企画・開発。製造の委託先は未確認）"
+   ],
+   "mah": [],
+   "seller": [
+    "ヘルシーパス（医療機関・指示や紹介を受けた患者に販売）",
+    "未確認：取扱医療機関が仕入れて患者に販売する流れがあるか"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "患者（摂取する）"
+   ],
+   "outputUser": [],
+   "subject": [],
+   "supplier": [],
+   "recommender": [
+    "医師・歯科医師（患者に指示・紹介する。販売は指示・紹介のある患者に限る）"
+   ],
+   "contractor": [
+    "取扱医療機関",
+    "医師・歯科医師の指示・紹介を受けた患者（定期お届けコースなど）"
+   ],
+   "directPayer": [
+    "未確認"
+   ],
+   "finalBearer": [
+    "患者（自費）"
+   ],
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/qa/2152/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/qa/2612/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/company/divisions/cs/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/company/beginer/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "機器・物品の販売代金"
+   ],
+   "detail": "サプリメントの販売代金。卸価格・医療機関のマージンの仕組みは公開資料で確認できず。医療機関向けの導入支援（訪問、勉強会・セミナー、ニュースレター、患者向け資料・待合室動画）は販促の位置付けで、有償かどうかは未確認。",
+   "customerRecovery": [
+    "利用者が自分で払う（自費・購入）"
+   ],
+   "recoveryDetail": "最終的には患者の自費。医療機関が仕入れて院内で売る場合は医療機関が患者への販売代金で回収すると考えられるが、その流れがあるかは公式に確認できず（同社は「自由診療・サプリメント導入実践マニュアル」を出版）。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/product/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/qa/2152/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/company/profile/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "医療機関が仕入れて患者へ売る",
+    "提供会社から利用者へ直接"
+   ],
+   "detail": "「サプリメントの販売は、医師・歯科医師からのご指示、ご紹介のある患者様に限らせていただいております」。医療機関経由で患者へ：取扱医療機関を通じて患者に届く。提供会社から利用者へ直接：紹介を受けた患者に自社配送センターから発送し、定期お届けコース（1・2・3か月毎）がある（2026-11-15 再確認）。ドラッグストアの EC 通販登録は不可、取扱医療機関の紹介もしない。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/beginer/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/qa/2152/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/qa/2612/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/qa/2610/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/company/divisions/cs/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "サプリメント（食品）。医薬品・医療機器ではない。機能性表示食品等の届出の有無は今回確認していない。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/product/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "患者の自費。同社は「自由診療・サプリメント導入実践マニュアル」を出版しており、自由診療の文脈で扱われる。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/profile/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/profile/",
+     "publisher": "ヘルシーパス（沿革：2006-11 マルチビタミン＆ミネラル等を発売、2025-06 新製品発売）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "商品ページ掲載継続、2025-06 に新製品発売（沿革）。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/product/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    },
+    {
+     "url": "https://www.healthy-pass.co.jp/company/profile/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "取扱医療機関数・販売数の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null
+   }
+  ]
+ },
+ "b-12f0b4da": {
+  "id": "b-12f0b4da",
+  "name": "医療機関向けプライベートブランドサプリメント（ヘルシーパス）",
+  "checkedAt": "2026-11-14",
+  "problem": {
+   "domain": "医療機関で使うサプリメント（栄養療法）",
+   "who": "自院の方針に合うサプリメントを患者に勧めたい医師・医療機関",
+   "situation": "既製品ではなく、医師自身の考えを反映したオリジナルのサプリメントを自院ブランドで持ちたい。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/divisions/development/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "受託製造（OEM・PB）"
+   ],
+   "detail": "医療機関向けサプリメント開発の経験をもとに、医師の想いを込めたサプリメントのオリジナル設計を手伝う（公式の記載は企画・開発部のページの1段落のみ）。製造はGMP認定工場で行うと同社は説明しているが、PB品の製造を自社で行うか外部委託かは未確認。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/divisions/development/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "ヘルシーパス（設計を支援）",
+    "医療機関の医師（設計に意見を出す）"
+   ],
+   "mah": [],
+   "seller": [
+    "未確認"
+   ],
+   "operator": [],
+   "brandOwner": [
+    "医療機関（自院ブランド）"
+   ],
+   "operatorUser": [
+    "患者（摂取する）"
+   ],
+   "outputUser": [],
+   "subject": [],
+   "supplier": [],
+   "recommender": [
+    "医師（自院ブランド品を患者に勧める）"
+   ],
+   "contractor": [
+    "医療機関（医師）"
+   ],
+   "directPayer": [
+    "未確認"
+   ],
+   "finalBearer": [
+    "未確認"
+   ],
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/divisions/development/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "PBの料金体系（設計料・製造ロット代金など）は公式サイトに記載がない。",
+   "customerRecovery": [
+    "未確認"
+   ],
+   "recoveryDetail": "医療機関がPB品を患者に売って回収するかどうか、患者の自費になるかは公式に記載がない。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/divisions/development/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "ヘルシーパスと医療機関の契約の形（直接か）も明記はない。PB品が患者にどう渡るか（医療機関の院内販売か、ヘルシーパスからの発送か）は未確認。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/divisions/development/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "サプリメント（食品）。機能性表示食品などの届出の有無はPB品ごとに未確認。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/product/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "食品のため保険診療の対象外。",
+   "sources": []
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/divisions/development/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "2026-11-14時点で公式サイトに掲載あり。受託実績の発表は確認できない。",
+   "sources": [
+    {
+     "url": "https://www.healthy-pass.co.jp/company/divisions/development/",
+     "publisher": "ヘルシーパス",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "PBの受託件数・取引医療機関数の公表なし",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null
+   }
+  ]
+ },
+ "b-8c2b2513": {
+  "id": "b-8c2b2513",
+  "name": "メンタルヘルス・健康経営支援サービス「MiMoRy WoRKS（ミモリーワークス）」",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "職場のメンタルヘルス・ワークエンゲージメント（健康経営）",
+   "who": "企業の人事・健康経営担当者、従業員",
+   "situation": "1on1やストレスチェックをしても突然の離職やメンタル不調が減らず、従業員の状態を客観的に把握できない。",
+   "sources": [
+    {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "企業が従業員に提供する健康サービス",
+    "企業・保険者向けソフト"
+   ],
+   "detail": "企業が従業員に提供する健康サービス：リストバンド型活動量計 MiMoRy を1週間装着し、従業員用アプリ「じくら」で心の健康度（PHQ-9 推定値）と仕事への充実度（UWES 推定値）をスコア化、セルフケア助言と相談先（上司・産業医・カウンセラー等）を示す。企業・保険者向けソフト：企業管理者向け WEB アプリで組織レポート（「開発中」）。慶應義塾大学医学部との共同研究の技術を応用。",
+   "sources": [
+    {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "FrontAct（慶應義塾大学医学部 岸本泰士郎教授・田澤雄基先生らとの共同研究の技術を応用）"
+   ],
+   "mah": [],
+   "seller": [
+    "FrontAct（問い合わせ・資料請求）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "従業員（リストバンドを装着し、アプリ「じくら」を使う）",
+    "企業管理者（組織レポートの WEB アプリ。開発中）"
+   ],
+   "outputUser": [
+    "従業員（自分のスコア・セルフケア助言）",
+    "企業管理者（組織レポート）"
+   ],
+   "subject": [
+    "従業員（活動データとスコアの対象）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "導入企業",
+    "研究用途の利用者（β版で同時募集）"
+   ],
+   "directPayer": [
+    "未確認"
+   ],
+   "finalBearer": [
+    "未確認"
+   ],
+   "sources": [
+    {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "料金は公開されていない（資料請求・問い合わせ制）。機器の販売か貸与か、月額か1回単位かも不明。",
+   "customerRecovery": [
+    "未確認"
+   ],
+   "recoveryDetail": "料金・負担者の記載は無い（雇用主の福利厚生・健康経営の費用になるかは未確認）。",
+   "sources": [
+    {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "雇用主経由"
+   ],
+   "detail": "FrontAct が導入企業を募集し、従業員へは企業を通じて届く（代理店の有無は未確認）。",
+   "sources": [
+    {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "製品ページに『本サービスは医療機器ではなく、医療行為・診断・治療・予防を目的としたものではありません』『本製品（MiMoRy）は医療機器ではありません』と明記。基になった共同研究はうつ病評価プログラム（医療機器）の開発で、AMED採択・優先審査品目指定と記載。",
+   "sources": [
+    {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "企業向けの非医療サービス。",
+   "sources": [
+    {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "β版・限定提供（実証・一部の施設・企業）",
+   "sources": [
+    {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "開発継続",
+   "detail": "製品ページ（2026-11-15 再確認）に「2026年11月 β版リリース／導入企業＆研究利用を同時募集」「β版では一部アプリ、機能がご利用いただけません」、企業管理者用 WEB アプリは「開発中」。運営会社 FrontAct は2025-06-30 にサワイグループホールディングスの完全子会社になった（旧親会社は住友ファーマ）。",
+   "sources": [
+    {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    },
+    {
+     "url": "https://frontact-gl.com/pdf/NR20250630JA.pdf",
+     "publisher": "FrontAct",
+     "published": "2025-06-30"
+    },
+    {
+     "url": "https://frontact-gl.com/ja/news/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "企業管理者用 WEB アプリ（組織レポート）は開発中で、β版では一部アプリ・機能が使えない。正式版の時期・料金は未公表。",
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "導入企業数の公表なし（β版募集段階）",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "2026-11",
+    "source": {
+     "url": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+     "publisher": "FrontAct",
+     "published": ""
+    }
+   }
+  ]
+ },
+ "b-b1300e5a": {
+  "id": "b-b1300e5a",
+  "name": "管理栄養士による特定保健指導サービス（フィッツプラス）",
+  "checkedAt": "2026-11-14",
+  "problem": {
+   "domain": "特定保健指導（メタボリックシンドローム・生活習慣病の予防）",
+   "who": "特定保健指導の対象となった40〜74歳の被保険者・被扶養者／実施義務を負う健康保険組合の担当者",
+   "situation": "健診で対象となった人の生活習慣（主に食生活）を3〜6か月かけて改善させる必要があり、健保は実施率向上と事務負担の軽減に困っている。",
+   "sources": [
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/participant",
+     "publisher": "フィッツプラス",
+     "published": ""
+    },
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/kenpo",
+     "publisher": "フィッツプラス",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "受託サービス（専門職による実施）",
+    "企業・保険者向けソフト"
+   ],
+   "detail": "受託サービス：健保から特定保健指導を受託し、直接契約の管理栄養士が初回面談で目標を設定、3か月または6か月継続支援（アプリ・メール・郵送のアンケートに助言）。企業・保険者向けソフト：健保担当者向けの予約・進捗管理クラウド Tonoel／Tonoel Manager（特定保健指導を契約した健保に限る付随システム。システムを使わない委託も可）。",
+   "sources": [
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/participant",
+     "publisher": "フィッツプラス",
+     "published": ""
+    },
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/kenpo",
+     "publisher": "フィッツプラス",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000437.000010134.html",
+     "publisher": "メドピア",
+     "published": "2022-12-21"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "フィッツプラス（Tonoel。2022-12 本格運用開始時はメドピアグループ）"
+   ],
+   "mah": [],
+   "seller": [
+    "フィッツプラス（健保と直接契約）"
+   ],
+   "operator": [
+    "フィッツプラス（いまはアドバンテッジリスクマネジメントの100%子会社。2024-09-30 までの運営法人はメドピアの子会社で、事業は吸収分割で承継。periods 参照）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "特定保健指導の対象者（アプリ・メール・郵送で回答）",
+    "健保担当者（Tonoel Manager で予約・進捗管理）"
+   ],
+   "outputUser": [
+    "対象者（管理栄養士の助言）",
+    "健保担当者（実施状況の把握）"
+   ],
+   "subject": [
+    "特定保健指導の対象となった40〜74歳の被保険者・被扶養者（任意参加、自己負担の記載なし）"
+   ],
+   "supplier": [
+    "管理栄養士（フィッツプラスと直接契約し指導を担う）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "健康保険組合（保険者）"
+   ],
+   "directPayer": [
+    "健康保険組合（委託料）"
+   ],
+   "finalBearer": [
+    "健康保険組合（加入者・事業主の保険料が財源）"
+   ],
+   "sources": [
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/kenpo",
+     "publisher": "フィッツプラス",
+     "published": ""
+    },
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/participant",
+     "publisher": "フィッツプラス",
+     "published": ""
+    },
+    {
+     "url": "https://fitsplus.co.jp/profile",
+     "publisher": "フィッツプラス",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "受託料"
+   ],
+   "detail": "健保からの特定保健指導の委託料。単価・成果連動の有無は非公開。Tonoel Managerは『特定保健指導のご契約をされた健康保健組合様に限ります』とあり、委託に付随するシステム。",
+   "customerRecovery": [
+    "保険者の保健事業（保険料が財源）"
+   ],
+   "recoveryDetail": "特定保健指導は高齢者医療確保法に基づき保険者が実施義務を負う保健事業で、健保は委託料を保険料財源の事業費として負担する（診療報酬ではない）。対象者の自己負担の有無は公式ページに記載なし。",
+   "sources": [
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/kenpo",
+     "publisher": "フィッツプラス",
+     "published": ""
+    },
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/participant",
+     "publisher": "フィッツプラス",
+     "published": ""
+    },
+    {
+     "url": "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
+     "publisher": "アドバンテッジリスクマネジメント（TDnet開示の転載）",
+     "published": "2024-08-02"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "保険者・自治体経由"
+   ],
+   "detail": "健保と直接契約し、対象者へは健保の案内（メール・郵送・電話）を通じて届く。",
+   "sources": [
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/participant",
+     "publisher": "フィッツプラス",
+     "published": ""
+    },
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/kenpo",
+     "publisher": "フィッツプラス",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "保健指導（受託サービス）。特定保健指導機関コード1320800632、代行機関番号91399212を公式に掲示。",
+   "sources": [
+    {
+     "url": "https://fitsplus.co.jp/profile",
+     "publisher": "フィッツプラス",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "保険者の保健事業の財源から"
+   ],
+   "detail": "診療報酬ではなく、高齢者医療確保法に基づき保険者が行う特定保健指導の委託費として保険者が負担。",
+   "sources": [
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/participant",
+     "publisher": "フィッツプラス",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://fitsplus.co.jp/services/specific_health_guidance/kenpo",
+     "publisher": "フィッツプラス",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "運営会社が変わって継続",
+   "detail": "メドピアの子会社フィッツプラスの全事業を、ARMが新設した子会社（アドバンテッジヘルスケア、2024-08-22にフィッツプラスへ商号変更）が吸収分割で承継（効力発生2024-09-30予定）。現在の公式サイトはARM100%子会社として特定保健指導を掲載し、2026-10にもお知らせを更新。",
+   "sources": [
+    {
+     "url": "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
+     "publisher": "アドバンテッジリスクマネジメント（TDnet開示の転載）",
+     "published": "2024-08-02"
+    },
+    {
+     "url": "https://fitsplus.co.jp/profile",
+     "publisher": "フィッツプラス",
+     "published": ""
+    },
+    {
+     "url": "https://fitsplus.co.jp/",
+     "publisher": "フィッツプラス",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [
+   {
+    "t": "〜2024-09-30",
+    "what": "管理栄養士による特定保健指導の受託（2022-12 から Tonoel 本格運用）",
+    "user": "対象者・健保担当者",
+    "pay": "健康保険組合（委託料）",
+    "bear": "健康保険組合（保険料財源）",
+    "channel": "保険者経由。運営は旧フィッツプラス（メドピアの子会社）"
+   },
+   {
+    "t": "いま",
+    "what": "（2024-09-30〜）同じサービスを継続",
+    "user": "対象者・健保担当者",
+    "pay": "健康保険組合（委託料）",
+    "bear": "健康保険組合（保険料財源）",
+    "channel": "保険者経由。運営はアドバンテッジリスクマネジメントが新設し商号を継いだフィッツプラス（ARM 100%子会社）"
+   }
+  ],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "分割会社の売上高（参考）",
+    "definition": "旧フィッツプラス（特定保健指導・食生活コーディネート・メディア事業の合計）の2023年9月期売上高。特定保健指導単体の値ではない",
+    "scope": "会社全体（分割会社の売上。食生活コーディネート・メディア事業を含む）",
+    "value": "1,031百万円",
+    "asOf": "2023-09",
+    "source": {
+     "url": "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
+     "publisher": "アドバンテッジリスクマネジメント（TDnet開示の転載）",
+     "published": "2024-08-02"
+    }
+   },
+   {
+    "metric": "Tonoel導入健保",
+    "definition": "2022年12月の本格運用開始時点で導入が決まった健保（横河電機健保『を始め複数』）。数は非公表",
+    "scope": "製品単体（Tonoel）",
+    "value": "複数（件数非公表）",
+    "asOf": "2022-12",
+    "source": {
+     "url": "https://prtimes.jp/main/html/rd/p/000000437.000010134.html",
+     "publisher": "メドピア",
+     "published": "2022-12-21"
+    }
+   }
+  ]
+ },
+ "b-0fb08b44": {
+  "id": "b-0fb08b44",
+  "name": "first call",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "医師への健康・医療相談 → 企業の産業保健（産業医選任・ストレスチェック・健康管理）",
+   "who": "当初：受診前に医師に相談したい個人／現在：従業員の健康管理を担う企業の人事・産業保健担当者と従業員",
+   "situation": "当初は通院せずに医師へ相談したい個人向けだったが、現在は50人以上の事業所の法定産業保健業務やテレワーク下の健康管理を、オンラインでまとめて行いたい企業向け。",
+   "sources": [
+    {
+     "url": "https://thebridge.jp/2016/06/first-call",
+     "publisher": "BRIDGE（報道）",
+     "published": "2016-06"
+    },
+    {
+     "url": "https://www.firstcall.md/",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "企業が従業員に提供する健康サービス",
+    "企業・保険者向けソフト",
+    "オンライン相談"
+   ],
+   "detail": "いま：クラウド型健康管理サービスとして、嘱託産業医の選任・オンライン産業医面談、ストレスチェック（企業が従業員に提供する健康サービス）、健診結果・面談記録の管理（企業・保険者向けソフト）、従業員が24時間スマホで医師に相談できる窓口（オンライン相談）を企業に提供。過去の姿（個人向け都度払い、ドコモ会員特典）は periods。",
+   "sources": [
+    {
+     "url": "https://www.firstcall.md/",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    },
+    {
+     "url": "https://thebridge.jp/2016/06/first-call",
+     "publisher": "BRIDGE（報道）",
+     "published": "2016-06"
+    },
+    {
+     "url": "https://k-tai.watch.impress.co.jp/docs/news/1121741.html",
+     "publisher": "ケータイWatch（報道）",
+     "published": "2018-05"
+    },
+    {
+     "url": "https://www.docomo.ne.jp/info/news_release/2020/08/04_02.html",
+     "publisher": "NTTドコモ",
+     "published": "2020-08-04"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "Mediplat（いまは ARM 子会社の新 Mediplat）"
+   ],
+   "mah": [],
+   "seller": [
+    "Mediplat（企業と直接契約）"
+   ],
+   "operator": [
+    "Mediplat（ARM 100%子会社。2024-09-30 の吸収分割で旧 Mediplat〔メドピア子会社〕から承継。periods 参照）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "従業員（医師相談・ストレスチェック）",
+    "人事・産業保健担当者（健康管理業務）",
+    "産業医（オンライン面談）"
+   ],
+   "outputUser": [
+    "従業員（医師の回答）",
+    "人事・産業保健担当者・産業医（健診結果・面談記録・ストレスチェック結果）"
+   ],
+   "subject": [
+    "従業員（健診結果・面談記録などのデータ）"
+   ],
+   "supplier": [
+    "相談に回答する医師・嘱託産業医（医師免許の提示を義務付けて登録。運営方針のお知らせ）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "企業（事業者）"
+   ],
+   "directPayer": [
+    "企業（料金非公開）"
+   ],
+   "finalBearer": [
+    "雇用主（企業）"
+   ],
+   "sources": [
+    {
+     "url": "https://www.firstcall.md/",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    },
+    {
+     "url": "https://www.firstcall.md/Home/About",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    },
+    {
+     "url": "https://www.firstcall.md/Home/SubscriptionNotice",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "いまの企業向けの料金体系は公表がなく未確認。当初（2016年）は相談1回ごとの料金（15分1,980円、モニター期間500円）で、ドコモ経由（2018〜2021）の対価の形は非公開（periods 参照）。特商法表示にはクレジットカード払いの個人向け購入の記載が残る。",
+   "customerRecovery": [
+    "未確認"
+   ],
+   "recoveryDetail": "企業が払う費用だが、料金と、それが法定業務（産業医選任・ストレスチェック）の経費か福利厚生かの区別の記載は無い。",
+   "sources": [
+    {
+     "url": "https://www.firstcall.md/",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    },
+    {
+     "url": "https://www.firstcall.md/Home/About",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    },
+    {
+     "url": "https://thebridge.jp/2016/06/first-call",
+     "publisher": "BRIDGE（報道）",
+     "published": "2016-06"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "雇用主経由"
+   ],
+   "detail": "いまは企業と契約し、従業員へは企業を通じて提供。過去の個人への直販とドコモの会員特典は periods。",
+   "sources": [
+    {
+     "url": "https://www.firstcall.md/",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "医師による健康相談（診療ではない）。",
+   "sources": [
+    {
+     "url": "https://thebridge.jp/2016/06/first-call",
+     "publisher": "BRIDGE（報道）",
+     "published": "2016-06"
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "遠隔『診療』ではなく『相談』として運用（2016年報道）。",
+   "sources": [
+    {
+     "url": "https://thebridge.jp/2016/06/first-call",
+     "publisher": "BRIDGE（報道）",
+     "published": "2016-06"
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://www.firstcall.md/",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "運営会社が変わって継続",
+   "detail": "メドピア子会社Mediplatの全事業を、ARMが新設したアドバンテッジメディカル（2024-08-22にMediplatへ商号変更予定）が吸収分割で承継（効力発生2024-09-30予定、対価1,350百万円）。現在の公式サイトの運営会社表示は株式会社Mediplat（ARM100%）、産業保健支援サービスとして掲載。",
+   "sources": [
+    {
+     "url": "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
+     "publisher": "アドバンテッジリスクマネジメント（TDnet開示の転載）",
+     "published": "2024-08-02"
+    },
+    {
+     "url": "https://www.firstcall.md/Home/About",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    },
+    {
+     "url": "https://www.firstcall.md/",
+     "publisher": "Mediplat（ARM子会社）",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [
+   {
+    "t": "2016-02〜",
+    "what": "個人向けの遠隔医療相談（α版は2016-02末に花粉症から開始、のち相談全般。PC のテレビ電話で1回15分1,980円）",
+    "user": "個人（相談者）",
+    "pay": "個人（クレジットカード）",
+    "bear": "個人",
+    "channel": "提供会社から利用者へ直接。運営はメディプラット（2016-06 にメドピアの完全子会社）"
+   },
+   {
+    "t": "2018-05〜2021-04",
+    "what": "ドコモ「dヘルスケア」有料会員の特典として医師へのチャット・テレビ電話相談（2021-04 にテレビ電話相談は終了、チャット相談は300円プランで継続とドコモ発表）",
+    "user": "dヘルスケア有料会員",
+    "pay": "未確認（会員はドコモに月額500円。ドコモから Mediplat への対価の形は非公開）",
+    "bear": "dヘルスケア有料会員（個人）",
+    "channel": "提携先が販売（通信会社）"
+   },
+   {
+    "t": "時期未確認〜2024-09-30",
+    "what": "企業向けクラウド型健康管理サービス（産業保健）",
+    "user": "従業員・人事担当・産業医",
+    "pay": "企業",
+    "bear": "雇用主",
+    "channel": "雇用主経由。運営は旧 Mediplat（メドピア子会社）"
+   },
+   {
+    "t": "いま",
+    "what": "（2024-09-30〜）同上",
+    "user": "従業員・人事担当・産業医",
+    "pay": "企業（料金非公開）",
+    "bear": "雇用主",
+    "channel": "雇用主経由。運営は ARM が新設し商号を継いだ Mediplat"
+   }
+  ],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "分割会社の売上高（参考）",
+    "definition": "旧Mediplat（first call運営）の2023年9月期売上高。利用企業数・利用者数ではない",
+    "scope": "会社全体（旧 Mediplat の売上）",
+    "value": "1,216百万円",
+    "asOf": "2023-09",
+    "source": {
+     "url": "http://ke.kabupro.jp/tsp/20240802/140120240725554500.pdf",
+     "publisher": "アドバンテッジリスクマネジメント（TDnet開示の転載）",
+     "published": "2024-08-02"
+    }
+   },
+   {
+    "metric": "相談対応医師数（初期）",
+    "definition": "2016年6月時点で相談に答えていた医師数（報道）",
+    "scope": "製品単体（初期の個人向け）",
+    "value": "8人",
+    "asOf": "2016-06",
+    "source": {
+     "url": "https://thebridge.jp/2016/06/first-call",
+     "publisher": "BRIDGE（報道）",
+     "published": "2016-06"
+    }
+   }
+  ]
+ },
+ "b-1bd66872": {
+  "id": "b-1bd66872",
+  "name": "MDB（メディカルデータベース）（日本アルトマーク）",
+  "checkedAt": "2026-11-14",
+  "problem": {
+   "domain": "医療機関・医療従事者の基本情報（マスターデータ）の管理",
+   "who": "製薬企業・医療機器・卸など医療・福祉・保健分野の企業",
+   "situation": "営業活動計画、顧客情報システム、販売実績管理のために、全国の医療機関と医師・歯科医師・薬剤師等の正確で最新の情報と共通コードが必要。",
+   "sources": [
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    },
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/masterfile/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "情報・データベース"
+   ],
+   "detail": "DCF（医療施設・医師等）、DSF（薬局等）、PCF（病院内薬剤師等）、DNF（歯科）、ECF（その他施設）の5種のマスターファイル。施設・個人の『コード』は会員企業の共通コードとして使われる。会員とアルトマークが共同で更新する『共同メンテナンス』。オプションファイル（JDMX・KGF・MDB-FAX）、派生サービスMDBα（診療実績等、年間契約・スポット型）あり。",
+   "sources": [
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    },
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/masterfile/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    },
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/membership/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    },
+    {
+     "url": "https://www.ultmarc.co.jp/solution/corporate_services/mdb/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "日本アルトマーク"
+   ],
+   "mah": [],
+   "seller": [
+    "日本アルトマーク（会員と直接契約）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "会員企業の営業・マーケティング・システム部門（マスターファイルを自社システムに取り込む）"
+   ],
+   "outputUser": [
+    "会員企業（営業活動計画・顧客情報システム・販売実績管理）"
+   ],
+   "subject": [
+    "医療機関・薬局等の施設",
+    "医師・歯科医師・薬剤師等（氏名等の個人情報を収録。個人情報保護法の共同利用で取り扱い）"
+   ],
+   "supplier": [
+    "会員企業（「共同メンテナンス」で更新情報を提供する）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "会員企業（医療・福祉・保健分野に限定、250社以上）"
+   ],
+   "directPayer": [
+    "会員企業（料金体系は非公開）"
+   ],
+   "finalBearer": [
+    "会員企業"
+   ],
+   "sources": [
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    },
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/membership/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    },
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/masterfile/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "ライセンス料・データ販売",
+    "従量課金（件数・回数・処方数）"
+   ],
+   "detail": "ライセンス料・データ販売：会員制のデータ提供（MDB 本体の会費・年額かどうかは非公開で未確認）。従量課金：派生サービス MDBα のスポット型（基本料金30,000円＋抽出施設数×120円）。MDBα には年間契約型もある。",
+   "customerRecovery": [
+    "回収しない（顧客の経費）"
+   ],
+   "recoveryDetail": "会員企業の営業・システム部門の経費。",
+   "sources": [
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/membership/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    },
+    {
+     "url": "https://www.ultmarc.co.jp/solution/corporate_services/mdb/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から利用者へ直接"
+   ],
+   "detail": "会員企業と直接契約（会員制）。代理店の有無は未確認。",
+   "sources": [
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/membership/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "データベース。第三者機関としてMDB倫理委員会（医師・歯科医師・薬剤師・弁護士等3名以上）を設置。",
+   "sources": [
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/committee/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "企業向けのデータベース。",
+   "sources": []
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "公式サイトに会員250社以上として掲載（2026-11-14閲覧）。",
+   "sources": [
+    {
+     "url": "https://www.ultmarc.co.jp/mdb/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "会員企業数",
+    "definition": "MDBを利用する会員企業等の数（時点・『以上』表記、契約数）",
+    "scope": "製品単体",
+    "value": "250社以上",
+    "asOf": "未確認（公式サイトに日付なし、2026-11閲覧）",
+    "source": {
+     "url": "https://www.ultmarc.co.jp/mdb/",
+     "publisher": "日本アルトマーク",
+     "published": ""
+    }
+   }
+  ]
+ },
+ "b-f62ed081": {
+  "id": "b-f62ed081",
+  "name": "医療・介護・福祉の求人サイト「GUPPY（グッピー）」",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "医療機関・介護施設の採用（歯科・医療・介護・福祉の57職種）",
+   "who": "求職者（歯科衛生士・看護師など有資格者）と採用したい医院・病院・薬局・介護施設",
+   "situation": "医療・介護職の採用で、成功報酬型の人材紹介は高く、求職者は電話の催促なく自分のペースで求人を比べたい。",
+   "sources": [
+    {
+     "url": "https://www.guppy.jp/service/",
+     "publisher": "メドレー（グッピー求人）",
+     "published": ""
+    },
+    {
+     "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf",
+     "publisher": "グッピーズ（有価証券報告書 第22期）",
+     "published": "2022-11-28"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "求人広告・求人サイト"
+   ],
+   "detail": "求人サイト（中途向け「GUPPY求人」、新卒向け「GUPPY新卒」）。求人者はポイントを前払いして掲載し、求人詳細が閲覧されるたびにポイントを消費する。登録求職者へのスカウト送信（1通1,000ポイント）、スポット求人も可能。運営会社メドレーは有料職業紹介事業の許可（13-ユ-304334）も表示しているが、GUPPY は「採用時の成功報酬は発生しません」とする掲載型で、サイト自体は「優良募集情報等提供事業者」として表示（2026-11-15 再確認）。",
+   "sources": [
+    {
+     "url": "https://www.guppy.jp/service/",
+     "publisher": "メドレー（グッピー求人）",
+     "published": ""
+    },
+    {
+     "url": "https://www.guppy.jp/about",
+     "publisher": "メドレー（グッピー求人）",
+     "published": ""
+    },
+    {
+     "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf",
+     "publisher": "グッピーズ（有価証券報告書 第22期）",
+     "published": "2022-11-28"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "メドレー（2025-04 の合併まではグッピーズ）"
+   ],
+   "mah": [],
+   "seller": [
+    "メドレー（求人者が Web で申込・ポイント購入）"
+   ],
+   "operator": [
+    "メドレー（2025-04-01 にグッピーズを合併。periods 参照）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "求職者（会員登録・検索・応募）",
+    "求人者の採用担当（掲載・スカウト送信）"
+   ],
+   "outputUser": [
+    "求職者（求人情報・スカウト）",
+    "求人者（応募）"
+   ],
+   "subject": [
+    "求職者（登録情報がスカウト対象のデータになる。無料）"
+   ],
+   "supplier": [
+    "求人者（医療機関・介護施設等。求人を出す側）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "求人者（医療機関・介護施設等）"
+   ],
+   "directPayer": [
+    "求人者（ポイント購入）"
+   ],
+   "finalBearer": [
+    "求人者（医療機関等の採用費）"
+   ],
+   "sources": [
+    {
+     "url": "https://www.guppy.jp/service/",
+     "publisher": "メドレー（グッピー求人）",
+     "published": ""
+    },
+    {
+     "url": "https://www.guppy.jp/about",
+     "publisher": "メドレー（グッピー求人）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "閲覧課金・クリック課金"
+   ],
+   "detail": "いま：求人詳細が閲覧されるたびにプリペイドのポイントを消費（1閲覧120円、1万円から掲載可能、スカウトは1通1,000ポイント）。「採用時の成功報酬は発生しません」と明記（2026-11-15 再確認）。上場時（2022年8月期）は採用課金（成功報酬）も併用し、閲覧課金売上は全体の65.1%、GUPPY新卒は採用年度ごとの期間掲載型固定料金だった（periods 参照。新卒のいまの料金は確認していない）。",
+   "customerRecovery": [
+    "回収しない（顧客の経費）"
+   ],
+   "recoveryDetail": "求人者の採用費。",
+   "sources": [
+    {
+     "url": "https://www.guppy.jp/service/",
+     "publisher": "メドレー（グッピー求人）",
+     "published": ""
+    },
+    {
+     "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf",
+     "publisher": "グッピーズ（有価証券報告書 第22期）",
+     "published": "2022-11-28"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から利用者へ直接"
+   ],
+   "detail": "求人者が Web で申込・ポイント購入し、提供会社と直接取引する。",
+   "sources": [
+    {
+     "url": "https://www.guppy.jp/service/",
+     "publisher": "メドレー（グッピー求人）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "求人サイト。",
+   "sources": []
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "",
+   "sources": []
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://www.guppy.jp/service/",
+     "publisher": "メドレー（グッピー求人）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "運営会社が変わって継続",
+   "detail": "グッピーズは2025-04-01にメドレーへ合併し解散（法人番号公表サイト）。求人サイトの運営会社表示は株式会社メドレー。",
+   "sources": [
+    {
+     "url": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101043683",
+     "publisher": "国税庁 法人番号公表サイト",
+     "published": "2025-05-21"
+    },
+    {
+     "url": "https://www.guppy.jp/about",
+     "publisher": "メドレー（グッピー求人）",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [
+   {
+    "t": "〜2025-03",
+    "what": "GUPPY求人・GUPPY新卒（求人サイト）",
+    "user": "求職者・求人者",
+    "pay": "求人者（2022年8月期時点：閲覧課金が売上の65.1%、採用課金〔成功報酬〕を併用、新卒は期間掲載型固定料金）",
+    "bear": "求人者",
+    "channel": "提供会社から利用者へ直接。運営はグッピーズ"
+   },
+   {
+    "t": "いま",
+    "what": "（2025-04-01〜）同上",
+    "user": "求職者・求人者",
+    "pay": "求人者（閲覧課金のみ、成功報酬なしと明記）",
+    "bear": "求人者",
+    "channel": "提供会社から利用者へ直接。運営はメドレー"
+   }
+  ],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "GUPPY求人の会員数",
+    "definition": "求職者の登録会員数（2022年8月期、累計か有効会員かの定義は記載なし）",
+    "scope": "製品単体",
+    "value": "約51万人",
+    "asOf": "2022-08",
+    "source": {
+     "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf",
+     "publisher": "グッピーズ（有価証券報告書 第22期）",
+     "published": "2022-11-28"
+    }
+   },
+   {
+    "metric": "登録歯科診療所数",
+    "definition": "求人者として登録している歯科診療所の数（全国67,764施設の約29%）",
+    "scope": "製品単体",
+    "value": "19,601診療所",
+    "asOf": "2022-08",
+    "source": {
+     "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf",
+     "publisher": "グッピーズ（有価証券報告書 第22期）",
+     "published": "2022-11-28"
+    }
+   },
+   {
+    "metric": "歯科3職種のユニークユーザー数",
+    "definition": "1年間にGUPPY求人を訪れた歯科医師・歯科衛生士・歯科技工士のユーザー数",
+    "scope": "製品単体",
+    "value": "約297.8万人",
+    "asOf": "2022-08",
+    "source": {
+     "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf",
+     "publisher": "グッピーズ（有価証券報告書 第22期）",
+     "published": "2022-11-28"
+    }
+   },
+   {
+    "metric": "GUPPY新卒の会員数",
+    "definition": "2022年卒の会員数",
+    "scope": "製品単体",
+    "value": "35,840人",
+    "asOf": "2022",
+    "source": {
+     "url": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100PPJ3.pdf",
+     "publisher": "グッピーズ（有価証券報告書 第22期）",
+     "published": "2022-11-28"
+    }
+   }
+  ]
+ },
+ "b-5d8db20e": {
+  "id": "b-5d8db20e",
+  "name": "Pharm-i／Pharm-i+（保険薬局向けレセコン・一体型電子薬歴）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "保険薬局の調剤報酬請求（レセプト）と薬歴管理",
+   "who": "保険薬局の薬剤師・事務担当者・経営者",
+   "situation": "処方箋受付から会計、調剤報酬の請求、薬歴記録までを効率よく正確に行う必要がある。",
+   "sources": [
+    {
+     "url": "https://www.hanshin.co.jp/press/docs/20250716_itec_mitsubishi_teikei.pdf",
+     "publisher": "アイテック阪急阪神・三菱電機デジタルイノベーション（阪神電気鉄道サイト掲載）",
+     "published": "2025-07-17"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "保険薬局向けレセコン『Pharm-i』と、レセコン一体型電子薬歴『Pharm-i+』（アイテック阪急阪神が開発・販売）。クラウド型か院内設置型かは一次資料で未確認。",
+   "sources": [
+    {
+     "url": "https://www.hanshin.co.jp/press/docs/20250716_itec_mitsubishi_teikei.pdf",
+     "publisher": "アイテック阪急阪神・三菱電機デジタルイノベーション（阪神電気鉄道サイト掲載）",
+     "published": "2025-07-17"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "アイテック阪急阪神（自社開発。2025-09 で終了）"
+   ],
+   "mah": [],
+   "seller": [
+    "アイテック阪急阪神（自社販売。2025-09 で終了）"
+   ],
+   "operator": [
+    "アイテック阪急阪神（販売済み製品のサポート〔コンタクトセンター業務を含む〕を2030-05まで継続予定）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "保険薬局の薬剤師・事務職員"
+   ],
+   "outputUser": [
+    "保険薬局（調剤報酬の請求・薬歴）"
+   ],
+   "subject": [
+    "薬局の患者（薬歴・レセプトのデータに載る）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "保険薬局（運営法人）"
+   ],
+   "directPayer": [
+    "保険薬局（運営法人）"
+   ],
+   "finalBearer": [
+    "保険薬局（運営法人）"
+   ],
+   "sources": [
+    {
+     "url": "https://www.hanshin.co.jp/press/docs/20250716_itec_mitsubishi_teikei.pdf",
+     "publisher": "アイテック阪急阪神・三菱電機デジタルイノベーション（阪神電気鉄道サイト掲載）",
+     "published": "2025-07-17"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "保守料",
+    "未確認"
+   ],
+   "detail": "保守料：2025-10 以降、販売済み製品のサポートが続く（対価の形・金額は一次資料に記載なし）。未確認：販売時の対価（ライセンス・機器の販売代金か利用料か）は一次資料で確認できず。2025-10 以降、アイテック阪急阪神は三菱電機デジタルイノベーションの「調剤Melphin/DUO」「AnyCOMPASS」の代理店販売とそのコンタクトセンター業務を行う（Pharm-i とは別の製品）。",
+   "customerRecovery": [
+    "回収しない（顧客の経費）"
+   ],
+   "recoveryDetail": "薬局の業務用ソフトで、費用は薬局の経費。ソフトは調剤報酬を請求するための道具で、ソフト自体は保険償還の対象ではない。",
+   "sources": [
+    {
+     "url": "https://www.hanshin.co.jp/press/docs/20250716_itec_mitsubishi_teikei.pdf",
+     "publisher": "アイテック阪急阪神・三菱電機デジタルイノベーション（阪神電気鉄道サイト掲載）",
+     "published": "2025-07-17"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から医療機関へ直接"
+   ],
+   "detail": "自社で開発・販売（「自社開発及び販売」と記載）。代理店経由の有無は未確認。新規販売は2025-09 で終了。",
+   "sources": [
+    {
+     "url": "https://www.hanshin.co.jp/press/docs/20250716_itec_mitsubishi_teikei.pdf",
+     "publisher": "アイテック阪急阪神・三菱電機デジタルイノベーション（阪神電気鉄道サイト掲載）",
+     "published": "2025-07-17"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "レセコン・電子薬歴（業務ソフト）。一次資料に医療機器の記載なし。",
+   "sources": [
+    {
+     "url": "https://www.hanshin.co.jp/press/docs/20250716_itec_mitsubishi_teikei.pdf",
+     "publisher": "アイテック阪急阪神・三菱電機デジタルイノベーション（阪神電気鉄道サイト掲載）",
+     "published": "2025-07-17"
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "ソフト自体は保険適用の対象ではない（保険請求を行うための道具）。",
+   "sources": []
+  },
+  "stage": {
+   "value": "販売終了・保守のみ",
+   "sources": [
+    {
+     "url": "https://www.hanshin.co.jp/press/docs/20250716_itec_mitsubishi_teikei.pdf",
+     "publisher": "アイテック阪急阪神・三菱電機デジタルイノベーション（阪神電気鉄道サイト掲載）",
+     "published": "2025-07-17"
+    }
+   ]
+  },
+  "activity": {
+   "value": "販売終了・保守継続",
+   "detail": "新規の開発・販売は2025-09 で終了、販売済みの Pharm-i／Pharm-i+ へのサポート（コンタクトセンター業務を含む）は2030-05まで継続予定。同社は2025-10 から提携先の「調剤Melphin/DUO」「AnyCOMPASS」を代理店販売するが、発表は Pharm-i の後継・移行とは書いていない。「提供継続」は保守の提供が続いていることを指し、販売は stage「販売終了・保守のみ」で示す。",
+   "sources": [
+    {
+     "url": "https://www.hanshin.co.jp/press/docs/20250716_itec_mitsubishi_teikei.pdf",
+     "publisher": "アイテック阪急阪神・三菱電機デジタルイノベーション（阪神電気鉄道サイト掲載）",
+     "published": "2025-07-17"
+    },
+    {
+     "url": "https://www.mitsubishielectric.co.jp/medigital/news/2025/0717/pdf/20250717.pdf",
+     "publisher": "三菱電機デジタルイノベーション",
+     "published": "2025-07-17"
+    }
+   ]
+  },
+  "periods": [
+   {
+    "t": "〜2025-09",
+    "what": "Pharm-i／Pharm-i+ の自社開発・販売・サポート",
+    "user": "保険薬局の薬剤師・事務職員",
+    "pay": "保険薬局（対価の形は未確認）",
+    "bear": "保険薬局",
+    "channel": "アイテック阪急阪神から薬局へ直接"
+   },
+   {
+    "t": "いま",
+    "what": "（2025-10〜）販売済み製品のサポートのみ（2030-05まで予定）",
+    "user": "既存の保険薬局",
+    "pay": "既存の保険薬局（サポートの対価。形は未確認）",
+    "bear": "既存の保険薬局",
+    "channel": "新規販売なし"
+   }
+  ],
+  "plan": "販売済み製品のサポートを2030年5月まで継続する予定（その後の扱いは未公表）。",
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "導入薬局数の公表は見つからなかった",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null
+   }
+  ]
+ },
+ "b-8413e1b0": {
+  "id": "b-8413e1b0",
+  "name": "公式ヘルスケアアプリ「タヨリス」（ネイティブアプリ版）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "薬局利用（服薬管理・処方箋受付・オンライン服薬指導）",
+   "who": "そうごう薬局など総合メディカルの薬局を使う患者・生活者",
+   "situation": "薬の記録や処方箋の事前送信、来局予約、自宅でのオンライン服薬指導と配送を、スマートフォンでまとめて行いたい。",
+   "sources": [
+    {
+     "url": "https://www.sogo-medical.co.jp/ja/news/news20230207103023/main/0/teaserItems1/00/linkList/0/link/PR_20230207.pdf",
+     "publisher": "総合メディカルグループ",
+     "published": "2023-02-07"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "患者・生活者向けアプリ"
+   ],
+   "detail": "お薬手帳（薬剤師からのフォローアップメッセージ）、オンライン服薬指導（処方箋事前送信・来局予約・配送、電子処方箋対応）、服薬アラーム、バイタル記録、自社EC『そうごう薬局 e-shop』への導線。基盤はオプティムが『OPTiM Digital Marketing』とオンライン診療プラットフォームを統合して提供。",
+   "sources": [
+    {
+     "url": "https://www.sogo-medical.co.jp/ja/news/news20230207103023/main/0/teaserItems1/00/linkList/0/link/PR_20230207.pdf",
+     "publisher": "総合メディカルグループ",
+     "published": "2023-02-07"
+    },
+    {
+     "url": "https://www.optim.co.jp/wp-content/uploads/blazLZLycW5L.pdf",
+     "publisher": "オプティム",
+     "published": "2023-02-14"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "オプティム（「OPTiM Digital Marketing」とオンライン診療プラットフォームを統合して基盤を提供）"
+   ],
+   "mah": [],
+   "seller": [],
+   "operator": [
+    "総合メディカル（自社の公式アプリとして運営）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "患者・生活者（お薬手帳・処方箋事前送信・予約・オンライン服薬指導）",
+    "薬局の薬剤師（フォローアップメッセージ・オンライン服薬指導）"
+   ],
+   "outputUser": [
+    "患者・生活者（薬の記録・服薬アラーム・薬剤師の説明）",
+    "薬局の薬剤師（処方箋・バイタル記録をフォローに使う）"
+   ],
+   "subject": [
+    "患者・生活者（服薬・バイタルの記録）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "患者・生活者（アプリの利用規約への同意。料金の契約があるかは未確認）"
+   ],
+   "directPayer": [
+    "未確認"
+   ],
+   "finalBearer": [
+    "未確認"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sogo-medical.co.jp/ja/news/news20230207103023/main/0/teaserItems1/00/linkList/0/link/PR_20230207.pdf",
+     "publisher": "総合メディカルグループ",
+     "published": "2023-02-07"
+    },
+    {
+     "url": "https://www.optim.co.jp/wp-content/uploads/blazLZLycW5L.pdf",
+     "publisher": "オプティム",
+     "published": "2023-02-14"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "アプリの料金は2023-02 の発表に記載がなく、無料だったかを一次情報で確認できない（App Store の掲載も終了）。運営会社の収入は、アプリを通じた調剤（保険調剤）と e-shop の物販で、アプリは自社薬局事業の顧客接点として作られた。第2版の「無償（本業の集客・付帯サービス）」が当てはまる可能性が高いが、料金の記載が無いため選ばない。",
+   "customerRecovery": [
+    "対象外"
+   ],
+   "recoveryDetail": "顧客（患者）が提供会社に払う料金は確認されておらず、回収の対象が無い。アプリで受けた調剤・オンライン服薬指導の費用は通常の保険調剤（患者負担と公的保険）で、アプリの料金とは別。",
+   "sources": [
+    {
+     "url": "https://www.sogo-medical.co.jp/ja/news/news20230207103023/main/0/teaserItems1/00/linkList/0/link/PR_20230207.pdf",
+     "publisher": "総合メディカルグループ",
+     "published": "2023-02-07"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "薬局経由",
+    "他社EC・小売"
+   ],
+   "detail": "薬局経由：自社の薬局（2023-02-01 時点741店舗）で順次導入し来局者に案内。他社EC・小売：App Store・Google Play で配信（料金の有無は未確認）。",
+   "sources": [
+    {
+     "url": "https://www.sogo-medical.co.jp/ja/news/news20230207103023/main/0/teaserItems1/00/linkList/0/link/PR_20230207.pdf",
+     "publisher": "総合メディカルグループ",
+     "published": "2023-02-07"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "お薬手帳・予約・服薬指導の道具で、医療機器ではない。",
+   "sources": []
+  },
+  "reimbursement": {
+   "values": [
+    "保険診療の中で使われる（製品に対応する点数はない）"
+   ],
+   "detail": "アプリ自体は保険適用の対象ではない。アプリを使って行うオンライン服薬指導・調剤は保険調剤として算定されうる。",
+   "sources": [
+    {
+     "url": "https://www.sogo-medical.co.jp/ja/news/news20230207103023/main/0/teaserItems1/00/linkList/0/link/PR_20230207.pdf",
+     "publisher": "総合メディカルグループ",
+     "published": "2023-02-07"
+    }
+   ]
+  },
+  "stage": {
+   "value": "提供終了",
+   "sources": [
+    {
+     "url": "https://www.sogo-medical.co.jp/ja/news/20260227_01.html",
+     "publisher": "総合メディカルグループ",
+     "published": "2026-02-27"
+    },
+    {
+     "url": "https://itunes.apple.com/lookup?id=6443594717&country=jp",
+     "publisher": "Apple（App Store 検索API）",
+     "published": "2026-11-14"
+    }
+   ]
+  },
+  "activity": {
+   "value": "後継サービスへ移行",
+   "detail": "2026-03-23 お薬手帳自動連携停止、2026-04-24 来店予約・オンライン服薬指導の新規予約停止、2026-06-30 全サービス終了。後継は LINE ミニアプリ「タヨリス」（同じ運営会社、データ引き継ぎ機能を2026-02-27に提供）。2026-11-14 時点で App Store の同アプリIDは検索結果0件。",
+   "sources": [
+    {
+     "url": "https://www.sogo-medical.co.jp/ja/news/20260227_01.html",
+     "publisher": "総合メディカルグループ",
+     "published": "2026-02-27"
+    },
+    {
+     "url": "https://itunes.apple.com/lookup?id=6443594717&country=jp",
+     "publisher": "Apple（App Store 検索API）",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "導入予定店舗数（参考）",
+    "definition": "順次導入を予定していた全店舗数（2023年2月1日時点の店舗数で、アプリ導入済み店舗数ではない）",
+    "scope": "会社全体（自社薬局の店舗数。アプリ導入済み店舗数ではない）",
+    "value": "741店舗",
+    "asOf": "2023-02",
+    "source": {
+     "url": "https://www.sogo-medical.co.jp/ja/news/news20230207103023/main/0/teaserItems1/00/linkList/0/link/PR_20230207.pdf",
+     "publisher": "総合メディカルグループ",
+     "published": "2023-02-07"
+    }
+   }
+  ]
+ },
+ "b-3fd97dad": {
+  "id": "b-3fd97dad",
+  "name": "Relook（マインドフルネス瞑想アプリ）",
+  "checkedAt": "2026-11-14",
+  "problem": {
+   "domain": "睡眠・ストレス・集中（マインドフルネス瞑想）",
+   "who": "寝つきやストレスに悩む生活者／従業員のプレゼンティズムを気にする企業",
+   "situation": "瞑想を習慣にしたいが続かない、寝つけない、ストレスを手軽に和らげたい。",
+   "sources": [
+    {
+     "url": "https://relook.jp/",
+     "publisher": "Relook（運営表示：株式会社ARETECO HOLDINGS）",
+     "published": ""
+    },
+    {
+     "url": "https://apps.apple.com/jp/app/id1457868792",
+     "publisher": "Apple App Store（販売元表示：Relook, Inc）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "患者・生活者向けアプリ",
+    "企業が従業員に提供する健康サービス"
+   ],
+   "detail": "患者・生活者向けアプリ：医師監修の瞑想誘導音声（300種類超、睡眠・ストレス・集中・ダイエット別）を配信。企業が従業員に提供する健康サービス：企業向けのマインドフルネス研修。2021年4月から名古屋大学医学部附属病院などの研究にアプリを提供。",
+   "sources": [
+    {
+     "url": "https://relook.jp/",
+     "publisher": "Relook（運営表示：株式会社ARETECO HOLDINGS）",
+     "published": ""
+    },
+    {
+     "url": "https://apps.apple.com/jp/app/id1457868792",
+     "publisher": "Apple App Store（販売元表示：Relook, Inc）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "Relook（App Store の販売元表示は Relook, Inc。法人は2021-01-01 に ARETECO HOLDINGS へ合併）"
+   ],
+   "mah": [],
+   "seller": [
+    "App Store（アプリ内課金。販売元表示は Relook, Inc）"
+   ],
+   "operator": [
+    "ARETECO HOLDINGS（relook.jp の会社概要・同社サイトのサービスページ。periods 参照）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "個人（アプリ利用者）",
+    "企業の従業員（研修参加者）"
+   ],
+   "outputUser": [
+    "個人（瞑想誘導音声）",
+    "企業の従業員（研修）"
+   ],
+   "subject": [],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "個人（アプリ内課金）",
+    "企業（研修）"
+   ],
+   "directPayer": [
+    "個人（App Store 等のアプリ内課金。年プランあり）",
+    "企業（研修料、金額未確認）"
+   ],
+   "finalBearer": [
+    "個人",
+    "企業"
+   ],
+   "sources": [
+    {
+     "url": "https://relook.jp/",
+     "publisher": "Relook（運営表示：株式会社ARETECO HOLDINGS）",
+     "published": ""
+    },
+    {
+     "url": "https://apps.apple.com/jp/app/id1457868792",
+     "publisher": "Apple App Store（販売元表示：Relook, Inc）",
+     "published": ""
+    },
+    {
+     "url": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010901043682",
+     "publisher": "国税庁 法人番号公表サイト",
+     "published": "2021-01-28"
+    },
+    {
+     "url": "https://areteco.com/service/relook/",
+     "publisher": "ARETECO HOLDINGS",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "月額・年額の利用料",
+    "未確認"
+   ],
+   "detail": "月額・年額の利用料：アプリは無料ダウンロード＋有料プラン（App Store の説明に「1年プラン」、トライアル期間あり）。未確認：企業研修の料金体系（第1版は受託料として仮置きしていた）。",
+   "customerRecovery": [
+    "利用者が自分で払う（自費・購入）",
+    "未確認"
+   ],
+   "recoveryDetail": "自費：個人が自分で払う。未確認：企業研修の費用を企業が福利厚生として負担するかは記載なし。",
+   "sources": [
+    {
+     "url": "https://apps.apple.com/jp/app/id1457868792",
+     "publisher": "Apple App Store（販売元表示：Relook, Inc）",
+     "published": ""
+    },
+    {
+     "url": "https://relook.jp/",
+     "publisher": "Relook（運営表示：株式会社ARETECO HOLDINGS）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "他社EC・小売",
+    "未確認"
+   ],
+   "detail": "他社EC・小売：アプリストア（App Store 等）経由で個人へ配信・課金。未確認：企業研修の販売経路。",
+   "sources": [
+    {
+     "url": "https://apps.apple.com/jp/app/id1457868792",
+     "publisher": "Apple App Store（販売元表示：Relook, Inc）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "瞑想誘導音声のアプリ。",
+   "sources": [
+    {
+     "url": "https://apps.apple.com/jp/app/id1457868792",
+     "publisher": "Apple App Store（販売元表示：Relook, Inc）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "",
+   "sources": []
+  },
+  "stage": {
+   "value": "提供状況未確認",
+   "sources": [
+    {
+     "url": "https://apps.apple.com/jp/app/id1457868792",
+     "publisher": "Apple App Store（販売元表示：Relook, Inc）",
+     "published": ""
+    },
+    {
+     "url": "https://relook.jp/",
+     "publisher": "Relook（運営表示：株式会社ARETECO HOLDINGS）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "未確認",
+   "detail": "2026-11-14 時点で App Store（日本）に掲載が続き（販売元表示は Relook, Inc、最終更新2023-11-20、v5.18.0）、公式サイト relook.jp も公開中だが、ニュースの最終更新は2022-04 で、新規課金・運営の継続は確認できない。Relook株式会社は2021-01-01 付で ARETECO HOLDINGS に合併し解散（法人番号公表サイト）。",
+   "sources": [
+    {
+     "url": "https://apps.apple.com/jp/app/id1457868792",
+     "publisher": "Apple App Store（販売元表示：Relook, Inc）",
+     "published": ""
+    },
+    {
+     "url": "https://relook.jp/",
+     "publisher": "Relook（運営表示：株式会社ARETECO HOLDINGS）",
+     "published": ""
+    },
+    {
+     "url": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=9010901043682",
+     "publisher": "国税庁 法人番号公表サイト",
+     "published": "2021-01-28"
+    },
+    {
+     "url": "https://areteco.com/service/relook/",
+     "publisher": "ARETECO HOLDINGS",
+     "published": ""
+    }
+   ]
+  },
+  "periods": [
+   {
+    "t": "2019-04〜2020-12",
+    "what": "瞑想アプリ（2019-04-16 App Store リリース）、企業研修",
+    "user": "個人・企業の従業員",
+    "pay": "個人（アプリ内課金）・企業（研修）",
+    "bear": "個人・企業",
+    "channel": "アプリストア。運営は Relook株式会社"
+   },
+   {
+    "t": "いま",
+    "what": "（2021-01-01〜）同じアプリの配信が続く（最終更新2023-11-20）。運営の継続は未確認",
+    "user": "個人",
+    "pay": "個人（アプリ内課金）",
+    "bear": "個人",
+    "channel": "アプリストア。運営表示は ARETECO HOLDINGS（ストアの販売元表示は Relook, Inc のまま）"
+   }
+  ],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "累計ダウンロード数",
+    "definition": "公式サイト表示の累計DL数（時点の記載なし）",
+    "scope": "製品単体",
+    "value": "45万",
+    "asOf": "未確認（2026-11閲覧時の表示）",
+    "source": {
+     "url": "https://relook.jp/",
+     "publisher": "Relook（運営表示：株式会社ARETECO HOLDINGS）",
+     "published": ""
+    }
+   },
+   {
+    "metric": "App Store評価件数",
+    "definition": "App Store（日本）の評価件数（利用者数ではない）",
+    "scope": "製品単体",
+    "value": "6,828件",
+    "asOf": "2026-11",
+    "source": {
+     "url": "https://apps.apple.com/jp/app/id1457868792",
+     "publisher": "Apple App Store（販売元表示：Relook, Inc）",
+     "published": ""
+    }
+   }
+  ]
+ },
+ "b-eba6ef21": {
+  "id": "b-eba6ef21",
+  "name": "MediTel（メディテル）",
+  "checkedAt": "2026-11-15",
+  "problem": {
+   "domain": "オンライン診療",
+   "who": "通院負担の大きい患者（仕事で忙しい人、小さな子どもがいる人、外出が難しい人）と医療機関",
+   "situation": "通院の移動・待ち時間の負担を減らし、医師と患者が日々の健康データを共有して管理したい。",
+   "sources": [
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+     "publisher": "テックファームホールディングス・NTTドコモ",
+     "published": "2017-10-30"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）",
+    "患者・生活者向けアプリ"
+   ],
+   "detail": "医療機関・薬局向けソフト：医師は Web ブラウザで診察・助言。患者・生活者向けアプリ：患者はスマートフォンアプリで予約・テレビ電話診察・クレジットカード決済・健康データ記録（2018-11 以降、患者のサービス利用費も無料）。",
+   "sources": [
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+     "publisher": "テックファームホールディングス・NTTドコモ",
+     "published": "2017-10-30"
+    },
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
+     "publisher": "メディアコンテンツファクトリー・NTTドコモ",
+     "published": "2018-11-01"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "NTTドコモ（39works。実証実験を基に開発、2018 以降はプロジェクト全体の総括）",
+    "テックファーム（2017 発表で開発・医療機関向けの販売・運用）",
+    "メディアコンテンツファクトリー（2018 発表で医療機関向けの販売・運用、追加サービスの開発）"
+   ],
+   "mah": [],
+   "seller": [
+    "メディアコンテンツファクトリー（2018-10-11〜。それ以前はテックファーム。periods 参照）"
+   ],
+   "operator": [
+    "メディアコンテンツファクトリー（2018-10-11〜のサービス提供会社。いまの運営は未確認）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "医師（ブラウザで診察）",
+    "患者（アプリで予約・受診・決済・健康データ記録）"
+   ],
+   "outputUser": [
+    "医師（患者の健康データを診察に使う）",
+    "患者（医師の助言）"
+   ],
+   "subject": [
+    "患者（健康データ・診察の対象。システム利用料は払わない〔2018-11 以降〕）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関"
+   ],
+   "directPayer": [
+    "医療機関（2018-11 以降は導入費・月額無料で、クレジットカード決済手数料のみ）"
+   ],
+   "finalBearer": [
+    "医療機関（システム費・決済手数料）"
+   ],
+   "sources": [
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+     "publisher": "テックファームホールディングス・NTTドコモ",
+     "published": "2017-10-30"
+    },
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
+     "publisher": "メディアコンテンツファクトリー・NTTドコモ",
+     "published": "2018-11-01"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "従量課金（件数・回数・処方数）"
+   ],
+   "detail": "2018-11-01 から導入費・月額利用費を無料にし、医療機関にはクレジットカード決済手数料が発生（※3）。決済手数料のうち提供会社の取り分は未確認。それ以前（2017-11〜2018-10）は導入費・月額利用費の有料期間で金額は未確認（periods 参照）。",
+   "customerRecovery": [
+    "回収しない（顧客の経費）"
+   ],
+   "recoveryDetail": "システム費・決済手数料は医療機関の経費。システムを使った診療の診療費は医療機関が患者に請求し、保険診療分は2018-04 新設のオンライン診療料などで算定されうる（2017 年発表では評価への期待を記載）。",
+   "sources": [
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
+     "publisher": "メディアコンテンツファクトリー・NTTドコモ",
+     "published": "2018-11-01"
+    },
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+     "publisher": "テックファームホールディングス・NTTドコモ",
+     "published": "2017-10-30"
+    }
+   ]
+  },
+  "channel": {
+   "values": [
+    "提供会社から医療機関へ直接"
+   ],
+   "detail": "提供会社（2017 発表ではテックファーム、2018-10-11 以降はメディアコンテンツファクトリー）が医療機関向けに販売・運用。ドコモは 39works として共同。",
+   "sources": [
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+     "publisher": "テックファームホールディングス・NTTドコモ",
+     "published": "2017-10-30"
+    },
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
+     "publisher": "メディアコンテンツファクトリー・NTTドコモ",
+     "published": "2018-11-01"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "オンライン診療用の通信・予約・決済システム（医療機器としての承認・認証の記載なし）。",
+   "sources": [
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+     "publisher": "テックファームホールディングス・NTTドコモ",
+     "published": "2017-10-30"
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "保険診療の中で使われる（製品に対応する点数はない）"
+   ],
+   "detail": "システム自体は保険適用の対象ではない。システムを使った診療は2018年4月新設のオンライン診療料として算定されうる（2017年発表では評価への期待を記載）。",
+   "sources": [
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+     "publisher": "テックファームホールディングス・NTTドコモ",
+     "published": "2017-10-30"
+    }
+   ]
+  },
+  "stage": {
+   "value": "提供状況未確認",
+   "sources": [
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
+     "publisher": "メディアコンテンツファクトリー・NTTドコモ",
+     "published": "2018-11-01"
+    },
+    {
+     "url": "https://www.nikkei.com/article/DGKKZO60169590Z00C20A6MM8000/",
+     "publisher": "日本経済新聞（報道・有料記事、本文未確認）",
+     "published": "2020-06"
+    },
+    {
+     "url": "https://meditel.life/",
+     "publisher": "（ドメイン現所有者不明。2026-11-14閲覧時、MediTel と無関係の内容）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "終了の可能性が高い（確証なし）",
+   "detail": "終了した可能性が高いが、終了時期・終了の主体を示す一次資料がない。『終了』と断定せず、手がかり（日経報道、公式ドメインの喪失、アプリ不在）を並べて保持する。 2018-11 の無料化以降、提供終了の一次発表は見つからない。日経（2020-06）がドコモのオンライン診療システムからの撤退（2020年3月末）を報じたが、記事のサービス名は確認できていない。公式サイト（meditel.life）のドメインは2026-11時点で無関係の内容になっており、App Store にも該当アプリは見当たらない。",
+   "sources": [
+    {
+     "url": "https://www.nikkei.com/article/DGKKZO60169590Z00C20A6MM8000/",
+     "publisher": "日本経済新聞（報道・有料記事、本文未確認）",
+     "published": "2020-06"
+    },
+    {
+     "url": "https://meditel.life/",
+     "publisher": "（ドメイン現所有者不明。2026-11-14閲覧時、MediTel と無関係の内容）",
+     "published": ""
+    },
+    {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
+     "publisher": "メディアコンテンツファクトリー・NTTドコモ",
+     "published": "2018-11-01"
+    }
+   ]
+  },
+  "periods": [
+   {
+    "t": "2017-01〜2017-09",
+    "what": "複数の病院での実証実験（8か月間）",
+    "user": "実証参加の医師・患者",
+    "pay": "未確認",
+    "bear": "未確認",
+    "channel": "実証（販売なし）"
+   },
+   {
+    "t": "2017-11（発表上の開始予定）／2018-01（2018 発表の展開開始）〜2018-10-10",
+    "what": "オンライン診療サービス",
+    "user": "医師・患者",
+    "pay": "医療機関（導入費・月額利用費。金額未確認）",
+    "bear": "医療機関（システム費）",
+    "channel": "テックファームが医療機関向けに販売・運用（ドコモ 39works と共同）"
+   },
+   {
+    "t": "2018-10-11〜（終了時期は未確認）",
+    "what": "同上（2018-11-01 から導入費・月額無料、患者も無料）",
+    "user": "医師・患者",
+    "pay": "医療機関（クレジットカード決済手数料のみ）",
+    "bear": "医療機関",
+    "channel": "メディアコンテンツファクトリーが医療機関向けに販売・運用（ドコモ 39works と共同）"
+   },
+   {
+    "t": "いま",
+    "what": "未確認（公式ドメインは無関係の内容、アプリは見当たらない）",
+    "user": "未確認",
+    "pay": "未確認",
+    "bear": "未確認",
+    "channel": "未確認"
+   }
+  ],
+  "plan": "",
+  "adoption": [
+   {
+    "metric": "実証実験",
+    "definition": "2017年1月から8か月間、複数の病院で実施（施設数は非公表）",
+    "scope": "製品単体",
+    "value": "複数病院",
+    "asOf": "2017-09",
+    "source": {
+     "url": "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+     "publisher": "テックファームホールディングス・NTTドコモ",
+     "published": "2017-10-30"
+    }
+   }
+  ]
+ }
+}
