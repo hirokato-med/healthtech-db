@@ -33,7 +33,9 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
   const bt = s.type ? getBizType(s.type) : undefined;
   const siblings = servicesIn(s.category).filter((x) => x.id !== s.id).slice(0, 6);
   // 医療機器の情報は、医療機器の事業か、医療機器が並ぶ種類（画像診断AI など）の事業で出す
-  const showDevice = !!s.device || s.status === '準備中' || (!!s.type && servicesOfType(s.type).some((x) => x.device));
+  // 医療機器の欄は、医療機器の事業だけに出す（医薬品・再生医療等製品の開発品には出さない）
+  const notDevice = /innovative-drug|generic-drug|gene-nucleic|regenerative-cell|otc-consumer|cdmo/.test(s.type ?? '');
+  const showDevice = !notDevice && (!!s.device || (!!s.type && servicesOfType(s.type).some((x) => x.device)));
   return (
     <>
       <nav className="breadcrumb" aria-label="パンくず">
@@ -46,6 +48,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
         <p className="svc-provider">{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : s.company}の事業</p>
         <div className="chips" style={{ marginTop: 10 }}><span className={`badge st-${s.status}`}>{statusLabel(s)}</span>{s.status === '準備中' && <StageBadge stage={s.stage} />}<DeviceTag s={s} /><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
         <p className="lead">{s.description}</p>
+        {s.kind === 'contract' && s.relatedServiceId && (() => { const r = getService(s.relatedServiceId!); return r ? <p className="co-scope"><b>契約の記録</b>これは製品そのものではなく、提携・販売権の契約の記録です。製品のページ：<Link href={`/services/${r.id}/`}>{r.name}</Link>（{statusLabel(r)}）</p> : null; })()}
       </div>
       <div className="two-col">
         <div style={{ display: 'grid', gap: 20 }}>
@@ -95,7 +98,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
             </section>
           )}
           {bm && <BusinessModelPanel m={bm} />}
-          {showDevice && <DevicePanel s={s} />}
+          {showDevice && <DevicePanel s={s} reg={bm?.regulatory} />}
           {(s.startedAt || s.startedYear || s.milestones?.length || s.endedAt || s.plannedEnd || s.suspension) && (
             <section className="panel">
               <h3>経過</h3>

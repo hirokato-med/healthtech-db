@@ -11,7 +11,7 @@ export function DeviceTag({ s }: { s: Service }) {
 const date = (s?: string) => (s ? s.replace(/^(\d{4})-(\d{2})-(\d{2})$/, '$1年$2月$3日').replace(/^(\d{4})-(\d{2})$/, '$1年$2月') : '');
 
 /** 事業のページの「医療機器としての情報」。医療機器かどうかを、承認・認証の番号と添付文書で示す */
-export function DevicePanel({ s }: { s: Service }) {
+export function DevicePanel({ s, reg }: { s: Service; reg?: { values: string[]; detail?: string } }) {
   const d = s.device;
   if (!d && s.nonDevice) {
     const n = s.nonDevice;
@@ -28,7 +28,7 @@ export function DevicePanel({ s }: { s: Service }) {
     return (
       <section className="panel dev-panel none">
         <h3>医療機器としての情報</h3>
-        <p className="small">{s.status === '準備中' ? '医療機器としての承認・認証はまだありません（準備中）。' : 'このデータベースでは、医療機器としての承認・認証・届出の記録を確認していません。'}</p>
+        <p className="small">{reg?.values?.some((v) => /承認・認証・届出を確認/.test(v)) ? `承認・認証・届出：${reg.detail ?? '確認済み'}（事業のしくみの欄と同じ資料）` : s.status === '準備中' ? '医療機器としての承認・認証はまだありません（準備中）。' : 'このデータベースでは、医療機器としての承認・認証・届出の記録を確認していません。'}</p>
       </section>
     );
   }

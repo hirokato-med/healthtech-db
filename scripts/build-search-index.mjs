@@ -23,7 +23,8 @@ const isDtx = (s) => {
   if (/診断支援|診断補助|検査用|画像解析|読影/.test(s.name) || isSupport(s)) return false;
   // 治療が終わったあとの管理サービス（治療アプリ完了後の血圧管理 など）は治療用アプリそのものではない
   if (/完了後|修了後|卒業後/.test(s.name)) return false;
-  return DTX_RE.test(t) || (s.type === 'digital-therapeutics' && THERAPY.test(t));
+  // 説明文の言葉は「治療用アプリ（DTx）」の種類の事業だけで見る（一般向けアプリの説明に「治療用アプリの開発」とあっても DTx にしない）
+  return DTX_RE.test(s.name) || (s.type === 'digital-therapeutics' && (DTX_RE.test(t) || THERAPY.test(t)));
 };
 const out = [];
 for (const c of read('companies.json')) {
@@ -33,7 +34,7 @@ for (const c of read('companies.json')) {
   out.push({ t: 'company', id: c.id, title: c.name, sub: [...(c.aliases ?? []), ...(c.formerNames ?? []), c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), k: mine.some(isDtx) ? '治療用アプリ' : '', ty: types.join(' '), url: `/companies/${c.id}/` });
 }
 for (const s of services)
-  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [isDtx(s) ? '治療用アプリ' : '', s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), ty: typeName[s.type], ...(isSupport(s) ? { sec: 'support' } : /完了後|修了後|卒業後/.test(s.name) ? { sec: 'related' } : {}), url: `/services/${s.id}/` });
+  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [isDtx(s) ? '治療用アプリ' : '', s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), ty: typeName[s.type], ...(s.kind === 'contract' ? { sec: 'contract' } : isSupport(s) ? { sec: 'support' } : /完了後|修了後|卒業後/.test(s.name) ? { sec: 'related' } : {}), url: `/services/${s.id}/` });
 for (const p of read('people.json'))
   out.push({ t: 'person', id: p.id, title: p.name, sub: p.roles.map((r) => `${r.companyName} ${r.title}`).join(' / '), url: `/talents/${p.id}/` });
 for (const c of categories) out.push({ t: 'category', id: c.slug, title: c.name, sub: c.groupLabel, url: `/categories/${c.slug}/` });

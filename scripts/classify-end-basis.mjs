@@ -35,7 +35,7 @@ const NONDISCLOSED = /非公表とし|明らかにしていない|開示して�
 const REASON = /ため|として|判断|方針|目的|集中|困難|不振|赤字|採算|伸び悩|見直し|戦略|再編|効率|需要|競合|規制|資金|不足|減少|低迷|成長/;
 
 const today = new Date().toISOString().slice(0, 10);
-const LABEL = { regulation: '規制・承認', reimbursement: '保険償還・診療報酬', 'no-payer': 'お金を払う人がいない', workflow: '現場に定着しない', evidence: '効果を示せない', funding: '資金が続かない', 'parent-strategy': '親会社の方針', acquisition: '買収・統合', competition: '競合・大手の参入', team: '体制の問題', infrastructure: '通信・部品の終了', 'business-viability': '事業性・採算', 'service-restructuring': 'サービス再編' };
+const LABEL = { 'safety-quality': '安全性・品質', 'demand-market': '需要・市場環境', 'development-production': '開発・生産上の課題', restructuring: '事業再編・経営資源の集中', 'other-stated': 'その他（資料に理由あり）', regulation: '規制・承認', reimbursement: '保険償還・診療報酬', 'no-payer': 'お金を払う人がいない', workflow: '現場に定着しない', evidence: '効果を示せない', funding: '資金が続かない', 'parent-strategy': '親会社の方針', acquisition: '買収・統合', competition: '競合・大手の参入', team: '体制の問題', infrastructure: '通信・部品の終了', 'business-viability': '事業性・採算', 'service-restructuring': 'サービス再編' };
 // 資料の発信主体：会社自身（自社サイト・プレスリリース配信・適時開示）／行政／信用調査会社／報道
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\d?\./, ''); } catch { return ''; } };
 const MEDIA = /(nikkei|asahi|yomiuri|mainichi|sankei|jiho|mixonline|itmedia|impress|watch\.impress|m3\.com|medical-tribune|mobihealthnews|techcrunch|thebridge|bridge\.jp|maonline|nihon-ma|cnet|ascii|newswitch|yakuji|nissin|kyodo|jiji|toyokeizai|diamond|president|businessinsider|forbes|gemmed|cbnews|medifax|iotnews|smart-fc|platinumpartners|tsujigawa|kabutan|minkabu|zaikei|irbank)/;
@@ -69,6 +69,11 @@ const SUPPORT = {
   competition: /競合|参入|競争|大手|他社/,
   team: /創業者|離脱|体制|人材|代表|体調|不正/,
   infrastructure: /3G|停波|部品|供給停止|生産終了|サービス終了に伴|提供終了に伴|仕様変更/,
+  'safety-quality': /安全|品質|健康被害|発がん|副作用|回収|販売停止|リコール/,
+  'demand-market': /需要|市場|環境の変化|利用(者)?の減少/,
+  'development-production': /開発|量産|生産|製造|供給体制/,
+  restructuring: /提携|再編|集中|選択と集中|見直し|移管|組み替え/,
+  'other-stated': /./,
   'business-viability': /事業性|採算|収益性|継続が困難|継続困難|赤字|コスト|不採算/,
   'service-restructuring': /再編|リニューアル|移行|一本化|統合|後継|刷新|LINE/,
 };
@@ -111,13 +116,16 @@ for (const s of list) {
     const maint = all.match(/(保守|サポート)[^。]{0,25}?(\d{4})年(\d{1,2})月(末)?まで/);
     if (maint) {
       const until = `${maint[2]}-${String(maint[3]).padStart(2, '0')}`;
-      if (until < today.slice(0, 7)) { fate = '提供終了'; fateNote = `販売終了のあとも既存顧客の${maint[1]}を${maint[2]}年${Number(maint[3])}月${maint[4] ?? ''}まで続けた（終了済み）`; }
-      else { fate = '一部継続'; fateNote = `既存顧客の${maint[1]}は${maint[2]}年${Number(maint[3])}月${maint[4] ?? ''}まで続ける予定`; }
+      // 公表された期日と、終了の実施を確かめたことは別。期日が過ぎていても「終了済み」とは書かない
+      if (until < today.slice(0, 7)) { fate = '提供終了'; fateNote = `販売終了のあとも既存顧客の${maint[1]}を続け、公表された終了期日は${maint[2]}年${Number(maint[3])}月${maint[4] ?? ''}（終了の実施は未確認）`; }
+      else { fate = '一部継続'; fateNote = `既存顧客の${maint[1]}は${maint[2]}年${Number(maint[3])}月${maint[4] ?? ''}まで続けると公表`; }
     } else if (s.status === '休止') fate = '休止中';
     else if (keep.test(all) && (s.status === '譲渡' || s.status === '統合')) fate = '同一サービス継続（運営会社が変更）';
     else if (move.test(all) && s.successor) fate = '別サービスへ移行';
     else if (s.status === '終了') fate = '提供終了';
-    s.after = { event, fate, ...(fateNote ? { note: fateNote } : {}), asOf: s.updatedAt ?? today.slice(0, 7) };
+    // 資料の日付：止まったことを告げた発表・告知の節目の日付（無ければ出さない）
+    const ann = (s.milestones ?? []).filter((m) => m.date && /告知|発表|お知らせ|公表|開示/.test(m.text)).map((m) => m.date).sort().pop();
+    s.after = { event, fate, ...(fateNote ? { note: fateNote } : {}), asOf: s.updatedAt ?? today.slice(0, 7), ...(ann ? { sourceDate: ann.slice(0, 7) } : {}) };
   }
   delete s.afterEnd; delete s.afterEndLocked;
   s.endReasonInfo.sources.forEach((v) => inc('sources', v));

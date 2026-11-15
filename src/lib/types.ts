@@ -163,7 +163,10 @@ export type Service = {
    * fate はサービスの扱い（同一サービス継続／別サービスへ移行／一部継続／提供終了／休止中／未確認）。
    * fate は資料に書かれているときだけ決め、書かれていなければ「未確認」。asOf はその資料で確かめた時点
    */
-  after?: { event: string; fate: string; note?: string; asOf: string };
+  /** 事業そのものではなく提携・販売権の契約を記録したもの（contract）。relatedServiceId はその製品の事業 */
+  kind?: 'contract';
+  relatedServiceId?: string;
+  after?: { event: string; fate: string; note?: string; asOf: string; sourceDate?: string };
   /** 推定を含むときの断り書き（一覧でも出す） */
   endReasonCaveat?: string;
   lessons?: string;

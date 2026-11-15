@@ -16,13 +16,14 @@ const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'public', 'search-index
 
 // [検索語, 上位に出るべきもの（タイトルの一部）, 出てはいけないもの（タイトルの一部）]
 const CASES = [
-  ['DTx', ['CureApp', 'サスメド', 'Medcle'], ['DTX Studio', 'Pokémon Sleep', '雨音', '波音', 'ぐっすリン', '眠れるクラシック', 'portera', 'Doctors Cloud MD', 'SaMD（プログラム医療機器）の設計開発', 'SaMD開発支援', 'スマート血圧']],
+  ['DTx', ['CureApp', 'サスメド', 'Medcle'], ['DTX Studio', 'Pokémon Sleep', '雨音', '波音', 'ぐっすリン', '眠れるクラシック', 'portera', 'Doctors Cloud MD', 'SaMD（プログラム医療機器）の設計開発', 'SaMD開発支援', 'スマート血圧', 'emol（AIキャラクター', '不眠症治療用アプリ 販売提携']],
   ['dtx', ['CureApp'], ['DTX Studio']],
   ['ＤＴｘ', ['CureApp'], ['DTX Studio']],
   ['デジタル治療', ['CureApp', 'サスメド'], ['DTX Studio']],
   ['治療用アプリ', ['CureApp', 'サスメド'], ['Pokémon Sleep', '雨音', '波音', 'ぐっすリン', '眠れるクラシック']],
   ['デジタル療法', ['VRx'], ['Pokémon Sleep']],
-  ['睡眠', ['Pokémon Sleep', 'Medcle'], []],
+  ['睡眠', ['Pokémon Sleep'], []],
+  ['不眠', ['Medcle'], []],
   ['治療アプリ', ['CureApp', 'HAUDY'], []],
   ['オンライン診療', ['CLINICS'], []],
   ['遠隔診療', ['CLINICS'], []],

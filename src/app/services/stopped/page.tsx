@@ -29,7 +29,7 @@ export default function StoppedPage() {
         <div className="kicker">Stopped businesses</div>
         <h1>止まった事業を理由別に見る</h1>
         <p className="lead">
-          同じようなアイデアは何度も生まれ、同じところで止まります。過去の事業がどこで止まったのかを理由別に並べました。
+          同じようなアイデアは何度も生まれ、同じところで止まります。過去の事業がどこで止まったのかを理由別に並べました。ここには、もとの運営会社が撤退・譲渡・統合したものを含み、別の会社のもとでいまも続いているサービスもあります（「その後」の欄）。
           理由は、当事者の発表など公開された資料にもとづいて分類しています（資料で理由を確かめられないものは「理由を確認できていない」）。資料に直接書かれていない分類には「推定」と付けています。{stopped.length} 件。
           理由の記載は、{STATED.map((b) => `${b} ${stopped.filter((s) => s.endReasonInfo?.stated === b).length}件`).join('・')}。
           {((n) => (n ? `この DB の推定を含むものは ${n}件で、断り書きをつけています。` : ''))(stopped.filter((s) => s.endReasonInfo?.interpretation === '推定を含む').length)}

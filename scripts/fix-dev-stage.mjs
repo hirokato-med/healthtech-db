@@ -13,7 +13,8 @@ const F = path.join(path.resolve(path.dirname(fileURLToPath(import.meta.url)), '
 const list = JSON.parse(fs.readFileSync(F, 'utf8'));
 const dry = process.argv.includes('--dry');
 const DEV = /開発中|研究開発段階|研究段階|治験段階|治験中|治験(を|の)?準備|検証的(試験|治験)|第[1-3ⅠⅡⅢI]+[/／a-zA-Z0-9ⅠⅡⅢ]*相|承認申請中|(薬|医薬品?|製品|製剤|療法|ワクチン|医療機器)の?候補|前臨床|非臨床開発|臨床開発中|プロトタイプ|試作|承認前|治験計画届/;
-const SERVICE = /CRO|SMO|CDMO|支援|受託|代行|業務|被験者|募集|管理|治験情報|プラットフォーム|コンサル|ソリューション|システム$|サービス$|EDC|派遣|検索|ライセンス|基盤|アッセイ|共同研究|試薬|分析|データ|CRM|AIアシスタント|チェッカー|コーディング|医療連携/;
+// 支援・受託のサービス（支援対象の医薬品の段階を表す「承認前」などに反応しないように）
+const SERVICE = /BPO|CRO|SMO|CDMO|支援|受託|代行|業務|被験者|募集|管理|治験情報|プラットフォーム|コンサル|ソリューション|システム$|サービス$|EDC|派遣|検索|ライセンス|基盤|アッセイ|共同研究|試薬|分析|データ|CRM|AIアシスタント|チェッカー|コーディング|医療連携/;
 const stageOf = (t) => /承認申請中/.test(t) ? '承認申請中'
   : /治験(を|の)?準備|治験計画届|IND申請/.test(t) && !/治験中|相試験を(実施|行)|治験を実施中/.test(t) ? '治験準備中'
   : /治験中|治験段階|検証的(試験|治験)|第[1-3ⅠⅡⅢI]+[/／a-zA-Z0-9ⅠⅡⅢ]*相|医師主導治験|臨床開発/.test(t) ? '治験中'
@@ -24,6 +25,8 @@ for (const s of list) {
   if (s.status !== '提供中' || s.device || s.stageLocked) continue;
   const t = `${s.name} ${s.description ?? ''}`;
   if (!DEV.test(t) || SERVICE.test(s.name)) continue;
+  // 「提供を始めた」「提供している」と書かれているものは変えない
+  if (/提供を(始め|開始し)た|提供している|販売している|導入している/.test(s.description ?? '')) continue;
   const stage = stageOf(t);
   if (dry) console.error(`${s.id} ${stage}｜${s.name.slice(0, 40)}（${s.company.slice(0, 16)}）`);
   s.status = '準備中';

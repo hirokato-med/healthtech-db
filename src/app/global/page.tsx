@@ -41,7 +41,11 @@ export default function GlobalPage() {
                 const ok = (k: 'founding' | 'capital' | 'activity') => !c || (c[k]?.verified !== false && (c[k]?.sources?.length ?? 1) > 0);
                 // Wikipedia・企業データベースしか資料がない記載は「参考（未照合）」として出す。買収・閉鎖などの重要事項は確定として出さない
                 const weak = (ss?: OverseasSource[]) => !!ss?.length && ss.every((x) => x.kind === 'wikipedia' || x.kind === 'database');
-                const capWeak = weak(c?.capital?.sources) && o.listing !== '未上場';
+                // 状態（閉鎖・買収・上場廃止）は、その出来事そのものを書いた資料が公式・公的なものかで決める。
+                // 状態全体に公式資料が1本あるだけでは確定にしない（dacadoo：破産は企業DBのみ、公式発表は資産取得）
+                const KEY: Record<string, RegExp> = { 閉鎖: /破産|清算|閉鎖|解散|事業終了|サービス終了/, 買収: /買収完了|買収|合併/, 上場廃止: /上場廃止/, 事業譲渡: /事業譲渡|資産取得|取得/ };
+                const ev = KEY[o.listing ?? ''] ? (o.events ?? []).filter((e) => KEY[o.listing!].test(`${e.type ?? ''}${e.text}`)) : [];
+                const capWeak = (weak(c?.capital?.sources) && o.listing !== '未上場') || (ev.length > 0 && ev.every((e) => !e.source || weak([e.source])));
                 return (
                 <article className="card" id={o.id} key={o.id}>
                   {/* いまの提供状況を確かめられない会社は、旧ドメインが無関係のサイトになっていることがあるのでリンクしない */}

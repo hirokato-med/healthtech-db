@@ -2,9 +2,9 @@
  * サイト内検索の当てはめ（検索ページと scripts/test-search.mjs で同じものを使う）。
  * 同じ意味の言葉（DTx・デジタル治療・治療用アプリ など）は、どれで検索しても同じものが出るようにする。
  */
-export type SearchItem = { t: string; id: string; title: string; sub: string; url: string; k?: string; ty?: string; sec?: 'support' | 'related' };
+export type SearchItem = { t: string; id: string; title: string; sub: string; url: string; k?: string; ty?: string; sec?: 'support' | 'related' | 'contract' };
 /** 検索結果の区分：検索語そのもの／開発・薬事・販売の支援サービス／同じ分野の関連する事業 */
-export type Section = 'main' | 'support' | 'related';
+export type Section = 'main' | 'support' | 'related' | 'contract';
 
 type SynGroup = { terms: string[]; exclude?: RegExp };
 // 同じ意味として扱う言葉。exclude は、言葉は含むが意味の違うもの（歯科ソフトの「DTX Studio」など）
@@ -59,7 +59,7 @@ export const matchItem = (h: SearchItem, query: string): { score: number; sectio
   if (title === n) score += 3;
   // 同じ意味の言葉のまとまりで当たった支援サービスは、支援の区分に分ける
   const viaGroup = terms.some((t) => groupOf(t) && !groupOf(t)!.exclude?.test(query));
-  return { score, section: related || (viaGroup && h.sec === 'related') ? 'related' : viaGroup && h.sec === 'support' ? 'support' : 'main' };
+  return { score, section: h.sec === 'contract' ? 'contract' : related || (viaGroup && h.sec === 'related') ? 'related' : viaGroup && h.sec === 'support' ? 'support' : 'main' };
 };
 
 const run = (index: SearchItem[], query: string) =>
@@ -70,6 +70,8 @@ const run = (index: SearchItem[], query: string) =>
 
 /** 検索語に当たるもの（関連する事業は除く） */
 export const search = (index: SearchItem[], query: string, limit = 100) => run(index, query).filter((x) => x.m.section === 'main').slice(0, limit).map((x) => x.h);
+/** 提携・販売権の契約（製品そのものではない） */
+export const searchContract = (index: SearchItem[], query: string, limit = 30) => run(index, query).filter((x) => x.m.section === 'contract').slice(0, limit).map((x) => x.h);
 /** 開発・薬事・販売の支援サービス（DTx で探したときの SaMD 開発支援 など） */
 export const searchSupport = (index: SearchItem[], query: string, limit = 50) => run(index, query).filter((x) => x.m.section === 'support').slice(0, limit).map((x) => x.h);
 /** 検索語の分野と同じだが、その言葉そのものではないもの（DTx で探したときの睡眠アプリ など） */

@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { withBase } from '@/lib/base';
 
-import { search, searchRelated, searchSupport, type SearchItem as Hit } from '@/lib/search-match';
+import { search, searchContract, searchRelated, searchSupport, type SearchItem as Hit } from '@/lib/search-match';
 const LABEL: Record<string, string> = { company: '企業', service: '事業', person: '人物', category: 'カテゴリ', overseas: '海外企業', article: '記事', monthly: '月刊ヘルステック' };
 
 export function SearchClient() {
@@ -23,6 +23,7 @@ export function SearchClient() {
   // 分野は同じだが、検索語そのものではないもの（DTx で探したときの睡眠アプリ など）は分けて出す
   const related = useMemo(() => (index ? searchRelated(index, q) : []), [q, index]);
   const support = useMemo(() => (index ? searchSupport(index, q) : []), [q, index]);
+  const contracts = useMemo(() => (index ? searchContract(index, q) : []), [q, index]);
 
   return (
     <>
@@ -36,6 +37,12 @@ export function SearchClient() {
         <section style={{ marginTop: 28 }}>
           <h2 style={{ fontSize: 17 }}>開発・薬事・販売の支援サービス<small className="muted" style={{ marginLeft: 8, fontWeight: 400 }}>「{q}」を作る・届ける側を支えるもの {support.length}件</small></h2>
           <Rows hits={support} />
+        </section>
+      )}
+      {contracts.length > 0 && (
+        <section style={{ marginTop: 28 }}>
+          <h2 style={{ fontSize: 17 }}>関連する提携・契約<small className="muted" style={{ marginLeft: 8, fontWeight: 400 }}>製品そのものではなく、販売権などの契約 {contracts.length}件</small></h2>
+          <Rows hits={contracts} />
         </section>
       )}
       {related.length > 0 && (
