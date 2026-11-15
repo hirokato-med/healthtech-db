@@ -65,7 +65,7 @@
     "company": "Ubie株式会社",
     "category": "medical-dx",
     "description": "患者が来院前や待合室でタブレット・スマホに症状を入力すると、AIが回答に応じて次の質問を選び、結果を医師向けの表現に変換して電子カルテに渡す医療機関向けAI問診。病院・クリニックが利用料を払う。現在は「ユビーメディカルナビ」の名称でも展開。",
-    "hp": "",
+    "hp": "https://intro.dr-ubie.com/products/ai-interview",
     "startedYear": 2018,
     "status": "提供中",
     "companyId": "7010701034132",
@@ -112,7 +112,7 @@
       "https://prtimes.jp/main/html/rd/p/000000063.000048083.html",
       "https://kepple.co.jp/articles/68xjhj40e9w"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "ai-symptom"
     ],
@@ -613,15 +613,18 @@
     "name": "遠隔画像診断サービス",
     "company": "株式会社ドクターネット",
     "category": "medical-image",
-    "description": "放射線科医のネットワークによる遠隔読影サービス。胸部X線肺炎検出AI（JLK-CRP）も薬事承認。",
-    "hp": "https://www.doctor-net.co.jp/",
+    "description": "放射線科医のネットワークによる遠隔読影サービス。",
+    "hp": "https://dr-net.co.jp/",
     "startedYear": 1995,
     "status": "提供中",
     "type": "teleradiology",
     "sources": [
       "https://www.doctor-net.co.jp/"
     ],
-    "companyId": "7010401088511"
+    "companyId": "7010401088511",
+    "startedAt": "1997-06",
+    "startBasis": "遠隔画像診断支援サービス（現 Tele-RAD）の開始。会社の設立は1995年1月",
+    "updatedAt": "2026-11"
   },
   {
     "id": "mrt-kyujin",
@@ -1760,10 +1763,6 @@
     "successor": "LINEミニアプリ「タヨリス」",
     "milestones": [
       {
-        "date": "2022",
-        "text": "公式ヘルスケアアプリとして公開（App Storeのアプリ番号から2022年後半と推定）"
-      },
-      {
         "date": "2026-02",
         "text": "ネイティブアプリの段階的終了とLINEミニアプリへの移行を発表。データ引き継ぎ機能を提供"
       },
@@ -1782,10 +1781,6 @@
       {
         "date": "2026-06",
         "text": "2026年6月30日に全サービス終了"
-      },
-      {
-        "date": "2026-06",
-        "text": "サービスを終了"
       }
     ],
     "endReasons": [
@@ -1801,11 +1796,11 @@
       "https://www.optim.co.jp/wp-content/uploads/blazLZLycW5L.pdf",
       "https://www.advertimes.com/?p=501535"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medication-support"
     ],
-    "startedAt": "2023-02",
+    "startedAt": "2023-02-06",
     "type": "pharmacy-patient-engagement",
     "endReasonInfo": {
       "sources": [
@@ -2861,13 +2856,13 @@
   {
     "id": "b-eba6ef21",
     "name": "MediTel（メディテル）",
-    "company": "NTTドコモ（新規事業創出プログラム「39works」）／テックファーム株式会社",
+    "company": "NTTドコモ（39works）／テックファーム株式会社／メディアコンテンツファクトリー（現 株式会社レイヤード）",
     "category": "telemedicine",
     "description": "ドコモが複数病院での実証をもとに開発し、テックファームが医療機関向けに販売・運用したオンライン診療システム。患者アプリで予約・ビデオ診察・カード決済・健康データ記録、医師はブラウザで診察。終了時期は確認できていない。",
     "hp": "",
     "startedYear": 2017,
     "status": "不明",
-    "startedAt": "2017-11",
+    "startedAt": "2018-01",
     "milestones": [
       {
         "date": "2017-01",
@@ -2883,12 +2878,12 @@
       },
       {
         "date": "2018-10",
-        "text": "MediTel の提供会社が NTTドコモからメディアコンテンツファクトリー（現レイヤード）に変わる（同社の発表）",
+        "text": "サービス提供会社をメディアコンテンツファクトリー（現レイヤード）に変更すると発表（変更前の販売・運用はテックファーム）",
         "source": "https://prtimes.jp/main/html/rd/p/000000010.000004524.html"
       },
       {
         "date": "2018-11",
-        "text": "ドコモがシステム導入費・月額利用費を無料にすると発表"
+        "text": "メディアコンテンツファクトリーとドコモが連名で、システム導入費・月額利用費の無料化を発表"
       },
       {
         "date": "2020-06",
@@ -2897,8 +2892,8 @@
     ],
     "sources": [
       "https://www.atpress.ne.jp/news/141799",
-      "https://cas.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
-      "https://cas.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
+      "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
+      "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
       "https://www.nikkei.com/article/DGKKZO60169590Z00C20A6MM8000/"
     ],
     "updatedAt": "2026-11",
@@ -2914,7 +2909,8 @@
       "no-payer"
     ],
     "endReasonNoteHold": "日経報道：保険適用されたが対面診療の維持など厳しい要件がつき医師の利用が広がらず、ドコモは「採算にあわないと判断した」。",
-    "endReasonCaveatLocked": true
+    "endReasonCaveatLocked": true,
+    "startBasis": "2018年10月の発表で「2018年1月からサービスを展開」。2017年の発表では2017年11月下旬に提供開始予定"
   },
   {
     "id": "optim-doctor",
@@ -18151,7 +18147,7 @@
     "companyId": "8010001061768",
     "category": "pharma-marketing-support",
     "description": "全国の医療機関と勤務する医師・歯科医師・薬剤師などの情報を収録した会員制データベース。医療・福祉分野の250社以上が会員となり、共同で情報を更新する。1972年に作成した全国医師医療施設ファイル（DCF）が基盤。",
-    "hp": "https://www.ultmarc.co.jp/solution/corporate_services/mdb/",
+    "hp": "https://www.ultmarc.co.jp/mdb/",
     "startedYear": 1972,
     "status": "提供中",
     "startedAt": "1972",
@@ -18160,9 +18156,9 @@
       "https://www.ultmarc.co.jp/about_ultmarc/company/history/",
       "https://www.ultmarc.co.jp/solution/corporate_services/mdb/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "medical-master-data",
-    "startBasis": "公式沿革「1972年 全国医師医療施設コンピューターファイル（DCF）を作成。このDCFが今日のデータベース事業の基盤に」"
+    "startBasis": "1972年は母体の医師・医療施設データ（DCF）の作成開始。「MDB」としての開始時期は未確認"
   },
   {
     "id": "b-1e946f0e",
@@ -41420,11 +41416,11 @@
   },
   {
     "id": "b-0744ee48",
-    "name": "BAKUNE（リカバリーウェア等、一般医療機器）",
+    "name": "BAKUNE（リカバリーウェア・寝具。ウェアは一般医療機器）",
     "company": "株式会社TENTIAL",
     "companyId": "9011001120604",
     "category": "direct-to-consumer",
-    "description": "2026年10月に夜専用インナー、掛け布団は累計25万枚",
+    "description": "TENTIAL のリカバリーブランド。パジャマなどのウェアは一般医療機器（家庭用遠赤外線血行促進用衣）として販売し、掛け布団などの寝具には医療機器の表示はない。2020年に発売し、自社EC・他社EC・店舗で売る。",
     "hp": "https://tential.jp/",
     "startedYear": 2020,
     "status": "提供中",
@@ -41432,7 +41428,7 @@
       "https://prtimes.jp/main/html/rd/p/000000076.000032370.html",
       "https://tential.jp/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "d2c-recovery-wear",
     "startedAt": "2020"
   },
@@ -62713,7 +62709,7 @@
     "startedAt": "2026-06-01",
     "lessons": "薬事承認から保険適用・発売まで3年以上かかった。償還の評価が見合わなければ希望書を取り下げてでも出し直す判断があり、販売パートナーとの契約も途中で組み替わりうる。",
     "sources": [
-      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0047.html",
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0045.html",
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30500BZX00033000_A_01",
       "https://prtimes.jp/main/html/rd/p/000000013.000069571.html",
       "https://prtimes.jp/main/html/rd/p/000000010.000069571.html",
@@ -62721,7 +62717,7 @@
       "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2026/8%E6%9C%88/J_20260826.pdf"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "startBasis": "保険適用と同時の販売開始（プレスリリース）。承認は2023-02",
     "milestones": [
       {
@@ -62751,13 +62747,18 @@
       },
       {
         "date": "2026-06-01",
-        "text": "「サスメド 不眠障害用アプリ Medcle」販売開始（自社販売）",
+        "text": "「サスメド 不眠障害用アプリ Medcle」販売開始（この時点では塩野義との販売提携契約が有効）",
         "source": "https://prtimes.jp/main/html/rd/p/000000013.000069571.html"
       },
       {
         "date": "2026-08",
         "text": "塩野義製薬との独占販売契約を終了。以後はサスメドが自社で販売",
         "source": "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2026/8%E6%9C%88/J_20260826.pdf"
+      },
+      {
+        "date": "2026-08",
+        "text": "塩野義製薬との販売提携契約（独占的販売権を含む）の終了に合意。以後はサスメドが自社で販売",
+        "source": "https://contents.xj-storage.jp/xcontents/AS82385/92277a48/2bd2/4a25/b367/4d882b4ca0c7/140120261106567428.pdf"
       }
     ],
     "device": {
@@ -103544,21 +103545,24 @@
   },
   {
     "id": "b-f827c022",
-    "name": "医療機器承認・認証取得支援「Doctors Cloud MD」",
+    "name": "医療機器承認・認証取得支援（Doctors Hub に掲載、旧「Doctors Cloud MD」）",
     "company": "ドクターズ株式会社",
     "companyId": "1010001178619",
     "category": "cro",
     "description": "治療用アプリやクラウド対応機器などで医療機器ビジネスに参入したい企業に代わり、医療機器承認・認証の準備から市場供給までのプロセスを代行するサービス。",
-    "hp": "https://doctors-inc.jp/",
+    "hp": "https://doctors-inc.jp/doctors-hub/",
     "startedYear": 2023,
-    "status": "提供中",
+    "status": "不明",
     "startedAt": "2023-07-12",
     "startBasis": "提供開始（プレスリリース）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000057.000051229.html"
+      "https://prtimes.jp/main/html/rd/p/000000057.000051229.html",
+      "https://doctors-inc.jp/doctors-hub/"
     ],
     "type": "regulatory-strategy-consulting",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "formerName": "Doctors Cloud MD",
+    "endReasonCaveat": "「Doctors Cloud MD」の名称のサービスは公式サイトで確認できず、機能は Doctors Hub の「医療機器認証取得支援」として掲載（統合・改称の発表は見つかっていない）"
   },
   {
     "id": "b-02d9adfe",
@@ -136751,7 +136755,7 @@
     "company": "FrontAct株式会社",
     "companyId": "9010001243704",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "updatedAt": "2026-11",
     "knownSince": "2026-11",
     "id": "b-8c2b2513",
@@ -136762,8 +136766,11 @@
     "hp": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
     "sources": [
       "https://frontact-gl.com/ja/product-information/product/mimory-works/",
-      "https://frontact-gl.com/ja/"
+      "https://frontact-gl.com/ja/",
+      "https://frontact-gl.com/pdf/NR20250630JA.pdf"
     ],
-    "knownSinceSource": "https://frontact-gl.com/ja/product-information/product/mimory-works/"
+    "knownSinceSource": "https://frontact-gl.com/ja/product-information/product/mimory-works/",
+    "stage": "β版（導入企業を募集中）",
+    "stageLocked": true
   }
 ]
