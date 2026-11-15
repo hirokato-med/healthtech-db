@@ -338,3 +338,22 @@ export type CompanyGroup = { asOf: string; sourceLabel: string; source: string; 
 /** 決算期ごとの通期の業績（百万円）。fy は決算期末 YYYY-MM。data/financial-history.json */
 export type FinanceYear = { fy: string; revenue?: number; operatingIncome?: number; netIncome?: number; source?: string; note?: string };
 export type FinanceHistory = { standard?: string; basis?: string; years: FinanceYear[] };
+
+/** 事業のしくみ（4つの軸と属性、data/business-axes.json の第2版）。項目ごとに出典を持つ */
+export type BmSource = { url: string; publisher?: string; published?: string };
+export type BusinessModel = {
+  id: string;
+  checkedAt: string;
+  problem?: { domain?: string; who?: string; situation?: string; sources?: BmSource[] };
+  offering?: { values: string[]; detail?: string; sources?: BmSource[] };
+  roles?: Partial<Record<'developer' | 'mah' | 'seller' | 'operator' | 'brandOwner' | 'operatorUser' | 'outputUser' | 'subject' | 'supplier' | 'recommender' | 'contractor' | 'directPayer' | 'finalBearer', string[]>> & { sources?: BmSource[] };
+  revenue?: { values: string[]; detail?: string; customerRecovery?: string[]; recoveryDetail?: string; sources?: BmSource[] };
+  channel?: { values: string[]; detail?: string; sources?: BmSource[] };
+  regulatory?: { values: string[]; detail?: string; sources?: BmSource[] };
+  reimbursement?: { values: string[]; detail?: string; sources?: BmSource[] };
+  stage?: { value: string; sources?: BmSource[] };
+  activity?: { value: string; detail?: string; sources?: BmSource[] };
+  periods?: { t: string; what?: string; user?: string; pay?: string; bear?: string; channel?: string }[];
+  plan?: string;
+  adoption?: { metric: string; definition?: string; scope?: string; value: string; asOf?: string; source?: BmSource }[];
+};

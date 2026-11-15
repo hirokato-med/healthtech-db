@@ -4,12 +4,13 @@ import Link from 'next/link';
 import { withBase } from '@/lib/base';
 import { notFound } from 'next/navigation';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { END_REASONS, categoryName, getBizType, getCompany, getService, getServices, servicesIn, servicesOfType } from '@/lib/data';
+import { getBusinessModel, END_REASONS, categoryName, getBizType, getCompany, getService, getServices, servicesIn, servicesOfType } from '@/lib/data';
 import { ym } from '@/lib/ym';
 import { StageBadge } from '@/components/StageBadge';
 import { DevicePanel, DeviceTag } from '@/components/DeviceInfo';
 import { ReasonInfo } from '@/components/ReasonInfo';
 import { AfterEnd } from '@/components/AfterEnd';
+import { BusinessModelPanel } from '@/components/BusinessModelPanel';
 
 export function generateStaticParams() {
   return getServices().map((s) => ({ id: s.id }));
@@ -28,6 +29,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
   const s = getService((await params).id);
   if (!s) notFound();
   const company = s.companyId ? getCompany(s.companyId) : undefined;
+  const bm = getBusinessModel(s.id);
   const bt = s.type ? getBizType(s.type) : undefined;
   const siblings = servicesIn(s.category).filter((x) => x.id !== s.id).slice(0, 6);
   // 医療機器の情報は、医療機器の事業か、医療機器が並ぶ種類（画像診断AI など）の事業で出す
@@ -92,6 +94,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
               {s.lessons && <p className="lessons"><b className="kato-label"><img src={withBase('/images/kato-avatar.jpg')} alt="" width={22} height={22} />加藤浩晃の見立て</b>{s.lessons}</p>}
             </section>
           )}
+          {bm && <BusinessModelPanel m={bm} />}
           {showDevice && <DevicePanel s={s} />}
           {(s.startedAt || s.startedYear || s.milestones?.length || s.endedAt || s.plannedEnd || s.suspension) && (
             <section className="panel">

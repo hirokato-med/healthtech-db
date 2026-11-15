@@ -3,7 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import { renderMarkdown } from './markdown';
 import { withBase } from './base';
-import type {
+import type { BusinessModel,
   Disclosure,
   EarningsReport,
   Funding,
@@ -113,6 +113,9 @@ export const servicesOfType = (slug: string) => getServices().filter((s) => s.ty
 export const servicesInTheme = (slug: string) => getServices().filter((s) => s.themes?.includes(slug));
 
 export const getService = (id: string) => getServices().find((s) => s.id === id);
+/** 事業のしくみ（4つの軸と属性）。見本20事業から順に入れる */
+export const getBusinessModels = () => memo('business-models', () => read<Record<string, BusinessModel>>('business-models.json'));
+export const getBusinessModel = (id: string) => getBusinessModels()[id];
 export const servicesOf = (companyId: string) => getServices().filter((s) => s.companyId === companyId);
 
 /** 上場企業の決算（企業ID → 決算の一覧、新しい順） */
