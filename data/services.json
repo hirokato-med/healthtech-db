@@ -3202,7 +3202,7 @@
     "description": "KDDIのヘルスケアアプリ「auウェルネス」の機能として、MICINのcuronを使ったオンライン診療と、薬局のオンライン服薬指導を提供。診療1回330円のシステム利用料。プレミアム会員向けに健康電話相談も。",
     "hp": "",
     "startedYear": 2021,
-    "status": "提供中",
+    "status": "不明",
     "startedAt": "2021-06",
     "milestones": [
       {
@@ -3222,12 +3222,14 @@
       "https://www.watch.impress.co.jp/docs/news/1334731.html",
       "https://www.au.com/information/topic/content/2024-005/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
     "type": "telemedicine-direct-to-patient",
-    "companyId": "9011101031552"
+    "companyId": "9011101031552",
+    "endReasonCaveat": "2026年6月に auウェルネスのオンライン診療は提携クリニックの別サイトに替わり、curon の名前が見当たらない。curon for KDDI の終了・移行の発表は見つかっていないため、提供状況は未確認とした。",
+    "endReasonCaveatLocked": true
   },
   {
     "id": "b-8ad0dfe4",
@@ -11732,7 +11734,7 @@
     "status": "終了",
     "startedAt": "2005",
     "endedAt": "2024-06",
-    "successor": "多くの保険者がDeSCヘルスケア「kencom」へ移行",
+    "successor": "（後継サービスはない。多くの保険者が別会社の DeSCヘルスケア「kencom」に乗り換えた）",
     "milestones": [
       {
         "date": "2003-06",
@@ -11785,7 +11787,7 @@
       "https://www.todenkenpo.jp/inm/news/detail.html?articleid=462",
       "https://www.city.higashikurume.lg.jp/kurashi/zei/kokuho/1006426.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "phr-employer"
     ],
@@ -11799,10 +11801,12 @@
     },
     "after": {
       "event": "提供終了",
-      "fate": "別サービスへ移行",
-      "asOf": "2026-10",
+      "fate": "提供終了",
+      "note": "保険者の多くは別会社のサービス（kencom）に乗り換えた",
+      "asOf": "2026-11",
       "sourceDate": "2024-03"
-    }
+    },
+    "afterLocked": true
   },
   {
     "id": "b-66bc140a",
@@ -17153,8 +17157,8 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000023.000080023.html"
       },
       {
-        "date": "2026-10",
-        "text": "同社公式サイトはセキュリティ対応のため一時停止中で、今日の問診票の現状は確認できない"
+        "date": "2026-11",
+        "text": "公式サイトが閲覧でき、今日の問診票の案内・更新が続いていることを確認"
       }
     ],
     "sources": [
@@ -28677,14 +28681,14 @@
     "description": "消化器内科医などが使う内視鏡画像診断支援ソフトウェア。検査中に内視鏡のビデオプロセッサから取り込んだ胃の画像をAIが解析し、生検など追加検査を検討すべき病変候補の可能性を示して医師の診断を補助する。同社の国内第1弾承認製品。",
     "hp": "https://www.ai-ms.com/company",
     "startedYear": 2023,
-    "status": "提供中",
+    "status": "不明",
     "startedAt": "2023-12",
     "sources": [
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30500BZX00297000_A_01",
       "https://www.ai-ms.com/company",
       "https://prtimes.jp/main/html/rd/p/000000022.000049025.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "imaging-diagnosis-ai",
     "startBasis": "公式沿革「2023.12 国内第一弾AI製品『gastroAI model-G』の製造販売承認を取得」",
     "milestones": [
@@ -28733,7 +28737,9 @@
       "jmdn": "71080002",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "endReasonCaveat": "後継の model-G2・G3 が出て、会社サイトの製品紹介から model-G が消えている。終了の告知は見つかっていないため、提供状況は未確認とした。",
+    "endReasonCaveatLocked": true
   },
   {
     "id": "b-f6724608",
@@ -63517,7 +63523,7 @@
     "company": "Splink",
     "companyId": "4010001180836",
     "category": "medical-image",
-    "description": "頭部MRI画像から脳の萎縮度などを解析し、認知症診療での医師の判断を支援するプログラム医療機器。2022年4月に薬事認可を取得し、2026年には治療前後の変化を可視化する機能を追加した。",
+    "description": "頭部画像を解析して認知症診療での医師の判断を支援するプログラム医療機器のブランド。MRI の萎縮解析は「Braineer」（2021年認証）、アミロイドPET の解析は「BRAINEER Model A」（2022年4月認証）で、別の製品。",
     "hp": "https://www.splinkns.com/",
     "startedYear": 2022,
     "status": "提供中",
@@ -63529,7 +63535,7 @@
       "https://www.splinkns.com/2026-04-27/index.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "milestones": [
       {
         "date": "2021",
