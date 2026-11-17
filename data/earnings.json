@@ -4847,7 +4847,18 @@
      "prior": {
       "revenue": 2219481
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品事業",
+      "revenue": 2406997,
+      "profit": 406739,
+      "priorRevenue": 2219481,
+      "priorProfit": 253561,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "営業利益（単一セグメントのため連結営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -4979,7 +4990,18 @@
      "prior": {
       "revenue": 1030114
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品事業",
+      "revenue": 1270861,
+      "profit": 316556,
+      "priorRevenue": 1030114,
+      "priorProfit": 199378,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "営業利益（単一セグメントのため連結営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5117,7 +5139,18 @@
      "prior": {
       "revenue": 975353
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬事業",
+      "revenue": 1167233,
+      "profit": 193795,
+      "priorRevenue": 975353,
+      "priorProfit": 144237,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "営業利益（単一セグメントのため連結営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5240,7 +5273,18 @@
      "prior": {
       "revenue": 911640
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品事業",
+      "revenue": 1068074,
+      "profit": 522570,
+      "priorRevenue": 911640,
+      "priorProfit": 429827,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "営業利益（単一セグメントのため連結営業利益）"
    },
    {
     "fiscalYear": "2026年12月期",
@@ -5375,7 +5419,58 @@
      "prior": {
       "revenue": 400013
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "日本",
+      "revenue": 116655,
+      "profit": 36560,
+      "priorRevenue": 112518,
+      "priorProfit": 33566,
+      "healthcare": true
+     },
+     {
+      "name": "アメリカス",
+      "revenue": 179232,
+      "profit": 46591,
+      "priorRevenue": 141669,
+      "priorProfit": 29942,
+      "healthcare": true
+     },
+     {
+      "name": "中国",
+      "revenue": 82620,
+      "profit": 32855,
+      "priorRevenue": 66230,
+      "priorProfit": 26259,
+      "healthcare": true
+     },
+     {
+      "name": "EMEA",
+      "revenue": 43687,
+      "profit": 10099,
+      "priorRevenue": 38793,
+      "priorProfit": 6352,
+      "healthcare": true
+     },
+     {
+      "name": "イーストアジア・グローバルサウス",
+      "revenue": 39863,
+      "profit": 14103,
+      "priorRevenue": 34060,
+      "priorProfit": 12542,
+      "healthcare": true
+     },
+     {
+      "name": "その他事業",
+      "revenue": 7905,
+      "profit": 2528,
+      "priorRevenue": 6743,
+      "priorProfit": 3127,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5593,7 +5688,40 @@
      "prior": {
       "revenue": 1818743
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医療関連事業",
+      "revenue": 1460575,
+      "profit": 380241,
+      "priorRevenue": 1278680,
+      "priorProfit": 371609,
+      "healthcare": true
+     },
+     {
+      "name": "ニュートラシューティカルズ関連事業",
+      "revenue": 460602,
+      "profit": 55965,
+      "priorRevenue": 430736,
+      "priorProfit": 48555,
+      "healthcare": true
+     },
+     {
+      "name": "消費者関連事業",
+      "revenue": 26944,
+      "profit": 24483,
+      "priorRevenue": 25793,
+      "priorProfit": 21219
+     },
+     {
+      "name": "その他の事業",
+      "revenue": 94316,
+      "profit": 7202,
+      "priorRevenue": 83534,
+      "priorProfit": 7125
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益ベース）"
    },
    {
     "fiscalYear": "2026年12月期",
@@ -5774,7 +5902,18 @@
      "prior": {
       "revenue": 212965
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医療用医薬品事業",
+      "revenue": 350377,
+      "profit": 115244,
+      "priorRevenue": 212965,
+      "priorProfit": 73977,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "営業利益（単一セグメントのため連結営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -5934,7 +6073,18 @@
      "prior": {
       "revenue": 257136
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品事業",
+      "revenue": 232504,
+      "profit": 57907,
+      "priorRevenue": 257136,
+      "priorProfit": 52069,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "営業利益（単一セグメントのため連結営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6068,7 +6218,18 @@
      "prior": {
       "revenue": 349451
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬事業",
+      "revenue": 384947,
+      "profit": 96952,
+      "priorRevenue": 349451,
+      "priorProfit": 66062,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "コア営業利益（単一セグメント。IFRSの営業利益は開示なし）"
    },
    {
     "fiscalYear": "2026年12月期",
@@ -6181,7 +6342,18 @@
      "revenue": 3.9,
      "operatingIncome": 8.4,
      "netIncome": 10.8
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品事業（単一セグメント）",
+      "revenue": 143289,
+      "profit": 19411,
+      "priorRevenue": 137879,
+      "priorProfit": 17915,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "単一セグメントのため営業利益（全社）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6314,7 +6486,18 @@
      "prior": {
       "revenue": 227122
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品事業（単一セグメント）",
+      "revenue": 266490,
+      "profit": 42123,
+      "priorRevenue": 227122,
+      "priorProfit": 96084,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "単一セグメントのためコア営業利益（全社）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6467,7 +6650,18 @@
      "prior": {
       "revenue": 98843
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品等の製造及び販売（単一セグメント）",
+      "revenue": 102019,
+      "profit": 9595,
+      "priorRevenue": 98843,
+      "priorProfit": 8534,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "単一セグメントのため営業利益（全社）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6629,7 +6823,18 @@
       "ordinaryIncome": 1582,
       "netIncome": 1494
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品事業（単一セグメント）",
+      "revenue": 57489,
+      "profit": 306,
+      "priorRevenue": 58731,
+      "priorProfit": 1363,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "単一セグメントのため営業利益（全社）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6795,7 +7000,39 @@
       "ordinaryIncome": 2638,
       "netIncome": 2219
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品事業",
+      "revenue": 29615,
+      "profit": 3297,
+      "priorRevenue": 29255,
+      "priorProfit": 3119,
+      "healthcare": true
+     },
+     {
+      "name": "アニマルヘルス事業",
+      "revenue": 4125,
+      "profit": 276,
+      "priorRevenue": 3765,
+      "priorProfit": 282
+     },
+     {
+      "name": "海外事業",
+      "revenue": 1798,
+      "profit": 53,
+      "priorRevenue": 2133,
+      "priorProfit": 131
+     },
+     {
+      "name": "その他",
+      "revenue": 87,
+      "profit": -2,
+      "priorRevenue": 99,
+      "priorProfit": -15
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益ベース）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -6980,7 +7217,25 @@
       "ordinaryIncome": 41626,
       "netIncome": 21477
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "食品",
+      "revenue": 473522,
+      "profit": 30742,
+      "priorRevenue": 457907,
+      "priorProfit": 29013
+     },
+     {
+      "name": "医薬品",
+      "revenue": 124850,
+      "profit": 19994,
+      "priorRevenue": 116978,
+      "priorProfit": 14319,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7139,7 +7394,58 @@
       "ordinaryIncome": 18032,
       "netIncome": 16241
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品卸売事業",
+      "revenue": 1217139,
+      "profit": 12339,
+      "priorRevenue": 1154430,
+      "priorProfit": 13682,
+      "healthcare": true
+     },
+     {
+      "name": "デジタルビジネス",
+      "revenue": 576,
+      "profit": -855,
+      "priorRevenue": 344,
+      "priorProfit": -59,
+      "healthcare": true
+     },
+     {
+      "name": "ロジスティクス",
+      "revenue": 10562,
+      "profit": 1811,
+      "priorRevenue": 10518,
+      "priorProfit": 1364,
+      "healthcare": true
+     },
+     {
+      "name": "ヘルスケア製品開発",
+      "revenue": 5185,
+      "profit": 284,
+      "priorRevenue": 5865,
+      "priorProfit": 1192,
+      "healthcare": true
+     },
+     {
+      "name": "地域医療介護支援",
+      "revenue": 45712,
+      "profit": -152,
+      "priorRevenue": 46480,
+      "priorProfit": 411,
+      "healthcare": true
+     },
+     {
+      "name": "その他関連",
+      "revenue": 1847,
+      "profit": 58,
+      "priorRevenue": 1802,
+      "priorProfit": 85,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益ベース）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7342,7 +7648,50 @@
      "operatingIncome": -19.6,
      "ordinaryIncome": -17.8,
      "netIncome": -28.5
-    }
+    },
+    "segments": [
+     {
+      "name": "医療用医薬品等卸売事業",
+      "revenue": 1415008,
+      "profit": 13986,
+      "priorRevenue": 1357439,
+      "priorProfit": 14754,
+      "healthcare": true
+     },
+     {
+      "name": "セルフメディケーション卸売事業",
+      "revenue": 130323,
+      "profit": 1025,
+      "priorRevenue": 135337,
+      "priorProfit": 1756,
+      "healthcare": true
+     },
+     {
+      "name": "医薬品等製造事業",
+      "revenue": 17305,
+      "profit": -1227,
+      "priorRevenue": 18701,
+      "priorProfit": -98,
+      "healthcare": true
+     },
+     {
+      "name": "調剤薬局等事業",
+      "revenue": 18941,
+      "profit": 2,
+      "priorRevenue": 18284,
+      "priorProfit": 156,
+      "healthcare": true
+     },
+     {
+      "name": "その他（再生医療関連・CRO）",
+      "revenue": 1181,
+      "profit": -727,
+      "priorRevenue": 0,
+      "priorProfit": -509,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益ベース）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7549,7 +7898,32 @@
       "ordinaryIncome": 34269,
       "netIncome": 22090
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医療用医薬品等卸売事業",
+      "revenue": 1270525,
+      "profit": 12582,
+      "priorRevenue": 1213953,
+      "priorProfit": 9673,
+      "healthcare": true
+     },
+     {
+      "name": "化粧品・日用品、一般用医薬品卸売事業",
+      "revenue": 634597,
+      "profit": 11026,
+      "priorRevenue": 624996,
+      "priorProfit": 13894
+     },
+     {
+      "name": "動物用医薬品・食品加工原材料卸売等関連事業",
+      "revenue": 64497,
+      "profit": 1910,
+      "priorRevenue": 58612,
+      "priorProfit": 1353
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益ベース）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -7742,7 +8116,42 @@
       "ordinaryIncome": 8329,
       "netIncome": 6244
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医薬品卸売事業",
+      "revenue": 755426,
+      "profit": 6357,
+      "priorRevenue": 714217,
+      "priorProfit": 7349,
+      "healthcare": true
+     },
+     {
+      "name": "調剤薬局事業",
+      "revenue": 50153,
+      "profit": 166,
+      "priorRevenue": 49540,
+      "priorProfit": 600,
+      "healthcare": true
+     },
+     {
+      "name": "医薬品製造販売事業",
+      "revenue": 473,
+      "profit": 109,
+      "priorRevenue": 1298,
+      "priorProfit": 120,
+      "healthcare": true
+     },
+     {
+      "name": "その他周辺事業",
+      "revenue": 2491,
+      "profit": 165,
+      "priorRevenue": 2843,
+      "priorProfit": 475,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益ベース）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -8327,7 +8736,59 @@
      "revenue": 20.5,
      "ordinaryIncome": 77.9,
      "netIncome": 74.2
-    }
+    },
+    "segments": [
+     {
+      "name": "エネルギー&パワーソリューション",
+      "revenue": 2410453,
+      "profit": 190124,
+      "priorRevenue": 2048210,
+      "priorProfit": 105343
+     },
+     {
+      "name": "マテリアルソリューション",
+      "revenue": 1983244,
+      "profit": 28541,
+      "priorRevenue": 1775412,
+      "priorProfit": 21357
+     },
+     {
+      "name": "金属資源",
+      "revenue": 2713928,
+      "profit": 135828,
+      "priorRevenue": 1706337,
+      "priorProfit": 46603
+     },
+     {
+      "name": "社会インフラ",
+      "revenue": 307881,
+      "profit": 66628,
+      "priorRevenue": 407798,
+      "priorProfit": 43760
+     },
+     {
+      "name": "モビリティ",
+      "revenue": 474330,
+      "profit": 59349,
+      "priorRevenue": 348280,
+      "priorProfit": 40039
+     },
+     {
+      "name": "食品産業",
+      "revenue": 1300633,
+      "profit": 44874,
+      "priorRevenue": 1100819,
+      "priorProfit": 35694
+     },
+     {
+      "name": "S.L.C.",
+      "revenue": 1214941,
+      "profit": 76770,
+      "priorRevenue": 1244755,
+      "priorProfit": 52683
+     }
+    ],
+    "segmentProfitLabel": "当社の所有者に帰属する中間純利益"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -8517,7 +8978,59 @@
      "revenue": 23.1,
      "ordinaryIncome": 29.8,
      "netIncome": 35.7
-    }
+    },
+    "segments": [
+     {
+      "name": "金属資源",
+      "revenue": 1257954,
+      "profit": 139686,
+      "priorRevenue": 913868,
+      "priorProfit": 114289
+     },
+     {
+      "name": "鉄鋼製品",
+      "revenue": 335200,
+      "profit": 10537,
+      "priorRevenue": 318947,
+      "priorProfit": 11326
+     },
+     {
+      "name": "エネルギー",
+      "revenue": 1890434,
+      "profit": 103279,
+      "priorRevenue": 1585590,
+      "priorProfit": 102229
+     },
+     {
+      "name": "モビリティ・デジタル・インフラ",
+      "revenue": 988118,
+      "profit": 153685,
+      "priorRevenue": 737653,
+      "priorProfit": 102639
+     },
+     {
+      "name": "化学品",
+      "revenue": 1825728,
+      "profit": 70159,
+      "priorRevenue": 1392529,
+      "priorProfit": 43457
+     },
+     {
+      "name": "ウェルネスエコシステム",
+      "revenue": 1857638,
+      "profit": 20814,
+      "priorRevenue": 1650909,
+      "priorProfit": 20762
+     },
+     {
+      "name": "イノベーション&コーポレートディベロップメント",
+      "revenue": 166673,
+      "profit": 60873,
+      "priorRevenue": 158843,
+      "priorProfit": 25304
+     }
+    ],
+    "segmentProfitLabel": "中間利益（親会社の所有者に帰属）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -8719,7 +9232,66 @@
      "operatingIncome": 16.7,
      "ordinaryIncome": 6.3,
      "netIncome": 16
-    }
+    },
+    "segments": [
+     {
+      "name": "繊維",
+      "revenue": 369008,
+      "profit": 32681,
+      "priorRevenue": 331295,
+      "priorProfit": 24199
+     },
+     {
+      "name": "機械",
+      "revenue": 757511,
+      "profit": 123694,
+      "priorRevenue": 734025,
+      "priorProfit": 76915
+     },
+     {
+      "name": "金属",
+      "revenue": 695434,
+      "profit": 92172,
+      "priorRevenue": 561993,
+      "priorProfit": 63548
+     },
+     {
+      "name": "エネルギー・化学品",
+      "revenue": 1769727,
+      "profit": 90392,
+      "priorRevenue": 1478263,
+      "priorProfit": 37685
+     },
+     {
+      "name": "食料",
+      "revenue": 2883162,
+      "profit": 64727,
+      "priorRevenue": 2854885,
+      "priorProfit": 64409
+     },
+     {
+      "name": "住生活",
+      "revenue": 787528,
+      "profit": 29070,
+      "priorRevenue": 726309,
+      "priorProfit": 19044
+     },
+     {
+      "name": "情報・金融",
+      "revenue": 593963,
+      "profit": 48428,
+      "priorRevenue": 499817,
+      "priorProfit": 40020
+     },
+     {
+      "name": "第8",
+      "revenue": 6555,
+      "profit": 24548,
+      "priorRevenue": 4835,
+      "priorProfit": 21937
+     }
+    ],
+    "segmentProfitLabel": "当社株主に帰属する中間純利益"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -8938,7 +9510,80 @@
      "revenue": 10.8,
      "ordinaryIncome": -7.4,
      "netIncome": 15.5
-    }
+    },
+    "segments": [
+     {
+      "name": "鉄鋼",
+      "revenue": 784431,
+      "profit": 38916,
+      "priorRevenue": 730376,
+      "priorProfit": 34128
+     },
+     {
+      "name": "自動車",
+      "revenue": 300300,
+      "profit": 23510,
+      "priorRevenue": 303433,
+      "priorProfit": 53441
+     },
+     {
+      "name": "輸送機・建機",
+      "revenue": 448136,
+      "profit": 49889,
+      "priorRevenue": 384917,
+      "priorProfit": 40311
+     },
+     {
+      "name": "都市総合開発",
+      "revenue": 221848,
+      "profit": 31990,
+      "priorRevenue": 214816,
+      "priorProfit": 44074
+     },
+     {
+      "name": "コミュニケーションサービス",
+      "revenue": 2803,
+      "profit": 9224,
+      "priorRevenue": 1773,
+      "priorProfit": 6457
+     },
+     {
+      "name": "デジタル・AI",
+      "revenue": 403165,
+      "profit": 23550,
+      "priorRevenue": 373354,
+      "priorProfit": 15092
+     },
+     {
+      "name": "ライフスタイル",
+      "revenue": 563436,
+      "profit": 4149,
+      "priorRevenue": 528815,
+      "priorProfit": 2279
+     },
+     {
+      "name": "資源",
+      "revenue": 192423,
+      "profit": 54370,
+      "priorRevenue": 144943,
+      "priorProfit": 31603
+     },
+     {
+      "name": "化学品・エレクトロニクス・農業",
+      "revenue": 624293,
+      "profit": 21398,
+      "priorRevenue": 538368,
+      "priorProfit": 14846
+     },
+     {
+      "name": "エネルギートランスフォーメーション",
+      "revenue": 383954,
+      "profit": 58170,
+      "priorRevenue": 324883,
+      "priorProfit": 48123
+     }
+    ],
+    "segmentProfitLabel": "中間利益（親会社の所有者に帰属）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9186,7 +9831,38 @@
      "prior": {
       "revenue": 6772713
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "総合ICT事業",
+      "revenue": 3131242,
+      "profit": 482052,
+      "priorRevenue": 2892807,
+      "priorProfit": 474722
+     },
+     {
+      "name": "グローバル・ソリューション事業",
+      "revenue": 2514919,
+      "profit": 144167,
+      "priorRevenue": 2247733,
+      "priorProfit": 268977
+     },
+     {
+      "name": "地域通信事業",
+      "revenue": 1220807,
+      "profit": 188247,
+      "priorRevenue": 1210530,
+      "priorProfit": 187540
+     },
+     {
+      "name": "その他（不動産、エネルギー等）",
+      "revenue": 495186,
+      "profit": 29502,
+      "priorRevenue": 421643,
+      "priorProfit": 34911
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9364,7 +10040,38 @@
      "prior": {
       "revenue": 2916005
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "テレコムコア",
+      "revenue": 2165374,
+      "profit": 435673,
+      "priorRevenue": 2090880,
+      "priorProfit": 373299
+     },
+     {
+      "name": "パーソナルグロース",
+      "revenue": 562888,
+      "profit": 114935,
+      "priorRevenue": 523579,
+      "priorProfit": 110840
+     },
+     {
+      "name": "ビジネスグロース",
+      "revenue": 267797,
+      "profit": 39967,
+      "priorRevenue": 242917,
+      "priorProfit": 33656
+     },
+     {
+      "name": "その他",
+      "revenue": 56754,
+      "profit": 43380,
+      "priorRevenue": 58628,
+      "priorProfit": 38988
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（調整後営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9523,7 +10230,52 @@
      "prior": {
       "revenue": 3400835
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "コンシューマ",
+      "revenue": 1593740,
+      "profit": 322927,
+      "priorRevenue": 1467836,
+      "priorProfit": 330851
+     },
+     {
+      "name": "エンタープライズ",
+      "revenue": 516573,
+      "profit": 124785,
+      "priorRevenue": 464437,
+      "priorProfit": 104070
+     },
+     {
+      "name": "ディストリビューション",
+      "revenue": 516570,
+      "profit": 25440,
+      "priorRevenue": 430235,
+      "priorProfit": 21988
+     },
+     {
+      "name": "メディア・EC",
+      "revenue": 882515,
+      "profit": 126479,
+      "priorRevenue": 809252,
+      "priorProfit": 167529
+     },
+     {
+      "name": "ファイナンス",
+      "revenue": 224186,
+      "profit": 67016,
+      "priorRevenue": 177280,
+      "priorProfit": 38531
+     },
+     {
+      "name": "その他",
+      "revenue": 65163,
+      "profit": -26420,
+      "priorRevenue": 51795,
+      "priorProfit": -33517
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9728,7 +10480,46 @@
      "prior": {
       "revenue": 83151
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "ゲーム事業",
+      "revenue": 23820,
+      "profit": 6800,
+      "priorRevenue": 33499,
+      "priorProfit": 17039
+     },
+     {
+      "name": "ライブストリーミング事業",
+      "revenue": 19757,
+      "profit": 1903,
+      "priorRevenue": 20269,
+      "priorProfit": 2265
+     },
+     {
+      "name": "スポーツ・スマートシティ事業",
+      "revenue": 27894,
+      "profit": 9855,
+      "priorRevenue": 24498,
+      "priorProfit": 8392
+     },
+     {
+      "name": "ヘルスケア・メディカル事業",
+      "revenue": 3479,
+      "profit": -1450,
+      "priorRevenue": 3699,
+      "priorProfit": -2327,
+      "healthcare": true
+     },
+     {
+      "name": "新規事業・その他",
+      "revenue": 1329,
+      "profit": -1156,
+      "priorRevenue": 1187,
+      "priorProfit": -707
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（損失）（売上収益－売上原価－販管費）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -9928,7 +10719,32 @@
      }
     },
     "pdf": "https://www.release.tdnet.info/inbs/140120261112577312.pdf",
-    "source": "TDnet XBRL"
+    "source": "TDnet XBRL",
+    "segments": [
+     {
+      "name": "ライフサイエンスAI事業",
+      "revenue": 384,
+      "profit": -149,
+      "priorRevenue": 274,
+      "priorProfit": -185,
+      "healthcare": true
+     },
+     {
+      "name": "リスクマネジメント事業",
+      "revenue": 1539,
+      "profit": -114,
+      "priorRevenue": 2031,
+      "priorProfit": 137
+     },
+     {
+      "name": "DX事業",
+      "revenue": 1369,
+      "profit": 69,
+      "priorRevenue": 1070,
+      "priorProfit": 46
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益又はセグメント損失（△）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -10098,7 +10914,31 @@
       "ordinaryIncome": 26120,
       "netIncome": 29890
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "情報ソリューション事業分野",
+      "revenue": 422557,
+      "profit": 13935,
+      "priorRevenue": 417946,
+      "priorProfit": 10941
+     },
+     {
+      "name": "生活・産業事業分野",
+      "revenue": 443096,
+      "profit": 32663,
+      "priorRevenue": 326860,
+      "priorProfit": 14876
+     },
+     {
+      "name": "エレクトロニクス事業分野",
+      "revenue": 78152,
+      "profit": 18078,
+      "priorRevenue": 118812,
+      "priorProfit": 20472
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -10257,7 +11097,26 @@
      "prior": {
       "revenue": 454350
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "消化器内視鏡ソリューション",
+      "revenue": 352982,
+      "profit": 98784,
+      "priorRevenue": 307041,
+      "priorProfit": 53444,
+      "healthcare": true
+     },
+     {
+      "name": "サージカルインターベンション",
+      "revenue": 156560,
+      "profit": 3159,
+      "priorRevenue": 147201,
+      "priorProfit": -4182,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "営業利益（又は損失）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -10418,7 +11277,40 @@
      "prior": {
       "revenue": 534930
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "心臓血管カンパニー",
+      "revenue": 372286,
+      "profit": 110094,
+      "priorRevenue": 322053,
+      "priorProfit": 87016,
+      "healthcare": true
+     },
+     {
+      "name": "メディカルケアソリューションズカンパニー",
+      "revenue": 115626,
+      "profit": 12410,
+      "priorRevenue": 105639,
+      "priorProfit": 13530,
+      "healthcare": true
+     },
+     {
+      "name": "血液・細胞テクノロジーカンパニー",
+      "revenue": 124794,
+      "profit": 21810,
+      "priorRevenue": 107074,
+      "priorProfit": 15623,
+      "healthcare": true
+     },
+     {
+      "name": "オーガンテクノロジーズ事業",
+      "revenue": 11626,
+      "profit": 1675,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（調整後営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -10624,7 +11516,50 @@
      "prior": {
       "revenue": 232527
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "本社統括",
+      "revenue": 51727,
+      "profit": 10385,
+      "priorRevenue": 38371,
+      "priorProfit": 11874,
+      "healthcare": true
+     },
+     {
+      "name": "米州統括",
+      "revenue": 77109,
+      "profit": 8649,
+      "priorRevenue": 61164,
+      "priorProfit": 3175,
+      "healthcare": true
+     },
+     {
+      "name": "EMEA統括",
+      "revenue": 83960,
+      "profit": 7869,
+      "priorRevenue": 70531,
+      "priorProfit": 5721,
+      "healthcare": true
+     },
+     {
+      "name": "中国統括",
+      "revenue": 38730,
+      "profit": 3452,
+      "priorRevenue": 43227,
+      "priorProfit": 5688,
+      "healthcare": true
+     },
+     {
+      "name": "AP統括",
+      "revenue": 21294,
+      "profit": 2801,
+      "priorRevenue": 19232,
+      "priorProfit": 3626,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -10827,7 +11762,40 @@
      "prior": {
       "revenue": 345915
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "IAB（制御機器事業）",
+      "revenue": 260203,
+      "profit": 40703,
+      "priorRevenue": 191024,
+      "priorProfit": 17910
+     },
+     {
+      "name": "HCB（ヘルスケア事業）",
+      "revenue": 77431,
+      "profit": 8765,
+      "priorRevenue": 66733,
+      "priorProfit": 3843,
+      "healthcare": true
+     },
+     {
+      "name": "SSB（社会システム事業）",
+      "revenue": 49341,
+      "profit": 791,
+      "priorRevenue": 57658,
+      "priorProfit": 2263
+     },
+     {
+      "name": "DSB（データソリューション事業）",
+      "revenue": 28508,
+      "profit": 1409,
+      "priorRevenue": 22906,
+      "priorProfit": 785,
+      "healthcare": true
+     }
+    ],
+    "segmentProfitLabel": "営業利益（△損失）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -11010,7 +11978,59 @@
      "prior": {
       "revenue": 3820476
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "コネクト",
+      "revenue": 693316,
+      "profit": 58082,
+      "priorRevenue": 602276,
+      "priorProfit": 28865
+     },
+     {
+      "name": "エレクトリックワークス",
+      "revenue": 553488,
+      "profit": 57295,
+      "priorRevenue": 491316,
+      "priorProfit": 27152
+     },
+     {
+      "name": "HVAC & CC",
+      "revenue": 704882,
+      "profit": 30751,
+      "priorRevenue": 580984,
+      "priorProfit": 19258
+     },
+     {
+      "name": "エナジー",
+      "revenue": 625326,
+      "profit": 96509,
+      "priorRevenue": 425667,
+      "priorProfit": 33083
+     },
+     {
+      "name": "インダストリー",
+      "revenue": 657638,
+      "profit": 86918,
+      "priorRevenue": 547837,
+      "priorProfit": 46331
+     },
+     {
+      "name": "スマートライフ",
+      "revenue": 602018,
+      "profit": 7279,
+      "priorRevenue": 597244,
+      "priorProfit": 15390
+     },
+     {
+      "name": "その他",
+      "revenue": 255852,
+      "profit": 37286,
+      "priorRevenue": 575152,
+      "priorProfit": 22870
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益ベース）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -11226,7 +12246,46 @@
      "revenue": 4,
      "operatingIncome": 8.4,
      "ordinaryIncome": 14.1
-    }
+    },
+    "segments": [
+     {
+      "name": "プリンティング",
+      "revenue": 1864291,
+      "profit": 208158,
+      "priorRevenue": 1820795,
+      "priorProfit": 202183
+     },
+     {
+      "name": "メディカル",
+      "revenue": 406406,
+      "profit": 10790,
+      "priorRevenue": 411580,
+      "priorProfit": 18151,
+      "healthcare": true
+     },
+     {
+      "name": "イメージング",
+      "revenue": 847347,
+      "profit": 144394,
+      "priorRevenue": 726093,
+      "priorProfit": 108428
+     },
+     {
+      "name": "インダストリアル",
+      "revenue": 216531,
+      "profit": 30105,
+      "priorRevenue": 242797,
+      "priorProfit": 40028
+     },
+     {
+      "name": "その他及び全社",
+      "revenue": 98782,
+      "profit": -65688,
+      "priorRevenue": 101626,
+      "priorProfit": -67115
+     }
+    ],
+    "segmentProfitLabel": "セグメント営業利益"
    },
    {
     "fiscalYear": "2026年12月期",
@@ -11395,7 +12454,39 @@
      "revenue": 8.8,
      "operatingIncome": -10.9,
      "ordinaryIncome": -12.1
-    }
+    },
+    "segments": [
+     {
+      "name": "ヘルスケア",
+      "revenue": 554117,
+      "profit": 3367,
+      "priorRevenue": 499185,
+      "priorProfit": 23681,
+      "healthcare": true
+     },
+     {
+      "name": "エレクトロニクス",
+      "revenue": 259621,
+      "profit": 63524,
+      "priorRevenue": 209466,
+      "priorProfit": 41972
+     },
+     {
+      "name": "ビジネスイノベーション",
+      "revenue": 566705,
+      "profit": -564,
+      "priorRevenue": 572187,
+      "priorProfit": 31364
+     },
+     {
+      "name": "イメージング",
+      "revenue": 331071,
+      "profit": 93450,
+      "priorRevenue": 291525,
+      "priorProfit": 80392
+     }
+    ],
+    "segmentProfitLabel": "セグメント営業利益"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -11572,7 +12663,46 @@
      "prior": {
       "revenue": 451043
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "アパレル＆インダストリーズ",
+      "revenue": 185245,
+      "profit": 9668,
+      "priorRevenue": 170402,
+      "priorProfit": 8972
+     },
+     {
+      "name": "ヘルスケア＆ライフソリューションズ",
+      "revenue": 63824,
+      "profit": 7123,
+      "priorRevenue": 68356,
+      "priorProfit": 7064,
+      "healthcare": true
+     },
+     {
+      "name": "エレクトロニクス＆エナジー",
+      "revenue": 89902,
+      "profit": 16815,
+      "priorRevenue": 75616,
+      "priorProfit": 9850
+     },
+     {
+      "name": "スペシャリティマテリアルズ",
+      "revenue": 92050,
+      "profit": 5761,
+      "priorRevenue": 125074,
+      "priorProfit": -6233
+     },
+     {
+      "name": "その他",
+      "revenue": 8540,
+      "profit": -3197,
+      "priorRevenue": 11596,
+      "priorProfit": -1086
+     }
+    ],
+    "segmentProfitLabel": "事業利益"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -11760,7 +12890,41 @@
       "ordinaryIncome": 8234,
       "netIncome": 5905
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "医療関連",
+      "revenue": 226110,
+      "profit": 18531,
+      "priorRevenue": 209761,
+      "priorProfit": 19692,
+      "healthcare": true
+     },
+     {
+      "name": "医薬関連",
+      "revenue": 81714,
+      "profit": 6327,
+      "priorRevenue": 79435,
+      "priorProfit": 7184,
+      "healthcare": true
+     },
+     {
+      "name": "ファーマパッケージング",
+      "revenue": 30508,
+      "profit": 1244,
+      "priorRevenue": 27239,
+      "priorProfit": -770,
+      "healthcare": true
+     },
+     {
+      "name": "その他",
+      "revenue": 516,
+      "profit": -52,
+      "priorRevenue": 499,
+      "priorProfit": 209
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（営業利益ベース）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -11935,7 +13099,52 @@
      "revenue": 9.4,
      "operatingIncome": 42.9,
      "ordinaryIncome": 37.9
-    }
+    },
+    "segments": [
+     {
+      "name": "ゲーム＆ネットワークサービス",
+      "revenue": 2103901,
+      "profit": 422074,
+      "priorRevenue": 1983242,
+      "priorProfit": 268311
+     },
+     {
+      "name": "音楽",
+      "revenue": 1150134,
+      "profit": 228638,
+      "priorRevenue": 991362,
+      "priorProfit": 208184
+     },
+     {
+      "name": "映画",
+      "revenue": 821806,
+      "profit": 117363,
+      "priorRevenue": 669502,
+      "priorProfit": 32515
+     },
+     {
+      "name": "エンタテインメント・テクノロジー＆サービス",
+      "revenue": 1091367,
+      "profit": 106746,
+      "priorRevenue": 1069404,
+      "priorProfit": 104103
+     },
+     {
+      "name": "イメージング＆センシング・ソリューション",
+      "revenue": 1049417,
+      "profit": 276836,
+      "priorRevenue": 971647,
+      "priorProfit": 192518
+     },
+     {
+      "name": "その他",
+      "revenue": 41221,
+      "profit": -35154,
+      "priorRevenue": 35794,
+      "priorProfit": -7874
+     }
+    ],
+    "segmentProfitLabel": "営業利益（損失）"
    },
    {
     "fiscalYear": "2027年3月期",
@@ -12324,7 +13533,47 @@
      "prior": {
       "revenue": 1756117
      }
-    }
+    },
+    "segments": [
+     {
+      "name": "酒類事業",
+      "revenue": 797490,
+      "profit": 95629,
+      "priorRevenue": 769397,
+      "priorProfit": 90913
+     },
+     {
+      "name": "飲料事業",
+      "revenue": 456245,
+      "profit": 51769,
+      "priorRevenue": 429639,
+      "priorProfit": 52661
+     },
+     {
+      "name": "医薬事業",
+      "revenue": 384807,
+      "profit": 88067,
+      "priorRevenue": 349222,
+      "priorProfit": 61059,
+      "healthcare": true
+     },
+     {
+      "name": "ヘルスサイエンス事業",
+      "revenue": 193484,
+      "profit": 17030,
+      "priorRevenue": 187920,
+      "priorProfit": 12671,
+      "healthcare": true
+     },
+     {
+      "name": "その他",
+      "revenue": 19536,
+      "profit": -2097,
+      "priorRevenue": 19939,
+      "priorProfit": -1175
+     }
+    ],
+    "segmentProfitLabel": "セグメント利益（事業利益）"
    },
    {
     "fiscalYear": "2026年12月期",
