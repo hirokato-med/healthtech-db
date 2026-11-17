@@ -972,15 +972,14 @@
         "会社発表"
       ],
       "stated": "明示あり",
-      "interpretation": "推定を含む"
+      "interpretation": "なし"
     },
     "after": {
       "event": "提供終了",
       "fate": "別サービスへ移行",
       "asOf": "2026-10",
       "sourceDate": "2020-08"
-    },
-    "endReasonCaveat": ""
+    }
   },
   {
     "id": "b-f95a8aa5",
@@ -2626,10 +2625,6 @@
         "text": "α版を公開。約10カテゴリーの慢性疾患から開始し、CEOは「遠隔で実際に診察するサービスは国内初」とし2016年3月中に利用者10万人を目指すと発言"
       },
       {
-        "date": "2015-11",
-        "text": "「国内初」の遠隔診療プラットフォームとしてα版をリリース（10疾患でサービス開始）"
-      },
-      {
         "date": "2015-12",
         "text": "α版の運用を年末で終了（日経メディカル報道）"
       },
@@ -2638,24 +2633,12 @@
         "text": "Eight Roads Ventures Japan、三菱UFJキャピタル、グローバル・ブレインから総額9億円を調達（α版で約200人の診療実績、4月の正式オープンを予定）"
       },
       {
-        "date": "2016-02",
-        "text": "総額9億円の資金調達"
-      },
-      {
         "date": "2016-06",
         "text": "宮崎県日南市と、無医地区での遠隔診療の有効性を検証する協定を締結（市立中央病院にシステム提供）"
       },
       {
-        "date": "2016-06",
-        "text": "β版リリースに向けて宮崎県日南市と連携"
-      },
-      {
         "date": "2016-09",
         "text": "東京女子医科大学と、ネットワーク血圧計を使う都市型の高血圧遠隔診療の実証研究を開始（〜2019年3月）"
-      },
-      {
-        "date": "2016-09",
-        "text": "東京女子医科大学と遠隔診療の実証研究を開始"
       },
       {
         "date": "2017-03",
@@ -2880,7 +2863,7 @@
     "company": "NTTドコモ（39works）／テックファーム株式会社／メディアコンテンツファクトリー（現 株式会社レイヤード）",
     "category": "telemedicine",
     "description": "ドコモが複数病院での実証をもとに開発し、テックファームが医療機関向けに販売・運用したオンライン診療システム。患者アプリで予約・ビデオ診察・カード決済・健康データ記録、医師はブラウザで診察。終了時期は確認できていない。",
-    "hp": "",
+    "hp": "https://layered.inc/",
     "startedYear": 2017,
     "status": "不明",
     "startedAt": "2018-01",
@@ -2903,6 +2886,11 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000010.000004524.html"
       },
       {
+        "date": "2018-10-11",
+        "text": "提供会社をNTTドコモからメディアコンテンツファクトリー（現レイヤード）に変更、導入費・月額無料化",
+        "source": "https://prtimes.jp/main/html/rd/p/000000010.000004524.html"
+      },
+      {
         "date": "2018-11",
         "text": "メディアコンテンツファクトリーとドコモが連名で、システム導入費・月額利用費の無料化を発表"
       },
@@ -2915,7 +2903,10 @@
       "https://www.atpress.ne.jp/news/141799",
       "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2017/topics_171030_03.pdf",
       "https://www.docomo.ne.jp/binary/pdf/corporate/technology/rd/topics/2018/topics_181101_00.pdf",
-      "https://www.nikkei.com/article/DGKKZO60169590Z00C20A6MM8000/"
+      "https://www.nikkei.com/article/DGKKZO60169590Z00C20A6MM8000/",
+      "https://prtimes.jp/main/html/rd/p/000000010.000004524.html",
+      "https://prtimes.jp/main/html/rd/p/000000042.000004524.html",
+      "https://layered.inc/business/"
     ],
     "updatedAt": "2026-11",
     "themes": [
@@ -2931,7 +2922,8 @@
     ],
     "endReasonNoteHold": "日経報道：保険適用されたが対面診療の維持など厳しい要件がつき医師の利用が広がらず、ドコモは「採算にあわないと判断した」。",
     "endReasonCaveatLocked": true,
-    "startBasis": "2018年10月の発表で「2018年1月からサービスを展開」。2017年の発表では2017年11月下旬に提供開始予定"
+    "startBasis": "2018年10月の発表で「2018年1月からサービスを展開」。2017年の発表では2017年11月下旬に提供開始予定",
+    "companyId": "2290001018911"
   },
   {
     "id": "optim-doctor",
@@ -3286,7 +3278,7 @@
     "companyId": "3010001128547",
     "category": "telemedicine",
     "description": "かかりつけ医向けのオンライン診療・疾患管理システム。オンライン問診、自宅での血圧などのモニタリング、ビデオ診察を組み合わせ、診察の合間の患者の状態把握を支援する。医療機関が利用料を払う。",
-    "hp": "",
+    "hp": "https://www.yadoc.jp/",
     "startedYear": 2018,
     "status": "提供中",
     "startedAt": "2018-01",
@@ -3314,7 +3306,7 @@
       "https://www.value-press.com/pressrelease/199252",
       "https://www.yadoc.jp/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
@@ -3422,7 +3414,7 @@
     "companyId": "8011101086498",
     "category": "telemedicine",
     "description": "LINEアプリ上でクリニックの検索・予約から問診、ビデオ診察、決済まで完結するオンライン診療サービス。医療機関に導入してもらい、患者は普段使いのLINEのまま受診できる。疾患啓発アカウントも運営した。",
-    "hp": "",
+    "hp": "https://www.lycorp.co.jp/ja/news/release/016530/",
     "startedYear": 2020,
     "status": "終了",
     "startedAt": "2020-12",
@@ -3438,24 +3430,12 @@
         "text": "首都圏の一部医療機関で先行提供を開始"
       },
       {
-        "date": "2020-12",
-        "text": "コロナ禍のオンライン診療需要を受け、予定を前倒ししてプレ版を提供開始"
-      },
-      {
         "date": "2022-12",
         "text": "処方薬の配送サービスを全国で開始"
       },
       {
-        "date": "2022-12",
-        "text": "処方薬の配送サービスを開始"
-      },
-      {
         "date": "2023-01",
         "text": "エムスリーとの合弁を解消し、LINEの100%子会社に。オンライン服薬指導で日本調剤と連携"
-      },
-      {
-        "date": "2023-01",
-        "text": "エムスリーとの合弁を解消し、LINEヘルスケアがLINE（現LINEヤフー）の完全子会社に"
       },
       {
         "date": "2023-02",
@@ -3471,39 +3451,20 @@
       },
       {
         "date": "2024-12",
-        "text": "LINEヤフーとLINEヘルスケアがLINEドクターと疾患啓発アカウント（11アカウント）の終了を発表"
-      },
-      {
-        "date": "2024-12",
-        "text": "2025年6月での終了を発表。疾患啓発アカウントも順次終了"
-      },
-      {
-        "date": "2024-12",
-        "text": "LINEヤフーとLINEヘルスケアが終了を発表"
+        "text": "LINEヤフーとLINEヘルスケアが、LINEドクター（2025年6月終了）と疾患啓発アカウント（11アカウント）の終了を発表"
       },
       {
         "date": "2025-03",
         "text": "3月10日に新規診療・服薬指導予約の受付を停止"
       },
       {
-        "date": "2025-03",
-        "text": "新規の診療・服薬指導予約の受付を停止"
-      },
-      {
         "date": "2025-06",
         "text": "6月10日に全機能を停止"
       },
       {
-        "date": "2025-06",
-        "text": "6月10日に全機能を停止。LINEヘルスケアは全事業が終了し、2026年9月にLINEヤフーへ吸収合併"
-      },
-      {
-        "date": "2025-06",
-        "text": "2025年6月10日に全機能を終了。LINEヘルスケアの全事業が終了"
-      },
-      {
-        "date": "2026-09",
-        "text": "LINEヘルスケア株式会社がLINEヤフーに吸収合併され解散"
+        "date": "2026-07-01",
+        "text": "LINEヤフーが完全子会社のLINEヘルスケアの吸収合併を決定（効力発生日は2026-09-01の予定と報道。LINEヤフーの開示では未確認）",
+        "source": "https://www.nihon-ma.co.jp/news/20260701_4689-42/"
       }
     ],
     "endReasons": [
@@ -3525,7 +3486,7 @@
       "https://notice2.line.me/Telemedicine_LHC/web/document/notice?documentId=100011262&lang=ja",
       "https://www.nihon-ma.co.jp/news/20260701_4689-42/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation",
       "clinic-booking"
@@ -3541,8 +3502,8 @@
     "after": {
       "event": "提供終了",
       "fate": "提供終了",
-      "asOf": "2026-10",
-      "sourceDate": "2024-12"
+      "asOf": "2026-11",
+      "sourceDate": "2026-07"
     }
   },
   {
@@ -3945,7 +3906,7 @@
     "companyId": "4120001265543",
     "category": "telemedicine",
     "description": "問診内容から医師を即時にマッチングし、24時間365日保険診療のオンライン診療を受けられる患者向けプラットフォーム。処方薬は自宅配送や近くの薬局で受け取り。AI通訳で多言語対応。",
-    "hp": "",
+    "hp": "https://cloud-dr.jp/",
     "startedYear": 2025,
     "status": "提供中",
     "startedAt": "2025-04-28",
@@ -3970,9 +3931,10 @@
       "https://prtimes.jp/main/html/rd/p/000000021.000164410.html",
       "https://prtimes.jp/main/html/rd/p/000000019.000164410.html",
       "https://prtimes.jp/main/html/rd/p/000000015.000164410.html",
-      "https://webtan.impress.co.jp/r/prtimes/items/000000153.000007782"
+      "https://webtan.impress.co.jp/r/prtimes/items/000000153.000007782",
+      "https://cloud-dr.jp/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
@@ -3986,7 +3948,7 @@
     "companyId": "1170001016300",
     "category": "telemedicine",
     "description": "小児科医が開設したオンライン診療プラットフォーム。予約なしで受診できる仕組みや、新型コロナの自宅療養者向け診療、修学旅行生向けの健康相談などを展開。",
-    "hp": "",
+    "hp": "https://ishachoku-online.com/",
     "startedYear": 2021,
     "status": "提供中",
     "startedAt": "2021-07",
@@ -4008,10 +3970,9 @@
       "https://ishachoku-online.com/",
       "https://corp-online-doctor.com/new/press/29/",
       "https://gentosha-go.com/articles/-/40655",
-      "https://www.dreamnews.jp/press/0000252536/",
-      "https://ishachoku.com/"
+      "https://www.dreamnews.jp/press/0000252536/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
@@ -4062,7 +4023,7 @@
     "companyId": "9010005028548",
     "category": "telemedicine",
     "description": "通信機能付き血圧計で測った家庭血圧を医療機関と共有し、高血圧のオンライン診療・降圧薬の郵送処方・オンライン相談を月額定額で受けられるパッケージ。オムロンが機器、ポートが診療基盤と集客を担った。",
-    "hp": "",
+    "hp": "https://telemedease.org/",
     "startedYear": 2019,
     "status": "譲渡",
     "startedAt": "2019-05",
@@ -4088,6 +4049,11 @@
       {
         "date": "2021-11",
         "text": "11月17日付で個人向けサービスを高血圧e-メディカル（イーメディカルジャパン）に移行"
+      },
+      {
+        "date": "2022-09",
+        "text": "移行先のサービスが「高血圧イーメディカル」として本格始動（刀・イーメディカルジャパン）",
+        "source": "https://katana-marketing.co.jp/img_sys/news/%E9%AB%98%E8%A1%80%E5%9C%A7%E3%82%A4%E3%83%BC%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E6%9C%AC%E6%A0%BC%E5%A7%8B%E5%8B%9522020906.pdf"
       }
     ],
     "endReasons": [
@@ -4102,7 +4068,7 @@
       "https://newscast.jp/news/257666",
       "https://telemedease.org/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "online-consultation"
     ],
@@ -4117,17 +4083,16 @@
     "after": {
       "event": "譲渡",
       "fate": "別サービスへ移行",
-      "asOf": "2026-10",
+      "asOf": "2026-11",
       "sourceDate": "2019-05"
     }
   },
   {
     "id": "b-254f0115",
     "name": "期間限定オンライン外来代行",
-    "company": "株式会社ケアネット",
-    "companyId": "4010001075490",
+    "company": "株式会社キャピタルメディカ",
     "category": "telemedicine",
-    "description": "新型コロナ下で自院でオンライン診療ができないクリニックの患者を、キャピタルメディカの提携病院の医師がWeb会議で一時的に代わりに診療し、処方箋も発行する無償サービス。",
+    "description": "新型コロナ下で自院でオンライン診療ができないクリニックの患者を、キャピタルメディカのパートナー病院の医師がWeb会議で一時的に代わりに診療する無償サービス。事務局はキャピタルメディカ、システムはブイキューブ、医師会員への紹介はケアネットが担った。",
     "hp": "",
     "startedYear": 2020,
     "status": "不明",
@@ -4159,7 +4124,7 @@
     "companyId": "4140001030292",
     "category": "telemedicine",
     "description": "エムティーアイ系のカラダメディカが提供する医療機関向けオンライン診療システム。産婦人科向けは女性向けアプリ「ルナルナ」と連携し、患者がルナルナから医療機関を探して予約・受診・決済できる。",
-    "hp": "",
+    "hp": "https://lnln.jp/service/obgyn/",
     "startedYear": 2020,
     "status": "提供中",
     "startedAt": "2020",
@@ -4178,7 +4143,7 @@
       },
       {
         "date": "2021-04",
-        "text": "製品紹介ページで累計契約施設1,000件以上と表示"
+        "text": "製品紹介ページで累計契約施設1,000件以上と表示（当時の値。2026-11 の公式ページ・決算説明資料では導入施設数を確認できない）"
       },
       {
         "date": "2022-07",
@@ -5614,7 +5579,7 @@
   {
     "id": "b-9e5e1c13",
     "name": "SOKUYAKU",
-    "company": "メディカルジェイフロンティア",
+    "company": "ジェイフロンティア株式会社",
     "category": "telemedicine",
     "description": "オンライン診療、オンライン服薬指導、処方薬の配送を1つのアプリで提供する患者向けサービス。",
     "hp": "https://sokuyaku.jp/",
@@ -5638,7 +5603,7 @@
       "https://prtimes.jp/main/html/rd/p/000000059.000005491.html",
       "https://jfrontier.jp/pressrelease/34977/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "medication-support"
     ],
@@ -8470,11 +8435,6 @@
         "text": "神戸大学と肝細胞がんのMRI画像解析・診断支援AIの共同研究を開始"
       },
       {
-        "date": "2020-05-18",
-        "text": "神戸大学と肝細胞がんのMRI画像解析・診断支援AIの共同研究を開始",
-        "source": "https://prtimes.jp/main/html/rd/p/000000018.000026090.html"
-      },
-      {
         "date": "2022",
         "text": "画像解析ソフトウェア Cal.Liver.Lesion：MR装置ワークステーション用プログラムとして認証取得（認証番号304AGBZX00095000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304AGBZX00095000_A_01"
@@ -8482,11 +8442,6 @@
       {
         "date": "2022-02",
         "text": "第二種医療機器製造販売業許可を取得"
-      },
-      {
-        "date": "2022-02-16",
-        "text": "第二種医療機器製造販売業許可を取得",
-        "source": "https://prtimes.jp/main/html/rd/p/000000055.000026090.html"
       },
       {
         "date": "2023-04",
@@ -8506,7 +8461,8 @@
       "https://hacarus.com/ja/press-release/20220216/",
       "https://hacarus.com/ja/press-release/2023-09-22-news/",
       "https://hacarus.com/ja/case-study/2020-kobe-univ/",
-      "https://hrnote.jp/contents/b-contents-editorial-hacarus-0628/"
+      "https://hrnote.jp/contents/b-contents-editorial-hacarus-0628/",
+      "https://prtimes.jp/main/html/rd/p/000000055.000026090.html"
     ],
     "updatedAt": "2026-11",
     "type": "imaging-diagnosis-ai",
@@ -9357,8 +9313,8 @@
   {
     "id": "b-47a57503",
     "name": "クリニック向けWEB問診「メルプWEB問診」・患者向けアプリ「メルプ」",
-    "company": "株式会社flixy",
-    "companyId": "6010601050338",
+    "company": "株式会社HERO innovation",
+    "companyId": "6010001151703",
     "category": "medical-dx",
     "description": "現役医師が開発した、患者が来院前にスマホで問診を入力し、内容を電子カルテにワンクリックで連携できるクリニック向けWEB問診システム。患者向けアプリやAI受診相談も展開。",
     "hp": "",
@@ -9371,10 +9327,6 @@
       {
         "date": "2016",
         "text": "内科医の吉永和貴氏が設立"
-      },
-      {
-        "date": "2016",
-        "text": "医師の吉永和貴がflixyを設立し、メルプWEB問診を開発"
       },
       {
         "date": "2017-12",
@@ -9412,10 +9364,6 @@
       {
         "date": "2023-07",
         "text": "HERO innovationに吸収合併（7月3日）。メルプ事業は同社が継続し、導入は1,500施設超に"
-      },
-      {
-        "date": "2023-07",
-        "text": "flixyが同じJMDCグループのHERO innovationに吸収合併され解散。サービスはHERO innovationが継続"
       },
       {
         "date": "2024-04",
@@ -9456,9 +9404,10 @@
       "https://ascii.jp/elem/000/004/101/4101878/",
       "https://prtimes.jp/main/html/rd/p/000000009.000062237.html",
       "https://aismiley.co.jp/ai_news/ai-proposes-hospital-and-consultation-timing/",
-      "https://prtimes.jp/main/html/rd/p/000000024.000062237.html"
+      "https://prtimes.jp/main/html/rd/p/000000024.000062237.html",
+      "https://monshin.melp.life/aboutcompany"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "ai-symptom"
     ],
@@ -9475,7 +9424,7 @@
     "after": {
       "event": "サービス統合",
       "fate": "同一サービス継続（運営会社が変更）",
-      "asOf": "2026-10",
+      "asOf": "2026-11",
       "sourceDate": "2025-11"
     }
   },
@@ -10017,6 +9966,11 @@
         "text": "Bonds Investment GroupとSpiral Capitalから資金調達"
       },
       {
+        "date": "2022-02-05",
+        "text": "jRCT（jRCT2032200033、第3相の企業治験）の進捗状況が「研究終了」と公表される",
+        "source": "https://jrct.mhlw.go.jp/latest-detail/jRCT2032200033"
+      },
+      {
         "date": "2024-09",
         "text": "治験結果が論文として公表され、血糖コントロールに統計的に有意な変化はなかった"
       }
@@ -10033,7 +9987,8 @@
       "https://xtech.nikkei.com/atcl/nxt/news/18/08489/",
       "https://www.link-j.org/interview/post-3149.html",
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC11429663/",
-      "https://prtimes.jp/main/html/rd/p/000000001.000083339.html"
+      "https://prtimes.jp/main/html/rd/p/000000001.000083339.html",
+      "https://jrct.mhlw.go.jp/latest-detail/jRCT2032200033"
     ],
     "updatedAt": "2026-11",
     "type": "lifestyle-disease-app"
@@ -16992,7 +16947,7 @@
     "company": "Ubie株式会社",
     "companyId": "7010701034132",
     "category": "medical-dx",
-    "description": "病院・クリニックのホームページに置くAI相談窓口。患者が症状に応じた20問程度の質問に答えると、医師向けに翻訳された問診結果が受診前に医療機関へ届く。新型コロナ第6波を受けて無償で提供を始めた。",
+    "description": "病院・クリニックのホームページに置くAI相談窓口。患者が症状に応じた質問に答えると、医師向けに翻訳された問診結果が受診前に医療機関へ届く。2022年1月に新型コロナ第6波を受けて無償で始め、いまも無料の集患サポートとして提供している。",
     "hp": "",
     "startedYear": 2022,
     "status": "提供中",
@@ -17012,7 +16967,7 @@
       "https://ubie.app/dedicated-inquiry/1",
       "https://prtimes.jp/main/html/rd/p/000000028.000048083.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "ai-symptom"
     ],
@@ -18032,11 +17987,10 @@
   {
     "id": "b-6601d526",
     "name": "らく診",
-    "company": "株式会社portera",
-    "companyId": "4130001074695",
+    "company": "株式会社fonfun",
     "category": "telemedicine",
     "description": "企業の福利厚生として、従業員が無料でスマホやパソコンからビデオ通話で医師の診察を受け、薬を自宅で受け取れるオンライン診療サービス。2024年4月にSHANEPORT（現portera）が始め、2025年8月に運営をfonfunへ事業譲渡した。",
-    "hp": "",
+    "hp": "https://raku-shin.net/",
     "startedYear": 2024,
     "status": "譲渡",
     "endedAt": "2025-08",
@@ -18049,9 +18003,10 @@
       "https://prtimes.jp/main/html/rd/p/000000002.000139522.html",
       "https://raku-shin.net/",
       "https://www.nihon-ma.co.jp/news/20250805_2323-14/",
-      "https://portera.jp/"
+      "https://portera.jp/",
+      "https://raku-shin.net/%e3%82%89%e3%81%8f%e8%a8%ba%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e5%a4%a7%e5%88%87%e3%81%aa%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e9%81%8b%e5%96%b6%e4%bc%9a%e7%a4%be%e5%a4%89%e6%9b%b4%ef%bc%89/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "telemedicine-direct-to-patient",
     "startedAt": "2024-04",
     "milestones": [
@@ -18075,7 +18030,7 @@
     "after": {
       "event": "事業譲渡",
       "fate": "未確認",
-      "asOf": "2026-10"
+      "asOf": "2026-11"
     },
     "endReasonCaveat": "理由の分類のうち「買収・統合」は、資料に直接の記載がなく、この DB が説明から分類したもの。"
   },
@@ -19020,7 +18975,7 @@
     "company": "株式会社ドクターネット",
     "companyId": "7010401088511",
     "category": "medical-image",
-    "description": "複数社の画像診断支援AIエンジンと医療機関・放射線診断専門医を遠隔でつなぐプラットフォーム。胸部X線の肺炎・肺結節、頭部CTの高・低吸収域、頭部MRの動脈瘤などのAIを使える。同社によると1,500施設の遠隔読影を支える。",
+    "description": "複数社の画像診断支援AIエンジンと医療機関・放射線診断専門医を遠隔でつなぐプラットフォーム。胸部X線の肺炎・肺結節、頭部CTの高・低吸収域、頭部MRの動脈瘤などのAIを使え、JLK-CRP・MONCAD CTLN・Heuron CTS はドクターネット自身が製造販売する。",
     "hp": "https://dr-net.co.jp/service/airad/",
     "startedYear": 2021,
     "status": "提供中",
@@ -19028,7 +18983,7 @@
     "sources": [
       "https://dr-net.co.jp/service/airad/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "imaging-diagnosis-ai"
   },
   {
@@ -19570,17 +19525,17 @@
     "companyId": "1011001072836",
     "category": "telemedicine",
     "description": "軽量のポータブル医療機器、診療記録システム「JoinNotepad」、Joinを入れたスマートフォンをスーツケースにまとめた遠隔医療支援パッケージ。離島や災害現場などで医師の遠隔支援を受ける臨時の診療所をつくる。",
-    "hp": "https://www.allm.net/products/",
+    "hp": "https://www.allm.net/solutions/join-mobile-clinic/",
     "startedYear": 2025,
     "status": "提供中",
     "sources": [
       "https://www.allm.net/news/20250227/",
       "https://www.allm.net/products/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "telemedicine-clinic-system",
     "startedAt": "2025-02",
-    "startBasis": "同社ニュース（2025-02-27）本格展開を開始",
+    "startBasis": "「Join Mobile Care」からの名称変更と本格展開の開始（同社ニュース 2025-02-27）。前身の Join Mobile Care はそれ以前から提供",
     "milestones": [
       {
         "date": "2025-02",
@@ -20762,7 +20717,7 @@
     "company": "スピンシェル",
     "companyId": "2011101054824",
     "category": "telemedicine",
-    "description": "医療機関向けの遠隔診療プラットフォーム。患者はブラウザやアプリからアクセスでき、予約・ビデオ通話・決済・配送を一括で扱って、オンラインクリニックを最短即日で開ける。2017年6月に「LiveCall ヘルスケア」として始めた。",
+    "description": "医療機関向けの遠隔診療プラットフォーム。患者はブラウザやアプリからアクセスでき、予約・ビデオ通話・決済・配送を一括で扱って、オンラインクリニックを最短3日で開始できる。2017年6月に「LiveCall ヘルスケア」として始めた。",
     "hp": "https://spinshell.com/business/platform/",
     "startedYear": 2017,
     "status": "提供中",
@@ -20770,9 +20725,10 @@
       "https://spinshell.com/business/platform/",
       "https://prtimes.jp/main/html/rd/p/000000009.000005095.html",
       "https://prtimes.jp/main/html/rd/p/000000011.000005095.html",
-      "https://spinshell.com/company/"
+      "https://spinshell.com/company/",
+      "https://livecall-healthcare.jp/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "telemedicine-clinic-system",
     "startedAt": "2017-06"
   },
@@ -21318,14 +21274,15 @@
     "company": "合同会社医知悟",
     "companyId": "6010403006422",
     "category": "medical-image",
-    "description": "遠隔画像診断の読影医向けに、提携企業のAIを組み込んだ診断支援サービス。頭部MRAから脳動脈瘤の候補を示す「EIRL aneurysm」、胸部X線から肺結節を示す「EIRL Chest Nodule」などで見落とし防止を支援する。",
+    "description": "遠隔画像診断の読影医向けに、提携企業のAIを組み込んだ診断支援サービス。頭部MRAから脳動脈瘤の候補を示す「EIRL aneurysm」、胸部X線から肺結節の候補を示す「EIRL X-ray Lung nodule」などで見落とし防止を支援する。",
     "hp": "https://www.ichigo-llc.co.jp/service/ai/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://www.ichigo-llc.co.jp/service/ai/"
+      "https://www.ichigo-llc.co.jp/service/ai/",
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30200BZX00269000_B_01"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "imaging-diagnosis-ai"
   },
   {
@@ -24921,16 +24878,20 @@
     "companyId": "7010901034790",
     "category": "telemedicine",
     "description": "デジタル聴診デバイス「ネクステート」と組み合わせて使う、オンライン診療向けの遠隔聴診用機器。看護師が患者のそばにいる形のオンライン診療や医療MaaSで、問診の音声と聴診音の切り替えをなくし、対面に近い診察をできるようにする。",
-    "hp": "https://www.sharemedical.jp/press",
+    "hp": "https://www.sharemedical.jp/post/nexstetho-hub",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2025-10",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000038.000016841.html",
-      "https://www.sharemedical.jp/press"
+      "https://www.sharemedical.jp/press",
+      "https://www.sharemedical.jp/post/nexstetho-hub"
     ],
-    "updatedAt": "2026-10",
-    "type": "telemedicine-clinic-system"
+    "updatedAt": "2026-11",
+    "type": "telemedicine-clinic-system",
+    "stage": "発表のみ（発売を確認できない）",
+    "stageLocked": true,
+    "startBasis": "製品の発表と日本救急医学会総会での初公開（PR TIMES 2025-10-27）。発売・提供開始は確認できない"
   },
   {
     "id": "b-bea585bf",
@@ -25103,16 +25064,17 @@
     "company": "エルピクセル株式会社",
     "companyId": "2011001099036",
     "category": "medical-image",
-    "description": "画像診断支援AI「EIRL」シリーズを、医療機関が院内にサーバーを置かずクラウド経由で使えるようにした導入形態。胸部X線の結節検出や脳動脈瘤検出などのAIを利用できる。2022年7月に発売した。",
+    "description": "画像診断支援AI「EIRL」を、医療機関が院内にサーバーを置かずクラウド経由で使えるクリニック向けサービス。対象は胸部デジタルX線画像で、6所見を検出する XR プランと結節影だけの Nodule プランがある。2022年7月に発売した。",
     "hp": "https://eirl.ai/ja/",
     "startedYear": 2022,
     "status": "提供中",
     "startedAt": "2022-07",
     "sources": [
       "https://eirl.ai/ja/",
-      "https://lpixel.net/company/history/"
+      "https://lpixel.net/company/history/",
+      "https://eirl.ai/ja/eirl-cloud/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "imaging-diagnosis-ai"
   },
   {
@@ -27485,21 +27447,22 @@
   },
   {
     "id": "b-e8b5381e",
-    "name": "眼科画像診断支援AIの開発",
+    "name": "眼科画像診断支援AI（DeepEyeVision for RetinaStation・AI-CO など）",
     "company": "DeepEyeVision株式会社",
     "companyId": "4060003002281",
     "category": "medical-image",
     "description": "自治医科大学発ベンチャーが手がける眼科向け画像診断支援AIの開発。ニコンと共同で、眼底カメラ画像の健常眼との差異をAIで色表示するプログラム「DeepEyeVision for RetinaStation」を開発した。",
-    "hp": "https://deepeyevision.com/company/",
+    "hp": "https://deepeyevision.com/products/",
     "startedYear": 2022,
     "status": "提供中",
     "sources": [
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00110000_A_01",
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZX00029000_A_02",
       "https://www.jp.nikon.com/company/news/2022/0208_deepeyevision_01/",
-      "https://deepeyevision.com/company/"
+      "https://deepeyevision.com/company/",
+      "https://deepeyevision.com/products/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "imaging-diagnosis-ai",
     "startedAt": "2022-02",
     "startBasis": "ニコン ニュース（2022-02-08）共同開発を発表",
@@ -27513,6 +27476,11 @@
         "date": "2022",
         "text": "眼撮影装置用プログラムDeepEyeVisionforCalifornia：眼撮影装置用プログラムとして認証取得（認証番号304ADBZX00029000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZX00029000_A_02"
+      },
+      {
+        "date": "2025",
+        "text": "AI-CO（OCT の3Dスキャンデータと自動視野計の結果を並べて比べるプログラム）：自動視野・眼撮影装置用プログラムとして認証取得（認証番号307ADBZX00085000、番号の年号から年のみ）",
+        "source": "https://deepeyevision.com/products/"
       }
     ],
     "device": {
@@ -27528,7 +27496,8 @@
       "classLabel": "クラスII",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "formerName": "眼科画像診断支援AIの開発"
   },
   {
     "id": "b-7f2e0fa4",
@@ -28750,17 +28719,17 @@
     "description": "胃内視鏡検査中に受信した画像をAIがリアルタイムで解析し、早期胃がんと腺腫を疑う領域を検出して医師に示す内視鏡画像診断支援ソフトウェア。2024年12月に製造販売承認を取得し、2025年5月に発売した。",
     "hp": "https://www.ai-ms.com/company",
     "startedYear": 2024,
-    "status": "提供中",
-    "startedAt": "2024-12",
+    "status": "不明",
+    "startedAt": "2025-05-08",
     "sources": [
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30600BZX00266000_A_01",
       "https://prtimes.jp/main/html/rd/p/000000030.000049025.html",
       "https://prtimes.jp/main/html/rd/p/000000035.000049025.html",
       "https://www.ai-ms.com/company"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "imaging-diagnosis-ai",
-    "startBasis": "PR TIMES（2024-12-19）製造販売承認を取得",
+    "startBasis": "発売（PR TIMES 2025-05-08）。製造販売承認は2024-12-17",
     "milestones": [
       {
         "date": "2024-12-17",
@@ -28787,7 +28756,8 @@
       "jmdn": "71080002",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "endReasonCaveat": "いまの提供状況は確認できていない（事業のしくみの欄：未確認）。手がかり：後継とみられる G3 の承認・販売開始、会社サイトに G2 の掲載がないこと。G2 の販売終了・移行の告知は確認できない。"
   },
   {
     "id": "b-4ac8d9cc",
@@ -28796,16 +28766,23 @@
     "companyId": "5030001122133",
     "category": "medical-image",
     "description": "胃内視鏡の動画をAIが解析し、早期胃がんと腺腫を疑う領域を最大3カ所まで内視鏡映像に重ねて表示する診断支援ソフトウェア。解析に向かない画像では解析を止める機能で誤検知を抑える。2026年夏ごろから順次販売。",
-    "hp": "https://prtimes.jp/main/html/rd/p/000000041.000049025.html",
+    "hp": "https://endo.ai-ms.com/product/uppergi3/",
     "startedYear": 2026,
     "status": "提供中",
     "startedAt": "2026-05",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000041.000049025.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "imaging-diagnosis-ai",
-    "startBasis": "PR TIMES（2026-05-15）2026年5月13日付で製造販売承認を取得"
+    "startBasis": "製造販売承認の取得（2026-05-13、PR TIMES 2026-05-15）。販売は「2026年夏頃から順次」と発表し、販売開始の告知は未確認",
+    "milestones": [
+      {
+        "date": "2026-05-13",
+        "text": "内視鏡画像診断支援ソフトウェア AP01（gastroAI model-G3）が製造販売承認（承認番号30800BZX00135000）。2026年夏ごろから順次販売と発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000041.000049025.html"
+      }
+    ]
   },
   {
     "id": "b-c98e44af",
@@ -29870,8 +29847,8 @@
       "https://linc-well.com/service/",
       "https://linc-well.com/news/2025/01/24/230000/"
     ],
-    "updatedAt": "2026-10",
-    "type": "telemedicine-direct-to-patient",
+    "updatedAt": "2026-11",
+    "type": "telemedicine-clinic-system",
     "knownSince": "2020-09",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000008.000045113.html"
   },
@@ -30610,14 +30587,15 @@
     "companyId": "1010901046395",
     "category": "medical-dx",
     "description": "病院の患者説明システム「ポケさぽ」の機能で、入院前に集める病状・既往歴・家族歴・アレルギー歴などを患者がスマホで回答し、その内容を電子カルテに取り込めるようにする。2024年秋に提供を始めた。",
-    "hp": "https://prtimes.jp/main/html/rd/p/000000006.000118047.html",
+    "hp": "https://www.opere.jp/poke-sup",
     "startedYear": 2024,
     "status": "提供中",
     "startedAt": "2024-秋",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000006.000118047.html"
+      "https://prtimes.jp/main/html/rd/p/000000006.000118047.html",
+      "https://www.opere.jp/poke-sup"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "web-ai-monshin"
   },
   {
@@ -30924,14 +30902,16 @@
     "companyId": "4040001102829",
     "category": "telemedicine",
     "description": "精神科医オンライン相談を2024-08開始、オンライン診療精神科を2025-11正式リリース",
-    "hp": "https://prtimes.jp/main/html/rd/p/000000081.000047082.html",
+    "hp": "https://doctormate.co.jp/psychiatry",
     "startedYear": 2024,
     "status": "提供中",
     "startedAt": "2024-08",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000081.000047082.html"
+      "https://prtimes.jp/main/html/rd/p/000000081.000047082.html",
+      "https://doctormate.co.jp/psychiatry",
+      "https://prtimes.jp/main/html/rd/p/000000100.000047082.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "telemedicine-direct-to-patient"
   },
   {
@@ -31626,12 +31606,13 @@
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000005.000067292.html",
-      "https://atlasthealth.co.jp/about/"
+      "https://atlasthealth.co.jp/about/",
+      "https://prtimes.jp/main/html/rd/p/000000007.000067292.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "telemedicine-direct-to-patient",
     "startedAt": "2022-06",
-    "startBasis": "PR TIMES（2024-06-13）沿革「2022年6月 オンライン診療プラットフォーム開始」",
+    "startBasis": "PR TIMES（2024-06-13）沿革「2022年6月 オンライン診療プラットフォーム開始」。2024-12-19 の発表は「2022年1月からサービスを開始」と記載し、資料間で食い違う",
     "milestones": [
       {
         "date": "2023-02",
@@ -34024,8 +34005,8 @@
     "company": "株式会社HERO innovation",
     "companyId": "6010001151703",
     "category": "medical-dx",
-    "description": "シリーズとして新たにリリース。MEDISMA-レジは2023-09、AIクラークは2024-12",
-    "hp": "https://hero-innovation.com/",
+    "description": "HERO innovation がクリニック向けに集患・予約・問診・会計などをまとめたブランド「MEDISMA」のシリーズ。2025年11月13日にシリーズとしてリリースし、WEB予約・WEB問診のほか IVR・AIクラーク・レジなどをそろえる。",
+    "hp": "https://medisma.jp/",
     "startedYear": 2025,
     "status": "提供中",
     "startedAt": "2025-11",
@@ -34033,7 +34014,7 @@
       "https://prtimes.jp/main/html/rd/p/000000024.000062237.html",
       "https://hero-innovation.com/"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "clinic-reservation-queue",
     "formerName": "MEDISMAシリーズ（予約・問診・レジ・AIクラーク・マーケティング）"
   },
@@ -34734,17 +34715,41 @@
     "company": "株式会社ヘッジホッグ・メドテック",
     "companyId": "1010001221931",
     "category": "telemedicine",
-    "description": "頭痛予測アプリ「頭痛ーる」から連携医療機関のオンライン診療を受けられるサービス。多忙や距離で受診できていない慢性頭痛の人に向け、アプリでの記録から診療までをつなぐ。2025年9月に始めた。",
-    "hp": "https://h-medtech.com/",
+    "description": "頭痛予測アプリ「頭痛ーる」から連携医療機関のオンライン診療（保険適用）を受けられるサービス。予約から診療まで LINE で完結し、薬は希望の薬局で受け取る。2025年9月に始め、2026年3月28日の診療をもって終了した。",
+    "hp": "https://h-medtech.com/zutool-doctor",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "終了",
     "startedAt": "2025-09",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000020.000099334.html",
-      "https://h-medtech.com/"
+      "https://h-medtech.com/",
+      "https://h-medtech.com/zutool-doctor"
     ],
-    "updatedAt": "2026-10",
-    "type": "telemedicine-direct-to-patient"
+    "updatedAt": "2026-11",
+    "type": "telemedicine-direct-to-patient",
+    "endReasons": [
+      "unknown"
+    ],
+    "milestones": [
+      {
+        "date": "2026-03-28",
+        "text": "この日の診療をもってサービスを終了（2026-06-12 に問い合わせを含む全機能を停止予定と告知）",
+        "source": "https://h-medtech.com/zutool-doctor"
+      }
+    ],
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "理由を確認できていない",
+      "interpretation": "なし"
+    },
+    "after": {
+      "event": "提供終了",
+      "fate": "提供終了",
+      "asOf": "2026-11",
+      "sourceDate": "2026-03"
+    }
   },
   {
     "id": "b-21acff36",
@@ -34787,16 +34792,17 @@
     "company": "株式会社ヘッジホッグ・メドテック",
     "companyId": "1010001221931",
     "category": "medical-device",
-    "description": "片頭痛の患者向けに、認知行動療法（CBT）を作用機序とする治療用アプリ（医療機器プログラム）。2025年8月末に治験届を出し、12月から被験者募集を始めた治験段階で、片頭痛の治療用プログラムとして国内初の承認を目指す。",
-    "hp": "",
+    "description": "片頭痛の患者向けに、認知行動療法（CBT）を作用機序とする治療用アプリ（医療機器プログラム）。2025年に検証的治験（jRCT2032250497）を始めたが、2026年3月11日に中止した。医療機器としての承認は受けていない。",
+    "hp": "https://h-medtech.com/",
     "startedYear": 2025,
-    "status": "準備中",
+    "status": "不明",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000023.000099334.html",
       "https://medicalai.m3.com/news/251002-news-info",
-      "https://h-medtech.com/"
+      "https://h-medtech.com/",
+      "https://jrct.mhlw.go.jp/latest-detail/jRCT2032250497"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "digital-therapeutics",
     "startedAt": "2025-12",
     "milestones": [
@@ -34804,10 +34810,20 @@
         "date": "2025-09-25",
         "text": "片頭痛治療用アプリの治験を開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000023.000099334.html"
+      },
+      {
+        "date": "2026-03",
+        "text": "メドレーがヘッジホッグ・メドテックを完全子会社化（メドレー決算説明資料）",
+        "source": "https://ssl4.eir-parts.net/doc/4480/ir_material_for_fiscal_ym/218121/00.pdf"
+      },
+      {
+        "date": "2026-03-11",
+        "text": "検証的治験（jRCT2032250497）を中止（jRCT の進捗状況は「研究終了」）",
+        "source": "https://jrct.mhlw.go.jp/latest-detail/jRCT2032250497"
       }
     ],
     "formerName": "片頭痛治療用アプリ",
-    "stage": "実証・臨床試験中"
+    "endReasonCaveat": "いまの提供状況は確認できていない（事業のしくみの欄：終了の可能性が高い（確証なし））。手がかり：①検証的治験が 2026-03-11 に中止（jRCT）。②同じ 2026-03 にメドレーが同社を完全子会社化し、開発を率いた CEO の川田氏が退任（Software RA 発表、メドレー決算資料「2026年3月、メドレーグループ化」）。③2026-01-30 の発表では「片頭痛治療用アプリ（治験中）」と記載していたが、その後の開発状況の発表は無い。開発中止・再開を示す会社の発表は見つからない。"
   },
   {
     "id": "b-14e4b1ae",
@@ -36035,15 +36051,16 @@
     "company": "株式会社Smart Opinion",
     "companyId": "3010701038392",
     "category": "medical-image",
-    "description": "2025-08-19ローンチ（公式ニュース）。慶應義塾大学との共同開発",
+    "description": "乳房超音波画像を解析する承認済み医療機器プログラム「スマートオピニオン METIS Eye」（承認番号30600BZX00086000）と医師の診断でダブルチェックする乳がん検診の名称。2025年8月19日に慶應義塾大学予防医療センターで運用を始めた。",
     "hp": "https://www.smaopi.com/",
     "startedYear": 2025,
     "status": "提供中",
     "startedAt": "2025-08",
     "sources": [
-      "https://www.smaopi.com/"
+      "https://www.smaopi.com/",
+      "https://prtimes.jp/main/html/rd/p/000000015.000097981.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "imaging-diagnosis-ai"
   },
   {
@@ -37905,15 +37922,16 @@
     "company": "株式会社ヤックル",
     "companyId": "3020003015412",
     "category": "telemedicine",
-    "description": "糖尿病・高血圧・脂質異常症・高尿酸血症などの生活習慣病を保険適用でオンライン診療するサービス。予約不要でLINEから受診でき、年中無休で21時半まで診療。薬は自宅や近くの薬局で受け取る。提携する医療法人のクリニックが診療を担う。",
+    "description": "糖尿病・高血圧・脂質異常症・高尿酸血症などの生活習慣病を保険適用でオンライン診療するサービス。予約不要でLINEから受診でき、年中無休で21時半まで診療。薬は自宅や近くの薬局で受け取る。診療は提携する一般社団法人恵佳会おうちクリニックが担う。",
     "hp": "https://yakkle.jp/about",
     "startedYear": 2023,
     "status": "提供中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000002.000127099.html",
-      "https://yakkle.jp/about"
+      "https://yakkle.jp/about",
+      "https://yakkle.jp/clinic"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "telemedicine-direct-to-patient",
     "startedAt": "2023-12",
     "startBasis": "PR TIMES（2024-04-09）2023年12月1日にリリース"
@@ -43819,15 +43837,17 @@
     "company": "大塚ホールディングス株式会社",
     "companyId": "4010001118786",
     "category": "medical-device",
-    "description": "プロテウスと開発したセンサー入り錠剤が米国承認。2024年に大うつ病治療アプリRejoyn（Click Therapeuticsと開発）が米国認可",
-    "hp": "https://www.otsuka.co.jp/company/newsreleases/2024/20240402_1.html",
+    "description": "大塚製薬の米国のデジタル治療事業。センサー入り錠剤「エビリファイ マイサイト」（プロテウスと開発）が2017年に米国で承認、うつ病の治療アプリ Rejoyn（Click Therapeutics と開発）が2024年に FDA の510(k)クリアランスを得た。日本では未提供。",
+    "hp": "https://www.rejoyn.com/",
     "startedYear": 2017,
     "status": "提供中",
     "startedAt": "2017-11",
     "sources": [
-      "https://www.otsuka.co.jp/company/newsreleases/2024/20240402_1.html"
+      "https://www.otsuka.co.jp/company/newsreleases/2024/20240402_1.html",
+      "https://www.rejoyn.com/",
+      "https://www.otsuka-us.com/products"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "digital-therapeutics"
   },
   {
@@ -43904,16 +43924,29 @@
     "company": "塩野義製薬株式会社",
     "companyId": "9120001077430",
     "category": "medical-device",
-    "description": "Akili社からADHD向けアプリを導入し2025年2月承認・2026年6月発売。サスメドの不眠障害用アプリ、FRONTEOとの会話型認知機能検査AIなども開発",
+    "description": "塩野義製薬のデジタル治療事業。Akili 社から導入した小児ADHDの治療補助アプリ「エンデバーライド」を2025年2月に承認取得、2026年6月に発売した。サスメドの不眠障害用アプリ（Medcle）の独占的販売権は2026年8月に契約を終えた。",
     "hp": "https://www.shionogi.com/jp/ja/news/2026/06/20260605.html",
     "startedYear": 2019,
     "status": "提供中",
     "startedAt": "2019-03",
     "sources": [
-      "https://www.shionogi.com/jp/ja/news/2026/06/20260605.html"
+      "https://www.shionogi.com/jp/ja/news/2026/06/20260605.html",
+      "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2026/8%E6%9C%88/J_20260826.pdf"
     ],
-    "updatedAt": "2026-10",
-    "type": "digital-therapeutics"
+    "updatedAt": "2026-11",
+    "type": "digital-therapeutics",
+    "milestones": [
+      {
+        "date": "2021-12-27",
+        "text": "サスメドの不眠障害用アプリについて日本の独占的販売権を取得（販売提携）",
+        "source": "https://www2.jpx.co.jp/disc/45070/140120211227561844.pdf"
+      },
+      {
+        "date": "2026-08-26",
+        "text": "サスメドとの不眠障害用アプリ（Medcle）の販売提携契約を終了",
+        "source": "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2026/8%E6%9C%88/J_20260826.pdf"
+      }
+    ]
   },
   {
     "id": "b-cc5faaad",
@@ -44398,17 +44431,30 @@
     "company": "サワイグループホールディングス株式会社",
     "companyId": "8120001236516",
     "category": "medical-device",
-    "description": "サスメドと資本業務提携。ニューロリーフ（2021年）・CureApp（2022・2024年）と開発販売契約、非侵襲型ニューロモデュレーション機器の承認取得（2023年）",
+    "description": "沢井製薬（サワイグループ）のデジタル医療機器事業。CureApp が製造販売する減酒治療補助アプリ「HAUDY」の独占販売を2025年9月に始めた。片頭痛向けニューロモデュレーション機器（2023年承認）や、CureApp と共同開発する NASH 治療アプリも手がける。",
     "hp": "https://www.sawaigroup.holdings/release/detail/47",
     "startedYear": 2020,
     "status": "提供中",
     "startedAt": "2020-09",
     "sources": [
-      "https://www.sawaigroup.holdings/release/detail/47"
+      "https://www.sawaigroup.holdings/release/detail/47",
+      "https://www.sawai.co.jp/release/detail/000904.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "digital-therapeutics",
-    "startBasis": "変更なし（サスメドとの資本業務提携の発表、2020-09-24）"
+    "startBasis": "変更なし（サスメドとの資本業務提携の発表、2020-09-24）",
+    "milestones": [
+      {
+        "date": "2024-08",
+        "text": "CureApp と減酒治療補助アプリの国内販売ライセンス契約を締結",
+        "source": "https://www.sawaigroup.holdings/release/detail/47"
+      },
+      {
+        "date": "2025-09-01",
+        "text": "沢井製薬が減酒治療補助アプリ「HAUDY」（CureApp が製造販売）を販売開始",
+        "source": "https://www.sawai.co.jp/release/detail/000904.html"
+      }
+    ]
   },
   {
     "id": "b-09f14831",
@@ -47530,8 +47576,8 @@
     "company": "株式会社UTヘルステック",
     "companyId": "5380001032702",
     "category": "medical-device",
-    "description": "腰椎術後患者向けの遠隔リハビリアプリ。オンライン問診からリハビリプログラムを自動作成し、ウェアラブル機器で生体・動作データを取得してリアルタイムに指導する。薬事承認に向けた治験段階。",
-    "hp": "",
+    "description": "腰椎術後患者向けの遠隔リハビリアプリ。オンライン問診からリハビリプログラムを自動作成し、ウェアラブル機器で生体・動作データを取得してリアルタイムに指導する。医療機器としての薬事承認を目指して開発している。",
+    "hp": "https://www.uthtech.jp/",
     "startedYear": 2023,
     "status": "準備中",
     "startedAt": "2023-01",
@@ -47541,9 +47587,16 @@
       "https://www.uthtech.jp/news-1"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "stage": "治験中",
-    "stageNote": "説明の開発段階から（製品として一般に使える状態ではない）"
+    "stageNote": "説明の開発段階から（製品として一般に使える状態ではない）",
+    "milestones": [
+      {
+        "date": "2023-02",
+        "text": "福島県立医科大学会津医療センターと共同研究を開始（当時の開発名は「Panopticon」）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000116880.html"
+      }
+    ]
   },
   {
     "id": "b-99075bf2",
@@ -47823,15 +47876,16 @@
     "companyId": "5011501027047",
     "category": "health-corporate-management",
     "description": "医療介護事業者向けのストレスチェック問診ツール。toHANASに新たに実装し、2025年12月末までの申込分は1年間無償で提供。",
-    "hp": "",
+    "hp": "https://tohanas.jp/",
     "startedYear": 2025,
     "status": "提供中",
     "startedAt": "2025-10",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000003.000134518.html"
+      "https://prtimes.jp/main/html/rd/p/000000003.000134518.html",
+      "https://tohanas.jp/"
     ],
     "type": "stress-check-survey",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-cd159c16",
@@ -48723,9 +48777,9 @@
     "name": "AlmaprismのADHD診療支援ゲーム型SaMD",
     "company": "Almaprism株式会社",
     "companyId": "1130003007862",
-    "category": "medical-device",
+    "category": "diagnostic-support",
     "description": "ビデオゲームのプレイ中の行動データを解析し、ADHDなど小児の診療で医師の判断を支援するゲーム型のプログラム医療機器。臨床研究で検証中で、未承認。",
-    "hp": "",
+    "hp": "https://almaprism.com/",
     "startedYear": null,
     "status": "準備中",
     "sources": [
@@ -48733,8 +48787,8 @@
       "https://almaprism.com/?lang=ja",
       "https://www.krp.co.jp/news/detail/4807.html"
     ],
-    "type": "digital-therapeutics",
-    "updatedAt": "2026-10",
+    "type": "disease-specific-ai-samd",
+    "updatedAt": "2026-11",
     "formerName": "ADHD診療支援ゲーム型SaMD（開発中）",
     "stage": "実証・臨床試験中"
   },
@@ -48865,18 +48919,20 @@
     "company": "Boston Medical Sciences株式会社",
     "companyId": "4010001234344",
     "category": "medical-image",
-    "description": "高精度な仮想腸管洗浄AIとポリープ検出AIにより、下剤による前処置なしでCT画像から大腸を調べる非侵襲的な大腸がんスクリーニングシステム。米FDAのブレークスルーデバイスに指定。",
-    "hp": "",
+    "description": "高精度な仮想腸管洗浄AIとポリープ検出AIにより、下剤による前処置なしでCT画像から大腸を調べる非侵襲的な大腸がんスクリーニングシステム。米FDAのブレークスルーデバイスに指定された。日米とも未承認の開発品で、販売していない。",
+    "hp": "https://b-ms.tech/business/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "sources": [
       "https://b-ms.tech/business/",
       "https://prtimes.jp/main/html/rd/p/000000008.000129637.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "knownSince": "2023-10",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000129637.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000129637.html",
+    "stage": "研究開発",
+    "stageLocked": true
   },
   {
     "id": "b-5125c7e5",
@@ -51860,7 +51916,7 @@
     "hp": "https://annyo.jp/",
     "startedYear": 2021,
     "status": "提供中",
-    "startedAt": "2021-09-09",
+    "startedAt": "2023-06",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000003.000071790.html",
       "https://prtimes.jp/main/html/rd/p/000000011.000071790.html",
@@ -51869,8 +51925,8 @@
       "https://prtimes.jp/main/html/rd/p/000000030.000071790.html"
     ],
     "type": "telemedicine-direct-to-patient",
-    "updatedAt": "2026-10",
-    "startBasis": "子育て医療アプリ「あんよ」のローンチ（プレスリリース）。小児科オンライン診療「あんよonline」は2023-06開始",
+    "updatedAt": "2026-11",
+    "startBasis": "小児科特化オンライン診療「あんよonline」の開始（愛知県、PR TIMES）。子育て医療アプリ「あんよ」のローンチは2021-09-09",
     "milestones": [
       {
         "date": "2022-10-27",
@@ -59752,21 +59808,21 @@
     "company": "株式会社メドミライ",
     "companyId": "8010001218153",
     "category": "medical-device",
-    "description": "健診データなどからメタボの将来リスクを予測し、治療を補助する医療機器プログラム。治験に向けて開発を進めている。",
-    "hp": "",
+    "description": "東京大学 COI の研究成果をもとに、メタボリックシンドロームの治療を補助する医療機器プログラム（アプリ）として開発し、承認と保険収載を目指した。2023年6月には2024年にも治験を始めると報じられた。",
+    "hp": "https://www.medmirai.co.jp/",
     "startedYear": null,
-    "status": "準備中",
+    "status": "不明",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000037.000051734.html",
       "https://www.nikkei.com/article/DGXZQOUC213UN0R20C23A6000000/",
       "https://www.medmirai.co.jp/company"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "knownSince": "2022-02",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000037.000051734.html",
     "formerName": "メタボリックシンドローム治療用アプリ（開発中）",
-    "stage": "開発中"
+    "endReasonCaveat": "いまの提供状況は確認できていない（事業のしくみの欄：未確認）。会社は存続し事業内容に「医療機器プログラムの開発」を掲げるが、治療用アプリの開発の進み具合を示す 2023-06 以降の資料が見当たらない。東大との共同技術は「生活習慣病管理 療養計画書作成支援プログラム」（インテグリティ・ヘルスケア／沢井製薬が 2024-07 提供開始）に使われた。"
   },
   {
     "id": "b-e52615e4",
@@ -60908,7 +60964,7 @@
       "https://prtimes.jp/main/html/rd/p/000000176.000093942.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "endReasonNote": "報道によれば、iSurgeryは2024年4月に突然サービスと販売を中止し、5月29日に東京地裁で破産手続きを開始した。会社による理由の説明は確認できない（報道のみ）。",
     "lessons": "AI医療機器が70以上の医療機関で7万人超に使われていても、提供企業が破産すると予告なく使えなくなる（報道）。医療機関がAIを導入するときは、提供会社の存続リスクと結果データの扱いを確かめる必要がある。",
     "milestones": [
@@ -60943,8 +60999,9 @@
     "after": {
       "event": "提供終了",
       "fate": "提供終了",
-      "asOf": "2026-10"
-    }
+      "asOf": "2026-11"
+    },
+    "startBasis": "販売開始（報道）。認証番号305ADBZX00032000 から認証は2023年で、認証の年月日は未確認"
   },
   {
     "id": "b-cbf19eb1",
@@ -63417,7 +63474,7 @@
     "name": "CT肺野画像解析ソフトウエア（新型コロナ肺炎の診断支援AI、2020年発売分）",
     "company": "キヤノンメディカルシステムズ株式会社",
     "category": "medical-image",
-    "description": "藤田医科大学と開発した、CT画像から新型コロナウイルス感染症などの肺炎像を数値化して診断を支援するAIソフト。2020年12月14日に発売を発表したが、1週間ほどで販売を中止した。",
+    "description": "藤田医科大学と開発した、CT画像から新型コロナウイルス感染症などの肺炎像を数値化して診断を支援するAIソフト。2020年12月14日に発売を発表したが、認証の範囲について厚生労働省の指摘を受け、12月22日に発売予定を取りやめた。",
     "hp": "https://jp.medical.canon/",
     "startedYear": 2020,
     "status": "終了",
@@ -63434,7 +63491,7 @@
       "https://jp.medical.canon/about/pressrelease/2022/2022-08-19/"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "endReasonInfo": {
       "sources": [
         "会社発表"
@@ -63445,7 +63502,7 @@
     "after": {
       "event": "提供終了",
       "fate": "提供終了",
-      "asOf": "2026-10"
+      "asOf": "2026-11"
     }
   },
   {
@@ -63582,16 +63639,27 @@
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AGBZX00004000_1_01",
       "https://prtimes.jp/main/html/rd/p/000000002.000093244.html",
       "https://plusmanllc.co.jp/news/pr-plnkasan3/",
-      "https://www.ningen-dock.jp/ningendock/wp-content/uploads/2024/11/plusman.pdf"
+      "https://www.ningen-dock.jp/ningendock/wp-content/uploads/2024/11/plusman.pdf",
+      "https://plusmanllc.co.jp/news/"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
-    "startedAt": "2022-04",
+    "updatedAt": "2026-11",
+    "startedAt": "2019-11-01",
     "milestones": [
       {
         "date": "2019",
         "text": "Plus.Lung.Noduleプラスラングノジュール：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号301AGBZX00004000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AGBZX00004000_1_01"
+      },
+      {
+        "date": "2019-11-01",
+        "text": "製造販売（臨床利用）を開始",
+        "source": "https://plusmanllc.co.jp/news/"
+      },
+      {
+        "date": "2022-04",
+        "text": "バイエル薬品が販売を開始（独占的販売権）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000093244.html"
       }
     ],
     "device": {
@@ -63608,7 +63676,8 @@
       "jmdn": "70030012",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "startBasis": "製造販売（臨床利用）の開始（同社ニュース）。バイエル薬品による販売は2022-04から"
   },
   {
     "id": "b-bb0bef95",
@@ -64446,7 +64515,7 @@
     "name": "みてねコールドクター（オンライン診療）",
     "company": "株式会社コールドクター",
     "category": "telemedicine",
-    "description": "MIXIグループのコールドクターが運営する、子どもと家族向けの24時間365日オンライン診療アプリ。保険診療・処方薬配送に対応し、2024年の往診終了後は主力事業となった。",
+    "description": "コールドクターが運営する、子どもと家族向けの24時間365日オンライン診療アプリ「みてねコールドクター」。保険診療・処方薬の配送に対応し、2024年の往診サービス終了後は主力事業となった。",
     "hp": "https://calldoctor.jp/",
     "startedYear": 2020,
     "status": "提供中",
@@ -64458,7 +64527,8 @@
     "type": "telemedicine-direct-to-patient",
     "updatedAt": "2026-11",
     "companyId": "8010001195756",
-    "themes": []
+    "themes": [],
+    "startBasis": "保険適用のオンライン診療の開始（PR TIMES 2020-05-19）。往診サービスはそれ以前から提供"
   },
   {
     "id": "b-f4eb2b0c",
@@ -67158,7 +67228,7 @@
     "name": "REMOMIRU（リモミル）",
     "company": "YOKUMIRU株式会社",
     "category": "telemedicine",
-    "description": "ビデオ通話とチャットで医師の診療・医療相談を受けられるオンライン診療アプリ。市販の外部カメラ（イヤースコープ等）と連携し、耳・鼻・口の中の画像を医師と共有できる。",
+    "description": "耳鼻咽喉科向けの医療機関専用オンライン診療システム。患者はアプリのビデオ通話とチャットで医師の診療を受け、市販の外部カメラ（イヤースコープ等）と連携して耳・鼻・口の中の画像を医師と共有できる。",
     "hp": "https://remomiru.jp/",
     "startedYear": 2020,
     "status": "提供中",
@@ -73814,17 +73884,18 @@
     "name": "問診票アプリ",
     "company": "国立大学法人長岡技術科学大学",
     "category": "medical-dx",
-    "description": "問診票の質問に事前に回答すると、回答内容をQRコードにして表示するアプリ。医療機関の受付で読み取ってもらうことで、紙の問診票の記入を省く。",
+    "description": "長岡技術科学大学が公開した、問診票の質問に事前に回答すると、回答内容をもとにQRコードを表示するアプリ。2020年1月に App Store で公開し、2021年2月以降は更新されていない。",
     "hp": "",
     "startedYear": 2020,
-    "status": "提供中",
+    "status": "不明",
     "startedAt": "2020-01-15",
     "startBasis": "App Store初回公開",
     "sources": [
       "https://apps.apple.com/jp/app/%E5%95%8F%E8%A8%BA%E7%A5%A8%E3%82%A2%E3%83%97%E3%83%AA/id1492970100"
     ],
     "type": "web-ai-monshin",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "endReasonCaveat": "いまの提供状況は確認できていない（事業のしくみの欄：未確認）。App Store の掲載のみ確認（5年以上更新なし、評価52件）。大学の発表・利用先の資料は見つからない。"
   },
   {
     "id": "b-673c1630",
@@ -74954,17 +75025,20 @@
     "name": "慶應いたみケア",
     "company": "学校法人慶應義塾（慶應義塾大学）",
     "category": "medical-device",
-    "description": "担当医師が指定した「いたみ」へのセルフケアプログラムを指定時間に通知し、動画を最後まで見るとセルフケアの実施を記録するアプリ。慢性疼痛の研究・診療用。",
+    "description": "担当医が指定した「いたみ」へのセルフケアプログラムを指定時間に通知し、動画を最後まで見るとセルフケアの実施を記録するアプリ。慶應義塾大学病院の口腔顔面痛外来で、担当医に許可された患者だけが使う。医療機器の承認・認証は確認できない。",
     "hp": "",
     "startedYear": 2021,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2021-03-01",
     "startBasis": "App Store初回公開",
     "sources": [
       "https://apps.apple.com/jp/app/%E6%85%B6%E6%87%89%E3%81%84%E3%81%9F%E3%81%BF%E3%82%B1%E3%82%A2/id1551611880"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "endReasonCaveat": "いまの提供状況は確認できていない（事業のしくみの欄：未確認）。App Store に掲載が続く（version 1.0.0、2021-03-01 公開から更新なし）。科研費研究は 2022 年度で完了。研究代表者と同名の個人の販売元から、口腔顔面痛のセルフケア支援アプリ「新いたみケア」（有料）が 2025-06 に公開されているが、後継かどうかは資料で確認できない。",
+    "stage": "β版・限定提供",
+    "stageLocked": true
   },
   {
     "id": "b-ab4bdcfe",
@@ -77046,14 +77120,13 @@
         "会社発表"
       ],
       "stated": "経過だけ",
-      "interpretation": "推定を含む"
+      "interpretation": "なし"
     },
     "after": {
       "event": "提供終了",
       "fate": "提供終了",
       "asOf": "2026-10"
-    },
-    "endReasonCaveat": ""
+    }
   },
   {
     "id": "b-cd7c607e",
@@ -89744,7 +89817,7 @@
     "companyId": "3013201016802",
     "category": "medical-dx",
     "description": "クリニック向けのWeb予約・問診システム。LINE連携のモバイル診察券、受付番号、Googleで予約への対応などを追加",
-    "hp": "",
+    "hp": "https://apokul.jp/",
     "startedYear": null,
     "status": "提供中",
     "milestones": [
@@ -89758,10 +89831,11 @@
       }
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000031.000127596.html"
+      "https://apokul.jp/",
+      "https://apokul.jp/price/"
     ],
     "type": "clinic-reservation-queue",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "knownSince": "2023-10",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000004.000127596.html"
   },
@@ -91424,15 +91498,14 @@
         "会社発表"
       ],
       "stated": "経過だけ",
-      "interpretation": "推定を含む"
+      "interpretation": "なし"
     },
     "after": {
       "event": "提供終了",
       "fate": "提供終了",
       "asOf": "2026-10",
       "sourceDate": "2009-09"
-    },
-    "endReasonCaveat": ""
+    }
   },
   {
     "id": "b-8ef16631",
@@ -94344,11 +94417,11 @@
   },
   {
     "id": "b-ccf25f76",
-    "name": "AI眼底画像診断支援システム（メディカル・イノベーション研究所）",
+    "name": "眼底画像診断支援システム OPTiM Doctor Eye",
     "company": "株式会社オプティム",
     "companyId": "4300001001392",
     "category": "medical-image",
-    "description": "佐賀大学と設立したメディカル・イノベーション研究所で開発した、AIで眼底画像の疾患所見を見つける診断支援システム。医療機器プログラムの製造業登録も取得した。",
+    "description": "佐賀大学と設立したメディカル・イノベーション研究所で開発した、眼底画像を解析して視神経乳頭陥凹の領域を抽出し計測値を示す診断支援システム。2018年に医療機器製造業の登録を取り、2019年5月に医療機器プログラムとして認証を取得した。",
     "hp": "https://www.optim.co.jp/",
     "startedYear": 2018,
     "status": "不明",
@@ -94369,7 +94442,8 @@
         "text": "「眼底画像診断支援システム OPTiM Doctor Eye」が医療機器プログラムの認証を取得",
         "source": "https://www.optim.co.jp/corporate/history"
       }
-    ]
+    ],
+    "formerName": "AI眼底画像診断支援システム（メディカル・イノベーション研究所）"
   },
   {
     "id": "b-87f76383",
@@ -97349,7 +97423,7 @@
     "company": "株式会社レイヤード",
     "companyId": "2290001018911",
     "category": "marketing-support",
-    "description": "製薬・食品メーカーや自治体向けに、全国約3,750面の医療機関・薬局の待合サイネージ（Medicastar）やWEB問診Symviewの一部を媒体として、疾患啓発・商品認知の広告を審査・編集して配信する。",
+    "description": "製薬・食品メーカーや国の機関・公的団体などの広告主向けに、全国約3,750面の医療機関・薬局の待合サイネージ（Medicastar）やWEB問診Symviewの一部を媒体として、疾患啓発・商品認知の広告を審査・編集して配信する。",
     "hp": "https://layered.inc/",
     "startedYear": 2008,
     "status": "提供中",
@@ -97360,7 +97434,7 @@
       "https://layered.inc/corporate/history/"
     ],
     "type": "pharmacy-clinic-signage",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-19eb85a8",
@@ -97595,41 +97669,6 @@
     }
   },
   {
-    "id": "b-647af4a9",
-    "name": "オンライン診療サービス「MediTel（メディテル）」",
-    "company": "株式会社レイヤード",
-    "companyId": "2290001018911",
-    "category": "telemedicine",
-    "description": "患者がスマホアプリでオンライン診察予約、医師とのビデオ診察、クレジット決済、健康データ記録を行えるオンライン診療。NTTドコモの「39works」で2018年1月に始まり、同年10月に提供会社が同社へ移った。",
-    "hp": "https://layered.inc/",
-    "startedYear": 2018,
-    "status": "不明",
-    "startedAt": "2018-01",
-    "startBasis": "ドコモ39worksでのサービス展開開始（運営移管前、プレスリリース記載）",
-    "milestones": [
-      {
-        "date": "2018-10-11",
-        "text": "提供会社をNTTドコモからメディアコンテンツファクトリー（現レイヤード）に変更、導入費・月額無料化",
-        "source": "https://prtimes.jp/main/html/rd/p/000000010.000004524.html"
-      },
-      {
-        "date": "2023-05-15",
-        "text": "同社のオンライン診療は「Symview オンライン診療」として提供",
-        "source": "https://prtimes.jp/main/html/rd/p/000000042.000004524.html"
-      }
-    ],
-    "endReasons": [
-      "unknown"
-    ],
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000010.000004524.html",
-      "https://prtimes.jp/main/html/rd/p/000000042.000004524.html",
-      "https://layered.inc/business/"
-    ],
-    "type": "telemedicine-clinic-system",
-    "updatedAt": "2026-11"
-  },
-  {
     "id": "b-40c9a804",
     "name": "患者アクセスツール「tonect（トネクト）」",
     "company": "株式会社レイヤード",
@@ -97650,7 +97689,7 @@
     "type": "telemedicine-clinic-system",
     "updatedAt": "2026-11",
     "startedAt": "2020-07-30",
-    "startBasis": "多様化する診察手段を一元管理する患者アクセスツール「tonect」β版のリリースを発表"
+    "startBasis": "β版の公開（PR TIMES 2020-07-30。発表時の社名はメディアコンテンツファクトリー、2022-07 にレイヤードへ社名変更）。2020年末予定とした正式リリースは確認できない"
   },
   {
     "id": "b-061634c3",
@@ -98496,21 +98535,47 @@
   },
   {
     "id": "b-5afd0d4b",
-    "name": "治療アプリ完了後の血圧管理サービス「スマート血圧」",
+    "name": "治療アプリ完了後の血圧管理サービス「スマート血圧記録」",
     "company": "CureApp",
     "companyId": "2011101070788",
     "category": "disease-management-program",
-    "description": "保険適用の6か月間の高血圧治療アプリを終えた患者が、記録を引き継いで期間の制限なく血圧記録と生活習慣の改善を続けられるサービス。",
+    "description": "保険適用の高血圧治療補助アプリ（CureApp HT）を終えた患者が記録を引き継ぎ、期間の制限なく血圧・体調などを記録できる無料アプリ。2026年10月に全サービスを終え、後継の「CureApp 血圧」（血圧手帳モード）へ移行した。",
     "hp": "https://cureapp.co.jp/",
     "startedYear": 2023,
-    "status": "提供中",
-    "startedAt": "2023-08-29",
-    "startBasis": "提供開始の発表（プレスリリース）",
+    "status": "統合",
+    "startedAt": "2023-09",
+    "startBasis": "リリース（2023年9月中旬の予定と 2023-08-29 の発表に記載）",
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000145.000015777.html"
+      "https://prtimes.jp/main/html/rd/p/000000145.000015777.html",
+      "https://prtimes.jp/main/html/rd/p/000000272.000015777.html"
     ],
     "type": "lifestyle-disease-app",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "endReasons": [
+      "unknown"
+    ],
+    "successor": "2026-06-01 に CureApp HT を「CureApp 血圧」に改称し、誰でも無料で使える非医療機器の「血圧手帳モード」を統合。スマート血圧記録は 2026-10 に終了し CureApp 血圧へ移行。",
+    "formerName": "治療アプリ完了後の血圧管理サービス「スマート血圧」",
+    "milestones": [
+      {
+        "date": "2026-06-01",
+        "text": "CureApp HT を「CureApp 血圧」に改称し血圧手帳モードを統合。スマート血圧記録は2026年10月に全サービスを終え、CureApp 血圧へ移行すると発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000272.000015777.html"
+      }
+    ],
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "理由を確認できていない",
+      "interpretation": "なし"
+    },
+    "after": {
+      "event": "サービス統合",
+      "fate": "別サービスへ移行",
+      "asOf": "2026-11",
+      "sourceDate": "2026-06"
+    }
   },
   {
     "id": "b-5c57381d",
@@ -101761,8 +101826,7 @@
   {
     "id": "b-610dfff3",
     "name": "医療機関向けウェブ型セカンドオピニオン「Findmeホスピタル」",
-    "company": "スペシャリスト・ドクターズ株式会社",
-    "companyId": "8010401094698",
+    "company": "Hatch Healthcare株式会社",
     "category": "telemedicine",
     "description": "病院がセカンドオピニオン外来をオンラインで受け付け・実施できるウェブ面談システム。筑波大学附属病院陽子線治療センターや国立がん研究センター中央病院（共同開発）などが採用。",
     "hp": "https://www.specialist-doctor.com/",
@@ -101788,7 +101852,7 @@
       "https://prtimes.jp/main/html/rd/p/000000071.000025604.html"
     ],
     "type": "telemedicine-clinic-system",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "lessons": "病院のセカンドオピニオン外来をオンライン化するシステムは、会社が産科の医療機関紹介へ事業を転換する際に、がん患者向けサービス一式として保険会社グループに譲られた。がん領域の事業は保険会社と相性がよい。",
     "endReasonInfo": {
       "sources": [
@@ -101798,10 +101862,12 @@
       "interpretation": "なし"
     },
     "after": {
-      "event": "譲渡",
-      "fate": "未確認",
-      "asOf": "2026-10"
-    }
+      "event": "事業譲渡",
+      "fate": "同一サービス継続（運営会社が変更）",
+      "note": "Hatch Healthcare が運営を継続（国立がん研究センター中央病院の案内に記載）",
+      "asOf": "2026-11"
+    },
+    "afterLocked": true
   },
   {
     "id": "b-fa83d964",
@@ -103693,7 +103759,7 @@
     "companyId": "1010001178619",
     "category": "telemedicine",
     "description": "花粉症に悩む人向けに、症状チェックからオンライン相談・診療、アフターフォローまでをすべてオンラインで提供するサービス。",
-    "hp": "https://doctors-inc.jp/",
+    "hp": "https://kafunsho-doctor.doctors-station.com/",
     "startedYear": 2024,
     "status": "不明",
     "startedAt": "2024-02-01",
@@ -103927,9 +103993,14 @@
     "hp": "https://www.sharemedical.jp/",
     "startedYear": 2020,
     "status": "不明",
-    "startedAt": "2020-02-12",
-    "startBasis": "ネクステートをコアとした次世代遠隔診療システムの発表（プレスリリース）。正式リリースは2020-12-22",
+    "startedAt": "2020-12-22",
+    "startBasis": "「ネクステート・シナプス」の名前でのリリース（PR TIMES 2020-12-22。提供開始は2021-01と発表）。ネクステートをコアとした次世代遠隔診療システムの発表は2020-02-12",
     "milestones": [
+      {
+        "date": "2020-02-12",
+        "text": "デジタル聴診デバイス「ネクステート」をコアとした次世代遠隔診療システムを発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000023.000016841.html"
+      },
       {
         "date": "2020-12-22",
         "text": "「ネクステート・シナプス」をリリース",
@@ -104564,7 +104635,7 @@
     "companyId": "5120001198841",
     "category": "telemedicine",
     "description": "スマホで受診を申し込み、自宅にいながら診察を受けて薬を受け取れる遠隔医療サービス。2018年に花粉症のオンライン診療として正式開始し、女性向けの「スマルナ」はここから生まれた。",
-    "hp": "https://nextinnovation-inc.co.jp/",
+    "hp": "https://sumashin.com/",
     "startedYear": 2016,
     "status": "不明",
     "startedAt": "2016-10-01",
@@ -107154,7 +107225,7 @@
     "company": "ティーペック株式会社",
     "companyId": "2010001023468",
     "category": "medical-dx",
-    "description": "医療機関・健診機関向けに、患者が端末に入力した問診内容をコンピュータで処理・記録する問診票システム。ティーペックが1995年に発売した。",
+    "description": "ティーペックが1995年11月に発売したコンピュータ問診票（会社沿革の表記は「コンピュータ問診表」）。対象施設や入力方法など製品の中身は、公開資料では確認できない。",
     "hp": "https://www.t-pec.co.jp/",
     "startedYear": 1995,
     "status": "不明",
@@ -108622,19 +108693,21 @@
   },
   {
     "id": "b-75505886",
-    "name": "歯科医院向けWeb問診票「もしもし問診」",
+    "name": "歯科医院向けWeb問診票「もしもし問診プラス」",
     "company": "株式会社ストランザ",
     "companyId": "4010401105780",
     "category": "medical-dx",
-    "description": "歯科医院の患者向けに、来院前にスマートフォンで問診票に回答でき、内容が医院の業務管理システムに連携されるWeb問診サービス。",
-    "hp": "http://stransa.co.jp/",
+    "description": "歯科医院向けクラウド業務管理システム「Apotool & Box」のオプション機能のWeb問診票。来院前にメール・SMS・診察券アプリで問診票を送り、回答は患者情報・予約に紐づく。電子署名による同意書の取得にも対応する。",
+    "hp": "https://apotool.jp/function/consultation/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "http://stransa.co.jp/"
+      "http://stransa.co.jp/",
+      "https://apotool.jp/function/consultation/"
     ],
     "type": "web-ai-monshin",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "formerName": "歯科医院向けWeb問診票「もしもし問診」"
   },
   {
     "id": "b-38e52f6e",
@@ -109014,7 +109087,7 @@
     "companyId": "7010001087640",
     "category": "telemedicine",
     "description": "医療機関向けのオンライン診療システム。新型コロナの流行が続く2020年10月に、MDVが病院経営支援・診療データ事業に加えてリリースした。",
-    "hp": "https://www.mdv.co.jp/",
+    "hp": "https://www.online-drbank.jp/",
     "startedYear": 2020,
     "status": "不明",
     "startedAt": "2020-10",
@@ -109024,7 +109097,8 @@
     ],
     "sources": [
       "https://www.mdv.co.jp/company/history.html",
-      "https://www.mdv.co.jp/"
+      "https://www.mdv.co.jp/",
+      "https://mdv.co.jp/press/uploadfile/docs/odb.pdf"
     ],
     "type": "telemedicine-clinic-system",
     "updatedAt": "2026-11"
@@ -112705,8 +112779,8 @@
     "hp": "https://www.smaopi.com/",
     "startedYear": 2024,
     "status": "提供中",
-    "startedAt": "2024-05-09",
-    "startBasis": "製造販売承認の取得（プレスリリース）",
+    "startedAt": "2025-08-19",
+    "startBasis": "医療機関での運用開始（慶應義塾大学予防医療センター、AI乳がん検診「Smaopi」として。PR TIMES 2025-08-19）。製造販売承認は2024-05-08",
     "milestones": [
       {
         "date": "2023-02",
@@ -112722,14 +112796,20 @@
         "date": "2025-01",
         "text": "Mayo ClinicとAIモデルの実証実験を開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000013.000097981.html"
+      },
+      {
+        "date": "2025-08-19",
+        "text": "慶應義塾大学予防医療センターで運用を開始（AI乳がん検診「Smaopi」）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000015.000097981.html"
       }
     ],
     "sources": [
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30600BZX00086000_A_01",
-      "https://prtimes.jp/main/html/rd/p/000000008.000097981.html"
+      "https://prtimes.jp/main/html/rd/p/000000008.000097981.html",
+      "https://prtimes.jp/main/html/rd/p/000000015.000097981.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30600BZX00086000_A_01",
       "genericName": "超音波装置ワークステーション用プログラム",
@@ -117678,7 +117758,7 @@
   },
   {
     "id": "b-df217598",
-    "name": "タブレット問診票システム（電子カルテ・紙カルテ連携）",
+    "name": "iPad問診票",
     "company": "メディカクラウド株式会社",
     "companyId": "7040001042353",
     "category": "medical-dx",
@@ -117694,7 +117774,8 @@
       "https://www.medicacloud.jp/service/index03.html"
     ],
     "type": "web-ai-monshin",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "formerName": "タブレット問診票システム（電子カルテ・紙カルテ連携）"
   },
   {
     "id": "b-cbfca0a0",
@@ -118021,14 +118102,13 @@
         "会社発表"
       ],
       "stated": "明示あり",
-      "interpretation": "推定を含む"
+      "interpretation": "なし"
     },
     "after": {
       "event": "販売終了",
       "fate": "別サービスへ移行",
       "asOf": "2026-10"
-    },
-    "endReasonCaveat": ""
+    }
   },
   {
     "id": "b-611f3b95",
@@ -118602,8 +118682,8 @@
     "company": "株式会社医針盤",
     "companyId": "6011101091509",
     "category": "medical-dx",
-    "description": "クリニックの予約・受付管理、オンライン問診票、診察支援、検査データの一元管理を、電子カルテなど既存システムはそのままに提供する業務支援システム。オプションでレセプト点検・請求漏れチェックの「医'sレセ点検」も持つ。",
-    "hp": "",
+    "description": "クリニックの予約・受付管理、オンライン問診票、診察支援、検査データの一元管理を、電子カルテなど既存システムはそのままに提供する業務支援システム。2021年4月にレセプト点検の「医'sレセ点検」を加えたが、いまの料金表には載っていない。",
+    "hp": "https://pr.e-s-assist.com/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2021-04",
@@ -118616,10 +118696,11 @@
     ],
     "sources": [
       "https://digitalpr.jp/r/46804",
-      "https://prtimes.jp/main/html/rd/p/000000005.000084072.html"
+      "https://prtimes.jp/main/html/rd/p/000000005.000084072.html",
+      "https://pr.e-s-assist.com/"
     ],
     "type": "web-ai-monshin",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11"
   },
   {
     "id": "b-573e2867",
@@ -120330,7 +120411,7 @@
     "company": "富士フイルム株式会社",
     "category": "medical-image",
     "description": "胸部CT画像からAIが肋骨骨折の疑われる部位を検出し、読影する医師に示す画像診断支援プログラム。富士フイルムのAI技術を使った読影支援製品群のひとつ。",
-    "hp": "",
+    "hp": "https://www.fujifilm.com/jp/ja/healthcare/healthcare-it/medical-cloud/rib-fracture-detection",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2021-09",
@@ -120342,10 +120423,11 @@
       }
     ],
     "sources": [
-      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00244000_A_01"
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00244000_A_01",
+      "https://www.fujifilm.com/jp/ja/healthcare/healthcare-it/medical-cloud/rib-fracture-detection"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00244000_A_01",
       "genericName": "X線画像診断装置ワークステーション用プログラム",
@@ -120367,8 +120449,8 @@
     "name": "間質性肺疾患定量評価支援プログラム FS-AI694型",
     "company": "富士フイルム株式会社",
     "category": "medical-image",
-    "description": "胸部CT画像から間質性肺疾患に特徴的な陰影をAIで分類・定量し、病変の広がりを数値と画像で示して医師の評価を支援するプログラム。",
-    "hp": "",
+    "description": "胸部CT画像から間質性肺疾患に特徴的な陰影をAIで分類・定量し、病変の広がりを数値と画像で示して医師の評価を支援するプログラム。「間質性肺疾患解析ソフトウェア」の名で2025年7月に発売した。",
+    "hp": "https://www.fujifilm.com/jp/ja/news/list/12525",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2025-04",
@@ -120377,13 +120459,19 @@
         "date": "2025-04-04",
         "text": "間質性肺疾患定量評価支援プログラムFS-AI 694型：X線画像診断装置ワークステーション用プログラムとして製造販売承認（改良医療機器・臨床なし）（承認番号30700BZX00073000）",
         "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      },
+      {
+        "date": "2025-07-03",
+        "text": "「間質性肺疾患解析ソフトウェア」として発売（SYNAPSE VINCENT のアプリケーション）",
+        "source": "https://www.fujifilm.com/jp/ja/news/list/12525"
       }
     ],
     "sources": [
-      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30700BZX00073000_A_01"
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30700BZX00073000_A_01",
+      "https://www.fujifilm.com/jp/ja/news/list/12525"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30700BZX00073000_A_01",
       "genericName": "X線画像診断装置ワークステーション用プログラム",
@@ -120397,7 +120485,9 @@
       "classLabel": "クラスII",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "startedAt": "2025-07-03",
+    "startBasis": "「間質性肺疾患解析ソフトウェア」として発売（富士フイルム 2025-07-02 発表）"
   },
   {
     "id": "b-34cabc9f",
@@ -120405,22 +120495,23 @@
     "company": "富士フイルム株式会社",
     "category": "medical-image",
     "description": "頭部MRA画像からAIが脳動脈瘤の候補を自動で検出し、読影する医師に示して見落とし防止を支援する画像診断支援プログラム。",
-    "hp": "",
+    "hp": "https://www.fujifilm.com/jp/ja/news/list/13678",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "knownSince": "2026",
     "milestones": [
       {
-        "date": "2026",
-        "text": "脳動脈瘤検出プログラム FS-AI697型：MR装置ワークステーション用プログラムとして承認取得（承認番号30800BZX00171000、番号の年号から年のみ）",
-        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30800BZX00171000_A_01"
+        "date": "2026-07-06",
+        "text": "脳動脈瘤検出プログラム FS-AI697型：MR装置ワークステーション用プログラムとして製造販売承認（承認番号30800BZX00171000）。発売の告知は未確認",
+        "source": "https://www.fujifilm.com/jp/ja/news/list/13678"
       }
     ],
     "sources": [
-      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30800BZX00171000_A_01"
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30800BZX00171000_A_01",
+      "https://www.fujifilm.com/jp/ja/news/list/13678"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30800BZX00171000_A_01",
       "genericName": "MR装置ワークステーション用プログラム",
@@ -120435,7 +120526,9 @@
       "jmdn": "40940012",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "stage": "承認・認証取得済み（発売前）",
+    "stageLocked": true
   },
   {
     "id": "b-9cc56740",
@@ -120449,16 +120542,22 @@
     "knownSince": "2021",
     "milestones": [
       {
-        "date": "2021",
-        "text": "COVID-19肺炎画像解析プログラム FS-AI693型：X線画像診断装置ワークステーション用プログラムとして承認取得（承認番号30300BZX00145000、番号の年号から年のみ）",
+        "date": "2021-05-26",
+        "text": "COVID-19肺炎画像解析プログラム FS-AI693型：X線画像診断装置ワークステーション用プログラムとして製造販売承認（承認番号30300BZX00145000）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00145000_A_01"
+      },
+      {
+        "date": "2021-06-15",
+        "text": "SYNAPSE VINCENT 向けアプリケーションとして発売",
+        "source": "https://monoist.itmedia.co.jp/mn/spv/2106/25/news032.html"
       }
     ],
     "sources": [
-      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00145000_A_01"
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00145000_A_01",
+      "https://monoist.itmedia.co.jp/mn/spv/2106/25/news032.html"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00145000_A_01",
       "genericName": "X線画像診断装置ワークステーション用プログラム",
@@ -120473,7 +120572,9 @@
       "jmdn": "40935012",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "startedAt": "2021-06-15",
+    "startBasis": "発売（3D画像解析システム SYNAPSE VINCENT 向けアプリケーション。MONOist 2021-06-25 の記事）"
   },
   {
     "id": "b-c00e0888",
@@ -120483,7 +120584,7 @@
     "description": "胸部単純X線画像からAIが結節や浸潤影など病変の疑われる領域を検出し、読影する医師に示して見落とし防止を支援する画像診断支援プログラム。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "準備中",
     "knownSince": "2025-09",
     "milestones": [
       {
@@ -120496,7 +120597,7 @@
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30700BZX00231000_A_01"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30700BZX00231000_A_01",
       "genericName": "X線画像診断装置ワークステーション用プログラム",
@@ -120511,7 +120612,9 @@
       "jmdn": "40935012",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "stage": "承認・認証取得済み（発売前）",
+    "stageLocked": true
   },
   {
     "id": "b-4b964a8a",
@@ -120556,7 +120659,7 @@
     "name": "画像処理プログラム FS-AI683型",
     "company": "富士フイルム株式会社",
     "category": "medical-image",
-    "description": "画像診断装置や画像保管装置から受け取った医用画像をコンピュータで処理し、処理後の画像を診療のために提供する画像処理プログラム（自動診断機能は持たない）。",
+    "description": "画像診断装置や画像保管装置から受け取った医用画像を処理し、処理後の画像を診療に提供する画像処理プログラム（自動診断機能は持たない）。富士フイルムはAIプラットフォーム「SYNAPSE SAI viewer」を構成するプログラムとして販売している。",
     "hp": "",
     "startedYear": null,
     "status": "提供中",
@@ -120569,10 +120672,11 @@
       }
     ],
     "sources": [
-      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/231ABBZX00029000_A_01"
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/231ABBZX00029000_A_01",
+      "https://www.fujifilm.com/fms/ja/news/333"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/231ABBZX00029000_A_01",
       "genericName": "汎用画像診断装置ワークステーション用プログラム",
@@ -120776,7 +120880,7 @@
     "company": "富士フイルム株式会社",
     "category": "medical-image",
     "description": "デジタルマンモグラフィ画像から腫瘤や微小石灰化の候補をコンピュータが検出して示す乳がん検診向けの検出支援（CAD）ソフトウェア。",
-    "hp": "",
+    "hp": "https://www.fujifilm.com/jp/ja/healthcare/mammography/mammography-related/mammo-cad",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2010",
@@ -120788,10 +120892,11 @@
       }
     ],
     "sources": [
-      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/22200BZX00625000_A_01"
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/22200BZX00625000_A_01",
+      "https://www.fujifilm.com/jp/ja/healthcare/mammography/mammography-related/mammo-cad"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/22200BZX00625000_A_01",
       "genericName": "X線画像診断装置ワークステーション",
@@ -120815,7 +120920,7 @@
     "description": "MRI画像から組織の磁化率を定量化するQSM（定量的磁化率マッピング）画像を作り、脳内の鉄沈着などの評価を支援するMR装置ワークステーション用プログラム。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2020",
     "milestones": [
       {
@@ -120828,7 +120933,7 @@
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/302ABBZX00008000_A_02"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/302ABBZX00008000_A_02",
       "genericName": "MR装置ワークステーション用プログラム",
@@ -120841,7 +120946,8 @@
       "regulatoryClass": "管理医療機器",
       "classLabel": "クラスII",
       "checkedAt": "2026-10"
-    }
+    },
+    "endReasonCaveat": "いまの提供状況は確認できていない（事業のしくみの欄：未確認）。販売の手がかりは添付文書の改訂（2024-07）のみ。"
   },
   {
     "id": "b-6ef0cc52",
@@ -122611,15 +122717,15 @@
     "milestones": [
       {
         "date": "2021-12-24",
-        "text": "HOPE LifeMark-CAD 肺炎画像解析支援プログラム for COVID-19：X線画像診断装置ワークステーション用プログラムとして製造販売承認（改良医療機器・臨床あり）",
-        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0044.html"
+        "text": "HOPE LifeMark-CAD 肺炎画像解析支援プログラム for COVID-19：X線画像診断装置ワークステーション用プログラムとして製造販売承認（改良医療機器・臨床あり）（承認番号30300BZX00350000）",
+        "source": "https://www.mhlw.go.jp/content/11124500/000876237.pdf"
       }
     ],
     "endReasons": [
       "unknown"
     ],
     "sources": [
-      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0043.html"
+      "https://www.mhlw.go.jp/content/11124500/000876237.pdf"
     ],
     "type": "imaging-diagnosis-ai",
     "updatedAt": "2026-11"
@@ -127855,14 +127961,14 @@
       {
         "date": "2017-09-22",
         "text": "QSPECT ダット定量画像校正プログラム：SPECT装置用プログラムとして製造販売承認（改良医療機器・臨床なし）（承認番号22900BZX00320000）",
-        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+        "source": "https://www.pmda.go.jp/files/000242794.xlsx"
       }
     ],
     "endReasons": [
       "unknown"
     ],
     "sources": [
-      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      "https://www.pmda.go.jp/files/000242794.xlsx"
     ],
     "type": "imaging-diagnosis-ai",
     "updatedAt": "2026-11"
@@ -134371,11 +134477,24 @@
     "stage": "実証・臨床試験中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000032.000043787.html",
-      "https://prtimes.jp/main/html/rd/p/000000033.000043787.html"
+      "https://prtimes.jp/main/html/rd/p/000000033.000043787.html",
+      "https://jrct.mhlw.go.jp/latest-detail/jRCT2052250024"
     ],
     "type": "digital-therapeutics",
-    "updatedAt": "2026-10",
-    "themes": []
+    "updatedAt": "2026-11",
+    "themes": [],
+    "milestones": [
+      {
+        "date": "2025-05-15",
+        "text": "強迫症向け治療用アプリの企業治験（第2相、二重盲検無作為化比較試験）を jRCT2052250024 で初回公表",
+        "source": "https://jrct.mhlw.go.jp/latest-detail/jRCT2052250024"
+      },
+      {
+        "date": "2025-07",
+        "text": "成人ADHD向け治療用アプリの性能評価を開始と発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000033.000043787.html"
+      }
+    ]
   },
   {
     "id": "b-ab0ed43b",
@@ -134643,20 +134762,20 @@
     "name": "biomyの“松平式”腰痛対策アプリ",
     "company": "株式会社biomy",
     "companyId": "3011001130773",
-    "category": "medical-device",
+    "category": "health-consulting",
     "description": "腰痛に悩む人向けに、東大病院の松平浩特任教授が考案した腰痛対策をスマートフォンで体験できるアプリ。その日の痛みに合わせた体操や、腰痛になりにくい生活の過ごし方を提案する。",
     "hp": "https://www.biomy-tech.com/",
     "startedYear": 2022,
-    "status": "準備中",
+    "status": "不明",
     "startedAt": "2022-04",
     "startBasis": "日本運動器科学会の参宮橋プロジェクトへの提供・実証開始（プレスリリース）",
-    "stage": "実証・臨床試験中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000006.000082088.html"
     ],
-    "type": "digital-therapeutics",
-    "updatedAt": "2026-10",
-    "themes": []
+    "type": "body-condition-log-app",
+    "updatedAt": "2026-11",
+    "themes": [],
+    "endReasonCaveat": "いまの提供状況は確認できていない（事業のしくみの欄：未確認）。手がかり：会社サイトから腰痛アプリが消え、2023 年以降の発表は病理 AI・創薬関連のみ（2026-07 まで）。App Store でも同社の腰痛アプリは見つからない。終了・中止の告知は確認できない。"
   },
   {
     "id": "b-2f366c77",
@@ -135090,16 +135209,18 @@
       {
         "date": "2025-12-03",
         "text": "肺結節CT画像検出支援ソフトウェア Careverse LungDoc：X線画像診断装置ワークステーション用プログラムとして製造販売承認（改良医療機器・臨床なし）（承認番号30700BZX00319000）",
-        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+        "source": "https://www.pmda.go.jp/files/000281046.xlsx"
       }
     ],
-    "stage": "承認取得・発売前",
     "sources": [
-      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      "https://www.pmda.go.jp/files/000281046.xlsx"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
-    "themes": []
+    "updatedAt": "2026-11",
+    "themes": [],
+    "endReasonCaveat": "いまの提供状況は確認できていない（事業のしくみの欄：未確認）。製造販売業者の公式サイト（ces-descartes.co.jp など）に接続できず、発売・準備の状況を確かめられない。",
+    "stage": "承認・認証取得済み（発売前）",
+    "stageLocked": true
   },
   {
     "id": "b-ee13a4c9",
@@ -135115,15 +135236,15 @@
       {
         "date": "2026-03-05",
         "text": "心臓CT画像解析ソフトウェア FFR：循環動態解析プログラムとして製造販売承認（改良医療機器・臨床あり）",
-        "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0056.html"
+        "source": "https://www.pmda.go.jp/files/000281065.pdf"
       }
     ],
     "stage": "承認取得・発売前",
     "sources": [
-      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0055.html"
+      "https://www.pmda.go.jp/files/000281065.pdf"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": []
   },
   {
@@ -135163,7 +135284,7 @@
     "companyId": "9010003031405",
     "category": "medical-image",
     "description": "眼底カメラで撮った眼底画像をAIで解析し、眼底疾患の診断を支援する情報を示す眼底カメラ用プログラム。2025年10月に承認された。",
-    "hp": "",
+    "hp": "https://g-data.co.jp/gantei_ai/",
     "startedYear": null,
     "status": "準備中",
     "milestones": [
@@ -135175,10 +135296,11 @@
     ],
     "stage": "承認取得・発売前",
     "sources": [
-      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html",
+      "https://g-data.co.jp/gantei_ai/"
     ],
     "type": "imaging-diagnosis-ai",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": []
   },
   {
@@ -136476,13 +136598,14 @@
     "companyId": "4010001233098",
     "category": "medical-image",
     "description": "超音波や病理の画像をAIで解析し、医師の診断を支援するシステム。順天堂大学と病理診断AIの共同研究を進める。",
-    "hp": "",
+    "hp": "https://medbank.co.jp/",
     "startedYear": null,
     "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000005.000155088.html",
       "https://prtimes.jp/main/html/rd/p/000000001.000155088.html",
-      "https://medbank.co.jp"
+      "https://medbank.co.jp",
+      "https://medbank.co.jp/"
     ],
     "type": "imaging-diagnosis-ai",
     "updatedAt": "2026-11",
@@ -136527,13 +136650,14 @@
     "companyId": "6120001229868",
     "category": "medical-image",
     "description": "外傷患者などの全身CT画像約1000枚から10秒で異常箇所を特定してアラートを出すソフトウェア。救命率の向上を目指す。",
-    "hp": "",
+    "hp": "https://fcuro.com/project/17/",
     "startedYear": null,
     "status": "準備中",
     "sources": [
       "https://fcuro.com/",
       "https://prtimes.jp/main/html/rd/p/000000007.000164683.html",
-      "https://prtimes.jp/main/html/rd/p/000000169.000090165.html"
+      "https://prtimes.jp/main/html/rd/p/000000169.000090165.html",
+      "https://fcuro.com/project/17/"
     ],
     "type": "imaging-diagnosis-ai",
     "updatedAt": "2026-11",
@@ -136549,7 +136673,8 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000007.000164683.html"
       }
     ],
-    "stage": "研究開発中"
+    "stage": "β版・限定提供",
+    "stageLocked": true
   },
   {
     "id": "b-1eb2af71",
