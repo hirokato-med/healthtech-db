@@ -193,7 +193,8 @@ function parseXbrl(url, kind = 'summary') {
 const per0 = (t) => (/第[123]四半期|中間期/.test(t.normalize('NFKC')) ? 'Q' : 'FY');
 const periodOf = (t) => {
   const t2 = t.normalize('NFKC');
-  const fy = (t2.match(/(\d{4})年(\d{1,2})月期/) ?? [])[0] ?? '';
+  // 「2026年度」と書く会社（NTT など3月決算）は「2027年3月期」に直す
+  const fy = (t2.match(/(\d{4})年(\d{1,2})月期/) ?? [])[0] ?? ((m) => (m ? `${Number(m[1]) + 1}年3月期` : ''))(t2.match(/(\d{4})年度/));
   const q = /第1四半期/.test(t2) ? 'Q1' : /第2四半期|中間期/.test(t2) ? 'Q2' : /第3四半期/.test(t2) ? 'Q3' : 'FY';
   return { fiscalYear: fy, quarter: q, label: fy + (q === 'FY' ? ' 通期' : q === 'Q2' ? ' 第2四半期（中間期）' : ` 第${q[1]}四半期`) };
 };
