@@ -46,7 +46,8 @@ for (const s of S) {
   } else if (st === '一般提供' || st.startsWith('限定提供中')) {
     // 譲渡・運営会社の交代・名称変更のあとも続いているなら提供中（譲渡は過去の出来事に）
     if (!['中止・終了', '後継サービスへ移行'].includes(ac)) {
-      if (['譲渡', '統合'].includes(s.status) && s.endedAt && !(s.pastEvents ?? []).length) {
+      // 終了日・その後の記録がある記録を提供中に戻すときは、出来事を過去の出来事に残す（消さない）
+      if (s.endedAt && (['譲渡', '統合'].includes(s.status) || s.after) && !(s.pastEvents ?? []).length) {
         s.pastEvents = [{ date: s.endedAt, text: s.after?.event ?? (s.status === '譲渡' ? '事業譲渡' : '統合')}];
       }
       if (['譲渡', '統合', '不明', '準備中'].includes(s.status)) { s.status = '提供中'; delete s.endedAt; }
