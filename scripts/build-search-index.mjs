@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /** data/ と content/ から検索用インデックス public/search-index.json を作る（next build の前に走る）。 */
 import { statusLabel } from '../src/lib/status.ts';
+import { areasJa, countryJa, overseasStatus } from '../src/lib/overseas-label.ts';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -17,7 +18,8 @@ const services = read('services.json');
 const DTX_RE = /治療用アプリ|治療アプリ|治療補助アプリ|dtx|デジタル治療|デジタルセラピューティクス|デジタル療法/i;
 const THERAPY = /治療|療法|セラピー|訓練|リハビリ|禁煙|卒煙|減酒/;
 // 開発・薬事・販売を支えるサービス（SaMD 開発支援・承認取得支援など）は、治療用アプリそのものとは別の区分にする
-const SUPPORT = /支援|受託|代行|コンサル|QMS|認証取得|承認取得|開発受託|導入/;
+// 「支援」だけでは決めない（「画像診断支援」「読影支援」「業務支援システム」「手術支援ロボット」は製品そのもの）
+const SUPPORT = /開発支援|薬事支援|承認取得支援|認証取得支援|申請支援|導入支援|販売支援|事業化支援|事業構築支援|参入支援|進出支援|受託|代行|コンサル|QMS/;
 const isSupport = (s) => SUPPORT.test(s.name);
 const isDtx = (s) => {
   const t = `${s.name} ${s.description ?? ''}`;
@@ -27,6 +29,16 @@ const isDtx = (s) => {
   // 説明文の言葉は「治療用アプリ（DTx）」の種類の事業だけで見る（一般向けアプリの説明に「治療用アプリの開発」とあっても DTx にしない）
   return DTX_RE.test(s.name) || (s.type === 'digital-therapeutics' && (DTX_RE.test(t) || THERAPY.test(t)));
 };
+// 準備中の段階（「治験終了（次の段階は未確認）」など、もともとかっこを含む）を、かっこを重ねずに書く
+const stageText = (stage) => `準備中：${stage.replace(/（/g, '／').replace(/）/g, '')}`;
+// 譲渡は向きが分かるように、譲渡先を付ける（「譲渡（→メドレー）」）
+const shortCo = (x) => x.split(/[（「(]/)[0].replace(/株式会社|有限会社|合同会社/g, '').trim();
+const serviceStatus = (s) => {
+  if (s.status === '準備中' && s.stage) return stageText(s.stage);
+  const l = statusLabel(s);
+  const to = s.successor ? shortCo(s.successor) : '';
+  return l === '譲渡' && to ? `譲渡（→${to.length > 20 ? `${to.slice(0, 19)}…` : to}）` : l;
+};
 const out = [];
 for (const c of read('companies.json')) {
   // 会社の事業の種類（DTx の会社を「治療用アプリ」でも探せるように）
@@ -35,11 +47,13 @@ for (const c of read('companies.json')) {
   out.push({ t: 'company', id: c.id, title: c.name, sub: [...(c.aliases ?? []), ...(c.formerNames ?? []), c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), k: mine.some(isDtx) ? '治療用アプリ' : '', ty: types.join(' '), url: `/companies/${c.id}/` });
 }
 for (const s of services)
-  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [isDtx(s) ? '治療用アプリ' : '', s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), ty: typeName[s.type], st: s.status === '準備中' && s.stage ? `準備中（${s.stage}）` : statusLabel(s), ...(s.kind === 'contract' || s.searchKind === 'contract' ? { sec: 'contract' } : s.kind === 'group' || s.searchKind === 'group' ? { sec: 'group' } : s.searchKind === 'uses' ? { sec: 'uses' } : isSupport(s) || s.searchKind === 'support' ? { sec: 'support' } : /完了後|修了後|卒業後/.test(s.name) ? { sec: 'related' } : {}), url: `/services/${s.id}/` });
+  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [isDtx(s) ? '治療用アプリ' : '', s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), ty: typeName[s.type], st: serviceStatus(s), ...(s.kind === 'contract' || s.searchKind === 'contract' ? { sec: 'contract' } : s.kind === 'group' || s.searchKind === 'group' ? { sec: 'group' } : s.searchKind === 'uses' ? { sec: 'uses' } : isSupport(s) || s.searchKind === 'support' ? { sec: 'support' } : /完了後|修了後|卒業後/.test(s.name) ? { sec: 'related' } : {}), url: `/services/${s.id}/` });
 for (const p of read('people.json'))
   out.push({ t: 'person', id: p.id, title: p.name, sub: p.roles.map((r) => `${r.companyName} ${r.title}`).join(' / '), url: `/talents/${p.id}/` });
 for (const c of categories) out.push({ t: 'category', id: c.slug, title: c.name, sub: c.groupLabel, url: `/categories/${c.slug}/` });
-for (const o of read('overseas.json').filter((o) => !o.hidden)) out.push({ t: 'overseas', id: o.id, title: o.name, sub: [o.country, ...o.areas].join(' / '), url: `/global/#${o.id}` });
+// 海外企業：国名は日本語、説明文も手がかりに入れる（DTx・オンライン診療などで探せるように）。状態は確かめた範囲だけを出す
+for (const o of read('overseas.json').filter((o) => !o.hidden))
+  out.push({ t: 'overseas', id: o.id, title: o.name, sub: [countryJa(o.country), ...areasJa(o.areas)].join(' / '), k: o.checkedAt ? o.description ?? '' : '', st: o.checkedAt ? overseasStatus(o) : '', url: `/global/#${o.id}` });
 if (fs.existsSync(path.join(ROOT, 'data', 'monthly.json')))
   for (const e of read('monthly.json')) {
     const [y, m] = e.month.split('-');

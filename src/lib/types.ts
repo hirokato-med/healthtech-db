@@ -89,7 +89,7 @@ export type Company = {
 /** 出典：url・資料の発表日・種類（公式・SEC・規制当局・取引所・報道・Wikipedia・企業データベース） */
 export type OverseasSource = { url: string; published?: string; publisher?: string; kind: 'official' | 'sec' | 'regulator' | 'exchange' | 'court' | 'news' | 'wikipedia' | 'database' };
 /** 1つの主張と、それを直接書いた資料（status：confirmed＝公式・公的資料か信頼できる報道で確認／reference＝Wikipedia・企業DBのみ／unverified＝資料なし） */
-export type OverseasClaim = { key: 'foundedYear' | 'founder' | 'listing' | 'acquisitionAgreement' | 'acquisitionCompleted' | 'assetAcquisition' | 'bankruptcy' | 'closure' | 'delisting' | 'activity' | 'figure' | 'event'; value: string; eventDate?: string; sources: OverseasSource[]; status: 'confirmed' | 'reference' | 'unverified'; note?: string; downgraded?: string };
+export type OverseasClaim = { key: 'foundedYear' | 'founder' | 'listing' | 'acquisitionAgreement' | 'acquisitionCompleted' | 'assetAcquisition' | 'bankruptcy' | 'closure' | 'delisting' | 'activity' | 'figure' | 'event'; value: string; eventDate?: string; sources: OverseasSource[]; status: 'confirmed' | 'reference' | 'unverified'; note?: string; downgraded?: string; /** こちらで資料を確かめ直した日（出来事の日・資料の発表日とは別） */ recheckedAt?: string };
 export type Overseas = {
   id: string;
   name: string;

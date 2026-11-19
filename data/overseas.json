@@ -19688,7 +19688,7 @@
     "listing": "買収",
     "acquiredBy": "symplr",
     "activity": "事業継続",
-    "description": "病院が新しい医療機器・材料を導入する際の評価（バリューアナリシス）と購買判断を支援するクラウドソフトを開発した米国企業。現在は symplr の支出管理製品群の一部。",
+    "description": "病院が新しい医療機器・材料を導入する際の評価（バリューアナリシス）と購買判断を支援するクラウドソフトを開発した米国企業。2022年3月に symplr が買収で合意（買収の完了と、いまの提供状況は未確認）。",
     "events": [
       {
         "date": "2022-03",
@@ -20088,17 +20088,7 @@
     "listing": "買収",
     "activity": "事業終了",
     "description": "スマートフォンに取り付ける耳鏡「Oto」と遠隔診察サービスで、家庭から子どもの耳の画像を医師に送れるようにした米国企業。UC バークレー発。",
-    "events": [
-      {
-        "date": "2019-10",
-        "type": "買収",
-        "text": "買収される（買い手・条件は非公表）",
-        "source": {
-          "url": "https://pitchbook.com/profiles/company/53992-72",
-          "kind": "database"
-        }
-      }
-    ],
+    "events": [],
     "sources": [
       "https://ipira.berkeley.edu/cellscope-inc",
       "https://founderspledge.berkeley.edu/innovators/spotlights/interview-amy-sheng-mba-13-and-erik-douglas-j-phd-08-co-founders-of-cellscope",
@@ -23038,7 +23028,7 @@
     "name": "Viewics",
     "country": "United States",
     "region": "US",
-    "foundedYear": 2009,
+    "foundedYear": 2010,
     "hp": "",
     "exit": "",
     "founders": [
@@ -23051,7 +23041,7 @@
     "acquiredAt": "2017-11",
     "acquiredBy": "Roche",
     "activity": "不明",
-    "description": "臨床検査室の検査件数・所要時間・コストなどのデータを各種システムから集めて分析する、検査室向けビジネス分析ソフトを開発した米国企業。2017年に Roche が買収。",
+    "description": "臨床検査室の検査件数・所要時間・コストなどのデータを各種システムから集めて分析する、検査室向けビジネス分析ソフトを開発した米国企業。2017年11月に Roche が買収で合意（買収の完了は未確認）。",
     "events": [
       {
         "date": "2017-11",
@@ -23085,8 +23075,9 @@
         "verified": true,
         "sources": [
           {
-            "url": "https://www.canvas.vc/companies/viewics",
-            "kind": "database"
+            "url": "https://www.roche.com/media/releases/med-cor-2017-11-17b",
+            "published": "2017-11-17",
+            "kind": "official"
           }
         ]
       },
@@ -23120,7 +23111,8 @@
             "publisher": "Roche"
           }
         ],
-        "note": "要修正：現データは2009年（Canvas Ventures の紹介ページ https://www.canvas.vc/companies/viewics の値）。買収側 Roche の発表は「Viewics, Inc. was founded in 2010 in Sunnyvale, CA」"
+        "note": "買収側 Roche の発表に「Viewics, Inc. was founded in 2010 in Sunnyvale, CA (USA)」（2026-11-19 に本文を確認）。以前の値 2009 は Canvas Ventures の紹介ページ https://www.canvas.vc/companies/viewics によるもので、2010 に直した",
+        "recheckedAt": "2026-11-19"
       },
       {
         "key": "founder",
@@ -23880,15 +23872,9 @@
             "url": "https://www.cbinsights.com/company/mobitor",
             "kind": "database",
             "publisher": "CB Insights"
-          },
-          {
-            "url": "https://www.sec.gov/Archives/edgar/data/1637710/000163771015000002/primary_doc.xml",
-            "kind": "sec",
-            "publisher": "Mobitor Corp Form D",
-            "published": "2015-03-26"
           }
         ],
-        "note": "CB Insights「Stage Unattributed | Dead」、所在地 Walnut Creek, CA。EDGAR では Mobitor Corp（CIK 1637710）の Form D（2015-03-26、50万ドル、同じ住所）が唯一の提出書類で、閉鎖・解散を書いた書類は無い。mobitor.com は HugeDomains の販売ページへ転送。なお CB Insights は事業を「inventory logistics applications」と説明しており、ヘルステック企業として載せてよいか確認が要る",
+        "note": "CB Insights「Stage Unattributed | Dead」、所在地 Walnut Creek, CA。EDGAR では Mobitor Corp（CIK 1637710）の Form D（2015-03-26、50万ドル、同じ住所）が唯一の提出書類で、閉鎖・解散を書いた書類は無い。mobitor.com は HugeDomains の販売ページへ転送。なお CB Insights は事業を「inventory logistics applications」と説明しており、ヘルステック企業として載せてよいか確認が要る。Form D は資金調達の届出で閉鎖の根拠にならないため、出典からは外した",
         "recheckedAt": "2026-11-19"
       }
     ]
