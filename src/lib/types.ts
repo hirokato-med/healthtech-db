@@ -20,6 +20,10 @@ export type Company = {
   description: string;
   prefecture: string;
   foundedYear: number | null;
+  /** foundedYear の呼び方。持株会社の設立年なら「設立（持株会社）」。無ければ「創業」 */
+  foundedLabel?: string;
+  /** 持株会社のとき、グループとしての創業年 */
+  groupFoundedYear?: number;
   address: string;
   employees: string;
   founders: string[];
@@ -264,7 +268,8 @@ export type ArchiveArticle = { title: string; category: string; author: string; 
 /** 企業の外形情報（公式サイトの事業内容・お知らせ、PR TIMES などのプレスリリースから） */
 export type CompanyProfile = {
   /** 事業ごとの開始時期（YYYY または YYYY-MM） */
-  businesses: { name: string; since?: string; note?: string; url?: string }[];
+  /** serviceId は事業データ（services.json）の id。名前で照合できないときに書く */
+  businesses: { name: string; since?: string; note?: string; url?: string; serviceId?: string }[];
   /** 経営陣（取締役・執行役員など公式サイトや開示に載っている人）の人数 */
   management?: { count: number; note?: string; asOf?: string; members?: { name: string; role: string }[] };
   /** お知らせ・プレスリリースの一覧ページ */
@@ -279,7 +284,8 @@ export type CompanyProfile = {
 
 /** 決算の数字（百万円） */
 /** 資金調達の1回分（金額は百万円。非公表は null） */
-export type FundingRound = { date: string; round?: string; type: string; amount: number | null; investors?: string[]; lead?: string; source: string; note?: string };
+/** note は画面に出す注記。memo は編集の作業メモ（確かめた経緯・元リストとの違いなど）で、画面には出さない。sources は source のほかの出典 */
+export type FundingRound = { date: string; round?: string; type: string; amount: number | null; investors?: string[]; lead?: string; source: string; sources?: string[]; note?: string; memo?: string };
 /** 会社ごとの資金調達の記録（rounds は古い順。total は会社が発表した累計） */
 export type Funding = { rounds: FundingRound[]; total?: { amount: number; asOf?: string; note?: string; source: string }; note?: string; checkedAt: string };
 export type Figures = { revenue?: number; operatingIncome?: number; ordinaryIncome?: number; netIncome?: number };

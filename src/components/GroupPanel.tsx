@@ -34,7 +34,7 @@ export function GroupPanel({ g }: { g: CompanyGroup }) {
           <tbody>
             {g.members.map((m) => (
               <tr key={m.name}>
-                <td><Name name={m.name} formerName={m.formerName} companyId={m.companyId} />{(m.address || m.capitalText || m.capital != null) && <small>{[m.address, m.capitalText ? `資本金 ${m.capitalText}` : m.capital != null ? `資本金 ${m.capital}百万円` : ''].filter(Boolean).join('・')}</small>}</td>
+                <td><Name name={m.name} formerName={m.formerName} companyId={m.companyId} />{(m.address || m.capitalText || !!m.capital) && <small>{[m.address, m.capitalText ? `資本金 ${m.capitalText}` : m.capital ? `資本金 ${m.capital.toLocaleString('ja-JP')}百万円` : ''].filter(Boolean).join('・')}</small>}</td>
                 <td className="small nw">{m.relation}{m.note && /特定子会社/.test(m.note) && <small>特定子会社</small>}</td>
                 <td className="small">{m.business}</td>
                 <td className="c nw"><b>{voting(m)}</b></td>
@@ -66,7 +66,7 @@ export function GroupPanel({ g }: { g: CompanyGroup }) {
           </div>
         </>
       ) : null}
-      <p className="muted small" style={{ marginTop: 8 }}>出典：{g.source ? <a href={g.source} target="_blank" rel="noreferrer">{g.sourceLabel}</a> : g.sourceLabel}（関係会社の状況・沿革・連結の範囲）。議決権の所有割合は有価証券報告書に書かれた値で、間接所有を含みます。</p>
+      <p className="muted small" style={{ marginTop: 8 }}>出典：{g.source ? <a href={g.source} target="_blank" rel="noreferrer">{g.sourceLabel}</a> : g.sourceLabel}（関係会社の状況・沿革・連結の範囲）。議決権の所有割合は有価証券報告書に書かれた値で、間接所有を含みます。「グループ入り」は有価証券報告書の沿革・関係会社の記載による時期で、買収の発表日や株式の取得日とずれることがあります。</p>
     </section>
   );
 }

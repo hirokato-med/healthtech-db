@@ -2398,10 +2398,7 @@
     "parentCompany": "",
     "relatedCompanies": [
       "（株）エムティーアイ・コンサルティング",
-      "MTI",
-      "TECHNOLOGY",
-      "Co.",
-      "Ltd.",
+      "MTI TECHNOLOGY Co.,Ltd.",
       "（株）メディアーノ",
       "（株）ビデオマーケット",
       "（株）クリプラ",
@@ -3960,8 +3957,7 @@
       "株式会社インフロント",
       "エダンズ株式会社",
       "エムスリーエデュケーション株式会社",
-      "エムスリーキャリア株式会社",
-      "など"
+      "エムスリーキャリア株式会社"
     ],
     "corporateNumber": "1010401063016",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401063016",
@@ -6686,15 +6682,10 @@
     "exit": "上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "株式会社バリューネットワークス",
-      "（福利厚生代行サービスの提供）",
-      "株式会社バリューヘルスケア",
-      "（ヘルスケア関連サービスの提供）",
-      "株式会社バリューＨＲベンチャーズ",
-      "（ベンチャー企業への投資及び事業開発支援",
-      "起業支援等）",
-      "株式会社健診予約.com",
-      "（健康診断予約サービスの提供）"
+      "株式会社バリューネットワークス（福利厚生代行サービスの提供）",
+      "株式会社バリューヘルスケア（ヘルスケア関連サービスの提供）",
+      "株式会社バリューＨＲベンチャーズ（ベンチャー企業への投資及び事業開発支援、起業支援等）",
+      "株式会社健診予約.com（健康診断予約サービスの提供）"
     ],
     "corporateNumber": "7011001036950",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011001036950",
@@ -11446,7 +11437,7 @@
       "health-corporate-management"
     ],
     "categoryLabel": "健康経営",
-    "description": "メドピア子会社",
+    "description": "管理栄養士による特定保健指導や、食生活の改善サービス「ダイエットプラス」を提供するメドピアの子会社",
     "prefecture": "東京都",
     "foundedYear": 2006,
     "address": "東京都中央区銀座6-18-2 野村不動産銀座ビル11階",
@@ -13785,9 +13776,11 @@
     "name": "株式会社メドレー",
     "hp": "https://www.medley.jp/",
     "categories": [
-      "telemedicine"
+      "recruting-solutions",
+      "telemedicine",
+      "electronic-health-record"
     ],
-    "categoryLabel": "オンライン診療",
+    "categoryLabel": "人材・オンライン診療・電子カルテ",
     "description": "医療介護求人「ジョブメドレー」とクラウド診療支援「CLINICS」等を展開する医療ITの上場企業",
     "prefecture": "東京都",
     "foundedYear": 2009,
@@ -13892,8 +13885,8 @@
       "businesses": [
         {
           "name": "ジョブメドレー（医療介護求人）",
-          "note": "開始時期は公式で確認できず",
-          "url": "https://www.medley.jp/"
+          "url": "https://www.medley.jp/",
+          "serviceId": "job-medley"
         },
         {
           "name": "CLINICS（クラウド診療支援）",
@@ -14056,7 +14049,9 @@
           "source": "https://ssl4.eir-parts.net/doc/4480/tdnet/2872345/00.pdf"
         }
       ]
-    }
+    },
+    "categoryLocked": true,
+    "categoryNote": "いま提供している事業の多くが、医療・介護の求人サイト「ジョブメドレー」などの人材の事業のため、人材を主なカテゴリにしています。医療機関向けのオンライン診療・電子カルテなども提供しています。"
   },
   {
     "id": "3010001128547",
@@ -15871,10 +15866,10 @@
     "name": "Noom Japan株式会社",
     "hp": "https://www.noom.com/jp/",
     "categories": [
-      "medical-dx"
+      "direct-to-consumer"
     ],
     "categoryLabel": "医療機関DX",
-    "description": "元はアメリカ",
+    "description": "米Noomの日本法人。減量プログラムのアプリ「Noom」の日本語版を提供していた（2024年1月に清算結了）",
     "prefecture": "東京都",
     "foundedYear": 2011,
     "address": "東京都渋谷区渋谷２丁目２４番１２号渋谷スクランブルスクエア３９Ｆ",
@@ -15892,13 +15887,11 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401119918",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "formerNames": [
-      "noom"
-    ],
     "history": [
       {
         "date": "2024-01",
-        "text": "2024年1月 清算結了"
+        "text": "清算結了（法人番号公表サイトでは2024年1月9日付で登記記録が閉鎖）",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8010401119918"
       }
     ],
     "sources": [
@@ -15907,8 +15900,12 @@
     "updatedAt": "2026-10",
     "ended": {
       "date": "2024-01",
-      "note": "清算結了。"
-    }
+      "note": "2024年1月9日付で清算が結了し、登記記録が閉鎖された（国税庁 法人番号公表サイト、2026年11月19日に確認）。"
+    },
+    "aliases": [
+      "Noom",
+      "ヌームジャパン"
+    ]
   },
   {
     "id": "3010001139230",
@@ -16788,14 +16785,14 @@
     "representatives": [
       "加藤俊也"
     ],
-    "exit": "活動停止",
+    "exit": "閉鎖",
     "parentCompany": "",
     "relatedCompanies": [],
     "corporateNumber": "8240001043116",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8240001043116",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "overview": "2012年に広島大学発スタートアップとして設立された衛生検査所。リキッドバイオプシーとデータサイエンスを組み合わせ、唾液で乳がんリスクを調べる「スキャンテスト 乳がんハイリスクサポート＋」、テロメアを指標にした老化度検査、腸内フローラ検査などを、薬局・ドラッグストアやカードのポイント交換、LINEなど多様な経路で提供する。広島県呉市と乳がん検診への誘導効果を検証する実証事業も実施。DB記載の公式サイト（mirtel.co.jp）は名前解決できず閲覧できない。",
+    "overview": "2012年に広島大学発スタートアップとして設立された衛生検査所。リキッドバイオプシーとデータサイエンスを組み合わせ、唾液で乳がんリスクを調べる「スキャンテスト 乳がんハイリスクサポート＋」、テロメアを指標にした老化度検査、腸内フローラ検査などを、薬局・ドラッグストアやカードのポイント交換、LINEなど多様な経路で提供する。広島県呉市と乳がん検診への誘導効果を検証する実証事業も実施。",
     "highlight": "2025年9月にサツドラ、同年10月にオール薬局全45店舗で唾液による乳がんリスク検査の取り扱いを開始。",
     "products": [
       "スキャンテスト 乳がんハイリスクサポート＋",
@@ -16814,13 +16811,16 @@
       "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=8240001043116",
       "https://www.medical-net.com/common/doc/ir/r07/ir_r07_20250327.pdf",
       "https://www.medical-net.com/common/doc/ir/r07/ir_r07_20250418-3.pdf",
-      "https://www.medical-net.com/common/doc/ir/r06/ir_r06_20240105.pdf"
+      "https://www.medical-net.com/common/doc/ir/r06/ir_r06_20240105.pdf",
+      "https://www.chugoku-np.co.jp/articles/-/747082",
+      "https://topics.smt.docomo.ne.jp/article/home_tv/region/home_tv-20251217329620"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "previousExit": "未上場",
     "ended": {
+      "date": "2025-11",
       "lastActiveAt": "2025-10",
-      "note": "2024年1月にメディカルネット（東証グロース3645）の連結子会社となったが、2025年3月に同社が保有株式すべてを代表の加藤俊也氏へ譲渡し、連結から外れた。2025年10月のプレスリリース（オール薬局での乳がんリスク検査の取り扱い開始）が最後の発信。公式サイトのドメイン（mirtel.co.jp）は2026年10月時点で存在しない。2026年8月に厚生年金の適用事業所が全喪となったが、解散・清算の登記は確認できない。"
+      "note": "2024年1月にメディカルネット（東証グロース3645）の連結子会社となったが、2025年3月に同社が保有株式すべてを代表の加藤俊也氏へ譲渡し、連結から外れた。2025年11月19日付で事業を停止し、自己破産の申し立てを準備していると明らかにした（中国新聞 2025年11月20日）。2025年12月には東京地裁から破産手続開始の決定を受けたと報じられた（広島ホームテレビ 2025年12月17日。官報の公告は確かめていない）。国税庁の法人番号公表サイトでは、2026年11月4日付で登記記録が閉鎖されている（2026年11月19日に確認）。"
     }
   },
   {
@@ -18904,7 +18904,7 @@
       "electronic-health-record"
     ],
     "categoryLabel": "電子カルテ",
-    "description": "PHC株式会社にクラウド型電子カルテの運用及び開発の事業「きりんカルテ」を譲渡\nその後社名をクアッガテクノロジーズに社名変更",
+    "description": "旧きりんカルテシステム。電子カルテ事業「きりんカルテ」をPHCへ譲渡し、2021年4月にクアッガテクノロジーズ、2022年1月に現在のアポロテクノロジーズへ商号を変更",
     "prefecture": "東京都",
     "foundedYear": 2013,
     "address": "東京都港区港南2-12-32",
@@ -18923,7 +18923,8 @@
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
     "formerNames": [
-      "クアッガテクノロジーズ株式会社"
+      "クアッガテクノロジーズ株式会社",
+      "きりんカルテシステム株式会社"
     ],
     "history": [
       {
@@ -18967,9 +18968,7 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "Dr.Joy",
-      "Viet",
-      "Nam"
+      "Dr.Joy Viet Nam"
     ],
     "corporateNumber": "4010401108924",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010401108924",
@@ -21160,22 +21159,18 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "米国子会社:",
-      "CureApp",
-      "North",
-      "America",
-      "Inc."
+      "CureApp North America, Inc.（米国子会社）"
     ],
     "corporateNumber": "2011101070788",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2011101070788",
     "region": "JP",
     "source": "Healthtech DB 企業DB 投入データ（2021-09）",
-    "overview": "医師の佐竹晃太が鈴木晋とともに2014年7月に創業。医学的エビデンスに基づく医療機器プログラム「治療アプリ」を開発し、「ニコチン依存症治療アプリ」（2020年）、「高血圧治療補助アプリ」（CureApp HT、2022年）、「減酒治療補助アプリ」（HAUDY、2025年）が薬事承認と保険適用を得た。NASHや乳がん関連症状などの開発も進め、法人・健保・自治体向けには「ascure卒煙」などを350法人超に提供。2022年にカーライルから約70億円を調達し、累計調達額は約134億円。",
+    "overview": "医師の佐竹晃太が鈴木晋とともに2014年7月に創業。医学的エビデンスに基づく医療機器プログラム「治療アプリ」を開発し、「ニコチン依存症治療アプリ」（2020年）、「高血圧治療補助アプリ」（CureApp HT、2022年。2026年6月から「CureApp 血圧」）、「減酒治療補助アプリ」（HAUDY、2025年）が薬事承認と保険適用を得た。NASHや乳がん関連症状などの開発も進め、法人・健保・自治体向けには「ascure卒煙」などを350法人超に提供。2022年にカーライルから約70億円を調達し、累計調達額は約134億円。",
     "highlight": "2025年9月、「HAUDY（減酒治療補助アプリ）」が保険適用となり処方を開始",
     "totalFunding": "累計約134億円（2022年5月時点）",
     "products": [
       "ニコチン依存症治療アプリ",
-      "CureApp HT 高血圧治療補助アプリ",
+      "CureApp 血圧（旧 CureApp HT）",
       "HAUDY（減酒治療補助アプリ）",
       "ascure卒煙",
       "ascure Dr. 高血圧治療"
@@ -21233,9 +21228,9 @@
           "url": "https://cureapp.co.jp/productlist.html"
         },
         {
-          "name": "CureApp HT 高血圧治療補助アプリ",
+          "name": "CureApp 血圧（旧 CureApp HT 高血圧治療補助アプリ）",
           "since": "2022-09",
-          "note": "保険適用・処方開始（公式沿革）",
+          "note": "保険適用・処方開始（公式沿革）。2026年6月から「CureApp 血圧」の名前で提供（会社発表）",
           "url": "https://cureapp.co.jp/productlist.html"
         },
         {
@@ -21316,7 +21311,10 @@
       "kind": "header",
       "source": "https://cureapp.co.jp/img/logo_cureapp.svg",
       "checkedAt": "2026-11"
-    }
+    },
+    "aliases": [
+      "キュアアップ"
+    ]
   },
   {
     "id": "7010003022232",
@@ -21354,11 +21352,6 @@
       },
       {
         "date": "2021-12",
-        "text": "治療用アプリ開発のサスメドが東証マザーズに上場",
-        "source": "https://www.susmed.co.jp/news/post/889/"
-      },
-      {
-        "date": "2021-12",
         "text": "サスメドが不眠症治療用アプリの国内販売で塩野義製薬と提携",
         "source": "https://www.shionogi.com/jp/ja/news/2021/12/211227_2.html"
       },
@@ -21381,6 +21374,16 @@
         "date": "2024-01",
         "text": "サスメドが不眠障害用アプリの2024年度改定向け保険適用希望書を取り下げ",
         "source": "https://www.susmed.co.jp/news/post/5421/"
+      },
+      {
+        "date": "2026-06",
+        "text": "不眠障害用アプリ「Medcle」が保険適用され、販売を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000013.000069571.html"
+      },
+      {
+        "date": "2026-08",
+        "text": "塩野義製薬と、不眠症治療用アプリの販売提携契約の終了に合意。以後はサスメドが自社で販売",
+        "source": "https://www.shionogi.com/content/dam/shionogi/jp/news/pdf/2026/8%E6%9C%88/J_20260826.pdf"
       }
     ],
     "sources": [
@@ -21402,8 +21405,9 @@
       "businesses": [
         {
           "name": "不眠障害用アプリ（治療用アプリ）",
-          "note": "塩野義製薬と販売提携。2026-05に保険収載が了承（公式沿革）",
-          "url": "https://sleep.susmed.co.jp/"
+          "note": "2026年6月1日に「サスメド 不眠障害用アプリ Medcle」として保険適用・販売開始。2026年8月26日に塩野義製薬との販売提携契約の終了に合意し、自社で販売（両社の発表）",
+          "url": "https://sleep.susmed.co.jp/",
+          "serviceId": "b-64df1e9c"
         },
         {
           "name": "治療用アプリ共同開発プラットフォーム（DTx）",
@@ -21413,7 +21417,7 @@
         {
           "name": "ブロックチェーン臨床試験システム",
           "since": "2020-12",
-          "note": "モニタリング業務代替として経産省・厚労省が承認（公式沿革）",
+          "note": "2020年12月、グレーゾーン解消制度への照会に対し、厚生労働大臣・経済産業大臣が、臨床試験のモニタリングをこの技術で代替することは法令上認められると回答（会社発表）",
           "url": "https://susmed.co.jp/businessmodel/"
         },
         {
@@ -21591,12 +21595,7 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "米国子会社:",
-      "Preferred",
-      "Networks",
-      "America",
-      "Inc.",
-      "関連:",
+      "Preferred Networks America, Inc.（米国子会社）",
       "PFDeNA"
     ],
     "corporateNumber": "1010001159494",
@@ -21945,9 +21944,7 @@
     "exit": "未上場",
     "parentCompany": "",
     "relatedCompanies": [
-      "Hacarus",
-      "Philippines",
-      "Inc."
+      "Hacarus Philippines Inc."
     ],
     "corporateNumber": "4130003003669",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4130003003669",
@@ -22145,37 +22142,19 @@
     "exit": "未上場",
     "parentCompany": "エムスリー株式会社",
     "relatedCompanies": [
-      "M3",
-      "USA",
-      "Corporation(アメリカ合衆国)",
-      "Global",
-      "Research(英国)",
-      "Doctors.net.uk",
-      "Limited(英国)",
-      "Rotamaster",
-      "(英国)",
-      "VIDAL",
-      "France",
-      "S.A.",
-      "(フランス)",
-      "Medizinische",
-      "Medien",
-      "Informations",
-      "GmbH",
-      "(ドイツ)",
-      "Vademecum",
-      "Spain",
-      "(スペイン)",
-      "Medi",
-      "C&C",
-      "Co.",
-      "Ltd.(韓国)",
-      "金葉天成（北京）科技有限公司(中国)",
-      "India",
-      "(インド)",
-      "アイチケット株式会社(日本)",
-      "メビックス株式会社(日本)",
-      "クリニカルポーター株式会社(日本)",
+      "M3 USA Corporation（アメリカ合衆国）",
+      "M3 Global Research（英国）",
+      "Doctors.net.uk Limited（英国）",
+      "Rotamaster（英国）",
+      "VIDAL France S.A.（フランス）",
+      "Medizinische Medien Informations GmbH（ドイツ）",
+      "VIDAL Vademecum Spain, S.A.（スペイン）",
+      "Medi C&C Co.,Ltd.（韓国）",
+      "金葉天成（北京）科技有限公司（中国）",
+      "M3 India（インド）",
+      "アイチケット株式会社（日本）",
+      "メビックス株式会社（日本）",
+      "クリニカルポーター株式会社（日本）",
       "エムスリーキャリア株式会社（日本）",
       "リノ・メディカル株式会社（日本）",
       "株式会社エムプラス（日本）",
@@ -22184,7 +22163,7 @@
       "株式会社シィ・エム・エス（日本）",
       "株式会社メディサイエンスプラニング（日本）",
       "エムスリードクターサポート株式会社（日本）",
-      "REXA株式会社(日本)",
+      "REXA株式会社（日本）",
       "エムスリーマーケティング株式会社（日本）",
       "ノイエス株式会社（日本）",
       "株式会社ヌーベルプラス（日本）",
@@ -22198,8 +22177,7 @@
       "ソフィアメディ株式会社（日本）",
       "株式会社ワイズ（日本）",
       "株式会社アルメック（日本）",
-      "エムスリークリニックエステート株式会社",
-      "（日本）"
+      "エムスリークリニックエステート株式会社（日本）"
     ],
     "corporateNumber": "1010401110577",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010401110577",
@@ -23366,10 +23344,7 @@
     "parentCompany": "",
     "relatedCompanies": [
       "メタジェンセラピューティクス株式会社",
-      "Metagen",
-      "Singapore",
-      "Pte.",
-      "Ltd."
+      "Metagen Singapore Pte. Ltd."
     ],
     "corporateNumber": "7390001014012",
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7390001014012",
@@ -31353,7 +31328,7 @@
       },
       {
         "date": "2022-10",
-        "text": "UbieがシリーズCを総額62.6億円でクローズし総合メディカル等が引受（総額62.6億円）",
+        "text": "UbieがシリーズCを総額62.6億円でクローズし、総合メディカル等が引受",
         "source": "https://prtimes.jp/main/html/rd/p/000000044.000048083.html"
       },
       {
@@ -31377,7 +31352,8 @@
         {
           "name": "ユビー（症状検索エンジン）",
           "note": "開始時期は未確認。月間利用者数1,200万人（公式）",
-          "url": "https://ubie.app/"
+          "url": "https://ubie.app/",
+          "serviceId": "ubie-symptom"
         },
         {
           "name": "ユビーAI問診",
@@ -31402,7 +31378,7 @@
       ],
       "management": {
         "count": 2,
-        "note": "共同代表取締役2名（公式サイト掲載）。従業員240名（2025-04）",
+        "note": "共同代表取締役2名（公式サイト掲載）",
         "asOf": "2026-10",
         "members": [
           {
@@ -31437,7 +31413,10 @@
       "kind": "header",
       "source": "https://ubie.life/resources/logo/ubie-logo-horizontal.svg",
       "checkedAt": "2026-11"
-    }
+    },
+    "aliases": [
+      "ユビー"
+    ]
   },
   {
     "id": "1010401133396",
@@ -33138,7 +33117,7 @@
       "dental"
     ],
     "categoryLabel": "歯科領域",
-    "description": "スマート歯ブラシ",
+    "description": "口臭を測れるスマート電動歯ブラシ「NOVENINE SMASH」を開発・販売するメーカー",
     "prefecture": "大阪府",
     "foundedYear": 2018,
     "address": "大阪府大阪市中央区南船場２丁目２番２１号",
@@ -36612,7 +36591,7 @@
       "mental-health"
     ],
     "categoryLabel": "メンタルヘルス",
-    "description": "発達障害/アメリカ",
+    "description": "ADHDの人向けに、キャラクターとの会話で自己肯定感を高めるサービスを開発するスタートアップ",
     "prefecture": "東京都",
     "foundedYear": null,
     "address": "東京都渋谷区桜丘町２７番１号",
@@ -66545,7 +66524,7 @@
     "corporateNumberUrl": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=4010001118786",
     "region": "JP",
     "source": "Healthtech DB 編集部調べ（2026-10）",
-    "overview": "2008年に大塚製薬の株式移転で設立した持株会社（売上収益2兆4,689億円、2025年12月期）。医療関連事業（大塚製薬・大鵬薬品・大塚製薬工場）が売上1兆7,442億円、利益4,453億円と大半を占め、レキサルティ、ロンサーフ、輸液などを展開。ニュートラシューティカルズ関連事業（ポカリスエット、ネイチャーメイド等、5,776億円）も健康関連。2017年にセンサー入り錠剤、2024年にうつ病治療アプリRejoynが米国で承認・認可。",
+    "overview": "2008年に大塚製薬の株式移転で設立した持株会社（売上収益2兆4,689億円、2025年12月期）。医療関連事業（大塚製薬・大鵬薬品・大塚製薬工場）が売上1兆7,442億円、利益4,453億円と大半を占め、レキサルティ、ロンサーフ、輸液などを展開。ニュートラシューティカルズ関連事業（ポカリスエット、ネイチャーメイド等、5,776億円）も健康関連。2017年にセンサー入り錠剤が米国で承認され、2024年3月にはうつ病治療アプリRejoynが米国FDAの510(k)クリアランス（市販前の届出にもとづく認可。承認とは別の手続き）を得た。",
     "history": [
       {
         "date": "2008-07",
@@ -66573,8 +66552,8 @@
         "source": "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100XUA7.pdf"
       },
       {
-        "date": "2024-04",
-        "text": "大うつ病のデジタル治療アプリ「Rejoyn」が米国FDAの認可を取得（大うつ病治療アプリとして世界初）",
+        "date": "2024-03",
+        "text": "大うつ病のデジタル治療アプリ「Rejoyn」が米国FDAの510(k)クリアランスを取得（2024年3月30日・米国時間。発表は4月2日）。FDAが認めた初の大うつ病治療アプリ",
         "source": "https://www.otsuka.co.jp/company/newsreleases/2024/20240402_1.html"
       },
       {
@@ -66620,7 +66599,7 @@
         {
           "name": "デジタルメディスン・デジタル治療（エビリファイ マイサイト、Rejoyn）",
           "since": "2017-11",
-          "note": "プロテウスと開発したセンサー入り錠剤が米国承認。2024年に大うつ病治療アプリRejoyn（Click Therapeuticsと開発）が米国認可",
+          "note": "プロテウスと開発したセンサー入り錠剤が2017年に米国で承認。2024年3月に大うつ病治療アプリRejoyn（Click Therapeuticsと開発）が米国FDAの510(k)クリアランスを取得",
           "url": "https://www.otsuka.co.jp/company/newsreleases/2024/20240402_1.html"
         },
         {
@@ -66657,7 +66636,7 @@
       "source": "https://ssl4.eir-parts.net/doc/4578/yuho_pdf/S100XUA7/00.pdf",
       "consolidated": 181,
       "equityMethod": 26,
-      "note": "表の会社が80社を超えるため、日本の会社と特定子会社だけを載せた。海外の子会社・関連会社など111社は省きました（表にはほかに社名の無い「その他38社」（子会社）「その他11社」（関連会社）がある）",
+      "note": "表の会社が80社を超えるため、日本の会社と特定子会社だけを載せています。海外の子会社・関連会社など111社は省きました（有価証券報告書の表には、ほかに社名のない「その他38社」（子会社）と「その他11社」（関連会社）があります）。",
       "members": [
         {
           "name": "大塚製薬株式会社",
@@ -67123,7 +67102,9 @@
           "note": "飲料の子会社。大塚食品が吸収合併"
         }
       ]
-    }
+    },
+    "foundedLabel": "設立（持株会社）",
+    "groupFoundedYear": 1921
   },
   {
     "id": "9120001077430",

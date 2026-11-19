@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { withBase } from '@/lib/base';
 import { GroupPanel } from '@/components/GroupPanel';
-import { FinanceHistoryPanel, PeerPanel, type FinEvent, type Peer } from '@/components/FinanceHistory';
+import { CAGR_MIN_BASE, FinanceHistoryPanel, PeerPanel, type FinEvent, type Peer } from '@/components/FinanceHistory';
 import { notFound } from 'next/navigation';
 import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { isStopped, statusLabel, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { isStopped, statusLabel, categoryName, findCompanyByName, receivedServicesOf, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
 import { statusClass } from '@/lib/status';
 import { marginOf, comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText , growthText, itemLabels} from '@/lib/earnings';
 import { reconcileBusinesses } from '@/lib/profile';
@@ -28,15 +28,21 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const c = getCompany(id);
   if (!c) notFound();
   const services = servicesOf(c.id);
+  // 他社から譲り受けて続けている事業（記録は譲渡元の事業として持っている）。止まった事業・過去の領域には数えない
+  const received = receivedServicesOf(c);
   // ヘルスケア事業の領域を、いま（提供中）・開発中・過去（止まった）・提供状況を確認できていない、に分ける。
   // 「提供中と確かめられた事業がない」ことを「すべて過去」とはしない（登録漏れ・未調査・開発中があり得る）
+  // 吸収合併で消えた会社の「統合」の事業は、合併先で続いている（止まったのは法人で、事業ではない）
+  const carriedOn = (x: (typeof services)[number]) => c.exit === '合併' && x.status === '統合';
   const areas = (() => {
     const cats = (f: (x: (typeof services)[number]) => boolean) => [...new Set(services.filter(f).map((x) => x.category))];
     const now = cats((x) => x.status === '提供中');
     const dev = cats((x) => x.status === '準備中').filter((k) => !now.includes(k));
-    const past = cats((x) => isStopped(x)).filter((k) => !now.includes(k) && !dev.includes(k));
-    const unknown = cats((x) => x.status === '不明').filter((k) => !now.includes(k) && !dev.includes(k) && !past.includes(k));
-    return { now, dev, past, unknown };
+    const merged = cats(carriedOn).filter((k) => !now.includes(k) && !dev.includes(k));
+    // 販売提携などの契約の記録（kind: contract）が終わっても、その領域から退いたことにはならないので「過去」に入れない
+    const past = cats((x) => isStopped(x) && x.kind !== 'contract' && !carriedOn(x)).filter((k) => !now.includes(k) && !dev.includes(k) && !merged.includes(k));
+    const unknown = cats((x) => x.status === '不明').filter((k) => !now.includes(k) && !dev.includes(k) && !merged.includes(k) && !past.includes(k));
+    return { now, dev, merged, past, unknown };
   })();
   // 外形情報の事業一覧は、事業データと同じ開始時期で出す
   const profBiz = reconcileBusinesses(c.profile?.businesses ?? [], services);
@@ -53,7 +59,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
     .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || Number(!!b.label && b.label !== b.kind) - Number(!!a.label && a.label !== a.kind))
     .map((p) => ({ p, other: myNames.includes(nm(p.from)) ? p.to : p.from }))
     .filter((x, i, arr) => arr.findIndex((y) => nm(y.other) === nm(x.other) && y.p.kind === x.p.kind && (y.p.date ?? '').slice(0, 7) === (x.p.date ?? '').slice(0, 7)) === i);
-  const stoppedCount = services.filter((s) => isStopped(s)).length;
+  // 止まった事業の数。契約の記録（販売提携の終了など）は事業が止まったことではないので数えない
+  const stoppedCount = services.filter((s) => isStopped(s) && s.kind !== 'contract' && !carriedOn(s)).length;
   const latestRep = reports[0];
   // 決算の科目名は会社の呼び名（IFRS は売上収益 など）
   const repL = itemLabels(reports.find((r) => r.revenueLabel) ?? latestRep);
@@ -70,6 +77,12 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
       if (!ys.some((y) => y.fy === fy) && (!ys.length || fy > ys[ys.length - 1].fy)) ys.push({ fy, revenue: fyRep.current.revenue, operatingIncome: fyRep.current.operatingIncome, netIncome: fyRep.current.netIncome, source: fyRep.pdf });
     }
     return ys;
+  })();
+  // 業績パネルの直近の期の前年比は、同じ期の決算短信に会社の開示値があればそれを使う（丸めた数字からの計算とずれないように）
+  const fhLastGrowth = (() => {
+    const m = fyRep?.fiscalYear.match(/(\d{4})年(\d{1,2})月期/);
+    const last = fhYears[fhYears.length - 1];
+    return m && last && last.fy === `${m[1]}-${m[2].padStart(2, '0')}` ? growth(fyRep) : null;
   })();
   // 業績の時間軸に重ねる出来事：この会社がした出資・資本業務提携・子会社化と、グループ会社の出入り
   const finEvents: FinEvent[] = (() => {
@@ -108,13 +121,14 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
       if (!r?.current?.revenue) continue;
       const h = healthcareOf((all[o.id] ?? []).find((x) => x.quarter === 'FY' && x.segments?.length));
       const share = h?.share ?? null;
-      if (o.id !== c.id && share != null && share < 30) continue;
+      // 大手でヘルスケアの売上の割合が分からない会社も外す（ソニーグループのように、全社の売上で比べてしまうため）
+      if (o.id !== c.id && (share != null ? share < 30 : !!o.major && !o.healthcareSegments?.includes('全社'))) continue;
       const ys = (fhs[o.id]?.years ?? []).filter((y) => y.revenue != null).sort((a, b) => a.fy.localeCompare(b.fy)).slice(-10);
       const sp = ys.map((y) => y.revenue!);
       // 年平均の伸びは決算期末の間の実際の年数で割る。両端が変則決算（12か月でない期）なら出さない
       const odd = (y?: { note?: string }) => /変則|決算期変更|\d+\s*(か月|カ月|ヶ月)/.test(y?.note ?? '');
       const span = ys.length >= 3 ? ((Number(ys[ys.length - 1].fy.slice(0, 4)) * 12 + Number(ys[ys.length - 1].fy.slice(5, 7))) - (Number(ys[0].fy.slice(0, 4)) * 12 + Number(ys[0].fy.slice(5, 7)))) / 12 : 0;
-      const cagr = span >= 1 && sp[0] > 0 && !odd(ys[0]) && !odd(ys[ys.length - 1]) ? ((sp[sp.length - 1] / sp[0]) ** (1 / span) - 1) * 100 : null;
+      const cagr = span >= 1 && sp[0] >= CAGR_MIN_BASE && !odd(ys[0]) && !odd(ys[ys.length - 1]) ? ((sp[sp.length - 1] / sp[0]) ** (1 / span) - 1) * 100 : null;
       rows.push({ id: o.id, name: o.name.replace(/^株式会社|株式会社$/g, '').replace(/ホールディングス/, 'HD'), fy: r.fiscalYear.replace(/年(\d+)月期/, '/$1').replace(/^20/, ''), revenue: r.current.revenue, prior: comparable(r) ? r.prior?.revenue : undefined, operatingIncome: r.current.operatingIncome, margin: marginOf(r), growth: growth(r), healthShare: share, spark: sp, cagr, cagrSpan: span, basis: r.consolidated === false ? '単体' : '連結', self: o.id === c.id });
     }
     rows.sort((a, b) => b.revenue - a.revenue);
@@ -133,9 +147,40 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
     const corp = u.match(/houjin-bangou\.nta\.go\.jp.*selHouzinNo=(\d{13})/)?.[1];
     if (corp) return `国税庁 法人番号公表サイト（${corp}）`;
     if (u.includes('nenkin.go.jp/do/search_section')) return '日本年金機構 適用事業所検索';
-    return u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 48);
+    // よく出る資料は、識別子の途中で切らずに資料の名前で出す
+    const known: [RegExp, string][] = [
+      [/info\.gbiz\.go\.jp/, 'gBizINFO（経済産業省の法人情報）'],
+      [/disclosure2?(dl)?\.edinet-fsa\.go\.jp|edinet-fsa\.go\.jp/, 'EDINET（有価証券報告書など）'],
+      [/release\.tdnet\.info|www2\.jpx\.co\.jp\/disc/, 'TDnet（適時開示）'],
+      [/irbank\.net/, 'IR BANK（適時開示の写し）'],
+      [/prtimes\.jp/, 'PR TIMES（プレスリリース）'],
+      [/kanpo\.go\.jp/, '官報'],
+      [/pmda\.go\.jp/, 'PMDA'],
+      [/mhlw\.go\.jp/, '厚生労働省'],
+    ];
+    const hit = known.find(([re]) => re.test(u));
+    if (hit) return hit[1];
+    // そのほかは「ドメイン＋…」（パスの途中で切らない）
+    const m = u.match(/^https?:\/\/(?:www\.)?([^/?#]+)(.*)$/);
+    if (!m) return u.slice(0, 48);
+    return m[2] && m[2] !== '/' ? `${m[1]}/…` : m[1];
   };
   const ym = (s: string) => s.replace(/^(\d{4})-(\d{2})(-\d{2})?$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年');
+  // 本文中の「2026-10」「2026-11-19」のような日付を「2026年10月」「2026年11月19日」にそろえる（URL の中は変えない）
+  const jaDates = (t?: string) => (t ?? '').replace(/(^|[^\d\-/=._A-Za-z])(\d{4})-(0[1-9]|1[0-2])(?:-(0[1-9]|[12]\d|3[01]))?(?![\d-])/g, (_, pre, y, mo, d) => `${pre}${y}年${Number(mo)}月${d ? `${Number(d)}日` : ''}`);
+  // 従業員数の書き方をそろえる（単位は「名」、範囲は「〜」、4桁以上は桁区切り）
+  const empText = (e: string) => {
+    const t = e.replace(/[~～]/g, '〜').replace(/(?<![\d,])\d{4,}(?![\d年月-])/g, (d) => Number(d).toLocaleString('ja-JP')).replace(/(\d)人/g, '$1名');
+    return /名/.test(t) ? t : `${t}名`;
+  };
+  // 事業の年数（開始から確認時点まで）。1年に満たなければ「1年未満」
+  const yearsText = (since: string, at: string) => {
+    const mo = (d: string) => Number(d.slice(0, 4)) * 12 + (d.length >= 7 ? Number(d.slice(5, 7)) : 6);
+    const y = Math.floor((mo(at) - mo(since)) / 12);
+    return y >= 1 ? `${y}年` : '1年未満';
+  };
+  // 上部の要約の金額は億円にそろえる（1億円未満も「0.6億円」のように）
+  const oku = (v?: number) => (v == null ? '—' : Math.abs(v) >= 100 ? money(v) : `${v < 0 ? '△' : ''}${Number((Math.abs(v) / 100).toFixed(2))}億円`);
   const personLink = (n: string) => { const p = people.find((x) => x.name === n); return p ? <Link href={`/talents/${p.id}/`}>{n}</Link> : n; };
   const articles = getArticles().filter((a) => a.companies?.some((n) => findCompanyByName(n)?.id === c.id));
 
@@ -155,19 +200,22 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           {c.categoryNote && c.categoryLocked && <p className="muted small" style={{ margin: '6px 0 0' }}>{c.categoryNote}</p>}
         </div>
         {c.coreBusiness && <p className="co-scope"><b>会社全体の主力事業</b>{c.coreBusiness}</p>}
-        {areas.past.length + areas.unknown.length > 0 && (
+        {areas.past.length + areas.unknown.length + areas.merged.length > 0 && (
           <p className="co-areas">
             <b>ヘルスケア事業の領域</b>
             {areas.now.length > 0 && <span>いま：{areas.now.map(categoryName).join('・')}</span>}
             {areas.dev.length > 0 && <span>開発・準備中：{areas.dev.map(categoryName).join('・')}</span>}
+            {areas.merged.length > 0 && <span>合併先で継続：{areas.merged.map(categoryName).join('・')}</span>}
             {areas.past.length > 0 && <span>過去：{areas.past.map(categoryName).join('・')}</span>}
             {areas.unknown.length > 0 && <span>提供状況を確認できていない：{areas.unknown.map(categoryName).join('・')}</span>}
           </p>
         )}
-        {c.description && <p className="lead">{c.description}</p>}
-        {c.highlight && <p className="co-highlight"><b>注目</b>{c.highlight}</p>}
-        {c.scopeNote && <p className="co-scope"><b>現在の事業</b>{c.scopeNote}</p>}
-        {c.ended && <p className="co-scope ended"><b>{c.exit === '対象外' ? '掲載対象外' : c.exit === '活動停止' ? '活動停止（確認できず）' : '事業終了'}{c.ended.date ? `（${ym(c.ended.date)}）` : ''}</b>{c.ended.note}{c.ended.lastActiveAt ? ` 最後に確認できた活動は${ym(c.ended.lastActiveAt)}。` : ''}{c.ended.successor ? ` 事業の引き継ぎ先: ${c.ended.successor}。` : ''}</p>}
+        {c.description && <p className="lead">{jaDates(c.description)}</p>}
+        {/* 事業を終えた会社では、最後の話題を新しい話題のように「注目」と出さない */}
+        {c.highlight && <p className="co-highlight"><b>{c.ended ? '最後の活動' : '注目'}</b>{jaDates(c.highlight)}</p>}
+        {c.scopeNote && <p className="co-scope"><b>現在の事業</b>{jaDates(c.scopeNote)}</p>}
+        {/* 吸収合併は「法人が消えた」ことで、事業が終わったとは限らない。見出しを出し分ける */}
+        {c.ended && <p className="co-scope ended"><b>{c.exit === '対象外' ? '掲載対象外' : c.exit === '活動停止' ? '活動停止（確認できず）' : c.exit === '合併' ? '吸収合併' : '事業終了'}{c.ended.date ? `（${ym(c.ended.date)}）` : ''}{c.exit === '合併' ? `・法人は消滅${c.ended.successor || c.mergedInto ? '、事業は合併先へ' : ''}` : ''}</b>{jaDates(c.ended.note)}{c.ended.lastActiveAt ? ` 最後に確認できた活動は${ym(c.ended.lastActiveAt)}。` : ''}{c.ended.successor ? ` 事業の引き継ぎ先: ${c.ended.successor}。` : ''}</p>}
         {!c.ended && c.statusNote && <p className="co-scope warn"><b>現状</b>{c.statusNote}</p>}
       </div>
 
@@ -175,10 +223,10 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
         <div className="hmk-col">
           <h3><span>ヒト</span>経営と組織</h3>
           <dl>
-            <dt>代表者</dt><dd>{c.representatives.join('、') || '—'}{c.formerRepresentatives?.length ? <small>歴代 {c.formerRepresentatives.length + c.representatives.length}人目まで記録</small> : null}</dd>
+            <dt>代表者</dt><dd>{c.representatives.join('、') || '—'}{c.formerRepresentatives?.length ? <small>歴代の代表 {c.formerRepresentatives.length + c.representatives.length}人（いまは{c.representatives.length}人）</small> : null}</dd>
             {c.founders?.length ? <><dt>創業者</dt><dd>{c.founders.join('、')}</dd></> : null}
             <dt>経営陣</dt><dd>{c.profile?.management?.count ? `${c.profile.management.count}名` : '—'}</dd>
-            <dt>従業員数</dt><dd>{c.employees ? `${c.employees}${/名|人/.test(c.employees) ? '' : '名'}` : '—'}{c.employees && empAsOf ? <small>{empAsOf}時点</small> : null}</dd>
+            <dt>従業員数</dt><dd>{c.employees ? empText(c.employees) : '—'}{c.employees && empAsOf ? <small>{empAsOf}時点</small> : null}</dd>
           </dl>
         </div>
         <div className="hmk-col">
@@ -187,15 +235,15 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
             <dt>主な事業</dt>
             <dd>{profBiz.slice(0, 3).map((b) => <span key={b.name} className="hmk-biz">{b.name.replace(/（.*?）/g, '')}{b.since ? <small>{b.since.slice(0, 4)}年〜</small> : null}</span>)}{!c.profile?.businesses?.length && (c.products?.slice(0, 3).join('、') || '—')}</dd>
             <dt>事業DB</dt><dd>{services.length ? `${services.length}件` : '—'}{stoppedCount ? <small>うち止まった事業 {stoppedCount}件</small> : null}</dd>
-            <dt>資本提携・M&amp;A</dt><dd>{dealRows.length ? <a href="#deals">{dealRows.length}件</a> : '—'}</dd>
+            <dt>資本提携・M&amp;A</dt><dd>{dealRows.length ? <><a href="#deals">{dealRows.length}件</a><small>Healthtech DB に記録した分</small></> : '—'}</dd>
           </dl>
         </div>
         <div className="hmk-col">
           <h3><span>カネ</span>資本と業績</h3>
           <dl>
-            <dt>資本</dt><dd>{c.exit === '上場' ? `上場（${c.listedMarket ?? ''}${c.securitiesCode ? `・${c.securitiesCode}` : ''}）` : c.exit}{c.parentCompany ? <small>親会社：{c.parentCompany}</small> : null}</dd>
+            <dt>{c.ended ? '会社の状態' : '資本'}</dt><dd>{c.exit === '上場' ? `上場（${c.listedMarket ?? ''}${c.securitiesCode ? `・${c.securitiesCode}` : ''}）` : c.exit}{c.parentCompany ? <small>親会社：{c.parentCompany}</small> : null}</dd>
             {latestRep ? (
-              <><dt>業績</dt><dd>売上高 {revenueText(latestRep)}{latestRep.current?.operatingIncome != null ? `／営業利益 ${money(latestRep.current.operatingIncome)}` : ''}<small>{latestRep.label.replace(/（中間期）/, '')}</small></dd>
+              <><dt>業績</dt><dd>{repL.revenue} {latestRep.current?.revenue != null ? oku(latestRep.current.revenue) : revenueText(latestRep)}{latestRep.current?.operatingIncome != null ? `／営業利益 ${oku(latestRep.current.operatingIncome)}` : ''}<small>{latestRep.label.replace(/（中間期）/, '')}{latestRep.quarter !== 'FY' ? '（期首からの累計）' : ''}</small></dd>
               {hc && !hc.whole && hc.revenue != null ? <><dt>ヘルスケア</dt><dd><Link href={`/earnings/${c.id}/`}>{money(hc.revenue)}</Link>{hc.share != null ? `（全社の${hc.share.toFixed(0)}%）` : ''}<small>{hc.names.join('、')}・{segRep!.label.replace(/（中間期）/, '')}</small></dd></> : null}</>
             ) : fs?.total?.kind === '会社発表の累計' ? (
               <><dt>資金調達</dt><dd><a href="#funding">累計 {money(fs.total.amount)}</a><small>会社発表{fs.total.asOf ? `（${ymJa(fs.total.asOf)}時点）` : ''}・発表 {fs.raises.length}回</small></dd></>
@@ -216,7 +264,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           {c.overview && (
             <section className="panel">
               <h3>事業概要</h3>
-              <p className="co-overview">{c.overview}</p>
+              <p className="co-overview">{jaDates(c.overview)}</p>
             </section>
           )}
           {c.profile && (
@@ -228,9 +276,9 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                   <tbody>
                     {profBiz.map((b) => (
                       <tr key={b.name}>
-                        <td>{b.serviceId ? <Link href={`/services/${b.serviceId}/`}>{b.name}</Link> : b.url ? <a href={b.url} target="_blank" rel="noreferrer">{b.name}</a> : b.name}{b.note && <small>{b.note}</small>}</td>
+                        <td>{b.serviceId ? <Link href={`/services/${b.serviceId}/`}>{b.name}</Link> : b.url ? <a href={b.url} target="_blank" rel="noreferrer">{b.name}</a> : b.name}{b.note && <small>{jaDates(b.note)}</small>}</td>
                         <td className="nw">{b.since ? ym(b.since) : '—'}</td>
-                        <td className="nw">{b.since ? `${Math.max(0, Number(c.profile!.checkedAt.slice(0, 4)) - Number(b.since.slice(0, 4)))}年` : ''}</td>
+                        <td className="nw">{b.since ? yearsText(b.since, c.profile!.checkedAt) : ''}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -238,7 +286,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               )}
               <dl className="kv profile-kv">
                 {c.profile.management && (
-                  <><dt>経営陣</dt><dd><b>{c.profile.management.count}名</b>{c.profile.management.note ? `（${c.profile.management.note}）` : ''}{c.profile.management.asOf ? <span className="muted small"> {ym(c.profile.management.asOf)}時点</span> : null}</dd></>
+                  <><dt>経営陣</dt><dd><b>{c.profile.management.count}名</b>{c.profile.management.note ? `（${jaDates(c.profile.management.note)}）` : ''}{c.profile.management.asOf ? <span className="muted small"> {ym(c.profile.management.asOf)}時点</span> : null}</dd></>
                 )}
                 {(c.profile.newsroom?.site || c.profile.newsroom?.prtimes || c.profile.newsroom?.ir) && (
                   <><dt>発信</dt><dd className="profile-links">
@@ -256,7 +304,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           )}
 
           {c.securitiesCode && fhYears.length >= 3 && (
-            <FinanceHistoryPanel years={fhYears} events={finEvents} code={c.securitiesCode} market={c.listedMarket} healthShare={hc && !hc.whole ? hc.share : null} healthNames={hc?.names} standard={fh?.standard} basis={fh?.basis} />
+            <FinanceHistoryPanel years={fhYears} events={finEvents} code={c.securitiesCode} market={c.listedMarket} healthShare={hc && !hc.whole ? hc.share : null} healthNames={hc?.names} standard={fh?.standard} basis={fh?.basis} lastGrowth={fhLastGrowth} />
           )}
           {c.securitiesCode && peers.length >= 2 && <PeerPanel peers={peers} label={categoryName(c.categories[0])} />}
 
@@ -311,15 +359,26 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                   <article className="card" key={s.id}>
                     <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
                     <div className="chips"><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
-                    <p className="desc">{s.description}</p>
+                    <p className="desc">{jaDates(s.description)}</p>
                     <div className="meta">{(s.startedAt || s.startedYear) && <span>{(s.startedAt ?? String(s.startedYear)).slice(0, 4)}年開始</span>}{s.endedAt && <span>{s.endedAt.slice(0, 4)}年{s.status === '提供中' ? '' : s.status}</span>}<span className={`badge st-${statusClass(s)}`}>{statusLabel(s)}</span>{s.status === '準備中' && s.stage ? <span className="badge">{s.stage}</span> : null}</div>
                   </article>
                 ))}
               </div>
             ) : c.products?.length ? (
               <div className="chips">{c.products.map((n) => <span key={n} className="chip">{n}</span>)}</div>
-            ) : (
+            ) : received.length ? null : (
               <p className="muted small">サービス情報は未登録です。<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報提供フォーム</a>からお知らせください。</p>
+            )}
+            {received.length > 0 && (
+              <>
+                <h4 className="sub-h">他社から譲り受けた事業</h4>
+                <ul className="co-history">
+                  {received.map((s) => (
+                    <li key={s.id}><span>{s.endedAt ? ym(s.endedAt) : ''}</span><div><Link href={`/services/${s.id}/`}>{s.name}</Link>{s.successor ? <small className="muted">　いまの名前・提供元：{s.successor}</small> : null}</div></li>
+                  ))}
+                </ul>
+                <p className="muted small" style={{ marginTop: 6 }}>譲渡元の会社の事業として記録しています（譲渡元から見ると「譲渡」）。この会社の止まった事業には数えていません。</p>
+              </>
             )}
           </section>
 
@@ -328,7 +387,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               <h3>近況</h3>
               <ul className="co-history">
                 {[...c.history].reverse().map((h) => (
-                  <li key={h.text}><span>{h.date ? h.date.replace(/^(\d{4})-(\d{2}).*/, (_, y, m) => `${y}年${Number(m)}月`) : ''}</span>{h.text}{h.source && <a href={h.source} target="_blank" rel="noreferrer" className="h-src">出典</a>}</li>
+                  <li key={h.text}><span>{h.date ? h.date.replace(/^(\d{4})-(\d{2}).*/, (_, y, m) => `${y}年${Number(m)}月`) : ''}</span>{jaDates(h.text)}{h.source && <a href={h.source} target="_blank" rel="noreferrer" className="h-src">出典</a>}</li>
                 ))}
               </ul>
             </section>
@@ -354,8 +413,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                         <td className="nw">{ymJa(r.date)}</td>
                         <td className="nw">{roundLabel(r)}{r.round && r.type !== '第三者割当増資' && r.round !== 'M&A' ? <small>{r.type}</small> : null}</td>
                         <td className="num">{r.amount != null ? money(r.amount) : <span className="muted">非公表</span>}</td>
-                        <td>{(r.investors ?? []).map((n, k) => { const o = findCompanyByName(n.replace(/[（(].*?[)）]/g, '')); const lead = r.lead && investorKey(r.lead) === investorKey(n); return <span key={k} className={`inv${lead ? ' lead' : ''}`}>{o && o.id !== c.id ? <Link href={`/companies/${o.id}/`}>{n}</Link> : n}{lead ? <em>リード</em> : null}</span>; })}{r.note && <small>{r.note}</small>}</td>
-                        <td className="nw"><a href={r.source} target="_blank" rel="noreferrer" className="h-src">出典</a></td>
+                        <td>{(r.investors ?? []).map((n, k) => { const o = findCompanyByName(n.replace(/[（(].*?[)）]/g, '')); const lead = r.lead && investorKey(r.lead) === investorKey(n); return <span key={k} className={`inv${lead ? ' lead' : ''}`}>{o && o.id !== c.id ? <Link href={`/companies/${o.id}/`}>{n}</Link> : n}{lead ? <em>リード</em> : null}</span>; })}{r.note && <small>{jaDates(r.note)}</small>}</td>
+                        <td className="nw"><a href={r.source} target="_blank" rel="noreferrer" className="h-src">出典</a>{(r.sources ?? []).filter((u) => u !== r.source).map((u, k) => <a key={u} href={u} target="_blank" rel="noreferrer" className="h-src" title={srcLabel(u)}>{k + 2}</a>)}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -389,14 +448,18 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                   );
                 })}
               </ul>
-              <p className="muted small" style={{ marginTop: 6 }}><Link href="/ma/" className="arrow">M&amp;A・提携マップ</Link></p>
+              <p className="muted small" style={{ marginTop: 6 }}>Healthtech DB の提携・M&amp;A の記録に入っている分だけです（近況や資金調達の表にだけ出てくる買収・資本業務提携は、ここに入っていないことがあります）。日付は記録ごとの発表日か実行日で、グループ会社の表（有価証券報告書の時期）とずれることがあります。<Link href="/ma/" className="arrow">M&amp;A・提携マップ</Link></p>
             </section>
           )}
 
-          <section className="panel">
-            <h3>関連ニュース</h3>
-            <NewsList items={news} empty="この企業に紐づくニュースはまだありません。" />
-          </section>
+          {news.length > 0 ? (
+            <section className="panel">
+              <h3>関連ニュース</h3>
+              <NewsList items={news} empty="" />
+            </section>
+          ) : (
+            <p className="muted small" style={{ margin: 0 }}>この企業に紐づくニュースはまだありません。<Link href="/news/" className="arrow">ニュース一覧</Link></p>
+          )}
 
           {articles.length > 0 && (
             <section className="panel">
@@ -425,14 +488,16 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           <section className="panel">
             <h3>企業情報</h3>
             <dl className="kv">
-              {c.hp && (<><dt>Webサイト</dt><dd><a href={c.hp} target="_blank" rel="noreferrer">{c.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
-              <dt>上場区分</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : ['閉鎖', '合併', '活動停止', '対象外'].includes(c.exit) ? 'closed' : ''}`}>{c.exit}</span>{c.listedMarket && <span className="small muted"> {c.listedMarket}</span>}</dd>
+              {c.hp && (<><dt>Webサイト</dt><dd>{['閉鎖', '活動停止'].includes(c.exit)
+                ? <>{c.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}<span className="small muted">（事業を終えた会社のため、いまは開けないことがあります。<a href={`https://web.archive.org/web/*/${c.hp.replace(/^https?:\/\//, '')}`} target="_blank" rel="noreferrer">Wayback Machine の保存版</a>）</span></>
+                : <a href={c.hp} target="_blank" rel="noreferrer">{c.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>}</dd></>)}
+              <dt>上場・状態</dt><dd><span className={`badge ${c.exit === '上場' ? 'listed' : ['閉鎖', '合併', '活動停止', '対象外'].includes(c.exit) ? 'closed' : ''}`}>{c.exit}</span>{c.listedMarket && <span className="small muted"> {c.listedMarket}</span>}</dd>
               {c.mergedInto && (<><dt>合併先</dt><dd>{c.mergedInto.companyId ? <Link href={`/companies/${c.mergedInto.companyId}/`}>{c.mergedInto.name}</Link> : c.mergedInto.name}<span className="small muted">（吸収合併により消滅）</span></dd></>)}
               {c.formerNames?.length ? (<><dt>旧社名</dt><dd>{c.formerNames.join('、')}</dd></>) : null}
-              {c.foundedYear && (<><dt>創業</dt><dd>{c.foundedYear}年</dd></>)}
+              {c.foundedYear && (<><dt>{c.foundedLabel ?? '創業'}</dt><dd>{c.foundedYear}年{c.groupFoundedYear ? <span className="small muted">（グループの創業は{c.groupFoundedYear}年）</span> : null}</dd></>)}
               {c.prefecture && (<><dt>所在地</dt><dd>{c.prefecture}</dd></>)}
               {c.address && (<><dt>本社住所</dt><dd>{c.address}</dd></>)}
-              {c.employees && (<><dt>従業員数</dt><dd>{c.employeesAsOf ? c.employees : `${c.employees}人`}{empAsOf && <span className="small muted">（{empAsOf}時点）</span>}</dd></>)}
+              {c.employees && (<><dt>従業員数</dt><dd>{empText(c.employees)}{empAsOf && <span className="small muted">（{empAsOf}時点）</span>}</dd></>)}
               {/* 調達額は上の概要と同じ元データ（会社発表の累計があればそれ）から出す */}
               {fs?.total?.kind === '会社発表の累計' ? (<><dt>資金調達</dt><dd>累計 {money(fs.total.amount)}<span className="small muted">（{fs.total.asOf ? `${ymJa(fs.total.asOf)}時点の` : ''}会社発表）</span></dd></>)
                 : c.totalFunding && (<><dt>資金調達</dt><dd>{c.totalFunding}</dd></>)}
@@ -462,7 +527,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
           <section className="notice">
             掲載情報に誤りや更新がある場合は、<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報修正を依頼する</a>からお知らせください。{c.logo && <>ロゴは公式サイトに掲載のものです。ロゴの掲載・差し替え・取り下げのご希望も同じフォームから受け付けます。</>}
             <div className="muted small" style={{ marginTop: 6 }}>
-              出典: {c.source}{c.updatedAt && c.source.indexOf(c.updatedAt) < 0 ? `／${c.updatedAt.replace('-', '年')}月 編集部確認` : ''}
+              出典: {jaDates(c.source)}{c.updatedAt && c.source.indexOf(c.updatedAt) < 0 ? `／${c.updatedAt.replace('-', '年')}月 編集部確認` : ''}
               {c.sources?.length ? (
                 <ul className="co-src">
                   {c.sources.slice(0, 5).map((u) => <li key={u}><a href={u} target="_blank" rel="noreferrer">{srcLabel(u)}</a></li>)}

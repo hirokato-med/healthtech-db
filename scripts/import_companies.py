@@ -41,7 +41,7 @@ EXTRA = [
     ("ソリューション", "医薬品・医療機器卸", "wholesale"),
     ("ソリューション", "医療データ分析", "medical-data-analytics"),
     ("ソリューション", "VC・CVC", "vc-cvc"),
-    ("ソリューション", "医師囲い込み", "doctor-network"),
+    ("ソリューション", "医療者コミュニティ・メディア", "doctor-network"),
     ("ソリューション", "マーケティング支援", "marketing-support"),
     ("事業領域", "リラクゼーション", "relaxation"),
     ("事業領域", "健康保険組合向け", "health-insuarance-market"),
@@ -55,6 +55,7 @@ for g, name, slug in EXTRA:
         cats.append({"slug": slug, "name": name, "group": GROUP_JA[g], "groupLabel": g}); have.add(slug)
 # 表示名のゆらぎ → slug
 ALIAS = {
+    "医師囲い込み": "doctor-network",  # 旧名。医師以外の医療者向けにも付けるため改名した
     "DMP/PHR": "personal-health-record", "RWD / 医療DB": "real-world-data", "RWD": "real-world-data",
     "健康保険組合向け": "health-insuarance-market",
 }

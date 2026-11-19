@@ -48,6 +48,9 @@ add(must, '節目の日付の形がおかしい', services.filter((s) => (s.mile
 // グループ会社（有価証券報告書から）：議決権は 0〜100、日付は YYYY-MM、名前と関係は必須
 const badGroup = (g) => !g.sourceLabel || !Array.isArray(g.members) || g.members.some((m) => !m.name || !m.relation || (m.voting != null && !(m.voting >= 0 && m.voting <= 100)) || (m.since && !/^\d{4}(-\d{2})?$/.test(m.since))) || (g.former ?? []).some((m) => !m.name || !m.how || (m.end && !/^\d{4}(-\d{2})?$/.test(m.end)));
 add(must, 'グループ会社の形がおかしい', companies.filter((c) => c.group && badGroup(c.group)), (c) => `${c.id} ${c.name}`);
+// 関連会社の欄が空白・カンマで細切れになっていないか（「米国子会社:」「Inc.」「(ドイツ)」「など」だけの要素）
+const fragment = (x) => /[:：]$/.test(x) || /^[(（][^)）]*[)）]$/.test(x) || /^(inc|ltd|co|corp|corporation|limited|llc|gmbh|s\.a|pte|など)\.?$/i.test(x) || /^[A-Za-z0-9]{1,3}$/.test(x);
+add(must, '関連会社の欄が細切れになっている', companies.filter((c) => (c.relatedCompanies ?? []).some(fragment)), (c) => `${c.id} ${c.name}`);
 add(must, '医療機器の情報と「医療機器ではない」が両方ある', services.filter((s) => s.device && s.nonDevice));
 // 終了予定と一時停止：未来の終了日は plannedEnd に入れ、status は「提供中」のまま。日付が来ても自動で変えない
 add(must, '終了日が未来なのに止まった事業になっている（plannedEnd に入れて「提供中」に）', services.filter((s) => STOPPED.has(s.status) && s.endedAt && s.endedAt.slice(0, 7) > today.slice(0, 7)));
@@ -63,6 +66,13 @@ add(must, '会社の説明文に「上場企業」とあるのに上場区分が
 // 確かめたい（デジタルヘルスの中心を先に並べる）
 const digitalFirst = (a, b) => Number(adjacent.has(a.type)) - Number(adjacent.has(b.type));
 add(want, '説明文が短い（25字未満）', services.filter((s) => (s.description ?? '').length < 25).sort(digitalFirst));
+// 会社：メモのような説明（「元はアメリカ」など）、近況の重複（同じ月に似た文）、本文の頭に日付を重ねた近況
+const coLabel = (c) => `${c.id} ${c.name}`;
+add(want, '会社の説明が短い（16字未満）', companies.filter((c) => c.description && c.description.length < 16), coLabel);
+const bigrams = (t) => new Set([...t.replace(/[\s、。「」（）()・]/g, '')].map((ch, i, a) => ch + (a[i + 1] ?? '')).slice(0, -1));
+const similar = (a, b) => { const x = bigrams(a), y = bigrams(b); const n = [...x].filter((k) => y.has(k)).length; return n / Math.max(1, Math.min(x.size, y.size)); };
+add(want, '近況に同じ月の似た文がある', companies.filter((c) => (c.history ?? []).some((h, i, arr) => arr.some((o, j) => j > i && (o.date ?? '').slice(0, 7) === (h.date ?? '').slice(0, 7) && similar(o.text, h.text) >= 0.6))), coLabel);
+add(want, '近況の本文が日付で始まる（日付は date に入れる）', companies.filter((c) => (c.history ?? []).some((h) => /^\d{4}(年|-)/.test(h.text))), coLabel);
 add(want, '開始時期も提供を確認できた時点も空', services.filter((s) => !s.startedAt && !s.knownSince).sort(digitalFirst));
 add(want, '止まった事業で終了日が空', services.filter((s) => STOPPED.has(s.status) && !s.endedAt).sort(digitalFirst));
 add(want, '止まった理由が unknown', services.filter((s) => STOPPED.has(s.status) && s.endReasons?.includes('unknown')).sort(digitalFirst));
