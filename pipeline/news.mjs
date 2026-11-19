@@ -128,6 +128,8 @@ const items = [...byUrl.values()].sort((a, b) => b.publishedAt.localeCompare(a.p
 for (const n of byUrl.values()) if (!n.tier) Object.assign(n, judgeNews(n.title, n.companyId));
 // カテゴリは毎回付け直す（会社のカテゴリが変わったときも追いつく。手で直したものは残す）
 for (const n of items) assignNewsCategory(n, companiesById);
+// 「何が変わったか」の1文は句点で終える
+for (const n of items) if (n.change && !/[。！？!?]$/.test(n.change.trim())) n.change = `${n.change.trim()}。`;
 fs.writeFileSync(FILE, JSON.stringify(items, null, 2) + '\n');
 console.error(`news.json: ${items.length}件（新規 ${added}件）`);
 
