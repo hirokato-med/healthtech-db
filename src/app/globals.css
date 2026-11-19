@@ -281,7 +281,7 @@ main { min-height: 50vh; }
 /* =====================================================================
    下層ページ（既存のクラス名をこのデザインに合わせる）
    ===================================================================== */
-.page { padding: 40px 0 72px; }
+.page { padding-top: 40px; padding-bottom: 72px; }
 .section { margin: 0 0 48px; }
 .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; padding-bottom: 12px; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
 .section-head h2 { font-family: var(--serif); font-size: 24px; font-weight: 700; }
