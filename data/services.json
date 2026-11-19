@@ -831,8 +831,9 @@
     },
     "after": {
       "event": "契約終了",
-      "fate": "製品は提供継続（サスメドが自社で販売）",
-      "asOf": "2026-11"
+      "fate": "同一サービス継続（運営会社が変更）",
+      "asOf": "2026-11",
+      "note": "販売提携の契約が終わり、製品はサスメドが自社で販売を続ける"
     },
     "kind": "contract",
     "relatedServiceId": "b-64df1e9c",
@@ -843,10 +844,10 @@
     "name": "2型糖尿病管理指導用モバイルアプリ「SMC-01」共同開発",
     "company": "住友ファーマ株式会社（旧 大日本住友製薬）／Save Medical株式会社",
     "category": "disease-management-program",
-    "description": "2型糖尿病患者の自己管理（食事・運動・服薬・血糖記録）を医師の指導のもとで支援するスマホアプリを、プログラム医療機器としての承認取得を目指して共同開発した。",
+    "description": "住友ファーマ（当時 大日本住友製薬）とSave Medicalが、2型糖尿病の管理指導用アプリ（SMC-01）を共同開発する契約の記録。製品そのものの記録は「2型糖尿病の治療用アプリ（SMC-01）」。",
     "hp": "",
     "startedYear": 2020,
-    "status": "終了",
+    "status": "不明",
     "startedAt": "2020-08",
     "milestones": [
       {
@@ -858,10 +859,7 @@
         "text": "治験結果がJMIRに掲載。主要評価項目（12週時点のHbA1c変化量の群間差）は-0.11%（P=.11）で、統計的有意差を示せなかった"
       }
     ],
-    "endReasons": [
-      "evidence"
-    ],
-    "endReasonNote": "国内治験で主要評価項目のHbA1c改善に有意差が出なかったと論文で公表。著者は行動変容の不足とアプリが有効に使われた割合の低さを可能性に挙げる。中止の正式告知は未確認。",
+    "endReasonNote": "国内治験（jRCT2032200033）は研究終了となり、結果論文（2024年9月）で主要評価項目のHbA1c改善に有意差は出なかった。共同開発の契約が終わったか、開発が中止されたかの発表は確認できない。",
     "lessons": "治療用アプリは製薬と組んでも、治験で主要評価項目に差が出なければ申請に進めない。アプリが実際に使い続けられた割合の低さが、臨床指標の差を打ち消しうる。",
     "sources": [
       "https://kyodonewsprwire.jp/release/202008032733",
@@ -869,20 +867,11 @@
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC11429663/",
       "https://jrct.mhlw.go.jp/latest-detail/jRCT2032200033"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "lifestyle-disease-app",
-    "endReasonInfo": {
-      "sources": [
-        "報道"
-      ],
-      "stated": "明示あり",
-      "interpretation": "なし"
-    },
-    "after": {
-      "event": "提供終了",
-      "fate": "提供終了",
-      "asOf": "2026-10"
-    }
+    "kind": "contract",
+    "relatedServiceId": "b-fe386fa0",
+    "endReasonCaveat": "共同開発の契約が終わったこと・開発を中止したことを示す会社の発表は見つかっていない。治験の結果だけから「終了」とはしていない。"
   },
   {
     "id": "b-6256ff19",
@@ -1556,10 +1545,11 @@
     "updatedAt": "2026-11",
     "type": "imaging-modality",
     "plannedEnd": {
-      "kind": "終了",
+      "kind": "販売終了",
       "date": "2026-12",
-      "announcedAt": "2026-02",
-      "note": "生産終了は2026年9月（予定）、販売終了は2026年12月（予定）。保守サポートは2031年12月末まで"
+      "announcedAt": "2026-02-20",
+      "note": "2026年2月20日の発表で、生産終了は2026年9月末、販売終了は2026年12月末の予定（生産終了の実施は未確認）。保守サポートは2031年12月末まで続ける予定",
+      "source": "https://www.jvckenwood.com/content/dam/jvckenwood/jp/pdf/jvckenwood-press-20260220-01-ja.pdf"
     }
   },
   {
@@ -3145,12 +3135,14 @@
     },
     "after": {
       "event": "契約終了",
-      "fate": "製品は提供継続（メドレーが単独で提供。clinics）",
+      "fate": "同一サービス継続（運営会社が変更）",
       "asOf": "2026-11",
-      "sourceDate": "2024-02"
+      "sourceDate": "2024-02",
+      "note": "共同運営の契約が終わり、CLINICS はメドレーが単独で提供を続ける"
     },
     "kind": "contract",
-    "relatedServiceId": "clinics"
+    "relatedServiceId": "clinics",
+    "afterLocked": true
   },
   {
     "id": "b-db7cf733",
@@ -7659,7 +7651,7 @@
     },
     "after": {
       "event": "事業譲渡（吸収分割）",
-      "fate": "同一サービス継続（運営法人が変更）",
+      "fate": "同一サービス継続（運営会社が変更）",
       "asOf": "2026-11",
       "sourceDate": "2024-08"
     },
@@ -15322,7 +15314,7 @@
   {
     "id": "b-b96c399c",
     "name": "介護・看護スポットワーク「Ucare（ユーケア）」",
-    "company": "株式会社USEN WORKING（USEN-NEXT GROUP）→ 株式会社メドレー",
+    "company": "株式会社USEN WORKING（USEN-NEXT GROUP）",
     "category": "recruting-solutions",
     "description": "介護施設・医療機関と介護職・看護師を、面接なしで数時間〜1日単位でマッチングするアプリ。施設側の手数料で収益を得る。飲食向けの単発バイト事業のノウハウを介護に転用した。",
     "hp": "",
@@ -61068,7 +61060,7 @@
     "startedAt": "2023-04",
     "endedAt": "2024-04",
     "endReasons": [
-      "unknown"
+      "funding"
     ],
     "sources": [
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/305ADBZX00032000_A_01",
@@ -61105,10 +61097,11 @@
         "報道"
       ],
       "stated": "経過だけ",
-      "interpretation": "なし",
+      "interpretation": "推定を含む",
       "inferred": [
         "funding"
-      ]
+      ],
+      "inferredNote": "報道で、販売の中止の翌月に破産手続きが始まったと伝えられているため「資金が続かない」と分類した。会社による理由の説明は確認できない"
     },
     "after": {
       "event": "提供終了",
@@ -92839,8 +92832,8 @@
     },
     "after": {
       "event": "販売終了",
-      "fate": "販売終了（保守の状況は未確認）",
-      "note": "公表された保守終了期日は2025-03-31。期日どおり終えたかは未確認",
+      "fate": "未確認",
+      "note": "新規販売は2018年3月末で終了。公表された保守終了期日は2025-03-31で、期日どおり終えたかは未確認",
       "asOf": "2026-11",
       "sourceDate": "2018-03"
     },
@@ -92848,7 +92841,8 @@
       "date": "2018-03-31",
       "maintenance": "未確認",
       "maintenanceEndAnnounced": "2025-03-31"
-    }
+    },
+    "afterLocked": true
   },
   {
     "id": "b-797185f2",

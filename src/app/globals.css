@@ -281,7 +281,7 @@ main { min-height: 50vh; }
 /* =====================================================================
    下層ページ（既存のクラス名をこのデザインに合わせる）
    ===================================================================== */
-.page { padding: 40px 0 72px; }
+.page { padding-top: 40px; padding-bottom: 72px; } /* 左右の余白は .container に任せる（スマホで 16px） */
 .section { margin: 0 0 48px; }
 .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; padding-bottom: 12px; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
 .section-head h2 { font-family: var(--serif); font-size: 24px; font-weight: 700; }
@@ -1218,3 +1218,34 @@ ul.fh-ev .t small { color: var(--muted); margin-left: 4px; }
 .bm-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; align-items: center; }
 .bm-filters select { font: inherit; font-size: 13px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card, #fff); color: inherit; }
 .bm-members a { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; }
+
+/* 事業のページ群の点検（2026-11）で足したもの */
+/* 年表：スマホで横スクロールしても、年の目盛りが棒と同じ縮尺になるように（行は min-width 760px、ラベル列 260px／スマホ 160px） */
+.tc-axis { min-width: 500px; }
+@media (max-width: 760px) { .tc-axis { min-width: 600px; } }
+.tc-legend { flex-wrap: wrap; }
+.tc-legend .st-不明::before { background: var(--muted-2); }
+/* 止まった事業で終了時期が分からない棒：薄れて消える */
+.tc-bar.noend { -webkit-mask-image: linear-gradient(90deg, #000 0, rgba(0,0,0,.6) 50%, rgba(0,0,0,0) 100%); mask-image: linear-gradient(90deg, #000 0, rgba(0,0,0,.6) 50%, rgba(0,0,0,0) 100%); }
+.tc-legend .noend::before { background: linear-gradient(90deg, #c97c7c, rgba(201,124,124,0)); }
+/* 運営会社が変わり、サービスは続いているもの */
+.tc-bar.cont { opacity: .35; }
+.tc-legend .cont::before { background: var(--teal); opacity: .35; }
+/* 止まった理由が確認できていないもの（灰色） */
+.chip.unk { color: var(--muted); }
+/* 止まった事業と、その理由：スマホでは表を横に広げ、理由の列が細くなりすぎないように */
+@media (max-width: 760px) { .bt-stop { min-width: 720px; } .bt-stop td:last-child { min-width: 240px; } }
+/* 準備中の段階のうち、開発が続いているか分からないもの（治験中止・治験終了・発表のみ）：目盛りなしの灰色 */
+.stage-stalled { background: #eef0f4; color: #4a5468; border: 1px dashed #b7bdc8; }
+:root[data-theme='dark'] .stage-stalled { background: #2a2f38; color: #c3c9d4; border-color: #555c68; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme='light']) .stage-stalled { background: #2a2f38; color: #c3c9d4; border-color: #555c68; } }
+/* 止まった事業のページの冒頭の内訳 */
+.stop-summary { grid-template-columns: 12em 1fr; margin-top: 14px; font-size: 13px; }
+.stop-summary .basis { margin-right: 6px; }
+@media (max-width: 760px) { .stop-summary { grid-template-columns: 1fr; gap: 2px 0; } .stop-summary dd { margin-bottom: 8px; } }
+/* 事業のしくみで比べる：スマホでは提供状況を事業名の下にも出す（表の右端の列は画面の外になるため） */
+.bm-st-m { display: none; }
+.bm-scroll-hint { display: none; font-size: 12px; color: var(--muted); margin: 0 0 6px; }
+@media (max-width: 760px) { .bm-st-m { display: block; margin: 4px 0; } .bm-scroll-hint { display: block; } }
+/* 事業データベース：まとまりの説明 */
+.tx-group small { font-weight: 400; color: var(--muted); margin-left: 8px; font-size: 12px; letter-spacing: 0; }
