@@ -80,6 +80,9 @@ export function BusinessModelPanel({ m }: { m: BusinessModel }) {
         ) : <p className="bm-unk">製品単体で確かめた実績はありません（未確認）</p>}
         {refs.length > 0 && <p className="bm-ref"><b>参考（製品単体の実績ではない数字）</b>{refs.map((a) => <span key={a.metric + a.asOf}>{a.metric}：{a.value}{a.asOf ? `（${a.asOf}）` : ''}。{a.definition}{a.source && <a className="bm-src" href={a.source.url} target="_blank" rel="noreferrer">出典</a>}</span>)}</p>}
       </div>
+      {m.sourcesChecked && (
+        <p className="bm-checked small muted">確かめた公式資料（{ymd(m.sourcesChecked.checkedAt)}）：{([['pricing', '料金'], ['faq', 'FAQ'], ['tokushoho', '特商法表記'], ['terms', '利用規約'], ['appStore', 'アプリストア']] as const).map(([k, l], i) => { const v = m.sourcesChecked?.[k]; const url = v && /^https?:/.test(v) ? v.split(/[\s,、]/)[0] : null; return <span key={k}>{i ? '・' : ''}{url ? <a href={url} target="_blank" rel="noreferrer">{l}</a> : <>{l}（{v && !/^https?:/.test(v) ? '無し' : '未確認'}）</>}</span>; })}</p>
+      )}
       <details className="bm-sources" id="bm-sources"><summary>この欄の出典（{uniq.length}件）</summary>
         <ol>{uniq.map((s) => <li key={s.url}><a href={s.url} target="_blank" rel="noreferrer">{s.publisher || s.url.replace(/^https?:\/\//, '').slice(0, 60)}</a>{s.published && !/未確認|不明/.test(s.published) ? <small>（{s.published}）</small> : null}</li>)}</ol>
       </details>

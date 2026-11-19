@@ -373,6 +373,8 @@ export type BusinessModel = {
   recordKind?: 'product' | 'group' | 'contract';
   members?: { name: string; existingId?: string; status?: string; stage?: string; regulatory?: string; startedAt?: string; hp?: string; sources?: BmSource[] }[];
   aiUse?: { value: string; detail?: string; sources?: BmSource[] };
+  /** 確かめた公式資料（料金ページ・FAQ・特商法表記・利用規約・アプリストア）。開いた URL か「無し」 */
+  sourcesChecked?: { pricing?: string; faq?: string; tokushoho?: string; terms?: string; appStore?: string; checkedAt?: string };
   problem?: { domain?: string; who?: string; situation?: string; sources?: BmSource[] };
   offering?: { values: string[]; detail?: string; sources?: BmSource[] };
   roles?: Partial<Record<'developer' | 'mah' | 'seller' | 'operator' | 'brandOwner' | 'operatorUser' | 'outputUser' | 'subject' | 'supplier' | 'recommender' | 'contractor' | 'directPayer' | 'finalBearer' | 'userPaysTo', string[]>> & { sources?: BmSource[] };
