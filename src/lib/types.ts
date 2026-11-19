@@ -157,7 +157,7 @@ export type Service = {
   endReasons?: string[];
   endReasonNote?: string;
   /** 止まった理由の出どころ。情報源・理由の記載・編集上の解釈を分けて持つ（scripts/classify-end-basis.mjs） */
-  endReasonInfo?: { sources: ('会社発表' | '行政資料' | '信用調査' | '報道')[]; stated: '明示あり' | '経過だけ' | '非公表（会社が明示）' | '理由を確認できていない'; interpretation: 'なし' | '推定を含む'; inferred?: string[]; locked?: boolean };
+  endReasonInfo?: { sources: ('会社発表' | '行政資料' | '信用調査' | '報道')[]; stated: '明示あり' | '経過だけ' | '非公表（会社が明示）' | '理由を確認できていない'; interpretation: 'なし' | '推定を含む'; inferred?: string[]; locked?: boolean; statedNote?: string; inferredNote?: string };
   /**
    * 止まったあと。event は起きた出来事（法人合併・事業譲渡・株式譲渡・販売終了 など）、
    * fate はサービスの扱い（同一サービス継続／別サービスへ移行／一部継続／提供終了／休止中／未確認）。

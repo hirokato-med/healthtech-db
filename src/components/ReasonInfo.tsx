@@ -7,6 +7,7 @@ export function ReasonInfo({ i, compact }: { i: NonNullable<Service['endReasonIn
       <span><i>情報源</i>{i.sources.length ? i.sources.map((x) => <b key={x} className={`basis basis-${x}`}>{x}</b>) : <b className="basis">—</b>}</span>
       <span><i>理由の記載</i><b className="basis">{i.stated}</b></span>
       {(!compact || i.interpretation !== 'なし') && <span><i>編集上の解釈</i><b className={`basis${i.interpretation === '推定を含む' ? ' basis-推定' : ''}`}>{i.interpretation}</b></span>}
+      {!compact && i.inferredNote && <span className="reason-guess"><i>推定</i>{i.inferredNote}</span>}
     </p>
   );
 }

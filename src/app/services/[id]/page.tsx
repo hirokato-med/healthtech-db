@@ -52,6 +52,8 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
         </div>
         <div className="chips" style={{ marginTop: 8 }}><DeviceTag s={s} /><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
         <p className="lead">{s.description}</p>
+        {s.kind === 'group' && s.members?.length ? <p className="co-scope"><b>事業群の記録</b>複数の製品をまとめた記録です。状態・薬事・開始時期は製品ごとのページで見られます：{s.members.map((id) => getService(id)).filter(Boolean).map((r, i) => <span key={r!.id}>{i ? '、' : ''}<Link href={`/services/${r!.id}/`}>{r!.name}</Link>（{statusLabel(r!)}）</span>)}</p> : null}
+        {s.groupId && (() => { const g = getService(s.groupId!); return g ? <p className="co-scope"><b>事業群</b>この製品は<Link href={`/services/${g.id}/`}>{g.name}</Link>に含まれます。</p> : null; })()}
         {s.kind === 'contract' && s.relatedServiceId && (() => { const r = getService(s.relatedServiceId!); return r ? <p className="co-scope"><b>契約の記録</b>これは製品そのものではなく、提携・販売権の契約の記録です。製品のページ：<Link href={`/services/${r.id}/`}>{r.name}</Link>（{statusLabel(r)}）</p> : null; })()}
       </div>
       <div className="two-col">

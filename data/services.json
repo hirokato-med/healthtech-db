@@ -23233,7 +23233,11 @@
     ],
     "updatedAt": "2026-10",
     "type": "clinic-chain-operation",
-    "startBasis": "変更なし（既存値：西葛西で開院）"
+    "startBasis": "変更なし（既存値：西葛西で開院）",
+    "kind": "group",
+    "members": [
+      "b-0e902616"
+    ]
   },
   {
     "id": "b-0e902616",
@@ -23250,7 +23254,8 @@
       "https://www.mnys.jp/company"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-chain-operation"
+    "type": "clinic-chain-operation",
+    "groupId": "b-9bf730f1"
   },
   {
     "id": "b-a168ef7d",
@@ -23996,7 +24001,12 @@
     ],
     "updatedAt": "2026-10",
     "type": "pediatric-perinatal-support",
-    "startedAt": "2015-08"
+    "startedAt": "2015-08",
+    "kind": "group",
+    "members": [
+      "b-874bedd1",
+      "b-43559f88"
+    ]
   },
   {
     "id": "b-43559f88",
@@ -24014,7 +24024,8 @@
     ],
     "updatedAt": "2026-10",
     "type": "pediatric-perinatal-support",
-    "startedAt": "2017-03"
+    "startedAt": "2017-03",
+    "groupId": "b-c2674457"
   },
   {
     "id": "b-874bedd1",
@@ -24046,7 +24057,8 @@
         "text": "iOS版をリニューアル",
         "source": "https://prtimes.jp/main/html/rd/p/000000011.000008105.html"
       }
-    ]
+    ],
+    "groupId": "b-c2674457"
   },
   {
     "id": "b-262abcca",
@@ -27320,7 +27332,11 @@
       "https://rehabforjapan.com/service/"
     ],
     "updatedAt": "2026-10",
-    "type": "care-record-careplan-software"
+    "type": "care-record-careplan-software",
+    "kind": "group",
+    "members": [
+      "b-b569cc82"
+    ]
   },
   {
     "id": "b-b569cc82",
@@ -27346,7 +27362,8 @@
         "text": "「Rehab Cloud レセプト」「Rehab Cloud デイリー」が2024年度グッドデザイン賞を受賞",
         "source": "https://rehabforjapan.com/company/"
       }
-    ]
+    ],
+    "groupId": "b-41a04de9"
   },
   {
     "id": "b-fc85f398",
