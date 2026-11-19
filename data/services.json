@@ -3618,7 +3618,8 @@
     "lessons": "法人・自治体・保険会社・通信回線契約者など、利用者本人以外が払う経路を重ねて伸ばしている。撤退したLINEの健康相談・オンライン診療の受け皿にもなった。",
     "type": "doctor-chat-consultation",
     "endReasonNote": "提供中のため該当なし。",
-    "formerName": "HELPO（ヘルポ）／HELPOドクター"
+    "formerName": "HELPO（ヘルポ）／HELPOドクター",
+    "kind": "group"
   },
   {
     "id": "b-498b4d7b",
@@ -7372,9 +7373,8 @@
     "description": "大阪の旧アイソルが自社開発し、診療所に販売・導入・保守まで提供したオンプレミス型の一体型電子カルテ。診療科ごとのカスタマイズと他社システムからのデータ移行を強みとした。",
     "hp": "",
     "startedYear": 2020,
-    "status": "統合",
+    "status": "提供中",
     "startedAt": "2020-02",
-    "endedAt": "2025-08",
     "successor": "GMOヘルステック株式会社（ハヤブサとして継続）",
     "milestones": [
       {
@@ -7419,7 +7419,13 @@
       "event": "法人合併",
       "fate": "同一サービス継続（運営会社が変更）",
       "asOf": "2026-10"
-    }
+    },
+    "pastEvents": [
+      {
+        "date": "2025-08",
+        "text": "法人合併"
+      }
+    ]
   },
   {
     "id": "b-bce62dc9",
@@ -14819,8 +14825,7 @@
     "description": "高知の会社が約20年提供してきた中小病院・有床診療所向けの低価格電子カルテ。メドレーが買収して病院向け市場に参入し、2025年9月の吸収合併後はメドレーが提供を続け、2026年8月には厚労省の標準仕様に準拠したクラウド版「MALLクラウド」を2027年1月以降に段階提供する予定と発表した。",
     "hp": "",
     "startedYear": null,
-    "status": "統合",
-    "endedAt": "2025-09",
+    "status": "提供中",
     "successor": "株式会社メドレー（「MALL」として提供継続）",
     "milestones": [
       {
@@ -14902,7 +14907,14 @@
       "fate": "同一サービス継続（運営会社が変更）",
       "asOf": "2026-10",
       "sourceDate": "2026-08"
-    }
+    },
+    "kind": "group",
+    "pastEvents": [
+      {
+        "date": "2025-09",
+        "text": "サービス統合"
+      }
+    ]
   },
   {
     "id": "b-07c67bdb",
@@ -79012,7 +79024,8 @@
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
     },
-    "companyId": "8010501030529"
+    "companyId": "8010501030529",
+    "kind": "group"
   },
   {
     "id": "b-f4da844d",
@@ -121398,7 +121411,7 @@
     "description": "中国Infervision社の胸部CT解析AIで、COVID-19肺炎に見られる所見を有する可能性を示して肺炎の画像診断を支援するプログラム。2020年に承認された。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2020-06",
     "milestones": [
       {
@@ -121518,7 +121531,7 @@
     "description": "韓国の医療AI企業JLKの脳MR・脳CT画像解析ソフト群。拡散強調像や灌流画像などから脳梗塞・出血・灌流異常を解析して示し、急性期脳卒中の診断を支援する。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2024",
     "milestones": [
       {
@@ -121582,7 +121595,9 @@
       "checkedAt": "2026-10",
       "kind": "認証",
       "number": "306ALBZI00002000"
-    }
+    },
+    "kind": "group",
+    "stage": "承認取得済み"
   },
   {
     "id": "b-6a914437",
@@ -123097,7 +123112,8 @@
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
     },
-    "groupId": "eirl"
+    "groupId": "eirl",
+    "kind": "group"
   },
   {
     "id": "b-d5f30ab3",
@@ -129961,7 +129977,8 @@
       "classLabel": "クラスII",
       "jmdn": "70030012",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-b57f063d",
@@ -131360,7 +131377,8 @@
       "classLabel": "クラスII",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-f84751bc",

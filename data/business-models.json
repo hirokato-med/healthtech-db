@@ -38054,5 +38054,5585 @@
    "appStore": "無し（アプリなし）",
    "checkedAt": "2026-11-19"
   }
+ },
+ "b-91fd0404": {
+  "id": "b-91fd0404",
+  "name": "JLK 脳卒中画像解析プログラム群（JLK-DWI／FLAIR／GRE／PWI／SWI／CTP／NCCT）",
+  "checkedAt": "2026-11-19",
+  "entity": "株式会社JLK Japan（韓国 JLK, Inc. の日本法人。7製品の選任製造販売業者。東京都中央区日本橋室町3-2-1）",
+  "recordKind": "group",
+  "members": [
+   {
+    "name": "脳CT画像解析プログラム JLK-CTP",
+    "status": "承認取得済み・提供状況未確認",
+    "stage": "承認取得済み・提供状況未確認",
+    "regulatory": "認証 306ALBZI00002000（X線画像診断装置ワークステーション用プログラム、管理医療機器・クラスII）。JLK Japan 版の電子添文は 2025-09 第1版・2026-04 第2版",
+    "startedAt": "未確認（2024-11-19 に認証取得を発表）",
+    "hp": "",
+    "sources": [
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_306ALBZI00002000_A_02_02",
+      "publisher": "PMDA（電子添文・JLK Japan）",
+      "published": "2026-04"
+     },
+     {
+      "url": "https://www.atpress.ne.jp/news/417648",
+      "publisher": "JLK株式会社（@Press）",
+      "published": "2024-11-19"
+     }
+    ],
+    "note": "灌流低下領域・ピーク信号遅延領域の体積と差・比率を計測。電子添文に AI・機械学習の記載はない"
+   },
+   {
+    "name": "脳MR画像解析プログラム JLK-PWI",
+    "status": "承認取得済み・提供状況未確認",
+    "stage": "承認取得済み・提供状況未確認",
+    "regulatory": "認証 306ALBZI00003000（MR装置ワークステーション用プログラム）。JLK Japan 版の電子添文は 2025-09 第1版・2026-04 第2版",
+    "startedAt": "未確認（2024-11-19 に認証取得を発表）",
+    "hp": "",
+    "sources": [
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_306ALBZI00003000_A_02_02",
+      "publisher": "PMDA（電子添文・JLK Japan）",
+      "published": "2026-04"
+     }
+    ],
+    "note": "電子添文に AI・機械学習の記載はない"
+   },
+   {
+    "name": "脳NCCT画像診断プログラム JLK-NCCT",
+    "status": "承認取得済み・提供状況未確認",
+    "stage": "承認取得済み・提供状況未確認",
+    "regulatory": "認証 307AGBZI00001000（汎用画像診断装置ワークステーション用プログラム）。電子添文 2024-10 第1版、2026-04 第3版",
+    "startedAt": "未確認",
+    "hp": "",
+    "sources": [
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00001000_A_02_03",
+      "publisher": "PMDA（電子添文・JLK Japan）",
+      "published": "2026-04"
+     }
+    ],
+    "note": "電子添文に「事前に機械学習された人工知能のアルゴリズム」"
+   },
+   {
+    "name": "脳MR画像診断プログラム JLK-FLAIR",
+    "status": "承認取得済み・提供状況未確認",
+    "stage": "承認取得済み・提供状況未確認",
+    "regulatory": "認証 307AGBZI00006000（MR装置ワークステーション用プログラム）。電子添文 2024-12 第1版（製造販売業者 アドバンスジャパン）、2026-04 第2版（選任製造販売業者 JLK Japan）",
+    "startedAt": "未確認",
+    "hp": "",
+    "sources": [
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00006000_A_02_02",
+      "publisher": "PMDA（電子添文・JLK Japan）",
+      "published": "2026-04"
+     }
+    ],
+    "note": "電子添文に機械学習の人工知能アルゴリズムの記載"
+   },
+   {
+    "name": "脳MR画像診断プログラム JLK-DWI",
+    "status": "承認取得済み・提供状況未確認",
+    "stage": "承認取得済み・提供状況未確認",
+    "regulatory": "認証 307AGBZI00007000（MR装置ワークステーション用プログラム）。電子添文 2024-12 第1版（製造販売業者 アドバンスジャパン株式会社）、2026-04 第2版（選任製造販売業者 JLK Japan、クラウドでの使用を追加）",
+    "startedAt": "未確認",
+    "hp": "",
+    "sources": [
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00007000_A_02_02",
+      "publisher": "PMDA（電子添文・JLK Japan）",
+      "published": "2026-04"
+     },
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/580864_307AGBZI00007000_A_01_01",
+      "publisher": "PMDA（電子添文・アドバンスジャパン）",
+      "published": "2024-12"
+     }
+    ],
+    "note": "旧名 JBS-01K。DWI の高信号領域の体積を AI で計算"
+   },
+   {
+    "name": "脳MR画像診断プログラム JLK-GRE",
+    "status": "承認取得済み・提供状況未確認",
+    "stage": "承認取得済み・提供状況未確認",
+    "regulatory": "認証 307AGBZI00009000（MR装置ワークステーション用プログラム）。電子添文 2025-01 第1版（アドバンスジャパン）、2026-04 第2版（JLK Japan）",
+    "startedAt": "未確認",
+    "hp": "",
+    "sources": [
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00009000_A_02_02",
+      "publisher": "PMDA（電子添文・JLK Japan）",
+      "published": "2026-04"
+     }
+    ]
+   },
+   {
+    "name": "脳MR画像診断プログラム JLK-SWI",
+    "status": "承認取得済み・提供状況未確認",
+    "stage": "承認取得済み・提供状況未確認",
+    "regulatory": "認証 307AGBZI00015000（MR装置ワークステーション用プログラム）。電子添文 2025-05 第1版、2026-04 第2版（JLK Japan）",
+    "startedAt": "未確認",
+    "hp": "",
+    "sources": [
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00015000_A_01_02",
+      "publisher": "PMDA（電子添文・JLK Japan）",
+      "published": "2026-04"
+     }
+    ]
+   }
+  ],
+  "problem": {
+   "domain": "急性期脳卒中の画像診断（脳CT・脳MRI の灌流・拡散・出血の解析）",
+   "who": "脳卒中を診る救急・脳神経内科・脳神経外科の医師と放射線科医",
+   "situation": "発症から治療までの時間が限られる中で、CT・MRI から梗塞・灌流低下・出血の範囲を素早く把握して治療方針を決める必要がある。",
+   "sources": [
+    {
+     "url": "https://www.atpress.ne.jp/news/417648",
+     "publisher": "JLK株式会社（@Press）",
+     "published": "2024-11-19"
+    },
+    {
+     "url": "https://www.jlkgroup.com/jp",
+     "publisher": "JLK（日本語サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "韓国 JLK の脳卒中画像解析プログラム（JLK-CTP・PWI・NCCT・FLAIR・DWI・GRE・SWI）。電子添文ではクラウド環境で使うか汎用 IT 機器にインストールし、院内 PACS と結合して使う（専用のハードウェアは付かない）。自動診断機能は持たない。グローバルでは「MEDIHUB STROKE」（CT/CTA/CTP/MRI/MRA とモバイルアプリ）として展開。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00007000_A_02_02",
+     "publisher": "PMDA（電子添文 JLK-DWI）",
+     "published": "2026-04"
+    },
+    {
+     "url": "https://www.jlkgroup.com/jp",
+     "publisher": "JLK（日本語サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "JLK, Inc.（韓国。電子添文の外国製造業者）"
+   ],
+   "mah": [
+    "株式会社JLK Japan（7製品の選任製造販売業者。DWI・FLAIR・GRE の電子添文第1版〔2024-12〜2025-01〕はアドバンスジャパン株式会社が製造販売業者）"
+   ],
+   "seller": [
+    "未確認（JLK は 2026-09 に関東・関西・北海道・東北・中部・信越の地域販売代理店5社を確保し、日本法人の直販と代理店販売を行うと発表。2026-03 の証券会社の見通し記事は丸紅グループの医療機器販売子会社との協業を挙げる。代理店の社名は未公表）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医師・診療放射線技師"
+   ],
+   "outputUser": [
+    "脳卒中を診る医師・放射線科医"
+   ],
+   "subject": [
+    "脳卒中が疑われる患者（画像が解析される）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "未確認"
+   ],
+   "directPayer": [
+    "未確認"
+   ],
+   "finalBearer": [],
+   "userPaysTo": [],
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/580864_307AGBZI00007000_A_01_01",
+     "publisher": "PMDA（電子添文 JLK-DWI 第1版・アドバンスジャパン）",
+     "published": "2024-12"
+    },
+    {
+     "url": "https://en.fnnews.com/news/202609011349244533",
+     "publisher": "Financial News（JLK 提供の記事）",
+     "published": "2026-09-01"
+    },
+    {
+     "url": "https://www.asiae.co.kr/en/article/2026030509440266017",
+     "publisher": "アジア経済（証券会社の見通し）",
+     "published": "2026-03-05"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "productSales": "未確認",
+   "productSalesDetail": "認証の取得と販売網の構築の発表までを確認。日本の医療機関での導入・販売の実績は資料で確認できない。",
+   "detail": "日本の料金・課金の形は公表されていない。韓国では病院に購読（サブスクリプション）方式で供給していると発表しているが、日本で同じ形かは未確認。",
+   "customerRecovery": [
+    "未確認"
+   ],
+   "recoveryDetail": "日本での販売先・価格が確認できないため未確認。製品に対応する保険点数はない。",
+   "unknown": "日本での販売収入の有無と課金の形（販売・購読・従量）、代理店経由のときの対価の流れ",
+   "sources": [
+    {
+     "url": "https://en.fnnews.com/news/202609011349244533",
+     "publisher": "Financial News（JLK 提供の記事）",
+     "published": "2026-09-01"
+    },
+    {
+     "url": "https://www.venturesquare.net/jp/1033732/",
+     "publisher": "VentureSquare（韓国の病院への購読方式の供給）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "未確認"
+   ],
+   "deal": [],
+   "delivery": [],
+   "detail": "2026-09 の JLK の発表：地域販売代理店5社（首都圏・全国はグローバル商社系の医療機器専門会社）を確保し、日本法人の直販と代理店の間接販売を行う。実際の販売・導入は確認できないため first は未確認とし、予定は plan に書く。",
+   "sources": [
+    {
+     "url": "https://en.fnnews.com/news/202609011349244533",
+     "publisher": "Financial News（JLK 提供の記事）",
+     "published": "2026-09-01"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "7製品とも管理医療機器（クラスII）の認証：JLK-CTP 306ALBZI00002000、JLK-PWI 306ALBZI00003000、JLK-NCCT 307AGBZI00001000、JLK-FLAIR 307AGBZI00006000、JLK-DWI 307AGBZI00007000、JLK-GRE 307AGBZI00009000、JLK-SWI 307AGBZI00015000。PMDA の一覧には DWI・FLAIR・GRE についてアドバンスジャパン版（2025-06 掲載）と JLK Japan 版（2026-05 掲載）の両方が載る。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/307AGBZI00007000_A_01",
+     "publisher": "PMDA（MR装置ワークステーション用プログラムの一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/306ALBZI00002000_A_02",
+     "publisher": "PMDA（X線画像診断装置ワークステーション用プログラムの一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/307AGBZI00001000_A_02",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラムの一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "国内での提供状況が分からない。製品に対応する点数・材料価格はない。2024-11 の発表が挙げる画像診断管理加算3 は施設に対する評価で、この製品に対応する点数ではない。",
+   "sources": [
+    {
+     "url": "https://www.atpress.ne.jp/news/417648",
+     "publisher": "JLK株式会社（@Press）",
+     "published": "2024-11-19"
+    }
+   ]
+  },
+  "stage": {
+   "value": "承認取得済み・提供状況未確認",
+   "detail": "7製品の認証と、2026-04 の電子添文改訂（選任製造販売業者を JLK Japan とする版）を確認。2026-09 に販売網の構築完了を発表したが、日本の医療機関への導入・販売開始の告知は確認できない。",
+   "sources": [
+    {
+     "url": "https://en.fnnews.com/news/202609011349244533",
+     "publisher": "Financial News（JLK 提供の記事）",
+     "published": "2026-09-01"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00007000_A_02_02",
+     "publisher": "PMDA（電子添文 JLK-DWI）",
+     "published": "2026-04"
+    }
+   ]
+  },
+  "activity": {
+   "value": "未確認",
+   "detail": "商業化に向けた動き（販売網の構築・電子添文の改訂）は確認できるが、日本での提供の開始・継続は資料で確かめられない。",
+   "signals": [
+    "7製品の認証を確認（2024〜2025 年の番号）",
+    "2026-04 に7製品の電子添文を改訂（JLK Japan を選任製造販売業者とする版。PMDA 掲載 2026-05）",
+    "2026-09-01 JLK が日本の地域販売代理店5社の確保と、直販・代理店販売の方針を発表",
+    "2026-03 の証券会社の見通し：日本で約500病院を目標、2026 年に約150病院への導入を見込む（予定値）",
+    "日本語サイト（jlkgroup.com/jp）は製品紹介と問い合わせ先のみで、日本の料金・申込ページはない",
+    "日本の医療機関への導入事例の発表は確認できない（発表は韓国の病院の事例）"
+   ],
+   "guess": "推定：2026 年後半から代理店経由の販売を始めている可能性がある（導入の告知は確認できず、ラベルにはしない）",
+   "sources": [
+    {
+     "url": "https://en.fnnews.com/news/202609011349244533",
+     "publisher": "Financial News（JLK 提供の記事）",
+     "published": "2026-09-01"
+    },
+    {
+     "url": "https://www.asiae.co.kr/en/article/2026030509440266017",
+     "publisher": "アジア経済",
+     "published": "2026-03-05"
+    },
+    {
+     "url": "https://www.jlkgroup.com/jp",
+     "publisher": "JLK（日本語サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "JLK-DWI・FLAIR・GRE・SWI・NCCT の電子添文に「事前に機械学習された人工知能（Artificial intelligence）のアルゴリズム」で領域を識別・計算と記載。会社は自らを医療 AI 企業とし、製品を「AIソリューション」と呼ぶ。JLK-CTP・PWI の電子添文には AI の記載はない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00007000_A_02_02",
+     "publisher": "PMDA（電子添文 JLK-DWI）",
+     "published": "2026-04"
+    },
+    {
+     "url": "https://www.atpress.ne.jp/news/417648",
+     "publisher": "JLK株式会社（@Press）",
+     "published": "2024-11-19"
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "日本の医療機関での導入数の公表を確認できず（販売開始を確認できないことから「実績なし」とはしない）",
+    "scope": "製品群（日本）",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   },
+   {
+    "metric": "日本での導入見込み（予定値）",
+    "definition": "証券会社の見通し：日本で約500病院を目標、2026 年に約150病院への導入を見込む。実績ではない",
+    "scope": "事業全体（日本）",
+    "value": "約150病院（2026年見込み）",
+    "asOf": "2026-03",
+    "source": {
+     "url": "https://www.asiae.co.kr/en/article/2026030509440266017",
+     "publisher": "アジア経済",
+     "published": "2026-03-05"
+    },
+    "ref": true
+   }
+  ],
+  "periods": [],
+  "plan": "2026-09 の発表：日本法人の直販と地域販売代理店5社の間接販売で、承認・認証済みの7製品を医療機関に導入する。料金・開始時期は未公表。",
+  "lastModel": {
+   "asOf": "2026-09",
+   "note": "2026-09 の販売網構築の発表時点で確認できた内容（製品・製造販売業者・販売の方針）。日本での収入・販売経路の実態は確認できていない"
+  },
+  "sourcesChecked": {
+   "pricing": "無し",
+   "faq": "無し",
+   "tokushoho": "無し",
+   "terms": "無し",
+   "appStore": "無し（日本向けアプリの配信は確認できず）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-e6cdb22f": {
+  "id": "b-e6cdb22f",
+  "name": "ハートフローFFRCT",
+  "checkedAt": "2026-11-19",
+  "entity": "ハートフロー・ジャパン合同会社（米 HeartFlow, Inc. の日本法人。製造販売業者）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "冠動脈疾患の診断（冠動脈 CT による FFR の算出）",
+   "who": "冠動脈疾患が疑われる安定した患者と、冠動脈 CT をオーダー・読影する循環器医・放射線科医",
+   "situation": "狭窄が血流を妨げているか（機能的な重症度）を、侵襲的な冠動脈造影・FFR を行わずに冠動脈 CT から評価したい。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/641250_22800BZX00418000_A_01_05",
+     "publisher": "PMDA（電子添文 ハートフローFFRCT）",
+     "published": "2025-10-18"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "診断・検査のサービス",
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "診断・検査のサービス：医療機関が冠動脈 CT データを「コネクト」から送ると、HeartFlow の解析施設で冠動脈の3次元モデルを作り数値流体力学解析で FFRCT を算出し、Web で結果を返す（平均5時間以内。2018 年の記者発表では自動作成したモデルを同社アナリストが検査・修正）。導入には「外部委託検査契約の締結」が必要。ソフト：承認品は循環動態解析プログラムで、医療機関はコネクト・Web から送信・閲覧する。",
+   "sources": [
+    {
+     "url": "https://jp.heartflow.com/introduction-process",
+     "publisher": "ハートフロー・ジャパン（FFRCT 検査導入）",
+     "published": ""
+    },
+    {
+     "url": "https://jp.heartflow.com/",
+     "publisher": "ハートフロー・ジャパン",
+     "published": ""
+    },
+    {
+     "url": "https://www.innervision.co.jp/sp/report/usual/20190104",
+     "publisher": "インナービジョン（保険収載の記者発表）",
+     "published": "2019-01-04"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "HeartFlow, Inc.（米国。主たる設計を行う製造業者）"
+   ],
+   "mah": [
+    "ハートフロー・ジャパン合同会社（承認 22800BZX00418000）"
+   ],
+   "seller": [
+    "ハートフロー・ジャパン（担当営業。外部委託検査契約）"
+   ],
+   "operator": [
+    "HeartFlow（解析施設で解析を実施）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "医療機関（CT データの送信）",
+    "HeartFlow のアナリスト（モデルの確認・修正）"
+   ],
+   "outputUser": [
+    "放射線科医・循環器内科医・心臓血管外科医（適応を判断しオーダーする医師）"
+   ],
+   "subject": [
+    "冠動脈疾患が疑われる臨床状態の安定した患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関（外部委託検査契約）"
+   ],
+   "directPayer": [
+    "医療機関（解析ごとの料金と考えられるが、日本の料金・契約条件は非公開）"
+   ],
+   "finalBearer": [
+    "医療機関（保険算定できるときは診療報酬で、できないときは自院の経費で）"
+   ],
+   "userPaysTo": [
+    "医療機関（患者は保険診療の自己負担分を医療機関に払う）"
+   ],
+   "sources": [
+    {
+     "url": "https://jp.heartflow.com/introduction-process",
+     "publisher": "ハートフロー・ジャパン（FFRCT 検査導入）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/641250_22800BZX00418000_A_01_05",
+     "publisher": "PMDA（電子添文）",
+     "published": "2025-10-18"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "従量課金（件数・回数・処方数）"
+   ],
+   "productSales": "あり",
+   "productSalesDetail": "日本で市販中（会社サイトに「FFRCT 分析は日本でも市販」、使用中施設のサポート窓口と医療機関検索）。",
+   "detail": "HeartFlow, Inc. の Form 10-K（2025年度、2026-03-18 提出）：主な収入は「医師が Heartflow FFRCT Analysis・Plaque Analysis を見ると選ぶたびに課金する pay-per-click」（全社の開示。日本の料金・単価は非公開）。同じ 10-K に、日本には小さな直販の営業チームがあるとの記載。日本では医療機関と外部委託検査契約を結ぶ（jp.heartflow.com の導入プロセス）。",
+   "customerRecovery": [
+    "対応する保険評価あり（条件付き）",
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "2018-12-01 に保険適用。いまは E200-2 血流予備量比コンピューター断層撮影解析 7,800点（令和8年度改定。施設基準の届出が必要で、月1回）。施設基準を満たさないときや適応外で使うときは医療機関の経費になる。保険評価があっても採算が保証されるわけではない。",
+   "unknown": "日本での1解析あたりの料金、日本法人が医療機関から直接受け取るのか（米国法人との契約なのか）",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1464521/000146452126000042/htfl-20251231x10k.htm",
+     "publisher": "HeartFlow, Inc.（Form 10-K 2025年度）",
+     "published": "2026-03-18"
+    },
+    {
+     "url": "https://jp.heartflow.com/introduction-process",
+     "publisher": "ハートフロー・ジャパン（FFRCT 検査導入）",
+     "published": ""
+    },
+    {
+     "url": "https://knowlety.jp/ika/e200-2/",
+     "publisher": "ナレティ（医科点数表 E200-2）",
+     "published": ""
+    },
+    {
+     "url": "https://www.innervision.co.jp/sp/report/usual/20190104",
+     "publisher": "インナービジョン（保険収載の記者発表）",
+     "published": "2019-01-04"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [
+    "医師のオーダー（放射線科医・循環器内科医・心臓血管外科医が適応を判断）"
+   ],
+   "detail": "導入は「弊社担当営業」に問い合わせ、外部委託検査契約の締結・施設基準の届出・データ転送のネットワーク設定を経る。代理店経由の販売は確認できない。患者向けには医療機関検索（地域別の実施施設一覧）を掲載。",
+   "sources": [
+    {
+     "url": "https://jp.heartflow.com/introduction-process",
+     "publisher": "ハートフロー・ジャパン（FFRCT 検査導入）",
+     "published": ""
+    },
+    {
+     "url": "https://jp.heartflow.com/patients/hospital-finder/",
+     "publisher": "ハートフロー・ジャパン（医療機関検索）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "ハートフローFFRCT：循環動態解析プログラム（管理医療機器・クラスII、JMDN 61213002）。2016-11-14 製造販売承認（新医療機器、22800BZX00418000）、2019-10-28・2024-05-02 承認事項一部変更承認。電子添文 2025-10-18 第4.0版。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/22800BZX00418000_A_01",
+     "publisher": "PMDA（医療機器 添付文書等情報）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0026.html",
+     "publisher": "PMDA（承認品目一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "関連する技術料（点数）あり"
+   ],
+   "detail": "E200-2 血流予備量比コンピューター断層撮影解析（令和8年度 7,800点）。施設基準を届け出た保険医療機関で、薬事承認を取得した FFR-CT 解析プログラムの解析結果を参照して CT 診断を行った場合に月1回算定。2018-12-01 の保険適用時は E200-2 血流予備量比コンピューター断層撮影として新設。",
+   "sources": [
+    {
+     "url": "https://knowlety.jp/ika/e200-2/",
+     "publisher": "ナレティ（医科点数表 E200-2）",
+     "published": ""
+    },
+    {
+     "url": "https://www.innervision.co.jp/sp/report/usual/20190104",
+     "publisher": "インナービジョン",
+     "published": "2019-01-04"
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://jp.heartflow.com/",
+     "publisher": "ハートフロー・ジャパン",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "日本向けサイト（jp.heartflow.com）で導入の問い合わせ、使用中施設のカスタマーサポート、医療機関検索を掲載（2026-11-19 閲覧）。電子添文を 2025-10-18 に改訂。旧ドメイン heartflow.jp・heartflow.co.jp は駐車中のページ（同社のサイトではない）。",
+   "signals": [
+    "jp.heartflow.com が公開中（問い合わせ・医療機関検索）",
+    "日本向けニュースルームの最新は 2024 年",
+    "電子添文 2025-10-18 第4.0版"
+   ],
+   "sources": [
+    {
+     "url": "https://jp.heartflow.com/",
+     "publisher": "ハートフロー・ジャパン",
+     "published": ""
+    },
+    {
+     "url": "https://jp.heartflow.com/newsroom/",
+     "publisher": "ハートフロー・ジャパン（ニュースルーム）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "2018 年の記者発表の記事に「解析には人工知能（AI）のディープラーニングの手法が用いられ、自動的に作成された冠動脈モデルを同社のアナリストが検査・修正」。会社のグローバルサイトも「AI analysis」と記載。FFR の算出自体は電子添文で数値流体力学（CFD）計算。",
+   "sources": [
+    {
+     "url": "https://www.innervision.co.jp/sp/report/usual/20190104",
+     "publisher": "インナービジョン",
+     "published": "2019-01-04"
+    },
+    {
+     "url": "https://www.heartflow.com/",
+     "publisher": "HeartFlow",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "国内の実施施設",
+    "definition": "日本向けサイトの医療機関検索に地域別の実施施設一覧がある（地域ごとに表示を切り替える形式で、全件の数は今回読み取れていない）",
+    "scope": "製品単体（日本）",
+    "value": "取得したが読み取り未完了",
+    "asOf": "2026-11",
+    "source": {
+     "url": "https://jp.heartflow.com/patients/hospital-finder/",
+     "publisher": "ハートフロー・ジャパン（医療機関検索）",
+     "published": ""
+    },
+    "ref": false
+   },
+   {
+    "metric": "世界の累計解析件数",
+    "definition": "2018-10-31 時点で2万5000件超に実施（全世界の累計）",
+    "scope": "会社全体（世界）",
+    "value": "2万5000件超",
+    "asOf": "2018-10",
+    "source": {
+     "url": "https://www.innervision.co.jp/sp/report/usual/20190104",
+     "publisher": "インナービジョン",
+     "published": "2019-01-04"
+    },
+    "ref": true
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "無し（日本の料金ページなし。https://jp.heartflow.com/introduction-process を確認）",
+   "faq": "無し",
+   "tokushoho": "無し",
+   "terms": "https://jp.heartflow.com/terms-of-use/",
+   "appStore": "無し",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-3053822c": {
+  "id": "b-3053822c",
+  "name": "COVID-19肺炎画像解析AIプログラム InferRead CT Pneumonia",
+  "checkedAt": "2026-11-19",
+  "entity": "株式会社CESデカルト（製造販売業者。法人番号 1010001180780。旧商号 U.N.デカルト）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "COVID-19 肺炎の画像診断（胸部CT）",
+   "who": "肺炎を診る医師・読影医（経験の少ない若手医師を含む）",
+   "situation": "感染拡大期に胸部CT の件数が増え、COVID-19 肺炎に見られる所見の拾い出しと読影の負担が大きい。",
+   "sources": [
+    {
+     "url": "https://www.mhlw.go.jp/content/11124500/000670341.pdf",
+     "publisher": "厚生労働省（COVID-19 肺炎の画像診断支援プログラムの承認について）",
+     "published": "2020-06-03"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "中国 Infervision の胸部CT 解析 AI。COVID-19 肺炎に見られる CT 画像所見を有する可能性を提示し（判定はしない）、肺葉ごとの着目領域の体積比率を計算、症例リストにフラグを示す。記録媒体で提供し汎用 IT 機器（Ubuntu）にインストール。Infervision Japan は 2021-01 の事例で、オンプレミスで GPU 専用サーバー（GDEP アドバンスの Inference BOX）とセットで提供する方式を採ったと説明。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/459512_30200BZX00184000_1_01_02",
+     "publisher": "PMDA（電子添文）",
+     "published": "2020-09-23"
+    },
+    {
+     "url": "https://www.gdep.co.jp/wp-content/themes/gdep/images/pdf/387.pdf",
+     "publisher": "GDEP アドバンス（導入事例 Infervision.Japan）",
+     "published": "2021-01"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "Infervision（北京。Infervision Technology）"
+   ],
+   "mah": [
+    "CESデカルト（承認 30200BZX00184000）"
+   ],
+   "seller": [
+    "未確認（Infervision.Japan〔東京都千代田区〕が国内での提供方式を説明。販売者としての契約関係は資料に無い）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医師・診療放射線技師"
+   ],
+   "outputUser": [
+    "読影する医師"
+   ],
+   "subject": [
+    "胸部CT を撮る患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "未確認"
+   ],
+   "directPayer": [
+    "未確認"
+   ],
+   "finalBearer": [],
+   "userPaysTo": [],
+   "sources": [
+    {
+     "url": "https://www.mhlw.go.jp/content/11124500/000670341.pdf",
+     "publisher": "厚生労働省",
+     "published": "2020-06-03"
+    },
+    {
+     "url": "https://www.gdep.co.jp/wp-content/themes/gdep/images/pdf/387.pdf",
+     "publisher": "GDEP アドバンス",
+     "published": "2021-01"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "productSales": "未確認",
+   "productSalesDetail": "承認と、2021-01 時点の提供方式の説明（救急診療室への導入はテスト段階）までを確認。販売の有無・価格は資料に無い。",
+   "detail": "課金の形は公表されていない。",
+   "customerRecovery": [
+    "未確認"
+   ],
+   "recoveryDetail": "販売先・価格が分からないため未確認。製品に対応する保険点数はない。",
+   "unknown": "製品の販売収入の有無、CESデカルトと Infervision.Japan の間の対価の流れ、専用サーバーとのセット価格",
+   "sources": [
+    {
+     "url": "https://www.gdep.co.jp/wp-content/themes/gdep/images/pdf/387.pdf",
+     "publisher": "GDEP アドバンス",
+     "published": "2021-01"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "未確認"
+   ],
+   "deal": [],
+   "delivery": [],
+   "detail": "製造販売業者 CESデカルトの公式サイトが見つからず、販売経路は確認できない。2021-01 の事例では Infervision.Japan が病院向けにオンプレミスの専用サーバーとセットで提供する方式を説明。",
+   "sources": [
+    {
+     "url": "https://www.gdep.co.jp/wp-content/themes/gdep/images/pdf/387.pdf",
+     "publisher": "GDEP アドバンス",
+     "published": "2021-01"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "2020-06-03 製造販売承認（改良医療機器・臨床なし、30200BZX00184000、管理医療機器・クラスII）、2020-08-11 承認事項一部変更承認（臨床あり）。電子添文の一般的名称は X線画像診断装置ワークステーション用プログラム（JMDN 40935012）。PMDA の検索では「超音波装置ワークステーション用プログラム」の一覧に掲載されている。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/459512_30200BZX00184000_1_01_02",
+     "publisher": "PMDA（電子添文）",
+     "published": "2020-09-23"
+    },
+    {
+     "url": "https://www.mhlw.go.jp/content/11124500/000670341.pdf",
+     "publisher": "厚生労働省",
+     "published": "2020-06-03"
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "提供状況が分からない。CT 読影の中で使う製品で、製品に対応する点数はない。",
+   "sources": [
+    {
+     "url": "https://www.mhlw.go.jp/content/11124500/000670341.pdf",
+     "publisher": "厚生労働省",
+     "published": "2020-06-03"
+    }
+   ]
+  },
+  "stage": {
+   "value": "提供状況未確認",
+   "detail": "2020-06 承認。2021-01 の事例で Infervision.Japan が国内での提供方式を説明し、ある病院の救急診療室への導入は「テスト段階」と記載。その後の販売・提供の資料は無く、製造販売業者のサイトも確認できない。",
+   "sources": [
+    {
+     "url": "https://www.gdep.co.jp/wp-content/themes/gdep/images/pdf/387.pdf",
+     "publisher": "GDEP アドバンス",
+     "published": "2021-01"
+    }
+   ]
+  },
+  "activity": {
+   "value": "未確認",
+   "detail": "終了を示す資料（終了告知・行政の記録）は無い。",
+   "signals": [
+    "CESデカルトの公式サイトを確認できない（ces-descartes.co.jp は接続できない。Web アーカイブにも記録なし。失効は確かめていない）",
+    "法人は存続（国税庁の法人番号公表サイト、最終更新 2023-08-10）",
+    "PMDA に電子添文（2020-09-23 第2版、PMDA 掲載 2022-12-14）が掲載されたまま",
+    "Infervision のグローバルサイトに InferRead CT Pneumonia の記載はあるが、製品ページの一覧には無い",
+    "Infervision.Japan の日本語サイト（infervision.co.jp）は接続できない",
+    "国内での販売終了の告知は確認できない"
+   ],
+   "guess": "推定：COVID-19 の流行収束とともに国内での提供は縮小した可能性がある（ラベルにはしない）",
+   "sources": [
+    {
+     "url": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1010001180780",
+     "publisher": "国税庁 法人番号公表サイト",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30200BZX00184000_1_01",
+     "publisher": "PMDA",
+     "published": ""
+    },
+    {
+     "url": "https://global.infervision.com",
+     "publisher": "Infervision",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "電子添文：畳み込みニューラルネットワークに基づく深層学習で得たセグメンテーションモデルを使う。販売名にも「AIプログラム」。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/459512_30200BZX00184000_1_01_02",
+     "publisher": "PMDA（電子添文）",
+     "published": "2020-09-23"
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "国内の導入施設数の公表を確認できず（2021-01 の事例で救急診療室への導入がテスト段階と記載）",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "lastModel": {
+   "asOf": "2021-01",
+   "note": "2021-01 の導入事例（Infervision.Japan）で確認できたモデル：病院にオンプレミスの専用サーバーとセットで提供する方式。料金・販売の実態は確認できていない"
+  },
+  "sourcesChecked": {
+   "pricing": "無し",
+   "faq": "無し",
+   "tokushoho": "無し",
+   "terms": "無し",
+   "appStore": "無し",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-ea5f9190": {
+  "id": "b-ea5f9190",
+  "name": "海綿骨構造指標ソフトウェア TBS iNsight／DXA三次元画像解析ソフトウェア 3D-SHAPER",
+  "checkedAt": "2026-11-19",
+  "entity": "東洋メディック株式会社（両製品の製造販売業者・販売元）",
+  "recordKind": "group",
+  "members": [
+   {
+    "name": "海綿骨構造指標ソフトウェア TBS iNsight",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "認証 227ADBZX00069000（骨X線吸収測定装置用プログラム、管理医療機器・クラスII）",
+    "startedAt": "未確認（認証番号の年号から 2015 年）",
+    "hp": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/tbs-insight/",
+    "sources": [
+     {
+      "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/tbs-insight/",
+      "publisher": "東洋メディック（製品ページ）",
+      "published": ""
+     },
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/480378_227ADBZX00069000_A_01_08",
+      "publisher": "PMDA（電子添文）",
+      "published": "2024-12"
+     }
+    ],
+    "note": "製造業者 Medimaps Group（スイス）。PMDA の改訂履歴に 2021-03-30「製販移転に伴う連絡先変更」。製品ページの認証番号表記は「227ADBZX0069000」（0 が1つ少ない誤記）"
+   },
+   {
+    "name": "DXA三次元画像解析ソフトウェア 3D-SHAPER",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "認証 230ADBZX00020000（骨X線吸収測定装置用プログラム、管理医療機器・クラスII）",
+    "startedAt": "未確認（認証番号の年号から 2018 年）",
+    "hp": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/3d_shaper/",
+    "sources": [
+     {
+      "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/3d_shaper/",
+      "publisher": "東洋メディック（製品ページ）",
+      "published": ""
+     },
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/480378_230ADBZX00020000_A_01_09",
+      "publisher": "PMDA（電子添文）",
+      "published": "2026-02"
+     }
+    ],
+    "note": "製造業者 3D SHAPER MEDICAL SL（スペイン）"
+   }
+  ],
+  "problem": {
+   "domain": "骨粗鬆症・骨折リスクの評価（DXA 骨密度測定の追加解析）",
+   "who": "骨粗鬆症を診る医師と、DXA を運用する医療機関",
+   "situation": "骨密度（面密度）だけでは骨の微細構造や立体的な分布が分からず、骨折リスクの評価に情報が足りない。",
+   "sources": [
+    {
+     "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/tbs-insight/",
+     "publisher": "東洋メディック",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "TBS iNsight：DXA 腰椎測定データのテクスチャー情報から海綿骨構造指標 TBS を算出し、FRAX に入力して TBS で調整した骨折リスクを計算できる（過去の DXA データも解析可）。3D-SHAPER：DXA 大腿骨2D画像に3D統計的モデルを位置合わせして患者固有の3Dモデルを作り、海綿骨・皮質骨の体積密度などを QCT のように解析。ライセンスは1台の DXA 装置にだけ有効。汎用パーソナルコンピュータで使う。",
+   "sources": [
+    {
+     "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/tbs-insight/",
+     "publisher": "東洋メディック",
+     "published": ""
+    },
+    {
+     "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/3d_shaper/",
+     "publisher": "東洋メディック",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "Medimaps Group（スイス。TBS iNsight）",
+    "3D SHAPER MEDICAL SL（スペイン。3D-SHAPER）"
+   ],
+   "mah": [
+    "東洋メディック（227ADBZX00069000・230ADBZX00020000）"
+   ],
+   "seller": [
+    "東洋メディック（本社営業部・各事業所）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "診療放射線技師・医師"
+   ],
+   "outputUser": [
+    "骨粗鬆症を診る医師"
+   ],
+   "subject": [
+    "DXA で骨密度を測る患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関（DXA 装置を持つ）"
+   ],
+   "directPayer": [
+    "医療機関（価格は問い合わせ）"
+   ],
+   "finalBearer": [
+    "医療機関（自院の経費）"
+   ],
+   "userPaysTo": [],
+   "sources": [
+    {
+     "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/3d_shaper/",
+     "publisher": "東洋メディック",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "ライセンス料・データ販売",
+    "保守料"
+   ],
+   "productSales": "あり",
+   "productSalesDetail": "医療従事者向け製品として掲載し、問い合わせ・見積を受け付けている。",
+   "detail": "3D-SHAPER の製品ページに「ライセンスは1台のDXA装置にのみ有効。異なるDXA装置のデータを解析する場合は追加のライセンスが必要」。両製品のページにサポートサービスとして無償保証期間内サービス・年間保守契約・スポットサービス。価格は非公開。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "医療機関が購入する。DXA による骨塩定量検査（保険診療・検診）の中で使い、製品に対応する点数は確認できない。",
+   "unknown": "ライセンスの価格と、買い切りか期間契約か。TBS iNsight のライセンス条件",
+   "sources": [
+    {
+     "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/3d_shaper/",
+     "publisher": "東洋メディック",
+     "published": ""
+    },
+    {
+     "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/tbs-insight/",
+     "publisher": "東洋メディック",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "未確認"
+   ],
+   "delivery": [],
+   "detail": "東洋メディックの製品ページから問い合わせ（本社営業部・近くの事業所）。直販か DXA 装置の販売店・代理店経由かは記載なし。",
+   "sources": [
+    {
+     "url": "https://www.toyo-medic.co.jp/products/ctg/bone-mineral-density",
+     "publisher": "東洋メディック（骨密度関連ソフトウェア一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "TBS iNsight（販売名：海綿骨構造指標ソフトウェア）認証 227ADBZX00069000、3D-SHAPER（販売名：DXA 三次元画像解析ソフトウェア）認証 230ADBZX00020000。いずれも骨X線吸収測定装置用プログラム（JMDN 37625032）、疾病診断用プログラム。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/480378_230ADBZX00020000_A_01_09",
+     "publisher": "PMDA（電子添文 3D-SHAPER）",
+     "published": "2026-02"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/480378_227ADBZX00069000_A_01_08",
+     "publisher": "PMDA（電子添文 TBS iNsight）",
+     "published": "2024-12"
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "DXA の骨塩定量検査の中で使う解析ソフト。製品に対応する点数・材料価格は確認できない（検診で使う場合は保険外）。",
+   "sources": [
+    {
+     "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/tbs-insight/",
+     "publisher": "東洋メディック",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://www.toyo-medic.co.jp/products/ctg/bone-mineral-density",
+     "publisher": "東洋メディック",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "製品ページを公開し問い合わせを受け付けている（2026-11-19 閲覧）。3D-SHAPER の電子添文を 2026-02 に改訂。",
+   "signals": [
+    "製品ページ公開中",
+    "3D-SHAPER 電子添文 2026-02 第9版",
+    "TBS iNsight 電子添文 2024-12 第8版"
+   ],
+   "sources": [
+    {
+     "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/3d_shaper/",
+     "publisher": "東洋メディック",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "製品ページ・電子添文は TBS（テクスチャー解析）と3D統計的モデルによる解析と説明し、AI・機械学習を使うとの記載はない（使わないとの明示もない）。領域の境界：AI の使用を確認できない画像ソフトとして、主な分類は医療画像・画像処理、AI 使用＝未確認。",
+   "sources": [
+    {
+     "url": "https://www.toyo-medic.co.jp/products/medical/bone-mineral-density/software/3d_shaper/",
+     "publisher": "東洋メディック",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/480378_230ADBZX00020000_A_01_09",
+     "publisher": "PMDA（電子添文）",
+     "published": "2026-02"
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "導入施設数の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "無し（価格は問い合わせ）",
+   "faq": "無し",
+   "tokushoho": "無し（医療従事者向けの法人取引）",
+   "terms": "無し",
+   "appStore": "無し",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-794249b7": {
+  "id": "b-794249b7",
+  "name": "ViewSend ICT（病院間の遠隔画像診断支援サービス・PACS）",
+  "checkedAt": "2026-11-19",
+  "entity": "ViewSend ICT株式会社（法人番号 8010501030529。主要株主 ムトウ・フジキンインターナショナル等）",
+  "recordKind": "group",
+  "members": [
+   {
+    "name": "遠隔画像診断支援サービス（病院と病院が連携する遠隔画像診断）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "ViewSendシステム 21700BZZ00385000（汎用画像診断装置ワークステーション用プログラム）",
+    "startedAt": "2009（月は未記載）",
+    "hp": "https://www.viewsend-ict.co.jp/%e9%81%a0%e9%9a%94%e8%aa%ad%e5%bd%b1/",
+    "sources": [
+     {
+      "url": "https://www.viewsend-ict.co.jp/%e9%81%a0%e9%9a%94%e8%aa%ad%e5%bd%b1/",
+      "publisher": "ViewSend ICT（遠隔画像診断支援サービス）",
+      "published": ""
+     },
+     {
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000126973.html",
+      "publisher": "ViewSend ICT",
+      "published": "2023-08-04"
+     }
+    ]
+   },
+   {
+    "name": "ViewSend PACS（医用画像管理システム）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "ViewSendシステム 21700BZZ00385000（同上）",
+    "startedAt": "未確認（導入事例の結城病院は 2006 年に PACS を導入）",
+    "hp": "https://www.viewsend-ict.co.jp/pacs/",
+    "sources": [
+     {
+      "url": "https://www.viewsend-ict.co.jp/pacs/",
+      "publisher": "ViewSend ICT（PACS）",
+      "published": ""
+     },
+     {
+      "url": "https://www.viewsend-ict.co.jp/",
+      "publisher": "ViewSend ICT",
+      "published": ""
+     }
+    ]
+   }
+  ],
+  "problem": {
+   "domain": "画像診断（CT・MRI の読影）の病院間連携",
+   "who": "常勤の放射線診断専門医を雇えない中小病院と、読影の受け皿となる大病院・拠点病院",
+   "situation": "非常勤の読影医が週1〜2回来るだけで患者への結果の通知が遅れ、専門外の読影に不安があり、画像診断管理加算も算定できない。",
+   "sources": [
+    {
+     "url": "https://www.viewsend-ict.co.jp/%e9%81%a0%e9%9a%94%e8%aa%ad%e5%bd%b1/",
+     "publisher": "ViewSend ICT",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "遠隔画像診断支援サービス：送信側の保険医療機関（中小病院）と、特掲診療料「遠隔画像診断」の施設基準を満たす受信側の保険医療機関（拠点病院6施設）をつなぐ画像伝送システムと運用支援。読影するのは受信側病院の常勤放射線診断専門医で、同社は読影しない（「企業主体の読影ではありません」）。施設基準の取得・届出の支援、受信側のシステム構築も行う。原則翌診療日にレポート返信。PACS：画像ファイリング・ビューイング・所見レポート作成、電子カルテ連携、遠隔画像診断支援への拡張。領域の境界：主な分類は医療画像のソフトと運用支援、関連＝遠隔読影（読影は医療機関）。",
+   "sources": [
+    {
+     "url": "https://www.viewsend-ict.co.jp/%e9%81%a0%e9%9a%94%e8%aa%ad%e5%bd%b1/",
+     "publisher": "ViewSend ICT",
+     "published": ""
+    },
+    {
+     "url": "https://www.viewsend-ict.co.jp/pacs/",
+     "publisher": "ViewSend ICT",
+     "published": ""
+    },
+    {
+     "url": "https://fundinno.com/projects/787",
+     "publisher": "FUNDINNO（ViewSend ICT 募集ページ）",
+     "published": "2026-10"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "ViewSend ICT（国立がん研究センターと共同開発）"
+   ],
+   "mah": [
+    "ViewSend ICT（ViewSendシステム 21700BZZ00385000）"
+   ],
+   "seller": [
+    "ViewSend ICT",
+    "ムトウ（2026-11-04 業務提携。導入提案から運用支援まで連携）"
+   ],
+   "operator": [
+    "ViewSend ICT（システムの構築・運用支援、病院間の調整）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "送信側医療機関の診療放射線技師・医師",
+    "受信側病院の放射線診断専門医"
+   ],
+   "outputUser": [
+    "送信側医療機関の主治医"
+   ],
+   "subject": [
+    "CT・MRI を撮る患者"
+   ],
+   "supplier": [
+    "受信側保険医療機関（拠点病院：牛久愛和総合病院・池上総合病院・総合南東北病院・大阪けいさつ病院など6施設。読影し画像診断料を受け取る）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "送信側保険医療機関",
+    "受信側保険医療機関",
+    "PACS を導入する医療機関"
+   ],
+   "directPayer": [
+    "送信側保険医療機関（1症例ごとのサービス利用料。そのうちシステム利用料が ViewSend の収入、画像診断料は受信側病院の収入。誰がまとめて受け取り配分するかは未確認）",
+    "PACS を導入する医療機関（対価の形は未確認）"
+   ],
+   "finalBearer": [
+    "送信側保険医療機関（遠隔画像診断の診療報酬・加算でまかなうことを想定）"
+   ],
+   "userPaysTo": [
+    "医療機関（患者は画像診断の自己負担を送信側医療機関に払う）"
+   ],
+   "sources": [
+    {
+     "url": "https://fundinno.com/projects/787",
+     "publisher": "FUNDINNO（ViewSend ICT 募集ページ）",
+     "published": "2026-10"
+    },
+    {
+     "url": "https://www.viewsend-ict.co.jp/company/",
+     "publisher": "ViewSend ICT（会社概要）",
+     "published": ""
+    },
+    {
+     "url": "https://www.viewsend-ict.co.jp/cat-info/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%a0%e3%83%88%e3%82%a6%e3%81%a8%e3%81%ae%e6%a5%ad%e5%8b%99%e6%8f%90%e6%90%ba%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+     "publisher": "ViewSend ICT（ムトウとの業務提携）",
+     "published": "2026-11-04"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "従量課金（件数・回数・処方数）"
+   ],
+   "productSales": "あり",
+   "productSalesDetail": "遠隔画像診断支援サービスを100超の医療機関に、PACS を300施設超に導入（会社公表）。",
+   "detail": "遠隔画像診断支援：送信側の保険医療機関が1症例ごとにサービス利用料を払い、そのうちシステム利用料を同社、画像診断料を受信側病院が受け取る（「件数に比例して収益が積み上がる」）。PACS の販売代金・保守料の形は資料に記載なし。2025年12月期の売上高は約4.14億円、2026年12月期は約5.86億円を見込む（会社全体）。",
+   "customerRecovery": [
+    "対応する保険評価あり（条件付き）",
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "送信側は施設基準を満たす受信側病院に依頼することで遠隔画像診断の画像診断管理加算（遠隔画像診断管理加算）を月1回算定できる（受信側の届出した施設基準で点数が異なる）。サービス利用料は送信側の経費。",
+   "unknown": "1症例あたりの料金と配分の比率、PACS の価格と課金の形（販売・保守）",
+   "sources": [
+    {
+     "url": "https://fundinno.com/projects/787",
+     "publisher": "FUNDINNO（ViewSend ICT 募集ページ）",
+     "published": "2026-10"
+    },
+    {
+     "url": "https://www.viewsend-ict.co.jp/%e9%81%a0%e9%9a%94%e8%aa%ad%e5%bd%b1/",
+     "publisher": "ViewSend ICT",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "直接契約",
+    "販売提携"
+   ],
+   "delivery": [],
+   "detail": "同社が送信側・受信側の医療機関と契約し、システム構築・運用支援を行う。2026-11-04 からムトウ（医療機器の全国物流・販売網）と業務提携し、導入提案から運用支援まで連携。会社概要のビジネスパートナーにメディセオ・富士フイルムメディカル・エムスリーソリューションズなどが並ぶが、それぞれの役割（代理店か）は記載なし。",
+   "sources": [
+    {
+     "url": "https://www.viewsend-ict.co.jp/cat-info/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%a0%e3%83%88%e3%82%a6%e3%81%a8%e3%81%ae%e6%a5%ad%e5%8b%99%e6%8f%90%e6%90%ba%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+     "publisher": "ViewSend ICT",
+     "published": "2026-11-04"
+    },
+    {
+     "url": "https://www.viewsend-ict.co.jp/company/",
+     "publisher": "ViewSend ICT（会社概要）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "ViewSendシステム（ソフトウェア）：汎用画像診断装置ワークステーション用プログラム（管理医療機器、JMDN 70030012）。電子添文（2024-02-01 第1版）は番号 21700BZZ00385000 を「医療機器認証番号」と表記（番号の形式は 2005 年の承認番号）。遠隔画像診断の運用支援（病院間の調整・届出支援）は医療機器ではない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/650901_21700BZZ00385000_A_02_02",
+     "publisher": "PMDA（電子添文 ViewSendシステム）",
+     "published": "2024-02-01"
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "関連する技術料（点数）あり"
+   ],
+   "detail": "送信側が遠隔画像診断（特掲診療料の施設基準）による画像診断管理加算を算定できる。点数は医療機関の画像診断に対する評価で、ViewSend のシステム・サービスに対応する点数ではない。2026 年度改定で保険医療機関間の遠隔画像診断連携の制度が見直された（同社の説明）。",
+   "sources": [
+    {
+     "url": "https://www.viewsend-ict.co.jp/%e9%81%a0%e9%9a%94%e8%aa%ad%e5%bd%b1/",
+     "publisher": "ViewSend ICT",
+     "published": ""
+    },
+    {
+     "url": "https://fundinno.com/projects/787",
+     "publisher": "FUNDINNO",
+     "published": "2026-10"
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://www.viewsend-ict.co.jp/",
+     "publisher": "ViewSend ICT",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "2026-10-30 に株式投資型クラウドファンディング（2026-11-04〜17）、2026-11-04 にムトウとの業務提携、2026-11-10 に ITEM2027 出展を告知。",
+   "signals": [],
+   "sources": [
+    {
+     "url": "https://www.viewsend-ict.co.jp/",
+     "publisher": "ViewSend ICT（お知らせ）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "現行のシステム・サービスで AI を使うとの記載はない。2026-10 に生成 AI を活用した「次世代遠隔画像診断支援」（「診断は人、作業はAI」。業務効率化・レポートの品質向上）の開発を加速すると発表（開発中）。",
+   "sources": [
+    {
+     "url": "https://www.viewsend-ict.co.jp/cat-info/%e7%94%9f%e6%88%90ai%e3%82%92%e6%b4%bb%e7%94%a8%e3%81%97%e3%81%9f%e3%80%8c%e6%ac%a1%e4%b8%96%e4%bb%a3%e9%81%a0%e9%9a%94%e7%94%bb%e5%83%8f%e8%a8%ba%e6%96%ad%e6%94%af%e6%8f%b4%e3%80%8d%e3%81%ae%e9%96%8b/",
+     "publisher": "ViewSend ICT",
+     "published": "2026-10-30"
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "遠隔画像診断支援の導入保険医療機関数",
+    "definition": "サービスを導入した保険医療機関（累計か稼働中かは記載なし）",
+    "scope": "製品単体（遠隔画像診断支援）",
+    "value": "110施設以上（募集ページは109施設、拠点病院6施設）",
+    "asOf": "2026-10",
+    "source": {
+     "url": "https://www.viewsend-ict.co.jp/%e9%81%a0%e9%9a%94%e8%aa%ad%e5%bd%b1/",
+     "publisher": "ViewSend ICT",
+     "published": ""
+    },
+    "ref": false
+   },
+   {
+    "metric": "遠隔画像診断の支援件数",
+    "definition": "年間の支援症例数。2025 年 約9万件（前回募集時は年間約6.9万件）、2026 年は月1万件を超え年間約12.4万件の見込み。累計70万症例超",
+    "scope": "製品単体（遠隔画像診断支援）",
+    "value": "約9万件／年（2025年）",
+    "asOf": "2025-12",
+    "source": {
+     "url": "https://fundinno.com/projects/787",
+     "publisher": "FUNDINNO（ViewSend ICT 募集ページ）",
+     "published": "2026-10"
+    },
+    "ref": false
+   },
+   {
+    "metric": "PACS 導入施設数",
+    "definition": "PACS を導入した施設（累計）。トップページは製品・サービス全体で「導入実績500施設以上」",
+    "scope": "製品単体（PACS）",
+    "value": "300施設超",
+    "asOf": "2026-11",
+    "source": {
+     "url": "https://www.viewsend-ict.co.jp/cat-info/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%a0%e3%83%88%e3%82%a6%e3%81%a8%e3%81%ae%e6%a5%ad%e5%8b%99%e6%8f%90%e6%90%ba%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+     "publisher": "ViewSend ICT",
+     "published": "2026-11-04"
+    },
+    "ref": false
+   },
+   {
+    "metric": "売上高",
+    "definition": "会社全体の売上高。2025年12月期 約4.14億円（計画 約6.36億円）、2026年12月期 約5.86億円見込み",
+    "scope": "会社全体",
+    "value": "約4.14億円（2025年12月期）",
+    "asOf": "2025-12",
+    "source": {
+     "url": "https://fundinno.com/projects/787",
+     "publisher": "FUNDINNO",
+     "published": "2026-10"
+    },
+    "ref": true
+   }
+  ],
+  "periods": [],
+  "plan": "生成 AI を使った次世代遠隔画像診断支援の開発、拠点病院の拡大、2030 年に支援件数約48.8万件、海外大学病院との提携・国際事業（2028 年以降）を計画。",
+  "sourcesChecked": {
+   "pricing": "無し（料金ページなし。収益の仕組みは https://fundinno.com/projects/787 で確認）",
+   "faq": "無し",
+   "tokushoho": "無し",
+   "terms": "無し",
+   "appStore": "無し",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-40d74655": {
+  "id": "b-40d74655",
+  "name": "DOREME（ドレミ）",
+  "checkedAt": "2026-11-19",
+  "entity": "MediTech Solutions株式会社（法人番号 3010401165917。App Store のデベロッパ表記は MEDITECH SOLUTIONS INC.）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "オンライン診療（外国人を含む生活者の受診）",
+   "who": "発熱・咳などで受診したい人、日本語での受診に不安がある外国人",
+   "situation": "受診前の登録・保険証の手続きが手間で、日本語の会話や音声が聞き取りにくいと受診しづらい。",
+   "sources": [
+    {
+     "url": "https://doreme.co.jp/",
+     "publisher": "MediTech Solutions（DOREME）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "患者向けオンライン診療の窓口（提携医療機関の診療）"
+   ],
+   "detail": "アプリでクリニックと予約日時を選び、ビデオ通話で診察を受ける。保険証の登録は受診後でもよい、Web 待合室、ビデオ通話中のチャット、多言語対応（同社スタッフ中心の同時通訳）、お薬配達。提携クリニックの名称はサイトに載っていない。",
+   "sources": [
+    {
+     "url": "https://doreme.co.jp/",
+     "publisher": "MediTech Solutions（DOREME）",
+     "published": ""
+    },
+    {
+     "url": "https://apps.apple.com/jp/app/doreme-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82/id6480585428",
+     "publisher": "App Store（DOREME）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "MediTech Solutions"
+   ],
+   "mah": [],
+   "seller": [],
+   "operator": [
+    "MediTech Solutions"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "患者",
+    "医師"
+   ],
+   "outputUser": [
+    "患者",
+    "提携クリニックの医師"
+   ],
+   "subject": [
+    "患者"
+   ],
+   "supplier": [
+    "提携クリニック（名称は未掲載）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "患者（アカウント登録）"
+   ],
+   "directPayer": [
+    "未確認"
+   ],
+   "finalBearer": [
+    "患者（診察料の自己負担）",
+    "公的医療保険（保険診療の給付分。医療機関の収入）"
+   ],
+   "userPaysTo": [
+    "未確認（診察料は診察後に請求され、アプリに登録した支払方法で払う。受取人が医療機関か同社の代理受領かは記載なし）"
+   ],
+   "sources": [
+    {
+     "url": "https://doreme.co.jp/",
+     "publisher": "MediTech Solutions（DOREME）",
+     "published": ""
+    },
+    {
+     "url": "https://doreme.co.jp/privacy-policy",
+     "publisher": "MediTech Solutions（プライバシーポリシー）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "productSales": "未確認",
+   "productSalesDetail": "アプリは無料。同社がこの事業で誰から何を受け取るか（患者の利用料・医療機関の利用料・手数料）は資料に無い。",
+   "detail": "サイトは「予約の段階では診察料は発生しない。診察料は診察後に請求され、金額は健康保険によって異なる」とだけ記載。料金ページ・利用規約・特定商取引法の表記は見当たらない。",
+   "customerRecovery": [
+    "未確認"
+   ],
+   "recoveryDetail": "同社の収入の種類が分からないため未確認。患者が払う診察料は保険診療の自己負担。",
+   "unknown": "同社の収入の有無と種類（患者のシステム利用料、提携医療機関からの利用料・手数料）、診察料の決済の受取人",
+   "sources": [
+    {
+     "url": "https://doreme.co.jp/",
+     "publisher": "MediTech Solutions（DOREME）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "個人"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [
+    "アプリストア"
+   ],
+   "detail": "患者が App Store からアプリを入れて登録する。サイトの Google Play のリンク先は「見つかりません」（2026-11-19）。医療機関の募集・契約の窓口はサイトに無い。",
+   "sources": [
+    {
+     "url": "https://apps.apple.com/jp/app/doreme-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82/id6480585428",
+     "publisher": "App Store",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "予約・オンライン診療の通信・チャット・決済の機能。",
+   "sources": [
+    {
+     "url": "https://doreme.co.jp/",
+     "publisher": "MediTech Solutions（DOREME）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "提携クリニックの保険診療のオンライン診療の中で使う（「金額などの詳細はお客様の健康保険によって異なります」）。アプリ自体の点数はない。",
+   "sources": [
+    {
+     "url": "https://doreme.co.jp/",
+     "publisher": "MediTech Solutions（DOREME）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "App Store で配信中（2024-12-09 初版、最新 1.2 は 2025-03-24）。公式サイトが公開中で問い合わせ先を掲載。",
+   "sources": [
+    {
+     "url": "https://apps.apple.com/jp/app/doreme-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82/id6480585428",
+     "publisher": "App Store",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "公式サイトと App Store の配信が公開中。",
+   "signals": [
+    "App Store の最新版は 1.2（2025-03-24）で、以後の更新なし",
+    "サイトの Google Play リンク（jp.co.dereme.patient）は開けない",
+    "サイトの FAQ は5問とも同じ英文の回答（未整備）",
+    "サイトの問い合わせ先メールは人材紹介会社アクアニミタスのドメイン（operation@aequanimitas.jp）、App Store の問い合わせ先は info@meditechsolutions.jp",
+    "運営会社サイト（meditechsolutions.jp）に DOREME の記載はない"
+   ],
+   "guess": "推定：更新が 2025-03 で止まっており、利用は限られている可能性がある（ラベルにはしない）",
+   "sources": [
+    {
+     "url": "https://doreme.co.jp/",
+     "publisher": "MediTech Solutions（DOREME）",
+     "published": ""
+    },
+    {
+     "url": "https://www.meditechsolutions.jp/",
+     "publisher": "MediTech Solutions",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "サイト・App Store の説明に AI の記載はない。",
+   "sources": [
+    {
+     "url": "https://doreme.co.jp/",
+     "publisher": "MediTech Solutions（DOREME）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "ダウンロード数・提携医療機関数の公表を確認できず（App Store は評価件数不足で表示なし）",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "無し",
+   "faq": "https://doreme.co.jp/（トップページの FAQ。回答は未整備）",
+   "tokushoho": "無し",
+   "terms": "無し（プライバシーポリシーのみ https://doreme.co.jp/privacy-policy）",
+   "appStore": "https://apps.apple.com/jp/app/doreme-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82/id6480585428（Google Play は開けない）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-06dc517b": {
+  "id": "b-06dc517b",
+  "name": "ANYMED（エニメド）",
+  "checkedAt": "2026-11-19",
+  "entity": "株式会社COREARTS（広島県広島市安佐北区。ANYMED の運営会社）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "オンライン診療・訪問診療・産業医面談",
+   "who": "オンライン診療を始めたい医療機関、通院が難しい患者、産業医面談をオンラインで行いたい企業",
+   "situation": "通院の時間・感染リスク、医療機関の受付・会計の手間、テレワーク中の従業員と産業医の面談の調整が負担になる。",
+   "sources": [
+    {
+     "url": "https://www.anymed.online/personal/",
+     "publisher": "COREARTS（ANYMED 一般の方向け）",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/medical_official/",
+     "publisher": "COREARTS（ANYMED 産業医）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）",
+    "患者・生活者向けアプリ",
+    "企業・保険者向けソフト"
+   ],
+   "detail": "医療機関向け：予約・事前問診・ビデオ診療・決済のオンライン診療システム（オンライン資格確認、Fitbit からの PHR 表示、会話の録音保存）。訪問診療×オンライン診療（看護師等が端末を持って訪問）にも対応。患者向け：App Store・Google Play で配信するアプリ「ANYMED」（一般の方向けページあり）。企業向け：オンライン産業医（面談予約・ビデオ面談・業種別ストレスチェックシート作成）。",
+   "sources": [
+    {
+     "url": "https://www.anymed.online/medical_online/",
+     "publisher": "COREARTS（ANYMED オンライン診療）",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/news/detail?id=941",
+     "publisher": "COREARTS（ANYMED リニューアルのお知らせ）",
+     "published": "2024-11-01"
+    },
+    {
+     "url": "https://www.anymed.online/medical_official/",
+     "publisher": "COREARTS（ANYMED 産業医）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "COREARTS"
+   ],
+   "mah": [],
+   "seller": [
+    "COREARTS（Web 申込）"
+   ],
+   "operator": [
+    "COREARTS"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "医師・医療事務",
+    "患者",
+    "産業医・従業員"
+   ],
+   "outputUser": [
+    "医師",
+    "患者",
+    "産業医"
+   ],
+   "subject": [
+    "患者",
+    "従業員"
+   ],
+   "supplier": [
+    "登録医療機関（診療・服薬指導を行う）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "医療機関",
+    "企業（オンライン産業医）",
+    "患者（ユーザー登録）"
+   ],
+   "directPayer": [
+    "医療機関（月額利用料。カード登録で支払う）",
+    "企業（オンライン産業医の初期費用・月額）",
+    "患者（ANYMED利用料 1件110円〔税込〕。規約上は予約料・予約手数料もあるが金額は未掲載）"
+   ],
+   "finalBearer": [
+    "医療機関（自院の経費）",
+    "企業（自社の経費）",
+    "患者（ANYMED利用料と診療費の自己負担）",
+    "公的医療保険（保険診療の給付分。医療機関の収入）"
+   ],
+   "userPaysTo": [
+    "COREARTS（ANYMED利用料。医療機関が ANYMEDクレジット決済サービスを選んだときは診療費・処方箋料・医薬品代なども同社が登録医療機関に代わって受け取り、支払うと医療機関への債務も消える）",
+    "登録医療機関（医療機関がゼウスとクレジット決済を直接契約したときの診療費）"
+   ],
+   "sources": [
+    {
+     "url": "https://www.anymed.online/faq/medical/detail?id=511",
+     "publisher": "COREARTS（ANYMED よくある質問 8-1）",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/faq/medical/detail?id=465",
+     "publisher": "COREARTS（ANYMED よくある質問 2-3）",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/guide/terms/",
+     "publisher": "COREARTS（ANYMED 利用規約）",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/medical_online/",
+     "publisher": "COREARTS",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "月額・年額の利用料",
+    "初期費用・導入費",
+    "従量課金（件数・回数・処方数）"
+   ],
+   "productSales": "あり",
+   "productSalesDetail": "医療機関向けのオンライン診療システム（月額）、企業向けのオンライン産業医（初期費用・月額）、患者からの ANYMED 利用料（1件110円）を受け取る（料金表示・FAQ で確認、2026-11-19 閲覧）。",
+   "detail": "医療機関：オンライン診療は初期費用無料・月額10,000円（トップの表示。「月額0円からスタート」とも書かれている）。料金ページは「2021年6月までのお試し期間中」の料金のまま：スタートプラン 5,000円/月（診療100件まで）、オンライン診療プラン 10,000円/月（年間プランの月々払い、1ユーザー）、音声メッセージのオプション1件100円。企業：オンライン産業医は初期費用50,000円・月額10,000円。患者：医療関係者向け FAQ（7-2・8-1）に「ANYMED利用料は一律1件110円（税込）」「ANYMED利用料は患者様からANYMED側にお支払いいただくアプリ利用料金で、診療報酬には加算されない」とある。利用規約は、本サービス利用料・予約料・予約手数料と、同社が登録医療機関に代わって受け取る診療費を挙げる。医療機関は、診療費のクレジット決済を「ゼウスとの直接契約」と、同社が代行する「ANYMEDクレジット決済サービス」から選ぶ。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担",
+    "雇用主の事業経費として負担",
+    "個人負担（費用回収の対象外）"
+   ],
+   "recoveryDetail": "医療機関は月額利用料を経費として払い、オンライン診療の診療報酬・自由診療の収入でまかなう。企業は産業医面談の費用を経費として払う。患者は ANYMED 利用料（1件110円）を保険外で自分で払う（診療報酬には加算されない）。患者が払う診療費は保険診療の自己負担で、ANYMEDクレジット決済サービスを選んだ医療機関の分は同社が代わって受け取る。",
+   "unknown": "いまの医療機関向け料金表（料金ページは2021年の内容のまま）、予約料・予約手数料の金額、ANYMEDクレジット決済サービスの手数料の有無",
+   "sources": [
+    {
+     "url": "https://www.anymed.online/faq/medical/detail?id=755",
+     "publisher": "COREARTS（ANYMED よくある質問 7-2 診療費の決済）",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/faq/medical/detail?id=511",
+     "publisher": "COREARTS（ANYMED よくある質問 8-1 診療費のお支払い）",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/faq/medical/detail?id=465",
+     "publisher": "COREARTS（ANYMED よくある質問 2-3 決済システムの設定）",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/medical_online/plan/",
+     "publisher": "COREARTS（ANYMED 価格）",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/medical_online/",
+     "publisher": "COREARTS",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/medical_official/",
+     "publisher": "COREARTS",
+     "published": ""
+    },
+    {
+     "url": "https://www.anymed.online/guide/terms/",
+     "publisher": "COREARTS（利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関",
+    "企業",
+    "個人"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [
+    "アプリストア"
+   ],
+   "detail": "医療機関：Web で無料会員登録→審査・アカウント発行→システム利用料を払うカード登録→利用開始。企業：オンライン産業医を Web 申込。患者：App Store・Google Play からアプリを入れ、登録医療機関を予約。",
+   "sources": [
+    {
+     "url": "https://www.anymed.online/medical_online/",
+     "publisher": "COREARTS",
+     "published": ""
+    },
+    {
+     "url": "https://apps.apple.com/jp/app/id1541976939",
+     "publisher": "App Store（ANYMED）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "予約・問診・ビデオ通話・決済・PHR の表示の機能。ストレスチェックシートの作成・面談は、法令の質問票の範囲で病名の候補を示さない（2.7 版の決まりで医療機器ではない）。",
+   "sources": [
+    {
+     "url": "https://www.anymed.online/medical_official/",
+     "publisher": "COREARTS",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）",
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "オンライン診療・訪問診療：登録医療機関の保険診療・自由診療の中で使い、システム自体の点数はない。オンライン産業医：企業の産業保健の面談で、診療行為ではない。",
+   "sources": [
+    {
+     "url": "https://www.anymed.online/guide/terms/",
+     "publisher": "COREARTS（利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://www.anymed.online/",
+     "publisher": "COREARTS（ANYMED）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "2024-11-01 にリニューアル（マイナンバーカード登録・Fitbit 連携・訪問診療と産業医の機能）。申込ページ公開中。",
+   "signals": [
+    "お知らせの最新は 2024-11-01",
+    "料金ページは 2021 年6月までのお試し期間の料金のまま",
+    "App Store のレビューの最新は 2025-02-27"
+   ],
+   "sources": [
+    {
+     "url": "https://www.anymed.online/news/detail?id=941",
+     "publisher": "COREARTS",
+     "published": "2024-11-01"
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "サイト・お知らせに AI の記載はない。",
+   "sources": [
+    {
+     "url": "https://www.anymed.online/personal/",
+     "publisher": "COREARTS",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "導入医療機関数・利用者数の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "https://www.anymed.online/medical_online/plan/（2021年の内容）、https://www.anymed.online/medical_official/",
+   "faq": "https://www.anymed.online/faq/",
+   "tokushoho": "https://www.anymed.online/guide/law/",
+   "terms": "https://www.anymed.online/guide/terms/",
+   "appStore": "https://apps.apple.com/jp/app/id1541976939、https://play.google.com/store/apps/details?id=jp.co.core_arts.anymed",
+   "checkedAt": "2026-11-19"
+  },
+  "checked": {
+   "pricing": "https://www.anymed.online/medical_online/plan/（2021年の内容）、https://www.anymed.online/medical_online/、https://www.anymed.online/medical_official/",
+   "faq": "https://www.anymed.online/faq/medical/detail?id=755、https://www.anymed.online/faq/medical/detail?id=511、https://www.anymed.online/faq/medical/detail?id=465、https://www.anymed.online/faq/public/",
+   "tokushoho": "https://www.anymed.online/guide/law/",
+   "terms": "https://www.anymed.online/guide/terms/",
+   "appStore": "https://apps.apple.com/jp/app/id1541976939、https://play.google.com/store/apps/details?id=jp.co.core_arts.anymed"
+  }
+ },
+ "b-9beb9909": {
+  "id": "b-9beb9909",
+  "name": "MALL（病院・有床診療所向け電子カルテ）とMALLクラウド",
+  "checkedAt": "2026-11-19",
+  "entity": "株式会社メドレー（2025-09-01 に子会社の株式会社パシフィックメディカル〔旧パシフィックシステム、法人番号 1490001005089〕を吸収合併し、MALL の提供元。法人番号 2490001009840 は同じ所在地の別法人 株式会社パシフィックシステム〔2021-04-02 設立、旧商号パシフィックシステムズ〕で、MALL を提供していた法人ではない）",
+  "recordKind": "group",
+  "members": [
+   {
+    "name": "電子カルテ MALL（オンプレミス版。MALL精神科・MALL重心・MALL透析を含む）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "医療機器ではない",
+    "startedAt": "未確認（「約20年の運用」。2020-12 の資料では17年間提供）",
+    "hp": "https://mall-cloud.com/",
+    "sources": [
+     {
+      "url": "https://www.medley.jp/release/20260813.html",
+      "publisher": "メドレー",
+      "published": "2026-08-13"
+     }
+    ],
+    "note": "導入医療施設 約250件（2026-03）"
+   },
+   {
+    "name": "MALLクラウド（クラウドネイティブ電子カルテ）",
+    "status": "準備中",
+    "stage": "参加募集・準備中（まだ使えない）",
+    "regulatory": "医療機器ではない（国の標準仕様への準拠・認証取得に向けて対応中）",
+    "startedAt": "",
+    "hp": "https://mall-cloud.com/",
+    "sources": [
+     {
+      "url": "https://www.medley.jp/release/20260813.html",
+      "publisher": "メドレー",
+      "published": "2026-08-13"
+     },
+     {
+      "url": "https://mall-cloud.com/",
+      "publisher": "メドレー（MALLクラウド）",
+      "published": ""
+     }
+    ],
+    "note": "2027-01 以降に段階的に提供予定。β版から先行導入するパイロットユーザーの病院・有床診療所を募集"
+   }
+  ],
+  "problem": {
+   "domain": "病院・有床診療所の電子カルテ（診療記録・部門システム）",
+   "who": "中小病院・有床診療所（一般科・精神科・重症心身障害児施設・透析施設）",
+   "situation": "人手不足の中で電子カルテを低い費用で導入・更新したく、国の方針でクラウド型への移行も求められている。",
+   "sources": [
+    {
+     "url": "https://www.medley.jp/release/20260813.html",
+     "publisher": "メドレー",
+     "published": "2026-08-13"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "MALL：オンプレミス型の電子カルテで、薬剤・栄養・検査・透析などの自社部門システムを同じ画面で扱い、検査機器・医事会計・画像システムと外部連携。領域別に MALL精神科・MALL重心・MALL透析。MALLクラウド：厚労省の標準仕様に準拠するクラウドネイティブ電子カルテ（ガバメントクラウド上で提供予定、専用サーバー・専用端末不要、3,000以上の設定項目、生成AIによる医療文書作成支援）。オンプレ版からの移行は全て可能。",
+   "sources": [
+    {
+     "url": "https://www.medley.jp/release/20260813.html",
+     "publisher": "メドレー",
+     "published": "2026-08-13"
+    },
+    {
+     "url": "https://mall-cloud.com/",
+     "publisher": "メドレー（MALLクラウド）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "メドレー（旧パシフィックシステム／パシフィックメディカルが開発）"
+   ],
+   "mah": [],
+   "seller": [
+    "メドレー（有床診療所事業戦略統括部）"
+   ],
+   "operator": [
+    "メドレー"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "病院・有床診療所の医師・看護師・薬剤師・医療事務"
+   ],
+   "outputUser": [
+    "病院・有床診療所の医療従事者"
+   ],
+   "subject": [
+    "入院・外来の患者（記録に載る）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "病院・有床診療所"
+   ],
+   "directPayer": [
+    "病院・有床診療所（料金は病床数などで変動し非公開）"
+   ],
+   "finalBearer": [
+    "病院・有床診療所（自院の経費。IT導入補助金などの補助を使える場合あり）"
+   ],
+   "userPaysTo": [],
+   "sources": [
+    {
+     "url": "https://mall-cloud.com/",
+     "publisher": "メドレー（MALLクラウド よくあるご質問）",
+     "published": ""
+    },
+    {
+     "url": "https://www.medley.jp/release/20231030.html",
+     "publisher": "メドレー",
+     "published": "2023-10-30"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "productSales": "あり",
+   "productSalesDetail": "MALL を約250施設に導入（2026-03）、IT導入補助金2023 の対象ツール（新規導入の費用が補助対象）。",
+   "detail": "料金は「病床数その他お客様の状況によって変動」（MALLクラウドの FAQ）。オンプレ版の販売代金・保守料・利用料の別、クラウド版の課金の形は公表されていない。オンプレからクラウドへの切替費用は個別見積。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "病院・有床診療所が経費として払い、診療収入でまかなう。2023 年は IT導入補助金の対象。国はクラウドネイティブ型電子カルテの導入支援を令和9年度概算要求に計上（2026-09 時点、同社サイト）。",
+   "unknown": "オンプレ版とクラウド版の課金の形（初期費用・保守料・月額利用料）と金額",
+   "sources": [
+    {
+     "url": "https://mall-cloud.com/",
+     "publisher": "メドレー（MALLクラウド）",
+     "published": ""
+    },
+    {
+     "url": "https://www.medley.jp/release/20231030.html",
+     "publisher": "メドレー",
+     "published": "2023-10-30"
+    },
+    {
+     "url": "https://www.medley.jp/release/20260813.html",
+     "publisher": "メドレー",
+     "published": "2026-08-13"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [],
+   "delivery": [],
+   "detail": "MALLクラウドのサイトから資料請求・問い合わせ（メドレー）。直販か販売店経由かは記載なし。旧 pcmed.jp は mall-cloud.com に転送される。",
+   "sources": [
+    {
+     "url": "https://mall-cloud.com/",
+     "publisher": "メドレー（MALLクラウド）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "電子カルテ（診療記録・部門システム）。",
+   "sources": [
+    {
+     "url": "https://mall-cloud.com/",
+     "publisher": "メドレー",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "保険診療の記録・会計に使う。システム自体の点数はない。",
+   "sources": [
+    {
+     "url": "https://www.medley.jp/release/20260813.html",
+     "publisher": "メドレー",
+     "published": "2026-08-13"
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "オンプレ版 MALL は一般提供（2026-08 の発表に「現在提供しているオンプレミス電子カルテ」）。MALLクラウドは参加募集・準備中（含まれる製品の表を参照）。",
+   "sources": [
+    {
+     "url": "https://www.medley.jp/release/20260813.html",
+     "publisher": "メドレー",
+     "published": "2026-08-13"
+    }
+   ]
+  },
+  "activity": {
+   "value": "運営会社が変わって継続",
+   "detail": "提供する法人が、株式会社パシフィックシステム（1997 年設立、法人番号 1490001005089。2020-12 にメドレーが株式80%を取得して子会社化、2021-04-01 に株式会社パシフィックメディカルへ商号変更）から、2025-09-01 の吸収合併でメドレーに替わった。パシフィックメディカルは 2025-10-09 に閉鎖登記（合併による解散）。MALL の提供は続いており、2026-08 に MALLクラウドの開発とパイロットユーザーの募集を発表した。同じ所在地には別法人の株式会社パシフィックシステム（法人番号 2490001009840、2021-04-02 設立）があるが、MALL との関係は確認していない。",
+   "signals": [],
+   "sources": [
+    {
+     "url": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1490001005089",
+     "publisher": "国税庁 法人番号公表サイト（パシフィックメディカル）",
+     "published": ""
+    },
+    {
+     "url": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=2490001009840",
+     "publisher": "国税庁 法人番号公表サイト（パシフィックシステム）",
+     "published": ""
+    },
+    {
+     "url": "https://www.nihon-ma.co.jp/news/20250220_4480-13/",
+     "publisher": "日本M&Aセンター（M&Aニュース：メドレーの吸収合併）",
+     "published": "2025-02-20"
+    },
+    {
+     "url": "https://www2.jpx.co.jp/disc/44800/140120201216435890.pdf",
+     "publisher": "メドレー（適時開示：株式取得）",
+     "published": "2020-12-16"
+    },
+    {
+     "url": "https://www.medley.jp/release/20260813.html",
+     "publisher": "メドレー",
+     "published": "2026-08-13"
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "MALLクラウドは生成AIによる医療文書作成支援を搭載予定で、開発工程にも AI を使う（「AIネイティブ」）。サイトに、ある導入病院で AI 活用により退院サマリーの作成時間が約8分の1、看護サマリーが約4分の1に短縮（1施設の実測値、1年以上の実証と正式稼働後の実績）と記載。",
+   "sources": [
+    {
+     "url": "https://mall-cloud.com/",
+     "publisher": "メドレー（MALLクラウド）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "MALL の導入医療施設数",
+    "definition": "オンプレ版 MALL シリーズを導入した医療施設（累計か稼働中かは記載なし）。約20年の運用で利用継続率98%",
+    "scope": "製品単体（オンプレ版 MALL シリーズ）",
+    "value": "約250件",
+    "asOf": "2026-03",
+    "source": {
+     "url": "https://www.medley.jp/release/20260813.html",
+     "publisher": "メドレー",
+     "published": "2026-08-13"
+    },
+    "ref": false
+   },
+   {
+    "metric": "MALL の導入医療施設数（過去）",
+    "definition": "2023-10 時点の導入医療施設数、利用継続率99%",
+    "scope": "製品単体（MALL シリーズ）",
+    "value": "約200件",
+    "asOf": "2023-10",
+    "source": {
+     "url": "https://www.medley.jp/release/20231030.html",
+     "publisher": "メドレー",
+     "published": "2023-10-30"
+    },
+    "ref": true
+   }
+  ],
+  "periods": [
+   {
+    "t": "〜2020-12",
+    "what": "MALL（オンプレ電子カルテ）",
+    "user": "中小病院・有床診療所",
+    "pay": "医療機関（対価の形は未確認）",
+    "bear": "医療機関",
+    "channel": "未確認",
+    "operator": "株式会社パシフィックシステム（高知県宿毛市幸町5-12、1997-04-14 設立、独立系。法人番号 1490001005089）"
+   },
+   {
+    "t": "2020-12〜2025-09",
+    "what": "MALL・MALL精神科・MALL重心・MALL透析",
+    "user": "中小病院・有床診療所",
+    "pay": "医療機関（対価の形は未確認）",
+    "bear": "医療機関",
+    "channel": "未確認",
+    "operator": "パシフィックシステム（メドレーの子会社）→ 2021-04-01 に商号を株式会社パシフィックメディカルに変更（同じ法人番号 1490001005089）"
+   },
+   {
+    "t": "2025-09〜いま",
+    "what": "MALL シリーズ（オンプレ）。MALLクラウドを開発中",
+    "user": "病院・有床診療所",
+    "pay": "医療機関（料金は病床数などで変わる）",
+    "bear": "医療機関",
+    "channel": "メドレーへの問い合わせ",
+    "operator": "株式会社メドレー（2025-09-01 の吸収合併の存続会社。パシフィックメディカルは 2025-10-09 に閉鎖登記）"
+   }
+  ],
+  "plan": "MALLクラウドを 2027-01 以降に段階的に提供。β版から先行導入するパイロットユーザーを募集中。国の標準仕様への準拠と認証取得を進め、ガバメントクラウド上で提供予定。",
+  "sourcesChecked": {
+   "pricing": "無し（FAQ に「病床数その他の状況で変動」 https://mall-cloud.com/）",
+   "faq": "https://mall-cloud.com/（よくあるご質問）",
+   "tokushoho": "無し（法人取引）",
+   "terms": "無し",
+   "appStore": "無し",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-9482d5ba": {
+  "id": "b-9482d5ba",
+  "name": "PHRデータビジネス（パネル調査・API連携・治験候補者紹介・匿名加工情報の提供）",
+  "checkedAt": "2026-11-19",
+  "entity": "Arteryex株式会社（法人番号 4020001125575。2022-03 にエーザイの子会社〔現在の持株関係は今回確認していない〕）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "医療・ヘルスケアのデータ利活用（PHR データ）",
+   "who": "患者の医療データを使いたい製薬・ヘルスケア企業、治験の被験者を集めたい治験支援企業、自社アプリに医療情報を取り込みたい企業",
+   "situation": "条件に合う患者を見つけて調査・治験に参加してもらうことや、紙の健診結果・お薬手帳などの医療情報をデータとして得ることが難しい。",
+   "sources": [
+    {
+     "url": "https://arteryex.biz/data-business/",
+     "publisher": "Arteryex（データビジネス事業）",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/clinical/",
+     "publisher": "Arteryex（治験候補者募集）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "情報・データベース",
+    "コンサルティング・開発支援"
+   ],
+   "detail": "PHR アプリ「パシャっとカルテ」（健診結果・検査結果・お薬手帳を写真で撮るとデータ化）に集まったデータを使う企業向け事業。パネル事業：条件（例：中性脂肪が基準値以上）に当てはまる利用者へのアンケート・インタビュー調査。API連携：利用者の同意のもと、健診結果・検査結果・お薬情報・レセプトを他社アプリに連携。治験候補者紹介：登録データをもとに候補者を選定・紹介。匿名加工情報を作成して製薬会社・医療機関・研究機関などの第三者に提供（公表事項）。ヘルスケア新規サービスの事業開発コンサルティング。このほか AI-OCR と人のチェックによるデータ化の受託（クリックデータ）。",
+   "sources": [
+    {
+     "url": "https://arteryex.biz/data-business/",
+     "publisher": "Arteryex",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/panel/",
+     "publisher": "Arteryex（パネル事業）",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/karte-api/",
+     "publisher": "Arteryex（API連携）",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/anony-process-info/",
+     "publisher": "Arteryex（匿名加工情報に関する公表事項）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "Arteryex"
+   ],
+   "mah": [],
+   "seller": [
+    "Arteryex"
+   ],
+   "operator": [
+    "Arteryex（パシャっとカルテの運営）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "Arteryex（抽出・調査・紹介を行う）"
+   ],
+   "outputUser": [
+    "製薬・ヘルスケア企業、治験支援企業、連携アプリの運営企業"
+   ],
+   "subject": [
+    "パシャっとカルテの利用者（データ・回答の提供者。料金を払わない）"
+   ],
+   "supplier": [
+    "パシャっとカルテの利用者（調査・治験への参加者）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "製薬・ヘルスケア企業（活用事例：エル・スマイル）",
+    "アプリ保有企業（API 連携の事例：インテグリティ・ヘルスケア「SmartOne Health」）",
+    "治験支援企業"
+   ],
+   "directPayer": [
+    "調査を依頼する企業（パネル調査の基本料金・オプション料金）",
+    "治験候補者の紹介を依頼する企業（成果報酬：1人紹介あたり。場合により準備費）",
+    "未確認（API 連携・匿名加工情報の提供の対価）"
+   ],
+   "finalBearer": [
+    "契約企業（自社の経費）"
+   ],
+   "userPaysTo": [],
+   "sources": [
+    {
+     "url": "https://arteryex.biz/panel/",
+     "publisher": "Arteryex（パネル事業）",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/clinical/",
+     "publisher": "Arteryex（治験候補者募集）",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/karte-api/",
+     "publisher": "Arteryex（API連携）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "受託料",
+    "成果報酬（採用・送客など）"
+   ],
+   "productSales": "あり",
+   "productSalesDetail": "パネル事業の料金表と、治験候補者紹介の成果報酬型の料金を公開し、問い合わせ・提案を受け付けている（2026-11-19 閲覧）。",
+   "detail": "パネル事業（料金表）：インターネットリサーチ（例：20問・500サンプル）は基本料金30万円〜、インタビュー対象のリクルート（例：10問・10サンプル、ヒアリングは顧客が行う場合）は基本料金25万円〜。オプションは調査票設計（10問以内）12万円、報告書作成12万円、インタビュー代行（1時間）7万円、プッシュ通知（2回目以降1回ごと）5万円、メールマガジン送付（1通）1万円（税込か税抜かの表記は無い）。治験候補者紹介：費用は「成果報酬型（1人紹介あたり）」で、候補者がいなければ基本無料。案件の難しさによっては準備費（固定費）がかかる。API 連携・匿名加工情報の提供・事業開発コンサルティングの料金は書かれていない。料金ページ（/price/）は受託開発の単価（1人月100万円）で、別の事業の料金。",
+   "customerRecovery": [
+    "企業の事業経費として負担"
+   ],
+   "recoveryDetail": "契約先（製薬・ヘルスケア企業、治験支援企業など）が、調査の料金・紹介の成果報酬を自社の経費として払う。",
+   "unknown": "治験候補者紹介の1人あたりの単価、API 連携・匿名加工情報の提供・コンサルティングの課金の形と金額",
+   "sources": [
+    {
+     "url": "https://arteryex.biz/panel/",
+     "publisher": "Arteryex（パネル事業・料金表）",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/clinical/",
+     "publisher": "Arteryex（治験候補者募集・成果報酬型）",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/data-business/",
+     "publisher": "Arteryex（データビジネス事業）",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/price/",
+     "publisher": "Arteryex（受託開発の単価）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "企業"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [],
+   "detail": "問い合わせ・資料ダウンロード→ニーズのヒアリング→提案。代理店の記載はない。",
+   "sources": [
+    {
+     "url": "https://arteryex.biz/data-business/",
+     "publisher": "Arteryex",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "データの抽出・調査・連携・紹介のサービス。",
+   "sources": [
+    {
+     "url": "https://arteryex.biz/data-business/",
+     "publisher": "Arteryex",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "企業向けのデータ・調査サービスで、診療行為に使わない。",
+   "sources": [
+    {
+     "url": "https://arteryex.biz/data-business/",
+     "publisher": "Arteryex",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://arteryex.biz/data-business/",
+     "publisher": "Arteryex",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "事業ページ・問い合わせ窓口・匿名加工情報の公表事項を公開中（2026-11-19 閲覧）。2025-05 の神奈川県の研究会資料でもパシャっとカルテ中心の医療情報プラットフォーム事業を説明。",
+   "signals": [],
+   "sources": [
+    {
+     "url": "https://arteryex.biz/data-business/",
+     "publisher": "Arteryex",
+     "published": ""
+    },
+    {
+     "url": "https://www.pref.kanagawa.jp/documents/75843/r7-1arteryex.pdf",
+     "publisher": "Arteryex（神奈川県 令和7年度第1回未病産業研究会の資料）",
+     "published": "2025-05"
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "医療情報のデータ化に「AI-OCR 技術と人によるチェック体制」を使う（クリックデータ）。会社概要に「ブロックチェーンやAIといった最新のテクノロジーを組み合わせ」。パネル・治験紹介の抽出自体に AI を使うとの記載はない。",
+   "sources": [
+    {
+     "url": "https://arteryex.biz/data-business/",
+     "publisher": "Arteryex",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/about-us/",
+     "publisher": "Arteryex（会社概要）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "治験候補者の母集団",
+    "definition": "治験候補者募集のページの「健康意識の高い30万超の母集団」、アクティブユーザー DAU 7,000（時点の記載なし）",
+    "scope": "製品単体（データビジネスの母集団）",
+    "value": "30万超",
+    "asOf": "未確認",
+    "source": {
+     "url": "https://arteryex.biz/clinical/",
+     "publisher": "Arteryex（治験候補者募集）",
+     "published": ""
+    },
+    "ref": false
+   },
+   {
+    "metric": "パシャっとカルテ累計ダウンロード数",
+    "definition": "アプリの累計ダウンロード（2023 年 50万、2024 年 70万を達成）",
+    "scope": "関連アプリ（パシャっとカルテ）",
+    "value": "70万",
+    "asOf": "2024",
+    "source": {
+     "url": "https://www.pref.kanagawa.jp/documents/75843/r7-1arteryex.pdf",
+     "publisher": "Arteryex（神奈川県 研究会資料）",
+     "published": "2025-05"
+    },
+    "ref": true
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "無し（データビジネスの料金なし。https://arteryex.biz/price/ は受託開発の単価）",
+   "faq": "無し",
+   "tokushoho": "無し（法人取引）",
+   "terms": "無し（https://arteryex.biz/anony-process-info/ 匿名加工情報の公表事項を確認）",
+   "appStore": "無し（企業向け事業のため。データ源のパシャっとカルテは別記録）",
+   "checkedAt": "2026-11-19"
+  },
+  "checked": {
+   "pricing": "https://arteryex.biz/panel/（料金表）、https://arteryex.biz/clinical/（成果報酬型）。https://arteryex.biz/price/ は受託開発の単価",
+   "faq": "無し",
+   "tokushoho": "無し（法人取引）",
+   "terms": "無し（https://arteryex.biz/anony-process-info/ 匿名加工情報の公表事項を確認）",
+   "appStore": "無し（企業向け事業のため。データ源のパシャっとカルテは別記録）"
+  }
+ },
+ "b-baab46c5": {
+  "id": "b-baab46c5",
+  "name": "ヘルスケアアプリ「HELPO」／LINEで完結するオンライン診療「HELPOドクター」",
+  "checkedAt": "2026-11-19",
+  "entity": "ヘルスケアテクノロジーズ株式会社（ソフトバンクの子会社。法人番号 6010001195683）",
+  "recordKind": "group",
+  "members": [
+   {
+    "name": "ヘルスケアアプリ HELPO（24時間チャット健康医療相談・オンライン診療・HELPOモール・ポイント）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "医療機器ではない",
+    "startedAt": "2020-07（法人・自治体向け。個人向けは 2022-12）",
+    "hp": "https://healthcare-tech.co.jp/c/service/",
+    "sources": [
+     {
+      "url": "https://healthcare-tech.co.jp/c/service/",
+      "publisher": "ヘルスケアテクノロジーズ（HELPO 個人向け）",
+      "published": ""
+     },
+     {
+      "url": "https://healthcare-tech.co.jp/service/",
+      "publisher": "ヘルスケアテクノロジーズ（HELPO 法人向け）",
+      "published": ""
+     }
+    ],
+    "note": "個人向け月額550円（税込）。法人・健康保険組合・自治体向けは個別契約"
+   },
+   {
+    "name": "HELPOドクター（LINE 公式アカウントで予約・受診するオンライン診療）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "医療機器ではない",
+    "startedAt": "2024-12（LINEドクター終了に伴う移行先として案内）",
+    "hp": "https://healthcare-tech.co.jp/service/helpo-doctor/",
+    "sources": [
+     {
+      "url": "https://healthcare-tech.co.jp/service/helpo-doctor/",
+      "publisher": "ヘルスケアテクノロジーズ（HELPOドクター）",
+      "published": ""
+     },
+     {
+      "url": "https://www.lycorp.co.jp/ja/news/release/016530/",
+      "publisher": "LINEヤフー",
+      "published": "2024"
+     }
+    ],
+    "note": "診察完了1回ごとにプラットフォーム利用料660円（税込）。提携医療機関 AMT東京芝クリニック。HELPO アカウントは不要"
+   }
+  ],
+  "problem": {
+   "domain": "健康医療相談とオンライン診療（急性疾患・小児・生活習慣病・心療内科など）",
+   "who": "夜間・休日に体調を崩した人や子どもの保護者、通院の時間がとれない人、従業員の健康を支えたい企業・健保・自治体",
+   "situation": "病院が開いていない時間の不安や、受診のための移動・待ち時間が負担で、気軽に専門家に相談したり診てもらったりできない。",
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/c/service/",
+     "publisher": "ヘルスケアテクノロジーズ",
+     "published": ""
+    },
+    {
+     "url": "https://healthcare-tech.co.jp/service/helpo-doctor/",
+     "publisher": "ヘルスケアテクノロジーズ",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "オンライン相談",
+    "患者向けオンライン診療の窓口（提携医療機関の診療）",
+    "企業が従業員に提供する健康サービス"
+   ],
+   "detail": "オンライン相談：HELPO で医師・看護師・薬剤師などの専属の医療専門チームが24時間365日チャットで回答（家族の相談も可、何度でも、匿名可）。オンライン診療の窓口：HELPO アプリ内と、LINE 公式アカウントの HELPOドクターで提携医療機関（AMT東京芝クリニック）のビデオ診療を予約・受診し、薬は配送か薬局で受け取る（診療は提携医療機関が行う）。企業向け：健康経営・福利厚生として HELPO を従業員に提供（健康セミナー・ウォーキングイベント）。このほか HELPOモール（市販薬・サプリの EC）、遠隔特定保健指導、自治体向け医療支援は関連サービス。領域の境界：主な分類はオンライン相談とオンライン診療の窓口。相談は同社の医療専門チームが行い、他社の電話相談の受託ではない。",
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/c/service/",
+     "publisher": "ヘルスケアテクノロジーズ（HELPO）",
+     "published": ""
+    },
+    {
+     "url": "https://healthcare-tech.co.jp/service/helpo-doctor/",
+     "publisher": "ヘルスケアテクノロジーズ（HELPOドクター）",
+     "published": ""
+    },
+    {
+     "url": "https://healthcare-tech.co.jp/service/",
+     "publisher": "ヘルスケアテクノロジーズ（HELPO 法人向け）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "ヘルスケアテクノロジーズ"
+   ],
+   "mah": [],
+   "seller": [
+    "ヘルスケアテクノロジーズ",
+    "株式会社セールスパートナー（個人向けプランの取次。成約分の月額利用料債権を譲り受ける）"
+   ],
+   "operator": [
+    "ヘルスケアテクノロジーズ（HELPOドクターの LINE 公式アカウントの管理者）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "利用者（個人・従業員・家族）",
+    "医療専門チーム（医師・看護師・薬剤師）",
+    "提携医療機関の医師"
+   ],
+   "outputUser": [
+    "利用者"
+   ],
+   "subject": [
+    "利用者"
+   ],
+   "supplier": [
+    "提携医療機関（AMT東京芝クリニック。オンライン診療を行う）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "個人（有料プラン）",
+    "企業・健康保険組合・自治体（法人契約）",
+    "提携先（FWD生命は契約者向け付帯サービス、ワイモバイルはらくらくスマートフォンに搭載）"
+   ],
+   "directPayer": [
+    "個人（月額550円。ソフトバンク・ワイモバイルまとめて支払い、またはセールスパートナー経由の成約分はセールスパートナーに払う）",
+    "企業・健保・自治体（1か月1アカウントあたりの利用料）",
+    "未確認（HELPOドクターのプラットフォーム利用料：債権を登録医療機関に譲渡済みで、患者は医療機関に払う。同社が医療機関から受け取る対価の形は記載なし）"
+   ],
+   "finalBearer": [
+    "個人",
+    "企業・健保・自治体（福利厚生・保健事業として）",
+    "患者（診療費の自己負担）",
+    "公的医療保険（保険診療の給付分。医療機関の収入）"
+   ],
+   "userPaysTo": [
+    "提携医療機関（HELPOドクター：プラットフォーム利用料660円と診察料・処方箋料・情報通信機器等使用料・送料をまとめて医療機関が請求。カード・PayPay）",
+    "ヘルスケアテクノロジーズまたはセールスパートナー（HELPO の月額利用料）"
+   ],
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/terms/tos",
+     "publisher": "ヘルスケアテクノロジーズ（サービス利用規約）",
+     "published": ""
+    },
+    {
+     "url": "https://healthcare-tech.co.jp/service/helpo-doctor/",
+     "publisher": "ヘルスケアテクノロジーズ",
+     "published": ""
+    },
+    {
+     "url": "https://healthcare-tech.co.jp/news/20250801",
+     "publisher": "ヘルスケアテクノロジーズ（FWD生命の契約者向け提供）",
+     "published": "2025-08-01"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "月額・年額の利用料",
+    "従量課金（件数・回数・処方数）"
+   ],
+   "productSales": "あり",
+   "detail": "HELPO 個人向け：月額550円（税込。ソフトバンク・ワイモバイル・LINEMO 利用者向けの案内あり）。法人契約：利用規約に「１ヶ月1アカウントあたりのHELPOサービス利用料」（金額は非公開）。HELPOドクター：診察完了1回ごとにプラットフォーム利用料660円（税込）。HELPO の利用プランによってはプラットフォーム利用料が発生する（規約）。",
+   "customerRecovery": [
+    "個人負担（費用回収の対象外）",
+    "企業の事業経費として負担",
+    "保険者の保健事業費",
+    "自治体の事業費"
+   ],
+   "recoveryDetail": "個人は月額・プラットフォーム利用料を自分で払う。企業は健康経営・福利厚生の経費、健康保険組合は保健事業費、自治体は事業費として払う（法人・健康保険組合・自治体向けに提供と記載。個別の契約額は非公開）。FWD生命の契約者向け付帯分は FWD生命が負担すると考えられるが未確認。診療費は保険診療の自己負担。",
+   "unknown": "法人・健保・自治体向けの料金、HELPOドクターのプラットフォーム利用料債権を医療機関に譲渡した対価の形、FWD生命・ワイモバイルとの対価の流れ、HELPOモールの販売者が同社か",
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/c/service/",
+     "publisher": "ヘルスケアテクノロジーズ（HELPO 個人向け）",
+     "published": ""
+    },
+    {
+     "url": "https://faq.healthcare-tech.co.jp/category/show/188?site_domain=corp",
+     "publisher": "ヘルスケアテクノロジーズ（HELPOドクター よくある質問）",
+     "published": ""
+    },
+    {
+     "url": "https://healthcare-tech.co.jp/terms/tos",
+     "publisher": "ヘルスケアテクノロジーズ（サービス利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "企業",
+    "保険者",
+    "自治体",
+    "個人",
+    "提携先"
+   ],
+   "deal": [
+    "直接契約",
+    "販売提携",
+    "代理店"
+   ],
+   "delivery": [
+    "アプリストア",
+    "LINE 公式アカウント",
+    "勤務先を通じて従業員へ"
+   ],
+   "detail": "企業・健康保険組合・自治体：打ち合わせ・契約のうえ従業員・加入者に提供（例：大東建託健保、2024-01）。個人：アプリから有料プランに申し込み（キャリア決済あり）、取次店セールスパートナー経由の成約もある。HELPOドクター：LINE 公式アカウントを友だち登録して予約（HELPO アカウント不要）。提携先：FWD生命が個人契約者向けに提供（2025-08〜）、ワイモバイル「らくらくスマートフォン a」に「かんたんHELPO」を搭載（2024-11）。",
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/service/",
+     "publisher": "ヘルスケアテクノロジーズ（HELPO 法人向け）",
+     "published": ""
+    },
+    {
+     "url": "https://healthcare-tech.co.jp/terms/tos",
+     "publisher": "ヘルスケアテクノロジーズ（サービス利用規約）",
+     "published": ""
+    },
+    {
+     "url": "https://healthcare-tech.co.jp/news/20250801",
+     "publisher": "ヘルスケアテクノロジーズ",
+     "published": "2025-08-01"
+    },
+    {
+     "url": "https://www.ymobile.jp/info/press/2022/22112901.html",
+     "publisher": "ワイモバイル",
+     "published": "2022-11-29"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "チャット相談・予約・ビデオ通話・決済・健康記録の表示の機能。",
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/c/service/",
+     "publisher": "ヘルスケアテクノロジーズ",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）",
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "チャット健康医療相談は診療行為ではない。オンライン診療（HELPO 内・HELPOドクター）は提携医療機関の保険診療の中で使われ、プラットフォーム自体の点数はない。",
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/service/helpo-doctor/",
+     "publisher": "ヘルスケアテクノロジーズ",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/c/service/",
+     "publisher": "ヘルスケアテクノロジーズ",
+     "published": ""
+    },
+    {
+     "url": "https://healthcare-tech.co.jp/service/helpo-doctor/",
+     "publisher": "ヘルスケアテクノロジーズ",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "個人向け・法人向け・HELPOドクターの申込ページを公開中（2026-11-19 閲覧）。2026-03 にヘルスケアポータル「Oliveヘルスケア」を開始、2026-08 にシステムメンテナンスを告知。",
+   "signals": [],
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/news/",
+     "publisher": "ヘルスケアテクノロジーズ（お知らせ）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "HELPO・HELPOドクターのページに AI を使うとの記載はない（会社は AI倫理セキュリティポリシーを掲げるが、どのサービスで使うかは書いていない）。",
+   "sources": [
+    {
+     "url": "https://healthcare-tech.co.jp/c/service/",
+     "publisher": "ヘルスケアテクノロジーズ",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "未確認",
+    "definition": "利用者数・導入法人数の公表を今回は確認できず",
+    "scope": "事業群",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [
+   {
+    "t": "2020-07〜2022-12",
+    "what": "HELPO（チャット健康医療相談・病院検索・EC。2021-06 にオンライン診療、2021-11 に遠隔特定保健指導を追加）",
+    "user": "企業・自治体の従業員・住民",
+    "pay": "企業・自治体",
+    "bear": "企業・自治体",
+    "channel": "法人・自治体と直接契約",
+    "operator": "ヘルスケアテクノロジーズ（ソフトバンクの子会社、2022-07 に完全子会社）"
+   },
+   {
+    "t": "2022-12〜いま",
+    "what": "HELPO（法人向けに加え個人向け有料プラン）。2024-12 から HELPOドクター（LINE）",
+    "user": "従業員・加入者・個人・LINE 利用者",
+    "pay": "企業・健保・自治体、個人（月額550円）、HELPOドクターの患者（660円/回を医療機関経由で）",
+    "bear": "企業・健保・自治体、個人",
+    "channel": "直接契約、提携先（ワイモバイル・FWD生命）、取次（セールスパートナー）、LINE 公式アカウント",
+    "operator": "ヘルスケアテクノロジーズ"
+   }
+  ],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "https://healthcare-tech.co.jp/c/service/（個人 月額550円）、https://healthcare-tech.co.jp/service/helpo-doctor/（660円/回）",
+   "faq": "https://faq.healthcare-tech.co.jp/category/show/188?site_domain=corp",
+   "tokushoho": "無し（HELPOドクターの FAQ は各医療機関の特定商取引法の表記を参照と案内）",
+   "terms": "https://healthcare-tech.co.jp/terms/tos",
+   "appStore": "無し（今回はアプリストアの掲載を開いていない。HELPOドクターは LINE 公式アカウント）",
+   "checkedAt": "2026-11-19"
+  },
+  "checked": {
+   "pricing": "https://healthcare-tech.co.jp/c/service/（個人 月額550円）、https://healthcare-tech.co.jp/service/helpo-doctor/（660円/回）",
+   "faq": "https://faq.healthcare-tech.co.jp/category/show/188?site_domain=corp",
+   "tokushoho": "https://lic.helpo.blue/service-guide/（HELPO有料プランに関する特定商取引法広告表示。HELPOドクターの FAQ は各医療機関の特商法の表記を参照と案内）",
+   "terms": "https://healthcare-tech.co.jp/terms/tos",
+   "appStore": "https://apps.apple.com/jp/app/id1489681129（HELPO、無料、個人利用は月額550円と記載、最新 3.18.0 は 2026-11-16、初版 2020-04-07）。HELPOドクターは LINE 公式アカウント（https://lin.ee/POfpQ2o）"
+  }
+ },
+ "b-5484e79f": {
+  "id": "b-5484e79f",
+  "name": "EIRL Chest CT／EIRL Chest CT Basic（医用画像解析ソフトウェア EIRL Chest CT2／EIRL Chest CT）",
+  "checkedAt": "2026-11-19",
+  "entity": "エルピクセル株式会社（両製品の製造販売業者・販売者。法人番号 2011001099036）",
+  "recordKind": "group",
+  "members": [
+   {
+    "name": "EIRL Chest CT（販売名：医用画像解析ソフトウェア EIRL Chest CT2。胸部CTの肺結節候補領域の検出と計測）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "承認 30700BZX00064000（2025-03-25、X線画像診断装置ワークステーション用プログラム）",
+    "startedAt": "2025-04-07（承認取得・販売開始の発表日）",
+    "hp": "https://eirl.ai/ja/eirl-chest_ct2/",
+    "sources": [
+     {
+      "url": "https://eirl.ai/ja/eirl-chest_ct2/",
+      "publisher": "エルピクセル（EIRL Chest CT 製品ページ）",
+      "published": ""
+     },
+     {
+      "url": "https://prtimes.jp/main/html/rd/p/000000080.000010005.html",
+      "publisher": "エルピクセル",
+      "published": "2025-04-07"
+     },
+     {
+      "url": "https://prtimes.jp/main/html/rd/p/000000095.000010005.html",
+      "publisher": "エルピクセル",
+      "published": "2026-08-18"
+     }
+    ],
+    "note": "2026-08-18 に計測項目（2次元短径・長短径の平均径・3次元長径）と RaySum 画像への結果表示を足した新バージョンの提供を開始。製品ページは公開中で問い合わせを受け付けているが、サイトの製品ラインナップのメニューからはリンクされていない（2026-11-19 閲覧）。EOL/EOS 一覧では「EIRL Chest CT」（販売名 EIRL Chest CT 2）として Chest CT Basic と別に管理。"
+   },
+   {
+    "name": "EIRL Chest CT Basic（販売名：医用画像解析ソフトウェア EIRL Chest CT。胸部CTの肺野の関心領域の抽出と計測）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "認証 304AGBZX00037Z00（汎用画像診断装置ワークステーション用プログラム、管理医療機器・クラスII。2022-04-04 の発表で認証取得・販売開始）",
+    "startedAt": "2022-04-04（認証取得・販売開始の発表日）",
+    "hp": "https://eirl.ai/ja/eirl-chest_ct/",
+    "sources": [
+     {
+      "url": "https://eirl.ai/ja/eirl-chest_ct/",
+      "publisher": "エルピクセル（EIRL Chest CT Basic 製品ページ）",
+      "published": ""
+     },
+     {
+      "url": "https://eirl.ai/ja/lineup/",
+      "publisher": "エルピクセル（EIRL 製品ラインナップ）",
+      "published": ""
+     },
+     {
+      "url": "https://prtimes.jp/main/html/rd/p/000000047.000010005.html",
+      "publisher": "エルピクセル",
+      "published": "2022-04-04"
+     }
+    ],
+    "note": "2022-04-04 の発表「胸部CT画像の読影を支援するEIRL Chest CTの販売を開始」（当時の製品名は EIRL Chest CT。肺野の関心領域を抽出し体積と最大径を測定）。発表の認証番号の表記は 304AGBZX00037000 で、PMDA・製品ページの 304AGBZX00037Z00 と末尾が違う。いまは製品ラインナップに「EIRL Chest CT Basic：胸部CT画像から肺野領域の関心領域を抽出」として載る。EOL/EOS 一覧（2026-10-19）では旧バージョンの EOL が 2026-04〜2027-05 の間に順に設定されている。"
+   }
+  ],
+  "problem": {
+   "domain": "画像診断（胸部CT・肺結節／肺がん検診）",
+   "who": "胸部CTを読影する医師（放射線科医・健診施設や病院の医師。専門医・非専門医）",
+   "situation": "低線量CT検診の推奨（2025）や薄いスライスで1検査あたりの画像枚数が増え、肺結節の見落とし（10mmを超えても見落とすことがある）や、ガイドラインに沿った大きさの計測を手作業で行う負担が大きい。二重読影をしていない施設が3割以上あるとされる。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000080.000010005.html",
+     "publisher": "エルピクセル",
+     "published": "2025-04-07"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000095.000010005.html",
+     "publisher": "エルピクセル",
+     "published": "2026-08-18"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "胸部CTを解析する2つのプログラム医療機器。EIRL Chest CT（販売名 Chest CT2）は肺結節候補領域（充実型3〜30mm、部分充実型・すりガラス型5〜30mm）を検出して縁取りし、体積・径・CT値を自動計測する。EIRL Chest CT Basic（販売名 Chest CT）は肺野の関心領域を抽出して同様に計測する。どちらも PACS・モダリティと DICOM で連携するオンプレミス型（EIRL Cloud の FAQ「胸部CT、頭部MRIなどはオンプレミス型でご用意」）。専用機器は付かない。EIRL シリーズ全体は事業群の記録 eirl にまとめられており、本記録はその中の胸部CTの2製品。",
+   "sources": [
+    {
+     "url": "https://eirl.ai/ja/eirl-chest_ct2/",
+     "publisher": "エルピクセル（EIRL Chest CT 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://eirl.ai/ja/eirl-chest_ct/",
+     "publisher": "エルピクセル（EIRL Chest CT Basic 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://eirl.ai/ja/eirl-cloud/",
+     "publisher": "エルピクセル（EIRL Cloud・よくあるご質問）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "エルピクセル"
+   ],
+   "mah": [
+    "エルピクセル（Chest CT2 承認 30700BZX00064000、Chest CT 認証 304AGBZX00037Z00）"
+   ],
+   "seller": [
+    "エルピクセル",
+    "代理店（EOL/EOS 一覧に「弊社担当者またはご担当の代理店様までお問い合わせください」。代理店名は記載なし）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医師・診療放射線技師"
+   ],
+   "outputUser": [
+    "読影する医師"
+   ],
+   "subject": [
+    "受診者・患者（CT画像が解析される）"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関・健診施設"
+   ],
+   "directPayer": [
+    "医療機関・健診施設（初期導入費用と、月の解析件数に応じた月額費用。直接契約のとき）",
+    "未確認（代理店経由のとき、エルピクセルが代理店から受け取るか）"
+   ],
+   "finalBearer": [
+    "医療機関・健診施設（自施設の経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://eirl.ai/ja/lineup/",
+     "publisher": "エルピクセル（EIRL 製品ラインナップ・価格）",
+     "published": ""
+    },
+    {
+     "url": "https://eirl.ai/ja/wp-content/uploads/2026/10/20261019_EOL_EOSバージョン一覧表（HP掲載確認用）.pdf",
+     "publisher": "エルピクセル（EOL/EOS 一覧表）",
+     "published": "2026-10-19"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "初期費用・導入費",
+    "従量課金（件数・回数・処方数）"
+   ],
+   "detail": "製品ラインナップの「EIRLの価格・導入の流れ」：初期導入費用（保守費用・バージョンアップ費用込み）と、月額費用（月に行った解析件数に応じた費用のみ）。金額は問い合わせ・提案。月額定額の EIRL Cloud（初期 20万円・月 2.5万円など）は胸部X線だけで、胸部CTは対象外。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "医療機関・健診施設の経費で、画像診断の診療収入・検診収入でまかなう関係。製品自体の保険点数は確認できない。",
+   "unknown": "金額、代理店経由のときの対価の流れ",
+   "productSales": "あり",
+   "productSalesDetail": "2製品とも製品ページで問い合わせ・資料請求を受け付け、Chest CT2 は 2025-04 に販売開始を発表。",
+   "sources": [
+    {
+     "url": "https://eirl.ai/ja/lineup/",
+     "publisher": "エルピクセル（EIRL 製品ラインナップ）",
+     "published": ""
+    },
+    {
+     "url": "https://eirl.ai/ja/eirl-cloud/",
+     "publisher": "エルピクセル（EIRL Cloud）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "直接契約",
+    "代理店"
+   ],
+   "delivery": [],
+   "detail": "エルピクセルが問い合わせ・提案から導入（オンプレミス）。EOL/EOS 一覧に「ご担当の代理店様」とあり代理店経由の販売もあるが、代理店名と割合は記載なし。EIRL シリーズの M3 AI Platform（エムスリーAI）には胸部CTの EIRL 製品は載っていない（同 Platform の胸部CTは VUNO 製）。",
+   "sources": [
+    {
+     "url": "https://eirl.ai/ja/lineup/",
+     "publisher": "エルピクセル（EIRL 製品ラインナップ）",
+     "published": ""
+    },
+    {
+     "url": "https://eirl.ai/ja/wp-content/uploads/2026/10/20261019_EOL_EOSバージョン一覧表（HP掲載確認用）.pdf",
+     "publisher": "エルピクセル（EOL/EOS 一覧表）",
+     "published": "2026-10-19"
+    },
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/m3-ai-platform",
+     "publisher": "エムスリーAI（M3 AI Platform）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "EIRL Chest CT2：製造販売承認 30700BZX00064000（2025-03-25、X線画像診断装置ワークステーション用プログラム、改良医療機器・臨床なし）。EIRL Chest CT：製造販売認証 304AGBZX00037Z00（汎用画像診断装置ワークステーション用プログラム、管理医療機器・クラスII、疾病診断用プログラム）。PMDA の添付文書はどちらも 2026-08-17 版。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304AGBZX00037Z00_C_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧：EIRL Chest CT）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30700BZX00064000_A_01",
+     "publisher": "PMDA（X線画像診断装置ワークステーション用プログラム 一覧：EIRL Chest CT2）",
+     "published": ""
+    },
+    {
+     "url": "https://eirl.ai/ja/eirl-chest_ct2/",
+     "publisher": "エルピクセル（EIRL Chest CT 製品ページ）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "画像診断（保険診療）や肺がん検診の中で使う。製品に対応する点数・材料価格は確認できず。",
+   "sources": [
+    {
+     "url": "https://eirl.ai/ja/eirl-chest_ct2/",
+     "publisher": "エルピクセル（EIRL Chest CT 製品ページ）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "Chest CT Basic（販売名 EIRL Chest CT）は 2022-04-04 に認証取得・販売開始を発表し、いまも製品ラインナップに載っている。Chest CT2 は 2025-04-07 に承認取得・販売開始を発表し、2026-08-18 に新バージョンの提供開始を発表した。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000047.000010005.html",
+     "publisher": "エルピクセル",
+     "published": "2022-04-04"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000080.000010005.html",
+     "publisher": "エルピクセル",
+     "published": "2025-04-07"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000095.000010005.html",
+     "publisher": "エルピクセル",
+     "published": "2026-08-18"
+    },
+    {
+     "url": "https://eirl.ai/ja/lineup/",
+     "publisher": "エルピクセル（EIRL 製品ラインナップ）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "2製品とも製品ページが公開中で問い合わせを受け付けている（2026-11-19 閲覧）。2026-08-18 に Chest CT2 の新バージョンの提供開始を発表。",
+   "signals": [
+    "製品ページ2つが公開中（Chest CT2 のページはメニューからリンクなし）",
+    "2026-08-18 新バージョン発表",
+    "EOL/EOS 一覧（2026-10-19）に両製品のバージョン別の期日あり"
+   ],
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000095.000010005.html",
+     "publisher": "エルピクセル",
+     "published": "2026-08-18"
+    },
+    {
+     "url": "https://eirl.ai/ja/eirl-chest_ct/",
+     "publisher": "エルピクセル（EIRL Chest CT Basic 製品ページ）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "Chest CT2 の製品ページ「AIによる検出支援、定量的情報の提供」「AIと医師によるダブルチェック体制の構築」、Chest CT Basic の製品ページ「AIによる関心領域、定量的情報の提供」。",
+   "sources": [
+    {
+     "url": "https://eirl.ai/ja/eirl-chest_ct2/",
+     "publisher": "エルピクセル（EIRL Chest CT 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://eirl.ai/ja/eirl-chest_ct/",
+     "publisher": "エルピクセル（EIRL Chest CT Basic 製品ページ）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "EIRL シリーズの導入施設数",
+    "definition": "発表の会社紹介「大学病院から診療所まで1200施設以上に幅広く導入され、47都道府県すべてで活用」。同じ文の総解析件数1600万件には「2026年2月末時点、トライアル含む」の注がある。施設数がトライアルや解約済みを含むかは書かれていない。胸部CTの製品単体の数ではない",
+    "scope": "製品群（EIRL シリーズ全体）",
+    "value": "1,200施設以上",
+    "asOf": "2026-02",
+    "source": {
+     "url": "https://prtimes.jp/main/html/rd/p/000000095.000010005.html",
+     "publisher": "エルピクセル",
+     "published": "2026-08-18"
+    },
+    "ref": true
+   },
+   {
+    "metric": "胸部CT製品単体の導入数",
+    "definition": "製品単体の導入数・解析件数の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "https://eirl.ai/ja/lineup/（価格の説明）, https://eirl.ai/ja/eirl-cloud/（CT は対象外）",
+   "faq": "https://eirl.ai/ja/eirl-cloud/（よくあるご質問）",
+   "tokushoho": "https://eirl.ai/ja/terms-tokutei/（EIRL Cloud のクレジットカード決済向け）",
+   "terms": "無し（オンプレミス型の契約書式は非公開）",
+   "appStore": "無し（アプリ配信なし）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-fdc31d49": {
+  "id": "b-fdc31d49",
+  "name": "頭部CT画像解析AIエンジン DoctorNET Heuron CTS",
+  "checkedAt": "2026-11-19",
+  "entity": "株式会社ドクターネット（製造販売業者・販売者。AI-RAD で医療機関に提供する。法人番号 7010401088511）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "画像診断（頭部CT・脳卒中の救急）",
+   "who": "夜間・休日の救急外来で頭部CTを見る当直医、放射線科医の少ない地方の医療機関",
+   "situation": "放射線科医が常駐する救急病院は13.4%にとどまり、夜間・休日は勤務医1人で頭部CTを判断することが多い。脳卒中に慣れた医師がいないとMRIの追加や専門医の呼び出しで判断が遅れる。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000009.000043643.html",
+     "publisher": "ドクターネット",
+     "published": "2025-10-07"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "頭部の非造影CTから頭蓋内の高吸収領域を抽出して体積を計測し、あらかじめ決めた10か所の関心領域で低吸収傾向を強調して CT 値を計測する AI エンジン（プログラム医療機器）。韓国 Heuron Co., Ltd. と共同開発。ドクターネットの AI エンジン基盤「AI-RAD」で提供し、結果は遠隔読影と同じ流れのレポートで返す。病名の判定ではなく領域の抽出・計測。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000009.000043643.html",
+     "publisher": "ドクターネット",
+     "published": "2025-10-07"
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "ドクターネット",
+    "Heuron Co., Ltd.（韓国。共同開発）"
+   ],
+   "mah": [
+    "ドクターネット（指定管理医療機器 認証 307AGBZX00052000）"
+   ],
+   "seller": [
+    "ドクターネット（AI-RAD）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医療機関（画像を AI-RAD に送る診療放射線技師・医師）"
+   ],
+   "outputUser": [
+    "救急外来の当直医・頭部が専門でない医師、読影する医師"
+   ],
+   "subject": [
+    "頭部CTを撮った患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関"
+   ],
+   "directPayer": [
+    "医療機関（AI-RAD の従量課金の解析料。見積り）"
+   ],
+   "finalBearer": [
+    "医療機関（自院の経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/307AGBZX00052000_A_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "従量課金（件数・回数・処方数）"
+   ],
+   "detail": "AI-RAD の料金体系「1件からご利用いただける従量課金プラン」「ご施設様の要望に合わせてお見積り」。発表も「解析料金は従量制のため、初期投資を抑えて導入」。導入時の初期設定・操作説明・運用支援はドクターネットが行う（費用の記載なし）。同社の別エンジン（JLK-CRP 2021、MONCAD CTLN 2025-01）の発表では「月額利用料金と一症例あたりの解析料」とされたが、Heuron CTS の資料に月額の記載はない。Heuron 社との対価の分け方は記載なし。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "医療機関の経費で、画像診断・救急の診療収入でまかなう関係。製品の保険点数はない。",
+   "unknown": "金額、月額料金の有無、Heuron 社との対価の分け方",
+   "productSales": "あり",
+   "productSalesDetail": "AI-RAD のエンジンとして掲載し、問い合わせフォームで「興味のあるエンジン」に選べる。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000009.000043643.html",
+     "publisher": "ドクターネット",
+     "published": "2025-10-07"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [],
+   "detail": "ドクターネットが医療機関と直接契約（問い合わせ→打ち合わせ→調査・手続き→端末納品・院内システム連携）。遠隔読影を使っている約1,500施設は既存の依頼システムのまま使え、新しい施設にも初期設定・運用支援を行う。代理店の記載なし。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000009.000043643.html",
+     "publisher": "ドクターネット",
+     "published": "2025-10-07"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "指定管理医療機器の製造販売認証 307AGBZX00052000（2025-10-02、汎用画像診断装置ワークステーション用プログラム、クラスII、プログラム（01）疾病診断用プログラム）。製造販売業者はドクターネット（PMDA 一覧、添付文書 2025-10-03 版）。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/307AGBZX00052000_A_01",
+     "publisher": "PMDA（医療機器 添付文書等情報）",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD 薬事情報）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "救急の頭部CT（保険診療）の中で使う。製品に対応する点数は確認できず。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "認証取得の発表（2025-10-07）で「2025年10月下旬から AI-RAD を通じて提供開始」の予定。AI-RAD のページにエンジンとして掲載され、導入相談を受け付けている（提供開始日そのものの告知は見ていない）。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000009.000043643.html",
+     "publisher": "ドクターネット",
+     "published": "2025-10-07"
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "AI-RAD のエンジン一覧・薬事情報に掲載（2026-11-19 閲覧）。",
+   "signals": [
+    "AI-RAD のページに掲載・問い合わせ受付中"
+   ],
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "製品名・発表とも「AIエンジン」。AI-RAD は「人工知能による読影・画像診断支援プラットフォーム」。",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000009.000043643.html",
+     "publisher": "ドクターネット",
+     "published": "2025-10-07"
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "ドクターネットのサービス利用施設数",
+    "definition": "遠隔画像診断支援サービスを使う医療機関数（「全国約1,500の医療機関と提携」）。Heuron CTS の導入数ではない",
+    "scope": "事業全体（遠隔画像診断支援）",
+    "value": "約1,500施設",
+    "asOf": "2025-10",
+    "source": {
+     "url": "https://prtimes.jp/main/html/rd/p/000000009.000043643.html",
+     "publisher": "ドクターネット",
+     "published": "2025-10-07"
+    },
+    "ref": true
+   },
+   {
+    "metric": "Heuron CTS の導入数",
+    "definition": "製品単体の導入数・解析件数の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "https://dr-net.co.jp/service/airad/（料金体系）",
+   "faq": "無し（AI-RAD のページに FAQ なし）",
+   "tokushoho": "無し（法人向けで掲載なし）",
+   "terms": "無し（契約書式は非公開）",
+   "appStore": "無し（アプリ配信なし）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-8dc219fc": {
+  "id": "b-8dc219fc",
+  "name": "線維化を伴う間質性肺疾患検出支援プログラム BMAX",
+  "checkedAt": "2026-11-19",
+  "entity": "コスモテック株式会社（BMAX の製造販売業者。エムスリーの子会社）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "呼吸器（線維化を伴う間質性肺疾患〔線維化ILD〕の早期発見）",
+   "who": "胸部X線を読むかかりつけ医など、呼吸器が専門でない医師",
+   "situation": "軽い線維化ILDに見られる網状影・すりガラス陰影は胸部X線では見つけにくく、専門医でも難しい。進行すると予後が悪いため早期の診断と専門医への紹介が大事だが、見落としや紹介をためらうことが起こる。",
+   "sources": [
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/BMAX",
+     "publisher": "エムスリーAI（BMAX 製品サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "胸部X線（立位PA、FPD/CR）から線維化ILDの所見を検出し、確信度スコア（0〜1）と、閾値0.299を超えたときのアラートマークを表示するプログラム医療機器。エムスリーと日本ベーリンガーインゲルハイムが2020-12の業務提携に基づき共同開発し、European Respiratory Journal に載ったアルゴリズムを改良したもの。エムスリーAI の M3 AI Platform で、他の画像診断支援 AI と一緒に使える（院内にエッジサーバーを置き PACS と連携）。",
+   "sources": [
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/BMAX",
+     "publisher": "エムスリーAI（BMAX 製品サイト）",
+     "published": ""
+    },
+    {
+     "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/3VBNJt9btm7bysLNmhvvKh/989544909b7775933c77373fe7a9e8bc/20231130_Public_J.pdf",
+     "publisher": "エムスリー・日本ベーリンガーインゲルハイム",
+     "published": "2023-11-30"
+    },
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/m3-ai-platform",
+     "publisher": "エムスリーAI（M3 AI Platform）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "エムスリー",
+    "日本ベーリンガーインゲルハイム（共同開発）"
+   ],
+   "mah": [
+    "コスモテック（承認 30500BZX00262000。エムスリーグループ）"
+   ],
+   "seller": [
+    "エムスリーAI株式会社（製品サイトの「販売業者」。エムスリーと PSP の合弁）"
+   ],
+   "operator": [
+    "エムスリーAI（M3 AI Platform の運営）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "医師・診療放射線技師"
+   ],
+   "outputUser": [
+    "胸部X線を読影する医師（かかりつけ医・非専門医）"
+   ],
+   "subject": [
+    "胸部X線を撮った患者・受診者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関（M3 AI Platform の申込施設）"
+   ],
+   "directPayer": [
+    "未確認（コスモテックが販売業者エムスリーAI から何を受け取るかは資料に記載なし）"
+   ],
+   "finalBearer": [
+    "医療機関（M3 AI Platform の利用料として。料金は非公開）"
+   ],
+   "sources": [
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/BMAX",
+     "publisher": "エムスリーAI（BMAX 製品サイト）",
+     "published": ""
+    },
+    {
+     "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/3VBNJt9btm7bysLNmhvvKh/989544909b7775933c77373fe7a9e8bc/20231130_Public_J.pdf",
+     "publisher": "エムスリー・日本ベーリンガーインゲルハイム",
+     "published": "2023-11-30"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "未確認：製造販売業者コスモテックの収入の形（販売業者エムスリーAI への販売代金か、ライセンス料か）は資料に記載なし。医療機関の料金も非公開で、m3.com AI Lab の記事（2024-11-17）に「導入費用を抑えた特別プランを用意」とあるだけ（詳細は会員限定）。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "販売先は医療機関（M3 AI Platform の申込施設）。価格は分からないが、医療機関の経費として負担し、画像診断・外来の診療収入でまかなう関係。製品の保険点数は確認できない。",
+   "unknown": "コスモテックとエムスリーAI の間の取引の形と対価、医療機関の料金の形と金額、日本ベーリンガーインゲルハイムへの対価の有無",
+   "productSales": "あり",
+   "productSalesDetail": "2023-11 から M3 AI Platform で提供（製品サイトで問い合わせ・AI トライアルを受付中）。",
+   "sources": [
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/BMAX",
+     "publisher": "エムスリーAI（BMAX 製品サイト）",
+     "published": ""
+    },
+    {
+     "url": "https://medicalai.m3.com/open/news/241117-bmax",
+     "publisher": "m3.com AI Lab（エムスリーAIラボ事務局）",
+     "published": "2024-11-17"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "提携先"
+   ],
+   "deal": [
+    "販売提携"
+   ],
+   "delivery": [],
+   "detail": "製造販売業者コスモテックの製品を、販売業者のエムスリーAI が自社の M3 AI Platform に載せて医療機関に提供する。医療機関は問い合わせ→Web 面談・無料 AI 解析体験→申込み→エッジサーバー設置（PACS と通信）の流れ。PSP の NOBORI CUBE 経由でも M3 AI Platform の AI を使える（M3 AI Platform の記録 b-9d4bcea3）。",
+   "sources": [
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/BMAX",
+     "publisher": "エムスリーAI（BMAX 製品サイト）",
+     "published": ""
+    },
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/m3-ai-platform",
+     "publisher": "エムスリーAI（M3 AI Platform）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "製造販売承認 30500BZX00262000（2023-11-20、X線画像診断装置ワークステーション用プログラム、管理医療機器・クラスII、改良医療機器・臨床なし）。製造販売業者コスモテック（PMDA 一覧、添付文書 2024-01-10 版）。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30500BZX00262000_A_01",
+     "publisher": "PMDA（医療機器 添付文書等情報）",
+     "published": ""
+    },
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/BMAX",
+     "publisher": "エムスリーAI（BMAX 製品サイト・基本情報）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "胸部X線検査（保険診療・健診）の中で使う。製品の点数は確認できず。",
+   "sources": [
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/BMAX",
+     "publisher": "エムスリーAI（BMAX 製品サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "2023-11 に M3 AI Platform で提供開始（2023-11-30 発表）。製品サイトは公開中で問い合わせを受け付けている。",
+   "sources": [
+    {
+     "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/3VBNJt9btm7bysLNmhvvKh/989544909b7775933c77373fe7a9e8bc/20231130_Public_J.pdf",
+     "publisher": "エムスリー・日本ベーリンガーインゲルハイム",
+     "published": "2023-11-30"
+    },
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/BMAX",
+     "publisher": "エムスリーAI（BMAX 製品サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "BMAX 製品サイトと M3 AI Platform のページに掲載、AI トライアルを受付中（2026-11-19 閲覧）。",
+   "signals": [
+    "製品サイト公開中",
+    "M3 AI Platform に「線維化ILD」として掲載"
+   ],
+   "sources": [
+    {
+     "url": "https://m3comlp.m3.com/lp/m3com/m3-ai-platform",
+     "publisher": "エムスリーAI（M3 AI Platform）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "「国内医療機関の4,000枚以上の検査画像データを学習データとして用い、ディープラーニングを活用して開発」（2023-11-30 発表）。製品サイトは「AIソフトウェア」。",
+   "sources": [
+    {
+     "url": "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/3VBNJt9btm7bysLNmhvvKh/989544909b7775933c77373fe7a9e8bc/20231130_Public_J.pdf",
+     "publisher": "エムスリー・日本ベーリンガーインゲルハイム",
+     "published": "2023-11-30"
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "導入施設数",
+    "definition": "製品サイト・M3 AI Platform に導入数の記載がない",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "無し（料金ページなし。https://medicalai.m3.com/open/news/241117-bmax に「特別プラン」とだけ記載）",
+   "faq": "無し（製品サイトに FAQ なし）",
+   "tokushoho": "無し（法人向け）",
+   "terms": "無し（契約書式は非公開）",
+   "appStore": "無し（アプリ配信なし）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-3b96797d": {
+  "id": "b-3b96797d",
+  "name": "胸部X線肺炎検出エンジン DoctorNet JLK-CRP",
+  "checkedAt": "2026-11-19",
+  "entity": "株式会社ドクターネット（製造販売業者・販売者。AI-RAD で医療機関に提供する。法人番号 7010401088511）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "画像診断（胸部単純X線・感染性肺炎〔新型コロナ肺炎を含む〕）",
+   "who": "放射線診断専門医のいないクリニック・市中病院の医師（発熱外来など）",
+   "situation": "胸部単純X線はCTより感染性肺炎の所見を読み取りにくく見落としが多い。COVID-19疑い患者を、普及しているX線装置で早く振り分ける必要があった。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/news/2021/press_release/1284/",
+     "publisher": "ドクターネット",
+     "published": "2021-12"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "胸部X線画像を自動解析し、感染性肺炎所見の確信度と着目領域（AI-RAD のページでは「肺炎の確信度に応じたラベル・病変上のヒートマップ」）を出すプログラム医療機器。韓国 JLK 社との共同の取り組み（京都府立医科大学・津山中央病院が協力）。ドクターネットの AI エンジン基盤「AI-RAD」で提供し、AI 単体でも、医師による遠隔読影と併せても使える。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/news/2021/press_release/1284/",
+     "publisher": "ドクターネット",
+     "published": "2021-12"
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "ドクターネット",
+    "JLK（韓国。共同の取り組み）"
+   ],
+   "mah": [
+    "ドクターネット（承認 30300BZX00339000）"
+   ],
+   "seller": [
+    "ドクターネット（AI-RAD）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医療機関（画像を AI-RAD に送る技師・医師）"
+   ],
+   "outputUser": [
+    "発熱外来・クリニック・市中病院の医師"
+   ],
+   "subject": [
+    "胸部X線を撮った患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関"
+   ],
+   "directPayer": [
+    "医療機関（AI-RAD の従量課金の解析料。見積り）"
+   ],
+   "finalBearer": [
+    "医療機関（自院の経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00339000_A_01",
+     "publisher": "PMDA（X線画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "従量課金（件数・回数・処方数）"
+   ],
+   "detail": "いまの AI-RAD の料金体系は「1件からご利用いただける従量課金プラン」「ご施設様の要望に合わせてお見積り」。承認取得時の発表（2021-12-16）は「AIエンジンの利用料は、月額利用料金と一症例あたりの解析料」「医師への読影依頼の場合は別途、読影料」としていたが、いまの料金の欄に月額の記載はない。JLK 社との対価の分け方は記載なし。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "医療機関の経費で、外来・画像診断の診療収入でまかなう関係。製品の保険点数はない。",
+   "unknown": "金額、いまの月額料金の有無、JLK 社との対価の分け方",
+   "productSales": "あり",
+   "productSalesDetail": "AI-RAD のエンジンとして掲載中（2021-12 に提供・販売を開始）。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/news/2021/press_release/1284/",
+     "publisher": "ドクターネット",
+     "published": "2021-12-16"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [],
+   "detail": "ドクターネットが医療機関と直接契約し、AI-RAD（遠隔依頼システム）上で提供する。既存の遠隔読影の利用施設は新しい導入作業なしで使える。代理店の記載なし。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/news/2021/press_release/1284/",
+     "publisher": "ドクターネット",
+     "published": "2021-12"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "製造販売承認 30300BZX00339000（2021-12-09、X線画像診断装置ワークステーション用プログラム、クラスII、プログラム（01）疾病診断用プログラム）。製造販売業者はドクターネット（PMDA 一覧、添付文書 2026-08-19 版）。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00339000_A_01",
+     "publisher": "PMDA（医療機器 添付文書等情報）",
+     "published": ""
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD 薬事情報）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "外来の胸部X線（保険診療）の中で使う。製品の点数は確認できず。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "2021-12-16 の発表で、承認（2021-12-09）と、AI-RAD での提供・販売を 2021-12 から始めることを発表。いまも AI-RAD のエンジン詳細と薬事情報に載り、問い合わせを受け付けている（2026-11-19 閲覧）。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/news/2021/press_release/1284/",
+     "publisher": "ドクターネット",
+     "published": "2021-12-16"
+    },
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "AI-RAD のエンジン一覧・薬事情報に掲載（2026-11-19 閲覧）。添付文書は 2026-08-19 に更新。",
+   "signals": [
+    "AI-RAD のページに掲載・問い合わせ受付中",
+    "PMDA の添付文書 2026-08-19 版"
+   ],
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "「約20万症例を学習用画像として用い、深層学習（ディープラーニング）の畳み込みニューラルネットワーク技術の DenseNet アルゴリズムおよび Class Activation Map アルゴリズムにより開発」（2021-12 発表）。",
+   "sources": [
+    {
+     "url": "https://dr-net.co.jp/news/2021/press_release/1284/",
+     "publisher": "ドクターネット",
+     "published": "2021-12"
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "ドクターネットのサービス利用施設数",
+    "definition": "AI-RAD のページ「1500施設の遠隔読影をサポート」（遠隔読影全体。JLK-CRP の導入数ではない。累計か時点かの記載なし）",
+    "scope": "事業全体（遠隔読影）",
+    "value": "1,500施設",
+    "asOf": "未確認（2026-11-19 閲覧時の掲載）",
+    "source": {
+     "url": "https://dr-net.co.jp/service/airad/",
+     "publisher": "ドクターネット（AI-RAD）",
+     "published": ""
+    },
+    "ref": true
+   },
+   {
+    "metric": "JLK-CRP の導入数",
+    "definition": "製品単体の導入数・解析件数の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "https://dr-net.co.jp/service/airad/（料金体系）",
+   "faq": "無し（FAQ なし）",
+   "tokushoho": "無し（法人向けで掲載なし）",
+   "terms": "無し（契約書式は非公開）",
+   "appStore": "無し（アプリ配信なし）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-73b1a8ed": {
+  "id": "b-73b1a8ed",
+  "name": "京都プロメドの遠隔画像診断「システム連携プラン」",
+  "checkedAt": "2026-11-19",
+  "entity": "京都プロメド株式会社（遠隔画像診断サービスの提供会社。法人番号 3130001028784）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "画像診断（読影医の不足・院内システムとの連携）",
+   "who": "CT/MRI などの読影依頼が多い（月1,000件程度まで）病院",
+   "situation": "自院で放射線診断専門医が読影しきれず、外部に依頼する場合も依頼情報の手入力の手間・誤りや、返ってきた所見を院内のレポートシステムで一元管理できない問題がある。",
+   "sources": [
+    {
+     "url": "https://promed.jp/service/service/system.html",
+     "publisher": "京都プロメド（システム連携プラン）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "受託サービス（専門職による実施）"
+   ],
+   "detail": "京都大学大学院 医学研究科 放射線医学講座の医局に所属する放射線診断専門医（核医学は核医学専門医）が遠隔で読影し、所見を返す。システム連携プランは3つのプラン（ライト・スタンダード・システム連携）の1つで、NTT の IP-VPN 回線を新たに敷き、京都プロメドの遠隔読影端末を置き、院内システムから依頼して確定所見を XML＋PDF で院内レポートシステムに返す（開始まで約2〜3か月）。端末・回線・ルータは基本料に含まれるレンタル。境界：主な分類は読影の受託（医療画像）。AI を使うとの記載はない（領域「画像AI」には当たらない）。",
+   "sources": [
+    {
+     "url": "https://promed.jp/service/service/system.html",
+     "publisher": "京都プロメド（システム連携プラン）",
+     "published": ""
+    },
+    {
+     "url": "https://promed.jp/service/price.html",
+     "publisher": "京都プロメド（料金・プラン）",
+     "published": ""
+    },
+    {
+     "url": "https://promed.jp/service/reason.html",
+     "publisher": "京都プロメド（選ばれる理由）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "京都プロメド（レポートシステム・遠隔読影端末）"
+   ],
+   "mah": [],
+   "seller": [
+    "京都プロメド"
+   ],
+   "operator": [
+    "京都プロメド"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "依頼元病院の職員（院内システムから依頼、PACS 接続で画像転送）"
+   ],
+   "outputUser": [
+    "依頼元病院の医師（確定所見を院内システムで閲覧）"
+   ],
+   "subject": [
+    "検査を受けた患者"
+   ],
+   "supplier": [
+    "京都プロメドの読影医（京大放射線医学講座の医局に所属する放射線診断専門医・核医学専門医）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "病院（医療機関）"
+   ],
+   "directPayer": [
+    "医療機関（初期費用18万円＋院内システム連携費用、基本料 月5万円〜、読影料。銀行振込、当月末締め翌月末払い）"
+   ],
+   "finalBearer": [
+    "医療機関（自院の経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://promed.jp/service/service/system.html",
+     "publisher": "京都プロメド（システム連携プラン）",
+     "published": ""
+    },
+    {
+     "url": "https://promed.jp/service/reason.html",
+     "publisher": "京都プロメド（選ばれる理由）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "初期費用・導入費",
+    "月額・年額の利用料",
+    "受託料",
+    "従量課金（件数・回数・処方数）"
+   ],
+   "detail": "料金（税の表記なし）：初期費用 180,000円（NTT 西日本の専用回線工事・機器設置・交通費を含む。東日本は工事費 80,000円を別に、配線工事・交通費の追加あり）＋院内システム連携費用（別途見積）。基本料 50,000円〜/月（NTT 専用回線料、ルータと遠隔読影端末のレンタル・保守を含む。機器の台数・スペックで変わる）。読影料（全プラン共通、部位・件数ごと）：CT/MR/RI 3,000円/部位、マンモグラフィ 1,500円/件、胸部単純写真 500円/部位、胃透視 1,000円/件、緊急読影加算 500円/件、画像加算 500円（501枚以上500枚ごと）。PET-CT は CT 2件分、全身CT は3件分など（FAQ）。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "医療機関の経費で、画像診断の診療収入でまかなう関係。依頼元が遠隔画像診断を保険でどう算定するか（施設基準・加算）は一次資料で確認していない。",
+   "unknown": "院内システム連携費用の金額、読影医への報酬の形（京大医局との関係）",
+   "productSales": "あり",
+   "productSalesDetail": "料金ページ・プランのページで受付中（単純写真・胃透視・マンモグラフィだけの依頼は新規契約を受け付けていない）。",
+   "sources": [
+    {
+     "url": "https://promed.jp/service/price.html",
+     "publisher": "京都プロメド（料金・プラン）",
+     "published": ""
+    },
+    {
+     "url": "https://www.promed.jp/qa/",
+     "publisher": "京都プロメド（よくあるご質問）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [],
+   "detail": "問い合わせ→ヒアリング・打ち合わせ→回線工事・端末設置→PACS との接続→契約・開始。京都プロメドが医療機関と直接契約。代理店の記載なし。",
+   "sources": [
+    {
+     "url": "https://promed.jp/service/service/system.html",
+     "publisher": "京都プロメド（システム連携プラン）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "専門医による読影の受託と、回線・端末の貸与・院内システム連携。同社は第二種医療機器製造販売業・高度管理医療機器等販売業の許可と医療機器製造業の登録を持ち、PMDA には同社製造販売の画像ビューア「KW ニュートラル Viewer」（汎用画像診断装置ワークステーション用プログラム）が載るが、このプランの端末に使うとは書かれていない。",
+   "sources": [
+    {
+     "url": "https://promed.jp/service/service/system.html",
+     "publisher": "京都プロメド（システム連携プラン）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304AGBZX00037Z00_C_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "依頼元の画像診断（保険診療）の中で使われる。サービスの料金は医療機関との契約料金で、保険償還ではない。",
+   "sources": [
+    {
+     "url": "https://promed.jp/service/price.html",
+     "publisher": "京都プロメド（料金・プラン）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "sources": [
+    {
+     "url": "https://promed.jp/service/service/system.html",
+     "publisher": "京都プロメド（システム連携プラン）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "プランのページ・料金ページが公開中で、問い合わせ・申込を受け付けている（2026-11-19 閲覧）。最新のお知らせは 2025-12-03（年末年始）。単純写真（CR）・胃透視（RF）・マンモグラフィ（MG）だけの依頼は新規契約を受け付けていない。",
+   "signals": [
+    "プラン・料金ページ公開中",
+    "お知らせ 2025-12-03",
+    "CR・RF・MG のみの新規契約は受付停止"
+   ],
+   "sources": [
+    {
+     "url": "https://promed.jp/service/price.html",
+     "publisher": "京都プロメド（料金・プラン）",
+     "published": ""
+    },
+    {
+     "url": "https://www.promed.jp/news/",
+     "publisher": "京都プロメド（新着情報）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "サービスサイト・会社概要に AI・機械学習の記載はない。FAQ の「Ai読影」は死亡時画像診断（Autopsy imaging）のことで、人工知能ではない。",
+   "sources": [
+    {
+     "url": "https://www.promed.jp/qa/",
+     "publisher": "京都プロメド（よくあるご質問）",
+     "published": ""
+    },
+    {
+     "url": "https://www.promed.jp/about-us/",
+     "publisher": "京都プロメド（会社概要）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "クライアント施設数",
+    "definition": "「合計235施設のクライアント実績」（国公立・労災・赤十字など・民間病院・医院クリニックの内訳あり。3プランの合計で、システム連携プラン単体ではない。累計か時点かは記載なし）",
+    "scope": "事業全体（遠隔画像診断）",
+    "value": "235施設",
+    "asOf": "2024-07",
+    "source": {
+     "url": "https://promed.jp/service/reason.html",
+     "publisher": "京都プロメド（選ばれる理由）",
+     "published": ""
+    },
+    "ref": true
+   },
+   {
+    "metric": "システム連携プランの契約数",
+    "definition": "プラン単体の契約数の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "https://promed.jp/service/price.html",
+   "faq": "https://www.promed.jp/qa/",
+   "tokushoho": "無し（法人向けで掲載なし）",
+   "terms": "無し（契約書式は非公開）",
+   "appStore": "無し（アプリ配信なし）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-55da4be2": {
+  "id": "b-55da4be2",
+  "name": "メディカル革命 byGMO のオンライン診療",
+  "checkedAt": "2026-11-19",
+  "entity": "GMOリザーブプラス株式会社（メディカル革命 byGMO の提供会社。医療機関と直接契約する。法人番号 8010401124298）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "外来のオンライン診療（予約・診療・会計の運用）",
+   "who": "オンライン診療を対面診療と併せて行いたいクリニックと、その患者",
+   "situation": "対面とオンラインの予約を別々に管理する手間、診療費の回収漏れ、診療報酬に比べて月額固定費が重いといった理由で、オンライン診療を取り入れにくい。",
+   "sources": [
+    {
+     "url": "https://medical-reserve.co.jp/products/online",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO オンライン診療）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "医療機関向けのクラウド予約システム「メディカル革命 byGMO」の機能としてのオンライン診療（2022-08 提供開始）。対面とオンラインの予約を一元管理し、予約管理画面からオンライン診療を始め、オンラインカード決済（GMOイプシロンの決済代行サービス「fincode byGMO」と連携）で診療費を請求する。患者は専用アプリ不要で、Web・LINE から予約・受診する。保険診療・自費診療のどちらにも使える。WEB問診・LINE配信などのオプションと組み合わせる。",
+   "sources": [
+    {
+     "url": "https://medical-reserve.co.jp/products/online",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO オンライン診療）",
+     "published": ""
+    },
+    {
+     "url": "https://gmo-reserve.plus/company/history.html",
+     "publisher": "GMOリザーブプラス（沿革）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "GMOリザーブプラス"
+   ],
+   "mah": [],
+   "seller": [
+    "GMOリザーブプラス"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医療機関の医師・スタッフ（予約管理画面からオンライン診療・決済）",
+    "患者（Web・LINE で予約し受診）"
+   ],
+   "outputUser": [
+    "医師"
+   ],
+   "subject": [
+    "患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関"
+   ],
+   "directPayer": [
+    "医療機関（メディカル革命の初期費用・月額基本料金と、オンライン診療の設定初期費用・従量課金）"
+   ],
+   "finalBearer": [
+    "医療機関（自院の経費）"
+   ],
+   "userPaysTo": [
+    "受診した医療機関（診療費。オンラインカード決済は GMOイプシロンの決済代行を通る。メディカル革命 byGMO から患者へのシステム利用料の請求はない）"
+   ],
+   "sources": [
+    {
+     "url": "https://medical-reserve.co.jp/products/online",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO オンライン診療）",
+     "published": ""
+    },
+    {
+     "url": "https://medical-reserve.co.jp/kiyaku",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO 利用規約）",
+     "published": ""
+    },
+    {
+     "url": "https://medical-reserve.co.jp/kiyaku_for_patient",
+     "publisher": "GMOリザーブプラス（利用者向け規約）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "初期費用・導入費",
+    "従量課金（件数・回数・処方数）",
+    "月額・年額の利用料"
+   ],
+   "detail": "オンライン診療のページの料金体系：メディカル革命 byGMO の「初期費用＋月額基本料金」に、オンライン診療は「月額固定費無料」で「設定初期費用・従量課金分」を足す（その他オプションは別料金、定価で環境により別費用）。月額・年額の利用料は前提となるメディカル革命本体の基本料金（DX スタータープランは月1,980円＋1予約100円・初期0円、スタンダードプランは個別見積。税抜）で、オンライン診療自体に月額固定費はない。利用規約第6条も初期費用・月額利用料金・従量課金等を定める。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "医療機関の経費で、オンライン診療の診療収入（保険診療・自費診療）でまかなう関係。患者がシステム利用料を払うことはない（会員登録・サービス利用料は無料）。",
+   "unknown": "オンライン診療の設定初期費用と従量課金の単位（1回あたり・1予約あたりなど）・金額、カード決済の手数料をGMOリザーブプラスが受け取るか（規約では GMOイプシロンと利用者の間の手数料の契約で GMOリザーブプラスが代理権限を持つ）",
+   "productSales": "あり",
+   "productSalesDetail": "オンライン診療のページで問い合わせ・資料請求を受付中。",
+   "sources": [
+    {
+     "url": "https://medical-reserve.co.jp/products/online",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO オンライン診療）",
+     "published": ""
+    },
+    {
+     "url": "https://medical-reserve.co.jp/price",
+     "publisher": "GMOリザーブプラス（料金プラン）",
+     "published": ""
+    },
+    {
+     "url": "https://medical-reserve.co.jp/kiyaku",
+     "publisher": "GMOリザーブプラス（利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [],
+   "detail": "メディカル革命 byGMO を契約したうえでオンライン診療を設定（契約→設定打ち合わせ→導入サポート→利用開始）。本体は Web から法人・個人として申込み（DX スターター）、またはお問い合わせ・見積（スタンダード）。代理店の記載は見ていない。",
+   "sources": [
+    {
+     "url": "https://medical-reserve.co.jp/products/online",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO オンライン診療）",
+     "published": ""
+    },
+    {
+     "url": "https://medical-reserve.co.jp/price",
+     "publisher": "GMOリザーブプラス（料金プラン）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "予約管理・オンライン診療の通信・決済の機能。医療機器の承認・認証の記載なし。",
+   "sources": [
+    {
+     "url": "https://medical-reserve.co.jp/products/online",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO オンライン診療）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）",
+    "対象外（自由診療・検診）"
+   ],
+   "detail": "FAQ「保険診療、自費診療どちらでもご利用可能」。保険診療のオンライン診療で使うときはシステム自体の点数はなく、自費診療で使うときは保険外。",
+   "sources": [
+    {
+     "url": "https://medical-reserve.co.jp/products/online",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO オンライン診療・よくある質問）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "2022-08 提供開始（沿革）。",
+   "sources": [
+    {
+     "url": "https://gmo-reserve.plus/company/history.html",
+     "publisher": "GMOリザーブプラス（沿革）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "オンライン診療の機能ページが公開中で問い合わせを受け付けている（2026-11-19 閲覧）。FAQ に「オンライン診療機能の強化を進めています」。",
+   "signals": [
+    "機能ページ公開中",
+    "2026-08 に本体の契約アカウント数3,000件突破"
+   ],
+   "sources": [
+    {
+     "url": "https://medical-reserve.co.jp/products/online",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO オンライン診療）",
+     "published": ""
+    },
+    {
+     "url": "https://medical-reserve.co.jp/faq",
+     "publisher": "GMOリザーブプラス（よくある質問）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "オンライン診療のページに AI の記載はない（AI は別のオプションの経営分析ツール「AI-board」にのみ記載）。",
+   "sources": [
+    {
+     "url": "https://medical-reserve.co.jp/products/online",
+     "publisher": "GMOリザーブプラス（メディカル革命 byGMO オンライン診療）",
+     "published": ""
+    },
+    {
+     "url": "https://medical-reserve.co.jp/price",
+     "publisher": "GMOリザーブプラス（料金プラン）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "契約アカウント数",
+    "definition": "メディカル革命 byGMO 全体の契約アカウント数（オンライン診療の利用数ではない。オンライン診療のページの「導入実績 3,000件突破」も同じ数と見られる）",
+    "scope": "事業全体（メディカル革命 byGMO）",
+    "value": "3,000件突破",
+    "asOf": "2026-08",
+    "source": {
+     "url": "https://gmo-reserve.plus/company/history.html",
+     "publisher": "GMOリザーブプラス（沿革）",
+     "published": ""
+    },
+    "ref": true
+   },
+   {
+    "metric": "オンライン診療の利用施設数",
+    "definition": "機能単体の利用数の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "https://medical-reserve.co.jp/price, https://medical-reserve.co.jp/products/online（料金体系）",
+   "faq": "https://medical-reserve.co.jp/products/online（よくある質問）, https://medical-reserve.co.jp/faq",
+   "tokushoho": "無し（特定商取引法に基づく表記は見当たらない。法人向け）",
+   "terms": "https://medical-reserve.co.jp/kiyaku, https://medical-reserve.co.jp/kiyaku_for_patient",
+   "appStore": "無し（患者は Web・LINE で使い、専用アプリはない）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-249d8df6": {
+  "id": "b-249d8df6",
+  "name": "日中医療相談（介護施設向けチャット相談）",
+  "checkedAt": "2026-11-19",
+  "entity": "ドクターメイト株式会社（介護施設と契約し利用料を受け取る提供会社。法人番号 4040001102829）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "介護施設入所者の日中の医療的な判断（特に皮膚科）",
+   "who": "特別養護老人ホーム・有料老人ホーム・障害者施設などの看護師・介護職員・施設長",
+   "situation": "嘱託医に専門外の症状を聞きにくく、皮膚科などへの通院は半日がかりで入所者・職員の負担になる。薬が効かないときの対応や家族への説明にも迷う。",
+   "sources": [
+    {
+     "url": "https://doctormate.co.jp/service-2",
+     "publisher": "ドクターメイト（日中医療相談）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "オンライン相談"
+   ],
+   "detail": "施設のタブレット・スマートフォンにドクターメイトのアプリを入れ、日中に同社の医師へチャットで相談する（365日）。ページは「皮膚科のことなら」「ドクターメイトなら皮膚科に特化」と皮膚科を前面に出す。相談後にレポートが届き、嘱託医との連携や家族への報告に使える。利用規約上、医師・看護師の助言は医療行為ではない。境界：主な分類は相談サービスで、関連して同社の「皮膚科オンライン診療サポート」（提携医療機関の診療・処方。別サービス）につながる。夜間オンコール代行・日中医療相談・オンライン診療・研修をまとめた「DMサポート」もある。",
+   "sources": [
+    {
+     "url": "https://doctormate.co.jp/service-2",
+     "publisher": "ドクターメイト（日中医療相談）",
+     "published": ""
+    },
+    {
+     "url": "https://doctormate.co.jp/terms-of-service",
+     "publisher": "ドクターメイト（サービス利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "ドクターメイト（アプリ）"
+   ],
+   "mah": [],
+   "seller": [
+    "ドクターメイト"
+   ],
+   "operator": [
+    "ドクターメイト（同社の医師が回答）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "介護施設の看護師・介護職員・施設長"
+   ],
+   "outputUser": [
+    "介護施設の職員（回答・レポート）",
+    "嘱託医・家族（レポートの共有先）"
+   ],
+   "subject": [
+    "介護施設・障害者施設の入所者"
+   ],
+   "supplier": [
+    "相談に答える医師（ドクターメイトの医師。雇用か委託かは記載なし）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "介護施設・障害者施設"
+   ],
+   "directPayer": [
+    "介護施設・障害者施設（利用料金。個別見積、月単位）"
+   ],
+   "finalBearer": [
+    "介護施設・障害者施設（施設の事業経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://doctormate.co.jp/service-2",
+     "publisher": "ドクターメイト（日中医療相談）",
+     "published": ""
+    },
+    {
+     "url": "https://doctormate.co.jp/terms-of-service",
+     "publisher": "ドクターメイト（サービス利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "月額・年額の利用料"
+   ],
+   "detail": "利用規約第8条：契約者は個別サービスの対価として同社が別に定める利用料金を払い、月の途中で契約しても1か月分の利用料金がかかる（月単位の課金）。FAQ「導入費用はどのくらいかかりますか？」→「個別でお見積り」。金額は非公開。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "介護施設の事業経費として払う（介護報酬・保険でまかなえるとは書かれていない）。FAQ：看護体制加算・夜間看護体制加算は導入しても直接の要件を満たすわけではない（人員などの要件を満たせば取得可能）。",
+   "unknown": "金額、初期費用の有無、DMサポート（まとめた契約）の料金の形",
+   "productSales": "あり",
+   "productSalesDetail": "介護施設と契約して提供（導入施設の事例を掲載）。",
+   "sources": [
+    {
+     "url": "https://doctormate.co.jp/terms-of-service",
+     "publisher": "ドクターメイト（サービス利用規約）",
+     "published": ""
+    },
+    {
+     "url": "https://doctormate.co.jp/service-2",
+     "publisher": "ドクターメイト（日中医療相談・よくある質問）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "介護施設"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [],
+   "detail": "介護施設・障害者施設と直接契約（無料のオンライン商談予約・資料ダウンロード・問い合わせから）。代理店の記載なし。2026-11〜12 の無料トライアル（先着20施設・7日間）は夜間オンコール代行のもので、日中医療相談ではない。",
+   "sources": [
+    {
+     "url": "https://doctormate.co.jp/service-2",
+     "publisher": "ドクターメイト（日中医療相談）",
+     "published": ""
+    },
+    {
+     "url": "https://doctormate.co.jp/free-trial",
+     "publisher": "ドクターメイト（無料トライアル）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "医師によるチャット相談の仕組み。病名の判定を出すソフトではない。",
+   "sources": [
+    {
+     "url": "https://doctormate.co.jp/terms-of-service",
+     "publisher": "ドクターメイト（サービス利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "利用規約第25条：日中医療相談での医師・看護師の助言は医療行為ではない。診療・処方は別サービスの皮膚科オンライン診療サポート（提携医療機関が保険診療として行う）。",
+   "sources": [
+    {
+     "url": "https://doctormate.co.jp/terms-of-service",
+     "publisher": "ドクターメイト（サービス利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "2017-12 提供開始（沿革「介護施設向けチャット相談サービス『日中医療相談』を提供開始」）。",
+   "sources": [
+    {
+     "url": "https://corp.doctormate.co.jp/aboutus/history/",
+     "publisher": "ドクターメイト（沿革）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "サービスページが公開中で、相談予約・資料請求を受け付けている（2026-11-19 閲覧）。",
+   "signals": [
+    "サービスページ公開中"
+   ],
+   "sources": [
+    {
+     "url": "https://doctormate.co.jp/service-2",
+     "publisher": "ドクターメイト（日中医療相談）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "サービスページ・利用規約に AI の記載はない（医師がチャットで答える）。",
+   "sources": [
+    {
+     "url": "https://doctormate.co.jp/service-2",
+     "publisher": "ドクターメイト（日中医療相談）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "医療相談実績",
+    "definition": "サービスページの表記「医療相談実績 21,341以上」（2025年10月時点。累計の相談件数と見られるが、定義の記載なし）",
+    "scope": "製品単体（日中医療相談のページの表記）",
+    "value": "21,341件以上",
+    "asOf": "2025-10",
+    "source": {
+     "url": "https://doctormate.co.jp/service-2",
+     "publisher": "ドクターメイト（日中医療相談）",
+     "published": ""
+    },
+    "ref": false
+   },
+   {
+    "metric": "利用施設数",
+    "definition": "「日中医療相談サービスを含むすべてのサービスのご利用施設合計」（2025年10月時点）",
+    "scope": "会社全体（全サービス合計）",
+    "value": "1,800以上",
+    "asOf": "2025-10",
+    "source": {
+     "url": "https://doctormate.co.jp/service-2",
+     "publisher": "ドクターメイト（日中医療相談）",
+     "published": ""
+    },
+    "ref": true
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "無し（料金ページなし。FAQ で個別見積）",
+   "faq": "https://doctormate.co.jp/service-2（よくある質問）",
+   "tokushoho": "無し（法人向けで掲載なし）",
+   "terms": "https://doctormate.co.jp/terms-of-service",
+   "appStore": "無し（施設端末に入れるアプリだが、ストアの掲載ページは確認していない）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-084da392": {
+  "id": "b-084da392",
+  "name": "診療所向け電子カルテ「ハヤブサ」",
+  "checkedAt": "2026-11-19",
+  "entity": "GMOヘルステック株式会社（いまの提供会社。2025-08-01 に GMOヘルスケア株式会社〔旧 株式会社アイソル、法人番号 8120001099797〕を吸収合併。法人番号 5011001159373）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "診療所の診療記録・会計（電子カルテ・レセコン）",
+   "who": "内科・小児科・整形外科・脳神経外科・精神科などの診療所の医師と受付スタッフ",
+   "situation": "診療科ごとに必要な入力（検査値の取り込み、成長曲線、部位別所見、診断書など）が違い、汎用の電子カルテでは運用に合わない。受付・会計と診察室で別のシステムを使う手間もある。",
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "オンプレミス型のレセコン一体型電子カルテ（2020-02 発売）。受付・会計・診察室で操作が共通、診療科ごとのカスタマイズ、検査機器の数値の直接取り込み、外注・院内検査の一括管理、クラウドバックアップ（標準）。オプションで DICOM ファイリング（PAXIS ビューア）、iPad 問診、リハビリ管理、順番・日時予約（JunNAVi）、電子レセプトチェック、精神科向け診断書作成、医療介護連携の SNS（Team karte）など。",
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.jmedj.co.jp/blogs/product/product_15706",
+     "publisher": "日本医事新報社（【PR】電子カルテカタログ）",
+     "published": "2020"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "旧 アイソル（自社開発）→ GMOヘルステック"
+   ],
+   "mah": [],
+   "seller": [
+    "GMOヘルステック（受付窓口。東京・大阪・福岡）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "診療所の医師・受付スタッフ"
+   ],
+   "outputUser": [
+    "医師"
+   ],
+   "subject": [
+    "患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "診療所"
+   ],
+   "directPayer": [
+    "診療所（料金は非公開）"
+   ],
+   "finalBearer": [
+    "診療所（自院の経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000709.000030257.html",
+     "publisher": "GMOフィナンシャルホールディングス",
+     "published": "2024-05-27"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "未確認：いまの料金・課金の形は公式ページに書かれていない（問い合わせ）。2020 年の【PR】カタログ記事（日本医事新報社、登録 2020-10-21）には「2台構成の初期ライセンス料が35万円（税別）」とある。サポートとして法令改定時のプログラム変更・リモートメンテナンス・新薬情報の自動配信を挙げるが、保守料の有無・金額は書かれていない。旧アイソルの事業内容は「クリニック向け電子カルテシステムの開発・販売・導入・保守等」（2024-05-27 発表）。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "診療所の経費で、診療収入でまかなう関係。",
+   "unknown": "いまのライセンス料・保守料・オプションの料金",
+   "productSales": "あり",
+   "productSalesDetail": "製品ページが公開中で問い合わせを受け付けている。",
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.jmedj.co.jp/blogs/product/product_15706",
+     "publisher": "日本医事新報社（【PR】電子カルテカタログ）",
+     "published": "2020-10-21"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "直接契約"
+   ],
+   "delivery": [],
+   "detail": "GMOヘルステックが受付窓口となり、診療所に販売・導入・保守する（旧アイソルの事業内容「クリニック向け電子カルテシステムの開発・販売・導入・保守等」）。代理店の記載なし。",
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000709.000030257.html",
+     "publisher": "GMOフィナンシャルホールディングス",
+     "published": "2024-05-27"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "医療機器ではない"
+   ],
+   "detail": "電子カルテ・レセコン。医療機器の承認・認証の記載なし（オプションの画像ビューア PAXIS は他社〔KIC〕の製品）。",
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "診療記録・保険請求に使うが、製品自体の点数はない。",
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "2020-02 発売（【PR】記事「アイソルが、2020年2月に発売した最新のオンプレミス型のレセコン一体型電子カルテ」）。いまも GMOヘルステックの製品一覧と製品ページに載り、受付窓口は GMOヘルステック（2026-11-19 閲覧）。",
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/product/",
+     "publisher": "GMOヘルステック（製品・サービス）",
+     "published": ""
+    },
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.jmedj.co.jp/blogs/product/product_15706",
+     "publisher": "日本医事新報社（【PR】電子カルテカタログ）",
+     "published": "2020-10-21"
+    }
+   ]
+  },
+  "activity": {
+   "value": "運営会社が変わって継続",
+   "detail": "提供する法人が、株式会社アイソル→（2024-06-01 商号変更、同じ法人）GMOヘルスケア株式会社（8120001099797）→（2025-08-01 吸収合併）GMOヘルステック株式会社（5011001159373）に替わった。製品名は変わらず、GMOヘルステックの製品ページで提供中（2026-11-19 閲覧）。GMOヘルステックは 2025-03 に GMOヘルスケアから医療プラットフォーム事業・薬局事業を分割承継しており、ハヤブサがこの時点で移ったか、8月の合併で移ったかは資料で分からない。",
+   "signals": [
+    "GMOヘルステックの製品ページ公開中",
+    "国税庁の法人番号公表サイト：8120001099797 は 2025-08-01 に GMOヘルステックに合併し解散"
+   ],
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/company/",
+     "publisher": "GMOヘルステック（会社概要・沿革）",
+     "published": ""
+    },
+    {
+     "url": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120001099797",
+     "publisher": "国税庁 法人番号公表サイト",
+     "published": ""
+    },
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "ハヤブサのページに AI の記載はない（同社の製品一覧で AI を掲げるのは別製品のクラウド電子カルテ「AIチャート byGMO」〔ヘルステックONE〕）。",
+   "sources": [
+    {
+     "url": "https://gmo-healthtech.com/product/hayabusa/",
+     "publisher": "GMOヘルステック（ハヤブサ）",
+     "published": ""
+    },
+    {
+     "url": "https://gmo-healthtech.com/product/",
+     "publisher": "GMOヘルステック（製品・サービス）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "旧アイソルの電子カルテ導入実績",
+    "definition": "「アイソルがこれまで電子カルテを導入してきた1000件を超えるクリニック」（ハヤブサ以前の製品を含む会社の累計。ハヤブサ単体ではない）",
+    "scope": "会社全体（旧アイソルの電子カルテ）",
+    "value": "1,000件超",
+    "asOf": "2020",
+    "source": {
+     "url": "https://www.jmedj.co.jp/blogs/product/product_15706",
+     "publisher": "日本医事新報社（【PR】電子カルテカタログ）",
+     "published": "2020"
+    },
+    "ref": true
+   },
+   {
+    "metric": "ハヤブサの導入数",
+    "definition": "製品単体の導入数の公表を確認できず",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [
+   {
+    "t": "2020-02〜2024-05",
+    "what": "オンプレミス型レセコン一体型電子カルテ（発売時、2台構成の初期ライセンス料 35万円〔税別〕）",
+    "user": "診療所の医師・スタッフ",
+    "pay": "診療所",
+    "bear": "診療所",
+    "channel": "株式会社アイソル（大阪、法人番号 8120001099797）が直接販売・導入・保守",
+    "operator": "株式会社アイソル（8120001099797）"
+   },
+   {
+    "t": "2024-06〜2025-07",
+    "what": "同じ製品（GMOインターネットグループに入り商号変更）",
+    "user": "同上",
+    "pay": "診療所",
+    "bear": "診療所",
+    "channel": "GMOヘルスケア株式会社（同じ法人 8120001099797。2024-06-01 商号変更・本社を渋谷区へ）",
+    "operator": "GMOヘルスケア株式会社（8120001099797）"
+   },
+   {
+    "t": "いま（2025-08-01〜）",
+    "what": "同じ製品",
+    "user": "同上",
+    "pay": "診療所（料金非公開）",
+    "bear": "診療所",
+    "channel": "GMOヘルステック株式会社が受付・販売",
+    "operator": "GMOヘルステック株式会社（5011001159373）"
+   }
+  ],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "無し（料金ページなし。2020年の【PR】記事に発売時の価格）",
+   "faq": "無し（製品ページに FAQ なし）",
+   "tokushoho": "無し（法人向け）",
+   "terms": "https://terms.gmo-healthtech.com/hc/ja/categories/39633176735769（Cloudflare のボット検証で本文を開けず）",
+   "appStore": "無し（オンプレミス型でアプリ配信なし）",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-02df580d": {
+  "id": "b-02df580d",
+  "name": "ウィズウェルネス",
+  "checkedAt": "2026-11-19",
+  "entity": "H.U.ウェルネス株式会社（2026-10-01 に予定された吸収分割で株式会社医針盤〔法人番号 6011101091509〕から承継した運営会社。いまの利用規約の当事者。法人番号 5010601020283〔国税庁の法人番号公表サイト：Ｈ．Ｕ．ウェルネス株式会社、東京都港区赤坂1-8-1。告知の所在地と同じ〕）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "個人の健康記録（健診・検査結果・服薬・バイタル）",
+   "who": "健診・検査を受ける生活者とその家族",
+   "situation": "健診結果・検査結果・薬の情報が紙や機関ごとにばらばらで、自分や離れた家族の健康状態を時系列で把握しにくい。",
+   "sources": [
+    {
+     "url": "https://www.withwellness.com/pr/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "患者・生活者向けアプリ"
+   ],
+   "detail": "PHR（パーソナルヘルスレコード）アプリと Web 版。医療機関とつながると受診履歴・予約・検査結果を確認できる（結果は医's アシスト等で連携している医療機関から）。紙にプリントされた健診結果・受診結果を取り込んでデータ化する機能（健診画像取込み）もある。ほかに、健康診断データと生活習慣の回答から AI 解析で現在と3年後の健康状態を予測する「健康予測」（無料、1回のみ）、目標設定、家族とつながる機能、クリニック予約（代理予約）、ワクチン接種歴、バイタルデータ連携（iOS・Android のヘルスケアと連携）、マイナポータル連携と「お薬の記録」（2025-09-04〜）。医療機関向けの「医's アシスト」（別記録 b-49508c32）と対になる生活者側のアプリ。",
+   "sources": [
+    {
+     "url": "https://www.withwellness.com/pr/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス）",
+     "published": ""
+    },
+    {
+     "url": "https://www.withwellness.com/pr/faq/cat16/",
+     "publisher": "H.U.ウェルネス（よくある質問：健康予測・目標設定）",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000115.000042705.html",
+     "publisher": "H.U.グループホールディングス",
+     "published": "2025-09-04"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "株式会社医針盤（App Store の販売元表示はいまも医針盤〔Ishinban, inc.〕）"
+   ],
+   "mah": [],
+   "seller": [],
+   "operator": [
+    "H.U.ウェルネス株式会社（サイト・利用規約の運営者表記）"
+   ],
+   "brandOwner": [],
+   "operatorUser": [
+    "生活者（本人・家族。15歳未満は法定代理人が管理）"
+   ],
+   "outputUser": [
+    "生活者本人・つながった家族"
+   ],
+   "subject": [
+    "生活者（健診・検査の受診者）"
+   ],
+   "supplier": [
+    "検査結果を連携する医療機関（医's アシスト導入医療機関など）"
+   ],
+   "recommender": [],
+   "contractor": [
+    "生活者（利用規約に同意して登録。無料）"
+   ],
+   "directPayer": [
+    "未確認（利用者は無料。ほかに H.U.ウェルネスに払う者がいるかは資料に記載なし）"
+   ],
+   "finalBearer": [
+    "未確認"
+   ],
+   "userPaysTo": [
+    "なし（アカウント登録・利用・健康予測は無料。おすすめサービスに載る外部サイトは利用料がかかる場合があり、その外部の事業者に払う）"
+   ],
+   "sources": [
+    {
+     "url": "https://www.withwellness.com/phr/terms/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス利用規約）",
+     "published": ""
+    },
+    {
+     "url": "https://www.withwellness.com/pr/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス・よくある質問）",
+     "published": ""
+    },
+    {
+     "url": "https://apps.apple.com/jp/app/%E3%82%A6%E3%82%A3%E3%82%BA%E3%82%A6%E3%82%A7%E3%83%AB%E3%83%8D%E3%82%B9/id1531230653",
+     "publisher": "Apple App Store（販売元表示：株式会社医針盤）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "利用者は無料（FAQ「料金はかかりますか？」→「いいえ、無料でご利用いただけます」、健康予測も無料）。アプリ内課金の表示なし（App Store「無料」）。おすすめサービスとして外部サイトを載せ、規約は第三者の「提携サービス」との連携を定める。プライバシーポリシーは、利用者情報を、当社・グループ企業・第三者の製品やサービスの情報提供と、治験・臨床研究など調査研究の案内・募集（利用者に合わせた広告・販促物を含む）に使う（2.3）とし、個人を特定できない統計情報を当社や開示を受けた第三者が使うことがある（2.6）と定める。H.U.ウェルネスがこれらで提携先・広告主・治験の依頼者などから対価を受け取るかは書かれていない。医療機関側の費用（検査結果の送信など）は医's アシストの料金として払われる（別記録）。",
+   "customerRecovery": [
+    "なし（顧客の支払なし）"
+   ],
+   "recoveryDetail": "利用者（生活者）は何も払わない。医療機関が医's アシストの利用料（検査結果送信を含むプランなど）を払うのは別の事業として扱う。",
+   "unknown": "提携サービス・おすすめサービスの事業者からの送客・掲載の対価、プライバシーポリシーにある第三者の製品案内・治験募集・統計情報の提供から収入があるか、医's アシストの料金のうちウィズウェルネスに当たる部分",
+   "productSales": "未確認",
+   "productSalesDetail": "利用者には無料で提供。第三者からの収入の有無が分からないため「無償提供」とはしない。",
+   "sources": [
+    {
+     "url": "https://www.withwellness.com/pr/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス・よくある質問）",
+     "published": ""
+    },
+    {
+     "url": "https://www.withwellness.com/phr/terms/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス利用規約）",
+     "published": ""
+    },
+    {
+     "url": "https://www.withwellness.com/phr/policy/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス プライバシーポリシー）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "個人"
+   ],
+   "deal": [],
+   "delivery": [
+    "アプリストア",
+    "Web"
+   ],
+   "detail": "App Store・Google Play で無料配信し、Web 版もある。検査結果は、ウィズウェルネスに連携している医療機関に診察券番号などで「つながり申請」すると届く。",
+   "sources": [
+    {
+     "url": "https://www.withwellness.com/pr/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス）",
+     "published": ""
+    },
+    {
+     "url": "https://www.withwellness.com/pr/faq/cat19/",
+     "publisher": "H.U.ウェルネス（よくある質問：つながり）",
+     "published": ""
+    },
+    {
+     "url": "https://play.google.com/store/apps/details?id=jp.co.ishinban.WithWellness",
+     "publisher": "Google Play",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "確認できず"
+   ],
+   "detail": "記録・閲覧・共有・予約の機能は医療機器ではない。ただし「健康予測」は AI 解析で現在と3年後の健康状態を予測して示す機能で、利用規約・FAQ は「医療行為に該当するものではありません」「病気を診断するものではありません」とするが、医療機器でないとの明示はなく、承認・認証の記載もない。",
+   "sources": [
+    {
+     "url": "https://www.withwellness.com/phr/terms/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス利用規約 第5条）",
+     "published": ""
+    },
+    {
+     "url": "https://www.withwellness.com/pr/faq/cat16/",
+     "publisher": "H.U.ウェルネス（よくある質問：健康予測）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "対象外（診療行為に使わない）"
+   ],
+   "detail": "生活者が自分の健康管理に使う。結果を問診として医療機関に送る機能の記載はない（クリニック予約はある）。",
+   "sources": [
+    {
+     "url": "https://www.withwellness.com/phr/terms/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "App Store・Google Play で無料配信中で、Web 版もある（2026-11-19 閲覧）。利用規約は 2020-09-01 制定・施行。App Store のバージョン履歴で見える最も古い更新は 2020-12-21（バイタル管理・健診画像取込み・つながり機能・代理予約などを追加）。DB の初回公開日 2020-10-21 は App Store の画面では確かめられなかった。",
+   "sources": [
+    {
+     "url": "https://apps.apple.com/jp/app/%E3%82%A6%E3%82%A3%E3%82%BA%E3%82%A6%E3%82%A7%E3%83%AB%E3%83%8D%E3%82%B9/id1531230653",
+     "publisher": "Apple App Store（バージョン履歴）",
+     "published": ""
+    },
+    {
+     "url": "https://www.withwellness.com/phr/terms/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "運営会社が変わって継続",
+   "detail": "2026-08-28 の告知：医針盤と H.U.ウェルネスの吸収分割契約（2026-08-28 締結）で、医's アシストとウィズウェルネスを含む医療機関向け業務支援・健康関連サービス事業を H.U.ウェルネスが承継し、効力発生日は 2026-10-01（予定）。いまのサイト・利用規約の運営者は H.U.ウェルネス（2026-11-19 閲覧）。App Store の販売元表示は医針盤のまま。サイトのお知らせは 2026-11-12（Android の証明書エラー対応）。",
+   "signals": [
+    "サイト・利用規約の当事者が H.U.ウェルネス",
+    "App Store の販売元は株式会社医針盤のまま",
+    "2026-09〜11 に Android でサーバー証明書の認証エラーを告知（最終報 2026-11-12）"
+   ],
+   "sources": [
+    {
+     "url": "https://cdn.shopify.com/s/files/1/0999/0094/8792/files/HUW_news_20260828.pdf?v=1788943511",
+     "publisher": "H.U.ウェルネス・医針盤・H.U.POCkeT（非臨床領域サービスの提供体制変更について）",
+     "published": "2026-08-28"
+    },
+    {
+     "url": "https://www.withwellness.com/phr/terms/",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス利用規約）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "FAQ「健康予測は、健康診断結果と生活習慣に関する設問回答をもとに、AI 解析によって現在の状態と3年後の健康状態を予測するサービス」。",
+   "sources": [
+    {
+     "url": "https://www.withwellness.com/pr/faq/cat16/",
+     "publisher": "H.U.ウェルネス（よくある質問：健康予測）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "「50万人突破」の表示",
+    "definition": "公式サイトの画像「おかげさまで 50万人突破」。何を数えたか（登録会員か）と時点の記載はない",
+    "scope": "製品単体",
+    "value": "50万人突破",
+    "asOf": "未確認（2026-11-19 閲覧時の掲載）",
+    "source": {
+     "url": "https://www.withwellness.com/pr/images/lg_thank_you.png",
+     "publisher": "H.U.ウェルネス（ウィズウェルネス公式サイトの画像）",
+     "published": ""
+    },
+    "ref": false
+   },
+   {
+    "metric": "Google Play のダウンロード数",
+    "definition": "Android 版の累計インストール数の区分（iOS・Web は含まない）",
+    "scope": "製品単体（Android のみ）",
+    "value": "10万以上",
+    "asOf": "2026-11",
+    "source": {
+     "url": "https://play.google.com/store/apps/details?id=jp.co.ishinban.WithWellness&hl=ja",
+     "publisher": "Google Play",
+     "published": ""
+    },
+    "ref": false
+   }
+  ],
+  "periods": [
+   {
+    "t": "2020-10〜2026-09",
+    "what": "無料の PHR アプリ（医's アシスト導入医療機関の結果連携、2025-09 からマイナポータル連携・お薬の記録）",
+    "user": "生活者・家族",
+    "pay": "利用者は無料（第三者からの収入は未確認）",
+    "bear": "未確認",
+    "channel": "App Store・Google Play・Web",
+    "operator": "株式会社医針盤（6011101091509、H.U.グループホールディングスの連結子会社）"
+   },
+   {
+    "t": "いま（2026-10-01〜、予定どおり実施と見られる）",
+    "what": "同じ PHR アプリ",
+    "user": "生活者・家族",
+    "pay": "利用者は無料（第三者からの収入は未確認）",
+    "bear": "未確認",
+    "channel": "App Store・Google Play・Web",
+    "operator": "H.U.ウェルネス株式会社（5010601020283。吸収分割で承継）"
+   }
+  ],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "https://www.withwellness.com/pr/（FAQ に無料と記載。料金ページなし）",
+   "faq": "https://www.withwellness.com/pr/faq/cat16/ ほか FAQ 各カテゴリ",
+   "tokushoho": "無し（無料サービスで掲載なし）",
+   "terms": "https://www.withwellness.com/phr/terms/",
+   "appStore": "https://apps.apple.com/jp/app/%E3%82%A6%E3%82%A3%E3%82%BA%E3%82%A6%E3%82%A7%E3%83%AB%E3%83%8D%E3%82%B9/id1531230653, https://play.google.com/store/apps/details?id=jp.co.ishinban.WithWellness",
+   "checkedAt": "2026-11-19"
+  }
+ },
+ "b-f839df15": {
+  "id": "b-f839df15",
+  "name": "Brainlab の手術計画・画像ソフト（Elements、TraumaCad、Quentry、Buzz、iPlan ほか）",
+  "checkedAt": "2026-11-19",
+  "entity": "ブレインラボ株式会社（Brainlab SE〔ドイツ〕の日本法人。各製品の製造販売業者。国税庁の法人番号公表サイトで東京都内の同名法人は 1010401042515〔港区芝浦3-2-16〕の1件。添付文書は製造販売業者の電話番号 03-3769-6900 だけで所在地は載っていないため、この照合は社名と都内に1件という点による）",
+  "recordKind": "group",
+  "members": [
+   {
+    "name": "Brainlab Elements（販売名：Elements サージカルアドバンス／Elements サージカルベーシック。脳神経外科などの手術計画）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "認証 227AABZX00098000（アドバンス）・227AABZX00097000（ベーシック）、汎用画像診断装置ワークステーション用プログラム、管理医療機器・クラスII",
+    "startedAt": "未確認（認証は番号から 2015 年）",
+    "hp": "https://www.brainlab.com/ja/surgery-products/overview-neurosurgery-products/cranial-planning/",
+    "sources": [
+     {
+      "url": "https://www.brainlab.com/ja/surgery-products/overview-neurosurgery-products/cranial-planning/",
+      "publisher": "Brainlab（日本語サイト：Cranial Planning）",
+      "published": ""
+     },
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/227AABZX00098000_A_01",
+      "publisher": "PMDA（医療機器 添付文書等情報）",
+      "published": ""
+     }
+    ],
+    "note": "日本語サイトに Elements AI Tumor Segmentation（U-net による AI 画像解析）を載せ、販売名 Elements サージカルアドバンスを表示。添付文書はアドバンス 2026-06-02 版、ベーシック 2025-11-19 版。"
+   },
+   {
+    "name": "TraumaCad（販売名：TraumaCad オーソペディックデジタルツール（バージョン2.5）。整形外科のデジタルテンプレーティング）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "認証 227AABZX00096000",
+    "startedAt": "未確認（認証は番号から 2015 年）",
+    "hp": "https://www.brainlab.com/ja/surgery-products/orthopedic-surgery-products/orthopedic-templating-software/",
+    "sources": [
+     {
+      "url": "https://www.brainlab.com/ja/surgery-products/orthopedic-surgery-products/orthopedic-templating-software/",
+      "publisher": "Brainlab（日本語サイト：TraumaCad）",
+      "published": ""
+     }
+    ],
+    "note": "クラウド版（シングルユーザーライセンス）とオンプレミス版（同時セッション）のライセンス。30日の無料試用。サポート・問い合わせは英語対応。添付文書 2025-10-17 版。"
+   },
+   {
+    "name": "Quentry（販売名：Quentry クラウド型データソリューション。医用画像のクラウド保存・共有）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "認証 227AABZX00099000",
+    "startedAt": "未確認（認証は番号から 2015 年）",
+    "hp": "https://www.quentry.com/",
+    "sources": [
+     {
+      "url": "https://www.quentry.com/",
+      "publisher": "Brainlab（Quentry Cloud Services）",
+      "published": ""
+     },
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/227AABZX00099000_A_01",
+      "publisher": "PMDA（医療機器 添付文書等情報）",
+      "published": ""
+     }
+    ],
+    "note": "日本語サイトに単独の製品ページはなく、TraumaCad の FAQ で試用登録に使うと記載。quentry.com は「Brainlab Cloud Services, powered by Quentry」として公開中。添付文書 2025-11-19 版。日本での単独の販売状況は確かめていない。"
+   },
+   {
+    "name": "Buzz（Buzzシステム・Buzz コンパクト・Buzz ナビゲーションシステム。手術室での画像表示・ナビゲーションの装置）",
+    "status": "提供中",
+    "stage": "一般提供",
+    "regulatory": "認証 225AABZX00035000（Buzzシステム）・304AABZX00014000（Buzz コンパクト）・303AABZX00001000（Buzz ナビゲーションシステム。日本語サイトの表示）",
+    "startedAt": "未確認（Buzzシステムの認証は番号から 2013 年）",
+    "hp": "https://www.brainlab.com/ja/surgery-products/overview-neurosurgery-products/",
+    "sources": [
+     {
+      "url": "https://www.brainlab.com/ja/surgery-products/overview-neurosurgery-products/",
+      "publisher": "Brainlab（日本語サイト：脳神経外科手術）",
+      "published": ""
+     },
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/225AABZX00035000_A_01",
+      "publisher": "PMDA（医療機器 添付文書等情報）",
+      "published": ""
+     }
+    ],
+    "note": "ハードウェアを含む装置。日本語サイトは「Buzz Digital O.R.」と販売名 Buzz ナビゲーションシステムを表示。Buzzシステム・Buzz コンパクトの添付文書は 2025-11-19 版。"
+   },
+   {
+    "name": "iPlan ステーション・ブレインラボ iPlanNetServer・デジタルライトボックス（旧世代の計画・画像表示）",
+    "status": "不明",
+    "stage": "提供状況未確認",
+    "regulatory": "承認 22000BZX01548000（iPlan ステーション）・22100BZX00216000（iPlanNetServer）・22000BZX01649000（デジタルライトボックス）",
+    "startedAt": "未確認（承認は番号から 2008〜2009 年）",
+    "hp": "",
+    "sources": [
+     {
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/22000BZX01548000_B_01",
+      "publisher": "PMDA（医療機器 添付文書等情報）",
+      "published": ""
+     }
+    ],
+    "note": "PMDA の添付文書は 2018-07-06 版のまま。いまの日本語サイトに製品の掲載はなく、手術計画は Elements が担う。販売終了の告知は見ていない。"
+   }
+  ],
+  "problem": {
+   "domain": "外科手術の計画・術中の画像表示（脳神経外科・機能神経外科・脊椎・整形外科・CMF・ENT）",
+   "who": "脳神経外科・整形外科などの外科医と手術室のスタッフ",
+   "situation": "CT・MRI・血管撮影など複数の画像を手術前に重ね合わせて計画し、手術中にその情報を正確に参照する必要があるが、手作業の輪郭描出や画像の統合に時間がかかる。",
+   "sources": [
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/",
+     "publisher": "Brainlab（日本語サイト：手術関連製品）",
+     "published": ""
+    },
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/overview-neurosurgery-products/cranial-planning/",
+     "publisher": "Brainlab（日本語サイト：Cranial Planning）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "Brainlab の手術向けの画像処理・計画ソフト群と、手術室の表示装置。Elements（画像融合、血管・解剖構造の自動セグメンテーション、ファイバートラッキング、AI による腫瘍セグメンテーションなど半自動の計画モジュール）、TraumaCad（整形外科のテンプレーティング。約4,000種のインプラントのライブラリ）、Quentry（医用画像のクラウド保存・共有）。Buzz は手術室の画像表示・ナビゲーションの装置（ハードウェアを含む）。境界：主な分類は医療画像・手術計画で、AI 使用は Elements AI Tumor Segmentation で資料により確認。ほかの製品は自動化機能の記載だけで AI の記載はない。同社の Curve・Kick・Loop-X などのナビゲーション・術中撮影装置は本記録に含めていない。",
+   "sources": [
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/overview-neurosurgery-products/cranial-planning/",
+     "publisher": "Brainlab（日本語サイト：Cranial Planning）",
+     "published": ""
+    },
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/orthopedic-surgery-products/orthopedic-templating-software/",
+     "publisher": "Brainlab（日本語サイト：TraumaCad）",
+     "published": ""
+    },
+    {
+     "url": "https://www.quentry.com/",
+     "publisher": "Brainlab（Quentry）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "Brainlab SE（ドイツ）"
+   ],
+   "mah": [
+    "ブレインラボ株式会社（Elements サージカルアドバンス 227AABZX00098000、TraumaCad 227AABZX00096000、Quentry 227AABZX00099000、Buzz 225AABZX00035000 ほか）"
+   ],
+   "seller": [
+    "ブレインラボ株式会社（日本語サイトのお問い合わせ）。TraumaCad の販売問い合わせ・サポートは英語対応"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "外科医・手術室スタッフ"
+   ],
+   "outputUser": [
+    "外科医"
+   ],
+   "subject": [
+    "手術を受ける患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関"
+   ],
+   "directPayer": [
+    "医療機関（TraumaCad はライセンス。Elements・Buzz の料金の形は未確認）"
+   ],
+   "finalBearer": [
+    "医療機関（自院の経費）"
+   ],
+   "sources": [
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/orthopedic-surgery-products/orthopedic-templating-software/",
+     "publisher": "Brainlab（日本語サイト：TraumaCad）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/227AABZX00098000_A_01",
+     "publisher": "PMDA（医療機器 添付文書等情報）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "ライセンス料・データ販売"
+   ],
+   "detail": "TraumaCad：「お客様のニーズに合わせて様々なライセンスを提供」—クラウド版はシングルユーザーライセンス（小・中規模施設、個人使用向け）、オンプレミス版は同時セッションのライセンス（中・大規模施設）。テンプレートのサブスクリプションにテンプレート作成依頼を含む。金額は記載なし。Elements・Quentry・Buzz の日本での料金・課金の形（ソフトのライセンスか、装置の販売代金か、保守料か）は資料に記載なし。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "医療機関の経費で、手術・画像診断の診療収入でまかなう関係。",
+   "unknown": "Elements・Quentry・Buzz の料金の形と金額、TraumaCad の金額、日本法人と Brainlab SE の間の取引",
+   "productSales": "あり",
+   "productSalesDetail": "日本語サイトで製品を掲載し問い合わせを受付。TraumaCad は試用・サインアップを受付。",
+   "sources": [
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/orthopedic-surgery-products/orthopedic-templating-software/",
+     "publisher": "Brainlab（日本語サイト：TraumaCad）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [],
+   "delivery": [],
+   "detail": "日本語サイトはお問い合わせ窓口のみで、直販か代理店経由かは記載なし。TraumaCad のクラウド版は Web からサインアップ（英語対応）。",
+   "sources": [
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/",
+     "publisher": "Brainlab（日本語サイト：手術関連製品）",
+     "published": ""
+    },
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/orthopedic-surgery-products/orthopedic-templating-software/",
+     "publisher": "Brainlab（日本語サイト：TraumaCad）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "すべての製品に承認・認証番号がある（含まれる製品の表を参照）。製造販売業者はブレインラボ株式会社（PMDA 一覧）。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/227AABZX00098000_A_01",
+     "publisher": "PMDA（医療機器 添付文書等情報）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/22000BZX01548000_B_01",
+     "publisher": "PMDA（医療機器 添付文書等情報）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "手術の計画・術中表示として保険診療の中で使う。製品自体の点数・材料価格は確認できず。ナビゲーションを使う手術の加算（画像等手術支援加算）との関係は一次資料で確かめていない。",
+   "sources": [
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/",
+     "publisher": "Brainlab（日本語サイト：手術関連製品）",
+     "published": ""
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "Elements・TraumaCad・Buzz は日本語サイトに掲載中。Quentry は quentry.com で公開中。iPlan 系は提供状況未確認（含まれる製品の表を参照）。",
+   "sources": [
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/",
+     "publisher": "Brainlab（日本語サイト：手術関連製品）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "Elements・TraumaCad・Buzz の製品ページが日本語サイトで公開中（2026-11-19 閲覧）。添付文書は 2025-10〜2026-06 に更新。iPlan 系は添付文書が 2018-07 版のままでサイトに載らないが、終了告知は見ていない。",
+   "signals": [
+    "日本語サイトに Elements・TraumaCad・Buzz を掲載",
+    "Quentry は quentry.com が公開中",
+    "iPlan ステーション等の添付文書は 2018-07-06 版のまま、サイトに掲載なし"
+   ],
+   "guess": "iPlan 系は Elements に置き換わった可能性が高い（推定）",
+   "sources": [
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/",
+     "publisher": "Brainlab（日本語サイト：手術関連製品）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/22000BZX01548000_B_01",
+     "publisher": "PMDA（医療機器 添付文書等情報）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "日本語サイトの Cranial Planning：「Elements AI Tumor Segmentation：診断済みの脳腫瘍（転移性脳腫瘍、髄膜腫、神経膠腫など）に対して半自動でセグメンテーション」「AIを活用した、先端U-netアーキテクチャに基づく画像解析」「臨床レジストリに基づく専門医ラベル付きデータセットで学習」。同じページに販売名 Elements サージカルアドバンスを表示。TraumaCad・Quentry・Buzz の資料は自動化機能の記載だけで AI の記載はない。",
+   "sources": [
+    {
+     "url": "https://www.brainlab.com/ja/surgery-products/overview-neurosurgery-products/cranial-planning/",
+     "publisher": "Brainlab（日本語サイト：Cranial Planning）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "国内の導入施設数",
+    "definition": "日本での導入数の公表を確認できず",
+    "scope": "事業全体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "https://www.brainlab.com/ja/surgery-products/orthopedic-surgery-products/orthopedic-templating-software/（TraumaCad のライセンスモデル。金額なし）",
+   "faq": "同ページの FAQ（TraumaCad）",
+   "tokushoho": "無し（法人向け）",
+   "terms": "無し（日本語サイトの「サイトの利用条件」のみ。製品の契約書式は非公開）",
+   "appStore": "無し（アプリ配信なし）",
+   "checkedAt": "2026-11-19"
+  }
  }
 }
