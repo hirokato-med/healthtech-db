@@ -631,7 +631,12 @@
     "startedYear": 1995,
     "status": "提供中",
     "type": "teleradiology",
-    "sources": [],
+    "sources": [
+      "https://dr-net.co.jp/service/telerad/",
+      "https://dr-net.co.jp/service/teledoc/",
+      "https://dr-net.co.jp/service/airad/",
+      "https://dr-net.co.jp/wp-content/uploads/2025/01/f9379ce016cadff07e655011e154a445.pdf"
+    ],
     "companyId": "7010401088511",
     "startedAt": "1997-06",
     "startBasis": "遠隔画像診断支援サービス（現 Tele-RAD）の開始。会社の設立は1995年1月",
@@ -98649,7 +98654,7 @@
     "company": "CureApp",
     "companyId": "2011101070788",
     "category": "disease-management-program",
-    "description": "保険適用の高血圧治療補助アプリ（CureApp HT）を終えた患者が記録を引き継ぎ、期間の制限なく血圧・体調などを記録できる無料アプリ。2026年6月に機能を後継の「CureApp 血圧」（血圧手帳モード）へ統合して移行の案内を始め、2026年10月に全サービスを終えると発表した（2026-11-19 時点で App Store に配信が残り、終了の実施は未確認）。",
+    "description": "保険適用の高血圧治療補助アプリ（CureApp HT）を終えた患者が記録を引き継ぎ、期間の制限なく血圧・体調などを記録できる無料アプリ。2026年6月に機能を後継の「CureApp 血圧」（血圧手帳モード）へ統合して移行の案内を始め、2026年10月に全サービスを終えると発表した。2026年11月時点でアプリの配信は続いており、終了の実施は確かめられていない。",
     "hp": "https://cureapp.co.jp/",
     "startedYear": 2023,
     "status": "不明",

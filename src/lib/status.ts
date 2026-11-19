@@ -3,7 +3,12 @@
  * 過去の出来事（譲渡・名称変更・販売終了の発表など）は pastLine で別に出す。
  * クライアントからも使うので fs を読まない。
  */
-import { ym as ymFull } from './ym';
+// ym.ts と同じ書き方（node のスクリプトからも読むので、ここでは import しない）
+const THIS_MONTH = new Date().toISOString().slice(0, 7);
+const ymFull = (d?: string) =>
+  d
+    ? d.replace(/^(\d{4})-(\d{2}).*$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年').replace(/^(\d{4})-(春|夏|秋|冬)$/, '$1年$2') + (/^\d{4}(-\d{2})?/.test(d) && d.slice(0, 7) > THIS_MONTH ? '（予定）' : '')
+    : '';
 
 type S = {
   status: string;
