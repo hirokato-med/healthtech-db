@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import {
-  categoryName, fmtDate, getArticles, getCategories, getCompanies, getFeaturedCompanies, getNews, getOverseas, getPeople, getServices,
+  categoryName, fmtDate, fmtDateJa, getArticles, getCategories, getCompanies, getFeaturedCompanies, getNews, getOverseas, getPeople, getServices,
   episodeHeadline, getMonthly, getUpdates, monthLabel, ytThumb, YT_SUBSCRIBE, END_REASONS, isStopped, getThemes, servicesInTheme,
 } from '@/lib/data';
 import { withBase } from '@/lib/base';
 import { SITE_NAME } from '@/lib/site';
 import { UpdateList } from '@/components/UpdateList';
 
+/** 検索の入口に出すキーワードの例（検索の記録から選んだものではない） */
 const HOT = ['オンライン診療', '医療機関DX', 'PHR', 'フェムテック', '健康経営', 'メンタルヘルス', 'AI', '上場'];
 const AXIS = {
   disease: { color: '#d4577b', note: '生活者・患者の課題から見る' },
@@ -43,35 +44,49 @@ export default function Home() {
   const featured = getFeaturedCompanies().slice(0, 6);
   const updates = getUpdates();
   const lastUpdate = updates[0]?.date;
-  // 今回の更新で新しく収録した会社のうち、注目理由（資金調達・承認など）が書けたものを創業の新しい順に
+  // 2026年10月の再開以降に編集部の調べで収録した会社のうち、注目理由（資金調達・承認など）が書けたものを創業の新しい順に
   const fresh = companies
     .filter((c) => c.source.startsWith('Healthtech DB 編集部調べ') && c.highlight && (c.foundedYear ?? 0) >= 2018 && !['閉鎖', '合併', '活動停止', '対象外'].includes(c.exit))
     .sort((a, b) => (b.foundedYear ?? 0) - (a.foundedYear ?? 0) || a.name.localeCompare(b.name, 'ja'))
     .slice(0, 6);
   const freshTotal = companies.filter((c) => c.source.startsWith('Healthtech DB 編集部調べ')).length;
+  // 直近の月に収録した数（source の「（YYYY-MM）」から）
+  const freshMonths = companies.map((c) => c.source.match(/^Healthtech DB 編集部調べ（(\d{4})-(\d{2})）/)).filter((m): m is RegExpMatchArray => Boolean(m)).map((m) => `${m[1]}-${m[2]}`);
+  const firstFresh = [...freshMonths].sort()[0];
+  const lastFresh = [...freshMonths].sort().at(-1);
+  const lastFreshN = freshMonths.filter((m) => m === lastFresh).length;
+  const ymJa = (m?: string) => (m ? `${m.slice(0, 4)}年${Number(m.slice(5, 7))}月` : '');
   const listed = companies.filter((c) => c.exit === '上場').length;
   const catStats = cats
     .map((c) => {
       const list = companies.filter((x) => x.categories.includes(c.slug));
-      return { c, n: list.length, listed: list.filter((x) => x.exit === '上場').length, recent: list.filter((x) => (x.foundedYear ?? 0) >= 2015).length };
+      // 2015年以降創業の割合は、創業年が分かる会社だけで計算する（分からない会社を「2015年より前」に数えない）
+      const known = list.filter((x) => x.foundedYear != null);
+      return { c, n: list.length, listed: list.filter((x) => x.exit === '上場').length, recent: known.filter((x) => x.foundedYear! >= 2015).length, known: known.length };
     })
     .filter((x) => x.n > 0)
     .sort((a, b) => b.n - a.n);
   const maxN = catStats[0]?.n ?? 1;
   const stopped = services.filter((s) => isStopped(s));
+  // 理由の分類ができたものの上位。資料に直接書かれておらず、この DB が推した分類（endReasonInfo.inferred）は「推定」として分けて数える
   const reasonStats = Object.entries(END_REASONS)
     .filter(([k]) => k !== 'unknown')
-    .map(([k, v]) => ({ k, label: v.label, n: stopped.filter((s) => s.endReasons?.includes(k)).length }))
+    .map(([k, v]) => {
+      const list = stopped.filter((s) => s.endReasons?.includes(k));
+      const est = list.filter((s) => s.endReasonInfo?.interpretation === '推定を含む' && (s.endReasonInfo.inferred ? s.endReasonInfo.inferred.includes(k) : true)).length;
+      return { k, label: v.label, n: list.length, est };
+    })
     .filter((r) => r.n)
     .sort((a, b) => b.n - a.n)
     .slice(0, 6);
+  const reasonUnknown = stopped.filter((s) => !s.endReasons?.length || s.endReasons.includes('unknown')).length;
   const whyArticles = articles.filter((a) => a.slug.startsWith('why-')).slice(0, 2);
   const themeStats = getThemes()
     .map((t) => ({ t, list: servicesInTheme(t.slug) }))
     .filter((x) => x.list.length)
     .slice(0, 8);
   const gridItems = [
-    ...articles.filter((a) => a.slug !== feature?.slug).slice(0, 6).map((a) => ({ key: a.slug, href: `/articles/${a.slug}/`, title: a.title, tags: [categoryName(a.category), ...(a.tags ?? []).slice(0, 1)], date: `${fmtDate(a.date)} 更新`, navy: true, thumb: categoryName(a.category) })),
+    ...articles.filter((a) => a.slug !== feature?.slug).slice(0, 6).map((a) => ({ key: a.slug, href: `/articles/${a.slug}/`, title: a.title, tags: (a.tags ?? []).filter((t) => t !== categoryName(a.category)).slice(0, 2), date: `${fmtDate(a.date)} 更新`, navy: true, thumb: a.category ? categoryName(a.category) : (a.tags?.[0] ?? '記事') })),
   ];
 
   return (
@@ -89,7 +104,7 @@ export default function Home() {
               <button type="submit">検索</button>
             </form>
             <div className="hot">
-              <span>よく調べられているキーワード</span>
+              <span>キーワードの例</span>
               {HOT.map((k) => <Link key={k} href={`/search/?q=${encodeURIComponent(k)}`}>{k}</Link>)}
             </div>
           </div>
@@ -114,7 +129,7 @@ export default function Home() {
         <section className="band tight bleed upd-band">
           <div className="container">
             <div className="sec-title">
-              <h2>データの更新<small className="sec-sub">最終更新 {lastUpdate?.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, y, m, d) => `${y}年${Number(m)}月${Number(d)}日`)}</small></h2>
+              <h2>データの更新<small className="sec-sub">データの最終更新 {lastUpdate ? fmtDateJa(lastUpdate) : ''}</small></h2>
               <Link href="/updates/" className="more arrow">更新履歴をすべて見る</Link>
             </div>
             <UpdateList items={updates.slice(0, 5)} now={lastUpdate ?? ''} compact />
@@ -134,7 +149,7 @@ export default function Home() {
                   <div className="cap">対象領域・課題／ソリューション／事業領域の3つの切り口で分類</div>
                 </Link>
                 <div className="feature-body">
-                  <div className="eyebrow"><b>特集</b><span className="sep" /><span>{categoryName(feature.category)}</span></div>
+                  <div className="eyebrow"><b>特集</b>{feature.category && <><span className="sep" /><span>{categoryName(feature.category)}</span></>}</div>
                   <h2><Link href={`/articles/${feature.slug}/`}>{feature.title.split(' ── ')[0]}</Link></h2>
                   <p>{feature.summary}</p>
                   <div className="feature-foot"><span>{fmtDate(feature.date)} 更新</span><Link href={`/articles/${feature.slug}/`} className="arrow">記事を読む</Link></div>
@@ -160,14 +175,15 @@ export default function Home() {
           <p className="muted" style={{ marginTop: -6 }}>同じアイデアは何度も生まれ、同じところで止まります。過去の事業がどこで止まったのかを、理由ごと・テーマごとに引けます。</p>
           <div className="learn">
             <div className="learn-reasons">
-              <h3>止まった理由（公表されたもの）</h3>
+              <h3>止まった理由（分類できたもの）</h3>
               {reasonStats.map((r) => (
                 <Link key={r.k} href={`/services/stopped/#${r.k}`} className="lr-row">
                   <span>{r.label}</span>
-                  <i style={{ width: `${(r.n / reasonStats[0].n) * 100}%` }} />
-                  <b>{r.n}</b>
+                  <i style={{ width: `${(r.n / reasonStats[0].n) * 100}%` }}>{r.est > 0 && <em style={{ width: `${(r.est / r.n) * 100}%` }} />}</i>
+                  <b>{r.n}{r.est > 0 && <small>うち推定{r.est}</small>}</b>
                 </Link>
               ))}
+              <p className="small muted lr-note">止まった事業 {stopped.length} 件のうち、理由を確認できていないものが {reasonUnknown} 件あります（上の棒には入れていません）。棒の薄い部分は、資料に理由が直接書かれておらず、この DB が経過から推した分類です。1件に理由が2つ以上付くことがあります。</p>
             </div>
             <div className="learn-themes">
               <h3>テーマ別の年表</h3>
@@ -225,7 +241,7 @@ export default function Home() {
       {/* ---------- 注目企業 ---------- */}
       <section className="band gray bleed">
         <div className="container">
-          <div className="sec-title"><h2>注目のヘルステック企業</h2><Link href="/companies/" className="more arrow">企業一覧を見る</Link></div>
+          <div className="sec-title"><h2>注目のヘルステック企業<small className="sec-sub">2021年12月の初期収録リストから</small></h2><Link href="/companies/" className="more arrow">企業一覧を見る</Link></div>
           <div className="co-grid">
             {featured.map((c) => (
               <Link key={c.id} href={`/companies/${c.id}/`} className="co">
@@ -241,7 +257,7 @@ export default function Home() {
           </div>
           {fresh.length > 0 && (
             <>
-              <div className="sec-title" style={{ marginTop: 44 }}><h2>新しく収録した企業<small className="sec-sub">今回の更新で {freshTotal} 社を追加</small></h2><Link href="/companies/" className="more arrow">追加した企業をすべて見る</Link></div>
+              <div className="sec-title" style={{ marginTop: 44 }}><h2>新しく収録した企業<small className="sec-sub">{ymJa(firstFresh)}以降に {freshTotal} 社（うち{ymJa(lastFresh)}に {lastFreshN} 社）</small></h2><Link href="/companies/?filter=new" className="more arrow">新しく収録した企業をすべて見る</Link></div>
               <div className="co-grid">
                 {fresh.map((c) => (
                   <Link key={c.id} href={`/companies/${c.id}/`} className="co">
@@ -264,19 +280,19 @@ export default function Home() {
       <section className="band bleed">
         <div className="container duo">
           <div className="box">
-            <h2>事業に関わるニュース</h2>
+            <h2>事業に関わるニュース<small className="sec-sub">新しい順</small></h2>
             {/* 承認・保険適用・事業の開始や終了・買収・資金調達など、事業判断に影響する変化だけを載せる。少ない日は無理に埋めない */}
             {topNews.length === 0 && <p className="muted small">この数日、事業に関わる大きな変化のニュースはありません。</p>}
-            {topNews.slice(0, 6).map((n, i) => (
-              <div className="rank" key={n.id}>
-                <span className="n">{i + 1}</span>
+            {/* 新しい順。順位ではないので番号は付けず、左に日付を出す（ニュースページと同じ形） */}
+            {topNews.slice(0, 6).map((n) => (
+              <div className="rank news-dated" key={n.id}>
+                <span className="d mono">{fmtDate(n.publishedAt)}</span>
                 <div>
                   <a href={n.url} target="_blank" rel="noreferrer" className="ttl">{n.title}</a>
                   {n.change && <div className="news-change">{n.change}</div>}
                   <div className="sub">
                     {n.companyId ? <Link href={`/companies/${n.companyId}/`}>{n.company}</Link> : <span>{n.company}</span>}
-                    {n.category && <span>{categoryName(n.category)}</span>}
-                    <span>{fmtDate(n.publishedAt)}</span>
+                    {n.category && <span>{categoryName(n.category)}{n.categoryBy === 'title' ? '（推定）' : ''}</span>}
                   </div>
                 </div>
               </div>
@@ -285,16 +301,16 @@ export default function Home() {
           </div>
           <div className="box">
             <h2>カテゴリ別 企業数</h2>
-            <div className="tbl-cap">収録企業数の上位10カテゴリ（1社が複数カテゴリに属する場合あり）</div>
+            <div className="tbl-cap">収録企業数の上位10カテゴリ（1社が複数カテゴリに属する場合あり）。「2015年以降創業」は、創業年が分かる会社のうちの割合（創業年が分からない会社は分母に入れない）</div>
             <table className="mtable">
               <thead><tr><th>カテゴリ</th><th>企業数</th><th>上場</th><th>2015年以降創業</th></tr></thead>
               <tbody>
-                {catStats.slice(0, 10).map(({ c, n, listed: l, recent }) => (
+                {catStats.slice(0, 10).map(({ c, n, listed: l, recent, known }) => (
                   <tr key={c.slug}>
                     <td><span className="name"><Link href={`/categories/${c.slug}/`}>{c.name}</Link></span><div className="bar"><i style={{ width: `${(n / maxN) * 100}%` }} /></div></td>
                     <td className="num">{n}<small>社</small></td>
                     <td className="num">{l}<small>社</small></td>
-                    <td className={`num ${recent / n >= 0.5 ? 'up' : ''}`}>{Math.round((recent / n) * 100)}%</td>
+                    <td className={`num ${known && recent / known >= 0.5 ? 'up' : ''}`}>{known ? `${Math.round((recent / known) * 100)}%` : '—'}</td>
                   </tr>
                 ))}
               </tbody>

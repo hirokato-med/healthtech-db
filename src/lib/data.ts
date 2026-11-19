@@ -227,9 +227,5 @@ export const FEATURED_COMPANY_NAMES = [
 export const getFeaturedCompanies = () =>
   memo('featured', () => FEATURED_COMPANY_NAMES.map((n) => findCompanyByName(n)).filter((c): c is Company => Boolean(c)));
 
-export const fmtDate = (iso: string) => {
-  if (!iso) return '';
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return iso;
-  return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}`;
-};
+/** 表示用の日付（いつも日本時間）。中身は ./date.ts */
+export { fmtDate, fmtDateJa, jstYmd } from './date';

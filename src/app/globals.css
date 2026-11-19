@@ -87,7 +87,7 @@ p { margin: 0 0 1em; }
 .btn-cta:hover { background: var(--navy-hover); text-decoration: none; }
 .btn-cta .free { background: #fff; color: var(--navy); font-size: 11px; font-weight: 800; padding: 2px 7px; border-radius: 4px; }
 @media (max-width: 1020px) {
-  .site-header .bar { height: auto; flex-wrap: wrap; padding: 10px 0 0; row-gap: 6px; gap: 12px; }
+  .site-header .bar { height: auto; flex-wrap: wrap; padding-top: 10px; padding-bottom: 0; row-gap: 6px; gap: 12px; }
   .nav { order: 3; flex-basis: 100%; overflow-x: auto; scrollbar-width: none; padding-bottom: 6px; }
   .nav::-webkit-scrollbar { display: none; }
   .head-right { margin-left: auto; }
@@ -281,12 +281,16 @@ main { min-height: 50vh; }
 /* =====================================================================
    下層ページ（既存のクラス名をこのデザインに合わせる）
    ===================================================================== */
-.page { padding: 40px 0 72px; }
+/* 上下だけを決める。左右は .container の余白（32px、スマホは16px）を生かす */
+.page { padding-top: 40px; padding-bottom: 72px; }
 .section { margin: 0 0 48px; }
 .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; padding-bottom: 12px; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
 .section-head h2 { font-family: var(--serif); font-size: 24px; font-weight: 700; }
 .page-head { margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .page-head .kicker { font-size: 12px; font-weight: 700; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; }
+/* カテゴリの切り口（対象領域・課題／ソリューション／事業領域）の色の印。トップの「3つの軸から探す」と同じ色 */
+.axis-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 8px; vertical-align: 0; background: var(--muted-2); }
+.axis-dot.disease { background: #d4577b; } .axis-dot.solution { background: #0e7c86; } .axis-dot.domain { background: #123e7c; }
 .page-head h1 { font-family: var(--serif); font-size: 38px; font-weight: 700; margin-top: 6px; letter-spacing: 0.02em; }
 .page-head .lead { color: var(--muted); margin: 10px 0 0; font-size: 15px; }
 @media (max-width: 760px) { .page-head h1 { font-size: 28px; } }
@@ -382,8 +386,7 @@ main { min-height: 50vh; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .site-footer a:hover { color: #fff; }
 .site-footer .bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-top: 1px solid rgba(255,255,255,.12); margin-top: 48px; padding-top: 20px; font-size: 12px; color: #9aa1ad; }
-/* トップだけ全幅の帯を使う（main の余白を打ち消す） */
-main.container.page { padding-top: 40px; padding-bottom: 72px; }
+/* トップだけ全幅の帯を使う（main の上下の余白を打ち消す。左右は .bleed で画面幅に広げる） */
 .home { margin: -40px 0 -72px; }
 .bleed { width: 100vw; position: relative; left: 50%; margin-left: -50vw; }
 
@@ -1218,3 +1221,27 @@ ul.fh-ev .t small { color: var(--muted); margin-left: 4px; }
 .bm-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; align-items: center; }
 .bm-filters select { font: inherit; font-size: 13px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card, #fff); color: inherit; }
 .bm-members a { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- トップの手直し（2026-11 の点検） ---------- */
+/* 見出しを言葉の途中で折り返さない（収まらないときだけ折る）。スマホ幅では補足（.sec-sub）とリンクを次の行へ */
+.sec-title h2, .box > h2 { word-break: keep-all; overflow-wrap: anywhere; }
+@media (max-width: 560px) {
+  .sec-title { flex-wrap: wrap; align-items: baseline; row-gap: 6px; }
+  .sec-title h2 .sec-sub, .box > h2 .sec-sub { display: block; margin: 4px 0 0; }
+}
+.sec-sub { word-break: keep-all; overflow-wrap: anywhere; }
+/* 止まった理由：棒の薄い部分が「推定」 */
+.lr-row { grid-template-columns: 150px 1fr auto; }
+.lr-row i { position: relative; overflow: hidden; min-width: 4px; }
+.lr-row i em { position: absolute; top: 0; right: 0; bottom: 0; background: repeating-linear-gradient(135deg, #e7c4c4 0 4px, #f2dcdc 4px 8px); }
+.lr-row b small { display: block; font-size: 10.5px; font-weight: 700; color: var(--muted); line-height: 1.2; white-space: nowrap; }
+.lr-note { margin-top: 10px; line-height: 1.7; }
+@media (max-width: 760px) { .lr-row { grid-template-columns: 120px 1fr auto; } }
+/* 事業に関わるニュース：番号ではなく日付を左に */
+.rank.news-dated { grid-template-columns: 86px 1fr; align-items: start; }
+.rank.news-dated .d { font-size: 12px; color: var(--muted); padding-top: 3px; }
+@media (max-width: 560px) { .rank.news-dated { grid-template-columns: 1fr; gap: 2px; } }
+/* スマホ幅のナビ：右端を薄くして、横に続きがあることを示す */
+@media (max-width: 1020px) {
+  .nav { -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 40px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 40px), transparent); padding-right: 32px; }
+}

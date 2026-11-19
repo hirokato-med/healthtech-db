@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Category, Company } from '@/lib/types';
 import { withBase } from '@/lib/base';
 
@@ -16,6 +16,14 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
   const [pref, setPref] = useState('');
   const [sort, setSort] = useState('');
   const [showEnded, setShowEnded] = useState(false);
+  // 新しく収録した企業だけ（トップの「新しく収録した企業」から ?filter=new で開く）
+  const [onlyNew, setOnlyNew] = useState(false);
+  useEffect(() => {
+    try {
+      if (new URLSearchParams(window.location.search).get('filter') === 'new') setOnlyNew(true);
+    } catch {}
+  }, []);
+  const newCount = useMemo(() => companies.filter((c) => c.isNew).length, [companies]);
   const endedCount = useMemo(() => companies.filter((c) => ENDED.includes(c.exit)).length, [companies]);
   const prefs = useMemo(() => [...new Set(companies.map((c) => c.prefecture).filter(Boolean))].sort(), [companies]);
   const catName = useMemo(() => Object.fromEntries(categories.map((c) => [c.slug, c])), [categories]);
@@ -23,6 +31,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
     const n = q.trim().toLowerCase();
     const list = companies.filter(
       (c) =>
+        (!onlyNew || !!c.isNew) &&
         (!cat || c.categories.includes(cat)) &&
         (exit ? c.exit === exit : showEnded || !ENDED.includes(c.exit)) &&
         (!pref || c.prefecture === pref) &&
@@ -31,7 +40,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
     if (sort === 'founded') return [...list].sort((a, b) => (b.foundedYear ?? 0) - (a.foundedYear ?? 0));
     if (sort === 'new') return [...list].sort((a, b) => Number(!!b.isNew) - Number(!!a.isNew));
     return list;
-  }, [companies, q, cat, exit, pref, sort, showEnded]);
+  }, [companies, q, cat, exit, pref, sort, showEnded, onlyNew]);
 
   return (
     <>
@@ -70,6 +79,7 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
           <option value="new">新しく追加した企業</option>
           <option value="founded">創業が新しい順</option>
         </select>
+        {newCount > 0 && <label className="ended-toggle"><input type="checkbox" checked={onlyNew} onChange={(e) => setOnlyNew(e.target.checked)} />2026年10月以降に収録した企業だけ（{newCount}社）</label>}
         <label className="ended-toggle"><input type="checkbox" checked={showEnded} onChange={(e) => setShowEnded(e.target.checked)} />事業を終えた会社も表示（{endedCount}社）</label>
         <span className="count">{hit.length} 社</span>
       </div>

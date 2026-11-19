@@ -48,12 +48,13 @@
     "company": "聖心美容クリニック",
     "companyId": null,
     "publishedAt": "2026-11-18T20:00:02.000Z",
-    "category": "medical-dx",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "美容クリニックによる美容医療モニター募集のキャンペーンで、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000005238.000003670",
@@ -62,7 +63,7 @@
     "company": "クリーク･アンド･リバー社",
     "companyId": null,
     "publishedAt": "2026-11-18T20:00:02.000Z",
-    "category": "recruting-solutions",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
@@ -146,7 +147,7 @@
     "company": "ボイット株式会社",
     "companyId": null,
     "publishedAt": "2026-11-18T18:43:00.000Z",
-    "category": "medical-image",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
@@ -160,12 +161,13 @@
     "company": "SBC Medical Group Holdings Inc.",
     "companyId": null,
     "publishedAt": "2026-11-18T18:30:06.000Z",
-    "category": "medical-dx",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "美容クリニック院長の海外学会での研究発表の告知で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000002312.000032951",
@@ -202,12 +204,13 @@
     "company": "聖心美容クリニック",
     "companyId": null,
     "publishedAt": "2026-11-18T17:43:06.000Z",
-    "category": "medical-dx",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "美容クリニック院長の学会登壇の告知で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000072.000154880",
@@ -216,12 +219,13 @@
     "company": "VANDS CLINIC",
     "companyId": null,
     "publishedAt": "2026-11-18T17:30:38.000Z",
-    "category": "medical-dx",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "韓国の美容クリニックが韓国承認済みのPCL注入製剤を自院の施術メニューに導入した告知で、国内の承認や販路などの事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000018.000138996",
@@ -249,7 +253,8 @@
     "enriched": true,
     "tier": "out",
     "reason": "派遣求人の平均時給の調査で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000263.000005612",
@@ -300,12 +305,13 @@
     "company": "GEDA",
     "companyId": null,
     "publishedAt": "2026-11-18T16:59:43.000Z",
-    "category": null,
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "ジェネリック医薬品協議会による医薬品情報の管理に関する調査報告と提言の公表で、制度が変わったわけではなく事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000030.000091030",
@@ -314,12 +320,13 @@
     "company": "株式会社CogSmart",
     "companyId": "6370001045002",
     "publishedAt": "2026-11-18T16:41:15.000Z",
-    "category": null,
+    "category": "medical-image",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "高齢者向けカラオケ脳トレの実証参加者を募集する案内で、結果や事業開始などの事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000075.000073210",
@@ -333,7 +340,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "ストレスチェックサービスの利用者数8万人突破の告知で、利用実績の報告にとどまり事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000011.000058960",
@@ -347,7 +355,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "社会福祉法人の団体による介護・障害福祉の経営実態調査への見解の公表で、報酬改定前の意見表明にとどまり事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000002802.000005176",
@@ -455,7 +464,7 @@
     "company": "医療法人社団福美会",
     "companyId": null,
     "publishedAt": "2026-11-18T15:00:02.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -623,7 +632,7 @@
     "company": "SBC Medical Group Holdings Inc.",
     "companyId": null,
     "publishedAt": "2026-11-18T14:00:02.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -679,12 +688,13 @@
     "company": "医療法人ELM",
     "companyId": null,
     "publishedAt": "2026-11-18T13:30:01.000Z",
-    "category": "medical-dx",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "クリニックの看護師のアートメイク世界大会への出場の告知で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000142.000032609",
@@ -698,7 +708,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "病院・介護施設向け職員ポータルのスマホアプリ公開とAI電話窓口の開設で、既存サービスの機能追加にとどまり事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000058.000046287",
@@ -707,13 +718,14 @@
     "company": "株式会社サイフューズ",
     "companyId": "1010001140223",
     "publishedAt": "2026-11-18T13:00:01.000Z",
-    "category": null,
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
     "reason": "慶應義塾大学・藤田医科大学との共同研究成果に基づき医師主導治験を開始するという事業上の変化がある。",
     "tierBy": "review",
-    "change": "サイフューズのバイオ3Dプリンターで作る骨軟骨プラグ「KCF-BC1」が、特発性大腿骨内側顆骨壊死を対象とした医師主導治験に入り、非臨床から臨床段階へ進む。"
+    "change": "サイフューズのバイオ3Dプリンターで作る骨軟骨プラグ「KCF-BC1」が、特発性大腿骨内側顆骨壊死を対象とした医師主導治験に入り、非臨床から臨床段階へ進む。",
+    "categoryBy": "company"
   },
   {
     "id": "000000029.000091030",
@@ -722,12 +734,13 @@
     "company": "株式会社CogSmart",
     "companyId": "6370001045002",
     "publishedAt": "2026-11-18T13:00:01.000Z",
-    "category": null,
+    "category": "medical-image",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "認知症領域のAIベンチャーがピッチ登壇やアクセラレーターに選ばれたという案内で、契約や販路拡大といった事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000028.000100421",
@@ -820,12 +833,13 @@
     "company": "TENTIAL",
     "companyId": "9011001120604",
     "publishedAt": "2026-11-18T13:00:01.000Z",
-    "category": null,
+    "category": "direct-to-consumer",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "リカバリーウェアブランドの大型店舗の出店で、通常の小売展開にとどまり事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000049.000045231",
@@ -848,12 +862,13 @@
     "company": "Flora株式会社",
     "companyId": "7130001068208",
     "publishedAt": "2026-11-18T13:00:01.000Z",
-    "category": "personal-health-record",
+    "category": "femtech",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "法人向けヘルスケアアプリの対象を全従業員に広げる機能アップデートで、新規契約や販路変化といった事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000266.000013971",
@@ -862,12 +877,13 @@
     "company": "DeNA",
     "companyId": "6011001099437",
     "publishedAt": "2026-11-18T13:00:01.000Z",
-    "category": null,
+    "category": "medical-image",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "ゲームと書店のコラボイベントの告知で、ヘルスケアの事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000014.000140858",
@@ -881,7 +897,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "重症心身障がい児者向けデイサービスへの助成財団による介護リフト贈呈式の報告で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000011.000136924",
@@ -895,7 +912,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "産業医による適応障害マネジメントセミナーの提供開始の案内で、事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000001.000194926",
@@ -909,7 +927,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "歯科医院の受付無人化などの経営ノウハウを広める新会社の設立告知で、具体的な製品・契約・導入先の拡大といった事業上の変化はまだない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000044.000052541",
@@ -918,7 +937,7 @@
     "company": "一般社団法人涙活協会",
     "companyId": null,
     "publishedAt": "2026-11-18T12:05:48.000Z",
-    "category": "mental-health",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
@@ -974,12 +993,13 @@
     "company": "中外製薬株式会社",
     "companyId": "5011501002900",
     "publishedAt": "2026-11-18T11:00:02.000Z",
-    "category": null,
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "製薬企業のイノベーション関連イベントの開催案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000017.000033087",
@@ -1091,7 +1111,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "韓国の介護関係者による介護美容の視察・反応の紹介で、海外展開の契約などの事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000156.000098284",
@@ -1100,12 +1121,13 @@
     "company": "株式会社ココロミル",
     "companyId": "9011101096810",
     "publishedAt": "2026-11-18T10:34:45.000Z",
-    "category": "health-corporate-management",
+    "category": "simple-inspection",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "心電図検査と突然死予防をテーマにした健康経営ウェビナーの案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000023.000156534",
@@ -1114,12 +1136,13 @@
     "company": "株式会社pono",
     "companyId": "3290001108926",
     "publishedAt": "2026-11-18T10:10:02.000Z",
-    "category": null,
+    "category": "health-consulting",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "多胎児家庭向けアプリ運営企業の経済誌ランキング選出で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000002025.000033034",
@@ -1128,12 +1151,13 @@
     "company": "TOPPANホールディングス株式会社",
     "companyId": "7010501016231",
     "publishedAt": "2026-11-18T10:00:55.000Z",
-    "category": null,
+    "category": "real-world-data",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "女性の健康課題による労働損失をテーマにしたセミナーの案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000331.000122205",
@@ -1184,12 +1208,13 @@
     "company": "テオリア・テクノロジーズ株式会社",
     "companyId": "9010001238282",
     "publishedAt": "2026-11-18T10:00:02.000Z",
-    "category": null,
+    "category": "marketing-support",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "AIパーソナライズラジオと地域FM局の情報連携で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000001.000184198",
@@ -1212,12 +1237,13 @@
     "company": "株式会社サイキンソー",
     "companyId": "6011101071774",
     "publishedAt": "2026-11-18T10:00:02.000Z",
-    "category": null,
+    "category": "simple-inspection",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "腸内フローラ検査企業が管理栄養士向け育成プログラムを始めた案内で、第1期7名の研修にとどまり事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000169.000080785",
@@ -1254,12 +1280,13 @@
     "company": "株式会社asken",
     "companyId": "2011101047134",
     "publishedAt": "2026-11-18T10:00:02.000Z",
-    "category": null,
+    "category": "health-corporate-management",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "食事管理アプリのアプリストア賞の受賞で、事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000075.000179433",
@@ -1273,7 +1300,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "管理医療機器の磁気リカバリーウェアの新製品の先行販売で、通常の製品追加にとどまり事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000054.000118809",
@@ -1296,13 +1324,14 @@
     "company": "WyL株式会社",
     "companyId": "3011701019754",
     "publishedAt": "2026-11-18T10:00:02.000Z",
-    "category": "nursing",
+    "category": "home-visit-nursing",
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
     "reason": "第三者割当増資による約15億円の資金調達で、M&Aによる在宅ケア事業の拡大に乗り出すという事業上の変化がある。",
     "tierBy": "review",
-    "change": "訪問看護・重度訪問介護・医療ケア住まいを全国53事業所で展開するWyLが約15億円を調達し、在宅ケア事業者のM&A・事業承継と事業所・住まいの新規開設を進める。"
+    "change": "訪問看護・重度訪問介護・医療ケア住まいを全国53事業所で展開するWyLが約15億円を調達し、在宅ケア事業者のM&A・事業承継と事業所・住まいの新規開設を進める。",
+    "categoryBy": "company"
   },
   {
     "id": "000000003.000191902",
@@ -1326,12 +1355,13 @@
     "company": "株式会社C-HASプラス",
     "companyId": "5330001026254",
     "publishedAt": "2026-11-18T10:00:02.000Z",
-    "category": null,
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "大学発ベンチャーの台湾のスタートアップイベントへの登壇・出展の案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000887.000014333",
@@ -1340,12 +1370,13 @@
     "company": "株式会社ファミワン",
     "companyId": "4011001105758",
     "publishedAt": "2026-11-18T09:30:01.000Z",
-    "category": null,
+    "category": "femtech",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "保険会社との共創プロジェクトの一環として中学校で開いた性教育の出前授業の報告で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000024.000093948",
@@ -1396,7 +1427,7 @@
     "company": "H.U.グループホールディングス株式会社",
     "companyId": null,
     "publishedAt": "2026-11-18T09:00:02.000Z",
-    "category": "medical-device",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
@@ -1411,7 +1442,7 @@
     "company": "Beyondge M&Aパートナーズ株式会社",
     "companyId": null,
     "publishedAt": "2026-11-18T09:00:02.000Z",
-    "category": "pharmacy-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -1430,7 +1461,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "元PMDA課長を招いた医療機器申請資料の信頼性に関するセミナーの案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000014.000120441",
@@ -1495,12 +1527,13 @@
     "company": "VANDS CLINIC",
     "companyId": null,
     "publishedAt": "2026-11-17T19:54:02.000Z",
-    "category": "medical-dx",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "美容クリニックが新しいスキンブースター施術を導入した院単位の告知で、事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000005236.000003670",
@@ -1537,12 +1570,13 @@
     "company": "株式会社WithMidwife",
     "companyId": "1120001224840",
     "publishedAt": "2026-11-17T18:40:01.000Z",
-    "category": null,
+    "category": "femtech",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "産後ケア施設の駅広告の掲出で、通常の販促にとどまり事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000005234.000003670",
@@ -1556,7 +1590,8 @@
     "enriched": true,
     "tier": "out",
     "reason": "ポートフォリオ作成のeラーニング販売で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000123.000037884",
@@ -1696,7 +1731,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "メンタルヘルス支援サービスの展示会出展の案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000108.000055597",
@@ -1733,13 +1769,14 @@
     "company": "アトラグループ株式会社",
     "companyId": "6120001113618",
     "publishedAt": "2026-11-17T16:25:59.000Z",
-    "category": "medical-device",
+    "category": "relaxation",
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
     "reason": "第三者割当増資の引受けによる資本業務提携で、医療機器を鍼灸接骨院網へ販売し、病院・クリニックへの販路にも広げるという事業上の変化がある。",
     "tierBy": "review",
-    "change": "鍼灸接骨院向け経営支援のアトラが医療機器販社REMED JAPANの議決権35%を約7,800万円で取得し、全国約3,000院の導入院網で磁気刺激・衝撃波機器の販売を始める"
+    "change": "鍼灸接骨院向け経営支援のアトラが医療機器販社REMED JAPANの議決権35%を約7,800万円で取得し、全国約3,000院の導入院網で磁気刺激・衝撃波機器の販売を始める。",
+    "categoryBy": "company"
   },
   {
     "id": "000000067.000012366",
@@ -1818,13 +1855,14 @@
     "company": "株式会社ポラリス",
     "companyId": "4140001084000",
     "publishedAt": "2026-11-17T15:45:40.000Z",
-    "category": null,
+    "category": "nursing",
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
     "reason": "自治体公募での事業者選定により、新たな地域での介護事業の受託という事業上の変化がある。",
     "tierBy": "review",
-    "change": "ポラリスが秋田県男鹿市の公募で自立支援型デイサービス事業の実施候補者に選ばれ、旧市営デイサービスセンターで介護サービスを担う見込みとなる（開始時期・体制は今後協議）。"
+    "change": "ポラリスが秋田県男鹿市の公募で自立支援型デイサービス事業の実施候補者に選ばれ、旧市営デイサービスセンターで介護サービスを担う見込みとなる（開始時期・体制は今後協議）。",
+    "categoryBy": "company"
   },
   {
     "id": "000000130.000043191",
@@ -1833,12 +1871,13 @@
     "company": "聖心美容クリニック",
     "companyId": null,
     "publishedAt": "2026-11-17T15:34:18.000Z",
-    "category": "medical-dx",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "美容クリニック院長の国際学会での講演告知で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000297.000009955",
@@ -1881,7 +1920,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "2027年度の介護保険制度改定に向けた要望書の提出で、制度そのものの変更ではなく事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000028.000189317",
@@ -1890,12 +1930,13 @@
     "company": "STRATISTICS MARKET RESEARCH CONSULTING",
     "companyId": "4010401161048",
     "publishedAt": "2026-11-17T15:26:25.000Z",
-    "category": null,
+    "category": "femtech",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "自動車ゾーンアーキテクチャ市場の予測レポートで、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000018.000189173",
@@ -1904,7 +1945,7 @@
     "company": "みそら株式会社",
     "companyId": null,
     "publishedAt": "2026-11-17T15:17:24.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -1918,12 +1959,13 @@
     "company": "STRATISTICS MARKET RESEARCH CONSULTING",
     "companyId": "4010401161048",
     "publishedAt": "2026-11-17T15:12:07.000Z",
-    "category": null,
+    "category": "femtech",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "半導体用特殊化学品市場の予測レポートで、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000035.000125262",
@@ -1932,7 +1974,7 @@
     "company": "学校法人東京女子医科大学",
     "companyId": null,
     "publishedAt": "2026-11-17T15:01:09.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -1946,7 +1988,7 @@
     "company": "医療法人社団福美会",
     "companyId": null,
     "publishedAt": "2026-11-17T15:00:01.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -1974,12 +2016,13 @@
     "company": "一般社団法人日本男性看護師會",
     "companyId": null,
     "publishedAt": "2026-11-17T15:00:01.000Z",
-    "category": "nursing",
+    "category": "home-visit-nursing",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "不登校の子どもと家族を支える訪問看護に関するオンラインセミナーの案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000001018.000010591",
@@ -1993,7 +2036,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "元介護職の復職意向についての調査結果で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000003.000132228",
@@ -2031,13 +2075,14 @@
     "company": "株式会社NovAccel",
     "companyId": "5010001246066",
     "publishedAt": "2026-11-17T14:53:43.000Z",
-    "category": null,
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
     "reason": "第三者割当増資による約2.9億円の資金調達で、医療用RI供給事業の立ち上げが進むという事業上の変化がある。",
     "tierBy": "review",
-    "change": "がん治療用ラジオアイソトープAc-225を小型超伝導加速器で製造するNovAccelがエクステンションラウンドで約2.9億円を調達し、製造プロセス開発とサンプル供給体制の整備に充てる。"
+    "change": "がん治療用ラジオアイソトープAc-225を小型超伝導加速器で製造するNovAccelがエクステンションラウンドで約2.9億円を調達し、製造プロセス開発とサンプル供給体制の整備に充てる。",
+    "categoryBy": "company"
   },
   {
     "id": "000000026.000189317",
@@ -2046,12 +2091,13 @@
     "company": "STRATISTICS MARKET RESEARCH CONSULTING",
     "companyId": "4010401161048",
     "publishedAt": "2026-11-17T14:49:46.000Z",
-    "category": null,
+    "category": "femtech",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "フィジカルAI市場の予測レポートで、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000003.000187955",
@@ -2158,12 +2204,13 @@
     "company": "SBC Medical Group Holdings Inc.",
     "companyId": null,
     "publishedAt": "2026-11-17T14:00:02.000Z",
-    "category": "medical-dx",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "美容クリニックの医師による学会での研究発表の告知で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000035.000040067",
@@ -2172,13 +2219,14 @@
     "company": "エムスリーキャリア株式会社",
     "companyId": "1010401063016",
     "publishedAt": "2026-11-17T14:00:02.000Z",
-    "category": null,
+    "category": "doctor-network",
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
     "reason": "調剤薬局の事業承継を仲介する新サービスの開始という事業上の変化がある。",
     "tierBy": "review",
-    "change": "後継者不在の調剤薬局オーナーと独立希望の薬剤師をつなぎ、1〜3年の協働期間を経て株式・事業譲渡する承継サービスを2026年12月1日から始める。"
+    "change": "後継者不在の調剤薬局オーナーと独立希望の薬剤師をつなぎ、1〜3年の協働期間を経て株式・事業譲渡する承継サービスを2026年12月1日から始める。",
+    "categoryBy": "company"
   },
   {
     "id": "000000302.000012113",
@@ -2187,12 +2235,13 @@
     "company": "ETIC.",
     "companyId": "3011101086453",
     "publishedAt": "2026-11-17T14:00:02.000Z",
-    "category": null,
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "東京都のスタートアップビジネスプランコンテストの決勝大会の告知で、ファイナリストの一部が医療分野でも、記事の中身はヘルスケアの事業上の変化ではない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000332.000140284",
@@ -2285,12 +2334,13 @@
     "company": "第一三共ヘルスケア株式会社",
     "companyId": "1010001095640",
     "publishedAt": "2026-11-17T13:20:01.000Z",
-    "category": null,
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "敏感肌向けスキンケア化粧品の新商品発売で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000006.000183487",
@@ -2327,12 +2377,13 @@
     "company": "株式会社キャピタルメディカ・ベンチャーズ",
     "companyId": "2010401128239",
     "publishedAt": "2026-11-17T13:00:02.000Z",
-    "category": null,
+    "category": "vc-cvc",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "医療者とスタートアップをつなぐイベントの開催報告で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000090.000113536",
@@ -2341,12 +2392,13 @@
     "company": "Berry",
     "companyId": "9011001142136",
     "publishedAt": "2026-11-17T13:00:02.000Z",
-    "category": "dental",
+    "category": "medical-device",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "頭蓋形状矯正ヘルメットの学会でのブース出展の案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000297.000085708",
@@ -2425,12 +2477,13 @@
     "company": "株式会社Magic Shields",
     "companyId": "3080401024001",
     "publishedAt": "2026-11-17T12:17:57.000Z",
-    "category": null,
+    "category": "nursing",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "転倒骨折対策の技術が海外のアワードで受賞したもので、販路や制度上の事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000030.000142474",
@@ -2439,7 +2492,7 @@
     "company": "セレブロファーマ株式会社",
     "companyId": null,
     "publishedAt": "2026-11-17T12:00:02.000Z",
-    "category": "direct-to-consumer",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
@@ -2481,12 +2534,13 @@
     "company": "株式会社ニチイ学館",
     "companyId": "3010001025868",
     "publishedAt": "2026-11-17T11:00:07.000Z",
-    "category": null,
+    "category": "nursing",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "医療関連事業の従業員向け接遇コンテストの開催で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000001604.000026881",
@@ -2635,12 +2689,13 @@
     "company": "株式会社Lily",
     "companyId": "4010001175588",
     "publishedAt": "2026-11-17T10:10:01.000Z",
-    "category": null,
+    "category": "medical-device",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "自己変革をたたえる一般イベントの開催案内で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000026.000097637",
@@ -2649,12 +2704,13 @@
     "company": "株式会社EXORPHIA",
     "companyId": "7010001200707",
     "publishedAt": "2026-11-17T10:07:17.000Z",
-    "category": null,
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "開発中のIVF培地添加剤を海外のスタートアップイベントで紹介・ピッチする出展案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000554.000024670",
@@ -2817,12 +2873,13 @@
     "company": "あすか製薬株式会社",
     "companyId": "8010401159328",
     "publishedAt": "2026-11-17T09:00:02.000Z",
-    "category": "femtech",
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "製薬会社が企業の従業員向けに生理セミナーを開いた事例紹介で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000051.000066722",
@@ -2964,7 +3021,8 @@
     "tier": "top",
     "reason": "医薬品DBの提供先を医療機関へ広げる新サービスの開始という事業上の変化がある。",
     "tierBy": "review",
-    "change": "システムベンダー向けに提供してきた医薬品情報DB「Xlib」を、医療機関向けにパッケージ化して毎週直接提供するサービスを始めた。"
+    "change": "システムベンダー向けに提供してきた医薬品情報DB「Xlib」を、医療機関向けにパッケージ化して毎週直接提供するサービスを始めた。",
+    "categoryBy": "title"
   },
   {
     "id": "000000222.000023120",
@@ -2973,7 +3031,7 @@
     "company": "株式会社ネコリパブリック",
     "companyId": null,
     "publishedAt": "2026-11-16T18:03:08.000Z",
-    "category": "pharmacy-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -2987,12 +3045,13 @@
     "company": "株式会社Wrusty",
     "companyId": "9010801028354",
     "publishedAt": "2026-11-16T18:00:01.000Z",
-    "category": null,
+    "category": "telemedicine",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "冬の外来混雑への備えを扱うクリニック向け無料オンラインセミナーの案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000005232.000003670",
@@ -3043,12 +3102,13 @@
     "company": "情報基盤開発",
     "companyId": null,
     "publishedAt": "2026-11-16T17:45:02.000Z",
-    "category": "health-corporate-management",
+    "category": "mental-health",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "産業医によるストレスチェック活用セミナーのアーカイブ配信の案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000410.000097803",
@@ -3099,12 +3159,13 @@
     "company": "VANDS CLINIC",
     "companyId": null,
     "publishedAt": "2026-11-16T17:04:23.000Z",
-    "category": "medical-dx",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "美容クリニック1院での韓国製ボツリヌス製剤の施術メニュー追加の予告で、事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000097.000156029",
@@ -3127,13 +3188,14 @@
     "company": "株式会社ツーセル",
     "companyId": "5240001015745",
     "publishedAt": "2026-11-16T17:00:02.000Z",
-    "category": null,
+    "category": "pharma",
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
     "reason": "再生医療等製品の第3相試験での最初の症例登録という開発段階の変化がある。",
     "tierBy": "review",
-    "change": "科研製薬にライセンスした変形性膝関節症向け他家滑膜MSC由来三次元人工組織「gMSC1」の第3相試験で、最初の患者が登録され治験が始まった。"
+    "change": "科研製薬にライセンスした変形性膝関節症向け他家滑膜MSC由来三次元人工組織「gMSC1」の第3相試験で、最初の患者が登録され治験が始まった。",
+    "categoryBy": "company"
   },
   {
     "id": "000000070.000179433",
@@ -3268,12 +3330,13 @@
     "company": "ベースフード株式会社",
     "companyId": "6010901037910",
     "publishedAt": "2026-11-16T16:00:01.000Z",
-    "category": null,
+    "category": "direct-to-consumer",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "食品会社とゴルフコーチとのサプライヤー契約で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000965.000033058",
@@ -3287,7 +3350,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "老人ホームを自ら探すアクティブシニアの実態に関する調査結果で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000025.000189317",
@@ -3296,12 +3360,13 @@
     "company": "STRATISTICS MARKET RESEARCH CONSULTING",
     "companyId": "4010401161048",
     "publishedAt": "2026-11-16T15:16:15.000Z",
-    "category": null,
+    "category": "femtech",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "自動車OTAアップデート市場の予測レポートで、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000829.000004782",
@@ -3338,7 +3403,7 @@
     "company": "医療法人社団福美会",
     "companyId": null,
     "publishedAt": "2026-11-16T15:00:02.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -3352,12 +3417,13 @@
     "company": "ジェイフロンティア株式会社",
     "companyId": null,
     "publishedAt": "2026-11-16T15:00:02.000Z",
-    "category": "health-corporate-management",
+    "category": "telemedicine",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "オンライン診療を使った福利厚生サービスの展示会出展の案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000001071.000024241",
@@ -3436,12 +3502,13 @@
     "company": "株式会社トータルブレインケア",
     "companyId": "2140001099900",
     "publishedAt": "2026-11-16T14:58:02.000Z",
-    "category": null,
+    "category": "diagnostic-support",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "他社が既に発表した対照群のない後ろ向き集計で測定基盤として使われた事例の紹介で、臨床的な結果や新しい契約などの事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000571.000021207",
@@ -3478,13 +3545,14 @@
     "company": "アッヴィ合同会社 アラガン・エステティックス",
     "companyId": null,
     "publishedAt": "2026-11-16T14:30:05.000Z",
-    "category": "medical-device",
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
     "reason": "第III相試験などの結果に基づく新しい医薬品の製造販売承認の取得という事業上の変化がある。",
     "tierBy": "review",
-    "change": "成人の眉間の表情皺に使う国内初のE型ボツリヌス毒素製剤「ボーウィ注用1400単位」が製造販売承認を取得し、国内で販売できるようになった"
+    "change": "成人の眉間の表情皺に使う国内初のE型ボツリヌス毒素製剤「ボーウィ注用1400単位」が製造販売承認を取得し、国内で販売できるようになった。",
+    "categoryBy": "title"
   },
   {
     "id": "000000007.000189858",
@@ -3521,12 +3589,13 @@
     "company": "アイリスオーヤマ株式会社",
     "companyId": "5011101082335",
     "publishedAt": "2026-11-16T14:08:40.000Z",
-    "category": null,
+    "category": "medical-device",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "清掃ロボットのホームセンターへの納入で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000487.000013298",
@@ -3535,12 +3604,13 @@
     "company": "株式会社エス・エム・エス",
     "companyId": "2010001134117",
     "publishedAt": "2026-11-16T14:02:49.000Z",
-    "category": null,
+    "category": "nursing",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "看護師向けイベントの開催決定と出展・協賛企業の募集案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000089.000096150",
@@ -3568,7 +3638,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "介護技術を競うコンテストの開催案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000165.000096787",
@@ -3779,7 +3850,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "働く男性の更年期の不調に関する調査結果で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000007.000190308",
@@ -3844,7 +3916,7 @@
     "company": "ポーターズ株式会社",
     "companyId": null,
     "publishedAt": "2026-11-16T13:00:02.000Z",
-    "category": "recruting-solutions",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -3892,7 +3964,8 @@
     "enriched": true,
     "tier": "out",
     "reason": "イノベーション拠点の韓国での新プログラム開始で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000051.000111066",
@@ -3929,12 +4002,13 @@
     "company": "株式会社MamaWell",
     "companyId": "6050001051544",
     "publishedAt": "2026-11-16T12:18:33.000Z",
-    "category": null,
+    "category": "femtech",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "産後ケア関連企業の県表彰の受賞で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000029.000142474",
@@ -3943,7 +4017,7 @@
     "company": "セレブロファーマ株式会社",
     "companyId": null,
     "publishedAt": "2026-11-16T12:00:02.000Z",
-    "category": "medical-image",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
@@ -3985,7 +4059,7 @@
     "company": "日本調剤株式会社",
     "companyId": null,
     "publishedAt": "2026-11-16T11:00:02.000Z",
-    "category": "pharmacy-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -4125,12 +4199,13 @@
     "company": "株式会社セカンドハート",
     "companyId": "7130003005877",
     "publishedAt": "2026-11-16T10:00:02.000Z",
-    "category": null,
+    "category": "disease-management-program",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "マレーシア企業とのフットケアの共同プロモーションに関する非独占の覚書で、料金や保険は検討段階にとどまり事業上の変化はまだ小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000123.000103350",
@@ -4139,12 +4214,13 @@
     "company": "issin",
     "companyId": "7010001230464",
     "publishedAt": "2026-11-16T10:00:02.000Z",
-    "category": null,
+    "category": "personal-health-record",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "体重測定できるバスマットのキャラクターモデル追加で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000415.000134689",
@@ -4209,12 +4285,13 @@
     "company": "株式会社ファミワン",
     "companyId": "4011001105758",
     "publishedAt": "2026-11-16T09:00:01.000Z",
-    "category": null,
+    "category": "femtech",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "自治体から受託したプレコンセプションケア事業の一環で開く無料オンラインセミナーの案内で、事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000157.000016301",
@@ -4265,7 +4342,7 @@
     "company": "日本経営グループ",
     "companyId": null,
     "publishedAt": "2026-11-16T08:00:01.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -4405,12 +4482,13 @@
     "company": "Craif株式会社",
     "companyId": "7010001192093",
     "publishedAt": "2026-11-14T18:00:02.000Z",
-    "category": null,
+    "category": "simple-inspection",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "尿中バイオマーカーによるMCI・認知症リスク検査モデルの学会発表で、バイオバンク検体の小規模な後ろ向き研究にとどまり、承認・検査の提供開始といった事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000012.000090712",
@@ -4424,7 +4502,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "PHRに関する展示会での講演の告知で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000001.000192764",
@@ -4475,12 +4554,13 @@
     "company": "株式会社Magic Shields",
     "companyId": "3080401024001",
     "publishedAt": "2026-11-14T10:54:31.000Z",
-    "category": null,
+    "category": "nursing",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "転倒骨折予防マットの企業のテレビ番組出演の告知で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000006.000190308",
@@ -4489,7 +4569,7 @@
     "company": "有限会社 フジタグループ",
     "companyId": null,
     "publishedAt": "2026-11-14T10:20:01.000Z",
-    "category": "medical-image",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -4508,7 +4588,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "歯科医院の集客状況の調査結果で、調査レポートにとどまり事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000002.000193219",
@@ -4592,7 +4673,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "歯科団体の賛助会員が展示会に出展し、会員歯科医師が講演するというイベント告知で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000003.000189589",
@@ -4658,12 +4740,13 @@
     "company": "株式会社法研",
     "companyId": "7010001057148",
     "publishedAt": "2026-11-13T19:40:31.000Z",
-    "category": null,
+    "category": "health-consulting",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "孫育てをテーマにした一般書の刊行で、ヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000107.000146648",
@@ -4700,7 +4783,7 @@
     "company": "株式会社エース",
     "companyId": null,
     "publishedAt": "2026-11-13T19:00:01.000Z",
-    "category": "recruting-solutions",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -4840,7 +4923,7 @@
     "company": "VANDS CLINIC",
     "companyId": null,
     "publishedAt": "2026-11-13T17:37:44.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -4897,13 +4980,14 @@
     "company": "アトラグループ株式会社",
     "companyId": "6120001113618",
     "publishedAt": "2026-11-13T17:03:10.000Z",
-    "category": null,
+    "category": "relaxation",
     "source": "prtimes",
     "enriched": true,
     "tier": "top",
     "reason": "自費施術向け機材・消耗品の販売好調による大幅増益と通期業績予想の上方修正という事業上の変化がある。",
     "tierBy": "review",
-    "change": "鍼灸接骨院向けプラットフォームのアトラグループが第3四半期で営業利益を前年同期比182.9%増の251百万円とし、通期営業利益予想を160百万円から300百万円へ上方修正した。"
+    "change": "鍼灸接骨院向けプラットフォームのアトラグループが第3四半期で営業利益を前年同期比182.9%増の251百万円とし、通期営業利益予想を160百万円から300百万円へ上方修正した。",
+    "categoryBy": "company"
   },
   {
     "id": "000009598.000002535",
@@ -4973,7 +5057,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "市が開く介護予防の音楽療法イベントの案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000311.000029931",
@@ -5043,7 +5128,8 @@
     "enriched": true,
     "tier": "out",
     "reason": "介護施設やクリニックも対象にした清掃・美観管理サービスで、施設管理の話にとどまりヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000182.000092153",
@@ -5108,12 +5194,13 @@
     "company": "ベースフード株式会社",
     "companyId": "6010901037910",
     "publishedAt": "2026-11-13T16:00:02.000Z",
-    "category": null,
+    "category": "direct-to-consumer",
     "source": "prtimes",
     "enriched": true,
     "tier": "out",
     "reason": "完全栄養食メーカーと女子サッカークラブのサプライヤー契約で、食品・スポーツ協賛にとどまりヘルスケア事業の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000002066.000042328",
@@ -5141,7 +5228,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "医療データのOMOP CDM変換で専門団体から医学的確認を得る協業体制の構築で、導入先の契約や販路の拡大といった事業上の変化はまだ示されていない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000030.000169767",
@@ -5164,12 +5252,13 @@
     "company": "Oh my teeth",
     "companyId": "7010701038372",
     "publishedAt": "2026-11-13T15:39:11.000Z",
-    "category": null,
+    "category": "dental",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "マウスピース矯正サービスの地域テレビCM放映という販促で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "company"
   },
   {
     "id": "000000052.000174201",
@@ -5253,7 +5342,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "歯科治療保証会社が再治療率の低い歯科医院を紹介するサイトを公開したもので、集患支援の情報サイトにとどまり事業上の変化は小さい。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000055.000064265",
@@ -5276,7 +5366,7 @@
     "company": "医療法人社団福美会",
     "companyId": null,
     "publishedAt": "2026-11-13T15:00:01.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -5458,12 +5548,13 @@
     "company": "FASTLANE Inc.",
     "companyId": null,
     "publishedAt": "2026-11-13T14:13:41.000Z",
-    "category": null,
+    "category": "medical-cosmetic",
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
     "reason": "韓国美容医療情報アプリの観光公社と組んだ旅行者向けキャンペーンで、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000003.000172866",
@@ -5486,7 +5577,7 @@
     "company": "特定非営利活動法人シャイン・オン・キッズ",
     "companyId": null,
     "publishedAt": "2026-11-13T14:00:01.000Z",
-    "category": "medical-dx",
+    "category": null,
     "source": "prtimes",
     "enriched": true,
     "tier": "list",
@@ -5603,7 +5694,8 @@
     "enriched": true,
     "tier": "list",
     "reason": "福祉用具のニーズ・シーズマッチング交流会での特別講演決定の案内で、事業上の変化はない。",
-    "tierBy": "review"
+    "tierBy": "review",
+    "categoryBy": "title"
   },
   {
     "id": "000000007.000173615",

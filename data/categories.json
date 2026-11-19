@@ -25,9 +25,10 @@
   },
   {
     "slug": "medical-cosmetic",
-    "name": "美容整形",
+    "name": "美容医療・美容",
     "group": "disease",
-    "groupLabel": "対象領域・課題"
+    "groupLabel": "対象領域・課題",
+    "note": "美容医療（自由診療のクリニックとその支援）のほか、薄毛・ウィッグなど美容まわりの事業を含む"
   },
   {
     "slug": "first-aid",
@@ -63,7 +64,8 @@
     "slug": "direct-to-consumer",
     "name": "D2C",
     "group": "solution",
-    "groupLabel": "ソリューション"
+    "groupLabel": "ソリューション",
+    "note": "D2C＝消費者に直接売る（Direct to Consumer）事業"
   },
   {
     "slug": "medical-image",
@@ -105,13 +107,15 @@
     "slug": "disease-management-program",
     "name": "DMP",
     "group": "solution",
-    "groupLabel": "ソリューション"
+    "groupLabel": "ソリューション",
+    "note": "DMP＝疾病管理プログラム（Disease Management Program）。糖尿病などの生活習慣病の重症化を防ぐ支援"
   },
   {
     "slug": "personal-health-record",
     "name": "PHR",
     "group": "solution",
-    "groupLabel": "ソリューション"
+    "groupLabel": "ソリューション",
+    "note": "PHR＝個人の健康記録（Personal Health Record）。健診・服薬・日々の記録を本人が持って使うしくみ"
   },
   {
     "slug": "insuarance",
@@ -123,13 +127,15 @@
     "slug": "medical-saas",
     "name": "医療機関SaaS",
     "group": "solution",
-    "groupLabel": "ソリューション"
+    "groupLabel": "ソリューション",
+    "note": "SaaS＝インターネット経由で使う業務ソフト。ここでは病院の連携・記録・勤怠などのソフト"
   },
   {
     "slug": "real-world-data",
     "name": "RWD",
     "group": "solution",
-    "groupLabel": "ソリューション"
+    "groupLabel": "ソリューション",
+    "note": "RWD＝リアルワールドデータ。診療・レセプト・健診など、実際の医療の現場で集まるデータ"
   },
   {
     "slug": "health-corporate-management",
@@ -165,7 +171,8 @@
     "slug": "medical-materials",
     "name": "医療資材・SPD",
     "group": "domain",
-    "groupLabel": "事業領域"
+    "groupLabel": "事業領域",
+    "note": "SPD＝院内の医療材料の物流管理（Supply Processing and Distribution）"
   },
   {
     "slug": "pharma-marketing-support",
@@ -189,7 +196,8 @@
     "slug": "cro",
     "name": "CRO",
     "group": "solution",
-    "groupLabel": "ソリューション"
+    "groupLabel": "ソリューション",
+    "note": "CRO＝医薬品開発業務受託機関（Contract Research Organization）。製薬会社から臨床開発の業務を受託する会社"
   },
   {
     "slug": "wholesale",
@@ -207,13 +215,15 @@
     "slug": "vc-cvc",
     "name": "VC・CVC",
     "group": "solution",
-    "groupLabel": "ソリューション"
+    "groupLabel": "ソリューション",
+    "note": "VC＝ベンチャーキャピタル、CVC＝事業会社が持つベンチャーキャピタル"
   },
   {
     "slug": "doctor-network",
-    "name": "医師囲い込み",
+    "name": "医師ネットワーク",
     "group": "solution",
-    "groupLabel": "ソリューション"
+    "groupLabel": "ソリューション",
+    "note": "医師どうし・医療者向けのコミュニティや情報サービス"
   },
   {
     "slug": "marketing-support",

@@ -14,7 +14,7 @@ export default function CategoriesPage() {
       <div className="page-head">
         <div className="kicker">Categories</div>
         <h1>カテゴリ一覧</h1>
-        <p className="lead">ヘルスケアビジネスを「対象領域・課題」「ソリューション」「事業領域」の3つの切り口で分類しています。1社が複数のカテゴリに属することもあります。</p>
+        <p className="lead">ヘルスケアビジネスを「対象領域・課題」「ソリューション」「事業領域」の3つの切り口で分類しています。1社が複数のカテゴリに属することもあります。略語のカテゴリには正式名を添えています。</p>
       </div>
       {(['disease', 'solution', 'domain'] as const).map((g) => (
         <section className="section" key={g}>
@@ -26,8 +26,9 @@ export default function CategoriesPage() {
               const nA = articles.filter((x) => x.category === c.slug).length;
               return (
                 <article className="card" key={c.slug}>
-                  <Link href={`/categories/${c.slug}/`} className="title"><span className={`chip ${c.group}`}>{c.name}</span></Link>
-                  <div className="meta"><span>企業 {nC}</span><span>サービス {nS}</span><span>記事 {nA}</span></div>
+                  <Link href={`/categories/${c.slug}/`} className="title">{c.name}</Link>
+                  {c.note && <p className="desc">{c.note}</p>}
+                  <div className="meta"><span>企業 {nC}</span><span>事業 {nS}</span><span>記事 {nA}</span></div>
                 </article>
               );
             })}
