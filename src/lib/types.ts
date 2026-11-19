@@ -3,6 +3,8 @@ export type Category = {
   name: string;
   group: 'disease' | 'solution' | 'domain';
   groupLabel: string;
+  /** 略語の正式名や、名前だけでは分かりにくい範囲の1行の説明 */
+  note?: string;
 };
 
 export type Company = {

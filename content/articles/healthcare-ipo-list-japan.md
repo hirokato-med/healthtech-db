@@ -2,7 +2,7 @@
 slug: healthcare-ipo-list-japan
 title: "ヘルスケア関連の新規上場企業一覧【2026年版】2004年以降のIPOと上場廃止"
 date: "2026-10-23"
-category: medical-dx
+category: ""
 author: "Healthtech DB 編集部"
 summary: "2004年以降に国内市場へ新規上場したヘルスケア・ヘルステック関連企業の主なものを、上場日・証券コード・市場・事業で一覧化。MBOや買収で上場廃止となった会社も注記し、2024〜2026年のIPOの傾向と、非公開化・再編が進む背景を加藤浩晃の視点で解説します。"
 tags: [IPO, 上場企業, ヘルステック, M&A, グロース市場]

@@ -53,6 +53,7 @@ add(must, '医療機器の情報と「医療機器ではない」が両方ある
 add(must, '終了日が未来なのに止まった事業になっている（plannedEnd に入れて「提供中」に）', services.filter((s) => STOPPED.has(s.status) && s.endedAt && s.endedAt.slice(0, 7) > today.slice(0, 7)));
 add(must, '終了予定の形がおかしい（kind・date が必要、status は「提供中」）', services.filter((s) => s.plannedEnd && (!['終了', '譲渡', '統合'].includes(s.plannedEnd.kind) || !/^\d{4}-\d{2}(-\d{2})?$/.test(s.plannedEnd.date ?? '') || (!s.plannedEnd.confirmedAt && s.status !== '提供中'))));
 add(must, '一時停止なのに status が「休止」でない', services.filter((s) => s.suspension?.temporary && !s.suspension.resumedAt && s.status !== '休止'));
+add(must, '会社の説明文に「上場企業」とあるのに上場区分が「上場」でない（上場廃止の時期を書く）', companies.filter((c) => /上場企業|上場している/.test(c.description ?? '') && !/上場廃止|元上場/.test(c.description ?? '') && c.exit !== '上場'), (c) => `${c.id} ${c.name}（${c.exit}）`);
 
 // 確かめたい（デジタルヘルスの中心を先に並べる）
 const digitalFirst = (a, b) => Number(adjacent.has(a.type)) - Number(adjacent.has(b.type));
