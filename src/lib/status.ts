@@ -85,7 +85,12 @@ const ym = (d: string) => d.replace(/^(\d{4})-(\d{2}).*$/, (_, y, m) => `${y}年
 export const pastLine = (s: S) => {
   const ev = (s.pastEvents ?? []).map((e) => `${e.date ? `${ym(e.date)}に` : ''}${e.text}`);
   if (s.saleEnded?.date) ev.push(`${ym(s.saleEnded.date)}に新規販売を終了`);
-  if (s.saleEnded?.maintenanceEndAnnounced) ev.push(`保守終了の公表期日は${ym(s.saleEnded.maintenanceEndAnnounced)}${s.saleEnded.maintenance === '終了' ? '' : '（実施は未確認）'}`);
+  if (s.saleEnded?.maintenanceEndAnnounced) {
+    // 期日がまだ来ていなければ「予定」、過ぎていて終了を確かめていなければ「実施は未確認」（状態は自動で切り替えない）
+    const due = s.saleEnded.maintenanceEndAnnounced;
+    const future = due.slice(0, 7) > new Date().toISOString().slice(0, 7);
+    ev.push(s.saleEnded.maintenance !== '終了' && future ? `保守は${ym(due)}に終える予定と公表` : `保守終了の公表期日は${ym(due)}${s.saleEnded.maintenance === '終了' ? '' : '（実施は未確認）'}`);
+  }
   if (s.endedAt && !s.saleEnded && ['終了', '譲渡', '統合', '休止'].includes(s.status)) ev.push(`${ym(s.endedAt)}に${s.after?.event ?? (s.status === '譲渡' ? '事業譲渡' : s.status === '統合' ? '統合' : s.status === '休止' ? '休止' : '提供を終了')}`);
   return ev.join('／');
 };

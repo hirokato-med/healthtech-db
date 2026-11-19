@@ -392,7 +392,7 @@ export type BusinessModel = {
   reimbursement?: { values: string[]; detail?: string; sources?: BmSource[] };
   stage?: { value: string; sources?: BmSource[] };
   activity?: { value: string; detail?: string; signals?: string[]; guess?: string; sources?: BmSource[] };
-  periods?: { t: string; what?: string; user?: string; pay?: string; bear?: string; channel?: string }[];
+  periods?: { t: string; what?: string; user?: string; pay?: string; bear?: string; channel?: string; operator?: string }[];
   plan?: string;
   adoption?: { metric: string; definition?: string; scope?: string; value: string; asOf?: string; source?: BmSource; ref?: boolean; status?: '非公表' | '資料未取得' | '取得したが読み取り未完了' }[];
 };
