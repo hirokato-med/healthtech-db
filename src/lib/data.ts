@@ -75,10 +75,39 @@ export const findCompanyByName = (name: string): Company | undefined => {
   );
 };
 
+/** 社名・別名・旧社名が完全に一致する会社だけ（部分一致では探さない） */
+const findCompanyExact = (name: string): Company | undefined => {
+  const n = normalizeName(name.replace(/[（(][^）)]*[）)]/g, ''));
+  if (n.length < 2) return undefined;
+  const all = getCompanies();
+  return all.find((c) => normalizeName(c.name) === n) ?? all.find((c) => [...(c.aliases ?? []), ...(c.formerNames ?? [])].some((a) => normalizeName(a) === n));
+};
+/**
+ * 事業の持ち主。company が「譲渡元 → 譲受先」の形で、事業が止まった（譲渡・終了など）記録は、
+ * 譲渡元の事業として扱う。部分一致で探すと譲受先（「→」の右側）の会社が選ばれてしまうので、譲渡元の名前の完全一致だけで探す
+ */
+const ownerOf = (s: Service) => {
+  if (s.companyId) return s.companyId;
+  if (s.company.includes('→') && STOPPED.includes(s.status)) return findCompanyExact(s.company.split('→')[0])?.id;
+  return findCompanyByName(s.company)?.id;
+};
 export const getServices = () =>
   memo('services', () =>
-    read<Service[]>('services.json').map((s) => ({ ...s, status: (s.status as string) === '継続中' ? '提供中' : s.status, companyId: s.companyId ?? findCompanyByName(s.company)?.id })),
+    read<Service[]>('services.json').map((s) => ({ ...s, status: (s.status as string) === '継続中' ? '提供中' : s.status, companyId: ownerOf(s) })),
   );
+/**
+ * この会社（またはグループ会社）が譲り受けた事業。譲渡元の記録（status は「譲渡」など）を、譲受先の会社ページで別に出すため。
+ * 「→」の右側（最後の譲受先）の社名か、そのかっこ書き（「メドレー子会社」など）が、この会社の名前で始まるものだけ
+ */
+export const receivedServicesOf = (company: Company) => {
+  const names = [company.name, ...(company.aliases ?? [])].map((x) => normalizeName(x).replace(/ホールディングス|hd$/g, '')).filter((x) => x.length >= 3);
+  return getServices().filter((s) => {
+    if (s.companyId === company.id || !s.company.includes('→') || !['譲渡', '統合'].includes(s.status)) return false;
+    const to = s.company.split('→').pop() ?? '';
+    const parts = [to.replace(/[（(][^）)]*[）)]/g, ''), ...[...to.matchAll(/[（(]([^）)]*)[）)]/g)].map((m) => m[1])].map(normalizeName);
+    return parts.some((p) => names.some((n) => p.startsWith(n)));
+  });
+};
 /** 事業が止まった理由の分類 */
 export const END_REASONS: Record<string, { label: string; note: string }> = {
   regulation: { label: '規制・承認', note: '薬機法の承認、医療法・医師法などの規制が壁になった' },

@@ -48,6 +48,9 @@ add(must, '節目の日付の形がおかしい', services.filter((s) => (s.mile
 // グループ会社（有価証券報告書から）：議決権は 0〜100、日付は YYYY-MM、名前と関係は必須
 const badGroup = (g) => !g.sourceLabel || !Array.isArray(g.members) || g.members.some((m) => !m.name || !m.relation || (m.voting != null && !(m.voting >= 0 && m.voting <= 100)) || (m.since && !/^\d{4}(-\d{2})?$/.test(m.since))) || (g.former ?? []).some((m) => !m.name || !m.how || (m.end && !/^\d{4}(-\d{2})?$/.test(m.end)));
 add(must, 'グループ会社の形がおかしい', companies.filter((c) => c.group && badGroup(c.group)), (c) => `${c.id} ${c.name}`);
+// 関連会社の欄が空白・カンマで細切れになっていないか（「米国子会社:」「Inc.」「(ドイツ)」「など」だけの要素）
+const fragment = (x) => /[:：]$/.test(x) || /^[(（][^)）]*[)）]$/.test(x) || /^(inc|ltd|co|corp|corporation|limited|llc|gmbh|s\.a|pte|など)\.?$/i.test(x) || /^[A-Za-z0-9]{1,3}$/.test(x);
+add(must, '関連会社の欄が細切れになっている', companies.filter((c) => (c.relatedCompanies ?? []).some(fragment)), (c) => `${c.id} ${c.name}`);
 add(must, '医療機器の情報と「医療機器ではない」が両方ある', services.filter((s) => s.device && s.nonDevice));
 // 終了予定と一時停止：未来の終了日は plannedEnd に入れ、status は「提供中」のまま。日付が来ても自動で変えない
 add(must, '終了日が未来なのに止まった事業になっている（plannedEnd に入れて「提供中」に）', services.filter((s) => STOPPED.has(s.status) && s.endedAt && s.endedAt.slice(0, 7) > today.slice(0, 7)));

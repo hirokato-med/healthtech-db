@@ -8,7 +8,7 @@ import { Chips } from '@/components/Chip';
 import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
-import { isStopped, statusLabel, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { isStopped, statusLabel, categoryName, findCompanyByName, receivedServicesOf, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
 import { statusClass } from '@/lib/status';
 import { marginOf, comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText , growthText, itemLabels} from '@/lib/earnings';
 import { reconcileBusinesses } from '@/lib/profile';
@@ -28,13 +28,16 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const c = getCompany(id);
   if (!c) notFound();
   const services = servicesOf(c.id);
+  // 他社から譲り受けて続けている事業（記録は譲渡元の事業として持っている）。止まった事業・過去の領域には数えない
+  const received = receivedServicesOf(c);
   // ヘルスケア事業の領域を、いま（提供中）・開発中・過去（止まった）・提供状況を確認できていない、に分ける。
   // 「提供中と確かめられた事業がない」ことを「すべて過去」とはしない（登録漏れ・未調査・開発中があり得る）
   const areas = (() => {
     const cats = (f: (x: (typeof services)[number]) => boolean) => [...new Set(services.filter(f).map((x) => x.category))];
     const now = cats((x) => x.status === '提供中');
     const dev = cats((x) => x.status === '準備中').filter((k) => !now.includes(k));
-    const past = cats((x) => isStopped(x)).filter((k) => !now.includes(k) && !dev.includes(k));
+    // 販売提携などの契約の記録（kind: contract）が終わっても、その領域から退いたことにはならないので「過去」に入れない
+    const past = cats((x) => isStopped(x) && x.kind !== 'contract').filter((k) => !now.includes(k) && !dev.includes(k));
     const unknown = cats((x) => x.status === '不明').filter((k) => !now.includes(k) && !dev.includes(k) && !past.includes(k));
     return { now, dev, past, unknown };
   })();
@@ -53,7 +56,8 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
     .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || Number(!!b.label && b.label !== b.kind) - Number(!!a.label && a.label !== a.kind))
     .map((p) => ({ p, other: myNames.includes(nm(p.from)) ? p.to : p.from }))
     .filter((x, i, arr) => arr.findIndex((y) => nm(y.other) === nm(x.other) && y.p.kind === x.p.kind && (y.p.date ?? '').slice(0, 7) === (x.p.date ?? '').slice(0, 7)) === i);
-  const stoppedCount = services.filter((s) => isStopped(s)).length;
+  // 止まった事業の数。契約の記録（販売提携の終了など）は事業が止まったことではないので数えない
+  const stoppedCount = services.filter((s) => isStopped(s) && s.kind !== 'contract').length;
   const latestRep = reports[0];
   // 決算の科目名は会社の呼び名（IFRS は売上収益 など）
   const repL = itemLabels(reports.find((r) => r.revenueLabel) ?? latestRep);
@@ -318,8 +322,19 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
               </div>
             ) : c.products?.length ? (
               <div className="chips">{c.products.map((n) => <span key={n} className="chip">{n}</span>)}</div>
-            ) : (
+            ) : received.length ? null : (
               <p className="muted small">サービス情報は未登録です。<a href={CORRECTION_FORM_URL} target="_blank" rel="noreferrer">情報提供フォーム</a>からお知らせください。</p>
+            )}
+            {received.length > 0 && (
+              <>
+                <h4 className="sub-h">他社から譲り受けた事業</h4>
+                <ul className="co-history">
+                  {received.map((s) => (
+                    <li key={s.id}><span>{s.endedAt ? ym(s.endedAt) : ''}</span><div><Link href={`/services/${s.id}/`}>{s.name}</Link>{s.successor ? <small className="muted">　いまの名前・提供元：{s.successor}</small> : null}</div></li>
+                  ))}
+                </ul>
+                <p className="muted small" style={{ marginTop: 6 }}>譲渡元の会社の事業として記録しています（譲渡元から見ると「譲渡」）。この会社の止まった事業には数えていません。</p>
+              </>
             )}
           </section>
 
@@ -355,7 +370,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                         <td className="nw">{roundLabel(r)}{r.round && r.type !== '第三者割当増資' && r.round !== 'M&A' ? <small>{r.type}</small> : null}</td>
                         <td className="num">{r.amount != null ? money(r.amount) : <span className="muted">非公表</span>}</td>
                         <td>{(r.investors ?? []).map((n, k) => { const o = findCompanyByName(n.replace(/[（(].*?[)）]/g, '')); const lead = r.lead && investorKey(r.lead) === investorKey(n); return <span key={k} className={`inv${lead ? ' lead' : ''}`}>{o && o.id !== c.id ? <Link href={`/companies/${o.id}/`}>{n}</Link> : n}{lead ? <em>リード</em> : null}</span>; })}{r.note && <small>{r.note}</small>}</td>
-                        <td className="nw"><a href={r.source} target="_blank" rel="noreferrer" className="h-src">出典</a></td>
+                        <td className="nw"><a href={r.source} target="_blank" rel="noreferrer" className="h-src">出典</a>{(r.sources ?? []).filter((u) => u !== r.source).map((u, k) => <a key={u} href={u} target="_blank" rel="noreferrer" className="h-src" title={srcLabel(u)}>{k + 2}</a>)}</td>
                       </tr>
                     ))}
                   </tbody>
