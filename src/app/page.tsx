@@ -275,7 +275,7 @@ export default function Home() {
                   {n.change && <div className="news-change">{n.change}</div>}
                   <div className="sub">
                     {n.companyId ? <Link href={`/companies/${n.companyId}/`}>{n.company}</Link> : <span>{n.company}</span>}
-                    {n.category && <span>{categoryName(n.category)}</span>}
+                    {n.category && <span>{categoryName(n.category)}{n.categoryBy === 'title' ? '（推定）' : ''}</span>}
                     <span>{fmtDate(n.publishedAt)}</span>
                   </div>
                 </div>

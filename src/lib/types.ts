@@ -228,6 +228,8 @@ export type NewsItem = {
   companyId: string | null;
   publishedAt: string;
   category: string | null;
+  /** カテゴリの決め方：company（紐付いた会社の主なカテゴリ）／title（見出しの言葉から推した推定）／review（手で確かめた） */
+  categoryBy?: 'company' | 'title' | 'review';
   source: 'prtimes' | 'manual';
   /** 掲載判定：top（トップに掲載）／list（一覧のみ）／out（対象外）。tierBy は判定のしかた（review＝見本に沿って人・担当者が判定、rule＝見本から作った規則で自動判定） */
   tier?: 'top' | 'list' | 'out';

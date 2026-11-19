@@ -20,7 +20,9 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const companies = companiesIn(c.slug);
   const services = servicesIn(c.slug);
   const articles = articlesIn(c.slug);
-  const news = getNews().filter((n) => n.category === c.slug && n.tier !== 'out').slice(0, 10);
+  // ニュースは、このカテゴリの企業に紐付いたものだけ（見出しの言葉から推しただけのカテゴリでは載せない）
+  const ids = new Set(companies.map((x) => x.id));
+  const news = getNews().filter((n) => n.tier !== 'out' && n.companyId && ids.has(n.companyId)).slice(0, 10);
   return (
     <>
       <nav className="breadcrumb" aria-label="パンくず">
@@ -57,8 +59,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         </section>
       )}
       <section className="section">
-        <div className="section-head"><h2>ニュース</h2><Link className="more" href="/news/">すべてのニュース →</Link></div>
-        <NewsList items={news} empty="このカテゴリのニュースはまだありません。" />
+        <div className="section-head"><h2>このカテゴリの企業のニュース</h2><Link className="more" href="/news/">すべてのニュース →</Link></div>
+        <NewsList items={news} empty="このカテゴリの企業に紐付いたニュースは、いまはありません。" />
       </section>
     </>
   );

@@ -7,13 +7,15 @@
  *
  * - 同じ URL は上書き（二重登録なし）、新しい順に最大 400 件を保持する。
  * - 社名が企業DB（data/companies.json）に一致すれば companyId を付ける（企業ページの「関連ニュース」に出る）。
- * - カテゴリはタイトルのキーワードから推定する（外れたら手で直してよい）。
+ * - カテゴリは、会社に紐付いたものは会社の主なカテゴリ（categoryBy: company）、紐付かないものは見出しの言葉から推す（categoryBy: title＝推定）。
+ *   手で直したときは categoryBy: 'review' にすると上書きしない（pipeline/lib/news-category.mjs）。
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchText } from './lib/fetch-text.mjs';
 import { judgeNews } from './lib/news-tier.mjs';
+import { assignNewsCategory } from './lib/news-category.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FILE = path.join(ROOT, 'data', 'news.json');
@@ -22,28 +24,7 @@ const companies = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'companies.
 const existing = fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE, 'utf8')) : [];
 const byUrl = new Map(existing.map((n) => [n.url, n]));
 
-const CATEGORY_RULES = [
-  ['telemedicine', /オンライン診療|遠隔診療|遠隔医療/],
-  ['pharmacy-dx', /薬局|服薬指導|調剤/],
-  ['electronic-health-record', /電子カルテ/],
-  ['medical-image', /画像診断|読影|CT|MRI|内視鏡/],
-  ['medical-device', /医療機器|薬事承認|製造販売承認|SaMD|プログラム医療機器/],
-  ['personal-health-record', /PHR|健康記録|ヘルスケアアプリ|ウェアラブル/],
-  ['mental-health', /メンタル|うつ|ストレス/],
-  ['femtech', /フェムテック|月経|妊活|不妊|更年期/],
-  ['dental', /歯科|歯医者|矯正/],
-  ['nursing', /介護|ケアマネ|訪問看護/],
-  ['home-medical', /在宅医療|訪問診療/],
-  ['health-corporate-management', /健康経営|従業員の健康|産業医/],
-  ['recruting-solutions', /求人|転職|採用|人材/],
-  ['clinical-trial-support', /治験|臨床試験/],
-  ['real-world-data', /リアルワールドデータ|レセプト|医療ビッグデータ|医療データ/],
-  ['medical-dx', /病院|クリニック|医療機関|診療所|医療DX/],
-  ['simple-inspection', /検査キット|郵送検査|セルフチェック/],
-  ['direct-to-consumer', /D2C|サプリ|定期便/],
-  ['pharma', /製薬|創薬|新薬|承認取得/],
-];
-const guessCategory = (title) => CATEGORY_RULES.find(([, re]) => re.test(title))?.[0] ?? null;
+const companiesById = new Map(companies.map((c) => [c.id, c]));
 
 const normalize = (s) =>
   s
@@ -105,7 +86,8 @@ for (const word of words) {
       company: company || prev?.company || '',
       companyId: matchCompany(company || prev?.company || ''),
       publishedAt: clampFuture(prev?.publishedAt ?? toIso(when)),
-      category: prev?.category ?? guessCategory(title),
+      category: prev?.category ?? null,
+      ...(prev?.categoryBy ? { categoryBy: prev.categoryBy } : {}),
       source: 'prtimes',
       // 掲載判定は、見本に沿って判定済み（review）なら引き継ぐ。無ければあとで規則で付ける
       ...(prev?.tier ? { tier: prev.tier, change: prev.change, reason: prev.reason, tierBy: prev.tierBy } : {}),
@@ -134,7 +116,6 @@ await Promise.all(
         if (pub && !Number.isNaN(Date.parse(pub))) n.publishedAt = new Date(pub).toISOString();
         const co = meta(html, 'article:author');
         if (co && !n.company) { n.company = strip(co); n.companyId = matchCompany(n.company); }
-        n.category ??= guessCategory(n.title);
       } catch (e) {
         console.error(`補完失敗 ${n.url}: ${e.message}`);
       }
@@ -145,6 +126,8 @@ await Promise.all(
 const items = [...byUrl.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0, 400);
 // 掲載判定の無いもの（新しく入ったもの）に、見本から作った規則で判定を付ける
 for (const n of byUrl.values()) if (!n.tier) Object.assign(n, judgeNews(n.title, n.companyId));
+// カテゴリは毎回付け直す（会社のカテゴリが変わったときも追いつく。手で直したものは残す）
+for (const n of items) assignNewsCategory(n, companiesById);
 fs.writeFileSync(FILE, JSON.stringify(items, null, 2) + '\n');
 console.error(`news.json: ${items.length}件（新規 ${added}件）`);
 
