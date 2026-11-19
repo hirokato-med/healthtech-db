@@ -207,17 +207,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "株式会社CureApp",
-   "detail": "製造販売業者として医療機関に処方料を請求する立場",
-   "sources": [
-    {
-     "url": "https://sc.cureapp.com/d/faq/",
-     "publisher": "CureApp",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "株式会社CureApp（製造販売業者として医療機関に処方料を請求する立場）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "添付文書・発表は「専用のアルゴリズム」「独自のアルゴリズム」でガイダンスを作ると書くが、AI・機械学習の記載はない（アルゴリズムは AI の根拠にしない）。",
@@ -734,22 +724,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "株式会社CaTe",
-   "detail": "治験依頼者・開発会社。第二種医療機器製造販売業許可（13B2X10514）を持つが、承認はまだない。",
-   "sources": [
-    {
-     "url": "https://jrct.mhlw.go.jp/latest-detail/jRCT2042260056",
-     "publisher": "厚生労働省 jRCT（jRCT2042260056、進捗：募集中、最終公表 2026-10-05）",
-     "published": "2026-10-05"
-    },
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000017.000074104.html",
-     "publisher": "CaTe（第1症例組み入れ完了）",
-     "published": "2026-06-15"
-    }
-   ]
-  },
+  "entity": "株式会社CaTe（治験依頼者・開発会社。第二種医療機器製造販売業許可（13B2X10514）を持つが、承認はまだない）",
   "aiUse": {
    "value": "AI を使う（資料で確認）",
    "detail": "会社サイトのトップが「AIや医療コンテンツを組み合わせ」「AIによる日々の支援」と事業を説明（同社の製品は CRS-1 の系列のみ）。jRCT の登録と治験の発表には AI の記載はない。",
@@ -1604,17 +1579,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "Ubie株式会社",
-   "detail": "AI 問診を開発・販売し、医療機関から利用料を受け取る法人（法人番号 7010701034132）。",
-   "sources": [
-    {
-     "url": "https://intro.dr-ubie.com/products/ai-interview",
-     "publisher": "Ubie（ユビーAI問診 製品ページ）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "Ubie株式会社（AI 問診を開発・販売し、医療機関から利用料を受け取る法人（法人番号 7010701034132））",
   "aiUse": {
    "value": "AI を使う（資料で確認）",
    "detail": "製品ページ：患者の主訴や回答に応じて AI が質問を出し分け、回答を医師向けの表現に変換。2023-10 から LLM（大規模言語モデル）による問診要約機能（クリニック向け）。",
@@ -4010,22 +3975,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "株式会社メドレー（2025-04-01 から。それ以前は株式会社グッピーズ）",
-   "detail": "いまの運営会社表示は株式会社メドレー。グッピーズは2025-04-01 にメドレーへ合併し解散。",
-   "sources": [
-    {
-     "url": "https://www.guppy.jp/about",
-     "publisher": "メドレー（グッピー求人）",
-     "published": ""
-    },
-    {
-     "url": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5011101043683",
-     "publisher": "国税庁 法人番号公表サイト",
-     "published": "2025-05-21"
-    }
-   ]
-  },
+  "entity": "株式会社メドレー（2025-04-01 から。それ以前は株式会社グッピーズ）（いまの運営会社表示は株式会社メドレー。グッピーズは2025-04-01 にメドレーへ合併し解散）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "サービス案内に AI・機械学習の記載なし。",
@@ -4433,17 +4383,7 @@
    "asOf": "2026-06",
    "note": "2026年6月時点で確認できたモデル。いまの姿は未確認"
   },
-  "entity": {
-   "value": "総合メディカル株式会社",
-   "detail": "自社の薬局（そうごう薬局など）の公式アプリとして運営した会社。基盤はオプティムが提供。",
-   "sources": [
-    {
-     "url": "https://www.sogo-medical.co.jp/ja/news/news20230207103023/main/0/teaserItems1/00/linkList/0/link/PR_20230207.pdf",
-     "publisher": "総合メディカルグループ",
-     "published": "2023-02-07"
-    }
-   ]
-  },
+  "entity": "総合メディカル株式会社（自社の薬局（そうごう薬局など）の公式アプリとして運営した会社。基盤はオプティムが提供）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "2023-02 の発表（総合メディカル・オプティム）はアプリの機能に AI を挙げていない（オプティムの会社紹介に「AI・IoT」とあるだけ）。",
@@ -5250,22 +5190,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "DTアクシス株式会社",
-   "detail": "製造販売業者（承認 30700BZX00195000）で、医療機関と契約して提供する法人。田辺三菱製薬（現 田辺ファーマ）から MTD-810 のライセンスを受けて開発（2021-02）。",
-   "sources": [
-    {
-     "url": "https://dt-axis.co.jp/liftond-for-doctor/",
-     "publisher": "DTアクシス（医療従事者向け製品ページ）",
-     "published": ""
-    },
-    {
-     "url": "https://www.tanabe-pharma.com/ja/news/MTPC210301.html",
-     "publisher": "田辺三菱製薬（現 田辺ファーマ）",
-     "published": "2021-03-01"
-    }
-   ]
-  },
+  "entity": "DTアクシス株式会社（製造販売業者（承認 30700BZX00195000）で、医療機関と契約して提供する法人。田辺三菱製薬（現 田辺ファーマ）から MTD-810 のライセンスを受けて開発（2021-02））",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "製品ページ・承認発表・電子添文は認知行動療法の全8セッションのプログラムと書くだけで、AI・機械学習の使用・不使用の記載はない。",
@@ -7698,16 +7623,7 @@
     "ref": true
    }
   ],
-  "entity": {
-   "value": "株式会社レイヤード",
-   "sources": [
-    {
-     "url": "https://www.jpx.co.jp/listing/stocks/new/t13vrt000001uq4s-att/09LAYERED-1s.pdf",
-     "publisher": "レイヤード（有価証券届出書〔新規公開〕、JPX掲載）",
-     "published": "2026-08-20"
-    }
-   ]
-  },
+  "entity": "株式会社レイヤード",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "2018 年の発表は「診断推論エンジン」（共同開発医師と作った疾患・症状・問診のデータベースから想定疾患を計算する独自エンジン）と説明し、AI・機械学習とは書いていない。有価証券届出書で AI と書かれるのは電話自動応答 Iver の AI 文字起こし・要約と AI 電話エージェント Capai で、Symview の機能としての AI の記載はない。",
@@ -8116,17 +8032,7 @@
     "ref": true
    }
   ],
-  "entity": {
-   "value": "GMOリザーブプラス株式会社",
-   "detail": "メディカル革命 byGMO の提供会社。医療機関と直接契約する。",
-   "sources": [
-    {
-     "url": "https://medical-reserve.co.jp/price",
-     "publisher": "GMOリザーブプラス（メディカル革命 byGMO 料金プラン）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "GMOリザーブプラス株式会社（メディカル革命 byGMO の提供会社。医療機関と直接契約する）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "料金ページ・製品トップの WEB 問診の説明に AI の記載はない（AI は別機能の経営分析ツール「AI-Board」にのみ記載）。",
@@ -8796,22 +8702,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "エルピクセル株式会社",
-   "detail": "EIRL シリーズの製造販売業者・販売者（法人番号 2011001099036）。",
-   "sources": [
-    {
-     "url": "https://eirl.ai/ja/lineup/",
-     "publisher": "エルピクセル（EIRL 製品ラインナップ）",
-     "published": ""
-    },
-    {
-     "url": "https://eirl.ai/ja/eirl-cloud/",
-     "publisher": "エルピクセル（EIRL Cloud）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "エルピクセル株式会社（EIRL シリーズの製造販売業者・販売者（法人番号 2011001099036））",
   "recordKind": "group",
   "members": [
    {
@@ -11361,17 +11252,7 @@
    "asOf": "2018-03",
    "note": "2018年3月の製造販売終了告知の時点で確認できたモデル（公表された保守終了期日は2025年3月末。保守の実施状況は未確認）"
   },
-  "entity": {
-   "value": "ウシオ電機株式会社",
-   "detail": "製造販売業者（医療機器届出番号 28B2X10008000003）。問い合わせ先はバイオメディカル事業部 営業部。",
-   "sources": [
-    {
-     "url": "https://www.ushio.co.jp/jp/news/1002/2018-2018/500304.html",
-     "publisher": "ウシオ電機",
-     "published": "2018-03-09"
-    }
-   ]
-  },
+  "entity": "ウシオ電機株式会社（製造販売業者（医療機器届出番号 28B2X10008000003）。問い合わせ先はバイオメディカル事業部 営業部）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "残っている資料は製造販売終了のお知らせのみで、機能の記載がない。",
@@ -11864,17 +11745,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "TXP Medical株式会社",
-   "detail": "4製品とも同社が病院へ提供（お問い合わせから）。",
-   "sources": [
-    {
-     "url": "https://txpmedical.jp/service",
-     "publisher": "TXP Medical（サービス一覧）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "TXP Medical株式会社（4製品とも同社が病院へ提供（お問い合わせから））",
   "recordKind": "group",
   "members": [
    {
@@ -12878,22 +12749,7 @@
    "asOf": "2024-09",
    "note": "2024年9月（治験結果の論文公表）時点で確認できたモデル（治験終了・未承認）。いまの開発状況は未確認"
   },
-  "entity": {
-   "value": "株式会社Save Medical",
-   "detail": "開発・治験依頼者（法人番号 7010001191789）。共同開発の相手は大日本住友製薬（現 住友ファーマ）。",
-   "sources": [
-    {
-     "url": "https://www.sumitomo-pharma.co.jp/news/20200803.html",
-     "publisher": "住友ファーマ（旧 大日本住友製薬）・Save Medical",
-     "published": "2020-08-03"
-    },
-    {
-     "url": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7010001191789",
-     "publisher": "国税庁 法人番号公表サイト",
-     "published": "2026-05-08"
-    }
-   ]
-  },
+  "entity": "株式会社Save Medical（開発・治験依頼者（法人番号 7010001191789）。共同開発の相手は大日本住友製薬（現 住友ファーマ））",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "論文・発表は記録に応じた個別のフィードバック（自動メッセージ）と書くだけで、AI・機械学習の使用・不使用の記載はない。",
@@ -13495,30 +13351,24 @@
    "values": [
     "承認・認証・届出を確認"
    ],
-   "detail": "HAUDY：CureApp が 2025-02-13 に製造販売承認（承認番号 30700BZX00034000、一般的名称：アルコール依存症治療補助プログラム）。レリビオン：沢井製薬が 2023年度に製造販売承認（番号は今回未確認）。SWD002・Proliv Rx は開発中。",
-   "sources": {
-    "values": [
-     "承認・認証・届出を確認"
-    ],
-    "detail": "HAUDY：CureApp が 2025-02-13 に製造販売承認（承認番号 30700BZX00034000、一般的名称：アルコール依存症治療補助プログラム、管理医療機器。製造販売元 CureApp・販売元 沢井製薬）。レリビオン：沢井製薬が 2023-12 に製造販売承認（番号は今回未確認）。SWD002・Proliv Rx は開発中。",
-    "sources": [
-     {
-      "url": "https://www.sawai.co.jp/release/detail/000904.html",
-      "publisher": "沢井製薬",
-      "published": "2025-08-27"
-     },
-     {
-      "url": "https://prtimes.jp/main/html/rd/p/000000176.000015777.html",
-      "publisher": "CureApp",
-      "published": "2024-04-05"
-     },
-     {
-      "url": "https://prtimes.jp/main/html/rd/p/000000285.000015777.html",
-      "publisher": "CureApp",
-      "published": "2026-10-20"
-     }
-    ]
-   }
+   "detail": "HAUDY：CureApp が 2025-02-13 に製造販売承認（承認番号 30700BZX00034000、一般的名称：アルコール依存症治療補助プログラム、管理医療機器。製造販売元 CureApp・販売元 沢井製薬）。レリビオン：沢井製薬が 2023-12 に製造販売承認（番号は今回未確認）。SWD002・Proliv Rx は開発中。",
+   "sources": [
+    {
+     "url": "https://www.sawai.co.jp/release/detail/000904.html",
+     "publisher": "沢井製薬",
+     "published": "2025-08-27"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000176.000015777.html",
+     "publisher": "CureApp",
+     "published": "2024-04-05"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000285.000015777.html",
+     "publisher": "CureApp",
+     "published": "2026-10-20"
+    }
+   ]
   },
   "reimbursement": {
    "values": [
@@ -13616,31 +13466,10 @@
    {
     "name": "片頭痛向け非侵襲型ニューロモデュレーション機器 レリビオン",
     "status": "準備中",
-    "stage": {
-     "name": "片頭痛向け非侵襲型ニューロモデュレーション機器 レリビオン",
-     "status": "準備中",
-     "stage": "承認取得済み・発売準備中",
-     "regulatory": "承認・認証・届出を確認（沢井製薬が 2023-12 に製造販売承認。番号は未確認）",
-     "startedAt": "",
-     "hp": "",
-     "note": "2025-08-27 の沢井製薬の発表で「2023年度に製造販売承認取得、現在保険償還に向け準備中」。CureApp 2024-04-05 は「2023年12月に沢井製薬が製造販売承認を取得」「保険適用・販売開始された際には APS を通し…処方が開始される予定」と記載。2025-08 より後の状況は未確認（沢井・サワイ GHD のリリース一覧〔2026-11-19 閲覧〕に発売の告知は見当たらない）。",
-     "sources": [
-      {
-       "url": "https://www.sawai.co.jp/release/detail/000904.html",
-       "publisher": "沢井製薬",
-       "published": "2025-08-27"
-      },
-      {
-       "url": "https://prtimes.jp/main/html/rd/p/000000176.000015777.html",
-       "publisher": "CureApp",
-       "published": "2024-04-05"
-      }
-     ]
-    },
-    "regulatory": "承認・認証・届出を確認（沢井製薬が 2023年度に製造販売承認。番号は未確認）",
+    "regulatory": "承認・認証・届出を確認（沢井製薬が 2023-12 に製造販売承認。番号は未確認）",
     "startedAt": "",
     "hp": "",
-    "note": "2025-08 時点の会社発表で「保険償還に向け準備中」。保険適用後に CureApp の APS で処方する予定（2024-04）。その後の状況は未確認。",
+    "note": "2025-08-27 の沢井製薬の発表で「2023年度に製造販売承認取得、現在保険償還に向け準備中」。CureApp 2024-04-05 は「2023年12月に沢井製薬が製造販売承認を取得」「保険適用・販売開始された際には APS を通し…処方が開始される予定」と記載。2025-08 より後の状況は未確認（沢井・サワイ GHD のリリース一覧〔2026-11-19 閲覧〕に発売の告知は見当たらない）。",
     "sources": [
      {
       "url": "https://www.sawai.co.jp/release/detail/000904.html",
@@ -13652,7 +13481,8 @@
       "publisher": "CureApp",
       "published": "2024-04-05"
      }
-    ]
+    ],
+    "stage": "承認取得済み・発売準備中"
    },
    {
     "name": "NASH 治療アプリ SWD002（CureApp と共同開発）",
@@ -15371,21 +15201,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "Hatch Healthcare株式会社（2022-03-31 の事業譲受から。それ以前はリーズンホワイ株式会社〔現 スペシャリスト・ドクターズ〕）",
-   "sources": [
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000071.000025604.html",
-     "publisher": "スペシャリスト・ドクターズ（旧 リーズンホワイ）",
-     "published": "2022-04-01"
-    },
-    {
-     "url": "https://www.ncc.go.jp/jp/ncch/d001/secondopinion/online/index.html",
-     "publisher": "国立がん研究センター中央病院",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "Hatch Healthcare株式会社（2022-03-31 の事業譲受から。それ以前はリーズンホワイ株式会社〔現 スペシャリスト・ドクターズ〕）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "病院の案内・発表はオンライン面談（画像供覧・家族の同時参加）の機能だけを説明し、AI の記載はない。",
@@ -15835,22 +15651,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "株式会社オンラインドクター.com",
-   "detail": "イシャチョクの運営会社。医療機関・企業と契約し、患者のカード決済の仕組みを提供する。",
-   "sources": [
-    {
-     "url": "https://corp-online-doctor.com/service/",
-     "publisher": "オンラインドクター.com（サービス）",
-     "published": ""
-    },
-    {
-     "url": "https://ishachoku-online.com/",
-     "publisher": "オンラインドクター.com（イシャチョク 医療機関向けサイト）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "株式会社オンラインドクター.com（イシャチョクの運営会社。医療機関・企業と契約し、患者のカード決済の仕組みを提供する）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "医療機関向け・患者向けサイト・会社のサービス欄に AI の記載はない。",
@@ -16536,17 +16337,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "株式会社Medifellow",
-   "detail": "サービスを運営し施設・法人と契約する法人（法人番号 8010401143174）。",
-   "sources": [
-    {
-     "url": "https://corporate.medifellow.jp/care",
-     "publisher": "Medifellow（介護・福祉施設向けサービス）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "株式会社Medifellow（サービスを運営し施設・法人と契約する法人（法人番号 8010401143174））",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "専門医によるオンライン医療相談・診療のサービスで、AI の使用・不使用の記載はない。",
@@ -18756,21 +18547,7 @@
    "asOf": "2026-01",
    "note": "2026年1月の発表で「治験中」と記載されていた時点のモデル（未承認・上市前の治療用アプリ）。治験中止後のいまの開発状況は未確認"
   },
-  "entity": {
-   "value": "株式会社ヘッジホッグ・メドテック（2026-03 からメドレーの完全子会社）",
-   "sources": [
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000023.000099334.html",
-     "publisher": "ヘッジホッグ・メドテック",
-     "published": "2025-09-25"
-    },
-    {
-     "url": "https://ssl4.eir-parts.net/doc/4480/ir_material_for_fiscal_ym/218121/00.pdf",
-     "publisher": "メドレー（2026年12月期第3四半期決算説明資料）",
-     "published": "2026-11-12"
-    }
-   ]
-  },
+  "entity": "株式会社ヘッジホッグ・メドテック（2026-03 からメドレーの完全子会社）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "片頭痛治療用アプリは認知行動療法（CBT）を作用機序とすると説明され、AI の記載はない。同社の「頭痛AI診断プログラム」は別製品。",
@@ -19188,17 +18965,7 @@
    "asOf": "2022-06",
    "note": "2022年6月（実証開始の発表時）に確認できたモデル（商用化前の生活者向け腰痛対策アプリ、実証で限定提供）。いまの状況は未確認"
   },
-  "entity": {
-   "value": "株式会社biomy",
-   "detail": "アプリの開発会社。",
-   "sources": [
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000006.000082088.html",
-     "publisher": "biomy",
-     "published": "2022-06-06"
-    }
-   ]
-  },
+  "entity": "株式会社biomy（アプリの開発会社）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "2022-06 の発表はアプリの機能（痛みに合わせた体操・生活の提案）に AI を挙げていない（会社紹介に「AI人材とバイオ人材の融合」とあるだけ）。",
@@ -19836,22 +19603,7 @@
     "ref": true
    }
   ],
-  "entity": {
-   "value": "株式会社OPERe",
-   "detail": "ポケさぽを開発・販売する法人（法人番号 1010901046395）。",
-   "sources": [
-    {
-     "url": "https://www.opere.jp/poke-sup",
-     "publisher": "OPERe（ポケさぽ サービスサイト）",
-     "published": ""
-    },
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000006.000118047.html",
-     "publisher": "OPERe",
-     "published": "2024-07-08"
-    }
-   ]
-  },
+  "entity": "株式会社OPERe（ポケさぽを開発・販売する法人（法人番号 1010901046395））",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "アナムネ・問診機能（回答の出力・取り込み・加算判定支援）に AI の記載はない。ポケさぽには別のオプション機能として「病院独自の知識を学習した AI が患者の問い合わせに自動回答」する機能があるが、本事業（アナムネ・問診）の機能ではない。",
@@ -22334,17 +22086,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "ジークス株式会社",
-   "detail": "「医療機関と患者をつなぐシステムを提供する立場であり、医療行為は行いません」",
-   "sources": [
-    {
-     "url": "https://annyo.jp/",
-     "publisher": "ジークス（あんよ サービスサイト）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "ジークス株式会社（「医療機関と患者をつなぐシステムを提供する立場であり、医療行為は行いません」）",
   "aiUse": {
    "value": "AI を使う（資料で確認）",
    "detail": "LINE 上の「AIチャットでの手軽な相談やサポート窓口」（チャット相談）。診療そのものは提携医療機関の医師が行う。",
@@ -22789,17 +22531,7 @@
    "asOf": "2019-05",
    "note": "2019年5月（医療機器プログラムの認証取得）時点で確認できたモデル（医療機関向けの眼底画像診断支援 AI、AMIAS で提供）"
   },
-  "entity": {
-   "value": "株式会社オプティム",
-   "detail": "開発・製造販売（第二種医療機器製造販売業）・販売（高度管理医療機器等販売業）を同社が持つ。",
-   "sources": [
-    {
-     "url": "https://www.optim.co.jp/corporate/history",
-     "publisher": "オプティム（沿革）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "株式会社オプティム（開発・製造販売（第二種医療機器製造販売業）・販売（高度管理医療機器等販売業）を同社が持つ）",
   "aiUse": {
    "value": "AI を使う（資料で確認）",
    "detail": "沿革に「AIを用いた眼底画像の診断支援システムを開発」（2018-04）、「AI技術を用いた医療機器プログラムの製造を行うべく医療機器製造業登録証を取得」。2019 年資料は AMIAS で使える AI の1つとして紹介。",
@@ -23412,17 +23144,7 @@
     "ref": true
    }
   ],
-  "entity": {
-   "value": "エルピクセル株式会社",
-   "detail": "EIRL Cloud を提供し、クリニックから初期費用・月額費用を受け取る法人。",
-   "sources": [
-    {
-     "url": "https://eirl.ai/ja/eirl-cloud/",
-     "publisher": "エルピクセル（EIRL Cloud）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "エルピクセル株式会社（EIRL Cloud を提供し、クリニックから初期費用・月額費用を受け取る法人）",
   "aiUse": {
    "value": "AI を使う（資料で確認）",
    "detail": "EIRL Cloud ページ：エルピクセルが開発した画像診断支援 AI。AI の学習に使った教師データは主に国内医療機関のデータ。",
@@ -25795,16 +25517,7 @@
   "checkedAt": "2026-11-17",
   "periods": [],
   "plan": "",
-  "entity": {
-   "value": "株式会社HERO innovation",
-   "sources": [
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000024.000062237.html",
-     "publisher": "HERO innovation（PR TIMES）",
-     "published": "2025-11-13"
-    }
-   ]
-  },
+  "entity": "株式会社HERO innovation",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "MEDISMA シリーズには AI クラーク・AI chat bot・AI IVR・AI ブログなど AI を使う製品があるが、この記録の対象の予約・問診のページには AI の記載がない（問診の「スコアリング」の中身は未確認）。",
@@ -26244,22 +25957,7 @@
   "checkedAt": "2026-11-17",
   "periods": [],
   "plan": "",
-  "entity": {
-   "value": "株式会社医針盤",
-   "detail": "H.U.グループの連結子会社。クリニックと直接契約する提供会社（開発・保守はベーシックが支援）。",
-   "sources": [
-    {
-     "url": "https://pr.e-s-assist.com/",
-     "publisher": "医針盤（医'sアシスト）",
-     "published": ""
-    },
-    {
-     "url": "https://digitalpr.jp/r/46804",
-     "publisher": "H.U.グループホールディングス",
-     "published": "2021-04-14"
-    }
-   ]
-  },
+  "entity": "株式会社医針盤（H.U.グループの連結子会社。クリニックと直接契約する提供会社（開発・保守はベーシックが支援））",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "料金表の機能一覧に「オンラインAI問診票」の行があるが、トライアル・シンプルのどちらのプランでも「×」（提供されていない）。提供中の機能に AI を使うとの記載はない。",
@@ -27015,17 +26713,7 @@
   "checkedAt": "2026-11-17",
   "periods": [],
   "plan": "",
-  "entity": {
-   "value": "株式会社インテグリティ・ヘルスケア",
-   "detail": "YaDoc を開発・販売し、医療機関から月額利用料を受け取る法人（法人番号 3010001128547）。",
-   "sources": [
-    {
-     "url": "https://www.yadoc.jp/about/price/",
-     "publisher": "インテグリティ・ヘルスケア（YaDoc 価格）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "株式会社インテグリティ・ヘルスケア（YaDoc を開発・販売し、医療機関から月額利用料を受け取る法人（法人番号 3010001128547））",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "予約・ビデオ通話・決済・モニタリングの機能説明に AI の使用・不使用の記載はない。",
@@ -29401,16 +29089,7 @@
   ],
   "checkedAt": "2026-11-17",
   "periods": [],
-  "entity": {
-   "value": "Boston Medical Sciences株式会社",
-   "sources": [
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000008.000129637.html",
-     "publisher": "Boston Medical Sciences（PR TIMES）",
-     "published": "2026-05-14"
-    }
-   ]
-  },
+  "entity": "Boston Medical Sciences株式会社",
   "aiUse": {
    "value": "AI を使う（資料で確認）",
    "detail": "仮想的腸管洗浄 AI とポリープ検出 AI（CADe ソフトウェア）。",
@@ -29870,17 +29549,7 @@
   "checkedAt": "2026-11-17",
   "periods": [],
   "plan": "",
-  "entity": {
-   "value": "富士フイルム株式会社",
-   "detail": "製造販売業者（承認 30700BZX00231000）。電子添文の販売業者は富士フイルムメディカル株式会社。",
-   "sources": [
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671001_30700BZX00231000_A_01_02",
-     "publisher": "PMDA（FS-AI699型 電子添文 2026-01 第2版）",
-     "published": "2026-01"
-    }
-   ]
-  },
+  "entity": "富士フイルム株式会社（製造販売業者（承認 30700BZX00231000）。電子添文の販売業者は富士フイルムメディカル株式会社）",
   "aiUse": {
    "value": "AI を使う（資料で確認）",
    "detail": "電子添文：病変候補検出アルゴリズムは Deep Learning のアーキテクチャを使用し、胸部 X 線画像と正解ラベルのペアでモデルを学習させた（市場で学習し変化することはない）。",
@@ -30525,22 +30194,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "emol株式会社",
-   "detail": "両アプリの開発者・治験依頼者（法人番号 5010501043871）。",
-   "sources": [
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000032.000043787.html",
-     "publisher": "emol",
-     "published": "2025-06-26"
-    },
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000033.000043787.html",
-     "publisher": "emol",
-     "published": "2025-07-31"
-    }
-   ]
-  },
+  "entity": "emol株式会社（両アプリの開発者・治験依頼者（法人番号 5010501043871））",
   "recordKind": "group",
   "members": [
    {
@@ -32883,16 +32537,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "株式会社クラウドドクター",
-   "sources": [
-    {
-     "url": "https://cloud-dr.jp/tokusho/",
-     "publisher": "クラウドドクター（特定商取引法に基づく表記）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "株式会社クラウドドクター",
   "aiUse": {
    "value": "AI を使う（資料で確認）",
    "detail": "医師との通話の AI 自動翻訳（2026-03 に38言語から86言語に拡大）。",
@@ -33330,22 +32975,7 @@
     "ref": false
    }
   ],
-  "entity": {
-   "value": "株式会社Linc'well",
-   "detail": "オンライン診療システムの提供会社。提供先のクリニックフォアグループは同社と資本・役員関係のない独立した医療法人群。",
-   "sources": [
-    {
-     "url": "https://linc-well.com/news/2025/01/24/230000/",
-     "publisher": "Linc'well",
-     "published": "2025-01-24"
-    },
-    {
-     "url": "https://linc-well.com/service/",
-     "publisher": "Linc'well（事業内容）",
-     "published": ""
-    }
-   ]
-  },
+  "entity": "株式会社Linc'well（オンライン診療システムの提供会社。提供先のクリニックフォアグループは同社と資本・役員関係のない独立した医療法人群）",
   "aiUse": {
    "value": "AI の使用は未確認",
    "detail": "Linc'well の事業内容ページに AI の記載はない。提供先のクリニックフォアのサイトに「AI相談」（一般的な情報の提供）があるが、運営元は医療法人社団エムズで、Linc'well のシステムの機能かは資料で確認できない。",
@@ -33985,22 +33615,7 @@
    "asOf": "2024-04",
    "note": "2024年4月の販売中止の時点で確認できたモデル。いまは提供終了（会社は破産）"
   },
-  "entity": {
-   "value": "iSurgery株式会社",
-   "detail": "認証取得者・販売者（法人番号 7011101091359）。2024-05-29 に破産手続き開始（報道）。",
-   "sources": [
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/305ADBZX00032000_A_01",
-     "publisher": "PMDA（医療機器 添付文書等情報）",
-     "published": ""
-    },
-    {
-     "url": "https://medical-tribune.co.jp/rensai/articles/?blogid=11&entryid=564126",
-     "publisher": "Medical Tribune（連載「アウトサイダーの視点」、川口浩）",
-     "published": "2024-08-21"
-    }
-   ]
-  },
+  "entity": "iSurgery株式会社（認証取得者・販売者（法人番号 7011101091359）。2024-05-29 に破産手続き開始（報道））",
   "aiUse": {
    "value": "AI を使う（資料で確認）",
    "detail": "富士通・iSurgery の発表は「iSurgery の AI 医療機器『医用画像解析ソフトウェア Chest Bone Indicator』」と書く。報道も「人工知能（AI）によって胸部X線写真から骨粗鬆症をスクリーニングするツール」。",
@@ -34914,34 +34529,13 @@
   "activity": {
    "value": "未確認",
    "detail": "2025-05-08 に販売開始。いまの販売・提供の状況を示す資料はなく、終了の告知もない。",
-   "signals": {
-    "value": "未確認",
-    "detail": "2025-05-08 に販売開始。いまの販売・提供の状況を示す資料はなく、終了の告知もない。",
-    "signals": [
-     "会社サイトの製品紹介に model-G2 の掲載がない（掲載は gastroAI model-G3・model-EIRL・gastroBASE screening X のみ）",
-     "同じく胃の早期胃がん・腺腫を対象とする gastroAI model-G3（販売名 AP01、承認 30800BZX00135000）を 2026-05-13 に承認取得し、「2026年夏頃より順次販売を開始」と発表",
-     "model-G2 の販売終了・後継への移行の告知は確認できない",
-     "会社概要の沿革には 2024-12 の model-G2 承認取得（国内第二弾）が残る"
-    ],
-    "guess": "推定：model-G3 が後継で、model-G2 の新規販売は縮小・終了している可能性がある（会社は G3 を「国内第三弾」と呼ぶだけで、後継・置き換えとは書いていない）",
-    "sources": [
-     {
-      "url": "https://www.ai-ms.com/",
-      "publisher": "AIメディカルサービス",
-      "published": ""
-     },
-     {
-      "url": "https://www.ai-ms.com/news/pressrelease/20260515",
-      "publisher": "AIメディカルサービス",
-      "published": "2026-05-15"
-     },
-     {
-      "url": "https://www.ai-ms.com/company",
-      "publisher": "AIメディカルサービス（会社概要・沿革）",
-      "published": ""
-     }
-    ]
-   },
+   "signals": [
+    "会社サイトの製品紹介に model-G2 の掲載がない（掲載は gastroAI model-G3・model-EIRL・gastroBASE screening X のみ）",
+    "同じく胃の早期胃がん・腺腫を対象とする gastroAI model-G3（販売名 AP01、承認 30800BZX00135000）を 2026-05-13 に承認取得し、「2026年夏頃より順次販売を開始」と発表",
+    "model-G2 の販売終了・後継への移行の告知は確認できない",
+    "会社概要の沿革には 2024-12 の model-G2 承認取得（国内第二弾）が残る"
+   ],
+   "guess": "推定：model-G3 が後継で、model-G2 の新規販売は縮小・終了している可能性がある（会社は G3 を「国内第三弾」と呼ぶだけで、後継・置き換えとは書いていない）",
    "sources": [
     {
      "url": "https://www.ai-ms.com/",
