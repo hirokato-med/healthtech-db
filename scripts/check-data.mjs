@@ -60,6 +60,13 @@ add(must, '一時停止なのに status が「休止」でない', services.filt
 // 確かめたい（デジタルヘルスの中心を先に並べる）
 const digitalFirst = (a, b) => Number(adjacent.has(a.type)) - Number(adjacent.has(b.type));
 add(want, '説明文が短い（25字未満）', services.filter((s) => (s.description ?? '').length < 25).sort(digitalFirst));
+// 会社：メモのような説明（「元はアメリカ」など）、近況の重複（同じ月に似た文）、本文の頭に日付を重ねた近況
+const coLabel = (c) => `${c.id} ${c.name}`;
+add(want, '会社の説明が短い（16字未満）', companies.filter((c) => c.description && c.description.length < 16), coLabel);
+const bigrams = (t) => new Set([...t.replace(/[\s、。「」（）()・]/g, '')].map((ch, i, a) => ch + (a[i + 1] ?? '')).slice(0, -1));
+const similar = (a, b) => { const x = bigrams(a), y = bigrams(b); const n = [...x].filter((k) => y.has(k)).length; return n / Math.max(1, Math.min(x.size, y.size)); };
+add(want, '近況に同じ月の似た文がある', companies.filter((c) => (c.history ?? []).some((h, i, arr) => arr.some((o, j) => j > i && (o.date ?? '').slice(0, 7) === (h.date ?? '').slice(0, 7) && similar(o.text, h.text) >= 0.6))), coLabel);
+add(want, '近況の本文が日付で始まる（日付は date に入れる）', companies.filter((c) => (c.history ?? []).some((h) => /^\d{4}(年|-)/.test(h.text))), coLabel);
 add(want, '開始時期も提供を確認できた時点も空', services.filter((s) => !s.startedAt && !s.knownSince).sort(digitalFirst));
 add(want, '止まった事業で終了日が空', services.filter((s) => STOPPED.has(s.status) && !s.endedAt).sort(digitalFirst));
 add(want, '止まった理由が unknown', services.filter((s) => STOPPED.has(s.status) && s.endReasons?.includes('unknown')).sort(digitalFirst));

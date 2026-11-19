@@ -12,8 +12,12 @@ const fyLabel = (fy: string) => `${fy.slice(2, 4)}/${Number(fy.slice(5, 7))}`;
 const ymJa = (d: string) => d.replace(/^(\d{4})-(\d{2}).*/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年');
 
 /** 10年の業績（売上高の棒）と営業利益率（別の小さな図）、その間の出来事を同じ時間軸で見せる */
-export function FinanceHistoryPanel({ years, events, code, market, healthShare, healthNames, standard, basis }: {
-  years: FinanceYear[]; events: FinEvent[]; code?: string; market?: string; healthShare?: number | null; healthNames?: string[]; standard?: string; basis?: string;
+/** 年平均の伸びを出す起点の売上の下限（百万円）。ほぼゼロの売上から計算した年平均は意味をなさないので出さない */
+export const CAGR_MIN_BASE = 100;
+
+/** lastGrowth は直近の期の前年比として会社が開示した値（決算短信）。あればそれを使い、無ければ丸めた数字から計算する */
+export function FinanceHistoryPanel({ years, events, code, market, healthShare, healthNames, standard, basis, lastGrowth }: {
+  years: FinanceYear[]; events: FinEvent[]; code?: string; market?: string; healthShare?: number | null; healthNames?: string[]; standard?: string; basis?: string; lastGrowth?: number | null;
 }) {
   const ys = years.filter((y) => y.revenue != null).slice(-10);
   if (ys.length < 3) return null;
@@ -23,8 +27,9 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
   const irregular = (y?: FinanceYear) => !!y && /変則|決算期変更|\d+\s*(か月|カ月|ヶ月)/.test(y.note ?? '');
   // 年平均の伸びは、決算期末の間の実際の年数で割る（変則決算があっても期の数で割らない）
   const spanYears = (() => { const [a, b] = [first.fy, last.fy].map((f) => Number(f.slice(0, 4)) * 12 + Number(f.slice(5, 7))); return (b - a) / 12; })();
-  const cagr = first.revenue! > 0 && spanYears >= 1 && !irregular(first) && !irregular(last) ? ((last.revenue! / first.revenue!) ** (1 / spanYears) - 1) * 100 : null;
+  const cagr = first.revenue! >= CAGR_MIN_BASE && spanYears >= 1 && !irregular(first) && !irregular(last) ? ((last.revenue! / first.revenue!) ** (1 / spanYears) - 1) * 100 : null;
   const yoyOk = prev?.revenue && !irregular(prev) && !irregular(last);
+  const yoy = lastGrowth ?? (yoyOk ? (last.revenue! / prev.revenue! - 1) * 100 : null);
   const margins = ys.map((y) => (y.operatingIncome != null && y.revenue ? (y.operatingIncome / y.revenue) * 100 : null));
   const mv = margins.filter((v): v is number => v != null);
   // 出来事を決算期に置く（決算期末より前の、いちばん近い期）。直近の決算期より後のものは一覧だけ
@@ -60,7 +65,7 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
       <p className="muted small" style={{ margin: '0 0 14px' }}>売上高の伸びと、ヘルスケアの事業でいつ何をしたか（子会社化・出資・提携）を同じ時間軸で見る。</p>
       <div className="fh-grid">
         <div className="fh-kpi">
-          <div><span>売上高（{fyLabel(last.fy)}期）</span><b>{money(last.revenue)}</b>{yoyOk ? <small>前年比 {((last.revenue! / prev.revenue! - 1) * 100 >= 0 ? '+' : '')}{((last.revenue! / prev.revenue! - 1) * 100).toFixed(1)}%</small> : prev?.revenue ? <small>前年比は比較なし（変則決算）</small> : null}</div>
+          <div><span>売上高（{fyLabel(last.fy)}期）</span><b>{money(last.revenue)}</b>{yoyOk && yoy != null ? <small>前年比 {lastGrowth == null ? '約' : ''}{yoy >= 0 ? '+' : ''}{yoy.toFixed(1)}%</small> : prev?.revenue ? <small>前年比は比較なし（変則決算）</small> : null}</div>
           {cagr != null && <div><span>{spanText(spanYears)}の伸び（年平均）</span><b>{cagr >= 0 ? '+' : ''}{cagr.toFixed(1)}%</b><small>{fyLabel(first.fy)}期 {money(first.revenue)} から</small></div>}
           {margins[n - 1] != null && <div><span>営業利益率</span><b>{margins[n - 1]!.toFixed(1)}%</b>{mv.length > 2 && <small>{mv.length}期の幅 {mMin.toFixed(1)}〜{mMax.toFixed(1)}%</small>}</div>}
           {healthShare != null && healthShare < 99.5 && <div><span>ヘルスケアの売上</span><b>{healthShare.toFixed(0)}%</b><small>{healthNames?.join('、')}</small></div>}
@@ -120,7 +125,7 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
             </ul>
           )}
       {ys.some(irregular) && <p className="muted small" style={{ marginTop: 8 }}>* 薄い色の棒は12か月でない期（変則決算・決算期変更）。{ys.filter(irregular).map((y) => `${fyLabel(y.fy)}期：${y.note}`).join('／')}</p>}
-      <p className="muted small" style={{ marginTop: 10 }}>出典：有価証券報告書・決算短信・会社のIR（{[standard, basis].filter(Boolean).join('・') || '連結'}、百万円を億円に丸めて表示）。出来事は Healthtech DB の資本提携・M&A とグループ会社の記録（会社の発表）。</p>
+      <p className="muted small" style={{ marginTop: 10 }}>出典：有価証券報告書・決算短信・会社のIR（{[standard, basis].filter(Boolean).join('・') || '連結'}、百万円を億円に丸めて表示）。出来事は Healthtech DB の資本提携・M&A とグループ会社の記録。日付は記録ごとに発表日・実行日・有価証券報告書の時期のどれかで、同じ買収でも表によって月がずれることがあります。</p>
     </section>
   );
 }
