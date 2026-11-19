@@ -4040,7 +4040,7 @@
     "description": "通信機能付き血圧計で測った家庭血圧を医療機関と共有し、高血圧のオンライン診療・降圧薬の郵送処方・オンライン相談を月額定額で受けられるパッケージ。オムロンが機器、ポートが診療基盤と集客を担った。",
     "hp": "https://telemedease.org/",
     "startedYear": 2019,
-    "status": "終了",
+    "status": "不明",
     "startedAt": "2019-05",
     "endedAt": "2021-11",
     "successor": "個人向けサービスは「高血圧e-メディカル」（イーメディカルジャパン株式会社）に移行。テレメディーズは事業パートナーとして関与",
@@ -4100,7 +4100,14 @@
       "fate": "別サービスへ移行",
       "asOf": "2026-11",
       "sourceDate": "2021-11"
-    }
+    },
+    "pastEvents": [
+      {
+        "date": "2021-11-17",
+        "text": "個人向けサービスを高血圧e-メディカル（イーメディカルジャパン）に移行（法人向けの提供・終了は未確認）"
+      }
+    ],
+    "endReasonCaveat": "個人向けは2021年11月に別サービスへ移行したが、法人向けの提供・終了は確認できない（2026-11-19）。終了とは判定していない。"
   },
   {
     "id": "b-254f0115",
@@ -49035,7 +49042,7 @@
     "updatedAt": "2026-11",
     "knownSince": "2023-10",
     "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000001.000129637.html",
-    "stage": "研究開発中",
+    "stage": "治験終了（次の段階は未確認）",
     "stageLocked": true
   },
   {
@@ -117898,7 +117905,7 @@
     "description": "患者が大きなボタンを選ぶだけで入力できるタブレット問診票。紙カルテの2号用紙への自動印刷や、ORCA・Medical Recepty NEXTなど電子カルテのSOAP欄への転記に対応する。",
     "hp": "https://www.medicacloud.jp/service/index02.html",
     "startedYear": null,
-    "status": "不明",
+    "status": "提供中",
     "endReasons": [],
     "sources": [
       "https://www.medicacloud.jp/service/index02.html",
