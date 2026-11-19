@@ -20,7 +20,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const companies = companiesIn(c.slug);
   const services = servicesIn(c.slug);
   const articles = articlesIn(c.slug);
-  const news = getNews().filter((n) => n.category === c.slug).slice(0, 10);
+  const news = getNews().filter((n) => n.category === c.slug && n.tier !== 'out').slice(0, 10);
   return (
     <>
       <nav className="breadcrumb" aria-label="パンくず">

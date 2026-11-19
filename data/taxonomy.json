@@ -860,6 +860,12 @@
      "遠隔画像診断（スタンダードプラン）"
     ],
     "category": "medical-image"
+   },
+   {
+    "slug": "imaging-processing-software",
+    "name": "画像処理・解析ソフト（自動診断なし）",
+    "description": "CT・MRI などの画像の再構成・定量化・表示を行うソフト。病変の検出や判定を自動で示す機能は持たない（画像診断支援AIとは分ける）。",
+    "category": "medical-image"
    }
   ]
  },

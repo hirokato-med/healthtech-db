@@ -13,6 +13,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchText } from './lib/fetch-text.mjs';
+import { judgeNews } from './lib/news-tier.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FILE = path.join(ROOT, 'data', 'news.json');
@@ -106,6 +107,8 @@ for (const word of words) {
       publishedAt: clampFuture(prev?.publishedAt ?? toIso(when)),
       category: prev?.category ?? guessCategory(title),
       source: 'prtimes',
+      // 掲載判定は、見本に沿って判定済み（review）なら引き継ぐ。無ければあとで規則で付ける
+      ...(prev?.tier ? { tier: prev.tier, change: prev.change, reason: prev.reason, tierBy: prev.tierBy } : {}),
     };
     if (!prev) added++;
     byUrl.set(href, item);
@@ -140,6 +143,8 @@ await Promise.all(
   }),
 );
 const items = [...byUrl.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0, 400);
+// 掲載判定の無いもの（新しく入ったもの）に、見本から作った規則で判定を付ける
+for (const n of byUrl.values()) if (!n.tier) Object.assign(n, judgeNews(n.title, n.companyId));
 fs.writeFileSync(FILE, JSON.stringify(items, null, 2) + '\n');
 console.error(`news.json: ${items.length}件（新規 ${added}件）`);
 

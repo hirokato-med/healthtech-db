@@ -14,6 +14,7 @@ export function NewsList({ items, empty = 'ニュースはまだありません�
             <a href={n.url} target="_blank" rel="noreferrer">
               {n.title}
             </a>
+            {n.tier === 'top' && n.change && <div className="news-change">{n.change}</div>}
             <div className="sub">
               {n.companyId ? <Link href={`/companies/${n.companyId}/`}>{n.company}</Link> : n.company && <span>{n.company}</span>}
               {n.category && <CategoryChip slug={n.category} />}

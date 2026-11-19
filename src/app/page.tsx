@@ -35,6 +35,8 @@ export default function Home() {
   const services = getServices();
   const people = getPeople();
   const news = getNews();
+  // トップには「事業に関わる変化」と判定したニュースだけ（判定のないものは載せない）
+  const topNews = news.filter((n) => n.tier === 'top');
   const cats = getCategories();
   const episodes = getMonthly();
   const latest = episodes[0];
@@ -96,7 +98,7 @@ export default function Home() {
               <Link href="/companies/"><span className="l">{Ico.co}国内企業</span><span className="v">{companies.length}<small>社</small></span><span className="go">企業データベース →</span></Link>
               <Link href="/services/"><span className="l">{Ico.sv}国内の事業</span><span className="v">{services.length}<small>件</small></span><span className="go">事業データベース →</span></Link>
               <Link href="/talents/"><span className="l">{Ico.pp}人物</span><span className="v">{people.length}<small>名</small></span><span className="go">人物データベース →</span></Link>
-              <Link href="/news/"><span className="l">{Ico.nw}ニュース</span><span className="v">{news.length}<small>本</small></span><span className="go">毎朝更新 →</span></Link>
+              <Link href="/news/"><span className="l">{Ico.nw}ニュース</span><span className="v">{news.filter((n) => n.tier !== 'out').length}<small>本</small></span><span className="go">毎朝更新 →</span></Link>
             </div>
             <Link href="/about/why/" className="why-card">
               <img src={withBase('/images/kato-avatar.jpg')} alt="" width={44} height={44} />
@@ -262,12 +264,15 @@ export default function Home() {
       <section className="band bleed">
         <div className="container duo">
           <div className="box">
-            <h2>新着ニュース</h2>
-            {news.slice(0, 6).map((n, i) => (
+            <h2>事業に関わるニュース</h2>
+            {/* 承認・保険適用・事業の開始や終了・買収・資金調達など、事業判断に影響する変化だけを載せる。少ない日は無理に埋めない */}
+            {topNews.length === 0 && <p className="muted small">この数日、事業に関わる大きな変化のニュースはありません。</p>}
+            {topNews.slice(0, 6).map((n, i) => (
               <div className="rank" key={n.id}>
                 <span className="n">{i + 1}</span>
                 <div>
                   <a href={n.url} target="_blank" rel="noreferrer" className="ttl">{n.title}</a>
+                  {n.change && <div className="news-change">{n.change}</div>}
                   <div className="sub">
                     {n.companyId ? <Link href={`/companies/${n.companyId}/`}>{n.company}</Link> : <span>{n.company}</span>}
                     {n.category && <span>{categoryName(n.category)}</span>}
@@ -276,7 +281,7 @@ export default function Home() {
                 </div>
               </div>
             ))}
-            <div className="foot">PR TIMES のヘルスケア関連リリースを毎朝収集<br /><Link href="/news/" className="arrow">すべてのニュースを見る</Link></div>
+            <div className="foot">PR TIMES のリリースを毎朝集め、事業に関わる変化かどうかを判定しています<br /><Link href="/news/" className="arrow">ヘルスケアのリリース一覧を見る</Link></div>
           </div>
           <div className="box">
             <h2>カテゴリ別 企業数</h2>

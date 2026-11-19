@@ -216,6 +216,13 @@ export type NewsItem = {
   publishedAt: string;
   category: string | null;
   source: 'prtimes' | 'manual';
+  /** 掲載判定：top（トップに掲載）／list（一覧のみ）／out（対象外）。tierBy は判定のしかた（review＝見本に沿って人・担当者が判定、rule＝見本から作った規則で自動判定） */
+  tier?: 'top' | 'list' | 'out';
+  /** top のとき、何が変わったか（1文） */
+  change?: string;
+  /** 判定の理由（「○○という事業上の変化がある／ない」） */
+  reason?: string;
+  tierBy?: 'review' | 'rule';
 };
 
 /** YouTube「#月刊ヘルステック」の1回分（pipeline/youtube.mjs が data/monthly.json に書く） */

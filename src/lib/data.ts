@@ -160,7 +160,7 @@ export const getNews = () =>
   });
 export const newsOf = (company: Company) => {
   const n = normalizeName(company.name);
-  return getNews().filter((x) => x.companyId === company.id || (n.length >= 4 && normalizeName(x.company).includes(n)));
+  return getNews().filter((x) => x.tier !== 'out' && (x.companyId === company.id || (n.length >= 4 && normalizeName(x.company).includes(n))));
 };
 
 export const peopleOf = (companyId: string) => getPeople().filter((p) => p.roles.some((r) => r.companyId === companyId));
