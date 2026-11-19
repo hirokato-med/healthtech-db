@@ -1217,3 +1217,4 @@ ul.fh-ev .t small { color: var(--muted); margin-left: 4px; }
 .bm-entity { font-size: 12.5px; color: var(--muted); margin: -4px 0 10px; }
 .bm-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; align-items: center; }
 .bm-filters select { font: inherit; font-size: 13px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card, #fff); color: inherit; }
+.bm-members a { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; }
