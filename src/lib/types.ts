@@ -81,7 +81,9 @@ export type Company = {
 };
 
 /** 出典：url・資料の発表日・種類（公式・SEC・規制当局・取引所・報道・Wikipedia・企業データベース） */
-export type OverseasSource = { url: string; published?: string; kind: 'official' | 'sec' | 'regulator' | 'exchange' | 'news' | 'wikipedia' | 'database' };
+export type OverseasSource = { url: string; published?: string; publisher?: string; kind: 'official' | 'sec' | 'regulator' | 'exchange' | 'court' | 'news' | 'wikipedia' | 'database' };
+/** 1つの主張と、それを直接書いた資料（status：confirmed＝公式・公的資料か信頼できる報道で確認／reference＝Wikipedia・企業DBのみ／unverified＝資料なし） */
+export type OverseasClaim = { key: 'foundedYear' | 'founder' | 'listing' | 'acquisitionAgreement' | 'acquisitionCompleted' | 'assetAcquisition' | 'bankruptcy' | 'closure' | 'delisting' | 'activity' | 'figure' | 'event'; value: string; eventDate?: string; sources: OverseasSource[]; status: 'confirmed' | 'reference' | 'unverified'; note?: string; downgraded?: string };
 export type Overseas = {
   id: string;
   name: string;
@@ -117,6 +119,8 @@ export type Overseas = {
     activity?: { verified: boolean; checkedAt: string; sources: OverseasSource[] };
     figures?: { text: string; verified: boolean; source?: OverseasSource }[];
   };
+  /** 主張ごとの出典（1つの主張に、それを直接書いた資料を付ける） */
+  claimList?: OverseasClaim[];
   sources?: string[];
   confidence?: 'high' | 'medium' | 'low';
   /** 一覧・検索に出さない理由（特定できない・ヘルスケアの外・重複） */

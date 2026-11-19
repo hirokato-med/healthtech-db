@@ -84362,25 +84362,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-0603cbee",
-    "name": "NCLS モニター Pro",
-    "company": "株式会社コードブルー",
-    "category": "recruting-solutions",
-    "description": "看護師の急変対応研修やACLSコースなどのシミュレーション教育用アプリ。iPadを患者モニター、iPhoneを指導者のリモコンにして、52の症例を経過どおりに再現できる。",
-    "hp": "https://codeblue.co.jp/monitor/",
-    "startedYear": 2026,
-    "status": "提供中",
-    "startedAt": "2026-09-09",
-    "startBasis": "App Store初回公開",
-    "sources": [
-      "https://apps.apple.com/jp/app/ncls-%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC-pro/id6808956914",
-      "https://codeblue.co.jp/monitor/",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8040001132673"
-    ],
-    "type": "healthcare-worker-education",
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-e03e8b43",
     "name": "あずまキッズandアレルギークリニック ププノート",
     "company": "医療法人健文会",
@@ -85246,10 +85227,10 @@
   },
   {
     "id": "b-86b44477",
-    "name": "NCLSモニター",
+    "name": "NCLS モニター（無料版・製品版 Pro）",
     "company": "株式会社コードブルー",
     "category": "recruting-solutions",
-    "description": "iPadを患者モニター、iPhoneを講師のリモコンにする急変対応シミュレーション用アプリ。高額なシミュレーターなしで、看護師などがモニターの変化から異常に気づく訓練ができる。",
+    "description": "iPadを患者モニター、iPhoneを講師のリモコンにする急変対応シミュレーション用アプリ。高額なシミュレーターなしで、看護師などがモニターの変化から異常に気づく訓練ができる。教育機関・法人向けの製品版「NCLS モニター Pro」（別アプリ、台数分の一括購入・MDM 配布）も同じ機能で提供する。",
     "hp": "https://codeblue.co.jp/monitor/",
     "startedYear": 2026,
     "status": "提供中",
@@ -85258,10 +85239,12 @@
     "sources": [
       "https://apps.apple.com/jp/app/ncls%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC/id6800759641",
       "https://codeblue.co.jp/monitor/",
-      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8040001132673"
+      "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8040001132673",
+      "https://apps.apple.com/jp/app/ncls-%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC-pro/id6808956914"
     ],
     "type": "healthcare-worker-education",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-11",
+    "milestones": []
   },
   {
     "id": "b-5df61d58",

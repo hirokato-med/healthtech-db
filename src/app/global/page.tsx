@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getOverseas } from '@/lib/data';
-import type { Overseas, OverseasSource } from '@/lib/types';
+import type { Overseas, OverseasClaim, OverseasSource } from '@/lib/types';
 import { ym } from '@/lib/ym';
 
 export const metadata: Metadata = { title: '海外ヘルステック企業', description: '米国・欧州・アジアの注目ヘルステック企業の一覧。' };
@@ -11,7 +11,21 @@ const listingText = (o: Overseas) =>
   : o.listing === '事業譲渡' ? `${o.acquiredBy ?? '他社'}が技術・事業を取得${o.acquiredAt ? `（${ym(o.acquiredAt)}）` : ''}`
   : o.listing === '閉鎖' ? `閉鎖${o.closedAt ? `（${ym(o.closedAt)}）` : ''}`
   : o.listing === '上場廃止' ? `上場廃止${o.delistedAt ? `（${ym(o.delistedAt)}）` : ''}` : o.listing ?? '';
-const KIND: Record<OverseasSource['kind'], string> = { official: '公式', sec: 'SEC', regulator: '規制当局', exchange: '取引所', news: '報道', wikipedia: 'Wikipedia', database: '企業DB' };
+const KIND: Record<OverseasSource['kind'], string> = { official: '公式', sec: 'SEC', regulator: '規制当局', exchange: '取引所', court: '裁判所・登記', news: '報道', wikipedia: 'Wikipedia', database: '企業DB' };
+/** 上場・資本の状態ごとに、それを支える主張の種類 */
+const STATE_KEYS: Record<string, OverseasClaim['key'][]> = { 上場: ['listing'], 買収: ['acquisitionCompleted'], 事業譲渡: ['assetAcquisition'], 閉鎖: ['closure', 'bankruptcy'], 上場廃止: ['delisting'] };
+/** 状態の主張：確定（confirmed）があるか。買収は完了の主張がなく合意だけなら「合意のみ」 */
+const stateOf = (o: Overseas) => {
+  const cl = o.claimList ?? [];
+  const keys = STATE_KEYS[o.listing ?? ''];
+  if (!keys) return null;
+  const hit = cl.filter((x) => keys.includes(x.key));
+  const ok = hit.filter((x) => x.status === 'confirmed');
+  if (ok.length) return { ok: true as const, claims: ok };
+  if (o.listing === '買収') { const ag = cl.filter((x) => x.key === 'acquisitionAgreement' && x.status === 'confirmed'); if (ag.length) return { ok: false as const, agreement: ag, claims: hit }; }
+  return { ok: false as const, claims: hit };
+};
+const ref = (x: OverseasClaim) => (x.status === 'reference' ? <small className="muted">（参考・未照合）</small> : null);
 /** 記載の後ろに付ける出典（種類と資料の発表日） */
 function Src({ s }: { s?: OverseasSource[] }) {
   if (!s?.length) return null;
@@ -55,7 +69,25 @@ export default function GlobalPage() {
                   <div className="meta">
                     <span>{o.country}</span>
                     {o.foundedYear && ok('founding') && <span>{o.foundedYear}年創業{weak(c?.founding?.sources) && <small className="muted">（参考・未照合）</small>}<Src s={c?.founding?.sources} /></span>}
-                    {o.checkedAt ? (
+                    {o.checkedAt && o.claimList ? (() => {
+                      // 主張ごとの出典：資料がない主張は出さない。Wikipedia・企業DBだけの主張は「参考・未照合」
+                      const cl = o.claimList!;
+                      const yr = cl.find((x) => x.key === 'foundedYear' && x.status !== 'unverified');
+                      const fs = cl.filter((x) => x.key === 'founder' && x.status !== 'unverified');
+                      const st = stateOf(o);
+                      return (
+                        <>
+                          {yr && <span>{yr.value}年創業{ref(yr)}<Src s={yr.sources} /></span>}
+                          {o.listing && o.listing !== '未上場' && st && (st.ok
+                            ? <span className="badge">{listingText(o)}<Src s={st.claims.flatMap((x) => x.sources)} /></span>
+                            : 'agreement' in st && st.agreement
+                              ? <span><span className="badge">{o.acquiredBy ?? '他社'}による買収で合意</span><small className="muted">（買収の完了は確認待ち）</small><Src s={st.agreement.flatMap((x) => x.sources)} /></span>
+                              : <span><span className="badge">法人状態：確認待ち</span><details className="ov-unv"><summary className="small muted">未照合の情報</summary><small className="muted">{listingText(o)}という情報がありますが、{st.claims.length ? 'Wikipedia・企業データベースなどの参考資料だけで' : '直接書いた資料が見つからず'}、公的資料では確かめていません<Src s={st.claims.flatMap((x) => x.sources)} /></small></details></span>)}
+                          {o.activity && o.activity !== '事業継続' && ok('activity') && <span className="badge">{o.activity}</span>}
+                          {fs.length > 0 && <span>創業者 {fs.map((x, i) => <span key={x.value}>{i ? ', ' : ''}{x.value}{ref(x)}</span>)}<Src s={[...new Map(fs.flatMap((x) => x.sources).map((x) => [x.url, x])).values()]} /></span>}
+                        </>
+                      );
+                    })() : o.checkedAt ? (
                       <>
                         {o.listing && ok('capital') && (capWeak ? <span><span className="badge">法人状態：確認待ち</span><details className="ov-unv"><summary className="small muted">未照合の情報</summary><small className="muted">{listingText(o)}という情報がありますが、企業データベースなどの参考資料だけで、公的資料では確かめていません<Src s={c?.capital?.sources} /></small></details></span> : <span className="badge">{listingText(o)}<Src s={c?.capital?.sources} /></span>)}
                         {o.activity && o.activity !== '事業継続' && ok('activity') && <span className="badge">{o.activity}</span>}
