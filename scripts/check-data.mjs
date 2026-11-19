@@ -51,7 +51,12 @@ add(must, 'グループ会社の形がおかしい', companies.filter((c) => c.g
 add(must, '医療機器の情報と「医療機器ではない」が両方ある', services.filter((s) => s.device && s.nonDevice));
 // 終了予定と一時停止：未来の終了日は plannedEnd に入れ、status は「提供中」のまま。日付が来ても自動で変えない
 add(must, '終了日が未来なのに止まった事業になっている（plannedEnd に入れて「提供中」に）', services.filter((s) => STOPPED.has(s.status) && s.endedAt && s.endedAt.slice(0, 7) > today.slice(0, 7)));
-add(must, '終了予定の形がおかしい（kind・date が必要、status は「提供中」）', services.filter((s) => s.plannedEnd && (!['終了', '譲渡', '統合'].includes(s.plannedEnd.kind) || !/^\d{4}-\d{2}(-\d{2})?$/.test(s.plannedEnd.date ?? '') || (!s.plannedEnd.confirmedAt && s.status !== '提供中'))));
+add(must, '終了予定の形がおかしい（kind・date が必要、status は「提供中」）', services.filter((s) => s.plannedEnd && (!['終了', '販売終了', '譲渡', '統合'].includes(s.plannedEnd.kind) || !/^\d{4}-\d{2}(-\d{2})?$/.test(s.plannedEnd.date ?? '') || (!s.plannedEnd.confirmedAt && s.status !== '提供中'))));
+// 止まったあとのサービスの扱い（after.fate）は決まった選択肢だけ（止まった事業のページの内訳の合計が全体と合うように）。詳しい事情は after.note に
+const FATES = ['同一サービス継続（運営会社が変更）', '別サービスへ移行', '一部継続', '提供終了', '休止中', '未確認'];
+add(must, 'その後のサービスの扱い（after.fate）が決まった選択肢にない', services.filter((s) => s.after && !FATES.includes(s.after.fate)));
+// 日付の書式：YYYY・YYYY-MM・YYYY-MM-DD 以外（「2024-秋」「1960年代」など）は画面でそのまま出るので知らせる
+add(want, '開始日・終了日の書式が YYYY／YYYY-MM／YYYY-MM-DD でない', services.filter((s) => [s.startedAt, s.endedAt, s.knownSince].some((d) => d && !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(d))));
 add(must, '一時停止なのに status が「休止」でない', services.filter((s) => s.suspension?.temporary && !s.suspension.resumedAt && s.status !== '休止'));
 add(must, '会社の説明文に「上場企業」とあるのに上場区分が「上場」でない（上場廃止の時期を書く）', companies.filter((c) => /上場企業|上場している/.test(c.description ?? '') && !/上場廃止|元上場/.test(c.description ?? '') && c.exit !== '上場'), (c) => `${c.id} ${c.name}（${c.exit}）`);
 

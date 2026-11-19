@@ -101,10 +101,8 @@ export const END_REASONS: Record<string, { label: string; note: string }> = {
   'service-restructuring': { label: 'サービス再編', note: '提供の形を作り直した（後継サービスへの移行・提供形態の変更など）' },
   unknown: { label: '理由を確認できていない', note: '調べた資料で、止まった理由を確認できていない（会社が理由を明らかにしていないものを含む）' },
 };
-export const STOPPED = ['終了', '譲渡', '統合', '休止'];
-/** 止まった事業か。障害・不正アクセスによる一時停止（suspension.temporary）は入れない */
-export const isStopped = (s: { status: string; suspension?: { temporary?: boolean } }) => STOPPED.includes(s.status) && !s.suspension?.temporary;
-export { statusLabel } from './status';
+/** 止まった事業の判定は fs を使わない status.ts に置き、クライアントの絞り込みと同じものを使う */
+export { STOPPED, isStopped, statusLabel } from './status';
 export const getPartnerships = () => memo('partnerships', () => read<Partnership[]>('partnerships.json'));
 export const getThemes = () => memo('themes', () => read<Theme[]>('themes.json'));
 /** 事業の種類（カテゴリごと、data/taxonomy.json の並び順） */

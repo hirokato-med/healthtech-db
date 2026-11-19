@@ -1,12 +1,22 @@
 'use client';
-import { statusLabel, statusClass } from '@/lib/status';
+import { STATUS_GROUPS } from '@/lib/status';
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import type { Category, Service } from '@/lib/types';
-import { ym } from '@/lib/ym';
 
-type Lite = Pick<Service, 'id' | 'name' | 'company' | 'companyId' | 'category' | 'description' | 'status' | 'startedAt' | 'startedYear' | 'endedAt' | 'endReasons'>;
-const STATUSES = ['提供中', '準備中', '終了', '譲渡', '統合', '休止', '不明'] as const;
+/**
+ * 一覧のカードに使う項目。表示のラベル・色・絞り込みの区分・止まった事業か・期間の文は、
+ * 事業ページと同じ関数（src/lib/status.ts）でサーバー側で作って渡す（クライアントで status から作り直さない）
+ */
+export type Lite = Pick<Service, 'id' | 'name' | 'company' | 'companyId' | 'category' | 'description' | 'endReasons'> & {
+  label: string;
+  cls: string;
+  group: string;
+  stopped: boolean;
+  /** 終了・譲渡の予定が発表された（まだ提供中） */
+  planned: boolean;
+  period: string;
+};
 
 export function BusinessFilter({ items, categories, reasons, initialStatus = '' }: { items: Lite[]; categories: Category[]; reasons: Record<string, { label: string }>; initialStatus?: string }) {
   const [q, setQ] = useState('');
@@ -21,8 +31,9 @@ export function BusinessFilter({ items, categories, reasons, initialStatus = '' 
     const n = q.trim().toLowerCase();
     return items.filter(
       (s) =>
-        (!status || (status === '止まった事業' ? !['提供中', '準備中', '不明'].includes(s.status) : s.status === status)) &&
-        (!reason || s.endReasons?.includes(reason)) &&
+        (!status || (status === '止まった事業' ? s.stopped : s.group === status)) &&
+        // 止まった理由で絞り込むのは、止まった事業だけ（予定が発表されたものは理由の欄に「予定」と出す）
+        (!reason || (s.stopped && s.endReasons?.includes(reason))) &&
         (!cat || s.category === cat) &&
         (!n || `${s.name} ${s.company} ${s.description}`.toLowerCase().includes(n)),
     );
@@ -38,10 +49,10 @@ export function BusinessFilter({ items, categories, reasons, initialStatus = '' 
         <select value={status} onChange={(e) => setStatus(e.target.value)} aria-label="状態">
           <option value="">すべての状態</option>
           <option value="止まった事業">止まった事業（終了・譲渡・統合・休止）</option>
-          {STATUSES.map((s) => <option key={s}>{s}</option>)}
+          {STATUS_GROUPS.map((s) => <option key={s}>{s}</option>)}
         </select>
         <select value={reason} onChange={(e) => setReason(e.target.value)} aria-label="止まった理由">
-          <option value="">止まった理由</option>
+          <option value="">止まった理由（止まった事業のみ）</option>
           {Object.entries(reasons).map(([k, v]) => <option key={k} value={k}>{v.label}</option>)}
         </select>
         <select value={cat} onChange={(e) => setCat(e.target.value)} aria-label="カテゴリ">
@@ -55,14 +66,15 @@ export function BusinessFilter({ items, categories, reasons, initialStatus = '' 
           <article className="card biz" key={s.id}>
             <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
             <div className="chips">
-              <span className={`badge st-${statusClass(s)}`}>{statusLabel(s)}</span>
-              {s.category && <Link href={`/categories/${s.category}/`} className="chip">{catName[s.category] ?? s.category}</Link>}
-              {s.endReasons?.filter((r) => r !== 'unknown').map((r) => <span key={r} className="chip ghost">{reasons[r]?.label ?? r}</span>)}
+              <span className={`badge st-${s.cls}`}>{s.label}</span>
+              {s.category && <Link href={`/services/c/${s.category}/`} className="chip">{catName[s.category] ?? s.category}</Link>}
+              {/* 理由のチップは止まった事業だけ。終了・譲渡の予定が発表されたものは「予定の理由」と前置きする */}
+              {(s.stopped || s.planned) && s.endReasons?.filter((r) => r !== 'unknown').map((r) => <span key={r} className="chip ghost">{s.stopped ? '' : '予定の理由：'}{reasons[r]?.label ?? r}</span>)}
             </div>
             <p className="desc">{s.description}</p>
             <div className="meta">
               {s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : <span>{s.company}</span>}
-              <span>{ym(s.startedAt) || (s.startedYear ? `${s.startedYear}年` : '')}{(s.startedAt || s.startedYear) && ' 〜 '}{ym(s.endedAt)}</span>
+              <span>{s.period}</span>
             </div>
           </article>
         ))}

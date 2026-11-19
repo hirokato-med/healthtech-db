@@ -1,9 +1,9 @@
-import { statusLabel, statusClass } from '@/lib/status';
+import { periodText, statusLabel, statusClass } from '@/lib/status';
+import { shortCompany as short } from '@/lib/names';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { isStopped, categoryName, getBizTypes, getCategories, getServices } from '@/lib/data';
-import type { Service } from '@/lib/types';
 
 export function generateStaticParams() {
   return getCategories().map((c) => ({ slug: c.slug }));
@@ -13,12 +13,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: `${name}の事業`, description: `${name}にどんな事業があるかを種類ごとに分け、各社のサービスを並べています。` };
 }
 
-const yr = (s: Service) => {
-  const a = s.startedAt?.slice(0, 4) || (s.startedYear ? String(s.startedYear) : '');
-  const b = s.endedAt?.slice(0, 4);
-  return a ? `${a}年〜${b ? `${b}年` : ''}` : b ? `〜${b}年` : '—';
-};
-const short = (n: string) => n.replace(/^株式会社|株式会社$/g, '').replace(/（.*$/, '');
+// 年の欄：分からない側は「未確認」と書く（止まった事業で終了日がないときは「〜終了時期未確認」、開始が分からなければ「開始時期未確認」）
+const yr = (s: Parameters<typeof periodText>[0]) => periodText(s, { year: true });
 
 export default async function CategoryBusinessPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
