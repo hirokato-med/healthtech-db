@@ -57,7 +57,7 @@ export default function GlobalPage() {
                     {o.foundedYear && ok('founding') && <span>{o.foundedYear}年創業{weak(c?.founding?.sources) && <small className="muted">（参考・未照合）</small>}<Src s={c?.founding?.sources} /></span>}
                     {o.checkedAt ? (
                       <>
-                        {o.listing && ok('capital') && (capWeak ? <span className="muted small">{listingText(o)}（確認待ち：参考資料のみ）<Src s={c?.capital?.sources} /></span> : <span className="badge">{listingText(o)}<Src s={c?.capital?.sources} /></span>)}
+                        {o.listing && ok('capital') && (capWeak ? <span><span className="badge">法人状態：確認待ち</span><details className="ov-unv"><summary className="small muted">未照合の情報</summary><small className="muted">{listingText(o)}という情報がありますが、企業データベースなどの参考資料だけで、公的資料では確かめていません<Src s={c?.capital?.sources} /></small></details></span> : <span className="badge">{listingText(o)}<Src s={c?.capital?.sources} /></span>)}
                         {o.activity && o.activity !== '事業継続' && ok('activity') && <span className="badge">{o.activity}</span>}
                         {o.founders.length > 0 && ok('founding') && <span>創業者 {o.founders.join(', ')}</span>}
                       </>

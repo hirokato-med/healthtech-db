@@ -1,4 +1,4 @@
-import { statusLabel } from '@/lib/status';
+import { statusLabel, statusClass } from '@/lib/status';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -135,7 +135,7 @@ export default async function BizTypePage({ params }: { params: Promise<{ slug: 
                     <td><Link href={`/services/${s.id}/`}>{s.name}</Link></td>
                     <td>{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{short(s.company)}</Link> : short(s.company)}</td>
                     <td className="nw">{ym(s.startedAt) || (s.startedYear ? `${s.startedYear}年` : '')}〜{ym(s.endedAt)}</td>
-                    <td><span className={`badge st-${s.status}`}>{statusLabel(s)}</span></td>
+                    <td><span className={`badge st-${statusClass(s)}`}>{statusLabel(s)}</span></td>
                     <td>{(s.endReasons ?? []).filter((r) => r !== 'unknown').map((r) => <span key={r} className="chip ghost">{END_REASONS[r]?.label ?? r}</span>)}<small>{s.endReasonNote}</small></td>
                   </tr>
                 ))}

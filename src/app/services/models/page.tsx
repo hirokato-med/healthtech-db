@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getBusinessModels, getService } from '@/lib/data';
+import { categoryName, getBusinessModels, getService } from '@/lib/data';
+import { statusLabel, statusClass } from '@/lib/status';
+import { ModelsFilter } from '@/components/ModelsFilter';
+import type { BusinessModel, Service } from '@/lib/types';
 
 export const metadata: Metadata = { title: '事業のしくみで比べる', description: '対象領域・課題、製品・サービスの種類、利用者・契約者・支払者、収益の得方の4つの軸で、ヘルスケアの事業を並べて比べる。' };
 
@@ -10,9 +13,15 @@ const j = (a?: string[]) => (a?.length ? a.join('・') : '未確認');
 const strip = (x: string) => { let t = x; for (let i = 0; i < 4; i++) t = t.replace(/[（(][^（）()]*[）)]/g, ''); return t.replace(/[（(].*$/, '').replace(/[）)]/g, '').replace(/[、。].*$/, '').trim(); };
 const brief = (a?: string[]) => (a?.length ? [...new Set(a.flatMap((x) => strip(x).split('・')).map((x) => x.trim()).filter(Boolean))].join('・') : '未確認');
 
-/** 4つの軸と属性を付けた事業の一覧（まず見本20事業） */
+const SUPPORT = /受託サービス|コンサルティング|事務の代行|人材紹介|求人/;
+/** 比較の単位：製品・サービス／支援サービス／事業群・契約（事業群と契約は件数に入れない） */
+const kindOf = (m: BusinessModel, s: Service) => (m.recordKind === 'group' || s.kind === 'group' ? '事業群' : m.recordKind === 'contract' || s.kind === 'contract' ? '契約・出来事' : (m.offering?.values ?? []).every((v) => SUPPORT.test(v)) ? '支援サービス' : '製品・サービス');
+const stateOf = (s: Service) => { const l = statusLabel(s); return /^提供中/.test(l) ? '提供中' : s.status === '準備中' ? '準備中' : /提供状況未確認/.test(l) ? '提供状況未確認' : /販売終了/.test(l) ? '販売終了' : s.kind === 'group' ? '事業群' : '終了・譲渡・統合'; };
+/** 4つの軸と属性を付けた事業の一覧 */
 export default function ModelsPage() {
-  const rows = Object.values(getBusinessModels()).map((m) => ({ m, s: getService(m.id) })).filter((x) => x.s);
+  const rows = Object.values(getBusinessModels()).map((m) => ({ m, s: getService(m.id)! })).filter((x) => x.s).map((x) => ({ ...x, kind: kindOf(x.m, x.s), state: stateOf(x.s), area: categoryName(x.s.category) }));
+  const units = rows.filter((x) => x.kind === '製品・サービス' || x.kind === '支援サービス').length;
+  const uniq = (a: string[]) => [...new Set(a)].sort((p, q) => a.filter((x) => x === q).length - a.filter((x) => x === p).length);
   return (
     <>
       <nav className="breadcrumb" aria-label="パンくず"><Link href="/">トップ</Link> / <Link href="/services/">事業</Link> / <span>事業のしくみで比べる</span></nav>
@@ -21,19 +30,20 @@ export default function ModelsPage() {
         <h1>事業のしくみで比べる</h1>
         <p className="lead">
           4つの軸（対象領域・課題／製品・サービスの種類／利用者・契約者・支払者／収益の得方）と、分類とは別の属性（販売経路・薬事・保険適用・提供段階・事業活動・普及実績）で並べました。
-          「提供会社に直接払う人」と「最終的に費用を負担する人」は分けています。資料で確かめられない項目は「未確認」と出します。いまは性質の違う {rows.length} 事業の見本で、定義を確かめてから全件に広げます。販売経路・費用負担・薬事・普及実績は「詳しく」を開くと見られます。
+          「提供会社に直接払う人」と「最終的に費用を負担する人」は分けています。資料で確かめられない項目は「未確認」と出します。比べる単位は製品・サービス（{units} 件）で、複数の製品をまとめた事業群・契約の記録（{rows.length - units} 件）は件数に入れず、製品のページへリンクします。販売経路・費用負担・薬事・普及実績は「詳しく」を開くと見られます。
         </p>
       </div>
+      <ModelsFilter areas={uniq(rows.map((x) => x.area))} states={['提供中', '準備中', '提供状況未確認', '販売終了', '終了・譲渡・統合', '事業群']} kinds={['製品・サービス', '支援サービス', '事業群', '契約・出来事']} />
       <div className="table-wrap">
         <table className="bm-table">
-          <thead><tr><th>事業</th><th>対象領域・課題</th><th>製品・サービスの種類</th><th>使う人／直接払う／最終的に負担</th><th>収益の得方（提供会社の収入）</th><th>いまの段階</th></tr></thead>
+          <thead><tr><th>事業</th><th>対象領域・課題</th><th>製品・サービスの種類</th><th>使う人／直接払う／最終的に負担</th><th>収益の得方（提供会社の収入）</th><th>現在の提供状況</th></tr></thead>
           <tbody>
-            {rows.map(({ m, s }) => {
+            {rows.map(({ m, s, kind, state, area }) => {
               const r = m.roles ?? {};
               const users = [...new Set([...(r.operatorUser ?? []), ...(r.outputUser ?? [])])];
               const main = (m.adoption ?? []).filter((a) => !a.ref);
               return (
-                <tr key={m.id}>
+                <tr key={m.id} data-area={area} data-state={state} data-kind={kind}>
                   <td><Link href={`/services/${m.id}/#business-model`}><b>{s!.name}</b></Link><small>{s!.company}</small>
                     <details className="bm-more"><summary>詳しく</summary>
                       <dl>
@@ -48,7 +58,7 @@ export default function ModelsPage() {
                   <td>{m.offering?.values.map((v) => <span key={v} className="tag">{v}</span>)}</td>
                   <td><i>使う</i><U t={brief(users)} /><i>直接払う</i><U t={brief(r.directPayer)} /><i>最終的に負担</i><U t={brief(r.finalBearer)} /></td>
                   <td>{m.revenue?.values.map((v) => <span key={v} className="tag">{/未確認/.test(v) ? <span className="bm-unk">{v}</span> : v}</span>)}{m.revenue?.unknown && <small className="bm-unk">未確認：{m.revenue.unknown.slice(0, 40)}{m.revenue.unknown.length > 40 ? '…' : ''}</small>}</td>
-                  <td><span className="bm-st">{m.stage?.value}</span><small><U t={m.activity?.value} /></small>{m.lastModel ? <small className="bm-unk">表示は最後に確認できたモデル{m.lastModel.asOf ? `（${m.lastModel.asOf}）` : ''}</small> : m.periods?.length ? <small>時期で変化あり</small> : null}</td>
+                  <td><span className={`badge st-${statusClass(s!)}`}>{statusLabel(s!)}</span>{kind !== '製品・サービス' && <small>{kind}</small>}<small className="muted">分類：{m.stage?.value}</small>{m.lastModel ? <small className="bm-unk">表示は最後に確認できたモデル{m.lastModel.asOf ? `（${m.lastModel.asOf}）` : ''}</small> : m.periods?.length ? <small>時期で変化あり</small> : null}</td>
                 </tr>
               );
             })}

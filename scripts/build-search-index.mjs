@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 /** data/ と content/ から検索用インデックス public/search-index.json を作る（next build の前に走る）。 */
+import { statusLabel } from '../src/lib/status.ts';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -34,7 +35,7 @@ for (const c of read('companies.json')) {
   out.push({ t: 'company', id: c.id, title: c.name, sub: [...(c.aliases ?? []), ...(c.formerNames ?? []), c.categoryLabel, c.prefecture, c.description.slice(0, 60)].filter(Boolean).join(' / '), k: mine.some(isDtx) ? '治療用アプリ' : '', ty: types.join(' '), url: `/companies/${c.id}/` });
 }
 for (const s of services)
-  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [isDtx(s) ? '治療用アプリ' : '', s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), ty: typeName[s.type], ...(s.kind === 'contract' ? { sec: 'contract' } : isSupport(s) ? { sec: 'support' } : /完了後|修了後|卒業後/.test(s.name) ? { sec: 'related' } : {}), url: `/services/${s.id}/` });
+  out.push({ t: 'service', id: s.id, title: s.name, sub: [s.company, catName[s.category] ?? s.category].filter(Boolean).join(' / '), k: [isDtx(s) ? '治療用アプリ' : '', s.formerName, (s.description ?? '').slice(0, 80)].filter(Boolean).join(' '), ty: typeName[s.type], st: statusLabel(s), ...(s.kind === 'contract' || s.searchKind === 'contract' ? { sec: 'contract' } : s.kind === 'group' || s.searchKind === 'group' ? { sec: 'group' } : s.searchKind === 'uses' ? { sec: 'uses' } : isSupport(s) || s.searchKind === 'support' ? { sec: 'support' } : /完了後|修了後|卒業後/.test(s.name) ? { sec: 'related' } : {}), url: `/services/${s.id}/` });
 for (const p of read('people.json'))
   out.push({ t: 'person', id: p.id, title: p.name, sub: p.roles.map((r) => `${r.companyName} ${r.title}`).join(' / '), url: `/talents/${p.id}/` });
 for (const c of categories) out.push({ t: 'category', id: c.slug, title: c.name, sub: c.groupLabel, url: `/categories/${c.slug}/` });

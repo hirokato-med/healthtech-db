@@ -1,4 +1,4 @@
-import { statusLabel } from '@/lib/status';
+import { statusLabel, statusClass } from '@/lib/status';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { END_REASONS, isStopped, getServices } from '@/lib/data';
@@ -59,7 +59,7 @@ export default function StoppedPage() {
               <div className="row" key={s.id} style={{ gridTemplateColumns: '1fr' }}>
                 <div>
                   <Link href={`/services/${s.id}/`} style={{ fontWeight: 700 }}>{s.name}</Link>
-                  <span className={`badge st-${s.status}`} style={{ marginLeft: 8 }}>{statusLabel(s)}</span>
+                  <span className={`badge st-${statusClass(s)}`} style={{ marginLeft: 8 }}>{statusLabel(s)}</span>
                   <div className="sub">
                     {s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : <span>{s.company}</span>}
                     <span>{ymd(s.suspension!.since)}から停止</span><span>原因：{s.suspension!.cause}</span>
@@ -82,7 +82,7 @@ export default function StoppedPage() {
               <div className="row" key={s.id} style={{ gridTemplateColumns: '1fr' }}>
                 <div>
                   <Link href={`/services/${s.id}/`} style={{ fontWeight: 700 }}>{s.name}</Link>
-                  <span className={`badge st-${s.status}`} style={{ marginLeft: 8 }}>{statusLabel(s)}</span>
+                  <span className={`badge st-${statusClass(s)}`} style={{ marginLeft: 8 }}>{statusLabel(s)}</span>
                   {s.endReasonInfo?.inferred?.includes(g.key) && <span className="basis basis-推定" style={{ marginLeft: 6 }} title="この理由の分類は資料に直接の記載がなく、DB が説明から分類したもの">この分類は推定</span>}
                   <div className="sub">
                     {s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : <span>{s.company}</span>}

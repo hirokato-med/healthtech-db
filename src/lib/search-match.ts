@@ -2,9 +2,9 @@
  * サイト内検索の当てはめ（検索ページと scripts/test-search.mjs で同じものを使う）。
  * 同じ意味の言葉（DTx・デジタル治療・治療用アプリ など）は、どれで検索しても同じものが出るようにする。
  */
-export type SearchItem = { t: string; id: string; title: string; sub: string; url: string; k?: string; ty?: string; sec?: 'support' | 'related' | 'contract' };
+export type SearchItem = { t: string; id: string; title: string; sub: string; url: string; k?: string; ty?: string; sec?: 'support' | 'related' | 'contract' | 'uses' | 'group'; st?: string };
 /** 検索結果の区分：検索語そのもの／開発・薬事・販売の支援サービス／同じ分野の関連する事業 */
-export type Section = 'main' | 'support' | 'related' | 'contract';
+export type Section = 'main' | 'support' | 'related' | 'contract' | 'uses' | 'group';
 
 type SynGroup = { terms: string[]; exclude?: RegExp };
 // 同じ意味として扱う言葉。exclude は、言葉は含むが意味の違うもの（歯科ソフトの「DTX Studio」など）
@@ -59,7 +59,7 @@ export const matchItem = (h: SearchItem, query: string): { score: number; sectio
   if (title === n) score += 3;
   // 同じ意味の言葉のまとまりで当たった支援サービスは、支援の区分に分ける
   const viaGroup = terms.some((t) => groupOf(t) && !groupOf(t)!.exclude?.test(query));
-  return { score, section: h.sec === 'contract' ? 'contract' : related || (viaGroup && h.sec === 'related') ? 'related' : viaGroup && h.sec === 'support' ? 'support' : 'main' };
+  return { score, section: h.sec === 'contract' ? 'contract' : related || (viaGroup && h.sec === 'related') ? 'related' : viaGroup && h.sec === 'support' ? 'support' : viaGroup && h.sec === 'uses' ? 'uses' : viaGroup && h.sec === 'group' ? 'group' : 'main' };
 };
 
 const run = (index: SearchItem[], query: string) =>
@@ -76,3 +76,7 @@ export const searchContract = (index: SearchItem[], query: string, limit = 30) =
 export const searchSupport = (index: SearchItem[], query: string, limit = 50) => run(index, query).filter((x) => x.m.section === 'support').slice(0, limit).map((x) => x.h);
 /** 検索語の分野と同じだが、その言葉そのものではないもの（DTx で探したときの睡眠アプリ など） */
 export const searchRelated = (index: SearchItem[], query: string, limit = 50) => run(index, query).filter((x) => x.m.section === 'related').slice(0, limit).map((x) => x.h);
+/** DTx などを使う診療・健康支援サービス（治療アプリを組み合わせたプログラム・法人向けの提供 など） */
+export const searchUses = (index: SearchItem[], query: string, limit = 50) => run(index, query).filter((x) => x.m.section === 'uses').slice(0, limit).map((x) => x.h);
+/** 複数の製品をまとめた会社の事業群（個別の製品へリンクする記録） */
+export const searchGroup = (index: SearchItem[], query: string, limit = 30) => run(index, query).filter((x) => x.m.section === 'group').slice(0, limit).map((x) => x.h);

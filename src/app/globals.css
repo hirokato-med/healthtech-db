@@ -1204,3 +1204,16 @@ ul.fh-ev .t small { color: var(--muted); margin-left: 4px; }
 .news-change { font-size: 12.5px; color: var(--teal); margin: 3px 0 2px; }
 .news-change::before { content: '変化：'; color: var(--muted); }
 .sec-h { font-size: 18px; margin: 18px 0 8px; } .sec-h small { font-weight: 400; font-size: 13px; }
+/* 現在の提供状況と過去の出来事（事業ページの上部） */
+.state-line { display: grid; gap: 4px; }
+.state-line > div { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 13.5px; }
+.state-line i { font-style: normal; font-size: 12px; color: var(--muted); min-width: 7.5em; }
+.badge.st-販売終了 { background: #f6efe6; color: #8a5a2b; border-color: transparent; }
+.badge.st-group { background: #eef0f4; color: #4a5468; border-color: transparent; }
+.badge.st-不明 { background: #eef0f4; color: #4a5468; border-color: transparent; }
+.bm-signals { margin: 6px 0 0; padding-left: 1.2em; font-size: 12.5px; }
+.bm-members { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 6px; }
+.bm-members th, .bm-members td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.bm-entity { font-size: 12.5px; color: var(--muted); margin: -4px 0 10px; }
+.bm-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; align-items: center; }
+.bm-filters select { font: inherit; font-size: 13px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card, #fff); color: inherit; }

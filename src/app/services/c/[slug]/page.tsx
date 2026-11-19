@@ -1,4 +1,4 @@
-import { statusLabel } from '@/lib/status';
+import { statusLabel, statusClass } from '@/lib/status';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -58,7 +58,7 @@ export default async function CategoryBusinessPage({ params }: { params: Promise
                     <td className="n"><Link href={`/services/${s.id}/`}>{s.name}</Link></td>
                     <td className="c">{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{short(s.company)}</Link> : short(s.company)}</td>
                     <td className="y">{yr(s)}</td>
-                    <td className="st"><span className={`badge st-${s.status}`}>{statusLabel(s)}</span></td>
+                    <td className="st"><span className={`badge st-${statusClass(s)}`}>{statusLabel(s)}</span></td>
                   </tr>
                 ))}
               </tbody>

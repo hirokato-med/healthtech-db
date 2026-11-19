@@ -9,6 +9,7 @@ import { CompanyCard } from '@/components/CompanyCard';
 import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
 import { isStopped, statusLabel, categoryName, findCompanyByName, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
+import { statusClass } from '@/lib/status';
 import { marginOf, comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText , growthText, itemLabels} from '@/lib/earnings';
 import { reconcileBusinesses } from '@/lib/profile';
 import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
@@ -311,7 +312,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
                     <Link href={`/services/${s.id}/`} className="title">{s.name}</Link>
                     <div className="chips"><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
                     <p className="desc">{s.description}</p>
-                    <div className="meta">{(s.startedAt || s.startedYear) && <span>{(s.startedAt ?? String(s.startedYear)).slice(0, 4)}年開始</span>}{s.endedAt && <span>{s.endedAt.slice(0, 4)}年{s.status === '提供中' ? '' : s.status}</span>}<span className={`badge st-${s.status}`}>{statusLabel(s)}</span>{s.status === '準備中' && s.stage ? <span className="badge">{s.stage}</span> : null}</div>
+                    <div className="meta">{(s.startedAt || s.startedYear) && <span>{(s.startedAt ?? String(s.startedYear)).slice(0, 4)}年開始</span>}{s.endedAt && <span>{s.endedAt.slice(0, 4)}年{s.status === '提供中' ? '' : s.status}</span>}<span className={`badge st-${statusClass(s)}`}>{statusLabel(s)}</span>{s.status === '準備中' && s.stage ? <span className="badge">{s.stage}</span> : null}</div>
                   </article>
                 ))}
               </div>

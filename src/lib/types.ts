@@ -164,8 +164,17 @@ export type Service = {
    * fate は資料に書かれているときだけ決め、書かれていなければ「未確認」。asOf はその資料で確かめた時点
    */
   /** 事業そのものではなく提携・販売権の契約を記録したもの（contract）。relatedServiceId はその製品の事業 */
-  kind?: 'contract';
+  kind?: 'contract' | 'group';
   relatedServiceId?: string;
+  /** 事業群（kind: 'group'）に含まれる製品の事業。製品の側は groupId で事業群を指す */
+  members?: string[];
+  groupId?: string;
+  /** 過去の出来事（譲渡・名称変更・運営会社の交代など）。いまの提供状態とは分けて上部に出す */
+  pastEvents?: { date: string; text: string; source?: string }[];
+  /** 新規販売を終えたもの。maintenance は保守の状況（継続／未確認／終了）、maintenanceEndAnnounced は公表された保守終了の期日 */
+  saleEnded?: { date?: string; maintenance: '継続' | '未確認' | '終了'; maintenanceEndAnnounced?: string; source?: string };
+  /** 検索での扱い：DTx 製品そのもの／DTx を使う診療・健康支援サービス など */
+  searchKind?: 'product' | 'uses' | 'support' | 'contract' | 'group';
   after?: { event: string; fate: string; note?: string; asOf: string; sourceDate?: string };
   /** 推定を含むときの断り書き（一覧でも出す） */
   endReasonCaveat?: string;
@@ -354,11 +363,17 @@ export type BmSource = { url: string; publisher?: string; published?: string };
 export type BusinessModel = {
   id: string;
   checkedAt: string;
+  /** このモデルが、どの法人の収入を説明しているか */
+  entity?: string;
+  /** 記録の種類：製品・サービス／事業群／契約・出来事 */
+  recordKind?: 'product' | 'group' | 'contract';
+  members?: { name: string; existingId?: string; status?: string; stage?: string; regulatory?: string; startedAt?: string; hp?: string; sources?: BmSource[] }[];
+  aiUse?: { value: string; detail?: string; sources?: BmSource[] };
   problem?: { domain?: string; who?: string; situation?: string; sources?: BmSource[] };
   offering?: { values: string[]; detail?: string; sources?: BmSource[] };
-  roles?: Partial<Record<'developer' | 'mah' | 'seller' | 'operator' | 'brandOwner' | 'operatorUser' | 'outputUser' | 'subject' | 'supplier' | 'recommender' | 'contractor' | 'directPayer' | 'finalBearer', string[]>> & { sources?: BmSource[] };
+  roles?: Partial<Record<'developer' | 'mah' | 'seller' | 'operator' | 'brandOwner' | 'operatorUser' | 'outputUser' | 'subject' | 'supplier' | 'recommender' | 'contractor' | 'directPayer' | 'finalBearer' | 'userPaysTo', string[]>> & { sources?: BmSource[] };
   /** values は資料で確かめた収入の種類。unknown は分かっていない部分、past は終わった収入 */
-  revenue?: { values: string[]; detail?: string; unknown?: string; past?: string; customerRecovery?: string[]; recoveryDetail?: string; sources?: BmSource[] };
+  revenue?: { values: string[]; productSales?: string; detail?: string; unknown?: string; past?: string; customerRecovery?: string[]; recoveryDetail?: string; sources?: BmSource[] };
   /** 販売経路：最初の契約・販売先（集計の基本）／取引形態／利用者への届け方 */
   channel?: { first: string[]; deal: string[]; delivery: string[]; detail?: string; sources?: BmSource[] };
   /** いまの姿が未確認・終了のとき、最後に確認できたモデルの時点 */
@@ -366,8 +381,8 @@ export type BusinessModel = {
   regulatory?: { values: string[]; detail?: string; sources?: BmSource[] };
   reimbursement?: { values: string[]; detail?: string; sources?: BmSource[] };
   stage?: { value: string; sources?: BmSource[] };
-  activity?: { value: string; detail?: string; sources?: BmSource[] };
+  activity?: { value: string; detail?: string; signals?: string[]; guess?: string; sources?: BmSource[] };
   periods?: { t: string; what?: string; user?: string; pay?: string; bear?: string; channel?: string }[];
   plan?: string;
-  adoption?: { metric: string; definition?: string; scope?: string; value: string; asOf?: string; source?: BmSource; ref?: boolean }[];
+  adoption?: { metric: string; definition?: string; scope?: string; value: string; asOf?: string; source?: BmSource; ref?: boolean; status?: '非公表' | '資料未取得' | '取得したが読み取り未完了' }[];
 };

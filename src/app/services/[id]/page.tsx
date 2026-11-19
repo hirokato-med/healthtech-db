@@ -1,4 +1,4 @@
-import { statusLabel } from '@/lib/status';
+import { statusLabel, statusClass, pastLine } from '@/lib/status';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { withBase } from '@/lib/base';
@@ -46,7 +46,11 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
         <div className="kicker">Business</div>
         <h1>{s.name}</h1>
         <p className="svc-provider">{s.companyId ? <Link href={`/companies/${s.companyId}/`}>{s.company}</Link> : s.company}の事業</p>
-        <div className="chips" style={{ marginTop: 10 }}><span className={`badge st-${s.status}`}>{statusLabel(s)}</span>{s.status === '準備中' && <StageBadge stage={s.stage} />}<DeviceTag s={s} /><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
+        <div className="state-line" style={{ marginTop: 10 }}>
+          <div><i>現在の提供状況</i><span className={`badge st-${statusClass(s)}`}>{statusLabel(s)}</span>{s.status === '準備中' && <StageBadge stage={s.stage} />}</div>
+          {pastLine(s) && <div><i>過去の出来事</i><span>{pastLine(s)}</span></div>}
+        </div>
+        <div className="chips" style={{ marginTop: 8 }}><DeviceTag s={s} /><Link href={`/categories/${s.category}/`} className="chip">{categoryName(s.category)}</Link></div>
         <p className="lead">{s.description}</p>
         {s.kind === 'contract' && s.relatedServiceId && (() => { const r = getService(s.relatedServiceId!); return r ? <p className="co-scope"><b>契約の記録</b>これは製品そのものではなく、提携・販売権の契約の記録です。製品のページ：<Link href={`/services/${r.id}/`}>{r.name}</Link>（{statusLabel(r)}）</p> : null; })()}
       </div>
@@ -66,6 +70,14 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
               {s.successor && <p className="small"><b>引き継ぎ先：</b>{s.successor}</p>}
             </section>
           )}
+          {['提供中', '準備中', '不明'].includes(s.status) && s.pastEvents?.length ? (
+            <section className="panel">
+              <h3>過去の出来事</h3>
+              <ul className="co-history">{s.pastEvents.map((e) => <li key={e.date + e.text}><span>{ym(e.date)}</span>{e.text}{e.source && <> <a href={e.source} target="_blank" rel="noopener noreferrer" className="small">出典</a></>}</li>)}</ul>
+              {s.endReasons?.length ? <><p className="small" style={{ marginTop: 8 }}><b>出来事の理由（資料にあるもの）：</b>{s.endReasons.map((r) => END_REASONS[r]?.label ?? r).join('・')}{s.endReasonInfo?.inferred?.length ? `（推定を含む：${s.endReasonInfo.inferred.map((r) => END_REASONS[r]?.label ?? r).join('・')}）` : ''}</p>{s.endReasonNote && <p className="small">{s.endReasonNote}</p>}</> : null}
+              <p className="small muted">いまも提供が続いているため、止まった事業の件数には入れていません。</p>
+            </section>
+          ) : null}
           {s.suspension?.temporary && (
             <section className="panel plan-panel">
               <h3>一時停止中</h3>
@@ -121,7 +133,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
                   <div className="row" key={x.id} style={{ gridTemplateColumns: '1fr' }}>
                     <div>
                       <Link href={`/services/${x.id}/`}>{x.name}</Link>
-                      <div className="sub"><span>{x.company}</span><span className={`badge st-${x.status}`}>{statusLabel(x)}</span></div>
+                      <div className="sub"><span>{x.company}</span><span className={`badge st-${statusClass(x)}`}>{statusLabel(x)}</span></div>
                     </div>
                   </div>
                 ))}
@@ -136,7 +148,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
               <dt>提供企業</dt><dd>{company ? <Link href={`/companies/${company.id}/`}>{company.name}</Link> : s.company}</dd>
               {s.hp && (<><dt>Webサイト</dt><dd><a href={s.hp} target="_blank" rel="noreferrer">{s.hp.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a></dd></>)}
               {(s.startedAt || s.startedYear) && (<><dt>開始</dt><dd>{ym(s.startedAt) || `${s.startedYear}年`}</dd></>)}
-              <dt>状態</dt><dd><span className={`badge st-${s.status}`}>{statusLabel(s)}</span>{s.endedAt ? <span className="small muted">（{ym(s.endedAt)}）</span> : null}{s.plannedEnd && !s.plannedEnd.confirmedAt ? <span className="small muted">（{ymd(s.plannedEnd.date)}に{s.plannedEnd.kind}予定）</span> : null}</dd>
+              <dt>状態</dt><dd><span className={`badge st-${statusClass(s)}`}>{statusLabel(s)}</span>{s.endedAt ? <span className="small muted">（{ym(s.endedAt)}）</span> : null}{s.plannedEnd && !s.plannedEnd.confirmedAt ? <span className="small muted">（{ymd(s.plannedEnd.date)}に{s.plannedEnd.kind}予定）</span> : null}</dd>
             </dl>
           </section>
           {s.sources?.length ? (
