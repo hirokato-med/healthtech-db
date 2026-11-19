@@ -3,3 +3,13 @@ const THIS_MONTH = new Date().toISOString().slice(0, 7);
 export const isFuture = (s?: string) => !!s && s.slice(0, 7) > THIS_MONTH;
 export const ym = (s?: string) =>
   s ? s.replace(/^(\d{4})-(\d{2}).*$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年') + (isFuture(s) ? '（予定）' : '') : '';
+/** 本文の中の ISO 形式の日付（2022-04-01・2022-04）を「2022年4月1日」「2022年4月」に直す。URL・番号の一部は変えない。日本語に挟まれた前後の空白も詰める */
+export const jpDates = (t?: string) =>
+  t
+    ? t
+        .replace(/(?<![\w/.\-])((?:19|20)\d{2})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])(?![\w\-])/g, (_, y, m, d) => `\u0001${y}年${Number(m)}月${Number(d)}日\u0002`)
+        .replace(/(?<![\w/.\-])((?:19|20)\d{2})-(0[1-9]|1[0-2])(?![\w\-])/g, (_, y, m) => `\u0001${y}年${Number(m)}月\u0002`)
+        .replace(/(?<=[^\x00-\x7F]) \u0001/g, '\u0001')
+        .replace(/\u0002 (?=[^\x00-\x7F])/g, '\u0002')
+        .replace(/[\u0001\u0002]/g, '')
+    : '';

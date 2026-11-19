@@ -317,7 +317,7 @@
     "companyId": "2011001099036",
     "device": {
       "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30100BZX00142000_A_01",
-      "genericName": "X線画像診断装置ワークステーション用プログラム",
+      "genericName": "MR装置ワークステーション用プログラム",
       "maker": "エルピクセル株式会社",
       "salesName": "医用画像解析ソフトウェア　EIRL　aneurysm",
       "insertUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/171955_30100BZX00142000_A_01_07",
@@ -327,7 +327,8 @@
       "regulatoryClass": "管理医療機器",
       "classLabel": "クラスII",
       "category": "プログラム 01 疾病診断用プログラム",
-      "checkedAt": "2026-10"
+      "checkedAt": "2026-10",
+      "jmdn": "40940012"
     },
     "kind": "group",
     "members": [
@@ -3145,7 +3146,7 @@
     },
     "after": {
       "event": "契約終了",
-      "fate": "製品は提供継続（メドレーが単独で提供。clinics）",
+      "fate": "製品は提供継続（メドレーが単独で提供）",
       "asOf": "2026-11",
       "sourceDate": "2024-02"
     },
@@ -25168,16 +25169,14 @@
     "category": "surgical-support",
     "description": "オリンパスと共同開発した、腹腔鏡下胆嚢摘出術を支援する手術支援AI（医療機器）。手術中に切除部位の判断の目安となる解剖学的ランドマークを画像上に示す。2026年2月に製造販売承認を取得した。",
     "hp": "https://prtimes.jp/main/html/rd/p/000000093.000010005.html",
-    "startedYear": 2026,
-    "status": "提供中",
-    "startedAt": "2026-02",
+    "status": "準備中",
     "sources": [
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30800BZX00052000_A_01",
       "https://prtimes.jp/main/html/rd/p/000000093.000010005.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "type": "surgical-ai",
-    "startBasis": "医療機器製造販売承認を取得（2026年2月、2026-05-19発表）",
+    "startBasis": "発売は未確認（2026-02 に製造販売承認。2026-05-19 の発表に「販売準備が完了次第、改めてお知らせ」。2026-11-19 時点で EIRL の製品ラインナップと会社のお知らせに発売の告知なし）",
     "milestones": [
       {
         "date": "2026-02-20",
@@ -25204,7 +25203,8 @@
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
     },
-    "groupId": "eirl"
+    "groupId": "eirl",
+    "stage": "承認取得済み・発売準備中"
   },
   {
     "id": "b-cf0d49c1",
@@ -34890,7 +34890,6 @@
     "category": "medical-device",
     "description": "片頭痛の患者向けに、認知行動療法（CBT）を作用機序とする治療用アプリ（医療機器プログラム）。2025年に検証的治験（jRCT2032250497）を始めたが、2026年3月11日に中止した。医療機器としての承認は受けていない。",
     "hp": "https://h-medtech.com/",
-    "startedYear": 2025,
     "status": "準備中",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000023.000099334.html",
@@ -34900,7 +34899,6 @@
     ],
     "updatedAt": "2026-11",
     "type": "digital-therapeutics",
-    "startedAt": "2025-12",
     "milestones": [
       {
         "date": "2025-09-25",
@@ -101957,7 +101955,7 @@
     "company": "Hatch Healthcare株式会社",
     "category": "telemedicine",
     "description": "病院がセカンドオピニオン外来をオンラインで受け付け・実施できるウェブ面談システム。筑波大学附属病院陽子線治療センターや国立がん研究センター中央病院（共同開発）などが採用。",
-    "hp": "https://www.specialist-doctor.com/",
+    "hp": "https://www.findme.life/so/hospital/ncch",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2020-08",
@@ -109226,7 +109224,7 @@
     "companyId": "7010001087640",
     "category": "telemedicine",
     "description": "医療機関向けのオンライン診療システム。新型コロナの流行が続く2020年10月に、MDVが病院経営支援・診療データ事業に加えてリリースした。",
-    "hp": "https://www.online-drbank.jp/",
+    "hp": "https://web.archive.org/web/20220527222814/https://www.online-drbank.jp/",
     "startedYear": 2020,
     "status": "不明",
     "startedAt": "2020-10",
@@ -123048,7 +123046,7 @@
   },
   {
     "id": "b-5484e79f",
-    "name": "EIRL Chest CT（医用画像解析ソフトウェア EIRL Chest CT／Chest CT2）",
+    "name": "EIRL Chest CT Basic（医用画像解析ソフトウェア EIRL Chest CT／Chest CT2）",
     "company": "エルピクセル株式会社",
     "companyId": "2011001099036",
     "category": "medical-image",
