@@ -13,7 +13,8 @@
     "search:index": "node scripts/build-search-index.mjs",
     "prebuild": "node scripts/check-models.mjs && node scripts/build-relations.mjs && node scripts/build-search-index.mjs && node scripts/build-investors.mjs",
     "check": "node scripts/check-data.mjs",
-    "test:search": "node --no-warnings scripts/test-search.mjs"
+    "test:search": "node --no-warnings scripts/test-search.mjs",
+    "test:dates": "node --no-warnings scripts/test-dates.mjs"
   },
   "dependencies": {
     "d3-force": "^3.0.0",
