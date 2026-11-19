@@ -914,34 +914,6 @@
         "note": "Wikipedia だけ。SEC の資料は開けなかった"
       },
       {
-        "key": "listing",
-        "value": "Nasdaq（ATHN）、2007年9月20日に IPO 完了（公開価格18ドル）",
-        "sources": [
-          {
-            "url": "https://en.wikipedia.org/wiki/Athenahealth",
-            "kind": "wikipedia",
-            "publisher": "Wikipedia"
-          }
-        ],
-        "status": "reference",
-        "eventDate": "2007-09-20",
-        "note": "Wikipedia。前の出典の SEC 10-K（2008年3月）は、今回の確認環境では SEC EDGAR の自動取得が拒否されて開けなかった"
-      },
-      {
-        "key": "acquisitionAgreement",
-        "value": "Veritas Capital と Elliott 系の Evergreen Coast Capital が買収することで合意",
-        "sources": [
-          {
-            "url": "https://medcitynews.com/2018/11/athenahealth-veritas-capital-elliott-management/",
-            "kind": "news",
-            "published": "2018-11-12",
-            "publisher": "MedCity News"
-          }
-        ],
-        "status": "confirmed",
-        "eventDate": "2018-11-12"
-      },
-      {
         "key": "figure",
         "value": "Veritas などによる買収価格 1株135ドル",
         "sources": [
@@ -976,50 +948,6 @@
         "eventDate": "2018-11-12"
       },
       {
-        "key": "acquisitionCompleted",
-        "value": "Veritas Capital と Evergreen Coast Capital による買収が完了し、非公開化",
-        "sources": [
-          {
-            "url": "https://www.healthcaredive.com/news/athenahealths-57b-acquisition-finalized/548206/",
-            "kind": "news",
-            "published": "2019-02-12",
-            "publisher": "Healthcare Dive"
-          }
-        ],
-        "status": "confirmed",
-        "eventDate": "2019-02-11",
-        "note": "2019年2月12日付の記事に「the companies announced Monday」とあり、2月11日にあたる。SEC 8-K（2019-02-11）は、今回の確認環境では SEC EDGAR の自動取得が拒否されて開けなかった"
-      },
-      {
-        "key": "delisting",
-        "value": "買収完了により Nasdaq での取引を終了",
-        "sources": [
-          {
-            "url": "https://en.wikipedia.org/wiki/Athenahealth",
-            "kind": "wikipedia",
-            "publisher": "Wikipedia"
-          }
-        ],
-        "status": "reference",
-        "eventDate": "2019-02",
-        "note": "Wikipedia は「2019年に非公開化されるまで ATHN で取引」（要出典の表示つき）。SEC 8-K は開けなかった"
-      },
-      {
-        "key": "acquisitionCompleted",
-        "value": "Hellman & Friedman と Bain Capital が Veritas からの取得を完了",
-        "sources": [
-          {
-            "url": "https://www.milbank.com/en/news/milbank-advises-veritas-capital-on-successful-completion-of-sale-of-athenahealth-to-hellman-and-friedman-and-bain-capital-for-dollar17b.html",
-            "kind": "news",
-            "published": "2022-02-15",
-            "publisher": "Milbank"
-          }
-        ],
-        "status": "confirmed",
-        "eventDate": "2022-02",
-        "note": "売り手 Veritas の法律顧問 Milbank による2022年2月15日付の発表"
-      },
-      {
         "key": "figure",
         "value": "Hellman & Friedman と Bain Capital による取得額 約170億ドル",
         "sources": [
@@ -1045,6 +973,121 @@
         ],
         "status": "unverified",
         "note": "2026-11-19 に確認しようとしたが、公式サイトがアクセス拒否（Access Denied）で開けなかった"
+      },
+      {
+        "key": "listing",
+        "value": "Nasdaq Global Market（ATHN）、2007年9月20日に取引開始（IPO 公開価格18ドル）",
+        "eventDate": "2007-09-20",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1131096/000095013508001648/b68188aie10vk.htm",
+            "kind": "sec",
+            "published": "2008-03-07",
+            "publisher": "athenahealth（SEC 10-K 2007年度）"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Athenahealth",
+            "kind": "wikipedia",
+            "publisher": "Wikipedia"
+          }
+        ],
+        "note": "10-K の表紙に「Trading of the registrant's Common Stock on The NASDAQ Global Market did not commence until September 20, 2007」、Item 5 に「Our common stock has been listed on the NASDAQ Global Market under the trading symbol \"ATHN\" since our initial public offering on September 20, 2007」。公開価格18ドルは Wikipedia だけ（今回は 424B4 を開いていない）",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "acquisitionAgreement",
+        "value": "Veritas Capital と Elliott 系の Evergreen Coast Capital が支配する May Holding Corp. と合併契約を締結（1株135ドル）",
+        "eventDate": "2018-11-11",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1131096/000119312518324791/d644492d8k.htm",
+            "kind": "sec",
+            "published": "2018-11-13",
+            "publisher": "athenahealth（SEC 8-K）"
+          },
+          {
+            "url": "https://medcitynews.com/2018/11/athenahealth-veritas-capital-elliott-management/",
+            "kind": "news",
+            "published": "2018-11-12",
+            "publisher": "MedCity News"
+          }
+        ],
+        "note": "8-K に「On November 11, 2018 athenahealth, Inc. ..., May Holding Corp. ... and May Merger Sub Inc. ... entered into an Agreement and Plan of Merger」「$135.00 per Share in cash」。契約日は11月11日（日曜）で、発表は11月12日。今のデータの eventDate 2018-11-12 は発表日にあたる",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "acquisitionCompleted",
+        "value": "Veritas Capital と Evergreen Coast Capital が支配する親会社との合併が完了し、非公開化",
+        "eventDate": "2019-02-11",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1131096/000113109619000010/form8-kclosing.htm",
+            "kind": "sec",
+            "published": "2019-02-11",
+            "publisher": "athenahealth（SEC 8-K）"
+          },
+          {
+            "url": "https://www.healthcaredive.com/news/athenahealths-57b-acquisition-finalized/548206/",
+            "kind": "news",
+            "published": "2019-02-12",
+            "publisher": "Healthcare Dive"
+          }
+        ],
+        "note": "8-K に「On February 11, 2019, athenahealth, Inc. ... completed its previously announced merger」「Parent is controlled by investment funds controlled by Veritas Capital Fund Management, L.L.C. (\"Veritas\") and Evergreen Coast Capital (\"Evergreen\")」",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "delisting",
+        "value": "合併完了により Nasdaq での取引を停止し、Form 25 で上場廃止",
+        "eventDate": "2019-02-11",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1131096/000135445719000065/xslF25X02/primary_doc.xml",
+            "kind": "sec",
+            "published": "2019-02-11",
+            "publisher": "The Nasdaq Stock Market（SEC Form 25）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1131096/000113109619000010/form8-kclosing.htm",
+            "kind": "sec",
+            "published": "2019-02-11",
+            "publisher": "athenahealth（SEC 8-K）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1131096/000119312519047124/d686908d1512b.htm",
+            "kind": "sec",
+            "published": "2019-02-21",
+            "publisher": "athenahealth（SEC Form 15）"
+          }
+        ],
+        "note": "Form 25「NOTIFICATION OF REMOVAL FROM LISTING ... Issuer: ATHENAHEALTH INC Exchange: The Nasdaq Stock Market LLC」（2019-02-11 提出）。8-K に「trading of the Shares on NASDAQ will be suspended following the closing of trading on the Closing Date」。登録の取り消しは Form 15（2019-02-21）",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "acquisitionCompleted",
+        "value": "Hellman & Friedman と Bain Capital が Veritas Capital・Evergreen Coast Capital からの取得を完了（170億ドル）",
+        "eventDate": "2022-02-15",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.dotmed.com/news/story/57167?lang=en",
+            "kind": "news",
+            "published": "2022-02-16",
+            "publisher": "DOTmed HealthCare Business News"
+          },
+          {
+            "url": "https://www.milbank.com/en/news/milbank-advises-veritas-capital-on-successful-completion-of-sale-of-athenahealth-to-hellman-and-friedman-and-bain-capital-for-dollar17b.html",
+            "kind": "news",
+            "published": "2022-02-15",
+            "publisher": "Milbank"
+          }
+        ],
+        "note": "DOTmed（2022-02-16）に「Affiliates of Hellman & Friedman and Bain Capital have completed their acquisition of athenahealth for $17 billion」。Milbank（2022-02-15）の見出しは「Successful Completion of Sale of athenahealth to Hellman & Friedman and Bain Capital for $17B」。会社の Business Wire 発表（2022-02-15）は今回の環境では本文を取得できなかった",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -1453,22 +1496,6 @@
         "status": "reference"
       },
       {
-        "key": "listing",
-        "value": "Nasdaq Global Select Market（PTON）、2019年9月26日に取引開始",
-        "sources": [
-          {
-            "url": "https://prnewswire.com/news-releases/peloton-announces-pricing-of-initial-public-offering-300925649.html",
-            "kind": "official",
-            "published": "2019-09-25",
-            "publisher": "Peloton Interactive（PR Newswire）"
-          }
-        ],
-        "status": "reference",
-        "eventDate": "2019-09-26",
-        "note": "価格決定の発表には「取引開始の見込み」として書かれている",
-        "downgraded": "出典は価格決定の発表で「The shares are expected to begin trading on the Nasdaq Global Select Market on September 26, 2019」と予定として書いているだけ。実際に取引が始まったことは書いていないため、取引開始を確定扱いにする裏づけにはならない。"
-      },
-      {
         "key": "figure",
         "value": "IPO 公開価格 1株29ドル",
         "sources": [
@@ -1536,6 +1563,28 @@
         ],
         "status": "confirmed",
         "note": "2026-11-19 に確認。公式サイトで製品を販売中。SEC 10-K（2026-08）は開けなかったので外した"
+      },
+      {
+        "key": "listing",
+        "value": "Nasdaq Global Select Market（PTON、Class A 普通株）、2019年9月26日に取引開始",
+        "eventDate": "2019-09-26",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1639825/000163982520000122/pton-20200630.htm",
+            "kind": "sec",
+            "published": "2020-09-11",
+            "publisher": "Peloton Interactive（SEC 10-K 2020年6月期）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1639825/000163982526000038/pton-20260630.htm",
+            "kind": "sec",
+            "published": "2026-08-06",
+            "publisher": "Peloton Interactive（SEC 10-K 2026年6月期）"
+          }
+        ],
+        "note": "2020年6月期 10-K の Item 5 に「Our Class A common stock began trading on the Nasdaq Global Select Market under the symbol \"PTON\" on September 26, 2019」。2026年8月提出の最新 10-K の表紙でも「PTON The Nasdaq Stock Market LLC」で、いまも上場。価格決定の発表（予定の記載）は取引開始の裏づけにしない",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -1708,41 +1757,6 @@
         "note": "MIT Sloan に「co-founded by MIT Sloan alumnus Elliot Cohen」"
       },
       {
-        "key": "acquisitionAgreement",
-        "value": "Amazon が PillPack を買収する契約を締結（金額は非開示）",
-        "sources": [
-          {
-            "url": "https://press.aboutamazon.com/2018/6/amazon-to-acquire-pillpack",
-            "kind": "official",
-            "published": "2018-06-28",
-            "publisher": "Amazon"
-          },
-          {
-            "url": "https://techcrunch.com/2018/06/28/amazon-buys-pillpack-an-online-pharmacy-that-was-rumored-to-be-talking-to-walmart/",
-            "kind": "news",
-            "published": "2018-06-28",
-            "publisher": "TechCrunch"
-          }
-        ],
-        "status": "confirmed",
-        "eventDate": "2018-06-28",
-        "note": "TechCrunch は関係者の話として「10億ドル弱」と報道"
-      },
-      {
-        "key": "acquisitionCompleted",
-        "value": "Amazon による買収が完了",
-        "sources": [
-          {
-            "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872418000159/amzn-20180930x10q.htm",
-            "kind": "sec",
-            "published": "2018-10-26"
-          }
-        ],
-        "status": "unverified",
-        "eventDate": "2018-09-11",
-        "note": "今回の確認環境では SEC EDGAR の自動取得が拒否されて開けなかった。完了日を書いたほかの資料も今回は開けなかった（Becker's は閲覧がブロックされた）"
-      },
-      {
         "key": "figure",
         "value": "買収額 約7.53億ドル（現金、取得した現金を差し引いた額）",
         "sources": [
@@ -1782,6 +1796,44 @@
         ],
         "status": "confirmed",
         "note": "2026-11-19 に確認。サイトの告知に年は書かれていないが、確認した時期から見て2026年12月4日と読める。今の「事業継続」の表示を見直す必要があるかもしれない"
+      },
+      {
+        "key": "acquisitionAgreement",
+        "value": "Amazon が PillPack を買収する契約を締結（金額は非開示）",
+        "eventDate": "2018-06-28",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://press.aboutamazon.com/2018/6/amazon-to-acquire-pillpack",
+            "kind": "official",
+            "published": "2018-06-28",
+            "publisher": "Amazon"
+          },
+          {
+            "url": "https://techcrunch.com/2018/06/28/amazon-buys-pillpack-an-online-pharmacy-that-was-rumored-to-be-talking-to-walmart/",
+            "kind": "news",
+            "published": "2018-06-28",
+            "publisher": "TechCrunch"
+          }
+        ],
+        "note": "今のデータのまま（合意の発表）。今回は本文を開き直していない",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "acquisitionCompleted",
+        "value": "Amazon が2018年9月11日に PillPack を取得（現金約7億5,300万ドル、取得現金控除後）",
+        "eventDate": "2018-09-11",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872418000159/amzn-20180930x10q.htm",
+            "kind": "sec",
+            "published": "2018-10-26",
+            "publisher": "Amazon.com（SEC 10-Q 2018年第3四半期）"
+          }
+        ],
+        "note": "Amazon の 10-Q 注記4に「on September 11, 2018, we acquired PillPack, Inc. (\"PillPack\") for cash consideration of approximately $753 million, net of cash acquired」",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -1945,22 +1997,6 @@
         "note": "Adrian James と同じ"
       },
       {
-        "key": "listing",
-        "value": "Nasdaq Global Select Market（OMDA）、2025年6月6日に取引開始",
-        "sources": [
-          {
-            "url": "https://www.omadahealth.com/resource-center/omada-health-announces-pricing-of-initial-public-offering",
-            "kind": "official",
-            "published": "2025-06-05",
-            "publisher": "Omada Health"
-          }
-        ],
-        "status": "reference",
-        "eventDate": "2025-06-06",
-        "note": "価格決定の発表に「取引開始の見込み」として書かれている。前の出典の 424B4 は、今回の確認環境では SEC EDGAR の自動取得が拒否されて開けなかった",
-        "downgraded": "Omada の価格決定の発表（2025-06-05）は「expected to begin trading on the Nasdaq Global Select Market on June 6, 2025, under the ticker symbol “OMDA.”」と予定として書いているだけで、取引が実際に始まったことは書いていない。"
-      },
-      {
         "key": "figure",
         "value": "IPO 公開価格 1株19ドル",
         "sources": [
@@ -2015,6 +2051,28 @@
         ],
         "status": "confirmed",
         "note": "2026-11-19 に確認。SEC の決算発表（2026-11）は開けなかったので外した"
+      },
+      {
+        "key": "listing",
+        "value": "Nasdaq（OMDA）、2025年6月6日に取引開始、6月9日に IPO 完了（公開価格19ドル）",
+        "eventDate": "2025-06-06",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1611115/000162828026015637/omda-20251231.htm",
+            "kind": "sec",
+            "published": "2026-03-06",
+            "publisher": "Omada Health（SEC 10-K 2025年度）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1611115/000119312525137809/d24316d8k.htm",
+            "kind": "sec",
+            "published": "2025-06-09",
+            "publisher": "Omada Health（SEC 8-K）"
+          }
+        ],
+        "note": "10-K の表紙に「Common stock ... OMDA The Nasdaq Stock Market LLC」、Item 5 に「Omada common stock is traded on Nasdaq, under the symbol \"OMDA.\"」、「On June 9, 2025, we completed our IPO ... at a public offering price of $19.00 per share」。取引開始日は同じ 10-K の株価グラフ欄に「June 6, 2025 (the date that our common stock commenced trading on the NYSE)」とあり、日付はこれによる（取引所名を NYSE と書いているのは表紙・Item 5 の Nasdaq と食い違う 10-K 内の誤記とみられる）。8-K（2025-06-09）は「in connection with the closing of the initial public offering」",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -2199,25 +2257,6 @@
         "note": "Wikipedia は「1999年に合併」。月（11月）は前の出典の SEC 10-K（2000-03）によるもので、今回の確認環境では SEC EDGAR の自動取得が拒否されて開けなかった"
       },
       {
-        "key": "acquisitionAgreement",
-        "value": "KKR 傘下の Internet Brands が WebMD を買収する最終契約を締結",
-        "sources": [
-          {
-            "url": "https://www.webmd.com/corporate/press/20170724/webmd-be-acquired-kkrs-internet-brands",
-            "kind": "official",
-            "published": "2017-07-24",
-            "publisher": "WebMD"
-          },
-          {
-            "url": "https://en.wikipedia.org/wiki/WebMD",
-            "kind": "wikipedia",
-            "publisher": "Wikipedia"
-          }
-        ],
-        "status": "confirmed",
-        "eventDate": "2017-07-24"
-      },
-      {
         "key": "figure",
         "value": "買収価格 1株66.50ドル（現金、公開買付け）",
         "sources": [
@@ -2251,38 +2290,6 @@
         "eventDate": "2017-07-24"
       },
       {
-        "key": "acquisitionCompleted",
-        "value": "株式の公開買付けを完了し、同じ日に合併を終える見込みと発表",
-        "sources": [
-          {
-            "url": "https://www.webmd.com/corporate/press/20170915/internet-brands-kkr-portfolio-company-successfully-completes",
-            "kind": "official",
-            "published": "2017-09-15",
-            "publisher": "WebMD"
-          }
-        ],
-        "status": "reference",
-        "eventDate": "2017-09-15",
-        "note": "発表は「anticipate that they will complete the merger today」。合併が完了したことそのものを書いた SEC 書類は開けなかった",
-        "downgraded": "発表（2017-09-15）に書かれているのは公開買付けの完了（78.69%の応募）と「The parties anticipate that they will complete the merger today」という見込みだけ。合併、つまり買収そのものが完了したことは書いていないので、acquisitionCompleted として確定扱いにする裏づけにはならない。value の文言自体は出典と合っている。"
-      },
-      {
-        "key": "delisting",
-        "value": "合併完了により Nasdaq での取引を終了",
-        "sources": [
-          {
-            "url": "https://www.webmd.com/corporate/press/20170915/internet-brands-kkr-portfolio-company-successfully-completes",
-            "kind": "official",
-            "published": "2017-09-15",
-            "publisher": "WebMD"
-          }
-        ],
-        "status": "reference",
-        "eventDate": "2017-09-15",
-        "note": "発表には予定として「WebMD's common stock will cease trading on the NASDAQ」と書かれている",
-        "downgraded": "出典には「Upon completion of the merger ... WebMD's common stock will cease trading on the NASDAQ」と未来形の予定しか書かれていない。取引を実際に終えたことは書いていない。"
-      },
-      {
         "key": "activity",
         "value": "事業継続",
         "sources": [
@@ -2294,6 +2301,78 @@
         ],
         "status": "confirmed",
         "note": "2026-11-19 に確認"
+      },
+      {
+        "key": "acquisitionAgreement",
+        "value": "KKR 傘下の Internet Brands（MH Sub I, LLC）が WebMD を買収する合併契約を締結（1株66.50ドルの公開買付け）",
+        "eventDate": "2017-07-24",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.webmd.com/corporate/press/20170724/webmd-be-acquired-kkrs-internet-brands",
+            "kind": "official",
+            "published": "2017-07-24",
+            "publisher": "WebMD"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326583/000156761917001996/s001883x1_8k.htm",
+            "kind": "sec",
+            "published": "2017-09-15",
+            "publisher": "WebMD Health Corp.（SEC 8-K）"
+          }
+        ],
+        "note": "8-K に「WebMD entered into an Agreement and Plan of Merger ..., dated as of July 24, 2017, with MH Sub I, LLC」「at a purchase price of $66.50 per Share」",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "acquisitionCompleted",
+        "value": "公開買付けと合併が完了し、Internet Brands（KKR）の傘下に",
+        "eventDate": "2017-09-15",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326583/000156761917001996/s001883x1_8k.htm",
+            "kind": "sec",
+            "published": "2017-09-15",
+            "publisher": "WebMD Health Corp.（SEC 8-K）"
+          },
+          {
+            "url": "https://www.webmd.com/corporate/press/20170915/internet-brands-kkr-portfolio-company-successfully-completes",
+            "kind": "official",
+            "published": "2017-09-15",
+            "publisher": "WebMD"
+          }
+        ],
+        "note": "8-K に「on September 15, 2017, the Offer and the merger contemplated by the Merger Agreement (the \"Merger\") were consummated」。会社発表（同日）は合併完了を見込みとして書いているだけなので、完了の裏づけは 8-K",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "delisting",
+        "value": "合併完了により Nasdaq Global Select Market での取引を停止し、Form 25 で上場廃止",
+        "eventDate": "2017-09-15",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326583/000135445717000184/xslF25X02/primary_doc.xml",
+            "kind": "sec",
+            "published": "2017-09-15",
+            "publisher": "NASDAQ Stock Market（SEC Form 25）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326583/000156761917001996/s001883x1_8k.htm",
+            "kind": "sec",
+            "published": "2017-09-15",
+            "publisher": "WebMD Health Corp.（SEC 8-K）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326583/000156761917002065/s001900x1_1512b.htm",
+            "kind": "sec",
+            "published": "2017-09-25",
+            "publisher": "WebMD Health Corp.（SEC Form 15）"
+          }
+        ],
+        "note": "8-K Item 3.01 に「WebMD notified the NASDAQ Global Select Market ... of the consummation of the Merger and requested that Nasdaq suspend trading of the Shares effective at the close of business on September 15, 2017, and file with the SEC a Form 25」。Form 25「Issuer: WebMD Health Corp. Exchange: NASDAQ Stock Market LLC」は2017-09-15 提出。登録の取り消しは Form 15（2017-09-25）",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -2687,19 +2766,6 @@
         "note": "Globes に「UnitedHealth founder Richard Burke」"
       },
       {
-        "key": "listing",
-        "value": "NYSE（UNH）",
-        "sources": [
-          {
-            "url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
-            "kind": "wikipedia",
-            "publisher": "Wikipedia"
-          }
-        ],
-        "status": "reference",
-        "note": "Wikipedia の情報欄"
-      },
-      {
         "key": "event",
         "value": "Optum が Change Healthcare の買収（統合）を完了",
         "sources": [
@@ -2740,6 +2806,26 @@
         ],
         "status": "confirmed",
         "note": "2026-11-19 に確認"
+      },
+      {
+        "key": "listing",
+        "value": "NYSE（UNH）",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+            "kind": "sec",
+            "published": "2026-03-02",
+            "publisher": "UnitedHealth Group（SEC 10-K 2025年度）"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+            "kind": "wikipedia",
+            "publisher": "Wikipedia"
+          }
+        ],
+        "note": "2026年3月提出の 10-K の表紙に「Common Stock, $.01 par value UNH New York Stock Exchange」。上場を始めた日は今回確かめていない（eventDate なし）",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -3328,22 +3414,6 @@
         "note": "同じ項に「founder and chairman of … Livongo Health」"
       },
       {
-        "key": "listing",
-        "value": "Nasdaq Global Select Market（LVGO）、2019年7月25日に取引開始",
-        "sources": [
-          {
-            "url": "https://www.santelog.com/actualites-sante-nasdaq/livongo-announces-pricing-initial-public-offering",
-            "kind": "news",
-            "published": "2019-07-25",
-            "publisher": "santé log（GlobeNewswire で配信された Livongo の発表の転載）"
-          }
-        ],
-        "status": "reference",
-        "eventDate": "2019-07-25",
-        "note": "2019年7月24日付の価格決定の発表を転載したもの。「取引開始の見込み」として書かれている",
-        "downgraded": "転載された価格決定の発表（2019-07-24）は「The shares are expected to begin trading on The Nasdaq Global Select Market under the symbol “LVGO” on July 25, 2019」と予定として書いているだけで、取引開始の事実は書いていない。転載サイトなので一次性も弱い。"
-      },
-      {
         "key": "figure",
         "value": "IPO 公開価格 1株28ドル、公開株数1,268.7万株、調達総額 約3億5,520万ドル",
         "sources": [
@@ -3356,20 +3426,6 @@
         ],
         "status": "confirmed",
         "eventDate": "2019-07-24"
-      },
-      {
-        "key": "acquisitionAgreement",
-        "value": "Teladoc Health との合併で合意",
-        "sources": [
-          {
-            "url": "https://www.sec.gov/Archives/edgar/data/1639225/000119312520209830/d21936dex991.htm",
-            "kind": "sec",
-            "published": "2020-08-05"
-          }
-        ],
-        "status": "unverified",
-        "eventDate": "2020-08-05",
-        "note": "今回の確認環境では SEC EDGAR の自動取得が拒否されて開けなかった。合意日を書いたほかの資料も今回は開けなかった"
       },
       {
         "key": "figure",
@@ -3386,34 +3442,6 @@
         "note": "Wikipedia（Glen Tullman の項）に「sold to Teladoc Health for $18.5B」。Teladoc の項は完了時の取得額を139億ドルとしており、時点によって数字が違う"
       },
       {
-        "key": "acquisitionCompleted",
-        "value": "Teladoc Health との合併が完了",
-        "sources": [
-          {
-            "url": "https://en.wikipedia.org/wiki/Teladoc_Health",
-            "kind": "wikipedia",
-            "publisher": "Wikipedia"
-          }
-        ],
-        "status": "reference",
-        "eventDate": "2020-10",
-        "note": "Wikipedia に「In October 2020, Teladoc acquired … Livongo」。完了日（10月30日）を書いた SEC 8-K は、今回の確認環境では SEC EDGAR の自動取得が拒否されて開けなかった"
-      },
-      {
-        "key": "delisting",
-        "value": "合併完了に伴い Nasdaq 上場廃止を申請",
-        "sources": [
-          {
-            "url": "https://www.sec.gov/Archives/edgar/data/1639225/000110465920119767/tm2034497-3_8k.htm",
-            "kind": "sec",
-            "published": "2020-10-30"
-          }
-        ],
-        "status": "unverified",
-        "eventDate": "2020-10-30",
-        "note": "今回の確認環境では SEC EDGAR の自動取得が拒否されて開けなかった"
-      },
-      {
         "key": "activity",
         "value": "Teladoc Health の「Livongo by Teladoc Health」として糖尿病・高血圧などの管理サービスを提供",
         "sources": [
@@ -3425,6 +3453,87 @@
         ],
         "status": "confirmed",
         "note": "2026-11-19 に確認"
+      },
+      {
+        "key": "listing",
+        "value": "Nasdaq Global Select Market（LVGO）、2019年7月25日に取引開始",
+        "eventDate": "2019-07-25",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1639225/000162828020003960/lvgo-20191231x10k.htm",
+            "kind": "sec",
+            "published": "2020-03-24",
+            "publisher": "Livongo Health（SEC 10-K 2019年度）"
+          }
+        ],
+        "note": "10-K の Item 5 に「Our common stock began trading publicly on the Nasdaq Global Select Market under the ticker symbol \"LVGO\" on July 25, 2019」。転載サイトの価格決定の発表（予定の記載）はこの出典で置き換える",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "acquisitionAgreement",
+        "value": "Teladoc Health との合併契約を締結",
+        "eventDate": "2020-08-05",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1639225/000119312520209830/d21936d8k.htm",
+            "kind": "sec",
+            "published": "2020-08-05",
+            "publisher": "Livongo Health（SEC 8-K）"
+          }
+        ],
+        "note": "8-K に「On August 5, 2020, Livongo Health, Inc. (\"Livongo\") issued a joint press release with Teladoc Health ... announcing the execution of a Merger Agreement ..., made and entered into as of August 5, 2020」。今のデータの ex99.1（共同発表）の URL も応答はあるが本文は抽出できなかったため、8-K 本体を出典にした",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "acquisitionCompleted",
+        "value": "Teladoc Health との合併が完了し、Teladoc の完全子会社に",
+        "eventDate": "2020-10-30",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1639225/000110465920119767/tm2034497-3_8k.htm",
+            "kind": "sec",
+            "published": "2020-10-30",
+            "publisher": "Livongo Health（SEC 8-K）"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Teladoc_Health",
+            "kind": "wikipedia",
+            "publisher": "Wikipedia"
+          }
+        ],
+        "note": "8-K に「on October 30, 2020 (the \"Closing Date\"), Merger Sub merged with and into Livongo, with Livongo surviving as a wholly-owned subsidiary of Teladoc ... On the Closing Date, the Merger was completed」",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "delisting",
+        "value": "合併完了に伴い Nasdaq での取引を停止し、Form 25 で上場廃止",
+        "eventDate": "2020-10-30",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1639225/000135445720000658/xslF25X02/primary_doc.xml",
+            "kind": "sec",
+            "published": "2020-10-30",
+            "publisher": "The Nasdaq Stock Market（SEC Form 25）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1639225/000110465920119767/tm2034497-3_8k.htm",
+            "kind": "sec",
+            "published": "2020-10-30",
+            "publisher": "Livongo Health（SEC 8-K）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1639225/000110465920123100/tm2035362d1_1512b.htm",
+            "kind": "sec",
+            "published": "2020-11-09",
+            "publisher": "Livongo Health（SEC Form 15）"
+          }
+        ],
+        "note": "8-K Item 3.01 に「Livongo notified The Nasdaq Global Select Market ... that the Merger had been consummated and requested that the trading of Livongo Common Stock on Nasdaq be suspended prior to market open on October 30, 2020」。Form 25「Issuer: Livongo Health, Inc. Exchange: The Nasdaq Stock Market LLC」は2020-10-30 提出。Form 15 は2020-11-09",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -11740,22 +11849,6 @@
         "note": "\"iRhythm Technologies, Inc. Uday N. Kumar Founder\"。目論見書には株主としての記載しかなく創業者とは書かれていないため外した"
       },
       {
-        "key": "listing",
-        "value": "Nasdaq（ティッカー IRTC）に IPO で上場",
-        "eventDate": "2016-10",
-        "status": "reference",
-        "sources": [
-          {
-            "url": "https://www.sec.gov/Archives/edgar/data/1388658/000119312516742826/d941976d424b4.htm",
-            "kind": "sec",
-            "published": "2016-10-20",
-            "publisher": "iRhythm Technologies（目論見書 424B4）"
-          }
-        ],
-        "note": "目論見書の日付は2016年10月19日、株式の受け渡しは10月25日ごろ。取引開始日そのものは資料にないため月までにした",
-        "downgraded": "付いている目論見書 424B4 (October 19, 2016) は 'has been approved for quotation on The NASDAQ Stock Market under the symbol \"IRTC\"' と、株式の受け渡しが 'on or about October 25, 2016' の見込みと書いているだけ。上場や取引が実際に始まったことは書いていない（Veeva と違い、上場後の確認資料も付いていない）。2016年度の 10-K (https://www.sec.gov/Archives/edgar/data/1388658/000156459017005767/irtc-10k_20161231.htm) には 'Our common stock began being traded on The NASDAQ Global Market under the symbol \"IRTC\" on October 20, 2016' とある。これを加えれば確定にでき、日付も 2016-10-20 まで細かくできる。"
-      },
-      {
         "key": "figure",
         "value": "IPO 公開価格 1株17ドル",
         "eventDate": "2016-10",
@@ -11781,6 +11874,34 @@
           }
         ],
         "note": "2026-11-19 に確認"
+      },
+      {
+        "key": "listing",
+        "value": "NASDAQ Global Market（IRTC）、2016年10月20日に取引開始",
+        "eventDate": "2016-10-20",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1388658/000156459017005767/irtc-10k_20161231.htm",
+            "kind": "sec",
+            "published": "2017-02",
+            "publisher": "iRhythm Technologies（SEC 10-K 2016年度）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1388658/000138865826000011/irtc-20251231.htm",
+            "kind": "sec",
+            "published": "2026-02-19",
+            "publisher": "iRhythm Holdings（SEC 10-K 2025年度）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1388658/000119312516742826/d941976d424b4.htm",
+            "kind": "sec",
+            "published": "2016-10-20",
+            "publisher": "iRhythm Technologies（目論見書 424B4）"
+          }
+        ],
+        "note": "2016年度 10-K の Item 5 に「Our common stock began being traded on The NASDAQ Global Market under the symbol \"IRTC\" on October 20, 2016」。最新 10-K（2026-02-19）の表紙も「IRTC The Nasdaq Stock Market」でいまも上場。ただし2026年1月12日に持株会社化し、上場・登録の主体は iRhythm Holdings, Inc.（「iRhythm Holdings ... became the parent company of, and the successor issuer and registrant to, iRhythm Technologies」）に移っている",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -13795,22 +13916,6 @@
         ]
       },
       {
-        "key": "listing",
-        "value": "NYSE（DOCS）。IPO の公開価格は1株26ドル",
-        "eventDate": "2021-06",
-        "status": "reference",
-        "note": "424B4 には上場の承認と価格が書かれているが、取引を始めた日は書かれていない",
-        "sources": [
-          {
-            "url": "https://www.sec.gov/Archives/edgar/data/1516513/000162828021012935/doximity-424b4.htm",
-            "kind": "sec",
-            "publisher": "Doximity（SEC 424B4）",
-            "published": "2021-06-25"
-          }
-        ],
-        "downgraded": "424B4 に書かれているのは「We have been approved to list our Class A common stock on the New York Stock Exchange under the symbol “DOCS.”」と、公開価格26.00ドル（目論見書は2021年6月23日付、受け渡しは6月28日）まで。上場の承認と価格の決定であって、取引が始まったこと・上場が完了したことは書かれていない（承認は合意の発表と同じ段階）。確定にするには、取引開始や IPO の完了を書いた出典（8-K や会社の発表、取引所の告知）が必要。"
-      },
-      {
         "key": "figure",
         "value": "IPO で売り出した株 2,330万株（会社分 19,010,750株、既存株主の売出し 4,289,250株）。26ドルで計算すると総額 約6億600万ドル、うち会社分 約4億9,400万ドル",
         "eventDate": "2021-06",
@@ -13837,6 +13942,34 @@
             "publisher": "Doximity"
           }
         ]
+      },
+      {
+        "key": "listing",
+        "value": "NYSE（DOCS、Class A 普通株）、2021年6月24日に取引開始（IPO 公開価格1株26ドル）",
+        "eventDate": "2021-06-24",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1516513/000151651322000037/docs-20220331.htm",
+            "kind": "sec",
+            "published": "2022-05-27",
+            "publisher": "Doximity（SEC 10-K 2022年3月期）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1516513/000151651326000025/docs-20260331.htm",
+            "kind": "sec",
+            "published": "2026-05-19",
+            "publisher": "Doximity（SEC 10-K 2026年3月期）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1516513/000162828021012935/doximity-424b4.htm",
+            "kind": "sec",
+            "published": "2021-06-25",
+            "publisher": "Doximity（SEC 424B4）"
+          }
+        ],
+        "note": "2022年3月期 10-K の Item 5 に「Our Class A common stock is listed on the New York Stock Exchange, or NYSE, under the symbol \"DOCS\" and began trading on June 24, 2021」。最新 10-K（2026-05-19）の表紙も「DOCS The New York Stock Exchange」。公開価格26ドルは 424B4 による",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -14741,22 +14874,6 @@
         ]
       },
       {
-        "key": "listing",
-        "value": "Nasdaq Global Select Market（GDRX）。IPO の公開価格は1株33ドル",
-        "eventDate": "2020-09",
-        "status": "reference",
-        "note": "目論見書の日付は2020年9月22日、株の受け渡しは9月25日ごろ。取引を始めた日は 424B4 には書かれていない",
-        "sources": [
-          {
-            "url": "https://www.sec.gov/Archives/edgar/data/1809519/000119312520253358/d949310d424b4.htm",
-            "kind": "sec",
-            "publisher": "GoodRx Holdings（SEC 424B4）",
-            "published": "2020-09-24"
-          }
-        ],
-        "downgraded": "424B4 に書かれているのは「has been approved for listing on the Nasdaq Global Select Market under the symbol “GDRX.”」と公開価格33.00ドル（目論見書は2020年9月22日付、受け渡しは9月25日）まで。上場の承認と価格の決定の段階で、取引が始まったこと・上場が完了したことは書かれていない。確定にするには、取引開始や IPO の完了を書いた出典が必要。"
-      },
-      {
         "key": "figure",
         "value": "IPO 公開価格 1株33ドル（会社分 23,422,727株、既存株主の売出し 11,192,657株）",
         "eventDate": "2020-09",
@@ -14784,6 +14901,34 @@
             "published": "2026-02-26"
           }
         ]
+      },
+      {
+        "key": "listing",
+        "value": "Nasdaq Global Select Market（GDRX、Class A 普通株）、2020年9月23日に取引開始、9月25日に IPO 完了（公開価格1株33ドル）",
+        "eventDate": "2020-09-23",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1809519/000156459021012614/gdrx-10k_20201231.htm",
+            "kind": "sec",
+            "published": "2021-03-12",
+            "publisher": "GoodRx Holdings（SEC 10-K 2020年度）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1809519/000180951926000031/gdrx-20251231.htm",
+            "kind": "sec",
+            "published": "2026-02-26",
+            "publisher": "GoodRx Holdings（SEC 10-K 2025年度）"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1809519/000119312520253358/d949310d424b4.htm",
+            "kind": "sec",
+            "published": "2020-09-24",
+            "publisher": "GoodRx Holdings（SEC 424B4）"
+          }
+        ],
+        "note": "2020年度 10-K の Item 5 に「On September 23, 2020, our Class A common stock began trading on the Nasdaq Global Select Market under the symbol \"GDRX.\"」、注記に「On September 25, 2020, the Company completed its IPO」。最新 10-K（2026-02-26）の表紙も「GDRX The Nasdaq Stock Market LLC」",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -16315,6 +16460,20 @@
         ]
       },
       {
+        "key": "figure",
+        "value": "累計調達 830万ドル（買収時点）",
+        "status": "unverified",
+        "sources": [],
+        "note": "今の出典 hitconsultant の記事には調達額の記載がないため外した。ほかの資料も見つからない。"
+      },
+      {
+        "key": "activity",
+        "value": "不明",
+        "status": "unverified",
+        "sources": [],
+        "note": "mangohealth.com は 2026-11-19 時点で 502 エラー。いまの提供状況を書いた資料は見つからない。"
+      },
+      {
         "key": "acquisitionAgreement",
         "value": "TrialCard が Mango Health を買収する最終合意を発表（金額非公表）",
         "eventDate": "2019-09-11",
@@ -16328,31 +16487,33 @@
           {
             "url": "https://hitconsultant.net/2019/09/12/trialcard-acquires-digital-medication-adherence-platform-mango-health/",
             "kind": "news",
-            "published": "2019-09-12"
+            "published": "2019-09-12",
+            "publisher": "HIT Consultant"
           }
         ],
-        "note": "両資料とも「entered into a (definitive) agreement to acquire」で、完了は書いていない。今の記載の「買収完了」は合意の発表にあたる。"
+        "note": "HIT Consultant に「TrialCard Incorporated announced it has entered an agreement to acquire Mango Health」。合意の発表で、完了は書いていない",
+        "recheckedAt": "2026-11-19"
       },
       {
         "key": "acquisitionCompleted",
-        "value": "TrialCard による買収の完了",
-        "status": "unverified",
-        "sources": [],
-        "note": "検索では2019年9月に完了とする資料（TrialCard 後身 Mercalis のリリース、企業DB）が見えたが、開いて確認できていない。"
-      },
-      {
-        "key": "figure",
-        "value": "累計調達 830万ドル（買収時点）",
-        "status": "unverified",
-        "sources": [],
-        "note": "今の出典 hitconsultant の記事には調達額の記載がないため外した。ほかの資料も見つからない。"
-      },
-      {
-        "key": "activity",
-        "value": "不明",
-        "status": "unverified",
-        "sources": [],
-        "note": "mangohealth.com は 2026-11-19 時点で 502 エラー。いまの提供状況を書いた資料は見つからない。"
+        "value": "TrialCard（のちの Mercalis、現 Valeris）による買収が2019年9月に完了",
+        "eventDate": "2019-09",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.valeris.com/news/trialcard-reports-42-organic-growth-and-acquires-three-companies-in-2019/",
+            "kind": "official",
+            "published": "2020-12-03",
+            "publisher": "Mercalis（旧 TrialCard、現 Valeris）"
+          },
+          {
+            "url": "https://mergr.com/company/mango-health",
+            "kind": "database",
+            "publisher": "Mergr"
+          }
+        ],
+        "note": "買い手の発表（2020-12-03）に「Mercalis (formerly TrialCard) has completed four key acquisitions in the past fifteen months ... In September 2019, Mercalis (formerly TrialCard) completed a deal for Mango Health」。日までは書かれていないので月までにした（Mergr は2019年の取得とだけ表示）",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -16567,7 +16728,7 @@
     ],
     "note": "2017年6月13日にOrationを買収",
     "areas": [],
-    "listing": "買収",
+    "listing": "事業譲渡",
     "acquiredAt": "2018-12",
     "acquiredBy": "Change Healthcare",
     "activity": "事業終了",
@@ -16740,30 +16901,33 @@
         ]
       },
       {
+        "key": "activity",
+        "value": "PokitDok としての提供は確認できない（事業終了とみられる）",
+        "status": "unverified",
+        "sources": [],
+        "note": "pokitdok.com は 2026-11-19 時点で無関係なサイトへ転送される。資産譲渡後に会社が事業を終えたと直接書いた資料は見つからない。"
+      },
+      {
         "key": "assetAcquisition",
-        "value": "Change Healthcare が PokitDok の主要資産（ソフトウェア・知的財産）とチームを取得（金額非公表）。会社の買収ではなく資産の取得",
+        "value": "Change Healthcare が PokitDok の主要資産（ソフトウェア・知的財産）とチームを取得（金額非公表）。会社そのものの買収ではない",
         "eventDate": "2018-12-18",
         "status": "confirmed",
         "sources": [
           {
             "url": "https://www.healthcaredive.com/news/change-healthcare-snaps-up-blockchain-startup-pokitdok/544698/",
             "kind": "news",
+            "publisher": "Healthcare Dive",
             "published": "2018-12-19"
           },
           {
             "url": "https://medcitynews.com/2018/12/change-healthcare-pokitdok/",
             "kind": "news",
+            "publisher": "MedCity News",
             "published": "2018-12-18"
           }
         ],
-        "note": "Healthcare Dive は「said Tuesday」（2018年12月18日）。"
-      },
-      {
-        "key": "activity",
-        "value": "PokitDok としての提供は確認できない（事業終了とみられる）",
-        "status": "unverified",
-        "sources": [],
-        "note": "pokitdok.com は 2026-11-19 時点で無関係なサイトへ転送される。資産譲渡後に会社が事業を終えたと直接書いた資料は見つからない。"
+        "note": "Healthcare Dive「Change Healthcare said Tuesday it has acquired key assets from PokitDok ... includes advanced software, intellectual property and the PokitDok team」。MedCity「has bought intellectual property and other assets from PokitDok」。いまの状態「買収」は正確でなく、資産の取得。EDGAR 全文検索では PokitDok, Inc.（CIK 1534159）の Form D（最後は2018-04-19）しかなく、Change Healthcare の書類に PokitDok の記載は見つからない。法人の解散・閉鎖を書いた資料も無い",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -18819,50 +18983,6 @@
         "note": "Wikipedia にしか書かれていない"
       },
       {
-        "key": "bankruptcy",
-        "value": "チューリッヒ地区裁判所の破産裁判所が破産手続きを開始（社名が dacadoo ag in Liquidation に）",
-        "eventDate": "2026-07-29",
-        "status": "reference",
-        "sources": [
-          {
-            "url": "https://www.help.ch/firma/CHE-116.187.330/dacadoo-ag-in-liquidation-zuerich",
-            "kind": "database",
-            "publisher": "help.ch（SHAB 公告の転載）",
-            "published": "2026-09-24"
-          }
-        ],
-        "note": "help.ch が SHAB 第141号（Publ. 1006715253）を転載したもの。公告日は24.07.2026、判決日は29.07.2026 と書かれていて前後が合わないため、SHAB の原文を確認するまで参考扱いにした"
-      },
-      {
-        "key": "closure",
-        "value": "破産手続きの開始により会社は解散（清算中）",
-        "eventDate": "2026-07-29",
-        "status": "reference",
-        "sources": [
-          {
-            "url": "https://www.help.ch/firma/CHE-116.187.330/dacadoo-ag-in-liquidation-zuerich",
-            "kind": "database",
-            "publisher": "help.ch（SHAB 公告の転載）",
-            "published": "2026-09-24"
-          }
-        ],
-        "note": "公告の転載に「demnach ist die Gesellschaft aufgelöst」とある。解散したのは法人で、プラットフォームの提供は下の activity のとおり続いている"
-      },
-      {
-        "key": "assetAcquisition",
-        "value": "イスラエルのウェルネス企業 movement が dacadoo の技術と知的財産（ソフトウェア・ソースコード、特許）を取得したと発表",
-        "eventDate": "2026-11-05",
-        "status": "confirmed",
-        "sources": [
-          {
-            "url": "https://www.prnewswire.com/de/pressemitteilungen/movement-acquires-technology-and-ip-assets-of-swiss-digital-health-company-dacadoo-302930656.html",
-            "kind": "official",
-            "publisher": "movement（PR Newswire）",
-            "published": "2026-11-05"
-          }
-        ]
-      },
-      {
         "key": "figure",
         "value": "登録特許51件（movement が取得した資産の土台）",
         "eventDate": "2026-11",
@@ -18893,6 +19013,59 @@
           }
         ],
         "note": "リリースに「顧客は引き続きプラットフォームを使える」とある。公式サイトにも movement の取得リリースが載っている（2026-11 確認）"
+      },
+      {
+        "key": "bankruptcy",
+        "value": "チューリッヒ地区裁判所の破産裁判所が破産手続きを開始（2026-07-29 09:00 から効力）。社名は dacadoo ag in Liquidation に",
+        "eventDate": "2026-07-29",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.zefix.ch/ZefixREST/api/v1/firm/998874.json",
+            "kind": "regulator",
+            "publisher": "Zefix（スイス連邦商業登記・SHAB 公告の記録）",
+            "published": "2026-08-04"
+          },
+          {
+            "url": "https://www.zefix.ch/de/search/entity/list/firm/998874",
+            "kind": "regulator",
+            "publisher": "Zefix"
+          }
+        ],
+        "note": "SHAB 2026-08-04 公告（shabId 1006723121、チューリッヒ商業登記 日誌 2026-07-30）：「Mit Urteil vom 29.07.2026 hat das Konkursgericht des Bezirksgerichts Zürich über die Gesellschaft mit Wirkung ab dem 29.07.2026, 09.00 Uhr, den Konkurs eröffnet」。前回の『公告日24.07と判決日29.07が合わない』は、help.ch が公告本文中の「前回公告（SHAB Nr. 141 vom 24.07.2026, Publ. 1006715253）」の参照を公告番号と取り違えたもので、破産の公告そのものは 2026-08-04 付。登記上の状態は IN_AUFLOESUNG",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "closure",
+        "value": "破産手続きの開始により法人は解散（清算中）。プラットフォーム自体は movement が取得し提供継続",
+        "eventDate": "2026-07-29",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.zefix.ch/ZefixREST/api/v1/firm/998874.json",
+            "kind": "regulator",
+            "publisher": "Zefix（スイス連邦商業登記・SHAB 公告の記録）",
+            "published": "2026-08-04"
+          }
+        ],
+        "note": "同じ公告に「demnach ist die Gesellschaft aufgelöst」。登記からの抹消（Löschung）はまだで、deleteDate は空。解散は法人の話で、サービスは下の資産取得のとおり継続",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "assetAcquisition",
+        "value": "イスラエルのウェルネス企業 movement が dacadoo の技術と知的財産（ソフトウェア・ソースコード、特許）を取得",
+        "eventDate": "2026-11-05",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.prnewswire.com/de/pressemitteilungen/movement-acquires-technology-and-ip-assets-of-swiss-digital-health-company-dacadoo-302930656.html",
+            "kind": "official",
+            "publisher": "movement（PR Newswire）",
+            "published": "2026-11-05"
+          }
+        ],
+        "note": "「movement ... today announced that it has acquired the technology and intellectual property assets of Swiss digital health company dacadoo」「The acquired assets include the company's software and source code」。会社の買収ではなく資産の取得",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -19630,9 +19803,16 @@
         "note": "「技術担当の共同創業者」として加わり、2019年から専任の CTO"
       },
       {
+        "key": "activity",
+        "value": "symplr の Spend Management に統合して提供（とされる）",
+        "status": "unverified",
+        "sources": [],
+        "note": "今まで出典にしていた symplr の製品ページ（symplr.com/spend-management/spend-management）が開けず、今の提供状況は確かめられない"
+      },
+      {
         "key": "acquisitionAgreement",
-        "value": "symplr（Clearlake・Charlesbank 傘下）が GreenLight Medical の買収で合意したと発表",
-        "eventDate": "2022-03",
+        "value": "symplr（Clearlake・Charlesbank 傘下）が GreenLight Medical, Inc. の買収で合意",
+        "eventDate": "2022-03-09",
         "status": "confirmed",
         "sources": [
           {
@@ -19640,9 +19820,16 @@
             "kind": "official",
             "publisher": "Charlesbank（symplr の出資者による発表）",
             "published": "2022-03-11"
+          },
+          {
+            "url": "https://clearlake.com/wp-content/uploads/2022/03/Gadget-release_vF.pdf",
+            "kind": "official",
+            "publisher": "Clearlake（symplr の出資者）",
+            "published": "2022-03-09"
           }
         ],
-        "note": "Clearlake 版のリリースは2022-03-09付と検索結果に出ていたが、開けていない"
+        "note": "Charlesbank 版「today announced that it has entered into an agreement to purchase GreenLight Medical, Inc.」。Clearlake 版は検索結果では 2022-03-09 付だが、取得したファイルは PDF ではなく HTML で本文は確認できず。日付は 03-09〜03-11 で資料により違う",
+        "recheckedAt": "2026-11-19"
       },
       {
         "key": "acquisitionCompleted",
@@ -19654,16 +19841,15 @@
             "url": "https://mergr.com/transaction/symplr-acquires-greenlight-medical",
             "kind": "database",
             "publisher": "Mergr"
+          },
+          {
+            "url": "https://www.privsource.com/acquisitions/deal/rJSyNY",
+            "kind": "database",
+            "publisher": "PrivSource"
           }
         ],
-        "note": "今回新たに追加。完了日を書いているのは案件データベースだけで、symplr の完了リリースは見つからなかった"
-      },
-      {
-        "key": "activity",
-        "value": "symplr の Spend Management に統合して提供（とされる）",
-        "status": "unverified",
-        "sources": [],
-        "note": "今まで出典にしていた symplr の製品ページ（symplr.com/spend-management/spend-management）が開けず、今の提供状況は確かめられない"
+        "note": "完了を書いた一次資料は見つからない。Ziegler（GreenLight 側アドバイザー）の 2022-03-22 リリースは「on its transaction with Symplr」とだけ、Nashville Entrepreneur Center（2022-03-24）は「he's agreed to sell his business」で合意の記述。greenlightmedical.com は symplr の Spend Management ページへ転送される（2026-11-19 確認）が、完了日は示さない",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -19828,34 +20014,6 @@
         "note": "CMO"
       },
       {
-        "key": "acquisitionAgreement",
-        "value": "Blackstone 傘下の HealthEdge Software が Wellframe の買収を発表",
-        "eventDate": "2021-10-19",
-        "status": "confirmed",
-        "sources": [
-          {
-            "url": "https://www.debevoise.com/news/2021/10/debevoise-advises-healthedge-in-its-acquisition",
-            "kind": "news",
-            "publisher": "Debevoise & Plimpton（HealthEdge 側の法律事務所の案件告知）",
-            "published": "2021-10-19"
-          }
-        ]
-      },
-      {
-        "key": "acquisitionCompleted",
-        "value": "HealthEdge が Wellframe の買収を完了",
-        "eventDate": "2021-12-07",
-        "status": "reference",
-        "sources": [
-          {
-            "url": "https://www.privsource.com/acquisitions/deal/n8Sx6y",
-            "kind": "database",
-            "publisher": "PrivSource"
-          }
-        ],
-        "note": "今まで出典にしていた Business Wire の完了リリース（20211207005907）は開けなかったので、案件データベースに差し替えて参考扱いにした"
-      },
-      {
         "key": "activity",
         "value": "HealthEdge に統合（wellframe.com は HealthEdge への案内ページ）",
         "status": "confirmed",
@@ -19866,6 +20024,50 @@
           }
         ],
         "note": "公式サイトに「Wellframe is now part of HealthEdge」とあり、HealthEdge のサイトへ案内している（2026-11 確認）"
+      },
+      {
+        "key": "acquisitionAgreement",
+        "value": "Blackstone 傘下の HealthEdge Software が Wellframe の買収で最終契約",
+        "eventDate": "2021-10-19",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://www.businesswire.com/news/home/20211019006059/en/HealthEdge-Software-to-Acquire-Digital-Engagement-Leader-Wellframe",
+            "kind": "official",
+            "publisher": "HealthEdge（Business Wire）",
+            "published": "2021-10-19"
+          },
+          {
+            "url": "https://www.debevoise.com/news/2021/10/debevoise-advises-healthedge-in-its-acquisition",
+            "kind": "news",
+            "publisher": "Debevoise & Plimpton",
+            "published": "2021-10-19"
+          }
+        ],
+        "note": "「HealthEdge Software to Acquire Digital Engagement Leader Wellframe」。Business Wire 本体はこの環境から開けず（403）、見出しは検索結果による",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "acquisitionCompleted",
+        "value": "HealthEdge が Wellframe の買収を完了",
+        "eventDate": "2021-12-07",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://insurancenewsnet.com/oarticle/healthedge-completes-acquisition-of-wellframe",
+            "kind": "official",
+            "publisher": "HealthEdge（Business Wire 配信を InsuranceNewsNet が転載）",
+            "published": "2021-12-07"
+          },
+          {
+            "url": "https://www.businesswire.com/news/home/20211207005907/en",
+            "kind": "official",
+            "publisher": "HealthEdge（Business Wire）",
+            "published": "2021-12-07"
+          }
+        ],
+        "note": "完了リリース「HealthEdge Completes Acquisition of Wellframe」（2021-12-07）に「has completed its previously announced acquisition of Wellframe Inc.」。Business Wire 原本は開けず、同じリリースの InsuranceNewsNet 転載で確認。前回の reference（PrivSource）から confirmed に戻せる",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -22953,32 +23155,42 @@
         "note": "「Dhiren Bhatia & Tim Kuruvilla, Co-Founders」。Roche の発表には名前なし"
       },
       {
+        "key": "activity",
+        "value": "いまの提供状況は未確認",
+        "status": "unverified",
+        "sources": [],
+        "note": "Roche の製品群（navify など）に統合されたかは資料で確認できず"
+      },
+      {
         "key": "acquisitionAgreement",
-        "value": "Roche が Viewics の全株式取得で合意（診断事業の Integrated Core Lab にデジタル機能として加える）。2017年11月21日に完了予定",
+        "value": "Roche が Viewics, Inc. の全株式取得で合意。2017-11-21 に完了予定",
         "eventDate": "2017-11-17",
         "status": "confirmed",
         "sources": [
           {
             "url": "https://www.roche.com/media/releases/med-cor-2017-11-17b",
             "kind": "official",
-            "published": "2017-11-17",
-            "publisher": "Roche"
+            "publisher": "Roche",
+            "published": "2017-11-17"
+          },
+          {
+            "url": "https://hitconsultant.net/2017/11/20/roche-acquires-viewics",
+            "kind": "news",
+            "publisher": "HIT Consultant",
+            "published": "2017-11-20"
           }
-        ]
+        ],
+        "note": "Roche「subject to customary closing conditions, is expected to close on November 21, 2017」。HIT Consultant も「has announced an agreement to acquire Viewics ... Roche is acquiring all shares」で合意段階の記述",
+        "recheckedAt": "2026-11-19"
       },
       {
         "key": "acquisitionCompleted",
         "value": "買収の完了（予定日 2017-11-21）",
+        "eventDate": "2017-11-21",
         "status": "unverified",
         "sources": [],
-        "note": "Roche の発表は完了予定日のみ。完了を直接書いた資料は開けなかった（業界サイトの記事は表示できず）。Canvas の「acquired by Roche in 2017」は完了日を示さない"
-      },
-      {
-        "key": "activity",
-        "value": "いまの提供状況は未確認",
-        "status": "unverified",
-        "sources": [],
-        "note": "Roche の製品群（navify など）に統合されたかは資料で確認できず"
+        "note": "完了を書いた資料は開けなかった。検索結果では Zenopa（求人業界のニュース）が「closed today (November 21st 2017)」と書いているとされるが、ページは 404 でアーカイブも無い。Roche の Finance Report 2017 の企業結合の注記は見つけられなかった。EDGAR 全文検索にも Viewics の記載なし",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -23633,22 +23845,6 @@
     },
     "claimList": [
       {
-        "key": "closure",
-        "value": "事業終了（CB Insights は Dead と表示）",
-        "status": "reference",
-        "note": "閉鎖日を示す資料はない。mobitor.com はドメイン販売サイト（HugeDomains）へ転送される",
-        "sources": [
-          {
-            "url": "https://www.cbinsights.com/company/mobitor",
-            "kind": "database"
-          },
-          {
-            "url": "https://www.mobitor.com/",
-            "kind": "official"
-          }
-        ]
-      },
-      {
         "key": "activity",
         "value": "事業終了",
         "status": "reference",
@@ -23674,6 +23870,26 @@
             "kind": "database"
           }
         ]
+      },
+      {
+        "key": "closure",
+        "value": "事業終了（CB Insights は Dead と表示）",
+        "status": "reference",
+        "sources": [
+          {
+            "url": "https://www.cbinsights.com/company/mobitor",
+            "kind": "database",
+            "publisher": "CB Insights"
+          },
+          {
+            "url": "https://www.sec.gov/Archives/edgar/data/1637710/000163771015000002/primary_doc.xml",
+            "kind": "sec",
+            "publisher": "Mobitor Corp Form D",
+            "published": "2015-03-26"
+          }
+        ],
+        "note": "CB Insights「Stage Unattributed | Dead」、所在地 Walnut Creek, CA。EDGAR では Mobitor Corp（CIK 1637710）の Form D（2015-03-26、50万ドル、同じ住所）が唯一の提出書類で、閉鎖・解散を書いた書類は無い。mobitor.com は HugeDomains の販売ページへ転送。なお CB Insights は事業を「inventory logistics applications」と説明しており、ヘルステック企業として載せてよいか確認が要る",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -26841,7 +27057,7 @@
     "founders": [],
     "note": "",
     "areas": [],
-    "listing": "買収",
+    "listing": "事業譲渡",
     "acquiredAt": "2017-06",
     "acquiredBy": "PokitDok",
     "activity": "事業終了",
@@ -26977,25 +27193,6 @@
         ]
       },
       {
-        "key": "assetAcquisition",
-        "value": "PokitDok が Oration PBC の薬局関連・ソフトウェア資産を取得（条件非公表）",
-        "eventDate": "2017-06",
-        "status": "confirmed",
-        "sources": [
-          {
-            "url": "https://hitconsultant.net/2017/06/13/pokitdok-acquires-pharmacy-software-assets-oration-pbc",
-            "kind": "news",
-            "publisher": "HIT Consultant",
-            "published": "2017-06-13"
-          },
-          {
-            "url": "https://ventures.mckesson.com/pokitdok-acquires-oration-pbc-expands-commercial-pharmacy-services/",
-            "kind": "news",
-            "publisher": "McKesson Ventures（PokitDok 出資者のポートフォリオニュース）"
-          }
-        ]
-      },
-      {
         "key": "activity",
         "value": "事業終了とみられる（資産は2017年に PokitDok へ売却、公式ドメインは売りに出ている）",
         "eventDate": "2026-11-19",
@@ -27013,6 +27210,36 @@
             "publisher": "ドメイン販売ページ（Synergy Technologies）"
           }
         ]
+      },
+      {
+        "key": "assetAcquisition",
+        "value": "PokitDok が Oration PBC の薬局関連・ソフトウェア資産を取得（条件非公表）。会社そのものの買収ではない",
+        "eventDate": "2017-06-13",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://hitconsultant.net/2017/06/13/pokitdok-acquires-pharmacy-software-assets-oration-pbc",
+            "kind": "news",
+            "publisher": "HIT Consultant",
+            "published": "2017-06-13"
+          }
+        ],
+        "note": "「PokitDok ... has acquired the pharmacy and software assets of Oration PBC」。いまの状態「買収」は正確でなく資産売却。CB Insights も「Stage Asset Sale | AssetsPurchased」",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "closure",
+        "value": "事業終了とみられる（資産売却後）",
+        "status": "reference",
+        "sources": [
+          {
+            "url": "https://www.cbinsights.com/company/oration",
+            "kind": "database",
+            "publisher": "CB Insights"
+          }
+        ],
+        "note": "閉鎖・解散を直接書いた資料は無い。CB Insights は Asset Sale と表示、oration.com はドメイン販売ページ。EDGAR では Oration PBC（CIK 1623503）の Form D（2014-10-29）のみ。2025年に Form D を出している Oration Inc.（CIK 2054506）は別会社とみられる",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -28102,9 +28329,7 @@
     "founders": [],
     "note": "買収された？",
     "areas": [],
-    "listing": "買収",
-    "acquiredAt": "2022-07",
-    "acquiredBy": "Welzo",
+    "listing": "閉鎖",
     "activity": "不明",
     "description": "スマートフォンやPCから予約し、すぐに医師とオンラインで相談できる遠隔医療サービスを提供していたフィンランド・ヘルシンキの企業。",
     "events": [
@@ -28118,12 +28343,22 @@
         }
       },
       {
+        "date": "2019-08",
+        "type": "法人の消滅",
+        "text": "運営会社 Meedoc Labs Oy がフィンランドの商業登記で消滅（2019年8月19日）",
+        "source": {
+          "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2503553-3",
+          "kind": "regulator"
+        }
+      },
+      {
         "date": "2022-07",
-        "type": "ドメイン取得",
-        "text": "英国の Welzo が Meedoc.com の取得を完了したと発表（2022年7月19日）",
+        "type": "ドメインの取得",
+        "text": "英国の Welzo がドメイン Meedoc.com を取得（会社の買収ではない）",
         "source": {
           "url": "https://welzo.com/blogs/news/welzo-meedoc",
-          "kind": "official"
+          "kind": "official",
+          "published": "2022-07-19"
         }
       }
     ],
@@ -28213,11 +28448,38 @@
         ]
       },
       {
-        "key": "assetAcquisition",
-        "value": "英国の Welzo がドメイン Meedoc.com の購入を完了したと発表（オンライン GP 診療の立ち上げに使う）",
-        "eventDate": "2022-07",
+        "key": "activity",
+        "value": "不明（meedoc.com は Welzo の取得告知ページに転送）",
+        "eventDate": "2026-11-19",
+        "status": "unverified",
+        "note": "Meedoc としての提供や会社の現状を書いた資料は無い",
+        "sources": []
+      },
+      {
+        "key": "closure",
+        "value": "運営会社 Meedoc Labs Oy（Y-tunnus 2503553-3）がフィンランド商業登記で「Lakannut（消滅）」に。関連の Meedoc Oy（2509488-3）も 2018-06-04 に消滅",
+        "eventDate": "2019-08-19",
         "status": "confirmed",
-        "note": "会社そのものの買収ではなくドメインの取得。完了日の記載なし（発表は2022年7月19日）",
+        "sources": [
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2503553-3",
+            "kind": "regulator",
+            "publisher": "フィンランド特許登録庁（PRH）・YTJ 公開データ"
+          },
+          {
+            "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=2509488-3",
+            "kind": "regulator",
+            "publisher": "フィンランド特許登録庁（PRH）・YTJ 公開データ"
+          }
+        ],
+        "note": "Meedoc Labs Oy（英名 Meedoc Labs Corporation、旧 Healtth Oy、2012-10-25 登記）：商業登記「Registered」2012-10-25〜2019-08-18、「Ceased / Lakannut」2019-08-19。VAT 登録は 2018-05-07 に終了。消滅の理由（破産・解散・合併など）は公開データに無く、companySituations も空。いまの状態「買収」は誤りで、法人は消滅している",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "assetAcquisition",
+        "value": "英国の Welzo がドメイン Meedoc.com の購入を完了（会社の買収ではない）",
+        "eventDate": "2022-07-19",
+        "status": "confirmed",
         "sources": [
           {
             "url": "https://welzo.com/blogs/news/welzo-meedoc",
@@ -28225,17 +28487,12 @@
             "publisher": "Welzo",
             "published": "2022-07-19"
           }
-        ]
-      },
-      {
-        "key": "activity",
-        "value": "不明（meedoc.com は Welzo の取得告知ページに転送）",
-        "eventDate": "2026-11-19",
-        "status": "unverified",
-        "note": "Meedoc としての提供や会社の現状を書いた資料は無い",
-        "sources": []
+        ],
+        "note": "「Welzo has completed its purchase of Meedoc.com」。法人が消滅（2019年）したあとのドメイン取得。CB Insights の「Acquired by Welzo」はこれを会社の買収と扱ったものとみられる",
+        "recheckedAt": "2026-11-19"
       }
-    ]
+    ],
+    "closedAt": "2019-08"
   },
   {
     "id": "ov-91c9c811",
@@ -28689,24 +28946,6 @@
         ]
       },
       {
-        "key": "closure",
-        "value": "活動停止（YC の企業ページで Inactive、公式ドメインは売りに出ている）",
-        "status": "reference",
-        "note": "閉鎖日・閉鎖を直接書いた資料は無い。loot-drop.io のページは「Startup not found」で外した",
-        "sources": [
-          {
-            "url": "https://www.ycombinator.com/companies/wink-health",
-            "kind": "database",
-            "publisher": "Y Combinator"
-          },
-          {
-            "url": "http://winkhealth.com",
-            "kind": "database",
-            "publisher": "HugeDomains（ドメイン販売ページへ転送）"
-          }
-        ]
-      },
-      {
         "key": "activity",
         "value": "事業終了とみられる",
         "eventDate": "2026-11-19",
@@ -28719,6 +28958,20 @@
             "publisher": "Y Combinator"
           }
         ]
+      },
+      {
+        "key": "closure",
+        "value": "活動停止（YC の企業ページで Inactive）",
+        "status": "reference",
+        "sources": [
+          {
+            "url": "https://www.ycombinator.com/companies/wink-health",
+            "kind": "database",
+            "publisher": "Y Combinator"
+          }
+        ],
+        "note": "YC のページに「Batch: Winter 2015 Team Size: 2 Status: Inactive」。winkhealth.com は HugeDomains の販売ページへ転送。閉鎖日・閉鎖を書いた発表や報道、EDGAR の書類は見つからない",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -30951,19 +31204,6 @@
         "note": "YC のページの「cofounder and chief technology officer」だけが出典"
       },
       {
-        "key": "acquisitionAgreement",
-        "value": "医療データ企業 H1 が Ribbon Health を買収する最終契約を締結",
-        "eventDate": "2024-12-12",
-        "status": "confirmed",
-        "sources": [
-          {
-            "url": "https://h1.co/press/h1-welcomes-former-fda-commissioner-to-board-of-directors-acquires-ribbon-health-and-unveils-2025-product-roadmap/",
-            "kind": "official",
-            "published": "2025-01-08"
-          }
-        ]
-      },
-      {
         "key": "event",
         "value": "H1 が Ribbon Health の買収を公表",
         "eventDate": "2025-01-08",
@@ -30983,6 +31223,50 @@
         "status": "unverified",
         "sources": [],
         "note": "ribbonhealth.com は 403 で開けなかった（2026-11-19）。YC のページは「Acquired」とするだけで、提供終了は書いていない。提供状況を確かめられる資料がない"
+      },
+      {
+        "key": "acquisitionAgreement",
+        "value": "医療データ企業 H1 が Ribbon Health を買収する最終契約を締結",
+        "eventDate": "2024-12-12",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://h1.co/press/h1-welcomes-former-fda-commissioner-to-board-of-directors-acquires-ribbon-health-and-unveils-2025-product-roadmap/",
+            "kind": "official",
+            "publisher": "H1",
+            "published": "2025-01-08"
+          }
+        ],
+        "note": "「H1 entered a definitive agreement to acquire Ribbon Health on December 12th, 2024」",
+        "recheckedAt": "2026-11-19"
+      },
+      {
+        "key": "acquisitionCompleted",
+        "value": "H1 が Ribbon Health の買収を完了（現金と株式、金額非公表）",
+        "eventDate": "2024-12",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://hlth.com/insights/news/h1-acquires-ribbon-health-to-expand-its-reach-to-health-plan-digital-health-markets-2025-01-13",
+            "kind": "news",
+            "publisher": "HLTH",
+            "published": "2025-01-13"
+          },
+          {
+            "url": "https://techcrunch.com/2025/01/08/healthcare-analytics-platform-h1-has-acquired-ribbon-backed-by-a16z-and-general-catalyst/",
+            "kind": "news",
+            "publisher": "TechCrunch",
+            "published": "2025-01-08"
+          },
+          {
+            "url": "https://www.cooley.com/news/coverage/2025/2025-01-08-h1-acquires-ribbon-health",
+            "kind": "news",
+            "publisher": "Cooley（H1 側の法律事務所）",
+            "published": "2025-01-08"
+          }
+        ],
+        "note": "HLTH「has acquired Ribbon Health ... Finalized in December, the cash-and-stock deal's value was not disclosed」。TechCrunch「H1 ... has acquired Ribbon」。H1 の発表の見出しも「H1 Acquires ... Ribbon Health」。完了の日にちまでは書かれていない（Fierce Healthcare の「late December」は 403 で開けず）。YC のページは Status: Acquired",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
@@ -34112,6 +34396,22 @@
           }
         ],
         "note": "2026-11-19 に転送先を確認。"
+      },
+      {
+        "key": "acquisitionCompleted",
+        "value": "後身の未来医生（旧・企鵝杏仁）が医聯グループ（Medlinker）に並入し、グループの事業部になった",
+        "eventDate": "2021-12",
+        "status": "confirmed",
+        "sources": [
+          {
+            "url": "https://tech.ifeng.com/c/8BuhdOZ0ugk",
+            "kind": "news",
+            "publisher": "钛媒体（凤凰网転載）",
+            "published": "2021-12-12"
+          }
+        ],
+        "note": "「未来医生综合医疗服务集团（原企鹅杏仁）已并入医联集团（Medlinker），成为集团事业部」。資料は「并入」と書き「收购」とは書いておらず、日付も報道日だけ。2018年の企鵝医生との統合は「合并」（投资界 2018-08-09「企鹅医生与杏仁医生合并……新集团公司统称为企鹅杏仁」）で、どちらかが買ったとは書いていないので、杏仁医生の「買収」は2021年の医聯への並入を指すと読むのが資料に合う",
+        "recheckedAt": "2026-11-19"
       }
     ]
   },
