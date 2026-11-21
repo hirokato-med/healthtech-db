@@ -1,5 +1,19 @@
 [
   {
+    "id": "000004382.000072793",
+    "title": "【岡山大学】岡山大学中央図書館 ムラタアカデミア展示「岡山における医学の歩み～岡山大学医学部設置前夜～」",
+    "url": "https://prtimes.jp/main/html/rd/p/000004382.000072793.html",
+    "company": "国立大学法人岡山大学",
+    "companyId": null,
+    "publishedAt": "2026-11-21T16:40:01.000Z",
+    "category": null,
+    "source": "prtimes",
+    "enriched": true,
+    "tier": "out",
+    "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
+    "tierBy": "rule"
+  },
+  {
     "id": "000004381.000072793",
     "title": "【岡山大学】岡山大学総合技術部「第90回医学系技術課 鹿田研修会」を開催～最新の臨床研究の情報を学び、技術職員の専門性向上を目指す～",
     "url": "https://prtimes.jp/main/html/rd/p/000004381.000072793.html",
@@ -8,10 +22,10 @@
     "publishedAt": "2026-11-21T15:32:25.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000004380.000072793",
@@ -22,10 +36,10 @@
     "publishedAt": "2026-11-21T15:12:29.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000004379.000072793",
@@ -36,10 +50,10 @@
     "publishedAt": "2026-11-21T14:48:55.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000004378.000072793",
@@ -50,10 +64,10 @@
     "publishedAt": "2026-11-21T14:10:39.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000004377.000072793",
@@ -64,10 +78,10 @@
     "publishedAt": "2026-11-21T14:00:17.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "list",
     "reason": "ヘルスケアと関係はあるが、タイトルからは事業上の大きな変化が読み取れない（自動判定）",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000004376.000072793",
@@ -78,10 +92,10 @@
     "publishedAt": "2026-11-21T13:29:39.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "list",
     "reason": "ヘルスケアと関係はあるが、タイトルからは事業上の大きな変化が読み取れない（自動判定）",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000000013.000190308",
@@ -92,10 +106,10 @@
     "publishedAt": "2026-11-21T13:00:01.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000000004.000190470",
@@ -106,10 +120,10 @@
     "publishedAt": "2026-11-21T12:00:02.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000000019.000135997",
@@ -119,12 +133,12 @@
     "companyId": null,
     "publishedAt": "2026-11-21T12:00:02.000Z",
     "category": "dental",
+    "categoryBy": "title",
     "source": "prtimes",
-    "enriched": true,
     "tier": "list",
     "reason": "ヘルスケアと関係はあるが、タイトルからは事業上の大きな変化が読み取れない（自動判定）",
     "tierBy": "rule",
-    "categoryBy": "title"
+    "enriched": true
   },
   {
     "id": "000000002.000195034",
@@ -135,10 +149,10 @@
     "publishedAt": "2026-11-21T11:10:01.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000002154.000022608",
@@ -149,10 +163,10 @@
     "publishedAt": "2026-11-21T10:10:01.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000000060.000132758",
@@ -162,12 +176,12 @@
     "companyId": "6120001068936",
     "publishedAt": "2026-11-21T10:00:01.000Z",
     "category": "medical-device",
+    "categoryBy": "company",
     "source": "prtimes",
-    "enriched": true,
     "tier": "list",
     "reason": "ヘルスケアと関係はあるが、タイトルからは事業上の大きな変化が読み取れない（自動判定）",
     "tierBy": "rule",
-    "categoryBy": "company"
+    "enriched": true
   },
   {
     "id": "000000503.000080252",
@@ -178,10 +192,10 @@
     "publishedAt": "2026-11-21T09:10:01.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000002321.000032951",
@@ -192,10 +206,10 @@
     "publishedAt": "2026-11-21T09:00:01.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000000024.000187630",
@@ -206,10 +220,10 @@
     "publishedAt": "2026-11-21T08:00:01.000Z",
     "category": null,
     "source": "prtimes",
-    "enriched": true,
     "tier": "out",
     "reason": "タイトルからはヘルスケアの事業・製品・制度との直接の関係が読み取れない",
-    "tierBy": "rule"
+    "tierBy": "rule",
+    "enriched": true
   },
   {
     "id": "000000041.000181809",
@@ -5677,20 +5691,5 @@
     "tier": "out",
     "reason": "汎用AIプラットフォームのバージョンアップで、ヘルスケア事業の変化はない。",
     "tierBy": "review"
-  },
-  {
-    "id": "000000070.000101176",
-    "title": "オーティコン補聴器、「Oticon Reveal™（オーティコン リビール）」を発売",
-    "url": "https://prtimes.jp/main/html/rd/p/000000070.000101176.html",
-    "company": "デマント・ジャパン株式会社 オーティコン補聴器",
-    "companyId": null,
-    "publishedAt": "2026-11-17T15:30:01.000Z",
-    "category": null,
-    "source": "prtimes",
-    "enriched": true,
-    "tier": "top",
-    "reason": "新しい旗艦補聴器（医療機器）の国内発売という製品・事業上の変化がある。",
-    "tierBy": "review",
-    "change": "オーティコン補聴器が「スピーチAI」と「コンテキストAI」を常時稼働させるプレミアム補聴器「Oticon Reveal」を11月26日から全国の販売店・眼鏡店・百貨店で発売する。"
   }
 ]
