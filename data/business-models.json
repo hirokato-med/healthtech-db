@@ -1396,8 +1396,8 @@
    }
   ],
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "AI-RAD は AI エンジン（深層学習で約10万症例を学習した DoctorNET MONCAD CTLN など）を遠隔ネットワーク上で使うサービス。Tele-RAD・Tele-DOC・Virtual-RAD は専門医の読影・読影インフラで、AI を使うとは書かれていない（Tele-DOC は将来 AI-RAD と連携予定と記載）。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使うのは AI-RAD（人工知能による読影・画像診断支援プラットフォーム）で、AI エンジン（深層学習で約10万症例を学習した DoctorNET MONCAD CTLN、DoctorNet JLK-CRP、DoctorNet Heuron CTS、エルピクセルの EIRL X-ray Lung nodule・EIRL aneurysm）を遠隔ネットワーク上で使う。Tele-RAD（放射線診断専門医の遠隔読影）・Tele-DOC（診療科専門医の読影）・Virtual-RAD（読影インフラ）は専門医の読影と読影インフラで、AI を使うとは書かれていない（Tele-DOC は将来 AI-RAD と連携予定と記載）。",
    "sources": [
     {
      "url": "https://dr-net.co.jp/service/airad/",
@@ -6588,9 +6588,10 @@
   "offering": {
    "values": [
     "医療機関・薬局向けソフト（クラウド・院内設置）",
-    "患者・生活者向けアプリ"
+    "患者・生活者向けアプリ",
+    "他社のサービスに組み込むソフト・API（B2B2C）"
    ],
-   "detail": "予約・疾患別問診・ビデオ診察・画面共有・クレジットカード決済・薬局への処方箋連携・院内処方の配送手配を備えたクラウド型オンライン診療システム（医療機関向け管理画面）と患者向けアプリ／WEB版。薬局向け「curonお薬サポート」と連携。KDDI・J:COM・日本生命のサービスの基盤にもなっている。",
+   "detail": "予約・疾患別問診・ビデオ診察・画面共有・クレジットカード決済・薬局への処方箋連携・院内処方の配送手配を備えたクラウド型オンライン診療システム（医療機関向け管理画面）と患者向けアプリ／WEB版。薬局向け「curonお薬サポート」と連携。KDDI・J:COM・日本生命のサービスの基盤にもなっている。 値の内訳：医療機関向け管理画面が「医療機関・薬局向けソフト」、患者アプリ／WEB 版が「患者・生活者向けアプリ」。他社が自社のサービスに組み込んで自社の顧客に届ける提供（J:COM が 2021-07 に始めた「J:COMオンライン診療」はテレビにつなぐ J:COM のアプリから curon を経由して診療を受ける形、auウェルネスの「curon for KDDI」）を「他社のサービスに組み込むソフト」とする。中心は医療機関向けのシステムで、組み込みはその一部。",
    "sources": [
     {
      "url": "https://curon.co/",
@@ -6606,6 +6607,16 @@
      "url": "https://micin.jp/news/14710/",
      "publisher": "MICIN",
      "published": "2026-03-04"
+    },
+    {
+     "url": "https://micin.jp/news/4783",
+     "publisher": "MICIN",
+     "published": "2021-05-31"
+    },
+    {
+     "url": "https://www.au.com/information/topic/content/2024-005/",
+     "publisher": "KDDI",
+     "published": "2024-04-26"
     }
    ]
   },
@@ -9617,8 +9628,8 @@
    }
   ],
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "製品サイト「EIRL（エイル）は、エルピクセル独自の人工知能（AI）アルゴリズムを用いた医療画像診断支援技術」。2017-11 の発表も「人工知能を活用した医療画像診断支援技術の総称」。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使うと資料にある製品：EIRL Brain Aneurysm（製品ページ「AIを活用したプログラム医療機器として初めて本邦で承認」）、EIRL Chest XR（Chest Screening）、EIRL Chest Nodule（発表「深層学習を活用した医療機器プログラム」）、EIRL Chest CT／Chest CT Basic（製品ページ「AIによる検出支援」）、EIRL Brain Metry・EIRL Brain Segmentation（添付文書「ディープラーニング技術を用いた解析処理」）、EIRL Colon Polyp（製品ページ「モニター上にAIを表示」）、EIRL Surgery LC（発表「手術支援AI」）。AI の使用を確かめられない製品：EIRL Chest Metry（会社は EIRL の製品として AI と案内するが、添付文書は計測の原理を「画像に基づく画素値の閾値処理」と書く）、EIRL Viewer（添付文書の機能は画像・解析結果の表示・保存などだけで、AI の記載は無い）。会社は EIRL 全体を「エルピクセル独自の人工知能（AI）アルゴリズムを用いた医療画像診断支援技術」と説明している。",
    "sources": [
     {
      "url": "https://eirl.ai/ja/",
@@ -9626,9 +9637,54 @@
      "published": ""
     },
     {
-     "url": "https://lpixel.net/news/press-release/2017/5899/",
-     "publisher": "エルピクセル",
-     "published": "2017-11-24"
+     "url": "https://eirl.ai/ja/eirl-brain_aneurysm/",
+     "publisher": "エルピクセル（EIRL Brain Aneurysm 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://eirl.ai/ja/eirl-colon_polyp/",
+     "publisher": "エルピクセル（EIRL Colon Polyp 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000093.000010005.html",
+     "publisher": "エルピクセル（EIRL Surgery LC 承認取得）",
+     "published": "2026-02"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/171955_302AGBZX00101000_A_01_06",
+     "publisher": "エルピクセル（EIRL Chest Metry 添付文書 第6版、PMDA 掲載）",
+     "published": "2026-09"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/171955_303AGBZX00046000_C_01_01",
+     "publisher": "エルピクセル（EIRL Viewer 添付文書 第1版、PMDA 掲載）",
+     "published": "2026-09"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000031.000010005.html",
+     "publisher": "エルピクセル（EIRL Chest Nodule 発売）",
+     "published": "2020-08-28"
+    },
+    {
+     "url": "https://eirl.ai/ja/eirl-chest-screening/",
+     "publisher": "エルピクセル（EIRL Chest Screening 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://eirl.ai/ja/eirl-chest_ct/",
+     "publisher": "エルピクセル（EIRL Chest CT Basic 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/171955_230AGBZX00107Z00_B_01_05",
+     "publisher": "エルピクセル（EIRL Brain Metry 添付文書、PMDA 掲載）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/171955_303AGBZX00043Z00_A_01_03",
+     "publisher": "エルピクセル（EIRL Brain Segmentation 添付文書、PMDA 掲載）",
+     "published": ""
     }
    ]
   },
@@ -12605,9 +12661,21 @@
      "url": "https://txpmedical.jp/service",
      "publisher": "TXP Medical（サービス一覧）",
      "published": ""
+    },
+    {
+     "url": "https://txpmedical.jp/news/6t3g9T6SQrHcCUMp5BODQ7",
+     "publisher": "TXP Medical（NEXT Stage ICU 提供開始のお知らせ）",
+     "published": "2021-09-01"
+    },
+    {
+     "url": "https://txpmedical.jp/service/next-stage-icu",
+     "publisher": "TXP Medical（NEXT Stage ICU）",
+     "published": ""
     }
    ],
-   "unknown": "料金の形と金額、製薬企業向けデータサービスとの関係"
+   "unknown": "料金の形と金額、製薬企業向けデータサービスとの関係",
+   "productSales": "あり",
+   "productSalesDetail": "NEXT Stage ICU の提供開始を 2021-09-01 に発表し、Oncology は 2022-04 から提供（2022-11 の発表）。4製品ともサービス一覧に載り、製品ページで問い合わせ・資料請求を受け付ける。料金は公開されていない。"
   },
   "channel": {
    "first": [
@@ -12804,8 +12872,8 @@
    }
   ],
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "製品で異なる。NEXT Stage CONNECT は OCR・LLM（大規模言語モデル）で紹介状の記載を支援すると製品ページに記載。ICU・Dr.Car/Heli・Oncology の製品ページには AI の記載がない（ICU は「独自の言語処理辞書」による標準化のみ）。製品ごとの表に記載。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "4製品のうち NEXT Stage CONNECT だけで AI を使う：製品ページに、紹介状の作成を QR コード・OCR・LLM（大規模言語モデル）を組み合わせて効率化すると記載。ICU・Dr.Car/Heli・Oncology の製品ページには AI の記載がない（ICU は「独自の言語処理辞書」による標準化のみ）。製品ごとの表に記載。",
    "sources": [
     {
      "url": "https://txpmedical.jp/service/next-stage-connect",
@@ -12957,9 +13025,21 @@
      "url": "https://prtimes.jp/main/html/rd/p/000000021.000101467.html",
      "publisher": "クオトミー",
      "published": "2026-05-29"
+    },
+    {
+     "url": "https://www.quotomy.co.jp/posts/IU81Zufs",
+     "publisher": "クオトミー（OpeOne 正式販売開始）",
+     "published": "2025-12-01"
+    },
+    {
+     "url": "https://guide.opeone.com/",
+     "publisher": "クオトミー（OpeOne 製品サイト）",
+     "published": ""
     }
    ],
-   "unknown": "料金の形と金額"
+   "unknown": "料金の形と金額",
+   "productSales": "あり",
+   "productSalesDetail": "2025-12-01 に OpeOne シリーズの正式販売開始を告知。製品サイトで相談・問い合わせ・無料デモ・資料請求を受け付け、大学病院などの導入事例を載せる。料金（初期費用・利用料など）は公開されていない。"
   },
   "channel": {
    "first": [
@@ -13124,8 +13204,8 @@
    }
   ],
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "手術台帳は AI-OCR で紙伝票・手術申込をデータ化する。加算ナビは必要な文書のドラフトを生成AIで作る。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使うのは手術台帳（紙伝票・手術申込を AI-OCR でデータ化）と加算ナビ（必要な文書のドラフトを生成AIで作る）。アンギオ室（手技の進捗をアンギオ室の外から確認し、放射線技師との電話を減らす）は製品サイトの説明に AI の記載がない。",
    "sources": [
     {
      "url": "https://www.quotomy.co.jp/posts/IU81Zufs",
@@ -13136,6 +13216,11 @@
      "url": "https://prtimes.jp/main/html/rd/p/000000021.000101467.html",
      "publisher": "クオトミー",
      "published": "2026-05-29"
+    },
+    {
+     "url": "https://guide.opeone.com/",
+     "publisher": "クオトミー（OpeOne 製品サイト）",
+     "published": ""
     }
    ]
   },
@@ -16721,9 +16806,10 @@
    "values": [
     "医療機関・薬局向けソフト（クラウド・院内設置）",
     "患者向けオンライン診療の窓口（提携医療機関の診療）",
-    "企業が従業員に提供する健康サービス"
+    "企業が従業員に提供する健康サービス",
+    "他社のサービスに組み込むソフト・API（B2B2C）"
    ],
-   "detail": "医療機関向けソフト：仮想待合室型オンライン診療システム（手の空いた医師が、診療科目別に待つ全国の患者を受け付ける。予約不要）。患者向けの窓口：患者は「イシャチョク」から待合室に入り、登録医療機関の医師が診療。企業向け：仮想待合室型オンライン健康相談・「イシャチョクWell」（従業員と家族向けの福利厚生のオンライン診療）。このほか他社サービスへの OEM 提供「イシャチョクCloud」、オンライン診療アプリ横断の病院検索。",
+   "detail": "医療機関向けソフト：仮想待合室型オンライン診療システム（手の空いた医師が、診療科目別に待つ全国の患者を受け付ける。予約不要）。患者向けの窓口：患者は「イシャチョク」から待合室に入り、登録医療機関の医師が診療。企業向け：仮想待合室型オンライン健康相談・「イシャチョクWell」（従業員と家族向けの福利厚生のオンライン診療）。他社向け：「イシャチョクCloud」で仮想待合室型・予約型のオンライン診療・健康相談システムを他社のサービスに OEM 提供し、他社が自社の顧客に届ける（企画設計・開発・医師の確保・運用支援を含む）。このほかオンライン診療アプリ横断の病院検索。",
    "sources": [
     {
      "url": "https://ishachoku-online.com/",
@@ -20971,7 +21057,9 @@
      "published": "2024-07-08"
     }
    ],
-   "unknown": "料金の有無と種類（初期費用・月額・従量）、アナムネ・問診が別料金か"
+   "unknown": "料金の有無と種類（初期費用・月額・従量）、アナムネ・問診が別料金か",
+   "productSales": "あり",
+   "productSalesDetail": "2024-07-08 に「アナムネ・問診」機能の 2024年秋からの提供開始を発表。サービスサイトで資料請求・問い合わせを受け付ける。料金は公開されていない。"
   },
   "channel": {
    "first": [
@@ -29782,13 +29870,13 @@
    "supplier": [],
    "recommender": [],
    "contractor": [
-    "医療機関（バイエル薬品から購入）"
+    "医療機関（バイエル薬品から提供を受ける。有償か無償かは資料に無い）"
    ],
    "directPayer": [
     "未確認（販売はバイエル薬品が独占販売権で行う。HACARUS への対価の有無・形は資料になし）"
    ],
    "finalBearer": [
-    "医療機関（自院の経費と考えられるが未確認）"
+    "未確認（医療機関が費用を払うかは資料に無い）"
    ],
    "sources": [
     {
@@ -29809,9 +29897,9 @@
    ],
    "detail": "バイエル薬品が独占販売権を持つ。HACARUS がバイエルから受け取る対価（販売代金・ライセンス料）と、医療機関の支払いの形はいずれも記載なし。",
    "customerRecovery": [
-    "医療機関などの事業経費として負担"
+    "未確認"
    ],
-   "recoveryDetail": "医療機関の経費になると考えられるが資料で確認できない。製品の保険点数はない。",
+   "recoveryDetail": "バイエル薬品が独占販売権を持ち、2023-04-10 から情報提供活動（MR による案内）で医療機関に届ける。医療機関への提供が有償か無償か、価格は資料に無いため未確認とする（販売先が医療機関と分かっても経費負担とはしない）。製品の保険点数はない。",
    "unknown": "HACARUS とバイエル薬品の取引の対価、医療機関の支払いの形",
    "sources": [
     {
@@ -30981,8 +31069,8 @@
    }
   ],
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "事業群として：製品ページに「AIなどの先端技術を用いた眼科用医療機器プログラムを製造販売」。RetinaStation 用（ディープラーニング）と California 用（逸脱可視化AI）は AI を使うと資料で確認。AI-CO は AI の使用を資料で確認できない（製品ごとの表に記載）。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使う製品：DeepEyeVision for RetinaStation（「ディープラーニングを用いた眼底カメラ用プログラム」「AIによる逸脱可視化」）と DeepEyeVision for California（Optos AI。超広角眼底画像の「AIによる逸脱可視化」）。AI-CO は製品説明が OCT の3Dスキャンデータから作るグレースケール画像と視野計の結果の並列表示で、AI を使うとは書かれていない（AI の使用は未確認）。会社の製品ページは「AIなどの先端技術を用いた眼科用医療機器プログラムを製造販売」とまとめて案内する。",
    "sources": [
     {
      "url": "https://deepeyevision.com/products/",
@@ -34675,9 +34763,10 @@
   },
   "offering": {
    "values": [
-    "患者向けオンライン診療の窓口（提携医療機関の診療）"
+    "患者向けオンライン診療の窓口（提携医療機関の診療）",
+    "他社のサービスに組み込むソフト・API（B2B2C）"
    ],
-   "detail": "問診内容から登録医療機関の医師を即時にマッチングするオンライン診療サービス（最短3分で診療開始、保険診療・自由診療）。薬は Uber などで最短1時間の配送、宅配、近くの薬局で受け取り。AI 通訳で86言語に対応。法人向けに「どこでも診療所」「クラウドドクター for ウェルネス」（β）「for トラベラーズ」。 登録医療機関向けに、オンライン診療に従事するクラウドドクター（登録医師）を紹介する「医師紹介サービス」もあり、医療機関は紹介された医師が診療した1件ごとに人材紹介料を払う（クリニック利用規約）。",
+   "detail": "問診内容から登録医療機関の医師を即時にマッチングするオンライン診療サービス（最短3分で診療開始、保険診療・自由診療）。薬は Uber などで最短1時間の配送、宅配、近くの薬局で受け取り。AI 通訳で86言語に対応。法人向けに「どこでも診療所」「クラウドドクター for ウェルネス」（β）「for トラベラーズ」。 登録医療機関向けに、オンライン診療に従事するクラウドドクター（登録医師）を紹介する「医師紹介サービス」もあり、医療機関は紹介された医師が診療した1件ごとに人材紹介料を払う（クリニック利用規約）。 法人向け「どこでも診療所」は、運営型・組込型（API）・誘導型の3つの連携方法で、他社の会員ポータル・アプリ・社員向けシステムにオンライン診療の機能を組み込む（API・Webhook・埋め込みウィジェット。会社は B2B2C と表記）。事業の中心は患者向けの窓口で、組み込み用の提供はその一部。",
    "sources": [
     {
      "url": "https://cloud-dr.jp/",
@@ -38390,8 +38479,8 @@
    ]
   },
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "JLK-DWI・FLAIR・GRE・SWI・NCCT の電子添文に「事前に機械学習された人工知能（Artificial intelligence）のアルゴリズム」で領域を識別・計算と記載。会社は自らを医療 AI 企業とし、製品を「AIソリューション」と呼ぶ。JLK-CTP・PWI の電子添文には AI の記載はない。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使う製品：JLK-DWI・JLK-FLAIR・JLK-GRE・JLK-SWI・JLK-NCCT（電子添文に「事前に機械学習された人工知能（Artificial intelligence）のアルゴリズム」で領域を識別・体積を計算と記載）。JLK-CTP・JLK-PWI の電子添文は、造影撮影した画像の信号の時間変化をたどって血流の情報を測り、脳灌流低下領域・ピーク信号遅延領域の体積と差・比率を計測すると説明し、AI・機械学習の記載はない（この2製品の AI の使用は未確認）。会社は自らを医療 AI 企業とし、7製品をまとめて「AIソリューション」と呼ぶが、CTP・PWI の電子添文の説明とは食い違う。",
    "sources": [
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00007000_A_02_02",
@@ -38402,6 +38491,26 @@
      "url": "https://www.atpress.ne.jp/news/417648",
      "publisher": "JLK株式会社（@Press）",
      "published": "2024-11-19"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00009000_A_02_02",
+     "publisher": "PMDA（電子添文 JLK-GRE・JLK Japan）",
+     "published": "2026-04"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00015000_A_01_02",
+     "publisher": "PMDA（電子添文 JLK-SWI・JLK Japan）",
+     "published": "2026-04"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_306ALBZI00002000_A_02_02",
+     "publisher": "PMDA（電子添文 JLK-CTP・JLK Japan）",
+     "published": "2026-04"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_306ALBZI00003000_A_02_02",
+     "publisher": "PMDA（電子添文 JLK-PWI・JLK Japan）",
+     "published": "2026-04"
     }
    ]
   },
@@ -40379,9 +40488,10 @@
   "offering": {
    "values": [
     "情報・データベース",
-    "コンサルティング・開発支援"
+    "コンサルティング・開発支援",
+    "他社のサービスに組み込むソフト・API（B2B2C）"
    ],
-   "detail": "PHR アプリ「パシャっとカルテ」（健診結果・検査結果・お薬手帳を写真で撮るとデータ化）に集まったデータを使う企業向け事業。パネル事業：条件（例：中性脂肪が基準値以上）に当てはまる利用者へのアンケート・インタビュー調査。API連携：利用者の同意のもと、健診結果・検査結果・お薬情報・レセプトを他社アプリに連携。治験候補者紹介：登録データをもとに候補者を選定・紹介。匿名加工情報を作成して製薬会社・医療機関・研究機関などの第三者に提供（公表事項）。ヘルスケア新規サービスの事業開発コンサルティング。このほか AI-OCR と人のチェックによるデータ化の受託（クリックデータ）。",
+   "detail": "PHR アプリ「パシャっとカルテ」（健診結果・検査結果・お薬手帳を写真で撮るとデータ化）に集まったデータを使う企業向け事業。パネル事業：条件（例：中性脂肪が基準値以上）に当てはまる利用者へのアンケート・インタビュー調査。API連携：利用者の同意のもと、健診結果・検査結果・お薬情報・レセプトを他社アプリに連携。治験候補者紹介：登録データをもとに候補者を選定・紹介。匿名加工情報を作成して製薬会社・医療機関・研究機関などの第三者に提供（公表事項）。ヘルスケア新規サービスの事業開発コンサルティング。このほか AI-OCR と人のチェックによるデータ化の受託（クリックデータ）。 値の内訳：パネル調査・治験候補者紹介・匿名加工情報の提供が「情報・データベース」、事業開発の支援が「コンサルティング・開発支援」、他社アプリの利用者とパシャっとカルテの利用者を同一人物と確かめて医療情報を API で連携し、他社アプリに付加価値をつける API 連携が「他社のサービスに組み込むソフト・API」。",
    "sources": [
     {
      "url": "https://arteryex.biz/data-business/",
@@ -40500,17 +40610,23 @@
   },
   "channel": {
    "first": [
-    "企業"
+    "企業",
+    "提携先"
    ],
    "deal": [
     "直接契約"
    ],
    "delivery": [],
-   "detail": "問い合わせ・資料ダウンロード→ニーズのヒアリング→提案。代理店の記載はない。",
+   "detail": "企業：問い合わせ・資料ダウンロード→ニーズのヒアリング→提案（パネル調査・治験候補者紹介など）。代理店の記載はない。 提携先：API 連携は、アプリを持つ企業が自社アプリの利用者向けにパシャっとカルテの医療情報を組み込む形（事例：インテグリティ・ヘルスケア「SmartOne Health」）。",
    "sources": [
     {
      "url": "https://arteryex.biz/data-business/",
      "publisher": "Arteryex",
+     "published": ""
+    },
+    {
+     "url": "https://arteryex.biz/karte-api/",
+     "publisher": "Arteryex（API連携）",
      "published": ""
     }
    ]
@@ -43603,8 +43719,8 @@
    ]
   },
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "日本語サイトの Cranial Planning：「Elements AI Tumor Segmentation：診断済みの脳腫瘍（転移性脳腫瘍、髄膜腫、神経膠腫など）に対して半自動でセグメンテーション」「AIを活用した、先端U-netアーキテクチャに基づく画像解析」「臨床レジストリに基づく専門医ラベル付きデータセットで学習」。同じページに販売名 Elements サージカルアドバンスを表示。TraumaCad・Quentry・Buzz の資料は自動化機能の記載だけで AI の記載はない。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使うのは Elements（販売名 Elements サージカルアドバンス）の計画モジュール：日本語サイトの Cranial Planning に、Elements AI Tumor Segmentation は「診断済みの脳腫瘍（転移性脳腫瘍、髄膜腫、神経膠腫など）に対して半自動でセグメンテーション」「AIを活用した、先端U-netアーキテクチャに基づく画像解析」「臨床レジストリに基づく専門医ラベル付きデータセットで学習」、脳腫瘍の輪郭描出ツール Elements SmartBrush は「マシンラーニングによる高速処理で、術前計画を効率化」とある。TraumaCad・Quentry・Buzz の資料は自動化機能（自動キャリブレーション・自動プランニングなど）の記載だけで AI の記載はない。",
    "sources": [
     {
      "url": "https://www.brainlab.com/ja/surgery-products/overview-neurosurgery-products/cranial-planning/",
@@ -43855,7 +43971,7 @@
     "未確認（医療機関が PDRファーマに払うかどうか、価格の資料なし）"
    ],
    "finalBearer": [
-    "医療機関（自施設の経費。価格は未確認）"
+    "未確認（納入先は医療機関だが、有償か無償かが資料にない）"
    ],
    "sources": [
     {
@@ -43876,9 +43992,9 @@
    ],
    "detail": "出荷開始のお知らせに「ご注文の際は、弊社担当 MR にお申し付けください」とあり、注文を受けて出荷しているが、価格・有償か無償か・保守料の有無は公開資料に無い。",
    "customerRecovery": [
-    "医療機関などの事業経費として負担"
+    "未確認"
    ],
-   "recoveryDetail": "販売先は医療機関（改修の通知は「納入先全て」の医療機関に送付）。価格が分からないため、医療機関の経費として核医学検査の診療収入でまかなう関係までしか言えない。製品自体の保険点数は無い。",
+   "recoveryDetail": "納入先は医療機関（改修の通知は「納入先全て」の医療機関に送付）だが、注文は担当 MR が受け、有償か無償か（放射性医薬品の取引に付く提供か）が資料にないため、医療機関の経費負担とはしない。製品自体の保険点数は無い。",
    "unknown": "価格、有償か無償か（放射性医薬品の取引との関係）、保守・バージョンアップの費用",
    "productSales": "未確認",
    "productSalesDetail": "注文・出荷は確認できる（2022-06 に承継後の出荷開始を告知）。販売代金を受け取るかは資料に無い。",
@@ -44022,8 +44138,8 @@
    ]
   },
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "ボーンナビBSI とカーディオレポの添付文書に「人工ニューラルネットワーク（ANN）を用いた」分類の記載があり、2製品は日本医学放射線学会の AI ソフトウェア認証一覧に載る。ほかの5製品（eZIS・3DSRT・smartMIBG・Amygo・AMYclz）は添付文書に AI の記載が無く、統計解析・関心領域による定量のソフトで、AI の使用は未確認。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使うのはボーンナビBSI とカーディオレポ（添付文書に「人工ニューラルネットワーク（ANN）を用いた」分類の記載。2製品は日本医学放射線学会の AI ソフトウェア認証一覧にも載る）。ほかの5製品（eZISニューロ・3DSRTニューロ・smartMIBGハート・Amygoニューロ・AMYclzニューロ）は添付文書に AI の記載が無く、統計解析・関心領域による定量のソフトで、AI の使用は未確認。",
    "sources": [
     {
      "url": "https://www.pdradiopharma.com/uploads/bsi_pi.pdf",
@@ -44274,9 +44390,9 @@
     "医療機関などの事業経費として負担"
    ],
    "recoveryDetail": "販売先は病院・クリニック（Attractive の発表）。価格が分からないため医療機関の経費として画像診断の診療収入でまかなう関係までしか言えない。製品の保険点数は無い。",
-   "unknown": "価格と課金の形、長瀬産業と PixSpace の間の対価の分け方、QIR-Suite・OLEA SPHERE の販売の有無",
-   "productSales": "未確認",
-   "productSalesDetail": "Attractive は 2023-02 に販売開始を発表し、製品ページで問い合わせを受け付けるが、長瀬産業が販売代金を受け取る形かは資料に無い。他の2製品は販売を確認できない。",
+   "unknown": "Attractive の価格と課金の形、長瀬産業と PixSpace の間の対価の分け方、QIR-Suite・OLEA SPHERE の販売の有無と販売者",
+   "productSales": "あり",
+   "productSalesDetail": "Attractive：長瀬産業が 2023-02-13 に国内での販売開始を発表し（「主に病院・クリニック向けに販売展開」）、事業・製品の問い合わせ先は長瀬産業ライフ＆ヘルスケア製品事業部。製品ページも問い合わせを受け付けている。価格と課金の形（売り切り・年額など）は書かれていない。QIR-Suite・OLEA SPHERE は販売開始の発表・販売窓口を確認できない。",
    "sources": [
     {
      "url": "https://kyodonewsprwire.jp/release/202302132881",
@@ -44395,8 +44511,8 @@
    ]
   },
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "Attractive：長瀬産業の発表に「DeepLearning で効率的に抽出・処理」「3D DeepLearning により胸部単純CTから左房と食道を自動抽出」。QIR-Suite：製造業者 CASIS のサイトに QIR-MR の機能解析が Deep Learning に基づくとある。OLEA SPHERE：添付文書に AI の記載は無く、未確認。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使うと資料にあるのは2製品。Attractive：長瀬産業の発表に「DeepLearning で効率的に抽出・処理」「3D DeepLearning により胸部単純CTから左房と食道を自動抽出」（添付文書は機能を画像処理・解析と書くだけで、別の方法の説明は無い）。QIR-Suite：製造業者 CASIS のサイトに載った利用者（医師）の声に、QIR-MR の機能解析が Deep Learning のアルゴリズムに基づく、深層学習のセグメンテーションを使うとある（CASIS 自身の製品説明ではなく、添付文書は機能を画像処理・解析と書くだけ）。OLEA SPHERE：添付文書に AI・機械学習の記載は無く、製品の資料でも確かめられないため未確認。",
    "sources": [
     {
      "url": "https://kyodonewsprwire.jp/release/202302132881",
@@ -44406,6 +44522,11 @@
     {
      "url": "https://casis.fr/",
      "publisher": "CASIS（QIR の製造業者）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_304ADBZX00120000_A_01_02",
+     "publisher": "PMDA（Attractive 添付文書）",
      "published": ""
     },
     {
@@ -45082,8 +45203,8 @@
    ],
    "recoveryDetail": "販売の対象は眼底検査を行う検査機関・健診センター（発表「健康診断などにおける眼底検査の診断を…依頼できる遠隔読影システム…の販売を開始」「検査機関と…をつなぐトライアル利用」）。価格・読影料の流れが分からないため、検査機関の経費として健診の収入でまかなう関係までしか言えない。トライアルが無償だったかは資料に無い。",
    "unknown": "料金（システム利用料・読影料）、契約者、読影医への支払いの流れ",
-   "productSales": "未確認",
-   "productSalesDetail": "2023-04-03 に販売開始を発表し試行を始めたが、その後の販売・導入の資料は見つからない。",
+   "productSales": "あり",
+   "productSalesDetail": "2023-04-03 にエムネスが販売開始を発表し、検査機関とビジョンケアネットワークスをつなぐトライアル利用も始めた（最後に確認できたモデル）。料金・収入の種類は書かれていない。いまの LOOKREC のサイトに本品の記載はなく、その後の販売・導入は確かめられない。",
    "sources": [
     {
      "url": "https://prtimes.jp/main/html/rd/p/000000011.000046248.html",
@@ -47136,8 +47257,8 @@
    ]
   },
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "FAQ「ClearRead は AI 技術を用いた胸部画像の読影支援システムのシリーズ名称」。ClearRead XR・CT+DC・CT-VS の製品ページは骨組織・肺血管の透過にディープラーニングを用いると書く（市販後の学習はしない）。MammoRead WS の資料に AI の記載はない。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使う製品：ClearRead XR・ClearRead CT+DC・ClearRead CT-VS（FAQ「ClearRead は AI 技術を用いた胸部画像の読影支援システムのシリーズ名称」、製品ページは骨組織・肺血管の透過にディープラーニングを用いると書く。市販後の学習はしない）。マンモグラフィ画像ビューア MammoRead WS の資料に AI の記載はない（AI の使用は未確認。2024 年にトーテックアメニティへ引き継がれ、東陽テクニカの販売品ではなくなった）。",
    "sources": [
     {
      "url": "https://www.toyo.co.jp/medical/faq/list/?contents_type=3773&c1=3763&l=2",
@@ -47443,7 +47564,7 @@
  "b-4216c809": {
   "id": "b-4216c809",
   "checkedAt": "2026-11-24",
-  "entity": "コスモテック株式会社（Us2.ai の選任製造販売業者。外国製造業者はシンガポールの Eko.ai Pte. Ltd.〔Us2.ai〕）",
+  "entity": "Eko.ai Pte. Ltd.（Us2.ai。シンガポール。製品の持ち主で電子添文の外国製造業者。日本ではエムスリーAI 株式会社が販売業者として M3 AI Platform で医療機関に提供し、コスモテック株式会社が選任製造販売業者）",
   "recordKind": "product",
   "problem": {
    "domain": "心臓超音波検査（心エコー）の計測・レポート作成",
@@ -47504,10 +47625,11 @@
    "supplier": [],
    "recommender": [],
    "contractor": [
-    "医療機関（エムスリーAI と契約）"
+    "医療機関（エムスリーAI と契約）",
+    "エムスリーAI（日本の販売業者。Us2.ai との契約の形は未確認）"
    ],
    "directPayer": [
-    "未確認（販売業者エムスリーAI からコスモテックへの対価の形は資料に記載なし）"
+    "未確認（販売業者エムスリーAI から Us2.ai〔Eko.ai Pte. Ltd.〕への対価の形は資料に記載なし）"
    ],
    "finalBearer": [
     "医療機関（M3 AI Platform の利用料。金額は未公表）"
@@ -47530,12 +47652,12 @@
    "values": [
     "未確認"
    ],
-   "detail": "コスモテックがこの製品で何を受け取るか（製造販売業者としての販売代金・手数料など）は資料に記載なし。医療機関向けは M3 AI Platform の AI の一つとして「収支を試算」「無料 AI 解析体験」の案内があるが、料金の額・形は公開されていない。",
+   "detail": "Us2.ai（Eko.ai Pte. Ltd.）がこの製品の日本での提供で何を受け取るか（販売業者からのライセンス料・販売代金など）は資料に記載なし。医療機関向けは M3 AI Platform の AI の一つとして「収支を試算」「無料 AI 解析体験」の案内があるが、料金の額・形は公開されていない。選任製造販売業者のコスモテックが受け取る対価も記載なし。",
    "customerRecovery": [
     "医療機関などの事業経費として負担"
    ],
    "recoveryDetail": "医療機関の経費。心臓超音波検査（D215）は保険で算定されるが、この製品に対応する点数はない。",
-   "unknown": "コスモテックの収入の形、M3 AI Platform で医療機関が払う料金の額と形、エムスリーAI・Us2.ai・コスモテックの間の対価の分け方",
+   "unknown": "Us2.ai の日本での収入の形、M3 AI Platform で医療機関が払う料金の額と形、エムスリーAI・Us2.ai・コスモテックの間の対価の分け方",
    "productSales": "あり",
    "productSalesDetail": "M3 AI Platform の紹介ページに「経胸壁心エコー図」の AI として掲載され、申込を受け付けている。",
    "sources": [
@@ -47819,9 +47941,9 @@
    ],
    "detail": "料金・課金の記載はない。最新版は会員サイト「メジひろば」から「ご請求ください」と案内しており、有償で売るのか、放射性医薬品の顧客に提供するのかは公開資料で分からない（製品情報は会員サイトの中）。",
    "customerRecovery": [
-    "医療機関などの事業経費として負担"
+    "未確認"
    ],
-   "recoveryDetail": "提供先は核医学検査を行う医療機関。価格や無償かどうかは分からない。製品に対応する保険点数はない。",
+   "recoveryDetail": "提供先は核医学検査を行う医療機関だが、有償で売るのか、放射性医薬品の顧客に提供するのかが資料で分からないため、医療機関の経費負担とは決めない。製品に対応する保険点数はない。",
    "unknown": "有償か無償か、価格と課金の形（ライセンス・保守）",
    "productSales": "未確認",
    "productSalesDetail": "医療機関で使われ、最新版の請求を受け付けていることは確認できるが、販売による収入かどうかは未確認。",
@@ -47925,13 +48047,23 @@
    ]
   },
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "VSBONE BSI：「骨格の解剖構造認識、ホットスポットの設定には、ディープラーニングを用いたニューラルネットワーク（学習済みモデル）を使用」（市販後の学習機能はない）。2023 年に「骨シンチグラム解析 AI の開発、実用化、および普及」で日本医用画像工学会の功績賞。medi+FALCON の資料に AI の記載はない。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使うのは VSBONE BSI：電子添文に「骨格の解剖構造認識，ホットスポットの設定は，ディープラーニングを用いたニューラルネットワーク（学習済みモデル）を使用している」、「市販後の学習機能は有さない」とある。2023 年に「骨シンチグラム解析 AI の開発、実用化、および普及」で日本医用画像工学会の功績賞を受けた。medi+FALCON の電子添文（2026-06 改訂）は、画素・関心領域ごとの統計値の算出、機能指標の算出、閾値に基づいたスコアリングなどで機能を説明しており、AI・機械学習の記載はない。",
    "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/530359_301ADBZX00029000_A_01_03",
+     "publisher": "PMDA（電子添文 核医学画像解析ソフトウェア VSBONE BSI、2023年8月 第3版）",
+     "published": "2023-08"
+    },
     {
      "url": "https://www.nmp.co.jp/sites/default/files/2023-07/20230731_NewsRelease.pdf",
      "publisher": "日本メジフィジックス（ニュースリリース）",
      "published": "2023-07-31"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/530359_301ADBZX00045000_A_01_04",
+     "publisher": "PMDA（電子添文 核医学画像解析ソフトウェア medi+FALCON、2026年6月 第4版）",
+     "published": "2026-06-15"
     }
    ]
   },
@@ -50901,292 +51033,6 @@
    "checkedAt": "2026-11-24"
   }
  },
- "b-437e44d1": {
-  "id": "b-437e44d1",
-  "name": "Symview オンライン診療",
-  "checkedAt": "2026-11-24",
-  "entity": "株式会社レイヤード（法人番号 2290001018911）",
-  "recordKind": "product",
-  "problem": {
-   "domain": "オンライン診療（診療所の予約・問診・診察・決済の動線）",
-   "who": "オンライン診療を始めたい診療所と、その患者",
-   "situation": "オンライン診療は専用システムが対面診療と別で業務が煩雑になり、事前問診ができず診察効率が落ち、患者には専用アプリやシステム利用料の負担がかかる。",
-   "sources": [
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000042.000004524.html",
-     "publisher": "レイヤード",
-     "published": "2023-05-15"
-    },
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    }
-   ]
-  },
-  "offering": {
-   "values": [
-    "医療機関・薬局向けソフト（クラウド・院内設置）"
-   ],
-   "detail": "WEB 問診 Symview に標準で付くビデオ通話機能を使ったオンライン診療。医療機関が管理画面でビデオ通話の URL を作りメール・SMS で患者に送り、患者はアプリなしでブラウザから入室する。WEB 問診・画像アップロード・WEB 版オンライン資格確認と、予約システム Wakumy（決済のスマート決済はオプション）と組み合わせ、予約から決済までを1つの動線にする。ビデオ通話は厚生労働省の指針でいう「汎用サービス」に類すると案内。足立区医師会の特定保健指導のオンライン化にも使われる。WEB 問診 Symview 本体は別の記録（b-239feaa6）。",
-   "sources": [
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    },
-    {
-     "url": "https://layered.inc/symview/faq/",
-     "publisher": "レイヤード（Symview よくある質問）",
-     "published": ""
-    },
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000081.000004524.html",
-     "publisher": "足立区医師会・レイヤード",
-     "published": "2026-06-23"
-    }
-   ]
-  },
-  "roles": {
-   "developer": [
-    "レイヤード"
-   ],
-   "mah": [],
-   "seller": [
-    "レイヤード（直接）",
-    "販売代理店（会社全体で契約医療機関の約7割が代理店経由。Symview オンライン診療だけの内訳は記載なし）"
-   ],
-   "operator": [],
-   "brandOwner": [],
-   "operatorUser": [
-    "医療機関の医師・スタッフ（ビデオ通話の予定を作り診察する）",
-    "患者（問診を入力しビデオ通話に入る）"
-   ],
-   "outputUser": [
-    "医師（問診内容を見て診察する）"
-   ],
-   "subject": [
-    "患者（レイヤードには払わない）"
-   ],
-   "supplier": [],
-   "recommender": [],
-   "contractor": [
-    "医療機関（医科診療所が中心）",
-    "医師会（足立区医師会の特定保健指導）"
-   ],
-   "directPayer": [
-    "医療機関（直販のとき。Symview の初期費用と月額費用。ビデオ通話に別途費用はない）",
-    "販売代理店（代理店経由の契約のとき。会社の事業系統図で医療機関の支払いが代理店を通ってレイヤードに届く）"
-   ],
-   "finalBearer": [
-    "医療機関（自院の経費）"
-   ],
-   "userPaysTo": [
-    "医療機関（診療費のみ。システム利用料など医療費以外の患者の費用負担は0円〔FAQ〕。スマート決済を使うときの支払先の仕組みは本記録では確認していない）"
-   ],
-   "sources": [
-    {
-     "url": "https://layered.inc/symview/price-flow/",
-     "publisher": "レイヤード（Symview 料金）",
-     "published": ""
-    },
-    {
-     "url": "https://layered.inc/symview/faq/",
-     "publisher": "レイヤード（Symview よくある質問）",
-     "published": ""
-    },
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    },
-    {
-     "url": "https://www.jpx.co.jp/listing/stocks/new/t13vrt000001uq4s-att/09LAYERED-1s.pdf",
-     "publisher": "レイヤード（有価証券届出書〔新規公開〕、JPX掲載）",
-     "published": "2026-08-20"
-    }
-   ]
-  },
-  "revenue": {
-   "values": [
-    "初期費用・導入費",
-    "月額・年額の利用料"
-   ],
-   "detail": "Symview の料金ページ：初期費用（設定・レクチャー費用込み）と月額費用で、ビデオ通話は「月額料金に含む」。オンライン診療の機能だけの別料金は無い（ページ「ビデオ通話機能のご利用にあたって別途費用の発生はありません」）。電子同意書・スマート決済・システム連携はオプションの別料金。金額は料金表（資料ダウンロード）にあり本文に記載なし。患者からの収入は無い。",
-   "customerRecovery": [
-    "医療機関などの事業経費として負担"
-   ],
-   "recoveryDetail": "医療機関が Symview の利用料を自院の経費として払い、オンライン診療の診療報酬（保険診療）や自費診療の収入でまかなう関係。患者はシステム利用料を払わない。特定保健指導に使うときは保険者の保健事業費で行われる指導の中で使う。",
-   "unknown": "金額、代理店経由のときの対価の流れ、特定保健指導での費用を誰が払うか",
-   "productSales": "あり",
-   "productSalesDetail": "Symview の標準機能として提供され、導入事例を掲載。",
-   "sources": [
-    {
-     "url": "https://layered.inc/symview/price-flow/",
-     "publisher": "レイヤード（Symview 料金）",
-     "published": ""
-    },
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    },
-    {
-     "url": "https://layered.inc/symview/faq/",
-     "publisher": "レイヤード（Symview よくある質問）",
-     "published": ""
-    }
-   ]
-  },
-  "channel": {
-   "first": [
-    "医療機関"
-   ],
-   "deal": [
-    "直接契約",
-    "代理店"
-   ],
-   "delivery": [
-    "Web"
-   ],
-   "detail": "Symview と同じ経路：レイヤードの営業・資料請求・デモ相談会から直接と、販売代理店（大手医薬品卸・開業支援コンサルなど）経由。患者はアプリを入れず、医療機関から届く URL でブラウザから使う。足立区医師会とは特定保健指導のモデルを共同で作った。",
-   "sources": [
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    },
-    {
-     "url": "https://www.jpx.co.jp/listing/stocks/new/t13vrt000001uq4s-att/09LAYERED-1s.pdf",
-     "publisher": "レイヤード（有価証券届出書〔新規公開〕、JPX掲載）",
-     "published": "2026-08-20"
-    },
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000081.000004524.html",
-     "publisher": "足立区医師会・レイヤード",
-     "published": "2026-06-23"
-    }
-   ]
-  },
-  "regulatory": {
-   "values": [
-    "医療機器ではない"
-   ],
-   "detail": "ビデオ通話・予約・決済などオンライン診療の通信と動線の機能。承認・認証の記載はない。一緒に使う WEB 問診 Symview 本体の薬事上の扱いは別の記録で「確認できず」としている。",
-   "sources": [
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    }
-   ]
-  },
-  "reimbursement": {
-   "values": [
-    "独立した評価なし（保険診療の中で使われる）",
-    "対象外（保険者の保健事業費）"
-   ],
-   "detail": "医療機関が行うオンライン診療（保険診療・自費診療）の中で使い、システム自体の点数はない。足立区医師会では特定保健指導（保険者の保健事業）のオンライン化に使う。",
-   "sources": [
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    },
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000081.000004524.html",
-     "publisher": "足立区医師会・レイヤード",
-     "published": "2026-06-23"
-    }
-   ]
-  },
-  "stage": {
-   "value": "一般提供",
-   "detail": "2023-05-15 に Symview のオンライン診療サービスとして提供開始を発表。",
-   "sources": [
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000042.000004524.html",
-     "publisher": "レイヤード",
-     "published": "2023-05-15"
-    },
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    }
-   ]
-  },
-  "activity": {
-   "value": "提供継続",
-   "detail": "オンライン診療のページが公開中で資料請求・デモ相談会を受け付けている（2026-11-24 閲覧）。2026-06-23 に足立区医師会との特定保健指導のモデルを発表。",
-   "signals": [
-    "製品ページ公開中（2026-11-24）",
-    "2026-06-23 足立区医師会との共同構築の発表"
-   ],
-   "sources": [
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    },
-    {
-     "url": "https://prtimes.jp/main/html/rd/p/000000081.000004524.html",
-     "publisher": "足立区医師会・レイヤード",
-     "published": "2026-06-23"
-    }
-   ]
-  },
-  "aiUse": {
-   "value": "AI の使用は未確認",
-   "detail": "オンライン診療のページ・FAQ に AI の記載はない。",
-   "sources": [
-    {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    },
-    {
-     "url": "https://layered.inc/symview/faq/",
-     "publisher": "レイヤード（Symview よくある質問）",
-     "published": ""
-    }
-   ]
-  },
-  "adoption": [
-   {
-    "metric": "オンライン診療での利用施設数",
-    "definition": "公表を確認できない",
-    "scope": "製品単体",
-    "value": "未確認",
-    "asOf": "未確認",
-    "source": null,
-    "ref": false
-   },
-   {
-    "metric": "WEB 問診 Symview の利用施設数",
-    "definition": "Symview を使う医科診療所の数（オンライン診療に使う施設の数ではない）",
-    "scope": "製品（WEB 問診 Symview 全体）",
-    "value": "全国約3,000施設",
-    "asOf": "2026-08",
-    "source": {
-     "url": "https://layered.inc/symview/telemedicine/",
-     "publisher": "レイヤード（Symview オンライン診療）",
-     "published": ""
-    },
-    "ref": true
-   }
-  ],
-  "periods": [],
-  "plan": "",
-  "sourcesChecked": {
-   "pricing": "https://layered.inc/symview/price-flow/（ビデオ通話は月額料金に含む、金額は資料）",
-   "faq": "https://layered.inc/symview/faq/",
-   "tokushoho": "無し（医療機関向けの契約のみ）",
-   "terms": "無し（公開の利用規約は見つからない）",
-   "appStore": "無し（患者はブラウザで使い、専用アプリなし）",
-   "checkedAt": "2026-11-24"
-  }
- },
  "b-0fe2a8d9": {
   "id": "b-0fe2a8d9",
   "name": "MY MEDICA",
@@ -52026,11 +51872,10 @@
    "detail": "個人向け：App Store のアプリ内課金に「自律神経を測る（自分・家族）」330円（1週間トライアル付き、サービスサイトでは月330円〔税込〕）、「自律神経を測る（いぬ・ねこ）」550円、「未来予測・お金」550円・5,500円、「カルテコ共有」220円。利用規約は有料サービスを月単位で課金し、App Store などの自動更新サブスクリプションでの利用を定める。診療記録・健診結果の閲覧の個人の料金は記載なし。医療機関・健診施設・企業向けの料金は公開されていない。",
    "customerRecovery": [
     "個人負担（費用回収の対象外）",
-    "医療機関などの事業経費として負担",
-    "雇用主の事業経費として負担"
+    "未確認"
    ],
-   "recoveryDetail": "個人は有料機能を自分で払う。医療機関・健診施設・企業はサービスを導入して使うが、料金の有無と額は公開されていない（販売先が分かり価格だけが分からないため経費として記載）。",
-   "unknown": "医療機関・健診施設・企業向けの料金、匿名加工情報の第三者提供による収入の有無（同意事項に記載はあるが収入は未確認）",
+   "recoveryDetail": "個人は有料機能（アプリ内課金）を自分で払う。医療機関・健診施設向けの診療情報等提供サービスと健診サービス、企業向けの workwell は、料金も有償か無償かも公開資料に無く（サービスページは問い合わせだけ）、導入先が分かっても費用負担は未確認とする。",
+   "unknown": "医療機関・健診施設・企業向けのサービスが有償か無償か、有償なら料金と課金の形。匿名加工情報の第三者提供による収入の有無（同意事項に記載はあるが収入は未確認）",
    "productSales": "あり",
    "productSalesDetail": "アプリを配信し有料機能を販売、導入医療機関・健診施設20施設を掲載。",
    "sources": [
@@ -56172,7 +56017,7 @@
   "id": "b-0d7b7800",
   "name": "Aビュー／AビューLung Nodule CAD（Coreline Soft の AVIEW。メディカルブリッジが選任製造販売業者）",
   "checkedAt": "2026-11-24",
-  "entity": "株式会社メディカルブリッジ（両製品の選任製造販売業者。法人番号 3120001200220）",
+  "entity": "Coreline Soft Co., Ltd.（韓国。両製品の持ち主・製造業者。日本での販売業者は資料で確認できない。選任製造販売業者の株式会社メディカルブリッジの収入は説明しない）",
   "recordKind": "group",
   "members": [
    {
@@ -56317,12 +56162,12 @@
    "values": [
     "未確認"
    ],
-   "detail": "未確認：日本での価格・課金の形（販売代金か利用料か）、販売者は公開資料にない。メディカルブリッジは輸入医療機器の製造販売・販売を事業とするが、自社サイトの製品紹介に本品は無い。",
+   "detail": "未確認：日本での価格・課金の形（販売代金か利用料か）と販売業者は公開資料にない。Coreline Soft の日本語サイトは価格を載せず、製品のデモの申込だけを受け付ける。選任製造販売業者のメディカルブリッジは輸入医療機器の製造販売・販売を事業とするが、自社サイトの製品紹介に本品は無い。",
    "customerRecovery": [
     "未確認"
    ],
    "recoveryDetail": "日本での販売先を資料で確認できない。製品の保険点数も確認できない。",
-   "unknown": "日本で販売されているか、販売者（メディカルブリッジ自身か別の会社か）、価格・課金の形、メディカルブリッジが Coreline Soft から受け取る対価の有無",
+   "unknown": "日本で販売されているか、日本での販売業者（Coreline Soft 自身か、メディカルブリッジか、別の会社か）、価格・課金の形",
    "productSales": "未確認",
    "productSalesDetail": "承認・認証の取得と添付文書の改訂は確認できるが、日本での発売・販売の案内は見つからない。",
    "sources": [
@@ -56339,6 +56184,11 @@
     {
      "url": "https://corelinesoft.com/ja-jp/aview/aview-software/",
      "publisher": "Coreline Soft（aview Software 製品一覧、日本語）",
+     "published": ""
+    },
+    {
+     "url": "https://corelinesoft.com/ja-jp/company/about-us/",
+     "publisher": "Coreline Soft（会社概要・沿革、日本語）",
      "published": ""
     }
    ]
@@ -58241,10 +58091,10 @@
   },
   "offering": {
    "values": [
-    "企業・保険者向けソフト",
+    "他社のサービスに組み込むソフト・API（B2B2C）",
     "情報・データベース"
    ],
-   "detail": "企業・保険者向けソフト：健康管理アプリ「カロミル」の食事記録機能を他社サービスに組み込む部品として提供する。カロミルAPI は食事画像解析・食事データベース検索・バーコード検索・体重バイタル画像解析をAPIで提供し、UI は利用企業が作る。カロミルWebView は食事記録の画面一式をWebView形式で提供し、メンテナンスはライフログテクノロジー側で行う（2022 年夏から）。情報・データベース：自炊・市販品・コンビニ・外食メニューを含む31万品目超の食事・栄養素データベースを API で引ける。利用者が記録した食事データは利用企業が自社サービスに使える。",
+   "detail": "他社のサービスに組み込むソフト・API：健康管理アプリ「カロミル」の食事記録機能を、ヘルスケア・フィットネス・保険・通信などの事業者が自社アプリ・LINE ミニアプリに組み込んで自社の利用者に届ける部品として提供する。カロミルAPI は食事画像解析・食事データベース検索・バーコード検索・体重バイタル画像解析をAPIで提供し、UI は利用企業が作る。カロミルWebView は食事記録の画面一式をWebView形式で提供し、メンテナンスはライフログテクノロジー側で行う（2022 年夏から）。情報・データベース：自炊・市販品・コンビニ・外食メニューを含む31万品目超の食事・栄養素データベースを API で引ける。利用者が記録した食事データは利用企業が自社サービスに使える。",
    "sources": [
     {
      "url": "https://www.calomeal.com/calomeal-api-webview/",
@@ -59768,7 +59618,7 @@
  "b-4e93f756": {
   "id": "b-4e93f756",
   "checkedAt": "2026-11-24",
-  "entity": "NEUROPHET, Inc.（韓国。外国製造医療機器特例認証取得者・製造業者）。日本の選任製造販売業者は株式会社ダブリューエスエム（石川県金沢市。韓国の医療機器会社の日本での認証取得の代行・選任製造販売業者の業務を請け負う）",
+  "entity": "NEUROPHET, Inc.（韓国。製品の持ち主・製造業者、外国製造医療機器特例認証取得者）。日本の選任製造販売業者は株式会社ダブリューエスエム（石川県金沢市）。同社は韓国の医療機器会社の日本での認証取得の代行・選任製造販売業者の業務のほか、輸入・設置・技術支援も事業とし、高度管理医療機器の販売業・貸与業の許可も持つが、本品を日本の医療機関に売っているかは資料で確かめられない。日本で医療機関に売る販売業者は未確認",
   "recordKind": "product",
   "problem": {
    "domain": "画像診断（認知症のアミロイドPET・FDG-PET）",
@@ -62000,7 +61850,7 @@
   "id": "b-289b2e69",
   "name": "RUS ラス／Lung ラス（Hutom 社の手術シミュレーションソフト。日本の製造販売：ダブリューエスエム）",
   "checkedAt": "2026-11-24",
-  "entity": "株式会社ダブリューエスエム（石川県金沢市。韓国 Hutom Inc. の製品の選任外国製造医療機器製造販売業者）",
+  "entity": "Hutom Inc.（韓国。2製品の外国製造医療機器特例認証取得者・製造業者）。日本の選任製造販売業者は株式会社ダブリューエスエム（石川県金沢市）。同社は韓国の医療機器会社の日本での認証取得の代行、選任製造販売業者の業務、輸入、設置と技術支援を事業とし、高度管理医療機器の販売業・貸与業の許可も持つが、本製品を医療機関に売っているかは資料で確かめられない。日本で医療機関に売る販売業者は未確認",
   "recordKind": "group",
   "members": [
    {
@@ -63691,7 +63541,7 @@
   },
   "offering": {
    "values": [
-    "企業・保険者向けソフト"
+    "他社のサービスに組み込むソフト・API（B2B2C）"
    ],
    "detail": "AI健康アプリ「カロママ プラス」（2017 年リリースの自社の生活者向けアプリ）に載っている健康管理機能・パーソナルアドバイス機能を、ソリューションとして他社に提供するサービス「カロママ アドバイスAI」。からサポ（イオン）には、約15万件の料理を認識する AI 食事画像認識と入力予測、運動・睡眠などの PHR 記録、PHR に基づく食事アドバイス、約350のレシピからのおすすめを提供。シャープの「からだメイト」には、ウォッチ・リングの計測データへの健康アドバイス、食事画像認識、400種類以上の献立提案を提供。大阪・関西万博の大阪ヘルスケアパビリオン「パーソナルフードスタンド」（セブン‐イレブン・ジャパン運営）にもアドバイスAI（1万3000パターン）を提供した。企業が自社の生活者向けサービスに組み込む部品で、企業の健康経営の用途ではない。カロママ プラスの個人向けアプリ・オンライン特定保健指導・RenoBody・アプリ受託開発は同社の別事業。",
    "sources": [
@@ -64750,10 +64600,10 @@
    "values": [
     "未確認"
    ],
-   "productSales": "未確認",
-   "productSalesDetail": "iQMR は 2019-07 に国内販売開始と報道されたが、その後の販売・導入の実績は確認できない。SafeCT は国内の販売開始自体を確認できない。",
+   "productSales": "あり",
+   "productSalesDetail": "2019-07-11 に長瀬産業（製造販売業者）が iQMR の国内販売開始を発表し、販売は同社が行う（MONOist 報道）。価格・課金の形は公開されていない。SafeCT は国内の販売開始を確認できない。いまも販売しているかは確認できない。",
    "detail": "価格・課金の形（買い切り・年額など）は公開されていない。",
-   "unknown": "販売の有無と価格・課金の形、販売先（医療機関への直販か販売店経由か）、いまも販売しているか",
+   "unknown": "価格・課金の形（買い切り・年額など）、販売先（医療機関への直販か販売店経由か）、SafeCT の国内販売の有無、いまも販売しているか",
    "customerRecovery": [
     "医療機関などの事業経費として負担"
    ],
@@ -66657,8 +66507,8 @@
    ]
   },
   "aiUse": {
-   "value": "AI を使う（資料で確認）",
-   "detail": "「AI搭載のレセコン一体型クラウド電子カルテ」。AIアシストが診察の会話を書き起こし、AI が SOAP 形式に要約する（出力は AI 生成物で医師が確認する前提）。",
+   "value": "一部の製品で AI を使う（資料で確認）",
+   "detail": "AI を使うのは電子カルテ「AIチャート byGMO」（「AI搭載のレセコン一体型クラウド電子カルテ」。AIアシストが診察中の音声を書き起こし、AI が SOAP 形式に要約する。出力は AI 生成物で医師が確認する前提）。予約・受付・Web問診・オンライン診療・決済の機能（単体でも導入できる）と患者向けの GMOクリニック・マップには AI の記載がない。",
    "sources": [
     {
      "url": "https://gmo-healthtech.com/healthtechone/feature/aichart/",
@@ -66669,6 +66519,11 @@
      "url": "https://gmo-healthtech.com/news/2178/",
      "publisher": "GMOヘルステック",
      "published": "2025-10-30"
+    },
+    {
+     "url": "https://gmo-healthtech.com/healthtechone/",
+     "publisher": "GMOヘルステック（ヘルステックONE byGMO）",
+     "published": ""
     }
    ]
   },
@@ -66745,10 +66600,10 @@
   },
   "offering": {
    "values": [
-    "患者・生活者向けアプリ",
+    "他社のサービスに組み込むソフト・API（B2B2C）",
     "コンサルティング・開発支援"
    ],
-   "detail": "PHR 管理アプリ「Smart One Health」（血圧・体重・血糖値などのバイタルとお薬・食事・運動の記録をグラフ化し、医療機関と共有）を、提供先のブランドのアプリとして OEM 提供し、必要な機能の選択や自社 EC・コンテンツとの連携、活用方法の提案まで支援する。提供先：沢井製薬（2021-05 協業。同社のアプリ「SaluDi」は 2021-09 配信開始）、ジブラルタ生命（2023-08、加入者向けオンライン診療サービスに Smart One Health のプラットフォームを活用）。",
+   "detail": "PHR 管理アプリ「Smart One Health」（血圧・体重・血糖値などのバイタルとお薬・食事・運動の記録をグラフ化し、医療機関と共有）を、提供先のブランドのアプリとして OEM 提供し、必要な機能の選択や自社 EC・コンテンツとの連携、活用方法の提案まで支援する。提供先：沢井製薬（2021-05 協業。同社のアプリ「SaluDi」は 2021-09 配信開始）、ジブラルタ生命（2023-08、加入者向けオンライン診療サービスに Smart One Health のプラットフォームを活用）。 生活者に届くアプリは提供先のブランドで提供先が配信する（SaluDi など）ので、インテグリティ・ヘルスケア自身の生活者向けアプリとはしない。",
    "sources": [
     {
      "url": "https://prtimes.jp/main/html/rd/p/000000009.000064327.html",

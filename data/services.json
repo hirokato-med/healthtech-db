@@ -17184,7 +17184,7 @@
     "companyId": "2290001018911",
     "category": "medical-dx",
     "description": "患者が来院前にスマホやPCから問診を入力するクリニック向けWEB問診。電子同意書・オンライン診療機能もあり、予約・患者管理・電話自動応答と組み合わせて売る。問診画面の一部は製薬企業の疾患啓発広告の媒体にもなる。",
-    "hp": "",
+    "hp": "https://layered.inc/symview/telemedicine/",
     "startedYear": 2018,
     "status": "提供中",
     "startedAt": "2018-11-05",
@@ -17237,9 +17237,11 @@
       "https://prtimes.jp/main/html/rd/p/000000009.000004524.html",
       "https://layered.inc/corporate/history/",
       "https://www.jpx.co.jp/listing/stocks/new/t13vrt000001uq4s-att/09LAYERED-1s.pdf",
-      "https://www.jpx.co.jp/listing/stocks/new/t13vrt000001uq4s-att/09LAYERED-Outline.pdf"
+      "https://www.jpx.co.jp/listing/stocks/new/t13vrt000001uq4s-att/09LAYERED-Outline.pdf",
+      "https://prtimes.jp/main/html/rd/p/000000042.000004524.html",
+      "https://prtimes.jp/main/html/rd/p/000000081.000004524.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "ai-symptom"
     ],
@@ -97626,25 +97628,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-437e44d1",
-    "name": "Symview オンライン診療",
-    "company": "株式会社レイヤード",
-    "companyId": "2290001018911",
-    "category": "telemedicine",
-    "description": "WEB問診Symviewに標準で付くビデオ通話機能を使ったオンライン診療。予約システムWakumyやスマート決済と組み合わせて予約・問診・診察・決済を1つの動線で行い、患者はアプリや利用料なしで使える。足立区医師会の特定保健指導のオンライン化にも使われる。",
-    "hp": "https://layered.inc/symview/telemedicine/",
-    "startedYear": 2023,
-    "status": "提供中",
-    "startedAt": "2023-05-15",
-    "startBasis": "オンライン診療サービスとして提供開始（プレスリリース）",
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000042.000004524.html",
-      "https://prtimes.jp/main/html/rd/p/000000081.000004524.html"
-    ],
-    "type": "telemedicine-clinic-system",
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-c643a006",
     "name": "Symview 電子同意書",
     "company": "株式会社レイヤード",
@@ -122040,7 +122023,7 @@
   {
     "id": "b-1903b983",
     "name": "Neurophet AQUA／AQUA AD",
-    "company": "株式会社ダブリューエスエム",
+    "company": "NEUROPHET, Inc.",
     "category": "medical-image",
     "description": "韓国 NEUROPHET 社の脳画像解析プログラム。AQUA は脳MRの部位ごとの体積を算出して健常者の基準値と比べ、AQUA AD はそれに加えてアミロイドPET の集積を定量する。日本ではダブリューエスエムが選任製造販売業者として認証を持つ。",
     "hp": "",
@@ -122094,7 +122077,7 @@
   {
     "id": "b-4e93f756",
     "name": "Neurophet SCALE PET",
-    "company": "株式会社ダブリューエスエム",
+    "company": "NEUROPHET, Inc.",
     "category": "medical-image",
     "description": "韓国Neurophet社のPET画像解析ソフトで、アミロイドPETなどの集積をMRIと組み合わせて定量化し、認知症診断を支援する汎用画像診断装置ワークステーション用プログラム。",
     "hp": "",
@@ -122183,7 +122166,7 @@
   {
     "id": "b-289b2e69",
     "name": "RUS ラス／Lung ラス",
-    "company": "株式会社ダブリューエスエム",
+    "company": "Hutom Inc.",
     "category": "medical-image",
     "description": "韓国 Hutom 社が開発した手術シミュレーションソフト。造影CTから AI で臓器・血管を識別した3Dデータを作り、医師が腹腔鏡などの器具を仮想的に置いて胃・腎・肺の手術を事前に検討できる。",
     "hp": "",
@@ -122276,7 +122259,7 @@
   {
     "id": "b-0d7b7800",
     "name": "Aビュー／Aビュー Lung Nodule CAD",
-    "company": "株式会社メディカルブリッジ",
+    "company": "Coreline Soft Co., Ltd.",
     "category": "medical-image",
     "description": "韓国 Coreline Soft が製造する CT 画像解析ソフト AVIEW の日本向け製品で、3次元表示・計測を行うビューワ「Aビュー」と、胸部CTから肺結節候補を検出する「AビューLung Nodule CAD」（2026年承認）。メディカルブリッジが選任製造販売業者として承認・認証を持つ。",
     "hp": "",
@@ -122627,7 +122610,7 @@
   {
     "id": "b-4216c809",
     "name": "超音波画像解析ソフトウェア Us2.ai",
-    "company": "コスモテック株式会社",
+    "company": "Eko.ai Pte. Ltd.",
     "category": "medical-image",
     "description": "シンガポールUs2.ai社の心エコー解析AIで、心臓超音波画像から心機能の各種指標を自動で計測し、レポートを作る。コスモテックが選任製造販売業者で、エムスリーAIがM3 AI Platformで医療機関に提供する。",
     "hp": "https://m3comlp.m3.com/lp/m3com/m3-ai-platform",
