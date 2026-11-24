@@ -131549,24 +131549,19 @@
   },
   {
     "id": "b-d1e50042",
-    "name": "SyMRI／Sectra Workstation（プライムファイン）",
-    "company": "有限会社プライムファイン",
+    "name": "SyMRI サイエムアールアイ（SyntheticMR AB）",
+    "company": "SyntheticMR AB",
     "category": "medical-image",
-    "description": "スウェーデン製の画像ソフト2製品。1回のMRI撮像から定量マップと複数のコントラスト画像を作るSyMRI（SyntheticMR社）と、Sectra社のPACS読影ワークステーションで、プライムファインが日本の選任製造販売業者を務める。",
-    "hp": "",
+    "description": "スウェーデンSyntheticMR社の頭部MRIの後処理ソフト。1回の撮像（MDME・3D-QALASシーケンス）からR1・R2・PDの定量マップと複数のコントラスト画像を作る。日本の選任製造販売業者はプライムファイン。",
+    "hp": "https://syntheticmr.com/",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2020",
     "milestones": [
       {
         "date": "2020",
         "text": "SyMRIサイエムアールアイ：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号302ADBZI00080000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/302ADBZI00080000_1_01"
-      },
-      {
-        "date": "2022",
-        "text": "Sectra Workstation and Sectra Core 画像診断ワークステーション用プログラム：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号304ADBZI00092000、番号の年号から年のみ）",
-        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZI00092000_1_01"
       }
     ],
     "sources": [
@@ -131575,21 +131570,7 @@
     ],
     "type": "imaging-diagnosis-ai",
     "updatedAt": "2026-10",
-    "device": {
-      "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZI00092000_1_01",
-      "genericName": "汎用画像診断装置ワークステーション用プログラム",
-      "maker": "有限会社プライムファイン",
-      "salesName": "Sectra Workstation and Sectra Core 画像診断ワークステーション用プログラム",
-      "insertUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
-      "insertDate": "2026-08-13",
-      "kind": "認証",
-      "number": "304ADBZI00092000",
-      "regulatoryClass": "管理医療機器",
-      "classLabel": "クラスII",
-      "category": "プログラム 01 疾病診断用プログラム",
-      "checkedAt": "2026-10"
-    },
-    "kind": "group"
+    "stage": "承認取得済み"
   },
   {
     "id": "b-83009fc3",
@@ -134524,20 +134505,15 @@
   },
   {
     "id": "b-38397711",
-    "name": "ClearRead（XR・CT+DC・CT-VS）／MammoRead WS（東陽テクニカ）",
+    "name": "ClearRead XR・CT+DC・CT-VS（東陽テクニカ）",
     "company": "株式会社東陽テクニカ",
     "category": "medical-image",
-    "description": "米Riverain社の胸部画像処理ソフトClearReadで、ディープラーニングにより胸部X線の骨陰影やCTの肺血管を透過し、結節などを見やすくする。マンモグラフィ読影ビューアMammoReadは2024年にトーテックアメニティへ引き継がれた。",
+    "description": "米Riverain Technologies社の胸部画像読影支援ソフトClearReadシリーズ。ディープラーニングで胸部X線の骨陰影（XR）や胸部CTの肺血管（CT+DC・CT-VS）を透過した画像を全自動で作り、結節などを見やすくする。東陽テクニカが製造販売し、医療機関・健診施設に販売する。",
     "hp": "https://www.toyo.co.jp/medical/products/list/contents_type=3119",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2019",
     "milestones": [
-      {
-        "date": "2019",
-        "text": "デジタル・マンモグラフィ画像ビューア MammoRead WS：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号301AOBZX00002000、番号の年号から年のみ）",
-        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01"
-      },
       {
         "date": "2019",
         "text": "胸部X線骨組織透過処理システム ClearRead XR：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号301AOBZX00003000、番号の年号から年のみ）",
@@ -134552,11 +134528,6 @@
         "date": "2021",
         "text": "胸部CT肺血管透過処理システム ClearRead CT-VS：X線CT診断装置用プログラムとして認証取得（認証番号303ADBZX00011000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00011000_1_02"
-      },
-      {
-        "date": "2021",
-        "text": "デジタル・マンモグラフィ画像ビューア MammoReadWS：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号303ADBZX00012000、番号の年号から年のみ）",
-        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01"
       },
       {
         "date": "2021",
@@ -134575,30 +134546,7 @@
     ],
     "type": "imaging-diagnosis-ai",
     "updatedAt": "2026-10",
-    "device": {
-      "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01",
-      "genericName": "汎用画像診断装置ワークステーション用プログラム",
-      "maker": "株式会社東陽テクニカ",
-      "salesName": "デジタル・マンモグラフィ画像ビューア　MammoRead WS",
-      "insertUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_301AOBZX00002000_1_01_01",
-      "insertDate": "2021-07-30",
-      "kind": "認証",
-      "number": "301AOBZX00002000",
-      "regulatoryClass": "管理医療機器",
-      "classLabel": "クラスII",
-      "jmdn": "70030012",
-      "category": "プログラム 01 疾病診断用プログラム",
-      "checkedAt": "2026-10"
-    },
-    "formerName": "ClearRead（XR・CT-VS・CT+DC）／MammoRead WS（東陽テクニカ）",
-    "pastEvents": [
-      {
-        "date": "2024-04",
-        "text": "MammoReadシリーズをトーテックアメニティが引き継ぎ、後継製品MammoRead Plusを発売",
-        "source": "https://kyodonewsprwire.jp/release/202404199724"
-      }
-    ],
-    "kind": "group"
+    "formerName": "ClearRead（XR・CT-VS・CT+DC）／MammoRead WS（東陽テクニカ）"
   },
   {
     "id": "b-e4f7c7e8",
@@ -134943,10 +134891,10 @@
   },
   {
     "id": "b-3c7debd1",
-    "name": "Attractive／QIR-Suite／OLEA SPHERE（長瀬産業）",
+    "name": "医用画像解析プログラム Attractive（長瀬産業・PixSpace）",
     "company": "長瀬産業株式会社",
     "category": "medical-image",
-    "description": "長瀬産業が製造販売業者となる画像解析ソフト群。CT・MRI から臓器などを抽出して定量するAttractive（PixSpace製）、心臓画像を解析するQIR-Suite（CASIS製）、CT・MRI の灌流・拡散などを解析するOLEA SPHERE（Olea Medical製）。",
+    "description": "PixSpaceが開発し、長瀬産業が製造販売・販売する医用画像解析ソフト。CT・MRIから臓器・血管などをディープラーニングで抽出し、全身DWIのBD-Scoreなど定量値を自動で計算する。院内のPCにインストールして使う。",
     "hp": "https://www.pixspace.co.jp/products/attractive",
     "startedYear": null,
     "status": "提供中",
@@ -134956,16 +134904,6 @@
         "date": "2022",
         "text": "医用画像解析プログラムAttractive：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号304ADBZX00120000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZX00120000_A_01"
-      },
-      {
-        "date": "2023",
-        "text": "心臓画像解析ソフトウェア QIR-Suite：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号305ADBZX00031000、番号の年号から年のみ）",
-        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/305ADBZX00031000_A_01"
-      },
-      {
-        "date": "2024",
-        "text": "医用画像解析プログラム OLEA SPHERE：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号306ADBZX00075000、番号の年号から年のみ）",
-        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/306ADBZX00075000_A_01"
       }
     ],
     "sources": [
@@ -134974,22 +134912,7 @@
     ],
     "type": "imaging-diagnosis-ai",
     "updatedAt": "2026-10",
-    "device": {
-      "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZX00120000_A_01",
-      "genericName": "汎用画像診断装置ワークステーション用プログラム",
-      "maker": "長瀬産業株式会社",
-      "salesName": "医用画像解析プログラムAttractive",
-      "insertUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_304ADBZX00120000_A_01_02",
-      "insertDate": "2023-01-23",
-      "kind": "認証",
-      "number": "304ADBZX00120000",
-      "regulatoryClass": "管理医療機器",
-      "classLabel": "クラスII",
-      "category": "プログラム 01 疾病診断用プログラム",
-      "checkedAt": "2026-10"
-    },
-    "startedAt": "2023-02-13",
-    "kind": "group"
+    "startedAt": "2023-02-13"
   },
   {
     "id": "b-9751ce39",
@@ -137652,5 +137575,164 @@
       }
     ],
     "endReasonCaveat": "米国の製品一覧に掲載がなく、旧公式ドメインに接続できないが、終了の告知は確認できない（2026-11-19）。終了とは判定していない。"
+  },
+  {
+    "id": "b-416d05aa",
+    "name": "デジタル・マンモグラフィ画像ビューア MammoRead WS（東陽テクニカ）",
+    "company": "株式会社東陽テクニカ",
+    "category": "medical-image",
+    "type": "imaging-diagnosis-ai",
+    "description": "マンモグラフィ画像を画像診断装置や画像保管装置から取り込んで表示・処理し、読影に使うビューア。東陽テクニカが製造販売していたが、2024年にMammoReadシリーズはトーテックアメニティへ引き継がれ、後継製品MammoRead Plusとして販売されている。",
+    "hp": "https://www.toyo.co.jp/medical/products/detail/?id=82",
+    "startedYear": null,
+    "status": "終了",
+    "sources": [
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01",
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_303ADBZX00012000_1_02_01",
+      "https://www.toyo.co.jp/medical/products/detail/?id=82",
+      "https://kyodonewsprwire.jp/release/202404199724"
+    ],
+    "milestones": [
+      {
+        "date": "2019",
+        "text": "デジタル・マンモグラフィ画像ビューア MammoRead WS：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号301AOBZX00002000、番号の年号から年のみ）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01"
+      },
+      {
+        "date": "2021",
+        "text": "デジタル・マンモグラフィ画像ビューア MammoReadWS：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号303ADBZX00012000、番号の年号から年のみ）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01"
+      },
+      {
+        "date": "2022-06-02",
+        "text": "認証303ADBZX00012000の添付文書を第3版に改訂",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_303ADBZX00012000_1_02_01"
+      },
+      {
+        "date": "2023-01",
+        "text": "旧製品MammoRead Viewer [Ver.8]のサポートを2023年6月30日で終えると案内し、後継機種としてMammoRead WSを挙げる",
+        "source": "https://www.toyo.co.jp/files/user/medical/pdf/MammoReadViewer(ver.8)%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E7%B5%82%E4%BA%86%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85.pdf"
+      },
+      {
+        "date": "2024-04",
+        "text": "MammoReadシリーズをトーテックアメニティが引き継ぎ、後継製品MammoRead Plusを2024年4月15日に発売",
+        "source": "https://kyodonewsprwire.jp/release/202404199724"
+      }
+    ],
+    "saleEnded": {
+      "maintenance": "未確認"
+    },
+    "endedAt": "2024-04",
+    "endReasons": [
+      "unknown"
+    ],
+    "endReasonInfo": {
+      "sources": [
+        "会社発表"
+      ],
+      "stated": "理由を確認できていない",
+      "interpretation": "なし"
+    },
+    "after": {
+      "event": "事業譲渡",
+      "fate": "別サービスへ移行",
+      "asOf": "2026-11",
+      "sourceDate": "2024-04",
+      "note": "MammoRead シリーズはトーテックアメニティに引き継がれ、後継の MammoRead Plus が出ている"
+    },
+    "successor": "MammoRead Plus（トーテックアメニティ）"
+  },
+  {
+    "id": "b-979cb736",
+    "name": "心臓画像解析ソフトウェア QIR-Suite（長瀬産業）",
+    "company": "長瀬産業株式会社",
+    "category": "medical-image",
+    "type": "imaging-diagnosis-ai",
+    "description": "仏CASIS社の心臓画像解析ソフトQIRを、長瀬産業が製造販売業者として認証を取ったもの。心臓のMRI・CTの画像を表示・処理し、定量的に評価する。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "stage": "承認取得済み",
+    "sources": [
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/305ADBZX00031000_A_01",
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
+      "https://casis.fr/ja/home-jp/",
+      "https://casis.fr/qir-mr/"
+    ],
+    "milestones": [
+      {
+        "date": "2023",
+        "text": "心臓画像解析ソフトウェア QIR-Suite：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号305ADBZX00031000、番号の年号から年のみ）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/305ADBZX00031000_A_01"
+      },
+      {
+        "date": "2023-04",
+        "text": "添付文書 第1版を作成（PMDA の掲載は2023年5月9日）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01"
+      }
+    ]
+  },
+  {
+    "id": "b-f924238c",
+    "name": "医用画像解析プログラム OLEA SPHERE（長瀬産業）",
+    "company": "長瀬産業株式会社",
+    "category": "medical-image",
+    "type": "imaging-diagnosis-ai",
+    "description": "仏Olea Medical社の画像解析ソフトOlea Sphereを、長瀬産業が製造販売業者として2024年に認証を取ったもの。CT・MRIの画像を2次元・3次元処理・解析して表示し、診療に使う画像情報を示す。キヤノンメディカルシステムズの認証品（OLSP-001A）とは別の認証。",
+    "hp": "",
+    "startedYear": null,
+    "status": "不明",
+    "stage": "承認取得済み",
+    "sources": [
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/306ADBZX00075000_A_01",
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+      "https://www.olea-medical.com/en/our-philosophy/"
+    ],
+    "milestones": [
+      {
+        "date": "2024",
+        "text": "医用画像解析プログラム OLEA SPHERE：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号306ADBZX00075000、番号の年号から年のみ）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/306ADBZX00075000_A_01"
+      },
+      {
+        "date": "2024-03",
+        "text": "添付文書 第1版を作成（PMDA の一覧の掲載日は2025年3月3日）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01"
+      }
+    ]
+  },
+  {
+    "id": "b-a728354d",
+    "name": "Sectra Workstation and Sectra Core 画像診断ワークステーション用プログラム（Sectra AB）",
+    "company": "Sectra AB",
+    "category": "medical-image",
+    "type": "imaging-diagnosis-ai",
+    "description": "スウェーデンSectra社の画像診断ソフト。CR・DR・CT・MRI・病理のホールスライド画像・超音波・マンモグラフィなどの画像を表示・処理し、施設内外で共有する。院内のPCに入れるほかクラウドでも使える。日本の選任製造販売業者はプライムファイン、デジタルパソロジーの販売パートナーは松浪硝子工業。",
+    "hp": "https://medical.sectra.com/",
+    "startedYear": null,
+    "status": "提供中",
+    "sources": [
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZI00092000_1_01",
+      "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
+      "https://kyodonewsprwire.jp/release/202601082126"
+    ],
+    "milestones": [
+      {
+        "date": "2022",
+        "text": "Sectra Workstation and Sectra Core 画像診断ワークステーション用プログラム：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号304ADBZI00092000、番号の年号から年のみ）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZI00092000_1_01"
+      },
+      {
+        "date": "2026-01-08",
+        "text": "販売パートナーの松浪硝子工業と、亀田メディカルセンターで国内初のデジタルパソロジープロジェクトの導入フェーズを始めたと発表",
+        "source": "https://kyodonewsprwire.jp/release/202601082126"
+      },
+      {
+        "date": "2026-06",
+        "text": "添付文書を第2版に改訂（PMDA の掲載は2026年8月13日）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02"
+      }
+    ]
   }
 ]

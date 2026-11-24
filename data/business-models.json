@@ -44214,82 +44214,12 @@
  },
  "b-3c7debd1": {
   "id": "b-3c7debd1",
-  "name": "Attractive／QIR-Suite／OLEA SPHERE（長瀬産業）",
+  "name": "医用画像解析プログラム Attractive（長瀬産業・PixSpace）",
   "checkedAt": "2026-11-24",
-  "entity": "長瀬産業株式会社（3製品の製造販売業者。Attractive は自社が販売する。開発・製造は PixSpace・CASIS・Olea Medical）",
-  "recordKind": "group",
-  "members": [
-   {
-    "name": "医用画像解析プログラム Attractive（PixSpace 製。CT・MRI の3D抽出と定量の汎用ワークステーションソフト）",
-    "status": "提供中",
-    "stage": "一般提供",
-    "regulatory": "認証 304ADBZX00120000（2022-12、汎用画像診断装置ワークステーション用プログラム、管理医療機器・クラスII。製造販売業者 長瀬産業、製造業者 PixSpace）",
-    "startedAt": "2023-02-13（長瀬産業の販売開始の発表日）",
-    "hp": "https://www.pixspace.co.jp/products/attractive",
-    "sources": [
-     {
-      "url": "https://kyodonewsprwire.jp/release/202302132881",
-      "publisher": "長瀬産業・PixSpace（医用画像解析プログラム『Attractive』販売開始）",
-      "published": "2023-02-13"
-     },
-     {
-      "url": "https://www.pixspace.co.jp/products/attractive",
-      "publisher": "PixSpace（Attractive 製品ページ）",
-      "published": ""
-     },
-     {
-      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_304ADBZX00120000_A_01_02",
-      "publisher": "PMDA（Attractive 添付文書）",
-      "published": ""
-     }
-    ],
-    "note": "全身DWIの BD-Score、非造影胸部CTの左房・食道の抽出、内耳MRI、大腸CT など20種類以上のアプリケーション。院内の既存PCにインストールして使う。製品ページは問い合わせを受け付けている（2026-11-24）。"
-   },
-   {
-    "name": "心臓画像解析ソフトウェア QIR-Suite（仏 CASIS 製。心臓MRI・CTの解析）",
-    "status": "不明",
-    "stage": "承認取得済み・提供状況未確認",
-    "regulatory": "認証 305ADBZX00031000（汎用画像診断装置ワークステーション用プログラム、管理医療機器・クラスII。添付文書 第1版 2023-04、製造販売業者 長瀬産業、製造業者 CASIS）",
-    "startedAt": "",
-    "hp": "",
-    "sources": [
-     {
-      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
-      "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
-      "published": "2023-04"
-     },
-     {
-      "url": "https://casis.fr/",
-      "publisher": "CASIS（QIR の製造業者）",
-      "published": ""
-     }
-    ],
-    "note": "長瀬産業の販売開始の発表・製品ページは見つからない。製造業者 CASIS のサイトは QIR-MR の機能解析に Deep Learning を使うと説明。"
-   },
-   {
-    "name": "医用画像解析プログラム OLEA SPHERE（仏 Olea Medical 製。CT・MRI の灌流・拡散などの解析）",
-    "status": "不明",
-    "stage": "承認取得済み・提供状況未確認",
-    "regulatory": "認証 306ADBZX00075000（汎用画像診断装置ワークステーション用プログラム、管理医療機器・クラスII。添付文書 第1版 2024-03、ダウンロードで提供。製造販売業者 長瀬産業、製造業者 Olea Medical）",
-    "startedAt": "",
-    "hp": "",
-    "sources": [
-     {
-      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
-      "publisher": "PMDA（OLEA SPHERE 添付文書 第1版）",
-      "published": "2024-03"
-     },
-     {
-      "url": "https://www.olea-medical.com/en/",
-      "publisher": "Olea Medical（OLEA SPHERE の製造業者）",
-      "published": ""
-     }
-    ],
-    "note": "長瀬産業の販売開始の発表・製品ページは見つからない。Olea Medical はキヤノンメディカルシステムズの子会社。"
-   }
-  ],
+  "entity": "長瀬産業株式会社（Attractive の製造販売業者・販売元。開発・製造は PixSpace）",
+  "recordKind": "product",
   "problem": {
-   "domain": "画像診断（CT・MRI の3D処理・定量解析、心臓画像、灌流・拡散画像）",
+   "domain": "画像診断（CT・MRI の3D抽出・定量解析）",
    "who": "CT・MRI を読影・解析する医師（病院・クリニック）",
    "situation": "CT・MRI から3Dの形状や定量値を得るには、膨大な画像のトレース・抽出・重ね合わせが必要で、医師個人の負担が大きい。",
    "sources": [
@@ -44304,7 +44234,7 @@
    "values": [
     "医療機関・薬局向けソフト（クラウド・院内設置）"
    ],
-   "detail": "汎用PCにインストールして使う3つの画像解析プログラム医療機器。Attractive（PixSpace）は CT・MRI から臓器・血管などを抽出し定量値を自動計算する（全身DWI の BD-Score、非造影胸部CTの左房抽出など）。QIR-Suite（CASIS）は心臓 MRI・CT の解析、OLEA SPHERE（Olea Medical）は CT・MRI の画像処理・解析。専用の機器は付かない。長瀬産業は海外・国内メーカーのソフトの製造販売業者（薬事の窓口）として関わる。",
+   "detail": "PixSpace が開発した CT・MRI の画像解析ソフト。CT・MRI から血管・肝臓など特定の領域を抽出し、定量・定性の項目を自動で計算する。全身DWI の BD-Score、非造影胸部CT の左房・食道の抽出、CT 頭部、内耳MRI、大腸CT など専用の解析アプリケーションを持つ。院内の既存の PC にインストールして使い、専用の機器は付かない。",
    "sources": [
     {
      "url": "https://kyodonewsprwire.jp/release/202302132881",
@@ -44319,32 +44249,19 @@
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_304ADBZX00120000_A_01_02",
      "publisher": "PMDA（Attractive 添付文書）",
-     "published": ""
-    },
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
-     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
-     "published": "2023-04"
-    },
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
-     "publisher": "PMDA（OLEA SPHERE 添付文書 第1版）",
-     "published": "2024-03"
+     "published": "2023-01-23"
     }
    ]
   },
   "roles": {
    "developer": [
-    "PixSpace（Attractive）",
-    "CASIS（QIR-Suite、フランス）",
-    "Olea Medical（OLEA SPHERE、フランス）"
+    "PixSpace（北九州市。開発・製造）"
    ],
    "mah": [
-    "長瀬産業（認証 304ADBZX00120000・305ADBZX00031000・306ADBZX00075000）"
+    "長瀬産業（認証 304ADBZX00120000）"
    ],
    "seller": [
-    "長瀬産業（Attractive の販売。ライフ＆ヘルスケア製品事業部が窓口）",
-    "未確認（QIR-Suite・OLEA SPHERE の販売者）"
+    "長瀬産業（国内での販売。ライフ＆ヘルスケア製品事業部が窓口）"
    ],
    "operator": [],
    "brandOwner": [],
@@ -44363,11 +44280,12 @@
     "医療機関（病院・クリニック）"
    ],
    "directPayer": [
-    "未確認"
+    "未確認（長瀬産業が直接売るか販売店を通すかは書かれていない）"
    ],
    "finalBearer": [
     "医療機関（自施設の経費。価格は未確認）"
    ],
+   "userPaysTo": [],
    "sources": [
     {
      "url": "https://kyodonewsprwire.jp/release/202302132881",
@@ -44377,6 +44295,11 @@
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_304ADBZX00120000_A_01_02",
      "publisher": "PMDA（Attractive 添付文書）",
+     "published": "2023-01-23"
+    },
+    {
+     "url": "https://www.pixspace.co.jp/",
+     "publisher": "PixSpace（トップページ）",
      "published": ""
     }
    ]
@@ -44385,14 +44308,14 @@
    "values": [
     "未確認"
    ],
-   "detail": "Attractive は長瀬産業が「主に病院・クリニック向けに販売展開」と発表したが、価格・課金の形（買い切り・年額など）は公開資料に無い。QIR-Suite・OLEA SPHERE は販売の資料自体が無い。",
+   "detail": "長瀬産業は「主に病院・クリニック向けに販売展開」と発表したが、価格・課金の形（買い切り・年額など）は公開資料にない。",
    "customerRecovery": [
     "医療機関などの事業経費として負担"
    ],
-   "recoveryDetail": "販売先は病院・クリニック（Attractive の発表）。価格が分からないため医療機関の経費として画像診断の診療収入でまかなう関係までしか言えない。製品の保険点数は無い。",
-   "unknown": "Attractive の価格と課金の形、長瀬産業と PixSpace の間の対価の分け方、QIR-Suite・OLEA SPHERE の販売の有無と販売者",
+   "recoveryDetail": "販売先は病院・クリニック（発表）。医療機関の経費で、画像診断の診療収入でまかなう関係。製品に対応する保険点数は確認できない。",
+   "unknown": "価格と課金の形、長瀬産業と PixSpace の間の対価の分け方",
    "productSales": "あり",
-   "productSalesDetail": "Attractive：長瀬産業が 2023-02-13 に国内での販売開始を発表し（「主に病院・クリニック向けに販売展開」）、事業・製品の問い合わせ先は長瀬産業ライフ＆ヘルスケア製品事業部。製品ページも問い合わせを受け付けている。価格と課金の形（売り切り・年額など）は書かれていない。QIR-Suite・OLEA SPHERE は販売開始の発表・販売窓口を確認できない。",
+   "productSalesDetail": "長瀬産業が 2023-02-13 に国内での販売開始を発表し（「主に病院・クリニック向けに販売展開」）、問い合わせ先は長瀬産業ライフ＆ヘルスケア製品事業部。PixSpace の製品ページも問い合わせを受け付けている。",
    "sources": [
     {
      "url": "https://kyodonewsprwire.jp/release/202302132881",
@@ -44412,7 +44335,7 @@
    ],
    "deal": [],
    "delivery": [],
-   "detail": "Attractive は「主に病院・クリニック向けに販売展開」（長瀬産業・PixSpace の発表）。問い合わせ先は長瀬産業ライフ＆ヘルスケア製品事業部と PixSpace の問い合わせフォーム。直販か代理店かは資料に無い。",
+   "detail": "「主に病院・クリニック向けに販売展開」（長瀬産業・PixSpace の発表）。問い合わせ先は長瀬産業ライフ＆ヘルスケア製品事業部と PixSpace の問い合わせフォーム。直販か代理店かは資料にない。",
    "sources": [
     {
      "url": "https://kyodonewsprwire.jp/release/202302132881",
@@ -44430,22 +44353,17 @@
    "values": [
     "承認・認証・届出を確認"
    ],
-   "detail": "3製品とも汎用画像診断装置ワークステーション用プログラム（管理医療機器・クラスII）の認証：Attractive 304ADBZX00120000（2022-12）、QIR-Suite 305ADBZX00031000（添付文書 第1版 2023-04）、OLEA SPHERE 306ADBZX00075000（添付文書 第1版 2024-03）。製造販売業者はいずれも長瀬産業。",
+   "detail": "汎用画像診断装置ワークステーション用プログラム（管理医療機器・クラスII、疾病診断用プログラム）の認証 304ADBZX00120000（2022-12）。製造販売業者は長瀬産業、製造業者は PixSpace。PixSpace のトップページにも販売名・認証番号・製造販売業者を掲載。",
    "sources": [
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_304ADBZX00120000_A_01_02",
      "publisher": "PMDA（Attractive 添付文書）",
+     "published": "2023-01-23"
+    },
+    {
+     "url": "https://www.pixspace.co.jp/",
+     "publisher": "PixSpace（トップページ）",
      "published": ""
-    },
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
-     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
-     "published": "2023-04"
-    },
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
-     "publisher": "PMDA（OLEA SPHERE 添付文書 第1版）",
-     "published": "2024-03"
     }
    ]
   },
@@ -44453,18 +44371,18 @@
    "values": [
     "独立した評価なし（保険診療の中で使われる）"
    ],
-   "detail": "CT・MRI 検査（保険診療）の画像処理・読影の中で使う。製品に対応する点数・材料価格は無い。",
+   "detail": "CT・MRI 検査（保険診療）の画像処理・読影の中で使う。製品に対応する点数・材料価格は確認できない。",
    "sources": [
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_304ADBZX00120000_A_01_02",
      "publisher": "PMDA（Attractive 添付文書）",
-     "published": ""
+     "published": "2023-01-23"
     }
    ]
   },
   "stage": {
    "value": "一般提供",
-   "detail": "Attractive は 2023-02-13 に販売開始を発表し、PixSpace の製品ページが公開中で問い合わせを受け付ける（2026-11-24）。QIR-Suite と OLEA SPHERE は認証と添付文書を確認できたが、販売開始の発表・製品ページは見つからず、提供状況は未確認。",
+   "detail": "2023-02-13 に販売開始を発表し、PixSpace の製品ページが公開中で問い合わせを受け付ける（2026-11-24 閲覧）。",
    "sources": [
     {
      "url": "https://kyodonewsprwire.jp/release/202302132881",
@@ -44475,26 +44393,15 @@
      "url": "https://www.pixspace.co.jp/products/attractive",
      "publisher": "PixSpace（Attractive 製品ページ）",
      "published": ""
-    },
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
-     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
-     "published": "2023-04"
-    },
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
-     "publisher": "PMDA（OLEA SPHERE 添付文書 第1版）",
-     "published": "2024-03"
     }
    ]
   },
   "activity": {
    "value": "提供継続",
-   "detail": "Attractive の製品ページが公開中（PixSpace のトップに製造販売業者 長瀬産業と認証番号を掲載）。他の2製品の継続は確かめられない。",
+   "detail": "Attractive の製品ページが公開中（PixSpace のトップに製造販売業者 長瀬産業と認証番号を掲載）。",
    "signals": [
     "Attractive の製品ページ公開中・問い合わせ受付（2026-11-24）",
     "長瀬産業のサイトに医療画像ソフトの製品ページは見つからない",
-    "QIR-Suite・OLEA SPHERE の販売の告知は見つからない",
     "終了告知は確認できない"
    ],
    "sources": [
@@ -44511,8 +44418,8 @@
    ]
   },
   "aiUse": {
-   "value": "一部の製品で AI を使う（資料で確認）",
-   "detail": "AI を使うと資料にあるのは2製品。Attractive：長瀬産業の発表に「DeepLearning で効率的に抽出・処理」「3D DeepLearning により胸部単純CTから左房と食道を自動抽出」（添付文書は機能を画像処理・解析と書くだけで、別の方法の説明は無い）。QIR-Suite：製造業者 CASIS のサイトに載った利用者（医師）の声に、QIR-MR の機能解析が Deep Learning のアルゴリズムに基づく、深層学習のセグメンテーションを使うとある（CASIS 自身の製品説明ではなく、添付文書は機能を画像処理・解析と書くだけ）。OLEA SPHERE：添付文書に AI・機械学習の記載は無く、製品の資料でも確かめられないため未確認。",
+   "value": "AI を使う（資料で確認）",
+   "detail": "長瀬産業・PixSpace の発表に「3D医用画像データを DeepLearning で効率的に抽出・処理」「3D DeepLearning により胸部単純CT から左房と食道を自動抽出」。添付文書は機能を画像処理・解析と書くだけで、別の方法の説明はない。",
    "sources": [
     {
      "url": "https://kyodonewsprwire.jp/release/202302132881",
@@ -44520,19 +44427,9 @@
      "published": "2023-02-13"
     },
     {
-     "url": "https://casis.fr/",
-     "publisher": "CASIS（QIR の製造業者）",
-     "published": ""
-    },
-    {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_304ADBZX00120000_A_01_02",
      "publisher": "PMDA（Attractive 添付文書）",
-     "published": ""
-    },
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
-     "publisher": "PMDA（OLEA SPHERE 添付文書 第1版）",
-     "published": "2024-03"
+     "published": "2023-01-23"
     }
    ]
   },
@@ -44551,8 +44448,8 @@
     "ref": true
    },
    {
-    "metric": "製品ごとの導入施設数",
-    "definition": "3製品とも製品単体の導入数の公表は見つからない",
+    "metric": "Attractive の導入施設数",
+    "definition": "製品単体の導入数の公表は見つからない",
     "scope": "製品単体",
     "value": "未確認",
     "asOf": "未確認",
@@ -46900,102 +46797,12 @@
  },
  "b-38397711": {
   "id": "b-38397711",
+  "name": "ClearRead XR・CT+DC・CT-VS（東陽テクニカ）",
   "checkedAt": "2026-11-24",
   "entity": "株式会社東陽テクニカ（ClearRead シリーズの製造販売業者・販売元。米 Riverain Technologies の製品を扱う）",
-  "recordKind": "group",
-  "members": [
-   {
-    "name": "胸部X線骨組織透過処理システム ClearRead XR（骨組織透過・経時差分 +Compare・チューブ強調 +Confirm）",
-    "status": "提供中",
-    "stage": "一般提供",
-    "regulatory": "認証 303ADBZX00013000（汎用画像診断装置ワークステーション用プログラム）。2019 年の認証 301AOBZX00003000 もある。電子添文の最新は 2026-01",
-    "startedAt": "未確認",
-    "hp": "https://www.toyo.co.jp/medical/products/detail/clearread_xr",
-    "sources": [
-     {
-      "url": "https://www.toyo.co.jp/medical/products/detail/clearread_xr",
-      "publisher": "東陽テクニカ（ClearRead XR 製品ページ）",
-      "published": ""
-     },
-     {
-      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01",
-      "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
-      "published": ""
-     }
-    ],
-    "note": "製品ページに見積もり依頼・問い合わせ。旧製品名の ClearRead BS・+Compare・+Confirm は ClearRead XR の機能として説明される"
-   },
-   {
-    "name": "胸部CT読影支援システム ClearRead CT+DC（肺血管透過・関心領域の検出と計測・過去画像との比較）",
-    "status": "提供中",
-    "stage": "一般提供",
-    "regulatory": "認証 303ADBZX00098000（X線CT診断装置用プログラム）。電子添文の最新は 2025-08",
-    "startedAt": "未確認（認証番号の年号から 2021 年）",
-    "hp": "https://www.toyo.co.jp/medical/products/detail/clearread_ctdc",
-    "sources": [
-     {
-      "url": "https://www.toyo.co.jp/medical/products/detail/clearread_ctdc",
-      "publisher": "東陽テクニカ（ClearRead CT+DC 製品ページ）",
-      "published": ""
-     },
-     {
-      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00098000_1_02",
-      "publisher": "PMDA（X線CT診断装置用プログラム 一覧）",
-      "published": ""
-     }
-    ],
-    "note": "導入事例：聖路加国際病院・徳島大学病院・岩手予防医学協会・熊本中央病院"
-   },
-   {
-    "name": "胸部CT肺血管透過処理システム ClearRead CT-VS",
-    "status": "提供中",
-    "stage": "一般提供",
-    "regulatory": "認証 303ADBZX00011000（X線CT診断装置用プログラム）。2019 年の認証 301AOBZX00006000 もある",
-    "startedAt": "未確認",
-    "hp": "https://www.toyo.co.jp/medical/products/detail/clearread-ctvs",
-    "sources": [
-     {
-      "url": "https://www.toyo.co.jp/medical/products/detail/clearread-ctvs",
-      "publisher": "東陽テクニカ（ClearRead CT-VS 製品ページ）",
-      "published": ""
-     },
-     {
-      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00098000_1_02",
-      "publisher": "PMDA（X線CT診断装置用プログラム 一覧）",
-      "published": ""
-     }
-    ],
-    "note": "製品ページは公開中だが、ページに載る販売名・認証番号は ClearRead CT+DC のもの。肺血管透過は CT+DC にも含まれる"
-   },
-   {
-    "name": "デジタル・マンモグラフィ画像ビューア MammoRead WS（MammoRead シリーズ）",
-    "status": "譲渡",
-    "stage": "販売終了（保守の状況は未確認）",
-    "regulatory": "認証 303ADBZX00012000（2019 年の認証 301AOBZX00002000 もある）。後継の MammoRead Plus はトーテックアメニティの認証 306AFBZX00008000（2024-02-16）",
-    "startedAt": "未確認",
-    "hp": "https://www.toyo.co.jp/medical/products/detail/?id=82",
-    "sources": [
-     {
-      "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
-      "publisher": "東陽テクニカ（MammoRead 製品ページ）",
-      "published": ""
-     },
-     {
-      "url": "https://kyodonewsprwire.jp/release/202404199724",
-      "publisher": "トーテックアメニティ（共同通信PRワイヤー）",
-      "published": "2024-04-19"
-     },
-     {
-      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01",
-      "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
-      "published": ""
-     }
-    ],
-    "note": "東陽テクニカの製品ページに「MammoRead シリーズは今後トーテックアメニティ株式会社が引継ぎ、後継製品 MammoRead Plus として販売」。トーテックアメニティは 2024-04-15 に MammoRead Plus を発売。2017-07 までに導入したシステムはサポート終了の案内あり"
-   }
-  ],
+  "recordKind": "product",
   "problem": {
-   "domain": "胸部画像診断（胸部X線・胸部CT の読影支援）とマンモグラフィ読影",
+   "domain": "胸部画像診断（胸部X線・胸部CT の読影支援）",
    "who": "胸部X線・胸部CT を読影する放射線科医・健診施設の医師",
    "situation": "胸部X線では肋骨・鎖骨に、胸部CT では肺血管に重なった結節影が見えにくく、読影件数の多い健診・検診では見落としや読影医の負担が問題になる。",
    "sources": [
@@ -47010,6 +46817,11 @@
      "published": ""
     },
     {
+     "url": "https://www.toyo.co.jp/medical/faq/list/?contents_type=3773&c1=3763&l=2",
+     "publisher": "東陽テクニカ（ClearRead に関する FAQ）",
+     "published": ""
+    },
+    {
      "url": "https://www.toyo.co.jp/files/user/company/documents/release/240822_medical_seminar_72056.pdf",
      "publisher": "東陽テクニカ（ニュースリリース No.72056）",
      "published": "2024-08-22"
@@ -47020,7 +46832,7 @@
    "values": [
     "医療機関・薬局向けソフト（クラウド・院内設置）"
    ],
-   "detail": "米 Riverain Technologies の胸部画像処理ソフト ClearRead シリーズ。ClearRead XR は胸部X線画像から骨組織を透過した画像（経時差分・チューブ強調はオプション）を、ClearRead CT+DC は胸部CT から肺血管を透過した画像と関心領域の径・体積の自動計測・過去画像との比較レポートを全自動で作り、PACS に追加の画像として送る。ライセンスを入れた画像処理サーバを院内ネットワークにつなぐ形で、専用の読影端末は要らない。撮影装置のメーカーを問わない。マンモグラフィ画像ビューア MammoRead は 2024 年にトーテックアメニティへ引き継がれ、東陽テクニカの販売品ではなくなった。PMDA には、イメージリサーチの画像診断ソフト Wink の付属品として ClearRead・MammoRead のパッケージも載る（電子添文 2021-07）。",
+   "detail": "米 Riverain Technologies が開発した胸部画像の読影支援ソフト ClearRead シリーズ。ClearRead XR は胸部X線画像から骨組織を透過した画像を作る（経時差分の +Compare・チューブ強調の +Confirm は XR の機能）。ClearRead CT+DC は胸部CT から肺血管を透過した画像を作り、関心領域の径・体積の自動計測と過去画像との比較をする。ClearRead CT-VS は胸部CT の肺血管透過で、製品ページに載る販売名・認証番号は CT+DC のもの。いずれも事前に設定した条件で全自動で処理し、処理画像を PACS に送る。ライセンスを入れた画像処理サーバを院内に置く形のほか、クラウド上での処理もでき、撮影装置のメーカーを問わない。専用の読影端末は要らない。PMDA には、イメージリサーチの画像診断ソフト Wink の付属品として ClearRead のパッケージも載る（別の記録 b-f802baf8）。",
    "sources": [
     {
      "url": "https://www.toyo.co.jp/medical/products/detail/clearread_xr",
@@ -47038,8 +46850,8 @@
      "published": ""
     },
     {
-     "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
-     "publisher": "東陽テクニカ（MammoRead 製品ページ）",
+     "url": "https://www.toyo.co.jp/medical/products/list/contents_type=3119",
+     "publisher": "東陽テクニカ（ClearRead XR シリーズの一覧ページ）",
      "published": ""
     },
     {
@@ -47048,7 +46860,7 @@
      "published": ""
     },
     {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01",
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
      "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
      "published": ""
     }
@@ -47059,7 +46871,7 @@
     "Riverain Technologies（米国。ClearRead の開発元）"
    ],
    "mah": [
-    "東陽テクニカ（ClearRead XR 認証 303ADBZX00013000、ClearRead CT+DC 認証 303ADBZX00098000、ClearRead CT-VS 認証 303ADBZX00011000、MammoRead WS 認証 303ADBZX00012000）"
+    "東陽テクニカ（ClearRead XR 認証 303ADBZX00013000、ClearRead CT+DC 認証 303ADBZX00098000、ClearRead CT-VS 認証 303ADBZX00011000）"
    ],
    "seller": [
     "東陽テクニカ（製品ページで見積もり依頼・問い合わせを受付）"
@@ -47099,7 +46911,12 @@
      "published": ""
     },
     {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01",
+     "url": "https://www.toyo.co.jp/medical/faq/list/?contents_type=3773&c1=3763&l=2",
+     "publisher": "東陽テクニカ（ClearRead に関する FAQ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
      "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
      "published": ""
     },
@@ -47119,7 +46936,7 @@
     "医療機関などの事業経費として負担"
    ],
    "recoveryDetail": "導入先は大学病院・地域の基幹病院・健診施設・クリニック（FAQ）。医療機関・健診施設の経費で、製品に対応する保険点数は確認できない（健診での利用は保険外）。",
-   "unknown": "価格と課金の形（ライセンスの買い切りか期間契約か、保守料）、販売店を通すかどうか",
+   "unknown": "価格と課金の形（ライセンスの買い切りか期間契約か、クラウド処理の料金、保守料）、販売店を通すかどうか",
    "productSales": "あり",
    "productSalesDetail": "ClearRead XR・CT+DC の製品ページで見積もり依頼を受け付け、導入事例を掲載している。",
    "sources": [
@@ -47161,7 +46978,7 @@
      "published": ""
     },
     {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01",
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
      "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
      "published": ""
     }
@@ -47171,16 +46988,26 @@
    "values": [
     "承認・認証・届出を確認"
    ],
-   "detail": "管理医療機器（クラスII）の認証：ClearRead XR 303ADBZX00013000、ClearRead CT+DC 303ADBZX00098000、ClearRead CT-VS 303ADBZX00011000、MammoRead WS 303ADBZX00012000（2019 年の認証 301AOBZX00002000・00003000・00006000 もある）。日本医学放射線学会の AI ソフトウェア一覧に ClearRead XR・CT+DC が載る。",
+   "detail": "管理医療機器（クラスII）の認証：ClearRead XR 303ADBZX00013000（汎用画像診断装置ワークステーション用プログラム。電子添文の最新は 2026-01）、ClearRead CT+DC 303ADBZX00098000（X線CT診断装置用プログラム）、ClearRead CT-VS 303ADBZX00011000（X線CT診断装置用プログラム）。2019 年の認証 301AOBZX00003000（XR）・301AOBZX00006000（CT-VS）もある。日本医学放射線学会の AI ソフトウェア一覧に ClearRead XR・CT+DC が載る。",
    "sources": [
     {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01",
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
      "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
      "published": ""
     },
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00098000_1_02",
      "publisher": "PMDA（X線CT診断装置用プログラム 一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/clearread_xr",
+     "publisher": "東陽テクニカ（ClearRead XR 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/clearread_ctdc",
+     "publisher": "東陽テクニカ（ClearRead CT+DC 製品ページ）",
      "published": ""
     },
     {
@@ -47205,7 +47032,7 @@
   },
   "stage": {
    "value": "一般提供",
-   "detail": "ClearRead XR・CT+DC は製品ページで見積もりを受け付け、2026-08・11 にも読影支援セミナーを開く。MammoRead はトーテックアメニティへ引き継がれた。",
+   "detail": "ClearRead XR・CT+DC は製品ページで見積もりを受け付け、2026-10・12 にも胸部読影支援のオンラインセミナーを開く（2026-11-24 閲覧）。",
    "sources": [
     {
      "url": "https://www.toyo.co.jp/medical/products/detail/clearread_xr",
@@ -47226,12 +47053,11 @@
   },
   "activity": {
    "value": "提供継続",
-   "detail": "ClearRead の製品ページ・FAQ が公開中で、見積もり依頼を受け付けている（2026-11-24 閲覧）。MammoRead シリーズは 2024 年にトーテックアメニティが引き継いだ。",
+   "detail": "ClearRead の製品ページ・FAQ が公開中で、見積もり依頼を受け付けている（2026-11-24 閲覧）。",
    "signals": [
-    "ClearRead XR・CT+DC・CT-VS の製品ページ公開中",
+    "ClearRead XR・CT+DC・CT-VS の製品ページ公開中（見積もり依頼・問い合わせを受付）",
     "ClearRead XR の電子添文 2026-01",
-    "胸部読影支援セミナー（2026-11-05 告知）",
-    "MammoRead シリーズはトーテックアメニティが引き継ぎ、後継 MammoRead Plus を 2024-04-15 発売"
+    "胸部読影支援セミナー第8弾の再配信（2026-11-05 告知、12 月開催）"
    ],
    "sources": [
     {
@@ -47240,25 +47066,30 @@
      "published": ""
     },
     {
+     "url": "https://www.toyo.co.jp/medical/products/detail/clearread_ctdc",
+     "publisher": "東陽テクニカ（ClearRead CT+DC 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/clearread-ctvs",
+     "publisher": "東陽テクニカ（ClearRead CT-VS 製品ページ）",
+     "published": ""
+    },
+    {
      "url": "https://www.toyo.co.jp/medical/",
      "publisher": "東陽テクニカ（メディカルシステム）",
      "published": ""
     },
     {
-     "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
-     "publisher": "東陽テクニカ（MammoRead 製品ページ）",
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
      "published": ""
-    },
-    {
-     "url": "https://kyodonewsprwire.jp/release/202404199724",
-     "publisher": "トーテックアメニティ（共同通信PRワイヤー）",
-     "published": "2024-04-19"
     }
    ]
   },
   "aiUse": {
-   "value": "一部の製品で AI を使う（資料で確認）",
-   "detail": "AI を使う製品：ClearRead XR・ClearRead CT+DC・ClearRead CT-VS（FAQ「ClearRead は AI 技術を用いた胸部画像の読影支援システムのシリーズ名称」、製品ページは骨組織・肺血管の透過にディープラーニングを用いると書く。市販後の学習はしない）。マンモグラフィ画像ビューア MammoRead WS の資料に AI の記載はない（AI の使用は未確認。2024 年にトーテックアメニティへ引き継がれ、東陽テクニカの販売品ではなくなった）。",
+   "value": "AI を使う（資料で確認）",
+   "detail": "FAQ に「ClearRead は AI 技術を用いた胸部画像の読影支援システムのシリーズ名称」。XR・CT+DC・CT-VS の製品ページは、骨組織・肺血管の透過にディープラーニングを用いると書く（学習は開発時に終えており、市販後に学習して性能が変わることはない）。",
    "sources": [
     {
      "url": "https://www.toyo.co.jp/medical/faq/list/?contents_type=3773&c1=3763&l=2",
@@ -47274,40 +47105,26 @@
      "url": "https://www.toyo.co.jp/medical/products/detail/clearread_ctdc",
      "publisher": "東陽テクニカ（ClearRead CT+DC 製品ページ）",
      "published": ""
+    },
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/clearread-ctvs",
+     "publisher": "東陽テクニカ（ClearRead CT-VS 製品ページ）",
+     "published": ""
     }
    ]
   },
   "adoption": [
    {
-    "metric": "未確認",
-    "definition": "導入施設数の公表を確認できず（導入事例として東京ミッドタウンクリニック・京都工場保健会・聖路加国際病院・徳島大学病院・岩手予防医学協会・熊本中央病院を掲載）",
-    "scope": "製品群（ClearRead シリーズ）",
+    "metric": "導入施設数",
+    "definition": "導入施設数の公表は確認できない（導入事例として東京ミッドタウンクリニック・京都工場保健会・聖路加国際病院・徳島大学病院・岩手予防医学協会・熊本中央病院を掲載）",
+    "scope": "ClearRead シリーズ（XR・CT+DC・CT-VS）",
     "value": "未確認",
     "asOf": "未確認",
     "source": null,
     "ref": false
    }
   ],
-  "periods": [
-   {
-    "t": "〜2024-04",
-    "what": "ClearRead シリーズと MammoRead シリーズ（マンモグラフィ画像ビューア）",
-    "user": "読影する医師",
-    "pay": "医療機関・健診施設",
-    "bear": "医療機関・健診施設",
-    "channel": "東陽テクニカ",
-    "operator": "株式会社東陽テクニカ"
-   },
-   {
-    "t": "2024-04〜いま",
-    "what": "ClearRead シリーズ（MammoRead はトーテックアメニティが後継 MammoRead Plus として販売）",
-    "user": "読影する医師",
-    "pay": "医療機関・健診施設",
-    "bear": "医療機関・健診施設",
-    "channel": "東陽テクニカ",
-    "operator": "株式会社東陽テクニカ"
-   }
-  ],
+  "periods": [],
   "plan": "",
   "sourcesChecked": {
    "pricing": "無し（料金ページなし。製品ページは見積もり依頼）",
@@ -50669,7 +50486,7 @@
    ],
    "deal": [],
    "delivery": [],
-   "detail": "キヤノンメディカルシステムズの国内サイトのヘルスケアIT・MRI の製品一覧に Olea Sphere は載っていない（2026-11-24）。同じ Olea Sphere は長瀬産業が別の認証で扱う（別の記録 b-3c7debd1）。",
+   "detail": "キヤノンメディカルシステムズの国内サイトのヘルスケアIT・MRI の製品一覧に Olea Sphere は載っていない（2026-11-24）。同じ Olea Sphere は長瀬産業が別の認証で扱う（別の記録 b-f924238c）。",
    "sources": [
     {
      "url": "https://jp.medical.canon/products/healthcareit/",
@@ -62128,58 +61945,14 @@
  },
  "b-d1e50042": {
   "id": "b-d1e50042",
-  "name": "SyMRI サイエムアールアイ／Sectra Workstation and Sectra Core（日本の選任製造販売業者：プライムファイン）",
+  "name": "SyMRI サイエムアールアイ（SyntheticMR AB）",
   "checkedAt": "2026-11-24",
-  "entity": "有限会社プライムファイン（スウェーデンの2社の製品の選任製造販売業者。医療機器の薬事登録・臨床試験・外国製造業者の国内代理（DMAH）を支援する会社）",
-  "recordKind": "group",
-  "members": [
-   {
-    "name": "SyMRI サイエムアールアイ（SyntheticMR AB 製。1回の MRI 撮像から R1・R2・PD の定量マップと複数のコントラスト画像を作る頭部 MRI の後処理ソフト）",
-    "status": "不明",
-    "stage": "承認取得済み・提供状況未確認",
-    "regulatory": "認証 302ADBZI00080000（汎用画像診断装置ワークステーション用プログラム、管理医療機器。添付文書 2020-01 第0版、2024-10 第1版）",
-    "startedAt": "未確認",
-    "hp": "",
-    "sources": [
-     {
-      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
-      "publisher": "PMDA（SyMRI 添付文書 第1版）",
-      "published": "2024-10"
-     },
-     {
-      "url": "https://syntheticmr.com/contact/",
-      "publisher": "SyntheticMR AB（Contact・Locations）",
-      "published": ""
-     }
-    ],
-    "note": "添付文書：製造販売業者から記録メディアで販売業者に出荷し、販売業者からダウンロード販売される場合がある。対象は GE（MAGiC）・Philips（SyntAc）・Siemens の MDME シーケンスと Philips の 3D-QALAS。SyntheticMR 社のサイトの拠点一覧に「SyntheticMR Japan」があるが、日本の販売業者名は確かめられない。"
-   },
-   {
-    "name": "Sectra Workstation and Sectra Core 画像診断ワークステーション用プログラム（Sectra AB 製。CR・DR・CT・MRI・病理 WSI・超音波・マンモグラフィの画像を表示・処理・共有する PACS の読影ソフト。クラウドでも提供）",
-    "status": "提供中",
-    "stage": "一般提供",
-    "regulatory": "認証 304ADBZI00092000（汎用画像診断装置ワークステーション用プログラム、管理医療機器・クラスII。添付文書 2022-09 第1版、2026-06 第2版）",
-    "startedAt": "未確認（日本初のデジタルパソロジー導入は 2026-01 に導入フェーズ開始）",
-    "hp": "",
-    "sources": [
-     {
-      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
-      "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
-      "published": "2026-06"
-     },
-     {
-      "url": "https://kyodonewsprwire.jp/release/202601082126",
-      "publisher": "Sectra（共同通信PRワイヤー）",
-      "published": "2026-01-08"
-     }
-    ],
-    "note": "Sectra は販売パートナーの松浪硝子工業と、亀田メディカルセンターで日本初のデジタルパソロジーの導入フェーズを始めた（契約は Sectra の 2025/2026 年度第2四半期に松浪硝子を通じて締結）。この導入が本認証の製品で行われたとは発表に書かれていないが、本認証の対象に病理 WSI が含まれる。"
-   }
-  ],
+  "entity": "SyntheticMR AB（スウェーデン。SyMRI の製造業者・製品の持ち主。日本の選任製造販売業者はプライムファイン）",
+  "recordKind": "product",
   "problem": {
-   "domain": "画像診断（頭部 MRI の定量・合成画像／PACS の読影・デジタル病理）",
-   "who": "放射線科医・病理医などの画像を読む医師、診療放射線技師",
-   "situation": "SyMRI：コントラストごとに別の撮像が要り、検査時間が長くなる。Sectra：放射線・病理など装置ごとに画像を見る仕組みが分かれ、施設内外で共有しにくい。",
+   "domain": "画像診断（頭部 MRI の定量マップ・合成画像）",
+   "who": "頭部 MRI を読影する放射線科医・撮像する診療放射線技師",
+   "situation": "MRI ではコントラストごとに別の撮像が要り、検査時間が長くなる。撮った後にコントラストを変えたり、組織の性状を数値で比べたりしにくい。",
    "sources": [
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
@@ -62187,9 +61960,9 @@
      "published": "2024-10"
     },
     {
-     "url": "https://kyodonewsprwire.jp/release/202601082126",
-     "publisher": "Sectra（共同通信PRワイヤー）",
-     "published": "2026-01-08"
+     "url": "https://news.cision.com/syntheticmr-ab/r/juntendo-university-hospital-in-japan-looking-to-increase-the-diagnostic-value-of-mri-with-symri,c9874309",
+     "publisher": "SyntheticMR AB（順天堂大学医学部附属順天堂医院との研究契約）",
+     "published": "2015-11-26"
     }
    ]
   },
@@ -62197,70 +61970,53 @@
    "values": [
     "医療機関・薬局向けソフト（クラウド・院内設置）"
    ],
-   "detail": "どちらも汎用 PC にインストールする（Sectra はクラウドでも提供）プログラム医療機器で、専用の機器は付かない。2つの製品はメーカーも機能も別で、共通するのは日本の選任製造販売業者がプライムファインであることだけ。プライムファイン自体は、医療機器の薬事登録（新医療機器・改良・後発・認証・届出）、臨床試験・治験届、PMDA 対面助言、保険登録、品質マネジメントの構築を支援する会社で、製品の販売や導入の窓口としての記載はない（関連：薬事のコンサルティング・受託）。",
+   "detail": "汎用 PC にインストールする（プラグインとしても動く）MR 画像の後処理プログラムで、ダウンロードで提供する。MDME シーケンス（GE MAGiC・Philips SyntAc・Siemens TSE_MDME）や Philips の 3D-QALAS のデータから、R1・R2 の緩和率とプロトン密度（PD）のマップを作り、そこから複数のコントラスト画像を計算して表示する。頭部画像が対象で、組織の性状・体積を示すオプションがある（添付文書）。専用の機器は付かない。",
    "sources": [
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
      "publisher": "PMDA（SyMRI 添付文書 第1版）",
      "published": "2024-10"
-    },
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
-     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
-     "published": "2026-06"
-    },
-    {
-     "url": "https://www.primefine.co.jp/service.html",
-     "publisher": "プライムファイン（サービス一覧）",
-     "published": ""
     }
    ]
   },
   "roles": {
    "developer": [
-    "SyntheticMR AB（スウェーデン。SyMRI）",
-    "Sectra AB（スウェーデン。Sectra Workstation and Sectra Core）"
+    "SyntheticMR AB（スウェーデン。製造業者）"
    ],
    "mah": [
-    "プライムファイン（選任製造販売業者。両製品）"
+    "プライムファイン（選任製造販売業者。認証 302ADBZI00080000）"
    ],
    "seller": [
-    "松浪硝子工業（Sectra のデジタルパソロジーの日本の販売パートナー）",
-    "未確認（SyMRI の日本の販売業者。添付文書に「販売業者」の言葉はあるが社名なし）"
+    "未確認（添付文書に、販売業者がダウンロード販売する場合があるとあるが社名なし）"
    ],
    "operator": [],
    "brandOwner": [],
    "operatorUser": [
-    "放射線科医・病理医・診療放射線技師"
+    "放射線科医・診療放射線技師"
    ],
    "outputUser": [
-    "画像を読む医師"
+    "読影する医師"
    ],
    "subject": [
-    "患者（画像が処理される）"
+    "頭部 MRI を受ける患者"
    ],
    "supplier": [],
    "recommender": [],
    "contractor": [
-    "医療機関（Sectra は亀田メディカルセンターの例）",
-    "SyntheticMR AB・Sectra AB（プライムファインに選任製造販売を任せる外国製造業者。契約の形は未確認）"
+    "未確認"
    ],
    "directPayer": [
-    "未確認（プライムファインが外国製造業者から受け取るか、製品の販売に関わるかは資料にない）"
+    "未確認"
    ],
    "finalBearer": [
-    "医療機関（製品の購入費。Sectra の導入の例）"
+    "未確認"
    ],
+   "userPaysTo": [],
    "sources": [
     {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
-     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
-     "published": "2026-06"
-    },
-    {
-     "url": "https://kyodonewsprwire.jp/release/202601082126",
-     "publisher": "Sectra（共同通信PRワイヤー）",
-     "published": "2026-01-08"
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
+     "publisher": "PMDA（SyMRI 添付文書 第1版）",
+     "published": "2024-10"
     },
     {
      "url": "https://www.primefine.co.jp/",
@@ -62273,46 +62029,44 @@
    "values": [
     "未確認"
    ],
-   "detail": "プライムファインのサイトはサービスの一覧だけで、料金・契約の形の記載はない。製品の販売はメーカー・販売パートナーが行う（Sectra は松浪硝子を通じて契約）。",
+   "detail": "日本での価格・販売の形の資料は見つからない。SyntheticMR AB の 2025 年の年次報告は、アジア太平洋の売上が日本の OEM 販売で伸びたと書くが、OEM の相手と、この認証品（単体のソフト）の販売かどうかは書かれていない。",
    "customerRecovery": [
-    "医療機関などの事業経費として負担"
+    "未確認"
    ],
-   "recoveryDetail": "Sectra の製品は医療機関（亀田メディカルセンター）が導入しており、医療機関の経費で、画像診断・病理診断の診療収入でまかなう関係。SyMRI の販売先は確かめられない。",
-   "unknown": "プライムファインが選任製造販売業者として受け取る対価（受託料など）の有無と形、製品の価格",
-   "productSales": "あり",
-   "productSalesDetail": "Sectra：販売パートナーの松浪硝子を通じて亀田メディカルセンターと契約し、2026-01 に導入フェーズを開始（Sectra 側の売上で、プライムファインの収入かは不明）。SyMRI：日本での販売は確かめられない。",
+   "recoveryDetail": "日本での販売先を資料で確かめられない。製品に対応する保険点数は確認できない。",
+   "unknown": "この認証品の日本での販売の有無・販売業者・価格・課金の形。日本の OEM 販売の相手と、OEM 版とこの認証品との関係",
+   "productSales": "未確認",
+   "productSalesDetail": "認証と添付文書（2024-10 第1版）は確認できたが、この認証品の販売開始の告知と日本の販売窓口は見つからない。",
    "sources": [
     {
-     "url": "https://www.primefine.co.jp/service.html",
-     "publisher": "プライムファイン（サービス一覧）",
-     "published": ""
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
+     "publisher": "PMDA（SyMRI 添付文書 第1版）",
+     "published": "2024-10"
     },
     {
-     "url": "https://kyodonewsprwire.jp/release/202601082126",
-     "publisher": "Sectra（共同通信PRワイヤー）",
-     "published": "2026-01-08"
+     "url": "https://news.cision.com/syntheticmr-ab/r/year-end-report-january---december-2025,c4303486",
+     "publisher": "SyntheticMR AB（Year-End report January – December 2025）",
+     "published": "2026-02-06"
     }
    ]
   },
   "channel": {
    "first": [
-    "医療機関"
+    "未確認"
    ],
-   "deal": [
-    "代理店"
-   ],
+   "deal": [],
    "delivery": [],
-   "detail": "Sectra：日本の販売パートナー松浪硝子工業を通じて医療機関（亀田メディカルセンター）と契約。SyMRI：添付文書に、製造販売業者から販売業者に出荷し販売業者がダウンロード販売する場合があるとあるが、販売業者名は記載なし。プライムファインは販売の経路に名前が出てこない。",
+   "detail": "添付文書に、製造販売業者から記録メディアで販売業者に出荷し、販売業者がダウンロード販売する場合があるとあるが、販売業者名は記載なし。選任製造販売業者のプライムファインは薬事登録・外国製造業者の国内代理を支援する会社で、販売の窓口としての記載はない。",
    "sources": [
-    {
-     "url": "https://kyodonewsprwire.jp/release/202601082126",
-     "publisher": "Sectra（共同通信PRワイヤー）",
-     "published": "2026-01-08"
-    },
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
      "publisher": "PMDA（SyMRI 添付文書 第1版）",
      "published": "2024-10"
+    },
+    {
+     "url": "https://www.primefine.co.jp/",
+     "publisher": "プライムファイン（公式サイト）",
+     "published": ""
     }
    ]
   },
@@ -62320,7 +62074,7 @@
    "values": [
     "承認・認証・届出を確認"
    ],
-   "detail": "SyMRI：認証 302ADBZI00080000。Sectra Workstation and Sectra Core：認証 304ADBZI00092000（「自動診断機能を有さない」）。どちらも汎用画像診断装置ワークステーション用プログラム（管理医療機器、プログラム 01 疾病診断用プログラム）、選任製造販売業者はプライムファイン。",
+   "detail": "汎用画像診断装置ワークステーション用プログラム（管理医療機器、疾病診断用プログラム）の認証 302ADBZI00080000（添付文書 2020-01 第0版、2024-10 第1版）。選任製造販売業者はプライムファイン、製造業者は SyntheticMR AB。SyntheticMR AB の 2025 年の年次報告に、SyMRI 15（3D）が 2025 年に日本で承認されたとある（第1版の添付文書は 3D-QALAS を対象に含む）。",
    "sources": [
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
@@ -62328,9 +62082,14 @@
      "published": "2024-10"
     },
     {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
-     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
-     "published": "2026-06"
+     "url": "https://news.cision.com/syntheticmr-ab/r/year-end-report-january---december-2025,c4303486",
+     "publisher": "SyntheticMR AB（Year-End report January – December 2025）",
+     "published": "2026-02-06"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
     }
    ]
   },
@@ -62338,24 +62097,8 @@
    "values": [
     "独立した評価なし（保険診療の中で使われる）"
    ],
-   "detail": "MRI 撮影・画像診断・病理診断（保険診療）の中で使う。製品に対応する点数・材料価格は確認できない。",
+   "detail": "MRI 撮影・画像診断（保険診療）の中で使う後処理プログラム。製品に対応する点数・材料価格は確認できない。",
    "sources": [
-    {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
-     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
-     "published": "2026-06"
-    }
-   ]
-  },
-  "stage": {
-   "value": "一般提供",
-   "detail": "製品ごとに違う。Sectra は販売パートナー経由の契約と 2026-01 の導入フェーズ開始を確認し「一般提供」。SyMRI は認証と添付文書の改訂（2024-10）だけを確認し「承認取得済み・提供状況未確認」。",
-   "sources": [
-    {
-     "url": "https://kyodonewsprwire.jp/release/202601082126",
-     "publisher": "Sectra（共同通信PRワイヤー）",
-     "published": "2026-01-08"
-    },
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
      "publisher": "PMDA（SyMRI 添付文書 第1版）",
@@ -62363,81 +62106,102 @@
     }
    ]
   },
-  "activity": {
-   "value": "提供継続",
-   "detail": "Sectra：2026-06 に添付文書を改訂（第2版、PMDA 掲載 2026-08-13）、2026-01 に日本初のデジタルパソロジーを開始。SyMRI：日本での提供状況は確かめられない（添付文書の PMDA 掲載 2025-02-01）。プライムファインのサイトは公開中。",
-   "signals": [
-    "Sectra の添付文書 第2版（2026-06）",
-    "Sectra と松浪硝子による亀田メディカルセンターの導入フェーズ（2026-01）",
-    "SyMRI の添付文書 第1版（2024-10）",
-    "SyntheticMR 社の拠点一覧に「SyntheticMR Japan」",
-    "SyMRI の日本の販売業者名は見つからない"
-   ],
+  "stage": {
+   "value": "承認取得済み・提供状況未確認",
+   "detail": "認証と添付文書の改訂（2024-10、PMDA 掲載 2025-02-01）を確認した。SyntheticMR AB は日本での OEM 販売を報告しているが、この認証品の販売開始の告知・日本の販売窓口は見つからない。",
    "sources": [
     {
-     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZI00092000_1_01",
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
+     "publisher": "PMDA（SyMRI 添付文書 第1版）",
+     "published": "2024-10"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
      "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
      "published": ""
     },
     {
-     "url": "https://kyodonewsprwire.jp/release/202601082126",
-     "publisher": "Sectra（共同通信PRワイヤー）",
-     "published": "2026-01-08"
+     "url": "https://news.cision.com/syntheticmr-ab/r/year-end-report-january---december-2025,c4303486",
+     "publisher": "SyntheticMR AB（Year-End report January – December 2025）",
+     "published": "2026-02-06"
+    }
+   ]
+  },
+  "activity": {
+   "value": "未確認",
+   "detail": "この認証品の日本での提供の継続は確かめられない。",
+   "signals": [
+    "SyMRI の添付文書 第1版（2024-10、PMDA 掲載 2025-02-01）",
+    "SyntheticMR AB の 2025 年の年次報告：SyMRI 15（3D）が 2025 年に日本で承認、アジア太平洋の売上は日本の OEM 販売が牽引",
+    "SyntheticMR AB の 2026 年4〜6月期の報告：アジアの売上は主に OEM とインドで伸びた",
+    "SyMRI の日本の販売業者名は見つからない",
+    "終了の告知は確認できない"
+   ],
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://news.cision.com/syntheticmr-ab/r/year-end-report-january---december-2025,c4303486",
+     "publisher": "SyntheticMR AB（Year-End report January – December 2025）",
+     "published": "2026-02-06"
+    },
+    {
+     "url": "https://news.cision.com/syntheticmr-ab/r/interim-report-april---june-2026,c4385698",
+     "publisher": "SyntheticMR AB（Interim report April – June 2026）",
+     "published": ""
     }
    ]
   },
   "aiUse": {
    "value": "AI の使用は未確認",
-   "detail": "2製品の添付文書に AI・機械学習の記載はない（SyMRI は緩和のモデル式から定量値を計算する）。Sectra の発表には、デジタルパソロジーのシステムに「AIツール」を統合できるとあるが、本認証の製品の機能かは書かれていない。",
+   "detail": "添付文書は、R1・R2・PD を各ボクセルの緩和が単一指数関数的と仮定したモデルで計算すると説明し、AI・機械学習の記載はない。",
    "sources": [
     {
      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_302ADBZI00080000_1_01_03",
      "publisher": "PMDA（SyMRI 添付文書 第1版）",
      "published": "2024-10"
-    },
-    {
-     "url": "https://kyodonewsprwire.jp/release/202601082126",
-     "publisher": "Sectra（共同通信PRワイヤー）",
-     "published": "2026-01-08"
     }
    ]
   },
   "adoption": [
    {
-    "metric": "Sectra のデジタルパソロジーの日本での導入",
-    "definition": "日本初のデジタルパソロジー導入（導入フェーズの開始）。PACS 読影ソフト全体の日本の導入数ではない",
-    "scope": "製品単体（日本・デジタルパソロジー）",
-    "value": "1施設（亀田メディカルセンター）",
-    "asOf": "2026-01",
-    "source": {
-     "url": "https://kyodonewsprwire.jp/release/202601082126",
-     "publisher": "Sectra（共同通信PRワイヤー）",
-     "published": "2026-01-08"
-    },
-    "ref": false
-   },
-   {
-    "metric": "SyMRI の日本での導入数",
+    "metric": "日本での導入数",
     "definition": "日本での導入数の公表は見つからない",
     "scope": "製品単体（日本）",
     "value": "未確認",
     "asOf": "未確認",
     "source": null,
     "ref": false
+   },
+   {
+    "metric": "日本での研究利用の契約",
+    "definition": "順天堂大学医学部附属順天堂医院が研究用版（SyMRI Research Edition）の研究契約を結んだ（認証品の導入ではない）",
+    "scope": "研究用版（日本）",
+    "value": "1施設",
+    "asOf": "2015-11",
+    "source": {
+     "url": "https://news.cision.com/syntheticmr-ab/r/juntendo-university-hospital-in-japan-looking-to-increase-the-diagnostic-value-of-mri-with-symri,c9874309",
+     "publisher": "SyntheticMR AB（順天堂大学医学部附属順天堂医院との研究契約）",
+     "published": "2015-11-26"
+    },
+    "ref": true
    }
   ],
   "periods": [],
   "plan": "",
   "lastModel": {
-   "asOf": "",
-   "note": ""
+   "asOf": "2024-10",
+   "note": "添付文書 第1版（2024-10）で確認できた製品の形。この認証品の日本での販売の状況・販売先は確かめられていない"
   },
   "sourcesChecked": {
-   "pricing": "無し（プライムファイン・製品とも料金の公開なし）",
-   "faq": "https://www.primefine.co.jp/news.html（新着情報・FAQ。本文なし）",
-   "tokushoho": "無し（プライムファインのサイトにリンクはあるが製品の販売の記載なし）",
+   "pricing": "無し（料金の公開なし）",
+   "faq": "無し",
+   "tokushoho": "無し（医療機関向け）",
    "terms": "無し",
-   "appStore": "無し（PC・クラウドのソフト）",
+   "appStore": "無し（PC のソフト）",
    "checkedAt": "2026-11-24"
   }
  },
@@ -67183,5 +66947,1076 @@
    "appStore": "無し（アプリ配信なし）",
    "checkedAt": "2026-11-24"
   }
+ },
+ "b-416d05aa": {
+  "name": "デジタル・マンモグラフィ画像ビューア MammoRead WS（東陽テクニカ）",
+  "checkedAt": "2026-11-24",
+  "entity": "株式会社東陽テクニカ（MammoRead WS の製造販売業者・製造業者・販売元。2024 年に MammoRead シリーズをトーテックアメニティへ引き継いだ）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "マンモグラフィ（乳房X線）画像の読影",
+   "who": "乳がん検診・乳腺診療でマンモグラフィを読影する医師",
+   "situation": "乳がん検診などで撮ったマンモグラフィ画像を、画像診断装置や画像保管装置から取り込み、表示・処理して読影する必要がある。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_303ADBZX00012000_1_02_01",
+     "publisher": "PMDA（MammoRead WS 添付文書 第3版）",
+     "published": "2022-06-02"
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202404199724",
+     "publisher": "トーテックアメニティ（共同通信PRワイヤー：MammoRead Plus 新発売）",
+     "published": "2024-04-19"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "東陽テクニカが製造販売していたデジタル・マンモグラフィ画像ビューア。画像診断装置（CR・DR・CT・MRI など）や画像保管装置から画像と付帯情報を受け取って表示し、計測・画像処理をして読影に使い、処理した画像を画像保管装置やプリンタに出力する（添付文書）。汎用 PC にインストールするプログラムで、記録媒体またはダウンロードで提供する（PC・モニタは認証範囲外）。2023-01 の案内では旧製品 MammoRead Viewer [Ver.8] の後継機種とされた。2024 年に MammoRead シリーズはトーテックアメニティへ引き継がれ、後継製品 MammoRead Plus（別の認証 306AFBZX00008000、別の記録 b-30f87a46）として販売されている。PMDA にはイメージリサーチの画像診断ソフト Wink の付属品として MammoRead WS のパッケージも載る（別の記録 b-f802baf8）。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_303ADBZX00012000_1_02_01",
+     "publisher": "PMDA（MammoRead WS 添付文書 第3版）",
+     "published": "2022-06-02"
+    },
+    {
+     "url": "https://www.toyo.co.jp/files/user/medical/pdf/MammoReadViewer(ver.8)%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E7%B5%82%E4%BA%86%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85.pdf",
+     "publisher": "東陽テクニカ（MammoRead Viewer [Ver.8] サポート終了のお知らせ）",
+     "published": "2023-01"
+    },
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
+     "publisher": "東陽テクニカ（MammoRead 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202404199724",
+     "publisher": "トーテックアメニティ（共同通信PRワイヤー：MammoRead Plus 新発売）",
+     "published": "2024-04-19"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "東陽テクニカ（添付文書の製造業者）"
+   ],
+   "mah": [
+    "東陽テクニカ（認証 303ADBZX00012000。2019 年の認証 301AOBZX00002000 もある）"
+   ],
+   "seller": [
+    "東陽テクニカ（2024 年の引き継ぎまで。添付文書は操作説明・修理の窓口を「販売店」とする）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "読影する医師など熟練した医療従事者（添付文書）"
+   ],
+   "outputUser": [
+    "読影する医師"
+   ],
+   "subject": [
+    "マンモグラフィ検査の受診者・患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関・検診施設（東陽テクニカは「医療施設様向け」の製品として案内）"
+   ],
+   "directPayer": [
+    "未確認（東陽テクニカの直販か販売店経由かは書かれていない）"
+   ],
+   "finalBearer": [
+    "医療機関・検診施設（自施設の経費）"
+   ],
+   "userPaysTo": [],
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_303ADBZX00012000_1_02_01",
+     "publisher": "PMDA（MammoRead WS 添付文書 第3版）",
+     "published": "2022-06-02"
+    },
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
+     "publisher": "東陽テクニカ（MammoRead 製品ページ）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "東陽テクニカの製品ページに価格・課金の形（売り切り・保守料など）の記載はない。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "販売先は医療施設（東陽テクニカの製品ページの区分「医療施設様向け・マンモグラフィ読影システム」）。検診での利用は保険外で、保険診療の画像診断でも製品に対応する点数は確認できない。",
+   "unknown": "価格と課金の形、保守料、販売店経由の割合、引き継ぎ後に既存の導入先の保守をどの会社が担うか",
+   "productSales": "あり",
+   "productSalesDetail": "東陽テクニカが医療施設向けに販売し、2023-01 には旧製品 Ver.8 の利用者に MammoRead WS への更新を案内した。2024 年の引き継ぎ後は東陽テクニカの販売品ではない。",
+   "sources": [
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
+     "publisher": "東陽テクニカ（MammoRead 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.toyo.co.jp/files/user/medical/pdf/MammoReadViewer(ver.8)%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E7%B5%82%E4%BA%86%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85.pdf",
+     "publisher": "東陽テクニカ（MammoRead Viewer [Ver.8] サポート終了のお知らせ）",
+     "published": "2023-01"
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202404199724",
+     "publisher": "トーテックアメニティ（共同通信PRワイヤー：MammoRead Plus 新発売）",
+     "published": "2024-04-19"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "未確認"
+   ],
+   "delivery": [],
+   "detail": "東陽テクニカの製品ページから問い合わせ。添付文書は操作説明・修理・接続の相談先を「販売店」とし、販売店を通す販売があったことを示すが社名は書かれていない。2024 年以降の新規の販売はトーテックアメニティの MammoRead Plus（販売先：大学病院・公立病院・私立病院・乳腺クリニック・検診施設など）に移った。",
+   "sources": [
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
+     "publisher": "東陽テクニカ（MammoRead 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_303ADBZX00012000_1_02_01",
+     "publisher": "PMDA（MammoRead WS 添付文書 第3版）",
+     "published": "2022-06-02"
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202404199724",
+     "publisher": "トーテックアメニティ（共同通信PRワイヤー：MammoRead Plus 新発売）",
+     "published": "2024-04-19"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "汎用画像診断装置ワークステーション用プログラム（管理医療機器・クラスII、疾病診断用プログラム）の認証 303ADBZX00012000（添付文書 第3版 2022-06-02）。2019 年の認証 301AOBZX00002000 もある（添付文書 2021-07-30）。製造販売業者・製造業者は東陽テクニカ。後継の MammoRead Plus はトーテックアメニティの別の認証 306AFBZX00008000（2024-02-16）。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_303ADBZX00012000_1_02_01",
+     "publisher": "PMDA（MammoRead WS 添付文書 第3版）",
+     "published": "2022-06-02"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301AOBZX00002000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202404199724",
+     "publisher": "トーテックアメニティ（共同通信PRワイヤー：MammoRead Plus 新発売）",
+     "published": "2024-04-19"
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "マンモグラフィの画像診断（保険診療）や乳がん検診の読影の中で使う。製品に対応する点数・材料価格は確認できない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_303ADBZX00012000_1_02_01",
+     "publisher": "PMDA（MammoRead WS 添付文書 第3版）",
+     "published": "2022-06-02"
+    }
+   ]
+  },
+  "stage": {
+   "value": "販売終了（保守の状況は未確認）",
+   "detail": "東陽テクニカの製品ページに、MammoRead シリーズはトーテックアメニティが引き継ぎ後継製品 MammoRead Plus として販売するとの案内がある（2026-11-24 閲覧）。MammoRead WS を導入した施設の保守をどの会社が続けるかは書かれていない。旧製品 Ver.8（2017-07 までに導入したシステム）はサポートを 2023-06-30 で終えた。",
+   "sources": [
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
+     "publisher": "東陽テクニカ（MammoRead 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.toyo.co.jp/files/user/medical/pdf/MammoReadViewer(ver.8)%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E7%B5%82%E4%BA%86%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85.pdf",
+     "publisher": "東陽テクニカ（MammoRead Viewer [Ver.8] サポート終了のお知らせ）",
+     "published": "2023-01"
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202404199724",
+     "publisher": "トーテックアメニティ（共同通信PRワイヤー：MammoRead Plus 新発売）",
+     "published": "2024-04-19"
+    }
+   ]
+  },
+  "activity": {
+   "value": "後継サービスへ移行",
+   "detail": "トーテックアメニティが東陽テクニカから MammoRead シリーズを引き継ぎ、後継製品 MammoRead Plus を 2024-04-15 に発売した。MammoRead Plus の製品サイトは「東陽テクニカ『MammoRead』シリーズを継承」と書く。",
+   "signals": [
+    "東陽テクニカの MammoRead 製品ページは公開中で、引き継ぎの案内と MammoRead Plus へのリンクを載せる（2026-11-24 閲覧）",
+    "PMDA の一覧に MammoRead WS の添付文書（2021-07-30・2022-06-02 版）が残る",
+    "トーテックアメニティが MammoRead Plus を 2024-04-15 に発売（認証 306AFBZX00008000）",
+    "旧製品 Ver.8 のサポート終了（2023-06-30）の案内",
+    "MammoRead WS 自体の保守終了の告知は確認できない"
+   ],
+   "sources": [
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
+     "publisher": "東陽テクニカ（MammoRead 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202404199724",
+     "publisher": "トーテックアメニティ（共同通信PRワイヤー：MammoRead Plus 新発売）",
+     "published": "2024-04-19"
+    },
+    {
+     "url": "https://mammoreadplus.jp/",
+     "publisher": "トーテックアメニティ（MammoRead Plus 製品サイト）",
+     "published": ""
+    },
+    {
+     "url": "https://www.toyo.co.jp/files/user/medical/pdf/MammoReadViewer(ver.8)%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E7%B5%82%E4%BA%86%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85.pdf",
+     "publisher": "東陽テクニカ（MammoRead Viewer [Ver.8] サポート終了のお知らせ）",
+     "published": "2023-01"
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "添付文書は機能を計測・画像処理と書き、AI・機械学習の記載はない。東陽テクニカの製品ページにも AI の記載はない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/501314_303ADBZX00012000_1_02_01",
+     "publisher": "PMDA（MammoRead WS 添付文書 第3版）",
+     "published": "2022-06-02"
+    },
+    {
+     "url": "https://www.toyo.co.jp/medical/products/detail/?id=82",
+     "publisher": "東陽テクニカ（MammoRead 製品ページ）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "導入施設数",
+    "definition": "MammoRead WS の導入施設数の公表は確認できない",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   },
+   {
+    "metric": "MammoRead シリーズの運用期間",
+    "definition": "トーテックアメニティの MammoRead Plus 製品サイトの「約15年の運用実績」。シリーズとしての期間で、施設数ではない",
+    "scope": "製品群（MammoRead シリーズ）",
+    "value": "約15年",
+    "asOf": "未確認",
+    "source": {
+     "url": "https://mammoreadplus.jp/",
+     "publisher": "トーテックアメニティ（MammoRead Plus 製品サイト）",
+     "published": ""
+    },
+    "ref": true
+   }
+  ],
+  "periods": [
+   {
+    "t": "〜2024-04",
+    "what": "MammoRead WS（東陽テクニカが製造販売・販売）",
+    "user": "読影する医師",
+    "pay": "医療機関・検診施設（直販か販売店経由かは未確認）",
+    "bear": "医療機関・検診施設",
+    "channel": "東陽テクニカ（販売店を通す場合あり）",
+    "operator": "株式会社東陽テクニカ"
+   },
+   {
+    "t": "2024-04〜いま",
+    "what": "新規の販売はトーテックアメニティの後継製品 MammoRead Plus（別の認証）",
+    "user": "読影する医師",
+    "pay": "医療機関・検診施設",
+    "bear": "医療機関・検診施設",
+    "channel": "トーテックアメニティ",
+    "operator": "トーテックアメニティ株式会社"
+   }
+  ],
+  "plan": "",
+  "lastModel": {
+   "asOf": "2024-04",
+   "note": "東陽テクニカが販売していた時点の形（添付文書 第3版 2022-06、製品ページの引き継ぎの案内）。引き継ぎ後の既存の導入先の保守は確かめられていない"
+  },
+  "sourcesChecked": {
+   "pricing": "無し（料金ページなし）",
+   "faq": "無し（東陽テクニカの FAQ は ClearRead・mediCAD のみ）",
+   "tokushoho": "無し（医療機関向け）",
+   "terms": "無し",
+   "appStore": "無し（アプリなし）",
+   "checkedAt": "2026-11-24"
+  },
+  "id": "b-416d05aa"
+ },
+ "b-979cb736": {
+  "name": "心臓画像解析ソフトウェア QIR-Suite（長瀬産業）",
+  "checkedAt": "2026-11-24",
+  "entity": "長瀬産業株式会社（QIR-Suite の製造販売業者。製造業者は仏 CASIS。販売の有無・販売者は未確認）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "心臓画像診断（心臓 MRI・CT の解析）",
+   "who": "心臓 MRI・CT を読影・解析する医師",
+   "situation": "心臓 MRI・CT から心機能・心筋の性状などを定量するには画像の輪郭の抽出と計測が必要で、読影する放射線科医が足りない中で時間がかかる。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
+     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
+     "published": "2023-04"
+    },
+    {
+     "url": "https://casis.fr/ja/home-jp/",
+     "publisher": "CASIS（日本語サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "汎用 PC にインストールする心臓画像の解析プログラムで、ダウンロードで提供する。MRI・CT の画像を取り込み、三次元表示の標準機能と部位に特化した解析のオプション機能で、画像を表示・処理し定量的に評価する（添付文書）。製造業者 CASIS の製品ページは、QIR-MR の心機能解析・心筋の遅延造影（瘢痕）の検出と定量・大動脈の血流解析などを挙げる（日本の認証品にどの機能が含まれるかは添付文書に書かれていない）。専用の機器は付かない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
+     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
+     "published": "2023-04"
+    },
+    {
+     "url": "https://casis.fr/qir-mr/",
+     "publisher": "CASIS（QIR-MR 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://casis.fr/ja/home-jp/",
+     "publisher": "CASIS（日本語サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "CASIS – CArdiac Simulation & Imaging Software（フランス。製造業者）"
+   ],
+   "mah": [
+    "長瀬産業（認証 305ADBZX00031000）"
+   ],
+   "seller": [
+    "未確認（長瀬産業の販売開始の発表・製品ページは見つからない）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医師・診療放射線技師"
+   ],
+   "outputUser": [
+    "読影・解析する医師"
+   ],
+   "subject": [
+    "心臓 MRI・CT を受ける患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "未確認"
+   ],
+   "directPayer": [
+    "未確認"
+   ],
+   "finalBearer": [
+    "未確認"
+   ],
+   "userPaysTo": [],
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
+     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
+     "published": "2023-04"
+    },
+    {
+     "url": "https://casis.fr/ja/home-jp/",
+     "publisher": "CASIS（日本語サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "長瀬産業の販売の資料・価格は見つからない。CASIS の日本語サイトは、利用量に応じた柔軟なモデルと施設ごとのフルライセンスの2つの使い方を案内するが、日本の認証品の販売条件かは書かれていない。",
+   "customerRecovery": [
+    "未確認"
+   ],
+   "recoveryDetail": "販売先を資料で確かめられない。製品に対応する保険点数は確認できない。",
+   "unknown": "長瀬産業による販売の有無・販売先・価格・課金の形",
+   "productSales": "未確認",
+   "productSalesDetail": "認証と添付文書（2023-04 第1版）は確認できたが、日本での販売開始の告知と販売窓口は見つからない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
+     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
+     "published": "2023-04"
+    },
+    {
+     "url": "https://casis.fr/ja/home-jp/",
+     "publisher": "CASIS（日本語サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "未確認"
+   ],
+   "deal": [],
+   "delivery": [],
+   "detail": "長瀬産業のサイトに QIR-Suite の製品ページは見つからない。CASIS の日本語サイトは問い合わせ・デモ依頼を受け付け、各国で販売代理店と連携すると書くが、日本の販売代理店名は載っていない。",
+   "sources": [
+    {
+     "url": "https://casis.fr/ja/home-jp/",
+     "publisher": "CASIS（日本語サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "汎用画像診断装置ワークステーション用プログラム（管理医療機器・クラスII、疾病診断用プログラム）の認証 305ADBZX00031000（添付文書 第1版 2023-04）。製造販売業者は長瀬産業、製造業者は CASIS。CASIS のサイトの認証の一覧に PMDA が載る。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
+     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
+     "published": "2023-04"
+    },
+    {
+     "url": "https://casis.fr/regulatory/",
+     "publisher": "CASIS（Regulatory）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "心臓 MRI・CT の画像診断（保険診療）の中で使う解析プログラム。製品に対応する点数・材料価格は確認できない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
+     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
+     "published": "2023-04"
+    }
+   ]
+  },
+  "stage": {
+   "value": "承認取得済み・提供状況未確認",
+   "detail": "認証と添付文書（2023-04 第1版、PMDA 掲載 2023-05-09）は確認できたが、長瀬産業の販売開始の発表・製品ページは見つからず、日本での提供状況は確かめられない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
+     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
+     "published": "2023-04"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "未確認",
+   "detail": "日本での販売の告知がなく、継続も終了も確かめられない。",
+   "signals": [
+    "PMDA の一覧に QIR-Suite の添付文書（2023-05-09 掲載）が載る",
+    "長瀬産業のサイトに製品ページは見つからない",
+    "CASIS の日本語サイトが公開中で、問い合わせ・デモ依頼を受け付ける（2026-11-24 閲覧）",
+    "CASIS の日本語サイトに東京慈恵会医科大学の教授の利用者の声（心臓 MRI 研究での利用。認証品かは書かれていない）",
+    "終了の告知は確認できない"
+   ],
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://casis.fr/ja/home-jp/",
+     "publisher": "CASIS（日本語サイト）",
+     "published": ""
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI を使う（資料で確認）",
+   "detail": "製造業者 CASIS の QIR-MR 製品ページに「AI-based segmentation」（左室・右室・心筋の輪郭）、「AI-assisted contour detection」、心筋の輪郭検出の「AI algorithm」とあり、日本語サイトも「AIを活用した心血管画像解析」と書く。日本の添付文書は機能を画像処理・解析と書くだけで、AI の記載も別の方法の説明もない（日本の認証品の版に同じ機能が入っているかは添付文書で確かめられない）。",
+   "sources": [
+    {
+     "url": "https://casis.fr/qir-mr/",
+     "publisher": "CASIS（QIR-MR 製品ページ）",
+     "published": ""
+    },
+    {
+     "url": "https://casis.fr/ja/home-jp/",
+     "publisher": "CASIS（日本語サイト）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_305ADBZX00031000_A_01_01",
+     "publisher": "PMDA（QIR-Suite 添付文書 第1版）",
+     "published": "2023-04"
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "国内の導入施設数",
+    "definition": "公表を確認できない",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "lastModel": {
+   "asOf": "2023-04",
+   "note": "添付文書 第1版（2023-04）で確認できた製品の形。販売の状況・販売先は確かめられていない"
+  },
+  "sourcesChecked": {
+   "pricing": "無し（長瀬産業の製品ページなし。CASIS の日本語サイトは利用の形だけで価格なし）",
+   "faq": "無し",
+   "tokushoho": "無し（医療機関向け）",
+   "terms": "無し",
+   "appStore": "無し（アプリなし）",
+   "checkedAt": "2026-11-24"
+  },
+  "id": "b-979cb736"
+ },
+ "b-f924238c": {
+  "name": "医用画像解析プログラム OLEA SPHERE（長瀬産業）",
+  "checkedAt": "2026-11-24",
+  "entity": "長瀬産業株式会社（医用画像解析プログラム OLEA SPHERE の製造販売業者。製造業者は仏 Olea Medical。販売の有無・販売者は未確認）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "画像診断（CT・MRI の画像処理・解析）",
+   "who": "CT・MRI の画像を読む医師・診療放射線技師",
+   "situation": "CT・MRI で撮った画像を、2次元・3次元の処理や解析をしてから診断に使う必要がある。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "汎用 PC にインストールする画像解析プログラムで、ダウンロードで提供する。CT・MRI の画像を DICOM サーバから取得して表示し、オプションのソフトで2次元・3次元の画像処理や各種の解析をして結果を示す（添付文書）。Olea Medical の製品ページは、拡散（ADC）や灌流（DSC・DCE）のマップの計算などを挙げる（日本の認証品にどのオプションが含まれるかは添付文書に書かれていない）。同じ Olea Sphere は、キヤノンメディカルシステムズが 2017 年に型式 OLSP-001A として別の認証を取っている（別の記録 b-2f667881）。専用の機器は付かない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    },
+    {
+     "url": "https://www.olea-medical.com/en/solutions/neurology/",
+     "publisher": "Olea Medical（Neurology）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/480122_229ABBZX00053000_A_02_01",
+     "publisher": "PMDA（Olea Sphere OLSP-001A 添付文書 第2版、キヤノンメディカルシステムズ）",
+     "published": "2018-01"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "Olea Medical（フランス。製造業者。2015 年からキヤノンメディカルシステムズのグループ）"
+   ],
+   "mah": [
+    "長瀬産業（認証 306ADBZX00075000）"
+   ],
+   "seller": [
+    "未確認（長瀬産業の販売開始の発表・製品ページは見つからない）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "医師・診療放射線技師"
+   ],
+   "outputUser": [
+    "読影する医師"
+   ],
+   "subject": [
+    "CT・MRI を受ける患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "未確認"
+   ],
+   "directPayer": [
+    "未確認"
+   ],
+   "finalBearer": [
+    "未確認"
+   ],
+   "userPaysTo": [],
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    },
+    {
+     "url": "https://www.olea-medical.com/en/our-philosophy/",
+     "publisher": "Olea Medical（Our philosophy）",
+     "published": ""
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "長瀬産業の販売の資料・価格は見つからない。",
+   "customerRecovery": [
+    "未確認"
+   ],
+   "recoveryDetail": "販売先を資料で確かめられない。製品に対応する保険点数は確認できない。",
+   "unknown": "長瀬産業による販売の有無・販売先・価格。キヤノンメディカルシステムズの OLSP-001A（別の認証）との販売上の関係",
+   "productSales": "未確認",
+   "productSalesDetail": "認証と添付文書（2024-03 第1版）は確認できたが、日本での販売開始の告知と販売窓口は見つからない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "未確認"
+   ],
+   "deal": [],
+   "delivery": [],
+   "detail": "長瀬産業のサイトに OLEA SPHERE の製品ページは見つからない。同じソフトの別の認証品 OLSP-001A の製造販売業者はキヤノンメディカルシステムズ（別の記録 b-2f667881）。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/480122_229ABBZX00053000_A_02_01",
+     "publisher": "PMDA（Olea Sphere OLSP-001A 添付文書 第2版、キヤノンメディカルシステムズ）",
+     "published": "2018-01"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "汎用画像診断装置ワークステーション用プログラム（管理医療機器・クラスII、疾病診断用プログラム）の認証 306ADBZX00075000（添付文書 第1版 2024-03）。製造販売業者は長瀬産業、製造業者は Olea Medical。キヤノンメディカルシステムズの Olea Sphere OLSP-001A（認証 229ABBZX00053000）とは別の認証。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "CT・MRI の画像診断（保険診療）の中で使う解析プログラム。製品に対応する点数・材料価格は確認できない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    }
+   ]
+  },
+  "stage": {
+   "value": "承認取得済み・提供状況未確認",
+   "detail": "認証と添付文書（2024-03 第1版、PMDA の一覧の掲載日 2025-03-03）は確認できたが、長瀬産業の販売開始の発表・製品ページは見つからず、日本での提供状況は確かめられない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "activity": {
+   "value": "未確認",
+   "detail": "日本での販売の告知がなく、継続も終了も確かめられない。",
+   "signals": [
+    "PMDA の一覧に添付文書（掲載日 2025-03-03）が載る",
+    "長瀬産業のサイトに製品ページは見つからない",
+    "キヤノンメディカルシステムズの OLSP-001A の添付文書は 2018-01 版のまま（別の記録 b-2f667881）",
+    "国内の扱いがキヤノンメディカルシステムズから長瀬産業に移ったという発表は見つからない",
+    "終了の告知は確認できない"
+   ],
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/303ADBZX00012000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/480122_229ABBZX00053000_A_02_01",
+     "publisher": "PMDA（Olea Sphere OLSP-001A 添付文書 第2版、キヤノンメディカルシステムズ）",
+     "published": "2018-01"
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "添付文書に AI・機械学習の記載はない。Olea Medical のサイトは会社として「solutions ... are equipped with high-performance AI algorithms」と案内するが、製品ページは拡散・灌流のマップの計算として機能を説明し、日本の認証品で AI を使うかは書かれていない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/510032_306ADBZX00075000_A_01_01",
+     "publisher": "PMDA（医用画像解析プログラム OLEA SPHERE 添付文書 第1版、長瀬産業）",
+     "published": "2024-03"
+    },
+    {
+     "url": "https://www.olea-medical.com/en/our-philosophy/",
+     "publisher": "Olea Medical（Our philosophy）",
+     "published": ""
+    },
+    {
+     "url": "https://www.olea-medical.com/en/solutions/neurology/",
+     "publisher": "Olea Medical（Neurology）",
+     "published": ""
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "国内の導入施設数",
+    "definition": "公表を確認できない",
+    "scope": "製品単体",
+    "value": "未確認",
+    "asOf": "未確認",
+    "source": null,
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "lastModel": {
+   "asOf": "2024-03",
+   "note": "添付文書 第1版（2024-03）で確認できた製品の形。販売の状況・販売先は確かめられていない"
+  },
+  "sourcesChecked": {
+   "pricing": "無し（長瀬産業の製品ページなし）",
+   "faq": "無し",
+   "tokushoho": "無し（医療機関向け）",
+   "terms": "無し",
+   "appStore": "無し（アプリなし）",
+   "checkedAt": "2026-11-24"
+  },
+  "id": "b-f924238c"
+ },
+ "b-a728354d": {
+  "name": "Sectra Workstation and Sectra Core 画像診断ワークステーション用プログラム（Sectra AB）",
+  "checkedAt": "2026-11-24",
+  "entity": "Sectra AB（スウェーデン。製造業者・製品の持ち主。日本の選任製造販売業者はプライムファイン、デジタルパソロジーの日本の販売パートナーは松浪硝子工業）",
+  "recordKind": "product",
+  "problem": {
+   "domain": "画像診断（放射線画像・デジタル病理の読影と共有）",
+   "who": "放射線科医・病理医など画像を読む医師",
+   "situation": "放射線・病理など装置ごとに画像を見る仕組みが分かれ、病理では顕微鏡でスライドガラスを見る必要があり、施設内外で画像を共有しにくい。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
+     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
+     "published": "2026-06"
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202601082126",
+     "publisher": "Sectra（共同通信PRワイヤー：国内初のデジタルパソロジープロジェクト）",
+     "published": "2026-01-08"
+    }
+   ]
+  },
+  "offering": {
+   "values": [
+    "医療機関・薬局向けソフト（クラウド・院内設置）"
+   ],
+   "detail": "CR・DR・CT・MRI・病理のホールスライド画像（WSI）のスキャナ・超音波・マンモグラフィなどから画像を受け取り、表示・処理して診療に使う画像診断ソフト（自動診断機能はない）。汎用 PC にインストールするほか、クラウドで提供され汎用コンピュータからクラウドサーバにアクセスしても使える（添付文書）。日本では亀田メディカルセンターがデジタルパソロジーのモジュールを導入し、病理医が組織標本のデジタル画像で診断・連携する（発表。この導入が本認証の製品で行われたとは書かれていないが、本認証の対象に病理 WSI が含まれる）。専用の機器は付かない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
+     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
+     "published": "2026-06"
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202601082126",
+     "publisher": "Sectra（共同通信PRワイヤー：国内初のデジタルパソロジープロジェクト）",
+     "published": "2026-01-08"
+    }
+   ]
+  },
+  "roles": {
+   "developer": [
+    "Sectra AB（スウェーデン。製造業者）"
+   ],
+   "mah": [
+    "プライムファイン（選任製造販売業者。認証 304ADBZI00092000）"
+   ],
+   "seller": [
+    "松浪硝子工業（日本のデジタルパソロジーの販売パートナー）",
+    "未確認（放射線画像の用途の日本の販売者）"
+   ],
+   "operator": [],
+   "brandOwner": [],
+   "operatorUser": [
+    "放射線科医・病理医・診療放射線技師"
+   ],
+   "outputUser": [
+    "画像を読む医師"
+   ],
+   "subject": [
+    "画像検査・病理検査を受ける患者"
+   ],
+   "supplier": [],
+   "recommender": [],
+   "contractor": [
+    "医療機関（亀田メディカルセンターの例。松浪硝子工業を通じて契約）"
+   ],
+   "directPayer": [
+    "未確認（松浪硝子工業を通じた契約で、Sectra AB が松浪硝子工業から受け取るか医療機関から受け取るかは書かれていない）"
+   ],
+   "finalBearer": [
+    "医療機関（自施設の経費）"
+   ],
+   "userPaysTo": [],
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
+     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
+     "published": "2026-06"
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202601082126",
+     "publisher": "Sectra（共同通信PRワイヤー：国内初のデジタルパソロジープロジェクト）",
+     "published": "2026-01-08"
+    }
+   ]
+  },
+  "revenue": {
+   "values": [
+    "未確認"
+   ],
+   "detail": "日本での価格・課金の形（ライセンス・クラウドの利用料・保守など）は公開資料にない。",
+   "customerRecovery": [
+    "医療機関などの事業経費として負担"
+   ],
+   "recoveryDetail": "販売先は医療機関（亀田メディカルセンター）。医療機関の経費で、画像診断・病理診断の診療収入でまかなう関係。製品に対応する保険点数は確認できない。",
+   "unknown": "日本での価格と課金の形、松浪硝子工業との対価の分け方、放射線画像の用途での日本の販売の有無",
+   "productSales": "あり",
+   "productSalesDetail": "Sectra AB が、販売パートナー松浪硝子工業を通じて亀田メディカルセンターと契約し（Sectra の 2025/2026 会計年度第2四半期）、2026-01 に導入フェーズを始めたと発表した。",
+   "sources": [
+    {
+     "url": "https://kyodonewsprwire.jp/release/202601082126",
+     "publisher": "Sectra（共同通信PRワイヤー：国内初のデジタルパソロジープロジェクト）",
+     "published": "2026-01-08"
+    }
+   ]
+  },
+  "channel": {
+   "first": [
+    "医療機関"
+   ],
+   "deal": [
+    "代理店"
+   ],
+   "delivery": [],
+   "detail": "デジタルパソロジーは日本の販売パートナー松浪硝子工業を通じて医療機関（亀田メディカルセンター）と契約。放射線画像の用途の日本の販売経路は資料にない。選任製造販売業者のプライムファインは販売の経路に名前が出てこない。",
+   "sources": [
+    {
+     "url": "https://kyodonewsprwire.jp/release/202601082126",
+     "publisher": "Sectra（共同通信PRワイヤー：国内初のデジタルパソロジープロジェクト）",
+     "published": "2026-01-08"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
+     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
+     "published": "2026-06"
+    }
+   ]
+  },
+  "regulatory": {
+   "values": [
+    "承認・認証・届出を確認"
+   ],
+   "detail": "汎用画像診断装置ワークステーション用プログラム（管理医療機器・クラスII、疾病診断用プログラム）の認証 304ADBZI00092000（添付文書 2022-09 第1版、2026-06 第2版）。選任製造販売業者はプライムファイン、製造業者は Sectra AB。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
+     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
+     "published": "2026-06"
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZI00092000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    }
+   ]
+  },
+  "reimbursement": {
+   "values": [
+    "独立した評価なし（保険診療の中で使われる）"
+   ],
+   "detail": "画像診断・病理診断（保険診療）の中で使う。製品に対応する点数・材料価格は確認できない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
+     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
+     "published": "2026-06"
+    }
+   ]
+  },
+  "stage": {
+   "value": "一般提供",
+   "detail": "販売パートナー経由の医療機関との契約と、2026-01 の導入フェーズの開始を確認した。",
+   "sources": [
+    {
+     "url": "https://kyodonewsprwire.jp/release/202601082126",
+     "publisher": "Sectra（共同通信PRワイヤー：国内初のデジタルパソロジープロジェクト）",
+     "published": "2026-01-08"
+    }
+   ]
+  },
+  "activity": {
+   "value": "提供継続",
+   "detail": "2026-06 に添付文書を改訂（第2版、PMDA 掲載 2026-08-13）、2026-01 に国内初のデジタルパソロジーの導入フェーズを開始。",
+   "signals": [
+    "添付文書 第2版（2026-06、PMDA 掲載 2026-08-13）",
+    "Sectra と松浪硝子工業による亀田メディカルセンターの導入フェーズ（2026-01）",
+    "終了の告知は確認できない"
+   ],
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ADBZI00092000_1_01",
+     "publisher": "PMDA（汎用画像診断装置ワークステーション用プログラム 一覧）",
+     "published": ""
+    },
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
+     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
+     "published": "2026-06"
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202601082126",
+     "publisher": "Sectra（共同通信PRワイヤー：国内初のデジタルパソロジープロジェクト）",
+     "published": "2026-01-08"
+    }
+   ]
+  },
+  "aiUse": {
+   "value": "AI の使用は未確認",
+   "detail": "添付文書に AI・機械学習の記載はない（「自動診断機能を有さない」とあるが、AI を使わない根拠にはしない）。発表には、デジタルパソロジーのシステムに緊密に統合された「AIツール」を病理医が使えるとあるが、本認証の製品の機能かは書かれていない。",
+   "sources": [
+    {
+     "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/671303_304ADBZI00092000_1_01_02",
+     "publisher": "PMDA（Sectra Workstation and Sectra Core 添付文書 第2版）",
+     "published": "2026-06"
+    },
+    {
+     "url": "https://kyodonewsprwire.jp/release/202601082126",
+     "publisher": "Sectra（共同通信PRワイヤー：国内初のデジタルパソロジープロジェクト）",
+     "published": "2026-01-08"
+    }
+   ]
+  },
+  "adoption": [
+   {
+    "metric": "日本でのデジタルパソロジーの導入",
+    "definition": "日本初のデジタルパソロジー導入（導入フェーズの開始）。画像診断ソフト全体の日本の導入数ではない",
+    "scope": "製品単体（日本・デジタルパソロジー）",
+    "value": "1施設（亀田メディカルセンター）",
+    "asOf": "2026-01",
+    "source": {
+     "url": "https://kyodonewsprwire.jp/release/202601082126",
+     "publisher": "Sectra（共同通信PRワイヤー：国内初のデジタルパソロジープロジェクト）",
+     "published": "2026-01-08"
+    },
+    "ref": false
+   }
+  ],
+  "periods": [],
+  "plan": "",
+  "sourcesChecked": {
+   "pricing": "無し（料金の公開なし）",
+   "faq": "無し",
+   "tokushoho": "無し（医療機関向け）",
+   "terms": "無し",
+   "appStore": "無し（PC・クラウドのソフト）",
+   "checkedAt": "2026-11-24"
+  },
+  "id": "b-a728354d"
  }
 }
