@@ -3522,12 +3522,12 @@
   },
   {
     "id": "b-baab46c5",
-    "name": "LINEで完結するオンライン診療「HELPOドクター」",
+    "name": "ヘルスケアアプリ「HELPO」／LINEで完結するオンライン診療「HELPOドクター」",
     "company": "ヘルスケアテクノロジーズ株式会社",
     "companyId": "6010001195683",
     "category": "health-consulting",
-    "description": "医師・看護師・薬剤師に24時間チャットで健康相談でき、必要に応じて提携医療機関のオンライン診療、病院検索、市販薬ECにつなぐアプリ。企業・健保・自治体向けに導入し、個人向けにも月額550円で提供。",
-    "hp": "",
+    "description": "医師・看護師・薬剤師に24時間チャットで健康相談でき、提携医療機関のオンライン診療や市販薬ECにつなぐアプリ「HELPO」と、LINEで予約・受診するオンライン診療「HELPOドクター」。企業・健保・自治体向けと個人向け（月額550円）に提供。",
+    "hp": "https://healthcare-tech.co.jp/c/service/",
     "startedYear": 2020,
     "status": "提供中",
     "startedAt": "2020-07",
@@ -7367,11 +7367,10 @@
   {
     "id": "b-084da392",
     "name": "診療所向け電子カルテ「ハヤブサ」",
-    "company": "GMOヘルスケア株式会社",
-    "companyId": "8120001099797",
+    "company": "GMOヘルステック株式会社",
     "category": "electronic-health-record",
-    "description": "大阪の旧アイソルが自社開発し、診療所に販売・導入・保守まで提供したオンプレミス型の一体型電子カルテ。診療科ごとのカスタマイズと他社システムからのデータ移行を強みとした。",
-    "hp": "",
+    "description": "大阪の旧アイソルが自社開発し2020年2月に発売した、診療所向けオンプレミス型のレセコン一体型電子カルテ。診療科ごとのカスタマイズや検査機器の数値取り込みに対応し、いまはGMOヘルステックが販売・導入・保守を行う。",
+    "hp": "https://gmo-healthtech.com/product/hayabusa/",
     "startedYear": 2020,
     "status": "提供中",
     "startedAt": "2020-02",
@@ -7422,8 +7421,14 @@
     },
     "pastEvents": [
       {
+        "date": "2024-06",
+        "text": "株式会社アイソルが GMOフィナンシャルホールディングスの連結会社となり、GMOヘルスケア株式会社に商号変更",
+        "source": "https://prtimes.jp/main/html/rd/p/000000709.000030257.html"
+      },
+      {
         "date": "2025-08",
-        "text": "法人合併"
+        "text": "GMOヘルスケアが GMOヘルステックに吸収合併され、ハヤブサの提供会社が GMOヘルステックに替わる",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8120001099797"
       }
     ]
   },
@@ -14818,12 +14823,12 @@
   },
   {
     "id": "b-9beb9909",
-    "name": "MALL（病院・有床診療所向け電子カルテ、旧パシフィックシステム）とMALLクラウド",
-    "company": "パシフィックメディカル",
-    "companyId": "2490001009840",
+    "name": "MALL（病院・有床診療所向け電子カルテ）とMALLクラウド",
+    "company": "株式会社メドレー",
+    "companyId": "4010401082351",
     "category": "electronic-health-record",
-    "description": "高知の会社が約20年提供してきた中小病院・有床診療所向けの低価格電子カルテ。メドレーが買収して病院向け市場に参入し、2025年9月の吸収合併後はメドレーが提供を続け、2026年8月には厚労省の標準仕様に準拠したクラウド版「MALLクラウド」を2027年1月以降に段階提供する予定と発表した。",
-    "hp": "",
+    "description": "高知の旧パシフィックシステムが約20年提供してきた中小病院・有床診療所向けのオンプレミス電子カルテ。2025年9月の吸収合併後はメドレーが提供し、国の標準仕様に準拠するクラウド版「MALLクラウド」を2027年1月以降に段階提供する予定。",
+    "hp": "https://mall-cloud.com/",
     "startedYear": null,
     "status": "提供中",
     "successor": "株式会社メドレー（「MALL」として提供継続）",
@@ -14911,10 +14916,22 @@
     "kind": "group",
     "pastEvents": [
       {
+        "date": "2020-12",
+        "text": "メドレーが株式会社パシフィックシステムの株式80%の取得（子会社化）を決議",
+        "source": "https://www2.jpx.co.jp/disc/44800/140120201216435890.pdf"
+      },
+      {
+        "date": "2021-04",
+        "text": "株式会社パシフィックシステムが株式会社パシフィックメディカルに商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=1490001005089"
+      },
+      {
         "date": "2025-09",
-        "text": "サービス統合"
+        "text": "メドレーがパシフィックメディカルを吸収合併し、MALL の提供会社がメドレーに替わる",
+        "source": "https://www.nihon-ma.co.jp/news/20250220_4480-13/"
       }
-    ]
+    ],
+    "formerName": "MALL（病院・有床診療所向け電子カルテ、旧パシフィックシステム）とMALLクラウド"
   },
   {
     "id": "b-07c67bdb",
@@ -21564,7 +21581,7 @@
   {
     "id": "b-73b1a8ed",
     "name": "システム連携プラン",
-    "company": "京都プロメド",
+    "company": "京都プロメド株式会社",
     "companyId": "3130001028784",
     "category": "medical-image",
     "description": "読影依頼の多い病院向けの遠隔画像診断プラン。院内システムと依頼情報・確定所見を連携させ、手入力の手間や誤りをなくしてレポートを院内で一元管理できる。月1,000件程度までが目安で、初期費用18万円＋連携費、基本料月5万円から。",
@@ -30969,7 +30986,7 @@
     "company": "ドクターメイト株式会社",
     "companyId": "4040001102829",
     "category": "telemedicine",
-    "description": "特別養護老人ホーム・有料老人ホームや障害者施設の職員が、日中に専門医へチャットで医療相談できるサービス。皮膚科など全科に対応し365日相談できる。同社の全サービスの利用施設は1,737施設（2025年10月）。",
+    "description": "特別養護老人ホーム・有料老人ホームなどの介護施設や障害者施設の職員が、日中に施設の端末から同社の医師へチャットで医療相談できるサービス。皮膚科に特化し、365日相談でき、相談後にレポートが届く。",
     "hp": "https://doctormate.co.jp/service-2",
     "startedYear": 2017,
     "status": "提供中",
@@ -43043,11 +43060,11 @@
   },
   {
     "id": "b-9482d5ba",
-    "name": "PHRデータビジネス（データ利活用・パネル調査・API・治験紹介）",
+    "name": "PHRデータビジネス（パネル調査・API連携・治験候補者紹介・匿名加工情報の提供）",
     "company": "Arteryex株式会社",
     "companyId": "4020001125575",
     "category": "personal-health-record",
-    "description": "写真を撮るだけで健診結果・検査結果・お薬手帳を記録できるPHRアプリ「パシャっとカルテ」に集まったデータを使い、企業向けに患者リサーチパネル、データ利活用、API連携、治験紹介などを行う事業。同社はエーザイの子会社。",
+    "description": "PHRアプリ「パシャっとカルテ」に集まった健診結果・検査結果・お薬情報を使い、企業向けに患者パネル調査、利用者の同意に基づくAPI連携、治験候補者の紹介、匿名加工情報の提供を行う事業。",
     "hp": "https://arteryex.biz/data-business/",
     "startedYear": null,
     "status": "提供中",
@@ -43077,7 +43094,8 @@
         "text": "Arteryexがエーザイの子会社となる（医療情報プラットフォーム構築に向けて）",
         "source": "https://prtimes.jp/main/html/rd/p/000000014.000044584.html"
       }
-    ]
+    ],
+    "formerName": "PHRデータビジネス（データ利活用・パネル調査・API・治験紹介）"
   },
   {
     "id": "b-2d024280",
@@ -70797,9 +70815,9 @@
   {
     "id": "b-02df580d",
     "name": "ウィズウェルネス",
-    "company": "株式会社医針盤",
+    "company": "H.U.ウェルネス株式会社",
     "category": "personal-health-record",
-    "description": "健診結果・検査結果・服薬情報・バイタルデータを一元管理するPHRアプリ。「医’sアシスト」導入医療機関の結果を受け取れるほか、紙の結果の撮影取り込みやマイナポータル連携に対応。登録会員50万人超。",
+    "description": "健診結果・検査結果・服薬情報・バイタルデータをまとめて管理する無料のPHRアプリ。「医'sアシスト」導入医療機関の結果を受け取れるほか、紙の結果の撮影取り込み、マイナポータル連携、AIによる健康予測の機能がある。",
     "hp": "https://www.withwellness.com/pr/",
     "startedYear": 2020,
     "status": "提供中",
@@ -70819,7 +70837,13 @@
         "source": "https://prtimes.jp/main/html/rd/p/000000115.000042705.html"
       }
     ],
-    "companyId": "6011101091509"
+    "pastEvents": [
+      {
+        "date": "2026-10",
+        "text": "吸収分割により、医's アシストなどの事業とともに運営会社が株式会社医針盤から H.U.ウェルネス株式会社に替わる",
+        "source": "https://cdn.shopify.com/s/files/1/0999/0094/8792/files/HUW_news_20260828.pdf?v=1788943511"
+      }
+    ]
   },
   {
     "id": "b-a6f588a6",
@@ -72096,7 +72120,7 @@
     "name": "ANYMED（エニメド）",
     "company": "株式会社COREARTS",
     "category": "telemedicine",
-    "description": "予約から受診・会計までスマホで済ませられるオンライン診療アプリ。受付・会計の待ち時間を減らし、院内感染のリスクを避けられる。",
+    "description": "医療機関向けのオンライン診療システムと患者向けアプリ。予約・事前問診・ビデオ診療・決済に加え、オンライン資格確認、Fitbitのデータ表示、訪問診療での利用、企業向けのオンライン産業医に対応する。",
     "hp": "https://www.anymed.online/",
     "startedYear": 2020,
     "status": "提供中",
@@ -78986,11 +79010,11 @@
   },
   {
     "id": "b-794249b7",
-    "name": "ViewSend ICT（病院間の遠隔画像診断支援プラットフォーム・PACS）",
+    "name": "ViewSend ICT（病院間の遠隔画像診断支援サービス・PACS）",
     "company": "ViewSend ICT株式会社",
     "category": "medical-image",
-    "description": "国立がん研究センターと共同開発した遠隔画像診断支援システム。放射線診断専門医のいる大病院と中小病院を結び、施設基準を満たす医療機関が読影することで、依頼側が画像診断管理加算を算定できる点が特徴。年間約5.8万症例。",
-    "hp": "",
+    "description": "国立がん研究センターと共同開発した遠隔画像診断支援システムとPACS。放射線診断専門医のいる拠点病院と中小病院を結び、施設基準を満たす病院が読影するため、依頼側は画像診断管理加算を算定できる。2025年の支援件数は約9万件。",
+    "hp": "https://www.viewsend-ict.co.jp/",
     "startedYear": 2009,
     "status": "提供中",
     "startedAt": "2009",
@@ -79025,7 +79049,8 @@
       "checkedAt": "2026-10"
     },
     "companyId": "8010501030529",
-    "kind": "group"
+    "kind": "group",
+    "formerName": "ViewSend ICT（病院間の遠隔画像診断支援プラットフォーム・PACS）"
   },
   {
     "id": "b-f4da844d",
@@ -87745,7 +87770,7 @@
     "name": "DOREME（ドレミ）",
     "company": "MediTech Solutions株式会社",
     "category": "telemedicine",
-    "description": "登録から診察までを簡単にした日本のオンライン診療アプリ。ビデオ通話中のチャット機能や多言語対応があり、外国人を含む利用者が受診しやすいようにしている。",
+    "description": "アプリでクリニックを予約してビデオ通話で診察を受けるオンライン診療アプリ。保険証は受診後の登録でもよく、通話中のチャット、同社スタッフ中心の通訳による多言語対応、薬の配達がある。",
     "hp": "https://doreme.co.jp/",
     "startedYear": 2024,
     "status": "提供中",
@@ -111853,7 +111878,7 @@
     "companyId": "8010401124298",
     "category": "telemedicine",
     "description": "医療特化型予約管理システム「メディカル革命 byGMO」の機能として提供するオンライン診療。予約・問診・決済と同じシステム上でビデオ診療を行える。",
-    "hp": "https://gmo-reserve.plus/",
+    "hp": "https://medical-reserve.co.jp/products/online",
     "startedYear": 2022,
     "status": "提供中",
     "startedAt": "2022-08",
@@ -121529,7 +121554,7 @@
     "company": "株式会社JLK Japan",
     "category": "medical-image",
     "description": "韓国の医療AI企業JLKの脳MR・脳CT画像解析ソフト群。拡散強調像や灌流画像などから脳梗塞・出血・灌流異常を解析して示し、急性期脳卒中の診断を支援する。",
-    "hp": "",
+    "hp": "https://www.jlkgroup.com/jp/medihub_stroke",
     "startedYear": null,
     "status": "不明",
     "knownSince": "2024",
@@ -121597,7 +121622,14 @@
       "number": "306ALBZI00002000"
     },
     "kind": "group",
-    "stage": "承認取得済み"
+    "stage": "承認取得済み",
+    "pastEvents": [
+      {
+        "date": "2026-04",
+        "text": "JLK-DWI・JLK-FLAIR・JLK-GRE の製造販売業者がアドバンスジャパン株式会社から株式会社JLK Japan（選任製造販売業者）に替わる（電子添文の改訂）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/202860_307AGBZI00007000_A_02_02"
+      }
+    ]
   },
   {
     "id": "b-6a914437",
@@ -121643,8 +121675,8 @@
     "company": "株式会社ドクターネット",
     "companyId": "7010401088511",
     "category": "medical-image",
-    "description": "韓国Heuron社の技術による頭部CT画像解析AIエンジンで、脳出血や梗塞などが疑われる領域を示して読影を支援する。ドクターネットの遠隔読影で使われる。",
-    "hp": "",
+    "description": "韓国Heuron社と共同開発した頭部CT画像解析AIで、非造影CTから頭蓋内の高吸収領域を抽出して体積を計測し、10か所の関心領域で低吸収傾向を強調する。ドクターネットのAI基盤「AI-RAD」で医療機関に提供する。",
+    "hp": "https://dr-net.co.jp/service/airad/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2025",
@@ -121687,8 +121719,8 @@
     "company": "株式会社ドクターネット",
     "companyId": "7010401088511",
     "category": "medical-image",
-    "description": "胸部単純X線画像から肺炎が疑われる陰影をAIで検出して示す画像解析エンジン。韓国JLKの技術をドクターネットが製造販売し、遠隔読影で使う。",
-    "hp": "",
+    "description": "胸部X線画像を自動解析し、感染性肺炎所見の確信度と着目領域をヒートマップで示す画像解析エンジン。韓国JLKと共同で開発し、ドクターネットのAI基盤「AI-RAD」で単体または遠隔読影と併せて提供する。",
+    "hp": "https://dr-net.co.jp/service/airad/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2021-12",
@@ -121717,7 +121749,8 @@
       "classLabel": "クラスII",
       "jmdn": "40935012",
       "checkedAt": "2026-10"
-    }
+    },
+    "startedAt": "2021-12"
   },
   {
     "id": "b-aad67efb",
@@ -122300,8 +122333,8 @@
     "name": "線維化を伴う間質性肺疾患検出支援プログラム BMAX",
     "company": "コスモテック株式会社",
     "category": "medical-image",
-    "description": "胸部X線画像から線維化を伴う間質性肺疾患が疑われる所見をAIで検出し、専門医への紹介などを支援するプログラム。エムスリーと日本ベーリンガーインゲルハイムが共同開発した。",
-    "hp": "",
+    "description": "胸部X線画像から線維化を伴う間質性肺疾患の所見をAIで検出し、確信度スコアとアラートを表示するプログラム。エムスリーと日本ベーリンガーインゲルハイムが共同開発し、エムスリーAIのM3 AI Platformで提供する。",
+    "hp": "https://m3comlp.m3.com/lp/m3com/BMAX",
     "startedYear": 2023,
     "status": "提供中",
     "startedAt": "2023-11-30",
@@ -122625,7 +122658,7 @@
     "company": "ハートフロー・ジャパン合同会社",
     "category": "medical-image",
     "description": "冠動脈CT血管造影データをもとに数値流体力学解析で冠血流予備量比（FFRCT）を算出し、狭窄が血流を妨げているかの判断を支援する米HeartFlow社の解析サービス。",
-    "hp": "",
+    "hp": "https://jp.heartflow.com/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2016-11",
@@ -123060,12 +123093,12 @@
   },
   {
     "id": "b-5484e79f",
-    "name": "EIRL Chest CT Basic（医用画像解析ソフトウェア EIRL Chest CT／Chest CT2）",
+    "name": "EIRL Chest CT／EIRL Chest CT Basic（医用画像解析ソフトウェア EIRL Chest CT2／EIRL Chest CT）",
     "company": "エルピクセル株式会社",
     "companyId": "2011001099036",
     "category": "medical-image",
-    "description": "胸部CT画像から肺がんが疑われる肺結節の候補域を検出し、計測を支援する画像診断支援AI。2022年の認証品に続き、結節検出を含む品目が2025年に承認された。",
-    "hp": "",
+    "description": "胸部CT画像から肺結節の候補領域を検出・計測するEIRL Chest CTと、肺野の関心領域を抽出・計測するEIRL Chest CT Basicの2つの画像解析ソフト。2022年に認証品、2025年に結節検出の承認品を発売した。",
+    "hp": "https://eirl.ai/ja/eirl-chest_ct2/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2022",
@@ -123113,7 +123146,9 @@
       "checkedAt": "2026-10"
     },
     "groupId": "eirl",
-    "kind": "group"
+    "kind": "group",
+    "formerName": "EIRL Chest CT Basic（医用画像解析ソフトウェア EIRL Chest CT／Chest CT2）",
+    "startedAt": "2022-04-04"
   },
   {
     "id": "b-d5f30ab3",
@@ -129903,11 +129938,11 @@
   },
   {
     "id": "b-f839df15",
-    "name": "Brainlab の手術計画・画像ソフト（Elements サージカル、iPlan、Buzz、Quentry、TraumaCad ほか）",
+    "name": "Brainlab の手術計画・画像ソフト（Elements、TraumaCad、Quentry、Buzz、iPlan ほか）",
     "company": "ブレインラボ株式会社",
     "category": "medical-image",
     "description": "独Brainlab社の手術向けソフト群。脳神経・脊椎・整形外科の手術計画、手術室での画像表示（Buzz）、クラウドでの画像共有（Quentry）、整形外科のデジタル計画（TraumaCad）などを提供する。",
-    "hp": "",
+    "hp": "https://www.brainlab.com/ja/surgery-products/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2008",
@@ -129978,7 +130013,8 @@
       "jmdn": "70030012",
       "checkedAt": "2026-10"
     },
-    "kind": "group"
+    "kind": "group",
+    "formerName": "Brainlab の手術計画・画像ソフト（Elements サージカル、iPlan、Buzz、Quentry、TraumaCad ほか）"
   },
   {
     "id": "b-b57f063d",
@@ -131338,11 +131374,11 @@
   },
   {
     "id": "b-ea5f9190",
-    "name": "海綿骨構造指標ソフトウェア／DXA三次元画像解析ソフトウェア",
+    "name": "海綿骨構造指標ソフトウェア TBS iNsight／DXA三次元画像解析ソフトウェア 3D-SHAPER",
     "company": "東洋メディック株式会社",
     "category": "medical-image",
     "description": "骨密度測定（DXA）の画像から、海綿骨の微細構造の指標（TBS）や大腿骨の3次元形状を解析し、骨折リスクの評価を支援するソフト。",
-    "hp": "",
+    "hp": "https://www.toyo-medic.co.jp/products/ctg/bone-mineral-density/#software",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2015",
@@ -131378,7 +131414,8 @@
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
     },
-    "kind": "group"
+    "kind": "group",
+    "formerName": "海綿骨構造指標ソフトウェア／DXA三次元画像解析ソフトウェア"
   },
   {
     "id": "b-f84751bc",
