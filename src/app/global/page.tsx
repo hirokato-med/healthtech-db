@@ -77,7 +77,7 @@ export default function GlobalPage() {
                 return (
                 <article className="card" id={o.id} key={o.id} style={JUMP}>
                   {/* いまの提供状況を確かめられない会社は、旧ドメインが無関係のサイトになっていることがあるのでリンクしない */}
-                  <a className="title" href={(actOk && o.hp) || undefined} target="_blank" rel="noreferrer">{o.name}</a>
+                  <a className="title" href={(actOk && !actUnknown && o.hp) || undefined} target="_blank" rel="noreferrer">{o.name}</a>
                   {areas.length > 0 && <div className="chips">{areas.map((a) => <span key={a} className="chip ghost">{a}</span>)}</div>}
                   {/* 閉鎖・買収などが説明文の終わりにあることが多いので、海外企業のカードでは説明文を途中で切らない */}
                   {o.checkedAt && o.description && <p className="desc" style={{ display: 'block', WebkitLineClamp: 'unset', overflow: 'visible' }}>{o.description}</p>}

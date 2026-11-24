@@ -3,7 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import { renderMarkdown } from './markdown';
 import { withBase } from './base';
-import { STOPPED } from './status';
+import { isStopped as isStoppedStatus } from './status';
 import type { BusinessModel,
   Disclosure,
   EarningsReport,
@@ -89,7 +89,7 @@ const findCompanyExact = (name: string): Company | undefined => {
  */
 const ownerOf = (s: Service) => {
   if (s.companyId) return s.companyId;
-  if (s.company.includes('→') && STOPPED.includes(s.status)) return findCompanyExact(s.company.split('→')[0])?.id;
+  if (s.company.includes('→') && isStoppedStatus(s)) return findCompanyExact(s.company.split('→')[0])?.id;
   return findCompanyByName(s.company)?.id;
 };
 export const getServices = () =>

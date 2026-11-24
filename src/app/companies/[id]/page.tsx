@@ -10,7 +10,8 @@ import { NewsList } from '@/components/NewsList';
 import { CORRECTION_FORM_URL } from '@/components/Footer';
 import { isStopped, statusLabel, categoryName, findCompanyByName, receivedServicesOf, getArticles, getCompanies, getCompany, getDisclosures, getEarnings, getFinanceHistory, getFundings, getPartnerships, newsOf, peopleOf, servicesOf } from '@/lib/data';
 import { statusClass } from '@/lib/status';
-import { marginOf, comparable, forecastLabel, forecastText, growth, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText , growthText, itemLabels} from '@/lib/earnings';
+import { marginOf, comparable, forecastLabel, forecastText, growth, growthBasis, hasForecast, healthcareOf, latestWithSegments, money, noForecastText, notComparableText, pct, revenueText , growthText, itemLabels} from '@/lib/earnings';
+import { jpDates } from '@/lib/ym';
 import { reconcileBusinesses } from '@/lib/profile';
 import { fundingSummary, investorKey, roundLabel, ymJa } from '@/lib/funding';
 import { EarningsBars } from '@/components/EarningsBars';
@@ -82,7 +83,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   const fhLastGrowth = (() => {
     const m = fyRep?.fiscalYear.match(/(\d{4})年(\d{1,2})月期/);
     const last = fhYears[fhYears.length - 1];
-    return m && last && last.fy === `${m[1]}-${m[2].padStart(2, '0')}` ? growth(fyRep) : null;
+    return m && last && last.fy === `${m[1]}-${m[2].padStart(2, '0')}` && growthBasis(fyRep) !== '概算' ? growth(fyRep) : null;
   })();
   // 業績の時間軸に重ねる出来事：この会社がした出資・資本業務提携・子会社化と、グループ会社の出入り
   const finEvents: FinEvent[] = (() => {
@@ -128,7 +129,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
       // 年平均の伸びは決算期末の間の実際の年数で割る。両端が変則決算（12か月でない期）なら出さない
       const odd = (y?: { note?: string }) => /変則|決算期変更|\d+\s*(か月|カ月|ヶ月)/.test(y?.note ?? '');
       const span = ys.length >= 3 ? ((Number(ys[ys.length - 1].fy.slice(0, 4)) * 12 + Number(ys[ys.length - 1].fy.slice(5, 7))) - (Number(ys[0].fy.slice(0, 4)) * 12 + Number(ys[0].fy.slice(5, 7)))) / 12 : 0;
-      const cagr = span >= 1 && sp[0] >= CAGR_MIN_BASE && !odd(ys[0]) && !odd(ys[ys.length - 1]) ? ((sp[sp.length - 1] / sp[0]) ** (1 / span) - 1) * 100 : null;
+      const cagr = span >= 1 && sp[0] >= CAGR_MIN_BASE && sp[sp.length - 1] > 0 && !odd(ys[0]) && !odd(ys[ys.length - 1]) ? ((sp[sp.length - 1] / sp[0]) ** (1 / span) - 1) * 100 : null;
       rows.push({ id: o.id, name: o.name.replace(/^株式会社|株式会社$/g, '').replace(/ホールディングス/, 'HD'), fy: r.fiscalYear.replace(/年(\d+)月期/, '/$1').replace(/^20/, ''), revenue: r.current.revenue, prior: comparable(r) ? r.prior?.revenue : undefined, operatingIncome: r.current.operatingIncome, margin: marginOf(r), growth: growth(r), healthShare: share, spark: sp, cagr, cagrSpan: span, basis: r.consolidated === false ? '単体' : '連結', self: o.id === c.id });
     }
     rows.sort((a, b) => b.revenue - a.revenue);
@@ -167,7 +168,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ id: st
   };
   const ym = (s: string) => s.replace(/^(\d{4})-(\d{2})(-\d{2})?$/, (_, y, m) => `${y}年${Number(m)}月`).replace(/^(\d{4})$/, '$1年');
   // 本文中の「2026-10」「2026-11-19」のような日付を「2026年10月」「2026年11月19日」にそろえる（URL の中は変えない）
-  const jaDates = (t?: string) => (t ?? '').replace(/(^|[^\d\-/=._A-Za-z])(\d{4})-(0[1-9]|1[0-2])(?:-(0[1-9]|[12]\d|3[01]))?(?![\d-])/g, (_, pre, y, mo, d) => `${pre}${y}年${Number(mo)}月${d ? `${Number(d)}日` : ''}`);
+  const jaDates = (t?: string) => jpDates(t ?? '');
   // 従業員数の書き方をそろえる（単位は「名」、範囲は「〜」、4桁以上は桁区切り）
   const empText = (e: string) => {
     const t = e.replace(/[~～]/g, '〜').replace(/(?<![\d,])\d{4,}(?![\d年月-])/g, (d) => Number(d).toLocaleString('ja-JP')).replace(/(\d)人/g, '$1名');

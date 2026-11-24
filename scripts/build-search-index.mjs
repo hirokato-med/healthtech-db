@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /** data/ と content/ から検索用インデックス public/search-index.json を作る（next build の前に走る）。 */
-import { statusLabel } from '../src/lib/status.ts';
+import { statusLabel, isStalledStage } from '../src/lib/status.ts';
 import { areasJa, countryJa, overseasStatus } from '../src/lib/overseas-label.ts';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -34,7 +34,7 @@ const stageText = (stage) => `準備中：${stage.replace(/（/g, '／').replace
 // 譲渡は向きが分かるように、譲渡先を付ける（「譲渡（→メドレー）」）
 const shortCo = (x) => x.split(/[（「(]/)[0].replace(/株式会社|有限会社|合同会社/g, '').trim();
 const serviceStatus = (s) => {
-  if (s.status === '準備中' && s.stage) return stageText(s.stage);
+  if (s.status === '準備中' && s.stage && !s.kind && !isStalledStage(s.stage)) return stageText(s.stage);
   const l = statusLabel(s);
   const to = s.successor ? shortCo(s.successor) : '';
   return l === '譲渡' && to ? `譲渡（→${to.length > 20 ? `${to.slice(0, 19)}…` : to}）` : l;

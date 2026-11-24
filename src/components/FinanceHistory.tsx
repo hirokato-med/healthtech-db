@@ -27,7 +27,7 @@ export function FinanceHistoryPanel({ years, events, code, market, healthShare, 
   const irregular = (y?: FinanceYear) => !!y && /変則|決算期変更|\d+\s*(か月|カ月|ヶ月)/.test(y.note ?? '');
   // 年平均の伸びは、決算期末の間の実際の年数で割る（変則決算があっても期の数で割らない）
   const spanYears = (() => { const [a, b] = [first.fy, last.fy].map((f) => Number(f.slice(0, 4)) * 12 + Number(f.slice(5, 7))); return (b - a) / 12; })();
-  const cagr = first.revenue! >= CAGR_MIN_BASE && spanYears >= 1 && !irregular(first) && !irregular(last) ? ((last.revenue! / first.revenue!) ** (1 / spanYears) - 1) * 100 : null;
+  const cagr = first.revenue! >= CAGR_MIN_BASE && (last.revenue ?? 0) > 0 && spanYears >= 1 && !irregular(first) && !irregular(last) ? ((last.revenue! / first.revenue!) ** (1 / spanYears) - 1) * 100 : null;
   const yoyOk = prev?.revenue && !irregular(prev) && !irregular(last);
   const yoy = lastGrowth ?? (yoyOk ? (last.revenue! / prev.revenue! - 1) * 100 : null);
   const margins = ys.map((y) => (y.operatingIncome != null && y.revenue ? (y.operatingIncome / y.revenue) * 100 : null));

@@ -1,5 +1,6 @@
 import type { Service } from '@/lib/types';
 import { ym, jpDates } from '@/lib/ym';
+import { isStalledStage } from '@/lib/status';
 
 /** 「医療機器 クラスII・承認」のような短い印。医療機器の情報が無い事業には何も出さない */
 export function DeviceTag({ s }: { s: Service }) {
@@ -40,7 +41,7 @@ export function DevicePanel({ s, reg }: { s: Service; reg?: { values: string[]; 
     return (
       <section className="panel dev-panel none">
         <h3>医療機器としての情報</h3>
-        <p className="small">{reg?.values?.some((v) => /承認・認証・届出を確認/.test(v)) ? `承認・認証・届出：${reg.detail ? jpDates(reg.detail) : '確認済み'}（事業のしくみの欄と同じ資料）` : s.status === '準備中' && !/承認取得/.test(s.stage ?? '') ? '医療機器としての承認・認証はまだありません（準備中）。' : '日本の医療機器としての承認・認証・届出（PMDA の記録）は、このデータベースでは確認していません。'}</p>
+        <p className="small">{reg?.values?.some((v) => /承認・認証・届出を確認/.test(v)) ? `承認・認証・届出：${reg.detail ? jpDates(reg.detail) : '確認済み'}（事業のしくみの欄と同じ資料）` : s.status === '準備中' && !/承認取得/.test(s.stage ?? '') ? (isStalledStage(s.stage) ? '医療機器としての承認・認証の記録は見つかっていません（開発が続いているかは未確認）。' : '医療機器としての承認・認証はまだありません（準備中）。') : '日本の医療機器としての承認・認証・届出（PMDA の記録）は、このデータベースでは確認していません。'}</p>
         {abroad.length > 0 && !reg?.values?.some((v) => /承認・認証・届出を確認/.test(v)) && <ul className="small">{abroad.map((m) => <li key={m.date + m.text}>海外の薬事：{m.text}（{jpDates(m.date)}）{m.source && <> <a href={m.source} target="_blank" rel="noreferrer" className="h-src">出典</a></>}</li>)}</ul>}
       </section>
     );

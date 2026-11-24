@@ -24,7 +24,7 @@ type S = {
 
 export const STOPPED = ['終了', '譲渡', '統合', '休止'];
 /** 止まった事業か。障害・不正アクセスによる一時停止（suspension.temporary）は入れない */
-export const isStopped = (s: { status: string; suspension?: { temporary?: boolean } }) => STOPPED.includes(s.status) && !s.suspension?.temporary;
+export const isStopped = (s: { status: string; kind?: string; suspension?: { temporary?: boolean } }) => s.kind !== 'group' && s.kind !== 'contract' && STOPPED.includes(s.status) && !s.suspension?.temporary;
 
 /**
  * 準備中の段階のうち、開発が続いているかを確かめられないもの（治験中止・治験終了で次の段階が未確認・発表のみ）。
@@ -54,8 +54,11 @@ export const statusClass = (s: S) =>
  * 絞り込みの区分。表示のラベル（statusLabel）と同じ考え方で分ける。
  * 一時停止は「休止」に入れず、開発状況未確認は「準備中」に入れない。
  */
-export const STATUS_GROUPS = ['提供中', '準備中', '開発状況未確認', '提供状況未確認', '一時停止中', '終了', '譲渡', '統合', '休止'] as const;
+export const STATUS_GROUPS = ['提供中', '準備中', '開発状況未確認', '提供状況未確認', '一時停止中', '終了', '譲渡', '統合', '休止', '事業群', '契約'] as const;
 export const statusGroup = (s: S): (typeof STATUS_GROUPS)[number] => {
+  // 事業群・契約は製品の件数に重ねない（それぞれの区分に分ける）
+  if (s.kind === 'group') return '事業群';
+  if (s.kind === 'contract') return '契約';
   if (s.suspension?.temporary) return '一時停止中';
   if (devUnconfirmed(s)) return '開発状況未確認';
   if (s.status === '不明') return '提供状況未確認';

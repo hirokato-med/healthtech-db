@@ -57,9 +57,11 @@ export function CompanyFilter({ companies, categories, initialCategory = '' }: {
     const p = new URLSearchParams(window.location.search);
     const v: Record<(typeof KEYS)[number], string> = { q: q.trim(), cat: cat === initialCategory ? '' : cat, exit, pref, sort, ended: showEnded ? '1' : '' };
     for (const k of KEYS) (v[k] ? p.set(k, v[k]) : p.delete(k));
+    // 「2026年10月以降に収録した企業だけ」も URL に合わせる（外したら filter=new を消す）
+    if (onlyNew) p.set('filter', 'new'); else p.delete('filter');
     const s = p.toString();
     window.history.replaceState(null, '', `${window.location.pathname}${s ? `?${s}` : ''}${window.location.hash}`);
-  }, [ready, q, cat, exit, pref, sort, showEnded, initialCategory]);
+  }, [ready, q, cat, exit, pref, sort, showEnded, initialCategory, onlyNew]);
   // 絞り込みを変えたら、出す社数を最初に戻す
   useEffect(() => setLimit(PAGE), [q, cat, exit, pref, sort, showEnded, onlyNew]);
 
