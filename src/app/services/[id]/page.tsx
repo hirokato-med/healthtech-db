@@ -1,3 +1,5 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import { statusLabel, statusClass, pastLine } from '@/lib/status';
 import type { Metadata } from 'next';
 import Link from 'next/link';
@@ -12,8 +14,10 @@ import { ReasonInfo } from '@/components/ReasonInfo';
 import { AfterEnd } from '@/components/AfterEnd';
 import { BusinessModelPanel } from '@/components/BusinessModelPanel';
 
+// まとめて消した事業の id（data/service-redirects.json）。古い URL から残した事業へ案内する
+const REDIRECTS: Record<string, string> = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'service-redirects.json'), 'utf8'));
 export function generateStaticParams() {
-  return getServices().map((s) => ({ id: s.id }));
+  return [...getServices().map((s) => ({ id: s.id })), ...Object.keys(REDIRECTS).filter((id) => !getService(id)).map((id) => ({ id }))];
 }
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const s = getService((await params).id);
@@ -36,7 +40,19 @@ const isEndLike = (t: string) => /終了|譲渡|統合|合併|休止|閉鎖|撤�
 const archived = (u: string) => { const m = u.match(/^https?:\/\/web\.archive\.org\/web\/(\d{4})(\d{2})\d*\/(.+)$/); return m ? { y: m[1], m: Number(m[2]), orig: m[3].replace(/^https?:\/\//, '').replace(/\/$/, '') } : null; };
 
 export default async function ServicePage({ params }: { params: Promise<{ id: string }> }) {
-  const s = getService((await params).id);
+  const id = (await params).id;
+  const s = getService(id);
+  if (!s && REDIRECTS[id] && getService(REDIRECTS[id])) {
+    const to = getService(REDIRECTS[id])!;
+    return (
+      <div className="page-head">
+        <meta httpEquiv="refresh" content={`0; url=${withBase(`/services/${to.id}/`)}`} />
+        <div className="kicker">Business</div>
+        <h1>このページは移動しました</h1>
+        <p className="lead">同じ事業の記録が2件あったため、1件にまとめました。<Link href={`/services/${to.id}/`}>{to.name}（{to.company}）</Link>をご覧ください。</p>
+      </div>
+    );
+  }
   if (!s) notFound();
   const company = s.companyId ? getCompany(s.companyId) : undefined;
   const bm = getBusinessModel(s.id);

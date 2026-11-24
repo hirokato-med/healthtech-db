@@ -3725,8 +3725,8 @@
     "company": "株式会社リーバー",
     "companyId": "2050001042316",
     "category": "health-consulting",
-    "description": "チャットボットの問診に答えたあと、スマホで医師に24時間相談できる医療相談アプリ。受診の要否や診療科、市販薬を助言する。個人向け月額制のほか、自治体が住民向けに導入する「いつでもドクター」、学校・企業向けも展開。",
-    "hp": "",
+    "description": "チャットボットの問診に答えたあと、スマホで医師に24時間相談できる医療相談アプリで、受診の要否や診療科、市販薬を助言する。個人向けの月額制のほか、自治体が住民向けに導入する「いつでもドクター」、企業・学校向けの健康観察も提供し、アプリ上でオンライン診療も受けられる。",
+    "hp": "https://www.leber.jp/",
     "startedYear": 2018,
     "status": "提供中",
     "startedAt": "2018-01",
@@ -8132,10 +8132,10 @@
     "company": "アポロテクノロジーズ株式会社",
     "companyId": "9290001064750",
     "category": "electronic-health-record",
-    "description": "福岡の同社が開発した診療所向けクラウド型電子カルテ。基本無料で提供し、日医標準レセプトソフト（ORCA）と連携するクラウド電子カルテとして導入数で実績を持った。",
+    "description": "診療所向けのクラウド型電子カルテで、日医標準レセプトソフト（ORCA）と連携する。2016年に「きりんZERO」の名前で無料提供を始め、2021年にPHC（のちにウィーメックス）へ事業が譲渡された。",
     "hp": "",
     "startedYear": 2016,
-    "status": "譲渡",
+    "status": "不明",
     "startedAt": "2016-12",
     "endedAt": "2021-04",
     "successor": "PHC株式会社（2023年4月からPHCグループのウィーメックス株式会社が運営）",
@@ -8167,6 +8167,11 @@
       {
         "date": "2023-04",
         "text": "運営会社がPHCグループの新会社ウィーメックスに変更"
+      },
+      {
+        "date": "2016-12",
+        "text": "完全無料のクラウド型電子カルテ「きりんZERO」の正式版をリリース",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000022709.html"
       }
     ],
     "endReasons": [
@@ -8196,7 +8201,19 @@
       "event": "譲渡",
       "fate": "同一サービス継続（運営会社が変更）",
       "asOf": "2026-10"
-    }
+    },
+    "pastEvents": [
+      {
+        "date": "2021-04",
+        "text": "きりんカルテシステムからPHCへの事業譲渡が完了し、PHCメディコム事業部が販売を引き継ぐ",
+        "source": "https://www.phchd.com/jp/phc/news/2021/0401"
+      },
+      {
+        "date": "2022-11",
+        "text": "クラウド基盤をGoogle Cloudへ移行完了",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000107062.html"
+      }
+    ]
   },
   {
     "id": "b-495725fa",
@@ -11823,11 +11840,6 @@
     "afterLocked": true,
     "pastEvents": [
       {
-        "date": "2018-02",
-        "text": "SOMPOリスケアマネジメントが花王からヘルスケア・コミッティーの全株式を取得することで合意",
-        "source": "https://www.sompo-hs.co.jp/uploads/20180201_1.pdf"
-      },
-      {
         "date": "2019-01-01",
         "text": "SOMPOヘルスサポートがヘルスケア・コミッティーを吸収合併（HCC は解散）",
         "source": "https://www.sompo-hs.co.jp/uploads/20181219_2.pdf"
@@ -12418,11 +12430,11 @@
   },
   {
     "id": "b-e6b7d3df",
-    "name": "「CARADA健診手帳」（企業向けCARADAパックの関連サービス）",
+    "name": "CARADA健診手帳",
     "company": "株式会社エムティーアイ",
     "companyId": "4140001030292",
     "category": "personal-health-record",
-    "description": "携帯コンテンツ大手が手がける健康管理アプリ「CARADA」の一機能として、健診結果をスマホで管理できるようにしたサービス。同社は企業向けに「企業向けCARADAパック」として健康経営支援を販売していた。",
+    "description": "健康診断・検査の結果を、提携医療機関の検査結果用紙のQRコードや写真から取り込み、項目ごとの推移をグラフで見られる無料のスマートフォンアプリ。エムティーアイのCARADAシリーズの1つで、2020年6月に終了した。",
     "hp": "",
     "startedYear": 2015,
     "status": "終了",
@@ -12444,6 +12456,11 @@
       {
         "date": "2021-01",
         "text": "「企業向けCARADAパック」の導入実績は370社以上と発表"
+      },
+      {
+        "date": "2015-11",
+        "text": "『CARADA』『CARADA お薬手帳』と同時に提供開始（ダウンロード無料）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000279.000002943.html"
       }
     ],
     "endReasons": [
@@ -12462,7 +12479,7 @@
       "phr-employer"
     ],
     "type": "medical-record-phr",
-    "startedAt": "2015-11",
+    "startedAt": "2015-11-20",
     "endReasonInfo": {
       "sources": [
         "会社発表"
@@ -12475,7 +12492,20 @@
       "fate": "提供終了",
       "asOf": "2026-10",
       "sourceDate": "2021-01"
-    }
+    },
+    "formerName": "「CARADA健診手帳」（企業向けCARADAパックの関連サービス）",
+    "pastEvents": [
+      {
+        "date": "2020-03",
+        "text": "サービス終了を告知",
+        "source": "https://www.carada.jp/kenshin/"
+      },
+      {
+        "date": "2020-06",
+        "text": "すべてのサービスを終了（データ移行の受付は 2020-08-31 まで）",
+        "source": "https://www.carada.jp/kenshin/"
+      }
+    ]
   },
   {
     "id": "b-d33a3258",
@@ -14338,8 +14368,8 @@
     "company": "株式会社クリプラ",
     "companyId": "8011101068199",
     "category": "electronic-health-record",
-    "description": "病院経営出身の創業者による診療所向けクラウド電子カルテ。ORCA連携から始め、眼科・産婦人科・耳鼻咽喉科など診療科特化版とレセコン一体型を展開。医療機関の月額利用料で収益化する。",
-    "hp": "",
+    "description": "診療所向けのクラウド電子カルテ。単一・複数診療科向けと眼科・産婦人科・耳鼻咽喉科の専用版、レセコン一体型やレセコンのない版を展開し、医療機関から利用料を受け取る。",
+    "hp": "https://clipla.jp/",
     "startedYear": 2016,
     "status": "提供中",
     "startedAt": "2016-01",
@@ -14369,6 +14399,11 @@
         "text": "眼科向け「CLIPLA Eye」を提供開始"
       },
       {
+        "date": "2017-08-23",
+        "text": "眼科向けクラウド電子カルテ「CLIPLA Eye」 提供開始（株式会社クリプラ（旧 クリニカル・プラットフォーム））",
+        "source": "https://prtimes.jp/main/html/rd/p/000000001.000016583.html"
+      },
+      {
         "date": "2018-03",
         "text": "エムティーアイおよびメディパルホールディングスと資本業務提携"
       },
@@ -14381,12 +14416,37 @@
         "text": "耳鼻咽喉科向け「CLIPLA ENT」を販売開始。この時点でエムティーアイの連結子会社"
       },
       {
+        "date": "2021-05-25",
+        "text": "耳鼻咽喉科向けクラウド電子カルテ「CLIPLA ENT」 提供開始（株式会社クリプラ）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000932.000002943.html"
+      },
+      {
         "date": "2021-11",
         "text": "複数診療科向け「CLIPLA Plus」を販売開始"
       },
       {
+        "date": "2021-11-29",
+        "text": "複数診療科向け『CLIPLA Plus』販売開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000001012.000002943.html"
+      },
+      {
         "date": "2026-02",
         "text": "デジタル化・AI導入補助金2026の対象製品として案内"
+      },
+      {
+        "date": "2026-10-23",
+        "text": "生成AIによるAIサマリー機能の提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000001235.000002943.html"
+      },
+      {
+        "date": "2026-10",
+        "text": "生成AIで過去のカルテを要約する「AIサマリー機能」を発表（2026-11 から当面無償で提供予定）",
+        "source": "https://clipla.jp/news/2026/10/26/20261026/"
+      },
+      {
+        "date": "2025-06",
+        "text": "CLIPLA Eye の導入クリニックが200施設を突破",
+        "source": "https://clipla.jp/news/2025/06/04/20250604/"
       }
     ],
     "lessons": "汎用型で大手と競うのではなく、眼科・産婦人科など診療科に特化し、親会社（エムティーアイ）の消費者向けアプリと連携することで続いている事例とみられる。",
@@ -14394,13 +14454,16 @@
       "https://clipla.jp/company/",
       "https://clipla.jp/news/",
       "https://initial.inc/companies/A-16896",
-      "https://ascii.jp/elem/000/004/056/4056352/"
+      "https://ascii.jp/elem/000/004/056/4056352/",
+      "https://prtimes.jp/main/html/rd/p/000000516.000002943.html",
+      "https://prtimes.jp/main/html/rd/p/000001012.000002943.html"
     ],
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "themes": [
       "cloud-emr"
     ],
-    "type": "clinic-cloud-emr"
+    "type": "clinic-cloud-emr",
+    "kind": "group"
   },
   {
     "id": "b-590962c0",
@@ -14408,8 +14471,8 @@
     "company": "エムスリーデジカル株式会社",
     "companyId": "6010401119795",
     "category": "electronic-health-record",
-    "description": "AIによる自動学習やiPadでの手書き入力を特徴とする診療所向けのクラウド電子カルテ。医師会員基盤を持つエムスリーグループが提供し、安価な月額料金で普及した。",
-    "hp": "",
+    "description": "診療所向けのクラウド電子カルテで、レセコン一体型・ORCA連動型・レセコン単体のプランがある。AIによる入力補助やiPadでの手書き入力、診察の会話を要約するAIエージェントを持ち、初期費用無料・月額制で提供する。",
+    "hp": "https://digikar.m3.com/",
     "startedYear": 2015,
     "status": "提供中",
     "milestones": [
@@ -14439,6 +14502,11 @@
       {
         "date": "2024-04",
         "text": "エムスリーはクリニックDX支援の主力として「AI搭載クラウド電子カルテ エムスリーデジカル」を挙げる"
+      },
+      {
+        "date": "2026-08",
+        "text": "累計導入件数が1万件を突破",
+        "source": "https://digikar.m3.com/news/news20260806"
       }
     ],
     "sources": [
@@ -14512,10 +14580,9 @@
     "company": "富士フイルムヘルスケアシステムズ株式会社 → ウィーメックスヘルスケアシステムズ株式会社（PHCグループ）",
     "category": "electronic-health-record",
     "description": "診療所・薬局・歯科向けの電子カルテ、医事コンピュータ（レセコン）、電子薬歴、レセプト点検サービス。会社分割で新会社に移し、PHC傘下のウィーメックスが全株式を取得した。",
-    "hp": "",
+    "hp": "https://www.phchd.com/jp/medicom",
     "startedYear": null,
-    "status": "譲渡",
-    "endedAt": "2023-10",
+    "status": "提供中",
     "successor": "ウィーメックスヘルスケアシステムズ株式会社（ウィーメックスの子会社）",
     "milestones": [
       {
@@ -14585,7 +14652,15 @@
       "asOf": "2026-10",
       "sourceDate": "2023-03"
     },
-    "endReasonCaveat": "理由の分類のうち「買収・統合」は、資料に直接の記載がなく、この DB が説明から分類したもの。"
+    "endReasonCaveat": "理由の分類のうち「買収・統合」は、資料に直接の記載がなく、この DB が説明から分類したもの。",
+    "pastEvents": [
+      {
+        "date": "2025-10",
+        "text": "ウィーメックスがウィーメックスヘルスケアシステムズを吸収合併し、事業をウィーメックス株式会社が引き継ぐ",
+        "source": "https://prtimes.jp/main/html/rd/p/000000143.000107062.html"
+      }
+    ],
+    "kind": "group"
   },
   {
     "id": "b-79889d9c",
@@ -14723,14 +14798,14 @@
   },
   {
     "id": "b-b225a841",
-    "name": "AIチャート byGMO／ヘルステックONE byGMO",
-    "company": "GMOヘルステック株式会社（GMOフィナンシャルホールディングス等の共同出資）",
+    "name": "ヘルステックONE byGMO／AIチャート byGMO",
+    "company": "GMOヘルステック株式会社",
     "category": "electronic-health-record",
-    "description": "予約・受付・問診・診療・決済をまとめたクリニック向けプラットフォームと、AI搭載のレセコン一体型クラウド電子カルテ。初期費用・月額利用料を無料とし、オンライン決済手数料などで収益を得る。",
-    "hp": "",
+    "description": "予約・受付・Web問診・オンライン診療・決済をまとめたクリニック向けプラットフォーム「ヘルステックONE」と、その電子カルテ機能でAIが診察の会話を要約するレセコン一体型クラウド電子カルテ「AIチャート」。初期費用・月額利用料を無料とし、オンライン決済の手数料を受け取る。",
+    "hp": "https://gmo-healthtech.com/healthtechone/",
     "startedYear": 2024,
     "status": "提供中",
-    "startedAt": "2024-09",
+    "startedAt": "2024-09-19",
     "milestones": [
       {
         "date": "2024-01",
@@ -14764,7 +14839,9 @@
     "themes": [
       "cloud-emr"
     ],
-    "type": "clinic-cloud-emr"
+    "type": "clinic-cloud-emr",
+    "formerName": "AIチャート byGMO／ヘルステックONE byGMO",
+    "kind": "group"
   },
   {
     "id": "b-2324637c",
@@ -15491,11 +15568,6 @@
     },
     "afterLocked": true,
     "pastEvents": [
-      {
-        "date": "2024-01-18",
-        "text": "メドレーがグッピーズ株式の公開買付けを決議し、グッピーズは賛同を表明（TOB の目的は両社のノウハウ・アセットの相互活用）",
-        "source": "https://www2.jpx.co.jp/disc/44800/140120240118516557.pdf"
-      },
       {
         "date": "2025-04-01",
         "text": "グッピーズがメドレーに吸収合併され解散。求人サイト「グッピー」はメドレーが運営を継続",
@@ -17514,7 +17586,14 @@
       "fate": "提供終了",
       "asOf": "2026-10",
       "sourceDate": "2023-07"
-    }
+    },
+    "pastEvents": [
+      {
+        "date": "2023-05",
+        "text": "ケアネットが吸収分割でアドメディカから Doctors Me の広告・オンライン医療相談事業を承継",
+        "source": "http://ke.kabupro.jp/tsp/20230310/140120230303523960.pdf"
+      }
+    ]
   },
   {
     "id": "b-6a630052",
@@ -18110,6 +18189,11 @@
         "date": "2025-08",
         "text": "運営会社がporteraからfonfunに変更（事業譲渡）",
         "source": "https://raku-shin.net/%e3%82%89%e3%81%8f%e8%a8%ba%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e5%a4%a7%e5%88%87%e3%81%aa%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e9%81%8b%e5%96%b6%e4%bc%9a%e7%a4%be%e5%a4%89%e6%9b%b4%ef%bc%89/"
+      },
+      {
+        "date": "2025-08-05",
+        "text": "fonfun が portera から「らく診」事業を譲り受けると発表。背景として、法人向けサービスを4,000社超が導入していることを挙げ、新たな収益基盤づくりを目指すと説明",
+        "source": "https://www.nihon-ma.co.jp/news/20250805_2323-14/"
       }
     ],
     "lessons": "福利厚生型のオンライン診療は開始から1年余りで、4,000社超の法人顧客を持つSaaS企業にクロスセル商材として譲られた。法人向け健康サービスは、法人の顧客基盤を持つ会社が担い手になりやすい。",
@@ -18123,11 +18207,6 @@
         "date": "2025-08-05",
         "text": "「らく診」の運営会社が portera（旧 SHANEPORT）から fonfun（東証スタンダード 2323）に変更（2025-09-11 のお知らせ）。サービスは継続",
         "source": "https://raku-shin.net/%e3%82%89%e3%81%8f%e8%a8%ba%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e5%a4%a7%e5%88%87%e3%81%aa%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e9%81%8b%e5%96%b6%e4%bc%9a%e7%a4%be%e5%a4%89%e6%9b%b4%ef%bc%89/"
-      },
-      {
-        "date": "2025-08-05",
-        "text": "fonfun が portera から「らく診」事業を譲り受けると発表。背景として、法人向けサービスを4,000社超が導入していることを挙げ、新たな収益基盤づくりを目指すと説明",
-        "source": "https://www.nihon-ma.co.jp/news/20250805_2323-14/"
       }
     ]
   },
@@ -19032,7 +19111,7 @@
   },
   {
     "id": "b-1c26e431",
-    "name": "Virtual-RAD（遠隔読影インフラ）",
+    "name": "Virtual-RAD（遠隔読影システム利用サービス）",
     "company": "株式会社ドクターネット",
     "companyId": "7010401088511",
     "category": "medical-image",
@@ -19046,7 +19125,8 @@
       "https://dr-net.co.jp/company/"
     ],
     "updatedAt": "2026-10",
-    "type": "teleradiology"
+    "type": "teleradiology",
+    "formerName": "Virtual-RAD（遠隔読影インフラ）"
   },
   {
     "id": "b-ca34859b",
@@ -20120,11 +20200,11 @@
   {
     "id": "b-6a03a00a",
     "name": "カルテコ（PHR）",
-    "company": "メディカル・データ・ビジョン株式会社",
+    "company": "株式会社カルテ庫",
     "companyId": "7010001087640",
     "category": "personal-health-record",
-    "description": "患者や健診の受診者が、病院の診療情報・検査結果・健診結果を自分で保管し、スマートフォンで見られるPHRサービス。2015年6月に診療情報保管・閲覧サービスとしてリリースし、企業向けの「カルテコworkwell」や健診版にも広げた。",
-    "hp": "https://www.mdv.co.jp/company/history.html",
+    "description": "病院の診療記録・検査画像・健診結果をスマートフォンで見られるPHRサービス。スマホのカメラで人や犬・猫の自律神経を計測する機能や、健診結果から病気のリスクを予測するAIを持ち、健診センター向けの健診サービスや企業向けのカルテコworkwellも提供する。",
+    "hp": "https://karteco.jp/",
     "startedYear": 2015,
     "status": "提供中",
     "sources": [
@@ -20150,8 +20230,24 @@
         "date": "2022-05",
         "text": "健診版PHRサービス「カルテコ」をリリース",
         "source": "https://www.atpress.ne.jp/news/2607631"
+      },
+      {
+        "date": "2024-10",
+        "text": "企業向けPHRシステム「カルテコworkwell」を販売開始",
+        "source": "https://www.mdv.co.jp/company/history.html"
+      },
+      {
+        "date": "2025-12",
+        "text": "株式会社カルテ庫を設立（代表取締役 岩崎博之）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000006.000187411.html"
+      },
+      {
+        "date": "2026-10",
+        "text": "GROOVE Xと業務提携し、LOVOTを使う介護領域の新事業「KarBo」を発表",
+        "source": "https://prtimes.jp/main/html/rd/p/000000006.000187411.html"
       }
-    ]
+    ],
+    "kind": "group"
   },
   {
     "id": "b-101621d1",
@@ -25081,11 +25177,11 @@
     "company": "シェアメディカル",
     "companyId": "7010901034790",
     "category": "telemedicine",
-    "description": "デジタル聴診デバイス「ネクステート」と医療用チャット「メディラインワークプレイス」を組み合わせ、医師が離れた場所から死亡確認を行えるようにする遠隔看取りサービス。2025年9月に開始し、同社は日本初としている。",
-    "hp": "https://www.sharemedical.jp/press",
+    "description": "デジタル聴診デバイス「ネクステート」と医療・介護職向けチャット「メディラインワークプレイス」を組み合わせ、現地の看護師の補助で医師が離れた場所から心音・呼吸音の停止を確かめ死亡確認を行えるようにする遠隔看取りサービス。2025年9月に開始した。",
+    "hp": "https://www.mediline.jp/",
     "startedYear": 2025,
     "status": "提供中",
-    "startedAt": "2025-09",
+    "startedAt": "2025-09-01",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000037.000016841.html",
       "https://www.sharemedical.jp/press"
@@ -27284,7 +27380,7 @@
     "company": "Holoeyes株式会社",
     "companyId": "1010001179195",
     "category": "medical-image",
-    "description": "CT・MRIの画像から作った3Dモデルをヘッドセットで立体表示し、術前シミュレーションや手術中の参照に使う医療用画像処理ソフトウェア。2020年3月に管理医療機器（クラスII）の認証を取り、同年に販売を始めた。",
+    "description": "CT・MRI から作った3Dモデルを XR ヘッドセットで立体表示し、術前シミュレーションや手術中の参照、カンファレンスに使う医療用画像処理ソフトウェア。2020年2月に管理医療機器（クラスII）の認証を取り、同年6月に販売代理店を通じた販売を始めた。",
     "hp": "https://holoeyes.jp/service/md",
     "startedYear": 2020,
     "status": "提供中",
@@ -27296,7 +27392,7 @@
     ],
     "updatedAt": "2026-10",
     "type": "imaging-3d-xr",
-    "startedAt": "2020-06",
+    "startedAt": "2020-06-15",
     "milestones": [
       {
         "date": "2020",
@@ -27307,6 +27403,16 @@
         "date": "2020-03",
         "text": "管理医療機器（クラスII）認証を取得",
         "source": "https://holoeyes.jp/topics/md_medical_device_certification/"
+      },
+      {
+        "date": "2020-02",
+        "text": "管理医療機器（クラスII）認証を取得（認証日 2020-02-28、発表は 2020-03-24）",
+        "source": "https://holoeyes.jp/topics/md_medical_device_certification/"
+      },
+      {
+        "date": "2020-06",
+        "text": "全国の販売代理店を通じて販売を開始",
+        "source": "https://www.medius.co.jp/wp-content/uploads/2026/06/20200615.pdf"
       }
     ],
     "device": {
@@ -27625,8 +27731,8 @@
     "company": "DeepEyeVision株式会社",
     "companyId": "4060003002281",
     "category": "medical-image",
-    "description": "健診機関や眼科などに向けて、自治医科大学と共同開発したAIによる診断支援と眼科専門医の遠隔読影を組み合わせ、眼底写真などの読影の速度と精度を高めるサービス。",
-    "hp": "https://deepeyevision.com/company/",
+    "description": "医療機関がアップロードした眼底画像を、自治医科大学と共同開発したAIが解析して疾患名の候補を示し、同社の読影医が診断して結果を返す眼科向け遠隔読影サービス。エスフィルやシーメンスヘルスケアの遠隔画像診断プラットフォームを通じて提供する。",
+    "hp": "https://deepeyevision.com/technologies/",
     "startedYear": 2020,
     "status": "提供中",
     "sources": [
@@ -27772,8 +27878,8 @@
     "company": "ライフログテクノロジー株式会社",
     "companyId": "1013301038376",
     "category": "personal-health-record",
-    "description": "ヘルスケア・フィットネス事業者やアプリ開発会社向けに、「カロミル」の食事画像解析・栄養素検索・バーコード検索などの機能をAPIで、食事記録の画面一式をWebView形式で提供し、自社アプリに組み込めるようにするサービス。",
-    "hp": "https://www.calomeal.com/forbusiness.html",
+    "description": "ヘルスケア・フィットネス事業者やアプリ開発会社向けに、「カロミル」の食事画像解析AI・31万品目超の食事データベース・バーコード検索などをAPIで、食事記録の画面一式をWebView形式で提供し、自社アプリに組み込めるようにするサービス。",
+    "hp": "https://www.calomeal.com/calomeal-api-webview/",
     "startedYear": 2019,
     "status": "提供中",
     "sources": [
@@ -27783,7 +27889,7 @@
     ],
     "updatedAt": "2026-10",
     "type": "phr-data-platform",
-    "startedAt": "2019-08",
+    "startedAt": "2019-08-27",
     "milestones": [
       {
         "date": "2022-06",
@@ -31001,12 +31107,12 @@
   },
   {
     "id": "b-6e211193",
-    "name": "夜間オンコール代行",
+    "name": "夜間オンコール代行™",
     "company": "ドクターメイト株式会社",
     "companyId": "4040001102829",
     "category": "telemedicine",
-    "description": "介護施設の看護師が夜間・休日に担うオンコール対応を、同社の看護師・医師チームが代わりに受ける介護施設向けサービス。職員からの電話相談に応じて対応を指示し、レポートを作成する。2026年9月に相談実績が累計20万件を超えた。",
-    "hp": "https://doctormate.co.jp/",
+    "description": "介護施設の看護師が夜間・休日に担うオンコール対応を、同社の看護師が医師のバックアップのもとで電話で代わりに受け、助言のあと相談レポートを送る介護施設向けサービス。2026年11月現在で累計対応21万件以上。",
+    "hp": "https://doctormate.co.jp/oncall",
     "startedYear": 2020,
     "status": "提供中",
     "startedAt": "2020-03",
@@ -31014,7 +31120,8 @@
       "https://doctormate.co.jp/"
     ],
     "updatedAt": "2026-10",
-    "type": "facility-remote-consultation"
+    "type": "facility-remote-consultation",
+    "formerName": "夜間オンコール代行"
   },
   {
     "id": "b-890c7dfb",
@@ -44595,14 +44702,14 @@
   {
     "id": "b-09f14831",
     "name": "PHRアプリ「SaluDi」",
-    "company": "サワイグループホールディングス株式会社",
+    "company": "沢井製薬株式会社",
     "companyId": "8120001236516",
     "category": "personal-health-record",
-    "description": "個人向けのPHR管理アプリ。日々の健康データを記録・可視化し、医療機関のオンライン診療とも連携する。2021年提供開始。沢井製薬が運営し、自治体や医療機関の健康施策でも使われる。",
-    "hp": "https://www.sawaigroup.holdings/company/history/",
+    "description": "血圧・体重・血糖・服薬などの日々の健康データを記録・グラフ化し、医療機関と共有できる PHR 管理アプリ。個人は無料で使え、企業・自治体には AI疾病発症予測などの有償サービスもある。",
+    "hp": "https://www.sawai.co.jp/saludi/",
     "startedYear": 2021,
     "status": "提供中",
-    "startedAt": "2021",
+    "startedAt": "2021-10",
     "sources": [
       "https://www.sawaigroup.holdings/company/history/",
       "https://www.sawai.co.jp/new-business/about_saludi/",
@@ -56354,7 +56461,24 @@
     ],
     "type": "facility-remote-consultation",
     "updatedAt": "2026-10",
-    "startedAt": "2019-10"
+    "startedAt": "2019-10",
+    "milestones": [
+      {
+        "date": "2020-01",
+        "text": "カンボジア・プノンペンの外資系総合病院で運用開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000002.000053986.html"
+      },
+      {
+        "date": "2022-08",
+        "text": "経済産業省の事業でバングラデシュでの実証調査を開始",
+        "source": "https://www.mitasmedical.com/pages/activities/"
+      },
+      {
+        "date": "2023-03",
+        "text": "茨城県境町の行政・医療 MaaS の車両に搭載",
+        "source": "https://www.mitasmedical.com/pages/activities/"
+      }
+    ]
   },
   {
     "id": "b-5446524b",
@@ -63980,11 +64104,11 @@
     "name": "3D医用画像処理ワークステーション「Ziostation2」",
     "company": "ザイオソフト株式会社",
     "category": "medical-image",
-    "description": "国産初の3D医用画像処理ワークステーションM900（1999年）から続く製品群。Ziostation2は2010年に発売され、血管・臓器の自動抽出や手術計画向けの解析を世界20か国以上で提供する。",
-    "hp": "https://www.zio.co.jp/",
+    "description": "CT・MRIの画像から3次元画像を作り、50以上のアプリケーションで血管・臓器の自動抽出や心機能解析・手術計画などを行う医用画像処理ワークステーション。2010年9月に販売を始め、後継のREVORASと並んで提供されている。",
+    "hp": "https://www.zio.co.jp/ziostation2/",
     "startedYear": 2010,
     "status": "提供中",
-    "startedAt": "2010",
+    "startedAt": "2010-09",
     "sources": [
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/223ABBZX00032A02_2_01",
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ABBZX00001000_2_01",
@@ -64023,23 +64147,23 @@
         "date": "2022",
         "text": "ザイオステーション レヴォラス RL「専用ソフトウェア」：汎用画像診断装置ワークステーションとして認証取得（認証番号304ABBZX00001000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/304ABBZX00001000_2_01"
+      },
+      {
+        "date": "2010-09",
+        "text": "3D医用画像処理ワークステーション「Ziostation2」販売開始",
+        "source": "https://www.zio.co.jp/about/outline/"
+      },
+      {
+        "date": "2017-07",
+        "text": "画像認識技術「RealiZe」を Ziostation2 の各種アプリケーションに実装",
+        "source": "https://www.zio.co.jp/about/outline/"
+      },
+      {
+        "date": "2020-07",
+        "text": "次世代フラッグシップモデル「REVORAS」を発表（別製品）",
+        "source": "https://www.zio.co.jp/about/outline/"
       }
     ],
-    "device": {
-      "pmdaUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/223ABBZX00032A02_2_01",
-      "genericName": "汎用画像診断装置ワークステーション",
-      "maker": "ザイオソフト株式会社",
-      "salesName": "ザイオステーション　レヴォラス　ＰＴ",
-      "insertUrl": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/300831_223ABBZX00032A02_1_01_02",
-      "insertDate": "2024-03-29",
-      "kind": "認証",
-      "number": "223ABBZX00032A02",
-      "regulatoryClass": "管理医療機器",
-      "classLabel": "クラスII",
-      "category": "機械器具 09 医療用エックス線装置及び医療用エックス線装置用エックス線管",
-      "specialMaintenance": true,
-      "checkedAt": "2026-10"
-    },
     "companyId": "3010401041218"
   },
   {
@@ -71404,18 +71528,40 @@
     "name": "MY MEDICA",
     "company": "株式会社MY MEDICA",
     "category": "telemedicine",
-    "description": "医療機関の予約、オンライン診察、薬局での服薬指導までをスマホで完結できる患者向けアプリ。クレジットカード払いや後払いに対応する。",
+    "description": "ヤマトホールディングスとアルフレッサが出資するMY MEDICAが、導入企業の従業員と家族に提供するオンライン医療サービス。アプリで提携医療機関のオンライン診療、自社のオンライン薬局の服薬指導、薬の配送、会計まで済ませられ、企業向けには健康診断の再検査の管理を無料で提供する。",
     "hp": "https://www.mymedica.jp/",
     "startedYear": 2023,
     "status": "提供中",
-    "startedAt": "2023-12-10",
+    "startedAt": "2025-02-07",
     "startBasis": "App Store初回公開",
     "sources": [
       "https://apps.apple.com/jp/app/my-medica/id6469021487",
       "https://www.mymedica.jp/"
     ],
     "type": "telemedicine-clinic-system",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "milestones": [
+      {
+        "date": "2023-12",
+        "text": "ヤマトグループ内でトライアルを開始",
+        "source": "https://alfresa.co.jp/news/images/00.pdf"
+      },
+      {
+        "date": "2024-12",
+        "text": "ヤマトホールディングスとアルフレッサが株式会社MY MEDICAを設立",
+        "source": "https://alfresa.co.jp/news/images/00.pdf"
+      },
+      {
+        "date": "2025-02",
+        "text": "自動車運送事業者向けにサービスを開始",
+        "source": "https://alfresa.co.jp/news/images/00.pdf"
+      },
+      {
+        "date": "2026-09",
+        "text": "女性向け診療メニュー「MY MEDICA fem」を開始",
+        "source": "https://corporate.mymedica.jp/"
+      }
+    ]
   },
   {
     "id": "b-5667c8a1",
@@ -82668,10 +82814,10 @@
     "company": "ヘルスグリッド株式会社",
     "companyId": "7010401097058",
     "category": "personal-health-record",
-    "description": "個人の健康データを預けて生涯にわたり蓄積・活用するサービス。手軽な計測で総合的な健康状態を示す",
-    "hp": "",
+    "description": "個人の健康データを銀行口座のように生涯にわたって蓄積し、日常の簡単な計測から身体年齢や筋肉の状態をスコアにして健康づくりを促すサービス。2021年に企業・自治体向けの正規版を始めた。",
+    "hp": "https://healthgrid.jp/",
     "startedYear": 2018,
-    "status": "提供中",
+    "status": "不明",
     "startedAt": "2018-07",
     "startBasis": "提供開始（2018-07 サービス開始を発表）",
     "milestones": [
@@ -86484,9 +86630,9 @@
   {
     "id": "b-dd3c1003",
     "name": "KAITOS（カイトス）",
-    "company": "株式会社ネグジット総研",
+    "company": "東邦薬品株式会社",
     "category": "telemedicine",
-    "description": "病院検索・予約からオンライン診療、薬の受け取りや服薬指導まで一貫して提供するオンライン診療・服薬指導システムの患者アプリ。東邦薬品が取り扱う。",
+    "description": "病院検索・予約からオンライン診療、薬の受け取りや服薬指導まで一つにまとめたオンライン診療・服薬指導システム。東邦薬品が医療機関・薬局に提供し、患者はアプリで予約・受診する。",
     "hp": "https://www.tohoyk.co.jp/ja/products/kaitos/",
     "startedYear": 2022,
     "status": "提供中",
@@ -90688,7 +90834,7 @@
     "company": "ソフィアメディクス株式会社",
     "companyId": "3010001152662",
     "category": "electronic-health-record",
-    "description": "診療所向けの無料のクラウド型電子カルテ。2016年に問診票サービス「MIS」、請求書作成・在庫管理機能、遠隔診療機能「Movie Talk」を追加した",
+    "description": "診療所向けの無料のクラウド型電子カルテ。日本医師会の ORCA と接続し、2016 年に問診票サービス「MIS」、請求書作成・在庫管理機能、遠隔診療機能「Movie Talk」を追加した。",
     "hp": "",
     "startedYear": null,
     "status": "不明",
@@ -91004,12 +91150,12 @@
   },
   {
     "id": "b-a06b97a1",
-    "name": "クラウド型電子カルテ「Warokuホスピタルカルテ」（精神科病院向けから展開）",
+    "name": "精神科病院向け標準型医療情報クラウド「Warokuホスピタルカルテ」",
     "company": "株式会社レスコ",
     "companyId": "5290001021499",
     "category": "electronic-health-record",
-    "description": "精神科病院の診療を支える電子カルテをクラウド化し、AIによる暴力リスク指標化なども打ち出した。2025年に国の標準型医療情報に対応したver.1.5を出し、他社サービスとの連携を広げている",
-    "hp": "",
+    "description": "精神科病院向けのクラウドネイティブ型電子カルテ。国の標準コード・マスタに準拠し、オンライン資格確認・電子処方箋などの医療DXに対応する。音声入力で記録や文書の作成を支援するAI機能をオプションで提供し、2026年11月に電子カルテ標準仕様の認証制度へ申請した。",
+    "hp": "https://rescho.co.jp/product/waroku/hospital_karte.html",
     "startedYear": 2022,
     "status": "提供中",
     "milestones": [
@@ -91041,6 +91187,21 @@
         "date": "2025-01",
         "text": "ver.1.5をリリース",
         "source": "https://rescho.co.jp/company/"
+      },
+      {
+        "date": "2022-02",
+        "text": "精神科病院向けクラウド型電子カルテ「Warokuホスピタルカルテ」を発表",
+        "source": "https://rescho.co.jp/company/"
+      },
+      {
+        "date": "2025-01",
+        "text": "「Warokuホスピタルカルテ」ver.1.5をリリース",
+        "source": "https://rescho.co.jp/company/"
+      },
+      {
+        "date": "2026-11",
+        "text": "厚生労働省の電子カルテ標準仕様に係る認証制度への申請を完了",
+        "source": "https://rescho.co.jp/news/1747/"
       }
     ],
     "sources": [
@@ -91051,7 +91212,15 @@
     "type": "hospital-emr",
     "updatedAt": "2026-10",
     "startedAt": "2022-02",
-    "startBasis": "会社沿革「精神科病院向けクラウド型電子カルテ『Warokuホスピタルカルテ』を発表」"
+    "startBasis": "会社沿革「精神科病院向けクラウド型電子カルテ『Warokuホスピタルカルテ』を発表」",
+    "formerName": "クラウド型電子カルテ「Warokuホスピタルカルテ」（精神科病院向けから展開）",
+    "pastEvents": [
+      {
+        "date": "2023-12",
+        "text": "TIS株式会社の連結子会社となる",
+        "source": "https://rescho.co.jp/company/"
+      }
+    ]
   },
   {
     "id": "b-1f28c1e0",
@@ -93532,47 +93701,6 @@
     "updatedAt": "2026-10"
   },
   {
-    "id": "b-78bbfeb1",
-    "name": "クラウド電子カルテ「CLIPLA（クリプラ）」（Luna・Eye・Plus）",
-    "company": "株式会社エムティーアイ",
-    "companyId": "4140001030292",
-    "category": "electronic-health-record",
-    "description": "診療所向けクラウド電子カルテ。産婦人科向けCLIPLA Luna（ルナルナと連携）から始まり、眼科向けCLIPLA Eye、複数診療科向けCLIPLA Plusへ広げた。2026年に生成AIのサマリー機能を追加。",
-    "hp": "https://www.mti.co.jp/",
-    "startedYear": 2019,
-    "status": "提供中",
-    "startedAt": "2019-04-10",
-    "startBasis": "産婦人科向け『CLIPLA Luna』開発発表（プレスリリース）",
-    "milestones": [
-      {
-        "date": "2017-08-23",
-        "text": "眼科向けクラウド電子カルテ「CLIPLA Eye」 提供開始（株式会社クリプラ（旧 クリニカル・プラットフォーム））",
-        "source": "https://prtimes.jp/main/html/rd/p/000000001.000016583.html"
-      },
-      {
-        "date": "2021-05-25",
-        "text": "耳鼻咽喉科向けクラウド電子カルテ「CLIPLA ENT」 提供開始（株式会社クリプラ）",
-        "source": "https://prtimes.jp/main/html/rd/p/000000932.000002943.html"
-      },
-      {
-        "date": "2021-11-29",
-        "text": "複数診療科向け『CLIPLA Plus』販売開始",
-        "source": "https://prtimes.jp/main/html/rd/p/000001012.000002943.html"
-      },
-      {
-        "date": "2026-10-23",
-        "text": "生成AIによるAIサマリー機能の提供開始",
-        "source": "https://prtimes.jp/main/html/rd/p/000001235.000002943.html"
-      }
-    ],
-    "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000516.000002943.html",
-      "https://prtimes.jp/main/html/rd/p/000001012.000002943.html"
-    ],
-    "type": "clinic-cloud-emr",
-    "updatedAt": "2026-10"
-  },
-  {
     "id": "b-a2f66da2",
     "name": "女性と医師をつなぐサポートツール「ルナルナ メディコ」",
     "company": "株式会社エムティーアイ",
@@ -94277,8 +94405,8 @@
     "company": "MRT",
     "companyId": "3011101059533",
     "category": "telemedicine",
-    "description": "子育て経験のある小児科専門医にスマホで受診・相談できる小児向けオンライン診療。",
-    "hp": "https://medrt.co.jp/",
+    "description": "子育て経験のある小児科専門医に、夜7時〜翌朝6時にオンライン診療アプリ「Door.」で受診・相談できる小児向けサービス。1診療330円のシステム利用料か月額1,100円の定額プランで使う。",
+    "hp": "https://kids.medoor.com/",
     "startedYear": 2023,
     "status": "提供中",
     "startedAt": "2023-12-25",
@@ -95831,8 +95959,8 @@
     "company": "株式会社くすりの窓口",
     "companyId": "7420001005379",
     "category": "telemedicine",
-    "description": "予約管理・デジタル問診票・ビデオチャット・処方箋送信をまとめたオンライン診療システム。100床以上の病院向けにはタブレットを無料提供する。電話診療の支援もある。",
-    "hp": "https://kusurinomadoguchi.co.jp/",
+    "description": "医療機関向けのブラウザ完結型オンライン診療システム。予約受付・Web問診・ビデオ通話・クレジット決済・処方箋送信を備え、電話診療の後の処方箋送信を支える「でんわ診療サポート」（100床以上の病院などには iPad を無料レンタル）もある。",
+    "hp": "https://kusurinomadoguchi.co.jp/service/online_medical/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
@@ -95848,7 +95976,8 @@
         "text": "オンライン診療「ファストドクター」と業務提携",
         "source": "https://prtimes.jp/main/html/rd/p/000000053.000100390.html"
       }
-    ]
+    ],
+    "kind": "group"
   },
   {
     "id": "b-cb879dd3",
@@ -97502,8 +97631,8 @@
     "company": "株式会社レイヤード",
     "companyId": "2290001018911",
     "category": "telemedicine",
-    "description": "WEB問診Symviewの機能を拡張したオンライン診療。外来と同じ仕組みで予約・問診を使い、ビデオ通話と決済を提供する。特定保健指導のオンライン化（足立区医師会）にも使われる。",
-    "hp": "https://layered.inc/",
+    "description": "WEB問診Symviewに標準で付くビデオ通話機能を使ったオンライン診療。予約システムWakumyやスマート決済と組み合わせて予約・問診・診察・決済を1つの動線で行い、患者はアプリや利用料なしで使える。足立区医師会の特定保健指導のオンライン化にも使われる。",
+    "hp": "https://layered.inc/symview/telemedicine/",
     "startedYear": 2023,
     "status": "提供中",
     "startedAt": "2023-05-15",
@@ -98346,8 +98475,8 @@
     "company": "株式会社ファインデックス",
     "companyId": "9500001003380",
     "category": "telemedicine",
-    "description": "医療機関がオンライン診療を予約からビデオ診察まで行えるようにする支援システム。",
-    "hp": "https://findex.co.jp/",
+    "description": "大規模病院向けのクラウド型オンライン診療システム。電子カルテと連携し、予約・ビデオ診察・カード決済・処方箋の送付までを扱い、1施設で同時に100を超えるオンライン診療を管理できる。",
+    "hp": "https://products.findex.co.jp/product/picls-onshin/",
     "startedYear": 2021,
     "status": "提供中",
     "sources": [
@@ -99128,8 +99257,8 @@
     "company": "メディフォン株式会社",
     "companyId": "6010401133086",
     "category": "telemedicine",
-    "description": "医療機関や自治体・企業向けに、32言語・365日対応の電話・ビデオ医療通訳、通訳者派遣、診断書・同意書などの医療翻訳を提供する外国人患者受入れ支援サービス。",
-    "hp": "https://mediphone.co.jp/",
+    "description": "医療機関や自治体向けに、32言語の電話・ビデオ医療通訳、最大107言語の AI 翻訳アプリ、診断書・同意書などの医療翻訳、通訳者派遣を提供する外国人患者受入れ支援サービス。",
+    "hp": "https://mediphone.jp/",
     "startedYear": 2014,
     "status": "提供中",
     "sources": [
@@ -99168,6 +99297,36 @@
       {
         "date": "2020-04",
         "text": "日本医師会が医療通訳サービスの導入を開始（メディフォン社のもとで）"
+      },
+      {
+        "date": "2014-01",
+        "text": "一般社団法人ジェイ・アイ・ジー・エイチ（JIGH）でメディフォン事業を創業",
+        "source": "https://mediphone.co.jp/company/"
+      },
+      {
+        "date": "2017-04",
+        "text": "「外国人患者受入れ医療コーディネーター」研修プログラムを開講",
+        "source": "https://mediphone.co.jp/company/"
+      },
+      {
+        "date": "2017-08",
+        "text": "医療機関向けスマートフォンアプリをリリース",
+        "source": "https://mediphone.co.jp/company/"
+      },
+      {
+        "date": "2018-03",
+        "text": "ビデオ医療通訳サービスの提供を開始",
+        "source": "https://mediphone.co.jp/company/"
+      },
+      {
+        "date": "2018-06",
+        "text": "メディフォン株式会社が JIGH からメディフォン事業等の全てを譲受",
+        "source": "https://mediphone.co.jp/company/"
+      },
+      {
+        "date": "2020-04",
+        "text": "日本医師会が会員医療機関向けの医療通訳サービスの導入を開始",
+        "source": "https://mediphone.co.jp/company/"
       }
     ],
     "startedAt": "2014-01",
@@ -99192,12 +99351,12 @@
   },
   {
     "id": "b-966b8003",
-    "name": "分散型臨床試験（DCT）支援（子会社DCT Japan）",
+    "name": "分散型臨床試験（DCT）支援「DCT Japan」",
     "company": "株式会社インテグリティ・ヘルスケア",
     "companyId": "3010001128547",
     "category": "clinical-trial-support",
-    "description": "製薬企業向けに、全国の看護師ネットワークによる訪問看護師サポートを中心に、患者が来院せずに治験に参加できるDCTの導入・管理を支援するサービス。子会社DCT Japanが提供。",
-    "hp": "https://www.integrity-healthcare.co.jp/",
+    "description": "製薬企業向けに、全国の訪問看護師による被験者宅への訪問を中心に、サテライト医療機関での被験者募集や導入コンサルティングで、患者が来院せずに治験に参加できるDCTの導入・管理を支援するサービス。2026年からはインテグリティ・ヘルスケアが運営する。",
+    "hp": "https://dctj.co.jp/",
     "startedYear": 2022,
     "status": "提供中",
     "sources": [
@@ -99208,7 +99367,15 @@
     "type": "decentralized-clinical-trial",
     "updatedAt": "2026-10",
     "startedAt": "2022-04-26",
-    "startBasis": "分散型臨床試験（DCT）サービスを提供する子会社（DCT Japan）設立を発表"
+    "startBasis": "分散型臨床試験（DCT）サービスを提供する子会社（DCT Japan）設立を発表",
+    "formerName": "分散型臨床試験（DCT）支援（子会社DCT Japan）",
+    "pastEvents": [
+      {
+        "date": "2026-02",
+        "text": "DCT Japan の運営会社としてインテグリティ・ヘルスケアが国立循環器病研究センターと提携（それまでは子会社の株式会社DCT Japan が提供）",
+        "source": "https://dctj.co.jp/info/2026021601/"
+      }
+    ]
   },
   {
     "id": "b-4ce0327f",
@@ -99322,7 +99489,7 @@
     "description": "製薬企業や保険会社などに、PHR管理システム「Smart One Health」を自社ブランドのヘルスケアアプリとしてOEM提供し、アプリ開発を支援するサービス。沢井製薬やジブラルタ生命が採用。",
     "hp": "https://www.integrity-healthcare.co.jp/",
     "startedYear": 2021,
-    "status": "提供中",
+    "status": "不明",
     "startedAt": "2021-05-12",
     "startBasis": "沢井製薬へのOEM提供を発表（プレスリリース）",
     "milestones": [
@@ -100154,7 +100321,7 @@
     "company": "InnoJin株式会社",
     "companyId": "1010001214191",
     "category": "telemedicine",
-    "description": "スマートフォン一つで眼科の予約・問診・診療・決済まで完結するオンライン診療システム。オンライン薬局と連携して服薬まで導線をつなぎ、企業向けには産業医クラウドと連携した眼科オンライン診療も提供。",
+    "description": "スマートフォンで眼科の予約・問診・診療・決済まで完結するオンライン診療システム。眼科オンライン診療専門の「てのひら眼科」に導入され、オンライン薬局との連携や、産業医クラウド「ELPIS」を通じた企業向けの提供も行う。",
     "hp": "https://innojin.co.jp/service",
     "startedYear": null,
     "status": "提供中",
@@ -101143,11 +101310,11 @@
   },
   {
     "id": "b-637e5e63",
-    "name": "健康アドバイスAIのライセンス提供（「カロママ プラス」のアドバイスAI）",
+    "name": "カロママ アドバイスAI（「カロママ プラス」のアドバイスAIのライセンス提供）",
     "company": "株式会社Wellmira",
     "companyId": "7011101039597",
     "category": "personal-health-record",
-    "description": "食事・運動・睡眠の記録から健康アドバイスを返す「カロママ プラス」のAIを、他社の健康サービスやデバイス連携アプリにライセンス提供する事業。イオンの「からサポ」、シャープの「からだメイト」などが採用。",
+    "description": "AI健康アプリ「カロママ プラス」の食事画像認識・PHR 記録・パーソナルアドバイス・献立提案の機能を、他社の健康サービスやデバイス連携アプリに組み込めるよう提供する事業。イオンの「からサポ」やシャープの「からだメイト」が採用。",
     "hp": "https://www.wellmira.jp/",
     "startedYear": 2025,
     "status": "提供中",
@@ -101170,7 +101337,8 @@
       "https://prtimes.jp/main/html/rd/p/000000162.000018672.html"
     ],
     "type": "phr-data-platform",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "健康アドバイスAIのライセンス提供（「カロママ プラス」のアドバイスAI）"
   },
   {
     "id": "b-152ee215",
@@ -104091,7 +104259,7 @@
     "company": "株式会社SQUIZ",
     "companyId": "8011001137153",
     "category": "telemedicine",
-    "description": "LINEで相談・予約し、オンラインで精神科・心療内科の診療を受けられるこころのブランド。",
+    "description": "LINEで予約し、提携医療機関の精神科医によるオンライン診療（カウンセリング・処方・診断書）や臨床心理士のカウンセリングを自由診療で受けられるメンタルヘルスのブランド。薬は自宅に届く。",
     "hp": "https://oops-jp.com/heart/",
     "startedYear": 2025,
     "status": "提供中",
@@ -104193,13 +104361,13 @@
   {
     "id": "b-e3e89763",
     "name": "災害医療対応オンライン診療支援プラットフォーム「メディキャプチャ」",
-    "company": "シェアメディカル",
+    "company": "株式会社シェアメディカル",
     "companyId": "7010901034790",
     "category": "telemedicine",
     "description": "災害時や医療MaaS車両での診療を想定し、バイタル計測機器や聴診などのデータを集めてオンライン診療を支えるプラットフォーム。海外製品の販売権と日本語化権を取得して提供し、愛媛県新居浜市の保健福祉MaaS車両に採用された。",
     "hp": "https://www.sharemedical.jp/",
     "startedYear": 2024,
-    "status": "提供中",
+    "status": "不明",
     "startedAt": "2024-03-25",
     "startBasis": "販売権・日本語化権の獲得発表（プレスリリース）",
     "milestones": [
@@ -105099,6 +105267,16 @@
         "date": "2021-03-19",
         "text": "ワクチン接種予約・管理アプリ「メディコネクトVRS」を自治体向けに無償提供",
         "source": "https://prtimes.jp/main/html/rd/p/000000056.000021661.html"
+      },
+      {
+        "date": "2021-04",
+        "text": "メディコネクトVRS のアプリを App Store・Google Play で公開（無料）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000059.000021661.html"
+      },
+      {
+        "date": "2021-12",
+        "text": "奈良県三宅町との実証実験の結果を発表（対象人口の2回目接種率が8割前後）",
+        "source": "https://nextinnovation-inc.co.jp/news/6tNgd94q8IFU7BweOhZJGd"
       }
     ],
     "endReasons": [
@@ -105111,7 +105289,8 @@
       "https://prtimes.jp/main/html/rd/p/000000048.000021661.html"
     ],
     "type": "phr-data-platform",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "kind": "group"
   },
   {
     "id": "b-9c6d9ff4",
@@ -105530,7 +105709,7 @@
     "description": "健診センターやクリニックが撮った眼底写真を、クラウドの「LOOKREC」経由で眼科専門医に読影依頼できる遠隔読影システム。",
     "hp": "https://mnes-lookrec.com/",
     "startedYear": 2023,
-    "status": "提供中",
+    "status": "不明",
     "startedAt": "2023-04-03",
     "startBasis": "リリース（プレスリリース）",
     "sources": [
@@ -105836,7 +106015,7 @@
     "company": "ヘルスケアテクノロジーズ株式会社",
     "companyId": "6010001195683",
     "category": "telemedicine",
-    "description": "医師不足や夜間・休日の相談先不足に悩む自治体向けに、HELPOの健康医療相談やオンライン診療を使って住民が必要なときに適切な医療につながる環境づくりを支援する事業。",
+    "description": "医師不足や夜間・休日の受診先不足に悩む自治体・医師会と、オンライン診療を使った夜間の一次救急や不足診療科の補完の体制を設計し、検証から本格展開まで支援する事業。住民はLINE上のHELPOドクターで受診し、沖縄県医師会の小児夜間オンライン診療の実証を支えている。",
     "hp": "https://healthcare-tech.co.jp/service/community-healthcare/",
     "startedYear": null,
     "status": "提供中",
@@ -105846,7 +106025,14 @@
     "type": "facility-remote-consultation",
     "updatedAt": "2026-10",
     "knownSince": "2021-12",
-    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000022.000054466.html"
+    "knownSinceSource": "https://prtimes.jp/main/html/rd/p/000000022.000054466.html",
+    "milestones": [
+      {
+        "date": "2026-02",
+        "text": "沖縄県医師会の小児の夜間オンライン診療の実証を開始（2026-05 から沖縄本島全域）",
+        "source": "https://healthcare-tech.co.jp/service/helpo-doctor/okinawa"
+      }
+    ]
   },
   {
     "id": "b-72a46959",
@@ -106611,7 +106797,7 @@
     "company": "ファストドクター株式会社",
     "companyId": "9010901038716",
     "category": "telemedicine",
-    "description": "夜間・休日を中心に24時間、アプリから医師のビデオ診療を受け、処方薬を最短1時間ほどで届けるオンライン診療。内科・小児科・皮膚科・呼吸器内科・生活習慣病などへ診療科を広げ、保険会社の契約者向けにも提供している。",
+    "description": "夜間・休日を含め24時間、アプリやブラウザから提携医療機関の医師のビデオ診療（保険診療）を受け、処方薬を近くの薬局（診察後1時間ほど）か宅配で受け取れるオンライン診療の窓口。内科・小児科・皮膚科・心療内科などへ診療科を広げ、アフラックの医療保険契約者向けの専用窓口もある。",
     "hp": "https://fastdoctor.jp/online/",
     "startedYear": 2020,
     "status": "提供中",
@@ -106704,6 +106890,21 @@
         "date": "2025-09-19",
         "text": "青森県が県内全域で小児科オンライン診療を運用開始（都道府県単位で全国初）",
         "source": "https://fastdoctor.jp/government/"
+      },
+      {
+        "date": "2022-02",
+        "text": "高知県と連携し、自宅療養者・宿泊療養者に夜間の医療相談・オンライン診療を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000036.000031533.html"
+      },
+      {
+        "date": "2025-10",
+        "text": "青森県の委託で県内全域のこどもオンライン診療を開始",
+        "source": "https://www.pref.aomori.lg.jp/release/files/2025/78941.pdf"
+      },
+      {
+        "date": "2026-06",
+        "text": "青森県のこどもオンライン診療の対象を4歳以上に変更",
+        "source": "https://www.pref.aomori.lg.jp/soshiki/kodomo/kodomo/online_consultation.html"
       }
     ],
     "sources": [
@@ -108123,8 +108324,8 @@
     "company": "セコム医療システム",
     "companyId": "1011001035966",
     "category": "telemedicine",
-    "description": "地域の診療所・病院向けに、聴診や専用カメラでの患部観察ができる「オールインワン」型のオンライン診療システム。対面診療に近い診察をめざす。",
-    "hp": "https://www.secom.co.jp/business/medical/",
+    "description": "離島・へき地の診療所や在宅医療向けに、聴診器・医療用カメラ・エコー・バイタル測定機器をつないで対面に近い診察ができる「オールインワン」型のオンライン診療システム。医療機関・自治体などの法人・団体向けで、常時のバイタル見守りにも使える。",
+    "hp": "https://medical.secom.co.jp/service/ict/vitalook/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
@@ -115105,10 +115306,10 @@
     "company": "ダイヤル・サービス株式会社",
     "companyId": "4010001138925",
     "category": "telemedicine",
-    "description": "特別養護老人ホームなど高齢者介護施設の職員が、夜間の入居者の急変などについて医療職に電話で相談できる窓口。",
-    "hp": "https://www.dsn.co.jp/",
+    "description": "特別養護老人ホームなど介護施設の夜間のケアスタッフが、入居者の体調不良やけがの対処を同社の看護師に電話で相談できる窓口。医師の判断が必要なときは顧問医を交えた三者通話もでき、症状別の対応マニュアルも提供する。",
+    "hp": "https://www.dsn.co.jp/corporation/senior/",
     "startedYear": 2017,
-    "status": "提供中",
+    "status": "不明",
     "startedAt": "2017",
     "startBasis": "提供開始（沿革）。開始年は2017年（月は未確認のため startedAt は空欄）",
     "sources": [
@@ -117326,7 +117527,7 @@
     "company": "株式会社エム・ディー・マネジメント",
     "companyId": "3010001100613",
     "category": "medical-image",
-    "description": "診療所・クリニックが撮影した画像を、CDや郵送なしでネット経由で読影医療機関に送り、読影レポートを受け取れるようにする仕組みの導入・運用支援。申込から約2週間で使い始められる。",
+    "description": "診療所・病院・健診センターが撮影したCT・MRI・CR・DRの画像をクラウド経由で送り、放射線診断専門医を中心とする200名以上の登録読影医から読影レポートを受け取る遠隔画像診断サービス。システム初期費用は無料で、検査装置ごとの月額料金。",
     "hp": "https://www.mdmg.co.jp/medicalpersonnel/teleradiology.html",
     "startedYear": 2021,
     "status": "提供中",
@@ -121637,8 +121838,8 @@
     "company": "株式会社ドクターネット",
     "companyId": "7010401088511",
     "category": "medical-image",
-    "description": "胸部CT画像から肺結節の候補をAIが検出して示す画像解析エンジン。ドクターネットの遠隔読影・AIプラットフォームで使われる。",
-    "hp": "",
+    "description": "胸部CT画像の肺野から関心領域（CT値が上がった領域）をAIで抽出し、体積と最大径を測って読影を支援する画像解析エンジン。韓国Monitor Corporationと共同開発し、ドクターネットの遠隔読影ネットワーク上のAIプラットフォーム「AI-RAD」で提供する。",
+    "hp": "https://dr-net.co.jp/service/airad/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2025",
@@ -121667,7 +121868,8 @@
       "classLabel": "クラスII",
       "jmdn": "70030012",
       "checkedAt": "2026-10"
-    }
+    },
+    "startedAt": "2025-01"
   },
   {
     "id": "b-fdc31d49",
@@ -121840,7 +122042,7 @@
     "name": "Neurophet AQUA／AQUA AD",
     "company": "株式会社ダブリューエスエム",
     "category": "medical-image",
-    "description": "韓国Neurophet社の脳MRI解析AI。脳の部位ごとの体積や萎縮、白質病変を自動で算出して示し、認知症などの診断を支援する。AQUA ADはアルツハイマー病治療薬の副作用（ARIA）評価向け。",
+    "description": "韓国 NEUROPHET 社の脳画像解析プログラム。AQUA は脳MRの部位ごとの体積を算出して健常者の基準値と比べ、AQUA AD はそれに加えてアミロイドPET の集積を定量する。日本ではダブリューエスエムが選任製造販売業者として認証を持つ。",
     "hp": "",
     "startedYear": null,
     "status": "提供中",
@@ -121855,6 +122057,16 @@
         "date": "2025",
         "text": "Neurophet AQUA AD アクア エイディー：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号307AHBZI00001000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/307AHBZI00001000_1_02"
+      },
+      {
+        "date": "2022-04",
+        "text": "NEUROPHET が Neurophet AQUA の日本での医療機器認証取得を発表",
+        "source": "https://view.asiae.co.kr/en/article/2022040608354259987"
+      },
+      {
+        "date": "2025-09",
+        "text": "東京都健康長寿医療センターと Neurophet AQUA の供給契約を結んだと発表（日本で最初の供給）",
+        "source": "https://www.venturesquare.net/1003647/"
       }
     ],
     "sources": [
@@ -121876,7 +122088,8 @@
       "classLabel": "クラスII",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-4e93f756",
@@ -121886,7 +122099,7 @@
     "description": "韓国Neurophet社のPET画像解析ソフトで、アミロイドPETなどの集積をMRIと組み合わせて定量化し、認知症診断を支援する汎用画像診断装置ワークステーション用プログラム。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2022",
     "milestones": [
       {
@@ -121914,15 +122127,16 @@
       "classLabel": "クラスII",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "stage": "承認取得済み"
   },
   {
     "id": "b-d6295a71",
     "name": "SwiftMR（スイフトエムアール）",
-    "company": "株式会社ダブリューエスエム",
+    "company": "AIRS Medical Inc.",
     "category": "medical-image",
     "description": "韓国AIRS Medical社のMRI画像再構成AIで、短時間撮像で得た画像のノイズを除いて高画質化し、検査時間の短縮に役立てるMR装置ワークステーション用プログラム。クラウド版とオンプレミス版がある。",
-    "hp": "",
+    "hp": "https://airsmed.com/jp/swiftmr/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2023",
@@ -121963,17 +122177,18 @@
       "classLabel": "クラスII",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-289b2e69",
-    "name": "RUS（ラス）／Lung ラス",
+    "name": "RUS ラス／Lung ラス",
     "company": "株式会社ダブリューエスエム",
     "category": "medical-image",
-    "description": "海外製のX線画像解析プログラムで、X線画像を処理・解析して読影に役立つ情報を提供するX線画像診断装置ワークステーション用プログラム。",
+    "description": "韓国 Hutom 社が開発した手術シミュレーションソフト。造影CTから AI で臓器・血管を識別した3Dデータを作り、医師が腹腔鏡などの器具を仮想的に置いて胃・腎・肺の手術を事前に検討できる。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2024",
     "milestones": [
       {
@@ -121985,6 +122200,16 @@
         "date": "2025",
         "text": "Lung ラス：X線画像診断装置ワークステーション用プログラムとして認証取得（認証番号307AHBZI00026000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/307AHBZI00026000_1_01"
+      },
+      {
+        "date": "2024-01",
+        "text": "RUS ラス（RUS Stomach Planning）の添付文書 第1版を作成（外国特例認証 306AHBZI00003000）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/431047_306AHBZI00003000_1_01_01"
+      },
+      {
+        "date": "2025-09",
+        "text": "Lung ラス（RUS Lung）の添付文書 第1版を作成（外国特例認証 307AHBZI00026000）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/431047_307AHBZI00026000_1_01_01"
       }
     ],
     "sources": [
@@ -122006,7 +122231,10 @@
       "classLabel": "クラスII",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "formerName": "RUS（ラス）／Lung ラス",
+    "kind": "group",
+    "stage": "承認取得済み"
   },
   {
     "id": "b-da4ce214",
@@ -122050,10 +122278,10 @@
     "name": "Aビュー／Aビュー Lung Nodule CAD",
     "company": "株式会社メディカルブリッジ",
     "category": "medical-image",
-    "description": "医用画像を表示・処理するビューワ「Aビュー」と、胸部画像から肺結節候補を検出するCAD機能（2026年承認）。海外製ソフトをメディカルブリッジが製造販売する。",
+    "description": "韓国 Coreline Soft が製造する CT 画像解析ソフト AVIEW の日本向け製品で、3次元表示・計測を行うビューワ「Aビュー」と、胸部CTから肺結節候補を検出する「AビューLung Nodule CAD」（2026年承認）。メディカルブリッジが選任製造販売業者として承認・認証を持つ。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2020",
     "milestones": [
       {
@@ -122065,6 +122293,16 @@
         "date": "2026",
         "text": "AビューLung Nodule CAD：X線画像診断装置ワークステーション用プログラムとして承認取得（承認番号30800BZI00024000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30800BZI00024000_H_01"
+      },
+      {
+        "date": "2026-09",
+        "text": "AビューLung Nodule CAD が日本で医療機器承認を取得（承認番号 30800BZI00024000）",
+        "source": "https://corelinesoft.com/ja-jp/company/about-us/"
+      },
+      {
+        "date": "2026-10",
+        "text": "AビューLung Nodule CAD が日本医学放射線学会の AI ソフトウェア認証を取得",
+        "source": "https://corelinesoft.com/ja-jp/company/about-us/"
       }
     ],
     "sources": [
@@ -122086,7 +122324,9 @@
       "classLabel": "クラスII",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group",
+    "stage": "承認取得済み"
   },
   {
     "id": "b-8acd0ab5",
@@ -122166,15 +122406,16 @@
       "checkedAt": "2026-10",
       "kind": "承認",
       "number": "30400BZI00030000"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-3f93149c",
     "name": "脳画像解析プログラム icobrain／MSmetrix",
     "company": "株式会社マイクロン",
     "category": "medical-image",
-    "description": "ベルギーicometrix社の脳MRI解析ソフト。脳の体積や白質病変を自動で定量し、多発性硬化症や認知症などの評価を支援する。",
-    "hp": "",
+    "description": "ベルギーicometrix社の脳MRI解析ソフト。画像を製造元のサーバーに送って脳の体積や白質病変を定量し、結果をウェブブラウザで見る。マイクロンが日本の製造販売業者。",
+    "hp": "https://microncro.com/solutions/product-information/product-information1/icobrain/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2018",
@@ -122188,6 +122429,16 @@
         "date": "2018",
         "text": "脳画像解析プログラム icobrain：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号230ALBZX00010A01、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/230ALBZX00010A01_A_01"
+      },
+      {
+        "date": "2020-04",
+        "text": "バージョン4.4を国内医療機関向けに販売開始（単純CTでの解析に対応）",
+        "source": "https://microncro.com/archives/post/icobrain_2020/"
+      },
+      {
+        "date": "2020-08",
+        "text": "バージョン5.0を国内向けに販売開始（てんかん向けのレポートを追加）",
+        "source": "https://microncro.com/archives/post/icobrain_2020_ver5/"
       }
     ],
     "sources": [
@@ -122378,8 +122629,8 @@
     "name": "超音波画像解析ソフトウェア Us2.ai",
     "company": "コスモテック株式会社",
     "category": "medical-image",
-    "description": "シンガポールUs2.ai社の心エコー解析AIで、心臓超音波画像から心機能の各種指標を自動で計測し、レポートを作る超音波装置ワークステーション用プログラム。",
-    "hp": "",
+    "description": "シンガポールUs2.ai社の心エコー解析AIで、心臓超音波画像から心機能の各種指標を自動で計測し、レポートを作る。コスモテックが選任製造販売業者で、エムスリーAIがM3 AI Platformで医療機関に提供する。",
+    "hp": "https://m3comlp.m3.com/lp/m3com/m3-ai-platform",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2023",
@@ -122571,7 +122822,7 @@
     "company": "クレアボ・テクノロジーズ株式会社",
     "category": "medical-image",
     "description": "中国Shukun Technology社が開発した心臓CT画像解析ソフトで、冠動脈を自動で抽出し、狭窄やプラークの解析結果を示して冠動脈疾患の診断を支援する。",
-    "hp": "",
+    "hp": "https://www.clairvotech.com/products/CCD.html",
     "startedYear": 2024,
     "status": "提供中",
     "startedAt": "2024-10-15",
@@ -122586,6 +122837,16 @@
         "date": "2024-10-15",
         "text": "販売開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000009.000099674.html"
+      },
+      {
+        "date": "2025-05",
+        "text": "エルピクセルが「EIRL AI パートナープログラム」で販売することに合意",
+        "source": "https://www.clairvotech.com/news/news_Lpixel_02.html"
+      },
+      {
+        "date": "2026-01",
+        "text": "プラーク解析オプションを案内",
+        "source": "https://www.clairvotech.com/news/CoronaryDoc_Plaque_News.html"
       }
     ],
     "sources": [
@@ -122605,18 +122866,25 @@
       "kind": "認証",
       "number": "306ADBZX00046000"
     },
-    "companyId": "4010001209230"
+    "companyId": "4010001209230",
+    "pastEvents": [
+      {
+        "date": "2025-12",
+        "text": "親会社が丸紅からタウンズに変わる（製品・取引条件は変更なし）",
+        "source": "https://www.clairvotech.com/news/news_parentcompany_change.html"
+      }
+    ]
   },
   {
     "id": "b-95f1484f",
     "name": "画像解析ソフトウエア Julie Eye（ジュリーアイ）",
     "company": "クレアボ・テクノロジーズ株式会社",
     "category": "medical-image",
-    "description": "台湾MiiS社の眼底画像解析ソフトで、同社の眼底撮影装置で撮った眼底写真を解析し、所見の確認を支援する。クレアボ・テクノロジーズが日本で独占販売する。",
-    "hp": "",
+    "description": "台湾MiiS社の眼底カメラ用プログラムで、眼底写真から白斑・出血などの症状をAIで検出し、経過観察か専門医の精密検査かの受診を勧める結果を色で示す。クレアボ・テクノロジーズが日本で独占販売し、同社のハンディ型眼底カメラ「ライアンスコープ」と組み合わせて案内される。",
+    "hp": "https://www.clairvotech.com/products/miis.html",
     "startedYear": 2023,
     "status": "提供中",
-    "startedAt": "2023-02-21",
+    "startedAt": "2023-02",
     "startBasis": "日本独占販売開始の発表（プレスリリース）",
     "milestones": [
       {
@@ -123005,6 +123273,11 @@
         "date": "2023-08-21",
         "text": "検出感度を高めた新モデルをリリース",
         "source": "https://prtimes.jp/main/html/rd/p/000000059.000010005.html"
+      },
+      {
+        "date": "2021-09",
+        "text": "検出感度を高め、経時的変化の表示機能を加えた新モデルを発売",
+        "source": "https://prtimes.jp/main/html/rd/p/000000059.000010005.html"
       }
     ],
     "sources": [
@@ -123036,8 +123309,8 @@
     "company": "エルピクセル株式会社",
     "companyId": "2011001099036",
     "category": "medical-image",
-    "description": "胸部X線画像から結節・腫瘤影や浸潤影など複数の異常陰影の候補域をAIで検出して示す読影支援ソフト。過去画像との比較読影支援や感度・特異度優先の切り替えに対応。",
-    "hp": "",
+    "description": "胸部X線画像から結節影・浸潤影・無気肺・間質性陰影・多発粒状影・空洞影の候補域をAIで検出して示す読影支援ソフト（販売名 EIRL Chest XR）。過去画像との比較や感度優先・特異度優先の切り替えに対応し、心胸郭比などを測る EIRL Chest Metry と組み合わせて EIRL Chest Screening として販売される。",
+    "hp": "https://eirl.ai/ja/eirl-chest-screening/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2022-02",
@@ -123089,7 +123362,8 @@
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
     },
-    "groupId": "eirl"
+    "groupId": "eirl",
+    "startedAt": "2023-01-10"
   },
   {
     "id": "b-5484e79f",
@@ -123156,8 +123430,8 @@
     "company": "エルピクセル株式会社",
     "companyId": "2011001099036",
     "category": "medical-image",
-    "description": "頭部MRI画像から脳の領域を抽出して体積などを計測・表示し、読影を支援する画像解析ソフト。認証番号の上では2018年の品目。",
-    "hp": "",
+    "description": "頭部MRI（FLAIR）画像から白質高信号領域の体積をディープラーニングで自動計測し、独自のスコアや脳ドック受診者向けレポートを出して読影を支援する画像解析ソフト。",
+    "hp": "https://eirl.ai/ja/eirl-brain_metry/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2018",
@@ -123196,8 +123470,8 @@
     "company": "エルピクセル株式会社",
     "companyId": "2011001099036",
     "category": "medical-image",
-    "description": "頭部CT画像から頭蓋内の高吸収・低吸収領域や境界が不明瞭な領域を自動で抽出・表示し、脳出血や梗塞の読影を支援するソフト。",
-    "hp": "",
+    "description": "頭部CT画像から頭蓋内の高吸収・低吸収領域や組織の境界が不明瞭な領域をディープラーニングで自動抽出・表示し、脳出血や脳梗塞の読影を支援するプログラム医療機器。",
+    "hp": "https://eirl.ai/ja/eirl-brain_segmentation/",
     "startedYear": 2021,
     "status": "提供中",
     "startedAt": "2021-05-25",
@@ -123216,6 +123490,16 @@
       {
         "date": "2022-09-08",
         "text": "低吸収領域や境界不明瞭化の抽出に対応した新モデル",
+        "source": "https://prtimes.jp/main/html/rd/p/000000051.000010005.html"
+      },
+      {
+        "date": "2021-05",
+        "text": "医療機器の製造販売認証を取得し販売を開始（高吸収領域の抽出）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000035.000010005.html"
+      },
+      {
+        "date": "2022-08",
+        "text": "低吸収領域・境界不明瞭領域の抽出を加えた新モデルが認証 303AGBZX00043Z00 を取得（2022-09 に発表）",
         "source": "https://prtimes.jp/main/html/rd/p/000000051.000010005.html"
       }
     ],
@@ -123247,8 +123531,8 @@
     "company": "エルピクセル株式会社",
     "companyId": "2011001099036",
     "category": "medical-image",
-    "description": "胸部X線画像から胸腔内の空気を含む領域の面積を自動で計測して表示し、肺の膨らみの状態などの評価を支援する画像解析ソフト。",
-    "hp": "",
+    "description": "胸部X線画像から胸腔内の空気含有面積・心胸郭比・縦隔幅・大動脈弓の径・肋骨横隔膜角を自動で計測し、前回との差分も表示して読影を支援する画像解析ソフト。異常陰影を検出する EIRL Chest XR とあわせ「EIRL Chest Screening」として提供される。",
+    "hp": "https://eirl.ai/ja/eirl-chest-screening/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2020",
@@ -123261,6 +123545,11 @@
       {
         "date": "2020-10-20",
         "text": "医療機器製造販売認証を取得",
+        "source": "https://prtimes.jp/main/html/rd/p/000000032.000010005.html"
+      },
+      {
+        "date": "2020-09",
+        "text": "指定管理医療機器の製造販売認証を取得（認証番号 302AGBZX00101000）",
         "source": "https://prtimes.jp/main/html/rd/p/000000032.000010005.html"
       }
     ],
@@ -123692,7 +123981,7 @@
     "company": "キヤノン株式会社",
     "companyId": "6010801003186",
     "category": "medical-image",
-    "description": "胸部CT画像をAIで処理し、COVID-19肺炎に見られる所見を有する可能性を示して肺炎の画像診断を支援するプログラム。2022年に新医療機器として承認された。",
+    "description": "キヤノン製CTの胸部CT画像を機械学習で開発したアルゴリズムで解析し、COVID-19肺炎に見られる所見を有する可能性を「高」「低」で示して肺炎の画像診断を支援するプログラム。2022年に承認・販売開始し、2026年4月から製造販売業者はキヤノン、販売はキヤノンメディカルシステムズ。",
     "hp": "",
     "startedYear": null,
     "status": "提供中",
@@ -123702,6 +123991,16 @@
         "date": "2022-06-02",
         "text": "COVID-19肺炎解析ソフトウェア SCO-PA01：X線画像診断装置ワークステーション用プログラムとして製造販売承認（改良医療機器・臨床あり、承認番号30400BZX00123000）",
         "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0046.html"
+      },
+      {
+        "date": "2022-06",
+        "text": "製造販売承認を取得（承認番号 30400BZX00123000）",
+        "source": "https://jp.medical.canon/News/PressRelease/Detail/120452-834"
+      },
+      {
+        "date": "2022-09",
+        "text": "キヤノンメディカルシステムズが販売を開始",
+        "source": "https://jp.medical.canon/News/PressRelease/Detail/120452-834"
       }
     ],
     "sources": [
@@ -123721,7 +124020,15 @@
       "regulatoryClass": "管理医療機器",
       "classLabel": "クラスII",
       "checkedAt": "2026-10"
-    }
+    },
+    "startedAt": "2022-09-01",
+    "pastEvents": [
+      {
+        "date": "2026-04",
+        "text": "吸収分割により製造販売業者がキヤノンに移り、キヤノンメディカルシステムズは国内の販売・サービスを担う",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/230061_30400BZX00123000_A_04_01"
+      }
+    ]
   },
   {
     "id": "b-620710f0",
@@ -123801,12 +124108,12 @@
   },
   {
     "id": "b-57c874c8",
-    "name": "Abierto SCAI（汎用画像診断ワークステーション用プログラム SCAI-1AP）",
+    "name": "Abierto Reading Support Solution（汎用画像診断ワークステーション用プログラム Abierto SCAI-1AP）",
     "company": "キヤノン株式会社",
     "companyId": "6010801003186",
     "category": "medical-image",
-    "description": "キヤノンのAbiertoシリーズの画像解析用プログラム。画像診断装置から受け取った画像を解析・処理し、読影を支援する情報を提供する。",
-    "hp": "",
+    "description": "CT・MRI の画像を受け取ると自社と他社の AI 解析アプリケーションを自動で動かし、結果を一覧・修正してから PACS に送れる読影支援ソリューション。脳卒中向けや骨転移向けの解析を持つ。",
+    "hp": "https://jp.medical.canon/products/healthcareit/image-interpretation-support/abierto-rss/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2020",
@@ -123834,7 +124141,9 @@
       "regulatoryClass": "管理医療機器",
       "classLabel": "クラスII",
       "checkedAt": "2026-10"
-    }
+    },
+    "formerName": "Abierto SCAI（汎用画像診断ワークステーション用プログラム SCAI-1AP）",
+    "startedAt": "2020-07"
   },
   {
     "id": "b-7ccf3fd8",
@@ -123944,13 +124253,13 @@
   {
     "id": "b-2f667881",
     "name": "Olea Sphere（汎用画像診断装置ワークステーション用プログラム OLSP-001A）",
-    "company": "キヤノン株式会社",
+    "company": "キヤノンメディカルシステムズ株式会社",
     "companyId": "6010801003186",
     "category": "medical-image",
-    "description": "仏Olea Medical社の画像解析ソフトで、MRI・CTの灌流画像や拡散画像などを解析して脳卒中や腫瘍の評価を支援する。キヤノンの型式OLSP-001Aとして認証。",
+    "description": "仏Olea Medical社の画像処理ソフト Olea Sphere を、キヤノンメディカルシステムズが型式OLSP-001Aとして認証を取ったもの。MRI・CTの画像を取り込んで計測・画像処理をし、診療に使う画像情報を示す。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2017",
     "milestones": [
       {
@@ -123976,7 +124285,8 @@
       "regulatoryClass": "管理医療機器",
       "classLabel": "クラスII",
       "checkedAt": "2026-10"
-    }
+    },
+    "stage": "承認取得済み"
   },
   {
     "id": "b-bec1feb5",
@@ -124138,11 +124448,11 @@
   },
   {
     "id": "b-90451333",
-    "name": "CXR finding-i（画像診断支援ソフトウェア KDSS-CXR-AI-101）",
+    "name": "CXR Finding-i（画像診断支援ソフトウェア KDSS-CXR-AI-101）",
     "company": "コニカミノルタ株式会社",
     "category": "medical-image",
     "description": "胸部X線画像をAIで解析し、結節・腫瘤影や浸潤影など異常の疑われる領域を示して読影を支援するコニカミノルタのソフト。骨減弱処理や経時差分処理と併用できる。",
-    "hp": "",
+    "hp": "https://www.konicaminolta.jp/healthcare/imaging_service/cxrfinding-i.html",
     "startedYear": 2021,
     "status": "提供中",
     "startedAt": "2021-11-04",
@@ -124182,7 +124492,8 @@
       "regulatoryClass": "管理医療機器",
       "classLabel": "クラスII",
       "checkedAt": "2026-10"
-    }
+    },
+    "formerName": "CXR finding-i（画像診断支援ソフトウェア KDSS-CXR-AI-101）"
   },
   {
     "id": "b-5f016e48",
@@ -124258,11 +124569,11 @@
   },
   {
     "id": "b-35ae90b0",
-    "name": "マンモグラフィ診断支援装置 NEOVISTA CAD typeM",
+    "name": "マンモグラフィー診断支援ソフトウェア MGCAD-i（マンモグラフィ診断支援装置 NEOVISTA CAD typeM）",
     "company": "コニカミノルタ株式会社",
     "category": "medical-image",
-    "description": "デジタルマンモグラフィ画像から腫瘤や微小石灰化の候補をコンピュータで検出して示す、乳がん検診向けの検出支援（CAD）システム。",
-    "hp": "",
+    "description": "マンモグラフィ画像から病変に関連した特徴のパターンを検出して線で囲んで示す、乳がん検診向けの検出支援（CAD）ソフト。いまは MGCAD-i の呼称で、マンモビューワーやゲートウェイ Senciafinder と組み合わせて使う。",
+    "hp": "https://www.konicaminolta.jp/healthcare/products/mammo/mgcad-i.html",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2010",
@@ -124292,15 +124603,16 @@
       "classLabel": "クラスII",
       "specialMaintenance": true,
       "checkedAt": "2026-10"
-    }
+    },
+    "formerName": "マンモグラフィ診断支援装置 NEOVISTA CAD typeM"
   },
   {
     "id": "b-749d2429",
     "name": "REGIUS Unitea 経時差分機能／Image Processing Pro 骨減弱（BS）処理",
     "company": "コニカミノルタ株式会社",
     "category": "medical-image",
-    "description": "胸部X線画像の過去画像との差分を作って変化を強調する経時差分処理や、肋骨などの骨陰影を減弱する処理で、病変を見つけやすくするコニカミノルタの画像処理ソフト。",
-    "hp": "",
+    "description": "胸部X線画像の肋骨・鎖骨の陰影を減弱する骨減弱処理と、過去画像との差分で変化を見やすくする経時差分処理を、画像診断ワークステーションやゲートウェイ、月額サービス infomity で提供するコニカミノルタの画像処理ソフト。",
+    "hp": "https://www.konicaminolta.jp/healthcare/imaging_service/service_bone-suppression.html",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2013",
@@ -124314,6 +124626,11 @@
         "date": "2013",
         "text": "画像診断ワークステーション Image Processing Pro IP-ProオプションBSソフトウェア：汎用画像診断装置ワークステーション用プログラムとして認証取得（認証番号225ABBZX00123000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/225ABBZX00123000_C_01"
+      },
+      {
+        "date": "2023-05",
+        "text": "Image Processing Pro IP-Pro オプション BS ソフトウェアの添付文書 第1版を作成（専用のクラウドで提供）",
+        "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/290447_225ABBZX00123000_C_01_02"
       }
     ],
     "sources": [
@@ -124335,7 +124652,8 @@
       "classLabel": "クラスII",
       "specialMaintenance": true,
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-6a53c702",
@@ -124576,7 +124894,7 @@
     "company": "シーメンスヘルスケア株式会社",
     "category": "medical-image",
     "description": "シーメンスのAI読影支援ソフト。胸部CTの肺結節・肺気腫・冠動脈石灰化や、頭部MRの脳体積などをAIで自動解析し、結果を読影レポートの下書きとして示す。",
-    "hp": "",
+    "hp": "https://siemens-healthineers.com/jp/digital-health-solutions/ai-rad-companion",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2020",
@@ -124600,6 +124918,16 @@
         "date": "2022-04-11",
         "text": "AI-Radコンパニオン：汎用画像診断装置ワークステーション用プログラムとして承認事項一部変更承認（改良医療機器・臨床なし）（承認番号30200BZX00202000）",
         "source": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/devices/0018.html"
+      },
+      {
+        "date": "2021-01",
+        "text": "Brain MR・Prostate for Biopsy（AI-RadコンパニオンMR）と Organs RT の認証取得を発表",
+        "source": "https://www.siemens-healthineers.com/jp/press-room/press-releases/pr-20210128-ai-rad-brain-mr.html"
+      },
+      {
+        "date": "2022-05",
+        "text": "肺結節検出にコンカレントリーダー型の使用方法を加える一部変更承認の取得を発表",
+        "source": "https://marketing.webassets.siemens-healthineers.com/0e9bfc69fb503a54/48b8ed8e5d27/20220519-PR-AIRC-ConcReader.pdf"
       }
     ],
     "sources": [
@@ -124621,7 +124949,9 @@
       "classLabel": "クラスII",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "startedAt": "2020-06-29",
+    "kind": "group"
   },
   {
     "id": "b-9a736f0a",
@@ -127668,7 +127998,7 @@
     "company": "PDRファーマ株式会社",
     "category": "medical-image",
     "description": "脳血流SPECTの統計解析（eZIS・3DSRT）、心筋MIBG・心機能の解析、骨シンチの骨転移指標BSI、アミロイドPETの定量など、核医学検査の画像を解析して診断を支援するソフト群。",
-    "hp": "",
+    "hp": "https://www.pdradiopharma.com/hcw/list/med-equipment/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2015",
@@ -127729,7 +128059,20 @@
       "jmdn": "70030012",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "pastEvents": [
+      {
+        "date": "2022-03",
+        "text": "富士フイルム富山化学から6製品を承継",
+        "source": "https://www.mhlw.go.jp/topics/bukyoku/iyaku/kaisyu/2022/kaisyuu2022-2-10725.html"
+      },
+      {
+        "date": "2022-06",
+        "text": "承継した6製品の出荷を開始",
+        "source": "https://www.pdradiopharma.com/uploads/news_220623_2.pdf"
+      }
+    ],
+    "kind": "group"
   },
   {
     "id": "b-2dce07f3",
@@ -128384,8 +128727,8 @@
     "company": "エーザイ株式会社",
     "companyId": "6010001000001",
     "category": "medical-image",
-    "description": "頭部MRI画像から海馬など内側側頭部の萎縮の程度を統計的に解析して数値で示し、早期アルツハイマー型認知症の診断を支援するソフト。",
-    "hp": "",
+    "description": "頭部MRI画像を健常者の画像と統計的に比べ、内側側頭部など関心領域の萎縮の程度を数値と画像で示し、早期アルツハイマー型認知症の診断を支援するソフト。2025年4月にブイエスラド プラスの製造販売終了が案内され、ブイエスラド アドバンスの提供が続く。",
+    "hp": "https://medical.eisai.jp/products/art/vsrad/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2020-03",
@@ -128419,7 +128762,15 @@
       "classLabel": "クラスII",
       "category": "プログラム 40940012 【形状・構造及び原理等】",
       "checkedAt": "2026-10"
-    }
+    },
+    "pastEvents": [
+      {
+        "date": "2025-04",
+        "text": "ブイエスラド プラスの製造販売終了を案内",
+        "source": "https://medical.eisai.jp/products/art/vsrad/"
+      }
+    ],
+    "kind": "group"
   },
   {
     "id": "b-77946f47",
@@ -129366,7 +129717,7 @@
     "company": "デンツプライシロナ株式会社",
     "category": "medical-image",
     "description": "米Dentsply Sironaの歯科用ソフト群。X線・CBCT画像の管理（シデキシス）、インプラント埋入計画（シムプラント、SICAT）、根管治療・気道解析、矯正（SureSmile）、補綴物設計を行う。",
-    "hp": "",
+    "hp": "https://www.dentsplysirona.com/ja-jp/discover/discover-by-category/imaging-systems/imaging-software.html",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2015",
@@ -129446,7 +129797,8 @@
       "classLabel": "クラスII",
       "jmdn": "71043002",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-e268dbd1",
@@ -131134,7 +131486,8 @@
       "regulatoryClass": "管理医療機器",
       "classLabel": "クラスII",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-cfdca090",
@@ -131216,7 +131569,7 @@
     "name": "SyMRI／Sectra Workstation（プライムファイン）",
     "company": "有限会社プライムファイン",
     "category": "medical-image",
-    "description": "スウェーデン製のソフト。一度のMRI撮像からT1・T2などの定量値と複数のコントラスト画像を作るSyMRIと、Sectra社のPACS読影ワークステーション。",
+    "description": "スウェーデン製の画像ソフト2製品。1回のMRI撮像から定量マップと複数のコントラスト画像を作るSyMRI（SyntheticMR社）と、Sectra社のPACS読影ワークステーションで、プライムファインが日本の選任製造販売業者を務める。",
     "hp": "",
     "startedYear": null,
     "status": "提供中",
@@ -131252,7 +131605,8 @@
       "classLabel": "クラスII",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-83009fc3",
@@ -132616,10 +132970,10 @@
     "name": "コーナン フルオートマチック セルアナリシスシステム KC-4309／KC-4209",
     "company": "株式会社コーナン・メディカル",
     "category": "medical-image",
-    "description": "スペキュラーマイクロスコープで撮った角膜内皮細胞の画像を自動で解析し、細胞密度などを算出する眼撮影装置用プログラム。2015年に認証を受け、コーナン・メディカルが製造販売する。",
+    "description": "コーナン・メディカルのスペキュラーマイクロスコープ（ⅩⅢ・Ⅹ）で撮った角膜内皮細胞の画像を解析し、細胞密度などを算出する眼撮影装置用プログラム。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2015",
     "milestones": [
       {
@@ -132652,7 +133006,9 @@
       "classLabel": "クラスII",
       "category": "プログラム 1 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group",
+    "stage": "承認取得済み"
   },
   {
     "id": "b-bcf87266",
@@ -134143,10 +134499,10 @@
     "name": "ファットスキャン／アキレスキャン",
     "company": "株式会社東日本技術研究所",
     "category": "medical-image",
-    "description": "腹部CT画像から内臓脂肪・皮下脂肪の面積を自動で算出するファットスキャンと、X線画像を解析するアキレスキャンからなる東日本技術研究所の解析ソフト。",
+    "description": "腹部CT画像1枚から内臓脂肪・皮下脂肪の面積を自動で計算するファットスキャンと、足部X線画像からアキレス腱の幅を測るアキレスキャン（家族性高コレステロール血症の診断支援）からなる、東日本技術研究所の計測プログラム。どちらも汎用PCにインストールして使う。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2015",
     "milestones": [
       {
@@ -134179,15 +134535,17 @@
       "classLabel": "クラスII",
       "jmdn": "40935012",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group",
+    "stage": "承認取得済み"
   },
   {
     "id": "b-38397711",
-    "name": "ClearRead（XR・CT-VS・CT+DC）／MammoRead WS（東陽テクニカ）",
+    "name": "ClearRead（XR・CT+DC・CT-VS）／MammoRead WS（東陽テクニカ）",
     "company": "株式会社東陽テクニカ",
     "category": "medical-image",
-    "description": "米Riverain社の胸部画像処理ソフトClearReadで、胸部X線の骨陰影を消したり、CTの肺血管を消して結節を見やすくしたりする。マンモグラフィ読影ビューアMammoReadも扱う。",
-    "hp": "",
+    "description": "米Riverain社の胸部画像処理ソフトClearReadで、ディープラーニングにより胸部X線の骨陰影やCTの肺血管を透過し、結節などを見やすくする。マンモグラフィ読影ビューアMammoReadは2024年にトーテックアメニティへ引き継がれた。",
+    "hp": "https://www.toyo.co.jp/medical/products/list/contents_type=3119",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2019",
@@ -134248,7 +134606,16 @@
       "jmdn": "70030012",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "formerName": "ClearRead（XR・CT-VS・CT+DC）／MammoRead WS（東陽テクニカ）",
+    "pastEvents": [
+      {
+        "date": "2024-04",
+        "text": "MammoReadシリーズをトーテックアメニティが引き継ぎ、後継製品MammoRead Plusを発売",
+        "source": "https://kyodonewsprwire.jp/release/202404199724"
+      }
+    ],
+    "kind": "group"
   },
   {
     "id": "b-e4f7c7e8",
@@ -134550,7 +134917,7 @@
     "description": "イスラエルMedic Vision社の画像処理ソフトで、低線量CTの画像のノイズを減らすSafeCTと、MRI画像を高画質化するiQMRで、被ばく低減や検査時間の短縮に役立てる。",
     "hp": "",
     "startedYear": null,
-    "status": "提供中",
+    "status": "不明",
     "knownSince": "2017",
     "milestones": [
       {
@@ -134562,6 +134929,11 @@
         "date": "2019",
         "text": "MR画像再構成ソフトウェア iQMR：MR装置ワークステーション用プログラムとして認証取得（認証番号301ADBZX00018000、番号の年号から年のみ）",
         "source": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/301ADBZX00018000_1_01"
+      },
+      {
+        "date": "2019-07",
+        "text": "長瀬産業が iQMR の国内販売開始を発表",
+        "source": "https://monoist.itmedia.co.jp/mn/articles/1907/29/news031.html"
       }
     ],
     "sources": [
@@ -134583,15 +134955,16 @@
       "classLabel": "クラスII",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-3c7debd1",
     "name": "Attractive／QIR-Suite／OLEA SPHERE（長瀬産業）",
     "company": "長瀬産業株式会社",
     "category": "medical-image",
-    "description": "長瀬産業が扱う画像解析ソフト群。脳MRIの解析、心臓画像の定量解析、灌流・拡散画像の解析（仏Olea Medical社）などを行う。",
-    "hp": "",
+    "description": "長瀬産業が製造販売業者となる画像解析ソフト群。CT・MRI から臓器などを抽出して定量するAttractive（PixSpace製）、心臓画像を解析するQIR-Suite（CASIS製）、CT・MRI の灌流・拡散などを解析するOLEA SPHERE（Olea Medical製）。",
+    "hp": "https://www.pixspace.co.jp/products/attractive",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2022",
@@ -134631,7 +135004,9 @@
       "classLabel": "クラスII",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "startedAt": "2023-02-13",
+    "kind": "group"
   },
   {
     "id": "b-9751ce39",
@@ -135718,7 +136093,7 @@
     "company": "株式会社ヒフメド",
     "companyId": "9120001243395",
     "category": "telemedicine",
-    "description": "アトピー性皮膚炎やニキビなど皮膚の悩みを、皮膚科医がオンラインで診療し処方薬を自宅に届けるサービス。AIによる皮膚画像解析も組み合わせる。",
+    "description": "皮膚科医がオンラインでアトピー性皮膚炎やニキビなどを保険診療し、提携薬局から処方薬を自宅に届けるサービス。患者の症状記録や皮膚画像の AI 解析を組み合わせ、成人は一律 6,900円。",
     "hp": "https://hifu-med.com/",
     "startedYear": 2024,
     "status": "提供中",
@@ -135729,7 +136104,26 @@
       "https://hifu-med.com/"
     ],
     "type": "telemedicine-direct-to-patient",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "pastEvents": [
+      {
+        "date": "2023-03",
+        "text": "症状を記録する患者向けアプリ「ヒフメド」の提供を開始（運営は株式会社Genon）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000133353.html"
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2024-04",
+        "text": "アスト薬局と提携し、処方薬の自宅配送を開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000004.000133353.html"
+      },
+      {
+        "date": "2026-11",
+        "text": "製薬・ヘルスケア企業向けの RWD 分析サービスを発表",
+        "source": "https://hifu-med.com/company/information/624/"
+      }
+    ]
   },
   {
     "id": "b-c3e79252",
@@ -135737,7 +136131,7 @@
     "company": "株式会社MedNext Japan",
     "companyId": "5010001242593",
     "category": "telemedicine",
-    "description": "アプリで医療機関のオンライン診療を受け、処方薬を配送で受け取れるサービス。日本では利用料無料で始め、日本調剤などと組んで配送エリアを広げた。",
+    "description": "アプリで登録医療機関のオンライン診療と薬局のオンライン服薬指導を受け、処方薬を配達や薬局で受け取れるサービス。患者はシステム利用料（1件200円・税抜）を払い、医療機関は診療1件ごとに利用料を払う。",
     "hp": "https://doctornow.jp/",
     "startedYear": 2024,
     "status": "提供中",
@@ -135759,6 +136153,23 @@
         "date": "2025-06-17",
         "text": "日本調剤との提携でスピード配送エリアを拡大",
         "source": "https://prtimes.jp/companyrdf.php?company_id=141003"
+      },
+      {
+        "date": "2025-01",
+        "text": "患者のオンライン診療システム利用料を無料から1件200円（税抜）に変更（2025-01-21 以降の決済分）",
+        "source": "https://mnjapan.notion.site/3de611642d3980daa94ae6a766cdee32"
+      },
+      {
+        "date": "2026-03",
+        "text": "AI健康相談サービスを正式リリース",
+        "source": "https://mednext.io/ja/about"
+      }
+    ],
+    "pastEvents": [
+      {
+        "date": "2026-08",
+        "text": "運営会社が株式会社ドクターナウから株式会社MedNext Japan に商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=5010001242593"
       }
     ]
   },
