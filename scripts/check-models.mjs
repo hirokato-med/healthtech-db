@@ -3,9 +3,11 @@
 import fs from 'node:fs';
 const M = JSON.parse(fs.readFileSync(new URL('../data/business-models.json', import.meta.url), 'utf8'));
 const t = {};
+const objStr = (o, p) => { if (typeof o === "string") return o.includes("[object Object]") ? [p] : []; if (o && typeof o === "object") return Object.entries(o).flatMap(([k, v]) => objStr(v, p + "." + k)); return []; };
 const arr=(x)=>Array.isArray(x);const str=(x)=>typeof x=="string";const sarr=(x)=>arr(x)&&x.every(str);
 const chk=(id,k,ok,v)=>{if(!ok)(t[k]??=[]).push(id+":"+JSON.stringify(v).slice(0,140))};
 for(const [id,m] of Object.entries(M)){
+ for (const p of objStr(m, '')) chk(id, 'object-string', false, p);
  chk(id,"entity",m.entity===undefined||str(m.entity),m.entity);
  chk(id,"aiUse",!m.aiUse||str(m.aiUse.value),m.aiUse);
  chk(id,"stage",str(m.stage?.value),m.stage);

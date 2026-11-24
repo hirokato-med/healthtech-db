@@ -4111,7 +4111,7 @@
   {
     "id": "b-254f0115",
     "name": "期間限定オンライン外来代行",
-    "company": "株式会社キャピタルメディカ",
+    "company": "株式会社ユカリア（旧 キャピタルメディカ）",
     "category": "telemedicine",
     "description": "新型コロナ下で自院でオンライン診療ができないクリニックの患者を、キャピタルメディカのパートナー病院の医師がWeb会議で一時的に代わりに診療する無償サービス。事務局はキャピタルメディカ、システムはブイキューブ、医師会員への紹介はケアネットが担った。",
     "hp": "",
@@ -4136,7 +4136,8 @@
     "themes": [
       "online-consultation"
     ],
-    "type": "telemedicine-direct-to-patient"
+    "type": "telemedicine-direct-to-patient",
+    "companyId": "8010401056616"
   },
   {
     "id": "b-ddfd15d5",
@@ -20201,7 +20202,6 @@
     "id": "b-6a03a00a",
     "name": "カルテコ（PHR）",
     "company": "株式会社カルテ庫",
-    "companyId": "7010001087640",
     "category": "personal-health-record",
     "description": "病院の診療記録・検査画像・健診結果をスマートフォンで見られるPHRサービス。スマホのカメラで人や犬・猫の自律神経を計測する機能や、健診結果から病気のリスクを予測するAIを持ち、健診センター向けの健診サービスや企業向けのカルテコworkwellも提供する。",
     "hp": "https://karteco.jp/",
