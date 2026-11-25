@@ -53598,7 +53598,8 @@
       "unknown"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000011.000084101.html"
+      "https://prtimes.jp/main/html/rd/p/000000011.000084101.html",
+      "https://www.himuka-am.com/news/2026/04/06/575/"
     ],
     "type": "innovative-drug-maker",
     "updatedAt": "2026-10",
@@ -53622,7 +53623,8 @@
       "event": "譲渡",
       "fate": "未確認",
       "asOf": "2026-10"
-    }
+    },
+    "endedAt": "2026-04"
   },
   {
     "id": "b-28e24b09",
@@ -54586,7 +54588,8 @@
       "event": "譲渡",
       "fate": "未確認",
       "asOf": "2026-10"
-    }
+    },
+    "endedAt": "2023-02"
   },
   {
     "id": "b-5987bf8e",
@@ -54620,7 +54623,8 @@
       "event": "譲渡",
       "fate": "未確認",
       "asOf": "2026-10"
-    }
+    },
+    "endedAt": "2026-04"
   },
   {
     "id": "b-a742562f",
@@ -102117,10 +102121,11 @@
       }
     ],
     "endReasons": [
-      "unknown"
+      "infrastructure"
     ],
     "sources": [
-      "https://prtimes.jp/main/html/rd/p/000000042.000020114.html"
+      "https://prtimes.jp/main/html/rd/p/000000042.000020114.html",
+      "https://www.au.com/information/notice_life/service/20230110-01/"
     ],
     "type": "sleep-goods-device",
     "updatedAt": "2026-10",
@@ -102128,14 +102133,16 @@
       "sources": [
         "会社発表"
       ],
-      "stated": "理由を確認できていない",
-      "interpretation": "なし"
+      "stated": "明示あり",
+      "interpretation": "なし",
+      "statedNote": "睡眠データの計測・解析機能を提供していた EarlySense 社がその提供を終えるため（au の告知）"
     },
     "after": {
       "event": "提供終了",
       "fate": "提供終了",
       "asOf": "2026-10"
-    }
+    },
+    "endedAt": "2023-01-31"
   },
   {
     "id": "b-5ee66911",
@@ -102158,11 +102165,12 @@
       }
     ],
     "endReasons": [
-      "unknown"
+      "service-restructuring"
     ],
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000000027.000018672.html",
-      "https://prtimes.jp/main/html/rd/p/000000022.000018672.html"
+      "https://prtimes.jp/main/html/rd/p/000000022.000018672.html",
+      "https://calomama.com/news_topics/376/"
     ],
     "type": "d2c-diet-coaching",
     "updatedAt": "2026-10",
@@ -102170,14 +102178,16 @@
       "sources": [
         "会社発表"
       ],
-      "stated": "理由を確認できていない",
-      "interpretation": "なし"
+      "stated": "明示あり",
+      "interpretation": "なし",
+      "statedNote": "「カロママ プラス」への完全統合に伴い終了（公式ニュース）"
     },
     "after": {
       "event": "サービス統合",
       "fate": "未確認",
       "asOf": "2026-10"
-    }
+    },
+    "endedAt": "2022-11-18"
   },
   {
     "id": "b-1224cbf5",
