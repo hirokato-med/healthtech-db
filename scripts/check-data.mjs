@@ -78,6 +78,8 @@ add(want, '止まった事業で終了日が空', services.filter((s) => STOPPED
 add(want, '止まった理由が unknown', services.filter((s) => STOPPED.has(s.status) && s.endReasons?.includes('unknown')).sort(digitalFirst));
 add(want, '予定日経過・実施確認待ち（終了・譲渡したか確かめて confirmedAt と status を入れる）', services.filter((s) => s.plannedEnd && !s.plannedEnd.confirmedAt && s.plannedEnd.date < today.slice(0, s.plannedEnd.date.length)));
 add(want, '止まった理由の出どころが空（node scripts/classify-end-basis.mjs）', services.filter((s) => STOPPED.has(s.status) && !s.suspension?.temporary && !s.endReasonInfo));
+// 過去の出来事（pastEvents）は運営・名前・提供の変化だけ。承認・提供開始・親会社の変更などの節目は milestones に
+add(want, '過去の出来事に節目が混ざっている（承認・提供開始・親会社の変更は milestones に）', services.filter((s) => (s.pastEvents ?? []).some((e) => !/譲渡|名称|改称|商号|終了|統合|移管|承継|休止|停止|吸収|合併|運営会社|撤退|移行|販売元|提供元|切り替|製造販売業者/.test(e.text))));
 // 同じ事業の重複候補：同じ事業の種類で、公式サイトが同じか、名前の核（かっこ・「」の中、英字名）が同じ
 {
   const core = (n = '') => { const t = n.normalize('NFKC'); const q = t.match(/「([^」]+)」/)?.[1] ?? t.match(/[A-Za-z][A-Za-z0-9 .'-]{2,}/)?.[0] ?? t.replace(/[（(].*?[)）]/g, ''); return q.toLowerCase().replace(/[\s・.'-]/g, ''); };
