@@ -72,10 +72,16 @@ export function BusinessModelPanel({ m, s }: { m: BusinessModel; s: Service }) {
       {m.lastModel && <p className="bm-last"><b>最後に確認できたモデル</b>{lastNote}。{lastTail}</p>}
       <div className="bm-grid4">
         <div><h4>対象領域・課題<Src s={m.problem?.sources} /></h4><b><U t={m.problem?.domain} /></b><p><U t={m.problem?.who} /></p></div>
-        <div><h4>製品・サービスの種類<Src s={m.offering?.sources} /></h4><b>{m.offering?.values.join('／')}</b><p>{J(m.offering?.detail)}</p></div>
+        <div><h4>製品・サービスの種類<Src s={m.offering?.sources} /></h4><b>{m.offering?.values.join('／')}</b></div>
         <div><h4>利用者・契約者・支払者<Src s={m.roles?.sources} /></h4>{!opU.length && !outU.length ? <p>使う人：<U t="未確認" /></p> : sameUsers ? <p>使う人：<U t={opU.join('、')} /></p> : <>{opU.length > 0 && <p>操作する人：<U t={opU.join('、')} /></p>}{outU.length > 0 && <p>結果を使う人：<U t={outU.join('、')} /></p>}</>}<p>契約：<U t={(r.contractor ?? []).join('、') || '未確認'} /></p></div>
-        <div><h4>収益の得方<Src s={m.revenue?.sources} /></h4><b><U t={revHead} /></b>{showSales && <p>製品の販売収入：<U t={rv?.productSales} /></p>}{m.revenue?.unknown && <p className="bm-unk">未確認：{J(m.revenue.unknown)}</p>}{m.revenue?.past && <p className="muted">過去の収入：{J(m.revenue.past)}</p>}<p>{J(m.revenue?.detail)}</p></div>
+        <div><h4>収益の得方<Src s={m.revenue?.sources} /></h4><b><U t={revHead} /></b>{showSales && <p>製品の販売収入：<U t={rv?.productSales} /></p>}{m.revenue?.unknown && <p className="bm-unk">確かめられていない点あり（下の説明）</p>}</div>
       </div>
+      {(m.offering?.detail || m.revenue?.detail || m.revenue?.unknown || m.revenue?.past) && (
+        <dl className="bm-explain">
+          {m.offering?.detail && <div><dt>製品・サービスの中身</dt><dd>{J(m.offering.detail)}</dd></div>}
+          {(m.revenue?.detail || m.revenue?.unknown || m.revenue?.past) && <div><dt>収入の説明</dt><dd>{m.revenue?.unknown && <p className="bm-unk">未確認：{J(m.revenue.unknown)}</p>}{m.revenue?.past && <p className="muted">過去の収入：{J(m.revenue.past)}</p>}{m.revenue?.detail && <p>{J(m.revenue.detail)}</p>}</dd></div>}
+        </dl>
+      )}
       {(roles.length > 0 || pays.length > 0) && (
         <div className="bm-roles">
           {roles.map(([k, l]) => <div key={k}><i>{l}</i><U t={(r[k] as string[]).join('、')} /></div>)}
