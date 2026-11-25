@@ -626,7 +626,7 @@
     "name": "遠隔画像診断サービス",
     "company": "株式会社ドクターネット",
     "category": "medical-image",
-    "description": "放射線科医のネットワークによる遠隔読影サービス。",
+    "description": "医療機関からCT・MRIなどの医用画像の読影依頼を遠隔で受け付け、登録した放射線診断専門医が診断レポートを作って返す「Tele-RAD」を中心とする遠隔読影サービス。診療科専門医が健診・検診の画像を読影する「Tele-DOC」もある。",
     "hp": "https://dr-net.co.jp/",
     "startedYear": 1995,
     "status": "提供中",
@@ -18101,7 +18101,7 @@
     "company": "株式会社ビーヘルシー",
     "companyId": "5011101081213",
     "category": "fitness",
-    "description": "フィットネス動画メディア",
+    "description": "株式会社ビーヘルシーが創業直後の2017年8月に公開したフィットネス動画メディアで、運動の動画を配信していた。2020年4月に株式会社ケイブへ事業譲渡した。",
     "hp": "",
     "startedYear": 2017,
     "status": "譲渡",
@@ -18495,13 +18495,14 @@
     "company": "株式会社イーエムシステムズ",
     "companyId": "8120001053779",
     "category": "home-medical",
-    "description": "",
+    "description": "診療所・薬局・介護事業所をICTで結ぶ情報共有ツール。患者のフェイスシートや服薬情報を共有し、タイムラインで患者の状況をリアルタイムに確認できる。EMシステムズの医療介護情報連携ソリューションの一つとして提供している。",
     "hp": "https://emsystems.co.jp/product/nursingcare.html",
     "startedYear": 2017,
     "status": "提供中",
     "startedAt": "2017-03",
     "sources": [
-      "https://emsystems.co.jp/product/nursingcare.html"
+      "https://emsystems.co.jp/product/nursingcare.html",
+      "https://emsystems.co.jp/product/information.html"
     ],
     "updatedAt": "2026-10",
     "type": "home-medical-care-coordination"
@@ -20559,12 +20560,13 @@
     "company": "アトラグループ株式会社",
     "companyId": "6120001113618",
     "category": "relaxation",
-    "description": "",
+    "description": "鍼灸接骨院向けに療養費の請求業務を支えるサービスで、自社開発の基幹システム「A-COMS」と組み合わせて提供する。新規に開業する院や、他社システムから乗り換える院の入会を受け付けている。",
     "hp": "https://www.artra-group.co.jp/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://www.artra-group.co.jp/"
+      "https://www.artra-group.co.jp/",
+      "https://www.release.tdnet.info/inbs/140120261113577861.pdf"
     ],
     "updatedAt": "2026-10",
     "type": "bonesetter-clinic-support"
@@ -20575,12 +20577,13 @@
     "company": "アトラグループ株式会社",
     "companyId": "6120001113618",
     "category": "relaxation",
-    "description": "",
+    "description": "鍼灸接骨院向けに施術用の機材や消耗品を販売する事業。療養費が減るなかで保険外の自費施術に使う機材の販売に力を入れており、神経・筋肉を可視化する自社のAIデバイス「アトラゲージ」なども扱う。",
     "hp": "https://www.artra-group.co.jp/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://www.artra-group.co.jp/"
+      "https://www.artra-group.co.jp/",
+      "https://www.release.tdnet.info/inbs/140120261112576889.pdf"
     ],
     "updatedAt": "2026-10",
     "type": "bonesetter-clinic-support"
@@ -26683,13 +26686,14 @@
     "company": "COMP",
     "companyId": "7010401120959",
     "category": "direct-to-consumer",
-    "description": "",
+    "description": "UHA味覚糖と共同開発した完全食のハードグミ（フルーツミックス味）。厚生労働省の「日本人の食事摂取基準」を参考にした独自基準で栄養素を配合し、袋から出してそのまま食べられる。COMPの自社通販で販売している。",
     "hp": "https://comp.jp/shop/pages/about",
     "startedYear": 2017,
     "status": "提供中",
     "sources": [
       "https://qetic.jp/food-gourmet/comp-170711/252692/",
-      "https://comp.jp/shop/pages/about"
+      "https://comp.jp/shop/pages/about",
+      "https://comp.jp/shop/product_categories/tb_gummy"
     ],
     "updatedAt": "2026-10",
     "type": "d2c-nutrition-food-brand",
@@ -29133,7 +29137,7 @@
     "company": "株式会社MEBAIS",
     "companyId": "6180001127802",
     "category": "medical-dx",
-    "description": "",
+    "description": "医療機関の受付・予約対応や会計時の算定を遠隔で担う準備中のサービス。会計時の算定はAIを使うリアルタイム算定パートナー「イマナビAI+」として先行予約を受け付けており、受付・予約対応の遠隔支援は開発を進めている。",
     "hp": "https://mebais.jp/",
     "startedYear": 2023,
     "status": "準備中",
@@ -32631,7 +32635,7 @@
     "company": "MTU株式会社",
     "companyId": "6010001207042",
     "category": "health-consulting",
-    "description": "会社概要の事業内容",
+    "description": "",
     "hp": "https://www.mtu-inc.com/company",
     "startedYear": null,
     "status": "提供中",
@@ -32727,12 +32731,13 @@
     "company": "株式会社クオトミー",
     "companyId": "4010401135407",
     "category": "surgical-support",
-    "description": "",
+    "description": "外科系医師向けのオンライン学習サービス。手術映像や論文などのエビデンス、医師の挑戦を紹介する記事を見られるほか、医療機器メーカーなどパートナー企業の製品情報の確認や面談予約、学会・セミナー情報の確認ができる。",
     "hp": "https://www.quotomy.co.jp/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://www.quotomy.co.jp/"
+      "https://www.quotomy.co.jp/",
+      "https://openova.jp/"
     ],
     "updatedAt": "2026-10",
     "type": "surgical-education"
@@ -32762,12 +32767,13 @@
     "company": "ニヒンメディア株式会社",
     "companyId": "3010401175296",
     "category": "doctor-network",
-    "description": "",
+    "description": "製薬・医療機器メーカー向けのサービス。医師のAI活用の動向をふまえ、AIやデジタル技術で医師一人ひとりに合わせた製品情報の提供（パーソナライズドマーケティング）を支援する。資料請求はメーカーの担当者に限って受け付けている。",
     "hp": "https://nihinmedia.jp/jp/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://nihinmedia.jp/jp/"
+      "https://nihinmedia.jp/jp/",
+      "https://nihinmedia.jp/jp/download/"
     ],
     "updatedAt": "2026-10",
     "type": "doctor-clinical-ai-app"
@@ -34746,12 +34752,13 @@
     "company": "アナウト株式会社",
     "companyId": "4020001137059",
     "category": "surgical-support",
-    "description": "",
+    "description": "腹腔鏡手術やロボット手術の映像をAIで解析し、神経や血管などの構造物を強調表示する手術教育用AIプログラム。器具の動きの追跡や出血場面の振り返り、組織量や器具の速度のグラフ化もでき、外科医の教育や手技の研鑽に使う。",
     "hp": "https://anaut-surg.com/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://anaut-surg.com/"
+      "https://anaut-surg.com/",
+      "https://anaut-surg.com/ja-jp/eureka_x"
     ],
     "updatedAt": "2026-10",
     "type": "surgical-ai"
@@ -38487,7 +38494,7 @@
     "company": "株式会社スマイルアンドトゥース",
     "companyId": "2011001127894",
     "category": "dental",
-    "description": "東証プライム上場の繊維メーカーと共同開発",
+    "description": "東証プライム上場の繊維メーカーと共同開発したマウスピース矯正用シートを、独占販売契約のもとで扱う事業。まず国内でマウスピースブランドや歯科技工所、ディーラーなどへ供給し、のちに海外での販売も計画している。",
     "hp": "https://smileandtooth.co.jp/",
     "startedYear": 2019,
     "status": "提供中",
@@ -38756,7 +38763,7 @@
     "company": "株式会社QUOLi",
     "companyId": "8011001146848",
     "category": "medical-cosmetic",
-    "description": "美容医療の施術の口コミを投稿・閲覧できるアプリ。",
+    "description": "美容医療の施術について、利用者が体験や知識を口コミとして投稿し、情報として売買できるようにする口コミアプリの構想。2023年の佐渡ビジネスコンテストで受賞したビジネスプランで、施術後の静養に佐渡の提携ホテルを案内することも検討していた。",
     "hp": "",
     "startedYear": null,
     "status": "不明",
@@ -41110,7 +41117,7 @@
     "company": "株式会社AdipoSeeds",
     "companyId": "1010401125971",
     "category": "pharma",
-    "description": "",
+    "description": "脂肪組織由来の間葉系幹細胞から遺伝子導入なしで血小板を培養する自社技術などをもとに、再生医療等製品の実用化に向けて研究開発や製造を担うパートナー企業へ技術ライセンスを提供する事業。",
     "hp": "https://www.adiposeeds.co.jp/",
     "startedYear": null,
     "status": "提供中",
@@ -46743,13 +46750,14 @@
     "company": "オムロン株式会社",
     "companyId": "1130001016824",
     "category": "medical-device",
-    "description": "HCBセグメント",
+    "description": "オムロン ヘルスケアが手がける医療機器。心疾患の患者が胸に当てて心電図を記録する携帯型心電計、喘息患者向けの家庭用ネブライザ、在宅酸素療法に使う酸素濃縮器などを、国や地域ごとに販売している。",
     "hp": "https://www.healthcare.omron.co.jp/",
     "startedYear": 2003,
     "status": "提供中",
     "startedAt": "2003-07",
     "sources": [
-      "https://www.healthcare.omron.co.jp/"
+      "https://www.healthcare.omron.co.jp/",
+      "https://kyodonewsprwire.jp/release/202503075339"
     ],
     "updatedAt": "2026-10",
     "type": "home-wearable-medical-device"
@@ -89997,12 +90005,13 @@
     "company": "株式会社エヌジェイアイ",
     "companyId": "3380001004686",
     "category": "wholesale",
-    "description": "福島県内の医療機関に医療機器や診療材料を販売する",
+    "description": "福島県郡山市を拠点に、病院・診療所向けに医療機器の選定・購買代理や設置、保守を行う事業。医療材料や医療用消耗品は、発注・院内物流・定数管理を受託するSPD方式でも供給し、新規開業の支援も行う。",
     "hp": "",
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://www.tmd.ac.jp/press-release/20221021-1/"
+      "https://www.tmd.ac.jp/press-release/20221021-1/",
+      "https://www.nji.co.jp/support/support/equipment.html"
     ],
     "type": "device-material-wholesale",
     "updatedAt": "2026-10"
@@ -137158,12 +137167,13 @@
     "company": "話せるメディカル株式会社",
     "companyId": "4011101103711",
     "category": "pharmacy-dx",
-    "description": "話せるメディカルが運営する薬局。",
+    "description": "東京・渋谷で9時から24時まで土日祝も営業する保険薬局。どの医療機関の処方せんも受け付け、オンライン服薬指導と処方薬の配送を行う「はなせる薬局オンライン」で、オンライン診療を受けた患者にも薬を届ける。",
     "hp": "https://hanaseru-medical.com/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
-      "https://hanaseru-medical.com/business/"
+      "https://hanaseru-medical.com/business/",
+      "https://hanaseru-medical.com/pharmacy"
     ],
     "type": "pharmacy-chain-operation",
     "updatedAt": "2026-11"
@@ -137401,7 +137411,7 @@
     "company": "PAPAMO株式会社",
     "companyId": "8011001139637",
     "category": "fitness",
-    "description": "子どもが自宅からオンラインで参加できる運動教室。",
+    "description": "年少から小学3年生の子どもを対象に、Zoomで週1回30分のレッスンを行うオンライン運動教室。キャラクターのミッションをこなすと物語が進むゲーム形式で、鉄棒や球技などの基礎になる運動感覚を親子で育てる内容で、2021年のPAPAMO創業時に主力サービスとして発表された。",
     "hp": "",
     "startedYear": 2021,
     "status": "不明",
