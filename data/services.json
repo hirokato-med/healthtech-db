@@ -14666,13 +14666,13 @@
   {
     "id": "b-79889d9c",
     "name": "Medicom クラウドカルテ",
-    "company": "ウィーメックス株式会社（PHCホールディングス傘下）",
+    "company": "ウィーメックス株式会社",
     "category": "electronic-health-record",
-    "description": "診療所シェア首位の電子カルテメーカーが新たに出した完全クラウド型・医事一体型の電子カルテ。従来のオンプレミス型・ハイブリッド型より低価格とし、Web予約・問診などをオプションで用意する。",
-    "hp": "",
+    "description": "診療所向け電子カルテ大手のウィーメックスが出した完全クラウド型・レセコン一体型の電子カルテ。AI自動算定や帳票の自動発行を備え、初期費用0円・月額制のプランで提供する。",
+    "hp": "https://www.phchd.com/jp/medicom/clinics/medicom-cloud",
     "startedYear": 2025,
     "status": "提供中",
-    "startedAt": "2025",
+    "startedAt": "2025-04",
     "milestones": [
       {
         "date": "2021-04",
@@ -14701,12 +14701,12 @@
   {
     "id": "b-5089b7d2",
     "name": "Biz ひかりクラウド Future Clinic 21 ワープ（FC21ワープ）",
-    "company": "東日本電信電話株式会社（NTT東日本）",
+    "company": "NTT東日本株式会社",
     "category": "electronic-health-record",
-    "description": "ペンによるアイコン操作と手書き入力が特徴の診療所向け電子カルテサービス。データをNTTのデータセンターにバックアップし、ソフトとサーバーを買わずに月額1万9,000円（端末1台）から使える。2028年3月での提供終了を案内している。",
-    "hp": "",
+    "description": "ペンによるアイコン操作と手書き入力が特徴の診療所向け電子カルテサービス。データをNTTのデータセンターにバックアップする。新規申込の受付を2025年5月30日に終え、2028年3月31日で提供を終える。",
+    "hp": "https://business.ntt-east.co.jp/support/fc21/",
     "startedYear": 2013,
-    "status": "提供中",
+    "status": "終了",
     "startedAt": "2013-07",
     "successor": "（代替サービスや他社サービスへの移行を利用者に打診していると報道）",
     "milestones": [
@@ -14717,6 +14717,11 @@
       {
         "date": "2013-07",
         "text": "東日本エリアで提供開始（西日本エリアは8月以降）。初期費用は9月末まで無料"
+      },
+      {
+        "date": "2025-05",
+        "text": "新規申込の受付を終了（5月30日）。提供は2028年3月に終える予定と利用者に通知",
+        "source": "https://business.ntt-east.co.jp/support/fc21/"
       },
       {
         "date": "2025-06",
@@ -14737,12 +14742,10 @@
       "cloud-emr"
     ],
     "type": "clinic-cloud-emr",
-    "plannedEnd": {
-      "kind": "終了",
-      "date": "2028-03",
-      "announcedAt": "2025-06",
-      "note": "NTT東日本が利用者にホームページや文書で通知（2025年6月の報道で確認）",
-      "source": "https://www.jmedj.co.jp/blogs/product/product_26615"
+    "saleEnded": {
+      "maintenance": "継続",
+      "date": "2025-05",
+      "maintenanceEndAnnounced": "2028-03"
     }
   },
   {
@@ -14751,10 +14754,10 @@
     "company": "GMOヘルスケア株式会社",
     "companyId": "8120001099797",
     "category": "electronic-health-record",
-    "description": "大阪のアイソルが開発・販売・保守していた診療所向け電子カルテ。アイソルはGMOグループ入りしてGMOヘルスケアとなり、その後GMOヘルステックに吸収合併された。",
+    "description": "大阪の株式会社アイソル（2024年にGMOヘルスケアに商号変更）が提供していた診療所向け電子カルテ。2025年に利用者へ提供終了の話と他社サービスへの移行の打診があったと報じられた。",
     "hp": "",
     "startedYear": null,
-    "status": "終了",
+    "status": "不明",
     "successor": "（GMOヘルステックは無料のレセコン一体型クラウド電子カルテ「AIチャート byGMO」を提供）",
     "milestones": [
       {
@@ -14846,14 +14849,13 @@
   },
   {
     "id": "b-2324637c",
-    "name": "OpenDolphinクラウド（ライフサイエンスコンピューティングのクラウド型電子カルテ）",
-    "company": "ライフサイエンスコンピューティング株式会社 → 株式会社メドレー（資産・顧客を譲受）",
+    "name": "OpenDolphinPro／OpenDolphinクラウド",
+    "company": "株式会社メドレー",
     "category": "electronic-health-record",
-    "description": "経産省の地域医療連携プロジェクトで生まれた電子カルテを2004年にオープンソース化した「OpenDolphin」を基に、診療所・中小病院へクラウド型・オンプレミス型の電子カルテとPACSを低価格で提供していた。",
-    "hp": "",
+    "description": "経済産業省の事業で開発されオープンソース化された電子カルテ OpenDolphin を基に、ライフサイエンスコンピューティングが診療所・中小病院へクラウド型・オンプレミス型で提供していた電子カルテ。2020年5月に資産と顧客をメドレーへ譲渡し、LSCでの販売は終了した。",
+    "hp": "https://www.lscc.co.jp/product/opendolphin/",
     "startedYear": 2013,
-    "status": "譲渡",
-    "endedAt": "2020-05",
+    "status": "終了",
     "successor": "株式会社メドレー（電子カルテ資産と顧客アカウントを譲受、PACS技術はライセンス）",
     "milestones": [
       {
@@ -14892,12 +14894,18 @@
         "acquisition"
       ]
     },
-    "after": {
-      "event": "譲渡",
-      "fate": "未確認",
-      "asOf": "2026-10"
-    },
-    "endReasonCaveat": "理由の分類のうち「買収・統合」は、資料に直接の記載がなく、この DB が説明から分類したもの。"
+    "endReasonCaveat": "理由の分類のうち「買収・統合」は、資料に直接の記載がなく、この DB が説明から分類したもの。",
+    "formerName": "OpenDolphinクラウド（ライフサイエンスコンピューティングのクラウド型電子カルテ）",
+    "pastEvents": [
+      {
+        "date": "2020-05",
+        "text": "ライフサイエンスコンピューティングが電子カルテ OpenDolphinPro の資産と顧客アカウントをメドレーへ譲渡（契約は5月1日）",
+        "source": "https://www.lscc.co.jp/news/news20200508.html"
+      }
+    ],
+    "saleEnded": {
+      "maintenance": "未確認"
+    }
   },
   {
     "id": "b-9beb9909",
@@ -15017,8 +15025,8 @@
     "company": "株式会社ヘンリー",
     "companyId": "9011001122229",
     "category": "electronic-health-record",
-    "description": "電子カルテ・オーダリング・レセコンを一体化したクラウドネイティブの病院基幹システム。200床未満の中小病院を主対象に、院内サーバー不要の月額型で提供する。",
-    "hp": "",
+    "description": "電子カルテ・オーダリング・レセコンを一体化したクラウドネイティブの病院基幹システム。中小病院を主な対象に、初期導入支援費用と病床数に応じた月額費用で提供し、2026年から300床以上の病院にも広げている。",
+    "hp": "https://lp.henry-app.jp/",
     "startedYear": 2023,
     "status": "提供中",
     "startedAt": "2023-02",
@@ -15105,9 +15113,9 @@
   {
     "id": "b-c8425063",
     "name": "HOPE Cloud Chart（富士通のクラウド型電子カルテ）",
-    "company": "株式会社富士通マーケティング → 富士通Japan株式会社",
+    "company": "富士通Japan株式会社",
     "category": "electronic-health-record",
-    "description": "中小規模病院・診療所向けに電子カルテと医事会計をパッケージにしたクラウドサービス。大手ITベンダーによる早い時期のクラウド型電子カルテ。",
+    "description": "中小規模病院向けに電子カルテと医事会計を富士通のデータセンターからクラウド型で提供するサービス。2014 年に発売し、いまは後継の HOPE Cloud Chart II を提供している。",
     "hp": "",
     "startedYear": 2014,
     "status": "提供中",
@@ -15135,7 +15143,8 @@
       "cloud-emr"
     ],
     "type": "hospital-emr",
-    "startedAt": "2014-07"
+    "startedAt": "2014-07",
+    "kind": "group"
   },
   {
     "id": "b-dcc1e2b2",
@@ -19666,7 +19675,7 @@
     "companyId": "1011001072836",
     "category": "personal-health-record",
     "description": "個人と家族の健康管理・治療生活を支えるPHRアプリ。健康データを家族で共有し、アプリを持たない子どもや高齢者の記録も管理できる。医療関係者や行政との情報共有、災害時の支援にも使う想定。",
-    "hp": "https://www.allm.net/products/",
+    "hp": "https://www.allm.net/mysos/",
     "startedYear": 2015,
     "status": "提供中",
     "startedAt": "2015-03",
@@ -22787,12 +22796,12 @@
   },
   {
     "id": "b-8244f46c",
-    "name": "マイカルテ事業（Welbyマイカルテ等PHR）",
+    "name": "Welbyマイカルテ",
     "company": "株式会社Welby",
     "companyId": "9011001070865",
     "category": "personal-health-record",
     "description": "糖尿病・高血圧などの生活習慣病の患者や予防したい人向けの無料PHRアプリ。血圧・血糖値・体重や食事・運動を記録し、対応する血圧計や血糖測定器のデータを自動で取り込む。記録は医師や家族と共有でき、療養指導に使われる。",
-    "hp": "https://welby.jp/service/",
+    "hp": "https://karte.welby.jp/",
     "startedYear": 2016,
     "status": "提供中",
     "sources": [
@@ -22801,7 +22810,8 @@
     ],
     "updatedAt": "2026-10",
     "type": "medical-record-phr",
-    "startedAt": "2016-04"
+    "startedAt": "2016-04",
+    "formerName": "マイカルテ事業（Welbyマイカルテ等PHR）"
   },
   {
     "id": "b-662c27c6",
@@ -25058,6 +25068,11 @@
         "date": "2023-08-01",
         "text": "会員数10万人を突破",
         "source": "https://prtimes.jp/main/html/rd/p/000000036.000026380.html"
+      },
+      {
+        "date": "2024-04",
+        "text": "株式会社Welby の子会社になった（それまでの親会社は中部電力）",
+        "source": "https://www.medaca.co.jp/news/pr_20240410.html"
       }
     ]
   },
@@ -26334,7 +26349,7 @@
     "company": "メロディ・インターナショナル株式会社",
     "companyId": "1470001015222",
     "category": "telemedicine",
-    "description": "胎児心拍計と陣痛計をワイヤレスでつなぐモバイル型の分娩監視装置（医療機器）。妊婦の自宅や診療所から胎児モニタリングのデータを遠くの産科医に送れ、産科医のいない地域の健診やタイ・ブータンなど海外でも使われている。",
+    "description": "胎児心拍計と陣痛計をワイヤレスでつなぐモバイル型の分娩監視装置（医療機器）。妊婦の自宅や診療所から胎児モニタリングのデータをクラウド経由で遠くの産科医に送れ、国内約130の医療機関と海外16カ国で使われている。",
     "hp": "https://melody.international/products-service/",
     "startedYear": 2018,
     "status": "提供中",
@@ -26365,7 +26380,25 @@
         "text": "北海道・弟子屈地区で周産期遠隔医療システムとして運用開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000011.000038603.html"
       }
-    ]
+    ],
+    "pastEvents": [
+      {
+        "date": "2018-07",
+        "text": "分娩監視装置iCTGが医療機器として保険適用",
+        "source": "https://melody.international/about/history.html"
+      },
+      {
+        "date": "2023-12",
+        "text": "分娩監視セントラルシステムCentral iが医療機器の認証を取得",
+        "source": "https://melody.international/about/history.html"
+      },
+      {
+        "date": "2025-10",
+        "text": "アトムメディカルがメロディ・インターナショナルの全株式を取得",
+        "source": "https://melody.international/news/news/entry-801.html"
+      }
+    ],
+    "kind": "group"
   },
   {
     "id": "b-1d58d2da",
@@ -26393,7 +26426,25 @@
         "text": "『分娩監視装置iCTG』『Melody i』がBabyTech Award Japan 2019 妊娠部門大賞を受賞",
         "source": "https://prtimes.jp/main/html/rd/p/000000006.000038603.html"
       }
-    ]
+    ],
+    "pastEvents": [
+      {
+        "date": "2018-05",
+        "text": "分娩監視装置 iCTG が指定管理医療機器の製造販売認証を取得",
+        "source": "https://melody.international/about/history.html"
+      },
+      {
+        "date": "2023-12",
+        "text": "分娩監視セントラルシステム Central i が指定管理医療機器の製造販売認証を取得",
+        "source": "https://melody.international/about/history.html"
+      },
+      {
+        "date": "2025-10",
+        "text": "アトムメディカルが全株式を取得し、同社グループの一員となる",
+        "source": "https://melody.international/news/news/entry-801.html"
+      }
+    ],
+    "kind": "group"
   },
   {
     "id": "b-b26d3f79",
@@ -26402,7 +26453,7 @@
     "companyId": "1470001015222",
     "category": "telemedicine",
     "description": "院内・病院間・在宅など妊婦がどこにいても、妊婦と胎児の健康データをまとめて監視できる母体胎児集中監視システム（分娩監視セントラルシステム）。産科施設の減少や医師の働き方改革に対応する。2024年2月28日に発売した。",
-    "hp": "https://prtimes.jp/main/html/searchrlp/company_id/38603",
+    "hp": "https://melody.international/products-service/entry-663.html",
     "startedYear": 2024,
     "status": "提供中",
     "startedAt": "2024-02",
@@ -26434,7 +26485,14 @@
       "checkedAt": "2026-10",
       "kind": "認証",
       "number": "305AFBZX00102000"
-    }
+    },
+    "pastEvents": [
+      {
+        "date": "2025-10",
+        "text": "アトムメディカルが全株式を取得し、アトムメディカルグループの一員になった",
+        "source": "https://melody.international/news/news/entry-802.html"
+      }
+    ]
   },
   {
     "id": "b-81de5648",
@@ -27335,10 +27393,10 @@
   {
     "id": "b-0e379978",
     "name": "HealtheeOne Cloud EHR App（スマートフォン向けクラウド電子カルテ）",
-    "company": "HealtheeOne",
+    "company": "株式会社HealtheeOne",
     "companyId": "5380001025788",
     "category": "electronic-health-record",
-    "description": "地域の小規模な診療所や保健センター向けに、プライマリケアの業務をデジタル化するスマートフォン用のシンプルなクラウド電子カルテアプリ。中東・アフリカなどの新興国市場に向けて、現地の展示会に出展している。",
+    "description": "電力や通信環境が不安定な地域の小規模診療所・保健センター向けの、安価なスマートフォンやタブレットで動くシンプルなクラウド型電子カルテアプリ。日本の小規模クリニック向けに開発したのち、インドネシアでの導入や中東・アフリカの展示会出展など海外に展開している。",
     "hp": "https://www.healtheeone.com/",
     "startedYear": 2017,
     "status": "提供中",
@@ -27349,7 +27407,7 @@
     ],
     "updatedAt": "2026-10",
     "type": "clinic-cloud-emr",
-    "startedAt": "2017-05-15",
+    "startedAt": "2017-05",
     "startBasis": "日本の小規模クリニック向け付帯業務アウトソーシング「HealtheeOneクラウド」の発表（プレスリリース）。公式サイトは「2016年にスマホアプリとして開発、当初は日本の小規模クリニック向け」と説明",
     "milestones": [
       {
@@ -29540,10 +29598,10 @@
     "company": "株式会社リモハブ",
     "companyId": "5120901038171",
     "category": "telemedicine",
-    "description": "心臓病の患者が自宅で行う心臓リハビリを、居宅と医療機関をクラウドでつないで遠隔から支援する医療機器プログラム。2025年7月に製造販売承認を取得し、保険適用と上市を目指している。同社によると遠隔リハビリ支援の承認は国内初。",
-    "hp": "https://prtimes.jp/main/html/rd/p/000000014.000036290.html",
+    "description": "心臓病の患者が自宅で行う心臓リハビリを、居宅と医療機関をクラウドでつないで遠隔から支援する医療機器プログラム。2025年6月に製造販売承認を取得し、保険適用と上市を目指している。2026年度の診療報酬改定では保険収載されなかった。",
+    "hp": "https://remohab.com/product_cr-u",
     "startedYear": 2025,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2025-07",
     "sources": [
       "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30700BZX00131000_A_01",
@@ -29571,7 +29629,15 @@
       "classLabel": "クラスIII・IV",
       "category": "プログラム01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "pastEvents": [
+      {
+        "date": "2026-04",
+        "text": "2026年度の診療報酬改定で保険収載の対象とならなかったと報じられる",
+        "source": "https://www.pt-ot-st.net/index.php/topics/detail/1878"
+      }
+    ],
+    "stage": "承認取得済み・発売準備中"
   },
   {
     "id": "b-709a5c6d",
@@ -31188,17 +31254,39 @@
     "company": "MedGlobal株式会社",
     "companyId": "6010001199148",
     "category": "electronic-health-record",
-    "description": "同社がベトナム・インドネシアで現地クリニックを運営しながら自社開発したクラウド電子カルテ。東南アジアの医療機関向けに提供し、同社によると導入はのべ100施設超。",
-    "hp": "https://prtimes.jp/main/html/rd/p/000000016.000066390.html",
+    "description": "メドリング（現 MedGlobal）がベトナムの自社クリニック運営を通じて開発した、東南アジアの中小クリニック向けクラウド電子カルテ。ベトナム・インドネシア・カンボジアで提供し、同社によると導入はのべ100施設超。",
+    "hp": "https://prtimes.jp/main/html/rd/p/000000013.000066390.html",
     "startedYear": 2021,
-    "status": "提供中",
-    "startedAt": "2021-08",
+    "status": "不明",
+    "startedAt": "2022-08",
     "sources": [
       "https://www.medring.co.jp/",
       "https://prtimes.jp/main/html/rd/p/000000016.000066390.html"
     ],
     "updatedAt": "2026-10",
-    "type": "clinic-cloud-emr"
+    "type": "clinic-cloud-emr",
+    "pastEvents": [
+      {
+        "date": "2021-09",
+        "text": "ベトナムでベータ版の先行リリースを開始（37施設）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000009.000066390.html"
+      },
+      {
+        "date": "2023-07",
+        "text": "インドネシアで提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000013.000066390.html"
+      },
+      {
+        "date": "2023-08",
+        "text": "カンボジアで提供開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000013.000066390.html"
+      },
+      {
+        "date": "2025-05",
+        "text": "開発元のメドリング株式会社が MedGlobal株式会社に商号変更",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6010001199148"
+      }
+    ]
   },
   {
     "id": "b-ee66c542",
@@ -34499,8 +34587,8 @@
     "company": "株式会社Albatrus",
     "companyId": "4190001031071",
     "category": "electronic-health-record",
-    "description": "三重大学病院・大阪けいさつ病院等で導入（2026）。",
-    "hp": "https://www.albatrus.co/",
+    "description": "病院向けの生成 AI の基盤。既存の電子カルテにつなぎ、AI エージェントが退院サマリや紹介状などの文書作成、院内記録の検索、音声の文字起こし、OCR を行う。",
+    "hp": "https://www.albatrus.co/apollo-ai",
     "startedYear": 2026,
     "status": "提供中",
     "sources": [
@@ -34510,7 +34598,19 @@
     ],
     "updatedAt": "2026-10",
     "type": "hospital-emr",
-    "startedAt": "2026-09"
+    "startedAt": "2026-09",
+    "pastEvents": [
+      {
+        "date": "2026-09",
+        "text": "正式提供開始を発表（従来製品「メディラクAI」の改良版）",
+        "source": "https://prtimes.jp/main/html/rd/p/000000011.000169742.html"
+      },
+      {
+        "date": "2026-10",
+        "text": "三重大学病院・大阪けいさつ病院が導入開始",
+        "source": "https://prtimes.jp/main/html/rd/p/000000014.000169742.html"
+      }
+    ]
   },
   {
     "id": "b-38aa467a",
@@ -43273,8 +43373,8 @@
     "company": "株式会社HEMILLIONS",
     "companyId": "4010401173687",
     "category": "personal-health-record",
-    "description": "歩数・体重・血圧などの健康記録、症状・体調・服薬記録、生活習慣や問診に関する情報をスマホで一元管理できる個人向けのPHRアプリ。医療情報の標準規格FHIRのサーバソフトを手がける同社が2026年5月に配信を始めた。",
-    "hp": "https://www.hemillions.co.jp/",
+    "description": "歩数・体重・血圧などの健康記録や症状・服薬記録、問診・生活習慣の情報をスマホで管理し、登録した医療機関の診察記録や処方内容も見られる個人向けPHRアプリ。FHIRのサーバソフトを手がける同社が2026年5月に配信を始めた。",
+    "hp": "https://www.hemillions.co.jp/h2port/",
     "startedYear": 2026,
     "status": "提供中",
     "sources": [
@@ -54135,14 +54235,14 @@
   },
   {
     "id": "b-63b1d23a",
-    "name": "心不全増悪の在宅モニタリングシステム",
+    "name": "心不全増悪の在宅モニタリングシステム（A-wave01）",
     "company": "A-wave株式会社",
     "companyId": "2120001255348",
     "category": "telemedicine",
-    "description": "腕時計型ウェアラブルデバイスで在宅の慢性心不全患者の状態を測り、AIで悪化の兆候を早期に捉えて医療者につなぎ、再入院の抑制を目指すシステム。大阪大学で医師主導治験中。",
+    "description": "腕時計型ウェアラブルデバイスと AI を搭載したスマートフォンアプリで在宅の慢性心不全患者の心音と活動量を解析し、悪化の兆候を捉えて受診を促す、開発中の医療機器。大阪大学を中心とする全国約20施設の医師主導治験（SPIRA Trial、jRCT2052260100）で有用性と安全性を検証している。",
     "hp": "https://awave.co.jp/",
     "startedYear": 2022,
-    "status": "提供中",
+    "status": "準備中",
     "startedAt": "2022-02",
     "sources": [
       "https://awave.co.jp/news/23-08-22",
@@ -54151,7 +54251,9 @@
     ],
     "type": "remote-patient-monitoring",
     "updatedAt": "2026-10",
-    "startBasis": "前身：会社設立前に、開発した腕時計型ウェアラブルデバイス（心不全関連症状の検出）を2022年2月から5月に大阪大学医学部附属病院の入院患者に使用（公式ニュース2023-08-22）"
+    "startBasis": "前身：会社設立前に、開発した腕時計型ウェアラブルデバイス（心不全関連症状の検出）を2022年2月から5月に大阪大学医学部附属病院の入院患者に使用（公式ニュース2023-08-22）",
+    "formerName": "心不全増悪の在宅モニタリングシステム",
+    "stage": "治験中"
   },
   {
     "id": "b-a016dfaf",
@@ -64276,7 +64378,7 @@
     "company": "株式会社メドレー",
     "companyId": "4010401082351",
     "category": "electronic-health-record",
-    "description": "オンライン診療・予約・会計とつながる診療所向けのクラウド型電子カルテ。日医標準レセプトソフト（ORCA）と連携し、その後レセコン一体型やAIによる文書作成支援も加えた。",
+    "description": "診療所向けのクラウド型電子カルテ。2018年にORCAを内包して提供を始め、いまは自社開発のレセプト機能と一体で、WEB予約・WEB問診・オンライン診療や、AIによる要約・文書作成の支援とつながる。",
     "hp": "https://clinics-cloud.com/",
     "startedYear": 2018,
     "status": "提供中",
@@ -68062,14 +68164,14 @@
   },
   {
     "id": "b-baedbdd1",
-    "name": "ツーイン",
+    "name": "通院支援アプリ「ツーイン」",
     "company": "株式会社医用工学研究所",
     "category": "personal-health-record",
-    "description": "通院患者向けアプリ。次回の予約や受診までの待ち人数を確認でき、医療機関からのお知らせや受診履歴・処方薬・検査結果の確認、健康情報の記録・共有ができる。",
+    "description": "病院の通院患者向けアプリ。次回の予約や受診までの待ち人数を確認でき、医療機関からのお知らせや受診履歴・処方薬・検査結果の確認、健康情報の記録・共有ができる。2025年7月に前橋赤十字病院で提供を始めた。",
     "hp": "https://www.meiz.co.jp/two-in/",
     "startedYear": 2025,
     "status": "提供中",
-    "startedAt": "2025-04-29",
+    "startedAt": "2025-07",
     "startBasis": "App Store初回公開",
     "sources": [
       "https://apps.apple.com/jp/app/%E3%83%84%E3%83%BC%E3%82%A4%E3%83%B3/id6503236656",
@@ -68077,7 +68179,8 @@
     ],
     "type": "medical-record-phr",
     "updatedAt": "2026-10",
-    "companyId": "6190001003143"
+    "companyId": "6190001003143",
+    "formerName": "ツーイン"
   },
   {
     "id": "b-d00cd1a3",
@@ -69681,11 +69784,11 @@
     "name": "ポケットカルテ",
     "company": "特定非営利活動法人日本サスティナブル・コミュニティ・センター",
     "category": "personal-health-record",
-    "description": "母子健康手帳・お薬手帳・健診結果・医療費などの情報をクラウドで管理できる個人向けの健康医療福祉履歴管理サービス。京都で生まれ、全国約5.6万人が利用（2017年時点）。",
+    "description": "母子健康手帳・お薬手帳・健診結果・医療費などの情報をクラウドで管理できる個人向けの健康医療福祉履歴管理サービス。京都で生まれ、利用者は無料で使え、2025年末時点で約6.6万人が利用している。",
     "hp": "https://pocketkarte.net/",
     "startedYear": 2015,
     "status": "提供中",
-    "startedAt": "2015-07-01",
+    "startedAt": "2008-10",
     "startBasis": "App Store初回公開",
     "milestones": [
       {
@@ -69702,7 +69805,24 @@
       "https://pocketkarte.net/"
     ],
     "type": "medical-record-phr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "pastEvents": [
+      {
+        "date": "2008-10",
+        "text": "個人向け PHR「ポケットカルテ」の本サービスを開始",
+        "source": "https://drive.google.com/file/d/1cHsITO2t6WEuE5i38Zp3BDBWy5G3T5WP/view?usp=sharing"
+      },
+      {
+        "date": "2015-07",
+        "text": "iOS アプリを公開",
+        "source": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%82%AB%E3%83%AB%E3%83%86/id999638554"
+      },
+      {
+        "date": "2022-10",
+        "text": "医療機関向けの「職員ポータル」をポケットカルテのクラウド上に実装",
+        "source": "https://drive.google.com/file/d/1cHsITO2t6WEuE5i38Zp3BDBWy5G3T5WP/view?usp=sharing"
+      }
+    ]
   },
   {
     "id": "b-38c8c575",
@@ -84705,7 +84825,7 @@
     "name": "Mairi（まいり）",
     "company": "Crealize合同会社",
     "category": "personal-health-record",
-    "description": "日々の健康記録を受診時に伝わる情報にするPHRアプリ。日本語・繁体字中国語・英語に対応し、血圧・脈拍・体重・体温・血糖値を記録できる。在日外国人や多言語の家族向け。",
+    "description": "日々の健康記録を受診時に伝わる情報にする多言語の PHR アプリ。日本語・繁体字中国語・英語に対応し、血圧・脈拍・体重・体温・血糖値の記録、症状チェック、薬の読み取りなどを使え、有料プランで回数を増やせる。",
     "hp": "https://mairi.smartrich.ai",
     "startedYear": 2026,
     "status": "提供中",
@@ -85074,7 +85194,7 @@
   },
   {
     "id": "b-bb138b17",
-    "name": "病気の履歴",
+    "name": "簡単操作!!「病気の履歴」",
     "company": "株式会社グリーン・スピード",
     "category": "personal-health-record",
     "description": "家族全員の病気や通院の履歴を病院・カテゴリ・費用・写真とともに記録し、人ごと・病院ごとに見返せる管理アプリ。年ごとの医療費集計にも対応する。",
@@ -85090,7 +85210,8 @@
       "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8040001111990"
     ],
     "type": "medical-record-phr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "病気の履歴"
   },
   {
     "id": "b-fcf42313",
@@ -86066,7 +86187,7 @@
     "name": "TUUN",
     "company": "株式会社Bewibe",
     "category": "personal-health-record",
-    "description": "Apple Watchなどのバイタルデータに血液検査や遺伝子データを統合し、AIが健康インサイトを届けるパーソナルヘルスアシスタント。健康状態をスコアでひと目で示す。",
+    "description": "Apple Watch などのバイタルデータと血液検査・遺伝子データを統合し、AI が健康インサイトを届ける iPhone アプリ。郵送の血液検査キットで20項目のバイオマーカーも測れる。",
     "hp": "https://tuunclub.com",
     "startedYear": 2026,
     "status": "提供中",
@@ -86123,7 +86244,7 @@
     "name": "ちょいけん",
     "company": "株式会社LXIO",
     "category": "personal-health-record",
-    "description": "健康診断結果やお薬手帳、歩数・睡眠・体重・血圧の記録をまとめて管理できる健康管理アプリ。データを見える化し、一人ひとりに合った健康情報を届ける。",
+    "description": "住友商事グループのLXIOが運営する生活者向けの無料健康管理アプリ。歩数・睡眠・体重・血圧の記録、健診結果からの健康年齢と入院リスクの表示、電子お薬手帳をまとめ、トモズ・サミットの会員カードと連携して市販薬も記録できる。",
     "hp": "https://choi-ken.jp/",
     "startedYear": 2026,
     "status": "提供中",
@@ -86342,8 +86463,8 @@
     "name": "KAGAMINO",
     "company": "エムジーファクトリー株式会社",
     "category": "personal-health-record",
-    "description": "鏡に映るコンシェルジュが、歩数・血圧・脈拍・体重・体温・睡眠・血糖・SpO2などのバイタルデータをもとに健康的な生活をアドバイスするアプリ。PHR基盤QOLMSと連携する。",
-    "hp": "https://phr.qolms.com/kagamino",
+    "description": "歩数・血圧・睡眠などのバイタルデータを PHR「健康手帳QOLMS」へ自動で送り、キャラクターがひと言アドバイスする無料の健康生活応援アプリ。企業向けにはストレスチェック・健診結果の表示・教育動画・ウォーキングイベントを同じアプリで提供する。",
+    "hp": "https://phr.qolms.com/kagamino/",
     "startedYear": 2023,
     "status": "提供中",
     "startedAt": "2023-04-26",
@@ -86604,7 +86725,7 @@
     "name": "ヘルスケアクリニック厚木 アプリ",
     "company": "公益財団法人健康予防医学財団",
     "category": "personal-health-record",
-    "description": "健診施設「ヘルスケアクリニック厚木」の受診者向けアプリ。事前案内用紙のIDで登録し、受診前の案内や健診に関する情報をスマホで受け取る。",
+    "description": "健診施設「ヘルスケアクリニック厚木」の受診者向けの問診アプリ。予約時の事前案内用紙の ID とパスワードで登録し、受診前に健診の問診をスマートフォンで入力して送る。",
     "hp": "https://www.h-p-m.org/",
     "startedYear": 2021,
     "status": "提供中",
@@ -86740,8 +86861,8 @@
     "name": "ALTURA LIFE LOG",
     "company": "ALTURA X株式会社",
     "category": "personal-health-record",
-    "description": "問診への事前回答や健康記録ができる無料のPHRアプリ。紙で答えていた問診をアプリで済ませ、日々の健康データを記録できる。",
-    "hp": "https://altura.co.jp/",
+    "description": "健診・人間ドックを行う医療機関向けに、健診結果をデータで受診者のスマートフォンに届け、事前の問診・予約・再検査先の提案をアプリで行う仕組み。受診者は無料のアプリで結果を確認し、医師や産業医と共有できる。",
+    "hp": "https://altura.work/lifelog/",
     "startedYear": 2022,
     "status": "提供中",
     "startedAt": "2022-10-23",
@@ -86960,8 +87081,8 @@
     "name": "EvoCare（エボケア）",
     "company": "EvoCare Japan株式会社",
     "category": "telemedicine",
-    "description": "セラピストが登録したリハビリプログラムを利用者が自分のペースで行い、その様子を自動で録画・送信してセラピストが助言する、非同期・非対面のリハビリシステムの利用者アプリ。",
-    "hp": "https://evocare.co.jp/patient-home",
+    "description": "療法士が登録したリハビリプログラムを利用者が自分のペースで行い、その様子を自動で録画・送信して療法士が助言する、非同期・非対面の遠隔リハビリのシステムと利用者アプリ。個人向けに月額の腰痛改善プログラムも提供する。",
+    "hp": "https://evocare.co.jp/",
     "startedYear": 2025,
     "status": "提供中",
     "startedAt": "2025-10-29",
@@ -88731,7 +88852,14 @@
       "https://www.eatsmart.co.jp/"
     ],
     "type": "phr-data-platform",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "pastEvents": [
+      {
+        "date": "2023-05",
+        "text": "株式会社Eat Smartが株式会社SARAHに合併し解散",
+        "source": "https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6011001054276"
+      }
+    ]
   },
   {
     "id": "b-08a50fc5",
@@ -90892,8 +91020,8 @@
     "company": "株式会社ソフトウェア・サービス",
     "companyId": "4120001103331",
     "category": "electronic-health-record",
-    "description": "中小〜中規模病院向けの電子カルテと医事会計・部門システム。2026年10月も各地の病院で新版の稼働が続いている",
-    "hp": "",
+    "description": "病院向けの電子カルテ「e-カルテ」とオーダリングシステム「NEWTONS2」を中心に、部門システムやサーバーの販売、導入・保守までを自社で一貫して提供する。2025年10月時点の導入施設は1,000施設。",
+    "hp": "https://www.softs.co.jp/business/index.html",
     "startedYear": 1997,
     "status": "提供中",
     "milestones": [
@@ -93154,8 +93282,8 @@
     "company": "株式会社イーエムシステムズ",
     "companyId": "8120001053779",
     "category": "electronic-health-record",
-    "description": "診療所向けのストック課金型レセコン。2011年にレセコン融合型電子カルテ「カルテスタイル」を加え、医科システム市場への本格参入の柱となった。",
-    "hp": "https://emsystems.co.jp/",
+    "description": "無床診療所向けのレセコン一体型電子カルテ。院内のサーバーと自社データセンターをリアルタイムで同期し、端末台数に応じた月額料金で提供する。2011年に電子カルテの「カルテスタイル」を加えた。",
+    "hp": "https://emsystems.co.jp/mrn/",
     "startedYear": 2009,
     "status": "提供中",
     "startedAt": "2009-07",
@@ -93198,11 +93326,11 @@
   {
     "id": "b-97517442",
     "name": "クラウド型診察支援システム「MAPs for CLINIC」",
-    "company": "株式会社イーエムシステムズ",
+    "company": "株式会社ＥＭシステムズ",
     "companyId": "8120001053779",
     "category": "electronic-health-record",
     "description": "診療所向けクラウド型電子カルテ（診察支援システム）。かかりつけ医の幅広さと専門外来の深さに対応し、日医標準レセプトソフトORCAと組む「with ORCA」版もある。",
-    "hp": "https://emsystems.co.jp/",
+    "hp": "https://service.emsystems.co.jp/maps_series/for_clinic/",
     "startedYear": 2019,
     "status": "提供中",
     "startedAt": "2019-10",
@@ -93277,10 +93405,10 @@
   {
     "id": "b-1fb22aaa",
     "name": "医科電子カルテ「Ortia」・医科レセコン「UNI-Medical」",
-    "company": "株式会社イーエムシステムズ",
+    "company": "株式会社EMシステムズ",
     "companyId": "8120001053779",
     "category": "electronic-health-record",
-    "description": "グループ会社由来の診療所向け製品。Ortiaは見やすさ・操作の簡単さを追求した電子カルテ、UNI-Medicalは事務効率と入力ミス軽減を狙ったレセコン。",
+    "description": "無床診療所向けの製品。Ortia はカルテ入力がそのまま医事データになるレセコン融合型の電子カルテ、UNI-MEDICAL はキーボード中心の操作で事務の効率化と入力ミスの軽減を狙った医事会計（レセコン）。",
     "hp": "https://emsystems.co.jp/",
     "startedYear": null,
     "status": "提供中",
@@ -93289,7 +93417,8 @@
       "https://emsystems.co.jp/uni-medical/"
     ],
     "type": "clinic-cloud-emr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "kind": "group"
   },
   {
     "id": "b-a05ce5c7",
@@ -98502,8 +98631,8 @@
     "company": "株式会社ファインデックス",
     "companyId": "9500001003380",
     "category": "electronic-health-record",
-    "description": "病院・クリニック向けの電子カルテ。オンプレミス版とクラウド版がある。",
-    "hp": "https://findex.co.jp/",
+    "description": "無床診療所から小規模病院向けの電子カルテ。院内設置型の REMORA（2002年発売）と、無床診療所向けのクラウド版 REMORA Cloud（2025年1月販売開始）がある。",
+    "hp": "https://products.findex.co.jp/product/remora/",
     "startedYear": 2002,
     "status": "提供中",
     "sources": [
@@ -98520,7 +98649,8 @@
         "text": "クラウド版電子カルテ「REMORA Cloud」を無床診療所向けに販売開始",
         "source": "https://prtimes.jp/main/html/rd/p/000000047.000009200.html"
       }
-    ]
+    ],
+    "kind": "group"
   },
   {
     "id": "b-e19dd0c0",
@@ -99073,11 +99203,11 @@
   {
     "id": "b-9538f2d7",
     "name": "周術期ケアアプリ「MedBridge（メドブリッジ）」",
-    "company": "MICIN",
+    "company": "株式会社MICIN",
     "companyId": "1490001008208",
     "category": "telemedicine",
-    "description": "外科手術を受ける患者が術前・術後の体調や運動を記録し、医療者が遠隔で見守って早期回復を支えるアプリ。心臓血管外科向けから始め、2022年に全国ローンチ。",
-    "hp": "https://micin.jp/",
+    "description": "心臓血管外科の手術を受ける患者や補助人工心臓・心不全の患者が、自宅でバイタルや体調を記録し、医療者が外来でその変化を把握できるアプリと医療機関向けシステム。2021年に地域限定で始め、2022年に全国で提供を始めた。",
+    "hp": "https://medbridge-micin.com/",
     "startedYear": 2021,
     "status": "提供中",
     "startedAt": "2021-07",
@@ -99094,7 +99224,8 @@
       "https://prtimes.jp/main/html/rd/p/000000085.000017806.html"
     ],
     "type": "remote-patient-monitoring",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "kind": "group"
   },
   {
     "id": "b-39e0fe4a",
@@ -100411,7 +100542,7 @@
     "companyId": "4010401128187",
     "category": "personal-health-record",
     "description": "スーパーや商業施設の公式アプリに、買い物データを栄養素に変換して栄養アドバイスを返すSIRU＋の機能を組み込める連携サービス。ダイエー公式アプリ、マルイ公式アプリなどが採用。",
-    "hp": "https://corp.sirutasu.com/",
+    "hp": "https://corp.sirutasu.com/service/retail-solutions",
     "startedYear": 2022,
     "status": "提供中",
     "startedAt": "2022-10-11",
@@ -100427,7 +100558,14 @@
       "https://prtimes.jp/main/html/rd/p/000000052.000031233.html"
     ],
     "type": "phr-data-platform",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "pastEvents": [
+      {
+        "date": "2022-10",
+        "text": "SIRU＋の機能を外部アプリに組み込むサービス「買い物バランス診断」を開始し、ダイエー公式アプリと連携",
+        "source": "https://prtimes.jp/main/html/rd/p/000000052.000031233.html"
+      }
+    ]
   },
   {
     "id": "b-e52ef2df",
@@ -108279,11 +108417,11 @@
   {
     "id": "b-ffc2215c",
     "name": "クラウド型電子カルテ「セコム・ユビキタス電子カルテ」",
-    "company": "セコム医療システム",
+    "company": "セコム医療システム株式会社",
     "companyId": "1011001035966",
     "category": "electronic-health-record",
-    "description": "在宅医療から中小規模病院まで向けの、場所を選ばず使えるクラウド型電子カルテ。臨床意思決定支援「UpToDate」をオプションで使える。",
-    "hp": "https://www.secom.co.jp/business/medical/",
+    "description": "在宅クリニック・無床診療所から中小規模病院向けの、セコムのデータセンターと医療専用回線で提供するクラウド型電子カルテ。2001年から提供し、統一患者IDで施設間のカルテ共有ができ、臨床意思決定支援「UpToDate」をオプションで使える。",
+    "hp": "https://medical.secom.co.jp/it/karte/ubiquitous/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2020-12",
@@ -108292,7 +108430,8 @@
       "https://prtimes.jp/main/html/rd/p/000000002.000071149.html"
     ],
     "type": "hospital-emr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "startedAt": "2001"
   },
   {
     "id": "b-9cabc186",
@@ -109212,8 +109351,8 @@
     "company": "メディカル・データ・ビジョン株式会社",
     "companyId": "7010001087640",
     "category": "electronic-health-record",
-    "description": "健診施設・病院の健診部門向けに、健診の予約・受付から結果作成までをクラウドで管理し健診業務のDXを進める健診システム。",
-    "hp": "https://www.mdv.co.jp/",
+    "description": "健診施設・病院の健診部門向けに、健診の予約・受付から結果作成までをクラウドで扱う健診システム。協会けんぽへの対応や電子カルテ・検査システムとの連携を備え、施設ごとの契約で提供する。",
+    "hp": "https://www.mdv.co.jp/solution/medical/hospital/future-checkups/",
     "startedYear": null,
     "status": "提供中",
     "sources": [
@@ -112263,7 +112402,7 @@
   },
   {
     "id": "b-3a712296",
-    "name": "居宅遠隔モニタリング「マイバイタル」",
+    "name": "居宅遠隔モニタリング",
     "company": "一般社団法人テレメディーズ",
     "companyId": "9010005028548",
     "category": "telemedicine",
@@ -112281,7 +112420,8 @@
       "https://telemedease.org/"
     ],
     "type": "remote-patient-monitoring",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "formerName": "居宅遠隔モニタリング「マイバイタル」"
   },
   {
     "id": "b-358e50b4",
@@ -113914,7 +114054,7 @@
     "companyId": "8010001202181",
     "category": "electronic-health-record",
     "description": "中小病院向けのクラウド型電子カルテ。在宅医療向け「モバカルネット」とカルテ情報を共有し、外来・入院・在宅の処置を一元管理できる。",
-    "hp": "https://www.ntt-precisionmedicine.co.jp/",
+    "hp": "https://movacal.net/hospital/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2024-10",
@@ -113929,7 +114069,14 @@
       "https://www.ntt-precisionmedicine.co.jp/service/movacal/"
     ],
     "type": "hospital-emr",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "pastEvents": [
+      {
+        "date": "2026-07",
+        "text": "大規模言語モデルで退院サマリーの下書きを作る「AI文書作成支援オプション」の提供開始",
+        "source": "https://movacal.net/hospital/news/single06.php"
+      }
+    ]
   },
   {
     "id": "b-21a9cf7c",
@@ -115729,7 +115876,7 @@
     "companyId": "5010001091611",
     "category": "personal-health-record",
     "description": "患者のPHRを医療情報ガイドライン準拠の環境に保管し、医療・介護職と共有する基盤。お薬手帳・食事・バイタルなどのミニアプリや共通機能を持ち、企業の患者向けアプリを低コスト・短納期で作れる。",
-    "hp": "https://mediaid.co.jp/phr/",
+    "hp": "https://services.mediaid.co.jp/phr-platform",
     "startedYear": 2016,
     "status": "提供中",
     "startedAt": "2016-12",
@@ -115746,7 +115893,8 @@
       "https://mediaid.co.jp/company/"
     ],
     "type": "phr-data-platform",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "kind": "group"
   },
   {
     "id": "b-51b18bab",
@@ -116649,11 +116797,11 @@
     "company": "株式会社ワイズマン",
     "companyId": "2010001154503",
     "category": "electronic-health-record",
-    "description": "療養型・ケアミックスの中小規模病院向けのパッケージ電子カルテ。オーダリング、医事会計、看護・リハビリ・臨床検査などの部門システムや介護システムと連携する。電子カルテ導入は280件超、医療システム全体で1,300件超。",
+    "description": "療養型・ケアミックスの中小規模病院向けのパッケージ電子カルテ。オーダリング、医事会計、看護・リハビリ・臨床検査などの部門システムや同社の介護システムと連携し、電子カルテ・オーダリングの導入は280件超（医療システム全体で1,300件超）。",
     "hp": "https://www.wiseman.co.jp/products/medical/",
     "startedYear": 1997,
     "status": "提供中",
-    "startedAt": "1997-04",
+    "startedAt": "2002-10",
     "startBasis": "会社沿革「病院・診療所向けコンピューターシステムを開発、販売を開始」（前身）",
     "milestones": [
       {
@@ -118020,8 +118168,8 @@
     "company": "株式会社レスコ",
     "companyId": "5290001021499",
     "category": "electronic-health-record",
-    "description": "精神科病院向けに開発したオンプレミス型の診療支援（電子カルテ）パッケージ。精神保健福祉法の書類や行動制限の管理など精神科特有の業務に対応する。",
-    "hp": "https://rescho.co.jp/",
+    "description": "精神科病院向けの電子カルテのパッケージ。精神保健福祉法の書類や行動制限の管理、看護・作業療法の記録の統合など精神科特有の業務に対応し、全国221件に導入されている。",
+    "hp": "https://rescho.co.jp/product/alpha/explain/",
     "startedYear": 2003,
     "status": "提供中",
     "startedAt": "2003-12",
@@ -119627,11 +119775,11 @@
   },
   {
     "id": "b-0f0bf774",
-    "name": "電子証明書対応SDカードによる健康情報管理「miParu（ミパル）」",
+    "name": "パーソナルデータ流通基盤「miParu（ミパル）PDS プラットフォーム」",
     "company": "株式会社ミルウス",
     "companyId": "9430001072656",
     "category": "personal-health-record",
-    "description": "医療・健康のIoTデータを電子証明書つきSDメモリカードで本人主導で安全に記録・管理・配布する仕組み。北海道東神楽町の健康づくり事業などで使い、睡眠時無呼吸の可視化などセンサーデータ事業にも広げる。北大発。",
+    "description": "食事・睡眠・歩数・血圧などのライフログをスマートフォンに署名付きで保存し、本人が許諾した医師・管理栄養士などの支援者や自治体・企業にだけ暗号化して渡す健康データの基盤。自治体へ直接提供するほか、提携先のサービスのオプションとして卸している。北大発。",
     "hp": "https://www.miruws.com/",
     "startedYear": null,
     "status": "提供中",
@@ -119648,7 +119796,8 @@
       "https://www.miruws.com/"
     ],
     "type": "phr-data-platform",
-    "updatedAt": "2026-10"
+    "updatedAt": "2026-10",
+    "formerName": "電子証明書対応SDカードによる健康情報管理「miParu（ミパル）」"
   },
   {
     "id": "b-23c967f7",
@@ -126843,7 +126992,7 @@
     "company": "株式会社フィリップス・ジャパン",
     "category": "telemedicine",
     "description": "在宅のCPAP・人工呼吸器の使用状況や治療データを収集・解析し、医療機関が遠隔で治療を管理できるようにするフィリップスの呼吸装置治療支援プログラム群。",
-    "hp": "",
+    "hp": "https://www.philips.co.jp/sleep-respiratory-care/products/software",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2017-08",
@@ -126898,7 +127047,8 @@
       "classLabel": "クラスII",
       "category": "プログラム 71040002 アンコールエニウェア",
       "checkedAt": "2026-10"
-    }
+    },
+    "kind": "group"
   },
   {
     "id": "b-a787d5fb",
@@ -129794,11 +129944,11 @@
   },
   {
     "id": "b-e268dbd1",
-    "name": "トーイツ 分娩監視セントラルシステム（WEBCTG モニタソフト、セントラルサーバ／クライアント用アプリケーション）",
+    "name": "トーイツ 分娩監視セントラルシステム（emona CENTRAL ほか）",
     "company": "トーイツ株式会社",
     "category": "telemedicine",
-    "description": "分娩監視装置の胎児心拍・陣痛のデータを産科病棟のサーバーに集め、ナースステーションやWebで一覧表示するセントラルモニタ用プログラム。",
-    "hp": "",
+    "description": "分娩監視装置の胎児心拍・陣痛のデータを集め、ナースステーションや院内外の端末のウェブブラウザで一覧表示するセントラルモニタ。院内設置型とクラウドタイプがあり、救急搬送中のデータ共有にも使われる。",
+    "hp": "https://www.toitu.co.jp/products/central/",
     "startedYear": null,
     "status": "提供中",
     "knownSince": "2016",
@@ -129840,7 +129990,9 @@
       "checkedAt": "2026-10",
       "kind": "認証",
       "number": "228AFBZX00058000"
-    }
+    },
+    "formerName": "トーイツ 分娩監視セントラルシステム（WEBCTG モニタソフト、セントラルサーバ／クライアント用アプリケーション）",
+    "kind": "group"
   },
   {
     "id": "b-30f87a46",
