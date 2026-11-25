@@ -87,13 +87,16 @@ add(want, '止まった理由の出どころが空（node scripts/classify-end-b
   const sim = (a, b) => { const A = bi(a), B = bi(b); const n = [...A].filter((x) => B.has(x)).length; return n / Math.max(1, Math.min(A.size, B.size)); };
   const dups = [];
   const seen = new Map();
+  // 確かめて別の事業と判断した組（data/reviewed-not-duplicates.json）と、事業群とその製品（groupId）は出さない
+  const reviewed = new Set((fs.existsSync(path.join(ROOT, 'data', 'reviewed-not-duplicates.json')) ? read('reviewed-not-duplicates.json').pairs : []).map(([a, b]) => [a, b].sort().join('|')));
+  const linked = (a, b) => a.groupId === b.id || b.groupId === a.id || (a.groupId && a.groupId === b.groupId) || reviewed.has([a.id, b.id].sort().join('|'));
   for (const x of services) {
     // 公式サイトのページが同じ（トップページだけのものは会社のサイトなので使わない）、または「」の中の名前が同じ
     const h = hostOf(x.hp);
     const q = x.name.normalize('NFKC').match(/「([^」]{2,})」/)?.[1]?.toLowerCase().replace(/[\s・.'-]/g, '');
     for (const k of [h && h.includes("/") && `h:${x.type}:${h}`, q && `n:${x.type}:${q}`].filter(Boolean)) {
       const o = seen.get(k);
-      if (o && o.id !== x.id && sim(o.name, x.name) >= 0.4 && !dups.some((d) => d.includes(x.id))) dups.push(`${o.id}｜${x.id} ${x.name}（${o.company} / ${x.company}）`);
+      if (o && o.id !== x.id && sim(o.name, x.name) >= 0.4 && !linked(o, x) && !dups.some((d) => d.includes(x.id))) dups.push(`${o.id}｜${x.id} ${x.name}（${o.company} / ${x.company}）`);
       else seen.set(k, x);
     }
   }

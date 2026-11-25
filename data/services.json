@@ -340,7 +340,8 @@
       "b-6ed2c356",
       "b-1e5192b5",
       "b-c83e4e0e",
-      "b-f937b92d"
+      "b-f937b92d",
+      "b-599fb4a8"
     ]
   },
   {
@@ -26398,7 +26399,7 @@
         "source": "https://melody.international/news/news/entry-801.html"
       }
     ],
-    "kind": "group"
+    "groupId": "b-1d58d2da"
   },
   {
     "id": "b-1d58d2da",
@@ -26444,7 +26445,11 @@
         "source": "https://melody.international/news/news/entry-801.html"
       }
     ],
-    "kind": "group"
+    "kind": "group",
+    "members": [
+      "b-b3829bc0",
+      "b-b26d3f79"
+    ]
   },
   {
     "id": "b-b26d3f79",
@@ -26492,7 +26497,8 @@
         "text": "アトムメディカルが全株式を取得し、アトムメディカルグループの一員になった",
         "source": "https://melody.international/news/news/entry-802.html"
       }
-    ]
+    ],
+    "groupId": "b-1d58d2da"
   },
   {
     "id": "b-81de5648",
@@ -38355,7 +38361,7 @@
     "company": "株式会社Medifellow",
     "companyId": "8010401143174",
     "category": "telemedicine",
-    "description": "海外に滞在する日本人や外国人向けに、日本人医師がオンラインでセカンドオピニオン、医師間の相談、紹介状作成、メンタルヘルス支援などを行う医療相談サービス。駐在員の健康管理として企業や損保会社にも提供する。",
+    "description": "主に中国やベトナムなどから日本での受診を希望する医療ツーリズムの利用者に、来日前後のオンライン診療や医療相談（セカンドオピニオン）を行う事業。今後は対象を世界中の人に広げるとしている。",
     "hp": "https://medifellow.jp/business",
     "startedYear": 2020,
     "status": "提供中",
@@ -123714,7 +123720,8 @@
       "classLabel": "クラスII",
       "category": "プログラム 01 疾病診断用プログラム",
       "checkedAt": "2026-10"
-    }
+    },
+    "groupId": "eirl"
   },
   {
     "id": "b-6ed2c356",
