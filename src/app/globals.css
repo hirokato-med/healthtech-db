@@ -1285,3 +1285,7 @@ ul.fh-ev .t small { color: var(--muted); margin-left: 4px; }
 @media (max-width: 760px) { .bm-st-m { display: block; margin: 4px 0; } .bm-scroll-hint { display: block; } }
 /* 事業データベース：まとまりの説明 */
 .tx-group small { font-weight: 400; color: var(--muted); margin-left: 8px; font-size: 12px; letter-spacing: 0; }
+/* 事業のしくみ：品質確認の説明 */
+.bm-qa { margin-top: 10px; font-size: 13.5px; }
+.bm-qa summary { cursor: pointer; color: var(--navy); }
+.bm-qa ul { margin: 8px 0 0; padding-left: 1.2em; line-height: 1.8; }
