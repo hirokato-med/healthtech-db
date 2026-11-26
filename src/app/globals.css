@@ -1295,3 +1295,8 @@ ul.fh-ev .t small { color: var(--muted); margin-left: 4px; }
 .bm-qa { margin-top: 10px; font-size: 13.5px; }
 .bm-qa summary { cursor: pointer; color: var(--navy); }
 .bm-qa ul { margin: 8px 0 0; padding-left: 1.2em; line-height: 1.8; }
+
+/* 長い説明を数行で畳む（components/Clamp.tsx） */
+.clamp { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+.clamp-btn { margin-top: 4px; padding: 0; border: 0; background: none; color: var(--navy); font-size: 12px; font-weight: 600; cursor: pointer; }
+.clamp-btn:hover { text-decoration: underline; }

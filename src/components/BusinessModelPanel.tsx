@@ -3,6 +3,7 @@ import type { BmSource, BusinessModel, Service } from '@/lib/types';
 import { getService } from '@/lib/data';
 import { statusLabel } from '@/lib/status';
 import { jpDates as J } from '@/lib/ym';
+import { Clamp } from './Clamp';
 
 const ROLE: [keyof NonNullable<BusinessModel['roles']>, string][] = [
   ['developer', '開発'], ['mah', '製造販売業者（承認・認証・届出の名義）'], ['seller', '販売'], ['operator', '運営'], ['brandOwner', 'ブランドの持ち主'],
@@ -78,8 +79,8 @@ export function BusinessModelPanel({ m, s }: { m: BusinessModel; s: Service }) {
       </div>
       {(m.offering?.detail || m.revenue?.detail || m.revenue?.unknown || m.revenue?.past) && (
         <dl className="bm-explain">
-          {m.offering?.detail && <div><dt>製品・サービスの中身</dt><dd>{J(m.offering.detail)}</dd></div>}
-          {(m.revenue?.detail || m.revenue?.unknown || m.revenue?.past) && <div><dt>収入の説明</dt><dd>{m.revenue?.unknown && <p className="bm-unk">未確認：{J(m.revenue.unknown)}</p>}{m.revenue?.past && <p className="muted">過去の収入：{J(m.revenue.past)}</p>}{m.revenue?.detail && <p>{J(m.revenue.detail)}</p>}</dd></div>}
+          {m.offering?.detail && <div><dt>製品・サービスの中身</dt><dd><Clamp>{J(m.offering.detail)}</Clamp></dd></div>}
+          {(m.revenue?.detail || m.revenue?.unknown || m.revenue?.past) && <div><dt>収入の説明</dt><dd><Clamp>{m.revenue?.unknown && <p className="bm-unk">未確認：{J(m.revenue.unknown)}</p>}{m.revenue?.past && <p className="muted">過去の収入：{J(m.revenue.past)}</p>}{m.revenue?.detail && <p>{J(m.revenue.detail)}</p>}</Clamp></dd></div>}
         </dl>
       )}
       {(roles.length > 0 || pays.length > 0) && (
@@ -103,11 +104,11 @@ export function BusinessModelPanel({ m, s }: { m: BusinessModel; s: Service }) {
       {m.plan && <p className="bm-plan"><b>予定（まだ実現していない）</b>{J(m.plan)}</p>}
       <dl className="bm-attrs">
         <div><dt>販売経路（最初の契約・販売先）</dt><dd><U t={m.channel?.first.join('／') || '未確認'} /><Src s={m.channel?.sources} />{m.channel?.deal.length ? <small>取引の形：{m.channel.deal.join('・')}</small> : null}{m.channel?.delivery.length ? <small>利用者への届け方：{m.channel.delivery.join('・')}</small> : null}</dd></div>
-        <div><dt>薬事上の状態</dt><dd><U t={m.regulatory?.values.join('／')} /><Src s={m.regulatory?.sources} />{m.regulatory?.detail && <small>{J(m.regulatory.detail)}</small>}</dd></div>
-        <div><dt>保険適用</dt><dd><U t={m.reimbursement?.values.join('／')} /><Src s={m.reimbursement?.sources} />{m.reimbursement?.detail && <small>{J(m.reimbursement.detail)}</small>}</dd></div>
+        <div><dt>薬事上の状態</dt><dd><U t={m.regulatory?.values.join('／')} /><Src s={m.regulatory?.sources} />{m.regulatory?.detail && <Clamp lines={2}><small>{J(m.regulatory.detail)}</small></Clamp>}</dd></div>
+        <div><dt>保険適用</dt><dd><U t={m.reimbursement?.values.join('／')} /><Src s={m.reimbursement?.sources} />{m.reimbursement?.detail && <Clamp lines={2}><small>{J(m.reimbursement.detail)}</small></Clamp>}</dd></div>
         <div><dt>提供段階</dt><dd><span className="bm-st">{m.stage?.value}</span></dd></div>
-        <div><dt>事業活動</dt><dd><U t={m.activity?.value} /><Src s={m.activity?.sources} />{m.activity?.signals?.length ? <ul className="bm-signals">{m.activity.signals.map((x) => <li key={x}>{J(x)}</li>)}</ul> : null}{m.activity?.detail && <small>{J(m.activity.detail)}</small>}{m.activity?.guess && <details className="bm-guess"><summary>編集上の推定</summary><small>{J(m.activity.guess)}</small></details>}</dd></div>
-        {m.aiUse && <div><dt>AI の使用</dt><dd><U t={m.aiUse.value} /><Src s={m.aiUse.sources} />{m.aiUse.detail && <small>{J(m.aiUse.detail)}</small>}</dd></div>}
+        <div><dt>事業活動</dt><dd><U t={m.activity?.value} /><Src s={m.activity?.sources} />{m.activity?.signals?.length ? <ul className="bm-signals">{m.activity.signals.map((x) => <li key={x}>{J(x)}</li>)}</ul> : null}{m.activity?.detail && <Clamp lines={2}><small>{J(m.activity.detail)}</small></Clamp>}{m.activity?.guess && <details className="bm-guess"><summary>編集上の推定</summary><small>{J(m.activity.guess)}</small></details>}</dd></div>
+        {m.aiUse && <div><dt>AI の使用</dt><dd><U t={m.aiUse.value} /><Src s={m.aiUse.sources} />{m.aiUse.detail && <Clamp lines={2}><small>{J(m.aiUse.detail)}</small></Clamp>}</dd></div>}
       </dl>
       <div className="bm-adopt"><h4>普及実績</h4>
         {main.length ? (
